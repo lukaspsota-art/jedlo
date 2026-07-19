@@ -1,0 +1,40 @@
+{
+  "id": "mrkvova-polievka-s-prazenym-cicerom",
+  "nazov": "Mrkvová polievka s praženým cícerom",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "70 min",
+  "kcal_na_porciu": 371,
+  "popis": "Krémová mrkvová polievka s korením, podávaná s praženým cícerom a sezamom.",
+  "ingrediencie": [
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Mrkva", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Zemiaky stredne veľké", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 4, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Koriander mletý", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Kmín mletý", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 1, "jednotka": "l", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Vínny ocot", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Sezamové semienka", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cícer predvarený", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Chilli mleté", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Olivový olej na cícer", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Soľ na cícer", "mnozstvo": null, "jednotka": "štipka", "poznamka": ""}
+  ],
+  "postup": [
+    "Rúru predhrejeme na 180 °C.",
+    "Cícer scedíme a zmiešame s chilli, soľou a olivovým olejom.",
+    "Rozprestrieme na plech s papierom na pečenie a pečieme pri 170-180 °C asi 30 minút.",
+    "Medzitým v hrnci rozohrejeme olivový olej, pridáme mrkvu a zemiaky nakrájané na kocky, roztlačený cesnak, koriander a kmín, restujeme 12-15 minút.",
+    "Zalejeme vývarom, prikryjeme a varíme 30 minút.",
+    "Necháme vychladnúť, rozmixujeme tyčovým mixérom a dochutíme soľou, korením a vínnym octom.",
+    "Podávame s praženým cícerom a sezamovými semienkami."
+  ],
+  "tipy": "Pražený cícer môžete podávať aj k inej polievke alebo si ho pochutnať samostatne.",
+  "foto": "",
+  "tagy": ["polievka", "mrkva", "cícer"]
+}

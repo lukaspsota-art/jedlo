@@ -1,0 +1,36 @@
+{
+  "id": "kuskus-s-pecenou-zeleninou",
+  "nazov": "Kuskus s pečenou zeleninou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 393,
+  "popis": "Kuskus zmiešaný s pečenou cuketou, baklažánom a paprikou, dochutený bazalkou a vlašskými orechmi.",
+  "ingrediencie": [
+    {"nazov": "Kuskus", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Cuketa", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Baklažán", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Paprika", "mnozstvo": 1, "jednotka": "ks", "poznamka": "stredná"},
+    {"nazov": "Sušený medvedí cesnak", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Sušený tymian", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Vlašské orechy", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Čerstvá bazalka", "mnozstvo": null, "jednotka": "hrsť", "poznamka": "nasekaná"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
+    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Kuskus zalej 300 ml vriacej vody, dosoľ a dokorenie.",
+    "Nechaj odstáť pod pokrievkou, kým sa voda nevsiakne.",
+    "Zeleninu nakrájaj na kocky a zmiešaj s olejom a korením.",
+    "Zeleninu rozlož na plech alebo na gril a pečieme 15 minút pri 180-190 °C.",
+    "Po 10 minútach prisyp na plech vlašské orechy.",
+    "Pečenú zeleninu zmiešaj s kuskusom a podávaj s nasekanou bazalkou."
+  ],
+  "tipy": "Do zmesi môžeš pridať akúkoľvek zeleninu, na ktorú máš chuť.",
+  "foto": "",
+  "tagy": ["hlavné jedlo", "kuskus", "zelenina", "pečené"]
+}

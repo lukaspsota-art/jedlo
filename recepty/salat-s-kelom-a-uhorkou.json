@@ -1,0 +1,34 @@
+{
+  "id": "salat-s-kelom-a-uhorkou",
+  "nazov": "Šalát s kelom a uhorkou",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 2,
+  "cas": "45 min",
+  "kcal_na_porciu": 523,
+  "popis": "Sýty šalát z kelu kučeravého, uhorky a avokáda s horčicovým dresingom, mandľami a tekvicovými semienkami.",
+  "ingrediencie": [
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Kel kučeravý", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Uhorka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Citrónová šťava", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Hrubozrnná horčica", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Avokádo", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Nasekané mandle", "mnozstvo": 30, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Tekvicové semienka", "mnozstvo": 30, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Vajcia uvarte namäkko alebo natvrdo podľa chuti.",
+    "Listy kelu prepláchnite pod studenou vodou a vložte do misy na miešanie.",
+    "Uhorku a avokádo nakrájajte na kocky a pridajte do misy.",
+    "Citrónovú šťavu, horčicu, soľ, korenie a olivový olej rozmixujte dohladka na dresing a zamiešajte k zelenine.",
+    "Šalát preložte do obedovej krabičky, pridajte dve uvarené vajcia, tekvicové semienka a posypte mandľami."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["šalát", "kel", "avokádo", "obed"]
+}

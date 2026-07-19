@@ -1,0 +1,38 @@
+{
+  "id": "razne-zemiakove-placky-s-hribmi",
+  "nazov": "Ražné zemiakové placky s hríbmi",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "125 min",
+  "kcal_na_porciu": 561,
+  "popis": "Zemiakové placky z ražnej múky podávané s dusenými hríbmi v smotanovej omáčke.",
+  "ingrediencie": [
+    {"nazov": "Zemiaky", "mnozstvo": 750, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Huby podľa výberu", "mnozstvo": 700, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Mandľové mlieko", "mnozstvo": 100, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Kukuričný škrob", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Rozmarín", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Celozrnná ražná múka", "mnozstvo": 170, "jednotka": "g", "poznamka": "na cesto"},
+    {"nazov": "Celozrnná ražná múka", "mnozstvo": 50, "jednotka": "g", "poznamka": "na podsypanie válu"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""}
+  ],
+  "postup": [
+    "Zemiaky uvarte v šupke domäkka, asi 45 minút.",
+    "Na prepustenom masle opečte na plátky nakrájané huby 10 minút.",
+    "Zalejte mliekom zmiešaným so škrobom a varte ďalších 5 minút, posypte rozmarínom a odstavte.",
+    "Zemiaky olúpte a rozmixujte s vajcami dohladka.",
+    "Do cesta zapracujte múku, soľ a korenie.",
+    "Z cesta na pomúčenom vále tvarujte menšie placky.",
+    "Opečte na panvici s 2 PL oleja 4 minúty z každej strany na strednom plameni.",
+    "Podávajte s opečenými hríbmi."
+  ],
+  "tipy": "Ak nemáte čerstvé huby, použite sušené namočené aspoň 1 hodinu vo vode alebo mlieku.",
+  "foto": "",
+  "tagy": ["zemiaky", "placky", "huby", "ražná múka"]
+}

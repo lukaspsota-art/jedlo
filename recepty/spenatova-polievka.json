@@ -1,0 +1,37 @@
+{
+  "id": "spenatova-polievka",
+  "nazov": "Špenátová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 4,
+  "cas": "25 min",
+  "kcal_na_porciu": 216,
+  "popis": "Krémová korenistá polievka zo špenátu s rímskou rascou a tahini.",
+  "ingrediencie": [
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Biela cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Rímska rasca", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Sušená bazalka", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Sušený koriander", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Sušené kari korenie", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 700, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Špenátové listy", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Limetková šťava", "mnozstvo": 1, "jednotka": "ks", "poznamka": "šťava z 1 limetky"},
+    {"nazov": "Tahini", "mnozstvo": 60, "jednotka": "g", "poznamka": "na podávanie"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "V hrnci rozohrejte olej, nadrobno nakrájanú cibuľu opražte a stiahnite plameň.",
+    "Pridajte pretlačený cesnak, nechajte minútu potiahnuť.",
+    "Prisypte rímsku rascu, bazalku, koriander a kari, premiešajte a zalejte vývarom.",
+    "Priveďte k varu, vhoďte špenátové listy a varte pod pokrievkou 10 minút.",
+    "Odstavte, nechajte vychladnúť a rozmixujte.",
+    "Dochuťte soľou, korením a limetkovou šťavou, podávajte s lyžičkou tahini."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["polievka", "špenát", "tahini"]
+}

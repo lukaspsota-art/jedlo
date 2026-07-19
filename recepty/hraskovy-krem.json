@@ -1,0 +1,35 @@
+{
+  "id": "hraskovy-krem",
+  "nazov": "Hráškový krém",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "35 min",
+  "kcal_na_porciu": 184,
+  "popis": "Krémová polievka z cukrového hrášku s mätou a limetkou.",
+  "ingrediencie": [
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cibuľa biela menšia", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 750, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Cukrový hrášok", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Ryžová smotana", "mnozstvo": 120, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Mätové listy", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Petržlenová vňať čerstvá", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Limetková šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Cibuľu nakrájame najemno a restujeme na 2 PL olivového oleja 4-5 minút.",
+    "Pridáme roztlačený cesnak a po 30 sekundách cukrový hrášok, smažíme 5 minút.",
+    "Zalejeme vývarom, prikryjeme a varíme 20-25 minút.",
+    "Necháme trochu vychladnúť a rozmixujeme tyčovým mixérom.",
+    "Prilejeme ryžovú smotanu, dochutíme soľou, korením a limetkovou šťavou.",
+    "Podávame posypané petržlenom a mätou."
+  ],
+  "tipy": "Chuť polievky príjemne doplní pár lyžíc cmaru pri podávaní.",
+  "foto": "",
+  "tagy": ["polievka", "hrášok", "krémová"]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cokoladove-smoothie-jahody",
+  "nazov": "Čokoládové smoothie s jahodami",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 1,
+  "cas": "10 min",
+  "kcal_na_porciu": 337,
+  "popis": "Vrstvené smoothie z čokoládovo-banánovej báze a rozdrvených jahôd s chia semienkami.",
+  "ingrediencie": [
+    { "nazov": "Jahody", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Chia semienka", "mnozstvo": 1, "jednotka": "PL" },
+    { "nazov": "Limetková šťava", "mnozstvo": 1, "jednotka": "PL" },
+    { "nazov": "Zmrazený banán", "mnozstvo": 1, "jednotka": "ks" },
+    { "nazov": "Holandské kakao", "mnozstvo": 1, "jednotka": "PL" },
+    { "nazov": "Mlieko", "mnozstvo": 250, "jednotka": "ml" },
+    { "nazov": "Javorový sirup", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "alebo med" }
+  ],
+  "postup": [
+    "Vo vysokom poháriku rozdrv vidličkou jahody s chia semienkami a limetkovou šťavou.",
+    "Zmrazený banán rozmixuj s kakaom, mliekom a sirupom dohladka.",
+    "Prelej k jahodám do pohára."
+  ],
+  "tipy": "Namiesto jahôd môžeš použiť čučoriedky s práškom acai.",
+  "foto": "",
+  "tagy": ["nápoj", "smoothie", "čokoláda", "jahody"]
+}

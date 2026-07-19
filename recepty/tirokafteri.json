@@ -1,0 +1,71 @@
+{
+  "id": "tirokafteri",
+  "nazov": "Tirokafteri",
+  "kategoria": "Nátierka",
+  "kuchyna": "Grécka",
+  "zdroj": "Kaufland FOOD magazín",
+  "porcie": 5,
+  "cas": "45 min",
+  "kcal_na_porciu": 230,
+  "popis": "Grécky pikantný dip z fety a pečenej papriky s čili a olivovým olejom.",
+  "ingrediencie": [
+    {
+      "nazov": "Feta",
+      "mnozstvo": 280,
+      "jednotka": "g",
+      "poznamka": "plus na zdobenie"
+    },
+    {
+      "nazov": "Čili paprička",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 1.5,
+      "jednotka": "ks",
+      "poznamka": "1–2 kapie"
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": "nasekaný"
+    },
+    {
+      "nazov": "Vínny ocot z červeného vína",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Extra panenský olivový olej",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "cca 2 PL"
+    },
+    {
+      "nazov": "Petržlen",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    },
+    {
+      "nazov": "Sušené čili",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Papriky peč pri 220 °C 20–30 minút, kým šupka nestmavne. Zakry na 10 minút, olúp, odstráň semienka a nakrájaj.",
+    "Do misy vlož fetu, čili papričku, pečené papriky, cesnak a ocot. Tyčovým mixérom rozmixuj a postupne prilievaj olej dohladka.",
+    "Prelož do misky, pokvapkaj olejom a ozdob fetou, petržlenom a sušeným čili."
+  ],
+  "tipy": "Ostrosť uprav množstvom čili papričky.",
+  "foto": "",
+  "tagy": [
+    "dip",
+    "grécke",
+    "feta"
+  ]
+}

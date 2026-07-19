@@ -1,0 +1,26 @@
+{
+  "id": "tunakova-pomazanka-s-chilli",
+  "nazov": "Tuniaková pomazánka s chilli",
+  "kategoria": "Nátierka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "5 min",
+  "kcal_na_porciu": 165,
+  "popis": "Ľahká nátierka z tuniaka a tvarohu s čili korením.",
+  "ingrediencie": [
+    {"nazov": "Tuniak vo vlastnej šťave", "mnozstvo": 200, "jednotka": "g"},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Tvaroh", "mnozstvo": 200, "jednotka": "g"},
+    {"nazov": "Čili korenie", "mnozstvo": 0.5, "jednotka": "ČL"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Tuniaka scedte.",
+    "V mise zmiešajte tuniaka s tvarohom, olivovým olejom, čili, soľou a korením."
+  ],
+  "tipy": "Nátierku podávajte na celozrnnom toaste so zastretým vajcom.",
+  "foto": "",
+  "tagy": ["tuniak", "nátierka", "tvaroh"]
+}

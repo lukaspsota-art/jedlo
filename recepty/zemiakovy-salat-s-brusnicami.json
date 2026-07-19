@@ -1,0 +1,30 @@
+{
+  "id": "zemiakovy-salat-s-brusnicami",
+  "nazov": "Zemiakový šalát s brusnicami",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 315,
+  "popis": "Teplý zemiakový šalát s opečenými brusnicami, jarnou cibuľkou a koriandrom.",
+  "ingrediencie": [
+    {"nazov": "Zemiaky", "mnozstvo": 800, "jednotka": "g"},
+    {"nazov": "Citrón", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": "šťava z polovice citróna"},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Jarná cibuľka", "mnozstvo": 4, "jednotka": "ks"},
+    {"nazov": "Brusnice", "mnozstvo": 100, "jednotka": "g"},
+    {"nazov": "Koriander čerstvý", "mnozstvo": 1, "jednotka": "hrsť"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Zemiaky oškrabte, nakrájajte na menšie kúsky a varte v osolenej vode do mäkka asi 25 minút.",
+    "Zmiešajte citrónovú šťavu, lyžicu olivového oleja a soľ.",
+    "Pridajte vychladnuté uvarené zemiaky a premiešajte.",
+    "Na panvici rozpáľte druhú lyžicu oleja, opečte na kolieska nakrájanú jarnú cibuľku a brusnice asi 5 minút.",
+    "Zamiešajte do šalátu, pridajte koriander a podávajte."
+  ],
+  "tipy": "Namiesto koriandra môžete použiť čerstvú petržlenovú vňať.",
+  "foto": "",
+  "tagy": ["šalát", "zemiaky", "brusnice", "príloha"]
+}

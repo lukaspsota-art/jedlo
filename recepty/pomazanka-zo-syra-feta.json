@@ -1,0 +1,29 @@
+{
+  "id": "pomazanka-zo-syra-feta",
+  "nazov": "Pomazánka zo syra feta",
+  "kategoria": "Nátierka",
+  "kuchyna": "Grécka",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 6,
+  "cas": "5 min",
+  "kcal_na_porciu": 247,
+  "popis": "Krémová nátierka z fetového syra, gréckeho jogurtu a citróna.",
+  "ingrediencie": [
+    {"nazov": "Syr feta", "mnozstvo": 400, "jednotka": "g"},
+    {"nazov": "Grécky jogurt", "mnozstvo": 200, "jednotka": "g"},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Citrónová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z 1 citróna"},
+    {"nazov": "Citrónová kôra", "mnozstvo": null, "jednotka": "", "poznamka": "z 1 citróna"},
+    {"nazov": "Dijonská horčica", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Fetu vložte do mixéra spolu s jogurtom, olivovým olejom, citrónovou šťavou, kôrou a horčicou.",
+    "Mixujte nahladko.",
+    "Dochuťte soľou a korením."
+  ],
+  "tipy": "Ak máte čerstvý kôpor, nasekajte ho nadrobno a primiešajte do nátierky.",
+  "foto": "",
+  "tagy": ["feta", "nátierka", "grécka kuchyňa"]
+}

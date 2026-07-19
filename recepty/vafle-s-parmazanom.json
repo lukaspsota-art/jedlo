@@ -1,0 +1,27 @@
+{
+  "id": "vafle-s-parmazanom",
+  "nazov": "Vafle s parmazánom",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 3,
+  "cas": "8 min",
+  "kcal_na_porciu": 236,
+  "popis": "Slané vafle z cottage syra a vajec dochutené strúhaným parmazánom.",
+  "ingrediencie": [
+    {"nazov": "Cottage syr", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Vajce", "mnozstvo": 3, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Ovsená múka", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Parmezán", "mnozstvo": 2, "jednotka": "PL", "poznamka": "strúhaný"},
+    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Všetky ingrediencie rozmixuj dohladka.",
+    "Cesto lej do rozohriateho vafľovača.",
+    "Pečieme cca 2-3 minúty podľa typu vafľovača."
+  ],
+  "tipy": "Vafle môžeš dochutiť lyžičkou tymianu alebo provensálskeho korenia, výborné sú so stratenom vajcom a šunkou.",
+  "foto": "",
+  "tagy": ["raňajky", "vafle", "parmezán", "cottage syr"]
+}

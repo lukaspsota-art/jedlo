@@ -1,0 +1,36 @@
+{
+  "id": "vianocny-salat-avokadova-majoneza",
+  "nazov": "Vianočný šalát s avokádovou majonézou",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 6,
+  "cas": "65 min",
+  "kcal_na_porciu": 586,
+  "popis": "Klasický vianočný zemiakový šalát s ľahšou majonézou z avokáda.",
+  "ingrediencie": [
+    { "nazov": "Zemiaky", "mnozstvo": 800, "jednotka": "g", "poznamka": "najlepšie salátové" },
+    { "nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks" },
+    { "nazov": "Nakladané uhorky", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Sterilovaný hrášok", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Sterilovaná krájaná mrkva", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Vajcia", "mnozstvo": 5, "jednotka": "ks" },
+    { "nazov": "Zrelé avokádo", "mnozstvo": 3, "jednotka": "ks", "poznamka": "majonéza" },
+    { "nazov": "Olivový olej", "mnozstvo": 80, "jednotka": "ml", "poznamka": "majonéza" },
+    { "nazov": "Vínny ocot", "mnozstvo": 2, "jednotka": "PL", "poznamka": "majonéza" },
+    { "nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": "majonéza, možno vynechať" },
+    { "nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka", "poznamka": "majonéza" },
+    { "nazov": "Čierne korenie", "mnozstvo": 1, "jednotka": "štipka", "poznamka": "majonéza" },
+    { "nazov": "Dijonská horčica", "mnozstvo": 1, "jednotka": "PL", "poznamka": "majonéza" }
+  ],
+  "postup": [
+    "Vajcia uvar natvrdo (10 minút), zemiaky uvar v šupke (20–30 minút podľa veľkosti).",
+    "Uhorky nakrájaj na kocky, cibuľu najemno, daj do veľkej misy s hráškom a mrkvou.",
+    "Rozmixuj avokádo, olivový olej, vínny ocot, cesnak, soľ, korenie a horčicu na majonézu, dochlaď.",
+    "Uvarené zemiaky a vajcia olúp a nakrájaj na kocky, primiešaj k zelenine.",
+    "Zalej avokádovou majonézou, premiešaj a nechaj šalát odležať v chladničke, najlepšie do druhého dňa."
+  ],
+  "tipy": "Ak máš rád v šaláte salámu, skús ho nahradiť kvalitnou kuracou šunkou.",
+  "foto": "",
+  "tagy": ["šalát", "vianoce", "zemiaky", "avokádo"]
+}

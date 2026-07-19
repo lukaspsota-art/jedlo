@@ -1,0 +1,32 @@
+{
+  "id": "cestoviny-brokolicova-omacka",
+  "nazov": "Cestoviny s brokolicovou omáčkou",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "35 min",
+  "kcal_na_porciu": 695,
+  "popis": "Celozrnné cestoviny v krémovej brokolicovej omáčke s parmezánom a orechmi.",
+  "ingrediencie": [
+    {"nazov": "Celozrnné alebo žitné cestoviny", "mnozstvo": 400, "jednotka": "g", "poznamka": "penne, špagety alebo kolienka"},
+    {"nazov": "Brokolica", "mnozstvo": 500, "jednotka": "g"},
+    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik"},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Parmezán", "mnozstvo": 80, "jednotka": "g"},
+    {"nazov": "Valeriánka", "mnozstvo": 50, "jednotka": "g", "poznamka": "možno nahradiť rukolou alebo špenátom"},
+    {"nazov": "Vlašské orechy", "mnozstvo": 100, "jednotka": "g", "poznamka": "nahrubo posekané"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Cestoviny uvarte v osolenej vode podľa návodu na obale.",
+    "V hrnci osolenej vriacej vody varte ružičky brokolice 5-7 minút domäkka.",
+    "Brokolicu vyberte a rozmixujte spolu s cesnakom, olivovým olejom, soľou, korením a parmezánom asi 2 minúty nahladko.",
+    "Omáčku zmiešajte s uvarenými cestovinami.",
+    "Posypte valeriánkou a vlašskými orechmi a podávajte."
+  ],
+  "tipy": "Cestoviny môžete na záver pokvapkať limetkovou šťavou.",
+  "foto": "",
+  "tagy": ["cestoviny", "brokolica", "orechy", "vegetariánske"]
+}

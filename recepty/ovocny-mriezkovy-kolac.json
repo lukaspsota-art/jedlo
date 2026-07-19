@@ -1,0 +1,35 @@
+{
+  "id": "ovocny-mriezkovy-kolac",
+  "nazov": "Ovocný mriežkový koláč",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 20,
+  "cas": "80 min",
+  "kcal_na_porciu": 156,
+  "popis": "Krehký koláč s jablkovo-hruškovou náplňou zdobený mriežkou z cesta.",
+  "ingrediencie": [
+    {"nazov": "Hladká špaldová múka", "mnozstvo": 400, "jednotka": "g", "poznamka": "na cesto"},
+    {"nazov": "Maslo", "mnozstvo": 120, "jednotka": "g", "poznamka": "studené, na cesto"},
+    {"nazov": "Vaječné žĺtky", "mnozstvo": 3, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Maslo", "mnozstvo": 20, "jednotka": "g", "poznamka": "na vymazanie formy"},
+    {"nazov": "Hladká špaldová múka", "mnozstvo": 50, "jednotka": "g", "poznamka": "na vysypanie formy"},
+    {"nazov": "Jablká", "mnozstvo": 200, "jednotka": "g", "poznamka": "na náplň"},
+    {"nazov": "Hrušky", "mnozstvo": 200, "jednotka": "g", "poznamka": "na náplň"},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na náplň"},
+    {"nazov": "Kokosový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na náplň"},
+    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": "na potretie"}
+  ],
+  "postup": [
+    "Múku preosejte do misy, primiešajte maslo, žĺtky a 5 PL vody, cesto vypracujte do hladkej gule bez kúskov masla, zabaľte a dajte odležať do chladničky.",
+    "Pripravte náplň - jablká a hrušky očistite, nakrájajte na kocky a zmiešajte s medom a kokosovým olejom. Rúru predhrejte na 180 °C.",
+    "Cesto rozdeľte na tretiny, dve tretiny vyváľajte na kruh o niečo väčší ako forma a vyložte ním vymazanú a vysypanú formu.",
+    "Prebytočné okraje odrežte a pridajte k zvyšnej tretine cesta.",
+    "Náplň nalejte na cesto vo forme.",
+    "Z poslednej tretiny cesta vyváľajte placku, nakrájajte na prúžky, časť upleťte do vrkočov a poukladajte na koláč, potrite rozšľahaným vajcom.",
+    "Pečte 45-50 minút pri 170-180 °C."
+  ],
+  "tipy": "Namiesto pečeného ovocia môžete použiť domácu marmeládu. Ak sa cesto nedá spojiť, prilejte viac vody alebo pridajte žĺtok.",
+  "foto": "",
+  "tagy": ["koláč", "jablká", "hrušky", "dezert"]
+}

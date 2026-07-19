@@ -1,0 +1,27 @@
+{
+  "id": "kokosovy-karamel",
+  "nazov": "Kokosový karamel",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 1,
+  "cas": "40 min",
+  "kcal_na_porciu": 1198,
+  "popis": "Domáci karamel z kokosového mlieka a cukru na dochutenie dezertov.",
+  "ingrediencie": [
+    {"nazov": "Kokosové mlieko z plechovky", "mnozstvo": 400, "jednotka": "g"},
+    {"nazov": "Kokosový cukor", "mnozstvo": 50, "jednotka": "g"},
+    {"nazov": "Kokosový olej", "mnozstvo": 20, "jednotka": "g"},
+    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"}
+  ],
+  "postup": [
+    "Kokosové mlieko s cukrom zohrievajte v kastróliku na strednom plameni.",
+    "Po 10 minútach znížte plameň a za stáleho miešania zahusťujte 25–30 minút.",
+    "Nakoniec vmiešajte kokosový olej a štipku soli.",
+    "Karamel necháte vychladnúť a preložte do uzatvárateľnej sklenej nádoby.",
+    "Vydrží asi týždeň v chladničke."
+  ],
+  "tipy": "Karamelom môžete dosladiť dezerty, jogurt alebo ho použiť ako polevu na bábovku.",
+  "foto": "",
+  "tagy": ["dezert", "karamel", "kokos", "poleva"]
+}

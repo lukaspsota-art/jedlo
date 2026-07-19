@@ -1,0 +1,35 @@
+{
+  "id": "dusene-musle",
+  "nazov": "Dusené mušle",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "37 min",
+  "kcal_na_porciu": 396,
+  "popis": "Mušle dusené v paradajkovej omáčke s cesnakom, maslom a čerstvými bylinkami.",
+  "ingrediencie": [
+    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Paradajky krájané (konzerva)", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Mušle", "mnozstvo": 1.5, "jednotka": "kg", "poznamka": ""},
+    {"nazov": "Prepustené maslo", "mnozstvo": 80, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Citrónová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z 0.5 citróna"},
+    {"nazov": "Estragón čerstvý", "mnozstvo": null, "jednotka": "hrsť", "poznamka": "možno vynechať"},
+    {"nazov": "Petržlenová vňať jemne nasekaná", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Celozrnné pečivo", "mnozstvo": null, "jednotka": "", "poznamka": "na podávanie"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "V hlbšej panvici rozohrejeme asi 20 g prepusteného masla.",
+    "Spenníme roztlačený cesnak a nahrubo nasekané šalotky.",
+    "Po 3 minútach pridáme paradajky a restujeme ďalšie 2 minúty.",
+    "Pridáme mušle, premiešame, prilejeme 300 ml vody a prikryté dusíme 4 minúty.",
+    "Odstavíme, vmiešame zvyšné prepustené maslo, citrónovú šťavu, estragón a petržlen.",
+    "Dochutíme soľou a korením a podávame s celozrnným pečivom."
+  ],
+  "tipy": "K mušliam sa skvele hodia aj celozrnné špagety.",
+  "foto": "",
+  "tagy": ["mušle", "morské plody", "dusené"]
+}

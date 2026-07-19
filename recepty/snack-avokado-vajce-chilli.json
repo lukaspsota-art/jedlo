@@ -1,0 +1,23 @@
+{
+  "id": "snack-avokado-vajce-chilli",
+  "nazov": "Snack: avokádo s vajcom a chilli",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 1,
+  "cas": "10 min",
+  "kcal_na_porciu": 254,
+  "popis": "Vajcom naplnená štvrtina avokáda dochutená chilli.",
+  "ingrediencie": [
+    {"nazov": "Avokádo", "mnozstvo": 0.25, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Chilli mleté", "mnozstvo": 0.25, "jednotka": "ČL", "poznamka": ""}
+  ],
+  "postup": [
+    "Vajce uvaríme podľa chuti (napr. na tvrdo alebo namäkko).",
+    "Avokádo naplníme uvareným vajcom a posypeme mletým chilli."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["snack", "avokádo", "vajce", "chilli"]
+}

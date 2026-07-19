@@ -1,0 +1,25 @@
+{
+  "id": "tuniakova-natierka-s-koriandrom",
+  "nazov": "Tuniaková nátierka s koriandrom",
+  "kategoria": "Nátierka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "5 min",
+  "kcal_na_porciu": 106,
+  "popis": "Ľahká nátierka z tuniaka a ricotty s limetkou a chilli.",
+  "ingrediencie": [
+    {"nazov": "Ricotta", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Tuniak vo vlastnej šťave", "mnozstvo": 120, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Limetková šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Mleté chilli", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Mletý koriander", "mnozstvo": null, "jednotka": "", "poznamka": "štipka"}
+  ],
+  "postup": [
+    "Všetky ingrediencie zmiešajte, prípadne vyšľahajte v robote."
+  ],
+  "tipy": "Nátierku môžete použiť na zdravšiu verziu jednohubiek.",
+  "foto": "",
+  "tagy": ["tuniak", "nátierka", "ricotta", "rýchle"]
+}

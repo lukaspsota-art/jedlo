@@ -1,0 +1,24 @@
+{
+  "id": "arasidove-kosicky",
+  "nazov": "Arašidové košíčky",
+  "kategoria": "Dezert",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 10,
+  "cas": "15 min",
+  "kcal_na_porciu": 161,
+  "popis": "Rýchle nepečené košíčky z horkej čokolády plnené arašidovým maslom.",
+  "ingrediencie": [
+    { "nazov": "Horká čokoláda", "mnozstvo": 200, "jednotka": "g", "poznamka": "kvalitná" },
+    { "nazov": "Arašidové maslo", "mnozstvo": 90, "jednotka": "g" }
+  ],
+  "postup": [
+    "Čokoládu rozpusti vo vodnom kúpeli.",
+    "Do papierových košíčkov nalej po 2 ČL rozpustenej čokolády, daj na 10 minút do mrazničky.",
+    "Doprostred každého košíčka daj lyžičku arašidového masla, prelej ďalšími 2 ČL čokolády.",
+    "Vráť do mrazničky na ďalších 10 minút."
+  ],
+  "tipy": "Do arašidového masla pred plnením primiešaj 2 PL strúhaného kokosu.",
+  "foto": "",
+  "tagy": ["dezert", "čokoláda", "arašidy", "bez pečenia"]
+}

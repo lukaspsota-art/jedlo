@@ -1,0 +1,33 @@
+{
+  "id": "olivove-placky",
+  "nazov": "Olivové placky",
+  "kategoria": "Príloha",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 5,
+  "cas": "30 min",
+  "kcal_na_porciu": 424,
+  "popis": "Rýchle placky zo špaldovej a pohánkovej múky s olivami a sušenými paradajkami.",
+  "ingrediencie": [
+    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 200, "jednotka": "g", "poznamka": "+ 50 g na posypanie vala"},
+    {"nazov": "Pohánková múka", "mnozstvo": 170, "jednotka": "g"},
+    {"nazov": "Prášok do pečiva", "mnozstvo": 3, "jednotka": "ČL"},
+    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Sušené oregano", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Zelené olivy", "mnozstvo": 100, "jednotka": "g"},
+    {"nazov": "Sušené paradajky v olivovom oleji", "mnozstvo": 50, "jednotka": "g"},
+    {"nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL"},
+    {"nazov": "Biely alebo grécky jogurt", "mnozstvo": 300, "jednotka": "g"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 200 °C.",
+    "Olivy so sušenými paradajkami nasekajte nadrobno.",
+    "Vo väčšej mise zmiešajte všetky ingrediencie na hladké cesto.",
+    "Cesto rozdeľte na 8 rovnakých dielov a na pomúčenom vále vyváľajte placky vysoké asi 1 cm.",
+    "Placky uložte na plech s papierom na pečenie.",
+    "Pečte pri 190-200 °C asi 15 minút."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["placky", "olivy", "sušené paradajky"]
+}

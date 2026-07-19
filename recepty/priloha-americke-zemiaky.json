@@ -1,0 +1,50 @@
+{
+  "id": "priloha-americke-zemiaky",
+  "nazov": "Americké zemiaky",
+  "kategoria": "Príloha",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "40 min",
+  "popis": "Pečené zemiakové mesiačiky so šupkou, cesnakom a paprikou.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 1000,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 5,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Zemiaky so šupkou nakrájaj na mesiačiky.",
+    "Premiešaj s olejom, prelisovaným cesnakom, paprikou a soľou.",
+    "Peč pri 200 °C 30–35 min."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "zemiaky",
+    "pečené"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "muhammara",
+  "nazov": "Muhammara",
+  "kategoria": "Nátierka",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "Kaufland FOOD magazín",
+  "porcie": 6,
+  "cas": "40 min",
+  "kcal_na_porciu": 220,
+  "popis": "Sýrsky dip z pečenej červenej papriky a vlašských orechov s granátovým sirupom a čili.",
+  "ingrediencie": [
+    {
+      "nazov": "Červená paprika",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": "kapie"
+    },
+    {
+      "nazov": "Extra panenský olivový olej",
+      "mnozstvo": 4,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 115,
+      "jednotka": "g",
+      "poznamka": "lúpané opražené"
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": "nasekaný"
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 2.5,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Strúhanka",
+      "mnozstvo": 0.75,
+      "jednotka": "šálka"
+    },
+    {
+      "nazov": "Granátový sirup",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": "melasa"
+    },
+    {
+      "nazov": "Čili vločky",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Kajenské korenie",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": "voliteľné"
+    }
+  ],
+  "postup": [
+    "Papriky potri 1 PL oleja a peč pri 220 °C asi 30 minút, počas pečenia otoč. Vlož do misy, zakry fóliou, nechaj spariť, potom olúp, odstráň semienka a nakrájaj.",
+    "Do nádoby daj pečené papriky, 3 PL oleja, cesnak, orechy, pretlak, strúhanku, granátový sirup, čili, cukor, soľ a kajenské korenie a mixuj dohladka.",
+    "Pred podávaním pokvapkaj olivovým olejom."
+  ],
+  "tipy": "Hodí sa k steaku, grilovanému kuraťu, špízom aj lososovi.",
+  "foto": "",
+  "tagy": [
+    "dip",
+    "nátierka",
+    "orechy"
+  ]
+}

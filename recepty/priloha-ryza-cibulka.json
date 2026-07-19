@@ -1,0 +1,49 @@
+{
+  "id": "priloha-ryza-cibulka",
+  "nazov": "Dusená ryža s cibuľkou",
+  "kategoria": "Príloha",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "20 min",
+  "popis": "Ryža podusená na cibuľke a masle.",
+  "ingrediencie": [
+    {
+      "nazov": "Ryža",
+      "mnozstvo": 240,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 480,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Cibuľu nakrájaj najemno a osmaž na masle do sklovita.",
+    "Pridaj ryžu a minútu opekaj.",
+    "Zalej vodou, osoľ, prikry a dus 12 min."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "ryža"
+  ]
+}

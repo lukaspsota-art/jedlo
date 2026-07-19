@@ -1,0 +1,35 @@
+{
+  "id": "polievka-z-cervenej-repy",
+  "nazov": "Polievka z červenej repy",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "65 min",
+  "kcal_na_porciu": 99,
+  "popis": "Krémová polievka z červenej repy dochutená tymianom, cesnakom a vínnym octom.",
+  "ingrediencie": [
+    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cibuľa biela", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Červená repa surová", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Tymian sušený", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Vývar", "mnozstvo": 500, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Chilli mleté", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Vínny ocot", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Petržlenová vňať", "mnozstvo": null, "jednotka": "hrsť", "poznamka": "na podávanie"}
+  ],
+  "postup": [
+    "Cibuľu nakrájame najemno a osmahneme vo väčšom hrnci na prepustenom masle 2-3 minúty.",
+    "Repu olúpeme, nakrájame na kocky, pridáme do hrnca, zasypeme tymianom a restujeme s cibuľou 5 minút.",
+    "Zalejeme vývarom, prikryjeme a varíme asi 35 minút.",
+    "Odstavíme a rozmixujeme tyčovým mixérom dohladka.",
+    "Pridáme roztlačený cesnak, mleté chilli, vínny ocot a dochutíme soľou a korením.",
+    "Podávame posypané čerstvou petržlenovou vňaťou."
+  ],
+  "tipy": "Polievku môžete podávať s knedličkou zakysanej smotany zmiešanej so sezónnymi bylinkami.",
+  "foto": "",
+  "tagy": ["polievka", "repa", "krémová"]
+}

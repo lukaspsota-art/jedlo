@@ -1,0 +1,37 @@
+{
+  "id": "donuty",
+  "nazov": "Donuty",
+  "kategoria": "Dezert",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 6,
+  "cas": "25 min",
+  "kcal_na_porciu": 192,
+  "popis": "Pečené donuty z banánového cesta s tvarohovo-banánovou polevou a pistáciami.",
+  "ingrediencie": [
+    {"nazov": "Banán", "mnozstvo": 1, "jednotka": "ks"},
+    {"nazov": "Ovsené vločky jemne mleté", "mnozstvo": 120, "jednotka": "g"},
+    {"nazov": "Datľový sirup", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Kokosový olej rozpustený", "mnozstvo": 20, "jednotka": "g"},
+    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"},
+    {"nazov": "Tvaroh", "mnozstvo": 100, "jednotka": "g", "poznamka": "na polevu"},
+    {"nazov": "Banán", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": "na polevu"},
+    {"nazov": "Datľový sirup", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na polevu"},
+    {"nazov": "Prášok z acai berry", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na polevu"},
+    {"nazov": "Pistácie nesolené nasekané", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": "na ozdobenie"},
+    {"nazov": "Chia semienka", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na ozdobenie"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 180 °C.",
+    "Banán rozmačkajte v mise vidličkou.",
+    "Pridajte vločky, datľový sirup, kokosový olej, vanilkový extrakt, kypriaci prášok a soľ, dôkladne premiešajte.",
+    "Cesto rozdeľte do nepriľnavej formy na donuty a pečte pri 170–180 °C asi 10 minút.",
+    "Medzitým rozmixujte tvaroh, banán, datľový sirup a acai berry na polevu.",
+    "Vychladnuté donuty polejte polevou a posypte pistáciami a chia semienkami."
+  ],
+  "tipy": "Donuty môžete posypať orechmi, sušeným ovocím alebo čokoládovými pecičkami.",
+  "foto": "",
+  "tagy": ["dezert", "donuty", "banán", "pečené"]
+}

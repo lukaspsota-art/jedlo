@@ -1,0 +1,36 @@
+{
+  "id": "polievka-z-cervenej-sosovice",
+  "nazov": "Polievka z červenej šošovice",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "45 min",
+  "kcal_na_porciu": 251,
+  "popis": "Hustá zeleninová polievka s červenou šošovicou, mrkvou a paradajkami.",
+  "ingrediencie": [
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Jarná cibuľka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Mrkva", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": "roztlačený"},
+    {"nazov": "Paradajkový pretlak bez cukru", "mnozstvo": 30, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Krájané paradajky", "mnozstvo": 200, "jednotka": "g", "poznamka": "z konzervy"},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 1, "jednotka": "l", "poznamka": ""},
+    {"nazov": "Červená šošovica", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Sušený tymian", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
+    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Na olivovom oleji orestuj najemno nakrájanú cibuľku.",
+    "Pridaj mrkvu nakrájanú na kolieska a opekaj cca 5 minút.",
+    "Vmiešaj roztlačený cesnak a opekaj ďalšie 2 minúty.",
+    "Zamiešaj paradajkový pretlak, paradajky a zalej vývarom.",
+    "Priveď do varu, pridaj červenú šošovicu a tymian.",
+    "Var do zmäknutia šošovice, cca 25 minút.",
+    "Dochuť soľou a korením."
+  ],
+  "tipy": "Ak máš rád pikantné jedlá, prisyp do polievky štipku sušeného chilli.",
+  "foto": "",
+  "tagy": ["polievka", "šošovica", "mrkva", "zelenina"]
+}

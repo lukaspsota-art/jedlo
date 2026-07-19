@@ -1,0 +1,40 @@
+{
+  "id": "jahodova-pena",
+  "nazov": "Jahodová pena",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Kaufland FOOD magazín",
+  "porcie": 4,
+  "cas": "10 min + chladenie",
+  "kcal_na_porciu": 280,
+  "popis": "Rýchla nadýchaná pena z čerstvých jahôd a šľahačky.",
+  "ingrediencie": [
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 400,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": "jemný"
+    },
+    {
+      "nazov": "Šľahačková smotana",
+      "mnozstvo": 300,
+      "jednotka": "ml"
+    }
+  ],
+  "postup": [
+    "Štyri jahody odlož na ozdobu. Zvyšné zbav stopiek, nahrubo nakrájaj, pridaj cukor a rozmixuj dohladka.",
+    "Smotanu vyšľahaj a opatrne vmiešaj do jahodovej zmesi do rovnomernej ružovej farby. Naber do pohárov a chlaď aspoň hodinu. Pred podávaním ozdob nakrájanými jahodami."
+  ],
+  "tipy": "Smotanu zapracuj jemne, aby pena zostala nadýchaná.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "jahody",
+    "rýchle"
+  ]
+}

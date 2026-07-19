@@ -1,0 +1,28 @@
+{
+  "id": "celozrnna-bruschetta",
+  "nazov": "Celozrnná bruschetta",
+  "kategoria": "Nátierka",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 5,
+  "cas": "25 min",
+  "kcal_na_porciu": 157,
+  "popis": "Talianska bruschetta s paradajkami, cesnakom a bazalkou.",
+  "ingrediencie": [
+    {"nazov": "Celozrnný chlieb", "mnozstvo": 5, "jednotka": "plátok", "poznamka": "na bruschettu"},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Paradajky", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Čerstvá bazalka", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Balzamikový ocot", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Paradajky nakrájajte na kocky, zmiešajte s prelisovaným cesnakom, nasekanou bazalkou, balzamikovým octom, soľou a olivovým olejom.",
+    "Plátky chleba opečte nasucho z oboch strán na panvici.",
+    "Na každý plátok naložte pripravené paradajky a podávajte."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["bruschetta", "paradajky", "bazalka", "talianske"]
+}

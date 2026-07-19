@@ -1,0 +1,33 @@
+{
+  "id": "brokolicove-muffiny",
+  "nazov": "Brokolicové muffiny",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 12,
+  "cas": "50 min",
+  "kcal_na_porciu": 60,
+  "popis": "Slané muffiny z brokolice, mozzarelly a šampiňónov.",
+  "ingrediencie": [
+    { "nazov": "Brokolicové ružičky", "mnozstvo": 200, "jednotka": "g", "poznamka": "surové" },
+    { "nazov": "Vajcia", "mnozstvo": 4, "jednotka": "ks" },
+    { "nazov": "Nastrúhaná mozzarella", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL" },
+    { "nazov": "Hnedé šampiňóny", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Rímska rasca", "mnozstvo": 0.5, "jednotka": "ČL" },
+    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" },
+    { "nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" }
+  ],
+  "postup": [
+    "Rúru predhrej na 170 °C.",
+    "Ružičky brokolice var vo vriacej osolenej vode 6 minút.",
+    "Šampiňóny nakrájaj na plátky a orestuj na oleji, odstav.",
+    "Brokolicu sceď, nahrubo nasekaj a zmiešaj s vajcami, mozzarellou a orestovanými šampiňónmi.",
+    "Dochuť soľou, korením a rímskou rascou.",
+    "Rozdeľ do 12 košíčkov na muffiny.",
+    "Pečieme pri 160–170 °C 20–25 minút."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["snack", "brokolica", "muffin", "proteín"]
+}

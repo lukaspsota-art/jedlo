@@ -1,0 +1,32 @@
+{
+  "id": "plnene-cokoladove-muffiny",
+  "nazov": "Plnené čokoládové muffiny",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 6,
+  "cas": "45 min",
+  "kcal_na_porciu": 301,
+  "popis": "Čokoládové muffiny plnené krémovou náplňou zo smotanového syra.",
+  "ingrediencie": [
+    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Holandské kakao", "mnozstvo": 20, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Prášok do pečiva", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Stévia", "mnozstvo": 2, "jednotka": "ČL", "poznamka": "alebo med"},
+    {"nazov": "Mlieko", "mnozstvo": 230, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Olej", "mnozstvo": 30, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Smotanový syr", "mnozstvo": 200, "jednotka": "g", "poznamka": "na náplň"},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "ČL", "poznamka": "na náplň"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 175 °C.",
+    "V miske zmiešajte múku, kakao a prášok do pečiva.",
+    "V druhej nádobe vyšľahajte stéviu, mlieko a olej a spojte s múčnou zmesou.",
+    "Vyšľahajte smotanový syr s medom na náplň.",
+    "Do každej z 6 formičiek dajte postupne 1 PL cesta, 1 PL náplne a znova 1 PL cesta.",
+    "Pečte 15-20 minút pri 165-175 °C."
+  ],
+  "tipy": "Pri nahradení stévie medom sa zvýši kalorická hodnota.",
+  "foto": "",
+  "tagy": ["muffiny", "čokoláda", "smotanový syr", "dezert"]
+}

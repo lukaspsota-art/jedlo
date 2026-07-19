@@ -1,0 +1,31 @@
+{
+  "id": "hraskove-pyre-peceny-losos-chlieb",
+  "nazov": "Hráškové pyré a pečený losos na celozrnnom chlebe",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 6,
+  "cas": "38 min",
+  "kcal_na_porciu": 236,
+  "popis": "Toasty s hráškovým pyré a natrhaným pečeným lososom.",
+  "ingrediencie": [
+    { "nazov": "Filé z lososa", "mnozstvo": 200, "jednotka": "g" },
+    { "nazov": "Celozrnný chlieb", "mnozstvo": 6, "jednotka": "plátok" },
+    { "nazov": "Cukrový hrášok", "mnozstvo": 250, "jednotka": "g" },
+    { "nazov": "Cottage syr", "mnozstvo": 180, "jednotka": "g" },
+    { "nazov": "Jogurt", "mnozstvo": 50, "jednotka": "g" },
+    { "nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "ČL" },
+    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" },
+    { "nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" }
+  ],
+  "postup": [
+    "Rúru predhrej na 170 °C. Lososa osoľ, opeprí a peč s kožou 15–18 minút pri 160–170 °C.",
+    "Cukrový hrášok preper a rozmixuj s cottage syrom a jogurtom na pyré, dochuť soľou, korením a citrónovou šťavou.",
+    "Plátky chleba podľa chuti opeč.",
+    "Na každý plátok rozotri lyžicu hráškového pyré.",
+    "Upečeného lososa vidličkou natrhaj na kúsky a rozlož na chlieb s pyré."
+  ],
+  "tipy": "Lososa po upečení posyp chilli vločkami alebo mletým korením pre ostrejšiu chuť.",
+  "foto": "",
+  "tagy": ["raňajky", "losos", "hrášok", "chlieb"]
+}

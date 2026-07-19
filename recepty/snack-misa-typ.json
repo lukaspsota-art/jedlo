@@ -1,0 +1,43 @@
+{
+  "id": "snack-misa-typ",
+  "nazov": "Tvarohový krém (typ Miša)",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Sladký tvarohový krém s čokoládou.",
+  "ingrediencie": [
+    {
+      "nazov": "Tvaroh",
+      "mnozstvo": 90,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 10,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 10,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Čokoláda",
+      "mnozstvo": 15,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Tvaroh vymiešaj s cukrom a mäkkým maslom.",
+    "Posyp nastrúhanou čokoládou."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "dezert",
+    "kupované"
+  ]
+}

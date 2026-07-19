@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moja kuchárka</title>
+<meta name="theme-color" content="#1f5c3c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Kuchárka">
+<link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22Moja%20kuch%C3%A1rka%22%2C%22short_name%22%3A%22Kuch%C3%A1rka%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23f7f5f0%22%2C%22theme_color%22%3A%22%231f5c3c%22%7D">
+<style>
+  :root{
+    --bg:#f7f5f0; --panel:#fff; --ink:#2b2b2b; --muted:#7a7568;
+    --accent:#2e7d54; --accent-dark:#1f5c3c; --line:#e6e2d8; --chip:#efece4;
+    --warn:#c0392b; --gold:#e0a800; --shadow:0 2px 10px rgba(0,0,0,.06);
+    --sidebar:210px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+  a{color:inherit}
+  /* layout */
+  .app{display:flex;min-height:100vh}
+  .side{width:var(--sidebar);background:var(--accent-dark);color:#fff;display:flex;flex-direction:column;position:sticky;top:0;height:100vh;flex-shrink:0}
+  .side .brand{padding:20px 18px 14px;font-size:19px;font-weight:600;display:flex;align-items:center;gap:8px}
+  .side nav{display:flex;flex-direction:column;padding:6px 10px;gap:2px;flex:1}
+  .side nav a{display:flex;align-items:center;gap:11px;padding:11px 12px;border-radius:10px;color:#e9f2ec;text-decoration:none;font-size:15px;cursor:pointer}
+  .side nav a .ic{font-size:18px;width:20px;text-align:center}
+  .side nav a:hover{background:rgba(255,255,255,.10)}
+  .side nav a.active{background:#fff;color:var(--accent-dark);font-weight:600}
+  .side .foot{padding:12px;border-top:1px solid rgba(255,255,255,.15);display:flex;flex-direction:column;gap:2px}
+  .side .foot a{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:9px;color:#dce8e0;text-decoration:none;font-size:14px;cursor:pointer}
+  .side .foot a:hover{background:rgba(255,255,255,.10)}
+  .main{flex:1;min-width:0;display:flex;flex-direction:column}
+  .topbar{display:none}
+  .content{padding:22px 26px 60px;max-width:1050px;width:100%;margin:0 auto}
+  .view{display:none}
+  .view.active{display:block}
+  h2.h{font-size:22px;margin:0 0 4px}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 20px}
+  /* dashboard */
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:22px}
+  .tile{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+  .tile .lbl{font-size:12.5px;color:var(--muted)}
+  .tile .val{font-size:26px;font-weight:600;color:var(--accent-dark);margin-top:2px}
+  .tile .val small{font-size:14px;font-weight:400;color:var(--muted)}
+  .panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:20px;box-shadow:var(--shadow)}
+  .panel h3{margin:0 0 12px;font-size:16px;color:var(--accent-dark)}
+  .qa{display:flex;gap:10px;flex-wrap:wrap}
+  .qa button{flex:1;min-width:140px}
+  .dnes{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  .dnes .thumb{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#dfe8e0,#c8d8cc);display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--accent-dark);flex-shrink:0;overflow:hidden}
+  .dnes .thumb img{width:100%;height:100%;object-fit:cover}
+  .dnes .nm{font-weight:600;font-size:17px}
+  .dnes .mt{color:var(--muted);font-size:13px}
+  /* filtre + karty */
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
+  #hladaj{flex:1;min-width:200px;padding:11px 14px;border:1px solid var(--line);border-radius:10px;font-size:15px;background:#fff}
+  select.f{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:14px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:7px 13px;border-radius:20px;cursor:pointer;font-size:14px;user-select:none}
+  .chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer;box-shadow:var(--shadow);transition:transform .12s,box-shadow .12s;position:relative}
+  .card:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,.10)}
+  .card .thumb{height:120px;background:linear-gradient(135deg,#dfe8e0,#c8d8cc);display:flex;align-items:center;justify-content:center;font-size:40px;color:var(--accent-dark)}
+  .card .thumb img{width:100%;height:100%;object-fit:cover}
+  .fav{position:absolute;top:8px;right:8px;background:rgba(255,255,255,.92);border:none;border-radius:50%;width:34px;height:34px;font-size:18px;cursor:pointer;line-height:1;color:var(--gold)}
+  .card .body{padding:12px 15px}
+  .card .kat{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#fff;background:var(--accent);padding:3px 9px;border-radius:12px}
+  .card h3{margin:8px 0 5px;font-size:16px}
+  .card .meta{font-size:12.5px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+  .card .stars{color:var(--gold);font-size:13px;margin-top:5px;min-height:16px}
+  .card .diet{margin-top:6px;display:flex;gap:4px;flex-wrap:wrap}
+  .badge{font-size:10.5px;padding:2px 7px;border-radius:10px;background:#eef3ef;color:var(--accent-dark);border:1px solid #d9e6dd}
+  .badge.alerg{background:#fbefec;color:var(--warn);border-color:#f0d5cf}
+  .badge.price{background:#fff6e6;color:#8a6100;border-color:#f0e0be}
+  .empty{padding:50px 20px;text-align:center;color:var(--muted)}
+  /* modal */
+  .overlay{position:fixed;inset:0;background:rgba(20,20,20,.55);display:none;align-items:flex-start;justify-content:center;padding:30px 16px;z-index:60;overflow-y:auto}
+  .overlay.open{display:flex}
+  .modal{background:#fff;max-width:730px;width:100%;border-radius:16px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.3)}
+  .modal .hero{background:var(--accent-dark);color:#fff;padding:20px 24px;position:relative}
+  .modal .hero h2{margin:0 40px 6px 0;font-size:23px}
+  .modal .hero .subx{font-size:13px;opacity:.85}
+  .modal .close{position:absolute;top:14px;right:16px;background:rgba(255,255,255,.15);border:none;color:#fff;width:32px;height:32px;border-radius:50%;font-size:18px;cursor:pointer}
+  .modal .content2{padding:20px 24px 30px}
+  .popis{color:var(--muted);font-style:italic;margin:0 0 14px}
+  .row-badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+  .porcie-box{display:flex;align-items:center;gap:10px;background:var(--chip);padding:12px 16px;border-radius:12px;margin-bottom:8px;flex-wrap:wrap}
+  .porcie-box label{font-weight:600}
+  .stepper{display:flex;align-items:center;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff}
+  .stepper button{width:36px;height:36px;border:none;background:#fff;font-size:20px;cursor:pointer;color:var(--accent-dark)}
+  .stepper button:hover{background:var(--chip)}
+  .stepper span{min-width:40px;text-align:center;font-weight:600}
+  .mini{border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;cursor:pointer;font-size:13px}
+  .mini.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .nutri{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:14px 0 4px}
+  .nutri div{background:#f3f8f4;border:1px solid #d9e6dd;border-radius:10px;padding:10px;text-align:center}
+  .nutri b{display:block;font-size:18px;color:var(--accent-dark)}
+  .nutri small{color:var(--muted);font-size:11px}
+  h4.sekcia{margin:20px 0 10px;color:var(--accent-dark);font-size:16px;border-bottom:2px solid var(--line);padding-bottom:6px}
+  table.ing{width:100%;border-collapse:collapse}
+  table.ing td{padding:8px 6px;border-bottom:1px solid var(--line);font-size:15px}
+  table.ing td.mn{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--accent-dark);font-weight:600}
+  table.ing td .pozn{color:var(--muted);font-size:13px;font-style:italic}
+  .subst{font-size:13px;color:var(--muted);background:#faf8f2;border:1px dashed var(--line);border-radius:10px;padding:10px 12px;margin-top:10px}
+  .subst b{color:var(--accent-dark)}
+  ol.postup{padding-left:22px;margin:0}
+  ol.postup li{margin-bottom:11px;font-size:15px}
+  .tipy{background:#f3f8f4;border-left:3px solid var(--accent);padding:12px 16px;border-radius:8px;margin-top:16px;font-size:14px}
+  .zdroj{margin-top:14px;font-size:13px;color:var(--muted)}
+  .hodnotenie{display:flex;align-items:center;gap:10px;margin-top:16px;flex-wrap:wrap}
+  .starpick span{font-size:24px;cursor:pointer;color:#ccc}
+  .starpick span.on{color:var(--gold)}
+  textarea.pozn{width:100%;min-height:60px;border:1px solid var(--line);border-radius:10px;padding:10px;font-size:14px;font-family:inherit;margin-top:8px}
+  .btn-row{margin-top:20px;display:flex;gap:10px;flex-wrap:wrap}
+  .btn{border:1px solid var(--line);background:#fff;padding:9px 16px;border-radius:10px;cursor:pointer;font-size:14px}
+  .btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+  /* plánovač */
+  .plan-head{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+  .plan-grid{overflow-x:auto}
+  table.plan{border-collapse:collapse;width:100%;min-width:740px}
+  table.plan th,table.plan td{border:1px solid var(--line);padding:6px;vertical-align:top;background:#fff}
+  table.plan th{background:var(--accent-dark);color:#fff;font-weight:600;font-size:14px}
+  table.plan td{width:13%;height:66px}
+  table.plan td.slotname{background:var(--chip);font-weight:600;font-size:13px;width:88px}
+  .plan-cell{cursor:pointer;font-size:13px;border-radius:8px;padding:6px;min-height:52px;display:flex;flex-direction:column;gap:3px;justify-content:center}
+  .plan-cell:hover{background:#f3f8f4}
+  .plan-cell .nm{font-weight:600;line-height:1.2}
+  .plan-cell .kc{color:var(--muted);font-size:11.5px}
+  .plan-cell .rm{align-self:flex-end;color:var(--warn);font-size:11px;cursor:pointer}
+  .plan-cell.prazdne{color:#bbb;justify-content:center;align-items:center;text-align:center}
+  tr.suma td{background:#eef3ef;font-weight:600;font-size:13px;text-align:center}
+  tr.suma td.over{color:var(--warn)}
+  /* nákup / doma / výživa */
+  .odd{margin-bottom:18px}
+  .odd h4{margin:0 0 8px;color:var(--accent-dark);font-size:15px;border-bottom:2px solid var(--line);padding-bottom:5px}
+  .odd label{display:flex;gap:10px;padding:6px 4px;font-size:15px;cursor:pointer;align-items:center;justify-content:space-between}
+  .odd label .nm2{display:flex;gap:10px;align-items:center}
+  .odd label.checked .nm2{text-decoration:line-through;color:var(--muted)}
+  .odd label .cena{color:var(--muted);font-size:13px;white-space:nowrap}
+  .doma-in{width:100%;min-height:70px;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:15px;font-family:inherit}
+  .match{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:10px}
+  .match .bar{height:8px;background:#eee;border-radius:5px;overflow:hidden;margin:6px 0}
+  .match .bar i{display:block;height:100%;background:var(--accent)}
+  .info{color:var(--muted);font-size:13px}
+  .chart{display:flex;align-items:flex-end;gap:10px;height:180px;padding:10px 0 0;border-bottom:2px solid var(--line)}
+  .chart .col{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end}
+  .chart .bar2{width:70%;background:var(--accent);border-radius:6px 6px 0 0;min-height:2px;position:relative}
+  .chart .bar2.over{background:var(--warn)}
+  .chart .d{font-size:12px;color:var(--muted)}
+  .chart .v{font-size:11px;color:var(--accent-dark);font-weight:600}
+  .goalline{position:relative;height:0;border-top:2px dashed var(--gold)}
+  .field{display:flex;flex-direction:column;gap:5px;margin-bottom:14px}
+  .field label{font-size:14px;font-weight:500}
+  .field input[type=number]{width:130px;padding:9px 11px;border:1px solid var(--line);border-radius:9px;font-size:15px}
+  .switch{display:flex;align-items:center;gap:10px;font-size:15px;padding:7px 0}
+  /* režim varenia */
+  .cook{position:fixed;inset:0;background:#111;color:#fff;z-index:80;display:none;flex-direction:column;padding:24px}
+  .cook.open{display:flex}
+  .cook .ch{display:flex;justify-content:space-between;align-items:center;font-size:15px;opacity:.85}
+  .cook .step{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;font-size:30px;line-height:1.35;padding:20px;max-width:900px;margin:0 auto}
+  .cook .nav2{display:flex;gap:14px;justify-content:center;align-items:center}
+  .cook .nav2 button{background:#2e7d54;color:#fff;border:none;border-radius:12px;padding:16px 26px;font-size:18px;cursor:pointer}
+  .cook .nav2 button.ghost{background:#333}
+  .cook .timer{font-size:20px;background:#333;padding:10px 18px;border-radius:12px;cursor:pointer}
+  .cook .timer.run{background:#c0392b}
+  /* mobil */
+  .botnav{display:none}
+  @media(max-width:820px){
+    .app{flex-direction:column}
+    .side{position:static;width:auto;height:auto;flex-direction:row;align-items:center;padding:0}
+    .side .brand{padding:14px 16px;font-size:17px}
+    .side nav,.side .foot{display:none}
+    .content{padding:16px 16px 90px}
+    .botnav{display:flex;position:fixed;left:0;right:0;bottom:0;background:var(--accent-dark);z-index:50;padding:6px 4px;justify-content:space-around}
+    .botnav a{flex:1;color:#cfe0d6;text-decoration:none;text-align:center;font-size:10.5px;padding:6px 2px;border-radius:10px;cursor:pointer}
+    .botnav a .ic{display:block;font-size:20px;margin-bottom:2px}
+    .botnav a.active{color:#fff;background:rgba(255,255,255,.14)}
+    .nutri{grid-template-columns:repeat(3,1fr)}
+    .cook .step{font-size:23px}
+  }
+  @media print{
+    .side,.botnav,.controls,.chips,.plan-head,.btn-row,.close,.fav,.cook,.qa,.hodnotenie{display:none!important}
+    body{background:#fff}
+    .view{display:none!important}
+    .view.printme{display:block!important}
+    .overlay{position:static;background:none;padding:0;display:block}
+    .overlay:not(.open){display:none}
+    .modal{box-shadow:none;max-width:100%}
+    .modal .hero{background:#fff;color:#000;border-bottom:2px solid #000}
+    .content{padding:0}
+  }
+  body.big{zoom:1.12}
+  .menu-wrap{position:relative;display:inline-block}
+  .menu{display:none;position:absolute;top:calc(100% + 4px);right:0;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.14);min-width:220px;z-index:40;overflow:hidden}
+  .menu.open{display:block}
+  .menu a{display:block;padding:11px 14px;font-size:14px;cursor:pointer;color:var(--ink);text-decoration:none}
+  .menu a:hover{background:var(--chip)}
+  body.dark .menu{background:var(--panel);color:var(--ink)}
+  .exp-soon{color:#8a6100;font-weight:600}
+  .exp-over{color:var(--warn);font-weight:600}
+  .low{color:var(--warn);font-weight:600}
+  .kal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+  .kal .dow{font-size:12px;color:var(--muted);text-align:center;padding:4px;font-weight:600}
+  .kal .day{background:#fff;border:1px solid var(--line);border-radius:8px;min-height:66px;padding:5px;font-size:11px;overflow:hidden}
+  .kal .day .dn{font-weight:600;color:var(--muted)}
+  .kal .day.dnes{border-color:var(--accent);border-width:2px}
+  .kal .day.mimo{background:transparent;border:none}
+  .kal .ev{background:var(--chip);border-radius:5px;padding:1px 5px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  body.dark .kal .day{background:var(--panel)}
+  .sp-row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 4px;border-bottom:1px solid var(--line);font-size:15px}
+  .sp-row .meta2{font-size:12.5px;color:var(--muted)}
+  .wtr{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+  .wtr .glass{font-size:22px;cursor:pointer;filter:grayscale(1);opacity:.5}
+  .wtr .glass.on{filter:none;opacity:1}
+  body.dark{--bg:#181713;--panel:#232219;--ink:#ece7db;--muted:#a49d8b;--line:#39362c;--chip:#2b2a22;--accent:#4b9e73;--accent-dark:#12331f}
+  body.dark .card,body.dark .tile,body.dark .panel,body.dark .modal .content2,body.dark input,body.dark select,body.dark textarea{background:var(--panel);color:var(--ink)}
+  body.dark .btn,body.dark .mini,body.dark .stepper button,body.dark .stepper,body.dark #hladaj{background:var(--panel);color:var(--ink);border-color:var(--line)}
+  body.dark table.plan td{background:var(--panel);color:var(--ink)}
+  body.dark table.plan td.slotname{background:#2b2a22}
+  body.dark .nutri div,body.dark .tipy,body.dark .match,body.dark .subst{background:#26261d;border-color:var(--line);color:var(--ink)}
+  body.dark .fav{background:rgba(60,58,48,.9)}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="brand">🍲 Kuchárka</div>
+    <nav id="nav">
+      <a data-v="domov" class="active" onclick="prepni('domov')"><span class="ic">🏠</span> Domov</a>
+      <a data-v="recepty" onclick="prepni('recepty')"><span class="ic">📖</span> Recepty</a>
+      <a data-v="planovac" onclick="prepni('planovac')"><span class="ic">📅</span> Plán</a>
+      <a data-v="nakup" onclick="prepni('nakup')"><span class="ic">🛒</span> Nákup</a>
+      <a data-v="vyziva" onclick="prepni('vyziva')"><span class="ic">📊</span> Výživa</a>
+      <a data-v="spajza" onclick="prepni('spajza')"><span class="ic">🧊</span> Špajza</a>
+    </nav>
+    <div class="foot">
+      <a data-v="doma" onclick="prepni('doma')"><span class="ic">🥫</span> Čo mám doma</a>
+      <a data-v="nastavenia" onclick="prepni('nastavenia')"><span class="ic">⚙️</span> Nastavenia</a>
+    </div>
+  </aside>
+
+  <div class="main"><div class="content">
+
+    <div class="view active" id="v-domov">
+      <h2 class="h" id="pozdrav">Dobrý deň, Lukáš</h2>
+      <p class="sub" id="datum-sub">aktualizované __DATUM__</p>
+      <div class="tiles" id="dash-tiles"></div>
+      <div class="panel"><h3>Čo variť dnes?</h3><div class="dnes" id="dnes"></div></div>
+      <div class="panel"><h3>Rýchle akcie</h3><div class="qa">
+        <button class="btn primary" onclick="generujJedalnicek(false);prepni('planovac')">✨ Zostaviť jedálniček</button>
+        <button class="btn" onclick="dojedzZvysky()">♻️ Dojedz zvyšky</button>
+      </div><div id="zvysky-out" style="margin-top:12px"></div></div>
+      <div class="panel"><h3>Obľúbené</h3><div class="grid" id="dash-fav"></div></div>
+      <div class="panel"><h3>🧊 Špajza — spotrebuj čoskoro</h3><div id="dash-spajza" class="info"></div></div>
+      <div class="panel"><h3>💧 Voda dnes</h3><div class="wtr" id="dash-voda"></div><div id="dash-okno" class="info" style="margin-top:8px"></div></div>
+      <div class="panel"><h3>Naposledy varené</h3><div id="dash-hist" class="info"></div></div>
+    </div>
+
+    <div class="view" id="v-recepty">
+      <h2 class="h">Recepty</h2>
+      <p class="sub"><span id="pocet">__POCET__</span> receptov v kuchárke</p>
+      <div class="controls">
+        <input id="hladaj" type="search" placeholder="Hľadať recept alebo surovinu…">
+        <select class="f" id="f-kuchyna"><option value="">Všetky kuchyne</option></select>
+        <select class="f" id="f-cas"><option value="">Ľubovoľný čas</option><option value="20">do 20 min</option><option value="35">do 35 min</option><option value="60">do 60 min</option></select>
+        <select class="f" id="f-diet"><option value="">Bez obmedzenia</option><option value="veg">Vegetariánske</option><option value="lepok">Bez lepku</option><option value="mlieko">Bez laktózy</option><option value="fav">Len obľúbené</option></select>
+      </div>
+      <div class="chips" id="chips"></div>
+      <div class="grid" id="grid"></div>
+      <div class="empty" id="empty" style="display:none">Nič sa nenašlo.</div>
+    </div>
+
+    <div class="view" id="v-planovac">
+      <h2 class="h">Plán týždňa</h2>
+      <p class="sub">Klikni na jedlo pre recept · „✎ zmeniť" vymení jedlo.</p>
+      <div class="chips" style="padding:0 0 12px"><span class="chip active" id="tab-tyzden" onclick="planZobraz('tyzden')">📋 Týždeň</span><span class="chip" id="tab-kal" onclick="planZobraz('kalendar')">📆 Kalendár</span></div>
+      <div id="plan-tyzden">
+      <div class="plan-head">
+        <button class="btn primary" onclick="generujJedalnicek(false)">✨ Zostaviť jedálniček</button>
+        <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-plan')">⋯ Viac</button>
+          <div class="menu" id="m-plan">
+            <a onclick="generujJedalnicek(true);zavriMenu()">🎲 Zamiešať</a>
+            <a onclick="otvorNacitat();zavriMenu()">📥 Načítať uložený jedálniček</a>
+            <a onclick="ulozPlanArchiv();zavriMenu()">💾 Uložiť tento plán</a>
+            <a onclick="vymazPlan();zavriMenu()">🗑 Vyprázdniť týždeň</a>
+            <a onclick="tlacView('planovac');zavriMenu()">🖨 Tlačiť plán</a>
+            <a onclick="tlacTyzden();zavriMenu()">🖨 Tlačiť týždeň (plán+nákup)</a>
+          </div>
+        </div>
+      </div>
+      <label class="switch" style="margin:0 0 8px"><input type="checkbox" id="p-blok" onchange="prepniBlok(this.checked)"> Blokový režim (navaríš raz, je sa viac dní)</label>
+      <div id="blok-editor" style="display:flex;gap:2px;flex-wrap:wrap;align-items:center;margin-bottom:12px"></div>
+      <div class="plan-grid"><table class="plan" id="plan-table"></table></div>
+      </div>
+      <div id="plan-kal" style="display:none">
+        <div class="plan-head"><button class="btn" onclick="kalPosun(-1)">‹</button><b id="kal-label" style="min-width:170px;text-align:center;align-self:center"></b><button class="btn" onclick="kalPosun(1)">›</button></div>
+        <div id="kal-grid"></div>
+      </div>
+    </div>
+
+    <div class="view" id="v-nakup">
+      <h2 class="h">Nákupný zoznam</h2>
+      <p class="sub">Z receptov v pláne, zoradené podľa oddelení v obchode.</p>
+      <div class="plan-head">
+        <input class="f" id="doma-nakup" style="flex:1;min-width:200px" placeholder="Mám doma (odráta sa)…" oninput="renderNakup()">
+        <button class="btn" onclick="kopirujListonic()">📋 Kopírovať</button>
+        <button class="btn" onclick="tlacView('nakup')">🖨 Tlačiť</button>
+      </div>
+      <div id="nakup-list"></div>
+    </div>
+
+    <div class="view" id="v-vyziva">
+      <h2 class="h">Výživa za týždeň</h2>
+      <p class="sub">Priemer na deň z aktuálneho plánu oproti cieľu.</p>
+      <div class="tiles" id="vyziva-tiles"></div>
+      <div class="panel"><h3>Kalórie po dňoch</h3><div class="chart" id="vyziva-chart"></div>
+        <p class="info" id="vyziva-ciel" style="margin-top:10px"></p></div>
+      <div class="panel"><h3>Makrá za týždeň (spolu)</h3><div id="vyziva-makro"></div></div>
+    </div>
+
+    <div class="view" id="v-doma">
+      <h2 class="h">Čo mám doma</h2>
+      <p class="sub">Napíš suroviny a nájdem, čo z nich uvaríš.</p>
+      <textarea class="doma-in" id="doma-in" placeholder="napr. vajcia, syr, paprika, cestoviny"></textarea>
+      <div class="btn-row"><button class="btn primary" onclick="renderDoma()">Nájdi recepty</button><button class="btn" onclick="domaZoSpajze()">🧊 Načítať zo špajze</button></div>
+      <div id="doma-out" style="margin-top:16px"></div>
+    </div>
+
+    <div class="view" id="v-spajza">
+      <h2 class="h">Špajza a mraznička</h2>
+      <p class="sub">Zásoby s miestom, dátumom spotreby a minimom. Pod minimum → do nákupu.</p>
+      <div class="panel"><h3>Pridať zásobu</h3>
+        <div class="controls">
+          <input id="sp-nazov" placeholder="Surovina (napr. Ryža)" style="flex:1;min-width:160px;padding:10px;border:1px solid var(--line);border-radius:9px">
+          <input id="sp-mn" type="number" placeholder="množstvo" style="width:110px;padding:10px;border:1px solid var(--line);border-radius:9px">
+          <select class="f" id="sp-jed"><option>g</option><option>kg</option><option>ks</option><option>ml</option><option>l</option><option>balenie</option></select>
+          <select class="f" id="sp-miesto"><option>Špajza</option><option>Chladnička</option><option>Mraznička</option></select>
+          <input id="sp-exp" type="date" style="padding:9px;border:1px solid var(--line);border-radius:9px">
+          <input id="sp-min" type="number" placeholder="min" title="minimálne množstvo" style="width:80px;padding:10px;border:1px solid var(--line);border-radius:9px">
+          <button class="btn primary" onclick="pridajZasobu()">Pridať</button>
+        </div>
+      </div>
+      <div id="spajza-list"></div>
+    </div>
+
+    <div class="view" id="v-nastavenia">
+      <h2 class="h">Nastavenia domácnosti</h2>
+      <p class="sub">Predvoľby sa použijú pri plánovaní a filtrovaní.</p>
+      <div class="panel">
+        <div class="field"><label>Stravníci (rôzne kalórie/deň)</label><div id="stravnici-box"></div><button class="btn" onclick="pridajStravnika()" style="margin-top:6px">+ pridať osobu</button></div>
+        <div class="field"><label>Cieľ kalórií na deň (kcal)</label><input type="number" id="p-kcal" value="1450"></div>
+        <div class="field"><label>Cieľ bielkovín na deň (g, 0 = vypnuté)</label><input type="number" id="p-biel" value="0"></div>
+        <div class="field"><label>Tento týždeň v akcii (čiarkou — ovplyvní návrhy)</label><input type="text" id="p-akcie" placeholder="napr. kuracie, losos, paprika"></div>
+        <div class="field"><label>Sledované suroviny (uprednostní recepty, čiarkou)</label><input type="text" id="p-watch" placeholder="napr. losos, cuketa"></div>
+        <div class="field"><label>Cieľ</label><select class="f" id="p-cieltyp"><option value="chudnutie">Chudnutie</option><option value="udrzanie">Udržanie</option><option value="priberanie">Priberanie</option></select></div>
+        <label class="switch"><input type="checkbox" id="p-ryby"> Bez rýb</label>
+        <label class="switch"><input type="checkbox" id="p-lepok"> Bez lepku</label>
+        <label class="switch"><input type="checkbox" id="p-mlieko"> Bez laktózy</label>
+        <label class="switch"><input type="checkbox" id="p-dark"> Tmavý režim</label>
+        <label class="switch"><input type="checkbox" id="p-big"> Väčšie písmo</label>
+        <label class="switch"><input type="checkbox" id="p-balenia"> Zobrazovať balenia v nákupe (v zátvorke)</label>
+        <label class="switch"><input type="checkbox" id="p-kupsnack"> Preferovať kupované snacky</label>
+        <label class="switch"><input type="checkbox" id="p-okno"> Okno jedenia 16:8</label>
+        <div class="field"><label>Začiatok okna jedenia (hodina)</label><input type="number" id="p-oknostart" min="0" max="23" value="12" style="width:90px"></div>
+        <div class="btn-row"><button class="btn primary" onclick="ulozProfil()">Uložiť</button></div>
+        <p class="info" id="profil-ok" style="margin-top:8px"></p>
+      </div>
+      <div class="panel"><h3>Vypočítať kalorický cieľ (TDEE)</h3>
+        <div class="field"><label>Pohlavie</label><select class="f" id="t-poh"><option value="m">Muž</option><option value="z">Žena</option></select></div>
+        <div class="field"><label>Vek</label><input type="number" id="t-vek" value="35"></div>
+        <div class="field"><label>Výška (cm)</label><input type="number" id="t-vyska" value="178"></div>
+        <div class="field"><label>Váha (kg)</label><input type="number" id="t-vaha" value="80"></div>
+        <div class="field"><label>Aktivita</label><select class="f" id="t-akt"><option value="1.2">sedavá</option><option value="1.375">ľahká (1-3x/týž)</option><option value="1.55" selected>stredná (3-5x/týž)</option><option value="1.725">vysoká (6-7x/týž)</option></select></div>
+        <div class="btn-row"><button class="btn" onclick="vypocitajCiel()">Vypočítať a predvyplniť cieľ</button></div>
+        <p class="info" id="tdee-ok"></p>
+      </div>
+      <div class="panel"><h3>Váha a adaptívny cieľ</h3>
+        <div class="controls"><input id="v-vaha" type="number" step="0.1" placeholder="kg" style="width:120px;padding:10px;border:1px solid var(--line);border-radius:9px"><button class="btn primary" onclick="zapisVahu()">Zapísať váhu</button></div>
+        <div id="vahy-info" class="info" style="margin-top:10px"></div>
+        <div class="btn-row"><button class="btn" onclick="prispobitCiel()">Prispôsobiť cieľ podľa trendu</button></div>
+        <p class="info" id="vaha-ok"></p>
+      </div>
+      <div class="panel"><h3>Záloha dát</h3>
+        <p class="info">Obľúbené, hodnotenia, plán a nastavenia sú uložené v tomto prehliadači. Zálohuj si ich do súboru, nech o ne neprídeš.</p>
+        <div class="btn-row"><button class="btn" onclick="zalohuj()">⬇ Zálohovať do súboru</button><button class="btn" onclick="document.getElementById('obnov-file').click()">⬆ Obnoviť zo súboru</button></div>
+        <input type="file" id="obnov-file" accept="application/json" style="display:none" onchange="obnov(this.files[0])">
+      </div>
+      <div class="panel"><h3>Appka na mobile</h3>
+        <p class="info">Otvor tento súbor v mobilnom prehliadači a daj „Pridať na plochu" — kuchárka sa bude tváriť ako appka. Obľúbené, plán a nastavenia sa ukladajú v danom zariadení.</p></div>
+    </div>
+
+  </div></div>
+</div>
+
+<nav class="botnav" id="botnav">
+  <a data-v="domov" class="active" onclick="prepni('domov')"><span class="ic">🏠</span>Domov</a>
+  <a data-v="recepty" onclick="prepni('recepty')"><span class="ic">📖</span>Recepty</a>
+  <a data-v="planovac" onclick="prepni('planovac')"><span class="ic">📅</span>Plán</a>
+  <a data-v="nakup" onclick="prepni('nakup')"><span class="ic">🛒</span>Nákup</a>
+  <a data-v="vyziva" onclick="prepni('vyziva')"><span class="ic">📊</span>Výživa</a>
+  <a data-v="spajza" onclick="prepni('spajza')"><span class="ic">🧊</span>Špajza</a>
+</nav>
+
+<div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
+<div class="overlay" id="pick-overlay"><div class="modal" id="pick-modal" style="max-width:520px"></div></div>
+
+<div class="cook" id="cook">
+  <div class="ch"><span id="cook-title"></span>
+    <span style="display:flex;gap:10px;align-items:center">
+      <label style="font-size:13px;display:flex;gap:6px;align-items:center"><input type="checkbox" id="cook-auto" onchange="cookAuto=this.checked"> hlas</label>
+      <button class="btn" style="background:#333;color:#fff;border:none" onclick="citajKrok()">🔊 Prečítať</button>
+      <button class="btn" style="background:#333;color:#fff;border:none" onclick="zavriCook()">✕ Koniec</button>
+    </span>
+  </div>
+  <div id="cook-timers" style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:8px"></div>
+  <div class="step" id="cook-step"></div>
+  <div style="text-align:center;margin-bottom:12px">
+    <button class="timer" id="cook-add-timer" style="display:none" onclick="pridajKrokovyCasovac()"></button>
+    <button class="timer" style="background:#333" onclick="pridajCasovac()">➕ Časovač</button>
+  </div>
+  <div class="nav2">
+    <button class="ghost" onclick="krok(-1)">← Späť</button>
+    <span id="cook-progress" style="min-width:70px;text-align:center"></span>
+    <button onclick="krok(1)">Ďalej →</button>
+  </div>
+</div>
+
+<script src="sync-config.js" onerror="void 0"></script>
+<script>
+__APP_JS__
+</script>
+</body>
+</html>

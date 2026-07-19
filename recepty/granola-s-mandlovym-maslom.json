@@ -1,0 +1,33 @@
+{
+  "id": "granola-s-mandlovym-maslom",
+  "nazov": "Granola s mandľovým maslom",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 2,
+  "cas": "40 min",
+  "kcal_na_porciu": 325,
+  "popis": "Chrumkavá pečená granola s mandľovým maslom, kakaom a kúskami horkej čokolády.",
+  "ingrediencie": [
+    {"nazov": "Ovsené vločky", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Holandské kakao", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
+    {"nazov": "Med", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Kokosový olej", "mnozstvo": 50, "jednotka": "g", "poznamka": "rozpustený"},
+    {"nazov": "Mandľové maslo", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Horké čokoládové pecky", "mnozstvo": 50, "jednotka": "g", "poznamka": "alebo nasekaná horká čokoláda"},
+    {"nazov": "Plátkové mandle", "mnozstvo": 100, "jednotka": "g", "poznamka": ""}
+  ],
+  "postup": [
+    "Rozohrej rúru na 160 °C.",
+    "V miske zmiešaj ovsené vločky, kakao a štipku soli.",
+    "Pridaj med, rozpustený kokosový olej a mandľové maslo a dôkladne premiešaj.",
+    "Zmes rozotri na plech vyložený papierom na pečenie.",
+    "Pečieme pri 150-160 °C 25-30 minút, počas pečenia niekoľkokrát premiešame.",
+    "Po upečení zamiešaj čokoládové pecky s mandľami.",
+    "Uchovávaj v sklenej uzatvárateľnej nádobe."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["raňajky", "granola", "čokoláda", "mandle"]
+}

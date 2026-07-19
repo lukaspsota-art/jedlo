@@ -1,0 +1,35 @@
+{
+  "id": "cucoriedkove-lievance",
+  "nazov": "Čučoriedkové lievance",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 3,
+  "cas": "26 min",
+  "kcal_na_porciu": 393,
+  "popis": "Nadýchané lievance so špaldovou múkou, ovsenými vločkami a čučoriedkami.",
+  "ingrediencie": [
+    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 90, "jednotka": "g"},
+    {"nazov": "Ovsené vločky mleté", "mnozstvo": 40, "jednotka": "g"},
+    {"nazov": "Škorica", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Kypriaci prášok", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL"},
+    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks"},
+    {"nazov": "Mlieko", "mnozstvo": 100, "jednotka": "ml"},
+    {"nazov": "Čučoriedky", "mnozstvo": 150, "jednotka": "g"},
+    {"nazov": "Kokosový olej", "mnozstvo": 50, "jednotka": "g"},
+    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"}
+  ],
+  "postup": [
+    "V jednej mise zmiešajte múku, mleté ovsené vločky, škoricu, soľ a kypriaci prášok.",
+    "V druhej mise vyšľahajte vanilkový extrakt s medom, vajcom a mliekom.",
+    "Obsah mís spojte a pridajte čučoriedky.",
+    "Na panvici rozohrejte kokosový olej.",
+    "Cesto lyžicou naberajte na panvicu do tvaru menších lievancov.",
+    "Vyprážajte z každej strany 1–2 minúty."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["raňajky", "lievance", "čučoriedky", "dezert"]
+}

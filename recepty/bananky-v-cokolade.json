@@ -1,0 +1,32 @@
+{
+  "id": "bananky-v-cokolade",
+  "nazov": "Banánky v čokoláde",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 12,
+  "cas": "20 min",
+  "kcal_na_porciu": 202,
+  "popis": "Guľky z banánu, kokosu a proteínu obalené v čokoláde, chladené ako sladká pochúťka.",
+  "ingrediencie": [
+    {"nazov": "Banán väčší zmrazený", "mnozstvo": 1, "jednotka": "ks"},
+    {"nazov": "Strúhaný kokos", "mnozstvo": 100, "jednotka": "g"},
+    {"nazov": "Srvátkový proteín", "mnozstvo": 60, "jednotka": "g"},
+    {"nazov": "Ovsené vločky jemne mleté", "mnozstvo": 60, "jednotka": "g"},
+    {"nazov": "Arašidové maslo", "mnozstvo": 70, "jednotka": "g"},
+    {"nazov": "Mlieko", "mnozstvo": 100, "jednotka": "ml"},
+    {"nazov": "Horká čokoláda", "mnozstvo": 100, "jednotka": "g"},
+    {"nazov": "Kokosový olej", "mnozstvo": 20, "jednotka": "g"}
+  ],
+  "postup": [
+    "Zmrazený banán rozmixujte dohladka a preložte do misky.",
+    "Pridajte kokos, proteín, vločky a arašidové maslo s mliekom, spracujte na cesto.",
+    "Z cesta tvarujte valčeky a ukladajte na plech s papierom na pečenie.",
+    "Čokoládu s kokosovým olejom rozpustite nad vodným kúpeľom.",
+    "Valčeky polejte rozpustenou čokoládou.",
+    "Pred podávaním chlaďte aspoň 30 minút v chladničke."
+  ],
+  "tipy": "Banán môžete nahradiť mrazeným lesným ovocím (asi 100 g).",
+  "foto": "",
+  "tagy": ["snack", "banán", "čokoláda", "proteín"]
+}

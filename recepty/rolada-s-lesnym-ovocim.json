@@ -1,0 +1,32 @@
+{
+  "id": "rolada-s-lesnym-ovocim",
+  "nazov": "Roláda s lesným ovocím",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 12,
+  "cas": "20 min",
+  "kcal_na_porciu": 58,
+  "popis": "Nadýchaná kakaová roláda plnená tvarohom a lesným ovocím.",
+  "ingrediencie": [
+    {"nazov": "Vaječný bielok", "mnozstvo": 6, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Holandské kakao", "mnozstvo": 3, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "štipka"},
+    {"nazov": "Polotučný tvaroh", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Lesné ovocie", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Stévia", "mnozstvo": null, "jednotka": "", "poznamka": "pár kvapiek"}
+  ],
+  "postup": [
+    "Bielky so štipkou soli vyšľahajte na tuhý sneh.",
+    "Opatrne prisýpajte kakao s kypriacim práškom, kým sa zmes nespojí.",
+    "Zmes rovnomerne rozotrite na plech vystlaný papierom na pečenie.",
+    "Pečte v predhriatej rúre na 170-180 °C 10 minút.",
+    "Tvaroh zmiešajte s lesným ovocím a stéviou, prípadne rozmixujte.",
+    "Upečený korpus potrite tvarohovou zmesou a zroluje.",
+    "Chlaďte 30 minút v chladničke a nakrájajte na plátky."
+  ],
+  "tipy": "Ako náplň môžete použiť aj na jemné plátky nakrájaný banán spolu s tvarohom.",
+  "foto": "",
+  "tagy": ["roláda", "lesné ovocie", "tvaroh", "dezert"]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "jahodovy-frozen-jogurt",
+  "nazov": "Jahodový frozen jogurt",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 2,
+  "cas": "5 min",
+  "kcal_na_porciu": 117,
+  "popis": "Rýchla domáca zmrzlina z jahôd a gréckeho jogurtu bez zmrzlinovača.",
+  "ingrediencie": [
+    { "nazov": "Jahody", "mnozstvo": 200, "jednotka": "g" },
+    { "nazov": "Grécky jogurt", "mnozstvo": 250, "jednotka": "g" },
+    { "nazov": "Med", "mnozstvo": 2, "jednotka": "ČL" },
+    { "nazov": "Vanilkový lusk", "mnozstvo": 1, "jednotka": "ks", "poznamka": "semienka z lusku, nepovinné" }
+  ],
+  "postup": [
+    "Všetky surové rozmixuj dohladka.",
+    "Prelej do plastovej nádoby (cca 15 × 15 cm) a daj na 2,5 hodiny do mrazničky.",
+    "Zmrznutú hmotu tvaruj kopčekmi pomocou cukrárskej lyžice."
+  ],
+  "tipy": "Chuť jahôd výborne doplnia pistácie alebo iné orechy.",
+  "foto": "",
+  "tagy": ["dezert", "zmrzlina", "jahody", "jogurt"]
+}

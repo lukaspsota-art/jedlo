@@ -1,0 +1,58 @@
+{
+  "id": "vajcova-tortilla",
+  "nazov": "Vajcová tortilla s paprikou a syrom",
+  "kategoria": "Raňajky",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "15 min",
+  "kcal_na_porciu": 500,
+  "popis": "Zarolovaná tortilla s vajcami, paprikou a syrom.",
+  "ingrediencie": [
+    {
+      "nazov": "Tortilla (veľká, 30 cm)",
+      "mnozstvo": 4,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 8,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Červená paprika",
+      "mnozstvo": 2,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Eidam 45%",
+      "mnozstvo": 120,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Maslo / olej na pečenie",
+      "mnozstvo": 20,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Soľ, korenie",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Vajcia rozmiešaj s trochou soli a korenia. Papriku nakrájaj na kúsky.",
+    "Na panvici na masle opraž papriku 3 min.",
+    "Prilej vajcia a peč na strednom ohni.",
+    "Posyp syrom, zaroluj do tortilly.",
+    "Zavinieš do fólie a odložíš do chladničky."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "vajcia",
+    "vopred"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "seminkove-krekry",
+  "nazov": "Semienkové krekry",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 35,
+  "cas": "35 min",
+  "kcal_na_porciu": 34,
+  "popis": "Chrumkavé domáce krekry z rôznych semienok, ovsených vločiek a špaldovej múky.",
+  "ingrediencie": [
+    { "nazov": "Chia semienka", "mnozstvo": 20, "jednotka": "g" },
+    { "nazov": "Tekvicové semienka", "mnozstvo": 60, "jednotka": "g" },
+    { "nazov": "Ľanové semienko", "mnozstvo": 30, "jednotka": "g" },
+    { "nazov": "Sezamové semienka", "mnozstvo": 20, "jednotka": "g" },
+    { "nazov": "Ovsené vločky", "mnozstvo": 40, "jednotka": "g" },
+    { "nazov": "Celozrnná špaldová múka", "mnozstvo": 60, "jednotka": "g" },
+    { "nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka" },
+    { "nazov": "Čierne korenie", "mnozstvo": 1, "jednotka": "štipka" },
+    { "nazov": "Prášok do pečiva", "mnozstvo": 0.5, "jednotka": "ČL" },
+    { "nazov": "Kokosový olej", "mnozstvo": 2, "jednotka": "PL" },
+    { "nazov": "Med", "mnozstvo": 1, "jednotka": "ČL" }
+  ],
+  "postup": [
+    "Rúru predhrej na 180 °C.",
+    "Zmiešaj všetky semienka, vločky, múku, soľ, korenie a prášok do pečiva.",
+    "Pridaj rozpustený kokosový olej, med a 3–4 PL vody, rukami vypracuj cesto.",
+    "Ak sa cesto drobí alebo lepí, upravuj múkou alebo vodou.",
+    "Cesto vyváľaj medzi dvoma vrstvami papiera na pečenie, vrchný papier odstráň a nakrájaj na štvorce.",
+    "Kúsky od seba oddeľ, aby sa pri pečení nezlepili.",
+    "Pečieme pri 170–180 °C 15–20 minút."
+  ],
+  "tipy": "Do krekrov primiešaj obľúbené korenie, napríklad provensálsku zmes, údenú soľ alebo mletú papriku.",
+  "foto": "",
+  "tagy": ["snack", "krekry", "semienka", "fit"]
+}

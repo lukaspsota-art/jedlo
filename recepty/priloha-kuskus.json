@@ -1,0 +1,44 @@
+{
+  "id": "priloha-kuskus",
+  "nazov": "Kuskus",
+  "kategoria": "Príloha",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "10 min",
+  "popis": "Rýchly kuskus zaliaty vriacou vodou.",
+  "ingrediencie": [
+    {
+      "nazov": "Kuskus",
+      "mnozstvo": 240,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 300,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Kuskus daj do misky s olejom a soľou.",
+    "Zalej vriacou vodou, prikry na 5 min.",
+    "Prevzdušni vidličkou."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "kuskus"
+  ]
+}

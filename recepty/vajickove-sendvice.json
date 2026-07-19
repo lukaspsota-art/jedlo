@@ -1,0 +1,59 @@
+{
+  "id": "vajickove-sendvice",
+  "nazov": "Vajíčkové sendviče so žeruchou",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "BBC Good Food",
+  "porcie": 4,
+  "cas": "20 min",
+  "kcal_na_porciu": 232,
+  "popis": "Klasické vajíčkové sendviče s majonézou a žeruchou, pripravené vopred.",
+  "ingrediencie": [
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Majonéza",
+      "mnozstvo": 30,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Toastový chlieb",
+      "mnozstvo": 6,
+      "jednotka": "plátok"
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": "zmäknuté"
+    },
+    {
+      "nazov": "Žerucha",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na podávanie"
+    },
+    {
+      "nazov": "Soľ a čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Vajcia uvar natvrdo (10 minút), potom schlaď v studenej vode.",
+    "Olúp a najemno nasekaj, zmiešaj s majonézou, osoľ a okoreň.",
+    "Krajce chleba natri maslom, naplň vajíčkovou zmesou a zlož 3 sendviče.",
+    "Nakrájaj na prsty a posyp žeruchou."
+  ],
+  "tipy": "Náplň priprav večer vopred; sendviče skladaj tesne pred zabalením.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "vajcia",
+    "meal-prep"
+  ]
+}

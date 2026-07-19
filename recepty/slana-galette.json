@@ -1,0 +1,34 @@
+{
+  "id": "slana-galette",
+  "nazov": "Slaná galette",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "55 min",
+  "kcal_na_porciu": 581,
+  "popis": "Slaný koláč z lístkového cesta so pestom, cuketou, cherry paradajkami a parmezánom.",
+  "ingrediencie": [
+    { "nazov": "Celozrnná špaldová múka", "mnozstvo": 250, "jednotka": "g" },
+    { "nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka" },
+    { "nazov": "Maslo", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Bazalkové pesto", "mnozstvo": 50, "jednotka": "g" },
+    { "nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL" },
+    { "nazov": "Cuketa", "mnozstvo": 100, "jednotka": "g", "poznamka": "nakrájaná na kolieska" },
+    { "nazov": "Cherry paradajky", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Strúhaný parmezán", "mnozstvo": 50, "jednotka": "g" }
+  ],
+  "postup": [
+    "Rúru predhrej na 190 °C.",
+    "Múku, soľ, mäkké maslo a 100–150 ml vody vypracuj na cesto.",
+    "Cesto vlož aspoň na 20 minút do chladničky.",
+    "Vychladené cesto vyváľaj a potri olivovým olejom zmiešaným s pestom.",
+    "Na cesto rozlož kolieska cukety a cherry paradajky, cca 3 cm od okraja.",
+    "Okraje cesta zahni smerom dovnútra.",
+    "Galette prenes na plech s papierom na pečenie, pečieme pri 180–190 °C 30–35 minút.",
+    "10 minút pred koncom pečenia posyp parmezánom."
+  ],
+  "tipy": "Namiesto paradajok a cukety vyskúšaj tenko nakrájanú repu alebo tekvicu.",
+  "foto": "",
+  "tagy": ["hlavné jedlo", "galette", "cesto", "zelenina"]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "okurkovy-salat-s-koprom",
+  "nazov": "Uhorkový šalát s kôprom",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "10 min",
+  "kcal_na_porciu": 35,
+  "popis": "Ľahký jogurtový šalát z uhorky s cesnakom a čerstvým kôprom.",
+  "ingrediencie": [
+    {"nazov": "Šalátová uhorka", "mnozstvo": 1, "jednotka": "ks"},
+    {"nazov": "Strúčik cesnaku", "mnozstvo": 1, "jednotka": "strúčik"},
+    {"nazov": "Biely jogurt", "mnozstvo": 140, "jednotka": "g"},
+    {"nazov": "Kôpor čerstvý", "mnozstvo": 1, "jednotka": "hrsť"},
+    {"nazov": "Citrón", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": "šťava z polovice citróna"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Uhorku umyte a nastrúhajte alebo nakrájajte na kocky.",
+    "Cesnak roztlačte, kôpor nasekajte najemno.",
+    "V mise zmiešajte uhorku, jogurt, cesnak, citrónovú šťavu a kôpor.",
+    "Osoľte a opepríte podľa chuti.",
+    "Necháte chladiť aspoň 1 hodinu pred podávaním."
+  ],
+  "tipy": "Šalát podávajte ako prílohu, s celozrnným pečivom je to ideálny ľahký obed.",
+  "foto": "",
+  "tagy": ["šalát", "uhorka", "jogurt", "kôpor"]
+}

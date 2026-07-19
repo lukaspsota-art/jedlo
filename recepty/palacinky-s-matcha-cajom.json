@@ -1,0 +1,29 @@
+{
+  "id": "palacinky-s-matcha-cajom",
+  "nazov": "Palacinky s matcha čajom",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 2,
+  "cas": "9 min",
+  "kcal_na_porciu": 216,
+  "popis": "Pohánkové palacinky s kakaom a matcha čajom pre nezvyčajnú zelenú raňajku.",
+  "ingrediencie": [
+    {"nazov": "Pohánková múka", "mnozstvo": 70, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Matcha čaj", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Mlieko", "mnozstvo": 180, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Holandské kakao", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Stévia", "mnozstvo": null, "jednotka": "ČL", "poznamka": "podľa chuti, pár kvapiek"}
+  ],
+  "postup": [
+    "Pohánkovú múku preosej spolu s matcha čajom do misky.",
+    "Pridaj kakao, vajce, mlieko a stéviu.",
+    "Vyšľahaj metličkou dohladka.",
+    "Cesto nalej na nepriľnavú panvicu.",
+    "Opekaj z každej strany cca 1-2 minúty."
+  ],
+  "tipy": "Palacinky podávaj poliate javorovým sirupom a ozdobené sezónnym ovocím.",
+  "foto": "",
+  "tagy": ["raňajky", "palacinky", "matcha", "pohánka"]
+}

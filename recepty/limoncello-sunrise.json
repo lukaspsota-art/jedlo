@@ -1,0 +1,50 @@
+{
+  "id": "limoncello-sunrise",
+  "nazov": "Limoncello sunrise",
+  "kategoria": "Kokteil",
+  "kuchyna": "Talianska",
+  "zdroj": "Kaufland FOOD magazín",
+  "porcie": 1,
+  "cas": "5 min",
+  "kcal_na_porciu": 190,
+  "popis": "Svieži ovocný drink s limoncellom, pomarančovým džúsom a grenadínou.",
+  "ingrediencie": [
+    {
+      "nazov": "Limoncello",
+      "mnozstvo": 100,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančový džús",
+      "mnozstvo": 80,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "strek"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do pohára s ľadom nalej limoncello a pomarančový džús, pridaj grenadínu, ktorá klesne na dno. Ozdob plátkom pomaranča."
+  ],
+  "tipy": "Grenadínu lej pomaly, aby vznikol farebný prechod.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "limoncello",
+    "ovocné"
+  ]
+}

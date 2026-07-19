@@ -1,0 +1,39 @@
+{
+  "id": "lasagne-zo-sladkych-zemiakov",
+  "nazov": "Lasagne zo sladkých zemiakov",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 6,
+  "cas": "45 min",
+  "kcal_na_porciu": 376,
+  "popis": "Bezcestovinové lasagne s plátkami batátov, mletým hovädzím mäsom a cottage syrom.",
+  "ingrediencie": [
+    {"nazov": "Sladké zemiaky (batáty)", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Cottage syr", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Oregano", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Kvalitné mleté hovädzie mäso", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Mletý tymian", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Mletý rozmarín", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Krájané lúpané paradajky (konzerva)", "mnozstvo": 800, "jednotka": "g", "poznamka": "2 x 400 g"},
+    {"nazov": "Mozzarella", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 185 °C, batáty očistite a nakrájajte na tenké plátky (2-3 mm).",
+    "V mise zmiešajte cottage syr, vajce, oregano, soľ a korenie, dajte stranou.",
+    "Na oleji zopeňte najemno nakrájanú cibuľu, pridajte nastrúhaný cesnak a opekajte minútu.",
+    "Pridajte mäso a opekajte asi 10 minút, potom pridajte tymian, rozmarín a lúpané paradajky.",
+    "Do zapekacej misy (20×40 cm) poukladajte polovicu plátkov batátov, prelejte polovicou mäsovej zmesi a polovicou cottage zmesi.",
+    "Vrstvy zopakujte a navrch posypte strúhanou mozzarellou.",
+    "Pečte v predhriatej rúre 35-40 minút pri 175-185 °C, rozdeľte na 6 porcií."
+  ],
+  "tipy": "Pre vegetariánsku verziu nahraďte mäso opečenou cuketou a baklažánom.",
+  "foto": "",
+  "tagy": ["lasagne", "batáty", "hovädzie mäso", "bezlepkové"]
+}

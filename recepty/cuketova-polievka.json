@@ -1,0 +1,33 @@
+{
+  "id": "cuketova-polievka",
+  "nazov": "Cuketová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "50 min",
+  "kcal_na_porciu": 237,
+  "popis": "Krémová cuketová polievka podávaná s fetou.",
+  "ingrediencie": [
+    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cibuľa biela", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Cuketa", "mnozstvo": 600, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 700, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Syr feta", "mnozstvo": 200, "jednotka": "g", "poznamka": ""}
+  ],
+  "postup": [
+    "V hrnci rozohrejeme prepustené maslo s olivovým olejom.",
+    "Pridáme najemno nasekanú cibuľku a roztlačený cesnak, restujeme na strednom plameni 6 minút.",
+    "Cuketu umyjeme, nakrájame na kolieska a pridáme do hrnca, restujeme 10 minút.",
+    "Zalejeme zeleninovým vývarom, prikryjeme a varíme 10-15 minút, kým cuketa nie je mäkká.",
+    "Necháme vychladnúť, rozmixujeme tyčovým mixérom.",
+    "Dochutíme soľou a korením, podávame s nahrubo rozdrobenou fetou."
+  ],
+  "tipy": "Polievku môžete podávať s nasucho opraženými slnečnicovými semienkami.",
+  "foto": "",
+  "tagy": ["polievka", "cuketa", "feta"]
+}

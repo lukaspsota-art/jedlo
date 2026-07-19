@@ -1,0 +1,26 @@
+{
+  "id": "cokoladovy-popcorn",
+  "nazov": "Čokoládový popcorn",
+  "kategoria": "Snack",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 5,
+  "cas": "15 min",
+  "kcal_na_porciu": 292,
+  "popis": "Sladký popcorn obalený v čokoláde a arašidovom masle.",
+  "ingrediencie": [
+    {"nazov": "Kukurica na popcorn", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Horká čokoláda", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Arašidové maslo", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Kokosový olej", "mnozstvo": 30, "jednotka": "g", "poznamka": ""}
+  ],
+  "postup": [
+    "Kokosový olej rozpustite v hrnci na strednom ohni.",
+    "Nasypte kukuricu a hrnec hneď priklopte pokrievkou.",
+    "Necháte popukať všetky zrná - ak medzi puknutiami napočítate aspoň do desať, je hotovo.",
+    "Do teplého popcornu primiešajte arašidové maslo s nalámanou čokoládou a hrncom zatraste, aby sa čokoláda roztopila a obalila popcorn."
+  ],
+  "tipy": "Popcorn môžete pripraviť aj naslano - namiesto čokolády a arašidového masla použite tymian, soľ a uzenú papriku.",
+  "foto": "",
+  "tagy": ["popcorn", "snack", "čokoláda", "arašidy"]
+}

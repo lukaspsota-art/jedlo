@@ -1,0 +1,37 @@
+{
+  "id": "arasidova-polievka",
+  "nazov": "Arašidová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Ázijská",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 6,
+  "cas": "45 min",
+  "kcal_na_porciu": 350,
+  "popis": "Krémová zeleninová polievka s kokosovým mliekom a arašidovým maslom.",
+  "ingrediencie": [
+    {"nazov": "Zeleninový vývar", "mnozstvo": 600, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Zeler", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Zemiaky stredne veľké", "mnozstvo": 5, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Paradajky mäsité", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Chilli sušené", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Kajenské korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": ""},
+    {"nazov": "Sójová omáčka", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Kokosové mlieko z konzervy", "mnozstvo": 400, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Arašidové maslo", "mnozstvo": 120, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Bazalka čerstvá", "mnozstvo": null, "jednotka": "hrsť", "poznamka": "na dozdobenie"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Vývar privedieme v hrnci k varu.",
+    "Zeler, zemiaky a paradajky nakrájame na kocky a pridáme do hrnca spolu s roztlačeným cesnakom.",
+    "Dochutíme soľou, korením, chilli a kajenským korením.",
+    "Pridáme sójovú omáčku a zalejeme kokosovým mliekom.",
+    "Premiešame, prikryjeme a varíme 20-25 minút.",
+    "Polievku rozdelíme na 6 porcií a každú podávame s ČL arašidového masla a bazalkou."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["polievka", "arašidy", "kokosové mlieko"]
+}

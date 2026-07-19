@@ -1,0 +1,42 @@
+{
+  "id": "mrkvovy-dort",
+  "nazov": "Mrkvový dort",
+  "kategoria": "Dezert",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 16,
+  "cas": "85 min",
+  "kcal_na_porciu": 282,
+  "popis": "Vlhký mrkvový koláč s vlašskými orechmi a korením, potretý krémom z tvarohu a smotanového syra.",
+  "ingrediencie": [
+    { "nazov": "Celozrnná špaldová múka", "mnozstvo": 300, "jednotka": "g" },
+    { "nazov": "Prášok do pečiva", "mnozstvo": 2, "jednotka": "ČL" },
+    { "nazov": "Mletá škorica", "mnozstvo": 1, "jednotka": "PL" },
+    { "nazov": "Mletý muškátový oriešok", "mnozstvo": 1, "jednotka": "ČL" },
+    { "nazov": "Mleté vlašské orechy", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL" },
+    { "nazov": "Kokosový olej", "mnozstvo": 150, "jednotka": "ml" },
+    { "nazov": "Vajcia", "mnozstvo": 3, "jednotka": "ks" },
+    { "nazov": "Jogurt", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Med", "mnozstvo": 70, "jednotka": "g" },
+    { "nazov": "Mlieko", "mnozstvo": 175, "jednotka": "ml", "poznamka": "150–200 ml" },
+    { "nazov": "Mrkva", "mnozstvo": 250, "jednotka": "g" },
+    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" },
+    { "nazov": "Tvaroh", "mnozstvo": 200, "jednotka": "g", "poznamka": "poleva" },
+    { "nazov": "Smotanový syr", "mnozstvo": 200, "jednotka": "g", "poznamka": "poleva" },
+    { "nazov": "Med", "mnozstvo": 2, "jednotka": "ČL", "poznamka": "poleva" }
+  ],
+  "postup": [
+    "Rúru predhrej na 175 °C.",
+    "Múku preosej s práškom do pečiva a škoricou, primiešaj muškátový oriešok, vlašské orechy a soľ.",
+    "V druhej miske zmiešaj vanilkový extrakt, vajcia, kokosový olej, jogurt, med a mlieko.",
+    "Obe zmesi spojiť a postupne primiešať nastrúhanú mrkvu, cesto dobre premiešaj.",
+    "Cesto nalej do okrúhlej formy (Ø 20 cm) vystlanej papierom na pečenie.",
+    "Pečieme pri 165–175 °C 50–55 minút, hotovosť over špajdľou (musí byť suchá).",
+    "Korpus necháme vychladnúť na mriežke, potom prerežeme na polovicu.",
+    "Vyšľahaj tvaroh, smotanový syr a med, polovicou potri stred, zvyškom navrch dortu."
+  ],
+  "tipy": "Z tohto cesta môžeš pripraviť aj muffiny — rozdeľ do 12 košíčkov a pečieme 30–35 minút, potom polej polevou.",
+  "foto": "",
+  "tagy": ["dezert", "mrkva", "dort", "špalda"]
+}

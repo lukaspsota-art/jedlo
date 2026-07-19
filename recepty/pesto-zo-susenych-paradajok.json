@@ -1,0 +1,29 @@
+{
+  "id": "pesto-zo-susenych-paradajok",
+  "nazov": "Pesto zo sušených paradajok",
+  "kategoria": "Nátierka",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 1,
+  "cas": "5 min",
+  "kcal_na_porciu": 773,
+  "popis": "Sladko-kyslé pesto z sušených paradajok s cesnakom a bylinkami.",
+  "ingrediencie": [
+    {"nazov": "Sušené paradajky", "mnozstvo": 100, "jednotka": "g", "poznamka": "bez oleja"},
+    {"nazov": "Paradajkový pretlak", "mnozstvo": 1, "jednotka": "PL"},
+    {"nazov": "Olivový olej", "mnozstvo": 60, "jednotka": "ml"},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "ČL"},
+    {"nazov": "Sušené oregano", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Sušená bazalka", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Všetky ingrediencie rozmixujte na požadovanú konzistenciu.",
+    "Podávajte napríklad s celozrnnými cestovinami."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["pesto", "paradajky", "talianska kuchyňa"]
+}

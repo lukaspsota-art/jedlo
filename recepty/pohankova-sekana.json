@@ -1,0 +1,37 @@
+{
+  "id": "pohankova-sekana",
+  "nazov": "Pohánková sekaná",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "75 min",
+  "kcal_na_porciu": 600,
+  "popis": "Vegetariánska sekaná z pohánky, vajec a špaldovej múky dochutená bylinkami.",
+  "ingrediencie": [
+    {"nazov": "Pohánková krupica", "mnozstvo": 250, "jednotka": "g", "poznamka": "lámanka"},
+    {"nazov": "Ghí", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Biela cibuľa", "mnozstvo": 2, "jednotka": "ks"},
+    {"nazov": "Cesnak", "mnozstvo": 4, "jednotka": "strúčik"},
+    {"nazov": "Vajce", "mnozstvo": 4, "jednotka": "ks"},
+    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 200, "jednotka": "g"},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Sušená majoránka", "mnozstvo": 2, "jednotka": "ČL"},
+    {"nazov": "Sušený tymian", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Nutričné kvasnice", "mnozstvo": 1, "jednotka": "PL"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 190 °C.",
+    "Pohánku zalejte 250 ml vriacej vody a odložte na 20 minút.",
+    "Cibuľu nakrájajte nadrobno a orestujte na ghí 5-7 minút.",
+    "Cibuľu vmiešajte do pohánky spolu s pretlačeným cesnakom, vajcami, múkou a olivovým olejom.",
+    "Cesto osoľte, okoreňte a dochuťte majoránkou, tymianom a nutričnými kvasnicami.",
+    "Cesto vlejte do formy vyloženej papierom na pečenie.",
+    "Pečte pri 180-190 °C 40-45 minút."
+  ],
+  "tipy": "Pohánkovú sekanú nakrájajte na plátky a podávajte v celozrnnom chlebe s horčicou, kyslou uhorkou a červenou cibuľou.",
+  "foto": "",
+  "tagy": ["pohánka", "sekaná", "vegetariánske"]
+}

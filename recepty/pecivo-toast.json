@@ -1,0 +1,26 @@
+{
+  "id": "pecivo-toast",
+  "nazov": "Toastový chlieb",
+  "kategoria": "Pečivo",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Opečený toastový chlieb.",
+  "ingrediencie": [
+    {
+      "nazov": "Toastový chlieb",
+      "mnozstvo": 2,
+      "jednotka": "plátok"
+    }
+  ],
+  "postup": [
+    "Opeč v hriankovači."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "toast"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "pecena-polenta-so-zeleninou",
+  "nazov": "Pečená polenta so zeleninou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 8,
+  "cas": "50 min",
+  "kcal_na_porciu": 288,
+  "popis": "Zapekaná kukuričná polenta s mozzarellou, paradajkami, cuketou a žampiónmi.",
+  "ingrediencie": [
+    {"nazov": "Polenta", "mnozstvo": 320, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Sušený tymian", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Strúhaná mozzarella", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na zeleninu"},
+    {"nazov": "Mäsité paradajky", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cuketa", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Žampióny", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 185 °C, vo veľkom hrnci priveďte k varu 800 ml osolenej vody.",
+    "Za stáleho miešania vsypte polentu, varte na strednom ohni 2-5 minút, kým nezhustne.",
+    "Odstavte, primiešajte prepustené maslo, tymian a 200 g mozzarelly, dajte stranou.",
+    "Paradajky, cuketu a žampióny nakrájajte na plátky, zmiešajte s olejom, pretlačeným cesnakom, soľou a korením.",
+    "Zapekaciu misu vystelte papierom na pečenie, vlejte polentu, navrch poukladajte zeleninu.",
+    "Posypte zvyšnou mozzarellou a zapekajte v rúre 12-15 minút pri 175-185 °C."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["polenta", "zapekané", "zelenina", "talianska kuchyňa"]
+}

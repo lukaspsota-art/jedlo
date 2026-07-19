@@ -1,0 +1,28 @@
+{
+  "id": "kakaovy-krem-s-tofu",
+  "nazov": "Kakaový krém s tofu",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "10 min",
+  "kcal_na_porciu": 164,
+  "popis": "Ľahký kakaový krém z tofu a banánu s tvarohom a strúhanou čokoládou.",
+  "ingrediencie": [
+    {"nazov": "Tofu naturálne", "mnozstvo": 200, "jednotka": "g"},
+    {"nazov": "Banán zmrazený", "mnozstvo": 1, "jednotka": "ks"},
+    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Ryžové mlieko", "mnozstvo": 100, "jednotka": "ml"},
+    {"nazov": "Holandské kakao", "mnozstvo": 2, "jednotka": "ČL"},
+    {"nazov": "Tvaroh polotučný", "mnozstvo": 100, "jednotka": "g"},
+    {"nazov": "Horká čokoláda strúhaná", "mnozstvo": 20, "jednotka": "g"}
+  ],
+  "postup": [
+    "V mixéri rozmixujte tofu, banán, med, ryžové mlieko a kakao dohladka.",
+    "Krém preložte do pohárov.",
+    "Pridajte tvaroh a posypte strúhanou čokoládou."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["dezert", "tofu", "kakao", "bez lepku"]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "energy-tycinky",
+  "nazov": "Energy tyčinky",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 12,
+  "cas": "55 min",
+  "kcal_na_porciu": 271,
+  "popis": "Pečené ovsené tyčinky s orechmi, ľanovým semienkom a vrstvou ríbezľového džemu.",
+  "ingrediencie": [
+    {"nazov": "Múka z ovsených vločiek", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Javorový sirup", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Kokosový olej", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Ovsené vločky", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Vlašské orechy mleté", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Mandle mleté", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Ľanové semienko", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Ríbezľový džem bez cukru", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": ""}
+  ],
+  "postup": [
+    "Rúru predhrejeme na 190 °C.",
+    "Zmiešame múku z ovsených vločiek, javorový sirup, soľ, roztopený kokosový olej a ovsené vločky.",
+    "Asi 2/3 cesta rozprestrieme do formy (15x15 cm) vyloženej papierom na pečenie a pečieme 12 minút pri 180-190 °C.",
+    "Zvyšné cesto zmiešame s vlašskými orechmi, mandľami a ľanovým semienkom.",
+    "Formu vyberieme, spodnú vrstvu natrieme džemom a prekryjeme zmesou cesta a orechov.",
+    "Znovu pečieme asi 20 minút.",
+    "Vychladnuté tyčinky nakrájame na 12 rovnakých dielov."
+  ],
+  "tipy": "Namiesto ríbezľového džemu môžete použiť chia marmeládu.",
+  "foto": "",
+  "tagy": ["tyčinky", "snack", "ovsené vločky", "orechy"]
+}

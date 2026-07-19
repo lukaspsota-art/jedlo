@@ -1,0 +1,33 @@
+{
+  "id": "salat-kuskus-celer",
+  "nazov": "Salát s kuskusom a stopkovým zelerom",
+  "kategoria": "Šalát",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "15 min",
+  "kcal_na_porciu": 285,
+  "popis": "Sviežy šalát z kuskusu, stopkového zeleru a granátového jablka.",
+  "ingrediencie": [
+    { "nazov": "Celozrnný kuskus", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Stopkový zeler", "mnozstvo": 300, "jednotka": "g" },
+    { "nazov": "Kešu orechy", "mnozstvo": 50, "jednotka": "g" },
+    { "nazov": "Granátové jablko", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": "zrniečka" },
+    { "nazov": "Rukola", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Granátová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z ½ granátového jablka, dresing" },
+    { "nazov": "Cesnak", "mnozstvo": 0.5, "jednotka": "strúčik", "poznamka": "dresing" },
+    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, dresing" },
+    { "nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL", "poznamka": "dresing" },
+    { "nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": "dresing" }
+  ],
+  "postup": [
+    "Kuskus zalej 300 ml horúcej vody a necháme 10 minút stiahnuť.",
+    "Na dresing zmiešaj granátovú šťavu, prelisovaný cesnak, soľ, olivový olej a citrónovú šťavu.",
+    "Zeler ocisti, nakrájaj na kocky a daj do misy.",
+    "Pridaj kešu orechy, zrniečka z granátového jablka, rukolu a uvarený kuskus.",
+    "Podávaj s pripraveným dresingom."
+  ],
+  "tipy": "Kuskus môžeš nahradiť bulgurom alebo krúpami.",
+  "foto": "",
+  "tagy": ["šalát", "kuskus", "zeler", "granátové jablko"]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "priloha-hranolky",
+  "nazov": "Pečené hranolky",
+  "kategoria": "Príloha",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "35 min",
+  "popis": "Domáce hranolky pečené v rúre.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 1000,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Rastlinný olej",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Zemiaky nakrájaj na hranolky, opláchni a osuš.",
+    "Premiešaj s olejom a soľou, rozlož na plech.",
+    "Peč pri 220 °C 25–30 min, v polovici obráť."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "zemiaky",
+    "hranolky"
+  ]
+}

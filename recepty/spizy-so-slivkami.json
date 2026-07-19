@@ -1,0 +1,39 @@
+{
+  "id": "spizy-so-slivkami",
+  "nazov": "Špízy so slivkami",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "35 min",
+  "kcal_na_porciu": 481,
+  "popis": "Marinované kuracie špízy s paprikou, cibuľou a sušenými slivkami podávané s ryžou.",
+  "ingrediencie": [
+    {"nazov": "Celozrnná ryža", "mnozstvo": 240, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Kuracie prsia", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Paprika", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Citrónová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z 1 citróna"},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Kurkuma", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Chilli paprička", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Sušený koriander", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Sušený oregano", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Sušené slivky", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Ryžu varte v osolenej vode podľa návodu na obale (25-30 minút).",
+    "Kuracie prsia nakrájajte na kocky, cibuľu a papriku na väčšie kusy.",
+    "V miske zmiešajte med, citrónovú šťavu, olej a korenie.",
+    "Vložte mäso a marinujte aspoň 20 minút.",
+    "Na špajle napichajte striedavo mäso, papriku, cibuľu a slivky, vznikne asi 8 špízov.",
+    "Opekajte na panvici s olejom zo všetkých strán asi 12 minút.",
+    "Podávajte s celozrnnou ryžou."
+  ],
+  "tipy": "Ak nejete mäso, nahraďte kuracie prsia údeným tofu.",
+  "foto": "",
+  "tagy": ["kura", "špízy", "slivky", "hlavné jedlo"]
+}

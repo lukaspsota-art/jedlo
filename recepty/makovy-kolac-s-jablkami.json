@@ -1,0 +1,33 @@
+{
+  "id": "makovy-kolac-s-jablkami",
+  "nazov": "Makový koláč s jablkami",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 16,
+  "cas": "75 min",
+  "kcal_na_porciu": 120,
+  "popis": "Vlhký makový koláč s jablkami a tvarohom bez múky.",
+  "ingrediencie": [
+    {"nazov": "Vajce", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Mletý mak", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Polotučný tvaroh", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Jablká", "mnozstvo": 300, "jednotka": "g", "poznamka": "nastrúhané"},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "štipka"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 170 °C.",
+    "Zo štyroch vajec oddeľte žĺtky od bielkov.",
+    "K žĺtkom pridajte mak, tvaroh, jablká, med, kypriaci prášok, vanilkový extrakt a soľ.",
+    "Z bielkov vyšľahajte tuhý sneh a opatrne vmiešajte do cesta.",
+    "Cesto vlejte do formy o priemere 20 cm vystlanej papierom na pečenie.",
+    "Pečte pri 160-170 °C asi 60 minút.",
+    "Nakrájajte na 16 rovnakých dielov a podávajte."
+  ],
+  "tipy": "Koláč servírujte s tvarohom osladeným medom.",
+  "foto": "",
+  "tagy": ["makový koláč", "jablká", "dezert", "bezmúčne"]
+}

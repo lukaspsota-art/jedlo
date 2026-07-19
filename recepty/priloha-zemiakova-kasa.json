@@ -1,0 +1,44 @@
+{
+  "id": "priloha-zemiakova-kasa",
+  "nazov": "Zemiaková kaša",
+  "kategoria": "Príloha",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Krémová zemiaková kaša s maslom a mliekom.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 1000,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 40,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Zemiaky uvar do mäkka a zlej vodu.",
+    "Rozpučuj, pridaj teplé mlieko a maslo.",
+    "Šľahaj do hladka, osoľ."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "zemiaky"
+  ]
+}

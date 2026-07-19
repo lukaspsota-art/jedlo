@@ -1,0 +1,32 @@
+{
+  "id": "peceny-grep-ricotta",
+  "nazov": "Pečený grep s ricottou",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 4,
+  "cas": "35 min",
+  "kcal_na_porciu": 256,
+  "popis": "Pečený grep s medovo-škoricovou glazúrou a sladkou ricottou s orechmi.",
+  "ingrediencie": [
+    { "nazov": "Grep", "mnozstvo": 2, "jednotka": "ks" },
+    { "nazov": "Kokosový olej", "mnozstvo": 1, "jednotka": "PL" },
+    { "nazov": "Mletá škorica", "mnozstvo": 0.5, "jednotka": "ČL" },
+    { "nazov": "Med", "mnozstvo": 2, "jednotka": "ČL" },
+    { "nazov": "Ricotta", "mnozstvo": 200, "jednotka": "g" },
+    { "nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": "do ricotty" },
+    { "nazov": "Tvaroh", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "ČL" },
+    { "nazov": "Nasekané vlašské orechy", "mnozstvo": 50, "jednotka": "g" }
+  ],
+  "postup": [
+    "Rúru predhrej na 170 °C. Grepy rozpoly, opatrne narež okolo kôry a medzi jednotlivými mesiačkami.",
+    "Zmiešaj kokosový olej, škoricu a med, touto zmesou potri rezné plochy grepov.",
+    "Grepy polož na plech s papierom na pečenie a pečieme pri 160–170 °C 10 minút.",
+    "Zatiaľ zmiešaj ricottu, med, tvaroh a citrónovú šťavu na sladkú ricottu.",
+    "Upečené grepy rozdeľ na 4 taniere, na každú porciu daj lyžicu sladkej ricotty a posyp nasekanými vlašskými orechmi."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["raňajky", "grep", "ricotta", "dezert"]
+}

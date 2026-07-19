@@ -1,0 +1,34 @@
+{
+  "id": "hrachova-polievka-s-mrkvou",
+  "nazov": "Hrachová polievka s mrkvou",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 6,
+  "cas": "50 min",
+  "kcal_na_porciu": 171,
+  "popis": "Krémová hrachová polievka s mrkvou, majoránkou a tekvicovými semienkami.",
+  "ingrediencie": [
+    {"nazov": "Predvarený hrach", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Repkový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 1200, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Mrkva", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Majoránka", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Tekvicové semienka", "mnozstvo": 80, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Na oleji restujte najemno nakrájanú cibuľu 2-3 minúty.",
+    "Pridajte predvarený hrach a opekajte ďalších 10 minút.",
+    "Prilejte vývar, pridajte mrkvu nakrájanú na kolieska, pretlačený cesnak a majoránku.",
+    "Varte 15-20 minút, kým mrkva nezmäkne.",
+    "Polievku rozmixujte tyčovým mixérom, dochuťte soľou a korením.",
+    "Rozdeľte na porcie a posypte tekvicovými semienkami."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["polievka", "hrach", "mrkva"]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "krevety-s-chrastom",
+  "nazov": "Krevety s chrasťou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "35 min",
+  "kcal_na_porciu": 458,
+  "popis": "Opekané krevety so špargľou v citrónovej omáčke, podávané s divou ryžou.",
+  "ingrediencie": [
+    {"nazov": "Divá ryža", "mnozstvo": 240, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Krevety", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Citrónová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z 1 citróna"},
+    {"nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Špargľa", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Vývar", "mnozstvo": 250, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Kukuričný škrob", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Divú ryžu uvaríme v osolenej vode podľa návodu na obale.",
+    "Na panvici rozohrejeme 3 PL olivového oleja, pridáme krevety a opekáme 3 minúty z každej strany.",
+    "Ku krevetám vmiešame roztlačený cesnak, nakrájanú špargľu, citrónovú šťavu, soľ a korenie a opekáme ďalšie 2 minúty.",
+    "Prilejeme vývar, prikryjeme a povaríme asi 5 minút.",
+    "Škrob rozmiešame v pohári s 2 PL vody a za stáleho miešania prilievame do panvice, aby omáčka zhustla.",
+    "Krevety so špargľou podávame spolu s divou ryžou."
+  ],
+  "tipy": "Na urýchlenie prípravy použite už vylúpané krevety.",
+  "foto": "",
+  "tagy": ["krevety", "špargľa", "divá ryža"]
+}

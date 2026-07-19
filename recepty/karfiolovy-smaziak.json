@@ -1,0 +1,30 @@
+{
+  "id": "karfiolovy-smaziak",
+  "nazov": "Karfiolový smažiak",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 3,
+  "cas": "35 min",
+  "kcal_na_porciu": 240,
+  "popis": "Pečený rezeň z karfiolu plnený mozzarellou, dochutený bazalkou a parmezánom.",
+  "ingrediencie": [
+    {"nazov": "Karfiol", "mnozstvo": 1, "jednotka": "ks"},
+    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks"},
+    {"nazov": "Mozzarella", "mnozstvo": 150, "jednotka": "g"},
+    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"},
+    {"nazov": "Mletá bazalka", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Mletý parmezán", "mnozstvo": 60, "jednotka": "g"}
+  ],
+  "postup": [
+    "Karfiol očistite, nastrúhajte a dajte do misky.",
+    "Sušte v mikrovlnke 4 minúty, premiešajte a sušte ďalších 7 minút.",
+    "Vychladnutý karfiol zmiešajte s vajcom, soľou, bazalkou a parmezánom.",
+    "Na plech s papierom vytvarujte 4 rovnaké štvorce a pečte v predhriatej rúre 20 minút.",
+    "Na dva štvorce položte plátky mozzarelly a priklopte zvyšnými dvoma.",
+    "Vráťte do rúry a zapečte ešte asi 5 minút."
+  ],
+  "tipy": "Karfiolový smažiak podávajte napríklad so zemiakovou kašou.",
+  "foto": "",
+  "tagy": ["karfiol", "mozzarella", "vegetariánske"]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "toast-sunka",
+  "nazov": "Toast so šunkou a syrom",
+  "kategoria": "Raňajky",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "10 min",
+  "kcal_na_porciu": 350,
+  "popis": "Rýchle raňajkové sendviče, dajú sa pripraviť večer vopred.",
+  "ingrediencie": [
+    {
+      "nazov": "Toastový chlieb",
+      "mnozstvo": 8,
+      "jednotka": "plátok",
+      "poznamka": "2 ks/porciu"
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 40,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Šunka",
+      "mnozstvo": 120,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Eidam 45%",
+      "mnozstvo": 80,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Plátky chleba potri maslom.",
+    "Poskladaj sendvič so šunkou a eidamom.",
+    "Podľa chuti opeč v toasteri alebo na panvici.",
+    "Sendviče si pripravíš večer vopred, zavinieš do fólie a uložíš do chladničky."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "rýchle",
+    "vopred"
+  ]
+}

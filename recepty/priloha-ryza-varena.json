@@ -1,0 +1,39 @@
+{
+  "id": "priloha-ryza-varena",
+  "nazov": "Varená ryža",
+  "kategoria": "Príloha",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "15 min",
+  "popis": "Základná varená ryža ako príloha.",
+  "ingrediencie": [
+    {
+      "nazov": "Ryža",
+      "mnozstvo": 240,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 480,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Ryžu prepláchni studenou vodou.",
+    "Daj do hrnca s vodou a soľou, priveď do varu.",
+    "Zníž plameň, prikry a var 12 min. Odstav a nechaj 5 min odpočívať."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "ryža"
+  ]
+}

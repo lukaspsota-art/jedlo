@@ -1,0 +1,38 @@
+{
+  "id": "hovedzi-burger-s-cibulovou-marmeladou",
+  "nazov": "Hovädzí burger s cibuľovou marmeládou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 6,
+  "cas": "65 min",
+  "kcal_na_porciu": 537,
+  "popis": "Domáci hovädzí burger s karamelizovanou cibuľovou marmeládou a čakankovo-jogurtovým dipom.",
+  "ingrediencie": [
+    {"nazov": "Cibuľa", "mnozstvo": 400, "jednotka": "g", "poznamka": "na marmeládu"},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na marmeládu"},
+    {"nazov": "Trstinový cukor", "mnozstvo": 3, "jednotka": "ČL", "poznamka": "na marmeládu"},
+    {"nazov": "Balzamikový ocot", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na marmeládu"},
+    {"nazov": "Celozrnné žemle", "mnozstvo": 6, "jednotka": "ks", "poznamka": "na burgery"},
+    {"nazov": "Mleté hovädzie mäso", "mnozstvo": 750, "jednotka": "g", "poznamka": "kvalitné, na burgery"},
+    {"nazov": "Paradajky", "mnozstvo": 2, "jednotka": "ks", "poznamka": "mäsité"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": "na dip"},
+    {"nazov": "Biely jogurt", "mnozstvo": 350, "jednotka": "g", "poznamka": "3,5 % tuku, na dip"},
+    {"nazov": "Rukola", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Čakanka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""}
+  ],
+  "postup": [
+    "Cibuľu ošúpte, nakrájajte na mesiačiky a restujte na 2 PL olivového oleja 5 minút.",
+    "Prisypte trstinový cukor, prilejte balzamikový ocot a 100 ml vody, priklopte a duste 25-30 minút, kým sa cibuľa nezačne pripaľovať. Odstavte a odložte vychladnúť.",
+    "Pripravte dip - rozotlačený cesnak zmiešajte s jogurtom.",
+    "Žemle rozrežte na polovice, paradajky nakrájajte na plátky.",
+    "Mleté mäso osoľte, opepríte a vytvarujte 6 burgerov s výškou cca 3 cm.",
+    "Na rozohriatom grile opečte burgery (3 minúty z každej strany), plátky paradajok (1,5 minúty z každej strany) a žemle rezom nadol (cca 1 minútu).",
+    "Spodnú polovicu žemle potrite dipom, poukladajte čakanku, cibuľovú marmeládu, burger, grilovanú paradajku, rukolu a prikryte vrchnou polovicou žemle."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["burger", "hovädzie", "gril", "cibuľa"]
+}

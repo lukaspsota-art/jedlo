@@ -1,0 +1,56 @@
+{
+  "id": "limoncello-spritz",
+  "nazov": "Limoncello spritz",
+  "kategoria": "Kokteil",
+  "kuchyna": "Talianska",
+  "zdroj": "Kaufland FOOD magazín",
+  "porcie": 1,
+  "cas": "5 min",
+  "kcal_na_porciu": 180,
+  "popis": "Ľahký citrusový perlivý drink s limoncellom a proseccom, pripravený priamo v pohári.",
+  "ingrediencie": [
+    {
+      "nazov": "Limoncello",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Prosecco",
+      "mnozstvo": 90,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "strek"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátky na ozdobu"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do pohára s ľadom nalej limoncello a prosecco, dolej strek sódy a ozdob plátkami citróna a mätou."
+  ],
+  "tipy": "Podávaj poriadne vychladené.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "limoncello",
+    "perlivé"
+  ]
+}

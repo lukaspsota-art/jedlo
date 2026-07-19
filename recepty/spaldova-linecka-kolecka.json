@@ -1,0 +1,29 @@
+{
+  "id": "spaldova-linecka-kolecka",
+  "nazov": "Špaldové linecké koliečka",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 40,
+  "cas": "30 min",
+  "kcal_na_porciu": 64,
+  "popis": "Krehké linecké koliečka zo špaldovej múky spojené chia marmeládou.",
+  "ingrediencie": [
+    { "nazov": "Celozrnná špaldová múka", "mnozstvo": 150, "jednotka": "g" },
+    { "nazov": "Hladká špaldová múka", "mnozstvo": 100, "jednotka": "g", "poznamka": "+ 50 g na podsypanie" },
+    { "nazov": "Maslo", "mnozstvo": 160, "jednotka": "g" },
+    { "nazov": "Žĺtok", "mnozstvo": 3, "jednotka": "ks" },
+    { "nazov": "Trstinový cukor", "mnozstvo": 60, "jednotka": "g" },
+    { "nazov": "Chia marmeláda", "mnozstvo": 120, "jednotka": "g" }
+  ],
+  "postup": [
+    "Zo všetkých surových vypracuj cesto, zabaľ do fólie a necháj odležať do druhého dňa.",
+    "Cesto prehneť rukami a na pomúčenom vále vyváľaj.",
+    "Vykrajuj kolieska a ukladaj na plech s papierom na pečenie.",
+    "Pečieme pri 165–175 °C 10 minút.",
+    "Upečené kolieska spájaj chia marmeládou."
+  ],
+  "tipy": "Kolieska môžeš obaliť v sušenom ryžovom mlieku alebo sypkej stévii.",
+  "foto": "",
+  "tagy": ["dezert", "linecké", "špalda", "marmeláda"]
+}

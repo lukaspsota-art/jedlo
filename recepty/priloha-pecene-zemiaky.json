@@ -1,0 +1,45 @@
+{
+  "id": "priloha-pecene-zemiaky",
+  "nazov": "Pečené zemiaky z plechu",
+  "kategoria": "Príloha",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "40 min",
+  "popis": "Zemiaky pečené v rúre s olivovým olejom a korením.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 1000,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 5,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Rúru predhrej na 200 °C.",
+    "Zemiaky nakrájaj na mesiačiky, premiešaj s olejom, paprikou a soľou.",
+    "Peč 30–35 min do zlatista."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "zemiaky",
+    "pečené"
+  ]
+}

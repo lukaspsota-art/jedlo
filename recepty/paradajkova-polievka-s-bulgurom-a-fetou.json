@@ -1,0 +1,37 @@
+{
+  "id": "paradajkova-polievka-s-bulgurom-a-fetou",
+  "nazov": "Paradajková polievka s bulgurom a fetou",
+  "kategoria": "Polievka",
+  "kuchyna": "Grécka",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "35 min",
+  "kcal_na_porciu": 329,
+  "popis": "Hutná paradajková polievka s bulgurom, fetou a čerstvou bazalkou.",
+  "ingrediencie": [
+    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Koriander mletý", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Škorica mletá", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 1, "jednotka": "l", "poznamka": ""},
+    {"nazov": "Bulgur surový", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Paradajky krájané", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Syr feta", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Bazalka čerstvá", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "V hrnci rozohrejeme prepustené maslo s olivovým olejom.",
+    "Pridáme najemno nasekanú cibuľku a restujeme na strednom plameni 6 minút.",
+    "Pridáme roztlačený cesnak, koriander a škoricu, restujeme ďalšiu minútu.",
+    "Zalejeme vývarom, pridáme bulgur a paradajky nakrájané na kocky.",
+    "Privedieme k varu a varíme 15 minút, kým bulgur celkom nezmäkne.",
+    "Dochutíme soľou a korením, podávame s nahrubo nastrúhanou fetou a listami bazalky."
+  ],
+  "tipy": "Táto polievka je hutná a zasytí, môžete sa zaobísť bez druhého chodu.",
+  "foto": "",
+  "tagy": ["polievka", "bulgur", "feta"]
+}

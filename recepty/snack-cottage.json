@@ -1,0 +1,27 @@
+{
+  "id": "snack-cottage",
+  "nazov": "Cottage syr",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "1 min",
+  "popis": "Kúpený cottage syr.",
+  "ingrediencie": [
+    {
+      "nazov": "Cottage",
+      "mnozstvo": 180,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Kúpené — otvor a zjedz."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "kupované",
+    "bielkoviny"
+  ]
+}

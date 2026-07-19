@@ -1,0 +1,34 @@
+{
+  "id": "priloha-zemiaky-varene",
+  "nazov": "Varené zemiaky",
+  "kategoria": "Príloha",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Klasické soľou varené zemiaky.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 1000,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Zemiaky ošúp a nakrájaj na štvrtiny.",
+    "Var v osolenej vode 20 min do mäkka.",
+    "Zlej vodu."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "zemiaky"
+  ]
+}

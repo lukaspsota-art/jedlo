@@ -1,0 +1,39 @@
+{
+  "id": "masove-gulky-so-spagetami",
+  "nazov": "Mäsové guľky so špagetami",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 6,
+  "cas": "55 min",
+  "kcal_na_porciu": 757,
+  "popis": "Hovädzie mäsové guľky v kokosovo-vývarovej omáčke podávané s celozrnnými špagetami.",
+  "ingrediencie": [
+    {"nazov": "Celozrnné špagety", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Hovädzie mäso mleté (kvalitné)", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Ovsené vločky", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Hovädzí vývar", "mnozstvo": 300, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Kokosové mlieko z konzervy", "mnozstvo": 600, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Muškátový oriešok mletý", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Petržlen sušený", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Zemiakový škrob", "mnozstvo": 1, "jednotka": "PL", "poznamka": "možno vynechať"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Špagety uvaríme podľa návodu na obale v osolenej vode.",
+    "Mäso zmiešame s ovsenými vločkami, vajcami, soľou, korením a najemno nasekanými šalotkami.",
+    "Vo väčšej panvici rozohrejeme olej, z mäsovej zmesi tvarujeme guľky a postupne opekáme zo všetkých strán.",
+    "Po 15 minútach zalejeme hovädzím vývarom, prikryjeme a povaríme 5 minút.",
+    "Prilejeme kokosové mlieko, premiešame a znovu prikryjeme na 10 minút.",
+    "Do omáčky vmiešame muškátový oriešok a petržlen, dochutíme soľou a korením.",
+    "V pohári s vodou rozmiešame škrob a za stáleho miešania prilievame do panvice, aby omáčka zhustla.",
+    "Guľky podávame s uvarenými špagetami."
+  ],
+  "tipy": "Omáčku môžete dochutiť 2 ČL sušeného cesnakového korenia.",
+  "foto": "",
+  "tagy": ["mäsové guľky", "špagety", "hovädzie mäso"]
+}

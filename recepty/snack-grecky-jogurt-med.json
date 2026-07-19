@@ -1,0 +1,32 @@
+{
+  "id": "snack-grecky-jogurt-med",
+  "nazov": "Grécky jogurt s medom",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Grécky jogurt s lyžičkou medu.",
+  "ingrediencie": [
+    {
+      "nazov": "Grécky jogurt",
+      "mnozstvo": 150,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 15,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Jogurt prelej medom."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "bielkoviny",
+    "kupované"
+  ]
+}

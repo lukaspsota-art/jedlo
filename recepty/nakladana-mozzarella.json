@@ -1,0 +1,30 @@
+{
+  "id": "nakladana-mozzarella",
+  "nazov": "Nakladaná mozzarella",
+  "kategoria": "Snack",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 16,
+  "cas": "40 min",
+  "kcal_na_porciu": 196,
+  "popis": "Nakladaná mozzarella s cesnakom, čili a bylinkami v olivovom oleji.",
+  "ingrediencie": [
+    {"nazov": "Mozzarella", "mnozstvo": 1, "jednotka": "kg", "poznamka": ""},
+    {"nazov": "Biela cibuľa", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Hrubozrnná soľ", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Čierne korenie", "mnozstvo": 10, "jednotka": "ks", "poznamka": "kuličky"},
+    {"nazov": "Čili papričky", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 500, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 5, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Čerstvé bylinky", "mnozstvo": 2, "jednotka": "hrsť", "poznamka": "tymian a rozmarín"}
+  ],
+  "postup": [
+    "Mozzarellu očistite, rozdeľte na polovice alebo necháte celú.",
+    "Cibuľu nakrájajte na kolieska, čili papričky nadrobno, cesnak na plátky.",
+    "Mozzarellu ukladajte do umytých pol litrových pohárov, prekladajte čili papričkami, korením, hrubozrnnou soľou, cesnakom, bylinkami a cibuľou.",
+    "Zalejte olivovým olejom, uzavrite a necháte odležať aspoň týždeň."
+  ],
+  "tipy": "Podávajte ako občerstvenie na párty s celozrnným pečivom.",
+  "foto": "",
+  "tagy": ["mozzarella", "zavarenina", "olivový olej", "snack"]
+}

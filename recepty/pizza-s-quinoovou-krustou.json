@@ -1,0 +1,37 @@
+{
+  "id": "pizza-s-quinoovou-krustou",
+  "nazov": "Pizza s quinoovou krustou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 8,
+  "cas": "60 min",
+  "kcal_na_porciu": 210,
+  "popis": "Bezlepková pizza s krustou z quinoy, bazalkovým pestom a čerstvou zeleninou.",
+  "ingrediencie": [
+    {"nazov": "Biela quinoa", "mnozstvo": 150, "jednotka": "g", "poznamka": "surová"},
+    {"nazov": "Prášok do pečiva", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"},
+    {"nazov": "Nutričné kvasnice", "mnozstvo": 1, "jednotka": "PL"},
+    {"nazov": "Sušené oregano", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Bazalkové pesto", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Vajce", "mnozstvo": 3, "jednotka": "ks"},
+    {"nazov": "Baby špenát", "mnozstvo": 1, "jednotka": "hrsť"},
+    {"nazov": "Predvarená kukurica", "mnozstvo": 30, "jednotka": "g"},
+    {"nazov": "Cherry paradajky", "mnozstvo": 100, "jednotka": "g"},
+    {"nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks"}
+  ],
+  "postup": [
+    "Quinou zalejte 400 ml horúcej vody a nechajte nasať, najlepšie cez noc.",
+    "Rúru predhrejte na 180 °C.",
+    "Scedenú quinou rozmixujte s práškom do pečiva, olivovým olejom, soľou, nutričnými kvasnicami, oreganom a 50 ml vody nahladko.",
+    "Cesto prelejte do okrúhlej formy s papierom a pečte pri 170-180 °C 18-20 minút.",
+    "Krustu potrite bazalkovým pestom, posypte kukuricou a pretlačenými cherry paradajkami.",
+    "Vráťte do rúry na ďalších 10 minút.",
+    "Pred podávaním pizzu posypte baby špenátom a plátkami avokáda."
+  ],
+  "tipy": "Pizzu môžete pripraviť aj s iným toppingom, napríklad s rukolou a čerstvým kozím syrom.",
+  "foto": "",
+  "tagy": ["pizza", "quinoa", "bezlepkové", "vegetariánske"]
+}

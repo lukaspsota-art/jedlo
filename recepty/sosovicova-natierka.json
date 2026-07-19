@@ -1,0 +1,35 @@
+{
+  "id": "sosovicova-natierka",
+  "nazov": "Šošovicová nátierka",
+  "kategoria": "Nátierka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 2,
+  "cas": "18 min",
+  "kcal_na_porciu": 343,
+  "popis": "Nátierka z červenej šošovice, vajec a cesnaku dochutená kurkumou.",
+  "ingrediencie": [
+    {"nazov": "Červená šošovica", "mnozstvo": 100, "jednotka": "g", "poznamka": "suchá"},
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Strúčik cesnaku", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Kurkuma", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": "možno vynechať"},
+    {"nazov": "Čerstvá petržlenová vňať", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Šošovicu prepláchnite a uvarte podľa návodu na obale.",
+    "Vajcia uvarte na tvrdo.",
+    "Na oleji orestujte nadrobno nakrájanú šalotku.",
+    "Pridajte uvarenú šošovicu s roztlačeným cesnakom a kurkumou, odstavte a necháte vychladnúť.",
+    "Preneste do mixéra spolu s olúpanými vajcami a mixujte na hrubšiu konzistenciu.",
+    "Dochutite soľou, korením a prípadne citrónovou šťavou.",
+    "Primiešajte nasekanú petržlenovú vňať."
+  ],
+  "tipy": "Šošovicovú nátierku natrite na celozrnnú bagetku a ozdobte zelenými olivami.",
+  "foto": "",
+  "tagy": ["šošovica", "nátierka", "vajcia", "strukoviny"]
+}

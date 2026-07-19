@@ -1,0 +1,30 @@
+{
+  "id": "ovsena-kasa-cez-noc",
+  "nazov": "Ovsená kaša cez noc",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 1,
+  "cas": "5 min",
+  "kcal_na_porciu": 427,
+  "popis": "Praktická raňajka namočená cez noc v pohári z ovsených vločiek, banánu, gréckeho jogurtu a malín.",
+  "ingrediencie": [
+    {"nazov": "Banán", "mnozstvo": 1, "jednotka": "ks", "poznamka": "stredný"},
+    {"nazov": "Mlieko", "mnozstvo": 120, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Ovsené vločky", "mnozstvo": 40, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Grécky jogurt", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Chia semienka", "mnozstvo": 5, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Škorica", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Maliny", "mnozstvo": 40, "jednotka": "g", "poznamka": "čerstvé"}
+  ],
+  "postup": [
+    "Banán rozmixuj vidličkou v miske.",
+    "Prilej mlieko, pridaj ovsené vločky, jogurt, chia semienka a škoricu.",
+    "Všetko premiešaj a pridaj maliny.",
+    "Znova premiešaj a hmotou naplň zaváraciu sklenicu.",
+    "Sklenicu uzavri a nechaj cez noc v chladničke."
+  ],
+  "tipy": "Maliny môžeš nahradiť iným sezónnym ovocím.",
+  "foto": "",
+  "tagy": ["raňajky", "ovsená kaša", "chia", "maliny"]
+}

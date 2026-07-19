@@ -1,0 +1,30 @@
+{
+  "id": "ovocny-salat-s-kozim-syrom",
+  "nazov": "Ovocný šalát s kozím syrom",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 2,
+  "cas": "10 min",
+  "kcal_na_porciu": 223,
+  "popis": "Sviežy šalát z baby špenátu, pomaranča a kozieho syra s medovou zálievkou.",
+  "ingrediencie": [
+    {"nazov": "Rozmarín čerstvý", "mnozstvo": 1, "jednotka": "hrsť"},
+    {"nazov": "Baby špenát", "mnozstvo": 100, "jednotka": "g"},
+    {"nazov": "Salát little gem", "mnozstvo": 150, "jednotka": "g"},
+    {"nazov": "Krvavý pomaranč", "mnozstvo": 0.5, "jednotka": "ks"},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na zálievku"},
+    {"nazov": "Vínny ocot", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na zálievku"},
+    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na zálievku"},
+    {"nazov": "Kozí syr", "mnozstvo": 100, "jednotka": "g"}
+  ],
+  "postup": [
+    "V mise zmiešajte čerstvý rozmarín, baby špenát a little gem.",
+    "Pomaranč ošúpte, nakrájajte na plátky a pridajte k šalátu.",
+    "Zmiešajte olivový olej, vínny ocot a med na zálievku.",
+    "Šalát rozdeľte na 2 porcie, na každú rozdrobte kozí syr a zalejte zálievkou."
+  ],
+  "tipy": "Každú porciu môžete posypať asi 50 g piniovými oriešikmi.",
+  "foto": "",
+  "tagy": ["šalát", "kozí syr", "pomaranč", "špenát"]
+}

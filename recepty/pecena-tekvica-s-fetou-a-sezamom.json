@@ -1,0 +1,33 @@
+{
+  "id": "pecena-tekvica-s-fetou-a-sezamom",
+  "nazov": "Pečená tekvica s fetou a sezamom",
+  "kategoria": "Príloha",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 2,
+  "cas": "50 min",
+  "kcal_na_porciu": 337,
+  "popis": "Pečené plátky maslovej tekvice s medom, balzamikovým octom, fetou a sezamom.",
+  "ingrediencie": [
+    {"nazov": "Maslová tekvica", "mnozstvo": 300, "jednotka": "g", "poznamka": "zbavená dužiny a semienok"},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Syr feta", "mnozstvo": 70, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Balzamikový ocot", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Sezamové semienka", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 180 °C.",
+    "Tekvicu olúpte, pozdĺžne rozpoltite a nakrájajte na plátky.",
+    "Plátky naskladajte na plech vyložený papierom na pečenie, pokvapkajte olivovým olejom.",
+    "Pečte v predhriatej rúre 25 minút pri 170-180 °C.",
+    "Upečené plátky pokvapkajte medom a balzamikovým octom, podľa chuti dochuťte soľou a korením.",
+    "Plátky rozdeľte na dve porcie, na každú medzi prstami rozdrobte fetu.",
+    "Na záver posypte sezamovými semienkami."
+  ],
+  "tipy": "Tekvicu ozdobte granátovým jablkom a rukolou.",
+  "foto": "",
+  "tagy": ["tekvica", "feta", "sezam", "pečené"]
+}

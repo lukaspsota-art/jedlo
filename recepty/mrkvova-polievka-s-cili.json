@@ -1,0 +1,35 @@
+{
+  "id": "mrkvova-polievka-s-cili",
+  "nazov": "Mrkvová polievka s čili",
+  "kategoria": "Polievka",
+  "kuchyna": "Ázijská",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "45 min",
+  "kcal_na_porciu": 305,
+  "popis": "Krémová mrkvová polievka s kokosovým mliekom, čili paprikou a limetkou.",
+  "ingrediencie": [
+    {"nazov": "Mrkva", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cibuľa", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Čili paprička", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 800, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Kokosové mlieko", "mnozstvo": 300, "jednotka": "ml", "poznamka": "z konzervy"},
+    {"nazov": "Limetka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
+    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
+    {"nazov": "Celozrnný chlieb", "mnozstvo": 2, "jednotka": "plátok", "poznamka": ""}
+  ],
+  "postup": [
+    "Mrkvu oškrab a nakrájaj na menšie kocky.",
+    "Na panvici rozohrej olej, pridaj najemno nakrájanú cibuľku a restuj do sklovita.",
+    "Pridaj mrkvu a nadrobno nasekanú čili papričku, restuj cca 1 minútu.",
+    "Zalej vývarom, priveď do varu a var, kým mrkva nezmäkne, cca 30 minút.",
+    "Odstav z platničky, prilej kokosové mlieko a rozmixuj tyčovým mixérom.",
+    "Precedi cez sitko, pridaj kôru z limetky, dosoľ a dokorenie.",
+    "Podávaj s nasucho opečenými plátkami chleba."
+  ],
+  "tipy": "Polievku môžeš dochutiť opraženými tekvicovými alebo sezamovými semienkami.",
+  "foto": "",
+  "tagy": ["polievka", "mrkva", "čili", "kokosové mlieko"]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cupcakes-s-cucoriedkami",
+  "nazov": "Cupcakes s čučoriedkami",
+  "kategoria": "Dezert",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 12,
+  "cas": "45 min",
+  "kcal_na_porciu": 148,
+  "popis": "Proteínové kakaové cupcakes s tvarohovo-ricottovou polevou a čučoriedkami.",
+  "ingrediencie": [
+    {"nazov": "Múka z ovsených vločiek", "mnozstvo": 180, "jednotka": "g"},
+    {"nazov": "Čokoládový proteín", "mnozstvo": 30, "jednotka": "g"},
+    {"nazov": "Holandské kakao", "mnozstvo": 1.5, "jednotka": "PL"},
+    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 2, "jednotka": "ČL"},
+    {"nazov": "Jedlá sóda", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Med", "mnozstvo": 3, "jednotka": "PL"},
+    {"nazov": "Biely jogurt", "mnozstvo": 150, "jednotka": "g"},
+    {"nazov": "Mlieko", "mnozstvo": 150, "jednotka": "ml"},
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks"},
+    {"nazov": "Tvaroh", "mnozstvo": 150, "jednotka": "g", "poznamka": "na polevu"},
+    {"nazov": "Ricotta", "mnozstvo": 80, "jednotka": "g", "poznamka": "na polevu"},
+    {"nazov": "Holandské kakao", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na polevu"},
+    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na polevu"},
+    {"nazov": "Čučoriedky", "mnozstvo": 150, "jednotka": "g", "poznamka": "na ozdobenie"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 180 °C.",
+    "Prosejte múku, protein, kakao, kypriaci prášok a sódu do misy.",
+    "V druhej mise vyšľahajte med s jogurtom, mliekom a vajcami.",
+    "Obsah mís spojte a cesto rozdeľte do 12 formičiek na muffiny.",
+    "Pečte pri 170–180 °C 25 minút.",
+    "Zmiešajte tvaroh, ricottu, kakao a med a dajte chladiť.",
+    "Vychladnuté cupcakes ozdobte polevou pomocou zdobiaceho vrecka a čučoriedkami."
+  ],
+  "tipy": "Namiesto čučoriedok môžete použiť akékoľvek sezónne ovocie.",
+  "foto": "",
+  "tagy": ["dezert", "cupcakes", "proteín", "čučoriedky"]
+}

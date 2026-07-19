@@ -1,0 +1,34 @@
+{
+  "id": "rizoto-z-cervenej-repy",
+  "nazov": "Rizoto z červenej repy",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "55 min",
+  "kcal_na_porciu": 274,
+  "popis": "Krémové rizoto z ryže arborio s pečenou repou a rozmarínom.",
+  "ingrediencie": [
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": "stredná"},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik"},
+    {"nazov": "Ryža arborio", "mnozstvo": 140, "jednotka": "g", "poznamka": "surová, alebo celozrnná"},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 800, "jednotka": "ml"},
+    {"nazov": "Predvarená červená repa", "mnozstvo": 250, "jednotka": "g", "poznamka": "strúhaná"},
+    {"nazov": "Ghí", "mnozstvo": 1, "jednotka": "PL"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Sušený rozmarín", "mnozstvo": 2, "jednotka": "ČL"}
+  ],
+  "postup": [
+    "Vo väčšej panvici rozohrejte olivový olej, pridajte nadrobno nakrájanú cibuľu a opekajte 4 minúty.",
+    "Pridajte pretlačený cesnak a opečte 1 minútu.",
+    "Vsypte ryžu a za stáleho miešania opekajte 3-4 minúty, kým nezasklovatie.",
+    "Pridajte rozmarín a strúhanú repu, zalejte 150 ml vývaru.",
+    "Postupne prilievajte vývar, keď sa vsakuje, kým sa nespotrebuje celý a ryža nie je uvarená.",
+    "Dochuťte soľou, korením a zjemnite lyžicou ghí."
+  ],
+  "tipy": "Rizoto podávajte posypané hrsťou strúhaného parmezánu.",
+  "foto": "",
+  "tagy": ["rizoto", "repa", "vegetariánske"]
+}

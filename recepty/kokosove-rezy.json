@@ -1,0 +1,34 @@
+{
+  "id": "kokosove-rezy",
+  "nazov": "Kokosové rezy",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 25,
+  "cas": "30 min",
+  "kcal_na_porciu": 164,
+  "popis": "Nepečené kokosové rezy s datľovo-vločkovým základom, banánovou vrstvou a čokoládovou polevou.",
+  "ingrediencie": [
+    {"nazov": "Ovsené vločky", "mnozstvo": 200, "jednotka": "g", "poznamka": "1. vrstva"},
+    {"nazov": "Strúhaný kokos", "mnozstvo": 100, "jednotka": "g", "poznamka": "1. vrstva"},
+    {"nazov": "Med", "mnozstvo": 3, "jednotka": "PL", "poznamka": "1. vrstva"},
+    {"nazov": "Datle", "mnozstvo": 100, "jednotka": "g", "poznamka": "1. vrstva"},
+    {"nazov": "Holandské kakao", "mnozstvo": 1, "jednotka": "PL", "poznamka": "1. vrstva"},
+    {"nazov": "Mleté mandle", "mnozstvo": 50, "jednotka": "g", "poznamka": "1. vrstva"},
+    {"nazov": "Strúhaný kokos", "mnozstvo": 150, "jednotka": "g", "poznamka": "2. vrstva"},
+    {"nazov": "Banán", "mnozstvo": 1, "jednotka": "ks", "poznamka": "2. vrstva"},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": "2. vrstva"},
+    {"nazov": "Vanilkový extrakt", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "2. vrstva"},
+    {"nazov": "Horká čokoláda", "mnozstvo": 200, "jednotka": "g", "poznamka": "3. vrstva"}
+  ],
+  "postup": [
+    "Ingrediencie na 1. vrstvu (ovsené vločky, kokos, med, datle, kakao, mandle) rozmixujte cca 20-30 sekúnd a natlačte do formy 25x25 cm.",
+    "Ingrediencie na 2. vrstvu (kokos, banán, med, vanilka) rozmixujte dohladka a nalejte na prvú vrstvu. Dajte na 30 minút do chladničky.",
+    "Rozpustite čokoládu vo vodnom kúpeli a nalejte na druhú vrstvu.",
+    "Rezy dajte na aspoň 12 hodín do chladničky.",
+    "Vychladené rezy nakrájajte na 25 kúskov a podávajte."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["nepečený dezert", "kokos", "datle", "čokoláda"]
+}

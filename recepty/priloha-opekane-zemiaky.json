@@ -1,0 +1,44 @@
+{
+  "id": "priloha-opekane-zemiaky",
+  "nazov": "Opekané zemiaky",
+  "kategoria": "Príloha",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "30 min",
+  "popis": "Zemiaky opekané na oleji s cibuľkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 1000,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Rastlinný olej",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Zemiaky uvar v šupke a nechaj vychladnúť, potom ošúp a nakrájaj.",
+    "Na oleji opeč cibuľu a zemiaky do zlatista.",
+    "Osoľ."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "zemiaky"
+  ]
+}

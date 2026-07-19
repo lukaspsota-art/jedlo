@@ -1,0 +1,27 @@
+{
+  "id": "zazvorove-smoothie",
+  "nazov": "Zázvorové smoothie",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 1,
+  "cas": "5 min",
+  "kcal_na_porciu": 327,
+  "popis": "Osviežujúce smoothie so zázvorom, malinami a špenátom.",
+  "ingrediencie": [
+    { "nazov": "Banán", "mnozstvo": 1, "jednotka": "ks" },
+    { "nazov": "Maliny", "mnozstvo": 50, "jednotka": "g" },
+    { "nazov": "Nastrúhaný zázvor", "mnozstvo": 1, "jednotka": "ČL" },
+    { "nazov": "Špenát", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Chia semienka", "mnozstvo": 1, "jednotka": "PL" },
+    { "nazov": "Stévia", "mnozstvo": null, "jednotka": "", "poznamka": "pár kvapiek" },
+    { "nazov": "Mlieko", "mnozstvo": 200, "jednotka": "ml", "poznamka": "alebo voda" }
+  ],
+  "postup": [
+    "Všetky surové rozmixuj v mixéri dohladka.",
+    "Prelej do pohára a podávaj."
+  ],
+  "tipy": "Ak do smoothie pridáš 2 PL chia semienok a necháš ho v chladničke do druhého dňa, dostaneš chia puding na desiatu.",
+  "foto": "",
+  "tagy": ["nápoj", "smoothie", "zázvor", "špenát"]
+}

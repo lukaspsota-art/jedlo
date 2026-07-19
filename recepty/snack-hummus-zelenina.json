@@ -1,0 +1,37 @@
+{
+  "id": "snack-hummus-zelenina",
+  "nazov": "Hummus so zeleninou",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Hummus s mrkvovými a paprikovými tyčinkami.",
+  "ingrediencie": [
+    {
+      "nazov": "Hummus",
+      "mnozstvo": 60,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 100,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Červená paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    }
+  ],
+  "postup": [
+    "Zeleninu nakrájaj na tyčinky.",
+    "Podávaj s hummusom."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "zelenina"
+  ]
+}

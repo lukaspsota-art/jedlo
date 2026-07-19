@@ -1,0 +1,27 @@
+{
+  "id": "jogurtova-panna-cotta",
+  "nazov": "Jogurtová panna cotta",
+  "kategoria": "Dezert",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 4,
+  "cas": "45 min",
+  "kcal_na_porciu": 109,
+  "popis": "Ľahká jogurtová panna cotta zahustená agarom a sladená medom.",
+  "ingrediencie": [
+    {"nazov": "Mlieko", "mnozstvo": 250, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Agar", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "alebo semienka z 1 vanilkového struku"},
+    {"nazov": "Med", "mnozstvo": 3, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Jogurt", "mnozstvo": 400, "jednotka": "g", "poznamka": "5 % tuku"}
+  ],
+  "postup": [
+    "Agar rozmiešajte v mlieku, prelejte do rendlíka, pridajte vanilku a med a priveďte k varu.",
+    "Varte, kým sa agar nerozpustí, potom odstavte a necháte 2 minúty vychladnúť.",
+    "Primiešajte jogurt.",
+    "Zmes rozdeľte do 4 pohárikov a dajte aspoň na 1 hodinu do chladničky."
+  ],
+  "tipy": "Podávajte s prevareným rybízom s medom a vanilkou.",
+  "foto": "",
+  "tagy": ["panna cotta", "jogurt", "dezert", "bez želatíny"]
+}

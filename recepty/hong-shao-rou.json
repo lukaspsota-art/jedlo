@@ -1,0 +1,74 @@
+{
+  "id": "hong-shao-rou",
+  "nazov": "Hong Shao Rou (Red Braised Pork Belly)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Čínska",
+  "zdroj": "The Woks of Life",
+  "porcie": 4,
+  "cas": "1 hod 30 min",
+  "kcal_na_porciu": 560,
+  "popis": "Čínsky dusený bôčik v sladko-slanej omáčke. Mäso sa robí vopred.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčový bôčik so šupkou",
+      "mnozstvo": 340,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Rastlinný olej",
+      "mnozstvo": 7,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 6,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Shaoxing ryžové víno",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sójová omáčka (svetlá)",
+      "mnozstvo": 7,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Tmavá sójová omáčka",
+      "mnozstvo": 4,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na podliatie cca 200–250 ml"
+    },
+    {
+      "nazov": "Ryža (suchá)",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": "príloha"
+    }
+  ],
+  "postup": [
+    "Bôčik nakrájaj na kúsky cca 3×3 cm.",
+    "Daj do studenej vody, priveď do varu a blanšíruj 3 minúty. Vodu vylej, mäso opláchni.",
+    "V hrnci s hrubým dnom zohrej olej na strednom ohni. Pridaj cukor a miešaj, kým nezkaramelizuje do zlatohnedej.",
+    "Pridaj mäso a obaľuj ho v karameli 1–2 minúty.",
+    "Prilej Shaoxing víno, sójovú omáčku, tmavú sójovú omáčku. Zamiešaj.",
+    "Podlej vodou — mäso musí byť takmer ponorené. Priveď do varu.",
+    "Zníž oheň na minimum, prikry a dus 60–75 minút, kým mäso nie je mäkké.",
+    "Odokry a na silnejšom ohni reduku omáčku 10–15 minút, kým sa nezahustí a nezaleská.",
+    "Podávaj s ryžou (opláchnutá ryža + 200 ml osolenej vody, var, 12 min prikryté, 5 min odpočívanie)."
+  ],
+  "tipy": "Mäso priprav vopred večer pred blokom B.",
+  "foto": "",
+  "tagy": [
+    "bravčové",
+    "dusené",
+    "ázijská",
+    "ryža"
+  ]
+}

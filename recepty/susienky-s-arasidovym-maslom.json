@@ -1,0 +1,27 @@
+{
+  "id": "susienky-s-arasidovym-maslom",
+  "nazov": "Sušienky s arašidovým maslom",
+  "kategoria": "Dezert",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 30,
+  "cas": "25 min",
+  "kcal_na_porciu": 55,
+  "popis": "Jednoduché sušienky z arašidového masla a špaldovej múky.",
+  "ingrediencie": [
+    {"nazov": "Arašidové maslo", "mnozstvo": 120, "jednotka": "g"},
+    {"nazov": "Prášok do pečiva", "mnozstvo": 2, "jednotka": "ČL"},
+    {"nazov": "Kokosový olej", "mnozstvo": 30, "jednotka": "g", "poznamka": "rozpustený"},
+    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 160, "jednotka": "g"},
+    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL"}
+  ],
+  "postup": [
+    "Všetky ingrediencie zmiešajte na cesto.",
+    "Vytvarujte asi 30 rovnakých guľiek, položte na plech s papierom a stlačte do tvaru sušienok.",
+    "Pečte pri 160-170 °C asi 10 minút."
+  ],
+  "tipy": "Namiesto vanilkového extraktu skúste použiť semienka z vanilkového struku.",
+  "foto": "",
+  "tagy": ["sušienky", "arašidové maslo", "dezert"]
+}

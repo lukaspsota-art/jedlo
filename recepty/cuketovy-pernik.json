@@ -1,0 +1,38 @@
+{
+  "id": "cuketovy-pernik",
+  "nazov": "Cuketový perník",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 25,
+  "cas": "60 min",
+  "kcal_na_porciu": 107,
+  "popis": "Vlhký perník s nastrúhanou cuketou, korením a čokoládovou polevou.",
+  "ingrediencie": [
+    {"nazov": "Cuketa", "mnozstvo": 350, "jednotka": "g"},
+    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 350, "jednotka": "g"},
+    {"nazov": "Holandské kakao alebo karob", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Perníkové korenie", "mnozstvo": 1, "jednotka": "PL"},
+    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"},
+    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 3, "jednotka": "ČL"},
+    {"nazov": "Jedlá sóda", "mnozstvo": 2, "jednotka": "ČL"},
+    {"nazov": "Kokosový olej rozpustený", "mnozstvo": 40, "jednotka": "g"},
+    {"nazov": "Vajce", "mnozstvo": 3, "jednotka": "ks"},
+    {"nazov": "Mlieko", "mnozstvo": 275, "jednotka": "ml", "poznamka": "250–300 ml"},
+    {"nazov": "Stévia alebo med na dochutenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Horká čokoláda na polievanie", "mnozstvo": 100, "jednotka": "g"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 170 °C.",
+    "Cuketu nastrúhajte, mierne osoľte a odstavte, aby vypustila prebytočnú vodu.",
+    "Do misy prosejte múku, pridajte kakao, korenie, soľ, kypriaci prášok a sódu.",
+    "V druhej mise vyšľahajte kokosový olej s vajcami, mliekom a stéviou alebo medom.",
+    "Obsah mís spojte, vymačkanú cuketu primiešajte do cesta.",
+    "Cesto vylejte na plech (25 × 25 cm) s papierom na pečenie.",
+    "Pečte pri 160–170 °C 30–40 minút.",
+    "Perník polejte rozpustenou horkou čokoládou."
+  ],
+  "tipy": "Ak je cesto príliš hutné, prilejte viac mlieka.",
+  "foto": "",
+  "tagy": ["dezert", "perník", "cuketa", "čokoláda"]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "vanilkove-rohlicky",
+  "nazov": "Vanilkové rohlíčky",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 70,
+  "cas": "35 min",
+  "kcal_na_porciu": 47,
+  "popis": "Krehké orechové vanilkové rohlíčky obalené v stévii.",
+  "ingrediencie": [
+    { "nazov": "Celozrnná špaldová múka", "mnozstvo": 300, "jednotka": "g" },
+    { "nazov": "Mleté vlašské orechy", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Maslo", "mnozstvo": 200, "jednotka": "g", "poznamka": "pokojová teplota" },
+    { "nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": "+ 1 žĺtok" },
+    { "nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL" },
+    { "nazov": "Stévia", "mnozstvo": 20, "jednotka": "g", "poznamka": "sypká, na obaľovanie" }
+  ],
+  "postup": [
+    "Múku preosej, primiešaj orechy, maslo, vajce so žĺtkom a vanilkový extrakt, vypracuj cesto.",
+    "Z cesta vytvor kôpku, zabaľ do fólie a nechaj v chladničke odležať, najlepšie do druhého dňa.",
+    "Cesto rozdeľ na 8 dielov, z každého vyváľaj váleček.",
+    "Z valčekov odkrajuj 4 cm kúsky, tvaruj do rohlíčkov alebo použi formu.",
+    "Rohlíčky ukladaj na plech s papierom na pečenie.",
+    "Pečieme pri 170–180 °C 10–15 minút.",
+    "Horúce rohlíčky obaľuj v sypkej stévii alebo sušenom ryžovom mlieku."
+  ],
+  "tipy": "Ak máš vanilkový struk, použi semienka z neho namiesto extraktu.",
+  "foto": "",
+  "tagy": ["dezert", "rohlíčky", "vianočné pečivo", "orechy"]
+}

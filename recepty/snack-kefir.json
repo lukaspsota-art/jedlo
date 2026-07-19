@@ -1,0 +1,27 @@
+{
+  "id": "snack-kefir",
+  "nazov": "Kefír",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "1 min",
+  "popis": "Kúpený kefír.",
+  "ingrediencie": [
+    {
+      "nazov": "Kefír",
+      "mnozstvo": 250,
+      "jednotka": "ml"
+    }
+  ],
+  "postup": [
+    "Kúpené — otvor a zjedz."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "kupované",
+    "mliečne"
+  ]
+}

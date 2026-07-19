@@ -1,0 +1,31 @@
+{
+  "id": "snack-syr-hrozno",
+  "nazov": "Syr s hroznom",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Kúsky syra s čerstvým hroznom.",
+  "ingrediencie": [
+    {
+      "nazov": "Eidam 45%",
+      "mnozstvo": 40,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Hrozno",
+      "mnozstvo": 100,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Syr nakrájaj na kocky, podávaj s hroznom."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "kupované"
+  ]
+}

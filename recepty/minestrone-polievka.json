@@ -1,0 +1,38 @@
+{
+  "id": "minestrone-polievka",
+  "nazov": "Minestrone polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 6,
+  "cas": "40 min",
+  "kcal_na_porciu": 147,
+  "popis": "Talianska zeleninová polievka s bielou fazuľou, cestovinami a parmezánom.",
+  "ingrediencie": [
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Biela cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Oregano", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Čerstvá cuketa", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Mrkva", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cukrový hrášok", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 700, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Voda", "mnozstvo": 300, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Predvarená biela fazuľa", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Celozrnné cestoviny (penne, mušličky, vretienka, kolienka)", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Nastrúhaný parmezán", "mnozstvo": 50, "jednotka": "g", "poznamka": "na podávanie"}
+  ],
+  "postup": [
+    "V hrnci rozohrejte olivový olej, pridajte najemno nakrájanú cibuľu a opekajte 3 minúty.",
+    "Pridajte najemno nakrájaný cesnak, oregano a premiešajte.",
+    "Cuketu a mrkvu nakrájajte na kocky, pridajte spolu s hráškom do hrnca, opekajte 5 minút.",
+    "Prilejte vývar s vodou, premiešajte, pridajte fazuľu.",
+    "Nakoniec pridajte cestoviny, prikryte pokrievkou a varte 15-20 minút, kým cestoviny nezmäknú.",
+    "Dochuťte soľou a korením a podávajte s nastrúhaným parmezánom."
+  ],
+  "tipy": "Do polievky môžete pridať akúkoľvek zeleninu alebo strukoviny, ktoré máte doma.",
+  "foto": "",
+  "tagy": ["polievka", "minestrone", "talianska", "zelenina"]
+}

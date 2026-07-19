@@ -1,0 +1,33 @@
+{
+  "id": "polievka-z-cervenej-fazule",
+  "nazov": "Polievka z červenej fazule",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 6,
+  "cas": "65 min",
+  "kcal_na_porciu": 200,
+  "popis": "Krémová strukovinová polievka z červenej fazule s mrkvou, cesnakom a koriandrom.",
+  "ingrediencie": [
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Mrkva", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 5, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Predvarená červená fazuľa", "mnozstvo": 800, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 900, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Citrónová šťava", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Čerstvý koriander", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": "na podávanie"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Vo väčšom hrnci rozohrejte olivový olej, pridajte nadrobno nakrájanú cibuľu a mrkvu, opekajte 8 minút.",
+    "Pridajte pretlačený cesnak a za stáleho miešania nechajte 1 minútu potiahnuť.",
+    "Zalejte vývarom, pridajte scedenú fazuľu, prikryte pokrievkou a varte 25 minút.",
+    "Dochuťte soľou a korením, polovicu polievky rozmixujte a vraťte späť do hrnca.",
+    "Podávajte s nasekaným koriandrom a pár kvapkami citrónovej šťavy."
+  ],
+  "tipy": "Polievku pred podávaním zjemnite 200 ml kokosového mlieka.",
+  "foto": "",
+  "tagy": ["polievka", "fazuľa", "strukoviny", "vegánske"]
+}

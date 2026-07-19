@@ -1,0 +1,39 @@
+{
+  "id": "zeleninova-polievka-s-kuskusom",
+  "nazov": "Zeleninová polievka s kuskusom",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "40 min",
+  "kcal_na_porciu": 230,
+  "popis": "Ľahká zeleninová polievka s mrkvou, brokolicou, karfiolom a celozrnným kuskusom.",
+  "ingrediencie": [
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Mrkva", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Zeler", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Brokolica", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Karfiol", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 1.5, "jednotka": "l", "poznamka": ""},
+    {"nazov": "Celozrnný kuskus", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Sušená petržlenová vňať", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Čerstvá pažítka", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
+    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Na olivovom oleji orestuj najemno nakrájanú šalotku.",
+    "Pridaj roztlačený cesnak a opekaj 2 minúty.",
+    "Pridaj mrkvu nakrájanú na kolieska a nahrubo nastrúhaný zeler.",
+    "Restuj 10 minút a zalej vývarom.",
+    "Pridaj brokolicu, karfiol a kuskus.",
+    "Var ďalších 5 minút.",
+    "Dochuť soľou, korením a petržlenovou vňaťou.",
+    "Podávaj s čerstvou pažítkou."
+  ],
+  "tipy": "Kuskus môžeš nahradiť celozrnnými cestovinami.",
+  "foto": "",
+  "tagy": ["polievka", "zelenina", "kuskus"]
+}

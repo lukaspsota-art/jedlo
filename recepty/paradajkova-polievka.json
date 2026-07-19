@@ -1,0 +1,32 @@
+{
+  "id": "paradajkova-polievka",
+  "nazov": "Paradajková polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "45 min",
+  "kcal_na_porciu": 136,
+  "popis": "Jednoduchá krémová paradajková polievka s bazalkou a cesnakom.",
+  "ingrediencie": [
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Lúpané paradajky", "mnozstvo": 400, "jednotka": "g", "poznamka": "z konzervy"},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 500, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Čerstvá bazalka", "mnozstvo": null, "jednotka": "hrsť", "poznamka": "pár listov"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
+    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "V hrnci rozohrej na strednom plameni olivový olej.",
+    "Šalotky nakrájaj najemno a orestuj.",
+    "Pridaj roztlačený cesnak a opekaj ďalšiu minútu.",
+    "Vlož paradajky, zalej vývarom, dosoľ, dokorenie a var 30 minút.",
+    "Polievku rozmixuj a rozdeľ do tanierov.",
+    "Ozdob čerstvou bazalkou a podávaj s celozrnným pečivom."
+  ],
+  "tipy": "Do polievky môžeš pre chuť a vôňu pridať pol lyžičky mletej škorice.",
+  "foto": "",
+  "tagy": ["polievka", "paradajky", "bazalka"]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cicerova-natierka",
+  "nazov": "Cícerová nátierka",
+  "kategoria": "Nátierka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 2,
+  "cas": "5 min",
+  "kcal_na_porciu": 151,
+  "popis": "Ľahká nátierka z cíceru, tvarohu a rímskej rasce.",
+  "ingrediencie": [
+    {"nazov": "Predvarený cícer", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Nutričné droždie", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Tvaroh", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Rímska rasca", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Cícer preneste do mixéra spolu s droždím, olivovým olejom, citrónovou šťavou a tvarohom.",
+    "Rozmixujte dohladka.",
+    "Dochutite soľou, korením a rascou."
+  ],
+  "tipy": "Ako rýchlu desiatu použite celozrnnú tortillu natretú cícerovou nátierkou a obloženú zeleninou a vajcami.",
+  "foto": "",
+  "tagy": ["cícer", "nátierka", "strukoviny", "desiata"]
+}

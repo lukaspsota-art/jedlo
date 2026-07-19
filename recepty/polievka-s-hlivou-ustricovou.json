@@ -1,0 +1,36 @@
+{
+  "id": "polievka-s-hlivou-ustricovou",
+  "nazov": "Polievka s hlívou ustricovou",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 80,
+  "popis": "Ľahká zeleninová polievka s hlívou ustricovou, paprikou a kmínom.",
+  "ingrediencie": [
+    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cibuľa menšia", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Sladká paprika", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Chilli sušené", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Vývar", "mnozstvo": 1, "jednotka": "l", "poznamka": ""},
+    {"nazov": "Hlíva ustricová", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Kmín sušený", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Majorán sušený", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "V hrnci opražíme na prepustenom masle najemno nakrájanú cibuľku na miernom plameni.",
+    "Pridáme jeden roztlačený strúčik cesnaku a smažíme 2 minúty.",
+    "Zasypeme sladkou paprikou a za stáleho miešania opekáme max. 1 minútu, kým cibuľka zhnedne.",
+    "Pridáme sušené chilli a zalejeme vývarom.",
+    "Hlívu nakrájame na nudličky, vložíme do hrnca, prikryjeme a varíme 10-15 minút.",
+    "Dochutíme kmínom, majoránom, soľou a korením.",
+    "Nakoniec pridáme zvyšný roztlačený strúčik cesnaku, premiešame a podávame."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["polievka", "hlíva ustricová", "vegánske"]
+}

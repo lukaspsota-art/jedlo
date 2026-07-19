@@ -1,0 +1,38 @@
+{
+  "id": "chilli-con-carne",
+  "nazov": "Chilli con carne",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "50 min",
+  "kcal_na_porciu": 548,
+  "popis": "Sýte mäsové jedlo s fazuľou a paradajkami dochutené kajenským korením, podávané s ryžou.",
+  "ingrediencie": [
+    {"nazov": "Celozrnná ryža", "mnozstvo": 240, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Červená cibuľa", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Červená paprika", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Červené fazule", "mnozstvo": 400, "jednotka": "g", "poznamka": "konzerva"},
+    {"nazov": "Sladká paprika", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Kajenské korenie", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Mleté hovädzie mäso", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Hovädzí vývar", "mnozstvo": 300, "jednotka": "ml", "poznamka": "prípadne hydinový"},
+    {"nazov": "Paradajky", "mnozstvo": 400, "jednotka": "g", "poznamka": "konzerva"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
+    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Uvar ryžu podľa návodu na obale, cca 25 minút.",
+    "Cibuľu nakrájaj najemno, papriku na nudličky, cesnak na plátky.",
+    "V hlbšej panvici na oleji opekaj cibuľu, cesnak, sladkú papriku, kajenské korenie a papriku 3 minúty.",
+    "Pridaj mäso a opekaj cca 20 minút za stáleho miešania.",
+    "Prilej vývar, pridaj paradajky a fazule.",
+    "Dosoľ, dokorenie, prikry pokrievkou a var 20 minút za občasného miešania.",
+    "Podávaj s ryžou."
+  ],
+  "tipy": "Lyžička udenej papriky jedlo krásne provoní.",
+  "foto": "",
+  "tagy": ["hlavné jedlo", "mäso", "fazuľa", "ryža"]
+}

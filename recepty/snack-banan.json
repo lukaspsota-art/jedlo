@@ -1,0 +1,27 @@
+{
+  "id": "snack-banan",
+  "nazov": "Banán",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "1 min",
+  "popis": "Banán ako rýchly zdroj energie.",
+  "ingrediencie": [
+    {
+      "nazov": "Banán",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    }
+  ],
+  "postup": [
+    "Ošúp a zjedz."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "ovocie",
+    "kupované"
+  ]
+}

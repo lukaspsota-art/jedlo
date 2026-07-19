@@ -1,0 +1,33 @@
+{
+  "id": "avokadove-brownies",
+  "nazov": "Avokádové brownies",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 16,
+  "cas": "60 min",
+  "kcal_na_porciu": 170,
+  "popis": "Vlhké brownies s avokádom a vlašskými orechmi bez bielej múky.",
+  "ingrediencie": [
+    {"nazov": "Horká čokoláda", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Avokádo", "mnozstvo": 2, "jednotka": "ks", "poznamka": "zrelé"},
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Olej", "mnozstvo": 40, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Mleté vlašské orechy", "mnozstvo": 90, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Holandské kakao", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Prášok do pečiva", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 170 °C.",
+    "Nad vodným kúpeľom rozpustite čokoládu s olejom.",
+    "Rozpustenú čokoládu vložte s ostatnými ingredienciami do mixéra a mixujte cca 1 minútu dohladka.",
+    "Formu 20x20 cm vyložte papierom na pečenie a nalejte cesto.",
+    "Pečte 30-35 minút pri 160-170 °C.",
+    "Necháte vychladnúť na mriežke 10-15 minút a nakrájajte na 16 kúskov."
+  ],
+  "tipy": "Najlepšie chutia s banánovou zmrzlinou - zmrazte 2-3 banány a rozmixujte dohladka.",
+  "foto": "",
+  "tagy": ["brownies", "avokádo", "čokoláda", "bez múky"]
+}

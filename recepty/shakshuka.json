@@ -1,0 +1,95 @@
+{
+  "id": "shakshuka",
+  "nazov": "Shakshuka s kváskovým chlebom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "Serious Eats",
+  "porcie": 6,
+  "cas": "35 min",
+  "kcal_na_porciu": 463,
+  "popis": "Vajcia pošírované v korenistej paradajkovo-paprikovej omáčke, podávané s kváskovým chlebom.",
+  "ingrediencie": [
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 12,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": "2 veľké"
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik"
+    },
+    {
+      "nazov": "Červená paprika",
+      "mnozstvo": 320,
+      "jednotka": "g",
+      "poznamka": "2 ks"
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": "mletá"
+    },
+    {
+      "nazov": "Údená paprika",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": "mletá"
+    },
+    {
+      "nazov": "Mleté čili",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Konzervované krájané paradajky",
+      "mnozstvo": 800,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Petržlen",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": "čerstvý"
+    },
+    {
+      "nazov": "Kváskový chlieb",
+      "mnozstvo": 480,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Soľ a čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "V širokej panvici s poklopom rozohrej olej, pridaj nakrájanú cibuľu a restuj 5 minút.",
+    "Pridaj cesnak a na kocky nakrájanú papriku, restuj ďalších 5 minút.",
+    "Pridaj rascu, údenú papriku a čili, miešaj 1 minútu.",
+    "Prilej paradajky, osoľ, okoreň a varí bez poklopu 10 minút dohusta.",
+    "Urob jamky a do každej rozbi vajce.",
+    "Prikry a varí 5–8 minút, kým sú bielky tuhé a žĺtky mäkké.",
+    "Posyp petržlenom a servíruj s krájaným kváskovým chlebom."
+  ],
+  "tipy": "Žĺtky nechaj tekuté — omáčka musí byť pred pridaním vajec dostatočne hustá.",
+  "foto": "",
+  "tagy": [
+    "vajcia",
+    "paradajky",
+    "chlieb"
+  ]
+}

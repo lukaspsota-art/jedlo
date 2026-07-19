@@ -1,0 +1,33 @@
+{
+  "id": "cloud-bread",
+  "nazov": "Cloud bread",
+  "kategoria": "Snack",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 8,
+  "cas": "50 min",
+  "kcal_na_porciu": 234,
+  "popis": "Nadýchané obláčikové placky z vajec a smotanového syra plnené šunkou, mozzarellou a paradajkami.",
+  "ingrediencie": [
+    {"nazov": "Vajce", "mnozstvo": 5, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Smotanový syr", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Pesto", "mnozstvo": 4, "jednotka": "PL", "poznamka": "na náplň"},
+    {"nazov": "Sušená šunka", "mnozstvo": 150, "jednotka": "g", "poznamka": "na náplň"},
+    {"nazov": "Mozzarella", "mnozstvo": 200, "jednotka": "g", "poznamka": "na náplň"},
+    {"nazov": "Paradajky", "mnozstvo": 200, "jednotka": "g", "poznamka": "na náplň"},
+    {"nazov": "Polníček", "mnozstvo": 2, "jednotka": "hrsť", "poznamka": "na náplň"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 160 °C.",
+    "Oddeľte žĺtky od bielkov, z bielkov a štipky soli vyšľahajte tuhý sneh.",
+    "Žĺtky vyšľahajte so smotanovým syrom do nadýchanej peny a spojte so snehom.",
+    "Plech vyložte papierom na pečenie a z cesta tvarujte varechou placky.",
+    "Pečte pri 150-160 °C 25-30 minút.",
+    "Medzitým nakrájajte mozzarellu a paradajky na plátky.",
+    "Vychladnuté placky rozložte a medzi dve placky dajte pesto, šunku, mozzarellu, paradajky a polníček."
+  ],
+  "tipy": "Placky sa dajú podávať aj sladko, napríklad s marmeládou a tvarohom. Ak sa sneh nedarí tvarovať, rozlejte cesto na celý plech a po upečení z neho vykrajujte kolieska.",
+  "foto": "",
+  "tagy": ["cloud bread", "vajce", "šunka", "mozzarella"]
+}

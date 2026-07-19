@@ -1,0 +1,31 @@
+{
+  "id": "omeleta-so-susenymi-paradajkami",
+  "nazov": "Omeleta so sušenými paradajkami",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 321,
+  "popis": "Plnená omeleta so špenátom, sušenými paradajkami a avokádom.",
+  "ingrediencie": [
+    {"nazov": "Vajce", "mnozstvo": 5, "jednotka": "ks"},
+    {"nazov": "Mandľové mlieko", "mnozstvo": 50, "jednotka": "ml"},
+    {"nazov": "Ghí", "mnozstvo": 1, "jednotka": "PL"},
+    {"nazov": "Baby špenát", "mnozstvo": 1, "jednotka": "hrsť"},
+    {"nazov": "Sušené paradajky", "mnozstvo": 3, "jednotka": "ks"},
+    {"nazov": "Avokádo", "mnozstvo": 0.25, "jednotka": "ks"},
+    {"nazov": "Balzamikový ocot", "mnozstvo": 1, "jednotka": "PL"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Vajcia vyšľahajte s mandľovým mliekom, soľou a korením.",
+    "Na panvici rozohrejte ghí, vlejte vajcia a pripravte omeletu.",
+    "Omeletu preložte na tanier, doprostred naukladajte baby špenát, nakrájané sušené paradajky a avokádo.",
+    "Prelejte balzamikom, zrolujte a podávajte."
+  ],
+  "tipy": "Omeletu môžete plniť čímkoľvek, napríklad kombináciou valeriánky, ricotty a šunky.",
+  "foto": "",
+  "tagy": ["omeleta", "raňajky", "avokádo"]
+}

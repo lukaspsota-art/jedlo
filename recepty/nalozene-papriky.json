@@ -1,0 +1,31 @@
+{
+  "id": "nalozene-papriky",
+  "nazov": "Naložené papriky",
+  "kategoria": "Príloha",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 25,
+  "cas": "60 min",
+  "kcal_na_porciu": 50,
+  "popis": "Pečené a naložené papriky s cesnakom a cibuľou v oleji.",
+  "ingrediencie": [
+    {"nazov": "Červené papriky", "mnozstvo": 2, "jednotka": "kg", "poznamka": ""},
+    {"nazov": "Slnečnicový olej", "mnozstvo": 600, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 8, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Biela cibuľa", "mnozstvo": 3, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Hrubozrnná soľ", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Čierne korenie", "mnozstvo": 12, "jednotka": "ks", "poznamka": "kuličky"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 200 °C.",
+    "Papriky rozložte na plech s papierom a pečte 25 minút do začernania.",
+    "Upečené papriky hneď zabaľte do fólie alebo vrecka a odložte.",
+    "Po vychladnutí odstráňte šupku, jadrovníky a stopky.",
+    "Cesnak nakrájajte na plátky, cibuľu na mesiačiky.",
+    "Do sterilizovanej päťlitrovej zaváraninovej fľaše vrstvite papriky, cesnak, cibuľu, soľ a korenie.",
+    "Zalejte olejom, tesne uzavrite a necháte odležať aspoň 1 týždeň."
+  ],
+  "tipy": "Olej z paprík použite ako zálievku do šalátov. V teplých mesiacoch papriky opečte na grile.",
+  "foto": "",
+  "tagy": ["papriky", "zavarenina", "príloha", "olej"]
+}

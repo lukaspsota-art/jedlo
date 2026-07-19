@@ -1,0 +1,37 @@
+{
+  "id": "pizza-so-spenatovym-zakladom",
+  "nazov": "Pizza so špenátovým základom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 6,
+  "cas": "45 min",
+  "kcal_na_porciu": 272,
+  "popis": "Nízkosacharidová pizza s krustou zo špenátu, mozzarelly a vajec, s domácou paradajkovou omáčkou.",
+  "ingrediencie": [
+    {"nazov": "Špenátové listy", "mnozstvo": 180, "jednotka": "g", "poznamka": "na cesto"},
+    {"nazov": "Mozzarella", "mnozstvo": 260, "jednotka": "g", "poznamka": "na cesto"},
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": "na cesto"},
+    {"nazov": "Mletá bazalka", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na cesto"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, na cesto"},
+    {"nazov": "Slnečnicový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na paradajkovú omáčku"},
+    {"nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks", "poznamka": "na paradajkovú omáčku"},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": "na paradajkovú omáčku"},
+    {"nazov": "Mäsité paradajky", "mnozstvo": 250, "jednotka": "g", "poznamka": "na paradajkovú omáčku"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, na omáčku"},
+    {"nazov": "Žampióny", "mnozstvo": 200, "jednotka": "g", "poznamka": "na dokončenie"},
+    {"nazov": "Mozzarella", "mnozstvo": 200, "jednotka": "g", "poznamka": "na dokončenie"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 170 °C.",
+    "Listy špenátu prepláchnite v studenej vode a spolu s mozzarellou, vajcom, bazalkou a soľou rozmixujte 20-30 sekúnd na hladké, nie kašovité cesto.",
+    "Cesto vytvarujte na plechu vyloženom papierom na pečenie do tvaru pizze, pečte 12-15 minút pri 160-170 °C, kým okraje nezačnú hnednúť.",
+    "Medzitým na oleji zopeňte najemno nakrájanú šalotku, po 2 minútach pridajte pretlačený cesnak.",
+    "Pridajte nakrájané paradajky, zalejte 200 ml vody, priklopte a duste 10 minút, potom prilejte ďalších 100 ml vody a duste znova, osoľte a opeprite.",
+    "Upečenú krustu potrite paradajkovou omáčkou, poukladajte plátky žampiónov a mozzarelly.",
+    "Vráťte na 5 minút do rúry, rozkrájajte na 6 dielov a podávajte."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["pizza", "špenát", "mozzarella", "nízkosacharidové"]
+}

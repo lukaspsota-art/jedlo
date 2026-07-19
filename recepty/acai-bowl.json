@@ -1,0 +1,29 @@
+{
+  "id": "acai-bowl",
+  "nazov": "Acai bowl",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 2,
+  "cas": "5 min",
+  "kcal_na_porciu": 297,
+  "popis": "Hustá ovocná smoothie miska z mrazeného lesného ovocia, banánu a acai prášku, ozdobená kokosom a chia semienkami.",
+  "ingrediencie": [
+    {"nazov": "Lesné ovocie", "mnozstvo": 100, "jednotka": "g", "poznamka": "mrazené"},
+    {"nazov": "Prášok z acai bobúľ", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Mandľové mlieko", "mnozstvo": 250, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Banán", "mnozstvo": 1, "jednotka": "ks", "poznamka": "zmrazený"},
+    {"nazov": "Lesné ovocie", "mnozstvo": null, "jednotka": "hrsť", "poznamka": "na dozdobenie"},
+    {"nazov": "Chia semienka", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na dozdobenie"},
+    {"nazov": "Strúhaný kokos", "mnozstvo": 30, "jednotka": "g", "poznamka": "na dozdobenie"},
+    {"nazov": "Goji bobule", "mnozstvo": null, "jednotka": "hrsť", "poznamka": "na dozdobenie"}
+  ],
+  "postup": [
+    "Mrazené lesné ovocie a banán rozmixuj spolu s acai práškom a mandľovým mliekom dohladka.",
+    "Kašu presuň do misky.",
+    "Ozdob lesným ovocím, chia semienkami, strúhaným kokosom a goji bobuľami."
+  ],
+  "tipy": "Do acai bowl môžeš pridať akékoľvek obľúbené ovocie, orechy alebo orieškové maslo.",
+  "foto": "",
+  "tagy": ["raňajky", "acai", "smoothie miska", "ovocie"]
+}

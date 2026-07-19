@@ -1,0 +1,34 @@
+{
+  "id": "celozrnne-penne-s-tunakom",
+  "nazov": "Celozrnné penne s tuniakom",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 5,
+  "cas": "45 min",
+  "kcal_na_porciu": 348,
+  "popis": "Celozrnné penne v paradajkovej omáčke s tuniakom, cesnakom a čerstvou bazalkou.",
+  "ingrediencie": [
+    {"nazov": "Celozrnné penne", "mnozstvo": 350, "jednotka": "g", "poznamka": "alebo iné cestoviny"},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks"},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik"},
+    {"nazov": "Mletá čili paprička", "mnozstvo": 0.5, "jednotka": "ČL"},
+    {"nazov": "Paradajkový pretlak", "mnozstvo": 3, "jednotka": "PL"},
+    {"nazov": "Krájané paradajky", "mnozstvo": 500, "jednotka": "g", "poznamka": "olúpané"},
+    {"nazov": "Tuniak z konzervy", "mnozstvo": 300, "jednotka": "g", "poznamka": "scedený"},
+    {"nazov": "Čerstvá bazalka", "mnozstvo": 1, "jednotka": "hrsť"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Celozrnné cestoviny uvarte v osolenej vode podľa návodu na obale.",
+    "Na panvici rozohrejte olivový olej a orestujte nadrobno nakrájanú šalotku 3 minúty.",
+    "Pridajte pretlačený cesnak, čili, pretlak a tuniaka, premiešajte a opekajte 5 minút.",
+    "Vmiešajte krájané paradajky a nechajte 5 minút prevariť.",
+    "Scedené cestoviny vmiešajte do omáčky s tuniakom, aby sa rovnomerne obalili.",
+    "Podávajte posypané čerstvou bazalkou."
+  ],
+  "tipy": "Každú porciu môžete posypať hrsťou strúhaného parmezánu.",
+  "foto": "",
+  "tagy": ["cestoviny", "tuniak", "paradajky"]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "mramorova-buchta",
+  "nazov": "Mramorová buchta",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 12,
+  "cas": "45 min",
+  "kcal_na_porciu": 127,
+  "popis": "Mramorová buchta s tmavým kakaovým cestom a svetlým cestom zo smotanového syra a gréckeho jogurtu.",
+  "ingrediencie": [
+    { "nazov": "Pohánková múka hladká", "mnozstvo": 100, "jednotka": "g", "poznamka": "tmavé cesto" },
+    { "nazov": "Holandské kakao", "mnozstvo": 10, "jednotka": "g", "poznamka": "tmavé cesto" },
+    { "nazov": "Prášok do pečiva", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "tmavé cesto" },
+    { "nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka", "poznamka": "tmavé cesto" },
+    { "nazov": "Vajcia", "mnozstvo": 2, "jednotka": "ks", "poznamka": "tmavé cesto" },
+    { "nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "tmavé cesto" },
+    { "nazov": "Mlieko", "mnozstvo": 100, "jednotka": "ml", "poznamka": "tmavé cesto" },
+    { "nazov": "Med", "mnozstvo": 60, "jednotka": "g", "poznamka": "tmavé cesto" },
+    { "nazov": "Olej", "mnozstvo": 30, "jednotka": "ml", "poznamka": "tmavé cesto" },
+    { "nazov": "Smotanový syr", "mnozstvo": 160, "jednotka": "g", "poznamka": "svetlé cesto" },
+    { "nazov": "Grécky jogurt", "mnozstvo": 100, "jednotka": "g", "poznamka": "svetlé cesto" },
+    { "nazov": "Med", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "svetlé cesto" }
+  ],
+  "postup": [
+    "Rúru predhrej na 180 °C.",
+    "V mise zmiešaj všetky surové na tmavé cesto (múka, kakao, prášok do pečiva, soľ, vajcia, vanilkový extrakt, mlieko, med, olej) do hladkého cesta.",
+    "Cesto nalej do formy (30 × 30 cm) vystlanej papierom na pečenie.",
+    "Vyšľahaj smotanový syr, grécky jogurt a med na svetlé cesto.",
+    "Svetlé cesto poukladaj lyžicou na tmavé, rozotri nožom do mramorového vzoru.",
+    "Pečieme pri 170–180 °C 20–25 minút."
+  ],
+  "tipy": "Upečenú placku môžeš pozdĺžne rozrezať a naplniť tvarohom so stéviou.",
+  "foto": "",
+  "tagy": ["dezert", "buchta", "pohánka", "kakao"]
+}

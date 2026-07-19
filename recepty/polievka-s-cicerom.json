@@ -1,0 +1,39 @@
+{
+  "id": "polievka-s-cicerom",
+  "nazov": "Polievka s cícerom",
+  "kategoria": "Polievka",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "45 min",
+  "kcal_na_porciu": 311,
+  "popis": "Sýta polievka s cícerom, bielymi fazuľami a bulgurom, dochutená udenou paprikou.",
+  "ingrediencie": [
+    {"nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": "stredná"},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Celozrnná múka", "mnozstvo": 40, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Muškátový oriešok", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "strúhaný"},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 2, "jednotka": "l", "poznamka": ""},
+    {"nazov": "Mletá udená paprika", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Predvarený cícer", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Predvarené biele fazule", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Bulgur", "mnozstvo": 4, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Ovsená smotana", "mnozstvo": 120, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Čerstvá petržlenová vňať", "mnozstvo": null, "jednotka": "hrsť", "poznamka": "na ozdobenie"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
+    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Vo väčšom hrnci na oleji zopeň nadrobno nakrájanú cibuľu.",
+    "Zaprášime celozrnnou múkou a premiešame.",
+    "Pridaj udenú papriku a muškátový oriešok.",
+    "Zalej vývarom, pridaj cícer a fazule.",
+    "Var 10-15 minút a prisyp bulgur.",
+    "Var pod pokrievkou ďalších 10 minút, potom prilej smotanu.",
+    "Polievku rozmixuj, dochuť soľou a korením.",
+    "Podávaj posypanú čerstvou petržlenovou vňaťou."
+  ],
+  "tipy": "Bulgur môžeš nahradiť rovnakým spôsobom celozrnným kuskusom.",
+  "foto": "",
+  "tagy": ["polievka", "cícer", "bulgur", "fazuľa"]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "hovedzi-gulas",
+  "nazov": "Hovädzí guláš",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 8,
+  "cas": "90 min",
+  "kcal_na_porciu": 133,
+  "popis": "Domáci hovädzí guláš s paprikou a majoránom.",
+  "ingrediencie": [
+    {"nazov": "Hovädzia krkovička", "mnozstvo": 400, "jednotka": "g", "poznamka": "kližka, alebo zadné hovädzie"},
+    {"nazov": "Cibuľa", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Paradajkový pretlak", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Vývar", "mnozstvo": 300, "jednotka": "ml", "poznamka": "+ 400 ml na podlievanie"},
+    {"nazov": "Sladká paprika", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Majorán", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "V hrnci rozohrejte olej a prepustené maslo, pridajte mäso nakrájané na kocky a opekajte cca 5 minút.",
+    "Pridajte nadrobno nakrájanú cibuľu a opekajte 3-4 minúty.",
+    "Zasypte paprikou, pridajte paradajkový pretlak, premiešajte a zalejte 300 ml vývaru.",
+    "Priklopte a duste domäkka cca 1 hodinu, podlievajte zvyšným vývarom.",
+    "Po uvarení nastrúhajte cesnak, primiešajte majorán a dochuťte soľou a korením."
+  ],
+  "tipy": "Pre hustejšiu omáčku zahustite strúhaným celozrnným pečivom alebo 2 PL múky s vodou. Podávajte s bramborovými knedlíkmi.",
+  "foto": "",
+  "tagy": ["guláš", "hovädzie", "paprika", "tradičné jedlo"]
+}

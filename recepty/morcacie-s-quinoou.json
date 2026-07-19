@@ -1,0 +1,36 @@
+{
+  "id": "morcacie-s-quinoou",
+  "nazov": "Morčacie s quinoou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "55 min",
+  "kcal_na_porciu": 442,
+  "popis": "Morčacie prsia s opečenými šampiňónmi a quinoou uvarenou na zeleninovom vývare.",
+  "ingrediencie": [
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Biela cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": "menšia"},
+    {"nazov": "Quinoa", "mnozstvo": 250, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 1, "jednotka": "l", "poznamka": ""},
+    {"nazov": "Morčacie prsia", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Čerstvé šampiňóny", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Sušený tymian", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Citrónová šťava", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
+    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "V hlbokej panvici na oleji orestuj najemno nakrájanú cibuľu.",
+    "Pridaj quinou, soľ, korenie a tymian a opekaj na strednom plameni 3 minúty.",
+    "Prilej naberačku vývaru a nechaj vsiaknuť, postup opakuj do zmäknutia quinoy.",
+    "Odstav nabok.",
+    "Morčacie prsia nakrájaj na nudličky, opeč na druhej lyžici oleja a natrhaj na kúsky.",
+    "Na panvici rozpusti maslo a opeč na ňom huby cca 10 minút.",
+    "Huby zmiešaj s morčacím mäsom a quinou a podávaj."
+  ],
+  "tipy": "Ak máš na záhrade čerstvú bazalku alebo petržlenovú vňať, použi ich namiesto sušeného korenia.",
+  "foto": "",
+  "tagy": ["hlavné jedlo", "morka", "quinoa", "huby"]
+}

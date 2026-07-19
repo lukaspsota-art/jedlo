@@ -1,0 +1,39 @@
+{
+  "id": "red-velvet-layer-cake",
+  "nazov": "Red velvet layer cake",
+  "kategoria": "Dezert",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 16,
+  "cas": "80 min",
+  "kcal_na_porciu": 277,
+  "popis": "Vrstvený čokoládový dort so červenou repou namiesto farbiva, s krémom z cottage a smotanového syra.",
+  "ingrediencie": [
+    { "nazov": "Predvarená červená repa", "mnozstvo": 500, "jednotka": "g" },
+    { "nazov": "Balzamikový ocot", "mnozstvo": 1, "jednotka": "PL" },
+    { "nazov": "Med", "mnozstvo": 120, "jednotka": "g" },
+    { "nazov": "Kokosový olej", "mnozstvo": 130, "jednotka": "ml", "poznamka": "rozohriaty" },
+    { "nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL" },
+    { "nazov": "Pohánková múka", "mnozstvo": 230, "jednotka": "g", "poznamka": "jemne mletá" },
+    { "nazov": "Prášok do pečiva", "mnozstvo": 2, "jednotka": "ČL" },
+    { "nazov": "Holandské kakao", "mnozstvo": 50, "jednotka": "g" },
+    { "nazov": "Horká čokoláda", "mnozstvo": 100, "jednotka": "g" },
+    { "nazov": "Cottage syr", "mnozstvo": 350, "jednotka": "g", "poznamka": "krém" },
+    { "nazov": "Smotanový syr", "mnozstvo": 300, "jednotka": "g", "poznamka": "krém" },
+    { "nazov": "Škrob", "mnozstvo": 3, "jednotka": "PL", "poznamka": "krém" },
+    { "nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": "krém" },
+    { "nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "krém" }
+  ],
+  "postup": [
+    "Rúru predhrej na 180 °C.",
+    "Repu rozmixuj na kašu, primiešaj balzamikový ocot, med, kokosový olej, vanilkový extrakt, pohánkovú múku, prášok do pečiva a kakao.",
+    "Rozpusti čokoládu vo vodnom kúpeli a vmiešaj do cesta.",
+    "Cesto nalej do formy vystlanej papierom na pečenie, peč pri 160–170 °C 40–45 minút.",
+    "Cottage syr, smotanový syr, med a vanilkový extrakt rozmixuj dohladka, vmiešaj škrob a nechaj vychladiť v chladničke.",
+    "Vychladnutý korpus 2× pozdĺžne prerež, dva prierezy potri krémom.",
+    "Vrch a boky dortu potri zvyšným krémom, uhlaď špachtľou a chladiť aspoň 3 hodiny."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["dezert", "dort", "repa", "čokoláda"]
+}

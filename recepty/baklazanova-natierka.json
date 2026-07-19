@@ -1,0 +1,31 @@
+{
+  "id": "baklazanova-natierka",
+  "nazov": "Baklažánová nátierka",
+  "kategoria": "Nátierka",
+  "kuchyna": "Grécka",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "65 min",
+  "kcal_na_porciu": 110,
+  "popis": "Krémová nátierka z pečeného baklažánu, cesnaku a ricotty.",
+  "ingrediencie": [
+    {"nazov": "Baklažán", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Strúčik cesnaku", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Ricotta", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Čerstvá bazalka", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Baklažán prepichajte vidličkou a zabaľte do alobalu spolu so strúčikmi cesnaku.",
+    "Pečte v predhriatej rúre na 170-180 °C 45-50 minút.",
+    "Necháte chvíľu vychladnúť, potom olúpte a dužinu preneste do mixéra s pečeným cesnakom.",
+    "Rozmixujte dohladka.",
+    "Pridajte ricottu, citrónovú šťavu a dochutite soľou a korením.",
+    "Primiešajte čerstvú bazalku."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["baklažán", "nátierka", "ricotta", "pečené"]
+}

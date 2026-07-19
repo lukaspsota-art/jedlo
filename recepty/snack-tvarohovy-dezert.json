@@ -1,0 +1,37 @@
+{
+  "id": "snack-tvarohovy-dezert",
+  "nazov": "Tvarohový dezert s ovocím",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Tvaroh s medom a bobuľovým ovocím.",
+  "ingrediencie": [
+    {
+      "nazov": "Tvaroh",
+      "mnozstvo": 100,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 10,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Bobuľové ovocie",
+      "mnozstvo": 60,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Tvaroh premiešaj s medom.",
+    "Navrch daj ovocie."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "tvaroh"
+  ]
+}

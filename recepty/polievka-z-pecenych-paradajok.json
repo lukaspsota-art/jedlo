@@ -1,0 +1,37 @@
+{
+  "id": "polievka-z-pecenych-paradajok",
+  "nazov": "Polievka z pečených paradajok",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "75 min",
+  "kcal_na_porciu": 134,
+  "popis": "Krémová polievka z pečených paradajok a cesnaku, dochutená bazalkou a tymianom.",
+  "ingrediencie": [
+    {"nazov": "Cesnak (hlávka)", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Paradajky", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 350, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Bazalka sušená", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Paprika sušená", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Tymian sušený", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Kmín sušený", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Rúru predhrejeme na 180 °C.",
+    "Hlávku cesnaku neolúpeme, odrežeme asi 1 cm z vrchu, pokvapkáme 1 PL olivového oleja a zabalíme do alobalu.",
+    "Paradajky pokvapkáme zvyšným olejom, spolu s cesnakom dáme na plech a pečieme 30-35 minút pri 170-180 °C.",
+    "Upečený cesnak necháme vychladnúť, vylúpeme strúčiky a rozmixujeme s paradajkami dohladka.",
+    "V hrnci rozohrejeme prepustené maslo a spenníme najemno nakrájanú cibuľu.",
+    "Prilejeme rozmixované paradajky s cesnakom a vývar, necháme 10 minút prevariť.",
+    "Pridáme bazalku, papriku, tymian a kmín, chvíľu povaríme a dochutíme soľou a korením."
+  ],
+  "tipy": "Pre jemnejšiu chuť môžete pred mixovaním pridať 200 ml kokosového mlieka.",
+  "foto": "",
+  "tagy": ["polievka", "paradajky", "pečené"]
+}

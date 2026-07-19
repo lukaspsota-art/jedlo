@@ -1,0 +1,33 @@
+{
+  "id": "pernik",
+  "nazov": "Perník",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 12,
+  "cas": "70 min",
+  "kcal_na_porciu": 205,
+  "popis": "Vlhký medovo-kakaový perník polievaný čokoládou a mandľami.",
+  "ingrediencie": [
+    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 380, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Vajce", "mnozstvo": 3, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Med", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Olej", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Kypriaci prášok do perníka", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Mlieko", "mnozstvo": 200, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Škorica", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Holandské kakao", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Mandľové plátky", "mnozstvo": 100, "jednotka": "g", "poznamka": "na posypanie"},
+    {"nazov": "Horká čokoláda", "mnozstvo": 100, "jednotka": "g", "poznamka": ""}
+  ],
+  "postup": [
+    "Rúru predhrejte na 180 °C.",
+    "Vo veľkej mise zmiešajte všetky ingrediencie okrem mandlí a čokolády.",
+    "Cesto vylejte do vymazanej formy 20x30 cm vyloženej papierom.",
+    "Pečte 45-50 minút pri 170-180 °C, pripečenosť skontrolujte špajdľou.",
+    "Vychladnutý perník polejte roztopenou čokoládou a posypte mandľovými plátkami."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["perník", "dezert", "škorica", "čokoláda"]
+}

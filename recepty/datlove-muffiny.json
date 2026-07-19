@@ -1,0 +1,30 @@
+{
+  "id": "datlove-muffiny",
+  "nazov": "Datľové muffiny",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 14,
+  "cas": "55 min",
+  "kcal_na_porciu": 174,
+  "popis": "Vlhké muffiny z ryžovej múky sladené namočenými datľami a medom.",
+  "ingrediencie": [
+    {"nazov": "Datle medjool", "mnozstvo": 200, "jednotka": "g", "poznamka": "namočené aspoň 20 minút v 250 ml vody"},
+    {"nazov": "Kokosový olej", "mnozstvo": 80, "jednotka": "g"},
+    {"nazov": "Med", "mnozstvo": 60, "jednotka": "g"},
+    {"nazov": "Vajce", "mnozstvo": 3, "jednotka": "ks"},
+    {"nazov": "Ryžová múka", "mnozstvo": 180, "jednotka": "g"},
+    {"nazov": "Sójové mlieko", "mnozstvo": 100, "jednotka": "ml"},
+    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 2, "jednotka": "ČL"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 180 °C.",
+    "Scedené datle rozmixujte s kokosovým olejom a medom dohladka.",
+    "Pridajte vajcia, múku, kypriaci prášok a mlieko a mixujte na hladké cesto (ak je príliš husté, prilejte vodu).",
+    "Cesto rozdeľte do 14 košíčkov na muffiny.",
+    "Pečte pri 170–180 °C asi 25 minút."
+  ],
+  "tipy": "Med môžete nahradiť iným sladidlom, napríklad javorovým, ryžovým alebo datľovým sirupom.",
+  "foto": "",
+  "tagy": ["dezert", "muffiny", "datle", "bez lepku"]
+}

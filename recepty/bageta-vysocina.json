@@ -1,0 +1,53 @@
+{
+  "id": "bageta-vysocina",
+  "nazov": "Bageta s Vysočinou, uhorkou a paradajkou",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "Kaufland jedálniček",
+  "porcie": 6,
+  "cas": "10 min",
+  "kcal_na_porciu": 339,
+  "popis": "Naplnená bageta so salámou Vysočina, maslom, uhorkou a paradajkou, pripravená vopred.",
+  "ingrediencie": [
+    {
+      "nazov": "Bageta",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": "z pece, 125 g"
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Saláma",
+      "mnozstvo": 210,
+      "jednotka": "g",
+      "poznamka": "Vysočina"
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 180,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Paradajka",
+      "mnozstvo": 180,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Bagetu rozkroj na polovicu, potom pozdĺžne.",
+    "Natri maslom.",
+    "Naplň plátkami Vysočiny, uhorky a paradajky.",
+    "Zlož, zabaľ do fólie a ulož do chladničky."
+  ],
+  "tipy": "Paradajku prípadne odsemenej, aby bageta nerozmokla.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "bageta",
+    "meal-prep"
+  ]
+}

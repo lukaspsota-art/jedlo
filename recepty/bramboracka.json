@@ -1,0 +1,109 @@
+{
+  "id": "bramboracka",
+  "nazov": "Bramboračka",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 6,
+  "cas": "60 min",
+  "kcal_na_porciu": 230,
+  "popis": "Zemiaková polievka s hubami, koreňovou zeleninou a majoránom.",
+  "ingrediencie": [
+    {
+      "nazov": "Sušené huby",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Celozrnná špaldová múka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 1500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlen",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "koreňová"
+    },
+    {
+      "nazov": "Zeler",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majorán",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čerstvá petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": "hrsť",
+      "poznamka": "na posypanie"
+    }
+  ],
+  "postup": [
+    "Huby namočte do vody.",
+    "V hrnci na masle pripravte svetlú zápražku z masla a múky.",
+    "Zápražku zalejte vývarom, priklopte a priveďte k varu.",
+    "Zeleninu (zemiaky, petržen, zeler, mrkva) očistite a nakrájajte na menšie kúsky.",
+    "Zeleninu vložte do vriaceho vývaru a varte domäkka 30-35 minút.",
+    "Časť polievky rozmixujte ponorným mixérom.",
+    "Pridajte scedené namočené huby, prelisovaný cesnak, majorán, soľ a korenie.",
+    "Podávajte posypané petržlenovou vňaťou."
+  ],
+  "tipy": "Pre redšiu variantu vynechajte múku a namiesto toho opečte na masle cibuľku.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "zemiaky",
+    "huby",
+    "zelenina"
+  ]
+}

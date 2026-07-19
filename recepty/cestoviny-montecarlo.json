@@ -1,0 +1,69 @@
+{
+  "id": "cestoviny-montecarlo",
+  "nazov": "Cestoviny Montecarlo",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "Kaufland FOOD magazín",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 650,
+  "popis": "Cestoviny s mletým hovädzím mäsom v krémovo-paradajkovej omáčke s bazalkovým pestom.",
+  "ingrediencie": [
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 400,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Mleté hovädzie mäso",
+      "mnozstvo": 350,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 1.5,
+      "jednotka": "PL",
+      "poznamka": "1–2 PL, hustý"
+    },
+    {
+      "nazov": "Bazalkové pesto",
+      "mnozstvo": 60,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Sladká smotana",
+      "mnozstvo": 200,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "menšia"
+    },
+    {
+      "nazov": "Extra panenský olivový olej",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa potreby"
+    },
+    {
+      "nazov": "Soľ a mleté čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Cibuľu nakrájaj nadrobno a speň na oleji. Pridaj mleté mäso a dôkladne opeč, potom vmiešaj paradajkový pretlak.",
+    "Prilej smotanu, premiešaj, prikry a na miernom ohni prevar asi 5 minút. Nakoniec vmiešaj bazalkové pesto.",
+    "Cestoviny uvar v osolenej vode al dente, sceď a ešte horúce premiešaj s omáčkou."
+  ],
+  "tipy": "Pesto pridaj až na konci mimo varu, aby si zachovalo sviežu chuť a farbu.",
+  "foto": "",
+  "tagy": [
+    "pasta",
+    "hovädzie",
+    "rýchle"
+  ]
+}

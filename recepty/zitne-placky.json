@@ -1,0 +1,34 @@
+{
+  "id": "zitne-placky",
+  "nazov": "Žitné placky",
+  "kategoria": "Príloha",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 12,
+  "cas": "50 min",
+  "kcal_na_porciu": 216,
+  "popis": "Kysnuté ražné placky s tymianom a hrubozrnnou soľou.",
+  "ingrediencie": [
+    {"nazov": "Chlebová ražná múka", "mnozstvo": 600, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Mlieko", "mnozstvo": 300, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Sušené droždie", "mnozstvo": 7, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 60, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "mletá"},
+    {"nazov": "Čerstvý tymian", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Hrubozrnná soľ", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Chlebová ražná múka", "mnozstvo": 60, "jednotka": "g", "poznamka": "na pomúčenie valu"}
+  ],
+  "postup": [
+    "V mise premiešajte 300 g ražnej múky, mlieko a droždie, prikryte a odložte na 20 minút.",
+    "Pridajte zvyšnú múku, 150 ml vody a rukami zapracujte cesto.",
+    "Primiešajte olivový olej, mletú soľ a tymian.",
+    "Cesto prikryte a necháte kysnúť na teplom mieste 2-2,5 hodiny.",
+    "Rúru predhrejte na 200 °C.",
+    "Cesto vyklopte na pomúčený vál, rozdeľte na 6 väčších alebo 12 menších dielov a z každého vytvarujte placku.",
+    "Placky rozložte na plech s papierom, do rúry vložte misku s vodou.",
+    "Pečte 15-20 minút pri 190-200 °C a hotové placky posypte hrubozrnnou soľou."
+  ],
+  "tipy": "Do placiek pridajte obľúbené korenie, napríklad rozmarín.",
+  "foto": "",
+  "tagy": ["placky", "ražná múka", "pečivo", "tymian"]
+}

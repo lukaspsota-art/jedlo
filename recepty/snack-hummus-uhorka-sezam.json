@@ -1,0 +1,23 @@
+{
+  "id": "snack-hummus-uhorka-sezam",
+  "nazov": "Snack: hummus s uhorkou a sezamom",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 1,
+  "cas": "5 min",
+  "kcal_na_porciu": 250,
+  "popis": "Kolieska uhorky s hummusom posypané sezamovými semienkami.",
+  "ingrediencie": [
+    {"nazov": "Hummus", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Uhorka", "mnozstvo": null, "jednotka": "", "poznamka": "pár koliesok"},
+    {"nazov": "Sezamové semienka", "mnozstvo": 20, "jednotka": "g", "poznamka": ""}
+  ],
+  "postup": [
+    "Kolieska uhorky potrieme hummusom.",
+    "Posypeme sezamovými semienkami a podávame."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["snack", "hummus", "uhorka", "sezam"]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "domace-arasidove-maslo",
+  "nazov": "Domáce arašidové maslo",
+  "kategoria": "Nátierka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 1,
+  "cas": "5 min",
+  "kcal_na_porciu": 2597,
+  "popis": "Domáce arašidové maslo z pražených arašidov, medu a trochy oleja.",
+  "ingrediencie": [
+    { "nazov": "Nesolené arašidy", "mnozstvo": 400, "jednotka": "g" },
+    { "nazov": "Kokosový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "rozpustený, možno použiť aj arašidový olej" },
+    { "nazov": "Tekutý med", "mnozstvo": 1, "jednotka": "PL" },
+    { "nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka", "poznamka": "možno vynechať" }
+  ],
+  "postup": [
+    "Arašidy mixuj vo výkonnom mixéri v intervaloch 20 sekúnd, kým nevznikne \"prášok\".",
+    "Zoškrabkaj prichytené arašidy zo stien, aby sa rozmixovali všetky.",
+    "Pridaj olej, med a soľ, mixuj na plný výkon približne 1 minútu.",
+    "Podľa chuti dochuť ďalším medom alebo soľou, pre tekutejšiu konzistenciu prilej viac oleja.",
+    "Napokon mixuj ešte 30 sekúnd, aby sa všetko spojilo.",
+    "Maslo presuň do uzatvárateľnej sklenej nádoby a skladuj v chladničke."
+  ],
+  "tipy": "Na crunchy verziu si odlož cca 100 g arašidov, nahrubo ich rozmixuj a primiešaj do hotového masla.",
+  "foto": "",
+  "tagy": ["nátierka", "arašidy", "domáce"]
+}

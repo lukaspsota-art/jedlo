@@ -1,0 +1,27 @@
+{
+  "id": "proteinove-gulky-s-brusnicami",
+  "nazov": "Proteínové guľky s brusnicami",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 15,
+  "cas": "10 min",
+  "kcal_na_porciu": 53,
+  "popis": "Rýchle proteínové guľky s brusnicami a škoricou bez pečenia.",
+  "ingrediencie": [
+    {"nazov": "Sušené brusnice", "mnozstvo": 50, "jednotka": "g"},
+    {"nazov": "Mletá škorica", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Jablkové pyré", "mnozstvo": 60, "jednotka": "g"},
+    {"nazov": "Vanilkový syrovátkový proteín", "mnozstvo": 90, "jednotka": "g", "poznamka": "možno vynechať"},
+    {"nazov": "Mleté žitné vločky", "mnozstvo": 60, "jednotka": "g", "poznamka": "možno nahradiť iným druhom vločiek"}
+  ],
+  "postup": [
+    "Všetky ingrediencie zmiešajte v mise.",
+    "Rukami dôkladne premiešajte a vytvorte cesto.",
+    "Tvarujte guľky.",
+    "Pred podávaním dajte aspoň na 30 minút do chladničky."
+  ],
+  "tipy": "Namiesto 10 g proteínu pridajte 10 g holandského kakaa.",
+  "foto": "",
+  "tagy": ["proteín", "guľky", "brusnice", "snack"]
+}

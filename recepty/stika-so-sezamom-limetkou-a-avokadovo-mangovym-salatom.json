@@ -1,0 +1,33 @@
+{
+  "id": "stika-so-sezamom-limetkou-a-avokadovo-mangovym-salatom",
+  "nazov": "Šťuka so sezamom, limetkou a avokádovo-mangovým šalátom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Ázijská",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 425,
+  "popis": "Pečené filety zo šťuky v sezamovo-limetkovej kôrke, podávané s avokádovo-mangovým šalátom.",
+  "ingrediencie": [
+    {"nazov": "Filety zo šťuky", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Limetková kôra", "mnozstvo": 1, "jednotka": "ks", "poznamka": "z 1 limetky"},
+    {"nazov": "Limetková šťava", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Chilli vločky", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Sezamové semienka", "mnozstvo": 20, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Avokádo", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Mango", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Čerstvý koriander", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""}
+  ],
+  "postup": [
+    "Rúru predhrejte na 200 °C, zmiešajte limetkovú šťavu, kôru, chilli vločky a sezamové semienka.",
+    "Filety obaľte v tejto zmesi a po dvoch zabaľte do papiera na pečenie.",
+    "Balíčky pečte v predhriatej rúre 12-15 minút pri 190-200 °C.",
+    "Avokádo a mango nakrájajte na kocky, zmiešajte s olivovým olejom, medom a nasekaným koriandrom.",
+    "Podávajte filety spolu s avokádovo-mangovým šalátom."
+  ],
+  "tipy": "Ak nemáte šťuku, skúste rovnaký recept s filetmi z pstruha.",
+  "foto": "",
+  "tagy": ["ryba", "šťuka", "mango", "avokádo"]
+}

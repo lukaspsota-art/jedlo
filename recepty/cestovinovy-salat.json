@@ -1,0 +1,28 @@
+{
+  "id": "cestovinovy-salat",
+  "nazov": "Cestovinový šalát",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 2,
+  "cas": "40 min",
+  "kcal_na_porciu": 450,
+  "popis": "Sýty cestovinový šalát s císerom, cherry paradajkami, uhorkou a jogurtovým dresingom.",
+  "ingrediencie": [
+    {"nazov": "Celozrnné alebo ražné cestoviny", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Predvarený cícer", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Cherry paradajky", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Čerstvý koriander", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Uhorka hadovka", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Jogurtová zálivka", "mnozstvo": 4, "jednotka": "PL", "poznamka": "podľa vlastného receptu"}
+  ],
+  "postup": [
+    "Cestoviny uvarte v osolenej vode podľa návodu na obale.",
+    "Cherry paradajky rozpolte, uhorku nakrájajte na nudličky a spolu s císerom vložte do šalátovej misy.",
+    "Koriander nahrubo nasekajte a pridajte k paradajkám a císeru.",
+    "Uvarené cestoviny sceďte, pridajte do misy, zalejte jogurtovou zálivkou a premiešajte."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["cestoviny", "šalát", "cícer", "obed"]
+}

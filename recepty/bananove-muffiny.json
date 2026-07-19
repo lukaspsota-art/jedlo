@@ -1,0 +1,32 @@
+{
+  "id": "bananove-muffiny",
+  "nazov": "Banánové muffiny",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 12,
+  "cas": "30 min",
+  "kcal_na_porciu": 159,
+  "popis": "Vlhké banánové muffiny s ovsenými vločkami a škoricou.",
+  "ingrediencie": [
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Mlieko", "mnozstvo": 100, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Banán", "mnozstvo": 3, "jednotka": "ks", "poznamka": "zrelý, rozmačkaný"},
+    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 260, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Ovsené vločky", "mnozstvo": 75, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Škorica", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""}
+  ],
+  "postup": [
+    "Rúru predhrejte na 180 °C.",
+    "Vajcia vyšľahajte s medom a postupne prilievajte mlieko.",
+    "Vmiešajte rozmačkané banány.",
+    "V druhej mise zmiešajte múku, vločky a škoricu.",
+    "Suché ingrediencie postupne pridávajte k mokrým, kým nevznikne cesto.",
+    "Cesto rozdeľte do 12 košíčkov na muffiny.",
+    "Pečte pri 170-180 °C 20-25 minút."
+  ],
+  "tipy": "Do cesta primiešajte 150 g sušených brusníc alebo iného sušeného ovocia.",
+  "foto": "",
+  "tagy": ["banán", "muffiny", "dezert", "ovsené vločky"]
+}

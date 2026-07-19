@@ -1,0 +1,36 @@
+{
+  "id": "pohankova-babovka-s-brusnicami",
+  "nazov": "Pohánková bábovka s brusnicami",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 16,
+  "cas": "70 min",
+  "kcal_na_porciu": 246,
+  "popis": "Bezlepková bábovka z pohánkovej múky s banánom, brusnicami a čokoládou.",
+  "ingrediencie": [
+    {"nazov": "Pohánková múka", "mnozstvo": 200, "jednotka": "g"},
+    {"nazov": "Vlašské orechy mleté", "mnozstvo": 120, "jednotka": "g"},
+    {"nazov": "Banán", "mnozstvo": 3, "jednotka": "ks"},
+    {"nazov": "Sójové vanilkové mlieko", "mnozstvo": 250, "jednotka": "ml"},
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks"},
+    {"nazov": "Brusnice sušené bez cukru", "mnozstvo": 150, "jednotka": "g"},
+    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 2, "jednotka": "ČL"},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL"},
+    {"nazov": "Kokosový olej rozpustený", "mnozstvo": 30, "jednotka": "g"},
+    {"nazov": "Horká čokoláda", "mnozstvo": 100, "jednotka": "g"},
+    {"nazov": "Kokosový olej na vymazanie formy", "mnozstvo": 20, "jednotka": "g"},
+    {"nazov": "Pohánková múka na vysypanie formy", "mnozstvo": 2, "jednotka": "PL"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 160 °C.",
+    "Banány rozmixujte alebo rozmačkajte vidličkou.",
+    "Postupne pridajte pohánkovú múku, vlašské orechy, mlieko, vajcia, brusnice, kypriaci prášok, med a kokosový olej.",
+    "Spojte na hladké cesto a prisypte nastrúhanú čokoládu.",
+    "Formu na bábovku vymažte olejom a vysypte múkou.",
+    "Cesto nalejte do formy a pečte pri 150–160 °C 45–50 minút."
+  ],
+  "tipy": "Bábovku môžete poliať domácou polevou z 50 g rozpusteného kokosového oleja, 1 PL holandského kakaa a lyžičky medu.",
+  "foto": "",
+  "tagy": ["dezert", "bábovka", "brusnice", "bez lepku"]
+}

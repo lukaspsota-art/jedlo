@@ -1,0 +1,33 @@
+{
+  "id": "bowl-s-tofu-v-kokose",
+  "nazov": "Bowl s tofu v kokose",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Ázijská",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 4,
+  "cas": "50 min",
+  "kcal_na_porciu": 362,
+  "popis": "Mísa s marinovaným tofu obaleným v kokose a pečenou zeleninou.",
+  "ingrediencie": [
+    {"nazov": "Tofu bez príchute", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Sójová omáčka", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Čerstvo nastrúhaný zázvor", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 80, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Mlieko", "mnozstvo": 120, "jednotka": "ml", "poznamka": ""},
+    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Strúhaný kokos", "mnozstvo": 70, "jednotka": "g", "poznamka": ""}
+  ],
+  "postup": [
+    "Tofu nakrájajte na kocky, zmiešajte marinádu zo sójovej omáčky, citrónovej šťavy, medu a zázvoru.",
+    "Tofu vložte do marinády, premiešajte a nechajte v chladničke marinovať aspoň 1 hodinu.",
+    "Rúru predhrejte na 170 °C.",
+    "Pripravte tri misky: múku, rozšľahané mlieko s vajcom a strúhaný kokos.",
+    "Kocky tofu osušte a postupne obaľujte v múke, vajcovej zmesi a kokose.",
+    "Uložte na plech vyložený papierom na pečenie a pečte 25-30 minút pri 160-170 °C."
+  ],
+  "tipy": "Podávajte s pečeným cícerom, obarenou brokolicou, avokádom, mrkvou a červeným zelím. Marinádu si pripravte trochu viac a hotovú misu ňou polejte.",
+  "foto": "",
+  "tagy": ["tofu", "kokos", "bowl", "rastlinné"]
+}

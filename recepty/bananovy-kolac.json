@@ -1,0 +1,35 @@
+{
+  "id": "bananovy-kolac",
+  "nazov": "Banánový koláč",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 10,
+  "cas": "95 min",
+  "kcal_na_porciu": 309,
+  "popis": "Tvarohovo-ricottový koláč s banánovou príchuťou na ovsenej krúste.",
+  "ingrediencie": [
+    {"nazov": "Jemne mleté ovsené vločky", "mnozstvo": 300, "jednotka": "g", "poznamka": "na krustu"},
+    {"nazov": "Maslo", "mnozstvo": 70, "jednotka": "g", "poznamka": "alebo kokosový olej, na krustu"},
+    {"nazov": "Med", "mnozstvo": 30, "jednotka": "g", "poznamka": "na krustu"},
+    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": "na krustu"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Banán", "mnozstvo": 2, "jednotka": "ks", "poznamka": "na náplň"},
+    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "ks", "poznamka": "šťava z 1 citróna, na náplň"},
+    {"nazov": "Ricotta", "mnozstvo": 500, "jednotka": "g", "poznamka": "na náplň"},
+    {"nazov": "Tvaroh", "mnozstvo": 200, "jednotka": "g", "poznamka": "na náplň"},
+    {"nazov": "Vajce", "mnozstvo": 4, "jednotka": "ks", "poznamka": "na náplň"},
+    {"nazov": "Kukuričný škrob", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na náplň"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 175 °C.",
+    "Zmiešajte vločky, maslo, med, štipku soli a vajce a rozotrite rovnomerne do dortovej formy (Ø 25 cm) vyloženej papierom.",
+    "Krustu pečte 15 minút pri 165-175 °C.",
+    "Medzitým rozmixujte banány, citrónovú šťavu, ricottu, tvaroh, vajcia a kukuričný škrob.",
+    "Náplň nalejte na upečenú krustu.",
+    "Pečte ďalších 40-45 minút pri 165-175 °C."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["koláč", "tvaroh", "banán", "dezert"]
+}

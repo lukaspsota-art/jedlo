@@ -1,0 +1,34 @@
+{
+  "id": "krevety-s-paradajkami",
+  "nazov": "Krevety s paradajkami",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 4,
+  "cas": "25 min",
+  "kcal_na_porciu": 350,
+  "popis": "Krevety dusené s paradajkami, cesnakom a čerstvými bylinkami, podávané s celozrnnou ryžou.",
+  "ingrediencie": [
+    {"nazov": "Celozrnná ryža", "mnozstvo": 240, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Biela cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": "stredná"},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Strúčik cesnaku", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
+    {"nazov": "Olúpané krevety", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Mäsité paradajky", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Čerstvá bazalka", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Rukola", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Ryžu varte podľa návodu na obale.",
+    "Cibuľu nadrobno nakrájajte a orestujte na olivovom oleji.",
+    "Pridajte na plátky nakrájaný cesnak a olúpané krevety, opekajte 5 minút.",
+    "Pridajte na kocky nakrájané paradajky, podlejte 100 ml vody a duste 10 minút.",
+    "Dochutite soľou a korením.",
+    "Posypte bazalkou a rukolou, podávajte s ryžou."
+  ],
+  "tipy": "Paradajky môžete nahradiť sójovou smotanou pre krémovú verziu jedla.",
+  "foto": "",
+  "tagy": ["krevety", "paradajky", "morské plody", "hlavné jedlo"]
+}

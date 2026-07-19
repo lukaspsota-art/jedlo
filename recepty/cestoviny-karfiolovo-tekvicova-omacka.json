@@ -1,0 +1,36 @@
+{
+  "id": "cestoviny-karfiolovo-tekvicova-omacka",
+  "nazov": "Cestoviny s karfiolovo-tekvicovou omáčkou",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 4,
+  "cas": "65 min",
+  "kcal_na_porciu": 528,
+  "popis": "Celozrnné cestoviny s krémovou omáčkou z pečeného karfiolu, tekvice a papriky.",
+  "ingrediencie": [
+    {"nazov": "Celozrnné cestoviny", "mnozstvo": 240, "jednotka": "g"},
+    {"nazov": "Maslová tekvica", "mnozstvo": 300, "jednotka": "g", "poznamka": "alebo hokkaido"},
+    {"nazov": "Paprika", "mnozstvo": 1, "jednotka": "ks"},
+    {"nazov": "Karfiol", "mnozstvo": 1, "jednotka": "ks", "poznamka": "stredný, rozdelený na ružičky"},
+    {"nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL"},
+    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik"},
+    {"nazov": "Nutričné kvasnice", "mnozstvo": 1, "jednotka": "PL"},
+    {"nazov": "Zeleninový vývar", "mnozstvo": 200, "jednotka": "ml"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čerstvá petržlenová vňať", "mnozstvo": 1, "jednotka": "hrsť"},
+    {"nazov": "Vlašské orechy", "mnozstvo": 100, "jednotka": "g"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 180 °C.",
+    "Cestoviny uvarte podľa návodu na obale.",
+    "Papriku a tekvicu ošúpte a nakrájajte, spolu s ružičkami karfiolu rozložte na plech, polejte olivovým olejom, osoľte a okoreňte.",
+    "Pečte pri 170-180 °C 35-40 minút.",
+    "Vypečenú zeleninu rozmixujte s cesnakom, nutričnými kvasnicami a zeleninovým vývarom nahladko.",
+    "Omáčku zmiešajte s cestovinami, rozdeľte na 4 porcie a posypte petržlenom a orechmi."
+  ],
+  "tipy": "Omáčku môžete podávať aj s quinoou, pohánkou alebo ryžou.",
+  "foto": "",
+  "tagy": ["cestoviny", "karfiol", "tekvica", "vegetariánske"]
+}

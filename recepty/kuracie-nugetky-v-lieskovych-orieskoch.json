@@ -1,0 +1,29 @@
+{
+  "id": "kuracie-nugetky-v-lieskovych-orieskoch",
+  "nazov": "Kuracie nugetky v lieskových orieškoch",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 4,
+  "cas": "45 min",
+  "kcal_na_porciu": 397,
+  "popis": "Pečené kuracie nugetky obalené v zmesi mandlí a lieskových orieškov.",
+  "ingrediencie": [
+    {"nazov": "Kuracie prsia", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Slnečnicový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Mleté mandle", "mnozstvo": 80, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Nahrubo nasekané lieskové orechy", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Mletá paprika", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 170 °C.",
+    "Kuracie prsia očistite a nakrájajte na kocky asi 2×2 cm, premiešajte so soľou a olejom.",
+    "V mise zmiešajte mandle, lieskové orechy a mletú papriku.",
+    "Každý kúsok mäsa obaľte v pripravenej zmesi a uložte na plech vyložený papierom na pečenie.",
+    "Pečte v predhriatej rúre 15-18 minút pri 160-170 °C."
+  ],
+  "tipy": "Podávajte s chilli-limetkovým dresingom.",
+  "foto": "",
+  "tagy": ["kura", "nugetky", "orechy", "pečené"]
+}

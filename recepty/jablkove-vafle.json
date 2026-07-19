@@ -1,0 +1,34 @@
+{
+  "id": "jablkove-vafle",
+  "nazov": "Jablkové vafle",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 3,
+  "cas": "13 min",
+  "kcal_na_porciu": 461,
+  "popis": "Jemné vafle z celozrnnej múky s jablkom a škoricou.",
+  "ingrediencie": [
+    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 200, "jednotka": "g"},
+    {"nazov": "Jablko", "mnozstvo": 1, "jednotka": "ks"},
+    {"nazov": "Prášok do pečiva", "mnozstvo": 2, "jednotka": "ČL"},
+    {"nazov": "Mletá škorica", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"},
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks"},
+    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Grécky jogurt", "mnozstvo": 60, "jednotka": "g"},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "ČL"},
+    {"nazov": "Kokosový olej", "mnozstvo": 30, "jednotka": "g"},
+    {"nazov": "Mlieko", "mnozstvo": 250, "jednotka": "ml"}
+  ],
+  "postup": [
+    "V jednej mise zmiešajte múku, nastrúhané jablko, prášok do pečiva, škoricu a soľ.",
+    "V druhej mise vyšľahajte vajcia s vanilkovým extraktom, jogurtom, medom a olejom.",
+    "Prilejte mlieko a spojte obsah oboch mís.",
+    "Cesto naberajte po lyžicách do predhriatej vaflovačky.",
+    "Pečte 2-3 minúty podľa typu vaflovačky."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["vafle", "jablká", "raňajky"]
+}

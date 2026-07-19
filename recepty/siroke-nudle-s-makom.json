@@ -1,0 +1,24 @@
+{
+  "id": "siroke-nudle-s-makom",
+  "nazov": "Široké rezance s makom",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Slovenská",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 4,
+  "cas": "15 min",
+  "kcal_na_porciu": 390,
+  "popis": "Domáce špaldové rezance s makom, kokosovým olejom a sirupom.",
+  "ingrediencie": [
+    {"nazov": "Špaldové rezance", "mnozstvo": 400, "jednotka": "g", "poznamka": "široké"},
+    {"nazov": "Mletý mak", "mnozstvo": 2, "jednotka": "PL", "poznamka": "bez cukru"},
+    {"nazov": "Kokosový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Ryžový sirup", "mnozstvo": 2, "jednotka": "ČL", "poznamka": "alebo med"}
+  ],
+  "postup": [
+    "Rezance varte v osolenej vode domäkka 4-7 minút.",
+    "Rozdeľte na 4 porcie, posypte makom, zalejte kokosovým olejom a pokvapkajte ryžovým sirupom."
+  ],
+  "tipy": "Podávajte so sezónnym ovocím.",
+  "foto": "",
+  "tagy": ["rezance", "mak", "sladké jedlo", "špalda"]
+}

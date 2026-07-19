@@ -1,0 +1,40 @@
+{
+  "id": "priloha-ryza-natur",
+  "nazov": "Hnedá ryža natur",
+  "kategoria": "Príloha",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 4,
+  "cas": "35 min",
+  "popis": "Celozrnná hnedá ryža, viac vlákniny.",
+  "ingrediencie": [
+    {
+      "nazov": "Hnedá ryža",
+      "mnozstvo": 240,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 600,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Prepláchni ryžu.",
+    "Var v osolenej vode 30–35 min do mäkka.",
+    "Zlej prebytočnú vodu, nechaj odpočívať."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "ryža",
+    "celozrnné"
+  ]
+}

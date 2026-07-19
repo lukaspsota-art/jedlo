@@ -1,0 +1,29 @@
+{
+  "id": "avokadova-pena",
+  "nazov": "Avokádová pena",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty I",
+  "porcie": 2,
+  "cas": "5 min",
+  "kcal_na_porciu": 596,
+  "popis": "Krémová sladká pena z avokáda, banánu a kakaa ozdobená pistáciami.",
+  "ingrediencie": [
+    {"nazov": "Avokádo", "mnozstvo": 2, "jednotka": "ks"},
+    {"nazov": "Ryžový sirup", "mnozstvo": 1, "jednotka": "PL"},
+    {"nazov": "Holandské kakao", "mnozstvo": 1, "jednotka": "PL"},
+    {"nazov": "Škorica", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Banán", "mnozstvo": 1, "jednotka": "ks"},
+    {"nazov": "Pistácie nesolené drvené", "mnozstvo": 15, "jednotka": "g", "poznamka": "na ozdobenie"},
+    {"nazov": "Kakaové bôby drvené", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na ozdobenie"}
+  ],
+  "postup": [
+    "Avokáda zbavte šupky a kôstky.",
+    "Vložte do mixéra spolu s ryžovým sirupom, banánom a škoricou.",
+    "Rozmixujte dohladka.",
+    "Penu posypte pistáciami a kakaovými bôbmi."
+  ],
+  "tipy": "Holandské kakao môžete nahradiť napríklad karobom.",
+  "foto": "",
+  "tagy": ["dezert", "avokádo", "raw", "bez lepku"]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ananasovy-kolac",
+  "nazov": "Ananásový koláč",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 12,
+  "cas": "35 min",
+  "kcal_na_porciu": 150,
+  "popis": "Vláčny pohánkový koláč s ananásom a kokosom.",
+  "ingrediencie": [
+    {"nazov": "Hladká pohánková múka", "mnozstvo": 200, "jednotka": "g"},
+    {"nazov": "Prášok do pečiva", "mnozstvo": 2, "jednotka": "ČL"},
+    {"nazov": "Kokosový olej", "mnozstvo": 50, "jednotka": "ml"},
+    {"nazov": "Med", "mnozstvo": 80, "jednotka": "g"},
+    {"nazov": "Mlieko", "mnozstvo": 70, "jednotka": "ml"},
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks"},
+    {"nazov": "Biely jogurt", "mnozstvo": 100, "jednotka": "g"},
+    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"},
+    {"nazov": "Strúhaný kokos", "mnozstvo": 3, "jednotka": "PL"},
+    {"nazov": "Ananás", "mnozstvo": 100, "jednotka": "g"},
+    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"}
+  ],
+  "postup": [
+    "Rúru predhrejte na 175 °C.",
+    "Múku preosejte s práškom do pečiva do väčšej misy.",
+    "V druhej mise vyšľahajte kokosový olej, med, mlieko, vajcia, jogurt a vanilkový extrakt.",
+    "Spojte obsah oboch mís, pridajte soľ a kokos.",
+    "Cesto vlejte do okrúhlej formy Ø 25 cm.",
+    "Ananás nakrájajte na polkolieska a poukladajte na cesto.",
+    "Pečte pri 165-175 °C 20-25 minút.",
+    "Koláč necháte vychladnúť na mriežke a podávajte."
+  ],
+  "tipy": "Koláč môžete podávať s tučným gréckym jogurtom doslazeným stéviou.",
+  "foto": "",
+  "tagy": ["koláč", "ananás", "dezert"]
+}

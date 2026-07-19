@@ -1,0 +1,38 @@
+{
+  "id": "tofu-burger-s-batatmi",
+  "nazov": "Tofu burger s batátmi",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 6,
+  "cas": "50 min",
+  "kcal_na_porciu": 438,
+  "popis": "Rastlinné burgery z uzeného tofu a batátov podávané v celozrnnej žemli s avokádom.",
+  "ingrediencie": [
+    {"nazov": "Údené tofu", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Sladké zemiaky (batáty)", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Ovsené vločky", "mnozstvo": 120, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Kari korenie", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Sušený rozmarín", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
+    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Celozrnné žemle", "mnozstvo": 6, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Špenát", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Čerstvé klíčky", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""}
+  ],
+  "postup": [
+    "Batáty očistite, nakrájajte na kocky a varte v osolenej vode 20-25 minút do mäkka.",
+    "Uvarené batáty preložte do mixéra, pridajte tofu a šalotku, rozmixujte dohladka.",
+    "Zmes preložte do misy, pridajte ovsené vločky, kari, rozmarín, soľ a korenie, premiešajte.",
+    "Vytvarujte 6 placiek veľkých ako dlaň.",
+    "Na oleji opekajte placky 4 minúty z jednej a 3 minúty z druhej strany.",
+    "Avokádo rozmačkajte vidličkou, osoľte a opeprite.",
+    "Žemle rozrežte, naplňte avokádom, špenátom, burgerom a klíčkami."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["burger", "tofu", "batáty", "vegánske"]
+}

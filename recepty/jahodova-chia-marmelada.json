@@ -1,0 +1,25 @@
+{
+  "id": "jahodova-chia-marmelada",
+  "nazov": "Jahodová chia marmeláda",
+  "kategoria": "Nátierka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 1,
+  "cas": "50 min",
+  "kcal_na_porciu": 247,
+  "popis": "Rýchla domáca jahodová marmeláda zhustená chia semienkami, bez varenia.",
+  "ingrediencie": [
+    { "nazov": "Jahody", "mnozstvo": 350, "jednotka": "g" },
+    { "nazov": "Chia semienka", "mnozstvo": 3, "jednotka": "PL" },
+    { "nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL" },
+    { "nazov": "Citrónová kôra", "mnozstvo": 2, "jednotka": "ČL", "poznamka": "z bio citróna" }
+  ],
+  "postup": [
+    "Jahody rozmixuj dohladka.",
+    "Primiešaj chia semienka, vanilkový extrakt a citrónovú kôru.",
+    "Prelej do pohára a nechaj v chladničke stuhnúť do druhého dňa."
+  ],
+  "tipy": "Ak máš vanilkový struk, použi semienka z neho namiesto vanilkového extraktu.",
+  "foto": "",
+  "tagy": ["nátierka", "marmeláda", "jahody", "chia"]
+}

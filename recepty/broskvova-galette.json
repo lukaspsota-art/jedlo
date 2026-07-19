@@ -1,0 +1,39 @@
+{
+  "id": "broskvova-galette",
+  "nazov": "Broskyňová galette",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Jíme zdravě s Fitrecepty III",
+  "porcie": 12,
+  "cas": "60 min",
+  "kcal_na_porciu": 301,
+  "popis": "Krehká koláčová základňa plnená broskyňami a černicami.",
+  "ingrediencie": [
+    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 320, "jednotka": "g", "poznamka": "na cesto"},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na cesto"},
+    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": "na cesto"},
+    {"nazov": "Maslo", "mnozstvo": 240, "jednotka": "g", "poznamka": "studené, na cesto"},
+    {"nazov": "Jablčný ocot", "mnozstvo": 1, "jednotka": "PL", "poznamka": "možno vynechať a nahradiť vodou"},
+    {"nazov": "Voda", "mnozstvo": 100, "jednotka": "ml", "poznamka": "na cesto"},
+    {"nazov": "Plátkové mandle", "mnozstvo": 30, "jednotka": "g", "poznamka": ""},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
+    {"nazov": "Broskyne", "mnozstvo": 150, "jednotka": "g", "poznamka": "na náplň"},
+    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": "na potretie"},
+    {"nazov": "Černice", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""},
+    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na náplň"},
+    {"nazov": "Xylitol", "mnozstvo": 2, "jednotka": "PL", "poznamka": "alebo sypká stévia, na posypanie"}
+  ],
+  "postup": [
+    "Múku preosejte, pridajte na kocky nakrájané studené maslo, jablčný ocot, vodu, med a vajce a rukami spracujte na cesto.",
+    "Vypracované cesto vytvarujte do gule, zabaľte do fólie a dajte aspoň na 30 minút do chladničky.",
+    "Rúru predhrejte na 180 °C a broskyne nakrájajte na plátky.",
+    "Cesto vyváľajte na pomúčenom vále do kruhu, okraje nechajte nerovné.",
+    "Doprostred poukladajte plátky broskýň, okraje cesta preložte smerom k stredu.",
+    "Okraje potrite rozšľahaným vajcom a posypte mandľami.",
+    "Pečte 30-35 minút pri 170-180 °C.",
+    "Do stredu upečenej galette nasypte černice, pokvapkajte medom a okraje posypte stéviou."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": ["galette", "broskyne", "dezert", "krehké cesto"]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "banana-bread",
+  "nazov": "Banana bread",
+  "kategoria": "Dezert",
+  "kuchyna": "Americká",
+  "zdroj": "Jíme zdravě s Fitrecepty II",
+  "porcie": 20,
+  "cas": "60 min",
+  "kcal_na_porciu": 132,
+  "popis": "Vlhký banánový chlieb zo špaldovej múky s medom a škoricou.",
+  "ingrediencie": [
+    { "nazov": "Banán", "mnozstvo": 2, "jednotka": "ks", "poznamka": "+ 1 banán navrch, možno vynechať" },
+    { "nazov": "Kokosový olej", "mnozstvo": 60, "jednotka": "g", "poznamka": "rozpustený" },
+    { "nazov": "Med", "mnozstvo": 70, "jednotka": "g" },
+    { "nazov": "Vajcia", "mnozstvo": 2, "jednotka": "ks" },
+    { "nazov": "Celozrnná špaldová múka", "mnozstvo": 400, "jednotka": "g" },
+    { "nazov": "Mletá škorica", "mnozstvo": 1, "jednotka": "ČL" },
+    { "nazov": "Mlieko", "mnozstvo": 190, "jednotka": "ml" },
+    { "nazov": "Prášok do pečiva", "mnozstvo": 2, "jednotka": "ČL" },
+    { "nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka" }
+  ],
+  "postup": [
+    "Rúru predhrej na 175 °C.",
+    "Banány rozmixuj vidličkou, primiešaj rozpustený kokosový olej, med a vajcia, dobre vyšľahaj.",
+    "Primiešaj múku, škoricu, mlieko, prášok do pečiva a soľ, cesto dôkladne premiešaj.",
+    "Cesto prelej do formy (typu srnčí chrbát) vystlanej papierom na pečenie.",
+    "Zvyšný banán pozdĺžne rozrež a polož navrch cesta.",
+    "Peč pri 165–175 °C 40–45 minút, hotovosť over špajdľou."
+  ],
+  "tipy": "Špajdľa musí po vytiahnutí byť suchá, inak chlieb ešte chvíľu peč.",
+  "foto": "",
+  "tagy": ["dezert", "banán", "chlieb", "špalda"]
+}
