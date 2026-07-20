@@ -1,0 +1,61 @@
+{
+  "id": "fazulova-polievka-so-zeleninou",
+  "nazov": "Fazuľová polievka so zeleninou",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "35 min",
+  "popis": "Sýta fazuľová polievka obohatená o farebnú zeleninu.",
+  "ingrediencie": [
+    {
+      "nazov": "Biele fazule",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zeler",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 700,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji opraž cibuľu, mrkvu a zeler.",
+    "Pridaj fazule a vývar.",
+    "Var 20 minút do mäkka zeleniny.",
+    "Dochuť soľou a podávaj."
+  ],
+  "tipy": "Sýta vegetariánska polievka bohatá na vlákninu.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "fazuľa",
+    "zelenina"
+  ]
+}

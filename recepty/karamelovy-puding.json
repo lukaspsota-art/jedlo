@@ -1,0 +1,50 @@
+{
+  "id": "karamelovy-puding",
+  "nazov": "Karamelový puding (crème caramel)",
+  "kategoria": "Dezert",
+  "kuchyna": "Francúzska",
+  "zdroj": "klasický recept",
+  "porcie": 6,
+  "cas": "60 min (+ chladenie)",
+  "popis": "Klasický francúzsky vajíčkový puding s karamelom.",
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový extrakt",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Polovicu cukru rozpusti na miernom ohni na zlatý karamel, rozlej do formičiek.",
+    "Mlieko zohrej s vanilkovým extraktom.",
+    "Vajcia rozšľahaj so zvyšným cukrom, postupne prilievaj teplé mlieko.",
+    "Nalej do formičiek s karamelom.",
+    "Peč vo vodnom kúpeli pri 160 °C asi 40 minút, potom vychladiť v chladničke."
+  ],
+  "tipy": "Pred podávaním preklop formičky, aby karamel steklo navrch.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "puding",
+    "francúzske"
+  ]
+}

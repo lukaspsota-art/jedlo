@@ -1,0 +1,62 @@
+{
+  "id": "cestoviny-s-fetou-a-cuketou",
+  "nazov": "Cestoviny s fetou a cuketou",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Grécka",
+  "zdroj": "vlastný recept",
+  "porcie": 3,
+  "cas": "25 min",
+  "popis": "Ľahké letné cestoviny s cuketou a syrom feta.",
+  "ingrediencie": [
+    {
+      "nazov": "Penne",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Feta",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cestoviny uvar podľa návodu na obale.",
+    "Cuketu nakrájaj na kocky a opraž na olivovom oleji s cesnakom do mäkka.",
+    "Zamiešaj uvarené cestoviny s cuketou.",
+    "Posyp rozdrobenou fetou.",
+    "Dochuť soľou a podávaj."
+  ],
+  "tipy": "Skvelé aj vlažné, ako letný obed.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "feta",
+    "letné"
+  ]
+}

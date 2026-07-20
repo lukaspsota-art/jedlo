@@ -1,0 +1,49 @@
+{
+  "id": "manhattan",
+  "nazov": "Manhattan",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Klasický silný kokteil z whiskey a sladkého vermutu.",
+  "ingrediencie": [
+    {
+      "nazov": "Whiskey",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Víno",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": "červený vermút"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do miešacieho pohára daj whiskey, vermút, cukor a ľad.",
+    "Premiešaj (nemieť).",
+    "Precedi do vychladeného pohára.",
+    "Podávaj bez ľadu."
+  ],
+  "tipy": "Tradične sa ozdobuje maraschino čerešňou.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "whiskey",
+    "americké"
+  ]
+}

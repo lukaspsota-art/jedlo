@@ -1,0 +1,69 @@
+{
+  "id": "hovadzi-vyvar-so-zeleninou",
+  "nazov": "Hovädzí vývar so zeleninou",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "90 min",
+  "popis": "Tradičná číra hovädzia polievka so zeleninou a rezancami.",
+  "ingrediencie": [
+    {
+      "nazov": "Hovädzie",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": "na polievku, s kosťou"
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zeler",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlen",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rezance",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mäso zalej studenou vodou a privedz k varu, zbieraj penu.",
+    "Pridaj celú cibuľu a var na miernom ohni 60 minút.",
+    "Pridaj nakrájanú zeleninu a var ďalších 20 minút do mäkka.",
+    "Mäso vyber, nakrájaj a vráť späť do polievky.",
+    "Podávaj s uvarenými rezancami."
+  ],
+  "tipy": "Vývar si môžeš pripraviť vo väčšom množstve a zamraziť na neskôr.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "hovädzie",
+    "vývar",
+    "slovenské"
+  ]
+}

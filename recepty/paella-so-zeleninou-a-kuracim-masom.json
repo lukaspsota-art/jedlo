@@ -1,0 +1,81 @@
+{
+  "id": "paella-so-zeleninou-a-kuracim-masom",
+  "nazov": "Paella so zeleninou a kuracím mäsom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Španielska",
+  "zdroj": "klasický recept",
+  "porcie": 5,
+  "cas": "50 min",
+  "popis": "Španielske jedno-panvicové jedlo z ryže, kuracieho mäsa a zeleniny.",
+  "ingrediencie": [
+    {
+      "nazov": "Ryža",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kuracie stehná",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrach",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kurkuma",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 600,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na olivovom oleji opeč kuracie mäso dozlata, vyber.",
+    "Na tom istom oleji opraž cibuľu a papriku.",
+    "Pridaj ryžu a kurkumu, krátko opraž.",
+    "Zalej vývarom, vráť mäso a hrášok, dus pod pokrievkou 20 minút.",
+    "Nechaj 5 minút odstáť pred podávaním."
+  ],
+  "tipy": "Kurkuma dodáva peknú zlatistú farbu ako tradičný šafrán.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "španielske",
+    "kura",
+    "ryža"
+  ]
+}

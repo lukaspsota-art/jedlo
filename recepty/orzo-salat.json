@@ -1,0 +1,67 @@
+{
+  "id": "orzo-salat",
+  "nazov": "Orzo šalát so zeleninou",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Grécka",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "20 min",
+  "popis": "Studený šalát z drobných cestovín orzo s uhorkou a fetou.",
+  "ingrediencie": [
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": "orzo"
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Feta",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Orzo uvar podľa návodu na obale, scedi a vychladí.",
+    "Zeleninu nakrájaj na kocky, fetu nadrob.",
+    "Všetko premiešaj s olivovým olejom a citrónovou šťavou.",
+    "Dochuť soľou a podávaj studené."
+  ],
+  "tipy": "Skvelý na obed do práce, vydrží niekoľko dní.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "grécke",
+    "studený šalát"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "cestoviny-s-hraskom-a-slaninou",
+  "nazov": "Cestoviny s hráškom a slaninou",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Rýchle krémové cestoviny s hráškom a chrumkavou slaninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Penne",
+      "mnozstvo": 320,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrach",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cestoviny uvar podľa návodu, hrášok pridaj na posledné 3 minúty.",
+    "Slaninu nakrájaj na kocky a opeč do chrumkava.",
+    "Pridaj pretlačený cesnak a smotanu, prehrej.",
+    "Zamiešaj cestoviny s hráškom.",
+    "Dochuť soľou a podávaj."
+  ],
+  "tipy": "Skvelé rýchle jedlo z bežných zásob v chladničke.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "hrášok",
+    "slanina"
+  ]
+}

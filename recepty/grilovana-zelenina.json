@@ -1,0 +1,61 @@
+{
+  "id": "grilovana-zelenina",
+  "nazov": "Grilovaná zelenina",
+  "kategoria": "Príloha",
+  "kuchyna": "Stredomorská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Farebná grilovaná zelenina s bylinkami a olivovým olejom.",
+  "ingrediencie": [
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Baklažán",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bazalka",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": "sušená"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zeleninu nakrájaj na plátky.",
+    "Premiešaj s olivovým olejom, bazalkou a soľou.",
+    "Gril alebo opeč na panvici z oboch strán do mäkka.",
+    "Podávaj teplé alebo studené."
+  ],
+  "tipy": "Skvelá aj ako súčasť studeného šalátu na druhý deň.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "zelenina",
+    "grilované"
+  ]
+}

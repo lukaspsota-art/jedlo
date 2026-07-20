@@ -1,0 +1,68 @@
+{
+  "id": "malinove-muffiny",
+  "nazov": "Malinové muffiny",
+  "kategoria": "Dezert",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "35 min",
+  "popis": "Jemné vláčne muffiny s čerstvými malinami.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maliny",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zmiešaj múku, cukor a prášok do pečiva.",
+    "V druhej mise rozšľahaj vajcia, mlieko a olej.",
+    "Spoj tekutú a suchú zmes, jemne vmiešaj maliny.",
+    "Rozlej do foriem na muffiny.",
+    "Peč pri 180 °C asi 20-22 minút do zlatista."
+  ],
+  "tipy": "Maliny jemne obaľ v troške múky, aby neklesli na dno.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "muffiny",
+    "maliny"
+  ]
+}

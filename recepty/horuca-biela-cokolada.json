@@ -1,0 +1,43 @@
+{
+  "id": "horuca-biela-cokolada",
+  "nazov": "Horúca biela čokoláda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "10 min",
+  "popis": "Krémová horúca biela čokoláda, sladšia alternatíva klasickej horúcej čokolády.",
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 400,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čokoláda",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": "biela, nasekaná"
+    },
+    {
+      "nazov": "Vanilkový extrakt",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mlieko zohrej, nesmie zovrieť.",
+    "Pridaj nasekanú bielu čokoládu, rozmiešaj do hladka.",
+    "Vmiešaj vanilkový extrakt.",
+    "Podávaj horúce, prípadne so šľahačkou."
+  ],
+  "tipy": "Biela čokoláda je sladšia, tak pridaj menej ako pri klasickej.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "čokoláda",
+    "zimné"
+  ]
+}

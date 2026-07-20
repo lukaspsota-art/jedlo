@@ -1,0 +1,37 @@
+{
+  "id": "kir-royal",
+  "nazov": "Kir Royal",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Elegantný francúzsky aperitív z prosecca a čiernych ríbezlí.",
+  "ingrediencie": [
+    {
+      "nazov": "Prosecco",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ríbezľový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": "pretlačené alebo sirup"
+    }
+  ],
+  "postup": [
+    "Do pohára na šampanské nalej pretlačené čierne ríbezle.",
+    "Pomaly dolej vychladené prosecco.",
+    "Jemne premiešaj.",
+    "Podávaj ihneď."
+  ],
+  "tipy": "Tradične sa pripravuje s krémom de cassis.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "prosecco",
+    "francúzske"
+  ]
+}

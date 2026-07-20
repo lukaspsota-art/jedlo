@@ -1,0 +1,43 @@
+{
+  "id": "kokosovo-ananasova-voda",
+  "nazov": "Kokosovo-ananásová voda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Karibská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "5 min (+ chladenie)",
+  "popis": "Osviežujúca tropicky ochutená voda.",
+  "ingrediencie": [
+    {
+      "nazov": "Ananás",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": "na kúsky"
+    },
+    {
+      "nazov": "Kokosové mlieko",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1200,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ananás nakrájaj na kúsky.",
+    "Vlož do džbánu spolu s kokosovým mliekom.",
+    "Zalej vodou.",
+    "Nechaj v chladničke aspoň 1 hodinu."
+  ],
+  "tipy": "Skvelý osviežujúci letný nápoj s tropickou príchuťou.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "tropické",
+    "letné"
+  ]
+}

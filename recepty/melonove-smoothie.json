@@ -1,0 +1,49 @@
+{
+  "id": "melonove-smoothie",
+  "nazov": "Melónové smoothie",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "inšpirované Wikibooks Cookbook: Watermelon Smoothie (CC BY-SA)",
+  "porcie": 2,
+  "cas": "5 min",
+  "popis": "Osviežujúce letné smoothie z vodového melóna a limetky.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodový melón",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": "bez šupky a semienok"
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Melón nakrájaj na kocky.",
+    "Všetky suroviny rozmixuj dohladka.",
+    "Podávaj ihneď, vychladené."
+  ],
+  "tipy": "Pre výraznejšiu farbu pridaj pár lístkov mäty.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "smoothie",
+    "letné",
+    "melón"
+  ]
+}

@@ -52,11 +52,19 @@
   .dnes .thumb{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#dfe8e0,#c8d8cc);display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--accent-dark);flex-shrink:0;overflow:hidden}
   .dnes .thumb img{width:100%;height:100%;object-fit:cover}
   .dnes .nm{font-weight:600;font-size:17px}
+  .dnes-row{display:flex;justify-content:space-between;gap:12px;padding:7px 2px;border-bottom:1px solid var(--line);font-size:15px}
+  .dnes-slot{color:var(--accent-dark);font-weight:600;min-width:90px}
+  .dnes-varenie{margin-top:10px;font-size:14px}
+  .dnes-makra{margin-top:10px;padding-top:8px;color:var(--muted);font-size:14px}
+  .dnes-makra b{color:var(--ink)}
   .dnes .mt{color:var(--muted);font-size:13px}
   /* filtre + karty */
-  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
-  #hladaj{flex:1;min-width:200px;padding:11px 14px;border:1px solid var(--line);border-radius:10px;font-size:15px;background:#fff}
-  select.f{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:14px}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px;padding:12px;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+  #hladaj{flex:1;min-width:200px;padding:11px 14px;border:1px solid var(--line);border-radius:10px;font-size:15px;background:#fff;transition:border-color .12s,box-shadow .12s}
+  #hladaj:focus,select.f:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(46,125,84,.15)}
+  select.f{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:14px;cursor:pointer;transition:border-color .12s,box-shadow .12s}
+  select.f:hover{border-color:var(--accent)}
+  .krok-mn{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:8px;background:var(--chip);color:var(--accent-dark);font-size:13px;font-weight:600;white-space:normal}
   .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
   .chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:7px 13px;border-radius:20px;cursor:pointer;font-size:14px;user-select:none}
   .chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
@@ -95,7 +103,7 @@
   .stepper span{min-width:40px;text-align:center;font-weight:600}
   .mini{border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;cursor:pointer;font-size:13px}
   .mini.on{background:var(--accent);color:#fff;border-color:var(--accent)}
-  .nutri{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:14px 0 4px}
+  .nutri{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0 4px}
   .nutri div{background:#f3f8f4;border:1px solid #d9e6dd;border-radius:10px;padding:10px;text-align:center}
   .nutri b{display:block;font-size:18px;color:var(--accent-dark)}
   .nutri small{color:var(--muted);font-size:11px}
@@ -140,6 +148,9 @@
   .odd label .nm2{display:flex;gap:10px;align-items:center}
   .odd label.checked .nm2{text-decoration:line-through;color:var(--muted)}
   .odd label .cena{color:var(--muted);font-size:13px;white-space:nowrap}
+  .odd.done-sekcia{opacity:.7}
+  .odd.done-sekcia h4{color:var(--muted)}
+  .sur-klik{cursor:pointer;text-decoration:underline dotted;text-underline-offset:3px}
   .doma-in{width:100%;min-height:70px;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:15px;font-family:inherit}
   .match{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:10px}
   .match .bar{height:8px;background:#eee;border-radius:5px;overflow:hidden;margin:6px 0}
@@ -212,9 +223,6 @@
   body.dark .kal .day{background:var(--panel)}
   .sp-row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 4px;border-bottom:1px solid var(--line);font-size:15px}
   .sp-row .meta2{font-size:12.5px;color:var(--muted)}
-  .wtr{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
-  .wtr .glass{font-size:22px;cursor:pointer;filter:grayscale(1);opacity:.5}
-  .wtr .glass.on{filter:none;opacity:1}
   body.dark{--bg:#181713;--panel:#232219;--ink:#ece7db;--muted:#a49d8b;--line:#39362c;--chip:#2b2a22;--accent:#4b9e73;--accent-dark:#12331f}
   body.dark .card,body.dark .tile,body.dark .panel,body.dark .modal .content2,body.dark input,body.dark select,body.dark textarea{background:var(--panel);color:var(--ink)}
   body.dark .btn,body.dark .mini,body.dark .stepper button,body.dark .stepper,body.dark #hladaj{background:var(--panel);color:var(--ink);border-color:var(--line)}
@@ -237,7 +245,6 @@
       <a data-v="spajza" onclick="prepni('spajza')"><span class="ic">🧊</span> Špajza</a>
     </nav>
     <div class="foot">
-      <a data-v="doma" onclick="prepni('doma')"><span class="ic">🥫</span> Čo mám doma</a>
       <a data-v="nastavenia" onclick="prepni('nastavenia')"><span class="ic">⚙️</span> Nastavenia</a>
     </div>
   </aside>
@@ -248,25 +255,29 @@
       <h2 class="h" id="pozdrav">Dobrý deň, Lukáš</h2>
       <p class="sub" id="datum-sub">aktualizované __DATUM__</p>
       <div class="tiles" id="dash-tiles"></div>
-      <div class="panel"><h3>Čo variť dnes?</h3><div class="dnes" id="dnes"></div></div>
+      <div class="panel" id="dnes-plan-panel"><h3>📅 Dnešný plán</h3><div id="dnes-plan"></div></div>
+      <div class="panel" id="cotvarit-panel"><h3>Čo variť dnes?</h3><div class="dnes" id="dnes"></div></div>
       <div class="panel"><h3>Rýchle akcie</h3><div class="qa">
         <button class="btn primary" onclick="generujJedalnicek(false);prepni('planovac')">✨ Zostaviť jedálniček</button>
+        <button class="btn" onclick="uvarZoSpajze()">🧊 Uvar zo špajze</button>
         <button class="btn" onclick="dojedzZvysky()">♻️ Dojedz zvyšky</button>
       </div><div id="zvysky-out" style="margin-top:12px"></div></div>
       <div class="panel"><h3>Obľúbené</h3><div class="grid" id="dash-fav"></div></div>
       <div class="panel"><h3>🧊 Špajza — spotrebuj čoskoro</h3><div id="dash-spajza" class="info"></div></div>
-      <div class="panel"><h3>💧 Voda dnes</h3><div class="wtr" id="dash-voda"></div><div id="dash-okno" class="info" style="margin-top:8px"></div></div>
+      <div class="panel" id="okno-panel"><h3>🕒 Okno jedenia</h3><div id="dash-okno" class="info"></div></div>
       <div class="panel"><h3>Naposledy varené</h3><div id="dash-hist" class="info"></div></div>
     </div>
 
     <div class="view" id="v-recepty">
       <h2 class="h">Recepty</h2>
-      <p class="sub"><span id="pocet">__POCET__</span> receptov v kuchárke</p>
+      <p class="sub"><span id="pocet">__POCET__</span> receptov v kuchárke · <a onclick="novyRecept()" style="cursor:pointer;color:var(--accent);text-decoration:underline">+ Nový recept</a></p>
+      <datalist id="jedn-dl"><option value="g"></option><option value="ml"></option><option value="ks"></option><option value="ČL"></option><option value="PL"></option><option value="strúčik"></option><option value="štipka"></option><option value="hrsť"></option><option value="plátok"></option></datalist>
       <div class="controls">
         <input id="hladaj" type="search" placeholder="Hľadať recept alebo surovinu…">
         <select class="f" id="f-kuchyna"><option value="">Všetky kuchyne</option></select>
         <select class="f" id="f-cas"><option value="">Ľubovoľný čas</option><option value="20">do 20 min</option><option value="35">do 35 min</option><option value="60">do 60 min</option></select>
         <select class="f" id="f-diet"><option value="">Bez obmedzenia</option><option value="veg">Vegetariánske</option><option value="lepok">Bez lepku</option><option value="mlieko">Bez laktózy</option><option value="fav">Len obľúbené</option></select>
+        <select class="f" id="f-sort"><option value="">Zoradiť: predvolené</option><option value="nazov">Názov A–Z</option><option value="cas">Najrýchlejšie</option><option value="kcal">Najmenej kcal</option><option value="kcald">Najviac kcal</option><option value="hodn">Najlepšie hodnotené</option></select>
       </div>
       <div class="chips" id="chips"></div>
       <div class="grid" id="grid"></div>
@@ -282,7 +293,9 @@
         <button class="btn primary" onclick="generujJedalnicek(false)">✨ Zostaviť jedálniček</button>
         <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-plan')">⋯ Viac</button>
           <div class="menu" id="m-plan">
+            <a onclick="otvorGenConfig();zavriMenu()">⚙️ Nastavenie generovania</a>
             <a onclick="generujJedalnicek(true);zavriMenu()">🎲 Zamiešať</a>
+            <a onclick="skopirujMinuly();zavriMenu()">📋 Skopíruj minulý týždeň</a>
             <a onclick="otvorNacitat();zavriMenu()">📥 Načítať uložený jedálniček</a>
             <a onclick="ulozPlanArchiv();zavriMenu()">💾 Uložiť tento plán</a>
             <a onclick="vymazPlan();zavriMenu()">🗑 Vyprázdniť týždeň</a>
@@ -305,7 +318,12 @@
       <h2 class="h">Nákupný zoznam</h2>
       <p class="sub">Z receptov v pláne, zoradené podľa oddelení v obchode.</p>
       <div class="plan-head">
-        <input class="f" id="doma-nakup" style="flex:1;min-width:200px" placeholder="Mám doma (odráta sa)…" oninput="renderNakup()">
+        <input class="f" id="nakup-manual" style="flex:1;min-width:200px" placeholder="Pridať vlastnú položku (napr. toaletný papier)…" onkeydown="if(event.key==='Enter')pridajNakupPolozku()">
+        <button class="btn" onclick="pridajNakupPolozku()">+ Pridať</button>
+      </div>
+      <div class="plan-head">
+        <input class="f" id="doma-nakup" style="flex:1;min-width:160px" placeholder="Mám doma (odráta sa)…" oninput="renderNakup()">
+        <button class="btn" onclick="zdielajNakup()">📤 Zdieľať</button>
         <button class="btn" onclick="kopirujListonic()">📋 Kopírovať</button>
         <button class="btn" onclick="tlacView('nakup')">🖨 Tlačiť</button>
       </div>
@@ -317,26 +335,21 @@
       <p class="sub">Priemer na deň z aktuálneho plánu oproti cieľu.</p>
       <div class="tiles" id="vyziva-tiles"></div>
       <div class="panel"><h3>Kalórie po dňoch</h3><div class="chart" id="vyziva-chart"></div>
-        <p class="info" id="vyziva-ciel" style="margin-top:10px"></p></div>
-      <div class="panel"><h3>Makrá za týždeň (spolu)</h3><div id="vyziva-makro"></div></div>
-    </div>
-
-    <div class="view" id="v-doma">
-      <h2 class="h">Čo mám doma</h2>
-      <p class="sub">Napíš suroviny a nájdem, čo z nich uvaríš.</p>
-      <textarea class="doma-in" id="doma-in" placeholder="napr. vajcia, syr, paprika, cestoviny"></textarea>
-      <div class="btn-row"><button class="btn primary" onclick="renderDoma()">Nájdi recepty</button><button class="btn" onclick="domaZoSpajze()">🧊 Načítať zo špajze</button></div>
-      <div id="doma-out" style="margin-top:16px"></div>
+        <p class="info" id="vyziva-ciel" style="margin-top:10px"></p>
+        <div id="vyziva-den" style="margin-top:12px"></div></div>
+      <div class="panel"><h3>Makrá — priemer dňa vs cieľ</h3><div id="vyziva-makro"></div></div>
+      <div class="panel" id="vyziva-stravnici-panel"><h3>Ciele stravníkov</h3><div id="vyziva-stravnici"></div></div>
     </div>
 
     <div class="view" id="v-spajza">
-      <h2 class="h">Špajza a mraznička</h2>
+      <h2 class="h">Špajza a čo z nej uvarím</h2>
       <p class="sub">Zásoby s miestom, dátumom spotreby a minimom. Pod minimum → do nákupu.</p>
+      <datalist id="potraviny-dl"></datalist>
       <div class="panel"><h3>Pridať zásobu</h3>
         <div class="controls">
-          <input id="sp-nazov" placeholder="Surovina (napr. Ryža)" style="flex:1;min-width:160px;padding:10px;border:1px solid var(--line);border-radius:9px">
+          <input id="sp-nazov" list="potraviny-dl" placeholder="Surovina (vyber zo zoznamu)" oninput="aktualizujJednotky()" style="flex:1;min-width:160px;padding:10px;border:1px solid var(--line);border-radius:9px">
           <input id="sp-mn" type="number" placeholder="množstvo" style="width:110px;padding:10px;border:1px solid var(--line);border-radius:9px">
-          <select class="f" id="sp-jed"><option>g</option><option>kg</option><option>ks</option><option>ml</option><option>l</option><option>balenie</option></select>
+          <select class="f" id="sp-jed"></select>
           <select class="f" id="sp-miesto"><option>Špajza</option><option>Chladnička</option><option>Mraznička</option></select>
           <input id="sp-exp" type="date" style="padding:9px;border:1px solid var(--line);border-radius:9px">
           <input id="sp-min" type="number" placeholder="min" title="minimálne množstvo" style="width:80px;padding:10px;border:1px solid var(--line);border-radius:9px">
@@ -344,6 +357,14 @@
         </div>
       </div>
       <div id="spajza-list"></div>
+      <div class="panel"><h3>🍳 Čo z toho uvarím?</h3>
+        <div class="btn-row"><button class="btn primary" onclick="uvarZoSpajze()">Nájdi recepty zo špajze</button></div>
+        <details style="margin-top:10px"><summary style="cursor:pointer;color:var(--muted)">+ pridať suroviny ručne</summary>
+          <textarea class="doma-in" id="doma-in" placeholder="napr. vajcia, syr, paprika, cestoviny" style="margin-top:8px"></textarea>
+          <div class="btn-row"><button class="btn" onclick="renderDoma()">Nájdi recepty</button></div>
+        </details>
+        <div id="doma-out" style="margin-top:16px"></div>
+      </div>
     </div>
 
     <div class="view" id="v-nastavenia">
@@ -355,6 +376,7 @@
         <div class="field"><label>Cieľ bielkovín na deň (g, 0 = vypnuté)</label><input type="number" id="p-biel" value="0"></div>
         <div class="field"><label>Tento týždeň v akcii (čiarkou — ovplyvní návrhy)</label><input type="text" id="p-akcie" placeholder="napr. kuracie, losos, paprika"></div>
         <div class="field"><label>Sledované suroviny (uprednostní recepty, čiarkou)</label><input type="text" id="p-watch" placeholder="napr. losos, cuketa"></div>
+        <div class="field"><label>Zakázané suroviny (skryje recepty, čiarkou)</label><input type="text" id="p-zakazane" placeholder="napr. huby, koriander"></div>
         <div class="field"><label>Cieľ</label><select class="f" id="p-cieltyp"><option value="chudnutie">Chudnutie</option><option value="udrzanie">Udržanie</option><option value="priberanie">Priberanie</option></select></div>
         <label class="switch"><input type="checkbox" id="p-ryby"> Bez rýb</label>
         <label class="switch"><input type="checkbox" id="p-lepok"> Bez lepku</label>
@@ -373,8 +395,10 @@
         <div class="field"><label>Vek</label><input type="number" id="t-vek" value="35"></div>
         <div class="field"><label>Výška (cm)</label><input type="number" id="t-vyska" value="178"></div>
         <div class="field"><label>Váha (kg)</label><input type="number" id="t-vaha" value="80"></div>
-        <div class="field"><label>Aktivita</label><select class="f" id="t-akt"><option value="1.2">sedavá</option><option value="1.375">ľahká (1-3x/týž)</option><option value="1.55" selected>stredná (3-5x/týž)</option><option value="1.725">vysoká (6-7x/týž)</option></select></div>
-        <div class="btn-row"><button class="btn" onclick="vypocitajCiel()">Vypočítať a predvyplniť cieľ</button></div>
+        <div class="field"><label>Aktivita</label><select class="f" id="t-akt"><option value="1.2">sedavá (bez cvičenia)</option><option value="1.375">ľahká (1-3x/týž)</option><option value="1.465">mierna (3x/týž)</option><option value="1.55" selected>stredná (3-5x/týž)</option><option value="1.725">vysoká (6-7x/týž)</option><option value="1.9">veľmi vysoká (2x denne / fyzická práca)</option></select></div>
+        <div class="field"><label>Pre koho</label><select class="f" id="t-koho"></select></div>
+        <p class="info">Zohľadní „Cieľ" vyššie (chudnutie −15 % / udržanie / priberanie +10 %) a zapíše kcal vybranému stravníkovi.</p>
+        <div class="btn-row"><button class="btn" onclick="vypocitajCiel()">Vypočítať a uložiť</button></div>
         <p class="info" id="tdee-ok"></p>
       </div>
       <div class="panel"><h3>Váha a adaptívny cieľ</h3>
@@ -387,9 +411,16 @@
         <p class="info">Obľúbené, hodnotenia, plán a nastavenia sú uložené v tomto prehliadači. Zálohuj si ich do súboru, nech o ne neprídeš.</p>
         <div class="btn-row"><button class="btn" onclick="zalohuj()">⬇ Zálohovať do súboru</button><button class="btn" onclick="document.getElementById('obnov-file').click()">⬆ Obnoviť zo súboru</button></div>
         <input type="file" id="obnov-file" accept="application/json" style="display:none" onchange="obnov(this.files[0])">
+        <div class="btn-row" style="margin-top:14px;border-top:1px solid var(--line);padding-top:14px"><button class="btn" style="color:var(--warn);border-color:var(--warn)" onclick="resetApp()">🗑 Vymazať všetko a začať odznova</button></div>
+      </div>
+      <div class="panel"><h3>Synchronizácia (voliteľné)</h3>
+        <p class="info">Ak zdieľaš appku s viacerými ľuďmi cez jeden Supabase, každý nech má vlastné Sync ID (rôzni ľudia = rôzne ID). Rovnaké ID = zdieľané dáta medzi tvojimi zariadeniami.</p>
+        <label class="switch"><input type="checkbox" id="p-syncoff" onchange="S.profil.syncOff=this.checked;save()"> Vypnúť synchronizáciu na tomto zariadení</label>
+        <div class="field"><label>Sync ID</label><input type="text" id="p-syncid" placeholder="napr. lukas-domacnost" onchange="S.profil.syncId=this.value;save()"></div>
       </div>
       <div class="panel"><h3>Appka na mobile</h3>
-        <p class="info">Otvor tento súbor v mobilnom prehliadači a daj „Pridať na plochu" — kuchárka sa bude tváriť ako appka. Obľúbené, plán a nastavenia sa ukladajú v danom zariadení.</p></div>
+        <p class="info">Otvor tento súbor v mobilnom prehliadači a daj „Pridať na plochu" — kuchárka sa bude tváriť ako appka. Obľúbené, plán a nastavenia sa ukladajú v danom zariadení.</p>
+        <p class="info" id="verzia-info" style="margin-top:8px"></p></div>
     </div>
 
   </div></div>

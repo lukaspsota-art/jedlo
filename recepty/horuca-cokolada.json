@@ -1,0 +1,49 @@
+{
+  "id": "horuca-cokolada",
+  "nazov": "Domáca horúca čokoláda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "10 min",
+  "popis": "Krémová horúca čokoláda z pravej čokolády a mlieka, na zohriatie v chladných dňoch.",
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 400,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čokoláda",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": "horká, nasekaná"
+    },
+    {
+      "nazov": "Kakao",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mlieko zohrej v hrnci, nesmie zovrieť.",
+    "Pridaj nasekanú čokoládu a kakao, rozmiešaj do hladka.",
+    "Dochuť cukrom podľa chuti.",
+    "Podávaj horúce, prípadne so šľahačkou."
+  ],
+  "tipy": "Vyskúšaj so štipkou škorice alebo čili pre zaujímavú variáciu.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "čokoláda",
+    "zimné"
+  ]
+}

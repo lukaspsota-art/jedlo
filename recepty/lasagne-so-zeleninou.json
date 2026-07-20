@@ -1,0 +1,80 @@
+{
+  "id": "lasagne-so-zeleninou",
+  "nazov": "Zapekané lasagne so zeleninou",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "vlastný recept",
+  "porcie": 6,
+  "cas": "70 min",
+  "popis": "Vegetariánske zapekané lasagne s cuketou, baklažánom a syrovou omáčkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Lasagne cestoviny",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Baklažán",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mozzarella",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cuketu a baklažán nakrájaj na plátky a opeč na olivovom oleji.",
+    "Z paradajok a pretlačeného cesnaku priprav rýchlu omáčku.",
+    "V zapekacej miske striedaj vrstvy plátkov lasagní, zeleniny, paradajkovej omáčky a smotany.",
+    "Navrch daj strúhanú mozzarellu.",
+    "Peč pri 190 °C asi 35-40 minút do zlatista."
+  ],
+  "tipy": "Nechaj pred krájaním 10 minút odstáť, lepšie sa krája.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "zapekané",
+    "vegetariánske"
+  ]
+}

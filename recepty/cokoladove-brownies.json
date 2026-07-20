@@ -1,0 +1,62 @@
+{
+  "id": "cokoladove-brownies",
+  "nazov": "Čokoládové brownies",
+  "kategoria": "Dezert",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 9,
+  "cas": "45 min",
+  "popis": "Vláčne čokoládové brownies s intenzívnou čokoládovou chuťou.",
+  "ingrediencie": [
+    {
+      "nazov": "Čokoláda",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 180,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kakao",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Čokoládu a maslo rozpusti spolu vo vodnom kúpeli.",
+    "Vmiešaj cukor a vajcia.",
+    "Pridaj preosiatu múku a kakao, jemne zamiešaj.",
+    "Nalej do formy vyloženej papierom na pečenie.",
+    "Peč pri 175 °C asi 25 minút — stred zostane mierne vlhký."
+  ],
+  "tipy": "Brownies nechaj úplne vychladnúť pred krájaním, lepšie sa krájajú.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "čokoláda",
+    "americké"
+  ]
+}

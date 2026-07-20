@@ -1,0 +1,54 @@
+{
+  "id": "kokosovo-limetkovy-napoj",
+  "nazov": "Kokosovo-limetkový nápoj",
+  "kategoria": "Nápoj",
+  "kuchyna": "Karibská",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "5 min",
+  "popis": "Osviežujúci tropický nápoj z kokosového mlieka a limetky.",
+  "ingrediencie": [
+    {
+      "nazov": "Kokosové mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zmiešaj kokosové mlieko, limetkovú šťavu a med.",
+    "Dolej vodou podľa chuti na hustotu.",
+    "Podávaj s ľadom."
+  ],
+  "tipy": "Skvelý osviežujúci letný nápoj bez alkoholu.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "kokos",
+    "letné"
+  ]
+}

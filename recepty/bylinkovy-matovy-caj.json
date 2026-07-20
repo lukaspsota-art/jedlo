@@ -1,0 +1,43 @@
+{
+  "id": "bylinkovy-matovy-caj",
+  "nazov": "Bylinkový mätový čaj",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "10 min",
+  "popis": "Upokojujúci horúci nápoj z čerstvej mäty.",
+  "ingrediencie": [
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": "čerstvá"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vodu priveď k varu.",
+    "Zaleji mätu horúcou vodou a nechaj lúhovať 5 minút.",
+    "Precedi, dosladiť medom.",
+    "Podávaj horúce."
+  ],
+  "tipy": "Skvelý čaj na trávenie po jedle.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "čaj",
+    "bylinky"
+  ]
+}

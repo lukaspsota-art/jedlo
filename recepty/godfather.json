@@ -1,0 +1,43 @@
+{
+  "id": "godfather",
+  "nazov": "Godfather",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Jednoduchý silný kokteil z whiskey a amaretta.",
+  "ingrediencie": [
+    {
+      "nazov": "Whiskey",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 25,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Prilej whiskey a amaretto.",
+    "Jemne premiešaj.",
+    "Podávaj ihneď."
+  ],
+  "tipy": "Amaretto dodáva whiskey príjemnú mandľovú sladkosť.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "whiskey",
+    "americké"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "cestoviny-s-brokolicou-a-cesnakom",
+  "nazov": "Cestoviny s brokolicou a cesnakom",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "vlastný recept",
+  "porcie": 3,
+  "cas": "20 min",
+  "popis": "Jednoduché a rýchle cestoviny s brokolicou, cesnakom a chilli.",
+  "ingrediencie": [
+    {
+      "nazov": "Penne",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Brokolica",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 40,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chilli vločky",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cestoviny uvar podľa návodu, do posledných 3 minút pridaj brokolicu rozobranú na ružičky.",
+    "Na olivovom oleji opraž plátky cesnaku a chilli vločky.",
+    "Scedené cestoviny s brokolicou zamiešaj do panvice.",
+    "Posyp parmezánom a dochuť soľou."
+  ],
+  "tipy": "Časť vody z varenia cestovín pridaj do panvice pre krémovejšiu textúru.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "vegetariánske",
+    "rýchle"
+  ]
+}

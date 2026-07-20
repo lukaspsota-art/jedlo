@@ -1,0 +1,55 @@
+{
+  "id": "zemiakovo-uhorkovy-salat",
+  "nazov": "Zemiakovo-uhorkový šalát",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "popis": "Jednoduchý studený šalát zo zemiakov a čerstvej uhorky.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jogurt",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kôpor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zemiaky uvar do mäkka, ošúp a nakrájaj na kocky.",
+    "Uhorku nakrájaj na kocky.",
+    "Premiešaj so zemiakmi, jogurtom a nasekaným kôprom.",
+    "Dochuť soľou a podávaj chladené."
+  ],
+  "tipy": "Ľahká letná príloha alebo samostatný obed.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "zemiaky",
+    "uhorka"
+  ]
+}

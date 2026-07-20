@@ -1,0 +1,44 @@
+{
+  "id": "ovocne-zele",
+  "nazov": "Ovocné želé",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "15 min (+ chladenie)",
+  "popis": "Jednoduchý ľahký dezert z ovocnej šťavy a želatíny.",
+  "ingrediencie": [
+    {
+      "nazov": "Pomarančový džús",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Želatín",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Želatínu rozpusti podľa návodu na obale v troške teplej šťavy.",
+    "Zmiešaj so zvyšnou šťavou.",
+    "Jahody nakrájaj na kúsky a rozdeľ do pohárov.",
+    "Zalej ovocnou zmesou.",
+    "Daj do chladničky aspoň 3 hodiny stuhnúť."
+  ],
+  "tipy": "Ľahký nízkokalorický dezert, skvelý v lete.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "želé",
+    "ľahké"
+  ]
+}

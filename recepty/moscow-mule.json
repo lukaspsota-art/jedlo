@@ -1,0 +1,55 @@
+{
+  "id": "moscow-mule",
+  "nazov": "Moscow Mule",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Osviežujúci kokteil z vodky, limetky a zázvoru.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": "nastrúhaný"
+    },
+    {
+      "nazov": "Perlivá voda",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Prilej vodku a limetkovú šťavu.",
+    "Pridaj nastrúhaný zázvor.",
+    "Dolej perlivou vodou a jemne premiešaj."
+  ],
+  "tipy": "Tradične sa podáva v medenom hrnčeku.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "vodka",
+    "letné"
+  ]
+}

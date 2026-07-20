@@ -1,0 +1,74 @@
+{
+  "id": "kukuricny-chlieb",
+  "nazov": "Kukuričný chlieb",
+  "kategoria": "Pečivo",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "45 min",
+  "popis": "Rýchly nekysnutý kukuričný chlieb, jemne sladký.",
+  "ingrediencie": [
+    {
+      "nazov": "Kukuričná múka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 40,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zmiešaj obe múky, cukor, prášok do pečiva a soľ.",
+    "V druhej mise rozšľahaj mlieko, vajce a olej.",
+    "Spoj tekutú a suchú zmes.",
+    "Nalej do formy.",
+    "Peč pri 200 °C asi 25 minút do zlatista."
+  ],
+  "tipy": "Skvelý k chilli con carne alebo polievke.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "kukurica",
+    "rýchle"
+  ]
+}

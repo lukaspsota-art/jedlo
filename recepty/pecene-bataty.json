@@ -1,0 +1,49 @@
+{
+  "id": "pecene-bataty",
+  "nazov": "Pečené batáty",
+  "kategoria": "Príloha",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "35 min",
+  "popis": "Jednoduché pečené batátové hranolky s korením.",
+  "ingrediencie": [
+    {
+      "nazov": "Batát",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kmín",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Batáty nakrájaj na hranolky.",
+    "Premiešaj s olivovým olejom, kmínom a soľou.",
+    "Rozlož na plech v jednej vrstve.",
+    "Peč pri 210 °C asi 25-30 minút, v polovici obráť."
+  ],
+  "tipy": "Pre chrumkavejšie hranolky ich pred pečením neprekrývaj na plechu.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "batát",
+    "pečené"
+  ]
+}

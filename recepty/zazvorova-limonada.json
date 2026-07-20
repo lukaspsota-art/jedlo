@@ -1,0 +1,55 @@
+{
+  "id": "zazvorova-limonada",
+  "nazov": "Zázvorová limonáda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "inšpirované Wikibooks Cookbook: Ginger Ale (CC BY-SA)",
+  "porcie": 4,
+  "cas": "15 min",
+  "popis": "Pikantná osviežujúca limonáda so zázvorom a citrónom.",
+  "ingrediencie": [
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": "čerstvý, nastrúhaný"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Nastrúhaný zázvor prevar 5 minút v troške vody, potom sceď.",
+    "Zmiešaj zázvorový nálev s citrónovou šťavou a medom.",
+    "Dolej zvyšnou vodou a nechaj vychladnúť.",
+    "Podávaj s ľadom."
+  ],
+  "tipy": "Pre šumivú verziu dolej namiesto vody perlivú vodu.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "zázvor",
+    "limonáda"
+  ]
+}

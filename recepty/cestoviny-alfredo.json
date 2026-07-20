@@ -1,0 +1,62 @@
+{
+  "id": "cestoviny-alfredo",
+  "nazov": "Cestoviny Alfredo",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "20 min",
+  "popis": "Klasické krémové cestoviny s maslom, smotanou a parmezánom.",
+  "ingrediencie": [
+    {
+      "nazov": "Fettuccine",
+      "mnozstvo": 320,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cestoviny uvar podľa návodu na obale.",
+    "Na masle opraž pretlačený cesnak.",
+    "Prilej smotanu a vmiešaj strúhaný parmezán do zhustnutia.",
+    "Zamiešaj uvarené cestoviny priamo v panvici.",
+    "Dochuť korením a podávaj ihneď."
+  ],
+  "tipy": "Používaj čerstvo strúhaný parmezán, lepšie sa rozpustí.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "talianske",
+    "krémové"
+  ]
+}

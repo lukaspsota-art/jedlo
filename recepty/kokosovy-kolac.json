@@ -1,0 +1,62 @@
+{
+  "id": "kokosovy-kolac",
+  "nazov": "Kokosový koláč",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "55 min",
+  "popis": "Vláčny koláč s výraznou kokosovou chuťou.",
+  "ingrediencie": [
+    {
+      "nazov": "Kokos strúh",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vyšľahaj maslo s cukrom a vajcami.",
+    "Primiešaj múku, prášok do pečiva a kokos.",
+    "Prelej do formy.",
+    "Peč pri 175 °C asi 40 minút.",
+    "Nechaj vychladnúť pred krájaním."
+  ],
+  "tipy": "Skvele chutí aj s citrónovou polevou navrchu.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "kokos",
+    "koláč"
+  ]
+}

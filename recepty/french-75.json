@@ -1,0 +1,55 @@
+{
+  "id": "french-75",
+  "nazov": "French 75",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Elegantný francúzsky kokteil z ginu, citróna a prosecca.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 8,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prosecco",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do shakera daj gin, citrónovú šťavu, cukor a ľad.",
+    "Pretrep a precedi do vysokého pohára.",
+    "Dolej vychladeným proseccom.",
+    "Jemne premiešaj a podávaj."
+  ],
+  "tipy": "Meno dostal podľa francúzskeho delostreleckého kanónu.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "gin",
+    "francúzske"
+  ]
+}

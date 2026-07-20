@@ -1,0 +1,49 @@
+{
+  "id": "matcha-latte",
+  "nazov": "Matcha latte",
+  "kategoria": "Nápoj",
+  "kuchyna": "Japonská",
+  "zdroj": "vlastný recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krémový japonský nápoj z matcha čaju a spením mlieka.",
+  "ingrediencie": [
+    {
+      "nazov": "Matcha",
+      "mnozstvo": 2,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "horúca"
+    }
+  ],
+  "postup": [
+    "Matchu rozmiešaj v horúcej vode dohladka (bez hrudiek).",
+    "Mlieko zohrej a pomocou napeňovača spen.",
+    "Zmiešaj matchu s mliekom.",
+    "Prisladiť medom podľa chuti."
+  ],
+  "tipy": "Matchu vždy rozmiešavaj najprv v malom množstve vody, inak budú hrudky.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "matcha",
+    "japonské"
+  ]
+}

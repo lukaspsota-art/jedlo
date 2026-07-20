@@ -1,0 +1,55 @@
+{
+  "id": "ovsene-susienky-slane",
+  "nazov": "Ovsené sušienky slané so syrom",
+  "kategoria": "Pečivo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 6,
+  "cas": "30 min",
+  "popis": "Chrumkavé slané ovsené sušienky so syrom, skvelé k vínu alebo polievke.",
+  "ingrediencie": [
+    {
+      "nazov": "Ovsené vločky",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": "strúhaný"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ovsené vločky rozmixuj najemno.",
+    "Zmiešaj s múkou, zmäknutým maslom a syrom do cesta.",
+    "Vytvaruj malé placky.",
+    "Peč pri 180 °C asi 15 minút do zlatista."
+  ],
+  "tipy": "Vydržia v uzavretej dóze aj týždeň.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "slané",
+    "syr"
+  ]
+}

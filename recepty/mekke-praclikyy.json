@@ -1,0 +1,62 @@
+{
+  "id": "mekke-praclikyy",
+  "nazov": "Mäkké praclíky",
+  "kategoria": "Pečivo",
+  "kuchyna": "Nemecká",
+  "zdroj": "klasický recept",
+  "porcie": 8,
+  "cas": "90 min",
+  "popis": "Klasické mäkké praclíky s tmavou kôrkou a hrubozrnnou soľou.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 7,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": "na povarenie"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vlažnej vody, droždia, masla a soli vypracuj cesto. Nechaj kysnúť 1 hodinu.",
+    "Rozdeľ na 8 dielov a vytvaruj tradičný tvar praclíka.",
+    "Krátko povar (20 sekúnd) vo vode s rozpustenou sódou — dodá typickú tmavú kôrku.",
+    "Ulož na plech, posyp hrubozrnnou soľou.",
+    "Peč pri 220 °C asi 15 minút do tmavohneda."
+  ],
+  "tipy": "Sódový kúpeľ je kľúčový pre typickú chuť a farbu praclíka.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "nemecké",
+    "slané"
+  ]
+}

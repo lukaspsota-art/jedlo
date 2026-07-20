@@ -1,0 +1,43 @@
+{
+  "id": "vodka-martini",
+  "nazov": "Vodka Martini",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Elegantný klasický kokteil z vodky a vermutu.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Víno",
+      "mnozstvo": 10,
+      "jednotka": "ml",
+      "poznamka": "suchý vermút"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do miešacieho pohára daj vodku, vermút a ľad.",
+    "Poriadne premiešaj (nie pretrepávaj).",
+    "Precedi do vychladeného pohára.",
+    "Ozdob olivou alebo citrónovou kôrou."
+  ],
+  "tipy": "Pomer vodky a vermutu si uprav podľa vlastnej chuti.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "vodka",
+    "klasické"
+  ]
+}

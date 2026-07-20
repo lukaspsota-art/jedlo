@@ -1,0 +1,68 @@
+{
+  "id": "cestoviny-s-cuketou-a-citronom",
+  "nazov": "Cestoviny s cuketou a citrónom",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "vlastný recept",
+  "porcie": 3,
+  "cas": "20 min",
+  "popis": "Ľahké letné cestoviny s cuketou, citrónom a parmezánom.",
+  "ingrediencie": [
+    {
+      "nazov": "Špagety",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava a kôra"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cestoviny uvar podľa návodu na obale.",
+    "Cuketu nastrúhaj na hrubo alebo nakrájaj na tenké prúžky.",
+    "Na olivovom oleji opraž cesnak a cuketu do mäkka.",
+    "Zamiešaj cestoviny, citrónovú šťavu a kôru.",
+    "Posyp parmezánom a podávaj."
+  ],
+  "tipy": "Ľahké letné jedlo, skvelé aj vlažné.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "cuketa",
+    "letné"
+  ]
+}

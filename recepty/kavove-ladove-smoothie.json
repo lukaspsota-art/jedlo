@@ -1,0 +1,48 @@
+{
+  "id": "kavove-ladove-smoothie",
+  "nazov": "Kávové ľadové smoothie (frappé)",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Osviežujúce ľadové kávové smoothie, domáca verzia frappé.",
+  "ingrediencie": [
+    {
+      "nazov": "Espresso",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "vychladené"
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Espresso, mlieko, cukor a ľad vlož do mixéra.",
+    "Rozmixuj dohladka a speneno.",
+    "Podávaj ihneď v pohári."
+  ],
+  "tipy": "Pre vegánsku verziu použi ovsené mlieko.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "káva",
+    "letné"
+  ]
+}

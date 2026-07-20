@@ -1,0 +1,42 @@
+{
+  "id": "kefirovy-napoj-s-ovocim",
+  "nazov": "Kefírový nápoj s ovocím",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "5 min",
+  "popis": "Osviežujúci probiotický nápoj z kefíru a čerstvého ovocia.",
+  "ingrediencie": [
+    {
+      "nazov": "Kefír",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny vlož do mixéra.",
+    "Rozmixuj dohladka.",
+    "Podávaj vychladené."
+  ],
+  "tipy": "Skvelý probiotický nápoj na raňajky.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "kefír",
+    "zdravé"
+  ]
+}

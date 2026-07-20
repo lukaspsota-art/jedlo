@@ -1,0 +1,61 @@
+{
+  "id": "salat-s-cottage-a-zeleninou",
+  "nazov": "Šalát s cottage syrom a zeleninou",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "10 min",
+  "popis": "Ľahký proteínový šalát s cottage syrom, ideálny na rýchly obed.",
+  "ingrediencie": [
+    {
+      "nazov": "Cottage",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zeleninu nakrájaj na kocky.",
+    "Premiešaj s cottage syrom.",
+    "Pokvapkaj olivovým olejom.",
+    "Dochuť soľou a podávaj."
+  ],
+  "tipy": "Skvelý vysokobielkovinový obed do práce.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "cottage",
+    "ľahké"
+  ]
+}

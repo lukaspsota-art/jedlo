@@ -1,0 +1,56 @@
+{
+  "id": "salat-z-peceneho-zemiaku-so-slaninou",
+  "nazov": "Šalát z pečeného zemiaku so slaninou",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "40 min",
+  "popis": "Teplý-studený šalát z pečených zemiakov a chrumkavej slaniny.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jogurt",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zemiaky nakrájaj na kocky, premiešaj s olejom a soľou, peč pri 200 °C 25 minút.",
+    "Slaninu opeč do chrumkava.",
+    "Cibuľu nakrájaj nadrobno.",
+    "Všetko premiešaj s jogurtom.",
+    "Podávaj teplé alebo vychladené."
+  ],
+  "tipy": "Skvelá sýta príloha alebo samostatný obed.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "zemiaky",
+    "slanina"
+  ]
+}

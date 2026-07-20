@@ -1,0 +1,56 @@
+{
+  "id": "pita-chlieb",
+  "nazov": "Pita chlieb",
+  "kategoria": "Pečivo",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "vlastný recept",
+  "porcie": 6,
+  "cas": "90 min",
+  "popis": "Mäkké placky pita chleba s vreckom vo vnútri, ideálne na plnenie.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 240,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vlažnej vody, droždia, oleja a soli vypracuj hladké cesto.",
+    "Nechaj kysnúť 1 hodinu.",
+    "Rozdeľ na 6 dielov, rozváľaj na tenké placky.",
+    "Peč na dobre rozohriatej panvici alebo v rúre pri 250 °C 3-4 minúty, kým sa nenafúknu.",
+    "Nechaj vychladnúť pod utierkou, aby zostali mäkké."
+  ],
+  "tipy": "Vhodné na plnenie falafelom alebo grilovanou zeleninou.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "blízkovýchodné",
+    "placky"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "tekvicovy-chlieb",
+  "nazov": "Tekvicový chlieb",
+  "kategoria": "Pečivo",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "65 min",
+  "popis": "Jemne sladký vláčny chlebík s hokkaido tekvicou a korením.",
+  "ingrediencie": [
+    {
+      "nazov": "Hokkaido",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": "varená a rozmačkaná"
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Tekvicu uvar do mäkka a rozmačkaj na pyré.",
+    "Vyšľahaj vajcia s cukrom a olejom, vmiešaj tekvicové pyré.",
+    "Primiešaj múku, škoricu a prášok do pečiva.",
+    "Prelej do formy.",
+    "Peč pri 175 °C asi 45-50 minút."
+  ],
+  "tipy": "Skvelý jesenný chlebík, ktorý voní po celom dome.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "tekvica",
+    "jesenné"
+  ]
+}

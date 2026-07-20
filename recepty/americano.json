@@ -1,0 +1,55 @@
+{
+  "id": "americano",
+  "nazov": "Americano",
+  "kategoria": "Kokteil",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ľahký taliansky aperitív z Campari, vermutu a sódy.",
+  "ingrediencie": [
+    {
+      "nazov": "Campari",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Víno",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "červený vermút"
+    },
+    {
+      "nazov": "Perlivá voda",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "na plátok"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Prilej Campari a vermút.",
+    "Dolej perlivou vodou.",
+    "Ozdob plátkom pomaranča."
+  ],
+  "tipy": "Predchodca Negroni, no o niečo ľahší vďaka sóde namiesto ginu.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "campari",
+    "talianske"
+  ]
+}

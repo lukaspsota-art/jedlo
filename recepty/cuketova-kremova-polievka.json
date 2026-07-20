@@ -1,0 +1,61 @@
+{
+  "id": "cuketova-kremova-polievka",
+  "nazov": "Cuketová krémová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Ľahká letná krémová polievka z cukety.",
+  "ingrediencie": [
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 600,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 80,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji opraž cibuľu.",
+    "Pridaj nakrájanú cuketu a vývar.",
+    "Var 15 minút do mäkka.",
+    "Rozmixuj dohladka, vmiešaj smotanu a dochuť soľou."
+  ],
+  "tipy": "Skvelá aj studená v horúcich letných dňoch.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "cuketa",
+    "letné"
+  ]
+}

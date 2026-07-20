@@ -1,0 +1,44 @@
+{
+  "id": "kokosove-makronky",
+  "nazov": "Kokosové makrónky",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "klasický recept",
+  "porcie": 8,
+  "cas": "30 min",
+  "popis": "Jednoduché pečené kokosové makrónky z bielkov a strúhaného kokosu.",
+  "ingrediencie": [
+    {
+      "nazov": "Bielka",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokos strúh",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Bielka vyšľahaj s cukrom do tuha.",
+    "Jemne vmiešaj strúhaný kokos.",
+    "Tvaruj malé kôpky na plech vyložený papierom na pečenie.",
+    "Peč pri 160 °C asi 18-20 minút do zlatista.",
+    "Nechaj vychladnúť pred podávaním."
+  ],
+  "tipy": "Makrónky by mali zvonku chrumkať a vo vnútri zostať mäkké.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "kokos",
+    "bez múky"
+  ]
+}

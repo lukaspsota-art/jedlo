@@ -1,0 +1,63 @@
+{
+  "id": "zapekane-makarony-so-syrom",
+  "nazov": "Zapekané makaróny so syrom (mac and cheese)",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 5,
+  "cas": "40 min",
+  "popis": "Klasické americké zapekané makaróny v krémovej syrovej omáčke.",
+  "ingrediencie": [
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 350,
+      "jednotka": "g",
+      "poznamka": "makaróny"
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 400,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": "strúhaný"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cestoviny uvar podľa návodu na obale.",
+    "Na masle opraž múku, postupne prilievaj mlieko za stáleho miešania do zhustnutia.",
+    "Vmiešaj strúhaný syr do rozpustenia.",
+    "Zmiešaj s uvarenými cestovinami, presuň do zapekacej misy.",
+    "Peč pri 190 °C asi 15 minút do zlatista."
+  ],
+  "tipy": "Pre chrumkavý vrch posyp strúhankou pred pečením.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "americké",
+    "syr",
+    "zapekané"
+  ]
+}

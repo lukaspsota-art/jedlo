@@ -1,0 +1,56 @@
+{
+  "id": "domaca-granola",
+  "nazov": "Domáca granola",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 6,
+  "cas": "40 min",
+  "popis": "Chrumkavá pečená granola s orechmi a medom, skvelá s jogurtom alebo mliekom.",
+  "ingrediencie": [
+    {
+      "nazov": "Ovsené vločky",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mandle",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 40,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zmiešaj ovsené vločky, nasekané mandle a škoricu.",
+    "Pridaj rozohriaty med a olej, dôkladne premiešaj.",
+    "Rozlož na plech v tenkej vrstve.",
+    "Peč pri 160 °C asi 25 minút, priebežne premiešaj, kým nie je zlatistá.",
+    "Nechaj úplne vychladnúť — vtedy skrehne."
+  ],
+  "tipy": "Vydrží v uzavretej dóze aj 2 týždne.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "granola",
+    "meal-prep"
+  ]
+}

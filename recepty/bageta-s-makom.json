@@ -1,0 +1,56 @@
+{
+  "id": "bageta-s-makom",
+  "nazov": "Bageta s makom",
+  "kategoria": "Pečivo",
+  "kuchyna": "Francúzska",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "120 min",
+  "popis": "Variácia domácej bagety posypaná makom.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 280,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mak",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vlažnej vody, droždia a soli vypracuj vlhké cesto.",
+    "Nechaj kysnúť 1,5 hodiny.",
+    "Vytvaruj bagety, potri vodou a posyp makom.",
+    "Narež zárezy, nechaj 20 minút kysnúť.",
+    "Peč pri 230 °C asi 20-25 minút do zlatista."
+  ],
+  "tipy": "Mak dodáva klasickej bagete peknú textúru.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "francúzske",
+    "mak"
+  ]
+}

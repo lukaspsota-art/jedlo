@@ -1,0 +1,49 @@
+{
+  "id": "bryndzova-natierka",
+  "nazov": "Bryndzová nátierka",
+  "kategoria": "Nátierka",
+  "kuchyna": "Slovenská",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "10 min",
+  "popis": "Tradičná slovenská nátierka z bryndze a masla.",
+  "ingrediencie": [
+    {
+      "nazov": "Bryndza",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pažítka",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zmäknuté maslo vymiešaj s bryndzou do hladka.",
+    "Vmiešaj nasekanú pažítku.",
+    "Dochuť čerstvo mletým korením.",
+    "Podávaj na chlebe alebo pečive."
+  ],
+  "tipy": "Skvele sa hodí aj na varené zemiaky.",
+  "foto": "",
+  "tagy": [
+    "nátierka",
+    "bryndza",
+    "slovenské"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "matovy-mojito",
+  "nazov": "Mätový mojito",
+  "kategoria": "Kokteil",
+  "kuchyna": "Kubánska",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Klasický kubánsky kokteil z rumu, mäty, limetky a sódy.",
+  "ingrediencie": [
+    {
+      "nazov": "Rum",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": "biely"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 8,
+      "jednotka": "g",
+      "poznamka": "čerstvá"
+    },
+    {
+      "nazov": "Limeta bio",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava a kúsky"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Perlivá voda",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mätu a cukor jemne pomni v pohári, aby mäta pustila arómu.",
+    "Pridaj limetkovú šťavu a kúsky limetky.",
+    "Naplň pohár ľadom, prilej rum.",
+    "Dolej perlivou vodou a jemne premiešaj."
+  ],
+  "tipy": "Mätu nepretláčaj priveľmi silno, inak bude nápoj horký.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "rum",
+    "mäta",
+    "letné"
+  ]
+}

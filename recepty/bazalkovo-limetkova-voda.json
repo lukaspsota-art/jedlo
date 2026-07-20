@@ -1,0 +1,43 @@
+{
+  "id": "bazalkovo-limetkova-voda",
+  "nazov": "Bazalkovo-limetková voda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "5 min (+ chladenie)",
+  "popis": "Netradičná ochutená voda s bazalkou a limetkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Bazalka",
+      "mnozstvo": 8,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "na plátky"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1500,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Bazalku jemne pomni.",
+    "Limetku nakrájaj na plátky.",
+    "Vlož do džbánu a zalej vodou.",
+    "Nechaj v chladničke aspoň 1 hodinu."
+  ],
+  "tipy": "Bazalka dodáva vode nezvyčajnú, no príjemnú sviežosť.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "bazalka",
+    "letné"
+  ]
+}

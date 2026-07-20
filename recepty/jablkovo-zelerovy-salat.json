@@ -1,0 +1,55 @@
+{
+  "id": "jablkovo-zelerovy-salat",
+  "nazov": "Jablkovo-zelerový šalát",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "15 min",
+  "popis": "Osviežujúci chrumkavý šalát z jablka a zeleru.",
+  "ingrediencie": [
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zeler",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Jogurt",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Jablko a zeler nakrájaj na tenké prúžky alebo nastrúhaj.",
+    "Pokvapkaj citrónovou šťavou, aby jablko nezhnedlo.",
+    "Premiešaj s jogurtom.",
+    "Dochuť soľou a podávaj chladené."
+  ],
+  "tipy": "Skvelá ľahká príloha alebo samostatný rýchly obed.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "jablko",
+    "zeler"
+  ]
+}

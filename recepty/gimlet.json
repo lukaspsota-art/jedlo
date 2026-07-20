@@ -1,0 +1,49 @@
+{
+  "id": "gimlet",
+  "nazov": "Gimlet",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Klasický jednoduchý kokteil z ginu a limetkovej šťavy.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do shakera daj gin, limetkovú šťavu, cukor a ľad.",
+    "Poriadne pretrep.",
+    "Precedi do vychladeného pohára.",
+    "Podávaj ihneď."
+  ],
+  "tipy": "Pôvodne vznikol ako spôsob, ako námorníkom dodať vitamín C.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "gin",
+    "britské"
+  ]
+}

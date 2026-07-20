@@ -1,0 +1,43 @@
+{
+  "id": "grecky-jogurt-s-medom-a-orechmi",
+  "nazov": "Grécky jogurt s medom a orechmi",
+  "kategoria": "Snack",
+  "kuchyna": "Grécka",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Najjednoduchší grécky snack — jogurt s medom a orechmi.",
+  "ingrediencie": [
+    {
+      "nazov": "Grécky jogurt",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Jogurt daj do misky.",
+    "Polej medom.",
+    "Posyp nasekanými orechmi.",
+    "Podávaj ihneď."
+  ],
+  "tipy": "Tradičný grécky dezert/snack — jednoduchý, no vždy chutný.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "jogurt",
+    "grécke"
+  ]
+}

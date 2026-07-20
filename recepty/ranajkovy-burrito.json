@@ -1,0 +1,62 @@
+{
+  "id": "ranajkovy-burrito",
+  "nazov": "Raňajkový burrito",
+  "kategoria": "Raňajky",
+  "kuchyna": "Mexická",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "20 min",
+  "popis": "Sýty raňajkový burrito s vajcami, slaninou a syrom.",
+  "ingrediencie": [
+    {
+      "nazov": "Tortilla",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Eidam",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Slaninu opeč do chrumkava.",
+    "Vajcia rozšľahaj a umiešaj na tej istej panvici.",
+    "Papriku nakrájaj na kocky a krátko opraž.",
+    "Tortillu naplň vajcami, slaninou, syrom a paprikou.",
+    "Zaroluj a podávaj teplé."
+  ],
+  "tipy": "Skvelý sýty raňajkový chod pred náročným dňom.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "mexické",
+    "sýte"
+  ]
+}

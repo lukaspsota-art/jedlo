@@ -1,0 +1,55 @@
+{
+  "id": "dusena-ryza-so-zeleninou",
+  "nazov": "Dusená ryža so zeleninou",
+  "kategoria": "Príloha",
+  "kuchyna": "Ázijská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Jednoduchá dusená ryža s hráškom a mrkvou.",
+  "ingrediencie": [
+    {
+      "nazov": "Ryža",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrach",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": "mrazený"
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ryžu uvar podľa návodu na obale.",
+    "Mrkvu nakrájaj na drobné kocky a orestuj na oleji.",
+    "Pridaj hrášok a krátko dus.",
+    "Zamiešaj s uvarenou ryžou a osoľ."
+  ],
+  "tipy": "Skvelá príloha k ázijským hlavným jedlám.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "ryža",
+    "zelenina"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "borsc",
+  "nazov": "Boršč",
+  "kategoria": "Polievka",
+  "kuchyna": "Ukrajinská",
+  "zdroj": "klasický recept",
+  "porcie": 5,
+  "cas": "70 min",
+  "popis": "Tradičná východoeurópska polievka z cvikly s hovädzím mäsom.",
+  "ingrediencie": [
+    {
+      "nazov": "Hovädzie",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená repa",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 800,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mäso var vo vývare do mäkka, asi 40 minút.",
+    "Repu a mrkvu nastrúhaj, cibuľu a zemiaky nakrájaj na kocky.",
+    "Zeleninu pridaj do vývaru spolu s paradajkami.",
+    "Var ďalších 20 minút do mäkka zeleniny.",
+    "Dochuť soľou, podávaj so smotanou."
+  ],
+  "tipy": "Tradične sa podáva s lyžicou kyslej smotany.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "cvikla",
+    "ukrajinské"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "domace-tortilly",
+  "nazov": "Domáce tortilly",
+  "kategoria": "Pečivo",
+  "kuchyna": "Mexická",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "40 min",
+  "popis": "Jednoduché mäkké pšeničné tortilly bez kysnutia.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 40,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vlažnej vody, oleja a soli vypracuj hladké cesto.",
+    "Nechaj 20 minút odpočívať.",
+    "Rozdeľ na 8 dielov a rozváľaj na tenké placky.",
+    "Peč na suchej rozohriatej panvici asi 1 minútu z každej strany.",
+    "Skladuj zabalené v utierke, aby zostali mäkké."
+  ],
+  "tipy": "Skvelé na fajitas, wrapy alebo k mexickým jedlám.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "mexické",
+    "placky"
+  ]
+}

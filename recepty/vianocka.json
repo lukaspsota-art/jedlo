@@ -1,0 +1,74 @@
+{
+  "id": "vianocka",
+  "nazov": "Vianočka",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "klasický recept",
+  "porcie": 10,
+  "cas": "150 min",
+  "popis": "Tradičné slovenské vianočné pletené pečivo s hrozienkami a mandľami.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 7,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrozienka",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mandle",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vlažného mlieka, masla, cukru, vajec a droždia vypracuj cesto, vmiešaj hrozienka.",
+    "Nechaj kysnúť 1,5 hodiny.",
+    "Rozdeľ na pramene a upleť vianočku.",
+    "Potri rozšľahaným vajcom, posyp mandľami.",
+    "Peč pri 170 °C asi 40 minút do zlatista."
+  ],
+  "tipy": "Vianočka chutí najlepšie čerstvá, v deň pečenia.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "slovenské",
+    "sviatočné"
+  ]
+}

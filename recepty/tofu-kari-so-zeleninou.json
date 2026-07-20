@@ -1,0 +1,75 @@
+{
+  "id": "tofu-kari-so-zeleninou",
+  "nazov": "Tofu kari so zeleninou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Ázijská",
+  "zdroj": "vlastný recept",
+  "porcie": 3,
+  "cas": "30 min",
+  "popis": "Vegetariánske kari s tofu, kokosovým mliekom a farebnou zeleninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Tofu",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokosové mlieko",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kari pasta",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Tofu nakrájaj na kocky a opeč na oleji dozlata.",
+    "V hrnci opraž nadrobno pokrájanú cibuľu, pridaj kari pastu.",
+    "Prilej kokosové mlieko a nakrájanú zeleninu, dus 15 minút.",
+    "Pridaj opečené tofu a prehrej.",
+    "Dochuť soľou, podávaj s ryžou."
+  ],
+  "tipy": "Pre pikantnejšiu verziu pridaj čerstvé chilli.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "vegetariánske",
+    "tofu",
+    "ázijské"
+  ]
+}

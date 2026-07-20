@@ -1,0 +1,61 @@
+{
+  "id": "jablcna-limonada-so-skoricou",
+  "nazov": "Jablčná limonáda so škoricou",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "10 min",
+  "popis": "Studená jablčná limonáda s nádychom škorice.",
+  "ingrediencie": [
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Jablká odšťavi alebo rozmixuj a precedi.",
+    "Zmiešaj jablkovú šťavu s citrónovou šťavou, škoricou a medom.",
+    "Dolej vodou.",
+    "Podávaj s ľadom."
+  ],
+  "tipy": "Skvelá jesenná alternatíva ku klasickej limonáde.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "jablko",
+    "limonáda"
+  ]
+}

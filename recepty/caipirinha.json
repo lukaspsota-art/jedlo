@@ -1,0 +1,49 @@
+{
+  "id": "caipirinha",
+  "nazov": "Caipirinha",
+  "kategoria": "Kokteil",
+  "kuchyna": "Brazílska",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Národný brazílsky kokteil z rumu, limetky a cukru.",
+  "ingrediencie": [
+    {
+      "nazov": "Rum",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "alebo cachaça"
+    },
+    {
+      "nazov": "Limeta bio",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "na kúsky"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Limetku nakrájaj na kúsky a vlož do pohára.",
+    "Pridaj cukor a rozmačkaj drevenou paličkou, aby pustila šťavu.",
+    "Naplň pohár drveným ľadom.",
+    "Prilej rum a premiešaj."
+  ],
+  "tipy": "Tradične sa pripravuje z brazílskej cachaça.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "rum",
+    "brazílske"
+  ]
+}

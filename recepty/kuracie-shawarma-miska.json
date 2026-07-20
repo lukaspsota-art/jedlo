@@ -1,0 +1,81 @@
+{
+  "id": "kuracie-shawarma-miska",
+  "nazov": "Kuracia shawarma miska",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "35 min",
+  "popis": "Blízkovýchodná miska s marinovaným kuracím mäsom, ryžou a zeleninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Kuracie stehná",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jogurt",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kurkuma",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kmín",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ryža",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mäso namarinuj v jogurte, kurkume, kmíne, pretlačenom cesnaku a soli aspoň 30 minút.",
+    "Opeč na panvici alebo grile do zlata.",
+    "Ryžu uvar podľa návodu na obale.",
+    "Zeleninu nakrájaj na kocky.",
+    "Naservíruj mäso na ryži spolu s čerstvou zeleninou."
+  ],
+  "tipy": "Skvelá aj s jogurtovo-cesnakovou omáčkou navrch.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kura",
+    "blízkovýchodné",
+    "meal-prep"
+  ]
+}

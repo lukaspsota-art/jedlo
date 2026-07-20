@@ -1,0 +1,50 @@
+{
+  "id": "domaca-citronova-limonada",
+  "nazov": "Domáca citrónová limonáda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "inšpirované Wikibooks Cookbook: Lemonade (CC BY-SA)",
+  "porcie": 4,
+  "cas": "10 min",
+  "popis": "Osviežujúca domáca limonáda z čerstvých citrónov.",
+  "ingrediencie": [
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vytlač šťavu zo 4 citrónov.",
+    "Rozmiešaj cukor v troške teplej vody, kým sa nerozpustí.",
+    "Zmiešaj citrónovú šťavu, cukrový sirup a zvyšnú vodu.",
+    "Podávaj s ľadom."
+  ],
+  "tipy": "Sladkosť si uprav podľa chuti — menej cukru pre osviežujúcejšiu verziu.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "limonáda",
+    "citrón",
+    "letné"
+  ]
+}

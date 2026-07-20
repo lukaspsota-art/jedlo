@@ -1,0 +1,68 @@
+{
+  "id": "kuracie-po-provensalsky",
+  "nazov": "Kuracie po provensálsky",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Francúzska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "50 min",
+  "popis": "Kuracie stehná dusené s olivami, paradajkami a bylinkami Provence.",
+  "ingrediencie": [
+    {
+      "nazov": "Kuracie stehná",
+      "mnozstvo": 700,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zelené olivy",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tymian",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 25,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na olivovom oleji opeč kuracie stehná dozlata.",
+    "Pridaj pretlačený cesnak, krátko opraž.",
+    "Vmiešaj paradajky, olivy a tymian.",
+    "Dus pod pokrievkou 30 minút do mäkka.",
+    "Dochuť soľou, podávaj s pečivom."
+  ],
+  "tipy": "Klasická domáca kuchyňa južného Francúzska.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kura",
+    "francúzske"
+  ]
+}

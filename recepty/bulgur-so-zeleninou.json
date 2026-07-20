@@ -1,0 +1,55 @@
+{
+  "id": "bulgur-so-zeleninou",
+  "nazov": "Bulgur so zeleninou",
+  "kategoria": "Príloha",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Rýchla príloha z bulguru s paprikou a cibuľou.",
+  "ingrediencie": [
+    {
+      "nazov": "Bulgur",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji opraž nadrobno pokrájanú cibuľu a papriku.",
+    "Pridaj bulgur a krátko opraž spolu.",
+    "Zalej vodou podľa návodu na obale a dus do mäkka.",
+    "Dochuť soľou."
+  ],
+  "tipy": "Skvelá príloha ku grilovanému mäsu alebo falafelu.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "bulgur",
+    "blízkovýchodné"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "gulasova-polievka",
+  "nazov": "Gulášová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "klasický recept",
+  "porcie": 5,
+  "cas": "75 min",
+  "popis": "Sýta slovenská guľášová polievka s hovädzím mäsom.",
+  "ingrediencie": [
+    {
+      "nazov": "Hovädzie",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 900,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 25,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji dusi cibuľu dozlata.",
+    "Pridaj mäso nakrájané na kocky, opeč.",
+    "Vmiešaj papriku, podlej vývarom.",
+    "Var 50 minút, potom pridaj zemiaky.",
+    "Var ešte 15 minút do mäkka, dochuť soľou."
+  ],
+  "tipy": "Podávaj s kúskom chleba alebo pečivom.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "hovädzie",
+    "slovenské"
+  ]
+}

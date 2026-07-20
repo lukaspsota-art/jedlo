@@ -1,0 +1,69 @@
+{
+  "id": "gazpacho",
+  "nazov": "Gazpacho",
+  "kategoria": "Polievka",
+  "kuchyna": "Španielska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "15 min (+ chladenie)",
+  "popis": "Studená španielska polievka z paradajok a čerstvej zeleniny.",
+  "ingrediencie": [
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablčný ocot",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Všetku zeleninu nakrájaj na kúsky.",
+    "Rozmixuj spolu s cesnakom, olivovým olejom a octom dohladka.",
+    "Precedi pre hladšiu textúru (voliteľné).",
+    "Nechaj v chladničke aspoň 2 hodiny vychladnúť.",
+    "Podávaj studené."
+  ],
+  "tipy": "Chuť sa ešte zlepší, keď polievka odstojí cez noc.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "studená",
+    "španielske",
+    "letné"
+  ]
+}

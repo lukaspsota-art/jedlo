@@ -1,0 +1,49 @@
+{
+  "id": "slane-pecene-hrasky",
+  "nazov": "Slané pečené hrášky",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "popis": "Chrumkavý pečený hrášok korenený, zdravá alternatíva ku chipsom.",
+  "ingrediencie": [
+    {
+      "nazov": "Hrach",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": "mrazený, rozmrazený a osušený"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kmín",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Hrášok dôkladne osuš papierovou utierkou.",
+    "Premiešaj s olivovým olejom, kmínom a soľou.",
+    "Rozlož na plech v jednej vrstve.",
+    "Peč pri 200 °C asi 20-25 minút do chrumkava, priebežne premiešaj."
+  ],
+  "tipy": "Chrumkavosť sa ešte zvýši po vychladnutí.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "hrášok",
+    "chrumkavé"
+  ]
+}

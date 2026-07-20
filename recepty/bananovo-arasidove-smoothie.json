@@ -1,0 +1,48 @@
+{
+  "id": "bananovo-arasidove-smoothie",
+  "nazov": "Banánovo-arašidové smoothie",
+  "kategoria": "Nápoj",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "5 min",
+  "popis": "Sýte smoothie z banánu, arašidového masla a mlieka.",
+  "ingrediencie": [
+    {
+      "nazov": "Banán",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Arašidové maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny vlož do mixéra.",
+    "Rozmixuj dohladka.",
+    "Podávaj ihneď, vychladené."
+  ],
+  "tipy": "Skvelý nápoj po tréningu.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "smoothie",
+    "sýte"
+  ]
+}

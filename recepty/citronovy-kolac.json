@@ -1,0 +1,62 @@
+{
+  "id": "citronovy-kolac",
+  "nazov": "Citrónový koláč",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "55 min",
+  "popis": "Osviežujúci vláčny koláč s výraznou citrónovou chuťou.",
+  "ingrediencie": [
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 180,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vyšľahaj maslo s cukrom a vajcami.",
+    "Pridaj citrónovú kôru a šťavu.",
+    "Primiešaj múku a prášok do pečiva.",
+    "Prelej do formy.",
+    "Peč pri 175 °C asi 40 minút."
+  ],
+  "tipy": "Pre extra šťavnatosť polej ešte teplý koláč citrónovým sirupom.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "citrón",
+    "koláč"
+  ]
+}

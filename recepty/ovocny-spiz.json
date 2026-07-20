@@ -1,0 +1,48 @@
+{
+  "id": "ovocny-spiz",
+  "nazov": "Ovocný špíz",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "10 min",
+  "popis": "Farebné ovocné špízy, skvelé na oslavy aj ako rýchly snack.",
+  "ingrediencie": [
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrozno",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": "na kocky"
+    },
+    {
+      "nazov": "Banán",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ovocie nakrájaj na kúsky vhodnej veľkosti.",
+    "Napichaj striedavo na špajle.",
+    "Podávaj vychladené."
+  ],
+  "tipy": "Skvelé aj namočené do rozpustenej čokolády.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "ovocie",
+    "párty"
+  ]
+}

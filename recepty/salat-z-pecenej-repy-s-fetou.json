@@ -1,0 +1,55 @@
+{
+  "id": "salat-z-pecenej-repy-s-fetou",
+  "nazov": "Šalát z pečenej repy s fetou",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "50 min",
+  "popis": "Teplý-studený šalát z pečenej repy, fety a vlašských orechov.",
+  "ingrediencie": [
+    {
+      "nazov": "Červená repa",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Feta",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Repu ošúp, nakrájaj na kocky a premiešaj s olivovým olejom a soľou.",
+    "Peč pri 200 °C asi 35-40 minút do mäkka.",
+    "Nechaj mierne vychladnúť.",
+    "Premiešaj s pokrájanou fetou a orechmi."
+  ],
+  "tipy": "Skvele sa hodí aj s hrsťou rukoly.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "repa",
+    "feta"
+  ]
+}

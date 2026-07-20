@@ -1,0 +1,56 @@
+{
+  "id": "zapekane-zemiaky-so-syrom",
+  "nazov": "Zapekané zemiaky so syrom (gratin)",
+  "kategoria": "Príloha",
+  "kuchyna": "Francúzska",
+  "zdroj": "klasický recept",
+  "porcie": 6,
+  "cas": "60 min",
+  "popis": "Klasický francúzsky zemiakový gratin so smotanou a syrom.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": "strúhaný"
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zemiaky nakrájaj na tenké plátky.",
+    "Poukladaj do vrstiev do zapekacej misy, medzi vrstvy pridaj pretlačený cesnak a soľ.",
+    "Zalej smotanou.",
+    "Navrch posyp syrom.",
+    "Peč pri 180 °C asi 45 minút do zlatista a mäkka zemiakov."
+  ],
+  "tipy": "Zemiaky krájaj čo najtenšie, rýchlejšie sa prepečú.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "zemiaky",
+    "francúzske"
+  ]
+}

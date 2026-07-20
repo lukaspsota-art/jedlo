@@ -1,0 +1,56 @@
+{
+  "id": "bulgur-s-pecenou-zeleninou",
+  "nazov": "Bulgur s pečenou zeleninou",
+  "kategoria": "Príloha",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "40 min",
+  "popis": "Sýta príloha z bulguru s pestrofarebnou pečenou zeleninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Bulgur",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 25,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zeleninu nakrájaj na kocky, premiešaj s olejom a soľou.",
+    "Peč pri 200 °C asi 20 minút.",
+    "Bulgur priprav podľa návodu na obale.",
+    "Premiešaj bulgur s pečenou zeleninou.",
+    "Dochuť soľou a podávaj."
+  ],
+  "tipy": "Skvelá sýta príloha aj ako samostatné vegetariánske jedlo.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "bulgur",
+    "zelenina"
+  ]
+}

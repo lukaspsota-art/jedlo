@@ -1,0 +1,49 @@
+{
+  "id": "ladova-kava-s-karamelom",
+  "nazov": "Ľadová káva s karamelom",
+  "kategoria": "Nápoj",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 1,
+  "cas": "10 min",
+  "popis": "Sladká ľadová káva s karamelovým sirupom.",
+  "ingrediencie": [
+    {
+      "nazov": "Espresso",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "vychladené"
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cukor rozpusti na miernom ohni s troškou vody na jednoduchý karamel.",
+    "Pohár naplň ľadom, pridaj karamel.",
+    "Prilej mlieko.",
+    "Navrch nalej espresso, jemne premiešaj."
+  ],
+  "tipy": "Domáca alternatíva ku kupovanej karamelovej ľadovej káve.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "káva",
+    "letné"
+  ]
+}

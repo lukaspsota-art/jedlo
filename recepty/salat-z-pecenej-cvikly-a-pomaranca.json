@@ -1,0 +1,55 @@
+{
+  "id": "salat-z-pecenej-cvikly-a-pomaranca",
+  "nazov": "Šalát z pečenej cvikly a pomaranča",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "45 min",
+  "popis": "Elegantný šalát kombinujúci sladkosť pečenej cvikly a citrusov.",
+  "ingrediencie": [
+    {
+      "nazov": "Červená repa",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rukola",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 25,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Repu nakrájaj na kliny, premiešaj s olejom a soľou, peč pri 200 °C 30 minút.",
+    "Pomaranč olúp a nakrájaj na plátky.",
+    "Rukolu poukladaj na tanier, pridaj repu a pomaranč.",
+    "Pokvapkaj olivovým olejom a podávaj."
+  ],
+  "tipy": "Farebná kombinácia, ktorá poteší aj oko.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "cvikla",
+    "pomaranč"
+  ]
+}

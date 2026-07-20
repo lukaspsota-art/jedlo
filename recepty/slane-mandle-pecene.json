@@ -1,0 +1,43 @@
+{
+  "id": "slane-mandle-pecene",
+  "nazov": "Slané pečené mandle",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 6,
+  "cas": "20 min",
+  "popis": "Jednoducho upečené mandle s morskou soľou, skvelý snack na cesty.",
+  "ingrediencie": [
+    {
+      "nazov": "Mandle",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 10,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mandle premiešaj s olivovým olejom a soľou.",
+    "Rozlož na plech v jednej vrstve.",
+    "Peč pri 160 °C asi 12-15 minút, priebežne premiešaj.",
+    "Nechaj vychladnúť pred podávaním."
+  ],
+  "tipy": "Skladuj v uzavretej dóze, vydržia aj 2 týždne.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "mandle",
+    "zdravé"
+  ]
+}

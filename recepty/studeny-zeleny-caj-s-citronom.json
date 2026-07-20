@@ -1,0 +1,55 @@
+{
+  "id": "studeny-zeleny-caj-s-citronom",
+  "nazov": "Studený zelený čaj s citrónom",
+  "kategoria": "Nápoj",
+  "kuchyna": "Ázijská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "15 min (+ chladenie)",
+  "popis": "Osviežujúci studený zelený čaj s citrónom.",
+  "ingrediencie": [
+    {
+      "nazov": "Čierny čaj",
+      "mnozstvo": 8,
+      "jednotka": "g",
+      "poznamka": "zelený čaj"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zelený čaj zaleji vodou zohriatou tesne pod bod varu, lúhuj 3 minúty.",
+    "Precedi, dosladiť medom.",
+    "Vmiešaj citrónovú šťavu.",
+    "Nechaj vychladnúť, podávaj s ľadom."
+  ],
+  "tipy": "Príliš horúca voda robí zelený čaj horkým, dávaj pozor na teplotu.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "čaj",
+    "letné"
+  ]
+}

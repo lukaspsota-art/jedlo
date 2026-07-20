@@ -1,0 +1,62 @@
+{
+  "id": "tvarohove-rezy",
+  "nazov": "Tvarohové rezy",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "klasický recept",
+  "porcie": 9,
+  "cas": "60 min",
+  "popis": "Klasické pečené tvarohové rezy na plechu.",
+  "ingrediencie": [
+    {
+      "nazov": "Tvaroh",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vyšľahaj maslo s cukrom a žĺtkami.",
+    "Vmiešaj tvaroh, múku a prášok do pečiva.",
+    "Bielky vyšľahaj do tuha a jemne vmiešaj do cesta.",
+    "Prelej na plech.",
+    "Peč pri 175 °C asi 35-40 minút, nechaj vychladnúť a nakrájaj na rezy."
+  ],
+  "tipy": "Skvelé aj s posypom práškového cukru navrchu.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "tvaroh",
+    "slovenské"
+  ]
+}

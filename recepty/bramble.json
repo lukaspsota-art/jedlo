@@ -1,0 +1,55 @@
+{
+  "id": "bramble",
+  "nazov": "Bramble",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Moderný britský kokteil z ginu a černicového sirupu.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 8,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Černice",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": "pretlačené"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň drveným ľadom.",
+    "Prilej gin, citrónovú šťavu a cukor, premiešaj.",
+    "Pomaly zalej pretlačenými černicami po stene pohára.",
+    "Podávaj bez miešania pre farebný efekt."
+  ],
+  "tipy": "Vznikol v Londýne v 80. rokoch 20. storočia.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "gin",
+    "britské"
+  ]
+}

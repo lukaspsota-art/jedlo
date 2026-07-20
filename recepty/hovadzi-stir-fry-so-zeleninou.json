@@ -1,0 +1,75 @@
+{
+  "id": "hovadzi-stir-fry-so-zeleninou",
+  "nazov": "Hovädzí stir-fry so zeleninou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Ázijská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Rýchlo opečené hovädzie prúžky so zeleninou vo woku.",
+  "ingrediencie": [
+    {
+      "nazov": "Hovädzie",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": "na prúžky"
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Brokolica",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sójová omáčka",
+      "mnozstvo": 40,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mäso nakrájaj na tenké prúžky a rýchlo opeč na rozohriatom oleji.",
+    "Mäso vyber, na tom istom oleji opeč zeleninu do chrumkava.",
+    "Pridaj cesnak a zázvor, krátko opraž.",
+    "Vráť mäso späť a zalej sójovou omáčkou.",
+    "Podávaj s ryžou."
+  ],
+  "tipy": "Mäso krájaj proti vláknam pre jemnejšiu textúru.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "ázijské",
+    "rýchle"
+  ]
+}

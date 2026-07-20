@@ -1,0 +1,49 @@
+{
+  "id": "vajickovo-avokadova-natierka",
+  "nazov": "Vajíčkovo-avokádová nátierka",
+  "kategoria": "Nátierka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "15 min",
+  "popis": "Krémová nátierka kombinujúca vajcia a avokádo.",
+  "ingrediencie": [
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Avokádo",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vajcia uvar natvrdo, ošúp a nasekaj.",
+    "Avokádo rozmačkaj vidličkou.",
+    "Zmiešaj vajcia s avokádom a citrónovou šťavou.",
+    "Dochuť soľou a podávaj."
+  ],
+  "tipy": "Zdravšia alternatíva klasickej vajíčkovej nátierky s majonézou.",
+  "foto": "",
+  "tagy": [
+    "nátierka",
+    "vajcia",
+    "avokádo"
+  ]
+}

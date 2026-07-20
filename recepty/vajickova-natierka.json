@@ -1,0 +1,49 @@
+{
+  "id": "vajickova-natierka",
+  "nazov": "Vajíčková nátierka",
+  "kategoria": "Nátierka",
+  "kuchyna": "Slovenská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "15 min",
+  "popis": "Klasická slovenská vajíčková nátierka s pažítkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 6,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majonéza",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pažítka",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vajcia uvar natvrdo, ošúp a nasekaj nadrobno.",
+    "Zmiešaj s majonézou a nasekanou pažítkou.",
+    "Dochuť soľou.",
+    "Podávaj na chlebe alebo pečive."
+  ],
+  "tipy": "Skús pridať aj lyžičku horčice pre výraznejšiu chuť.",
+  "foto": "",
+  "tagy": [
+    "nátierka",
+    "vajcia",
+    "slovenské"
+  ]
+}

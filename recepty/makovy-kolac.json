@@ -1,0 +1,68 @@
+{
+  "id": "makovy-kolac",
+  "nazov": "Makový koláč",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "klasický recept",
+  "porcie": 8,
+  "cas": "55 min",
+  "popis": "Tradičný vláčny koláč s mletým makom.",
+  "ingrediencie": [
+    {
+      "nazov": "Mletý mak",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mak zaparíme v horúcom mlieku a necháme vychladnúť.",
+    "Vyšľahaj maslo s cukrom a vajcami.",
+    "Primiešaj múku, prášok do pečiva a vychladnutý mak.",
+    "Prelej do formy.",
+    "Peč pri 175 °C asi 40 minút."
+  ],
+  "tipy": "Skvele chutí aj s trochou citrónovej kôry v ceste.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "mak",
+    "slovenské"
+  ]
+}

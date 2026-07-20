@@ -1,0 +1,61 @@
+{
+  "id": "salat-z-hnedej-ryze-so-zeleninou",
+  "nazov": "Šalát z hnedej ryže so zeleninou",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "35 min",
+  "popis": "Sýty studený šalát z hnedej ryže a čerstvej zeleniny.",
+  "ingrediencie": [
+    {
+      "nazov": "Hnedá ryža",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 25,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Hnedú ryžu uvar podľa návodu na obale a nechaj vychladnúť.",
+    "Zeleninu nakrájaj na kocky.",
+    "Premiešaj ryžu so zeleninou, olivovým olejom a citrónovou šťavou.",
+    "Dochuť soľou a podávaj studené."
+  ],
+  "tipy": "Hnedá ryža dodáva viac vlákniny ako biela.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "ryža",
+    "zdravé"
+  ]
+}

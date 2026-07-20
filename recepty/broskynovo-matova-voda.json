@@ -1,0 +1,43 @@
+{
+  "id": "broskynovo-matova-voda",
+  "nazov": "Broskyňovo-mätová voda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "5 min (+ chladenie)",
+  "popis": "Osviežujúca ochutená voda s broskyňou a mätou.",
+  "ingrediencie": [
+    {
+      "nazov": "Broskyne",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": "na plátky"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 8,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1500,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Broskyne nakrájaj na plátky.",
+    "Vlož do džbánu spolu s mätou.",
+    "Zalej vodou.",
+    "Nechaj v chladničke aspoň 1 hodinu."
+  ],
+  "tipy": "Skvelá alternatíva k sladeným nápojom v lete.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "broskyňa",
+    "bez cukru"
+  ]
+}

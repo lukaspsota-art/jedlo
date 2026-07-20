@@ -1,0 +1,73 @@
+{
+  "id": "grecky-salat-s-fetou",
+  "nazov": "Grécky šalát s fetou",
+  "kategoria": "Šalát",
+  "kuchyna": "Grécka",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "15 min",
+  "popis": "Klasický grécky šalát so syrom feta, olivami a čerstvou zeleninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Feta",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zelené olivy",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená cibuľa",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Oregano",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Paradajky a uhorku nakrájaj na kocky, cibuľu na tenké kolieska.",
+    "Feta nakrájaj na kocky alebo väčšie plátky.",
+    "Všetko poukladaj na tanier, pridaj olivy.",
+    "Polej olivovým olejom, posyp oreganom a soľou."
+  ],
+  "tipy": "Fetu podávaj v celku navrchu, tradične sa nemieša so zvyškom.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "grécke",
+    "feta"
+  ]
+}

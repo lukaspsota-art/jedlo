@@ -1,0 +1,43 @@
+{
+  "id": "malinova-voda",
+  "nazov": "Malinová ochutená voda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "5 min (+ chladenie)",
+  "popis": "Jednoduchá ochutená voda s malinami, bez cukru.",
+  "ingrediencie": [
+    {
+      "nazov": "Maliny",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Maliny jemne rozmačkaj.",
+    "Vlož do džbánu spolu s mätou.",
+    "Zalej vodou.",
+    "Nechaj v chladničke aspoň 1 hodinu."
+  ],
+  "tipy": "Skvelá alternatíva k sladeným nápojom.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "bez cukru",
+    "letné"
+  ]
+}

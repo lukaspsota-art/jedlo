@@ -1,0 +1,62 @@
+{
+  "id": "rybacia-polievka",
+  "nazov": "Rybacia polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "35 min",
+  "popis": "Jemná polievka z bielej ryby so zeleninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Zubáča",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 700,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji opraž cibuľu a mrkvu.",
+    "Zalej vývarom, pridaj nakrájané zemiaky a var do mäkka.",
+    "Rybu nakrájaj na kúsky a pridaj do polievky.",
+    "Var ešte 8-10 minút, kým ryba nie je hotová.",
+    "Dochuť soľou."
+  ],
+  "tipy": "Rybu pridávaj až nakoniec, aby sa neprevarila.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "ryba",
+    "ľahká"
+  ]
+}

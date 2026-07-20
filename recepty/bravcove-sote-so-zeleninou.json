@@ -1,0 +1,62 @@
+{
+  "id": "bravcove-sote-so-zeleninou",
+  "nazov": "Bravčové soté so zeleninou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "popis": "Rýchlo opečené bravčové prúžky s farebnou zeleninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčová panenka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": "na prúžky"
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 25,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mäso nakrájaj na tenké prúžky.",
+    "Na rozohriatom oleji rýchlo opeč mäso, vyber.",
+    "Na tom istom oleji opeč papriku a cibuľu.",
+    "Vráť mäso späť, pridaj pretlačený cesnak.",
+    "Dochuť soľou, podávaj s ryžou."
+  ],
+  "tipy": "Rýchle jedlo pripravené za necelých 30 minút.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "rýchle"
+  ]
+}

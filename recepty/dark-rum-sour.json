@@ -1,0 +1,49 @@
+{
+  "id": "dark-rum-sour",
+  "nazov": "Dark Rum Sour",
+  "kategoria": "Kokteil",
+  "kuchyna": "Karibská",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Sladko-kyslý kokteil z tmavého rumu a citróna.",
+  "ingrediencie": [
+    {
+      "nazov": "Rum",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "tmavý"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 12,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do shakera daj rum, citrónovú šťavu, cukor a ľad.",
+    "Poriadne pretrep.",
+    "Precedi do pohára s ľadom.",
+    "Podávaj ihneď."
+  ],
+  "tipy": "Tmavý rum dodáva výraznejšiu, karamelovejšiu chuť ako biely.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "rum",
+    "karibské"
+  ]
+}

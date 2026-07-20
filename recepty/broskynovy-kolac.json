@@ -1,0 +1,62 @@
+{
+  "id": "broskynovy-kolac",
+  "nazov": "Broskyňový koláč",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "55 min",
+  "popis": "Vláčny letný koláč s čerstvými broskyňami.",
+  "ingrediencie": [
+    {
+      "nazov": "Broskyne",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 130,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Broskyne nakrájaj na plátky.",
+    "Vyšľahaj maslo s cukrom a vajcami.",
+    "Primiešaj múku a prášok do pečiva.",
+    "Prelej cesto do formy, poukladaj plátky broskýň navrch.",
+    "Peč pri 175 °C asi 40-45 minút."
+  ],
+  "tipy": "Skvelý letný koláč, keď sú broskyne v sezóne.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "broskyňa",
+    "letné"
+  ]
+}

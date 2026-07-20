@@ -1,0 +1,62 @@
+{
+  "id": "kaiserky",
+  "nazov": "Kaiserky s makom",
+  "kategoria": "Pečivo",
+  "kuchyna": "Rakúska",
+  "zdroj": "klasický recept",
+  "porcie": 8,
+  "cas": "100 min",
+  "popis": "Tradičné pletené žemle s charakteristickým vzorom a makom.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 7,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mak",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": "na posypanie"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vlažnej vody, droždia, masla a soli vypracuj cesto.",
+    "Nechaj kysnúť 1 hodinu.",
+    "Rozdeľ na 8 dielov, vytvaruj tradičný kaiserkový vzor alebo jednoduché guľôčky.",
+    "Navrch posyp makom, nechaj 15 minút kysnúť.",
+    "Peč pri 220 °C asi 15-18 minút do zlatista."
+  ],
+  "tipy": "Tradičný vzor sa dá nahradiť jednoduchým krížovým zárezom.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "rakúske",
+    "žemle"
+  ]
+}

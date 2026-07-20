@@ -1,0 +1,61 @@
+{
+  "id": "hubova-kremova-polievka",
+  "nazov": "Hubová krémová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "popis": "Krémová polievka zo šampiňónov s trochou smotany.",
+  "ingrediencie": [
+    {
+      "nazov": "Šampióny",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na masle opraž cibuľu a nakrájané huby do mäkka.",
+    "Zalej vývarom a var 15 minút.",
+    "Rozmixuj dohladka.",
+    "Vmiešaj smotanu a dochuť soľou."
+  ],
+  "tipy": "Časť húb si odlož nerozmixovaných pre textúru.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "huby",
+    "krémová"
+  ]
+}

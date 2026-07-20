@@ -1,0 +1,55 @@
+{
+  "id": "salat-z-pecenej-mrkvy-s-fetou",
+  "nazov": "Šalát z pečenej mrkvy s fetou",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "35 min",
+  "popis": "Teplý-studený šalát z pečenej mrkvy s fetou a bylinkami.",
+  "ingrediencie": [
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Feta",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kmín",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mrkvu nakrájaj na pásiky, premiešaj s olivovým olejom, kmínom a soľou.",
+    "Peč pri 200 °C asi 25 minút do mäkka.",
+    "Nechaj mierne vychladnúť.",
+    "Premiešaj s rozdrobenou fetou a podávaj."
+  ],
+  "tipy": "Skvele sa hodí aj s pridanými pečenými orechmi.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "mrkva",
+    "feta"
+  ]
+}

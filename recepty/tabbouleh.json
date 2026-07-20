@@ -1,0 +1,67 @@
+{
+  "id": "tabbouleh",
+  "nazov": "Tabbouleh",
+  "kategoria": "Šalát",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Osviežujúci blízkovýchodný šalát z bulguru s množstvom petržlenovej vňate.",
+  "ingrediencie": [
+    {
+      "nazov": "Bulgur",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Bulgur zalej vriacou vodou a nechaj 15 minút napučať, potom scedi.",
+    "Petržlenovú vňať, paradajky a cibuľu nakrájaj nadrobno.",
+    "Všetko premiešaj s bulgurom.",
+    "Zalej citrónovou šťavou a olivovým olejom, dochuť soľou."
+  ],
+  "tipy": "Čím viac petržlenovej vňate, tým autentickejšia chuť.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "blízkovýchodné",
+    "bulgur"
+  ]
+}

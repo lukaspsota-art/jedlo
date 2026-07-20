@@ -1,0 +1,49 @@
+{
+  "id": "old-fashioned",
+  "nazov": "Old Fashioned",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Klasický jednoduchý whiskey kokteil s cukrom a citrónovou kôrou.",
+  "ingrediencie": [
+    {
+      "nazov": "Whiskey",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 8,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "kôra"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "V pohári rozpusti cukor s troškou vody.",
+    "Pridaj ľad a whiskey.",
+    "Premiešaj.",
+    "Ozdob prúžkom citrónovej kôry."
+  ],
+  "tipy": "Jeden z najstarších zaznamenaných kokteilov na svete.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "whiskey",
+    "americké"
+  ]
+}

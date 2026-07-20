@@ -1,0 +1,56 @@
+{
+  "id": "cestoviny-carbonara",
+  "nazov": "Cestoviny Carbonara",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Klasická rímska carbonara so slaninou, vajcami a parmezánom.",
+  "ingrediencie": [
+    {
+      "nazov": "Celozrnné špagety",
+      "mnozstvo": 320,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cestoviny uvar podľa návodu na obale.",
+    "Slaninu nakrájaj na kocky a opeč do chrumkava.",
+    "Vajcia rozšľahaj so strúhaným parmezánom a korením.",
+    "Horúce cestoviny zmiešaj so slaninou, odstav z ohňa a vmiešaj vaječnú zmes.",
+    "Rýchlo premiešaj, aby vajcia vytvorili krémovú omáčku, nie miešané vajcia."
+  ],
+  "tipy": "Kľúč je pridať vajcia mimo priameho ohňa, aby sa nezrazili.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "talianske",
+    "rýchle"
+  ]
+}

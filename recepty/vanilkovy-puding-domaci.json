@@ -1,0 +1,44 @@
+{
+  "id": "vanilkovy-puding-domaci",
+  "nazov": "Domáci vanilkový puding",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "20 min",
+  "popis": "Klasický jemný domáci vanilkový puding.",
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový puding",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": "práškový"
+    }
+  ],
+  "postup": [
+    "Časť mlieka rozmiešaj s práškovým pudingom do hladka.",
+    "Zvyšné mlieko s cukrom priveď k varu.",
+    "Vlej rozmiešaný puding do vriaceho mlieka za stáleho miešania.",
+    "Var 2 minúty do zhustnutia.",
+    "Rozlej do pohárov a nechaj vychladnúť."
+  ],
+  "tipy": "Povrch prikry fóliou priamo na puding, aby sa netvorila kožka.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "puding",
+    "klasické"
+  ]
+}

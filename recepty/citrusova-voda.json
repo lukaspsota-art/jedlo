@@ -1,0 +1,55 @@
+{
+  "id": "citrusova-voda",
+  "nazov": "Citrusová voda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "5 min (+ chladenie)",
+  "popis": "Jednoduchá ochutená voda s citrusmi a mätou, bez cukru.",
+  "ingrediencie": [
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "na plátky"
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "na plátky"
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "na plátky"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1500,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Citrusy nakrájaj na plátky.",
+    "Vlož do džbánu spolu s mätou.",
+    "Zalej vodou.",
+    "Nechaj v chladničke aspoň 1 hodinu, aby sa chute prepojili."
+  ],
+  "tipy": "Skvelá alternatíva k sladeným nápojom.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "bez cukru",
+    "letné"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mrkvovo-jablkovy-salat",
+  "nazov": "Mrkvovo-jablkový šalát",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "15 min",
+  "popis": "Jednoduchý svieži šalát z mrkvy a jablka.",
+  "ingrediencie": [
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mrkvu a jablká nastrúhaj najemno.",
+    "Premiešaj s citrónovou šťavou, aby jablká nezhnedli.",
+    "Prisladiť medom podľa chuti.",
+    "Podávaj chladené."
+  ],
+  "tipy": "Skvelý ako rýchla príloha alebo desiata.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "mrkva",
+    "jablko",
+    "zdravé"
+  ]
+}

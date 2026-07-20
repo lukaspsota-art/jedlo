@@ -1,0 +1,62 @@
+{
+  "id": "zemiakovo-cesnakova-polievka",
+  "nazov": "Zemiakovo-cesnaková polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "popis": "Hustá polievka zo zemiakov a cesnaku.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 700,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 80,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji opraž cibuľu a cesnak.",
+    "Pridaj nakrájané zemiaky a vývar.",
+    "Var 20 minút do mäkka.",
+    "Rozmixuj dohladka, vmiešaj smotanu.",
+    "Dochuť soľou."
+  ],
+  "tipy": "Sýta hustá polievka na chladné dni.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "zemiaky",
+    "cesnak"
+  ]
+}

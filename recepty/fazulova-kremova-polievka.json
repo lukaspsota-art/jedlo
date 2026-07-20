@@ -1,0 +1,61 @@
+{
+  "id": "fazulova-kremova-polievka",
+  "nazov": "Fazuľová krémová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "popis": "Hladká krémová polievka z bielej fazule.",
+  "ingrediencie": [
+    {
+      "nazov": "Biele fazule",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 600,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na olivovom oleji opraž cibuľu a cesnak.",
+    "Pridaj fazule a vývar, var 15 minút.",
+    "Rozmixuj dohladka.",
+    "Dochuť soľou."
+  ],
+  "tipy": "Skvelý zdroj rastlinných bielkovín.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "fazuľa",
+    "krémová"
+  ]
+}

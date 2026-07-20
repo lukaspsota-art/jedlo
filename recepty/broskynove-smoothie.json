@@ -1,0 +1,48 @@
+{
+  "id": "broskynove-smoothie",
+  "nazov": "Broskyňové smoothie",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "5 min",
+  "popis": "Jemné letné smoothie z broskýň a jogurtu.",
+  "ingrediencie": [
+    {
+      "nazov": "Broskyne",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Grécky jogurt",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Broskyne olúp a nakrájaj na kúsky.",
+    "Všetky suroviny rozmixuj dohladka.",
+    "Podávaj vychladené."
+  ],
+  "tipy": "So zrelými broskyňami netreba pridávať vôbec med.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "smoothie",
+    "letné"
+  ]
+}

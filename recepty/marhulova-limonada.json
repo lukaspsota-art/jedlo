@@ -1,0 +1,55 @@
+{
+  "id": "marhulova-limonada",
+  "nazov": "Marhuľová limonáda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "10 min",
+  "popis": "Letná limonáda s marhuľovou príchuťou.",
+  "ingrediencie": [
+    {
+      "nazov": "Marhule",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Marhule prekroj, vyber kôstky a rozmixuj na pyré.",
+    "Zmiešaj s citrónovou šťavou, cukrom a vodou.",
+    "Precedi pre hladšiu limonádu (voliteľné).",
+    "Podávaj s ľadom."
+  ],
+  "tipy": "So zrelými marhuľami stačí menej cukru.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "marhuľa",
+    "letné"
+  ]
+}

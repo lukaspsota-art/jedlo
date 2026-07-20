@@ -1,0 +1,49 @@
+{
+  "id": "tequila-sunrise",
+  "nazov": "Tequila Sunrise",
+  "kategoria": "Kokteil",
+  "kuchyna": "Mexická",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Farebný kokteil z tequily, pomarančového džúsu a grenadíny.",
+  "ingrediencie": [
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pomarančový džús",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Prilej tequilu a pomarančový džús, premiešaj.",
+    "Pomaly zalej grenadínou po stene pohára, aby klesla ku dnu.",
+    "Podávaj bez miešania — vytvorí farebný efekt východu slnka."
+  ],
+  "tipy": "Grenadína je ťažšia, preto klesá ku dnu a vytvára farebný prechod.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "tequila",
+    "mexické"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "malinove-smoothie",
+  "nazov": "Malinové smoothie",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "5 min",
+  "popis": "Sviežе ovocné smoothie z malín a gréckeho jogurtu.",
+  "ingrediencie": [
+    {
+      "nazov": "Maliny",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": "čerstvé alebo mrazené"
+    },
+    {
+      "nazov": "Grécky jogurt",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny vlož do mixéra.",
+    "Rozmixuj dohladka.",
+    "Podávaj ihneď, vychladené."
+  ],
+  "tipy": "S mrazenými malinami bude smoothie príjemne chladné.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "smoothie",
+    "maliny"
+  ]
+}

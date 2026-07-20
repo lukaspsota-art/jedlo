@@ -1,0 +1,55 @@
+{
+  "id": "salat-z-peceneho-karfiolu-s-hrozienkami",
+  "nazov": "Šalát z pečeného karfiolu s hrozienkami",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "40 min",
+  "popis": "Teplý-studený šalát z pečeného karfiolu s hrozienkami a mandľami.",
+  "ingrediencie": [
+    {
+      "nazov": "Karfiol",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrozienka",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mandle",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Karfiol rozober na ružičky, premiešaj s olivovým olejom a soľou.",
+    "Peč pri 200 °C asi 25 minút do zhnednutia.",
+    "Vmiešaj hrozienka a nasekané mandle.",
+    "Podávaj teplé alebo vychladené."
+  ],
+  "tipy": "Kombinácia sladkých hrozienok a slaného karfiolu prekvapivo funguje.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "karfiol",
+    "zdravé"
+  ]
+}

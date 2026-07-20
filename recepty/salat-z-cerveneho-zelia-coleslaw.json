@@ -1,0 +1,55 @@
+{
+  "id": "salat-z-cerveneho-zelia-coleslaw",
+  "nazov": "Šalát z červeného zelia (coleslaw)",
+  "kategoria": "Šalát",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "15 min",
+  "popis": "Chrumkavý coleslaw šalát z červeného zelia a mrkvy.",
+  "ingrediencie": [
+    {
+      "nazov": "Červené zelie",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majonéza",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablčný ocot",
+      "mnozstvo": 10,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zelie a mrkvu nastrúhaj najemno.",
+    "Zmiešaj majonézu s jablčným octom.",
+    "Premiešaj zeleninu s dresingom.",
+    "Nechaj aspoň 20 minút odstáť v chladničke pred podávaním."
+  ],
+  "tipy": "Skvelá príloha ku grilovanému mäsu.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "zelie",
+    "americké"
+  ]
+}

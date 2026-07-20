@@ -1,0 +1,43 @@
+{
+  "id": "kalimotxo",
+  "nazov": "Kalimotxo",
+  "kategoria": "Kokteil",
+  "kuchyna": "Španielska",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Prekvapivo jednoduchý španielsky kokteil z červeného vína a coly.",
+  "ingrediencie": [
+    {
+      "nazov": "Víno",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": "červené"
+    },
+    {
+      "nazov": "Cola",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Nalej rovnaké množstvo vína a coly.",
+    "Jemne premiešaj.",
+    "Podávaj vychladené."
+  ],
+  "tipy": "Obľúbený letný nápoj v Baskicku, ideálny na horúce dni.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "víno",
+    "španielske"
+  ]
+}

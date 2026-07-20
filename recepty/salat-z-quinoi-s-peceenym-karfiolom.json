@@ -1,0 +1,55 @@
+{
+  "id": "salat-z-quinoi-s-peceenym-karfiolom",
+  "nazov": "Šalát z quinoi s pečeným karfiolom",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "40 min",
+  "popis": "Sýty šalát z quinoi a pečeného karfiolu s citrónovým dresingom.",
+  "ingrediencie": [
+    {
+      "nazov": "Quinoa",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Karfiol",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Karfiol rozober na ružičky, premiešaj s olejom, peč pri 200 °C 25 minút.",
+    "Quinou uvar podľa návodu na obale.",
+    "Premiešaj quinou s pečeným karfiolom.",
+    "Zalej citrónovou šťavou, dochuť soľou."
+  ],
+  "tipy": "Sýty vegetariánsky šalát vhodný ako samostatné jedlo.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "quinoa",
+    "karfiol"
+  ]
+}

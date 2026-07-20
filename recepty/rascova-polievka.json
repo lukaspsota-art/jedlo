@@ -1,0 +1,68 @@
+{
+  "id": "rascova-polievka",
+  "nazov": "Rascová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "popis": "Tradičná slovenská polievka s výraznou chuťou rasce.",
+  "ingrediencie": [
+    {
+      "nazov": "Rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 800,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na masle opraž múku dozlata, pridaj rascu.",
+    "Postupne prilievaj vývar za stáleho miešania.",
+    "Pridaj nakrájané zemiaky a pretlačený cesnak.",
+    "Var 20 minút do mäkka zemiakov.",
+    "Dochuť soľou."
+  ],
+  "tipy": "Jednoduchá rýchla polievka z bežných surovín v špajzi.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "rasca",
+    "slovenské"
+  ]
+}

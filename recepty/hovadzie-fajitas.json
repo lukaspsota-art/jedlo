@@ -1,0 +1,75 @@
+{
+  "id": "hovadzie-fajitas",
+  "nazov": "Hovädzie fajitas",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Mexická",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "popis": "Rýchlo opečené hovädzie prúžky s paprikou a cibuľou, podávané v tortille.",
+  "ingrediencie": [
+    {
+      "nazov": "Hovädzie",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": "na prúžky"
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tortilla",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kmín",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chilli mleté",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mäso, papriku a cibuľu nakrájaj na tenké prúžky.",
+    "Na rozohriatom oleji rýchlo opeč mäso dozlata, vyber ho.",
+    "Na tej istej panvici opeč zeleninu do mäkka.",
+    "Vráť mäso späť, okoreň kmínom, chilli a soľou.",
+    "Podávaj v teplých tortillách."
+  ],
+  "tipy": "Skvele sa hodí aj s guacamole alebo kyslou smotanou.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "mexické",
+    "rýchle"
+  ]
+}

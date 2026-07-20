@@ -1,0 +1,61 @@
+{
+  "id": "kuskusovy-salat-so-zeleninou",
+  "nazov": "Kuskusový šalát so zeleninou",
+  "kategoria": "Šalát",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "20 min",
+  "popis": "Rýchly studený šalát z kuskusu a čerstvej zeleniny.",
+  "ingrediencie": [
+    {
+      "nazov": "Kuskus",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 25,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kuskus zalej vriacou vodou podľa návodu na obale a nechaj napučať.",
+    "Zeleninu nakrájaj na kocky.",
+    "Premiešaj kuskus so zeleninou, olivovým olejom a citrónovou šťavou.",
+    "Dochuť soľou a podávaj."
+  ],
+  "tipy": "Skvele sa hodí aj s pridanou mätou alebo petržlenom.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "kuskus",
+    "blízkovýchodné"
+  ]
+}

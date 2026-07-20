@@ -1,0 +1,62 @@
+{
+  "id": "skoricovy-chlieb",
+  "nazov": "Škoricový chlieb",
+  "kategoria": "Pečivo",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "120 min",
+  "popis": "Jemne sladký kysnutý chlieb so škoricovým vírom vo vnútri.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 450,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 7,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 70,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vlažného mlieka, droždia, cukru a masla vypracuj cesto.",
+    "Nechaj kysnúť 1 hodinu.",
+    "Rozváľaj do obdĺžnika, posyp škoricou a cukrom, zroluj.",
+    "Ulož do formy na chlieb, nechaj 20 minút kysnúť.",
+    "Peč pri 180 °C asi 35-40 minút do zlatista."
+  ],
+  "tipy": "Krájaním sa ukáže krásny škoricový vír.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "škorica",
+    "kysnuté"
+  ]
+}

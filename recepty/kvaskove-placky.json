@@ -1,0 +1,55 @@
+{
+  "id": "kvaskove-placky",
+  "nazov": "Jednoduché kváskové placky",
+  "kategoria": "Pečivo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 6,
+  "cas": "30 min",
+  "popis": "Rýchle placky pečené na panvici, bez potreby rúry.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jogurt",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, jogurtu, oleja, sódy a soli vypracuj mäkké cesto.",
+    "Rozdeľ na 6 dielov a rozváľaj na placky.",
+    "Peč na suchej rozohriatej panvici z oboch strán do zlatista.",
+    "Podávaj teplé."
+  ],
+  "tipy": "Rýchla náhrada chleba, keď nemáš čas na kysnutie.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "rýchle",
+    "placky"
+  ]
+}

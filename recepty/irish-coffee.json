@@ -1,0 +1,49 @@
+{
+  "id": "irish-coffee",
+  "nazov": "Irish Coffee",
+  "kategoria": "Kokteil",
+  "kuchyna": "Írska",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Horúca káva s írskou whiskey a smotanou navrchu.",
+  "ingrediencie": [
+    {
+      "nazov": "Whiskey",
+      "mnozstvo": 40,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Espresso",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": "alebo silná káva"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "vyšľahaná"
+    }
+  ],
+  "postup": [
+    "Do pohára daj whiskey a cukor.",
+    "Zalej horúcou kávou, premiešaj do rozpustenia cukru.",
+    "Navrch opatrne polož vyšľahanú smotanu (nemiešaj).",
+    "Podávaj horúce."
+  ],
+  "tipy": "Smotana by mala plávať navrchu, nie sa premiešať s kávou.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "whiskey",
+    "teplé"
+  ]
+}

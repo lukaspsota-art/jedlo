@@ -1,0 +1,43 @@
+{
+  "id": "vodka-grep-greyhound",
+  "nazov": "Vodka Grep (Greyhound)",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Jednoduchý osviežujúci kokteil z vodky a grepovej šťavy.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Grep",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Prilej vodku.",
+    "Dolej grepovou šťavou.",
+    "Jemne premiešaj a podávaj."
+  ],
+  "tipy": "Okraj pohára sa niekedy obaľuje v soli pre variant Salty Dog.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "vodka",
+    "grep"
+  ]
+}

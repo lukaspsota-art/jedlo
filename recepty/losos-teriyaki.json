@@ -1,0 +1,63 @@
+{
+  "id": "losos-teriyaki",
+  "nazov": "Losos teriyaki",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Ázijská",
+  "zdroj": "vlastný recept",
+  "porcie": 3,
+  "cas": "25 min",
+  "popis": "Pečený losos v sladko-slanej teriyaki glazúre.",
+  "ingrediencie": [
+    {
+      "nazov": "Losos",
+      "mnozstvo": 450,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sójová omáčka",
+      "mnozstvo": 40,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 25,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sezamové semienka",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zmiešaj sójovú omáčku, med, pretlačený cesnak a zázvor na marinádu.",
+    "Lososa marinuj 15 minút.",
+    "Peč pri 200 °C asi 15 minút, priebežne potieraj marinádou.",
+    "Posyp sezamovými semienkami.",
+    "Podávaj s ryžou."
+  ],
+  "tipy": "Zvyšnú marinádu prevar a použi ako omáčku navrch.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "losos",
+    "ázijské",
+    "rýchle"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "jablkovy-kolac",
+  "nazov": "Jablkový koláč",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "klasický recept",
+  "porcie": 8,
+  "cas": "60 min",
+  "popis": "Tradičný vláčny jablkový koláč so škoricou.",
+  "ingrediencie": [
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Jablká ošúp a nakrájaj na kocky.",
+    "Vyšľahaj maslo s cukrom a vajcami.",
+    "Primiešaj múku a prášok do pečiva.",
+    "Vmiešaj jablká a škoricu, prelej do formy.",
+    "Peč pri 180 °C asi 40-45 minút."
+  ],
+  "tipy": "Skús aj s pridanými hrozienkami alebo orechmi.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "jablko",
+    "slovenské"
+  ]
+}

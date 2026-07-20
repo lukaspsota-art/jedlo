@@ -1,0 +1,56 @@
+{
+  "id": "zemiakovy-chlieb",
+  "nazov": "Zemiakový chlieb",
+  "kategoria": "Pečivo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "120 min",
+  "popis": "Vláčny chlieb s pridanými zemiakmi, ktoré mu dodávajú jemnú štruktúru a vlhkosť.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 450,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": "varený, rozmačkaný"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 7,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zemiaky uvar a rozmačkaj, nechaj vychladnúť.",
+    "Z múky, zemiakov, vlažnej vody, droždia a soli vypracuj cesto.",
+    "Nechaj kysnúť 1 hodinu.",
+    "Vytvaruj bochník, nechaj ešte 20 minút kysnúť.",
+    "Peč pri 200 °C asi 35-40 minút do zlatista."
+  ],
+  "tipy": "Zemiaky robia striedku vláčnejšou a chlieb dlhšie vydrží čerstvý.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "zemiaky",
+    "chlieb"
+  ]
+}

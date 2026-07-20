@@ -1,0 +1,55 @@
+{
+  "id": "lososova-natierka",
+  "nazov": "Lososová nátierka",
+  "kategoria": "Nátierka",
+  "kuchyna": "Škandinávska",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "15 min",
+  "popis": "Jemná nátierka z pečeného lososa a smotanového syra.",
+  "ingrediencie": [
+    {
+      "nazov": "Losos",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": "pečený alebo varený"
+    },
+    {
+      "nazov": "Smotanový jogurt",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Kôpor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Lososa rozdrob vidličkou.",
+    "Zmiešaj so smotanovým jogurtom, citrónovou šťavou a nasekaným kôprom.",
+    "Dochuť soľou.",
+    "Podávaj s pečivom."
+  ],
+  "tipy": "Skvelá aj ako plnka do celozrnného wrapu.",
+  "foto": "",
+  "tagy": [
+    "nátierka",
+    "losos",
+    "rýchle"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "caprese-salat",
+  "nazov": "Caprese šalát",
+  "kategoria": "Šalát",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 3,
+  "cas": "10 min",
+  "popis": "Jednoduchý taliansky šalát z paradajok, mozzarelly a bazalky.",
+  "ingrediencie": [
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mozzarella",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bazalka",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Paradajky a mozzarellu nakrájaj na plátky.",
+    "Striedavo poukladaj na tanier.",
+    "Pridaj lístky bazalky.",
+    "Pokvapkaj olivovým olejom a osoľ."
+  ],
+  "tipy": "Používaj zrelé, chutné paradajky — sú základom tohto jednoduchého šalátu.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "talianske",
+    "paradajky"
+  ]
+}

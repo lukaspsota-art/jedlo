@@ -1,0 +1,61 @@
+{
+  "id": "francuzsky-toast",
+  "nazov": "Francúzsky toast",
+  "kategoria": "Raňajky",
+  "kuchyna": "Francúzska",
+  "zdroj": "klasický recept",
+  "porcie": 2,
+  "cas": "15 min",
+  "popis": "Chlieb namočený vo vajíčkovej zmesi a opečený dozlata.",
+  "ingrediencie": [
+    {
+      "nazov": "Toastový chlieb",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vajcia rozšľahaj s mliekom a škoricou.",
+    "Plátky chleba namoč z oboch strán.",
+    "Opekaj na masle dozlata z oboch strán.",
+    "Podávaj s medom alebo ovocím."
+  ],
+  "tipy": "Použi mierne starší chlieb, lepšie nasiakne zmes.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "francúzske",
+    "sladké"
+  ]
+}

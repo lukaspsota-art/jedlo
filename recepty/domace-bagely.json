@@ -1,0 +1,56 @@
+{
+  "id": "domace-bagely",
+  "nazov": "Domáce bagely",
+  "kategoria": "Pečivo",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 6,
+  "cas": "90 min",
+  "popis": "Klasické varené a pečené bagely s chrumkavou kôrkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 450,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 7,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vlažnej vody, droždia, cukru a soli vypracuj cesto. Nechaj kysnúť 45 minút.",
+    "Rozdeľ na 6 dielov, vytvaruj prstence.",
+    "Krátko povar (asi 1 minútu z každej strany) vo vriacej vode s trochou cukru.",
+    "Ulož na plech.",
+    "Peč pri 220 °C asi 20 minút do zlatista."
+  ],
+  "tipy": "Pred pečením posyp sezamom alebo makom.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "americké",
+    "kysnuté"
+  ]
+}

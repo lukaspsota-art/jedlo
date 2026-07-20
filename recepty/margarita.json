@@ -1,0 +1,55 @@
+{
+  "id": "margarita",
+  "nazov": "Margarita",
+  "kategoria": "Kokteil",
+  "kuchyna": "Mexická",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Klasický mexický kokteil z tequily, limetky a soli na okraji pohára.",
+  "ingrediencie": [
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "štipka",
+      "poznamka": "na okraj pohára"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Okraj pohára navlhči limetkou a obal v soli.",
+    "Do shakera daj ľad, tequilu, limetkovú šťavu a cukor.",
+    "Poriadne pretrep.",
+    "Nalej do pohára s ľadom."
+  ],
+  "tipy": "Pre ovocnú verziu pridaj jahody alebo mango.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "tequila",
+    "mexické"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "amaretto-sour",
+  "nazov": "Amaretto Sour",
+  "kategoria": "Kokteil",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Sladko-kyslý kokteil z mandľového likéru amaretto a citróna.",
+  "ingrediencie": [
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do shakera daj amaretto, citrónovú šťavu, cukor a ľad.",
+    "Poriadne pretrep.",
+    "Precedi do pohára s ľadom.",
+    "Podávaj ihneď."
+  ],
+  "tipy": "Amaretto dodáva výraznú mandľovú arómu.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "amaretto",
+    "talianske"
+  ]
+}

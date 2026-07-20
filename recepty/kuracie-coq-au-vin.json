@@ -1,0 +1,68 @@
+{
+  "id": "kuracie-coq-au-vin",
+  "nazov": "Kuracie coq au vin",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Francúzska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "70 min",
+  "popis": "Klasické francúzske kuracie mäso dusené v červenom víne s hubami.",
+  "ingrediencie": [
+    {
+      "nazov": "Kuracie stehná",
+      "mnozstvo": 700,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Víno",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": "červené"
+    },
+    {
+      "nazov": "Šampióny",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Slaninu nakrájaj a opeč do chrumkava, vyber.",
+    "Kuracie stehná opeč na tom istom tuku dozlata.",
+    "Pridaj cibuľu a huby, krátko opraž.",
+    "Zalej vínom, vráť slaninu a dus pod pokrievkou 45 minút.",
+    "Dochuť soľou, podávaj so zemiakovou kašou."
+  ],
+  "tipy": "Klasika francúzskej vidieckej kuchyne.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kura",
+    "francúzske"
+  ]
+}

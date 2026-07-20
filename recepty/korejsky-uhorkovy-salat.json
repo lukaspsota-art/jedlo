@@ -1,0 +1,55 @@
+{
+  "id": "korejsky-uhorkovy-salat",
+  "nazov": "Kórejský pikantný uhorkový šalát",
+  "kategoria": "Šalát",
+  "kuchyna": "Kórejská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "15 min",
+  "popis": "Rýchly pikantný šalát z uhorky v kórejskom štýle.",
+  "ingrediencie": [
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sójová omáčka",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chilli vločky",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sezamové semienka",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Uhorku nakrájaj na tenké plátky, osoľ a nechaj 10 minút pustiť šťavu, scedi.",
+    "Zmiešaj sójovú omáčku, chilli vločky a pretlačený cesnak.",
+    "Premiešaj s uhorkou.",
+    "Posyp sezamovými semienkami a podávaj."
+  ],
+  "tipy": "Rýchly pikantný doplnok k ázijským jedlám.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "uhorka",
+    "kórejské"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "virgin-mojito",
+  "nazov": "Virgin Mojito (bez alkoholu)",
+  "kategoria": "Kokteil",
+  "kuchyna": "Kubánska",
+  "zdroj": "vlastný recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Nealkoholická verzia klasického mojita, plná mäty a limetky.",
+  "ingrediencie": [
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 8,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Limeta bio",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava a kúsky"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Perlivá voda",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mätu a cukor jemne pomni v pohári.",
+    "Pridaj limetkovú šťavu a kúsky limetky.",
+    "Naplň pohár ľadom.",
+    "Dolej perlivou vodou a jemne premiešaj."
+  ],
+  "tipy": "Rovnako osviežujúci ako originál, no bez alkoholu.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "bez alkoholu",
+    "letné"
+  ]
+}

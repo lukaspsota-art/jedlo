@@ -1,0 +1,55 @@
+{
+  "id": "cosmopolitan",
+  "nazov": "Cosmopolitan",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Elegantný ružový kokteil z vodky, limetky a grenadíny.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Pomarančový džús",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 10,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do shakera daj všetky suroviny a ľad.",
+    "Poriadne pretrep.",
+    "Precedi do vychladeného pohára.",
+    "Ozdob prúžkom citrónovej kôry."
+  ],
+  "tipy": "Klasický kokteil populárny vďaka seriálu Sex v meste.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "vodka",
+    "americké"
+  ]
+}

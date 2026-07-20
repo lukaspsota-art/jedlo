@@ -1,0 +1,49 @@
+{
+  "id": "whiskey-sour",
+  "nazov": "Whiskey Sour",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Klasický kyslo-sladký kokteil z whiskey a citróna.",
+  "ingrediencie": [
+    {
+      "nazov": "Whiskey",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do shakera daj whiskey, citrónovú šťavu, cukor a ľad.",
+    "Poriadne pretrep.",
+    "Precedi do pohára s ľadom.",
+    "Podávaj ihneď."
+  ],
+  "tipy": "Pre penivú verziu pridaj bielok a pretrep dôkladnejšie.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "whiskey",
+    "americké"
+  ]
+}

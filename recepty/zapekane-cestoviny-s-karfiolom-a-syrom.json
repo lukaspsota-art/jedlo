@@ -1,0 +1,68 @@
+{
+  "id": "zapekane-cestoviny-s-karfiolom-a-syrom",
+  "nazov": "Zapekané cestoviny s karfiolom a syrom",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Britská",
+  "zdroj": "vlastný recept",
+  "porcie": 5,
+  "cas": "45 min",
+  "popis": "Sýte zapekané cestoviny kombinujúce karfiol a syrovú omáčku.",
+  "ingrediencie": [
+    {
+      "nazov": "Penne",
+      "mnozstvo": 350,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Karfiol",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 25,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": "strúhaný"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cestoviny uvar podľa návodu, karfiol povar samostatne 5 minút.",
+    "Na masle opraž múku, postupne prilievaj mlieko do zhustnutia.",
+    "Vmiešaj polovicu syra do omáčky.",
+    "Zmiešaj cestoviny, karfiol a omáčku v zapekacej mise, posyp zvyšným syrom.",
+    "Peč pri 190 °C asi 20 minút do zlatista."
+  ],
+  "tipy": "Kombinácia dvoch obľúbených britských jedál v jednom.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "karfiol",
+    "zapekané"
+  ]
+}

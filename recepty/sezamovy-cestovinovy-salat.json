@@ -1,0 +1,80 @@
+{
+  "id": "sezamovy-cestovinovy-salat",
+  "nazov": "Sezamový cestovinový šalát",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Ázijská",
+  "zdroj": "inšpirované Wikibooks Cookbook: Sesame Noodle Salad (CC BY-SA)",
+  "porcie": 4,
+  "cas": "20 min",
+  "popis": "Studený ázijský šalát z rezancov so sezamovo-sójovým dresingom a chrumkavou zeleninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Rezance",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jarná cibuľka",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sójová omáčka",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sezamový olej",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sezamové semienka",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Rezance uvar podľa návodu, scedi a nechaj vychladnúť.",
+    "Mrkvu a uhorku nastrúhaj alebo nakrájaj na tenké prúžky, cibuľku pokrájaj na kolieska.",
+    "Zmiešaj sójovú omáčku, sezamový olej, med a pretlačený cesnak na dresing.",
+    "Rezance premiešaj so zeleninou a dresingom.",
+    "Posyp sezamovými semienkami a podávaj studené."
+  ],
+  "tipy": "Pre ostrejšiu verziu pridaj štipku chilli vločiek.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "ázijské",
+    "studený šalát"
+  ]
+}

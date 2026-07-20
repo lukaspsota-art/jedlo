@@ -1,0 +1,67 @@
+{
+  "id": "long-island-iced-tea",
+  "nazov": "Long Island Iced Tea",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Silný kokteil kombinujúci viacero destilátov s colou a citrónom.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Gin",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rum",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Cola",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Prilej všetky destiláty a citrónovú šťavu.",
+    "Dolej colou pre farbu a jemnú sladkosť.",
+    "Jemne premiešaj a podávaj."
+  ],
+  "tipy": "Napriek menu neobsahuje čaj — je to najsilnejší bežný kokteil.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "americké",
+    "silné"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "medovnicky",
+  "nazov": "Medovníčky",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "klasický recept",
+  "porcie": 20,
+  "cas": "50 min",
+  "popis": "Malé korenené medové sušienky, tradičné vianočné pečivo.",
+  "ingrediencie": [
+    {
+      "nazov": "Med",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Klinčeky",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": "mleté"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Med a cukor zohrej, kým sa cukor rozpustí, nechaj vychladnúť.",
+    "Vmiešaj vajce, múku, korenie a sódu do hladkého cesta.",
+    "Rozváľaj a vykrajuj tvary.",
+    "Ulož na plech.",
+    "Peč pri 175 °C asi 8-10 minút."
+  ],
+  "tipy": "Po vychladnutí zmäknú a chuťovo dozrejú po pár dňoch v dóze.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "slovenské",
+    "vianočné"
+  ]
+}

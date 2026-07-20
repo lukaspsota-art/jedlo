@@ -1,0 +1,67 @@
+{
+  "id": "zemiakova-polievka",
+  "nazov": "Zemiaková polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "35 min",
+  "popis": "Tradičná slovenská zemiaková polievka so zeleninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 800,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majorán",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji opraž cibuľu a mrkvu.",
+    "Pridaj nakrájané zemiaky a vývar.",
+    "Var 20 minút do mäkka.",
+    "Dochuť majoránom, pretlačeným cesnakom a soľou."
+  ],
+  "tipy": "Skús aj so zápražkou pre hustejšiu konzistenciu.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "zemiaky",
+    "slovenské"
+  ]
+}

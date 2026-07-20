@@ -1,0 +1,74 @@
+{
+  "id": "kuracie-kyjevske",
+  "nazov": "Kuracie Kyjevské",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Ukrajinská",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "45 min",
+  "popis": "Klasický kurací rezeň plnený bylinkovým maslom.",
+  "ingrediencie": [
+    {
+      "nazov": "Kuracie prsia",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Strúhanka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": "na vyprážanie"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Maslo zmiešaj s nasekanou petržlenovou vňaťou, tvaruj do válčeka a zmraz.",
+    "Kuracie prsia naklepi, do stredu vlož kúsok maslového valčeka a zabaľ.",
+    "Obaľuj v múke, rozšľahanom vajci a strúhanke.",
+    "Vyprážaj na rozohriatom oleji dozlata.",
+    "Podávaj horúce, aby maslo vo vnútri zostalo tekuté."
+  ],
+  "tipy": "Maslo musí byť pred obaľovaním dobre zmrazené, inak vytečie.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kura",
+    "ukrajinské"
+  ]
+}

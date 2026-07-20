@@ -1,0 +1,55 @@
+{
+  "id": "horuce-kakao-s-chilli",
+  "nazov": "Horúce kakao s chilli",
+  "kategoria": "Nápoj",
+  "kuchyna": "Mexická",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "10 min",
+  "popis": "Pikantná mexicky inšpirovaná horúca čokoláda so štipkou chilli.",
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 400,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čokoláda",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kakao",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chilli mleté",
+      "mnozstvo": 0.25,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mlieko zohrej, nesmie zovrieť.",
+    "Pridaj nasekanú čokoládu, kakao a chilli, rozmiešaj do hladka.",
+    "Dochuť cukrom.",
+    "Podávaj horúce."
+  ],
+  "tipy": "Chilli pridávaj postupne, ľahko prevládne.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "čokoláda",
+    "pikantné"
+  ]
+}

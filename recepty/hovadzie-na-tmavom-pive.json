@@ -1,0 +1,68 @@
+{
+  "id": "hovadzie-na-tmavom-pive",
+  "nazov": "Hovädzie na tmavom pive",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Írska",
+  "zdroj": "klasický recept",
+  "porcie": 5,
+  "cas": "120 min",
+  "popis": "Pomaly dusené hovädzie mäso v tmavom pive, írska klasika.",
+  "ingrediencie": [
+    {
+      "nazov": "Hovädzie",
+      "mnozstvo": 700,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pivo",
+      "mnozstvo": 400,
+      "jednotka": "ml",
+      "poznamka": "tmavé"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mäso nakrájaj na kocky a opeč na oleji dozlata.",
+    "Pridaj cibuľu a mrkvu, opraž.",
+    "Zalej pivom a vývarom.",
+    "Dus pod pokrievkou 90 minút do mäkka mäsa.",
+    "Dochuť soľou, podávaj so zemiakovou kašou."
+  ],
+  "tipy": "Horkosť piva sa dlhým dusením zjemní do bohatej chuti.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "írske"
+  ]
+}

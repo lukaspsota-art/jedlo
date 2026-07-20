@@ -1,0 +1,43 @@
+{
+  "id": "black-russian",
+  "nazov": "Black Russian",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Jednoduchý silný kokteil z vodky a kávového likéru, bez smotany.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kávový likér",
+      "mnozstvo": 25,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Prilej vodku a kávový likér.",
+    "Jemne premiešaj.",
+    "Podávaj ihneď."
+  ],
+  "tipy": "Predchodca White Russian, no bez smotany.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "vodka",
+    "silné"
+  ]
+}

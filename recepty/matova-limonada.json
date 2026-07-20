@@ -1,0 +1,56 @@
+{
+  "id": "matova-limonada",
+  "nazov": "Mätovo-limetková limonáda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "10 min",
+  "popis": "Osviežujúca nealkoholická limonáda s mätou a limetkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": "čerstvá"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mätové lístky jemne pomni s cukrom, aby pustili arómu.",
+    "Pridaj limetkovú šťavu a trochu vody, premiešaj do rozpustenia cukru.",
+    "Dolej zvyšnú vodu.",
+    "Podávaj s ľadom a čerstvou mätou."
+  ],
+  "tipy": "Základ tejto limonády je aj skvelý bezalkoholický mojito.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "mäta",
+    "limetka",
+    "letné"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "razny-chlieb",
+  "nazov": "Ražný chlieb",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "110 min",
+  "popis": "Domáci ražný chlieb s kmínom, tradičná slovenská klasika.",
+  "ingrediencie": [
+    {
+      "nazov": "Ražná múka",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 320,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 7,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kmín",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z oboch múk, vlažnej vody, droždia, kmínu a soli vypracuj cesto.",
+    "Nechaj kysnúť 1 hodinu.",
+    "Vytvaruj bochník a ulož do formy.",
+    "Nechaj ešte 20 minút kysnúť.",
+    "Peč pri 220 °C asi 40 minút do zvučnej kôrky."
+  ],
+  "tipy": "Skús aj s lyžicou kyslej smotany pridanou do cesta pre vlhkejšiu striedku.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "ražné",
+    "slovenské"
+  ]
+}

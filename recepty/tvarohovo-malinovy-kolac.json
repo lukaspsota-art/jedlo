@@ -1,0 +1,62 @@
+{
+  "id": "tvarohovo-malinovy-kolac",
+  "nazov": "Tvarohovo-malinový koláč",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "60 min",
+  "popis": "Jemný tvarohový koláč s čerstvými malinami.",
+  "ingrediencie": [
+    {
+      "nazov": "Tvaroh",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maliny",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Tvaroh vymiešaj s cukrom, vajcami a rozpusteným maslom.",
+    "Vmiešaj múku do hladka.",
+    "Prelej do formy a poukladaj maliny navrch.",
+    "Peč pri 170 °C asi 45 minút.",
+    "Nechaj vychladnúť pred krájaním."
+  ],
+  "tipy": "Mrazené maliny fungujú rovnako dobre, netreba rozmrazovať.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "tvaroh",
+    "maliny"
+  ]
+}

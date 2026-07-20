@@ -1,0 +1,37 @@
+{
+  "id": "kir",
+  "nazov": "Kir",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Jednoduchý francúzsky aperitív z bieleho vína a ríbezľového sirupu.",
+  "ingrediencie": [
+    {
+      "nazov": "Víno",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "biele"
+    },
+    {
+      "nazov": "Ríbezľový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do pohára nalej ríbezľový sirup.",
+    "Pomaly dolej vychladené biele víno.",
+    "Jemne premiešaj.",
+    "Podávaj ihneď."
+  ],
+  "tipy": "Jednoduchší predchodca Kir Royal, ktorý používa víno namiesto prosecca.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "víno",
+    "francúzske"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "vitaminova-bomba",
+  "nazov": "Vitamínová bomba",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "10 min",
+  "popis": "Vitamínová šťava z pomaranča, mrkvy, jablka a zázvoru.",
+  "ingrediencie": [
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny prežmýkaj v odšťavovači alebo rozmixuj a precedi.",
+    "Podávaj čerstvé, ihneď po príprave."
+  ],
+  "tipy": "Skvelý štart do dňa plný vitamínov.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "vitamínové",
+    "zdravé"
+  ]
+}

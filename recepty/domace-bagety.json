@@ -1,0 +1,50 @@
+{
+  "id": "domace-bagety",
+  "nazov": "Domáce bagety",
+  "kategoria": "Pečivo",
+  "kuchyna": "Francúzska",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "120 min",
+  "popis": "Chrumkavé domáce bagety s tenkou kôrkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 280,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vlažnej vody, droždia a soli vypracuj vlhké cesto.",
+    "Nechaj kysnúť 1,5 hodiny.",
+    "Cesto rozdeľ na 2 diely a vytvaruj podlhovasté bagety.",
+    "Nechaj ešte 20 minút kysnúť, navrch narež pár zárezov.",
+    "Peč pri 230 °C asi 20-25 minút do zlatista a chrumkava."
+  ],
+  "tipy": "Do rúry vlož misku s vodou pre chrumkavejšiu kôrku.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "francúzske",
+    "chlieb"
+  ]
+}

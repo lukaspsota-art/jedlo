@@ -1,0 +1,62 @@
+{
+  "id": "jednoduche-croissanty",
+  "nazov": "Jednoduché croissanty",
+  "kategoria": "Pečivo",
+  "kuchyna": "Francúzska",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "150 min",
+  "popis": "Zjednodušená domáca verzia francúzskych croissantov.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 7,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vlažného mlieka, droždia, cukru a soli vypracuj cesto. Nechaj kysnúť 1 hodinu.",
+    "Cesto rozváľaj, potri plátkami studeného masla, zloz a vyváľaj (zopakuj 2-3×).",
+    "Rozváľaj na plát a nakrájaj na trojuholníky.",
+    "Zroluj od širšej strany k špičke a vytvaruj do polmesiaca.",
+    "Nechaj 30 minút kysnúť a peč pri 200 °C asi 18-20 minút do zlatista."
+  ],
+  "tipy": "Cesto medzi skladaním nechaj 15 minút odpočívať v chladničke.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "francúzske",
+    "kysnuté"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "zeleninovy-vyvar-s-rezancami",
+  "nazov": "Zeleninový vývar s rezancami",
+  "kategoria": "Polievka",
+  "kuchyna": "Ázijská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Ľahká čistá polievka so zeleninou a rezancami.",
+  "ingrediencie": [
+    {
+      "nazov": "Rezance",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jarná cibuľka",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 900,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sójová omáčka",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vývar priveď k varu.",
+    "Pridaj nakrájanú mrkvu, var 8 minút.",
+    "Rezance uvar samostatne podľa návodu.",
+    "Vlož rezance do vývaru, vmiešaj sójovú omáčku.",
+    "Posyp jarnou cibuľkou a podávaj."
+  ],
+  "tipy": "Ľahká rýchla polievka na chorý žalúdok.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "zelenina",
+    "ľahká"
+  ]
+}

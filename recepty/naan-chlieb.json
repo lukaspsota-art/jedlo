@@ -1,0 +1,62 @@
+{
+  "id": "naan-chlieb",
+  "nazov": "Naan chlieb",
+  "kategoria": "Pečivo",
+  "kuchyna": "Indická",
+  "zdroj": "vlastný recept",
+  "porcie": 6,
+  "cas": "90 min",
+  "popis": "Mäkký indický chlieb na panvici, skvelý ku kari jedlám.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jogurt",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, jogurtu, vlažného mlieka, droždia, oleja a soli vypracuj mäkké cesto.",
+    "Nechaj kysnúť 1 hodinu.",
+    "Rozdeľ na 6 dielov a rozváľaj do oválnych placiek.",
+    "Peč na rozohriatej suchej panvici z oboch strán do škvŕn.",
+    "Potri troškou masla a podávaj teplé."
+  ],
+  "tipy": "Skvele sa hodí ku kuraciemu alebo cícerovému kari.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "indické",
+    "placky"
+  ]
+}

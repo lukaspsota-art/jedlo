@@ -1,0 +1,43 @@
+{
+  "id": "rob-roy",
+  "nazov": "Rob Roy",
+  "kategoria": "Kokteil",
+  "kuchyna": "Škótska",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Škótska verzia Manhattanu s whiskey a sladkým vermutom.",
+  "ingrediencie": [
+    {
+      "nazov": "Whiskey",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Víno",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": "červený vermút"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do miešacieho pohára daj whiskey, vermút a ľad.",
+    "Premiešaj (nemiešaj prudko).",
+    "Precedi do vychladeného pohára.",
+    "Podávaj bez ľadu."
+  ],
+  "tipy": "Pomenovaný podľa škótskeho hrdinu Roba Roya MacGregora.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "whiskey",
+    "škótske"
+  ]
+}

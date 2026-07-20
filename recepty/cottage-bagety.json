@@ -1,0 +1,56 @@
+{
+  "id": "cottage-bagety",
+  "nazov": "Cottage bagety",
+  "kategoria": "Pečivo",
+  "kuchyna": "Francúzska",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "110 min",
+  "popis": "Domáce bagety obohatené o cottage syr pre vyšší obsah bielkovín.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cottage",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, cottage syra, vlažnej vody, droždia a soli vypracuj cesto.",
+    "Nechaj kysnúť 1,5 hodiny.",
+    "Rozdeľ na 2 diely a vytvaruj bagety.",
+    "Nechaj 20 minút kysnúť, narež zárezy.",
+    "Peč pri 220 °C asi 20-25 minút do zlatista."
+  ],
+  "tipy": "Vyšší obsah bielkovín než klasické bagety.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "cottage",
+    "francúzske"
+  ]
+}

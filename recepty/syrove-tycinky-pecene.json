@@ -1,0 +1,55 @@
+{
+  "id": "syrove-tycinky-pecene",
+  "nazov": "Syrové tyčinky pečené",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 6,
+  "cas": "30 min",
+  "popis": "Chrumkavé pečené syrové tyčinky z lístkového cesta.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": "strúhaný"
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, studeného masla, syra a soli vypracuj cesto.",
+    "Rozváľaj na plát a nakrájaj na tenké prúžky.",
+    "Potri rozšľahaným vajcom.",
+    "Peč pri 190 °C asi 15 minút do zlatista."
+  ],
+  "tipy": "Skvelé aj k polievke namiesto krutónov.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "syr",
+    "pečené"
+  ]
+}

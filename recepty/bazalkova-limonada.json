@@ -1,0 +1,55 @@
+{
+  "id": "bazalkova-limonada",
+  "nazov": "Bazalková limonáda",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "10 min",
+  "popis": "Netradičná limonáda s citrónom a čerstvou bazalkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Bazalka",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Bazalkové lístky jemne pomni s cukrom.",
+    "Pridaj citrónovú šťavu a trochu vody, rozmiešaj do rozpustenia cukru.",
+    "Dolej zvyšnú vodu.",
+    "Podávaj s ľadom a lístkami bazalky."
+  ],
+  "tipy": "Prekvapivo osviežujúca kombinácia na letné dni.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "bazalka",
+    "limonáda"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "mimosa",
+  "nazov": "Mimosa",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Jednoduchý slávnostný kokteil z prosecca a pomarančového džúsu.",
+  "ingrediencie": [
+    {
+      "nazov": "Prosecco",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pomarančový džús",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do pohára na šampanské nalej vychladený pomarančový džús.",
+    "Pomaly dolej vychladené prosecco.",
+    "Jemne premiešaj.",
+    "Podávaj ihneď, tradične k brunchu."
+  ],
+  "tipy": "Obľúbený slávnostný nápoj k nedeľňajšiemu brunchu.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "prosecco",
+    "brunch"
+  ]
+}

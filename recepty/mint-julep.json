@@ -1,0 +1,49 @@
+{
+  "id": "mint-julep",
+  "nazov": "Mint Julep",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Klasický americký whiskey kokteil s množstvom čerstvej mäty.",
+  "ingrediencie": [
+    {
+      "nazov": "Whiskey",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mätu jemne pomni s cukrom v pohári.",
+    "Naplň pohár drveným ľadom.",
+    "Prilej whiskey.",
+    "Ozdob čerstvou mätou a podávaj so slamkou."
+  ],
+  "tipy": "Tradičný nápoj dostihov Kentucky Derby.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "whiskey",
+    "americké"
+  ]
+}

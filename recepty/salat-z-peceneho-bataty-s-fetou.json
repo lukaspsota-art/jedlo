@@ -1,0 +1,55 @@
+{
+  "id": "salat-z-peceneho-bataty-s-fetou",
+  "nazov": "Šalát z pečeného batátu s fetou",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "40 min",
+  "popis": "Teplý-studený šalát z pečeného batátu, rukoly a fety.",
+  "ingrediencie": [
+    {
+      "nazov": "Batát",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rukola",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Feta",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Batát nakrájaj na kocky, premiešaj s olivovým olejom a soľou.",
+    "Peč pri 200 °C asi 25 minút do mäkka.",
+    "Nechaj mierne vychladnúť.",
+    "Premiešaj s rukolou a rozdrobenou fetou."
+  ],
+  "tipy": "Skvele sa hodí aj s pridanými vlašskými orechmi.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "batát",
+    "feta"
+  ]
+}

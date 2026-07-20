@@ -1,0 +1,54 @@
+{
+  "id": "zeleny-smoothie-s-uhorkou",
+  "nazov": "Zelený smoothie s uhorkou",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "5 min",
+  "popis": "Osviežujúce zelené smoothie s uhorkou, špenátom a jablkom.",
+  "ingrediencie": [
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Špenát",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Uhorku a jablko nakrájaj na kúsky.",
+    "Všetky suroviny rozmixuj dohladka.",
+    "Podávaj ihneď."
+  ],
+  "tipy": "Pre sladšiu verziu pridaj lyžičku medu.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "smoothie",
+    "zelené"
+  ]
+}

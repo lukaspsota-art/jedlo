@@ -1,0 +1,56 @@
+{
+  "id": "cesnakova-polievka",
+  "nazov": "Cesnaková polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "25 min",
+  "popis": "Rýchla a jednoduchá cesnaková polievka, skvelá pri nádche.",
+  "ingrediencie": [
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 6,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 800,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cesnak pretlač a krátko opraž na masle.",
+    "Pridaj vývar a nakrájané zemiaky.",
+    "Var 15-20 minút do mäkka zemiakov.",
+    "Dochuť soľou.",
+    "Podávaj s opečeným chlebom."
+  ],
+  "tipy": "Cesnak sa varením zjemní a stratí ostrú chuť.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "cesnak",
+    "slovenské"
+  ]
+}

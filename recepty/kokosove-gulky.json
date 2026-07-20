@@ -1,0 +1,43 @@
+{
+  "id": "kokosove-gulky",
+  "nazov": "Kokosové guľky",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 8,
+  "cas": "20 min",
+  "popis": "Jednoduché sladké kokosové guľky bez pečenia.",
+  "ingrediencie": [
+    {
+      "nazov": "Kokos strúh",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kondenzované mlieko",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokos strúh",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": "na obaľovanie"
+    }
+  ],
+  "postup": [
+    "Zmiešaj strúhaný kokos s kondenzovaným mliekom do hmoty.",
+    "Tvaruj malé guľôčky.",
+    "Obaľuj v strúhanom kokose.",
+    "Nechaj v chladničke aspoň 30 minút stuhnúť."
+  ],
+  "tipy": "Skvelý rýchly sladký snack bez pečenia.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "kokos",
+    "bez pečenia"
+  ]
+}

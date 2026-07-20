@@ -1,0 +1,55 @@
+{
+  "id": "cviklova-polievka",
+  "nazov": "Cviklová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "vlastný recept",
+  "porcie": 4,
+  "cas": "35 min",
+  "popis": "Jednoduchá vegetariánska polievka z cvikly.",
+  "ingrediencie": [
+    {
+      "nazov": "Červená repa",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 700,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Repu ošúp a nastrúhaj alebo nakrájaj na kocky.",
+    "Na oleji opraž cibuľu, pridaj repu a vývar.",
+    "Var 20 minút do mäkka.",
+    "Rozmixuj dohladka, vmiešaj smotanu a dochuť soľou."
+  ],
+  "tipy": "Krásna sýta ružová farba poteší aj oko.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "cvikla",
+    "vegetariánske"
+  ]
+}
