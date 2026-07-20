@@ -7,7 +7,7 @@ a šablónu data/sablona.html, a vytvorí offline stránku kucharka.html.
 
 Spusti: python3 generuj_kucharku.py
 """
-import json, os, glob, datetime
+import json, os, glob, datetime, shutil
 
 ZAKLAD = os.path.dirname(os.path.abspath(__file__))
 RECEPTY_DIR = os.path.join(ZAKLAD, "recepty")
@@ -16,6 +16,7 @@ POTRAVINY = os.path.join(ZAKLAD, "data", "potraviny.json")
 SABLONA = os.path.join(ZAKLAD, "data", "sablona.html")
 APPJS = os.path.join(ZAKLAD, "data", "app.js")
 VYSTUP = os.path.join(ZAKLAD, "kucharka.html")
+DOCS_INDEX = os.path.join(ZAKLAD, "docs", "index.html")  # GitHub Pages entry point (kópia kucharka.html)
 
 def nacitaj_json_zoznam(vzor):
     out = []
@@ -46,7 +47,10 @@ def main():
         .replace("__POCET__", str(len(recepty))))
     with open(VYSTUP, "w", encoding="utf-8") as f:
         f.write(html_out)
+    os.makedirs(os.path.dirname(DOCS_INDEX), exist_ok=True)
+    shutil.copyfile(VYSTUP, DOCS_INDEX)
     print(f"Hotovo: {VYSTUP}")
+    print(f"GitHub Pages: {DOCS_INDEX}")
     print(f"Receptov: {len(recepty)} · potravín: {len(potraviny)} · jedálničkov: {len(jedalnicky)}")
 
 if __name__ == "__main__":
