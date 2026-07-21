@@ -863,7 +863,7 @@ function pf(di,slot){ return (S.planF[di]&&S.planF[di][slot])||1; }
 function stravniciList(){ const l=S.profil.stravnici; if(Array.isArray(l)&&l.length)return l; const o=S.profil.osoby||1,arr=[]; for(let i=0;i<o;i++)arr.push({nazov:i===0?"Ja":("Osoba "+(i+1)),kcal:S.profil.kcal||1450}); return arr; }
 function baseDayKcal(di){ let s=0; SLOTY().forEach(sl=>slotIds(di,sl).forEach(cid=>{const k=komponent(cid); if(k)s+=kcalPorcia(k);})); return s; }
 function pocetPorcii(di){ const base=baseDayKcal(di); const st=stravniciList(); if(base<200) return st.length; return st.reduce((a,p)=>a+((p.kcal||S.profil.kcal||1450)/base),0); }
-function mnozMult(di,slot){ return pocetPorcii(di)*pf(di,slot); }
+function mnozMult(di,slot){ return porcieSlot(di,slot)*pf(di,slot); }
 function slotyDna(di){ const v=S.daySloty&&S.daySloty[di]; if(Array.isArray(v)) return VSETKY_SLOTY.filter(s=>v.includes(s)); return SLOTY(); }
 function pocetPorciiDna(di){ const n=S.dayPpl&&S.dayPpl[di]; return (n>0)?n:pocetPorcii(di); }
 function porcieSlot(di,slot){ const o=S.slotPpl&&S.slotPpl[di]&&S.slotPpl[di][slot]; return (o>0)?o:pocetPorciiDna(di); }
