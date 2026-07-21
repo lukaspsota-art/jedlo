@@ -16,3 +16,5 @@ Zhrnutie vývoja (v1 = prvá verzia). Detaily funkcií sú v `NAVOD.md`.
 - **v13** — otvorenie receptu z plánu, plán varenia na blok, kalendár histórie varenia.
 - **v14** — recept z plánu na správny počet porcií (zrušený „%" faktor), stravníci s rôznymi kalóriami, nedeliteľné suroviny na celé, sendviče Po–Pi.
 - **handoff** — JS oddelený do `data/app.js`, `CLAUDE.md`/README/CHANGELOG, git; pripravené na Claude Code.
+- **v15** — flexibilné jedlá dňa (Desiata/Olovrant, voliteľné sloty cez `SLOTY()`), skrývanie receptov z generátora (`S.skryte`), `escHtml` na vstupoch vlastných receptov.
+- **v16** — per-deň/blok počet porcií (aj jednotlivé jedlo) → premieta sa do nákupu aj plánu varenia; maska jedál (vynechať jedlo v dni/bloku, prázdny deň = celý von, sivé „vyp." bunky); filtre generátora ako pravidlá pre rozsah dní (bezmäso, strop času varenia) + „nevariť rovnaké mäso v dvoch blokoch po sebe". Fixy: tolerancia 10 % pri „nad cieľom" (plán na cieli už nesvieti červeno), zakázané suroviny sa kontrolujú aj v názve receptu.
