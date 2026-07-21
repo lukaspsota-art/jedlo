@@ -69,6 +69,9 @@
   select.f:hover{border-color:var(--accent)}
   .krok-mn{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:8px;background:var(--chip);color:var(--accent-dark);font-size:13px;font-weight:600;white-space:normal}
   .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .kolekcie{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px}
+  .kol-tile{padding:7px 12px;border:1px solid var(--line);border-radius:20px;cursor:pointer;font-size:14px;background:var(--card);white-space:nowrap;user-select:none}
+  .kol-tile.active{background:var(--accent);color:#fff;border-color:var(--accent)}
   .chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:7px 13px;border-radius:20px;cursor:pointer;font-size:14px;user-select:none}
   .chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
@@ -298,7 +301,7 @@
       <div class="panel" id="dnes-plan-panel"><h3>📅 Dnešný plán</h3><div id="dnes-plan"></div></div>
       <div class="panel" id="cotvarit-panel"><h3>Čo variť dnes?</h3><div class="dnes" id="dnes"></div></div>
       <div class="panel"><h3>Rýchle akcie</h3><div class="qa">
-        <button class="btn primary" onclick="generujJedalnicek(false);prepni('planovac')">✨ Zostaviť jedálniček</button>
+        <button class="btn primary" onclick="otvorGen()">✨ Zostaviť jedálniček</button>
         <button class="btn" onclick="uvarZoSpajze()">🧊 Uvar zo špajze</button>
         <button class="btn" onclick="dojedzZvysky()">♻️ Dojedz zvyšky</button>
       </div><div id="zvysky-out" style="margin-top:12px"></div></div>
@@ -319,6 +322,7 @@
         <select class="f" id="f-diet"><option value="">Bez obmedzenia</option><option value="veg">Vegetariánske</option><option value="lepok">Bez lepku</option><option value="mlieko">Bez laktózy</option><option value="fav">Len obľúbené</option><option value="skryte">🚫 Skryté</option></select>
         <select class="f" id="f-sort"><option value="">Zoradiť: predvolené</option><option value="nazov">Názov A–Z</option><option value="cas">Najrýchlejšie</option><option value="kcal">Najmenej kcal</option><option value="kcald">Najviac kcal</option><option value="hodn">Najlepšie hodnotené</option></select>
       </div>
+      <div id="kolekcie" class="kolekcie"></div>
       <div class="chips" id="chips"></div>
       <div class="grid" id="grid"></div>
       <div class="empty" id="empty" style="display:none">Nič sa nenašlo.</div>
@@ -330,10 +334,10 @@
       <div class="chips" style="padding:0 0 12px"><span class="chip active" id="tab-tyzden" onclick="planZobraz('tyzden')">📋 Týždeň</span><span class="chip" id="tab-kal" onclick="planZobraz('kalendar')">📆 Kalendár</span></div>
       <div id="plan-tyzden">
       <div class="plan-head">
-        <button class="btn primary" onclick="generujJedalnicek(false)">✨ Zostaviť jedálniček</button>
+        <button class="btn primary" onclick="otvorGen()">✨ Zostaviť jedálniček</button>
         <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-plan')">⋯ Viac</button>
           <div class="menu" id="m-plan">
-            <a onclick="otvorGenConfig();zavriMenu()">⚙️ Nastavenie generovania</a>
+            <a onclick="otvorGen();zavriMenu()">⚙️ Nastavenie generovania</a>
             <a onclick="generujJedalnicek(true);zavriMenu()">🎲 Zamiešať</a>
             <a onclick="skopirujMinuly();zavriMenu()">📋 Skopíruj minulý týždeň</a>
             <a onclick="otvorNacitat();zavriMenu()">📥 Načítať uložený jedálniček</a>
