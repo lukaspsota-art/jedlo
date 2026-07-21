@@ -1622,7 +1622,7 @@ async function authSignup(email,pass){ if(!syncMozne())throw new Error("Synchron
   if(j.access_token){ authUloz({access_token:j.access_token,refresh_token:j.refresh_token,user:j.user}); }
   else { await authLogin(email,pass); } }
 function authLogout(){ authUloz(null); S.profil.skupinaId=""; S.profil.skupinaKod=""; S.profil.skupinaNazov=""; uloz(S); }
-function randKod(){ const abc="ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; let s=""; for(let i=0;i<6;i++)s+=abc[Math.floor(Math.random()*abc.length)]; return "RODINA-"+s; }
+function randKod(){ const abc="ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; const buf=new Uint32Array(10); crypto.getRandomValues(buf); let s=""; for(let i=0;i<10;i++)s+=abc[buf[i]%abc.length]; return "RODINA-"+s; } // 10× z 32-znak. abecedy (~50 bit) cez CSPRNG; abc.length delí 2^32 => bez modulo bias. ponytail: rate-limit na pridaj_sa je serverový strop, netreba pre domácnosť
 async function skupinaVytvor(nazov){ if(!authUser())throw new Error("Najprv sa prihlás.");
   const kod=randKod();
   const r=await authFetch(SYNC_CONFIG.url+"/rest/v1/skupiny",{method:"POST",headers:{Prefer:"return=representation"},body:JSON.stringify({nazov:nazov||"Moja domácnosť",kod})});
