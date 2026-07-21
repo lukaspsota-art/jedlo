@@ -25,6 +25,7 @@ if(!Array.isArray(S.hranice)||S.hranice.length!==7){ S.hranice=[true,false,true,
 else if(S.blokV!==6 && JSON.stringify(S.hranice)===JSON.stringify([true,false,true,false,true,false,true])){ S.hranice=[true,false,true,false,false,true,false]; }
 S.blokV=6; S.spajza=S.spajza||[]; S.voda=S.voda||{}; S.spSid=S.spSid||1; S.vahy=S.vahy||[]; S.nakupManual=S.nakupManual||[];
 S.genCfg=Object.assign({zachovat:false,cielMode:true,filtre:[]}, S.genCfg||{});
+S.dayPpl=S.dayPpl||{}; S.slotPpl=S.slotPpl||{}; S.daySloty=S.daySloty||{};
 S.skryte=S.skryte||{}; // recepty skryté z generátora/plánu (nie zmazané) — kľúč=id
 S.mojeRecepty=S.mojeRecepty||[];
 if(Array.isArray(S.mojeRecepty)) S.mojeRecepty.forEach(r=>{ if(!RECEPTY.some(x=>x.id===r.id)) RECEPTY.push(r); });
@@ -369,6 +370,16 @@ function stravniciList(){ const l=S.profil.stravnici; if(Array.isArray(l)&&l.len
 function baseDayKcal(di){ let s=0; SLOTY().forEach(sl=>slotIds(di,sl).forEach(cid=>{const k=komponent(cid); if(k)s+=kcalPorcia(k);})); return s; }
 function pocetPorcii(di){ const base=baseDayKcal(di); const st=stravniciList(); if(base<200) return st.length; return st.reduce((a,p)=>a+((p.kcal||S.profil.kcal||1450)/base),0); }
 function mnozMult(di,slot){ return pocetPorcii(di)*pf(di,slot); }
+function slotyDna(di){ const v=S.daySloty&&S.daySloty[di]; if(Array.isArray(v)) return VSETKY_SLOTY.filter(s=>v.includes(s)); return SLOTY(); }
+function pocetPorciiDna(di){ const n=S.dayPpl&&S.dayPpl[di]; return (n>0)?n:pocetPorcii(di); }
+function porcieSlot(di,slot){ const o=S.slotPpl&&S.slotPpl[di]&&S.slotPpl[di][slot]; return (o>0)?o:pocetPorciiDna(di); }
+// ponytail: hrubá heuristika mäsa (bez NLP) — na "nie 2× rovnaké mäso za sebou"; morčacie spadá pod hydinu
+function masoTyp(r){ const s=bezDia((r.ingrediencie||[]).map(i=>i.nazov).join(" ")+" "+(r.nazov||""));
+  if(/kur|slepac|sliepk|morcac|moriak|hydin/.test(s))return "hydina";
+  if(/losos|tuniak|treska|ryb|kreveta|garnat|makrela|pstruh|sardin|krab/.test(s))return "ryby";
+  if(/bravc|slanin|sunk|klobas|parok|panenk|prosciutto/.test(s))return "bravcove";
+  if(/hovadz|steak|rostenk|svieckov/.test(s))return "hovadzie";
+  return ""; }
 function porcieNaVar(di,slot){ const bd=(S.blokMode?blokDni(di).length:1); return bd*mnozMult(di,slot); }
 function jeSendvic(r){ const b=ranajkyBaza(r); if(["tortilla","bageta","toast","rožok"].includes(b))return true; const t=(r.tagy||[]).join(" ").toLowerCase(); return t.includes("wrap")||t.includes("sendvič")||t.includes("sendvic"); }
 function fmtPct(f){ return f===1?"":(" · "+Math.round(f*100)+"%"); }
