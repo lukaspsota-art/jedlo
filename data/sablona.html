@@ -2,7 +2,7 @@
 <html lang="sk">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Moja kuchárka</title>
 <meta name="theme-color" content="#1f5c3c">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -71,6 +71,7 @@
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer;box-shadow:var(--shadow);transition:transform .12s,box-shadow .12s;position:relative}
   .card:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,.10)}
+  .card.skryty{opacity:.5}
   .card .thumb{height:120px;background:linear-gradient(135deg,#dfe8e0,#c8d8cc);display:flex;align-items:center;justify-content:center;font-size:40px;color:var(--accent-dark)}
   .card .thumb img{width:100%;height:100%;object-fit:cover}
   .fav{position:absolute;top:8px;right:8px;background:rgba(255,255,255,.92);border:none;border-radius:50%;width:34px;height:34px;font-size:18px;cursor:pointer;line-height:1;color:var(--gold)}
@@ -162,6 +163,24 @@
   .chart .bar2.over{background:var(--warn)}
   .chart .d{font-size:12px;color:var(--muted)}
   .chart .v{font-size:11px;color:var(--accent-dark);font-weight:600}
+  .chart{position:relative}
+  .chart .bar2{display:flex;flex-direction:column-reverse;overflow:hidden;background:transparent}
+  .chart .seg{width:100%;flex-shrink:0}
+  .segB{background:#2e7d54}.segT{background:#e0a800}.segS{background:#b06a3b}
+  .chart .cielline{position:absolute;left:0;right:0;border-top:2px dashed var(--warn);z-index:3;pointer-events:none}
+  .chart .cielline span{position:absolute;right:0;top:-15px;font-size:10px;color:var(--warn);background:var(--panel);padding:0 3px}
+  .chart-leg{display:inline-flex;align-items:center;gap:2px;font-size:11.5px;color:var(--muted)}
+  .chart-leg .lg{display:inline-block;width:11px;height:11px;border-radius:3px;margin-left:10px;margin-right:2px}
+  .card .macros{font-size:11.5px;color:var(--muted);margin-top:4px}
+  .hist-stats{font-size:14px;margin-bottom:10px;color:var(--fg,inherit)}
+  .hist-wrap{display:flex;flex-wrap:wrap;gap:8px}
+  .hist-item{display:inline-flex;align-items:center;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 11px;font-size:13.5px}
+  .hist-item .hist-date{color:var(--muted);font-size:12px}
+  .nakup-suhrn{display:flex;flex-wrap:wrap;gap:16px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:14px;font-size:14px}
+  .nakup-suhrn b{color:var(--accent-dark);font-size:16px}
+  .detail-meta{margin:2px 0 10px}
+  .suma .ciel-mini{color:var(--muted);font-weight:400;font-size:11px;margin-left:1px}
+  .tile{transition:transform .12s,box-shadow .12s}
   .goalline{position:relative;height:0;border-top:2px dashed var(--gold)}
   .field{display:flex;flex-direction:column;gap:5px;margin-bottom:14px}
   .field label{font-size:14px;font-weight:500}
@@ -184,13 +203,20 @@
     .side{position:static;width:auto;height:auto;flex-direction:row;align-items:center;padding:0}
     .side .brand{padding:14px 16px;font-size:17px}
     .side nav,.side .foot{display:none}
-    .content{padding:16px 16px 90px}
-    .botnav{display:flex;position:fixed;left:0;right:0;bottom:0;background:var(--accent-dark);z-index:50;padding:6px 4px;justify-content:space-around}
+    .content{padding:16px 16px calc(90px + env(safe-area-inset-bottom))}
+    .botnav{display:flex;position:fixed;left:0;right:0;bottom:0;background:var(--accent-dark);z-index:50;padding:6px 4px calc(6px + env(safe-area-inset-bottom));justify-content:space-around}
     .botnav a{flex:1;color:#cfe0d6;text-decoration:none;text-align:center;font-size:10.5px;padding:6px 2px;border-radius:10px;cursor:pointer}
     .botnav a .ic{display:block;font-size:20px;margin-bottom:2px}
     .botnav a.active{color:#fff;background:rgba(255,255,255,.14)}
     .nutri{grid-template-columns:repeat(3,1fr)}
+    .cook{padding:16px;padding-bottom:calc(16px + env(safe-area-inset-bottom))}
     .cook .step{font-size:23px}
+    /* zabráni auto-zoomu iOS Safari pri fokuse na formulár (potrebné min. 16px) */
+    input,select,textarea,#hladaj{font-size:16px!important}
+    .fav,.modal .close,.stepper button{width:40px;height:40px}
+    .stepper button{font-size:22px}
+    .modal .close{top:10px;right:12px}
+    .modal .hero h2{margin-right:48px}
   }
   @media print{
     .side,.botnav,.controls,.chips,.plan-head,.btn-row,.close,.fav,.cook,.qa,.hodnotenie{display:none!important}
@@ -276,7 +302,7 @@
         <input id="hladaj" type="search" placeholder="Hľadať recept alebo surovinu…">
         <select class="f" id="f-kuchyna"><option value="">Všetky kuchyne</option></select>
         <select class="f" id="f-cas"><option value="">Ľubovoľný čas</option><option value="20">do 20 min</option><option value="35">do 35 min</option><option value="60">do 60 min</option></select>
-        <select class="f" id="f-diet"><option value="">Bez obmedzenia</option><option value="veg">Vegetariánske</option><option value="lepok">Bez lepku</option><option value="mlieko">Bez laktózy</option><option value="fav">Len obľúbené</option></select>
+        <select class="f" id="f-diet"><option value="">Bez obmedzenia</option><option value="veg">Vegetariánske</option><option value="lepok">Bez lepku</option><option value="mlieko">Bez laktózy</option><option value="fav">Len obľúbené</option><option value="skryte">🚫 Skryté</option></select>
         <select class="f" id="f-sort"><option value="">Zoradiť: predvolené</option><option value="nazov">Názov A–Z</option><option value="cas">Najrýchlejšie</option><option value="kcal">Najmenej kcal</option><option value="kcald">Najviac kcal</option><option value="hodn">Najlepšie hodnotené</option></select>
       </div>
       <div class="chips" id="chips"></div>
@@ -371,6 +397,7 @@
       <h2 class="h">Nastavenia domácnosti</h2>
       <p class="sub">Predvoľby sa použijú pri plánovaní a filtrovaní.</p>
       <div class="panel">
+        <div class="field"><label>Ktoré jedlá varíte?</label><div id="sloty-box"></div></div>
         <div class="field"><label>Stravníci (rôzne kalórie/deň)</label><div id="stravnici-box"></div><button class="btn" onclick="pridajStravnika()" style="margin-top:6px">+ pridať osobu</button></div>
         <div class="field"><label>Cieľ kalórií na deň (kcal)</label><input type="number" id="p-kcal" value="1450"></div>
         <div class="field"><label>Cieľ bielkovín na deň (g, 0 = vypnuté)</label><input type="number" id="p-biel" value="0"></div>
@@ -417,6 +444,10 @@
         <p class="info">Ak zdieľaš appku s viacerými ľuďmi cez jeden Supabase, každý nech má vlastné Sync ID (rôzni ľudia = rôzne ID). Rovnaké ID = zdieľané dáta medzi tvojimi zariadeniami.</p>
         <label class="switch"><input type="checkbox" id="p-syncoff" onchange="S.profil.syncOff=this.checked;save()"> Vypnúť synchronizáciu na tomto zariadení</label>
         <div class="field"><label>Sync ID</label><input type="text" id="p-syncid" placeholder="napr. lukas-domacnost" onchange="S.profil.syncId=this.value;save()"></div>
+      </div>
+      <div class="panel"><h3>Účet a skupina</h3>
+        <p class="info">Prihlás sa a vytvor skupinu — pozvaní členovia uvidia a môžu upravovať tvoj plán, nákupný zoznam a špajzu. Obľúbené, poznámky, váhy a profil ostávajú súkromné.</p>
+        <div id="ucet-box"></div>
       </div>
       <div class="panel"><h3>Appka na mobile</h3>
         <p class="info">Otvor tento súbor v mobilnom prehliadači a daj „Pridať na plochu" — kuchárka sa bude tváriť ako appka. Obľúbené, plán a nastavenia sa ukladajú v danom zariadení.</p>
