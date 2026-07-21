@@ -239,7 +239,7 @@ function otvor(id, ctx){
   const foto=r.foto?`<img src="recepty/fotky/${r.foto}" style="width:100%;max-height:280px;object-fit:cover;border-radius:12px;margin-bottom:14px">`:"";
   const hs=healthScore(r); const pod=Math.round(podielCiela(r)*100);
   const hsBadge=hs.p100>0?`<span class="badge hs-${hs.farba}" title="bielkoviny na 100 kcal">💪 ${fmt(hs.p100)} g/100 kcal</span>`:'';
-  const ringBadge=pod>0?`<span class="ring" style="background:conic-gradient(var(--accent) ${pod*3.6}deg, var(--line) 0)" title="podiel jednej porcie na dennom cieli"><b>${pod}%</b></span> <span class="badge">podiel dňa</span>`:'';
+  const ringBadge=(hs.p100>0 && pod>0)?`<span class="ring" style="background:conic-gradient(var(--accent) ${pod*3.6}deg, var(--line) 0)" title="podiel jednej porcie na dennom cieli"><b>${pod}%</b></span> <span class="badge">podiel dňa</span>`:'';
   const badges=[hsBadge,ringBadge,jeVakcii(r)?'<span class="badge price">🏷️ v akcii</span>':'',jeSezonne(r)?'<span class="badge">🌿 sezónne</span>':'',d.veg?'<span class="badge">🌱 vegetariánske</span>':'',d.bezlepku?'<span class="badge">bez lepku</span>':'',d.bezlaktozy?'<span class="badge">bez laktózy</span>':'',...al.map(a=>`<span class="badge alerg">⚠ ${a}</span>`)].join('');
   const hod=S.hodn[r.id]||0;
   const stars=[1,2,3,4,5].map(i=>`<span class="${i<=hod?'on':''}" onclick="hodnot('${r.id}',${i})">★</span>`).join('');
