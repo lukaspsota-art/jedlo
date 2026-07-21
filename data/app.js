@@ -80,6 +80,10 @@ function vyzivaReceptu(r){
 }
 function kcalPorcia(r){ const v=vyzivaReceptu(r); return v.kcal>5?Math.round(v.kcal):(r.kcal_na_porciu||0); }
 function cenaPorcia(r){ return vyzivaReceptu(r).cena; }
+const HS_HI=10, HS_LO=5; // g bielkovín na 100 kcal: ≥HI green, ≥LO amber, inak red (laditeľné)
+function healthScore(r){ const v=vyzivaReceptu(r); if(!(v.kcal>5)) return {p100:0,farba:"red"};
+  const p100=v.b/(v.kcal/100); return {p100:p100, farba: p100>=HS_HI?"green":(p100>=HS_LO?"amber":"red")}; }
+function podielCiela(r){ const ciel=S.profil.kcal||0; if(!(ciel>0)) return 0; return Math.max(0,Math.min(1, kcalPorcia(r)/ciel)); }
 function alergenyReceptu(r){ const set=new Set();
   (r.ingrediencie||[]).forEach(i=>{const p=najdiPotravinu(i.nazov); if(p)(p.alergeny||[]).forEach(a=>set.add(a));});
   return Array.from(set); }
@@ -675,7 +679,7 @@ function nakupItems(){
   return rows;
 }
 function riadokNakup(r){ const en=r.nazov.replace(/'/g,"\\'");
-  const meno=r.klik?`<span class="sur-klik" onclick="surovinaInfo('${en}')" title="v ktorom recepte · čím nahradiť">${r.nazov}</span>`:r.nazov;
+  const meno=r.klik?`<span class="sur-klik" onclick="event.preventDefault();surovinaInfo('${en}')" title="v ktorom recepte · čím nahradiť">${r.nazov}</span>`:r.nazov;
   return `<label class="${r.ck?'checked':''}"><span class="nm2"><input type="checkbox" ${r.ck?'checked':''} ${r.doma?'disabled':''} onchange="checkNakup('${r.key}',this.checked)"> ${meno} — <b>${r.mnoz}</b>${r.akc?' <span class="badge price">🏷️ akcia</span>':''}${r.doma?' <span class="info">(máš doma)</span>':''}</span></label>`; }
 function renderNakup(){
   const box=document.getElementById("nakup-list");
