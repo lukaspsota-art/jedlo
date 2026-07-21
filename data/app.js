@@ -32,7 +32,7 @@ if(Array.isArray(S.mojeRecepty)) S.mojeRecepty.forEach(r=>{ if(!RECEPTY.some(x=>
 const VERZIA="v16";
 S.profil=Object.assign({osoby:2,kcal:1450,biel:0,ryby:false,lepok:false,mlieko:false,dark:false,big:false,balenia:true,watch:"",zakazane:"",kupSnack:true,cielTyp:"udrzanie",okno:false,oknostart:12,syncId:"",syncOff:false,skupinaId:"",skupinaKod:"",skupinaNazov:"",sloty:DEFAULT_SLOTY.slice()}, S.profil||{});
 if(S.ciel && !S.profil._migr){ S.profil.kcal=parseInt(S.ciel)||S.profil.kcal; S.profil._migr=1; }
-function save(){uloz(S); if(typeof syncPush==="function")syncPush(); if(typeof syncSkupinaPush==="function")syncSkupinaPush();}
+function save(){uloz(S); if(typeof syncPush==="function")syncPush(); if(typeof syncOsobnePush==="function")syncOsobnePush(); if(typeof syncSkupinaPush==="function")syncSkupinaPush();}
 
 function najdiPotravinu(nazov){
   const n=nazov.toLowerCase(); let best=null,dl=-1;
@@ -901,7 +901,8 @@ function naplnUcet(){ const box=document.getElementById("ucet-box"); if(!box)ret
     +'<div class="field"><label>Heslo</label><input type="password" id="au-pass" placeholder="aspoň 6 znakov"></div>'
     +'<div style="display:flex;gap:8px"><button onclick="uiLogin()">Prihlásiť</button><button class="ghost" onclick="uiSignup()">Registrovať</button></div>'
     +'<p class="info" id="au-msg"></p>'; return; }
-  let h='<p class="info">Prihlásený: <b>'+(u.email||"").replace(/</g,"&lt;")+'</b> &nbsp;<a onclick="uiLogout()" style="cursor:pointer;color:var(--warn)">Odhlásiť</a></p>';
+  let h='<p class="info">Prihlásený: <b>'+(u.email||"").replace(/</g,"&lt;")+'</b> &nbsp;<a onclick="uiLogout()" style="cursor:pointer;color:var(--warn)">Odhlásiť</a></p>'
+    +'<p class="info">Tvoje osobné údaje (obľúbené, plán, nastavenia…) sa ukladajú k účtu a načítajú po prihlásení na hocijakom zariadení.</p>';
   if(!S.profil.skupinaId){ h+='<p class="info">Skupina zdieľa plán, nákupný zoznam a špajzu s pozvanými členmi.</p>'
     +'<div style="display:flex;gap:8px;flex-wrap:wrap"><input type="text" id="au-nazov" placeholder="názov skupiny" style="flex:1;min-width:140px;padding:8px;border:1px solid var(--line);border-radius:8px"><button onclick="uiSkupinaVytvor()">Vytvoriť skupinu</button></div>'
     +'<div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap"><input type="text" id="au-kod" placeholder="pozývací kód" style="flex:1;min-width:140px;padding:8px;border:1px solid var(--line);border-radius:8px"><button class="ghost" onclick="uiSkupinaPripoj()">Pripojiť sa</button></div>'; }
@@ -912,7 +913,7 @@ function naplnUcet(){ const box=document.getElementById("ucet-box"); if(!box)ret
 function auMsg(t,err){ const m=document.getElementById("au-msg"); if(m){ m.textContent=t; m.style.color=err?"var(--warn)":"var(--ok,green)"; } }
 async function uiLogin(){ try{ await authLogin(document.getElementById("au-email").value.trim(),document.getElementById("au-pass").value); await syncSkupinaPull(); naplnUcet(); }catch(e){ auMsg(e.message,true); } }
 async function uiSignup(){ try{ await authSignup(document.getElementById("au-email").value.trim(),document.getElementById("au-pass").value); naplnUcet(); }catch(e){ auMsg(e.message,true); } }
-function uiLogout(){ authLogout(); naplnUcet(); }
+async function uiLogout(){ if(!confirm("Odhlásiť sa? Tvoje údaje ostanú uložené v účte a načítajú sa po ďalšom prihlásení. Z tohto zariadenia sa vyčistia."))return; await authLogout(); }
 async function uiSkupinaVytvor(){ try{ await skupinaVytvor(document.getElementById("au-nazov").value.trim()); naplnUcet(); }catch(e){ auMsg(e.message,true); } }
 async function uiSkupinaPripoj(){ try{ await skupinaPripoj(document.getElementById("au-kod").value); naplnUcet(); renderPlan(); renderNakup(); renderDash(); }catch(e){ auMsg(e.message,true); } }
 async function uiSkupinaOpusti(){ if(!confirm("Opustiť skupinu? Zdieľaný plán a nákup sa prestanú synchronizovať."))return; await skupinaOpusti(); naplnUcet(); }
@@ -1110,17 +1111,21 @@ async function authFetch(url,opts){ opts=opts||{}; opts.headers=Object.assign({}
 async function authLogin(email,pass){ if(!syncMozne())throw new Error("Synchronizácia nie je nastavená.");
   const r=await fetch(SYNC_CONFIG.url+"/auth/v1/token?grant_type=password",{method:"POST",headers:{apikey:SYNC_CONFIG.key,"Content-Type":"application/json"},body:JSON.stringify({email,password:pass})});
   const j=await r.json(); if(!r.ok||!j.access_token)throw new Error(j.error_description||j.msg||"Prihlásenie zlyhalo.");
-  authUloz({access_token:j.access_token,refresh_token:j.refresh_token,user:j.user}); }
+  authUloz({access_token:j.access_token,refresh_token:j.refresh_token,user:j.user});
+  await syncOsobnePull(); }
 async function authSignup(email,pass){ if(!syncMozne())throw new Error("Synchronizácia nie je nastavená.");
   const r=await fetch(SYNC_CONFIG.url+"/auth/v1/signup",{method:"POST",headers:{apikey:SYNC_CONFIG.key,"Content-Type":"application/json"},body:JSON.stringify({email,password:pass})});
   const j=await r.json(); if(!r.ok)throw new Error(j.error_description||j.msg||j.error||"Registrácia zlyhala.");
   if(j.access_token){ authUloz({access_token:j.access_token,refresh_token:j.refresh_token,user:j.user}); }
-  else { await authLogin(email,pass); } }
-function authLogout(){ authUloz(null); S.profil.skupinaId=""; S.profil.skupinaKod=""; S.profil.skupinaNazov=""; uloz(S); }
+  else { await authLogin(email,pass); return; }
+  // nový účet: nahraj doň aktuálne (lokálne) osobné dáta ako počiatočné
+  S._uid=(authUser()||{}).id; uloz(S); await syncOsobnePush(true); }
+async function authLogout(){ try{ await syncOsobnePush(true); await syncSkupinaPush(true); }catch(e){}
+  authUloz(null); try{ localStorage.removeItem(LS); }catch(e){} location.reload(); }
 function randKod(){ const abc="ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; const buf=new Uint32Array(10); crypto.getRandomValues(buf); let s=""; for(let i=0;i<10;i++)s+=abc[buf[i]%abc.length]; return "RODINA-"+s; } // 10× z 32-znak. abecedy (~50 bit) cez CSPRNG; abc.length delí 2^32 => bez modulo bias. ponytail: rate-limit na pridaj_sa je serverový strop, netreba pre domácnosť
 async function skupinaVytvor(nazov){ if(!authUser())throw new Error("Najprv sa prihlás.");
   const kod=randKod();
-  const r=await authFetch(SYNC_CONFIG.url+"/rest/v1/skupiny",{method:"POST",headers:{Prefer:"return=representation"},body:JSON.stringify({nazov:nazov||"Moja domácnosť",kod})});
+  const r=await authFetch(SYNC_CONFIG.url+"/rest/v1/skupiny",{method:"POST",headers:{Prefer:"return=representation"},body:JSON.stringify({nazov:nazov||"Moja domácnosť",kod,owner:authUser().id})});
   const j=await r.json(); if(!r.ok||!j[0])throw new Error((j&&j.message)||"Nepodarilo sa vytvoriť skupinu.");
   const sid=j[0].id;
   const rc=await authFetch(SYNC_CONFIG.url+"/rest/v1/clenstvo",{method:"POST",body:JSON.stringify({skupina_id:sid})});
@@ -1136,6 +1141,30 @@ async function skupinaPripoj(kod){ if(!authUser())throw new Error("Najprv sa pri
 async function skupinaOpusti(){ const sid=S.profil.skupinaId; if(sid&&authUser()){ try{ await authFetch(SYNC_CONFIG.url+"/rest/v1/clenstvo?skupina_id=eq."+encodeURIComponent(sid),{method:"DELETE"}); }catch(e){} }
   S.profil.skupinaId=""; S.profil.skupinaKod=""; S.profil.skupinaNazov=""; uloz(S); }
 function skupinaNakonfig(){ return syncMozne() && !!authUser() && !!S.profil.skupinaId; }
+// --- osobné dáta viazané na účet (obľúbené, plán, nastavenia…) ---
+// V skupine sú SHARED_FIELDS majetkom skupiny (idú do skupina_data), preto ich osobný blob vynecháva;
+// bez skupiny je plán/nákup/špajza osobný a ukladá sa tiež k účtu.
+let osobTimer=null;
+const OSOB_META=["_ts","_osobTs","_skupTs","_uid"];
+function osobneExcl(){ return S.profil.skupinaId ? SHARED_FIELDS : []; }
+function zbierOsobne(){ const o={}; const ex=osobneExcl(); for(const k in S){ if(OSOB_META.includes(k)||ex.includes(k))continue; o[k]=S[k]; } return o; }
+function pouziOsobne(d){ const ex=osobneExcl(); for(const k in d){ if(OSOB_META.includes(k)||ex.includes(k))continue; S[k]=d[k]; } }
+// ponytail: osobný blob = posledný vyhráva; pull pri prihlásení/štarte (nie pri každom fokuse) — pre 1 osobu na viacerých zariadeniach stačí
+function syncOsobnePush(hned){ if(!syncMozne()||!authUser())return Promise.resolve(); clearTimeout(osobTimer);
+  return new Promise(res=>{ osobTimer=setTimeout(async()=>{ try{ S._osobTs=Date.now(); uloz(S);
+    await authFetch(SYNC_CONFIG.url+"/rest/v1/pouzivatel_data",{method:"POST",headers:{Prefer:"resolution=merge-duplicates"},body:JSON.stringify({user_id:authUser().id,data:zbierOsobne(),ts:S._osobTs})}); }catch(e){} res(); }, hned?0:1500); }); }
+async function syncOsobnePull(){ if(!syncMozne()||!authUser())return; try{
+  const uid=authUser().id;
+  const r=await authFetch(SYNC_CONFIG.url+"/rest/v1/pouzivatel_data?user_id=eq."+encodeURIComponent(uid)+"&select=data,ts");
+  const j=await r.json();
+  if(Array.isArray(j)&&j[0]&&j[0].data){
+    if(j[0].ts>((S._osobTs)||0) || S._uid!==uid){ pouziOsobne(j[0].data); S._osobTs=j[0].ts; S._uid=uid; uloz(S); location.reload(); return; }
+    S._uid=uid; uloz(S);
+  } else {
+    // účet zatiaľ nemá dáta — pri prepnutí na iný účet vyčisti lokál, nech nededí cudzie údaje
+    if(S._uid && S._uid!==uid){ try{localStorage.removeItem(LS);}catch(e){} location.reload(); return; }
+    S._uid=uid; uloz(S);
+  } }catch(e){} }
 function zbierZdielane(){ const o={}; SHARED_FIELDS.forEach(f=>o[f]=S[f]); return o; }
 // ponytail: zdieľaný blob = posledný vyhráva + pull pri fokuse; per-field merge/realtime len ak sa domácnosť často „bije" o tú istú bunku
 function syncSkupinaPush(hned){ if(!skupinaNakonfig())return Promise.resolve(); clearTimeout(skupTimer);
@@ -1147,5 +1176,6 @@ async function syncSkupinaPull(){ if(!skupinaNakonfig())return; try{
     if(typeof renderPlan==="function")renderPlan(); if(typeof renderNakup==="function")renderNakup(); if(typeof renderDash==="function")renderDash(); } }catch(e){} }
 document.addEventListener("visibilitychange",()=>{ if(!document.hidden){ syncSkupinaPull(); } });
 if('serviceWorker' in navigator && location.protocol.startsWith('http')){ navigator.serviceWorker.register('sw.js').catch(()=>{}); }
-syncPull(); syncSkupinaPull();
+syncPull();
+(async()=>{ try{ if(typeof authUser==="function"&&authUser())await syncOsobnePull(); }catch(e){} syncSkupinaPull(); })();
 applyVzhlad(); naplnKuchyne(); renderChips(); renderGrid(); naplnJedalnicky(); naplnPotravinyDatalist(); aktualizujJednotky(); renderDash();

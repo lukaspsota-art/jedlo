@@ -53,10 +53,17 @@ Toto pridá prihlásenie a „skupiny": pozvaný člen uvidí a môže upravova�
    create table skupina_data (
      skupina_id uuid primary key references skupiny on delete cascade,
      data jsonb, ts bigint);
+   -- osobné dáta viazané na účet (obľúbené, plán, nastavenia… každý používateľ svoje)
+   create table pouzivatel_data (
+     user_id uuid primary key references auth.users default auth.uid(),
+     data jsonb, ts bigint);
 
    alter table skupiny enable row level security;
    alter table clenstvo enable row level security;
    alter table skupina_data enable row level security;
+   alter table pouzivatel_data enable row level security;
+   create policy ud_all on pouzivatel_data for all
+     using (user_id = auth.uid()) with check (user_id = auth.uid());
 
    create policy sk_sel on skupiny for select
      using (id in (select skupina_id from clenstvo where user_id = auth.uid()));
