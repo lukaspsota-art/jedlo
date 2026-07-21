@@ -410,6 +410,7 @@ function renderPlan(){
   SLOTY().forEach(slot=>{
     h+=`<tr><td class="slotname">${slot}</td>`;
     DNI.forEach((d,di)=>{ const ids=slotIds(di,slot); const f=pf(di,slot);
+      if(slotyDna(di).indexOf(slot)<0){ h+=`<td style="${tint(di)}"><div class="plan-cell vyp">vyp.</div></td>`; return; }
       if(ids.length){ let kc=0;
         const riadky=ids.map(cid=>{const k=komponent(cid); if(!k)return ""; kc+=kcalPorcia(k);
           const nm=k._priloha?`<span class="nm">+ ${k.nazov}</span>`:`<span class="nm" style="cursor:pointer;text-decoration:underline" onclick="otvor('${cid}',{di:${di},slot:'${slot}'})" title="Zobraziť recept">${k.nazov}</span>`;
@@ -421,7 +422,7 @@ function renderPlan(){
   });
   const ciel=parseInt(S.profil.kcal)||0;
   h+='<tr class="suma"><td>Σ kcal/deň</td>';
-  DNI.forEach((d,di)=>{ let sum=0; SLOTY().forEach(sl=>{ const f=pf(di,sl); slotIds(di,sl).forEach(cid=>{const r=komponent(cid); if(r)sum+=kcalPorcia(r)*f;}); }); sum=Math.round(sum);
+  DNI.forEach((d,di)=>{ let sum=0; slotyDna(di).forEach(sl=>{ const f=pf(di,sl); slotIds(di,sl).forEach(cid=>{const r=komponent(cid); if(r)sum+=kcalPorcia(r)*f;}); }); sum=Math.round(sum);
     const over=ciel&&sum>ciel*1.1; h+=`<td class="${over?'over':''}">${sum?sum+(ciel?'<span class="ciel-mini">/'+ciel+'</span>':''):""}${over?" ⚠":""}</td>`; });
   h+="</tr>"; t.innerHTML=h;
 }
