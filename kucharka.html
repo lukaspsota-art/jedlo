@@ -1092,23 +1092,29 @@ function generujJedalnicek(zamiesaj){
 }
 function kuchyneList(){ return [...new Set(RECEPTY.map(r=>r.kuchyna).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"sk")); }
 function otvorGenConfig(){ const cfg=S.genCfg; const dni=["Po","Ut","St","Št","Pi","So","Ne"]; const kuch=kuchyneList();
-  const fh=(cfg.filtre||[]).map((f,i)=>`<div class="sp-row"><span>${dni[f.od]}–${dni[f.do]}: <b>${f.kuchyna}</b></span><a onclick="zmazGenFilter(${i})" style="color:var(--warn);cursor:pointer">✕</a></div>`).join("")||'<p class="info">Zatiaľ žiadne filtre.</p>';
+  const popisPr=f=>[f.kuchyna,(f.veg?"bezmäso":""),(f.maxCas>0?("do "+f.maxCas+" min"):"")].filter(Boolean).join(" · ")||"(bez podmienky)";
+  const fh=(cfg.filtre||[]).map((f,i)=>`<div class="sp-row"><span>${dni[f.od]}–${dni[f.do]}: <b>${popisPr(f)}</b></span><a onclick="zmazGenFilter(${i})" style="color:var(--warn);cursor:pointer">✕</a></div>`).join("")||'<p class="info">Zatiaľ žiadne pravidlá.</p>';
   const denOpts=sel=>dni.map((d,i)=>`<option value="${i}" ${i===sel?"selected":""}>${d}</option>`).join("");
   let h=`<div class="hero"><button class="close" onclick="zavriPick()">✕</button><h2>⚙ Nastavenie generovania</h2></div><div class="content2">
     <label class="switch"><input type="checkbox" ${cfg.zachovat?"checked":""} onchange="S.genCfg.zachovat=this.checked;save()"> Zachovať už naplánované jedlá (kotvy — čo si nastavíš, generátor nechá)</label>
     <label class="switch"><input type="checkbox" ${cfg.cielMode?"checked":""} onchange="S.genCfg.cielMode=this.checked;save()"> Dorovnať dni na cieľ ${S.profil.kcal} kcal (upraví veľkosť porcií)</label>
-    <h4 class="sekcia">Kuchyňa pre rozsah dní</h4>
-    <div class="controls" style="align-items:center">
+    <label class="switch"><input type="checkbox" data-gen="nemaso" ${cfg.neMasoZaSebou?"checked":""} onchange="S.genCfg.neMasoZaSebou=this.checked;save()"> Nevariť rovnaké mäso v dvoch blokoch po sebe</label>
+    <h4 class="sekcia">Pravidlo pre rozsah dní</h4>
+    <div class="controls" style="align-items:center;flex-wrap:wrap">
       <select class="f" id="gf-od">${denOpts(0)}</select><span>–</span><select class="f" id="gf-do">${denOpts(6)}</select>
-      <select class="f" id="gf-kuch">${kuch.map(k=>`<option>${k}</option>`).join("")}</select>
-      <button class="btn" onclick="pridajGenFilter()">+ Pridať</button></div>
+      <select class="f" id="gf-kuch"><option value="">(kuchyňa: ľubovoľná)</option>${kuch.map(k=>`<option>${k}</option>`).join("")}</select>
+      <label class="switch" style="margin:0"><input type="checkbox" id="gf-veg"> bezmäso</label>
+      <input type="number" id="gf-cas" placeholder="do min" style="width:80px;padding:8px;border:1px solid var(--line);border-radius:8px">
+      <button class="btn" onclick="pridajGenFilter()">+ Pridať pravidlo</button></div>
     <div id="gf-list" style="margin-top:8px">${fh}</div>
     <div class="btn-row" style="margin-top:16px"><button class="btn primary" onclick="zavriPick();generujJedalnicek(true)">✨ Generovať</button></div>
   </div>`;
   document.getElementById("pick-modal").innerHTML=h; document.getElementById("pick-overlay").classList.add("open"); }
-function pridajGenFilter(){ const od=parseInt(document.getElementById("gf-od").value)||0, doo=parseInt(document.getElementById("gf-do").value)||0, kuchyna=document.getElementById("gf-kuch").value;
-  if(doo<od){ alert("Koniec rozsahu je pred začiatkom."); return; } if(!kuchyna){ alert("Vyber kuchyňu."); return; }
-  S.genCfg.filtre.push({od,do:doo,kuchyna}); save(); otvorGenConfig(); }
+function pridajGenFilter(){ const od=parseInt(document.getElementById("gf-od").value)||0, doo=parseInt(document.getElementById("gf-do").value)||0, kuchyna=document.getElementById("gf-kuch").value, veg=document.getElementById("gf-veg").checked, maxCas=parseInt(document.getElementById("gf-cas").value)||0;
+  if(doo<od){ alert("Koniec rozsahu je pred začiatkom."); return; }
+  if(!kuchyna && !veg && !(maxCas>0)){ alert("Nastav aspoň jednu podmienku (kuchyňa, bezmäso alebo čas)."); return; }
+  const pr={od,do:doo}; if(kuchyna)pr.kuchyna=kuchyna; if(veg)pr.veg=true; if(maxCas>0)pr.maxCas=maxCas;
+  S.genCfg.filtre.push(pr); save(); otvorGenConfig(); }
 function zmazGenFilter(i){ S.genCfg.filtre.splice(i,1); save(); otvorGenConfig(); }
 function vsetkyJedalnicky(){ return JEDALNICKY.concat(S.archiv||[]); }
 function naplnJedalnicky(){ const sel=document.getElementById("jed-select"); const btn=document.getElementById("jed-load"); if(!sel||!btn)return;
