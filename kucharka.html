@@ -1629,13 +1629,13 @@ async function authLogout(){ try{ await syncOsobnePush(true); await syncSkupinaP
   authUloz(null); try{ localStorage.removeItem(LS); }catch(e){} location.reload(); }
 function randKod(){ const abc="ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; const buf=new Uint32Array(10); crypto.getRandomValues(buf); let s=""; for(let i=0;i<10;i++)s+=abc[buf[i]%abc.length]; return "RODINA-"+s; } // 10× z 32-znak. abecedy (~50 bit) cez CSPRNG; abc.length delí 2^32 => bez modulo bias. ponytail: rate-limit na pridaj_sa je serverový strop, netreba pre domácnosť
 async function skupinaVytvor(nazov){ if(!authUser())throw new Error("Najprv sa prihlás.");
-  const kod=randKod();
-  const r=await authFetch(SYNC_CONFIG.url+"/rest/v1/skupiny",{method:"POST",headers:{Prefer:"return=representation"},body:JSON.stringify({nazov:nazov||"Moja domácnosť",kod,owner:authUser().id})});
-  const j=await r.json(); if(!r.ok||!j[0])throw new Error((j&&j.message)||"Nepodarilo sa vytvoriť skupinu.");
-  const sid=j[0].id;
+  // id generujeme klientom + return=minimal — owner nevidí skupinu cez SELECT, kým nie je členom (RLS), takže sa nečíta späť
+  const kod=randKod(); const sid=crypto.randomUUID(); const nz=nazov||"Moja domácnosť";
+  const r=await authFetch(SYNC_CONFIG.url+"/rest/v1/skupiny",{method:"POST",headers:{Prefer:"return=minimal"},body:JSON.stringify({id:sid,nazov:nz,kod,owner:authUser().id})});
+  if(!r.ok){ const e=await r.json().catch(()=>({})); throw new Error(e.message||"Nepodarilo sa vytvoriť skupinu."); }
   const rc=await authFetch(SYNC_CONFIG.url+"/rest/v1/clenstvo",{method:"POST",body:JSON.stringify({skupina_id:sid})});
   if(!rc.ok){ const e=await rc.json().catch(()=>({})); throw new Error(e.message||"Nepodarilo sa pridať členstvo."); }
-  S.profil.skupinaId=sid; S.profil.skupinaKod=kod; S.profil.skupinaNazov=j[0].nazov; uloz(S);
+  S.profil.skupinaId=sid; S.profil.skupinaKod=kod; S.profil.skupinaNazov=nz; uloz(S);
   await syncSkupinaPush(true); }
 async function skupinaPripoj(kod){ if(!authUser())throw new Error("Najprv sa prihlás.");
   kod=(kod||"").trim().toUpperCase();
