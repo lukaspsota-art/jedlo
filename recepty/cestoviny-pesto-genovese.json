@@ -1,0 +1,67 @@
+{
+  "id": "cestoviny-pesto-genovese",
+  "nazov": "Cestoviny s pestom genovese",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "20 min",
+  "kcal_na_porciu": 560,
+  "popis": "Cestoviny s domácim bazalkovým pestom, píniovými orieškami a parmezánom.",
+  "ingrediencie": [
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvá bazalka",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Píniové oriešky",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": "strúhaný"
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Bazalku, oriešky, cesnak, parmezán a olej rozmixuj na pesto, osoľ.",
+    "Cestoviny uvar al dente, odlož trochu vody.",
+    "Pesto zmiešaj s cestovinami a trochou vody na krém."
+  ],
+  "tipy": "Pesto nezohrievaj — pridaj ho k cestovinám mimo ohňa, aby ostalo zelené.",
+  "tagy": [
+    "cestoviny",
+    "talianske",
+    "vegetariánske"
+  ],
+  "foto": ""
+}

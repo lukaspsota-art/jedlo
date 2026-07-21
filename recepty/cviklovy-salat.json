@@ -1,0 +1,69 @@
+{
+  "id": "cviklovy-salat",
+  "nazov": "Cviklový šalát s chrenom",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 6,
+  "cas": "60 min",
+  "kcal_na_porciu": 90,
+  "popis": "Zavárkový cviklový šalát s chrenom a rascou — príloha k mäsu.",
+  "ingrediencie": [
+    {
+      "nazov": "Cvikla",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chren",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": "nastrúhaný"
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cviklu uvar v šupke domäkka, ošúp a nastrúhaj alebo nakrájaj na plátky.",
+    "Z vody, octu, cukru, soli a rasce priveď nálev k varu.",
+    "Cviklu zmiešaj s chrenom a zalej horúcim nálevom.",
+    "Nechaj vychladnúť a odležať v chladničke."
+  ],
+  "tipy": "Chren pridaj až k vychladnutej cvikle, aby nestratil ostrosť.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "šalát",
+    "príloha"
+  ],
+  "foto": ""
+}

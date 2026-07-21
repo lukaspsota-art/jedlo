@@ -1,0 +1,62 @@
+{
+  "id": "krupicova-kasa",
+  "nazov": "Krupicová kaša",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 300,
+  "popis": "Mliečna krupicová kaša s maslom, kakaom alebo škoricovým cukrom.",
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Krupica",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kakao",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": "na posypanie"
+    }
+  ],
+  "postup": [
+    "Mlieko priveď k varu s cukrom a štipkou soli.",
+    "Za stáleho miešania vsypávaj krupicu a var 3 minúty.",
+    "Nalej do misiek, posyp kakaom a pridaj maslo."
+  ],
+  "tipy": "Miešaj počas zasypávania, aby nevznikli hrudky.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "sladké",
+    "raňajky"
+  ],
+  "foto": ""
+}

@@ -1,0 +1,68 @@
+{
+  "id": "hrachova-kasa",
+  "nazov": "Hrachová kaša s cibuľkou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "60 min",
+  "kcal_na_porciu": 330,
+  "popis": "Hustá kaša z lúpaného hrachu, posypaná opraženou cibuľkou a slaninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Lúpaný hrach",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údená slanina",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majoránka",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Hrach namoč cez noc a uvar domäkka.",
+    "Uvarený hrach roztlač na kašu, osoľ a dochuť cesnakom a majoránkou.",
+    "Slaninu a cibuľu opraž na masti dozlata.",
+    "Kašu posyp opraženou cibuľkou so slaninou."
+  ],
+  "tipy": "Podávaj s kyslou uhorkou. Kašu môžeš rozriediť vodou z varenia.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "strukoviny"
+  ],
+  "foto": ""
+}

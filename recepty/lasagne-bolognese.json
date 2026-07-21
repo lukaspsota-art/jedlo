@@ -1,0 +1,100 @@
+{
+  "id": "lasagne-bolognese",
+  "nazov": "Lasagne bolognese",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 6,
+  "cas": "90 min",
+  "kcal_na_porciu": 560,
+  "popis": "Vrstvené cestovinové pláty s mäsovým ragú a bešamelom.",
+  "ingrediencie": [
+    {
+      "nazov": "Lasagne pláty",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mleté mäso",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": "konzerva"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 600,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Opraž cibuľu, mrkvu a cesnak, pridaj mäso a opeč.",
+    "Pridaj paradajky, osoľ a duš ragú 30 minút.",
+    "Z masla, múky a mlieka sprav bešamel.",
+    "Vrstvi ragú, pláty a bešamel, navrchu parmezán.",
+    "Zapekaj pri 190 °C asi 35 minút."
+  ],
+  "tipy": "Nechaj lasagne 10 minút postáť pred krájaním, aby držali tvar.",
+  "tagy": [
+    "cestoviny",
+    "talianske",
+    "mäso",
+    "zapekané"
+  ],
+  "foto": ""
+}

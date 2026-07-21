@@ -1,0 +1,88 @@
+{
+  "id": "zabijackovy-gulas",
+  "nazov": "Zabíjačkový guláš",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 6,
+  "cas": "90 min",
+  "kcal_na_porciu": 460,
+  "popis": "Tradičný guláš z bravčových vnútorností a mäsa s množstvom papriky a cesnaku.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčové mäso",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": "na kocky"
+    },
+    {
+      "nazov": "Bravčová pečeň",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údená slanina",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majoránka",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Feferónka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Slaninu vyškvar, pridaj nadrobno nakrájanú cibuľu a opeč dozlata.",
+    "Odstav, zamiešaj papriku, pridaj mäso a opeč.",
+    "Podlej vodou, pridaj rascu, cesnak a feferónku, dus domäkka.",
+    "Pečeň pridaj až v poslednej štvrťhodine, aby neztvrdla.",
+    "Dochuť majoránkou a soľou."
+  ],
+  "tipy": "Pečeň soľ až na konci, inak stvrdne. Podávaj s chlebom.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "bravčové",
+    "guláš"
+  ],
+  "foto": ""
+}

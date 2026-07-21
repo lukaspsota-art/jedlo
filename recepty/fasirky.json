@@ -1,0 +1,85 @@
+{
+  "id": "fasirky",
+  "nazov": "Fašírky (karbonátky)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "40 min",
+  "kcal_na_porciu": 420,
+  "popis": "Vyprážané mäsové placky z mletého mäsa s cesnakom a rožkom.",
+  "ingrediencie": [
+    {
+      "nazov": "Mleté mäso",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rožok",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "namočený"
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Strúhanka",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majoránka",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Namočený rožok vytlač a zmiešaj s mäsom, vajcom, cibuľou, cesnakom, horčicou a korením.",
+    "Vypracuj hmotu, vytvaruj placky a obaľ v strúhanke.",
+    "Vyprážaj na oleji z oboch strán dozlata."
+  ],
+  "tipy": "Podávaj so zemiakovou kašou. Hmotu nechaj chvíľu odležať.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "mäso"
+  ],
+  "foto": ""
+}

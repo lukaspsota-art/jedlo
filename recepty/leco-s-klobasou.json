@@ -1,0 +1,75 @@
+{
+  "id": "leco-s-klobasou",
+  "nazov": "Lečo s klobásou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "40 min",
+  "kcal_na_porciu": 360,
+  "popis": "Dusená paprika s paradajkami, cibuľou, klobásou a vajcom.",
+  "ingrediencie": [
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": "na pásiky"
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Klobása",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": "na kolieska"
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji opraž cibuľu a klobásu.",
+    "Pridaj papriku, dus 5 minút, potom pridaj paradajky.",
+    "Zamiešaj papriku (korenie), osoľ a dus domäkka.",
+    "Nakoniec vlej rozšľahané vajcia a mierne zamiešaj do zrazenia."
+  ],
+  "tipy": "Podávaj s chlebom alebo varenými zemiakmi. Vajcia sú voliteľné.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "zelenina",
+    "klobása"
+  ],
+  "foto": ""
+}

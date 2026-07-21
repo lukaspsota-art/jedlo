@@ -1,0 +1,80 @@
+{
+  "id": "cestoviny-puttanesca",
+  "nazov": "Špagety alla puttanesca",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 460,
+  "popis": "Výrazná omáčka z paradajok, olív, kapary a ančovičiek.",
+  "ingrediencie": [
+    {
+      "nazov": "Špagety",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": "konzerva, drvené"
+    },
+    {
+      "nazov": "Čierne olivy",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kapary",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ančovičky",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čili paprička",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": "na ozdobu",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji opraž cesnak, čili a ančovičky, kým sa rozpadnú.",
+    "Pridaj paradajky, olivy a kapary, duš 15 minút.",
+    "Cestoviny uvar al dente a zamiešaj do omáčky.",
+    "Posyp petržlenom."
+  ],
+  "tipy": "Ančovičky a kapary sú slané — soľ pridaj až nakoniec.",
+  "tagy": [
+    "cestoviny",
+    "talianske",
+    "ryby"
+  ],
+  "foto": ""
+}

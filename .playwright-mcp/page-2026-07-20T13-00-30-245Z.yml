@@ -1,0 +1,372 @@
+- generic [ref=f1e2]:
+  - complementary [ref=f1e3]:
+    - generic [ref=f1e4]: 🍲 Kuchárka
+    - navigation [ref=f1e5]:
+      - generic [ref=f1e6] [cursor=pointer]:
+        - generic [ref=f1e7]: 🏠
+        - text: Domov
+      - generic [ref=f1e8] [cursor=pointer]:
+        - generic [ref=f1e9]: 📖
+        - text: Recepty
+      - generic [ref=f1e10] [cursor=pointer]:
+        - generic [ref=f1e11]: 📅
+        - text: Plán
+      - generic [ref=f1e12] [cursor=pointer]:
+        - generic [ref=f1e13]: 🛒
+        - text: Nákup
+      - generic [ref=f1e14] [cursor=pointer]:
+        - generic [ref=f1e15]: 📊
+        - text: Výživa
+      - generic [ref=f1e16] [cursor=pointer]:
+        - generic [ref=f1e17]: 🧊
+        - text: Špajza
+    - generic [ref=f1e18]:
+      - generic [ref=f1e19] [cursor=pointer]:
+        - generic [ref=f1e20]: 🥫
+        - text: Čo mám doma
+      - generic [ref=f1e21] [cursor=pointer]:
+        - generic [ref=f1e22]: ⚙️
+        - text: Nastavenia
+  - generic [ref=f1e65]:
+    - heading "Plán týždňa" [level=2] [ref=f1e66]
+    - paragraph [ref=f1e67]: Klikni na jedlo pre recept · „✎ zmeniť" vymení jedlo.
+    - generic [ref=f1e68]:
+      - generic [ref=f1e69] [cursor=pointer]: 📋 Týždeň
+      - generic [ref=f1e70] [cursor=pointer]: 📆 Kalendár
+    - generic [ref=f1e71]:
+      - generic [ref=f1e72]:
+        - button "✨ Zostaviť jedálniček" [ref=f1e73] [cursor=pointer]
+        - button "⋯ Viac" [ref=f1e75] [cursor=pointer]
+      - generic [ref=f1e76]:
+        - checkbox "Blokový režim (navaríš raz, je sa viac dní)" [checked] [ref=f1e77]
+        - text: Blokový režim (navaríš raz, je sa viac dní)
+      - generic [ref=f1e78]:
+        - generic [ref=f1e79]: "Rozdelenie (klikni medzi dni):"
+        - generic [ref=f1e80]: Po
+        - generic "rozdeliť" [ref=f1e81] [cursor=pointer]: ·
+        - generic [ref=f1e82]: Ut
+        - generic "spojiť" [ref=f1e83] [cursor=pointer]: ✂
+        - generic [ref=f1e84]: St
+        - generic "rozdeliť" [ref=f1e85] [cursor=pointer]: ·
+        - generic [ref=f1e86]: Št
+        - generic "rozdeliť" [ref=f1e87] [cursor=pointer]: ·
+        - generic [ref=f1e88]: Pi
+        - generic "spojiť" [ref=f1e89] [cursor=pointer]: ✂
+        - generic [ref=f1e90]: So
+        - generic "rozdeliť" [ref=f1e91] [cursor=pointer]: ·
+        - generic [ref=f1e92]: Ne
+      - table [ref=f1e94]:
+        - rowgroup [ref=f1e95]:
+          - row [ref=f1e96]:
+            - cell [ref=f1e97]
+            - cell "Blok A · Po–Ut 🍳 plán varenia (Ne večer)" [ref=f1e98]: Blok A · Po–Ut🍳 plán varenia (Ne večer)
+            - cell "Blok B · St–Pi 🍳 plán varenia (Ut večer)" [ref=f1e99]: Blok B · St–Pi🍳 plán varenia (Ut večer)
+            - cell "Blok C · So–Ne 🍳 plán varenia (Pi večer)" [ref=f1e100]: Blok C · So–Ne🍳 plán varenia (Pi večer)
+          - row [ref=f1e101]:
+            - columnheader "Jedlo" [ref=f1e102]
+            - columnheader "Pon" [ref=f1e103]
+            - columnheader "Uto" [ref=f1e104]
+            - columnheader "Str" [ref=f1e105]
+            - columnheader "Štv" [ref=f1e106]
+            - columnheader "Pia" [ref=f1e107]
+            - columnheader "Sob" [ref=f1e108]
+            - columnheader "Ned" [ref=f1e109]
+          - row [ref=f1e110]:
+            - cell "Raňajky" [ref=f1e111]
+            - cell "Tortilla wrap so šunkou a eidamom ✕ 463 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e112]:
+              - generic [ref=f1e113] [cursor=pointer]:
+                - generic [ref=f1e114]:
+                  - generic "Zobraziť recept" [ref=f1e115]: Tortilla wrap so šunkou a eidamom
+                  - generic "odobrať" [ref=f1e116]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e117]: 463 kcal ✎
+                - generic [ref=f1e118]:
+                  - generic [ref=f1e119]: ✎ zmeniť
+                  - generic [ref=f1e120]: + doplnok
+            - cell "Tortilla wrap so šunkou a eidamom ✕ 463 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e121]:
+              - generic [ref=f1e122] [cursor=pointer]:
+                - generic [ref=f1e123]:
+                  - generic "Zobraziť recept" [ref=f1e124]: Tortilla wrap so šunkou a eidamom
+                  - generic "odobrať" [ref=f1e125]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e126]: 463 kcal ✎
+                - generic [ref=f1e127]:
+                  - generic [ref=f1e128]: ✎ zmeniť
+                  - generic [ref=f1e129]: + doplnok
+            - cell "Bageta (príloha) ✕ 216 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e130]:
+              - generic [ref=f1e131] [cursor=pointer]:
+                - generic [ref=f1e132]:
+                  - generic "Zobraziť recept" [ref=f1e133]: Bageta (príloha)
+                  - generic "odobrať" [ref=f1e134]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e135]: 216 kcal ✎
+                - generic [ref=f1e136]:
+                  - generic [ref=f1e137]: ✎ zmeniť
+                  - generic [ref=f1e138]: + doplnok
+            - cell "Bageta (príloha) ✕ 216 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e139]:
+              - generic [ref=f1e140] [cursor=pointer]:
+                - generic [ref=f1e141]:
+                  - generic "Zobraziť recept" [ref=f1e142]: Bageta (príloha)
+                  - generic "odobrať" [ref=f1e143]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e144]: 216 kcal ✎
+                - generic [ref=f1e145]:
+                  - generic [ref=f1e146]: ✎ zmeniť
+                  - generic [ref=f1e147]: + doplnok
+            - cell "Bageta (príloha) ✕ 216 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e148]:
+              - generic [ref=f1e149] [cursor=pointer]:
+                - generic [ref=f1e150]:
+                  - generic "Zobraziť recept" [ref=f1e151]: Bageta (príloha)
+                  - generic "odobrať" [ref=f1e152]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e153]: 216 kcal ✎
+                - generic [ref=f1e154]:
+                  - generic [ref=f1e155]: ✎ zmeniť
+                  - generic [ref=f1e156]: + doplnok
+            - cell "Koprový dip ✕ + Pečivo ✕ 396 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e157]:
+              - generic [ref=f1e158] [cursor=pointer]:
+                - generic [ref=f1e159]:
+                  - generic "Zobraziť recept" [ref=f1e160]: Koprový dip
+                  - generic "odobrať" [ref=f1e161]: ✕
+                - generic [ref=f1e162]:
+                  - generic [ref=f1e163]: + Pečivo
+                  - generic "odobrať" [ref=f1e164]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e165]: 396 kcal ✎
+                - generic [ref=f1e166]:
+                  - generic [ref=f1e167]: ✎ zmeniť
+                  - generic [ref=f1e168]: + doplnok
+            - cell "Koprový dip ✕ + Pečivo ✕ 396 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e169]:
+              - generic [ref=f1e170] [cursor=pointer]:
+                - generic [ref=f1e171]:
+                  - generic "Zobraziť recept" [ref=f1e172]: Koprový dip
+                  - generic "odobrať" [ref=f1e173]: ✕
+                - generic [ref=f1e174]:
+                  - generic [ref=f1e175]: + Pečivo
+                  - generic "odobrať" [ref=f1e176]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e177]: 396 kcal ✎
+                - generic [ref=f1e178]:
+                  - generic [ref=f1e179]: ✎ zmeniť
+                  - generic [ref=f1e180]: + doplnok
+          - row [ref=f1e181]:
+            - cell "Obed" [ref=f1e182]
+            - cell "Kuracie špízy s tzatziki ✕ + Ryža (príloha) ✕ 723 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e183]:
+              - generic [ref=f1e184] [cursor=pointer]:
+                - generic [ref=f1e185]:
+                  - generic "Zobraziť recept" [ref=f1e186]: Kuracie špízy s tzatziki
+                  - generic "odobrať" [ref=f1e187]: ✕
+                - generic [ref=f1e188]:
+                  - generic [ref=f1e189]: + Ryža (príloha)
+                  - generic "odobrať" [ref=f1e190]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e191]: 723 kcal ✎
+                - generic [ref=f1e192]:
+                  - generic [ref=f1e193]: ✎ zmeniť
+                  - generic [ref=f1e194]: + doplnok
+            - cell "Kuracie špízy s tzatziki ✕ + Ryža (príloha) ✕ 723 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e195]:
+              - generic [ref=f1e196] [cursor=pointer]:
+                - generic [ref=f1e197]:
+                  - generic "Zobraziť recept" [ref=f1e198]: Kuracie špízy s tzatziki
+                  - generic "odobrať" [ref=f1e199]: ✕
+                - generic [ref=f1e200]:
+                  - generic [ref=f1e201]: + Ryža (príloha)
+                  - generic "odobrať" [ref=f1e202]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e203]: 723 kcal ✎
+                - generic [ref=f1e204]:
+                  - generic [ref=f1e205]: ✎ zmeniť
+                  - generic [ref=f1e206]: + doplnok
+            - cell "Pizza so špenátovým základom ✕ + Ryža (príloha) ✕ 509 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e207]:
+              - generic [ref=f1e208] [cursor=pointer]:
+                - generic [ref=f1e209]:
+                  - generic "Zobraziť recept" [ref=f1e210]: Pizza so špenátovým základom
+                  - generic "odobrať" [ref=f1e211]: ✕
+                - generic [ref=f1e212]:
+                  - generic [ref=f1e213]: + Ryža (príloha)
+                  - generic "odobrať" [ref=f1e214]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e215]: 509 kcal ✎
+                - generic [ref=f1e216]:
+                  - generic [ref=f1e217]: ✎ zmeniť
+                  - generic [ref=f1e218]: + doplnok
+            - cell "Pizza so špenátovým základom ✕ + Ryža (príloha) ✕ 509 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e219]:
+              - generic [ref=f1e220] [cursor=pointer]:
+                - generic [ref=f1e221]:
+                  - generic "Zobraziť recept" [ref=f1e222]: Pizza so špenátovým základom
+                  - generic "odobrať" [ref=f1e223]: ✕
+                - generic [ref=f1e224]:
+                  - generic [ref=f1e225]: + Ryža (príloha)
+                  - generic "odobrať" [ref=f1e226]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e227]: 509 kcal ✎
+                - generic [ref=f1e228]:
+                  - generic [ref=f1e229]: ✎ zmeniť
+                  - generic [ref=f1e230]: + doplnok
+            - cell "Pizza so špenátovým základom ✕ + Ryža (príloha) ✕ 509 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e231]:
+              - generic [ref=f1e232] [cursor=pointer]:
+                - generic [ref=f1e233]:
+                  - generic "Zobraziť recept" [ref=f1e234]: Pizza so špenátovým základom
+                  - generic "odobrať" [ref=f1e235]: ✕
+                - generic [ref=f1e236]:
+                  - generic [ref=f1e237]: + Ryža (príloha)
+                  - generic "odobrať" [ref=f1e238]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e239]: 509 kcal ✎
+                - generic [ref=f1e240]:
+                  - generic [ref=f1e241]: ✎ zmeniť
+                  - generic [ref=f1e242]: + doplnok
+            - cell "Sticky Baked Chicken Thighs ✕ 672 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e243]:
+              - generic [ref=f1e244] [cursor=pointer]:
+                - generic [ref=f1e245]:
+                  - generic "Zobraziť recept" [ref=f1e246]: Sticky Baked Chicken Thighs
+                  - generic "odobrať" [ref=f1e247]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e248]: 672 kcal ✎
+                - generic [ref=f1e249]:
+                  - generic [ref=f1e250]: ✎ zmeniť
+                  - generic [ref=f1e251]: + doplnok
+            - cell "Sticky Baked Chicken Thighs ✕ 672 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e252]:
+              - generic [ref=f1e253] [cursor=pointer]:
+                - generic [ref=f1e254]:
+                  - generic "Zobraziť recept" [ref=f1e255]: Sticky Baked Chicken Thighs
+                  - generic "odobrať" [ref=f1e256]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e257]: 672 kcal ✎
+                - generic [ref=f1e258]:
+                  - generic [ref=f1e259]: ✎ zmeniť
+                  - generic [ref=f1e260]: + doplnok
+          - row [ref=f1e261]:
+            - cell "Večera" [ref=f1e262]
+            - cell "Rizoto z červenej repy ✕ 266 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e263]:
+              - generic [ref=f1e264] [cursor=pointer]:
+                - generic [ref=f1e265]:
+                  - generic "Zobraziť recept" [ref=f1e266]: Rizoto z červenej repy
+                  - generic "odobrať" [ref=f1e267]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e268]: 266 kcal ✎
+                - generic [ref=f1e269]:
+                  - generic [ref=f1e270]: ✎ zmeniť
+                  - generic [ref=f1e271]: + doplnok
+            - cell "Rizoto z červenej repy ✕ 266 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e272]:
+              - generic [ref=f1e273] [cursor=pointer]:
+                - generic [ref=f1e274]:
+                  - generic "Zobraziť recept" [ref=f1e275]: Rizoto z červenej repy
+                  - generic "odobrať" [ref=f1e276]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e277]: 266 kcal ✎
+                - generic [ref=f1e278]:
+                  - generic [ref=f1e279]: ✎ zmeniť
+                  - generic [ref=f1e280]: + doplnok
+            - cell "Zapečený baklažán s olomouckými tvarôžkami ✕ + Ryža (príloha) ✕ 351 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e281]:
+              - generic [ref=f1e282] [cursor=pointer]:
+                - generic [ref=f1e283]:
+                  - generic "Zobraziť recept" [ref=f1e284]: Zapečený baklažán s olomouckými tvarôžkami
+                  - generic "odobrať" [ref=f1e285]: ✕
+                - generic [ref=f1e286]:
+                  - generic [ref=f1e287]: + Ryža (príloha)
+                  - generic "odobrať" [ref=f1e288]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e289]: 351 kcal ✎
+                - generic [ref=f1e290]:
+                  - generic [ref=f1e291]: ✎ zmeniť
+                  - generic [ref=f1e292]: + doplnok
+            - cell "Zapečený baklažán s olomouckými tvarôžkami ✕ + Ryža (príloha) ✕ 351 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e293]:
+              - generic [ref=f1e294] [cursor=pointer]:
+                - generic [ref=f1e295]:
+                  - generic "Zobraziť recept" [ref=f1e296]: Zapečený baklažán s olomouckými tvarôžkami
+                  - generic "odobrať" [ref=f1e297]: ✕
+                - generic [ref=f1e298]:
+                  - generic [ref=f1e299]: + Ryža (príloha)
+                  - generic "odobrať" [ref=f1e300]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e301]: 351 kcal ✎
+                - generic [ref=f1e302]:
+                  - generic [ref=f1e303]: ✎ zmeniť
+                  - generic [ref=f1e304]: + doplnok
+            - cell "Zapečený baklažán s olomouckými tvarôžkami ✕ + Ryža (príloha) ✕ 351 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e305]:
+              - generic [ref=f1e306] [cursor=pointer]:
+                - generic [ref=f1e307]:
+                  - generic "Zobraziť recept" [ref=f1e308]: Zapečený baklažán s olomouckými tvarôžkami
+                  - generic "odobrať" [ref=f1e309]: ✕
+                - generic [ref=f1e310]:
+                  - generic [ref=f1e311]: + Ryža (príloha)
+                  - generic "odobrať" [ref=f1e312]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e313]: 351 kcal ✎
+                - generic [ref=f1e314]:
+                  - generic [ref=f1e315]: ✎ zmeniť
+                  - generic [ref=f1e316]: + doplnok
+            - cell "Tuniakový wrap s orechmi a zelerom ✕ 571 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e317]:
+              - generic [ref=f1e318] [cursor=pointer]:
+                - generic [ref=f1e319]:
+                  - generic "Zobraziť recept" [ref=f1e320]: Tuniakový wrap s orechmi a zelerom
+                  - generic "odobrať" [ref=f1e321]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e322]: 571 kcal ✎
+                - generic [ref=f1e323]:
+                  - generic [ref=f1e324]: ✎ zmeniť
+                  - generic [ref=f1e325]: + doplnok
+            - cell "Tuniakový wrap s orechmi a zelerom ✕ 571 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e326]:
+              - generic [ref=f1e327] [cursor=pointer]:
+                - generic [ref=f1e328]:
+                  - generic "Zobraziť recept" [ref=f1e329]: Tuniakový wrap s orechmi a zelerom
+                  - generic "odobrať" [ref=f1e330]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e331]: 571 kcal ✎
+                - generic [ref=f1e332]:
+                  - generic [ref=f1e333]: ✎ zmeniť
+                  - generic [ref=f1e334]: + doplnok
+          - row [ref=f1e335]:
+            - cell "Snack" [ref=f1e336]
+            - cell "Hrsť orieškov ✕ 174 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e337]:
+              - generic [ref=f1e338] [cursor=pointer]:
+                - generic [ref=f1e339]:
+                  - generic "Zobraziť recept" [ref=f1e340]: Hrsť orieškov
+                  - generic "odobrať" [ref=f1e341]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e342]: 174 kcal ✎
+                - generic [ref=f1e343]:
+                  - generic [ref=f1e344]: ✎ zmeniť
+                  - generic [ref=f1e345]: + doplnok
+            - cell "Hrsť orieškov ✕ 174 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e346]:
+              - generic [ref=f1e347] [cursor=pointer]:
+                - generic [ref=f1e348]:
+                  - generic "Zobraziť recept" [ref=f1e349]: Hrsť orieškov
+                  - generic "odobrať" [ref=f1e350]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e351]: 174 kcal ✎
+                - generic [ref=f1e352]:
+                  - generic [ref=f1e353]: ✎ zmeniť
+                  - generic [ref=f1e354]: + doplnok
+            - cell "Slané krekry ✕ 225 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e355]:
+              - generic [ref=f1e356] [cursor=pointer]:
+                - generic [ref=f1e357]:
+                  - generic "Zobraziť recept" [ref=f1e358]: Slané krekry
+                  - generic "odobrať" [ref=f1e359]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e360]: 225 kcal ✎
+                - generic [ref=f1e361]:
+                  - generic [ref=f1e362]: ✎ zmeniť
+                  - generic [ref=f1e363]: + doplnok
+            - cell "Slané krekry ✕ 225 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e364]:
+              - generic [ref=f1e365] [cursor=pointer]:
+                - generic [ref=f1e366]:
+                  - generic "Zobraziť recept" [ref=f1e367]: Slané krekry
+                  - generic "odobrať" [ref=f1e368]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e369]: 225 kcal ✎
+                - generic [ref=f1e370]:
+                  - generic [ref=f1e371]: ✎ zmeniť
+                  - generic [ref=f1e372]: + doplnok
+            - cell "Slané krekry ✕ 225 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e373]:
+              - generic [ref=f1e374] [cursor=pointer]:
+                - generic [ref=f1e375]:
+                  - generic "Zobraziť recept" [ref=f1e376]: Slané krekry
+                  - generic "odobrať" [ref=f1e377]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e378]: 225 kcal ✎
+                - generic [ref=f1e379]:
+                  - generic [ref=f1e380]: ✎ zmeniť
+                  - generic [ref=f1e381]: + doplnok
+            - cell "Tvarohový krém (typ Miša) ✕ 280 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e382]:
+              - generic [ref=f1e383] [cursor=pointer]:
+                - generic [ref=f1e384]:
+                  - generic "Zobraziť recept" [ref=f1e385]: Tvarohový krém (typ Miša)
+                  - generic "odobrať" [ref=f1e386]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e387]: 280 kcal ✎
+                - generic [ref=f1e388]:
+                  - generic [ref=f1e389]: ✎ zmeniť
+                  - generic [ref=f1e390]: + doplnok
+            - cell "Tvarohový krém (typ Miša) ✕ 280 kcal ✎ ✎ zmeniť + doplnok" [ref=f1e391]:
+              - generic [ref=f1e392] [cursor=pointer]:
+                - generic [ref=f1e393]:
+                  - generic "Zobraziť recept" [ref=f1e394]: Tvarohový krém (typ Miša)
+                  - generic "odobrať" [ref=f1e395]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=f1e396]: 280 kcal ✎
+                - generic [ref=f1e397]:
+                  - generic [ref=f1e398]: ✎ zmeniť
+                  - generic [ref=f1e399]: + doplnok
+          - row [ref=f1e400]:
+            - cell "Σ kcal/deň" [ref=f1e401]
+            - cell "1626 ⚠" [ref=f1e402]
+            - cell "1626 ⚠" [ref=f1e403]
+            - cell "1301" [ref=f1e404]
+            - cell "1301" [ref=f1e405]
+            - cell "1301" [ref=f1e406]
+            - cell "1919 ⚠" [ref=f1e407]
+            - cell "1919 ⚠" [ref=f1e408]

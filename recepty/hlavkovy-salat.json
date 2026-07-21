@@ -1,0 +1,61 @@
+{
+  "id": "hlavkovy-salat",
+  "nazov": "Hlávkový šalát na smotane",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "15 min",
+  "kcal_na_porciu": 120,
+  "popis": "Jemný hlávkový šalát so smotanovo-cesnakovou zálievkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Hlávkový šalát",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Šalát natrhaj a umy.",
+    "Zmiešaj smotanu, cesnak, ocot, cukor a soľ na zálievku.",
+    "Zálievku prelej cez šalát tesne pred podávaním."
+  ],
+  "tipy": "Zálievku pridaj až pred podávaním, aby šalát nezvädol.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "šalát"
+  ],
+  "foto": ""
+}

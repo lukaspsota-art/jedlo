@@ -1,0 +1,82 @@
+{
+  "id": "cisarsky-trhanec",
+  "nazov": "Cisársky trhanec",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 3,
+  "cas": "30 min",
+  "kcal_na_porciu": 420,
+  "popis": "Natrhaná nadýchaná palacinka s hrozienkami, posypaná cukrom.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrozienka",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": null,
+      "jednotka": "na posypanie",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Oddeľ bielky, vyšľahaj ich na tuhý sneh.",
+    "Žĺtky rozšľahaj s cukrom, mliekom, múkou, vanilkou a soľou.",
+    "Opatrne zamiešaj sneh a hrozienka.",
+    "Na masle vylej cesto, po zapečení spodku ho natrhaj vidličkou na kúsky a dopeč.",
+    "Posyp práškovým cukrom."
+  ],
+  "tipy": "Sneh z bielkov robí trhanec nadýchaným — miešaj ho jemne. Podávaj so slivkovým kompótom.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "sladké",
+    "dezert"
+  ],
+  "foto": ""
+}

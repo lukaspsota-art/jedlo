@@ -1,0 +1,75 @@
+{
+  "id": "zemiakova-baba",
+  "nazov": "Zemiaková baba",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 6,
+  "cas": "80 min",
+  "kcal_na_porciu": 340,
+  "popis": "Zapekané strúhané zemiaky s cesnakom, majoránkou a slaninou z rúry.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 1200,
+      "jednotka": "g",
+      "poznamka": "nastrúhané"
+    },
+    {
+      "nazov": "Údená slanina",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majoránka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Slaninu a cibuľu nakrájaj a opraž.",
+    "Strúhané zemiaky zmiešaj s vajcami, múkou, cesnakom, majoránkou, soľou a opraženou slaninou.",
+    "Zmes nalej do vymastenej zapekacej misy.",
+    "Peč pri 190 °C asi 60 minút do zlatista a chrumkava."
+  ],
+  "tipy": "Vrch potri masťou pre chrumkavú kôrku. Podávaj s kyslým mliekom alebo uhorkou.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "zemiaky",
+    "zapekané"
+  ],
+  "foto": ""
+}

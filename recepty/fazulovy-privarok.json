@@ -1,0 +1,81 @@
+{
+  "id": "fazulovy-privarok",
+  "nazov": "Fazuľový prívarok",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "70 min",
+  "kcal_na_porciu": 360,
+  "popis": "Krémový fazuľový prívarok so zápražkou a cesnakom.",
+  "ingrediencie": [
+    {
+      "nazov": "Biela fazuľa",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": "namočená"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bobkový list",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Namočenú fazuľu uvar s bobkovým listom domäkka.",
+    "Z masti, múky a papriky sprav zápražku.",
+    "Zápražku rozšľahaj do fazule, pridaj cesnak a povar.",
+    "Dochuť octom a soľou."
+  ],
+  "tipy": "Časť fazule roztlač pre krémovejšiu konzistenciu.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "strukoviny",
+    "prívarok"
+  ],
+  "foto": ""
+}

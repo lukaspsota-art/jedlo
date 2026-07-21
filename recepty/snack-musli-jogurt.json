@@ -1,0 +1,31 @@
+{
+  "id": "snack-musli-jogurt",
+  "nazov": "Müsli s jogurtom",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Biely jogurt zasypaný müsli.",
+  "ingrediencie": [
+    {
+      "nazov": "Jogurt",
+      "mnozstvo": 150,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Müsli",
+      "mnozstvo": 40,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Do jogurtu vsyp müsli a premiešaj."
+  ],
+  "tipy": "Doplň čerstvým ovocím.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "kupované"
+  ]
+}

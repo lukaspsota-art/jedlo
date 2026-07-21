@@ -1,0 +1,44 @@
+{
+  "id": "chlieb-so-sunkou-a-uhorkou",
+  "nazov": "Chlieb so šunkou a uhorkou",
+  "kategoria": "Raňajky",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 2,
+  "cas": "5 min",
+  "kcal_na_porciu": 300,
+  "popis": "Nátierané chleby so šunkou a čerstvou uhorkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Chlieb",
+      "mnozstvo": 4,
+      "jednotka": "plátok",
+      "poznamka": "2 ks/porciu"
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Šunka",
+      "mnozstvo": 120,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 150,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Plátky chleba potri maslom.",
+    "Poukladaj šunku a kolieska uhorky."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "rýchle"
+  ]
+}

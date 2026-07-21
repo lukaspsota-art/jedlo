@@ -1,0 +1,36 @@
+{
+  "id": "sushi-losos-maki",
+  "nazov": "Losos maki (sushi rolky)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Ázijská",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "50 min",
+  "kcal_na_porciu": 320,
+  "popis": "Klasické sushi rolky so sushi ryžou, čerstvým lososom, avokádom a uhorkou.",
+  "ingrediencie": [
+    {"nazov": "Sushi ryža", "mnozstvo": 300, "jednotka": "g", "poznamka": "okrúhlozrnná"},
+    {"nazov": "Ryžový ocot", "mnozstvo": 60, "jednotka": "ml", "poznamka": "na dochutenie ryže"},
+    {"nazov": "Cukor", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na dochutenie ryže"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "na dochutenie ryže"},
+    {"nazov": "Nori riasa", "mnozstvo": 6, "jednotka": "plátok", "poznamka": ""},
+    {"nazov": "Čerstvý losos", "mnozstvo": 200, "jednotka": "g", "poznamka": "sushi kvalita"},
+    {"nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Uhorka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Wasabi", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, na servírovanie"},
+    {"nazov": "Sójová omáčka", "mnozstvo": null, "jednotka": "", "poznamka": "na servírovanie"},
+    {"nazov": "Nakladaný zázvor", "mnozstvo": null, "jednotka": "", "poznamka": "na servírovanie"}
+  ],
+  "postup": [
+    "Ryžu prepláchni pod tečúcou vodou, kým nezostane čistá, a uvar podľa návodu.",
+    "Horúcu ryžu polej zmesou ryžového octu, cukru a soli, premiešaj a nechaj vychladnúť na telesnú teplotu.",
+    "Lososa, avokádo a uhorku narež na tenké dlhé prúžky.",
+    "Nori riasu polož lesklou stranou nadol na rolovaciu rohožku, natri vrstvou ryže a ponechaj hornú tretinu voľnú.",
+    "Na spodný okraj naukladaj prúžky lososa, avokáda a uhorky.",
+    "Rolovaním od spodu smerom nahor sformuj rolku, na konci pritlač a spoj navlhči.",
+    "Ostrým vlhkým nožom nakrájaj na kúsky asi 2 cm a podávaj so sójovou omáčkou, wasabi a zázvorom."
+  ],
+  "tipy": "Ryža musí byť vychladnutá na telesnú teplotu — horúca ryža rozmočí nori riasu.",
+  "foto": "",
+  "tagy": ["sushi", "ázijské", "losos"]
+}

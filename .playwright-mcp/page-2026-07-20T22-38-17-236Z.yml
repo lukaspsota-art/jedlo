@@ -1,0 +1,531 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]: 🍲 Kuchárka
+    - navigation [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - generic [ref=e7]: 🏠
+        - text: Domov
+      - generic [ref=e8] [cursor=pointer]:
+        - generic [ref=e9]: 📖
+        - text: Recepty
+      - generic [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: 📅
+        - text: Plán
+      - generic [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]: 🛒
+        - text: Nákup
+      - generic [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]: 📊
+        - text: Výživa
+      - generic [ref=e16] [cursor=pointer]:
+        - generic [ref=e17]: 🧊
+        - text: Špajza
+    - generic [ref=e19] [cursor=pointer]:
+      - generic [ref=e20]: ⚙️
+      - text: Nastavenia
+  - generic [ref=e72]:
+    - heading "Plán týždňa" [level=2] [ref=e73]
+    - paragraph [ref=e74]: Klikni na jedlo pre recept · „✎ zmeniť" vymení jedlo.
+    - generic [ref=e75]:
+      - generic [ref=e76] [cursor=pointer]: 📋 Týždeň
+      - generic [ref=e77] [cursor=pointer]: 📆 Kalendár
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - button "✨ Zostaviť jedálniček" [ref=e80] [cursor=pointer]
+        - button "⋯ Viac" [ref=e82] [cursor=pointer]
+      - generic [ref=e83]:
+        - checkbox "Blokový režim (navaríš raz, je sa viac dní)" [checked] [ref=e84]
+        - text: Blokový režim (navaríš raz, je sa viac dní)
+      - generic [ref=e85]:
+        - generic [ref=e579]: "Rozdelenie (klikni medzi dni):"
+        - generic [ref=e580]: Po
+        - generic "rozdeliť" [ref=e581] [cursor=pointer]: ·
+        - generic [ref=e582]: Ut
+        - generic "spojiť" [ref=e583] [cursor=pointer]: ✂
+        - generic [ref=e584]: St
+        - generic "rozdeliť" [ref=e585] [cursor=pointer]: ·
+        - generic [ref=e586]: Št
+        - generic "rozdeliť" [ref=e587] [cursor=pointer]: ·
+        - generic [ref=e588]: Pi
+        - generic "spojiť" [ref=e589] [cursor=pointer]: ✂
+        - generic [ref=e590]: So
+        - generic "rozdeliť" [ref=e591] [cursor=pointer]: ·
+        - generic [ref=e592]: Ne
+      - table [ref=e101]:
+        - rowgroup [ref=e593]:
+          - row [ref=e594]:
+            - cell [ref=e595]
+            - cell "Blok A · Po–Ut 🍳 plán varenia (Ne večer)" [ref=e596]: Blok A · Po–Ut🍳 plán varenia (Ne večer)
+            - cell "Blok B · St–Pi 🍳 plán varenia (Ut večer)" [ref=e597]: Blok B · St–Pi🍳 plán varenia (Ut večer)
+            - cell "Blok C · So–Ne 🍳 plán varenia (Pi večer)" [ref=e598]: Blok C · So–Ne🍳 plán varenia (Pi večer)
+          - row [ref=e599]:
+            - columnheader "Jedlo" [ref=e600]
+            - columnheader "Pon" [ref=e601]
+            - columnheader "Uto" [ref=e602]
+            - columnheader "Str" [ref=e603]
+            - columnheader "Štv" [ref=e604]
+            - columnheader "Pia" [ref=e605]
+            - columnheader "Sob" [ref=e606]
+            - columnheader "Ned" [ref=e607]
+          - row [ref=e608]:
+            - cell "Raňajky" [ref=e609]
+            - cell "Bageta (príloha) ✕ 248 kcal · 115% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e610]:
+              - generic "Potiahni pre presun" [ref=e611] [cursor=pointer]:
+                - generic [ref=e612]:
+                  - generic "Zobraziť recept" [ref=e613]: Bageta (príloha)
+                  - generic "odobrať" [ref=e614]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e615]: 248 kcal · 115% ✎
+                - generic [ref=e616]:
+                  - generic [ref=e617]: ✎ zmeniť
+                  - generic [ref=e618]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e619]: 🎲 znova
+            - cell "Bageta (príloha) ✕ 248 kcal · 115% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e620]:
+              - generic "Potiahni pre presun" [ref=e621] [cursor=pointer]:
+                - generic [ref=e622]:
+                  - generic "Zobraziť recept" [ref=e623]: Bageta (príloha)
+                  - generic "odobrať" [ref=e624]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e625]: 248 kcal · 115% ✎
+                - generic [ref=e626]:
+                  - generic [ref=e627]: ✎ zmeniť
+                  - generic [ref=e628]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e629]: 🎲 znova
+            - cell "Celozrnný toastový chlieb ✕ 238 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e630]:
+              - generic "Potiahni pre presun" [ref=e631] [cursor=pointer]:
+                - generic [ref=e632]:
+                  - generic "Zobraziť recept" [ref=e633]: Celozrnný toastový chlieb
+                  - generic "odobrať" [ref=e634]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e635]: 238 kcal · 165% ✎
+                - generic [ref=e636]:
+                  - generic [ref=e637]: ✎ zmeniť
+                  - generic [ref=e638]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e639]: 🎲 znova
+            - cell "Celozrnný toastový chlieb ✕ 238 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e640]:
+              - generic "Potiahni pre presun" [ref=e641] [cursor=pointer]:
+                - generic [ref=e642]:
+                  - generic "Zobraziť recept" [ref=e643]: Celozrnný toastový chlieb
+                  - generic "odobrať" [ref=e644]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e645]: 238 kcal · 165% ✎
+                - generic [ref=e646]:
+                  - generic [ref=e647]: ✎ zmeniť
+                  - generic [ref=e648]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e649]: 🎲 znova
+            - cell "Celozrnný toastový chlieb ✕ 238 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e650]:
+              - generic "Potiahni pre presun" [ref=e651] [cursor=pointer]:
+                - generic [ref=e652]:
+                  - generic "Zobraziť recept" [ref=e653]: Celozrnný toastový chlieb
+                  - generic "odobrať" [ref=e654]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e655]: 238 kcal · 165% ✎
+                - generic [ref=e656]:
+                  - generic [ref=e657]: ✎ zmeniť
+                  - generic [ref=e658]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e659]: 🎲 znova
+            - cell "Crêpes s pečenými jablkami a kardamómom ✕ 598 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e660]:
+              - generic "Potiahni pre presun" [ref=e661] [cursor=pointer]:
+                - generic [ref=e662]:
+                  - generic "Zobraziť recept" [ref=e663]: Crêpes s pečenými jablkami a kardamómom
+                  - generic "odobrať" [ref=e664]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e665]: 598 kcal ✎
+                - generic [ref=e666]:
+                  - generic [ref=e667]: ✎ zmeniť
+                  - generic [ref=e668]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e669]: 🎲 znova
+            - cell "Crêpes s pečenými jablkami a kardamómom ✕ 598 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e670]:
+              - generic "Potiahni pre presun" [ref=e671] [cursor=pointer]:
+                - generic [ref=e672]:
+                  - generic "Zobraziť recept" [ref=e673]: Crêpes s pečenými jablkami a kardamómom
+                  - generic "odobrať" [ref=e674]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e675]: 598 kcal ✎
+                - generic [ref=e676]:
+                  - generic [ref=e677]: ✎ zmeniť
+                  - generic [ref=e678]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e679]: 🎲 znova
+          - row [ref=e680]:
+            - cell "Desiata" [ref=e681]
+            - cell "Pomazánka z nakladaných paprík ✕ + Pečivo ✕ 488 kcal · 115% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e682]:
+              - generic "Potiahni pre presun" [ref=e683] [cursor=pointer]:
+                - generic [ref=e684]:
+                  - generic "Zobraziť recept" [ref=e685]: Pomazánka z nakladaných paprík
+                  - generic "odobrať" [ref=e686]: ✕
+                - generic [ref=e687]:
+                  - generic [ref=e688]: + Pečivo
+                  - generic "odobrať" [ref=e689]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e690]: 488 kcal · 115% ✎
+                - generic [ref=e691]:
+                  - generic [ref=e692]: ✎ zmeniť
+                  - generic [ref=e693]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e694]: 🎲 znova
+            - cell "Pomazánka z nakladaných paprík ✕ + Pečivo ✕ 488 kcal · 115% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e695]:
+              - generic "Potiahni pre presun" [ref=e696] [cursor=pointer]:
+                - generic [ref=e697]:
+                  - generic "Zobraziť recept" [ref=e698]: Pomazánka z nakladaných paprík
+                  - generic "odobrať" [ref=e699]: ✕
+                - generic [ref=e700]:
+                  - generic [ref=e701]: + Pečivo
+                  - generic "odobrať" [ref=e702]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e703]: 488 kcal · 115% ✎
+                - generic [ref=e704]:
+                  - generic [ref=e705]: ✎ zmeniť
+                  - generic [ref=e706]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e707]: 🎲 znova
+            - cell "Čučoriedkové energy guľky ✕ 178 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e708]:
+              - generic "Potiahni pre presun" [ref=e709] [cursor=pointer]:
+                - generic [ref=e710]:
+                  - generic "Zobraziť recept" [ref=e711]: Čučoriedkové energy guľky
+                  - generic "odobrať" [ref=e712]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e713]: 178 kcal · 165% ✎
+                - generic [ref=e714]:
+                  - generic [ref=e715]: ✎ zmeniť
+                  - generic [ref=e716]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e717]: 🎲 znova
+            - cell "Čučoriedkové energy guľky ✕ 178 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e718]:
+              - generic "Potiahni pre presun" [ref=e719] [cursor=pointer]:
+                - generic [ref=e720]:
+                  - generic "Zobraziť recept" [ref=e721]: Čučoriedkové energy guľky
+                  - generic "odobrať" [ref=e722]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e723]: 178 kcal · 165% ✎
+                - generic [ref=e724]:
+                  - generic [ref=e725]: ✎ zmeniť
+                  - generic [ref=e726]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e727]: 🎲 znova
+            - cell "Čučoriedkové energy guľky ✕ 178 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e728]:
+              - generic "Potiahni pre presun" [ref=e729] [cursor=pointer]:
+                - generic [ref=e730]:
+                  - generic "Zobraziť recept" [ref=e731]: Čučoriedkové energy guľky
+                  - generic "odobrať" [ref=e732]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e733]: 178 kcal · 165% ✎
+                - generic [ref=e734]:
+                  - generic [ref=e735]: ✎ zmeniť
+                  - generic [ref=e736]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e737]: 🎲 znova
+            - cell "Gravlax s červenou repou ✕ 147 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e738]:
+              - generic "Potiahni pre presun" [ref=e739] [cursor=pointer]:
+                - generic [ref=e740]:
+                  - generic "Zobraziť recept" [ref=e741]: Gravlax s červenou repou
+                  - generic "odobrať" [ref=e742]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e743]: 147 kcal ✎
+                - generic [ref=e744]:
+                  - generic [ref=e745]: ✎ zmeniť
+                  - generic [ref=e746]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e747]: 🎲 znova
+            - cell "Gravlax s červenou repou ✕ 147 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e748]:
+              - generic "Potiahni pre presun" [ref=e749] [cursor=pointer]:
+                - generic [ref=e750]:
+                  - generic "Zobraziť recept" [ref=e751]: Gravlax s červenou repou
+                  - generic "odobrať" [ref=e752]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e753]: 147 kcal ✎
+                - generic [ref=e754]:
+                  - generic [ref=e755]: ✎ zmeniť
+                  - generic [ref=e756]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e757]: 🎲 znova
+          - row [ref=e758]:
+            - cell "Obed" [ref=e759]
+            - cell "Cícerové kari (vegetariánske) ✕ + Ryža (príloha) ✕ 649 kcal · 115% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e760]:
+              - generic "Potiahni pre presun" [ref=e761] [cursor=pointer]:
+                - generic [ref=e762]:
+                  - generic "Zobraziť recept" [ref=e763]: Cícerové kari (vegetariánske)
+                  - generic "odobrať" [ref=e764]: ✕
+                - generic [ref=e765]:
+                  - generic [ref=e766]: + Ryža (príloha)
+                  - generic "odobrať" [ref=e767]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e768]: 649 kcal · 115% ✎
+                - generic [ref=e769]:
+                  - generic [ref=e770]: ✎ zmeniť
+                  - generic [ref=e771]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e772]: 🎲 znova
+            - cell "Cícerové kari (vegetariánske) ✕ + Ryža (príloha) ✕ 649 kcal · 115% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e773]:
+              - generic "Potiahni pre presun" [ref=e774] [cursor=pointer]:
+                - generic [ref=e775]:
+                  - generic "Zobraziť recept" [ref=e776]: Cícerové kari (vegetariánske)
+                  - generic "odobrať" [ref=e777]: ✕
+                - generic [ref=e778]:
+                  - generic [ref=e779]: + Ryža (príloha)
+                  - generic "odobrať" [ref=e780]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e781]: 649 kcal · 115% ✎
+                - generic [ref=e782]:
+                  - generic [ref=e783]: ✎ zmeniť
+                  - generic [ref=e784]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e785]: 🎲 znova
+            - cell "Pastierska tarhoňa ✕ 853 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e786]:
+              - generic "Potiahni pre presun" [ref=e787] [cursor=pointer]:
+                - generic [ref=e788]:
+                  - generic "Zobraziť recept" [ref=e789]: Pastierska tarhoňa
+                  - generic "odobrať" [ref=e790]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e791]: 853 kcal · 165% ✎
+                - generic [ref=e792]:
+                  - generic [ref=e793]: ✎ zmeniť
+                  - generic [ref=e794]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e795]: 🎲 znova
+            - cell "Pastierska tarhoňa ✕ 853 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e796]:
+              - generic "Potiahni pre presun" [ref=e797] [cursor=pointer]:
+                - generic [ref=e798]:
+                  - generic "Zobraziť recept" [ref=e799]: Pastierska tarhoňa
+                  - generic "odobrať" [ref=e800]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e801]: 853 kcal · 165% ✎
+                - generic [ref=e802]:
+                  - generic [ref=e803]: ✎ zmeniť
+                  - generic [ref=e804]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e805]: 🎲 znova
+            - cell "Pastierska tarhoňa ✕ 853 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e806]:
+              - generic "Potiahni pre presun" [ref=e807] [cursor=pointer]:
+                - generic [ref=e808]:
+                  - generic "Zobraziť recept" [ref=e809]: Pastierska tarhoňa
+                  - generic "odobrať" [ref=e810]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e811]: 853 kcal · 165% ✎
+                - generic [ref=e812]:
+                  - generic [ref=e813]: ✎ zmeniť
+                  - generic [ref=e814]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e815]: 🎲 znova
+            - cell "Ražné zemiakové placky s hríbmi ✕ 597 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e816]:
+              - generic "Potiahni pre presun" [ref=e817] [cursor=pointer]:
+                - generic [ref=e818]:
+                  - generic "Zobraziť recept" [ref=e819]: Ražné zemiakové placky s hríbmi
+                  - generic "odobrať" [ref=e820]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e821]: 597 kcal ✎
+                - generic [ref=e822]:
+                  - generic [ref=e823]: ✎ zmeniť
+                  - generic [ref=e824]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e825]: 🎲 znova
+            - cell "Ražné zemiakové placky s hríbmi ✕ 597 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e826]:
+              - generic "Potiahni pre presun" [ref=e827] [cursor=pointer]:
+                - generic [ref=e828]:
+                  - generic "Zobraziť recept" [ref=e829]: Ražné zemiakové placky s hríbmi
+                  - generic "odobrať" [ref=e830]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e831]: 597 kcal ✎
+                - generic [ref=e832]:
+                  - generic [ref=e833]: ✎ zmeniť
+                  - generic [ref=e834]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e835]: 🎲 znova
+          - row [ref=e836]:
+            - cell "Olovrant" [ref=e837]
+            - cell "Pohánková bábovka s brusnicami ✕ 264 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e838]:
+              - generic "Potiahni pre presun" [ref=e839] [cursor=pointer]:
+                - generic [ref=e840]:
+                  - generic "Zobraziť recept" [ref=e841]: Pohánková bábovka s brusnicami
+                  - generic "odobrať" [ref=e842]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e843]: 264 kcal ✎
+                - generic [ref=e844]:
+                  - generic [ref=e845]: ✎ zmeniť
+                  - generic [ref=e846]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e847]: 🎲 znova
+            - cell "Pohánková bábovka s brusnicami ✕ 264 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e848]:
+              - generic "Potiahni pre presun" [ref=e849] [cursor=pointer]:
+                - generic [ref=e850]:
+                  - generic "Zobraziť recept" [ref=e851]: Pohánková bábovka s brusnicami
+                  - generic "odobrať" [ref=e852]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e853]: 264 kcal ✎
+                - generic [ref=e854]:
+                  - generic [ref=e855]: ✎ zmeniť
+                  - generic [ref=e856]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e857]: 🎲 znova
+            - cell "Cottage nátierka s paradajkou a bazalkou ✕ + Pečivo ✕ 465 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e858]:
+              - generic "Potiahni pre presun" [ref=e859] [cursor=pointer]:
+                - generic [ref=e860]:
+                  - generic "Zobraziť recept" [ref=e861]: Cottage nátierka s paradajkou a bazalkou
+                  - generic "odobrať" [ref=e862]: ✕
+                - generic [ref=e863]:
+                  - generic [ref=e864]: + Pečivo
+                  - generic "odobrať" [ref=e865]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e866]: 465 kcal · 165% ✎
+                - generic [ref=e867]:
+                  - generic [ref=e868]: ✎ zmeniť
+                  - generic [ref=e869]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e870]: 🎲 znova
+            - cell "Cottage nátierka s paradajkou a bazalkou ✕ + Pečivo ✕ 465 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e871]:
+              - generic "Potiahni pre presun" [ref=e872] [cursor=pointer]:
+                - generic [ref=e873]:
+                  - generic "Zobraziť recept" [ref=e874]: Cottage nátierka s paradajkou a bazalkou
+                  - generic "odobrať" [ref=e875]: ✕
+                - generic [ref=e876]:
+                  - generic [ref=e877]: + Pečivo
+                  - generic "odobrať" [ref=e878]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e879]: 465 kcal · 165% ✎
+                - generic [ref=e880]:
+                  - generic [ref=e881]: ✎ zmeniť
+                  - generic [ref=e882]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e883]: 🎲 znova
+            - cell "Cottage nátierka s paradajkou a bazalkou ✕ + Pečivo ✕ 465 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e884]:
+              - generic "Potiahni pre presun" [ref=e885] [cursor=pointer]:
+                - generic [ref=e886]:
+                  - generic "Zobraziť recept" [ref=e887]: Cottage nátierka s paradajkou a bazalkou
+                  - generic "odobrať" [ref=e888]: ✕
+                - generic [ref=e889]:
+                  - generic [ref=e890]: + Pečivo
+                  - generic "odobrať" [ref=e891]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e892]: 465 kcal · 165% ✎
+                - generic [ref=e893]:
+                  - generic [ref=e894]: ✎ zmeniť
+                  - generic [ref=e895]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e896]: 🎲 znova
+            - cell "Malinové muffiny ✕ 276 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e897]:
+              - generic "Potiahni pre presun" [ref=e898] [cursor=pointer]:
+                - generic [ref=e899]:
+                  - generic "Zobraziť recept" [ref=e900]: Malinové muffiny
+                  - generic "odobrať" [ref=e901]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e902]: 276 kcal ✎
+                - generic [ref=e903]:
+                  - generic [ref=e904]: ✎ zmeniť
+                  - generic [ref=e905]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e906]: 🎲 znova
+            - cell "Malinové muffiny ✕ 276 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e907]:
+              - generic "Potiahni pre presun" [ref=e908] [cursor=pointer]:
+                - generic [ref=e909]:
+                  - generic "Zobraziť recept" [ref=e910]: Malinové muffiny
+                  - generic "odobrať" [ref=e911]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e912]: 276 kcal ✎
+                - generic [ref=e913]:
+                  - generic [ref=e914]: ✎ zmeniť
+                  - generic [ref=e915]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e916]: 🎲 znova
+          - row [ref=e917]:
+            - cell "Večera" [ref=e918]
+            - cell "Kuracia shawarma miska ✕ 607 kcal · 115% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e919]:
+              - generic "Potiahni pre presun" [ref=e920] [cursor=pointer]:
+                - generic [ref=e921]:
+                  - generic "Zobraziť recept" [ref=e922]: Kuracia shawarma miska
+                  - generic "odobrať" [ref=e923]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e924]: 607 kcal · 115% ✎
+                - generic [ref=e925]:
+                  - generic [ref=e926]: ✎ zmeniť
+                  - generic [ref=e927]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e928]: 🎲 znova
+            - cell "Kuracia shawarma miska ✕ 607 kcal · 115% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e929]:
+              - generic "Potiahni pre presun" [ref=e930] [cursor=pointer]:
+                - generic [ref=e931]:
+                  - generic "Zobraziť recept" [ref=e932]: Kuracia shawarma miska
+                  - generic "odobrať" [ref=e933]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e934]: 607 kcal · 115% ✎
+                - generic [ref=e935]:
+                  - generic [ref=e936]: ✎ zmeniť
+                  - generic [ref=e937]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e938]: 🎲 znova
+            - cell "Melónový šalát s fetou a mätou ✕ 226 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e939]:
+              - generic "Potiahni pre presun" [ref=e940] [cursor=pointer]:
+                - generic [ref=e941]:
+                  - generic "Zobraziť recept" [ref=e942]: Melónový šalát s fetou a mätou
+                  - generic "odobrať" [ref=e943]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e944]: 226 kcal · 165% ✎
+                - generic [ref=e945]:
+                  - generic [ref=e946]: ✎ zmeniť
+                  - generic [ref=e947]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e948]: 🎲 znova
+            - cell "Melónový šalát s fetou a mätou ✕ 226 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e949]:
+              - generic "Potiahni pre presun" [ref=e950] [cursor=pointer]:
+                - generic [ref=e951]:
+                  - generic "Zobraziť recept" [ref=e952]: Melónový šalát s fetou a mätou
+                  - generic "odobrať" [ref=e953]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e954]: 226 kcal · 165% ✎
+                - generic [ref=e955]:
+                  - generic [ref=e956]: ✎ zmeniť
+                  - generic [ref=e957]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e958]: 🎲 znova
+            - cell "Melónový šalát s fetou a mätou ✕ 226 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e959]:
+              - generic "Potiahni pre presun" [ref=e960] [cursor=pointer]:
+                - generic [ref=e961]:
+                  - generic "Zobraziť recept" [ref=e962]: Melónový šalát s fetou a mätou
+                  - generic "odobrať" [ref=e963]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e964]: 226 kcal · 165% ✎
+                - generic [ref=e965]:
+                  - generic [ref=e966]: ✎ zmeniť
+                  - generic [ref=e967]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e968]: 🎲 znova
+            - cell "Zapečené penne s ricottou ✕ 507 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e969]:
+              - generic "Potiahni pre presun" [ref=e970] [cursor=pointer]:
+                - generic [ref=e971]:
+                  - generic "Zobraziť recept" [ref=e972]: Zapečené penne s ricottou
+                  - generic "odobrať" [ref=e973]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e974]: 507 kcal ✎
+                - generic [ref=e975]:
+                  - generic [ref=e976]: ✎ zmeniť
+                  - generic [ref=e977]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e978]: 🎲 znova
+            - cell "Zapečené penne s ricottou ✕ 507 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e979]:
+              - generic "Potiahni pre presun" [ref=e980] [cursor=pointer]:
+                - generic [ref=e981]:
+                  - generic "Zobraziť recept" [ref=e982]: Zapečené penne s ricottou
+                  - generic "odobrať" [ref=e983]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e984]: 507 kcal ✎
+                - generic [ref=e985]:
+                  - generic [ref=e986]: ✎ zmeniť
+                  - generic [ref=e987]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e988]: 🎲 znova
+          - row [ref=e989]:
+            - cell "Snack" [ref=e990]
+            - cell "Jablko ✕ 90 kcal · 115% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e991]:
+              - generic "Potiahni pre presun" [ref=e992] [cursor=pointer]:
+                - generic [ref=e993]:
+                  - generic "Zobraziť recept" [ref=e994]: Jablko
+                  - generic "odobrať" [ref=e995]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e996]: 90 kcal · 115% ✎
+                - generic [ref=e997]:
+                  - generic [ref=e998]: ✎ zmeniť
+                  - generic [ref=e999]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e1000]: 🎲 znova
+            - cell "Jablko ✕ 90 kcal · 115% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e1001]:
+              - generic "Potiahni pre presun" [ref=e1002] [cursor=pointer]:
+                - generic [ref=e1003]:
+                  - generic "Zobraziť recept" [ref=e1004]: Jablko
+                  - generic "odobrať" [ref=e1005]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e1006]: 90 kcal · 115% ✎
+                - generic [ref=e1007]:
+                  - generic [ref=e1008]: ✎ zmeniť
+                  - generic [ref=e1009]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e1010]: 🎲 znova
+            - cell "Ryžové chlebíčky s arašidovým maslom ✕ 366 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e1011]:
+              - generic "Potiahni pre presun" [ref=e1012] [cursor=pointer]:
+                - generic [ref=e1013]:
+                  - generic "Zobraziť recept" [ref=e1014]: Ryžové chlebíčky s arašidovým maslom
+                  - generic "odobrať" [ref=e1015]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e1016]: 366 kcal · 165% ✎
+                - generic [ref=e1017]:
+                  - generic [ref=e1018]: ✎ zmeniť
+                  - generic [ref=e1019]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e1020]: 🎲 znova
+            - cell "Ryžové chlebíčky s arašidovým maslom ✕ 366 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e1021]:
+              - generic "Potiahni pre presun" [ref=e1022] [cursor=pointer]:
+                - generic [ref=e1023]:
+                  - generic "Zobraziť recept" [ref=e1024]: Ryžové chlebíčky s arašidovým maslom
+                  - generic "odobrať" [ref=e1025]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e1026]: 366 kcal · 165% ✎
+                - generic [ref=e1027]:
+                  - generic [ref=e1028]: ✎ zmeniť
+                  - generic [ref=e1029]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e1030]: 🎲 znova
+            - cell "Ryžové chlebíčky s arašidovým maslom ✕ 366 kcal · 165% ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e1031]:
+              - generic "Potiahni pre presun" [ref=e1032] [cursor=pointer]:
+                - generic [ref=e1033]:
+                  - generic "Zobraziť recept" [ref=e1034]: Ryžové chlebíčky s arašidovým maslom
+                  - generic "odobrať" [ref=e1035]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e1036]: 366 kcal · 165% ✎
+                - generic [ref=e1037]:
+                  - generic [ref=e1038]: ✎ zmeniť
+                  - generic [ref=e1039]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e1040]: 🎲 znova
+            - cell "Syr s hroznom ✕ 209 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e1041]:
+              - generic "Potiahni pre presun" [ref=e1042] [cursor=pointer]:
+                - generic [ref=e1043]:
+                  - generic "Zobraziť recept" [ref=e1044]: Syr s hroznom
+                  - generic "odobrať" [ref=e1045]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e1046]: 209 kcal ✎
+                - generic [ref=e1047]:
+                  - generic [ref=e1048]: ✎ zmeniť
+                  - generic [ref=e1049]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e1050]: 🎲 znova
+            - cell "Syr s hroznom ✕ 209 kcal ✎ ✎ zmeniť + doplnok 🎲 znova" [ref=e1051]:
+              - generic "Potiahni pre presun" [ref=e1052] [cursor=pointer]:
+                - generic [ref=e1053]:
+                  - generic "Zobraziť recept" [ref=e1054]: Syr s hroznom
+                  - generic "odobrať" [ref=e1055]: ✕
+                - generic "Upraviť veľkosť porcie" [ref=e1056]: 209 kcal ✎
+                - generic [ref=e1057]:
+                  - generic [ref=e1058]: ✎ zmeniť
+                  - generic [ref=e1059]: + doplnok
+                  - generic "Vygenerovať znova len toto jedlo" [ref=e1060]: 🎲 znova
+          - row [ref=e1061]:
+            - cell "Σ kcal/deň" [ref=e1062]
+            - cell "2345 ⚠" [ref=e1063]
+            - cell "2345 ⚠" [ref=e1064]
+            - cell "2327 ⚠" [ref=e1065]
+            - cell "2327 ⚠" [ref=e1066]
+            - cell "2327 ⚠" [ref=e1067]
+            - cell "2334 ⚠" [ref=e1068]
+            - cell "2334 ⚠" [ref=e1069]

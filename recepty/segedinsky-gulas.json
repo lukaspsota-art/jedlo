@@ -1,0 +1,88 @@
+{
+  "id": "segedinsky-gulas",
+  "nazov": "Segedínsky guláš",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "90 min",
+  "kcal_na_porciu": 480,
+  "popis": "Bravčové mäso dusené s kyslou kapustou a smotanou. Podáva sa s knedľou.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčové pliecko",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": "na kocky"
+    },
+    {
+      "nazov": "Kyslá kapusta",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": "scedená"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na masti opraž nadrobno nakrájanú cibuľu dozlata.",
+    "Odstav, zamiešaj papriku, pridaj mäso a opraž.",
+    "Pridaj rascu, prelisovaný cesnak, osoľ a podlej vodou. Dus asi 45 minút.",
+    "Pridaj kapustu a dus ďalších 30 minút do mäkka.",
+    "Smotanu rozšľahaj s múkou, vmiešaj do guláša a povar do zhustnutia."
+  ],
+  "tipy": "Podávaj s knedľou. Ak je kapusta veľmi kyslá, prepláchni ju.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "kapusta",
+    "bravčové"
+  ],
+  "foto": ""
+}

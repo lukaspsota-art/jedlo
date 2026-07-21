@@ -1,0 +1,75 @@
+{
+  "id": "cestoviny-quattro-formaggi",
+  "nazov": "Cestoviny quattro formaggi",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "25 min",
+  "kcal_na_porciu": 640,
+  "popis": "Krémová omáčka zo štyroch druhov syra.",
+  "ingrediencie": [
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana na varenie",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Gorgonzola",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mozzarella",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ementál",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Smotanu s maslom zohrej.",
+    "Postupne vmiešaj nakrájané syry, kým sa rozpustia.",
+    "Cestoviny uvar al dente a zamiešaj do omáčky.",
+    "Dochuť korením."
+  ],
+  "tipy": "Gorgonzola je výrazná — množstvo uprav podľa chuti.",
+  "tagy": [
+    "cestoviny",
+    "talianske",
+    "syr",
+    "vegetariánske"
+  ],
+  "foto": ""
+}

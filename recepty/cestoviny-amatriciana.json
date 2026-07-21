@@ -1,0 +1,67 @@
+{
+  "id": "cestoviny-amatriciana",
+  "nazov": "Bucatini all'amatriciana",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 520,
+  "popis": "Paradajková omáčka s chrumkavou slaninou (guanciale) a pecorinom.",
+  "ingrediencie": [
+    {
+      "nazov": "Bucatini",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": "guanciale alebo pancetta"
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": "konzerva, drvené"
+    },
+    {
+      "nazov": "Čili paprička",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pecorino",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": "strúhaný"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Slaninu opraž na oleji dochrumkava, vyber časť na ozdobu.",
+    "Pridaj čili a paradajky, duš 15 minút.",
+    "Cestoviny uvar al dente a zamiešaj do omáčky.",
+    "Posyp pecorinom a slaninou."
+  ],
+  "tipy": "Tuk zo slaniny je základ chuti — nevylievaj ho.",
+  "tagy": [
+    "cestoviny",
+    "talianske"
+  ],
+  "foto": ""
+}

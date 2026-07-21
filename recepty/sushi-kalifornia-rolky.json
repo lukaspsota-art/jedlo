@@ -1,0 +1,36 @@
+{
+  "id": "sushi-kalifornia-rolky",
+  "nazov": "Kalifornské rolky (California rolls)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Ázijská",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "50 min",
+  "kcal_na_porciu": 300,
+  "popis": "Sushi rolky naopak — ryža navonok, s krabími tyčinkami, avokádom, uhorkou a sezamom.",
+  "ingrediencie": [
+    {"nazov": "Sushi ryža", "mnozstvo": 300, "jednotka": "g", "poznamka": "okrúhlozrnná"},
+    {"nazov": "Ryžový ocot", "mnozstvo": 60, "jednotka": "ml", "poznamka": "na dochutenie ryže"},
+    {"nazov": "Cukor", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na dochutenie ryže"},
+    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "na dochutenie ryže"},
+    {"nazov": "Nori riasa", "mnozstvo": 6, "jednotka": "plátok", "poznamka": ""},
+    {"nazov": "Krabie tyčinky", "mnozstvo": 200, "jednotka": "g", "poznamka": "surimi, nakrájané na prúžky"},
+    {"nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Uhorka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
+    {"nazov": "Sezamové semienko", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na obalenie rolky"},
+    {"nazov": "Majonéza", "mnozstvo": 2, "jednotka": "PL", "poznamka": "voliteľné, do plnky"},
+    {"nazov": "Sójová omáčka", "mnozstvo": null, "jednotka": "", "poznamka": "na servírovanie"}
+  ],
+  "postup": [
+    "Ryžu prepláchni pod tečúcou vodou, kým nezostane čistá, a uvar podľa návodu.",
+    "Horúcu ryžu polej zmesou ryžového octu, cukru a soli, premiešaj a nechaj vychladnúť na telesnú teplotu.",
+    "Krabie tyčinky, avokádo a uhorku narež na tenké dlhé prúžky.",
+    "Nori riasu polož na rolovaciu rohožku pod potravinovú fóliu, natri celú plochu vrstvou ryže a obráť naopak (ryža navonok, riasa dovnútra).",
+    "Na spodný okraj riasy naukladaj krabie tyčinky, avokádo, uhorku a trocha majonézy.",
+    "Rolovaním sformuj rolku s ryžou navonok, obaľ v sezamových semienkach.",
+    "Ostrým vlhkým nožom nakrájaj na kúsky a podávaj so sójovou omáčkou."
+  ],
+  "tipy": "Rolku obaľuj v potravinovej fólii — s ryžou navonok sa ľahšie tvaruje a nelepí na ruky.",
+  "foto": "",
+  "tagy": ["sushi", "ázijské", "krab"]
+}

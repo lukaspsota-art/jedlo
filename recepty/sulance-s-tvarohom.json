@@ -1,0 +1,69 @@
+{
+  "id": "sulance-s-tvarohom",
+  "nazov": "Šúľance s tvarohom",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "45 min",
+  "kcal_na_porciu": 460,
+  "popis": "Zemiakové šúľance obalené v sladkom tvarohu s maslom.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": "uvarené"
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvaroh",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z popučených zemiakov, múky, vajca a soli sprav cesto.",
+    "Váľaj tenké valčeky a krájaj šúľance.",
+    "Var v osolenej vode, po vyplávaní sceď.",
+    "Prehoď na masle a posyp tvarohom s cukrom."
+  ],
+  "tipy": "Tvaroh môžeš nahradiť makom alebo orechami.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "sladké",
+    "tvaroh"
+  ],
+  "foto": ""
+}

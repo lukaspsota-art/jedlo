@@ -1,0 +1,80 @@
+{
+  "id": "spagety-napoli",
+  "nazov": "Špagety napoli",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 440,
+  "popis": "Jednoduchá paradajková omáčka s cesnakom a bazalkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Špagety",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": "konzerva, drvené"
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvá bazalka",
+      "mnozstvo": null,
+      "jednotka": "na ozdobu",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji opraž cibuľu a cesnak.",
+    "Pridaj paradajky, cukor a soľ, duš 20 minút.",
+    "Špagety uvar al dente a zamiešaj do omáčky.",
+    "Posyp bazalkou a parmezánom."
+  ],
+  "tipy": "Štipka cukru vyváži kyslosť paradajok.",
+  "tagy": [
+    "cestoviny",
+    "talianske",
+    "vegetariánske"
+  ],
+  "foto": ""
+}

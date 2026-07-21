@@ -1,0 +1,81 @@
+{
+  "id": "furmanske-halusky",
+  "nazov": "Furmanské halušky",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "50 min",
+  "kcal_na_porciu": 540,
+  "popis": "Zemiakové halušky s kyslou kapustou, klobásou a slaninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": "nastrúhané"
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 220,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá kapusta",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Klobása",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údená slanina",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zo strúhaných zemiakov, múky, vajca a soli sprav cesto a uvar halušky.",
+    "Slaninu a klobásu opraž, pridaj cibuľu a scedenú kapustu, dus.",
+    "Zamiešaj papriku.",
+    "Uvarené halušky zmiešaj s kapustou, klobásou a slaninou."
+  ],
+  "tipy": "Výdatné jedlo pre chladné dni. Kapustu ochutnaj a podľa kyslosti uprav.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "zemiaky",
+    "kapusta"
+  ],
+  "foto": ""
+}

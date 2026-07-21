@@ -1,0 +1,32 @@
+{
+  "id": "snack-mrkva-hummus",
+  "nazov": "Mrkva s hummusom",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Mrkvové tyčinky namáčané v hummuse.",
+  "ingrediencie": [
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 150,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Hummus",
+      "mnozstvo": 50,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Mrkvu nakrájaj na tyčinky a namáčaj do hummusu."
+  ],
+  "tipy": "Funguje aj s paprikou alebo uhorkou.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "kupované",
+    "zelenina"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "sladka-kapustnica",
+  "nazov": "Sladká kapustová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "40 min",
+  "kcal_na_porciu": 180,
+  "popis": "Jemná polievka z hlávkovej kapusty so zemiakmi a smotanou.",
+  "ingrediencie": [
+    {
+      "nazov": "Biela kapusta",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": "nakrájaná"
+    },
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kôpor",
+      "mnozstvo": null,
+      "jednotka": "voliteľné",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na masti opraž cibuľu, zamiešaj papriku.",
+    "Pridaj kapustu, mrkvu a zemiaky, zalej vodou.",
+    "Var domäkka a osoľ.",
+    "Zjemni smotanou a posyp kôprom."
+  ],
+  "tipy": "Iná ako kyslá kapustnica — jemná a vhodná aj pre deti.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "polievka",
+    "kapusta"
+  ],
+  "foto": ""
+}

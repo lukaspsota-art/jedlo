@@ -1,0 +1,63 @@
+{
+  "id": "hemendex",
+  "nazov": "Hemendex (šunka s vajcom)",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 2,
+  "cas": "10 min",
+  "kcal_na_porciu": 300,
+  "popis": "Vajcia sadené na šunke, klasické teplé raňajky.",
+  "ingrediencie": [
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šunka",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pažítka",
+      "mnozstvo": null,
+      "jednotka": "na posypanie",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na masle zľahka opraž nakrájanú šunku.",
+    "Rozklep vajcia priamo na šunku.",
+    "Zľahka osoľ a smaž do stuhnutia bielka.",
+    "Posyp korením a pažítkou."
+  ],
+  "tipy": "Prikry pokrievkou, ak chceš žĺtok viac stuhnutý.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "vajcia",
+    "raňajky"
+  ],
+  "foto": ""
+}

@@ -1,0 +1,80 @@
+{
+  "id": "penne-alla-vodka",
+  "nazov": "Penne alla vodka",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 540,
+  "popis": "Krémová paradajková omáčka s vodkou a smotanou.",
+  "ingrediencie": [
+    {
+      "nazov": "Penne",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana na varenie",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji opraž cibuľu a cesnak, pridaj pretlak.",
+    "Zalej vodkou a nechaj odpariť alkohol.",
+    "Vmiešaj smotanu a povar do zhustnutia.",
+    "Zamiešaj uvarené penne a parmezán."
+  ],
+  "tipy": "Vodka zvýrazní chuť paradajok — necháj ju odpariť.",
+  "tagy": [
+    "cestoviny",
+    "talianske",
+    "smotanové"
+  ],
+  "foto": ""
+}

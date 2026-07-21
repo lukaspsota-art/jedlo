@@ -1,0 +1,62 @@
+{
+  "id": "ryzova-kasa",
+  "nazov": "Mliečna ryžová kaša",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 3,
+  "cas": "30 min",
+  "kcal_na_porciu": 320,
+  "popis": "Sladká ryža uvarená v mlieku, podávaná s kakaom, škoricou alebo ovocím.",
+  "ingrediencie": [
+    {
+      "nazov": "Ryža",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 600,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": "na posypanie"
+    }
+  ],
+  "postup": [
+    "Ryžu prepláchni a vsyp do vriaceho osladeného mlieka so štipkou soli.",
+    "Var na miernom ohni asi 20 minút do zmäknutia, občas premiešaj.",
+    "Pridaj maslo a posyp škoricovým cukrom."
+  ],
+  "tipy": "Ak kaša príliš zhustne, dolej mlieko.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "sladké",
+    "raňajky"
+  ],
+  "foto": ""
+}

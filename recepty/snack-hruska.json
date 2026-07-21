@@ -1,0 +1,27 @@
+{
+  "id": "snack-hruska",
+  "nazov": "Hruška",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "1 min",
+  "popis": "Čerstvá hruška.",
+  "ingrediencie": [
+    {
+      "nazov": "Hruška",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    }
+  ],
+  "postup": [
+    "Umy a zjedz."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "ovocie",
+    "kupované"
+  ]
+}

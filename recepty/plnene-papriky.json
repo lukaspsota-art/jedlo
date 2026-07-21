@@ -1,0 +1,88 @@
+{
+  "id": "plnene-papriky",
+  "nazov": "Plnené papriky v paradajkovej omáčke",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "80 min",
+  "kcal_na_porciu": 430,
+  "popis": "Papriky plnené mletým mäsom s ryžou, dusené v sladkokyslej paradajkovej omáčke.",
+  "ingrediencie": [
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 8,
+      "jednotka": "ks",
+      "poznamka": "na plnenie"
+    },
+    {
+      "nazov": "Mleté mäso",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": "bravčovo-hovädzie"
+    },
+    {
+      "nazov": "Ryža",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ryžu predvar do polomäkka. Zmiešaj mäso, ryžu, nasekanú cibuľu, vajce, soľ a korenie.",
+    "Papriky zbav jadier a naplň mäsom.",
+    "V hrnci sprav omáčku z pretlaku a vody, osoľ, osladz.",
+    "Papriky vlož do omáčky a dus asi 45 minút.",
+    "Omáčku zahusti zápražkou alebo rozmiešanou múkou."
+  ],
+  "tipy": "Vyváž sladkokyslú chuť. Podávaj s knedľou alebo zemiakmi.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "mäso",
+    "zelenina"
+  ],
+  "foto": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": "snack-vajce",
+  "nazov": "Vajce natvrdo",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "10 min",
+  "popis": "Vajce uvarené natvrdo.",
+  "ingrediencie": [
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 2,
+      "jednotka": "ks"
+    }
+  ],
+  "postup": [
+    "Var 10 min, ochlaď, olúp."
+  ],
+  "tipy": "Uvar viac dopredu na celý blok.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "kupované",
+    "bielkoviny"
+  ]
+}

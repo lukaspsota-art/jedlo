@@ -1,0 +1,76 @@
+{
+  "id": "bryndzove-pirohy",
+  "nazov": "Bryndzové pirohy",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "70 min",
+  "kcal_na_porciu": 520,
+  "popis": "Cestovinové vrecúška plnené bryndzou so zemiakmi, preliate slaninou.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": "vlažná"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": "uvarené"
+    },
+    {
+      "nazov": "Bryndza",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údená slanina",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vajca, vody a soli vypracuj vláčne cesto, nechaj odpočinúť 20 minút.",
+    "Uvarené zemiaky popučí a zmiešaj s bryndzou na plnku.",
+    "Cesto rozvaľkaj natenko, vykrajuj kolieska, na každé daj plnku a zlep na polmesiačiky.",
+    "Pirohy var v osolenej vode, po vyplávaní ešte 3 minúty.",
+    "Slaninu vyškvar a pirohy prelej výškvarkom aj rozpusteným maslom."
+  ],
+  "tipy": "Okraje dobre pritlač vidličkou, aby sa počas varenia neroztvorili.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "bryndza",
+    "cesto"
+  ],
+  "foto": ""
+}

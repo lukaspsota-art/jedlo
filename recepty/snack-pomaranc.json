@@ -1,0 +1,27 @@
+{
+  "id": "snack-pomaranc",
+  "nazov": "Pomaranč",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Čerstvý pomaranč.",
+  "ingrediencie": [
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    }
+  ],
+  "postup": [
+    "Olúp a zjedz."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "ovocie",
+    "kupované"
+  ]
+}

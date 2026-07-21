@@ -1,0 +1,80 @@
+{
+  "id": "sekana-peciena",
+  "nazov": "Sekaná pečienka",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 6,
+  "cas": "80 min",
+  "kcal_na_porciu": 380,
+  "popis": "Pečená mäsová zmes v tvare bochníka, často s vajcom vo vnútri.",
+  "ingrediencie": [
+    {
+      "nazov": "Mleté mäso",
+      "mnozstvo": 700,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rožok",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": "namočený"
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": "natvrdo, do stredu"
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majoránka",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zmiešaj mäso, namočené rožky, surové vajcia, cibuľu, cesnak, horčicu a korenie.",
+    "Polovicu hmoty daj do formy, ulož vajcia natvrdo a zakry zvyškom.",
+    "Peč pri 180 °C asi 60 minút."
+  ],
+  "tipy": "Nechaj chvíľu postáť pred krájaním. Chutí aj studená na chlieb.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "mäso",
+    "pečené"
+  ],
+  "foto": ""
+}

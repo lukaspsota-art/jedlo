@@ -1,0 +1,82 @@
+{
+  "id": "makovy-zavin",
+  "nazov": "Makový závin",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 10,
+  "cas": "120 min",
+  "kcal_na_porciu": 360,
+  "popis": "Kysnutý závin plnený sladkou makovou plnkou — vianočná klasika.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": "vlažné"
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 21,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mak",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": "mletý"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": "do plnky"
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": "do plnky"
+    }
+  ],
+  "postup": [
+    "Vypracuj kysnuté cesto a nechaj vykysnúť.",
+    "Mak zovri s mliekom a cukrom na plnku, nechaj vychladnúť.",
+    "Cesto rozvaľkaj, natri plnkou a zaviň.",
+    "Nechaj nakysnúť, potri vajcom a peč pri 180 °C asi 40 minút."
+  ],
+  "tipy": "Do plnky pridaj hrozienka alebo strúhané jablko pre šťavnatosť.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "sladké",
+    "mak",
+    "vianoce"
+  ],
+  "foto": ""
+}

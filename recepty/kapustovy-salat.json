@@ -1,0 +1,62 @@
+{
+  "id": "kapustovy-salat",
+  "nazov": "Šalát z kyslej kapusty",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 6,
+  "cas": "15 min",
+  "kcal_na_porciu": 90,
+  "popis": "Kyslá kapusta s cibuľou, olejom a mrkvou — chrumkavá príloha.",
+  "ingrediencie": [
+    {
+      "nazov": "Kyslá kapusta",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kapustu sceď a podľa kyslosti prepláchni.",
+    "Pridaj nakrájanú cibuľu a nastrúhanú mrkvu.",
+    "Zamiešaj olej, cukor a papriku, nechaj chvíľu odležať."
+  ],
+  "tipy": "Príloha k pečenému mäsu alebo klobáse.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "šalát",
+    "kapusta"
+  ],
+  "foto": ""
+}

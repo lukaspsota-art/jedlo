@@ -1,0 +1,96 @@
+{
+  "id": "pizza-quattro-formaggi",
+  "nazov": "Pizza quattro formaggi",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "40 min (+ 60 min kysnutie)",
+  "kcal_na_porciu": 720,
+  "popis": "Pizza so štyrmi druhmi syra — mozzarella, gorgonzola, parmezán a ementál.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": "na cesto"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": "vlažná, na cesto"
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 7,
+      "jednotka": "g",
+      "poznamka": "na cesto"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "na cesto"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": "na cesto"
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": "konzerva, rozmixované, na omáčku"
+    },
+    {
+      "nazov": "Mozzarella",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Gorgonzola",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ementál",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvá bazalka",
+      "mnozstvo": null,
+      "jednotka": "na ozdobu",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z múky, vlažnej vody, droždia, oleja a soli vypracuj hladké cesto a nechaj kysnúť aspoň 1 hodinu.",
+    "Rúru rozohrej na maximum (ideálne 250 °C) aspoň 20 minút vopred.",
+    "Cesto rozdeľ na 4 diely a rozváľaj na tenké kolá.",
+    "Paradajky rozmixuj so soľou a natri na cesto, poklaď mozzarellou.",
+    "Poklaď kúskami gorgonzoly a ementálu, posyp parmezánom.",
+    "Peč 10-15 minút do zlatista.",
+    "Po vytiahnutí posyp bazalkou."
+  ],
+  "tipy": "Gorgonzolu daj menej — je výrazná.",
+  "tagy": [
+    "pizza",
+    "talianske",
+    "syr",
+    "vegetariánske"
+  ],
+  "foto": ""
+}

@@ -1,0 +1,58 @@
+{
+  "id": "rezance-s-tvarohom",
+  "nazov": "Rezance s tvarohom",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "20 min",
+  "kcal_na_porciu": 420,
+  "popis": "Cestoviny obalené v sladkom tvarohu, preliate maslom a zakysanou smotanou.",
+  "ingrediencie": [
+    {
+      "nazov": "Široké rezance",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvaroh",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Rezance uvar a sceď.",
+    "Prehoď na rozpustenom masle.",
+    "Rozdeľ na taniere, posyp tvarohom zmiešaným s cukrom.",
+    "Dozdob lyžicou zakysanej smotany."
+  ],
+  "tipy": "Slaná verzia: tvaroh bez cukru, s pažítkou a slaninou.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "sladké",
+    "tvaroh",
+    "cestoviny"
+  ],
+  "foto": ""
+}

@@ -1,0 +1,87 @@
+{
+  "id": "tvarohovy-zavin",
+  "nazov": "Tvarohový závin",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 10,
+  "cas": "120 min",
+  "kcal_na_porciu": 340,
+  "popis": "Kysnutý závin plnený sladkým tvarohom s hrozienkami.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": "vlažné"
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 21,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvaroh",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vaječný žĺtok",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": "do plnky"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": "do plnky"
+    },
+    {
+      "nazov": "Hrozienka",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vypracuj kysnuté cesto a nechaj vykysnúť.",
+    "Tvaroh zmiešaj so žĺtkami, cukrom a hrozienkami.",
+    "Cesto rozvaľkaj, natri plnkou a zaviň.",
+    "Nechaj nakysnúť, potri vajcom a peč pri 180 °C asi 40 minút."
+  ],
+  "tipy": "Ak je tvaroh vlhký, pridaj lyžicu krupice.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "sladké",
+    "tvaroh"
+  ],
+  "foto": ""
+}

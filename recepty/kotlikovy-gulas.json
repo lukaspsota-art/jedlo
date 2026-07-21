@@ -1,0 +1,93 @@
+{
+  "id": "kotlikovy-gulas",
+  "nazov": "Kotlíkový hovädzí guláš",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 6,
+  "cas": "150 min",
+  "kcal_na_porciu": 470,
+  "popis": "Pomaly dusený hovädzí guláš s množstvom cibule, papriky a zemiakov.",
+  "ingrediencie": [
+    {
+      "nazov": "Hovädzie mäso",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": "na kocky"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Feferónka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na masti opraž veľa cibule dozlata.",
+    "Odstav, zamiešaj papriku, pridaj mäso a opekaj.",
+    "Podlej vodou, pridaj rascu, cesnak a feferónku, dus 2 hodiny domäkka.",
+    "Pridaj papriku, pretlak a zemiaky, dovar do zmäknutia."
+  ],
+  "tipy": "Čím viac cibule, tým lepšie — dusením sa rozvarí do hustej šťavy.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "hovädzie",
+    "guláš"
+  ],
+  "foto": ""
+}

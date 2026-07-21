@@ -1,0 +1,66 @@
+- generic [ref=f3e2]:
+  - complementary [ref=f3e3]:
+    - generic [ref=f3e4]: 🍲 Kuchárka
+    - navigation [ref=f3e5]:
+      - generic [ref=f3e6] [cursor=pointer]:
+        - generic [ref=f3e7]: 🏠
+        - text: Domov
+      - generic [ref=f3e8] [cursor=pointer]:
+        - generic [ref=f3e9]: 📖
+        - text: Recepty
+      - generic [ref=f3e10] [cursor=pointer]:
+        - generic [ref=f3e11]: 📅
+        - text: Plán
+      - generic [ref=f3e12] [cursor=pointer]:
+        - generic [ref=f3e13]: 🛒
+        - text: Nákup
+      - generic [ref=f3e14] [cursor=pointer]:
+        - generic [ref=f3e15]: 📊
+        - text: Výživa
+      - generic [ref=f3e16] [cursor=pointer]:
+        - generic [ref=f3e17]: 🧊
+        - text: Špajza
+    - generic [ref=f3e19] [cursor=pointer]:
+      - generic [ref=f3e20]: ⚙️
+      - text: Nastavenia
+  - generic [ref=f3e23]:
+    - heading "Dobrý deň, Ja" [level=2] [ref=f3e24]
+    - paragraph [ref=f3e25]: aktualizované 20.07.2026
+    - generic [ref=f3e26]:
+      - generic [ref=f3e27]:
+        - generic [ref=f3e28]: Receptov
+        - generic [ref=f3e29]: "393"
+      - generic [ref=f3e30]:
+        - generic [ref=f3e31]: Jedál v pláne
+        - generic [ref=f3e32]: "38"
+    - generic [ref=f3e33]:
+      - heading "📅 Dnešný plán" [level=3] [ref=f3e34]
+      - generic [ref=f3e35]:
+        - generic [ref=f3e36]:
+          - generic [ref=f3e37]: 🍳 Raňajky
+          - generic [ref=f3e38]: Tortilla wrap so šunkou a eidamom
+        - generic [ref=f3e39]:
+          - generic [ref=f3e40]: 🍝 Obed
+          - generic [ref=f3e41]: Kuracie špízy s tzatziki, + Ryža (príloha)
+        - generic [ref=f3e42]:
+          - generic [ref=f3e43]: 🍽️ Večera
+          - generic [ref=f3e44]: Rizoto z červenej repy
+        - generic [ref=f3e45]:
+          - generic [ref=f3e46]: 🥪 Snack
+          - generic [ref=f3e47]: Hrsť orieškov
+        - generic [ref=f3e48]: 1626 / 3010 kcal · B 71,99 g · T 86,64 g · S 139,72 g
+    - generic [ref=f3e49]:
+      - heading "Rýchle akcie" [level=3] [ref=f3e50]
+      - generic [ref=f3e51]:
+        - button "✨ Zostaviť jedálniček" [ref=f3e52] [cursor=pointer]
+        - button "🧊 Uvar zo špajze" [ref=f3e53] [cursor=pointer]
+        - button "♻️ Dojedz zvyšky" [ref=f3e54] [cursor=pointer]
+    - generic [ref=f3e55]:
+      - heading "Obľúbené" [level=3] [ref=f3e56]
+      - paragraph [ref=f3e58]: Zatiaľ žiadne obľúbené — klikni na ★ pri recepte.
+    - generic [ref=f3e59]:
+      - heading "🧊 Špajza — spotrebuj čoskoro" [level=3] [ref=f3e60]
+      - generic [ref=f3e61]: Špajza je v poriadku.
+    - generic [ref=f3e62]:
+      - heading "Naposledy varené" [level=3] [ref=f3e63]
+      - generic [ref=f3e64]: Nič zatiaľ. Po dokončení režimu varenia sa recept zapíše sem.

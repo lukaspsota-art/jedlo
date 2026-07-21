@@ -1,0 +1,95 @@
+{
+  "id": "kapustnica",
+  "nazov": "Kapustnica s klobásou",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 6,
+  "cas": "90 min",
+  "kcal_na_porciu": 380,
+  "popis": "Hustá kyslá kapustová polievka s údeným mäsom, klobásou a hríbmi — vianočná klasika.",
+  "ingrediencie": [
+    {
+      "nazov": "Kyslá kapusta",
+      "mnozstvo": 700,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údené mäso",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": "napr. pliecko"
+    },
+    {
+      "nazov": "Klobása",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": "údená, na kolieska"
+    },
+    {
+      "nazov": "Sušené hríby",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": "na zápražku"
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bobkový list",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené slivky",
+      "mnozstvo": 6,
+      "jednotka": "ks",
+      "poznamka": "voliteľné"
+    }
+  ],
+  "postup": [
+    "Údené mäso zalej vodou a var asi 40 minút.",
+    "Pridaj scedenú kapustu, namočené hríby, bobkový list a korenie, var ďalších 30 minút.",
+    "Pridaj klobásu a sušené slivky, povar 10 minút.",
+    "Z masti, múky a papriky sprav svetlú zápražku a rozšľahaj do polievky na zahustenie.",
+    "Mäso vyber, nakrájaj a vráť späť. Dochuť soľou."
+  ],
+  "tipy": "Cez noc odležaná kapustnica chutí ešte lepšie. Časť kapustnej šťavy pridaj podľa kyslosti.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "vianoce",
+    "polievka",
+    "kapusta"
+  ],
+  "foto": ""
+}

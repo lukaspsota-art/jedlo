@@ -1,0 +1,173 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]: 🍲 Kuchárka
+    - navigation [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - generic [ref=e7]: 🏠
+        - text: Domov
+      - generic [ref=e8] [cursor=pointer]:
+        - generic [ref=e9]: 📖
+        - text: Recepty
+      - generic [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: 📅
+        - text: Plán
+      - generic [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]: 🛒
+        - text: Nákup
+      - generic [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]: 📊
+        - text: Výživa
+      - generic [ref=e16] [cursor=pointer]:
+        - generic [ref=e17]: 🧊
+        - text: Špajza
+    - generic [ref=e19] [cursor=pointer]:
+      - generic [ref=e20]: ⚙️
+      - text: Nastavenia
+  - generic [ref=e65]:
+    - heading "Nastavenia domácnosti" [level=2] [ref=e66]
+    - paragraph [ref=e67]: Predvoľby sa použijú pri plánovaní a filtrovaní.
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]: Ktoré jedlá varíte?
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - checkbox "🍳 Raňajky" [checked] [ref=e73]
+            - text: 🍳 Raňajky
+          - generic [ref=e74]:
+            - checkbox "🥐 Desiata" [checked] [ref=e75]
+            - text: 🥐 Desiata
+          - generic [ref=e76]:
+            - checkbox "🍝 Obed" [checked] [ref=e77]
+            - text: 🍝 Obed
+          - generic [ref=e78]:
+            - checkbox "🍏 Olovrant" [checked] [ref=e79]
+            - text: 🍏 Olovrant
+          - generic [ref=e80]:
+            - checkbox "🍽️ Večera" [checked] [ref=e81]
+            - text: 🍽️ Večera
+          - generic [ref=e82]:
+            - checkbox "🥪 Snack" [checked] [ref=e83]
+            - text: 🥪 Snack
+      - generic [ref=e84]:
+        - generic [ref=e85]: Stravníci (rôzne kalórie/deň)
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - textbox "meno" [ref=e88]: Ja
+            - spinbutton "kcal/deň" [ref=e89]: "2300"
+            - generic "odobrať" [ref=e90] [cursor=pointer]: ✕
+          - generic [ref=e91]:
+            - textbox "meno" [ref=e92]: Osoba 2
+            - spinbutton "kcal/deň" [ref=e93]: "2000"
+            - generic "odobrať" [ref=e94] [cursor=pointer]: ✕
+        - button "+ pridať osobu" [ref=e95] [cursor=pointer]
+      - generic [ref=e96]:
+        - generic [ref=e97]: Cieľ kalórií na deň (kcal)
+        - spinbutton [ref=e98]: "2300"
+      - generic [ref=e99]:
+        - generic [ref=e100]: Cieľ bielkovín na deň (g, 0 = vypnuté)
+        - spinbutton [ref=e101]: "0"
+      - generic [ref=e102]:
+        - generic [ref=e103]: Tento týždeň v akcii (čiarkou — ovplyvní návrhy)
+        - textbox "napr. kuracie, losos, paprika" [ref=e104]
+      - generic [ref=e105]:
+        - generic [ref=e106]: Sledované suroviny (uprednostní recepty, čiarkou)
+        - textbox "napr. losos, cuketa" [ref=e107]
+      - generic [ref=e108]:
+        - generic [ref=e109]: Zakázané suroviny (skryje recepty, čiarkou)
+        - textbox "napr. huby, koriander" [ref=e110]
+      - generic [ref=e111]:
+        - generic [ref=e112]: Cieľ
+        - combobox [ref=e113] [cursor=pointer]:
+          - option "Chudnutie"
+          - option "Udržanie"
+          - option "Priberanie" [selected]
+      - generic [ref=e114]:
+        - checkbox "Bez rýb" [ref=e115]
+        - text: Bez rýb
+      - generic [ref=e116]:
+        - checkbox "Bez lepku" [ref=e117]
+        - text: Bez lepku
+      - generic [ref=e118]:
+        - checkbox "Bez laktózy" [ref=e119]
+        - text: Bez laktózy
+      - generic [ref=e120]:
+        - checkbox "Tmavý režim" [ref=e121]
+        - text: Tmavý režim
+      - generic [ref=e122]:
+        - checkbox "Väčšie písmo" [ref=e123]
+        - text: Väčšie písmo
+      - generic [ref=e124]:
+        - checkbox "Zobrazovať balenia v nákupe (v zátvorke)" [checked] [ref=e125]
+        - text: Zobrazovať balenia v nákupe (v zátvorke)
+      - generic [ref=e126]:
+        - checkbox "Preferovať kupované snacky" [checked] [ref=e127]
+        - text: Preferovať kupované snacky
+      - generic [ref=e128]:
+        - checkbox "Okno jedenia 16:8" [ref=e129]
+        - text: Okno jedenia 16:8
+      - generic [ref=e130]:
+        - generic [ref=e131]: Začiatok okna jedenia (hodina)
+        - spinbutton [ref=e132]: "12"
+      - button "Uložiť" [active] [ref=e134] [cursor=pointer]
+      - paragraph [ref=e186]: Uložené ✓
+    - generic [ref=e135]:
+      - heading "Vypočítať kalorický cieľ (TDEE)" [level=3] [ref=e136]
+      - generic [ref=e137]:
+        - generic [ref=e138]: Pohlavie
+        - combobox [ref=e139] [cursor=pointer]:
+          - option "Muž" [selected]
+          - option "Žena"
+      - generic [ref=e140]:
+        - generic [ref=e141]: Vek
+        - spinbutton [ref=e142]: "35"
+      - generic [ref=e143]:
+        - generic [ref=e144]: Výška (cm)
+        - spinbutton [ref=e145]: "178"
+      - generic [ref=e146]:
+        - generic [ref=e147]: Váha (kg)
+        - spinbutton [ref=e148]: "80"
+      - generic [ref=e149]:
+        - generic [ref=e150]: Aktivita
+        - combobox [ref=e151] [cursor=pointer]:
+          - option "sedavá (bez cvičenia)"
+          - option "ľahká (1-3x/týž)"
+          - option "mierna (3x/týž)"
+          - option "stredná (3-5x/týž)" [selected]
+          - option "vysoká (6-7x/týž)"
+          - option "veľmi vysoká (2x denne / fyzická práca)"
+      - generic [ref=e152]:
+        - generic [ref=e153]: Pre koho
+        - combobox [ref=e154] [cursor=pointer]:
+          - option "Ja" [selected]
+          - option "Osoba 2"
+      - paragraph [ref=e155]: Zohľadní „Cieľ" vyššie (chudnutie −15 % / udržanie / priberanie +10 %) a zapíše kcal vybranému stravníkovi.
+      - button "Vypočítať a uložiť" [ref=e157] [cursor=pointer]
+      - paragraph
+    - generic [ref=e158]:
+      - heading "Váha a adaptívny cieľ" [level=3] [ref=e159]
+      - generic [ref=e160]:
+        - spinbutton "kg" [ref=e161]
+        - button "Zapísať váhu" [ref=e162] [cursor=pointer]
+      - generic [ref=e163]: Zatiaľ žiadny záznam.
+      - button "Prispôsobiť cieľ podľa trendu" [ref=e165] [cursor=pointer]
+      - paragraph
+    - generic [ref=e166]:
+      - heading "Záloha dát" [level=3] [ref=e167]
+      - paragraph [ref=e168]: Obľúbené, hodnotenia, plán a nastavenia sú uložené v tomto prehliadači. Zálohuj si ich do súboru, nech o ne neprídeš.
+      - generic [ref=e169]:
+        - button "⬇ Zálohovať do súboru" [ref=e170] [cursor=pointer]
+        - button "⬆ Obnoviť zo súboru" [ref=e171] [cursor=pointer]
+      - button "🗑 Vymazať všetko a začať odznova" [ref=e173] [cursor=pointer]
+    - generic [ref=e174]:
+      - heading "Synchronizácia (voliteľné)" [level=3] [ref=e175]
+      - paragraph [ref=e176]: Ak zdieľaš appku s viacerými ľuďmi cez jeden Supabase, každý nech má vlastné Sync ID (rôzni ľudia = rôzne ID). Rovnaké ID = zdieľané dáta medzi tvojimi zariadeniami.
+      - generic [ref=e177]:
+        - checkbox "Vypnúť synchronizáciu na tomto zariadení" [ref=e178]
+        - text: Vypnúť synchronizáciu na tomto zariadení
+      - generic [ref=e179]:
+        - generic [ref=e180]: Sync ID
+        - textbox "napr. lukas-domacnost" [ref=e181]
+    - generic [ref=e182]:
+      - heading "Appka na mobile" [level=3] [ref=e183]
+      - paragraph [ref=e184]: Otvor tento súbor v mobilnom prehliadači a daj „Pridať na plochu" — kuchárka sa bude tváriť ako appka. Obľúbené, plán a nastavenia sa ukladajú v danom zariadení.
+      - paragraph [ref=e185]: "Verzia kuchárky: v15"

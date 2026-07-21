@@ -1,0 +1,27 @@
+{
+  "id": "snack-horka-cokolada",
+  "nazov": "Horká čokoláda",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "1 min",
+  "popis": "Pár kociek kvalitnej horkej čokolády.",
+  "ingrediencie": [
+    {
+      "nazov": "Čokoláda",
+      "mnozstvo": 25,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Odlom pár kociek."
+  ],
+  "tipy": "Vyber čokoládu s vyšším % kakaa.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "kupované",
+    "dezert"
+  ]
+}

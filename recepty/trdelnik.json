@@ -1,0 +1,80 @@
+{
+  "id": "trdelnik",
+  "nazov": "Trdelník",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 6,
+  "cas": "90 min",
+  "kcal_na_porciu": 340,
+  "popis": "Kysnuté cesto navinuté na valec, pečené a obalené v cukre s orechmi a škoricou.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 220,
+      "jednotka": "ml",
+      "poznamka": "vlažné"
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 21,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": "mleté"
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vypracuj kysnuté cesto a nechaj vykysnúť.",
+    "Rozvaľkaj a nakrájaj na pásy, naviň na drevené valce.",
+    "Potri maslom a peč pri 180 °C dozlata (alebo nad grilom).",
+    "Ešte teplé obaľ v cukre zmiešanom s orechami a škoricou."
+  ],
+  "tipy": "Ak nemáš valce, upeč na plechu ako špirálovité kolieska.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "sladké"
+  ],
+  "foto": ""
+}

@@ -1,0 +1,69 @@
+{
+  "id": "fliacky-s-kapustou",
+  "nazov": "Fliačky s kapustou",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "40 min",
+  "kcal_na_porciu": 380,
+  "popis": "Domáce štvorčekové cestoviny s dusenou sladkou kapustou a karamelom.",
+  "ingrediencie": [
+    {
+      "nazov": "Fliačky",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": "cestoviny"
+    },
+    {
+      "nazov": "Biela kapusta",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": "nastrúhaná"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na masti nechaj skaramelizovať cukor dozlata.",
+    "Pridaj cibuľu a strúhanú kapustu, osoľ a dus domäkka.",
+    "Cestoviny uvar a sceď.",
+    "Zmiešaj kapustu s cestovinami a dochuť korením."
+  ],
+  "tipy": "Kapusta má byť jemne nasladlá a mäkká. Nespáľ karamel, zhorkne.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "kapusta",
+    "cestoviny"
+  ],
+  "foto": ""
+}

@@ -1,0 +1,81 @@
+{
+  "id": "cestoviny-primavera",
+  "nazov": "Cestoviny primavera",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 420,
+  "popis": "Ľahké cestoviny s jarnou zeleninou, cesnakom a parmezánom.",
+  "ingrediencie": [
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrášok",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zeleninu nakrájaj na prúžky a opraž na oleji s cesnakom do zmäknutia.",
+    "Osoľ.",
+    "Cestoviny uvar al dente, odlož trochu vody.",
+    "Zamiešaj so zeleninou, dolej vodu a posyp parmezánom."
+  ],
+  "tipy": "Zeleninu nepreveď — má ostať chrumkavá a farebná.",
+  "tagy": [
+    "cestoviny",
+    "talianske",
+    "zelenina",
+    "vegetariánske"
+  ],
+  "foto": ""
+}

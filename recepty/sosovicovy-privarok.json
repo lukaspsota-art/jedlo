@@ -1,0 +1,81 @@
+{
+  "id": "sosovicovy-privarok",
+  "nazov": "Šošovicový prívarok",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "60 min",
+  "kcal_na_porciu": 340,
+  "popis": "Hustý šošovicový prívarok so zápražkou, podávaný s vajcom alebo klobásou.",
+  "ingrediencie": [
+    {
+      "nazov": "Hnedá šošovica",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bobkový list",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Šošovicu uvar s bobkovým listom domäkka.",
+    "Z masti a múky sprav zápražku, zamiešaj papriku a cesnak.",
+    "Zápražku rozšľahaj do šošovice a povar do zhustnutia.",
+    "Dochuť octom a soľou."
+  ],
+  "tipy": "Podávaj s vyprážaným vajcom, klobásou a chlebom.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "strukoviny",
+    "prívarok"
+  ],
+  "foto": ""
+}

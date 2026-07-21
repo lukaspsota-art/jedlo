@@ -1,0 +1,68 @@
+{
+  "id": "syrove-cestoviny-mac-and-cheese",
+  "nazov": "Syrové cestoviny (mac and cheese)",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Americká",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "35 min",
+  "kcal_na_porciu": 620,
+  "popis": "Zapečené cestoviny v krémovej syrovej omáčke s chrumkavou kôrkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": "makaróny"
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čedar",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": "strúhaný"
+    },
+    {
+      "nazov": "Strúhanka",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cestoviny uvar al dente a sceď.",
+    "Z masla a múky sprav zápražku, podlej mliekom na bešamel.",
+    "Vmiešaj syr do rozpustenia, osoľ.",
+    "Zmiešaj s cestovinami, posyp strúhankou a zapeč pri 200 °C 15 minút."
+  ],
+  "tipy": "Zmes syrov (čedar + eidam) dá lepšiu chuť aj ťahavosť.",
+  "tagy": [
+    "cestoviny",
+    "syr",
+    "zapekané"
+  ],
+  "foto": ""
+}

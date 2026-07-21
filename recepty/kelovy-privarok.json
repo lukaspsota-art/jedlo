@@ -1,0 +1,69 @@
+{
+  "id": "kelovy-privarok",
+  "nazov": "Kelový prívarok",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "35 min",
+  "kcal_na_porciu": 210,
+  "popis": "Dusený kel zahustený zápražkou s cesnakom — obľúbený s vajcom a zemiakmi.",
+  "ingrediencie": [
+    {
+      "nazov": "Kel",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": "nakrájaný"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kel poduseň s cibuľou na masti.",
+    "Podlej vodou a dus domäkka.",
+    "Zaprášt múkou, podlej mliekom a rozvar.",
+    "Dochuť cesnakom a soľou."
+  ],
+  "tipy": "Podávaj s vareným zemiakom a vyprážaným vajcom.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "zelenina",
+    "prívarok"
+  ],
+  "foto": ""
+}

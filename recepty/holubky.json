@@ -1,0 +1,87 @@
+{
+  "id": "holubky",
+  "nazov": "Plnená kapusta (holúbky)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "100 min",
+  "kcal_na_porciu": 420,
+  "popis": "Kapustné listy plnené mletým mäsom s ryžou, dusené v paradajkovej šťave.",
+  "ingrediencie": [
+    {
+      "nazov": "Kyslá kapusta",
+      "mnozstvo": 8,
+      "jednotka": "ks",
+      "poznamka": "celé listy"
+    },
+    {
+      "nazov": "Mleté mäso",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ryža",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ryžu predvar. Zmiešaj mäso, ryžu, cibuľu, vajce, soľ a korenie.",
+    "Do kapustných listov zabaľ plnku.",
+    "Závitky ulož do hrnca na vrstvu nasekanej kapusty.",
+    "Zalej vodou s pretlakom a paprikou, dus asi 60 minút."
+  ],
+  "tipy": "Na dno daj vrstvu kapusty, aby sa holúbky neprichytili.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "mäso",
+    "kapusta"
+  ],
+  "foto": ""
+}

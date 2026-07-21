@@ -1,0 +1,81 @@
+{
+  "id": "cestoviny-hubova-smotanova",
+  "nazov": "Cestoviny v hubovej smotanovej omáčke",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "klasický recept",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 500,
+  "popis": "Cestoviny so šampiňónmi v krémovej smotanovej omáčke s cesnakom.",
+  "ingrediencie": [
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šampiňóny",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana na varenie",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": "na ozdobu",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na masle opraž cibuľu a nakrájané šampiňóny do vyparenia vody.",
+    "Pridaj cesnak a smotanu, povar.",
+    "Cestoviny uvar al dente a zamiešaj do omáčky.",
+    "Posyp parmezánom a petržlenom."
+  ],
+  "tipy": "Huby opekaj na vyššom ohni, aby sa nezaparili a zhnedli.",
+  "tagy": [
+    "cestoviny",
+    "huby",
+    "smotanové",
+    "vegetariánske"
+  ],
+  "foto": ""
+}

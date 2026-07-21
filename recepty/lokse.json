@@ -1,0 +1,52 @@
+{
+  "id": "lokse",
+  "nazov": "Lokše",
+  "kategoria": "Príloha",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 6,
+  "cas": "45 min",
+  "kcal_na_porciu": 180,
+  "popis": "Tenké zemiakové placky pečené nasucho — príloha k hydine aj husacine.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 700,
+      "jednotka": "g",
+      "poznamka": "uvarené v šupke"
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": "na potretie"
+    }
+  ],
+  "postup": [
+    "Uvarené zemiaky ošúp a popučí ešte teplé.",
+    "Pridaj múku a soľ, spracuj na cesto a rozdeľ na guľky.",
+    "Každú rozvaľkaj natenko na kruh.",
+    "Peč nasucho na horúcej panvici z oboch strán, kým sa neobjavia hnedé fľaky.",
+    "Hotové lokše potri masťou a udržuj prikryté, aby zmäkli."
+  ],
+  "tipy": "Cesto vaľkaj čo najtenšie. Podávaj slané k mäsu alebo sladké s makom a cukrom.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "zemiaky",
+    "príloha"
+  ],
+  "foto": ""
+}

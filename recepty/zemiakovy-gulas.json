@@ -1,0 +1,87 @@
+{
+  "id": "zemiakovy-gulas",
+  "nazov": "Zemiakový guláš (fačkový)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "45 min",
+  "kcal_na_porciu": 320,
+  "popis": "Sýty zemiakový guláš s klobásou, paprikou a majoránkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": "na kocky"
+    },
+    {
+      "nazov": "Klobása",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majoránka",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na masti opraž cibuľu, odstav a zamiešaj papriku.",
+    "Pridaj klobásu, nakrájanú papriku a rascu, chvíľu opekaj.",
+    "Pridaj zemiaky, podlej vodou a var domäkka.",
+    "Dochuť cesnakom, majoránkou a soľou, časť zemiakov roztlač na zahustenie."
+  ],
+  "tipy": "Guláš má byť hustý — rozvarené zemiaky ho prirodzene zahustia.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "zemiaky",
+    "klobása"
+  ],
+  "foto": ""
+}

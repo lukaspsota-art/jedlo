@@ -1,0 +1,27 @@
+{
+  "id": "snack-kiwi",
+  "nazov": "Kiwi",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Čerstvé kiwi.",
+  "ingrediencie": [
+    {
+      "nazov": "Kiwi",
+      "mnozstvo": 2,
+      "jednotka": "ks"
+    }
+  ],
+  "postup": [
+    "Prekroj a vyjedz lyžičkou, alebo olúp."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "ovocie",
+    "kupované"
+  ]
+}

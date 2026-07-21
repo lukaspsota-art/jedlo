@@ -1,0 +1,27 @@
+{
+  "id": "snack-tvaroh",
+  "nazov": "Tvaroh",
+  "kategoria": "Snack",
+  "kuchyna": "",
+  "zdroj": "",
+  "porcie": 1,
+  "cas": "1 min",
+  "popis": "Kúpený jemný tvaroh.",
+  "ingrediencie": [
+    {
+      "nazov": "Tvaroh",
+      "mnozstvo": 180,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Kúpené — otvor a zjedz."
+  ],
+  "tipy": "Chutí s ovocím alebo medom.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "kupované",
+    "bielkoviny"
+  ]
+}

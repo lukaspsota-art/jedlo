@@ -1,0 +1,70 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]: 🍲 Kuchárka
+    - generic [ref=e7]:
+      - heading "Dobrý večer, Ja" [level=2] [ref=e8]
+      - paragraph [ref=e9]: aktualizované 20.07.2026
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: Receptov
+          - generic [ref=e13]: "1002"
+        - generic [ref=e14]:
+          - generic [ref=e15]: Jedál v pláne
+          - generic [ref=e16]: "49"
+      - generic [ref=e17]:
+        - heading "📅 Dnešný plán" [level=3] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]: 🍳 Raňajky
+            - generic [ref=e22]: Bageta (príloha)
+          - generic [ref=e23]:
+            - generic [ref=e24]: 🥐 Desiata
+            - generic [ref=e25]: Pomazánka z nakladaných paprík, + Pečivo
+          - generic [ref=e26]:
+            - generic [ref=e27]: 🍝 Obed
+            - generic [ref=e28]: Cícerové kari (vegetariánske), + Ryža (príloha)
+          - generic [ref=e29]:
+            - generic [ref=e30]: 🍏 Olovrant
+            - generic [ref=e31]: Hrsť orieškov
+          - generic [ref=e32]:
+            - generic [ref=e33]: 🍽️ Večera
+            - generic [ref=e34]: Kuracia shawarma miska
+          - generic [ref=e35]:
+            - generic [ref=e36]: 🥪 Snack
+            - generic [ref=e37]: Jablko
+          - generic [ref=e38]: 2282 / 2300 kcal · B 89,53 g · T 90,24 g · S 288,81 g
+      - generic [ref=e39]:
+        - heading "Rýchle akcie" [level=3] [ref=e40]
+        - generic [ref=e41]:
+          - button "✨ Zostaviť jedálniček" [ref=e42] [cursor=pointer]
+          - button "🧊 Uvar zo špajze" [ref=e43] [cursor=pointer]
+          - button "♻️ Dojedz zvyšky" [ref=e44] [cursor=pointer]
+      - generic [ref=e45]:
+        - heading "Obľúbené" [level=3] [ref=e46]
+        - paragraph [ref=e48]: Zatiaľ žiadne obľúbené — klikni na ★ pri recepte.
+      - generic [ref=e49]:
+        - heading "🧊 Špajza — spotrebuj čoskoro" [level=3] [ref=e50]
+        - generic [ref=e51]: Špajza je v poriadku.
+      - generic [ref=e52]:
+        - heading "Naposledy varené" [level=3] [ref=e53]
+        - generic [ref=e54]: Nič zatiaľ. Po dokončení režimu varenia sa recept zapíše sem.
+  - navigation [ref=e55]:
+    - generic [ref=e56] [cursor=pointer]:
+      - generic [ref=e57]: 🏠
+      - text: Domov
+    - generic [ref=e58] [cursor=pointer]:
+      - generic [ref=e59]: 📖
+      - text: Recepty
+    - generic [ref=e60] [cursor=pointer]:
+      - generic [ref=e61]: 📅
+      - text: Plán
+    - generic [ref=e62] [cursor=pointer]:
+      - generic [ref=e63]: 🛒
+      - text: Nákup
+    - generic [ref=e64] [cursor=pointer]:
+      - generic [ref=e65]: 📊
+      - text: Výživa
+    - generic [ref=e66] [cursor=pointer]:
+      - generic [ref=e67]: 🧊
+      - text: Špajza

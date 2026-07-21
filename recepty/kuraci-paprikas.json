@@ -1,0 +1,80 @@
+{
+  "id": "kuraci-paprikas",
+  "nazov": "Kurací paprikáš",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "tradičný recept",
+  "porcie": 4,
+  "cas": "60 min",
+  "kcal_na_porciu": 440,
+  "popis": "Kuracie mäso dusené v paprikovo-smotanovej omáčke, podávané s haluškami.",
+  "ingrediencie": [
+    {
+      "nazov": "Kuracie stehná",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká paprika",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na masti opraž cibuľu dozlata, odstav a zamiešaj papriku.",
+    "Pridaj mäso, papriku a paradajku, opekaj.",
+    "Podlej vodou a dus domäkka.",
+    "Smotanu rozšľahaj s múkou, vmiešaj a povar do zhustnutia."
+  ],
+  "tipy": "Podávaj s haluškami alebo cestovinou. Papriku pridaj mimo ohňa, nespáli sa.",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "kuracie"
+  ],
+  "foto": ""
+}
