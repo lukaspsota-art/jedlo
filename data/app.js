@@ -488,9 +488,11 @@ function odoberKomponent(di,slot,cid){ const dni=S.blokMode?blokDni(di):[di];
 function zmazZPlanu(di,slot){ if(S.plan[di])delete S.plan[di][slot]; if(S.planF[di])delete S.planF[di][slot]; save(); renderPlan(); }
 function regenerujSlot(di,slot){ const dni=S.blokMode?blokDni(di):[di];
   const pouzite=new Set(); for(let d=0;d<7;d++) SLOTY().forEach(sl=>slotIds(d,sl).forEach(id=>pouzite.add(id)));
-  const nedavne=new Set(S.uvarene.slice(0,4).map(u=>u.id)), kf=filterKuchynaPreDen(dni[0]);
+  const nedavne=new Set(S.uvarene.slice(0,4).map(u=>u.id)), kf=filterKuchynaPreDen(dni[0]), pr=pravidloPreDen(dni[0]);
   let pool=poolPreSlot(slot).filter(r=>!nedavne.has(r.id)); if(!pool.length)pool=poolPreSlot(slot);
   if(kf && slot!=="Raňajky"){ const pk=pool.filter(r=>(r.kuchyna||"").toLowerCase()===kf.toLowerCase()); if(pk.length)pool=pk; }
+  if(pr&&pr.veg){ const pv=pool.filter(r=>diety(r).veg); if(pv.length)pool=pv; }
+  if(pr&&pr.maxCas>0){ const pc=pool.filter(r=>casMin(r)<=pr.maxCas); if(pc.length)pool=pc; }
   if(slot==="Raňajky" && dni.every(d=>d<5)){ const ps=pool.filter(r=>jeSendvic(r)); if(ps.length)pool=ps; }
   const r=vyberVazene(pool,pouzite); if(!r)return;
   let comp=[r.id];
@@ -547,7 +549,9 @@ const CARB_PRILOHY=["prf:ryza","prf:zemiaky","prf:cestoviny"];
 const ASIJSKE=["japonská","japonska","čínska","cinska","thajská","thajska","ázijská","azijska","kórejská","korejska","vietnamská","vietnamska","indická","indicka"];
 function vyberPrilohu(kuchyna,rot){ const k=(kuchyna||"").toLowerCase(); if(ASIJSKE.some(a=>k.includes(a)))return "prf:ryza"; return CARB_PRILOHY[rot%CARB_PRILOHY.length]; }
 function filterKuchynaPreDen(di){ const f=(S.genCfg.filtre||[]).find(x=>di>=x.od&&di<=x.do&&x.kuchyna); return f?f.kuchyna:null; }
-function pravidloPreDen(di){ const f=(S.genCfg.filtre||[]).find(x=>di>=x.od&&di<=x.do&&(x.veg||x.maxCas>0)); return f||null; }
+function pravidloPreDen(di){ const fs=(S.genCfg.filtre||[]).filter(x=>di>=x.od&&di<=x.do); if(!fs.length)return null;
+  const veg=fs.some(f=>f.veg); const casy=fs.map(f=>f.maxCas).filter(c=>c>0); const maxCas=casy.length?Math.min(...casy):0;
+  return (veg||maxCas>0)?{veg,maxCas}:null; }
 function generujJedalnicek(zamiesaj){
   const cfg=S.genCfg||{}; const zachovat=!!cfg.zachovat;
   const naplnene=Object.values(S.plan).some(d=>d&&Object.keys(d).length);
