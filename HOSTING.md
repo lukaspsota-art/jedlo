@@ -21,18 +21,23 @@ Alternatívy: GitHub Pages, Cloudflare Pages, Vercel — čokoľvek, čo servír
 Toto musíš spraviť ty (vytvorenie účtu a kľúčov neviem urobiť za teba), ja som appku už pripravil.
 
 1. Vytvor si zadarmo účet na https://supabase.com a nový projekt.
-2. V projekte otvor **SQL Editor** a spusti:
-   ```sql
-   create table kucharka (id text primary key, data jsonb, ts bigint);
-   alter table kucharka enable row level security;
-   create policy "verejne" on kucharka for all using (true) with check (true);
+2. V **Settings → API** skopíruj **Project URL** a **anon public** kľúč.
+3. V priečinku Jedlo vytvor súbor **`sync-config.js`** s týmto obsahom (doplň svoje `url` a `key`):
+   ```js
+   window.SYNC_CONFIG = {
+     url: "https://TVOJ-PROJEKT.supabase.co",  // Settings -> API -> Project URL
+     key: "TVOJ-ANON-PUBLIC-KEY",              // Settings -> API -> anon public
+     id:  ""                                    // pri prihlásení (Krok 3) sa nepoužíva
+   };
    ```
-3. V **Settings → API** skopíruj **Project URL** a **anon public** kľúč.
-4. V priečinku Jedlo skopíruj `sync-config.example.js` ako **`sync-config.js`** a vyplň `url`, `key` a `id`
-   (`id` = ľubovoľné spoločné heslo, napr. „psota-domacnost" — rovnaké na PC aj mobile).
-5. Nahraj/aktualizuj priečinok na hosting (krok 1). Hotovo — zmeny na jednom zariadení sa objavia na druhom.
+   Pre hosting na GitHub Pages skopíruj ten istý súbor aj do **`docs/sync-config.js`** (Pages beží z priečinka `docs/`).
+4. Nahraj/aktualizuj na hosting (krok 1). Prihlásenie a skupiny nastavíš v **Kroku 3**.
 
-> `id` je jediné, čo chráni tvoje dáta, zvoľ ho ako dlhšie heslo. Anon kľúč je verejný (patrí do frontendu), to je v poriadku.
+> Anon kľúč je verejný (patrí do frontendu), commit do repa je v poriadku. Tvoje dáta chráni prihlásenie + RLS (Krok 3).
+>
+> **Staršia možnosť bez prihlásenia** (zdieľanie celej blob medzi *tvojimi* zariadeniami cez tajné „Sync ID"): navyše vytvor tabuľku
+> `create table kucharka (id text primary key, data jsonb, ts bigint);` s otvoreným RLS
+> `create policy "verejne" on kucharka for all using (true) with check (true);` a vyplň `id` v `sync-config.js`. S prihlásením (Krok 3) to nepotrebuješ.
 
 ## Krok 3 — účty a skupiny (voliteľné, na zdieľanie plánu s ďalšou osobou)
 
