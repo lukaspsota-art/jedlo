@@ -142,6 +142,15 @@
   .plan-cell.prazdne{color:#bbb;justify-content:center;align-items:center;text-align:center}
   .plan-cell.vyp{color:var(--muted);background:repeating-linear-gradient(45deg,transparent,transparent 6px,rgba(0,0,0,.03) 6px,rgba(0,0,0,.03) 12px);justify-content:center;align-items:center;text-align:center;font-size:12px;opacity:.6;cursor:default;min-height:32px}
   body.dark .plan-cell.vyp{background:repeating-linear-gradient(45deg,transparent,transparent 6px,rgba(255,255,255,.04) 6px,rgba(255,255,255,.04) 12px)}
+  .ctrl-row td.ctrl{padding:4px;text-align:center;vertical-align:top}
+  .ctrl-row .ppl{display:flex;gap:4px;align-items:center;justify-content:center;margin-bottom:4px}
+  .ctrl-row .ppl button{width:22px;height:22px;border:1px solid var(--line);background:var(--card);border-radius:6px;cursor:pointer;font-size:14px;line-height:1;color:inherit}
+  .ctrl-row .pplnum{font-size:12px;min-width:36px}
+  .ctrl-row .pplnum.cust{font-weight:700;color:var(--accent-dark)}
+  .ctrl-row .mchips{display:flex;gap:3px;justify-content:center;flex-wrap:wrap}
+  .mchip{width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;border-radius:6px;cursor:pointer;font-size:13px;background:var(--line);opacity:.35;filter:grayscale(1);user-select:none}
+  .mchip.on{opacity:1;filter:none;background:#e8f1eb}
+  body.dark .mchip.on{background:var(--accent-dark)}
   tr.suma td{background:#eef3ef;font-weight:600;font-size:13px;text-align:center}
   tr.suma td.over{color:var(--warn)}
   /* nákup / doma / výživa */
