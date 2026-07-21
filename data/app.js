@@ -535,6 +535,7 @@ const CARB_PRILOHY=["prf:ryza","prf:zemiaky","prf:cestoviny"];
 const ASIJSKE=["japonská","japonska","čínska","cinska","thajská","thajska","ázijská","azijska","kórejská","korejska","vietnamská","vietnamska","indická","indicka"];
 function vyberPrilohu(kuchyna,rot){ const k=(kuchyna||"").toLowerCase(); if(ASIJSKE.some(a=>k.includes(a)))return "prf:ryza"; return CARB_PRILOHY[rot%CARB_PRILOHY.length]; }
 function filterKuchynaPreDen(di){ const f=(S.genCfg.filtre||[]).find(x=>di>=x.od&&di<=x.do&&x.kuchyna); return f?f.kuchyna:null; }
+function pravidloPreDen(di){ const f=(S.genCfg.filtre||[]).find(x=>di>=x.od&&di<=x.do&&(x.veg||x.maxCas>0)); return f||null; }
 function generujJedalnicek(zamiesaj){
   const cfg=S.genCfg||{}; const zachovat=!!cfg.zachovat;
   const naplnene=Object.values(S.plan).some(d=>d&&Object.keys(d).length);
@@ -542,20 +543,26 @@ function generujJedalnicek(zamiesaj){
   const pouzite=new Set(), pouziteBazy=new Set(), nedavne=new Set(S.uvarene.slice(0,4).map(u=>u.id)), plan={}, planF={};
   if(zachovat){ for(let di=0;di<7;di++) slotyDna(di).forEach(sl=>slotIds(di,sl).forEach(id=>pouzite.add(id))); }
   const skupiny = S.blokMode ? bloky() : [[0],[1],[2],[3],[4],[5],[6]];
-  let prilRot=0;
+  let prilRot=0, prevBlokMaso=new Set();
   skupiny.forEach(dni=>{
     const kf=filterKuchynaPreDen(dni[0]);
+    const pr=pravidloPreDen(dni[0]);
+    const blokMaso=new Set();
     const sloty=slotyDna(dni[0]);
     const denPlan={}, dayKuchyne=new Set();
     if(zachovat){ sloty.forEach(sl=>{ const ex=slotIds(dni[0],sl); if(ex.length){ denPlan[sl]=ex.slice(); const r0=komponent(ex[0]); if(r0&&r0.kuchyna)dayKuchyne.add(r0.kuchyna); } }); }
     sloty.forEach(slot=>{ if(denPlan[slot])return;
       let pool=poolPreSlot(slot).filter(r=>!nedavne.has(r.id)); if(!pool.length)pool=poolPreSlot(slot);
       if(kf && slot!=="Raňajky"){ const pk=pool.filter(r=>(r.kuchyna||"").toLowerCase()===kf.toLowerCase()); if(pk.length)pool=pk; }
+      if(pr&&pr.veg){ const pv=pool.filter(r=>diety(r).veg); if(pv.length)pool=pv; }
+      if(pr&&pr.maxCas>0){ const pc=pool.filter(r=>casMin(r)<=pr.maxCas); if(pc.length)pool=pc; }
+      if(cfg.neMasoZaSebou && jeHlavnyChodSlot(slot) && prevBlokMaso.size){ const pm=pool.filter(r=>{const mt=masoTyp(r); return !mt||!prevBlokMaso.has(mt);}); if(pm.length)pool=pm; }
       if(slot==="Raňajky"){ if(dni.every(d=>d<5)){ const ps=pool.filter(r=>jeSendvic(r)); if(ps.length)pool=ps; } const p2=pool.filter(r=>!pouziteBazy.has(ranajkyBaza(r))); if(p2.length)pool=p2; }
       else { const p2=pool.filter(r=>!r.kuchyna||!dayKuchyne.has(r.kuchyna)); if(p2.length)pool=p2; }
       if(slot==="Snack" && S.profil.kupSnack){ const p3=pool.filter(r=>(r.tagy||[]).includes("kupované")); if(p3.length)pool=p3; }
       const r=vyberVazene(pool,pouzite); if(r){ let comp=[r.id]; pouzite.add(r.id);
         if(slot==="Raňajky")pouziteBazy.add(ranajkyBaza(r)); else if(r.kuchyna)dayKuchyne.add(r.kuchyna);
+        { const mt=masoTyp(r); if(mt)blokMaso.add(mt); }
         if(jeHlavnyChodSlot(slot) && potrebujePrilohu(r)) comp.push(vyberPrilohu(r.kuchyna,prilRot++));
         if(jeNatierkovySlot(slot) && r.kategoria==="Nátierka") comp.push("prf:pecivo");
         denPlan[slot]=comp; } });
@@ -563,6 +570,7 @@ function generujJedalnicek(zamiesaj){
     let fac=1;
     if(cfg.cielMode){ const ciel=S.profil.kcal||0; let dk=0; sloty.forEach(s=>{ if(denPlan[s])dk+=mealKcal(denPlan[s]); }); if(ciel>0 && dk>0) fac=Math.max(0.5,Math.min(2,Math.round(ciel/dk*20)/20)); }
     dni.forEach(di=>{ plan[di]={}; sloty.forEach(s2=>{ if(denPlan[s2])plan[di][s2]=denPlan[s2].slice(); }); planF[di]={}; if(fac!==1) sloty.forEach(s2=>{ if(denPlan[s2])planF[di][s2]=fac; }); });
+    prevBlokMaso=blokMaso;
   });
   S.plan=plan; S.planF=planF; save(); renderPlan();
   if(document.getElementById("v-domov").classList.contains("active"))renderDash();
