@@ -72,6 +72,11 @@
   .kolekcie{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px}
   .kol-tile{padding:7px 12px;border:1px solid var(--line);border-radius:20px;cursor:pointer;font-size:14px;background:var(--card);white-space:nowrap;user-select:none}
   .kol-tile.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .hdot{display:inline-block;width:9px;height:9px;border-radius:50%;vertical-align:middle;margin-right:4px}
+  .hs-green{background:#2e7d54} .hs-amber{background:#e0a800} .hs-red{background:#c0392b}
+  .badge.hs-green{background:#e3f1e9;color:#2e7d54} .badge.hs-amber{background:#fbf0cf;color:#8a6d00} .badge.hs-red{background:#f6dedb;color:#c0392b}
+  .ring{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;font-size:11px;vertical-align:middle}
+  .ring b{background:var(--card);width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700}
   .chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:7px 13px;border-radius:20px;cursor:pointer;font-size:14px;user-select:none}
   .chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
@@ -664,7 +669,9 @@ function prejdeProfil(r){
 }
 function kartaHTML(r){
   const d=diety(r); const v=vyzivaReceptu(r); const kc=v.kcal>5?Math.round(v.kcal):(r.kcal_na_porciu||0); const hod=S.hodn[r.id]||0;
-  const db=[jeWatch(r)?'<span class="badge">⭐</span>':'',jeVakcii(r)?'<span class="badge price">🏷️ akcia</span>':'',jeSezonne(r)?'<span class="badge">🌿 sezónne</span>':'',d.veg?'<span class="badge">🌱 veg</span>':''].join('');
+  const hs=healthScore(r); // bodka len pre proteínovo bohaté (green/amber); pri nízkom proteíne žiadna (aby karty neboli more červených)
+  const dotEl=(hs.farba!=="red")?'<span class="hdot hs-'+hs.farba+'" title="proteín '+fmt(hs.p100)+' g/100 kcal"></span>':'';
+  const db=[dotEl,jeWatch(r)?'<span class="badge">⭐</span>':'',jeVakcii(r)?'<span class="badge price">🏷️ akcia</span>':'',jeSezonne(r)?'<span class="badge">🌿 sezónne</span>':'',d.veg?'<span class="badge">🌱 veg</span>':''].join('');
   const thumb=r.foto?'<img src="recepty/fotky/'+r.foto+'" alt="">':(ikony[r.kategoria]||"🍴");
   return '<button class="fav" onclick="event.stopPropagation();toggleFav(\''+r.id+'\')">'+(S.fav[r.id]?"★":"☆")+'</button>'+
     '<div class="thumb" onclick="otvor(\''+r.id+'\')">'+thumb+'</div>'+
@@ -748,7 +755,10 @@ function otvor(id, ctx){
   const r=receptById(id); if(!r)return; aktualny=r; aktPorcie=(ctx&&ctx.di!==undefined)?Math.max(1,Math.round(porcieNaVar(ctx.di,ctx.slot))):(r.porcie||1); jednotkaMode="metric";
   const al=alergenyReceptu(r); const d=diety(r);
   const foto=r.foto?`<img src="recepty/fotky/${r.foto}" style="width:100%;max-height:280px;object-fit:cover;border-radius:12px;margin-bottom:14px">`:"";
-  const badges=[jeVakcii(r)?'<span class="badge price">🏷️ v akcii</span>':'',jeSezonne(r)?'<span class="badge">🌿 sezónne</span>':'',d.veg?'<span class="badge">🌱 vegetariánske</span>':'',d.bezlepku?'<span class="badge">bez lepku</span>':'',d.bezlaktozy?'<span class="badge">bez laktózy</span>':'',...al.map(a=>`<span class="badge alerg">⚠ ${a}</span>`)].join('');
+  const hs=healthScore(r); const pod=Math.round(podielCiela(r)*100);
+  const hsBadge=hs.p100>0?`<span class="badge hs-${hs.farba}" title="bielkoviny na 100 kcal">💪 ${fmt(hs.p100)} g/100 kcal</span>`:'';
+  const ringBadge=pod>0?`<span class="ring" style="background:conic-gradient(var(--accent) ${pod*3.6}deg, var(--line) 0)" title="podiel jednej porcie na dennom cieli"><b>${pod}%</b></span> <span class="badge">podiel dňa</span>`:'';
+  const badges=[hsBadge,ringBadge,jeVakcii(r)?'<span class="badge price">🏷️ v akcii</span>':'',jeSezonne(r)?'<span class="badge">🌿 sezónne</span>':'',d.veg?'<span class="badge">🌱 vegetariánske</span>':'',d.bezlepku?'<span class="badge">bez lepku</span>':'',d.bezlaktozy?'<span class="badge">bez laktózy</span>':'',...al.map(a=>`<span class="badge alerg">⚠ ${a}</span>`)].join('');
   const hod=S.hodn[r.id]||0;
   const stars=[1,2,3,4,5].map(i=>`<span class="${i<=hod?'on':''}" onclick="hodnot('${r.id}',${i})">★</span>`).join('');
   const cen=vyzivaReceptu(r).cena; const uv=S.uvarene.filter(u=>u.id===r.id); const dparts=[];
