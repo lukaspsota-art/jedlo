@@ -1277,7 +1277,8 @@ function surovinaInfo(nazov){ const n=bezDia(nazov);
   let nah=[]; for(const k in SUBSTITUCIE){ if(n.includes(bezDia(k))){ nah=SUBSTITUCIE[k]; break; } }
   let h=`<div class="hero"><button class="close" onclick="zavriPick()">✕</button><h2>${nazov}</h2></div><div class="content2">`;
   h+='<h4 class="sekcia">🍲 V ktorom recepte (z plánu)</h4>';
-  h+= recepty.length? recepty.map(r=>`<div class="plan-cell" style="border-bottom:1px solid var(--line);border-radius:0" onclick="zavriPick();otvor('${r.id}')"><span class="nm">${ikony[r.kategoria]||"🍴"} ${r.nazov}</span></div>`).join("") : '<p class="info">V aktuálnom pláne túto surovinu nepoužíva žiadny recept.</p>';
+  const mnozVRecepte=r=>{ const i=(r.ingrediencie||[]).find(x=>{const nn=bezDia(x.nazov);return nn.includes(n)||n.includes(nn.split(" ")[0]);}); if(!i)return ""; return i.mnozstvo!=null?(fmt(i.mnozstvo)+" "+(i.jednotka||"")).trim():(i.poznamka||"podľa chuti"); };
+  h+= recepty.length? recepty.map(r=>`<div class="plan-cell" style="border-bottom:1px solid var(--line);border-radius:0" onclick="zavriPick();otvor('${r.id}')"><span class="nm">${ikony[r.kategoria]||"🍴"} ${r.nazov}</span><span class="kc">${mnozVRecepte(r)}</span></div>`).join("") : '<p class="info">V aktuálnom pláne túto surovinu nepoužíva žiadny recept.</p>';
   h+='<h4 class="sekcia">🔄 Čím nahradiť</h4>';
   h+= nah.length? `<p>${nah.join(", ")}</p>` : '<p class="info">Pre túto surovinu nemám návrh náhrady.</p>';
   h+="</div>"; document.getElementById("pick-modal").innerHTML=h; document.getElementById("pick-overlay").classList.add("open"); }
