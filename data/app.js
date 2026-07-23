@@ -431,7 +431,9 @@ const PRILOHY = {
  "prf:pecivo":{nazov:"Pečivo", ing:{nazov:"Bageta",mnozstvo:80,jednotka:"g"}},
  "prf:salat":{nazov:"Zeleninový šalát", ing:{nazov:"Paradajky",mnozstvo:120,jednotka:"g"}}
 };
-function komponent(id){ if(typeof id==="string" && id.indexOf("prf:")===0){ const p=PRILOHY[id]; if(!p)return null; return {id:id,nazov:p.nazov,kategoria:"Príloha",kuchyna:"",porcie:1,ingrediencie:[p.ing],postup:[],_priloha:true}; } return receptById(id); }
+function komponent(id){ if(typeof id==="string" && id.indexOf("prf:")===0){ const p=PRILOHY[id]; if(!p)return null; return {id:id,nazov:p.nazov,kategoria:"Príloha",kuchyna:"",porcie:1,ingrediencie:[p.ing],postup:[],_priloha:true}; }
+  if(typeof id==="string" && id.indexOf("left:")===0){ const r=receptById(id.slice(5)); if(!r)return null; return Object.assign({},r,{id:id,_left:true,_srcId:r.id}); } // zvyšok: ráta do kcal, nie do nákupu
+  return receptById(id); }
 function slotIds(di,slot){ const v=(S.plan[di]||{})[slot]; if(!v)return []; return Array.isArray(v)?v.slice():[v]; }
 function maCarb(r){ const s=(r.ingrediencie||[]).map(i=>i.nazov.toLowerCase()).join(" "); return /ryž|ryza|zemiak|cestovin|špaget|spaget|linguin|rezanc|tarho|kuskus|bulgur|quinoa|chlieb|bageta|tortilla|rožok|rozok|žeml|nudl|halušk|knedl|pečivo/.test(s); }
 function potrebujePrilohu(r){ return r && isMain(r) && r.kategoria!=="Polievka" && r.kategoria!=="Šalát" && !maCarb(r); }
@@ -501,9 +503,9 @@ function renderPlan(){
       if(slotyDna(di).indexOf(slot)<0){ h+=`<td style="${tint(di)}"><div class="plan-cell vyp">vyp.</div></td>`; return; }
       if(ids.length){ let kc=0;
         const riadky=ids.map(cid=>{const k=komponent(cid); if(!k)return ""; kc+=kcalPorcia(k);
-          const nm=k._priloha?`<span class="nm">+ ${k.nazov}</span>`:`<span class="nm" style="cursor:pointer;text-decoration:underline" onclick="otvor('${cid}',{di:${di},slot:'${slot}'})" title="Zobraziť recept">${k.nazov}</span>`;
+          const nm=k._priloha?`<span class="nm">+ ${k.nazov}</span>`:k._left?`<span class="nm" style="cursor:pointer" onclick="otvor('${k._srcId}')" title="Zvyšok — zobraziť recept">♻️ ${k.nazov} <small>(zvyšok)</small></span>`:`<span class="nm" style="cursor:pointer;text-decoration:underline" onclick="otvor('${cid}',{di:${di},slot:'${slot}'})" title="Zobraziť recept">${k.nazov}</span>`;
           return `<div style="display:flex;justify-content:space-between;gap:4px;align-items:start">${nm}<a onclick="odoberKomponent(${di},'${slot}','${cid}')" style="color:var(--warn);cursor:pointer" title="odobrať">✕</a></div>`;}).join("");
-        h+=`<td style="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><div class="plan-cell" draggable="true" ondragstart="dragStart(event,${di},'${slot}')" title="Potiahni pre presun">${riadky}<span class="kc" style="cursor:pointer" title="Upraviť veľkosť porcie" onclick="upravFaktor(${di},'${slot}')">${Math.round(kc*f)} kcal ${fmtPct(f)} ✎</span><span style="display:flex;gap:12px;margin-top:2px"><span class="rm" style="color:var(--accent)" onclick="vyberDoPlanu(${di},'${slot}')">✎ zmeniť</span><span class="rm" style="color:var(--accent)" onclick="pridajKomponent(${di},'${slot}')">+ doplnok</span><span class="rm" style="color:var(--accent)" onclick="regenerujSlot(${di},'${slot}')" title="Vygenerovať znova len toto jedlo">🎲 znova</span><span class="rm" style="color:var(--accent)" onclick="upravSlotPorcie(${di},'${slot}')" title="Počet porcií pre toto jedlo">👥 porcie</span></span></div></td>`;
+        h+=`<td style="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><div class="plan-cell" draggable="true" ondragstart="dragStart(event,${di},'${slot}')" title="Potiahni pre presun">${riadky}<span class="kc" style="cursor:pointer" title="Upraviť veľkosť porcie" onclick="upravFaktor(${di},'${slot}')">${Math.round(kc*f)} kcal ${fmtPct(f)} ✎</span><span style="display:flex;gap:12px;margin-top:2px"><span class="rm" style="color:var(--accent)" onclick="vyberDoPlanu(${di},'${slot}')">✎ zmeniť</span><span class="rm" style="color:var(--accent)" onclick="pridajKomponent(${di},'${slot}')">+ doplnok</span><span class="rm" style="color:var(--accent)" onclick="regenerujSlot(${di},'${slot}')" title="Vygenerovať znova len toto jedlo">🎲 znova</span><span class="rm" style="color:var(--accent)" onclick="upravSlotPorcie(${di},'${slot}')" title="Počet porcií pre toto jedlo">👥 porcie</span><span class="rm" style="color:var(--accent)" onclick="pridajZvysok(${di},'${slot}')" title="Rozpísať ako zvyšok do iného dňa/jedla">♻️ zvyšok</span></span></div></td>`;
       } else h+=`<td style="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><div class="plan-cell prazdne" onclick="vyberDoPlanu(${di},'${slot}')">+ pridať</div></td>`;
     });
     h+="</tr>";
@@ -564,6 +566,19 @@ function odoberKomponent(di,slot,cid){ const dni=S.blokMode?blokDni(di):[di];
   dni.forEach(d=>{ if(S.plan[d]){ const cur=slotIds(d,slot).filter(x=>x!==cid); if(cur.length)S.plan[d][slot]=cur; else delete S.plan[d][slot]; } });
   rescaleDen(dni); save(); renderPlan(); }
 function zmazZPlanu(di,slot){ if(S.plan[di])delete S.plan[di][slot]; if(S.planF[di])delete S.planF[di][slot]; save(); renderPlan(); }
+// Leftovers: rozpíš navarené jedlo ako zvyšok do iného dňa/slotu (ráta do kcal, nie do nákupu)
+function pridajZvysok(di,slot){
+  const src=slotIds(di,slot).map(cid=>komponent(cid)).find(k=>k && !k._priloha && !k._left);
+  if(!src){ alert("Tu nie je jedlo, z ktorého by bol zvyšok."); return; }
+  const srcId=src._srcId||src.id;
+  let h=`<div class="hero"><button class="close" onclick="zavriPick()">✕</button><h2>♻️ Zvyšok</h2><div class="subx">${src.nazov} → kam ho rozpísať?</div></div><div class="content2">`;
+  for(let d=0;d<7;d++){ const sl=slotyDna(d); if(!sl.length)continue;
+    h+=`<div class="sp-row" style="flex-wrap:wrap;gap:6px"><span style="min-width:60px"><b>${DNI[d].slice(0,2)}</b></span><span style="display:flex;gap:6px;flex-wrap:wrap">`;
+    sl.forEach(s=>{ const same=(d===di&&s===slot); h+=`<button class="mini" ${same?"disabled":""} onclick="umiestniZvysok('${srcId}',${d},'${s}')">${ikony[s]||""} ${s}</button>`; });
+    h+="</span></div>"; }
+  h+='<p class="info" style="margin-top:10px">Zvyšok sa ráta do kalórií daného dňa, ale nepridáva sa do nákupu (navaríš raz).</p></div>';
+  document.getElementById("pick-modal").innerHTML=h; document.getElementById("pick-overlay").classList.add("open"); }
+function umiestniZvysok(srcId,di,slot){ S.plan[di]=S.plan[di]||{}; const cur=slotIds(di,slot); cur.push("left:"+srcId); S.plan[di][slot]=cur; save(); zavriPick(); renderPlan(); }
 function regenerujSlot(di,slot){ const dni=S.blokMode?blokDni(di):[di];
   const pouzite=new Set(); for(let d=0;d<7;d++) SLOTY().forEach(sl=>slotIds(d,sl).forEach(id=>pouzite.add(id)));
   const nedavne=new Set(S.uvarene.slice(0,4).map(u=>u.id)), kf=filterKuchynaPreDen(dni[0]), pr=pravidloPreDen(dni[0]);
@@ -739,7 +754,7 @@ function tlacTyzden(){ prepni("planovac"); renderNakup(); document.querySelector
 function domaTokens(){ return (S.domaNakup||"").toLowerCase().split(/[\n,;]+/).map(x=>x.trim()).filter(Boolean); }
 function nakupPolozky(){
   const items=planItems(); const grp={}, notes={};
-  items.forEach(({r,di,slot})=>{ const nas=mnozMult(di,slot)/(r.porcie||1);
+  items.forEach(({r,di,slot})=>{ if(r._left)return; const nas=mnozMult(di,slot)/(r.porcie||1); // zvyšok = už kúpené/navarené
     (r.ingrediencie||[]).forEach(i=>{ const p=najdiPotravinu(i.nazov);
       if(i.mnozstvo==null){ const kk=(p?p.kluc:i.nazov.toLowerCase()); if(!notes[kk])notes[kk]={nazov:i.nazov,pozn:i.poznamka||"podľa chuti",oddelenie:(p||{}).oddelenie||"Ostatné"}; return; }
       const j=(i.jednotka||"").toLowerCase();
@@ -853,7 +868,7 @@ function renderDash(){
   const plan=planItems();
   const pz=document.getElementById("pozdrav"); if(pz)pz.textContent=pozdravText();
   let totB=0,totCena=0; const dniSet={};
-  plan.forEach(p=>{ const v=vyzivaReceptu(p.r); totB+=v.b*p.f; totCena+=v.cena*p.f; dniSet[p.di]=1; });
+  plan.forEach(p=>{ const v=vyzivaReceptu(p.r); totB+=v.b*p.f; totCena+=(p.r._left?0:v.cena*p.f); dniSet[p.di]=1; }); // zvyšok neprináša náklad
   const nd=Object.keys(dniSet).length||1;
   document.getElementById("dash-tiles").innerHTML=`
     <div class="tile"><div class="lbl">Receptov</div><div class="val">${RECEPTY.length}</div></div>
