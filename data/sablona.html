@@ -208,6 +208,10 @@
   .suma .ciel-mini{color:var(--muted);font-weight:400;font-size:11px;margin-left:1px}
   .suma .kc-bar{height:4px;background:var(--line);border-radius:3px;overflow:hidden;margin:3px auto 0;max-width:64px}
   .suma .kc-bar i{display:block;height:100%}
+  #toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translate(-50%,16px);background:var(--accent-dark);color:#fff;padding:12px 18px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.28);z-index:80;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;max-width:90vw;text-align:center;font-size:14px}
+  #toast.show{opacity:1;transform:translate(-50%,0)}
+  @media(min-width:821px){ #toast{bottom:28px} }
+  #dlg-modal .content2 p{margin-top:0;font-size:15px;line-height:1.5}
   .tile{transition:transform .12s,box-shadow .12s}
   .goalline{position:relative;height:0;border-top:2px dashed var(--gold)}
   .field{display:flex;flex-direction:column;gap:5px;margin-bottom:14px}
@@ -472,8 +476,9 @@
         <div class="btn-row" style="margin-top:14px;border-top:1px solid var(--line);padding-top:14px"><button class="btn" style="color:var(--warn);border-color:var(--warn)" onclick="resetApp()">🗑 Vymazať všetko a začať odznova</button></div>
       </div>
       <div class="panel"><h3>Synchronizácia (voliteľné)</h3>
+        <div id="sync-stav" style="margin:0 0 12px"></div>
         <p class="info">Ak zdieľaš appku s viacerými ľuďmi cez jeden Supabase, každý nech má vlastné Sync ID (rôzni ľudia = rôzne ID). Rovnaké ID = zdieľané dáta medzi tvojimi zariadeniami.</p>
-        <label class="switch"><input type="checkbox" id="p-syncoff" onchange="S.profil.syncOff=this.checked;save()"> Vypnúť synchronizáciu na tomto zariadení</label>
+        <label class="switch"><input type="checkbox" id="p-syncoff" onchange="S.profil.syncOff=this.checked;save();renderSyncStav()"> Vypnúť synchronizáciu na tomto zariadení</label>
         <div class="field"><label>Sync ID</label><input type="text" id="p-syncid" placeholder="napr. lukas-domacnost" onchange="S.profil.syncId=this.value;save()"></div>
       </div>
       <div class="panel"><h3>Účet a skupina</h3>
@@ -498,6 +503,8 @@
 
 <div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
 <div class="overlay" id="pick-overlay"><div class="modal" id="pick-modal" style="max-width:520px"></div></div>
+<div class="overlay" id="dlg-overlay"><div class="modal" id="dlg-modal" style="max-width:420px"></div></div>
+<div id="toast" role="status" aria-live="polite"></div>
 
 <div class="cook" id="cook">
   <div class="ch"><span id="cook-title"></span>

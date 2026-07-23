@@ -208,6 +208,10 @@
   .suma .ciel-mini{color:var(--muted);font-weight:400;font-size:11px;margin-left:1px}
   .suma .kc-bar{height:4px;background:var(--line);border-radius:3px;overflow:hidden;margin:3px auto 0;max-width:64px}
   .suma .kc-bar i{display:block;height:100%}
+  #toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translate(-50%,16px);background:var(--accent-dark);color:#fff;padding:12px 18px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.28);z-index:80;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;max-width:90vw;text-align:center;font-size:14px}
+  #toast.show{opacity:1;transform:translate(-50%,0)}
+  @media(min-width:821px){ #toast{bottom:28px} }
+  #dlg-modal .content2 p{margin-top:0;font-size:15px;line-height:1.5}
   .tile{transition:transform .12s,box-shadow .12s}
   .goalline{position:relative;height:0;border-top:2px dashed var(--gold)}
   .field{display:flex;flex-direction:column;gap:5px;margin-bottom:14px}
@@ -472,8 +476,9 @@
         <div class="btn-row" style="margin-top:14px;border-top:1px solid var(--line);padding-top:14px"><button class="btn" style="color:var(--warn);border-color:var(--warn)" onclick="resetApp()">🗑 Vymazať všetko a začať odznova</button></div>
       </div>
       <div class="panel"><h3>Synchronizácia (voliteľné)</h3>
+        <div id="sync-stav" style="margin:0 0 12px"></div>
         <p class="info">Ak zdieľaš appku s viacerými ľuďmi cez jeden Supabase, každý nech má vlastné Sync ID (rôzni ľudia = rôzne ID). Rovnaké ID = zdieľané dáta medzi tvojimi zariadeniami.</p>
-        <label class="switch"><input type="checkbox" id="p-syncoff" onchange="S.profil.syncOff=this.checked;save()"> Vypnúť synchronizáciu na tomto zariadení</label>
+        <label class="switch"><input type="checkbox" id="p-syncoff" onchange="S.profil.syncOff=this.checked;save();renderSyncStav()"> Vypnúť synchronizáciu na tomto zariadení</label>
         <div class="field"><label>Sync ID</label><input type="text" id="p-syncid" placeholder="napr. lukas-domacnost" onchange="S.profil.syncId=this.value;save()"></div>
       </div>
       <div class="panel"><h3>Účet a skupina</h3>
@@ -498,6 +503,8 @@
 
 <div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
 <div class="overlay" id="pick-overlay"><div class="modal" id="pick-modal" style="max-width:520px"></div></div>
+<div class="overlay" id="dlg-overlay"><div class="modal" id="dlg-modal" style="max-width:420px"></div></div>
+<div id="toast" role="status" aria-live="polite"></div>
 
 <div class="cook" id="cook">
   <div class="ch"><span id="cook-title"></span>
@@ -648,7 +655,7 @@ function zobrazView(v){
   else if(v==="planovac") renderPlan();
   else if(v==="nakup") renderNakup();
   else if(v==="vyziva") renderVyziva();
-  else if(v==="nastavenia") naplnProfil();
+  else if(v==="nastavenia"){ naplnProfil(); renderSyncStav(); }
   else if(v==="spajza") renderSpajza();
   window.scrollTo(0, _scrollPos[v]||0); // E7: obnov scroll (0 pre novú obrazovku)
 }
@@ -781,17 +788,17 @@ function pridajIngRiadok(){ const box=document.getElementById("nr-ing"); if(!box
   const d=document.createElement("div"); d.className="controls"; d.style.marginBottom="6px"; d.style.padding="0";
   d.innerHTML=`<input list="potraviny-dl" class="nr-in" placeholder="surovina" style="flex:1;min-width:120px;padding:8px;border:1px solid var(--line);border-radius:8px"><input type="number" class="nr-mn" placeholder="množ." style="width:90px;padding:8px;border:1px solid var(--line);border-radius:8px"><input class="nr-jed" list="jedn-dl" placeholder="jedn." style="width:90px;padding:8px;border:1px solid var(--line);border-radius:8px">`;
   box.appendChild(d); novyIngRows++; }
-function ulozNovyRecept(){ const nazov=escHtml((document.getElementById("nr-nazov").value||"").trim()); if(!nazov){alert("Zadaj názov receptu.");return;}
+function ulozNovyRecept(){ const nazov=escHtml((document.getElementById("nr-nazov").value||"").trim()); if(!nazov){toast("Zadaj názov receptu.");return;}
   const ing=[]; document.querySelectorAll("#nr-ing .controls").forEach(row=>{ const n=(row.querySelector(".nr-in").value||"").trim(); if(!n)return;
     const mn=parseFloat(row.querySelector(".nr-mn").value); const jed=(row.querySelector(".nr-jed").value||"").trim();
     ing.push({nazov:escHtml(n),mnozstvo:isNaN(mn)?null:mn,jednotka:escHtml(jed)}); });
-  if(!ing.length){ alert("Pridaj aspoň jednu surovinu."); return; }
+  if(!ing.length){ toast("Pridaj aspoň jednu surovinu."); return; }
   const postup=(document.getElementById("nr-postup").value||"").split(/\n+/).map(x=>escHtml(x.replace(/^\s*\d+[\.\)]\s*/,"").trim())).filter(Boolean);
   const r={ id:"moj-"+(S.spSid++), nazov, kategoria:document.getElementById("nr-kat").value, kuchyna:escHtml((document.getElementById("nr-kuch").value||"").trim()),
     porcie:parseInt(document.getElementById("nr-porcie").value)||2, cas:escHtml((document.getElementById("nr-cas").value||"").trim()), popis:"",
     ingrediencie:ing, postup, tipy:escHtml((document.getElementById("nr-tip").value||"").trim()), foto:"", tagy:["vlastný"], _moj:true };
   S.mojeRecepty.push(r); RECEPTY.push(r); save(); zavriPick(); renderChips(); renderGrid(); otvor(r.id); }
-function zmazMojRecept(id){ if(!confirm("Zmazať tento vlastný recept?"))return;
+async function zmazMojRecept(id){ if(!await confirmModal("Zmazať tento vlastný recept?"))return;
   S.mojeRecepty=S.mojeRecepty.filter(r=>r.id!==id); const i=RECEPTY.findIndex(r=>r.id===id); if(i>=0)RECEPTY.splice(i,1);
   delete S.fav[id]; delete S.hodn[id]; save(); zavri(); renderChips(); renderGrid(); }
 
@@ -818,7 +825,7 @@ function otvor(id, ctx){
       ${r.popis?`<p class="popis">${r.popis}</p>`:""}
       <div class="row-badges">${badges}</div>
       <div class="porcie-box"><label>Porcie:</label>
-        <div class="stepper"><button onclick="zmenPorcie(-1)">−</button><span id="pnum">${aktPorcie}</span><button onclick="zmenPorcie(1)">+</button></div>
+        <div class="stepper"><button onclick="zmenPorcie(-1)">−</button><input id="pnum" type="number" min="1" max="99" value="${aktPorcie}" onchange="nastavPorcie(this.value)" onfocus="this.select()" title="Zadaj počet porcií" style="width:52px;text-align:center;border:1px solid var(--line);border-radius:8px;padding:5px;font-weight:600;font-size:16px"><button onclick="zmenPorcie(1)">+</button></div>
         <button class="mini" onclick="naJednu()">na 1 porciu</button>
         <select class="mini" id="unit-mode" onchange="setUnitMode(this.value)"><option value="metric">g / ml</option><option value="spoon">lyžice</option><option value="imperial">oz / cup</option></select></div>
       <div class="nutri" id="nutri"></div>
@@ -881,8 +888,9 @@ function renderSubst(){
   const box=document.getElementById("subst-box");
   box.innerHTML = items.length ? `<div class="subst">🔄 Náhrady: ${items.join(" · ")}</div>` : "";
 }
-function zmenPorcie(d){ aktPorcie=Math.max(1,aktPorcie+d); document.getElementById("pnum").textContent=aktPorcie; renderIng(); }
-function naJednu(){ aktPorcie=1; document.getElementById("pnum").textContent=1; renderIng(); }
+function zmenPorcie(d){ aktPorcie=Math.max(1,aktPorcie+d); document.getElementById("pnum").value=aktPorcie; renderIng(); }
+function nastavPorcie(v){ aktPorcie=Math.max(1,Math.min(99,parseInt(v)||1)); document.getElementById("pnum").value=aktPorcie; renderIng(); } // priame zadanie počtu porcií
+function naJednu(){ aktPorcie=1; document.getElementById("pnum").value=1; renderIng(); }
 function setUnitMode(v){ jednotkaMode=v; renderIng(); }
 function prevodJednotka(val, jed){
   const j=(jed||"").toLowerCase();
@@ -900,9 +908,21 @@ function prevodJednotka(val, jed){
 }
 function hodnot(id,n){ if(n)S.hodn[id]=n; else delete S.hodn[id]; save(); otvor(id); renderGrid(); }
 function ulozPozn(id){ S.pozn[id]=document.getElementById("poznamka").value; save(); }
+// --- vlastné dialógy namiesto natívnych (toast / confirm / prompt) ---
+function toast(msg){ const t=document.getElementById("toast"); if(!t)return; t.textContent=msg; t.classList.add("show"); clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove("show"),3000); }
+function dlgZavri(v){ const o=document.getElementById("dlg-overlay"); o.classList.remove("open"); document.body.style.overflow=document.querySelector("#overlay.open,#pick-overlay.open,#cook.open")?"hidden":""; const r=o._res; o._res=null; if(r)r(v); }
+function confirmModal(msg,okLabel){ return new Promise(res=>{ const o=document.getElementById("dlg-overlay"); o._res=res; o._cancel=false;
+  document.getElementById("dlg-modal").innerHTML=`<div class="content2"><p>${escHtml(msg)}</p><div class="btn-row" style="justify-content:flex-end"><button class="btn" onclick="dlgZavri(false)">Zrušiť</button><button class="btn primary" onclick="dlgZavri(true)">${escHtml(okLabel||"OK")}</button></div></div>`;
+  o.classList.add("open"); document.body.style.overflow="hidden"; const bb=o.querySelector(".btn.primary"); if(bb)bb.focus(); }); }
+function promptModal(msg,def){ return new Promise(res=>{ const o=document.getElementById("dlg-overlay"); o._res=res; o._cancel=null;
+  document.getElementById("dlg-modal").innerHTML=`<div class="content2"><p>${escHtml(msg)}</p><input id="dlg-in" value="${escHtml(def==null?"":def)}" style="width:100%;padding:9px;border:1px solid var(--line);border-radius:8px;font-size:15px"><div class="btn-row" style="justify-content:flex-end;margin-top:14px"><button class="btn" onclick="dlgZavri(null)">Zrušiť</button><button class="btn primary" onclick="dlgPromptOk()">OK</button></div></div>`;
+  o.classList.add("open"); document.body.style.overflow="hidden"; const inp=document.getElementById("dlg-in"); if(inp){ inp.focus(); inp.select(); inp.addEventListener("keydown",e=>{ if(e.key==="Enter"){e.preventDefault();dlgPromptOk();} }); } }); }
+function dlgPromptOk(){ const inp=document.getElementById("dlg-in"); dlgZavri(inp?inp.value:""); }
+document.getElementById("dlg-overlay").addEventListener("click",e=>{ if(e.target.id==="dlg-overlay") dlgZavri(e.currentTarget._cancel); });
+
 function zavri(){ document.getElementById("overlay").classList.remove("open"); document.body.style.overflow=""; }
 document.getElementById("overlay").addEventListener("click",e=>{if(e.target.id==="overlay")zavri();});
-document.addEventListener("keydown",e=>{if(e.key==="Escape"){zavri();zavriPick();}});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){ const dg=document.getElementById("dlg-overlay"); if(dg.classList.contains("open")){ dlgZavri(dg._cancel); return; } zavri();zavriPick();}});
 
 // E2+E4: centrálny stav modálov — zamkni scroll pozadia pri KTOROMKOĽVEK otvorenom modáli a podchyť „späť" (Android/PWA gesto)
 function modalOtvoreny(){ return !!document.querySelector("#overlay.open,#pick-overlay.open,#cook.open"); }
@@ -941,11 +961,11 @@ function renderCasovace(){ const box=document.getElementById("cook-timers"); if(
   box.innerHTML=casovace.map(c=>`<span class="timer ${c.left>0?'run':''}" onclick="zmazCasovac(${c.id})">${c.left>0?'⏲ '+formatCas(c.left):'✅ hotovo'} · ${c.label} ✕</span>`).join(""); }
 function pridajCasovacSek(sek,label){ if(!sek)return; casId++; casovace.push({id:casId,left:sek,label:label||formatCas(sek)}); if(!casInterval)casInterval=setInterval(tickCasovace,1000); renderCasovace(); }
 function pridajKrokovyCasovac(){ const sek=parseInt(document.getElementById("cook-add-timer").dataset.sek)||0; pridajCasovacSek(sek,"krok "+(cookKrok+1)); }
-function pridajCasovac(){ const v=prompt("Časovač na koľko minút?","5"); if(v===null)return; const min=parseFloat(String(v).replace(",","."))||0; pridajCasovacSek(Math.round(min*60),fmt(min)+" min"); }
+async function pridajCasovac(){ const v=await promptModal("Časovač na koľko minút?","5"); if(v===null)return; const min=parseFloat(String(v).replace(",","."))||0; pridajCasovacSek(Math.round(min*60),fmt(min)+" min"); }
 function zmazCasovac(id){ casovace=casovace.filter(c=>c.id!==id); renderCasovace(); if(!casovace.length&&casInterval){clearInterval(casInterval);casInterval=null;} }
 function pip(){ try{const a=new (window.AudioContext||window.webkitAudioContext)();const o=a.createOscillator();o.connect(a.destination);o.frequency.value=880;o.start();setTimeout(()=>o.stop(),600);}catch(e){} }
 function citajKrok(){ try{ if(!('speechSynthesis' in window))return; speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance((cookKrok+1)+". "+(cookKroky[cookKrok]||"")); u.lang="sk-SK"; u.rate=0.95; speechSynthesis.speak(u); }catch(e){} }
-function krok(d){ if(d>0 && cookKrok===cookKroky.length-1){ oznacUvarene(cookRecept); const rr=receptById(cookRecept); zavriCook(); if(rr && S.spajza.length && confirm("Uvarené! Odpísať suroviny zo špajze?")) odpisRecept(rr); return; } cookKrok=Math.min(cookKroky.length-1,Math.max(0,cookKrok+d)); ukazKrok(); }
+async function krok(d){ if(d>0 && cookKrok===cookKroky.length-1){ oznacUvarene(cookRecept); const rr=receptById(cookRecept); zavriCook(); if(rr && S.spajza.length && await confirmModal("Uvarené! Odpísať suroviny zo špajze?")) odpisRecept(rr); return; } cookKrok=Math.min(cookKroky.length-1,Math.max(0,cookKrok+d)); ukazKrok(); }
 function zavriCook(){ document.getElementById("cook").classList.remove("open"); casovace=[]; if(casInterval){clearInterval(casInterval);casInterval=null;} renderCasovace(); try{speechSynthesis.cancel();}catch(e){} if(wakeLock){wakeLock.release();wakeLock=null;} }
 function oznacUvarene(id){ if(!id)return; S.uvarene.unshift({id:id,datum:new Date().toISOString().slice(0,10)}); S.uvarene=S.uvarene.slice(0,30); save(); }
 const PRILOHY = {
@@ -996,7 +1016,7 @@ function prepniBlok(v){ S.blokMode=v; save(); renderPlan(); }
 function denyBloku(di){ return S.blokMode?blokDni(di):[di]; }
 function zmenDenPpl(di,delta){ const dni=denyBloku(di); const cur=(S.dayPpl[di]!=null)?S.dayPpl[di]:stravniciList().length; const nova=Math.max(1,cur+delta); dni.forEach(d=>{ S.dayPpl[d]=nova; }); save(); renderPlan(); }
 function toggleDenSlot(di,slot){ const dni=denyBloku(di); const akt=slotyDna(di).slice(); const i=akt.indexOf(slot); if(i>=0)akt.splice(i,1); else { akt.push(slot); akt.sort((a,b)=>VSETKY_SLOTY.indexOf(a)-VSETKY_SLOTY.indexOf(b)); } dni.forEach(d=>{ S.daySloty[d]=akt.slice(); }); save(); renderPlan(); }
-function upravSlotPorcie(di,slot){ const cur=Math.round(porcieSlot(di,slot)); const v=prompt("Počet porcií pre toto jedlo (prázdne = podľa dňa):",cur); if(v===null)return; const dni=denyBloku(di); if(v.trim()===""){ dni.forEach(d=>{ if(S.slotPpl[d])delete S.slotPpl[d][slot]; }); } else { const n=Math.max(1,parseInt(v)||cur); dni.forEach(d=>{ S.slotPpl[d]=S.slotPpl[d]||{}; S.slotPpl[d][slot]=n; }); } save(); renderPlan(); }
+async function upravSlotPorcie(di,slot){ const cur=Math.round(porcieSlot(di,slot)); const v=await promptModal("Počet porcií pre toto jedlo (prázdne = podľa dňa):",cur); if(v===null)return; const dni=denyBloku(di); if(v.trim()===""){ dni.forEach(d=>{ if(S.slotPpl[d])delete S.slotPpl[d][slot]; }); } else { const n=Math.max(1,parseInt(v)||cur); dni.forEach(d=>{ S.slotPpl[d]=S.slotPpl[d]||{}; S.slotPpl[d][slot]=n; }); } save(); renderPlan(); }
 function toggleHranica(i){ hraniceInit(); S.hranice[i]=!S.hranice[i]; save(); renderPlan(); }
 function renderBlokEditor(){ const box=document.getElementById("blok-editor"); if(!box)return;
   if(!S.blokMode){ box.style.display="none"; return; } box.style.display="flex"; hraniceInit();
@@ -1093,7 +1113,7 @@ function zmazZPlanu(di,slot){ if(S.plan[di])delete S.plan[di][slot]; if(S.planF[
 // Leftovers: rozpíš navarené jedlo ako zvyšok do iného dňa/slotu (ráta do kcal, nie do nákupu)
 function pridajZvysok(di,slot){
   const src=slotIds(di,slot).map(cid=>komponent(cid)).find(k=>k && !k._priloha && !k._left);
-  if(!src){ alert("Tu nie je jedlo, z ktorého by bol zvyšok."); return; }
+  if(!src){ toast("Tu nie je jedlo, z ktorého by bol zvyšok."); return; }
   const srcId=src._srcId||src.id;
   let h=`<div class="hero"><button class="close" onclick="zavriPick()">✕</button><h2>♻️ Zvyšok</h2><div class="subx">${src.nazov} → kam ho rozpísať?</div></div><div class="content2">`;
   for(let d=0;d<7;d++){ const sl=slotyDna(d); if(!sl.length)continue;
@@ -1119,9 +1139,9 @@ function regenerujSlot(di,slot){ const dni=S.blokMode?blokDni(di):[di];
   rescaleDen(dni); save(); renderPlan(); }
 function zavriPick(){ document.getElementById("pick-overlay").classList.remove("open"); }
 document.getElementById("pick-overlay").addEventListener("click",e=>{if(e.target.id==="pick-overlay")zavriPick();});
-function vymazPlan(){ if(confirm("Vyprázdniť celý týždenný plán?")){ S.plan={}; S.planF={}; save(); renderPlan(); } }
-function skopirujMinuly(){ const a=(S.archiv||[]).slice(); if(!a.length){ alert("Zatiaľ nemáš uložený žiadny týždeň. Ulož si aktuálny cez ⋯ Viac → Uložiť tento plán."); return; }
-  const j=a[a.length-1]; if(!confirm(`Skopírovať posledný uložený týždeň „${j.nazov||j.id}"? Prepíše sa aktuálny plán.`))return;
+async function vymazPlan(){ if(await confirmModal("Vyprázdniť celý týždenný plán?")){ S.plan={}; S.planF={}; save(); renderPlan(); } }
+async function skopirujMinuly(){ const a=(S.archiv||[]).slice(); if(!a.length){ toast("Zatiaľ nemáš uložený žiadny týždeň. Ulož si aktuálny cez ⋯ Viac → Uložiť tento plán."); return; }
+  const j=a[a.length-1]; if(!await confirmModal(`Skopírovať posledný uložený týždeň „${j.nazov||j.id}"? Prepíše sa aktuálny plán.`))return;
   S.plan=JSON.parse(JSON.stringify(j.plan||{})); S.planF=JSON.parse(JSON.stringify(j.planF||{})); if(j.ciel_kcal)S.profil.kcal=j.ciel_kcal; save(); renderPlan(); }
 function pridajDoPlanu(id){ const r=receptById(id); if(!r)return; zavri();
   const slot=slotPreKategoriu(r.kategoria); const dni=["Po","Ut","St","Št","Pi","So","Ne"]; const sloty=SLOTY();
@@ -1169,10 +1189,10 @@ function filterKuchynaPreDen(di){ const f=(S.genCfg.filtre||[]).find(x=>di>=x.od
 function pravidloPreDen(di){ const fs=(S.genCfg.filtre||[]).filter(x=>di>=x.od&&di<=x.do); if(!fs.length)return null;
   const veg=fs.some(f=>f.veg); const casy=fs.map(f=>f.maxCas).filter(c=>c>0); const maxCas=casy.length?Math.min(...casy):0;
   return (veg||maxCas>0)?{veg,maxCas}:null; }
-function generujJedalnicek(zamiesaj){
+async function generujJedalnicek(zamiesaj){
   const cfg=S.genCfg||{}; const zachovat=!!cfg.zachovat;
   const naplnene=Object.values(S.plan).some(d=>d&&Object.keys(d).length);
-  if(naplnene && !zamiesaj && !zachovat && !confirm("Vygenerovať nový jedálniček? Prepíše sa aktuálny plán.")) return;
+  if(naplnene && !zamiesaj && !zachovat && !await confirmModal("Vygenerovať nový jedálniček? Prepíše sa aktuálny plán.")) return;
   const pouzite=new Set(), pouziteBazy=new Set(), nedavne=new Set(S.uvarene.slice(0,4).map(u=>u.id)), plan={}, planF={};
   if(zachovat){ for(let di=0;di<7;di++) slotyDna(di).forEach(sl=>slotIds(di,sl).forEach(id=>pouzite.add(id))); }
   const skupiny = S.blokMode ? bloky() : [[0],[1],[2],[3],[4],[5],[6]];
@@ -1212,6 +1232,26 @@ function kuchyneList(){ return [...new Set(RECEPTY.map(r=>r.kuchyna).filter(Bool
 // Dotazník generovania — jedno okno, prednačíta z profilu, každá zmena píše priamo do S.profil/S.genCfg.
 function otvorGen(){ renderGenWizard(); }
 function otvorGenConfig(){ otvorGen(); } // ponytail: alias — staré volania (menu) fungujú ďalej
+// Onboarding — ľahký privítač pri prvom spustení (reuse handlerov stravníkov/profilu)
+function onboardingModal(){ normStravnici(); const l=stravniciList();
+  const ct=S.profil.cielTyp||"udrzanie"; const opt=(v,t)=>`<option value="${v}" ${ct===v?"selected":""}>${t}</option>`;
+  const IST="padding:8px;border:1px solid var(--line);border-radius:8px";
+  const h=`<div class="hero"><button class="close" onclick="dokonciOnboarding();zavriPick()">✕</button><h2>👋 Vitaj v kuchárke</h2><p class="info" style="margin:4px 0 0;color:rgba(255,255,255,.85)">Pár vecí na začiatok — všetko sa dá zmeniť v Nastaveniach.</p></div><div class="content2">
+    <h4 class="sekcia">👥 Pre koho varíš?</h4>
+    ${l.map((p,i)=>`<div style="display:flex;gap:6px;margin-bottom:6px"><input value="${escHtml(p.nazov||"")}" onchange="zmenStravnika(${i},'nazov',this.value)" placeholder="meno" style="flex:1;${IST}"><input type="number" value="${p.kcal||""}" onchange="zmenStravnika(${i},'kcal',this.value)" title="kcal/deň" style="width:110px;${IST}">${l.length>1?`<a onclick="zmazStravnika(${i});onboardingModal()" style="color:var(--warn);cursor:pointer;align-self:center" title="odobrať">✕</a>`:""}</div>`).join("")}
+    <button class="btn ghost" onclick="pridajStravnika();onboardingModal()">+ Pridať stravníka</button>
+    <h4 class="sekcia">🎯 Tvoj cieľ</h4>
+    <div class="field"><label>Zámer</label><select class="f" onchange="S.profil.cielTyp=this.value;save()">${opt("udrzanie","Udržať váhu")}${opt("chudnutie","Chudnutie")}${opt("priberanie","Priberanie")}</select></div>
+    <div class="field"><label>Cieľ kcal / deň (hlavný stravník)</label><input type="number" value="${S.profil.kcal}" onchange="S.profil.kcal=parseInt(this.value)||1450;save()" style="width:130px;${IST}"></div>
+    <p class="info">Presný výpočet (TDEE) nájdeš v ⚙️ Nastaveniach.</p>
+    <h4 class="sekcia">🥗 Máš nejaké obmedzenia?</h4>
+    <label class="switch"><input type="checkbox" ${S.profil.ryby?"checked":""} onchange="S.profil.ryby=this.checked;save()"> Nejem ryby</label>
+    <label class="switch"><input type="checkbox" ${S.profil.lepok?"checked":""} onchange="S.profil.lepok=this.checked;save()"> Bez lepku</label>
+    <label class="switch"><input type="checkbox" ${S.profil.mlieko?"checked":""} onchange="S.profil.mlieko=this.checked;save()"> Bez laktózy</label>
+    <div class="btn-row" style="margin-top:18px;justify-content:space-between"><button class="btn ghost" onclick="dokonciOnboarding();zavriPick()">Preskočiť</button><button class="btn primary" onclick="dokonciOnboarding();zavriPick();prepni('planovac');generujJedalnicek(true)">✨ Zostaviť prvý jedálniček</button></div>
+  </div>`;
+  document.getElementById("pick-modal").innerHTML=h; document.getElementById("pick-overlay").classList.add("open"); }
+function dokonciOnboarding(){ S.profil.onboarded=true; save(); }
 function genWEsc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
 function renderGenWizard(){ const cfg=S.genCfg; const dni=["Po","Ut","St","Št","Pi","So","Ne"]; const kuch=kuchyneList();
   normStravnici(); const l=stravniciList();
@@ -1254,8 +1294,8 @@ function renderGenWizard(){ const cfg=S.genCfg; const dni=["Po","Ut","St","Št",
   const h=`<div class="hero"><button class="close" onclick="zavriPick()">✕</button><h2>✨ Zostaviť jedálniček</h2><p class="info" style="margin:4px 0 0">Označ a vyplň, čo generovať</p></div><div class="content2">${c}${nav}</div>`;
   document.getElementById("pick-modal").innerHTML=h; document.getElementById("pick-overlay").classList.add("open"); }
 function pridajGenFilter(){ const od=parseInt(document.getElementById("gf-od").value)||0, doo=parseInt(document.getElementById("gf-do").value)||0, kuchyna=document.getElementById("gf-kuch").value, veg=document.getElementById("gf-veg").checked, maxCas=parseInt(document.getElementById("gf-cas").value)||0;
-  if(doo<od){ alert("Koniec rozsahu je pred začiatkom."); return; }
-  if(!kuchyna && !veg && !(maxCas>0)){ alert("Nastav aspoň jednu podmienku (kuchyňa, bezmäso alebo čas)."); return; }
+  if(doo<od){ toast("Koniec rozsahu je pred začiatkom."); return; }
+  if(!kuchyna && !veg && !(maxCas>0)){ toast("Nastav aspoň jednu podmienku (kuchyňa, bezmäso alebo čas)."); return; }
   const pr={od,do:doo}; if(kuchyna)pr.kuchyna=kuchyna; if(veg)pr.veg=true; if(maxCas>0)pr.maxCas=maxCas;
   S.genCfg.filtre.push(pr); save(); renderGenWizard(); }
 function zmazGenFilter(i){ S.genCfg.filtre.splice(i,1); save(); renderGenWizard(); }
@@ -1265,13 +1305,13 @@ function naplnJedalnicky(){ const sel=document.getElementById("jed-select"); con
   sel.style.display=""; btn.style.display="";
   const z=all.slice().sort((a,b)=>(b.od||b.id||"").localeCompare(a.od||a.id||""));
   sel.innerHTML=z.map(j=>`<option value="${j.id}">${(String(j.id)[0]==="a"?"🖫 ":"")}${j.nazov||j.id}</option>`).join(""); }
-function nacitajJedalnicek(){ const id=document.getElementById("jed-select").value; const j=vsetkyJedalnicky().find(x=>x.id===id); if(!j)return;
-  if(!confirm(`Načítať „${j.nazov||j.id}"? Prepíše sa aktuálny plán.`))return;
+async function nacitajJedalnicek(){ const id=document.getElementById("jed-select").value; const j=vsetkyJedalnicky().find(x=>x.id===id); if(!j)return;
+  if(!await confirmModal(`Načítať „${j.nazov||j.id}"? Prepíše sa aktuálny plán.`))return;
   S.plan=JSON.parse(JSON.stringify(j.plan||{})); S.planF=JSON.parse(JSON.stringify(j.planF||{})); if(j.ciel_kcal)S.profil.kcal=j.ciel_kcal; save(); renderPlan(); }
-function ulozPlanArchiv(){ const naplnene=Object.values(S.plan).some(d=>d&&Object.keys(d).length); if(!naplnene){alert("Plán je prázdny.");return;}
-  const nazov=prompt("Názov jedálnička:", "Týždeň "+new Date().toLocaleDateString("sk")); if(!nazov)return;
+async function ulozPlanArchiv(){ const naplnene=Object.values(S.plan).some(d=>d&&Object.keys(d).length); if(!naplnene){toast("Plán je prázdny.");return;}
+  const nazov=await promptModal("Názov jedálnička:", "Týždeň "+new Date().toLocaleDateString("sk")); if(!nazov)return;
   S.archiv.unshift({id:"a"+Date.now(), nazov:nazov, od:new Date().toISOString().slice(0,10), plan:JSON.parse(JSON.stringify(S.plan)), planF:JSON.parse(JSON.stringify(S.planF)), ciel_kcal:S.profil.kcal});
-  S.archiv=S.archiv.slice(0,20); save(); naplnJedalnicky(); alert("Uložené do jedálničkov."); }
+  S.archiv=S.archiv.slice(0,20); save(); naplnJedalnicky(); toast("Uložené do jedálničkov."); }
 function tlacTyzden(){ prepni("planovac"); renderNakup(); document.querySelectorAll(".view").forEach(el=>el.classList.remove("printme"));
   document.getElementById("v-planovac").classList.add("printme"); document.getElementById("v-nakup").classList.add("printme"); window.print(); }
 
@@ -1304,7 +1344,7 @@ function jeDoma(nazov,tok){ const n=nazov.toLowerCase(); return tok.some(t=>n.in
 function nakupBalenie(G){ if(G.matched && G.p && G.p.balenie_g){ const n=Math.max(1,Math.ceil(G.grams/G.p.balenie_g)); return {n:n,pop:G.p.balenie_popis,celkG:n*G.p.balenie_g}; } return null; }
 function nakupCena(G){ const b=nakupBalenie(G); if(b) return b.celkG/100*((G.p&&G.p.cena100)||0); return G.cena||0; }
 function nakupMnozstvo(G){ const ex=zobrazMnozstvo(G); if(S.profil.balenia!==false){ const b=nakupBalenie(G); if(b) return ex+` <span class="info">(bal.: ${b.n}× ${b.pop})</span>`; } return ex; }
-function upravFaktor(di,slot){ const cur=Math.round(pf(di,slot)*100); const v=prompt("Veľkosť porcie v % (100 = normál):",cur); if(v===null)return; let f=Math.max(10,Math.min(400,parseInt(v)||100))/100; S.planF[di]=S.planF[di]||{}; S.planF[di][slot]=Math.round(f*100)/100; save(); renderPlan(); if(document.getElementById("v-domov").classList.contains("active"))renderDash(); }
+async function upravFaktor(di,slot){ const cur=Math.round(pf(di,slot)*100); const v=await promptModal("Veľkosť porcie v % (100 = normál):",cur); if(v===null)return; let f=Math.max(10,Math.min(400,parseInt(v)||100))/100; S.planF[di]=S.planF[di]||{}; S.planF[di][slot]=Math.round(f*100)/100; save(); renderPlan(); if(document.getElementById("v-domov").classList.contains("active"))renderDash(); }
 function mamVSpajzi(nazov){ const p=najdiPotravinu(nazov); const key=p?p.kluc:bezDia(nazov); const n=bezDia(nazov);
   return S.spajza.some(x=>{ if(x.mnozstvo<=0)return false; const xk=x.kluc||(najdiPotravinu(x.nazov)||{}).kluc||""; const xn=bezDia(x.nazov);
     return (xk&&xk===key) || xn.includes(n) || n.includes(xn.split(" ")[0]); }); }
@@ -1372,14 +1412,14 @@ function nakupText(){ // len nekúpené položky (pre kopírovanie/zdieľanie)
 }
 function kopirujListonic(){
   const riadky=nakupText();
-  if(!riadky.length){ alert("Zoznam je prázdny."); return; }
+  if(!riadky.length){ toast("Zoznam je prázdny."); return; }
   const txt=riadky.join("\n");
-  if(navigator.clipboard){ navigator.clipboard.writeText(txt).then(()=>alert("Skopírované ("+riadky.length+" položiek). Vlož do Listonic."),()=>promptFallback(txt)); }
+  if(navigator.clipboard){ navigator.clipboard.writeText(txt).then(()=>toast("Skopírované ("+riadky.length+" položiek). Vlož do Listonic."),()=>promptFallback(txt)); }
   else promptFallback(txt);
 }
 function zdielajNakup(){
   const riadky=nakupText();
-  if(!riadky.length){ alert("Zoznam je prázdny."); return; }
+  if(!riadky.length){ toast("Zoznam je prázdny."); return; }
   const txt="🛒 Nákupný zoznam:\n"+riadky.join("\n");
   if(navigator.share){ navigator.share({title:"Nákupný zoznam",text:txt}).catch(()=>{}); }
   else kopirujListonic();
@@ -1554,10 +1594,10 @@ function vypocitajCiel(){ const poh=document.getElementById("t-poh").value; cons
   const popis={chudnutie:"chudnutie −15 %",priberanie:"priberanie +10 %",udrzanie:"udržanie"}[cielTyp];
   document.getElementById("tdee-ok").textContent=meno+": "+tdee+" kcal/deň ("+popis+"). Uložené ✓"; }
 function naplnKohoSelect(){ const s=document.getElementById("t-koho"); if(!s)return; const l=stravniciList(); const cur=parseInt(s.value); s.innerHTML=l.map((p,i)=>`<option value="${i}">${(p.nazov||("Osoba "+(i+1))).replace(/</g,"")}</option>`).join(""); if(cur>=0&&cur<l.length)s.value=cur; }
-function zalohuj(){ try{ const blob=new Blob([JSON.stringify(S)],{type:"application/json"}); const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="kucharka-zaloha.json"; document.body.appendChild(a); a.click(); a.remove(); }catch(e){ alert("Zálohovanie zlyhalo."); } }
-function obnov(file){ if(!file)return; const rd=new FileReader(); rd.onload=e=>{ try{ const o=JSON.parse(e.target.result); S=Object.assign(S,o); save(); alert("Obnovené. Stránka sa načíta znova."); location.reload(); }catch(err){ alert("Neplatný súbor zálohy."); } }; rd.readAsText(file); }
-function resetApp(){ if(!confirm("Naozaj vymazať VŠETKY dáta (obľúbené, plán, špajza, profil, história)? Táto akcia sa nedá vrátiť."))return;
-  if(!confirm("Posledné varovanie — appka sa vráti do úvodného stavu. Pokračovať?"))return;
+function zalohuj(){ try{ const blob=new Blob([JSON.stringify(S)],{type:"application/json"}); const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="kucharka-zaloha.json"; document.body.appendChild(a); a.click(); a.remove(); }catch(e){ toast("Zálohovanie zlyhalo."); } }
+function obnov(file){ if(!file)return; const rd=new FileReader(); rd.onload=e=>{ try{ const o=JSON.parse(e.target.result); S=Object.assign(S,o); save(); toast("Obnovené. Stránka sa načíta znova."); location.reload(); }catch(err){ toast("Neplatný súbor zálohy."); } }; rd.readAsText(file); }
+async function resetApp(){ if(!await confirmModal("Naozaj vymazať VŠETKY dáta (obľúbené, plán, špajza, profil, história)? Táto akcia sa nedá vrátiť."))return;
+  if(!await confirmModal("Posledné varovanie — appka sa vráti do úvodného stavu. Pokračovať?"))return;
   try{ localStorage.removeItem(LS); }catch(e){} location.reload(); }
 function normStravnici(){ if(!Array.isArray(S.profil.stravnici)||!S.profil.stravnici.length){ S.profil.stravnici=stravniciList(); } S.profil.osoby=S.profil.stravnici.length; }
 function renderStravnici(){ const box=document.getElementById("stravnici-box"); if(!box)return; const l=stravniciList();
@@ -1594,10 +1634,10 @@ function naplnUcet(){ const box=document.getElementById("ucet-box"); if(!box)ret
 function auMsg(t,err){ const m=document.getElementById("au-msg"); if(m){ m.textContent=t; m.style.color=err?"var(--warn)":"var(--ok,green)"; } }
 async function uiLogin(){ try{ await authLogin(document.getElementById("au-email").value.trim(),document.getElementById("au-pass").value); await syncSkupinaPull(); naplnUcet(); }catch(e){ auMsg(e.message,true); } }
 async function uiSignup(){ try{ await authSignup(document.getElementById("au-email").value.trim(),document.getElementById("au-pass").value); naplnUcet(); }catch(e){ auMsg(e.message,true); } }
-async function uiLogout(){ if(!confirm("Odhlásiť sa? Tvoje údaje ostanú uložené v účte a načítajú sa po ďalšom prihlásení. Z tohto zariadenia sa vyčistia."))return; await authLogout(); }
+async function uiLogout(){ if(!await confirmModal("Odhlásiť sa? Tvoje údaje ostanú uložené v účte a načítajú sa po ďalšom prihlásení. Z tohto zariadenia sa vyčistia."))return; await authLogout(); }
 async function uiSkupinaVytvor(){ try{ await skupinaVytvor(document.getElementById("au-nazov").value.trim()); naplnUcet(); }catch(e){ auMsg(e.message,true); } }
 async function uiSkupinaPripoj(){ try{ await skupinaPripoj(document.getElementById("au-kod").value); naplnUcet(); renderPlan(); renderNakup(); renderDash(); }catch(e){ auMsg(e.message,true); } }
-async function uiSkupinaOpusti(){ if(!confirm("Opustiť skupinu? Zdieľaný plán a nákup sa prestanú synchronizovať."))return; await skupinaOpusti(); naplnUcet(); }
+async function uiSkupinaOpusti(){ if(!await confirmModal("Opustiť skupinu? Zdieľaný plán a nákup sa prestanú synchronizovať."))return; await skupinaOpusti(); naplnUcet(); }
 function ulozProfil(){ normStravnici();
   const sbox=document.getElementById("sloty-box"); if(sbox){ const izb=[...sbox.querySelectorAll("input[data-slot]")].filter(i=>i.checked).map(i=>i.dataset.slot); S.profil.sloty=izb.length?izb:DEFAULT_SLOTY.slice(); }
   S.profil.kcal=parseInt(document.getElementById("p-kcal").value)||1450; S.profil.biel=parseInt(document.getElementById("p-biel").value)||0;
@@ -1624,9 +1664,9 @@ function renderDoma(){
 function pridajChybajuceDoNakupu(id){ const r=receptById(id); if(!r)return;
   const raw=(document.getElementById("doma-in")||{}).value||""; const mam=raw.toLowerCase().split(/[\n,;]+/).map(x=>bezDia(x.trim())).filter(Boolean);
   const chyb=(r.ingrediencie||[]).filter(i=>{ if(i.mnozstvo==null)return false; const nm=bezDia(i.nazov); return !mam.some(m=>nm.includes(m)||m.includes(nm.split(" ")[0])); }).map(i=>i.nazov);
-  if(!chyb.length){ alert("Nič nechýba 🎉"); return; }
+  if(!chyb.length){ toast("Nič nechýba 🎉"); return; }
   chyb.forEach(nz=>{ if(!S.nakupManual.some(m=>bezDia(m.nazov)===bezDia(nz))) S.nakupManual.push({id:"m"+(S.spSid++),nazov:nz,done:false}); });
-  save(); alert("Pridané do nákupu: "+chyb.join(", ")); }
+  save(); toast("Pridané do nákupu: "+chyb.join(", ")); }
 ["hladaj","f-kuchyna","f-cas","f-diet","f-sort"].forEach(id=>{
   const el=document.getElementById(id); if(!el)return;
   el.addEventListener("input",renderGrid); el.addEventListener("change",renderGrid);
@@ -1645,7 +1685,7 @@ function aktualizujJednotky(){ const sel=document.getElementById("sp-jed"); if(!
   const nazov=(document.getElementById("sp-nazov")||{}).value||""; const p=najdiPotravinu(nazov); const cur=sel.value;
   const u=povoleneJednotky(p); sel.innerHTML=u.map(x=>`<option>${x}</option>`).join(""); if(u.includes(cur))sel.value=cur;
   const ex=document.getElementById("sp-exp"); if(ex&&!ex.value&&nazov.trim()){ ex.value=navrhExpiry(nazov,(document.getElementById("sp-miesto")||{}).value); } } // S1: predvyplň odhad expirácie
-function pridajZasobu(){ const nazov=document.getElementById("sp-nazov").value.trim(); if(!nazov){alert("Zadaj surovinu.");return;}
+function pridajZasobu(){ const nazov=document.getElementById("sp-nazov").value.trim(); if(!nazov){toast("Zadaj surovinu.");return;}
   const p=najdiPotravinu(nazov);
   const miesto=document.getElementById("sp-miesto").value;
   S.spajza.push({id:S.spSid++,nazov:escHtml(nazov),kluc:p?p.kluc:"",mnozstvo:parseFloat(document.getElementById("sp-mn").value)||0,jednotka:document.getElementById("sp-jed").value,miesto:miesto,expiry:document.getElementById("sp-exp").value||navrhExpiry(nazov,miesto),min:parseFloat(document.getElementById("sp-min").value)||0}); // S1: fallback odhad expirácie
@@ -1683,7 +1723,7 @@ function renderDashSpajza(){ const el=document.getElementById("dash-spajza"); if
 function domaZoSpajze(){ document.getElementById("doma-in").value=S.spajza.map(x=>x.nazov).join(", "); renderDoma(); }
 function expBoost(r){ const soon=S.spajza.filter(x=>{const n=dniDo(x.expiry);return n!==null&&n<=5;}).map(x=>x.nazov.toLowerCase());
   if(!soon.length)return 0; return (r.ingrediencie||[]).some(i=>{const nn=i.nazov.toLowerCase();return soon.some(sx=>nn.includes(sx)||sx.includes(nn.split(" ")[0]));})?1.5:0; }
-function odpisRecept(r){ if(!r)return; if(!S.spajza.length){alert("Špajza je prázdna.");return;} let zmen=0;
+function odpisRecept(r){ if(!r)return; if(!S.spajza.length){toast("Špajza je prázdna.");return;} let zmen=0;
   (r.ingrediencie||[]).forEach(i=>{ if(i.mnozstvo==null)return; const p=najdiPotravinu(i.nazov); const kk=p?p.kluc:"";
     const it=S.spajza.find(x=>{ const xk=x.kluc||(najdiPotravinu(x.nazov)||{}).kluc||""; if(kk&&xk&&kk===xk)return true;
       const a=bezDia(x.nazov),b=bezDia(i.nazov); return a.includes(b)||b.includes(a.split(" ")[0]); });
@@ -1693,16 +1733,16 @@ function odpisRecept(r){ if(!r)return; if(!S.spajza.length){alert("Špajza je pr
     else { const g=gramy({mnozstvo:potreba,jednotka:i.jednotka},p); if(g>0) uber=gramyNaJed(g,it.jednotka,p); }
     if(uber!=null){ it.mnozstvo=Math.max(0,Math.round((it.mnozstvo-uber)*100)/100); zmen++; } });
   S.spajza=S.spajza.filter(x=>x.mnozstvo>0); save();
-  alert(zmen?("Odpísané zo špajze: "+zmen+" surovín."):"Nenašla sa zhoda (skontroluj názvy v špajzi)."); }
+  toast(zmen?("Odpísané zo špajze: "+zmen+" surovín."):"Nenašla sa zhoda (skontroluj názvy v špajzi)."); }
 function toggleMenu(id){ document.querySelectorAll(".menu").forEach(m=>{ if(m.id!==id)m.classList.remove("open"); }); const el=document.getElementById(id); if(el)el.classList.toggle("open"); }
 function zavriMenu(){ document.querySelectorAll(".menu").forEach(m=>m.classList.remove("open")); }
 document.addEventListener("click",e=>{ if(!e.target.closest(".menu-wrap")) zavriMenu(); });
-function otvorNacitat(){ const all=vsetkyJedalnicky(); if(!all.length){ alert("Zatiaľ žiadne uložené jedálničky. Najprv daj ⋯ Viac → Uložiť tento plán."); return; }
+function otvorNacitat(){ const all=vsetkyJedalnicky(); if(!all.length){ toast("Zatiaľ žiadne uložené jedálničky. Najprv daj ⋯ Viac → Uložiť tento plán."); return; }
   const z=all.slice().sort((a,b)=>(b.od||b.id||"").localeCompare(a.od||a.id||""));
   let h='<div class="hero"><button class="close" onclick="zavriPick()">✕</button><h2>Načítať jedálniček</h2></div><div class="content2" style="max-height:60vh;overflow:auto">';
   z.forEach(j=>{ h+=`<div class="plan-cell" style="border-bottom:1px solid var(--line);border-radius:0" onclick="nacitajJedalnicekId('${j.id}')"><span class="nm">${(String(j.id)[0]==="a"?"🖫 ":"📅 ")}${j.nazov||j.id}</span></div>`; });
   h+="</div>"; document.getElementById("pick-modal").innerHTML=h; document.getElementById("pick-overlay").classList.add("open"); }
-function nacitajJedalnicekId(id){ const j=vsetkyJedalnicky().find(x=>x.id===id); if(!j)return; if(!confirm(`Načítať „${j.nazov||j.id}"? Prepíše sa aktuálny plán.`))return;
+async function nacitajJedalnicekId(id){ const j=vsetkyJedalnicky().find(x=>x.id===id); if(!j)return; if(!await confirmModal(`Načítať „${j.nazov||j.id}"? Prepíše sa aktuálny plán.`))return;
   S.plan=JSON.parse(JSON.stringify(j.plan||{})); S.planF=JSON.parse(JSON.stringify(j.planF||{})); if(j.ciel_kcal)S.profil.kcal=j.ciel_kcal; save(); zavriPick(); renderPlan(); }
 let planMode="tyzden";
 function planZobraz(m){ planMode=m;
@@ -1742,7 +1782,7 @@ function renderOkno(){ const el=document.getElementById("dash-okno"); if(!el)ret
   const st=S.profil.oknostart||12; const en=(st+8)%24; const now=new Date().getHours()+new Date().getMinutes()/60;
   const vOkne = st<en ? (now>=st&&now<en) : (now>=st||now<en);
   el.innerHTML = `🕒 Okno jedenia ${st}:00–${en}:00 · ${vOkne?'<span class="exp-soon">teraz môžeš jesť</span>':'mimo okna (pôst)'}`; }
-function zapisVahu(){ const kg=parseFloat(document.getElementById("v-vaha").value); if(!kg){alert("Zadaj váhu.");return;} const d=dnesISO();
+function zapisVahu(){ const kg=parseFloat(document.getElementById("v-vaha").value); if(!kg){toast("Zadaj váhu.");return;} const d=dnesISO();
   const ex=S.vahy.find(x=>x.d===d); if(ex)ex.kg=kg; else S.vahy.push({d:d,kg:kg}); S.vahy.sort((a,b)=>a.d.localeCompare(b.d)); save(); document.getElementById("v-vaha").value=""; renderVahy(); }
 // NS1: trend cez lineárnu regresiu (least squares) — odolnejšie voči dennému šumu než prvý-vs-posledný bod
 function tyzdennaZmena(){ const v=S.vahy; if(v.length<2)return null; const t0=new Date(v[0].d).getTime();
@@ -1777,11 +1817,29 @@ function prispobitCiel(){ const z=tyzdennaZmena(); const ok=document.getElementB
 let syncTimer=null;
 function syncId(){ return (S.profil.syncId||"").trim() || ((typeof SYNC_CONFIG!=="undefined"&&SYNC_CONFIG)?SYNC_CONFIG.id:""); }
 function syncNakonfig(){ return !S.profil.syncOff && typeof SYNC_CONFIG!=="undefined" && SYNC_CONFIG && SYNC_CONFIG.url && SYNC_CONFIG.key && !!syncId(); }
-function syncPush(){ if(!syncNakonfig())return; clearTimeout(syncTimer); syncTimer=setTimeout(async()=>{ try{ S._ts=Date.now(); localStorage.setItem(LS,JSON.stringify(S));
-  await fetch(SYNC_CONFIG.url+"/rest/v1/kucharka",{method:"POST",headers:{apikey:SYNC_CONFIG.key,Authorization:"Bearer "+SYNC_CONFIG.key,"Content-Type":"application/json",Prefer:"resolution=merge-duplicates"},body:JSON.stringify({id:syncId(),data:S,ts:S._ts})}); }catch(e){} },1500); }
+// --- viditeľný stav synchronizácie + toast pri chybe ---
+const SYNC_TS_LS="kucharka_sync_ts"; let _syncStav="idle", _syncErrOznamene=false;
+function syncCasText(){ const t=parseInt(localStorage.getItem(SYNC_TS_LS)||"0"); if(!t)return ""; const s=Math.floor((Date.now()-t)/1000);
+  if(s<60)return "pred chvíľou"; if(s<3600)return "pred "+Math.floor(s/60)+" min"; if(s<86400)return "pred "+Math.floor(s/3600)+" h"; return new Date(t).toLocaleDateString("sk"); }
+function setSyncStav(stav){ _syncStav=stav;
+  if(stav==="ok"){ try{localStorage.setItem(SYNC_TS_LS,String(Date.now()))}catch(e){} _syncErrOznamene=false; }
+  if(stav==="error" && !_syncErrOznamene){ _syncErrOznamene=true; toast("⚠ Synchronizácia zlyhala — dáta sú uložené lokálne."); }
+  renderSyncStav(); }
+function renderSyncStav(){ const el=document.getElementById("sync-stav"); if(!el)return;
+  if(!syncMozne()){ el.innerHTML='<span class="info">Nie je nastavená — dáta sú len v tomto zariadení.</span>'; return; }
+  if(S.profil.syncOff){ el.innerHTML='<span class="info">Na tomto zariadení vypnutá.</span>'; return; }
+  let ic,txt;
+  if(!navigator.onLine){ ic="⚪"; txt="Offline — zmeny sa nahrajú po pripojení"; }
+  else if(_syncStav==="saving"){ ic="⏳"; txt="Ukladám…"; }
+  else if(_syncStav==="error"){ ic="🔴"; txt="Chyba synchronizácie"; }
+  else { const c=syncCasText(); ic="🟢"; txt="Synchronizované"+(c?" · "+c:""); }
+  el.innerHTML=`<b>${ic} ${txt}</b>`; }
+window.addEventListener("online",renderSyncStav); window.addEventListener("offline",renderSyncStav);
+function syncPush(){ if(!syncNakonfig())return; clearTimeout(syncTimer); syncTimer=setTimeout(async()=>{ try{ setSyncStav("saving"); S._ts=Date.now(); localStorage.setItem(LS,JSON.stringify(S));
+  await fetch(SYNC_CONFIG.url+"/rest/v1/kucharka",{method:"POST",headers:{apikey:SYNC_CONFIG.key,Authorization:"Bearer "+SYNC_CONFIG.key,"Content-Type":"application/json",Prefer:"resolution=merge-duplicates"},body:JSON.stringify({id:syncId(),data:S,ts:S._ts})}); setSyncStav("ok"); }catch(e){ setSyncStav("error"); } },1500); }
 async function syncPull(){ if(!syncNakonfig())return; try{
   const r=await fetch(SYNC_CONFIG.url+"/rest/v1/kucharka?id=eq."+encodeURIComponent(syncId())+"&select=data,ts",{headers:{apikey:SYNC_CONFIG.key,Authorization:"Bearer "+SYNC_CONFIG.key}});
-  const j=await r.json(); if(Array.isArray(j)&&j[0]&&j[0].ts>((S._ts)||0)){ S=Object.assign(S,j[0].data); uloz(S); location.reload(); } }catch(e){} }
+  const j=await r.json(); setSyncStav("ok"); if(Array.isArray(j)&&j[0]&&j[0].ts>((S._ts)||0)){ S=Object.assign(S,j[0].data); uloz(S); location.reload(); } }catch(e){ setSyncStav("error"); } }
 // --- prihlásenie (Supabase Auth) + skupiny + cielený sync len zdieľaných polí ---
 const AUTH_LS="kucharka_auth";
 const SHARED_FIELDS=["plan","planF","nakupCheck","nakupManual","spajza","spSid"];
@@ -1841,12 +1899,12 @@ function zbierOsobne(){ const o={}; const ex=osobneExcl(); for(const k in S){ if
 function pouziOsobne(d){ const ex=osobneExcl(); for(const k in d){ if(OSOB_META.includes(k)||ex.includes(k))continue; S[k]=d[k]; } }
 // ponytail: osobný blob = posledný vyhráva; pull pri prihlásení/štarte (nie pri každom fokuse) — pre 1 osobu na viacerých zariadeniach stačí
 function syncOsobnePush(hned){ if(!syncMozne()||!authUser())return Promise.resolve(); clearTimeout(osobTimer);
-  return new Promise(res=>{ osobTimer=setTimeout(async()=>{ try{ S._osobTs=Date.now(); uloz(S);
-    await authFetch(SYNC_CONFIG.url+"/rest/v1/pouzivatel_data",{method:"POST",headers:{Prefer:"resolution=merge-duplicates"},body:JSON.stringify({user_id:authUser().id,data:zbierOsobne(),ts:S._osobTs})}); }catch(e){} res(); }, hned?0:1500); }); }
+  return new Promise(res=>{ osobTimer=setTimeout(async()=>{ try{ setSyncStav("saving"); S._osobTs=Date.now(); uloz(S);
+    await authFetch(SYNC_CONFIG.url+"/rest/v1/pouzivatel_data",{method:"POST",headers:{Prefer:"resolution=merge-duplicates"},body:JSON.stringify({user_id:authUser().id,data:zbierOsobne(),ts:S._osobTs})}); setSyncStav("ok"); }catch(e){ setSyncStav("error"); } res(); }, hned?0:1500); }); }
 async function syncOsobnePull(){ if(!syncMozne()||!authUser())return; try{
   const uid=authUser().id;
   const r=await authFetch(SYNC_CONFIG.url+"/rest/v1/pouzivatel_data?user_id=eq."+encodeURIComponent(uid)+"&select=data,ts");
-  const j=await r.json();
+  const j=await r.json(); setSyncStav("ok");
   if(Array.isArray(j)&&j[0]&&j[0].data){
     if(j[0].ts>((S._osobTs)||0) || S._uid!==uid){ pouziOsobne(j[0].data); S._osobTs=j[0].ts; S._uid=uid; uloz(S); location.reload(); return; }
     S._uid=uid; uloz(S);
@@ -1854,16 +1912,16 @@ async function syncOsobnePull(){ if(!syncMozne()||!authUser())return; try{
     // účet zatiaľ nemá dáta — pri prepnutí na iný účet vyčisti lokál, nech nededí cudzie údaje
     if(S._uid && S._uid!==uid){ try{localStorage.removeItem(LS);}catch(e){} location.reload(); return; }
     S._uid=uid; uloz(S);
-  } }catch(e){} }
+  } }catch(e){ setSyncStav("error"); } }
 function zbierZdielane(){ const o={}; SHARED_FIELDS.forEach(f=>o[f]=S[f]); return o; }
 // ponytail: zdieľaný blob = posledný vyhráva + pull pri fokuse; per-field merge/realtime len ak sa domácnosť často „bije" o tú istú bunku
 function syncSkupinaPush(hned){ if(!skupinaNakonfig())return Promise.resolve(); clearTimeout(skupTimer);
-  return new Promise(res=>{ skupTimer=setTimeout(async()=>{ try{ S._skupTs=Date.now(); uloz(S);
-    await authFetch(SYNC_CONFIG.url+"/rest/v1/skupina_data",{method:"POST",headers:{Prefer:"resolution=merge-duplicates"},body:JSON.stringify({skupina_id:S.profil.skupinaId,data:zbierZdielane(),ts:S._skupTs})}); }catch(e){} res(); }, hned?0:1500); }); }
+  return new Promise(res=>{ skupTimer=setTimeout(async()=>{ try{ setSyncStav("saving"); S._skupTs=Date.now(); uloz(S);
+    await authFetch(SYNC_CONFIG.url+"/rest/v1/skupina_data",{method:"POST",headers:{Prefer:"resolution=merge-duplicates"},body:JSON.stringify({skupina_id:S.profil.skupinaId,data:zbierZdielane(),ts:S._skupTs})}); setSyncStav("ok"); }catch(e){ setSyncStav("error"); } res(); }, hned?0:1500); }); }
 async function syncSkupinaPull(){ if(!skupinaNakonfig())return; try{
   const r=await authFetch(SYNC_CONFIG.url+"/rest/v1/skupina_data?skupina_id=eq."+encodeURIComponent(S.profil.skupinaId)+"&select=data,ts");
-  const j=await r.json(); if(Array.isArray(j)&&j[0]&&j[0].data&&j[0].ts>((S._skupTs)||0)){ SHARED_FIELDS.forEach(f=>{ if(j[0].data[f]!==undefined)S[f]=j[0].data[f]; }); S._skupTs=j[0].ts; uloz(S);
-    if(typeof renderPlan==="function")renderPlan(); if(typeof renderNakup==="function")renderNakup(); if(typeof renderDash==="function")renderDash(); } }catch(e){} }
+  const j=await r.json(); setSyncStav("ok"); if(Array.isArray(j)&&j[0]&&j[0].data&&j[0].ts>((S._skupTs)||0)){ SHARED_FIELDS.forEach(f=>{ if(j[0].data[f]!==undefined)S[f]=j[0].data[f]; }); S._skupTs=j[0].ts; uloz(S);
+    if(typeof renderPlan==="function")renderPlan(); if(typeof renderNakup==="function")renderNakup(); if(typeof renderDash==="function")renderDash(); } }catch(e){ setSyncStav("error"); } }
 document.addEventListener("visibilitychange",()=>{ if(!document.hidden){ syncSkupinaPull(); } });
 if('serviceWorker' in navigator && location.protocol.startsWith('http')){ navigator.serviceWorker.register('sw.js').catch(()=>{}); }
 syncPull();
@@ -1871,6 +1929,7 @@ syncPull();
 applyVzhlad(); naplnKuchyne(); renderChips(); renderKolekcie(); renderGrid(); naplnJedalnicky(); naplnPotravinyDatalist(); aktualizujJednotky(); renderDash();
 zpristupniNav(); // E3
 { const hv=location.hash.slice(1); if(hv && hv!=="domov" && document.getElementById("v-"+hv)) zobrazView(hv); } // E8: obnov obrazovku z deep-linku
+if(_prvySpust && !S.profil.onboarded) onboardingModal(); // Onboarding pri prvom spustení
 
 </script>
 </body>
