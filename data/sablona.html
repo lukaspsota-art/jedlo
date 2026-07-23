@@ -196,6 +196,8 @@
   .chart-leg{display:inline-flex;align-items:center;gap:2px;font-size:11.5px;color:var(--muted)}
   .chart-leg .lg{display:inline-block;width:11px;height:11px;border-radius:3px;margin-left:10px;margin-right:2px}
   .card .macros{font-size:11.5px;color:var(--muted);margin-top:4px}
+  .card .spajza-match{font-size:11.5px;color:var(--accent-dark);margin-top:5px;font-weight:600}
+  body.dark .card .spajza-match{color:var(--accent)}
   .hist-stats{font-size:14px;margin-bottom:10px;color:var(--fg,inherit)}
   .hist-wrap{display:flex;flex-wrap:wrap;gap:8px}
   .hist-item{display:inline-flex;align-items:center;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 11px;font-size:13.5px}
@@ -204,6 +206,8 @@
   .nakup-suhrn b{color:var(--accent-dark);font-size:16px}
   .detail-meta{margin:2px 0 10px}
   .suma .ciel-mini{color:var(--muted);font-weight:400;font-size:11px;margin-left:1px}
+  .suma .kc-bar{height:4px;background:var(--line);border-radius:3px;overflow:hidden;margin:3px auto 0;max-width:64px}
+  .suma .kc-bar i{display:block;height:100%}
   .tile{transition:transform .12s,box-shadow .12s}
   .goalline{position:relative;height:0;border-top:2px dashed var(--gold)}
   .field{display:flex;flex-direction:column;gap:5px;margin-bottom:14px}
@@ -327,7 +331,7 @@
         <select class="f" id="f-kuchyna"><option value="">Všetky kuchyne</option></select>
         <select class="f" id="f-cas"><option value="">Ľubovoľný čas</option><option value="20">do 20 min</option><option value="35">do 35 min</option><option value="60">do 60 min</option></select>
         <select class="f" id="f-diet"><option value="">Bez obmedzenia</option><option value="veg">Vegetariánske</option><option value="lepok">Bez lepku</option><option value="mlieko">Bez laktózy</option><option value="fav">Len obľúbené</option><option value="skryte">🚫 Skryté</option></select>
-        <select class="f" id="f-sort"><option value="">Zoradiť: predvolené</option><option value="nazov">Názov A–Z</option><option value="cas">Najrýchlejšie</option><option value="kcal">Najmenej kcal</option><option value="kcald">Najviac kcal</option><option value="hodn">Najlepšie hodnotené</option></select>
+        <select class="f" id="f-sort"><option value="">Zoradiť: predvolené</option><option value="spajza">🧊 Najviac z mojej špajze</option><option value="nazov">Názov A–Z</option><option value="cas">Najrýchlejšie</option><option value="kcal">Najmenej kcal</option><option value="kcald">Najviac kcal</option><option value="hodn">Najlepšie hodnotené</option></select>
       </div>
       <div id="kolekcie" class="kolekcie"></div>
       <div class="chips" id="chips"></div>
@@ -383,7 +387,9 @@
 
     <div class="view" id="v-vyziva">
       <h2 class="h">Výživa za týždeň</h2>
-      <p class="sub">Priemer na deň z aktuálneho plánu oproti cieľu.</p>
+      <p class="sub">Z aktuálneho plánu oproti cieľu.</p>
+      <div class="chips" style="padding:0 0 12px"><span class="chip active" id="vt-tyzden" onclick="vyzivaZobraz('tyzden')">📊 Priemer týždňa</span><span class="chip" id="vt-den" onclick="vyzivaZobraz('den')">📅 Deň</span></div>
+      <div id="vyziva-daynav" style="display:none;margin-bottom:12px"></div>
       <div class="tiles" id="vyziva-tiles"></div>
       <div class="panel"><h3>Kalórie po dňoch</h3><div class="chart" id="vyziva-chart"></div>
         <p class="info" id="vyziva-ciel" style="margin-top:10px"></p>
