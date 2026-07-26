@@ -1,0 +1,71 @@
+{
+  "id": "carnitas",
+  "nazov": "Carnitas (mexické trhané bravčové)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Mexická",
+  "zdroj": "internet – adaptované (Serious Eats)",
+  "porcie": 6,
+  "cas": "2,5 h",
+  "kcal_na_porciu": 560,
+  "popis": "Pomaly dusené bravčové, na záver opečené dochrumkava vo vlastnom tuku. Ideálne do tortíl.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčového pliecka",
+      "mnozstvo": 1.2,
+      "jednotka": "kg"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 4,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Bobkové listy",
+      "mnozstvo": 2,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Rasce",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Oregana",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": 1,
+      "jednotka": "",
+      "poznamka": "šupka a šťava"
+    },
+    {
+      "nazov": "Soli",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Do hrnca daj mäso, cibuľu, cesnak, koreniny, pomaranč a soľ. Zalej vodou do polovice.",
+    "Priveď k varu, potom duste odkryté ~2 h, kým mäso nezmäkne a tekutina sa neodparí.",
+    "Zvýš teplotu a nechaj mäso opiecť vo vlastnom tuku dochrumkava, občas premiešaj. Rozober vidličkou. Podávaj v tortillách."
+  ],
+  "tipy": "Pomaranč dodá jemnú sladkosť a vôňu — nevynechávaj ho.",
+  "foto": "",
+  "tagy": [
+    "mexické",
+    "bravčové",
+    "trhané"
+  ]
+}

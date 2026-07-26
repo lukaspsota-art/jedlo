@@ -1,0 +1,81 @@
+{
+  "id": "mapo-tofu",
+  "nazov": "Mapo Tofu",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Čínska",
+  "zdroj": "internet – adaptované (Serious Eats)",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 380,
+  "popis": "S'-čchuanská klasika — hodvábne tofu v pikantnej fazuľovej omáčke s mletým mäsom.",
+  "ingrediencie": [
+    {
+      "nazov": "Hodvábneho tofu",
+      "mnozstvo": 400,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Mletého bravčového",
+      "mnozstvo": 150,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Doubanjiang",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": "fazuľová pasta"
+    },
+    {
+      "nazov": "S'-čchuanského korenia",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 2,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Kúsok zázvoru",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Jarné cibuľky",
+      "mnozstvo": 2,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Vývaru",
+      "mnozstvo": 200,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sójovej omáčky",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Škrobu",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji opeč mleté mäso, pridaj cesnak, zázvor a doubanjiang, krátko opekaj do zavoňania a červenej farby.",
+    "Vlej vývar a sójovku, jemne vlož tofu a duste 3–4 min.",
+    "Zahusti škrobovou kašičkou, posyp mletým S'-čchuanským korením a jarnou cibuľkou. Podávaj s ryžou."
+  ],
+  "tipy": "S'-čchuanské korenie dodá typický „mravčiaci“ pocit — nevynechávaj ho.",
+  "foto": "",
+  "tagy": [
+    "čínske",
+    "tofu",
+    "pikantné"
+  ]
+}

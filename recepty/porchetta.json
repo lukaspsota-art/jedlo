@@ -1,0 +1,67 @@
+{
+  "id": "porchetta",
+  "nazov": "Porchetta (talianske bylinkové pečené)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Talianska",
+  "zdroj": "internet – adaptované (Bon Appétit)",
+  "porcie": 7,
+  "cas": "3 h + marinovanie",
+  "kcal_na_porciu": 650,
+  "popis": "Zrolované bravčové plnené cesnakom, feniklom a bylinkami s chrumkavou kôrkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčového boku",
+      "mnozstvo": 1.5,
+      "jednotka": "kg",
+      "poznamka": "alebo pliecka"
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 4,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "",
+      "poznamka": "kôra"
+    },
+    {
+      "nazov": "Feniklových semienok",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Soli",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Rozmarínu a šalvie",
+      "mnozstvo": 1,
+      "jednotka": "hrsť"
+    },
+    {
+      "nazov": "Olivového oleja",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    }
+  ],
+  "postup": [
+    "Cesnak, bylinky, fenikel, citrónovú kôru, soľ, korenie a olej rozmixuj na pastu.",
+    "Mäso rozlož, potri pastou zvnútra, pevne zroluj a previaž špagátom. Nechaj odležať v chladničke (ideálne cez noc).",
+    "Peč pri 160 °C ~2,5 h, potom zvýš na 220 °C na 20–30 min, aby povrch zchrumkavatel. Nechaj odpočívať a nakrájaj."
+  ],
+  "tipy": "Odležanie cez noc = výraznejšia bylinková chuť po celom mäse.",
+  "foto": "",
+  "tagy": [
+    "talianske",
+    "bravčové",
+    "pečené"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "cesto-na-neapolsku-pizzu",
+  "nazov": "Cesto na neapolskú pizzu",
+  "kategoria": "Pečivo",
+  "kuchyna": "Talianska",
+  "zdroj": "Kaufland FOOD magazín",
+  "porcie": 4,
+  "cas": "30 min + fermentácia",
+  "kcal_na_porciu": 600,
+  "popis": "Klasické neapolské pizza cesto z múky 00 s dlhou fermentáciou v chladničke.",
+  "ingrediencie": [
+    {
+      "nazov": "Múky typu 00",
+      "mnozstvo": 1,
+      "jednotka": "kg"
+    },
+    {
+      "nazov": "Studenej vody",
+      "mnozstvo": 620,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Čerstvého droždia",
+      "mnozstvo": 3,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Soli",
+      "mnozstvo": 28,
+      "jednotka": "g"
+    }
+  ],
+  "postup": [
+    "Do misy nalej vodu a rozmiešaj droždie. Pridaj polovicu múky a premiešaj, potom soľ a zvyšok múky. Hneť do hladkého pružného cesta. Nechaj 60 min odpočívať, potom rozdeľ na 4 bochníky, zabaľ do fólie a fermentuj v chladničke (ideálne 24 h).",
+    "Bochník roztiahni ručne od stredu k okrajom (bez valčeka). Okraje nechaj hrubšie. Rozotri paradajkový základ a oblož.",
+    "Peč na rozpálenom kameni pri max. teplote (400 °C) ~3 minúty."
+  ],
+  "tipy": "Dlhá fermentácia (24 h) dá cestu lepšiu chuť aj stráviteľnosť.",
+  "foto": "",
+  "tagy": [
+    "talianske",
+    "pizza",
+    "cesto",
+    "pečivo"
+  ]
+}

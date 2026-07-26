@@ -1,0 +1,72 @@
+{
+  "id": "bulgogi",
+  "nazov": "Bulgogi (kórejské marinované hovädzie)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Kórejská",
+  "zdroj": "internet – adaptované (Serious Eats)",
+  "porcie": 4,
+  "cas": "40 min",
+  "kcal_na_porciu": 520,
+  "popis": "Tenké plátky hovädzieho v sladko-slanej marináde, rýchlo opečené na prudkom ohni.",
+  "ingrediencie": [
+    {
+      "nazov": "Hovädzieho",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": "rib-eye"
+    },
+    {
+      "nazov": "Sójovej omáčky",
+      "mnozstvo": 4,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Cukru",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Sezamového oleja",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Hrušky",
+      "mnozstvo": 0.5,
+      "jednotka": "",
+      "poznamka": "nastrúhaná"
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 3,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Kúsok zázvoru",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Jarné cibuľky",
+      "mnozstvo": 2,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Sezamu",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    }
+  ],
+  "postup": [
+    "Hrušku, cesnak a zázvor rozmixuj, zmiešaj so sójovkou, cukrom a sezamovým olejom.",
+    "Zalej mäso marinádou a nechaj 30 min – 2 h.",
+    "Opeč na veľmi rozpálenej panvici po dávkach dozlatista. Posyp jarnou cibuľkou a sezamom. Podávaj s ryžou."
+  ],
+  "tipy": "Nastrúhaná hruška mäso zjemní a dodá prirodzenú sladkosť.",
+  "foto": "",
+  "tagy": [
+    "kórejské",
+    "hovädzie",
+    "grilované"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "dragon-noodles",
+  "nazov": "Dragon Noodles (pikantné rezance)",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Ázijská fusion",
+  "zdroj": "internet – adaptované (Budget Bytes)",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 520,
+  "popis": "Rýchle pikantné rezance v maslovo-sriracha omáčke — hotové za pár minút.",
+  "ingrediencie": [
+    {
+      "nazov": "Rezancov",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": "ramen/vaječné"
+    },
+    {
+      "nazov": "Masla",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Sriracha",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": "1–2"
+    },
+    {
+      "nazov": "Hnedého cukru",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Sójovej omáčky",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Jarná cibuľka",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Sezam",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Rezance uvar a sceď.",
+    "Zmiešaj sriracha, cukor, sójovku a maslo na omáčku, prehrej na panvici. Voliteľne opraž vajce.",
+    "Vmiešaj rezance, premiešaj v omáčke, posyp cibuľkou a sezamom."
+  ],
+  "tipy": "Pálivosť ľahko dolaď množstvom sriracha.",
+  "foto": "",
+  "tagy": [
+    "ázijské",
+    "rezance",
+    "rýchle",
+    "pikantné"
+  ]
+}

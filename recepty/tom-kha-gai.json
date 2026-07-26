@@ -1,0 +1,83 @@
+{
+  "id": "tom-kha-gai",
+  "nazov": "Tom Kha Gai",
+  "kategoria": "Polievka",
+  "kuchyna": "Thajská",
+  "zdroj": "internet – adaptované (BBC Good Food)",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 380,
+  "popis": "Thajská kokosová polievka s kuraťom, galangalom a citrónovou trávou.",
+  "ingrediencie": [
+    {
+      "nazov": "Kuracích pŕs",
+      "mnozstvo": 400,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Kokosového mlieka",
+      "mnozstvo": 400,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vývaru",
+      "mnozstvo": 400,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Galangalu",
+      "mnozstvo": 3,
+      "jednotka": "plátky"
+    },
+    {
+      "nazov": "Citrónovej trávy",
+      "mnozstvo": 2,
+      "jednotka": "stonky"
+    },
+    {
+      "nazov": "Kaffir listy",
+      "mnozstvo": 4,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Šampiňónov",
+      "mnozstvo": 150,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Rybacej omáčky",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Čili",
+      "mnozstvo": 2,
+      "jednotka": "",
+      "poznamka": "1–2"
+    },
+    {
+      "nazov": "Koriander",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Vývar a kokosové mlieko prevar s galangalom, citrónovou trávou a kaffir listami.",
+    "Pridaj kura a šampiňóny, duste 8–10 min.",
+    "Dochuť rybacou omáčkou, limetkou a čili. Posyp koriandrom."
+  ],
+  "tipy": "Galangal, citrónovú trávu a kaffir listy pred jedením vyber — sú len na arómu.",
+  "foto": "",
+  "tagy": [
+    "thajské",
+    "polievka",
+    "kuracie",
+    "kokosové"
+  ]
+}

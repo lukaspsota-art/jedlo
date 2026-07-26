@@ -1,0 +1,87 @@
+{
+  "id": "moqueca",
+  "nazov": "Moqueca (brazílsky rybací guláš)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Brazílska",
+  "zdroj": "internet – adaptované (BBC Good Food)",
+  "porcie": 4,
+  "cas": "40 min",
+  "kcal_na_porciu": 480,
+  "popis": "Voňavý rybací guláš na kokosovom mlieku s paprikou, paradajkami a limetkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Bielej ryby",
+      "mnozstvo": 600,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 3,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Červená paprika",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Žltá paprika",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 2,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Kokosového mlieka",
+      "mnozstvo": 400,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Oleja",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Údenej papriky",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Koriander",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Rybu pokvapkaj limetkou a cesnakom, nechaj 15 min.",
+    "Na oleji poduste cibuľu a papriky, pridaj paradajky a údenú papriku.",
+    "Vlej kokosové mlieko, priveď k jemnému varu, vlož rybu a duste 8–10 min (nemiešaj veľa). Posyp koriandrom. Podávaj s ryžou."
+  ],
+  "tipy": "Rybu do omáčky vkladaj až nakoniec a jemne — nech sa nerozpadne.",
+  "foto": "",
+  "tagy": [
+    "brazílske",
+    "ryby",
+    "guláš",
+    "kokosové"
+  ]
+}

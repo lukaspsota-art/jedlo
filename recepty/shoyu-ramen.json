@@ -1,0 +1,85 @@
+{
+  "id": "shoyu-ramen",
+  "nazov": "Shoyu Ramen",
+  "kategoria": "Polievka",
+  "kuchyna": "Japonská",
+  "zdroj": "internet – adaptované (Serious Eats)",
+  "porcie": 2,
+  "cas": "45 min",
+  "kcal_na_porciu": 560,
+  "popis": "Japonská polievka na sójovom vývare s rezancami a klasickými ozdobami.",
+  "ingrediencie": [
+    {
+      "nazov": "Ramen rezancov",
+      "mnozstvo": 2,
+      "jednotka": "porcie"
+    },
+    {
+      "nazov": "Kuracieho vývaru",
+      "mnozstvo": 800,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sójovej omáčky",
+      "mnozstvo": 3,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Mirinu",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Sezamového oleja",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Kúsok zázvoru",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 2,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Jarná cibuľka",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Nori",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Kukurica",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Plátky bravčového",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Vývar prevar so zázvorom a cesnakom, dochuť sójovkou, mirinom a sezamovým olejom.",
+    "Rezance uvar samostatne a sceď.",
+    "Do misky daj rezance, zalej horúcim vývarom a naukladaj ozdoby (vajce, jarná cibuľka, nori, kukurica, bravčové)."
+  ],
+  "tipy": "Rezance var oddelene — inak zakalia vývar škrobom.",
+  "foto": "",
+  "tagy": [
+    "japonské",
+    "polievka",
+    "rezance"
+  ]
+}

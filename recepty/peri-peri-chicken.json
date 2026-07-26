@@ -1,0 +1,80 @@
+{
+  "id": "peri-peri-chicken",
+  "nazov": "Peri-Peri Chicken",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Portugalsko-africká",
+  "zdroj": "internet – adaptované (BBC Good Food)",
+  "porcie": 4,
+  "cas": "1 h",
+  "kcal_na_porciu": 490,
+  "popis": "Pálivé grilované kura v marináde z papričiek piri-piri, cesnaku a citróna.",
+  "ingrediencie": [
+    {
+      "nazov": "Červených čili",
+      "mnozstvo": 6,
+      "jednotka": "",
+      "poznamka": "4–8 podľa pálivosti"
+    },
+    {
+      "nazov": "Červená paprika",
+      "mnozstvo": 1,
+      "jednotka": "",
+      "poznamka": "opečená a olúpaná"
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 4,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Červeného vínneho octu",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Údenej papriky",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Oregana",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Olivového oleja",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Celé kura rozpolené",
+      "mnozstvo": 1,
+      "jednotka": "",
+      "poznamka": "spatchcock"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny na marinádu rozmixuj dohladka.",
+    "Polovicu marinády vmasíruj do kuraťa a marinuj aspoň 2 h, ideálne cez noc. Druhú polovicu odlož na podávanie.",
+    "Peč alebo griluj pri 200 °C ~35–45 min, priebežne potieraj marinádou, kým vnútorná teplota nedosiahne 74 °C. Podávaj s odloženou omáčkou."
+  ],
+  "tipy": "Rozpolené kura (spatchcock) sa upečie rovnomernejšie a rýchlejšie.",
+  "foto": "",
+  "tagy": [
+    "portugalské",
+    "grilované",
+    "kuracie",
+    "pikantné"
+  ]
+}

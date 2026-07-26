@@ -1,0 +1,71 @@
+{
+  "id": "char-siu",
+  "nazov": "Char Siu (čínske BBQ bravčové)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Čínska",
+  "zdroj": "internet – adaptované (Serious Eats)",
+  "porcie": 4,
+  "cas": "50 min + marinovanie",
+  "kcal_na_porciu": 520,
+  "popis": "Sladko-slané glazované bravčové s charakteristickou lesklou kôrkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčového pliecka",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": "alebo krkovičky"
+    },
+    {
+      "nazov": "Medu",
+      "mnozstvo": 3,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Hoisin omáčky",
+      "mnozstvo": 3,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Sójovej omáčky",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Ryžového vína",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Sezamového oleja",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 2,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Kúsok zázvoru",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Päťkorenia",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL"
+    }
+  ],
+  "postup": [
+    "Zmiešaj všetky suroviny okrem mäsa na marinádu (polovicu medu odlož na glazúru). Zalej mäso a marinuj cez noc.",
+    "Peč pri 180 °C ~30–40 min, párkrát otoč.",
+    "Potri odloženým medom a zvýš teplotu/zgriluj 5–10 min, kým sa okraje neskaramelizujú. Nechaj odpočívať a nakrájaj."
+  ],
+  "tipy": "Glazúra medom až na konci — inak by cukor zhorel.",
+  "foto": "",
+  "tagy": [
+    "čínske",
+    "bravčové",
+    "grilované"
+  ]
+}

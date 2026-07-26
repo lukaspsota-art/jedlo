@@ -1,0 +1,115 @@
+{
+  "id": "chicken-biryani",
+  "nazov": "Chicken Biryani",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Indická",
+  "zdroj": "internet – adaptované (BBC Good Food)",
+  "porcie": 5,
+  "cas": "1,5 h",
+  "kcal_na_porciu": 620,
+  "popis": "Vrstvená koreninová ryža basmati s marinovaným kuraťom, šafranom a bylinkami.",
+  "ingrediencie": [
+    {
+      "nazov": "Kuracích stehien",
+      "mnozstvo": 500,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Ryže basmati",
+      "mnozstvo": 300,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Bieleho jogurtu",
+      "mnozstvo": 200,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Cibule",
+      "mnozstvo": 2,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 3,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Kurkumy",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Garam masaly",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Rasce",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Klinčeky",
+      "mnozstvo": 4,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Kardamómy",
+      "mnozstvo": 4,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Bobkový list",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Šafran",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Koriander",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Kura namarinuj v jogurte, cesnaku, zázvore a koreninách aspoň 1 h. Cibuľu opeč dozlatista (časť odlož na ozdobu).",
+    "Kura poduste s cibuľou ~15 min. Ryžu polouvar v korenenej vode a sceď.",
+    "Navrstvi mäso a ryžu, pokvapkaj šafránovým mliekom, pridaj bylinky a maslo. Prikry a duste (dum) na miernom ohni 20–25 min. Pred podávaním premiešaj."
+  ],
+  "tipy": "Ryžu len polouvar — dovarí sa parou pri záverečnom dusení.",
+  "foto": "",
+  "tagy": [
+    "indické",
+    "kuracie",
+    "ryža"
+  ]
+}

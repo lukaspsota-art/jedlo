@@ -1,0 +1,62 @@
+{
+  "id": "elote",
+  "nazov": "Elote (mexická grilovaná kukurica)",
+  "kategoria": "Príloha",
+  "kuchyna": "Mexická",
+  "zdroj": "internet – adaptované (Serious Eats)",
+  "porcie": 4,
+  "cas": "25 min",
+  "kcal_na_porciu": 220,
+  "popis": "Grilovaná kukurica potretá majonézou, syrom cotija, čili a limetkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Kukurice",
+      "mnozstvo": 4,
+      "jednotka": "klasy"
+    },
+    {
+      "nazov": "Majonézy",
+      "mnozstvo": 3,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Kyslej smotany",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Syra cotija",
+      "mnozstvo": 50,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Údenej papriky",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Koriander",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Kukuricu ugriluj, kým miestami nezčernie.",
+    "Potri zmesou majonézy a smotany.",
+    "Posyp syrom, paprikou a koriandrom, pokvapkaj limetkou."
+  ],
+  "tipy": "Cotiju môžeš nahradiť fetou alebo parmezánom.",
+  "foto": "",
+  "tagy": [
+    "mexické",
+    "kukurica",
+    "príloha",
+    "grilované"
+  ]
+}

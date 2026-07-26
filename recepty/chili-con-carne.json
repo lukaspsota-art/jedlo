@@ -1,0 +1,101 @@
+{
+  "id": "chili-con-carne",
+  "nazov": "Chili con carne",
+  "kategoria": "Polievka",
+  "kuchyna": "Americká",
+  "zdroj": "internet – adaptované (Serious Eats)",
+  "porcie": 6,
+  "cas": "1,5 h",
+  "kcal_na_porciu": 520,
+  "popis": "Sýte pikantné dusené mäso s fazuľou a paradajkami — americká klasika.",
+  "ingrediencie": [
+    {
+      "nazov": "Mletého hovädzieho",
+      "mnozstvo": 700,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 3,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Chilli korenia",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Rasce",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Oregana",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Údenej papriky",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Paradajkového pretlaku",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Konzervovaných paradajok",
+      "mnozstvo": 400,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Červenej fazule",
+      "mnozstvo": 400,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Vývaru",
+      "mnozstvo": 300,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Štvorček horkej čokolády",
+      "mnozstvo": 1,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Opeč cibuľu, cesnak a papriku, pridaj mäso a opeč dohneda.",
+    "Zapraš koreninami, pridaj pretlak, paradajky a vývar. Duste 45–60 min.",
+    "Pridaj fazuľu (a čokoládu) a duste ešte 20 min. Podávaj s ryžou alebo pečivom."
+  ],
+  "tipy": "Kúsok horkej čokolády prehĺbi chuť omáčky bez toho, aby bola sladká.",
+  "foto": "",
+  "tagy": [
+    "americké",
+    "hovädzie",
+    "fazuľa",
+    "pikantné"
+  ]
+}

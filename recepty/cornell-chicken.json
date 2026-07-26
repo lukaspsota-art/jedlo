@@ -1,0 +1,62 @@
+{
+  "id": "cornell-chicken",
+  "nazov": "Cornell Chicken",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Americká",
+  "zdroj": "internet – adaptované (Serious Eats)",
+  "porcie": 4,
+  "cas": "1 h",
+  "kcal_na_porciu": 480,
+  "popis": "Grilované kura v octovo-vaječnej marináde — mimoriadne šťavnaté, klasika z New Yorku.",
+  "ingrediencie": [
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Rastlinného oleja",
+      "mnozstvo": 120,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Jablčného octu",
+      "mnozstvo": 240,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Soli",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Čierneho korenia",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Zmesi na hydinu",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": "sušená šalvia, tymian, majoránka"
+    },
+    {
+      "nazov": "Kuracích štvrtiek",
+      "mnozstvo": 1.1,
+      "jednotka": "kg",
+      "poznamka": "1–1,2 kg"
+    }
+  ],
+  "postup": [
+    "Vajce rozšľahaj a za stáleho šľahania prilievaj olej, aby zmes zemulgovala. Vmiešaj ocot, soľ, korenie a zmes na hydinu.",
+    "Časť marinády odlej bokom na potieranie. Zvyškom zalej kura a marinuj aspoň 4 h, ideálne cez noc.",
+    "Griluj pri strednej nepriamej teplote, pravidelne otáčaj a potieraj odloženou marinádou ~40–50 min, kým vnútorná teplota nedosiahne 74 °C."
+  ],
+  "tipy": "Marináda je riedka a octová — vytvára chrumkavú, aromatickú kôrku.",
+  "foto": "",
+  "tagy": [
+    "americké",
+    "grilované",
+    "kuracie"
+  ]
+}

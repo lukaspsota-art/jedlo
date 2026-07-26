@@ -1,0 +1,81 @@
+{
+  "id": "mushroom-risotto",
+  "nazov": "Mushroom Risotto",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Talianska",
+  "zdroj": "internet – adaptované (Bon Appétit)",
+  "porcie": 4,
+  "cas": "40 min",
+  "kcal_na_porciu": 520,
+  "popis": "Krémové hubové rizoto s parmezánom a bielym vínom.",
+  "ingrediencie": [
+    {
+      "nazov": "Ryže arborio",
+      "mnozstvo": 300,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Šampiňónov",
+      "mnozstvo": 400,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 2,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Bieleho vína",
+      "mnozstvo": 150,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zeleninového vývaru",
+      "mnozstvo": 1.2,
+      "jednotka": "l"
+    },
+    {
+      "nazov": "Masla",
+      "mnozstvo": 50,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Parmezánu",
+      "mnozstvo": 50,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Petržlen",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Huby opeč na oleji dozlatista a odlož. V hrnci poduste cibuľu a cesnak, pridaj ryžu a krátko opekaj.",
+    "Vlej víno a nechaj odpariť. Postupne prilievaj vývar po naberačkách za stáleho miešania ~18 min, kým ryža nie je al dente.",
+    "Vmiešaj huby, maslo a parmezán, dochuť. Posyp petržlenom."
+  ],
+  "tipy": "Vývar prilievaj po troškách a stále miešaj — tak vznikne krémovosť.",
+  "foto": "",
+  "tagy": [
+    "talianske",
+    "ryža",
+    "vegetariánske",
+    "huby"
+  ]
+}

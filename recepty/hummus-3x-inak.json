@@ -1,0 +1,77 @@
+{
+  "id": "hummus-3x-inak",
+  "nazov": "Hummus 3× inak",
+  "kategoria": "Nátierka",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "Kaufland FOOD magazín",
+  "porcie": 6,
+  "cas": "15 min",
+  "kcal_na_porciu": 250,
+  "popis": "Tri varianty domáceho hummusu: klasický, s cviklou a avokádový.",
+  "ingrediencie": [
+    {
+      "nazov": "Cíceru z konzervy",
+      "mnozstvo": 400,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Tahini",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Mletej rasce",
+      "mnozstvo": 2,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Sladkej papriky",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 1,
+      "jednotka": "strúčik"
+    },
+    {
+      "nazov": "Limetky alebo citróna",
+      "mnozstvo": 0.5,
+      "jednotka": "",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Olivového oleja",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Nálev z cíceru",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Klasický: do robota daj tahini a citrónovú šťavu a mixuj ~1,5 min. Pridaj olej, cesnak, rascu, papriku, korenie a soľ a mixuj ~1 min. Pridaj scedený cícer a mixuj 2 min. Ak je hustý, prilievaj nálev z cíceru dohladka.",
+    "S cviklou: pridaj 100 g pečenej cvikly (upeč pri 200 °C ~1 h) a mixuj dohladka.",
+    "Avokádový: vynechaj papriku, pridaj 1 zrelé avokádo a 1 čili papričku a mixuj dohladka."
+  ],
+  "tipy": "Nálev z cíceru (aquafaba) je najlepší na doladenie hustoty.",
+  "foto": "",
+  "tagy": [
+    "blízkovýchodné",
+    "nátierka",
+    "cícer",
+    "vegánske"
+  ]
+}

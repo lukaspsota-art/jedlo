@@ -1,0 +1,77 @@
+{
+  "id": "jollof-rice",
+  "nazov": "Jollof Rice",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Západoafrická",
+  "zdroj": "internet – adaptované (BBC Good Food)",
+  "porcie": 5,
+  "cas": "50 min",
+  "kcal_na_porciu": 480,
+  "popis": "Západoafrická paprikovo-paradajková ryža s jemne pripečeným dnom.",
+  "ingrediencie": [
+    {
+      "nazov": "Ryže",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": "parboiled"
+    },
+    {
+      "nazov": "Červené papriky",
+      "mnozstvo": 2,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 2,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Scotch bonnet čili",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Paradajkového pretlaku",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Zmesi korenín",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": "tymian, curry, bobkový list"
+    },
+    {
+      "nazov": "Vývaru",
+      "mnozstvo": 500,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Rastlinný olej",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Papriky, paradajky, cibuľu a čili rozmixuj dohladka.",
+    "Na oleji opeč pretlak, prilej paprikové pyré a koreniny, duste 10–15 min dohusta.",
+    "Vmiešaj ryžu, prilej vývar, prikry a duste na miernom ohni ~25 min domäkka (nemiešaj veľa, nech vznikne pripečené dno)."
+  ],
+  "tipy": "Jemne pripečené dno (party jollof) je považované za najlepšiu časť.",
+  "foto": "",
+  "tagy": [
+    "africké",
+    "ryža",
+    "vegetariánske"
+  ]
+}

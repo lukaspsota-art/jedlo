@@ -290,9 +290,13 @@ async function zmazMojRecept(id){ if(!await confirmModal("Zmazať tento vlastný
   S.mojeRecepty=S.mojeRecepty.filter(r=>r.id!==id); const i=RECEPTY.findIndex(r=>r.id===id); if(i>=0)RECEPTY.splice(i,1);
   delete S.fav[id]; delete S.hodn[id]; save(); zavri(); renderChips(); renderGrid(); }
 
-let aktualny=null, aktPorcie=1, jednotkaMode="metric";
+let aktualny=null, aktPorcie=1, aktVelkost=1, jednotkaMode="metric";
 function otvor(id, ctx){
-  const r=receptById(id); if(!r)return; aktualny=r; aktPorcie=(ctx&&ctx.di!==undefined)?Math.max(1,Math.round(porcieNaVar(ctx.di,ctx.slot))):(r.porcie||1); jednotkaMode="metric";
+  const r=receptById(id); if(!r)return; aktualny=r; jednotkaMode="metric";
+  // Porcie (koľko štandardných porcií) a veľkosť porcie (%, kvôli dennému kalorickému cieľu) sú dve NEZÁVISLÉ veci —
+  // predtým sa zaokrúhľovali dokopy na celé číslo, čím sa pri malom počte porcií % veľkosti niekedy stratilo úplne (zaokrúhlilo naspäť na 100 %).
+  if(ctx&&ctx.di!==undefined){ const blokLen=S.blokMode?blokDni(ctx.di).length:1; aktPorcie=Math.max(1,Math.round(blokLen*porcieSlot(ctx.di,ctx.slot))); aktVelkost=pf(ctx.di,ctx.slot); }
+  else { aktPorcie=r.porcie||1; aktVelkost=1; }
   const al=alergenyReceptu(r); const d=diety(r);
   const foto=r.foto?`<img src="recepty/fotky/${r.foto}" style="width:100%;max-height:280px;object-fit:cover;border-radius:12px;margin-bottom:14px">`:"";
   const hs=healthScore(r); const pod=Math.round(podielCiela(r)*100);
@@ -316,6 +320,7 @@ function otvor(id, ctx){
         <div class="stepper"><button onclick="zmenPorcie(-1)">−</button><input id="pnum" type="number" min="1" max="99" value="${aktPorcie}" onchange="nastavPorcie(this.value)" onfocus="this.select()" title="Zadaj počet porcií" style="width:52px;text-align:center;border:1px solid var(--line);border-radius:8px;padding:5px;font-weight:600;font-size:16px"><button onclick="zmenPorcie(1)">+</button></div>
         <button class="mini" onclick="naJednu()">na 1 porciu</button>
         <select class="mini" id="unit-mode" onchange="setUnitMode(this.value)"><option value="metric">g / ml</option><option value="spoon">lyžice</option><option value="imperial">oz / cup</option></select></div>
+      ${aktVelkost!==1?`<p class="info" style="margin-top:-6px">⚖️ Veľkosť porcie v tomto pláne: <b>${Math.round(aktVelkost*100)}%</b> (kvôli dennému kalorickému cieľu) — ingrediencie a kalórie nižšie to už zohľadňujú.</p>`:""}
       <div class="nutri" id="nutri"></div>
       <div id="nutri-spolu" class="info" style="margin:-2px 0 6px"></div>
       ${detailMeta}
@@ -339,7 +344,7 @@ function otvor(id, ctx){
   document.body.style.overflow="hidden";
 }
 function renderIng(){
-  const r=aktualny; const f=r.porcie?(aktPorcie/r.porcie):1; let rows="";
+  const r=aktualny; const f=(r.porcie?(aktPorcie/r.porcie):1)*aktVelkost; let rows="";
   (r.ingrediencie||[]).forEach(i=>{
     let mn="";
     if(i.mnozstvo!=null){ mn=prevodJednotka(i.mnozstvo*f, i.jednotka||""); }
@@ -356,8 +361,9 @@ function renderIng(){
       <div><b>${fmt(v.s)} g</b><small>sacharidy</small></div>`;
   } else box.style.display="none";
   const sp=document.getElementById("nutri-spolu");
-  if(sp){ if(v.kcal>5 && aktPorcie>1){ sp.style.display="block";
-      sp.innerHTML=`Spolu za <b>${aktPorcie} porcií</b>: ${Math.round(v.kcal*aktPorcie)} kcal · B ${fmt(v.b*aktPorcie)} g · T ${fmt(v.t*aktPorcie)} g · S ${fmt(v.s*aktPorcie)} g`;
+  if(sp){ if(v.kcal>5 && (aktPorcie>1||aktVelkost!==1)){ sp.style.display="block";
+      const nasobok=aktPorcie*aktVelkost;
+      sp.innerHTML=`Spolu za <b>${aktPorcie} porcií${aktVelkost!==1?" × "+Math.round(aktVelkost*100)+" %":""}</b>: ${Math.round(v.kcal*nasobok)} kcal · B ${fmt(v.b*nasobok)} g · T ${fmt(v.t*nasobok)} g · S ${fmt(v.s*nasobok)} g`;
     } else sp.style.display="none"; }
   const um=document.getElementById("unit-mode"); if(um)um.value=jednotkaMode;
   renderPostup(f);
@@ -1255,7 +1261,7 @@ function odpisRecept(r){ if(!r)return; if(!S.spajza.length){toast("Špajza je pr
   (r.ingrediencie||[]).forEach(i=>{ if(i.mnozstvo==null)return; const p=najdiPotravinu(i.nazov); const kk=p?p.kluc:"";
     const it=S.spajza.find(x=>{ const xk=x.kluc||(najdiPotravinu(x.nazov)||{}).kluc||""; if(kk&&xk&&kk===xk)return true;
       const a=bezDia(x.nazov),b=bezDia(i.nazov); return a.includes(b)||b.includes(a.split(" ")[0]); });
-    if(!it)return; const potreba=i.mnozstvo*(aktPorcie/(r.porcie||1));
+    if(!it)return; const potreba=i.mnozstvo*(aktPorcie/(r.porcie||1))*aktVelkost;
     let uber=null;
     if(it.jednotka===i.jednotka) uber=potreba;
     else { const g=gramy({mnozstvo:potreba,jednotka:i.jednotka},p); if(g>0) uber=gramyNaJed(g,it.jednotka,p); }

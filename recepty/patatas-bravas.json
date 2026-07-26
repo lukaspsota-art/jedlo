@@ -1,0 +1,87 @@
+{
+  "id": "patatas-bravas",
+  "nazov": "Patatas bravas",
+  "kategoria": "Príloha",
+  "kuchyna": "Španielska",
+  "zdroj": "Kaufland FOOD magazín",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 320,
+  "popis": "Španielske chrumkavé zemiaky z air fryera s pikantnou paradajkovou omáčkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiakov",
+      "mnozstvo": 800,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Malá červená cibuľa",
+      "mnozstvo": 1,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 3,
+      "jednotka": "strúčiky"
+    },
+    {
+      "nazov": "Mletej údenej papriky",
+      "mnozstvo": 2,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Hnedého cukru",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Sušenej petržlenovej vňate",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Červeného vínneho octu",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Konzervovaných sekaných paradajok",
+      "mnozstvo": 400,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji orestuj nasekanú cibuľu domäkka. Pridaj cesnak, petržlen a údenú papriku a krátko restuj. Pridaj paradajky, cukor a ocot a nechaj pomaly variť.",
+    "Zemiaky nakrájané na kocky prelej vriacou vodou a nechaj 5 min. Air fryer predhrej na 200 °C.",
+    "Zemiaky sceď, osuš, premiešaj s olejom a osoľ. Peč 15 min (podľa potreby +5 min) dochrumkava.",
+    "Omáčku rozmixuj dohladka. Zemiaky posyp petržlenom a podávaj s omáčkou."
+  ],
+  "tipy": "Klasická španielska tapas — omáčka má byť jemne pikantná a dymová.",
+  "foto": "",
+  "tagy": [
+    "španielske",
+    "zemiaky",
+    "príloha",
+    "tapas"
+  ]
+}
