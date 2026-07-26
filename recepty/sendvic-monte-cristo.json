@@ -1,0 +1,74 @@
+{
+  "id": "sendvic-monte-cristo",
+  "nazov": "Monte Cristo sendvič",
+  "kategoria": "Raňajky",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "20 min",
+  "kcal_na_porciu": 540,
+  "popis": "Sladko-slaný americký sendvič namočený vo vajci a opečený ako francúzsky toast.",
+  "ingrediencie": [
+    {
+      "nazov": "Toastový chlieb",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šunka",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr eidam",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": null,
+      "jednotka": "na posypanie",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Džem",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Chlieb naplň šunkou a syrom, zlož ako sendvič.",
+    "Rozšľahaj vajcia s mliekom, sendvič v tom namoč z oboch strán.",
+    "Opeč na masle do zlatista, posyp práškovým cukrom a podávaj s džemom."
+  ],
+  "tipy": "Kontrast slaného a sladkého je zámerný — neváhaj pridať aj slaninu.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "sladké",
+    "americká"
+  ]
+}

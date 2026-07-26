@@ -1,0 +1,56 @@
+{
+  "id": "panini-morcacie-avokado",
+  "nazov": "Panini s morčacím mäsom a avokádom",
+  "kategoria": "Raňajky",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 460,
+  "popis": "Grilovaný panini s morčacou šunkou, avokádom, syrom a paradajkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Ciabatta",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Morčacia šunka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Avokádo",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr eidam",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ciabattu prekroj, naplň šunkou, plátkami avokáda, paradajky a syrom.",
+    "Zlož sendvič a vlož do panini grilu alebo panvice so záťažou.",
+    "Grilluj z oboch strán do zlatista a roztopenia syra."
+  ],
+  "tipy": "Avokádo pridaj až tesne pred grilovaním, aby nezhnedlo.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "panini",
+    "avokádo"
+  ]
+}

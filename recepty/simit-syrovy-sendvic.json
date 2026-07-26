@@ -1,0 +1,56 @@
+{
+  "id": "simit-syrovy-sendvic",
+  "nazov": "Simit sendvič so syrom",
+  "kategoria": "Raňajky",
+  "kuchyna": "Turecká",
+  "zdroj": "vlastný recept",
+  "porcie": 1,
+  "cas": "10 min",
+  "kcal_na_porciu": 350,
+  "popis": "Sezamová žemľa simit plnená bielym syrom, paradajkou a uhorkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Žemľa so sezamom",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Biely syr",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajka",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivy",
+      "mnozstvo": null,
+      "jednotka": "pár kusov",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Žemľu prekroj.",
+    "Naplň plátkami syra, paradajky a uhorky.",
+    "Podávaj s pár olivami bokom."
+  ],
+  "tipy": "Ak nemáš simit, poslúži klasická žemľa so sezamom navrchu.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "turecká",
+    "rýchle"
+  ]
+}

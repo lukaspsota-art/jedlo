@@ -1,0 +1,50 @@
+{
+  "id": "brynzovy-sendvic-slaninka",
+  "nazov": "Bryndzový sendvič so slaninkou",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "10 min",
+  "kcal_na_porciu": 420,
+  "popis": "Domáci chlieb s bryndzou, opečenou slaninkou a cibuľkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Chlieb",
+      "mnozstvo": 4,
+      "jednotka": "plátky",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bryndza",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Slaninu nakrájaj na kocky a vypraž dochrumkava.",
+    "Chlieb natri bryndzou.",
+    "Navrch poukladaj slaninku a nakrájanú cibuľku."
+  ],
+  "tipy": "Klasická slovenská kombinácia, skvelá aj s cesnakom navyše.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "slovenská",
+    "bryndza"
+  ]
+}

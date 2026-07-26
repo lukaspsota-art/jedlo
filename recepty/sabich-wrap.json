@@ -1,0 +1,62 @@
+{
+  "id": "sabich-wrap",
+  "nazov": "Sabich wrap",
+  "kategoria": "Raňajky",
+  "kuchyna": "Izraelská",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "20 min",
+  "kcal_na_porciu": 460,
+  "popis": "Izraelský wrap s vyprážaným baklažánom, vajcom natvrdo a hummusom.",
+  "ingrediencie": [
+    {
+      "nazov": "Tortilla",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Baklažán",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hummus",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hlávkový šalát",
+      "mnozstvo": null,
+      "jednotka": "pár listov",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Baklažán nakrájaj na plátky a opeč na oleji dozlatista.",
+    "Vajcia uvar natvrdo a prekroj na polovice.",
+    "Tortillu potri hummusom, naplň baklažánom, vajcom a šalátom, zaroluj."
+  ],
+  "tipy": "Baklažán osoľ a nechaj 10 minút pustiť vodu, menej sa nasiaka olejom.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "wrap",
+    "izraelská",
+    "vegetariánske"
+  ]
+}

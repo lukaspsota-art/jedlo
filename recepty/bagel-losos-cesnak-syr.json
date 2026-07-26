@@ -1,0 +1,62 @@
+{
+  "id": "bagel-losos-cesnak-syr",
+  "nazov": "Bagel s lososom a smotanovým syrom",
+  "kategoria": "Raňajky",
+  "kuchyna": "Škandinávska",
+  "zdroj": "vlastný recept",
+  "porcie": 1,
+  "cas": "10 min",
+  "kcal_na_porciu": 420,
+  "popis": "Rýchly bagel s údeným lososom, smotanovým syrom a kôprom.",
+  "ingrediencie": [
+    {
+      "nazov": "Bagel",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotanový syr",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údený losos",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kôpor",
+      "mnozstvo": null,
+      "jednotka": "na posypanie",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.25,
+      "jednotka": "ks",
+      "poznamka": "šťava"
+    },
+    {
+      "nazov": "Červená cibuľa",
+      "mnozstvo": null,
+      "jednotka": "pár plátkov",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Bagel prekroj a opeč v hriankovači.",
+    "Potri smotanovým syrom.",
+    "Navrch ulož losos, plátky cibule, pokvapkaj citrónom a posyp kôprom."
+  ],
+  "tipy": "Losos pridávaj až na vychladnutý bagel, inak sa zoteplí a stratí textúru.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "bagel",
+    "losos",
+    "rýchle"
+  ]
+}

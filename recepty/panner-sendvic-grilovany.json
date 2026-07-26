@@ -1,0 +1,62 @@
+{
+  "id": "panner-sendvic-grilovany",
+  "nazov": "Grilovaný paneer sendvič",
+  "kategoria": "Raňajky",
+  "kuchyna": "Indická",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 420,
+  "popis": "Toastový sendvič s grilovaným paneerom, paprikou a mätovým čatní.",
+  "ingrediencie": [
+    {
+      "nazov": "Toastový chlieb",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paneer",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mätové čatní",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chilli prášok",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Paneer a papriku nakrájaj na plátky a opeč na panvici s chilli práškom.",
+    "Chlieb potri čatní.",
+    "Naplň paneerom a paprikou, zvonka namaž maslom a opeč do zlatista."
+  ],
+  "tipy": "Paneer pred opekaním osuš papierovou utierkou, lepšie zhnedne.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "indická",
+    "vegetariánske"
+  ]
+}

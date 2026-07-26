@@ -1,0 +1,62 @@
+{
+  "id": "taco-ranajkovy-wrap",
+  "nazov": "Raňajkový taco wrap",
+  "kategoria": "Raňajky",
+  "kuchyna": "Mexická",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 450,
+  "popis": "Tortilla s praženicou, chorizom, syrom a salsou — rýchle mexické raňajky.",
+  "ingrediencie": [
+    {
+      "nazov": "Tortilla",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chorizo",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr eidam",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Salsa",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Koriander",
+      "mnozstvo": null,
+      "jednotka": "pár lístkov",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Chorizo opeč na panvici do vypustenia tuku.",
+    "Pridaj rozšľahané vajcia a priprav praženicu.",
+    "Tortillu naplň praženicou, syrom, salsou a koriandrom, zaroluj."
+  ],
+  "tipy": "Chorizo dodá dosť tuku, ďalší olej väčšinou netreba pridávať.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "wrap",
+    "mexická",
+    "rýchle"
+  ]
+}

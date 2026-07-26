@@ -1,0 +1,56 @@
+{
+  "id": "bap-slanina-vajce-hp",
+  "nazov": "Bacon & egg bap",
+  "kategoria": "Raňajky",
+  "kuchyna": "Britská",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 460,
+  "popis": "Klasický britský sendvič so slaninou, vajcom a pikantnou HP omáčkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Žemľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "HP omáčka",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Slaninu vysmaž dochrumkava.",
+    "Vajcia usmaž na oko.",
+    "Žemľu natri maslom, naplň slaninou a vajcom, polej HP omáčkou."
+  ],
+  "tipy": "Namiesto HP omáčky poslúži aj worcestrová alebo kečup.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "britská",
+    "rýchle"
+  ]
+}

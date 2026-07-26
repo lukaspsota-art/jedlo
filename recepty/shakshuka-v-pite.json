@@ -1,0 +1,68 @@
+{
+  "id": "shakshuka-v-pite",
+  "nazov": "Shakshuka v pite",
+  "kategoria": "Raňajky",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "20 min",
+  "kcal_na_porciu": 390,
+  "popis": "Pita naplnená paradajkovou omáčkou s vajcom a feta syrom.",
+  "ingrediencie": [
+    {
+      "nazov": "Pita chlieb",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": "pretlak alebo čerstvé"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Feta",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji speň cibuľu s cesnakom, pridaj paradajky a rascu, dusaj 10 minút.",
+    "Do omáčky vytvor dva dolíky a rozklep vajcia, priklop a var do stuhnutia bielka.",
+    "Pitu naplň shakshukou, posyp feta syrom."
+  ],
+  "tipy": "Omáčka musí byť dosť hustá, inak bude pita rozmočená.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "vajce",
+    "vegetariánske",
+    "pikantné"
+  ]
+}

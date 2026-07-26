@@ -1,0 +1,62 @@
+{
+  "id": "caprese-ranajkovy-toast",
+  "nazov": "Caprese raňajkový toast",
+  "kategoria": "Raňajky",
+  "kuchyna": "Talianska",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "10 min",
+  "kcal_na_porciu": 390,
+  "popis": "Bageta s mozzarellou, paradajkou, bazalkou a balzamikovým krémom.",
+  "ingrediencie": [
+    {
+      "nazov": "Bageta",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mozzarella",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajka",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bazalka",
+      "mnozstvo": null,
+      "jednotka": "pár lístkov",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Balzamikový krém",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Bagetu prekroj a opeč.",
+    "Naskladaj plátky mozzarelly a paradajky, striedavo prekladaj bazalkou.",
+    "Pokvapkaj olivovým olejom a balzamikovým krémom."
+  ],
+  "tipy": "Podávaj ihneď, kým je mozzarella ešte teplá z opečeného chleba.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "vegetariánske",
+    "rýchle"
+  ]
+}

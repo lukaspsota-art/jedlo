@@ -1,0 +1,56 @@
+{
+  "id": "panini-kurca-pesto-mozzarella",
+  "nazov": "Panini s kurčaťom a pestom",
+  "kategoria": "Raňajky",
+  "kuchyna": "Talianska",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 480,
+  "popis": "Grilovaný panini s kuracím mäsom, bazalkovým pestom, mozzarellou a rukolou.",
+  "ingrediencie": [
+    {
+      "nazov": "Ciabatta",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kuracie prsia",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": "uvarené alebo grilované"
+    },
+    {
+      "nazov": "Pesto",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mozzarella",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rukola",
+      "mnozstvo": null,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ciabattu potri pestom z oboch strán.",
+    "Naplň nakrájaným kuracím mäsom, mozzarellou a rukolou.",
+    "Grilluj v panini grile alebo na panvici so záťažou do zlatista."
+  ],
+  "tipy": "Kuracie mäso môžeš použiť zvyšné z predchádzajúceho dňa.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "panini",
+    "kuracie"
+  ]
+}

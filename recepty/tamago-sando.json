@@ -1,0 +1,56 @@
+{
+  "id": "tamago-sando",
+  "nazov": "Tamago sando (japonský vaječný sendvič)",
+  "kategoria": "Raňajky",
+  "kuchyna": "Japonská",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "20 min",
+  "kcal_na_porciu": 410,
+  "popis": "Jemný japonský sendvič z toastového chleba bez kôrky plnený vaječným šalátom.",
+  "ingrediencie": [
+    {
+      "nazov": "Toastový chlieb",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majonéza",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vajcia uvar natvrdo, ošúp a rozdrv vidličkou.",
+    "Zmiešaj s majonézou, cukrom a soľou do krémovej hmoty.",
+    "Naplň medzi krajce chleba, orež kôrky a prekroj na trojuholníky."
+  ],
+  "tipy": "Chlieb pred plnením mierne stlač valčekom, sendvič sa lepšie krája.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "vajce",
+    "japonská"
+  ]
+}

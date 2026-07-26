@@ -344,10 +344,10 @@ function otvor(id, ctx){
   document.body.style.overflow="hidden";
 }
 function renderIng(){
-  const r=aktualny; const f=(r.porcie?(aktPorcie/r.porcie):1)*aktVelkost; let rows="";
+  const r=aktualny; const fPocet=r.porcie?(aktPorcie/r.porcie):1; let rows="";
   (r.ingrediencie||[]).forEach(i=>{
     let mn="";
-    if(i.mnozstvo!=null){ mn=prevodJednotka(i.mnozstvo*f, i.jednotka||""); }
+    if(i.mnozstvo!=null){ mn=prevodJednotka(skalovanaHodnota(i.mnozstvo,i.jednotka,fPocet,aktVelkost), i.jednotka||""); }
     else if(i.poznamka){ mn=i.poznamka; }
     const pozn=(i.mnozstvo!=null&&i.poznamka)?` <span class="pozn">(${i.poznamka})</span>`:"";
     rows+=`<tr><td>${i.nazov}${pozn}</td><td class="mn">${mn}</td></tr>`;
@@ -366,14 +366,14 @@ function renderIng(){
       sp.innerHTML=`Spolu za <b>${aktPorcie} porcií${aktVelkost!==1?" × "+Math.round(aktVelkost*100)+" %":""}</b>: ${Math.round(v.kcal*nasobok)} kcal · B ${fmt(v.b*nasobok)} g · T ${fmt(v.t*nasobok)} g · S ${fmt(v.s*nasobok)} g`;
     } else sp.style.display="none"; }
   const um=document.getElementById("unit-mode"); if(um)um.value=jednotkaMode;
-  renderPostup(f);
+  renderPostup(fPocet,aktVelkost);
 }
-function krokHint(text,f){ const h=bezDia(text); const found=[];
+function krokHint(text,fPocet,fVelkost){ const h=bezDia(text); const found=[];
   (aktualny.ingrediencie||[]).forEach(i=>{ if(i.mnozstvo==null)return; const nm=bezDia(i.nazov); const prve=nm.split(" ")[0];
-    if(nm.length>2 && (h.includes(nm)||(prve.length>3&&h.includes(prve)))) found.push(`${i.nazov} ${prevodJednotka(i.mnozstvo*f,i.jednotka||"")}`); });
+    if(nm.length>2 && (h.includes(nm)||(prve.length>3&&h.includes(prve)))) found.push(`${i.nazov} ${prevodJednotka(skalovanaHodnota(i.mnozstvo,i.jednotka,fPocet,fVelkost),i.jednotka||"")}`); });
   return found.length? ` <span class="krok-mn">▸ ${found.join(" · ")}</span>`:""; }
-function renderPostup(f){ const ol=document.getElementById("postup-ol"); if(!ol)return;
-  ol.innerHTML=(aktualny.postup||[]).map(k=>`<li>${k}${krokHint(k,f)}</li>`).join(""); }
+function renderPostup(fPocet,fVelkost){ const ol=document.getElementById("postup-ol"); if(!ol)return;
+  ol.innerHTML=(aktualny.postup||[]).map(k=>`<li>${k}${krokHint(k,fPocet,fVelkost)}</li>`).join(""); }
 function renderSubst(){
   const r=aktualny; let items=[];
   (r.ingrediencie||[]).forEach(i=>{ const n=i.nazov.toLowerCase();
@@ -386,9 +386,12 @@ function zmenPorcie(d){ aktPorcie=Math.max(1,aktPorcie+d); document.getElementBy
 function nastavPorcie(v){ aktPorcie=Math.max(1,Math.min(99,parseInt(v)||1)); document.getElementById("pnum").value=aktPorcie; renderIng(); } // priame zadanie počtu porcií
 function naJednu(){ aktPorcie=1; document.getElementById("pnum").value=1; renderIng(); }
 function setUnitMode(v){ jednotkaMode=v; renderIng(); }
+const NEDELITELNE_JEDNOTKY=["ks","kus","plátok","platok","rožok","rozok","žemľa","zemla"];
+// veľkosť porcie (%) sa NEDÁ uplatniť na kus chleba/vajce — tie sa škálujú len počtom porcií, nie kalorickým % (viď skalovanaHodnota)
+function skalovanaHodnota(mnozstvo,jednotka,fPocet,fVelkost){ return mnozstvo*(NEDELITELNE_JEDNOTKY.includes((jednotka||"").toLowerCase())?fPocet:fPocet*fVelkost); }
 function prevodJednotka(val, jed){
   const j=(jed||"").toLowerCase();
-  if(["ks","kus","plátok","platok","rožok","rozok","žemľa","zemla"].includes(j)){ const n=Math.max(val>0?1:0,Math.round(val)); return n+" "+jed; }
+  if(NEDELITELNE_JEDNOTKY.includes(j)){ const n=Math.max(val>0?1:0,Math.round(val)); return n+" "+jed; }
   if(jednotkaMode==="spoon"){
     if(j==="ml"){ return val>=15 ? fmt(val/15)+" PL" : fmt(val/5)+" ČL"; }
     return fmt(val)+(jed?(" "+jed):"");
@@ -1261,7 +1264,7 @@ function odpisRecept(r){ if(!r)return; if(!S.spajza.length){toast("Špajza je pr
   (r.ingrediencie||[]).forEach(i=>{ if(i.mnozstvo==null)return; const p=najdiPotravinu(i.nazov); const kk=p?p.kluc:"";
     const it=S.spajza.find(x=>{ const xk=x.kluc||(najdiPotravinu(x.nazov)||{}).kluc||""; if(kk&&xk&&kk===xk)return true;
       const a=bezDia(x.nazov),b=bezDia(i.nazov); return a.includes(b)||b.includes(a.split(" ")[0]); });
-    if(!it)return; const potreba=i.mnozstvo*(aktPorcie/(r.porcie||1))*aktVelkost;
+    if(!it)return; const potreba=skalovanaHodnota(i.mnozstvo,i.jednotka,aktPorcie/(r.porcie||1),aktVelkost);
     let uber=null;
     if(it.jednotka===i.jednotka) uber=potreba;
     else { const g=gramy({mnozstvo:potreba,jednotka:i.jednotka},p); if(g>0) uber=gramyNaJed(g,it.jednotka,p); }

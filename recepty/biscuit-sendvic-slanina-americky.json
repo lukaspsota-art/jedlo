@@ -1,0 +1,56 @@
+{
+  "id": "biscuit-sendvic-slanina-americky",
+  "nazov": "Americký biscuit sendvič so slaninou",
+  "kategoria": "Raňajky",
+  "kuchyna": "Americká",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "20 min",
+  "kcal_na_porciu": 520,
+  "popis": "Maslová sušienka (biscuit) plnená slaninou, vajcom a syrom, so stopkou javorového sirupu.",
+  "ingrediencie": [
+    {
+      "nazov": "Biscuit sušienky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr eidam",
+      "mnozstvo": 2,
+      "jednotka": "plátky",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Javorový sirup",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Slaninu vysmaž dochrumkava.",
+    "Vajcia usmaž na oko.",
+    "Biscuit prekroj, naplň slaninou, vajcom a syrom, pokvapkaj sirupom."
+  ],
+  "tipy": "Ak nemáš hotové biscuity, poslúži aj maslová žemľa.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "americká",
+    "sladko-slané"
+  ]
+}

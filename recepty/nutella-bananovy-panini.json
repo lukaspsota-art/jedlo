@@ -1,0 +1,50 @@
+{
+  "id": "nutella-bananovy-panini",
+  "nazov": "Nutella-banánový panini",
+  "kategoria": "Raňajky",
+  "kuchyna": "Talianska",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "10 min",
+  "kcal_na_porciu": 490,
+  "popis": "Sladký grilovaný panini s čokoládovo-orieškovou nátierkou a banánom.",
+  "ingrediencie": [
+    {
+      "nazov": "Ciabatta",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čokoládovo-oriešková nátierka",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Banán",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ciabattu prekroj a potri čokoládovo-orieškovou nátierkou.",
+    "Naplň plátkami banánu.",
+    "Zvonka namaž maslom a grilluj do zlatista a roztopenia nátierky."
+  ],
+  "tipy": "Nechaj pár minút vychladnúť, náplň je po grilovaní veľmi horúca.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "sladké",
+    "panini"
+  ]
+}

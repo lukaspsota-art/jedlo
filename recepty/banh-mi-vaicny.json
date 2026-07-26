@@ -1,0 +1,80 @@
+{
+  "id": "banh-mi-vaicny",
+  "nazov": "Vaječný banh mi",
+  "kategoria": "Raňajky",
+  "kuchyna": "Vietnamská",
+  "zdroj": "vlastný recept",
+  "porcie": 2,
+  "cas": "20 min",
+  "kcal_na_porciu": 470,
+  "popis": "Vietnamská bageta s vyprážaným vajcom, nakladanou zeleninou a čili majonézou.",
+  "ingrediencie": [
+    {
+      "nazov": "Bageta",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Reďkev",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": null,
+      "jednotka": "na nálev",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": null,
+      "jednotka": "na nálev",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Koriander",
+      "mnozstvo": null,
+      "jednotka": "pár lístkov",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majonéza",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sriracha",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mrkvu a reďkev najemno nastrúhaj a nalož na 15 minút do octového nálevu s cukrom.",
+    "Vajcia osmaž na oko s chrumkavými okrajmi.",
+    "Bagetu potri sriracha majonézou, naplň vajcom, nakladanou zeleninou a koriandrom."
+  ],
+  "tipy": "Zeleninu nechaj okvapkať, inak bageta zmäkne.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "sendvič",
+    "vietnamská",
+    "vajce"
+  ]
+}
