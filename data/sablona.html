@@ -75,6 +75,8 @@
   select.f:hover{border-color:var(--accent)}
   .krok-mn{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:8px;background:var(--chip);color:var(--accent-dark);font-size:13px;font-weight:600;white-space:normal}
   .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .pick-dropdown{display:none;position:absolute;left:0;right:0;top:100%;margin-top:4px;background:#fff;border:1px solid var(--line);border-radius:8px;max-height:260px;overflow:auto;z-index:20;box-shadow:0 6px 18px rgba(0,0,0,.15)}
+  body.dark .pick-dropdown{background:var(--panel)}
   .kolekcie{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px}
   .kol-tile{padding:7px 12px;border:1px solid var(--line);border-radius:20px;cursor:pointer;font-size:14px;background:var(--card);white-space:nowrap;user-select:none}
   .kol-tile.active{background:var(--accent);color:#fff;border-color:var(--accent)}
@@ -96,7 +98,10 @@
   .card .kat{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#fff;background:var(--accent);padding:3px 9px;border-radius:12px}
   .card h3{margin:8px 0 5px;font-size:16px}
   .card .meta{font-size:12.5px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
-  .card .stars{color:var(--gold);font-size:13px;margin-top:5px;min-height:16px}
+  .card .stars{font-size:13px;margin-top:5px;min-height:16px}
+  .star-slot{position:relative;display:inline-block}
+  .star-slot .star-e{color:#ccc}
+  .star-slot .star-f{position:absolute;left:0;top:0;overflow:hidden;white-space:nowrap;color:var(--gold)}
   .card .diet{margin-top:6px;display:flex;gap:4px;flex-wrap:wrap}
   .badge{font-size:10.5px;padding:2px 7px;border-radius:10px;background:#eef3ef;color:var(--accent-dark);border:1px solid #d9e6dd}
   .badge.alerg{background:#fbefec;color:var(--warn);border-color:#f0d5cf}
@@ -137,8 +142,7 @@
   .tipy{background:#f3f8f4;border-left:3px solid var(--accent);padding:12px 16px;border-radius:8px;margin-top:16px;font-size:14px}
   .zdroj{margin-top:14px;font-size:13px;color:var(--muted)}
   .hodnotenie{display:flex;align-items:center;gap:10px;margin-top:16px;flex-wrap:wrap}
-  .starpick span{font-size:24px;cursor:pointer;color:#ccc}
-  .starpick span.on{color:var(--gold)}
+  .starpick .star-slot{font-size:24px;cursor:pointer}
   textarea.pozn{width:100%;min-height:60px;border:1px solid var(--line);border-radius:10px;padding:10px;font-size:14px;font-family:inherit;margin-top:8px}
   .btn-row{margin-top:20px;display:flex;gap:10px;flex-wrap:wrap}
   .btn{border:1px solid var(--line);background:#fff;padding:9px 16px;border-radius:10px;cursor:pointer;font-size:14px}

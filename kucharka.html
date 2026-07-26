@@ -75,6 +75,8 @@
   select.f:hover{border-color:var(--accent)}
   .krok-mn{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:8px;background:var(--chip);color:var(--accent-dark);font-size:13px;font-weight:600;white-space:normal}
   .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .pick-dropdown{display:none;position:absolute;left:0;right:0;top:100%;margin-top:4px;background:#fff;border:1px solid var(--line);border-radius:8px;max-height:260px;overflow:auto;z-index:20;box-shadow:0 6px 18px rgba(0,0,0,.15)}
+  body.dark .pick-dropdown{background:var(--panel)}
   .kolekcie{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px}
   .kol-tile{padding:7px 12px;border:1px solid var(--line);border-radius:20px;cursor:pointer;font-size:14px;background:var(--card);white-space:nowrap;user-select:none}
   .kol-tile.active{background:var(--accent);color:#fff;border-color:var(--accent)}
@@ -96,7 +98,10 @@
   .card .kat{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#fff;background:var(--accent);padding:3px 9px;border-radius:12px}
   .card h3{margin:8px 0 5px;font-size:16px}
   .card .meta{font-size:12.5px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
-  .card .stars{color:var(--gold);font-size:13px;margin-top:5px;min-height:16px}
+  .card .stars{font-size:13px;margin-top:5px;min-height:16px}
+  .star-slot{position:relative;display:inline-block}
+  .star-slot .star-e{color:#ccc}
+  .star-slot .star-f{position:absolute;left:0;top:0;overflow:hidden;white-space:nowrap;color:var(--gold)}
   .card .diet{margin-top:6px;display:flex;gap:4px;flex-wrap:wrap}
   .badge{font-size:10.5px;padding:2px 7px;border-radius:10px;background:#eef3ef;color:var(--accent-dark);border:1px solid #d9e6dd}
   .badge.alerg{background:#fbefec;color:var(--warn);border-color:#f0d5cf}
@@ -137,8 +142,7 @@
   .tipy{background:#f3f8f4;border-left:3px solid var(--accent);padding:12px 16px;border-radius:8px;margin-top:16px;font-size:14px}
   .zdroj{margin-top:14px;font-size:13px;color:var(--muted)}
   .hodnotenie{display:flex;align-items:center;gap:10px;margin-top:16px;flex-wrap:wrap}
-  .starpick span{font-size:24px;cursor:pointer;color:#ccc}
-  .starpick span.on{color:var(--gold)}
+  .starpick .star-slot{font-size:24px;cursor:pointer}
   textarea.pozn{width:100%;min-height:60px;border:1px solid var(--line);border-radius:10px;padding:10px;font-size:14px;font-family:inherit;margin-top:8px}
   .btn-row{margin-top:20px;display:flex;gap:10px;flex-wrap:wrap}
   .btn{border:1px solid var(--line);background:#fff;padding:9px 16px;border-radius:10px;cursor:pointer;font-size:14px}
@@ -739,7 +743,7 @@ function kartaHTML(r){
       '<span class="kat">'+(r.kategoria||"")+'</span><h3>'+r.nazov+'</h3>'+
       '<div class="meta">'+(r.cas?'<span>⏱ '+r.cas+'</span>':"")+(kc?'<span>🔥 '+kc+' kcal</span>':"")+(v.cena>0.01?'<span>💶 '+eur(v.cena)+'</span>':"")+'</div>'+
       (v.kcal>5?'<div class="macros">B '+fmt(v.b)+' · T '+fmt(v.t)+' · S '+fmt(v.s)+' g</div>':'')+
-      '<div class="stars">'+(hod?"★".repeat(hod)+"☆".repeat(5-hod):"")+'</div>'+
+      '<div class="stars">'+(hod?starsHTML(hod):"")+'</div>'+
       spajzaMatchEl(r)+
       '<div class="diet">'+db+'</div></div>';
 }
@@ -841,7 +845,7 @@ function otvor(id, ctx){
   const ringBadge=(hs.p100>0 && pod>0)?`<span class="ring" style="background:conic-gradient(var(--accent) ${pod*3.6}deg, var(--line) 0)" title="podiel jednej porcie na dennom cieli"><b>${pod}%</b></span> <span class="badge">podiel dňa</span>`:'';
   const badges=[hsBadge,ringBadge,jeVakcii(r)?'<span class="badge price">🏷️ v akcii</span>':'',jeSezonne(r)?'<span class="badge">🌿 sezónne</span>':'',d.veg?'<span class="badge">🌱 vegetariánske</span>':'',d.bezlepku?'<span class="badge">bez lepku</span>':'',d.bezlaktozy?'<span class="badge">bez laktózy</span>':'',pripravaVopred(r)?'<span class="badge" title="Recept spomína prípravu vopred (marinovanie, namáčanie cez noc a pod.)">⏰ priprav vopred</span>':'',...al.map(a=>`<span class="badge alerg">⚠ ${a}</span>`)].join('');
   const hod=S.hodn[r.id]||0;
-  const stars=[1,2,3,4,5].map(i=>`<span class="${i<=hod?'on':''}" onclick="hodnot('${r.id}',${i})">★</span>`).join('');
+  const stars=starsHTML(hod,r.id,true);
   const cen=vyzivaReceptu(r).cena; const uv=S.uvarene.filter(u=>u.id===r.id); const dparts=[];
   if(cen>0.01)dparts.push(`💶 ~${eur(cen)}/porcia`);
   if(uv.length)dparts.push(`🍳 uvarené ${uv.length}× (naposledy ${uv[0].datum})`);
@@ -940,7 +944,13 @@ function prevodJednotka(val, jed){
   }
   return fmt(val)+(jed?(" "+jed):"");
 }
-function hodnot(id,n){ if(n)S.hodn[id]=n; else delete S.hodn[id]; save(); otvor(id); renderGrid(); }
+function hodnot(id,n){ if(n)S.hodn[id]=Math.round(n*2)/2; else delete S.hodn[id]; save(); otvor(id); renderGrid(); }
+// klik na ľavú polovicu hviezdy = pol hviezdy, na pravú = celá
+function hodnotKlik(e,id,i){ const rect=e.currentTarget.getBoundingClientRect(); const polovica=(e.clientX-rect.left)<rect.width/2; hodnot(id,polovica?(i-0.5):i); }
+function starsHTML(hod,id,klikatelne){ let h=""; for(let i=1;i<=5;i++){ const fill=Math.max(0,Math.min(1,hod-(i-1)))*100;
+  const onclick=klikatelne?` onclick="hodnotKlik(event,'${id}',${i})"`:"";
+  h+=`<span class="star-slot"${onclick}><span class="star-e">★</span><span class="star-f" style="width:${fill}%">★</span></span>`; }
+  return h; }
 function ulozPozn(id){ S.pozn[id]=document.getElementById("poznamka").value; save(); }
 // --- vlastné dialógy namiesto natívnych (toast / confirm / prompt) ---
 function toast(msg){ const t=document.getElementById("toast"); if(!t)return; t.textContent=msg; t.classList.add("show"); clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove("show"),3000); }
@@ -1127,11 +1137,22 @@ function ukazKatPicker(){
   const odp=SLOT_KATEGORIE[pickCiel.slot]||[];
   kats.sort((a,b)=>((odp.includes(b)?1:0)-(odp.includes(a)?1:0)) || a.localeCompare(b,"sk"));
   let h=`<div class="hero"><button class="close" onclick="zavriPick()">✕</button><h2>Aké jedlo?</h2><div class="subx">${pickRozsah()} · ${pickCiel.slot}</div></div><div class="content2">`;
+  h+=`<div style="position:relative;margin-bottom:14px"><input id="pick-search" type="text" placeholder="🔍 Hľadať recept podľa názvu…" oninput="pickSearchInput(this.value)" autocomplete="off" style="width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-size:15px"><div id="pick-search-results" class="pick-dropdown"></div></div>`;
   if(S.blokMode) h+=`<label class="switch" style="margin-bottom:12px"><input type="checkbox" ${pickCiel.blok?"checked":""} onchange="pickCiel.blok=this.checked;document.querySelector('.modal .subx').textContent=pickRozsah()+' · '+pickCiel.slot"> Použiť na celý blok</label>`;
   h+='<div class="chips">';
   kats.forEach(k=>{ const zvyr=odp.includes(k); h+=`<span class="chip${zvyr?' active':''}" onclick="ukazReceptyKat('${k.replace(/'/g,"")}')">${ikony[k]||"🍴"} ${k}</span>`; });
   h+=`</div><div class="btn-row"><button class="btn" onclick="ukazReceptyKat('')">Zobraziť všetky recepty</button></div></div>`;
   document.getElementById("pick-modal").innerHTML=h;
+}
+function pickSearchRiadok(r){ return `<div class="plan-cell" style="border-bottom:1px solid var(--line);border-radius:0" onclick="nastavPlan('${r.id}')"><span class="nm">${ikony[r.kategoria]||"🍴"} ${r.nazov}</span><span class="kc">${r.kategoria}${r.kuchyna?" · "+r.kuchyna:""} · ${kcalPorcia(r)} kcal</span></div>`; }
+function pickSearchInput(q){
+  const box=document.getElementById("pick-search-results"); if(!box)return;
+  q=q.trim();
+  if(!q){ box.style.display="none"; box.innerHTML=""; return; }
+  const qq=bezDia(q);
+  const list=RECEPTY.filter(r=>prejdeProfil(r) && bezDia(r.nazov).includes(qq)).sort((a,b)=>a.nazov.localeCompare(b.nazov,"sk")).slice(0,8);
+  box.style.display="block";
+  box.innerHTML = list.length ? list.map(pickSearchRiadok).join("") : '<p class="info" style="padding:10px;margin:0">Nič sa nenašlo.</p>';
 }
 function ukazReceptyKat(kat){
   let list=RECEPTY.filter(r=>prejdeProfil(r) && (!kat||r.kategoria===kat)).sort((a,b)=>a.nazov.localeCompare(b.nazov,"sk"));
