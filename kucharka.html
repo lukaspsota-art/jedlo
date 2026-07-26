@@ -1408,12 +1408,15 @@ async function upravFaktor(di,slot){ const cur=Math.round(pf(di,slot)*100); cons
 function mamVSpajzi(nazov){ const p=najdiPotravinu(nazov); const key=p?p.kluc:bezDia(nazov); const n=bezDia(nazov);
   return S.spajza.some(x=>{ if(x.mnozstvo<=0)return false; const xk=x.kluc||(najdiPotravinu(x.nazov)||{}).kluc||""; const xn=bezDia(x.nazov);
     return (xk&&xk===key) || xn.includes(n) || n.includes(xn.split(" ")[0]); }); }
+// "už kúpené" sa viaže na KONKRÉTNY zobrazený týždeň (S.viewOd), nie natrvalo na názov suroviny —
+// inak by odfajknutý cesnak z minulotýždňového nákupu ostal navždy odfajknutý aj v úplne iných týždňoch.
+function nakupCheckKey(key){ return S.viewOd+"|"+key; }
 function nakupItems(){
   const {grp,notes}=nakupPolozky(); const tok=domaTokens(); const rows=[];
   Object.values(grp).forEach(G=>{ const key=G.key.replace(/'/g,""); const doma=jeDoma(G.nazov,tok);
-    rows.push({key,odd:G.oddelenie||"Ostatné",nazov:G.nazov,mnoz:nakupMnozstvo(G),cena:nakupCena(G),akc:ingVakcii(G.nazov),doma,vSpajzi:mamVSpajzi(G.nazov),klik:true,ck:!!(S.nakupCheck[key]||doma)}); });
+    rows.push({key,odd:G.oddelenie||"Ostatné",nazov:G.nazov,mnoz:nakupMnozstvo(G),cena:nakupCena(G),akc:ingVakcii(G.nazov),doma,vSpajzi:mamVSpajzi(G.nazov),klik:true,ck:!!(S.nakupCheck[nakupCheckKey(key)]||doma)}); });
   Object.values(notes).forEach(N=>{ const key="note|"+bezDia(N.nazov); const doma=jeDoma(N.nazov,tok);
-    rows.push({key,odd:N.oddelenie||"Ostatné",nazov:N.nazov,mnoz:"<i>"+N.pozn+"</i>",akc:false,doma,klik:true,ck:!!(S.nakupCheck[key]||doma)}); });
+    rows.push({key,odd:N.oddelenie||"Ostatné",nazov:N.nazov,mnoz:"<i>"+N.pozn+"</i>",akc:false,doma,klik:true,ck:!!(S.nakupCheck[nakupCheckKey(key)]||doma)}); });
   return rows;
 }
 function riadokNakup(r){ const en=r.nazov.replace(/'/g,"\\'");
@@ -1445,7 +1448,7 @@ function renderNakup(){
   if(zasVsetko.length){ h+='<div class="odd done-sekcia"><h4>✓ Už máme / v košíku</h4>'; zasVsetko.sort((a,b)=>a.nazov.localeCompare(b.nazov,"sk")).forEach(r=>h+=riadokNakup(r)); h+="</div>"; }
   box.innerHTML=h;
 }
-function checkNakup(key,val){ tik(); S.nakupCheck[key]=val; if(!val)delete S.nakupCheck[key]; save(); renderNakup(); }
+function checkNakup(key,val){ tik(); const k=nakupCheckKey(key); S.nakupCheck[k]=val; if(!val)delete S.nakupCheck[k]; save(); renderNakup(); }
 function pridajNakupPolozku(){ const el=document.getElementById("nakup-manual"); if(!el)return; const v=(el.value||"").trim(); if(!v)return;
   const m=v.match(/^(.*?)[\s,]+(\d+(?:[.,]\d+)?\s*\S*)$/); // N1: "mlieko 2 l" → názov + množstvo
   let nazov=v, mnoz=""; if(m){ nazov=m[1].trim(); mnoz=m[2].trim(); }
