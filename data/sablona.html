@@ -60,6 +60,10 @@
   .dnes-row{display:flex;justify-content:space-between;gap:12px;padding:7px 2px;border-bottom:1px solid var(--line);font-size:15px}
   .dnes-slot{color:var(--accent-dark);font-weight:600;min-width:90px}
   .dnes-varenie{margin-top:10px;font-size:14px}
+  .dnes-varenie-hero{margin-bottom:14px;padding:12px 14px;border-radius:12px;background:#eef5f0;border-left:4px solid var(--accent)}
+  .dnes-varenie-hero b{display:block;margin-bottom:6px;color:var(--accent-dark)}
+  .dnes-varenie-hero .dnes-row{border-bottom:1px solid #dfe9e2;font-size:14px;padding:5px 2px}
+  .dnes-varenie-hero .dnes-row:last-of-type{border-bottom:none}
   .dnes-makra{margin-top:10px;padding-top:8px;color:var(--muted);font-size:14px}
   .dnes-makra b{color:var(--ink)}
   .dnes .mt{color:var(--muted);font-size:13px}
@@ -278,6 +282,7 @@
   .kal .day.dnes{border-color:var(--accent);border-width:2px}
   .kal .day.mimo{background:transparent;border:none}
   .kal .ev{background:var(--chip);border-radius:5px;padding:1px 5px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .kal .plan-dot{color:var(--accent);font-size:8px;margin-left:4px;vertical-align:middle}
   body.dark .kal .day{background:var(--panel)}
   .sp-row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 4px;border-bottom:1px solid var(--line);font-size:15px}
   .sp-row .meta2{font-size:12.5px;color:var(--muted)}
@@ -346,6 +351,7 @@
     <div class="view" id="v-planovac">
       <h2 class="h">Plán týždňa</h2>
       <p class="sub">Klikni na jedlo pre recept · „✎ zmeniť" vymení jedlo.</p>
+      <div id="plan-kontext"></div>
       <div class="chips" style="padding:0 0 12px"><span class="chip active" id="tab-tyzden" onclick="planZobraz('tyzden')">📋 Týždeň</span><span class="chip" id="tab-kal" onclick="planZobraz('kalendar')">📆 Kalendár</span></div>
       <div id="plan-tyzden">
       <div class="plan-head">
