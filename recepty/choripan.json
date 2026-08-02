@@ -1,0 +1,67 @@
+{
+  "id": "choripan",
+  "nazov": "Choripán",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Argentínska",
+  "zdroj": "Wikibooks Cookbook – Choripán (Argentine Chorizo Sandwich) (CC BY-SA)",
+  "porcie": 2,
+  "cas": "45 min",
+  "kcal_na_porciu": 886,
+  "popis": "Argentínsky grilovaný chorizo rozrezaný na motýlika v chrumkavom pečive s chimichurri. Klasika z každého asada.",
+  "ingrediencie": [
+    {
+      "nazov": "Chorizo",
+      "mnozstvo": 240,
+      "jednotka": "g",
+      "poznamka": "čerstvé, 2 klobásy"
+    },
+    {
+      "nazov": "Rožok",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": "chrumkavý"
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "plátky, voliteľné"
+    },
+    {
+      "nazov": "Šalátové listy",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": "voliteľné"
+    },
+    {
+      "nazov": "Majonéza",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chimichurri omáčka",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Rozpáľ gril na strednú teplotu, približne 175 °C.",
+    "Klobásy griluj 20 minút z každej strany.",
+    "Keď sú klobásy takmer hotové, pečivo rozkroj a zľahka ho na grile opáľ.",
+    "Klobásy vyber z grilu a rozrež po dĺžke na motýlika.",
+    "Pečivo potri majonézou.",
+    "Poskladaj po jednej klobáse na pečivo. Pridaj plátky paradajky a šalát podľa chuti. Prelej chimichurri."
+  ],
+  "tipy": "Chorizo sa na choripán griluje zámerne - vďaka obsahu tuku dostane dymovú chuť. V Chile sa používa pečivo marraqueta namiesto francúzskeho. Podávať sa dá aj so salsa criolla z nasekanej cibule, paradajky a papriky s octom a olivovým olejom.",
+  "foto": "",
+  "tagy": [
+    "sendvič",
+    "obed",
+    "večera",
+    "argentínska",
+    "klobása",
+    "grilované"
+  ]
+}

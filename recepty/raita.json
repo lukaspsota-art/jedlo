@@ -1,0 +1,81 @@
+{
+  "id": "raita",
+  "nazov": "Raita",
+  "kategoria": "Nátierka",
+  "kuchyna": "Indická",
+  "zdroj": "Wikibooks Cookbook – Raita (CC BY-SA)",
+  "porcie": 2,
+  "cas": "10 min",
+  "kcal_na_porciu": 43,
+  "popis": "Indický jogurt s nastrúhanou uhorkou, mätou a koriandrom, posypaný rascou a chilli. Chladí pri pálivom jedle.",
+  "ingrediencie": [
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": "nastrúhaná"
+    },
+    {
+      "nazov": "Jogurt",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": "biely"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 3,
+      "jednotka": "lístok",
+      "poznamka": "nasekaná"
+    },
+    {
+      "nazov": "Koriander",
+      "mnozstvo": 2,
+      "jednotka": "lístok",
+      "poznamka": "nasekaný"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": "nasekaná najemno, voliteľné"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "hrubá, podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chilli mleté",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kmín",
+      "mnozstvo": null,
+      "jednotka": "mletý, podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Nastrúhanú uhorku vytlač, aby si odstránil prebytočnú tekutinu, a tú vylej.",
+    "Uhorku vmiešaj do jogurtu.",
+    "Pridaj nasekanú mätu, koriander a cibuľu.",
+    "Osoľ podľa chuti.",
+    "Navrch posyp trochou mletej rasce.",
+    "Podľa chuti posyp chilli.",
+    "Nechaj vychladnúť a podávaj studenú."
+  ],
+  "tipy": "Vytlačenie uhorky je dôležité - bez toho sa raita do pol hodiny rozteče.",
+  "foto": "",
+  "tagy": [
+    "nátierka",
+    "dip",
+    "indická",
+    "jogurt",
+    "uhorka",
+    "rýchle",
+    "bez varenia"
+  ]
+}

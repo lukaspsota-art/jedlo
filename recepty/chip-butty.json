@@ -1,0 +1,53 @@
+{
+  "id": "chip-butty",
+  "nazov": "Chip butty",
+  "kategoria": "Snack",
+  "kuchyna": "Anglická",
+  "zdroj": "Wikibooks Cookbook – Chip Butty (CC BY-SA)",
+  "porcie": 2,
+  "cas": "10 min",
+  "kcal_na_porciu": 389,
+  "popis": "Anglický sendvič s hranolkami. Vyzerá ako vtip, ale v Anglicku sa je smrteľne vážne.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiakové hranolky",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": "hotové, dobre odkvapkané"
+    },
+    {
+      "nazov": "Toastový chlieb",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kečup",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Dbaj na to, aby hranolky neboli príliš mastné a boli dobre odkvapkané.",
+    "Vezmi dva plátky chleba, oba namaž z jednej strany maslom a potom rovnomerne rozotri kečup.",
+    "Hranolky poklaď ako parkety - jednu vedľa druhej tak, aby zostalo čo najmenej medzier. Môžeš navrstviť aj viac vrstiev.",
+    "Plátky spoj, sendvič polož na plochý podklad a niekoľkokrát doň silno udri otvorenou dlaňou, aby sa plnka stlačila. Jedz hneď."
+  ],
+  "tipy": "Namiesto kečupu poslúži aj hnedá omáčka. Pre variant z kebabu použi namiesto toastového chleba pita chlieb.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "obed",
+    "anglická",
+    "zemiaky",
+    "rýchle",
+    "lacné"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "salat-sirazi",
+  "nazov": "Šalát šírazí",
+  "kategoria": "Šalát",
+  "kuchyna": "Perzská",
+  "zdroj": "Wikibooks Cookbook – Salad Shirazi (CC BY-SA)",
+  "porcie": 4,
+  "cas": "15 min",
+  "kcal_na_porciu": 42,
+  "popis": "Perzský salát z nadrobno nasekanej uhorky, paradajky a cibule, marinovaný v citróne a posypaný sušenou mätou.",
+  "ingrediencie": [
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": "sok alebo ocot"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": "sušená"
+    }
+  ],
+  "postup": [
+    "Uhorky, paradajky a cibuľu nasekaj nadrobno.",
+    "Marinuj ich v citrónovom soku alebo octe.",
+    "Osoľ a opepri. Posyp sušenou mätou."
+  ],
+  "tipy": "Sušená mäta, nie čerstvá - v perzskej kuchyni má iná chuť a je to zámerné. Sekaj naozaj nadrobno, na kocky 5 mm.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "príloha",
+    "perzská",
+    "uhorka",
+    "paradajky",
+    "vegánske",
+    "rýchle",
+    "bez varenia"
+  ]
+}

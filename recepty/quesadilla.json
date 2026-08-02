@@ -1,0 +1,88 @@
+{
+  "id": "quesadilla",
+  "nazov": "Quesadilla",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Mexická",
+  "zdroj": "Wikibooks Cookbook – Quesadilla (CC BY-SA)",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 596,
+  "popis": "Dve tortilly so strúhaným syrom a plnkou, opečené na panvici. Základ, ktorý znesie takmer akúkoľvek náplň.",
+  "ingrediencie": [
+    {
+      "nazov": "Tortilla",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": "múčne, priemer 15 cm"
+    },
+    {
+      "nazov": "Čedar",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": "strúhaný, zmes s Monterey Jack"
+    },
+    {
+      "nazov": "Kuracie prsia",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": "uvarené, nasekané"
+    },
+    {
+      "nazov": "Špenát",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": "natrhaný"
+    },
+    {
+      "nazov": "Fazuľa",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": "čierne fazule z konzervy, prepláchnuté a odkvapkané"
+    },
+    {
+      "nazov": "Rastlinný olej",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Salsa",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Koriander",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "nasekané"
+    }
+  ],
+  "postup": [
+    "Obe tortilly zahrej v mikrovlnke, aby boli pružné, jednu drž v teple.",
+    "Panvicu rozohrej na miernom ohni, potri olejom a vlož jednu tortillu.",
+    "Na tortillu rozsyp strúhaný syr.",
+    "Na syr rozlož plnku - kurča, špenát, fazuľu - ideálne prehriatu a dobre odkvapkanú. Rozlož ju rovnomerne po celej tortille.",
+    "Nechaj syr rozpustiť. Tortilla môže miestami zhnednúť, ale nemá výrazne zmeniť farbu.",
+    "Druhú tortillu pritlač navrch tak, aby sa zľahka prilepila.",
+    "Quesadillu otoč a nechaj prehriať, kým nedrží ako jeden celok.",
+    "Vyber z panvice a rozkroj na osem trojuholníkov.",
+    "Jedz hneď, alebo odlož na teplé miesto pod teplotou tavenia syra. Podávaj so salsou, koriandrom a nasekanou paradajkou."
+  ],
+  "tipy": "Quesadilly zohrievané nabudúce nie sú dobré. V niektorých oblastiach Mexika je quesadilla len kukuričná tortilla so syrom, nesmažená. Tradičná plnka je grilované kurča, hovädzie alebo bravčové nasekané najemno s lyžičkou cibule, pol lyžičkou koriandra a trochou limetky.",
+  "foto": "",
+  "tagy": [
+    "obed",
+    "večera",
+    "mexická",
+    "syr",
+    "tortilla",
+    "rýchle"
+  ]
+}

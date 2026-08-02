@@ -1,0 +1,51 @@
+{
+  "id": "steakovy-sendvic-so-slaninou",
+  "nazov": "Steakový sendvič so slaninou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Americká",
+  "zdroj": "Wikibooks Cookbook – Steak Sandwiches (CC BY-SA)",
+  "porcie": 4,
+  "cas": "25 min",
+  "kcal_na_porciu": 939,
+  "popis": "Hovädzia sviečkovica, pikantný syr a chrumkavá slanina v dlhom pečive, prehriate v rúre.",
+  "ingrediencie": [
+    {
+      "nazov": "Hovädzie mäso",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": "sviečkovica, upečená a nakrájaná natenko"
+    },
+    {
+      "nazov": "Syr",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": "pepper jack, šesť plátkov"
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 180,
+      "jednotka": "g",
+      "poznamka": "upečená do chrumkava"
+    },
+    {
+      "nazov": "Bageta",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": "dlhé pečivo, rozkrojené"
+    }
+  ],
+  "postup": [
+    "Zo všetkých zložiek poskladaj sendvič.",
+    "Prehrievaj v rúre pri 95 °C, kým sa syr nerozpustí a pečivo nie je opečené."
+  ],
+  "tipy": "Nízka teplota je zámerná - syr sa má rozpustiť bez toho, aby sa mäso doprepieklo.",
+  "foto": "",
+  "tagy": [
+    "sendvič",
+    "obed",
+    "večera",
+    "americká",
+    "hovädzie",
+    "slanina"
+  ]
+}

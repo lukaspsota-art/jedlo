@@ -1,0 +1,77 @@
+{
+  "id": "snezanka",
+  "nazov": "Snežanka",
+  "kategoria": "Šalát",
+  "kuchyna": "Bulharská",
+  "zdroj": "Wikibooks Cookbook – Snezhanka (Bulgarian Cucumber and Yogurt Salad) (CC BY-SA)",
+  "porcie": 6,
+  "cas": "20 min",
+  "kcal_na_porciu": 211,
+  "popis": "Bulharský salát z odkvapkaného jogurtu s uhorkami, kôprom a cesnakom, posypaný mletými orechmi.",
+  "ingrediencie": [
+    {
+      "nazov": "Jogurt",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": "biely"
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": "alebo nakladané uhorky, alebo zmes"
+    },
+    {
+      "nazov": "Rastlinný olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": "alebo citrónový sok"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kôpor",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": "nasekaný"
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": "prelisovaný"
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": "mleté"
+    }
+  ],
+  "postup": [
+    "Jogurt nechaj odkvapkať v sitku a uhorky nakrájaj na drobné kocky.",
+    "Zmiešaj všetky zložky okrem orechov.",
+    "Salát navrchu posyp mletými orechmi."
+  ],
+  "tipy": "Ak používaš hustý grécky jogurt, vezmi približne pol litra a odkvapkávanie preskoč. Ak sú uhorky nakladané a slané, soľ nepridávaj.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "príloha",
+    "bulharská",
+    "jogurt",
+    "uhorka",
+    "vegetariánske",
+    "príprava vopred"
+  ]
+}

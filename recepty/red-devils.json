@@ -1,0 +1,66 @@
+{
+  "id": "red-devils",
+  "nazov": "Red devils",
+  "kategoria": "Snack",
+  "kuchyna": "Americká",
+  "zdroj": "Wikibooks Cookbook – Red Devils (CC BY-SA)",
+  "porcie": 4,
+  "cas": "15 min",
+  "kcal_na_porciu": 335,
+  "popis": "Otvorené sendviče so syrom, paradajkou, cibuľou a slaninou zapečené pod grilom. Jednoduché a rýchle.",
+  "ingrediencie": [
+    {
+      "nazov": "Toastový chlieb",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čedar",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": "plátky"
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "plátky"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "nasekaná"
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Slaninu rozlož na plech.",
+    "Gril nastav na nízku teplotu.",
+    "Slaninu predpeč pod grilom, kým nie je približne dopolovice hotová.",
+    "Kým sa slanina pečie, rozlož na plech biely chlieb, jeden plátok na osobu.",
+    "Na každý plátok chleba polož plátok syra.",
+    "Na každý sendvič polož plátky paradajky.",
+    "Na každý sendvič posyp trochu cibule.",
+    "Na každý sendvič polož pásik napolovicu upečenej slaniny.",
+    "Plech vlož pod gril nastavený na maximum a zapekaj približne 3-4 minúty. Často kontroluj, aby sa nespálilo.",
+    "Vyber, keď je chlieb opečený, syr na okrajoch zlatý a slanina úplne prepečená."
+  ],
+  "tipy": "Slanina je zvyčajne dlhšia než sendvič - rozrež ju na polovicu a na jeden sendvič dávaj obe polovice. Často sa to ľahšie je príborom než rukou.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "obed",
+    "americká",
+    "slanina",
+    "syr",
+    "zapekané",
+    "rýchle"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "sopsky-salat",
+  "nazov": "Šopský salát",
+  "kategoria": "Šalát",
+  "kuchyna": "Bulharská",
+  "zdroj": "Wikibooks Cookbook – Shopska Salata (Tomato, Cucumber, and Bell Pepper Salad) (CC BY-SA)",
+  "porcie": 4,
+  "cas": "15 min",
+  "kcal_na_porciu": 319,
+  "popis": "Bulharský salát z paradajok, uhoriek a papriky, posypaný nastrúhaným bielym syrom. Národné jedlo v podobe salátu.",
+  "ingrediencie": [
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená paprika",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": "pečené alebo svieže zelené"
+    },
+    {
+      "nazov": "Petržlen",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": "nasekaný"
+    },
+    {
+      "nazov": "Červená cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": "nasekaná, alebo jarná cibuľka"
+    },
+    {
+      "nazov": "Feta",
+      "mnozstvo": 225,
+      "jednotka": "g",
+      "poznamka": "biely syr, voliteľné"
+    },
+    {
+      "nazov": "Olivy",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": "voliteľné"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Paradajky, uhorky a papriku nakrájaj na malé kúsky, ak sa dá, na kocky.",
+    "Dobre premiešaj s petržlenom, cibuľou, soľou a olejom.",
+    "Podávaj s bielym syrom nastrúhaným navrchu."
+  ],
+  "tipy": "Syr sa strúha, nedrobí - vytvorí navrchu snehovú vrstvu, odkiaľ pochádza aj vzhľad tohto salátu.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "obed",
+    "bulharská",
+    "zelenina",
+    "feta",
+    "vegetariánske",
+    "bez varenia"
+  ]
+}

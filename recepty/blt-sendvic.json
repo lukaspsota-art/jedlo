@@ -1,0 +1,66 @@
+{
+  "id": "blt-sendvic",
+  "nazov": "BLT sendvič",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Americká",
+  "zdroj": "Wikibooks Cookbook – BLT Sandwich (CC BY-SA)",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 646,
+  "popis": "Slanina, šalát a paradajka - tri zložky, ktoré dali sendviču názov. Majonéza je tradičná, ale poslúži aj maslo alebo horčica.",
+  "ingrediencie": [
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": "plátky"
+    },
+    {
+      "nazov": "Šalátové listy",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "zrelá, tenké kolieska"
+    },
+    {
+      "nazov": "Toastový chlieb",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majonéza",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Chlieb opeč v toastovači.",
+    "Kým sa chlieb opeká, slaninu opeč na panvici alebo pod grilom do chrumkava a dávaj pozor, aby sa nespálila.",
+    "Opečený chlieb potri majonézou.",
+    "Na jeden plátok navrstvi šalát, kolieska paradajky a slaninu. Opepri podľa chuti a prikry druhým plátkom.",
+    "Rozkroj na trojuholníky alebo polovice a podávaj hneď."
+  ],
+  "tipy": "Ak šalát natrháš, môžeš ho pred vrstvením zmiešať s majonézou. Šalát sa dá vynechať alebo nahradiť inou zeleňou - výborná je žerucha. Pridať sa dajú aj plátky zrelého avokáda alebo surová či opečená červená cibuľa.",
+  "foto": "",
+  "tagy": [
+    "sendvič",
+    "obed",
+    "americká",
+    "slanina",
+    "klasika",
+    "rýchle"
+  ]
+}

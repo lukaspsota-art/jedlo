@@ -1,0 +1,57 @@
+{
+  "id": "chipotle-dip",
+  "nazov": "Chipotle dip",
+  "kategoria": "Nátierka",
+  "kuchyna": "Mexická",
+  "zdroj": "Wikibooks Cookbook – Chipotle Dip (CC BY-SA)",
+  "porcie": 6,
+  "cas": "10 min",
+  "kcal_na_porciu": 183,
+  "popis": "Kyslá smotana s majonézou a chipotle chilli v adobo. Tri minúty v mixéri a je hotový.",
+  "ingrediencie": [
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 240,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majonéza",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chipotle chilli v adobo",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": "bez stopiek"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": 0.25,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Všetko okrem lupienkov pulzuj v mixéri do hladka.",
+    "Podávaj s tortillovými lupienkami."
+  ],
+  "tipy": "Chipotle chilli v adobo je pomerne pálivé - začni s polovicou a dochuť.",
+  "foto": "",
+  "tagy": [
+    "nátierka",
+    "dip",
+    "mexická",
+    "pikantné",
+    "rýchle",
+    "bez varenia"
+  ]
+}

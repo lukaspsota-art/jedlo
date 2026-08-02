@@ -1,0 +1,76 @@
+{
+  "id": "po-boy",
+  "nazov": "Po' boy",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Americká",
+  "zdroj": "Wikibooks Cookbook – Po' Boy (CC BY-SA)",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 727,
+  "popis": "Sendvič z Louisiany vo francúzskom pečive. Plnka môže byť čokoľvek od tenko krájaného mäsa po smažené morské plody.",
+  "ingrediencie": [
+    {
+      "nazov": "Bageta",
+      "mnozstvo": 240,
+      "jednotka": "g",
+      "poznamka": "francúzske pečivo"
+    },
+    {
+      "nazov": "Šunka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": "tenké plátky, alebo morčacie či roastbeef"
+    },
+    {
+      "nazov": "Syr",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": "plátky"
+    },
+    {
+      "nazov": "Šalát",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": "natrhaný"
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "plátky"
+    },
+    {
+      "nazov": "Nakladané uhorky",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majonéza",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pečivo nakroj po jednej strane tak, aby sa otváralo ako kniha.",
+    "Otvor ho a pridaj syr, natrhaný šalát a mäso.",
+    "Dochuť majonézou, horčicou alebo výpekom podľa chuti.",
+    "Pečivo zavri ako knihu a stlač."
+  ],
+  "tipy": "Klasické verzie sú so smaženými krevetami, ustricami alebo rybou. Zdroj necháva plnku úplne otvorenú - toto je studená verzia so šunkou.",
+  "foto": "",
+  "tagy": [
+    "sendvič",
+    "obed",
+    "americká",
+    "šunka",
+    "rýchle"
+  ]
+}
