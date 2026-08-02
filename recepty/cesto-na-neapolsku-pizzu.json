@@ -10,12 +10,12 @@
   "popis": "Klasické neapolské pizza cesto z múky 00 s dlhou fermentáciou v chladničke.",
   "ingrediencie": [
     {
-      "nazov": "Múky typu 00",
+      "nazov": "múka typu 00",
       "mnozstvo": 1,
       "jednotka": "kg"
     },
     {
-      "nazov": "Studenej vody",
+      "nazov": "voda",
       "mnozstvo": 620,
       "jednotka": "ml"
     },
@@ -25,7 +25,7 @@
       "jednotka": "g"
     },
     {
-      "nazov": "Soli",
+      "nazov": "soľ",
       "mnozstvo": 28,
       "jednotka": "g"
     }
