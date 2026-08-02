@@ -9,21 +9,88 @@
   "kcal_na_porciu": 319,
   "popis": "Ázijsky ladený šalát z pečeného hovädzieho mäsa, čakanky a mrkvy s limetkovou zálievkou.",
   "ingrediencie": [
-    {"nazov": "Hovädzia roštenka", "mnozstvo": 400, "jednotka": "g"},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Čakanka", "mnozstvo": 2, "jednotka": "ks"},
-    {"nazov": "Mrkva", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Mungo klíčky naklíčené", "mnozstvo": 1, "jednotka": "hrsť"},
-    {"nazov": "Cukrový hrášok", "mnozstvo": 40, "jednotka": "g"},
-    {"nazov": "Koriander čerstvý", "mnozstvo": 1, "jednotka": "hrsť"},
-    {"nazov": "Sezamové semienka", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Limeta bio", "mnozstvo": 1, "jednotka": "ks", "poznamka": "na zálievku"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na zálievku"},
-    {"nazov": "Sójová omáčka kvalitná", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na zálievku"},
-    {"nazov": "Čili paprička", "mnozstvo": 1, "jednotka": "ks", "poznamka": "na zálievku"},
-    {"nazov": "Zázvor čerstvý", "mnozstvo": 2, "jednotka": "cm", "poznamka": "na zálievku"}
+    {
+      "nazov": "Hovädzia roštenka",
+      "mnozstvo": 400,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Čakanka",
+      "mnozstvo": 2,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Mungo klíčky naklíčené",
+      "mnozstvo": 1,
+      "jednotka": "hrsť"
+    },
+    {
+      "nazov": "Cukrový hrášok",
+      "mnozstvo": 40,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Koriander čerstvý",
+      "mnozstvo": 1,
+      "jednotka": "hrsť"
+    },
+    {
+      "nazov": "Sezamové semienka",
+      "mnozstvo": 50,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Limeta bio",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "na zálievku"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": "na zálievku"
+    },
+    {
+      "nazov": "Sójová omáčka kvalitná",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": "na zálievku"
+    },
+    {
+      "nazov": "Čili paprička",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "na zálievku"
+    },
+    {
+      "nazov": "Zázvor čerstvý",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": "na zálievku"
+    }
   ],
   "postup": [
     "Rúru predhrejte na 180 °C.",
@@ -37,5 +104,10 @@
   ],
   "tipy": "",
   "foto": "",
-  "tagy": ["šalát", "hovädzie mäso", "ázijská kuchyňa", "hlavné jedlo"]
+  "tagy": [
+    "šalát",
+    "hovädzie mäso",
+    "ázijská kuchyňa",
+    "hlavné jedlo"
+  ]
 }

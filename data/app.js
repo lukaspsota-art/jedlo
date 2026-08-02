@@ -344,7 +344,7 @@ function otvor(id, ctx){
       <div id="subst-box"></div>
       <h4 class="sekcia">Postup</h4><ol class="postup" id="postup-ol"></ol>
       ${r.tipy?`<div class="tipy">💡 <b>Tip:</b> ${r.tipy}</div>`:""}
-      ${r.zdroj?`<div class="zdroj">Zdroj: ${r.zdroj}</div>`:""}
+      ${r.zdroj?`<div class="zdroj">Zdroj: ${r.zdroj_url?`<a href="${escHtml(r.zdroj_url)}" target="_blank" rel="noopener noreferrer">${escHtml(r.zdroj)}</a>`:escHtml(r.zdroj)}</div>`:""}
       <div class="hodnotenie"><span>Hodnotenie:</span><div class="starpick">${stars}</div>
         <button class="mini" onclick="hodnot('${r.id}',0)">zrušiť</button></div>
       <textarea class="pozn" id="poznamka" placeholder="Moja poznámka k receptu…" oninput="ulozPozn('${r.id}')">${(S.pozn[r.id]||"").replace(/</g,'&lt;')}</textarea>
@@ -880,17 +880,20 @@ function tlacTyzden(){ prepni("planovac"); renderNakup(); document.querySelector
 function domaTokens(){ return (S.domaNakup||"").toLowerCase().split(/[\n,;]+/).map(x=>x.trim()).filter(Boolean); }
 function nakupPolozky(){
   const items=planItems(); const grp={}, notes={};
-  items.forEach(({r,di,slot})=>{ if(r._left)return; const nas=mnozMult(di,slot)/(r.porcie||1); // zvyšok = už kúpené/navarené
+  // rovnaké škálovanie ako v detaile receptu (skalovanaHodnota): % veľkosti porcie sa NEuplatní na kusy,
+  // inak nákup ukazuje menej kusov (1 baklažán), než recept pri varení pýta (2)
+  items.forEach(({r,di,slot})=>{ if(r._left)return; const fPocet=porcieSlot(di,slot)/(r.porcie||1), fVelkost=pf(di,slot); // zvyšok = už kúpené/navarené
     (r.ingrediencie||[]).forEach(i=>{ const p=najdiPotravinu(i.nazov);
       if(i.mnozstvo==null){ const kk=(p?p.kluc:i.nazov.toLowerCase()); if(!notes[kk])notes[kk]={nazov:i.nazov,pozn:i.poznamka||"podľa chuti",oddelenie:(p||{}).oddelenie||"Ostatné"}; return; }
       const j=(i.jednotka||"").toLowerCase();
       const rodina = j==="ml" ? "ml" : ((j==="g"||j==="gram") ? "g" : "ks");
+      const mn=skalovanaHodnota(i.mnozstvo,i.jednotka,fPocet,fVelkost);
       if(p){ const kluc=p.kluc; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:p.oddelenie||"Ostatné",p:p,matched:true,grams:0,cena:0,hasKs:false,hasMl:false,hasG:false};
-        const G=grp[kluc]; const g=gramy({mnozstvo:i.mnozstvo*nas,jednotka:i.jednotka},p);
+        const G=grp[kluc]; const g=gramy({mnozstvo:mn,jednotka:i.jednotka},p);
         G.grams+=g; G.cena+=g/100*(p.cena100||0);
         if(rodina==="ks")G.hasKs=true; else if(rodina==="ml")G.hasMl=true; else G.hasG=true;
       } else { const kluc="u|"+i.nazov.toLowerCase()+"|"+j; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:"Ostatné",matched:false,raw:0,jednotka:i.jednotka||"",cena:0};
-        grp[kluc].raw+=i.mnozstvo*nas; }
+        grp[kluc].raw+=mn; }
     });
   });
   return {grp,notes};

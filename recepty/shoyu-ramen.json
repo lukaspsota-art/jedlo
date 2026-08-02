@@ -11,8 +11,8 @@
   "ingrediencie": [
     {
       "nazov": "ramen rezance",
-      "mnozstvo": 2,
-      "jednotka": "porcie"
+      "mnozstvo": 200,
+      "jednotka": "g"
     },
     {
       "nazov": "Kuracieho vývaru",
@@ -42,12 +42,12 @@
     {
       "nazov": "Cesnaku",
       "mnozstvo": 2,
-      "jednotka": "strúčiky"
+      "jednotka": "strúčik"
     },
     {
       "nazov": "Vajcia",
       "mnozstvo": 2,
-      "jednotka": ""
+      "jednotka": "ks"
     },
     {
       "nazov": "Jarná cibuľka",

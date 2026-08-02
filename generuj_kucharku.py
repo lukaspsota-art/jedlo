@@ -28,8 +28,38 @@ def nacitaj_json_zoznam(vzor):
             print("Chyba pri čítaní", cesta, ":", e)
     return out
 
+# jednotky, ktoré vie gramy() v app.js previesť na gramy — musí sedieť s ML_JED / KS_DEF / gramy()
+ZNAME_JEDNOTKY = {
+    "g", "gram", "gramov", "kg", "ml", "ks", "kus", "rožok", "rozok", "žemľa", "zemla",
+    "pl", "lyžica", "lyzica", "polievková lyžica", "čl", "cl", "lyžička", "lyzicka",
+    "šálka", "salka", "hrnček", "hrncek", "pohár", "pohar", "dcl", "dl", "l", "liter",
+    "strúčik", "strucik", "plátok", "platok", "list", "lístok", "listok", "hlávka", "hlavka",
+    "hrsť", "hrst", "štipka", "stipka", "zväzok", "zvazok", "vetvička", "vetvicka",
+    "stredná", "stredny", "stredné",
+}
+
+def skontroluj_recepty(recepty):
+    """Množstvo bez jednotky app.js ticho ráta ako kusy, neznámu jednotku ako 0 g — oboje pokazí
+    nákupný zoznam aj kalórie. Radšej padnúť pri builde než variť podľa zlého zoznamu."""
+    chyby = []
+    for r in recepty:
+        for i in r.get("ingrediencie", []):
+            if i.get("mnozstvo") is None:
+                continue
+            j = (i.get("jednotka") or "").strip()
+            if not j:
+                chyby.append(f"{r.get('id')}: „{i.get('nazov')}\" má množstvo {i['mnozstvo']} bez jednotky")
+            elif j.lower() not in ZNAME_JEDNOTKY:
+                chyby.append(f"{r.get('id')}: „{i.get('nazov')}\" má neznámu jednotku „{j}\" (neprepočíta sa na gramy)")
+    if chyby:
+        print("CHYBY V DÁTACH RECEPTOV:")
+        for c in chyby:
+            print(" -", c)
+        raise SystemExit(f"Build zastavený: {len(chyby)} chybných ingrediencií.")
+
 def main():
     recepty = nacitaj_json_zoznam(os.path.join(RECEPTY_DIR, "*.json"))
+    skontroluj_recepty(recepty)
     jedalnicky = nacitaj_json_zoznam(os.path.join(JEDALNICKY_DIR, "*.json"))
     with open(POTRAVINY, encoding="utf-8") as f:
         potraviny = json.load(f)

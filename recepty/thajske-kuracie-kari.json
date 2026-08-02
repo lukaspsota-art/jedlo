@@ -9,18 +9,78 @@
   "kcal_na_porciu": 400,
   "popis": "Kokosové kuracie kari s citrónovou trávou a zázvorom, podávané so soba rezancami.",
   "ingrediencie": [
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Kuracie prsia", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Citrónová tráva (biela časť)", "mnozstvo": 2, "jednotka": "stonka", "poznamka": ""},
-    {"nazov": "Kokosový alebo trstinový cukor", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Zelená kari pasta", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Kokosové mlieko z konzervy", "mnozstvo": 600, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vývar", "mnozstvo": 200, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Limetková šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z 1 limety"},
-    {"nazov": "Hráškové struky", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Zázvor čerstvý strúhaný", "mnozstvo": 1, "jednotka": "cm", "poznamka": ""},
-    {"nazov": "Soba rezance", "mnozstvo": 300, "jednotka": "g", "poznamka": ""}
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šalotka",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kuracie prsia",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová tráva (biela časť)",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokosový alebo trstinový cukor",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zelená kari pasta",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokosové mlieko z konzervy",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "z 1 limety"
+    },
+    {
+      "nazov": "Hráškové struky",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zázvor čerstvý strúhaný",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soba rezance",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    }
   ],
   "postup": [
     "Rezance pripravíme podľa návodu na obale.",
@@ -33,5 +93,10 @@
   ],
   "tipy": "Kari môžete podávať aj s ryžou.",
   "foto": "",
-  "tagy": ["kari", "kura", "ázijská kuchyňa", "kokosové mlieko"]
+  "tagy": [
+    "kari",
+    "kura",
+    "ázijská kuchyňa",
+    "kokosové mlieko"
+  ]
 }

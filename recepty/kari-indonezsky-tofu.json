@@ -11,8 +11,8 @@
   "ingrediencie": [
     {
       "nazov": "Kokosového mlieka",
-      "mnozstvo": 1,
-      "jednotka": "plechovka"
+      "mnozstvo": 400,
+      "jednotka": "ml"
     },
     {
       "nazov": "Kokosového oleja",
@@ -31,8 +31,8 @@
     },
     {
       "nazov": "Citrónovej trávy",
-      "mnozstvo": 2,
-      "jednotka": "stonky"
+      "mnozstvo": 30,
+      "jednotka": "g"
     },
     {
       "nazov": "hráškové struky",
@@ -62,7 +62,7 @@
     {
       "nazov": "Limetka",
       "mnozstvo": 1,
-      "jednotka": "",
+      "jednotka": "ks",
       "poznamka": "šťava"
     },
     {
@@ -73,12 +73,12 @@
     {
       "nazov": "mrkva",
       "mnozstvo": 3,
-      "jednotka": ""
+      "jednotka": "ks"
     },
     {
       "nazov": "Brokolice",
       "mnozstvo": 0.5,
-      "jednotka": ""
+      "jednotka": "hlávka"
     },
     {
       "nazov": "voda",

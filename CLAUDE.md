@@ -27,6 +27,8 @@ Vloží `app.js` na `__APP_JS__`, dáta ako JSON na placeholdery, a zapíše `ku
 
 ## Ako overiť
 - Syntax JS: `node --check data/app.js`
+- Prepočty množstiev: `node test_prepocty.js` (kusy sa škálujú len počtom porcií, nie % veľkosti porcie)
+- Build sám kontroluje dáta: množstvo bez jednotky / neznáma jednotka = build padne (`skontroluj_recepty`)
 - Otvor `kucharka.html` v prehliadači. Pre PWA/service worker/synchronizáciu spusti lokálny server:
   `python3 -m http.server 8000` a otvor `http://localhost:8000/kucharka.html`.
 
