@@ -501,8 +501,12 @@ function nastavTyzdenLudia(v){ const tp=tyzdenProfilEd(); const n=parseInt(v); t
 function toggleTyzdenPrec(di){ const tp=tyzdenProfilEd(); const i=(tp.prec||[]).indexOf(di); if(i>=0)tp.prec.splice(i,1); else (tp.prec=tp.prec||[]).push(di); save(); renderGenWizard(); }
 function slotyDna(di){ const tp=tyzdenProfil(); if(tp&&(tp.prec||[]).includes(di))return [];
   const v=S.daySloty&&S.daySloty[di]; if(Array.isArray(v)) return VSETKY_SLOTY.filter(s=>v.includes(s)); return SLOTY(); }
-function pocetPorciiDna(di){ const n=S.dayPpl&&S.dayPpl[di]; if(n>0)return n; const tp=tyzdenProfil(); if(tp&&tp.ludia>0)return tp.ludia; return pocetPorcii(di); }
-function porcieSlot(di,slot){ const o=S.slotPpl&&S.slotPpl[di]&&S.slotPpl[di][slot]; return (o>0)?o:pocetPorciiDna(di); }
+function pocetPorciiDna(di,slot){ const n=S.dayPpl&&S.dayPpl[di]; if(n>0)return n; const tp=tyzdenProfil(); if(tp&&tp.ludia>0)return tp.ludia;
+  // Keď % veľkosti porcie už nesie kcal-korekciu (rescaleDen), počet porcií je čistý počet stravníkov.
+  // Inak by sa ciel/baseDayKcal aplikovalo 2× (raz v pocetPorcii, raz v pf) a množstvá by vyšli menšie na druhú.
+  if(slot!==undefined && pf(di,slot)!==1) return stravniciList().length;
+  return pocetPorcii(di); }
+function porcieSlot(di,slot){ const o=S.slotPpl&&S.slotPpl[di]&&S.slotPpl[di][slot]; return (o>0)?o:pocetPorciiDna(di,slot); }
 // ponytail: hrubá heuristika mäsa (bez NLP) — na "nie 2× rovnaké mäso za sebou"; morčacie spadá pod hydinu
 function masoTyp(r){ const s=bezDia((r.ingrediencie||[]).map(i=>i.nazov).join(" ")+" "+(r.nazov||""));
   if(/kur|slepac|sliepk|morcac|moriak|hydin/.test(s))return "hydina";
