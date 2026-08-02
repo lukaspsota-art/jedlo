@@ -897,12 +897,13 @@ function nakupPolozky(){
       const j=(i.jednotka||"").toLowerCase();
       const rodina = j==="ml" ? "ml" : ((j==="g"||j==="gram") ? "g" : "ks");
       const mn=skalovanaHodnota(i.mnozstvo,i.jednotka,fPocet,fVelkost);
-      if(p){ const kluc=p.kluc; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:p.oddelenie||"Ostatné",p:p,matched:true,grams:0,cena:0,hasKs:false,hasMl:false,hasG:false};
+      if(p){ const kluc=p.kluc; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:p.oddelenie||"Ostatné",p:p,matched:true,grams:0,cena:0,hasKs:false,hasMl:false,hasG:false,zdroje:[]};
         const G=grp[kluc]; const g=gramy({mnozstvo:mn,jednotka:i.jednotka},p);
         G.grams+=g; G.cena+=g/100*(p.cena100||0);
+        G.zdroje.push({recept:r.nazov,id:r.id,ing:i.nazov,mn,jednotka:i.jednotka||""});
         if(rodina==="ks")G.hasKs=true; else if(rodina==="ml")G.hasMl=true; else G.hasG=true;
-      } else { const kluc="u|"+i.nazov.toLowerCase()+"|"+j; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:"Ostatné",matched:false,raw:0,jednotka:i.jednotka||"",cena:0};
-        grp[kluc].raw+=mn; }
+      } else { const kluc="u|"+i.nazov.toLowerCase()+"|"+j; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:"Ostatné",matched:false,raw:0,jednotka:i.jednotka||"",cena:0,zdroje:[]};
+        grp[kluc].raw+=mn; grp[kluc].zdroje.push({recept:r.nazov,id:r.id,ing:i.nazov,mn,jednotka:i.jednotka||""}); }
     });
   });
   return {grp,notes};
@@ -910,7 +911,8 @@ function nakupPolozky(){
 function zobrazMnozstvo(G){
   if(!G.matched){ const jj=(G.jednotka||"").toLowerCase(); const cnt=["ks","kus","plátok","platok","rožok","rozok","žemľa","zemla"].includes(jj); const val=cnt?Math.max(1,Math.round(G.raw)):Math.round(G.raw*10)/10; return fmt(val)+(G.jednotka?" "+G.jednotka:""); }
   const p=G.p;
-  if(G.hasKs && p.g_za_ks){ return Math.max(1,Math.round(G.grams/p.g_za_ks))+" ks"; }
+  // kusy len keď sú NA KUSY všetky zdroje — inak riadok hlási „12 ks" pri receptoch, čo pýtajú 200 g + 990 g
+  if(G.hasKs && !G.hasG && !G.hasMl && p.g_za_ks){ return Math.max(1,Math.round(G.grams/p.g_za_ks))+" ks"; }
   if(G.hasMl && !G.hasG){ return fmt(Math.round(G.grams/(p.hustota||1)))+" ml"; }
   return fmt(Math.round(G.grams))+" g";
 }
@@ -928,7 +930,7 @@ function nakupCheckKey(key){ return S.viewOd+"|"+key; }
 function nakupItems(){
   const {grp,notes}=nakupPolozky(); const tok=domaTokens(); const rows=[];
   Object.values(grp).forEach(G=>{ const key=G.key.replace(/'/g,""); const doma=jeDoma(G.nazov,tok);
-    rows.push({key,odd:G.oddelenie||"Ostatné",nazov:G.nazov,mnoz:nakupMnozstvo(G),cena:nakupCena(G),akc:ingVakcii(G.nazov),doma,vSpajzi:mamVSpajzi(G.nazov),klik:true,ck:!!(S.nakupCheck[nakupCheckKey(key)]||doma)}); });
+    rows.push({key,gkey:G.key,odd:G.oddelenie||"Ostatné",nazov:G.nazov,mnoz:nakupMnozstvo(G),cena:nakupCena(G),akc:ingVakcii(G.nazov),doma,vSpajzi:mamVSpajzi(G.nazov),klik:true,ck:!!(S.nakupCheck[nakupCheckKey(key)]||doma)}); });
   Object.values(notes).forEach(N=>{ const key="note|"+bezDia(N.nazov); const doma=jeDoma(N.nazov,tok);
     rows.push({key,odd:N.oddelenie||"Ostatné",nazov:N.nazov,mnoz:"<i>"+N.pozn+"</i>",akc:false,doma,klik:true,ck:!!(S.nakupCheck[nakupCheckKey(key)]||doma)}); });
   return rows;
@@ -936,7 +938,7 @@ function nakupItems(){
 function riadokNakup(r){ const en=r.nazov.replace(/'/g,"\\'");
   if(r.man){ return `<label class="${r.ck?'checked':''}"><span class="nm2"><input type="checkbox" ${r.ck?'checked':''} onchange="checkManual('${r.id}',this.checked)"> ${r.nazov}${r.mnoz?' — <b>'+r.mnoz+'</b>':''} <span class="info">(ručné)</span></span><a onclick="zmazManual('${r.id}')" style="color:var(--warn);cursor:pointer">✕</a></label>`; } // N1: ručná položka v oddelení
   // klik na text = otvor info (v ktorom recepte); kúpené len klikom na políčko
-  const guard=r.klik?` onclick="if(!event.target.closest('input')){event.preventDefault();surovinaInfo('${en}')}" style="cursor:pointer" title="v ktorom recepte · čím nahradiť"`:'';
+  const guard=r.klik?` onclick="if(!event.target.closest('input')){event.preventDefault();surovinaInfo('${(r.gkey||"").replace(/'/g,"\\'")}','${en}')}" style="cursor:pointer" title="v ktorom recepte · čím nahradiť"`:'';
   const meno=r.klik?`<span class="sur-klik">${r.nazov}</span>`:r.nazov;
   return `<label class="${r.ck?'checked':''}"><span class="nm2"${guard}><input type="checkbox" ${r.ck?'checked':''} ${r.doma?'disabled':''} onchange="checkNakup('${r.key}',this.checked)"> ${meno} — <b>${r.mnoz}</b>${r.akc?' <span class="badge price">🏷️ akcia</span>':''}${r.doma?' <span class="info">(máš doma)</span>':''}</span></label>`; }
 function renderNakup(){
@@ -971,15 +973,21 @@ function pridajNakupPolozku(){ const el=document.getElementById("nakup-manual");
   S.nakupManual.push({id:"m"+(S.spSid++),nazov:escHtml(nazov),mnoz:escHtml(mnoz),odd:p?p.oddelenie:"Ostatné",done:false}); el.value=""; save(); renderNakup(); }
 function checkManual(id,val){ tik(); const m=S.nakupManual.find(x=>x.id===id); if(m){m.done=val;save();renderNakup();} }
 function zmazManual(id){ S.nakupManual=S.nakupManual.filter(x=>x.id!==id); save(); renderNakup(); }
-function surovinaInfo(nazov){ const n=bezDia(nazov);
-  const videne=new Set();
-  const recepty=planovaneRecepty().filter(r=>(r.ingrediencie||[]).some(i=>{const nn=bezDia(i.nazov);return nn.includes(n)||n.includes(nn.split(" ")[0]);}))
-    .filter(r=>{ if(videne.has(r.id))return false; videne.add(r.id); return true; });
+// Rozpis musí byť z TOHO ISTÉHO výpočtu ako nákup (nakupPolozky.zdroje), nie z hrubého i.mnozstvo —
+// inak tu svieti množstvo na 1 porciu receptu a v nákupe prepočítané na plán, a nesedí to.
+function surovinaInfo(key,nazov){ const n=bezDia(nazov||key);
+  const G=nakupPolozky().grp[key];
+  const zdroje=(G&&G.zdroje)||[];
   let nah=[]; for(const k in SUBSTITUCIE){ if(n.includes(bezDia(k))){ nah=SUBSTITUCIE[k]; break; } }
-  let h=`<div class="hero"><button class="close" onclick="zavriPick()">✕</button><h2>${nazov}</h2></div><div class="content2">`;
-  h+='<h4 class="sekcia">🍲 V ktorom recepte (z plánu)</h4>';
-  const mnozVRecepte=r=>{ const i=(r.ingrediencie||[]).find(x=>{const nn=bezDia(x.nazov);return nn.includes(n)||n.includes(nn.split(" ")[0]);}); if(!i)return ""; return i.mnozstvo!=null?(fmt(i.mnozstvo)+" "+(i.jednotka||"")).trim():(i.poznamka||"podľa chuti"); };
-  h+= recepty.length? recepty.map(r=>`<div class="plan-cell" style="border-bottom:1px solid var(--line);border-radius:0" onclick="zavriPick();otvor('${r.id}')"><span class="nm">${ikony[r.kategoria]||"🍴"} ${r.nazov}</span><span class="kc">${mnozVRecepte(r)}</span></div>`).join("") : '<p class="info">V aktuálnom pláne túto surovinu nepoužíva žiadny recept.</p>';
+  let h=`<div class="hero"><button class="close" onclick="zavriPick()">✕</button><h2>${nazov||key}</h2></div><div class="content2">`;
+  h+=`<h4 class="sekcia">🍲 V ktorom recepte (z plánu)</h4>`;
+  if(G) h+=`<p class="info" style="margin-top:0">Spolu na nákup: <b>${zobrazMnozstvo(G)}</b></p>`;
+  if(!zdroje.length){ // „podľa chuti" položky nemajú množstvo — aspoň ukáž, ktoré recepty ju používajú
+    planovaneRecepty().forEach(r=>{ if((r.ingrediencie||[]).some(i=>{const nn=bezDia(i.nazov);return nn.includes(n)||n.includes(nn.split(" ")[0]);})
+      && !zdroje.some(z=>z.id===r.id)) zdroje.push({recept:r.nazov,id:r.id,ing:"",mn:null}); }); }
+  h+= zdroje.length? zdroje.map(z=>{ const r=receptById(z.id);
+      return `<div class="plan-cell" style="border-bottom:1px solid var(--line);border-radius:0" onclick="zavriPick();otvor('${z.id}')"><span class="nm">${(r&&ikony[r.kategoria])||"🍴"} ${z.recept}${z.ing&&z.ing!==(G&&G.nazov)?` <small class="meta2">(${z.ing})</small>`:""}</span><span class="kc">${z.mn==null?"podľa chuti":prevodJednotka(z.mn,z.jednotka)}</span></div>`; }).join("")
+    : '<p class="info">V aktuálnom pláne túto surovinu nepoužíva žiadny recept.</p>';
   h+='<h4 class="sekcia">🔄 Čím nahradiť</h4>';
   h+= nah.length? `<p>${nah.join(", ")}</p>` : '<p class="info">Pre túto surovinu nemám návrh náhrady.</p>';
   h+="</div>"; document.getElementById("pick-modal").innerHTML=h; document.getElementById("pick-overlay").classList.add("open"); }
