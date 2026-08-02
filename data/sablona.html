@@ -17,7 +17,7 @@
     --bg:#f7f5f0; --panel:#fff; --ink:#2b2b2b; --muted:#7a7568;
     --accent:#2e7d54; --accent-dark:#1f5c3c; --line:#e6e2d8; --chip:#efece4;
     --warn:#c0392b; --gold:#e0a800; --shadow:0 2px 10px rgba(0,0,0,.06);
-    --sidebar:210px;
+    --sidebar:210px; --card:#fff; --accent-txt:#1f5c3c;
   }
   *{box-sizing:border-box}
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
@@ -47,10 +47,10 @@
   .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:22px}
   .tile{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px}
   .tile .lbl{font-size:12.5px;color:var(--muted)}
-  .tile .val{font-size:26px;font-weight:600;color:var(--accent-dark);margin-top:2px}
+  .tile .val{font-size:26px;font-weight:600;color:var(--accent-txt);margin-top:2px}
   .tile .val small{font-size:14px;font-weight:400;color:var(--muted)}
   .panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:20px;box-shadow:var(--shadow)}
-  .panel h3{margin:0 0 12px;font-size:16px;color:var(--accent-dark)}
+  .panel h3{margin:0 0 12px;font-size:16px;color:var(--accent-txt)}
   .qa{display:flex;gap:10px;flex-wrap:wrap}
   .qa button{flex:1;min-width:140px}
   .dnes{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
@@ -58,10 +58,10 @@
   .dnes .thumb img{width:100%;height:100%;object-fit:cover}
   .dnes .nm{font-weight:600;font-size:17px}
   .dnes-row{display:flex;justify-content:space-between;gap:12px;padding:7px 2px;border-bottom:1px solid var(--line);font-size:15px}
-  .dnes-slot{color:var(--accent-dark);font-weight:600;min-width:90px}
+  .dnes-slot{color:var(--accent-txt);font-weight:600;min-width:90px}
   .dnes-varenie{margin-top:10px;font-size:14px}
   .dnes-varenie-hero{margin-bottom:14px;padding:12px 14px;border-radius:12px;background:#eef5f0;border-left:4px solid var(--accent)}
-  .dnes-varenie-hero b{display:block;margin-bottom:6px;color:var(--accent-dark)}
+  .dnes-varenie-hero b{display:block;margin-bottom:6px;color:var(--accent-txt)}
   .dnes-varenie-hero .dnes-row{border-bottom:1px solid #dfe9e2;font-size:14px;padding:5px 2px}
   .dnes-varenie-hero .dnes-row:last-of-type{border-bottom:none}
   .dnes-makra{margin-top:10px;padding-top:8px;color:var(--muted);font-size:14px}
@@ -73,7 +73,7 @@
   #hladaj:focus,select.f:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(46,125,84,.15)}
   select.f{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:14px;cursor:pointer;transition:border-color .12s,box-shadow .12s}
   select.f:hover{border-color:var(--accent)}
-  .krok-mn{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:8px;background:var(--chip);color:var(--accent-dark);font-size:13px;font-weight:600;white-space:normal}
+  .krok-mn{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:8px;background:var(--chip);color:var(--accent-txt);font-size:13px;font-weight:600;white-space:normal}
   .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
   .pick-dropdown{display:none;position:absolute;left:0;right:0;top:100%;margin-top:4px;background:#fff;border:1px solid var(--line);border-radius:8px;max-height:260px;overflow:auto;z-index:20;box-shadow:0 6px 18px rgba(0,0,0,.15)}
   body.dark .pick-dropdown{background:var(--panel)}
@@ -128,15 +128,15 @@
   .mini.on{background:var(--accent);color:#fff;border-color:var(--accent)}
   .nutri{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0 4px}
   .nutri div{background:#f3f8f4;border:1px solid #d9e6dd;border-radius:10px;padding:10px;text-align:center}
-  .nutri b{display:block;font-size:18px;color:var(--accent-dark)}
+  .nutri b{display:block;font-size:18px;color:var(--accent-txt)}
   .nutri small{color:var(--muted);font-size:11px}
-  h4.sekcia{margin:20px 0 10px;color:var(--accent-dark);font-size:16px;border-bottom:2px solid var(--line);padding-bottom:6px}
+  h4.sekcia{margin:20px 0 10px;color:var(--accent-txt);font-size:16px;border-bottom:2px solid var(--line);padding-bottom:6px}
   table.ing{width:100%;border-collapse:collapse}
   table.ing td{padding:8px 6px;border-bottom:1px solid var(--line);font-size:15px}
-  table.ing td.mn{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--accent-dark);font-weight:600}
+  table.ing td.mn{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--accent-txt);font-weight:600}
   table.ing td .pozn{color:var(--muted);font-size:13px;font-style:italic}
   .subst{font-size:13px;color:var(--muted);background:#faf8f2;border:1px dashed var(--line);border-radius:10px;padding:10px 12px;margin-top:10px}
-  .subst b{color:var(--accent-dark)}
+  .subst b{color:var(--accent-txt)}
   ol.postup{padding-left:22px;margin:0}
   ol.postup li{margin-bottom:11px;font-size:15px}
   .tipy{background:#f3f8f4;border-left:3px solid var(--accent);padding:12px 16px;border-radius:8px;margin-top:16px;font-size:14px}
@@ -157,6 +157,16 @@
   table.plan td.slotname{background:var(--chip);font-weight:600;font-size:13px;width:88px}
   .plan-cell{cursor:pointer;font-size:13px;border-radius:8px;padding:6px;min-height:52px;display:flex;flex-direction:column;gap:3px;justify-content:center}
   .plan-cell:hover{background:#f3f8f4}
+  body.dark .plan-cell:hover{background:rgba(255,255,255,.06)}
+  body.dark .dnes-varenie-hero{background:#1e2c24;border-left-color:var(--accent)}
+  body.dark .dnes-varenie-hero .dnes-row{border-bottom-color:#2c3a32}
+  /* podfarbenie blokov — trieda, nie inline style: inline by prebilo dark režim a text by ostal nečitateľný */
+  table.plan td.bloka{background:#e8f1eb}
+  table.plan td.blokb{background:#f4f8f5}
+  table.plan td.rohova{background:#fff;border:none}
+  body.dark table.plan td.bloka{background:#1e2c24}
+  body.dark table.plan td.blokb{background:#252f28}
+  body.dark table.plan td.rohova{background:transparent}
   .plan-cell .nm{font-weight:600;line-height:1.2}
   .plan-cell .kc{color:var(--muted);font-size:11.5px}
   .plan-cell .rm{align-self:flex-end;color:var(--warn);font-size:11px;cursor:pointer}
@@ -167,7 +177,7 @@
   .ctrl-row .ppl{display:flex;gap:4px;align-items:center;justify-content:center;margin-bottom:4px}
   .ctrl-row .ppl button{width:22px;height:22px;border:1px solid var(--line);background:var(--card);border-radius:6px;cursor:pointer;font-size:14px;line-height:1;color:inherit}
   .ctrl-row .pplnum{font-size:12px;min-width:36px}
-  .ctrl-row .pplnum.cust{font-weight:700;color:var(--accent-dark)}
+  .ctrl-row .pplnum.cust{font-weight:700;color:var(--accent-txt)}
   .ctrl-row .mchips{display:flex;gap:3px;justify-content:center;flex-wrap:wrap}
   .mchip{width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;border-radius:6px;cursor:pointer;font-size:13px;background:var(--line);opacity:.35;filter:grayscale(1);user-select:none}
   .mchip.on{opacity:1;filter:none;background:#e8f1eb}
@@ -176,7 +186,7 @@
   tr.suma td.over{color:var(--warn)}
   /* nákup / doma / výživa */
   .odd{margin-bottom:18px}
-  .odd h4{margin:0 0 8px;color:var(--accent-dark);font-size:15px;border-bottom:2px solid var(--line);padding-bottom:5px}
+  .odd h4{margin:0 0 8px;color:var(--accent-txt);font-size:15px;border-bottom:2px solid var(--line);padding-bottom:5px}
   .odd label{display:flex;gap:10px;padding:6px 4px;font-size:15px;cursor:pointer;align-items:center;justify-content:space-between}
   .odd label .nm2{display:flex;gap:10px;align-items:center}
   .odd label.checked .nm2{text-decoration:line-through;color:var(--muted)}
@@ -194,7 +204,7 @@
   .chart .bar2{width:70%;background:var(--accent);border-radius:6px 6px 0 0;min-height:2px;position:relative}
   .chart .bar2.over{background:var(--warn)}
   .chart .d{font-size:12px;color:var(--muted)}
-  .chart .v{font-size:11px;color:var(--accent-dark);font-weight:600}
+  .chart .v{font-size:11px;color:var(--accent-txt);font-weight:600}
   .chart{position:relative}
   .chart .bar2{display:flex;flex-direction:column-reverse;overflow:hidden;background:transparent}
   .chart .seg{width:100%;flex-shrink:0}
@@ -211,7 +221,7 @@
   .hist-item{display:inline-flex;align-items:center;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 11px;font-size:13.5px}
   .hist-item .hist-date{color:var(--muted);font-size:12px}
   .nakup-suhrn{display:flex;flex-wrap:wrap;gap:16px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:14px;font-size:14px}
-  .nakup-suhrn b{color:var(--accent-dark);font-size:16px}
+  .nakup-suhrn b{color:var(--accent-txt);font-size:16px}
   .detail-meta{margin:2px 0 10px}
   .suma .ciel-mini{color:var(--muted);font-weight:400;font-size:11px;margin-left:1px}
   .suma .kc-bar{height:4px;background:var(--line);border-radius:3px;overflow:hidden;margin:3px auto 0;max-width:64px}
@@ -238,6 +248,20 @@
   .cook .timer.run{background:#c0392b}
   /* mobil */
   .botnav{display:none}
+  .plan-den-nav{display:none;margin-bottom:10px}
+  @media(max-width:820px){
+    /* 7 stĺpcov sa na telefón nezmestí — ukáž jeden zvolený deň (triedu d0–d6 nastavuje renderPlan) */
+    .plan-den-nav{display:flex}
+    table.plan{min-width:0}
+    table.plan.d0 [data-d]:not([data-d~="0"]),table.plan.d1 [data-d]:not([data-d~="1"]),
+    table.plan.d2 [data-d]:not([data-d~="2"]),table.plan.d3 [data-d]:not([data-d~="3"]),
+    table.plan.d4 [data-d]:not([data-d~="4"]),table.plan.d5 [data-d]:not([data-d~="5"]),
+    table.plan.d6 [data-d]:not([data-d~="6"]){display:none}
+    /* dotykové ciele: 22 px je pod hranicou trafiteľnosti prstom */
+    .ctrl-row .ppl button{width:34px;height:34px;font-size:18px}
+    .mchip{width:34px;height:34px;font-size:17px}
+    .plan-cell .rm{padding:4px 0}
+  }
   @media(max-width:820px){
     .app{flex-direction:column}
     .side{position:static;width:auto;height:auto;flex-direction:row;align-items:center;padding:0}
@@ -290,7 +314,7 @@
   body.dark .kal .day{background:var(--panel)}
   .sp-row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 4px;border-bottom:1px solid var(--line);font-size:15px}
   .sp-row .meta2{font-size:12.5px;color:var(--muted)}
-  body.dark{--bg:#181713;--panel:#232219;--ink:#ece7db;--muted:#a49d8b;--line:#39362c;--chip:#2b2a22;--accent:#4b9e73;--accent-dark:#12331f}
+  body.dark{--bg:#181713;--panel:#232219;--ink:#ece7db;--muted:#a49d8b;--line:#39362c;--chip:#2b2a22;--accent:#4b9e73;--accent-dark:#12331f;--card:#232219;--accent-txt:#6fbf95}
   body.dark .card,body.dark .tile,body.dark .panel,body.dark .modal .content2,body.dark input,body.dark select,body.dark textarea{background:var(--panel);color:var(--ink)}
   body.dark .btn,body.dark .mini,body.dark .stepper button,body.dark .stepper,body.dark #hladaj{background:var(--panel);color:var(--ink);border-color:var(--line)}
   body.dark table.plan td{background:var(--panel);color:var(--ink)}
@@ -375,6 +399,7 @@
       </div>
       <label class="switch" style="margin:0 0 8px"><input type="checkbox" id="p-blok" onchange="prepniBlok(this.checked)"> Blokový režim (navaríš raz, je sa viac dní)</label>
       <div id="blok-editor" style="display:flex;gap:2px;flex-wrap:wrap;align-items:center;margin-bottom:12px"></div>
+      <div id="plan-den-nav" class="chips plan-den-nav"></div>
       <div class="plan-grid"><table class="plan" id="plan-table"></table></div>
       </div>
       <div id="plan-kal" style="display:none">
@@ -386,6 +411,7 @@
     <div class="view" id="v-nakup">
       <h2 class="h">Nákupný zoznam</h2>
       <p class="sub">Z receptov v pláne, zoradené podľa oddelení v obchode.</p>
+      <div id="nakup-kontext"></div>
       <div class="plan-head">
         <input class="f" id="nakup-manual" style="flex:1;min-width:200px" placeholder="Pridať vlastnú položku (napr. toaletný papier)…" onkeydown="if(event.key==='Enter')pridajNakupPolozku()">
         <button class="btn" onclick="pridajNakupPolozku()">+ Pridať</button>
