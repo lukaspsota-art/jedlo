@@ -33,8 +33,12 @@ const porcie = Math.round(blokLen * box.porcieSlot(di, slot));
 
 assert.strictEqual(blokLen, 3, "blok B má mať 3 dni");
 assert.strictEqual(box.pf(di, slot), 0.85, "% veľkosti porcie sa má načítať z planF");
-assert.strictEqual(porcie, 6, `3 dni × 2 stravníci = 6 porcií, dostal som ${porcie}`);
-assert.strictEqual(box.mnozMult(di, slot), 2 * 0.85, "množstvo/deň = stravníci × %, nie × % na druhú");
+// B9 (audit 2026-08-18): % veľkosti porcie je kalorická korekcia, nie zľava z množstva jedla —
+// domácnosť dostane vždy svoj dopyt, len rozdelený na viac menších porcií. 3 dni × 2 stravníci
+// pri 85 % porcii = 7 porcií po 85 % (≈ 6 plných) a množstvo surovín na deň zostáva 2 porcie.
+assert.strictEqual(porcie, 7, `3 dni × 2 stravníci pri 85 % porcii = 7 porcií, dostal som ${porcie}`);
+assert.ok(Math.abs(box.mnozMult(di, slot) - 2) < 1e-9,
+  `množstvo/deň = 2 plné porcie (stravníci), dostal som ${box.mnozMult(di, slot)}`);
 
 // bez % faktora sa kcal-korekcia musí naďalej robiť cez pocetPorcii
 delete box.__S.planF["2026-07-29"];

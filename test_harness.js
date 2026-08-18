@@ -119,6 +119,10 @@ function load(opts = {}) {
   }
   Object.assign(ctx, ctx.__exp || {});
 
+  // originály renderov nechávame dostupné pre výkonnostné testy
+  ctx.__orig = {};
+  ["renderGrid", "renderNakup", "renderVyziva", "renderDash"].forEach(f => { ctx.__orig[f] = ctx[f]; });
+
   // renderery preč — testy počítajú, nekreslia
   ["renderPlan", "renderDash", "renderNakup", "renderVyziva", "renderGrid", "renderSpajza",
    "renderChips", "renderKolekcie", "renderStravnici", "renderGenWizard", "renderCasovace",

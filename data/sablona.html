@@ -150,6 +150,9 @@
   /* plánovač */
   .plan-head{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
   .plan-grid{overflow-x:auto}
+  /* D3: tabuľka plánu má 7 dní (~1730 px), obsah je inak orezaný na 1050 px a 3 dni sa museli
+     doscrollovať aj na 1440 px monitore. Plán preto dostane celú šírku okna. */
+  .content:has(#v-planovac.view.active){max-width:none}
   table.plan{border-collapse:collapse;width:100%;min-width:740px}
   table.plan th,table.plan td{border:1px solid var(--line);padding:6px;vertical-align:top;background:#fff}
   table.plan th{background:var(--accent-dark);color:#fff;font-weight:600;font-size:14px}
@@ -417,7 +420,7 @@
         <button class="btn" onclick="pridajNakupPolozku()">+ Pridať</button>
       </div>
       <div class="plan-head">
-        <input class="f" id="doma-nakup" style="flex:1;min-width:160px" placeholder="Mám doma (odráta sa)…" oninput="renderNakup()">
+        <input class="f" id="doma-nakup" style="flex:1;min-width:160px" placeholder="Mám doma (odráta sa)…" oninput="domaNakupZmena(this.value)" onchange="domaNakupZmena(this.value,true)">
         <button class="btn" onclick="zdielajNakup()">📤 Zdieľať</button>
         <button class="btn" onclick="kopirujListonic()">📋 Kopírovať</button>
         <button class="btn" onclick="tlacView('nakup')">🖨 Tlačiť</button>
