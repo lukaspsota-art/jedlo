@@ -231,10 +231,10 @@ ok("rozdiel > 10 % je označený ako odhad, do 10 % nie", () => {
   assert.ok(app.vyzivaReceptu({ ...zaklad, kcal_na_porciu: Math.round(cistyKcal * 0.5) }).pribl, "50 % rozdiel = odhad");
   assert.ok(!app.vyzivaReceptu({ ...zaklad, kcal_na_porciu: Math.round(cistyKcal * 0.98) }).pribl, "2 % rozdiel nie je odhad");
 });
-ok("recept bez kcal_na_porciu sa nezmenil", () => {
-  const bezDekl = app.RECEPTY.filter(r => !r.kcal_na_porciu && (r.ingrediencie || []).some(i => i.mnozstvo != null));
-  assert.ok(bezDekl.length > 100, "málo receptov bez kcal_na_porciu");
-  const r = bezDekl[0];
+ok("recept bez kcal_na_porciu sa nezmenil (kcal je čistý súčet surovín)", () => {
+  // väčšina receptov už kcal_na_porciu má (scripts/dopocitaj_kcal.js), preto testujeme na vlastnom
+  const r = { id: "_bezdekl", nazov: "Bez deklarácie", porcie: 2,
+    ingrediencie: [{ nazov: "Ryža", mnozstvo: 200, jednotka: "g" }, { nazov: "Olivový olej", mnozstvo: 20, jednotka: "g" }] };
   const v = app.vyzivaReceptu(r);
   let kc = 0;
   (r.ingrediencie || []).forEach(i => { const p = app.najdiPotravinu(i.nazov); if (p) kc += app.gramy(i, p) * p.kcal / 100; });

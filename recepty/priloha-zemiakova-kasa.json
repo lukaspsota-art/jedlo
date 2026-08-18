@@ -1,11 +1,13 @@
 {
   "id": "priloha-zemiakova-kasa",
-  "nazov": "Zemiaková kaša",
+  "nazov": "Zemiaková kaša (príloha)",
   "kategoria": "Príloha",
   "kuchyna": "",
   "zdroj": "",
   "porcie": 4,
   "cas": "25 min",
+  "kcal_na_porciu": 296,
+  "kcal_zdroj": "vypocet",
   "popis": "Krémová zemiaková kaša s maslom a mliekom.",
   "ingrediencie": [
     {
