@@ -33,7 +33,8 @@ function mulberry32(a) {
 
 // const/let sa v skripte nestanú vlastnosťou globalu — vyexportuj ich ručne na koniec app.js
 const EXPORT_TAIL = ";globalThis.__exp={RECEPTY,POTRAVINY,JEDALNICKY,S,LS,DNI,VSETKY_SLOTY,DEFAULT_SLOTY," +
-  "SLOT_KATEGORIE,KS_DEF,ML_JED,NEDELITELNE_JEDNOTKY,PRILOHY,CARB_PRILOHY,KOLEKCIE,SEZONA,HS_HI,HS_LO};";
+  "SLOT_KATEGORIE,KS_DEF,KS_JEDNOTKY,ML_JED,NEDELITELNE_JEDNOTKY,PRILOHY,CARB_PRILOHY,KOLEKCIE,SEZONA," +
+  "HS_HI,HS_LO,PORADIE_ODDELENI,SLOT_PODIEL,TYZDNE_PAMATE,TYZDNE_PAMATE_SNACK,MIN_KCAL_HLAVNY};";
 
 const FAKE_HODNOTY = { hladaj: "", "f-kuchyna": "", "f-cas": "", "f-diet": "", "f-sort": "" };
 
