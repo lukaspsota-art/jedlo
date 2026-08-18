@@ -138,20 +138,32 @@ function gramyNaJed(g,jed,p){ const j=(jed||"").toLowerCase().trim(); const h=(p
   if(j==="g"||j==="gram"||j==="gramov")return g; if(j==="kg")return g/1000; if(j==="ml")return g/h;
   if(ML_JED[j]!=null)return g/(ML_JED[j]*h);
   const gj=gZaJednotku(j,p); return gj?g/gj:null; }
+// B6: nenapárovaná surovina nemá gramy — do pokrytia ju započítame hrubým odhadom,
+// nech sa recept s neznámou hlavnou surovinou netvári, že má 100 % dát
+function odhadHmoty(i){ const j=(i.jednotka||"").toLowerCase().trim();
+  if(i.mnozstvo==null)return 0;
+  if(j==="g"||j==="gram"||j==="gramov"||j==="ml")return i.mnozstvo;
+  if(j==="kg")return i.mnozstvo*1000;
+  if(ML_JED[j]!=null)return i.mnozstvo*ML_JED[j];
+  if(KS_DEF[j]!=null)return i.mnozstvo*KS_DEF[j];
+  return i.mnozstvo*50; }
 function vyzivaReceptu(r){
   let kc=0,b=0,t=0,s=0,cena=0,vl=0,na=0,zname=false,bezCeny=0;
+  let hmota=0,hmotaVl=0,hmotaNa=0; // B6: koľko hmoty dňa má vôbec údaj o vláknine/sodíku
   (r.ingrediencie||[]).forEach(i=>{
     const p=najdiPotravinu(i.nazov);
-    if(!p){ if(i.mnozstvo!=null){ zname=true; bezCeny++; } return; }
+    if(!p){ if(i.mnozstvo!=null){ zname=true; bezCeny++; hmota+=odhadHmoty(i); } return; }
     const g=gramy(i,p);
     if(!(g>0)&&i.mnozstvo!=null){ zname=true; return; } // B2: nedopočítaná hmotnosť → kcal je len odhad
     kc+=g*p.kcal/100; b+=g*p.bielkoviny/100; t+=g*p.tuky/100; s+=g*p.sacharidy/100;
     // B5: cena100 == null znamená NEZNÁMA cena (0 je platná cena, napr. voda z vodovodu)
     if(g>0 && p.cena100==null) bezCeny++;
     cena+=g*(p.cena100||0)/100; vl+=g*(p.vlaknina||0)/100; na+=g*(p.sodik||0)/100;
+    hmota+=g; if(p.vlaknina!=null)hmotaVl+=g; if(p.sodik!=null)hmotaNa+=g;
   });
   const por=r.porcie||1;
-  const v={kcal:kc/por,b:b/por,t:t/por,s:s/por,cena:cena/por,vl:vl/por,na:na/por,pribl:zname,bezCeny:bezCeny};
+  const v={kcal:kc/por,b:b/por,t:t/por,s:s/por,cena:cena/por,vl:vl/por,na:na/por,pribl:zname,bezCeny:bezCeny,
+           hmota:hmota/por,hmotaVl:hmotaVl/por,hmotaNa:hmotaNa/por};
   // Záchranná brzda pri chybných dátach: keď recept nesie kurátorované kcal_na_porciu a súčet z potravín
   // sa líši >1,6×, chýba (alebo prebýva) hmota — typicky nespárovaná surovina alebo množstvo bez jednotky.
   // Ver JSON-u a dorovnaj VŠETKO odvodené od hmotnosti rovnakým faktorom, nech kcal a makrá nehovoria dve rôzne veci.
@@ -1170,7 +1182,7 @@ function ukazDenVyzivu(di){ const el=document.getElementById("vyziva-den"); if(!
   if(any)h+=`<div class="dnes-makra"><b>Spolu ${Math.round(dk)} kcal</b></div>`;
   el.innerHTML = any? h : `<p class="info">${DNI[di]}: nič naplánované.</p>`; }
 function renderVyziva(){
-  const dni=[]; for(let di=0;di<7;di++){ let kc=0,b=0,t=0,sx=0,vl=0,na=0,ce=0; slotyDna(di).forEach(sl=>{ const f=pf(di,sl); slotIds(di,sl).forEach(cid=>{const r=komponent(cid); if(r){const v=vyzivaReceptu(r); kc+=v.kcal*f;b+=v.b*f;t+=v.t*f;sx+=v.s*f;vl+=(v.vl||0)*f;na+=(v.na||0)*f;ce+=(v.cena||0)*f;}}); }); dni.push({kc:Math.round(kc),b,t,s:sx,vl:vl,na:na,ce:ce}); }
+  const dni=[]; for(let di=0;di<7;di++){ let kc=0,b=0,t=0,sx=0,vl=0,na=0,ce=0,hm=0,hmVl=0,hmNa=0; slotyDna(di).forEach(sl=>{ const f=pf(di,sl); slotIds(di,sl).forEach(cid=>{const r=komponent(cid); if(r){const v=vyzivaReceptu(r); kc+=v.kcal*f;b+=v.b*f;t+=v.t*f;sx+=v.s*f;vl+=(v.vl||0)*f;na+=(v.na||0)*f;ce+=(v.cena||0)*f;hm+=(v.hmota||0)*f;hmVl+=(v.hmotaVl||0)*f;hmNa+=(v.hmotaNa||0)*f;}}); }); dni.push({kc:Math.round(kc),b,t,s:sx,vl:vl,na:na,ce:ce,hm:hm,hmVl:hmVl,hmNa:hmNa}); }
   const maxKc=Math.max(S.profil.kcal||0,...dni.map(d=>d.kc),1);
   const akt=dni.filter(d=>d.kc>0);
   const priemKc=akt.length?Math.round(akt.reduce((a,d)=>a+d.kc,0)/akt.length):0;
@@ -1183,7 +1195,16 @@ function renderVyziva(){
   const vahaKg=S.vahy.length?S.vahy[S.vahy.length-1].kg:0;
   // deň vs týždeň: src = hodnoty pre zvolený deň alebo priemer týždňa
   const isDen = vyzivaMode==="den" && vyzivaDi!=null;
-  const src = isDen ? dni[vyzivaDi] : {kc:priemKc,b:priemB,t:priemT,s:priemS,vl:priemVl,na:priemNa,ce:priemCe};
+  const sum=f=>akt.reduce((a,d)=>a+f(d),0);
+  const src = isDen ? dni[vyzivaDi] : {kc:priemKc,b:priemB,t:priemT,s:priemS,vl:priemVl,na:priemNa,ce:priemCe,
+    hm:sum(d=>d.hm),hmVl:sum(d=>d.hmVl),hmNa:sum(d=>d.hmNa)};
+  // B6: koľko percent hmoty má vôbec údaj — pod 70 % je tvrdé číslo klamlivé (sodík vychádzal 2× nižší)
+  const pokr=(znama,celkom)=>celkom>0?znama/celkom:1;
+  const pokrVl=pokr(src.hmVl,src.hm), pokrNa=pokr(src.hmNa,src.hm);
+  const PRAH_POKRYTIA=0.7;
+  const dlazdicaHodnota=(hodnota,pokrytie)=>(pokrytie<PRAH_POKRYTIA
+    ? "≥ "+hodnota+'<small class="lbl"> ('+Math.round(pokrytie*100)+" % surovín má dáta)</small>"
+    : hodnota);
   const maPlan = isDen ? (dni[vyzivaDi].kc>0) : (akt.length>0);
   const dn=document.getElementById("vyziva-daynav");
   if(dn){ if(isDen){ dn.style.display=""; dn.innerHTML=`<div class="plan-head" style="align-items:center;justify-content:center;gap:12px"><button class="btn" onclick="vyzivaDenPosun(-1)">‹</button><b style="min-width:110px;text-align:center">${DNI[vyzivaDi]}</b><button class="btn" onclick="vyzivaDenPosun(1)">›</button></div>`; } else dn.style.display="none"; }
@@ -1194,8 +1215,8 @@ function renderVyziva(){
     <div class="tile"><div class="lbl">${lblK}</div><div class="val" style="color:${sK.c}">${maPlan?src.kc:"–"}<small> /${S.profil.kcal}</small></div>${(sK.d&&maPlan)?`<div class="lbl" style="color:${sK.c}">${sK.d} kcal vs cieľ</div>`:""}</div>
     <div class="tile"><div class="lbl">${lblB}</div><div class="val" style="color:${S.profil.biel?sB.c:''}">${maPlan?fmt(src.b)+" g":"–"}${S.profil.biel?'<small> /'+S.profil.biel+'</small>':''}</div>${(S.profil.biel&&sB.d&&maPlan)?`<div class="lbl" style="color:${sB.c}">${sB.d} g vs cieľ</div>`:""}</div>
     <div class="tile"><div class="lbl">Naplánovaných dní</div><div class="val">${akt.length}/7</div></div>
-    <div class="tile"><div class="lbl">Vláknina${isDen?" · "+DNI[vyzivaDi].slice(0,2):"/deň"}</div><div class="val">${maPlan?fmt(src.vl)+" g":"–"}<small> /30</small></div></div>
-    <div class="tile"><div class="lbl">Sodík${isDen?" · "+DNI[vyzivaDi].slice(0,2):"/deň"}</div><div class="val" style="${src.na>2300?'color:var(--warn)':''}">${maPlan?Math.round(src.na)+" mg":"–"}<small> /2300</small></div></div>
+    <div class="tile"><div class="lbl">Vláknina${isDen?" · "+DNI[vyzivaDi].slice(0,2):"/deň"}</div><div class="val">${maPlan?dlazdicaHodnota(fmt(src.vl)+" g",pokrVl):"–"}<small> /30</small></div></div>
+    <div class="tile"><div class="lbl">Sodík${isDen?" · "+DNI[vyzivaDi].slice(0,2):"/deň"}</div><div class="val" style="${(src.na>2300&&pokrNa>=PRAH_POKRYTIA)?'color:var(--warn)':''}">${maPlan?dlazdicaHodnota(Math.round(src.na)+" mg",pokrNa):"–"}<small> /2300</small></div></div>
     <div class="tile"><div class="lbl">Cena${isDen?" · "+DNI[vyzivaDi].slice(0,2):"/deň"}</div><div class="val">${maPlan?eur(src.ce):"–"}</div></div>
     <div class="tile"><div class="lbl">Bielkoviny na kg</div><div class="val">${(maPlan&&vahaKg)?fmt(src.b/vahaKg)+"<small> g/kg</small>":"–"}</div></div>`;
   const ciel=S.profil.kcal||0;

@@ -239,7 +239,9 @@
     "meso": false,
     "cena100": 3.2,
     "balenie_g": 200,
-    "balenie_popis": "200 g"
+    "balenie_popis": "200 g",
+    "vlaknina": 0,
+    "sodik": 1800
   },
   {
     "kluc": "eidam",
@@ -274,7 +276,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 0,
+    "sodik": 1000
   },
   {
     "kluc": "maslo",
@@ -310,7 +314,9 @@
     "meso": false,
     "cena100": 0.4,
     "balenie_g": 150,
-    "balenie_popis": "150 g"
+    "balenie_popis": "150 g",
+    "vlaknina": 0,
+    "sodik": 50
   },
   {
     "kluc": "spaghetti",
@@ -447,7 +453,9 @@
     "g_za_ks": 15,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.45
+    "cena100": 0.45,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "cibuľa",
@@ -476,7 +484,9 @@
     "g_za_ks": 120,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.45
+    "cena100": 0.45,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "paprika",
@@ -536,7 +546,9 @@
     "g_za_ks": 10,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "petržlen",
@@ -549,7 +561,9 @@
     "g_za_ks": 10,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "zemiak",
@@ -596,7 +610,9 @@
     "meso": false,
     "cena100": 6,
     "balenie_g": 100,
-    "balenie_popis": "100 g"
+    "balenie_popis": "100 g",
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "kaparky",
@@ -628,7 +644,9 @@
     "meso": false,
     "cena100": 0.4,
     "balenie_g": 500,
-    "balenie_popis": "500 g"
+    "balenie_popis": "500 g",
+    "vlaknina": 1.0,
+    "sodik": 900
   },
   {
     "kluc": "worcester",
@@ -643,7 +661,9 @@
     "g_za_ks": null,
     "hustota": 1.15,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 0,
+    "sodik": 3300
   },
   {
     "kluc": "tmavá sójová omáčka",
@@ -661,7 +681,9 @@
     "meso": false,
     "cena100": 1.1,
     "balenie_g": 150,
-    "balenie_popis": "150 ml"
+    "balenie_popis": "150 ml",
+    "vlaknina": 0.8,
+    "sodik": 5200
   },
   {
     "kluc": "sójová omáčka",
@@ -679,7 +701,9 @@
     "meso": false,
     "cena100": 1,
     "balenie_g": 150,
-    "balenie_popis": "150 ml"
+    "balenie_popis": "150 ml",
+    "vlaknina": 0.8,
+    "sodik": 5500
   },
   {
     "kluc": "jablčný ocot",
@@ -692,7 +716,9 @@
     "g_za_ks": null,
     "hustota": 1.01,
     "meso": false,
-    "cena100": 0.25
+    "cena100": 0.25,
+    "vlaknina": 0,
+    "sodik": 5
   },
   {
     "kluc": "ocot",
@@ -705,7 +731,9 @@
     "g_za_ks": null,
     "hustota": 1.01,
     "meso": false,
-    "cena100": 0.15
+    "cena100": 0.15,
+    "vlaknina": 0,
+    "sodik": 5
   },
   {
     "kluc": "shaoxing",
@@ -718,7 +746,9 @@
     "g_za_ks": null,
     "hustota": 0.99,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 0,
+    "sodik": 800
   },
   {
     "kluc": "olivový olej",
@@ -750,7 +780,9 @@
     "meso": false,
     "cena100": 0.3,
     "balenie_g": 920,
-    "balenie_popis": "1 l"
+    "balenie_popis": "1 l",
+    "vlaknina": 0,
+    "sodik": 0
   },
   {
     "kluc": "olej",
@@ -782,7 +814,9 @@
     "meso": false,
     "cena100": 0.18,
     "balenie_g": 500,
-    "balenie_popis": "500 g"
+    "balenie_popis": "500 g",
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "cukor",
@@ -816,7 +850,9 @@
     "meso": false,
     "cena100": 0.1,
     "balenie_g": 1000,
-    "balenie_popis": "1 kg"
+    "balenie_popis": "1 kg",
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "med",
@@ -848,7 +884,9 @@
     "g_za_ks": 25,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "soľ",
@@ -876,7 +914,9 @@
     "g_za_ks": 0.05,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "voda",
@@ -889,7 +929,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0
+    "cena100": 0,
+    "vlaknina": 0,
+    "sodik": 1
   },
   {
     "kluc": "kura",
@@ -950,7 +992,9 @@
     "g_za_ks": 80,
     "hustota": 1,
     "meso": true,
-    "cena100": 0.9
+    "cena100": 0.9,
+    "vlaknina": 0,
+    "sodik": 1200
   },
   {
     "kluc": "bielka",
@@ -965,7 +1009,9 @@
     "g_za_ks": 33,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 0,
+    "sodik": 166
   },
   {
     "kluc": "smotana",
@@ -982,7 +1028,9 @@
     "meso": false,
     "cena100": 0.6,
     "balenie_g": 200,
-    "balenie_popis": "200 g"
+    "balenie_popis": "200 g",
+    "vlaknina": 0,
+    "sodik": 40
   },
   {
     "kluc": "šľahačka",
@@ -999,7 +1047,9 @@
     "meso": false,
     "cena100": 0.7,
     "balenie_g": 250,
-    "balenie_popis": "250 ml"
+    "balenie_popis": "250 ml",
+    "vlaknina": 0,
+    "sodik": 35
   },
   {
     "kluc": "parmezán",
@@ -1016,7 +1066,9 @@
     "meso": false,
     "cena100": 3.5,
     "balenie_g": 100,
-    "balenie_popis": "100 g"
+    "balenie_popis": "100 g",
+    "vlaknina": 0,
+    "sodik": 1600
   },
   {
     "kluc": "syr",
@@ -1051,7 +1103,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 0,
+    "sodik": 620
   },
   {
     "kluc": "feta",
@@ -1068,7 +1122,9 @@
     "meso": false,
     "cena100": 1.2,
     "balenie_g": 200,
-    "balenie_popis": "200 g"
+    "balenie_popis": "200 g",
+    "vlaknina": 0,
+    "sodik": 1100
   },
   {
     "kluc": "bryndza",
@@ -1085,7 +1141,9 @@
     "meso": false,
     "cena100": 1.2,
     "balenie_g": 250,
-    "balenie_popis": "250 g"
+    "balenie_popis": "250 g",
+    "vlaknina": 0,
+    "sodik": 1200
   },
   {
     "kluc": "jogurt",
@@ -1157,7 +1215,9 @@
     "g_za_ks": 18,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 0,
+    "sodik": 48
   },
   {
     "kluc": "cestoviny",
@@ -1193,7 +1253,9 @@
     "meso": false,
     "cena100": 0.3,
     "balenie_g": 500,
-    "balenie_popis": "500 g"
+    "balenie_popis": "500 g",
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "špenát",
@@ -1221,7 +1283,9 @@
     "g_za_ks": 250,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "cuketa",
@@ -1234,7 +1298,9 @@
     "g_za_ks": 200,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.25
+    "cena100": 0.25,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "šampiňóny",
@@ -1247,7 +1313,9 @@
     "g_za_ks": 20,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "jalapeño",
@@ -1260,7 +1328,9 @@
     "g_za_ks": 15,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "čili",
@@ -1273,7 +1343,9 @@
     "g_za_ks": 8,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "jahody",
@@ -1286,7 +1358,9 @@
     "g_za_ks": 12,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "pomaranč",
@@ -1299,7 +1373,9 @@
     "g_za_ks": 130,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.25
+    "cena100": 0.25,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "mäta",
@@ -1312,7 +1388,9 @@
     "g_za_ks": 5,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "limetk",
@@ -1326,7 +1404,9 @@
     "hustota": 1,
     "meso": false,
     "cena100": 0.6,
-    "g_za_platok": 6
+    "g_za_platok": 6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "vlašské orechy",
@@ -1377,7 +1457,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "oregano",
@@ -1390,7 +1472,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "škorica",
@@ -1403,7 +1487,9 @@
     "g_za_ks": 2.6,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "klinčeky",
@@ -1416,7 +1502,9 @@
     "g_za_ks": 0.1,
     "hustota": 1,
     "meso": false,
-    "cena100": 5
+    "cena100": 5,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "bobkový list",
@@ -1429,7 +1517,9 @@
     "g_za_ks": 0.1,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "muškátový oriešok",
@@ -1442,7 +1532,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 6
+    "cena100": 6,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "tymian",
@@ -1455,7 +1547,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "koriander",
@@ -1468,7 +1562,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "vanilkový extrakt",
@@ -1481,7 +1577,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 8
+    "cena100": 8,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "horčicové semienka",
@@ -1494,7 +1592,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "pesto",
@@ -1512,7 +1612,9 @@
     "meso": false,
     "cena100": 1.2,
     "balenie_g": 190,
-    "balenie_popis": "190 g"
+    "balenie_popis": "190 g",
+    "vlaknina": 2.5,
+    "sodik": 1200
   },
   {
     "kluc": "sriracha",
@@ -1525,7 +1627,9 @@
     "g_za_ks": null,
     "hustota": 1.2,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 1.5,
+    "sodik": 3300
   },
   {
     "kluc": "horčica",
@@ -1538,7 +1642,9 @@
     "g_za_ks": null,
     "hustota": 1.1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 3.3,
+    "sodik": 1100
   },
   {
     "kluc": "grenadína",
@@ -1551,7 +1657,9 @@
     "g_za_ks": null,
     "hustota": 1.3,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 0,
+    "sodik": 10
   },
   {
     "kluc": "sirup",
@@ -1564,7 +1672,9 @@
     "g_za_ks": null,
     "hustota": 1.35,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 0,
+    "sodik": 10
   },
   {
     "kluc": "strúhanka",
@@ -1581,7 +1691,9 @@
     "meso": false,
     "cena100": 0.3,
     "balenie_g": 400,
-    "balenie_popis": "400 g"
+    "balenie_popis": "400 g",
+    "vlaknina": 4,
+    "sodik": 700
   },
   {
     "kluc": "kokosové mlieko",
@@ -1594,7 +1706,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.2,
+    "sodik": 15
   },
   {
     "kluc": "tofu",
@@ -1610,7 +1724,9 @@
     "hustota": 1,
     "meso": false,
     "cena100": 0.8,
-    "g_za_platok": 30
+    "g_za_platok": 30,
+    "vlaknina": 1.2,
+    "sodik": 12
   },
   {
     "kluc": "limoncello",
@@ -1623,7 +1739,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "prosecco",
@@ -1636,7 +1754,9 @@
     "g_za_ks": null,
     "hustota": 0.99,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "vodka",
@@ -1649,7 +1769,9 @@
     "g_za_ks": null,
     "hustota": 0.95,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "tequila",
@@ -1662,7 +1784,9 @@
     "g_za_ks": null,
     "hustota": 0.95,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "rum",
@@ -1675,7 +1799,9 @@
     "g_za_ks": null,
     "hustota": 0.95,
     "meso": false,
-    "cena100": 1.8
+    "cena100": 1.8,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "pomarančový džús",
@@ -1688,7 +1814,9 @@
     "g_za_ks": null,
     "hustota": 1.05,
     "meso": false,
-    "cena100": 0.25
+    "cena100": 0.25,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "ľadový čaj",
@@ -1701,7 +1829,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.2
+    "cena100": 0.2,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "sóda",
@@ -1714,7 +1844,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.1
+    "cena100": 0.1,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "ľad",
@@ -1727,7 +1859,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.05
+    "cena100": 0.05,
+    "vlaknina": 0,
+    "sodik": 1
   },
   {
     "kluc": "bobuľové ovocie",
@@ -1740,7 +1874,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "rybia omáčka",
@@ -1755,7 +1891,9 @@
     "g_za_ks": null,
     "hustota": 1.1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 0,
+    "sodik": 7800
   },
   {
     "kluc": "bazalka",
@@ -1768,7 +1906,9 @@
     "g_za_ks": 3,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.0
+    "cena100": 3.0,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "zeler",
@@ -1781,7 +1921,9 @@
     "g_za_ks": 40,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.25
+    "cena100": 0.25,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "fazuľa",
@@ -1794,7 +1936,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 6,
+    "sodik": 240
   },
   {
     "kluc": "vývar",
@@ -1807,7 +1951,9 @@
     "g_za_ks": 10,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.15
+    "cena100": 0.15,
+    "vlaknina": 0,
+    "sodik": 350
   },
   {
     "kluc": "rasca",
@@ -1820,7 +1966,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.0
+    "cena100": 3.0,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "brokolica",
@@ -1848,7 +1996,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 4.0
+    "cena100": 4.0,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "gouda",
@@ -1864,7 +2014,9 @@
     "hustota": 1,
     "meso": false,
     "g_za_platok": 20,
-    "cena100": 1.1
+    "cena100": 1.1,
+    "vlaknina": 0,
+    "sodik": 820
   },
   {
     "kluc": "tuniak",
@@ -1879,7 +2031,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": true,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 0,
+    "sodik": 350
   },
   {
     "kluc": "majonéza",
@@ -1894,7 +2048,9 @@
     "g_za_ks": null,
     "hustota": 0.95,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 0,
+    "sodik": 600
   },
   {
     "kluc": "šalát",
@@ -1907,7 +2063,9 @@
     "g_za_ks": 300,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "uhorka",
@@ -1921,7 +2079,9 @@
     "hustota": 1,
     "meso": false,
     "g_za_platok": 8,
-    "cena100": 0.25
+    "cena100": 0.25,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "bravčov",
@@ -1934,7 +2094,9 @@
     "g_za_ks": 150,
     "hustota": 1,
     "meso": true,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 0,
+    "sodik": 60
   },
   {
     "kluc": "kaizerka",
@@ -1949,7 +2111,9 @@
     "g_za_ks": 60,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.4
+    "cena100": 0.4,
+    "vlaknina": 3,
+    "sodik": 500
   },
   {
     "kluc": "cayenne",
@@ -1962,7 +2126,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 4.0
+    "cena100": 4.0,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "zázvor",
@@ -1976,7 +2142,9 @@
     "hustota": 1,
     "meso": false,
     "g_za_platok": 2,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "rezance",
@@ -1992,7 +2160,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.25
+    "cena100": 0.25,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "zeleninová zmes",
@@ -2005,7 +2175,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "škrob",
@@ -2018,7 +2190,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "chilli omáčka",
@@ -2031,7 +2205,9 @@
     "g_za_ks": 15,
     "hustota": 1.2,
     "meso": false,
-    "cena100": 1.0
+    "cena100": 1.0,
+    "vlaknina": 1,
+    "sodik": 1500
   },
   {
     "kluc": "peri-peri",
@@ -2044,7 +2220,9 @@
     "g_za_ks": null,
     "hustota": 1.1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 2,
+    "sodik": 2000
   },
   {
     "kluc": "kukurica",
@@ -2057,7 +2235,9 @@
     "g_za_ks": 150,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "žerucha",
@@ -2070,7 +2250,9 @@
     "g_za_ks": 5,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.0
+    "cena100": 3.0,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "saláma",
@@ -2084,7 +2266,9 @@
     "hustota": 1,
     "meso": true,
     "g_za_platok": 12,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 0,
+    "sodik": 1500
   },
   {
     "kluc": "chlieb",
@@ -2115,7 +2299,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": true,
-    "cena100": 0.9
+    "cena100": 0.9,
+    "vlaknina": 0,
+    "sodik": 70
   },
   {
     "kluc": "hnedá ryža",
@@ -2185,7 +2371,9 @@
     "meso": false,
     "cena100": 0.35,
     "balenie_g": 500,
-    "balenie_popis": "500 g"
+    "balenie_popis": "500 g",
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "skyr",
@@ -2338,7 +2526,9 @@
     "g_za_ks": 60,
     "hustota": 1,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "rožok",
@@ -2392,7 +2582,9 @@
     "meso": false,
     "cena100": 1.2,
     "balenie_g": 350,
-    "balenie_popis": "350 g"
+    "balenie_popis": "350 g",
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "čokoláda",
@@ -2409,7 +2601,9 @@
     "meso": false,
     "cena100": 1.2,
     "balenie_g": 100,
-    "balenie_popis": "100 g"
+    "balenie_popis": "100 g",
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "sladká paprika",
@@ -2422,7 +2616,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "jablk",
@@ -2450,7 +2646,9 @@
     "g_za_ks": null,
     "hustota": 0.6,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "šalotk",
@@ -2463,7 +2661,9 @@
     "g_za_ks": 50,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "avokád",
@@ -2476,7 +2676,9 @@
     "g_za_ks": 200,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.1
+    "cena100": 1.1,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "prášok do pečiva",
@@ -2489,7 +2691,9 @@
     "g_za_ks": null,
     "hustota": 0.9,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "ovsené vloč",
@@ -2504,7 +2708,9 @@
     "g_za_ks": null,
     "hustota": 0.4,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "kypriaci prášok",
@@ -2517,7 +2723,9 @@
     "g_za_ks": 12,
     "hustota": 0.9,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "chia",
@@ -2530,7 +2738,9 @@
     "g_za_ks": null,
     "hustota": 0.7,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "ricott",
@@ -2545,7 +2755,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 0,
+    "sodik": 100
   },
   {
     "kluc": "mozzarell",
@@ -2560,7 +2772,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.3
+    "cena100": 1.3,
+    "vlaknina": 0,
+    "sodik": 400
   },
   {
     "kluc": "kokos",
@@ -2573,7 +2787,9 @@
     "g_za_ks": null,
     "hustota": 0.35,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "slnečnicové semien",
@@ -2586,7 +2802,9 @@
     "g_za_ks": null,
     "hustota": 0.6,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "predvarený cícer",
@@ -2599,7 +2817,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 7,
+    "sodik": 240
   },
   {
     "kluc": "sezamové semien",
@@ -2614,7 +2834,9 @@
     "g_za_ks": null,
     "hustota": 0.6,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "stévi",
@@ -2627,7 +2849,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 8
+    "cena100": 8,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "kurkum",
@@ -2640,7 +2864,9 @@
     "g_za_ks": null,
     "hustota": 0.5,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "quino",
@@ -2653,7 +2879,9 @@
     "g_za_ks": null,
     "hustota": 0.8,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "rukol",
@@ -2666,7 +2894,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "cukrový hrášok",
@@ -2679,7 +2909,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "tahin",
@@ -2694,7 +2926,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 9,
+    "sodik": 30
   },
   {
     "kluc": "žĺtok",
@@ -2709,7 +2943,9 @@
     "g_za_ks": 18,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 0,
+    "sodik": 48
   },
   {
     "kluc": "karfiol",
@@ -2722,7 +2958,9 @@
     "g_za_ks": 600,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "ghí",
@@ -2737,7 +2975,9 @@
     "g_za_ks": null,
     "hustota": 0.91,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 0,
+    "sodik": 2
   },
   {
     "kluc": "droždie",
@@ -2750,7 +2990,9 @@
     "g_za_ks": 7,
     "hustota": 0.7,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "kvasnice",
@@ -2763,7 +3005,9 @@
     "g_za_ks": null,
     "hustota": 0.5,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 26,
+    "sodik": 50
   },
   {
     "kluc": "tekvicové semien",
@@ -2776,7 +3020,9 @@
     "g_za_ks": null,
     "hustota": 0.6,
     "meso": false,
-    "cena100": 1.3
+    "cena100": 1.3,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "rozmarín",
@@ -2789,7 +3035,9 @@
     "g_za_ks": null,
     "hustota": 0.2,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "chilli mleté",
@@ -2802,7 +3050,9 @@
     "g_za_ks": null,
     "hustota": 0.5,
     "meso": false,
-    "cena100": 5
+    "cena100": 5,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "vločky jemne mlet",
@@ -2817,7 +3067,9 @@
     "g_za_ks": null,
     "hustota": 0.45,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "cícer predvarený",
@@ -2830,7 +3082,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 7,
+    "sodik": 240
   },
   {
     "kluc": "čučoriedk",
@@ -2843,7 +3097,9 @@
     "g_za_ks": null,
     "hustota": 0.6,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "ľanové semien",
@@ -2856,7 +3112,9 @@
     "g_za_ks": null,
     "hustota": 0.6,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "žampión",
@@ -2869,7 +3127,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "malin",
@@ -2882,7 +3142,9 @@
     "g_za_ks": null,
     "hustota": 0.5,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "mleté chilli",
@@ -2895,7 +3157,9 @@
     "g_za_ks": null,
     "hustota": 0.5,
     "meso": false,
-    "cena100": 5
+    "cena100": 5,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "lesné ovoc",
@@ -2908,7 +3172,9 @@
     "g_za_ks": null,
     "hustota": 0.55,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "celozrnné špaget",
@@ -2923,7 +3189,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "rozmarín sušený",
@@ -2936,7 +3204,9 @@
     "g_za_ks": null,
     "hustota": 0.3,
     "meso": false,
-    "cena100": 6
+    "cena100": 6,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "bielok",
@@ -2951,7 +3221,9 @@
     "g_za_ks": 33,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.4
+    "cena100": 0.4,
+    "vlaknina": 0,
+    "sodik": 166
   },
   {
     "kluc": "valeriánk",
@@ -2964,7 +3236,9 @@
     "g_za_ks": null,
     "hustota": 0.3,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "polníč",
@@ -2977,7 +3251,9 @@
     "g_za_ks": null,
     "hustota": 0.3,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "čakank",
@@ -2990,7 +3266,9 @@
     "g_za_ks": 80,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "červená repa",
@@ -3003,7 +3281,9 @@
     "g_za_ks": 150,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "celozrnné žeml",
@@ -3018,7 +3298,9 @@
     "g_za_ks": 60,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 6,
+    "sodik": 450
   },
   {
     "kluc": "pekan",
@@ -3033,7 +3315,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.9
+    "cena100": 1.9,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "krevet",
@@ -3048,7 +3332,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": true,
-    "cena100": 2.2
+    "cena100": 2.2,
+    "vlaknina": 0,
+    "sodik": 250
   },
   {
     "kluc": "jablčn",
@@ -3061,7 +3347,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "matcha",
@@ -3074,7 +3362,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 12
+    "cena100": 12,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "morčac",
@@ -3087,7 +3377,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": true,
-    "cena100": 1.4
+    "cena100": 1.4,
+    "vlaknina": 0,
+    "sodik": 60
   },
   {
     "kluc": "šošovic",
@@ -3100,7 +3392,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.45
+    "cena100": 0.45,
+    "vlaknina": 8,
+    "sodik": 6
   },
   {
     "kluc": "šampión",
@@ -3113,7 +3407,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "tekvicov",
@@ -3126,7 +3422,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "chilli suš",
@@ -3139,7 +3437,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 6
+    "cena100": 6,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "pyré bez cukru",
@@ -3152,7 +3452,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.4
+    "cena100": 0.4,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "ovsen",
@@ -3167,7 +3469,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "sušené hub",
@@ -3180,7 +3484,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 8
+    "cena100": 8,
+    "vlaknina": 20,
+    "sodik": 15
   },
   {
     "kluc": "majorán",
@@ -3193,7 +3499,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 4
+    "cena100": 4,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "brokolic",
@@ -3206,7 +3514,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "podmasl",
@@ -3221,7 +3531,9 @@
     "g_za_ks": null,
     "hustota": 1.03,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 0,
+    "sodik": 105
   },
   {
     "kluc": "mak",
@@ -3234,7 +3546,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "mango",
@@ -3247,7 +3561,9 @@
     "g_za_ks": 300,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "cícer",
@@ -3260,7 +3576,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 7,
+    "sodik": 240
   },
   {
     "kluc": "tamari",
@@ -3275,7 +3593,9 @@
     "g_za_ks": null,
     "hustota": 1.15,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 0.9,
+    "sodik": 4800
   },
   {
     "kluc": "chilli",
@@ -3288,7 +3608,9 @@
     "g_za_ks": 15,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "majoránk",
@@ -3301,7 +3623,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 4
+    "cena100": 4,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "ľanov",
@@ -3314,7 +3638,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "pór",
@@ -3327,7 +3653,9 @@
     "g_za_ks": 150,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "repa",
@@ -3340,7 +3668,9 @@
     "g_za_ks": 100,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "špaldov",
@@ -3355,7 +3685,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "agar",
@@ -3368,7 +3700,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 15
+    "cena100": 15,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "vanilkov",
@@ -3381,7 +3715,9 @@
     "g_za_ks": 4,
     "hustota": 1,
     "meso": false,
-    "cena100": 80
+    "cena100": 80,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "kôpor",
@@ -3394,7 +3730,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "tortill",
@@ -3409,7 +3747,9 @@
     "g_za_ks": 50,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 3,
+    "sodik": 550
   },
   {
     "kluc": "pohánk",
@@ -3422,7 +3762,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "brusnic",
@@ -3435,7 +3777,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "droždi",
@@ -3448,7 +3792,9 @@
     "g_za_ks": 42,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "mletý mak",
@@ -3461,7 +3807,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.8
+    "cena100": 1.8,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "mleté vločk",
@@ -3476,7 +3824,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "portobell",
@@ -3489,7 +3839,9 @@
     "g_za_ks": 90,
     "hustota": 1,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "kmín",
@@ -3502,7 +3854,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.5
+    "cena100": 3.5,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "kardamón",
@@ -3515,7 +3869,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 9
+    "cena100": 9,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "paprik",
@@ -3528,7 +3884,9 @@
     "g_za_ks": 150,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "little gem",
@@ -3541,7 +3899,9 @@
     "g_za_ks": 120,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "reďkovk",
@@ -3554,7 +3914,9 @@
     "g_za_ks": 10,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "lieskov",
@@ -3569,7 +3931,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2.2
+    "cena100": 2.2,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "figy",
@@ -3582,7 +3946,9 @@
     "g_za_ks": 20,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "cvikl",
@@ -3595,7 +3961,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "kučerav",
@@ -3608,7 +3976,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "acai",
@@ -3621,7 +3991,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 15
+    "cena100": 15,
+    "vlaknina": 30,
+    "sodik": 7
   },
   {
     "kluc": "goji",
@@ -3634,7 +4006,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.5
+    "cena100": 3.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "ananás",
@@ -3648,7 +4022,9 @@
     "hustota": 1,
     "meso": false,
     "cena100": 0.7,
-    "g_za_platok": 60
+    "g_za_platok": 60,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "kiwi",
@@ -3661,7 +4037,9 @@
     "g_za_ks": 90,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "kakaov",
@@ -3674,7 +4052,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "pistác",
@@ -3689,7 +4069,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.5
+    "cena100": 3.5,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "srvátk",
@@ -3704,7 +4086,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 0,
+    "sodik": 54
   },
   {
     "kluc": "batát",
@@ -3717,7 +4101,9 @@
     "g_za_ks": 200,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.7
+    "cena100": 0.7,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "bazalk",
@@ -3730,7 +4116,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "mozzarel",
@@ -3745,7 +4133,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.3
+    "cena100": 1.3,
+    "vlaknina": 0,
+    "sodik": 400
   },
   {
     "kluc": "broskyn",
@@ -3758,7 +4148,9 @@
     "g_za_ks": 150,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "černic",
@@ -3771,7 +4163,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "xylitol",
@@ -3784,7 +4178,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "espress",
@@ -3797,7 +4193,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "hrozien",
@@ -3810,7 +4208,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "penne",
@@ -3825,7 +4225,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.4
+    "cena100": 0.4,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "masten",
@@ -3838,7 +4240,9 @@
     "g_za_ks": null,
     "hustota": 0.92,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 0,
+    "sodik": 0
   },
   {
     "kluc": "fazul",
@@ -3851,7 +4255,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.4
+    "cena100": 0.4,
+    "vlaknina": 6,
+    "sodik": 240
   },
   {
     "kluc": "čučoried",
@@ -3864,7 +4270,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.3
+    "cena100": 1.3,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "kardamóm",
@@ -3877,7 +4285,9 @@
     "g_za_ks": 0.3,
     "hustota": 1,
     "meso": false,
-    "cena100": 8
+    "cena100": 8,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "datl",
@@ -3890,7 +4300,9 @@
     "g_za_ks": 8,
     "hustota": 1,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "kypriac",
@@ -3903,7 +4315,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "čokolád",
@@ -3918,7 +4332,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.2
+    "cena100": 3.2,
+    "vlaknina": 7,
+    "sodik": 20
   },
   {
     "kluc": "mušl",
@@ -3931,7 +4347,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": true,
-    "cena100": 1.8
+    "cena100": 1.8,
+    "vlaknina": 0,
+    "sodik": 290
   },
   {
     "kluc": "estragón",
@@ -3944,7 +4362,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "celozrn",
@@ -3959,7 +4379,9 @@
     "g_za_ks": 50,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 6,
+    "sodik": 450
   },
   {
     "kluc": "ríbezľ",
@@ -3972,7 +4394,9 @@
     "g_za_ks": null,
     "hustota": 1.3,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 4.3,
+    "sodik": 2
   },
   {
     "kluc": "lišk",
@@ -3985,7 +4409,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.8
+    "cena100": 1.8,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "gnocchi",
@@ -4001,7 +4427,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "šalvi",
@@ -4014,7 +4442,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "čokoládov",
@@ -4029,7 +4459,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "boriev",
@@ -4042,7 +4474,9 @@
     "g_za_ks": 0.1,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "agarov",
@@ -4055,7 +4489,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 8
+    "cena100": 8,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "krkovičk",
@@ -4068,7 +4504,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": true,
-    "cena100": 0.9
+    "cena100": 0.9,
+    "vlaknina": 0,
+    "sodik": 70
   },
   {
     "kluc": "hrach",
@@ -4081,7 +4519,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 8,
+    "sodik": 15
   },
   {
     "kluc": "mätov",
@@ -4094,7 +4534,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.8
+    "cena100": 1.8,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "pórov",
@@ -4107,7 +4549,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.4
+    "cena100": 0.4,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "jáhl",
@@ -4120,7 +4564,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.45
+    "cena100": 0.45,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "fazuľov",
@@ -4133,7 +4579,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "šparg",
@@ -4146,7 +4594,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "salát",
@@ -4159,7 +4609,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "reďkov",
@@ -4172,7 +4624,9 @@
     "g_za_ks": 15,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "kukuričn",
@@ -4185,7 +4639,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "chren",
@@ -4198,7 +4654,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "pistáci",
@@ -4213,7 +4671,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.5
+    "cena100": 3.5,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "kapar",
@@ -4226,7 +4686,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 3.2,
+    "sodik": 2350
   },
   {
     "kluc": "sezam",
@@ -4241,7 +4703,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "pohankov",
@@ -4254,7 +4718,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.7
+    "cena100": 0.7,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "želatín",
@@ -4268,7 +4734,9 @@
     "hustota": 1,
     "meso": false,
     "cena100": 3.5,
-    "g_za_platok": 2
+    "g_za_platok": 2,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "kari mlet",
@@ -4281,7 +4749,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "kurkuma",
@@ -4294,7 +4764,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "goji ber",
@@ -4307,7 +4779,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "sušené karí",
@@ -4320,7 +4794,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "pohánkov",
@@ -4333,7 +4809,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "zelené oliv",
@@ -4346,7 +4824,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 3.3,
+    "sodik": 1550
   },
   {
     "kluc": "datle",
@@ -4359,7 +4839,9 @@
     "g_za_ks": 8,
     "hustota": 1,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "brusnice sušené",
@@ -4372,7 +4854,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.8
+    "cena100": 1.8,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "goji sušené",
@@ -4385,7 +4869,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "hrušky",
@@ -4398,7 +4884,9 @@
     "g_za_ks": 180,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.25
+    "cena100": 0.25,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "polenta",
@@ -4411,7 +4899,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.4
+    "cena100": 0.4,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "jarné kurčatá",
@@ -4424,7 +4914,9 @@
     "g_za_ks": 1000,
     "hustota": 1,
     "meso": true,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 0,
+    "sodik": 70
   },
   {
     "kluc": "grep",
@@ -4437,7 +4929,9 @@
     "g_za_ks": 400,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "mandľové",
@@ -4452,7 +4946,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "pistácie",
@@ -4467,7 +4963,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 4
+    "cena100": 4,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "quinoa",
@@ -4480,7 +4978,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "brusnice sušené bez cukru",
@@ -4493,7 +4993,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "pohanka",
@@ -4506,7 +5008,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.7
+    "cena100": 0.7,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "kokos strúh",
@@ -4519,7 +5023,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "pekanové",
@@ -4534,7 +5040,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.5
+    "cena100": 3.5,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "kurkuma ml",
@@ -4547,7 +5055,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "reďkovky",
@@ -4560,7 +5070,9 @@
     "g_za_ks": 10,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "biele fazule",
@@ -4573,7 +5085,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 6,
+    "sodik": 240
   },
   {
     "kluc": "hlíva",
@@ -4586,7 +5100,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.9
+    "cena100": 0.9,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "červená repa surová",
@@ -4599,7 +5115,9 @@
     "g_za_ks": 100,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "žitné vločky",
@@ -4614,7 +5132,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "filé z pstruha",
@@ -4629,7 +5149,9 @@
     "g_za_ks": 150,
     "hustota": 1,
     "meso": true,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 0,
+    "sodik": 45
   },
   {
     "kluc": "filety z pstruha",
@@ -4644,7 +5166,9 @@
     "g_za_ks": 150,
     "hustota": 1,
     "meso": true,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 0,
+    "sodik": 45
   },
   {
     "kluc": "gorgonzola",
@@ -4659,7 +5183,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2.8
+    "cena100": 2.8,
+    "vlaknina": 0,
+    "sodik": 1400
   },
   {
     "kluc": "huby podľa",
@@ -4672,7 +5198,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "uvarená červená repa",
@@ -4685,7 +5213,9 @@
     "g_za_ks": 100,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "vaječné bielky",
@@ -4700,7 +5230,9 @@
     "g_za_ks": 33,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 0,
+    "sodik": 166
   },
   {
     "kluc": "ľanové semienko",
@@ -4713,7 +5245,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "sezamové",
@@ -4728,7 +5262,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "kokosová múčka",
@@ -4741,7 +5277,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "granátová",
@@ -4754,7 +5292,9 @@
     "g_za_ks": null,
     "hustota": 1.05,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "repa uvarená",
@@ -4767,7 +5307,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "roštenka",
@@ -4780,7 +5322,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": true,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 0,
+    "sodik": 55
   },
   {
     "kluc": "mungo klíčky",
@@ -4793,7 +5337,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.9
+    "cena100": 0.9,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "limeta bio",
@@ -4806,7 +5352,9 @@
     "g_za_ks": 70,
     "hustota": 1,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "salátové listy",
@@ -4819,7 +5367,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "para orechy",
@@ -4834,7 +5384,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.5
+    "cena100": 3.5,
+    "vlaknina": 8.0,
+    "sodik": 5
   },
   {
     "kluc": "rímsky",
@@ -4847,7 +5399,9 @@
     "g_za_ks": 350,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.4
+    "cena100": 0.4,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "šalvia",
@@ -4860,7 +5414,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.5
+    "cena100": 3.5,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "jačmenné vločky",
@@ -4875,7 +5431,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "červená šošovica",
@@ -4888,7 +5446,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.4
+    "cena100": 0.4,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "chia marmeláda",
@@ -4901,7 +5461,9 @@
     "g_za_ks": null,
     "hustota": 1.3,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "repa predvarená",
@@ -4914,7 +5476,9 @@
     "g_za_ks": 150,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "chilli paprička",
@@ -4927,7 +5491,9 @@
     "g_za_ks": 15,
     "hustota": 1,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "sušené slivky",
@@ -4940,7 +5506,9 @@
     "g_za_ks": 8,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "šťuky",
@@ -4955,7 +5523,9 @@
     "g_za_ks": 150,
     "hustota": 1,
     "meso": true,
-    "cena100": 3.5
+    "cena100": 3.5,
+    "vlaknina": 0,
+    "sodik": 45
   },
   {
     "kluc": "chilli vločky",
@@ -4968,7 +5538,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 4
+    "cena100": 4,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "čierna quinoa",
@@ -4981,7 +5553,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.8
+    "cena100": 1.8,
+    "vlaknina": 2.5,
+    "sodik": 5
   },
   {
     "kluc": "predvarená repa",
@@ -4994,7 +5568,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "nori riasa",
@@ -5008,7 +5584,9 @@
     "hustota": 1,
     "meso": false,
     "cena100": 9,
-    "g_za_platok": 3
+    "g_za_platok": 3,
+    "vlaknina": 30,
+    "sodik": 1200
   },
   {
     "kluc": "lopatka",
@@ -5021,7 +5599,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": true,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 0,
+    "sodik": 65
   },
   {
     "kluc": "hokkaido",
@@ -5034,7 +5614,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "kari pasta",
@@ -5049,7 +5631,9 @@
     "g_za_ks": null,
     "hustota": 1.1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 3,
+    "sodik": 2500
   },
   {
     "kluc": "hráškové struky",
@@ -5062,7 +5646,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1
+    "cena100": 1,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "celozrnné piškóty",
@@ -5078,7 +5664,9 @@
     "g_za_ks": 5,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "espresso",
@@ -5091,7 +5679,9 @@
     "g_za_ks": 30,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.4
+    "cena100": 0.4,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "čerstvé klíčky",
@@ -5104,7 +5694,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "marhule",
@@ -5117,7 +5709,9 @@
     "g_za_ks": 40,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "vanilkový puding",
@@ -5130,7 +5724,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 1.0,
+    "sodik": 25
   },
   {
     "kluc": "nakladané uhorky",
@@ -5143,7 +5739,9 @@
     "g_za_ks": 30,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.5
+    "cena100": 0.5,
+    "vlaknina": 1.2,
+    "sodik": 800
   },
   {
     "kluc": "sterilovaný hrášok",
@@ -5156,7 +5754,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.35
+    "cena100": 0.35,
+    "vlaknina": 5,
+    "sodik": 250
   },
   {
     "kluc": "avokádo",
@@ -5170,7 +5770,9 @@
     "hustota": 1,
     "meso": false,
     "cena100": 0.8,
-    "g_za_platok": 25
+    "g_za_platok": 25,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "tempeh",
@@ -5185,7 +5787,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 7,
+    "sodik": 9
   },
   {
     "kluc": "červené zelie",
@@ -5198,7 +5802,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "cukety malé",
@@ -5211,7 +5817,9 @@
     "g_za_ks": 80,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "vlaknina": 2.0,
+    "sodik": 8
   },
   {
     "kluc": "olomoucké tvarôžky",
@@ -5226,7 +5834,9 @@
     "g_za_ks": 20,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 0,
+    "sodik": 1200
   },
   {
     "kluc": "bazalkové listy",
@@ -5239,7 +5849,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "zubáča",
@@ -5254,7 +5866,9 @@
     "g_za_ks": 150,
     "hustota": 1,
     "meso": true,
-    "cena100": 4.5
+    "cena100": 4.5,
+    "vlaknina": 0,
+    "sodik": 45
   },
   {
     "kluc": "kmín drvený",
@@ -5267,7 +5881,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 3
+    "cena100": 3,
+    "vlaknina": 10.0,
+    "sodik": 30
   },
   {
     "kluc": "kefír",
@@ -5428,7 +6044,9 @@
     "g_za_ks": null,
     "hustota": 0.99,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "gin",
@@ -5441,7 +6059,9 @@
     "g_za_ks": null,
     "hustota": 0.95,
     "meso": false,
-    "cena100": 2.2
+    "cena100": 2.2,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "tonic",
@@ -5454,7 +6074,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "aperol",
@@ -5467,7 +6089,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2
+    "cena100": 2,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "vodový melón",
@@ -5481,7 +6105,8 @@
     "hustota": 1,
     "meso": false,
     "cena100": 0.3,
-    "vlaknina": 0.4
+    "vlaknina": 0.4,
+    "sodik": 8
   },
   {
     "kluc": "fusilli",
@@ -5513,7 +6138,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 1.2
+    "cena100": 1.2,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "špagety",
@@ -5545,7 +6172,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.2
+    "cena100": 0.2,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "whiskey",
@@ -5558,7 +6187,9 @@
     "g_za_ks": null,
     "hustota": 0.95,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "campari",
@@ -5571,7 +6202,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 2.2
+    "cena100": 2.2,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "kávový likér",
@@ -5584,7 +6217,9 @@
     "g_za_ks": null,
     "hustota": 1.1,
     "meso": false,
-    "cena100": 2.5
+    "cena100": 2.5,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "škvarky",
@@ -5597,7 +6232,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": true,
-    "cena100": 1.5
+    "cena100": 1.5,
+    "vlaknina": 0,
+    "sodik": 900
   },
   {
     "kluc": "fettuccine",
@@ -5629,7 +6266,9 @@
     "g_za_ks": null,
     "hustota": 1.05,
     "meso": false,
-    "cena100": 2.3
+    "cena100": 2.3,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "brandy",
@@ -5642,7 +6281,9 @@
     "g_za_ks": null,
     "hustota": 0.95,
     "meso": false,
-    "cena100": 2.8
+    "cena100": 2.8,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "pivo",
@@ -5657,7 +6298,9 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.3
+    "cena100": 0.3,
+    "vlaknina": 0.0,
+    "sodik": 8
   },
   {
     "kluc": "biela ryba",

@@ -167,4 +167,39 @@ ok("recept s nedopočítanou cenou to vie priznať (v.bezCeny)", () => {
   assert.ok(app.vyzivaReceptu(r2).bezCeny > 0, "nenapárovaná surovina sa má rátať ako chýbajúca cena");
 });
 
+// ─────────────────────────────────────────────────────────── B6: vláknina a sodík
+console.log("\nB6 — vláknina a sodík");
+ok("sójová omáčka prispieva ~5500 mg Na/100 g (predtým 0)", () => {
+  const p = app.najdiPotravinu("Sójová omáčka");
+  assert.ok(p && p.sodik > 4000, "sójová omáčka: " + (p && p.sodik) + " mg Na/100 g");
+});
+ok("týždeň so sójovou omáčkou ukáže sodík > 2000 mg/deň (predtým 1274)", () => {
+  const S = app.S;
+  S.viewOd = "2026-08-17";
+  S.plan = {}; S.planF = {};
+  const sojove = app.RECEPTY.filter(r => (r.ingrediencie || []).some(i => /sójov[aá] omáčk/i.test(i.nazov)));
+  assert.ok(sojove.length >= 7, "málo receptov so sójovou omáčkou: " + sojove.length);
+  let k = 0, sodikDni = [];
+  for (let di = 0; di < 7; di++) {
+    const iso = app.datumPre(di); S.plan[iso] = {};
+    ["Raňajky", "Obed", "Večera", "Snack"].forEach(sl => { S.plan[iso][sl] = [sojove[k++ % sojove.length].id]; });
+    let na = 0;
+    app.slotyDna(di).forEach(sl => app.slotIds(di, sl).forEach(cid => { na += app.vyzivaReceptu(app.komponent(cid)).na || 0; }));
+    sodikDni.push(na);
+  }
+  const priemer = sodikDni.reduce((a, x) => a + x, 0) / 7;
+  assert.ok(priemer > 2000, "sodík = " + Math.round(priemer) + " mg/deň");
+  S.plan = {}; S.planF = {};
+});
+ok("vyzivaReceptu hlási pokrytie hmoty údajmi (v.hmota / v.hmotaNa)", () => {
+  const r = { id: "_p", nazov: "P", porcie: 1, ingrediencie: [{ nazov: "Ryža", mnozstvo: 100, jednotka: "g" }] };
+  const v = app.vyzivaReceptu(r);
+  assert.ok(v.hmota > 0, "hmota sa neráta");
+  assert.ok(v.hmotaNa / v.hmota > 0.99, "ryža má známy sodík, pokrytie má byť 100 %");
+  const r2 = { id: "_p2", nazov: "P2", porcie: 1,
+    ingrediencie: [{ nazov: "Ryža", mnozstvo: 100, jednotka: "g" }, { nazov: "Zázračná zmes", mnozstvo: 100, jednotka: "g" }] };
+  const v2 = app.vyzivaReceptu(r2);
+  assert.ok(v2.hmotaNa / v2.hmota < 1, "nenapárovaná surovina má znížiť pokrytie");
+});
+
 console.log("\nOK — " + bezov + " kontrol prešlo.");
