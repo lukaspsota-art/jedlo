@@ -63,9 +63,40 @@ if(S.ciel && !S.profil._migr){ S.profil.kcal=parseInt(S.ciel)||S.profil.kcal; S.
 if(_prvySpust && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches){ S.profil.dark=true; } // E6
 function save(){uloz(S); if(typeof syncPush==="function")syncPush(); if(typeof syncOsobnePush==="function")syncOsobnePush(); if(typeof syncSkupinaPush==="function")syncSkupinaPush();}
 
+// B1: párovanie suroviny na potraviny.json. Ľubovoľný podreťazec nestačí — „olej na oPEKANie"
+// matchoval pekanový orech a „Kokosového mlieka" strúhaný kokos. Preto:
+//   1) porovnávame po SLOVÁCH (kľúč musí sadnúť na súvislú postupnosť slov názvu),
+//   2) slovenské skloňovanie riešime kmeňom kľúča + prefixom slova („kokosové mlieko" → kmene
+//      „kokosov"+„mliek" sadnú na „kokosového mlieka"),
+//   3) pri rovnako dlhom kľúči vyhráva ten, čo sedí bližšie k začiatku názvu.
+const _KONCOVKY=["ovanie","ovania","eho","emu","ymi","imi","ami","ach","och","iek","ien","ou","ej","ym","im","ie","ia","iu","ov","om","mi","a","e","i","o","u","y"];
+function _kmen(w){ if(w.length<=4) return w;
+  // kmeň nesmie klesnúť pod 4 znaky — inak „semien" → „sem" a chytá polovicu špajze
+  for(const k of _KONCOVKY){ if(w.length-k.length>=4 && w.slice(-k.length)===k) return w.slice(0,w.length-k.length); }
+  return w; }
+function _slova(s){ return bezDia(s).replace(/[^a-z0-9]+/g," ").trim().split(" ").filter(Boolean); }
+// koľko písmen smie slovo v názve pridať navyše ku kmeňu kľúča (skloňovanie/odvodenina);
+// pri krátkych kmeňoch menej, nech „med" nechytí „medvedí"
+function _presah(k){ return k.length<=3?2:5; }
+function _sadneOd(slova,kmene){
+  for(let i=0;i+kmene.length<=slova.length;i++){ let ok=true;
+    for(let j=0;j<kmene.length;j++){ const w=slova[i+j],k=kmene[j];
+      if(w.length<k.length || w.slice(0,k.length)!==k || w.length-k.length>_presah(k)){ ok=false; break; } }
+    if(ok) return i; }
+  return -1; }
+let _klucKmene=null;
+function _klucePripravene(){ if(!_klucKmene) _klucKmene=POTRAVINY.map(p=>({p,kmene:_slova(p.kluc).map(_kmen)})).filter(x=>x.kmene.length);
+  return _klucKmene; }
+const _potravinaCache=new Map(); // najdiPotravinu beží desaťtisíckrát pri každom prekreslení mriežky
 function najdiPotravinu(nazov){
-  const n=nazov.toLowerCase(); let best=null,dl=-1;
-  for(const p of POTRAVINY){ if(n.includes(p.kluc)&&p.kluc.length>dl){best=p;dl=p.kluc.length;} }
+  if(_potravinaCache.has(nazov)) return _potravinaCache.get(nazov);
+  const slova=_slova(nazov); let best=null,bestDl=-1,bestPoz=1e9;
+  for(const {p,kmene} of _klucePripravene()){
+    const poz=_sadneOd(slova,kmene); if(poz<0) continue;
+    const dl=p.kluc.length;
+    if(dl>bestDl || (dl===bestDl && poz<bestPoz)){ best=p; bestDl=dl; bestPoz=poz; }
+  }
+  _potravinaCache.set(nazov,best);
   return best;
 }
 // ml na jednotku pre objemové/lyžicové jednotky

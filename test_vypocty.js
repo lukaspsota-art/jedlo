@@ -79,4 +79,57 @@ ok("gramyNaJed je inverzná ku gramy (g, ml, ks, strúčik, plátok, list)", () 
   });
 });
 
+// ─────────────────────────────────────────────────────────── B1: párovanie surovín
+console.log("\nB1 — párovanie surovín na potraviny.json (skloňovanie a modifikátory)");
+ok("„Kokosového mlieka 400 ml“ → 197 kcal/100 g a ~2,00 € (predtým 660 kcal / 8,00 €)", () => {
+  const p = app.najdiPotravinu("Kokosového mlieka");
+  assert.ok(p, "kokosové mlieko sa nenapárovalo");
+  assert.ok(p.kcal <= 250, "kcal/100 g = " + p.kcal + " (kľúč " + p.kluc + ")");
+  const gr = app.gramy({ nazov: "Kokosového mlieka", mnozstvo: 400, jednotka: "ml" }, p);
+  const cena = gr / 100 * (p.cena100 || 0);
+  assert.ok(cena > 0.5 && cena < 3.5, "400 ml stojí " + cena.toFixed(2) + " €");
+});
+ok("„Maslová tekvica 300 g“ ≤ 200 kcal (predtým 2151 — párovalo sa na maslo)", () => {
+  const p = app.najdiPotravinu("Maslová tekvica");
+  assert.ok(p, "maslová tekvica sa nenapárovala");
+  assert.ok(3 * p.kcal <= 200, "300 g = " + 3 * p.kcal + " kcal (kľúč " + p.kluc + ")");
+});
+ok("„Olej na opekanie“ → olej, nie pekanový orech (o-PEKAN-ie)", () => {
+  const p = app.najdiPotravinu("Olej na opekanie");
+  assert.ok(p && /olej/.test(p.kluc), "napárované na " + (p && p.kluc));
+});
+ok("„Kokosová smotana“ nesmie mať alergén mlieko", () => {
+  const p = app.najdiPotravinu("Kokosová smotana");
+  assert.ok(p, "kokosová smotana sa nenapárovala");
+  assert.ok(!(p.alergeny || []).includes("mlieko"), "kľúč " + p.kluc + " má alergény " + p.alergeny);
+});
+ok("„Vanilkový cukor 1 ks“ nestojí 3,20 €", () => {
+  const p = app.najdiPotravinu("Vanilkový cukor");
+  const gr = app.gramy({ nazov: "Vanilkový cukor", mnozstvo: 1, jednotka: "ks" }, p);
+  const cena = gr / 100 * ((p && p.cena100) || 0);
+  assert.ok(cena < 0.6, "1 ks vanilkového cukru = " + cena.toFixed(2) + " € (kľúč " + (p && p.kluc) + ")");
+});
+ok("chicken-adobo: kcal/porcia ≈ 520 (Kuracích stehien → kľúč „kuracie steh“)", () => {
+  const k = app.kcalPorcia(app.receptById("chicken-adobo"));
+  assert.ok(k >= 460 && k <= 570, "chicken-adobo = " + k + " kcal (dekl. 520)");
+});
+ok("„Kondenzované mlieko“ nie je obyčajné mlieko (64 kcal)", () => {
+  const p = app.najdiPotravinu("Kondenzované mlieko");
+  assert.ok(p && p.kcal > 200, "kondenzované mlieko = " + (p && p.kcal) + " kcal (kľúč " + (p && p.kluc) + ")");
+});
+ok("„Krabie mäso 200 g“ má cenu", () => {
+  const p = app.najdiPotravinu("Krabie mäso");
+  assert.ok(p && p.cena100 > 0, "krabie mäso: kľúč " + (p && p.kluc) + ", cena " + (p && p.cena100));
+});
+ok("nepotravina „Špáradlá“ zmizla z ingrediencií", () => {
+  const zle = app.RECEPTY.filter(r => (r.ingrediencie || []).some(i => /špáradl|sparadl/i.test(i.nazov)));
+  assert.strictEqual(zle.length, 0, "ešte v: " + zle.map(r => r.id).join(", "));
+});
+ok("22 predtým nenapárovaných surovín (Krupica, Ementál, Bucatini…) sa páruje", () => {
+  ["Krupica", "Ementál", "Sušené hríby", "Lístkové cesto", "Lasagne pláty", "Bucatini",
+   "Tzatziki", "Balzamikový krém", "Paradajkový pretlak"].forEach(n => {
+    assert.ok(app.najdiPotravinu(n), n + " sa stále nepáruje");
+  });
+});
+
 console.log("\nOK — " + bezov + " kontrol prešlo.");
