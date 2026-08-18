@@ -1754,7 +1754,8 @@
     "sacharidy": 3,
     "g_za_ks": null,
     "hustota": 1.1,
-    "meso": false
+    "meso": false,
+    "cena100": 1.2
   },
   {
     "kluc": "bazalka",
@@ -1766,7 +1767,8 @@
     "sacharidy": 2.7,
     "g_za_ks": 3,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 3.0
   },
   {
     "kluc": "zeler",
@@ -1778,7 +1780,8 @@
     "sacharidy": 3,
     "g_za_ks": 40,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 0.25
   },
   {
     "kluc": "fazuľa",
@@ -1790,7 +1793,8 @@
     "sacharidy": 20,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 0.35
   },
   {
     "kluc": "vývar",
@@ -1802,7 +1806,8 @@
     "sacharidy": 0.3,
     "g_za_ks": 10,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 0.15
   },
   {
     "kluc": "rasca",
@@ -1814,7 +1819,8 @@
     "sacharidy": 44,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 3.0
   },
   {
     "kluc": "brokolica",
@@ -1828,7 +1834,8 @@
     "hustota": 1,
     "meso": false,
     "vlaknina": 2.6,
-    "sodik": 33
+    "sodik": 33,
+    "cena100": 0.4
   },
   {
     "kluc": "cajun",
@@ -1840,7 +1847,8 @@
     "sacharidy": 40,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 4.0
   },
   {
     "kluc": "gouda",
@@ -1855,7 +1863,8 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "g_za_platok": 20
+    "g_za_platok": 20,
+    "cena100": 1.1
   },
   {
     "kluc": "tuniak",
@@ -1869,7 +1878,8 @@
     "sacharidy": 0,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": true
+    "meso": true,
+    "cena100": 1.5
   },
   {
     "kluc": "majonéza",
@@ -1883,7 +1893,8 @@
     "sacharidy": 1,
     "g_za_ks": null,
     "hustota": 0.95,
-    "meso": false
+    "meso": false,
+    "cena100": 0.5
   },
   {
     "kluc": "šalát",
@@ -1895,7 +1906,8 @@
     "sacharidy": 2.9,
     "g_za_ks": 300,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 0.6
   },
   {
     "kluc": "uhorka",
@@ -1908,7 +1920,8 @@
     "g_za_ks": 300,
     "hustota": 1,
     "meso": false,
-    "g_za_platok": 8
+    "g_za_platok": 8,
+    "cena100": 0.25
   },
   {
     "kluc": "bravčov",
@@ -1920,7 +1933,8 @@
     "sacharidy": 0,
     "g_za_ks": 150,
     "hustota": 1,
-    "meso": true
+    "meso": true,
+    "cena100": 0.8
   },
   {
     "kluc": "kaizerka",
@@ -1934,7 +1948,8 @@
     "sacharidy": 54,
     "g_za_ks": 60,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 0.4
   },
   {
     "kluc": "cayenne",
@@ -1946,7 +1961,8 @@
     "sacharidy": 57,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 4.0
   },
   {
     "kluc": "zázvor",
@@ -1959,7 +1975,8 @@
     "g_za_ks": 30,
     "hustota": 1,
     "meso": false,
-    "g_za_platok": 2
+    "g_za_platok": 2,
+    "cena100": 0.6
   },
   {
     "kluc": "rezance",
@@ -1974,7 +1991,8 @@
     "sacharidy": 72,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 0.25
   },
   {
     "kluc": "zeleninová zmes",
@@ -1986,7 +2004,8 @@
     "sacharidy": 7,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 0.3
   },
   {
     "kluc": "škrob",
@@ -1998,7 +2017,8 @@
     "sacharidy": 91,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 0.35
   },
   {
     "kluc": "chilli omáčka",
@@ -2010,7 +2030,8 @@
     "sacharidy": 58,
     "g_za_ks": 15,
     "hustota": 1.2,
-    "meso": false
+    "meso": false,
+    "cena100": 1.0
   },
   {
     "kluc": "peri-peri",
@@ -2022,7 +2043,8 @@
     "sacharidy": 12,
     "g_za_ks": null,
     "hustota": 1.1,
-    "meso": false
+    "meso": false,
+    "cena100": 1.5
   },
   {
     "kluc": "kukurica",
@@ -2034,7 +2056,8 @@
     "sacharidy": 19,
     "g_za_ks": 150,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 0.35
   },
   {
     "kluc": "žerucha",
@@ -2046,7 +2069,8 @@
     "sacharidy": 4.4,
     "g_za_ks": 5,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "cena100": 3.0
   },
   {
     "kluc": "saláma",
@@ -2059,7 +2083,8 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": true,
-    "g_za_platok": 12
+    "g_za_platok": 12,
+    "cena100": 1.2
   },
   {
     "kluc": "chlieb",
@@ -2076,7 +2101,8 @@
     "meso": false,
     "vlaknina": 6,
     "sodik": 500,
-    "g_za_platok": 40
+    "g_za_platok": 40,
+    "cena100": 0.25
   },
   {
     "kluc": "mäso",
@@ -2088,7 +2114,8 @@
     "sacharidy": 0,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": true
+    "meso": true,
+    "cena100": 0.9
   },
   {
     "kluc": "hnedá ryža",
@@ -7753,5 +7780,39 @@
     "sodik": 71,
     "balenie_g": 400,
     "balenie_popis": "400 g"
+  },
+  {
+    "kluc": "perlivá voda",
+    "oddelenie": "Nápoje",
+    "alergeny": [],
+    "kcal": 0,
+    "bielkoviny": 0,
+    "tuky": 0,
+    "sacharidy": 0,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.05,
+    "balenie_g": 1500,
+    "balenie_popis": "1,5 l",
+    "vlaknina": 0,
+    "sodik": 5
+  },
+  {
+    "kluc": "minerálk",
+    "oddelenie": "Nápoje",
+    "alergeny": [],
+    "kcal": 0,
+    "bielkoviny": 0,
+    "tuky": 0,
+    "sacharidy": 0,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.05,
+    "balenie_g": 1500,
+    "balenie_popis": "1,5 l",
+    "vlaknina": 0,
+    "sodik": 30
   }
 ]

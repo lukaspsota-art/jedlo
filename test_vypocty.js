@@ -132,4 +132,39 @@ ok("22 predtým nenapárovaných surovín (Krupica, Ementál, Bucatini…) sa p�
   });
 });
 
+// ─────────────────────────────────────────────────────────── B5: chýbajúce ceny
+console.log("\nB5 — ceny potravín");
+ok("žiadna potravina nemá neznámu cenu (predtým 27 z 478)", () => {
+  const bez = app.POTRAVINY.filter(p => p.cena100 == null).map(p => p.kluc);
+  assert.strictEqual(bez.length, 0, "bez ceny: " + bez.join(", "));
+});
+ok("v týždennom pláne 2 stravníkov nie je položka nákupu s cenou 0,00 €", () => {
+  const S = app.S;
+  S.viewOd = "2026-08-17";
+  S.hranice = [true, false, true, false, false, true, false];
+  S.blokMode = true;
+  S.profil.stravnici = [{ nazov: "A", kcal: 1450 }, { nazov: "B", kcal: 1450 }];
+  S.plan = {}; S.planF = {};
+  // deterministický plán: prvých 28 receptov s ingredienciami do slotov týždňa
+  const zoz = app.RECEPTY.filter(r => (r.ingrediencie || []).some(i => i.mnozstvo != null)).slice(0, 28);
+  let k = 0;
+  for (let di = 0; di < 7; di++) {
+    const iso = app.datumPre(di); S.plan[iso] = {};
+    ["Raňajky", "Obed", "Večera", "Snack"].forEach(sl => { S.plan[iso][sl] = [zoz[k++ % zoz.length].id]; });
+  }
+  const rows = app.nakupItems().filter(r => r.gkey);
+  const nezname = rows.filter(r => r.bezCeny);
+  assert.strictEqual(nezname.length, 0, "neznáma cena: " + nezname.map(r => r.nazov).join(", "));
+  // jediná legitímna nula je voda z vodovodu — všetko ostatné musí mať cenu
+  const nulove = rows.filter(r => !(r.cena > 0) && !/vod[au]?$/i.test(r.nazov.trim()));
+  assert.strictEqual(nulove.length, 0, "nulová cena: " + nulove.map(r => r.nazov).join(", "));
+  S.plan = {}; S.planF = {};
+});
+ok("recept s nedopočítanou cenou to vie priznať (v.bezCeny)", () => {
+  const r = { id: "_c", nazov: "C", porcie: 1, ingrediencie: [{ nazov: "Ryža", mnozstvo: 100, jednotka: "g" }] };
+  assert.strictEqual(app.vyzivaReceptu(r).bezCeny, 0);
+  const r2 = { id: "_c2", nazov: "C2", porcie: 1, ingrediencie: [{ nazov: "Neznáma vec xyz", mnozstvo: 100, jednotka: "g" }] };
+  assert.ok(app.vyzivaReceptu(r2).bezCeny > 0, "nenapárovaná surovina sa má rátať ako chýbajúca cena");
+});
+
 console.log("\nOK — " + bezov + " kontrol prešlo.");

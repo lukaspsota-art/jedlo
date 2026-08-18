@@ -139,17 +139,19 @@ function gramyNaJed(g,jed,p){ const j=(jed||"").toLowerCase().trim(); const h=(p
   if(ML_JED[j]!=null)return g/(ML_JED[j]*h);
   const gj=gZaJednotku(j,p); return gj?g/gj:null; }
 function vyzivaReceptu(r){
-  let kc=0,b=0,t=0,s=0,cena=0,vl=0,na=0,zname=false;
+  let kc=0,b=0,t=0,s=0,cena=0,vl=0,na=0,zname=false,bezCeny=0;
   (r.ingrediencie||[]).forEach(i=>{
     const p=najdiPotravinu(i.nazov);
-    if(!p){ if(i.mnozstvo!=null) zname=true; return; }
+    if(!p){ if(i.mnozstvo!=null){ zname=true; bezCeny++; } return; }
     const g=gramy(i,p);
     if(!(g>0)&&i.mnozstvo!=null){ zname=true; return; } // B2: nedopočítaná hmotnosť → kcal je len odhad
     kc+=g*p.kcal/100; b+=g*p.bielkoviny/100; t+=g*p.tuky/100; s+=g*p.sacharidy/100;
+    // B5: cena100 == null znamená NEZNÁMA cena (0 je platná cena, napr. voda z vodovodu)
+    if(g>0 && p.cena100==null) bezCeny++;
     cena+=g*(p.cena100||0)/100; vl+=g*(p.vlaknina||0)/100; na+=g*(p.sodik||0)/100;
   });
   const por=r.porcie||1;
-  const v={kcal:kc/por,b:b/por,t:t/por,s:s/por,cena:cena/por,vl:vl/por,na:na/por,pribl:zname};
+  const v={kcal:kc/por,b:b/por,t:t/por,s:s/por,cena:cena/por,vl:vl/por,na:na/por,pribl:zname,bezCeny:bezCeny};
   // Záchranná brzda pri chybných dátach: keď recept nesie kurátorované kcal_na_porciu a súčet z potravín
   // sa líši >1,6×, chýba (alebo prebýva) hmota — typicky nespárovaná surovina alebo množstvo bez jednotky.
   // Ver JSON-u a dorovnaj VŠETKO odvodené od hmotnosti rovnakým faktorom, nech kcal a makrá nehovoria dve rôzne veci.
@@ -941,7 +943,7 @@ function nakupPolozky(){
       const j=(i.jednotka||"").toLowerCase();
       const rodina = j==="ml" ? "ml" : ((j==="g"||j==="gram") ? "g" : "ks");
       const mn=skalovanaHodnota(i.mnozstvo,i.jednotka,fPocet,fVelkost);
-      if(p){ const kluc=p.kluc; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:p.oddelenie||"Ostatné",p:p,matched:true,grams:0,cena:0,hasKs:false,hasMl:false,hasG:false,zdroje:[]};
+      if(p){ const kluc=p.kluc; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:p.oddelenie||"Ostatné",p:p,matched:true,grams:0,cena:0,hasKs:false,hasMl:false,hasG:false,bezCeny:p.cena100==null,zdroje:[]};
         const G=grp[kluc]; const g=gramy({mnozstvo:mn,jednotka:i.jednotka},p);
         G.grams+=g; G.cena+=g/100*(p.cena100||0);
         G.zdroje.push({recept:r.nazov,id:r.id,ing:i.nazov,mn,jednotka:i.jednotka||""});
@@ -974,7 +976,7 @@ function nakupCheckKey(key){ return S.viewOd+"|"+key; }
 function nakupItems(){
   const {grp,notes}=nakupPolozky(); const tok=domaTokens(); const rows=[];
   Object.values(grp).forEach(G=>{ const key=G.key.replace(/'/g,""); const doma=jeDoma(G.nazov,tok);
-    rows.push({key,gkey:G.key,odd:G.oddelenie||"Ostatné",nazov:G.nazov,mnoz:nakupMnozstvo(G),cena:nakupCena(G),akc:ingVakcii(G.nazov),doma,vSpajzi:mamVSpajzi(G.nazov),klik:true,ck:!!(S.nakupCheck[nakupCheckKey(key)]||doma)}); });
+    rows.push({key,gkey:G.key,odd:G.oddelenie||"Ostatné",nazov:G.nazov,mnoz:nakupMnozstvo(G),cena:nakupCena(G),bezCeny:!!G.bezCeny,akc:ingVakcii(G.nazov),doma,vSpajzi:mamVSpajzi(G.nazov),klik:true,ck:!!(S.nakupCheck[nakupCheckKey(key)]||doma)}); });
   Object.values(notes).forEach(N=>{ const key="note|"+bezDia(N.nazov); const doma=jeDoma(N.nazov,tok);
     rows.push({key,odd:N.oddelenie||"Ostatné",nazov:N.nazov,mnoz:"<i>"+N.pozn+"</i>",akc:false,doma,klik:true,ck:!!(S.nakupCheck[nakupCheckKey(key)]||doma)}); });
   return rows;
@@ -1001,7 +1003,8 @@ function renderNakup(){
   const oddPor=poradie.filter(o=>podla[o]).concat(Object.keys(podla).filter(o=>!poradie.includes(o)));
   let h="";
   const totalCena=nez.reduce((a,r)=>a+(r.cena||0),0); const akciaN=nez.filter(r=>r.akc).length;
-  if(nez.length){ h+=`<div class="nakup-suhrn"><span><b>${nez.length}</b> položiek na kúpu</span><span>~ <b>${eur(totalCena)}</b></span>${akciaN?`<span class="badge price">🏷️ ${akciaN} v akcii</span>`:""}</div>`; }
+  const bezCenyN=nez.filter(r=>r.bezCeny).length; // B5: radšej „~ 86 € (3 bez ceny)" než tiché podhodnotenie
+  if(nez.length){ h+=`<div class="nakup-suhrn"><span><b>${nez.length}</b> položiek na kúpu</span><span>~ <b>${eur(totalCena)}</b>${bezCenyN?` <span class="info">(${bezCenyN} bez ceny)</span>`:""}</span>${akciaN?`<span class="badge price">🏷️ ${akciaN} v akcii</span>`:""}</div>`; }
   if(lowStock.length){ h+='<div class="odd"><h4>🧊 Doplniť zásoby (pod minimom)</h4>'; lowStock.forEach(x=>{ h+=`<label><span class="nm2">${x.nazov} — <b>${fmt(Math.max(0,x.min-x.mnozstvo))} ${x.jednotka}</b></span></label>`; }); h+="</div>"; }
   oddPor.forEach(o=>{ h+=`<div class="odd"><h4>${o}</h4>`; podla[o].sort((a,b)=>a.nazov.localeCompare(b.nazov,"sk")).forEach(r=>h+=riadokNakup(r)); h+="</div>"; });
   if(vSp.length){ h+='<div class="odd done-sekcia"><h4>🏠 Mám v špajzi (over pred nákupom)</h4>'; vSp.sort((a,b)=>a.nazov.localeCompare(b.nazov,"sk")).forEach(r=>h+=riadokNakup(r)); h+="</div>"; }
