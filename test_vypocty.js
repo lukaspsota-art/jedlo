@@ -47,4 +47,36 @@ ok("neznáma hmotnosť kusa → 0 g a príznak „≈ odhad\"", () => {
   assert.ok(app.vyzivaReceptu(r).pribl, "recept s nedopočítanou surovinou musí byť označený ako odhad");
 });
 
+// ─────────────────────────────────────────────────────────── B3: KS_DEF vs g_za_ks
+console.log("\nB3 — jednotka listu/plátku/strúčika sa už neráta ako celý kus");
+ok("„Šalát 4 list“ ≤ 60 g (predtým 1200 g = 4 hlávky)", () => {
+  const gr = g("Hlávkový šalát", 4, "list");
+  assert.ok(gr > 0 && gr <= 60, "šalát = " + gr + " g");
+});
+ok("tortilla-wrap-sunka-eidam: 463 → ≤ 425 kcal/porcia (dekl. 397)", () => {
+  const k = app.kcalPorcia(app.receptById("tortilla-wrap-sunka-eidam"));
+  assert.ok(k <= 425, "wrap = " + k + " kcal");
+});
+ok("„Šalátové listy 2 hrsť“ = 60 g, „Bazalka 24 lístok“ = 24 g", () => {
+  assert.strictEqual(g("Šalátové listy", 2, "hrsť"), 60);
+  assert.strictEqual(g("Bazalka", 24, "lístok"), 24);
+});
+ok("plátok má vlastnú hmotnosť: toastový chlieb 2 plátky = 56 g, nori 1 plátok = 3 g", () => {
+  assert.strictEqual(g("Toastový chlieb", 2, "plátok"), 56);
+  assert.strictEqual(g("Nori riasa", 1, "plátok"), 3);
+});
+ok("gramyNaJed je inverzná ku gramy (g, ml, ks, strúčik, plátok, list)", () => {
+  const vzorky = [
+    ["Cesnak", 8, "strúčik"], ["Hlávkový šalát", 4, "list"], ["Toastový chlieb", 2, "plátok"],
+    ["Vajce", 3, "ks"], ["Ryža", 250, "g"], ["Mlieko", 200, "ml"], ["Cesnak", 1, "strúčik"],
+  ];
+  vzorky.forEach(([nazov, mn, jed]) => {
+    const p = app.najdiPotravinu(nazov);
+    const gr = app.gramy({ nazov, mnozstvo: mn, jednotka: jed }, p);
+    assert.ok(gr > 0, nazov + " " + mn + " " + jed + " → 0 g");
+    const spat = app.gramyNaJed(gr, jed, p);
+    assert.ok(Math.abs(spat - mn) < 1e-9, nazov + ": " + mn + " " + jed + " → " + gr + " g → " + spat + " " + jed);
+  });
+});
+
 console.log("\nOK — " + bezov + " kontrol prešlo.");

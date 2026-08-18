@@ -71,7 +71,17 @@ function najdiPotravinu(nazov){
 // ml na jednotku pre objemové/lyžicové jednotky
 const ML_JED={"pl":15,"lyžica":15,"lyzica":15,"polievková lyžica":15,"čl":5,"cl":5,"lyžička":5,"lyzicka":5,"šálka":250,"salka":250,"hrnček":250,"hrncek":250,"pohár":250,"pohar":250,"dcl":100,"dl":100,"l":1000,"liter":1000};
 // približná hmotnosť v g pre počítateľné jednotky bez g_za_ks (ponytail: hrubé defaulty; presné hodnoty patria do potraviny.json v Etape 3)
-const KS_DEF={"strúčik":5,"strucik":5,"plátok":20,"platok":20,"list":3,"lístok":1,"listok":1,"hlávka":300,"hlavka":300,"hrsť":30,"hrst":30,"štipka":0.5,"stipka":0.5,"zväzok":60,"zvazok":60,"vetvička":2,"vetvicka":2,"stredná":150,"stredny":150,"stredné":150};
+const KS_DEF={"strúčik":5,"strucik":5,"plátok":20,"platok":20,"list":8,"lístok":1,"listok":1,"hlávka":300,"hlavka":300,"hrsť":30,"hrst":30,"štipka":0.5,"stipka":0.5,"zväzok":60,"zvazok":60,"vetvička":2,"vetvicka":2,"stredná":150,"stredny":150,"stredné":150};
+const KS_JEDNOTKY=["ks","kus","rožok","rozok","žemľa","zemla"]; // jednotky, pre ktoré platí g_za_ks
+// B3: hmotnosť JEDNÉHO kusa danej jednotky. `g_za_ks` je hmotnosť KUSA — nesmie prebiť „list"/„strúčik"/
+// „hrsť" (inak „Šalát 4 list" = 4 hlávky = 1200 g). Plátok má vlastné pole `g_za_platok`
+// (toastový chlieb 28 g, nori 3 g), lebo paušálnych 20 g mu nesedí.
+function gZaJednotku(j,p){
+  if(j==="plátok"||j==="platok") return (p&&p.g_za_platok)||KS_DEF["plátok"];
+  if(KS_DEF[j]!=null) return KS_DEF[j];
+  if(KS_JEDNOTKY.includes(j)) return (p&&p.g_za_ks)||0;
+  return 0;
+}
 function gramy(ing,p){
   if(ing.mnozstvo==null) return 0;
   const j=(ing.jednotka||"").toLowerCase().trim();
@@ -80,12 +90,10 @@ function gramy(ing,p){
   if(j==="kg") return ing.mnozstvo*1000;
   if(j==="ml") return ing.mnozstvo*h;
   if(ML_JED[j]!=null) return ing.mnozstvo*ML_JED[j]*h;
-  const gk=(p&&p.g_za_ks)||0;
-  if(gk) return ing.mnozstvo*gk;
-  if(KS_DEF[j]!=null) return ing.mnozstvo*KS_DEF[j];
   // B2: kus bez g_za_ks nedopočítame — 0 g a viditeľné „≈ odhad" je lepšie ako tichých 60 g
   // (4 kardamómy nie sú 240 g). Chýbajúce hmotnosti vypíše scripts/najdi_ks.py.
-  return 0; // neznáma/popisná jednotka ("na cesto", "dresing"…) — dátový problém, rieši sa čistením dát
+  // 0 zostáva aj pre neznámu/popisnú jednotku ("na cesto", "dresing"…) — to je dátový problém.
+  return ing.mnozstvo*gZaJednotku(j,p);
 }
 function jeTekutina(p){ if(!p)return false; if(p.oddelenie==="Oleje a tuky")return true;
   return /mlieko|olej|ocot|víno|vino|vývar|vyvar|smotan|šťav|stav|sirup|voda|kečup|kecup|omáčk|omack|jogurt|nápoj|napoj|džús|dzus|pivo|med|pasírované|passata/.test(p.kluc); }
@@ -93,9 +101,12 @@ function povoleneJednotky(p){ if(!p) return ["g","kg","ks","ml","l","balenie"];
   const u=[]; if(p.g_za_ks) u.push("ks"); if(jeTekutina(p)){ u.push("ml","l"); } u.push("g","kg"); if(!u.includes("ks"))u.push("ks"); u.push("balenie");
   return [...new Set(u)]; }
 function krokPreJednotku(jed){ const j=(jed||"").toLowerCase(); if(j==="kg"||j==="l")return 0.1; if(j==="ks"||j==="balenie")return 1; return 10; }
+// B3: presná inverzia ku gramy() — gramyNaJed(gramy(x),x.jednotka,p) === x.mnozstvo.
+// null = jednotku nevieme previesť (volajúci to musí ošetriť, nie hádať).
 function gramyNaJed(g,jed,p){ const j=(jed||"").toLowerCase().trim(); const h=(p&&p.hustota)||1;
-  if(j==="g"||j==="gram")return g; if(j==="kg")return g/1000; if(j==="ml")return g/h; if(ML_JED[j]!=null)return g/(ML_JED[j]*h);
-  const gk=(p&&p.g_za_ks)||0; if(gk&&(j==="ks"||j==="kus"))return g/gk; if(KS_DEF[j]!=null)return g/KS_DEF[j]; if(j==="ks"||j==="kus")return g/60; return null; }
+  if(j==="g"||j==="gram"||j==="gramov")return g; if(j==="kg")return g/1000; if(j==="ml")return g/h;
+  if(ML_JED[j]!=null)return g/(ML_JED[j]*h);
+  const gj=gZaJednotku(j,p); return gj?g/gj:null; }
 function vyzivaReceptu(r){
   let kc=0,b=0,t=0,s=0,cena=0,vl=0,na=0,zname=false;
   (r.ingrediencie||[]).forEach(i=>{

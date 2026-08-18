@@ -16,7 +16,8 @@
     "balenie_g": 125,
     "balenie_popis": "125 g",
     "vlaknina": 0,
-    "sodik": 400
+    "sodik": 400,
+    "g_za_platok": 20
   },
   {
     "kluc": "olivy",
@@ -169,7 +170,8 @@
     "balenie_g": 100,
     "balenie_popis": "100 g",
     "vlaknina": 0,
-    "sodik": 1100
+    "sodik": 1100,
+    "g_za_platok": 15
   },
   {
     "kluc": "bravčový bôčik",
@@ -256,7 +258,8 @@
     "balenie_g": 300,
     "balenie_popis": "300 g",
     "vlaknina": 0,
-    "sodik": 600
+    "sodik": 600,
+    "g_za_platok": 20
   },
   {
     "kluc": "oštiepok",
@@ -381,7 +384,8 @@
     "balenie_g": 500,
     "balenie_popis": "500 g",
     "vlaknina": 4,
-    "sodik": 450
+    "sodik": 450,
+    "g_za_platok": 28
   },
   {
     "kluc": "tortilla",
@@ -458,7 +462,8 @@
     "meso": false,
     "cena100": 0.1,
     "vlaknina": 1.7,
-    "sodik": 4
+    "sodik": 4,
+    "g_za_platok": 10
   },
   {
     "kluc": "červená paprika",
@@ -501,7 +506,8 @@
     "meso": false,
     "cena100": 0.3,
     "vlaknina": 1.2,
-    "sodik": 5
+    "sodik": 5,
+    "g_za_platok": 15
   },
   {
     "kluc": "citrón",
@@ -516,7 +522,8 @@
     "meso": false,
     "cena100": 0.3,
     "vlaknina": 2.8,
-    "sodik": 2
+    "sodik": 2,
+    "g_za_platok": 8
   },
   {
     "kluc": "pažítka",
@@ -929,7 +936,8 @@
     "balenie_g": 100,
     "balenie_popis": "100 g",
     "vlaknina": 0,
-    "sodik": 1500
+    "sodik": 1500,
+    "g_za_platok": 25
   },
   {
     "kluc": "klobás",
@@ -1027,7 +1035,8 @@
     "balenie_g": 200,
     "balenie_popis": "200 g",
     "vlaknina": 0,
-    "sodik": 700
+    "sodik": 700,
+    "g_za_platok": 20
   },
   {
     "kluc": "čedar",
@@ -1316,7 +1325,8 @@
     "g_za_ks": 67,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.6
+    "cena100": 0.6,
+    "g_za_platok": 6
   },
   {
     "kluc": "vlašské orechy",
@@ -1599,7 +1609,8 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "g_za_platok": 30
   },
   {
     "kluc": "limoncello",
@@ -1843,7 +1854,8 @@
     "sacharidy": 2,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "g_za_platok": 20
   },
   {
     "kluc": "tuniak",
@@ -1895,7 +1907,8 @@
     "sacharidy": 3.6,
     "g_za_ks": 300,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "g_za_platok": 8
   },
   {
     "kluc": "bravčov",
@@ -1945,7 +1958,8 @@
     "sacharidy": 18,
     "g_za_ks": 30,
     "hustota": 1,
-    "meso": false
+    "meso": false,
+    "g_za_platok": 2
   },
   {
     "kluc": "rezance",
@@ -2044,7 +2058,8 @@
     "sacharidy": 1,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": true
+    "meso": true,
+    "g_za_platok": 12
   },
   {
     "kluc": "chlieb",
@@ -2060,7 +2075,8 @@
     "hustota": 1,
     "meso": false,
     "vlaknina": 6,
-    "sodik": 500
+    "sodik": 500,
+    "g_za_platok": 40
   },
   {
     "kluc": "mäso",
@@ -2331,7 +2347,8 @@
     "balenie_g": 500,
     "balenie_popis": "500 g",
     "vlaknina": 7,
-    "sodik": 450
+    "sodik": 450,
+    "g_za_platok": 40
   },
   {
     "kluc": "arašidové maslo",
@@ -3603,7 +3620,8 @@
     "g_za_ks": null,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.7
+    "cena100": 0.7,
+    "g_za_platok": 60
   },
   {
     "kluc": "kiwi",
@@ -4222,7 +4240,8 @@
     "g_za_ks": 2,
     "hustota": 1,
     "meso": false,
-    "cena100": 3.5
+    "cena100": 3.5,
+    "g_za_platok": 2
   },
   {
     "kluc": "kari mlet",
@@ -4961,7 +4980,8 @@
     "g_za_ks": 3,
     "hustota": 1,
     "meso": false,
-    "cena100": 9
+    "cena100": 9,
+    "g_za_platok": 3
   },
   {
     "kluc": "lopatka",
@@ -5122,7 +5142,8 @@
     "g_za_ks": 180,
     "hustota": 1,
     "meso": false,
-    "cena100": 0.8
+    "cena100": 0.8,
+    "g_za_platok": 25
   },
   {
     "kluc": "tempeh",
@@ -5806,7 +5827,8 @@
     "balenie_g": null,
     "balenie_popis": null,
     "vlaknina": 2,
-    "sodik": 0
+    "sodik": 0,
+    "g_za_platok": 2
   },
   {
     "kluc": "karí listy",
@@ -6420,7 +6442,8 @@
     "balenie_g": 80,
     "balenie_popis": "80 g",
     "vlaknina": 0,
-    "sodik": 2100
+    "sodik": 2100,
+    "g_za_platok": 12
   },
   {
     "kluc": "chorizo",
