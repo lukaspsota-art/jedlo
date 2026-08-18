@@ -83,7 +83,8 @@ function gramy(ing,p){
   const gk=(p&&p.g_za_ks)||0;
   if(gk) return ing.mnozstvo*gk;
   if(KS_DEF[j]!=null) return ing.mnozstvo*KS_DEF[j];
-  if(j==="ks"||j==="kus"||j==="rožok"||j==="rozok"||j==="žemľa"||j==="zemla") return ing.mnozstvo*60; // ponytail: default ks bez g_za_ks
+  // B2: kus bez g_za_ks nedopočítame — 0 g a viditeľné „≈ odhad" je lepšie ako tichých 60 g
+  // (4 kardamómy nie sú 240 g). Chýbajúce hmotnosti vypíše scripts/najdi_ks.py.
   return 0; // neznáma/popisná jednotka ("na cesto", "dresing"…) — dátový problém, rieši sa čistením dát
 }
 function jeTekutina(p){ if(!p)return false; if(p.oddelenie==="Oleje a tuky")return true;
@@ -101,6 +102,7 @@ function vyzivaReceptu(r){
     const p=najdiPotravinu(i.nazov);
     if(!p){ if(i.mnozstvo!=null) zname=true; return; }
     const g=gramy(i,p);
+    if(!(g>0)&&i.mnozstvo!=null){ zname=true; return; } // B2: nedopočítaná hmotnosť → kcal je len odhad
     kc+=g*p.kcal/100; b+=g*p.bielkoviny/100; t+=g*p.tuky/100; s+=g*p.sacharidy/100;
     cena+=g*(p.cena100||0)/100; vl+=g*(p.vlaknina||0)/100; na+=g*(p.sodik||0)/100;
   });
@@ -216,7 +218,7 @@ function kartaHTML(r){
     '<div class="thumb" onclick="otvor(\''+r.id+'\')">'+thumb+'</div>'+
     '<div class="body" onclick="otvor(\''+r.id+'\')">'+
       '<span class="kat">'+(r.kategoria||"")+'</span><h3>'+r.nazov+'</h3>'+
-      '<div class="meta">'+(r.cas?'<span>⏱ '+r.cas+'</span>':"")+(kc?'<span>🔥 '+kc+' kcal</span>':"")+(v.cena>0.01?'<span>💶 '+eur(v.cena)+'</span>':"")+'</div>'+
+      '<div class="meta">'+(r.cas?'<span>⏱ '+r.cas+'</span>':"")+(kc?'<span title="'+(v.pribl?"odhad — časť surovín sa nedá dopočítať":"")+'">🔥 '+(v.pribl?"≈ ":"")+kc+' kcal</span>':"")+(v.cena>0.01?'<span>💶 '+eur(v.cena)+'</span>':"")+'</div>'+
       (v.kcal>5?'<div class="macros">B '+fmt(v.b)+' · T '+fmt(v.t)+' · S '+fmt(v.s)+' g</div>':'')+
       '<div class="stars">'+(hod?starsHTML(hod):"")+'</div>'+
       spajzaMatchEl(r)+
