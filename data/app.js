@@ -236,6 +236,7 @@ function zobrazView(v){
   else if(v==="vyziva") renderVyziva();
   else if(v==="nastavenia"){ naplnProfil(); renderSyncStav(); }
   else if(v==="spajza") renderSpajza();
+  zpristupniFormulare(el||document); // D6: menovky aj pre polia vykreslené až pri zobrazení sekcie
   window.scrollTo(0, _scrollPos[v]||0); // E7: obnov scroll (0 pre novú obrazovku)
 }
 function tik(){ try{ navigator.vibrate&&navigator.vibrate(8); }catch(e){} } // X1: jemná haptika na diskrétne akcie
@@ -552,9 +553,17 @@ function zpristupniFormulare(root){ const r=root||document;
     if(el.type==="hidden")return;
     if(!el.id)el.id="pole-"+(++_idPolia);
     let lab=el.closest("label");
-    if(!lab){ const f=el.closest(".field"); lab=f?f.querySelector("label"):null;
+    // menovku z .field priraď len keď v nej je JEDINÉ pole — inak by jeden <label> „patril"
+    // trom inputom (stravníci) a zvyšné by ostali bez menovky
+    if(!lab){ const f=el.closest(".field");
+      const jedine=f && f.querySelectorAll("input,select,textarea").length===1;
+      lab=jedine?f.querySelector("label"):null;
       if(lab && !lab.getAttribute("for")) lab.setAttribute("for",el.id); }
-    if(!lab && !el.getAttribute("aria-label")){ const t=el.getAttribute("placeholder")||el.getAttribute("title"); if(t)el.setAttribute("aria-label",t); }
+    if(!lab && !el.getAttribute("aria-label")){
+      // pri <select> bez menovky poslúži text prvej možnosti („Všetky kuchyne", „Zoradiť: predvolené")
+      const t=el.getAttribute("placeholder")||el.getAttribute("title")||
+        (el.tagName==="SELECT"&&el.options&&el.options[0]?el.options[0].textContent.trim():"");
+      if(t)el.setAttribute("aria-label",t); }
   });
   r.querySelectorAll("button").forEach(b=>{
     if(!b.textContent.trim() && !b.getAttribute("aria-label")) b.setAttribute("aria-label",b.getAttribute("title")||"Zavrieť");
@@ -1576,7 +1585,7 @@ async function resetApp(){ if(!await confirmModal("Naozaj vymazať VŠETKY dáta
   try{ localStorage.removeItem(LS); }catch(e){} location.reload(); }
 function normStravnici(){ if(!Array.isArray(S.profil.stravnici)||!S.profil.stravnici.length){ S.profil.stravnici=stravniciList(); } S.profil.osoby=S.profil.stravnici.length; }
 function renderStravnici(){ const box=document.getElementById("stravnici-box"); if(!box)return; const l=stravniciList();
-  box.innerHTML=l.map((p,i)=>`<div style="display:flex;gap:6px;margin-bottom:6px"><input value="${(p.nazov||"").replace(/"/g,"")}" onchange="zmenStravnika(${i},'nazov',this.value)" placeholder="meno" style="flex:1;padding:8px;border:1px solid var(--line);border-radius:8px"><input type="number" value="${p.kcal||""}" onchange="zmenStravnika(${i},'kcal',this.value)" title="kcal/deň" style="width:110px;padding:8px;border:1px solid var(--line);border-radius:8px"><a onclick="zmazStravnika(${i})" style="color:var(--warn);cursor:pointer;align-self:center" title="odobrať">✕</a></div>`).join(""); naplnKohoSelect(); }
+  box.innerHTML=l.map((p,i)=>`<div style="display:flex;gap:6px;margin-bottom:6px"><input value="${(p.nazov||"").replace(/"/g,"")}" onchange="zmenStravnika(${i},'nazov',this.value)" placeholder="meno" title="meno stravníka" style="flex:1;padding:8px;border:1px solid var(--line);border-radius:8px"><input type="number" value="${p.kcal||""}" onchange="zmenStravnika(${i},'kcal',this.value)" title="kcal/deň" style="width:110px;padding:8px;border:1px solid var(--line);border-radius:8px"><a onclick="zmazStravnika(${i})" style="color:var(--warn);cursor:pointer;align-self:center" title="odobrať">✕</a></div>`).join(""); naplnKohoSelect(); zpristupniFormulare(box); } // D6: menovky aj pre dynamicky vykreslené polia
 function pridajStravnika(){ const l=stravniciList().slice(); l.push({nazov:"Ďalší",kcal:S.profil.kcal||1450}); S.profil.stravnici=l; S.profil.osoby=l.length; save(); renderStravnici(); }
 function zmenStravnika(i,k,v){ const l=stravniciList().slice(); if(!l[i])return; l[i][k]=(k==="kcal")?(parseInt(v)||0):v; S.profil.stravnici=l; S.profil.osoby=l.length; save(); }
 function zmazStravnika(i){ let l=stravniciList().slice(); if(l.length<=1)return; l.splice(i,1); S.profil.stravnici=l; S.profil.osoby=l.length; save(); renderStravnici(); }

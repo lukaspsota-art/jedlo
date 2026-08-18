@@ -153,7 +153,10 @@
   /* D3: tabuľka plánu má 7 dní (~1730 px), obsah je inak orezaný na 1050 px a 3 dni sa museli
      doscrollovať aj na 1440 px monitore. Plán preto dostane celú šírku okna. */
   .content:has(#v-planovac.view.active){max-width:none}
-  table.plan{border-collapse:collapse;width:100%;min-width:740px}
+  /* D3: table-layout:fixed + zalamovanie — tabuľka sa zmestí do okna namiesto 1731 px,
+     na mobile ju ďalej drží min-width a .plan-grid ju scrolluje vodorovne */
+  table.plan{border-collapse:collapse;width:100%;min-width:740px;table-layout:fixed}
+  table.plan td .nm{overflow-wrap:anywhere}
   table.plan th,table.plan td{border:1px solid var(--line);padding:6px;vertical-align:top;background:#fff}
   table.plan th{background:var(--accent-dark);color:#fff;font-weight:600;font-size:14px}
   table.plan td{width:13%;height:66px}
@@ -449,9 +452,9 @@
         <div class="controls">
           <input id="sp-nazov" list="potraviny-dl" placeholder="Surovina (vyber zo zoznamu)" oninput="aktualizujJednotky()" style="flex:1;min-width:160px;padding:10px;border:1px solid var(--line);border-radius:9px">
           <input id="sp-mn" type="number" placeholder="množstvo" style="width:110px;padding:10px;border:1px solid var(--line);border-radius:9px">
-          <select class="f" id="sp-jed"></select>
+          <select class="f" id="sp-jed" title="jednotka"></select>
           <select class="f" id="sp-miesto"><option>Špajza</option><option>Chladnička</option><option>Mraznička</option></select>
-          <input id="sp-exp" type="date" style="padding:9px;border:1px solid var(--line);border-radius:9px">
+          <input id="sp-exp" type="date" title="dátum spotreby" style="padding:9px;border:1px solid var(--line);border-radius:9px">
           <input id="sp-min" type="number" placeholder="min" title="minimálne množstvo" style="width:80px;padding:10px;border:1px solid var(--line);border-radius:9px">
           <button class="btn primary" onclick="pridajZasobu()">Pridať</button>
         </div>
@@ -511,7 +514,7 @@
       <div class="panel"><h3>Záloha dát</h3>
         <p class="info">Obľúbené, hodnotenia, plán a nastavenia sú uložené v tomto prehliadači. Zálohuj si ich do súboru, nech o ne neprídeš.</p>
         <div class="btn-row"><button class="btn" onclick="zalohuj()">⬇ Zálohovať do súboru</button><button class="btn" onclick="document.getElementById('obnov-file').click()">⬆ Obnoviť zo súboru</button></div>
-        <input type="file" id="obnov-file" accept="application/json" style="display:none" onchange="obnov(this.files[0])">
+        <input type="file" id="obnov-file" accept="application/json" title="súbor so zálohou" style="display:none" onchange="obnov(this.files[0])">
         <div class="btn-row" style="margin-top:14px;border-top:1px solid var(--line);padding-top:14px"><button class="btn" style="color:var(--warn);border-color:var(--warn)" onclick="resetApp()">🗑 Vymazať všetko a začať odznova</button></div>
       </div>
       <div class="panel"><h3>Synchronizácia (voliteľné)</h3>
