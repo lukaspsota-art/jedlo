@@ -164,13 +164,18 @@ function vyzivaReceptu(r){
   const por=r.porcie||1;
   const v={kcal:kc/por,b:b/por,t:t/por,s:s/por,cena:cena/por,vl:vl/por,na:na/por,pribl:zname,bezCeny:bezCeny,
            hmota:hmota/por,hmotaVl:hmotaVl/por,hmotaNa:hmotaNa/por};
-  // Záchranná brzda pri chybných dátach: keď recept nesie kurátorované kcal_na_porciu a súčet z potravín
-  // sa líši >1,6×, chýba (alebo prebýva) hmota — typicky nespárovaná surovina alebo množstvo bez jednotky.
-  // Ver JSON-u a dorovnaj VŠETKO odvodené od hmotnosti rovnakým faktorom, nech kcal a makrá nehovoria dve rôzne veci.
+  // B4: kurátorovanému kcal_na_porciu sa verí VŽDY (predtým sa dorovnávalo až pri rozdiele >1,6×,
+  // takže 22,6 % receptov ukazovalo zlé číslo). Výpočet zo surovín slúži už len na makrá a cenu —
+  // tie sa prepočítajú rovnakým faktorom. Vláknina a sodík sa NEŠKÁLUJÚ: ich chyba je z chýbajúcich
+  // dát v potravinách, nie z hmoty, a faktor z kcal by ju len rozmazal.
   const j=r.kcal_na_porciu||0;
-  if(j>0 && v.kcal>5){ const q=v.kcal/j;
-    // cenu NEŠKÁLUJEME — nákupný zoznam ju ráta priamo zo surovín a musia sedieť na to isté číslo
-    if(q>1.6||q<0.625){ const k=1/q; ["b","t","s","vl","na"].forEach(x=>{v[x]*=k;}); v.kcal=j; v.pribl=true; } }
+  if(j>0){
+    if(v.kcal>5){ const q=v.kcal/j, k=1/q;
+      ["b","t","s","cena"].forEach(x=>{v[x]*=k;});
+      if(Math.abs(q-1)>0.1) v.pribl=true; // v detaile sa ukáže „≈ odhad"
+    }
+    v.kcal=j;
+  }
   return v;
 }
 function kcalPorcia(r){ const v=vyzivaReceptu(r); return v.kcal>5?Math.round(v.kcal):(r.kcal_na_porciu||0); }

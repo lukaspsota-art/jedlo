@@ -202,4 +202,43 @@ ok("vyzivaReceptu hlási pokrytie hmoty údajmi (v.hmota / v.hmotaNa)", () => {
   assert.ok(v2.hmotaNa / v2.hmota < 1, "nenapárovaná surovina má znížiť pokrytie");
 });
 
+// ─────────────────────────────────────────────────────────── B4: kcal brzda
+console.log("\nB4 — kurátorovanému kcal_na_porciu sa verí vždy");
+ok("beef-rendang zobrazí 600 kcal (pred opravami 941, po B1–B3 626)", () => {
+  const r = app.receptById("beef-rendang");
+  assert.strictEqual(app.kcalPorcia(r), 600);
+  assert.strictEqual(app.kcalPorcia(r), r.kcal_na_porciu);
+});
+ok("kuracie-nugetky zobrazia svoje deklarované kcal", () => {
+  const r = app.receptById("kuracie-nugetky");
+  assert.strictEqual(app.kcalPorcia(r), r.kcal_na_porciu);
+});
+ok("makrá a cena sa prepočítajú rovnakým faktorom, vláknina a sodík NIE", () => {
+  const r = { id: "_b", nazov: "B", porcie: 1, kcal_na_porciu: 100,
+    ingrediencie: [{ nazov: "Ryža", mnozstvo: 100, jednotka: "g" }] };
+  const bez = app.vyzivaReceptu({ ...r, kcal_na_porciu: 0 });
+  const s = app.vyzivaReceptu(r);
+  const k = 100 / bez.kcal;
+  assert.strictEqual(s.kcal, 100);
+  assert.ok(Math.abs(s.b - bez.b * k) < 1e-9, "bielkoviny sa majú škálovať");
+  assert.ok(Math.abs(s.cena - bez.cena * k) < 1e-9, "cena sa má škálovať");
+  assert.ok(Math.abs(s.vl - bez.vl) < 1e-9, "vláknina sa NEMÁ škálovať");
+  assert.ok(Math.abs(s.na - bez.na) < 1e-9, "sodík sa NEMÁ škálovať");
+});
+ok("rozdiel > 10 % je označený ako odhad, do 10 % nie", () => {
+  const zaklad = { id: "_o", nazov: "O", porcie: 1, ingrediencie: [{ nazov: "Ryža", mnozstvo: 100, jednotka: "g" }] };
+  const cistyKcal = app.vyzivaReceptu(zaklad).kcal;
+  assert.ok(app.vyzivaReceptu({ ...zaklad, kcal_na_porciu: Math.round(cistyKcal * 0.5) }).pribl, "50 % rozdiel = odhad");
+  assert.ok(!app.vyzivaReceptu({ ...zaklad, kcal_na_porciu: Math.round(cistyKcal * 0.98) }).pribl, "2 % rozdiel nie je odhad");
+});
+ok("recept bez kcal_na_porciu sa nezmenil", () => {
+  const bezDekl = app.RECEPTY.filter(r => !r.kcal_na_porciu && (r.ingrediencie || []).some(i => i.mnozstvo != null));
+  assert.ok(bezDekl.length > 100, "málo receptov bez kcal_na_porciu");
+  const r = bezDekl[0];
+  const v = app.vyzivaReceptu(r);
+  let kc = 0;
+  (r.ingrediencie || []).forEach(i => { const p = app.najdiPotravinu(i.nazov); if (p) kc += app.gramy(i, p) * p.kcal / 100; });
+  assert.ok(Math.abs(v.kcal - kc / (r.porcie || 1)) < 1e-6, r.id + ": " + v.kcal + " vs " + kc / (r.porcie || 1));
+});
+
 console.log("\nOK — " + bezov + " kontrol prešlo.");
