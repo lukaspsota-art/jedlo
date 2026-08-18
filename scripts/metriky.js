@@ -81,7 +81,7 @@ async function main() {
   S.viewOd = app.pridajDni(PRVY_PONDELOK, (N - 1) * 7);
   const rows = app.nakupItems();
   const cenaTyzdna = rows.reduce((a, r) => a + (r.cena || 0), 0);
-  const bezCeny = rows.filter(r => !(r.cena > 0)).length;
+  const bezCeny = rows.filter(r => r.bezCeny || (r.gkey && !(r.cena > 0))).length;
 
   const posledne = dni.slice(-7);
   const priem = f => posledne.reduce((a, d) => a + f(d), 0) / (posledne.length || 1);
@@ -98,8 +98,8 @@ async function main() {
     return d.sloty["Obed"] >= d.sloty["Večera"] && d.sloty["Večera"] > d.sloty["Raňajky"] && d.sloty["Raňajky"] > sn;
   }).length;
   const veceraPod250 = dni.filter(d => maSlot(d, "Večera") && d.sloty["Večera"] < 250).length;
-  const korekcia15 = faktory.filter(f => Math.abs(f - 1) > 0.15).length;
-  const faktorNad150 = faktory.filter(f => f > 1.5).length;
+  const korekcia15 = dni.filter(d => Math.abs(ciel / d.base - 1) > 0.15).length;
+  const faktorNad150 = faktory.filter(f => f > 1.5001).length;
   const baseV10 = dni.filter(d => Math.abs(d.base - ciel) <= ciel * 0.1).length;
   const poV10 = dni.filter(d => Math.abs(d.kcal - ciel) <= ciel * 0.1).length;
   const bielMed = median(dni.map(d => d.b));
@@ -126,7 +126,7 @@ async function main() {
   T("Večera > Raňajky", pct(veceraRanajky, dniOVR.length) + " %");
   T("celé poradie O>V>R>S", pct(celePoradie, dniOVR.length) + " %");
   T("dní s večerou pod 250 kcal", veceraPod250 + " (" + pct(veceraPod250, dni.length) + " %)");
-  T("dní potrebujúcich korekciu > 15 %", pct(korekcia15, faktory.length) + " %");
+  T("dní potrebujúcich korekciu > 15 %", pct(korekcia15, dni.length) + " %");
   T("jedál s faktorom > 150 %", faktorNad150);
   T("faktor min / medián / max", Math.min(...faktory) + " / " + median(faktory) + " / " + Math.max(...faktory));
   T("dní v ±10 % cieľa (pred škálovaním)", pct(baseV10, dni.length) + " %");
