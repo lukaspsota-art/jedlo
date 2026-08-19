@@ -133,6 +133,9 @@ function load(opts = {}) {
   ctx.confirmModal = () => Promise.resolve(true);
   ctx.promptModal = () => Promise.resolve(null);
   ctx.setSeed = s => { ctx.__rand = mulberry32(s); };
+  // Štart app.js spotrebuje 1 náhodné číslo (renderery sa stubujú až potom), takže testy
+  // nezačínali na definovanej pozícii streamu. Reset po štarte = test meria vždy od začiatku seedu.
+  ctx.setSeed(opts.seed === undefined ? 12345 : opts.seed);
 
   return ctx;
 }

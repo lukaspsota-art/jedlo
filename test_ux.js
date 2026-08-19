@@ -177,4 +177,47 @@ ok("rozdelenie blokov sa otvorí len v blokovom režime", () => {
   assert.ok(app.document.getElementById("pick-overlay").classList.contains("open"), "panel sa neotvoril");
 });
 
+// ─────────────────────────────────────────────────────────── U2 zakázané suroviny
+nadpis("\nU2 — zakázané suroviny");
+ok("zachytí aj skloňovaný tvar a časť slova, nie však inú surovinu", () => {
+  const skus = (zakazane, nazovSuroviny) => {
+    const app = novy({ zakazane });
+    return app.zakazaneChyta({ nazov: "test", kategoria: "Šalát", porcie: 1, postup: [],
+      ingrediencie: [{ nazov: nazovSuroviny, mnozstvo: 1, jednotka: "g" }] });
+  };
+  assert.ok(skus("koriander", "Koriander"), "základný tvar");
+  assert.ok(skus("mlieko", "mlieka"), "skloňovanie (mlieko → mlieka)");
+  assert.ok(skus("syr", "syrokrém"), "časť slova (syr → syrokrém)");
+  assert.ok(skus("huby", "sušené huby"), "surovina vo viacslovnom názve");
+  assert.ok(!skus("huby", "šampiňóny"), "iná surovina sa nesmie zablokovať");
+  // U4: tvary, ktoré menia kmeň — reálne prípady z receptov, ktoré filtru predtým unikali
+  assert.ok(skus("koriander", "Koriandrové semienka"), "koriander → koriandrové");
+  assert.ok(skus("huby", "Hubový bujón"), "huby → hubový");
+  assert.ok(skus("ryby", "Rybia omáčka"), "ryby → rybia");
+  assert.ok(!skus("huby", "jednohubky"), "jednohubky nie sú huby");
+});
+ok("generátor nedá do plánu zakázanú surovinu", async () => {
+  const app = novy({ zakazane: "huby, koriander", kcal: 1500, osoby: 1 });
+  await app.generujJedalnicek(true);
+  const zle = [];
+  Object.values(app.S.plan || {}).forEach(slots => Object.values(slots).forEach(v =>
+    [].concat(v).forEach(id => { const k = app.komponent(id);
+      if (k && app.zakazaneChyta(k)) zle.push(k.nazov); })));
+  assert.strictEqual(zle.length, 0, "v pláne: " + zle.join(", "));
+});
+
+// ─────────────────────────────────────────────────────────── U3 poradie vrstiev
+nadpis("\nU3 — poradie vrstiev (z-index)");
+ok("dialóg je nad režimom varenia a toast nad dialógom", () => {
+  const css = require("fs").readFileSync(__dirname + "/data/sablona.html", "utf8");
+  const z = re => { const m = css.match(re); return m ? parseInt(m[1]) : null; };
+  const cook = z(/\.cook\{[^}]*z-index:(\d+)/);
+  const dlg = z(/#dlg-overlay\{[^}]*z-index:(\d+)/);
+  const toast = z(/#toast\{[^}]*z-index:(\d+)/);
+  assert.ok(cook && dlg && toast, `nenašiel som z-index: cook=${cook} dlg=${dlg} toast=${toast}`);
+  // „➕ Časovač" v kuchyni otvára prompt — pod režimom varenia by bol neviditeľný a appka by čakala naprázdno
+  assert.ok(dlg > cook, `dialóg (${dlg}) musí byť nad režimom varenia (${cook})`);
+  assert.ok(toast >= dlg, `toast (${toast}) nesmie byť pod dialógom (${dlg})`);
+});
+
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });

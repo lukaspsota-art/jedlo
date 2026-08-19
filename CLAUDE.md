@@ -48,7 +48,8 @@ Vloží `app.js` na `__APP_JS__`, dáta ako JSON na placeholdery, a zapíše `ku
 - `sync-config.js` je **voliteľný a tajný** (Supabase kľúče) — je v `.gitignore`, needituj do neho verejné dáta. Vzor: `sync-config.example.js`, postup: `HOSTING.md`.
 
 ## Dátové modely
-**Recept** (`recepty/*.json`): `id, nazov, kategoria, kuchyna, zdroj, porcie, cas, kcal_na_porciu?, popis, ingrediencie[{nazov,mnozstvo|null,jednotka,poznamka?}], postup[], tipy, foto, tagy[]`.
+**Recept** (`recepty/*.json`): `id, nazov, kategoria, kuchyna, zdroj, zdroj_url?, porcie, cas, kcal_na_porciu?, popis, ingrediencie[{nazov,mnozstvo|null,jednotka,poznamka?}], postup[], tipy, foto, tagy[]`.
+`zdroj_url` = odkaz na pôvodný recept; detail ho vykreslí ako aktívny odkaz (Varecha to vyžaduje v Content Policy).
 Kategórie: Raňajky, Hlavné jedlo, Cestoviny, Polievka, Šalát, Nátierka, Príloha, Pečivo, Snack, Dezert, Kokteil, Nápoj.
 **Potravina** (`potraviny.json`): `kluc`, `oddelenie`, `alergeny[]`, `kcal/bielkoviny/tuky/sacharidy` na 100 g, `cena100` €/100 g (**`null` = neznáma cena, `0` = naozaj zadarmo**), `g_za_ks?` (hmotnosť kusa), `g_za_platok?` (hmotnosť plátku), `hustota`, `meso`, `balenie_g?`, `balenie_popis?`, `vlaknina?`, `sodik?`.
 **Matchovanie (`najdiPotravinu`)**: kľúč musí sadnúť na súvislú postupnosť SLOV názvu; skloňovanie sa rieši kmeňom kľúča + prefixom slova; pri rovnako dlhom kľúči vyhráva ten bližšie k začiatku názvu. Výsledok je cachovaný.
@@ -87,6 +88,11 @@ Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, 
   (`otvorRozdelenie`). Nepridávaj ďalšie mini-linky do bunky — bolo ich 5 a plán vyzeral rozbito.
 - **`table.plan` má `<colgroup>`** — `table-layout:fixed` inak berie šírky z riadku s `colspan`
   a stĺpec s názvami jedál zabral 718 px. Na mobile je `table-layout:auto` (jeden viditeľný deň).
+- **Poradie vrstiev (z-index):** dropdown 20 < menu 40 (70 na mobile) < spodná lišta 50 < prekrytie 60
+  < režim varenia 80 < **dialóg 90** < **toast 100**. Dialóg MUSÍ byť nad varením — inak sa „➕ Časovač"
+  v kuchyni otvorí neviditeľne a appka čaká na odpoveď. Kontroluje to test v `test_ux.js`.
+- **Zakázané suroviny a „Mám doma" zdieľajú `obsahujeSurovinu`** (kmeň + prefix 3–5 znakov).
+  Diétny filter radšej blokuje viac; nepridávaj tam čisté `includes`, prepustí skloňovanie.
 - Meranie/regresie: skripty v scratchpade session (Playwright + Edge, viď `AUDIT_UI_2026-08-19.md`).
   **Testuj obrazovky s dátami** — prázdny plán skryl 5 ovládacích prvkov na bunku aj malé ciele.
 
@@ -95,6 +101,16 @@ Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, 
 
 ## Nápady na ďalší vývoj
 Backlog a inšpirácia z 25 aplikácií: `INSPIRACIA.md`. Otvorené (treba backend/dáta): OCR bločkov, živé viac-reťazcové letáky, plné mikroživiny, komunitné zdieľanie, AI import z videa.
+
+## Zdroje receptov (od v21)
+Všetkých **1956 receptov má dohľadateľný zdroj** — žiadny `vlastný recept` ani prázdne pole:
+Varecha.sk 1388 · Fitrecepty (kniha) 309 · Wikibooks Cookbook (CC BY-SA) 113 · TheCocktailDB 71 · Kaufland 48 · iné 27.
+- **Varecha.sk:** `robots.txt` povoľuje `Claude-User` (user-initiated fetch), zakazuje `ClaudeBot` (training).
+  Content Policy vyžaduje **atribúciu + aktívny odkaz** → preto `zdroj` aj `zdroj_url` v každom recepte.
+  Recepty sa parsujú z `application/ld+json` (schema.org Recipe), množstvá sú v `recipeIngredient` ako `„názov, 250 g"`.
+- Pipeline (audit → index → priradenie → náhrada → nové) je v `%TEMP%\jedlo_audit\` (mimo repa, `jed_*.py`).
+  Kľúčové filtre proti zlým zhodám: druh jedla (posledné slovo pred predložkou), jadro názvu,
+  zhoda bielkoviny a **zhoda kurzu podľa varecha `keywords`** (`Polievky`/`Šaláty`/`Nápoje`…).
 
 ## Stav a otvorené veci
 - Git je v poriadku (história od v1). Audit z 18. 8. 2026 (`AUDIT_KUCHARKA_2026-08-18.md`) je vyriešený celý — viď `CHANGELOG.md` v19.
@@ -108,3 +124,7 @@ Backlog a inšpirácia z 25 aplikácií: `INSPIRACIA.md`. Otvorené (treba backe
   a 60 nemá `kuchyna` (snacky a prílohy, kde kuchyňa nedáva zmysel).
 - `treska-v-cesticku` nemá `kcal_na_porciu`: počíta sa celých 300 ml oleja na vyprážanie.
   Rovnaká chyba (vsiaknutý vs. použitý olej) sa týka aj ďalších vyprážaných receptov.
+- **`test_generator.js` A2 padá** (medián bielkovín ~90 g/deň, test chce ≥ 95). Nie je to regresia kódu:
+  skutočné recepty majú nižšiu hustotu bielkovín (g/100 kcal) než predchádzajúce vymyslené.
+  Slabina sú raňajky (2,8 g/100 kcal) a snacky (2,4). Buď doplniť ďalšie bielkovinovo husté raňajky,
+  alebo upraviť prah testu — pridávanie priemerných receptov medián naopak riedi.

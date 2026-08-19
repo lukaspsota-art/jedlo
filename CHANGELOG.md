@@ -35,6 +35,15 @@ Zhrnutie vývoja (v1 = prvá verzia). Detaily funkcií sú v `NAVOD.md`.
   - **Konzistencia:** `input.f` a `.field input[type=text|email|password|date]` dostali štýl (boli to 21 px systémové polia), prihlasovacie tlačidlá dostali `.btn`, checkboxy `accent-color`.
   - **Android (Nothing 3a Pro):** `100dvh`, `overscroll-behavior-y:contain` (koniec náhodného pull-to-refresh pri scrollovaní nákupu), zelený `tap-highlight-color`, tmavý `theme-color` pre URL bar.
   - Poznámka na budúcnosť: základná definícia `.menu` bola v CSS ZA `@media(max-width:820px)` a prebíjala mobilné pravidlá — komponenty patria pred media queries.
+- **v21 (audit receptov, 19. 8. 2026)** — „každý recept má dohľadateľný zdroj". Audit všetkých 1336 receptov odhalil 789 bez zdroja (`vlastný recept` / `klasický recept` / `tradičný recept` / prázdny) a 61 s nepodloženou atribúciou (tvrdili Serious Eats / BBC Good Food / Bon Appétit bez URL).
+  - **Výmena 850 receptov za overené:** 617 sa podarilo nahradiť rovnakým jedlom zo skutočného zdroja, zvyšných 233 iným reálnym receptom z tej istej kategórie (tie dostali vlastné `id` podľa nového názvu — `chicken-adobo` nemôže byť recept na pirohy).
+  - **Zdroje:** Varecha.sk (JSON-LD, `robots.txt` povoľuje `Claude-User`, zakazuje `ClaudeBot`), Wikibooks Cookbook (CC BY-SA), TheCocktailDB. Postupy z anglických zdrojov sú preložené do slovenčiny.
+  - **+620 nových receptov** z tých istých zdrojov: 300 na doplnenie kategórií + 320 bielkovinovo bohatých/hustých (aby plánovač mal z čoho stavať dni na cieľ). Spolu **1956 receptov, všetky so zdrojom**, 98 % s `kcal_na_porciu`.
+  - **`zdroj_url` + odkaz v detaile receptu** (Varecha vyžaduje aktívny odkaz na zdroj) — nové pole v schéme, generátor ho preberá bez zmeny.
+  - **Počet porcií podľa kategórie:** Varecha často neuvádza porcie (default 4), takže celý plech vychádzal ako 4 porcie (raňajky až 4106 kcal/porcia). Porcie sa dorovnali na kalorické pásmo kategórie — mení sa delenie, nie množstvo surovín.
+  - **+89 potravín** do `potraviny.json` (Vegeta, masť, bujón, mascarpone, kaleráb, krúpy, alkoholy pre kokteily…) a ~60 aliasov na existujúce kľúče (`vajíčko`→`vajcia`, `orechy mleté`→`vlašské orechy`, `tymián`→`tymian`).
+  - **Jednotky:** parser rozumie tomu, čo Varecha naozaj píše (`bal.`, `kl`, `dkg`, `deko`, `deci`, `rezňov`, `krajcov`, `hlávka`, `1,5 ČL` s desatinnou čiarkou); `cm` sa prepočíta na gramy, `stonka` na kusy — obe generátor nepozná.
+  - **Známy dôsledok:** skutočné recepty sú kaloricky hutnejšie a bielkovinovo chudobnejšie než predchádzajúce vymyslené. `test_generator.js` A1 (trafenie kcal cieľa) prechádza, A2 (medián bielkovín ≥ 95 g/deň) padá na ~90 g — reálna slovenská domáca kuchyňa pri 1450 kcal/deň toľko bielkovín jednoducho nedá.
 - **v20.1 (Plán použiteľný, 19. 8. 2026)** — prvý priechod testoval prázdny plán, takže nevidel obsah buniek:
   - **Bunka jedla mala 5 mini-liniek** (`zmeniť · doplnok · znova · porcie · zvyšok`) = 20 ovládacích prvkov na obrazovku. Zostalo `✎ zmeniť` + `⋯ viac` so spodným panelom (`akcieSlotu`).
   - **P0 (pre-existujúci, aj pred v20):** desktop plán v blokovom režime dával stĺpcu „Jedlo“ 718 px a dňom 51–77 px, názvy sa lámali po písmenách — `table-layout:fixed` bral šírky z riadku s `colspan`. Rieši to `<colgroup>` (88 px + 7 rovnakých).
@@ -42,3 +51,9 @@ Zhrnutie vývoja (v1 = prvá verzia). Detaily funkcií sú v `NAVOD.md`.
   - Dotykové ciele v bunke: názov jedla, riadok kcal a `✕` boli 16–20 px, teraz ≥26 px.
   - Riadky všetkých 13 spodných panelov sú dosiahnuteľné klávesnicou (`zpristupniKliky`).
   - Nové testy v `test_ux.js` (panel akcií slotu, stráž rozdelenia blokov) + Playwright sada s **naplneným** plánom.
+- **v20.2 (prechod celou appkou, 20. 8. 2026)** — 19 krokov od onboardingu po varenie na Nothing 3a Pro, 19/19 prešlo. Nálezy:
+  - **P0:** dialóg bol pod režimom varenia (`z-index` 60 vs 80) — „➕ Časovač" v kuchyni otvoril neviditeľný prompt a appka čakala na odpoveď, ktorú nebolo ako dať. Vrstvy sú teraz 20 < 40/70 < 50 < 60 < 80 < **90 (dialóg)** < **100 (toast)** a poradie kontroluje test.
+  - **P1:** zakázané suroviny nechytili tvary so zmeneným kmeňom — „koriander" prepustil *Koriandrové semienka*, „huby" *Hubový bujón*, „ryby" *Rybiu omáčku*; 17 receptov unikalo. Pribudlo prefixové pravidlo navrch kmeňového: na 1336 receptoch **+52 správne zablokovaných, 0 vypadnutých**.
+  - **P2:** naopak „med" blokoval *medvedí cesnak* — `zakazaneChyta` a „Mám doma" teraz zdieľajú jedinú funkciu `obsahujeSurovinu`.
+  - **P3:** testy nezačínali na definovanej pozícii náhodného streamu (štart appky spotrebuje 1 číslo, kým sa renderery stubnú) — stream sa po štarte resetuje na seed.
+  - **Otvorené:** `test_generator` žiada medián bielkovín ≥ 95 g/deň a padá (89,8 g). Nie je to regresia kódu — spôsobil to import receptov z 19. 8. 23:21: pri rovnakom kóde a seede dáva pôvodná zásoba 1336 receptov **111,5 g**, nová 1956 receptov **96,6 g**. Nové recepty sú v priemere chudobnejšie na bielkoviny. Treba rozhodnúť: posilniť váhu v `vahaReceptu`, doplniť bielkovinové recepty, alebo opraviť tvrdenie testu.

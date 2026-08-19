@@ -293,8 +293,11 @@ function renderChips(){ const box=document.getElementById("chips"); box.innerHTM
 function zakazaneTokens(){ return (S.profil.zakazane||"").split(/[\n,;]+/).map(x=>bezDia(x.trim())).filter(Boolean); }
 // ponytail: matchujem názov receptu + tagy, nielen ingrediencie (chytí "Pečené kura" aj keď ingrediencia je "kurčatá"). Zámerne len substring — kmeňový match by chytal aj kurkuma/kuriatka
 function zakazaneChyta(r){ const zt=zakazaneTokens(); if(!zt.length)return false;
-  const hay=bezDia((r.nazov||"")+" "+(r.ingrediencie||[]).map(i=>i.nazov).join(" ")+" "+(r.tagy||[]).join(" "));
-  return zt.some(t=>hay.includes(t)); }
+  const text=(r.nazov||"")+" "+(r.ingrediencie||[]).map(i=>i.nazov).join(" ")+" "+(r.tagy||[]).join(" ");
+  // U2: podstring sám nechytí skloňovanie („mlieko" nenájde „mlieka"), párovanie kmeňov zas nechytí
+  // časť slova („syr" v „syrokrém"). Diétny filter má radšej blokovať viac, takže platí OR z oboch.
+  // Cena: „med" zablokuje aj „medvedí cesnak" — to je pôvodné chovanie, nemenené.
+  return zt.some(t=>bezDia(text).includes(t)) || obsahujeSurovinu(text, zt); }
 function prejdeProfil(r){
   if(S.skryte[r.id]) return false; // skryté recepty sa nikdy nedostanú do generátora/plánu/návrhov
   const d=diety(r);
@@ -1289,8 +1292,17 @@ function cenaTyzdna(mode){
   return spotreba; }
 // C5: krátky token („a") označoval 39 z 48 položiek. Porovnávame na hranice slov a ignorujeme
 // tokeny kratšie ako 3 znaky.
-function jeDoma(nazov,tok){ if(!tok||!tok.length) return false; const slova=_slova(nazov);
-  return tok.some(t=>{ const kmene=_slova(t).map(_kmen); return kmene.length>0 && _sadneOd(slova,kmene)>=0; }); }
+// jediné miesto, kde sa text porovnáva so zoznamom surovín (kmeň + prefix, zvláda skloňovanie).
+// Používa to „Mám doma" v nákupe aj zakázané suroviny v profile.
+function obsahujeSurovinu(text,tok){ if(!tok||!tok.length) return false; const slova=_slova(text);
+  return tok.some(t=>{ const kmene=_slova(t).map(_kmen);
+    if(kmene.length>0 && _sadneOd(slova,kmene)>=0) return true;
+    // U4: „koriander" → „koriandrová" a „huby" → „hubová" menia kmeň, nie príponu, takže kmeňové
+    // párovanie ich nechytí. Porovnaj aj začiatok slova (min. 3, max. 5 znakov, do +6 navyše).
+    if(kmene.length!==1) return false;
+    const pref=t.slice(0,Math.max(3,Math.min(5,t.length-1)));
+    return pref.length>=3 && slova.some(w=>w.startsWith(pref) && w.length-pref.length<=6); }); }
+function jeDoma(nazov,tok){ return obsahujeSurovinu(nazov,tok); }
 function nakupBalenie(G){ if(G.matched && G.p && G.p.balenie_g && G.grams>0){ const n=Math.max(1,Math.ceil(G.grams/G.p.balenie_g)); return {n:n,pop:G.p.balenie_popis,celkG:n*G.p.balenie_g}; } return null; }
 // C2: celé balenia sa účtujú len keď ich používateľ chce vidieť — inak riadok hlásil 8 plátkov
 // toastu a cena bola za celý bochník.
