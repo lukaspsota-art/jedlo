@@ -35,3 +35,10 @@ Zhrnutie vývoja (v1 = prvá verzia). Detaily funkcií sú v `NAVOD.md`.
   - **Konzistencia:** `input.f` a `.field input[type=text|email|password|date]` dostali štýl (boli to 21 px systémové polia), prihlasovacie tlačidlá dostali `.btn`, checkboxy `accent-color`.
   - **Android (Nothing 3a Pro):** `100dvh`, `overscroll-behavior-y:contain` (koniec náhodného pull-to-refresh pri scrollovaní nákupu), zelený `tap-highlight-color`, tmavý `theme-color` pre URL bar.
   - Poznámka na budúcnosť: základná definícia `.menu` bola v CSS ZA `@media(max-width:820px)` a prebíjala mobilné pravidlá — komponenty patria pred media queries.
+- **v20.1 (Plán použiteľný, 19. 8. 2026)** — prvý priechod testoval prázdny plán, takže nevidel obsah buniek:
+  - **Bunka jedla mala 5 mini-liniek** (`zmeniť · doplnok · znova · porcie · zvyšok`) = 20 ovládacích prvkov na obrazovku. Zostalo `✎ zmeniť` + `⋯ viac` so spodným panelom (`akcieSlotu`).
+  - **P0 (pre-existujúci, aj pred v20):** desktop plán v blokovom režime dával stĺpcu „Jedlo“ 718 px a dňom 51–77 px, názvy sa lámali po písmenách — `table-layout:fixed` bral šírky z riadku s `colspan`. Rieši to `<colgroup>` (88 px + 7 rovnakých).
+  - Rozdelenie blokov (180 px v obrazovke) je v `⋯ Viac → ✂️ Rozdelenie blokov`; názvy dní a prázdny roh tabuľky na mobile preč.
+  - Dotykové ciele v bunke: názov jedla, riadok kcal a `✕` boli 16–20 px, teraz ≥26 px.
+  - Riadky všetkých 13 spodných panelov sú dosiahnuteľné klávesnicou (`zpristupniKliky`).
+  - Nové testy v `test_ux.js` (panel akcií slotu, stráž rozdelenia blokov) + Playwright sada s **naplneným** plánom.

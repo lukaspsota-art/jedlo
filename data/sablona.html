@@ -183,7 +183,8 @@
   table.plan td .nm{overflow-wrap:anywhere}
   table.plan th,table.plan td{border:1px solid var(--line);padding:6px;vertical-align:top;background:#fff}
   table.plan th{background:var(--accent-dark);color:#fff;font-weight:600;font-size:14px}
-  table.plan td{width:13%;height:66px}
+  table.plan col.c-slot{width:88px}
+  table.plan td{height:66px}
   table.plan td.slotname{background:var(--chip);font-weight:600;font-size:13px;width:88px}
   .plan-cell{cursor:pointer;font-size:13px;border-radius:8px;padding:6px;min-height:52px;display:flex;flex-direction:column;gap:3px;justify-content:center}
   .plan-cell:hover{background:#f3f8f4}
@@ -297,6 +298,11 @@
     table.plan{table-layout:auto}
     table.plan td{width:auto}
     table.plan td.slotname{width:74px}
+    /* názvy dní sú na mobile zbytočné — deň hovorí den-nav aj dátum nad tabuľkou.
+       Prázdny roh MUSÍ zostať: bez neho spadne ctrl-bunka do prvého stĺpca a rozhodí šírky. */
+    table.plan tr.dni-hlavicka{display:none}
+    /* biely roh vyzeral ako prázdna bunka — priehľadný splynie s pozadím strany */
+    table.plan td.rohova{background:transparent}
     .plan-varenia{display:inline-block;min-height:30px;padding:6px 2px}
     /* dotykové ciele: 22 px je pod hranicou trafiteľnosti prstom */
     .ctrl-row .ppl button{width:44px;height:44px;font-size:18px}
@@ -340,13 +346,15 @@
     /* U1: 7 dní v riadku sa delilo nerovnomerne (33–40 px); grid dá každému rovnaký podiel */
     .plan-den-nav{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
     .plan-den-nav .chip{padding:7px 2px;min-width:0}
-    .plan-den-nav .chip:last-child{grid-column:1/-1}
+    .plan-den-nav .chip:last-child{grid-column:1/-1;min-height:24px}
+    /* v bunke zostali len 2 akcie, takže sa zmestia na 24 px podľa WCAG 2.5.8 */
+    .plan-cell .rm{min-height:24px;display:inline-flex;align-items:center}
+    /* názov jedla (16 px), riadok kcal (17 px) a ✕ (11×20) boli tiež pod 24 px */
+    .plan-cell .nm,.plan-cell .kc{padding:5px 0}  /* 4px dá presne 23,6 px — pod hranicou */
+    .plan-cell a{min-width:24px;min-height:24px;display:inline-flex;align-items:center;justify-content:center}
     .hranica{min-height:44px}
     /* U1: dotykové ciele — 38 px tlačidlo sa prstom míňa */
     .btn{min-height:44px;padding:11px 16px}
-    #blok-editor{gap:1px}
-    #blok-editor .info{width:100%;margin:0 0 4px}
-    #blok-editor .chip{min-height:32px;padding:5px 8px;font-size:13px}
     .chip,.kol-tile,button.mini{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
     details > summary,details.panel > summary{min-height:44px}
     .sub a{display:inline-flex;align-items:center;min-height:44px}
@@ -473,6 +481,7 @@
         <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-plan')">⋯ Viac</button>
           <div class="menu" id="m-plan">
             <a onclick="otvorGen();zavriMenu()">⚙️ Nastavenie generovania</a>
+            <a onclick="zavriMenu();otvorRozdelenie()">✂️ Rozdelenie blokov</a>
             <a onclick="generujJedalnicek(true);zavriMenu()">🎲 Zamiešať</a>
             <a onclick="skopirujMinuly();zavriMenu()">📋 Skopíruj minulý týždeň</a>
             <a onclick="otvorNacitat();zavriMenu()">📥 Načítať uložený jedálniček</a>
@@ -484,9 +493,6 @@
         </div>
       </div>
       <label class="switch" style="margin:0 0 8px"><input type="checkbox" id="p-blok" onchange="prepniBlok(this.checked)"> Blokový režim (navaríš raz, je sa viac dní)</label>
-      <details class="panel mob-zbal" id="blok-wrap" open><summary>✂️ Rozdelenie blokov</summary>
-        <div id="blok-editor" style="display:flex;gap:2px;flex-wrap:wrap;align-items:center"></div>
-      </details>
       <div id="plan-den-nav" class="chips plan-den-nav"></div>
       <div class="plan-grid"><table class="plan" id="plan-table"></table></div>
       </div>

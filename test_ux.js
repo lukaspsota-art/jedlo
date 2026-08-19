@@ -153,4 +153,28 @@ ok("výber nie je závislý od nedefinovaného radenia (Math.random v komparáto
   assert.ok(!zle, "v app.js je stále komparátor s Math.random()");
 });
 
+// ─────────────────────────────────────────────────────────── U1 mobilné UI
+nadpis("\nU1 — menej tlačidiel v bunke plánu");
+ok("„⋯ viac“ v bunke plánu ponúkne všetky 4 sekundárne akcie", () => {
+  const app = novy();
+  app.akcieSlotu(2, "Obed");
+  const h = app.document.getElementById("pick-modal").innerHTML;
+  ["pridajKomponent(2,'Obed')", "regenerujSlot(2,'Obed')", "upravSlotPorcie(2,'Obed')", "pridajZvysok(2,'Obed')"]
+    .forEach(fn => assert.ok(h.includes(fn), "v paneli chýba " + fn));
+  assert.ok(app.document.getElementById("pick-overlay").classList.contains("open"), "panel sa neotvoril");
+});
+// renderBlokEditor je v harnesse stubnutý (testy nekreslia) — kontrolujeme stráž a kontejner
+ok("rozdelenie blokov sa otvorí len v blokovom režime", () => {
+  const app = novy();
+  app.S.blokMode = false;
+  app.otvorRozdelenie();
+  assert.ok(!app.document.getElementById("pick-modal").innerHTML.includes("Rozdelenie"),
+    "bez blokového režimu sa panel nemá otvoriť");
+  app.S.blokMode = true;
+  app.otvorRozdelenie();
+  const h = app.document.getElementById("pick-modal").innerHTML;
+  assert.ok(h.includes('id="blok-editor"'), "v paneli chýba kontejner editora");
+  assert.ok(app.document.getElementById("pick-overlay").classList.contains("open"), "panel sa neotvoril");
+});
+
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });

@@ -83,7 +83,12 @@ Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, 
   klávesnicou; chipy/kolekcie/menu to dorovnáva `zpristupniKliky(root)` — **vždy jej dávaj
   koreň prekresleného kontejnera**, nie `document` (mriežka má 19 000 uzlov).
 - Štýly viaž na **triedu, nie na element** (`select.f` nechalo `input.f` bez štýlu).
+- **V bunke plánu je 1 primárna akcia + `⋯ viac`** (`akcieSlotu`), rozdelenie blokov je v `⋯ Viac`
+  (`otvorRozdelenie`). Nepridávaj ďalšie mini-linky do bunky — bolo ich 5 a plán vyzeral rozbito.
+- **`table.plan` má `<colgroup>`** — `table-layout:fixed` inak berie šírky z riadku s `colspan`
+  a stĺpec s názvami jedál zabral 718 px. Na mobile je `table-layout:auto` (jeden viditeľný deň).
 - Meranie/regresie: skripty v scratchpade session (Playwright + Edge, viď `AUDIT_UI_2026-08-19.md`).
+  **Testuj obrazovky s dátami** — prázdny plán skryl 5 ovládacích prvkov na bunku aj malé ciele.
 
 ## Doménové pravidlá (batch cooking)
 3 bloky/týždeň (A: Ne večer→Ut, B: Ut večer→Pi, C: Pi večer→Ne), 1 variant/slot/blok, bez opakovania naprieč blokmi, bez carryover C→A. 4 jedlá (raňajky/obed/snack/večera), poradie kcal obed>večera>raňajky>snack, obed≠večera, raňajky sendvič/wrap iná báza/blok. Cieľ ~1400–1450 kcal/os./deň. Pantry staples vždy do nákupu. RecipeTinEats obmedzene.
@@ -93,8 +98,9 @@ Backlog a inšpirácia z 25 aplikácií: `INSPIRACIA.md`. Otvorené (treba backe
 
 ## Stav a otvorené veci
 - Git je v poriadku (história od v1). Audit z 18. 8. 2026 (`AUDIT_KUCHARKA_2026-08-18.md`) je vyriešený celý — viď `CHANGELOG.md` v19.
-- UI audit z 19. 8. 2026 (`AUDIT_UI_2026-08-19.md`): 16/20. Otvorené P1 — karty receptov a bunky plánu
-  nie sú dosiahnuteľné klávesnicou (`<div onclick>`); mriežka renderuje všetkých 1336 receptov naraz.
+- UI audit z 19. 8. 2026 (`AUDIT_UI_2026-08-19.md`): 16/20, dva priechody (druhý s naplneným plánom).
+  Otvorené P1 — karty receptov a bunky tabuľky plánu nie sú dosiahnuteľné klávesnicou (`<div onclick>`);
+  mriežka renderuje všetkých 1336 receptov naraz.
 - `data/app.js` má **~192 KB / 1600 riadkov**. Rozdelenie na moduly + spájanie v generátore je stále otvorené;
   pozor na poradie top-level `const`-ov (funkcie sú hoistnuté, konštanty nie).
 - Fotky receptov: pole `foto` nemá nastavené ani jeden recept, `recepty/fotky/` je prázdny — v UI sú emoji.
