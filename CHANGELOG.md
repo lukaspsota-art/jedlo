@@ -56,4 +56,5 @@ Zhrnutie vývoja (v1 = prvá verzia). Detaily funkcií sú v `NAVOD.md`.
   - **P1:** zakázané suroviny nechytili tvary so zmeneným kmeňom — „koriander" prepustil *Koriandrové semienka*, „huby" *Hubový bujón*, „ryby" *Rybiu omáčku*; 17 receptov unikalo. Pribudlo prefixové pravidlo navrch kmeňového: na 1336 receptoch **+52 správne zablokovaných, 0 vypadnutých**.
   - **P2:** naopak „med" blokoval *medvedí cesnak* — `zakazaneChyta` a „Mám doma" teraz zdieľajú jedinú funkciu `obsahujeSurovinu`.
   - **P3:** testy nezačínali na definovanej pozícii náhodného streamu (štart appky spotrebuje 1 číslo, kým sa renderery stubnú) — stream sa po štarte resetuje na seed.
+  - Zobrazovaná `VERZIA` bola zaseknutá na `v17` → `v20`.
   - **Otvorené:** `test_generator` žiada medián bielkovín ≥ 95 g/deň a padá (89,8 g). Nie je to regresia kódu — spôsobil to import receptov z 19. 8. 23:21: pri rovnakom kóde a seede dáva pôvodná zásoba 1336 receptov **111,5 g**, nová 1956 receptov **96,6 g**. Nové recepty sú v priemere chudobnejšie na bielkoviny. Treba rozhodnúť: posilniť váhu v `vahaReceptu`, doplniť bielkovinové recepty, alebo opraviť tvrdenie testu.
