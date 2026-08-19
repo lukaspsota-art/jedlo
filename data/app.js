@@ -259,7 +259,7 @@ const KOLEKCIE=[
   {id:"oblubene", nazov:"Obľúbené",       ikona:"★",  test:r=>!!S.fav[r.id]}
 ];
 function renderKolekcie(){ const box=document.getElementById("kolekcie"); if(!box)return;
-  box.innerHTML=KOLEKCIE.map(k=>`<span class="kol-tile${aktivnaKolekcia===k.id?' active':''}" onclick="nastavKolekciu('${k.id}')">${k.ikona} ${k.nazov}</span>`).join(""); }
+  box.innerHTML=KOLEKCIE.map(k=>`<span class="kol-tile${aktivnaKolekcia===k.id?' active':''}" role="button" tabindex="0" aria-pressed="${aktivnaKolekcia===k.id}" onclick="nastavKolekciu('${k.id}')">${k.ikona} ${k.nazov}</span>`).join(""); }
 function nastavKolekciu(id){ aktivnaKolekcia=(aktivnaKolekcia===id)?"":id; renderKolekcie(); renderGrid(); }
 function kategorie(){ const s=new Set(RECEPTY.map(r=>r.kategoria).filter(Boolean)); return ["Všetko",...Array.from(s).sort()]; }
 // D9: volá sa aj po pridaní vlastného receptu, preto musí byť idempotentná (inak by pribúdali duplikáty)
@@ -271,6 +271,7 @@ function naplnKuchyne(){ const sel=document.getElementById("f-kuchyna"); if(!sel
   sel.value=drz; }
 function renderChips(){ const box=document.getElementById("chips"); box.innerHTML="";
   kategorie().forEach(k=>{ const el=document.createElement("div"); el.className="chip"+(k===aktivnaKat?" active":""); el.textContent=k;
+    el.tabIndex=0; el.setAttribute("role","button"); el.setAttribute("aria-pressed",k===aktivnaKat);
     el.onclick=()=>{aktivnaKat=k;renderChips();renderGrid();}; box.appendChild(el); }); }
 function zakazaneTokens(){ return (S.profil.zakazane||"").split(/[\n,;]+/).map(x=>bezDia(x.trim())).filter(Boolean); }
 // ponytail: matchujem názov receptu + tagy, nielen ingrediencie (chytí "Pečené kura" aj keď ingrediencia je "kurčatá"). Zámerne len substring — kmeňový match by chytal aj kurkuma/kuriatka
@@ -339,6 +340,8 @@ function renderGrid(){
   else if(fs==="kcald") zoz.sort((a,b)=>(kcalPorcia(b)||0)-(kcalPorcia(a)||0));
   else if(fs==="hodn") zoz.sort((a,b)=>(S.hodn[b.id]||0)-(S.hodn[a.id]||0));
   const filtreAktivne = q||fk||fc||fd||aktivnaKat!=="Všetko"||aktivnaKolekcia;
+  // U1: na telefóne sú selecty schované za tlačidlom „Filtre" — bez počtu by používateľ nevidel, že filtruje
+  const fcnt=document.getElementById("f-cnt"); if(fcnt){ const n=[fk,fc,fd,fs].filter(Boolean).length; fcnt.textContent=n; fcnt.hidden=!n; }
   const em=document.getElementById("empty");
   em.style.display=zoz.length?"none":"block";
   if(!zoz.length){ em.innerHTML = filtreAktivne
@@ -349,6 +352,12 @@ function renderGrid(){
   zoz.forEach(r=>{ const c=document.createElement("div"); c.className="card"+(S.skryte[r.id]?" skryty":""); c.innerHTML=kartaHTML(r); grid.appendChild(c); });
 }
 function zrusFiltre(){ const h=document.getElementById("hladaj"); if(h)h.value=""; ["f-kuchyna","f-cas","f-diet"].forEach(id=>{const e=document.getElementById(id); if(e)e.value="";}); aktivnaKat="Všetko"; aktivnaKolekcia=""; renderChips(); renderKolekcie(); renderGrid(); } // R2
+// U1: sekundárne panely sú na telefóne zbalené; na počítači ostávajú otvorené (je tam miesto)
+function zbalNaMobile(){ if(typeof matchMedia!=="function" || !matchMedia("(max-width:820px)").matches) return;
+  document.querySelectorAll("details.mob-zbal[open]").forEach(d=>{ d.open=false; }); }
+// U1: na telefóne sú filtre a radenie zbalené za jedno tlačidlo (4 selecty pod sebou zabrali celú obrazovku)
+function prepniFiltre(){ const box=document.getElementById("rec-controls"); if(!box)return;
+  const otv=box.classList.toggle("f-open"); const b=document.getElementById("f-toggle"); if(b)b.setAttribute("aria-expanded",otv?"true":"false"); }
 function toggleFav(id){ S.fav[id]=!S.fav[id]; if(!S.fav[id])delete S.fav[id]; save(); renderGrid(); if(document.getElementById("v-domov").classList.contains("active"))renderDash(); }
 function toggleSkryt(id){ if(S.skryte[id])delete S.skryte[id]; else S.skryte[id]=1; save(); renderGrid(); otvor(id,_poslednyCtx); }
 function novyRecept(){ const IST="width:100%;padding:9px;border:1px solid var(--line);border-radius:8px";
@@ -415,7 +424,6 @@ function otvor(id, ctx){
       <div class="row-badges">${badges}</div>
       <div class="porcie-box"><label>Porcie:</label>
         <div class="stepper"><button onclick="zmenPorcie(-1)">−</button><input id="pnum" type="number" min="1" max="99" value="${aktPorcie}" onchange="nastavPorcie(this.value)" onfocus="this.select()" title="Zadaj počet porcií" style="width:52px;text-align:center;border:1px solid var(--line);border-radius:8px;padding:5px;font-weight:600;font-size:16px"><button onclick="zmenPorcie(1)">+</button></div>
-        <button class="mini" onclick="naJednu()">na 1 porciu</button>
         <select class="mini" id="unit-mode" onchange="setUnitMode(this.value)"><option value="metric">g / ml</option><option value="spoon">lyžice</option><option value="imperial">oz / cup</option></select></div>
       ${aktVelkost!==1?`<p class="info" style="margin-top:-6px">⚖️ Veľkosť porcie v tomto pláne: <b>${Math.round(aktVelkost*100)}%</b> (kvôli dennému kalorickému cieľu) — ingrediencie a kalórie nižšie to už zohľadňujú.</p>`:""}
       <div class="nutri" id="nutri"></div>
@@ -432,11 +440,15 @@ function otvor(id, ctx){
       <div class="btn-row">
         <button class="btn primary" onclick="spustiCook()">👨‍🍳 Variť</button>
         <button class="btn" onclick="pridajDoPlanu('${r.id}')">📅 Do plánu</button>
-        <button class="btn" onclick="window.print()">🖨 Tlačiť</button>
-        <button class="btn" onclick="toggleSkryt('${r.id}')">${S.skryte[r.id]?"👁 Zobraziť v generátore":"🚫 Skryť z generátora"}</button>
-        ${r._moj?`<button class="btn" style="color:var(--warn);border-color:var(--warn)" onclick="zmazMojRecept('${r.id}')">🗑 Zmazať</button>`:""}</div>
+        <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-det')">⋯ Viac</button>
+          <div class="menu" id="m-det">
+            <a onclick="toggleSkryt('${r.id}');zavriMenu()">${S.skryte[r.id]?"👁 Zobraziť v generátore":"🚫 Skryť z generátora"}</a>
+            <a onclick="zavriMenu();window.print()">🖨 Tlačiť recept</a>
+            ${r._moj?`<a style="color:var(--warn)" onclick="zavriMenu();zmazMojRecept('${r.id}')">🗑 Zmazať recept</a>`:""}
+          </div>
+        </div></div>
     </div>`;
-  renderIng(); renderSubst();
+  renderIng(); renderSubst(); zpristupniKliky(document.getElementById("modal"));
   document.getElementById("overlay").classList.add("open");
   document.body.style.overflow="hidden";
 }
@@ -481,7 +493,6 @@ function renderSubst(){
 }
 function zmenPorcie(d){ aktPorcie=Math.max(1,aktPorcie+d); document.getElementById("pnum").value=aktPorcie; renderIng(); }
 function nastavPorcie(v){ aktPorcie=Math.max(1,Math.min(99,parseInt(v)||1)); document.getElementById("pnum").value=aktPorcie; renderIng(); } // priame zadanie počtu porcií
-function naJednu(){ aktPorcie=1; document.getElementById("pnum").value=1; renderIng(); }
 function setUnitMode(v){ jednotkaMode=v; renderIng(); }
 const NEDELITELNE_JEDNOTKY=["ks","kus","plátok","platok","rožok","rozok","žemľa","zemla"];
 // veľkosť porcie (%) sa NEDÁ uplatniť na kus chleba/vajce — tie sa škálujú len počtom porcií, nie kalorickým % (viď skalovanaHodnota)
@@ -568,8 +579,15 @@ function zpristupniFormulare(root){ const r=root||document;
   r.querySelectorAll("button").forEach(b=>{
     if(!b.textContent.trim() && !b.getAttribute("aria-label")) b.setAttribute("aria-label",b.getAttribute("title")||"Zavrieť");
   }); }
-function zpristupniNav(){ document.querySelectorAll(".side nav a,.side .foot a,.botnav a").forEach(a=>{ a.setAttribute("role","button"); if(!a.hasAttribute("tabindex"))a.setAttribute("tabindex","0"); const ic=a.querySelector(".ic"); if(ic)ic.setAttribute("aria-hidden","true"); if(!a.getAttribute("aria-label"))a.setAttribute("aria-label",a.textContent.trim()); }); }
-document.addEventListener("keydown",e=>{ if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches(".side a,.botnav a")){ e.preventDefault(); e.target.click(); } });
+// A7: chipy, kolekcie a položky menu sú <span|a onclick> — bez tabindexu ich klávesnica nevidí (WCAG 2.1.1).
+// Vždy dostaň KOREŇ prekresleného kontejnera: querySelectorAll nad celým dokumentom prehľadáva aj 19 000
+// uzlov mriežky receptov, čo spravilo z renderPlan 0,3 → 2,4 ms. Neinteraktívne chipy majú inline cursor:default.
+function zpristupniKliky(root){ (root||document).querySelectorAll(".chip:not([tabindex]),.kol-tile:not([tabindex]),.menu a:not([tabindex])").forEach(el=>{
+    if(el.style.cursor==="default")return;
+    el.setAttribute("tabindex","0"); if(!el.getAttribute("role"))el.setAttribute("role","button"); }); }
+function zpristupniNav(){ zpristupniKliky();
+  document.querySelectorAll(".side nav a:not([tabindex]),.side .foot a:not([tabindex]),.botnav a:not([tabindex])").forEach(a=>{ a.setAttribute("role","button"); if(!a.hasAttribute("tabindex"))a.setAttribute("tabindex","0"); const ic=a.querySelector(".ic"); if(ic)ic.setAttribute("aria-hidden","true"); if(!a.getAttribute("aria-label"))a.setAttribute("aria-label",a.textContent.trim()); }); }
+document.addEventListener("keydown",e=>{ if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches(".side a,.botnav a,.menu a,.chip[tabindex],.kol-tile[tabindex]")){ e.preventDefault(); e.target.click(); } });
 
 let cookKrok=0, cookKroky=[], wakeLock=null, cookRecept=null, cookAuto=false;
 let casovace=[], casInterval=null, casId=0;
@@ -693,10 +711,12 @@ function toggleDenSlot(di,slot){ const dni=denyBloku(di); const akt=slotyDna(di)
 async function upravSlotPorcie(di,slot){ const cur=Math.round(porcieSlot(di,slot)); const v=await promptModal("Počet porcií pre toto jedlo (prázdne = podľa dňa):",cur); if(v===null)return; const dni=denyBloku(di); if(v.trim()===""){ dni.forEach(d=>{ const iso=datumPre(d); if(S.slotPpl[iso])delete S.slotPpl[iso][slot]; }); } else { const n=Math.max(1,parseInt(v)||cur); dni.forEach(d=>{ const iso=datumPre(d); S.slotPpl[iso]=S.slotPpl[iso]||{}; S.slotPpl[iso][slot]=n; }); } save(); renderPlan(); }
 function toggleHranica(i){ hraniceInit(); S.hranice[i]=!S.hranice[i]; save(); renderPlan(); }
 function renderBlokEditor(){ const box=document.getElementById("blok-editor"); if(!box)return;
-  if(!S.blokMode){ box.style.display="none"; return; } box.style.display="flex"; hraniceInit();
+  const wrap=document.getElementById("blok-wrap"); // U1: editor je zbalený, aby tabuľka plánu začínala vyššie
+  if(!S.blokMode){ box.style.display="none"; if(wrap)wrap.style.display="none"; return; }
+  box.style.display="flex"; if(wrap)wrap.style.display=""; hraniceInit();
   let h='<span class="info" style="margin-right:6px">Rozdelenie (klikni medzi dni):</span>';
   for(let i=0;i<7;i++){ h+=`<span class="chip" style="cursor:default;padding:6px 10px">${DNI[i].slice(0,2)}</span>`;
-    if(i<6){ const sp=S.hranice[i+1]; h+=`<span onclick="toggleHranica(${i+1})" style="cursor:pointer;font-size:18px;color:${sp?'var(--accent)':'#ccc'}" title="${sp?'spojiť':'rozdeliť'}">${sp?'✂':'·'}</span>`; } }
+    if(i<6){ const sp=S.hranice[i+1]; h+=`<span class="hranica" onclick="toggleHranica(${i+1})" style="color:${sp?'var(--accent)':'#ccc'}" title="${sp?'spojiť tieto dni do jedného bloku':'rozdeliť medzi dva bloky'}">${sp?'✂':'·'}</span>`; } }
   box.innerHTML=h;
 }
 function fmtD(iso){ const d=new Date(iso+"T00:00:00"); return String(d.getDate()).padStart(2,"0")+"."+String(d.getMonth()+1).padStart(2,"0")+"."; }
@@ -711,13 +731,14 @@ function tyzdenNavHTML(){ const jeTentoTyzden=S.viewOd===pondelokPre(dnesISO());
     <span class="chip" style="cursor:pointer" onclick="posunTyzden(1)" title="Ďalší týždeň">▶</span>
     ${jeTentoTyzden?"":'<span class="chip" style="cursor:pointer" onclick="skokNaDnesTyzden()">📅 Tento týždeň</span>'}
   </div>`; }
-function renderTyzdenNav(){ const el=document.getElementById("plan-kontext"); if(el)el.innerHTML=tyzdenNavHTML(); }
+function renderTyzdenNav(){ const el=document.getElementById("plan-kontext"); if(el){el.innerHTML=tyzdenNavHTML(); zpristupniKliky(el);} }
 // Na mobile sa 7 stĺpcov nezmestí — ukazujeme jeden deň naraz (CSS skryje ostatné stĺpce, dáta ostávajú tie isté).
 let planDen=(new Date().getDay()+6)%7;
 function planDenNa(di){ planDen=di; renderPlan(); }
 function renderDenNav(){ const box=document.getElementById("plan-den-nav"); if(!box)return;
   box.innerHTML=DNI.map((d,i)=>`<span class="chip${i===planDen?' active':''}" onclick="planDenNa(${i})">${d.slice(0,2)}</span>`).join("")
-    +`<span class="chip" style="cursor:default;background:none;border:none;color:var(--muted)">${fmtD(datumPre(planDen))}</span>`; }
+    +`<span class="chip" style="cursor:default;background:none;border:none;color:var(--muted)">${fmtD(datumPre(planDen))}</span>`;
+  zpristupniKliky(box); }
 function renderPlan(){
   renderTyzdenNav(); hraniceInit(); const pb=document.getElementById("p-blok"); if(pb)pb.checked=!!S.blokMode; renderBlokEditor(); renderDenNav();
   const bl=bloky(); const parita={}; bl.forEach((b,idx)=>b.forEach(di=>parita[di]=idx%2));
@@ -727,7 +748,7 @@ function renderPlan(){
   // riadky = zjednotenie globálnych slotov + čokoľvek v per-deň maskách (aby slot v maske po zmene globálnych slotov nezmizol z UI, no stále sa počítal)
   const rowSloty=[...new Set([...SLOTY(), ...[0,1,2,3,4,5,6].flatMap(di=>(S.daySloty||{})[datumPre(di)]||[])])].filter(s=>VSETKY_SLOTY.includes(s)).sort((a,b)=>VSETKY_SLOTY.indexOf(a)-VSETKY_SLOTY.indexOf(b));
   if(S.blokMode){ h+='<tr><td class="slotname rohova"></td>';
-    bl.forEach((b,idx)=>{ const pism=String.fromCharCode(65+idx); const vari=DNI[(b[0]+6)%7].slice(0,2); h+=`<td colspan="${b.length}" data-d="${b.join(" ")}" class="${tint(b[0])}" style="text-align:center;font-size:12px"><b>Blok ${pism} · ${DNI[b[0]].slice(0,2)}–${DNI[b[b.length-1]].slice(0,2)}</b><br><a onclick="planVarenia(${b[0]})" style="cursor:pointer;text-decoration:underline;color:var(--accent-txt)">🍳 plán varenia (${vari} večer)</a></td>`; }); h+="</tr>"; }
+    bl.forEach((b,idx)=>{ const pism=String.fromCharCode(65+idx); const vari=DNI[(b[0]+6)%7].slice(0,2); h+=`<td colspan="${b.length}" data-d="${b.join(" ")}" class="${tint(b[0])}" style="text-align:center;font-size:12px"><b>Blok ${pism} · ${DNI[b[0]].slice(0,2)}–${DNI[b[b.length-1]].slice(0,2)}</b><br><a class="plan-varenia" onclick="planVarenia(${b[0]})" style="cursor:pointer;text-decoration:underline;color:var(--accent-txt)">🍳 plán varenia (${vari} večer)</a></td>`; }); h+="</tr>"; }
   h+="<tr><th>Jedlo</th>"; DNI.forEach((d,di)=>h+=`<th data-d="${di}">${d.slice(0,3)}</th>`); h+="</tr>";
   h+='<tr class="ctrl-row"><td class="slotname rohova"></td>';
   DNI.forEach((d,di)=>{ const custom=(S.dayPpl[datumPre(di)]!=null); const ppl=custom?S.dayPpl[datumPre(di)]:stravniciList().length;
@@ -1301,7 +1322,7 @@ function riadokNakup(r){ const en=r.nazov.replace(/'/g,"\\'");
   return `<label class="${r.ck?'checked':''}"><span class="nm2"${guard}><input type="checkbox" ${r.ck?'checked':''} ${r.doma?'disabled':''} onchange="checkNakup('${r.key}',this.checked)"> ${meno} — <b>${r.mnoz}</b>${r.akc?' <span class="badge price">🏷️ akcia</span>':''}${r.doma?' <span class="info">(máš doma)</span>':''}</span></label>`; }
 function renderNakup(){
   const box=document.getElementById("nakup-list");
-  const nk=document.getElementById("nakup-kontext"); if(nk)nk.innerHTML=tyzdenNavHTML(); // nákup je na zvolený týždeň — treba to vidieť
+  const nk=document.getElementById("nakup-kontext"); if(nk){nk.innerHTML=tyzdenNavHTML(); zpristupniKliky(nk);} // nákup je na zvolený týždeň — treba to vidieť
   const domaEl=document.getElementById("doma-nakup"); if(domaEl){ if(document.activeElement===domaEl){S.domaNakup=domaEl.value;save();} else domaEl.value=S.domaNakup||""; }
   const rows=nakupItems();
   const lowStock=S.spajza.filter(x=>x.min>0 && x.mnozstvo<x.min);
@@ -1585,7 +1606,7 @@ async function resetApp(){ if(!await confirmModal("Naozaj vymazať VŠETKY dáta
   try{ localStorage.removeItem(LS); }catch(e){} location.reload(); }
 function normStravnici(){ if(!Array.isArray(S.profil.stravnici)||!S.profil.stravnici.length){ S.profil.stravnici=stravniciList(); } S.profil.osoby=S.profil.stravnici.length; }
 function renderStravnici(){ const box=document.getElementById("stravnici-box"); if(!box)return; const l=stravniciList();
-  box.innerHTML=l.map((p,i)=>`<div style="display:flex;gap:6px;margin-bottom:6px"><input value="${(p.nazov||"").replace(/"/g,"")}" onchange="zmenStravnika(${i},'nazov',this.value)" placeholder="meno" title="meno stravníka" style="flex:1;padding:8px;border:1px solid var(--line);border-radius:8px"><input type="number" value="${p.kcal||""}" onchange="zmenStravnika(${i},'kcal',this.value)" title="kcal/deň" style="width:110px;padding:8px;border:1px solid var(--line);border-radius:8px"><a onclick="zmazStravnika(${i})" style="color:var(--warn);cursor:pointer;align-self:center" title="odobrať">✕</a></div>`).join(""); naplnKohoSelect(); zpristupniFormulare(box); } // D6: menovky aj pre dynamicky vykreslené polia
+  box.innerHTML=l.map((p,i)=>`<div style="display:flex;gap:6px;margin-bottom:6px"><input value="${(p.nazov||"").replace(/"/g,"")}" onchange="zmenStravnika(${i},'nazov',this.value)" placeholder="meno" title="meno stravníka" style="flex:1;padding:8px;border:1px solid var(--line);border-radius:8px"><input type="number" value="${p.kcal||""}" onchange="zmenStravnika(${i},'kcal',this.value)" title="kcal/deň" style="width:110px;padding:8px;border:1px solid var(--line);border-radius:8px"><a onclick="zmazStravnika(${i})" style="color:var(--warn);cursor:pointer;display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px" title="odobrať stravníka">✕</a></div>`).join(""); naplnKohoSelect(); zpristupniFormulare(box); } // D6: menovky aj pre dynamicky vykreslené polia
 function pridajStravnika(){ const l=stravniciList().slice(); l.push({nazov:"Ďalší",kcal:S.profil.kcal||1450}); S.profil.stravnici=l; S.profil.osoby=l.length; save(); renderStravnici(); }
 function zmenStravnika(i,k,v){ const l=stravniciList().slice(); if(!l[i])return; l[i][k]=(k==="kcal")?(parseInt(v)||0):v; S.profil.stravnici=l; S.profil.osoby=l.length; save(); }
 function zmazStravnika(i){ let l=stravniciList().slice(); if(l.length<=1)return; l.splice(i,1); S.profil.stravnici=l; S.profil.osoby=l.length; save(); renderStravnici(); }
@@ -1604,12 +1625,12 @@ function naplnUcet(){ const box=document.getElementById("ucet-box"); if(!box)ret
   const u=authUser();
   if(!u){ box.innerHTML='<div class="field"><label>E-mail</label><input type="email" id="au-email" placeholder="ty@email.sk"></div>'
     +'<div class="field"><label>Heslo</label><input type="password" id="au-pass" placeholder="aspoň 6 znakov"></div>'
-    +'<div style="display:flex;gap:8px"><button onclick="uiLogin()">Prihlásiť</button><button class="ghost" onclick="uiSignup()">Registrovať</button></div>'
+    +'<div class="btn-row" style="margin-top:12px"><button class="btn primary" onclick="uiLogin()">Prihlásiť</button><button class="btn" onclick="uiSignup()">Registrovať</button></div>'
     +'<p class="info" id="au-msg"></p>'; return; }
   let h='<p class="info">Prihlásený: <b>'+(u.email||"").replace(/</g,"&lt;")+'</b> &nbsp;<a onclick="uiLogout()" style="cursor:pointer;color:var(--warn)">Odhlásiť</a></p>'
     +'<p class="info">Tvoje osobné údaje (obľúbené, plán, nastavenia…) sa ukladajú k účtu a načítajú po prihlásení na hocijakom zariadení.</p>';
   if(!S.profil.skupinaId){ h+='<p class="info">Skupina zdieľa plán, nákupný zoznam a špajzu s pozvanými členmi.</p>'
-    +'<div style="display:flex;gap:8px;flex-wrap:wrap"><input type="text" id="au-nazov" placeholder="názov skupiny" style="flex:1;min-width:140px;padding:8px;border:1px solid var(--line);border-radius:8px"><button onclick="uiSkupinaVytvor()">Vytvoriť skupinu</button></div>'
+    +'<div style="display:flex;gap:8px;flex-wrap:wrap"><input type="text" id="au-nazov" placeholder="názov skupiny" style="flex:1;min-width:140px;padding:8px;border:1px solid var(--line);border-radius:8px"><button class="btn primary" onclick="uiSkupinaVytvor()">Vytvoriť skupinu</button></div>'
     +'<div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap"><input type="text" id="au-kod" placeholder="pozývací kód" style="flex:1;min-width:140px;padding:8px;border:1px solid var(--line);border-radius:8px"><button class="ghost" onclick="uiSkupinaPripoj()">Pripojiť sa</button></div>'; }
   else { h+='<p class="info">Skupina: <b>'+((S.profil.skupinaNazov||"(bez názvu)")).replace(/</g,"&lt;")+'</b></p>'
     +'<div class="field"><label>Pozývací kód (pošli ho členom)</label><input type="text" id="au-kodshow" readonly value="'+(S.profil.skupinaKod||"").replace(/"/g,"")+'" onclick="this.select()" style="font-weight:700;letter-spacing:1px"></div>'
@@ -1914,7 +1935,7 @@ document.addEventListener("visibilitychange",()=>{ if(!document.hidden){ syncSku
 if('serviceWorker' in navigator && location.protocol.startsWith('http')){ navigator.serviceWorker.register('sw.js').catch(()=>{}); }
 syncPull();
 (async()=>{ try{ if(typeof authUser==="function"&&authUser())await syncOsobnePull(); }catch(e){} syncSkupinaPull(); })();
-applyVzhlad(); naplnKuchyne(); renderChips(); renderKolekcie(); renderGrid(); naplnPotravinyDatalist(); aktualizujJednotky(); renderDash();
+applyVzhlad(); naplnKuchyne(); renderChips(); renderKolekcie(); renderGrid(); naplnPotravinyDatalist(); aktualizujJednotky(); renderDash(); zbalNaMobile();
 zpristupniNav(); zpristupniFormulare(); // E3 + D6
 { const hv=location.hash.slice(1); if(hv && hv!=="domov" && document.getElementById("v-"+hv)) zobrazView(hv); } // E8: obnov obrazovku z deep-linku
 if(_prvySpust && !S.profil.onboarded) onboardingModal(); // Onboarding pri prvom spustení

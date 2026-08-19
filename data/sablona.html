@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Moja kuchárka</title>
-<meta name="theme-color" content="#1f5c3c">
+<meta name="theme-color" content="#1f5c3c" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12331f" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Kuchárka">
@@ -14,16 +15,17 @@
 <script>(function(){var i=document.querySelector("link[rel=icon]").href;var m={name:"Moja kuchárka",short_name:"Kuchárka",display:"fullscreen",orientation:"portrait",background_color:"#1f5c3c",theme_color:"#1f5c3c",icons:[{src:i,sizes:"512x512",type:"image/png",purpose:"any maskable"}]};document.getElementById("mf").href=URL.createObjectURL(new Blob([JSON.stringify(m)],{type:"application/manifest+json"}));})();</script>
 <style>
   :root{
-    --bg:#f7f5f0; --panel:#fff; --ink:#2b2b2b; --muted:#7a7568;
+    --bg:#f7f5f0; --panel:#fff; --ink:#2b2b2b; --muted:#6f6a5d; /* 5,0:1 na --bg; #7a7568 dával 4,22:1 = pod AA */
     --accent:#2e7d54; --accent-dark:#1f5c3c; --line:#e6e2d8; --chip:#efece4;
+    --accent-fill:#2e7d54; /* plocha pod bielym textom — v tmavom režime sa NEmení (kontrast 5,03:1) */
     --warn:#c0392b; --gold:#e0a800; --shadow:0 2px 10px rgba(0,0,0,.06);
     --sidebar:210px; --card:#fff; --accent-txt:#1f5c3c;
   }
   *{box-sizing:border-box}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+  body{overscroll-behavior-y:contain;-webkit-tap-highlight-color:rgba(46,125,84,.18);margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
   a{color:inherit}
   /* layout */
-  .app{display:flex;min-height:100vh}
+  .app{display:flex;min-height:100vh;min-height:100dvh}
   .side{width:var(--sidebar);background:var(--accent-dark);color:#fff;display:flex;flex-direction:column;position:sticky;top:0;height:100vh;flex-shrink:0}
   .side .brand{padding:20px 18px 14px;font-size:19px;font-weight:600;display:flex;align-items:center;gap:8px}
   .side nav{display:flex;flex-direction:column;padding:6px 10px;gap:2px;flex:1}
@@ -51,8 +53,6 @@
   .tile .val small{font-size:14px;font-weight:400;color:var(--muted)}
   .panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:20px;box-shadow:var(--shadow)}
   .panel h3{margin:0 0 12px;font-size:16px;color:var(--accent-txt)}
-  .qa{display:flex;gap:10px;flex-wrap:wrap}
-  .qa button{flex:1;min-width:140px}
   .dnes{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
   .dnes .thumb{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#dfe8e0,#c8d8cc);display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--accent-dark);flex-shrink:0;overflow:hidden}
   .dnes .thumb img{width:100%;height:100%;object-fit:cover}
@@ -71,6 +71,8 @@
   .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px;padding:12px;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
   #hladaj{flex:1;min-width:200px;padding:11px 14px;border:1px solid var(--line);border-radius:10px;font-size:15px;background:#fff;transition:border-color .12s,box-shadow .12s}
   #hladaj:focus,select.f:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(46,125,84,.15)}
+  input.f{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font-size:15px}
+  input.f:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(46,125,84,.15)}
   select.f{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:14px;cursor:pointer;transition:border-color .12s,box-shadow .12s}
   select.f:hover{border-color:var(--accent)}
   .krok-mn{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:8px;background:var(--chip);color:var(--accent-txt);font-size:13px;font-weight:600;white-space:normal}
@@ -79,14 +81,14 @@
   body.dark .pick-dropdown{background:var(--panel)}
   .kolekcie{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px}
   .kol-tile{padding:7px 12px;border:1px solid var(--line);border-radius:20px;cursor:pointer;font-size:14px;background:var(--card);white-space:nowrap;user-select:none}
-  .kol-tile.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .kol-tile.active{background:var(--accent-fill);color:#fff;border-color:var(--accent-fill)}
   .hdot{display:inline-block;width:9px;height:9px;border-radius:50%;vertical-align:middle;margin-right:4px}
   .hs-green{background:#2e7d54} .hs-amber{background:#e0a800} .hs-red{background:#c0392b}
   .badge.hs-green{background:#e3f1e9;color:#2e7d54} .badge.hs-amber{background:#fbf0cf;color:#8a6d00} .badge.hs-red{background:#f6dedb;color:#c0392b}
   .ring{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;font-size:11px;vertical-align:middle}
   .ring b{background:var(--card);width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700}
   .chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:7px 13px;border-radius:20px;cursor:pointer;font-size:14px;user-select:none}
-  .chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .chip.active{background:var(--accent-fill);color:#fff;border-color:var(--accent-fill)}
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer;box-shadow:var(--shadow);transition:transform .12s,box-shadow .12s;position:relative}
   .card:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,.10)}
@@ -95,7 +97,7 @@
   .card .thumb img{width:100%;height:100%;object-fit:cover}
   .fav{position:absolute;top:8px;right:8px;background:rgba(255,255,255,.92);border:none;border-radius:50%;width:34px;height:34px;font-size:18px;cursor:pointer;line-height:1;color:var(--gold)}
   .card .body{padding:12px 15px}
-  .card .kat{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#fff;background:var(--accent);padding:3px 9px;border-radius:12px}
+  .card .kat{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#fff;background:var(--accent-fill);padding:3px 9px;border-radius:12px}
   .card h3{margin:8px 0 5px;font-size:16px}
   .card .meta{font-size:12.5px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
   .card .stars{font-size:13px;margin-top:5px;min-height:16px}
@@ -104,18 +106,20 @@
   .star-slot .star-f{position:absolute;left:0;top:0;overflow:hidden;white-space:nowrap;color:var(--gold)}
   .card .diet{margin-top:6px;display:flex;gap:4px;flex-wrap:wrap}
   .badge{font-size:10.5px;padding:2px 7px;border-radius:10px;background:#eef3ef;color:var(--accent-dark);border:1px solid #d9e6dd}
-  .badge.alerg{background:#fbefec;color:var(--warn);border-color:#f0d5cf}
+  .badge.alerg{background:#fbefec;color:#c0392b;border-color:#f0d5cf}
+  body.dark .badge.alerg{background:#3a2320;color:#f0a89e;border-color:#5a332d}
   .badge.price{background:#fff6e6;color:#8a6100;border-color:#f0e0be}
   .empty{padding:50px 20px;text-align:center;color:var(--muted)}
   /* modal */
   .overlay{position:fixed;inset:0;background:rgba(20,20,20,.55);display:none;align-items:flex-start;justify-content:center;padding:30px 16px;z-index:60;overflow-y:auto}
   .overlay.open{display:flex}
-  .modal{background:#fff;max-width:730px;width:100%;border-radius:16px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.3)}
-  .modal .hero{background:var(--accent-dark);color:#fff;padding:20px 24px;position:relative}
+  /* bez overflow:hidden — orezalo by dropdown „⋯ Viac" v detaile receptu (rohy riešia .hero a .content2) */
+  .modal{background:#fff;max-width:730px;width:100%;border-radius:16px;box-shadow:0 20px 50px rgba(0,0,0,.3)}
+  .modal .hero{background:var(--accent-dark);color:#fff;padding:20px 24px;position:relative;border-radius:16px 16px 0 0}
   .modal .hero h2{margin:0 40px 6px 0;font-size:23px}
   .modal .hero .subx{font-size:13px;opacity:.85}
   .modal .close{position:absolute;top:14px;right:16px;background:rgba(255,255,255,.15);border:none;color:#fff;width:32px;height:32px;border-radius:50%;font-size:18px;cursor:pointer}
-  .modal .content2{padding:20px 24px 30px}
+  .modal .content2{padding:20px 24px 30px;border-radius:0 0 16px 16px}
   .popis{color:var(--muted);font-style:italic;margin:0 0 14px}
   .row-badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
   .porcie-box{display:flex;align-items:center;gap:10px;background:var(--chip);padding:12px 16px;border-radius:12px;margin-bottom:8px;flex-wrap:wrap}
@@ -125,7 +129,7 @@
   .stepper button:hover{background:var(--chip)}
   .stepper span{min-width:40px;text-align:center;font-weight:600}
   .mini{border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;cursor:pointer;font-size:13px}
-  .mini.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .mini.on{background:var(--accent-fill);color:#fff;border-color:var(--accent-fill)}
   .nutri{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0 4px}
   .nutri div{background:#f3f8f4;border:1px solid #d9e6dd;border-radius:10px;padding:10px;text-align:center}
   .nutri b{display:block;font-size:18px;color:var(--accent-txt)}
@@ -146,7 +150,27 @@
   textarea.pozn{width:100%;min-height:60px;border:1px solid var(--line);border-radius:10px;padding:10px;font-size:14px;font-family:inherit;margin-top:8px}
   .btn-row{margin-top:20px;display:flex;gap:10px;flex-wrap:wrap}
   .btn{border:1px solid var(--line);background:#fff;padding:9px 16px;border-radius:10px;cursor:pointer;font-size:14px}
-  .btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .btn.primary{background:var(--accent-fill);color:#fff;border-color:var(--accent-fill)}
+  .menu-wrap{position:relative;display:inline-block}
+  .menu{display:none;position:absolute;top:calc(100% + 4px);right:0;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.14);min-width:220px;z-index:40;overflow:hidden}
+  .menu.open{display:block}
+  .menu a{display:block;padding:11px 14px;font-size:14px;cursor:pointer;color:var(--ink);text-decoration:none}
+  .menu a:hover{background:var(--chip)}
+  body.dark .menu{background:var(--panel);color:var(--ink)}
+  /* U1: zbaliteľný panel — sekundárny obsah nesmie na telefóne tlačiť primárny pod okraj obrazovky */
+  details.panel > summary{cursor:pointer;font-size:16px;font-weight:600;color:var(--accent-txt);display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:34px;list-style:none}
+  details.panel > summary::-webkit-details-marker{display:none}
+  details.panel > summary::after{content:"⌄";font-size:20px;line-height:1;color:var(--muted);transition:transform .15s ease-out}
+  details.panel[open] > summary{margin-bottom:12px}
+  details.panel[open] > summary::after{transform:rotate(180deg)}
+  @media(prefers-reduced-motion:reduce){ details.panel > summary::after{transition:none} }
+  /* U1: riadok akcií = 1 primárna + „⋯ Viac"; ostatné akcie žijú v menu, nie v riadku */
+  .akcie{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:20px}
+  .akcie .btn.primary{flex:1;min-width:210px}
+  /* U1: 4 selecty filtra zaberú na telefóne celú obrazovku → schované za jedno tlačidlo s počtom */
+  .f-body{display:flex;flex-wrap:wrap;gap:10px;align-items:center;flex:1;min-width:0}
+  .f-toggle{display:none}
+  .f-toggle .cnt{background:var(--accent-fill);color:#fff;border-radius:10px;padding:0 7px;font-size:12px;font-weight:600}
   /* plánovač */
   .plan-head{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
   .plan-grid{overflow-x:auto}
@@ -176,7 +200,7 @@
   .plan-cell .nm{font-weight:600;line-height:1.2}
   .plan-cell .kc{color:var(--muted);font-size:11.5px}
   .plan-cell .rm{align-self:flex-end;color:var(--warn);font-size:11px;cursor:pointer}
-  .plan-cell.prazdne{color:#bbb;justify-content:center;align-items:center;text-align:center}
+  .plan-cell.prazdne{color:var(--muted);justify-content:center;align-items:center;text-align:center}
   .plan-cell.vyp{color:var(--muted);background:repeating-linear-gradient(45deg,transparent,transparent 6px,rgba(0,0,0,.03) 6px,rgba(0,0,0,.03) 12px);justify-content:center;align-items:center;text-align:center;font-size:12px;opacity:.6;cursor:default;min-height:32px}
   body.dark .plan-cell.vyp{background:repeating-linear-gradient(45deg,transparent,transparent 6px,rgba(255,255,255,.04) 6px,rgba(255,255,255,.04) 12px)}
   .ctrl-row td.ctrl{padding:4px;text-align:center;vertical-align:top}
@@ -185,6 +209,7 @@
   .ctrl-row .pplnum{font-size:12px;min-width:36px}
   .ctrl-row .pplnum.cust{font-weight:700;color:var(--accent-txt)}
   .ctrl-row .mchips{display:flex;gap:3px;justify-content:center;flex-wrap:wrap}
+  .hranica{display:inline-flex;align-items:center;justify-content:center;min-width:30px;min-height:38px;cursor:pointer;font-size:18px;user-select:none}
   .mchip{width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;border-radius:6px;cursor:pointer;font-size:13px;background:var(--line);opacity:.35;filter:grayscale(1);user-select:none}
   .mchip.on{opacity:1;filter:none;background:#e8f1eb}
   body.dark .mchip.on{background:var(--accent-dark)}
@@ -241,7 +266,12 @@
   .field{display:flex;flex-direction:column;gap:5px;margin-bottom:14px}
   .field label{font-size:14px;font-weight:500}
   .field input[type=number]{width:130px;padding:9px 11px;border:1px solid var(--line);border-radius:9px;font-size:15px}
+  /* A4: input[type=text|email|password|date] nemal žiadne pravidlo → v Nastaveniach boli 21 px nezarámované polia */
+  .field input[type=text],.field input[type=email],.field input[type=password],.field input[type=date]{padding:9px 11px;border:1px solid var(--line);border-radius:9px;font-size:15px;background:var(--card);color:var(--ink)}
+  .field input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(46,125,84,.15)}
   .switch{display:flex;align-items:center;gap:10px;font-size:15px;padding:7px 0}
+  /* U1: systémové modré checkboxy vedľa zelenej identity appky vyzerali ako z iného webu */
+  input[type=checkbox],input[type=radio]{accent-color:var(--accent);width:20px;height:20px}
   /* režim varenia */
   .cook{position:fixed;inset:0;background:#111;color:#fff;z-index:80;display:none;flex-direction:column;padding:24px}
   .cook.open{display:flex}
@@ -263,9 +293,14 @@
     table.plan.d2 [data-d]:not([data-d~="2"]),table.plan.d3 [data-d]:not([data-d~="3"]),
     table.plan.d4 [data-d]:not([data-d~="4"]),table.plan.d5 [data-d]:not([data-d~="5"]),
     table.plan.d6 [data-d]:not([data-d~="6"]){display:none}
+    /* P0: pri table-layout:fixed a 6 skrytých dňoch dostala bunka s jedlom 16 px a slotname 313 px */
+    table.plan{table-layout:auto}
+    table.plan td{width:auto}
+    table.plan td.slotname{width:74px}
+    .plan-varenia{display:inline-block;min-height:30px;padding:6px 2px}
     /* dotykové ciele: 22 px je pod hranicou trafiteľnosti prstom */
-    .ctrl-row .ppl button{width:34px;height:34px;font-size:18px}
-    .mchip{width:34px;height:34px;font-size:17px}
+    .ctrl-row .ppl button{width:44px;height:44px;font-size:18px}
+    .mchip{width:40px;height:40px;font-size:17px;flex:0 0 auto}
     .plan-cell .rm{padding:4px 0}
   }
   @media(max-width:820px){
@@ -283,13 +318,55 @@
     .cook .step{font-size:23px}
     /* zabráni auto-zoomu iOS Safari pri fokuse na formulár (potrebné min. 16px) */
     input,select,textarea,#hladaj{font-size:16px!important}
-    .fav,.modal .close,.stepper button{width:40px;height:40px}
+    .fav,.modal .close,.stepper button{width:44px;height:44px}
     .stepper button{font-size:22px}
     .modal .close{top:10px;right:12px}
     .modal .hero h2{margin-right:48px}
+    /* U1: karta mala 120 px prázdneho emoji náhľadu a bola 1 v riadku → na obrazovku sa zmestili
+       1,5 receptu z 1336. Dva stĺpce + nižší náhľad = 4 recepty naraz. */
+    .grid{grid-template-columns:repeat(2,1fr);gap:10px}
+    .card .thumb{height:82px;font-size:32px}
+    .card .body{padding:10px 12px}
+    .card h3{font-size:14.5px;margin:7px 0 4px}
+    .card .meta{gap:7px;font-size:11.5px}
+    .card .macros,.card .spajza-match{font-size:11px}
+    /* U1: 5 kolekcií + 13 kategórií = 6 riadkov chipov (~700 px) pred prvým receptom.
+       Na telefóne z nich sú vodorovné lišty: 2 riadky, nič nezmizlo, zvyšok sa doswipuje. */
+    .kolekcie,.chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
+    .kolekcie::-webkit-scrollbar,.chips::-webkit-scrollbar{display:none}
+    .kolekcie>*,.chips>*{flex:0 0 auto}
+    /* U1: panel na telefóne nemusí mať 20 px vnútorný okraj — je to 40 px šírky navyše */
+    .panel{padding:14px 16px}
+    /* U1: 7 dní v riadku sa delilo nerovnomerne (33–40 px); grid dá každému rovnaký podiel */
+    .plan-den-nav{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+    .plan-den-nav .chip{padding:7px 2px;min-width:0}
+    .plan-den-nav .chip:last-child{grid-column:1/-1}
+    .hranica{min-height:44px}
+    /* U1: dotykové ciele — 38 px tlačidlo sa prstom míňa */
+    .btn{min-height:44px;padding:11px 16px}
+    #blok-editor{gap:1px}
+    #blok-editor .info{width:100%;margin:0 0 4px}
+    #blok-editor .chip{min-height:32px;padding:5px 8px;font-size:13px}
+    .chip,.kol-tile,button.mini{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+    details > summary,details.panel > summary{min-height:44px}
+    .sub a{display:inline-flex;align-items:center;min-height:44px}
+    .botnav a{min-height:52px;display:flex;flex-direction:column;justify-content:center}
+    .akcie .btn.primary{min-width:0}
+    .ctrl-row .ppl button{flex:0 0 auto}
+    /* U1: „⋯ Viac" je na telefóne spodný panel — dropdown pri tlačidle vľavo by sa vysunul mimo obrazovky */
+    .menu{position:fixed;left:8px;right:8px;top:auto;bottom:calc(74px + env(safe-area-inset-bottom));min-width:0;max-height:70vh;overflow:auto;border-radius:14px;z-index:70;box-shadow:0 -6px 30px rgba(0,0,0,.28)}
+    .menu a{min-height:48px;display:flex;align-items:center}
+    /* U1: filtre zbalené za jedno tlačidlo — v jednom riadku s hľadaním, nie pod ním */
+    .f-toggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto}
+    #hladaj{min-width:0;flex:1 1 120px}
+    .controls{padding:9px;margin-bottom:10px}
+    .sub{margin-bottom:12px}
+    .f-body{display:none;width:100%}
+    .controls.f-open .f-body{display:flex}
+    .f-body select.f{flex:1 1 calc(50% - 5px);min-height:44px}
   }
   @media print{
-    .side,.botnav,.controls,.chips,.plan-head,.btn-row,.close,.fav,.cook,.qa,.hodnotenie{display:none!important}
+    .side,.botnav,.controls,.chips,.plan-head,.btn-row,.close,.fav,.cook,.akcie,.hodnotenie{display:none!important}
     body{background:#fff}
     .view{display:none!important}
     .view.printme{display:block!important}
@@ -300,12 +377,6 @@
     .content{padding:0}
   }
   body.big{zoom:1.12}
-  .menu-wrap{position:relative;display:inline-block}
-  .menu{display:none;position:absolute;top:calc(100% + 4px);right:0;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.14);min-width:220px;z-index:40;overflow:hidden}
-  .menu.open{display:block}
-  .menu a{display:block;padding:11px 14px;font-size:14px;cursor:pointer;color:var(--ink);text-decoration:none}
-  .menu a:hover{background:var(--chip)}
-  body.dark .menu{background:var(--panel);color:var(--ink)}
   .exp-soon{color:#8a6100;font-weight:600}
   .exp-over{color:var(--warn);font-weight:600}
   .low{color:var(--warn);font-weight:600}
@@ -320,7 +391,7 @@
   body.dark .kal .day{background:var(--panel)}
   .sp-row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 4px;border-bottom:1px solid var(--line);font-size:15px}
   .sp-row .meta2{font-size:12.5px;color:var(--muted)}
-  body.dark{--bg:#181713;--panel:#232219;--ink:#ece7db;--muted:#a49d8b;--line:#39362c;--chip:#2b2a22;--accent:#4b9e73;--accent-dark:#12331f;--card:#232219;--accent-txt:#6fbf95}
+  body.dark{--warn:#ef6b5c; --bg:#181713;--panel:#232219;--ink:#ece7db;--muted:#a49d8b;--line:#39362c;--chip:#2b2a22;--accent:#4b9e73;--accent-dark:#12331f;--card:#232219;--accent-txt:#6fbf95}
   body.dark .card,body.dark .tile,body.dark .panel,body.dark .modal .content2,body.dark input,body.dark select,body.dark textarea{background:var(--panel);color:var(--ink)}
   body.dark .btn,body.dark .mini,body.dark .stepper button,body.dark .stepper,body.dark #hladaj{background:var(--panel);color:var(--ink);border-color:var(--line)}
   body.dark table.plan td{background:var(--panel);color:var(--ink)}
@@ -354,27 +425,36 @@
       <div class="tiles" id="dash-tiles"></div>
       <div class="panel" id="dnes-plan-panel"><h3>📅 Dnešný plán</h3><div id="dnes-plan"></div></div>
       <div class="panel" id="cotvarit-panel"><h3>Čo variť dnes?</h3><div class="dnes" id="dnes"></div></div>
-      <div class="panel"><h3>Rýchle akcie</h3><div class="qa">
+      <div class="akcie">
         <button class="btn primary" onclick="otvorGen()">✨ Zostaviť jedálniček</button>
-        <button class="btn" onclick="uvarZoSpajze()">🧊 Uvar zo špajze</button>
-        <button class="btn" onclick="dojedzZvysky()">♻️ Dojedz zvyšky</button>
-      </div><div id="zvysky-out" style="margin-top:12px"></div></div>
-      <div class="panel"><h3>Obľúbené</h3><div class="grid" id="dash-fav"></div></div>
-      <div class="panel"><h3>🧊 Špajza — spotrebuj čoskoro</h3><div id="dash-spajza" class="info"></div></div>
+        <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-dom')">⋯ Viac</button>
+          <div class="menu" id="m-dom">
+            <a onclick="uvarZoSpajze();zavriMenu()">🧊 Uvar zo špajze</a>
+            <a onclick="dojedzZvysky();zavriMenu()">♻️ Dojedz zvyšky</a>
+            <a onclick="prepni('vyziva');zavriMenu()">📊 Výživa za týždeň</a>
+          </div>
+        </div>
+      </div>
+      <div id="zvysky-out"></div>
       <div class="panel" id="okno-panel"><h3>🕒 Okno jedenia</h3><div id="dash-okno" class="info"></div></div>
-      <div class="panel"><h3>Naposledy varené</h3><div id="dash-hist" class="info"></div></div>
+      <details class="panel mob-zbal" open><summary>Obľúbené</summary><div class="grid" id="dash-fav"></div></details>
+      <details class="panel mob-zbal" open><summary>🧊 Špajza — spotrebuj čoskoro</summary><div id="dash-spajza" class="info"></div></details>
+      <details class="panel mob-zbal" open><summary>Naposledy varené</summary><div id="dash-hist" class="info"></div></details>
     </div>
 
     <div class="view" id="v-recepty">
       <h2 class="h">Recepty</h2>
       <p class="sub"><span id="pocet">__POCET__</span> receptov v kuchárke · <a onclick="novyRecept()" style="cursor:pointer;color:var(--accent);text-decoration:underline">+ Nový recept</a></p>
       <datalist id="jedn-dl"><option value="g"></option><option value="ml"></option><option value="ks"></option><option value="ČL"></option><option value="PL"></option><option value="strúčik"></option><option value="štipka"></option><option value="hrsť"></option><option value="plátok"></option></datalist>
-      <div class="controls">
+      <div class="controls" id="rec-controls">
         <input id="hladaj" type="search" placeholder="Hľadať recept alebo surovinu…">
+        <button class="btn f-toggle" id="f-toggle" aria-expanded="false" aria-controls="f-body" onclick="prepniFiltre()">⚙ Filtre a radenie <span class="cnt" id="f-cnt" hidden>0</span></button>
+        <div class="f-body" id="f-body">
         <select class="f" id="f-kuchyna"><option value="">Všetky kuchyne</option></select>
         <select class="f" id="f-cas"><option value="">Ľubovoľný čas</option><option value="20">do 20 min</option><option value="35">do 35 min</option><option value="60">do 60 min</option></select>
         <select class="f" id="f-diet"><option value="">Bez obmedzenia</option><option value="veg">Vegetariánske</option><option value="lepok">Bez lepku</option><option value="mlieko">Bez laktózy</option><option value="fav">Len obľúbené</option><option value="skryte">🚫 Skryté</option></select>
         <select class="f" id="f-sort"><option value="">Zoradiť: predvolené</option><option value="spajza">🧊 Najviac z mojej špajze</option><option value="nazov">Názov A–Z</option><option value="cas">Najrýchlejšie</option><option value="kcal">Najmenej kcal</option><option value="kcald">Najviac kcal</option><option value="hodn">Najlepšie hodnotené</option></select>
+        </div>
       </div>
       <div id="kolekcie" class="kolekcie"></div>
       <div class="chips" id="chips"></div>
@@ -404,7 +484,9 @@
         </div>
       </div>
       <label class="switch" style="margin:0 0 8px"><input type="checkbox" id="p-blok" onchange="prepniBlok(this.checked)"> Blokový režim (navaríš raz, je sa viac dní)</label>
-      <div id="blok-editor" style="display:flex;gap:2px;flex-wrap:wrap;align-items:center;margin-bottom:12px"></div>
+      <details class="panel mob-zbal" id="blok-wrap" open><summary>✂️ Rozdelenie blokov</summary>
+        <div id="blok-editor" style="display:flex;gap:2px;flex-wrap:wrap;align-items:center"></div>
+      </details>
       <div id="plan-den-nav" class="chips plan-den-nav"></div>
       <div class="plan-grid"><table class="plan" id="plan-table"></table></div>
       </div>
@@ -421,13 +503,17 @@
       <div class="plan-head">
         <input class="f" id="nakup-manual" style="flex:1;min-width:200px" placeholder="Pridať vlastnú položku (napr. toaletný papier)…" onkeydown="if(event.key==='Enter')pridajNakupPolozku()">
         <button class="btn" onclick="pridajNakupPolozku()">+ Pridať</button>
+        <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-nakup')">⋯ Viac</button>
+          <div class="menu" id="m-nakup">
+            <a onclick="zdielajNakup();zavriMenu()">📤 Zdieľať zoznam</a>
+            <a onclick="kopirujListonic();zavriMenu()">📋 Kopírovať do schránky</a>
+            <a onclick="tlacView('nakup');zavriMenu()">🖨 Tlačiť</a>
+          </div>
+        </div>
       </div>
-      <div class="plan-head">
-        <input class="f" id="doma-nakup" style="flex:1;min-width:160px" placeholder="Mám doma (odráta sa)…" oninput="domaNakupZmena(this.value)" onchange="domaNakupZmena(this.value,true)">
-        <button class="btn" onclick="zdielajNakup()">📤 Zdieľať</button>
-        <button class="btn" onclick="kopirujListonic()">📋 Kopírovať</button>
-        <button class="btn" onclick="tlacView('nakup')">🖨 Tlačiť</button>
-      </div>
+      <details class="panel mob-zbal" open><summary>🏠 Mám doma (odráta sa z nákupu)</summary>
+        <input class="f" id="doma-nakup" style="width:100%" placeholder="napr. mlieko, ryža, olivový olej" oninput="domaNakupZmena(this.value)" onchange="domaNakupZmena(this.value,true)">
+      </details>
       <div id="nakup-list"></div>
     </div>
 
@@ -448,7 +534,7 @@
       <h2 class="h">Špajza a čo z nej uvarím</h2>
       <p class="sub">Zásoby s miestom, dátumom spotreby a minimom. Pod minimum → do nákupu.</p>
       <datalist id="potraviny-dl"></datalist>
-      <div class="panel"><h3>Pridať zásobu</h3>
+      <details class="panel mob-zbal" open><summary>➕ Pridať zásobu</summary>
         <div class="controls">
           <input id="sp-nazov" list="potraviny-dl" placeholder="Surovina (vyber zo zoznamu)" oninput="aktualizujJednotky()" style="flex:1;min-width:160px;padding:10px;border:1px solid var(--line);border-radius:9px">
           <input id="sp-mn" type="number" placeholder="množstvo" style="width:110px;padding:10px;border:1px solid var(--line);border-radius:9px">
@@ -458,7 +544,7 @@
           <input id="sp-min" type="number" placeholder="min" title="minimálne množstvo" style="width:80px;padding:10px;border:1px solid var(--line);border-radius:9px">
           <button class="btn primary" onclick="pridajZasobu()">Pridať</button>
         </div>
-      </div>
+      </details>
       <div id="spajza-list"></div>
       <div class="panel"><h3>🍳 Čo z toho uvarím?</h3>
         <div class="btn-row"><button class="btn primary" onclick="uvarZoSpajze()">Nájdi recepty zo špajze</button></div>
@@ -477,24 +563,27 @@
         <div class="field"><label>Ktoré jedlá varíte?</label><div id="sloty-box"></div></div>
         <div class="field"><label>Stravníci (rôzne kalórie/deň)</label><div id="stravnici-box"></div><button class="btn" onclick="pridajStravnika()" style="margin-top:6px">+ pridať osobu</button></div>
         <div class="field"><label>Cieľ kalórií na deň (kcal)</label><input type="number" id="p-kcal" value="1450"></div>
+        <div class="field"><label>Cieľ</label><select class="f" id="p-cieltyp"><option value="chudnutie">Chudnutie</option><option value="udrzanie">Udržanie</option><option value="priberanie">Priberanie</option></select></div>
+      </div>
+      <details class="panel"><summary>🥗 Diéta a suroviny</summary>
         <div class="field"><label>Cieľ bielkovín na deň (g, 0 = vypnuté)</label><input type="number" id="p-biel" value="0"></div>
         <div class="field"><label>Tento týždeň v akcii (čiarkou — ovplyvní návrhy)</label><input type="text" id="p-akcie" placeholder="napr. kuracie, losos, paprika"></div>
         <div class="field"><label>Sledované suroviny (uprednostní recepty, čiarkou)</label><input type="text" id="p-watch" placeholder="napr. losos, cuketa"></div>
         <div class="field"><label>Zakázané suroviny (skryje recepty, čiarkou)</label><input type="text" id="p-zakazane" placeholder="napr. huby, koriander"></div>
-        <div class="field"><label>Cieľ</label><select class="f" id="p-cieltyp"><option value="chudnutie">Chudnutie</option><option value="udrzanie">Udržanie</option><option value="priberanie">Priberanie</option></select></div>
         <label class="switch"><input type="checkbox" id="p-ryby"> Bez rýb</label>
         <label class="switch"><input type="checkbox" id="p-lepok"> Bez lepku</label>
         <label class="switch"><input type="checkbox" id="p-mlieko"> Bez laktózy</label>
+        <label class="switch"><input type="checkbox" id="p-kupsnack"> Preferovať kupované snacky</label>
+      </details>
+      <details class="panel"><summary>🎨 Zobrazenie a okno jedenia</summary>
         <label class="switch"><input type="checkbox" id="p-dark"> Tmavý režim</label>
         <label class="switch"><input type="checkbox" id="p-big"> Väčšie písmo</label>
         <label class="switch"><input type="checkbox" id="p-balenia"> Zobrazovať balenia v nákupe (v zátvorke)</label>
-        <label class="switch"><input type="checkbox" id="p-kupsnack"> Preferovať kupované snacky</label>
         <label class="switch"><input type="checkbox" id="p-okno"> Okno jedenia 16:8</label>
-        <div class="field"><label>Začiatok okna jedenia (hodina)</label><input type="number" id="p-oknostart" min="0" max="23" value="12" style="width:90px"></div>
-        <div class="btn-row"><button class="btn primary" onclick="ulozProfil()">Uložiť</button></div>
-        <p class="info" id="profil-ok" style="margin-top:8px"></p>
-      </div>
-      <div class="panel"><h3>Vypočítať kalorický cieľ (TDEE)</h3>
+        <div class="field" style="margin-top:12px"><label>Začiatok okna jedenia (hodina)</label><input type="number" id="p-oknostart" min="0" max="23" value="12" style="width:90px"></div>
+      </details>
+      <div class="akcie"><button class="btn primary" onclick="ulozProfil()">Uložiť nastavenia</button><span class="info" id="profil-ok"></span></div>
+      <details class="panel"><summary>🧮 Vypočítať kalorický cieľ (TDEE)</summary>
         <div class="field"><label>Pohlavie</label><select class="f" id="t-poh"><option value="m">Muž</option><option value="z">Žena</option></select></div>
         <div class="field"><label>Vek</label><input type="number" id="t-vek" value="35"></div>
         <div class="field"><label>Výška (cm)</label><input type="number" id="t-vyska" value="178"></div>
@@ -504,32 +593,32 @@
         <p class="info">Zohľadní „Cieľ" vyššie (chudnutie −15 % / udržanie / priberanie +10 %) a zapíše kcal vybranému stravníkovi.</p>
         <div class="btn-row"><button class="btn" onclick="vypocitajCiel()">Vypočítať a uložiť</button></div>
         <p class="info" id="tdee-ok"></p>
-      </div>
-      <div class="panel"><h3>Váha a adaptívny cieľ</h3>
+      </details>
+      <details class="panel"><summary>⚖️ Váha a adaptívny cieľ</summary>
         <div class="controls"><input id="v-vaha" type="number" step="0.1" placeholder="kg" style="width:120px;padding:10px;border:1px solid var(--line);border-radius:9px"><button class="btn primary" onclick="zapisVahu()">Zapísať váhu</button></div>
         <div id="vahy-info" class="info" style="margin-top:10px"></div>
         <div class="btn-row"><button class="btn" onclick="prispobitCiel()">Prispôsobiť cieľ podľa trendu</button></div>
         <p class="info" id="vaha-ok"></p>
-      </div>
-      <div class="panel"><h3>Záloha dát</h3>
+      </details>
+      <details class="panel"><summary>💾 Záloha dát</summary>
         <p class="info">Obľúbené, hodnotenia, plán a nastavenia sú uložené v tomto prehliadači. Zálohuj si ich do súboru, nech o ne neprídeš.</p>
         <div class="btn-row"><button class="btn" onclick="zalohuj()">⬇ Zálohovať do súboru</button><button class="btn" onclick="document.getElementById('obnov-file').click()">⬆ Obnoviť zo súboru</button></div>
         <input type="file" id="obnov-file" accept="application/json" title="súbor so zálohou" style="display:none" onchange="obnov(this.files[0])">
         <div class="btn-row" style="margin-top:14px;border-top:1px solid var(--line);padding-top:14px"><button class="btn" style="color:var(--warn);border-color:var(--warn)" onclick="resetApp()">🗑 Vymazať všetko a začať odznova</button></div>
-      </div>
-      <div class="panel"><h3>Synchronizácia (voliteľné)</h3>
+      </details>
+      <details class="panel"><summary>🔄 Synchronizácia (voliteľné)</summary>
         <div id="sync-stav" style="margin:0 0 12px"></div>
         <p class="info">Ak zdieľaš appku s viacerými ľuďmi cez jeden Supabase, každý nech má vlastné Sync ID (rôzni ľudia = rôzne ID). Rovnaké ID = zdieľané dáta medzi tvojimi zariadeniami.</p>
         <label class="switch"><input type="checkbox" id="p-syncoff" onchange="S.profil.syncOff=this.checked;save();renderSyncStav()"> Vypnúť synchronizáciu na tomto zariadení</label>
         <div class="field"><label>Sync ID</label><input type="text" id="p-syncid" placeholder="napr. lukas-domacnost" onchange="S.profil.syncId=this.value;save()"></div>
-      </div>
-      <div class="panel"><h3>Účet a skupina</h3>
+      </details>
+      <details class="panel"><summary>👥 Účet a skupina</summary>
         <p class="info">Prihlás sa a vytvor skupinu — pozvaní členovia uvidia a môžu upravovať tvoj plán, nákupný zoznam a špajzu. Obľúbené, poznámky, váhy a profil ostávajú súkromné.</p>
         <div id="ucet-box"></div>
-      </div>
-      <div class="panel"><h3>Appka na mobile</h3>
+      </details>
+      <details class="panel"><summary>📱 Appka na mobile</summary>
         <p class="info">Otvor tento súbor v mobilnom prehliadači a daj „Pridať na plochu" — kuchárka sa bude tváriť ako appka. Obľúbené, plán a nastavenia sa ukladajú v danom zariadení.</p>
-        <p class="info" id="verzia-info" style="margin-top:8px"></p></div>
+        <p class="info" id="verzia-info" style="margin-top:8px"></p></details>
     </div>
 
   </div></div>

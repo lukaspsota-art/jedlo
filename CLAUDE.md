@@ -66,6 +66,25 @@ Kategórie: Raňajky, Hlavné jedlo, Cestoviny, Polievka, Šalát, Nátierka, Pr
 - Jednotky → gramy: `gZaJednotku` (jediné miesto), `gramy` a `gramyNaJed` sú navzájom inverzné.
 - Ceny: **jedna funkcia `cenaTyzdna(mode)`** — `"spotreba"` (domácnosť), `"balenia"` (celé balenia), `"osoba"`.
 
+## Mobilné UI (v20 — mobil je hlavné zariadenie)
+Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, breakpoint je `820px`.
+- **Jedna primárna akcia na obrazovku**, zvyšok do `.menu-wrap` + `.menu` („⋯ Viac"). Na mobile je
+  `.menu` spodný panel (`position:fixed`), na počítači dropdown. **`.menu`/`.menu-wrap` musia byť
+  v CSS definované PRED `@media(max-width:820px)`** — inak prebijú mobilné pravidlá.
+- **`<details class="panel mob-zbal">`** = sekundárny panel: na počítači otvorený (`open` v HTML),
+  na telefóne ho zavrie `zbalNaMobile()` pri starte. `<details class="panel">` bez `mob-zbal` je
+  zbalený všade. Polia vnútra zostávajú v DOM, takže `ulozProfil()` ich vidí aj zavreté.
+- **Filtre v Receptoch:** selecty sú v `.f-body`, na mobile ich odomkne `prepniFiltre()`
+  (`.controls.f-open`); počet aktívnych filtrov píše `renderGrid` do `#f-cnt`.
+- **Farby pod bielym textom používaj `--accent-fill`, nie `--accent`.** `--accent` je v tmavom
+  režime zosvetlený pre TEXT (na bielom písme dáva 3,26:1); `--accent-fill` sa nezosvetľuje.
+- **Dotykové ciele ≥44 px na mobile**, nikdy nie pod 24 px. Výnimka: hustá mriežka plánu.
+- **Nové ovládanie píš ako `<button class="btn">`.** `<span onclick>` nie je dosiahnuteľný
+  klávesnicou; chipy/kolekcie/menu to dorovnáva `zpristupniKliky(root)` — **vždy jej dávaj
+  koreň prekresleného kontejnera**, nie `document` (mriežka má 19 000 uzlov).
+- Štýly viaž na **triedu, nie na element** (`select.f` nechalo `input.f` bez štýlu).
+- Meranie/regresie: skripty v scratchpade session (Playwright + Edge, viď `AUDIT_UI_2026-08-19.md`).
+
 ## Doménové pravidlá (batch cooking)
 3 bloky/týždeň (A: Ne večer→Ut, B: Ut večer→Pi, C: Pi večer→Ne), 1 variant/slot/blok, bez opakovania naprieč blokmi, bez carryover C→A. 4 jedlá (raňajky/obed/snack/večera), poradie kcal obed>večera>raňajky>snack, obed≠večera, raňajky sendvič/wrap iná báza/blok. Cieľ ~1400–1450 kcal/os./deň. Pantry staples vždy do nákupu. RecipeTinEats obmedzene.
 
@@ -74,6 +93,8 @@ Backlog a inšpirácia z 25 aplikácií: `INSPIRACIA.md`. Otvorené (treba backe
 
 ## Stav a otvorené veci
 - Git je v poriadku (história od v1). Audit z 18. 8. 2026 (`AUDIT_KUCHARKA_2026-08-18.md`) je vyriešený celý — viď `CHANGELOG.md` v19.
+- UI audit z 19. 8. 2026 (`AUDIT_UI_2026-08-19.md`): 16/20. Otvorené P1 — karty receptov a bunky plánu
+  nie sú dosiahnuteľné klávesnicou (`<div onclick>`); mriežka renderuje všetkých 1336 receptov naraz.
 - `data/app.js` má **~192 KB / 1600 riadkov**. Rozdelenie na moduly + spájanie v generátore je stále otvorené;
   pozor na poradie top-level `const`-ov (funkcie sú hoistnuté, konštanty nie).
 - Fotky receptov: pole `foto` nemá nastavené ani jeden recept, `recepty/fotky/` je prázdny — v UI sú emoji.
