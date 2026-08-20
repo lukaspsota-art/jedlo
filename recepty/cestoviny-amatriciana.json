@@ -1,67 +1,61 @@
 {
-  "id": "cestoviny-amatriciana",
-  "nazov": "Bucatini all'amatriciana",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 520,
-  "popis": "Paradajková omáčka s chrumkavou slaninou (guanciale) a pecorinom.",
-  "ingrediencie": [
-    {
-      "nazov": "Bucatini",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "guanciale alebo pancetta"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": "konzerva, drvené"
-    },
-    {
-      "nazov": "Čili paprička",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pecorino",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Slaninu opraž na oleji dochrumkava, vyber časť na ozdobu.",
-    "Pridaj čili a paradajky, duš 15 minút.",
-    "Cestoviny uvar al dente a zamiešaj do omáčky.",
-    "Posyp pecorinom a slaninou."
-  ],
-  "tipy": "Tuk zo slaniny je základ chuti — nevylievaj ho.",
-  "tagy": [
-    "cestoviny",
-    "talianske"
-  ],
-  "foto": ""
+ "id": "cestoviny-amatriciana",
+ "nazov": "Bucatini all'amatriciana",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Pasta all'amatriciana (autor: bugout)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pasta-allamatriciana/80252-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 313,
+ "popis": "Ďalší zo série receptov s guanciale (v zásade ich moc nie je, preto dávam aj tento aj keď amatriciana tu už \r\nniekde je). Už mi z takých klasických a typických ostáva snáď len carbonara, ale tých tu je viac. Opäť \r\nrobím s casarecce, veľmi som si ich obľúbil, nič viac v tom nie je...",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Guanciale",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čili",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele víno",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr pecorino",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Dáme na panvicu nakrájané guanciale na stredne slabý výkon, aby pomaly púšťalo tuk a opekalo sa (ak sa neopeká, treba zvýšiť výkon). Keď je mierne chrumkavé podlejeme vínom a necháme ho skoro všetko odpariť (cca 2 - 3 minúty). Pridáme paradajky, stiahneme výkon a varíme 10 - 15 minút (kto chce, pridá si aj čili).",
+  "Uvarené cestoviny pridáme k omáčke a aj so strúhaným pecorinom, dobre premiešame a môžeme jesť.",
+  "Množstvá som dal orientačne, ono je to o osobných preferenciách koľko syra a ako moc guanciale komu vyhovuje, toľko si dá. Pri guanciale, alebo aj našej neúdenej slanine však neodporúčam ísť pod 150 g na jednu 400 g konzervu paradajok, lebo by sa tam tá chuť stratila."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "talianske"
+ ]
 }

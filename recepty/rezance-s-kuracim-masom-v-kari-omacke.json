@@ -1,65 +1,115 @@
 {
-  "id": "rezance-s-kuracim-masom-v-kari-omacke",
-  "nazov": "Rezance s kuracím mäsom v kari omáčke",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Ázijská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 624,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchle ázijské rezance s kuracím mäsom v krémovej kari omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Rezance",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokosové mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kari pasta",
-      "mnozstvo": 25,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rezance uvar podľa návodu na obale.",
-    "Kuracie mäso nakrájaj na kúsky a opeč na oleji.",
-    "Pridaj kari pastu, krátko opraž, prilej kokosové mlieko.",
-    "Vmiešaj papriku a rezance.",
-    "Dus 5 minút a podávaj horúce."
-  ],
-  "tipy": "Skvelé rýchle jedlo s výraznou kari chuťou.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "kura",
-    "kari",
-    "ázijské"
-  ]
+ "id": "rezance-s-kuracim-masom-v-kari-omacke",
+ "nazov": "Rezance s kuracím mäsom v kari omáčke",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Čínske rezance s kuracím mäsom (autor: kristina12321)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cinske-rezance-s-kuracim-masom-/82057-recept.html",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 381,
+ "popis": "Veľmi jednoduchý a chutný recept ako z ázijského bistra :)",
+ "ingrediencie": [
+  {
+   "nazov": "Rezance čínske",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kapusta čínska",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "zväzok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "shimeji, šampiňóny"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 6,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škrob",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ustricová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezam",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mäso nakrájame na kúsky, dáme do misky. Pridáme lyžicu škrobu, jeden žĺtok a 1 PL sójovej omáčky. Zvyšný bielok a dve vajíčka dáme do inej misky.",
+  "Na tenké prúžky nakrájame kapustu, cibuľku a mrkvu, cesnak a zázvor na drobno. Huby používam shimeji a šampiňóny. Ak sú šampiňóny veľké, nakrájame ich na štvrtiny.",
+  "Do vriacej vody dáme variť rezance na 15 minút. Ja používam tieto, môžete ich nahradiť aj špagetami.",
+  "Do rozpáleného woku dáme trochu oleja a opečieme mäso. Keď je opečené, vyberieme ho von. Do woku dáme huby a restujeme do hneda. Opäť vyberieme a pridáme do woku olej. Vlejeme vajíčka s bielkom a urobíme omeletu, ktorú miešaním potrháme na kúsky. Pridáme trošku sójovej omáčky a uvarené nepremyté rezance. K rezancom pridáme mrkvu, kapustu a cibuľku. Opekáme spolu zhruba 5 minút.",
+  "K rezancom so zeleninou pridáme huby a mäso, pridáme 1 polievkovú lyžicu sójovej, aj ustricovej omáčky.",
+  "V menšom hrnčeku si uvaríme omáčku na poliatie rezancov. Cca 1 dl sójovej omáčky, 1 a pol PL ustricovej omáčky zriedime vodou (podľa toho, aké slané obľubujete) a povaríme 5 minút. V troške vody rozmiešame 1 PL škrobu a pridáme do omáčky pomaly podľa zhustnutia. Necháme krátko povariť, prípadne dochutíme podľa chuti.",
+  "Rezance naložíme na tanier, polejeme omáčkou a posypeme sezamom, prípadne sušenou cibuľou. DOBRÚ CHUŤ!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "kura",
+  "kari",
+  "ázijské"
+ ]
 }

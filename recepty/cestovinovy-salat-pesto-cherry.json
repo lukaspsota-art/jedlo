@@ -1,64 +1,99 @@
 {
-  "id": "cestovinovy-salat-pesto-cherry",
-  "nazov": "Cestovinový šalát s pestom a cherry paradajkami",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "inšpirované Wikibooks Cookbook (CC BY-SA)",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 583,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchly letný šalát z cestovín, bazalkového pesta a cherry paradajok.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pesto",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cherry paradajky",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mozzarella",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Píniové oriešky",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu, scedi a mierne prepláchni studenou vodou.",
-    "Paradajky prekroj na polovice, mozzarellu nakrájaj na kocky.",
-    "Všetko premiešaj s pestom.",
-    "Posyp opraženými píniovými orieškami a podávaj."
-  ],
-  "tipy": "Pesto si môžeš pripraviť aj domáce z bazalky, cesnaku a olivového oleja.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "pesto",
-    "rýchle",
-    "letné"
-  ]
+ "id": "cestovinovy-salat-pesto-cherry",
+ "nazov": "Cestovinový šalát s pestom a cherry paradajkami",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Cestovinový šalát s cherry paradajkami a olivami (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestovinovy-salat-s-cherry-paradajkami-a-olivami/80884-recept.html",
+ "porcie": 7,
+ "cas": "20 min",
+ "kcal_na_porciu": 414,
+ "popis": "Rýchly letný šalát z cestovín, bazalkového pesta a cherry paradajok.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry žlté",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry červené",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne olivy",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalátová uhorka",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 7,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot vínny biely",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie čierne čerstvo mleté",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vo väčšom hrnci necháme zovrieť osolenú vodu. Nasypeme cestoviny, pridáme aj celé strúčiky neočisteného cesnaku a varíme, kým cestoviny nie sú al dente. Scedíme ich, opláchneme studenou vodou a dáme do misy.",
+  "Paradajky a uhorku nakrájame na malé kocky, olivy na kolieska, pažítku a bazalku nasekáme najemno. Všetko pridáme do misy k cestovinám.",
+  "Cesnak, ktorý sa varil s cestovinami ošúpeme, roztlačíme v miske, pridáme olivový olej, vínny ocot, soľ, korenie a premiešame. Dresingom šalát polejeme a premiešame. Dochutíme soľou a korením."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "pesto",
+  "rýchle",
+  "letné"
+ ]
 }

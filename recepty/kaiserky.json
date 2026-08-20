@@ -1,64 +1,100 @@
 {
-  "id": "kaiserky",
-  "nazov": "Kaiserky s makom",
-  "kategoria": "Pečivo",
-  "kuchyna": "Rakúska",
-  "zdroj": "klasický recept",
-  "porcie": 8,
-  "cas": "100 min",
-  "kcal_na_porciu": 270,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tradičné pletené žemle s charakteristickým vzorom a makom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mak",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": "na posypanie"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažnej vody, droždia, masla a soli vypracuj cesto.",
-    "Nechaj kysnúť 1 hodinu.",
-    "Rozdeľ na 8 dielov, vytvaruj tradičný kaiserkový vzor alebo jednoduché guľôčky.",
-    "Navrch posyp makom, nechaj 15 minút kysnúť.",
-    "Peč pri 220 °C asi 15-18 minút do zlatista."
-  ],
-  "tipy": "Tradičný vzor sa dá nahradiť jednoduchým krížovým zárezom.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "rakúske",
-    "žemle"
-  ]
+ "id": "kaiserky",
+ "nazov": "Kaiserky s makom",
+ "kategoria": "Pečivo",
+ "kuchyna": "Rakúska",
+ "zdroj": "Varecha.sk – Domáce kaiserky s makom (fotorecept) (autor: pusta)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domace-kaiserky-s-makom-fotorecept/36316-recept.html",
+ "porcie": 10,
+ "cas": "175 min",
+ "kcal_na_porciu": 255,
+ "popis": "Recept som našla na webe No.Salty.hu, dlho som váhala, pretože sa nepoužíva pri \ntvarovaní kaiseriek raznica, ale ručné prepletanie. Toto prepletanie sa mi zdalo zložité, ale \nopak je pravdou. Cesto nie je zložité, len trošku náročné na čas a prácu, ale vynaložená \nnámaha sa oplatí. Autorka prevzala recept od nemeckého majstra pekára, je skutočne \nvynikajúci a kaiserky sú také, o akých som vždy sn",
+ "ingrediencie": [
+  {
+   "nazov": "Múka hladká extra špeciál 00",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 160,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka hladká extra špeciál 00",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé droždie",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 140,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celý mak",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Studená voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby sprejom alebo jemne štetcom"
+  }
+ ],
+ "postup": [
+  "Do vandlíka som preosiala odvážené množstvo múky a pripravila som si hrnček na kvások.",
+  "Z pripravenej múky som odobrala 150 g múky do hrnčeka, namrvila som na ňu droždie.",
+  "Pridala som 140 ml vlažnej vody, 1/2 CL medu, všetko som spolu premiešala pomocou vidličky, prikryla čistou utierkou a nechala som vykysnúť na teple 30 minút.",
+  "Vo vandlíku som premiešala múku so soľou, pridala som zmäknuté maslo a nachystala som si vykysnutý kvások.",
+  "Pridala som k múke a maslu vo vandlíku vykysnutý kvások a ešte 160 ml vlažnej vody.",
+  "Všetko som dôkladne spracovala rukami asi 6 -8 minút na hladké pružné polomäkké nelepivé cesto,...",
+  "ktoré som nechala prikryté utierkou kysnúť na teple 20 minút. Cesto som znovu prepracovala rukami,...",
+  "....vytvarovala som z neho valec a rozdelila na 10 približne rovnakých dielov.",
+  "Z každého dielu som spravila bochníček, sploštila dlaňou a nechala som kysnúť ešte 10 minút.",
+  "Z vykysnutých bochníčkov som dlaňami ušúľala šúľky o dlžke 20 cm, viac netreba, cesto je veľmi pružné a vráti sa rýchlo späť, preto som znovu každý šúľok ešte ušúľala tesne pred tvarovaním kaiserky na dĺžku 35 cm. V žiadnom prípade nepodsýpať múkou, lebo sa nedajú ušúľať, skôr navlhčiť dlane niekoľkými kvapkami vody, čo ja som vôbec nemusela.",
+  "Na šúľku som spravila voľný uzol asi v strede.",
+  "Pravý cíp som povytiahla najprv do prava bokom, následne som ho viedla nadol, potom smerom nahor a napokon som jeho koniec zasunula do uzla",
+  "Tento útvar som otočila o 180 na druhú stranu stupňov tak, že spodok sa dostal teraz navrch,teda ľavý voľný cíp sa tým dostal doprava, celý postup som znovu zopakovala ako je rozpísaný v bode č. 12 a tým vznikol konečný tvar kaiserky. Kaiser znamená v nemčine Cisár, teda vo voľnom preklade do slovenčiny sú to cisárove žemle.",
+  "Kaiseriky som uložila na plech vystlaný pečiacim papierom a nechala som ich prikryté utierkou kysnúť na teple 45 minút. Tesne pred pečením som ich potrela pomocou štetca jemne studenou vodou, v pôvodnom recepte sa používa voda v sprayi. Posypala som ich celým makom, avšak môžete posypať podľa ľubovôlle alebo ich nechať hladké.",
+  "Trúbu som predohriala na 250 stupňov C na funkcii dolný a horný ohrev. Plech s kaiserkami som vložila do trúby a súčasne som spodok trúby štetcom pokropila studenou vodou, aby sa vytvorila para. Kto použije Spray, dá 5-6 strekov. Po 5-tich minútach som pokropenie studenou vodou zopakovala. Po 10-tich minútach pečenia som teplotu znížila na 200 stupňov C, pootvorila som dvere trúby, aby sa para z trúby dostala von, počkala som až zasvieti červená kontrolka, dvere trúby som zavrela a od rozsvietenia kontrolky som piekla ešte 15 minút, kým nedostali peknú svetloružovú farbu,potom som kaiserky vybrala a nechala som ich vychladnúť na mriežke.",
+  "Hotové kaiserky som dala do košíka a podávala.",
+  "ešte jeden pohľad z blízka. Kaiserky sú vynikajúcou prílohou k polievkam, gulášom, rôznym šalátom a studeným misám, sú výborné obložené salámom, syrom , s nátierkami, paštikou a inými dobrotami, ale chutia úžasne len tak samy o sebe."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "rakúske",
+  "žemle"
+ ]
 }

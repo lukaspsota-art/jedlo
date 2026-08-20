@@ -1,68 +1,105 @@
 {
-  "id": "kuraci-sendvic-domaci-crispy",
-  "nazov": "Domáci sendvič s kuracím rezňom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "25 min",
-  "kcal_na_porciu": 530,
-  "popis": "Chrumkavý kurací rezeň v žemli so šalátom, syrom a majonézou.",
-  "ingrediencie": [
-    {
-      "nazov": "Žemľa",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Strúhanka",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hlávkový šalát",
-      "mnozstvo": null,
-      "jednotka": "pár listov",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr eidam",
-      "mnozstvo": 2,
-      "jednotka": "plátok",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Kuracie prsia rozklep na plátky, obal vo vajci a strúhanke.",
-    "Vysmaž na panvici do zlatista a prepečenia.",
-    "Žemľu potri majonézou, naplň rezňom, syrom a šalátom."
-  ],
-  "tipy": "Mäso obaľ dvakrát, obal drží lepšie pohromade.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "sendvič",
-    "kuracie",
-    "sýte"
-  ]
+ "id": "kuraci-sendvic-domaci-crispy",
+ "nazov": "Domáci sendvič s kuracím rezňom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Sendvič s kuracím šalátom (autor: galbani)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sendvic-s-kuracim-salatom/73787-recept.html",
+ "porcie": 4,
+ "cas": "60 min",
+ "kcal_na_porciu": 388,
+ "popis": "Chrumkavý kurací rezeň v žemli so šalátom, syrom a majonézou.",
+ "ingrediencie": [
+  {
+   "nazov": "Mozzarella Galbani Light",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stonkový zeler",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 4,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hriankový chlieb",
+   "mnozstvo": 12,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hlávkový šalát",
+   "mnozstvo": 4,
+   "jednotka": "list",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej olivový panenský extra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvý estragón",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Umyte 3 zelerové stonky a nakrájajte ich na väčšie kusy. Nasekajte na hrubo 1 cibuľu a všetko vložte do panvice s trochou extra panenského olivového oleja, dvoma naberačkami vody, posekanou petržlenovou vňaťou, soľou a korením a priveďte do varu. Potom stlmte na minimum a pridajte na drobné kúsky nakrájané kuracie prsia. Varte 20 minút, potom zložte zo sporáka a nechajte vychladnúť.",
+  "Medzitým na jemno nasekajte 3 zostávajúce stonky zeleru, červenú cibuľu a estragón, vložte do misky a dochuťte šťavou z citróna. Pridajte zmes z uvarených kuracích pŕs a šalát dôkladne premiešajte. Prikryte potravinovou fóliou a nechajte 2 hodiny v chladničke vychladiť. Mozzarellu nakrájajte na plátky.",
+  "Príprava sendviča: Na jeden krajec opečeného chleba navrstvite veľkú lyžicu kuracieho šalátu, priklopte druhým plátkom chleba, naň položte koliesko mozzarelly, plátok paradajky, list šalátu a priklopte tretím plátkom chleba. Rovnakým spôsobom pripravte aj zvyšné 3 sendviče."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "sendvič",
+  "kuracie",
+  "sýte"
+ ]
 }

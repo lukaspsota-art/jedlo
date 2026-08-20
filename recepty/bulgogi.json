@@ -1,72 +1,87 @@
 {
-  "id": "bulgogi",
-  "nazov": "Bulgogi (kórejské marinované hovädzie)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Kórejská",
-  "zdroj": "internet – adaptované (Serious Eats)",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 520,
-  "popis": "Tenké plátky hovädzieho v sladko-slanej marináde, rýchlo opečené na prudkom ohni.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzieho",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": "rib-eye"
-    },
-    {
-      "nazov": "sójová omáčka",
-      "mnozstvo": 4,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "cukor",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Sezamového oleja",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Hrušky",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "nastrúhaná"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 3,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Kúsok zázvoru",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "jarná cibuľka",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Sezamu",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    }
-  ],
-  "postup": [
-    "Hrušku, cesnak a zázvor rozmixuj, zmiešaj so sójovkou, cukrom a sezamovým olejom.",
-    "Zalej mäso marinádou a nechaj 30 min – 2 h.",
-    "Opeč na veľmi rozpálenej panvici po dávkach dozlatista. Posyp jarnou cibuľkou a sezamom. Podávaj s ryžou."
-  ],
-  "tipy": "Nastrúhaná hruška mäso zjemní a dodá prirodzenú sladkosť.",
-  "foto": "",
-  "tagy": [
-    "kórejské",
-    "hovädzie",
-    "grilované"
-  ]
+ "id": "bulgogi",
+ "nazov": "Bulgogi (kórejské marinované hovädzie)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Kórejská",
+ "zdroj": "Wikibooks Cookbook – Bulgogi (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook%3ABulgogi",
+ "porcie": 6,
+ "cas": "40 min",
+ "kcal_na_porciu": 345,
+ "popis": "Tenké plátky hovädzieho v sladko-slanej marináde, rýchlo opečené na prudkom ohni.",
+ "ingrediencie": [
+  {
+   "nazov": "Hovädzie mäso",
+   "mnozstvo": 453.6,
+   "jednotka": "g",
+   "poznamka": "na plátky as thin as possible"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "na plátky on the bias"
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "voliteľné, na plátky"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "voliteľné, na tenké plátky"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 180,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamový olej",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 4,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "posekaná"
+  },
+  {
+   "nazov": "Mirin",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "voliteľné"
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie zmiešame vo veľkej mise a mäso necháme marinovať aspoň 30 minút.",
+  "Najlepšiu chuť a jemnosť dosiahneme, ak mäso marinujeme v chladničke cez noc.",
+  "Mäso ogrilujeme na vysokej teplote nakrátko z oboch strán.",
+  "Podávame s ryžou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kórejské",
+  "hovädzie",
+  "grilované"
+ ]
 }

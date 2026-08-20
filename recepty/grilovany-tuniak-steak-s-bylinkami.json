@@ -1,58 +1,110 @@
 {
-  "id": "grilovany-tuniak-steak-s-bylinkami",
-  "nazov": "Grilovaný tuniakový steak s bylinkami",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Stredomorská",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 261,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchlo grilovaný tuniakový steak s citrónom a bylinkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Tuniak",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": "steak, čerstvý"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Tuniakový steak potri olivovým olejom a osoľ.",
-    "Gril alebo opeč na rozohriatej panvici 1-2 minúty z každej strany (zvnútra zostane ružový).",
-    "Pokvapkaj citrónovou šťavou.",
-    "Posyp nasekanou petržlenovou vňaťou.",
-    "Podávaj so šalátom."
-  ],
-  "tipy": "Čerstvý tuniak sa neopekaj dlho, inak vyschne.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "tuniak",
-    "rýchle"
-  ]
+ "id": "grilovany-tuniak-steak-s-bylinkami",
+ "nazov": "Grilovaný tuniakový steak s bylinkami",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Stredomorská",
+ "zdroj": "Varecha.sk – Steak z tuniaka v sezame na hubovom šaláte (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/steak-z-tuniaka-v-sezame-na-hubovom-salate/71327-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 442,
+ "popis": "Rýchlo grilovaný tuniakový steak s citrónom a bylinkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Tuniak",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica dijonska",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamové semienka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rukola",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kuriatka",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Tuniaka rozkrájame na porcie, namarinujeme horčicou a koriandrom, ochutíme soľou a korením. Obalíme v sezame a pritlačíme tak, aby sezam neopadal.",
+  "Opatrne položíme rybu na rozohriaty gril s troškou oleja. Jemne a zľahka opekáme tak, aby sezam neopadal ani sa nepripálil – z každej strany asi minútu.",
+  "Cibuľu nakrájame na kocky a orestujeme na olivovom oleji spolu s kuriatkami. Potom pridáme citrónovú šťavu, troška cukru a dochutíme soľou a korením. Necháme vychladnúť a pridáme rukolu, paradajky nakrájané na kocky a kúsky pomaranča. Všetko spolu premiešame a pridáme hotového tuniaka."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "tuniak",
+  "rýchle"
+ ]
 }

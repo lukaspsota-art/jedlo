@@ -1,64 +1,86 @@
 {
-  "id": "palacinky-s-cokoladou",
-  "nazov": "Palacinky s čokoládovou omáčkou",
-  "kategoria": "Dezert",
-  "kuchyna": "Francúzska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 534,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tenké palacinky podávané s teplou čokoládovou omáčkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 400,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čokoláda",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, mlieka, vajec a oleja priprav cesto na palacinky.",
-    "Vypeč tenké palacinky na panvici z oboch strán.",
-    "Čokoládu rozpusti so smotanou vo vodnom kúpeli.",
-    "Palacinky zroluj alebo poskladaj.",
-    "Prelej teplou čokoládovou omáčkou."
-  ],
-  "tipy": "Skvelé aj s pridaným ovocím alebo orechovým krémom.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "palacinky",
-    "čokoláda"
-  ]
+ "id": "palacinky-s-cokoladou",
+ "nazov": "Palacinky s čokoládovou omáčkou",
+ "kategoria": "Dezert",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Palacinky (autor: habibitaste)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/palacinky/71698-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 368,
+ "popis": "Tieto palacinky robievam u nás \r\nna raňajky a sú veľmi obľúbené. \r\nMôžete si ich posypať \r\nľubovoľnými orieškami.",
+ "ingrediencie": [
+  {
+   "nazov": "Múka",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľová aróma",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľové lupienky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Múku, cukor, štipku soli, vanilkový cukor zmiešame, potom prídáme vajíčka s mliekom a olejom a dobre premiešame.",
+  "Na horúcu panvicu dáme pár kvapiek oleja a naberačkou vlejeme cesto. To posypeme mandľovými lupienkami a hrozienkami.",
+  "Na hotové palacinky si môžete dať váš obľúbený krém, či lekvár. Ja odporúčam tenkú vrstvu arašidového masla. Pokiaľ ho však doma nemáte, nič sa nedeje, lebo tieto palacinky chutia skvele aj suché :-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "palacinky",
+  "čokoláda"
+ ]
 }

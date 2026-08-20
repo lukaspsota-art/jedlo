@@ -1,81 +1,90 @@
 {
-  "id": "cestoviny-hubova-smotanova",
-  "nazov": "Cestoviny v hubovej smotanovej omáčke",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 500,
-  "popis": "Cestoviny so šampiňónmi v krémovej smotanovej omáčke s cesnakom.",
-  "ingrediencie": [
-    {
-      "nazov": "Cestoviny",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šampiňóny",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana na varenie",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": null,
-      "jednotka": "na ozdobu",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na masle opraž cibuľu a nakrájané šampiňóny do vyparenia vody.",
-    "Pridaj cesnak a smotanu, povar.",
-    "Cestoviny uvar al dente a zamiešaj do omáčky.",
-    "Posyp parmezánom a petržlenom."
-  ],
-  "tipy": "Huby opekaj na vyššom ohni, aby sa nezaparili a zhnedli.",
-  "tagy": [
-    "cestoviny",
-    "huby",
-    "smotanové",
-    "vegetariánske"
-  ],
-  "foto": ""
+ "id": "cestoviny-hubova-smotanova",
+ "nazov": "Cestoviny v hubovej smotanovej omáčke",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Cestoviny so smotanovou omáčkou (autor: ferno)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-so-smotanovou-omackou/79615-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 363,
+ "popis": "Pozrel som do chladničky a vzniklo toto.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Schwarzwaldská šunka",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kuracie prsia nakrájame na kocky alebo úzke pásiky, schwarzwaldskú šunku na malé kocky.",
+  "Na masle opečieme kuracie prsia. Pridáme šunku, chvíľku opečieme. Okoreníme.",
+  "Pridáme na malé kocky nakrájanú cuketu a na pásiky nakrájané šampiňóny, chvíľu opekáme.",
+  "Pridáme rajčinový pretlak, smotanu a pár minút povaríme.",
+  "Poprípade dochutíme soľou a korením.",
+  "Cestoviny uvaríme v osolenej vode, scedíme. Uvarené cestoviny buď pridáme do hrnca k omáčke a premiešame alebo na tanier naložíme cestoviny a na ne omáčku. Ja som použil moje obľúbené malé vrtuľky, ktoré sú hotové po 2 minútach varenia."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "huby",
+  "smotanové",
+  "vegetariánske"
+ ]
 }

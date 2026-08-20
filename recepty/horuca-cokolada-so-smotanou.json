@@ -1,0 +1,55 @@
+{
+ "id": "horuca-cokolada-so-smotanou",
+ "nazov": "Horúca čokoláda so smotanou",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Hot Chocolate to Die for",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12738",
+ "porcie": 10,
+ "cas": "5 min",
+ "kcal_na_porciu": 194,
+ "popis": "Cocoa · Coffee mug",
+ "ingrediencie": [
+  {
+   "nazov": "Čokoláda",
+   "mnozstvo": 354.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Half-and-half",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Marshmallows",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Čokoládu, maslo a vanilku rozpustíme vo vodnom kúpeli.",
+  "Keď je zmes hladká, vmiešame smotanu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "čokoláda",
+  "bezmäsité"
+ ]
+}

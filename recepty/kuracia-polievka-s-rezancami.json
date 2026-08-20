@@ -1,70 +1,87 @@
 {
-  "id": "kuracia-polievka-s-rezancami",
-  "nazov": "Kuracia polievka s rezancami",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "60 min",
-  "kcal_na_porciu": 234,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasická kuracia polievka so zeleninou a rezancami, skvelá pri nachladnutí.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rezance",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 1000,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Kuracie prsia var vo vývare s celou cibuľou asi 25 minút.",
-    "Mäso vyber, nakrájaj na kúsky.",
-    "Do vývaru pridaj nakrájanú zeleninu a var do mäkka.",
-    "Pridaj rezance a var podľa návodu.",
-    "Vráť mäso späť, dochuť soľou."
-  ],
-  "tipy": "Skvelá aj pripravená vo väčšom množstve a zamrazená.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "kura",
-    "rezance"
-  ]
+ "id": "kuracia-polievka-s-rezancami",
+ "nazov": "Kuracia polievka s rezancami",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Kuracia polievka (fotorecept) (autor: kajusiqq)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kuracia-polievka-fotorecept/40695-recept.html",
+ "porcie": 2,
+ "cas": "135 min",
+ "kcal_na_porciu": 91,
+ "popis": "Najlepšia nedeľná polievka:)",
+ "ingrediencie": [
+  {
+   "nazov": "Kuracie drobky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kaleráb",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelerová vňať",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľka jarna",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne celé korenie",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Drobky (ja som dala 1 krk a 2 trupy ale podľa toho ako silnu ju chete) umyjeme a dáme do studenej vody.Pridáme všetku koreňovú zeleninu,čierne korenie,vegetu podľa chuti soľ a petržlenovú vňať.",
+  "Privedieme k varu vzniknutú penu pozbierame sitkom a varíme na miernom ohni pod pokrievkou.Nesmie silno vrieť pretože sa potom zmuti",
+  "10 minut pred dokončením pridáme dalšiu petržlenovu vňať aby nám pekne polievku rozvoňala.Varíme 2 hodiny.",
+  "Podávame s lečkami:))...... Recept: http://varecha.pravda.sk/recepty/leckyfotorecept/33125-recept.html"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "kura",
+  "rezance"
+ ]
 }

@@ -1,0 +1,42 @@
+{
+ "id": "matovo-ovocne-smoothie",
+ "nazov": "Mätovo-ovocné smoothie",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Just a Moonmint",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12688",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Shake · Highball Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 480,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoláda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie dáme do mixéra a mixujeme na strednej rýchlosti do hladka.",
+  "Nalejeme do jedného vysokého alebo dvoch stredných pohárov."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "čokoláda",
+  "bezmäsité"
+ ]
+}

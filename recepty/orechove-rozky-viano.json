@@ -1,59 +1,61 @@
 {
-  "id": "orechove-rozky-viano",
-  "nazov": "Orechové rožky (vianočné)",
-  "kategoria": "Pečivo",
-  "kuchyna": "Slovenská",
-  "zdroj": "klasický recept",
-  "porcie": 20,
-  "cas": "70 min",
-  "kcal_na_porciu": 182,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tradičné vianočné krehké rožky plnené orechovou náplňou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vlašské orechy",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "mleté"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, masla a časti cukru vypracuj krehké cesto, nechaj v chladničke 30 minút odpočívať.",
-    "Mleté orechy zmiešaj so zvyšným cukrom a troškou vody na náplň.",
-    "Cesto rozváľaj, vykrajuj kolieska, na každé daj náplň a zroluj do tvaru rožka.",
-    "Potri rozšľahaným vajcom.",
-    "Peč pri 180 °C asi 15 minút do zlatista."
-  ],
-  "tipy": "Tradičné vianočné pečivo, ktoré vydrží v dóze aj týždne.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "slovenské",
-    "vianočné",
-    "orechy"
-  ]
+ "id": "orechove-rozky-viano",
+ "nazov": "Orechové rožky (vianočné)",
+ "kategoria": "Pečivo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Duté orechové rožky (fotorecept) (autor: 18mon)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/dute-orechove-rozky-fotorecept/46901-recept.html",
+ "porcie": 24,
+ "cas": "30 min",
+ "kcal_na_porciu": 120,
+ "popis": "Tieto  rožteky milujem a tak som si teraz len na nečisto pár kúskov upiekla ešte takto pred \r\nVianocami, aby som si bola istá že ich ešte viem upiecť :) Tak sa s vami podelím o  tento \r\nrýchly a jednoduchý recept.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sóda bikarbóna",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Múku preosejeme s cukrom , pridáme sódu bikarbónu , mleté vlašské orechy a pokrájané maslo.Vypracujeme pevné cesto.",
+  "Cesto po kúskoch vtláčame do formičiek.",
+  "Keď máme hotovo",
+  "dáme piecť do vyhriatej rúry , ktorú vyhrejeme len na 150°C a pečieme 15 minút. Rožteky sa nesmú piecť prudko, pretože by spľasli. Takto sa nám pekne nafúknu..",
+  "Po upečení necháme pečivo chvíľku vychladnúť vo formičkách a potom rožteky vyklopíme.",
+  "A takto sa krásne nafúkli",
+  "Môžme ich ozdobiť čokoládou buď tak , že ich namáčame na oboch koncoch, alebo len \"pofŕkame\" roztopenou čokoládou :) Ja som ich teraz nezdobila, keďže to boli len také predprípravnovianočné :) . Mne vyšlo 51 rožtekov, ale moja forma je na dosť veľké rožky, takže ak máte menšie formičky, tak aj rožtekov bude pre viac mlsných jazýčkov. :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "slovenské",
+  "vianočné",
+  "orechy"
+ ]
 }

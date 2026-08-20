@@ -1,57 +1,50 @@
 {
-  "id": "margarita",
-  "nazov": "Margarita",
-  "kategoria": "Kokteil",
-  "kuchyna": "Mexická",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 170,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický mexický kokteil z tequily, limetky a soli na okraji pohára.",
-  "ingrediencie": [
-    {
-      "nazov": "Tequila",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "štipka",
-      "poznamka": "na okraj pohára"
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Okraj pohára navlhči limetkou a obal v soli.",
-    "Do shakera daj ľad, tequilu, limetkovú šťavu a cukor.",
-    "Poriadne pretrep.",
-    "Nalej do pohára s ľadom."
-  ],
-  "tipy": "Pre ovocnú verziu pridaj jahody alebo mango.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "tequila",
-    "mexické"
-  ]
+ "id": "margarita",
+ "nazov": "Margarita",
+ "kategoria": "Kokteil",
+ "kuchyna": "Mexická",
+ "zdroj": "TheCocktailDB – Margarita",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11007",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 144,
+ "popis": "Ordinary Drink · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Tequila",
+   "mnozstvo": 44.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Triple sec",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Okraj pohára potrieme plátkom limetky, aby sa naň prilepila soľ.",
+  "Navlhčíme len vonkajší okraj a posypeme soľou — soľ sa nesmie dostať do nápoja.",
+  "Ostatné ingrediencie pretrepeme s ľadom a opatrne nalejeme do pohára."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "tequila",
+  "mexické"
+ ]
 }

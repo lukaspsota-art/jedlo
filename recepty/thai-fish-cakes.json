@@ -1,71 +1,81 @@
 {
-  "id": "thai-fish-cakes",
-  "nazov": "Thai Fish Cakes (thajské rybie placky)",
-  "kategoria": "Snack",
-  "kuchyna": "Thajská",
-  "zdroj": "internet – adaptované (BBC Good Food)",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 320,
-  "popis": "Pružné pikantné rybie placky s červenou kari pastou, podávané so sladkou čili omáčkou.",
-  "ingrediencie": [
-    {
-      "nazov": "biela ryba",
-      "mnozstvo": 500,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "červená kari pasta",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "rybia omáčka",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "cukor",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "fazuľa",
-      "mnozstvo": 1,
-      "jednotka": "hrsť"
-    },
-    {
-      "nazov": "jarná cibuľka",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Olej na vyprážanie",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Sladká čili omáčka",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Rybu rozmixuj s kari pastou, vajcom, rybacou omáčkou a cukrom na lepkavú hmotu.",
-    "Vmiešaj fazuľku a cibuľku, vytvaruj malé placky.",
-    "Opeč/vypráž ~2–3 min z každej strany dozlatista. Podávaj so sladkou čili omáčkou."
-  ],
-  "tipy": "Charakteristickú pružnosť dá dôkladné rozmixovanie ryby.",
-  "foto": "",
-  "tagy": [
-    "thajské",
-    "ryby",
-    "predjedlo",
-    "pikantné"
-  ]
+ "id": "thai-fish-cakes",
+ "nazov": "Thai Fish Cakes (thajské rybie placky)",
+ "kategoria": "Snack",
+ "kuchyna": "Thajská",
+ "zdroj": "Wikibooks Cookbook – Tod Mun (Thai Fish Cakes) (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook%3ATod_Mun_%28Thai_Fish_Cakes%29",
+ "porcie": 6,
+ "cas": "30 min",
+ "kcal_na_porciu": 197,
+ "popis": "Pružné pikantné rybie placky s červenou kari pastou, podávané so sladkou čili omáčkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "7.5 ml"
+  },
+  {
+   "nazov": "Zelené fazuľky",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "about 0.25 lb"
+  },
+  {
+   "nazov": "Ryba",
+   "mnozstvo": 360,
+   "jednotka": "g",
+   "poznamka": "about 0.75 lb, mleté or paste"
+  },
+  {
+   "nazov": "Red curry paste",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Limetkové listy naskladáme, zvinieme do rolky a nakrájame na tenké pásiky.",
+  "Zelené fazuľky nakrájame na kúsky asi 1 cm.",
+  "Rybie mäso zomelieme.",
+  "V mise zmiešame všetky ingrediencie okrem fazuliek a limetkových listov.",
+  "Miešame, kým nie je zmes hladká.",
+  "Pridáme fazuľky a limetkové listy a znovu premiešame.",
+  "Na panvicu dáme olej a rozohrejeme na strednú teplotu.",
+  "Do panvice dáme lyžicu zmesi a mierne pritlačíme. Keď je spodok opečený, obrátime.",
+  "Opečené placky odložíme na papierovú utierku. Rovnako spracujeme zvyšok zmesi."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "thajské",
+  "ryby",
+  "predjedlo",
+  "pikantné"
+ ]
 }

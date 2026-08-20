@@ -1,57 +1,86 @@
 {
-  "id": "syrova-natierka-s-paprikou",
-  "nazov": "Syrová nátierka s paprikou",
-  "kategoria": "Nátierka",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 270,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová syrová nátierka s údenou paprikou, podobná pomazánkovému maslu.",
-  "ingrediencie": [
-    {
-      "nazov": "Eidam",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Syr nastrúhaj najemno.",
-    "Zmäknuté maslo vymiešaj so syrom, paprikou a pretlačeným cesnakom.",
-    "Dochuť soľou.",
-    "Podávaj na chlebe."
-  ],
-  "tipy": "Nechaj v chladničke aspoň hodinu stuhnúť pred podávaním.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "syr",
-    "slovenské"
-  ]
+ "id": "syrova-natierka-s-paprikou",
+ "nazov": "Syrová nátierka s paprikou",
+ "kategoria": "Nátierka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Zelerová nátierka so syrom a paprikou (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zelerova-natierka-so-syrom-a-paprikou/1505-recept.html",
+ "porcie": 4,
+ "cas": "10 min",
+ "kcal_na_porciu": 218,
+ "popis": "Krémová syrová nátierka s údenou paprikou, podobná pomazánkovému maslu.",
+ "ingrediencie": [
+  {
+   "nazov": "Menší zeler",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údený syr",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majolka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Očistený surový zeler postrúhame, pridáme majolku, smotanu, nastrúhané 2 druhy tvrdého syra, varené vajcia pretlačené na kocky, nakrájanú cibuľu, na malé kocky nakrájanú červenú a zelenú papriku a pretlačený cesnak.",
+  "Hotovú nátierku odložíme do chladničky.",
+  "Podávame s chlebom alebo pečivom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "syr",
+  "slovenské"
+ ]
 }

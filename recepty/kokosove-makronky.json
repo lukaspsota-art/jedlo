@@ -1,46 +1,74 @@
 {
-  "id": "kokosove-makronky",
-  "nazov": "Kokosové makrónky",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "klasický recept",
-  "porcie": 8,
-  "cas": "30 min",
-  "kcal_na_porciu": 224,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduché pečené kokosové makrónky z bielkov a strúhaného kokosu.",
-  "ingrediencie": [
-    {
-      "nazov": "Bielka",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokos strúh",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Bielka vyšľahaj s cukrom do tuha.",
-    "Jemne vmiešaj strúhaný kokos.",
-    "Tvaruj malé kôpky na plech vyložený papierom na pečenie.",
-    "Peč pri 160 °C asi 18-20 minút do zlatista.",
-    "Nechaj vychladnúť pred podávaním."
-  ],
-  "tipy": "Makrónky by mali zvonku chrumkať a vo vnútri zostať mäkké.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "kokos",
-    "bez múky"
-  ]
+ "id": "kokosove-makronky",
+ "nazov": "Kokosové makrónky",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Makrónky (autor: lilianne9)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/makronky/58124-recept.html",
+ "porcie": 18,
+ "cas": "65 min",
+ "kcal_na_porciu": 129,
+ "popis": "Francúzsky drobný dezert, ktorý sa dá pohodlne pripraviť aj doma. Chuť je neopísatelná.. \r\nstačí si už len zavrieť oči a predstaviť si, že sedíme v kaviarni uprostřed paríža :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Bielok",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté mandle",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kvalitné kakao",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polotučné mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šľahačka parížska v prášku",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr ricotta",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mleté madle zmiešame s 1/2 hrnčeka cukru. Z bielkov a zvyšku cukru vyšľaháme pevný sneh. Ten na 3-krát jemne vmiešame do mandlí. Nakoniec pridáme kakao.",
+  "Cukrárenské vrecúško s okrúhlym koncom naplníme touto hmotou. Na plech si položíme silikónovú podložku a na ňu vreckom vytláčame malé a hlavne rovnaké krúžky. Plech tak potom necháme pol hodinku odstáť, aby makrónky stuhli. Potom ich dáme na 15 minut do rúry vyhriatej na 140-150 stupňov.",
+  "Po upečení makrónky velmi opatrne zložíme z plechu, pretože sú krehké. Kým chladnú, pripravíme si krém: podla návodu na obale si pripravíme parížsku šlahačku, do ktorej vmiešame ricottu a van. cukor. Krémom potom spájame makrónky a najlepšie je nechať ich ešte stuhnúť na chladnom mieste v uzavretej nádobe."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "kokos",
+  "bez múky"
+ ]
 }

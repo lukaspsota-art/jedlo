@@ -1,70 +1,119 @@
 {
-  "id": "hovadzi-stroganov",
-  "nazov": "Hovädzí Stroganov",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ruská",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 525,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické ruské jedlo z hovädzích prúžkov v smotanovo-hubovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "na prúžky"
-    },
-    {
-      "nazov": "Šampióny",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Horčica",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso nakrájaj na tenké prúžky, rýchlo opeč na oleji a vyber.",
-    "Na tom istom oleji opraž cibuľu a huby.",
-    "Prilej smotanu, vmiešaj horčicu.",
-    "Vráť mäso do omáčky a prehrej 5 minút.",
-    "Podávaj s ryžou alebo cestovinami."
-  ],
-  "tipy": "Mäso opekaj len krátko na vysokej teplote, zostane šťavnaté.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "hovädzie",
-    "ruské"
-  ]
+ "id": "hovadzi-stroganov",
+ "nazov": "Hovädzí Stroganov",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ruská",
+ "zdroj": "Varecha.sk – Hovädzí stroganov (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzi-stroganov/89740-recept.html",
+ "porcie": 6,
+ "cas": "70 min",
+ "kcal_na_porciu": 390,
+ "popis": "Klasické ruské jedlo z hovädzích prúžkov v smotanovo-hubovej omáčke.",
+ "ingrediencie": [
+  {
+   "nazov": "Stehno hovädzie",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hnedé šampiňóny",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morská soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Plnotučná horčica",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele suché vino",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda horúca",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jazmínová ryža",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lahôdková cibuľka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na rozohriatej panvici s olejom restujeme nadrobno nakrájanú cibuľu. Prihodíme nasekaný cesnak a soľ. Do základu pridáme mäso nakrájané na rezančeky, osolíme, okoreníme a sprudka restujeme.",
+  "Keď sa mäso zatiahne, ochutíme horčicou, premiešame a chvíľu restujeme. Prihodíme nakrájané šampiňóny, soľ a korenie. Podlejeme vínom a krátko povaríme, aby sa odparil alkohol.",
+  "Potom podlejeme vývarom alebo horúcou vodou, prikryjeme pokrievkou a na miernom ohni dusíme približne 30 minút domäkka. Počas dusenia podľa potreby prilievame vodu.",
+  "Medzitým do rozohriateho kastróla s olejom nasypeme ryžu, osolíme a krátko restujeme. Potom ju zalejeme vriacou vodou (1 cm nad ryžu), prikryjeme pokrievkou a vložíme do rúry vyhriatej na 200 °C približne na 10–15 minút. Hotovú ju premiešame a vo vypnutej rúre necháme dôjsť.",
+  "Keď je mäso mäkké, najprv kyslú smotanu zmiešame s múkou, potom ju primiešame k mäsu a krátko na miernom ohni povaríme. Stiahneme z ohňa a posypeme nasekanou petržlenovou vňaťou.",
+  "Hovädzí stroganov servírujeme s ryžou dozdobený nakrájanou lahôdkovou cibuľkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "ruské"
+ ]
 }

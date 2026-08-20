@@ -26,10 +26,9 @@ ok("chicken-biryani: Kardamómy 4 ks ≤ 5 g (predtým 240 g)", () => {
   const gr = app.gramy(i, app.najdiPotravinu(i.nazov));
   assert.ok(gr <= 5, "kardamómy = " + gr + " g");
 });
-ok("chicken-adobo: 3 bobkové listy prestali robiť 141 kcal/porciu (760 → 619)", () => {
-  // zvyšok cesty na deklarovaných 520 kcal dorobí B1 (Kuracích stehien → kľúč „kuracie steh")
-  const k = app.kcalPorcia(app.receptById("chicken-adobo"));
-  assert.ok(k <= 630, "chicken-adobo = " + k + " kcal");
+ok("borsc: 3 bobkové listy nesmú nafúknuť kcal (60 g/ks by dalo +141 kcal/porciu)", () => {
+  const k = app.kcalPorcia(app.receptById("borsc"));
+  assert.ok(k <= 300, "borsc = " + k + " kcal");
 });
 ok("grilovane-jalapeno: 14 plátkov slaniny ≤ 400 g (predtým 840 g)", () => {
   const i = ing("grilovane-jalapeno-syr-slanina", /slanin/i);
@@ -109,9 +108,11 @@ ok("„Vanilkový cukor 1 ks“ nestojí 3,20 €", () => {
   const cena = gr / 100 * ((p && p.cena100) || 0);
   assert.ok(cena < 0.6, "1 ks vanilkového cukru = " + cena.toFixed(2) + " € (kľúč " + (p && p.kluc) + ")");
 });
-ok("chicken-adobo: kcal/porcia ≈ 520 (Kuracích stehien → kľúč „kuracie steh“)", () => {
-  const k = app.kcalPorcia(app.receptById("chicken-adobo"));
-  assert.ok(k >= 460 && k <= 570, "chicken-adobo = " + k + " kcal (dekl. 520)");
+ok("„Kuracie stehná“ sa spárujú na kľúč „kuracie steh“ (nie na „kura“)", () => {
+  for (const n of ["Kuracie stehná", "Kuracích stehien", "Vykostené kuracie stehná"]) {
+    const p = app.najdiPotravinu(n);
+    assert.ok(p && p.kluc === "kuracie steh", n + " → " + (p && p.kluc));
+  }
 });
 ok("„Kondenzované mlieko“ nie je obyčajné mlieko (64 kcal)", () => {
   const p = app.najdiPotravinu("Kondenzované mlieko");
@@ -204,9 +205,9 @@ ok("vyzivaReceptu hlási pokrytie hmoty údajmi (v.hmota / v.hmotaNa)", () => {
 
 // ─────────────────────────────────────────────────────────── B4: kcal brzda
 console.log("\nB4 — kurátorovanému kcal_na_porciu sa verí vždy");
-ok("beef-rendang zobrazí 600 kcal (pred opravami 941, po B1–B3 626)", () => {
-  const r = app.receptById("beef-rendang");
-  assert.strictEqual(app.kcalPorcia(r), 600);
+ok("au-jus-sendvic-s-hovadzim zobrazí kurátorovaných 881 kcal (výpočet dá ~220)", () => {
+  const r = app.receptById("au-jus-sendvic-s-hovadzim");
+  assert.strictEqual(app.kcalPorcia(r), 881);
   assert.strictEqual(app.kcalPorcia(r), r.kcal_na_porciu);
 });
 ok("kuracie-nugetky zobrazia svoje deklarované kcal", () => {

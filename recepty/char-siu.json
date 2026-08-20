@@ -1,71 +1,81 @@
 {
-  "id": "char-siu",
-  "nazov": "Char Siu (čínske BBQ bravčové)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Čínska",
-  "zdroj": "internet – adaptované (Serious Eats)",
-  "porcie": 4,
-  "cas": "50 min + marinovanie",
-  "kcal_na_porciu": 520,
-  "popis": "Sladko-slané glazované bravčové s charakteristickou lesklou kôrkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčového pliecka",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": "alebo krkovičky"
-    },
-    {
-      "nazov": "Medu",
-      "mnozstvo": 3,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "hoisin omáčka",
-      "mnozstvo": 3,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "sójová omáčka",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "ryžové víno",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Sezamového oleja",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 2,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Kúsok zázvoru",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "čierne korenie",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL"
-    }
-  ],
-  "postup": [
-    "Zmiešaj všetky suroviny okrem mäsa na marinádu (polovicu medu odlož na glazúru). Zalej mäso a marinuj cez noc.",
-    "Peč pri 180 °C ~30–40 min, párkrát otoč.",
-    "Potri odloženým medom a zvýš teplotu/zgriluj 5–10 min, kým sa okraje neskaramelizujú. Nechaj odpočívať a nakrájaj."
-  ],
-  "tipy": "Glazúra medom až na konci — inak by cukor zhorel.",
-  "foto": "",
-  "tagy": [
-    "čínske",
-    "bravčové",
-    "grilované"
-  ]
+ "id": "char-siu",
+ "nazov": "Char Siu (čínske BBQ bravčové)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Čínska",
+ "zdroj": "Wikibooks Cookbook – Char Siu (Chinese BBQ pork) (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook%3AChar_Siu_%28Chinese_BBQ_pork%29",
+ "porcie": 6,
+ "cas": "50 min + marinovanie",
+ "kcal_na_porciu": 443,
+ "popis": "Sladko-slané glazované bravčové s charakteristickou lesklou kôrkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčové pliecko",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": "2.25 lbs"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oyster sauce",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryža",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hoisin sauce",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Five spice",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mäso nakrájame na pásy široké asi 2,5 cm a dlhé asi 15 cm — dlhý tenký pás lepšie drží tvar.",
+  "Bravčové po celej ploche dôkladne popicháme vidličkou. Zmäkne a marináda prejde až dovnútra.",
+  "Všetky ostatné ingrediencie zmiešame na marinádu.",
+  "Pásy mäsa vložíme do misy a zalejeme marinádou tak, aby boli úplne pokryté.",
+  "Prikryjeme fóliou a dáme do chladničky na niekoľko hodín, ideálne 8–24 hodín.",
+  "Rúru predhrejeme na 230 °C. Na dno vložíme plech vystlaný alobalom na odkvapkávajúcu marinádu.",
+  "Mäso zavesíme na hákoch alebo položíme na mriežku. Podľa veľkosti rúry pečieme na dve–tri dávky.",
+  "Pečieme 20 minút do prepečenia. Aspoň dvakrát potrieme marinádou, aby vznikla glazúra. Mäso má počas pečenia stmavnúť do zlatočervena.",
+  "Necháme vychladnúť zavesené alebo na mriežke — nie na plochom povrchu ani na inom mäse.",
+  "Prikryjeme a odložíme do chladničky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "čínske",
+  "bravčové",
+  "grilované"
+ ]
 }

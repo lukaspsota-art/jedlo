@@ -1,71 +1,69 @@
 {
-  "id": "hovadzi-vyvar-so-zeleninou",
-  "nazov": "Hovädzí vývar so zeleninou",
-  "kategoria": "Polievka",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "90 min",
-  "kcal_na_porciu": 360,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tradičná číra hovädzia polievka so zeleninou a rezancami.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "na polievku, s kosťou"
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlen",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rezance",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso zalej studenou vodou a privedz k varu, zbieraj penu.",
-    "Pridaj celú cibuľu a var na miernom ohni 60 minút.",
-    "Pridaj nakrájanú zeleninu a var ďalších 20 minút do mäkka.",
-    "Mäso vyber, nakrájaj a vráť späť do polievky.",
-    "Podávaj s uvarenými rezancami."
-  ],
-  "tipy": "Vývar si môžeš pripraviť vo väčšom množstve a zamraziť na neskôr.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "hovädzie",
-    "vývar",
-    "slovenské"
-  ]
+ "id": "hovadzi-vyvar-so-zeleninou",
+ "nazov": "Hovädzí vývar so zeleninou",
+ "kategoria": "Polievka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Hovädzí vývar so zeleninou a s cviklovými haluškami (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzi-vyvar-so-zeleninou-a-s-cviklovymi-haluskami/78402-recept.html",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 158,
+ "popis": "Tradičná číra hovädzia polievka so zeleninou a rezancami.",
+ "ingrediencie": [
+  {
+   "nazov": "Hovädzí vývar",
+   "mnozstvo": 600,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cvikla",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koreňová zelenina",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bylinky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Z najemno postrúhanej cvikly, múky, vajíčka a soli urobíme cesto, z ktorého uvaríme halušky vo vriacej vode. Halušky scedíme.",
+  "Z očistenej koreňovej zeleniny vykrojíme guľôčky alebo úhľadné kocky, ktoré sparíme vo vriacej vode.",
+  "Halušky so zeleninou zalejeme vývarom a pred podávaním môžeme posypať bylinkami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "hovädzie",
+  "vývar",
+  "slovenské"
+ ]
 }

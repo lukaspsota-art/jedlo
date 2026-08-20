@@ -1,70 +1,112 @@
 {
-  "id": "tekvicova-kremova-polievka",
-  "nazov": "Tekvicová krémová polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 181,
-  "kcal_zdroj": "vypocet",
-  "popis": "Hladká krémová polievka z hokkaido tekvice so zázvorom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hokkaido",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zázvor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Tekvicu nakrájaj na kocky (šupku netreba lúpať pri hokkaido).",
-    "Na oleji opraž cibuľu a zázvor, pridaj tekvicu.",
-    "Zalej vývarom a var 20 minút do mäkka.",
-    "Rozmixuj dohladka a vmiešaj smotanu.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Posyp praženými tekvicovými semienkami pre chrumkavosť.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "tekvica",
-    "krémová"
-  ]
+ "id": "tekvicova-kremova-polievka",
+ "nazov": "Tekvicová krémová polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Tekvicová krémová polievka (autor: garanco)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/tekvicova-kremova-polievka/9686-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 215,
+ "popis": "Polievka, nielen pre deti, ktoré neradi vidia v tanieri akúkoľvek zeleninu. Možno ju pripraviť aj z patizónu a variácie obmien sú rôzne.",
+ "ingrediencie": [
+  {
+   "nazov": "Tekvica stredne veľká",
+   "mnozstvo": 700,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hubový bujón",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté biele korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Muškátový oriešok strúhaný",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot / nemusí byť/",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukuričné lupienky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Opražená žemľa na kocky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Opečené kocky klobásky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na masti opražíme nadrobno pokrájanú cibuľu, pridáme na kocky nakrájanú tekvicu.",
+  "Krátko podusíme, pridáme bobkový list, zalejeme vodou a 20minút varíme.",
+  "Necháme trochu ochladiť a dobre rozmixujeme.",
+  "Znovu dáme variť, vlejeme kyslú smotanu s múkou, pridáme kocky Maggi a všetky koreniny a krátko povaríme",
+  "Podávame s opraženou žemľou , s kukuričnými lupienkami , alebo s opečenou klobásou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "tekvica",
+  "krémová"
+ ]
 }

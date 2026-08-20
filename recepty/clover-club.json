@@ -1,0 +1,49 @@
+{
+ "id": "clover-club",
+ "nazov": "Clover Club",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Clover Club",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17186",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 168,
+ "popis": "Ordinary Drink · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Gin",
+   "mnozstvo": 44.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Grenadína",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bielok",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ingrediencie najprv pretrepeme bez ľadu, aby sa spojili.",
+  "Pridáme ľad, znovu pretrepeme.",
+  "Precedíme do pohára a podávame bez ľadu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

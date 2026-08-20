@@ -1,0 +1,35 @@
+{
+ "id": "bananovo-melonove-smoothie",
+ "nazov": "Banánovo-melónové smoothie",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Banana Cantaloupe Smoothie",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12708",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Other / Unknown · Highball Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Cantaloupe",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Z melóna vytlačíme šťavu a nalejeme do mixéra.",
+  "Pridáme banán a rozmixujeme do hladka."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "bezmäsité"
+ ]
+}

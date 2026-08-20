@@ -1,29 +1,109 @@
 {
-  "id": "snack-kefir",
-  "nazov": "Kefír",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 130,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kúpený kefír.",
-  "ingrediencie": [
-    {
-      "nazov": "Kefír",
-      "mnozstvo": 250,
-      "jednotka": "ml"
-    }
-  ],
-  "postup": [
-    "Kúpené — otvor a zjedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "kupované",
-    "mliečne"
-  ]
+ "id": "snack-kefir",
+ "nazov": "Kefír",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Kefírové rožky (fotorecept) (autor: luwinka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kefirove-rozky-fotorecept/78754-recept.html",
+ "porcie": 19,
+ "cas": "35 min",
+ "kcal_na_porciu": 215,
+ "popis": "Vynikajúce mäkučké kefírové rožky plnené tvarohom, dnes upečené.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kefír",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jemný tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "trochu"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Droždie rozmrvíme v menšej nádobe , pridáme 1/2 čajovej lyžičky kryštálového cukru, medzi prsty múky a 1 dcl vlažného mlieka. Necháme vzísť kvások. Do misy dáme múku, cukor, vajcia, kefír, roztopené maslo, pridáme kvások a zvyšné mlieko. Vypracujeme cesto, ktoré necháme 45 minút kysnúť.",
+  "Cesto nám krásne vykyslo.",
+  "Dáme ho na pomúčenú dosku a vykrajujeme z neho rovnaké kúsky, ktoré vytvarujeme do tvaru guľôčok.",
+  "Každú guľôčku valčekom vyvaľkáme do tvaru placky (moje placičky merali 17 cm ).",
+  "Tvarohová plnka: Tvaroh vymiešame s cukrom, pridáme postrúhanú citrónovú kôru. Tvarohovú plnku lyžicou nanesieme na každú placku.",
+  "Placku zo strany kde je plnka prehneme do vnútra a po celom obvode ju prstami stlačíme, aby plnka nevytiekla.",
+  "Ostatnú časť radielkom narežeme šikmo, tak ako je na obrázku.",
+  "Začneme stáčať smerom do vonkajšej strany.",
+  "Vznikne nám takýto rožtek.",
+  "A tu máme všetky rožky, ktoré necháme ešte 10 minút podkysnúť.",
+  "Na plech vystlaný pečiacim papierom poukladáme rožky, ktoré povrchu potrieme vajcom. Pečieme v rozohriatej rúre na 200 stupňov 35 minút. Upečené ešte horúce po vrchu potrieme mliekom.",
+  "Po vrchu ich posypeme práškovým cukrom.",
+  "Na tanieriku.",
+  "Rožtek v reze."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "kupované",
+  "mliečne"
+ ]
 }

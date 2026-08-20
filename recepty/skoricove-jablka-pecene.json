@@ -1,52 +1,80 @@
 {
-  "id": "skoricove-jablka-pecene",
-  "nazov": "Škoricové pečené jablká",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 169,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý zdravší dezert z celých pečených jablk plnených orechmi.",
-  "ingrediencie": [
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vlašské orechy",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Jablkám vyrež jadrovník, ale nechaj ich celé.",
-    "Orechy nasekaj a zmiešaj s medom a škoricou.",
-    "Naplň jablká zmesou.",
-    "Ulož do zapekacej misy s troškou vody na dne.",
-    "Peč pri 190 °C asi 25-30 minút do mäkka."
-  ],
-  "tipy": "Skvelý teplý dezert, ktorý zavonia po celom dome.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "jablko",
-    "zdravšie"
-  ]
+ "id": "skoricove-jablka-pecene",
+ "nazov": "Škoricové pečené jablká",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pečené jablká (autor: kuchar001)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecene-jablka/59714-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 172,
+ "popis": "Jednoduchý zdravší dezert z celých pečených jablk plnených orechmi.",
+ "ingrediencie": [
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilínový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Piškóty",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šťava z broskyňového kompótu",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Broskyne",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si 4 jablká, ktorým odrežeme vrch. Potom si zoberieme lyžičku ktorou vydlabeme jablká.",
+  "Keď budú jablká vydlabané urobíme si plnku: Do misky si rozdrobíme piškóty. Potom nasypeme hrozienka, ktoré zalejeme broskyňovou šťavou. Nakoniec pridáme do plnky 4 broskyne. Touto plnkou si následne naplníme jablká.",
+  "Pripravíme si plech, ktorý následne vymastíme olejom. Jablká potrieme olejom alebo dáme navrch maslo. Plech s jablkami vložíme do vyhriatej rúry na 200°C, kde jablká pečieme 12-15 minút. Keď budú jablká hotové posypeme ich s mletou škoricou a vanílinovým alebo vanilkovým cukrom. -Potom jablká polejeme medom. Do jabĺk môžeme zapichnúť špáradlá. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "jablko",
+  "zdravšie"
+ ]
 }

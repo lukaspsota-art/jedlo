@@ -1,39 +1,80 @@
 {
-  "id": "snack-tvarohovy-dezert",
-  "nazov": "Tvarohový dezert s ovocím",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 158,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tvaroh s medom a bobuľovým ovocím.",
-  "ingrediencie": [
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 100,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 10,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Bobuľové ovocie",
-      "mnozstvo": 60,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Tvaroh premiešaj s medom.",
-    "Navrch daj ovocie."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "tvaroh"
-  ]
+ "id": "snack-tvarohovy-dezert",
+ "nazov": "Tvarohový dezert s ovocím",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Nepečený tvarohový dezert s ovocím podľa módnej návrhárky Lýdie Eckhardt (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/nepeceny-tvarohovy-dezert-s-ovocim-podla-modnej-navrharky-lydie-eckha/86808-recept.html",
+ "porcie": 8,
+ "cas": "30 min",
+ "popis": "Čo sa týka sladkého, módna návrhárka Lýdia Eckhardt má najradšej jednoduché a nepečené dobroty. Ako tento svieži dezert.",
+ "ingrediencie": [
+  {
+   "nazov": "Dlhé piškóty",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jemný vanilkový tvaroh",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stužovač šľahačky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vaječný koňak",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Orechovo-medové vločky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Džem",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovocie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "čerstvé"
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Podlhovastú misu nahusto vyložíme piškótami namočenými v koňaku alebo v sirupovej vode (ak budú dezert jesť aj deti).",
+  "Piškóty natrieme čučoriedkovým alebo iným džemom. Smotanu na šľahanie spolu so stužovačom vyšľaháme, primiešame tvaroh a vločky.",
+  "Masu vylejeme na piškóty, zarovnáme a navrch rozložíme ovocie.",
+  "Dezert dáme do chladničky, najlepšie cez noc.",
+  "Pred podávaním posypeme práškovým cukrom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "tvaroh"
+ ]
 }

@@ -1,50 +1,50 @@
 {
-  "id": "olivova-natierka-tapenade",
-  "nazov": "Olivová nátierka (tapenade)",
-  "kategoria": "Nátierka",
-  "kuchyna": "Francúzska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 118,
-  "kcal_zdroj": "vypocet",
-  "popis": "Výrazná francúzska nátierka z čiernych olív a kaparov.",
-  "ingrediencie": [
-    {
-      "nazov": "Zelené olivy",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kapary",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetky suroviny vlož do mixéra.",
-    "Rozmixuj na hrubšiu pastu.",
-    "Podávaj s pečivom alebo zeleninovými tyčinkami."
-  ],
-  "tipy": "Vydrží v chladničke v uzavretej nádobe aj týždeň.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "olivy",
-    "francúzske"
-  ]
+ "id": "olivova-natierka-tapenade",
+ "nazov": "Olivová nátierka (tapenade)",
+ "kategoria": "Nátierka",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Olivová nátierka (autor: huslicka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/olivova-natierka/19519-recept.html",
+ "porcie": 1,
+ "cas": "15 min",
+ "kcal_na_porciu": 14,
+ "popis": "Mám ju od mojej kamarátky a veľmi sme si ju obľúbili",
+ "ingrediencie": [
+  {
+   "nazov": "Zelené olivy",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr bambino",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Plnotučná horčica",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zelené olivy necháme odkvapkať a na jemno pokrájame alebo posekáme.",
+  "Do misky vytlačíme syr, zmiešame s olivami, horčicou a popučeným cesnakom.",
+  "Môžeme aj rozmixovať ale nie je to podmienka."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "olivy",
+  "francúzske"
+ ]
 }

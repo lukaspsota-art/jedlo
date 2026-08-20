@@ -1,87 +1,117 @@
 {
-  "id": "drstkova-polievka",
-  "nazov": "Držková polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 6,
-  "cas": "150 min",
-  "kcal_na_porciu": 260,
-  "popis": "Výdatná pikantná polievka z hovädzích držiek s paprikou a cesnakom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie držky",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": "predvarené"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 4,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rasca",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majoránka",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feferónka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "voliteľné"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Držky nakrájaj na tenké prúžky a var domäkka (aj 2 hodiny).",
-    "Na masti opraž cibuľu, odstav, zamiešaj papriku a múku.",
-    "Zápražku rozšľahaj do vývaru s držkami.",
-    "Dochuť cesnakom, rascou, majoránkou, soľou a feferónkou, povar."
-  ],
-  "tipy": "Predvarené čistené držky ušetria veľa času. Musí byť poriadne cesnaková a pikantná.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "polievka",
-    "hovädzie"
-  ],
-  "foto": ""
+ "id": "drstkova-polievka",
+ "nazov": "Držková polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Moja držková polievka (autor: js9mxd)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/moja-drzkova-polievka/7875-recept.html",
+ "porcie": 6,
+ "cas": "120 min",
+ "kcal_na_porciu": 134,
+ "popis": "Za mlada som neznášal vnútornosti, až ráz v jedálni nebolo čo jesť a zostala len držková polievka, tak som si ju objednal, lebo som bol veľmi hladný. Vtedy som prišiel na chuť tej nenávidenej polievke. Od tej doby patrí k mojej obľúbenej. Aj keď príprava tejto chutnej polievky nerobí radosť nikomu v rodine. Najradšej ju varím v kotlíku na záhrade, tam aspoň  nikto nefrfle na zápach.",
+ "ingrediencie": [
+  {
+   "nazov": "Predvarené držky",
+   "mnozstvo": 750,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kmin",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Hovädzí vývar z bujónu",
+   "mnozstvo": 2000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové korenie",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majorán",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na masti si osmažíme cibuľku, pridáme mletú papriku,kmín, čierne korenie,soľ,nové korenie a bobkový list. Podlejeme vývarom a varíme kým držky nezmeknú.",
+  "Medzi tým si ostrúhame zemiaky a pokrájame ich na drobné kocky. Keď sú držky mäkké pridáme zemiaky a varime.",
+  "Z masti a hladkej múky si pripravíme zásmažku, keď je múka hnedá pridáme na drobno porezanú cibuľku a osmažíme do hneda, potom pridáme mletú papriku a zalejeme studenou vodou. Zásmažku vylejeme aj s cibuľkou do držiek a prevaríme. Na záver pridáme cesnak a majorán."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "polievka",
+  "hovädzie"
+ ]
 }

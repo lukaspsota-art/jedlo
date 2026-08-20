@@ -1,70 +1,84 @@
 {
-  "id": "malinove-muffiny",
-  "nazov": "Malinové muffiny",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "35 min",
-  "kcal_na_porciu": 276,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jemné vláčne muffiny s čerstvými malinami.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maliny",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 120,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prášok do pečiva",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zmiešaj múku, cukor a prášok do pečiva.",
-    "V druhej mise rozšľahaj vajcia, mlieko a olej.",
-    "Spoj tekutú a suchú zmes, jemne vmiešaj maliny.",
-    "Rozlej do foriem na muffiny.",
-    "Peč pri 180 °C asi 20-22 minút do zlatista."
-  ],
-  "tipy": "Maliny jemne obaľ v troške múky, aby neklesli na dno.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "muffiny",
-    "maliny"
-  ]
+ "id": "malinove-muffiny",
+ "nazov": "Malinové muffiny",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Muffiny s malinami (autor: mirmita)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/muffiny-s-malinami/49130-recept.html",
+ "porcie": 8,
+ "cas": "25 min",
+ "kcal_na_porciu": 383,
+ "popis": "Jemné vláčne muffiny s čerstvými malinami.",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kypriaci prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda horúca",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maliny",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "žĺtka s vanilkovým a práškovým cukrom vyšľaháme",
+  "potom pridáme olej,roztopené maslo a vodu",
+  "pridáme trochu múky,premiešame a pridáme sneh",
+  "nakoniec vsypeme aj zvyšok múky a jemne premiešame",
+  "maliny obalíme v troche práškového cukru a pridáme do cesta",
+  "vznikne nám hustejšie cesto,plníme košíčky do 3/4 a pečieme 15minút na 180´C",
+  "hotovo"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "muffiny",
+  "maliny"
+ ]
 }

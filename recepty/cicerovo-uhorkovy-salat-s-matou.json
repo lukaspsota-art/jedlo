@@ -1,63 +1,98 @@
 {
-  "id": "cicerovo-uhorkovy-salat-s-matou",
-  "nazov": "Cícerovo-uhorkový šalát s mätou",
-  "kategoria": "Šalát",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 184,
-  "kcal_zdroj": "vypocet",
-  "popis": "Svieži letný šalát z cíceru, uhorky a čerstvej mäty.",
-  "ingrediencie": [
-    {
-      "nazov": "Cícer predvarený",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mäta",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Uhorku nakrájaj na kocky.",
-    "Premiešaj s cícerom a nasekanou mätou.",
-    "Zalej olivovým olejom a citrónovou šťavou.",
-    "Dochuť soľou a podávaj studené."
-  ],
-  "tipy": "Skvelý letný šalát, ktorý osvieži aj zasýti.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "cícer",
-    "letné"
-  ]
+ "id": "cicerovo-uhorkovy-salat-s-matou",
+ "nazov": "Cícerovo-uhorkový šalát s mätou",
+ "kategoria": "Šalát",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Varecha.sk – Listový šalát na pikantnom cícerovom hummuse (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/listovy-salat-na-pikantnom-cicerovom-hummuse/71354-recept.html",
+ "porcie": 10,
+ "cas": "180 min",
+ "kcal_na_porciu": 344,
+ "popis": "Svieži letný šalát z cíceru, uhorky a čerstvej mäty.",
+ "ingrediencie": [
+  {
+   "nazov": "Suchý cícer",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tahini",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie štyroch farieb",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Granátové jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Píniové oriešky",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rukola",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená čakanka",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Sušený cícer namočíme aspoň na 12 hodín. Potom vodu zlejeme a dáme variť. Medzitým pripravíme konfitovaný cesnak tak, že celú hlavičku cesnaku, na ktorej sme zrezali spodnú časť, pomaly varíme v olivovom oleji 20 minút.",
+  "Keď je cícer mäkký, zlejeme ho z vody a vložíme do mixéra, pridáme soľ, korenie, citrónovú šťavu, čerstvý cesnak, olivový olej a tahini. Môžeme pridať čili, koriander alebo rímsku rascu.",
+  "Pripravený hummus rozotrieme na tanier, posypeme nasucho opečenými píniovými orieškami, zrniečkami z granátového jablka a vylúpaným konfitovaným cesnakom. V miske premiešame rukolu, nakrájanú červenú čakanku, jarnú cibuľku, soľ, korenie citrónovú šťavu a olivový olej. Šalát položíme na tanier s ozdobeným hummusom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "cícer",
+  "letné"
+ ]
 }

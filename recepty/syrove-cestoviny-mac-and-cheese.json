@@ -1,68 +1,81 @@
 {
-  "id": "syrove-cestoviny-mac-and-cheese",
-  "nazov": "Syrové cestoviny (mac and cheese)",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 620,
-  "popis": "Zapečené cestoviny v krémovej syrovej omáčke s chrumkavou kôrkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Cestoviny",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "makaróny"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čedar",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Strúhanka",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar al dente a sceď.",
-    "Z masla a múky sprav zápražku, podlej mliekom na bešamel.",
-    "Vmiešaj syr do rozpustenia, osoľ.",
-    "Zmiešaj s cestovinami, posyp strúhankou a zapeč pri 200 °C 15 minút."
-  ],
-  "tipy": "Zmes syrov (čedar + eidam) dá lepšiu chuť aj ťahavosť.",
-  "tagy": [
-    "cestoviny",
-    "syr",
-    "zapekané"
-  ],
-  "foto": ""
+ "id": "syrove-cestoviny-mac-and-cheese",
+ "nazov": "Syrové cestoviny (mac and cheese)",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Extra krémové syrové cestoviny (autor: frommykitchendotcom)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/extra-kremove-syrove-cestoviny/81606-recept.html",
+ "porcie": 8,
+ "cas": "25 min",
+ "kcal_na_porciu": 363,
+ "popis": "Zapečené cestoviny v krémovej syrovej omáčke s chrumkavou kôrkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na varenie",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "gouda, eidam"
+  },
+  {
+   "nazov": "Bujón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kuracie prsia nakrájame na menšie rezne, osolíme a okoreníme. Zľahka ich z oboch strán osmažíme na panvici (len aby chytili farbu). Mäso poukladáme na dno nádoby na pečenie.",
+  "V osobitnej miske zmiešame smotanu na varenie, kyslú smotanu, nastrúhaný syr a ak treba, osolíme.",
+  "Cestoviny (použila som 2 cm široké rezance) uvaríme vo vode s bujónom. Pozor, aby ste ich nerozvarili. Cestoviny scedíme a pridáme ich k mäsu.",
+  "Všetko zalejeme smotanou so syrom a lyžicou premiešame. Ak treba, ešte dochutíme a necháme zapiecť na asi 25 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "syr",
+  "zapekané"
+ ]
 }

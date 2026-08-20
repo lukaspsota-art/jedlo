@@ -1,76 +1,119 @@
 {
-  "id": "pad-thai",
-  "nazov": "Pad Thai",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Thajská",
-  "zdroj": "klasický recept",
-  "porcie": 3,
-  "cas": "30 min",
-  "kcal_na_porciu": 515,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické thajské smažené rezance s vajcom a arašidmi.",
-  "ingrediencie": [
-    {
-      "nazov": "Rezance",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Arašid",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rybia omáčka",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rezance namoč podľa návodu na obale.",
-    "Na oleji opraž cesnak, pridaj rozšľahané vajcia a rýchlo umiešaj.",
-    "Pridaj rezance, sójovú a rybaciu omáčku, dôkladne premiešaj.",
-    "Vmiešaj limetkovú šťavu.",
-    "Posyp nasekanými arašidmi a podávaj."
-  ],
-  "tipy": "Tradične sa dopĺňa aj klíčkami mungo fazule.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "thajské",
-    "rezance"
-  ]
+ "id": "pad-thai",
+ "nazov": "Pad Thai",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Thajská",
+ "zdroj": "Varecha.sk – Pad Thai (autor: lunter)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pad-thai/91747-recept.html",
+ "porcie": 12,
+ "cas": "30 min",
+ "kcal_na_porciu": 418,
+ "popis": "Zabudni na donášku – tento Pad Thai s Teriyaki tofu ťa prenesie rovno do ulíc Bangkoku!* Sladko-pikantná omáčka, chrumkavá \r\nzelenina a poriadna dávka arašidov z neho robia neodolateľný vegánsky hit.",
+ "ingrediencie": [
+  {
+   "nazov": "LUNTER Marinated Tofu Teriyaki",
+   "mnozstvo": 900,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžové rezance",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 15,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Arašidy",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Fazuľa mungo",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprička chilli",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 8,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžový ocot",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Omáčka pálivá Sriracha",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 8,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Nakrájaj mrkvu na tenké pásiky, nasekaj jarnú cibuľku, koriander a arašidy. Tofu nakrájaj na kocky veľkosti približne 1,5 cm.",
+  "Rezance uvar podľa návodu na obale.",
+  "Priprav omáčku: V malej miske zmiešaj všetky ingrediencie na omáčku. Odlož bokom.",
+  "Opeč tofu: Vo veľkej panvici zohrej olej na stredne vysokej teplote. Pridaj tofu a opeč ho zo všetkých strán dozlatista.",
+  "K tofu v panvici pridaj rezance, omáčku a zeleninu. Miešaj, kým sa všetko zohreje.",
+  "Každú porciu posyp arašidmi, chilli a ďalším koriandrom. Podávaj s mesiačikmi limetky a klíčkami mungo fazule na boku. Pred jedlom dochuť limetkovou šťavou podľa chuti."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "thajské",
+  "rezance"
+ ]
 }

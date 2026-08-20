@@ -1,0 +1,48 @@
+{
+ "id": "alice-cocktail",
+ "nazov": "Alice Cocktail",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Alice Cocktail",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12562",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 150,
+ "popis": "Cocktail · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Grenadína",
+   "mnozstvo": 10,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": 10,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ananás",
+   "mnozstvo": 20,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Poriadne pretrepeme v šejkri s ľadom.",
+  "Precedíme do väčšieho kokteilového pohára."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "bezmäsité"
+ ]
+}

@@ -1,76 +1,146 @@
 {
-  "id": "vegetarianska-musaka-so-sosovicou",
-  "nazov": "Vegetariánska musaka so šošovicou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Grécka",
-  "zdroj": "vlastný recept",
-  "porcie": 5,
-  "cas": "70 min",
-  "kcal_na_porciu": 353,
-  "kcal_zdroj": "vypocet",
-  "popis": "Grécka zapekaná musaka s červenou šošovicou namiesto mäsa.",
-  "ingrediencie": [
-    {
-      "nazov": "Baklažán",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Červená šošovica",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Baklažán a zemiaky nakrájaj na plátky, opeč na olivovom oleji do zlata.",
-    "Na oleji opraž cibuľu, pridaj šošovicu a paradajky, dus 15 minút.",
-    "V zapekacej mise striedaj vrstvy zemiakov, baklažánu a šošovicovej zmesi.",
-    "Navrch zalej smotanou.",
-    "Peč pri 190 °C asi 30 minút do zlatista."
-  ],
-  "tipy": "Šošovica dodáva textúru podobnú mletému mäsu.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "vegetariánske",
-    "grécke"
-  ]
+ "id": "vegetarianska-musaka-so-sosovicou",
+ "nazov": "Vegetariánska musaka so šošovicou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Grécka",
+ "zdroj": "Varecha.sk – Musaka (fotorecept) (autor: boise)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/musaka-fotorecept/45320-recept.html",
+ "porcie": 12,
+ "cas": "45 min",
+ "kcal_na_porciu": 369,
+ "popis": "Receptov na musaku je tu dosť. Mám zmiešané pocity, či je toto naozaj musaka ako má byť, a teda či to nazývať musakou, pretože na každej dovolenke chutí inak...Ale vyskúšame. Ak sa tu nájde \"musakológ\" a povie že to v žiadnom prípade musaka nie je, skúsim premenovať na niečo ako: krumple, mäso, baklažán... :)",
+ "ingrediencie": [
+  {
+   "nazov": "Mäso hovädzie",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lúpané krájané paradajky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 5,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr feta",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Saturejka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie štyroch farieb",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Studené mlieko",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zemiaky uvaríme v šupke v osolenej vode.",
+  "Dve nakrájané cibule a 4 cesnaky nakrájame na drobno a opražíme na oleji. Pridáme mletú červenú papriku, korenie 4roch farieb, saturejku a premiešame.",
+  "Pridáme mleté mäso a necháme chvíľu podusiť.",
+  "K mäsu pridáme paradajky z konzervy, soľ a pretlačíme jeden strúčik cesnaku.",
+  "Podusíme do mäkka. Ak treba, dochutíme ešte soľou a saturejkou.",
+  "Baklažán alebo cuketu (ako na potvoru dnes baklažán nemali, takže u nás cuketa) nakrájame na kolieska a na sucho opražíme na panvici. Tento krok som raz vynechala a potom bol baklažán tvrdý, takže radšej to vždy takto opečiem.",
+  "Pripravíme si bešamel. Rozpustíme 60g masla, pridáme 3 lyžice hladkej múky a dobre premiešame metličkou. Vlievame studené mlieko a ďalej miešame. Pridáme štipku mletého muškátového oriešku a pol lyžičky mletej škorice. Za stáleho miešania privedieme do varu a necháme pár minút minút prevrieť - stále miešame.",
+  "Zapekaciu misu vymastíme olivovým olejom. Na dno dáme zemiaky (už očistené od šupky :) ). Ja ich pretláčam cez ten zázrak na foto, neviem ako sa tomu odborne nadáva. Ak chcete, môžte ich aj pokrájať na kolieska, ale toto je rýchlejšie. Zemiaky posolíme.",
+  "Na ne uložíme polovicu cukiet.",
+  "Zalejeme mäsovou zmesou.",
+  "Poukladáme druhú polovicu cukiet a 3 nakrájané paradajky.",
+  "Zalejeme bešamelom.",
+  "Zasypeme na veľkých slzičkách postrúhaným fetoidným syrom a dáme piecť do rúry vyhriatej na 200 stupňov na cca 45 minút.",
+  "Vyberieme keď syr začne hnednúť.",
+  "Necháme trošku vychladnúť a potom už len krájame, jeme a krochkáme blahom. Ospravedlňujem sa za fotky, musaka nie je veľmi fotogenická :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "vegetariánske",
+  "grécke"
+ ]
 }

@@ -1,64 +1,63 @@
 {
-  "id": "cestoviny-s-cuketou-matou-a-fetou",
-  "nazov": "Cestoviny s cuketou, mätou a fetou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Grécka",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 404,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ľahké letné cestoviny s cuketou, mätou a syrom feta.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cuketa",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mäta",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feta",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Cuketu nakrájaj na kocky a opraž na olivovom oleji do mäkka.",
-    "Zamiešaj cestoviny s cuketou a nasekanou mätou.",
-    "Posyp rozdrobenou fetou.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Mäta dodáva neobvyklú, no príjemnú letnú sviežosť.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "cuketa",
-    "letné"
-  ]
+ "id": "cestoviny-s-cuketou-matou-a-fetou",
+ "nazov": "Cestoviny s cuketou, mätou a fetou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Grécka",
+ "zdroj": "Varecha.sk – Cestoviny s cuketou (autor: danda3)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-s-cuketou/29059-recept.html",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 498,
+ "popis": "Ďalší z cuketových receptov, ktorý v tomto teple zasýti a nie je náročný na prípravu.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mladá cuketa",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 5,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené paradajky nakladané v oleji",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bylinková soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cuketu si aj so šupou nastrúhame ako na uhorkový šalát.",
+  "Na rozohriaty olej dáme cuketu a za občasného miešania ju dusíme, neprikrývame. Medzitým si uvaríme cestovinu.",
+  "Keď je cuketa mäkká, ale nerozvarená, pridáme nakrájané rajčinky, bylinkovú soľ podľa chuti, prehrejeme a nakoniec vmiešame prelisovaný alebo postrúhaný cesnak. Už nevaríme.",
+  "Nakoniec cuketu premiešame s uvarenou cestovinou. To je všetko, jednoduché, ale pritom veľmi chutné jedlo, vhodné do tohoto tropického počasia."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "cuketa",
+  "letné"
+ ]
 }

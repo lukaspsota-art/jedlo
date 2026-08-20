@@ -1,69 +1,117 @@
 {
-  "id": "cviklovy-salat",
-  "nazov": "Cviklový šalát s chrenom",
-  "kategoria": "Šalát",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 6,
-  "cas": "60 min",
-  "kcal_na_porciu": 90,
-  "popis": "Zavárkový cviklový šalát s chrenom a rascou — príloha k mäsu.",
-  "ingrediencie": [
-    {
-      "nazov": "Cvikla",
-      "mnozstvo": 1000,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chren",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "nastrúhaný"
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rasca",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cviklu uvar v šupke domäkka, ošúp a nastrúhaj alebo nakrájaj na plátky.",
-    "Z vody, octu, cukru, soli a rasce priveď nálev k varu.",
-    "Cviklu zmiešaj s chrenom a zalej horúcim nálevom.",
-    "Nechaj vychladnúť a odležať v chladničke."
-  ],
-  "tipy": "Chren pridaj až k vychladnutej cvikle, aby nestratil ostrosť.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "šalát",
-    "príloha"
-  ],
-  "foto": ""
+ "id": "cviklovy-salat",
+ "nazov": "Cviklový šalát s chrenom",
+ "kategoria": "Šalát",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Valeriánový šalát s údeným mäsom, cviklou a smotanovým chrenom (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/valerianovy-salat-s-udenym-masom-cviklou-a-smotanovym-chrenom/71350-recept.html",
+ "porcie": 2,
+ "cas": "120 min",
+ "kcal_na_porciu": 443,
+ "popis": "Zavárkový cviklový šalát s chrenom a rascou — príloha k mäsu.",
+ "ingrediencie": [
+  {
+   "nazov": "Poľná valeriána",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalátová uhorka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cvikla",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údené stehno",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Dulový džem",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chren",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pred prípravou mäso opláchneme a osušíme. Vložíme do pekáča, pridáme na polmesiačiky nakrájanú cibuľu, strúčiky cesnaku, nové korenie a bobkový list. Podlejeme vodou a v zakrytom pekáči pečieme pri 150 °C aspoň 1,5 hodiny.",
+  "Umyjeme cviklu, pripravíme alobal 30 x 30 cm, položíme naň cviklu, osolíme, okoreníme, pridáme tymian a olivový olej. Zabalíme a pečieme asi hodinu, potom odokryjeme a natrieme dulovým džemom, pečieme ďalších 15 minút pri 170 °C, aby džem skaramelizoval. Vyberieme na tanier. Výpek použijeme ako dresing, ak treba, tak ho zredukujeme.",
+  "Cviklu skontrolujeme kuchynskou ihlou. Valeriánu opláchneme pod tečúcou vodou a osušíme v odstredivke. Kyslú smotanu necháme cez noc odkvapkať na sitku. Do odkvapkanej smotany pridáme čerstvo nastrúhaný chren, soľ a korenie. Premiešame a dáme do chladničky vychladiť. Pred podávaním pridáme med a iba zľahka premiešame. Do veľkej misky dáme šalát, nakrájané jablká, výpek a bobkový list. Zľahka premiešame a pridáme na plátky nakrájanú cviklu a kúsky údeného stehna. Podávame s medovo–smotanovým chrenom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "šalát",
+  "príloha"
+ ]
 }

@@ -1,51 +1,51 @@
 {
-  "id": "old-fashioned",
-  "nazov": "Old Fashioned",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 192,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický jednoduchý whiskey kokteil s cukrom a citrónovou kôrou.",
-  "ingrediencie": [
-    {
-      "nazov": "Whiskey",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 8,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "kôra"
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "V pohári rozpusti cukor s troškou vody.",
-    "Pridaj ľad a whiskey.",
-    "Premiešaj.",
-    "Ozdob prúžkom citrónovej kôry."
-  ],
-  "tipy": "Jeden z najstarších zaznamenaných kokteilov na svete.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "whiskey",
-    "americké"
-  ]
+ "id": "old-fashioned",
+ "nazov": "Old Fashioned",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Old Fashioned",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11001",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 110,
+ "popis": "Cocktail · Old-fashioned glass",
+ "ingrediencie": [
+  {
+   "nazov": "Bourbon",
+   "mnozstvo": 45,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bitter",
+   "mnozstvo": 2,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do nízkeho pohára dáme kocku cukru, nakvapkáme bitter a pridáme trochu vody.",
+  "Rozmačkáme, kým sa cukor nerozpustí.",
+  "Pohár naplníme ľadom a pridáme whisky.",
+  "Ozdobíme pomarančovou kôrou a koktejlovou višňou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "whiskey",
+  "americké"
+ ]
 }

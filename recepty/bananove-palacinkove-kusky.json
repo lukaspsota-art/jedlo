@@ -1,58 +1,90 @@
 {
-  "id": "bananove-palacinkove-kusky",
-  "nazov": "Banánové palacinkové kúsky (mini pancake bites)",
-  "kategoria": "Snack",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 239,
-  "kcal_zdroj": "vypocet",
-  "popis": "Malé palacinkové guľôčky s banánom, skvelý snack pre deti.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Banán",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Banán rozmačkaj vidličkou.",
-    "Zmiešaj so všetkými ostatnými surovinami do hladkého cesta.",
-    "Na panvici s troškou oleja vylievaj malé kôpky cesta.",
-    "Opekaj z oboch strán do zlata.",
-    "Podávaj teplé ako snack."
-  ],
-  "tipy": "Skvelý snack, ktorý deti jedia rady rukami.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "banán",
-    "deti"
-  ]
+ "id": "bananove-palacinkove-kusky",
+ "nazov": "Banánové palacinkové kúsky (mini pancake bites)",
+ "kategoria": "Snack",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Banánové muffiny s kúskami čokolády (fotorecept) (autor: mista)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bananove-muffiny-s-kuskami-cokolady-fotorecept/77028-recept.html",
+ "porcie": 12,
+ "cas": "47 min",
+ "kcal_na_porciu": 263,
+ "popis": "Rada by som zdieľala tento jednoduchý recept na vynikajúce muffiny. Recept je na 12 muffinov.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 190,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok kypriaci do pečiva",
+   "mnozstvo": 6,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 135,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banány",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 113,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoláda",
+   "mnozstvo": 130,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrejeme na 180 °C. Roztopíme si maslo. Nachystáme všetky suroviny. Múku s kypriacim práškom a soľou preosejeme. Môžeme použiť chocolate chips, prípadne čokoládu nakrájame na drobné kúsky.",
+  "Do väčšej nádoby dáme cukor, pridáme vajcia.",
+  "Vyšľaháme do peny.",
+  "Potom popučíme banány, vidlička funguje skvelo.",
+  "Nerobím to na začiatku, lebo potom banány tmavnú.",
+  "Banánovú kašičku pridáme k rozšľahaným vajciam. Premiešame. Pridáme mlieko.",
+  "Pridáme rozpustené maslo.",
+  "Postupne do zmesi primiešavame múku. Miešame už iba zľahka, kým sa múka v zmesi nestratí.",
+  "Pridáme kúsky čokolády.",
+  "Zľahka vmiešame. Výsledná zmes je dosť hustá.",
+  "Cestom naplníme formu na muffiny, v ktorej sú papierové košíčky. Ja na naberanie najradšej používam naberačku na zmrzlinu. Tým si viem cesto rovnomerne rozdeliť.",
+  "Dozlatista pečieme 32 minút v rúre vyhriatej na 180 °C.",
+  "Muffiny sú najlepšie čerstvé (a teplé). Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "banán",
+  "deti"
+ ]
 }

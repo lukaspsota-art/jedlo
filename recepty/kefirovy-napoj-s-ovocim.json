@@ -1,44 +1,52 @@
 {
-  "id": "kefirovy-napoj-s-ovocim",
-  "nazov": "Kefírový nápoj s ovocím",
-  "kategoria": "Nápoj",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "5 min",
-  "kcal_na_porciu": 109,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúci probiotický nápoj z kefíru a čerstvého ovocia.",
-  "ingrediencie": [
-    {
-      "nazov": "Kefír",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jahody",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetky suroviny vlož do mixéra.",
-    "Rozmixuj dohladka.",
-    "Podávaj vychladené."
-  ],
-  "tipy": "Skvelý probiotický nápoj na raňajky.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "kefír",
-    "zdravé"
-  ]
+ "id": "kefirovy-napoj-s-ovocim",
+ "nazov": "Kefírový nápoj s ovocím",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Domáci jogurtový nápoj (fotorecept) (autor: rennatte)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domaci-jogurtovy-napoj-fotorecept/39908-recept.html",
+ "porcie": 8,
+ "cas": "35 min",
+ "kcal_na_porciu": 101,
+ "popis": "Receptov na domáci jogurt tu je dosť, mám aj ja svoj jednoduchý vyskúšaný a \nnepridávam cukor ani džem, ale spracujem ho s čerstvým mäkkým ovocím na zdravý \nsýty nápoj.",
+ "ingrediencie": [
+  {
+   "nazov": "Čerstvé kravské mlieko",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jogurt biely so živou kultúrou",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana kyslá 16%",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäkké ovocie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Hrniec a sklenenú misku vypláchneme vriacou vodou, koniec teplomera na zaváranie a plastovú varešku alebo silikónovú habarku ponoríme na chvíľu do vriacej vody. Mlieko vlejeme do hrnca, vložíme teplomer a varíme na teplotu 80°C",
+  "premiešame habarkou alebo plastovou vareškou (nie drevenou, lebo obsahuje mikróby z predchádzajúcich jedál, ktoré sme miešali a na to je jogurt citlivý) a necháme vychladnúť na 50°C",
+  "odlejeme si troška mlieka do misky, vmiešame jogurt a smotanu, vylejeme späť do mlieka, premiešame. Rúru zapneme na 50°C,",
+  "jogurtovú zmes vylejeme do čistých malých pohárov a zaviečkujeme. Dáme na plech a vložíme do rúry na 10 minút, vypneme a necháme v rúre, neotvárame. Po hodine znova zapneme na 50°C a proces zopakujeme, po vypnutí necháme v rúre celú noc, preto je dobré si výrobu jogurtu načasovať na večer. Proces ohrievania v rúre sa mi osvedčil, prikrývanie dekou alebo mikroténom, ako je vo väčšine receptoch udávané mi nezaručujú dostatočné teplo, ani radiátor nemám stále zapnutý.",
+  "Do nádoby na mixovanie vložíme mäkké ovocie (banány, maliny, jahody,,,), rozmixujeme, pridáme jeden hotový hustý domáci jogurt, dolejeme mliekom do požadovanej hustoty a premixujeme. Podľa chuti osladíme. Výborné osvieženie alebo výdatné zdravé raňajky, desiata"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "kefír",
+  "zdravé"
+ ]
 }

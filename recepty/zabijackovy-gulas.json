@@ -1,88 +1,93 @@
 {
-  "id": "zabijackovy-gulas",
-  "nazov": "Zabíjačkový guláš",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 6,
-  "cas": "90 min",
-  "kcal_na_porciu": 460,
-  "popis": "Tradičný guláš z bravčových vnútorností a mäsa s množstvom papriky a cesnaku.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčové mäso",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "na kocky"
-    },
-    {
-      "nazov": "Bravčová pečeň",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Údená slanina",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 4,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rasca",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majoránka",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feferónka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Slaninu vyškvar, pridaj nadrobno nakrájanú cibuľu a opeč dozlata.",
-    "Odstav, zamiešaj papriku, pridaj mäso a opeč.",
-    "Podlej vodou, pridaj rascu, cesnak a feferónku, dus domäkka.",
-    "Pečeň pridaj až v poslednej štvrťhodine, aby neztvrdla.",
-    "Dochuť majoránkou a soľou."
-  ],
-  "tipy": "Pečeň soľ až na konci, inak stvrdne. Podávaj s chlebom.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "bravčové",
-    "guláš"
-  ],
-  "foto": ""
+ "id": "zabijackovy-gulas",
+ "nazov": "Zabíjačkový guláš",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Guláš (autor: maggi)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/gulas/44535-recept.html",
+ "porcie": 2,
+ "cas": "80 min",
+ "kcal_na_porciu": 457,
+ "popis": "Komerčný recept",
+ "ingrediencie": [
+  {
+   "nazov": "Krk alebo kližka",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pretlak",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený drhnutý majorán",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Extra silný mäsový bujón",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie čierne mleté alebo drvené",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cibuľu nakrájajte nadrobno a orestujte na oleji vo väčším hrnci. Aby sa vám cibuľa nepripálila, občas ju podlejte naberačkou vody. Medzitým nakrájajte mäso na kocky, osoľte ich a okoreňte. Keď cibuľa zhnedne, pridajte mäso a orestujte.",
+  "Prisypte papriku, zalejte vodou a pridajte rajčinový pretlak spolu s kockami extra silného mäsového bujónu a duste 50 minút do zmäknutia mäsa. Na záver dochuťte rozdrveným cesnakom, majoránom a podľa potreba dosoľte a okoreňte. Duste ešte asi 10 minút. Podávajte s chlebom, vareným zemiakom, knedľou alebo ryžou.",
+  "<b>TIP:</b> Omáčku je možné zahustiť nastrúhaným chlebom alebo zemiakom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "bravčové",
+  "guláš"
+ ]
 }

@@ -1,37 +1,138 @@
 {
-  "id": "susene-marhule-s-mandlami",
-  "nazov": "Sušené marhule s mandľami",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "5 min",
-  "kcal_na_porciu": 132,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý rýchly snack zo sušených marhúľ a mandlí.",
-  "ingrediencie": [
-    {
-      "nazov": "Sušené slivky",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "alebo sušené marhule"
-    },
-    {
-      "nazov": "Mandle",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Sušené ovocie a mandle premiešaj v miske.",
-    "Podávaj ako rýchly energetický snack."
-  ],
-  "tipy": "Skvelý zdroj vlákniny a zdravých tukov na cesty.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "sušené ovocie",
-    "rýchle"
-  ]
+ "id": "susene-marhule-s-mandlami",
+ "nazov": "Sušené marhule s mandľami",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Kysnuté koláče zo sušeného mlieka s tvarohom a marhuľami (fotorecept) (autor: olinecka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kysnute-kolace-zo-suseneho-mlieka-s-tvarohom-a-marhulami-fotorecept/88664-recept.html",
+ "porcie": 15,
+ "cas": "75 min",
+ "kcal_na_porciu": 230,
+ "popis": "Naozajstná pochúťka na raňajky, desiatu, olovrant na cesty a výlety.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 80,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené mlieko",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kravské mlieko",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrudkovitý jemný tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 citróna"
+  },
+  {
+   "nazov": "Vanilínový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukuričný škrob",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Marhule",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "najlepšie čerstvé"
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na potretie"
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na posypanie"
+  }
+ ],
+ "postup": [
+  "Suroviny na plnku, všetky suroviny spolu zmiešame.",
+  "Do 1,5 dl vlažného mlieka pridáme 1 PL cukru, rozdrobíme čerstvé droždie. Necháme na teplom mieste vzísť kvások. Múku hladkú, polohrubú preosejeme do misky, pridáme zvyšok cukru, soľ, vlejeme kvások, vajíčka a olej. V 100 ml vody rozmiešame sušené mlieko, ktoré počas miesenia cesta prilievame do cesta. Vypracujeme hladké nadýchané cesto, zakryjeme utierkou a necháme kysnúť na teplom mieste.",
+  "Nakysnuté cesto preložíme na pomúčenú pracovnú dosku. Cesto rozvaľkáme na hrúbku 1 cm a pohárom vykrojíme kolieska.",
+  "Ukladáme na plech vyložený papierom na pečenie necháme na plechu 20 minút nakysnúť. Do nakysnutých koliesok dnom pohára urobíme priehlbiny, viď foto. Plníme tvarohom a na vrch uložíme polovicou marhule.",
+  "Pred vložením do rúry potrieme olejom. Rúru predhrejeme na 190 stupňov a pečieme 25-30 minút do zlatista.",
+  "Po upečení za horúca potrieme olejom, necháme vychladnúť.",
+  "Po vychladnutí posypeme práškovým cukrom, dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "sušené ovocie",
+  "rýchle"
+ ]
 }

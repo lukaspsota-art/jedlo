@@ -1,51 +1,56 @@
 {
-  "id": "ladova-kava-s-karamelom",
-  "nazov": "Ľadová káva s karamelom",
-  "kategoria": "Nápoj",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 1,
-  "cas": "10 min",
-  "kcal_na_porciu": 177,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sladká ľadová káva s karamelovým sirupom.",
-  "ingrediencie": [
-    {
-      "nazov": "Espresso",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": "vychladené"
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cukor rozpusti na miernom ohni s troškou vody na jednoduchý karamel.",
-    "Pohár naplň ľadom, pridaj karamel.",
-    "Prilej mlieko.",
-    "Navrch nalej espresso, jemne premiešaj."
-  ],
-  "tipy": "Domáca alternatíva ku kupovanej karamelovej ľadovej káve.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "káva",
-    "letné"
-  ]
+ "id": "ladova-kava-s-karamelom",
+ "nazov": "Ľadová káva s karamelom",
+ "kategoria": "Nápoj",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Ľadová káva s medom a so škoricou ako z kaviarne (videorecept) (autor: TV Varecha)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/ladova-kava-s-medom-a-so-skoricou-ako-z-kaviarne-videorecept/94057-recept.html",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 80,
+ "popis": "Nadýchaný ľadový drink s kávou, ktorý bleskovo pripravíte aj bez napeňovača.",
+ "ingrediencie": [
+  {
+   "nazov": "Káva espresso",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "kocky"
+  }
+ ],
+ "postup": [
+  "Do väčšieho čistého skleneného pohára so závitom nalejeme teplú kávu, pridáme med a podľa chuti aj škoricu.",
+  "Pohár pevne uzavrieme a energicky ním trasieme aspoň 30 sekúnd, kým sa nevytvorí pena.",
+  "Do servírovacieho pohára dáme kocky ľadu, prilejeme studené mlieko a prelejeme vyšľahanou kávovou zmesou. Povrch ešte posypeme škoricou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "káva",
+  "letné"
+ ]
 }

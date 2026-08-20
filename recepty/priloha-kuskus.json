@@ -1,46 +1,103 @@
 {
-  "id": "priloha-kuskus",
-  "nazov": "Kuskus",
-  "kategoria": "Príloha",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 251,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchly kuskus zaliaty vriacou vodou.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuskus",
-      "mnozstvo": 240,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 300,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 15,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Kuskus daj do misky s olejom a soľou.",
-    "Zalej vriacou vodou, prikry na 5 min.",
-    "Prevzdušni vidličkou."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "kuskus"
-  ]
+ "id": "priloha-kuskus",
+ "nazov": "Kuskus",
+ "kategoria": "Príloha",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Šalát z kuskusu (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/salat-z-kuskusu/80583-recept.html",
+ "porcie": 8,
+ "cas": "20 min",
+ "kcal_na_porciu": 236,
+ "popis": "Rýchly kuskus zaliaty vriacou vodou.",
+ "ingrediencie": [
+  {
+   "nazov": "Kuskus",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cícer",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené paradajky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr feta",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej olivový extra panenský",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne olivy",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 citróna"
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Granátové jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Jednu šálku kuskusu zalejeme 2 šálkami prevarenej vody, pridáme soľ a olivový olej, zakryjeme pokrievkou a necháme postáť zhruba 10 minút.",
+  "Do kuskusu primiešame sušené paradajky nakrájané na tenké pásiky, pridáme scedený cícer, nakrájaný syr feta a premiešame. Dochutíme soľou, čiernym korením a citrónovou šťavou.",
+  "Na záver pridáme nasekanú petržlenovú vňať a čerstvú mätu. Ozdobíme olivami a jadierkami z granátového jablka."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "kuskus"
+ ]
 }

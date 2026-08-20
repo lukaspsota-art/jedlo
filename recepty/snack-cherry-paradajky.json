@@ -1,29 +1,86 @@
 {
-  "id": "snack-cherry-paradajky",
-  "nazov": "Cherry paradajky",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 27,
-  "kcal_zdroj": "vypocet",
-  "popis": "Cherry paradajky na chrumkanie.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 150,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Opláchni a zjedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "zelenina",
-    "kupované"
-  ]
+ "id": "snack-cherry-paradajky",
+ "nazov": "Cherry paradajky",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Garnáty s feniklom a cherry paradajkami (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/garnaty-s-feniklom-a-cherry-paradajkami/13486-recept.html",
+ "porcie": 4,
+ "cas": "1 min",
+ "kcal_na_porciu": 70,
+ "popis": "Cherry paradajky na chrumkanie.",
+ "ingrediencie": [
+  {
+   "nazov": "Garnáty",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Fenikel",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne olivy",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej olivový extra virgin",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morská soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele suché víno",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šťava z citróna",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 ks"
+  }
+ ],
+ "postup": [
+  "Na rozohriatu panvicu nalejeme olivový olej, pridáme olúpané a očistené garnáty, fenikel nakrájaný na tenké plátky, prekrojené cherry paradajky, osolíme, okoreníme a opekáme do zlatista.",
+  "Pridáme vykôstkované čierne olivy, podlejeme bielym vínom a víno necháme odpariť. Na záver posypeme čerstvou bazalkou a pokvapkáme citrónovou šťavou a olivovým olejom.",
+  "Náš tip: Starí Gréci fenikel nazývali „marathron“, čo znamenalo schudnúť. Používal sa ako zoštíhľovací prostriedok. Stredovekí návštevníci kostola žuli jeho semená počas nudných kázní, aby utíšili škvŕkanie v žalúdku."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "zelenina",
+  "kupované"
+ ]
 }

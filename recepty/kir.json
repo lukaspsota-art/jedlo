@@ -1,39 +1,36 @@
 {
-  "id": "kir",
-  "nazov": "Kir",
-  "kategoria": "Kokteil",
-  "kuchyna": "Francúzska",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 124,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý francúzsky aperitív z bieleho vína a ríbezľového sirupu.",
-  "ingrediencie": [
-    {
-      "nazov": "Víno",
-      "mnozstvo": 120,
-      "jednotka": "ml",
-      "poznamka": "biele"
-    },
-    {
-      "nazov": "Ríbezľový sirup",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do pohára nalej ríbezľový sirup.",
-    "Pomaly dolej vychladené biele víno.",
-    "Jemne premiešaj.",
-    "Podávaj ihneď."
-  ],
-  "tipy": "Jednoduchší predchodca Kir Royal, ktorý používa víno namiesto prosecca.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "víno",
-    "francúzske"
-  ]
+ "id": "kir",
+ "nazov": "Kir",
+ "kategoria": "Kokteil",
+ "kuchyna": "Francúzska",
+ "zdroj": "TheCocktailDB – Kir",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17203",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 171,
+ "popis": "Ordinary Drink · Wine Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Crème de cassis",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampanské",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na dno pohára nalejeme crème de cassis a dolejeme vínom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "víno",
+  "francúzske"
+ ]
 }

@@ -1,63 +1,88 @@
 {
-  "id": "spenatovy-salat-s-jahodami-a-orechmi",
-  "nazov": "Špenátový šalát s jahodami a orechmi",
-  "kategoria": "Šalát",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "15 min",
-  "kcal_na_porciu": 209,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúci šalát so špenátom, jahodami a chrumkavými orechmi.",
-  "ingrediencie": [
-    {
-      "nazov": "Špenát",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jahody",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vlašské orechy",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feta",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Jahody nakrájaj na plátky.",
-    "Špenát poukladaj na tanier, pridaj jahody, orechy a rozdrobenú fetu.",
-    "Pokvapkaj olivovým olejom.",
-    "Dochuť soľou a podávaj ihneď."
-  ],
-  "tipy": "Sladké jahody a slaná feta sa skvele dopĺňajú.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "špenát",
-    "jahody"
-  ]
+ "id": "spenatovy-salat-s-jahodami-a-orechmi",
+ "nazov": "Špenátový šalát s jahodami a orechmi",
+ "kategoria": "Šalát",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Špenátový šalát s jahodami (autor: zuzanka1367)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/spenatovy-salat-s-jahodami/51877-recept.html",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 255,
+ "popis": "Pri čítaní ingrediencii budete chcieť prestať, ale nespravte tak. Môj mäsožravý manžel \r\nneodolal vytrvalému ponúkaniu aby okoštoval a potom spucoval moju porciu :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Špenátový list",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé jahody",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľové lupene",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamové semienka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na posypanie"
+  },
+  {
+   "nazov": "Makový olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Balzamikový tmavý ocot",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa červená stredne veľká",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Worcesterská omáčka",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Suroviny na dressing",
+  "dáme do misky a vymiešame. Odložíme do chladničky.",
+  "Mandle sparíme, ošúpeme a nakrájame na drobné hranolčeky.",
+  "Pripravíme si umytý a osušený špenát, na plátky nakrájané jahody a vychladený dressing, nakrájané mandle...",
+  "Vo väčšej miske všetko jemne poprehadzujeme... a pred podávaním posypeme opečenými sézamovými semienkami.... delikátna a lahodná chuť..."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "špenát",
+  "jahody"
+ ]
 }

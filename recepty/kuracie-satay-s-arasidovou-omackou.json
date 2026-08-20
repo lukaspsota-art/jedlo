@@ -1,64 +1,112 @@
 {
-  "id": "kuracie-satay-s-arasidovou-omackou",
-  "nazov": "Kuracie satay s arašidovou omáčkou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Indonézska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 317,
-  "kcal_zdroj": "vypocet",
-  "popis": "Grilované kuracie mäso na špajliach s krémovou arašidovou omáčkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "na prúžky"
-    },
-    {
-      "nazov": "Arašidové maslo",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kari mleté",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Kuracie prúžky napichaj na drevené špajle.",
-    "Marinuj v zmesi sójovej omáčky a kari korenia 15 minút.",
-    "Gril alebo opeč na panvici do prepečenia.",
-    "Arašidové maslo rozmiešaj s medom, cesnakom a troškou vody na omáčku.",
-    "Podávaj špajle s arašidovou omáčkou na namáčanie."
-  ],
-  "tipy": "Špajle pred napichaním mäsa namoč vo vode, aby nezhoreli.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "indonézske"
-  ]
+ "id": "kuracie-satay-s-arasidovou-omackou",
+ "nazov": "Kuracie satay s arašidovou omáčkou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Indonézska",
+ "zdroj": "Varecha.sk – Kuracie satay s arašidovou omáčkou (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-satay-s-arasidovou-omackou/91778-recept.html",
+ "porcie": 7,
+ "cas": "30 min",
+ "kcal_na_porciu": 417,
+ "popis": "Kuracie mäso na špíze je obľúbeným jedlom v celej juhovýchodnej Ázii.* Dostanete ho kúpiť v stánkoch, ak chcete niečo rýchle, ale je aj na jedálnom lístku každej reštaurácie.",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 6,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 6,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Arašidové maslo",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pasta čili",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca rímska",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kuracie prsia nakrájame na prúžky a v tvare vĺn ich napichneme na špízy. Zo sójovej omáčky, prelisovaného cesnaku, nastrúhaného zázvoru a z limetkovej šťavy pripravíme marinádu a zalejeme ňou mäso. Necháme odstáť v chladničke aspoň 2 hodiny, pokojne aj cez noc.",
+  "Arašidová omáčka: na omáčku speníme nasekanú cibuľu, nakrájaný cesnak a zázvor na troche oleja. Pridáme arašidové maslo a vymiešame do krémova. Prilejeme kokosové mlieko, no už nenecháme variť.",
+  "Pridávame vývar, kým nedosiahneme požadovanú konzistenciu – omáčka by nemala byť príliš riedka. Vmiešame sójovú omáčku a rímsku rascu, čili pastu pridávame podľa chuti.",
+  "Krátko premixujeme ponorným mixérom, omáčka by nemala byť úplne hladká.",
+  "Mäso môžeme pripraviť jedným z týchto spôsobov – ugrilovať na drevenom uhlí alebo piecť v rúre vyhriatej na 200 asi 15 minút, alebo jednoducho opiecť na nepriľnavej panvici s trochou oleja. Kuracie špízy podávame s arašidovou omáčkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "indonézske"
+ ]
 }

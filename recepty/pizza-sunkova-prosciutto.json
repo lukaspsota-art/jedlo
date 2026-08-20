@@ -1,95 +1,122 @@
 {
-  "id": "pizza-sunkova-prosciutto",
-  "nazov": "Pizza s prosciuttom a rukolou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "40 min (+ 60 min kysnutie)",
-  "kcal_na_porciu": 700,
-  "popis": "Pizza s paradajkovým základom, mozzarellou, prosciuttom a čerstvou rukolou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "na cesto"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": "vlažná, na cesto"
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": "na cesto"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": "na cesto"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "na cesto"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "konzerva, rozmixované, na omáčku"
-    },
-    {
-      "nazov": "Mozzarella",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prosciutto",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rukola",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "na dokončenie"
-    }
-  ],
-  "postup": [
-    "Z múky, vlažnej vody, droždia, oleja a soli vypracuj hladké cesto a nechaj kysnúť aspoň 1 hodinu.",
-    "Rúru rozohrej na maximum (ideálne 250 °C) aspoň 20 minút vopred.",
-    "Cesto rozdeľ na 4 diely a rozváľaj na tenké kolá.",
-    "Paradajky rozmixuj so soľou a natri na cesto, poklaď mozzarellou.",
-    "Peč 10-15 minút do zlatista.",
-    "Po vytiahnutí poklaď plátkami prosciutta a rukolou.",
-    "Posyp parmezánom a pokvapkaj olejom."
-  ],
-  "tipy": "Prosciutto aj rukolu pridaj až po pečení, aby ostali čerstvé.",
-  "tagy": [
-    "pizza",
-    "talianske",
-    "šunka"
-  ],
-  "foto": ""
+ "id": "pizza-sunkova-prosciutto",
+ "nazov": "Pizza s prosciuttom a rukolou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Pizza (autor: muffins)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pizza/56180-recept.html",
+ "porcie": 7,
+ "cas": "135 min",
+ "kcal_na_porciu": 393,
+ "popis": "Tento recept som skúsila so surovinami, ktoré som mala v chladničke. Je fakt dobrý a \r\nrobím ho napríklad na večeru \r\nalebo aj obed, keď všetci majú hlad.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 260,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 260,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 42,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Teplé mlieko",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kečup",
+   "mnozstvo": 8,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie na pizzu",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žltá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivy",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Suchá saláma",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Hladkú múku, polohrubú múku si nasypeme do väčšej misy, uprostred urobíme jamku, do ktorej nalejeme teplé mlieko s rozmrveným droždím, pridáme cukor a soľ. Dáme na teplé miesto, prikryjeme utierkou a necháme kysnúť hodinu.",
+  "Keď nám cesto vykyslo, pridáme olej a vodu a miesime so kým cesto nie je také nadýchané, odlepuje sa nám od misky a tvoria sa akoby bublinky. Potom znovu prikryjeme utierkou a dáme na teplé miesto kysnúť, kým sa nám nenadvihne. Mne to trvá cca hodinu.",
+  "Ak už máme cesto hotové, rozdelíme si ho na dve časti. Prvú časť rozvaľkáme, prenesieme na plech. Vrch potrieme salsou, poukladáme salámu, papriku, olivy a dáme piecť do rúry na 250°C 10-15 min. Tak isto urobíme aj druhú pizzu. Prajem dobrú chuť :-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pizza",
+  "talianske",
+  "šunka"
+ ]
 }

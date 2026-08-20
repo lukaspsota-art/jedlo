@@ -1,36 +1,83 @@
 {
-  "id": "sushi-losos-maki",
-  "nazov": "Losos maki (sushi rolky)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "50 min",
-  "kcal_na_porciu": 320,
-  "popis": "Klasické sushi rolky so sushi ryžou, čerstvým lososom, avokádom a uhorkou.",
-  "ingrediencie": [
-    {"nazov": "Sushi ryža", "mnozstvo": 300, "jednotka": "g", "poznamka": "okrúhlozrnná"},
-    {"nazov": "Ryžový ocot", "mnozstvo": 60, "jednotka": "ml", "poznamka": "na dochutenie ryže"},
-    {"nazov": "Cukor", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na dochutenie ryže"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "na dochutenie ryže"},
-    {"nazov": "Nori riasa", "mnozstvo": 6, "jednotka": "plátok", "poznamka": ""},
-    {"nazov": "Čerstvý losos", "mnozstvo": 200, "jednotka": "g", "poznamka": "sushi kvalita"},
-    {"nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Uhorka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Wasabi", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, na servírovanie"},
-    {"nazov": "Sójová omáčka", "mnozstvo": null, "jednotka": "", "poznamka": "na servírovanie"},
-    {"nazov": "Nakladaný zázvor", "mnozstvo": null, "jednotka": "", "poznamka": "na servírovanie"}
-  ],
-  "postup": [
-    "Ryžu prepláchni pod tečúcou vodou, kým nezostane čistá, a uvar podľa návodu.",
-    "Horúcu ryžu polej zmesou ryžového octu, cukru a soli, premiešaj a nechaj vychladnúť na telesnú teplotu.",
-    "Lososa, avokádo a uhorku narež na tenké dlhé prúžky.",
-    "Nori riasu polož lesklou stranou nadol na rolovaciu rohožku, natri vrstvou ryže a ponechaj hornú tretinu voľnú.",
-    "Na spodný okraj naukladaj prúžky lososa, avokáda a uhorky.",
-    "Rolovaním od spodu smerom nahor sformuj rolku, na konci pritlač a spoj navlhči.",
-    "Ostrým vlhkým nožom nakrájaj na kúsky asi 2 cm a podávaj so sójovou omáčkou, wasabi a zázvorom."
-  ],
-  "tipy": "Ryža musí byť vychladnutá na telesnú teplotu — horúca ryža rozmočí nori riasu.",
-  "foto": "",
-  "tagy": ["sushi", "ázijské", "losos"]
+ "id": "sushi-losos-maki",
+ "nazov": "Losos maki (sushi rolky)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Maki suši s lososom (fotorecept) (autor: jarco)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/maki-susi-s-lososom-fotorecept/4098-recept.html",
+ "porcie": 4,
+ "cas": "57 min",
+ "kcal_na_porciu": 377,
+ "popis": "Vyprovokovala ma Nyja s jej receptom a keďže maki suši doma robím pomerne často, nebol problém urobiť si cez víkend čas, nafotiť a napísať. Ja pri suši odporúčam držať sa tradičného postupu, príliš neexperimentovať a hlavne nesnažiť sa nahrádzať suroviny nejakými lokálnymi alternatívami. Všetko potrebné na maki suši (okrem čerstvej ryby) sa dá kúpiť napríklad v Bille, hoci na to, že by ste si mohl",
+ "ingrediencie": [
+  {
+   "nazov": "Ryža na suši",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Losos čerstvý filet",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Riasy nori",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nakladaný zázvor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Wasabi",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžový ocot",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Maki suši je v našich končinách zrejme najznámejší variant suši. Ryžové rolky v morskej riase plnené surovou rybou či zeleninou už nie sú výsadou japonských reštaurácií, začali sa bežne objavovať napríklad v ponuke cateringových firiem na recepciách apod. Dajú sa ľahko urobiť aj doma, len treba zohnať dobrú chladenú rybu. Najjednoduchšie sa zháňa losos, a priznávam sa, že niekedy použijem aj mrazený - len to musí byť kvalitnejšia značka, nie Radoma. Okrem toho je dôležité naučiť sa správne uvariť špeciálnu suši ryžu.",
+  "Ryža na suši sa nemusí dovážať z Japonska, pestujú ju aj Taliani. Je guľatozrnná a po uvarení lepkavá. Treba ju dobre prepláchnuť, zaliať 1,5-násobným množstvom studenej vody (nesoliť!) a variť cca 12 minút. Nevarte ju celkom do mäkka, zrnká majú byť medzi zubami cítiť. Potom sa ešte nechá 5-10 minút nezakrytá na sporáku odstáť. Ryžu si treba uvariť vopred, pretože musí úplne vychladnúť. V zime na balkóne stačia 2 hodiny, v lete si pomáham studeným vodným kúpeľom. Po vychladnutí do ryže vmiešame marinádu pripravenú krátkym prevarením ryžového octa, cukru a soli (množstvá sú uvedené v rozpise surovín).",
+  "Filet z lososa nakrájame na tenké prúžky. Pripravíme si pláty sušených morských rias nori. V jednom balení ich býva 10, na naše množstvo ryže ich spotrebujeme 6 až 8 - podľa toho, aké hrubé rolky urobíme. Raz mi niekto priniesol miniatúrne plátky nori, akože jeden mal byť na prípravu jednej \"jednohubky\". Po pokuse o výrobu prvej skončili tieto pidiplátky v koši... Čiže potrebujme klasické pláty, cca 20x20 cm. V miske rozmiešame trochu wasabi s malým množstvom sójovej omáčky. Nachystáme si bambusovú podložku a môžeme začať rolovať maki.",
+  "Riasu položíme na podložku, lesklou stranou smerom dole. Treba si všimnúť aj orientáciu pásikov naznačujúcich smer neskoršieho krájania rolky. Cca do jednej tretiny riasy mokrými rukami rozvrstvíme ryžu. V strede urobíme malý žliabok, ktorý môžeme (nemusíme) natrieť troškou čistého wasabi alebo wasabi rozmiešaného v malom množstve vody či sójovky (čisté sa ťažko rozotiera, pasta býva dosť tuhá). Do žliabku vložíme prúžky lososa a zatlačíme, aby sa žliabok čiastočne uzavrel.",
+  "Opatrne zrolujeme riasu. Koniec môžeme trochu navlhčiť, aby sa rolka náhodou nerozlepila. Záleží od druhu riasy, niektoré lepia ako divé aj bez navlhčenia. Rolku presunieme na kraj podložky a zrolujeme ešte raz aj s podložkou, pričom jemne pritláčame.",
+  "Keď minieme všetky suroviny, rolky nakrájame ostrým nožom namáčaným do studenej vody. Naukladáme na taniere a podávame s wasabi, sójovou omáčkou (pozor, jediná slušná sójovka zohnatateľná v bežnej SK obchodnej sieti je Kikkoman - inú radšej ani neskúšajte, kvalita omáčky je pri suši veľmi dôležitá) a nakladaným zázvorom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "sushi",
+  "ázijské",
+  "losos"
+ ]
 }

@@ -1,50 +1,57 @@
 {
-  "id": "kavove-ladove-smoothie",
-  "nazov": "Kávové ľadové smoothie (frappé)",
-  "kategoria": "Nápoj",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 137,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúce ľadové kávové smoothie, domáca verzia frappé.",
-  "ingrediencie": [
-    {
-      "nazov": "Espresso",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": "vychladené"
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Espresso, mlieko, cukor a ľad vlož do mixéra.",
-    "Rozmixuj dohladka a speneno.",
-    "Podávaj ihneď v pohári."
-  ],
-  "tipy": "Pre vegánsku verziu použi ovsené mlieko.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "káva",
-    "letné"
-  ]
+ "id": "kavove-ladove-smoothie",
+ "nazov": "Kávové ľadové smoothie (frappé)",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Wikibooks Cookbook – Frappé Coffee (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook%3AFrapp%C3%A9_Coffee",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Osviežujúce ľadové kávové smoothie, domáca verzia frappé.",
+ "ingrediencie": [
+  {
+   "nazov": "Káva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Studená voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "voliteľné"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "voliteľné"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "voliteľné; condensed/evaporated milk works best"
+  }
+ ],
+ "postup": [
+  "Kávu a cukor dáme do šejkra alebo vysokého pohára a zalejeme trochou vody (asi 10 ml).",
+  "Šejkrujeme alebo šľaháme mixérom, kým zmes nespení.",
+  "Pohár doplníme studenou vodou.",
+  "Pridáme ľad a podľa chuti mlieko alebo smotanu.",
+  "Podávame so slamkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "káva",
+  "letné"
+ ]
 }

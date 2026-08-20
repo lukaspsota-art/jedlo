@@ -1,70 +1,56 @@
 {
-  "id": "tekvicovo-zazvorova-polievka",
-  "nazov": "Tekvicovo-zázvorová polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Ázijská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 217,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová tekvicová polievka so štipľavým nádychom zázvoru.",
-  "ingrediencie": [
-    {
-      "nazov": "Hokkaido",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zázvor",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokosové mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu a zázvor.",
-    "Pridaj tekvicu nakrájanú na kocky a vývar.",
-    "Var 20 minút do mäkka.",
-    "Rozmixuj dohladka, vmiešaj kokosové mlieko.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Zázvor dodáva klasickej tekvicovej polievke zaujímavý twist.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "tekvica",
-    "zázvor"
-  ]
+ "id": "tekvicovo-zazvorova-polievka",
+ "nazov": "Tekvicovo-zázvorová polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Tekvicová polievka so zázvorom (autor: zuzananoskova)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/tekvicova-polievka-so-zazvorom/41099-recept.html",
+ "porcie": 1,
+ "cas": "35 min",
+ "kcal_na_porciu": 81,
+ "popis": "Túto polievku robím pomerne často najmä v chladných dňoch, pretože veľmi zahreje organizmom a ja sa vždy cítim po jej konzumácii skvele. Je jednoduchá na prípravu - čas aj suroviny.",
+ "ingrediencie": [
+  {
+   "nazov": "Tekvica Hokaido menšia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stredná mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvý zázvor",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morská soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo voda"
+  }
+ ],
+ "postup": [
+  "Pomer tekvice - mrkvy - zázvoru vždy dávam od oka. Približne 1 tekvička, 2-3 mrkvy (nie veľké, aby mrkva neprebila chuť tekvice) a zázvor asi 3-5 cm.",
+  "Na oleji si opražím pokrájaný zázvor, pridám mrkvu a tekvicu pokrájané na kúsky (môžu byť aj väčšie) a orestujem. Po chvíli zalejem prevarenou horúcou vodou alebo vývarom. Všetko sa varí možno 15 minút, odstavím a rozmixujem ponorným mixérom.",
+  "Môžeme podávať s tekvicovými jadierkami, tekvicovým olejom, ale aj opečenými krutónmi z chlebu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "tekvica",
+  "zázvor"
+ ]
 }

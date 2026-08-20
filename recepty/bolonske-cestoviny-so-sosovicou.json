@@ -1,77 +1,81 @@
 {
-  "id": "bolonske-cestoviny-so-sosovicou",
-  "nazov": "Bolonské cestoviny so šošovicou (vegetariánske)",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 536,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vegetariánska verzia bolonskej omáčky s červenou šošovicou namiesto mäsa.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnné špagety",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Červená šošovica",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na olivovom oleji orestuj nadrobno pokrájanú cibuľu a mrkvu.",
-    "Pridaj pretlačený cesnak, paradajky a šošovicu.",
-    "Dus na miernom ohni 20 minút do mäkka šošovice.",
-    "Medzitým uvar cestoviny podľa návodu.",
-    "Dochuť soľou a podávaj na cestovinách."
-  ],
-  "tipy": "Šošovica dodáva textúru podobnú mletému mäsu.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "vegetariánske",
-    "šošovica",
-    "talianske"
-  ]
+ "id": "bolonske-cestoviny-so-sosovicou",
+ "nazov": "Bolonské cestoviny so šošovicou (vegetariánske)",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Torta z cestovín a bolonskej plnky (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/torta-z-cestovin-a-bolonskej-plnky/71191-recept.html",
+ "porcie": 8,
+ "cas": "75 min",
+ "kcal_na_porciu": 357,
+ "popis": "Vegetariánska verzia bolonskej omáčky s červenou šošovicou namiesto mäsa.",
+ "ingrediencie": [
+  {
+   "nazov": "Rigatoni",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäso hovädzie",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky na pizzu",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rigatoni uvaríme v osolenej vode a premiešame so strúhaným parmezánom. Cestoviny poukladáme postojačky do tortovej formy.",
+  "Do panvice dáme olivový olej a najemno nasekaný cesnak. Cesnak nesmie zhnednúť. Pridáme mleté hovädzie mäso, soľ, korenie a spolu dobre urestujeme. Pridáme rajčiny na pizzu a všetko povaríme asi 15 minút.",
+  "Hotovou zmesou pomaly plníme pripravené cestoviny vo forme. Navrch rozložíme postrúhanú mozzarellu a vložíme do rúry predhriatej na 180 °C na 30 minút. Po miernom vychladení krájame ako tortu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "vegetariánske",
+  "šošovica",
+  "talianske"
+ ]
 }

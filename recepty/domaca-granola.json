@@ -1,58 +1,88 @@
 {
-  "id": "domaca-granola",
-  "nazov": "Domáca granola",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 6,
-  "cas": "40 min",
-  "kcal_na_porciu": 349,
-  "kcal_zdroj": "vypocet",
-  "popis": "Chrumkavá pečená granola s orechmi a medom, skvelá s jogurtom alebo mliekom.",
-  "ingrediencie": [
-    {
-      "nazov": "Ovsené vločky",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mandle",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zmiešaj ovsené vločky, nasekané mandle a škoricu.",
-    "Pridaj rozohriaty med a olej, dôkladne premiešaj.",
-    "Rozlož na plech v tenkej vrstve.",
-    "Peč pri 160 °C asi 25 minút, priebežne premiešaj, kým nie je zlatistá.",
-    "Nechaj úplne vychladnúť — vtedy skrehne."
-  ],
-  "tipy": "Vydrží v uzavretej dóze aj 2 týždne.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "granola",
-    "meal-prep"
-  ]
+ "id": "domaca-granola",
+ "nazov": "Domáca granola",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Domáca granola (fotorecept) (autor: angelheart)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domaca-granola-fotorecept/19471-recept.html",
+ "porcie": 6,
+ "cas": "25 min",
+ "kcal_na_porciu": 314,
+ "popis": "Na domácej granole je super, že si každý môže do nej pridať, čo chce, a tak je výsledok vždy iný.",
+ "ingrediencie": [
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandle lupienky",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené slivky",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "100 % pomarančový džús",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pšeničné klíčky",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokos",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Uvedené množstvá sú len orientačné, každý si prispôsobte podľa seba, robila som to od oka a podľa chuti.",
+  "Na vymastený plech (príp. na plech s papierom na pečenie) dáme ovsené vločky, 1 lyžicu pšeničných klíčkov, mandľové lupienky, kokos, slnečnicové semiačka a posypeme trstinovým cukrom so štipkou škorice. Zamiešame. Vločky pokvapkáme džúsom tak, aby bol všade a nie iba na jednom mieste (preto pridávam po lyžiciach a nevylejem to naraz) a aby v džúse neplávali, ale iba navlhli. Pri pečení obschnú. Môžeme pridať aj iné druhy orechov, nadrobno alebo väčšie kúsky, kto ako chce. Občas dávam aj med, vtedy uberiem alebo úplne vynechám trstinový cukor, je dobré rozmiešať med v džúse a tak ho pridať do vločiek.",
+  "Pečieme zhruba 20-25 minút, je potrebné premiešavať (miešala som asi 3x), aby sa granola nepripálila a vločky nesčernali a tým aj nezhorkli.",
+  "Keď vločky zhnednú a vonia celá kuchyňa, vyberieme plech, necháme zmes vychladnúť. Medzitým si umyjeme hrozienka a sušené slivky. Osušíme a pridáme do granoly, rovnako aj 1 lyžicu pšeničných klíčkov.",
+  "Premiešame a presypeme do sklenenej vzduchotesnej nádoby."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "granola",
+  "meal-prep"
+ ]
 }

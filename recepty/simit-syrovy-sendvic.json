@@ -1,56 +1,50 @@
 {
-  "id": "simit-syrovy-sendvic",
-  "nazov": "Simit sendvič so syrom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Turecká",
-  "zdroj": "vlastný recept",
-  "porcie": 1,
-  "cas": "10 min",
-  "kcal_na_porciu": 350,
-  "popis": "Sezamová žemľa simit plnená bielym syrom, paradajkou a uhorkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Žemľa so sezamom",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Biely syr",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajka",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivy",
-      "mnozstvo": null,
-      "jednotka": "pár kusov",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Žemľu prekroj.",
-    "Naplň plátkami syra, paradajky a uhorky.",
-    "Podávaj s pár olivami bokom."
-  ],
-  "tipy": "Ak nemáš simit, poslúži klasická žemľa so sezamom navrchu.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "sendvič",
-    "turecká",
-    "rýchle"
-  ]
+ "id": "simit-syrovy-sendvic",
+ "nazov": "Simit sendvič so syrom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Turecká",
+ "zdroj": "Varecha.sk – Sendvič(fotorecept) (autor: kajusiqq)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sendvicfotorecept/33797-recept.html",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": ":D......že recept:D...ale nie to len ták pretože to mám rada:)....rýchle chutné sýte:-*:-\n*.....milujem",
+ "ingrediencie": [
+  {
+   "nazov": "Chlieb",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 2,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tatárska omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 2,
+   "jednotka": "plátok",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Chlieb natrieme tatárskou omáčkou:)........polložíme šunku a znova natrieme tatárskou:)",
+  "Nato položíme plátok syra a dáme do toastovača:D",
+  "Veľmi zložite:D...... ........zeleninku do vnutra nedávam preto lebo mi nechutí teplá ......sem tam tam prihodim aj hranolky ale to iba ked mam chuť:D"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "sendvič",
+  "turecká",
+  "rýchle"
+ ]
 }

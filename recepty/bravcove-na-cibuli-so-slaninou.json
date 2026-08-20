@@ -1,64 +1,87 @@
 {
-  "id": "bravcove-na-cibuli-so-slaninou",
-  "nazov": "Bravčové mäso na cibuli so slaninou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 511,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte dusené bravčové mäso s karamelizovanou cibuľou a slaninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčová krkovička",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Slaninu nakrájaj na prúžky a opeč do chrumkava.",
-    "Pridaj cibuľu, dus do karamelizácie asi 15 minút.",
-    "Na oleji opeč mäso nakrájané na plátky.",
-    "Vráť cibuľu a slaninu k mäsu, prehrej spolu 5 minút.",
-    "Dochuť soľou a korením."
-  ],
-  "tipy": "Podávaj s knedľou alebo zemiakovou kašou.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "bravčové",
-    "slovenské"
-  ]
+ "id": "bravcove-na-cibuli-so-slaninou",
+ "nazov": "Bravčové mäso na cibuli so slaninou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Údené bravčové mäso na cibuli a slanine (autor: kucharocka123)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/udene-bravcove-maso-na-cibuli-a-slanine/93646-recept.html",
+ "porcie": 6,
+ "cas": "20 min",
+ "kcal_na_porciu": 354,
+ "popis": "Z údeného vareného bravčového mäsa si na Veľkú noc môžeme pripraviť rýchly a chutný obed podľa tohto receptu.* Stačí \r\nmäso nakrájané na plátky opražiť na slanine a cibuľke na panvici, uvariť  k tomu zemiaky a podávať s chrenovým dresingom, \r\nktorý k veľkonočným sviatkom neodmysliteľne patrí.",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčové údené mäso",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údená slanina",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sterilizovaný chren",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Uvarené údené mäso nakrájame na plátky.",
+  "Na malé kocky nakrájanú slaninu dáme na panvicu, pridáme na tenké plátky nakrájanú cibuľu a spolu opražíme. Na tento základ rozložíme mäso a krátko opečieme.",
+  "Chrenovo-smotanový dresing: Kyslú smotanu vymiešame s majonézou, osolíme, okoreníme, pokvapkáme citrónovou šťavou, nakoniec pridáme po dávkach podľa chuti chren a spolu vymiešame.",
+  "Podávame s opekanými zemiakmi. Pri servírovaní dresing pridáme na tanier alebo ním mäso prelejeme. Ozdobíme petržlenovou vňaťou. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "slovenské"
+ ]
 }

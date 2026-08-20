@@ -1,57 +1,92 @@
 {
-  "id": "losos-s-medovo-horcicovou-korkou",
-  "nazov": "Losos s medovo-horčicovou kôrkou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "20 min",
-  "kcal_na_porciu": 326,
-  "kcal_zdroj": "vypocet",
-  "popis": "Pečený losos v sladko-pikantnej medovo-horčicovej glazúre.",
-  "ingrediencie": [
-    {
-      "nazov": "Losos",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 25,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Horčica",
-      "mnozstvo": 25,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zmiešaj med, horčicu a olivový olej.",
-    "Lososa potri zmesou.",
-    "Peč pri 200 °C asi 15 minút do zlatista.",
-    "Podávaj so zeleninou alebo ryžou."
-  ],
-  "tipy": "Rýchle jedlo pripravené za necelých 20 minút.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "losos",
-    "rýchle"
-  ]
+ "id": "losos-s-medovo-horcicovou-korkou",
+ "nazov": "Losos s medovo-horčicovou kôrkou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Lososové guľky (fotorecept) (autor: SkolaVareniaPolus)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/lososove-gulky-fotorecept/66620-recept.html",
+ "porcie": 3,
+ "cas": "20 min",
+ "kcal_na_porciu": 361,
+ "popis": "Recept od Janky Trebulovej",
+ "ingrediencie": [
+  {
+   "nazov": "Losos",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr Lučina",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľová múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté chilli",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Lososa umyjeme pod tečúcou vodou a nakrájame ho na maličké kúsky.",
+  "Primiešame k nemu všetky ostatné suroviny, okrem olivového oleja. Zmes dáme na 10 minút odpočívať do chladničky.",
+  "Zo zmesi vytvarujeme asi 8 guliek, ktoré uložíme na plech vyložený papierom na pečenie potretým olivovým olejom. Pečieme v rúre vyhriatej na 180 °C dozlatista."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "losos",
+  "rýchle"
+ ]
 }

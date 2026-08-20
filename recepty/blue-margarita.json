@@ -1,0 +1,49 @@
+{
+ "id": "blue-margarita",
+ "nazov": "Blue Margarita",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Blue Margarita",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11118",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 187,
+ "popis": "Ordinary Drink · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Tequila",
+   "mnozstvo": 44.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Blue curaçao",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Okraj kokteilového pohára potrieme limetkovou šťavou.",
+  "Okraj obalíme v hrubej soli.",
+  "Tequilu, blue curaçao a limetkovú šťavu pretrepeme s ľadom, precedíme do pohára so soľou a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

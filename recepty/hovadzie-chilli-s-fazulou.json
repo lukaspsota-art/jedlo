@@ -1,83 +1,104 @@
 {
-  "id": "hovadzie-chilli-s-fazulou",
-  "nazov": "Hovädzie chilli s fazuľou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Mexická",
-  "zdroj": "klasický recept",
-  "porcie": 5,
-  "cas": "50 min",
-  "kcal_na_porciu": 396,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické americko-mexické chilli con carne s mletým hovädzím mäsom a fazuľou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "mleté"
-    },
-    {
-      "nazov": "Biele fazule",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chilli mleté",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kmín",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu a papriku.",
-    "Pridaj mleté mäso, opeč dorumena.",
-    "Vmiešaj korenie, paradajky a fazule.",
-    "Dus na miernom ohni 30 minút.",
-    "Dochuť soľou, podávaj s ryžou alebo tortillou."
-  ],
-  "tipy": "Skvelé aj zamrazené vo väčších dávkach na neskôr.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "hovädzie",
-    "mexické",
-    "fazuľa"
-  ]
+ "id": "hovadzie-chilli-s-fazulou",
+ "nazov": "Hovädzie chilli s fazuľou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Mexická",
+ "zdroj": "Varecha.sk – Hovädzie plátky v pikantnej čokoládovej omáčke s chilli (fotorecept) (autor: izabella929)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzie-platky-v-pikantnej-cokoladovej-omacke-s-chilli-fotorecept/49177-recept.html",
+ "porcie": 4,
+ "cas": "250 min",
+ "kcal_na_porciu": 470,
+ "popis": "Keď som pred rokom videla na ATV Lacibácsiho variť toto jedlo, pousmiala som sa a \r\npomyslela som si, že ľudia už fakt nevedia, čo vymyslieť od roztopaše...ale nedalo mi to, \r\nstále ma tento recept rušil a nemohla som na to nijako zabudnúť..a tak som ho dnes veru \r\nvyskúšala...môj poznatok? no niečo neuveriteľne výborné...",
+ "ingrediencie": [
+  {
+   "nazov": "Mäso hovädzie",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Balzamikový ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červené víno",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli papričky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horká čokoláda",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Hovädzie mäso som pokrájala na hrubšie plátky...osušila a obalila v hladkej múke z oboch strán...na rozohriatej masti som plátky opiekla...",
+  "do rajnice som zliala výpek a pokrájala do neho cibuľu...opiekla a pridala som paradajkový pretlak..",
+  "pridala som 2 lyžice balzamikový ocot, víno, soľ , mleté čierne korenie a pridala som hovädzí vývar.../práve sa mi varila polievka na sporáku z hovädzieho rebra/ toto všetko som nechala zovrieť...",
+  "do hotovej pripravenej šťavy som vložila hovädzie plátky...varila na úplne slabom plameni a iba raz som mäso počas dusenia podliala troškou vývaru...mäsko sa dusilo 120min..",
+  "hotové mäkké mäsko som vybrala z omáčky...nastrúhala som čokoládu a polámala do nej kúsky chilli papričky..",
+  "nastúhanú čokoládu s chilli som dala do omáčky a nechala prejsť varom..",
+  "mäso som vrátila do omáčky a iba minútku nechala , aby sa spolu skamarátili chute...",
+  "k tomuto skvelému mäsku som podávala penne...nabrala na taniere, ozdobila chilli , pomarančom, limentkou a petržlenovou vňaťkou...prajem vám dobrú chuť.."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "mexické",
+  "fazuľa"
+ ]
 }

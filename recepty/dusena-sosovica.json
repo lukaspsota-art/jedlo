@@ -1,63 +1,118 @@
 {
-  "id": "dusena-sosovica",
-  "nazov": "Dusená šošovica",
-  "kategoria": "Príloha",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 265,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchá dusená šošovica s cibuľou a bylinkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Červená šošovica",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu a cesnak.",
-    "Pridaj šošovicu a vývar.",
-    "Var 15-20 minút do mäkka.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Skvelá príloha ku grilovanému mäsu alebo rybe.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "šošovica",
-    "zdravé"
-  ]
+ "id": "dusena-sosovica",
+ "nazov": "Dusená šošovica",
+ "kategoria": "Príloha",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Zelerovo-mrkvové placky na dusenej šošovici (fotorecept) (autor: kukulienka71)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zelerovo-mrkvove-placky-na-dusenej-sosovici-fotorecept/53692-recept.html",
+ "porcie": 7,
+ "cas": "45 min",
+ "kcal_na_porciu": 207,
+ "popis": "Placky sú vďačné jedlo, existujú v nespočetnom množstve rôzneho zloženia. Tieto sú bez múky, pečené v rúre a doplnené chutnou strukovinou - šošovicou dusenou na cibuľke so slaninkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva stredne veľká",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelerová vňať",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelená šošovica",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údená slanina",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Malá cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vývar",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Malý zemiak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Očistený zeler a mrkvu som postrúhala na jemnom strúhadle, pridala vajce, soľ podľa chuti, rascu, posekanú zelerovú vňať, postrúhaný syr a na spojenie lyžicu kyslej smotany. Rúru som zapla na 190°C.",
+  "Zo zeleninovej zmesi som na plech vystlaný pečiacim papierom formovala ploché placky, moje mali hrúbku asi 0,5 cm. Vyšlo mi 9 ks. Papier nezabudnite poriadne potrieť olejom a potrite aj placky zvrchu.",
+  "Upiekli sa za cca 20 minút.",
+  "Medzitým som na opraženú cibuľu s vyškvarenou slaninkou prisypala šošovicu a zaliala ju zeleninovým vývarom. Varila som ju na miernom ohni, občas treba premiešať. Keď bola polomäkká, pridala som malý postrúhaný zemiak, ktorý sa potom rozvaril, ochutil aj zahustil šošovicu. Tekutinu treba sledovať, v prípade potreby ešte doplniť, záleží od tvrdosti šošovice.",
+  "Jedlo sa dokončilo, stačilo len naservírovať a konzumovať. Najviac sa podľa mňa k tomuto jedlu hodí zemiaková kaša, prípadne rajčinová omáčka."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "šošovica",
+  "zdravé"
+ ]
 }

@@ -1,71 +1,113 @@
 {
-  "id": "gazpacho",
-  "nazov": "Gazpacho",
-  "kategoria": "Polievka",
-  "kuchyna": "Španielska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "15 min (+ chladenie)",
-  "kcal_na_porciu": 103,
-  "kcal_zdroj": "vypocet",
-  "popis": "Studená španielska polievka z paradajok a čerstvej zeleniny.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablčný ocot",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetku zeleninu nakrájaj na kúsky.",
-    "Rozmixuj spolu s cesnakom, olivovým olejom a octom dohladka.",
-    "Precedi pre hladšiu textúru (voliteľné).",
-    "Nechaj v chladničke aspoň 2 hodiny vychladnúť.",
-    "Podávaj studené."
-  ],
-  "tipy": "Chuť sa ešte zlepší, keď polievka odstojí cez noc.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "studená",
-    "španielske",
-    "letné"
-  ]
+ "id": "gazpacho",
+ "nazov": "Gazpacho",
+ "kategoria": "Polievka",
+ "kuchyna": "Španielska",
+ "zdroj": "Varecha.sk – Gazpacho (autor: tinca)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/gazpacho/19727-recept.html",
+ "porcie": 3,
+ "cas": "25 min",
+ "kcal_na_porciu": 158,
+ "popis": "Ortuť teplomera sa šplhá vysoko nad 30 stupňov a málo kto z nás má chuť na horúcu polievku. Výborne padne teraz táto studená španielska polievka, ktorá nás nielen osvieži, ale nabije aj vitamínmi.",
+ "ingrediencie": [
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá stredná uhorka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelená paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa červená stredne veľká",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biely chlieb bez kôrky",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukor hnedý /klasický/",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej olivový extra virgin",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červený vinny ocot",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rímska rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": 5,
+   "jednotka": "list",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripavíme si všetky suroviny. Očistíme uhorku, papriku,cibuľu, cesnak. Zeleninu pokrájame na kocky, cesnak pretlačíme a chlieb namočíme v troške vlažnej vody. Všetko včetne bazalky rozmixujeme, okrem korením a pochutín. Vznikne nám jemná zeleninová kaša. Zmes potom pretlačíme cez husté sítko, aby sme sa zbavili prípadných šupiek.",
+  "Potom pridáme cukor, citrónovú šťavu, vínny ocot, olej a koreniny. Ak by bola zmes hustá, tak ju zriedime troškou vody. Pripravené gazpacho uložíme do chladičky a necháme dobre vychladiť.",
+  "Podávame chladené, poliate olivovým olejom, lístkami bazalky a ozdobíme kôpkami na drobno pokrájanej použitej zeleniny. Ako prílohu som robila tousty z tmavého chleba nasucho opečené, ale hodí sa aj bagetka, alebo krutónky.",
+  "Gazpacho môžeme podávať v letných horúcich dňoch aj ako drink na záhradnej párty. Stačí ho prizdobiť limetkou a lístkami bazalky. Prípadne pridáme kocku ľadu.",
+  "Použila som tento červený vínny ocot - španielsky a veľmi sa mi chuťovo páči. Kúpila som ho v obchode zdravej výživy."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "studená",
+  "španielske",
+  "letné"
+ ]
 }

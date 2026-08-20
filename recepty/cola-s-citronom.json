@@ -1,0 +1,35 @@
+{
+ "id": "cola-s-citronom",
+ "nazov": "Cola s citrónom",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Coke and Drops",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17108",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Soft Drink · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Cola",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 7,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do pohára nalejeme colu a pridáme 7 kvapiek citrónovej šťavy.",
+  "Ozdobíme plátkom citróna na okraji pohára."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "bezmäsité"
+ ]
+}

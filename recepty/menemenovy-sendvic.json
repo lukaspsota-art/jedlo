@@ -1,62 +1,50 @@
 {
-  "id": "menemenovy-sendvic",
-  "nazov": "Menemenový sendvič",
-  "kategoria": "Raňajky",
-  "kuchyna": "Turecká",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 400,
-  "popis": "Bageta plnená tureckou praženicou s paradajkou, paprikou a feta syrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feta",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Papriku a paradajku podusaj na oleji do mäkka.",
-    "Rozšľahané vajcia vlej k zelenine a pomaly miešaj do krémova.",
-    "Bagetu naplň praženicou a rozdrob navrch feta."
-  ],
-  "tipy": "Vajcia stiahni z ohňa o niečo skôr, dôjdu ešte v teple panvice.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "sendvič",
-    "turecká",
-    "vajce"
-  ]
+ "id": "menemenovy-sendvic",
+ "nazov": "Menemenový sendvič",
+ "kategoria": "Raňajky",
+ "kuchyna": "Turecká",
+ "zdroj": "Varecha.sk – Sendvič(fotorecept) (autor: kajusiqq)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sendvicfotorecept/33797-recept.html",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": ":D......že recept:D...ale nie to len ták pretože to mám rada:)....rýchle chutné sýte:-*:-\n*.....milujem",
+ "ingrediencie": [
+  {
+   "nazov": "Chlieb",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 2,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tatárska omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 2,
+   "jednotka": "plátok",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Chlieb natrieme tatárskou omáčkou:)........polložíme šunku a znova natrieme tatárskou:)",
+  "Nato položíme plátok syra a dáme do toastovača:D",
+  "Veľmi zložite:D...... ........zeleninku do vnutra nedávam preto lebo mi nechutí teplá ......sem tam tam prihodim aj hranolky ale to iba ked mam chuť:D"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "sendvič",
+  "turecká",
+  "vajce"
+ ]
 }

@@ -1,57 +1,74 @@
 {
-  "id": "natierka-z-pecenej-cvikly-a-orechov",
-  "nazov": "Nátierka z pečenej cvikly a orechov",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 172,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová nátierka z pečenej cvikly obohatená o orechy.",
-  "ingrediencie": [
-    {
-      "nazov": "Červená repa",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vlašské orechy",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Repu nakrájaj na kocky, premiešaj s olejom a soľou, peč pri 200 °C 30 minút.",
-    "Rozmixuj s orechmi a citrónovou šťavou dohladka.",
-    "Dochuť soľou.",
-    "Podávaj s pečivom."
-  ],
-  "tipy": "Orechy dodávajú nátierke príjemnú textúru a chuť.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "cvikla",
-    "orechy"
-  ]
+ "id": "natierka-z-pecenej-cvikly-a-orechov",
+ "nazov": "Nátierka z pečenej cvikly a orechov",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Cviklová nátierka s orechmi (autor: kucharocka123)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cviklova-natierka-s-orechmi/93662-recept.html",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 64,
+ "popis": "Chutná nátierka s orechmi.",
+ "ingrediencie": [
+  {
+   "nazov": "Cvikla",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jogurt grécky biely",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvená rasca",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": "pekanové, pistácie, kešu a vlašské"
+  }
+ ],
+ "postup": [
+  "Cviklu dôkladne umyjeme a uvaríme v šupke v osolenej vode (varíme cca 40 minút). Uvarenú opláchneme pod studenou vodou a necháme vychladnúť. Potom ošúpeme a nahrubo nastrúhame.",
+  "Pridáme jogurt, olivový olej, osolíme, okoreníme, ochutíme rascou, pokvapkáme citrónovou šťavou a vymiešame.",
+  "Natierame na celozrnný chlieb a podávame s orechmi a ľadovým šalátom. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "cvikla",
+  "orechy"
+ ]
 }

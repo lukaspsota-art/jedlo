@@ -1,64 +1,75 @@
 {
-  "id": "bravcove-so-slivkami-a-rozmarinom",
-  "nazov": "Bravčové so slivkami a rozmarínom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 424,
-  "kcal_zdroj": "vypocet",
-  "popis": "Bravčové mäso dusené so sušenými slivkami a rozmarínom.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčová krkovička",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sušené slivky",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rozmarín",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso nakrájaj na kúsky a opeč na oleji dozlata.",
-    "Pridaj cibuľu, opraž do mäkka.",
-    "Vmiešaj sušené slivky a rozmarín, podlej vodou.",
-    "Dus 25 minút do mäkka mäsa.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Sladkosť sliviek sa skvele dopĺňa so slaným mäsom.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "bravčové",
-    "ovocie"
-  ]
+ "id": "bravcove-so-slivkami-a-rozmarinom",
+ "nazov": "Bravčové so slivkami a rozmarínom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pečená bravčová panenka s rozmarínom (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecena-bravcova-panenka-s-rozmarinom/82509-recept.html",
+ "porcie": 2,
+ "cas": "40 min",
+ "kcal_na_porciu": 348,
+ "popis": "Bravčové mäso dusené so sušenými slivkami a rozmarínom.",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčová panenka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vývar",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Panenku odblaníme, umyjeme, osušíme, osolíme, okoreníme a potrieme horčicou.",
+  "Na panvici rozohrejeme olej a mäso opečieme zo všetkých strán. Vložíme do pekáča, zalejeme vývarom, posypeme nasekaným rozmarínom a nadrobno nakrájanou cibuľou a vložíme do rúry rozohriatej na 170 stupňov (s ventilátorom alebo 190 stupňov bez neho). Pečieme asi pol hodiny.",
+  "Po upečení panenku zabalíme do alobalu a necháme odstáť vo vypnutej rúre.",
+  "Pred podávaním panenku nakrájame na plátky a ozdobíme bylinkami. Podávame napríklad so zemiakovou kašou, s pečenou či dusenou zeleninou alebo s pečenými zemiakmi."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "ovocie"
+ ]
 }

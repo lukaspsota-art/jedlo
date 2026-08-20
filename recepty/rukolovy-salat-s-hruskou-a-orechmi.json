@@ -1,69 +1,63 @@
 {
-  "id": "rukolovy-salat-s-hruskou-a-orechmi",
-  "nazov": "Rukolový šalát s hruškou a orechmi",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "15 min",
-  "kcal_na_porciu": 212,
-  "kcal_zdroj": "vypocet",
-  "popis": "Elegantný šalát z rukoly, hrušky, orechov a parmezánu.",
-  "ingrediencie": [
-    {
-      "nazov": "Rukola",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrušky",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vlašské orechy",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Hrušku nakrájaj na tenké plátky.",
-    "Rukolu poukladaj na tanier, navrch daj hrušku, orechy a hoblinky parmezánu.",
-    "Pokvapkaj olivovým olejom a citrónovou šťavou.",
-    "Dochuť soľou a podávaj ihneď."
-  ],
-  "tipy": "Skvele sa hodí aj s medom navrchu pre sladšiu chuť.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "rukola",
-    "hruška"
-  ]
+ "id": "rukolovy-salat-s-hruskou-a-orechmi",
+ "nazov": "Rukolový šalát s hruškou a orechmi",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Rukolový šalát s hruškou a tvrdým syrom (fotorecept) (autor: mariaklara)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/rukolovy-salat-s-hruskou-a-tvrdym-syrom-fotorecept/29338-recept.html",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 288,
+ "popis": "Recept mám z knihy \" Hneď to bude \" od Dr. Bukovského a Pavla Liptáka. Raz mi ho syn ponúkol k obedu, keď som bola u neho na návšteve. A teraz mám vlastnú úrodu rukoly, tak si ho robím častejšie.",
+ "ingrediencie": [
+  {
+   "nazov": "Rukola",
+   "mnozstvo": 8,
+   "jednotka": "list",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hruška",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tekvicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "- štipku"
+  }
+ ],
+ "postup": [
+  "Pripravíme si:",
+  "Rukolu aj hrušku umyjeme, hrušku pokrájame na menšie kocky - pokvapkáme citrónovou šťavou, aby nestmavla, rukolu pokrájame tiež na menšie kúsky - pokvapkáme olejom, premiešame. ( poznámka autora receptu: použite hocijaký olej za studena lisovaný, len nie olivový )",
+  "Môžeme jemne posypať bielym korení ( nemusíme ), na vrch postrúhame alebo pokrájame tvrdý syr. Ešte raz zľahka premiešame a môžeme konzumovať.",
+  "Môžeme použiť ako prílohu alebo len s tmavým chlebíkom. DOBRÚ CHUŤ!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "rukola",
+  "hruška"
+ ]
 }

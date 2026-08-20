@@ -1,0 +1,57 @@
+{
+ "id": "casino",
+ "nazov": "Casino",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Casino",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17185",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 194,
+ "popis": "Ordinary Drink · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Gin",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maraschino liqueur",
+   "mnozstvo": 0.2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 0.2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bitter",
+   "mnozstvo": 2,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koktejlová višňa",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie nalejeme do šejkra s ľadom.",
+  "Poriadne pretrepeme.",
+  "Precedíme do vychladeného kokteilového pohára.",
+  "Ozdobíme citrónovou kôrou a maraschino višňou.",
+  "Podávame bez slamky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

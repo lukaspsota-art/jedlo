@@ -1,77 +1,173 @@
 {
-  "id": "tofu-kari-so-zeleninou",
-  "nazov": "Tofu kari so zeleninou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "30 min",
-  "kcal_na_porciu": 445,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vegetariánske kari s tofu, kokosovým mliekom a farebnou zeleninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Tofu",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokosové mlieko",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kari pasta",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Tofu nakrájaj na kocky a opeč na oleji dozlata.",
-    "V hrnci opraž nadrobno pokrájanú cibuľu, pridaj kari pastu.",
-    "Prilej kokosové mlieko a nakrájanú zeleninu, dus 15 minút.",
-    "Pridaj opečené tofu a prehrej.",
-    "Dochuť soľou, podávaj s ryžou."
-  ],
-  "tipy": "Pre pikantnejšiu verziu pridaj čerstvé chilli.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "vegetariánske",
-    "tofu",
-    "ázijské"
-  ]
+ "id": "tofu-kari-so-zeleninou",
+ "nazov": "Tofu kari so zeleninou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Cícerové karí s údeným tofu a so zeleninou (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cicerove-kari-s-udenym-tofu-a-so-zeleninou/80787-recept.html",
+ "porcie": 8,
+ "cas": "90 min",
+ "kcal_na_porciu": 416,
+ "popis": "Vegetariánske kari s tofu, kokosovým mliekom a farebnou zeleninou.",
+ "ingrediencie": [
+  {
+   "nazov": "Cícer",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená šošovica",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvené paradajky",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenát baby",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriandrová vňať",
+   "mnozstvo": 75,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karí červená pasta",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 350,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údené tofu",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karí madras",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové korenie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriandrové semienka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené čili",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do hrnca nalejeme trocha oleja, rozohrejeme a pridáme karí pastu. Zľahka restujeme na najmenšom plameni asi 5 minút, občas premiešame. Tým zaručíme, že do oleja sa uvoľní celá chuť pasty.",
+  "Medzitým pripravíme základ na karí. Nakrájame cibuľu a cesnak najemno, nastrúhame zázvor a nakrájame stonky z čerstvej koriandrovej vňate. Všetko dáme do hrnca s olejom a restujeme dosklovita. Pridáme soľ.",
+  "Všetky ingrediencie na koreniacu zmes zmixujeme a pridáme do základu, rovnako ako karí pastu s olejom. Ešte chvíľu restujeme (nie dlho, aby to nezhorklo) a pridáme červenú šošovicu. Po chvíli pridáme drvené paradajky. Keď vidíme, že šošovica mierne zväčšila svoj objem, podlejeme zeleninovým vývarom a varíme, kým sa šošovica nerozvarí. Pridáme kokosové mlieko a tyčovým mixérom základ mierne vymixujeme (nie na kašu) iba do chvíle, kým trocha nezhustne. Na konci pridáme do karí cícer, prevaríme.",
+  "Medzitým očistíme šampiňóny a zeleninu (cuketu, mrkvu, zeler) a nakrájame na tenké rezančeky (julienne). Rozpálime panvicu, pridáme trocha oleja a sprudka šampiňóny a zeleninu orestujeme (max 1–2 minúty). Pred koncom podlejeme sójovou omáčkou. Na druhej panvici orestujeme tofu.",
+  "V miske s olejom a so soľou trochu „poprehadzujeme“ lístky baby špenátu a preložíme ich na taniere. Na ne uložíme restovanú zeleninu. Pridáme cícerové karí a restované tofu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "vegetariánske",
+  "tofu",
+  "ázijské"
+ ]
 }

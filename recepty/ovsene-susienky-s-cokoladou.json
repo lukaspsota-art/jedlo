@@ -1,64 +1,51 @@
 {
-  "id": "ovsene-susienky-s-cokoladou",
-  "nazov": "Ovsené sušienky s čokoládou",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 10,
-  "cas": "30 min",
-  "kcal_na_porciu": 259,
-  "kcal_zdroj": "vypocet",
-  "popis": "Chrumkavo-mäkké ovsené sušienky s kúskami čokolády.",
-  "ingrediencie": [
-    {
-      "nazov": "Ovsené vločky",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hnedý cukor",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čokoláda",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": "nasekaná"
-    }
-  ],
-  "postup": [
-    "Vyšľahaj maslo s hnedým cukrom a vajcom.",
-    "Vmiešaj múku a ovsené vločky.",
-    "Primiešaj nasekanú čokoládu.",
-    "Tvaruj malé kôpky na plech.",
-    "Peč pri 175 °C asi 12-15 minút."
-  ],
-  "tipy": "Sušienky po vybratí z rúry ešte trochu dopečú, nenechaj ich prehnednúť.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "sušienky",
-    "čokoláda"
-  ]
+ "id": "ovsene-susienky-s-cokoladou",
+ "nazov": "Ovsené sušienky s čokoládou",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Ovsené sušienky (autor: mitzy)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/ovsene-susienky/67993-recept.html",
+ "porcie": 15,
+ "cas": "40 min",
+ "kcal_na_porciu": 134,
+ "popis": "Chutia podobne ako Hobbitky :)",
+ "ingrediencie": [
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 62.5,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Hrnček = 300 ml. Ovsené vločky som rozmixovala na múčku tyčovým mixérom. Pridala som zmäknuté maslo, vajce a cukor. Vypracovala som kompaktné cesto a vyformovala bochníček, ktorý ostal odpočívať polhodinku v chladničke.",
+  "Zapla som rúru, vybrala cesto a začala tvarovať z cesta sušienky s priemerom 6,5 cm a hrúbkou 1 cm. Cesto je sypkejšie kvôli tomu, že rozmixované vločky nie sú ako hladká múčka, ale sušienky išli pekne vytvarovať prstami. Hotové sušienky som kládla na plech s papierom na pečenie. Šup do pece! Piekli sa slabú polhodinku.",
+  "Sušienky sú po upečení chutné, s maslovou príchuťou, sladké akurát, nie sú tvrdé, ale chutne chrumkajú. Nerozpadávajú sa, netreba sa báť, aj keď pri formovaní mi tiež napadlo, že možno sa budú lámať. Pekne držia tvar. Ku kávičke, čajíku kedykoľvek doobeda.",
+  "Ak vyskúšate, prajem dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "sušienky",
+  "čokoláda"
+ ]
 }

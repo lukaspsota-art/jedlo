@@ -1,39 +1,36 @@
 {
-  "id": "mimosa",
-  "nazov": "Mimosa",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 114,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý slávnostný kokteil z prosecca a pomarančového džúsu.",
-  "ingrediencie": [
-    {
-      "nazov": "Prosecco",
-      "mnozstvo": 90,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pomarančový džús",
-      "mnozstvo": 90,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do pohára na šampanské nalej vychladený pomarančový džús.",
-    "Pomaly dolej vychladené prosecco.",
-    "Jemne premiešaj.",
-    "Podávaj ihneď, tradične k brunchu."
-  ],
-  "tipy": "Obľúbený slávnostný nápoj k nedeľňajšiemu brunchu.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "prosecco",
-    "brunch"
-  ]
+ "id": "mimosa",
+ "nazov": "Mimosa",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Mimosa",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17205",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Ordinary Drink · Champagne flute",
+ "ingrediencie": [
+  {
+   "nazov": "Šampanské",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Obe ingrediencie dobre vychladíme a zmiešame v pohári.",
+  "Podávame vychladené."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "prosecco",
+  "brunch"
+ ]
 }

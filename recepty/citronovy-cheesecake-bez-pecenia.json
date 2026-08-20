@@ -1,71 +1,106 @@
 {
-  "id": "citronovy-cheesecake-bez-pecenia",
-  "nazov": "Citrónový cheesecake bez pečenia",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "30 min (+ chladenie)",
-  "kcal_na_porciu": 295,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúci citrónový cheesecake bez pečenia.",
-  "ingrediencie": [
-    {
-      "nazov": "Cottage",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "šťava a kôra"
-    },
-    {
-      "nazov": "Želatín",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Celozrnné piškóty",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Piškóty rozdrv, zmiešaj s rozpusteným maslom, vtlač do formy na korpus.",
-    "Cottage syr rozmixuj s cukrom, citrónovou šťavou a kôrou dohladka.",
-    "Želatínu rozpusti a vmiešaj do zmesi spolu s vyšľahanou smotanou.",
-    "Prelej na korpus.",
-    "Daj do chladničky aspoň 4 hodiny stuhnúť."
-  ],
-  "tipy": "Osviežujúca citrónová verzia klasického cheesecaku.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "citrón",
-    "cheesecake",
-    "bez pečenia"
-  ]
+ "id": "citronovy-cheesecake-bez-pecenia",
+ "nazov": "Citrónový cheesecake bez pečenia",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Citrónový cheesecake (autor: theflyingbaker)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/citronovy-cheesecake/92322-recept.html",
+ "porcie": 22,
+ "cas": "115 min",
+ "kcal_na_porciu": 330,
+ "popis": "Leto nám síce doznieva, ale stále sú aktuálne svieže letné zákusky.* Tento je jeden z mojich obľúbených. Fantastický kyslastý a \r\nsvieži cheesecake hodný na každú garden párty alebo rodinnú oslavu na záhrade :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Maslové sušienky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mascarpone",
+   "mnozstvo": 750,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 citróna"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Korpus: V mixéri rozmixujeme sušienky. Potom ich zmiešame s roztopeným maslom. Papierom na pečenie vyložíme tortovú formu (priemer 24 cm). Na dno formy natlačíme sušienkové cesto a vytvoríme tiež asi 2 cm vysoké okraje. Dáme stuhnúť do chladničky.",
+  "Plnka: Pri nízkych otáčkach vyšľaháme celkom dohladka mascarpone s kyslou smotanou a práškovým cukrom. Potom postupne po jednom za stáleho šľahania pridáme štyri celé vajcia, 2 žĺtky a 5 lyžíc hladkej múky. Na záver pridáme aj nastrúhanú kôru z 1 citróna, ktorý sme pred tým obarili horúcou vodou. Všetko spolu dobre premiešame. Takto pripravený krém vylejeme na korpus a dáme piecť do rúry vyhriatej na 180 °C na 10 až 15 minút. Následne teplotu znížime na 150 °C a pečieme ešte asi 40 minút.",
+  "Hotový cheesecake musí byť pevný pri okrajoch a v strede polotuhý. Ešte horúci cheesecake pomocou noža oddelíme od okrajov formy, aby sa počas chladnutia nenalepil na steny formy a nepopraskal. Cheesecake vytiahneme z formy až keď úplne vychladne, aby plnka nevytiekla.",
+  "Citrónový curd: V miske vyšľaháme metličkou 3 vajcia s 3 lyžicami cukru. Pridáme nastrúhanú kôru z citrónov, ktoré sme pred tým obarili horúcou vodou a tiež precedenú šťavu z citrónov. Misku preložíme nad parný kúpeľ a varíme za stáleho miešania, až kým krém nezhustne (pozor krém nesmie vrieť). Potom zložíme misku z kúpeľa a do ešte teplého krému zamiešame 1 lyžicu masla. Miešame metličkou, kým sa maslo celkom nerozpustí. Krém necháme za občasného premiešania vychladnúť. Vychladnutý krém nalejeme na vychladnutý cheesecake. Vložíme do chladničky a necháme poriadne stuhnúť, ideálne cez noc. Ozdobíme napr. ríbezľami a mätou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "citrón",
+  "cheesecake",
+  "bez pečenia"
+ ]
 }

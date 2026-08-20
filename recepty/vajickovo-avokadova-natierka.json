@@ -1,51 +1,68 @@
 {
-  "id": "vajickovo-avokadova-natierka",
-  "nazov": "Vajíčkovo-avokádová nátierka",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 159,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová nátierka kombinujúca vajcia a avokádo.",
-  "ingrediencie": [
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Avokádo",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vajcia uvar natvrdo, ošúp a nasekaj.",
-    "Avokádo rozmačkaj vidličkou.",
-    "Zmiešaj vajcia s avokádom a citrónovou šťavou.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Zdravšia alternatíva klasickej vajíčkovej nátierky s majonézou.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "vajcia",
-    "avokádo"
-  ]
+ "id": "vajickovo-avokadova-natierka",
+ "nazov": "Vajíčkovo-avokádová nátierka",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Avokádová nátierka (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/avokadova-natierka/79151-recept.html",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 167,
+ "popis": "Krémová nátierka kombinujúca vajcia a avokádo.",
+ "ingrediencie": [
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Avokádo pozdĺžne rozrežeme, vyberieme kôstku a polievkovou lyžicou vyberieme dužinu. Natvrdo uvarené vajíčka rozkrájame na menšie kúsky, cesnak rozpučíme alebo nastrúhame.",
+  "K avokádu pridáme cesnak, vajíčka, majonézu, citrónovú šťavu a všetko spolu zmixujeme. Na záver dochutíme soľou a mletým bielym alebo farebným korením.",
+  "TIP: Avokádovú nátierku môžeme použiť na chlieb alebo toasty, ale napríklad aj ako dip k nachos alebo k nakrájanej zelenine. Keď ju dáme do vrecúška na zdobenie, môžeme ju efektne nastriekať na kanapky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "vajcia",
+  "avokádo"
+ ]
 }

@@ -1,70 +1,90 @@
 {
-  "id": "cesnakove-rozky-s-bylinkovym-maslom",
-  "nazov": "Cesnakové rožky s bylinkovým maslom",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "100 min",
-  "kcal_na_porciu": 276,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kysnuté rožky potreté cesnakovo-bylinkovým maslom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažného mlieka, droždia a soli vypracuj cesto. Nechaj kysnúť 1 hodinu.",
-    "Rozdeľ na 8 dielov, vytvaruj rožky.",
-    "Nechaj 15 minút kysnúť, peč pri 200 °C asi 18 minút.",
-    "Maslo rozpusti s pretlačeným cesnakom a petržlenovou vňaťou.",
-    "Horúce rožky potri bylinkovým maslom."
-  ],
-  "tipy": "Skvelé podávané ešte teplé, keď maslo napustí do pečiva.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "cesnak",
-    "kysnuté"
-  ]
+ "id": "cesnakove-rozky-s-bylinkovym-maslom",
+ "nazov": "Cesnakové rožky s bylinkovým maslom",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Cesnakové rožky (fotorecept) (autor: angelina01)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cesnakove-rozky-fotorecept/61905-recept.html",
+ "porcie": 24,
+ "cas": "100 min",
+ "kcal_na_porciu": 137,
+ "popis": "Tieto rožky pripravujem väčšinou iba na Silvestra. Ale počas tohto roku sme ich začali \r\npripravovať na významnejšie sviatky. Budu vám určite chutiť a rozvoňaju celú vašu \r\nkuchyňu.",
+ "ingrediencie": [
+  {
+   "nazov": "Hrubá múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 21,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do misky si dáme múku,do ktorej spravíme dierku. Do dierky nalejeme teplé mlieko a pridáme aj cukor a rozdrobené droždie.",
+  "Zakryjeme a necháme kysnúť.",
+  "Potom pridáme zmäknuté maslo, žĺtko a vypracujeme cesto.",
+  "Vypracované cesto necháme kysnúť 1 hodinu.",
+  "Medzi tým si pripravíme plnku. Načistíme si hlávku cesnaku a na jemno nastrúhame. Pridáme olej a lyžičku soli a všetko premiešame. (Pokiaľ nemáte radi veľmi slané môžete dať iba pol lyžičky soli)",
+  "Už vykysnuté cesto vyvaľkáme, nakrájame, naplníme plnkou a zatočíme do tvaru rožka.",
+  "Zatočené rožky dáme na pečiaci papier a potrieme bielkom. Pečieme 10-15 minút na 220·C. Alebo až kým nebudú zlatej farby. Po vychladnutí môžete jesť. Prajem vám dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "cesnak",
+  "kysnuté"
+ ]
 }

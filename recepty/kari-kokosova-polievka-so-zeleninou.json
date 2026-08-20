@@ -1,64 +1,110 @@
 {
-  "id": "kari-kokosova-polievka-so-zeleninou",
-  "nazov": "Karí kokosová polievka so zeleninou",
-  "kategoria": "Polievka",
-  "kuchyna": "Thajská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 233,
-  "kcal_zdroj": "vypocet",
-  "popis": "Aromatická thajsky inšpirovaná polievka s kokosovým mliekom.",
-  "ingrediencie": [
-    {
-      "nazov": "Kokosové mlieko",
-      "mnozstvo": 400,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kari pasta",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Brokolica",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 400,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "V hrnci prehrej kari pastu.",
-    "Prilej kokosové mlieko a vývar.",
-    "Pridaj nakrájanú zeleninu, var 15 minút.",
-    "Dochuť soľou.",
-    "Podávaj horúce."
-  ],
-  "tipy": "Skvelá vegetariánska polievka plná chuti.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "kokos",
-    "thajské"
-  ]
+ "id": "kari-kokosova-polievka-so-zeleninou",
+ "nazov": "Karí kokosová polievka so zeleninou",
+ "kategoria": "Polievka",
+ "kuchyna": "Thajská",
+ "zdroj": "Varecha.sk – Kokosová polievka (autor: mirkatarby)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kokosova-polievka/39333-recept.html",
+ "porcie": 6,
+ "cas": "50 min",
+ "kcal_na_porciu": 280,
+ "popis": "Kedže vačšina exotických jedál si vyžaduje často ingrediencie,ktoré sú u nás ťažko dostupné,preto som túto polievku upravila na slovenské podmienky a už ju varievam dosť dlho.",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Huby čerstvé alebo mrazené",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukurica",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Omáčka čili",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rybia omáčka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sweet & Sour Sauce",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bujón",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vňať koriander",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kuracie prsia dáme do hrnca a zalejeme 2 litrami vody,osolíme a dáme variť.Pridáme zeleninový bujón,mletý koriander, zázvor a pretlačený cesnak a varíme asi pol hodiny kým nie je mäso hotové.",
+  "Potom mäso vyberieme.Vývar prelejeme cez sito (nemusíme),dáme na sporák a pridáme huby.Ja som mala lesné mrazené,pridala som jeden pohár.Necháme variť ešte asi 10 minút kým sa neuvaria huby.",
+  "Pridáme po lyžici z každej omáčky,kokosové mlieko, limetovú šťavu a kukuricu.Čerstvý koriander narežeme a pridáme do polievky.Necháme prevrieť.Nakoniec pridáme pokrájané prsia a dochutíme."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "kokos",
+  "thajské"
+ ]
 }

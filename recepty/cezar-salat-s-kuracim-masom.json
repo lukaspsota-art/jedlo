@@ -1,75 +1,62 @@
 {
-  "id": "cezar-salat-s-kuracim-masom",
-  "nazov": "Cézar šalát s kuracím mäsom",
-  "kategoria": "Šalát",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "25 min",
-  "kcal_na_porciu": 480,
-  "kcal_zdroj": "vypocet",
-  "popis": "Obľúbený šalát s kuracím mäsom, parmezánom a krutónmi.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šalát",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Krekry",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": "alebo krutóny"
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Kuracie prsia oper na oleji, osoľ a nakrájaj na prúžky.",
-    "Šalát natrhaj na kúsky.",
-    "Z majonézy, citrónovej šťavy a strúhaného parmezánu priprav dresing.",
-    "Všetko premiešaj a posyp krekrami a zvyšným parmezánom."
-  ],
-  "tipy": "Pre klasickú chuť pridaj aj ančovičkovú pastu do dresingu.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "kura",
-    "americké"
-  ]
+ "id": "cezar-salat-s-kuracim-masom",
+ "nazov": "Cézar šalát s kuracím mäsom",
+ "kategoria": "Šalát",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Cézar šalát (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cezar-salat/2615-recept.html",
+ "porcie": 6,
+ "cas": "20 min",
+ "kcal_na_porciu": 328,
+ "popis": "Obľúbený šalát s kuracím mäsom, parmezánom a krutónmi.",
+ "ingrediencie": [
+  {
+   "nazov": "Šalát rímsky",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krutóny",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cézar dresing",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie grilovacie",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Umytý natrhaný šalát premiešame spolu s dresingom a krutónmi, na panvici opečieme kúsky kuracích pŕs, ktoré naukladáme na záver.",
+  "Dozdobíme hoblinkami parmezánu.",
+  "Náš tip: Light verziu šalátu si možno pripraviť tak, že cézar dresing nahradíme bielym jogurtom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "kura",
+  "americké"
+ ]
 }

@@ -1,50 +1,70 @@
 {
-  "id": "cottage-natierka-s-redkovkou",
-  "nazov": "Cottage nátierka s reďkovkou",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 65,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ľahká nátierka z cottage syra s chrumkavou reďkovkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Cottage",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Reďkovky",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pažítka",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Reďkovky nakrájaj na drobné kocky.",
-    "Zmiešaj s cottage syrom a nasekanou pažítkou.",
-    "Dochuť soľou a podávaj s pečivom."
-  ],
-  "tipy": "Ľahká verzia nátierky s vysokým obsahom bielkovín.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "syr",
-    "ľahké"
-  ]
+ "id": "cottage-natierka-s-redkovkou",
+ "nazov": "Cottage nátierka s reďkovkou",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Cottage nátierka na všetko (autor: furtbarbora)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cottage-natierka-na-vsetko-/91701-recept.html",
+ "porcie": 4,
+ "cas": "10 min",
+ "kcal_na_porciu": 151,
+ "popis": "Cottage syr neobľubujem, ale táto nátierka je pre mňa TOP. V \r\npodstate si ju viete doplniť podľa vašich preferencií, je takmer bez \r\npráce a hodí sa aj na nachosky či iné krekry. A, samozrejme, na \r\nchlebík či rožok tiež.",
+ "ingrediencie": [
+  {
+   "nazov": "Syr cottage",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "plátky, môže byť aj údený"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Najskôr si pripravíme suroviny.",
+  "Do mixéra (taký ten s nožmi) dáme maslo, plátky šunky (podľa vašej chuti, ja som použila detskú od Gašparíka) a syra a pomixujeme. Môžete pridávať postupne, aby ste mali skôr takú hustú kašu.",
+  "Pridáme cottage cheese a ďalej mixujeme. Ak sa vám to zdá príliš husté, môžete to zriediť troškou mlieka. Prípadne aj biely jogurt môže byť fajn, to ale nemám vyskúšané.",
+  "Ak je konzistencia podľa vašich predstáv, pridajte soľ a korenie (pozor, šunka a syr sú slané) a ešte premixujte.",
+  "Hotovo. Podľa chuti pridajte bylinky, prípadne čo máte radi."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "syr",
+  "ľahké"
+ ]
 }

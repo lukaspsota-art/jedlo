@@ -1,70 +1,80 @@
 {
-  "id": "bravcove-rezne-s-hubovou-omackou",
-  "nazov": "Bravčové rezne s hubovou omáčkou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 527,
-  "kcal_zdroj": "vypocet",
-  "popis": "Opekané bravčové rezne v krémovej hubovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčová krkovička",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šampióny",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso naklepi, osoľ, okoreň a opeč na oleji z oboch strán dozlata.",
-    "Mäso vyber, na tom istom oleji opraž cibuľu a nakrájané huby.",
-    "Prilej smotanu a prehrej do zhustnutia.",
-    "Vráť rezne do omáčky a prehrej.",
-    "Podávaj s knedľou alebo zemiakmi."
-  ],
-  "tipy": "Huby môžeš nahradiť aj hlivou.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "bravčové",
-    "huby"
-  ]
+ "id": "bravcove-rezne-s-hubovou-omackou",
+ "nazov": "Bravčové rezne s hubovou omáčkou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Medové bravčové rezne (autor: monika276)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/medove-bravcove-rezne/44606-recept.html",
+ "porcie": 2,
+ "cas": "130 min",
+ "kcal_na_porciu": 387,
+ "popis": "Naša rodina sa toto leto zamilovala do grilovania a vymýšľali sme stále nové marinády. \r\nTúto aktivitku sme preniesli aj do klasických nedeľných obedov a pečené mäsko v \r\nmedovej marináde malo úspech :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčová krkovička",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 10,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa stredne veľká",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pikantný kečup",
+   "mnozstvo": 8,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená sladká mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rezne z krkovičky naklepeme, jemne osolíme a uložíme vedľa seba na vymastený pekáč. Zvrchu potrieme roztlačeným cesnakom a posypeme pokrájanou cibuľou.",
+  "Suroviny na marinádu si vymiešame, príp. dochutíme podľa ľubovôle a marinádu vylejeme na krkovičku. Dáme piecť prikryté alobalom do vyhriatej rúry na 180 st. Pečieme cca 1,5 hod. Nakoniec som mäso odokryté nechala cca 10 min. zvrchu zapiecť.",
+  "Najlepšie chutí s novými zemiakmi s petržlenovou vňaťkou a uhorkovým šalátom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "huby"
+ ]
 }

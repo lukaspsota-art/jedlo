@@ -1,83 +1,117 @@
 {
-  "id": "minestrone",
-  "nazov": "Minestrone",
-  "kategoria": "Polievka",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 5,
-  "cas": "45 min",
-  "kcal_na_porciu": 211,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýta talianska zeleninová polievka s fazuľou a cestovinami.",
-  "ingrediencie": [
-    {
-      "nazov": "Biele fazule",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cestoviny",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "drobné"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 800,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na olivovom oleji opraž nadrobno pokrájanú cibuľu, mrkvu a zeler.",
-    "Pridaj paradajky a vývar, priveď k varu.",
-    "Vmiešaj fazule a var 15 minút.",
-    "Pridaj cestoviny a var do mäkka podľa návodu.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Skvelá aj na druhý deň, hustejšia a chutnejšia.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "talianske",
-    "fazuľa",
-    "cestoviny"
-  ]
+ "id": "minestrone",
+ "nazov": "Minestrone",
+ "kategoria": "Polievka",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Minestrone (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/minestrone/82409-recept.html",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 168,
+ "popis": "Sýta talianska zeleninová polievka s fazuľou a cestovinami.",
+ "ingrediencie": [
+  {
+   "nazov": "Fazuľa biela",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stonkový zeler",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kel",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lúpané paradajky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vločky čili",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Fazuľu na sitku prepláchneme a necháme odkvapkať.",
+  "Vo veľkom hrnci rozohrejeme olej. Osmažíme v ňom nakrájanú cibuľu, zeler, kel a mrkvu. Vmiešame paradajkový pretlak a krátko orestujeme. Pridáme 1 l vývaru a lúpané paradajky nakrájané na kúsky, necháme zovrieť a varíme asi 30 minút.",
+  "Ku koncu pridáme cestoviny, tak, aby sa nerozvarili. Na záver primiešame scedenú fazuľu a necháme prehriať. Dochutíme soľou, korením a čili. Pokvapkáme olivovým olejom a ozdobíme petržlenovou vňaťou a nastrúhaným parmezánom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "talianske",
+  "fazuľa",
+  "cestoviny"
+ ]
 }

@@ -1,58 +1,60 @@
 {
-  "id": "zapekane-zemiaky-so-syrom",
-  "nazov": "Zapekané zemiaky so syrom (gratin)",
-  "kategoria": "Príloha",
-  "kuchyna": "Francúzska",
-  "zdroj": "klasický recept",
-  "porcie": 6,
-  "cas": "60 min",
-  "kcal_na_porciu": 287,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický francúzsky zemiakový gratin so smotanou a syrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky nakrájaj na tenké plátky.",
-    "Poukladaj do vrstiev do zapekacej misy, medzi vrstvy pridaj pretlačený cesnak a soľ.",
-    "Zalej smotanou.",
-    "Navrch posyp syrom.",
-    "Peč pri 180 °C asi 45 minút do zlatista a mäkka zemiakov."
-  ],
-  "tipy": "Zemiaky krájaj čo najtenšie, rýchlejšie sa prepečú.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "zemiaky",
-    "francúzske"
-  ]
+ "id": "zapekane-zemiaky-so-syrom",
+ "nazov": "Zapekané zemiaky so syrom (gratin)",
+ "kategoria": "Príloha",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Zapekané zemiaky s brokolicou a pareným syrom (fotorecept) (autor: kucharocka123)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zapekane-zemiaky-s-brokolicou-a-parenym-syrom-fotorecept/93229-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 186,
+ "popis": "Recept na zemiakovo-brokolicovú delikatesu s parenicou z rúry.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Brokolica",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  },
+  {
+   "nazov": "Parenica",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zemiaky dôkladne umyjeme a uvaríme v šupke.",
+  "Polovicu brokolice opláchneme pod vodou, odstránime hlúbik (spolu s druhou polovicou brokolice odložíme napr. do polievky), podelíme na ružičky a naparíme alebo predvaríme v osolenej vode.",
+  "Uvarené scedené zemiaky prekrojíme napoly. Polovičky opatrne vložíme do otvorov plechu na muffiny, ktoré sme vopred natreli roztopeným maslom. Na každej polovičke zemiaka urobíme stredom menší rez, asi 1 cm od okrajov. Jemne osolíme a do zárezu vložíme kúsok masla.",
+  "Stopkou nadol do zárezu zasunieme brokolicovú ružičku.",
+  "Povrch posypeme nastrúhanou parenicou (polotučný, nezrejúci, parený, polomäkký syr).",
+  "Plech vložíme do rúry vyhriatej na 180 °C. Pečieme cca 20 minút. Päť minút pred dopečením plech vyberieme z rúry, brokolicu ozdobíme prúžkom parenice a necháme dopiecť.",
+  "Upečené zemiaky vyberieme z formy a môžeme servírovať. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "zemiaky",
+  "francúzske"
+ ]
 }

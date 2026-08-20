@@ -1,27 +1,72 @@
 {
-  "id": "pecivo-bageta",
-  "nazov": "Bageta (príloha)",
-  "kategoria": "Pečivo",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 216,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kúsok bagety k polievke či nátierke.",
-  "ingrediencie": [
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 80,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Nakrájaj na plátky."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "pečivo"
-  ]
+ "id": "pecivo-bageta",
+ "nazov": "Bageta (príloha)",
+ "kategoria": "Pečivo",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Domáce bagety (fotorecept) (autor: olinecka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domace-bagety-fotorecept/84962-recept.html",
+ "porcie": 8,
+ "cas": "55 min",
+ "kcal_na_porciu": 297,
+ "popis": "Upečte si bagety ako z pekárne.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Teplú vodu dáme do misy, vsypeme sušené droždie, necháme nakysnúť kvások. Po nakysnutí pridáme preosiatu múku, soľ, olej.",
+  "Varechou dobre premiešame, aby sa nám všetko spojilo.",
+  "Vypracujeme hladké cesto, ktorého vrch potrieme olejom, posypeme múkou, zakryjeme čistou utierkou a necháme na teplom mieste kysnúť aspoň 1 hodinu.",
+  "Nakysnuté cesto preložíme na pomúčenú pracovnú dosku.",
+  "Cesto rozdelíme na štyri časti, z ktorých urobíme bochníky.",
+  "Bochníky rozšúľame na bagety dlhé asi 15 cm.",
+  "Plech vyložíme papierom na pečenie a poukladáme naň pripravené bagety, papier medzi nimi trocha zahneme, aby sa bagety nespojili pri pečení. Necháme trocha na plechu nakysnúť.",
+  "Pred vložením do rúry bagety potrieme studenou vodou a urobíme do nich zárezy. Pečieme v rúre vyhriatej na 230 °C, do ktorej dáme na spodnú mriežku plech s vodou, aby bagety boli po upečení. Pečieme 25-30 minút do zlatista.",
+  "Upečené bagety za horúca potrieme vodou. Dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo"
+ ]
 }

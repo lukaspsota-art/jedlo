@@ -1,85 +1,74 @@
 {
-  "id": "fasirky",
-  "nazov": "Fašírky (karbonátky)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 420,
-  "popis": "Vyprážané mäsové placky z mletého mäsa s cesnakom a rožkom.",
-  "ingrediencie": [
-    {
-      "nazov": "Mleté mäso",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rožok",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "namočený"
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Strúhanka",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Horčica",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majoránka",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 4,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Namočený rožok vytlač a zmiešaj s mäsom, vajcom, cibuľou, cesnakom, horčicou a korením.",
-    "Vypracuj hmotu, vytvaruj placky a obaľ v strúhanke.",
-    "Vyprážaj na oleji z oboch strán dozlata."
-  ],
-  "tipy": "Podávaj so zemiakovou kašou. Hmotu nechaj chvíľu odležať.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "mäso"
-  ],
-  "foto": ""
+ "id": "fasirky",
+ "nazov": "Fašírky (karbonátky)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Fašírka (autor: marcelc)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/fasirka/48872-recept.html",
+ "porcie": 6,
+ "cas": "45 min",
+ "kcal_na_porciu": 544,
+ "popis": "Nikdy som nemal rád fašírku čo robili naši doma, postupom času som sa dopracoval k tejto \r\nverzii, ktorá je veľmi jedlá...",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčové mleté mäso",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäso hovädzie mleté",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prosciutto",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslové rozdrvené sušienky",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muškátový strúhaný oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa nadrobno pokrájaná",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Predhrejeme rúru na 200˚C.",
+  "V miske zmiešame všetky suroviny, poriadne osolíme a okoreníme. (Namiesto prosciutta môžte použiť udenú prerastanú slaninku, mleté mäso s čo najmenším množstvom tuku). Zo zmesi vytvarujeme dve fašírky a poprášime múkou. (Sušienky fungujú ako strúhanka).",
+  "Dáme do vyhriatej rúry na cca 30 min."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "mäso"
+ ]
 }

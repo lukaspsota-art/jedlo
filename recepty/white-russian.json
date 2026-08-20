@@ -1,51 +1,43 @@
 {
-  "id": "white-russian",
-  "nazov": "White Russian",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 290,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémový kokteil z vodky, kávového likéru a smotany.",
-  "ingrediencie": [
-    {
-      "nazov": "Vodka",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kávový likér",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň ľadom.",
-    "Prilej vodku a kávový likér.",
-    "Navrch opatrne nalej smotanu.",
-    "Podávaj bez miešania alebo jemne premiešaj."
-  ],
-  "tipy": "Smotanu nahraď mliekom pre ľahšiu verziu.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "vodka",
-    "krémové"
-  ]
+ "id": "white-russian",
+ "nazov": "White Russian",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – White Russian",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12528",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 234,
+ "popis": "Ordinary Drink · Old-fashioned glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kávový likér",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vodku a kávový likér nalejeme na kocky ľadu do nízkeho pohára.",
+  "Dolejeme smotanou a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "vodka",
+  "krémové"
+ ]
 }

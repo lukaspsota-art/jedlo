@@ -1,51 +1,69 @@
 {
-  "id": "grilovana-paprika-s-cesnakom",
-  "nazov": "Grilovaná paprika s cesnakom",
-  "kategoria": "Príloha",
-  "kuchyna": "Stredomorská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 85,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchá grilovaná paprika s cesnakom a olivovým olejom.",
-  "ingrediencie": [
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Papriku nakrájaj na pásiky.",
-    "Gril alebo opeč na panvici do mäkka a mierneho zhnednutia.",
-    "Pridaj pretlačený cesnak, krátko opraž.",
-    "Dochuť soľou a olivovým olejom."
-  ],
-  "tipy": "Skvelá aj studená ako súčasť studeného predjedla.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "paprika",
-    "stredomorské"
-  ]
+ "id": "grilovana-paprika-s-cesnakom",
+ "nazov": "Grilovaná paprika s cesnakom",
+ "kategoria": "Príloha",
+ "kuchyna": "Stredomorská",
+ "zdroj": "Varecha.sk – Grilované a marinované papriky (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/grilovane-a-marinovane-papriky/829-recept.html",
+ "porcie": 8,
+ "cas": "70 min",
+ "kcal_na_porciu": 224,
+ "popis": "Varí: Vojtech Artz\nšéfkuchár spoločnosti Metro",
+ "ingrediencie": [
+  {
+   "nazov": "Veľká farebná mäsitá paprika",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vínny ocot biely",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bylinky zmes",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Papriky naukladáme na grilovací rošt a pečieme nasucho za občasného obracania asi 30 minút. Povrch paprík musí mať veľké čierne fľaky.",
+  "Potom ich vložíme do hrnca alebo misy, prikryjeme a necháme zapariť asi 20 minút.",
+  "Olúpeme, zbavíme semienoka rozkrojíme na plátky. Poukladáme do misy, osolíme a zalejeme marinádou z oleja, octu, prelisovaného cesnaku, korenia a nasekaných byliniek podľa chuti. Necháme odležať v chlade.",
+  "Papriky sú výborné ako predjedlo s bielym chlebom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "paprika",
+  "stredomorské"
+ ]
 }

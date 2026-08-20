@@ -1,63 +1,56 @@
 {
-  "id": "baklazanova-natierka-baba-ganoush",
-  "nazov": "Baklažánová nátierka (baba ganoush)",
-  "kategoria": "Nátierka",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 120,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová blízkovýchodná nátierka z pečeného baklažánu a tahini.",
-  "ingrediencie": [
-    {
-      "nazov": "Baklažán",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tahini",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Baklažán prepichni vidličkou a peč celý pri 200 °C asi 30 minút do mäkka.",
-    "Nechaj vychladnúť, prekroj a vyber dužinu.",
-    "Rozmixuj s tahini, citrónovou šťavou a pretlačeným cesnakom.",
-    "Dochuť soľou a polej olivovým olejom."
-  ],
-  "tipy": "Podávaj s pita chlebom alebo zeleninovými tyčinkami.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "baklažán",
-    "blízkovýchodné"
-  ]
+ "id": "baklazanova-natierka-baba-ganoush",
+ "nazov": "Baklažánová nátierka (baba ganoush)",
+ "kategoria": "Nátierka",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Varecha.sk – Baklažánová nátierka (autor: miomatka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/baklazanova-natierka/53229-recept.html",
+ "porcie": 4,
+ "cas": "95 min",
+ "kcal_na_porciu": 70,
+ "popis": "ideálne na večeru, chutné a ľahké",
+ "ingrediencie": [
+  {
+   "nazov": "Uvarený cícer",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Uvarený cícer rozmixujeme.",
+  "Baklažán dáme vcelku piecť do teplovzdušnej rúry na 170 °C na cca 45 min.",
+  "Po vychladnutí ho ošúpeme a spolu s cícerom a cesnakom ho vymixujeme na hladkú pomazánku."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "baklažán",
+  "blízkovýchodné"
+ ]
 }

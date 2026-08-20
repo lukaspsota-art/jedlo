@@ -1,62 +1,69 @@
 {
-  "id": "tiropita-toast-fetovy",
-  "nazov": "Tiropita toast (syrový)",
-  "kategoria": "Raňajky",
-  "kuchyna": "Grécka",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 410,
-  "popis": "Zapečený toast s feta syrom, vajcom a jogurtom v štýle gréckej tiropity.",
-  "ingrediencie": [
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feta",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Grécky jogurt",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kôpor",
-      "mnozstvo": null,
-      "jednotka": "na posypanie",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Fetu rozdrv a zmiešaj s vajcom a jogurtom.",
-    "Bagetu prekroj a naplň fetovou zmesou.",
-    "Zapekaj v rúre pri 200 °C 8 minút do zlatista."
-  ],
-  "tipy": "Feta je slaná, hotový pokrm väčšinou netreba dosoľovať.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "sendvič",
-    "grécka",
-    "zapekané"
-  ]
+ "id": "tiropita-toast-fetovy",
+ "nazov": "Tiropita toast (syrový)",
+ "kategoria": "Raňajky",
+ "kuchyna": "Grécka",
+ "zdroj": "Varecha.sk – Kid toast (autor: leerdammer)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kid-toast/58842-recept.html",
+ "porcie": 1,
+ "cas": "15 min",
+ "kcal_na_porciu": 285,
+ "popis": "Komerčný recept<br />\r\nToast nielen pre štýlové maminy a ich deti. Osvedčená klasika so šunkou a syrom v hravom podaní.",
+ "ingrediencie": [
+  {
+   "nazov": "Syr Special Toast",
+   "mnozstvo": 1,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Toastový maslový pšeničný chlieb",
+   "mnozstvo": 2,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 1,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kečup",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "domáci"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na toastový chlieb dáme plátok syra Special Toast a šunku, priklopíme druhým toastom, prekrojíme napoly, aby vznikli dva trojuholníky, tie potom prekrojíme ešte napoly, čím nám vzniknú ďalšie dva.",
+  "Dva trojuholníkové toasty zapečieme v kontaktnom grile, dva si obalíme vo vajíčku a osmažíme na masle na panvici.",
+  "Na panvici si na masle môžeme tiež opiecť nadrobno nakrájanú mrkvu, ktorou toasty ozdobíme. K hotovým toastom podávame domáci kečup."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "sendvič",
+  "grécka",
+  "zapekané"
+ ]
 }

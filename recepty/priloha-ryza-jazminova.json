@@ -1,41 +1,67 @@
 {
-  "id": "priloha-ryza-jazminova",
-  "nazov": "Jazmínová ryža",
-  "kategoria": "Príloha",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 216,
-  "kcal_zdroj": "vypocet",
-  "popis": "Voňavá jazmínová ryža.",
-  "ingrediencie": [
-    {
-      "nazov": "Jazmínová ryža",
-      "mnozstvo": 240,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 420,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Prepláchni ryžu, kým voda nie je číra.",
-    "Var v pomere 1:1,5 vody, prikryté 12 min.",
-    "Nechaj odpočívať 5 min a prevzdušni vidličkou."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "ryža"
-  ]
+ "id": "priloha-ryza-jazminova",
+ "nazov": "Jazmínová ryža",
+ "kategoria": "Príloha",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Jazmínová ryža s bazalkou a arašidmi (autor: Ryža SOS)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/jazminova-ryza-s-bazalkou-a-arasidmi/88567-recept.html",
+ "porcie": 12,
+ "cas": "15 min",
+ "kcal_na_porciu": 230,
+ "popis": "Jazmínová ryža je typ dlhozrnnej ryže s veľmi osobitou vôňou a chuťou, podobnou praženým orechom.* Vyskúšajte tento rýchly \r\nrecept na vynikajúcu orientálnu prílohu s ryžou SOS Jasmine.",
+ "ingrediencie": [
+  {
+   "nazov": "Ryža SOS Jasmine",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 20,
+   "jednotka": "list",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej čili",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Arašidy",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ryžu uvarte podľa návodou na obale.",
+  "Na panvici na čili oleji opražte nasekané alebo celé arašidy a pridajte zázvor. Potom pridajte kokos a nasekanú bazalku, spolu s ryžou.",
+  "Pár minút restujte a podávajte."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "ryža"
+ ]
 }

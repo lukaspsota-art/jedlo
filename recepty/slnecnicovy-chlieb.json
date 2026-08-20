@@ -1,64 +1,101 @@
 {
-  "id": "slnecnicovy-chlieb",
-  "nazov": "Slnečnicový chlieb",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "100 min",
-  "kcal_na_porciu": 175,
-  "kcal_zdroj": "vypocet",
-  "popis": "Výživný celozrnný chlieb so slnečnicovými semienkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnná múka",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 280,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slnečnicové semienka",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažnej vody, droždia, medu a soli vypracuj cesto, vmiešaj polovicu semienok.",
-    "Nechaj kysnúť 1 hodinu.",
-    "Vytvaruj bochník, navrch posyp zvyšnými semienkami.",
-    "Nechaj 20 minút kysnúť.",
-    "Peč pri 200 °C asi 35-40 minút do zlatista."
-  ],
-  "tipy": "Chlieb pred krájaním nechaj úplne vychladnúť.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "celozrnné",
-    "semienka"
-  ]
+ "id": "slnecnicovy-chlieb",
+ "nazov": "Slnečnicový chlieb",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Slnečnicový chlieb (fotorecept) (autor: ancicka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/slnecnicovy-chlieb-fotorecept/26065-recept.html",
+ "porcie": 11,
+ "cas": "110 min",
+ "kcal_na_porciu": 298,
+ "popis": "Vždy ma poteší,ked sa mi chlieb vydarí a chutí.Tento som robila s múky Rivercote.Mala som obavu,ale podaril sa.",
+ "ingrediencie": [
+  {
+   "nazov": "Slnečnicová múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": "Rivercote"
+  },
+  {
+   "nazov": "Múka hladká T 650",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukor kryštál",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celá rasca",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Otruby",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "za hrsť"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "V pekárničke som si nechala zamiesiť cesto.Najsamprv dáme tekuté suroviny a tak suché a nakoniec droždie.Ked to robím ručne tak ja kvások nerobím,len droždie rozpustím v mlieku a hned zapravím na chleba.Vždy mi pekne vykysne.",
+  "Pekárničku som nastavila na prípravu cesta .",
+  "Po vykysnuti som cesto na pomúčenej doske vyvaľala .Nechala som trocha postáť,cesto podkyslo a ešte raz som ho preložila a sformovala bochník.Medzi tým som vyhriala rúru.",
+  "Zároveň ked zapínam rúru,tak vložím aj misku /hlinenú/ ,aby sa vyhriala.Ked je rúra nahriatá,tak vložím bochník do misky a zároveň dám do rury aj hlinený hrnček s vodou. Pečiem pri 200 °C asi 20 min. a 30-35 min. pri teplote 120 °C.",
+  "Po upečení chlebík potriem zľahka vodou a nechám vychladnúť na mriežke.",
+  "Tento som piekla v pekárničke ,ale o 1/3 menším množstvom surovín."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "celozrnné",
+  "semienka"
+ ]
 }

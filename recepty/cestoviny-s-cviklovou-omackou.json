@@ -1,64 +1,98 @@
 {
-  "id": "cestoviny-s-cviklovou-omackou",
-  "nazov": "Cestoviny s cviklovou omáčkou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "30 min",
-  "kcal_na_porciu": 522,
-  "kcal_zdroj": "vypocet",
-  "popis": "Nezvyčajné ružové cestoviny s krémovou omáčkou z cvikly.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Červená repa",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": "uvarená"
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Uvarenú repu rozmixuj so smotanou a pretlačeným cesnakom dohladka.",
-    "Omáčku prehrej v hrnci.",
-    "Zamiešaj uvarené cestoviny.",
-    "Posyp parmezánom a podávaj."
-  ],
-  "tipy": "Krásna ružová farba poteší najmä deti.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "cvikla",
-    "netradičné"
-  ]
+ "id": "cestoviny-s-cviklovou-omackou",
+ "nazov": "Cestoviny s cviklovou omáčkou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Omáčka na cestoviny (autor: rosaneta)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/omacka-na-cestoviny/55303-recept.html",
+ "porcie": 6,
+ "cas": "60 min",
+ "kcal_na_porciu": 425,
+ "popis": "Toto bol náš dnešný obed. Táto omáčka sa dá robiť aj z kuracích prsíčok, nielen z \r\nbravčového mäsa.",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčové mäso",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté čierne korenie",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá rasca",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majoránka",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ostrý kečup",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na zahustenie"
+  },
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Umyté mäso si pokrájame na kocky. Na oleji si speníme cibuľu , pridáme mäso, korenie, papriku, mletú rascu , oregáno , majoránku, soľ podľa chuti . Chvíľu podusíme , pridáme vodu a varíme do mäkka.Keď je mäso mäkké, tak pridáme ešte 4 veľké lyžice kečupu a povaríme. Na zahustnutie si do hrnčeka dáme 3 veľké lyžice múky a 1 dcl vlažnej vody zamiešame a pridáme k mäsu , a ešte dovaríme. Varíme 1 hodinu , záleží aké je mäso , niekedy keď je tvrdé ,tak aj dlhšie sa varí.",
+  "Cestoviny uvaríme v osolenej vode , precedíme . Môžeme použiť aj špagety , alebo ryžu. Aj s ryžou chutí toto jedlo výborne.",
+  "Servírujeme na tanier najskôr cestoviny a na vrch dáme omáčku ."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "cvikla",
+  "netradičné"
+ ]
 }

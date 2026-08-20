@@ -1,70 +1,119 @@
 {
-  "id": "zapekane-cestoviny-s-kuracim-a-brokolicou",
-  "nazov": "Zapekané cestoviny s kuracím mäsom a brokolicou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 5,
-  "cas": "45 min",
-  "kcal_na_porciu": 563,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte zapekané cestoviny s kuracím mäsom, brokolicou a syrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Penne",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Brokolica",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu, brokolicu pridaj na posledné 3 minúty.",
-    "Kuracie mäso nakrájaj na kúsky a opeč s cesnakom.",
-    "Zmiešaj cestoviny, brokolicu, kura a smotanu v zapekacej mise.",
-    "Navrch posyp syrom.",
-    "Peč pri 190 °C asi 20 minút do zlatista."
-  ],
-  "tipy": "Skvelé aj na druhý deň zohriate.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "kura",
-    "zapekané"
-  ]
+ "id": "zapekane-cestoviny-s-kuracim-a-brokolicou",
+ "nazov": "Zapekané cestoviny s kuracím mäsom a brokolicou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Zapekané cestoviny s kuracím mäsom (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zapekane-cestoviny-s-kuracim-masom/94071-recept.html",
+ "porcie": 8,
+ "cas": "60 min",
+ "kcal_na_porciu": 443,
+ "popis": "Sýte zapekané cestoviny s kuracím mäsom, brokolicou a syrom.",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na varenie",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cestoviny uvaríme v osolenej vode podľa návodu na obale, scedíme, pokvapkáme olejom a necháme vychladnúť.",
+  "Kuracie mäso očistíme, umyjeme, osušíme a nakrájame na kúsky. Cibuľu s cesnakom olúpeme, cibuľu nakrájame na mesiačiky a cesnak nasekáme.",
+  "Na panvici na oleji restujeme polovicu cibule s cesnakom dozlatista. Pridáme mäso a za stáleho miešania restujeme ďalších 5 minút.",
+  "Smotanu zmiešame so strúhaným syrom, s vajcami, oreganom, tymianom, nasekanou petržlenovou vňaťou, so soľou a s korením.",
+  "Uvarené cestoviny premiešame s restovanou cibuľou, cesnakom a mäsom, presunieme do zapekacej misy vymazanej olejom a zalejeme smotanovou zmesou.",
+  "Pečieme pri 180 °C približne 35 minút, posledných 5 minút posypeme zvyšnou cibuľou a na polovice prekrojenými cherry paradajkami. Pri podávaní ozdobíme petržlenovou vňaťou a tymianom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "kura",
+  "zapekané"
+ ]
 }

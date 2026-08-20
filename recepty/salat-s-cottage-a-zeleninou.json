@@ -1,63 +1,75 @@
 {
-  "id": "salat-s-cottage-a-zeleninou",
-  "nazov": "Šalát s cottage syrom a zeleninou",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "10 min",
-  "kcal_na_porciu": 199,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ľahký proteínový šalát s cottage syrom, ideálny na rýchly obed.",
-  "ingrediencie": [
-    {
-      "nazov": "Cottage",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zeleninu nakrájaj na kocky.",
-    "Premiešaj s cottage syrom.",
-    "Pokvapkaj olivovým olejom.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Skvelý vysokobielkovinový obed do práce.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "cottage",
-    "ľahké"
-  ]
+ "id": "salat-s-cottage-a-zeleninou",
+ "nazov": "Šalát s cottage syrom a zeleninou",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Cottage zeleninový šalát (autor: martinis)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cottage-zeleninovy-salat/26006-recept.html",
+ "porcie": 2,
+ "cas": "15 min",
+ "kcal_na_porciu": 235,
+ "popis": "Výborný šalát pripravený z cottage cheesu a čerstvej zeleniny :)",
+ "ingrediencie": [
+  {
+   "nazov": "Cottage Cheese",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Brokolica",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karfiol",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať sušená",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr eidam",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Brokolicu umyjeme, rozoberieme a dáme variť na cca 5 minút. Zatiaľ čo sa brokolica varí, pripravíme si cottage cheese, nakrájame paradajky a šunku na malé kúsky, syr nastrúhame.",
+  "Až bude brokolica hotová, necháme ju odkvapkať a dobre zmiešame s ostatnými surovinami. Bokom si necháme zo 2 ružičky brokolice a karfiolu na dekoráciu.",
+  "Hotový šalát servírujeme v miske ozdobený ružičkami karfiolu a brokolice, posypaný čerstvou či sušenou pažítkou s opečeným chlebíkom a šálkou obľúbeného čaju. Dobrú chuť ;)",
+  "Môj tip : Do šalátu sa výborne hodí aj tuniak vo vlastnej šťave alebo olivovom oleji."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "cottage",
+  "ľahké"
+ ]
 }

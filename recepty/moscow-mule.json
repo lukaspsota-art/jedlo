@@ -1,57 +1,45 @@
 {
-  "id": "moscow-mule",
-  "nazov": "Moscow Mule",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 138,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúci kokteil z vodky, limetky a zázvoru.",
-  "ingrediencie": [
-    {
-      "nazov": "Vodka",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Zázvor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": "nastrúhaný"
-    },
-    {
-      "nazov": "Perlivá voda",
-      "mnozstvo": 120,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň ľadom.",
-    "Prilej vodku a limetkovú šťavu.",
-    "Pridaj nastrúhaný zázvor.",
-    "Dolej perlivou vodou a jemne premiešaj."
-  ],
-  "tipy": "Tradične sa podáva v medenom hrnčeku.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "vodka",
-    "letné"
-  ]
+ "id": "moscow-mule",
+ "nazov": "Moscow Mule",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Moscow Mule",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11009",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 337,
+ "popis": "Punch / Party Drink · Copper Mug",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 236.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vodku a zázvorové pivo spojíme vo vysokom pohári naplnenom ľadom.",
+  "Pridáme limetkovú šťavu.",
+  "Opatrne premiešame.",
+  "Ozdobíme."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "vodka",
+  "letné"
+ ]
 }

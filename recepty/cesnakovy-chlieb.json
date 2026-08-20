@@ -1,58 +1,104 @@
 {
-  "id": "cesnakovy-chlieb",
-  "nazov": "Cesnakový chlieb s bylinkami",
-  "kategoria": "Pečivo",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 6,
-  "cas": "30 min",
-  "kcal_na_porciu": 212,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchly cesnakový chlieb s bylinkovým maslom, ideálny k polievke alebo šalátu.",
-  "ingrediencie": [
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Maslo zmäkni a zmiešaj s pretlačeným cesnakom, nasekanou petržlenovou vňaťou a soľou.",
-    "Bagetu nakroj na plátky, ale nedokroj úplne cez.",
-    "Bylinkové maslo natri medzi jednotlivé plátky.",
-    "Zabaľ do alobalu a peč pri 200 °C asi 12-15 minút.",
-    "Posledné 3 minúty rozbaľ pre chrumkavú kôrku."
-  ],
-  "tipy": "Skvelý spoločník k paradajkovej polievke.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "cesnak",
-    "príloha"
-  ]
+ "id": "cesnakovy-chlieb",
+ "nazov": "Cesnakový chlieb s bylinkami",
+ "kategoria": "Pečivo",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Cesnakový chlieb (autor: julka3)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cesnakovy-chlieb/50883-recept.html",
+ "porcie": 20,
+ "cas": "80 min",
+ "kcal_na_porciu": 157,
+ "popis": "Ja a moja rodina sme si veľmi obľúbili doma pečený chlieb, najlepší je čerstvý, keď sa ešte na ňom rozpúšťa maslo. Nepoužívam pekárničku, lebo sa mi to zdá zbytočné.",
+ "ingrediencie": [
+  {
+   "nazov": "Teplá voda",
+   "mnozstvo": 600,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvená pohánka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ražná múka",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sézam",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľan",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Najskôr si v kanvici zohrejem vodu, prelejem do odmerky a nechám 10 min. vychladnúť. Polovicu vody nalejem do misky, pridám ocot, cukor, soľ, semiačka, rozpučený cesnak a droždie. Droždie dobre popučím, aby sa dobre rozpustilo.",
+  "Pridám žitnú múku(alebo iný druh chlebovej múky), prilejem druhú polovicu vodu, prisypem múku a vymiesim cesto. V miske kyske mi vykysne za 1 hodinu. Dám piecť na pekáč vystlaný pečiacim papierom, alebo do nejakej vymastenej formy - zaleží na vás. Surové cesto povrchu posypem rascou alebo sezamom a posolím morskou soľou z mlynčeka.",
+  "Pečiem pri 175°C asi 1 hod., keď začne chlebík hnednúť pridám rúru na 250°C a ešte 10 min. dopečiem. Prajem dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "cesnak",
+  "príloha"
+ ]
 }

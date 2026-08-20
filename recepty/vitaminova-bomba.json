@@ -1,49 +1,67 @@
 {
-  "id": "vitaminova-bomba",
-  "nazov": "Vitamínová bomba",
-  "kategoria": "Nápoj",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "10 min",
-  "kcal_na_porciu": 135,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vitamínová šťava z pomaranča, mrkvy, jablka a zázvoru.",
-  "ingrediencie": [
-    {
-      "nazov": "Pomaranč",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zázvor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetky suroviny prežmýkaj v odšťavovači alebo rozmixuj a precedi.",
-    "Podávaj čerstvé, ihneď po príprave."
-  ],
-  "tipy": "Skvelý štart do dňa plný vitamínov.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "vitamínové",
-    "zdravé"
-  ]
+ "id": "vitaminova-bomba",
+ "nazov": "Vitamínová bomba",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Vitamínová bomba (fotorecept) (autor: mitzy)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/vitaminova-bomba-fotorecept/65737-recept.html",
+ "porcie": 2,
+ "cas": "10 min",
+ "kcal_na_porciu": 245,
+ "popis": "Dnes pršalo. A tak som si do \r\ndňa namiešala trošku slnka.\r\nSmoothie nie je náročné na prípravu a vždy \r\nnabudí telo aj myseľ.",
+ "ingrediencie": [
+  {
+   "nazov": "Pomelo",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 1,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škoricový cukor",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pomelo, pomaranče, banány a zázvor očistíme a nakrájame.",
+  "Všetky ingrediencie zmixujeme v mixéri. Takto nám vznikne 500 ml skvelého smoothie. Hotovo :) Na zdravie!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "vitamínové",
+  "zdravé"
+ ]
 }

@@ -1,50 +1,69 @@
 {
-  "id": "ovocny-spiz",
-  "nazov": "Ovocný špíz",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 170,
-  "kcal_zdroj": "vypocet",
-  "popis": "Farebné ovocné špízy, skvelé na oslavy aj ako rýchly snack.",
-  "ingrediencie": [
-    {
-      "nazov": "Jahody",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrozno",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ananás",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "na kocky"
-    },
-    {
-      "nazov": "Banán",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ovocie nakrájaj na kúsky vhodnej veľkosti.",
-    "Napichaj striedavo na špajle.",
-    "Podávaj vychladené."
-  ],
-  "tipy": "Skvelé aj namočené do rozpustenej čokolády.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "ovocie",
-    "párty"
-  ]
+ "id": "ovocny-spiz",
+ "nazov": "Ovocný špíz",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Mező špízy (fotorecept) (autor: kyo)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/mez-spizy-fotorecept/74476-recept.html",
+ "porcie": 10,
+ "cas": "55 min",
+ "kcal_na_porciu": 233,
+ "popis": "Keď človek išiel na dlhú cestu, mal so sebou pár vecí, \r\npár si vykopal z neďalekého poľa, na konárik napichal, \r\nurobil pahrebu a vo svojej plechovej dóze pripravil \r\nchutný pokrm. Týmto receptom sa môžme priblížiť k \r\npradávnemu životu obyčajných obyvateľov.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Klobása",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "medzi prsty"
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Prichystám suroviny: Zemiaky ošúpem, dám do vody, slaninu (najlepšie oravskú) nakrájam na tenké plátky, cibuľu ošúpem, klobása je dobrá debrecínska alebo hydinová. Zo 10 špajdlí a hliníková fólia.",
+  "Klobásu nakrájam na kolieska, zemiaky môžem tiež alebo na tenké kocky, slaninu na štvorčeky, cibuľu na štvrťky a potom na polky. Narežem si alobal na dlhšie časti.",
+  "Predhrejem rúru na 200 °C (aj hore aj dole). Na špajdle začnem napichovať - zemiak, klobása, cibuľa, slanina, zemiak, klobása, cibuľa, slanina. Položím na alobal (na lesklú stranu), posolím, okorením ako chcem, podľa potreby. Môžem pokvapkať pár kvapkami oleja. Zakrútim a konce pevne poutláčam.",
+  "Poukladám na kameninový pekáč, aby teplo lepšie držalo. Vložím do rúry a pečiem na 200 °C bajočko 45 - 55 minút. Vyberiem, rozbalím krásne šťavnatý špíz. Môžem podávať s chrenom alebo s horčicou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "ovocie",
+  "párty"
+ ]
 }

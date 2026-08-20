@@ -1,69 +1,98 @@
 {
-  "id": "zemiakova-polievka",
-  "nazov": "Zemiaková polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Slovenská",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 128,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tradičná slovenská zemiaková polievka so zeleninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 800,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majorán",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu a mrkvu.",
-    "Pridaj nakrájané zemiaky a vývar.",
-    "Var 20 minút do mäkka.",
-    "Dochuť majoránom, pretlačeným cesnakom a soľou."
-  ],
-  "tipy": "Skús aj so zápražkou pre hustejšiu konzistenciu.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "zemiaky",
-    "slovenské"
-  ]
+ "id": "zemiakova-polievka",
+ "nazov": "Zemiaková polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Zemiaková polievka (autor: alica7)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakova-polievka/92131-recept.html",
+ "porcie": 4,
+ "cas": "50 min",
+ "kcal_na_porciu": 346,
+ "popis": "Zemiaková polievka na kyslo, recept aj pre začiatočníkov.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 16,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 8,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 6,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nemusí byť"
+  }
+ ],
+ "postup": [
+  "Zemiaky ošúpeme, pokrájame na menšie časti, pridáme vodu, bobkový list a soľ, uvaríme domäkka.",
+  "Prilejeme asi 4 dl mlieka a povaríme. Vo zvyšnom mlieku rozmiešame múku a mletú papriku, pridáme do polievky a za stáleho miešania varíme do zhustnutia.",
+  "Odstavíme z ohňa, pridáme cukor a ocot. Cesnak prelisujeme a chvíľu opečieme na oleji, len aby pustil arómu, pridáme do polievky aj s olejom. Pridáme pokrájaný kôpor. Polievku ešte môžeme dochuťiť podla vlastnej chuti."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "zemiaky",
+  "slovenské"
+ ]
 }

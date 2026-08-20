@@ -1,64 +1,81 @@
 {
-  "id": "skvarkove-pagace",
-  "nazov": "Škvarkové pagáče",
-  "kategoria": "Pečivo",
-  "kuchyna": "Slovenská",
-  "zdroj": "klasický recept",
-  "porcie": 10,
-  "cas": "60 min",
-  "kcal_na_porciu": 253,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tradičné slovenské pagáče so škvarkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škvarky",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Škvarky pomelieme alebo nasekáme najemno.",
-    "Z múky, vlažného mlieka, droždia, škvariek a soli vypracuj cesto.",
-    "Nechaj kysnúť 45 minút.",
-    "Rozváľaj a vykrajuj kolieska, potri rozšľahaným vajcom.",
-    "Peč pri 190 °C asi 20 minút do zlatista."
-  ],
-  "tipy": "Tradičné občerstvenie na Vianoce alebo oslavy.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "slovenské",
-    "škvarky"
-  ]
+ "id": "skvarkove-pagace",
+ "nazov": "Škvarkové pagáče",
+ "kategoria": "Pečivo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Škvarkové pagáče (autor: soncya)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/skvarkove-pagace/28509-recept.html",
+ "porcie": 13,
+ "cas": "110 min",
+ "kcal_na_porciu": 299,
+ "popis": "Jedným z mojích prvých receptov tu na Vareche boli \" Akožeškvarkové pagáče\". Včera \r\nsom robila ich originál verziu, nakoľko už nemuseli byť \" lait\" .",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 750,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pekárenské droždie",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Teplá voda",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčové oškvarky",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukor kryštál",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Tentokrát som si pripravila kvások z múky, vlažného mlieka, droždia a cukru. Do misy som vsypala múku, pridala soľ, 1 vajce, 2 lyžice zmäknutej bravčovej masti, vykysnutý kvások a teplé mlieko. Začala som vypracovávať cesto a riedila som ho teplou vodou do takej stredne hustej konzistencie. Cesto vypracovávam výlučne rukou a dovtedy, 1. kým sa mi neodlepuje od misy, 2. kým nie je na povrchu úplne hladké, 3. kým sa na ňom nezačnú robiť bublinky ( to sú 3 rady mojej milovanej babičky). Takže vandlík medzi nohy a pravá ruka ala Rambo....",
+  "Vypracované cesto (mne to trvá asi 5 minút, ale poctivo makám) posypem múkou a prikryjem čistou utierkou a dám asi na hodinku vykysnúť. (teraz to v tomto teple ide raz-dva) Keď je cesto raz také veľké ako bolo, tak ho vyklopím na pomúčenú dosku a rozvaľkám. Na povrch natriem na hrubo pomleté oškvarky a skladám ako obálku, rozvaľkám ešte raz a ešte raz preskladám, rozvaľkám a nechám odpočinúť asi 15 minút.",
+  "Odpočinuté, nakysnuté cesto rozvaľkám, asi na 2 cm celé potriem rozšľahaným vajíčkom a nožíkom na povrchu narežem mriežku. Až takéto ponatierané cesto vykrajujem formičkou, alebo krájam na štvorce. (Teraz pohár) Poukladám na masťou potretý plech a šup do rúry na 20 minút pri 180 stupňoch.",
+  "Dobrú chuť!!!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "slovenské",
+  "škvarky"
+ ]
 }

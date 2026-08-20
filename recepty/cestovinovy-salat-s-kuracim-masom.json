@@ -1,83 +1,89 @@
 {
-  "id": "cestovinovy-salat-s-kuracim-masom",
-  "nazov": "Cestovinový šalát s kuracím mäsom a zeleninou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "inšpirované Wikibooks Cookbook: Pasta Salad with Chicken (CC BY-SA)",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 472,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýty studený šalát z cestovín, kuracieho mäsa a čerstvej zeleniny s ľahkým dresingom.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnné penne",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cherry paradajky",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Červená paprika",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale, scedi a nechaj vychladnúť.",
-    "Kuracie prsia oper na panvici, osoľ, okoreň a nakrájaj na kocky.",
-    "Zeleninu nakrájaj na kocky.",
-    "Všetko premiešaj s olivovým olejom a citrónovou šťavou.",
-    "Dochuť soľou a korením, podávaj studené."
-  ],
-  "tipy": "Šalát vydrží v chladničke 2 dni — hodí sa do krabičky na obed.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "šalát",
-    "kura",
-    "meal-prep"
-  ]
+ "id": "cestovinovy-salat-s-kuracim-masom",
+ "nazov": "Cestovinový šalát s kuracím mäsom a zeleninou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Cestovinový šalát s kuracím mäsom (autor: IDEÁL)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestovinovy-salat-s-kuracim-masom/86996-recept.html",
+ "porcie": 6,
+ "cas": "30 min",
+ "kcal_na_porciu": 385,
+ "popis": "Jednoduché a rýchle jedlo, ktoré výborne zasýti a bude mňam na obed či na večeru. Vyskúšajte tento výborný cestovinový šalát \r\ns kuracím mäsom a cestovinami Ideál.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny Ideál kolienka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tatárska omáčka",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nakladaný chren",
+   "mnozstvo": 4,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kečup",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pór",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kuracie prsia naklepeme, osolíme, okoreníme a na oleji opečieme z oboch strán. Vyberieme a necháme vychladnúť.",
+  "Do vriacej osolenej vody vsypeme kolienka Ideál a varíme 10–12 minút, scedíme, prepláchneme studenou vodou a necháme odkvapkať.",
+  "V mise zmiešame tatársku omáčku, chren, horčicu, kečup.",
+  "Postupne primiešame nakrájaný pór a scedené cestoviny.",
+  "Vychladnuté opečené kuracie prsia nakrájame na kocky a pridáme do šalátu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "šalát",
+  "kura",
+  "meal-prep"
+ ]
 }

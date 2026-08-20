@@ -1,76 +1,123 @@
 {
-  "id": "kuracie-stehna-na-paprike",
-  "nazov": "Kuracie stehná na paprike so smotanou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "50 min",
-  "kcal_na_porciu": 631,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické dusené kuracie stehná v smotanovo-paprikovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie stehná",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji orestuj nakrájanú cibuľu do sklovita.",
-    "Pridaj kuracie stehná a opeč zo všetkých strán.",
-    "Vmiešaj papriku, pridaj nakrájanú paradajku a podlej vodou.",
-    "Dus pod pokrievkou 35 minút do mäkka.",
-    "Nakoniec vmiešaj smotanu, prihrej a dochuť soľou a korením."
-  ],
-  "tipy": "Podávaj s cestovinami alebo halušUS knedľou.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "slovenské"
-  ]
+ "id": "kuracie-stehna-na-paprike",
+ "nazov": "Kuracie stehná na paprike so smotanou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Kuracie stehná na mäsitých paprikách (fotorecept) (autor: sracz)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-stehna-na-masitych-paprikach-fotorecept/84715-recept.html",
+ "porcie": 5,
+ "cas": "50 min",
+ "kcal_na_porciu": 441,
+ "popis": "Vo väčšine domácností, ktoré mi bolo umožnené spoznať v priebehu mojej ¾-storočnej púte po našej \r\nspoločnej Matičke Zemi, som videl chutnú, pestrú i praktickú „symbiózu“ rôznych druhov mäsa s \r\nrôznymi druhmi zeleniny.* Záleží iba na Vás a pestrosti chúťok Vašich „stravníkov“, čo si vyberiete a v \r\nktorom technologickom kroku to vložíte do prípravy daného jedla. Ja som dnes skombinoval \r\nhruboste",
+ "ingrediencie": [
+  {
+   "nazov": "Stehno kuracie",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  },
+  {
+   "nazov": "Korenie čierne čerstvo mleté",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  },
+  {
+   "nazov": "Kukuričný olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stonkový zeler",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrubostenná paprika",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie na kuracie mäso",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie Creole",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená sladká mletá paprika",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Salsa",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäsový vývar",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slovenská ryža",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kuracie stehná a zelenina na štarte.",
+  "Stehná som dočistil, umyl, osušil, obojstranne posypal soľou i čerstvo mletým čiernym korením.",
+  "Mäso som do zlatohneda opiekol na troške oleja a odložil na pomocný tanier.",
+  "Do výpeku som pridal ďalšie 3 PL oleja, na ktorom som do sklovita orestoval plátky šalotky.",
+  "Pridal pokrájané dva stonky zeleru, mladú cuketku a hrubostenné papriky (tentoraz som mal oranžovú, červenú, žltú a zelenočervenú), premiešal, zo 5-7 minút podusil.",
+  "Posypal som koreninami (mletá sladká paprika, „Nahrin“ na kuracinu, „Creole“), hranu som nadstavil pálivou salsou (domáci „silný Piťo“ sa mi už dávno minul) a dochucovanie som zavŕšil na plátky pokrájanými strúčikmi cesnaku. Pomiešal, podusil, zalial pol litrom kuracieho vývaru.",
+  "Nechal som prejsť varom, vložil predpečené kuracie stehná.",
+  "Prikryté som dusil asi polhodinku na 1/3 ohreve.",
+  "Odparila sa asi polovica tekutiny a mäso bolo ako „hodváb“, priam pre tretie zuby dôchodcov.",
+  "Podával som s orzom, alias slovenskou ryžou, ale na druhu prílohy naozaj nezáleží."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "slovenské"
+ ]
 }

@@ -1,64 +1,71 @@
 {
-  "id": "focaccia-s-rozmarinom",
-  "nazov": "Focaccia s rozmarínom a morskou soľou",
-  "kategoria": "Pečivo",
-  "kuchyna": "Talianska",
-  "zdroj": "inšpirované Wikibooks Cookbook: Focaccia I (CC BY-SA)",
-  "porcie": 8,
-  "cas": "90 min",
-  "kcal_na_porciu": 268,
-  "kcal_zdroj": "vypocet",
-  "popis": "Talianske ploché kysnuté pečivo s olivovým olejom, rozmarínom a hrubozrnnou soľou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rozmarín",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": "sušený"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažnej vody, droždia a polovice olivového oleja vypracuj vlhké cesto. Nechaj kysnúť 1 hodinu.",
-    "Cesto prelož na plech vyložený papierom na pečenie a rozotri prstami do placky.",
-    "Nechaj ešte 20 minút kysnúť, potom prstami vytvor v ceste jamky.",
-    "Polej zvyšným olivovým olejom, posyp rozmarínom a hrubozrnnou soľou.",
-    "Peč pri 220 °C asi 20 minút do zlatista."
-  ],
-  "tipy": "Focaccia chutí skvele aj studená, ako súčasť sendviča.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "talianske",
-    "rozmarín"
-  ]
+ "id": "focaccia-s-rozmarinom",
+ "nazov": "Focaccia s rozmarínom a morskou soľou",
+ "kategoria": "Pečivo",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Focaccia (autor: sendyy)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/focaccia/88182-recept.html",
+ "porcie": 8,
+ "cas": "25 min",
+ "kcal_na_porciu": 249,
+ "popis": "Talianske ploché kysnuté pečivo s olivovým olejom, rozmarínom a hrubozrnnou soľou.",
+ "ingrediencie": [
+  {
+   "nazov": "Voda",
+   "mnozstvo": 420,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 7,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do misy nalejeme vlažnú vodu, pridáme sušené droždie, cukor a olivový olej. Všetko spolu dobre premiešame.",
+  "Pridáme múku a soľ a vareškou premiešame. Prikryjeme utierkou na 10 minút, necháme na teplom mieste.",
+  "Po 10 minútach začneme cesto naťahovať rukami, prekladáme ho a tým vytvárame jeho štruktúru. Je dôležité si vždy pri tomto procese naťahovania navlhčiť ruky vodou, aby sa nám cesto nelepilo. Zase zakryjeme na 10 minút. Tu už cesto vyzerá omnoho lepšie, ešte raz cesto ponaťahujeme a potrieme ho olivovým olejom, zabalíme do potravinovej fólie a dáme do chladničky na niekoľko hodín, najlepšie aj cez noc.",
+  "Na plech si dáme papier na pečenie kde musíme dať veľa olivového oleja, aby sa cesto nelepilo a vložíme cesto z chladničky. Necháme ešte dve hodiny zakryté na teplom mieste.",
+  "Zase si navlhčíme ruky a prstami urobíme po celom ceste dierky, povkladáme do nich olivy, a focacciu posypeme rozmarínom a hrubozrnnou soľou. Tento chlebík je výborný aj so sušenými rajčinami alebo mozzarellou. Dáme piecť na 220 stupňov na 25-30 minút s tým, že ja plech ešte dávam posledných 10 minút na spodok rúry aby bol spodok pekne chrumkavý. Samozrejme po vybratí z rúry zakryjeme utierkou, aby bola krásne mäkká.",
+  "Focacciu konzumujeme buď ako prílohu k rôznym jedlám alebo samotne len tak :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "talianske",
+  "rozmarín"
+ ]
 }

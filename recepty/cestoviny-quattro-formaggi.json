@@ -1,75 +1,100 @@
 {
-  "id": "cestoviny-quattro-formaggi",
-  "nazov": "Cestoviny quattro formaggi",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 640,
-  "popis": "Krémová omáčka zo štyroch druhov syra.",
-  "ingrediencie": [
-    {
-      "nazov": "Cestoviny",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana na varenie",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Gorgonzola",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mozzarella",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ementál",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Smotanu s maslom zohrej.",
-    "Postupne vmiešaj nakrájané syry, kým sa rozpustia.",
-    "Cestoviny uvar al dente a zamiešaj do omáčky.",
-    "Dochuť korením."
-  ],
-  "tipy": "Gorgonzola je výrazná — množstvo uprav podľa chuti.",
-  "tagy": [
-    "cestoviny",
-    "talianske",
-    "syr",
-    "vegetariánske"
-  ],
-  "foto": ""
+ "id": "cestoviny-quattro-formaggi",
+ "nazov": "Cestoviny quattro formaggi",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Cestoviny quattro (duo) formaggi z dvoch druhov syra (autor: ajuschka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-quattro-duo-formaggi-z-dvoch-druhov-syra-/28591-recept.html",
+ "porcie": 5,
+ "cas": "30 min",
+ "kcal_na_porciu": 438,
+ "popis": "občas mávam také chvíľky, kedy úplne streštene nakupujem potraviny na niečo čo nevarievam často. hrozne sa z toho vytešujem, prídem domov, suroviny rozložím po linke a pustím sa do príprav. Kým sa 3x otočím, priateľ mi zje polovicu vecí a ja improvizujem :)",
+ "ingrediencie": [
+  {
+   "nazov": "Syr Cheddar",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr ementál",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr s bielou plesňou",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr eidam",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 3,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele víno",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "môže a nemusí byť"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "všetky tvrdé syry si nastrúhame nahrubo. Mne po nálete drahého ostalo len 150g eidamu a polovička syra s bielou plesňou.... ... takže som vytiahla z chladničky ďalší (rezervný) eidam. dokopy som mala niečo vyše 200 gramov. cesnak si spučíme hranou noža",
+  "do hrnca si dáme roztopiť maslo, ale tak aby nebolo príliš horúce, len tekuté, a do toho potom prisypeme postrúhaný syr a podlejeme troškou mlieka. Metličkou miešame až do rozpustenia syra, občas treba mlieko priliať lebo syr je hrozne hustý",
+  "Keď je syr rozpustený, za stáleho miešania prilejeme šľahačkovú smotanu, vhodíme cesnak a zvaríme. Treba stále miešať, lebo syr je zákerák. Keď použijeme celú smotanu, doriedime ešte mliekom do požadovanej omáčkovitej hustoty, prisypeme strúhaný muškátový orech, asi tak pol čajovej lyžičky, a víno. ja som dala asi poldeci moldavského muškátu, a veruže to bola dobrá voľba. Ešte necháme krátko prejsť varom aby sa vyvaril alkohol, ochutnáme a podľa potreby dosolíme. Podávame so špagetami.",
+  "PS: keďže mám doma mäsotariána, bolo ho treba nejako upokojiť a tak som si na panvici opiekla niekoľko plátkov šunky ktoré som potom nakrájala na štvorčeky a na záver primiešala do omáčky. Šunku sa neoplatí krájať surovú, lebo sa na panvici aj tak sprosto polepí a akurát čo vytáča kuchárku :) Bohužiaľ som nestihla fotiť, lebo som sa na to hrozným spôsobom vrhla :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "talianske",
+  "syr",
+  "vegetariánske"
+ ]
 }

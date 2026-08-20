@@ -1,71 +1,99 @@
 {
-  "id": "quinoa-salat-s-avokadom-a-fazuľou",
-  "nazov": "Quinoa šalát s avokádom a čiernou fazuľou",
-  "kategoria": "Šalát",
-  "kuchyna": "Mexická",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 396,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýty a farebný mexicky inšpirovaný šalát z quinoi a fazule.",
-  "ingrediencie": [
-    {
-      "nazov": "Quinoa",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Biele fazule",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Avokádo",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kukurica",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Quinou uvar podľa návodu na obale a nechaj vychladnúť.",
-    "Avokádo nakrájaj na kocky.",
-    "Premiešaj quinou s fazuľou, kukuricou a avokádom.",
-    "Zalej limetkovou šťavou a olivovým olejom.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Sýty šalát, ktorý funguje aj ako samostatné jedlo.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "quinoa",
-    "mexické",
-    "zdravé"
-  ]
+ "id": "quinoa-salat-s-avokadom-a-fazuľou",
+ "nazov": "Quinoa šalát s avokádom a čiernou fazuľou",
+ "kategoria": "Šalát",
+ "kuchyna": "Mexická",
+ "zdroj": "Varecha.sk – Šalát s čiernou quinoou (autor: frommykitchendotcom)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/salat-s-ciernou-quinoou/90932-recept.html",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 388,
+ "popis": "Sýty a farebný mexicky inšpirovaný šalát z quinoi a fazule.",
+ "ingrediencie": [
+  {
+   "nazov": "Quinoa čierna",
+   "mnozstvo": 375,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cícer",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 citróna"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Quinou premyjeme a uvaríme v horúcej vode, scedíme a necháme vychladnúť.",
+  "Mrkvu nastrúhame nahrubo. Uhorku a papriku nakrájame na menšie kocky a cibuľu a petržlenovú vňať nasekáme nadrobno.",
+  "Cherry paradajky rozkrojíme na polovice. Všetko spolu zmiešame a pridáme scedený cícer. Šalát zalejeme zálievkou a premiešame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "quinoa",
+  "mexické",
+  "zdravé"
+ ]
 }

@@ -1,63 +1,110 @@
 {
-  "id": "sampinonova-polievka-so-smotanou",
-  "nazov": "Šampiňónová polievka so smotanou",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 156,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasická krémová hubová polievka bez korenia navyše.",
-  "ingrediencie": [
-    {
-      "nazov": "Šampióny",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 120,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 25,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na masle opraž cibuľu a nakrájané huby.",
-    "Zalej vývarom, var 15 minút.",
-    "Rozmixuj dohladka.",
-    "Vmiešaj smotanu a dochuť soľou."
-  ],
-  "tipy": "Klasika, ktorá nikdy nesklame.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "huby",
-    "krémová"
-  ]
+ "id": "sampinonova-polievka-so-smotanou",
+ "nazov": "Šampiňónová polievka so smotanou",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Šampiňónová polievka (autor: patroveckypitrs)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sampinonova-polievka/59526-recept.html",
+ "porcie": 6,
+ "cas": "60 min",
+ "kcal_na_porciu": 126,
+ "popis": "Dostali sme čerstvé šampiňóny, tak krásne voňali, že som spravil z nich polievku, ktorú \r\nmáme všetci radi. Keďže sme na chate ,tak sa po nej len zaprášilo.",
+ "ingrediencie": [
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Väčší zemiak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa stredne veľká",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvená rasca",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo zelerová"
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Šampiňóny očistíme, nakrájame na plátky. Z nich si odložíme bokom asi 25 - 30 plátkov. Cibuľu si očistíme a nakrájame na drobno. Tak isto cesnak očistíme a nasekáme na drobno. Zemiak očistený si nakrájame na kocky 1 cm. Toto je dávka na 4 litre, tak do takého hrnca si dáme trochu oleja a cibuľu dusiť. Ak je cibuľa udusená na mäkko, pridáme cesnak párkrát premiešame a vysypeme nakrájané šampiňóny. Chvíľku restujeme a zalejeme vodou do 1/2 hrnca, pridáme zemiaky, rascu a osolíme. Necháme variť.",
+  "Vňate si nakrájame na drobno, dáme bokom, tie pôjdu až do taniera. Odložené šampiňóny si osolíme a opečieme na suchej panvici do mäkka. Odložíme bokom, tie pôjdu na koniec do taniera na ozdobu a ochutenie. Mne ich všetky opečené zjedli, tak som musel dať na ukážku surové. Do hlbšej nádoby dáme mlieko a múku, cukor,šťavu z citróna a dobre vymiešame, aby neostali hrudky. Asi po 20 - 30 minútach ochutnáme hríby a zemiaky, či sú mäkké, ak áno, tak odstavíme hrniec zo sporáka. Všetko v ňom dobré rozmixujeme. Teraz znovu dáme hrniec na sporák variť. Po rozvarení vlejeme pripravené mlieko a pridáme plátok masla. Necháme tak 5 minút poriadne povariť. Môžeme odstaviť zo sporáka a nechať 15 minút postať, pripadne ešte osoliť. Kto chce môže pridať trochu vegety.",
+  "Tak a môžme podávať na tanier. Krajom taniera dáme tak zo 5 opečených šampiňónov a do stredu polievky trochu vňate. Na záver, len dobrú chuť. Je to vynikajúca polievka na tieto teplé dni."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "huby",
+  "krémová"
+ ]
 }

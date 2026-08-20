@@ -1,70 +1,93 @@
 {
-  "id": "chlieb-so-semienkami",
-  "nazov": "Chlieb so semienkami",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "110 min",
-  "kcal_na_porciu": 182,
-  "kcal_zdroj": "vypocet",
-  "popis": "Výživný celozrnný chlieb so slnečnicovými, ľanovými a sezamovými semienkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnná múka",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 280,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slnečnicové semienka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľanové semienka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sezamové semienka",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažnej vody, droždia a soli vypracuj cesto, vmiešaj polovicu semienok.",
-    "Nechaj kysnúť 1 hodinu.",
-    "Vytvaruj bochník, navrch posyp zvyšnými semienkami.",
-    "Nechaj 20 minút kysnúť.",
-    "Peč pri 200 °C asi 35-40 minút do zlatista."
-  ],
-  "tipy": "Skvelý zdroj vlákniny a zdravých tukov.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "semienka",
-    "celozrnné"
-  ]
+ "id": "chlieb-so-semienkami",
+ "nazov": "Chlieb so semienkami",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Semienkový chlieb (autor: mirkajan)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/semienkovy-chlieb/74839-recept.html",
+ "porcie": 11,
+ "cas": "90 min",
+ "kcal_na_porciu": 315,
+ "popis": "Môj najnovší chlebový favorit. K receptu na tento chlieb som sa dostala vďaka tomu, že \r\nmladšia dcéra mala notebook v oprave a v tom čase \r\nsi zobrala môj, ktorý mám v kuchyni a používam ho ako kuchársku knihu. Bola som \r\nnútená prehrabať sa receptami, ktoré mám \r\npovystrihované z časopisov a tento recept je jeden z nich. Skúšala som už viacero \r\nreceptov na semienkové chleby, ale až tento mi chu",
+ "ingrediencie": [
+  {
+   "nazov": "Ľanové semienka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené bezlepkové vločky",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Semienka chia",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandle",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Psyllium",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 360,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kokosový olej rozpustíme, ľanové semienka zomelieme (ja to robím v mlynčeku na kávu).",
+  "Potom dáme do misy všetky suroviny a poriadne premiešame. Ja používam najčastejšie bezlepkové ovsené vločky, ale skúšala som už aj pohánkové alebo quinoové.",
+  "Chlebíkovú formu vystelieme papierom na pečenie a semienkovú zmes rozotrieme do formy, aby ju celú vyplnila (moja chlebíková forma má rozmer 25x12x6 cm a aby chlieb nebol príliš nízky, musím do nej dať 1 a 1/2 dávky cesta). Povrch cesta uhladíme a necháme odstáť 2 hodiny.",
+  "Rúru predhrejeme na 200 °C. Pri tejto teplote pečieme chlieb 30 minút (pri 1 a1/2 dávke 35 minút), po tejto dobe vyberieme a chlieb opatrne vyklopíme z formy na plech vyložený papierom na pečenie tak, aby sa upiekla aj spodná strana. Teplotu rúry znížime na 170 °C a dopekáme ešte 45 (55 minút). Krájame po vychladnutí. Ja zvyknem chlieb nakrájať, skladujem v mrazáku a rozmrazujem potrebný počet krajcov opečením v hriankovači."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "semienka",
+  "celozrnné"
+ ]
 }

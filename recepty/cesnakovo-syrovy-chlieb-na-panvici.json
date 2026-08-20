@@ -1,64 +1,80 @@
 {
-  "id": "cesnakovo-syrovy-chlieb-na-panvici",
-  "nazov": "Cesnakovo-syrový chlieb na panvici",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 441,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchle nekysnuté placky so syrom a cesnakom, pečené na panvici.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jogurt",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, jogurtu a soli vypracuj mäkké cesto.",
-    "Rozdeľ na 4 diely, rozváľaj na placky a naplň strúhaným syrom, uzavri.",
-    "Peč na suchej rozohriatej panvici z oboch strán do zlatista.",
-    "Potri rozpusteným maslom s pretlačeným cesnakom.",
-    "Podávaj teplé."
-  ],
-  "tipy": "Rýchla náhrada chleba bez potreby rúry.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "syr",
-    "rýchle"
-  ]
+ "id": "cesnakovo-syrovy-chlieb-na-panvici",
+ "nazov": "Cesnakovo-syrový chlieb na panvici",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Sedliacky cesnakovo-cibuľový chlieb (autor: babygirl)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sedliacky-cesnakovo-cibulovy-chlieb-/59510-recept.html",
+ "porcie": 6,
+ "cas": "60 min",
+ "kcal_na_porciu": 321,
+ "popis": "Celá rodina milujeme poctivé domáce jedlo ako kedysi \r\nod babičky, a tak sa zrodil aj nápad ako oživiť klasický \r\ndomáci chlebík a výsledok je tu :-) a je naozaj \r\nvynikajúci....  Ochutnajte a presvedčíte sa sami :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlažná voda",
+   "mnozstvo": 600,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Farebné korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo masť"
+  }
+ ],
+ "postup": [
+  "Najskôr si nakrájame cibuľu na kocky a osmažíme na tuku, pripravíme si kvások z vody, cukru a kvasníc. Do nádoby na miesenie si nasypeme múku, soľ, pridáme pretlačený cesnak (ja struham na strúhadle je viac na jemno a žiadne zvyšky v pučitku :-)...) prilejeme kvások, cibuľu a vymiesime cesto. Necháme kysnúť na teplom mieste.",
+  "Keď máme cesto vykysnuté preložíme ho do nádoby na pečenie vystlanej papierom na pečenie (ja pečiem v hranatom jánskom skle). Mokrými rukami uhladime a dotvarujeme bochník, pred vložením do rúry potrieme vodou.",
+  "Keď sa nám chlebík upečie do hneda vyberieme ho z rúry a potrieme vodou. Necháme vychladiť (alebo Nenecháme ak nemôžeme odolať) a môžeme papať :-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "syr",
+  "rýchle"
+ ]
 }

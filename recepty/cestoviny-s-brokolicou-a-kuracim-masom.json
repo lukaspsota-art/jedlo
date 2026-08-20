@@ -1,71 +1,123 @@
 {
-  "id": "cestoviny-s-brokolicou-a-kuracim-masom",
-  "nazov": "Cestoviny s brokolicou a kuracím mäsom v smotanovej omáčke",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 582,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte krémové cestoviny s brokolicou a kuracím mäsom.",
-  "ingrediencie": [
-    {
-      "nazov": "Penne",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Brokolica",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu, brokolicu pridaj na posledné 3 minúty varenia.",
-    "Kuracie mäso nakrájaj na kúsky a opeč na oleji dozlata.",
-    "Pridaj pretlačený cesnak a smotanu, prehrej.",
-    "Zamiešaj cestoviny s brokolicou.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Skvelé jedlo na meal-prep, vydrží 2-3 dni v chladničke.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "kura",
-    "brokolica",
-    "meal-prep"
-  ]
+ "id": "cestoviny-s-brokolicou-a-kuracim-masom",
+ "nazov": "Cestoviny s brokolicou a kuracím mäsom v smotanovej omáčke",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Smotanovo-hubové cestoviny s kuracím mäsom (fotorecept) (autor: eviana)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/smotanovo-hubove-cestoviny-s-kuracim-masom-fotorecept/51896-recept.html",
+ "porcie": 6,
+ "cas": "50 min",
+ "kcal_na_porciu": 381,
+ "popis": "Tip na rýchly obed či večeru :)",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené huby",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé huby",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na varenie",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ligurček",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 25,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "...hrsť sušených húb si zalejeme vriacou vodou a cca 30 minút si ich nevšímame.",
+  "...zatiaľ si nakrájame kuracie mäsko na kocky cca 1x1 cm, cibuľku na nie príliš jemné kocky a cesnak na štvrťky (chceme aby dal jemnú príchuť, nie aby chuť hríbikov zabil:))",
+  "...na panvicu si dáme plátok masla (cca 1 cm z veľkého masla) a 2 PL olivového oleja, do rozpáleného pridáme kocky kuracích pŕs",
+  "...jemne ich okoreníme, smažíme len 2-3 minútky kým sa zatiahnu, potom ich vyberieme z panvice a výpek použijeme ďalej",
+  "...pridáme kúsky cesnaku (dosť veľké, aby sme ich neskôr mohli vybrať a neskôr pretlačiť)",
+  "...vsypeme nakrájanú cibuľu",
+  "...teraz si začneme všímať namočené sušené huby - poriadne z nich zlejeme vodu (tú odložíme bokom, ešte sa nám zíde) a vysypeme ich do panvice, necháme spolu dusiť 2-3 minuty",
+  "...potom cesnak vyberiem a pretlačíme ho naspäť k hubám a cibuli... už nasiakol hubami a cibuľou (ak by sme ho pretlačili hneď v úvode, jedlo by naopak natiahlo silnú chuť cesnaku a chuť húb by zanikla). Podusíme spolu cca 25 minút, keď máme pocit, že je málo tekutiny, podlejeme vodou z húb.",
+  "...čerstvé (alebo ako u mňa mrazené lieviky trúbkovité) huby si očistíme, opláchneme a nakrájame na väčšie kúsky. Možno použiť hocijaké huby, ktoré máte k dispozícii - aj pečiarky (šampiňóny).",
+  "...huby vsypeme do panvice, dochutíme - korením, rascou, sladkou paprikou, soľou... podľa chuti",
+  "...pridáme halúzku ligurčeka (domácky názov vegeta), zalejeme cca 0,5 dl vody z húb a všetko spolu dusíme cca 10 minút",
+  "...vlejeme smotanu na varenie",
+  "...necháme prevrieť - zredukovať",
+  "...do vriacej hmoty vysypeme kuracie prsia a necháme prehriať - maximálne minútku",
+  "...odstavíme z ohňa a vsypeme nasekanú petržlenovú vňať. Potom už len uvariť cestoviny a je to... naozaj skvelé :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "kura",
+  "brokolica",
+  "meal-prep"
+ ]
 }

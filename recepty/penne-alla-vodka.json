@@ -1,80 +1,102 @@
 {
-  "id": "penne-alla-vodka",
-  "nazov": "Penne alla vodka",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 540,
-  "popis": "Krémová paradajková omáčka s vodkou a smotanou.",
-  "ingrediencie": [
-    {
-      "nazov": "Penne",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajkový pretlak",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana na varenie",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vodka",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu a cesnak, pridaj pretlak.",
-    "Zalej vodkou a nechaj odpariť alkohol.",
-    "Vmiešaj smotanu a povar do zhustnutia.",
-    "Zamiešaj uvarené penne a parmezán."
-  ],
-  "tipy": "Vodka zvýrazní chuť paradajok — necháj ju odpariť.",
-  "tagy": [
-    "cestoviny",
-    "talianske",
-    "smotanové"
-  ],
-  "foto": ""
+ "id": "penne-alla-vodka",
+ "nazov": "Penne alla vodka",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Penne alla vodka s tajnou Uncle Ben’s omáčkou (autor: ellie17)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/penne-alla-vodka-s-tajnou-uncle-bens-omackou/92581-recept.html",
+ "porcie": 6,
+ "cas": "25 min",
+ "kcal_na_porciu": 374,
+ "popis": "Krémové penne kombinujú sladkú smotanu, cesnakovo-cibuľový základ, štipku vodky a paradajkovú omáčku Uncle Ben’s.* Celé \r\nsa dochutí rozpusteným maslom a bohato zasype strúhaným syrom. Výsledkom je jemné, mierne pikantné a rýchlo pripravené \r\ncestovinové jedlo s netradičným twistom.",
+ "ingrediencie": [
+  {
+   "nazov": "Penne",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Omáčka Uncle Ben’s",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "paradajková, napr. Tomato & Basil"
+  },
+  {
+   "nazov": "Smotana na varenie",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "parmezán, gouda, eidam alebo mix"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "strúhaný"
+  }
+ ],
+ "postup": [
+  "V osolenej vode uvaríme penne podľa návodu (cca 8–10 minút), scedíme a odložíme.",
+  "Na panvici rozohrejeme olej, pridáme nadrobno nakrájanú cibuľu a opražíme do sklovita. Pridáme pretlačený cesnak a restujeme 30 sekúnd.",
+  "Prilejeme vodku a necháme ju minútu odpariť.",
+  "Pridáme omáčku Uncle Ben’s a premiešame. Po chvíli vlejeme smotanu a necháme jemne prebublávať 3–4 minúty.",
+  "Pridáme rozpustené maslo, soľ a korenie podľa chuti.",
+  "Do omáčky vsypeme uvarené penne a premiešame. Nakoniec vmiešame strúhaný syr, aby sa krásne rozpustil.",
+  "Podávame horúce s dodatočným syrom navrchu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "talianske",
+  "smotanové"
+ ]
 }

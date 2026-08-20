@@ -1,36 +1,51 @@
 {
-  "id": "priloha-zemiaky-varene",
-  "nazov": "Varené zemiaky",
-  "kategoria": "Príloha",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 193,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické soľou varené zemiaky.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 1000,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Zemiaky ošúp a nakrájaj na štvrtiny.",
-    "Var v osolenej vode 20 min do mäkka.",
-    "Zlej vodu."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "zemiaky"
-  ]
+ "id": "priloha-zemiaky-varene",
+ "nazov": "Varené zemiaky",
+ "kategoria": "Príloha",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Vareno-pečeno-cesnakové zemiaky (fotorecept) (autor: babidka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/vareno-peceno-cesnakove-zemiaky-fotorecept/13889-recept.html",
+ "porcie": 7,
+ "cas": "45 min",
+ "kcal_na_porciu": 227,
+ "popis": "Takýto popisný názov tie zemiaky najlepšie vystihuje . Inšpirovala som sa už dávnejšie nejakým receptom / na ktorý si už pravdupovediac nespomínam / - ale je to u nás veľmi obľúbená príloha .Manžel sa vždy poteší keď ich robím a je mu vlastne jedno čo k tomu máme - mäso pečené či dusené , zeleninové jedlo alebo iba cmar či kyslé mlieko .",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Vyberieme si menšie zemiaky - veľkosť asi 5 -7 cm . Poriadne ich vyumývame , prípadne vydrhneme drsnejšou stranou hubky na umývanie riadu . Prípadné nečistoty alebo poškodenie šupky vyrežeme .",
+  "Zemiaky varíme vo vode asi 15 - 20 minút . Keď sú zemiaky mladé , tak stačí variť aj 5 -7 minút . Zemiaky uvaríme iba tak napoly . Kým sa varia , pripravíme si cesnakový olej . Ošúpeme cesnak a pretlačíme ho do oleja , pridáme soľ a premiešame . Necháme postáť aspoň 10 minút aby sa všetky chute dobre spojili .",
+  "Uvarené zemiaky dáme na pekáč a každý zatlačíme tak aby zemiak čiastočne \"pukol\"- skrátka ho iba mierne rozpučíme :-) Lyžicou polejeme zemiaky cesnakovým olejom . Cesnaku dávame vlastne podľa chuti - my to máme radi dobre ocesnakované . Mimochodom , tento môj obľúbený pekáčik som vyhrala na Vareche :-)))))))))",
+  "Dáme piecť do horúcej rúry - stupne môžem iba odhadnúť , ja ich pekávam v sporáku na drevo a prenosný teplomer sa mi tam jednoducho nezmestí :-) Skrátka - pečieme dovtedy , kým nie sú zhora upečené do chrumkava a chytia lákavú farbu .",
+  "Môžeme podávať ako prílohu alebo ako hlavné jedlo na ľahký obed lebo večeru . Dnes som ich podávala ako prílohu k pečeným krídlam a stehienkam na horčici podľa receptu od @enerrgizera ."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "zemiaky"
+ ]
 }

@@ -1,59 +1,57 @@
 {
-  "id": "ovsenobananovy-chlebik",
-  "nazov": "Ovsenobanánový chlebík",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "55 min",
-  "kcal_na_porciu": 150,
-  "kcal_zdroj": "vypocet",
-  "popis": "Zdravší vláčny chlebík z ovsených vločiek a banánu.",
-  "ingrediencie": [
-    {
-      "nazov": "Ovsené vločky",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Banán",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prášok do pečiva",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Banány rozmačkaj vidličkou.",
-    "Zmiešaj s vajcami a medom.",
-    "Vmiešaj ovsené vločky a prášok do pečiva.",
-    "Prelej do formy na chlebík.",
-    "Peč pri 175 °C asi 40-45 minút."
-  ],
-  "tipy": "Bez pridanej múky — vhodné aj pri citlivosti na lepok (skontroluj vločky bez lepku).",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "ovsené",
-    "banán",
-    "zdravšie"
-  ]
+ "id": "ovsenobananovy-chlebik",
+ "nazov": "Ovsenobanánový chlebík",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Domáci chlebík (autor: sishorv16)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domaci-chlebik/78942-recept.html",
+ "porcie": 8,
+ "cas": "140 min",
+ "kcal_na_porciu": 276,
+ "popis": "Tento chlieb je veľmi nenáročný.",
+ "ingrediencie": [
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do misky dám trocha vody z pripravených 500 ml, pridám rozdrobenú kocku droždia a trocha cukru. Dám do rúry vyhriatej na 50 stupňov na cca 15 min.",
+  "Do misy dám múku (ja som použila bezlepkovú), soľ, vykysnutý kvások a zvyšok vody. Dám do robota vymiešať cesto a potom vykysnúť do rúry na 50 stupňov.",
+  "Na plech dám papier na pečenie a chlieb. Pod papier dám trocha vody. Pečiem na 200 stupňov cca 40 min."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "ovsené",
+  "banán",
+  "zdravšie"
+ ]
 }

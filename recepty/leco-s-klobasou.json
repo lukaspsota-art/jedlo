@@ -1,75 +1,92 @@
 {
-  "id": "leco-s-klobasou",
-  "nazov": "Lečo s klobásou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 360,
-  "popis": "Dusená paprika s paradajkami, cibuľou, klobásou a vajcom.",
-  "ingrediencie": [
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": "na pásiky"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Klobása",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "na kolieska"
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu a klobásu.",
-    "Pridaj papriku, dus 5 minút, potom pridaj paradajky.",
-    "Zamiešaj papriku (korenie), osoľ a dus domäkka.",
-    "Nakoniec vlej rozšľahané vajcia a mierne zamiešaj do zrazenia."
-  ],
-  "tipy": "Podávaj s chlebom alebo varenými zemiakmi. Vajcia sú voliteľné.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "zelenina",
-    "klobása"
-  ],
-  "foto": ""
+ "id": "leco-s-klobasou",
+ "nazov": "Lečo s klobásou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Lečo s domácou klobásou (fotorecept) (autor: kvakac)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/leco-s-domacou-klobasou-fotorecept/71373-recept.html",
+ "porcie": 4,
+ "cas": "50 min",
+ "kcal_na_porciu": 341,
+ "popis": "Túlaním sa po našom krásnom Slovensku som natrafil na gazdu, ktorý predával krásnu papriku (PCR - ku) a paradajky. Tak voňali, nuž som neodolal. Pri ich kúpe som hneď \r\nvedel, že bude voňavé lečo. Čerstva zelenina, použitá na lečo, to je ono.",
+ "ingrediencie": [
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "sladká, veľká, odroda PCR"
+  },
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "pikantná veľká, odroda PCR"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Klobása domáca",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie štyroch farieb",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podla chuti (čerstvo mleté"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá sladká paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si suroviny. Klobása je domáca a voňavá. Lečo mám naj sam radšej, keď je čerstvej zeleniny. No dá sa použiť aj zvyšková zelenina, ale to už nie je to pravé. Papriku miešam pikantnú so sladkou. Paradajky čerstvo odtrhnute voňavé. Cibuľa čerstvá, že pri krájaní ide z nej mlieko. Dosť bolo cítenia, poďme na to. Ako prve pokrájame papriku a cibuľu.",
+  "V hrnci roztopíme masť, na to dáme cibuľu krájanú na drobno a papriku - krájame podla seba ako máme radi. Buď na kocky, alebo pásiky. Prikryjeme a dusíme tak 10 Až 13 minút . Musí ostať sklovitá.",
+  "Počas tejto doby krájame paradajky. Paradajku napoly a každú polovicu krájame cez šupku na pol centimetrové kocky. Tým pádom ich nemusíme šúpať, tie malé šupky zmiznú počas dusenia.",
+  "Hrniec odstavím na chvíľu zo sporáku a do podusenej cibule pridáme mletú červenú papriku. Párkrát premiešame a pridáme paradajky. Hrniec vrátime na sporák. Už nezakrývame. Dusíme, až sa všetka voda vyparí. Počas toho pokrájame klobásku na 3 mm kolieska.",
+  "Tie pridáme do horúcej zmesi a ďalej dusíme. Okoreníme a osolíme podľa vlastnej chute.",
+  "Všetko sa nám to pekne spojí, voda sa vyparí a ostane len masť.",
+  "Tak a teraz tam vylejeme vajcia a miešame až do stuhnutia leča. Pripadne ešte trochu dosolíme po ochutnaní.",
+  "Máme hotovo. Vonia to na celú kuchyňu. Necháme trochu vychladnúť a môžeme nakladať, buď s chlebom, alebo na obed so zemiakmi. Takéto lečo mne najviac chutí."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "zelenina",
+  "klobása"
+ ]
 }

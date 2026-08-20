@@ -1,88 +1,93 @@
 {
-  "id": "slepaci-vyvar-s-rezancami",
-  "nazov": "Slepačí vývar s rezancami",
-  "kategoria": "Polievka",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 6,
-  "cas": "120 min",
-  "kcal_na_porciu": 220,
-  "popis": "Zlatý domáci vývar zo sliepky so zeleninou a domácimi rezancami.",
-  "ingrediencie": [
-    {
-      "nazov": "Sliepka",
-      "mnozstvo": 1200,
-      "jednotka": "g",
-      "poznamka": "polievková"
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlen",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": 6,
-      "jednotka": "ks",
-      "poznamka": "celé"
-    },
-    {
-      "nazov": "Bobkový list",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Domáce rezance",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": null,
-      "jednotka": "na ozdobu",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Sliepku zalej studenou vodou a pomaly priveď k varu, zbieraj penu.",
-    "Pridaj očistenú zeleninu, celú cibuľu, korenie, bobkový list a soľ.",
-    "Var pomaly aspoň 2 hodiny.",
-    "Vývar preceď, mäso a zeleninu nakrájaj.",
-    "Rezance uvar zvlášť a pridaj do vývaru pri podávaní, posyp vňaťou."
-  ],
-  "tipy": "Cibuľu opáľ na plameni bez oleja — dodá vývaru zlatú farbu.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "polievka",
-    "vývar"
-  ],
-  "foto": ""
+ "id": "slepaci-vyvar-s-rezancami",
+ "nazov": "Slepačí vývar s rezancami",
+ "kategoria": "Polievka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Silný slepačí vývar so syrovými rezancami (autor: maggi)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/silny-slepaci-vyvar-so-syrovymi-rezancami/44603-recept.html",
+ "porcie": 6,
+ "cas": "120 min",
+ "kcal_na_porciu": 234,
+ "popis": "Komerčný recept",
+ "ingrediencie": [
+  {
+   "nazov": "Mrkva väčšia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slepačí bujón",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr tvdrý typu eidam",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nasekaný petržlen",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  }
+ ],
+ "postup": [
+  "Do väčšieho hrnca nalejte 1 liter vody a priveďte ju do varu. Rozpusťte v nej slepačí bujón a pridajte mrkvu nakrájanú na rezančeky.",
+  "Z ingrediencii na rezance pripravte cesto. Podľa potreby môžete pridať múku alebo mlieko. Na panvicu s trochou rozpáleného oleja vlejte približne jednu malú naberačku cesta. Palacinku opečte z oboch strán dozlatista. Keď je hotová, posypte ju nastrúhaným syrom s nasekaným petržlenom a prehnite. Hotové palacinky nakrájajte na rezance a ešte teplé ich pridajte do polievky.",
+  "<b>Tip: </b>Palacinky je možné zapiecť napríklad so syrovou omáčkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "polievka",
+  "vývar"
+ ]
 }

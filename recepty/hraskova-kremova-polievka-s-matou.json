@@ -1,69 +1,116 @@
 {
-  "id": "hraskova-kremova-polievka-s-matou",
-  "nazov": "Hrášková krémová polievka s mätou",
-  "kategoria": "Polievka",
-  "kuchyna": "Britská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 206,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sviežа jarná polievka z hrášku s mätou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hrach",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "mrazený"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mäta",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 80,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu, pridaj hrášok a vývar.",
-    "Var 10 minút do mäkka.",
-    "Rozmixuj s mätou dohladka.",
-    "Vmiešaj smotanu a dochuť soľou."
-  ],
-  "tipy": "Podávaj vlažnú aj studenú — v lete výborne osviežuje.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "hrášok",
-    "jarné"
-  ]
+ "id": "hraskova-kremova-polievka-s-matou",
+ "nazov": "Hrášková krémová polievka s mätou",
+ "kategoria": "Polievka",
+ "kuchyna": "Britská",
+ "zdroj": "Varecha.sk – Jarná krémová polievka z cukrového hrášku s čerstvou mätou (fotorecept) (autor: pusta)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/jarna-kremova-polievka-z-cukroveho-hrasku-s-cerstvou-matou-fotorecept/41097-recept.html",
+ "porcie": 4,
+ "cas": "35 min",
+ "kcal_na_porciu": 344,
+ "popis": "Dostala som cukrový hrášok v strukoch, ktorý som vylúpala a uvarila som z neho sviežu \r\nlahodnú polievku. Pridala som do nej šľahačku, troška cukru, citrónovú šťavu, hrsť čerstvej \r\nmäty a zistila som, že mäta a cukrový hrášok tvoria spolu vynikajúcu chuťovú kombináciu, \r\nokrem toho je rýchlo hotová, nenáročná na prípravu a veľmi jemná, a osviežujúca, \r\nvynikajúca za tepla i za studena.",
+ "ingrediencie": [
+  {
+   "nazov": "Cukrový čerstvý hrášok",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pieporná čerstvá mäta",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlen - koreň",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Malá cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne mleté čerstvé korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Smotana sladká na šľahanie 33%-tná",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vývar slepačí domáci",
+   "mnozstvo": 800,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Studené maslo",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravila som si struky s cukrovým hráškom a...",
+  "...a vylúpala som ho do misy.",
+  "Očistila som a pokrájala koreňovú zeleninu na malé kúsky.",
+  "V hrnci som rozohriala maslo.",
+  "Na masle som orestovala koreňovú zeleninu - asi 5 minút.",
+  "Hrášok som umyla, scedila a pridala som ho ku koreňovej zelenine, restovala som všetko spolu dalších 5 minút.",
+  "Zohriala som slepačí vývar, môžete použiť aj iný domáci vývar. Nepoužívajte umelé bujony!",
+  "Pokrájala som umytú čerstvú mätu na hrubo.",
+  "Orestovanú zeleninu som zaliala horúcim slepačím vývarom, pridala som cibuľu a kryštálový cukor, ...",
+  "...a polovicu posekanej mäty.Povarila som spolu asi 7 - 8 minút.",
+  "Pridala som šľahačkovú sladkú smotanu a nechala som iba raz prevrieť a vybrala som z polievky cibuľu.",
+  "Ked celé trošku vychladlo, okorenila som polievku čerstvo mletým korením, jemne som ju dosolila /pozor - vývar je dosť slaný!/ a pridala som druhú polovicu mäty.",
+  "Ponorným mixérom som všetko rozmixovala ponorným mixérom, v tejto fáze môžete polievku ešte nariediť ešte vývarom do krémovej konzistencie podľa toho, akú chcete mať, ja som nemusela riediť, bola akurát.",
+  "Pripravenou citrónovou šťavou som polievku na záver ešte dochutila.",
+  "Horúcu polievku som nabrala do tanierov a ozdobila mätou. Je vynikajúca za tepla i za studena, má jemnú lahodnú osviežujúcu jarnú chuť. Mnohí sa mylne domnievajú, že cukrový hrášok a mäta neidú dohromady, ale opaj je pravdou. Odporúčam vyskúšať - dobrú chuť prajem! Ak máte na túto polievku veľkú chuť a nemáte práve cukrový hrášok, kľudne použite mrazený hrášok."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "hrášok",
+  "jarné"
+ ]
 }

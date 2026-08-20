@@ -1,58 +1,63 @@
 {
-  "id": "zemiakovo-vajickovy-salat",
-  "nazov": "Zemiakovo-vajíčkový šalát",
-  "kategoria": "Šalát",
-  "kuchyna": "Slovenská",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 300,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický slovenský zemiakový šalát s vajcami a majonézou.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky uvar do mäkka, ošúp a nakrájaj na kocky.",
-    "Vajcia uvar natvrdo, ošúp a nakrájaj.",
-    "Cibuľu nakrájaj nadrobno.",
-    "Všetko premiešaj s majonézou.",
-    "Dochuť soľou a nechaj vychladiť pred podávaním."
-  ],
-  "tipy": "Skvelý ako príloha k rezňu alebo šunke.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "zemiaky",
-    "slovenské"
-  ]
+ "id": "zemiakovo-vajickovy-salat",
+ "nazov": "Zemiakovo-vajíčkový šalát",
+ "kategoria": "Šalát",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Zemiakovo-vajíčkový šalát s kukuricou (autor: kucharocka123)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakovo-vajickovy-salat-s-kukuricou-/93331-recept.html",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 390,
+ "popis": "Netradičný sviatočný šalát jemnej a lahodnej chuti na oslavy, párty a sviatočné dni.* Základ tvoria zemiaky, sladká kukurica a \r\nvajíčka. Výborný je ako príloha k mäsu či rybe, ale hodí sa aj na studené misy, obložené chlebíčky či jednohubky.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sladká sterilizovaná kukurica",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Zemiaky uvaríme v šupke, vychladnuté ošúpeme a prekrojíme napoly. Vajíčka uvaríme natvrdo a ošúpeme.",
+  "Do väčšej misy pretlačíme cez mriežku na polovicu prekrojené ošúpané zemiaky. Pridáme scedenú kukuricu, kyslú smotanu a zľahka premiešame. Zmes podľa chuti osolíme a okoreníme.",
+  "Nakoniec pridáme cez mriežku pretlačené natvrdo uvarené vajíčka a opatrne všetko spolu premiešame. Ak treba, dochutíme korením a soľou, prípadne pridáme trochu nálevu z kukurice a odložíme do chladničky, aby sa prepojili chute.",
+  "Šalát podávame vychladený. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "zemiaky",
+  "slovenské"
+ ]
 }

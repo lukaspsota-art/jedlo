@@ -1,58 +1,93 @@
 {
-  "id": "omeleta-so-syrom-a-sunkou",
-  "nazov": "Omeleta so syrom a šunkou",
-  "kategoria": "Raňajky",
-  "kuchyna": "Francúzska",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "10 min",
-  "kcal_na_porciu": 540,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasická sýta omeleta plnená šunkou a syrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Eidam",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vajcia rozšľahaj so soľou.",
-    "Na masle nechaj mierne stuhnúť na panvici.",
-    "Na polovicu daj nakrájanú šunku a syr.",
-    "Preklop na polovicu a dopeč do roztopenia syra.",
-    "Podávaj ihneď."
-  ],
-  "tipy": "Omeletu neopekaj príliš dlho, zostane jemnejšia.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "vajcia",
-    "francúzske"
-  ]
+ "id": "omeleta-so-syrom-a-sunkou",
+ "nazov": "Omeleta so syrom a šunkou",
+ "kategoria": "Raňajky",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Omeleta so šunkou a syrom na chrumkavom chlebe (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/omeleta-so-sunkou-a-syrom-na-chrumkavom-chlebe/90702-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 365,
+ "popis": "Trúfame si povedať, že táto verzia omelety je perfektná. Všetky chute a štruktúry sa dopĺňajú.* Použili sme skutočne veľké plátky farmárskej šunky a do nej sme balili syr gruyère výraznejšej chuti.",
+ "ingrediencie": [
+  {
+   "nazov": "Chlieb",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jogurt biely",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Krajce chleba rozložíme na plech vystlaný papierom na pečenie a pokvapkáme ich polovicou oleja. Pečieme v rúre predhriatej na 200 °C asi 10 minút dozlatista a dochrumkava.",
+  "Medzitým rozšľaháme vajcia so štipkou soli a korenia. Primiešame nadrobno nasekanú petržlenovú vňať. Panvicu rozohrejeme a potrieme trochou zvyšného oleja. Nalejeme na ňu polovicu vajec a pripravíme omeletu. Odložíme ju bokom, na panvici rozohrejeme zvyšný olej a upečieme druhú omeletu zo zvyšku vaječnej zmesi.",
+  "Do každého plátku šunky vložíme jeden plátok syra a preložíme na polovicu. Panvicu opäť zahrejeme, pridáme ošúpaný cesnak nakrájaný na plátky a opečieme ho dozlatista. Hneď ho vyberieme z panvice. Potom vložíme šunku so syrom a opečieme ich tak dlho, kým sa syr nerozpustí.",
+  "Na každý chrumkavý krajec chleba položíme šunku so syrom, na to pridáme polovicu omelety a podávame s jogurtom a uhorkami podľa chuti."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "vajcia",
+  "francúzske"
+ ]
 }

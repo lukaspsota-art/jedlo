@@ -1,47 +1,74 @@
 {
-  "id": "priloha-pecene-zemiaky",
-  "nazov": "Pečené zemiaky z plechu",
-  "kategoria": "Príloha",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 256,
-  "kcal_zdroj": "vypocet",
-  "popis": "Zemiaky pečené v rúre s olivovým olejom a korením.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 1000,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 5,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Rúru predhrej na 200 °C.",
-    "Zemiaky nakrájaj na mesiačiky, premiešaj s olejom, paprikou a soľou.",
-    "Peč 30–35 min do zlatista."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "zemiaky",
-    "pečené"
-  ]
+ "id": "priloha-pecene-zemiaky",
+ "nazov": "Pečené zemiaky z plechu",
+ "kategoria": "Príloha",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Pečené zemiaky (fotorecept) (autor: sonulienka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecene-zemiaky-fotorecept/71892-recept.html",
+ "porcie": 8,
+ "cas": "65 min",
+ "kcal_na_porciu": 167,
+ "popis": "Teraz si poviete, no pečené zemiaky sem dáva, ako keby sme ich nevedeli upiecť. Ale našla \r\nsom tento recept a nedalo mi ho nevyskúšať a \r\nveru nám chutili. Ak ste prišli z roboty a neviete, čo rýchlo na večeru tak odporúčam.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tatárska omáčka",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprika červenú údená mletá",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morská soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si suroviny.",
+  "Zemiaky nečistíme, len ich dobre poumývame, pokrájame na štvrtky ja som mala menšie, tak som krájala niektoré na polky a niektoré som ani nekrájala a zalejeme ich vodou na 10-15 minút.",
+  "Zatiaľ si pripravíme marinádu, s ktorou ich premiešame. Olej, tatársku omáčku, mletú údenú papriku a soľ.",
+  "Dobre zamiešame.",
+  "Zemiaky scedíme a vysušíme.",
+  "Dobre ich premiešame v marináde.",
+  "Vysypeme na plech, kde sme si dali papier na pečenie.",
+  "Dáme do predhriatej rúry piecť na 180-200 stupňov na 35-40 minút. Ale každá si svoju rúru sledujte. No a máme upečené - ešte som ich posypala syrom a pažítkou.",
+  "Vyskúšajte - dúfam, že Vám budú chutiť tak ako nám."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "zemiaky",
+  "pečené"
+ ]
 }

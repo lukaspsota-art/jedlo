@@ -1,63 +1,106 @@
 {
-  "id": "zeleninova-polievka-s-cestovinami",
-  "nazov": "Zeleninová polievka s cestovinami",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 110,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchá domáca zeleninová polievka s drobnými cestovinami.",
-  "ingrediencie": [
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cestoviny",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": "drobné"
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 900,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zeleninu nakrájaj na kocky.",
-    "Zalej vývarom a var 15 minút do mäkka.",
-    "Pridaj cestoviny a var podľa návodu na obale.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Skvelá rýchla polievka na doplnenie zeleninou.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "zelenina",
-    "cestoviny"
-  ]
+ "id": "zeleninova-polievka-s-cestovinami",
+ "nazov": "Zeleninová polievka s cestovinami",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Talianska zeleninová polievka minestrone s cestovinou a parmezánom (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/talianska-zeleninova-polievka-minestrone-s-cestovinou-a-parmezanom/85000-recept.html",
+ "porcie": 4,
+ "cas": "75 min",
+ "kcal_na_porciu": 296,
+ "popis": "Premeňte svoju zimnú kuchyňu na výbornú taliansku reštauráciu.\r\nAj u vás doma môže rozvoniavať výborná polievka minestrone.",
+ "ingrediencie": [
+  {
+   "nazov": "Pór",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stonkový zeler",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Fazuľa biela",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 1500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pyré paradajkové",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zavárané kapary",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do horúceho zeleninového vývaru prilejeme paradajkové pyré a varíme asi 20 minút na miernom ohni.",
+  "Paradajky na koncoch narežeme do tvaru kríža, sparíme vriacou vodou, ošúpeme, zbavíme jadierok a nakrá­jame na väčšie kocky. Fazuľu scedíme a prepláchneme pod tečúcou vo­dou. Pór aj stonkový zeler očistíme a nakrájame na 0,5 cm kúsky.",
+  "V mierne osolenej vode uvaríme cestoviny podľa návodu na obale.",
+  "Medzitým na panvici nasucho opra­žíme múku, odstavíme a pridáme trochy vody a rozmiešame dohladka na kašu, ktorú pri­miešame do polievky. Pridáme mrkvu, pór, zeler a nakoniec fazuľu s para­dajkami. Zeleninu by sme nemali roz­variť. Podľa chuti môžeme ku koncu varenia pridať kapary, trochu bieleho vína, čerstvé lístky bazalky alebo petržlenovej vňate.",
+  "Dochutíme soľou a čerstvo zo­mletým čiernym korením. Podávame s uvarenými cestovinami a posypané čerstvo na­ strúhaným parmezánom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "zelenina",
+  "cestoviny"
+ ]
 }

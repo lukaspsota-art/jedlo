@@ -1,69 +1,75 @@
 {
-  "id": "spenatovy-privarok",
-  "nazov": "Špenátový prívarok",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 190,
-  "popis": "Jemný špenátový prívarok s cesnakom a smotanou, klasika s vajcom a zemiakmi.",
-  "ingrediencie": [
-    {
-      "nazov": "Špenát",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "mrazený alebo čerstvý"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na masle opraž cibuľu a cesnak.",
-    "Pridaj špenát a poduseň.",
-    "Zaprášt múkou, podlej mliekom a rozvar do hladka.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Podávaj s vareným zemiakom a vyprážaným vajcom.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "zelenina",
-    "prívarok"
-  ],
-  "foto": ""
+ "id": "spenatovy-privarok",
+ "nazov": "Špenátový prívarok",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Špenátový prívarok (autor: pampuska92)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/spenatovy-privarok/60138-recept.html",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 448,
+ "popis": "Jemný špenátový prívarok s cesnakom a smotanou, klasika s vajcom a zemiakmi.",
+ "ingrediencie": [
+  {
+   "nazov": "Špenátové listy",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na varenie 10%",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škrobový prášok",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na oleji orestujeme cibuľku nakrájanú nadrobno. Rozpustíme špenát, zalejeme 400 ml smotany. Ochutíme soľou, korením a pretlačeným cesnakom. Necháme zovrieť.",
+  "Vo zvyšných 100 ml smotany rozmiešame Gustin tak, aby nám neostali hrčky. Prívarok zahustíme a necháme prevreť.",
+  "Podávame s volským okom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "zelenina",
+  "prívarok"
+ ]
 }

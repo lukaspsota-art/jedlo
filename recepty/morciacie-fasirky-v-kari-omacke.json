@@ -1,64 +1,92 @@
 {
-  "id": "morciacie-fasirky-v-kari-omacke",
-  "nazov": "Morčacie fašírky v kari omáčke",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 353,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ľahké morčacie fašírky dusené v kokosovo-kari omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Morčacie mäso",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "mleté"
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokosové mlieko",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kari pasta",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z mletého mäsa, vajca, soli a nadrobno pokrájanej cibule vytvaruj fašírky.",
-    "Opeč ich na oleji zo všetkých strán.",
-    "V hrnci zmiešaj kokosové mlieko s kari pastou, priveď k varu.",
-    "Vlož fašírky do omáčky a dus 15 minút.",
-    "Podávaj s ryžou."
-  ],
-  "tipy": "Skvele funguje aj s kuracím mletým mäsom.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "morčacie",
-    "kari"
-  ]
+ "id": "morciacie-fasirky-v-kari-omacke",
+ "nazov": "Morčacie fašírky v kari omáčke",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Morčacie fašírky pečené v rúre (autor: stoja)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-fasirky-pecene-v-rure/84133-recept.html",
+ "porcie": 4,
+ "cas": "50 min",
+ "kcal_na_porciu": 295,
+ "popis": "Zdravšia verzia klasických vyprážaných bravčových fašírok.",
+ "ingrediencie": [
+  {
+   "nazov": "Mäso morčacie",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majorán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvená rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do misky dáme mleté morčacie mäso, pridáme nadrobno nakrájanú cibuľu, prelisovaný cesnak, vajcia, strúhanku na zahustenie, vegetu alebo soľ, majorán, čierne mleté korenie, rascu drvenú, nakrájanú petržlenovú vňať (ale nemusí byť) a trochu olivového oleja. Všetko dobre premiešame.",
+  "Z mäsovej zmesi formujeme fašírky a ukladáme na plech s papierom na pečenie. Fašírky pofŕkame pred pečením olivovým olejom a dáme piecť na približne 30 minút do rúry vyhriatej na 200 stupňov.",
+  "Morčacie fašírky podávame so zeleninovým šalátom alebo zemiakovou kašou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "morčacie",
+  "kari"
+ ]
 }

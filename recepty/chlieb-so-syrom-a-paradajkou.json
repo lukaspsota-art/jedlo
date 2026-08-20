@@ -1,45 +1,80 @@
 {
-  "id": "chlieb-so-syrom-a-paradajkou",
-  "nazov": "Chlieb so syrom a paradajkou",
-  "kategoria": "Raňajky",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 2,
-  "cas": "5 min",
-  "kcal_na_porciu": 320,
-  "popis": "Jednoduché nátierané chleby so syrom a paradajkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Chlieb",
-      "mnozstvo": 4,
-      "jednotka": "plátok",
-      "poznamka": "2 ks/porciu"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 30,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Eidam",
-      "mnozstvo": 100,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 150,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Plátky chleba potri maslom.",
-    "Poukladaj plátky eidamu a kolieska paradajky.",
-    "Osoľ, okoreň podľa chuti."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "rýchle"
-  ]
+ "id": "chlieb-so-syrom-a-paradajkou",
+ "nazov": "Chlieb so syrom a paradajkou",
+ "kategoria": "Raňajky",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Chlieb so sušenými paradajkami (autor: hanee)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/chlieb-so-susenymi-paradajkami/31042-recept.html",
+ "porcie": 7,
+ "cas": "235 min",
+ "kcal_na_porciu": 377,
+ "popis": "Tento chlebík je delikatesa. Hoci som mala napečený koláč aj muffinky, obe návštevy si \r\ndali čerstvo napečený chlebík ako najlepší dezert. Voní fantasticky a chutí famózne.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 350,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukor kryštál",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené paradajky v oleji",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Tentokrát som pekárničku nechala odpočívat, a chlebik som piekla klasicky v trube.",
+  "Z vody, drozdia, cukru a lyzice muky nechame vzist kvasok.",
+  "Do misy dame obe muky, prilejeme kvasok, olej a sol. Vypracujeme hladke, skor tuhsie cesto. Nechame kysnut aspon hodinku. Moje kyslo dve.",
+  "Cesto vyklopime na pomucenu dosku, premiesyme a nechame pol hodinku este podkysnut.",
+  "Rajcinky nakrajame na kusky, skor vacsie, nech sa nestratia. Ja som do chlebika dala 8 polovic paradajok, Kazdu som rozkrojila na 4 casti.",
+  "Cesto roztiahneme, posypeme polovicou paradajok. Prelozime tak, aby boli paradajky vo vnutri cesta. (z prava do lava, alebo z hora, dolu. Ako sa vam postasti .o))",
+  "Opat trocha cesto roztiahneme, nasypeme zbytok rajciniek, smelo aj so stecenym olejom. Cesto opat prelozime tak, aby boli rajcinky vo vnutri cesta a vypracujeme bochnik. Ja som mala plech obsadeny kolacom, pekac kuratom, tak som vytvarovala okruhly bochnik a piekla na vrchnaku od okruhlej jenskej misy.",
+  "Bochnik polozime na peciaci papier, nechame 20 minut podkysnut. Pred pecenim ho na vrchu do kriza nakrojime, nech sa pekne otvori.",
+  "Na spodok truby dame misku s vodou na odparovanie. Pecieme v predhriatej trube, 20 minut na 220 a dalsich 30 asi na 180. Riadte sa podla farby, ako mate radi tmavu korku.",
+  "Po dopeceni chlebik vyberieme, povrch potrieme olivovym olejom a nechame vychladnit na mriezke."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "rýchle"
+ ]
 }

@@ -1,70 +1,87 @@
 {
-  "id": "zapekane-cestoviny-s-karfiolom-a-syrom",
-  "nazov": "Zapekané cestoviny s karfiolom a syrom",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Britská",
-  "zdroj": "vlastný recept",
-  "porcie": 5,
-  "cas": "45 min",
-  "kcal_na_porciu": 463,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte zapekané cestoviny kombinujúce karfiol a syrovú omáčku.",
-  "ingrediencie": [
-    {
-      "nazov": "Penne",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Karfiol",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 25,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu, karfiol povar samostatne 5 minút.",
-    "Na masle opraž múku, postupne prilievaj mlieko do zhustnutia.",
-    "Vmiešaj polovicu syra do omáčky.",
-    "Zmiešaj cestoviny, karfiol a omáčku v zapekacej mise, posyp zvyšným syrom.",
-    "Peč pri 190 °C asi 20 minút do zlatista."
-  ],
-  "tipy": "Kombinácia dvoch obľúbených britských jedál v jednom.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "karfiol",
-    "zapekané"
-  ]
+ "id": "zapekane-cestoviny-s-karfiolom-a-syrom",
+ "nazov": "Zapekané cestoviny s karfiolom a syrom",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Britská",
+ "zdroj": "Varecha.sk – Zapekané cestoviny (autor: miloss2)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zapekane-cestoviny/51410-recept.html",
+ "porcie": 7,
+ "cas": "35 min",
+ "kcal_na_porciu": 341,
+ "popis": "Chutné jedlo,rýchle na prípravu.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prsia morčacie",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrazený hrášok",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pochúťková smotana",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý nastrúhaný syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Uvaríme cestoviny podľa návodu.Morčacie prsia nakrájame na kocky,osolíme a prudko opečieme na olivovom oleji.(asi 5 minút)",
+  "Uvarené cestoviny zmiešame s opečeným mäsom,nakrájanými šampiňónmi a paradajkami,pridáme hrášok.",
+  "Primiešame smotanu a oregano.",
+  "Posypeme nastrúhaným syrom a petržlenovou vňaťou (mal som len sušenú,ale lepšia je čerstvá).Dáma zapiecť.Dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "karfiol",
+  "zapekané"
+ ]
 }

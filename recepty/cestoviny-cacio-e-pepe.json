@@ -1,50 +1,75 @@
 {
-  "id": "cestoviny-cacio-e-pepe",
-  "nazov": "Cacio e Pepe s čiernym korením",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 480,
-  "popis": "Rímska klasika — cestoviny s pecorinom a čerstvo mletým korením.",
-  "ingrediencie": [
-    {
-      "nazov": "Špagety",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pecorino",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": "čerstvo mleté"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar al dente, odlož trochu škrobovej vody.",
-    "Korenie opraž nasucho na panvici.",
-    "Pridaj naberačku vody a strúhaný syr, miešaj na krém.",
-    "Zamiešaj cestoviny a dolej vodu na hladkú omáčku."
-  ],
-  "tipy": "Syr pridávaj mimo priameho ohňa, aby sa nezrazil. Škrobová voda je kľúč.",
-  "tagy": [
-    "cestoviny",
-    "talianske",
-    "vegetariánske"
-  ],
-  "foto": ""
+ "id": "cestoviny-cacio-e-pepe",
+ "nazov": "Cacio e Pepe s čiernym korením",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Špagety cacio e pepe s rukolou a citrónovou kôrou (autor: skatulka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/spagety-cacio-e-pepe-s-rukolou-a-citronovou-korou/72281-recept.html",
+ "porcie": 6,
+ "cas": "40 min",
+ "kcal_na_porciu": 386,
+ "popis": "Odkedy som ich vyskúšala pripraviť, stali sa tieto cestoviny jedny z mojich \r\nnajobľúbenejších. Jednoduchosť surovín a vynikajúca chuť.",
+ "ingrediencie": [
+  {
+   "nazov": "Špagety",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie čierne mleté čerstvo",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Grana Padano",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pecorino",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rukola",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "V osolenej vode uvaríme cestoviny. Vodu z cestovín nevylievajte, budeme ju potrebovať.",
+  "Na panvici rozpustíme 2 PL masla. Pridáme čerstvé mleté korenie a orestujeme max. pol minúty.",
+  "Pridáme za veľkú naberačku vody z cestovín. Následne pridáme cestoviny a zvyšné maslo. Teplotu znížime na minimum a pridáme Grana Padano (alebo parmezán) a pecorino. Necháme rozpustiť a pridáme rukolu. Možeme ešte mierne dosoliť.",
+  "Podávame posypané postrúhanou citrónovou kôrou, môžeme pridať aj pár kvapiek citrónovej šťavy."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "talianske",
+  "vegetariánske"
+ ]
 }

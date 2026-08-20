@@ -1,45 +1,92 @@
 {
-  "id": "snack-misa-typ",
-  "nazov": "Tvarohový krém (typ Miša)",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 285,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sladký tvarohový krém s čokoládou.",
-  "ingrediencie": [
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 90,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 10,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 10,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Čokoláda",
-      "mnozstvo": 15,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Tvaroh vymiešaj s cukrom a mäkkým maslom.",
-    "Posyp nastrúhanou čokoládou."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "dezert",
-    "kupované"
-  ]
+ "id": "snack-misa-typ",
+ "nazov": "Tvarohový krém (typ Miša)",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Jahodový krém s tvarohom (fotorecept) (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/jahodovy-krem-s-tvarohom-fotorecept/71222-recept.html",
+ "porcie": 6,
+ "cas": "45 min",
+ "kcal_na_porciu": 200,
+ "popis": "Sladký tvarohový krém s čokoládou.",
+ "ingrediencie": [
+  {
+   "nazov": "Jahody",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Plnotučné mlieko",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový struk",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maizena",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 limetky"
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvaroh",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jedlé sušené kvety",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do horúceho mlieka pridáme kryštálový cukor, semienka z vanilkového struku, nakrájané jahody a varíme asi 10 minút.",
+  "Po uvarení rozmixujeme, zahustíme maizenou a dochutíme šťavou z limetky. Necháme vychladnúť a dáme do chladničky.",
+  "Smotanu vyšľaháme s vanilkovým cukrom. Pred podávaním polievku napeníme tyčovým mixérom, dáme do taniera, pridáme vanilkovú šľahačku a rozmrvený tvaroh. Posypeme sušenými kvetmi. Dozdobíme mätou a zvyšnými jahodami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "dezert",
+  "kupované"
+ ]
 }

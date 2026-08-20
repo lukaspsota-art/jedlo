@@ -1,29 +1,77 @@
 {
-  "id": "snack-horka-cokolada",
-  "nazov": "Horká čokoláda",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 143,
-  "kcal_zdroj": "vypocet",
-  "popis": "Pár kociek kvalitnej horkej čokolády.",
-  "ingrediencie": [
-    {
-      "nazov": "Čokoláda",
-      "mnozstvo": 25,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Odlom pár kociek."
-  ],
-  "tipy": "Vyber čokoládu s vyšším % kakaa.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "kupované",
-    "dezert"
-  ]
+ "id": "snack-horka-cokolada",
+ "nazov": "Horká čokoláda",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Torta z horkej čokolády (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/torta-z-horkej-cokolady/62613-recept.html",
+ "porcie": 24,
+ "cas": "130 min",
+ "kcal_na_porciu": 292,
+ "popis": "Pár kociek kvalitnej horkej čokolády.",
+ "ingrediencie": [
+  {
+   "nazov": "Horká čokoláda",
+   "mnozstvo": 440,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mascarpone",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 375,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Časť čokolády (140 g) roztopíme vo vodnom kúpeli a zvyšok nastrúhame nahrubo.",
+  "Časť čokolády (140 g) roztopíme vo vodnom kúpeli a zvyšok nastrúhame nahrubo.",
+  "Žĺtky oddelíme od bielkov. Maslo vyšľaháme s cukrom a pridáme žĺtky, pomaly zašľaháme vychladnutú, ale tekutú roztopenú čokoládu. Pridáme múku, prášok do pečiva a sneh z bielkov.",
+  "Cesto vylejeme do okrúhlej, papierom vystlanej formy. Pečieme v rozohriatej rúre asi 60 minút pri 160 °C.",
+  "Rovnako roztopíme zvyšok čokolády. Vychladnutú, ale opäť tekutú čokoládu vymiešame s mascarpone. Vyšľahanú smotanu pridáme do čokoládového krému.",
+  "Upečený korpus rozrežeme na tri časti a naplníme krémom tak, aby ostalo aj na boky a vrchnú časť torty. Vrch torty ešte ozdobíme hoblinkami z tmavej i bielej čokolády. Pred podávaním dozdobíme čerstvým ovocím."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "kupované",
+  "dezert"
+ ]
 }

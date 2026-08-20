@@ -1,63 +1,93 @@
 {
-  "id": "salat-z-hnedej-ryze-so-zeleninou",
-  "nazov": "Šalát z hnedej ryže so zeleninou",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 250,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýty studený šalát z hnedej ryže a čerstvej zeleniny.",
-  "ingrediencie": [
-    {
-      "nazov": "Hnedá ryža",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Hnedú ryžu uvar podľa návodu na obale a nechaj vychladnúť.",
-    "Zeleninu nakrájaj na kocky.",
-    "Premiešaj ryžu so zeleninou, olivovým olejom a citrónovou šťavou.",
-    "Dochuť soľou a podávaj studené."
-  ],
-  "tipy": "Hnedá ryža dodáva viac vlákniny ako biela.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "ryža",
-    "zdravé"
-  ]
+ "id": "salat-z-hnedej-ryze-so-zeleninou",
+ "nazov": "Šalát z hnedej ryže so zeleninou",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Šalát z ryže, jačmenných krúpov a zeleniny (autor: daniella9)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/salat-z-ryze-jacmennych-krupov-a-zeleniny/28793-recept.html",
+ "porcie": 6,
+ "cas": "35 min",
+ "kcal_na_porciu": 406,
+ "popis": "Takýto recept tu už je, tuto:\nhttp://varecha.pravda.sk/recepty/salat-z-jacmennych-krupov-a-ryze/27365-recept.html\n\nJa len dávam trošku svoju upravenú verziu:-)",
+ "ingrediencie": [
+  {
+   "nazov": "Ryža Basmati",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jačmenné krúpy - č. 7",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalátová uhorka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citorny",
+   "mnozstvo": 2.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morská soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ryžu a krúpy prepláchneme vodou a dáme variť. (Ryžu varím podľa návodu na obale. Používam ryžu z Tesca, v takom ružovom balíčku). Prepláchnutú ryžu dám do hrnca a zalejeme vodou tak, aby bola ryžal en kúsok pod hladinou, privediem do varu. Ked voda vrie, ryžu osolíme a plameň stíšime a varím asi tak 10 minút. Miešame ju, aby sa neprilepila. Krúpy dáme do zovretej vody a varíme, kým nebudú mäkké. Ked sú hotové, scedíme ich a prepláchneme studenou vodou a zmiešame s ryžou.",
+  "Medzitým ako sa varí ryža a krúpy, si pripravíme zeleninu. Paradajky nakrájame na malé kúsky, uhorky umyjeme, neočistíme, len odkrojíme konce a nakrájame na hrubšie kocky. Papriku nakrájame tiež na hrubšie kúsky a cibuľu na plátky. Všetku zeleninu potom zamiešame do ryže a krúpov.",
+  "Do misky vylejeme olej, citronovú šťavu, vysypeme oregano, pridáme soľ a korenie a všetko spolu premiešame. Nalejeme do šalátu. Všetko dobre premiešame a dáme schladiť do chladničky.",
+  "Hotovo, dobrú chuť:-) Tento šalát je aj s dresingom celkom výrazný, takže ja som si k nemu dala pár kúskov syru. Nechcem ho kombinovať s ničím výrazným, nerada by som, aby sa mi bilo viacero chutí dokopy."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "ryža",
+  "zdravé"
+ ]
 }

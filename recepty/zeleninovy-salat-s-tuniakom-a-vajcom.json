@@ -1,63 +1,81 @@
 {
-  "id": "zeleninovy-salat-s-tuniakom-a-vajcom",
-  "nazov": "Zeleninový šalát s tuniakom a vajcom",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "20 min",
-  "kcal_na_porciu": 218,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýty proteínový šalát z čerstvej zeleniny, tuniaka a vajec.",
-  "ingrediencie": [
-    {
-      "nazov": "Tuniak",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vajcia uvar natvrdo, ošúp a prekroj na štvrtiny.",
-    "Zeleninu nakrájaj na kocky.",
-    "Všetko premiešaj s scedeným tuniakom.",
-    "Zalej olivovým olejom a dochuť soľou."
-  ],
-  "tipy": "Sýty šalát vhodný ako samostatné jedlo na obed.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "tuniak",
-    "proteín"
-  ]
+ "id": "zeleninovy-salat-s-tuniakom-a-vajcom",
+ "nazov": "Zeleninový šalát s tuniakom a vajcom",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Zeleninový šalát s tuniakom (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zeleninovy-salat-s-tuniakom/69898-recept.html",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 224,
+ "popis": "Dnes sa vám nechce variť? Žiadny problém. S týmto chutným a nutrične bohatým šalátom, ktorý si pripravíte len za 20 minút, neostane \r\nnikto z rodiny hladný a ani nešťastný.",
+ "ingrediencie": [
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Artičoky",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelený šalát",
+   "mnozstvo": 4,
+   "jednotka": "list",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tuniak vo vlastnej šťave",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Paradajky nakrájame na štvrtiny, pridáme papriku a cibuľu nakrájané na plátky, uhorku nakrájanú na krúžky a rozštvrtené artičoky.",
+  "Tuniaka zcedíme a pridáme k zelenine a poriadne premiešame.",
+  "Podávanie: Olivový olej zmiešame s citrónovou šťavou. Pripravenú zmes vylejeme na šalát, poriadne premiešame a podávame.",
+  "Rada: Podľa potreby a chuti môžete do pripravenej zálievky pridať soľ a korenie."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "tuniak",
+  "proteín"
+ ]
 }

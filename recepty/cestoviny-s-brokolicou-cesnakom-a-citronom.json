@@ -1,63 +1,70 @@
 {
-  "id": "cestoviny-s-brokolicou-cesnakom-a-citronom",
-  "nazov": "Cestoviny s brokolicou, cesnakom a citrónom",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "20 min",
-  "kcal_na_porciu": 472,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ľahké cestoviny s brokolicou, cesnakom a citrónovou šťavou.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Brokolica",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava a kôra"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu, brokolicu pridaj na posledné 3 minúty.",
-    "Na olivovom oleji opraž cesnak.",
-    "Zamiešaj cestoviny s brokolicou, citrónovou šťavou a kôrou.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Ľahké letné jedlo, skvelé aj vlažné.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "brokolica",
-    "letné"
-  ]
+ "id": "cestoviny-s-brokolicou-cesnakom-a-citronom",
+ "nazov": "Cestoviny s brokolicou, cesnakom a citrónom",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Cestoviny s brokolicou (autor: mdlenka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-s-brokolicou/90635-recept.html",
+ "porcie": 2,
+ "cas": "20 min",
+ "kcal_na_porciu": 340,
+ "popis": "Pasta con broccoli ako ju robia Taliani.",
+ "ingrediencie": [
+  {
+   "nazov": "Brokolica",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ančovičky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Brokolicu rozoberieme na menšie kúsky a dáme variť do osolenej vody.",
+  "Keď začne voda vrieť, pridáme cestoviny (napr. vretená alebo motýliky) a uvaríme podľa návodu.",
+  "Medzitým v hlbšej panvici rozohrejeme olej, pridáme pokrájané ančovičky (alebo sardelovú pastu), chilli a nakoniec cesnak na plátky (dáme pozor, aby nezhorkol).",
+  "Keď je cestovina uvarená, spolu s brokolicou ju dierovanou lyžicou preložíme do panvice a premiešame.",
+  "Môžeme vylepšiť plátkovým syrom. Vývar z cestovín a brokolice nevylejeme, ale použijeme do polievky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "brokolica",
+  "letné"
+ ]
 }

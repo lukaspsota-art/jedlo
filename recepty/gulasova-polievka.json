@@ -1,70 +1,99 @@
 {
-  "id": "gulasova-polievka",
-  "nazov": "Gulášová polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Slovenská",
-  "zdroj": "klasický recept",
-  "porcie": 5,
-  "cas": "75 min",
-  "kcal_na_porciu": 315,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýta slovenská guľášová polievka s hovädzím mäsom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 900,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji dusi cibuľu dozlata.",
-    "Pridaj mäso nakrájané na kocky, opeč.",
-    "Vmiešaj papriku, podlej vývarom.",
-    "Var 50 minút, potom pridaj zemiaky.",
-    "Var ešte 15 minút do mäkka, dochuť soľou."
-  ],
-  "tipy": "Podávaj s kúskom chleba alebo pečivom.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "hovädzie",
-    "slovenské"
-  ]
+ "id": "gulasova-polievka",
+ "nazov": "Gulášová polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Gulášová polievka(fotorecept) (autor: kajusiqq)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/gulasova-polievkafotorecept/32198-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 383,
+ "popis": "Mnam mnam:)",
+ "ingrediencie": [
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzie mäso/sojove mäso alebo bravšove",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá sladká paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá štipľavá paprika",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Nadrobno pokrájanú cibuľu speníme na oleji,pridáme na kocky pokrájane mäso (ja pridávam stále sojove keďže niesom milovnk mäska ale moj otec a mamina robievali z hovädzím alebo bravčovým ževraj s hovädzím je najlepšie:)a oprážime.Poprášime mletou paprikou,posolíme podlejeme trochou vody pridámemrkcu a petržlen pokrajane na kružky:)",
+  "Pridáme na drobno pokrájane zemiaky,pretlačený cesnak,dolejeme zvyšnou vodoun a krátko povaríme.",
+  "Guláš ako hlavné jedlo: Nadrobno pokrájanú cibuľu speníme na oleji,pridáme na kocky pokrájane mäso (ja pridávam stále sojove keďže niesom milovnk mäska ale moj otec a mamina robievali z hovädzím alebo bravčovým ževraj s hovädzím je najlepšie:)a oprážime.Poprášime mletou paprikou,posolíme podlejeme trochou vody pridámemrkcu a petržlen pokrajane na kružky:)Pridáme na drobno pokrájane zemiaky,pretlačený cesnak,dolejeme zvyšnou vodoun a krátko povaríme.možme zahustiť mukou ale to by už bolo veľa na polievku. zahustíme mukou.",
+  "Podávame s chlebíkom:)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "hovädzie",
+  "slovenské"
+ ]
 }

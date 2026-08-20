@@ -1,65 +1,63 @@
 {
-  "id": "losos-teriyaki",
-  "nazov": "Losos teriyaki",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "25 min",
-  "kcal_na_porciu": 312,
-  "kcal_zdroj": "vypocet",
-  "popis": "Pečený losos v sladko-slanej teriyaki glazúre.",
-  "ingrediencie": [
-    {
-      "nazov": "Losos",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 25,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zázvor",
-      "mnozstvo": 5,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sezamové semienka",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zmiešaj sójovú omáčku, med, pretlačený cesnak a zázvor na marinádu.",
-    "Lososa marinuj 15 minút.",
-    "Peč pri 200 °C asi 15 minút, priebežne potieraj marinádou.",
-    "Posyp sezamovými semienkami.",
-    "Podávaj s ryžou."
-  ],
-  "tipy": "Zvyšnú marinádu prevar a použi ako omáčku navrch.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "losos",
-    "ázijské",
-    "rýchle"
-  ]
+ "id": "losos-teriyaki",
+ "nazov": "Losos teriyaki",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Losos Teriyaki (autor: Shan´shi)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/losos-teriyaki/70622-recept.html",
+ "porcie": 3,
+ "cas": "30 min",
+ "kcal_na_porciu": 267,
+ "popis": "Pečený losos v sladko-slanej teriyaki glazúre.",
+ "ingrediencie": [
+  {
+   "nazov": "Shan´shi wok olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Shan´shi Teriyaki omáčka",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Shan´shi sójová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Losos",
+   "mnozstvo": 2,
+   "jednotka": "plátok",
+   "poznamka": "cca 250 g, bez kože"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelenina",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "mrkva, kukurica, paprika..."
+  }
+ ],
+ "postup": [
+  "Plátky lososa umyjeme a trochu vysušíme. Na panvicu dáme 1 PL wok oleja a dochrumkava usmažíme lososa na oboch stranách. Lososa zalejeme s Teriyaki omáčkou a necháme piecť na miernom ohni približne 2-3 minúty. Lososa dáme dole z panvice a udržiavame ho v teple.",
+  "Strúčiky cesnaku ošúpeme a najemno nasekáme. Zeleninu nakrájame na kúsky a s cesnakom ju smažíme 5-8 minút. Ochutíme sójovou omáčkou a podávame s lososom.",
+  "Shan'shi Tip: Jedlo môžeme podávať s ryžou. Kto má rád trochu pikantnejšie jedlo, môže si do Teriyaki omáčky pridať ½ lyžičky Sambal Oelek."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "losos",
+  "ázijské",
+  "rýchle"
+ ]
 }

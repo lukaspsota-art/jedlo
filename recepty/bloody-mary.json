@@ -1,63 +1,61 @@
 {
-  "id": "bloody-mary",
-  "nazov": "Bloody Mary",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 150,
-  "kcal_zdroj": "vypocet",
-  "popis": "Pikantný kokteil z vodky a paradajkovej šťavy s korením.",
-  "ingrediencie": [
-    {
-      "nazov": "Vodka",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": "šťava/džús"
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Worcestershire omáčka",
-      "mnozstvo": 5,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň ľadom.",
-    "Prilej vodku, paradajkovú šťavu a citrónovú šťavu.",
-    "Pridaj worcestershire omáčku a korenie.",
-    "Dobre premiešaj a podávaj."
-  ],
-  "tipy": "Tradične sa ozdobuje stopkou zeleru.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "vodka",
-    "americké"
-  ]
+ "id": "bloody-mary",
+ "nazov": "Bloody Mary",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Bloody Mary",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11113",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 136,
+ "popis": "Ordinary Drink · Old-fashioned glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 44.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 88.7,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Worcesterská omáčka",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tabasco sauce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Za opatrného miešania nalejeme všetky ingrediencie do vysokého pohára.",
+  "Ozdobíme."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "vodka",
+  "americké"
+ ]
 }

@@ -1,57 +1,68 @@
 {
-  "id": "ovsena-kasa-s-jablkom-a-skoricou",
-  "nazov": "Ovsená kaša s jablkom a škoricou",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 316,
-  "kcal_zdroj": "vypocet",
-  "popis": "Zahrievajúce ovsené raňajky s jablkom, škoricou a medom.",
-  "ingrediencie": [
-    {
-      "nazov": "Ovsené vločky",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ovsené vločky priveď s mliekom do varu, potom stiahni na mierny oheň.",
-    "Var 5 minút za občasného miešania.",
-    "Jablko nastrúhaj alebo nakrájaj na kocky, pridaj do kaše spolu so škoricou.",
-    "Podávaj s medom navrchu."
-  ],
-  "tipy": "Skús aj s hruškou alebo banánom namiesto jablka.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "ovsená kaša",
-    "jablko"
-  ]
+ "id": "ovsena-kasa-s-jablkom-a-skoricou",
+ "nazov": "Ovsená kaša s jablkom a škoricou",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Ovsená kaša s jablkami (autor: ruddy)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/ovsena-kasa-s-jablkami/20322-recept.html",
+ "porcie": 3,
+ "cas": "15 min",
+ "kcal_na_porciu": 372,
+ "popis": "Je to jednoduché diétne jedlo, ktoré som veľmi často využíval ako zdroj energie pri náročnejších posilňovaniach a tréningoch v diéte. Naviac je to veľmi chutné jedlo, ktoré je nenáročné na čas ani použité suroviny.",
+ "ingrediencie": [
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polotučné mlieko",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené hrozienka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ovsené vločky si dáme do mlieka na chvíľu odstáť. Potom túto zmes nalejeme do hrnca a začneme variť na strednom ohni. Za stáleho miešania varíme, kým nám mlieko nezovrie a stíšime na slabší oheň. Následne povaríme ešte do požadovanej hustoty kaše.",
+  "Veľké jablko si nastrúhame a pridáme do neho med, škoricu a hrozienka. Túto zmes dobre premiešame.",
+  "Následne pridáme jablkovú zmes do odstavenej kaše a dobre premiešame. Naložíme na tanier a dozdobíme menším (sladkým) jablkom, nakrájanym na mesiačiky a posypeme škoricou. (Kto tento pokrm neberie ako diétny môže si kašu posypať aj práškovým cukrom)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "ovsená kaša",
+  "jablko"
+ ]
 }

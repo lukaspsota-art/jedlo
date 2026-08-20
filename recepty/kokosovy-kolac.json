@@ -1,64 +1,151 @@
 {
-  "id": "kokosovy-kolac",
-  "nazov": "Kokosový koláč",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "55 min",
-  "kcal_na_porciu": 412,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vláčny koláč s výraznou kokosovou chuťou.",
-  "ingrediencie": [
-    {
-      "nazov": "Kokos strúh",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prášok do pečiva",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vyšľahaj maslo s cukrom a vajcami.",
-    "Primiešaj múku, prášok do pečiva a kokos.",
-    "Prelej do formy.",
-    "Peč pri 175 °C asi 40 minút.",
-    "Nechaj vychladnúť pred krájaním."
-  ],
-  "tipy": "Skvele chutí aj s citrónovou polevou navrchu.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "kokos",
-    "koláč"
-  ]
+ "id": "kokosovy-kolac",
+ "nazov": "Kokosový koláč",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Kokosový koláč (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kokosovy-kolac/69541-recept.html",
+ "porcie": 18,
+ "cas": "55 min",
+ "kcal_na_porciu": 390,
+ "popis": "Koláč s chuťou exotických krajín – kokos, rum, škorica. Ak ste milovníci kokosu, kokosovej rolády, pripravte sa na ďalší \"kokosový\" zážitok.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrubá múka",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosová múčka",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 25,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rum",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 600,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Dolcela puding bourbon vanilka prémium",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosová múčka",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rum",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoláda na varenie",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosová múčka",
+   "mnozstvo": 3,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nasekané mandle",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vajcia vymiešame do peny s cukrom a s vanilkovým cukrom. Pridáme kokosovú múčku, múku premiešanú s práškom do pečiva, kakao, rum a nakoniec postupne primiešame olej.",
+  "Pripravenú piškótovú zmes vylejeme na plech veľkosti 33 x 38 cm, ktorý predtým obložíte papierom na pečenie a pečieme 15 minút v rúre rozohriatej na 180 °C.",
+  "Upečené piškótové cesto necháme vychladnúť a potom pohárom alebo okrúhlou formou vykrajujeme kúsky s priemerom približne 5 cm.",
+  "Obsah vrecúška s pudingom zmiešame s cukrom a približne 100 ml mlieka. Zvyšok mlieka necháme zovrieť. Nádobu s mliekom odstavíme z ohňa a pridáme rozmiešaný puding.",
+  "Varíme na miernom ohni približne 15 sekúnd. Potom primiešame kokosovú múčku, škoricu a rum. Puding necháme vychladnúť (za občasného miešania metličkou).",
+  "Maslo vymiešame do peny a postupne pridávame ochladený puding. Nakrájané kúsky piškótového cesta prekrojíme na polovicu po šírke.",
+  "Na každú polovicu dáme 1 – 2 lyžičky pripraveného krému a prikryjeme druhou polovicou. Boky koláčikov povaľkáme v kokosovej múčke, alebo v hoblinách z mandlí.",
+  "Podávanie: Čokoládu roztopíme nad parou, pridáme maslo nakrájané na plátky a vymiešame to jednoliatej zmesi. Koláčiky polejeme čokoládovou polevou, necháme vychladnúť a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "kokos",
+  "koláč"
+ ]
 }

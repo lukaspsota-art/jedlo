@@ -1,57 +1,62 @@
 {
-  "id": "ovsena-kasa-s-brusnicami-a-orechmi",
-  "nazov": "Ovsená kaša s brusnicami a orechmi",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 378,
-  "kcal_zdroj": "vypocet",
-  "popis": "Výživná ovsená kaša s brusnicami a chrumkavými orechmi.",
-  "ingrediencie": [
-    {
-      "nazov": "Ovsené vločky",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Brusnice sušené",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vlašské orechy",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ovsené vločky priveď s mliekom do varu, stiahni na mierny oheň.",
-    "Var 5 minút za miešania.",
-    "Vmiešaj brusnice.",
-    "Posyp nasekanými orechmi a medom pred podávaním."
-  ],
-  "tipy": "Brusnice dodávajú príjemnú kyslo-sladkú chuť.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "ovsená kaša",
-    "brusnice"
-  ]
+ "id": "ovsena-kasa-s-brusnicami-a-orechmi",
+ "nazov": "Ovsená kaša s brusnicami a orechmi",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Ovsená kaša (autor: barbara13)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/ovsena-kasa/7548-recept.html",
+ "porcie": 1,
+ "cas": "35 min",
+ "kcal_na_porciu": 229,
+ "popis": "Ľahko stráviteľná lahodná a navyše veľmi zdravá.Takto by som charakterizovala ovsenú kašu ktorú si robievam veľmi často.",
+ "ingrediencie": [
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do hrnca nalejeme mlieko.",
+  "Ďalej do hrnca s mliekom pridame cukor.",
+  "Do sladkého mlieka pridáme škoricu.",
+  "Pokračujeme pridaním kakaa.",
+  "Takto pripravenú zmes dáme na sporák a varíme.",
+  "Keď máme zmes skoro vriacu pridáme ovsené vločky.",
+  "Dobre premiešame.",
+  "Kašu povaríme cca 3 minúty za stáleho miešania.",
+  "Po dovarení servírujeme.DOBRÚ CHUŤ."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "ovsená kaša",
+  "brusnice"
+ ]
 }

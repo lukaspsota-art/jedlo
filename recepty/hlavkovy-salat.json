@@ -1,61 +1,56 @@
 {
-  "id": "hlavkovy-salat",
-  "nazov": "Hlávkový šalát na smotane",
-  "kategoria": "Šalát",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 120,
-  "popis": "Jemný hlávkový šalát so smotanovo-cesnakovou zálievkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hlávkový šalát",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kyslá smotana",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Šalát natrhaj a umy.",
-    "Zmiešaj smotanu, cesnak, ocot, cukor a soľ na zálievku.",
-    "Zálievku prelej cez šalát tesne pred podávaním."
-  ],
-  "tipy": "Zálievku pridaj až pred podávaním, aby šalát nezvädol.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "šalát"
-  ],
-  "foto": ""
+ "id": "hlavkovy-salat",
+ "nazov": "Hlávkový šalát na smotane",
+ "kategoria": "Šalát",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Hlávkový šalát so sedmokráskou (autor: natt)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/hlavkovy-salat-so-sedmokraskou-/38268-recept.html",
+ "porcie": 2,
+ "cas": "5 min",
+ "kcal_na_porciu": 154,
+ "popis": "Jar nám už prišla a s ňou až aj prvé sedmokrásky.Málo kto vie, že aj sedmokrásky sa \ndajú jesť. A pritom je to taká zdravá kvetinka! Podporuje látkovú výmenu, prečistuje krv \na odvodňuje. A dá sa zjesť celá, od lístkov až po kvietok. Tak už len ochutnať :)",
+ "ingrediencie": [
+  {
+   "nazov": "Hlávkový šalát",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sedmokrásky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablkový ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lieskové oriešky",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Hlávkový šalát očistíme, listy rozdelíme a poriadne umyjeme aj s kvetmi a lístkami sedmokrások.",
+  "zarobíme si zálievku s jabĺčkovím octom. Dáme 2 pl octu a 1-2 lyžice cukru. Primiešame vodu podľa potreby ( ochutnávame).",
+  "Šalát zo sedmokrások a šalátu dáme do veľkej misky a zalejeme zálievkou. Pridáme lieskové oriešky. Podávame :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "šalát"
+ ]
 }

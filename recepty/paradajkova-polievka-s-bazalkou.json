@@ -1,69 +1,88 @@
 {
-  "id": "paradajkova-polievka-s-bazalkou",
-  "nazov": "Paradajková polievka s bazalkou",
-  "kategoria": "Polievka",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 115,
-  "kcal_zdroj": "vypocet",
-  "popis": "Hladká talianska paradajková polievka s čerstvou bazalkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 400,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na olivovom oleji opraž cibuľu a cesnak.",
-    "Pridaj paradajky a vývar, var 20 minút.",
-    "Rozmixuj dohladka.",
-    "Vmiešaj nasekanú bazalku a dochuť soľou."
-  ],
-  "tipy": "Podávaj s kúskom opečeného chleba.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "paradajka",
-    "talianske"
-  ]
+ "id": "paradajkova-polievka-s-bazalkou",
+ "nazov": "Paradajková polievka s bazalkou",
+ "kategoria": "Polievka",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Paradajková polievka s bazalkou (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/paradajkova-polievka-s-bazalkou/70403-recept.html",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 154,
+ "popis": "Milovníci paradajok budú mať z tejto lahodnej polievky veľký kulinársky zážitok.",
+ "ingrediencie": [
+  {
+   "nazov": "Pasírované paradajky",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "sušená"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pšeničná múka",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pasírované paradajky a vodu necháme zvariť. Keď sa začnú variť, znížime oheň, pridáme pretlačený cesnak, vegetu, bazalku a varíme cca 10 minút na miernom ohni a zakryté pokrievkou.",
+  "Pripravíme si cesto na knedličky zmiešaním múky, vajca a soli.",
+  "Lyžičkou naberáme knedličky a dávame ich do variacej sa polievky. Znížime oheň, zakryjeme hrniec a povaríme polievku ešte 5 minút.",
+  "Podávanie: Nakoniec okoreníme, pokvapkáme olivovým olejom, premiešame a podávame.",
+  "Rada: Namiesto knedličiek môžete použiť uvarenú ryžu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "paradajka",
+  "talianske"
+ ]
 }

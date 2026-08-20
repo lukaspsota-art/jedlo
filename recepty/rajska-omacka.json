@@ -1,88 +1,130 @@
 {
-  "id": "rajska-omacka",
-  "nazov": "Paradajková (rajská) omáčka s mäsom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "80 min",
-  "kcal_na_porciu": 400,
-  "popis": "Sladkokyslá paradajková omáčka s dusenou hovädzinou a knedľou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie mäso",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "na dusenie"
-    },
-    {
-      "nazov": "Paradajkový pretlak",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bobkový list",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Klinček",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso opraž na masti s cibuľou, podlej vodou, pridaj korenie a dus domäkka.",
-    "Mäso vyber, nakrájaj.",
-    "Do šťavy zamiešaj pretlak a zápražku z masti a múky.",
-    "Dochuť cukrom, octom a soľou, povar do hladka.",
-    "Mäso vráť do omáčky a prehrej."
-  ],
-  "tipy": "Vyváž sladkú a kyslú chuť podľa seba. Podávaj s knedľou.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "omáčka",
-    "hovädzie"
-  ],
-  "foto": ""
+ "id": "rajska-omacka",
+ "nazov": "Paradajková (rajská) omáčka s mäsom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Paradajková omáčka (autor: renka73)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/paradajkova-omacka-/30127-recept.html",
+ "porcie": 8,
+ "cas": "80 min",
+ "kcal_na_porciu": 361,
+ "popis": "Sladkokyslá paradajková omáčka s dusenou hovädzinou a knedľou.",
+ "ingrediencie": [
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1 1/2 l"
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové celé korenie",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne celé korenie",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1 1/2 lyžičky"
+  },
+  {
+   "nazov": "Cukor kryštál",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie grilovacie na kurča",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrubá múka",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté mäso mix",
+   "mnozstvo": 550,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Z oleja a múky spravíme zásmažku .Zalejeme vodou a poriadne rozmiešame metličkou aby sa nám nespravili hrudky z múky.",
+  "Pridáme pretlak,korenie,soľ,bobkový list a cukor.Rozmiešame metličkou,privedieme k varu.",
+  "Keď začne vrieť vkladáme kuličky z mäsa a necháme na miernom ohni variť asi 15-20 minút.",
+  "Hotové môžme ešte prikoreniť.Podávame s knedlou alebo tarhoňou ja som dala cestovinovú ryžu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "omáčka",
+  "hovädzie"
+ ]
 }

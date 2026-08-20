@@ -1,0 +1,43 @@
+{
+ "id": "egg-cream-sodovy-napoj-so-sirupom",
+ "nazov": "Egg cream (sódový nápoj so sirupom)",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Egg Cream",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12668",
+ "porcie": 2,
+ "cas": "5 min",
+ "kcal_na_porciu": 137,
+ "popis": "Other / Unknown · Coffee mug",
+ "ingrediencie": [
+  {
+   "nazov": "Čokoláda",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 177.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sóda",
+   "mnozstvo": 177.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "V pohári zmiešame sirup s mliekom.",
+  "Dolejeme sódou a podávame so slamkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "čokoláda",
+  "bezmäsité"
+ ]
+}

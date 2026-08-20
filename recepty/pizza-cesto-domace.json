@@ -1,58 +1,62 @@
 {
-  "id": "pizza-cesto-domace",
-  "nazov": "Domáce pizza cesto",
-  "kategoria": "Pečivo",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "90 min",
-  "kcal_na_porciu": 521,
-  "kcal_zdroj": "vypocet",
-  "popis": "Základné domáce kysnuté cesto na pizzu.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažnej vody, droždia, oleja a soli vypracuj hladké cesto.",
-    "Nechaj kysnúť aspoň 1 hodinu, kým nezdvojnásobí objem.",
-    "Rozdeľ na 4 diely.",
-    "Rozváľaj na tenké kolá podľa veľkosti plechu.",
-    "Naplň podľa chuti a peč pri 230 °C asi 12-15 minút do zlatista."
-  ],
-  "tipy": "Cesto sa dá pripraviť aj deň vopred a nechať pomaly kysnúť v chladničke.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "talianske",
-    "pizza"
-  ]
+ "id": "pizza-cesto-domace",
+ "nazov": "Domáce pizza cesto",
+ "kategoria": "Pečivo",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Cesto na pizzu (autor: bebetko)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cesto-na-pizzu/62044-recept.html",
+ "porcie": 24,
+ "cas": "75 min",
+ "kcal_na_porciu": 471,
+ "popis": "Ciest na pizzu je tu asi tiez pozehnane ale malo kedy sa mi priblizilo k tej pizzovej chute ... \r\nteraz pracujem u sestri v restauracii a kuchtime tam pizzu z tohoto cesta, tak ak budete \r\nchciet vyskusajte mozno sa vam zapaci a bude chutit :)",
+ "ingrediencie": [
+  {
+   "nazov": "Múka hladká špeciál 00",
+   "mnozstvo": 3000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Studená voda",
+   "mnozstvo": 1500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celé vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé droždie",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Takze ano cesto na pizzu je docela skromne na suroviny nic zvlastne ani specialne. Dolezity je pomer cukru a soli... na kazde kilo muky polievkova lyzica cukru i soli. Z drozdia nezarabame kvasok. Do nadoby alebo robota co je najlepsia alternativa vysypeme muku, cukor a sol. Poriadne premiesame, aby kvasnice, ktore len tak rozdrvime v rukach a pridame k muke nebolo v priamom kontakte so solou. Dalej pridame uz len vajicka cele a vodu ktora musi byt STUDENA! :) takze toto je zaklad ku kvalitnemu cestu. Teraz nasleduje mucenie... ak cesto zarabate rucne z viac ako jedneho kila poriadne sa zapotite... cesto potrebuje dlhsie miesenie poriadne zapracovanie aby mohol zacat lepok pracovat. Ak sa nam zda tuhe prilejeme si este studenu vodu. Po vymieseni este stale nieje take dokonale ako by malo byt. Asi to najdolezitejsie co cesto na pizzu potrebuje je cas. Takze po dokladnom premieseni cesto nehame v nadobe alebo si ho nehame na stole prikryjeme utierkov a nechame aspon hodinu odychovat. ALE! nie na teplom mieste :) Cesto by malo byt stale studensie. Je velmi dobre ak si cesto pripravite az niekolko hodin dopredu alebo den vo pred. Cesto stare den dva je omnoho lepsie ako to cerstve. Ak budete pizzu pripravovat hned pizza bude gumena.... Po hodine je dobre pripravit si gulicky...na porciu pizze je prevazne dobre dat 200 az 280 g cesta..podla velkosti a kto ma ako rad hrube cesto ::) Na cesto nedavame ziaden olej ani tuk ak je spravne pripravene malo by byt hladke a nemalo by sa lepit na ruky. Hotove gulicky zakryjeme utierkov a dame do igelitovej tasky a odlozime do chladnicky.",
+  "Pred pripravou pizze cesto na chvilku vylozime aby trochu povolilo pretoze ak mate velky chlad v chladnicke cesto sa bude tazko natahovat.... tak a ked uz toto vsetko mame je uz len na vas a na vasich chutovych poharikoch co na cesto polozite :) Nam vide z troch kg skoro 20 porcii :) v nasej restauracii mame pizzu ako doplnok a pecieme ju teda v elektrickej rure na 250°C a je velmi dobra, samozrejme ze vona praskajuceho dreva a popola na pizze chyba ale myslim ze je velmi dobrou domacou alternativou :)",
+  "Dufam ze ak sa rozhodnete ho vyskusat budete spokojny :) Dobru chut :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "talianske",
+  "pizza"
+ ]
 }

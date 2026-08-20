@@ -1,57 +1,63 @@
 {
-  "id": "singapore-sling",
-  "nazov": "Singapore Sling",
-  "kategoria": "Kokteil",
-  "kuchyna": "Ázijská",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 168,
-  "kcal_zdroj": "vypocet",
-  "popis": "Exotický kokteil z ginu, ananásu a grenadíny.",
-  "ingrediencie": [
-    {
-      "nazov": "Gin",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ananás",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "pretlačený"
-    },
-    {
-      "nazov": "Grenadína",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do shakera daj gin, ananásové pyré, grenadínu, limetkovú šťavu a ľad.",
-    "Poriadne pretrep.",
-    "Precedi do vysokého pohára s ľadom.",
-    "Ozdob kúskom ananásu."
-  ],
-  "tipy": "Vznikol v hoteli Raffles v Singapure začiatkom 20. storočia.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "gin",
-    "tropické"
-  ]
+ "id": "singapore-sling",
+ "nazov": "Singapore Sling",
+ "kategoria": "Kokteil",
+ "kuchyna": "Ázijská",
+ "zdroj": "TheCocktailDB – Singapore Sling",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12214",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 225,
+ "popis": "Ordinary Drink · Hurricane glass",
+ "ingrediencie": [
+  {
+   "nazov": "Koktejlová višňa",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Grenadína",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Gin",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sladkokyslá zmes",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koktejlová višňa",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie nalejeme do šejkra naplneného ľadom.",
+  "Poriadne pretrepeme.",
+  "Precedíme do vysokého pohára.",
+  "Ozdobíme ananásom a koktejlovou višňou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "gin",
+  "tropické"
+ ]
 }

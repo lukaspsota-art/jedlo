@@ -1,46 +1,88 @@
 {
-  "id": "kokosovo-cokoladove-gulky",
-  "nazov": "Kokosovo-čokoládové guľky",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "20 min (+ chladenie)",
-  "kcal_na_porciu": 235,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sladké guľky z kokosu a čokolády bez pečenia.",
-  "ingrediencie": [
-    {
-      "nazov": "Kokos strúh",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čokoláda",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kondenzované mlieko",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Čokoládu rozpusti vo vodnom kúpeli.",
-    "Zmiešaj s kokosom a kondenzovaným mliekom.",
-    "Tvaruj malé guľôčky.",
-    "Daj do chladničky aspoň 30 minút stuhnúť."
-  ],
-  "tipy": "Rýchly sladký dezert bez potreby rúry.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "kokos",
-    "čokoláda",
-    "bez pečenia"
-  ]
+ "id": "kokosovo-cokoladove-gulky",
+ "nazov": "Kokosovo-čokoládové guľky",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Kokosovo-krupicové guľky (autor: frommykitchendotcom)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kokosovo-krupicove-gulky/87081-recept.html",
+ "porcie": 8,
+ "cas": "20 min (+ chladenie)",
+ "kcal_na_porciu": 362,
+ "popis": "Sladké guľky z kokosu a čokolády bez pečenia.",
+ "ingrediencie": [
+  {
+   "nazov": "Detská krupica",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandle",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do misky dáme krupicu, kryštálový, vanilkový cukor, múku a lyžicou všetko premiešame. Na platni necháme zohriať kravské mlieko. Sypké suroviny zmiešame s kokosovým mliekom.",
+  "Keď je mlieko teplé, vlejeme doň zmes s kokosovým mliekom a varíme ako puding do zhustnutia. Stiahneme z ohňa a ešte do teplého vmiešame maslo a strúhaný kokos. Necháme vychladnúť za občasného miešania.",
+  "Hmotu naberáme menšou lyžičkou a formujeme guľky, ktoré obalíme v kokose. Hmota sa bude trochu lepiť na prsty, ale hneď po obalení sa guľky ďalej pekne formujú.",
+  "Ukladáme na tanier a do stredu každej guľky dáme mandľu. Necháme stuhnúť v chlade. Po vychladnutí chutia výborne zmrzlinovo."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "kokos",
+  "čokoláda",
+  "bez pečenia"
+ ]
 }

@@ -1,51 +1,43 @@
 {
-  "id": "caipirinha",
-  "nazov": "Caipirinha",
-  "kategoria": "Kokteil",
-  "kuchyna": "Brazílska",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 213,
-  "kcal_zdroj": "vypocet",
-  "popis": "Národný brazílsky kokteil z rumu, limetky a cukru.",
-  "ingrediencie": [
-    {
-      "nazov": "Rum",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": "alebo cachaça"
-    },
-    {
-      "nazov": "Limeta bio",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "na kúsky"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Limetku nakrájaj na kúsky a vlož do pohára.",
-    "Pridaj cukor a rozmačkaj drevenou paličkou, aby pustila šťavu.",
-    "Naplň pohár drveným ľadom.",
-    "Prilej rum a premiešaj."
-  ],
-  "tipy": "Tradične sa pripravuje z brazílskej cachaça.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "rum",
-    "brazílske"
-  ]
+ "id": "caipirinha",
+ "nazov": "Caipirinha",
+ "kategoria": "Kokteil",
+ "kuchyna": "Brazílska",
+ "zdroj": "TheCocktailDB – Caipirinha",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11202",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 207,
+ "popis": "Ordinary Drink · Old-fashioned glass",
+ "ingrediencie": [
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cachaça",
+   "mnozstvo": 73.9,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Limetku s cukrom dáme do nízkeho pohára a rozmačkáme.",
+  "Pohár naplníme ľadom a dolejeme cachaçou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "rum",
+  "brazílske"
+ ]
 }

@@ -1,69 +1,83 @@
 {
-  "id": "harula",
-  "nazov": "Haruľa (zemiakové placky pečené)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 320,
-  "popis": "Pečené zemiakové placky s cesnakom a majoránkou — z rúry alebo z panvice.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": "nastrúhané"
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majoránka",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 4,
-      "jednotka": "PL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky nastrúhaj a mierne odtlač prebytočnú tekutinu.",
-    "Zamiešaj múku, vajce, prelisovaný cesnak, majoránku a soľ.",
-    "Rozohrej olej na panvici, cesto rozotri na tenké placky.",
-    "Peč z oboch strán dozlata a dochrumkava."
-  ],
-  "tipy": "Čím tenšia placka, tým chrumkavejšia. Môžeš piecť aj na plechu v rúre pri 200 °C.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "zemiaky",
-    "vegetariánske"
-  ],
-  "foto": ""
+ "id": "harula",
+ "nazov": "Haruľa (zemiakové placky pečené)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Haruľa bez múky (fotorecept) (autor: danculka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/harula-bez-muky-fotorecept/25560-recept.html",
+ "porcie": 2,
+ "cas": "45 min",
+ "kcal_na_porciu": 554,
+ "popis": "Pečené zemiakové placky s cesnakom a majoránkou — z rúry alebo z panvice.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa svojej chuti ,majorán,č.korenie.rasca"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Fazuľa biela sterilizovaná",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škrob",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená sterilizovaná fazuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "+ paradajka 1+1"
+  },
+  {
+   "nazov": "Bylinkový dresing",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rozmixujeme si zemiaky ,cesnak a fazuľu...",
+  "primiešame ostatné ingrediencie plus solamyl..a vymiešame...",
+  "natrieme plech bravčovou masťou..a dáme na to cesto a dáme piecť na 200st do ružova...",
+  "kým sa nám pečie zmiešame ingrediencie na šalát a budeme podávať so šalátom...",
+  "kdo nebude chcieť môže ,si dať so smotanou a kôprom,dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "zemiaky",
+  "vegetariánske"
+ ]
 }

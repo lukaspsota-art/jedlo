@@ -1,63 +1,77 @@
 {
-  "id": "ciccerova-natierka-s-bazalkou",
-  "nazov": "Cícerová nátierka s bazalkou",
-  "kategoria": "Nátierka",
-  "kuchyna": "Stredomorská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 208,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová nátierka z cíceru s čerstvou bazalkou, podobná hummusu.",
-  "ingrediencie": [
-    {
-      "nazov": "Cícer predvarený",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetky suroviny vlož do mixéra.",
-    "Rozmixuj dohladka, podľa potreby pridaj trochu vody.",
-    "Dochuť soľou a citrónovou šťavou.",
-    "Podávaj s pečivom alebo zeleninou."
-  ],
-  "tipy": "Vydrží v chladničke 3-4 dni v uzavretej nádobe.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "cícer",
-    "vegetariánske"
-  ]
+ "id": "ciccerova-natierka-s-bazalkou",
+ "nazov": "Cícerová nátierka s bazalkou",
+ "kategoria": "Nátierka",
+ "kuchyna": "Stredomorská",
+ "zdroj": "Varecha.sk – Cícerová nátierka (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cicerova-natierka/69718-recept.html",
+ "porcie": 6,
+ "cas": "70 min",
+ "kcal_na_porciu": 218,
+ "popis": "Vegetariánsku nátierku podávajte s opraženým domácim chlebom pokvapkaným kvapkami olivového oleja zmiešaného s šťavou z citróna a \r\nvychutnávajte si toto ľahké a lahodné jedlo.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pór",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený rozmarín",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Granulovaný cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lagris cícer",
+   "mnozstvo": 480,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Lagris cícer uvaríme podľa návodu na obale.",
+  "Na zahriatom olivovom oleji opečieme najemno nakrájaný pór. Pridáme rozmarín, cesnak, uvarený cícer a všetko spolu zľahka opražíme.",
+  "Zložíme z ohňa a necháme trošku vychladnúť. Všetko spolu rozmixujeme v elektrickom mixéri.",
+  "Pridáme soľ, korenie, citrónovú šťavu a všetko spolu premiešame.",
+  "Podávanie: Nátierku podávame na opečenom chlebe, s tortillami, krekrami alebo podľa vašej chuti. Môžeme posypať sezamom alebo inými semiačkami.",
+  "Rada: Podľa vašej chuti pridajte viac alebo menej olivového oleja a citrónovej šťavy, aby ste dostali želanú konzistenciu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "cícer",
+  "vegetariánske"
+ ]
 }

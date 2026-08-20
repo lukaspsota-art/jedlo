@@ -1,62 +1,81 @@
 {
-  "id": "krupicova-kasa",
-  "nazov": "Krupicová kaša",
-  "kategoria": "Raňajky",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 300,
-  "popis": "Mliečna krupicová kaša s maslom, kakaom alebo škoricovým cukrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Krupica",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "štipka",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kakao",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": "na posypanie"
-    }
-  ],
-  "postup": [
-    "Mlieko priveď k varu s cukrom a štipkou soli.",
-    "Za stáleho miešania vsypávaj krupicu a var 3 minúty.",
-    "Nalej do misiek, posyp kakaom a pridaj maslo."
-  ],
-  "tipy": "Miešaj počas zasypávania, aby nevznikli hrudky.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "sladké",
-    "raňajky"
-  ],
-  "foto": ""
+ "id": "krupicova-kasa",
+ "nazov": "Krupicová kaša",
+ "kategoria": "Raňajky",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Rýchla krupicová kaša (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/rychla-krupicova-kasa/89153-recept.html",
+ "porcie": 4,
+ "cas": "17 min",
+ "kcal_na_porciu": 380,
+ "popis": "Krupicová kaša aj pre tých, čo sa vyhýbajú lepku a laktóze.",
+ "ingrediencie": [
+  {
+   "nazov": "Krupicová ryžová instantná kaša",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžová múka",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžové mlieko",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamové semienka",
+   "mnozstvo": 4,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lieskové orechy",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Černice",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ryžovú kašu a ryžovú múku v hrnci zmiešame so škoricou a s mliekom. Za stáleho miešania varíme do zhustnutia.",
+  "Do hotovej kaše primiešame med a rozdelíme ju do štyroch misiek.",
+  "Ozdobíme kakaom, sezamovými semienkami, lieskovcami a ovocím."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "sladké",
+  "raňajky"
+ ]
 }

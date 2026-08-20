@@ -1,51 +1,56 @@
 {
-  "id": "redkovkova-natierka-s-jogurtom",
-  "nazov": "Reďkovková nátierka s jogurtom",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 55,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ľahká svieža nátierka z reďkoviek a gréckeho jogurtu.",
-  "ingrediencie": [
-    {
-      "nazov": "Reďkovky",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Grécky jogurt",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pažítka",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Reďkovky nakrájaj na drobné kocky.",
-    "Zmiešaj s jogurtom a nasekanou pažítkou.",
-    "Dochuť soľou.",
-    "Podávaj s pečivom alebo zeleninou."
-  ],
-  "tipy": "Osviežujúca ľahká nátierka na letné dni.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "reďkovky",
-    "ľahké"
-  ]
+ "id": "redkovkova-natierka-s-jogurtom",
+ "nazov": "Reďkovková nátierka s jogurtom",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Reďkovková nátierka (autor: marianna76)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/redkovkova-natierka/16844-recept.html",
+ "porcie": 3,
+ "cas": "7 min",
+ "kcal_na_porciu": 115,
+ "popis": "pri tejto nátierke moje deti zjedia veľa reďkovky, koľko nastrúham, je to lepšie ako len tak nakrájať reďkovku na chlieb...",
+ "ingrediencie": [
+  {
+   "nazov": "Reďkovky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trojuholníkový syr",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údený syr",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tatárska omáčka",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Reďkovky postrúhame na väčšom strúhadle, syr údený na jemnom a trojuholníkový dáme len tak do misky na rozmiešanie, pridáme tatársku, pažítku. Keď je cesnak medvedí pridávam aj ten, alebo cíbiky.",
+  "všetko dobre premiešame, keď nedávam údený syr, treba trochu prisoliť. kto potrebuje okoreniť.",
+  "robievam aj z dvojitej dávky, aby sa nám všetkým ušlo."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "reďkovky",
+  "ľahké"
+ ]
 }

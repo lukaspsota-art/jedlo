@@ -1,82 +1,128 @@
 {
-  "id": "zemlovka",
-  "nazov": "Žemľovka s jablkami",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "60 min",
-  "kcal_na_porciu": 380,
-  "popis": "Zapečené žemle s jablkami, tvarohom a hrozienkami — sladké jedlo z rúry.",
-  "ingrediencie": [
-    {
-      "nazov": "Rožok",
-      "mnozstvo": 6,
-      "jednotka": "ks",
-      "poznamka": "staršie"
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 400,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrozienka",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rožky nakrájaj a namoč v mlieku.",
-    "Jablká nastrúhaj a zmiešaj so škoricou a cukrom.",
-    "Vajcia rozšľahaj a zamiešaj do žemieľ.",
-    "Vrstvi žemle, jablká, tvaroh a hrozienka do vymastenej formy.",
-    "Peč pri 180 °C asi 40 minút."
-  ],
-  "tipy": "Vrch potri maslom pre chrumkavú kôrku.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "sladké",
-    "jablká"
-  ],
-  "foto": ""
+ "id": "zemlovka",
+ "nazov": "Žemľovka s jablkami",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Jablková žemľovka (autor: Jaroslav Žídek)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/jablkova-zemlovka/60769-recept.html",
+ "porcie": 11,
+ "cas": "20 min",
+ "kcal_na_porciu": 296,
+ "popis": "Zapečené žemle s jablkami, tvarohom a hrozienkami — sladké jedlo z rúry.",
+ "ingrediencie": [
+  {
+   "nazov": "Veka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvaroh",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablková marmeláda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti (najlepšie domáca"
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "pred použitím namočené v teplej vode"
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Najskôr oddelíme žĺtky od bielkov. K žĺtkom pridáme 3 vrchovaté lyžice cukru, škoricu a metličkou vyšľaháme. Keď máme vyšľahanú hustú penu, pristrúhame do nej kôru z citróna. Prilejeme mlieko, zamiešame.",
+  "Staré rožky nakrájame asi na 1 cm hrubé plátky, dáme ich do mliečnej zmesi a necháme nasiaknuť. (Rožky ale nesmú byť úplne rozmočené.)",
+  "Maslom vymastíme zapekaciu misu, vysypeme dookola strúhankou. Namočené rožky vyskladáme do misy, prázdne miesta vyplníme roztrhnutými kúskami rožka, spodok musí byť celistvý. Potrieme jablkovou marmeládou.",
+  "Tvaroh zmiešame v mise s citrónovou kôrou, hrozienkami, lyžicou cukru, trochou mlieka a zmes vylejeme na marmeládu.",
+  "Ďalšou vrstvou budú strúhané jablká.",
+  "TIP: Jablko rozštvrtíme, vyrežeme jadro. Šupku nemusíme olúpať, ale jablko nastrúhame tak, že nám šupka ostane v ruke. Jablko môžeme pokvapkať citrónovou šťavou, aby nezhnedlo. Šťavu z jablka nechávame, aby bola žemľovka šťavnatá.",
+  "Pri ďalšej vrstve postupujeme rovnako: rožky, marmeláda, tvaroh, jablká a na povrch opäť rožky, ktoré polejeme zvyškom vaječnej zmesi. Dáme zapiecť do rúry na 180°C. Necháme asi 20 minúť zapekať.",
+  "Z bielkov s lyžicou cukru vyšľaháme tuhý sneh a dáme ho na povrch žemľovky a ešte necháme zapiecť, kým sneh nebude sfarbený do zlatista."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "sladké",
+  "jablká"
+ ]
 }

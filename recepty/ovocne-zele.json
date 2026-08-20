@@ -1,46 +1,117 @@
 {
-  "id": "ovocne-zele",
-  "nazov": "Ovocné želé",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min (+ chladenie)",
-  "kcal_na_porciu": 80,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý ľahký dezert z ovocnej šťavy a želatíny.",
-  "ingrediencie": [
-    {
-      "nazov": "Pomarančový džús",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Želatín",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jahody",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Želatínu rozpusti podľa návodu na obale v troške teplej šťavy.",
-    "Zmiešaj so zvyšnou šťavou.",
-    "Jahody nakrájaj na kúsky a rozdeľ do pohárov.",
-    "Zalej ovocnou zmesou.",
-    "Daj do chladničky aspoň 3 hodiny stuhnúť."
-  ],
-  "tipy": "Ľahký nízkokalorický dezert, skvelý v lete.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "želé",
-    "ľahké"
-  ]
+ "id": "ovocne-zele",
+ "nazov": "Ovocné želé",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Ovocná torta so želé (fotorecept) (autor: olinecka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/ovocna-torta-so-zele-fotorecept/83285-recept.html",
+ "porcie": 18,
+ "cas": "100 min",
+ "kcal_na_porciu": 343,
+ "popis": "Piekla som ju pre tých, ktorých \r\nmám rada.* Pre milovníkov ovocných \r\ndobrôt, ovocie môže byť \r\nrôzne...",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká tortová múka",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mascarpone",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jemný tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Plnka jahodová v prášku",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahodový sirup",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Želé tortové červené",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahody",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "čerstvé (alebo iné ovocie podľa sezóny"
+  },
+  {
+   "nazov": "Jahodový džem",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cesto: Bielky s cukrom a štipkou soli vyšľaháme do tuha. Pridáme po lyžiciach olej a postupne aj po jednom žĺtku, miešame na menších otáčkach.",
+  "Do vaječnej peny varechou zľahka vmiešame preosiatu múku. Formu (25x25 cm) vyložíme papierom na pečenie.",
+  "Cesto vlejeme do formy a pečieme 40-45 minút v rúre predhriatej na 180 stupňov.",
+  "Upečený korpus necháme vychladnúť, stiahneme papier na pečenie a korpus prekrojíme na dve rovnaké časti. Pripravené suroviny na plnku, jahodové želé, ovocie.",
+  "Smotanu s jahodovou plnkou v prášku (nemusí byť) vyšľaháme do polotuha, pridáme tvaroh, mascarpone, jahody pokrájané na menšie kúsky a došľaháme. Do tortovej formy dáme spodný diel korpusu, jahody prekrojíme a poukladáme celom obvode.",
+  "Rozotrieme plnku, uhladíme a trochou plnky potrieme aj druhú časť korpusu, ktorý preložíme, zľahka pritlačíme.",
+  "Nanesieme jahodový džem a dáme do chladničky stuhnúť.",
+  "Podľa návodu pripravíme želé, ktoré nalejeme na celý povrch torty. Dáme do chladničky stuhnúť. Tortu pred podávaním ozdobíme ovocím podľa seba.",
+  "Konečná verzia, ale rez torty nemám... Po gratulácii som už nestihla foto.",
+  "Dnešná oslávenkyňa, nevesta Zlaťka."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "želé",
+  "ľahké"
+ ]
 }

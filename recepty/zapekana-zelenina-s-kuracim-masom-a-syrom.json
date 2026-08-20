@@ -1,71 +1,113 @@
 {
-  "id": "zapekana-zelenina-s-kuracim-masom-a-syrom",
-  "nazov": "Zapekaná zelenina s kuracím mäsom a syrom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "50 min",
-  "kcal_na_porciu": 377,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduché jedno-mísové zapekané jedlo so zeleninou, kuracím mäsom a syrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cuketa",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Kuracie mäso a zeleninu nakrájaj na kocky.",
-    "Premiešaj s olivovým olejom a soľou, ulož do zapekacej misy.",
-    "Peč pri 200 °C asi 30 minút.",
-    "Posyp syrom a dopeč ďalších 10 minút do zlatista.",
-    "Podávaj priamo z misy."
-  ],
-  "tipy": "Jednoduché jedlo takmer bez čistenia riadu navyše.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "zapekané",
-    "jedno-mísové"
-  ]
+ "id": "zapekana-zelenina-s-kuracim-masom-a-syrom",
+ "nazov": "Zapekaná zelenina s kuracím mäsom a syrom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Zapekané kuracie prsia so zeleninou, syrom a slaninou (fotorecept) (autor: luclup)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zapekane-kuracie-prsia-so-zeleninou-syrom-a-slaninou-fotorecept/70500-recept.html",
+ "porcie": 12,
+ "cas": "60 min",
+ "kcal_na_porciu": 371,
+ "popis": "Náš dnešný obed :)",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údená slanina",
+   "mnozstvo": 130,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprika biela",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr čedar",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie na hydinu",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mäso nakrájame na polovicu vertikálne, uložíme do misy a pridáme všetky suroviny na marinádu (cesnak nakrájame na drobno alebo prelisujeme) a dôkladne premiešame.",
+  "Ošúpeme 3 cibule a nakrájame na kolieska, jednotlivé kolieska oddelíme a poukladáme na dno zapekacej misy. Slaninu nakrájame na tenké plátky (50 g) a uložíme na cibuľu. Mäso uložíme na vrch.",
+  "Nakrájame zvyšnú slaninu na rezančeky, syr na tenké plátky, cibuľu, bielu papriku a paradajky na tenké kolieska, červenú papriku na rezančeky. Na každý kúsok uložíme plátok slaniny, syra, cibule, papriky, paradajky - červenú papriku \"zapichneme\" medzi mäsové kúsky.",
+  "Maslo nakrájame na plátky a uložíme na vrch, ktorý ešte pokvapkáme paradajkovým pretlakom (asi 6 PL). Zapekaciu misu zakryjeme a pečieme vo vyhriatej rúre asi 40 minút na 180 °C. Po tých 40 minútach vyberieme misu z rúry, mäso polejeme vydusenou šťavou, teplotu zvýšime na 220 °C a odkryté zapečieme (cca 20-30 minút). Ja som si všetko pripravila deň vopred, zapekaciu misu nechala v chladničke cez noc a piekla na druhý deň. Po vybratí z chladničky je potrebné nechať misu odstáť asi hodinku pri izbovej teplote.",
+  "Podávame s prílohou podľa chuti. Ja som zvolila kus-kus, ktorý máme ku kuracinke najradšej."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "zapekané",
+  "jedno-mísové"
+ ]
 }

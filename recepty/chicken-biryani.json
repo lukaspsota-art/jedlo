@@ -1,115 +1,125 @@
 {
-  "id": "chicken-biryani",
-  "nazov": "Chicken Biryani",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Indická",
-  "zdroj": "internet – adaptované (BBC Good Food)",
-  "porcie": 5,
-  "cas": "1,5 h",
-  "kcal_na_porciu": 620,
-  "popis": "Vrstvená koreninová ryža basmati s marinovaným kuraťom, šafranom a bylinkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracích stehien",
-      "mnozstvo": 500,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "ryža basmati",
-      "mnozstvo": 300,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Bieleho jogurtu",
-      "mnozstvo": 200,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "cibuľa",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 3,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Zázvor",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Kurkumy",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "garam masala",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "rasca",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Klinčeky",
-      "mnozstvo": 4,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Kardamómy",
-      "mnozstvo": 4,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Bobkový list",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Šafran",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Mäta",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Koriander",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Kura namarinuj v jogurte, cesnaku, zázvore a koreninách aspoň 1 h. Cibuľu opeč dozlatista (časť odlož na ozdobu).",
-    "Kura poduste s cibuľou ~15 min. Ryžu polouvar v korenenej vode a sceď.",
-    "Navrstvi mäso a ryžu, pokvapkaj šafránovým mliekom, pridaj bylinky a maslo. Prikry a duste (dum) na miernom ohni 20–25 min. Pred podávaním premiešaj."
-  ],
-  "tipy": "Ryžu len polouvar — dovarí sa parou pri záverečnom dusení.",
-  "foto": "",
-  "tagy": [
-    "indické",
-    "kuracie",
-    "ryža"
-  ]
+ "id": "chicken-biryani",
+ "nazov": "Chicken Biryani",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Indická",
+ "zdroj": "Wikibooks Cookbook – Chicken Biryani (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook%3AChicken_Biryani",
+ "porcie": 10,
+ "cas": "1,5 h",
+ "kcal_na_porciu": 430,
+ "popis": "Vrstvená koreninová ryža basmati s marinovaným kuraťom, šafranom a bylinkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Ryža",
+   "mnozstvo": 480,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kuracie mäso",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biely jogurt",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": "drvená a nasekaná"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 1.5,
+   "jednotka": "ks",
+   "poznamka": "olúpaná a na plátky"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": "nasekaná, veľká"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "puréed"
+  },
+  {
+   "nazov": "Chiles ",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Kurkuma",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šafran",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kardamóm",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Ryžu namočíme, prepláchneme a uvaríme.",
+  "Kurča marinujeme v citrónovej šťave, jogurte, zázvore, cesnaku, soli, kurkume, mletej rasci, klinčekoch, čili, nakrájaných paradajkách a paradajkovom pretlaku.",
+  "Na panvici rozohrejeme olej, pridáme cibuľu a opekáme do zlatohneda. Zamiešame ku kurčaťu.",
+  "Hlboký hrniec so silným dnom vymastíme. Navrstvíme ryžu, na ňu kuracie mäso, prikryjeme zvyškom ryže a navrch dáme šafran.",
+  "Pečieme v rúre 1–1,5 hodiny pri 150 °C. Prepečenie skontrolujeme rozkrojením kúska mäsa.",
+  "Biryani podávame s jogurtom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "indické",
+  "kuracie",
+  "ryža"
+ ]
 }

@@ -1,58 +1,87 @@
 {
-  "id": "rezance-s-tvarohom",
-  "nazov": "Rezance s tvarohom",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 420,
-  "popis": "Cestoviny obalené v sladkom tvarohu, preliate maslom a zakysanou smotanou.",
-  "ingrediencie": [
-    {
-      "nazov": "Široké rezance",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Práškový cukor",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kyslá smotana",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rezance uvar a sceď.",
-    "Prehoď na rozpustenom masle.",
-    "Rozdeľ na taniere, posyp tvarohom zmiešaným s cukrom.",
-    "Dozdob lyžicou zakysanej smotany."
-  ],
-  "tipy": "Slaná verzia: tvaroh bez cukru, s pažítkou a slaninou.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "sladké",
-    "tvaroh",
-    "cestoviny"
-  ],
-  "foto": ""
+ "id": "rezance-s-tvarohom",
+ "nazov": "Rezance s tvarohom",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Domáce tvarohové rezance (fotorecept) (autor: babkamt)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domace-tvarohove-rezance-fotorecept/37693-recept.html",
+ "porcie": 6,
+ "cas": "20 min",
+ "kcal_na_porciu": 455,
+ "popis": "V piatok zvyknem variť niečo z múky . Nemusíme jesť každý deň mäso .",
+ "ingrediencie": [
+  {
+   "nazov": "Hrubá múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Studená voda",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej do cesta",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť bravčová domáca",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrudkovitý tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Dnes som múku vážila . Bežne robím rezance od oka. Na dosku som dala hrubú múku . Trochu som ju osolila . Do stredu som spravila jamku , rozbila som do nej vajíčko . Pridala som 1 čl oleja . Príborovým nožíkom rozmiešam vajce s olejom a vodou s múkou .",
+  "Potom ručne vymiesim hladké cesto . Rozdelila som ho na dve časti .",
+  "Vypracované cesto som prikryla . Nechala som ho 30 minút odpočinúť.",
+  "Po 30 minútach som ho rozdelila na 4 časti.",
+  "Každú časť na doske vyvaľkám asi na 2 mm . Nechám trochu obschnúť .",
+  "Medzitým vyvaľkám ostatné cestá .",
+  "Keď sú všetky cestá vyvaľkané , prvé cesto nakrájam na pásy široké asi 10 cm. Trochu pásy cesta pomúčim a poukladám ich na seba . Potom ich nakrájam na rezance . Takto postupujem , kým nemám pokrájané všetky cestičká .",
+  "Tu sú už nakrájané všetky rezance .",
+  "Dala som do hrnca zovrieť vodu . Do vriacej vody som pridala soľ .",
+  "Pripravila som si plastovú nádobu , do ktorej som pridala 1 pl domácej bravčovej masti .",
+  "Do vriacej vody som vložila rezance , ktoré som na sitku zbavila prebytočnej múky . Po vložení do vody ich premiešam . nechám zovrieť . premiešam a ešte raz privediem do varu .",
+  "Uvarené rezance vyberiem sitkom , prepláknem studenou vodou . Nechám odkvapkať.",
+  "Vložím do pripravenej plastovej nádoby s masťou . Dobre premiešam . Na tanier naložím rezance , pridám k nim hrudkový tvaroh a kyslú smotanu . Ešte rezance prisolím. Manžel si pridal ešte mleté čierne korenie . Zvyknem pridať na vrch na kocky opečenú slaninku , no manžel nechcel m tak som ju nerobila.",
+  "Rezance sú veľmi vďačné jedlo .Môžu sa posypať mletým makom , orechmi . Robievam aj kakaové alebo lekvárové rezance . Dobré sú aj s krupicou . Manžel a vnučka majú radi s vajíčkom . Robievam ich aj k fazuľovej polievke ."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "sladké",
+  "tvaroh",
+  "cestoviny"
+ ]
 }

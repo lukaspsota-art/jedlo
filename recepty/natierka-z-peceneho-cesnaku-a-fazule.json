@@ -1,57 +1,68 @@
 {
-  "id": "natierka-z-peceneho-cesnaku-a-fazule",
-  "nazov": "Nátierka z pečeného cesnaku a fazule",
-  "kategoria": "Nátierka",
-  "kuchyna": "Stredomorská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 153,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová nátierka kombinujúca jemný pečený cesnak a bielu fazuľu.",
-  "ingrediencie": [
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "celá hlavička"
-    },
-    {
-      "nazov": "Biele fazule",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 35,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Hlavičku cesnaku polej olejom, zabaľ do alobalu, peč pri 190 °C 35 minút.",
-    "Cesnak vytlač z šupky.",
-    "Rozmixuj s fazuľou, olivovým olejom a citrónovou šťavou.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Pečený cesnak dodáva jemnú, nie ostrú chuť.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "cesnak",
-    "fazuľa"
-  ]
+ "id": "natierka-z-peceneho-cesnaku-a-fazule",
+ "nazov": "Nátierka z pečeného cesnaku a fazule",
+ "kategoria": "Nátierka",
+ "kuchyna": "Stredomorská",
+ "zdroj": "Varecha.sk – Nátierka z pečeného cesnaku (autor: afataga)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/natierka-z-peceneho-cesnaku/60829-recept.html",
+ "porcie": 8,
+ "cas": "8 min",
+ "kcal_na_porciu": 120,
+ "popis": "Na obed som piekla kuracie stehna, tak som ku nim prihodila celú veľkú hlavičku cesnaku, že urobím nátierku, tak tu je:",
+ "ingrediencie": [
+  {
+   "nazov": "Pečený cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr balkánsky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvaroh 40%",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Papričky chilli",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté čerstvé korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Cesnak som dala piect rozobratý na strúčiky, ale neolúpaný. Do misky som dala popučený syr, tvaroh, vychladnutý cesnak som vylúpla zo šupky a popučila vidličkou a pridala všetko ostatné. Jasné. že chilli som pokrájala. Riadne som to rozmiešala a je to. Ešte ma napadlo, že by to znieslo aj olivový olej a bazalku.",
+  "Konečne máme na záhrade huby :-)",
+  "A občas aj sokola"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "cesnak",
+  "fazuľa"
+ ]
 }

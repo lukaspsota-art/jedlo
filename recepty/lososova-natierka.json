@@ -1,57 +1,78 @@
 {
-  "id": "lososova-natierka",
-  "nazov": "Lososová nátierka",
-  "kategoria": "Nátierka",
-  "kuchyna": "Škandinávska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 118,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jemná nátierka z pečeného lososa a smotanového syra.",
-  "ingrediencie": [
-    {
-      "nazov": "Losos",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "pečený alebo varený"
-    },
-    {
-      "nazov": "Smotanový jogurt",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Kôpor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Lososa rozdrob vidličkou.",
-    "Zmiešaj so smotanovým jogurtom, citrónovou šťavou a nasekaným kôprom.",
-    "Dochuť soľou.",
-    "Podávaj s pečivom."
-  ],
-  "tipy": "Skvelá aj ako plnka do celozrnného wrapu.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "losos",
-    "rýchle"
-  ]
+ "id": "lososova-natierka",
+ "nazov": "Lososová nátierka",
+ "kategoria": "Nátierka",
+ "kuchyna": "Škandinávska",
+ "zdroj": "Varecha.sk – Lososová nátierka (fotorecept) (autor: gordonko)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/lososova-natierka-fotorecept/34862-recept.html",
+ "porcie": 4,
+ "cas": "45 min",
+ "popis": "...ostalo  mi  z  LOSOSa  na  bilinkách  tak  som si  vymyslel    ako  ho   zužitkovať  ....vyšla  z toho  dobrá  pomazánka   na  jednohubky  či  chlebíčky",
+ "ingrediencie": [
+  {
+   "nazov": "Losos",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "pečený, nakrájaný na drobno"
+  },
+  {
+   "nazov": "Veto",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tavený syr",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kapary v náleve",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sardelové filetky",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "... prichystané suroviny",
+  "... v miske si premiešame ,,maslo,, Veto s taveným syrom ..... osvedčilo sa mi na to ,,šťúchadlo,, na zemiaky... ide to snadnejšie a rýchlejšie",
+  "..pridáme cibulu pokrájanú na drobno",
+  ".... pridáme 5 - 10 kapar prekrojených na polovičky a pol plechovičky pokrájaných sardelových filátek",
+  "....3 nasekané vajce na tvrdo",
+  "...a na menšie kúsky pokrájaný LOSOS",
+  "...hotové a premiešané dochutíme solou",
+  "...pomazánku ponatierame na rožky a vrch podla vlastnej chute ozdobíme ...napr. pažitkou , sardelkou , kaparou ,strúhanym syro...... DOBRÚ CHUŤ"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "losos",
+  "rýchle"
+ ]
 }

@@ -1,45 +1,45 @@
 {
-  "id": "rob-roy",
-  "nazov": "Rob Roy",
-  "kategoria": "Kokteil",
-  "kuchyna": "Škótska",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 159,
-  "kcal_zdroj": "vypocet",
-  "popis": "Škótska verzia Manhattanu s whiskey a sladkým vermutom.",
-  "ingrediencie": [
-    {
-      "nazov": "Whiskey",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Víno",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": "červený vermút"
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do miešacieho pohára daj whiskey, vermút a ľad.",
-    "Premiešaj (nemiešaj prudko).",
-    "Precedi do vychladeného pohára.",
-    "Podávaj bez ľadu."
-  ],
-  "tipy": "Pomenovaný podľa škótskeho hrdinu Roba Roya MacGregora.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "whiskey",
-    "škótske"
-  ]
+ "id": "rob-roy",
+ "nazov": "Rob Roy",
+ "kategoria": "Kokteil",
+ "kuchyna": "Škótska",
+ "zdroj": "TheCocktailDB – Dry Rob Roy",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11324",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 200,
+ "popis": "Ordinary Drink · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Škótska whisky",
+   "mnozstvo": 73.9,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Suchý vermút",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "V miešacom pohári s ľadom spojíme škótsku whisky a vermút.",
+  "Dobre premiešame.",
+  "Precedíme do kokteilového pohára.",
+  "Ozdobíme citrónovou kôrou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "whiskey",
+  "škótske"
+ ]
 }

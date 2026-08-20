@@ -1,65 +1,95 @@
 {
-  "id": "losos-s-quinoa-a-zeleninou",
-  "nazov": "Losos s quinoa a zeleninou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "30 min",
-  "kcal_na_porciu": 503,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vyvážené jedlo s pečeným lososom, quinoou a pečenou zeleninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Losos",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Quinoa",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Brokolica",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Quinou uvar podľa návodu na obale.",
-    "Brokolicu a lososa premiešaj s olivovým olejom a soľou, ulož na plech.",
-    "Peč pri 200 °C asi 15-18 minút.",
-    "Naservíruj lososa a brokolicu na quinoi.",
-    "Pokvapkaj citrónovou šťavou."
-  ],
-  "tipy": "Skvelý vyvážený obed s dobrým pomerom bielkovín a sacharidov.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "losos",
-    "quinoa",
-    "zdravé"
-  ]
+ "id": "losos-s-quinoa-a-zeleninou",
+ "nazov": "Losos s quinoa a zeleninou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Chuť Stredomoria na tanieri: Losos, quinoa a zeleninová misa (autor: Ryža SOS)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/chut-stredomoria-na-tanieri-losos-quinoa-a-zeleninova-misa/94582-recept.html",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 413,
+ "popis": "Ak hľadáte vyvážený, čerstvý a ľahko pripraviteľný recept, táto stredomorská miska s lososom, quinou a zeleninou je ideálnou \r\nvoľbou*, ako si vychutnať kompletné jedlo bez zbytočných komplikácií. Kombinuje jednoduché a výživné ingrediencie v jedle \r\nplnom farieb a chutí.",
+ "ingrediencie": [
+  {
+   "nazov": "SOS Quinoa",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Losos",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenát",
+   "mnozstvo": 2,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry",
+   "mnozstvo": 12,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej olivový extra panenský",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Odvážime si 150 g quinoy a prepláchneme ju pod studenou vodou. Následne ju presypeme do hrnca a pridáme 300 ml vody. Mierne osolíme a privedieme do varu. Po 5 minútach teplotu stiahneme a varíme ešte ďalších 15 minút.",
+  "Filety lososa osolíme a okoreníme. Na panvici rozohrejeme trochu olivového oleja a lososa opečieme najskôr kožou nadol. Keď je koža chrumkavá, otočíme ho a dopečieme tak, aby zostal vo vnútri šťavnatý.",
+  "Medzitým umyjeme zeleninu. Cherry paradajky prekrojíme na polovice, mrkvu nastrúhame alebo nakrájame na tenké pásiky a avokádo nakrájame.",
+  "Do dvoch misiek rozdelíme špenát alebo rukolu a pridáme uvarenú quinou, paradajky, mrkvu a avokádo.",
+  "Navrch položíme kúsky opečeného lososa, pokvapkáme olivovým olejom a citrónovou šťavou podľa chuti. Napokon ešte osolíme, okoreníme a ihneď podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "losos",
+  "quinoa",
+  "zdravé"
+ ]
 }

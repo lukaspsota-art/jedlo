@@ -1,38 +1,92 @@
 {
-  "id": "syrove-kocky-s-hroznom",
-  "nazov": "Syrové kocky s hroznom",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 281,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý rýchly snack zo syra a čerstvého hrozna na špajliach.",
-  "ingrediencie": [
-    {
-      "nazov": "Eidam",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrozno",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Syr nakrájaj na kocky.",
-    "Napichaj striedavo so zrnkami hrozna na malé špajle.",
-    "Podávaj vychladené."
-  ],
-  "tipy": "Skvelý rýchly snack na party alebo do krabičky.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "syr",
-    "hrozno"
-  ]
+ "id": "syrove-kocky-s-hroznom",
+ "nazov": "Syrové kocky s hroznom",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Štedré kocky (autor: kejtuska5)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/stedre-kocky/69660-recept.html",
+ "porcie": 30,
+ "cas": "50 min",
+ "kcal_na_porciu": 215,
+ "popis": "Ako spojiť vianočnú chuť perníkového korenia, datlí, maku a orechov , dozviete sa v mojom \r\nrecepte :)",
+ "ingrediencie": [
+  {
+   "nazov": "Datle",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslové sušienky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mak",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Perníkové korenie",
+   "mnozstvo": 3,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lekvár",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "2 balíčky datlí dobrým mixérom rozmixujeme na kašu.",
+  "Vzniknutú pastu povaríme v 3 dcl mlieka, kým vznikne jemná kaša.",
+  "Do tejto datľovej kaše primiešame perníkové korenie a maslové sušienky podrvené najemno. Takto vzniknutá kaša musí byť vláčna - bude síce dosť lepivá, ale to nám nevadí :)",
+  "Formu veľkosti 31 x 22 cm vystelieme papierom na pečenie.",
+  "Datľovú hmotu so sušienkami rozotrieme na plech a dáme zapiecť do rúry na 10 minút pri 180 stupňoch.",
+  "Po 10 minútach ,,datľové cesto,, vyberieme a necháme vychladnúť.",
+  "Zatial si pripravíme plnky. Orechová plnka: mleté orechy s maslom a lyžicou medu zmiešame. Maková plnka: mak, lekvár a vajce zmiešame.",
+  "Na vychladnuté datľové cesto natrieme najskôr orechovú plnku a navrch makovú.",
+  "Celý koláčik dáme znova zapiecť na 20 minút pri 180 stupňoch. Nakoniec ho nakrájame na menšie kocky. Pri tejto gramáži s formou danej veľkosti mi vyšlo cca 30 kusov :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "syr",
+  "hrozno"
+ ]
 }

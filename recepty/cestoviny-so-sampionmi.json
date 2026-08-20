@@ -1,70 +1,96 @@
 {
-  "id": "cestoviny-so-sampionmi",
-  "nazov": "Cestoviny so šampiňónmi na smotane",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "25 min",
-  "kcal_na_porciu": 592,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchle krémové cestoviny so šampiňónmi a cesnakom.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šampióny",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Na masle opraž nakrájané huby a cesnak do zlata.",
-    "Prilej smotanu a prehrej do zhustnutia.",
-    "Zamiešaj uvarené cestoviny.",
-    "Posyp parmezánom a podávaj."
-  ],
-  "tipy": "Huby najprv opekaj na vysokom ohni, aby sa nedusili vo vlastnej šťave.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "huby",
-    "krémové"
-  ]
+ "id": "cestoviny-so-sampionmi",
+ "nazov": "Cestoviny so šampiňónmi na smotane",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Cestoviny so šampiňónmi (autor: katka78)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-so-sampinonmi/57006-recept.html",
+ "porcie": 3,
+ "cas": "15 min",
+ "kcal_na_porciu": 440,
+ "popis": "Fandím projektom, ktoré nejakým spôsobom podporujú malých lokálnych producentov a propagujú poctivé výrobky. Ak môžem, snažím sa ich svojou malou kvapkou v mori podporiť. Nedávno som natrafila na zaujímavý projekt dvoch mladých nadšencov, ktorých snahou je predstaviť ľuďom kvalitné produkty, nové chute a podnietiť ich k experimentovaniu v kuchyni. Tak som získala svojho prvého zajaca v krabici.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Biele víno",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sladká smotana",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  }
+ ],
+ "postup": [
+  "Vo februárovej krabičke som si okrem iného našla parádne semolinové cestoviny. Na obale boli označené ako papardele, ja ich poznám aj ako \"lasagnette\", alebo \"lasagna noodles\". Boli skutočne výborné, pevné a nerozvárali sa.",
+  "Cestoviny si začnem pripravovať ako prvé, kým zovrie voda a oni sa uvaria, aj omáčka bude hotová.",
+  "Do dostatočne veľkého hrnca nalejem vodu, osolím a privediem k varu. Medzitým si všetko pripravím: očistím cesnak, jarnú cibuľku a šampiňóny. Cesnak pokrájam nadrobno, jarnú cibuľku na kolieska a šampiňóny na plátky. Parmezán nastrúham, petržlenovú vňať nadrobno nasekám, víno, smotanu, soľ a korenie si prichystám, aby boli po ruke pri sporáku.",
+  "Do vriacej osolenej vody vložím cestoviny a varím kým nie sú hotové (u mňa to bolo asi 10 minút).",
+  "Súbežne s tým pripravujem omáčku: na panvici si roztopím kúsok masla, krátko na ňom opečiem cesnak a jarnú cibuľku (trochu cibuľky som si odložila bokom na posypanie). Pridám šampiňóny a tiež krátko opečiem. Ochutím soľou, strúhaným muškátovým orieškom a mletým čiernym korením, podlejem trochou vína a chvíľu povarím, aby sa vyparil alkohol. Zalejem smotanou a nechám prehriať, potom pridám strúhaný parmezán, ktorý omáčku zároveň zhustí. Na záver pridám nasekanú petržlenovú vňať (tiež som trochu odložila bokom na posypanie).",
+  "Cestoviny, ktoré sa mi zhruba v tejto chvíli dovarili, precedím a vložím k omáčke. Jemne premiešam, aby sa s ňou spojili.",
+  "Ihneď podávam na zohriatom tanieri, ešte trochu ozdobím odloženými kolieskami jarnej cibuľky, posypem sekanou petržlenovou vňaťou a pár hoblinkami parmezánu. Čerstvé jedlo, hotové za pár minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "huby",
+  "krémové"
+ ]
 }

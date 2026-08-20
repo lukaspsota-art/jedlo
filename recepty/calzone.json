@@ -1,89 +1,159 @@
 {
-  "id": "calzone",
-  "nazov": "Calzone so šunkou a syrom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "45 min (+ 60 min kysnutie)",
-  "kcal_na_porciu": 680,
-  "popis": "Zložená plnená pizza — cesto preložené cez plnku zo šunky, ricotty a mozzarelly.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "na cesto"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": "vlažná, na cesto"
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": "na cesto"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": "na cesto"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "na cesto"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": "rozmixované"
-    },
-    {
-      "nazov": "Mozzarella",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ricotta",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Oregano",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vypracuj cesto a nechaj kysnúť aspoň 1 hodinu.",
-    "Rúru rozohrej na 230 °C.",
-    "Cesto rozdeľ a rozvaľkaj na kolá.",
-    "Na polovicu každého kola daj paradajky, syry, šunku a oregano.",
-    "Prelož cesto na polmesiac a okraje dobre zlep.",
-    "Peč 15-18 minút do zlatista."
-  ],
-  "tipy": "Navrchu urob malý rez, aby unikla para a calzone nepraskol.",
-  "tagy": [
-    "pizza",
-    "talianske",
-    "šunka",
-    "syr"
-  ],
-  "foto": ""
+ "id": "calzone",
+ "nazov": "Calzone so šunkou a syrom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Calzone - plnená pizza (fotorecept) (autor: pusta)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/calzone-plnena-pizza-fotorecept/27855-recept.html",
+ "porcie": 7,
+ "cas": "109 min",
+ "kcal_na_porciu": 425,
+ "popis": "Calzone je vlastne plnená pizza, ktorá vznikla v Neapoli, ked sa nešikovnému \r\nkuchárovi pri vkladaní do pece pizza prevrátila na polovicu a stala sa po upečení \r\nvyhľadávanou pochúťkou. Náplň môže byť akákoľvek, teda recept je veľmi \r\nvariabilný.Dnes som robila calzone s paradajkovou a smotanovou náplňou. Jedlo je \r\npomerne sýte a rýchlo sa minulo. Vyskúšajte aj Vy!",
+ "ingrediencie": [
+  {
+   "nazov": "Múka hladká extra špeciál 00",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 21,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej olivový extra virgin",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukor kryštál",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby na dosku"
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby na potretie cesta"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté čerstvé korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Bylinky provensálske",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti sušený/čerstvý"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slanina údená domáca",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Plátkový syr",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do vandlíka som preosiala múku, premiešala so soľou, do jamky uprostred som namrvila droždie, pridala som cukor,zaliala vlažnou vodou, pridala som olivový olej a ked kvások vykysol - cca 15 minút, celé som spracovala so zvyšnou vlažnou vodou na vláčne, pružné, nelepivé, mäkšie cesto.",
+  "Cesto som prikryté utierkou nechala na teple vykysnúť na dvojnásobný objem - cca 45 minút.",
+  "Vykysnuté cesto som rozdelila na 3 bochníčky, ktoré som prepracovala a nechala ešte 20 minút podkysnúť.",
+  "Na jemne pomúčenej doske som bochníček cesta po vykysnutí rozvaľkala na hrúbku asi 2 mm.",
+  "Cesto som potrela olejom, ale kolom dookola som nechala asi 1,5 cm voľný okraj",
+  "Polovicu cesta som potrela tvarohom zmiešaným so soľou a kyslou smotanou, pokládla som cibuľou pokrájanou na mesiačiky.",
+  "Na tú vrstvu som pokládla paradajky, pokrájané na plátky a plátky cesnaku. Paradajky som osolila /znesú dosť soli/ a okorenila čerstvo mletým čiernym korením",
+  "Celé som ešte posypala tymiánom a provensálskym korením.",
+  "Túto náplň som pokryla plátkami syra, mala som tekovský salámový syr. Môžete použiť akýkoľvek syr, dalej šampiňony, šunku, kolieska salámy - skrátka fantázii sa medze nekladú.",
+  "Posledný rozvaľkaný olejom potretý bochníček cesta som pomazala osolenou kyslou smotanou, posypala prúžkami domácej údenej slaninky a kolieskami jarnej cibuľky.",
+  "Aj túto náplň som pokládla plátkami syra.",
+  "Obe calcone som prehla na polovicu, cesto bez náplne som prehla nad náplň, okraje cesta som dobre pritlačila k sebe. PripravenéMôžete ozdobne pritlačiť vidličkou alebo poprehýbať prstami stlačené okraje nahor, aby náplň nevytiekla.",
+  "Calcone som vložila piecť do trúby vyhriatej na 250 stupňov asi 9 minút, kým povrch nebol pekne do zlato-hneda a dostal chrumkavú kôrčičku .",
+  "Nechala som trocha vychladnúť, potom som calcone prekrojila na polovicu a podávala. Každému sa ušla so smotanovo- slaninkovou a aj...",
+  "...s paradajkovou náplňou. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pizza",
+  "talianske",
+  "šunka",
+  "syr"
+ ]
 }

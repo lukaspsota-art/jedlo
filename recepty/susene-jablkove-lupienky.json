@@ -1,41 +1,54 @@
 {
-  "id": "susene-jablkove-lupienky",
-  "nazov": "Sušené jablkové lupienky",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "120 min",
-  "kcal_na_porciu": 80,
-  "kcal_zdroj": "vypocet",
-  "popis": "Zdravý sušený snack z tenkých plátkov jablka so škoricou.",
-  "ingrediencie": [
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Jablká nakrájaj na veľmi tenké plátky, jadrovník vyrež.",
-    "Posyp škoricou.",
-    "Rozlož na plech vyložený papierom na pečenie v jednej vrstve.",
-    "Suš pri 100 °C asi 2 hodiny, kým nie sú chrumkavé.",
-    "Nechaj vychladnúť — vtedy ešte viac skrehnú."
-  ],
-  "tipy": "Skvelá zdravá alternatíva ku sladkostiam.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "jablko",
-    "sušené",
-    "zdravé"
-  ]
+ "id": "susene-jablkove-lupienky",
+ "nazov": "Sušené jablkové lupienky",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Sladké jablkové lupienky (fotorecept) (autor: boise)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sladke-jablkove-lupienky-fotorecept/45633-recept.html",
+ "porcie": 4,
+ "cas": "150 min",
+ "kcal_na_porciu": 99,
+ "popis": "Ako som už spomínala, máme na záhrade veľa jabĺk. Toto je ďalší spôsob, ako sa dajú spracovať a deti z toho majú ohromnú radosť.",
+ "ingrediencie": [
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muškátový mletý orech",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na dno hrnca dáme cukor, muškátový oriešok a škoricu. Premiešame.",
+  "Jablkám vyberieme jaderník a škrabkou na jablká vyrobíme tenké plátky. Nasypeme ich do hrnca s koreninami a cukrom.",
+  "Hrniec zavrieme a poriadne ním zatrasieme, nech sa všetky jablká obalia.",
+  "Poukladáme ich jedno vedľa druhého na dva plechy vystlaté papierom na pečenie.",
+  "Pečieme/sušíme v rúre vyhriatej na 100 stupňov cca 2,5 hodiny. Oba plechy dáme do rúry súčasne, jeden do spodnej tretiny, druhý do vrchnej. Každú polhodinu plechy vymeníme. Cca po hodine aj trištvrte plechy vyberieme, jablká jemne odlepíme od papiera, otočíme a dáme dosušiť na posledných 30-45 minút. Keď sú kraje chrumkavé, vyberieme ich z rúry a necháme vychladnúť.",
+  "Pripravíme na večerné rodinné chrumkanie a vychutnávame :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "jablko",
+  "sušené",
+  "zdravé"
+ ]
 }

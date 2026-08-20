@@ -1,70 +1,93 @@
 {
-  "id": "cicerova-polievka-s-korenim",
-  "nazov": "Cícerová polievka s korením",
-  "kategoria": "Polievka",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 210,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýta korenistá polievka z cíceru.",
-  "ingrediencie": [
-    {
-      "nazov": "Cícer predvarený",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kmín",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 700,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu, cesnak a kmín.",
-    "Pridaj cícer a vývar.",
-    "Var 15 minút.",
-    "Časť polievky rozmixuj pre hustejšiu konzistenciu.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Sýta vegetariánska polievka bohatá na bielkoviny.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "cícer",
-    "blízkovýchodné"
-  ]
+ "id": "cicerova-polievka-s-korenim",
+ "nazov": "Cícerová polievka s korením",
+ "kategoria": "Polievka",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Varecha.sk – Cícerová polievka (autor: laurisia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cicerova-polievka/30793-recept.html",
+ "porcie": 10,
+ "cas": "130 min",
+ "kcal_na_porciu": 72,
+ "popis": ".... alebo ako sme ju volali Bagovka zo Strhár :-) Recept mojej starej mamy u nás veľmi obľúbený, ale v podstate bežná klasika.",
+ "ingrediencie": [
+  {
+   "nazov": "Cícer",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údené rebrá",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Deň vopred si namočíme cícer (je dobré ak je namočený nielen cez noc ale tak 24 hodín) a údené rebierka, alebo akúkoľvek inú údeninu. Nakrájame si mrkvu, petržlen a zemiaky.",
+  "Všetko dáme spolu variť, osolíme a pridáme drvenú rascu. Varíme tak 1 a pol hodiny. Treba skúsiť, či je cícer dosť mäkký. Keď je cícer uvarený, vyberieme údeninu (varili sme ju v polievke len kvôli chuti). Následne si urobíme z oleja, cesnaku, hladkej múky a červenej papriky zápražku.",
+  "Zalejeme studenou vodou a vlejeme do polievky. Necháme prejsť varom.",
+  "Podľa potreby dochutíme soľou a mletou rascou. Podávame s chlebom. Ak niekto chce, môže pridať i zelenú petržlenovú vňať, ale ja nezvyknem."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "cícer",
+  "blízkovýchodné"
+ ]
 }

@@ -1,57 +1,68 @@
 {
-  "id": "hraskova-natierka-s-matou",
-  "nazov": "Hrášková nátierka s mätou",
-  "kategoria": "Nátierka",
-  "kuchyna": "Britská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 104,
-  "kcal_zdroj": "vypocet",
-  "popis": "Svieža jarná nátierka z hrášku a mäty.",
-  "ingrediencie": [
-    {
-      "nazov": "Hrach",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": "mrazený"
-    },
-    {
-      "nazov": "Mäta",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Hrášok krátko povar 3 minúty, potom scedi.",
-    "Rozmixuj s mätou, olivovým olejom a citrónovou šťavou.",
-    "Dochuť soľou.",
-    "Podávaj s pečivom."
-  ],
-  "tipy": "Skvele sa hodí aj ako plnka do sendviča s fetou.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "hrášok",
-    "jarné"
-  ]
+ "id": "hraskova-natierka-s-matou",
+ "nazov": "Hrášková nátierka s mätou",
+ "kategoria": "Nátierka",
+ "kuchyna": "Britská",
+ "zdroj": "Varecha.sk – Hrášková nátierka s mätou (autor: palma)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/hraskova-natierka-s-matou/71809-recept.html",
+ "porcie": 2,
+ "cas": "10 min",
+ "kcal_na_porciu": 103,
+ "popis": "Svieža jarná nátierka z hrášku a mäty.",
+ "ingrediencie": [
+  {
+   "nazov": "Hrášok",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinná nátierka",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 4,
+   "jednotka": "list",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1/2 citróna"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Hrášok rozmrazíme a osušíme a dáme do hlbšej misky. Cesnak pretlačíme, lístky mäty môžeme nakrájať.",
+  "Hrášok spolu so všetkými surovinami zmiešame a rozmixujeme dohladka.",
+  "Hráškovú nátierku podávame s čerstvým tmavým chlebom alebo pečivom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "hrášok",
+  "jarné"
+ ]
 }

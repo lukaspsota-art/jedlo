@@ -1,63 +1,114 @@
 {
-  "id": "cesnakova-kremova-polievka-so-syrom",
-  "nazov": "Cesnaková krémová polievka so syrom",
-  "kategoria": "Polievka",
-  "kuchyna": "Francúzska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 175,
-  "kcal_zdroj": "vypocet",
-  "popis": "Hladká krémová polievka s výraznou cesnakovou chuťou a syrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 8,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 700,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cesnak a zemiaky nakrájaj, vlož do vývaru a var 20 minút do mäkka.",
-    "Rozmixuj dohladka.",
-    "Vmiešaj smotanu a syr do rozpustenia.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Dlhé varenie cesnaku ho zjemní a stratí ostrosť.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "cesnak",
-    "krémová"
-  ]
+ "id": "cesnakova-kremova-polievka-so-syrom",
+ "nazov": "Cesnaková krémová polievka so syrom",
+ "kategoria": "Polievka",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Krémová cesnaková polievka (fotorecept) (autor: moli)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kremova-cesnakova-polievka-fotorecept/15583-recept.html",
+ "porcie": 6,
+ "cas": "70 min",
+ "kcal_na_porciu": 147,
+ "popis": "Veľmi mám rada sladkosti a žiadnej torte či zákusku, alebo inej maškrte neodolám.No tanier polievky by som za rez torty či najoblúbenejšieho zákusku nevymenila.Polievky milujem a jedla by som z nich najradšej za každým duplu :o) Táto krémová cesnaková patrí medzi moje obľúbené a vlastne som si ju poskladala z kulinárskych skúseností :o).",
+ "ingrediencie": [
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 18,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bujón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana kyslá 16%",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie 33 %",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chlebové krutóny",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo Eidam"
+  },
+  {
+   "nazov": "Gustin na prípadné zahustenie",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morská soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Pripravíme si ingrediencie, zeleninu očistíme.",
+  "Maslo v hrnci roztopíme a osmahneme na ňom cibuľku pokrájanú na drobno do sklovita.",
+  "Potom pridáme pretlačené strúčiky cesnaku a ešte minútku miešame a podlejeme 1,5 L vody.",
+  "Pridáme zemiaky pokrájané na menšie kocky, zeleninový bujón a varíme do zmäknutia zemiakov.",
+  "Keď sa nám zemiaky rozvarili, tak polievku precedíme cez sitko do druhého hrnca a zemiaky s cibuľou rozmixueme mixérom.",
+  "Po rozmixovaní zemiakov opatrne vlejeme späť polievku na zemiaky za stáleho miešania.Vymiešame si 1 kys. smotanu s 1 šľahačkou na šľahanie a s 1 PL Gustinu do hladka, pridáme 200 ml mlieka a za stáleho miešanie vlejeme do vrejúcej polievky.Podľa chuti dosolíme.",
+  "Po odstavení môžeme polievku dochutiť na drobno nasekanou petržlenovou vňaťou, a podávame s upečenými chlebovými krutónmi a nastrúhaným Parmezánom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "cesnak",
+  "krémová"
+ ]
 }

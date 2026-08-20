@@ -1,81 +1,83 @@
 {
-  "id": "sladka-kapustnica",
-  "nazov": "Sladká kapustová polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 180,
-  "popis": "Jemná polievka z hlávkovej kapusty so zemiakmi a smotanou.",
-  "ingrediencie": [
-    {
-      "nazov": "Biela kapusta",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "nakrájaná"
-    },
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kyslá smotana",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kôpor",
-      "mnozstvo": null,
-      "jednotka": "voliteľné",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na masti opraž cibuľu, zamiešaj papriku.",
-    "Pridaj kapustu, mrkvu a zemiaky, zalej vodou.",
-    "Var domäkka a osoľ.",
-    "Zjemni smotanou a posyp kôprom."
-  ],
-  "tipy": "Iná ako kyslá kapustnica — jemná a vhodná aj pre deti.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "polievka",
-    "kapusta"
-  ],
-  "foto": ""
+ "id": "sladka-kapustnica",
+ "nazov": "Sladká kapustová polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Kapustová polievka (autor: mimo159753)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kapustova-polievka/45196-recept.html",
+ "porcie": 3,
+ "cas": "45 min",
+ "kcal_na_porciu": 182,
+ "popis": "Tuto polievku mame ne stole kazdy 2 tyzden.",
+ "ingrediencie": [
+  {
+   "nazov": "Kapusta biela",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muškátový nastrúhaný oriešok",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 800,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žerucha",
+   "mnozstvo": 0.5,
+   "jednotka": "zväzok",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zemiaky ošúpte a nakrájajte na kocky. Ošúpanú cibuľu a očistenú kapustu nakrájajte na kúsky.",
+  "Na masle orestujte cibuľu, pridajte kapustu, zemiaky, zalejte vývarom a varte 15 minút.",
+  "Z polievky vyberte dierovanou lyžicou polovicu zeleniny.",
+  "Polievku rozmixujte, vložte späť odobratú zeleninu, pridajte muškátový oriešok, korenie, podľa chuti soľ, priveďte do varu a v polievke nechajte rozpustiť trojuholník syra. Už nevarte.",
+  "Podávajte husto posypané žeruchou.Dobru chut!!!!!!!!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "polievka",
+  "kapusta"
+ ]
 }

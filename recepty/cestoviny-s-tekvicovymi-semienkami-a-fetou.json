@@ -1,57 +1,131 @@
 {
-  "id": "cestoviny-s-tekvicovymi-semienkami-a-fetou",
-  "nazov": "Cestoviny s tekvicovými semienkami a fetou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "20 min",
-  "kcal_na_porciu": 595,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduché cestoviny s chrumkavými tekvicovými semienkami a fetou.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tekvicové semienka",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feta",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Tekvicové semienka krátko opraž nasucho.",
-    "Zamiešaj cestoviny s olivovým olejom a rozdrobenou fetou.",
-    "Posyp semienkami a podávaj."
-  ],
-  "tipy": "Rýchle vegetariánske jedlo z bežných zásob.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "feta",
-    "rýchle"
-  ]
+ "id": "cestoviny-s-tekvicovymi-semienkami-a-fetou",
+ "nazov": "Cestoviny s tekvicovými semienkami a fetou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Cestoviny s tekvicou (fotorecept) (autor: irenaw)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-s-tekvicou-fotorecept/45717-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 434,
+ "popis": "Jednoduché cestoviny s chrumkavými tekvicovými semienkami a fetou.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprička čili",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hokkaido",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mascarpone",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Voda z cestovín",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  },
+  {
+   "nazov": "Syr Grana Padano",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hokkaido",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprička čili",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr Grana Padano",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru dáme vyhrievať na 180°C. Dáme variť vodu na cestoviny, osolíme ju. Cesnak ošúpeme a posekáme na drobno. Posekáme aj čili papričku. Slaninu nakrájame na drobné kocky. Cesnak, čili a slaninu dáme do širšieho hrnca a na miernom ohni opekáme, kým slanina nepustí tuk a trochu sa neopečie.",
+  "Medzitým umyjeme 1 menšiu tekvicu hokaido, rozkrojíme a vydlabeme jadierka. Nakrájame na kocky. Polovicu tekvice dáme na papier na pečenie a vložíme do rúry. Pečieme do zmäknutia, tekvica chytí na povrchu hnedú farbu, cca 25-30 minút. Druhú polovicu tekvice dáme do hrnca na opečenú slaninu a podlejeme 50 ml vody, aby sa vytvorila para. Zakryté dusíme na miernom ohni do mäkka. Udusenú tekvicu roztlačíme pučidlom na zemiaky. Medzitým zovrela voda, vsypeme cestoviny a uvaríme.",
+  "Do tekvicovej hmoty pridáme mascarpone a postrúhaný syr. Pridáme vodu z cestovín podľa potreby. Moje hokaido bolo veľmi suché, pridala som 1 malú naberačku. Premiešame, malo by to mať krémovú konzistenciu.",
+  "Vsypeme uvarené cestoviny a premiešame. Necháme zakryté chvíľu postáť.",
+  "Medzitým sa upiekla aj tekvica v rúre. Strúčik cesnaku a kúsok čili rozotrieme so soľou a dáme do širokej rajnice. Pridáme olej a premiešame. Prisypeme horúce kocky pečenej tekvice, zatvoríme pokrievkou a dobre potrasieme, aby sa všetky kocky obalili.",
+  "Na tanier dáme cestoviny s omáčkou, navrch pečenú tekvicu a pár hoblín syra."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "feta",
+  "rýchle"
+ ]
 }

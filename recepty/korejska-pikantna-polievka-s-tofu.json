@@ -1,71 +1,81 @@
 {
-  "id": "korejska-pikantna-polievka-s-tofu",
-  "nazov": "Kórejská pikantná polievka s tofu",
-  "kategoria": "Polievka",
-  "kuchyna": "Kórejská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 131,
-  "kcal_zdroj": "vypocet",
-  "popis": "Aromatická pikantná polievka s tofu v kórejskom štýle.",
-  "ingrediencie": [
-    {
-      "nazov": "Tofu",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chilli omáčka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 800,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jarná cibuľka",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu a cesnak.",
-    "Pridaj chilli omáčku, krátko opraž.",
-    "Zalej vývarom, priveď k varu.",
-    "Pridaj tofu nakrájané na kocky, var 5 minút.",
-    "Posyp jarnou cibuľkou a podávaj horúce."
-  ],
-  "tipy": "Pikantnosť si uprav podľa množstva chilli omáčky.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "tofu",
-    "kórejské",
-    "pikantné"
-  ]
+ "id": "korejska-pikantna-polievka-s-tofu",
+ "nazov": "Kórejská pikantná polievka s tofu",
+ "kategoria": "Polievka",
+ "kuchyna": "Kórejská",
+ "zdroj": "Varecha.sk – Kórejská zdravá polievka „kimchi“ (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/korejska-zdrava-polievka-kimchi/75352-recept.html",
+ "porcie": 4,
+ "cas": "60 min",
+ "kcal_na_porciu": 305,
+ "popis": "Aromatická pikantná polievka s tofu v kórejskom štýle.",
+ "ingrediencie": [
+  {
+   "nazov": "Slepačí vývar",
+   "mnozstvo": 1600,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pasta kimchi",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäso hovädzie",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "chuck flap - časť hovädzieho, pochádzajúca z krku"
+  },
+  {
+   "nazov": "Nakladaný topinambur",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kapusta čínska pak choi",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny portobelo",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rezance",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej z limetkových listov",
+   "mnozstvo": 8,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Hotový a ochutený slepačí vývar necháme prejsť varom, pridáme doň kimchi pastu nakrájanú na drobné kúsky a varíme.",
+  "V oddelenom hrnci uvaríme rezance, scedíme ich a odložíme. Zvlášť na olivovom oleji ugrilujeme hovädzie mäso, portobelo, ktoré zalejeme hotovým slepačím vývarom.",
+  "Potom pridáme červenú cibuľku, blanšírovanú kapustu pak choi a nakladané topinambury. Tesne pred podávaním pridáme uvarené rezance a olej z limetkových listov."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "tofu",
+  "kórejské",
+  "pikantné"
+ ]
 }

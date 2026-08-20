@@ -1,65 +1,87 @@
 {
-  "id": "nemecky-zemiakovy-salat",
-  "nazov": "Nemecký zemiakový šalát (teplý)",
-  "kategoria": "Šalát",
-  "kuchyna": "Nemecká",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 253,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tradičný teplý nemecký zemiakový šalát so slaninou a octovým dresingom.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablčný ocot",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Horčica",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky uvar v šupke, ošúp a nakrájaj na plátky, kým sú ešte teplé.",
-    "Slaninu nakrájaj na kocky a opeč do chrumkava.",
-    "Na tuku zo slaniny opraž cibuľu.",
-    "Zmiešaj jablčný ocot s horčicou, prilej k zemiakom.",
-    "Premiešaj so slaninou a cibuľou, podávaj teplé."
-  ],
-  "tipy": "Zemiaky nasajú dresing najlepšie, kým sú ešte teplé.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "zemiaky",
-    "nemecké",
-    "teplý"
-  ]
+ "id": "nemecky-zemiakovy-salat",
+ "nazov": "Nemecký zemiakový šalát (teplý)",
+ "kategoria": "Šalát",
+ "kuchyna": "Nemecká",
+ "zdroj": "Varecha.sk – Zemiakový šalát (autor: lucja28)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakovy-salat/84629-recept.html",
+ "porcie": 16,
+ "cas": "100 min",
+ "kcal_na_porciu": 348,
+ "popis": "Jemný zemiakový šalát, recept od mamky :)",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 2000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sterilizovaný hrášok",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sterilizovaná mrkva",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 405,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na varenie",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  }
+ ],
+ "postup": [
+  "Do veľkého hrnca dáme variť vodu, keď začne vrieť, pridáme umyté zemiaky v šupke. Zemiaky by mali byť približne rovnako veľké, strednej veľkosti. Ak máme zemiaky rôznych veľkostí, odporúčam pridávať ich do hrnca postupne, s cca 5-10 minútovými rozostupmi. Zemiaky strednej veľkosti zvyknem variť cca 40-45 minút, tým menším stačí aj 25-30, väčšie zemiaky cca tých 50-55 minút.",
+  "Uvarené zemiaky vyberieme z vody a necháme vychladnúť. Zemiaky NESMÚ byť pred ďalším krokom teplé, pretože šalát nám môže skysnúť. Ja osobne ich zvyknem chladiť aj 3-6 hodín, minimálne tie 2 hodiny by mali chladnúť určite.",
+  "Vychladené zemiaky ošúpeme a pomocou krájača na zemiaky pretlačíme do veľkej misy (odporúčam veľkosť cca 5 litrov).",
+  "Vezmeme si konzervu hrášku a mrkvy. Z oboch zlejeme (napríklad pomocou sitka) všetok nálev, ten do šalátu pridávať NECHCEME. Ak sú kúsky mrkvy príliš veľké, nakrájame ich na menšie. Následne hrášok a mrkvu pridáme do misy so zemiakmi.",
+  "Ošúpeme si a nakrájame nadrobno jednu stredne veľkú cibuľu. Pridáme ju do misy so zemiakmi.",
+  "Do misy so zeleninovou zmesou pridáme jednu celú majonézu, smotanu na varenie a smotanu na šľahanie. Ja osobne začínam s majonézou a postupne do šalátu prilievam jednotlivé smotany, ak chceme mať šalát hustejší, nemusíme použiť celé smotany.",
+  "Šalát dáme vychladiť na noc do chladničky.",
+  "Vychladený šalát dochutíme soľou a čiernym korením podľa potreby. Ak šalát cez noc príliš zhustne, môžeme doň ešte pridať smotanu.",
+  "Hotovo, dobrú chuť :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "zemiaky",
+  "nemecké",
+  "teplý"
+ ]
 }

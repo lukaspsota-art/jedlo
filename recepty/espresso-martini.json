@@ -1,57 +1,42 @@
 {
-  "id": "espresso-martini",
-  "nazov": "Espresso Martini",
-  "kategoria": "Kokteil",
-  "kuchyna": "Britská",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 201,
-  "kcal_zdroj": "vypocet",
-  "popis": "Moderný kokteil z vodky, espressa a kávového likéru.",
-  "ingrediencie": [
-    {
-      "nazov": "Vodka",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Espresso",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": "vychladené"
-    },
-    {
-      "nazov": "Kávový likér",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 5,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do shakera daj všetky suroviny a ľad.",
-    "Poriadne pretrep, kým sa nevytvorí pena.",
-    "Precedi do vychladeného pohára.",
-    "Podávaj ihneď, kým je pena čerstvá."
-  ],
-  "tipy": "Skvelý kokteil na rozprúdenie večera po večeri.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "vodka",
-    "káva"
-  ]
+ "id": "espresso-martini",
+ "nazov": "Espresso Martini",
+ "kategoria": "Kokteil",
+ "kuchyna": "Britská",
+ "zdroj": "TheCocktailDB – Espresso Martini",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17212",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 112,
+ "popis": "Cocktail · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kahlua",
+   "mnozstvo": 10,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukrový sirup",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ingrediencie nalejeme do šejkra s ľadom, energicky pretrepeme a precedíme do vychladeného martini pohára."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "vodka",
+  "káva"
+ ]
 }

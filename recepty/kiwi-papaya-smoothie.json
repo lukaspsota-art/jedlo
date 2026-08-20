@@ -1,0 +1,34 @@
+{
+ "id": "kiwi-papaya-smoothie",
+ "nazov": "Kiwi Papaya Smoothie",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Kiwi Papaya Smoothie",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12714",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Other / Unknown · Highball Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Kiwi",
+   "mnozstvo": 75,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Papaya",
+   "mnozstvo": 12.5,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Throw everything into a blender and liquify."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "bezmäsité"
+ ]
+}

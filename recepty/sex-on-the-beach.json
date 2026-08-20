@@ -1,57 +1,48 @@
 {
-  "id": "sex-on-the-beach",
-  "nazov": "Sex on the Beach",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 202,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ovocný kokteil z vodky, broskyne a pomarančového džúsu.",
-  "ingrediencie": [
-    {
-      "nazov": "Vodka",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Broskyne",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": "pretlačené"
-    },
-    {
-      "nazov": "Pomarančový džús",
-      "mnozstvo": 80,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Grenadína",
-      "mnozstvo": 10,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň ľadom.",
-    "Prilej vodku, broskyňové pyré a pomarančový džús.",
-    "Pomaly zalej grenadínou po stene pohára.",
-    "Podávaj bez miešania pre farebný efekt."
-  ],
-  "tipy": "Populárny letný party kokteil.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "vodka",
-    "letné"
-  ]
+ "id": "sex-on-the-beach",
+ "nazov": "Sex on the Beach",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Sex on the Beach",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12754",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Ordinary Drink · Highball glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Broskyňa",
+   "mnozstvo": 22.2,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cranberry juice",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ingrediencie postupne vrstvíme do vysokého pohára naplneného ľadom.",
+  "Ozdobíme plátkom pomaranča."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "vodka",
+  "letné"
+ ]
 }

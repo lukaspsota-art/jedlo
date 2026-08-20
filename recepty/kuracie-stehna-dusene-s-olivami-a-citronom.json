@@ -1,64 +1,62 @@
 {
-  "id": "kuracie-stehna-dusene-s-olivami-a-citronom",
-  "nazov": "Kuracie stehná dusené s olivami a citrónom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Stredomorská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 467,
-  "kcal_zdroj": "vypocet",
-  "popis": "Stredomorské dusené kuracie stehná s olivami a citrónom.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie stehná",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zelené olivy",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na olivovom oleji opeč kuracie stehná dozlata.",
-    "Pridaj cibuľu, krátko opraž.",
-    "Vmiešaj olivy a plátky citróna, podlej vodou.",
-    "Dus pod pokrievkou 30 minút do mäkka.",
-    "Dochuť soľou, podávaj s pečivom."
-  ],
-  "tipy": "Citrón dusením zmäkne a stratí trpkosť šupky.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "stredomorské"
-  ]
+ "id": "kuracie-stehna-dusene-s-olivami-a-citronom",
+ "nazov": "Kuracie stehná dusené s olivami a citrónom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Stredomorská",
+ "zdroj": "Varecha.sk – Dusené kuracie stehná s cibuľou (autor: dada777)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/dusene-kuracie-stehna-s-cibulou/42549-recept.html",
+ "porcie": 4,
+ "cas": "55 min",
+ "kcal_na_porciu": 472,
+ "popis": "Chutná a zdravá úprava kuracieho mäsa, cibuľa s kuracím mäsom dá jedlu dobrú chuť.",
+ "ingrediencie": [
+  {
+   "nazov": "Stehná kuracie",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Veľká cibuľa",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka špaldová biela",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špaldové otruby",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Dno hrnca jemne potrieme olejom a prudko v ňom opečieme nasolené kuracie stehná. Po zatiahnutí mäsa pridáme trochu vody a stehná dusíme.",
+  "Medzitým si cibule nakrájame na štrvtinky a tie narežeme na trošku hrubšie pásiky. Po 15 minútach dusenia k mäsu pridáme nakrájanú cibuľu a ďalej dusíme do mäkka.",
+  "Keď je mäso mäkké, vlejeme špaldovú múku a špaldové otruby rozmiešané v troche teplej vody. Necháme ešte krátko prejsť varom a môžeme podávať napr. s varenými zemiakmi."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "stredomorské"
+ ]
 }

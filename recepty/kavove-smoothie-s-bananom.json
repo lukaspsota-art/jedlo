@@ -1,50 +1,56 @@
 {
-  "id": "kavove-smoothie-s-bananom",
-  "nazov": "Kávové smoothie s banánom",
-  "kategoria": "Nápoj",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 234,
-  "kcal_zdroj": "vypocet",
-  "popis": "Energizujúce smoothie z kávy, banánu a mlieka.",
-  "ingrediencie": [
-    {
-      "nazov": "Espresso",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": "vychladené"
-    },
-    {
-      "nazov": "Banán",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetky suroviny vlož do mixéra.",
-    "Rozmixuj dohladka.",
-    "Podávaj vychladené, ihneď."
-  ],
-  "tipy": "Skvelá raňajková alternatíva ku klasickej káve.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "káva",
-    "smoothie"
-  ]
+ "id": "kavove-smoothie-s-bananom",
+ "nazov": "Kávové smoothie s banánom",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Smoothie (autor: lara159)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/smoothie/58700-recept.html",
+ "porcie": 4,
+ "cas": "10 min",
+ "kcal_na_porciu": 128,
+ "popis": "Toto smoothie som prvýkrát ochutnala u kamarátky. Recept je jednoduchý, smoothie \r\nveľmi dobre chutí v horúcich letných dňoch. Mne chitilo a dúfam že bude chutiť aj vám.\r\n:-)",
+ "ingrediencie": [
+  {
+   "nazov": "Banán",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé jahody",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kiwi",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahodový jogurt",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si všetky suroviny, ponorný mixér, misu, dosku na krájanie, nôž a poháre.",
+  "Banány, jablko, kiwi ošúpeme a nakrájame na kocky. Jahody umyjeme , odstrámine z nich zelenú časť a prekrojíme na polovice. Ovocie môžeme dať do misy a mixujeme ponorným mixérom. O chvíľu pridáme jahodový jogurt a mixujeme aby v nápoji nezostali veľké kúsky z ovocia.",
+  "Keď je smoothie hotové, nalejeme do pohárov a môžeme piť. Dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "káva",
+  "smoothie"
+ ]
 }

@@ -1,69 +1,58 @@
 {
-  "id": "fliacky-s-kapustou",
-  "nazov": "Fliačky s kapustou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 380,
-  "popis": "Domáce štvorčekové cestoviny s dusenou sladkou kapustou a karamelom.",
-  "ingrediencie": [
-    {
-      "nazov": "Fliačky",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": "cestoviny"
-    },
-    {
-      "nazov": "Biela kapusta",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "nastrúhaná"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na masti nechaj skaramelizovať cukor dozlata.",
-    "Pridaj cibuľu a strúhanú kapustu, osoľ a dus domäkka.",
-    "Cestoviny uvar a sceď.",
-    "Zmiešaj kapustu s cestovinami a dochuť korením."
-  ],
-  "tipy": "Kapusta má byť jemne nasladlá a mäkká. Nespáľ karamel, zhorkne.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "kapusta",
-    "cestoviny"
-  ],
-  "foto": ""
+ "id": "fliacky-s-kapustou",
+ "nazov": "Fliačky s kapustou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Kapustové domáce fliačky (fotorecept) (autor: olinecka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kapustove-domace-fliacky-fotorecept/67607-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 464,
+ "popis": "Toto jedlo je u nás veľmi obľúbené. Myslim, že kto skúsi, bude ich variť vždy. Je sezóna \r\nskorej kapusty, jedlo je na stole do hodiny...",
+ "ingrediencie": [
+  {
+   "nazov": "Hlávková kapusta",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby (alebo maslo"
+  },
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na dochutenie"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kapustu dáme na pracovnú dosku, očistíme a zbavíme hlúbika.",
+  "Kapustu si pokrájame nadrobno. Trocha oleja dáme do misy a prehrejeme, pridáme​ posekanú kapustu a trocha soli, za občasného miešania dusíme ju aspoň 20 minút do mäkka. Môžme ju podliať, aby sa nespálila.",
+  "Fliačky si uvaríme vo vode, do ktorej dáme soľ a trocha oleja, povaríme, prepláchneme a scedíme, necháme odtiecť, pridáme do hotovej kapusty.",
+  "Na oleji alebo masle si speníme nadrobno pokrájanú cibuľu a primiešame ju k fliačkom s kapustou. Dochutíme soľou podľa seba."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "kapusta",
+  "cestoviny"
+ ]
 }

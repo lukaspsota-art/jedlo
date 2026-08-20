@@ -1,76 +1,104 @@
 {
-  "id": "kuracie-kyjevske",
-  "nazov": "Kuracie Kyjevské",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ukrajinská",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 778,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický kurací rezeň plnený bylinkovým maslom.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Strúhanka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": "na vyprážanie"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Maslo zmiešaj s nasekanou petržlenovou vňaťou, tvaruj do válčeka a zmraz.",
-    "Kuracie prsia naklepi, do stredu vlož kúsok maslového valčeka a zabaľ.",
-    "Obaľuj v múke, rozšľahanom vajci a strúhanke.",
-    "Vyprážaj na rozohriatom oleji dozlata.",
-    "Podávaj horúce, aby maslo vo vnútri zostalo tekuté."
-  ],
-  "tipy": "Maslo musí byť pred obaľovaním dobre zmrazené, inak vytečie.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "ukrajinské"
-  ]
+ "id": "kuracie-kyjevske",
+ "nazov": "Kuracie Kyjevské",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ukrajinská",
+ "zdroj": "Varecha.sk – Kyjevské kotlety (fotorecept) (autor: elenas)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kyjevske-kotlety-fotorecept/71790-recept.html",
+ "porcie": 4,
+ "cas": "110 min",
+ "kcal_na_porciu": 421,
+ "popis": "Je to veľmi staré a populárne jedlo v Rusku a pochádza ešte z čias Alžbety I (18. storočie), ktorá často posielala kuchárov študovať do \r\nFrancúzska. Jedlo sa vtedy volalo сôtelettes de volaille, v podstate, sú to plnené kuracie \r\nprsia. Názov „kyjevské kotlety“ dostalo v 50. rokoch \r\n20. stor., kedy boli uvarené v jednej kyjevskej reštaurácii. Hlavným rozdielom od \r\nсôtelettes de volaille je, že ",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Estragón",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Aby sme uvarili pravé kyjevské kotlety, potrebujeme celé kura, aby sa dala vyrezať ramenná kosť. Pripravíme aj ostatné suroviny.",
+  "Najprv urobíme plnku. Petržlenovú vňať a estragón drobno nasekáme, pridáme pretlačený cesnak, citrónovú šťavu, soľ a čierne mleté korenie, premiešame a pridáme zmäknuté maslo. Všetko dobre premiešame, vyložíme na potravinovú fóliu a zabalíme do valčeka. Takto pripravenú plnku dáme do mrazničky na cca 5 minút.",
+  "Kuracie prsia opatrne oddelíme od hrudnej kosti a ponecháme len ramennú kosť z krídla. Z pŕs odrežeme malé filé.",
+  "Mäso vyklepeme cez potravinovú fóliu - obe časti pŕs (malé filé a veľké). Osolíme, okoreníme zo všetkých strán. Do stredu dáme stuhnutú plnku, prikryjeme malým filé a zrolujeme ako roládu.",
+  "Pevne zabalíme do potravinovej fólie a dáme do mrazničky cca na 15-20 minút, aby trochu stuhli.",
+  "Kotlety obalíme v trojobale (múka, vajce, strúhanka), potom ešte raz vo vajci a strúhanke a vyprážame na rozohriatom oleji zo všetkých strán.",
+  "Uložíme na pekáč a pečieme v rozohriatej rúre pri 180-190 °C ešte 15-20 minút.",
+  "Kotlety podávame horúce, ako prílohu odporúčam dusenú zeleninu. Kosť môžete zabaliť do servítky.",
+  "V reštaurácii je zvykom kotletu pred zákazníkom rozrezať, aby teplé maslo neprsklo na zákazníka. Maslová plnka sa v kotlete roztopí a väčšinou sa vstrebe do mäsa, mäso je potom veľmi jemné a šťavnaté, zvyšok bylinkového masla, ktorý vytečie z kotlety slúži ako omáčka. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "ukrajinské"
+ ]
 }

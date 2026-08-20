@@ -1,77 +1,102 @@
 {
-  "id": "syrovo-slaninove-rozky",
-  "nazov": "Syrovo-slaninové rožky",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "inšpirované Wikibooks Cookbook: Cheese and Bacon Rolls (CC BY-SA)",
-  "porcie": 8,
-  "cas": "90 min",
-  "kcal_na_porciu": 424,
-  "kcal_zdroj": "vypocet",
-  "popis": "Slané kysnuté rožky so syrom a chrumkavou slaninou, ideálne na raňajky alebo desiatu.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 280,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Eidam",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Slaninu nakrájaj na kocky a opraž do chrumkava.",
-    "Z múky, vlažného mlieka, droždia, cukru, soli a masla vypracuj cesto, vmiešaj slaninu a polovicu strúhaného syra. Nechaj kysnúť 1 hodinu.",
-    "Cesto rozdeľ na 8 kúskov, vytvaruj rožky a ulož na plech.",
-    "Posyp zvyšným syrom a nechaj ešte 15 minút kysnúť.",
-    "Peč pri 200 °C asi 18-20 minút do zlatista."
-  ],
-  "tipy": "Rožky výborne chutia ešte teplé, čerstvo z rúry.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "slané",
-    "syr",
-    "slanina"
-  ]
+ "id": "syrovo-slaninove-rozky",
+ "nazov": "Syrovo-slaninové rožky",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pečené slaninové rožky s 5***** (autor: najkuchticka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecene-slaninove-rozky-s-5/26464-recept.html",
+ "porcie": 16,
+ "cas": "30 min",
+ "kcal_na_porciu": 367,
+ "popis": "Vela receptov som precitala, prestudovala, no rozky nie a nie vyjst tak ako na obrazku. \r\nVyskusala som tento, nedalo mi to proste. Dnes upecene ma velmi prekvapili, boli makkucke a \r\nvyborne chutovo. Podelim sa teda o tento recept s vami :)",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 900,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 3,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nakladane"
+  }
+ ],
+ "postup": [
+  "Nachystala som si všetky suroviny potrebné na prípravu.",
+  "Spravíme si kvások z mlieka cukru a kvasnic. Do muky pridame struhany syr, sol, rascu, cukor, kvasok, najkrajanu slaninku na drobno, pretlaceny zemiak a tuk.",
+  "Vypracujeme cesto, ktoré dame na teple miesto kysnut cca 1 hod. Zatial si nakrajame uhorky na tenke pasiky, ktorymi budeme rozky plnit.",
+  "Ked je cesto dostatocne nakysnute, troska ho premiesime, rozdelime na 2 casti. 1. čast cesta vyvalkame do tvaru kruhu, rozdelime na rovnakych 8 casti (trojuholniky). Do kazdeho trojuholnika dame pasik uhorky, okraje ohneme a zakrutime do tvaru rožka. To iste urobime aj s druhou polkou cesta. (Komu viac budu chutit bez uhorky, moze ju vynechat)",
+  "Rožky prelozíme na plech, nechame podkysnut 10 min.Potom ich potrieme vajickom. Ruru zohrejeme na 230 stupnov a pecieme priblizne 15 min.",
+  "Po upeceni ich potrieme slanou vodou. Nechame ich vychladnut po utierkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "slané",
+  "syr",
+  "slanina"
+ ]
 }

@@ -1,69 +1,97 @@
 {
-  "id": "sulance-s-tvarohom",
-  "nazov": "Šúľance s tvarohom",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 460,
-  "popis": "Zemiakové šúľance obalené v sladkom tvarohu s maslom.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "uvarené"
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "štipka",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Práškový cukor",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z popučených zemiakov, múky, vajca a soli sprav cesto.",
-    "Váľaj tenké valčeky a krájaj šúľance.",
-    "Var v osolenej vode, po vyplávaní sceď.",
-    "Prehoď na masle a posyp tvarohom s cukrom."
-  ],
-  "tipy": "Tvaroh môžeš nahradiť makom alebo orechami.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "sladké",
-    "tvaroh"
-  ],
-  "foto": ""
+ "id": "sulance-s-tvarohom",
+ "nazov": "Šúľance s tvarohom",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Tvarohové šúľance s makom (autor: salinka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/tvarohove-sulance-s-makom/24017-recept.html",
+ "porcie": 6,
+ "cas": "40 min",
+ "kcal_na_porciu": 299,
+ "popis": "Ponúkam recept na rýchle a chutné jedlo, ktorým sa zavďačíte hlavne malým stravníkom:-) Recept mám z Rakúska, kde sa podáva s jablkovou výživou. Miesto toho môžete ponúknuť mlieko.",
+ "ingrediencie": [
+  {
+   "nazov": "Tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Detská krupica",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletý mak",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si potrebné suroviny.",
+  "Tvaroh, maslo, vanilkový cukor, citrónovú kôru, štipku soli a vajce (použila som len jedno), spolu vymiešame.",
+  "Pridáme krupicu a múku. Znova premiešame.",
+  "Cesto vypracujeme na hladký bochník a dáme ho na 15 min. do chladničky.",
+  "Na pomúčenej doske z bochníka vytvarujeme šúľanec asi hrúbky prsta. Z neho odkrajujeme menšie kúsky a dlaňami formujeme na malé šúľance. Medzitým si dáme do hrnca variť dostatočné množstvo vody, ktorú trochu prisolíme.",
+  "Šúľance vložíme do vriacej vody a necháme pomaly variť, asi 10 minút, pokiaľ neplávajú na povrchu.",
+  "Uvarené prelejeme cez sitko, dáme do misky, posypeme cukrom, makom a polejeme roztopeným maslom. Podávame s jablkovou výživou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "sladké",
+  "tvaroh"
+ ]
 }

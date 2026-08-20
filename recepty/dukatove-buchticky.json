@@ -1,95 +1,94 @@
 {
-  "id": "dukatove-buchticky",
-  "nazov": "Dukátové buchtičky s vanilkovým krémom",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "70 min",
-  "kcal_na_porciu": 460,
-  "popis": "Malé kysnuté buchtičky zaliate teplým vanilkovým krémom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": "vlažné, na cesto"
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 21,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": "na krém"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "na krém"
-    },
-    {
-      "nazov": "Vaječný žĺtok",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": "na krém"
-    },
-    {
-      "nazov": "Vanilkový cukor",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": "na krém"
-    }
-  ],
-  "postup": [
-    "Z vlažného mlieka, droždia a lyžice cukru urob kvások.",
-    "Vypracuj kysnuté cesto a nechaj vykysnúť.",
-    "Tvaruj malé guľky, ulož do vymastenej formy a nechaj nakysnúť.",
-    "Peč pri 180 °C asi 20 minút dozlata.",
-    "Krém: žĺtky, cukor, vanilku a múku rozšľahaj, zalej horúcim mliekom a za stáleho miešania uvar hustý krém.",
-    "Buchtičky zalej teplým krémom a hneď podávaj."
-  ],
-  "tipy": "Krém neustále miešaj, aby sa neprihorel a nespravil hrudky.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "sladké",
-    "kysnuté"
-  ],
-  "foto": ""
+ "id": "dukatove-buchticky",
+ "nazov": "Dukátové buchtičky s vanilkovým krémom",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Dukátové buchtičky s vanilkovým krémom (fotorecept) (autor: olinecka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/dukatove-buchticky-s-vanilkovym-kremom-fotorecept/66699-recept.html",
+ "porcie": 12,
+ "cas": "40 min",
+ "kcal_na_porciu": 386,
+ "popis": "Tak takúto dobrotu nikto neodmietne, či je veľký alebo malý. Hrnčekove rýchle cesto, zvládne aj začiatočník. Len vyskúšať a budete spokojní!!!!",
+ "ingrediencie": [
+  {
+   "nazov": "Múka polohruba",
+   "mnozstvo": 750,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlažné mlieko",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 80,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé droždie",
+   "mnozstvo": 42,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový puding",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo Zlatý klas"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 650,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do mlieka dáme štipku soli a trocha cukru rozdrobíme droždie, necháme nakysnúť. Do väčšej misy dáme múku, vajíčka, olej, citrónovu kôru, cukor, soľ, nakoniec vmiešame kvások. Dobre varechou vymiešame, vznikne vláčne cesto, ktoré posypeme múkou, zakryjeme utierkou a necháme na teplom mieste vykysnúť asi 1/2 hodiny.",
+  "Vykysnuté cesto dáme na pomúčenú pracovnú dosku.",
+  "Rúru predhrejeme na 180 - 190 stupňov, plech 26 - 35 cm potrieme olejom, cesto rozvaľkáme na hrúbku 2,5c m a valčekom prenesieme na plech. Cesto nožíkom pokrajame na kocky ešte na plechu. Pečieme 15 - 20 minút do zlatista.",
+  "Uvaríme si vanilkový puding , ale v 650 ml mlieka, aby bol redší a dal sa nám naliať na buchtičky. Nakoniec posielam foto makový a orechový závin. Všetkym dobrú chuť....."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "sladké",
+  "kysnuté"
+ ]
 }

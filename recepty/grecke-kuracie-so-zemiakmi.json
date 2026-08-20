@@ -1,71 +1,127 @@
 {
-  "id": "grecke-kuracie-so-zemiakmi",
-  "nazov": "Grécke kuracie so zemiakmi",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Grécka",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "55 min",
-  "kcal_na_porciu": 629,
-  "kcal_zdroj": "vypocet",
-  "popis": "Pečené kuracie stehná so zemiakmi, citrónom a oreganom.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie stehná",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Oregano",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky nakrájaj na kliny.",
-    "Premiešaj so zemiakmi, olivovým olejom, citrónovou šťavou, oreganom, pretlačeným cesnakom a soľou.",
-    "Ulož na plech spolu s kuracími stehnami.",
-    "Peč pri 200 °C asi 45 minút do zlatista.",
-    "Podávaj s citrónovými plátkami."
-  ],
-  "tipy": "Šťava z citróna robí zemiaky výborne osviežujúce.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "grécke",
-    "jedno-plechové"
-  ]
+ "id": "grecke-kuracie-so-zemiakmi",
+ "nazov": "Grécke kuracie so zemiakmi",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Grécka",
+ "zdroj": "Varecha.sk – Grécky šalát s kuracím mäsom (autor: martinis)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/grecky-salat-s-kuracim-masom/35331-recept.html",
+ "porcie": 2,
+ "cas": "35 min",
+ "kcal_na_porciu": 426,
+ "popis": "Osviežujúci šalát z paradajok, uhorky a kukurice, posypaný chrumkavými krutónmi a \r\npodávaný s kockami kuracieho mäsa a jogurtovým dressingom :)",
+ "ingrediencie": [
+  {
+   "nazov": "Listový šalát",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalátová uhorka",
+   "mnozstvo": 0.33,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sterilizovaná kukurica",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Toastový chlieb",
+   "mnozstvo": 2,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jogurt biely",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie na hydinu",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Tento šalát je výborný ako obed či večera, navyše je zdravý, farebný aj chutný. Pustíme sa teda do jeho prípravy :)",
+  "Šalát umyjeme, hlúbik odrežeme a listami vystelieme misku či tanier, v ktorom sa šalát bude podávať. Pokvapkáme lyžicou olivového oleja a trochou citrónovej šťavy.",
+  "Mäso nakrájame na kocky, okoreníme a na lyžici olivového oleja opečieme do zlata. Odložíme na teplé miesto.",
+  "Zeleninu umyjeme a pokrájame na zhruba rovnaké kocky. Zmiešame s kukuricou a túto farebnú zmes vysypeme na šalát. V tejto fáze to vyzerá bezchybne ! :)",
+  "Čas na prípravu dressingu : 2 lyžice bieleho jogurtu vymiešame s petržlenovou vňaťou podľa chuti, lyžičkou olivového oleja, soľou, mletým čiernym korením a citrónovou šťavou. Niekto má rád kyslejšiu zálievku, niekto menej výraznú - naozaj musíte dochutiť podľa vašich osobných preferencíí ;)",
+  "Poslednou zložkou sú toastové krutóny : tie pripravíme opečením dvoch plátkov ľubovoľného toastového chleba nakrájaných na menšie kocky na suchej panvici.",
+  "Hotovými krutónkami posypeme šalát, navrch pridáme mäso a zalejeme dressingom. Môžeme podávať aj s cesnakovou bagetkou či iným pečivom, mne na obed postačil aj takto :O)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "grécke",
+  "jedno-plechové"
+ ]
 }

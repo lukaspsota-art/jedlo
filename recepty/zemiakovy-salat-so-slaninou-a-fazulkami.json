@@ -1,58 +1,92 @@
 {
-  "id": "zemiakovy-salat-so-slaninou-a-fazulkami",
-  "nazov": "Zemiakový šalát so slaninou a zelenými fazuľkami",
-  "kategoria": "Šalát",
-  "kuchyna": "Francúzska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 268,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýty francúzsky inšpirovaný zemiakový šalát so slaninou a fazuľkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hráškové struky",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky uvar do mäkka, ošúp a nakrájaj na kocky.",
-    "Fazuľky krátko povar 4 minúty, scedi.",
-    "Slaninu opeč do chrumkava.",
-    "Premiešaj zemiaky, fazuľky a slaninu s olivovým olejom.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Sýty šalát vhodný ako samostatný obed.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "zemiaky",
-    "francúzske"
-  ]
+ "id": "zemiakovy-salat-so-slaninou-a-fazulkami",
+ "nazov": "Zemiakový šalát so slaninou a zelenými fazuľkami",
+ "kategoria": "Šalát",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Zemiakový šalát s fazuľkou (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakovy-salat-s-fazulkou/84462-recept.html",
+ "porcie": 4,
+ "cas": "35 min",
+ "kcal_na_porciu": 276,
+ "popis": "Sýty francúzsky inšpirovaný zemiakový šalát so slaninou a fazuľkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzí vývar",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelená fazuľka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená čakanka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Umyté zemiaky v šupke uvaríme v osolenej vode domäkka a ešte teplé ich olúpeme a nakrájame.",
+  "V mise vyšľaháme ocot s olivovým olejom, hovädzím vývarom a horčicou. Pridáme nakrájané zemiaky, zľahka premiešame a necháme odstáť, aby dresing vsiakol do teplých zemiakov. Podľa chuti osolíme, okoreníme a prípadne dosladíme cukrom.",
+  "Medzitým povaríme zelenú fazuľku asi 2 minúty vo vriacej osolenej vode, potom ju zlejeme a prepláchneme studenou vodou. Fazuľku spoločne s najemno nakrájanou cibuľou a natrhanou čakankou pridáme do misy k zemiakom a zľahka premiešame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "zemiaky",
+  "francúzske"
+ ]
 }

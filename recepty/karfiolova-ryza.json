@@ -1,51 +1,94 @@
 {
-  "id": "karfiolova-ryza",
-  "nazov": "Karfiolová ryža",
-  "kategoria": "Príloha",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "15 min",
-  "kcal_na_porciu": 85,
-  "kcal_zdroj": "vypocet",
-  "popis": "Nízkosacharidová príloha z karfiolu nastrúhaného na ryžu.",
-  "ingrediencie": [
-    {
-      "nazov": "Karfiol",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Karfiol nastrúhaj alebo pomixuj na hrubozrnnú ryžu.",
-    "Na oleji opraž pretlačený cesnak.",
-    "Pridaj karfiolovú ryžu a opekaj 5-7 minút.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Skvelá nízkosacharidová náhrada bežnej ryže.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "karfiol",
-    "nízkosacharidové"
-  ]
+ "id": "karfiolova-ryza",
+ "nazov": "Karfiolová ryža",
+ "kategoria": "Príloha",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Opekaná ryža s karfiolom a brokolicou (autor: Ryža SOS)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/opekana-ryza-s-karfiolom-a-brokolicou/88568-recept.html",
+ "porcie": 8,
+ "cas": "30 min",
+ "kcal_na_porciu": 211,
+ "popis": "Na vychutnanie jednoduchého a chutného jedla potrebujete iba 30 minút.* Opekaná ryža s karfiolom a brokolicou je ideálna s \r\nryžou SOS Basmati.",
+ "ingrediencie": [
+  {
+   "nazov": "Ryža SOS Basmati",
+   "mnozstvo": 225,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Brokolica",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karfiol",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kešu",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Arašidy",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 6,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá kurkuma",
+   "mnozstvo": 2,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ghí",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Karfiol a brokolicu blanšírujte vo vriacej vode 2 minúty, vyberte a odstavte.",
+  "Predtým premytú ryžu varte 10 minút vo veľkom množstve osolenej vody. Sceďte a nechajte vychladnúť.",
+  "Kešu orechy, arašidy spolu s makom a zázvorom rozdrvíme v mažiari.",
+  "Rozdrvený mak s orechmi osmahnite na panvici, pridajte karfiol, zázvor a brokolicu. Dochuťte kurkumou a odstavte.",
+  "Na druhej panvici rozhrejte olej a osmahnite na ňom ryžu na vysokej teplote. Pridajte k zelenine, premiešajte a podávajte."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "karfiol",
+  "nízkosacharidové"
+ ]
 }

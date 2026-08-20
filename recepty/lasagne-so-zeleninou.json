@@ -1,82 +1,135 @@
 {
-  "id": "lasagne-so-zeleninou",
-  "nazov": "Zapekané lasagne so zeleninou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 6,
-  "cas": "70 min",
-  "kcal_na_porciu": 382,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vegetariánske zapekané lasagne s cuketou, baklažánom a syrovou omáčkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Lasagne cestoviny",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cuketa",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Baklažán",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mozzarella",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cuketu a baklažán nakrájaj na plátky a opeč na olivovom oleji.",
-    "Z paradajok a pretlačeného cesnaku priprav rýchlu omáčku.",
-    "V zapekacej miske striedaj vrstvy plátkov lasagní, zeleniny, paradajkovej omáčky a smotany.",
-    "Navrch daj strúhanú mozzarellu.",
-    "Peč pri 190 °C asi 35-40 minút do zlatista."
-  ],
-  "tipy": "Nechaj pred krájaním 10 minút odstáť, lepšie sa krája.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "zapekané",
-    "vegetariánske"
-  ]
+ "id": "lasagne-so-zeleninou",
+ "nazov": "Zapekané lasagne so zeleninou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Zapekané lasagne (autor: galbani)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zapekane-lasagne/73699-recept.html",
+ "porcie": 4,
+ "cas": "180 min",
+ "kcal_na_porciu": 500,
+ "popis": "Chutný obed pre 4 osoby.",
+ "ingrediencie": [
+  {
+   "nazov": "Mozzarella Galbani",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lasagne",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bolonská omáčka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán Parmigiano Reggiano D.O.P",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stonkový zeler",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäsový vývar",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červené víno",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté mäso",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajková omáčka",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Najskôr pripravte bolonskú omáčku. Očistenú a nakrájanú cibuľu, mrkvu a zeler orestujte na panvici v zmesi oleja a masla. Pridajte mleté mäso a niekoľko minút pri vysokej teplote sprudka opekajte. Prilejte červené víno a pri stále vysokej teplote ho nechajte odpariť.",
+  "Pridajte paradajkovú omáčku (alebo paradajkový pretlak rozpustený v troške vývaru), vývar, korenie, soľ a za občasného miešania a dolievania zvyšku vývaru varte v čiastočne zakrytej panvici aspoň 2 hodiny.",
+  "Medzitým lasagne predvarte v osolenej vode. Aby nedošlo k ich zlepeniu, môžete ich po uvarení ponoriť do studenej vody a zaliať kvapkou olivového oleja.",
+  "Zapekaciu nádobu vyložte papierom na pečenie a potom striedajte vrstvu cestovín, vrstvu bolonskej omáčky a na drobné kúsky pokrájanú mozzarellu. Zakončite vrstvou mozzarelly, posypte nastrúhaným parmezánom a na to poukladajte kúsočky masla. Pečte 40 minút pri 200 °C."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "zapekané",
+  "vegetariánske"
+ ]
 }

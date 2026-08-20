@@ -1,58 +1,106 @@
 {
-  "id": "kuracie-prsia-plnene-spenatom-a-syrom",
-  "nazov": "Kuracie prsia plnené špenátom a syrom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 362,
-  "kcal_zdroj": "vypocet",
-  "popis": "Šťavnaté kuracie prsia plnené špenátom a syrom feta.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Špenát",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feta",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Kuracie prsia prekroj vodorovne, aby vzniklo vrecko.",
-    "Špenát krátko podus, zmiešaj s rozdrobenou fetou.",
-    "Naplň prsia zmesou a zatvor špáradlom.",
-    "Opeč na oleji z oboch strán, potom dopeč v rúre pri 190 °C asi 15 minút.",
-    "Podávaj s prílohou podľa chuti."
-  ],
-  "tipy": "Skvele funguje aj s mrazeným špenátom.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "plnené"
-  ]
+ "id": "kuracie-prsia-plnene-spenatom-a-syrom",
+ "nazov": "Kuracie prsia plnené špenátom a syrom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Slávnostný obed - Kuracie prsia plnené syrom a špenátom v lístkovom ceste (autor: anemarka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/slavnostny-obed-kuracie-prsia-plnene-syrom-a-spenatom-v-listkovom-cest/73323-recept.html",
+ "porcie": 6,
+ "cas": "105 min",
+ "kcal_na_porciu": 477,
+ "popis": "Toto jedlo sa perfektne hodí na každú rodinnú oslavu. Či už pripravujete nedeľný obed alebo svadobnú hostinu, toto jedlo si určite \r\nzamilujete. :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenát",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lístkové cesto",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 6,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hranolky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalát",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "mix"
+  }
+ ],
+ "postup": [
+  "Na masle si podusíme špenát spolu s roztlačeným cesnakom, soľou, korením a štipkou muškátového orieška. Pridáme aj smotanu (ja som smotanu nemala, tak som len dolievala vodu podľa potreby a výsledok bol rovnako chutný).",
+  "Kuracích pŕs potrebujeme toľko, koľko ľudí máme. Teda 6 kuracích pŕs = 6 ľudí. Samozrejme, všetko závisí na veľkosti mäsa, keďže sa môže stať, že jedno mäsko môže byť pre niekoho priveľa. Každé mäso narežeme po dĺžke do tvaru kapsy, plníme poduseným špenátom, na ktorý položíme plátok syra. Nezabudnite mäso posoliť.",
+  "Naplnené mäso položíme na polovicu lístkového cesta (Použila som cesto, ktoré bolo dopredu rozvaľkané, teda jedna polovica tohto cesta stačí na jedno celé mäso). Okraje narežeme do prúžkov okrem dna, ktoré musí ostať celé. Prekladáme jeden prúžok cez druhý. Vytvoríme tak krásny kabátik. Fantázii sa medze nekladú.",
+  "Plech si vyložíme papierom na pečenie a naň ukladáme pripravené mäso. Potrieme rozšľahaným vajíčkom a zapekáme na 200 °C asi 45 minút.",
+  "Ako prílohu som zvolila hranolky a doplnila mix šalátom. Všetkým veľmi chutilo a preto verím, že bude aj vám. Dobrú chuť :-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "plnené"
+ ]
 }

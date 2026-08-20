@@ -1,63 +1,80 @@
 {
-  "id": "spenatova-kremova-polievka",
-  "nazov": "Špenátová krémová polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 140,
-  "kcal_zdroj": "vypocet",
-  "popis": "Hladká zelená krémová polievka zo špenátu.",
-  "ingrediencie": [
-    {
-      "nazov": "Špenát",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu.",
-    "Pridaj špenát a vývar, var 10 minút.",
-    "Rozmixuj dohladka.",
-    "Vmiešaj smotanu a dochuť soľou."
-  ],
-  "tipy": "Skvelá aj studená v horúcich letných dňoch.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "špenát",
-    "krémová"
-  ]
+ "id": "spenatova-kremova-polievka",
+ "nazov": "Špenátová krémová polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Špenátová polievka (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/spenatova-polievka/7344-recept.html",
+ "porcie": 10,
+ "cas": "35 min",
+ "kcal_na_porciu": 176,
+ "popis": "Hladká zelená krémová polievka zo špenátu.",
+ "ingrediencie": [
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Listový špenát",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtky",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na rozpustenom masle orestujeme nakrájanú šalotku. Pridáme špenát, ktorý sme blanšírovali asi 5 minút vo vriacej vode. Dochutíme cesnakom, pridáme zemiaky, podlejeme vodou a povaríme.",
+  "Nakoniec polievku rozmixujeme ponorným mixérom a ochutíme soľou a korením. Pošírovaný žĺtok vkladáme do polievky až pri servírovaní.",
+  "Náš tip: Pre lepšiu chuť polievky môžeme namiesto vody použiť aj vývar. Žĺtok pošírujeme v olivovom oleji pri teplote 80°C asi 5 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "špenát",
+  "krémová"
+ ]
 }

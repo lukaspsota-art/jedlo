@@ -1,58 +1,75 @@
 {
-  "id": "bravcove-peceny-s-cesnakom-a-rozmarinom",
-  "nazov": "Bravčové pečené s cesnakom a rozmarínom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 5,
-  "cas": "70 min",
-  "kcal_na_porciu": 539,
-  "kcal_zdroj": "vypocet",
-  "popis": "Šťavnaté celé pečené bravčové karé s cesnakom a rozmarínom.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčové karé",
-      "mnozstvo": 1000,
-      "jednotka": "g",
-      "poznamka": "vcelku"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 4,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rozmarín",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso potri olivovým olejom, pretlačeným cesnakom, rozmarínom a soľou.",
-    "Ulož na plech.",
-    "Peč pri 180 °C asi 55-60 minút do prepečenia.",
-    "Nechaj 10 minút odpočívať pred krájaním.",
-    "Podávaj s prílohou podľa chuti."
-  ],
-  "tipy": "Vnútorná teplota by mala dosiahnuť aspoň 70 °C.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "bravčové",
-    "pečené"
-  ]
+ "id": "bravcove-peceny-s-cesnakom-a-rozmarinom",
+ "nazov": "Bravčové pečené s cesnakom a rozmarínom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pečená bravčová panenka s rozmarínom (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecena-bravcova-panenka-s-rozmarinom/82509-recept.html",
+ "porcie": 2,
+ "cas": "70 min",
+ "kcal_na_porciu": 348,
+ "popis": "Šťavnaté celé pečené bravčové karé s cesnakom a rozmarínom.",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčová panenka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vývar",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Panenku odblaníme, umyjeme, osušíme, osolíme, okoreníme a potrieme horčicou.",
+  "Na panvici rozohrejeme olej a mäso opečieme zo všetkých strán. Vložíme do pekáča, zalejeme vývarom, posypeme nasekaným rozmarínom a nadrobno nakrájanou cibuľou a vložíme do rúry rozohriatej na 170 stupňov (s ventilátorom alebo 190 stupňov bez neho). Pečieme asi pol hodiny.",
+  "Po upečení panenku zabalíme do alobalu a necháme odstáť vo vypnutej rúre.",
+  "Pred podávaním panenku nakrájame na plátky a ozdobíme bylinkami. Podávame napríklad so zemiakovou kašou, s pečenou či dusenou zeleninou alebo s pečenými zemiakmi."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "pečené"
+ ]
 }

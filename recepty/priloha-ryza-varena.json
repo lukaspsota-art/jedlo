@@ -1,41 +1,57 @@
 {
-  "id": "priloha-ryza-varena",
-  "nazov": "Varená ryža",
-  "kategoria": "Príloha",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 216,
-  "kcal_zdroj": "vypocet",
-  "popis": "Základná varená ryža ako príloha.",
-  "ingrediencie": [
-    {
-      "nazov": "Ryža",
-      "mnozstvo": 240,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 480,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Ryžu prepláchni studenou vodou.",
-    "Daj do hrnca s vodou a soľou, priveď do varu.",
-    "Zníž plameň, prikry a var 12 min. Odstav a nechaj 5 min odpočívať."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "ryža"
-  ]
+ "id": "priloha-ryza-varena",
+ "nazov": "Varená ryža",
+ "kategoria": "Príloha",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Ryža varená v rúre (autor: agentsupka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/ryza-varena-v-rure-/82193-recept.html",
+ "porcie": 10,
+ "cas": "70 min",
+ "kcal_na_porciu": 221,
+ "popis": "Tento recept je veľmi jednoduchý a rýchly.",
+ "ingrediencie": [
+  {
+   "nazov": "Ryža",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 800,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ryžu premyjeme pod studenou tečúcou vodou. Necháme odkvapkať v sitku.",
+  "Do hrnca dáme zohriať 50 ml oleja. Odkvapkanú ryžu v hrnci s olejom opražíme.",
+  "Zalejeme vodou, pridáme soľ a vegetu ochutnáme, zakryjeme a necháme zovrieť.",
+  "Po zovretí dáme do vyhriatej rúry na 150 stupňov a varíme 30-35 minút. Po 30 minútach ryžu vyberieme, ochutnáme. V prípade, že je ryža tvrdá, vložíme ju späť do rúry.",
+  "Dúfam, že sa vám ryža podarila a prajem dobrú chuť ;)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "ryža"
+ ]
 }

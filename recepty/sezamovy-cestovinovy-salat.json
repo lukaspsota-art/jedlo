@@ -1,82 +1,86 @@
 {
-  "id": "sezamovy-cestovinovy-salat",
-  "nazov": "Sezamový cestovinový šalát",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Ázijská",
-  "zdroj": "inšpirované Wikibooks Cookbook: Sesame Noodle Salad (CC BY-SA)",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 375,
-  "kcal_zdroj": "vypocet",
-  "popis": "Studený ázijský šalát z rezancov so sezamovo-sójovým dresingom a chrumkavou zeleninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Rezance",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jarná cibuľka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sezamový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sezamové semienka",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rezance uvar podľa návodu, scedi a nechaj vychladnúť.",
-    "Mrkvu a uhorku nastrúhaj alebo nakrájaj na tenké prúžky, cibuľku pokrájaj na kolieska.",
-    "Zmiešaj sójovú omáčku, sezamový olej, med a pretlačený cesnak na dresing.",
-    "Rezance premiešaj so zeleninou a dresingom.",
-    "Posyp sezamovými semienkami a podávaj studené."
-  ],
-  "tipy": "Pre ostrejšiu verziu pridaj štipku chilli vločiek.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "ázijské",
-    "studený šalát"
-  ]
+ "id": "sezamovy-cestovinovy-salat",
+ "nazov": "Sezamový cestovinový šalát",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Cestovinový šalát (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestovinovy-salat/67718-recept.html",
+ "porcie": 6,
+ "cas": "25 min",
+ "kcal_na_porciu": 427,
+ "popis": "Máte chuť na rýchly a ľahký obed? Vyskúšajte tento vynikajúci cestovinový šalát, vhodný nie len na letné dni.",
+ "ingrediencie": [
+  {
+   "nazov": "Fazuľové struky",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Penne",
+   "mnozstvo": 360,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tuniak v rastlinnom oleji",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot vínny",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ricotta",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cestoviny uvaríme v osolenej vode, scedíme a necháme vychladnúť. Fazuľové struky uvaríme do mäkka a po vychladnutí ich zmiešame s cestovinami.",
+  "Pridáme nakrájanú cibuľu, scedený tuniak, na plátky nakrájanú papriku a pokvapkáme olivovým olejom a vínnym octom.",
+  "Pridáme ricottu, dochutíme soľou a korením a poriadne premiešame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "ázijské",
+  "studený šalát"
+ ]
 }

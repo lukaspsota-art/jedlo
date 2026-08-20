@@ -1,82 +1,66 @@
 {
-  "id": "cisarsky-trhanec",
-  "nazov": "Cisársky trhanec",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 3,
-  "cas": "30 min",
-  "kcal_na_porciu": 420,
-  "popis": "Natrhaná nadýchaná palacinka s hrozienkami, posypaná cukrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrozienka",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vanilkový cukor",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Práškový cukor",
-      "mnozstvo": null,
-      "jednotka": "na posypanie",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "štipka",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Oddeľ bielky, vyšľahaj ich na tuhý sneh.",
-    "Žĺtky rozšľahaj s cukrom, mliekom, múkou, vanilkou a soľou.",
-    "Opatrne zamiešaj sneh a hrozienka.",
-    "Na masle vylej cesto, po zapečení spodku ho natrhaj vidličkou na kúsky a dopeč.",
-    "Posyp práškovým cukrom."
-  ],
-  "tipy": "Sneh z bielkov robí trhanec nadýchaným — miešaj ho jemne. Podávaj so slivkovým kompótom.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "sladké",
-    "dezert"
-  ],
-  "foto": ""
+ "id": "cisarsky-trhanec",
+ "nazov": "Cisársky trhanec",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Cisársky trhanec (autor: morenajea)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cisarsky-trhanec/58372-recept.html",
+ "porcie": 3,
+ "cas": "30 min",
+ "kcal_na_porciu": 305,
+ "popis": "od Zdeňka Pohlreicha",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukor vanilkový domáci",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rozpis je na jednu veľkú, alebo dve menšie porcie. V originál recepte sú ešte hrozienka, nasekané orechy a nakrájané jablká. Ja mám ale rada takúto jednoduchú verziu.",
+  "V jednej miske: Žĺtka rozmiešame s cukrom, pridáme múku, mlieko, 1 PL cukru a soľ.",
+  "V druhej miske: metličkou ušľaháme sneh z bielkov.",
+  "Na panvici rozpálime 1PL masla. Sneh vmiešame do cesta a vylejeme na horúce maslo. (Teraz kto chce, môže navrh posypať hrozienka) Pečieme pod pokrievkou 2-3 minúty. Keď je hotové, otočíme a dorobíme druhú stranu. Potom placku vareškou roztrháme na menšie kusy a dáme ich na tanier.",
+  "Na panvici necháme rozpustiť 1PL masla a 1PL cukru. Keď začne karamelizovať (kto chce môže si teraz pridať orechy alebo jablká), pridáme trhanec a premiešame.",
+  "Na tanieri posypeme práškovým cukrom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "sladké",
+  "dezert"
+ ]
 }

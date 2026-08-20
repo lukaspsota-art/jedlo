@@ -1,70 +1,100 @@
 {
-  "id": "cestoviny-s-kuracim-a-paradajkovo-smotanovou",
-  "nazov": "Cestoviny s kuracím mäsom a paradajkovo-smotanovou omáčkou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 574,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte krémové cestoviny s kuracím mäsom v paradajkovo-smotanovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Penne",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Kuracie mäso nakrájaj na kúsky a opeč na oleji dozlata.",
-    "Pridaj pretlačený cesnak a paradajky, dus 10 minút.",
-    "Vmiešaj smotanu a prehrej.",
-    "Zamiešaj uvarené cestoviny a podávaj."
-  ],
-  "tipy": "Skvele chutí aj s pridanou bazalkou.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "kura",
-    "krémové"
-  ]
+ "id": "cestoviny-s-kuracim-a-paradajkovo-smotanovou",
+ "nazov": "Cestoviny s kuracím mäsom a paradajkovo-smotanovou omáčkou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Cestoviny s kuracím mäsom v paradajkovej omáčke (autor: frommykitchendotcom)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-s-kuracim-masom-v-paradajkovej-omacke/93415-recept.html",
+ "porcie": 9,
+ "cas": "30 min",
+ "kcal_na_porciu": 355,
+ "popis": "Sýte krémové cestoviny s kuracím mäsom v paradajkovo-smotanovej omáčke.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušená bazalka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kuracie mäso nakrájame na rezne, osolíme, okoreníme a na troche oleja opražíme z oboch strán. Odložíme ho stranou.",
+  "Vo výpeku orestujeme nadrobno nakrájanú cibuľu a pretlačený cesnak. Zalejeme paradajkovým pretlakom a chvíľku povaríme.",
+  "Vlejeme smotanu, osolíme, okoreníme a ochutíme bazalkou. Vsypeme aj strúhanú mozzarellu.",
+  "V osolenej vode uvaríme cestoviny. Uvarené ich scedíme a vsypeme do omáčky.",
+  "Premiešame, vrátime mäso do panvice a posypeme parmezánom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "kura",
+  "krémové"
+ ]
 }

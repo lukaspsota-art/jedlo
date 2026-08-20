@@ -1,70 +1,110 @@
 {
-  "id": "cestoviny-s-klobasou-a-paprikou",
-  "nazov": "Cestoviny s klobásou a paprikou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 546,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte cestoviny s opečenou klobásou a paprikou.",
-  "ingrediencie": [
-    {
-      "nazov": "Penne",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Klobása",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Klobásu nakrájaj na kolieska a opeč na oleji.",
-    "Pridaj cibuľu a papriku, opraž do mäkka.",
-    "Vmiešaj paradajky, dus 10 minút.",
-    "Zamiešaj uvarené cestoviny a podávaj."
-  ],
-  "tipy": "Skvelé rýchle jedlo zo suchých zásob v špajzi.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "klobása",
-    "slovenské"
-  ]
+ "id": "cestoviny-s-klobasou-a-paprikou",
+ "nazov": "Cestoviny s klobásou a paprikou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Pikantné cestoviny s klobásou a so syrom (fotorecept) (autor: kukulienka71)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pikantne-cestoviny-s-klobasou-a-so-syrom-fotorecept/64216-recept.html",
+ "porcie": 2,
+ "cas": "35 min",
+ "kcal_na_porciu": 286,
+ "popis": "Toto jedlo je na prvé počutie celkom nezvyčajne poskladané, ale verte mi, že je veľmi chutné.  Inšpirácia zasa z \r\nmexickej kuchárky :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Niťovky",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údená klobása",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti domáca"
+  },
+  {
+   "nazov": "Zelená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprička čili",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Paradajková šťava",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "posekaná (alebo koriandrová"
+  }
+ ],
+ "postup": [
+  "Oproti originálu som urobila drobné zmeny podľa svojich možností a surovín. Veľkou výhodou je varianta s použitím zvyšku varených rezancov, čo bol aj môj prípad.",
+  "Pekáčik som vymazala olejom, na zvyšku som popražila pokrájanú cibuľu a zelenú papriku, prihodila som plátky čerstvej čili papričky.",
+  "Klobásku som pokrájala na kolieska a pridala opekať na panvicu, rúru som zapla na 200 °C",
+  "Skoro som zabudla na cesnak, aj ten sa poopekal.",
+  "Opečenú zmes som posypala čiernym korením a zaliala paradajkovou šťavou. Pridala som aj oregano (nevšimla som si, že sa mi minulo, tak som dala provensálske korenie, ktoré ho obsahuje tiež).",
+  "Obsah panvice hneď zaškvrčal, nechala som ho prevrieť a prisypala som rezance. Treba ich poriadne premiešať v tej omáčke a oheň vypnúť.",
+  "Ak je niekto veľmi-preveľmi hladný, už aj v takejto podobe to bude veľká dobrota, odpadne mu zapekanie. Ja som však bola trpezlivá. Zmes putovala zaraz do pekáčika, tam som ju urovnala a navrch nastrúhala syr.",
+  "Zapekanie trvalo na tých 200 °C presne 15 minút, to už okraje hnedli.",
+  "Jednoducho, treba vyskúšať a ochutnať;-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "klobása",
+  "slovenské"
+ ]
 }

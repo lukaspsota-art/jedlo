@@ -1,57 +1,56 @@
 {
-  "id": "ovocny-salat-s-medovo-limetkovym-dresingom",
-  "nazov": "Ovocný šalát s medovo-limetkovým dresingom",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 161,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúci ovocný šalát s jednoduchým medovo-limetkovým dresingom.",
-  "ingrediencie": [
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrozno",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pomaranč",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    }
-  ],
-  "postup": [
-    "Ovocie nakrájaj na kúsky vhodnej veľkosti.",
-    "Zmiešaj med s limetkovou šťavou na dresing.",
-    "Ovocie polej dresingom.",
-    "Podávaj chladené."
-  ],
-  "tipy": "Skvelý ľahký dezert alebo raňajkový doplnok.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "ovocie",
-    "letné"
-  ]
+ "id": "ovocny-salat-s-medovo-limetkovym-dresingom",
+ "nazov": "Ovocný šalát s medovo-limetkovým dresingom",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Ovocný šalát (autor: nikolett4321)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/ovocny-salat/56071-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 74,
+ "popis": "Je to exotický šalát, ktorý jedávame len ako maškrtu.",
+ "ingrediencie": [
+  {
+   "nazov": "Kiwi",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Papája",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mango",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na dochutenie"
+  }
+ ],
+ "postup": [
+  "Ovocie nakrájame na malé kúsky pri papáji sa tie malé bobuľky nekonzumujú.",
+  "Všetko premiešame a dochutíme citrónom podľa chuti.",
+  "Môj tip môžte ochutiť veľkou porciou šľahačky :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "ovocie",
+  "letné"
+ ]
 }

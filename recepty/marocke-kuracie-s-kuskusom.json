@@ -1,77 +1,93 @@
 {
-  "id": "marocke-kuracie-s-kuskusom",
-  "nazov": "Marocké kuracie s kuskusom a sušeným ovocím",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Marocká",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 658,
-  "kcal_zdroj": "vypocet",
-  "popis": "Aromatické marocké kuracie dusené s korením a sušeným ovocím, podávané s kuskusom.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie stehná",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sušené slivky",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kurkuma",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kuskus",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu, pridaj kuracie mäso a opeč zo všetkých strán.",
-    "Vmiešaj škoricu a kurkumu, podlej vodou.",
-    "Pridaj sušené slivky a dus pod pokrievkou 30 minút.",
-    "Kuskus priprav podľa návodu na obale.",
-    "Podávaj kuracie mäso na kuskuse."
-  ],
-  "tipy": "Sušené marhule fungujú v tomto jedle rovnako dobre ako slivky.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "marocké",
-    "kuskus"
-  ]
+ "id": "marocke-kuracie-s-kuskusom",
+ "nazov": "Marocké kuracie s kuskusom a sušeným ovocím",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Marocká",
+ "zdroj": "Varecha.sk – Kuracie stehná po marocky (autor: mracik9)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-stehna-po-marocky-/42342-recept.html",
+ "porcie": 10,
+ "cas": "35 min",
+ "kcal_na_porciu": 439,
+ "popis": "V tomto recepte ma fascinovala kombinácia surovín.U nás doma sa najradšej jedia pikantné jedlá a tento recept je jedným z nich.Je to sladko pikantná chuť orientu.Dá sa piecť v rúre, ale aj grilovať v prírode.Pripravujem to z rôzneho kuracieho mäsa.",
+ "ingrediencie": [
+  {
+   "nazov": "Stehno kuracie",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pasta harisa",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca rímska mletá",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šťava z citróna aj kôra",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šťava z pomaranča aj kôra",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryža basmati",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá kurkuma",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Najsamprv si pripravíme marinádu,šťavu,kôru z pol citróna a pomaranča,harisa pastu,ak nemáme, môžeme tam pridať chilli pastu,med,jemne mletú rímsku rascu dôkladne premiešame.Pripravené mäso,aké máme momentálne doma,ja som mala stehienka,uložíme do nádoby na pečenie,dôkladne ho zo všetkých strán natrieme marinádou a odložíme aspoň na dve hodiny.Ak chceme grilovať, tak to dáme do uzatvárateľnej nádoby a necháme cez noc odležať.",
+  "Na druhý deň som to podliala trochou oleja a dala piecť do rúry najprv zakryté potom som odokryla,aby sa zapiekla kôrka,nabudúce to už bude na grile.Ako prílohu som zvolila kurkumovú ryžu.Ja ju varím tak že po umytí pridám kurkumu,nasekaný koriander a zalejem ju vodou,aby bola asi 1cm nad ryžou.Keď začne vrieť,znížim teplotu na minimum a nechám variť 15 minút.",
+  "A nakoniec zeleninový šalátik,mne chutí rôzna zelenina,teraz som tam dala čínsku kapustu,zelenú cibuľku,paradajky,vňať koriandra a petržlenu zalejete to nálevom z citrónovej šťavy,horčice,javorového sirupu,čierneho korenia a soli.Kto má rád pikantné,môže tam pridať aj harisu pastu. Verím že vám takto pripravená kuracinka bude chutiť.Má lahodnú, no hlavne pikantnú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "marocké",
+  "kuskus"
+ ]
 }

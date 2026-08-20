@@ -1,77 +1,119 @@
 {
-  "id": "azijske-rezance-s-tofu",
-  "nazov": "Ázijské rezance s tofu",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Ázijská",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "25 min",
-  "kcal_na_porciu": 569,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchle wok rezance s tofu, zeleninou a sójovou omáčkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Rezance",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tofu",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zázvor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rezance uvar podľa návodu na obale.",
-    "Tofu nakrájaj na kocky a opeč na oleji dozlata.",
-    "Pridaj nakrájanú zeleninu, cesnak a zázvor, krátko opraž.",
-    "Vmiešaj uvarené rezance a sójovú omáčku.",
-    "Podávaj horúce."
-  ],
-  "tipy": "Pre viac chuti pridaj lyžičku sezamového oleja na záver.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "ázijské",
-    "tofu",
-    "rýchle"
-  ]
+ "id": "azijske-rezance-s-tofu",
+ "nazov": "Ázijské rezance s tofu",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Ázijský rezancový šalát do krabičky (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/azijsky-rezancovy-salat-do-krabicky/90188-recept.html",
+ "porcie": 5,
+ "cas": "26 min",
+ "kcal_na_porciu": 394,
+ "popis": "Pripravte si do práce na obed tento chutný šalát.* Nakrájaná, neochutená zelenina vydrží v chlade krehká a čerstvá. Dresing na ňu nalejte až tesne pred konzumáciou.",
+ "ingrediencie": [
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rybia omáčka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Omáčka čili sladká",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzie",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžové rezance",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľadový šalát",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalátová uhorka",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bylinky",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": "mäta, bazalka"
+  },
+  {
+   "nazov": "Paprička čili",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Arašidy",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na dresing cukor rozmiešame v rybacej omáčke a limetkovej šťave. Keď sa cukor rozpustí, pridáme čili omáčku. Cesnak ošúpeme, nakrájame nadrobno a vmiešame do dresingu.",
+  "Steak vyberieme z chladničky a necháme zohriať na izbovú teplotu. Potom ho osolíme, potrieme olejom a opečieme z oboch strán asi 3 minúty na panvici, bude stredne prepečený. Vyberieme, necháme vychladnúť a potom steak nakrájame na tenké plátky.",
+  "Ryžové rezance vložíme do misy, zalejeme vriacou vodou, zakryjeme a necháme 5 minút napučať. Potom ich scedíme, prepláchneme studenou vodou a necháme odkvapkať.",
+  "Mrkvu ošúpeme a nastrúhame na hrubšie pásiky, ľadový šalát a uhorku nakrájame. Čili papričku očistíme a nakrájame na kolieska. Arašidy nasekáme nahrubo.",
+  "Zeleninu, rezance a mäso vložíme do uzatvárateľnej misky alebo obedového boxu. Posypeme bylinkami, čili papričkami a arašidmi. Pribalíme pohárik s dresingom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "ázijské",
+  "tofu",
+  "rýchle"
+ ]
 }

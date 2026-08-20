@@ -1,57 +1,35 @@
 {
-  "id": "paloma",
-  "nazov": "Paloma",
-  "kategoria": "Kokteil",
-  "kuchyna": "Mexická",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 162,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúci mexický kokteil z tequily a grepovej sódy.",
-  "ingrediencie": [
-    {
-      "nazov": "Tequila",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Grep",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Perlivá voda",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň ľadom.",
-    "Prilej tequilu, grepovú a limetkovú šťavu.",
-    "Dolej perlivou vodou.",
-    "Jemne premiešaj a podávaj."
-  ],
-  "tipy": "V Mexiku obľúbenejší ako margarita.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "tequila",
-    "mexické"
-  ]
+ "id": "paloma",
+ "nazov": "Paloma",
+ "kategoria": "Kokteil",
+ "kuchyna": "Mexická",
+ "zdroj": "TheCocktailDB – Paloma",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17253",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Cocktail · Collins glass",
+ "ingrediencie": [
+  {
+   "nazov": "Grape Soda",
+   "mnozstvo": 88.7,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tequila",
+   "mnozstvo": 44.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Premiešame a podávame na ľade."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "tequila",
+  "mexické"
+ ]
 }

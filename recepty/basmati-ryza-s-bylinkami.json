@@ -1,51 +1,77 @@
 {
-  "id": "basmati-ryza-s-bylinkami",
-  "nazov": "Basmati ryža s bylinkami",
-  "kategoria": "Príloha",
-  "kuchyna": "Indická",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 262,
-  "kcal_zdroj": "vypocet",
-  "popis": "Voňavá basmati ryža s čerstvou petržlenovou vňaťou.",
-  "ingrediencie": [
-    {
-      "nazov": "Basmati ryža",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ryžu prepláchni studenou vodou.",
-    "Uvar podľa návodu na obale.",
-    "Vmiešaj maslo a nasekanú petržlenovú vňať.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Skvelá príloha k indickým aj blízkovýchodným jedlám.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "ryža",
-    "bylinky"
-  ]
+ "id": "basmati-ryza-s-bylinkami",
+ "nazov": "Basmati ryža s bylinkami",
+ "kategoria": "Príloha",
+ "kuchyna": "Indická",
+ "zdroj": "Varecha.sk – Jednoduchá indická basmati ryža s mrkvou a hrozienkami (autor: Ryža SOS)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/jednoducha-indicka-basmati-ryza-s-mrkvou-a-hrozienkami/83105-recept.html",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 281,
+ "popis": "Tento recept pre vás pripravila Lucka, Fitrecepty. Jednoduchá indická basmati ryža s mrkvou a hrozienkami, ktorú môžete \r\npodávať ako prílohu k mäsu či zelenine pripravenej na  indický spôsob.* Je to skvelá obmena tradičných príloh, ktorá má vďaka \r\nmrkve a hrozienkam sladkastý podtón. Hodí sa teda  ideálne ako príloha ku karí či iným exotickým jedlám.",
+ "ingrediencie": [
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryža SOS Basmati",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.75,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandle",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nasekané"
+  }
+ ],
+ "postup": [
+  "V hrnci na rozohriatom oleji orestujeme nadrobno nasekanú cibuľu.",
+  "Potom k nej pridáme najemno nastrúhanú mrkvu a 3 minúty ju restujeme.",
+  "Pridáme vodu, soľ, hrozienka a zmes necháme prevrieť.",
+  "Nakoniec pridáme ryžu, hrniec zakryjeme a varíme 18 minút na slabšom plameni.",
+  "Po dovarení ryžu už len zľahka prehrabneme vidličkou.",
+  "Ryžu môžeme servírovať posypanú nasekanými mandľami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "ryža",
+  "bylinky"
+ ]
 }

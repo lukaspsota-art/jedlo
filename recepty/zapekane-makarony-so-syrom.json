@@ -1,65 +1,91 @@
 {
-  "id": "zapekane-makarony-so-syrom",
-  "nazov": "Zapekané makaróny so syrom (mac and cheese)",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 5,
-  "cas": "40 min",
-  "kcal_na_porciu": 522,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické americké zapekané makaróny v krémovej syrovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Cestoviny",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": "makaróny"
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 400,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Na masle opraž múku, postupne prilievaj mlieko za stáleho miešania do zhustnutia.",
-    "Vmiešaj strúhaný syr do rozpustenia.",
-    "Zmiešaj s uvarenými cestovinami, presuň do zapekacej misy.",
-    "Peč pri 190 °C asi 15 minút do zlatista."
-  ],
-  "tipy": "Pre chrumkavý vrch posyp strúhankou pred pečením.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "americké",
-    "syr",
-    "zapekané"
-  ]
+ "id": "zapekane-makarony-so-syrom",
+ "nazov": "Zapekané makaróny so syrom (mac and cheese)",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Špenátovo-bryndzové zapekané makaróny (fotorecept) (autor: kukulienka71)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/spenatovo-bryndzove-zapekane-makarony-fotorecept/53610-recept.html",
+ "porcie": 6,
+ "cas": "23 min",
+ "kcal_na_porciu": 417,
+ "popis": "Variácia na tému Rýchla večera.",
+ "ingrediencie": [
+  {
+   "nazov": "Makaróny krátke",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenátový pretlak",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Liptovská bryndza",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sladká smotana",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo na zapečenie",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Makaróny uvaríme klasickým spôsobom.",
+  "Medzitým opražíme na oleji pokrájanú cibuľu, zelejeme ju mliekom, osolíme, pridáme mrazený špenátový pretlak a necháme ho v mlieku na miernom ohni rozpustiť.",
+  "Bryndzu rozmiešame v sladkej smotane, podľa chuti osolíme. Rúru zapneme na 200°C a v zapekacej mise necháme roztopiť maslo. Do misy nasypeme makaróny a dobre ich premiešame, aby sa obalili maslom. Teraz začneme lyžicou nalievať na makaróny bryndzovo-smotanovú zálievku šikmým smerom. Ja som postup opakovala, aby sa zálievka dostala aj do nižších vrstiev.",
+  "Pokračujeme špenátovou zmesou, kľudne ju lyžicou povtláčajte medzi makaróny.",
+  "Nakoniec som kvôli farebnému doladeniu celé jedlo posypala štvorčekami sušenej šunky. Malo to dvojaký zmysel: pri pečení sa vôňa šunky šírila celým priestorom a riadne vzbudila chuť do jedla členom rodiny:-)",
+  "Makaróny som zapekala 15 minút na 200°C, ak máte radi chrumkavejšie, môžete nechať o niečo dlhšie.",
+  "Jedlo vôbec nebolo suché, myslím, že sa mi vydarilo podľa očakávania. Malej dcérke chutilo tak, že si pýtala dupľu:-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "americké",
+  "syr",
+  "zapekané"
+ ]
 }

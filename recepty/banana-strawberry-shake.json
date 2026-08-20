@@ -1,0 +1,53 @@
+{
+ "id": "banana-strawberry-shake",
+ "nazov": "Banana Strawberry Shake",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Banana Strawberry Shake",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12656",
+ "porcie": 3,
+ "cas": "5 min",
+ "kcal_na_porciu": 136,
+ "popis": "Shake · Highball Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Jahody",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biely jogurt",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Blend all together in a blender until smooth."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "bezmäsité"
+ ]
+}

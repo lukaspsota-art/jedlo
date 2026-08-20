@@ -1,51 +1,57 @@
 {
-  "id": "cottage-natierka-s-paradajkou-a-bazalkou",
-  "nazov": "Cottage nátierka s paradajkou a bazalkou",
-  "kategoria": "Nátierka",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 66,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ľahká nátierka z cottage syra s paradajkou a bazalkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Cottage",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Paradajky nakrájaj na drobné kocky.",
-    "Zmiešaj s cottage syrom a nasekanou bazalkou.",
-    "Dochuť soľou.",
-    "Podávaj s pečivom."
-  ],
-  "tipy": "Ľahká proteínová nátierka na raňajky alebo desiatu.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "syr",
-    "ľahké"
-  ]
+ "id": "cottage-natierka-s-paradajkou-a-bazalkou",
+ "nazov": "Cottage nátierka s paradajkou a bazalkou",
+ "kategoria": "Nátierka",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Vajíčková nátierka s cottage (autor: katynka5)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/vajickova-natierka-s-cottage/90696-recept.html",
+ "porcie": 2,
+ "cas": "15 min",
+ "kcal_na_porciu": 107,
+ "popis": "Ďalší rýchly a chutný recept plný bielkovín. Pripravený z pár surovín a v extrémne krátkom čase.",
+ "ingrediencie": [
+  {
+   "nazov": "Syr cottage",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Najskôr uvaríme vajíčka natvrdo, necháme ich vychladnúť a olúpeme. Ja si zvyknem vajíčka variť vopred.",
+  "Pokrájame cibuľu, vajíčka a pridáme do misky s cottage syrom.",
+  "Posypeme mletou červenou paprikou, pridáme soľ a premiešame.",
+  "Hotovo. Papkáme s dobrým pečivom. Dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "syr",
+  "ľahké"
+ ]
 }

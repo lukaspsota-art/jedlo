@@ -1,69 +1,92 @@
 {
-  "id": "cicerovy-salat-s-uhorkou-a-paradajkou",
-  "nazov": "Cícerový šalát s uhorkou a paradajkou",
-  "kategoria": "Šalát",
-  "kuchyna": "Stredomorská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 204,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýty a rýchly šalát z cíceru, uhorky a paradajok.",
-  "ingrediencie": [
-    {
-      "nazov": "Cícer predvarený",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Červená cibuľa",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zeleninu nakrájaj na kocky.",
-    "Všetko premiešaj s cícerom.",
-    "Zalej olivovým olejom a citrónovou šťavou.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Skvelý na obed do práce, vydrží aj 2 dni v chladničke.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "cícer",
-    "vegetariánske"
-  ]
+ "id": "cicerovy-salat-s-uhorkou-a-paradajkou",
+ "nazov": "Cícerový šalát s uhorkou a paradajkou",
+ "kategoria": "Šalát",
+ "kuchyna": "Stredomorská",
+ "zdroj": "Varecha.sk – Šalát s cícerom (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/salat-s-cicerom/6729-recept.html",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 319,
+ "popis": "Sýty a rýchly šalát z cíceru, uhorky a paradajok.",
+ "ingrediencie": [
+  {
+   "nazov": "Uvarený cícer",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cherry paradajky",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelerové stonky",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukrová kukurica",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mladé cibuľky",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nasekaný kôpor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 80,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šťava z citróna",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Podravka na posýpanie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Uvarený cícer alebo cícer z plechovky dobre scedíme a dáme do hlbšej misy. Pridáme nakrájané cherry paradajky, nakrájané čerstvé uhorky, stonky zeleru, mladú cibuľku a cukrovú kukuricu. Pridáme kôpor a petržlenovú vňať, posypeme 1 zarovnanou lyžicou Podravky na posýpanie a všetko dobre premiešame.",
+  "Potraviny v mise necháme vychladnúť a za ten čas pripravíme dressing. Olivový olej zmiešame s horčicou, 1 lyžicou Podravky na posýpanie a citrónovou šťavou. Vychladnutý šalát podávame s pripraveným dressingom.",
+  "Náš tip: Aby si šalát zachoval čerstvosť, dressing podávame v osobitnej nádobe a polejeme ním šalát až pred konzumáciou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "cícer",
+  "vegetariánske"
+ ]
 }

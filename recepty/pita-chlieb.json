@@ -1,58 +1,82 @@
 {
-  "id": "pita-chlieb",
-  "nazov": "Pita chlieb",
-  "kategoria": "Pečivo",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "vlastný recept",
-  "porcie": 6,
-  "cas": "90 min",
-  "kcal_na_porciu": 272,
-  "kcal_zdroj": "vypocet",
-  "popis": "Mäkké placky pita chleba s vreckom vo vnútri, ideálne na plnenie.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 240,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 5,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažnej vody, droždia, oleja a soli vypracuj hladké cesto.",
-    "Nechaj kysnúť 1 hodinu.",
-    "Rozdeľ na 6 dielov, rozváľaj na tenké placky.",
-    "Peč na dobre rozohriatej panvici alebo v rúre pri 250 °C 3-4 minúty, kým sa nenafúknu.",
-    "Nechaj vychladnúť pod utierkou, aby zostali mäkké."
-  ],
-  "tipy": "Vhodné na plnenie falafelom alebo grilovanou zeleninou.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "blízkovýchodné",
-    "placky"
-  ]
+ "id": "pita-chlieb",
+ "nazov": "Pita chlieb",
+ "kategoria": "Pečivo",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Varecha.sk – Pita chlieb (autor: tetrisss)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pita-chlieb/31147-recept.html",
+ "porcie": 15,
+ "cas": "22 min",
+ "kcal_na_porciu": 306,
+ "popis": "Tento chlieb som našla na stránke receptov Coop jednota a keďže som zistila, že je to najlepšia príloha ku grilovaniu, ktoré má teraz určite zelenú, tak Vám ho ponúkam aj s mojimi dodatkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 1250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 625,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 6,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majorán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky sušené v oleji",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezam",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do nádoby dáme vodu a kvasnice, prešľaháme vidličkou, pridáme 3 hrnčeky múky, rozmiešame, pridáme prelisovaný cesnak, soľ a ešte 2 hrnčeky múky, vypracujeme cesto. Potom ho preložíme na dosku posypanú múkou a ešte uhnetieme az do podoby nelepivého mäkkého cesta. Cesto potom potrieme celé olejom a uložíme do misy a necháme kysnúť asi hodinu.",
+  "Cesto predelíme na 4 časti. Na plech, vystlaný papierom na pečenie vytiahneme každý kúsok cesta do oválu 1,5 cm hrubého. Cesto potrieme olejom, posypeme soľou a posypeme majoránom. Potom použijeme radielko, alebo krájač na pizu a cesto takmer prekrájame na pásy 2,5 cm široké.",
+  "Potom vezmeme ručičky a ešte poprepichujeme tie škáry, aby sa nám potom dali tie pásy odtrhnúť. Videla som tento chlieb robiť v Turecku len prstami, ale mne sa to nepodarilo. Možno, že nemám správne nechty, kto má umelé, môže skúsiť :).",
+  "Takto spracujeme dva kusy cesta. Druhé dva vytiahneme, a na polovicu cesta dáme na kúsky nakrájané sušené paradajky v oleji, kľudne tam dáme aj tú bazalku z oleja, priklopíme a pokračujeme ako s tými prvými cestami. Vrch potrieme olejom z tých paradajok a posypeme soľou a sezamom. Pečieme v dobre vyhriatej rúre 10 až 12 minút. Necháme vychladnúť, nalámeme, podávame a tešíme sa , ako ušetríme mäsko na grilovačke.",
+  "Ešte taký malý dodatok, ak nám niečo z chlebíka ostane, zabalíme to do utierky, aby chlieb nevyschol. Potom pásy prekrojíme po dľžke a hrúbke, dáme do hriakovača a máme krásne sucháriky. Tieto môžeme natriet maslom, alebo syrom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "blízkovýchodné",
+  "placky"
+ ]
 }

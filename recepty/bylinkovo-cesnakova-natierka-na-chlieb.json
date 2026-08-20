@@ -1,57 +1,62 @@
 {
-  "id": "bylinkovo-cesnakova-natierka-na-chlieb",
-  "nazov": "Bylinkovo-cesnaková nátierka na chlieb",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 184,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchá výrazná nátierka z masla, cesnaku a byliniek.",
-  "ingrediencie": [
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 5,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zmäknuté maslo vymiešaj s pretlačeným cesnakom.",
-    "Vmiešaj nasekané bylinky.",
-    "Dochuť soľou.",
-    "Podávaj na čerstvom pečive alebo použi na cesnakový chlieb."
-  ],
-  "tipy": "Skvelý základ aj na prípravu cesnakového chleba.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "cesnak",
-    "bylinky"
-  ]
+ "id": "bylinkovo-cesnakova-natierka-na-chlieb",
+ "nazov": "Bylinkovo-cesnaková nátierka na chlieb",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Cesnaková nátierka (autor: mcmuffin)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cesnakova-natierka/61530-recept.html",
+ "porcie": 1,
+ "cas": "30 min",
+ "kcal_na_porciu": 14,
+ "popis": "Ahojte, ďakujem, že si idete pripraviť recept podľa mňa. Mám 10 rokov a dúfam, že sa vám \r\nto bude páčiť. Určite to vyskúšajte! Túto pomazánku používam napr.: keď má prísť návšteva \r\nalebo iba pre radosť sama sebe a pre priateľov. OK stačí čítania a pusťme sa do toho!",
+ "ingrediencie": [
+  {
+   "nazov": "Syrokrém",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 0.25,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Maslo si dáme do misky a necháme chvíľku zmäknúť (aby sa nám lepšie mixovalo/miešalo). Postupne pridáme syrokrém.",
+  "Keď nám maslo zmäklo a pridali sme syrokrém, tak mixujeme/miešame. Prípadne malé kúsky masla môžeme roztlačiť čistými rukami.",
+  "Máme zamiešané? Super! Môžeme pokračovať! Pridáme vopred roztlačené mesiačiky (2 a viac) do misky. A miešame ďalej. Nakoniec môžeme pridať čierne korenie a mletú červenú papriku. A to je všetko. Iba zamiešame a môžeme natierať. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "cesnak",
+  "bylinky"
+ ]
 }

@@ -1,75 +1,99 @@
 {
-  "id": "grecky-salat-s-fetou",
-  "nazov": "Grécky šalát s fetou",
-  "kategoria": "Šalát",
-  "kuchyna": "Grécka",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 218,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický grécky šalát so syrom feta, olivami a čerstvou zeleninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feta",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zelené olivy",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Červená cibuľa",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Oregano",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Paradajky a uhorku nakrájaj na kocky, cibuľu na tenké kolieska.",
-    "Feta nakrájaj na kocky alebo väčšie plátky.",
-    "Všetko poukladaj na tanier, pridaj olivy.",
-    "Polej olivovým olejom, posyp oreganom a soľou."
-  ],
-  "tipy": "Fetu podávaj v celku navrchu, tradične sa nemieša so zvyškom.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "grécke",
-    "feta"
-  ]
+ "id": "grecky-salat-s-fetou",
+ "nazov": "Grécky šalát s fetou",
+ "kategoria": "Šalát",
+ "kuchyna": "Grécka",
+ "zdroj": "Varecha.sk – Grécky šalát (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/grecky-salat/85928-recept.html",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 170,
+ "popis": "Šalát je v lete ideálnym ľahkým obedom alebo večerou.",
+ "ingrediencie": [
+  {
+   "nazov": "Šalátová uhorka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr feta",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivy",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bylinková soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Listový šalát",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "pár kvapiek"
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Paradajky umyjeme a nakrájame na mesiačiky. Umyjeme uhorku a nakrájame ju na tenké, podlhovasté pásiky.",
+  "Cibuľu nakrájame na tenké kolieska a zmiešame s nakrájanou zeleninou.",
+  "Zalejeme ich 3 lyžicami olivového oleja, ako aj zmiešanou zálievkou, potom všetko spolu premiešame a dochutíme bylinkovou soľou.",
+  "Pridáme vykôstkované čierne olivy a nakrájaný syr feta."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "grécke",
+  "feta"
+ ]
 }

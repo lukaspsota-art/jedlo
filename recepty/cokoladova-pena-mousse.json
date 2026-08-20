@@ -1,46 +1,62 @@
 {
-  "id": "cokoladova-pena-mousse",
-  "nazov": "Čokoládová pena (mousse)",
-  "kategoria": "Dezert",
-  "kuchyna": "Francúzska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "20 min (+ chladenie)",
-  "kcal_na_porciu": 329,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vzdušný francúzsky čokoládový dezert.",
-  "ingrediencie": [
-    {
-      "nazov": "Čokoláda",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Čokoládu rozpusti vo vodnom kúpeli, nechaj mierne vychladnúť.",
-    "Oddeľ žĺtky od bielkov, žĺtky vmiešaj do čokolády.",
-    "Bielky vyšľahaj s cukrom do tuha.",
-    "Jemne vmiešaj vyšľahané bielky do čokolády.",
-    "Rozlej do pohárov a nechaj v chladničke stuhnúť aspoň 2 hodiny."
-  ],
-  "tipy": "Bielky vmiešavaj jemne zospodu nahor, aby zostala vzdušná.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "čokoláda",
-    "francúzske"
-  ]
+ "id": "cokoladova-pena-mousse",
+ "nazov": "Čokoládová pena (mousse)",
+ "kategoria": "Dezert",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Čokoládová pena (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cokoladova-pena/80008-recept.html",
+ "porcie": 10,
+ "cas": "30 min",
+ "kcal_na_porciu": 296,
+ "popis": "Vzdušný francúzsky čokoládový dezert.",
+ "ingrediencie": [
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 600,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoláda biela",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horká čokoláda",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pistácie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nesolené"
+  },
+  {
+   "nazov": "Ovocie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Obidva druhy čokolády zvlášť roztopíme nad parou. Smotanu vyšľaháme s práškovým cukrom. Šľahačku rozdelíme do dvoch misiek. Do jednej šľahačky vmiešame roztopenú vlažnú horkú čokoládu, do druhej bielu čokoládu.",
+  "Tmavú a bielu čokoládovú penu rozdelíme pomocou cukrárenských vrecúšok do pohárov (z uvedeného množstva vyjde približne 10 pohárov s objemom 120 ml).",
+  "Ozdobíme napríklad nasekanými pistáciami a čučoriedkami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "čokoláda",
+  "francúzske"
+ ]
 }

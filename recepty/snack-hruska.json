@@ -1,29 +1,50 @@
 {
-  "id": "snack-hruska",
-  "nazov": "Hruška",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 86,
-  "kcal_zdroj": "vypocet",
-  "popis": "Čerstvá hruška.",
-  "ingrediencie": [
-    {
-      "nazov": "Hruška",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    }
-  ],
-  "postup": [
-    "Umy a zjedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "ovocie",
-    "kupované"
-  ]
+ "id": "snack-hruska",
+ "nazov": "Hruška",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Hruškové želé (autor: flavia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/hruskove-zele/44070-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 60,
+ "popis": "inšpiroval ma film Ja, zloduch 2 ;)",
+ "ingrediencie": [
+  {
+   "nazov": "Želatína číra",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrušky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravila som si potrebné množstvo želatíny...",
+  ".. a vody. Podľa návodu na obale som si pripravila tekutú želatínu.",
+  "Hrušky som umyla, ošúpala a postrúhala. Do každého pohára som dala trocha postrúhaných hrušiek a zaliala som ich želatínou. Nakoniec som ich dala stuhnúť do chladničky, a pred podávaním som ich vyklopila na tanier."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "ovocie",
+  "kupované"
+ ]
 }

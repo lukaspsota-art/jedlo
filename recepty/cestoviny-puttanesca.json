@@ -1,80 +1,110 @@
 {
-  "id": "cestoviny-puttanesca",
-  "nazov": "Špagety alla puttanesca",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 460,
-  "popis": "Výrazná omáčka z paradajok, olív, kapary a ančovičiek.",
-  "ingrediencie": [
-    {
-      "nazov": "Špagety",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": "konzerva, drvené"
-    },
-    {
-      "nazov": "Čierne olivy",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kapary",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ančovičky",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čili paprička",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 4,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": null,
-      "jednotka": "na ozdobu",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cesnak, čili a ančovičky, kým sa rozpadnú.",
-    "Pridaj paradajky, olivy a kapary, duš 15 minút.",
-    "Cestoviny uvar al dente a zamiešaj do omáčky.",
-    "Posyp petržlenom."
-  ],
-  "tipy": "Ančovičky a kapary sú slané — soľ pridaj až nakoniec.",
-  "tagy": [
-    "cestoviny",
-    "talianske",
-    "ryby"
-  ],
-  "foto": ""
+ "id": "cestoviny-puttanesca",
+ "nazov": "Špagety alla puttanesca",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Spaghetti alla puttanesca (autor: frezia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/spaghetti-alla-puttanesca/52752-recept.html",
+ "porcie": 2,
+ "cas": "25 min",
+ "kcal_na_porciu": 428,
+ "popis": "Tento recept s pikantno-korenistou chutou pochadza z juzneho Talianska. Vhodne jedlo \r\npocas horucich slnecnych dni.",
+ "ingrediencie": [
+  {
+   "nazov": "Spaghetti",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa nasekaná nadrobno",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne olivy",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kapary",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chili paprička",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sardelky",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo petržlénova vnať"
+  },
+  {
+   "nazov": "Korenie čerstvo namleté",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo pecorino"
+  }
+ ],
+ "postup": [
+  "Do horuceho oleja dame oprazit pokrajany cesnak, nakrajanu cibulu a sardelky. Pomaly prazime, kym sa nam sardelky nerozpustia. Pridame cherry paradajky, (alebo cherry paradajky vo vlastnej stave) pokrajanu feferonku, oregano a cerstvo namlete korenie. Par minut povarime, aby sa chute spojili. Na zaver pridame vykostkovane a prekrojene olivy a kapary. Mozeme pridat par bazalkovych listkov. Podla potreby este osolime a okorenime.",
+  "Zvlast si uvarime spaghetti al dente. Pridame ich do uvarenej zmesi a premiesame.",
+  "Na zaver pridame na kocky nakrajany parmezan, (pecorino) premiesame a servirujeme. Ozdobime cerstvou bazalkou, alebo petrzlenom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "talianske",
+  "ryby"
+ ]
 }

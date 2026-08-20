@@ -1,77 +1,129 @@
 {
-  "id": "fazulova-polievka-so-slaninou",
-  "nazov": "Fazuľová polievka so slaninou",
-  "kategoria": "Polievka",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 282,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýta fazuľová polievka s údenou slaninou a zeleninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Biele fazule",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "predvarené alebo z konzervy"
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Slaninu nakrájaj na kocky a opraž do chrumkava.",
-    "Pridaj nadrobno pokrájanú cibuľu, mrkvu a cesnak, opraž.",
-    "Prilej vývar a fazule, var 25 minút.",
-    "Časť polievky rozmixuj pre hustejšiu konzistenciu.",
-    "Dochuť soľou a korením."
-  ],
-  "tipy": "Skvelá aj na druhý deň zohriata.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "fazuľa",
-    "slanina",
-    "sýta"
-  ]
+ "id": "fazulova-polievka-so-slaninou",
+ "nazov": "Fazuľová polievka so slaninou",
+ "kategoria": "Polievka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Fazuľová polievka (autor: bojar)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/fazulova-polievka/47881-recept.html",
+ "porcie": 6,
+ "cas": "140 min",
+ "kcal_na_porciu": 364,
+ "popis": "Tento recept som si časom sám upravil a prisposobil našej chuti. Na prípravu používam namy dopestovanú suchú fazulu - pestujeme 17 druhov. Čím viac roznych fazuliek tým je polievka lepšia.",
+ "ingrediencie": [
+  {
+   "nazov": "Suchá fazula",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údené rebierka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kaleráb",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krúpy",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvená sušená majoránka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové celé korenie",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cele korenie",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pálivá paprika",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Omastok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Prebratú a umytú fazulu predchádzajúci večer namočíme. Rano je dáme variť spolu s údeným rebierkom prípadne s innou údeninou (ja používam mnou vyúdené rebierka pekne masité)",
+  "Keď je fazula na polovice uvarená a rebierka sú akurát (zažínajú sa odelovať od kost) vyberieme ich a rozkrájame na malé kúsky (prípadne ich hneď zjeme s chlebom a horčicou). Ak zostali nezjedené odložíme ich na bezpečné miesto - pojdu pred dovarením do polievky. Do variacej sa fazule pridáme nakrájanú zeleninu, štipľavú papriku, nové a celé korenie, celú neošúpanú cibulku a umyté krupy. Kým sa polievka varí z omastku a múky pripravíme zápražku do ktorejpridáme roztlačený cesnak.",
+  "Keď je fazula maká prydáme na kocky nakrájané zemiaky a záprašku. nakoviec dochutíme soľou (záleží na slanosti rebierok), majoránkou a mletým čiernym korením. kto má rád pridá ešte polievkové korenie, v lete je výtaná nasekaná petržlenová vňať a polievka je nasvete."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "fazuľa",
+  "slanina",
+  "sýta"
+ ]
 }

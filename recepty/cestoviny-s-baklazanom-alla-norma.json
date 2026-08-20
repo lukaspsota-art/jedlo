@@ -1,70 +1,112 @@
 {
-  "id": "cestoviny-s-baklazanom-alla-norma",
-  "nazov": "Cestoviny s baklažánom (alla Norma)",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 449,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sicílske cestoviny s opečeným baklažánom a ricottou.",
-  "ingrediencie": [
-    {
-      "nazov": "Penne",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Baklažán",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ricotta",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Baklažán nakrájaj na kocky, osoľ a opeč na olivovom oleji do zlata.",
-    "V druhom hrnci priprav paradajkovú omáčku s pretlačeným cesnakom.",
-    "Cestoviny uvar podľa návodu na obale.",
-    "Zamiešaj cestoviny, baklažán a omáčku.",
-    "Podávaj s rozdrobenou ricottou navrch."
-  ],
-  "tipy": "Tradičný sicílsky recept pomenovaný podľa opery Norma.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "talianske",
-    "baklažán"
-  ]
+ "id": "cestoviny-s-baklazanom-alla-norma",
+ "nazov": "Cestoviny s baklažánom (alla Norma)",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Baklažánové lazane (bez cestoviny) (autor: roxanne)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/baklazanove-lazane-bez-cestoviny/76141-recept.html",
+ "porcie": 8,
+ "cas": "70 min",
+ "kcal_na_porciu": 434,
+ "popis": "Ak máte radi baklažán v kombinácii s mletým mäsom a paradajkami, vyskúšajte tieto lazane. Je to trochu pracný recept, ale výsledok je chutný.",
+ "ingrediencie": [
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčové mäso",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stonkový zeler",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hráškové struky",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajková omáčka",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bešamelová omáčka",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr eidam",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zmes korenín",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si jednotlivé vrstvy ingrediencií. Množstvá su uvádzané na okrúhlu zapekaciu misu s priemerom 28 cm. Najskôr baklažán - všetky tri baklažány nakrájame pozdĺžne na plátky hrubé cca 3 mm, uložíme na tácku, jemne posolíme a necháme \"vypotiť\". Po cca 10 minútach prebytočnú vodu vysajeme kuchynskou papierovou utierkou. Plátky na tácke jemne potrieme zmesou olivového oleja a korenín. Z každej strany opečieme na vyhriatej grilovacej panvici. Odložíme ich na tanier a necháme trochu vychladnúť.",
+  "Na rovnej panvici si na troche masti/oleja opečieme cibuľu nakrajánú na kocky. Pridáme čierne korenie, nech sa rozvonia a postupne nahrubo postrúhanú mrkvu, mleté mäso, zelerové stonky a hráškové struky pokrájané na menšie kúsky. Jemne osolíme a pridáme obľúbené korenie - ja som dala rascu, zmesku na šaláty a talianske bylinky. Keď je mäso zatiahnuté, zalejeme to všetko paradajkovou omáčkou z fľašky, ja som mala tú s pridaním bazalky. Podľa potreby môžeme pridať ešte 1 dcl vody, aby sa mäso aj zelenina mohli 15 minút podusiť pod pokrievkou. Na poslednú minútu odokryjeme, aby sa odparila zbytočná voda. Necháme trochu vychladnúť.",
+  "Ostáva nám pokrájať/natrhať si mozzarellu na malé kúsky a pokrájať bazalku. V recepte je aj bešamelová omáčka, ktorú ja osobne mám v lazaniach veľmi rada, aj keď viem, že pridáva zbytočné kalórie. Ale keďže do tejto verzie lazaní nejdú cestoviny, rozhodla som sa trochu bešamelu tam dať. Kto preferuje ľahšiu verziu tohto jedla, môže bešamel s kľudom Angličana vynechať. Bešamelovú omáčku som robila klasickým spôsobom: 3 cm hrubý plátok masla rozpustíme v hrnčeku, za stáleho miešania pridáme za necelú polievkovú lyžicu hladkej múky a 2 dcl plnotučného mlieka, necháme pomaly zovrieť. Ak je omáčka príliš hustá, pridáme ešte trochu mlieka. Ochutíme štipkou soli, muškátového orechu a bieleho korenia.",
+  "Keď je všetko vychladnuté na takú teplotu, že to jenská misa zvládne a nepraskne, môžeme začať vrstviť. Na spodok misy rozotrieme polovicu bešamelovej omáčky. Uložíme na ňu plátky grilovaného baklažánu (1/3), potrieme ich polovicou masovo-zeleninovej zmesi. Ďalej dáme natrhanú mozzarellu a bazalku. Pokračujeme baklažánom, mäsovou zmesou, mozzarellou, bazalkou. Nakoniec dáme posledné kúsky baklažánu, ktoré potrieme zvyškom bešamelu a posypeme strúhaným syrom, ja som mala eidam.",
+  "Misu dáme do rúry a pečieme 30-35 min na 200 °C. Necháme poriadne vychladnúť a sadnúť. Lazane sú podľa mojich skúseností najlepšie na druhý deň, je to jedno z mála jedál, ktoré sa nedajú jesť za čerstva a najlepšie sú ohrievané, keď sa už všetky chute premiešali. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "talianske",
+  "baklažán"
+ ]
 }

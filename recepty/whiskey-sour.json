@@ -1,51 +1,56 @@
 {
-  "id": "whiskey-sour",
-  "nazov": "Whiskey Sour",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 196,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický kyslo-sladký kokteil z whiskey a citróna.",
-  "ingrediencie": [
-    {
-      "nazov": "Whiskey",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do shakera daj whiskey, citrónovú šťavu, cukor a ľad.",
-    "Poriadne pretrep.",
-    "Precedi do pohára s ľadom.",
-    "Podávaj ihneď."
-  ],
-  "tipy": "Pre penivú verziu pridaj bielok a pretrep dôkladnejšie.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "whiskey",
-    "americké"
-  ]
+ "id": "whiskey-sour",
+ "nazov": "Whiskey Sour",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Whiskey Sour",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11004",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 77,
+ "popis": "Ordinary Drink · Old-fashioned glass",
+ "ingrediencie": [
+  {
+   "nazov": "Whisky",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koktejlová višňa",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 0.5,
+   "jednotka": "plátok",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pretrepeme v šejkri s ľadom.",
+  "Precedíme do vychladeného pohára, ozdobíme a podávame.",
+  "Ak podávame na ľade, precedíme do nízkeho pohára naplneného ľadom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "whiskey",
+  "americké"
+ ]
 }

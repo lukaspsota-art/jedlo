@@ -1,70 +1,154 @@
 {
-  "id": "korejske-kuracie-so-sezamom",
-  "nazov": "Kórejské kuracie so sezamom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Kórejská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 407,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sladko-pikantné opečené kuracie mäso v kórejskom štýle.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie stehná",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 25,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chilli omáčka",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sezamové semienka",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Kuracie mäso nakrájaj na kúsky a opeč na oleji dozlata.",
-    "Zmiešaj sójovú omáčku, med, pretlačený cesnak a chilli omáčku.",
-    "Zalej mäso omáčkou a dus 5 minút do zredukovania.",
-    "Posyp sezamovými semienkami.",
-    "Podávaj s ryžou."
-  ],
-  "tipy": "Chilli omáčku uprav podľa toho, ako pikantné to máš rád.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "kórejské"
-  ]
+ "id": "korejske-kuracie-so-sezamom",
+ "nazov": "Kórejské kuracie so sezamom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Kórejská",
+ "zdroj": "Varecha.sk – Kuracie kúsky v kórejskej omáčke (fotorecept) (autor: afataga)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-kusky-v-korejskej-omacke-fotorecept/82192-recept.html",
+ "porcie": 6,
+ "cas": "28 min",
+ "kcal_na_porciu": 280,
+ "popis": "Nedávno mi volal kamarát z Kadaně a reč prišla aj na jedlo. Nadiktoval mi recept, ktorý jedol u jeho kamaráta a tak mu to chutilo, \r\nže si pýtal recept.* Takže tu je, aj keď pravdupovediac netuším, či to má niečo spoločné s kórejskou kuchyňou. Ale nám to veľmi \r\nchutilo. Zaujímavé kombinácie chutí.",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletý zázvor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot ryžový biely",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 pomaranča"
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Omáčka teriyaki",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škrob",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vňať z cibuľky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamové čierne semienka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pokrájala som mäso na hrubšie rezance, dala do misky a pridala uvedené suroviny okrem soli. Cesnak treba rozpučiť, alebo nastrúhať. Nechala som v chladničke do druhého dňa, ale asi stačí aj pár hodín.",
+  "Do misky som si pripravila omáčku, dala som do nej všetky suroviny okrem vňate a sezamových semienok, premiešala a odložila bokom.",
+  "Do woku som dala olej a postupne nechala mäso zatiahnuť. Ja som to robila na 2x. Odložila som ho bokom do misky, osolila a premiešala.",
+  "Z woku som vyliala olej a naliala do neho pripravenú omáčku. Nechala som ju zohriať. V pohári som rozmiešala škrob vo vode a pridala k omáčke.",
+  "Asi za minútu som pridala pripravené mäso, vňať a semienka. Prehriala som a to je celé. Na tanieri som ešte ozdobila čiernymi sezamovými semienkami. Možno to vyzerá zložito, ale nie je."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "kórejské"
+ ]
 }

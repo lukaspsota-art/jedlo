@@ -1,0 +1,50 @@
+{
+ "id": "adam-sunrise",
+ "nazov": "Adam Sunrise",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Adam Sunrise",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/15567",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 293,
+ "popis": "Ordinary Drink · Collins Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 12.5,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limonáda",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 12.5,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 10,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mixér naplníme ľadom.",
+  "Do polovice dolejeme vodkou.",
+  "Pridáme 10 ČL cukru a pol plechovky citrónového koncentrátu, doplníme vodou.",
+  "Mixujeme 60 sekúnd."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

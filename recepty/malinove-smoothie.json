@@ -1,50 +1,42 @@
 {
-  "id": "malinove-smoothie",
-  "nazov": "Malinové smoothie",
-  "kategoria": "Nápoj",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "5 min",
-  "kcal_na_porciu": 172,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sviežе ovocné smoothie z malín a gréckeho jogurtu.",
-  "ingrediencie": [
-    {
-      "nazov": "Maliny",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "čerstvé alebo mrazené"
-    },
-    {
-      "nazov": "Grécky jogurt",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetky suroviny vlož do mixéra.",
-    "Rozmixuj dohladka.",
-    "Podávaj ihneď, vychladené."
-  ],
-  "tipy": "S mrazenými malinami bude smoothie príjemne chladné.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "smoothie",
-    "maliny"
-  ]
+ "id": "malinove-smoothie",
+ "nazov": "Malinové smoothie",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Malinové smoothie (autor: jenni)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/malinove-smoothie/52891-recept.html",
+ "porcie": 3,
+ "cas": "10 min",
+ "kcal_na_porciu": 170,
+ "popis": "Smoothie zbožňujem a okrem zeleného si vždy rada doprajem aj krémové a sladučké \r\nsmoothie z bobuľového ovocia a banánov ako napríklad toto malinové, v podobe sladkého \r\nkoktejlu na osvieženie do horúcich letných dní a taktiež ako sladkú zdravú maškrtu, keď ma \r\n\"prepadne\" mlsná.",
+ "ingrediencie": [
+  {
+   "nazov": "Čerstvé maliny",
+   "mnozstvo": 187.5,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zrelé veľké banány",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Maliny umyte, banány ošúpte a nakrájajte a spolu s malinami dajte do mixéra, prilejte kokosové mlieko a pomixujte na hladkú krémovú zmes. Smoothie dosladiť netreba, pretože zrelé banány sú sladké dostatočne."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "smoothie",
+  "maliny"
+ ]
 }

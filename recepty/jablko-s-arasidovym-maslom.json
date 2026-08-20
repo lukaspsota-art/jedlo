@@ -1,37 +1,91 @@
 {
-  "id": "jablko-s-arasidovym-maslom",
-  "nazov": "Jablko s arašidovým maslom",
-  "kategoria": "Snack",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 254,
-  "kcal_zdroj": "vypocet",
-  "popis": "Najjednoduchší rýchly snack z jablka a arašidového masla.",
-  "ingrediencie": [
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Arašidové maslo",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Jablko nakrájaj na plátky.",
-    "Podávaj s arašidovým maslom na namáčanie."
-  ],
-  "tipy": "Skvelá kombinácia vlákniny a zdravých tukov.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "jablko",
-    "rýchle"
-  ]
+ "id": "jablko-s-arasidovym-maslom",
+ "nazov": "Jablko s arašidovým maslom",
+ "kategoria": "Snack",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Koláč s jablkami a arašidovou posýpkou (fotorecept) (autor: danculka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kolac-s-jablkami-a-arasidovou-posypkou-fotorecept/21508-recept.html",
+ "porcie": 24,
+ "cas": "60 min",
+ "kcal_na_porciu": 139,
+ "popis": "Najjednoduchší rýchly snack z jablka a arašidového masla.",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 275,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené slivky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Arašidy v cukre",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Z mlieka droždia trošky cukru urobíme kvások,do múky pridáme soľ a zvyšný cukor, dáme vajíčko a zamiesime cesto pridáme olej a ešte premiesime napokon dáme na malé kocky nakrájané jablká a zľahka to spojíme s cestom a dáme kysnúť na teplé miesto...",
+  "používam droždie Dr.Oetkera aj do pekárničky na chlebík...",
+  "arašidové cukríky rozmixujeme na polojemno...",
+  "po vykysnutí cesto zľahka prevaľkáme a vykrajujeme ,ako na moravské koláčiky...",
+  "kladieme na vymastený plech...",
+  "potom potrieme vajíčkom a dáme sušené slivky...",
+  "na slivky dáme rozmixované arašidové cukríky...",
+  "pečieme pri teplote 200 st do zlatista,,dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "jablko",
+  "rýchle"
+ ]
 }

@@ -1,82 +1,104 @@
 {
-  "id": "ratatouille",
-  "nazov": "Ratatouille",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Francúzska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 160,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické francúzske dusené letné zeleninové jedlo z Provence.",
-  "ingrediencie": [
-    {
-      "nazov": "Cuketa",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Baklažán",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tymian",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetku zeleninu nakrájaj na kocky.",
-    "Na olivovom oleji postupne opraž cibuľu, cesnak a ostatnú zeleninu.",
-    "Pridaj paradajky a tymian.",
-    "Dus na miernom ohni 30 minút do mäkka.",
-    "Dochuť soľou a podávaj samostatne alebo s pečivom."
-  ],
-  "tipy": "Skvelé aj studené na druhý deň.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "francúzske",
-    "vegetariánske"
-  ]
+ "id": "ratatouille",
+ "nazov": "Ratatouille",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Ratatouille (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/ratatouille/45176-recept.html",
+ "porcie": 1,
+ "cas": "20 min",
+ "kcal_na_porciu": 336,
+ "popis": "Klasické francúzske dusené letné zeleninové jedlo z Provence.",
+ "ingrediencie": [
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žltá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvené paradajky",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na olivovom oleji postupne opekáme všetky suroviny, ktoré sme samostatne nakrájali.",
+  "Po opečení všetky spolu premiešame, pridáme drvené paradajky, tymian a dochutíme soľou a korením.",
+  "Podávame s francúzskou bielou bagetou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "francúzske",
+  "vegetariánske"
+ ]
 }

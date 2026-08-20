@@ -1,64 +1,104 @@
 {
-  "id": "orechovy-kolac",
-  "nazov": "Orechový koláč",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "klasický recept",
-  "porcie": 8,
-  "cas": "55 min",
-  "kcal_na_porciu": 421,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vláčny koláč s mletými vlašskými orechmi.",
-  "ingrediencie": [
-    {
-      "nazov": "Vlašské orechy",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "mleté"
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prášok do pečiva",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vyšľahaj maslo s cukrom a žĺtkami.",
-    "Vmiešaj mleté orechy, múku a prášok do pečiva.",
-    "Bielky vyšľahaj do tuha a jemne vmiešaj.",
-    "Prelej do formy.",
-    "Peč pri 175 °C asi 40 minút."
-  ],
-  "tipy": "Skvele chutí aj s kávovou polevou navrchu.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "orechy",
-    "slovenské"
-  ]
+ "id": "orechovy-kolac",
+ "nazov": "Orechový koláč",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Orechový koláč (autor: Old Herold)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/orechovy-kolac/78180-recept.html",
+ "porcie": 24,
+ "cas": "50 min",
+ "kcal_na_porciu": 652,
+ "popis": "Príjemnú orechovú chuť v tomto lahodnom koláčiku krásne dopĺňa i zvýrazňuje Riava Orech.* Príprava cesta je ohromne \r\njednoduchá, vystríhajte sa však príliš dlhému pečeniu. Všetky odporúčania nájdete nižšie v recepte. Čo sa týka maslového \r\nkrému, nezľaknite sa ho len preto, že doň ide i maslo. Za jeho chuťou si absolútne stojíme a v kombinácii s mascarpone je \r\nlahodne krémový. Chutí sviežo a má ",
+ "ingrediencie": [
+  {
+   "nazov": "Kakao holandského typu",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Instantná káva",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "RIAVA orech",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 700,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lieskové orechy",
+   "mnozstvo": 360,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mascarpone",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "RIAVA orech",
+   "mnozstvo": 5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lieskové orechy",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do hrnca navážte kakao, instantnú kávu, cukor, vodu, maslo a RIAVA orech. Všetko priveďte k varu. Do hrnca ďalej pridajte nahrubo nasekané lieskové orechy a múku. Dobre premiešajte, aby sa celá zmes prepojila a neostali v nej žiadne hrudky. Plech s rozmermi 40 x 24 cm vyložte papierom na pečenie, vlejte do neho cesto a stierkou zarovnajte. Pečte pri teplote 180 stupňov približne 20 minút. Je veľmi dôležité, aby ste cesto neprepiekli. Takže zabudnite na suchú špajdľu. Cesto by po upečení malo pripomínať brownies. Ak ho v rúre necháte príliš dlho, cesto bude veľmi tvrdé.",
+  "Kým korpus vychladne, pripravte krém. V mise spolu zmiešajte maslo izbovej teploty s mascarpone a práškovým cukrom, na záver mixovania pridajte RIAVA orech.",
+  "Krém naneste na vychladený korpus a rovnomerne ho rozotrite. Nechajte koláč minimálne hodinu v chladničke. Po nakrájaní dozdobte nasekanými lieskovými orechmi a podávajte."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "orechy",
+  "slovenské"
+ ]
 }

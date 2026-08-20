@@ -1,57 +1,116 @@
 {
-  "id": "salat-z-pecenej-mrkvy-s-fetou",
-  "nazov": "Šalát z pečenej mrkvy s fetou",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 180,
-  "kcal_zdroj": "vypocet",
-  "popis": "Teplý-studený šalát z pečenej mrkvy s fetou a bylinkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feta",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kmín",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mrkvu nakrájaj na pásiky, premiešaj s olivovým olejom, kmínom a soľou.",
-    "Peč pri 200 °C asi 25 minút do mäkka.",
-    "Nechaj mierne vychladnúť.",
-    "Premiešaj s rozdrobenou fetou a podávaj."
-  ],
-  "tipy": "Skvele sa hodí aj s pridanými pečenými orechmi.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "mrkva",
-    "feta"
-  ]
+ "id": "salat-z-pecenej-mrkvy-s-fetou",
+ "nazov": "Šalát z pečenej mrkvy s fetou",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Šalát z pečenej cvikly s fetou a kúskami hovädzieho mäsa (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/salat-z-pecenej-cvikly-s-fetou-a-kuskami-hovadzieho-masa/90691-recept.html",
+ "porcie": 8,
+ "cas": "55 min",
+ "kcal_na_porciu": 322,
+ "popis": "Surová cvikla je pomerne tvrdá a chuťovo nevýrazná, po upečení bude však fantasticky sladká.* Ak ju kúpite aj s vňaťou, môžete ju do šalátu použiť tiež. My sme v tomto recepte použili žltú cviklu, ale to nie je podmienkou, šalát bude vynikajúci aj z červenej.",
+ "ingrediencie": [
+  {
+   "nazov": "Cvikla",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzie",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalátové listy",
+   "mnozstvo": 2,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr feta",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový panenský olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si štyri štvorce alobalu. Cviklu umyjeme a osušíme. Každú buľvu položíme na jeden štvorec alobalu, potrieme olejom, ochutíme tymianom, pretlačeným cesnakom, javorovým sirupom, soľou a korením. Zabalíme a pečieme asi 40 minút pri teplote 200 °C.",
+  "Upečenú cviklu ošúpeme a nakrájame na mesiačiky. Zmiešame všetky ingrediencie na dresing. Ešte teplú cviklu vložíme do dresingu a necháme marinovať.",
+  "Steak osolíme a okoreníme. Na panvici zahrejeme kvapku oleja a mäso opekáme asi 3 minúty z každej strany. Necháme ho 5 minút odpočívať prekrytý alobalom a potom ho nakrájame na plátky. Servírujeme spolu s cviklou, so šalátovými listami, s fetou a dresingom. Dozdobíme nasekanou pažítkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "mrkva",
+  "feta"
+ ]
 }

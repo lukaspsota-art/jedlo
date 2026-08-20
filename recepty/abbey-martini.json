@@ -1,0 +1,48 @@
+{
+ "id": "abbey-martini",
+ "nazov": "Abbey Martini",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Abbey Martini",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17223",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 285,
+ "popis": "Cocktail · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Gin",
+   "mnozstvo": 80,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sladký vermút",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bitter",
+   "mnozstvo": 3,
+   "jednotka": "štipka",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie dáme do šejkra a premiešame.",
+  "Precedíme do vychladeného kokteilového pohára."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

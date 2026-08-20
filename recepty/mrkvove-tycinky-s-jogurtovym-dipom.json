@@ -1,50 +1,93 @@
 {
-  "id": "mrkvove-tycinky-s-jogurtovym-dipom",
-  "nazov": "Mrkvové tyčinky s jogurtovým dipom",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "10 min",
-  "kcal_na_porciu": 90,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý zdravý snack z mrkvových tyčiniek a bylinkového jogurtového dipu.",
-  "ingrediencie": [
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Grécky jogurt",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kôpor",
-      "mnozstvo": 5,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mrkvu nakrájaj na tyčinky.",
-    "Jogurt zmiešaj s nasekaným kôprom a soľou.",
-    "Podávaj mrkvu s dipom na namáčanie."
-  ],
-  "tipy": "Skvelý snack do krabičky pre deti aj dospelých.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "mrkva",
-    "zdravé"
-  ]
+ "id": "mrkvove-tycinky-s-jogurtovym-dipom",
+ "nazov": "Mrkvové tyčinky s jogurtovým dipom",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Mrkvové tyčinky bez múky (autor: nika8)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/mrkvove-tycinky-bez-muky/54163-recept.html",
+ "porcie": 12,
+ "cas": "40 min",
+ "kcal_na_porciu": 212,
+ "popis": "Tento recept som našla v knihe Sladkosti bez výčitiek - sú výborné k šalátu, k polievke, \r\nalebo len tak samotné :)",
+ "ingrediencie": [
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandle",
+   "mnozstvo": 170,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľanové semienka",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 55,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kurkuma",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majorán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "štipka sušený"
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na posypanie"
+  }
+ ],
+ "postup": [
+  "Vajíčka ručne rozšľaháme (časť si odložíme na potretie) a zmiešame s ostatnými ingredienciami. Vytvoríme cesto. Ak sa zdá riedke, zahustíme mandľami alebo ľanovými semienkami. Mne sa zdalo cesto husté, tak som pridala ešte jedno vajíčko.",
+  "Cesto rozotrieme na plech vystlaný papierom na pečenie a potrieme vajíčkom. Podľa chuti posypeme semienkami (ľanové, sezamové, mak ...) a pečieme pri 200 C asi 15 minút.",
+  "Dozlatista upečené cesto necháme vychladnúť. Po vychladnutí nakrájame na tyčinky.",
+  "Tyčinky sú výborné napr. k šalátu namiesto pečiva a sú vhodné aj pri celiakii, ak budú použité bezlepkové ovsené vločky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "mrkva",
+  "zdravé"
+ ]
 }

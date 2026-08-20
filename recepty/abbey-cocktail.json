@@ -1,0 +1,48 @@
+{
+ "id": "abbey-cocktail",
+ "nazov": "Abbey Cocktail",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Abbey Cocktail",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17834",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 215,
+ "popis": "Ordinary Drink · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Gin",
+   "mnozstvo": 44.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bitter",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koktejlová višňa",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie okrem višne pretrepeme s ľadom a precedíme do kokteilového pohára.",
+  "Navrch dáme koktejlovú višňu a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

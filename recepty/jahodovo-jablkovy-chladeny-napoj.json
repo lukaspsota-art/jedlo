@@ -1,0 +1,70 @@
+{
+ "id": "jahodovo-jablkovy-chladeny-napoj",
+ "nazov": "Jahodovo-jablkový chladený nápoj",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Fruit Cooler",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12670",
+ "porcie": 2,
+ "cas": "5 min",
+ "kcal_na_porciu": 148,
+ "popis": "Other / Unknown · Highball Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Jablková šťava",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahody",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sóda",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Jahody premiešame s cukrom a necháme cez noc v chladničke.",
+  "Citrón nakrájame, dva plátky si odložíme. Zo zvyšku vytlačíme šťavu.",
+  "Zmiešame citrónovú šťavu, jahody, jablkovú šťavu a sódu.",
+  "Do pohárov dáme ľad a plátok jablka.",
+  "Nalejeme nápoj, ozdobíme plátkom citróna a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "jablká",
+  "bezmäsité"
+ ]
+}

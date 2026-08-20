@@ -1,70 +1,80 @@
 {
-  "id": "medovnicky",
-  "nazov": "Medovníčky",
-  "kategoria": "Pečivo",
-  "kuchyna": "Slovenská",
-  "zdroj": "klasický recept",
-  "porcie": 20,
-  "cas": "50 min",
-  "kcal_na_porciu": 87,
-  "kcal_zdroj": "vypocet",
-  "popis": "Malé korenené medové sušienky, tradičné vianočné pečivo.",
-  "ingrediencie": [
-    {
-      "nazov": "Med",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Klinčeky",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": "mleté"
-    },
-    {
-      "nazov": "Sóda",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Med a cukor zohrej, kým sa cukor rozpustí, nechaj vychladnúť.",
-    "Vmiešaj vajce, múku, korenie a sódu do hladkého cesta.",
-    "Rozváľaj a vykrajuj tvary.",
-    "Ulož na plech.",
-    "Peč pri 175 °C asi 8-10 minút."
-  ],
-  "tipy": "Po vychladnutí zmäknú a chuťovo dozrejú po pár dňoch v dóze.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "slovenské",
-    "vianočné"
-  ]
+ "id": "medovnicky",
+ "nazov": "Medovníčky",
+ "kategoria": "Pečivo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Medovníčky (autor: gurman01)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/medovnicky/87047-recept.html",
+ "porcie": 20,
+ "cas": "7 min",
+ "kcal_na_porciu": 175,
+ "popis": "Malé korenené medové sušienky, tradičné vianočné pečivo.",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Perníkové korenie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 0.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sóda bikarbóna",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky suroviny vymiesime na cesto, zabalíme do mikroténového vrecka a necháme cez noc v chladničke odstáť.",
+  "Na druhú deň cesto vyvaľkáme, povykrajujeme všelijaké tvary a ukladáme na plech vystlaný papierom na pečenie. Potrieme rozšľahaným vajíčkom a pečieme pri 180 °C približne 7 až 10 minút.",
+  "Upečené medovníky dáme do krabice a necháme mesiac odstáť. Týždeň pred konzumovaním vložíme rozkrájane jablko. Perníčky môžeme ozdobiť z cukrovou pastou, ktorú si pripravíme zmiešaním 1 bielka, 150 g práškového cukru a citrónovej šťavy."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "slovenské",
+  "vianočné"
+ ]
 }

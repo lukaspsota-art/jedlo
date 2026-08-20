@@ -1,62 +1,76 @@
 {
-  "id": "bruschetta-s-vajcom",
-  "nazov": "Bruschetta s vajcom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 360,
-  "popis": "Opečená bageta s paradajkovým tatarákom a vajcom na mäkko.",
-  "ingrediencie": [
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": null,
-      "jednotka": "pár lístkov",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Paradajky nakrájaj na kocky, zmiešaj s pretlačeným cesnakom a olejom.",
-    "Bagetu opeč a potri prekrojeným cesnakom.",
-    "Navrch daj paradajkový tatarák a vajce na mäkko prekrojené na polovicu."
-  ],
-  "tipy": "Vajce var presne 6 minút, žĺtok zostane tekutý a doplní chuť.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "sendvič",
-    "vajce",
-    "vegetariánske"
-  ]
+ "id": "bruschetta-s-vajcom",
+ "nazov": "Bruschetta s vajcom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Bruschetta (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bruschetta/66798-recept.html",
+ "porcie": 15,
+ "cas": "20 min",
+ "kcal_na_porciu": 395,
+ "popis": "Komerčný recept<br />Nečakane vám prišla návšteva a radi by ste im ponúkli niečo rýchle a chutné? Nech sa páči! Vyskúšajte tento recept \r\nna skvelé jednoduché bruschetty.",
+ "ingrediencie": [
+  {
+   "nazov": "Bageta",
+   "mnozstvo": 8,
+   "jednotka": "plátok",
+   "poznamka": "francúzsky chlieb, normálny chlieb"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 8,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprička chilli",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jemný Ajvar",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Konzervovaná kukurica",
+   "mnozstvo": 140,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalkové čerstvé lístky",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Každý krajec bagety/chleba potrieme olivovým olejom a ugrilujeme na grile alebo grilovacej panvici.",
+  "Paradajky prekrojíme na polovice, vyberieme semienka a zvyšok nakrájame na malé kocky. Chilli papričku nakrájame na tenké krúžky.",
+  "Zmiešame paradajky, chilli, jemný Ajvar a kukuricu. Nasekáme bazalku a pažítku a zamiešame ich k pripravenej zmesi.",
+  "Zmes rovnomerne natrieme na ugrilované bagetky a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "sendvič",
+  "vajce",
+  "vegetariánske"
+ ]
 }

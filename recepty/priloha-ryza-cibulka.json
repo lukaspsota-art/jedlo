@@ -1,51 +1,73 @@
 {
-  "id": "priloha-ryza-cibulka",
-  "nazov": "Dusená ryža s cibuľkou",
-  "kategoria": "Príloha",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 263,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ryža podusená na cibuľke a masle.",
-  "ingrediencie": [
-    {
-      "nazov": "Ryža",
-      "mnozstvo": 240,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 480,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Cibuľu nakrájaj najemno a osmaž na masle do sklovita.",
-    "Pridaj ryžu a minútu opekaj.",
-    "Zalej vodou, osoľ, prikry a dus 12 min."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "ryža"
-  ]
+ "id": "priloha-ryza-cibulka",
+ "nazov": "Dusená ryža s cibuľkou",
+ "kategoria": "Príloha",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Dusená ryža (fotorecept) (autor: ovyfj)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/dusena-ryza-fotorecept/79486-recept.html",
+ "porcie": 14,
+ "cas": "90 min",
+ "kcal_na_porciu": 232,
+ "popis": "Dusená ryža je veľmi obľúbená potravina. Dokumentujeme postup prípravy podľa knihy: Technológie pre 1. ročník učebného \r\nodboru \r\nkuchár, Gara, Máziková, Gogová, 2007. Suroviny uvádzame na 10 porcií, z ktorých si ľahko možno vyrátať potrebné množstvo. \r\nDobrú skúsenosť máme s guľatozrnnou lúpanou ryžou.  Správne pripravená ryža je sypká, nerozvarená s typickou vôňou a \r\nchuťou, ktorá je zvýraznená",
+ "ingrediencie": [
+  {
+   "nazov": "Guľatozrnná ryža",
+   "mnozstvo": 700,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť",
+   "mnozstvo": 75,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 25,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Klinček",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 700,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si suroviny. V našom prípade pripravujeme ryžu na 4 porcie (suroviny v zozname sú na 10 porcií).",
+  "Ryžu odvážime, preberieme - odstránime kamienky, nečistoty.",
+  "Preplachujeme, sparíme v horúcej vode.",
+  "Dobre premiešame, vodu zlievame cez sitko, aby sme zachytili ryžu. Preplachovanie opakujeme, kým voda prestane byť mútna.",
+  "Posledný krát preplachujeme studenou vodou, aby sa ryža zachladila a nezačala pučať.",
+  "Ryžu necháme odkvapkať. Suchá sa ľahšie restuje a nelepí sa na dno hrnca.",
+  "Medzitým si pripravíme ostatné suroviny. Koľko gramov ryže - toľko mililitrov vody.",
+  "Keď je ryža odkvapkaná, rozohrejeme kastról a pridáme potrebné množstvo tuku.",
+  "Na rozohriaty tuk nasypeme ryžu.",
+  "Restujeme 3 -5 minút. Medzitým si rozohrejeme rúru.",
+  "K ryži pridáme ostatné suroviny. Soľ, cibuľu s klinčekom na zvýraznenie chuti.",
+  "Odmerané množstvo vody privedieme do varu. Studená voda spomalí tepelnú úpravu. Vriacu vodu nalejeme k ryži. Platí zásada - koľko ryže, toľko vody.",
+  "Premiešame a krátko povaríme pod pokrievkou.",
+  "Keď je voda odparená, hrniec s ryžou odstavíme z tepelného zdroja a vložíme do rúry, kde dusíme do mäkka.",
+  "Keď je ryža hotová, vyberieme cibuľu s klinčekom a ryžu vidličkou premiešame, čím sa odparí voda a ryža zostane sypká."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "ryža"
+ ]
 }

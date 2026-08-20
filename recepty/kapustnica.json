@@ -1,95 +1,142 @@
 {
-  "id": "kapustnica",
-  "nazov": "Kapustnica s klobásou",
-  "kategoria": "Polievka",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 6,
-  "cas": "90 min",
-  "kcal_na_porciu": 380,
-  "popis": "Hustá kyslá kapustová polievka s údeným mäsom, klobásou a hríbmi — vianočná klasika.",
-  "ingrediencie": [
-    {
-      "nazov": "Kyslá kapusta",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Údené mäso",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": "napr. pliecko"
-    },
-    {
-      "nazov": "Klobása",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "údená, na kolieska"
-    },
-    {
-      "nazov": "Sušené hríby",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": "na zápražku"
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bobkový list",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "štipka",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sušené slivky",
-      "mnozstvo": 6,
-      "jednotka": "ks",
-      "poznamka": "voliteľné"
-    }
-  ],
-  "postup": [
-    "Údené mäso zalej vodou a var asi 40 minút.",
-    "Pridaj scedenú kapustu, namočené hríby, bobkový list a korenie, var ďalších 30 minút.",
-    "Pridaj klobásu a sušené slivky, povar 10 minút.",
-    "Z masti, múky a papriky sprav svetlú zápražku a rozšľahaj do polievky na zahustenie.",
-    "Mäso vyber, nakrájaj a vráť späť. Dochuť soľou."
-  ],
-  "tipy": "Cez noc odležaná kapustnica chutí ešte lepšie. Časť kapustnej šťavy pridaj podľa kyslosti.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "vianoce",
-    "polievka",
-    "kapusta"
-  ],
-  "foto": ""
+ "id": "kapustnica",
+ "nazov": "Kapustnica s klobásou",
+ "kategoria": "Polievka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Kapustnica s údeným mäsom a klobásou (autor: jozinkojojko)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kapustnica-s-udenym-masom-a-klobasou/78529-recept.html",
+ "porcie": 15,
+ "cas": "240 min",
+ "kcal_na_porciu": 231,
+ "popis": "Moja verzia tejto polievky. Robím ju v kotlíku ako guláš - pekne hustú a podávam s chlebom. Všetci chvália.",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčové údené koleno",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údené kosti",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá kapusta",
+   "mnozstvo": 1500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stredné krúpy",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 4000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne celé korenie",
+   "mnozstvo": 20,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové celé korenie",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údená klobása",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hríby",
+   "mnozstvo": 2,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "voliteľné"
+  }
+ ],
+ "postup": [
+  "Na masti si orestujeme nakrájanú cibuľu do zlatohneda, pridáme mletú papriku, chvíľočku zarestujeme, zalejeme vodou. Pridáme nové korenie, čierne korenie, bobkový list, rascu a soľ. Vložíme koleno a kosti. Varíme 2-3 hodiny.",
+  "Potom mäso vyberieme, necháme ochladnúť. Medzitým zahustíme vývar múkou rozmiešanou vo vode. Pridáme očistené nakrájané zemiaky, hríby a krúpy. Varíme do zmäknutia. Keď sú zemiaky mäkké, pridáme roztlačený cesnak a kapustu. Zemiaky neostanú tvrdé, ak sa kapusta pridá po ich uvarení.",
+  "Obraté mäso pridáme do polievky. Osmažíme klobásku a pridáme do polievky. Dochutíme a môžeme podávať. Najlepšia je s domácim chlebom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "vianoce",
+  "polievka",
+  "kapusta"
+ ]
 }

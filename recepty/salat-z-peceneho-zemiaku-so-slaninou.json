@@ -1,58 +1,99 @@
 {
-  "id": "salat-z-peceneho-zemiaku-so-slaninou",
-  "nazov": "Šalát z pečeného zemiaku so slaninou",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 243,
-  "kcal_zdroj": "vypocet",
-  "popis": "Teplý-studený šalát z pečených zemiakov a chrumkavej slaniny.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jogurt",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky nakrájaj na kocky, premiešaj s olejom a soľou, peč pri 200 °C 25 minút.",
-    "Slaninu opeč do chrumkava.",
-    "Cibuľu nakrájaj nadrobno.",
-    "Všetko premiešaj s jogurtom.",
-    "Podávaj teplé alebo vychladené."
-  ],
-  "tipy": "Skvelá sýta príloha alebo samostatný obed.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "zemiaky",
-    "slanina"
-  ]
+ "id": "salat-z-peceneho-zemiaku-so-slaninou",
+ "nazov": "Šalát z pečeného zemiaku so slaninou",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pečené zemiaky so sušenou slaninou a šalátom (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecene-zemiaky-so-susenou-slaninou-a-salatom/91566-recept.html",
+ "porcie": 7,
+ "cas": "40 min",
+ "kcal_na_porciu": 334,
+ "popis": "Pečené zemiaky, to je dobrota vždy. Vyskúšajte skvelú kombináciu so sušenou šunkou.* A v teplých dňoch podávajte so šalátom.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušená šunka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalát little gem",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kozí syr",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Provensalské korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej olivový extra panenský",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zemiaky dôkladne umyjeme. Vložíme ich do vriacej osolenej vody a varíme do polomäkka asi 15 minút. Potom ich zlejeme a necháme vychladnúť.",
+  "Rúru predhrejeme na 220 °C. Uvarené zemiaky pozdĺžne prekrojíme na štvrtiny. Osolíme ich a okoreníme. Plátky šunky pozdĺžne prepolíme, aby sme dostali dlhé prúžky. Štvrtky zemiakov nimi obalíme. Obalené zemiaky poukladáme do pekáča. Cesnak nakrájame na plátky a pridáme k zemiakom. Natrháme k nim aj lístky rozmarínu a pokvapkáme ich olejom. Zemiaky vložíme do vyhriatej rúry a pečieme pri 220 °C asi 20 minút dozlatista.",
+  "Šalát little gem rozoberieme a použijeme krehké stredové listy. Umyjeme ich a natrháme do misy. Kozí syr rozmrvíme a premiešame s provensalským korením.",
+  "Zmiešame prísady na dresing. Pečené zemiaky pridáme do misy k šalátu. Posypeme ich ochuteným syrom a pokvapkáme dresingom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "zemiaky",
+  "slanina"
+ ]
 }

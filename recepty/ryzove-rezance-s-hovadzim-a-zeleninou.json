@@ -1,71 +1,69 @@
 {
-  "id": "ryzove-rezance-s-hovadzim-a-zeleninou",
-  "nazov": "Ryžové rezance s hovädzím mäsom a zeleninou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Ázijská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 601,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchle ázijské rezance s hovädzími prúžkami a chrumkavou zeleninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Rezance",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hovädzie",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "na prúžky"
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rezance uvar podľa návodu na obale.",
-    "Mäso nakrájaj na tenké prúžky a rýchlo opeč na oleji.",
-    "Pridaj zeleninu a cesnak, krátko opraž.",
-    "Vmiešaj rezance a sójovú omáčku.",
-    "Podávaj horúce."
-  ],
-  "tipy": "Mäso krájaj proti vláknam pre jemnejšiu textúru.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "hovädzie",
-    "ázijské",
-    "rýchle"
-  ]
+ "id": "ryzove-rezance-s-hovadzim-a-zeleninou",
+ "nazov": "Ryžové rezance s hovädzím mäsom a zeleninou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Ryžové rezance so šampiňónmi a zeleninou (autor: mitzy)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/ryzove-rezance-so-sampinonmi-a-zeleninou/68604-recept.html",
+ "porcie": 1,
+ "cas": "25 min",
+ "kcal_na_porciu": 88,
+ "popis": "Tento recept - nerecept je rýchly, variabilný a zasýti... \r\nNepatrí medzi päťhviezdičkové, ale chutí dobre ;)",
+ "ingrediencie": [
+  {
+   "nazov": "Ryžové rezance",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zmes zeleninová čínska",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "trošku"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "tak akurát"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Necháme zovrieť vodu a ryžové rezance povaríme vo vode podľa návodu (2-3 minúty). Potom ich scedíme cez sitko.",
+  "Na panvici speníme na oleji nadrobno posekanú cibuľu. Pridáme pokrájané nožičky šampiňónov, potom pokrájané klobúčiky. Podlejeme trochou vody. Keď sa voda odparí, pridáme mrazenú zeleninovú zmes. Premiešame. Pofŕkame sójovou omáčkou a znovu premiešame. Keď zelenina zmäkne a voda sa z nej odparí, zmes jemne osolíme, pridáme uvarené a scedené ryžové rezance a premiešame. V prípade potreby ešte dochutíme soľou alebo sójovou omáčkou.",
+  "Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "hovädzie",
+  "ázijské",
+  "rýchle"
+ ]
 }

@@ -1,29 +1,59 @@
 {
-  "id": "snack-proteinova-tycinka",
-  "nazov": "Proteínová tyčinka",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 210,
-  "kcal_zdroj": "vypocet",
-  "popis": "Proteínová tyčinka po tréningu.",
-  "ingrediencie": [
-    {
-      "nazov": "Proteínová tyčinka",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    }
-  ],
-  "postup": [
-    "Rozbaľ a zjedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "bielkoviny",
-    "kupované"
-  ]
+ "id": "snack-proteinova-tycinka",
+ "nazov": "Proteínová tyčinka",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Proteínová tyčinka (fotorecept) (autor: rous5)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/proteinova-tycinka-fotorecept/23521-recept.html",
+ "porcie": 8,
+ "cas": "30 min",
+ "kcal_na_porciu": 121,
+ "popis": "Proteín je bielkovina a tá je základnou zložkou pre rast a udržanie svalovej bunky.\nPreto každý, kto cvičí s cieľom nabrať alebo nestratiť svalovú hmotu, prípadne má za cieľ lepšiu regeneráciu, by mal užívať vhodný proteínový doplnok (tyčinku),v období buď  tesne pred/počas alebo po tréningu. Pre necvičiacich je užívanie zbytočné. Proteínový prášok ako je v recepte je možné zakúpiť takmer vo všetk",
+ "ingrediencie": [
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Semienka slnečnice lúpané",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené hrozienka",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Proteín 80%",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "orechy (vlašské, lieskové...aké chceš) semienka (ja mám najradšej slnečnicové) hrozienka",
+  "tieto 3 veci hodíš do mixéra, zaleješ po hladinu vodou a rozmixuješ, môže tam byť tak o pol centimetra viac, ale dá sa potom pridať",
+  "celý ten mixér sa pokúsiš vyhrabať do misy",
+  "pridáš ovsené vločky proteín (najlepšie osemdesiatku) = 80% podielu bielkovín",
+  "no a potom hnetieš tak dlho pokiaľ z toho nie je relatívne husté cesto, keď je moc suché prikvapni vodu, ale opatrne nech nie je lepivé, najprv sa to pokús uhniesť tak ako to je a až keď to bude moc tuhé prikvapni trošku vody a zasa hnetieš",
+  "potom to rozdelíš na 8-10 rovnakých častí (ja som to najprv odvážila a vydelila ), ale chlapi to rozdelia tak na päť častí, že? no a urobíš z toho valčeky do alobalu alebo folie a do ladničky :-) je to mňamka, chutia mi viacej ako kupované :-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "bielkoviny",
+  "kupované"
+ ]
 }

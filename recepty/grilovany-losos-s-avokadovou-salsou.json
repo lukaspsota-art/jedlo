@@ -1,76 +1,69 @@
 {
-  "id": "grilovany-losos-s-avokadovou-salsou",
-  "nazov": "Grilovaný losos s avokádovou salsou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Mexická",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "25 min",
-  "kcal_na_porciu": 408,
-  "kcal_zdroj": "vypocet",
-  "popis": "Grilovaný losos podávaný s čerstvou avokádovou salsou.",
-  "ingrediencie": [
-    {
-      "nazov": "Losos",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Avokádo",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Koriander",
-      "mnozstvo": 5,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Lososa osoľ a gril alebo opeč na panvici z oboch strán.",
-    "Avokádo, paradajky a cibuľu nakrájaj na kocky.",
-    "Premiešaj so šťavou z limetky a nasekaným koriandrom.",
-    "Naservíruj lososa so salsou navrch.",
-    "Podávaj s ryžou alebo šalátom."
-  ],
-  "tipy": "Salsu priprav tesne pred podávaním, aby avokádo nezhnedlo.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "losos",
-    "mexické"
-  ]
+ "id": "grilovany-losos-s-avokadovou-salsou",
+ "nazov": "Grilovaný losos s avokádovou salsou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Mexická",
+ "zdroj": "Varecha.sk – Grilovaný losos s quinoou (autor: Ryža SOS)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/grilovany-losos-s-quinoou/88558-recept.html",
+ "porcie": 2,
+ "cas": "20 min",
+ "kcal_na_porciu": 314,
+ "popis": "Máte chuť na niečo iné a neviete čo?* Ak patríte k ľuďom, ktorí nemajú veľa času na varenie, ale preferujú vyvážené a výživné \r\njedlo, SOS vám to uľahčí s týmto receptom na grilovaného lososa s quinoou. Za menej ako 20 minút budete mať pripravený \r\ntento recept, ktorý obsahuje všetko, čo potrebujete na prípravu kompletného jedla. Oblečte si zásteru a hor sa do práce!",
+ "ingrediencie": [
+  {
+   "nazov": "SOS Quinoa",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Losos",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 1,
+   "jednotka": "zväzok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Quinou uvarte podľa návodu na obale.",
+  "Lososa osoľte, okoreňte a opečte na grilovacej panvici s olivovým olejom.",
+  "Cesnak a kôpor nasekajte a pridajte do panvice s lososom.",
+  "Keď bude pekne ugrilovaný, podávajte ho s quinoou a obľúbenou omáčkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "losos",
+  "mexické"
+ ]
 }

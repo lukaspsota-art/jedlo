@@ -1,71 +1,103 @@
 {
-  "id": "rybacia-kremova-polievka",
-  "nazov": "Rybacia krémová polievka (chowder)",
-  "kategoria": "Polievka",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 268,
-  "kcal_zdroj": "vypocet",
-  "popis": "Hustá americká krémová polievka z bielej ryby a zemiakov.",
-  "ingrediencie": [
-    {
-      "nazov": "Zubáča",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na masle opraž cibuľu.",
-    "Pridaj nakrájané zemiaky a vývar, var 15 minút do mäkka.",
-    "Rybu nakrájaj na kúsky a pridaj do polievky.",
-    "Var 8-10 minút, kým ryba nie je hotová.",
-    "Vmiešaj smotanu a dochuť soľou."
-  ],
-  "tipy": "Časť zemiakov rozmixuj pre hustejšiu konzistenciu.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "ryba",
-    "americké",
-    "krémová"
-  ]
+ "id": "rybacia-kremova-polievka",
+ "nazov": "Rybacia krémová polievka (chowder)",
+ "kategoria": "Polievka",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Krémová rybacia polievka (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kremova-rybacia-polievka/89195-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 265,
+ "popis": "V chladnejších dňoch sa zohrejte špecialitou z Nórska - krémovou rybacou polievkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Filé rybie",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pór",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rybí vývar",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Crème fraîche",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krevety",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rybie filé (alebo polovicu lososa či tresky) nakrájame na kocky alebo prúžky. Cesnak rozdrvíme alebo nasekáme. Zeleninu opláchneme a nakrájame na tenké pásiky.",
+  "V hrnci rozohrejeme maslo a pridáme cesnak. Keď cesnak začne zlatnúť, pridáme múku a dobre ju rozmiešame.",
+  "Pridáme rybí vývar a pokračujeme v miešaní, aby sa nevytvorili hrudky.",
+  "Pridáme nakrájanú zeleninu a mlieko a privedieme do varu. Varíme približne 10 minút.",
+  "Pridáme crème fraîche alebo kyslú smotanu, rozmiešame. Polievku opäť privedieme do varu a keď začne bublať, vypneme ju.",
+  "Hrniec s polievku necháme na sporáku, pridáme rybu a necháme ju v horúcej polievke ohriať 5 minút. Ak použijeme aj krevety, pridáme ich do horúcej polievky až tesne pred podávaním.",
+  "Na tanieroch polievku posypeme pažítkou alebo kôprom či petržlenovou vňaťou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "ryba",
+  "americké",
+  "krémová"
+ ]
 }

@@ -1,0 +1,35 @@
+{
+ "id": "mangovo-pomarancove-smoothie",
+ "nazov": "Mangovo-pomarančové smoothie",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Mango Orange Smoothie",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12716",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 38,
+ "popis": "Other / Unknown · Highball Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Mango",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetko dáme do mixéra a rozmixujeme na hladké smoothie."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "bezmäsité"
+ ]
+}

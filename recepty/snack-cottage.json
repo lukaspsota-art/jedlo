@@ -1,29 +1,75 @@
 {
-  "id": "snack-cottage",
-  "nazov": "Cottage syr",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 176,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kúpený cottage syr.",
-  "ingrediencie": [
-    {
-      "nazov": "Cottage",
-      "mnozstvo": 180,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Kúpené — otvor a zjedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "kupované",
-    "bielkoviny"
-  ]
+ "id": "snack-cottage",
+ "nazov": "Cottage syr",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Špagety s cottage syrom a paradajkami (autor: sandraviglasova)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/spagety-s-cottage-syrom-a-paradajkami/51760-recept.html",
+ "porcie": 5,
+ "cas": "15 min",
+ "kcal_na_porciu": 221,
+ "popis": "Toť moja improvizácia špagiet :-) povýletové, rýchle a hodnotné jedlo :-) inšpirácia pre \r\ntých, ktorým stále nedá pokoj ten syrokrém :D",
+ "ingrediencie": [
+  {
+   "nazov": "Syr cottage",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnné špagety",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "jemne posekaná"
+  },
+  {
+   "nazov": "Mleté čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Špagety dáme variť.",
+  "Paradajky nakrájame na polky, cesnak na plátky, posypeme drveným čiernym korením, sezamom a pridáme olivový olej, a premiešame.",
+  "Keď sú špagety uvarené, precedíme ich a prepláchneme vlažnou vodou. Hneď na to do nich pridáme cotagge a posekanú pažítku a dobre premiešame.",
+  "Špagety naberáme na tanier a na vrch naložíme paradajky, pred podávaním trošku posolíme :-) želám Vám dobrú chuť :-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "kupované",
+  "bielkoviny"
+ ]
 }

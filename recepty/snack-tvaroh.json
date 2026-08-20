@@ -1,29 +1,100 @@
 {
-  "id": "snack-tvaroh",
-  "nazov": "Tvaroh",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 176,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kúpený jemný tvaroh.",
-  "ingrediencie": [
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 180,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Kúpené — otvor a zjedz."
-  ],
-  "tipy": "Chutí s ovocím alebo medom.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "kupované",
-    "bielkoviny"
-  ]
+ "id": "snack-tvaroh",
+ "nazov": "Tvaroh",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Tvarohové šišky (fotorecept) (autor: ancicka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/tvarohove-sisky-fotorecept/73187-recept.html",
+ "porcie": 10,
+ "cas": "25 min",
+ "kcal_na_porciu": 218,
+ "popis": "Pre fašiangové obdobie sú typické šišky, no a u nás taktiež nesmú chýbať. Tieto nie sú \r\nkysnuté, a preto s ich prípravou nie je veľa práce a sú \r\nchutné.",
+ "ingrediencie": [
+  {
+   "nazov": "Hrudkovitý tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sóda bikarbóna",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rum",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1/2 citróna"
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Z uvedených surovín vypracujeme cesto, zakryté necháme aspoň 15 minút oddychovať.",
+  "Potom cesto rozvaľkáme na hrúbku asi na 1 cm a povykrajujeme kolieska. V strede každého vykrojíme menšie koliesko.",
+  "Vysmažíme v oleji z oboch strán.",
+  "Šišky vyložíme na papierovú utierku, ktorá vsaje prebytočný olej.",
+  "Hotové posypeme práškovým cukrom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "kupované",
+  "bielkoviny"
+ ]
 }

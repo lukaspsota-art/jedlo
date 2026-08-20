@@ -1,70 +1,80 @@
 {
-  "id": "ovsene-ranajkove-rozky",
-  "nazov": "Ovsené raňajkové rožky",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "100 min",
-  "kcal_na_porciu": 264,
-  "kcal_zdroj": "vypocet",
-  "popis": "Výživné kysnuté rožky s ovsenými vločkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ovsené vločky",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vločiek, vlažného mlieka, droždia, medu, oleja a soli vypracuj cesto.",
-    "Nechaj kysnúť 1 hodinu.",
-    "Rozdeľ na 8 dielov, vytvaruj rožky.",
-    "Navrch posyp ovsenými vločkami, nechaj 15 minút kysnúť.",
-    "Peč pri 200 °C asi 18-20 minút do zlatista."
-  ],
-  "tipy": "Skvelý výživný základ na sendvič do práce.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "ovsené",
-    "raňajky"
-  ]
+ "id": "ovsene-ranajkove-rozky",
+ "nazov": "Ovsené raňajkové rožky",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Rožky na narodeninové raňajky (fotorecept) (autor: sracz)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/rozky-na-narodeninove-ranajky-fotorecept/89352-recept.html",
+ "porcie": 14,
+ "cas": "25 min",
+ "kcal_na_porciu": 311,
+ "popis": "Domáce pečivo, no hlavne chlebík, ma doprevádza na životnom putovaní už od detstva.* Jeho hlavným tvorcom bola moja \r\núžasná babička lady Ann, B. P. a dva razy do mesiaca som na saniach či talige, ťahal peceň, vykysnutý na šírku stola, do starej \r\npekárne. Patrím k pamätníkom Košičanov na dávnu pekáreň vyhrievanú drevom, kedy oproti dnešnému OD Astória v nej \r\nnám náš strýko Berco chlebík upiekol.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Dojčenské sušené mlieko",
+   "mnozstvo": 17.6,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 700,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 7,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krupicový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Múku so soľou, ovsenými vločkami a dojčenským sušeným mliekom som premiešal v miske „kyske“, potom pridal rozpustené maslo a v 350 ml vlažnej vody rozmiešané sušené droždie (žiaľ čerstvé tu nemali ani „pod pultom“) a mocca lyžičku cukru.",
+  "Stierkou premiešal, postupne pridával ďalších 350 ml vlažnej vody a rukou vypracoval cesto, vytvaroval bochník, vložil ho do jemne pomúčenej „kysky“ následne ju „zadekľoval“ príslušným vekom a niečo vyše hodiny nechal vykysnúť.",
+  "Vykysnuté cesto som vyklopil na pomúčenú tablu a vyvaľkal z neho valček.",
+  "Ten som pokrájal na 10 kúskov a",
+  "postupne ich rozvaľkal na tenko, zroloval a vytváral ohnuté rožky.",
+  "Rožky som poukladal do pekáča vystlaného papierom na pečenie a postriekal ich studenou vodou.",
+  "Zakryl ich druhým pekáčom a 12 minút piekol v rúre vyhriatej na 210 °C, potom som horný pekáč sňal a ešte dopiekol asi 10 minút.",
+  "Upečené rožky som preložil na mriežku, nechal asi 12 minút vychladnúť a podával ich na raňajky.",
+  "Biele gerbery vo váze doplnili príjemnú sviatočnú narodeninovú atmosféru."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "ovsené",
+  "raňajky"
+ ]
 }

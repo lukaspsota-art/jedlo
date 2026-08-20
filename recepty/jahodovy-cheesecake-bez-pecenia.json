@@ -1,71 +1,94 @@
 {
-  "id": "jahodovy-cheesecake-bez-pecenia",
-  "nazov": "Jahodový cheesecake bez pečenia",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "30 min (+ chladenie)",
-  "kcal_na_porciu": 291,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémový cheesecake bez pečenia s čerstvými jahodami.",
-  "ingrediencie": [
-    {
-      "nazov": "Cottage",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jahody",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Želatín",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Celozrnné piškóty",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "na korpus"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "na korpus"
-    }
-  ],
-  "postup": [
-    "Piškóty rozdrv, zmiešaj s rozpusteným maslom a vtlač do formy na korpus.",
-    "Cottage syr rozmixuj s cukrom dohladka.",
-    "Želatínu rozpusti podľa návodu a vmiešaj do syrovej zmesi spolu s vyšľahanou smotanou.",
-    "Prelej na korpus a daj stuhnúť do chladničky aspoň 4 hodiny.",
-    "Ozdob čerstvými jahodami pred podávaním."
-  ],
-  "tipy": "Nechaj cez noc v chladničke pre najlepšiu konzistenciu.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "cheesecake",
-    "jahody",
-    "bez pečenia"
-  ]
+ "id": "jahodovy-cheesecake-bez-pecenia",
+ "nazov": "Jahodový cheesecake bez pečenia",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Pečený jahodový cheesecake (autor: bavimapiect)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/peceny-jahodovy-cheesecake/80188-recept.html",
+ "porcie": 11,
+ "cas": "90 min",
+ "kcal_na_porciu": 319,
+ "popis": "Skúšala som veľa jahodových \r\ncheesecakov, no tento bol jeden z \r\nnajchutnejších podľa mňa. Rozhodne \r\nstojí za vyskúšanie.",
+ "ingrediencie": [
+  {
+   "nazov": "Sušienky BeBe",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mascarpone",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jemný tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilínový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahody",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Želatína",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Korpus: Zmiešame rozdrvené sušienky a rozpustené maslo. Ak je hmota stále sypká, pridáme ešte maslo. Sušienkovú zmes utlačíme na dno a boky tortovej formy s priemerom 24 cm. Dáme na 8 minút piecť do rúry vyhriatej na 150 °C.",
+  "Plnka: Do misky dáme mascarpone, tvaroh, smotanu, práškový cukor, vajcia, vanilínový cukor, nastrúhanú citrónovú kôru a do hladka vymiešame.",
+  "Plnku nalejeme na predpečený korpus a opäť pečieme pri teplote 150 °C asi 30-35 minút.",
+  "Po vychladnutí navrch poukladáme nakrájané jahody. Prelejeme ich vlažnou želatínou pripravenou podľa návodu na obale alebo iba potrieme, aby neobschli. Cheesecake dáme do chladničky na niekoľko hodín, aby krásne stuhol. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "cheesecake",
+  "jahody",
+  "bez pečenia"
+ ]
 }

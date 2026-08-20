@@ -1,93 +1,101 @@
 {
-  "id": "kotlikovy-gulas",
-  "nazov": "Kotlíkový hovädzí guláš",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 6,
-  "cas": "150 min",
-  "kcal_na_porciu": 470,
-  "popis": "Pomaly dusený hovädzí guláš s množstvom cibule, papriky a zemiakov.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie mäso",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": "na kocky"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 3,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 4,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rasca",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feferónka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajkový pretlak",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na masti opraž veľa cibule dozlata.",
-    "Odstav, zamiešaj papriku, pridaj mäso a opekaj.",
-    "Podlej vodou, pridaj rascu, cesnak a feferónku, dus 2 hodiny domäkka.",
-    "Pridaj papriku, pretlak a zemiaky, dovar do zmäknutia."
-  ],
-  "tipy": "Čím viac cibule, tým lepšie — dusením sa rozvarí do hustej šťavy.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "hovädzie",
-    "guláš"
-  ],
-  "foto": ""
+ "id": "kotlikovy-gulas",
+ "nazov": "Kotlíkový hovädzí guláš",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Kotlíkový guláš (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kotlikovy-gulas/89735-recept.html",
+ "porcie": 24,
+ "cas": "180 min",
+ "kcal_na_porciu": 437,
+ "popis": "Pomaly dusený hovädzí guláš s množstvom cibule, papriky a zemiakov.",
+ "ingrediencie": [
+  {
+   "nazov": "Mäso hovädzie",
+   "mnozstvo": 3000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 750,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 750,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne celé korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 12,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená sladká mletá paprika",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majorán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cibuľu nakrájame na menšie kúsky a restujeme v kotlíku za občasného miešania na roztopenej bravčovej masti. Ochutíme soľou, celým čiernym korením a bobkovým listom.",
+  "Strúčiky cesnaku rozpučíme čepeľou noža, nakrájame nadrobno, pridáme k cibuli a prikryjeme pokrievkou. Keď je cibuľa dosklovita opečená, pridáme mäso a restujeme ho, kým sa nezatiahne.",
+  "Potom ho ochutíme mletou paprikou, premiešame a ešte chvíľu restujeme. Pridáme zemiaky nakrájané na kocky, dochutíme soľou, podlejeme vodou a prikryjeme pokrievkou.",
+  "Približne po 20 minútach pridáme na menšie kúsky nakrájané umyté papriky a paradajky. Guláš dusíme pod pokrievkou domäkka. Na záver dochutíme majoránom.",
+  "Kotlíkový guláš podávame s krajcom chleba."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "hovädzie",
+  "guláš"
+ ]
 }

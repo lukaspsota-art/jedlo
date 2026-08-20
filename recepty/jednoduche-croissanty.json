@@ -1,64 +1,63 @@
 {
-  "id": "jednoduche-croissanty",
-  "nazov": "Jednoduché croissanty",
-  "kategoria": "Pečivo",
-  "kuchyna": "Francúzska",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "150 min",
-  "kcal_na_porciu": 350,
-  "kcal_zdroj": "vypocet",
-  "popis": "Zjednodušená domáca verzia francúzskych croissantov.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažného mlieka, droždia, cukru a soli vypracuj cesto. Nechaj kysnúť 1 hodinu.",
-    "Cesto rozváľaj, potri plátkami studeného masla, zloz a vyváľaj (zopakuj 2-3×).",
-    "Rozváľaj na plát a nakrájaj na trojuholníky.",
-    "Zroluj od širšej strany k špičke a vytvaruj do polmesiaca.",
-    "Nechaj 30 minút kysnúť a peč pri 200 °C asi 18-20 minút do zlatista."
-  ],
-  "tipy": "Cesto medzi skladaním nechaj 15 minút odpočívať v chladničke.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "francúzske",
-    "kysnuté"
-  ]
+ "id": "jednoduche-croissanty",
+ "nazov": "Jednoduché croissanty",
+ "kategoria": "Pečivo",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Jednoduché croissanty (autor: varimpeciem)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/jednoduche-croissanty/85196-recept.html",
+ "porcie": 13,
+ "cas": "110 min",
+ "kcal_na_porciu": 211,
+ "popis": "Nechcelo sa mi robiť zložitý postup croissantov, tak som si to zjednodušila a doma veľmi chutili.",
+ "ingrediencie": [
+  {
+   "nazov": "Múka hladká T-650",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 340,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Preosiatu múku som v robote zmiešala s cukrom a so soľou. Pridala som droždie a teplé mlieko.",
+  "Miesila som, kým sa cesto nezačalo odlepovať od stien a keď sa vie pekne natiahnuť a neroztrhá sa. Následne hodinku som nechala kysnúť.",
+  "Cesto som rozdelila na viacero častí, podľa toho koľko vrstiev chcete mať. Každú som vyvaľkala do tvaru trojuholníka. Následne som ich začala na seba vrstviť - cesto som potrela mäkkým maslom, na to ďalšie vyvaľkané cesto a znova som potrela maslom. Takto navrstvíte podľa vašich preferencií. Zrolujeme do tvaru croissantu a odporúčam potrieť vajíčkom, budú pekné lesklé. Ja som nepotrela.",
+  "Piekla som na 180 stupňov cca 20 minút. Treba si sledovať."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "francúzske",
+  "kysnuté"
+ ]
 }

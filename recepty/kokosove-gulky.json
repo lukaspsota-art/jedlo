@@ -1,45 +1,126 @@
 {
-  "id": "kokosove-gulky",
-  "nazov": "Kokosové guľky",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "20 min",
-  "kcal_na_porciu": 205,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduché sladké kokosové guľky bez pečenia.",
-  "ingrediencie": [
-    {
-      "nazov": "Kokos strúh",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kondenzované mlieko",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokos strúh",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": "na obaľovanie"
-    }
-  ],
-  "postup": [
-    "Zmiešaj strúhaný kokos s kondenzovaným mliekom do hmoty.",
-    "Tvaruj malé guľôčky.",
-    "Obaľuj v strúhanom kokose.",
-    "Nechaj v chladničke aspoň 30 minút stuhnúť."
-  ],
-  "tipy": "Skvelý rýchly sladký snack bez pečenia.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "kokos",
-    "bez pečenia"
-  ]
+ "id": "kokosove-gulky",
+ "nazov": "Kokosové guľky",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Rezy s kokosovými guľkami (fotorecept) (autor: nikola166)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/rezy-s-kokosovymi-gulkami-fotorecept-/49244-recept.html",
+ "porcie": 24,
+ "cas": "90 min",
+ "kcal_na_porciu": 267,
+ "popis": "Recept pridávam hlavne kvôli cestu - je fakt výborné !! Na cesto sa môže natrieť krém podľa chuti.",
+ "ingrediencie": [
+  {
+   "nazov": "Kokos",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bielok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prašok do pečiva kypriaci",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Puding bez varenia vanilkový",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šľahačka v prášku",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Najprv si z uvedených surovín pripravíme kokosové guľky a vložíme ich do chladničky.",
+  "Maslo s cukrom vymiešame do peny, postupne pridávame tri celé vajcia a jeden bielok, ďalej múku zmiešanú s práškom do pečiva, mlieko a kyslú smotanu.",
+  "Rozdelíme na dve časti, do jednej pridáme kakao.",
+  "Svetlé cesto nalejeme na plech vystlaný papierom na pečenie a na to navrstvíme kakaové cesto.",
+  "Do cesta vtlačíme guličky a vložíme do vyhriatej rúry, pečieme cca 40 minút pri 180 °C.",
+  "Krém môžte spraviť aj klasický z masla, cukru a uvareného pudingu. Ja som spravila len jednoduchý z Olé pudingu a šľahačky.",
+  "Krém natrieme na vychladnutý koláč, ozdobíme kakaom alebo grankom, necháme trocha stuhnúť a krájame na kocky. Cesto je fakt veľmi dobré, vláčne, mäkkučké, odporúčam :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "kokos",
+  "bez pečenia"
+ ]
 }

@@ -1,64 +1,80 @@
 {
-  "id": "cestoviny-s-bravcovym-gulasom",
-  "nazov": "Cestoviny s bravčovým gulášom",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 574,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchle cestoviny zaliate zvyškovou alebo čerstvo pripravenou bravčovou gulášovou omáčkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Cestoviny",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová krkovička",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cibuľu nakrájaj a dusi na oleji dozlata.",
-    "Pridaj mäso nakrájané na kocky, opeč.",
-    "Vmiešaj papriku, podlej vodou a dus 25 minút do mäkka.",
-    "Cestoviny uvar podľa návodu na obale.",
-    "Zamiešaj cestoviny do gulášovej omáčky a podávaj."
-  ],
-  "tipy": "Skvelý spôsob, ako využiť zvyšný guláš z predošlého dňa.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "bravčové",
-    "slovenské"
-  ]
+ "id": "cestoviny-s-bravcovym-gulasom",
+ "nazov": "Cestoviny s bravčovým gulášom",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Toskánske cestoviny s bravčovou omáčkou (autor: marcelc)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/toskanske-cestoviny-s-bravcovou-omackou/51968-recept.html",
+ "porcie": 4,
+ "cas": "130 min",
+ "kcal_na_porciu": 305,
+ "popis": "Rýchle cestoviny zaliate zvyškovou alebo čerstvo pripravenou bravčovou gulášovou omáčkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčové mleté mäso",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stonkový zeler",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červené víno",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pyré paradajkové",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkové listy",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na oleji opražíme cibuľku, pridáme nadrobno nakrájanú mrkvu a zelerovú stonku a krátko spolu opražíme.",
+  "Do zeleninovej zmesi pridáme mäso a tiež opražíme do hneda. Podlejeme vínom a passatou (rozmixované paradajky), pridáme bobkové listy, soľ, mleté čierne korenie a varíme na miernom plameni cca 2 hod.",
+  "Pred podávaním samozrejme dochutíme. Výborne sa k tomu hodia linguine alebo iné široké cestoviny."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "bravčové",
+  "slovenské"
+ ]
 }

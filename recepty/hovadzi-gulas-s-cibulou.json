@@ -1,82 +1,109 @@
 {
-  "id": "hovadzi-gulas-s-cibulou",
-  "nazov": "Hovädzí guláš s cibuľou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 5,
-  "cas": "120 min",
-  "kcal_na_porciu": 523,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický pomaly dusený hovädzí guláš s veľkým množstvom cibule.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": "na guláš"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kmín",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cibuľu nakrájaj na drobno a na oleji dusi dozlata.",
-    "Pridaj mäso nakrájané na kocky a opeč zo všetkých strán.",
-    "Vmiešaj papriku, kmín a pretlačený cesnak.",
-    "Podlej vývarom a dus pod pokrievkou aspoň 90 minút do mäkka.",
-    "Dochuť soľou a korením."
-  ],
-  "tipy": "Guláš chutí ešte lepšie druhý deň zohriaty.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "hovädzie",
-    "guláš"
-  ]
+ "id": "hovadzi-gulas-s-cibulou",
+ "nazov": "Hovädzí guláš s cibuľou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Hovädzí guláš (autor: kucharocka123)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzi-gulas/93353-recept.html",
+ "porcie": 7,
+ "cas": "120 min",
+ "kcal_na_porciu": 399,
+ "popis": "Tip na chutný a sýty obed pre celú rodinu.",
+ "ingrediencie": [
+  {
+   "nazov": "Mäso hovädzie",
+   "mnozstvo": 750,
+   "jednotka": "g",
+   "poznamka": "nožina, zadné..."
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celá rasca",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená sladká mletá paprika",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený drvený majorán",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená hrubostenná paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzí vývar",
+   "mnozstvo": 1250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mäso umyjeme, osušíme a nakrájame na kocky.",
+  "Cibuľu a cesnak nakrájame nadrobno, papriku na prúžky a zemiaky na kocky.",
+  "Na dne hrnca rozohrejeme olej alebo roztopíme lyžicu masti, speníme nadrobno nasekanú cibuľu a cesnak, osolíme, okoreníme, primiešame prúžky papriky a krátko spolu orestujeme.",
+  "Do hrnca pridáme mäso, premiešame a opražíme zo všetkých strán, kým sa zatiahne. Posypeme rascou, pridáme mletú červenú papriku a restujeme ešte cca 3 minúty.",
+  "Následne zalejeme horúcim vývarom alebo vodou po úroveň mäsa, zakryjeme pokrievkou a na miernom stupni ohrevu dusíme cca 1,5 - 2 hodiny. Podľa potreby priebežne podlejeme trochou horúceho vývaru alebo vody.",
+  "Keď bude mäso mäkké, dolejeme zvyšný vývar, pridáme zemiaky a povaríme do ich zmäknutia.",
+  "Nakoniec zahustíme paradajkovým pretlakom, ochutíme majoránom, necháme 1-2 minúty prevrieť a odstavíme z platne.",
+  "Hovädzí guláš môžeme podávať s čerstvým chlebom. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "guláš"
+ ]
 }

@@ -1,80 +1,112 @@
 {
-  "id": "peri-peri-chicken",
-  "nazov": "Peri-Peri Chicken",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Portugalsko-africká",
-  "zdroj": "internet – adaptované (BBC Good Food)",
-  "porcie": 4,
-  "cas": "1 h",
-  "kcal_na_porciu": 490,
-  "popis": "Pálivé grilované kura v marináde z papričiek piri-piri, cesnaku a citróna.",
-  "ingrediencie": [
-    {
-      "nazov": "Červených čili",
-      "mnozstvo": 6,
-      "jednotka": "ks",
-      "poznamka": "4–8 podľa pálivosti"
-    },
-    {
-      "nazov": "Červená paprika",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "opečená a olúpaná"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 4,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "červený vínny ocot",
-      "mnozstvo": 60,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Údenej papriky",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "oregano",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Olivového oleja",
-      "mnozstvo": 60,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Celé kura rozpolené",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "spatchcock"
-    }
-  ],
-  "postup": [
-    "Všetky suroviny na marinádu rozmixuj dohladka.",
-    "Polovicu marinády vmasíruj do kuraťa a marinuj aspoň 2 h, ideálne cez noc. Druhú polovicu odlož na podávanie.",
-    "Peč alebo griluj pri 200 °C ~35–45 min, priebežne potieraj marinádou, kým vnútorná teplota nedosiahne 74 °C. Podávaj s odloženou omáčkou."
-  ],
-  "tipy": "Rozpolené kura (spatchcock) sa upečie rovnomernejšie a rýchlejšie.",
-  "foto": "",
-  "tagy": [
-    "portugalské",
-    "grilované",
-    "kuracie",
-    "pikantné"
-  ]
+ "id": "peri-peri-chicken",
+ "nazov": "Peri-Peri Chicken",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Portugalsko-africká",
+ "zdroj": "Varecha.sk – Orange chicken (autor: airama)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/orange-chicken/64381-recept.html",
+ "porcie": 3,
+ "cas": "15 min",
+ "kcal_na_porciu": 438,
+ "popis": "Veľmi chutná verzia kuraťa. Je troška nasládlé, ale chutí veľmi aj môjmu manželovi, ktorý teda sladké veľmi neoblubuje a hlavne je to veľmi jednoduchý recept.",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 2 ks"
+  },
+  {
+   "nazov": "Pomarančová kôra",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škrobová múčka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mäso očistíme, umyjeme, nakrájame na kocky, osolíme, okoreníme, pridáme 1 lyžicu múky a 2 lyžíce škrobovej múčky, obalíme, pridáme vajce a premiešame.",
+  "Mäso sprudka na slnečnicovom oleji smažíme dozlatista. Spojené mäso oddelíme. Po opečení mäso dáme na papierový obrúsok.",
+  "Na dalšej panvici osmažíme krátko na 2 lyžiciach slnečnicového oleja zázvor, cesnek, kôru z pomaranča (asi sekúnd). Pridáme vymačkanú šťavu z pomarančov i s dužinou.",
+  "1 dl vody premiešame s 1 lyžičkou škrobu a prilejeme do panvice. Zmes zhustne. Za stáleho miešania pridáme 6 lyžíc sójovej omáčky, 4 lyžice trstinového cukru. Necháme prejsť varom, v prípade potreby znovu dochutíme korením. Do zmesi pridáme mäso, obalíme, servírujeme s jasmínovou ryžou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "portugalské",
+  "grilované",
+  "kuracie",
+  "pikantné"
+ ]
 }

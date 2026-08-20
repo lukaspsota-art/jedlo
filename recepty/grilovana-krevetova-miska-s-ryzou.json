@@ -1,65 +1,94 @@
 {
-  "id": "grilovana-krevetova-miska-s-ryzou",
-  "nazov": "Grilovaná krevetová miska s ryžou a avokádom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Mexická",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "25 min",
-  "kcal_na_porciu": 512,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchla vyvážená miska s grilovanými krevetami, ryžou a avokádom.",
-  "ingrediencie": [
-    {
-      "nazov": "Krevety",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ryža",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Avokádo",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ryžu uvar podľa návodu na obale.",
-    "Krevety osoľ a opeč na oleji do ružova, asi 3-4 minúty z každej strany.",
-    "Avokádo nakrájaj na plátky.",
-    "Naservíruj ryžu, krevety a avokádo do misky.",
-    "Pokvapkaj limetkovou šťavou."
-  ],
-  "tipy": "Krevety sa varia rýchlo, ľahko sa prevaria a stanú sa gumovými.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "krevety",
-    "zdravé",
-    "rýchle"
-  ]
+ "id": "grilovana-krevetova-miska-s-ryzou",
+ "nazov": "Grilovaná krevetová miska s ryžou a avokádom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Mexická",
+ "zdroj": "Varecha.sk – Rýchla miska s krevetami, ryžou a vajíčkom (autor: Ryža SOS)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/rychla-miska-s-krevetami-ryzou-a-vajickom/83192-recept.html",
+ "porcie": 3,
+ "cas": "20 min",
+ "kcal_na_porciu": 409,
+ "popis": "Tento recept pre vás pripravila Lucka, Fitrecepty.\r\nRýchle jedlo plné chutí, ktoré je hotové do 20 minút.* Táto miska s krevetami, ryžou a vajíčkom učaruje všetkým, ktorí majú radi \r\nrôznorodé chute a morské plody. Vyskúšajte si pripraviť krevety v tejto horčicovo-medovej omáčke s čili, je skutočne vynikajúca! \r\nTešiť sa môžete aj na 45 g bielkovín na porciu.",
+ "ingrediencie": [
+  {
+   "nazov": "Ryža SOS Jasmine",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krevety",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčičné semienka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čili",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ryžu prepláchneme, zalejeme dvojnásobným objemom vody, zľahka osolíme a uvaríme do mäkka.",
+  "Vo woku alebo menšom hrnci na rozpálenom olivovom oleji orestujeme rozmrazené krevety. Miešame 2-3 minúty, potom pridáme horčicu, med, koreniny, trochu soli a restujeme ich približne 8 minút. Ak treba, podlejeme ich trochou vody.",
+  "Nepriľnavú panvicu zľahka postriekame olejom, rozbijeme na ne vajíčka a usmažíme ich na miernom plameni na spôsob volského oka.",
+  "Napokon do misky naservírujeme ryžu, krevety, vajíčka, paradajky a posypeme nasekanou pažítkou či inými bylinkami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "krevety",
+  "zdravé",
+  "rýchle"
+ ]
 }

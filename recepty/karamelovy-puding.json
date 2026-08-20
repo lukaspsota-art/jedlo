@@ -1,52 +1,82 @@
 {
-  "id": "karamelovy-puding",
-  "nazov": "Karamelový puding (crème caramel)",
-  "kategoria": "Dezert",
-  "kuchyna": "Francúzska",
-  "zdroj": "klasický recept",
-  "porcie": 6,
-  "cas": "60 min (+ chladenie)",
-  "kcal_na_porciu": 213,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický francúzsky vajíčkový puding s karamelom.",
-  "ingrediencie": [
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vanilkový extrakt",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Polovicu cukru rozpusti na miernom ohni na zlatý karamel, rozlej do formičiek.",
-    "Mlieko zohrej s vanilkovým extraktom.",
-    "Vajcia rozšľahaj so zvyšným cukrom, postupne prilievaj teplé mlieko.",
-    "Nalej do formičiek s karamelom.",
-    "Peč vo vodnom kúpeli pri 160 °C asi 40 minút, potom vychladiť v chladničke."
-  ],
-  "tipy": "Pred podávaním preklop formičky, aby karamel steklo navrch.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "puding",
-    "francúzske"
-  ]
+ "id": "karamelovy-puding",
+ "nazov": "Karamelový puding (crème caramel)",
+ "kategoria": "Dezert",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Karamelové pudingové rožky (autor: frommykitchendotcom)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/karamelove-pudingove-rozky/87246-recept.html",
+ "porcie": 8,
+ "cas": "10 min",
+ "kcal_na_porciu": 305,
+ "popis": "Klasický francúzsky vajíčkový puding s karamelom.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 220,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karamelový puding",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoláda biela",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karamelové sušienky",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "Spekulatius, Lotus"
+  }
+ ],
+ "postup": [
+  "V hlbšej miske zmiešame múku, práškový cukor, vanilkový cukor, karamelový pudingový prášok a všetky sypké suroviny premiešame.",
+  "Pridáme nakrájané maslo, mlieko a žĺtky. Rukami spracujeme cesto. Do chladu ho dávať nemusíte.",
+  "Z cesta formujeme rovnako veľké rožteky, ktoré ukladáme na plech s papierom na pečenie.",
+  "Pečieme vo vyhriatej rúre na 170 °C 10-12 minút.",
+  "Po vychladnutí konce rožtekov namočíme do rozpustenej bielej čokolády a ozdobíme rozmrvenými sušienkami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "puding",
+  "francúzske"
+ ]
 }

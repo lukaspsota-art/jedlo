@@ -1,81 +1,87 @@
 {
-  "id": "sosovicova-polievka",
-  "nazov": "Šošovicová polievka kyslá",
-  "kategoria": "Polievka",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "50 min",
-  "kcal_na_porciu": 290,
-  "popis": "Hustá kyslá šošovicová polievka so zápražkou a octom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hnedá šošovica",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bobkový list",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Šošovicu uvar s bobkovým listom domäkka.",
-    "Z masti a múky sprav zápražku, zamiešaj papriku a prelisovaný cesnak.",
-    "Zápražku rozšľahaj do polievky a povar do zhustnutia.",
-    "Dochuť soľou a octom podľa chuti."
-  ],
-  "tipy": "Šošovicu netreba namáčať, ale s namáčaním sa uvarí rýchlejšie a je ľahšie stráviteľná.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "polievka",
-    "strukoviny"
-  ],
-  "foto": ""
+ "id": "sosovicova-polievka",
+ "nazov": "Šošovicová polievka kyslá",
+ "kategoria": "Polievka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Šošovicová polievka na kyslo (autor: alica7)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sosovicova-polievka-na-kyslo/93474-recept.html",
+ "porcie": 8,
+ "cas": "60 min",
+ "kcal_na_porciu": 287,
+ "popis": "Hustá kyslá šošovicová polievka so zápražkou a octom.",
+ "ingrediencie": [
+  {
+   "nazov": "Hnedá šošovica",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 5,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 15,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údená klobása",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "V 1 litri vody varíme šošovicu a bobkový list do polomäkka asi 15 minút, pridáme zemiaky pokrájané na menšie kocky, soľ a trochu vody podľa potreby, varíme domäkka. Pred dovarením zemiakov môžeme pridať pokrájanú klobásu a dovaríme.",
+  "Pridáme asi 3 dl mlieka, povaríme, v zvyšnom rozmiešame múku, pridáme do polievky a varíme do zhustnutia, odstavíme.",
+  "Cesnak prelisujeme a chvíľku osmažíme na oleji, pridáme do polievky aj s olejom, dochutíme octom. Polievku podávame s chlebom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "polievka",
+  "strukoviny"
+ ]
 }

@@ -1,70 +1,93 @@
 {
-  "id": "tekvicovy-chlieb",
-  "nazov": "Tekvicový chlieb",
-  "kategoria": "Pečivo",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "65 min",
-  "kcal_na_porciu": 270,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jemne sladký vláčny chlebík s hokkaido tekvicou a korením.",
-  "ingrediencie": [
-    {
-      "nazov": "Hokkaido",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": "varená a rozmačkaná"
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prášok do pečiva",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Tekvicu uvar do mäkka a rozmačkaj na pyré.",
-    "Vyšľahaj vajcia s cukrom a olejom, vmiešaj tekvicové pyré.",
-    "Primiešaj múku, škoricu a prášok do pečiva.",
-    "Prelej do formy.",
-    "Peč pri 175 °C asi 45-50 minút."
-  ],
-  "tipy": "Skvelý jesenný chlebík, ktorý voní po celom dome.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "tekvica",
-    "jesenné"
-  ]
+ "id": "tekvicovy-chlieb",
+ "nazov": "Tekvicový chlieb",
+ "kategoria": "Pečivo",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Domáci tekvicový celozrný chlieb (autor: bejgi)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domaci-tekvicovy-celozrny-chlieb/24744-recept.html",
+ "porcie": 20,
+ "cas": "170 min",
+ "kcal_na_porciu": 157,
+ "popis": "Zistila som, že domáci chlieb, je naozajstný chlieb...chutí lepšie, vydrží dlhšie, nevyhadzuje sa pre plieseň a moju mamku z neho nepáli záha :)))",
+ "ingrediencie": [
+  {
+   "nazov": "Múka Farmhouse Bread",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špaldová celozrnná polohrubá múka",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celá racsa",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tekvicové semená lúpané",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej repkový lisovaný za studena",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlažná voda",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravím si kvások. Do misky dám menšie množstvo vlažnej vody rozdrobím do nej droždie s cukrom a nechám vykysnúť. Do väčšej misy dám múku, rascu, soľ, tekvicové jadrá, slnečnicové jadrá, olej, ocot a zbytok vody.",
+  "Po vykysnutí kvásku zalejem a vypracujem cesto, aby sa doň dostalo čo najviac vzduchu a z lepkavého sa stalo elastické cca 1/2 hodiny. Po vypracovaní cesta uložíme na teplé miesto, ja používam rýchlokysku a nechám odpočívať asi 1/2 dodiny.",
+  "Vykysnuté cesto prerežem na polovicu a vytvarujem z nich 2 bochníky, potriem slanou vodou a posypem tekvicovými semiačkami. Rúru predhrejem na 200 stupňov C na 10 min. a 40 min. na 180 stupňov C chlieb dopečiem. Na spodok rúry dám plech s vodou, aby sa chlieb piekol v pare. Počas pečenia ešte raz rozprašovačom zvlhčím slanou vodou, aby som získala chrumkavú kôrku. škoda len že nemám na pečenie chleba piecku, bol by ešte chutnejší .",
+  "Upečený cihlebík nechám vychladnúť a musím ustrážiť pre ulakomenie sa rodinných príslušníkov:))) Dobrú chuť !"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "tekvica",
+  "jesenné"
+ ]
 }

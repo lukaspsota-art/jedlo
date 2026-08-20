@@ -1,70 +1,63 @@
 {
-  "id": "cestoviny-so-spenatom-a-piniovymi-orieskami",
-  "nazov": "Cestoviny so špenátom a píniovými orieškami",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "20 min",
-  "kcal_na_porciu": 564,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduché cestoviny so zvädnutým špenátom, cesnakom a chrumkavými píniovými orieškami.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Špenát",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Píniové oriešky",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Na olivovom oleji opraž cesnak, pridaj špenát a nechaj zvädnúť.",
-    "Píniové oriešky krátko opraž nasucho do zlata.",
-    "Zamiešaj cestoviny so špenátom.",
-    "Posyp orieškami a parmezánom."
-  ],
-  "tipy": "Píniové oriešky sa rýchlo pripália, sleduj ich pozorne.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "špenát",
-    "talianske"
-  ]
+ "id": "cestoviny-so-spenatom-a-piniovymi-orieskami",
+ "nazov": "Cestoviny so špenátom a píniovými orieškami",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Domáce špenátové cestoviny (fotorecept) (autor: kukulienka71)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domace-spenatove-cestoviny-fotorecept/47408-recept.html",
+ "porcie": 2,
+ "cas": "85 min",
+ "kcal_na_porciu": 418,
+ "popis": "Ak vaše deti odmietajú špenátový prívarok, urobte im špenátové cestoviny rôznych druhov a plnené pirôžky,ktoré polejete maslom,alebo zavaríte do na to vhodnej polievky(rajčinovej,mäsovej,cibuľovej...)",
+ "ingrediencie": [
+  {
+   "nazov": "Špenátový list",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Špenátové listy paríme asi 3 minútky.",
+  "Dáme ich odkvapkať a pomelieme na mäsovom mlynčeku.V miske sme už mali múku pomiešanú s vajcom,soľou a vodou na cesto.",
+  "Vypracujeme polotuhé cesto",
+  "a rozvaľkáme na tenko strojčekom alebo aj ručne.",
+  "Cestá som porozkladala,aby sa trochu obsušili.",
+  "Radličkou som robila pásy cesta široké asi 3 cm.",
+  "lopatkou som oddeľovala jednotlivé kúsky cesta a dvoma prstami stlačila stred mašličky-farfalle",
+  "Z druhého cesta som robila slíže a nechala sušiť,bude dobré inokedy.",
+  "Ďalšie cesto som vykrajovala formičkou a plnila Bambino syrom(plnka môže byť aj bryndzová,mäsová apod.)",
+  "Naplnené pirôžky som na okraji dobre postláčala,aby plnka počas varenia nevytiekla.Cestoviny,každý druh zvlášť,varíme v osolenej vode,kým vyplávajú na povrch,scedíme a prepláchneme studenou vodou,necháme odkvapkať.Pirôžky môžeme dať aj zmraziť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "špenát",
+  "talianske"
+ ]
 }

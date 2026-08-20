@@ -1,64 +1,92 @@
 {
-  "id": "bravcovy-rezen-viedensky",
-  "nazov": "Bravčový rezeň viedenským spôsobom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Rakúska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 701,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický vyprážaný rezeň obalený v strúhanke.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčová krkovička",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Strúhanka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": "na vyprážanie"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso naklepi na tenké plátky, osoľ.",
-    "Obaľuj postupne v múke, rozšľahanom vajci a strúhanke.",
-    "Vyprážaj na rozohriatom oleji z oboch strán dozlata.",
-    "Nechaj odkvapkať na papierovej utierke.",
-    "Podávaj so zemiakovým šalátom alebo citrónom."
-  ],
-  "tipy": "Olej musí byť dostatočne horúci, inak rezeň nasiakne tukom.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "bravčové",
-    "rakúske"
-  ]
+ "id": "bravcovy-rezen-viedensky",
+ "nazov": "Bravčový rezeň viedenským spôsobom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Rakúska",
+ "zdroj": "Varecha.sk – Hliva na spôsob viedenského rezňa (fotorecept) (autor: izabella929)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/hliva-na-sposob-viedenskeho-rezna-fotorecept/57993-recept.html",
+ "porcie": 2,
+ "cas": "70 min",
+ "kcal_na_porciu": 438,
+ "popis": "Tento recept aj s týmto názvom som našla na jednej českej stránke..priznám sa, páči sa mi názov, ale teraz po vyskúšaní receptu, môžem iba potvrdiť,,,výborné,,..jednoduché, rýchle urobené a môžu sa prílohy meniť podľa chutí...",
+ "ingrediencie": [
+  {
+   "nazov": "Ustricová hliva",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiaková kaša",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Hlivy som poriadne umyla...",
+  "vložila do hrnca a zaliala vodou...pridala som štipku soli..",
+  "uvarenú hlivu som scedila a vyložila na dosku a nechala som ju vychladnúť..",
+  "zatiaľ som si pripravila suroviny na obaľovanie..do vajíčok som pridala štipku soli a mleté čierne korenie..",
+  "na panvicu som dala roztopiť bravčovú masť...",
+  "obalené hlivy som vyprážala..",
+  "vypražené som ukladala na kuchynský papier..",
+  "pokiaľ sa vyprážali hlivy, ošúpala som si zemiaky, umyla, pokrájala na malé kocky a v osolenej vode uvarila ...scedila som ich a pridala k nim maslo...keď sa maslo roztopilo, pridala som k nim aj smotanu a vyšľahala som hladkú kašu..",
+  "hotové jedlo som uložila na taniere , ozdobila zeleninou a podávala som s uhorkovým šalátom..prajem vám dobrú chuť.."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "rakúske"
+ ]
 }

@@ -1,77 +1,81 @@
 {
-  "id": "cicerove-fasirky",
-  "nazov": "Cícerové fašírky (falafel-style)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 290,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vegetariánske korenisté fašírky z cíceru, inšpirované falafelom.",
-  "ingrediencie": [
-    {
-      "nazov": "Cícer predvarený",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kmín",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": "na vyprážanie"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cícer, cibuľu, cesnak, petržlen a korenie rozmixuj na hrubšiu hmotu.",
-    "Vmiešaj múku, aby hmota držala tvar.",
-    "Vytvaruj menšie fašírky.",
-    "Opeč na oleji z oboch strán dozlata.",
-    "Podávaj s pita chlebom a jogurtovou omáčkou."
-  ],
-  "tipy": "Pre pečenú verziu peč pri 200 °C asi 20 minút namiesto vyprážania.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "vegetariánske",
-    "cícer",
-    "blízkovýchodné"
-  ]
+ "id": "cicerove-fasirky",
+ "nazov": "Cícerové fašírky (falafel-style)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Varecha.sk – Cícerové fašírky (autor: summerx)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cicerove-fasirky-/54021-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 341,
+ "popis": "Chcela som jesť na obed niečo ľahké a zeleninové, tak vzniklo toto:)",
+ "ingrediencie": [
+  {
+   "nazov": "Cícer namočený deň vopred",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaná mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené mleté vločky",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaný syr",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená sladká mletá paprika",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cícer si deň predtým namočíme do vody (alebo použijeme cícer z konzervy). Na druhý deň uvaríme s bobkovým listom asi pol hodinu. Vytvorí sa nám na povrchu taký biely povlak - ten lyžicou vyberieme aj s bobkovým listom. Zlejeme z vody, pomixujeme a necháme vychladnúť.",
+  "Nastrúhanú mrkvu, syr a vločky pomiešame, pridáme vajce, vychladnutý pomixovaný cícer, soľ, korenie a papriku.",
+  "Z hmoty tvarujeme fašírky, ktoré môžme vyprážať na panvici, alebo ako som to robila ja - piecť v rúre. Plech vystlieme papierom na pečenie, potrieme ho olejom, naukladáme fašírky, tie tiež potrieme olejom a dáme piecť na 200 stupňov asi 30min. Po 15 minútach fašírky preobrátime a pečieme ďaľších 15 minút. Dobrú chuť :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "vegetariánske",
+  "cícer",
+  "blízkovýchodné"
+ ]
 }

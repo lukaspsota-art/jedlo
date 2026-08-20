@@ -1,29 +1,44 @@
 {
-  "id": "snack-susene-ovocie",
-  "nazov": "Sušené ovocie",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 120,
-  "kcal_zdroj": "vypocet",
-  "popis": "Zmes sušeného ovocia (marhule, figy, hrozienka).",
-  "ingrediencie": [
-    {
-      "nazov": "Sušené ovocie",
-      "mnozstvo": 40,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Kúpené — odváž porciu a zjedz."
-  ],
-  "tipy": "Malá porcia — sušené ovocie je kalorické.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "kupované",
-    "ovocie"
-  ]
+ "id": "snack-susene-ovocie",
+ "nazov": "Sušené ovocie",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Sušené ovocie v mede (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/susene-ovocie-v-mede/30732-recept.html",
+ "porcie": 15,
+ "cas": "1 min",
+ "kcal_na_porciu": 201,
+ "popis": "Zmes sušeného ovocia (marhule, figy, hrozienka).",
+ "ingrediencie": [
+  {
+   "nazov": "Sušené ovocie",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "rôzne druhy"
+  }
+ ],
+ "postup": [
+  "Sušené ovocie zalejeme medom, počkáme, aby vyšiel všetok vzduch a znovu dolejeme med.",
+  "Výborná alternatíva tohto receptu je med zmiešaný s jablkovicou, ktorým sušené jablká zalejeme.",
+  "K sušenému ovociu môžeme primiešať aj rôzne druhy orechov."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "kupované",
+  "ovocie"
+ ]
 }

@@ -1,51 +1,70 @@
 {
-  "id": "karfiolove-pyre",
-  "nazov": "Karfiolové pyré",
-  "kategoria": "Príloha",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 123,
-  "kcal_zdroj": "vypocet",
-  "popis": "Nízkosacharidová náhrada zemiakovej kaše z karfiolu.",
-  "ingrediencie": [
-    {
-      "nazov": "Karfiol",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Karfiol rozober na ružičky a uvar do mäkka.",
-    "Scedi dôkladne.",
-    "Rozmixuj s maslom a smotanou dohladka.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Chuťovo prekvapivo pripomína zemiakovú kašu, no s menej sacharidmi.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "karfiol",
-    "nízkosacharidové"
-  ]
+ "id": "karfiolove-pyre",
+ "nazov": "Karfiolové pyré",
+ "kategoria": "Príloha",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Karfiolové pyré (fotorecept) (autor: stanci11)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/karfiolove-pyre-fotorecept/62239-recept.html",
+ "porcie": 1,
+ "cas": "15 min",
+ "kcal_na_porciu": 181,
+ "popis": "Veru aj keď mi delená strava strašne vyhovuje...niekedy už to chce ako prílohu aj niečo iné \r\nako nakrájanú zeleninku alebo šalátik...tak som si vymyslela takúto falošnú \"zemiakovú\" \r\nkašu :D a v hlavnej úlohe si zahral karfiol ;) Ak niekto vyskúšate takúto ľahšiu variantu \r\nprílohy určite dajte vedieť či chutilo :)",
+ "ingrediencie": [
+  {
+   "nazov": "Karfiol",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ako prvé som si dala variť karfiol...do mierne slanej vody a nakrájaný na menšie kúsky..nech to netrvá večnosť :D A popri tom som si nakrájala cibuľku a orestovala ju na troške oleja..",
+  "Keď bol karfiol mäkší, prehodila som ho na cibuľku a poopekala trošku dohromady. Po chvíľke som ho málinko podliala vodou v ktorej sa varil a dodusila do mäkka (resp. tak do mäkka aby mi nezabil tyčový mixér keď ich skamarátim)",
+  "Kastrólik som nachvíľku strčila ku oknu aby mierne ochladil a potom som to celé vymixovala tyčákom ;)... ak budete niekto skúšať - pri dusení sa vám určite odparí časť vody, navrhujem nedolievať ale rozmixovať to a potom si eventuálne zriediť na požadovanú konzistenciu...už sa mi to totiž podarilo prehnať a vznikla omáčka na cestoviny :D ako nie zlá, ale nebolo to to, čo som chcela stvoriť :D",
+  "Zmixovanú zmes som vrátila nad plameň, priliala asi 2PL vývaru z karfiolu a lahôdkové droždie (urobí taký \"syrový\" nádych :) )... a vymiešala som to varechou kým sa droždie pekne nespojilo s karfiolovou hmotou...",
+  "Na záver som pyré osolila, okorenila mlčkom a po odstavení z ohňa som primiešala lyžicu horčice, ktorá tomu dodala príjemnú ostrosť....a servírovanie? ako príloha k mäsku (u mňa trošku liznutému plameňom očividne :D) ...najúžasnejšia na tomto pyré je jednoduchosť a fakt bombová chuť,,,a vlastne samotný záver, lebo vlk (ja) sa nažral a koza (delená strava) ostala celá :D :D"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "karfiol",
+  "nízkosacharidové"
+ ]
 }

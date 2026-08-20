@@ -1,82 +1,92 @@
 {
-  "id": "morciacie-fasirky-v-paradajkovej-omacke",
-  "nazov": "Morčacie fašírky v paradajkovej omáčke",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 258,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ľahké morčacie fašírky dusené v domácej paradajkovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Morčacie mäso",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "mleté"
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Strúhanka",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 5,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zmiešaj mleté mäso, vajce, nadrobno pokrájanú cibuľu, strúhanku, soľ a korenie.",
-    "Vytvaruj menšie fašírky.",
-    "V hrnci priprav paradajkovú omáčku z paradajok, pretlačeného cesnaku a bazalky.",
-    "Fašírky vlož do omáčky a dus pod pokrievkou 20 minút.",
-    "Podávaj s cestovinami alebo ryžou."
-  ],
-  "tipy": "Fašírky sa dajú pripraviť aj z mletého kuracieho mäsa.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "morčacie",
-    "fašírky"
-  ]
+ "id": "morciacie-fasirky-v-paradajkovej-omacke",
+ "nazov": "Morčacie fašírky v paradajkovej omáčke",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Morčacie fašírky pečené v rúre (autor: stoja)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-fasirky-pecene-v-rure/84133-recept.html",
+ "porcie": 4,
+ "cas": "50 min",
+ "kcal_na_porciu": 295,
+ "popis": "Zdravšia verzia klasických vyprážaných bravčových fašírok.",
+ "ingrediencie": [
+  {
+   "nazov": "Mäso morčacie",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majorán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvená rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do misky dáme mleté morčacie mäso, pridáme nadrobno nakrájanú cibuľu, prelisovaný cesnak, vajcia, strúhanku na zahustenie, vegetu alebo soľ, majorán, čierne mleté korenie, rascu drvenú, nakrájanú petržlenovú vňať (ale nemusí byť) a trochu olivového oleja. Všetko dobre premiešame.",
+  "Z mäsovej zmesi formujeme fašírky a ukladáme na plech s papierom na pečenie. Fašírky pofŕkame pred pečením olivovým olejom a dáme piecť na približne 30 minút do rúry vyhriatej na 200 stupňov.",
+  "Morčacie fašírky podávame so zeleninovým šalátom alebo zemiakovou kašou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "morčacie",
+  "fašírky"
+ ]
 }

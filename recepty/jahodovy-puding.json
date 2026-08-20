@@ -1,52 +1,99 @@
 {
-  "id": "jahodovy-puding",
-  "nazov": "Jahodový puding",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "20 min (+ chladenie)",
-  "kcal_na_porciu": 189,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jemný domáci puding s jahodovou príchuťou.",
-  "ingrediencie": [
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jahody",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vanilkový puding",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": "práškový"
-    }
-  ],
-  "postup": [
-    "Jahody rozmixuj na pyré.",
-    "Časť mlieka rozmiešaj s práškovým pudingom do hladka.",
-    "Zvyšné mlieko s cukrom priveď k varu, vmiešaj rozmiešaný puding a jahodové pyré.",
-    "Var 2 minúty za stáleho miešania.",
-    "Rozlej do pohárov, nechaj vychladnúť."
-  ],
-  "tipy": "Ozdob čerstvými jahodami pred podávaním.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "puding",
-    "jahody"
-  ]
+ "id": "jahodovy-puding",
+ "nazov": "Jahodový puding",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pudingový koláč s jahodami (fotorecept) (autor: olinecka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pudingovy-kolac-s-jahodami-fotorecept/80483-recept.html",
+ "porcie": 10,
+ "cas": "65 min",
+ "kcal_na_porciu": 389,
+ "popis": "Jednoduchá príprava, ktorú zvládne aj \r\nzačiatočník. Koláčik vhodný na každú \r\npríležitosť alebo len tak.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 260,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 260,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahody",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo ovocie podľa sezóny"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 350,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový puding",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vajíčka s cukrom kryštálovým vyšľaháme do penista. Postupne striedavo pridáme vlažnú vodu a olej. Múku preosejeme spojíme s práškom do pečiva a zľahka vmiešame do cesta. Plech 25x35 cm vymastíme maslom a vysypeme múkou.",
+  "V mlieku s cukrom uvaríme vanilkový puding. Jahody očistíme a necháme odkvapkať. Cesto vylejeme na pripravený plech. Jahody obalíme v troche múky a rozložíme na cesto.",
+  "Do medzier medzi ovocie pomocou lyžice dáme kôpky pudingu.",
+  "Rúru predhrejeme na 180 stupňov a pečieme 20 - 25 minút do zlatista. Po vychladnutí posypeme práškovým cukrom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "puding",
+  "jahody"
+ ]
 }

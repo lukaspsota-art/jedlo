@@ -1,0 +1,56 @@
+{
+ "id": "a-midsummernight-dream",
+ "nazov": "A midsummernight dream",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – A midsummernight dream",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/15675",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 252,
+ "popis": "Ordinary Drink · Collins Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kirsch",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahodový likér",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahody",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Schweppes Russchian",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Jahody rozmixujeme v mixéri.",
+  "Prelejeme spolu s vodkou, kirschom a jahodovým likérom do šejkra s ľadom.",
+  "Poriadne pretrepeme a nalejeme do vysokého pohára.",
+  "Dolejeme perlivou vodou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

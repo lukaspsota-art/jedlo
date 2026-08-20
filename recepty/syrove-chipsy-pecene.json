@@ -1,33 +1,60 @@
 {
-  "id": "syrove-chipsy-pecene",
-  "nazov": "Syrové chipsy pečené",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 150,
-  "kcal_zdroj": "vypocet",
-  "popis": "Chrumkavé nízkosacharidové chipsy upečené zo strúhaného syra.",
-  "ingrediencie": [
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    }
-  ],
-  "postup": [
-    "Strúhaný syr rozlož na plech vyložený papierom na pečenie po malých kôpkach.",
-    "Rozplošti do tenkých kotúčikov.",
-    "Peč pri 190 °C asi 6-8 minút do zlatista.",
-    "Nechaj vychladnúť — vtedy skrehnú."
-  ],
-  "tipy": "Skvelá nízkosacharidová alternatíva ku klasickým chipsom.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "syr",
-    "nízkosacharidové"
-  ]
+ "id": "syrove-chipsy-pecene",
+ "nazov": "Syrové chipsy pečené",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pečený syr (fotorecept) (autor: elisticka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/peceny-syr-fotorecept/33712-recept.html",
+ "porcie": 6,
+ "cas": "30 min",
+ "kcal_na_porciu": 158,
+ "popis": "Kúpila som si misky na zapekanie, a tak som ich chcela vyskúšať ..a zapekaný syr tu na \r\nvareche ešte nemáme tak ho pridávam .. neskoro som sa rozhodla že budem fotiť, ale \r\nzachytila som to hlavné.",
+ "ingrediencie": [
+  {
+   "nazov": "Tvrdý sýr",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na vymastenie"
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na vysypanie"
+  }
+ ],
+ "postup": [
+  "ako prvé som si vymazala misky maslom a vysypala strúhankou .potom som postrúhala syr a aj šunku",
+  "na dno misiek som nasypala syr a na to som pridala šunku",
+  "do každej porcie som rozbila jedno vajce",
+  "ja som si žltko zozpučila aby bolo po celej šunke a na vajce zas ide šunka",
+  "a nakoniec zakryjeme syrom",
+  "do pekáča dáme vodu asi do polovice misiek a dáme piecť na 230-250 st asi 20 minút do ružova",
+  "a takto krásne vyzerá upečený sýr .. ja som zvolila prílohu varené zemiaky a tatárku ale výborné by to bolo s hranolkami ..dobrú chuť !"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "syr",
+  "nízkosacharidové"
+ ]
 }

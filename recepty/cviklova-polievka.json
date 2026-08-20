@@ -1,57 +1,98 @@
 {
-  "id": "cviklova-polievka",
-  "nazov": "Cviklová polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 99,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchá vegetariánska polievka z cvikly.",
-  "ingrediencie": [
-    {
-      "nazov": "Červená repa",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 700,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Repu ošúp a nastrúhaj alebo nakrájaj na kocky.",
-    "Na oleji opraž cibuľu, pridaj repu a vývar.",
-    "Var 20 minút do mäkka.",
-    "Rozmixuj dohladka, vmiešaj smotanu a dochuť soľou."
-  ],
-  "tipy": "Krásna sýta ružová farba poteší aj oko.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "cvikla",
-    "vegetariánske"
-  ]
+ "id": "cviklova-polievka",
+ "nazov": "Cviklová polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Cviklová polievka (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cviklova-polievka/31870-recept.html",
+ "porcie": 4,
+ "cas": "35 min",
+ "kcal_na_porciu": 125,
+ "popis": "Jednoduchá vegetariánska polievka z cvikly.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cvikla",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červené víno",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá sladká paprika",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čili paprička sušená",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté čerstvé korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na ozdobu"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cibuľu, cesnak a papriku pokrájame na malé kúsky. Cviklu pokrájame na malé kolieska alebo dlhšie pásiky.",
+  "Pomaly skaramelizujeme cibuľu aj cesnak. Pridáme rascu, cviklu a jemným miešaním opražíme. Pridáme mletú aj sušenú papriku, premiešame a hneď pridáme čerstvú papriku. Po minúte zalejeme vínom a podľa potreby aj vodou. Cvikla by mala byť uvarená, ale ešte stále trochu chrumkavá. Podľa chuti osolíme a okoreníme.",
+  "Podávame s kopčekom kyslej smotany."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "cvikla",
+  "vegetariánske"
+ ]
 }

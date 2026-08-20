@@ -1,29 +1,130 @@
 {
-  "id": "snack-cerealna-tycinka",
-  "nazov": "Cereálna tyčinka",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 100,
-  "kcal_zdroj": "vypocet",
-  "popis": "Balená cereálna tyčinka.",
-  "ingrediencie": [
-    {
-      "nazov": "Cereálna tyčinka",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    }
-  ],
-  "postup": [
-    "Rozbaľ a zjedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "kúpené",
-    "kupované"
-  ]
+ "id": "snack-cerealna-tycinka",
+ "nazov": "Cereálna tyčinka",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Cereálne tyčinky (autor: niks)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cerealne-tycinky/52663-recept.html",
+ "porcie": 16,
+ "cas": "135 min",
+ "kcal_na_porciu": 224,
+ "popis": "Sú lepšie ako z obchodu.",
+ "ingrediencie": [
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ražná celozrnná hladká múka",
+   "mnozstvo": 75,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 75,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené figy",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené marhule",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené brusnice",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandle",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Marhuľový džem",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Sušené ovocie prepláchneme v teplej vode a pokrájame na malé kúsky.",
+  "Mandle a slnečnicové semiačka zomelieme.Pridáme mlieko,med,džem a spojíme.",
+  "Ovsená masa: Do roztopeného masla pridáme všetky suroviny.",
+  "Spracujeme cesto,ktoré rovnomerne rozložíme na plech o veľkosti 28x22 cm,vyložený papierom na pečenie.Na ovsenú masu rozložíme ovocnú náplň a jemne popritláčame.Posypeme orechami.Pečieme.",
+  "Cereálne tyčinky: Upečený vychladnutý plát pokrájame na tyčinky. Pokvapkáme roztopenou čokoládou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "kúpené",
+  "kupované"
+ ]
 }

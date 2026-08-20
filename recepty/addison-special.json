@@ -1,0 +1,43 @@
+{
+ "id": "addison-special",
+ "nazov": "Addison Special",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Addison Special",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/14272",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 128,
+ "popis": "Cocktail · Old-fashioned glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Grenadína",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ingrediencie dáme do šejkra v uvedenom poradí.",
+  "Do polovice naplníme ľadom a poriadne pretrepeme.",
+  "Precedíme do pohára s ľadom a ozdobíme višňou a klinčekom pomaranča."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

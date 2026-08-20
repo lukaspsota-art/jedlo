@@ -1,57 +1,80 @@
 {
-  "id": "cicerove-placky-snack",
-  "nazov": "Cícerové placky (snack verzia)",
-  "kategoria": "Snack",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 167,
-  "kcal_zdroj": "vypocet",
-  "popis": "Menšie pečené cícerové placky, skvelé ako zdravý snack alebo desiata.",
-  "ingrediencie": [
-    {
-      "nazov": "Cícer predvarený",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kmín",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cícer rozmixuj s pretlačeným cesnakom a korením na hrubšiu pastu.",
-    "Tvaruj malé placky.",
-    "Ulož na plech vyložený papierom na pečenie.",
-    "Peč pri 200 °C asi 20 minút, v polovici obráť."
-  ],
-  "tipy": "Skvelý proteínový snack aj do lunchboxu.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "cícer",
-    "zdravé"
-  ]
+ "id": "cicerove-placky-snack",
+ "nazov": "Cícerové placky (snack verzia)",
+ "kategoria": "Snack",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Varecha.sk – Cícerové placky (autor: alica7)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cicerove-placky/93882-recept.html",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 174,
+ "popis": "Menšie pečené cícerové placky, skvelé ako zdravý snack alebo desiata.",
+ "ingrediencie": [
+  {
+   "nazov": "Sterilizovaný cícer",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie gyros",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "trocha"
+  }
+ ],
+ "postup": [
+  "Scedený sterilizovaný cícer, ošúpaný nadrobno pokrájaný zemiak a cesnak, olej a vajce spolu rozmixujeme, primiešame strúhanku, korenie gyros a soľ.",
+  "Na malom množstve oleja strednej teploty smažíme menšie hrubšie placky z oboch strán.",
+  "Podávame s kyslou smotanou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "cícer",
+  "zdravé"
+ ]
 }

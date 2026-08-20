@@ -1,0 +1,54 @@
+{
+ "id": "frose",
+ "nazov": "Frosé",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Frosé",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/178352",
+ "porcie": 2,
+ "cas": "5 min",
+ "kcal_na_porciu": 286,
+ "popis": "Cocktail · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Rose",
+   "mnozstvo": 750,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahody",
+   "mnozstvo": 236.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ružové víno nalejeme do plochej nádoby a dáme mraziť aspoň 6 hodín (kvôli alkoholu úplne nestuhne).",
+  "Medzitým v kastróle privedieme k varu cukor so 120 ml vody a za stáleho miešania varíme asi 3 minúty, kým sa cukor nerozpustí.",
+  "Pridáme jahody, odstavíme a necháme 30 minút lúhovať.",
+  "Precedíme cez jemné sitko do misky (jahody netlačíme) a necháme vychladiť.",
+  "Zmrazené víno vyškrabeme do mixéra.",
+  "Pridáme citrónovú šťavu, asi 100 ml jahodového sirupu a šálku drveného ľadu a rozmixujeme do hladka.",
+  "Nádobu mixéra dáme na 25–35 minút do mrazničky, kým zmes nezhustne.",
+  "Znovu krátko rozmixujeme a rozdelíme do pohárov."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

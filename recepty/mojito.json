@@ -1,0 +1,56 @@
+{
+ "id": "mojito",
+ "nazov": "Mojito",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Mojito",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11000",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 212,
+ "popis": "Cocktail · Highball glass",
+ "ingrediencie": [
+  {
+   "nazov": "Rum",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sóda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Listy mäty rozmačkáme s cukrom a limetkovou šťavou.",
+  "Pridáme trochu sódy a pohár naplníme drveným ľadom.",
+  "Nalejeme rum a dolejeme sódou.",
+  "Ozdobíme a podávame so slamkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

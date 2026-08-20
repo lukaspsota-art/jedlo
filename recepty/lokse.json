@@ -1,52 +1,51 @@
 {
-  "id": "lokse",
-  "nazov": "Lokše",
-  "kategoria": "Príloha",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 6,
-  "cas": "45 min",
-  "kcal_na_porciu": 180,
-  "popis": "Tenké zemiakové placky pečené nasucho — príloha k hydine aj husacine.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": "uvarené v šupke"
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": "na potretie"
-    }
-  ],
-  "postup": [
-    "Uvarené zemiaky ošúp a popučí ešte teplé.",
-    "Pridaj múku a soľ, spracuj na cesto a rozdeľ na guľky.",
-    "Každú rozvaľkaj natenko na kruh.",
-    "Peč nasucho na horúcej panvici z oboch strán, kým sa neobjavia hnedé fľaky.",
-    "Hotové lokše potri masťou a udržuj prikryté, aby zmäkli."
-  ],
-  "tipy": "Cesto vaľkaj čo najtenšie. Podávaj slané k mäsu alebo sladké s makom a cukrom.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "zemiaky",
-    "príloha"
-  ],
-  "foto": ""
+ "id": "lokse",
+ "nazov": "Lokše",
+ "kategoria": "Príloha",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Lokše (autor: alica7)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/lokse/92875-recept.html",
+ "porcie": 8,
+ "cas": "45 min",
+ "kcal_na_porciu": 169,
+ "popis": "Mäkučké lokše môžete naplniť sladkou aj slanou plnkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 900,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 9,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zemiaky uvaríme v šupke domäkka. Vychladnuté ošúpeme, postrúhame najemno alebo prelisujeme. Pridáme 180 g preosiatej múky a soľ. Vypracujeme elastické cesto, ktoré necháme asi 15 minút postáť.",
+  "Ak sa cesto lepí, pridáme múku podľa potreby. Cesto rozdelíme na 9 častí, urobíme z nich guľky, pomúčime a rozvaľkáme do kruhu s priemerom 22 cm a hrúbkou asi 2 mm.",
+  "Lokše opečieme na zohriatej panvici nasucho z oboch strán. Panvicu vždy po každej lokši nasucho očistíme od múky. Hotové teplé lokše postupne ukladáme na seba a zvrchu potierame roztopenou masťou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "zemiaky",
+  "príloha"
+ ]
 }

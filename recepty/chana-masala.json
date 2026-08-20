@@ -1,102 +1,168 @@
 {
-  "id": "chana-masala",
-  "nazov": "Chana Masala",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Indická",
-  "zdroj": "internet – adaptované (BBC Good Food)",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 380,
-  "popis": "Cícer v korenistej paradajkovej omáčke — sýte vegánske indické jedlo.",
-  "ingrediencie": [
-    {
-      "nazov": "Cíceru z konzervy",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": "2× 400 g"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 3,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Kúsok zázvoru",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Čili",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "konzervované paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "rasca",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "koriander",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "garam masala",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Kurkumy",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Papriky",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Citróna",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Koriander",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž rascu, pridaj cibuľu, cesnak, zázvor a čili, opeč domäkka.",
-    "Pridaj koreniny a paradajky, duste 10 min dohusta.",
-    "Vmiešaj cícer a trochu vody, duste 15 min. Dochuť citrónom a soľou, posyp koriandrom. Podávaj s ryžou."
-  ],
-  "tipy": "Trochu cícera roztlač — omáčka bude hustejšia a krémovejšia.",
-  "foto": "",
-  "tagy": [
-    "indické",
-    "vegánske",
-    "cícer"
-  ]
+ "id": "chana-masala",
+ "nazov": "Chana Masala",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Indická",
+ "zdroj": "Varecha.sk – Chana masala (fotorecept) (autor: stanci11)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/chana-masala-fotorecept/62601-recept.html",
+ "porcie": 2,
+ "cas": "50 min",
+ "kcal_na_porciu": 313,
+ "popis": "Nedávno pri obede som si povedala páni toto je šupa :D tak hneď čo čas dovolil som si \r\nspravila repete a nafotila \r\npostup nech ho môžem posunúť ďalej ;) ide o indickú cizrnu v červenej omáčke s \r\nčerstvým koriandrom...no idem sa \r\nzblázniť aké je to dobré :D recept som vykutrala na blogu karizona a už som aj do práce \r\nmusela doniesť načarbaný \r\npostup :D",
+ "ingrediencie": [
+  {
+   "nazov": "Cícer",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 9,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinná smotana",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli papričky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kurkuma",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca rímska",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletý koriander",
+   "mnozstvo": 0.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvý koriander",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Garam masala",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté chilli",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 0.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špaldová celozrnná múka",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Garam masala",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Neľakajte sa toho šialeného počtu surovín :) S indickými koreninami sa treba vyhrať ... a je to rozhodne lepšie a zdravšie ako soliť do nemoty :)",
+  "Začala som tým že som do tlakového hrnca šupla cícer (namočený cez noc). Od získania správneho tlaku som ho varila presne 15 minút. Takto je uvarený takpovediac al dente a dá sa s ním ešte ďalej pracovať bez rozvarenia. Po uvarení som ho scedila a vodu v ktorej savaril som si odložila bokom.",
+  "V medzičase som si nasekala strúčiky cesnaku, kúsok zázvoru a sušené chilli papričky na drobno. Strčila som ich do mixéra a zasypala štedro čerstvým koriandrom. Prikvapla som málinko oleja a mixovala kým sa to trochu nepodobalo takej hrubšej paste :)",
+  "Vo woku som si rozohriala oheň a vsypala pol lyžičky rímskeho kmínu (ako na potvoru mi došiel celý, tak som to riskla s mletým a účel splnilo ) ...restujete kým nerozvonia,,,ten mletý teda rozvonia samozrejme hneď :D Na kmín som prihodila nadrobno nakrájanú cibuľku a restovala do zlata.",
+  "Následne som ku cibuľke pridala vytvorenú pastu a restovala spolu tak 2-3 minútky. Dôležité je stále miešať aby sa neprichytila.",
+  "Potom nasledovali: 1/2ČL kurkumy a pol lyžice mletého koriandru. A opäť 1-2 minútky restovania.",
+  "Na vytvorený základ putoval odcedený cícer. Spolu som to premiešala a podliala vodou v ktorej sa varil. Vzápätí som vmiešala aj jeden malý paradajkový pretlak...Táto zmes potrebuje takých 10-15 minút spolu pomaličky prebublávať...samozrejme, keď sa mi odparila voda priliala som zase vývar z cíceru...",
+  "Popri tomto všetkom som si zarobila cesto na chapati - jednoducho špaldovú múku som vymiešala s málinko olejom, soľou, mletým čierným korením a garam masalou. Vodu som prilievala opatrne za miešania, tak aby bolo cesto skôr tuhšieho charakteru. Najlepšie je, keď sa cesto pripraví na začiatku a nechá postáť, ale ja som zabudla že chcem placku :D tak som piekla hneď po miesení ale teda spolupracovala krásne. Inak, vyvaľkala som ju na troške múky na veľkosť mojej platničky..hrúbka tak 3 mm odhadujem.",
+  "Placku som preniesla na rozpálenú platničku, ale predtým som ju pár krát prehodila v rukách, aby som otriasla múku a nehorela mi tam ...",
+  "A pečenie chapati? No čo vám poviem, zabublala si, ponadúvala sa, a keď začala byť z jednej strany chrumkavá prehodila som ju na druhý bok... vybublance som vždy jemne utierkou zatlačila nazad... Po upečení som ju nachvílu zabalila do utierky, aby sa \"uvoľnila\" :D",
+  "Pri pečení placky som do masaly pridala ešte 50 ml ryžovej smotany na zjemnenie (ale nemusí byť) a prevarila som to ešte tak minútku.",
+  "Celú zmes som odstavila zo sporáka, a vmiešala citrónovú šťavu, garam masalu a zľahka aj štipku soli...mne sa to zdalo už dosť pikantné, ale dá sa ešte pritvrdiť a použiť mleté chilli takto na záver ;) Nuž, a po dôkladnom premiešaní bolo dielo dokonané :)",
+  "Ja som teda servírovala s chapati, ale určite by bola super aj ryža. V každom prípade preveľmi odporúčam vyskúšať, fakt to stojí zato ;) Ja som rada že som uvarila len jednu porciu, lebo inak by som sa asi nezastavila a vyjedla celý hrniec :D"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "indické",
+  "vegánske",
+  "cícer"
+ ]
 }

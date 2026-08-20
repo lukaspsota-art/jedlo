@@ -1,57 +1,78 @@
 {
-  "id": "natierka-z-fazule-a-cesnaku",
-  "nazov": "Nátierka z bielej fazule a cesnaku",
-  "kategoria": "Nátierka",
-  "kuchyna": "Stredomorská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 170,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová nátierka z bielej fazule, podobná hummusu.",
-  "ingrediencie": [
-    {
-      "nazov": "Biele fazule",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 35,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Fazule scedi a prepláchni.",
-    "Rozmixuj s pretlačeným cesnakom, olivovým olejom a citrónovou šťavou.",
-    "Dochuť soľou.",
-    "Podávaj s pečivom."
-  ],
-  "tipy": "Ľahšia alternatíva klasického cícerového hummusu.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "fazuľa",
-    "vegetariánske"
-  ]
+ "id": "natierka-z-fazule-a-cesnaku",
+ "nazov": "Nátierka z bielej fazule a cesnaku",
+ "kategoria": "Nátierka",
+ "kuchyna": "Stredomorská",
+ "zdroj": "Varecha.sk – Nátierka z bielej fazule a pečenej papriky (fotorecept) (autor: zuzanka1367)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/natierka-z-bielej-fazule-a-pecenej-papriky-fotorecept/54413-recept.html",
+ "porcie": 4,
+ "cas": "90 min",
+ "kcal_na_porciu": 197,
+ "popis": "Inšpirácia z blogu Lylli-cool, kedže som sa chystala robiť ajvar, tak som jednou cestou \r\nupiekla papriky aj na nátierku, nenáročná na suroviny, prekvapivá chuťou",
+ "ingrediencie": [
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Fazuľa biela",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamová pasta",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 3,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Feferónky",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej zo sušených paradajok",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "štipka čerstvo mleté"
+  }
+ ],
+ "postup": [
+  "Fazuľu deň vopred namočíme a osolíme,pridáme bobkový list a uvaríme do mäkka. Ak sa Vám nechce variť, tak môžete použiť aj konzervu v slanom náleve. Množstva papriky sa nezľaknite, väčšina pôjde na ajvar aj feferónov je viac ako v návode, ale ja pikantné ľúbim :)",
+  "Papriku poukladáme na plech vystlaný papierom na pečenie a v rúre vyhriatej na 200st. pečieme 35-40 minút, pokým nemá čierne pľuzgiere...papriku zabalíme do fólie a necháme spariť, aby sa dobre šúpala z kože. Po očistení papriky Vám z nej ostane asi 250-300 g.",
+  "Fazuľu scedíme, pridáme kože zbavené papriky, nakrájané feferóny a sušené paradajky, sezamovú pastu, olej, soľ a korenie..",
+  "Premiešame a rozmixujeme...",
+  "K tejto nátierke sa priam žiada nejaké čerstvé pečivo a tak si podľa jedného z mnohých skvelých receptov pripravíme bagety...Skúsila som celozrnné s trochou semienok.",
+  "Nakysnuté ich do chrumkava upečieme v horúcej rúre.",
+  "A tu už len odmena za vykonanú prácu. Ak vyskúšate budem rada ak Vám bude chutiť. Pekný večer Vám..."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "fazuľa",
+  "vegetariánske"
+ ]
 }

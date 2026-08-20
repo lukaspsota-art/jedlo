@@ -1,56 +1,49 @@
 {
-  "id": "kokosovo-limetkovy-napoj",
-  "nazov": "Kokosovo-limetkový nápoj",
-  "kategoria": "Nápoj",
-  "kuchyna": "Karibská",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "5 min",
-  "kcal_na_porciu": 230,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúci tropický nápoj z kokosového mlieka a limetky.",
-  "ingrediencie": [
-    {
-      "nazov": "Kokosové mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zmiešaj kokosové mlieko, limetkovú šťavu a med.",
-    "Dolej vodou podľa chuti na hustotu.",
-    "Podávaj s ľadom."
-  ],
-  "tipy": "Skvelý osviežujúci letný nápoj bez alkoholu.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "kokos",
-    "letné"
-  ]
+ "id": "kokosovo-limetkovy-napoj",
+ "nazov": "Kokosovo-limetkový nápoj",
+ "kategoria": "Nápoj",
+ "kuchyna": "Karibská",
+ "zdroj": "Varecha.sk – Kokosový nápoj s limetkou (fotorecept) (autor: kukulienka71)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kokosovy-napoj-s-limetkou-fotorecept/64192-recept.html",
+ "porcie": 2,
+ "cas": "10 min",
+ "popis": "Osviežujúci letný drink bez alkoholu je na sparný deň ako stvorený. Inšpiráciu na tento \r\nsom našla v malej mexickej \r\nkuchárke.",
+ "ingrediencie": [
+  {
+   "nazov": "Kokosové nesladené mlieko",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovocný džús",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "mango, papája, guava, machovka, prípadne multivitamín"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "drť alebo kocky"
+  }
+ ],
+ "postup": [
+  "Naschvál som písala diely, lebo pôvodne to mali byť hrnčeky, ale ja som mala len malú konzervu kokosového mlieka, od neho sa odvíjali potom aj množstvá ostatných surovín. Limetkovú šťavu pridajte podľa chuti, ak by jej bolo veľa, doslaďte nápoj podľa potreby trstinovým cukrom alebo medom.",
+  "Do stolového mixéra som naliala premiešané kokosové mlieko, limetkovú šťavu a džús, pridala som pár ľadových kociek a všetko poriadne premixovala. Dostala som napenený nápoj. Kokosové mlieko má tendenciu oddeľovať sa, vtedy stačí podávaný nápoj premiešať slamkou či lyžičkou.",
+  "Okraje pohárov som namočila v mede a kokosovej múčke. Je to veľmi chutný nápoj, nabudúce z neho určite pripravím viac."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "kokos",
+  "letné"
+ ]
 }

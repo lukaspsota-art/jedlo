@@ -1,56 +1,86 @@
 {
-  "id": "syrova-natierka-s-cesnakom-a-bylinkami",
-  "nazov": "Syrová nátierka s cesnakom a bylinkami",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 94,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová syrová nátierka s cesnakom a čerstvými bylinkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Cottage",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pažítka",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cottage syr rozmixuj s pretlačeným cesnakom a olivovým olejom.",
-    "Vmiešaj nasekanú pažítku.",
-    "Dochuť soľou a podávaj s pečivom."
-  ],
-  "tipy": "Skús aj s kôprom alebo bazalkou namiesto pažítky.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "syr",
-    "bylinky"
-  ]
+ "id": "syrova-natierka-s-cesnakom-a-bylinkami",
+ "nazov": "Syrová nátierka s cesnakom a bylinkami",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Syrová nátierka s cesnakom (autor: jeromay)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/syrova-natierka-s-cesnakom/84230-recept.html",
+ "porcie": 5,
+ "cas": "15 min",
+ "kcal_na_porciu": 292,
+ "popis": "Krémová syrová nátierka s cesnakom a čerstvými bylinkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Tavený syr",
+   "mnozstvo": 7,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údený syr",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "V miske poriadne vymiešame maslo s taveným syrom.",
+  "Pridáme najemno nastrúhaný údený syr, parmezán, majonézu a opäť poriadne premiešame.",
+  "Keď sa to všetko pekne spojí, pridáme pretlačený cesnak, koreniny podľa chuti a posledný krát poriadne zmiešame. Dobrú chuť. :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "syr",
+  "bylinky"
+ ]
 }

@@ -1,70 +1,97 @@
 {
-  "id": "zeleninovy-stir-fry-s-kesu",
-  "nazov": "Zeleninový stir-fry s kešu orechmi",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "20 min",
-  "kcal_na_porciu": 210,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchle vegetariánske ázijské jedlo s chrumkavou zeleninou a kešu orechmi.",
-  "ingrediencie": [
-    {
-      "nazov": "Brokolica",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kešu",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zeleninu nakrájaj na kúsky.",
-    "Na rozohriatom oleji opraž cesnak, pridaj zeleninu.",
-    "Opekaj 5-6 minút, aby zostala chrumkavá.",
-    "Vmiešaj sójovú omáčku a kešu orechy.",
-    "Podávaj s ryžou."
-  ],
-  "tipy": "Kešu pridaj až na záver, aby zostali chrumkavé.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "vegetariánske",
-    "ázijské"
-  ]
+ "id": "zeleninovy-stir-fry-s-kesu",
+ "nazov": "Zeleninový stir-fry s kešu orechmi",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Zeleninové stir-fry (autor: veggie)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zeleninove-stir-fry/25222-recept.html",
+ "porcie": 2,
+ "cas": "30 min",
+ "popis": "Curry-kokosová zelenina",
+ "ingrediencie": [
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hráškové struky",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Baby kukurica",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sterilizovaný cícer",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tofu",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosová smotana",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karí korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukuričný škrob",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na rozpálenom oleji si orestujeme tofu obalené v škrobe a soli. Odložíme bokom.",
+  "Z mrkvy spravíme pomocou škrabky hrubšie rezance, hrášok a kukuričku si nakrájame na menšie kúsky, cícer zbavíme šupiek. Na panvici rozpálime olivový olej, prídame cesnak, krátko opražíme, pridáme zeleninku a cícer, osolíme a chvíľku porestujeme. Potom zalejeme vodou a necháme podusiť, cca 3-4 minúty, aby zelenina nestratila farbu.",
+  "Do podusenej zeleniny pridáme curry korenie, kajenské korenie a kokosovú smotanu. Tiež pridáme lyžiču škrobu rozrobeného vo vode a varíme kým omáčka nezhustne. Pridáme orestované tofu a podávame s ryžou alebo zemiakmi."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "vegetariánske",
+  "ázijské"
+ ]
 }

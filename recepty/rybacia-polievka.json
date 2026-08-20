@@ -1,64 +1,74 @@
 {
-  "id": "rybacia-polievka",
-  "nazov": "Rybacia polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 130,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jemná polievka z bielej ryby so zeleninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Zubáča",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 700,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu a mrkvu.",
-    "Zalej vývarom, pridaj nakrájané zemiaky a var do mäkka.",
-    "Rybu nakrájaj na kúsky a pridaj do polievky.",
-    "Var ešte 8-10 minút, kým ryba nie je hotová.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Rybu pridávaj až nakoniec, aby sa neprevarila.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "ryba",
-    "ľahká"
-  ]
+ "id": "rybacia-polievka",
+ "nazov": "Rybacia polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Rybacia polievka (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/rybacia-polievka/75693-recept.html",
+ "porcie": 4,
+ "cas": "90 min",
+ "kcal_na_porciu": 96,
+ "popis": "Jemná polievka z bielej ryby so zeleninou.",
+ "ingrediencie": [
+  {
+   "nazov": "Ryba",
+   "mnozstvo": 1500,
+   "jednotka": "g",
+   "poznamka": "kapor, sumec, šťuka"
+  },
+  {
+   "nazov": "Svetlozelená paprika",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ryby zbavíme šupín a umyjeme. Nakrájame ich na kúsky alebo podkovy. Vložíme ich do hrnca, na ne navrstvíme na kolieska nakrájané dve cibule, na pásiky nakrájanú zelenú papriku, na kolieska pokrájané paradajky a na tenké plátky nakrájaný cesnak. Osolíme, okoreníme a necháme odstáť. Soľ uvoľní z mäsa a zo zeleniny vodu a na dne hrnca sa začne tvoriť aromatická šťava.",
+  "V druhom hrnci začneme robiť vývar zo zvyškov mäsa, hláv, plutiev, ikier a mlieča. Cibuľu nakrájame na plátky, rybacie odrezky zalejeme studenou vodou a pomaly privedieme do varu. Nesolíme. Keď voda začína vrieť, pridáme do nej 3–4 lyžice mletej papriky a vývar varíme na miernom ohni 60 minút, alebo tak dlho, kým sa cibuľa takmer nerozvarí.",
+  "Vývar precedíme a odrezky vyhodíme. Zalejeme ním pripravené rybacie mäso so zeleninou, ktoré máme v druhom hrnci. Môžeme pridať na malé kocky nakrájané zemiaky. Polievku uvedieme prudko do varu a varíme 10–15 minút. Nemiešame. Hrncom len potriasame, aby sa mäso neprichytilo ku dnu. Podľa chuti ešte prisolíme, pridáme papriku alebo prikoreníme. K polievke sa podáva čerstvý maďarský chlieb alebo aj uvarené široké rezance."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "ryba",
+  "ľahká"
+ ]
 }

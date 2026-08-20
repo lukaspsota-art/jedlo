@@ -1,51 +1,62 @@
 {
-  "id": "tvarohove-gulky-s-vanilkou",
-  "nazov": "Tvarohové guľky s vanilkou",
-  "kategoria": "Snack",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 6,
-  "cas": "20 min",
-  "kcal_na_porciu": 100,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý sladký snack z tvarohu bez pečenia.",
-  "ingrediencie": [
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vanilkový extrakt",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokos strúh",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": "na obaľovanie"
-    }
-  ],
-  "postup": [
-    "Tvaroh vymiešaj s medom a vanilkovým extraktom.",
-    "Tvaruj malé guľôčky.",
-    "Obaľuj v strúhanom kokose.",
-    "Nechaj v chladničke aspoň 20 minút stuhnúť."
-  ],
-  "tipy": "Rýchly proteínový sladký snack bez pečenia.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "tvaroh",
-    "bez pečenia"
-  ]
+ "id": "tvarohove-gulky-s-vanilkou",
+ "nazov": "Tvarohové guľky s vanilkou",
+ "kategoria": "Snack",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Tvarohové guľky (autor: katyperry31)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/tvarohove-gulky/49509-recept.html",
+ "porcie": 6,
+ "cas": "10 min",
+ "kcal_na_porciu": 75,
+ "popis": "Tento recept môžete pripraviť ako dezert alebo ako sladký obed. Tvarohové guľky sú totiž \r\ncelkom výdatné. Keď nemáte proteín použite sušené alebo sójové mlieko.",
+ "ingrediencie": [
+  {
+   "nazov": "Mäkký tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový proteín",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsená múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Granko",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lekvár",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Tvaroh dôkladne ručne premiešame s proteínom a múkou ( alebo krupicou). Rozbijeme jedno celé vajíčko a pridáme do zmesi, opäť dobre zamiešame, aby sa ingrediencie spojili.",
+  "Do hrnca dáme variť vodu, počkáme kým začne vrieť. Ruky si namočíme do studenej vody, bude sa nám tak lepšie pracovať s hmotou. Tvarujeme malé guľky, ktoré hádžeme do vriacej vody. Keď nám vyplávajú na povrch, necháme ich ešte minútku variť a potom povyberáme.",
+  "Podávame s jahodovým lekvárom, ovocím a grankom. Z tejto dávky pripravíme asi 10 guliek. 1 tvarohová guľka priemerne obsahuje: 1,2 g tuku, 5,5 g bielkovín a 2,4 g sacharidov. Pre inšpiráciu na ďalšie fitness štíhle sladké recepty navštívte môj blog www.fitnessdesserts.blogspot.sk"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "tvaroh",
+  "bez pečenia"
+ ]
 }

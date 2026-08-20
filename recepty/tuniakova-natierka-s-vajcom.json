@@ -1,57 +1,56 @@
 {
-  "id": "tuniakova-natierka-s-vajcom",
-  "nazov": "Tuniaková nátierka s vajcom",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 210,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýta nátierka z tuniaka a vajec, ideálna na chlieb aj do lunchboxu.",
-  "ingrediencie": [
-    {
-      "nazov": "Tuniak",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vajcia uvar natvrdo, ošúp a nasekaj.",
-    "Scedeného tuniaka rozmixuj vidličkou.",
-    "Zmiešaj s vajcami, majonézou a nadrobno pokrájanou cibuľou.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Skvelá aj ako plnka do sendviča.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "tuniak",
-    "vajcia"
-  ]
+ "id": "tuniakova-natierka-s-vajcom",
+ "nazov": "Tuniaková nátierka s vajcom",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Tuniaková nátierka (autor: bojka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/tuniakova-natierka/76665-recept.html",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 92,
+ "popis": "Čo na raňajky? Mám tu recept, po ktorom \r\nsi oblížete prsty! Tento recept je veľmi \r\nľahký, zvládnu ho aj vaše deti. Tak \r\nnachystaní? Ideme na to!",
+ "ingrediencie": [
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tuniak",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tavený syr",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "napr. Syrokrém, Kiri"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "pár kvapiek (alebo podľa chuti"
+  }
+ ],
+ "postup": [
+  "Nachystáme si jednu väčšiu misu. Do nej dáme najskôr tuniaka a potom ostatné suroviny.",
+  "Miešame vidličkou až kým sa všetky suroviny nespoja do jednej celistvej hmoty.",
+  "Servírujeme s pečivom a s jarnou cibuľkou alebo s inou zeleninou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "tuniak",
+  "vajcia"
+ ]
 }

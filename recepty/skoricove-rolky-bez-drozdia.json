@@ -1,70 +1,108 @@
 {
-  "id": "skoricove-rolky-bez-drozdia",
-  "nazov": "Rýchle škoricové rolky bez droždia",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "40 min",
-  "kcal_na_porciu": 285,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchla verzia škoricových rolôčiek s práškom do pečiva namiesto droždia.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 180,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prášok do pečiva",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 70,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hnedý cukor",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "na polevu"
-    }
-  ],
-  "postup": [
-    "Z múky, mlieka, prášku do pečiva a časti masla vypracuj cesto, bez potreby kysnutia.",
-    "Rozváľaj do obdĺžnika, potri zvyšným maslom, posyp hnedým cukrom a škoricou.",
-    "Zroluj a nakrájaj na kolieska.",
-    "Ulož do formy.",
-    "Peč pri 190 °C asi 20 minút, polej jednoduchou polevou z cukru a trochy mlieka."
-  ],
-  "tipy": "Skvelé, keď nemáš čas čakať na kysnutie droždia.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "škorica",
-    "rýchle"
-  ]
+ "id": "skoricove-rolky-bez-drozdia",
+ "nazov": "Rýchle škoricové rolky bez droždia",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Škoricové rolky (fotorecept) (autor: kucharka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/skoricove-rolky-fotorecept/93319-recept.html",
+ "porcie": 8,
+ "cas": "16 min",
+ "kcal_na_porciu": 350,
+ "popis": "Jemné, vláčne a chutné. Sladké a voňavé.* Toto sú škoricové rolky podľa Trevennon Dakota-Levy \"Randy-Scandy Cinnamon \r\nRolls\". U nás doma jednička :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 270,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé droždie",
+   "mnozstvo": 15,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Plnotučné mlieko",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 75,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukor muscovado",
+   "mnozstvo": 75,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Najskôr k múke: V recepte je \"strong flour\", ktorá sa zvyčajne používa na chlieb. Na SK sa mi ale z chlebovej múky koláče nikdy nepodarili. Najviac mi tam pasuje polohrubá alebo dokonca hrubá múka. Takže - necháme napučať droždie vo vlažnom mlieku. Ak použijeme suché droždie, rozmiešame ho s múkou. V miske zmiešame múku, cukor, soľ a napučané droždie. Pridáme vajcia a dobre zmiešame. Keď je cesto akoby hotové, postupne vmiešavame maslo. Zapracujeme a mixujeme aspoň 6-10 minút. Misku prikryjeme a cesto necháme vykysnúť 1-1,5 hodiny.",
+  "Cesto jemne vyvaľkáme na približne 20x40 cm. Ja som skoro vôbec nemusela podsýpať, s cestom sa výborne pracovalo. Pokiaľ cesto oddychuje, pripravíme si plnku. A to jednoducho: všetko spolu zmiešame.",
+  "Plnku opatrne rozotrieme na cesto. Zrolujeme ako roládu.",
+  "Pokrájame na 8 kúskov.",
+  "Poukladáme na plech (25x35 cm) vystlaný papierom na pečenie.",
+  "Zakryjeme utierkou a necháme ešte raz vykysnúť, 30-60 minút pokiaľ nezdvojnásobia objem. Šupneme do vyhriatej rúry. 180 stupňov, 16-18 minút, nie dlhšie, aby neboli suché. Ja ich hneď po vybratí potriem štetcom mliekom (takto potieram skoro všetko z kysnutého cesta) a potom javorovým sirupom. Môže sa aj rozpusteným maslom.",
+  "K čiernemu čaju s mliekom sú ako stvorené. Dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "škorica",
+  "rýchle"
+ ]
 }

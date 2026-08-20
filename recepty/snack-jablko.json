@@ -1,29 +1,148 @@
 {
-  "id": "snack-jablko",
-  "nazov": "Jablko",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 78,
-  "kcal_zdroj": "vypocet",
-  "popis": "Čerstvé jablko.",
-  "ingrediencie": [
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    }
-  ],
-  "postup": [
-    "Umy a zjedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "ovocie",
-    "kupované"
-  ]
+ "id": "snack-jablko",
+ "nazov": "Jablko",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Opité jablká (fotorecept) (autor: helena10)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/opite-jablka-fotorecept/90627-recept.html",
+ "porcie": 24,
+ "cas": "20 min",
+ "kcal_na_porciu": 207,
+ "popis": "Len pre dospelých... Svieži jablkový sladkokyslý zákusok. Chutí skvele.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový jemný cukor",
+   "mnozstvo": 90,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Repkový olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nastrúhaná"
+  },
+  {
+   "nazov": "Polohrubá výberová múka",
+   "mnozstvo": 130,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok kypriaci do pečiva",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablková šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo mlieko"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový jemný cukor",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1/2 citróna"
+  },
+  {
+   "nazov": "Víno červené čierna ríbezľa",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Galaretka čierna ríbezľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "2x72 g, alebo lesná zmes"
+  }
+ ],
+ "postup": [
+  "Korpus: Celé vajcia vyšľahám s cukrami, štipkou soli do svetlej masy. Prilievam olej, mlieko, vsypem najemno nastrúhanú kôru z čerstvého citróna a slabšie šľahám. Nakoniec zamiešam múku s práškom do pečiva.",
+  "Hotové cesto vylejem na vysoký plech 24x24x6 cm. Dno plechu je vyložené papierom na pečenie. Vo vyhriatej rúre na 180 stupňov pečiem 20 minút. Skontrolujem špajľou a upečený korpus navlhčím jablkovou šťavou a nechám vychladnúť.",
+  "Krém: V nádobe vyšľahám maslo s práškovým cukrom do nadýchanej masy a po lyžiciach zašľahám kyslú smotanu. Suroviny pri šľahaní musia byť rovnakej izbovej teploty. Maslovo-smotanový krém rozotriem rovnomerne na vychladnutý korpus. Odložím do chladničky, aby poriadne stuhol.",
+  "Želé jablko-vínové: Do vriacej vody vysypem očistené jablká, ktoré som narezala na väčšie kúsky, Nechám pomaly variť. Pridám cukor, červené víno. Ja som priliala aj citrónovú šťavu, aby po pridaní sladkých galaretiek nebola zmes príliš sladká. Záleží ešte aké je víno a jablká... Keď boli jablká primerane uvarené – nie rozvarené - vypnem oheň a hneď vsypem 2 balenia galaretky v prášku a miešam až do ich rozpustenia. Takto hotové jablko-vínové želé nechám chladiť až do čiastočného stuhnutia. Môžete si spraviť aj z polovičnej dávky.",
+  "Primerane stuhnuté jablko-vínové želé som dávala na vrch krému na 2-krát, aby krém ostal neporušený. Nechávam v chladničke celú noc. Potom naporciujem podľa vlastného uváženia."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "ovocie",
+  "kupované"
+ ]
 }

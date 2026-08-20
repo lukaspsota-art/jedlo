@@ -1,57 +1,42 @@
 {
-  "id": "negroni",
-  "nazov": "Negroni",
-  "kategoria": "Kokteil",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 206,
-  "kcal_zdroj": "vypocet",
-  "popis": "Silný taliansky aperitív z rovnakých dielov ginu, vermutu a Campari.",
-  "ingrediencie": [
-    {
-      "nazov": "Gin",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Campari",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Víno",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": "červený vermut"
-    },
-    {
-      "nazov": "Pomaranč",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "na plátok"
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň ľadom.",
-    "Prilej gin, Campari a vermut v rovnakých dieloch.",
-    "Premiešaj.",
-    "Ozdob plátkom pomaranča."
-  ],
-  "tipy": "Klasický pomer je 1:1:1 — jednoducho si zapamätateľný recept.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "gin",
-    "talianske"
-  ]
+ "id": "negroni",
+ "nazov": "Negroni",
+ "kategoria": "Kokteil",
+ "kuchyna": "Talianska",
+ "zdroj": "TheCocktailDB – Negroni",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11003",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 163,
+ "popis": "Ordinary Drink · Old-fashioned glass",
+ "ingrediencie": [
+  {
+   "nazov": "Gin",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Campari",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sladký vermút",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Premiešame v pohári na ľade, ozdobíme a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "gin",
+  "talianske"
+ ]
 }

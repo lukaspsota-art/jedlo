@@ -1,39 +1,83 @@
 {
-  "id": "snack-hummus-zelenina",
-  "nazov": "Hummus so zeleninou",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 178,
-  "kcal_zdroj": "vypocet",
-  "popis": "Hummus s mrkvovými a paprikovými tyčinkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Hummus",
-      "mnozstvo": 60,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Červená paprika",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    }
-  ],
-  "postup": [
-    "Zeleninu nakrájaj na tyčinky.",
-    "Podávaj s hummusom."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "zelenina"
-  ]
+ "id": "snack-hummus-zelenina",
+ "nazov": "Hummus so zeleninou",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Hummus s tekvicou (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/hummus-s-tekvicou/69115-recept.html",
+ "porcie": 18,
+ "cas": "70 min",
+ "kcal_na_porciu": 221,
+ "popis": "Či už ho podávate s krekrami, hriankami, zeleninou alebo zeleninovými chipsami, tekvicový hummus vás poteší svojou jesennou chuťou.",
+ "ingrediencie": [
+  {
+   "nazov": "Maslová očistená tekvica",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cícer Lagris",
+   "mnozstvo": 480,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá sladká paprika",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 citróna"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezam čierny",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ošúpanú a očistenú tekvicu nakrájame na kocky, ktoré dáme na plech vystlaný papierom na pečenie.",
+  "Prikryjeme alobalom a pečieme v rúre predhriatej na 180 °C približne 30 minút, dokým nezmäkne. Hotovú tekvicu necháme vychladnúť.",
+  "Medzitým si uvaríme Lagris cícer domäkka podľa návodu.",
+  "Do mixéra dáme uvarený cícer, upečenú tekvicu, sladkú papriku, citrónovú šťavu, pretlačený cesnak, olivový olej, soľ a čierne korenie. Všetko rozmixujeme dohladka.",
+  "Dáme do misky, pokvapkáme olivovým olejom, posypeme čiernym sezamom a sladkou paprikou a podávame.",
+  "Podávame s krekrami, hriankami, zeleninou alebo zeleninovými chipsami.",
+  "Rada: Hummus dajte do chladničky, dokým ho nebudete podávať."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "zelenina"
+ ]
 }

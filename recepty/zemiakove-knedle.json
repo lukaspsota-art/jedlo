@@ -1,57 +1,59 @@
 {
-  "id": "zemiakove-knedle",
-  "nazov": "Zemiakové knedle",
-  "kategoria": "Príloha",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "50 min",
-  "kcal_na_porciu": 280,
-  "popis": "Vláčne knedle z varených zemiakov — príloha k mäsu a omáčkam.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": "uvarené v šupke"
-    },
-    {
-      "nazov": "Hrubá múka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Krupica",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Uvarené zemiaky ošúp a nastrúhaj alebo popučí ešte teplé.",
-    "Pridaj múku, krupicu, vajce a soľ, vypracuj cesto.",
-    "Vytvaruj dva valce a var v osolenej vode asi 15 minút.",
-    "Knedle nakrájaj niťou alebo nožom na plátky."
-  ],
-  "tipy": "Cesto nespracúvaj dlho, aby knedle neboli tuhé. Krájaj niťou pre hladký rez.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "zemiaky",
-    "príloha"
-  ],
-  "foto": ""
+ "id": "zemiakove-knedle",
+ "nazov": "Zemiakové knedle",
+ "kategoria": "Príloha",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Zemiakové knedle (autor: rimm)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakove-knedle/90344-recept.html",
+ "porcie": 9,
+ "cas": "66 min",
+ "kcal_na_porciu": 226,
+ "popis": "Rýchla a jednoduchá príprava.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrubá múka",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo masť"
+  }
+ ],
+ "postup": [
+  "Uvaríme zemiaky v šupke. Necháme vychladnúť, potom zemiaky ošúpeme a nastrúhame na jemnom strúhadle.",
+  "Pridáme soľ, múku a vajce. Postupne premiešavame a ak je cesto príliš lepkavé, prisypeme múku.",
+  "Následne z cesta vytvarujeme valčeky a dáme do vriacej vody. Čím dlhšie necháte cesto na doske, tým je lepkavejšie, preto knedle ihneď varíme.",
+  "Varíme cca 6-8 minút podľa veľkosti. Keď vyplávajú, knedle vyberieme a potrieme maslom alebo masťou.",
+  "Podavame"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "zemiaky",
+  "príloha"
+ ]
 }

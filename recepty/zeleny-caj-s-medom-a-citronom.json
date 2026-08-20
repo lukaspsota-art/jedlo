@@ -1,51 +1,55 @@
 {
-  "id": "zeleny-caj-s-medom-a-citronom",
-  "nazov": "Zelený čaj s medom a citrónom",
-  "kategoria": "Nápoj",
-  "kuchyna": "Ázijská",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "10 min",
-  "kcal_na_porciu": 27,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý zahrievajúci zelený čaj s medom a citrónom.",
-  "ingrediencie": [
-    {
-      "nazov": "Čierny čaj",
-      "mnozstvo": 4,
-      "jednotka": "g",
-      "poznamka": "zelený čaj, sypaný alebo vrecká"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    }
-  ],
-  "postup": [
-    "Vodu zohrej tesne pod bod varu (nie vriacu).",
-    "Zaleji čaj a nechaj lúhovať 3 minúty.",
-    "Precedi, dosladiť medom a citrónovou šťavou.",
-    "Podávaj horúce."
-  ],
-  "tipy": "Príliš horúca voda robí zelený čaj horkým.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "čaj",
-    "zdravé"
-  ]
+ "id": "zeleny-caj-s-medom-a-citronom",
+ "nazov": "Zelený čaj s medom a citrónom",
+ "kategoria": "Nápoj",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Pečený čaj (autor: petina89)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/peceny-caj/49945-recept.html",
+ "porcie": 14,
+ "cas": "31 min",
+ "kcal_na_porciu": 189,
+ "popis": "Jednoduchý zahrievajúci zelený čaj s medom a citrónom.",
+ "ingrediencie": [
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": "hrušky, pomaranče, mandarínky"
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Perníkové korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ovocie, očistíme, odkôstkujeme, pokrájame na kocky, pridáme ostatné suroviny dáme na plech a pečieme 1 hodinu, Pomedzi to 2x premiešame, Horúce ovocie dáme do fliaš, uzavrieme a otočíme hore dnom.",
+  "Do pohára si dáme 2-3 lyžičky zmesi a zalejeme vriacou vodou"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "čaj",
+  "zdravé"
+ ]
 }

@@ -1,82 +1,92 @@
 {
-  "id": "cestoviny-s-cicerom-a-paradajkami",
-  "nazov": "Cestoviny s cícerom a paradajkovou omáčkou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "inšpirované Wikibooks Cookbook (CC BY-SA)",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 494,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte vegetariánske cestoviny s cícerom, paradajkovou omáčkou a bazalkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Penne",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cícer predvarený",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "pretlak alebo krájané konzervované"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na olivovom oleji orestuj nadrobno pokrájanú cibuľu a cesnak.",
-    "Pridaj paradajky a cícer, dus 15 minút na miernom ohni.",
-    "Medzitým uvar cestoviny podľa návodu na obale.",
-    "Omáčku dochuť soľou, korením a bazalkou.",
-    "Zamiešaj s cestovinami a podávaj."
-  ],
-  "tipy": "Pre krémovejšiu verziu rozmixuj polovicu omáčky tyčovým mixérom.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "vegetariánske",
-    "cícer"
-  ]
+ "id": "cestoviny-s-cicerom-a-paradajkami",
+ "nazov": "Cestoviny s cícerom a paradajkovou omáčkou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Mangoldové cestoviny v paradajkovej omáčke (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/mangoldove-cestoviny-v-paradajkovej-omacke/18150-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 394,
+ "popis": "Sýte vegetariánske cestoviny s cícerom, paradajkovou omáčkou a bazalkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestovina conchiglioni",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr ricotta",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mangold",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvené paradajky",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 75,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté čerstvé korenie",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cestoviny si uvaríme v osolenej vode. Na troche oleja speníme jarnú cibuľku a pridáme natrhaný čerstvý mangold a opražíme. Pridáme ricottu, dochutíme soľou, korením a cesnakom.",
+  "Conchiglioni naplníme pripravenou zmesou a poukladáme do zapekacej misky v dvoch vrstvách. Posypeme parmezánom a zapečieme.",
+  "Omáčku pripravíme z drvených paradajok, a to opražením na cibuľke a podusením s bazalkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "vegetariánske",
+  "cícer"
+ ]
 }

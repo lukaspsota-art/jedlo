@@ -1,63 +1,53 @@
 {
-  "id": "rum-punc",
-  "nazov": "Rum Punč",
-  "kategoria": "Kokteil",
-  "kuchyna": "Karibská",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 202,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tropický ovocný punč s rumom, skvelý na párty.",
-  "ingrediencie": [
-    {
-      "nazov": "Rum",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pomarančový džús",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ananás",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Grenadína",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ananás rozmixuj s troškou pomarančového džúsu.",
-    "V džbáne zmiešaj rum, pomarančový džús, ananásové pyré a limetkovú šťavu.",
-    "Pridaj grenadínu.",
-    "Podávaj s ľadom."
-  ],
-  "tipy": "Skvelý nápoj na párty pre viac ľudí naraz.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "rum",
-    "párty"
-  ]
+ "id": "rum-punc",
+ "nazov": "Rum Punč",
+ "kategoria": "Kokteil",
+ "kuchyna": "Karibská",
+ "zdroj": "TheCocktailDB – Rum Punch",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/14978",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Punch / Party Drink · Punch bowl",
+ "ingrediencie": [
+  {
+   "nazov": "Rum",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Fruit punch",
+   "mnozstvo": 355,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": 355,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie zmiešame v punčovej mise a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "rum",
+  "párty"
+ ]
 }

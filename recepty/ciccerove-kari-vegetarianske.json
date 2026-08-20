@@ -1,83 +1,99 @@
 {
-  "id": "ciccerove-kari-vegetarianske",
-  "nazov": "Cícerové kari (vegetariánske)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Indická",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 349,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte vegetariánske kari z cíceru, paradajok a kokosového mlieka.",
-  "ingrediencie": [
-    {
-      "nazov": "Cícer predvarený",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokosové mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kari mleté",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zázvor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž nadrobno pokrájanú cibuľu, cesnak a zázvor.",
-    "Vmiešaj kari korenie, pridaj paradajky a cícer.",
-    "Prilej kokosové mlieko a dus 15 minút.",
-    "Dochuť soľou.",
-    "Podávaj s ryžou alebo naan chlebom."
-  ],
-  "tipy": "Skvelé aj na druhý deň zohriate — chute sa ešte prehĺbia.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "vegetariánske",
-    "cícer",
-    "indické"
-  ]
+ "id": "ciccerove-kari-vegetarianske",
+ "nazov": "Cícerové kari (vegetariánske)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Indická",
+ "zdroj": "Varecha.sk – Cícerové karí (fotorecept) (autor: dorisa)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cicerove-kari-fotorecept/45006-recept.html",
+ "porcie": 1,
+ "cas": "60 min",
+ "kcal_na_porciu": 456,
+ "popis": "Včera sme  mali takýto obedík.",
+ "ingrediencie": [
+  {
+   "nazov": "Suchý cícer",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "zväzok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Očistený zázvor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej olivový extra virgin",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie Garamské Masala",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti alebo zmes: rasca, koriander"
+  },
+  {
+   "nazov": "Morská hrubozrnná soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá kurkuma",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si suroviny",
+  "Na tanierik som si pripravila zmes vsetkých korenín, ktoré budem potrebovať.",
+  "Cícer si pripravíme tak, že ho namočíme do vody, večer vodu zlejeme, premyjeme, doplníme novú vodu a necháme napučať. Potom pred varením zas cícer prepláchneme. Potom ho varíme cca 30 minút.",
+  "Cibuľku, cesnak, zázvor a paradajky najemno nakrájame",
+  "V hrnci rozohrejeme olej, osmahneme cesnak, zázvor a korenie....",
+  "...pridáme cibuľku, podlejeme vodou ...",
+  "... pridáme odkvapkaný cícer. Varíme cca 10 minút.",
+  "Potom pridáme paradajky...dodusíme.",
+  "Servírujeme s uvarenou celozrnnou ryžou a zeleninovým šalátom. Dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "vegetariánske",
+  "cícer",
+  "indické"
+ ]
 }

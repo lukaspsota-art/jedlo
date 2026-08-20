@@ -1,87 +1,125 @@
 {
-  "id": "holubky",
-  "nazov": "Plnená kapusta (holúbky)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "100 min",
-  "kcal_na_porciu": 420,
-  "popis": "Kapustné listy plnené mletým mäsom s ryžou, dusené v paradajkovej šťave.",
-  "ingrediencie": [
-    {
-      "nazov": "Kyslá kapusta",
-      "mnozstvo": 8,
-      "jednotka": "ks",
-      "poznamka": "celé listy"
-    },
-    {
-      "nazov": "Mleté mäso",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ryža",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajkový pretlak",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ryžu predvar. Zmiešaj mäso, ryžu, cibuľu, vajce, soľ a korenie.",
-    "Do kapustných listov zabaľ plnku.",
-    "Závitky ulož do hrnca na vrstvu nasekanej kapusty.",
-    "Zalej vodou s pretlakom a paprikou, dus asi 60 minút."
-  ],
-  "tipy": "Na dno daj vrstvu kapusty, aby sa holúbky neprichytili.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "mäso",
-    "kapusta"
-  ],
-  "foto": ""
+ "id": "holubky",
+ "nazov": "Plnená kapusta (holúbky)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Plnená kapusta (autor: mrscrocombe)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/plnena-kapusta/93172-recept.html",
+ "porcie": 10,
+ "cas": "260 min",
+ "kcal_na_porciu": 376,
+ "popis": "U nás na Vianoce nesmie chýbať kapustnica a plnená kapusta \r\n(holubky).",
+ "ingrediencie": [
+  {
+   "nazov": "Kapustové kyslé listy",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčové mäso",
+   "mnozstvo": 1200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryža",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "za hrsť"
+  },
+  {
+   "nazov": "Klobása",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá kapusta",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 6,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové celé korenie",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené hríby",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "za hrsť"
+  },
+  {
+   "nazov": "Vývar",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby (alebo voda"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Najprv spravím plnku. Mleté mäsko dám do misy, pridám k nemu 3 prelisovane strúčiky cesnaku, 1 až 2 ČL soli, 1 PL mletej papriky, mleté korenie podľa potreby, hrsť surovej umytej ryže a riadne všetko zapracujem spolu. Za trošku ochutnám a dochutím keď treba, potom vrch misky prikryjem fóliou a odložím plnku najlepšie cez noc alebo aspoň na 3 hodiny do chladničky.",
+  "Na troche oleja alebo masti zasmažím nakrájanú cibuľku. Umyjem a osuším klobásku a nakrájam ju na 1 cm kolieska a potom ešte na pol (mesiačiky), pridám k opraženej cibuľke a pražím dokým klobáska nepustí farbu. Potom pridám na plátky pokrájané 3 strúčiky cesnaku, pretlak a znova oprážam. Sušené huby prepláchnem studenou vodou, v miske zalejem vriacou vodou, prikryte nechám postáť 5 minút a potom cez sitko vlejem vyvar z hríbov a nakoniec aj samotne hríby. Zamiešam a pridám neprepláchnutú len poprekrajovanú kyslú kapustu. Zamiešam, pridám trocha celej rasce, tak za čajovú lyžičku a podlejem buď vodou alebo vývarom do polovice a privediem k varu.",
+  "Kým čakám, aby mi polievka (šťava) zovrela, pripravím kapustové kyslé listy, neumývam ich, len z nich vyrežem hlúb (respektíve hrubú časť stonky) a každý list napĺňam mäsovou plnkou, do každého listu... záleží od veľkosti no cca 1 až 2 PL by sa mali zmestiť, zatočím a riadne vtláčam vrch a spodok holubka, aby mi to držalo. Zo zvyšku plnky tvarujem mäsové guľky veľkosti cca dlane, mne vždy vyjde 14 holubkov a cca 10 až 12 mäsových guliek.",
+  "Keď polievka zovrela, pomaly pridávam najprv holubky, znova privediem k varu a potom pridám aj mäsove gulky a prikryté nechám na miernej teplote variť cca 1 až 2 hodiny.",
+  "Po uvarení dochutím, pozor nedochucovať polievku (šťavu) príliš skoro, holubky pustia svoju chuť, čiže dochutíme len po uvarení plniek. Potom už len chvíľu nechám povariť a podávam s chlebíkom, dobru chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "mäso",
+  "kapusta"
+ ]
 }

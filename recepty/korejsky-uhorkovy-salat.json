@@ -1,57 +1,80 @@
 {
-  "id": "korejsky-uhorkovy-salat",
-  "nazov": "Kórejský pikantný uhorkový šalát",
-  "kategoria": "Šalát",
-  "kuchyna": "Kórejská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 29,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchly pikantný šalát z uhorky v kórejskom štýle.",
-  "ingrediencie": [
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chilli vločky",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sezamové semienka",
-      "mnozstvo": 5,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Uhorku nakrájaj na tenké plátky, osoľ a nechaj 10 minút pustiť šťavu, scedi.",
-    "Zmiešaj sójovú omáčku, chilli vločky a pretlačený cesnak.",
-    "Premiešaj s uhorkou.",
-    "Posyp sezamovými semienkami a podávaj."
-  ],
-  "tipy": "Rýchly pikantný doplnok k ázijským jedlám.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "uhorka",
-    "kórejské"
-  ]
+ "id": "korejsky-uhorkovy-salat",
+ "nazov": "Kórejský pikantný uhorkový šalát",
+ "kategoria": "Šalát",
+ "kuchyna": "Kórejská",
+ "zdroj": "Varecha.sk – Kórejský šalát z mungo výhonkov (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/korejsky-salat-z-mungo-vyhonkov/90980-recept.html",
+ "porcie": 2,
+ "cas": "20 min",
+ "kcal_na_porciu": 64,
+ "popis": "Rýchly pikantný šalát z uhorky v kórejskom štýle.",
+ "ingrediencie": [
+  {
+   "nazov": "Mungo výhonky biele",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morská soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprička čili",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová svetlá omáčka",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamové semienka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelené výhonky",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mungo výhonky dôkladne prepláchneme pod prúdom studenej vody. V kastróle privedieme do varu osolenú vodu, vložíme do nej výhonky a sparíme ich asi 2 minúty. Potom ich hneď schladíme v ľadovej vode, scedíme a nasypeme do misy.",
+  "Jarnú cibuľku očistíme, čili papričku zbavíme semienok a obe nasekáme. Cesnak ošúpeme a pretlačíme. Cibuľku, čili papričku a cesnak zmiešame, pridáme olej a sójovú omáčku. Dresing nalejeme na sparené mungo výhonky a premiešame.",
+  "Šalát rozdelíme do misiek, posypeme sezamom a zelenými výhonkami (pažítkou) a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "uhorka",
+  "kórejské"
+ ]
 }

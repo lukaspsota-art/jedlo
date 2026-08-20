@@ -1,81 +1,100 @@
 {
-  "id": "mapo-tofu",
-  "nazov": "Mapo Tofu",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Čínska",
-  "zdroj": "internet – adaptované (Serious Eats)",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 380,
-  "popis": "S'-čchuanská klasika — hodvábne tofu v pikantnej fazuľovej omáčke s mletým mäsom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hodvábneho tofu",
-      "mnozstvo": 400,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Mletého bravčového",
-      "mnozstvo": 150,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Doubanjiang",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "fazuľová pasta"
-    },
-    {
-      "nazov": "s'-čchuanské korenie",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 2,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Kúsok zázvoru",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "jarná cibuľka",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Vývaru",
-      "mnozstvo": 200,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "sójová omáčka",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Škrobu",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opeč mleté mäso, pridaj cesnak, zázvor a doubanjiang, krátko opekaj do zavoňania a červenej farby.",
-    "Vlej vývar a sójovku, jemne vlož tofu a duste 3–4 min.",
-    "Zahusti škrobovou kašičkou, posyp mletým S'-čchuanským korením a jarnou cibuľkou. Podávaj s ryžou."
-  ],
-  "tipy": "S'-čchuanské korenie dodá typický „mravčiaci“ pocit — nevynechávaj ho.",
-  "foto": "",
-  "tagy": [
-    "čínske",
-    "tofu",
-    "pikantné"
-  ]
+ "id": "mapo-tofu",
+ "nazov": "Mapo Tofu",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Čínska",
+ "zdroj": "Varecha.sk – Mapo tofu (autor: bugout)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/mapo-tofu/79610-recept.html",
+ "porcie": 2,
+ "cas": "35 min",
+ "kcal_na_porciu": 504,
+ "popis": "Toto je mnou vyskúšaný, používaný a čiastočne upravený recept. Ide o moje veľmi obľúbené jedlo zo sečuánskej kuchyne, na ktoré je veľa receptov. Tofu v omáčke s mletým hovädzím mäsom...* Len \r\nv čínskych receptoch je  veľa odlišností a to je aj japonská verzia (nepikantná) aj kórejská, \r\nkde je použitý kórejský gochujang namieste toban djan.",
+ "ingrediencie": [
+  {
+   "nazov": "Mäso hovädzie",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tofu",
+   "mnozstvo": 345,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Toban djan",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej čili",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzí vývar",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie piatich vôní",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukuričný škrob",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pár slov k surovinám, ktoré som tu použil...: Toban djan - pasta z fermentovaných čili papričiek a bôbu. Čili olej - nie olej ochutený čili ale drvené sušené čili s bylinkami a koreninami varené v oleji. Dá sa pripraviť aj doma. Ja kupujem čínsky lao gan ma (je ich viac druhov, na Slovensku som zohnal tri druhy a všetky výborné). Tofu - zabudnite na tofu aké poznáte zo supermarketov a skúste nejaký špeciálnejší obchod a hľadajte tofu s prídavným menom ako \"silken\" a \"extra firm\". Pozor však pri manipulácií, je veľmi jemné.",
+  "...a nepoužil aj keď by som mal: Pre sečuánsku kuchyňu je typický chuťoví profil ma-la. La = pikantná. Ma = neviem to jednoducho preložiť, tak si pomôžem anglicky \"numbing\" (znecitlivenie), táto zložka je zabezpečovaná sečuánskym korením (zantoxyl) a naozaj navodzuje pocit stŕpnutia úst. Dá sa povedať, že bez tejto zložky nie je sečuánske jedlo naozaj sečuánske. Ja som ho vyskúšal a nepoužívam, nechýba mi to. Malo by tam byť aj douchi, ale to sa u nás dosť zle zháňa (výnimkou je už spomínaný čili olej) takže som ho neriešil a čiastočne nahradil týmto čili olejom, ktorý ho obsahuje.",
+  "Konečne samotný recept: Pomleté mäso zmiešame so sójovou omáčkou a dáme bokom (môžeme vynechať). Zmiešame škrob s dvoma, troma lyžicami vody. Tofu veľmi opatrne nakrájame na kocky. Cesnak a zázvor nasekáme na drobno (množstvá dávam od oka a niekedy použijem cesnakovo-zázvorovú pastu). Jarnú cibuľku bielu časť nakrájame na drobno, vňať na krúžky. (Ak budete jedlo robiť častejšie, zistíte ako sa dobre dá všetko načasovať a krájať počas opekania toban djan, čo trvá cca 10 minút.)",
+  "Na strednom výkone (lepšie jeden bod pod stredným) na oleji opekáme toban djan cca desať minút kým pekne nepustí farbu. Pridáme cesnak, zázvor, bielu časť jarnej cibuľky a mäso a ďalej opekáme na strednom výkone. Keď je mäso opečené, pridáme korenie piatich vôní, cukor, čili olej a spolu ešte minútku opekáme. Poznámka: Ak sme zohnali čili olej s douchi konkrétne lao gan ma - preserved black bean in chilli oil, pridáme ho už v prvotnej fáze opekania toban djan. (Priznám sa, že neviem či to má vyznam, keď je samotné douchi to by sa malo opiecť, ale keď je už prevarené v oleji neviem, či to má význam, skúškal som obidva varianty a rozdiel som moc nevidel.)",
+  "Zalejeme vývarom, pridáme tofu a varíme zakryté na slabom výkone 10 - 15 minút. Tofu tam len jemne vložíme a nemiešame (premiešame opatrne asi po troch štyroch minútach varu pod pokrievkou; miešame primárne krúžením woku). Pred koncom vlejeme časť škrobovej vody a opatrne zamiešame, toto opakujeme kým máme jedlo tak husté ako chceme. Podávame s ryžou a vňaťou jarnej cibuľky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "čínske",
+  "tofu",
+  "pikantné"
+ ]
 }

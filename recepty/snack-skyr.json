@@ -1,29 +1,118 @@
 {
-  "id": "snack-skyr",
-  "nazov": "Skyr",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 95,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vysokobielkovinový islandský skyr.",
-  "ingrediencie": [
-    {
-      "nazov": "Skyr",
-      "mnozstvo": 150,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Otvor a jedz; môžeš pridať ovocie."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "bielkoviny",
-    "kupované"
-  ]
+ "id": "snack-skyr",
+ "nazov": "Skyr",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Slivkové skyr-amisu (fotorecept) (autor: papkoska)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/slivkove-skyr-amisu-fotorecept/77916-recept.html",
+ "porcie": 10,
+ "cas": "90 min",
+ "kcal_na_porciu": 151,
+ "popis": "Skyr-amisu je v našej rodine dezertom tohoto leta. Odľahčená ovocná verzia talianskeho dezertu, kde je mascarpone \r\nnahradené skyrom.* V kombinácii s domácimi slivkami vznikla jeho takmer jesenná verzia. \r\n(Pre porovnanie: mascarpone obsahuje približne 43 g tuku a 6 g bielkovín, energia 1400-1700 kJ / 100g - líši sa podľa výrobcu, \r\nkým \"islandský jogurt\" 0,2 g tuku a 11 g bielkovín, energia 270 k",
+ "ingrediencie": [
+  {
+   "nazov": "Slivky",
+   "mnozstvo": 700,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Perníkové korenie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvený klinček",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 180,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Skyr",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vaječný likér",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Piškóty",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoládová poleva",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Káva mletá",
+   "mnozstvo": 180,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Odkôstkované slivky zmiešame s koreninami a na pekáči dáme piecť na 180 °C 30 minút. Papier na pečenie mi uľahčil robotu s umývaním pekáča.",
+  "Po upečení v miske slivky premiešame, prípadne podľa chuti dosladíme a necháme vychladnúť.",
+  "Smotanu (veľmi nezáleží na množstve ml v balení) vyšľaháme s trstinovým cukrom do polotuha, pridáme skyr a vaječný likér (množstvo podľa chuti). Ďalej šľaháme pri vyššej rýchlosti. Vždy v duchu rátam do 90, kým vznikne hladký krém.",
+  "Pripravíme si vhodnú nádobu (vyššiu servírovaciu misku alebo tortovú formu, môžeme vrstviť aj do pohárov). Postupne do nej vrstvíme piškóty krátko namočené vo vychladnutej káve, polovicu upečených sliviek, tretinu krému, znova piškóty, slivky, tretinu krému, nakoniec piškóty a krém. Tu je na fotke \"rozpracovaný\" dezert, nie je vidieť iba najspodnejšie piškóty, ktoré už sú zakryté slivkami.",
+  "Povrch poprášime kakaom zmiešaným so škoricou a necháme najlepšie do druhého dňa v chladničke."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "bielkoviny",
+  "kupované"
+ ]
 }

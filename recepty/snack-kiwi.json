@@ -1,29 +1,129 @@
 {
-  "id": "snack-kiwi",
-  "nazov": "Kiwi",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "2 min",
-  "kcal_na_porciu": 110,
-  "kcal_zdroj": "vypocet",
-  "popis": "Čerstvé kiwi.",
-  "ingrediencie": [
-    {
-      "nazov": "Kiwi",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    }
-  ],
-  "postup": [
-    "Prekroj a vyjedz lyžičkou, alebo olúp."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "ovocie",
-    "kupované"
-  ]
+ "id": "snack-kiwi",
+ "nazov": "Kiwi",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Nepečená kiwi torta (autor: diabambulka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/nepecena-kiwi-torta/23741-recept.html",
+ "porcie": 12,
+ "cas": "2 min",
+ "kcal_na_porciu": 95,
+ "popis": "Výborná a jednoduchá delikatesa s veľkým množstvom vitamínov. Kiwi obsahuje až 10-krát viac vitamínu C ako jablká alebo citróny. Ďalšie vitamíny, ktoré kiwi obsahujú, sú B1, B2, E a karotén. Obsahujú aj železo, fosfor, horčík, draslík a vápnik. :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 350,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pudingový prášok nugátový",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Um",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jemný tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá pochuťková smotana",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie 33 %",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stužovač šľahačky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kiwi šumienka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pudingový prášok vanilkový",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kiwi",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Piškóty okrúhle",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na dno tortovej formy poukladáme okrúhle piškóty. Zalejeme ich pudingovou plnkou a na vrch poukladáme nakrájané a očistené kiwi. Kiwi potrieme 1/3 smotanovej plnky a opäť naukladáme okrúhle piškóty po celej ploche. Na piškóty vylejeme a rozotrieme zvyšok smotanovej plnky, poukladáme opäť nakrájané kiwi a zalejeme kiwi-želatínou. Necháme minimálne 12 hodín chladiť a podávame :-)",
+  "Pudingová plnka : Z mlieka a pudingového prášku uvaríme hustý puding podľa návodu. Keď je puding uvarený pridáme cukor, vanilkový cukor a troška rumu. Za občastného miešania necháme vychladnúť a do vychladnutého vmiešame jemný tvaroh.",
+  "Smotanová plnka : Šľahačku vyšľaháme spolu so stužovačom. Následne ju jemne vmiešame do pochúťkovej smotany, ktorú sme si vymiešali s cukrom a vanilkovým cukrom.",
+  "Kiwi želatína : Do 400 ml vody vysypeme kiwi šumienku a poriadne rozmiešame. Polovicu dáme do hrnca a privedieme skoro k varu. Následne vmiešame vanilkový pudingový prášok rozhabarkovaný vo zvyšku kiwi tekutiny a povaríme. Na záver pridáme 1 vanilkový cukor."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "ovocie",
+  "kupované"
+ ]
 }

@@ -1,64 +1,50 @@
 {
-  "id": "cestoviny-s-cicerom-a-rozmarinom",
-  "nazov": "Cestoviny s cícerom a rozmarínom",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "25 min",
-  "kcal_na_porciu": 575,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduché vegetariánske cestoviny s cícerom a rozmarínom.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cícer predvarený",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rozmarín",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Na olivovom oleji opraž cesnak a rozmarín.",
-    "Pridaj cícer a krátko prehrej.",
-    "Zamiešaj uvarené cestoviny.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Skvelý rýchly vegetariánsky obed.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "vegetariánske",
-    "cícer"
-  ]
+ "id": "cestoviny-s-cicerom-a-rozmarinom",
+ "nazov": "Cestoviny s cícerom a rozmarínom",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Domáce cestoviny (fotorecept) (autor: olinecka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domace-cestoviny-fotorecept/56630-recept.html",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 407,
+ "popis": "Cestoviny do polievky si robím doma z domácich vajec a chcem sa podeliť s ich prípravou.",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajca domáce väčšie",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Studenná voda",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na pracovnu dosku dáme preosiatu múku v strede urobíme prstom jamku ,pridáme soľ,vajca a vody.Vypracujeme vlačné cesto,ktoré posypeme múkou ,aby nám nelepilo na dosku.Vznikne nám bochnik ,ktorý rozdelíme na polovicu.",
+  "Cesto rozvaľkame na pomučenej doske natenko 1-2mm.",
+  "Necháme pri izbovej teplote postať asi 1 1/2hodiny.Potom si ho nakrajáme na pásy,ktoré poukladame na seba a pokrájame ,pozor na prsty."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "vegetariánske",
+  "cícer"
+ ]
 }

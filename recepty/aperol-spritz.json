@@ -1,57 +1,43 @@
 {
-  "id": "aperol-spritz",
-  "nazov": "Aperol spritz",
-  "kategoria": "Kokteil",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 222,
-  "kcal_zdroj": "vypocet",
-  "popis": "Obľúbený taliansky aperitív z Aperolu, prosecca a sódy.",
-  "ingrediencie": [
-    {
-      "nazov": "Aperol",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prosecco",
-      "mnozstvo": 90,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Perlivá voda",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pomaranč",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "na plátok"
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň ľadom.",
-    "Prilej Aperol a prosecco.",
-    "Doplň troškou perlivej vody.",
-    "Ozdob plátkom pomaranča."
-  ],
-  "tipy": "Pomer 3-2-1 (prosecco-aperol-soda) je klasický taliansky štandard.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "aperitív",
-    "talianske"
-  ]
+ "id": "aperol-spritz",
+ "nazov": "Aperol spritz",
+ "kategoria": "Kokteil",
+ "kuchyna": "Talianska",
+ "zdroj": "TheCocktailDB – Aperol Spritz",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/178325",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 269,
+ "popis": "Cocktail · Wine Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Aperol",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prosecco",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sóda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do dvoch pohárov dáme kocky ľadu a do každého 50 ml Aperolu.",
+  "Rozdelíme prosecco medzi poháre a podľa chuti dolejeme sódou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "aperitív",
+  "talianske"
+ ]
 }

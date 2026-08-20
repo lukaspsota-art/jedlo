@@ -1,57 +1,104 @@
 {
-  "id": "salat-z-quinoi-s-peceenym-karfiolom",
-  "nazov": "Šalát z quinoi s pečeným karfiolom",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 265,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýty šalát z quinoi a pečeného karfiolu s citrónovým dresingom.",
-  "ingrediencie": [
-    {
-      "nazov": "Quinoa",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Karfiol",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Karfiol rozober na ružičky, premiešaj s olejom, peč pri 200 °C 25 minút.",
-    "Quinou uvar podľa návodu na obale.",
-    "Premiešaj quinou s pečeným karfiolom.",
-    "Zalej citrónovou šťavou, dochuť soľou."
-  ],
-  "tipy": "Sýty vegetariánsky šalát vhodný ako samostatné jedlo.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "quinoa",
-    "karfiol"
-  ]
+ "id": "salat-z-quinoi-s-peceenym-karfiolom",
+ "nazov": "Šalát z quinoi s pečeným karfiolom",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Šalát z quinoy a pečenej tekvice (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/salat-z-quinoy-a-pecenej-tekvice/71730-recept.html",
+ "porcie": 6,
+ "cas": "45 min",
+ "kcal_na_porciu": 349,
+ "popis": "Sýty šalát z quinoi a pečeného karfiolu s citrónovým dresingom.",
+ "ingrediencie": [
+  {
+   "nazov": "Quinoa",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tekvica",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 5,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Quinou uvaríme podľa návodu na obale a necháme vychladiť. Tekvicu nakrájame na kocky, osolíme, okoreníme a polejeme medom a trochou oleja a necháme zapekať v rúre zohriatej na 180 °C asi 20 minút.",
+  "Z limetkovej šťavy, olivového oleja, medu, soli a čierneho korenia pripravíme jednoduchý dresing.",
+  "Ostatné ingrediencie nakrájame nadrobno a zmiešame s vychladenou quinoou. Na tanieri obalíme rezom z uhorky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "quinoa",
+  "karfiol"
+ ]
 }

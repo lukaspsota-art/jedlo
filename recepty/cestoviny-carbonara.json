@@ -1,58 +1,71 @@
 {
-  "id": "cestoviny-carbonara",
-  "nazov": "Cestoviny Carbonara",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 591,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasická rímska carbonara so slaninou, vajcami a parmezánom.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnné špagety",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Slaninu nakrájaj na kocky a opeč do chrumkava.",
-    "Vajcia rozšľahaj so strúhaným parmezánom a korením.",
-    "Horúce cestoviny zmiešaj so slaninou, odstav z ohňa a vmiešaj vaječnú zmes.",
-    "Rýchlo premiešaj, aby vajcia vytvorili krémovú omáčku, nie miešané vajcia."
-  ],
-  "tipy": "Kľúč je pridať vajcia mimo priameho ohňa, aby sa nezrazili.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "talianske",
-    "rýchle"
-  ]
+ "id": "cestoviny-carbonara",
+ "nazov": "Cestoviny Carbonara",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Carbonara so špenátom (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/carbonara-so-spenatom/72215-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 478,
+ "popis": "Carbonara špagety posypané slaninkou vás určite potešia za každého počasia.",
+ "ingrediencie": [
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenát",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krémový syr",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špagety",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Slaninu nakrájame na kocky.",
+  "Špenát umyjeme, scedíme a dáme do elektronického sekáčika. Najprv posekáme špenát. Potom pridáme vidličkou rozmiešané vajcia, krémový syr a vegetu.",
+  "Špagety uvaríme podľa návodu na obale.",
+  "Širšiu panvicu zahrejeme a opečieme na nej slaninu. Slaninu vyberieme a dáme tam rozmixovanú špenátovú zmes, ktorú trošku zohrejeme. Pridáme uvarené špagety (trošku vody, v ktorej sa varili špagety, ak je to potrebné), všetko spolu premiešame a zložíme z ohňa.",
+  "Teplé špagety podávame posypané čiernym korením a opečenou slaninou.",
+  "Rada: Namiesto čerstvého špenátu môžete použiť aj mrazený."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "talianske",
+  "rýchle"
+ ]
 }

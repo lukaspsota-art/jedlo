@@ -1,75 +1,81 @@
 {
-  "id": "zemiakova-baba",
-  "nazov": "Zemiaková baba",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 6,
-  "cas": "80 min",
-  "kcal_na_porciu": 340,
-  "popis": "Zapekané strúhané zemiaky s cesnakom, majoránkou a slaninou z rúry.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 1200,
-      "jednotka": "g",
-      "poznamka": "nastrúhané"
-    },
-    {
-      "nazov": "Údená slanina",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 4,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majoránka",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Slaninu a cibuľu nakrájaj a opraž.",
-    "Strúhané zemiaky zmiešaj s vajcami, múkou, cesnakom, majoránkou, soľou a opraženou slaninou.",
-    "Zmes nalej do vymastenej zapekacej misy.",
-    "Peč pri 190 °C asi 60 minút do zlatista a chrumkava."
-  ],
-  "tipy": "Vrch potri masťou pre chrumkavú kôrku. Podávaj s kyslým mliekom alebo uhorkou.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "zemiaky",
-    "zapekané"
-  ],
-  "foto": ""
+ "id": "zemiakova-baba",
+ "nazov": "Zemiaková baba",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Zemiaková baba (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakova-baba/44388-recept.html",
+ "porcie": 4,
+ "cas": "80 min",
+ "kcal_na_porciu": 369,
+ "popis": "Zapekané strúhané zemiaky s cesnakom, majoránkou a slaninou z rúry.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majorán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Očistené zemiaky nastrúhame s cibuľou a cesnakom. Na kocky nakrájanú slaninu opražíme na masti.",
+  "Všetko spolu zmiešame, pridáme soľ, korenie, majorán a rascu. Dáme na vymastený plech a pečieme 45–50 minút na 180–200°C.",
+  "Podávame s kyslou kapustou, uhorkami a zapíjame žinčicou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "zemiaky",
+  "zapekané"
+ ]
 }

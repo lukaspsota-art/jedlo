@@ -1,58 +1,72 @@
 {
-  "id": "zemiakovy-chlieb",
-  "nazov": "Zemiakový chlieb",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "120 min",
-  "kcal_na_porciu": 227,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vláčny chlieb s pridanými zemiakmi, ktoré mu dodávajú jemnú štruktúru a vlhkosť.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "varený, rozmačkaný"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky uvar a rozmačkaj, nechaj vychladnúť.",
-    "Z múky, zemiakov, vlažnej vody, droždia a soli vypracuj cesto.",
-    "Nechaj kysnúť 1 hodinu.",
-    "Vytvaruj bochník, nechaj ešte 20 minút kysnúť.",
-    "Peč pri 200 °C asi 35-40 minút do zlatista."
-  ],
-  "tipy": "Zemiaky robia striedku vláčnejšou a chlieb dlhšie vydrží čerstvý.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "zemiaky",
-    "chlieb"
-  ]
+ "id": "zemiakovy-chlieb",
+ "nazov": "Zemiakový chlieb",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Zemiakový chlieb (autor: snehulka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakovy-chlieb/48561-recept.html",
+ "porcie": 16,
+ "cas": "155 min",
+ "kcal_na_porciu": 259,
+ "popis": "Tento chlebík nepečiem často, lebo ja a moji traja chalani by sme mali po sto kíl, nedá sa mu odolať.",
+ "ingrediencie": [
+  {
+   "nazov": "Veľké zemiaky",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Teplá voda",
+   "mnozstvo": 600,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 3,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 3,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka hladká T650",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zemiaky uvaríme všupke, necháme vychladnúť a pretlačíme.",
+  "Všetky suroviny dáme do misky, a 10 minút všetko mixujeme. Necháme 5 min. postáť a vyklopíme na silno pomúčenú dosku.",
+  "Preložíme postupne všetky 4 okraje. Necháme 15 min. kysnúť, opakujeme ešte raz.",
+  "Potom cesto zrolujeme na bochník a dáme na pomastený a múkou vysypaný pekáč.",
+  "Necháme ešte 1/2 hodinu kysnúť.",
+  "Dáme do rúry a pečieme na 240 stupňov 40 min., potom na 120 stupňov 40 min.",
+  "Vyklopíme a potrieme slanou vodou. Dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "zemiaky",
+  "chlieb"
+ ]
 }

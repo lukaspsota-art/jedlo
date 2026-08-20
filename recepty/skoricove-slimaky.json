@@ -1,101 +1,111 @@
 {
-  "id": "skoricove-slimaky",
-  "nazov": "Škoricové slimáky",
-  "kategoria": "Pečivo",
-  "kuchyna": "Americká",
-  "zdroj": "inšpirované Wikibooks Cookbook: Cinnamon Rolls (CC BY-SA)",
-  "porcie": 8,
-  "cas": "120 min",
-  "kcal_na_porciu": 527,
-  "kcal_zdroj": "vypocet",
-  "popis": "Mäkké kysnuté slimáky so škoricovou náplňou a jednoduchou polevou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": "na náplň"
-    },
-    {
-      "nazov": "Hnedý cukor",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "na náplň"
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "na náplň"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "na polevu"
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": "na polevu"
-    }
-  ],
-  "postup": [
-    "Z múky, vlažného mlieka, droždia, cukru, vajca, masla a soli vypracuj hladké cesto. Nechaj kysnúť 1 hodinu.",
-    "Cesto rozváľaj do obdĺžnika, potri mäkkým maslom a posyp zmesou hnedého cukru a škorice.",
-    "Zroluj cesto a nakrájaj na 8 rovnakých kúskov.",
-    "Ulož do formy, nechaj ešte 20 minút kysnúť a peč pri 180 °C asi 20-25 minút do zlata.",
-    "Z cukru a mlieka priprav polevu a polej ňou vychladnuté slimáky."
-  ],
-  "tipy": "Cesto priprav večer vopred a nechaj kysnúť pomaly v chladničke.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "sladké",
-    "kysnuté",
-    "raňajky"
-  ]
+ "id": "skoricove-slimaky",
+ "nazov": "Škoricové slimáky",
+ "kategoria": "Pečivo",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Škoricové slimáky ( fotorecept ) (autor: mariaklara)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/skoricove-slimaky-fotorecept-/21478-recept.html",
+ "porcie": 20,
+ "cas": "60 min",
+ "kcal_na_porciu": 181,
+ "popis": "Recept mám vystrihnutý z časopisu už asi 4 - 5 rokov, robila som ho teraz prvýkrát. No a mal úspech, tak vám ho ponúkam. Trochu som si ho upravila podľa seba.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka špeciál",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnná špeciál - stredná",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Teplé mlieko",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Štipka soli",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Surový žĺtok",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hnedý cukor krystalovy",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrozienka namočené vo vode",
+   "mnozstvo": 2,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozpustené maslo",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce na potretie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Papier na pečenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si:",
+  "Na spodok do misky pridáme štipku soli, preosejeme múku, do múky urobíme jamku, do jamky dáme KL cukru, rozdrobíme droždie, na droždie prilejeme 2 - 3 PL mlieka. Keď sa nám kvások pekne zodvihol pridáme mäkké maslo a žĺtok.",
+  "Vypracujeme vláčne cesto.",
+  "Asi 15 - 20 min. necháme kysnúť. V kyske sa to skráti o 2/3. Ešte pred vymiesením si nesmieme si zabudnúť namočiť hrozienka. Ja ich dávam namočiť do horúcej vody.",
+  "Vykysnuté cesto rozvaľkáme na naolejovanej podložke, alebo na pomúčenej doske, na štvorec( 35 x 45 ), potrieme zvyšným zmäknutým maslom.",
+  "Posypeme 80 g cukru a škoricou, hrozienkami - vyžmýkanými, stočíme ako závin.",
+  "Závin krájame ostrým nožom, reznou stranou kladieme na plech. ( asi 20 - 22 kúskov, širokých 2,5- 3 cm ).",
+  "Škoricové slimáky uložíme na dva plechy vystlané silikónovým papierom alebo papierom na pečenie. Asi 30 min. ich necháme prikryté na teplom mieste nakysnúť. Potrieme ich rozšľahaným vajcom a posypeme trstinovým cukrom - cca 20 g . Takto pripravené ich vložíme do predhriatej rúry.",
+  "Pečieme ich asi 5 - 8 min. na 180°C, 5 min. na 150°C a 5min. 125°C, Vyberieme z rúry a necháme vychladnúť. A už len zaželať vám \" Dobrú chuť.\" !"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "sladké",
+  "kysnuté",
+  "raňajky"
+ ]
 }

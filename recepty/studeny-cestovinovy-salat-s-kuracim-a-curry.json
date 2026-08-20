@@ -1,64 +1,68 @@
 {
-  "id": "studeny-cestovinovy-salat-s-kuracim-a-curry",
-  "nazov": "Studený cestovinový šalát s kuracím mäsom a karí dresingom",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Britská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 516,
-  "kcal_zdroj": "vypocet",
-  "popis": "Studený cestovinový šalát s kuracím mäsom a jemným karí dresingom.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kari mleté",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrozienka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu, scedi a vychladí.",
-    "Kuracie prsia uvar alebo opeč, nakrájaj na kocky.",
-    "Zmiešaj majonézu s kari korením.",
-    "Všetko premiešaj s hrozienkami.",
-    "Dochuť soľou a podávaj studené."
-  ],
-  "tipy": "Skvelý obed do práce, vydrží aj 2 dni.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "kura",
-    "studený šalát"
-  ]
+ "id": "studeny-cestovinovy-salat-s-kuracim-a-curry",
+ "nazov": "Studený cestovinový šalát s kuracím mäsom a karí dresingom",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Britská",
+ "zdroj": "Varecha.sk – Studený cestovinový šalát (autor: peterkub)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/studeny-cestovinovy-salat/71329-recept.html",
+ "porcie": 2,
+ "cas": "18 min",
+ "kcal_na_porciu": 428,
+ "popis": "Počas teplých letných dní dobre padne zjesť aj niečo chladné - osviežujúce.  Cestoviny \r\nmám rád skoro na každý spôsob a bez tohto šalátu si \r\nuž leto neviem ani predstaviť. Je vhodný ako príloha ku pečenej hydine.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalátová uhorka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tatárska omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cestoviny uvaríme vo vode, do ktorej sme pridali soľ a olej. Cestoviny precedíme, opláchneme a necháme vychladnúť.",
+  "Uhorky ošúpeme a spolu s ostatnými surovinami nakrájame na drobné kocky. Všetko spolu zmiešame a pridáme tatársku omáčku (množstvo podľa chuti).",
+  "Všetko dobre premiešame a dáme do chladničky vychladnúť. Prajem dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "kura",
+  "studený šalát"
+ ]
 }

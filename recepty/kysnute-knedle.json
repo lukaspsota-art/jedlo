@@ -1,63 +1,87 @@
 {
-  "id": "kysnute-knedle",
-  "nazov": "Kysnuté knedle (parné)",
-  "kategoria": "Príloha",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "90 min",
-  "kcal_na_porciu": 260,
-  "popis": "Nadýchané kysnuté knedle varené v pare — klasika ku guláši a omáčkam.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": "vlažné"
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 21,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z mlieka, droždia a cukru sprav kvások.",
-    "Zmiešaj múku, vajce, soľ a kvások, vypracuj vláčne cesto a nechaj vykysnúť.",
-    "Vytvaruj dva valce a nechaj nakysnúť.",
-    "Var v pare asi 20 minút, po vybratí ihneď prepichni vidličkou, aby unikla para."
-  ],
-  "tipy": "Knedle krájaj niťou. Ak variť vo vode, obracaj ich v polovici.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "kysnuté",
-    "príloha"
-  ],
-  "foto": ""
+ "id": "kysnute-knedle",
+ "nazov": "Kysnuté knedle (parné)",
+ "kategoria": "Príloha",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Domáca kysnutá knedľa (autor: olinecka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domaca-kysnuta-knedla/59130-recept.html",
+ "porcie": 14,
+ "cas": "35 min",
+ "kcal_na_porciu": 236,
+ "popis": "Takto si urobím knedle domáce knedle.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Múka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na posypanie dosky"
+  }
+ ],
+ "postup": [
+  "Do vlažného mlieka pridáme cukor, soľ a rozdrobené droždie. Necháme na teplom mieste nakysnúť.",
+  "Do väčšej misy dáme múku hladkú, polohrubú, pridáme vykysnuty kvások, vajcia, žltky a olej. Zo surovín varechou vymiešame vlačné cesto, ktoré sa musí odlepovať od varechy. Vrch pomúčime a zakryjeme utierkou, dáme na teplé miesto nakysnuť.",
+  "Pracovnú dosku pomúčime a dáme naň cesto, ktoré si rozdelíme na rovnaké časti koľko knedlí chceme. Do hrnca dáme variť vodu, paráčik na buchty vymastíme maslom, položíme vytvarovanu knedľu a vložíme do vody. Tak, aby boli ponorené nožičky paráčika, zakryjeme prikrývkou a paríme 15-17 minút. Po vybratí ešte teplé potrieme zľahka maslom, aby boli mäkké. Ja som urobila knedle na nedeľu ku segedinu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "kysnuté",
+  "príloha"
+ ]
 }

@@ -1,29 +1,146 @@
 {
-  "id": "snack-banan",
-  "nazov": "Banán",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 107,
-  "kcal_zdroj": "vypocet",
-  "popis": "Banán ako rýchly zdroj energie.",
-  "ingrediencie": [
-    {
-      "nazov": "Banán",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    }
-  ],
-  "postup": [
-    "Ošúp a zjedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "ovocie",
-    "kupované"
-  ]
+ "id": "snack-banan",
+ "nazov": "Banán",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Banánový sen (fotorecept) (autor: dzejsik)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bananovy-sen-fotorecept/54005-recept.html",
+ "porcie": 24,
+ "cas": "70 min",
+ "kcal_na_porciu": 311,
+ "popis": "Nie a nie nájsť recept na banánový koláčik podľa mojich predstáv, tak som si ho musela \r\nvymyslieť sama. Vyšiel z toho vysoko chutný zákusok - verím, že si pochutíte aj vy! :)",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlažná voda",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Holandské kakako",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kypriaci prášok do pečiva",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslastý džem",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na potretie"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Puding banánový Dr. Oetker",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rum",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "od oka"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 10,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banány",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana šľahačková 33%",
+   "mnozstvo": 750,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smetafix",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Žĺtka s cukrom vymiešame do penista, pridáme vodu, olej a múku zmiešanú s kakaom a PDP. Z bielok vyšľaháme tuhý sneh a zľahka vmiešame do cesta. Cesto rozdelíme na 2 polovice. Rozotrieme na papier na pečenie a pri 160° si po jednom upečieme dva tenké pláty.",
+  "Spodný plát dobre postriekame /pokvapkáme/ rumom a potrieme kyslastým džemom. Položíme druhý plát a opäť postriekame rumom.",
+  "Zmäknuté maslo vymiešame s práškovým cukrom.",
+  "Z mlieka, pudingov, vanilkového cukru a trošky rumu uvaríme puding. Za občasného premiešania vychladíme. Vychladený zašľaháme do masla.",
+  "Na korpus natrieme tenkú vrstvu krému, na ktorú poukladáme banány nakrájané na kolieska. Následne potrieme zvyšným krémom. Kým si pripravíme šľahačku, necháme trocha ztuhnúť v chladničke.",
+  "Nakoniec si pripravíme dvojfarebnú šľahačku. HNEDÁ: 375 ml šľahačkovej smotany vyšľaháme s 2 smetafixmi na pevno. Ochutíme 1 PL kopcom práškového cukru a zafarbíme 2 PL kakaa. Natrieme na koláč a opäť dáme do chladničky, kým vyšľaháme bielu šľahačku.",
+  "BIELA: druhých 375 ml vyšľaháme opäť s 2 smetafixmi a ochutíme 1 PL kopcom práškového cukru. Po lyžiciach si ju rozložíme na všetky strany koláča a opatrne rozotrieme, tak aby sa nezafarbila na hnedo.",
+  "Odložíme do chladničky stuhnúť - najlepšie cez noc. Nakrájané kocky ozdobíme napr. čokoládovými pilinami a potom už len stačí snívať svoj banánový sen ... :)",
+  "A jeden spokojný vychutnávač :D"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "ovocie",
+  "kupované"
+ ]
 }

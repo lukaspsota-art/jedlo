@@ -1,57 +1,45 @@
 {
-  "id": "tvarohovo-kokosove-gulky-pecene",
-  "nazov": "Tvarohovo-kokosové guľky pečené",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "30 min",
-  "kcal_na_porciu": 162,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jemné pečené guľky z tvarohu a kokosu.",
-  "ingrediencie": [
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokos strúh",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zmiešaj tvaroh, kokos, cukor, vajce a múku do hladkého cesta.",
-    "Tvaruj malé guľôčky.",
-    "Ulož na plech vyložený papierom na pečenie.",
-    "Peč pri 180 °C asi 20 minút do zlatista."
-  ],
-  "tipy": "Skvelé teplé aj vychladené.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "tvaroh",
-    "kokos"
-  ]
+ "id": "tvarohovo-kokosove-gulky-pecene",
+ "nazov": "Tvarohovo-kokosové guľky pečené",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pečené kokosové guľky (autor: lowcarbsrozumom)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecene-kokosove-gulky/76523-recept.html",
+ "porcie": 20,
+ "cas": "45 min",
+ "kcal_na_porciu": 137,
+ "popis": "Pečené kokosové guľky sú skvelé na oslavy. Sú len z troch ingrediencií a plné kokosovej chuti. Ich príprava je jednoduchá a \r\nrýchla.",
+ "ingrediencie": [
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Erythritol",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Celé vajíčka rozbijeme do misky a poriadne zamiešame s erythritolom.",
+  "Potom pridáme strúhaný kokos a zamiešame.",
+  "Je veľmi dobré nechať hmotu postáť, aby sa kokos spojil s vajíčkami, vtedy sa dobre tvarujú guľky. Vytvorené guľky potom poukladáme na plech vystlaný papierom na pečenie.",
+  "Dáme piecť na 180 °C takých 25 – 30 minút (podľa rúry) do zlatova."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "tvaroh",
+  "kokos"
+ ]
 }

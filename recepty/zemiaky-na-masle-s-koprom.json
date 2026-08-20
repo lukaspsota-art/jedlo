@@ -1,51 +1,118 @@
 {
-  "id": "zemiaky-na-masle-s-koprom",
-  "nazov": "Zemiaky na masle s kôprom",
-  "kategoria": "Príloha",
-  "kuchyna": "Slovenská",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 208,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduché varené zemiaky s maslom a čerstvým kôprom.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kôpor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky ošúp, nakrájaj na menšie kúsky a uvar v osolenej vode do mäkka.",
-    "Scedi.",
-    "Premiešaj s maslom a nasekaným kôprom.",
-    "Podávaj teplé."
-  ],
-  "tipy": "Jednoduchá klasika, ktorá sa hodí takmer ku všetkému.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "zemiaky",
-    "slovenské"
-  ]
+ "id": "zemiaky-na-masle-s-koprom",
+ "nazov": "Zemiaky na masle s kôprom",
+ "kategoria": "Príloha",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Smotanová zemiaková omáčka s kôprom (fotorecept) (autor: pusta)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/smotanova-zemiakova-omacka-s-koprom-fotorecept/46277-recept.html",
+ "porcie": 4,
+ "cas": "60 min",
+ "kcal_na_porciu": 292,
+ "popis": "Každý z nás má svoj vlastný dobrý recept na zemiakovú omáčku. Môj priateľ si želal ku \r\nstarej dobrej klasickej fašírke jemnú fajnovú zemiakovú omáčku s kôprom, tak som ju \r\npripravila so sladkou smotanou, výborne doplnila chuť fašírky a už nič viac k nej nebolo \r\ntreba podávať. Pridávam svoj osvedčený recept na dobrú zemiakovú omáčku.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne celé korenie",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové celé korenie",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celý klinček",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa stredne veľká",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Biely vínny ocot 8%",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čerstvý kôpor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti (mrazený"
+  },
+  {
+   "nazov": "Smotana sladká na varenie",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  }
+ ],
+ "postup": [
+  "Očistené zemiaky som pokrájala na kocky, dala do studenej vody, pridala som bobkový list, celé čierne a celé nové korenie, cesnak, cibuľu, do ktorej som zapichla jeden celý klinček, soľ, cukor a priviedla všetko do varu, od bodu varu som varila na strednom plameni, kým zemiaky nezmäkli - asi 15 minút.",
+  "Zatiaľ som si pripravila sladkú smotanu na varenie, môžete použiť aj inú sladkú smotanu podľa vlastného výberu.",
+  "Do misky som dala múku,...",
+  "...priliala som sladkú smotanu a špirálovitou metličkou som rozšľahala spolu na hladkú zátrepku - asi 3-4 minúty.",
+  "Ked už boli zemiaky uvarené,...",
+  "..postupne za stáleho miešania som pridala hladkú zátrepku a varila som...",
+  "spolu asi 15 minút, aby sa stratila chuť múky a vznikla omáčka primeranej asi strednej hustoty. Hotovú zemiakovú omáčku som nechala chvíľu odstáť pri vypnutom plameni a až potom som ju dochutila bielym vínnym vínnym octom, aby sa nezrazila, bola hladká a získala jemnú sladko-kyslú osviežujúcu chuť.",
+  "Kým omáčka odstála, začala som vyprážať klasické osvedčené guľaté fašírky v dostatočnom množstve oleja do chrumkava a peknej červenej farby.",
+  "Fašírky som pripravila z 500g mletého bravčového pliecka podľa svojho osvedčeného receptu na túto chutnú klasiku zo 4. mája 2013 http://varecha.pravda.sk/recepty/fasirky-fotorecept/40416-recept.html Spravila som ich viac, sú výborné i za studena s chlebom a predpokladala som dobre, lebo ĺahodná zemiaková omáčka sa minula veľmi rýchlo a bolo hned aj na večeru.",
+  "Tesne pred podávaním som zamiešala do hotovej zemiakovej omáčky kopu čerstvého kôpru a všetko bolo hotovo naraz.",
+  "Horúcu omáčku som nabrala do hlbokého taniera a na vrch som položila chrumkavú horúcu fašírku. Ide o rýchlu a osvedčenú chutnú klasiku, ktorá nikdy nesklame a vzájomne sa vynikajúco dopĺňa, nie je treba ju chváliť, chváli sa sama a rýchlo zmizla :-)))) Túto omáčku robievam aj lete, vynikajúco chutí aj za studena, vyjedáme ju len tak bez ničoho :-)))"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "zemiaky",
+  "slovenské"
+ ]
 }

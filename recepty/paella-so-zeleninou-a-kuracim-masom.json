@@ -1,83 +1,95 @@
 {
-  "id": "paella-so-zeleninou-a-kuracim-masom",
-  "nazov": "Paella so zeleninou a kuracím mäsom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Španielska",
-  "zdroj": "klasický recept",
-  "porcie": 5,
-  "cas": "50 min",
-  "kcal_na_porciu": 518,
-  "kcal_zdroj": "vypocet",
-  "popis": "Španielske jedno-panvicové jedlo z ryže, kuracieho mäsa a zeleniny.",
-  "ingrediencie": [
-    {
-      "nazov": "Ryža",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kuracie stehná",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrach",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kurkuma",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na olivovom oleji opeč kuracie mäso dozlata, vyber.",
-    "Na tom istom oleji opraž cibuľu a papriku.",
-    "Pridaj ryžu a kurkumu, krátko opraž.",
-    "Zalej vývarom, vráť mäso a hrášok, dus pod pokrievkou 20 minút.",
-    "Nechaj 5 minút odstáť pred podávaním."
-  ],
-  "tipy": "Kurkuma dodáva peknú zlatistú farbu ako tradičný šafrán.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "španielske",
-    "kura",
-    "ryža"
-  ]
+ "id": "paella-so-zeleninou-a-kuracim-masom",
+ "nazov": "Paella so zeleninou a kuracím mäsom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Španielska",
+ "zdroj": "Varecha.sk – Paella s kuracím mäsom (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/paella-s-kuracim-masom/68236-recept.html",
+ "porcie": 7,
+ "cas": "70 min",
+ "kcal_na_porciu": 422,
+ "popis": "Paella je určite jedno z najznámejších jedál španielskej kuchyne. Zväčša sa pripravuje z ryže, morských plodov, zeleniny a olivového oleja. Do \r\nnašej paelly sme primiešali aj kuracie mäsko a ochutili ju tou správnou koreniacou zmesou. Je veľmi jednoduchá na prípravu a jej chuť je \r\ndelikátna.",
+ "ingrediencie": [
+  {
+   "nazov": "Ryža guľatá Lagris",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ochucovadlo Kurča",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morské plody",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäso kuracie",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa stredne veľká",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelený hrášok",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šafran",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kuracie mäso nakrájame a posypeme ochucovadlom príchuť kurča.",
+  "Zohrejeme olivový olej, na ňom opečieme cibuľu a pridáme kuracie mäso. Za občasného miešania dusíme, podľa potreby podlievame vodou.",
+  "Rúru na pečenie zohrejeme na 170 °C. Do panvice nalejeme vodu, po jej zovretí pridáme ryžu, šafran, nakrájanú papriku, pretlačený cesnak a morské plody. Privedieme do varu, podľa potreby osolíme. Varíme na nízkom príkone tepla, často miešame, až kým zmes zhustne a začne sa lepiť na dno nádoby.",
+  "Panvicu prikryjeme a vložíme do rúry. 20 minút dusíme prikryté, počas tejto doby štyrikrát premiešame pomocou vidličky. V poslednej fáze pridáme hrášok.",
+  "Podávame so zeleninovým šalátom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "španielske",
+  "kura",
+  "ryža"
+ ]
 }

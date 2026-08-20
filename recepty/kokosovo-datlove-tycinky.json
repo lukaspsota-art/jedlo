@@ -1,45 +1,111 @@
 {
-  "id": "kokosovo-datlove-tycinky",
-  "nazov": "Kokosovo-datľové tyčinky",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "20 min",
-  "kcal_na_porciu": 173,
-  "kcal_zdroj": "vypocet",
-  "popis": "Energetické tyčinky z datlí a kokosu bez pečenia.",
-  "ingrediencie": [
-    {
-      "nazov": "Datle",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokos strúh",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mandle",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Datle, kokos a mandle rozmixuj do spojenia.",
-    "Hmotu vtlač do formy vyloženej papierom na pečenie.",
-    "Daj do chladničky aspoň 1 hodinu stuhnúť.",
-    "Nakrájaj na tyčinky."
-  ],
-  "tipy": "Vydržia v chladničke v uzavretej nádobe aj 2 týždne.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "datle",
-    "bez pečenia"
-  ]
+ "id": "kokosovo-datlove-tycinky",
+ "nazov": "Kokosovo-datľové tyčinky",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Vegan datľové tyčinky (autor: timifour)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/vegan-datlove-tycinky/63158-recept.html",
+ "porcie": 20,
+ "cas": "20 min",
+ "kcal_na_porciu": 208,
+ "popis": "Sladké mlsanie môže byť aj bez výčitiek. Tieto datľové tyčinky sú bez pridaného cukru.",
+ "ingrediencie": [
+  {
+   "nazov": "Kešu",
+   "mnozstvo": 225,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé vykôstkované datle",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžový sirup",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé vykôstkované datle",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tahini",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžový sirup",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilka bourbon",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 36,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosový roztopený olej",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Agáve",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karob",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na vytvorenie korpusu si v mixéri rozdrvíme na malé kúsky kešu. Postupne pridáme kokos a chvíľu mixujeme. Pridáme vykôstkované datle, ryžový sirup a mixujeme, dokým sa nám všetko spojí do lepkavej hmoty. Pripravíme si papier na pečenie, vysypeme naň náš korpus a vytvoríme z toho obdlžník približne 1/2 cm hrubý. Vložíme do mrazničky a vrhneme sa na karamel.",
+  "Na vytvorenie nášho perfektného karamelu, vložíme všetky ingrediencie do mixéru a mixujeme až sa nám vytvorí hladká hmota. Vyberieme z mrazničky korpus a karamel natrieme na vrch. Vložíme opäť do mrazničky, kým si vytvoríme čokoládu.",
+  "Asi najzdravšiu \"čokoládku\" si vytvoríme tak že, rozotpený olej, agéve (alebo voliteľné sladilo) a kakao si zmiešame v miske. Čokoládu nalejeme na vrch karamelu a rozotrieme ju po celej ploche. Posledný krát vložíme naše datlové tyčinky do mrazničky aspoň na 2 hodinky, aby nám poriadne stuhli. Potom už len vyberieme, ľubovoľne narežeme a papáme.",
+  "Dúfam, že sa vám tento recept páčil :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "datle",
+  "bez pečenia"
+ ]
 }

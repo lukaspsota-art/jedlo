@@ -1,51 +1,42 @@
 {
-  "id": "sidecar",
-  "nazov": "Sidecar",
-  "kategoria": "Kokteil",
-  "kuchyna": "Francúzska",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 184,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický francúzsky kokteil z brandy, citróna a cukru.",
-  "ingrediencie": [
-    {
-      "nazov": "Brandy",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 12,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do shakera daj brandy, citrónovú šťavu, cukor a ľad.",
-    "Poriadne pretrep.",
-    "Precedi do vychladeného pohára.",
-    "Podávaj ihneď."
-  ],
-  "tipy": "Okraj pohára sa tradične obaľuje v cukre.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "brandy",
-    "francúzske"
-  ]
+ "id": "sidecar",
+ "nazov": "Sidecar",
+ "kategoria": "Kokteil",
+ "kuchyna": "Francúzska",
+ "zdroj": "TheCocktailDB – Sidecar",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12196",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Ordinary Drink · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Cognac",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cointreau",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie nalejeme do šejkra naplneného ľadom.",
+  "Poriadne pretrepeme a precedíme do kokteilového pohára."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "brandy",
+  "francúzske"
+ ]
 }

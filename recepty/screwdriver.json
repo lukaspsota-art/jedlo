@@ -1,45 +1,36 @@
 {
-  "id": "screwdriver",
-  "nazov": "Screwdriver",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 181,
-  "kcal_zdroj": "vypocet",
-  "popis": "Najjednoduchší kokteil z vodky a pomarančového džúsu.",
-  "ingrediencie": [
-    {
-      "nazov": "Vodka",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pomarančový džús",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň ľadom.",
-    "Prilej vodku.",
-    "Dolej pomarančovým džúsom.",
-    "Premiešaj a podávaj."
-  ],
-  "tipy": "Jeden z najjednoduchších kokteilov vôbec — ideálny na začiatok.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "vodka",
-    "jednoduché"
-  ]
+ "id": "screwdriver",
+ "nazov": "Screwdriver",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Screwdriver",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12162",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Ordinary Drink · Highball glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zmiešame vo vysokom pohári s ľadom.",
+  "Ozdobíme a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "vodka",
+  "jednoduché"
+ ]
 }

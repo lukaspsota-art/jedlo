@@ -1,52 +1,71 @@
 {
-  "id": "domace-tortilly",
-  "nazov": "Domáce tortilly",
-  "kategoria": "Pečivo",
-  "kuchyna": "Mexická",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "40 min",
-  "kcal_na_porciu": 223,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduché mäkké pšeničné tortilly bez kysnutia.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažnej vody, oleja a soli vypracuj hladké cesto.",
-    "Nechaj 20 minút odpočívať.",
-    "Rozdeľ na 8 dielov a rozváľaj na tenké placky.",
-    "Peč na suchej rozohriatej panvici asi 1 minútu z každej strany.",
-    "Skladuj zabalené v utierke, aby zostali mäkké."
-  ],
-  "tipy": "Skvelé na fajitas, wrapy alebo k mexickým jedlám.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "mexické",
-    "placky"
-  ]
+ "id": "domace-tortilly",
+ "nazov": "Domáce tortilly",
+ "kategoria": "Pečivo",
+ "kuchyna": "Mexická",
+ "zdroj": "Varecha.sk – Domáce tortilly (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domace-tortilly/94217-recept.html",
+ "porcie": 7,
+ "cas": "30 min",
+ "kcal_na_porciu": 168,
+ "popis": "Mäkké, pružné a voňavé domáce tortilly pripravíte jednoducho len z niekoľkých základných surovín.* Oproti kupovaným majú plnšiu chuť a výborne sa rolujú bez lámania. V recepte nájdete aj profesionálny trik z mexických tortillerías, vďaka ktorému sa tortilly pri pečení krásne nafúknu a vytvoria typickú vzduchovú kapsu. Práve tá zabezpečí ich mäkkosť a dokonalú štruktúru.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 220,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 35,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 15,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cesto pripravíme v kuchynskom robote s nožmi. Do nádoby dáme hladkú múku, soľ a prášok do pečiva.",
+  "Pridáme studené maslo nakrájané na malé kocky a rastlinný olej. Premiešame, kým sa tuk rovnomerne nespojí so suchými surovinami.",
+  "Prilejeme horúcu vodu a necháme robot krátko vypracovať hladké, pružné a nelepivé cesto.",
+  "Cesto preložíme na pracovnú dosku a ešte ho krátko premiesime. Podsýpanie múkou nie je potrebné, cesto sa nelepí.",
+  "Cesto rozdelíme na 7 rovnakých častí a každú časť vytvarujeme do hladkej guľky.",
+  "Guľky cesta prikryjeme utierkou a necháme 10 minút odpočívať. Tento profesionálny trik umožní uvoľnenie lepku, cesto zmäkne a pri pečení sa para uzavrie medzi vrstvami, takže sa tortilly krásne nafúknu.",
+  "Guľky vyvaľkáme na veľmi tenké placky. Vaľkáme iba jedným smerom, nie hore-dole.",
+  "Rozohrejeme suchú teflónovú panvicu. Tortillu položíme na panvicu a keď sa objavia prvé bubliny, otočíme ju.",
+  "Po otočení tortillu jemne pritlačíme kuchynskou stierkou alebo utierkou po okrajoch, aby sa para uzavrela vo vnútri a tortilla sa nafúkla.",
+  "Pečieme približne 1 minútu z každej strany. Nepečieme ich dlhšie, aby neboli suché a nelámali sa.",
+  "Hotové tortilly ukladáme do hrnca a prikryjeme pokrievkou, aby zostali mäkké a vláčne.",
+  "Tortilly plníme podľa chuti a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "mexické",
+  "placky"
+ ]
 }

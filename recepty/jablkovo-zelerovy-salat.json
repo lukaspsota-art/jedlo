@@ -1,57 +1,80 @@
 {
-  "id": "jablkovo-zelerovy-salat",
-  "nazov": "Jablkovo-zelerový šalát",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 59,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúci chrumkavý šalát z jablka a zeleru.",
-  "ingrediencie": [
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Jogurt",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Jablko a zeler nakrájaj na tenké prúžky alebo nastrúhaj.",
-    "Pokvapkaj citrónovou šťavou, aby jablko nezhnedlo.",
-    "Premiešaj s jogurtom.",
-    "Dochuť soľou a podávaj chladené."
-  ],
-  "tipy": "Skvelá ľahká príloha alebo samostatný rýchly obed.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "jablko",
-    "zeler"
-  ]
+ "id": "jablkovo-zelerovy-salat",
+ "nazov": "Jablkovo-zelerový šalát",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Zelerový šalát (autor: kovarimichal)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zelerovy-salat/50945-recept.html",
+ "porcie": 10,
+ "cas": "40 min",
+ "kcal_na_porciu": 414,
+ "popis": "Tento recept je vhodný ako na záhradné party tak aj na rodinné oslavy. Milujú ho starý aj \r\nmladý. Zavďačíte sa aj deťom.",
+ "ingrediencie": [
+  {
+   "nazov": "Sterilizovaná kukurica",
+   "mnozstvo": 340,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sterilizovaný ananás",
+   "mnozstvo": 340,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaný sterilizovaný zeler",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pór",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 420,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vajcia uvaríme natvrdo. Po uvarení olúpeme. Šunku a pór nakrájame na tenké prúžky. Z kukurice, ananásu a zeleru zlejeme vodu (ne-preplachujeme).",
+  "Vezmeme si veľkú nádobu s objemom aspoň 2 L. Vajcia pretlačíme cez lis na zemiaky. Potom všetky ingrediencie vložíme do nádoby. Pridáme majonézu a dobre premiešame. Dochutíme soľou a čiernym korením (odporúčam čerstvo namlieť). Môžeme pridať jarné bylinky (jarný cesnak, pažítku).",
+  "Necháme odstáť minimálne 3 hodiny v chlade. Podávame s bielym pečivom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "jablko",
+  "zeler"
+ ]
 }

@@ -1,51 +1,51 @@
 {
-  "id": "horuca-cokolada",
-  "nazov": "Domáca horúca čokoláda",
-  "kategoria": "Nápoj",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "10 min",
-  "kcal_na_porciu": 352,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová horúca čokoláda z pravej čokolády a mlieka, na zohriatie v chladných dňoch.",
-  "ingrediencie": [
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 400,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čokoláda",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "horká, nasekaná"
-    },
-    {
-      "nazov": "Kakao",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mlieko zohrej v hrnci, nesmie zovrieť.",
-    "Pridaj nasekanú čokoládu a kakao, rozmiešaj do hladka.",
-    "Dochuť cukrom podľa chuti.",
-    "Podávaj horúce, prípadne so šľahačkou."
-  ],
-  "tipy": "Vyskúšaj so štipkou škorice alebo čili pre zaujímavú variáciu.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "čokoláda",
-    "zimné"
-  ]
+ "id": "horuca-cokolada",
+ "nazov": "Domáca horúca čokoláda",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Horúca čokoláda (fotorecept) (autor: kristinamia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/horuca-cokolada-fotorecept/66003-recept.html",
+ "porcie": 8,
+ "cas": "10 min",
+ "kcal_na_porciu": 177,
+ "popis": "Milujem hustú horúcu čokoládu s \r\nozajstnou šľahačkou. Tak som si \r\nju urobila.",
+ "ingrediencie": [
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoládový puding",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoláda",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravila som si ingrediencie.",
+  "V 9 dcl mlieka som rozpustila čokoládu a cukor.",
+  "Vo zvyšnom mlieku som rozmiešala puding.",
+  "Vyliala do mlieka s čokoládou a varila do zhustnutia."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "čokoláda",
+  "zimné"
+ ]
 }

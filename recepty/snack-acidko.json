@@ -1,28 +1,107 @@
 {
-  "id": "snack-acidko",
-  "nazov": "Acidofilné mlieko",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 150,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kúpené acidofilné mlieko / acidko.",
-  "ingrediencie": [
-    {
-      "nazov": "Acidofilné mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml"
-    }
-  ],
-  "postup": [
-    "Kúpené — otvor a vypi."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "kupované"
-  ]
+ "id": "snack-acidko",
+ "nazov": "Acidofilné mlieko",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Pudingová bábovka z acidofilného mlieka (fotorecept) (autor: ivka152)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pudingova-babovka-z-acidofilneho-mlieka-fotorecept/55189-recept.html",
+ "porcie": 16,
+ "cas": "120 min",
+ "kcal_na_porciu": 216,
+ "popis": "Táto bábovka je jednoducho úžasná! Nieje vôbec \r\nsuchá,ani presladená.Odporúčam vyskúšať :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 330,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kypriaci prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Acidofilné mlieko",
+   "mnozstvo": 350,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoládový puding",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Perníkové korenie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový puding",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablká veľké",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na vymastenie formy"
+  },
+  {
+   "nazov": "Hrubá múka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na vysypanie formy"
+  }
+ ],
+ "postup": [
+  "Osobitne zmiešame suché suroviny(múka,PDP,cukor) a mokré(mlieko,vajcia,olej).Všetko spolu poriadne vymiešame-stačí metličkou,pridáme očistené a na kocky pokrájané jablká a cesto rozdelíme na polovicu.Po jednej časti pridáme vanilkový puding...",
+  "...do druhej čokoládový puding a perníkové korenie.",
+  "Formu vymastíme a vysypeme hrubou múkou(mám silikónovú ale aj tak,lepšie sa vyklápa),a môžme začať dávať cesto.Ja som cesto ukladala lyžicou.Najprv vrstva svetlého,potom tmavé..",
+  "...až kým neminieme všetko :-) a môžme dať piecť do vyhriatej rúry na 180°C,asi po 1/2 hodine teplotu znížime na 160°C a dopečieme.",
+  "Upečená :-) mne to trvalo cca hodinu a pol,mám elektrickú rúru,ale treba sledovať.",
+  "Necháme vychladnúť a môžme vyklopiť...",
+  "a samozrejme,čokoláda nesmie chýbať :-D"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "kupované"
+ ]
 }

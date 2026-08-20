@@ -1,0 +1,42 @@
+{
+ "id": "afterglow",
+ "nazov": "Afterglow",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Afterglow",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12560",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 185,
+ "popis": "Cocktail · Highball Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Grenadína",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ananás",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mix.",
+  "Serve over ice."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "bezmäsité"
+ ]
+}

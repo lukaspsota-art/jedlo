@@ -1,28 +1,78 @@
 {
-  "id": "pecivo-celozrnny",
-  "nazov": "Celozrnný chlieb",
-  "kategoria": "Pečivo",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 144,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krajec celozrnného chleba.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnný chlieb",
-      "mnozstvo": 60,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Nakrájaj a podávaj."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "celozrnné"
-  ]
+ "id": "pecivo-celozrnny",
+ "nazov": "Celozrnný chlieb",
+ "kategoria": "Pečivo",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Domáci chlieb celozrnný (autor: karinfisher10)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domaci-chlieb-celozrnny/33399-recept.html",
+ "porcie": 1,
+ "cas": "55 min",
+ "popis": "Sama som tento recept upravila. :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Voda",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muka celozrnna",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muka hladka",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamové semiačka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľanové semiačka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vločky",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Nahrejem ruru, vlozim do nej formu (ja mam zeleznu) ale podla mna toto mozete vynechat. Potom vsetko v mixeri zmiesam a vymiesim cesto. polozim do teplej zeleznej formy (mozete na obycajny plech alebo do kosika na kysnutie) a pockam kym to vykysne.",
+  "Potom to dam piect, zhruba na 30 minut, alebo 45 minut.",
+  "Hotovo !"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "celozrnné"
+ ]
 }

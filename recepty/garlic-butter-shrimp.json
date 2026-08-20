@@ -1,66 +1,83 @@
 {
-  "id": "garlic-butter-shrimp",
-  "nazov": "Garlic Butter Shrimp (cesnakové krevety)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "internet – adaptované (Budget Bytes)",
-  "porcie": 3,
-  "cas": "15 min",
-  "kcal_na_porciu": 330,
-  "popis": "Krevety na cesnakovom masle s citrónom — hotové za pár minút.",
-  "ingrediencie": [
-    {
-      "nazov": "Krevetiek",
-      "mnozstvo": 400,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "maslo",
-      "mnozstvo": 3,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 4,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Citróna",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Petržlen",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Korenie",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Štipka čili vločiek",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Na masle krátko opeč cesnak a čili vločky (nesmie zhorknúť).",
-    "Pridaj krevety, osoľ a opekaj 2–3 min, kým nezružovejú.",
-    "Dochuť citrónom a petržlenom. Podávaj s pečivom alebo ryžou."
-  ],
-  "tipy": "Krevety sa varia rýchlo — akonáhle zružovejú, sú hotové.",
-  "foto": "",
-  "tagy": [
-    "rýchle",
-    "morské plody",
-    "cesnak"
-  ]
+ "id": "garlic-butter-shrimp",
+ "nazov": "Garlic Butter Shrimp (cesnakové krevety)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Wikibooks Cookbook – Garlic Shrimp with Lemon Butter Sauce (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook%3AGarlic_Shrimp_with_Lemon_Butter_Sauce",
+ "porcie": 1,
+ "cas": "15 min",
+ "kcal_na_porciu": 107,
+ "popis": "Krevety na cesnakovom masle s citrónom — hotové za pár minút.",
+ "ingrediencie": [
+  {
+   "nazov": "Krevety",
+   "mnozstvo": 36,
+   "jednotka": "ks",
+   "poznamka": "olúpaná a deveined"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "freshly-mleté"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "0.25 cups"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "posekaná"
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "finely posekaná"
+  },
+  {
+   "nazov": "Lemons ",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Krevety výdatne osolíme a okoreníme čerstvo mletým čiernym korením. Odložíme nabok.",
+  "Na veľkej panvici rozpustíme 2 PL masla s olivovým olejom. Pridáme cesnak a opekáme do zlata.",
+  "Pridáme krevety a opekáme, kým nezružovejú a nestratia sklovitosť. Udržujeme v teple.",
+  "Vo väčšom kastróle rozpustíme 2 PL masla. Pridáme šalotku a restujeme 30 sekúnd.",
+  "Prilejeme citrónovú šťavu, smotanu a zvyšné maslo. Prehrejeme, kým sa maslo nerozpustí, a dochutíme.",
+  "Omáčku prelejeme na krevety a podávame teplé."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "rýchle",
+  "morské plody",
+  "cesnak"
+ ]
 }

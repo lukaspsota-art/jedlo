@@ -1,57 +1,82 @@
 {
-  "id": "salat-z-pecenej-papriky-a-paradajok",
-  "nazov": "Šalát z pečenej papriky a paradajok",
-  "kategoria": "Šalát",
-  "kuchyna": "Balkánska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 102,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sladkastý balkánsky šalát z pečenej papriky a paradajok.",
-  "ingrediencie": [
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Papriku peč pri 220 °C asi 20 minút, kým šupka nesčernie, ošúp a nakrájaj na prúžky.",
-    "Paradajky nakrájaj na kocky.",
-    "Premiešaj s pretlačeným cesnakom a olivovým olejom.",
-    "Dochuť soľou a podávaj studené alebo vlažné."
-  ],
-  "tipy": "Skvelý letný predjedlový šalát.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "paprika",
-    "balkánske"
-  ]
+ "id": "salat-z-pecenej-papriky-a-paradajok",
+ "nazov": "Šalát z pečenej papriky a paradajok",
+ "kategoria": "Šalát",
+ "kuchyna": "Balkánska",
+ "zdroj": "Varecha.sk – Šalát z paradajok a chleba (fotorecept) (autor: marianne)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/salat-z-paradajok-a-chleba-fotorecept/43455-recept.html",
+ "porcie": 4,
+ "cas": "10 min",
+ "kcal_na_porciu": 358,
+ "popis": "Úprimne,kedže poznám chute domácich,myslela som,že  budem šalát doma jesť sama.Aj tak dobre,hovorím si,viac mi ostane.Ale skoro neostalo ani na fotku.Do pol hodinky bolo po ňom. Doslova za pár minút bol hotový. Celozrnný chlebík splnil svoj účel.",
+ "ingrediencie": [
+  {
+   "nazov": "Veľké mäsité paradajky",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnný starší chlieb",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červené víno",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano čerstvé alebo sušené",
+   "mnozstvo": 6,
+   "jednotka": "list",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": 6,
+   "jednotka": "list",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej olivový extra virgin",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie čerstvo mleté",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Paradajky nakrájame na malé kúsky,posolíme a necháme postáť.",
+  "Nakrájame chlieb na kocky,dáme ich do misy a pokvapkáme červeným vínom,ktoré môžeme a nemusíme zmiešať s troškou vody.Pridáme bylinky.",
+  "Pridáme posolené rajčinky,cibuľku aj vňaťková môže byť.Pokvapkáme oliv.olejom asi 4 PL,okoreníme čerstvo pomletým korením,dáme vychladnúť do chladničky.",
+  "Vychladené ešte pokvapkáme dvoma PL oleja.Podávame.Doma si k tomu pridali ešte údený ovčí syr.A chutilo veľmi.Zmizlo rýchlosťou blesku.",
+  "Recept na chlieb je tu: http://varecha.pravda.sk/recepty/celozrnny-kysnuty-chlieb-fotorecept/43431-recept.html alebo si upečte podľa svojho osvedčeného receptu,alebo aj kupovaný poslúži."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "paprika",
+  "balkánske"
+ ]
 }

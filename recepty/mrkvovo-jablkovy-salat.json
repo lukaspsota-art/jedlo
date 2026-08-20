@@ -1,52 +1,120 @@
 {
-  "id": "mrkvovo-jablkovy-salat",
-  "nazov": "Mrkvovo-jablkový šalát",
-  "kategoria": "Šalát",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 83,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý svieži šalát z mrkvy a jablka.",
-  "ingrediencie": [
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mrkvu a jablká nastrúhaj najemno.",
-    "Premiešaj s citrónovou šťavou, aby jablká nezhnedli.",
-    "Prisladiť medom podľa chuti.",
-    "Podávaj chladené."
-  ],
-  "tipy": "Skvelý ako rýchla príloha alebo desiata.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "mrkva",
-    "jablko",
-    "zdravé"
-  ]
+ "id": "mrkvovo-jablkovy-salat",
+ "nazov": "Mrkvovo-jablkový šalát",
+ "kategoria": "Šalát",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Cviklovo-mrkvovo-jablkový RAW šalát (fotorecept) (autor: sracz)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cviklovo-mrkvovo-jablkovy-raw-salat-fotorecept/92139-recept.html",
+ "porcie": 6,
+ "cas": "30 min",
+ "kcal_na_porciu": 327,
+ "popis": "Dal som sľub, tak považujem za „psiu povinnosť“ ho aj splniť.* Pripravujem ho už dávnejšie, zopár razy som naň aj upozornil, ale \r\n„per ksicht“ je to predsa iba najlepšie. Blíži sa termín mojej kontroly cukru a cholesterolu v krvi. Svoju hmotnosť som, aj vďaka \r\nzmene stravovacích návykov počas štyroch mesiacov, znížil o viac ako 12 kg. K tomuto výsledku, svojím spôsobom, prispel aj \r\ntento šalát.",
+ "ingrediencie": [
+  {
+   "nazov": "Cvikla",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelené jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprička jalopeño",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletý koriander",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá rasca",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá kurkuma",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": "čerstvá, pokrájaná"
+  },
+  {
+   "nazov": "Olej olivový extra panenský",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelerová vňať",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "čerstvá, pokrájaná"
+  }
+ ],
+ "postup": [
+  "Ak nepočítam koreniny, tak som potreboval desať základných ingrediencií.",
+  "Očistenú cviklu a mrkvu som do zmiešovacej misy postrúhal na malých (syrových) slzičkách.",
+  "Jablko, neolúpané bez jadrinca, na veľkých a jalapeño aj s jadrincom, nadrobno (postupne na ½, potom na ¼ a napokon na 1/8) pokrájal.",
+  "Spolu s pokrájanou veľkou „bunčou“ pokrájanej petržlenovej vňate, mal som aj zelerové listy, tak som ich pokrájal a použil taktiež, vložil na postrúhané jablko. Orechy (cez noc namočené vo vode) som pokrájal na hrubšie kúsky.",
+  "Pridal som PL medu, soľ, mletý koriander (cilantro), mletú rascu, škoricu a kurkumu (ten už obsahuje curcumin), ešte šťavu z jedného citróna (mal som tzv. Mayer), pokropil olivovým olejom, tentoraz extra panenským, pretože nenasledovala tepelná úprava.",
+  "Po zmiešaní celá dávka vyzerala takto."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "mrkva",
+  "jablko",
+  "zdravé"
+ ]
 }

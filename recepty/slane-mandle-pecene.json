@@ -1,45 +1,74 @@
 {
-  "id": "slane-mandle-pecene",
-  "nazov": "Slané pečené mandle",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 6,
-  "cas": "20 min",
-  "kcal_na_porciu": 206,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoducho upečené mandle s morskou soľou, skvelý snack na cesty.",
-  "ingrediencie": [
-    {
-      "nazov": "Mandle",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 10,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mandle premiešaj s olivovým olejom a soľou.",
-    "Rozlož na plech v jednej vrstve.",
-    "Peč pri 160 °C asi 12-15 minút, priebežne premiešaj.",
-    "Nechaj vychladnúť pred podávaním."
-  ],
-  "tipy": "Skladuj v uzavretej dóze, vydržia aj 2 týždne.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "mandle",
-    "zdravé"
-  ]
+ "id": "slane-mandle-pecene",
+ "nazov": "Slané pečené mandle",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pečené medové jablká s mandľami (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecene-medove-jablka-s-mandlami/79257-recept.html",
+ "porcie": 7,
+ "cas": "60 min",
+ "kcal_na_porciu": 221,
+ "popis": "Jednoducho upečené mandle s morskou soľou, skvelý snack na cesty.",
+ "ingrediencie": [
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "Gala, Pink Lady"
+  },
+  {
+   "nazov": "Červený vermút",
+   "mnozstvo": 180,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandle",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "V hrnci povaríme vermút a med do zhustnutia. Pridáme hrozienka, odstavíme a necháme vychladnúť. Rúru predhrejeme na 170 °C. V mise zmiešame nastrúhanú kôru z pomaranča, šťavu z pomaranča, cukor a škoricu.",
+  "Jablká zbavíme jadrovníka a vodorovne nakrájame na tenké plátky tak, aby sme ich vedeli neskôr opäť spojiť. Každý plátok obalíme z oboch strán pomarančovou zmesou a zložíme do pôvodného tvaru jablka a vložíme do zapekacej misy.",
+  "Hrozienka vyberieme z medového sirupu a zmiešame s nasekanými a opraženými mandľami. Naplníme nimi otvory v jablkách a pokvapkáme medovým sirupom a pomarančovou šťavou. Pečieme za občasného polievania šťavou asi 30–40 minút. Podávame s mascarpone alebo kopčekom zmrzliny."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "mandle",
+  "zdravé"
+ ]
 }

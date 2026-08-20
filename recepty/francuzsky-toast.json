@@ -1,63 +1,82 @@
 {
-  "id": "francuzsky-toast",
-  "nazov": "Francúzsky toast",
-  "kategoria": "Raňajky",
-  "kuchyna": "Francúzska",
-  "zdroj": "klasický recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 363,
-  "kcal_zdroj": "vypocet",
-  "popis": "Chlieb namočený vo vajíčkovej zmesi a opečený dozlata.",
-  "ingrediencie": [
-    {
-      "nazov": "Toastový chlieb",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vajcia rozšľahaj s mliekom a škoricou.",
-    "Plátky chleba namoč z oboch strán.",
-    "Opekaj na masle dozlata z oboch strán.",
-    "Podávaj s medom alebo ovocím."
-  ],
-  "tipy": "Použi mierne starší chlieb, lepšie nasiakne zmes.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "francúzske",
-    "sladké"
-  ]
+ "id": "francuzsky-toast",
+ "nazov": "Francúzsky toast",
+ "kategoria": "Raňajky",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Francúzsky toast (autor: nyssabun)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/francuzsky-toast/94393-recept.html",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 189,
+ "popis": "Na niektoré recepty netreba špeciálnu príležitosť.* French toast pripravujeme len tak. Keď máme chuť spomaliť, vychutnať si \r\nspoločné raňajky a spraviť si obyčajný deň o trochu krajší. A presne preto sa k nemu stále radi vraciame. :)",
+ "ingrediencie": [
+  {
+   "nazov": "Toastový chlieb",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené mlieko",
+   "mnozstvo": 160,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo kokosový olej"
+  }
+ ],
+ "postup": [
+  "Rozohrejeme panvicu na miernom ohni.",
+  "Zmes na namáčanie chleba: Pomocou mixéra zmiešame všetky suroviny. Ak miešame metličkou - najskôr rozšľaháme vajcia s múkou a potom postupne vmiešame ostatné ingrediencie, až kým nebude zmes hladká.",
+  "Plátky toastového chleba namočíme z oboch strán do pripravenej zmesi a položíme ich na rozohriatu, jemne vymastenú panvicu.",
+  "Opekáme niekoľko minút, kým spodná strana nezíska zlatohnedú farbu. Potom otočíme a rovnakým spôsobom opečieme aj druhú stranu.",
+  "Keď je toast krásne zlatistý a kuchyňa rozvoniava škoricou a vanilkou, stačí ho už len naložiť na tanier a podávať ešte teplý. My ho doma najradšej jeme s džemom a vanilkovým jogurtom, ale skvelo chutí aj s čerstvým ovocím, javorovým sirupom či len jemne posypaný práškovým cukrom. :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "francúzske",
+  "sladké"
+ ]
 }

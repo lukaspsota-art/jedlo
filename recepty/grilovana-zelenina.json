@@ -1,63 +1,80 @@
 {
-  "id": "grilovana-zelenina",
-  "nazov": "Grilovaná zelenina",
-  "kategoria": "Príloha",
-  "kuchyna": "Stredomorská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 97,
-  "kcal_zdroj": "vypocet",
-  "popis": "Farebná grilovaná zelenina s bylinkami a olivovým olejom.",
-  "ingrediencie": [
-    {
-      "nazov": "Cuketa",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Baklažán",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "sušená"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zeleninu nakrájaj na plátky.",
-    "Premiešaj s olivovým olejom, bazalkou a soľou.",
-    "Gril alebo opeč na panvici z oboch strán do mäkka.",
-    "Podávaj teplé alebo studené."
-  ],
-  "tipy": "Skvelá aj ako súčasť studeného šalátu na druhý deň.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "zelenina",
-    "grilované"
-  ]
+ "id": "grilovana-zelenina",
+ "nazov": "Grilovaná zelenina",
+ "kategoria": "Príloha",
+ "kuchyna": "Stredomorská",
+ "zdroj": "Varecha.sk – Grilovaná zelenina (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/grilovana-zelenina/8482-recept.html",
+ "porcie": 10,
+ "cas": "28 min",
+ "kcal_na_porciu": 207,
+ "popis": "Farebná grilovaná zelenina s bylinkami a olivovým olejom.",
+ "ingrediencie": [
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé bylinky",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Baklažán a cuketu umyjeme a nakrájame na plátky, šampiňóny a cibuľu na väčšie kúsky. Paradajky umyjeme a osušíme. Všetku zeleninu dôkladne premiešame s nasekanými bylinkami, olivovým olejom, soľou a korením.",
+  "Necháme ugrilovať pri teplote 200 - 220 °C a ihneď podávame.",
+  "Náš tip: Baklažán je ideálne nakrájať na kolieska, rozložiť na plech, posoliť a nechať tzv. vypotiť, aby sa stratila horkosť. Potom ho len osušíme papierovou utierkou. Zeleninu môžeme ochutiť aj prelisovaným cesnakom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "zelenina",
+  "grilované"
+ ]
 }

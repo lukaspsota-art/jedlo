@@ -1,45 +1,37 @@
 {
-  "id": "godfather",
-  "nazov": "Godfather",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 180,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý silný kokteil z whiskey a amaretta.",
-  "ingrediencie": [
-    {
-      "nazov": "Whiskey",
-      "mnozstvo": 45,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Amaretto",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň ľadom.",
-    "Prilej whiskey a amaretto.",
-    "Jemne premiešaj.",
-    "Podávaj ihneď."
-  ],
-  "tipy": "Amaretto dodáva whiskey príjemnú mandľovú sladkosť.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "whiskey",
-    "americké"
-  ]
+ "id": "godfather",
+ "nazov": "Godfather",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Godfather",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11423",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 170,
+ "popis": "Ordinary Drink · Old-fashioned glass",
+ "ingrediencie": [
+  {
+   "nazov": "Škótska whisky",
+   "mnozstvo": 44.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Amaretto",
+   "mnozstvo": 22.2,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie nalejeme priamo do nízkeho pohára s ľadom.",
+  "Opatrne premiešame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "whiskey",
+  "americké"
+ ]
 }

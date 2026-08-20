@@ -1,64 +1,68 @@
 {
-  "id": "brokolicova-kremova-polievka",
-  "nazov": "Brokolicová krémová polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 147,
-  "kcal_zdroj": "vypocet",
-  "popis": "Hladká krémová polievka z brokolice.",
-  "ingrediencie": [
-    {
-      "nazov": "Brokolica",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 80,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu.",
-    "Pridaj brokolicu rozobranú na ružičky a vývar.",
-    "Var 15 minút do mäkka.",
-    "Rozmixuj dohladka a vmiešaj smotanu.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Zeleň brokolice dodáva polievke krásnu farbu.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "brokolica",
-    "krémová"
-  ]
+ "id": "brokolicova-kremova-polievka",
+ "nazov": "Brokolicová krémová polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Krémová brokolicová polievka (autor: janulinka26)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kremova-brokolicova-polievka/86615-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 284,
+ "popis": "Veľmi rýchla, chutná a zdravá \r\npolievka. Veľmi obľúbená aj u detí.",
+ "ingrediencie": [
+  {
+   "nazov": "Brokolica",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na varenie",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Umytú a nakrájanú brokolicu, mrkvu a petržlen nakrájané na kolieska, zemiaky nakrájané na kocky dáme do vody v hrnci a varíme. Pridáme soľ, vegetu podľa chuti, cca 1 lyžičku.",
+  "Po uvarení všetko rozmixujeme. Pridáme smotanu na varenie alebo rastlinnú smotanu. Ja dávam rastlinnú vačšinou kvoli alergii syna na mliečnu bielkovinu. Necháme prejsť varom.",
+  "Podávame s opraženým chlebikom na panvici a kto ma rád môže si pridať tvrdý syr nakrájaný na kocky do taniera k polievke. Dobrú chuť :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "brokolica",
+  "krémová"
+ ]
 }

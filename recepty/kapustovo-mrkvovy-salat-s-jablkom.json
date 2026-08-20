@@ -1,57 +1,62 @@
 {
-  "id": "kapustovo-mrkvovy-salat-s-jablkom",
-  "nazov": "Kapustovo-mrkvový šalát s jablkom",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 61,
-  "kcal_zdroj": "vypocet",
-  "popis": "Chrumkavý coleslaw šalát obohatený o jablko.",
-  "ingrediencie": [
-    {
-      "nazov": "Červené zelie",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jogurt",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zelie, mrkvu a jablko nastrúhaj najemno.",
-    "Premiešaj s jogurtom.",
-    "Dochuť soľou.",
-    "Nechaj 20 minút odstáť v chladničke pred podávaním."
-  ],
-  "tipy": "Jablko dodáva šalátu príjemnú sladkastú svieżosť.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "zelie",
-    "jablko"
-  ]
+ "id": "kapustovo-mrkvovy-salat-s-jablkom",
+ "nazov": "Kapustovo-mrkvový šalát s jablkom",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Kapustovo–mrkvový šalát (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kapustovomrkvovy-salat/1913-recept.html",
+ "porcie": 9,
+ "cas": "60 min",
+ "kcal_na_porciu": 393,
+ "popis": "Chrumkavý coleslaw šalát obohatený o jablko.",
+ "ingrediencie": [
+  {
+   "nazov": "Strúhaná kapusta",
+   "mnozstvo": 4000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaná mrkva",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukor kryštál",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Postrúhanú kapustu, mrkvu a cibuľu zmiešame.",
+  "Prevaríme suroviny na nálev, po vychladnutí precedíme a nalejeme na zmes. Necháme odstáť 24 hodín.",
+  "Odstáty šalát naložíme do fliaš a sterilizujeme 20 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "zelie",
+  "jablko"
+ ]
 }

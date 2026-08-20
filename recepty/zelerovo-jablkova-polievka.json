@@ -1,64 +1,110 @@
 {
-  "id": "zelerovo-jablkova-polievka",
-  "nazov": "Zelerovo-jablková polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Francúzska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 100,
-  "kcal_zdroj": "vypocet",
-  "popis": "Netradičná jemná krémová polievka zo zeleru a jablka.",
-  "ingrediencie": [
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 80,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zeler a jablko nakrájaj na kocky.",
-    "Na oleji opraž cibuľu, pridaj zeler, jablko a vývar.",
-    "Var 20 minút do mäkka.",
-    "Rozmixuj dohladka, vmiešaj smotanu.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Jablko dodáva polievke jemnú sladkastú chuť.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "zeler",
-    "jablko"
-  ]
+ "id": "zelerovo-jablkova-polievka",
+ "nazov": "Zelerovo-jablková polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Zelerovo-paradajková polievka (fotorecept) (autor: patroveckypitrs)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zelerovo-paradajkova-polievka-fotorecept/65552-recept.html",
+ "porcie": 8,
+ "cas": "65 min",
+ "kcal_na_porciu": 82,
+ "popis": "Takúto polievku so raz jedol v jednej reštaurácii. Veľmi mi zachutila, tak ju aj doma robím, \r\nhlavne na jeseň. Do \r\ntýchto upršaných dní je veľmi zdravá. Pravdaže aj iné dní počas roku, treba konzumovať \r\nzeler. Je veľmi zdravý.",
+ "ingrediencie": [
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pór",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky lúpané v konzerve",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 5,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky sušené nakladané v oleji",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie štyroch farieb čerstvo pomlete",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové mleté korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Omáčka čili pálivá",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vňať zelerová nadrobno nasekaná",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si suroviny a očistíme.",
+  "Dve tretiny zeleru pokrájame na dvoj centimetrové kocky. Na plech dáme papier na pečenie a naň uložíme zeler. Ten osolíme a okoreníme čerstvo mletím korením štyroch farieb. Napokon zľahka potrieme olivovým olejom. Dáme piecť do rúry na 180 °C na 45 minút. Upečieme ho aby nám zmäkol a na vrchnej strane chytil pripečenú kôrku.",
+  "Zvyšok zeleru a zemiaky pokrájame na 1 cm kocky. Cesnak a sušene paradajky posekáme na drobno. Pór krájame na kolieska.",
+  "Do hrnca dáme trochu olivového oleja. Na ňom dusíme pór. Po zmäknutí pridáme cesnak a sušene paradajky. Chvíľu podusíme.",
+  "A pridáme paradajky aj z nálevom. Miešame stále až sa nám to začne variť.",
+  "Do vriacich paradajok pridáme čili omáčku, zemiaky a zeler. Tiež osolíme. Chvíľu podusíme a zalejeme vriacou vodou. Varíme tak dlho aby zemiaky a zeler boli mäkké.",
+  "Hrniec dáme preč zo sporáku a všetko v hrnci rozmixujeme. Teraz hrniec vrátime znovu na sporák a rozvaríme tak na 5 minút. Nakoniec pridáme do polievky zelerovú vňať. Odstavíme nabok. Pripadne dosolíme.",
+  "Na plechu sa nám zatiaľ upiekol zeler. Ten dáme do horúcej polievky. A máme hotovo.",
+  "Môžeme servírovať. Želám Vám dobrú chuť. Dobre tato polievka padne na toto chrípkové obdobie."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "zeler",
+  "jablko"
+ ]
 }

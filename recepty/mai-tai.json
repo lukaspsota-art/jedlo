@@ -1,57 +1,56 @@
 {
-  "id": "mai-tai",
-  "nazov": "Mai Tai",
-  "kategoria": "Kokteil",
-  "kuchyna": "Karibská",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 206,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tropický kokteil z rumu, limetky a pomarančovej šťavy.",
-  "ingrediencie": [
-    {
-      "nazov": "Rum",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Pomarančový džús",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň drveným ľadom.",
-    "Prilej rum, limetkovú šťavu a pomarančový džús.",
-    "Prisladiť cukrom.",
-    "Premiešaj a ozdob plátkom limetky."
-  ],
-  "tipy": "Tradične sa pripravuje z dvoch druhov rumu.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "rum",
-    "tropické"
-  ]
+ "id": "mai-tai",
+ "nazov": "Mai Tai",
+ "kategoria": "Kokteil",
+ "kuchyna": "Karibská",
+ "zdroj": "TheCocktailDB – Mai Tai",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11690",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 252,
+ "popis": "Ordinary Drink · Collins glass",
+ "ingrediencie": [
+  {
+   "nazov": "Rum",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Orgeat syrup",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Triple sec",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sladkokyslá zmes",
+   "mnozstvo": 44.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koktejlová višňa",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie pretrepeme s ľadom.",
+  "Precedíme do pohára.",
+  "Ozdobíme a podávame so slamkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "rum",
+  "tropické"
+ ]
 }

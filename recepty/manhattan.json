@@ -1,51 +1,60 @@
 {
-  "id": "manhattan",
-  "nazov": "Manhattan",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 179,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický silný kokteil z whiskey a sladkého vermutu.",
-  "ingrediencie": [
-    {
-      "nazov": "Whiskey",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Víno",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": "červený vermút"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 5,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do miešacieho pohára daj whiskey, vermút, cukor a ľad.",
-    "Premiešaj (nemieť).",
-    "Precedi do vychladeného pohára.",
-    "Podávaj bez ľadu."
-  ],
-  "tipy": "Tradične sa ozdobuje maraschino čerešňou.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "whiskey",
-    "americké"
-  ]
+ "id": "manhattan",
+ "nazov": "Manhattan",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Manhattan",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11008",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 309,
+ "popis": "Cocktail · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Sladký vermút",
+   "mnozstvo": 22.2,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bourbon",
+   "mnozstvo": 73.9,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bitter",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koktejlová višňa",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Premiešame na ľade, precedíme do vychladeného pohára, ozdobíme a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "whiskey",
+  "americké"
+ ]
 }

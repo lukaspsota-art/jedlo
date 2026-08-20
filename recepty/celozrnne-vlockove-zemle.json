@@ -1,70 +1,138 @@
 {
-  "id": "celozrnne-vlockove-zemle",
-  "nazov": "Celozrnné vločkové žemličky",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "100 min",
-  "kcal_na_porciu": 196,
-  "kcal_zdroj": "vypocet",
-  "popis": "Výživné celozrnné žemličky s ovsenými vločkami, skvelé ako základ do sendviča.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnná múka",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ovsené vločky",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 280,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vločiek, vlažnej vody, droždia, medu, oleja a soli vypracuj cesto. Nechaj kysnúť 1 hodinu.",
-    "Cesto rozdeľ na 8 kúskov a vytvaruj žemličky.",
-    "Vrch posyp ovsenými vločkami.",
-    "Nechaj 15 minút kysnúť.",
-    "Peč pri 200 °C asi 20 minút do zlatista."
-  ],
-  "tipy": "Skvelý základ na sendvič so šunkou a syrom do práce či školy.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "celozrnné",
-    "zdravé"
-  ]
+ "id": "celozrnne-vlockove-zemle",
+ "nazov": "Celozrnné vločkové žemličky",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Dlho vláčne žemličky s celozrnnou múkou a semienkami (fotorecept) (autor: glka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/dlho-vlacne-zemlicky-s-celozrnnou-mukou-a-semienkami-fotorecept/40749-recept.html",
+ "porcie": 12,
+ "cas": "12 min",
+ "kcal_na_porciu": 257,
+ "popis": "Tieto na prípravu jednoduché a veľmi chutné  žemličky vydržia vláčne aj 3-4 dni vďaka tzv. zápare - semienok, ktoré vopred uvaríme v osolenej vode. A zápara je presne to, čo urobí z obyčajných buchiet výnimočné žemličky.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnná múka",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlažná voda",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlažné mlieko",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Melasa",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľanové mleté semienka",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ražné otruby",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 140,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bielok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrubozrnná soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ideálne večer pred pečením si pripravíme záparu: Do malého hrnca s pokrievkou dáme zovrieť menej než 150 ml vody ( cca 140 ml) a pridáme lyžičku soli. Do misky si odvážime a namiešame vločky a semienka - môžu byť samorejme aj iné, ale je fajn, ak zmes obsahuje ľanové mleté semienka. Po zovretí vody vsypeme semienka do hrnca, zamiešame, rýchlo prikryjeme pokrievkou a plameň hneď vypneme. Hrniec so semienkami necháme stáť pri izbovej teplote po celú noc. Semienka budú mať čas dobre absorbovať vodu a zmäknúť, soľ v zápare zabezpečí, aby sa zmes za tých cca 12 hodín státia pri izbovej teplote nepokazila. Takto zápara vyzerá tesne po uvarení.",
+  "Ráno si pripravíme kysnuté cesto z uvedených surovín - (miesim ho v pekárničke, takže najskôr prilejem mlieko, vodu, olej, žĺtok, pridám lyžičku soli a lyžičku melasy. Prisypem hladkú a celozrnnú múku a navrh rozmrvené droždie. ) Po zaznení zvukového signálu, resp. po cca 5 minútach prihodíme do pekárničky k cestu pripravenú záparu a necháme pekárničku domiesiť cesto. Cesto necháme cca 1,5 hodiny kysnúť pri izbovej teplote - v pekárničke alebo prikryté v miske na kuchynskej linke. Takto vyzerá po vykysnutí:",
+  "Cesto rozdelíme na 12 častí, pričom každú vyformujeme na guľku. Necháme chvíľku postáť.",
+  "... A vytvarujeme žemličky podľa toho, čo sa komu páči. Napríklad guľky len narežeme do kríža .... alebo z guľky vytvarujeme takéto žemličky :",
+  "Vytvarované žemličky prehodíme na plech, necháme chvíľočku podkysnúť, potrieme bielkom a posypeme podľa toho, čo komu chutí - hrubozrnnou soľou, semienkami.",
+  "A vložíme do rúry vyhriatej na 230 stupňov. Pečieme 12 minút. Takto vyzerajú v reze:",
+  "Recept si môžeme rôzne prispôsobiť a načasovať. Cesto si zamiesime večer a hneď po zamiesení ho vložíme prikryté do chladničky kysnúť na celú noc. (záparu v takomto prípade pripravíme iba cca hodinku skôr, len aby stihla vychladnúť. Bude mať čas odstáť priamo v ceste. ) Ráno cesto vyberieme, necháme na kuchynskej linke zohriať na izbovú teplotu - cca 20 minút a pokračujeme podľa bodu 3. Alebo si večer nielen zamiesime cesto, ale rovno pripravíme i žemličky, preložíme na plech ,prikryjeme fóliou či alobalom a vložíme do chladničky. Ráno plech vyberieme, potrieme želmičky bielkom, semienkami či soľkou, vložíme do studenej rúry, na ktorej sme nastavili teplotu 220 stupňov. Kým sa rúra vyhreje, žemličky trošku podkysnú a následne sa upečú. Kvôli studenej rúre pečenie bude trvať o čosi dlhšie - cca 20 minút. Tento postup je výborný najmä ak ráno nemáme čas zabávať sa s formovaním žemličiek. Žĺtok sa môže vynechať, rovnako sa dajú žemle pripraviť len z vody bez mlieka. No najlpešie sa vydaria, ak do cesta mlieko a žĺtok pridáme. Rovnako môžeme časť droždia nahradiť klasickým žitným kváskom, žemličky majú potom chlebovejšiu konzisteniciu a chuť. Ale zápara je práve to, čo dodáva žemličkám vláčnosť na dlhý čas . Napučané semienka udržiavajú cesto dostatočne vlhké a mäkké aj viac dní. Čím dlhšie zápara odpočíva pri izbovej teplote, tým lepšie sa žemličky vydaria. Ak máme málo času, záparu nemusíme nechať tak dlho stáť, po upečení budú žemličky aj tak výborné, no na druhý či tretí deň už možno nie. Recept vznikol ako mix rôznych receptov blogeriek cistinky a maskrtnice. Dúfam, že recept niekto vyskúša a vydarí sa mu. Dobrú chuť :-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "celozrnné",
+  "zdravé"
+ ]
 }

@@ -1,88 +1,111 @@
 {
-  "id": "plnene-papriky",
-  "nazov": "Plnené papriky v paradajkovej omáčke",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "80 min",
-  "kcal_na_porciu": 430,
-  "popis": "Papriky plnené mletým mäsom s ryžou, dusené v sladkokyslej paradajkovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 8,
-      "jednotka": "ks",
-      "poznamka": "na plnenie"
-    },
-    {
-      "nazov": "Mleté mäso",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "bravčovo-hovädzie"
-    },
-    {
-      "nazov": "Ryža",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajkový pretlak",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ryžu predvar do polomäkka. Zmiešaj mäso, ryžu, nasekanú cibuľu, vajce, soľ a korenie.",
-    "Papriky zbav jadier a naplň mäsom.",
-    "V hrnci sprav omáčku z pretlaku a vody, osoľ, osladz.",
-    "Papriky vlož do omáčky a dus asi 45 minút.",
-    "Omáčku zahusti zápražkou alebo rozmiešanou múkou."
-  ],
-  "tipy": "Vyváž sladkokyslú chuť. Podávaj s knedľou alebo zemiakmi.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "mäso",
-    "zelenina"
-  ],
-  "foto": ""
+ "id": "plnene-papriky",
+ "nazov": "Plnené papriky v paradajkovej omáčke",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Plnená paprika v paradajkovej omáčke (autor: dr)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/plnena-paprika-v-paradajkovej-omacke/59117-recept.html",
+ "porcie": 8,
+ "cas": "70 min",
+ "kcal_na_porciu": 413,
+ "popis": "Viem, že sú tu recepty na plnenú papriku. Možno je v tom mojom niečo iné, ako v tých čo tu už sú, alebo je môj postup iný, ak vás ale recept nezaujme ignorujte ho.",
+ "ingrediencie": [
+  {
+   "nazov": "Mäso bravčové z pliecka",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Dusená ryža",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvená rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pasírované paradajky",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka hladká na zásmažku",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana sladká 30%",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mäso pomelieme, pridáme udusenú vychladnutú ryžu, celé surové vajíčko, podľa chuti soľ, mleté čierne korenie a drvenú rascu. Spracujeme všetko spolu najlepšie rukou a necháme pol hodiny odležať. Medzitým si umyjeme a očistíme papriku, najlepšia je bledozelená paprika odrody PCR. Odležanou zmesou naplníme papriky, prípadne vytvarujeme guľky a poukladáme na plech vyložený pečiacim papierom. Vložíme do rúry vyhriatej na 190 stupňov a pečieme 20 minút, potom papriky a guľky otočíme a pečieme zasa asi 20 minút.",
+  "Pokiaľ sa pečú papriky, pripravíme si rajčinovú omáčku. Do hrnca dáme lyžicu masti prípadne oleja, keď sa zohreje dáme polievkovú lyžicu hladkej múky a urobíme zápražku, ktorú zalejeme studenou vodou. Metličkou miešame, aby sa nevytvorili z múky hrudky. Keď zovrie voda prilejeme pasírované rajčiny, znova necháme za občasného miešania zovrieť, pridáme bobkové listy, cukor a osolíme podľa chuti. Omáčku necháme variť 15-20 minút. Nakoniec pridáme po troche sladkú smotanu. Smotanu som kedysi nedávala, ale zistila som, že omáčka je so smotanou chuťovo lepšia a kto má problémy s kyselinou z rajčín, smotana túto kyslosť zneutralizuje.",
+  "Nakoniec upečené plnené papriky vložíme do omáčky, necháme spolu asi 5 minút povariť. Po odstavení počkáme 30 minút a môžeme servírovať. K omáčke máme najradšej pečivo, niekedy ale robievam k nej kysnutú knedľu. Ja mám plnenú papriku ale rada len tak samotnú bez pečiva alebo knedle."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "mäso",
+  "zelenina"
+ ]
 }

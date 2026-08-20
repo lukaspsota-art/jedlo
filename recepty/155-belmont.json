@@ -1,0 +1,49 @@
+{
+ "id": "155-belmont",
+ "nazov": "155 Belmont",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – 155 Belmont",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/15346",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 370,
+ "popis": "Cocktail · White wine glass",
+ "ingrediencie": [
+  {
+   "nazov": "Tmavý rum",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rum",
+   "mnozstvo": 80,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rozmixujeme s ľadom.",
+  "Podávame v pohári na víno.",
+  "Ozdobíme mrkvou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

@@ -1,77 +1,88 @@
 {
-  "id": "zapekane-zemiaky-s-mletym-masom",
-  "nazov": "Zapekané zemiaky s mletým mäsom (shepherd's pie)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Britská",
-  "zdroj": "klasický recept",
-  "porcie": 5,
-  "cas": "60 min",
-  "kcal_na_porciu": 460,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické britské zapekané jedlo z mletého mäsa prekrytého zemiakovou kašou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "mleté"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrach",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky uvar do mäkka a rozmačkaj s mliekom a maslom na kašu.",
-    "Na oleji opraž cibuľu a mrkvu, pridaj mleté mäso a opeč.",
-    "Vmiešaj hrášok, dochuť soľou.",
-    "Mäsovú zmes daj do zapekacej misy, prekry zemiakovou kašou.",
-    "Peč pri 200 °C asi 20 minút do zlatista."
-  ],
-  "tipy": "Povrch pred pečením poriadkaj vidličkou pre peknú textúru.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "hovädzie",
-    "britské",
-    "zapekané"
-  ]
+ "id": "zapekane-zemiaky-s-mletym-masom",
+ "nazov": "Zapekané zemiaky s mletým mäsom (shepherd's pie)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Britská",
+ "zdroj": "Varecha.sk – Zapekané zemiaky s mletým mäsom (autor: anemarka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zapekane-zemiaky-s-mletym-masom/71493-recept.html",
+ "porcie": 9,
+ "cas": "30 min",
+ "kcal_na_porciu": 406,
+ "popis": "Toto jedlo robievam, keď sa mi nechce dlho stáť pri varení. Je to jednoduchý a rýchly \r\nobed. :-)",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": null,
+   "jednotka": "ks",
+   "poznamka": "8 ks"
+  },
+  {
+   "nazov": "Bravčové mäso",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Smotana na varenie",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kečup",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Očistené zemiaky dáme variť vcelku do polomäkka do osolenej vody (asi 10 minút). Po vychladnutí nakrájame asi na 0,5 cm kolieska.",
+  "Zapekaciu misu potrieme olejom a ukladáme polovicu zemiakov. Trochu polejeme zmesou nastrúhaného syra s vyšľahaným vajíčkom a smotanou.",
+  "Pokračujeme prípravou mäsa. Na oleji si opražíme nakrájanú cibuľku (môžete pridať aj cesnak). Pridáme mleté mäsko, osolíme a okoreníme. Počkáme, kým sa nám mäso opraží a potom vmiešame 3 lyžice kečupu/pretlaku. Podlejeme vodou a dusíme do mäkka. Ja som to nechala asi na 30 minút.",
+  "Mäso navrstvíme na zemiaky. opäť trocha polejeme smotanovou zmesou a na vrch poukladáme zvyšok zemiakov. Tie už polejeme celou zmesou. Pečieme vo vyhriatej rúre asi 20 až 30 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "britské",
+  "zapekané"
+ ]
 }

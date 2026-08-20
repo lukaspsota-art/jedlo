@@ -1,51 +1,68 @@
 {
-  "id": "jazminova-ryza-s-kokosom",
-  "nazov": "Jazmínová ryža s kokosom",
-  "kategoria": "Príloha",
-  "kuchyna": "Ázijská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 324,
-  "kcal_zdroj": "vypocet",
-  "popis": "Voňavá jazmínová ryža uvarená v kokosovom mlieku.",
-  "ingrediencie": [
-    {
-      "nazov": "Jazmínová ryža",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokosové mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ryžu prepláchni studenou vodou.",
-    "Vlož do hrnca spolu s kokosovým mliekom, vodou a soľou.",
-    "Priveď k varu, potom stiahni na mierny oheň a dus pod pokrievkou 15 minút.",
-    "Pred podávaním nechaj 5 minút odstáť."
-  ],
-  "tipy": "Skvelá príloha k thajským a indickým jedlám.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "ryža",
-    "ázijské"
-  ]
+ "id": "jazminova-ryza-s-kokosom",
+ "nazov": "Jazmínová ryža s kokosom",
+ "kategoria": "Príloha",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Jazmínová ryža s bazalkou a arašidmi (autor: Ryža SOS)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/jazminova-ryza-s-bazalkou-a-arasidmi/88567-recept.html",
+ "porcie": 12,
+ "cas": "15 min",
+ "kcal_na_porciu": 230,
+ "popis": "Jazmínová ryža je typ dlhozrnnej ryže s veľmi osobitou vôňou a chuťou, podobnou praženým orechom.* Vyskúšajte tento rýchly \r\nrecept na vynikajúcu orientálnu prílohu s ryžou SOS Jasmine.",
+ "ingrediencie": [
+  {
+   "nazov": "Ryža SOS Jasmine",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 20,
+   "jednotka": "list",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej čili",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Arašidy",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ryžu uvarte podľa návodou na obale.",
+  "Na panvici na čili oleji opražte nasekané alebo celé arašidy a pridajte zázvor. Potom pridajte kokos a nasekanú bazalku, spolu s ryžou.",
+  "Pár minút restujte a podávajte."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "ryža",
+  "ázijské"
+ ]
 }

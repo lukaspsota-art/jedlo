@@ -1,42 +1,77 @@
 {
-  "id": "priloha-hranolky",
-  "nazov": "Pečené hranolky",
-  "kategoria": "Príloha",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 253,
-  "kcal_zdroj": "vypocet",
-  "popis": "Domáce hranolky pečené v rúre.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 1000,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Rastlinný olej",
-      "mnozstvo": 30,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Zemiaky nakrájaj na hranolky, opláchni a osuš.",
-    "Premiešaj s olejom a soľou, rozlož na plech.",
-    "Peč pri 220 °C 25–30 min, v polovici obráť."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "zemiaky",
-    "hranolky"
-  ]
+ "id": "priloha-hranolky",
+ "nazov": "Pečené hranolky",
+ "kategoria": "Príloha",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Cuketové pečené hranolky (fotorecept) (autor: palokuchki)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cuketove-pecene-hranolky-fotorecept/37195-recept.html",
+ "porcie": 9,
+ "cas": "50 min",
+ "kcal_na_porciu": 168,
+ "popis": "Tento recept som tu uz mala dost dlho ulozeny ako skryty. Medzitym tu @Kecemis pridal dost podobny recept. http://varecha.pravda.sk/recepty/cukinove-hranolky/40807-recept.html  Podstata pecenia cuketovych hranolkov v rure je ta ista, len pouzite suroviny su trochu ine.",
+ "ingrediencie": [
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bielok",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie štyroch farieb",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pouzila som dve stredne velke cukety.",
+  "Umyte cukety som pokrajala na hranolky a posolila som ich.",
+  "V miske som si rozmiesala struhanku, papriku, roztlaceny cesnak, posekanu petrzlenovu vnatku a cerstvo zomlete korenie styroch farieb.",
+  "Cuketove hranolky som obalila v muke a potom som ich namocila do rozslahanych bielkov.",
+  "Na koniec som cuketove hranolky obalila v pripravenej struhankovej zmesi.",
+  "Obalene cuketove hranolky som poukladala na plech a piekla som ich vo vyhriatej rure 180C 30 minut. Hranolky som podavala s jogurtovou omackou. Jogurtovu omacku som si pripravila zmiesanim prirodneho jogurtu, lyzicou majonezy a chili omackou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "zemiaky",
+  "hranolky"
+ ]
 }

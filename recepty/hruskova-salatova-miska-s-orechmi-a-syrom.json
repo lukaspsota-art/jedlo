@@ -1,63 +1,104 @@
 {
-  "id": "hruskova-salatova-miska-s-orechmi-a-syrom",
-  "nazov": "Hrušková šalátová miska s orechmi a syrom",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "15 min",
-  "kcal_na_porciu": 225,
-  "kcal_zdroj": "vypocet",
-  "popis": "Elegantná šalátová miska s hruškou, orechmi a syrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Šalát",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrušky",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vlašské orechy",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Gorgonzola",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Hrušku nakrájaj na tenké plátky.",
-    "Šalát poukladaj na tanier, pridaj hrušku, orechy a rozdrobenú gorgonzolu.",
-    "Pokvapkaj olivovým olejom.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Kombinácia sladkej hrušky a výraznej gorgonzoly je klasika.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "hruška",
-    "syr"
-  ]
+ "id": "hruskova-salatova-miska-s-orechmi-a-syrom",
+ "nazov": "Hrušková šalátová miska s orechmi a syrom",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Šalát v pizzovej miske (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/salat-v-pizzovej-miske/19982-recept.html",
+ "porcie": 4,
+ "cas": "14 min",
+ "kcal_na_porciu": 327,
+ "popis": "Elegantná šalátová miska s hruškou, orechmi a syrom.",
+ "ingrediencie": [
+  {
+   "nazov": "Pizzové cesto",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kuracie mäso",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalát",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sterilizované šampiňóny",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karotka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Reďkovky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr ementál",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 citróna"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cesto rozdelíme na štyri rovnaké časti a na ohňovzdornú misku dáme cesto, aby malo tvar misky a upečieme v rúre.",
+  "Medzitým urobíme šalát: Hlávkový šalát rozoberieme na listy, dôkladne umyjeme a uložíme na porcelánovú alebo sklenenú misu. Na listy dáme kúsky pokrájaného mäsa, syra a šunky. Šampiňóny, reďkovky a karotku, pokrájané na plátky, okoreníme a zalejeme nálevom z oleja a citrónovej šťavy. Všetko dôkladne premiešame a necháme uležať.",
+  "Nakoniec posypeme postrúhaným parmezánom. Keď pizzová „miska“ vychladne, naložíme do nej šalát a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "hruška",
+  "syr"
+ ]
 }

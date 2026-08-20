@@ -1,70 +1,105 @@
 {
-  "id": "hovadzie-na-tmavom-pive",
-  "nazov": "Hovädzie na tmavom pive",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Írska",
-  "zdroj": "klasický recept",
-  "porcie": 5,
-  "cas": "120 min",
-  "kcal_na_porciu": 464,
-  "kcal_zdroj": "vypocet",
-  "popis": "Pomaly dusené hovädzie mäso v tmavom pive, írska klasika.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pivo",
-      "mnozstvo": 400,
-      "jednotka": "ml",
-      "poznamka": "tmavé"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso nakrájaj na kocky a opeč na oleji dozlata.",
-    "Pridaj cibuľu a mrkvu, opraž.",
-    "Zalej pivom a vývarom.",
-    "Dus pod pokrievkou 90 minút do mäkka mäsa.",
-    "Dochuť soľou, podávaj so zemiakovou kašou."
-  ],
-  "tipy": "Horkosť piva sa dlhým dusením zjemní do bohatej chuti.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "hovädzie",
-    "írske"
-  ]
+ "id": "hovadzie-na-tmavom-pive",
+ "nazov": "Hovädzie na tmavom pive",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Írska",
+ "zdroj": "Varecha.sk – Hovädzí guláš s tmavým pivom (Guinness Stew) (autor: saymona)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzi-gulas-s-tmavym-pivom-guinness-stew/78099-recept.html",
+ "porcie": 5,
+ "cas": "130 min",
+ "kcal_na_porciu": 281,
+ "popis": "Jednoduchý a výborný guláš. \r\nVyskúšajte :)",
+ "ingrediencie": [
+  {
+   "nazov": "Mäso hovädzie",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stonkový zeler",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzí vývar",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tmavé pivo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na kocky pokrájané mäso opečiem na oleji alebo masti pekne sprudka, aby sa mäso krásne zatiahlo a zhnedlo. A pekne postupne, nie všetko naraz, to je dôležité.",
+  "Keď sú všetky kúsky pekne opečené, vyberiem ich a do hrnca pridám nakrájanú cibuľu, mrkvu, zeler a cesnak. Opečiem.",
+  "Pridám pretlak a trocha ho orestujem. Zalejem pivom Guinness a pridám opečené mäso. Pridám soľ, korenie, bobkový list, tymian hovädzí vývar.",
+  "Všetko spolu varím na miernom ohni za občasného premiešania do zmäknutia mäsa ( tak 1,5 - 2 hodiny). Dochutím."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "írske"
+ ]
 }

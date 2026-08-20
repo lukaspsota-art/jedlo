@@ -1,50 +1,43 @@
 {
-  "id": "pina-colada",
-  "nazov": "Piña colada",
-  "kategoria": "Kokteil",
-  "kuchyna": "Karibská",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 278,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémový tropický kokteil z rumu, ananásu a kokosového mlieka.",
-  "ingrediencie": [
-    {
-      "nazov": "Rum",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": "biely"
-    },
-    {
-      "nazov": "Ananás",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokosové mlieko",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetky suroviny vlož do mixéra.",
-    "Rozmixuj dohladka do krémovej konzistencie.",
-    "Podávaj v pohári ozdobený kúskom ananásu."
-  ],
-  "tipy": "Pre bezalkoholovú verziu jednoducho vynechaj rum.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "rum",
-    "tropické"
-  ]
+ "id": "pina-colada",
+ "nazov": "Piña colada",
+ "kategoria": "Kokteil",
+ "kuchyna": "Karibská",
+ "zdroj": "TheCocktailDB – Pina Colada",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17207",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 306,
+ "popis": "Ordinary Drink · Collins glass",
+ "ingrediencie": [
+  {
+   "nazov": "Rum",
+   "mnozstvo": 88.7,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ananás",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rozmixujeme s drveným ľadom v mixéri do hladka.",
+  "Nalejeme do vychladeného pohára, ozdobíme a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "rum",
+  "tropické"
+ ]
 }

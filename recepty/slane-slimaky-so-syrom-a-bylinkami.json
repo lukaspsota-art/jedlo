@@ -1,71 +1,112 @@
 {
-  "id": "slane-slimaky-so-syrom-a-bylinkami",
-  "nazov": "Slané slimáky so syrom a bylinkami",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "110 min",
-  "kcal_na_porciu": 329,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kysnuté slimáky so syrovo-bylinkovou náplňou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Eidam",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažného mlieka, droždia, masla a soli vypracuj cesto. Nechaj kysnúť 1 hodinu.",
-    "Cesto rozváľaj, posyp strúhaným syrom a bazalkou.",
-    "Zroluj a nakrájaj na 8 kúskov.",
-    "Ulož do formy, nechaj 20 minút kysnúť.",
-    "Peč pri 190 °C asi 20-25 minút do zlatista."
-  ],
-  "tipy": "Skvelé teplé aj vlažné, ako súčasť bufetu.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "syr",
-    "slané",
-    "kysnuté"
-  ]
+ "id": "slane-slimaky-so-syrom-a-bylinkami",
+ "nazov": "Slané slimáky so syrom a bylinkami",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Slaný orechový slimák (fotorecept) (autor: cesminaz)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/slany-orechovy-slimak-fotorecept/51634-recept.html",
+ "porcie": 24,
+ "cas": "15 min",
+ "kcal_na_porciu": 396,
+ "popis": "Cevizli salyangoz... ;-) \"Orechy\" ako plnka,sa dajú použit nielen na sladko :-) ale i na slano.Je to naozaj skvelá a velmi chutná kombinácia ..",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlažné mlieko",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlažná voda",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé droždie",
+   "mnozstvo": 12.5,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Posekané orechy",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čajové maslo",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do misky dáme vlažné mlieko,vodu,cukor,soľ,olej a droždie.Dobre spolu rozmiešame..",
+  "Teraz po 2-3dcl pridávame stále múku,ktorú hned aj prstami dobre v tekutine rozmačkávame.Takto pokračujeme dalej,kým neminieme všetkú múku.Dajte pozor,aby vám neostali hrčky múky,vždy to poriadne premačkajte..",
+  "Na konci bude treba trocha podsypať múku,aby ste ho vedeli sformovať-vymiesit do bochníka..",
+  "Cesto má byť na dotyk ako \"ušný lalôčik\" takže podla toho budete vedieť skontrolovať,či má tú správnu konzistenciu ;-))",
+  "Cesto nenecháme kysnúť,ale hned s ním pracujeme dalej a rozdelíme ho na 6 častí,ktoré sformujeme do bochníka..",
+  "Pripravíme si mleté orechy a aj drvené-kusavé orechy.Kusavé orechy sa dávajú preto,aby udržali medzi dvomi plátmi cesta vzduch a tak nemajú šancu zlepiť sa ;-) a budete vidieť krásne lupienky cesta! Dalej spustené maslo a sol :-)",
+  "..teraz si cesto vyválkame na hrúbku 1mm a popolievame maslom.S cestom sa pracuje velmi dobre,takže nebudete mat problém na tenučko ho vyváľkať ;-) len ho vždy pomúčte a otáčajte..",
+  "Posypeme orechami a dobre osolíme.Kľudne môžte dať viac orechov,nie len postrašiť cesto ;-))",
+  "...potom cesto takto zrolujeme...",
+  "...a skrútime do tvaru slimáka..",
+  "Položíme na plech s papierom a slimáka zľahka postlačame,popučíme :-)",
+  "Natreme žľtkom a necháme na teplejšom mieste 25minut stat-podkysnúť.Potom dáme piecť na 15-20minut do rúry,ktorú sme si vopred rozohriali na 170°C .",
+  "..pečieme krásne do zlatista :-D Slimáčiky sú krásne velké,s priemerom 15cm..takže každému postačí jeden :-P",
+  "Hned ako ich vyberieme z rúry,ich natreme maslom a necháme na plechu trocha vychladnúť..",
+  "..a ked už nebudú také horúce,tak ich poukladáme na tácku a zakryjeme utierkou.",
+  "Slimáky sú velmi chutné a dobré slané :-) Podávajú sa väčšinou k polievkam,ako príloha.Kludne ich môžte naplniť aj arašidmi,mandľami,alebo pistáciami ;-D Dobrú chuť :-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "syr",
+  "slané",
+  "kysnuté"
+ ]
 }

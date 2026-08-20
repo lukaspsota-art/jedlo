@@ -1,39 +1,36 @@
 {
-  "id": "bellini",
-  "nazov": "Bellini",
-  "kategoria": "Kokteil",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 118,
-  "kcal_zdroj": "vypocet",
-  "popis": "Elegantný taliansky aperitív z broskyňového pretlaku a prosecca.",
-  "ingrediencie": [
-    {
-      "nazov": "Broskyne",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "pretlačené"
-    },
-    {
-      "nazov": "Prosecco",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Broskyne rozmixuj na hladké pyré.",
-    "Pyré nalej na dno pohára.",
-    "Pomaly dolej vychladené prosecco.",
-    "Jemne premiešaj a podávaj ihneď."
-  ],
-  "tipy": "Najlepšie chutí zo zrelých, sladkých broskýň.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "prosecco",
-    "talianske"
-  ]
+ "id": "bellini",
+ "nazov": "Bellini",
+ "kategoria": "Kokteil",
+ "kuchyna": "Talianska",
+ "zdroj": "TheCocktailDB – Bellini",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17195",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Ordinary Drink · Champagne Flute",
+ "ingrediencie": [
+  {
+   "nazov": "Šampanské",
+   "mnozstvo": 177.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Broskyňa",
+   "mnozstvo": 29.6,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Broskyňové pyré nalejeme do vychladenej flauty a dolejeme šumivým vínom.",
+  "Opatrne premiešame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "prosecco",
+  "talianske"
+ ]
 }

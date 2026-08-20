@@ -1,77 +1,70 @@
 {
-  "id": "kuracie-stehna-peceny-traybake",
-  "nazov": "Kuracie stehná pečené so zemiakmi (traybake)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "55 min",
-  "kcal_na_porciu": 645,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduché jedno-plechové kuracie stehná so zemiakmi a zeleninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie stehná",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rozmarín",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky nakrájaj na kocky, papriku a cibuľu na kúsky.",
-    "Všetko premiešaj s olivovým olejom, rozmarínom, soľou a korením.",
-    "Ulož na plech spolu s kuracími stehnami.",
-    "Peč pri 200 °C asi 45 minút do zlatista.",
-    "Podávaj priamo z plechu."
-  ],
-  "tipy": "Ideálne jedlo na meal-prep — navarí sa naraz na celý blok.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "jedno-plechové",
-    "meal-prep"
-  ]
+ "id": "kuracie-stehna-peceny-traybake",
+ "nazov": "Kuracie stehná pečené so zemiakmi (traybake)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Pečené kuracie stehná so zemiakmi (fotorecept) (autor: ivua)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecene-kuracie-stehna-so-zemiakmi-fotorecept/78800-recept.html",
+ "porcie": 6,
+ "cas": "55 min",
+ "kcal_na_porciu": 430,
+ "popis": "Kuracie stehná s chrumkavou kožou a napoly rozrezanými zemiakmi.",
+ "ingrediencie": [
+  {
+   "nazov": "Stehná kuracie",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Urobíme marinádu zmiešaním uvedených surovín.",
+  "Dobre umyté zemiaky rozkrojíme na polky a namarinujeme spolu s kuracími stehnami.",
+  "Kuracie stehná pečieme spolu so zemiakmi v rúre 200 °C na oboj režime, kým nie je mäso zlatisté. A potom zapekáme na 220 °C ešte 10 minút.",
+  "Servírujeme. :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "jedno-plechové",
+  "meal-prep"
+ ]
 }

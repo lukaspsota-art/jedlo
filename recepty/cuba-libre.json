@@ -1,51 +1,43 @@
 {
-  "id": "cuba-libre",
-  "nazov": "Cuba Libre",
-  "kategoria": "Kokteil",
-  "kuchyna": "Karibská",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 183,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý klasický kokteil z rumu, kolY a limetky.",
-  "ingrediencie": [
-    {
-      "nazov": "Rum",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cola",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň ľadom.",
-    "Prilej rum a limetkovú šťavu.",
-    "Dolej colou.",
-    "Jemne premiešaj a podávaj."
-  ],
-  "tipy": "Pre výraznejšiu chuť pridaj aj kúsok limetkovej kôry.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "rum",
-    "karibské"
-  ]
+ "id": "cuba-libre",
+ "nazov": "Cuba Libre",
+ "kategoria": "Kokteil",
+ "kuchyna": "Karibská",
+ "zdroj": "TheCocktailDB – Cuba Libre",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/11288",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 150,
+ "popis": "Ordinary Drink · Highball glass",
+ "ingrediencie": [
+  {
+   "nazov": "Rum",
+   "mnozstvo": 59.1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cola",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ingrediencie postupne vrstvíme do vysokého pohára naplneného ľadom.",
+  "Ozdobíme klinčekom limetky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "rum",
+  "karibské"
+ ]
 }

@@ -1,29 +1,56 @@
 {
-  "id": "snack-uhorka",
-  "nazov": "Uhorka",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "2 min",
-  "kcal_na_porciu": 30,
-  "kcal_zdroj": "vypocet",
-  "popis": "Uhorka nakrájaná na tyčinky.",
-  "ingrediencie": [
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 200,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Umy, nakrájaj a zjedz."
-  ],
-  "tipy": "Chutí aj s tvarohovou nátierkou.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "zelenina",
-    "kupované"
-  ]
+ "id": "snack-uhorka",
+ "nazov": "Uhorka",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Uhorkový sirup (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/uhorkovy-sirup/68369-recept.html",
+ "porcie": 6,
+ "cas": "30 min",
+ "kcal_na_porciu": 200,
+ "popis": "Uhorka nakrájaná na tyčinky.",
+ "ingrediencie": [
+  {
+   "nazov": "Uhorková šťava",
+   "mnozstvo": 800,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 citróna"
+  },
+  {
+   "nazov": "Xantan",
+   "mnozstvo": 0.5,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Z cukru a vody uvaríme hustý cukrový sirup. Pridáme uhorkovú šťavu, citrónovú šťavu a xantanu.",
+  "Necháme povariť asi 10 minút. Nalejeme do fliaš a necháme vychladnúť.",
+  "Tip: Podávame s minerálkou a plátkami uhorky. Minerálku môžeme zriediť v pomere 1:1 s nápojom typu Sprite."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "zelenina",
+  "kupované"
+ ]
 }

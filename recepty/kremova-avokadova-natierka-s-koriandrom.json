@@ -1,51 +1,68 @@
 {
-  "id": "kremova-avokadova-natierka-s-koriandrom",
-  "nazov": "Krémová avokádová nátierka s limetkou a koriandrom",
-  "kategoria": "Nátierka",
-  "kuchyna": "Mexická",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 150,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúca avokádová nátierka s koriandrom, podobná guacamole.",
-  "ingrediencie": [
-    {
-      "nazov": "Avokádo",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Koriander",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Avokádo rozmačkaj vidličkou.",
-    "Vmiešaj limetkovú šťavu a nasekaný koriander.",
-    "Dochuť soľou.",
-    "Podávaj ihneď s tortilla čipsami alebo pečivom."
-  ],
-  "tipy": "Koriander môžeš nahradiť petržlenovou vňaťou, ak ho nemáš rád.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "avokádo",
-    "mexické"
-  ]
+ "id": "kremova-avokadova-natierka-s-koriandrom",
+ "nazov": "Krémová avokádová nátierka s limetkou a koriandrom",
+ "kategoria": "Nátierka",
+ "kuchyna": "Mexická",
+ "zdroj": "Varecha.sk – Avokádová nátierka (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/avokadova-natierka/79151-recept.html",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 167,
+ "popis": "Osviežujúca avokádová nátierka s koriandrom, podobná guacamole.",
+ "ingrediencie": [
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Avokádo pozdĺžne rozrežeme, vyberieme kôstku a polievkovou lyžicou vyberieme dužinu. Natvrdo uvarené vajíčka rozkrájame na menšie kúsky, cesnak rozpučíme alebo nastrúhame.",
+  "K avokádu pridáme cesnak, vajíčka, majonézu, citrónovú šťavu a všetko spolu zmixujeme. Na záver dochutíme soľou a mletým bielym alebo farebným korením.",
+  "TIP: Avokádovú nátierku môžeme použiť na chlieb alebo toasty, ale napríklad aj ako dip k nachos alebo k nakrájanej zelenine. Keď ju dáme do vrecúška na zdobenie, môžeme ju efektne nastriekať na kanapky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "avokádo",
+  "mexické"
+ ]
 }

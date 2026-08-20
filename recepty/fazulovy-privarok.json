@@ -1,81 +1,99 @@
 {
-  "id": "fazulovy-privarok",
-  "nazov": "Fazuľový prívarok",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "70 min",
-  "kcal_na_porciu": 360,
-  "popis": "Krémový fazuľový prívarok so zápražkou a cesnakom.",
-  "ingrediencie": [
-    {
-      "nazov": "Biela fazuľa",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": "namočená"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bobkový list",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Namočenú fazuľu uvar s bobkovým listom domäkka.",
-    "Z masti, múky a papriky sprav zápražku.",
-    "Zápražku rozšľahaj do fazule, pridaj cesnak a povar.",
-    "Dochuť octom a soľou."
-  ],
-  "tipy": "Časť fazule roztlač pre krémovejšiu konzistenciu.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "strukoviny",
-    "prívarok"
-  ],
-  "foto": ""
+ "id": "fazulovy-privarok",
+ "nazov": "Fazuľový prívarok",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Fazuľový prívarok (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/fazulovy-privarok/4769-recept.html",
+ "porcie": 4,
+ "cas": "70 min",
+ "kcal_na_porciu": 336,
+ "popis": "Krémový fazuľový prívarok so zápražkou a cesnakom.",
+ "ingrediencie": [
+  {
+   "nazov": "Fazuľa biela",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majorán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové celé korenie",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Fazuľu na noc namočíme do studenej vody. Na druhý deň ju uvaríme spolu s bobkovým listom a novým korením domäkka. Z asi 1,5 PL masti a múky usmažíme zápražku. Na zvyšku masti osmažíme pokrájanú cibuľu. Keď je fazuľa mäkká, ak treba, zlejeme časť vody (mala by siahať trochu nad fazuľu) a vyberieme korenie.",
+  "Osolíme, okoreníme, pridáme majorán podľa chuti, ocot, osmaženú cibuľu a zápražku. Premiešame a všetko spoločne krátko povaríme. Nakoniec vmiešame smotanu a necháme prejsť varom.",
+  "Podľa potreby dochutíme prelisovaným cesnakom, soľou, octom a mletým čiernym korením. Podávame so smaženou klobásou, volským okom a chlebom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "strukoviny",
+  "prívarok"
+ ]
 }

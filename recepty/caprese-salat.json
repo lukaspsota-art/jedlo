@@ -1,57 +1,69 @@
 {
-  "id": "caprese-salat",
-  "nazov": "Caprese šalát",
-  "kategoria": "Šalát",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 3,
-  "cas": "10 min",
-  "kcal_na_porciu": 286,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý taliansky šalát z paradajok, mozzarelly a bazalky.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mozzarella",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Paradajky a mozzarellu nakrájaj na plátky.",
-    "Striedavo poukladaj na tanier.",
-    "Pridaj lístky bazalky.",
-    "Pokvapkaj olivovým olejom a osoľ."
-  ],
-  "tipy": "Používaj zrelé, chutné paradajky — sú základom tohto jednoduchého šalátu.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "talianske",
-    "paradajky"
-  ]
+ "id": "caprese-salat",
+ "nazov": "Caprese šalát",
+ "kategoria": "Šalát",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Farebný šalát Caprese (autor: palma)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/farebny-salat-caprese/71415-recept.html",
+ "porcie": 4,
+ "cas": "10 min",
+ "kcal_na_porciu": 159,
+ "popis": "Jednoduchý taliansky šalát z paradajok, mozzarelly a bazalky.",
+ "ingrediencie": [
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalkové pesto",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový panenský olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Paradajky umyjeme a osušíme. Väčšie nakrájame na kolieska, cherry paradajky na mesiačiky.",
+  "Mozzarellu nakrájame na tenké plátky. Ak máte radšej mozzarellové guľky, stačí ich vybrať z nálevu, jemne osušiť a servírovať s paradajkami.",
+  "Na tanier striedavo ukladáme paradajky a mozzarellu a rovnomerne ich potrieme pestom.",
+  "Pred podávaním šalát jemne osolíme a okoreníme, posypeme čerstvou bazalkou a nakoniec pokvapkáme panenským olivovým olejom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "talianske",
+  "paradajky"
+ ]
 }

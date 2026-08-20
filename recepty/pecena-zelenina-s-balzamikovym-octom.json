@@ -1,63 +1,104 @@
 {
-  "id": "pecena-zelenina-s-balzamikovym-octom",
-  "nazov": "Pečená zelenina s balzamikovým octom",
-  "kategoria": "Príloha",
-  "kuchyna": "Stredomorská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 95,
-  "kcal_zdroj": "vypocet",
-  "popis": "Farebná pečená zelenina s nádychom balzamikového octu.",
-  "ingrediencie": [
-    {
-      "nazov": "Cuketa",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Balzamikový ocot",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zeleninu nakrájaj na kúsky.",
-    "Premiešaj s olivovým olejom a soľou.",
-    "Peč pri 210 °C asi 25 minút do zmäknutia a mierneho zhnednutia.",
-    "Pokvapkaj balzamikovým octom pred podávaním."
-  ],
-  "tipy": "Balzamikový ocot pridaj až po pečení, aby si zachoval výraznú chuť.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "zelenina",
-    "stredomorské"
-  ]
+ "id": "pecena-zelenina-s-balzamikovym-octom",
+ "nazov": "Pečená zelenina s balzamikovým octom",
+ "kategoria": "Príloha",
+ "kuchyna": "Stredomorská",
+ "zdroj": "Varecha.sk – Pečená zelenina (autor: zubka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecena-zelenina/85367-recept.html",
+ "porcie": 2,
+ "cas": "35 min",
+ "kcal_na_porciu": 226,
+ "popis": "Ak máte radi zeleninu na \r\nakýkoľvek spôsob, tento recept \r\nje pre vás.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Reďkovka biela",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karfiol",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hlávková červená kapusta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "plátok 2-3 cm široký"
+  },
+  {
+   "nazov": "Sušený cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá kurkuma",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kapustu, mrkvu, reďkovku, cibuľu, karfiol, zemiaky (prípadne cvikla, zeler, šampiňóny, kaleráb... čo máte radi) nakrájame a dáme na plech s papierom na pečenie. Koreniny rozmiešame v olivovom oleji a polejeme ním zeleninu.",
+  "Olivového oleja by malo byť tak akurát, zeleninka by sa nemala v oleji kúpať :) ale aby zmes obalila každý kúsok zeleniny :)",
+  "Piecť na 200 °C cca 20-30 minút. Ja som piekla 30 minút, máme radi pripečenejšie. Dobrú chuť 😊"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "zelenina",
+  "stredomorské"
+ ]
 }

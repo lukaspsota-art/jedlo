@@ -1,64 +1,117 @@
 {
-  "id": "losos-s-koprovou-omackou",
-  "nazov": "Losos s kôprovou omáčkou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Škandinávska",
-  "zdroj": "klasický recept",
-  "porcie": 3,
-  "cas": "25 min",
-  "kcal_na_porciu": 421,
-  "kcal_zdroj": "vypocet",
-  "popis": "Pečený losos s klasickou škandinávskou kôprovou omáčkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Losos",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kôpor",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Lososa osoľ a opeč alebo peč pri 200 °C asi 15 minút.",
-    "V hrnci prehrej smotanu s nasekaným kôprom.",
-    "Vmiešaj citrónovú šťavu a maslo.",
-    "Lososa prelej kôprovou omáčkou.",
-    "Podávaj so zemiakmi."
-  ],
-  "tipy": "Kôpor je kľúčová surovina — nešetri ním.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "losos",
-    "škandinávske"
-  ]
+ "id": "losos-s-koprovou-omackou",
+ "nazov": "Losos s kôprovou omáčkou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Škandinávska",
+ "zdroj": "Varecha.sk – Marinovaný losos v citrónovo-kôprovej omáčke (autor: babsicok)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/marinovany-losos-v-citronovo-koprovej-omacke/58787-recept.html",
+ "porcie": 4,
+ "cas": "35 min",
+ "kcal_na_porciu": 354,
+ "popis": "Milujem lososa na všetky možné spôsoby a tento recept milujem pretože tá omáčka sa k nemu \r\nskvelo hodí a chuťovo je výborná :)",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "sušený"
+  },
+  {
+   "nazov": "Losos",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jogurt grécky",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky prísady na marinádu spolu zamiešame a nalejeme do misky kde pridáme lososa. Nechame odležat kým si pripravíme omáčku.",
+  "Všetky ingrediencie na omačku zamiešame v miske. V prípade že je veľmi hustá omáčka môžme pridať trošku sladkej smotany na jej zriedenie.",
+  "Vyberieme si menší plech na pečenie, vložíme marinovaného lososa, zalejeme ho omáčkou a necháme piecť 20 minút, v prípade že máte radšej viac upečeného tak 25 minút pri teplote 180 stupňov.",
+  "Ako prílohu som použila mix mrazenej zeleniny ktorú som opiekla na masle (veľa masla :)), pridala čierne korenie, soľ, sušený cesnak a použila som zmes korenia na pečené zemiaky čo tej zelenine dodalo super chuť :) Je to vynikajúce s omáčkou!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "losos",
+  "škandinávske"
+ ]
 }

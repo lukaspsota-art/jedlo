@@ -1,87 +1,105 @@
 {
-  "id": "tvarohovy-zavin",
-  "nazov": "Tvarohový závin",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 10,
-  "cas": "120 min",
-  "kcal_na_porciu": 340,
-  "popis": "Kysnutý závin plnený sladkým tvarohom s hrozienkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": "vlažné"
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 21,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vaječný žĺtok",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "do plnky"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "do plnky"
-    },
-    {
-      "nazov": "Hrozienka",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vypracuj kysnuté cesto a nechaj vykysnúť.",
-    "Tvaroh zmiešaj so žĺtkami, cukrom a hrozienkami.",
-    "Cesto rozvaľkaj, natri plnkou a zaviň.",
-    "Nechaj nakysnúť, potri vajcom a peč pri 180 °C asi 40 minút."
-  ],
-  "tipy": "Ak je tvaroh vlhký, pridaj lyžicu krupice.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "sladké",
-    "tvaroh"
-  ],
-  "foto": ""
+ "id": "tvarohovy-zavin",
+ "nazov": "Tvarohový závin",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Tvarohový závin (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/tvarohovy-zavin/78753-recept.html",
+ "porcie": 10,
+ "cas": "20 min",
+ "kcal_na_porciu": 253,
+ "popis": "Kysnutý závin plnený sladkým tvarohom s hrozienkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1/2 citróna"
+  },
+  {
+   "nazov": "Hrudkovitý tvaroh",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1/2 citróna"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do misky nasypeme polohrubú múku, pridáme mlieko, kryštálový cukor, vajce, nastrúhanú citrónovú kôru a sušené droždie. Vypracujeme cesto a necháme ho kysnúť na teplom mieste zhruba 60 minút.",
+  "Tvarohovú plnku pripravíme zmiešaním tvarohu s vajíčkom, práškovým a vanilkovým cukrom a kyslou smotanou. Nakoniec pridáme nastrúhanú citrónovú kôru.",
+  "Na pomúčenú dosku vyklopíme vykysnuté cesto, ktoré rozvaľkáme. Navrstvíme tvarohovú plnku a zvinieme do závinu. Závin preložíme na pekáč vystlaný papierom na pečenie. Potrieme rozšľahaným vajíčkom a pečieme pri teplote 180 stupňov 20–25 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "sladké",
+  "tvaroh"
+ ]
 }

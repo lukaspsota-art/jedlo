@@ -1,62 +1,112 @@
 {
-  "id": "treska-v-cesticku",
-  "nazov": "Biela ryba v cestíčku (fish and chips)",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Britská",
-  "zdroj": "klasický recept",
-  "porcie": 3,
-  "cas": "35 min",
-  "popis": "Klasická britská vyprážaná ryba v pivnom cestíčku so zemiakovými hranolkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Zubáča",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pivo",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": "na vyprážanie"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky nakrájaj na hranolky a osmaž alebo peč do zlata.",
-    "Z múky, piva a soli priprav hladké cestíčko.",
-    "Rybu nakrájaj na kúsky, namoč v cestíčku.",
-    "Vyprážaj na rozohriatom oleji do zlatista a chrumkava.",
-    "Podávaj s hranolkami."
-  ],
-  "tipy": "Pivo v cestíčku dodáva vzdušnú a chrumkavú textúru.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "ryba",
-    "britské"
-  ]
+ "id": "treska-v-cesticku",
+ "nazov": "Biela ryba v cestíčku (fish and chips)",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Britská",
+ "zdroj": "Varecha.sk – Biela ryba s kuskusom (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/biela-ryba-s-kuskusom/65311-recept.html",
+ "porcie": 6,
+ "cas": "50 min",
+ "kcal_na_porciu": 394,
+ "popis": "Komerčný recept<br />Pripravte bielu rybu veľmi zaujímavým a moderným spôsobom v kombinácii s kuskusom, \r\nzeleninou a nasekanými \r\npistáciami.",
+ "ingrediencie": [
+  {
+   "nazov": "Kuskus",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá rasca",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šafrán",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Filé z bielej ryby",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Brokolica",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pistácie",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Filé z bielej ryby pokvapkáme citrónovou šťavou a posypeme 1 lyžicou vegety. Pripravené filety zľahka obalíme v múke a pražíme v zahriatom oleji približne 5 minút z každej strany.",
+  "Do vriacej vody (400 ml) pridáme 1 lyžicu vegety, rascu, šafrán, 50 g masla a varíme 2 - 3 minúty.",
+  "Do hlbšej misky nasypeme kuskus a zalejeme ho pripraveným vývarom. Zamiešame, misku zakryjeme a necháme postáť 5 - 10 minút.",
+  "Umytú brokolicu nakrájame na menšie kúsky a mrkvu na rezance. Krátko ich uvaríme v osolenej vode, scedíme, prelejeme roztopeným maslom, posypeme nakrájanou mätou a pistáciami.",
+  "Kuskus premiešame vidličkou a podávame s pripravenou rybou a so zeleninou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "ryba",
+  "britské"
+ ]
 }

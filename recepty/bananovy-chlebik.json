@@ -1,64 +1,74 @@
 {
-  "id": "bananovy-chlebik",
-  "nazov": "Banánový chlebík",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 8,
-  "cas": "60 min",
-  "kcal_na_porciu": 307,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vláčny banánový chlebík, skvelý spôsob ako využiť prezreté banány.",
-  "ingrediencie": [
-    {
-      "nazov": "Banán",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": "zrelé"
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prášok do pečiva",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Banány rozmačkaj vidličkou.",
-    "Vyšľahaj maslo s cukrom a vajcami, vmiešaj banány.",
-    "Primiešaj múku a prášok do pečiva.",
-    "Prelej do formy na chlebík.",
-    "Peč pri 175 °C asi 45-50 minút."
-  ],
-  "tipy": "Čím zrelšie banány, tým sladší a aromatickejší chlebík.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "banán",
-    "americké"
-  ]
+ "id": "bananovy-chlebik",
+ "nazov": "Banánový chlebík",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Banánový chlebík (autor: frommykitchendotcom)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bananovy-chlebik/88270-recept.html",
+ "porcie": 8,
+ "cas": "55 min",
+ "kcal_na_porciu": 220,
+ "popis": "Vláčny banánový chlebík, skvelý spôsob ako využiť prezreté banány.",
+ "ingrediencie": [
+  {
+   "nazov": "Banán",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené jemné vločky",
+   "mnozstvo": 8,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 35,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sóda bikarbóna",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Banány rozpučíme vidličkou, alebo ich v blenderi rozmixujeme na kašu.",
+  "V osobitnej nádobe zmiešame sypké suroviny - ovsené vločky, múku, kakao, sódu bikarbónu, prášok do pečiva a cukor. Pridáme k rozmixovaným banánom, vlejeme ešte olej a dobre premiešame.",
+  "Cesto vylejeme do formy na chlieb vystlanej papierom na pečenie a dáme piecť na 180 °C asi 40 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "banán",
+  "americké"
+ ]
 }

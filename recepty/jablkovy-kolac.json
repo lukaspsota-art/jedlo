@@ -1,70 +1,130 @@
 {
-  "id": "jablkovy-kolac",
-  "nazov": "Jablkový koláč",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "klasický recept",
-  "porcie": 8,
-  "cas": "60 min",
-  "kcal_na_porciu": 351,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tradičný vláčny jablkový koláč so škoricou.",
-  "ingrediencie": [
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prášok do pečiva",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Jablká ošúp a nakrájaj na kocky.",
-    "Vyšľahaj maslo s cukrom a vajcami.",
-    "Primiešaj múku a prášok do pečiva.",
-    "Vmiešaj jablká a škoricu, prelej do formy.",
-    "Peč pri 180 °C asi 40-45 minút."
-  ],
-  "tipy": "Skús aj s pridanými hrozienkami alebo orechmi.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "jablko",
-    "slovenské"
-  ]
+ "id": "jablkovy-kolac",
+ "nazov": "Jablkový koláč",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Jablkový koláč (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/jablkovy-kolac/92178-recept.html",
+ "porcie": 20,
+ "cas": "80 min",
+ "kcal_na_porciu": 198,
+ "popis": "Tradičný vláčny jablkový koláč so škoricou.",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 380,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 citróna"
+  },
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Badián",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na cesto zmiešame všetky prísady a rozdelíme ho na dve rovnaké časti, jednu dáme do mrazničky, aby sa cesto dalo nastrúhať.",
+  "Pripravíme plnku – na panvici skaramelizujeme kryštálový cukor, pridáme doň za stáleho miešania maslo a očistené nakrájané jablká a dusíme približne 5 minút.",
+  "Pridáme ďalšie ingrediencie, a to badián, celú a mletú škoricu, citrónovú kôru a citrónovú šťavu, vanilkový cukor, kávovú lyžičku jablčného octu. Dusíme ďalších 15 minút.",
+  "Prvú polovicu cesta roztlačíme na plech vyložený pomasteným papierom na pečenie. Podusené jablká rozotrieme na cesto, uhladíme a na to nastrúhame druhú polovicu cesta z mrazničky.",
+  "Pečieme v rúre vyhriatej na 180 °C asi 40–45 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "jablko",
+  "slovenské"
+ ]
 }

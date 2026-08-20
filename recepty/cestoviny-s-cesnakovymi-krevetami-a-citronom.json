@@ -1,70 +1,111 @@
 {
-  "id": "cestoviny-s-cesnakovymi-krevetami-a-citronom",
-  "nazov": "Cestoviny s cesnakovými krevetami a citrónom (scampi)",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 3,
-  "cas": "20 min",
-  "kcal_na_porciu": 593,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické talianske cestoviny s krevetami v cesnakovo-citrónovom masle.",
-  "ingrediencie": [
-    {
-      "nazov": "Linguine",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Krevety",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Na masle opraž pretlačený cesnak.",
-    "Pridaj krevety, opeč do ružova.",
-    "Vmiešaj citrónovú šťavu a uvarené cestoviny.",
-    "Posyp petržlenovou vňaťou a podávaj."
-  ],
-  "tipy": "Krevety opekaj len krátko, aby zostali šťavnaté.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "krevety",
-    "talianske"
-  ]
+ "id": "cestoviny-s-cesnakovymi-krevetami-a-citronom",
+ "nazov": "Cestoviny s cesnakovými krevetami a citrónom (scampi)",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Krevety s cestovinami (fotorecept) (autor: janger)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/krevety-s-cestovinami-fotorecept/83744-recept.html",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 359,
+ "popis": "Do googla som zadala krevety, špenát... Zobrazilo sa mi nespočetné množstvo receptov na tzv. toskánske \r\nkrevety.* Porobila som v recepte určité zmeny, pofotila som. \r\nPotom pozriem na Varechu a vidím, že aj \r\n@zuzanka1367 zrejme varila podľa podobného receptu. \r\nKeďže ja mám v ponuke moju variáciu na toskánske krevety, tak tu je....",
+ "ingrediencie": [
+  {
+   "nazov": "Krevety",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 5,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené paradajky",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosová smotana",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenát",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušená bazalka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "pecorino, parmezán"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mnozstva si kazdy moze upravit podla seba, aj koreniny podla svojej chuti. Tento recept bol povodne taky omackovy, ja som to spravila trochu inac. Moze sa pridat aj vino. No my takmer ziadny alkohol nepijeme a ked otvorim flasu vina, tak by nam potom zostalo stat.",
+  "Krevety som prezrela, ci su v nich este crievka, ale boli uz vacsinou ocistene. A teraz sa priznam, ze ja som si doteraz myslela, ze crievko maju naspodu - teda na bruchu. Ale nahodou som kratko predtym citala clanok, ze crievko je vlastne na chrbte! No teda! Naspodu ta cierna ciarka je vlastne cieva. Tu netreba vyberat.",
+  "Krevetky su surove take viac sivaste.",
+  "Dame si dobre rozpalit asi 1 PL oleja (v mojom pripade olivovy) a potom pridame krevety a pokrajany cesnak. A len na chvilu poopekame, staci ozaj kratko, 2-3 minuty (podla velkosti kreviet). Ked zruzoveju, tak su hotove. Ak sa dlho tepelne upravuju, budu take gumovite. Radsej ich opekajte po castiach, chytia lepsiu farbu. Ja (netrpezliva) som ich dala naraz na panvicu a uz su hned menej pekne oprazene. Ak mate mrazene krevety, rychlo sa rozmrazia aj v sitku pod tecucou vodou. A treba ich potom aj dobre ususit - poutierat. Aby som nezabudla, medzitym si uz varime v hrnci nejaku oblubenu cestovinu. Ja som k tomuto vybrala tagliatelle.",
+  "Krevety vyberieme z panvice na tanier.",
+  "Do panvice dame znovu rozpalit 1 PL lyzicu oleja. Pridame pokrajanu cibulu, posekane susene paradajky. Tie moje su take dost tmave, takmer az cierne. Dalej pokrajanu cervenu papriku, chvilku poopekame.",
+  "Kto chce vino, tak to zaleje vinom. Ja som pridala len kokosovu smotanu. Samozrejme moze byt aj obycajna smotana. A ked by ste to chceli viac take omackovite, tak smotany moze byt viac. Nechame to povarit, zredukovat viac, ci menej, podla svojej chute. Pridame aj cerstvy spenat. Este povarime chvilku. Pridame do toho aj postruhany syr, bazalku, podla chuti osolime. A este citronovu stavu. Myslim, ze kto da vino, citron netreba pridavat.",
+  "Ked sa omacka zredukuje pridame do toho krevety, len na prehriatie a tiez horucu, uvarenu cestovinu. Premiesame. Cestovina vsiakne do seba tu omacku.",
+  "Mozeme podavat. Dobru chut!",
+  "Nasa Miska dostala tiez par kreviet, ma to velmi rada. Tak sa, samozrejme, musela po veceri dobre poumyvat."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "krevety",
+  "talianske"
+ ]
 }

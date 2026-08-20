@@ -1,70 +1,92 @@
 {
-  "id": "bravcove-kare-na-hubach",
-  "nazov": "Bravčové karé na hubách",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 541,
-  "kcal_zdroj": "vypocet",
-  "popis": "Šťavnaté bravčové karé dusené s hubami v smotanovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčové karé",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šampióny",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso nakrájaj na plátky, osoľ, okoreň a opeč na oleji z oboch strán.",
-    "Mäso vyber, na tom istom oleji opraž cibuľu a huby.",
-    "Prilej smotanu a prehrej.",
-    "Vráť mäso do omáčky a dus 10 minút.",
-    "Podávaj s ryžou alebo knedľou."
-  ],
-  "tipy": "Karé neopekaj príliš dlho, aby zostalo šťavnaté.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "bravčové",
-    "huby"
-  ]
+ "id": "bravcove-kare-na-hubach",
+ "nazov": "Bravčové karé na hubách",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Bravčové karé na hubách (fotorecept) (autor: kimlo)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bravcove-kare-na-hubach-fotorecept/74355-recept.html",
+ "porcie": 8,
+ "cas": "110 min",
+ "kcal_na_porciu": 435,
+ "popis": "Jednoduché a chutné jedlo, ak sa niekto chce zbaviť zásoby sušených húb z minulej sezóny...",
+ "ingrediencie": [
+  {
+   "nazov": "Karé bravčové",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené huby",
+   "mnozstvo": 2,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  }
+ ],
+ "postup": [
+  "Najprv si namočíme sušené huby. Ja som použil dubáky a za hrsť suchohríbov. Samozrejme sa dajú použiť aj čerstvé alebo mrazené.",
+  "Karé nakrájame na rezne, naklepeme, osolíme a okoreníme. Na rozpálenej masti prudko opečieme, aby sa zatiahlo. Mäso vyberieme a odložíme. Prikryjeme, aby nevychladlo.",
+  "Vo výpeku orestujeme nadrobno nakrájanú cibuľu, pekne pomaly a do hneda. Miešame, aby sa nespálila a nezhorkla.",
+  "Vyrestujeme na tuk, prilejeme troška vody, aby sa sparila a podusila, toto opakujeme 3x, z čoho sa nám vytvorí hustejší cibuľový základ pod mäso.",
+  "Pridáme mäso, podlejeme trochou vody, aby mäso nebolo celkom ponorené, privedieme do varu, a na miernom ohni dusíme 20 minút. Pôvodne som chcel tento recept robiť ako zvyčajne v pomalom hrnci, ale keďže každý ho nemá, zvolil som klasický spôsob úpravy na sporáku.",
+  "Potom pridáme huby aj s vodou, v ktorej boli namočené, a dusíme do mäkka.",
+  "Na suchej panvici si opražíme múku do pieskovej farby, pridáme trocha oleja, popražíme a zalejeme studenou vodou. Metličkou dobre rozmiešame, aby neboli hrudky a vlejeme k mäsu.",
+  "Pridáme šlahačkovú smotanu, prípadne ešte ochutíme soľou a povaríme ešte asi 20 minút.",
+  "Podávame s ryžou alebo inou obľúbenou prílohou..."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "huby"
+ ]
 }

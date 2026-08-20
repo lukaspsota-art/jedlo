@@ -1,63 +1,93 @@
 {
-  "id": "waldorfsky-salat",
-  "nazov": "Waldorfský šalát",
-  "kategoria": "Šalát",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 196,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický americký šalát z jabĺk, zeleru a orechov v jemnom majonézovom dresingu.",
-  "ingrediencie": [
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vlašské orechy",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Jablká a zeler nakrájaj na kocky, pokvapkaj citrónovou šťavou, aby nezhnedli.",
-    "Orechy nasekaj nahrubo.",
-    "Všetko premiešaj s majonézou.",
-    "Dochuť soľou a podávaj chladené."
-  ],
-  "tipy": "Skvele sa hodí aj s hrozienkami.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "americké",
-    "jablko"
-  ]
+ "id": "waldorfsky-salat",
+ "nazov": "Waldorfský šalát",
+ "kategoria": "Šalát",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Vianočný zemiakový Waldorfský šalát s pečenými zemiakmi (autor: polepetko)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/vianocny-zemiakovy-waldorfsky-salat-s-pecenymi-zemiakmi/56062-recept.html",
+ "porcie": 4,
+ "cas": "80 min",
+ "kcal_na_porciu": 321,
+ "popis": "Tento recept som našiel na Youtubovom kanáli Jamieho Olivera a jeho prispievateľov. Ak \r\nsa vám už prejedol tradičný zemiakový šalát, určite vyskúšajte tento. Neoľutujete.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stonkový zeler",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené brusnice",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Predhrejeme si rúru na 200°C. Zemiaky ošúpeme a nakrájame na väčšie kocky, podobne ako na opekané zemiaky. Polejeme olivovým olejom, dobre osolíme, okoreníme čiernym korením a dobre premiešame, aby boli všetky zemiaky obalené. Pečieme cca hodinu, pokým nebudú mať peknú zlatohnedú farbu.",
+  "Pred dopečením si pripravíme dresing zmiešaním majonézy, citrónovej šťavy, pretlačeného cesnaku, soli a korenia.",
+  "Do dresingu hodíme olúpané jablká nakrájané na kocky a ihneď zamiešame, aby nezhnedli. Pridáme na plátky pokrájané 2 stonky stonkového zeleru, jarnú cibuľku a brusnice.",
+  "Po vychladnutí pridáme zemiaky a dobre premiešame. Ochutnáme a prípadne ešte dochutíme soľou/korením/citrónovou šťavou podľa potreby."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "americké",
+  "jablko"
+ ]
 }

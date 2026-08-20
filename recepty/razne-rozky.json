@@ -1,64 +1,81 @@
 {
-  "id": "razne-rozky",
-  "nazov": "Ražné rožky",
-  "kategoria": "Pečivo",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "110 min",
-  "kcal_na_porciu": 233,
-  "kcal_zdroj": "vypocet",
-  "popis": "Aromatické kysnuté rožky z ražnej múky s kmínom.",
-  "ingrediencie": [
-    {
-      "nazov": "Ražná múka",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kmín",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z oboch múk, vlažnej vody, droždia, kmínu a soli vypracuj cesto.",
-    "Nechaj kysnúť 1 hodinu.",
-    "Rozdeľ na 8 dielov, vytvaruj rožky.",
-    "Nechaj 20 minút kysnúť.",
-    "Peč pri 210 °C asi 20 minút do zvučnej kôrky."
-  ],
-  "tipy": "Skvelé k slovenským polievkam a jedlám.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "ražné",
-    "slovenské"
-  ]
+ "id": "razne-rozky",
+ "nazov": "Ražné rožky",
+ "kategoria": "Pečivo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Špaldovo-ražné raňajkové rožky (fotorecept) (autor: paploska)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/spaldovo-razne-ranajkove-rozky-fotorecept/48035-recept.html",
+ "porcie": 12,
+ "cas": "120 min",
+ "kcal_na_porciu": 207,
+ "popis": "Dávno som sa nepohrala s iným pečivom ako chlebom, teda odkedy mi odišla pekáreň, \r\nktorá mala špeciálne formy na bagety. No včera ma inšpirovali viaceré z vás, a tak som \r\nich po dlhom čase piekla v klasickej rúre. Najlepšie sú teplé, ale zdravšie budú na druhý \r\ndeň.",
+ "ingrediencie": [
+  {
+   "nazov": "Špaldová hladká múka",
+   "mnozstvo": 370,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ražná chlebová múka",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 315,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morská soľ",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mak",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezam",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé droždie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Používam zvyčajne tieto dva typy múky. Ak by ste rožky spravili len zo špaldovej (tento typ) rožky budú úplne krehké a nadýchané. Ak múky skombinujete dosiahnete zaujímavú mierne kyslastú chuť.",
+  "V prípade, že máte pekáreň do nádoby dajte vodu, droždie (plnú kávovú lyžičku čerstvého droždia), tmavý cukor, múku a nakoniec soľ. V pekárni nastavte program na spracovanie cesta (1,5 hod). Ak pekáreň nemáte, postupujte ako pri príprave klasického kysnutého cesta s kváskom. Nechajte vyskysnúť asi 1 hod, pokým cesto neznásobí svoj objem.",
+  "Po vykysnutí cesto vyvaľkáme do kruhu, a pokrájame na trojuholníčky, ktoré potom zvinieme do rožtekov. Rožteky potrieme vodou a posypeme sézamom alebo makom. Pečieme v rúre vyhriatej na 190 st. asi 30 min., pokým rožky nezískajú peknú zlatistú farbu.",
+  "Najchutnejšie sú čerstvé, ale zdravšie budú až na druhý deň :-) Dobrú chuť !"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "ražné",
+  "slovenské"
+ ]
 }

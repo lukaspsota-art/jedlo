@@ -1,70 +1,70 @@
 {
-  "id": "sladke-zemle",
-  "nazov": "Sladké mliečne žemličky",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "inšpirované Wikibooks Cookbook: Portuguese Sweet Rolls (CC BY-SA)",
-  "porcie": 8,
-  "cas": "120 min",
-  "kcal_na_porciu": 356,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jemné a nadýchané mliečne žemličky s jemne sladkou chuťou, ideálne na raňajky.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 70,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažného mlieka, vajec, cukru, masla, droždia a soli vypracuj mäkké cesto. Nechaj kysnúť 1 hodinu.",
-    "Cesto rozdeľ na 8 kúskov a vytvaruj guľôčky.",
-    "Ulož na plech, nechaj 20 minút kysnúť.",
-    "Potri rozšľahaným vajcom pre lesklý povrch.",
-    "Peč pri 180 °C asi 18-20 minút do zlatista."
-  ],
-  "tipy": "Žemličky sa dajú zamraziť a pred podávaním len prihriať.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "sladké",
-    "raňajky"
-  ]
+ "id": "sladke-zemle",
+ "nazov": "Sladké mliečne žemličky",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Bezlepkové žemličky na sladko (autor: novalim)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bezlepkove-zemlicky-na-sladko/71085-recept.html",
+ "porcie": 12,
+ "cas": "60 min",
+ "kcal_na_porciu": 102,
+ "popis": "Z Novalim bezlepkovej zmesi Promix BETA, ktorá je špeciálne vyvinutá na kysnuté \r\nkoláče a je obohatená \r\nmorskými minerálmi, sme upiekli tieto milé bezlepkové žemličky z kysnutého cesta. \r\nToto jemne sladké pečivo s \r\nobsahom tvarohu si obľúbite, úžasne sa hodí na raňajky či desiatu a deti ho milujú. \r\nNajlepšie chutia za čerstva, \r\nnezjedené kúsky odporúčame zmraziť.",
+ "ingrediencie": [
+  {
+   "nazov": "Voda",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka bezlepková Promix BETA",
+   "mnozstvo": 270,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jemný tvaroh",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do vody vmiešame 1 ČL kryštálového cukru a sušené droždie, premiešame, necháme rozpustiť. Túto zmes necháme pri izbovej teplote chvíľku postáť, aby sa droždie aktivovalo.",
+  "Bezlepkovú múku Promix BETA a soľ dáme do misy, pridáme celé vajcia, tvaroh a pripravený kvások. Z tejto zmesi vymiesime cesto a necháme ho postáť prikryté igelitom asi 20 minút na teplom mieste, aby podkyslo.",
+  "Potom ho na pracovnej doske premiesime a rozdelíme na 12 rovnakých kúskov. Každý z kúskov rozdelíme na dve časti, vytvarujeme z nich niečo podobné ako “tučnučké šúľance” a tie vedľa seba uložíme do otvoru formy na muffiny, ktorú sme zľahka vytreli tukom. Formu potom prikryjeme igelitom a na teplom mieste necháme kysnúť, kým žemličky viditeľne nepodrastú.",
+  "Pečieme ich v rozohriatej rúre na parnom režime (alebo s nádobou s vodou, ktorú sme položili na dno rúry) na 200 stupňoch asi 15-20 minút do zlatohneda.",
+  "Po vychladnutí ich hneď konzumujeme."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "sladké",
+  "raňajky"
+ ]
 }

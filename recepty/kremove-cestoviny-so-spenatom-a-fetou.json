@@ -1,77 +1,106 @@
 {
-  "id": "kremove-cestoviny-so-spenatom-a-fetou",
-  "nazov": "Krémové cestoviny so špenátom a fetou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Stredomorská",
-  "zdroj": "inšpirované Wikibooks Cookbook (CC BY-SA)",
-  "porcie": 3,
-  "cas": "20 min",
-  "kcal_na_porciu": 615,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémové cestoviny so špenátom, syrom feta a citrónovou šťavou.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Špenát",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feta",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Na olivovom oleji opraž pretlačený cesnak, pridaj špenát a nechaj zvädnúť.",
-    "Prilej smotanu a polovicu fety, rozmiešaj do krému.",
-    "Zamiešaj uvarené cestoviny a citrónovú šťavu.",
-    "Podávaj posypané zvyšnou fetou a čerstvým korením."
-  ],
-  "tipy": "Feta sa dobre kombinuje aj s troškou čili vločiek.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "feta",
-    "krémové",
-    "stredomorské"
-  ]
+ "id": "kremove-cestoviny-so-spenatom-a-fetou",
+ "nazov": "Krémové cestoviny so špenátom a fetou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Stredomorská",
+ "zdroj": "Varecha.sk – Krémové cestoviny s hubami (autor: blissofplants)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kremove-cestoviny-s-hubami/81945-recept.html",
+ "porcie": 3,
+ "cas": "40 min",
+ "kcal_na_porciu": 303,
+ "popis": "Ahojte, v tomto recepte sa fenikel môže \r\nnahradiť stonkou zeleru.* \r\nAk použijete sójovú smotanu, tak \r\nak môžete, použite len organickú.\r\n?\r\nPríjemný štart do týždňa vám \r\nprajem.",
+ "ingrediencie": [
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Fenikel",
+   "mnozstvo": 0.25,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrášok",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová smotana",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "obľúbené"
+  },
+  {
+   "nazov": "Sušené paradajky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nemusia byť"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené bylinky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na zohriatom oleji opražíme nadrobno nakrájanú cibuľu, pridáme nakrájaný fenikel, nakrájanú paradajku a pár minút podusíme.",
+  "Pridáme nadrobno nakrájaný cesnak, sušené bylinky a nakrájané obľúbené huby. Varíme na miernom ohni zhruba 15 minút. Dobre ochutíme, ak treba podlejeme trochou vody.",
+  "Na záver pridáme hrášok a zalejeme sójovou smotanou. Varíme ešte 10 minút, ak treba, dochutíme.",
+  "Podávame s obľúbenými uvarenými cestovinami, ktoré môžeme zmiešať s hubami. Ak máme radi sušené paradajky, pridáme zopár k cestovinám."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "feta",
+  "krémové",
+  "stredomorské"
+ ]
 }

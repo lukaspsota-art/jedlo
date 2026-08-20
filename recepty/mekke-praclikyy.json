@@ -1,64 +1,80 @@
 {
-  "id": "mekke-praclikyy",
-  "nazov": "Mäkké praclíky",
-  "kategoria": "Pečivo",
-  "kuchyna": "Nemecká",
-  "zdroj": "klasický recept",
-  "porcie": 8,
-  "cas": "90 min",
-  "kcal_na_porciu": 257,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické mäkké praclíky s tmavou kôrkou a hrubozrnnou soľou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sóda",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": "na povarenie"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažnej vody, droždia, masla a soli vypracuj cesto. Nechaj kysnúť 1 hodinu.",
-    "Rozdeľ na 8 dielov a vytvaruj tradičný tvar praclíka.",
-    "Krátko povar (20 sekúnd) vo vode s rozpustenou sódou — dodá typickú tmavú kôrku.",
-    "Ulož na plech, posyp hrubozrnnou soľou.",
-    "Peč pri 220 °C asi 15 minút do tmavohneda."
-  ],
-  "tipy": "Sódový kúpeľ je kľúčový pre typickú chuť a farbu praclíka.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "nemecké",
-    "slané"
-  ]
+ "id": "mekke-praclikyy",
+ "nazov": "Mäkké praclíky",
+ "kategoria": "Pečivo",
+ "kuchyna": "Nemecká",
+ "zdroj": "Varecha.sk – Kysnuté praclíky (autor: dada777)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kysnute-pracliky/41795-recept.html",
+ "porcie": 12,
+ "cas": "40 min",
+ "kcal_na_porciu": 251,
+ "popis": "Tento recept na kysnuté praclíky mám veľmi rada a často ich pripravujem. Sú jednoduché, rýchlo hotové a chutné. Recept je bezmliečny, kravské mlieko nahrádzam mliekom rastlinným.",
+ "ingrediencie": [
+  {
+   "nazov": "Čerstvé droždie",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinné mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morská hrubozrnná soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Z droždia si pripravíme kvások a vykysnutý ho pridáme k ostatným surovinám. V domácej pekárničke vymiesime nelepivé cesto.",
+  "Cesto si rozdelíme na rovnaké kúsky a vytvarujeme z nich praclíky, ktoré necháme podkysnúť.",
+  "Po vykysnutí praclíky potrieme vajíčkom rozšľahaným s trochou rastlinného mlieka a posypeme hrubozrnnou soľou, alebo makom a pod. Pečieme pri 180°C asi 15 min. a pred vložením do vyhriatej rúry praclíky pofŕkame studenou vodou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "nemecké",
+  "slané"
+ ]
 }

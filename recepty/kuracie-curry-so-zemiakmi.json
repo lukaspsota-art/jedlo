@@ -1,77 +1,156 @@
 {
-  "id": "kuracie-curry-so-zemiakmi",
-  "nazov": "Kuracie curry so zemiakmi",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Indická",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 461,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte kuracie kari so zemiakmi v korenistej paradajkovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie stehná",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kari mleté",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu a cesnak.",
-    "Pridaj kuracie mäso a opeč zo všetkých strán.",
-    "Vmiešaj kari korenie, paradajky a zemiaky nakrájané na kocky.",
-    "Podlej vodou a dus 25 minút do mäkka.",
-    "Dochuť soľou, podávaj s ryžou."
-  ],
-  "tipy": "Zemiaky nasajú chuť omáčky a jedlo je tak ešte sýtejšie.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "indické",
-    "kari"
-  ]
+ "id": "kuracie-curry-so-zemiakmi",
+ "nazov": "Kuracie curry so zemiakmi",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Indická",
+ "zdroj": "Varecha.sk – Kuracie mäso na curry a rasci (autor: elixir)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-maso-na-curry-a-rasci/41820-recept.html",
+ "porcie": 5,
+ "cas": "30 min",
+ "kcal_na_porciu": 403,
+ "popis": "Jednoduchý obed.",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie curry",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celá rasca",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "pol ČL"
+  },
+  {
+   "nazov": "Celá rasca",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová čerstvá vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová sušená vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Prichystáme si suroviny - umyjeme, očistíme, nakrájame si zeleninu na drobno a mäso na kocky.",
+  "Mäso : Na panvicu dáme PL oleja a opražíme si na ňom cibuľu. Pridáme ďalšiu PL oleja a mäso, opečieme.",
+  "Podlejeme vodou len na dno panvice, osolíme, dochutíme čiernym korením a curry a dusíme pod pokrievkou 8 minút. Potom pokrievku zložíme, pridáme rascu, zamiešame a ešte dve minúty necháme odpariť časť vody.",
+  "Placky : cibuľu, cesnak a zemiaky si rozmixujeme, dáme do misky s múkou, rascou, korením a soľou, vlejeme vajce a všetko premiešame. Opečieme dve väčšie placky, každú na 1 PL oleja.",
+  "Zelenina : pokrájanú mrkvu a papriku osolíme a opražíme na ČL oleja do mäkka.",
+  "Mäso dáme na tanier tak, že ho podložíme a z časti zboku obložíme plackou, zvrchu posypeme opraženou zeleninou... môžeme ešte ozdobiť petržlenom a podávame. Dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "indické",
+  "kari"
+ ]
 }

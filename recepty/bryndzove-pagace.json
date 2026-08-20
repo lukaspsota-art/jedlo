@@ -1,76 +1,149 @@
 {
-  "id": "bryndzove-pagace",
-  "nazov": "Bryndzové pagáče",
-  "kategoria": "Pečivo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 20,
-  "cas": "90 min",
-  "kcal_na_porciu": 150,
-  "popis": "Slané kysnuté pagáče s bryndzou — chrumkavé pohostenie.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bryndza",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": "vlažné"
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 21,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vaječný žĺtok",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "na potretie"
-    }
-  ],
-  "postup": [
-    "Sprav kvások. Vypracuj cesto z múky, bryndze, masla, kvásku, žĺtka a soli.",
-    "Nechaj vykysnúť, rozvaľkaj a vykrajuj pagáčiky.",
-    "Potri vajcom, navrchu narež mriežku.",
-    "Peč pri 190 °C asi 20 minút dozlata."
-  ],
-  "tipy": "Vrch narež nožom pre pekné prasknutie počas pečenia.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "slané",
-    "bryndza",
-    "pečivo"
-  ],
-  "foto": ""
+ "id": "bryndzove-pagace",
+ "nazov": "Bryndzové pagáče",
+ "kategoria": "Pečivo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Vrtuľky s bryndzou len tak k vínečku namiesto pagáčov (fotorecept) (autor: jerica)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/vrtulky-s-bryndzou-len-tak-k-vinecku-namiesto-pagacov-fotorecept/69651-recept.html",
+ "porcie": 46,
+ "cas": "50 min",
+ "kcal_na_porciu": 111,
+ "popis": "Konečne aj niečo na slano :-) Pridávam pre vás, ktorí hľadáte niečo, čím potešíte nielen \r\nnávštevu, ale aj keď idete na návštevu k oslávencovi, tak ako sa potešila naša milá \r\nTonka, ale aj Ľubka z Plaveckého Podhradia. Výborne nahradia klasické pagáčiky, je to \r\njednoduché na prípravu, ale aj na finále, pre oslávenca k pripravenému vínečku \r\n(nepijem, držím sa volantu ako kliešť).",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 320,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hera",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jogurt biely smotanový",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť kačacia",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Plnka:",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bryndza",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jogurt biely smotanový",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kôpor malá viazanička",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nasekaný"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezam",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť kačacia",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo bravčová"
+  },
+  {
+   "nazov": "Syr Grana Padano",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "strúhaný"
+  }
+ ],
+ "postup": [
+  "CESTO: Polohrubú 180 g a 320 g hladkú múku premiesime, pridáme HERU (môže byť aj maslo), nahrubo zapracujeme, pridáme 200 ml kelímok kyslej smotany, 150 ml smotanový jogurt, jedno žĺtko, 30 g droždie, 1 kávovú lyžičku cukor, 1 kávovú lyžičku soľ, zamiesim nahrubo, pridám 1 polievkovú lyžicu kačaciu masť, cesto vypracujeme na hladko. Spracované, prikryté odložím do chladničky do druhého dňa. Nie je nutné do druhého dňa, dá sa aj na pol dňa, ale v chladničke. Po vybratí z chladničky cesto hneď spracujem, nenechám \"podkysnúť\" Počas práce s cestom pod rukami cesto mäkne, kysne.",
+  "Zatiaľ čo cesto odpočíva v chladničke, pripravíme si bryndzovú plnku.. Bryndzu zjemníme jogurtom, dochutíme nasekaným čerstvým kôprom, keď nie je čerstvý kôpor, radšej pridám nasekaný petržlen, alebo mletej červenej papriky.",
+  "Vykysnuté cesto vyvaľkame na väčší obdĺžnik, polovicu cesta potriem kačacou masťou, ked nie je kačacia, môžeme natrieť aj bravčovou, posypeme nastruhaným syrom Grana Padano. Polovicu cesta preložíme na potretú masťou so syrom, prekladáme ako obálku, vyvaľkame znova na väčší obdľžnik, vyvaľkane cesto radlom rozdelíme na polovicu. Na jednu polovicu natrieme bryndzovú plnku a na druhú špenátovú s cesnakom.",
+  "Preložím,",
+  "zložíme na obálku,",
+  "vyvaľkáme do obdĺžnika, cesto radličkou rozdelím na polovicu.",
+  "Keď mám cesto rozdelené, na každé cesto natriem bryndzu, ale len do polovice cesta, natreté cesto preložím.",
+  "Radlom na pizzu krájame do šikma,",
+  "stočím do tvaru vrtulky, ukladám na plech, kde mám papier na pečenie.",
+  "Vrtuľky poukladané na papieri na pečenie potriem vajíčkom, potieram len cesto, nie plnku,",
+  "posypem sezamom,",
+  "pečieme 20/25 minút na 180 °C.",
+  "Druhú polovicu cesta som plnila špenátom s cesnakom, recept pridám.",
+  "Použijem na obe polovice 250 g bryndze. Keď ale robím polovicu cesta so špenátovou plnkou, tak na jednu polovicu cesta ide 125 g bryndze a na rozriedenie 3 PL smotany alebo jogurtu, čo mám práve po ruke. Môj recept na Cesnakovo-špenátové vrtuľky len tak k vínečku, namiesto pagáčikov nájdete tu: https://varecha.pravda.sk/recepty/cesnakovo-spenatove-vrtulky-len-tak-k-vineck/69701-recept.html",
+  "Dá sa aj meniť na ružičku :-)",
+  "Aj tak sa dá , hotové k vínečku :-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "slané",
+  "bryndza",
+  "pečivo"
+ ]
 }

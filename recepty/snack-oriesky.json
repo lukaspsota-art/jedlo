@@ -1,29 +1,87 @@
 {
-  "id": "snack-oriesky",
-  "nazov": "Hrsť orieškov",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 174,
-  "kcal_zdroj": "vypocet",
-  "popis": "Zmes mandlí ako zdravý snack.",
-  "ingrediencie": [
-    {
-      "nazov": "Mandle",
-      "mnozstvo": 30,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Odváž porciu a jedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "orechy",
-    "kupované"
-  ]
+ "id": "snack-oriesky",
+ "nazov": "Hrsť orieškov",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Oriešky (autor: elantra)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/oriesky/61661-recept.html",
+ "porcie": 50,
+ "cas": "20 min",
+ "kcal_na_porciu": 125,
+ "popis": "Tradičné vianočné oriešky pripravujem každý rok. Recept mám od mojej milovanej babky \r\na dovolila som si ho pozmeniť, lebo už viac pečiem z iných múk ako pšeničnej. Tieto \r\noriešky sú zo špaldovej múky a neobsahujú až tak veľa cukru, stále sú však vynikajúce. \r\nTreba ich upiecť v predstihu 10-14 dní, aby stihli zmäknúť. Plnia sa až tesne pred \r\nVianocami. Pár ďalších vianočných receptov mám aj na ",
+ "ingrediencie": [
+  {
+   "nazov": "Hrubá špaldová múka",
+   "mnozstvo": 280,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pravá vanilka",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky suroviny na cesto zmiešame a dobre vypracujeme. Ak máte čas, cesto si pripravte o deň skôr (ale nie je to nutnosť).",
+  "Z cesta tvarujeme malé guľky, ktoré vtlačíme do formičiek. Formičky netreba vymastiť.",
+  "Pečieme na 170°C 10-11 minút (príp. minútku dlhšie, ale moja rúra \"silno\" pečie). Po vybratí 2-3 minúty počkáme a oriešky vyklopíme – formičku oprieme o okraj a zvonku klepneme nožom. Necháme celkom vychladnúť a odložíme na tmavé miesto.",
+  "Plnku pripravíme tak, že mleté orechy zalejeme vlažným mliekom, pridáme maslo a cukor a touto zmesou spájame oriešky. Naplnené oriešky už držíme v chlade."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "orechy",
+  "kupované"
+ ]
 }

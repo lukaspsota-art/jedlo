@@ -1,69 +1,111 @@
 {
-  "id": "paradajkova-polievka-so-smotanou",
-  "nazov": "Paradajková polievka so smotanou",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 150,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová verzia klasickej paradajkovej polievky.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 400,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na olivovom oleji opraž cibuľu a cesnak.",
-    "Pridaj paradajky a vývar, var 20 minút.",
-    "Rozmixuj dohladka.",
-    "Vmiešaj smotanu a dochuť soľou."
-  ],
-  "tipy": "Smotana zjemní kyslosť paradajok.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "paradajka",
-    "krémová"
-  ]
+ "id": "paradajkova-polievka-so-smotanou",
+ "nazov": "Paradajková polievka so smotanou",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Krémová zeleninová polievka (s paradajkami a kyslou smotanou) (autor: lyali)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kremova-zeleninova-polievka-s-paradajkami-a-kyslou-smotanou/13624-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 238,
+ "popis": "Inšpirovala som sa receptom zo švajčiarskej kuchárskej knižôčky, ktorú som dostala kedysi od mojej sestry svetobežníčky, keď jej domovom bolo dočasne Švajčiarsko.",
+ "ingrediencie": [
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": null,
+   "jednotka": "ks",
+   "poznamka": "1 ks"
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vývar",
+   "mnozstvo": 1200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Paradajky olúpame.",
+  "Pokrájame na štvrtky.",
+  "Zbavíme semienok.",
+  "Pokrájame na malé kocky.",
+  "Očistenú cibuľu nakrájame nadrobno Očistenú mrkvu postrúhame nahrubo. Očistený zemiak pokrájame na malé kocky.",
+  "Na olivovom oleji krátko orestujeme cibuľu spolu s petržlenovou vňaťou.",
+  "Pridáme paradajky, paradajkový pretlak, mrkvu, zemiak. Okoreníme pletým bielym korením. Pridáme pretlačený cesnak. Dusíme až do zmäknutia, pričom podlievame vývarom.",
+  "Dolejeme prípadným zvyšným vývarom, necháme prejsť varom a odložíme zo sporáka. Pridáme kyslú smotanu a rozmixujeme ponorným mixérom.",
+  "Dochutíme medom. Dosolíme a dokoreníme.",
+  "Podávame s voňavými opečenými kolieskami rožkov (na masle a pretlačenom cesnaku)."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "paradajka",
+  "krémová"
+ ]
 }

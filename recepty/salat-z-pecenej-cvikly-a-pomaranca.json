@@ -1,57 +1,102 @@
 {
-  "id": "salat-z-pecenej-cvikly-a-pomaranca",
-  "nazov": "Šalát z pečenej cvikly a pomaranča",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 113,
-  "kcal_zdroj": "vypocet",
-  "popis": "Elegantný šalát kombinujúci sladkosť pečenej cvikly a citrusov.",
-  "ingrediencie": [
-    {
-      "nazov": "Červená repa",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pomaranč",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rukola",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Repu nakrájaj na kliny, premiešaj s olejom a soľou, peč pri 200 °C 30 minút.",
-    "Pomaranč olúp a nakrájaj na plátky.",
-    "Rukolu poukladaj na tanier, pridaj repu a pomaranč.",
-    "Pokvapkaj olivovým olejom a podávaj."
-  ],
-  "tipy": "Farebná kombinácia, ktorá poteší aj oko.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "cvikla",
-    "pomaranč"
-  ]
+ "id": "salat-z-pecenej-cvikly-a-pomaranca",
+ "nazov": "Šalát z pečenej cvikly a pomaranča",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Cviklový šalát s pomarančom (fotorecept) (autor: kecemis)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cviklovy-salat-s-pomarancom-fotorecept/70055-recept.html",
+ "porcie": 4,
+ "cas": "80 min",
+ "kcal_na_porciu": 200,
+ "popis": "Ľahký šalát vhodný ako príloha alebo ľahká večera. Inšpirované z Trisha Yearwood z TV.",
+ "ingrediencie": [
+  {
+   "nazov": "Cvikla",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Balzamikový ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Dijonská horčica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenát",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti (listy"
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 0.25,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Dal som si zohriat ruru na 200 stupnov. Cviklu som pofrkal olivovym olejom. Zabalil do alobalu a dal som do rury piect. Podla velkosti. Ja som piekol asi hodinu. Kym som mal cviklu v rure, ocistil som cibulu a nakrajal na drobno. Dal som ju do misky, pridal dve lyzicky oleja a dobre premiesal. Z alobalu som si spravil mensiu nadobu a tam som dal naolejovanu cibulu. Cviklu som vybral z rury asi 25 minut pred koncom a pridal som k nej cibulu. Vratil som do rury a piekol som dalsich 30 minut.",
+  "Asi po hodine, cviklu som vyskusal vidlickov cviklu. Kedze bola makka, bolo hotovo. Po 25 minutach uz bola aj cibula, bola ciastocne skaramelizovana. Cibulu som dal do misky a cviklu som nehal este v alobale asi 8 - 10 minut trochu vychladnut.",
+  "Pracovnu dosku som si dal foliu a osupanu cviklu som narkajal na kocky asi 1.5 cm velke. Kazdy podla svojej chuti. A pridal som do misky ku cibuli.",
+  "Nozikom som osupal pomarance a pokrajal priblizne na rovnako veke kusky ako cviklu.",
+  "Pripravil som si dressing. Zmiesal som spolu balzamikovy ocot, Cukor, horcicu, sol a korenie a 1/4 pohara olivoveho oleja. Dobre som premiesal a pridal do misky s nakrajanou cviklou, pomarancom a cibulou.",
+  "Dobre som premiesal a dal na 20 minut do chladnicky.",
+  "Pred podavanim som posypal listkami spenatu. Da sa pouzit aj nieco ine, napr. rukola. A nakoniec som pridal nasekane vlasske orechy."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "cvikla",
+  "pomaranč"
+ ]
 }

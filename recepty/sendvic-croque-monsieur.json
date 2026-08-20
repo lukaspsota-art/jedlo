@@ -1,68 +1,63 @@
 {
-  "id": "sendvic-croque-monsieur",
-  "nazov": "Croque Monsieur",
-  "kategoria": "Raňajky",
-  "kuchyna": "Francúzska",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "20 min",
-  "kcal_na_porciu": 510,
-  "popis": "Klasický francúzsky zapekaný sendvič so šunkou, syrom a bešamelovou omáčkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Toastový chlieb",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr eidam",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Muškátový oriešok",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z masla, múky a mlieka priprav hustú bešamelovú omáčku, dochuť muškátovým orieškom.",
-    "Chlieb naplň šunkou a časťou syra, navrch daj bešamel a zvyšný syr.",
-    "Zapekaj v rúre pri 200 °C asi 10 minút do zlatista."
-  ],
-  "tipy": "Bešamel netreba variť dlho, len kým zhustne — pripáli sa rýchlo.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "sendvič",
-    "francúzska",
-    "zapekané"
-  ]
+ "id": "sendvic-croque-monsieur",
+ "nazov": "Croque Monsieur",
+ "kategoria": "Raňajky",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Croque monsieur alebo Chrumkavý pán (autor: mecom)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/croque-monsieur-alebo-chrumkavy-pan/59674-recept.html",
+ "porcie": 2,
+ "cas": "20 min",
+ "kcal_na_porciu": 260,
+ "popis": "Komerčný recept",
+ "ingrediencie": [
+  {
+   "nazov": "Chlieb biely",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karlovarská šunka",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr Gruyere",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Dijonská horčica",
+   "mnozstvo": 4,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bešamel",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäkké maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Štyri plátky bieleho chleba zľahka natrieme z jednej strany maslom a dáme na chvíľku zapiečť do rúry predhriatej na 200°C maslom hore.",
+  "Neopečenú stranu chleba potrieme dijonskou horčicou, na dva poukladáme Karlovarskú šunku a syr a dáme opäť do rúry, pokiaľ sa syr nerozpustí.",
+  "Vyberieme z rúry, priklopíme zvyšné plátky chleba, zľahka stlačíme, vrch a boky natrieme syrovým bešamelom, dáme opäť do rúry a zapekáme približne 5 - 10 minút do zlatista."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "sendvič",
+  "francúzska",
+  "zapekané"
+ ]
 }

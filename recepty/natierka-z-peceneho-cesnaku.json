@@ -1,45 +1,68 @@
 {
-  "id": "natierka-z-peceneho-cesnaku",
-  "nazov": "Nátierka z pečeného cesnaku",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 83,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jemná krémová nátierka z pečeného cesnaku, oveľa jemnejšia ako surový.",
-  "ingrediencie": [
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "celé hlavičky"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Celým hlavičkám cesnaku odrež vrchnú časť, aby boli vidieť strúčiky.",
-    "Polej olivovým olejom, zabaľ do alobalu.",
-    "Peč pri 190 °C asi 35-40 minút do mäkka.",
-    "Cesnak vytlač z šupky a rozmixuj s olejom a soľou."
-  ],
-  "tipy": "Pečením cesnak stratí ostrosť a získa jemnú sladkastú chuť.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "cesnak",
-    "pečené"
-  ]
+ "id": "natierka-z-peceneho-cesnaku",
+ "nazov": "Nátierka z pečeného cesnaku",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Nátierka z pečeného cesnaku (autor: afataga)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/natierka-z-peceneho-cesnaku/60829-recept.html",
+ "porcie": 8,
+ "cas": "8 min",
+ "kcal_na_porciu": 120,
+ "popis": "Na obed som piekla kuracie stehna, tak som ku nim prihodila celú veľkú hlavičku cesnaku, že urobím nátierku, tak tu je:",
+ "ingrediencie": [
+  {
+   "nazov": "Pečený cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr balkánsky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvaroh 40%",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Papričky chilli",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté čerstvé korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Cesnak som dala piect rozobratý na strúčiky, ale neolúpaný. Do misky som dala popučený syr, tvaroh, vychladnutý cesnak som vylúpla zo šupky a popučila vidličkou a pridala všetko ostatné. Jasné. že chilli som pokrájala. Riadne som to rozmiešala a je to. Ešte ma napadlo, že by to znieslo aj olivový olej a bazalku.",
+  "Konečne máme na záhrade huby :-)",
+  "A občas aj sokola"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "cesnak",
+  "pečené"
+ ]
 }

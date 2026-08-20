@@ -1,57 +1,74 @@
 {
-  "id": "vajickova-natierka-s-kaparmi",
-  "nazov": "Vajíčková nátierka s kaparmi",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 215,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vajíčková nátierka s výraznou chuťou kaparov.",
-  "ingrediencie": [
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 6,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kapary",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pažítka",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vajcia uvar natvrdo, ošúp a nasekaj.",
-    "Zmiešaj s majonézou, nasekanými kapármi a pažítkou.",
-    "Dochuť soľou.",
-    "Podávaj na pečive."
-  ],
-  "tipy": "Kapary dodávajú klasickej nátierke príjemnú slanú výraznosť.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "vajcia",
-    "kapary"
-  ]
+ "id": "vajickova-natierka-s-kaparmi",
+ "nazov": "Vajíčková nátierka s kaparmi",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Vajíčková nátierka (autor: katarinalucanova)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/vajickova-natierka/86018-recept.html",
+ "porcie": 6,
+ "cas": "20 min",
+ "kcal_na_porciu": 316,
+ "popis": "Chutná, lahodná a hlavne jednoduchá nátierka. Najlepšie chutí na práve upečenom kváskovom chlebíku.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Plnotučná horčica",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vajíčka uvaríme na tvrdo. Olúpeme, oddelíme žĺtky od bielkov. Bielky nakrájame na jemno.",
+  "Žĺtky, maslo, horčicu, soľ, pretlačený cesnak a mleté čierne korenie podľa chuti dôkladne spolu vymiešame.",
+  "Pridáme nakrájané bielky, nasekaný kôpor a nakrájanú pažítku. Vajíčková pomazánka je behom chvíľky hotová. Dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "vajcia",
+  "kapary"
+ ]
 }

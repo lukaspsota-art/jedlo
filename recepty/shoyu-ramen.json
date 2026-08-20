@@ -1,85 +1,128 @@
 {
-  "id": "shoyu-ramen",
-  "nazov": "Shoyu Ramen",
-  "kategoria": "Polievka",
-  "kuchyna": "Japonská",
-  "zdroj": "internet – adaptované (Serious Eats)",
-  "porcie": 2,
-  "cas": "45 min",
-  "kcal_na_porciu": 560,
-  "popis": "Japonská polievka na sójovom vývare s rezancami a klasickými ozdobami.",
-  "ingrediencie": [
-    {
-      "nazov": "ramen rezance",
-      "mnozstvo": 200,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Kuracieho vývaru",
-      "mnozstvo": 800,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "sójová omáčka",
-      "mnozstvo": 3,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Mirinu",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Sezamového oleja",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Kúsok zázvoru",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 2,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Jarná cibuľka",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "nori riasa",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Kukurica",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Plátky bravčového",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Vývar prevar so zázvorom a cesnakom, dochuť sójovkou, mirinom a sezamovým olejom.",
-    "Rezance uvar samostatne a sceď.",
-    "Do misky daj rezance, zalej horúcim vývarom a naukladaj ozdoby (vajce, jarná cibuľka, nori, kukurica, bravčové)."
-  ],
-  "tipy": "Rezance var oddelene — inak zakalia vývar škrobom.",
-  "foto": "",
-  "tagy": [
-    "japonské",
-    "polievka",
-    "rezance"
-  ]
+ "id": "shoyu-ramen",
+ "nazov": "Shoyu Ramen",
+ "kategoria": "Polievka",
+ "kuchyna": "Japonská",
+ "zdroj": "Varecha.sk – Ramen s tofu (autor: lunter)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/ramen-s-tofu/91575-recept.html",
+ "porcie": 12,
+ "cas": "25 min",
+ "kcal_na_porciu": 296,
+ "popis": "Lahodný vegánsky ramen s bohatým vývarom, chrumkavým tofu, hubami shiitake a čerstvou zeleninou. Spojenie ázijských \r\nchutí, ktoré zahreje a zasýti. Ideálny na zdravý obed či večeru plnú umami.",
+ "ingrediencie": [
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 1600,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová svetlá omáčka",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžový ocot",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Riasa kombu",
+   "mnozstvo": 4,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "LUNTER Marinated Tofu Soy Sauce",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukuričný škrob",
+   "mnozstvo": 2.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamový olej",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamové semienka",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Huby shiitake",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bok choy",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bambusové výhonky",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ramen rezance",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "čerstvé lístky"
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "čerstvá"
+  }
+ ],
+ "postup": [
+  "Zeleninový vývar privedieme do varu spolu so sójovou omáčkou, ryžovým octom, bielym korením a kombu. Necháme 10 minút povariť.",
+  "Kombu vyberieme a vývar udržiavame teplý na miernom ohni.",
+  "V miske zmiešame na kocky nakrájané tofu s kukuričným škrobom, kým nie je rovnomerne obalené.",
+  "Na panvici zohrejeme sezamový olej na strednom ohni a opečieme kocky tofu zo všetkých strán do zlatohneda a do chrumkava (asi 5-7 minút).",
+  "Opečené tofu vyberieme z panvice a posypeme opečenými sezamovými semienkami.",
+  "Na tej istej panvici krátko orestujeme na plátky nakrájané huby shiitake a na polovice rozkrojený bok choy, kým nezmäknú (asi 3 minúty).",
+  "Ramen rezance uvaríme podľa návodu na obale. Scedíme a prepláchneme teplou vodou, aby sme odstránili prebytočný škrob.",
+  "Uvarené rezance rozdelíme do servírovacích misiek a zalejeme horúcim vývarom.",
+  "Navrch poukladáme chrumkavé tofu, huby shiitake, bok choy, bambusové výhonky a nadrobno nakrájanú jarnú cibuľku a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "japonské",
+  "polievka",
+  "rezance"
+ ]
 }

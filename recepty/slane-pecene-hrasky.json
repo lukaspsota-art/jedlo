@@ -1,51 +1,135 @@
 {
-  "id": "slane-pecene-hrasky",
-  "nazov": "Slané pečené hrášky",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 93,
-  "kcal_zdroj": "vypocet",
-  "popis": "Chrumkavý pečený hrášok korenený, zdravá alternatíva ku chipsom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hrach",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": "mrazený, rozmrazený a osušený"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kmín",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Hrášok dôkladne osuš papierovou utierkou.",
-    "Premiešaj s olivovým olejom, kmínom a soľou.",
-    "Rozlož na plech v jednej vrstve.",
-    "Peč pri 200 °C asi 20-25 minút do chrumkava, priebežne premiešaj."
-  ],
-  "tipy": "Chrumkavosť sa ešte zvýši po vychladnutí.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "hrášok",
-    "chrumkavé"
-  ]
+ "id": "slane-pecene-hrasky",
+ "nazov": "Slané pečené hrášky",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pečený kozí syr s hráškom a fazuľkou (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/peceny-kozi-syr-s-hraskom-a-fazulkou/19096-recept.html",
+ "porcie": 13,
+ "cas": "20 min",
+ "kcal_na_porciu": 224,
+ "popis": "Chrumkavý pečený hrášok korenený, zdravá alternatíva ku chipsom.",
+ "ingrediencie": [
+  {
+   "nazov": "Kozí syr",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Filo cesto",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrášok",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mladá fazuľka",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rukola",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Brusnice",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kozí syr pokrájame na plátky široké asi 1 cm a potrieme ich medom a olivovým olejom. Potom ich zabalíme do cesta pokrájaného na štvorce, preložíme na plech, vložíme do rúry rozohriatej na 200 °C a pečieme asi 5 minút do zlatista. V panvici na rozohriatom oleji opražíme cibuľku s mladým hráškom a mladou fazuľkou.",
+  "Rajčiakové concassé: Narezané rajčiaky sparíme vo vriacej vode, schladíme vo vode s ľadom a ošúpeme. Nato ich rozpolíme, lyžicou vyberieme jadierka a dužinu nakrájame na drobné kocky a ochutíme citrónovou šťavou, soľou a čerstvo zomletým korením.",
+  "Pridáme posekanú bazalku a jarnú cibuľku, premiešame a necháme na sitku odkvapkať (asi 5 minút). Olejom pomastíme cesto, kým ho dáme piecť.",
+  "Brusnice: Javorový sirup alebo vodu s medom uvedieme do varu, pridáme brusnice, stiahneme zo sporáka a necháme odležať."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "hrášok",
+  "chrumkavé"
+ ]
 }

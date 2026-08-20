@@ -1,76 +1,67 @@
 {
-  "id": "jablkova-strudla",
-  "nazov": "Jablková štrúdľa (závin)",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 8,
-  "cas": "70 min",
-  "kcal_na_porciu": 320,
-  "popis": "Ťahané alebo lístkové cesto plnené jablkami, škoricou a hrozienkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Lístkové cesto",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 1000,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrozienka",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Strúhanka",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": "rozpustené"
-    },
-    {
-      "nazov": "Práškový cukor",
-      "mnozstvo": null,
-      "jednotka": "na posypanie",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Jablká nastrúhaj alebo nakrájaj, zmiešaj s cukrom, škoricou a hrozienkami.",
-    "Cesto rozvaľkaj, posyp opraženou strúhankou a rozlož plnku.",
-    "Zaviň do závinu a potri maslom.",
-    "Peč pri 190 °C asi 35 minút dozlata.",
-    "Posyp práškovým cukrom."
-  ],
-  "tipy": "Strúhanka nasaje šťavu z jabĺk a cesto ostane suché.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "sladké",
-    "jablká"
-  ],
-  "foto": ""
+ "id": "jablkova-strudla",
+ "nazov": "Jablková štrúdľa (závin)",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Jablková štrúdľa (autor: lilien07)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/jablkova-strudla/88813-recept.html",
+ "porcie": 2,
+ "cas": "30 min",
+ "kcal_na_porciu": 336,
+ "popis": "Jednoduchý recept na jablkovú štrúdľu z lístkového cesta.",
+ "ingrediencie": [
+  {
+   "nazov": "Lístkové cesto",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škoricový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ako prvé si nachystáme lístkové cesto.",
+  "Jablká ošúpeme, nakrájame na kocky alebo nastrúhame.",
+  "Potom jablká rozložíme na cesto.",
+  "Jablká posypeme škoricovým, vanilkovým a kryštálovým cukrom.",
+  "Cesto s jablkami zrolujeme.",
+  "Preložíme na plech, štrúdľu natrieme rozmiešaným vajíčkom a posypeme škoricovým, vanilkovým a kryštálovým cukrom.",
+  "A pečieme na 190 °C cca 10 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "sladké",
+  "jablká"
+ ]
 }

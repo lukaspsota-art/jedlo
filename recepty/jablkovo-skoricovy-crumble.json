@@ -1,58 +1,97 @@
 {
-  "id": "jablkovo-skoricovy-crumble",
-  "nazov": "Jablkovo-škoricový crumble",
-  "kategoria": "Dezert",
-  "kuchyna": "Britská",
-  "zdroj": "klasický recept",
-  "porcie": 6,
-  "cas": "50 min",
-  "kcal_na_porciu": 331,
-  "kcal_zdroj": "vypocet",
-  "popis": "Britský pečený dezert z jabĺk pod chrumkavou drobenkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Jablká nakrájaj na kocky, premiešaj so škoricou a časťou cukru, ulož do zapekacej misy.",
-    "Z múky, studeného masla a zvyšného cukru vypracuj rukami drobenku.",
-    "Posyp drobenkou jablká.",
-    "Peč pri 180 °C asi 35-40 minút do zlatista.",
-    "Podávaj teplé, ideálne so zmrzlinou alebo smotanou."
-  ],
-  "tipy": "Drobenka by mala zostať hrudkovitá, nepremiesuj ju príliš dlho.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "jablko",
-    "britské"
-  ]
+ "id": "jablkovo-skoricovy-crumble",
+ "nazov": "Jablkovo-škoricový crumble",
+ "kategoria": "Dezert",
+ "kuchyna": "Britská",
+ "zdroj": "Varecha.sk – Jablkovo-hruškový crumble po brniansky (fotorecept) (autor: bobkovci0za0sporakom)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/jablkovo-hruskovy-crumble-po-brniansky-fotorecept/89857-recept.html",
+ "porcie": 8,
+ "cas": "55 min",
+ "kcal_na_porciu": 297,
+ "popis": "Ideálny recept do chladných, dlhých, jesenno-zimných večerov kedy je treba navodiť cozy atmosféru a prevoňať domov :))",
+ "ingrediencie": [
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrušky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "z 1 citróna"
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovesné vločky",
+   "mnozstvo": 130,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 130,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 90,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ovocie očistíme...",
+  "...následne ho pekne nakrájame, ak je hruška viac zrelá, môže ísť na väčšie kúsky.",
+  "Rozohrejeme si masielko a pridáme doň cukor, škoricu, citrónovú kôru a keď sa všetko pekne rozpustí, je omáčka na ovocie hotová.",
+  "Pridáme k nej jabĺčka a hruštičky a premiešame, odstavíme ich z platne, aby nezmäkli.",
+  "V miske zmiešame všetky suroviny na crumble, aby z toho bola homogénna hmota.",
+  "Crumble potom poukladáme na ovocie a sme ready hodiť celý pekáč do rúry.",
+  "Pečieme na 200 stupňov, cca 40 minút, a sem-tam nato hodíme očko, aby sa zmes nepripálila.",
+  "Potom už iba servírovať lyžicou. Zjesť sa to dá samé, s vanilkovou zmrzkou alebo si s tým môžete vytúnovať ryžovú alebo odvážnejší aj krupicovú kašu. Mňam mňam. ;))"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "jablko",
+  "britské"
+ ]
 }

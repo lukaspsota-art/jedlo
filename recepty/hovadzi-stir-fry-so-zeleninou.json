@@ -1,77 +1,98 @@
 {
-  "id": "hovadzi-stir-fry-so-zeleninou",
-  "nazov": "Hovädzí stir-fry so zeleninou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 409,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchlo opečené hovädzie prúžky so zeleninou vo woku.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "na prúžky"
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Brokolica",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zázvor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso nakrájaj na tenké prúžky a rýchlo opeč na rozohriatom oleji.",
-    "Mäso vyber, na tom istom oleji opeč zeleninu do chrumkava.",
-    "Pridaj cesnak a zázvor, krátko opraž.",
-    "Vráť mäso späť a zalej sójovou omáčkou.",
-    "Podávaj s ryžou."
-  ],
-  "tipy": "Mäso krájaj proti vláknam pre jemnejšiu textúru.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "hovädzie",
-    "ázijské",
-    "rýchle"
-  ]
+ "id": "hovadzi-stir-fry-so-zeleninou",
+ "nazov": "Hovädzí stir-fry so zeleninou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "Varecha.sk – Zeleninové stir-fry (autor: veggie)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zeleninove-stir-fry/25222-recept.html",
+ "porcie": 2,
+ "cas": "30 min",
+ "popis": "Curry-kokosová zelenina",
+ "ingrediencie": [
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hráškové struky",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Baby kukurica",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sterilizovaný cícer",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tofu",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosová smotana",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karí korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukuričný škrob",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na rozpálenom oleji si orestujeme tofu obalené v škrobe a soli. Odložíme bokom.",
+  "Z mrkvy spravíme pomocou škrabky hrubšie rezance, hrášok a kukuričku si nakrájame na menšie kúsky, cícer zbavíme šupiek. Na panvici rozpálime olivový olej, prídame cesnak, krátko opražíme, pridáme zeleninku a cícer, osolíme a chvíľku porestujeme. Potom zalejeme vodou a necháme podusiť, cca 3-4 minúty, aby zelenina nestratila farbu.",
+  "Do podusenej zeleniny pridáme curry korenie, kajenské korenie a kokosovú smotanu. Tiež pridáme lyžiču škrobu rozrobeného vo vode a varíme kým omáčka nezhustne. Pridáme orestované tofu a podávame s ryžou alebo zemiakmi."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "ázijské",
+  "rýchle"
+ ]
 }

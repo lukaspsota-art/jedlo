@@ -1,51 +1,68 @@
 {
-  "id": "pecena-cvikla-s-tymianom",
-  "nazov": "Pečená cvikla s tymianom",
-  "kategoria": "Príloha",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "50 min",
-  "kcal_na_porciu": 107,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchá pečená cvikla s bylinkami, sladká a aromatická príloha.",
-  "ingrediencie": [
-    {
-      "nazov": "Červená repa",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tymian",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Repu ošúp a nakrájaj na kliny.",
-    "Premiešaj s olivovým olejom, tymianom a soľou.",
-    "Rozlož na plech.",
-    "Peč pri 200 °C asi 35-40 minút do mäkka."
-  ],
-  "tipy": "Skvelá príloha aj studená v šalátoch.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "repa",
-    "pečené"
-  ]
+ "id": "pecena-cvikla-s-tymianom",
+ "nazov": "Pečená cvikla s tymianom",
+ "kategoria": "Príloha",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pečené cviklové carpaccio (autor: mariana1982)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecene-cviklove-carpaccio/75706-recept.html",
+ "porcie": 8,
+ "cas": "90 min",
+ "kcal_na_porciu": 238,
+ "popis": "Obmena tradičného talianskeho cviklového carpaccia.",
+ "ingrediencie": [
+  {
+   "nazov": "Cvikla",
+   "mnozstvo": 700,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr feta",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Balzamikový ocot",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cviklu ošúpeme a nakrájame na malé kocky, dáme do pekáča, podlejeme vodou, zakryjeme a upečieme asi 45 min pri 250 °C. Kontrolujeme, premiešame, prípadne podlejeme ďalšou vodou ak sa vyparila - aby cvikla neprihorela. Množstvo cvikly je orientačné - radšej viac ako menej.",
+  "Keď je cvikla mäkká, pridáme ostatné suroviny (nasekané orechy, cesnak nakrájaný na plátky, syr nakrájaný na kocky) + olej, ocot, korenie. Pomiešame a odokryté zapečieme ešte asi 10 min. Dávame pozor, aby cesnak a hlavne orechy neprihoreli. Soliť netreba, syr je už slaný. Množstvo surovín je orientačné, každý si pridá podľa chuti.",
+  "Jedlo je vhodné ako teplá večera s nejakou prílohou, ale je chutné aj studené."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "repa",
+  "pečené"
+ ]
 }

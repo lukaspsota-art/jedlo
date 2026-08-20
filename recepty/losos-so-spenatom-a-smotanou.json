@@ -1,64 +1,75 @@
 {
-  "id": "losos-so-spenatom-a-smotanou",
-  "nazov": "Losos so špenátom a smotanou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "25 min",
-  "kcal_na_porciu": 417,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémové jedlo z pečeného lososa a duseného špenátu.",
-  "ingrediencie": [
-    {
-      "nazov": "Losos",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Špenát",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 120,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Lososa osoľ a opeč na panvici z oboch strán.",
-    "V druhej panvici opraž cesnak, pridaj špenát a nechaj zvädnúť.",
-    "Prilej smotanu a prehrej.",
-    "Naservíruj lososa na smotanovom špenáte.",
-    "Podávaj so zemiakmi alebo ryžou."
-  ],
-  "tipy": "Rýchle a výživné jedlo pripravené za pol hodiny.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "losos",
-    "špenát"
-  ]
+ "id": "losos-so-spenatom-a-smotanou",
+ "nazov": "Losos so špenátom a smotanou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Losos parený na špenáte (fotorecept) (autor: tinca)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/losos-pareny-na-spenate-fotorecept/57452-recept.html",
+ "porcie": 2,
+ "cas": "15 min",
+ "kcal_na_porciu": 296,
+ "popis": "Občas sa snažím pripraviť si aj zdravšie jedlo a myslím, že toto je jedno z nich. AK chcete zhrešiť, môžete si ho ugrilovať.",
+ "ingrediencie": [
+  {
+   "nazov": "Losos",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenát baby",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na varenie",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie štyroch farieb",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Najprv si pripravíme špenát, na ktorom budeme lososa podávať. Na oleji opražíme šalotku, pridáme čerstvý baby špenát, ak nemáte môže byť aj mrazený, ale lístky. Potom pridáme pretlačený cesnak, korenie a soľ. Chvíľu ho podusíme a nakoniec zahustíme smotanou.",
+  "Vykostený filet lososa si z každej strany mierne osolíme a okoreníme čerstvo zomletým korením 4 farieb. Dáme ho do parného hrnca, alebo na skladací paráčik a paríme cca 5-7 minút, dľa hrúbky. Môžete pridať aj korenie na ryby, ja nepoužívam, lebo chcem nechať vyniknúť chuť ryby.",
+  "Lososa podávame na špenáte s varenými zemiakmi s maslom a pažítkou, alebo s petržlenovou vňaťkou. Gurmáni si môžu miesto pareného pripraviť aj grilovaný losos. Dobrú chuť!",
+  "Jedlo sa hodí aj ako veľkonočná pochúťka, trebars na zelený štvrtok alebo na pôstný veľký piatok."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "losos",
+  "špenát"
+ ]
 }

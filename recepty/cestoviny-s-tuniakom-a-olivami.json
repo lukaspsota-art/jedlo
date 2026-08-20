@@ -1,70 +1,85 @@
 {
-  "id": "cestoviny-s-tuniakom-a-olivami",
-  "nazov": "Cestoviny s tuniakom a olivami",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "20 min",
-  "kcal_na_porciu": 545,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchle cestoviny s tuniakom, olivami a paradajkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tuniak",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zelené olivy",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Na olivovom oleji opraž pretlačený cesnak, pridaj paradajky.",
-    "Dus 10 minút, potom pridaj scedeného tuniaka a olivy.",
-    "Zamiešaj uvarené cestoviny.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Rýchle jedlo z prevažne trvanlivých surovín zo špajze.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "tuniak",
-    "rýchle"
-  ]
+ "id": "cestoviny-s-tuniakom-a-olivami",
+ "nazov": "Cestoviny s tuniakom a olivami",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Pikantné cestoviny s olivami a bazalkou (autor: mihoo9)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pikantne-cestoviny-s-olivami-a-bazalkou/35997-recept.html",
+ "porcie": 2,
+ "cas": "20 min",
+ "kcal_na_porciu": 543,
+ "popis": "Rýchly a jednoduchý recept.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny penne",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky v konzerve",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelené olivy",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Veľká cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprička chilli sušená",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušená bazalka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do menšieho hrnca si nalejeme vodu, osolíme a dáme variť. Po zovretí do nej nasypeme cestoviny a varíme domäkka. Čas varenia je zhruba zhodný s prípravou celého receptu.",
+  "Chilli papričku rozdrvíme varechou a vysypeme do pripravenej väčšej panvice.",
+  "Cibuľu ošúpeme a nakrájame na drobno, z olív vylejeme nálev a pokrájame ich na polovice. Všetko vysypeme do panvice, pridáme trochu masti a soli a smažíme domäkka.",
+  "Medzitým si ošúpeme cesnak a odložíme si ho na neskôr.",
+  "Keď je cibuľa s olivami mäkká, vylejeme do nej konzervu krájaných paradajok. Zamiešame. Posypeme bazalkou (veľa bazalky) a dusíme pokiaľ sa takmer všetká šťava z paradajok neodparí.",
+  "Panvicu odstavíme z platne, cesnak prelisujeme a primiešame ho do hotovej zmesi.",
+  "Cestoviny scedíme a zmiešame ich s hotovou omáčkou. Dobrú chuť.",
+  "Samozrejme môžme použiť čerstvú bazalku, čerstvé paradajky (chuť jedla bude kyslejšia), namiesto olív sa hodí pór, ale musíme ho pridať neskôr, až po paradajkách, aby sa nám nerozvaril a zostal krásne zelený. Kto nemá rád pikantné, môže vynechať krok číslo 2."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "tuniak",
+  "rýchle"
+ ]
 }

@@ -1,82 +1,117 @@
 {
-  "id": "bolonske-spagety",
-  "nazov": "Boloňské špagety",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "50 min",
-  "kcal_na_porciu": 612,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasická talianska mäsová omáčka bolognese so špagetami.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnné špagety",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hovädzie",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "mleté"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na olivovom oleji orestuj nadrobno pokrájanú cibuľu, mrkvu a zeler.",
-    "Pridaj mleté mäso a opeč dorumena.",
-    "Vmiešaj pretlačený cesnak a paradajky.",
-    "Dus na miernom ohni 30 minút, dochuť soľou.",
-    "Podávaj na uvarených špagetách."
-  ],
-  "tipy": "Omáčka chutí ešte lepšie druhý deň, keď sa chute prehĺbia.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "talianske",
-    "hovädzie"
-  ]
+ "id": "bolonske-spagety",
+ "nazov": "Boloňské špagety",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Falošné bolonské špagety (autor: mandarin999)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/falosne-bolonske-spagety/59383-recept.html",
+ "porcie": 4,
+ "cas": "50 min",
+ "kcal_na_porciu": 537,
+ "popis": "Veľmi mám rada bolonské špagety, no keďže ich príprava je dlhšia a náročnejšia čo sa týka surovinovej stránky, rozhodla som sa vymyslieť rýchlejšiu a domácu verziu bolonských špagiet.  Všetkým nám veľmi chutili.",
+ "ingrediencie": [
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzie mäso",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 4,
+   "jednotka": "list",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koreninová zmes",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky v konzerve",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "sladká"
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špagety",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "čerstvá"
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "strúhaný (alebo Eidam"
+  }
+ ],
+ "postup": [
+  "Pripravíme si zmes na špagety. Na rozhorúčenom olivovom oleji, vo väčšom resp. širšom hrnci si osmažíme na kocky nakrájanú mrkvu a petržlen spolu s nakrájaným cesnakom. Po osmažení pridáme mleté mäsko, ktoré sme predtým osolili a okorenili podľa chuti. Neskôr pridám trocha mletej červenej papriky a pol balíčka koreninovej zmesi na Bolonské špagety. Mäsko necháme osmažiť (opiecť) do mäkka.",
+  "Keď už je mäsko mäkké, pridáme konzervu paradajok a paradajkový pretlak. Zmes by nemala byť úplne hustá, pretože po vychladnutí ešte zhustne. Ak sa zdá byť hustá, radšej ešte pridajte paradajkový pretlak alebo stačí pridať vodu podľa potreby a podusiť. Pridáme bobkový list a necháme ešte chvíľku dusiť, aby sa chute spojili. Kúsok pred dodusením pridáme čerstvú bazalku. Po podusení zmes ochutnáme, prípadne môžme dochutiť korením.",
+  "Nakoniec stačí pripraviť špagety tak, ako ste zvyknutí. Ja ich varím vo vriacej osolenej vode s trochou oleja a po precedení k nim pridám ešte trocha oleja, aby sa nelepili.",
+  "Nakoniec servírujeme na tanier - špagety prelejeme bolonskou zmesou a posypeme parmezánom (Ja som momentálne nemala, tak som použila Eidam)."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "talianske",
+  "hovädzie"
+ ]
 }

@@ -1,70 +1,62 @@
 {
-  "id": "rajcinova-polievka-s-ryzou",
-  "nazov": "Paradajková polievka s ryžou",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 158,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýta paradajková polievka s ryžou, klasika domácej kuchyne.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ryža",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu a cesnak.",
-    "Pridaj paradajky a vývar, var 15 minút.",
-    "Rozmixuj dohladka.",
-    "Pridaj ryžu a var podľa návodu do mäkka.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Skvelá sýta polievka, ktorá zasýti aj ako hlavné jedlo.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "paradajka",
-    "ryža"
-  ]
+ "id": "rajcinova-polievka-s-ryzou",
+ "nazov": "Paradajková polievka s ryžou",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Paradajková polievka (autor: MioMat)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/paradajkova-polievka/81183-recept.html",
+ "porcie": 4,
+ "cas": "50 min",
+ "kcal_na_porciu": 70,
+ "popis": "Domáca krémová paradajková polievka z \"hrnček var\" - hotová stlačením tlačítka z čerstvých surovín.",
+ "ingrediencie": [
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Z paradajok odstránime hrubé časti a vložíme do \"hrnček var\". Paradajky netreba šúpať, \"hrnček var\" šupky dobre rozmixuje. Pridáme očistenú a nakrájanú mrkvu, vďaka ktorej má polievka krásnu farbu a sladkastú chuť.",
+  "Vložíme aj za hrsť bazalky, dolejeme vodu po rysky Min/Max, okoreníme, osolíme a stlačíme tlačidlo Mash/Soup.",
+  "O pár minút máme skvelú paradajkovú polievku bez práce a dlhého státia v kuchyni hotovú. Nalejeme do tanierov, necháme vychladnúť na príjemnú teplotu, posypeme syrom a podávame. Polievku môžeme podávať aj studenú. Krémovosť polievky záleží aj od typu použitých paradajok, my sme použili také, ktoré mali menej šťavy."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "paradajka",
+  "ryža"
+ ]
 }

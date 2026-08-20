@@ -1,64 +1,74 @@
 {
-  "id": "spargľová-kremova-polievka",
-  "nazov": "Špargľová krémová polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Francúzska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 137,
-  "kcal_zdroj": "vypocet",
-  "popis": "Elegantná jarná krémová polievka zo špargle.",
-  "ingrediencie": [
-    {
-      "nazov": "Špargľa",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Špargľu nakrájaj na kúsky.",
-    "Na oleji opraž cibuľu, pridaj špargľu a vývar.",
-    "Var 15 minút do mäkka.",
-    "Rozmixuj dohladka, vmiešaj smotanu.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Sezónna jarná polievka, keď je čerstvá špargľa v obchodoch.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "špargľa",
-    "jarné"
-  ]
+ "id": "spargľová-kremova-polievka",
+ "nazov": "Špargľová krémová polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Špargľová krémová polievka (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sparglova-kremova-polievka/1271-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 176,
+ "popis": "Elegantná jarná krémová polievka zo špargle.",
+ "ingrediencie": [
+  {
+   "nazov": "Špargľa",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slepačí vývar",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Špargľu ošúpeme, nakrájame na 2 – 3 cm kúsky a uvaríme v 0,5 l vody. Z múky a masla pripravíme svetlú zápražku, zalejeme vývarom zo špargle, pridáme slepačí vývar alebo bujón a všetko povaríme.",
+  "Žĺtok rozhabarkujeme so smotanou a opatrne vmiešame do polievky. Už nevaríme.",
+  "Do polievky vložíme uvarenú špargľu a dochutíme ju soľou a strúhaným muškátovým orieškom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "špargľa",
+  "jarné"
+ ]
 }

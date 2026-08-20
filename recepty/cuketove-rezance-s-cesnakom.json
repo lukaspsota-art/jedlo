@@ -1,51 +1,75 @@
 {
-  "id": "cuketove-rezance-s-cesnakom",
-  "nazov": "Cuketové rezance s cesnakom",
-  "kategoria": "Príloha",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "15 min",
-  "kcal_na_porciu": 81,
-  "kcal_zdroj": "vypocet",
-  "popis": "Nízkosacharidová príloha z cukety nakrájanej na rezance.",
-  "ingrediencie": [
-    {
-      "nazov": "Cuketa",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cuketu nakrájaj alebo nastrúhaj na tenké rezance (špirálovačom alebo nožom).",
-    "Na olivovom oleji krátko opraž pretlačený cesnak.",
-    "Pridaj cuketové rezance a opraž 2-3 minúty, nesmú zmäknúť úplne.",
-    "Dochuť soľou a podávaj ihneď."
-  ],
-  "tipy": "Skvelá nízkosacharidová náhrada bežných cestovín.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "cuketa",
-    "nízkosacharidové"
-  ]
+ "id": "cuketove-rezance-s-cesnakom",
+ "nazov": "Cuketové rezance s cesnakom",
+ "kategoria": "Príloha",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Cuketové rezance v domácej paradajkovej omáčke (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cuketove-rezance-v-domacej-paradajkovej-omacke/61985-recept.html",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 127,
+ "popis": "Nízkosacharidová príloha z cukety nakrájanej na rezance.",
+ "ingrediencie": [
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé paradajky",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Veľká cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na oleji speníme cibuľku. Primiešame sparené paradajky, ktoré sme nakrájali na malé kúsky, a chvíľu restujeme.",
+  "Potom pridáme cesnak nakrájaný na plátky, nasekanú bazalku, jemne osolíme, okoreníme a dusíme asi 10 minút.",
+  "Cuketu umyjeme a škrabkou na zeleninu vytvoríme rezance (špagety). Dáme ich na panvicu na rozpálený olej a chvíľu restujeme.",
+  "Teplé rezance dáme do stredu taniera a navrch navrstvíme omáčku. Ozdobíme bazalkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "cuketa",
+  "nízkosacharidové"
+ ]
 }

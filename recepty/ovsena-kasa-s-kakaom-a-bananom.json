@@ -1,57 +1,56 @@
 {
-  "id": "ovsena-kasa-s-kakaom-a-bananom",
-  "nazov": "Ovsená kaša s kakaom a banánom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 343,
-  "kcal_zdroj": "vypocet",
-  "popis": "Čokoládová ovsená kaša s banánom, obľúbená u detí aj dospelých.",
-  "ingrediencie": [
-    {
-      "nazov": "Ovsené vločky",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kakao",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Banán",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ovsené vločky priveď s mliekom a kakaom do varu.",
-    "Var na miernom ohni 5 minút za miešania.",
-    "Banán nakrájaj na kolieska, pridaj do kaše.",
-    "Prisladiť medom a podávaj teplé."
-  ],
-  "tipy": "Skvelý spôsob, ako deti presvedčiť jesť ovsenú kašu.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "ovsená kaša",
-    "čokoláda"
-  ]
+ "id": "ovsena-kasa-s-kakaom-a-bananom",
+ "nazov": "Ovsená kaša s kakaom a banánom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Kakaová ovsená kaša s banánom (autor: pumaamravec)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kakaova-ovsena-kasa-s-bananom/19893-recept.html",
+ "porcie": 2,
+ "cas": "10 min",
+ "kcal_na_porciu": 308,
+ "popis": "Zdravá rýchla raňajková kaša  s kúskami banánu hotová do 10 minút. :)",
+ "ingrediencie": [
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polotučné mlieko",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do hrnca dáme vločky, zalejeme mliekom a na miernom ohni privedieme k varu. Pridáme kakao holandského typu a varíme do zhustnutia asi 5-6 minút.",
+  "Ku koncu pridáme na malé kúsky nakrájaný banán (ale 3 plátky si odložíme na ozdobenie), a varíme ešte 1 minútku.",
+  "Osladíme medom, prelejeme do misky, navrch dáme 3 plátky banánu a posypeme kakaom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "ovsená kaša",
+  "čokoláda"
+ ]
 }

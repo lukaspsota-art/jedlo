@@ -1,44 +1,80 @@
 {
-  "id": "chlieb-so-sunkou-a-uhorkou",
-  "nazov": "Chlieb so šunkou a uhorkou",
-  "kategoria": "Raňajky",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 2,
-  "cas": "5 min",
-  "kcal_na_porciu": 300,
-  "popis": "Nátierané chleby so šunkou a čerstvou uhorkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Chlieb",
-      "mnozstvo": 4,
-      "jednotka": "plátok",
-      "poznamka": "2 ks/porciu"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 30,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 120,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Plátky chleba potri maslom.",
-    "Poukladaj šunku a kolieska uhorky."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "rýchle"
-  ]
+ "id": "chlieb-so-sunkou-a-uhorkou",
+ "nazov": "Chlieb so šunkou a uhorkou",
+ "kategoria": "Raňajky",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Recept na chlieb (fotorecept) (autor: sonulienka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/recept-na-chlieb-fotorecept/47957-recept.html",
+ "porcie": 10,
+ "cas": "130 min",
+ "kcal_na_porciu": 350,
+ "popis": "Našla som tento recept na chlieb a chcela som vyskúšať. Toto zvládne každá začiatočníčka.",
+ "ingrediencie": [
+  {
+   "nazov": "Múka hladká špeciál",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chlebová zmes",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 750,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "trochu"
+  }
+ ],
+ "postup": [
+  "Nefotila som postup to každá vieme. Necháme si vykysnúť kvások, pokiaľ sa nám urobí kvások si odvážime a preosejeme múku. Keď máme kvások zohrejeme si vodu. Ja som miesila v stroji tam som dala najprv vodu potom rozrobenú múku do ktorej som pridala soľ, cukor, PDP a na to som dala kvások a vymiesila som cesto. To som nechala vykysnúť 1-hodinu. Počas kysnutia som 2x cesto premiesila.",
+  "Cesto hotové a rozdelené na dva bochníky.",
+  "Ďalší bochník.",
+  "Keď som mala cesto na plechoch tesne pred pečením som potrela vodou a dala piecť do predhriatej rúry na 200 stupňov. Mám teplovzdušnú rúru. Ako vidíte na chlieb som položila alobal aby mi veľmi neprihorel. Desať minút pred dopečením som dala alobal dole.",
+  "A tu je upečený chlebík",
+  "Sólo chlebík.",
+  "Ďalší.",
+  "Prekrojený chlebík.",
+  "Ešte jeden pohľad.",
+  "Veľmi jednoducho a rýchlo upečený chlebík a je výborný. Toto naozaj zvládne každý."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "rýchle"
+ ]
 }

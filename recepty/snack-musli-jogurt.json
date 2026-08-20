@@ -1,33 +1,79 @@
 {
-  "id": "snack-musli-jogurt",
-  "nazov": "Müsli s jogurtom",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "2 min",
-  "kcal_na_porciu": 244,
-  "kcal_zdroj": "vypocet",
-  "popis": "Biely jogurt zasypaný müsli.",
-  "ingrediencie": [
-    {
-      "nazov": "Jogurt",
-      "mnozstvo": 150,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Müsli",
-      "mnozstvo": 40,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Do jogurtu vsyp müsli a premiešaj."
-  ],
-  "tipy": "Doplň čerstvým ovocím.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "kupované"
-  ]
+ "id": "snack-musli-jogurt",
+ "nazov": "Müsli s jogurtom",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Domáce müsli (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domace-musli/93451-recept.html",
+ "porcie": 15,
+ "cas": "40 min",
+ "kcal_na_porciu": 193,
+ "popis": "Biely jogurt zasypaný müsli.",
+ "ingrediencie": [
+  {
+   "nazov": "Lieskové orechy",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pohánkové vločky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukuričné lupienky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoládové bezlepkové cereálie",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené brusnice",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové lupienky",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Oriešky posekáme nožom nahrubo. Do hlbokej panvice vlejeme 2 PL vody a pridáme cukor. Zahrievame, až sa cukor rozpustí, a potom panvicu odstavíme.",
+  "Posekané oriešky, slnečnicové semienka a pohánkové vločky premiešame s cukrovým karamelom a rozložíme na papier na pečenie. Necháme stuhnúť a vychladnúť, potom ich jemne podrvíme.",
+  "Karamelové oriešky s vločkami zmiešame so zvyšnými ingredienciami a uskladníme v sklenenej fľaši. Pri servírovaní zalejeme mliekom alebo pridáme jogurt. Môžeme vmiešať aj čerstvé ovocie."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "kupované"
+ ]
 }

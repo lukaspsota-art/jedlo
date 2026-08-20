@@ -1,45 +1,42 @@
 {
-  "id": "vodka-martini",
-  "nazov": "Vodka Martini",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 140,
-  "kcal_zdroj": "vypocet",
-  "popis": "Elegantný klasický kokteil z vodky a vermutu.",
-  "ingrediencie": [
-    {
-      "nazov": "Vodka",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Víno",
-      "mnozstvo": 10,
-      "jednotka": "ml",
-      "poznamka": "suchý vermút"
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do miešacieho pohára daj vodku, vermút a ľad.",
-    "Poriadne premiešaj (nie pretrepávaj).",
-    "Precedi do vychladeného pohára.",
-    "Ozdob olivou alebo citrónovou kôrou."
-  ],
-  "tipy": "Pomer vodky a vermutu si uprav podľa vlastnej chuti.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "vodka",
-    "klasické"
-  ]
+ "id": "vodka-martini",
+ "nazov": "Vodka Martini",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Vodka Martini",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/14167",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 124,
+ "popis": "Ordinary Drink · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 44.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Suchý vermút",
+   "mnozstvo": 22.2,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olive",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vodku a vermút pretrepeme s ľadom, precedíme do kokteilového pohára, pridáme olivu a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "vodka",
+  "klasické"
+ ]
 }

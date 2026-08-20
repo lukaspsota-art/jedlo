@@ -1,64 +1,93 @@
 {
-  "id": "bravcove-sote-so-zeleninou",
-  "nazov": "Bravčové soté so zeleninou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 383,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchlo opečené bravčové prúžky s farebnou zeleninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčová panenka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "na prúžky"
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso nakrájaj na tenké prúžky.",
-    "Na rozohriatom oleji rýchlo opeč mäso, vyber.",
-    "Na tom istom oleji opeč papriku a cibuľu.",
-    "Vráť mäso späť, pridaj pretlačený cesnak.",
-    "Dochuť soľou, podávaj s ryžou."
-  ],
-  "tipy": "Rýchle jedlo pripravené za necelých 30 minút.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "bravčové",
-    "rýchle"
-  ]
+ "id": "bravcove-sote-so-zeleninou",
+ "nazov": "Bravčové soté so zeleninou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Bravčové soté z pliecka, ľadviny a pečienky (fotorecept) (autor: izabella929)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bravcove-sote-z-pliecka-ladviny-a-pecienky-fotorecept/48104-recept.html",
+ "porcie": 4,
+ "cas": "100 min",
+ "kcal_na_porciu": 535,
+ "popis": "Tento recept som robila podľa Lacibácsiho z ATV..zaujalo ma použitie rôznych druhov \r\nbravčovín, teda bravčového pliecka, ľadviny a pečienky do jedného soté..jeho chuť skvele \r\ndoplnil paradajkový pretlak v spojení s paradajkovým lekvárom,paprikou a hríbami..veľmi \r\nchutné jedlo..",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčové pliecko",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová ladvina",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová pečeň",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slanina údená domáca",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pretlak paradakový domáci",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový lekvár",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené dubáky",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "pripravila som si všetky suroviny..",
+  "na panvicu som dala pokrájanú slaninu,nechala trošku topiť..",
+  "pridala som hneď pokrájanú cibuľu,cesnak a papriku..",
+  "pridala som pokrájanú lopatku a nechala chvíľu opiecť..",
+  "pridala som paradajkový pretlak ,paradajkový lekvár,soľ,korenie,bobkový list a nechala povariť..",
+  "podliala som malým množstvom vody a nechala dusiť pol hodinu.. po pol hodine som pridala pokrájanú ladvinu...",
+  "nechala som dusiť s ľadvinou 15min. ochutnala som a ladvina bola uvarená...tak som pridala aj pokrájanú pečienku..",
+  "chvíľu som ju nechala prejsť varom a pridala som umyté sušenú dubáky...",
+  "keď bolo všetko uvarené,ešte som ochutnala a dochutila...hotové soté..pokiaľ sa soté dusilo,uvarila som si ako prílohu ryžu a opiekla zemiaky..",
+  "nezostalo mi nič iné,iba všetko uložiť na misu,ozdobiť a prajem dobrú chuť.."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "rýchle"
+ ]
 }

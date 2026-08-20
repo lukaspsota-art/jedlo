@@ -1,63 +1,111 @@
 {
-  "id": "hrusky-s-gorgonzolou-a-orechmi-salat",
-  "nazov": "Šalát s hruškami, gorgonzolou a orechmi",
-  "kategoria": "Šalát",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "15 min",
-  "kcal_na_porciu": 237,
-  "kcal_zdroj": "vypocet",
-  "popis": "Elegantný šalát kombinujúci sladkú hrušku a výraznú gorgonzolu.",
-  "ingrediencie": [
-    {
-      "nazov": "Šalát",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrušky",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Gorgonzola",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vlašské orechy",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Hrušku nakrájaj na tenké plátky.",
-    "Šalát poukladaj na tanier, pridaj hrušku, gorgonzolu a orechy.",
-    "Pokvapkaj olivovým olejom.",
-    "Dochuť soľou a podávaj ihneď."
-  ],
-  "tipy": "Klasická talianska kombinácia chutí.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "hruška",
-    "syr"
-  ]
+ "id": "hrusky-s-gorgonzolou-a-orechmi-salat",
+ "nazov": "Šalát s hruškami, gorgonzolou a orechmi",
+ "kategoria": "Šalát",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Šalát s hruškou a gorgonzolou (autor: zuzanka1367)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/salat-s-hruskou-a-gorgonzolou/51959-recept.html",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 441,
+ "popis": "Znovu jeden šalát nenáročný na prípravu, prekvapujúci spojením chutí...pre odvážnych:-)",
+ "ingrediencie": [
+  {
+   "nazov": "Hlávkový šalát",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrušky",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zrelé avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Gorgonzola",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľová vňať",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele balzamiko",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Dijonská horčica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morská soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Šalát, obielenú hrušku, cibuľkovú vňať, avokádo a syr nakrájame do misky. Pokvapkáme citrónovou šťavou, aby hruška a avokádo nestmavlo.",
+  "Pripravíme si posýpku z orechov, ktoré necháme zkaramelizovať na panvici. Keď sa obalia karamelom, tak ich prehrnieme na papier na pečenie, kde ich necháme vychladnúť.",
+  "Zálievku vytvoríme zmiešaním všetkých surovín na hladký krém.",
+  "Šalát opatrne premiešame a podávame posypaný polámanými karamelovými orieškami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "hruška",
+  "syr"
+ ]
 }

@@ -1,62 +1,83 @@
 {
-  "id": "injera-vajcovy-wrap-etiopsky",
-  "nazov": "Etiópsky wrap s vajcom (injera štýl)",
-  "kategoria": "Raňajky",
-  "kuchyna": "Etiópska",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 410,
-  "popis": "Tortilla ako náhrada injery, plnená korenenou praženicou s berbere korením.",
-  "ingrediencie": [
-    {
-      "nazov": "Tortilla",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Berbere korenie",
-      "mnozstvo": null,
-      "jednotka": "štipka",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajka",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cibuľu speň na oleji, pridaj berbere korenie a paradajku, krátko podusaj.",
-    "Vlej rozšľahané vajcia a priprav praženicu.",
-    "Naplň tortillu praženicou a zaroluj."
-  ],
-  "tipy": "Berbere korenie je pikantné, dávkuj postupne podľa chuti.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "wrap",
-    "etiópska",
-    "pikantné"
-  ]
+ "id": "injera-vajcovy-wrap-etiopsky",
+ "nazov": "Etiópsky wrap s vajcom (injera štýl)",
+ "kategoria": "Raňajky",
+ "kuchyna": "Etiópska",
+ "zdroj": "Varecha.sk – Fresh wrap (autor: jenni)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/fresh-wrap/53216-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 267,
+ "popis": "Veľmi dobré a sýte jedlo, ktorého príprava vám nezaberie až tak veľa času. Wrapy aú \r\nsuper, či už si ich pobalíte so sebou na cesty alebo keď nemáte času nazvyš a chcete si \r\ndopriať poriadny a chutný obed a pritom sa vyhnúť veľkým oblúkom fast foodu a \r\nnezdravému jedlu..Zoberte si wrapy so sebou a máte postarané o zdravie aj o chuť. \r\nwww.dontbefakebakesomecake.sk",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnná pšeničná múka",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda vriaca",
+   "mnozstvo": 180,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva bez fosfátov",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej olivový extra virgin",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1 1/2 PL"
+  },
+  {
+   "nazov": "Avokádo zrelé menšie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky čerstvé stredne veľké",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "menšia hrsť"
+  },
+  {
+   "nazov": "Hummus domáci",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na tortilly si v mise zmiešame múku, soľ, prášok do pečiva, pridáme olej a vriacu vodu. Pri miesení cesta dávajte pozor na to, aby ste si nespálili prsty na vriacej vode. Ja zvyknem cesto zo začiatku premiešať varechou a keď sa už lepí dokopy, miesim rukou. Vymiesime si cesto, misu zakryjeme utierkou a necháme 10 minút odstáť.",
+  "Cesto si vyvaľkáme rukami do „šúľka“ a rozrežeme na štyri časti. Z každej časti cesta, na pomúčenej doske vyvaľkáme kruh, ktorý položíme na tanier a prekryjeme papierovou utierkou, na ktorú položíme ďalšiu vyvaľkanú tortillu a tak ďalej.",
+  "Placky opekáme z oboch strán na suchej, poriadne rozohriatej panvici. Placku otočíme vo chvíli, kedy sa na nej začnú tvoriť vzduchové bubliny. Ukladáme na tanier a prekrývame utierkami, ktoré sme použili pri vaľkaní cesta. Tortilly môžete konzumovať s čímkoľvek len chcete, napríklad s nejakým dipom alebo ako prílohu k hlavnému jedlu, no tento raz pôjde o tortillové wrapy, ktoré môžete šikovne využiť ako jedlo na cesty.",
+  "Keď máme tortilly hotové, môžeme sa pustiť do ich plnenia. Každú placku potrieme domácim hummusom. Je dobré mať doma vždy hummus, ktorý si pripravíte sami, pretože najlepšie viete, aké suroviny ste pri jeho výrobe použili a je vhodný na viaceré použitie.",
+  "Ďalej si na placky pripravíme avokádo, ktoré rozrežeme, vyberieme kôstku a ošúpeme. Nakrájame na pásiky a kladieme ho na placky. Ďalej si na kolieska nakrájame čerstvé paradajky a kolieska paradajok kladieme tiež na tortilly. Nakoniec už len posypeme lístkami čerstvej bazalky a tortilly zatočíme."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "wrap",
+  "etiópska",
+  "pikantné"
+ ]
 }

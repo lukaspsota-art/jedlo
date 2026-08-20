@@ -1,69 +1,105 @@
 {
-  "id": "kelovy-privarok",
-  "nazov": "Kelový prívarok",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 210,
-  "popis": "Dusený kel zahustený zápražkou s cesnakom — obľúbený s vajcom a zemiakmi.",
-  "ingrediencie": [
-    {
-      "nazov": "Kel",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": "nakrájaný"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Kel poduseň s cibuľou na masti.",
-    "Podlej vodou a dus domäkka.",
-    "Zaprášt múkou, podlej mliekom a rozvar.",
-    "Dochuť cesnakom a soľou."
-  ],
-  "tipy": "Podávaj s vareným zemiakom a vyprážaným vajcom.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "zelenina",
-    "prívarok"
-  ],
-  "foto": ""
+ "id": "kelovy-privarok",
+ "nazov": "Kelový prívarok",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Kelový prívarok (fotorecept) (autor: jerica)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kelovy-privarok-fotorecept/8863-recept.html",
+ "porcie": 2,
+ "cas": "25 min",
+ "kcal_na_porciu": 349,
+ "popis": "@jerica Pridávam obyčajný , zato veľmi chutný  recept  , kelový prívarok , hlavne pre mladé začínajúce gazdinky , nepíšem mladomanželky, dnes je viac párov, čo  žijú ako manželia , ale bez papiera . Je taký trend.  Tak , ako som sa učila variť , si spomínam , bola som na materskej , mama bola informátor na telefóne ,  dnes mladé začínajúce páry majú výhodu , kliknú si na \"recepty\", \"varenie\" tak h",
+ "ingrediencie": [
+  {
+   "nazov": "Menší kel",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "kto má koľko rád"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kmín",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1.3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maizena/ kukuričný škrob",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "postrúhaný (pokrájaný)kel , cesnak , na kocky zemiaky, kmín , soľ, dám do hrnca variť ,",
+  "pripravím zásmažku, na panvicu dáme hladkú múku , masť",
+  "Na zásmažku , keď je do zalata prejdená , pridáme na soli trený cesnak , mletú papriku",
+  "pár sekúnd prejdem smažením",
+  "zelejem vodou , prejdem varom",
+  "pridám dve kocky zeleninový bujón , prevarím",
+  "mierne prevarenú zásmažku nalejem na uvarený kel , premiešam , prejdem varom ,",
+  "na zjemnenie dám 1čl zarobenú maizenu s trochou studenej vody , spolu všetko prejdem varom , na koniec okorením trochou mletého bieleho korenia.",
+  "dobrú chuť"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "zelenina",
+  "prívarok"
+ ]
 }

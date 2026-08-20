@@ -1,70 +1,87 @@
 {
-  "id": "zapekane-cestoviny-so-spenatom-a-ricottou",
-  "nazov": "Zapekané cestoviny so špenátom a ricottou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 5,
-  "cas": "50 min",
-  "kcal_na_porciu": 413,
-  "kcal_zdroj": "vypocet",
-  "popis": "Zapekané cestoviny plnené ricottou a špenátom v paradajkovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Penne",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ricotta",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Špenát",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mozzarella",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale, mierne pod obvyklý čas (al dente).",
-    "Ricottu zmiešaj so zvädnutým špenátom.",
-    "Z paradajok a cesnaku priprav rýchlu omáčku.",
-    "V zapekacej mise premiešaj cestoviny, ricottovú zmes a polovicu omáčky, navrch daj zvyšok omáčky a mozzarellu.",
-    "Peč pri 190 °C asi 25 minút do zlatista."
-  ],
-  "tipy": "Skvelé aj na druhý deň zohriate.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "zapekané",
-    "ricotta"
-  ]
+ "id": "zapekane-cestoviny-so-spenatom-a-ricottou",
+ "nazov": "Zapekané cestoviny so špenátom a ricottou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Zapekané cestoviny (autor: miloss2)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zapekane-cestoviny/51410-recept.html",
+ "porcie": 7,
+ "cas": "35 min",
+ "kcal_na_porciu": 341,
+ "popis": "Chutné jedlo,rýchle na prípravu.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prsia morčacie",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrazený hrášok",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pochúťková smotana",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý nastrúhaný syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Uvaríme cestoviny podľa návodu.Morčacie prsia nakrájame na kocky,osolíme a prudko opečieme na olivovom oleji.(asi 5 minút)",
+  "Uvarené cestoviny zmiešame s opečeným mäsom,nakrájanými šampiňónmi a paradajkami,pridáme hrášok.",
+  "Primiešame smotanu a oregano.",
+  "Posypeme nastrúhaným syrom a petržlenovou vňaťou (mal som len sušenú,ale lepšia je čerstvá).Dáma zapiecť.Dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "zapekané",
+  "ricotta"
+ ]
 }

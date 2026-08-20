@@ -1,46 +1,86 @@
 {
-  "id": "priloha-zemiakova-kasa",
-  "nazov": "Zemiaková kaša (príloha)",
-  "kategoria": "Príloha",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 296,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová zemiaková kaša s maslom a mliekom.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 1000,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Zemiaky uvar do mäkka a zlej vodu.",
-    "Rozpučuj, pridaj teplé mlieko a maslo.",
-    "Šľahaj do hladka, osoľ."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "zemiaky"
-  ]
+ "id": "priloha-zemiakova-kasa",
+ "nazov": "Zemiaková kaša (príloha)",
+ "kategoria": "Príloha",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Zelená kaša zemiaková (autor: patroveckypitrs)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zelena-kasa-zemiakova/54302-recept.html",
+ "porcie": 6,
+ "cas": "45 min",
+ "kcal_na_porciu": 283,
+ "popis": "Tuto kašu ste už videli v recepte králik na červenom víne tak Vám opíšem postup výroby. \r\nTák tele novela pokračuje.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrášok",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukurica",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polotučné mlieko",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Očistené a nakrájané zemiaky dáme variť do hrnca osolíme. Keď sú zemiaky skoro uvarené pridáme mrazený hrášok a kukuricu z konzervy povaríme chvíľu nie dlho lebo hrášok stratí lahodnú chuť.",
+  "Počas varenia zemiakov si na oleji restujeme cibuľu ku koncu restovania pridáme prelisovaný cesnak premiešame a odstavíme a do horúceho dáme pokrájanú petržlenovú vňať pomiešame a necháme postať.",
+  "Zemiaky odložíme zo sporáka vodu zlejeme a pridáme maslo, mlieko, cibuľu pripravenú dobre premiešame. Napokon rozmixujeme a môžme podávať.",
+  "Podávame k vaječným jedlám k bielemu mäsu, alebo aj samotnú zo zeleninou môžme konzumovať. Prajem dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "zemiaky"
+ ]
 }

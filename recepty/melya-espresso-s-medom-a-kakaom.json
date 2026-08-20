@@ -1,0 +1,44 @@
+{
+ "id": "melya-espresso-s-medom-a-kakaom",
+ "nazov": "Melya (espresso s medom a kakaom)",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Melya",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12776",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Coffee / Tea · Coffee mug",
+ "ingrediencie": [
+  {
+   "nazov": "Espresso",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Uvaríme espresso.",
+  "Do hrnčeka dáme lyžičku nesladeného kakaa a lyžičku medu.",
+  "Miešame, kým sa med s kakaom nespoja na hladkú čokoládovú hmotu.",
+  "Zalejeme horúcim espressom a miešame, kým sa všetko nerozpustí.",
+  "Podávame so smotanou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "bezmäsité"
+ ]
+}

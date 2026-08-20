@@ -1,0 +1,69 @@
+{
+ "id": "lahsi-egg-nog",
+ "nazov": "Ľahší egg nog",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Egg Nog - Healthy",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12916",
+ "porcie": 3,
+ "cas": "5 min",
+ "kcal_na_porciu": 251,
+ "popis": "Punch / Party Drink · Collins Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 384.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 180,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rum",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vaječnú náhradu vyšľaháme s cukrom.",
+  "Spojíme s oboma druhmi mlieka, vanilkou a rumom a dobre premiešame.",
+  "Necháme cez noc vychladiť.",
+  "Pred podávaním posypeme muškátovým orieškom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "vajcia",
+  "bezmäsité"
+ ]
+}

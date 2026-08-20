@@ -1,57 +1,63 @@
 {
-  "id": "french-75",
-  "nazov": "French 75",
-  "kategoria": "Kokteil",
-  "kuchyna": "Francúzska",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 187,
-  "kcal_zdroj": "vypocet",
-  "popis": "Elegantný francúzsky kokteil z ginu, citróna a prosecca.",
-  "ingrediencie": [
-    {
-      "nazov": "Gin",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 8,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prosecco",
-      "mnozstvo": 90,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do shakera daj gin, citrónovú šťavu, cukor a ľad.",
-    "Pretrep a precedi do vysokého pohára.",
-    "Dolej vychladeným proseccom.",
-    "Jemne premiešaj a podávaj."
-  ],
-  "tipy": "Meno dostal podľa francúzskeho delostreleckého kanónu.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "gin",
-    "francúzske"
-  ]
+ "id": "french-75",
+ "nazov": "French 75",
+ "kategoria": "Kokteil",
+ "kuchyna": "Francúzska",
+ "zdroj": "TheCocktailDB – French 75",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17197",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 306,
+ "popis": "Ordinary Drink · Collins glass",
+ "ingrediencie": [
+  {
+   "nazov": "Gin",
+   "mnozstvo": 44.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 44.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampanské",
+   "mnozstvo": 118.3,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koktejlová višňa",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Gin, cukor a citrónovú šťavu spojíme v šejkri naplnenom ľadom.",
+  "Energicky pretrepeme a precedíme do vychladeného pohára na šampanské.",
+  "Dolejeme šampanským.",
+  "Opatrne premiešame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "gin",
+  "francúzske"
+ ]
 }

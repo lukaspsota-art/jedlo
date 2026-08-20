@@ -1,63 +1,51 @@
 {
-  "id": "zemiakove-placky",
-  "nazov": "Zemiakové placky",
-  "kategoria": "Príloha",
-  "kuchyna": "Slovenská",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 266,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tradičné vypražené zemiakové placky.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": "na vyprážanie"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky nastrúhaj najemno a scedi prebytočnú vodu.",
-    "Primiešaj vajce, múku, pretlačený cesnak a soľ.",
-    "Na rozohriatom oleji vyprážaj placky z oboch strán dozlata.",
-    "Nechaj odkvapkať na papierovej utierke."
-  ],
-  "tipy": "Podávaj so smotanou alebo kyslou uhorkou.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "zemiaky",
-    "slovenské"
-  ]
+ "id": "zemiakove-placky",
+ "nazov": "Zemiakové placky",
+ "kategoria": "Príloha",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Zemiakové placky (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakove-placky/72692-recept.html",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 295,
+ "popis": "Vďaka tomuto rýchlemu, chutnému a ešte aj sýtemu jedlu budete mať viac času na trávenie chvíľ s rodinou.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie na pečené zemiaky",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zemiaky umyjeme a varíme ich v šupke približne 20 minút. Potom ich scedíme a necháme vychladnúť.",
+  "Zemiaky ošúpeme, nahrubo nastrúhame, pridáme korenie a olivový olej a poriadne premiešame.",
+  "Rukou vytvoríme placky a opekáme ich na naolejovanej zahriatej panvici, kým nebudú krásne hnedé.",
+  "Rada: Zemiaky by mali mať rovnakú veľkosť, aby sa rovnomerne uvarili. Doba varenia závisí od veľkosti zemiakov."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "zemiaky",
+  "slovenské"
+ ]
 }

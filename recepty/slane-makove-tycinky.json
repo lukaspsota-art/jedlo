@@ -1,63 +1,62 @@
 {
-  "id": "slane-makove-tycinky",
-  "nazov": "Slané makové tyčinky",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 6,
-  "cas": "35 min",
-  "kcal_na_porciu": 246,
-  "kcal_zdroj": "vypocet",
-  "popis": "Chrumkavé slané tyčinky posypané makom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 4,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mak",
-      "mnozstvo": 25,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažnej vody, oleja, droždia a soli vypracuj cesto.",
-    "Nechaj kysnúť 40 minút.",
-    "Rozváľaj a nakrájaj na tenké prúžky, potri vodou a posyp makom.",
-    "Peč pri 200 °C asi 15 minút do chrumkava."
-  ],
-  "tipy": "Skvelé aj ako súčasť syrovej dosky.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "slané",
-    "mak"
-  ]
+ "id": "slane-makove-tycinky",
+ "nazov": "Slané makové tyčinky",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Slané tyčinky s kyslou smotanou (autor: naty)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/slane-tycinky-s-kyslou-smotanou/45750-recept.html",
+ "porcie": 12,
+ "cas": "32 min",
+ "kcal_na_porciu": 262,
+ "popis": "Zatiaľ som nepridala veľa receptov, pretože väčšinou ked niečo robím, tak je to z varechy :) \r\nale tento recept som našla niekde na internete, tak ho sem môžem pridať :) veľmi často som \r\nrobievala tyčinky z lístkového cesta ale tieto sú oveľa lepšie!",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 175,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zo všetkých surovín vypracujeme hladké cesto (ja som dala múku pol na pol s celozrnnou:). Nemusíme ho dávať stuhnúť do chladničky ale hned s ním pracujeme. Vyvaľkáme na tenko cca 2 mm a krájame na tyčinky. Preložíme na plech, potrieme bielkom a posypeme čím chceme (soľ, vegeta, rasca, sézam...)",
+  "Ja som z polovice spravila tyčinky, uzlíky,... a z druhej polovice slimáčiky (vyvaľkané cesto som potrela kečupom zmiešaným s horčicou, cesnakom a pizzovým korením). A dáme piecť. Tyčinky sú chrumkavé a slimáčiky mäkké! :)",
+  "Množstvo vám neviem povedať kedže som robila všelijaké tvary, ale ved to vidíte na úvodnej fotke, to sú všetky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "slané",
+  "mak"
+ ]
 }

@@ -1,57 +1,74 @@
 {
-  "id": "karfiolova-natierka-pecena",
-  "nazov": "Pečená karfiolová nátierka",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 97,
-  "kcal_zdroj": "vypocet",
-  "popis": "Krémová nátierka z pečeného karfiolu s cesnakom.",
-  "ingrediencie": [
-    {
-      "nazov": "Karfiol",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Karfiol rozober na ružičky, premiešaj s olivovým olejom a soľou.",
-    "Peč pri 200 °C asi 25 minút do zhnednutia.",
-    "Rozmixuj s pretlačeným cesnakom a citrónovou šťavou dohladka.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Ľahšia nízkosacharidová alternatíva ku klasickým nátierkam.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "karfiol",
-    "zdravé"
-  ]
+ "id": "karfiolova-natierka-pecena",
+ "nazov": "Pečená karfiolová nátierka",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Pečeňová nátierka (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecenova-natierka/2389-recept.html",
+ "porcie": 6,
+ "cas": "40 min",
+ "kcal_na_porciu": 295,
+ "popis": "Krémová nátierka z pečeného karfiolu s cesnakom.",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčová pečeň",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kôra z citróna",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Umyjeme bravčovú pečeň, cibuľu nakrájame a spolu pomelieme a podusíme na rozpálenom oleji.",
+  "Pridáme citrónovú kôru, rajčiakový pretlak, strúhanku a podľa chuti okoreníme.",
+  "Podusíme asi 20 minút a na záver osolíme."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "karfiol",
+  "zdravé"
+ ]
 }

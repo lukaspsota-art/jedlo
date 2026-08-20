@@ -1,64 +1,114 @@
 {
-  "id": "broskynovy-kolac",
-  "nazov": "Broskyňový koláč",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "55 min",
-  "kcal_na_porciu": 297,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vláčny letný koláč s čerstvými broskyňami.",
-  "ingrediencie": [
-    {
-      "nazov": "Broskyne",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 130,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Prášok do pečiva",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Broskyne nakrájaj na plátky.",
-    "Vyšľahaj maslo s cukrom a vajcami.",
-    "Primiešaj múku a prášok do pečiva.",
-    "Prelej cesto do formy, poukladaj plátky broskýň navrch.",
-    "Peč pri 175 °C asi 40-45 minút."
-  ],
-  "tipy": "Skvelý letný koláč, keď sú broskyne v sezóne.",
-  "foto": "",
-  "tagy": [
-    "dezert",
-    "broskyňa",
-    "letné"
-  ]
+ "id": "broskynovy-kolac",
+ "nazov": "Broskyňový koláč",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Broskyňový koláč (autor: kejtuska5)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/broskynovy-kolac/55069-recept.html",
+ "porcie": 15,
+ "cas": "65 min",
+ "kcal_na_porciu": 289,
+ "popis": "Vláčny letný koláč s čerstvými broskyňami.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kypriaci prášok do pečiva",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hera",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Broskyne stredne veľké",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtky",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky suroviny na cesto spolu zmiešame",
+  "Pripravené cesto vyvaľkáme a prenesieme do vymastenej, múkou vysypanej formy",
+  "Očistené a nakrájané broskyne poukladáme do formy- ja som broskyne krájala na zhruba 1 cm hrubé mesiačiky",
+  "Suroviny na plnku spolu zmixujeme a vylejeme na formu vystlanú broskyňami",
+  "Takto pripravený koláčik dáme zapiecť do rúry na cca 30 minút pri 180 stupňoch.",
+  "Po 30. minútach posypeme koláčik posýpkou, ktorú pripravíme zmiešaním predpísaných surovín a znova dáme zapiecť na 15 minút.",
+  "Na záver koláč dozdobíme nakrájanými broskyňami ."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "broskyňa",
+  "letné"
+ ]
 }

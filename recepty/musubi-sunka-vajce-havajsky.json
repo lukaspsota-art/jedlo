@@ -1,62 +1,50 @@
 {
-  "id": "musubi-sunka-vajce-havajsky",
-  "nazov": "Musubi sendvič so šunkou a vajcom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Havajská",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "25 min",
-  "kcal_na_porciu": 480,
-  "popis": "Havajský ryžový sendvič s vyprážanou šunkou, vajcom a riasou nori.",
-  "ingrediencie": [
-    {
-      "nazov": "Ryža",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "uvarená"
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Nori riasa",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": null,
-      "jednotka": "štipka",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Šunku opeč so sójovou omáčkou a cukrom do lesklého karamelu.",
-    "Vajcia usmaž na tenkú placku a nakrájaj na pásy.",
-    "Do formy nalož ryžu, šunku a vajce, obtoč pásikom nori."
-  ],
-  "tipy": "Ryžu formuj vlhkými rukami, nebude sa lepiť.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "sendvič",
-    "havajská",
-    "ryža"
-  ]
+ "id": "musubi-sunka-vajce-havajsky",
+ "nazov": "Musubi sendvič so šunkou a vajcom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Havajská",
+ "zdroj": "Varecha.sk – Sendvič(fotorecept) (autor: kajusiqq)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sendvicfotorecept/33797-recept.html",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": ":D......že recept:D...ale nie to len ták pretože to mám rada:)....rýchle chutné sýte:-*:-\n*.....milujem",
+ "ingrediencie": [
+  {
+   "nazov": "Chlieb",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 2,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tatárska omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 2,
+   "jednotka": "plátok",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Chlieb natrieme tatárskou omáčkou:)........polložíme šunku a znova natrieme tatárskou:)",
+  "Nato položíme plátok syra a dáme do toastovača:D",
+  "Veľmi zložite:D...... ........zeleninku do vnutra nedávam preto lebo mi nechutí teplá ......sem tam tam prihodim aj hranolky ale to iba ked mam chuť:D"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "sendvič",
+  "havajská",
+  "ryža"
+ ]
 }

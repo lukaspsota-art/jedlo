@@ -1,69 +1,61 @@
 {
-  "id": "long-island-iced-tea",
-  "nazov": "Long Island Iced Tea",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 216,
-  "kcal_zdroj": "vypocet",
-  "popis": "Silný kokteil kombinujúci viacero destilátov s colou a citrónom.",
-  "ingrediencie": [
-    {
-      "nazov": "Vodka",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Gin",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rum",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tequila",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cola",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pohár naplň ľadom.",
-    "Prilej všetky destiláty a citrónovú šťavu.",
-    "Dolej colou pre farbu a jemnú sladkosť.",
-    "Jemne premiešaj a podávaj."
-  ],
-  "tipy": "Napriek menu neobsahuje čaj — je to najsilnejší bežný kokteil.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "americké",
-    "silné"
-  ]
+ "id": "long-island-iced-tea",
+ "nazov": "Long Island Iced Tea",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Long Island Iced Tea",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17204",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 135,
+ "popis": "Ordinary Drink · Highball glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tequila",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rum",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Gin",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cola",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ingrediencie zmiešame vo vysokom pohári a opatrne premiešame.",
+  "Pre farbu pridáme trochu coly a ozdobíme citrónovou kôrou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "americké",
+  "silné"
+ ]
 }

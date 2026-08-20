@@ -1,70 +1,104 @@
 {
-  "id": "kuracie-coq-au-vin",
-  "nazov": "Kuracie coq au vin",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Francúzska",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "70 min",
-  "kcal_na_porciu": 580,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické francúzske kuracie mäso dusené v červenom víne s hubami.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie stehná",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Víno",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": "červené"
-    },
-    {
-      "nazov": "Šampióny",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Slaninu nakrájaj a opeč do chrumkava, vyber.",
-    "Kuracie stehná opeč na tom istom tuku dozlata.",
-    "Pridaj cibuľu a huby, krátko opraž.",
-    "Zalej vínom, vráť slaninu a dus pod pokrievkou 45 minút.",
-    "Dochuť soľou, podávaj so zemiakovou kašou."
-  ],
-  "tipy": "Klasika francúzskej vidieckej kuchyne.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "francúzske"
-  ]
+ "id": "kuracie-coq-au-vin",
+ "nazov": "Kuracie coq au vin",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Coq au vin – kohút na víne (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/coq-au-vin-kohut-na-vine/45177-recept.html",
+ "porcie": 6,
+ "cas": "80 min",
+ "kcal_na_porciu": 535,
+ "popis": "Klasické francúzske kuracie mäso dusené v červenom víne s hubami.",
+ "ingrediencie": [
+  {
+   "nazov": "Kohút",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prerastená slanina",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červené husté víno",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pór",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové celé korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kohúta stiahneme z kože a nakrájame na menšie kusy. Varíme v červenom víne s pridaním soli, cesnaku, bobkového listu, nového a celého korenia, tymianu asi 30 minút. Slaninu nakrájame na jemné plátky a orestujeme do chrumkava. Vytiahneme z prebytočného tuku.",
+  "V tuku zo slaniny orestujeme očistenú, na kolieska nakrájanú mrkvu a šampiňóny. Po orestovaní vyberieme z tuku. V tuku znovu orestujeme pór. Po orestovaní vyberieme a celý proces zopakujeme s červenou cibuľou.",
+  "Uvareného kohúta vyberieme z vína. Do vína pridáme orestovanú zeleninu, slaninu, zahustíme maslom a spolu varíme asi 5 minút. Na záver pridáme kohúta, dochutíme soľou, korením a čerstvým tymianom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "francúzske"
+ ]
 }

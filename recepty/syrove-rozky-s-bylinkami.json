@@ -1,70 +1,101 @@
 {
-  "id": "syrove-rozky-s-bylinkami",
-  "nazov": "Syrové rožky s bylinkami",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "90 min",
-  "kcal_na_porciu": 306,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kysnuté rožky so syrom a čerstvými bylinkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 270,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Eidam",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "sušená"
-    },
-    {
-      "nazov": "Oregano",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažného mlieka, droždia a soli vypracuj cesto, vmiešaj polovicu syra a bylinky. Nechaj kysnúť 1 hodinu.",
-    "Rozdeľ na 8 dielov, vytvaruj rožky.",
-    "Posyp zvyšným syrom.",
-    "Nechaj 15 minút kysnúť.",
-    "Peč pri 200 °C asi 18-20 minút do zlatista."
-  ],
-  "tipy": "Skvele chutia aj vlažné, na druhý deň.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "syr",
-    "bylinky"
-  ]
+ "id": "syrove-rozky-s-bylinkami",
+ "nazov": "Syrové rožky s bylinkami",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Rožkové uzle s feta syrom (fotorecept) (autor: palokuchki)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/rozkove-uzle-s-feta-syrom-fotorecept/27241-recept.html",
+ "porcie": 7,
+ "cas": "50 min",
+ "kcal_na_porciu": 114,
+ "popis": "Nase oblubene pecivo.",
+ "ingrediencie": [
+  {
+   "nazov": "Muka hladka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jogurt biely",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Feta syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky sušené nakladané v oleji",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bielok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sol na posypanie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Maslo som rozpustila vo vlaznom mlieku, priliala som ho k ostatnym surovinam a mixerom som vymiesala jemne cesto. Cesto som prikryla a nechala som ho nakysnut. Nakysnute cesto som prelozila na dosku a este raz som ho premiesila. Ked cesto zase podkyslo, prerezala som ho na styri casti.",
+  "Z kazdej stvrtiny som rukami vygulala dlhy sulok, ktory som potom prerezala na styri casti. Cesto som trochu roztiahla do sirky a naplnila plnkou. Tu som davala feta syr so susenymi paradajkami. Na druhykrat som potom davala feta syr s cesnakom.",
+  "Cesto s plnkou som zatvorila, este trochu viac rozgulala a potom stocila do uzla.",
+  "Uzle som poukladala na pomasteny plech a nechala som ich zase nakysnut. Nakysnute uzle som potrela rozslahanym bielkom a posypala hrubou solou.",
+  "Uzle som piekla vo vyhriatej rure 180C 30 minut. Upecene som vybrala na mriezku a nechala vychladnut.",
+  "No a tu je este jeden obrazok z rozkrojenych uzlov."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "syr",
+  "bylinky"
+ ]
 }

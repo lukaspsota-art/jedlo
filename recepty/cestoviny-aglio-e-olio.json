@@ -1,65 +1,64 @@
 {
-  "id": "cestoviny-aglio-e-olio",
-  "nazov": "Cestoviny Aglio e Olio",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 3,
-  "cas": "20 min",
-  "kcal_na_porciu": 498,
-  "kcal_zdroj": "vypocet",
-  "popis": "Najjednoduchšie talianske cestoviny s cesnakom, olivovým olejom a chilli.",
-  "ingrediencie": [
-    {
-      "nazov": "Špagety",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 4,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chilli vločky",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Na olivovom oleji na miernom ohni pomaly opraž plátky cesnaku a chilli vločky, aby cesnak nezhorkol.",
-    "Zamiešaj uvarené cestoviny priamo v panvici.",
-    "Posyp petržlenovou vňaťou.",
-    "Dochuť soľou a podávaj ihneď."
-  ],
-  "tipy": "Kľúčom je pomaly opražený, nie spálený cesnak.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "talianske",
-    "rýchle",
-    "jednoduché"
-  ]
+ "id": "cestoviny-aglio-e-olio",
+ "nazov": "Cestoviny Aglio e Olio",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Spaghetti Aglio Olio e Pepperoncino (autor: chutimi)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/spaghetti-aglio-olio-e-pepperoncino/47266-recept.html",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 341,
+ "popis": "Jednoduché, rýchle, chutné. Na obrázku je záber porcie, kde som pridal aj sušené \r\nparadajky. Tento recept sa dá všemožne upravovať.",
+ "ingrediencie": [
+  {
+   "nazov": "Spaghetti",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej olivový extra virgin",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprička chili",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá šalvia",
+   "mnozstvo": 6,
+   "jednotka": "list",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo Grana Padano"
+  }
+ ],
+ "postup": [
+  "Cestoviny uvarte v osolenej vode al dente.",
+  "Cesnak očistite a nakrájajte na tenké plátky (snažte sa čo najrovnomernejšie). Papričku nakrájajte na tenké prúžky, posekajte aj semiačka. Šalviové lístky umyte a odrežte stopky. Lístky nasekajte na drobno.",
+  "V malom hrnci/na panvici zohrejte olivový olej. Vhoďte všetky suroviny a na miernom plameni nechajte až kým cesnak zozlatovie. Hneď prelejte na cestoviny aby cesnak nezhnedol a nezhorkol! Pokiaľ nepoužijete privysokú teplotu, cesnak aj šalvia ostanú príjemne chrumkavé.",
+  "Posypte čerstvo nastrúhaným parmezánom a podávajte."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "talianske",
+  "rýchle",
+  "jednoduché"
+ ]
 }

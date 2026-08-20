@@ -1,64 +1,56 @@
 {
-  "id": "slnecnicove-rozky",
-  "nazov": "Slnečnicové rožky",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "100 min",
-  "kcal_na_porciu": 290,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kysnuté rožky so slnečnicovými semienkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slnečnicové semienka",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažného mlieka, droždia, oleja a soli vypracuj cesto, vmiešaj polovicu semienok.",
-    "Nechaj kysnúť 1 hodinu.",
-    "Rozdeľ na 8 dielov, vytvaruj rožky.",
-    "Navrch posyp zvyšnými semienkami, nechaj 15 minút kysnúť.",
-    "Peč pri 200 °C asi 18-20 minút do zlatista."
-  ],
-  "tipy": "Skvelý základ na sendvič so syrom alebo šunkou.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "semienka",
-    "kysnuté"
-  ]
+ "id": "slnecnicove-rozky",
+ "nazov": "Slnečnicové rožky",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Fúkané rožky zo slnečnice (autor: tekvica)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/fukane-rozky-zo-slnecnice/61743-recept.html",
+ "porcie": 11,
+ "cas": "50 min",
+ "kcal_na_porciu": 265,
+ "popis": "Po úspechu makových fúkaných rožkov som pokračovala v experimente ďalej. Skúsila \r\nsom \r\nvymeniť orechy za slnečnicové semienka a zrodila sa ďalšia lahôdka.",
+ "ingrediencie": [
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 0.25,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 175,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hera",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky sypké suroviny poriadne premiešame v mise. Lúpané slnečnicové semienka kupujem v diskontnom obchodnom reťazci, je tam výhodná cena a veľké balenie, potom ich meliem na kávovom mlynčeku. Pridáme zmäknutú Heru a vypracujeme hladké cesto.",
+  "Cesto plníme do formičiek na rožky asi do 3/4. Viac nie, aby nepretiekli cez okraj. Rúru rozohrejeme na 160 °C a koláčiky upečieme. Ja som piekla veľké 20 min. a malé 15 min., treba odsledovať, každá rúra pečie inak. Koláčiky majú mať trochu zlatistú farbu.",
+  "Po upečení necháme vychladnúť a potom vyklopíme z formičiek. Ak chceme, môžeme namáčať do čokolády. Dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "semienka",
+  "kysnuté"
+ ]
 }

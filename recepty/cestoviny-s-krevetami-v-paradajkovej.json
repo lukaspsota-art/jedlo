@@ -1,70 +1,136 @@
 {
-  "id": "cestoviny-s-krevetami-v-paradajkovej",
-  "nazov": "Cestoviny s krevetami v paradajkovej omáčke",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 445,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte cestoviny s krevetami v aromatickej paradajkovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Linguine",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Krevety",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chilli vločky",
-      "mnozstvo": 0.25,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Na olivovom oleji opraž pretlačený cesnak a chilli vločky.",
-    "Pridaj paradajky, dus 10 minút.",
-    "Vmiešaj krevety, dus 3-4 minúty do ružova.",
-    "Zamiešaj uvarené cestoviny a podávaj."
-  ],
-  "tipy": "Krevety pridávaj až nakoniec, aby neboli gumové.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "krevety",
-    "talianske"
-  ]
+ "id": "cestoviny-s-krevetami-v-paradajkovej",
+ "nazov": "Cestoviny s krevetami v paradajkovej omáčke",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Cestoviny s Alfredo omáčkou a krevetami po mojom (fotorecept) (autor: sracz)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-s-alfredo-omackou-a-krevetami-po-mojom-fotorecept/84928-recept.html",
+ "porcie": 8,
+ "cas": "30 min",
+ "kcal_na_porciu": 433,
+ "popis": "Náhodou som naďabil na nové talianske cestoviny (vraj je ich vyše 700 druhov) s pomenovaním „gigli“.* Vzápätí sa mi v pamäti \r\nvybavilo moje detstvo na Barčianskej, vtedy hradskej do Barce, č. 32. Moja presladká Mamka Aňuci, B. P. bola veľká milovníčka \r\nopery, spojenej aj s menom slávneho lirického tenora Beniamino-a Gigli. V mrazničke mi už dlhšie zavadzalo 340 g vrecúško s \r\nkrevetami a tak mi ",
+ "ingrediencie": [
+  {
+   "nazov": "Údená prerastená slanina",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pór",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krevety",
+   "mnozstvo": 340,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na varenie",
+   "mnozstvo": 220,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 236,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oriešok muškátový čerstvo strúhaný",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie biele čerstvo mleté",
+   "mnozstvo": 1,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Na štart pripravení…!",
+  "V hrnci som vyškvaril plátky pokrájanej slaniny, následne do nej pridal celý zväzok mladej cibuľky pokrájanej aj s jej „pierkami“ a pokrájanou zelenou časťou póru a krátko porestoval.",
+  "Restovanie som „stopol“ maslom a kokosovým olejom a pridal pretlačené strúčiky cesnaku, premiešal ešte „krát“ krátko porestoval.",
+  "Medzitým som opláchol vrecúško už vypitvaných, z „pancierov“ vylúpnutých stredných kreviet s chvostíkmi a nechal ich v sitku odkvapkať.",
+  "Tucet z nich, tých najkrajších, som odložil vcelku na dekorovanie jednotlivých porcií a zvyšok som, medzi ukazovákom a palcom, vytlačil z chostíkov a mäso pokrájal na 5-10 mm kúsky,",
+  "Všetko som vložil do už orestovaného cibuľkovo-pórového základu, zmiešal a podusil, až začali „chytať“ červenkastú farbu (naozaj stačí necelé 2 minúty) ako je vidieť na 1. obr.",
+  "Všetko spoločne som nechal povariť v šľahačkovej a sladkej mexickej smotane (je ju vidieť na 1. obr v zelenobielom obale z plastu), čo všetko s predchádzajúcimi surovinami, doplnené čerstvo strúhaným muškátovým orieškom a mletým parmezánom vytvorilo môj „alfredo sauce“ (v talianskom originálnom rcp nájdete ešte syrokrém, cesnakový prášok a talianske korenie),",
+  "Základ som s čerstvo mletým bielym korením premiešal, vložil dvojvetvičku čerstvého rozmarínu (nemusí byť), povaril 2-3 minúty.",
+  "Do bublajúcej omáčky vložil stredný žltý zemiak, postrúhaný na „syrových slzičkách“, ešte raz nechal prejsť varom.",
+  "Podával s uvarenou talianskou gigli cestovinou (ale použite také, aké Vám chutia, či aké máte po ruke, vrelo odporúčam domáce pappardelle podľa rcp. našej šikovnej @Izabella929).",
+  "… a ešte pohľad na vrecúško gigli cestovín, ktoré som tentoraz použil ja."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "krevety",
+  "talianske"
+ ]
 }

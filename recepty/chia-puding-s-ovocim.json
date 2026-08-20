@@ -1,50 +1,86 @@
 {
-  "id": "chia-puding-s-ovocim",
-  "nazov": "Chia puding s ovocím",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "5 min (+ chladenie)",
-  "kcal_na_porciu": 232,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý nočný chia puding s ovocím, pripravený deň vopred.",
-  "ingrediencie": [
-    {
-      "nazov": "Chia",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jahody",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Chia semienka zmiešaj s mliekom a medom.",
-    "Nechaj v chladničke aspoň 4 hodiny alebo cez noc, kým nezhustne.",
-    "Pred podávaním ozdob čerstvými jahodami."
-  ],
-  "tipy": "Skvelý raňajkový meal-prep na celý týždeň dopredu.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "chia",
-    "meal-prep"
-  ]
+ "id": "chia-puding-s-ovocim",
+ "nazov": "Chia puding s ovocím",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Chia puding (autor: nocka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/chia-puding/67603-recept.html",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 396,
+ "popis": "Skvelá príležitosť skúsiť chia semienka.",
+ "ingrediencie": [
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horká čokoláda",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Semienka chia",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Agar",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahody",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horká čokoláda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "hobliny"
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo medovka"
+  }
+ ],
+ "postup": [
+  "Vločky agaru namočíme do 100 ml vody, premiešame a necháme nabobtnať (asi 30 min).",
+  "Kokosové mlieko zmiešame s 200 ml vody, pridáme trstinový a vanilkový cukor, miešame, kým sa cukor nerozpustí. Prisypeme postrúhanú čokoládu a chia semienka. Necháme asi 20 min nabobtnať. V tejto fáze je dobre puding ochutnať a v prípade potreby dosladiť.",
+  "Vodu s agarom osladíme 2 lyžicami cukru a spolu prevaríme. Prisypeme nakrájané jahody a pozvoľna varíme 5 minút, aby sa jahody trochu rozvarili. Odstavíme a necháme dobre vychladiť, najlepšie v chladničke. Na dno pohára navrstvíme jahodovú zmes, ktorú striedavo vrstvíme s pudingom. Puding ozdobíme hoblinami čokolády a lístkami mäty."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "chia",
+  "meal-prep"
+ ]
 }

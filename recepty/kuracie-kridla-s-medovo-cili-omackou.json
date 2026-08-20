@@ -1,65 +1,111 @@
 {
-  "id": "kuracie-kridla-s-medovo-cili-omackou",
-  "nazov": "Kuracie krídla s medovo-čili omáčkou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "50 min",
-  "kcal_na_porciu": 534,
-  "kcal_zdroj": "vypocet",
-  "popis": "Pečené kuracie krídla v sladko-pikantnej medovo-čili glazúre.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie krídla",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chilli omáčka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Krídla osoľ a ulož na plech.",
-    "Peč pri 200 °C asi 30 minút, priebežne obracaj.",
-    "Zmiešaj med, čili omáčku, sójovú omáčku a pretlačený cesnak.",
-    "Krídla potri glazúrou.",
-    "Dopeč ešte 10-15 minút do lesklej karamelizovanej kôrky."
-  ],
-  "tipy": "Skvelé aj grilované namiesto pečenia v rúre.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "kura",
-    "americké",
-    "pikantné"
-  ]
+ "id": "kuracie-kridla-s-medovo-cili-omackou",
+ "nazov": "Kuracie krídla s medovo-čili omáčkou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Grilované kuracie krídla na medovo-horčicovej omáčke a so sezamom (autor: shukvacik)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/grilovane-kuracie-kridla-na-medovo-horcicovej-omacke-a-so-sezamom/37835-recept.html",
+ "porcie": 9,
+ "cas": "70 min",
+ "kcal_na_porciu": 440,
+ "popis": "Tento recept som robil dnes prvý krát, už veľa krát som robil Grilovane krídla s kyslím \r\nobložením a tak ma napadlo skúsiť niečo nové :) napokon pokus vyšiel a všetkým chutilo.",
+ "ingrediencie": [
+  {
+   "nazov": "Kuracie krídla",
+   "mnozstvo": 1500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezam",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kremžská horčica",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Worcestrová omáčka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tekuté chilli",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škrob",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Baranie rohy",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čalamáda",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chren",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kuracie krídla si nasolíme, necháme 2 hodiny postať , potom pridáme 3 PL medu, 3 PL kremžskej horčice, 1PL worcestrovej omáčky, čierne korenie, soľ a malú lyžičku solamylu. Všetko to spolu zmiešame a necháme v chladničke postať 2 hodiny.",
+  "Potom to vložíme do rúry na program Gril, posypeme sezamom a tekutím chilli ( Ja som to dal do remosky ) a necháme pomalí piecť na 180 stupňov asi hodinu.",
+  "Keď máme krídla upečené , ( ja dávam na jednu porciu 6 ks krídiel ) spravíme si najlepšie na drevenú tácku kyslú oblohu kde si dáme baranie rohy, čalamádu, kyslé uhorky, horčicu, chren ... Ja ešte robievam cibuľový šalát. Prajem dobrú chuť :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "americké",
+  "pikantné"
+ ]
 }

@@ -1,76 +1,117 @@
 {
-  "id": "vianocka",
-  "nazov": "Vianočka",
-  "kategoria": "Pečivo",
-  "kuchyna": "Slovenská",
-  "zdroj": "klasický recept",
-  "porcie": 10,
-  "cas": "150 min",
-  "kcal_na_porciu": 359,
-  "kcal_zdroj": "vypocet",
-  "popis": "Tradičné slovenské vianočné pletené pečivo s hrozienkami a mandľami.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrozienka",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mandle",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažného mlieka, masla, cukru, vajec a droždia vypracuj cesto, vmiešaj hrozienka.",
-    "Nechaj kysnúť 1,5 hodiny.",
-    "Rozdeľ na pramene a upleť vianočku.",
-    "Potri rozšľahaným vajcom, posyp mandľami.",
-    "Peč pri 170 °C asi 40 minút do zlatista."
-  ],
-  "tipy": "Vianočka chutí najlepšie čerstvá, v deň pečenia.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "slovenské",
-    "sviatočné"
-  ]
+ "id": "vianocka",
+ "nazov": "Vianočka",
+ "kategoria": "Pečivo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Vianočka (autor: bibuskam)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/vianocka/77050-recept.html",
+ "porcie": 10,
+ "cas": "40 min",
+ "kcal_na_porciu": 315,
+ "popis": "Tradičné slovenské vianočné pletené pečivo s hrozienkami a mandľami.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rum",
+   "mnozstvo": 20,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok kypriaci do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľové lupienky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "V 100 ml teplého mlieka rozmiešame sušeného droždie a 1 PL cukru kryštál. Necháme 5-10 minút postáť.",
+  "Do preosiatej múky zapracujeme zmäknuté maslo, 2 vajcia, strúhanú citrónovú kôru, štipku soli, prilejeme kvások a zvyšok mlieka a prášok do pečiva. Vypracujeme kompaktné cesto a necháme kysnúť 1 h na teplom mieste.",
+  "Keď je cesto vykysnuté, pridáme hrozienka predtým namočené v rume, zapletieme vianočku a necháme ju ešte 20 minút podkysnúť na teplom mieste. Zaistíme špajdľami. Pred pečením potrieme rozšľahaným vajíčkom a posypeme plátkami mandlí.",
+  "Pečieme na 180 stupňov cca 40 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "slovenské",
+  "sviatočné"
+ ]
 }

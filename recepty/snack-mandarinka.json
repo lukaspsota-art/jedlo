@@ -1,29 +1,98 @@
 {
-  "id": "snack-mandarinka",
-  "nazov": "Mandarínka",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 85,
-  "kcal_zdroj": "vypocet",
-  "popis": "Čerstvé mandarínky.",
-  "ingrediencie": [
-    {
-      "nazov": "Mandarínka",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    }
-  ],
-  "postup": [
-    "Olúp a zjedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "ovocie",
-    "kupované"
-  ]
+ "id": "snack-mandarinka",
+ "nazov": "Mandarínka",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Mandarínkové rezy (autor: kilznah)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/mandarinkove-rezy/70732-recept.html",
+ "porcie": 18,
+ "cas": "70 min",
+ "kcal_na_porciu": 206,
+ "popis": "Mandarínkové rezy",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Želatína",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandarínkový kompót",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Želatína",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Oddelíme bielky od žĺtkov a vyšľaháme bielky na sneh a žĺtky s práškovým cukrom na penu. Do žĺtkovej peny pridáme olej a mlieko a premiešame. Pridáme prášok do pečiva a premiešame. Pridáme múku a premiešame. Nakoniec pridáme sneh z bielkov a premiešame. Cesto pečieme na 180 stupňoch cca 20 minút (môj plech mal veľkosť 24 x 35 x 7 cm).",
+  "Želatínu do krémov necháme napučať v troche vody podľa inštrukcií zo zadnej strany obalu od želatíny. Vyšľaháme šľahačkové smotany a pridáme k nim kyslé smotany a vanilkový cukor - množstvo vanilkového cukru je v ingredienciách uvedené iba približne, pridajte si toľko cukru, koľko vám chutí! Napučanú želatínu si na ohni necháme rozpustiť a pridáme po lyžiciach smotanovú masu. Vylejeme na vychladnutý korpus. Necháme stuhnúť v chladničke cez noc.",
+  "Na druhý deň zlejeme mandarínkový kompót a ovocie poukladáme na stuhnutú smotanovú vrstvu. K šťave z kompótu pridáme vodu do 500 ml a prípadne aj cukor podľa chuti. Povaríme podľa návodu na zadnej strane obalu od želatíny. Necháme trochu vychladnúť a vylejeme na ovocie. Necháme stuhnúť v chladničke cca 20 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "ovocie",
+  "kupované"
+ ]
 }

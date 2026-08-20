@@ -1,82 +1,69 @@
 {
-  "id": "studeny-cestovinovy-salat-feta-oliv",
-  "nazov": "Studený cestovinový šalát s fetou a olivami",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Grécka",
-  "zdroj": "inšpirované Wikibooks Cookbook (CC BY-SA)",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 499,
-  "kcal_zdroj": "vypocet",
-  "popis": "Grécky inšpirovaný studený šalát z cestovín, fety, olív a čerstvej zeleniny.",
-  "ingrediencie": [
-    {
-      "nazov": "Fusilli",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feta",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zelené olivy",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cherry paradajky",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Červená cibuľa",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Oregano",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu, scedi a nechaj vychladnúť.",
-    "Zeleninu a olivy nakrájaj na menšie kúsky, fetu na kocky.",
-    "Všetko premiešaj s olivovým olejom a oreganom.",
-    "Dochuť soľou a nechaj aspoň 15 minút odstáť v chladničke pred podávaním."
-  ],
-  "tipy": "Šalát chutí ešte lepšie druhý deň, keď sa chute premiešajú.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "grécke",
-    "studený šalát",
-    "feta"
-  ]
+ "id": "studeny-cestovinovy-salat-feta-oliv",
+ "nazov": "Studený cestovinový šalát s fetou a olivami",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Grécka",
+ "zdroj": "Varecha.sk – Studený cestovinový šalát (autor: peterkub)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/studeny-cestovinovy-salat/71329-recept.html",
+ "porcie": 2,
+ "cas": "18 min",
+ "kcal_na_porciu": 428,
+ "popis": "Počas teplých letných dní dobre padne zjesť aj niečo chladné - osviežujúce.  Cestoviny \r\nmám rád skoro na každý spôsob a bez tohto šalátu si \r\nuž leto neviem ani predstaviť. Je vhodný ako príloha ku pečenej hydine.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalátová uhorka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tatárska omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cestoviny uvaríme vo vode, do ktorej sme pridali soľ a olej. Cestoviny precedíme, opláchneme a necháme vychladnúť.",
+  "Uhorky ošúpeme a spolu s ostatnými surovinami nakrájame na drobné kocky. Všetko spolu zmiešame a pridáme tatársku omáčku (množstvo podľa chuti).",
+  "Všetko dobre premiešame a dáme do chladničky vychladnúť. Prajem dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "grécke",
+  "studený šalát",
+  "feta"
+ ]
 }

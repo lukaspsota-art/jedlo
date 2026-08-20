@@ -1,83 +1,172 @@
 {
-  "id": "tom-kha-gai",
-  "nazov": "Tom Kha Gai",
-  "kategoria": "Polievka",
-  "kuchyna": "Thajská",
-  "zdroj": "internet – adaptované (BBC Good Food)",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 380,
-  "popis": "Thajská kokosová polievka s kuraťom, galangalom a citrónovou trávou.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracích pŕs",
-      "mnozstvo": 400,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Kokosového mlieka",
-      "mnozstvo": 400,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Vývaru",
-      "mnozstvo": 400,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Galangalu",
-      "mnozstvo": 3,
-      "jednotka": "plátok"
-    },
-    {
-      "nazov": "Citrónovej trávy",
-      "mnozstvo": 30,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Kaffir listy",
-      "mnozstvo": 4,
-      "jednotka": "list"
-    },
-    {
-      "nazov": "šampiňóny",
-      "mnozstvo": 150,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "rybia omáčka",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Čili",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "1–2"
-    },
-    {
-      "nazov": "Koriander",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Vývar a kokosové mlieko prevar s galangalom, citrónovou trávou a kaffir listami.",
-    "Pridaj kura a šampiňóny, duste 8–10 min.",
-    "Dochuť rybacou omáčkou, limetkou a čili. Posyp koriandrom."
-  ],
-  "tipy": "Galangal, citrónovú trávu a kaffir listy pred jedením vyber — sú len na arómu.",
-  "foto": "",
-  "tagy": [
-    "thajské",
-    "polievka",
-    "kuracie",
-    "kokosové"
-  ]
+ "id": "tom-kha-gai",
+ "nazov": "Tom Kha Gai",
+ "kategoria": "Polievka",
+ "kuchyna": "Thajská",
+ "zdroj": "Varecha.sk – Tom Kha Gai – ostrá hydinová polievka s kokosovým mliekom (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/tom-kha-gai-ostra-hydinova-polievka-s-kokosovym-mliekom/81971-recept.html",
+ "porcie": 14,
+ "cas": "30 min",
+ "kcal_na_porciu": 365,
+ "popis": "Thajská kokosová polievka s kuraťom, galangalom a citrónovou trávou.",
+ "ingrediencie": [
+  {
+   "nazov": "Sliepka",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová tráva",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koreň galangalu",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pasta prick pao",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rybia omáčka",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Palmový cukor",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprička čili",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetkové listy",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 5000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slepačí vývar",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prsia kuracie",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 600,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetkové listy",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky lúpané bez jadier",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriandrová vňať",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ázijské huby",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprička čili",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová tráva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Slepačí vývar: Na vývar vložíme sliepku do 5 litrov studenej vody spolu s paradajkami a cibuľou a varíme asi 3 hodiny. Potom pridáme tĺčikom alebo nožom naklepanú citrónovú trávu, koreň galangalu, citrónovú šťavu, prick pao pastu, rybiu omáčku, cesnak, čili a varíme ďalšiu hodinu. Ku koncu varenia pridáme limetkové listy. Vývar precedíme.",
+  "Polievka: Do hrnca nalejeme 1 l slepačieho vývaru. Pridáme na rezance nakrájané kuracie prsia, kokosové mlieko, limetkové listy a varíme asi 10 minút, resp. kým nebudú kuracie prsia uvarené.",
+  "Do taniera dáme nakrájané paradajky, natrhanú koriandrovú vňať, huby, podľa chuti pokrájané čili a prelejeme vriacou polievkou. Podľa chuti osolíme a ochutíme šťavou z limetky a ozdobíme citrónovou trávou.",
+  "TIP: Zvyšný nepoužitý slepačí vývar môžeme uchovať v mrazničke pre ďalšie použitie. S predpripraveným vývarom nebude príprava polievky Tom Kha Gai trvať dlhšie ako 15 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "thajské",
+  "polievka",
+  "kuracie",
+  "kokosové"
+ ]
 }

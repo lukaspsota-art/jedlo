@@ -1,64 +1,95 @@
 {
-  "id": "bravcove-na-paprike-so-smotanou",
-  "nazov": "Bravčové na paprike so smotanou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 497,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické dusené bravčové mäso v smotanovo-paprikovej omáčke.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčová krkovička",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 180,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji dusi cibuľu dozlata.",
-    "Pridaj mäso nakrájané na kocky, opeč.",
-    "Vmiešaj papriku, podlej vodou a dus 30 minút do mäkka.",
-    "Vmiešaj smotanu a prehrej.",
-    "Podávaj s cestovinami alebo knedľou."
-  ],
-  "tipy": "Podobné kuraciemu na paprike, len s bravčovým mäsom.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "bravčové",
-    "slovenské"
-  ]
+ "id": "bravcove-na-paprike-so-smotanou",
+ "nazov": "Bravčové na paprike so smotanou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Bravčové karé na paprike a smotane (fotorecept) (autor: marcel83)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bravcove-kare-na-paprike-a-smotane-fotorecept/56129-recept.html",
+ "porcie": 7,
+ "cas": "70 min",
+ "kcal_na_porciu": 466,
+ "popis": "Improvizácia.",
+ "ingrediencie": [
+  {
+   "nazov": "Karé bravčové",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sladká mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené huby",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morská soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na varenie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Odblaníme si karé a nakrájame na menšie nugetky. Do hrnčeka dáme sušené huby a zalejeme vlažnou vodou.",
+  "V hrnci na 1 PL masti opražíme do sklovita cibuľu nakrájanú na drobno. Prihodíme cesnak nasekaný na krúžky. Krátko orestujeme a pridáme mäso. Na prudkom plameni mäso zatiahneme. Nemalo by pustiť šťavu.",
+  "Pridáme korenie, rascu a papriku. Krátko orestujeme, aby nám paprika nezhorkla.",
+  "Zalejeme vodou, prikryjeme a dusíme do mäkka.",
+  "Keď máme mäso takmer udusené, vlejeme celý obsah hrnčeka s hubami a 15 minút povaríme.",
+  "Vlejeme smotanu na varenie a ďalších 10 minút necháme prevrieť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "slovenské"
+ ]
 }

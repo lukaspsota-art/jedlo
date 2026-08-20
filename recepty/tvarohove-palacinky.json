@@ -1,57 +1,111 @@
 {
-  "id": "tvarohove-palacinky",
-  "nazov": "Tvarohové palacinky",
-  "kategoria": "Raňajky",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "25 min",
-  "kcal_na_porciu": 303,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jemné palacinky s tvarohom priamo v ceste.",
-  "ingrediencie": [
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 10,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetky suroviny rozšľahaj dohladka.",
-    "Na rozohriatej panvici s troškou oleja vylievaj menšie palacinky.",
-    "Opekaj z oboch strán do zlata.",
-    "Podávaj s medom alebo ovocím."
-  ],
-  "tipy": "Tvaroh robí cesto sýtejšie a výživnejšie.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "tvaroh",
-    "palacinky"
-  ]
+ "id": "tvarohove-palacinky",
+ "nazov": "Tvarohové palacinky",
+ "kategoria": "Raňajky",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Ľahké palacinky s tvarohom a ovocím (autor: monika12699)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/lahke-palacinky-s-tvarohom-a-ovocim-/72016-recept.html",
+ "porcie": 8,
+ "cas": "50 min",
+ "kcal_na_porciu": 264,
+ "popis": "Palacinky sú pre mňa vždy \r\njednotkou medzi sladkým.",
+ "ingrediencie": [
+  {
+   "nazov": "Odtučnený tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kiwi",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahody",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok kypriaci do pečiva",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do misky nasypeme múku, pridáme vajce, olej, cukor, soľ, kypriaci prášok, mlieko, vanilkový cukor a všetko spolu vymixujeme. Cesto by nemalo byť moc husté ale ani riedke ;) Keď máme cesto hotové, dáme ho do chladničky odstáť aspoň na 30 min.",
+  "Počas čakania na cesto si môžeme pripraviť plnku. Plnku si pripravíme tak že do misky prenesieme tvaroh, k tvarohu pridáme cukor, nastrúhame si citrón - citrónovú kôru a pridáme do misky s tvarohom - môžeme dať aj trošku citrónovej šťavy. Všetko spolu si premiešame a ochutnáme :) malo by to chutiť jemne kyslo sladko :) Nakrájame si banán a kivi na jemné kúsky a primiešame k tvarohu. Plnka je hotová.",
+  "Keď máme odstáte cesto, tak môžeme začať piecť palacinky. Panvicu vymastíme olejom ale len jemne, na rozohriatu panvicu lejeme cesto naberačkou a rozlejeme cesto po celej panvici. Po každej upečenej palacinke si vymastíme panvicu.",
+  "Keď máme palacinky upečené a natreté plnkou môžeme palacinky servírovať. Na dozdobenie použijeme napríklad kivi, ja som použila jahody, Granko, práškový cukor, čokoládový toping. Dobrú chuť prajem!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "tvaroh",
+  "palacinky"
+ ]
 }

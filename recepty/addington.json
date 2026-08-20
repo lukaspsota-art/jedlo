@@ -1,0 +1,42 @@
+{
+ "id": "addington",
+ "nazov": "Addington",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Addington",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17227",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 168,
+ "popis": "Cocktail · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Sladký vermút",
+   "mnozstvo": 80,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Suchý vermút",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sóda",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Oba vermúty zmiešame v šejkri a precedíme do vychladeného pohára.",
+  "Dolejeme trochou sódy."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "bezmäsité"
+ ]
+}

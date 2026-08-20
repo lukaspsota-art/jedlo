@@ -1,71 +1,71 @@
 {
-  "id": "slane-croissanty-so-sunkou-a-syrom",
-  "nazov": "Slané croissanty so šunkou a syrom",
-  "kategoria": "Pečivo",
-  "kuchyna": "Francúzska",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "150 min",
-  "kcal_na_porciu": 401,
-  "kcal_zdroj": "vypocet",
-  "popis": "Slaná verzia domácich croissantov plnená šunkou a syrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 200,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažného mlieka, droždia a soli vypracuj cesto. Nechaj kysnúť 1 hodinu.",
-    "Rozváľaj, potri plátkami studeného masla, zloz a vyváľaj (zopakuj 2-3×).",
-    "Rozváľaj na plát, nakrájaj na trojuholníky, na širší koniec polož šunku a syr.",
-    "Zroluj do tvaru polmesiaca.",
-    "Nechaj 30 minút kysnúť a peč pri 200 °C asi 18-20 minút do zlatista."
-  ],
-  "tipy": "Skvelé teplé, aby sa syr vnútri rozpustil.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "francúzske",
-    "slané",
-    "šunka"
-  ]
+ "id": "slane-croissanty-so-sunkou-a-syrom",
+ "nazov": "Slané croissanty so šunkou a syrom",
+ "kategoria": "Pečivo",
+ "kuchyna": "Francúzska",
+ "zdroj": "Varecha.sk – Slané croissanty bez lepku (autor: novalim)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/slane-croissanty-bez-lepku/78478-recept.html",
+ "porcie": 20,
+ "cas": "100 min",
+ "kcal_na_porciu": 130,
+ "popis": "Verili by ste, že tieto slané croissanty bez lepku si viete napiecť len zo 4 základných surovín?* Pozrite si náš recept a zistite, vďaka \r\nčomu sú tieto slané rožteky chrumkavé a nalístkované ako pravé lístkové cesto. Vyskúšajte ich ešte dnes.",
+ "ingrediencie": [
+  {
+   "nazov": "Promix UNI múka bezlepková",
+   "mnozstvo": 280,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nízkotučný mäkký krémový tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "strúhaný (alebo semienka"
+  }
+ ],
+ "postup": [
+  "Z múky Promix UNI, tvarohu, mäkkého masla, vajec a soli vymiesime kompaktné cesto, ktoré zabalíme do fólie a necháme v chladničke aspoň hodinu-dve stuhnúť a odpočinúť.",
+  "Potom cesto rozvaľkáme na pomúčenej doske a radielkom ho nakrájame na trojuholníky. Tie zrolujeme do rožtekov, poukladáme na plech vystlaný papierom na pečenie a potrieme ich rozšľahaným vajíčkom.",
+  "Na povrchu ich môžeme posypať napríklad strúhaným syrom alebo rôznymi semiačkami, rascou alebo mletou červenou paprikou.",
+  "Pečieme ich pri teplote 190 stupňov asi 20-25 minút, kým sa nezačnú sfarbovať do zlatohneda. Počas pečenia môže z rožtekov vytekať tuk, čo je v poriadku.",
+  "Upečené slané croissanty bez lepku dáme vychladnúť na mriežku. Podávame ich k nápojom alebo na raňajky či desiatu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "francúzske",
+  "slané",
+  "šunka"
+ ]
 }

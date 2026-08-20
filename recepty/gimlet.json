@@ -1,51 +1,50 @@
 {
-  "id": "gimlet",
-  "nazov": "Gimlet",
-  "kategoria": "Kokteil",
-  "kuchyna": "Britská",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 210,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický jednoduchý kokteil z ginu a limetkovej šťavy.",
-  "ingrediencie": [
-    {
-      "nazov": "Gin",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do shakera daj gin, limetkovú šťavu, cukor a ľad.",
-    "Poriadne pretrep.",
-    "Precedi do vychladeného pohára.",
-    "Podávaj ihneď."
-  ],
-  "tipy": "Pôvodne vznikol ako spôsob, ako námorníkom dodať vitamín C.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "gin",
-    "britské"
-  ]
+ "id": "gimlet",
+ "nazov": "Gimlet",
+ "kategoria": "Kokteil",
+ "kuchyna": "Britská",
+ "zdroj": "TheCocktailDB – Gimlet",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17255",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 247,
+ "popis": "Cocktail · Martini Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Gin",
+   "mnozstvo": 73.9,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukrový sirup",
+   "mnozstvo": 14.8,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie dáme do šejkra a naplníme ľadom.",
+  "Pretrepeme a precedíme do vychladeného kokteilového pohára.",
+  "Ozdobíme kolieskom limetky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "gin",
+  "britské"
+ ]
 }

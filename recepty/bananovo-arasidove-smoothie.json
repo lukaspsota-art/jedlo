@@ -1,50 +1,54 @@
 {
-  "id": "bananovo-arasidove-smoothie",
-  "nazov": "Banánovo-arašidové smoothie",
-  "kategoria": "Nápoj",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "5 min",
-  "kcal_na_porciu": 290,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte smoothie z banánu, arašidového masla a mlieka.",
-  "ingrediencie": [
-    {
-      "nazov": "Banán",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Arašidové maslo",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetky suroviny vlož do mixéra.",
-    "Rozmixuj dohladka.",
-    "Podávaj ihneď, vychladené."
-  ],
-  "tipy": "Skvelý nápoj po tréningu.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "smoothie",
-    "sýte"
-  ]
+ "id": "bananovo-arasidove-smoothie",
+ "nazov": "Banánovo-arašidové smoothie",
+ "kategoria": "Nápoj",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Banánovo-avokádové smoothie (autor: frommykitchendotcom)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bananovo-avokadove-smoothie/90451-recept.html",
+ "porcie": 3,
+ "cas": "5 min",
+ "kcal_na_porciu": 209,
+ "popis": "Sýte smoothie z banánu, arašidového masla a mlieka.",
+ "ingrediencie": [
+  {
+   "nazov": "Banán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jogurt grécky biely",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pistácie",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľové mlieko",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Suroviny dáme do blenderu a spolu mixujeme 30-40 sekúnd. Nalejeme do pohára a ozdobíme chia semienkami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "smoothie",
+  "sýte"
+ ]
 }

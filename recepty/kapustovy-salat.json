@@ -1,62 +1,63 @@
 {
-  "id": "kapustovy-salat",
-  "nazov": "Šalát z kyslej kapusty",
-  "kategoria": "Šalát",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 6,
-  "cas": "15 min",
-  "kcal_na_porciu": 90,
-  "popis": "Kyslá kapusta s cibuľou, olejom a mrkvou — chrumkavá príloha.",
-  "ingrediencie": [
-    {
-      "nazov": "Kyslá kapusta",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 3,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Kapustu sceď a podľa kyslosti prepláchni.",
-    "Pridaj nakrájanú cibuľu a nastrúhanú mrkvu.",
-    "Zamiešaj olej, cukor a papriku, nechaj chvíľu odležať."
-  ],
-  "tipy": "Príloha k pečenému mäsu alebo klobáse.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "šalát",
-    "kapusta"
-  ],
-  "foto": ""
+ "id": "kapustovy-salat",
+ "nazov": "Šalát z kyslej kapusty",
+ "kategoria": "Šalát",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Šalát z kyslej kapusty (autor: sjuz)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/salat-z-kyslej-kapusty/5038-recept.html",
+ "porcie": 5,
+ "cas": "15 min",
+ "kcal_na_porciu": 71,
+ "popis": "Kyslá kapusta trochu inak.",
+ "ingrediencie": [
+  {
+   "nazov": "Kyslá kapusta",
+   "mnozstvo": 4,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oravská slaninka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa menšia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vňaťka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kapustu vytlačíme od vody, posekáme aby neboli dlhé slíže, pridáme na drobno pokrájanú cibuľu, olivový olej, trošku vegety, vňaťku.",
+  "Slaninku nakrájame na malé kocôčky, mierne opražíme a premiešame s kapustou. Vhodné ako kapustový šalát.",
+  "Rozpis pre 4 osoby do malých misiek :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "šalát",
+  "kapusta"
+ ]
 }

@@ -1,58 +1,86 @@
 {
-  "id": "vajicny-salat-na-tooste",
-  "nazov": "Vajíčkový šalát na toaste",
-  "kategoria": "Raňajky",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 456,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasický vajíčkový šalát na opečenom toaste.",
-  "ingrediencie": [
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Toastový chlieb",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pažítka",
-      "mnozstvo": 5,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vajcia uvar natvrdo, ošúp a nasekaj.",
-    "Zmiešaj s majonézou a nasekanou pažítkou.",
-    "Chlieb opeč v hriankovači.",
-    "Navrch daj vajíčkový šalát.",
-    "Osoľ podľa chuti a podávaj."
-  ],
-  "tipy": "Rýchly a sýty raňajkový alebo obedový chod.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "vajcia",
-    "rýchle"
-  ]
+ "id": "vajicny-salat-na-tooste",
+ "nazov": "Vajíčkový šalát na toaste",
+ "kategoria": "Raňajky",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Vajíčkový šalát (fotorecept) (autor: kaatka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/vajickovy-salat-fotorecept/57870-recept.html",
+ "porcie": 5,
+ "cas": "25 min",
+ "kcal_na_porciu": 204,
+ "popis": "K veľkej noci som sa rozhodla na stôl pripraviť tento šalát, ktorý je odľahčený o rôzne chuťovky :)",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia na tvrdo",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne olivy",
+   "mnozstvo": 15,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kapary vo vínnom octe",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zelená paprika",
+   "mnozstvo": 1,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie si nakrájam na malé kúsky do väčšej misy. Ja som pridala reďkovku a miesto vňate pažítku, pretože vňať momentálne nemám a z mrazáku to nie je ono.",
+  "Cez sitko si pretlačím vajíčka, najlepšie by ich bolo nakrájať na menšie kúsky, nie vždy je na to čas.",
+  "Pridáme majonézu, podľa chuti dosolíme , dokoreníme a HOTOVO. Ja som podávala ako jednohubky na rožok. Originál recept je v pite a bežne jedávame k tomu chlieb."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "vajcia",
+  "rýchle"
+ ]
 }

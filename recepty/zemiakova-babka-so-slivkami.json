@@ -1,88 +1,100 @@
 {
-  "id": "zemiakova-babka-so-slivkami",
-  "nazov": "Buchty na pare s tvarohom",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "90 min",
-  "kcal_na_porciu": 400,
-  "popis": "Kysnuté parené buchty plnené sladkým tvarohom, s maslom a cukrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": "vlažné"
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 21,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vaječný žĺtok",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "do plnky"
-    },
-    {
-      "nazov": "Práškový cukor",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": "do plnky"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": "na dokončenie"
-    }
-  ],
-  "postup": [
-    "Sprav kvások a vypracuj kysnuté cesto, nechaj vykysnúť.",
-    "Tvaroh zmiešaj so žĺtkom a cukrom na plnku.",
-    "Cesto rozvaľkaj, vykrajuj štvorce, plň tvarohom a zlep.",
-    "Nechaj nakysnúť a var v pare 12 minút.",
-    "Prelej maslom a posyp cukrom."
-  ],
-  "tipy": "Tvaroh môžeš dochutiť citrónovou kôrou alebo hrozienkami.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "sladké",
-    "tvaroh"
-  ],
-  "foto": ""
+ "id": "zemiakova-babka-so-slivkami",
+ "nazov": "Buchty na pare s tvarohom",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Tvarohové buchty (fotorecept) (autor: grejsy)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/tvarohove-buchty-fotorecept/68986-recept.html",
+ "porcie": 10,
+ "cas": "35 min",
+ "kcal_na_porciu": 328,
+ "popis": "Tieto tvarohové buchty sa dnes rýchlo zjedli. Voňal nimi celý byt. A tie teplé chutili \r\nnajviac.",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jemný tvaroh",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa potreby"
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ako prvé si urobím kvások. Droždie rozmrvím, pridám 1 čaj. lyž. kryšt. cukru, trochu múky a asi 1/2 dcl mieka. Nechám nakysnúť. Do veľkej nádoby dám múku, olej , soľ, cukor a pridám kvások a zvyšné mlieko čo mi zostalo.Vypracujem cesto , ktoré nechám pod utierkou nakysnúť asi tak 35 minút.",
+  "Potom ho dám na pomúčenú dosku a povykrajujem z neho štvorce, ktoré budem plniť tvarohovou plnkou. Plnka : Tvaroh si ochutím vanilkovým cukrom a kryštálovým toľko koľko je treba, pridám ešte žĺtok. Vymiešam nahladko.",
+  "Zatočím do tvaru buchty.",
+  "Takto všetky buchty spravíme.",
+  "Plech si vymastím tukom a dám do neho buchty, ktoré ešte potriem olejom a nechám ich chvíľku nakysnúť aspoň 10 minút, pokým sa nám trúba vyhreje.",
+  "Upečiem do zlatista na 200 stupňov v elektric. trúbe 35 minút a ihneď ich pomastím po vrchu olejom.",
+  "Potom ich posypem po vrchu práškovým cukrom.",
+  "Ešte teplú som si dala s mliekom:-)",
+  "Vyšlo mi z tejto dávky 10 buchiet, ale obrovsky veľkých.",
+  "V reze buchta."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "sladké",
+  "tvaroh"
+ ]
 }

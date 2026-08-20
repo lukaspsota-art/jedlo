@@ -1,64 +1,95 @@
 {
-  "id": "razny-chlieb",
-  "nazov": "Ražný chlieb",
-  "kategoria": "Pečivo",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "110 min",
-  "kcal_na_porciu": 233,
-  "kcal_zdroj": "vypocet",
-  "popis": "Domáci ražný chlieb s kmínom, tradičná slovenská klasika.",
-  "ingrediencie": [
-    {
-      "nazov": "Ražná múka",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 320,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kmín",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z oboch múk, vlažnej vody, droždia, kmínu a soli vypracuj cesto.",
-    "Nechaj kysnúť 1 hodinu.",
-    "Vytvaruj bochník a ulož do formy.",
-    "Nechaj ešte 20 minút kysnúť.",
-    "Peč pri 220 °C asi 40 minút do zvučnej kôrky."
-  ],
-  "tipy": "Skús aj s lyžicou kyslej smotany pridanou do cesta pre vlhkejšiu striedku.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "ražné",
-    "slovenské"
-  ]
+ "id": "razny-chlieb",
+ "nazov": "Ražný chlieb",
+ "kategoria": "Pečivo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Ražný chlieb (fotorecept) (autor: babkamt)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/razny-chlieb-fotorecept/24664-recept.html",
+ "porcie": 15,
+ "cas": "15 min",
+ "kcal_na_porciu": 265,
+ "popis": "Dnes som upiekla tento ražný chlieb.",
+ "ingrediencie": [
+  {
+   "nazov": "Pšenično-ražná múka",
+   "mnozstvo": 700,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka hladká T650",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 550,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 42,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravila som si pšenično ražnú múku a hladkú múku T650. 3 kusy varených zemiakov v šupke.,kocku droždia a vlažnú vodu.",
+  "Odvážené múky som preosiala spolu so soľou a kmínom.Urobila som kvások z kocky droždia , 1 pl medu a 1 pl múky. Vykysnutý kvások som pridala k múke.Vo vlažnej vode som zmiešala olej a ocot. Zemiaky som nastrúhala a pridala k múke.",
+  "Zamiesila som cesto. Dala som ho na hodinu kysnúť.Potom som ho znovu trochu prepracovala.",
+  "Vykysnuté cesto som rozdelila na dve časti.",
+  "Spravila som dva bochníky. Nechala som ich asi 20 minút kysnúť.Medzitým som zapla rúru na 210 ° C. Do rúry som vložila misku s vriacou vodou.Chlieb pred vložením do rúry som natrela slanou studenou vodou. Ostrým nožíkom som ho šikmo narezala a posypala slnečnicovými semiačkami.",
+  "Tu je už upečený. Takto vyzerá v reze."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "ražné",
+  "slovenské"
+ ]
 }

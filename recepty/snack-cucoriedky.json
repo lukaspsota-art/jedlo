@@ -1,29 +1,125 @@
 {
-  "id": "snack-cucoriedky",
-  "nazov": "Čučoriedky",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 71,
-  "kcal_zdroj": "vypocet",
-  "popis": "Čerstvé alebo mrazené čučoriedky.",
-  "ingrediencie": [
-    {
-      "nazov": "Čučoriedky",
-      "mnozstvo": 125,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Opláchni a zjedz."
-  ],
-  "tipy": "Chutia aj v jogurte.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "ovocie",
-    "kupované"
-  ]
+ "id": "snack-cucoriedky",
+ "nazov": "Čučoriedky",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Čučoriedkový tart (autor: theflyingbaker)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cucoriedkovy-tart/92324-recept.html",
+ "porcie": 24,
+ "cas": "100 min",
+ "kcal_na_porciu": 236,
+ "popis": "Opäť jeden krásny a svieži letný koláčik do práce kolegom k poobednej kávičke.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoláda biela",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čučoriedky",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukuričný škrob",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoláda biela",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mascarpone",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilková pasta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo esencia"
+  }
+ ],
+ "postup": [
+  "Všetky suché ingrediencie na korpus preosejeme a zmiešame so studeným maslom nakrájaným na kocky. V mixéri s nadstavcom lopatka vymiešame mrveničku. Pridáme žĺtky a miešame, kým sa cesto spojí. TIP: Ak je cesto príliš suché, môžeme po lyžičkách pridávať studenú vodu.",
+  "Cesto zabalíme do potravinovej fólie a necháme 30 minút odležať v chladničke. Potom ho na pomúčenej doske vyvaľkáme na tenký plát do tvaru kruhu a vystelieme ním dno aj boky formy na tart (priemer 28 cm). Cesto popicháme vidličkou, prikryjeme papierom na pečenie a zaťažíme (napr. fazuľou alebo ryžou). Pečieme 10 - 15 minút v rúre vyhriatej na 180 °C. Potom cesto odkryjeme a dopekáme ešte 10 minút dozlatista.",
+  "Upečený korpus necháme úplne vychladnúť, potrieme ho rozpustenou bielou čokoládou. TIP: Tento krok zabezpečí, že cesto sa nerozmočí a zostane chrumkavé.",
+  "Čučoriedky dáme do hrnca, pridáme vanilkový a kryštálový cukor, vodu a necháme variť na miernom ohni. Keď trochu zmäknú, rozmixujeme tyčovým mixérom, pridáme škrob a varíme do zhustnutia. Hotové nalejeme na stuhnutý korpus a necháme stuhnúť.",
+  "Do menšieho hrnca nalejeme smotanu a necháme zohriať na platni (nesmie vrieť). Do teplej smotany pridáme čokoládu a necháme roztopiť. Vymiešame ganache. Nakoniec stierkou vmiešame mascarpone a vanilkovú pastu. Krém nalejeme na čučoriedkovú vrstvu. Tart je najlepšie nechať v chlade cez noc.",
+  "Ozdobíme napr. lesným ovocím, čerstvými čučoriedkami, hoblinkami bielej čokolády…"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "ovocie",
+  "kupované"
+ ]
 }

@@ -1,57 +1,94 @@
 {
-  "id": "natierka-zo-susenych-paradajok",
-  "nazov": "Nátierka zo sušených paradajok",
-  "kategoria": "Nátierka",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 87,
-  "kcal_zdroj": "vypocet",
-  "popis": "Výrazná stredomorská nátierka zo sušených paradajok.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "sušené v oleji"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Sušené paradajky scedi od oleja.",
-    "Rozmixuj s pretlačeným cesnakom, olivovým olejom a parmezánom.",
-    "Dochuť soľou.",
-    "Podávaj s pečivom alebo na cestovinách."
-  ],
-  "tipy": "Skvelá aj ako základ na rýchlu pastu.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "paradajky",
-    "talianske"
-  ]
+ "id": "natierka-zo-susenych-paradajok",
+ "nazov": "Nátierka zo sušených paradajok",
+ "kategoria": "Nátierka",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Nátierka z vlašských orechov a paradajok (fotorecept) (autor: elixir)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/natierka-z-vlasskych-orechov-a-paradajok-fotorecept/45549-recept.html",
+ "porcie": 3,
+ "cas": "20 min",
+ "kcal_na_porciu": 141,
+ "popis": "Pikantná nátierka s orechami a paradajkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka cherry",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Extrakt z droždia",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová smotana",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová sušená vňať",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá rasca",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sladká mletá paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová čerstvá vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na ozdobu"
+  }
+ ],
+ "postup": [
+  "Nachystáme suroviny.",
+  "Orechy nasekáme na drobno a opražíme na panvici, takisto paradajky nakrájame na drobno.",
+  "Orechy necháme chladnúť, medzitým si pripravíme zmes zo všetkých zvyšných surovín... (okrem čerstvej petržlenovej vňate)",
+  "Keď orechy vychladnú, pridáme ich k paradajkám a rozmixujeme ich spolu na pyré. Toto potom primiešame k pripravenej korenenej zmesi a pred podávaním dáme na 20 minút vychladiť do chladničky.",
+  "Podávame s čerstvou petržlenovou (príp. inou) vňaťou a zeleninou. Množstvo nátierky vyjde na 3-4 kúsky pečiva. Dobrú chuť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "paradajky",
+  "talianske"
+ ]
 }

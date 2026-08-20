@@ -1,76 +1,57 @@
 {
-  "id": "cestoviny-s-tuniakom-a-citronom",
-  "nazov": "Cestoviny s tuniakom a citrónom",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "inšpirované Wikibooks Cookbook (CC BY-SA)",
-  "porcie": 3,
-  "cas": "20 min",
-  "kcal_na_porciu": 544,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ľahké cestoviny s tuniakom, citrónovou šťavou a petržlenovou vňaťou.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnné špagety",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tuniak",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "vo vlastnej šťave, scedený"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava a kôra"
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu na obale.",
-    "Na olivovom oleji opraž pretlačený cesnak dozlata.",
-    "Pridaj scedeného tuniaka, citrónovú šťavu a kôru, krátko prehrej.",
-    "Zamiešaj uvarené cestoviny priamo v panvici.",
-    "Posyp nasekanou petržlenovou vňaťou a podávaj."
-  ],
-  "tipy": "Skús pridať aj hrsť kaparov pre výraznejšiu chuť.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "tuniak",
-    "rýchle"
-  ]
+ "id": "cestoviny-s-tuniakom-a-citronom",
+ "nazov": "Cestoviny s tuniakom a citrónom",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Syrovo-tuniakové cestoviny (autor: heslo)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/syrovo-tuniakove-cestoviny-/29781-recept.html",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 424,
+ "popis": "môj vlastný recept ktorý by zládol každý :)",
+ "ingrediencie": [
+  {
+   "nazov": "Kocka syrokrému",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tuniak v olivovom oleji",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Dáme variť cestoviny podľa výberu a zatiaľ si nakrájame paradajky na kocky.",
+  "Do hrnca nalejeme mlieko a postupne aj syrokrém. POZOR ! omáčku treba neustále miešať.",
+  "Tuniaka rozdrvíme alebo nakrájame na malé kusky .",
+  "Nakoniec vezmeme paradajky, tuniaka, omáčku a cestoviny a zmiešame to dokopy. Dobrú chuť !"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "tuniak",
+  "rýchle"
+ ]
 }

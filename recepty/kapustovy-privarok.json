@@ -1,75 +1,75 @@
 {
-  "id": "kapustovy-privarok",
-  "nazov": "Kapustový prívarok",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 220,
-  "popis": "Dusená hlávková kapusta zahustená zápražkou — sýta príloha aj hlavné jedlo.",
-  "ingrediencie": [
-    {
-      "nazov": "Biela kapusta",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": "nastrúhaná"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rasca",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na masti opraž cibuľu, pridaj kapustu a rascu, poduseň.",
-    "Podlej vodou a dus domäkka.",
-    "Z masti, múky a papriky sprav zápražku a zahusti.",
-    "Dochuť octom a soľou."
-  ],
-  "tipy": "Podávaj s klobásou alebo pečeným mäsom.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "kapusta",
-    "prívarok"
-  ],
-  "foto": ""
+ "id": "kapustovy-privarok",
+ "nazov": "Kapustový prívarok",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Kapustový prívarok (autor: dorisa)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kapustovy-privarok/10641-recept.html",
+ "porcie": 2,
+ "cas": "20 min",
+ "kcal_na_porciu": 370,
+ "popis": "Minule, keď som robila zemiakové gule s údeným mäskom, tak varecháči chceli k tomu kapustový prívarok, našla som recept, uverejňujem. Ja robím niečo podobné, ale len ku uvarenému údenému mäsku.",
+ "ingrediencie": [
+  {
+   "nazov": "Kyslá kapusta",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukor kryštál",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "olej"
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na masti si opražíme cibuľu,nakrájanú na kocky, do sklovita. Pridaním múky si pripravíme bledú zápražku.",
+  "Pridáme kyslú kapustu a dusíme. Ak je málo vody, pridáme trocha. Možme dosolit a dokoreniť a pridat rascu. Dusíme, kým nie je kapusta mäkká.",
+  "Kto chce,može si pridať smotanu. Ja ju nedávam."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "kapusta",
+  "prívarok"
+ ]
 }

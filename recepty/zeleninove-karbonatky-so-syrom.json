@@ -1,64 +1,100 @@
 {
-  "id": "zeleninove-karbonatky-so-syrom",
-  "nazov": "Zeleninové karbonátky so syrom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 265,
-  "kcal_zdroj": "vypocet",
-  "popis": "Vegetariánske karbonátky z cukety a syra, opečené dozlata.",
-  "ingrediencie": [
-    {
-      "nazov": "Cuketa",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Strúhanka",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cuketu nastrúhaj a vytlač prebytočnú vodu.",
-    "Zmiešaj so syrom, vajcami, strúhankou a soľou.",
-    "Vytvaruj menšie karbonátky.",
-    "Opeč na oleji z oboch strán dozlata.",
-    "Podávaj so šalátom alebo jogurtovou omáčkou."
-  ],
-  "tipy": "Skvelá vegetariánska alternatíva klasických fašírok.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "vegetariánske",
-    "cuketa"
-  ]
+ "id": "zeleninove-karbonatky-so-syrom",
+ "nazov": "Zeleninové karbonátky so syrom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Tofu-zeleninové karbonátky (autor: bibuskam)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/tofu-zeleninove-karbonatky/77131-recept.html",
+ "porcie": 3,
+ "cas": "65 min",
+ "kcal_na_porciu": 287,
+ "popis": "Vegetariánske karbonátky z cukety a syra, opečené dozlata.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tofu natural",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majorán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá kurkuma",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená štipľavá mletá paprika",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Očistenú mrkvu, cuketu a tofu nastrúhame nahrubo.",
+  "Pridáme 2 vajcia, ovsené vločky, 2 PL strúhanky, pretlačený cesnak, koreniny a zmiešame zmes, ktorá sa dá ručne tvarovať.",
+  "Vytvarujeme karbonátky, obalíme ich v strúhanke a ukladáme na plech s papierom na pečenie.",
+  "Pečieme v rúre na 180 stupňov 45-50 minút.",
+  "Podávame s ryžou alebo so šošovicovým prívarkom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "vegetariánske",
+  "cuketa"
+ ]
 }

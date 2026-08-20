@@ -1,56 +1,63 @@
 {
-  "id": "panini-morcacie-avokado",
-  "nazov": "Panini s morčacím mäsom a avokádom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 460,
-  "popis": "Grilovaný panini s morčacou šunkou, avokádom, syrom a paradajkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Ciabatta",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Morčacia šunka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Avokádo",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr eidam",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ciabattu prekroj, naplň šunkou, plátkami avokáda, paradajky a syrom.",
-    "Zlož sendvič a vlož do panini grilu alebo panvice so záťažou.",
-    "Grilluj z oboch strán do zlatista a roztopenia syra."
-  ],
-  "tipy": "Avokádo pridaj až tesne pred grilovaním, aby nezhnedlo.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "sendvič",
-    "panini",
-    "avokádo"
-  ]
+ "id": "panini-morcacie-avokado",
+ "nazov": "Panini s morčacím mäsom a avokádom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Talianske panini (autor: frommykitchendotcom)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/talianske-panini/86084-recept.html",
+ "porcie": 2,
+ "cas": "15 min",
+ "popis": "Grilovaný panini s morčacou šunkou, avokádom, syrom a paradajkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Pečivo",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "focaccia, ciabatta"
+  },
+  {
+   "nazov": "Bazalkové pesto",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmská šunka",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hlávkový šalát",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pečivo rorežeme na polovice. Každú časť natrieme bazalkovým pestom. Na pesto dáme list hlávkového šalátu.",
+  "Na šalát následne dáme plátok parmskej šunky. Paradajku aj mozzarellu nakrájame na kolieska a uložíme na šunku.",
+  "Prikryjeme druhou polovicou pečiva, dáme na rozpálený elektrický gril a zatvoríme ho.",
+  "Necháme piecť pár minút. Po upečení prerežeme a podávame so šalátom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "sendvič",
+  "panini",
+  "avokádo"
+ ]
 }

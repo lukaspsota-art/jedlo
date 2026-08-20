@@ -1,57 +1,75 @@
 {
-  "id": "bazalkova-limonada",
-  "nazov": "Bazalková limonáda",
-  "kategoria": "Nápoj",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 74,
-  "kcal_zdroj": "vypocet",
-  "popis": "Netradičná limonáda s citrónom a čerstvou bazalkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 1000,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Bazalkové lístky jemne pomni s cukrom.",
-    "Pridaj citrónovú šťavu a trochu vody, rozmiešaj do rozpustenia cukru.",
-    "Dolej zvyšnú vodu.",
-    "Podávaj s ľadom a lístkami bazalky."
-  ],
-  "tipy": "Prekvapivo osviežujúca kombinácia na letné dni.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "bazalka",
-    "limonáda"
-  ]
+ "id": "bazalkova-limonada",
+ "nazov": "Bazalková limonáda",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Bylinková limonáda (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bylinkova-limonada/91984-recept.html",
+ "porcie": 6,
+ "cas": "10 min",
+ "kcal_na_porciu": 29,
+ "popis": "Netradičná limonáda s citrónom a čerstvou bazalkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Medovka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "pár lístkov"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Perlivá voda",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Citrusy umyjeme a nakrájame na kolieska. Bylinky jemne podrvíme v dlaniach.",
+  "Všetko vložíme do veľkého džbánu, zalejeme vodou, pridáme med a premiešame.",
+  "Džbán zakryjeme a necháme aspoň hodinu v chladničke.",
+  "Podávame s ľadom a mätou. Na osvieženie možno pridať aj uhorku alebo kvapku ružovej vody."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "bazalka",
+  "limonáda"
+ ]
 }

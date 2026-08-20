@@ -1,57 +1,113 @@
 {
-  "id": "bulgur-so-zeleninou",
-  "nazov": "Bulgur so zeleninou",
-  "kategoria": "Príloha",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 227,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchla príloha z bulguru s paprikou a cibuľou.",
-  "ingrediencie": [
-    {
-      "nazov": "Bulgur",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž nadrobno pokrájanú cibuľu a papriku.",
-    "Pridaj bulgur a krátko opraž spolu.",
-    "Zalej vodou podľa návodu na obale a dus do mäkka.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Skvelá príloha ku grilovanému mäsu alebo falafelu.",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "bulgur",
-    "blízkovýchodné"
-  ]
+ "id": "bulgur-so-zeleninou",
+ "nazov": "Bulgur so zeleninou",
+ "kategoria": "Príloha",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Varecha.sk – Libanonský bulgur so zeleninou (fotorecept) (autor: pusta)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/libanonsky-bulgur-so-zeleninou-fotorecept/57242-recept.html",
+ "porcie": 6,
+ "cas": "40 min",
+ "kcal_na_porciu": 230,
+ "popis": "Vybrala som zo svojho archívu arabských jedál recept na libanonský bulgur, kedže u nás \r\ndoma si prosili na večeru niečo chutné a ľahké, osviežujúce a plné vitamínov.",
+ "ingrediencie": [
+  {
+   "nazov": "Bulgur",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "zväzok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Datľové paradajky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová mäta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti čerstvá(alebo sušená"
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti čerstvo mleté"
+  },
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Paradajky som pokrájala na štvrtinky, jarnú cibuľku aj s vňaťou na kolieska, papriku a uhorky na malé kocky.",
+  "Odmerala som potrebné množstvo bulguru,...",
+  "...nasypala som ho do hrnca,...",
+  "...zaliala 500 ml horúcej vody, osolila, prikryla pokrievkou a varila som ho 10 minút na nízkom plameni, vypla som plameň a pod pokrievkou som nechala bulgur dôjsť v pare, aby krásne napučal.",
+  "Zatiaľ som pripravila citrónovú a pomarančovú šťavu, dala spolu do misky a pridala som čerstvo mleté čierne korenie, spolu dobre rozmiešala..",
+  "Do bulguru som pridala rozmrvenú sušenú mätu citrónovú,...",
+  "...pridala som čerstvo posekanú petržlenovú vňať,...",
+  "...pripravenú zeleninu,...",
+  "...pridala som citrónovú a pomarančovú šťavu, ktorú som zmiešala s čerstvo mletým čiernym korením,...",
+  "..olivový olej, všetko som opatrne premiešala vidličkou a odložila odpočívať na 1 hodinu do chladničky, aby sa prepojili všetky chute, pred podávaním som hotový bulgur ešte zľahka prevzdušnila vidličkou.",
+  "Nabrala som na taniere a podávala.",
+  "záber zblízka: ide o veľmi chutné osviežujúce a ľahké jedlo libanonskej kuchyne, plné vitamínov, ktoré je pomerne rýchlo hotové, podáva sa ako samostatné jedlo, ako šalát alebo ako príloha ku grilovaným rybám, k hydine, jahňacine. Bulgur je forma lámanej,najčastajšie tvrdej pšenice, vyrába sa aj z inej celozrnnej pšenice, špeciálne sa brúsi na rôzne veľkosti od jemnej po hrubú, preosieva sa potom cez sito, predáva sa už predvarený, je to vysoko cenená, typická obilninová potravina arabských a židovských krajín, Stredomoria, Turecka, Indie a oblasti blízkeho východu, je rozšírená a obľúbená v celom svete, najznámejšie jedlá z nej sú tabbouleh, pilaf, falafel, kibbeh, köfte, rôzne polievky a mnohé iné, pripravuje sa na slano i na sladko."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "bulgur",
+  "blízkovýchodné"
+ ]
 }

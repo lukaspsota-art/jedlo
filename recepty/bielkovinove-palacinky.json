@@ -1,57 +1,86 @@
 {
-  "id": "bielkovinove-palacinky",
-  "nazov": "Bielkovinové palacinky",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "20 min",
-  "kcal_na_porciu": 370,
-  "kcal_zdroj": "vypocet",
-  "popis": "Výživné raňajkové palacinky s vyšším obsahom bielkovín z tvarohu a ovsa.",
-  "ingrediencie": [
-    {
-      "nazov": "Ovsené vločky",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tvaroh",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Banán",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 10,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ovsené vločky, tvaroh, vajcia a banán rozmixuj dohladka.",
-    "Na rozohriatej panvici s troškou oleja vylievaj menšie palacinky.",
-    "Opekaj z oboch strán do zlata.",
-    "Podávaj s čerstvým ovocím."
-  ],
-  "tipy": "Skvelý raňajkový recept po tréningu.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "bielkoviny",
-    "zdravé"
-  ]
+ "id": "bielkovinove-palacinky",
+ "nazov": "Bielkovinové palacinky",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Palacinky (autor: habibitaste)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/palacinky/71698-recept.html",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 368,
+ "popis": "Tieto palacinky robievam u nás \r\nna raňajky a sú veľmi obľúbené. \r\nMôžete si ich posypať \r\nľubovoľnými orieškami.",
+ "ingrediencie": [
+  {
+   "nazov": "Múka",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľová aróma",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľové lupienky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Múku, cukor, štipku soli, vanilkový cukor zmiešame, potom prídáme vajíčka s mliekom a olejom a dobre premiešame.",
+  "Na horúcu panvicu dáme pár kvapiek oleja a naberačkou vlejeme cesto. To posypeme mandľovými lupienkami a hrozienkami.",
+  "Na hotové palacinky si môžete dať váš obľúbený krém, či lekvár. Ja odporúčam tenkú vrstvu arašidového masla. Pokiaľ ho však doma nemáte, nič sa nedeje, lebo tieto palacinky chutia skvele aj suché :-)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "bielkoviny",
+  "zdravé"
+ ]
 }

@@ -1,64 +1,70 @@
 {
-  "id": "zemiakovo-cesnakova-polievka",
-  "nazov": "Zemiakovo-cesnaková polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 169,
-  "kcal_zdroj": "vypocet",
-  "popis": "Hustá polievka zo zemiakov a cesnaku.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 4,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 700,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 80,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu a cesnak.",
-    "Pridaj nakrájané zemiaky a vývar.",
-    "Var 20 minút do mäkka.",
-    "Rozmixuj dohladka, vmiešaj smotanu.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Sýta hustá polievka na chladné dni.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "zemiaky",
-    "cesnak"
-  ]
+ "id": "zemiakovo-cesnakova-polievka",
+ "nazov": "Zemiakovo-cesnaková polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Cesnaková polievka (autor: maryama)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cesnakova-polievka/76906-recept.html",
+ "porcie": 4,
+ "cas": "35 min",
+ "kcal_na_porciu": 283,
+ "popis": "Polievku môžete pripraviť jemne cesnakovú, ale aj poriadne ostrú.",
+ "ingrediencie": [
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "V hrnci si rozpustíme maslo, pridáme na kocky nakrájané očistené zemiaky a osmažíme asi 5 minút. Pridáme celé strúčiky cesnaku, bobkový list, štipku soli a mleté čierne korenie. Celé to zalejeme 1 litrom vriacej vody.",
+  "Polievku varíme približne 15 minút, kým zemiaky nezmäknú.",
+  "Keď sú zemiaky mäkké, vyberieme bobkový list a polievku rozmixujeme.",
+  "Ak chceme polievku výrazne cesnakovú, tak do nej môžeme ešte pretlačiť 5-6 strúčikov cesnaku.",
+  "Posypeme nastrúhaným syrom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "zemiaky",
+  "cesnak"
+ ]
 }

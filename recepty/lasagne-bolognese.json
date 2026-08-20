@@ -1,100 +1,169 @@
 {
-  "id": "lasagne-bolognese",
-  "nazov": "Lasagne bolognese",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "klasický recept",
-  "porcie": 6,
-  "cas": "90 min",
-  "kcal_na_porciu": 560,
-  "popis": "Vrstvené cestovinové pláty s mäsovým ragú a bešamelom.",
-  "ingrediencie": [
-    {
-      "nazov": "Lasagne pláty",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mleté mäso",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": "konzerva"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Opraž cibuľu, mrkvu a cesnak, pridaj mäso a opeč.",
-    "Pridaj paradajky, osoľ a duš ragú 30 minút.",
-    "Z masla, múky a mlieka sprav bešamel.",
-    "Vrstvi ragú, pláty a bešamel, navrchu parmezán.",
-    "Zapekaj pri 190 °C asi 35 minút."
-  ],
-  "tipy": "Nechaj lasagne 10 minút postáť pred krájaním, aby držali tvar.",
-  "tagy": [
-    "cestoviny",
-    "talianske",
-    "mäso",
-    "zapekané"
-  ],
-  "foto": ""
+ "id": "lasagne-bolognese",
+ "nazov": "Lasagne bolognese",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Lasagne bolognese (fotorecept) (autor: violeta)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/lasagne-bolognese-fotorecept/58430-recept.html",
+ "porcie": 6,
+ "cas": "130 min",
+ "kcal_na_porciu": 559,
+ "popis": "Tento recept na lasagne bolognese som spracovala hlavne pre svoju rodinu, \r\nnepripravujem ich s vínom, pretože nám to tak vyhovuje, je tu veľa iných receptov, takže \r\nsi môže každý vybrať ten, ktorý sa mu pozdáva najviac...",
+ "ingrediencie": [
+  {
+   "nazov": "Lasagne plátky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäso hovädzie chudé zadné",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 5,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stonkový zeler",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muškátový strúhaný oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Korenie čierne čerstvo mleté",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "cukor"
+  },
+  {
+   "nazov": "Sladká mletá paprika",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lúpané krájané paradajky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajková passata",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 75,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Plnotučné mlieko",
+   "mnozstvo": 750,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravím si omáčku bolognese. Cibuľu pokrájam a opečiem na olivovom oleji, pridám pokrájaný cesnak a pokrájaný zeler na kúsky. Všetko opekám na veľkej panvici s vysokým okrajom.",
+  "Pridám nastrúhanú mrkvu a chvíľu ju poprehadzujem....",
+  "teraz už pridávam pomleté mäso, ja vždy robím z chudého hovädzieho. Miešam ho, aby sa zatiahlo, podusím a popridávam koreniny, tu by som upozornila hlavne na škoricu, tej veľmi opatrne a tiež to neprežeňte s muškátovým orieškom. V tejto fáze by sa malo pridať kvalitné červené víno (cca 2 dcl) a nechať ho vydusiť...",
+  "Do panvice pridám konzervu paradajok a passatu a nechám omáčku dusiť, pridávam do nej asi 1 čajovú lyžičku trstinového, alebo obyčajného cukru. Omáčka sa musí dobre podusiť, preto ju budete musieť dolievať vriacou vodou, má zostať redšia, lebo šťavu nasiaknu suché plátky lasagne.",
+  "V druhom hrnci si pripravím bešamelovú omáčku. Na masle krátko opečiem múku, ja nedávam všetku, dám len toľko, aby nebola zápražka veľmi hustá. Ostatnú múku zmiešam s mliekom a pridám do hrnca. Uvarím omáčku takej konzistencie, aby sa dobre rozotierala, prichutím soľou a muškátovým orieškom.",
+  "Zapekaciu nádobu potriem olivovým olejom a uložím suché plátky lasagne, potriem bešamelom, polejem bolognese omáčkou, posypem srúhanou mozzarellou, znova uložím plátky lasagne, potriem bešamelom....Plátky lasagne sa ľahšie upravujú, ak ich na chvíľu ponoríte do vriacej vody, vtedy sa nelámu hocijako, ale sa dajú pekne odkrojiť. Plátky musíte zalievať dostatočným množstvom tekutiny, aby počas pečenia zmäkli a nezostali suché. Vrchná vrstva je bešamel, na ktorý nasypem strúhaný syr až po dopečení.",
+  "Pečiem na 180*C asi 30 minút, ihlicou vyskúšam, či je všetko mäkké. Nakoniec posypem strúhanou mozzarellou a nechám ju roztopiť vo vypnutej horúcej rúre. Podávam posypané parmezánom s jednoduchým šalátom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "talianske",
+  "mäso",
+  "zapekané"
+ ]
 }

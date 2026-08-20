@@ -1,57 +1,70 @@
 {
-  "id": "zemiakovo-uhorkovy-salat",
-  "nazov": "Zemiakovo-uhorkový šalát",
-  "kategoria": "Šalát",
-  "kuchyna": "Slovenská",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 101,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý studený šalát zo zemiakov a čerstvej uhorky.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jogurt",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kôpor",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zemiaky uvar do mäkka, ošúp a nakrájaj na kocky.",
-    "Uhorku nakrájaj na kocky.",
-    "Premiešaj so zemiakmi, jogurtom a nasekaným kôprom.",
-    "Dochuť soľou a podávaj chladené."
-  ],
-  "tipy": "Ľahká letná príloha alebo samostatný obed.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "zemiaky",
-    "uhorka"
-  ]
+ "id": "zemiakovo-uhorkovy-salat",
+ "nazov": "Zemiakovo-uhorkový šalát",
+ "kategoria": "Šalát",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Uhorkový šalát na zimu (fotorecept) (autor: olinecka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/uhorkovy-salat-na-zimu-fotorecept/94501-recept.html",
+ "porcie": 12,
+ "cas": "70 min",
+ "kcal_na_porciu": 176,
+ "popis": "Svieži šalát, ktorý v zime pripomenie chuť horúceho leta.",
+ "ingrediencie": [
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 4000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa biela",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Suroviny na prípravu... Uhorky umyjeme necháme odkvapkať, cibuľu očistíme. Menšie dám do pohárov a zasterilizujem...",
+  "Uhorky nakrájame alebo nastrúhame na strúhadle, cibuľu pokrájame na menšie časti. Zasypeme soľou, vegetou, pridáme ocot, nakoniec cukor a všetko spolu premiešame.",
+  "Necháme asi hodinu oddychovať, aby sa prepojili chute.",
+  "Šalát naložíme aj s nálevom do suchých pohárov, sterilizujeme 20 minút.",
+  "Zakryjeme čistou utierkou a necháme do druhého dňa vychladnúť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "zemiaky",
+  "uhorka"
+ ]
 }

@@ -1,64 +1,87 @@
 {
-  "id": "bravcove-na-slanine-so-sosovicou",
-  "nazov": "Bravčové na slanine so šošovicou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Nemecká",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 623,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýte jedlo z bravčového mäsa a šošovice s údenou slaninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčová krkovička",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Červená šošovica",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Mäso nakrájaj na kocky, slaninu na prúžky, opeč spolu dozlata.",
-    "Pridaj nadrobno pokrájanú cibuľu, krátko opraž.",
-    "Vmiešaj šošovicu a vývar.",
-    "Dus 20 minút do mäkka šošovice.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Sýte jedlo vhodné na chladnejšie dni.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "bravčové",
-    "šošovica"
-  ]
+ "id": "bravcove-na-slanine-so-sosovicou",
+ "nazov": "Bravčové na slanine so šošovicou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Nemecká",
+ "zdroj": "Varecha.sk – Pečená bravčová panenka v slanine (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/pecena-bravcova-panenka-v-slanine/89401-recept.html",
+ "porcie": 6,
+ "cas": "50 min",
+ "kcal_na_porciu": 413,
+ "popis": "Ak použijete kvalitnú bravčovú panenku, výsledok bude dokonalý.",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčová panenka",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Anglická slanina",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koreňová zelenina",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "čerstvý"
+  },
+  {
+   "nazov": "Hráškové výhonky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Bravčovú panenku očistíme, osolíme a okoreníme. Po celej dĺžke ju obalíme plátkami slaniny. Očistenú nakrájanú koreňovú zeleninu orestujeme na masle.",
+  "Do pekáča vložíme orestovanú zeleninu, položíme na ňu panenku obalenú v slanine a pokrájané paradajky. Podlejeme trochou vody a pečieme v rúre vyhriatej na 180 °C asi 20 minút. Počas pečenia panenku otočíme a prelievame výpekom.",
+  "Potom mäso vyberieme z pekáča a necháme odpočinúť v teple. Výpek zaprášime múkou a povaríme 10 minút.",
+  "Omáčku potom prepasírujeme a podávame s nakrájanou bravčovou panenkou. Môžeme ozdobiť tymianom a hráškovými výhonkami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "šošovica"
+ ]
 }

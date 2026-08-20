@@ -1,0 +1,42 @@
+{
+ "id": "zazvorovo-citronovy-napoj-na-prechladnutie",
+ "nazov": "Zázvorovo-citrónový nápoj na prechladnutie",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Kill the cold Smoothie",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12720",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 26,
+ "popis": "Other / Unknown · Highball glass",
+ "ingrediencie": [
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 6.2,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zo zázvoru a citróna vytlačíme šťavu a zalejeme horúcou vodou.",
+  "Podľa chuti pridáme kardamóm."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "bezmäsité"
+ ]
+}

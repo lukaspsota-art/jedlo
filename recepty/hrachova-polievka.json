@@ -1,82 +1,107 @@
 {
-  "id": "hrachova-polievka",
-  "nazov": "Hrachová polievka s údeným",
-  "kategoria": "Polievka",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "70 min",
-  "kcal_na_porciu": 340,
-  "popis": "Sýta polievka zo žltého hrachu s údeným mäsom a majoránkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Lúpaný hrach",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Údené mäso",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majoránka",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Hrach namoč cez noc, sceď.",
-    "Var hrach spolu s údeným mäsom a mrkvou domäkka.",
-    "Mäso vyber, nakrájaj a vráť.",
-    "Z masti a múky sprav zápražku, zamiešaj do polievky.",
-    "Dochuť cesnakom, majoránkou a soľou."
-  ],
-  "tipy": "Časť hrachu môžeš rozmixovať pre krémovejšiu konzistenciu.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "polievka",
-    "strukoviny"
-  ],
-  "foto": ""
+ "id": "hrachova-polievka",
+ "nazov": "Hrachová polievka s údeným",
+ "kategoria": "Polievka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Hrachová polievka s údeným mäsom (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/hrachova-polievka-s-udenym-masom/79273-recept.html",
+ "porcie": 6,
+ "cas": "90 min",
+ "kcal_na_porciu": 332,
+ "popis": "Sýta polievka zo žltého hrachu s údeným mäsom a majoránkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Sušený hrach",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vývar z údeného mäsa",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčové údené plece",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majorán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Anglická slanina",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chlieb",
+   "mnozstvo": 2,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Hrach preberieme, prepláchneme a namočíme na 12 hodín do studenej vody.",
+  "Olúpanú cibuľu nakrájame nadrobno a orestujeme na masti do jemne hnedastej farby. Namočený hrach prepláchneme, zalejeme čistou vodou, pridáme cibuľu a uvaríme úplne domäkka. Nesolíme! Uvarený je vtedy, keď sa jednotlivé uvarené zrnká dajú medzi prstami ľahko roztlačiť.",
+  "Do vývaru vložíme údené mäso a uvaríme ho. Potom ho vyberieme a nakrájame na hrubé kusy. Tie použijeme ako vložku do polievky a vývar nám poslúži na upravenie jej konzistencie.",
+  "Uvarený hrach prelisujeme cez sitko, prípadne pasírovač alebo ho rozmixujeme najemno. Vzniknuté pyré rozriedime na potrebnú konzistenciu vývarom z údeného mäsa. Polievku dochutíme soľou, korením, rozotretým cesnakom a pokrájanými lístkami čerstvého majoránu. Nakoniec všetko zjemníme vmiešaním kociek vychladeného masla.",
+  "Polievku na tanieri ozdobíme anglickou slaninou orestovanou v panvici na masti. Servírujeme s kúskami chleba dozlatista osmaženého na oleji."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "polievka",
+  "strukoviny"
+ ]
 }

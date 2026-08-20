@@ -1,57 +1,69 @@
 {
-  "id": "avokadovo-vajickovy-salat-na-ranajky",
-  "nazov": "Avokádovo-vaječný šalát na raňajky",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 276,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sýty raňajkový šalát z avokáda a vajec natvrdo.",
-  "ingrediencie": [
-    {
-      "nazov": "Avokádo",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vajcia uvar natvrdo, ošúp a nakrájaj na kocky.",
-    "Avokádo nakrájaj na kocky.",
-    "Premiešaj s citrónovou šťavou, soľou a korením.",
-    "Podávaj samostatne alebo na pečive."
-  ],
-  "tipy": "Sýte raňajky s dobrým pomerom tukov a bielkovín.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "avokádo",
-    "vajcia"
-  ]
+ "id": "avokadovo-vajickovy-salat-na-ranajky",
+ "nazov": "Avokádovo-vaječný šalát na raňajky",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Avokádovo-jablkový šalát (fotorecept) (autor: tejaja)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/avokadovo-jablkovy-salat-fotorecept/92300-recept.html",
+ "porcie": 3,
+ "cas": "20 min",
+ "kcal_na_porciu": 304,
+ "popis": "V letnom období niet lepšej večere ako sú šaláty. Tento šalát je veľmi dobrý, kombinácia avokáda a jablka spolu dobre ladí.",
+ "ingrediencie": [
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablkový ocot",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Avokádo a jablko nakrájame na väčšie kocky. Polejeme citrónovou šťavou a premiešame.",
+  "Zmiešame ocot, olej a biele korenie a nalejeme na ovocie. Premiešame.",
+  "Vmiešame nasekanú mätu.",
+  "Ihneď podávame, aby ovocie zbytočne neoxidovalo. Ak použijeme ovocie z chladničky, bude šalát hneď príjemne chladivý."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "avokádo",
+  "vajcia"
+ ]
 }

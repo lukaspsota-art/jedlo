@@ -1,46 +1,68 @@
 {
-  "id": "oblozene-rozky-sunka-syr",
-  "nazov": "Obložené rožky so šunkou a syrom",
-  "kategoria": "Raňajky",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 2,
-  "cas": "5 min",
-  "kcal_na_porciu": 450,
-  "popis": "Rýchle rožky, dajú sa pripraviť večer vopred.",
-  "ingrediencie": [
-    {
-      "nazov": "Rožok",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "2 ks/porciu"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 30,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 100,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Eidam",
-      "mnozstvo": 80,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Rožky prekroj a potri maslom.",
-    "Naplň šunkou a plátkom eidamu.",
-    "Doplň podľa chuti čerstvou zeleninou."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "rýchle",
-    "vopred"
-  ]
+ "id": "oblozene-rozky-sunka-syr",
+ "nazov": "Obložené rožky so šunkou a syrom",
+ "kategoria": "Raňajky",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Rožky (autor: camembert)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/rozky/59335-recept.html",
+ "porcie": 15,
+ "cas": "30 min",
+ "kcal_na_porciu": 156,
+ "popis": "Nič sa nevyrovná čerstvo upečeným rohlíkom.",
+ "ingrediencie": [
+  {
+   "nazov": "Múka hladká špeciál",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Droždie rozpustíme v mlieku. Pridáme cukor, soľ, vajcia. Dobre rozmiešame. Pridáme masť a múku. Spracujeme cesto a necháme ho odležať jednu hodinu.",
+  "Cesto rozdelíme na 60 gramové kúsky. S každého kúsku cesta vyvaľkáme placku širokú približne 15 cm. Placky zvinieme a poukladáme na plech vyložený papierom na pečenie. Necháme vykysnúť. Po vykysnutí by mali byť veľké ako bežné rohlíky.",
+  "Tesne pred pečením ich potrieme čistým mliekom alebo osolenou vodou. Pečieme približne 15 minút na začiatku rúru rozpálime na 250 stupňov a po vložení plechu s rohlíkmy teplotu znížime na 175 stupňov."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "rýchle",
+  "vopred"
+ ]
 }

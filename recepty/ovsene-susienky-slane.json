@@ -1,57 +1,62 @@
 {
-  "id": "ovsene-susienky-slane",
-  "nazov": "Ovsené sušienky slané so syrom",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 6,
-  "cas": "30 min",
-  "kcal_na_porciu": 256,
-  "kcal_zdroj": "vypocet",
-  "popis": "Chrumkavé slané ovsené sušienky so syrom, skvelé k vínu alebo polievke.",
-  "ingrediencie": [
-    {
-      "nazov": "Ovsené vločky",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ovsené vločky rozmixuj najemno.",
-    "Zmiešaj s múkou, zmäknutým maslom a syrom do cesta.",
-    "Vytvaruj malé placky.",
-    "Peč pri 180 °C asi 15 minút do zlatista."
-  ],
-  "tipy": "Vydržia v uzavretej dóze aj týždeň.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "slané",
-    "syr"
-  ]
+ "id": "ovsene-susienky-slane",
+ "nazov": "Ovsené sušienky slané so syrom",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Kakaové sušienky so slaným karamelom (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kakaove-susienky-so-slanym-karamelom/93023-recept.html",
+ "porcie": 25,
+ "cas": "40 min",
+ "kcal_na_porciu": 81,
+ "popis": "Chrumkavé slané ovsené sušienky so syrom, skvelé k vínu alebo polievke.",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený mletý zázvor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slaný karamel",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na sušienky zmiešame všetky suroviny a vypracujeme hladké, vláčne cesto. Necháme ho odpočívať 2 hodiny v chlade.",
+  "Potom z cesta tvarujeme malé guľky, rozložíme ich na plech vystlaný papierom na pečenie a do stredu každej guľky urobíme jamku. Pečieme pri 160 °C približne 20 minút. Pred pečením môžeme sušienky jemne posypať trstinovým cukrom, aby získali lesklý karamelový povrch. Po upečení ich necháme úplne vychladnúť.",
+  "Pred podávaním nanesieme do jamky na sušienkach trochu slaného karamelu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "slané",
+  "syr"
+ ]
 }

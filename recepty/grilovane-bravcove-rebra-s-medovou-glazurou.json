@@ -1,65 +1,81 @@
 {
-  "id": "grilovane-bravcove-rebra-s-medovou-glazurou",
-  "nazov": "Grilované bravčové rebrá s medovou glazúrou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "90 min",
-  "kcal_na_porciu": 662,
-  "kcal_zdroj": "vypocet",
-  "popis": "Pomaly pečené bravčové rebrá so sladko-pikantnou glazúrou.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčové rebrá",
-      "mnozstvo": 1000,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kečup",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Horčica",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rebrá osoľ a zabaľ do alobalu.",
-    "Peč pri 160 °C asi 60 minút do mäkka.",
-    "Zmiešaj kečup, med, horčicu a pretlačený cesnak na glazúru.",
-    "Rebrá rozbaľ, potri glazúrou.",
-    "Dopeč nezabalené pri 200 °C asi 15-20 minút do lesklej kôrky."
-  ],
-  "tipy": "Pomalé pečenie pri nižšej teplote robí mäso jemným a odlepujúcim sa od kosti.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "bravčové",
-    "grilované",
-    "americké"
-  ]
+ "id": "grilovane-bravcove-rebra-s-medovou-glazurou",
+ "nazov": "Grilované bravčové rebrá s medovou glazúrou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Bravčové rebrá s klobásovou plnkou (fotorecept) (autor: kukulienka71)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bravcove-rebra-s-klobasovou-plnkou-fotorecept/61763-recept.html",
+ "porcie": 10,
+ "cas": "135 min",
+ "kcal_na_porciu": 433,
+ "popis": "Rozplývavé mäsko je najlepšie čerstvo upečené. Kto má rád, pochutí si na ňom aj \r\nnastudeno.",
+ "ingrediencie": [
+  {
+   "nazov": "Rebrá bravčové na plnenie",
+   "mnozstvo": 1400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčové mleté mäso",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá rasca",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bravčová masť",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Tešila som sa tomuto kusu mäsa, bolo vhodné na plnenie a minule mi ostalo trocha mletého pliecka, bolo ho práve dosť. Rebrá som umyla, osušila a z mäsitej strany narezala vodorovne tak, aby sa do nich dalo plniť.",
+  "otvor bol väčší, zmestila sa mi doň skoro celá ruka. Treba dať pozor, aby sa mäso neprederavilo zdola či zhora.",
+  "V miske som zmiešala pretlačené strúčiky cesnaku, korenie a soľ. Tú som dala odoka. Zhruba polovicou zmesi som potrela mäso zvonka-zvnútra, poriadne vmasírujúc. Zvyškom som ochutila mleté mäso v inej miske, pridala ešte červenú mletú papriku a nechala stáť asi hodinu obe mäsá.",
+  "Potom som plnku natlačila do otvora",
+  "a kraje upevnila tromi špáratkami",
+  "Medzitým sa mi už vyhrievala rúra spolu s pekáčom, kde sa roztápala masť. Do horúcej som vložila mäso, zakryla alobalom a piekla celé dve hodiny na rovnakej teplote 180°C. Po hodine som rebrá skontrolovala a otočila, znova prikryla a dopiekla. Ničím som nepodlievala ani nepolievala pred ani počas pečenia, mäso sa robilo samé. Pripravila som zatiaľ parené zemiaky.",
+  "Keď sa mäso už rozplývalo, tak som rúru vypla a mäso nechala chvíľu \"odfúknuť\". Kostičky vypadli skoro samé.",
+  "Mäkkučké mäso s lepkavým povrchom a fantastickým výpekom bolo pripravené na podávanie",
+  "V sprievode domácej kyslej zaváraniny je to nebíčko v papuľke. Aj len s čerstvým chlebíkom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "grilované",
+  "americké"
+ ]
 }

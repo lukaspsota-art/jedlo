@@ -1,57 +1,76 @@
 {
-  "id": "jogurtovo-uhorkova-natierka-tzatziki",
-  "nazov": "Jogurtovo-uhorková nátierka (tzatziki)",
-  "kategoria": "Nátierka",
-  "kuchyna": "Grécka",
-  "zdroj": "klasický recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 98,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasická grécka nátierka z jogurtu, uhorky a cesnaku.",
-  "ingrediencie": [
-    {
-      "nazov": "Grécky jogurt",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 15,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Uhorku nastrúhaj a vytlač prebytočnú šťavu.",
-    "Zmiešaj s jogurtom, pretlačeným cesnakom a olivovým olejom.",
-    "Dochuť soľou.",
-    "Podávaj s pita chlebom alebo grilovaným mäsom."
-  ],
-  "tipy": "Vytlačenie šťavy z uhorky zabráni riedkej konzistencii.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "grécke",
-    "uhorka"
-  ]
+ "id": "jogurtovo-uhorkova-natierka-tzatziki",
+ "nazov": "Jogurtovo-uhorková nátierka (tzatziki)",
+ "kategoria": "Nátierka",
+ "kuchyna": "Grécka",
+ "zdroj": "Wikibooks Cookbook – Tzatziki (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook%3ATzatziki",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 77,
+ "popis": "Klasická grécka nátierka z jogurtu, uhorky a cesnaku.",
+ "ingrediencie": [
+  {
+   "nazov": "Biely jogurt",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "0.5 cups"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": "posekaná"
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "sub. 0.25 tablespoon of tarragon if no dill is available"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": "voliteľné"
+  },
+  {
+   "nazov": "Small cucumbers",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "voliteľné, podľa chuti"
+  }
+ ],
+ "postup": [
+  "Jogurt necháme asi 3 hodiny odkvapkať v site alebo v plátennej utierke.",
+  "Uhorku odkvapkáme a osolíme, aby pustila zvyšnú vodu.",
+  "V mise zmiešame jogurt, cesnak, olivový olej a citrónovú šťavu. Dáme do chladničky na hodinu.",
+  "Po vychladení pridáme kôpor a uhorku a metličkou vymiešame do hladka.",
+  "Dochutíme soľou a korením."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "grécke",
+  "uhorka"
+ ]
 }

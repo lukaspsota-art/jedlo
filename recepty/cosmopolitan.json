@@ -1,57 +1,50 @@
 {
-  "id": "cosmopolitan",
-  "nazov": "Cosmopolitan",
-  "kategoria": "Kokteil",
-  "kuchyna": "Americká",
-  "zdroj": "klasický recept",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 164,
-  "kcal_zdroj": "vypocet",
-  "popis": "Elegantný ružový kokteil z vodky, limetky a grenadíny.",
-  "ingrediencie": [
-    {
-      "nazov": "Vodka",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Pomarančový džús",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Grenadína",
-      "mnozstvo": 10,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do shakera daj všetky suroviny a ľad.",
-    "Poriadne pretrep.",
-    "Precedi do vychladeného pohára.",
-    "Ozdob prúžkom citrónovej kôry."
-  ],
-  "tipy": "Klasický kokteil populárny vďaka seriálu Sex v meste.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "vodka",
-    "americké"
-  ]
+ "id": "cosmopolitan",
+ "nazov": "Cosmopolitan",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "TheCocktailDB – Cosmopolitan",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/17196",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 83,
+ "popis": "Cocktail · Cocktail glass",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 37,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 7.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cointreau",
+   "mnozstvo": 7.4,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cranberry juice",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie dáme do šejkra naplneného ľadom.",
+  "Poriadne pretrepeme a dvojito precedíme do kokteilového pohára.",
+  "Ozdobíme kolieskom limetky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "vodka",
+  "americké"
+ ]
 }

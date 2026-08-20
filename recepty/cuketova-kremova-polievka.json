@@ -1,63 +1,118 @@
 {
-  "id": "cuketova-kremova-polievka",
-  "nazov": "Cuketová krémová polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 126,
-  "kcal_zdroj": "vypocet",
-  "popis": "Ľahká letná krémová polievka z cukety.",
-  "ingrediencie": [
-    {
-      "nazov": "Cuketa",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vývar",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 80,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na oleji opraž cibuľu.",
-    "Pridaj nakrájanú cuketu a vývar.",
-    "Var 15 minút do mäkka.",
-    "Rozmixuj dohladka, vmiešaj smotanu a dochuť soľou."
-  ],
-  "tipy": "Skvelá aj studená v horúcich letných dňoch.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "cuketa",
-    "letné"
-  ]
+ "id": "cuketova-kremova-polievka",
+ "nazov": "Cuketová krémová polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Krémová cuketová polievka (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/kremova-cuketova-polievka/414-recept.html",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 318,
+ "popis": "Ľahká letná krémová polievka z cukety.",
+ "ingrediencie": [
+  {
+   "nazov": "Sladká smotana",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biele víno",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čili paprička",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": null,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäsový vývar",
+   "mnozstvo": 500,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 0.5,
+   "jednotka": "zväzok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 0.5,
+   "jednotka": "zväzok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žerucha",
+   "mnozstvo": null,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Maslo rozpálime v hrnci, pridáme nadrobno nakrájanú cibuľu a opražíme ju.",
+  "Cuketu očistíme a nakrájame na malé kocky. Spolu s cesnakom rozotretým so soľou a s čili papričkou ju pridáme k cibuli a podusíme asi 5 minút. Potom všetko rozmixujeme.",
+  "Múku vymiešame s bielym vínom a mäsovým vývarom dohladka, pridáme k zeleninovej kaši a povaríme asi 5 minút. Primiešame smotanu, osolíme a okoreníme mletým čiernym korením.",
+  "Bazalku a zelenú petržlenovú vňať umyjeme, nasekáme nadrobno a primiešame do polievky.",
+  "Polievku rozdelíme do tanierov a navrch položíme koliesko paradajky. Ozdobíme prebratou žeruchou a podávame."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "cuketa",
+  "letné"
+ ]
 }

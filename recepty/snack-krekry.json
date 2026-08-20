@@ -1,28 +1,101 @@
 {
-  "id": "snack-krekry",
-  "nazov": "Slané krekry",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 225,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kúpené slané krekry.",
-  "ingrediencie": [
-    {
-      "nazov": "Krekry",
-      "mnozstvo": 50,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Kúpené — otvor a zjedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "kupované"
-  ]
+ "id": "snack-krekry",
+ "nazov": "Slané krekry",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Slané krekry (fotorecept) (autor: sonulienka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/slane-krekry-fotorecept/71862-recept.html",
+ "porcie": 24,
+ "cas": "47 min",
+ "kcal_na_porciu": 292,
+ "popis": "A pokračovanie v slanom pečení.",
+ "ingrediencie": [
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Suroviny.",
+  "Všetky suroviny na cesto si dobre zamiesime a vypracujeme cesto.",
+  "Ako vidíte už mám naznačené že cesto rozdelím na 6 častí. Cesto rozdelené.",
+  "Urobíme si plnku a aj tú rozdelíme na 6 častí nasledovne - syr si na jemno nastrúhame rozmiešame s maslom a pridáme červenú papriku.",
+  "Cesto rozvaľkáme.",
+  "Natrieme ho jednou časťou plnky.",
+  "Zatočíme ho.",
+  "A takto spracujeme všetkých šesť bochníkov. Každý valec zabalíme do potravinárskej fólie a poukladáme na tácku. Necháme minimálne tri hodiny v chladničke. Ale najlepšie je do druhého dňa.",
+  "Na druhý deň krájame na čo najtenšie kolieska a ukladáme na suchý plech. Ak ste dávali údený syr, nemusíte posýpať ale ak nie, tak vrch posypte vegetou, ktorú si rozmiešajte s mletou rascou.",
+  "Pečieme na 220 stupňov 7-8 minút.",
+  "Tu sú už upečené všetky.",
+  "Myslela som si, že toho je strašne veľa prakticky okolo 600 kusov ale keď sa do nich zahryznete nejdete prestať.",
+  "A ak máte dobré vínko tak určite odporúčam."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "kupované"
+ ]
 }

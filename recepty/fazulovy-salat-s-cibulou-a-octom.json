@@ -1,57 +1,71 @@
 {
-  "id": "fazulovy-salat-s-cibulou-a-octom",
-  "nazov": "Fazuľový šalát s cibuľou a octom",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 153,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý studený šalát z fazule s pikantným octovým dresingom.",
-  "ingrediencie": [
-    {
-      "nazov": "Biele fazule",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablčný ocot",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Fazule scedi a prepláchni.",
-    "Cibuľu nakrájaj na tenké plátky.",
-    "Premiešaj s octom a olivovým olejom.",
-    "Dochuť soľou a nechaj chvíľu odstáť pred podávaním."
-  ],
-  "tipy": "Skvelá rýchla príloha alebo samostatný ľahký obed.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "fazuľa",
-    "rýchle"
-  ]
+ "id": "fazulovy-salat-s-cibulou-a-octom",
+ "nazov": "Fazuľový šalát s cibuľou a octom",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Fazuľový šalát (autor: salinka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/fazulovy-salat/23179-recept.html",
+ "porcie": 17,
+ "cas": "65 min",
+ "kcal_na_porciu": 298,
+ "popis": "Tento recept patrí skôr medzi jesenné, ale určite stojí za vyskúšanie.  Keďže je sterilizovaný, môžte ho konzumovať celoročne. Dá sa ohriať, pridať pokrájaná klobása, alebo párka. Taktiež chutí vynikajúco aj za studena,  ako príhoha.",
+ "ingrediencie": [
+  {
+   "nazov": "Fazuľa biela suchá",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukor kryštál",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pripravíme si suroviny.",
+  "Kilo fazule uvaríme bez soli do polomäkka.",
+  "Cibuľu nakrájame na kocky, papriky a rajčiny na pásiky.",
+  "Nakrájanú zeleninu dáme do velikánskeho hrnca, pridáme uvarenú fazuľu a ostatné prísady. Dobre premiešame a spolu varíme 20 minút.",
+  "Horúce dávame do zaváracích pohárov a sterilizujeme asi päť minút na 100 stupňov.",
+  "Z jednej dávky pripravíme približne 17 pohárov s objemom 370 ml."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "fazuľa",
+  "rýchle"
+ ]
 }

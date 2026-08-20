@@ -1,46 +1,78 @@
 {
-  "id": "priloha-opekane-zemiaky",
-  "nazov": "Opekané zemiaky",
-  "kategoria": "Príloha",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 264,
-  "kcal_zdroj": "vypocet",
-  "popis": "Zemiaky opekané na oleji s cibuľkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 1000,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Rastlinný olej",
-      "mnozstvo": 30,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Zemiaky uvar v šupke a nechaj vychladnúť, potom ošúp a nakrájaj.",
-    "Na oleji opeč cibuľu a zemiaky do zlatista.",
-    "Osoľ."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "príloha",
-    "zemiaky"
-  ]
+ "id": "priloha-opekane-zemiaky",
+ "nazov": "Opekané zemiaky",
+ "kategoria": "Príloha",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Opekaná zemiaková panvička (autor: lunter)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/opekana-zemiakova-panvicka/92970-recept.html",
+ "porcie": 4,
+ "cas": "60 min",
+ "kcal_na_porciu": 228,
+ "popis": "Chrumkavé pečené baby zemiaky spojené s pikantnými párkami* značky LUNTER vytvárajú jednoduché, no maximálne \r\nuspokojivé jedlo plné chutí. Kombinácia lahodnej chrumkavosti, voňavých byliniek a jemne pikantného tofu od LUNTER je \r\nideálna na rýchly obed či večeru. Vegánske, bezlepkové a nadupané rastlinnými bielkovinami – dokonalý komfort na tanieri.",
+ "ingrediencie": [
+  {
+   "nazov": "Baby zemiaky alebo nové zemiaky",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený rozmarín",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 0.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "LUNTER Spicy Sausages",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Predhrejeme rúru na 200 °C.",
+  "Do veľkej misky vložíme zemiaky, ktoré sme rozdelili na polovice alebo štvrtiny, a pokvapkáme ich olivovým olejom. Dobre premiešame, aby sa rovnomerne obalili.",
+  "Posypeme sušeným rozmarínom, najemno nakrájaným cesnakom, mletou paprikou, soľou a čiernym korením, znovu premiešame a rozložíme ich v jednej vrstve na plech na pečenie.",
+  "Pečieme v predhriatej rúre 30-35 minút, pričom ich počas pečenia raz otočíme, až kým nebudú zlaté a chrumkavé na povrchu a mäkké vo vnútri.",
+  "Na panvici zohrejeme trošku olivového oleja na strednej teplote. Keď je horúca, pridáme tofu párky a opekáme 5-7 minút z každej strany, občas otočíme, až kým nebudú zlaté a chrumkavé zo všetkých strán.",
+  "Keď sú zemiaky hotové, vyberieme ich z rúry.",
+  "Pečené zemiaky podávame spolu s chrumkavými tofu párkami.",
+  "Ozdobíme čerstvými bylinkami, ako je petržlen alebo pažítka."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "zemiaky"
+ ]
 }

@@ -1,51 +1,81 @@
 {
-  "id": "avokadovo-uhorkova-natierka",
-  "nazov": "Avokádovo-uhorková nátierka",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 78,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúca ľahká nátierka z avokáda a uhorky.",
-  "ingrediencie": [
-    {
-      "nazov": "Avokádo",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Uhorku nastrúhaj a vytlač prebytočnú šťavu.",
-    "Avokádo rozmačkaj vidličkou.",
-    "Zmiešaj s uhorkou a citrónovou šťavou.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Ľahšia a sviežejšia verzia klasickej avokádovej nátierky.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "avokádo",
-    "uhorka"
-  ]
+ "id": "avokadovo-uhorkova-natierka",
+ "nazov": "Avokádovo-uhorková nátierka",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Avokádovo-paradajková nátierka (fotorecept) (autor: elixir)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/avokadovo-paradajkova-natierka-fotorecept/45699-recept.html",
+ "porcie": 4,
+ "cas": "10 min",
+ "kcal_na_porciu": 107,
+ "popis": "Recept na túto nátierku mám zo stránky Chefkoch.de.",
+ "ingrediencie": [
+  {
+   "nazov": "Zrelé avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Malá cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muškátový mletý oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušená bazalka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cibuľu nakrájame na drobno, cesnak pretlačíme.",
+  "Z avokáda vydlabeme lyžičkou dužinu a rozpučíme vidličkou, pridáme citrónovú šťavu a poriadne premiešame.",
+  "Paradajky takisto nakrájame nadrobno a primiešame k avokádu, následne okoreníme a osolíme podľa chuti, opäť rovnomerne zmiešame.",
+  "Môžeme podávať. Nátierka vyjde na cca 4 kúsky pečiva."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "avokádo",
+  "uhorka"
+ ]
 }

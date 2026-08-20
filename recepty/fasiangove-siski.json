@@ -1,87 +1,102 @@
 {
-  "id": "fasiangove-siski",
-  "nazov": "Fašiangové šišky (pampúchy)",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 6,
-  "cas": "120 min",
-  "kcal_na_porciu": 300,
-  "popis": "Nadýchané vyprážané kysnuté šišky plnené lekvárom, posypané cukrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": "vlažné"
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 21,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vaječný žĺtok",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rum",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slivkový lekvár",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 500,
-      "jednotka": "ml",
-      "poznamka": "na vyprážanie"
-    },
-    {
-      "nazov": "Práškový cukor",
-      "mnozstvo": null,
-      "jednotka": "na posypanie",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vypracuj vláčne kysnuté cesto a nechaj vykysnúť.",
-    "Vykrajuj kolieska a nechaj nakysnúť.",
-    "Vyprážaj v horúcom oleji z oboch strán dozlata, prikryté počas prvej strany.",
-    "Naplň lekvárom a posyp práškovým cukrom."
-  ],
-  "tipy": "Prikrytie počas prvej strany dá šiškám svetlý prúžok naokolo.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "sladké",
-    "fašiangy"
-  ],
-  "foto": ""
+ "id": "fasiangove-siski",
+ "nazov": "Fašiangové šišky (pampúchy)",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Najlepšie fašiangové šišky (fotorecept) (autor: svetliii)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/najlepsie-fasiangove-sisky-fotorecept/90442-recept.html",
+ "porcie": 24,
+ "cas": "120 min",
+ "kcal_na_porciu": 112,
+ "popis": "Nadýchané vyprážané kysnuté šišky plnené lekvárom, posypané cukrom.",
+ "ingrediencie": [
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žĺtok",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polohrubá múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rum",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Džem",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ako prvé si pripravíme kvások tak, že do trochy mlieka dáme 1 ČL kryštálového cukru a rozmrvíme a rozmiešame droždie. Necháme vykysnúť približne 5 minút. Maslo rozpustíme a poriadne metličkou vymiešame s práškovým cukrom. Pridáme žĺtky, znovu poriadne premiešame. Pridáme polovicu múky, mlieko, kvások, štipku soli, rum a ocot (ocot sa dáva kvôli tomu, aby šišky počas smaženia nenasali veľa oleja, nebojte sa, nie je ho tam vôbec cítiť, zároveň šišky ostanú vláčne). Pridáme druhú polovicu múky a cesto dáme vymiesiť do kuchynského robota na približne 8 minút na mierne otáčky, alebo ho ručne vypracujeme. Cesto necháme vykysnúť na teplom mieste zakryté utierkou približne 30 minút.",
+  "Po tomto čase cesto dáme na pomúčenú dosku a vyvaľkáme ho na hrúbku 2 cm. Pohárom s priemerom najlepšie cca 7 cm vykrajujeme z cesta šišky, urobíme do každej prstom v strede dierku na džem a necháme ešte 5-10 minút podkysnúť.",
+  "Medzitým rozpálime v panvici olej a skúsime kúskom cesta, či je riadne rozpálený. Na toto pozor, treba vkladať šišky do poriadne rozohriateho oleja. Následne plameň stíšime a vkladáme šišky.",
+  "Po chvíľke ich otáčame a keď sú hotové, vyberieme na servítku a necháme vychladnúť.",
+  "Po vychladnutí na ne natrieme džem podľa našej chuti a posypeme práškovým a vanilkovým cukrom.",
+  "Nech sa páči, podávame. Šišky sú dokonalé a vyjde ich z tohto množstva približne 24 ks, takže robte rovno z dvojitej dávky, lebo zmiznú len taký fukot. Ak sa vám recept páči, dajte vedieť, či ho skúsite a ukladajte do budúcna."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "sladké",
+  "fašiangy"
+ ]
 }

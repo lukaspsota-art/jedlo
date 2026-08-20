@@ -1,57 +1,75 @@
 {
-  "id": "broskynova-limonada",
-  "nazov": "Broskyňová limonáda",
-  "kategoria": "Nápoj",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 74,
-  "kcal_zdroj": "vypocet",
-  "popis": "Letná limonáda s broskyňovou príchuťou.",
-  "ingrediencie": [
-    {
-      "nazov": "Broskyne",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 1000,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Broskyne rozmixuj na hladké pyré.",
-    "Zmiešaj s citrónovou šťavou, cukrom a vodou.",
-    "Precedi, ak chceš hladšiu limonádu.",
-    "Podávaj s ľadom."
-  ],
-  "tipy": "Skvelá letná alternatíva ku klasickej citrónovej limonáde.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "broskyňa",
-    "letné"
-  ]
+ "id": "broskynova-limonada",
+ "nazov": "Broskyňová limonáda",
+ "kategoria": "Nápoj",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Bylinková limonáda (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bylinkova-limonada/91984-recept.html",
+ "porcie": 6,
+ "cas": "10 min",
+ "kcal_na_porciu": 29,
+ "popis": "Letná limonáda s broskyňovou príchuťou.",
+ "ingrediencie": [
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Medovka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "pár lístkov"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Perlivá voda",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Citrusy umyjeme a nakrájame na kolieska. Bylinky jemne podrvíme v dlaniach.",
+  "Všetko vložíme do veľkého džbánu, zalejeme vodou, pridáme med a premiešame.",
+  "Džbán zakryjeme a necháme aspoň hodinu v chladničke.",
+  "Podávame s ľadom a mätou. Na osvieženie možno pridať aj uhorku alebo kvapku ružovej vody."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "broskyňa",
+  "letné"
+ ]
 }

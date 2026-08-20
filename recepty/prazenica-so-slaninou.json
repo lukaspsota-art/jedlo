@@ -1,63 +1,57 @@
 {
-  "id": "prazenica-so-slaninou",
-  "nazov": "Praženica so slaninou",
-  "kategoria": "Raňajky",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 340,
-  "popis": "Miešané vajcia s opraženou slaninou a cibuľkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 5,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Údená slanina",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pažítka",
-      "mnozstvo": null,
-      "jednotka": "na posypanie",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Slaninu a cibuľu opraž na panvici.",
-    "Vajcia rozšľahaj, osoľ a vlej na slaninu.",
-    "Za stáleho miešania praž do zrazenia.",
-    "Posyp pažítkou."
-  ],
-  "tipy": "Panvicu odstav mierne skôr — vajcia dôjdu vlastným teplom.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "vajcia",
-    "raňajky"
-  ],
-  "foto": ""
+ "id": "prazenica-so-slaninou",
+ "nazov": "Praženica so slaninou",
+ "kategoria": "Raňajky",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Praženica (autor: pampuska92)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/prazenica/47680-recept.html",
+ "porcie": 8,
+ "cas": "15 min",
+ "kcal_na_porciu": 356,
+ "popis": "Ako stvorená na raňajky...",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka nakrájaná na plátky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Eidam",
+   "mnozstvo": 2,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Suchá klobása",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Nabijeme si vajíčka a rozmiešame ich.",
+  "V hlbšej panvici orestujeme klobásu, pustila troška masti. Pridáme štipku soli a do panvice vlejeme rozmiešané vajíčka. Miešame, kým praženica neni hustá podľa vašej chuti.",
+  "Podávame s pečivom, paradajkou a syrom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "vajcia",
+  "raňajky"
+ ]
 }

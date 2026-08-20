@@ -1,0 +1,53 @@
+{
+ "id": "horuca-cokolada-so-skoricou",
+ "nazov": "Horúca čokoláda so škoricou",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Chocolate Beverage",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12732",
+ "porcie": 8,
+ "cas": "5 min",
+ "kcal_na_porciu": 190,
+ "popis": "Cocoa · Coffee mug",
+ "ingrediencie": [
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 1440,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čokoláda",
+   "mnozstvo": 88.7,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 75,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mlieko vo vodnom kúpeli povaríme päť minút.",
+  "Odstavíme a po častiach vmiešavame čokoládu zmiešanú so škoricou, po každom pridaní dobre vyšľaháme.",
+  "Keď je čokoláda úplne rozpustená, znovu prehrejeme takmer k varu.",
+  "Vrátime na vodný kúpeľ, pridáme vajcia a stále šľaháme, kým zmes nespení.",
+  "Podávame v hrnčeku."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "vajcia",
+  "čokoláda",
+  "bezmäsité"
+ ]
+}

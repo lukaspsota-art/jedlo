@@ -1,81 +1,58 @@
 {
-  "id": "sosovicovy-privarok",
-  "nazov": "Šošovicový prívarok",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "tradičný recept",
-  "porcie": 4,
-  "cas": "60 min",
-  "kcal_na_porciu": 340,
-  "popis": "Hustý šošovicový prívarok so zápražkou, podávaný s vajcom alebo klobásou.",
-  "ingrediencie": [
-    {
-      "nazov": "Hnedá šošovica",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bravčová masť",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bobkový list",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Šošovicu uvar s bobkovým listom domäkka.",
-    "Z masti a múky sprav zápražku, zamiešaj papriku a cesnak.",
-    "Zápražku rozšľahaj do šošovice a povar do zhustnutia.",
-    "Dochuť octom a soľou."
-  ],
-  "tipy": "Podávaj s vyprážaným vajcom, klobásou a chlebom.",
-  "tagy": [
-    "slovenské",
-    "tradičné",
-    "strukoviny",
-    "prívarok"
-  ],
-  "foto": ""
+ "id": "sosovicovy-privarok",
+ "nazov": "Šošovicový prívarok",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Varecha.sk – Šošovicový prívarok(fotorecept) (autor: kajusiqq)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sosovicovy-privarokfotorecept/31501-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 305,
+ "popis": "Výborný rýchly lahký sýty:)))",
+ "ingrediencie": [
+  {
+   "nazov": "Šošovica",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Muka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa hustoty"
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "1.Šošovicu premyjeme. 2.Pridáme vodu a dáme variť 3.Pridáme vegetu",
+  "4.Zatiaľ očistíme zemiaky nakrájame zemiaky na kocky a párok na kolieska.",
+  "5.Keď bude šošovica polomäkká pridáme zemiaky a párok.",
+  "6.Keď budú zemiaky hotové zahustíme múkou pridáme polievkovú lyžicu octu a na ochutenie pridáme plátok masla:)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "tradičné",
+  "strukoviny",
+  "prívarok"
+ ]
 }

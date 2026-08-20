@@ -1,57 +1,69 @@
 {
-  "id": "ovsena-kasa-s-hruskou-a-skoricou",
-  "nazov": "Ovsená kaša s hruškou a škoricou",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 320,
-  "kcal_zdroj": "vypocet",
-  "popis": "Zahrievajúca ovsená kaša s hruškou a škoricou.",
-  "ingrediencie": [
-    {
-      "nazov": "Ovsené vločky",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrušky",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škorica",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ovsené vločky priveď s mliekom do varu, stiahni na mierny oheň.",
-    "Var 5 minút za občasného miešania.",
-    "Hrušku nakrájaj na kocky, pridaj do kaše so škoricou.",
-    "Podávaj s medom navrchu."
-  ],
-  "tipy": "Hruška dodáva jemnú sladkosť aj bez potreby veľa medu.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "ovsená kaša",
-    "hruška"
-  ]
+ "id": "ovsena-kasa-s-hruskou-a-skoricou",
+ "nazov": "Ovsená kaša s hruškou a škoricou",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Ovsená kaša s karamelizovanými hruškami (autor: blissofplants)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/ovsena-kasa-s-karamelizovanymi-hruskami-/80831-recept.html",
+ "porcie": 3,
+ "cas": "30 min",
+ "kcal_na_porciu": 386,
+ "popis": "Zahrievajúca ovsená kaša s hruškou a škoricou.",
+ "ingrediencie": [
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené mlieko",
+   "mnozstvo": 450,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hrušky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zmes mletého korenia",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinné maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pridáme ovsené vločky, nakrájaný banán a mlieko do hrnca a varíme na miernom ohni, kým je kaša hustá a krémová.",
+  "Pravidelne kašu premiešame. Pridáme mix korení.",
+  "Medzitým si predhrejeme rúru na 180 °C. Polovice hrušiek položíme na pekáč vystlaný papierom na pečenie. Polejeme maslom a javorovým sirupom a pečieme zhruba 20-25 minút do zlatista.",
+  "Ovsenú kašu ozdobíme karamelizovanými hruškami a extra porciou obľúbeného ovocia."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "ovsená kaša",
+  "hruška"
+ ]
 }

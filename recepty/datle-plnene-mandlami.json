@@ -1,38 +1,68 @@
 {
-  "id": "datle-plnene-mandlami",
-  "nazov": "Datle plnené mandľami",
-  "kategoria": "Snack",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "vlastný recept",
-  "porcie": 6,
-  "cas": "10 min",
-  "kcal_na_porciu": 143,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduchý sladký snack — datle plnené mandľami.",
-  "ingrediencie": [
-    {
-      "nazov": "Datle",
-      "mnozstvo": 180,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mandle",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Datle prekroj a vyber kôstku.",
-    "Do každej datle vlož mandľu.",
-    "Podávaj ihneď alebo skladuj v chladničke."
-  ],
-  "tipy": "Skvelý rýchly zdroj energie pred športom.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "datle",
-    "zdravé"
-  ]
+ "id": "datle-plnene-mandlami",
+ "nazov": "Datle plnené mandľami",
+ "kategoria": "Snack",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Varecha.sk – Nepečené datľové guľôčky s lieskovými orieškami a mandľami (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/nepecene-datlove-gulocky-s-lieskovymi-orieskami-a-mandlami/87251-recept.html",
+ "porcie": 12,
+ "cas": "15 min",
+ "kcal_na_porciu": 191,
+ "popis": "Jednoduchý sladký snack — datle plnené mandľami.",
+ "ingrediencie": [
+  {
+   "nazov": "Sušené datle",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandle",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Lieskové orechy",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezam",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ružová voda",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľové lupienky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Datle aj lieskovce nasucho opražíme na panvici.",
+  "Datle, mandle, lieskovce, sezam a kakao spolu rozmixujeme v sekáčiku. Pridáme pomarančovú alebo ružovú vodu. Ak nemáme ružovú vodu ani vodu z kvetov pomaranča, môžeme použiť čerstvú pomarančovú šťavu.",
+  "Z hmoty vytvarujeme guľôčky. Nakoniec obalíme v nasekaných mandliach alebo v mandľových lupienkoch."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "datle",
+  "zdravé"
+ ]
 }

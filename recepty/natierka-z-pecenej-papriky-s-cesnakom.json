@@ -1,51 +1,68 @@
 {
-  "id": "natierka-z-pecenej-papriky-s-cesnakom",
-  "nazov": "Nátierka z pečenej papriky s cesnakom",
-  "kategoria": "Nátierka",
-  "kuchyna": "Balkánska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 131,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sladkastá nátierka z pečenej papriky, inšpirovaná balkánskym ajvarom.",
-  "ingrediencie": [
-    {
-      "nazov": "Červená paprika",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 40,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Papriky peč vcelku pri 220 °C asi 25 minút, kým šupka nesčernie.",
-    "Nechaj vychladnúť, ošúp a zbav semienok.",
-    "Rozmixuj s pretlačeným cesnakom a olivovým olejom.",
-    "Dochuť soľou."
-  ],
-  "tipy": "Vydrží v chladničke v uzavretej nádobe aj týždeň.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "paprika",
-    "balkánske"
-  ]
+ "id": "natierka-z-pecenej-papriky-s-cesnakom",
+ "nazov": "Nátierka z pečenej papriky s cesnakom",
+ "kategoria": "Nátierka",
+ "kuchyna": "Balkánska",
+ "zdroj": "Varecha.sk – Nátierka z pečeného cesnaku (autor: afataga)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/natierka-z-peceneho-cesnaku/60829-recept.html",
+ "porcie": 8,
+ "cas": "8 min",
+ "kcal_na_porciu": 120,
+ "popis": "Na obed som piekla kuracie stehna, tak som ku nim prihodila celú veľkú hlavičku cesnaku, že urobím nátierku, tak tu je:",
+ "ingrediencie": [
+  {
+   "nazov": "Pečený cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr balkánsky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvaroh 40%",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Papričky chilli",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená mletá paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté čerstvé korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Cesnak som dala piect rozobratý na strúčiky, ale neolúpaný. Do misky som dala popučený syr, tvaroh, vychladnutý cesnak som vylúpla zo šupky a popučila vidličkou a pridala všetko ostatné. Jasné. že chilli som pokrájala. Riadne som to rozmiešala a je to. Ešte ma napadlo, že by to znieslo aj olivový olej a bazalku.",
+  "Konečne máme na záhrade huby :-)",
+  "A občas aj sokola"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "paprika",
+  "balkánske"
+ ]
 }

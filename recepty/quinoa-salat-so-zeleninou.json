@@ -1,69 +1,80 @@
 {
-  "id": "quinoa-salat-so-zeleninou",
-  "nazov": "Quinoa šalát so zeleninou",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 268,
-  "kcal_zdroj": "vypocet",
-  "popis": "Výživný studený šalát z quinoi, čerstvej zeleniny a citrónového dresingu.",
-  "ingrediencie": [
-    {
-      "nazov": "Quinoa",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Červená cibuľa",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 30,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Quinou uvar podľa návodu na obale a nechaj vychladnúť.",
-    "Zeleninu nakrájaj na kocky.",
-    "Všetko premiešaj s olivovým olejom a citrónovou šťavou.",
-    "Dochuť soľou a nechaj chvíľu odstáť."
-  ],
-  "tipy": "Skvele sa hodí aj s pridanou fetou alebo cíceron.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "quinoa",
-    "zdravé"
-  ]
+ "id": "quinoa-salat-so-zeleninou",
+ "nazov": "Quinoa šalát so zeleninou",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Šalát zo zeleniny a z quinoy (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/salat-zo-zeleniny-a-z-quinoy/64579-recept.html",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 363,
+ "popis": "Výživný studený šalát z quinoi, čerstvej zeleniny a citrónového dresingu.",
+ "ingrediencie": [
+  {
+   "nazov": "Quinoa",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky cherry",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalátová uhorka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "zväzok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový panenský olej",
+   "mnozstvo": 25,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 5,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Balzamikový ocot",
+   "mnozstvo": 5,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Quinou preberieme, dáme do sitka a niekoľkokrát prelejeme horúcou vodou. Necháme odkvapkať. Potom ju dáme variť do 750 ml osolenej vody na 15 – 20 minút domäkka. Uvarenú quinou odstavíme z ohňa a necháme vychladnúť.",
+  "Pripravíme zálievku z oleja, limetkovej šťavy, octu, korenia a soli. Všetko premiešame.",
+  "Zeleninu očistíme a nakrájame na kocky, vmiešame do quinoy a pokvapkáme zálievkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "quinoa",
+  "zdravé"
+ ]
 }

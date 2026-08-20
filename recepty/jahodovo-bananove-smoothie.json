@@ -1,56 +1,55 @@
 {
-  "id": "jahodovo-bananove-smoothie",
-  "nazov": "Jahodovo-banánové smoothie",
-  "kategoria": "Nápoj",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "inšpirované Wikibooks Cookbook: Strawberry And Banana Smoothie (CC BY-SA)",
-  "porcie": 2,
-  "cas": "5 min",
-  "kcal_na_porciu": 205,
-  "kcal_zdroj": "vypocet",
-  "popis": "Klasické krémové smoothie z jahôd, banánu a jogurtu.",
-  "ingrediencie": [
-    {
-      "nazov": "Jahody",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "čerstvé alebo mrazené"
-    },
-    {
-      "nazov": "Banán",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Grécky jogurt",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetky suroviny vlož do mixéra.",
-    "Rozmixuj dohladka.",
-    "Podávaj ihneď."
-  ],
-  "tipy": "S mrazeným ovocím bude smoothie hustejšie a chladnejšie.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "smoothie",
-    "raňajky"
-  ]
+ "id": "jahodovo-bananove-smoothie",
+ "nazov": "Jahodovo-banánové smoothie",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Banánové smoothie (autor: nathaliez12)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/bananove-smoothie/62359-recept.html",
+ "porcie": 5,
+ "cas": "3 min",
+ "kcal_na_porciu": 196,
+ "popis": "Rýchle raňajky? Málo času? Málo ingrediencií? Ponúkam tip, ako vylepšiť svoje raňajky \r\nza 2 minúty.",
+ "ingrediencie": [
+  {
+   "nazov": "Banány",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžové mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Semienka chia",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky suroviny vhodíme do mixéra, zalejeme rastlinným mliekom, alebo vodou a zmixujeme do hladka. Pre sladšiu chuť vhodíme pár vykôstkovaných medjool ďaltí a znova zmixujeme.",
+  "Hotové smoothie vylejeme do pohára, osobne preferujem zaváracie sklá, pridá to smoothie lepší šmrnc."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "smoothie",
+  "raňajky"
+ ]
 }

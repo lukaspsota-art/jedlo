@@ -1,56 +1,84 @@
 {
-  "id": "zeleny-smoothie-s-uhorkou",
-  "nazov": "Zelený smoothie s uhorkou",
-  "kategoria": "Nápoj",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "5 min",
-  "kcal_na_porciu": 60,
-  "kcal_zdroj": "vypocet",
-  "popis": "Osviežujúce zelené smoothie s uhorkou, špenátom a jablkom.",
-  "ingrediencie": [
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Špenát",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Uhorku a jablko nakrájaj na kúsky.",
-    "Všetky suroviny rozmixuj dohladka.",
-    "Podávaj ihneď."
-  ],
-  "tipy": "Pre sladšiu verziu pridaj lyžičku medu.",
-  "foto": "",
-  "tagy": [
-    "nápoj",
-    "smoothie",
-    "zelené"
-  ]
+ "id": "zeleny-smoothie-s-uhorkou",
+ "nazov": "Zelený smoothie s uhorkou",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Zelené smoothie (autor: nelajsia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zelene-smoothie/51791-recept.html",
+ "porcie": 1,
+ "cas": "10 min",
+ "kcal_na_porciu": 199,
+ "popis": "Každodenné raňajky - s rôznymi obmenami, plné energie, vitamínov... naštartujú deň",
+ "ingrediencie": [
+  {
+   "nazov": "Banán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chladná voda",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Semienka chia",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Datle bio bez kôstok",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenátové listy",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Púpavové listy",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sedmokrásky",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hlávkový malý šalát",
+   "mnozstvo": 4,
+   "jednotka": "list",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovocie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "rôzne"
+  },
+  {
+   "nazov": "Čerstvá medovka",
+   "mnozstvo": 2,
+   "jednotka": "list",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do mixovacej nádoby dáte vodu, banán, chia semiačka, rôzne bylinky(čo nájdem na záhradke, pretrhávam petržlen i mrkvu a nevyhadzujem, rozmixujem i s korienkami), ovocie podľa sezóny, mmt. dávam jahody, všetko dôkladne rozmixujem. Datle sa namočia vopred(už večer)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "smoothie",
+  "zelené"
+ ]
 }

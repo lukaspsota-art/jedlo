@@ -1,29 +1,56 @@
 {
-  "id": "snack-proteinovy-puding",
-  "nazov": "Proteínový puding",
-  "kategoria": "Snack",
-  "kuchyna": "",
-  "zdroj": "",
-  "porcie": 1,
-  "cas": "1 min",
-  "kcal_na_porciu": 180,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kúpený proteínový puding.",
-  "ingrediencie": [
-    {
-      "nazov": "Proteínový puding",
-      "mnozstvo": 200,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Kúpené — otvor a zjedz."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "kupované",
-    "bielkoviny"
-  ]
+ "id": "snack-proteinovy-puding",
+ "nazov": "Proteínový puding",
+ "kategoria": "Snack",
+ "kuchyna": "",
+ "zdroj": "Varecha.sk – Domáci puding (autor: dajaja)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/domaci-puding/47889-recept.html",
+ "porcie": 1,
+ "cas": "15 min",
+ "kcal_na_porciu": 230,
+ "popis": "Napadlo mi, že by som si mohla spraviť domáci puding. Nie je z prášku, viem čo v ňom \r\nje, chutí skoro rovnako a možno je aj zdravší.",
+ "ingrediencie": [
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špaldová múka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovocie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "akékoľvek"
+  }
+ ],
+ "postup": [
+  "Do hrnca si dáme cca polovicu mlieka, pridáme med a necháme za občasného premiešania variť na najslabšom ohni.",
+  "Do druhej polovice mlieka pridáme lyžicu múky, kakao a dobre premiešame. Ak tam ostanú kakaové hrudky, nevadí, rozvaria sa.",
+  "Túto zmes prelejeme do hrnca s mliekom a medom a uvaríme puding. Je riedky ale keď ho nalejete do misky a chvíľku ho necháte chladnúť zhustne. Potom už len ozdobíme ovocím. Ja ho mám najradšej ešte teplý. Prajem dobrú chuť!"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "kupované",
+  "bielkoviny"
+ ]
 }

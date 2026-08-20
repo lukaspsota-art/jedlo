@@ -1,80 +1,89 @@
 {
-  "id": "massaman-beef-curry",
-  "nazov": "Massaman Beef Curry",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Thajská",
-  "zdroj": "internet – adaptované (BBC Good Food)",
-  "porcie": 4,
-  "cas": "2,5 h",
-  "kcal_na_porciu": 640,
-  "popis": "Jemné sladkasté thajské curry so zemiakmi a arašidmi, ochutené škoricou a badiánom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzieho na guláš",
-      "mnozstvo": 700,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "massaman kari pasta",
-      "mnozstvo": 3,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Kokosového mlieka",
-      "mnozstvo": 400,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Pražených arašidov",
-      "mnozstvo": 50,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "rybia omáčka",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Tamarindovej pasty",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "cukor",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "škorica",
-      "mnozstvo": 3,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "badián",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    }
-  ],
-  "postup": [
-    "Na časti kokosového mlieka opeč kari pastu do zavoňania. Pridaj mäso a opeč.",
-    "Vlej zvyšok kokosového mlieka, škoricu a badián, priveď k varu a duste 1,5 h.",
-    "Pridaj zemiaky, cibuľu, arašidy, rybaciu omáčku, tamarind a cukor. Duste ďalších 30 min domäkka. Podávaj s ryžou."
-  ],
-  "tipy": "Massaman je najmenej pálivé z thajských curry — vhodné aj pre deti.",
-  "foto": "",
-  "tagy": [
-    "thajské",
-    "hovädzie",
-    "curry"
-  ]
+ "id": "massaman-beef-curry",
+ "nazov": "Massaman Beef Curry",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Thajská",
+ "zdroj": "Wikibooks Cookbook – Beef Curry (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook%3ABeef_Curry",
+ "porcie": 7,
+ "cas": "2,5 h",
+ "kcal_na_porciu": 365,
+ "popis": "Jemné sladkasté thajské curry so zemiakmi a arašidmi, ochutené škoricou a badiánom.",
+ "ingrediencie": [
+  {
+   "nazov": "Hovädzie mäso",
+   "mnozstvo": 453.6,
+   "jednotka": "g",
+   "poznamka": "posekaná"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "or 1 cup mrazená mixed bell peppers"
+  },
+  {
+   "nazov": "Karí korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Hovädzí vývar",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryža",
+   "mnozstvo": 360,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 660,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cibuľu a papriku olúpeme a nakrájame.",
+  "Na panvici opražíme mleté hovädzie mäso a pridáme karí korenie.",
+  "Pridáme nakrájanú cibuľu a papriku a minútu restujeme.",
+  "Pridáme rozdrobenú bujónovú kocku, paradajkový pretlak, mangové čatní a mletú papriku.",
+  "Prilejeme vodu tak, aby zmes zakryla.",
+  "Privedieme k varu a dusíme hodinu, každých 10 minút premiešame.",
+  "Medzitým uvaríme ryžu v 650 ml vody.",
+  "Ak chceme žltú ryžu, pridáme trochu kurkumy.",
+  "Ihneď prikryjeme, stiahneme na minimum a varíme 10 minút.",
+  "Vypneme oheň a necháme 10 minút odpočívať.",
+  "Do ryže pridáme citrónovú šťavu a prečuchráme vidličkou.",
+  "Ryžu naservírujeme na tanier a navrch dáme karí."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "thajské",
+  "hovädzie",
+  "curry"
+ ]
 }

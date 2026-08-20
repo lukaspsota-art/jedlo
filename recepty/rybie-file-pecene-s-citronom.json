@@ -1,58 +1,59 @@
 {
-  "id": "rybie-file-pecene-s-citronom",
-  "nazov": "Rybie filé pečené s citrónom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 3,
-  "cas": "25 min",
-  "kcal_na_porciu": 206,
-  "kcal_zdroj": "vypocet",
-  "popis": "Jednoduché pečené biele rybie filé s citrónom a bylinkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Zubáča",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 25,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlenová vňať",
-      "mnozstvo": 10,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rybie filé ulož na plech vyložený papierom na pečenie.",
-    "Polej olivovým olejom a citrónovou šťavou.",
-    "Osoľ a posyp nasekanou petržlenovou vňaťou.",
-    "Peč pri 190 °C asi 15-18 minút.",
-    "Podávaj s citrónovými plátkami."
-  ],
-  "tipy": "Filé je hotové, keď sa mäso ľahko rozpadá vidličkou.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "ryba",
-    "rýchle"
-  ]
+ "id": "rybie-file-pecene-s-citronom",
+ "nazov": "Rybie filé pečené s citrónom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Rybie filé pečené v alobale (fotorecept) (autor: eruska25)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/rybie-file-pecene-v-alobale-fotorecept/87079-recept.html",
+ "porcie": 2,
+ "cas": "30 min",
+ "kcal_na_porciu": 282,
+ "popis": "Rybie filé nemusí byť len vyprážané.",
+ "ingrediencie": [
+  {
+   "nazov": "Filé rybie",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pretlak som použila domáci.",
+  "Zmiešame pretlak, olej, soľ a korenie a do zmesi namáčame jednotlivé kusy filé.",
+  "Zabalíme do alobalu.",
+  "Balíčky dáme na plech a vo vyhriatej rúre pečieme 15 minút pri 180 °C.",
+  "Kontrola. Mäsko je upečené, v alobale plno šťavy.",
+  "Nám filé chutilo so zemiakmi."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "ryba",
+  "rýchle"
+ ]
 }

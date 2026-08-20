@@ -1,57 +1,92 @@
 {
-  "id": "salat-z-cerveneho-zelia-coleslaw",
-  "nazov": "Šalát z červeného zelia (coleslaw)",
-  "kategoria": "Šalát",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 136,
-  "kcal_zdroj": "vypocet",
-  "popis": "Chrumkavý coleslaw šalát z červeného zelia a mrkvy.",
-  "ingrediencie": [
-    {
-      "nazov": "Červené zelie",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablčný ocot",
-      "mnozstvo": 10,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zelie a mrkvu nastrúhaj najemno.",
-    "Zmiešaj majonézu s jablčným octom.",
-    "Premiešaj zeleninu s dresingom.",
-    "Nechaj aspoň 20 minút odstáť v chladničke pred podávaním."
-  ],
-  "tipy": "Skvelá príloha ku grilovanému mäsu.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "zelie",
-    "americké"
-  ]
+ "id": "salat-z-cerveneho-zelia-coleslaw",
+ "nazov": "Šalát z červeného zelia (coleslaw)",
+ "kategoria": "Šalát",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Zel-Krab šalát (autor: catherinec)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/zel-krab-salat/60469-recept.html",
+ "porcie": 5,
+ "cas": "15 min",
+ "kcal_na_porciu": 75,
+ "popis": "Tento šalát vznikol ako improvizácia. Bola som na nákupe a vravím si, že by som si mohla \r\nna intráku spraviť nejaký dobrý šalát. A tak som kúštik zariskovala a podla mňa a mojich \r\nspolubývajúcich vznikol fakt skvelý šalát. Dúfam, že bude chutiť aj Vám :)",
+ "ingrediencie": [
+  {
+   "nazov": "Strúhaný sterilizovaný zeler",
+   "mnozstvo": 320,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená čerstvá kápia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukurica v konzerve",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr eidam",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krabie tyčinky mrazené",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jogurt biely",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnakový dresing",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprika chilli pomletá",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na začiatok si ošúpeme cibuľu a rozkrojíme na poly. Jednu polku nakrájame na drobno a dáme do misy, druhú časť si nakrájame na väčšie kúsky a opražíme do hneda na masle. Keď už je cibuľa hnedá, pridáme na kocky nakrájané krabie tyčinky, orestujeme ich a pridáme klasik a chilli podľa chuti, necháme vychladnúť.",
+  "Pokiaľ nám chladnú krabie tyčinky si pripravíme ostatok. Nakrájanú papriku zmiešame spolu s cibuľou, kukuricou, odcedeným zelerom a syrom (je jedno, či na kocky, alebo ho nastrúhame). Vychladené krabie tyčinky pridáme ku ostatku a nakoniec pridáme biely jogurt (ja som použila hollandia selský jogurt) a dve lyžice cesnakového dressingu (ja som mala v chladničke klasický z kauflandu)",
+  "Dobrú chuť! :)"
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "zelie",
+  "americké"
+ ]
 }

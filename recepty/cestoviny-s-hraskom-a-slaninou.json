@@ -1,64 +1,99 @@
 {
-  "id": "cestoviny-s-hraskom-a-slaninou",
-  "nazov": "Cestoviny s hráškom a slaninou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 554,
-  "kcal_zdroj": "vypocet",
-  "popis": "Rýchle krémové cestoviny s hráškom a chrumkavou slaninou.",
-  "ingrediencie": [
-    {
-      "nazov": "Penne",
-      "mnozstvo": 320,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hrach",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotana",
-      "mnozstvo": 150,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Cestoviny uvar podľa návodu, hrášok pridaj na posledné 3 minúty.",
-    "Slaninu nakrájaj na kocky a opeč do chrumkava.",
-    "Pridaj pretlačený cesnak a smotanu, prehrej.",
-    "Zamiešaj cestoviny s hráškom.",
-    "Dochuť soľou a podávaj."
-  ],
-  "tipy": "Skvelé rýchle jedlo z bežných zásob v chladničke.",
-  "foto": "",
-  "tagy": [
-    "cestoviny",
-    "hrášok",
-    "slanina"
-  ]
+ "id": "cestoviny-s-hraskom-a-slaninou",
+ "nazov": "Cestoviny s hráškom a slaninou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Varecha.sk – Cestoviny so slaninou a s hubami (fotorecept) (autor: ailuj82)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-so-slaninou-a-s-hubami-fotorecept-/84866-recept.html",
+ "porcie": 8,
+ "cas": "30 min",
+ "kcal_na_porciu": 430,
+ "popis": "Rýchle a chutné jedlo.",
+ "ingrediencie": [
+  {
+   "nazov": "Cestoviny",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Masť",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "šampiňóny, shimei"
+  },
+  {
+   "nazov": "Biele suché víno",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "V osolenej vode uvaríme cestoviny na al dente.",
+  "Na troche masti osmažíme nakrájanú slaninu, pridáme plátky cesnaku, pokrájané huby (ak dáme shimei, tie len rozoberieme). Chvíľu opečieme, pridáme soľ, korenie, rozmarín a zalejeme vínom. Prikryté dusíme asi 5 minút. Potom necháme víno odpariť.",
+  "Prilejeme sladkú smotanu a pridáme uvarené cestoviny. Za stáleho miešania necháme prevrieť a prisypeme strúhaný parmezán.",
+  "Servírujeme posypané petržlenovou vňaťou a parmezánom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "hrášok",
+  "slanina"
+ ]
 }

@@ -1,64 +1,56 @@
 {
-  "id": "syrove-slimaky",
-  "nazov": "Syrové slimáky",
-  "kategoria": "Pečivo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "vlastný recept",
-  "porcie": 8,
-  "cas": "100 min",
-  "kcal_na_porciu": 327,
-  "kcal_zdroj": "vypocet",
-  "popis": "Kysnuté slimáky so syrovou náplňou, slaná alternatíva ku škoricovým.",
-  "ingrediencie": [
-    {
-      "nazov": "Hladká múka",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 220,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Droždie",
-      "mnozstvo": 7,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Z múky, vlažného mlieka, droždia, masla a soli vypracuj cesto. Nechaj kysnúť 1 hodinu.",
-    "Cesto rozváľaj, posyp strúhaným syrom.",
-    "Zroluj a nakrájaj na 8 kúskov.",
-    "Ulož do formy, nechaj 20 minút kysnúť.",
-    "Peč pri 190 °C asi 20-25 minút do zlatista."
-  ],
-  "tipy": "Skvelé teplé, keď je syr ešte tekutý.",
-  "foto": "",
-  "tagy": [
-    "pečivo",
-    "syr",
-    "kysnuté"
-  ]
+ "id": "syrove-slimaky",
+ "nazov": "Syrové slimáky",
+ "kategoria": "Pečivo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Varecha.sk – Šunkovo-syrové slimáky (autor: makaron)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sunkovo-syrove-slimaky/2077-recept.html",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 225,
+ "popis": "Prvýkrát mi ho priniesla mamka do nemocnice. Ani neviem prečo, či z dôvodu nechutnej nemocničnej stravy, alebo z dôvodu jeho prenikavej chuti, toto slané pečivo mi ulahodilo a učarovalo. Už vtedy som vedela, že ho musím vyskúšať i ja.",
+ "ingrediencie": [
+  {
+   "nazov": "Lístkové cesto",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tavený syr",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tvrdý syr",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na rozvaľkané lístkové cesto rozotrieme 1 črievko taveného syra (najlepšie chutí napr. so syrom Bambinko). Potom poukladáme šunku alebo šunkovú salámu. Nakoniec nastrúhame tvrdý syr (môže byť údený aj neúdený).",
+  "Lístkové cesto zrolujeme do rolky. Studeným hrotom noža (aby sa nám cesto nelepilo na nôž) narežeme cca 2 cm kolieska, ktoré poukladáme na papier na pečenie.",
+  "Keď budeme mať nakrájanú celú rolku, jednotlivé kúsky natrieme rozšľahaným vajíčkom a dáme do rozohriatej rúry na cca 15 minút a pečieme pri teplote 170 stupňov."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "syr",
+  "kysnuté"
+ ]
 }

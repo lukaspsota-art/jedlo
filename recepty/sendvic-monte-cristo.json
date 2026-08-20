@@ -1,74 +1,105 @@
 {
-  "id": "sendvic-monte-cristo",
-  "nazov": "Monte Cristo sendvič",
-  "kategoria": "Raňajky",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 2,
-  "cas": "20 min",
-  "kcal_na_porciu": 540,
-  "popis": "Sladko-slaný americký sendvič namočený vo vajci a opečený ako francúzsky toast.",
-  "ingrediencie": [
-    {
-      "nazov": "Toastový chlieb",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr eidam",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajcia",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Práškový cukor",
-      "mnozstvo": null,
-      "jednotka": "na posypanie",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Džem",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Chlieb naplň šunkou a syrom, zlož ako sendvič.",
-    "Rozšľahaj vajcia s mliekom, sendvič v tom namoč z oboch strán.",
-    "Opeč na masle do zlatista, posyp práškovým cukrom a podávaj s džemom."
-  ],
-  "tipy": "Kontrast slaného a sladkého je zámerný — neváhaj pridať aj slaninu.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "sendvič",
-    "sladké",
-    "americká"
-  ]
+ "id": "sendvic-monte-cristo",
+ "nazov": "Monte Cristo sendvič",
+ "kategoria": "Raňajky",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Sendvič Monte Christo so šípkovou omáčkou (autor: redakcia)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/sendvic-monte-christo-so-sipkovou-omackou-/64091-recept.html",
+ "porcie": 7,
+ "cas": "13 min",
+ "kcal_na_porciu": 399,
+ "popis": "Sladko-slaný americký sendvič namočený vo vajci a opečený ako francúzsky toast.",
+ "ingrediencie": [
+  {
+   "nazov": "Hriankový chlieb",
+   "mnozstvo": 8,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Dijonská horčica",
+   "mnozstvo": 4,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bryndza",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušená šunka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "breasola, jamón ibérico..."
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červené víno",
+   "mnozstvo": 75,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šípkový džem",
+   "mnozstvo": 180,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celá škorica",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na pracovný stôl rozložíme hriankový chlieb a potrieme rovnomerne majonézou a horčicou, rozdrvíme bryndzu, naukladáme sušenú šunku a uzavrieme na štyri hrianky.",
+  "Panvicu s olejom rozohrejeme, do vyšľahaných a ochutených vajíčok ponoríme po jednom sendviči. Najprv sendvič opečieme sprudka a potom po znížení teploty necháme prehriať skrz.",
+  "Omáčka: V malom hrnci zredukujeme víno, pridáme šípkový džem a nastrúhame škoricu podľa chuti. Necháme zovrieť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "sendvič",
+  "sladké",
+  "americká"
+ ]
 }

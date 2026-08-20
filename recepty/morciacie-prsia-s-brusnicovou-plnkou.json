@@ -1,64 +1,87 @@
 {
-  "id": "morciacie-prsia-s-brusnicovou-plnkou",
-  "nazov": "Morčacie prsia s brusnicovou plnkou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "vlastný recept",
-  "porcie": 4,
-  "cas": "55 min",
-  "kcal_na_porciu": 389,
-  "kcal_zdroj": "vypocet",
-  "popis": "Sviatočné morčacie prsia plnené brusnicami a bylinkami.",
-  "ingrediencie": [
-    {
-      "nazov": "Morčacie mäso",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": "prsia, vcelku"
-    },
-    {
-      "nazov": "Brusnice sušené",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Celozrnný chlieb",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "na kocky"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olej",
-      "mnozstvo": 20,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Chlieb nakrájaj na kocky, zmiešaj s brusnicami a nadrobno pokrájanou cibuľou na plnku.",
-    "Mäso prekroj vodorovne, aby vzniklo vrecko, naplň zmesou.",
-    "Zviaž alebo zopni špáradlom.",
-    "Peč pri 190 °C asi 40-45 minút.",
-    "Nechaj odpočívať pred krájaním."
-  ],
-  "tipy": "Skvelé sviatočné jedlo, ktoré zaujme hostí.",
-  "foto": "",
-  "tagy": [
-    "hlavné jedlo",
-    "morčacie",
-    "sviatočné"
-  ]
+ "id": "morciacie-prsia-s-brusnicovou-plnkou",
+ "nazov": "Morčacie prsia s brusnicovou plnkou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Varecha.sk – Morčacie prsia s jablkami (autor: podravka)",
+ "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-prsia-s-jablkami/69719-recept.html",
+ "porcie": 2,
+ "cas": "200 min",
+ "kcal_na_porciu": 373,
+ "popis": "Jablká, jablková šťava a jablčný ocot dodajú pečenému mäsu osobitú chuť, ktorú budete chcieť ochutnať znovu.",
+ "ingrediencie": [
+  {
+   "nazov": "Prsia morčacie",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vegeta",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne mleté korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený rozmarín",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablková šťava",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kremžská horčica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Morčacie mäso posypeme vegeta, čiernym korením a rozmarínom. Dáme ho do pekáča a okolo neho poukladáme očistenú a na štvrtiny nakrájanú cibuľu a takisto aj jablká.",
+  "V miske zmiešame jablkovú šťavu, jablčný ocot a horčicu, poriadne premiešame a vylejeme na mäso. Pekáč prikryjeme fóliou a pečemie v predhriatej rúre na 180 °C približne 1 hodinu.",
+  "Mäso odkryjeme, polejeme šťavou a vrátime do rúry ešte na 20 min, aby sa zapieklo.",
+  "Podávanie: Mäso necháme trošku vychladnúť, nakrájame na kúsky a podávame s prílohou podľa chuti."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "morčacie",
+  "sviatočné"
+ ]
 }

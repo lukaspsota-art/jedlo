@@ -1,0 +1,42 @@
+{
+ "id": "jogurtovy-chladeny-napoj",
+ "nazov": "Jogurtový chladený nápoj",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "TheCocktailDB – Yoghurt Cooler",
+ "zdroj_url": "https://www.thecocktaildb.com/drink/12728",
+ "porcie": 1,
+ "cas": "5 min",
+ "popis": "Other / Unknown · Highball Glass",
+ "ingrediencie": [
+  {
+   "nazov": "Biely jogurt",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Fruit",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie dáme do mixéra a mixujeme na strednej rýchlosti do hladka.",
+  "Pridáme 3–4 kocky ľadu a mixujeme, kým sa úplne nerozdrvia.",
+  "Nalejeme do jedného vysokého alebo dvoch stredných pohárov."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "bezmäsité"
+ ]
+}
