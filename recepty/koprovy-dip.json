@@ -6,20 +6,51 @@
   "zdroj": "Jíme zdravě s Fitrecepty I",
   "porcie": 2,
   "cas": "10 min",
-  "kcal_na_porciu": 125,
+  "kcal_na_porciu": 180,
   "popis": "Rýchly dip z ricotty a čerstvého kôpru na zeleninu.",
   "ingrediencie": [
-    {"nazov": "Ricotta", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Čerstvý kôpor", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Limetková šťava", "mnozstvo": null, "jednotka": "", "poznamka": "šťava z 1/2 limetky"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+    {
+      "nazov": "Ricotta",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvý kôpor",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "šťava z 1/2 limetky"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
   ],
   "postup": [
-    "Všetky ingrediencie zmiešajte.",
-    "Podávajte so zeleninou alebo zeleninovými chipsami."
+    "Všetky ingrediencie zmiešaj.",
+    "Podávaj so zeleninou alebo zeleninovými chipsami."
   ],
-  "tipy": "",
+  "tipy": "Nátierku nechaj pred podávaním aspoň hodinu v chladničke — chute sa prepoja a natiera sa lepšie.",
   "foto": "",
-  "tagy": ["dip", "kôpor", "ricotta", "rýchle"]
+  "tagy": [
+    "dip",
+    "kôpor",
+    "ricotta",
+    "rýchle"
+  ],
+  "kcal_zdroj": "vypocet"
 }

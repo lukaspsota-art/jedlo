@@ -1,86 +1,86 @@
 {
-  "id": "medovo-cesnakove-kuracie-prsia",
-  "nazov": "Medovo-cesnakové kuracie prsia",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "Kaufland online",
-  "porcie": 2,
-  "cas": "30 min",
-  "kcal_na_porciu": 520,
-  "popis": "Šťavnaté kuracie prsia glazované medom, cesnakom a sójovkou, s ryžou a hráškom.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Olivového oleja",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "tmavá sójová omáčka",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Medu",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 2,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Rozmarínu",
-      "mnozstvo": 1,
-      "jednotka": "vetvička"
-    },
-    {
-      "nazov": "hrášok",
-      "mnozstvo": 100,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "maslo",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Ryža",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Sezam",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Daj variť ryžu podľa návodu.",
-    "Do misky pretlač cesnak, pridaj sójovku, med, olivový olej a nasekaný rozmarín — marináda.",
-    "Prsia osuš, osoľ a okoreň. Na rozpálenej panvici s olejom ich opeč z oboch strán, potom potieraj marinádou. Zvyšok marinády zmiešaj s troškou vody a pridaj.",
-    "Prsia dopeč pod pokrievkou. Hrášok poduste na masle a dochuť. Prsia nakrájaj, prelej omáčkou, posyp sezamom. Podávaj s ryžou a hráškom."
-  ],
-  "tipy": "Panvicu poriadne rozpáľ a prsiami zo začiatku nehýb — samé sa odlepia.",
-  "foto": "",
-  "tagy": [
-    "ázijské",
-    "kuracie",
-    "med"
-  ]
+ "id": "medovo-cesnakove-kuracie-prsia",
+ "nazov": "Medovo-cesnakové kuracie prsia",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "Kaufland online",
+ "porcie": 2,
+ "cas": "30 min",
+ "kcal_na_porciu": 520,
+ "popis": "Šťavnaté kuracie prsia glazované medom, cesnakom a sójovkou, s ryžou a hráškom.",
+ "ingrediencie": [
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Olivového oleja",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "tmavá sójová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Medu",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Cesnaku",
+   "mnozstvo": 2,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Rozmarínu",
+   "mnozstvo": 1,
+   "jednotka": "vetvička"
+  },
+  {
+   "nazov": "hrášok",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Ryža",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Sezam",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": ""
+  }
+ ],
+ "postup": [
+  "Daj variť ryžu podľa návodu.",
+  "Do misky pretlač cesnak, pridaj sójovku, med, olivový olej a nasekaný rozmarín — marináda.",
+  "Prsia osuš, osoľ a okoreň. Na rozpálenej panvici s olejom ich opeč z oboch strán, potom potieraj marinádou. Zvyšok marinády zmiešaj s troškou vody a pridaj.",
+  "Prsia dopeč pod pokrievkou. Hrášok podus na masle a dochuť. Prsia nakrájaj, prelej omáčkou, posyp sezamom. Podávaj s ryžou a hráškom."
+ ],
+ "tipy": "Panvicu poriadne rozpáľ a prsiami zo začiatku nehýb — samé sa odlepia.",
+ "foto": "",
+ "tagy": [
+  "ázijské",
+  "kuracie",
+  "med"
+ ]
 }

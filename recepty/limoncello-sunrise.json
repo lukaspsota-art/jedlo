@@ -6,7 +6,7 @@
   "zdroj": "Kaufland FOOD magazín",
   "porcie": 1,
   "cas": "5 min",
-  "kcal_na_porciu": 190,
+  "kcal_na_porciu": 388,
   "popis": "Svieži ovocný drink s limoncellom, pomarančovým džúsom a grenadínou.",
   "ingrediencie": [
     {
@@ -47,5 +47,6 @@
     "drink",
     "limoncello",
     "ovocné"
-  ]
+  ],
+  "kcal_zdroj": "vypocet"
 }

@@ -1,37 +1,92 @@
 {
-  "id": "celozrnne-taskicky-so-spenatom",
-  "nazov": "Celozrnné taštičky so špenátom",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 10,
-  "cas": "50 min",
-  "kcal_na_porciu": 127,
-  "popis": "Pečené celozrnné taštičky plnené špenátom a cesnakom.",
-  "ingrediencie": [
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 160, "jednotka": "g", "poznamka": "na cesto"},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": "na cesto"},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na cesto"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, na cesto"},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na náplň"},
-    {"nazov": "Čerstvý špenát", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 4, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 30, "jednotka": "g", "poznamka": "na podsypanie válu"},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": "na potretie"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 170 °C.",
-    "Zmiešajte všetky ingrediencie na cesto, prípadne zrieďte vodou.",
-    "Z cesta vytvarujte kôpku a necháte 10 minút odležať.",
-    "Na oleji opečte prepratý špenát s roztlačeným cesnakom 5 minút, dochutite soľou a korením.",
-    "Cesto rozváľajte na pomúčenom vále na hrúbku 2-3 mm a vykrajujte kolieska pohárom.",
-    "Do stredu každého kolieska dajte lyžičku špenátovej náplne.",
-    "Kolieska prehnite na polovicu a okraje pritlačte vidličkou.",
-    "Taštičky poukladajte na plech a potrite vyšľahaným vajcom.",
-    "Pečte 10-15 minút pri 160-170 °C."
-  ],
-  "tipy": "Rovnaké cesto môžete použiť aj na sladké taštičky naplnené džemom a obalené v stévii so škoricou.",
-  "foto": "",
-  "tagy": ["taštičky", "špenát", "celozrnné", "snack"]
+ "id": "celozrnne-taskicky-so-spenatom",
+ "nazov": "Celozrnné taštičky so špenátom",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 10,
+ "cas": "50 min",
+ "kcal_na_porciu": 127,
+ "popis": "Pečené celozrnné taštičky plnené špenátom a cesnakom.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti, na cesto"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na náplň"
+  },
+  {
+   "nazov": "Čerstvý špenát",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": "na podsypanie válu"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na potretie"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 170 °C.",
+  "Zmiešaj všetky ingrediencie na cesto, prípadne zrieď vodou.",
+  "Z cesta vytvaruj kôpku a nechaj 10 minút odležať.",
+  "Na oleji opeč prepratý špenát s roztlačeným cesnakom 5 minút, dochuti soľou a korením.",
+  "Cesto rozváľaj na pomúčenom vále na hrúbku 2-3 mm a vykrajuj kolieska pohárom.",
+  "Do stredu každého kolieska daj lyžičku špenátovej náplne.",
+  "Kolieska prehni na polovicu a okraje pritlač vidličkou.",
+  "Taštičky poukladaj na plech a potri vyšľahaným vajcom.",
+  "Peč 10-15 minút pri 160-170 °C."
+ ],
+ "tipy": "Rovnaké cesto môžete použiť aj na sladké taštičky naplnené džemom a obalené v stévii so škoricou.",
+ "foto": "",
+ "tagy": [
+  "taštičky",
+  "špenát",
+  "celozrnné",
+  "snack"
+ ]
 }

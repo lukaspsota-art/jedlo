@@ -1,78 +1,78 @@
 {
-  "id": "kachumbari",
-  "nazov": "Kachumbari",
-  "kategoria": "Šalát",
-  "kuchyna": "Africká",
-  "zdroj": "Wikibooks Cookbook – Kachumbari (CC BY-SA)",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 50,
-  "popis": "Východoafrický salát z paradajok a červenej cibule s koriandrom a limetkou. Podáva sa k všetkému grilovanému.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "veľké, zrelé, na kocky"
-    },
-    {
-      "nazov": "Červená cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "veľká, nakrájaná natenko"
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "olúpaná, na kocky, voliteľné"
-    },
-    {
-      "nazov": "Chilli paprička",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "zelené, nasekané najemno, voliteľné"
-    },
-    {
-      "nazov": "Koriander",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "nasekaný čerstvý"
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "sok"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 0.5,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": 0.25,
-      "jednotka": "PL",
-      "poznamka": "voliteľné"
-    }
-  ],
-  "postup": [
-    "Vo miske jemne premiešaj všetky zložky, aby sa rovnomerne rozložili.",
-    "Nechaj salát 5-10 minút odstáť.",
-    "Ochutnaj a podľa potreby dochuť.",
-    "Podávaj čerstvý."
-  ],
-  "tipy": "Podľa chuti sa dá pridať avokádo, mango alebo paprika. Množstvo chilli si uprav. Čerstvý citrónový alebo limetkový sok dá výrazne jasnejšiu chuť než z fľašky.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "príloha",
-    "africká",
-    "paradajky",
-    "vegánske",
-    "rýchle",
-    "bez varenia"
-  ]
+ "id": "kachumbari",
+ "nazov": "Kachumbari",
+ "kategoria": "Šalát",
+ "kuchyna": "Africká",
+ "zdroj": "Wikibooks Cookbook – Kachumbari (CC BY-SA)",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 50,
+ "popis": "Východoafrický salát z paradajok a červenej cibule s koriandrom a limetkou. Podáva sa k všetkému grilovanému.",
+ "ingrediencie": [
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "veľké, zrelé, na kocky"
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "veľká, nakrájaná natenko"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "olúpaná, na kocky, voliteľné"
+  },
+  {
+   "nazov": "Chilli paprička",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "zelené, nasekané najemno, voliteľné"
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "nasekaný čerstvý"
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "sok"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 0.25,
+   "jednotka": "PL",
+   "poznamka": "voliteľné"
+  }
+ ],
+ "postup": [
+  "Vo miske jemne premiešaj všetky zložky, aby sa rovnomerne rozložili.",
+  "Nechaj salát 5-10 minút odstáť.",
+  "Ochutnaj a podľa potreby dochuť.",
+  "Podávaj čerstvý."
+ ],
+ "tipy": "Podľa chuti sa dá pridať avokádo, mango alebo paprika. Množstvo chilli si uprav. Čerstvý citrónový alebo limetkový sok dá výrazne jasnejšiu chuť než z fľašky.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "príloha",
+  "africká",
+  "paradajky",
+  "vegánske",
+  "rýchle",
+  "bez varenia"
+ ]
 }

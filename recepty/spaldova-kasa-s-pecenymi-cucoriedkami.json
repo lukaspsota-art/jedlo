@@ -1,30 +1,65 @@
 {
-  "id": "spaldova-kasa-s-pecenymi-cucoriedkami",
-  "nazov": "Špaldová kaša s pečenými čučoriedkami",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 2,
-  "cas": "45 min",
-  "kcal_na_porciu": 323,
-  "popis": "Teplá kaša zo špaldových vločiek s pečenými čučoriedkami a mandľovým maslom.",
-  "ingrediencie": [
-    {"nazov": "Špaldové vločky", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Čučoriedky", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mandľové mlieko", "mnozstvo": 250, "jednotka": "ml", "poznamka": "alebo iné"},
-    {"nazov": "Škorica", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Mandľové maslo", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Sezamové semienka", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""}
-  ],
-  "postup": [
-    "Rúru predhrejte na 175 °C.",
-    "Čučoriedky rozložte na plech vyložený papierom na pečenie a pečte 18-20 minút pri 165-175 °C.",
-    "V rendlíku zohrejte mandľové mlieko, tesne pred varom doň vsypte špaldové vločky.",
-    "Stiahnite plameň a miešajte, kým nevznikne hustá kaša.",
-    "Kašu odstavte, nechajte chvíľu vychladnúť a rozdeľte do dvoch misiek.",
-    "Na každú porciu dajte polovicu pečených čučoriedok, dozdobte lyžicou mandľového masla a posypte sezamom a škoricou."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["kaša", "raňajky", "čučoriedky", "špalda"]
+ "id": "spaldova-kasa-s-pecenymi-cucoriedkami",
+ "nazov": "Špaldová kaša s pečenými čučoriedkami",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 2,
+ "cas": "45 min",
+ "kcal_na_porciu": 323,
+ "popis": "Teplá kaša zo špaldových vločiek s pečenými čučoriedkami a mandľovým maslom.",
+ "ingrediencie": [
+  {
+   "nazov": "Špaldové vločky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čučoriedky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľové mlieko",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": "alebo iné"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľové maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamové semienka",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 175 °C.",
+  "Čučoriedky rozlož na plech vyložený papierom na pečenie a peč 18-20 minút pri 165-175 °C.",
+  "V rendlíku zohrej mandľové mlieko, tesne pred varom doň vsyp špaldové vločky.",
+  "Stiahni plameň a miešaj, kým nevznikne hustá kaša.",
+  "Kašu odstav, nechaj chvíľu vychladnúť a rozdeľ do dvoch misiek.",
+  "Na každú porciu daj polovicu pečených čučoriedok, dozdob lyžicou mandľového masla a posyp sezamom a škoricou."
+ ],
+ "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+ "foto": "",
+ "tagy": [
+  "kaša",
+  "raňajky",
+  "čučoriedky",
+  "špalda"
+ ]
 }

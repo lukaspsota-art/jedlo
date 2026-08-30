@@ -1,66 +1,66 @@
 {
-  "id": "pizza-rolky",
-  "nazov": "Pizza rolky",
-  "kategoria": "Snack",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Pizza Rollups (CC BY-SA)",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 388,
-  "popis": "Croissantové cesto stočené s pepperoni a provolone. Lacný snack, ktorý zvládnu aj deti.",
-  "ingrediencie": [
-    {
-      "nazov": "Croissantové cesto",
-      "mnozstvo": 230,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Saláma",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": "pepperoni, 24 plátkov"
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "provolone, štyri plátky"
-    },
-    {
-      "nazov": "Oregano",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rúru predhrej na 175 °C.",
-    "Rozbaľ dva trojuholníky cesta a polož ich na nevymastený plech proti sebe tak, aby po spojení okrajov vznikol štvorec.",
-    "Na každý obdĺžnik cesta polož 6 plátkov pepperoni.",
-    "Na pepperoni polož plátok provolone.",
-    "Posyp oreganom, bazalkou a prelisovaným cesnakom a každý zroluj do rolky.",
-    "Peč 12-15 minút."
-  ],
-  "tipy": "Korenie si namiešaj podľa chuti - anízom, feniklom alebo cesnakom. Rolky sú najlepšie hneď z rúry.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "americká",
-    "pečené",
-    "pre deti",
-    "lacné"
-  ]
+ "id": "pizza-rolky",
+ "nazov": "Pizza rolky",
+ "kategoria": "Snack",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Pizza Rollups (CC BY-SA)",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 388,
+ "popis": "Croissantové cesto stočené s pepperoni a provolone. Lacný snack, ktorý zvládnu aj deti.",
+ "ingrediencie": [
+  {
+   "nazov": "Croissantové cesto",
+   "mnozstvo": 230,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Saláma",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "pepperoni, 24 plátkov"
+  },
+  {
+   "nazov": "Syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "provolone, štyri plátky"
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 175 °C.",
+  "Rozbaľ dva trojuholníky cesta a polož ich na nevymastený plech proti sebe tak, aby po spojení okrajov vznikol štvorec.",
+  "Na každý obdĺžnik cesta polož 6 plátkov pepperoni.",
+  "Na pepperoni polož plátok provolone.",
+  "Posyp oreganom, bazalkou a prelisovaným cesnakom a každý zroluj do rolky.",
+  "Peč 12-15 minút."
+ ],
+ "tipy": "Korenie si namiešaj podľa chuti - anízom, feniklom alebo cesnakom. Rolky sú najlepšie hneď z rúry.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "americká",
+  "pečené",
+  "pre deti",
+  "lacné"
+ ]
 }

@@ -1,54 +1,54 @@
 {
-  "id": "chrumkave-kusky-z-bocika",
-  "nazov": "Chrumkavé kúsky z bôčika",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 600,
-  "popis": "Kocky bravčového bôčika z air fryera, chrumkavé a jemne sladké.",
-  "ingrediencie": [
-    {
-      "nazov": "Bravčového bôčika",
-      "mnozstvo": 700,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Repkového oleja",
-      "mnozstvo": 3,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "hnedý cukor",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Sušeného cesnaku",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "čierne korenie",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    }
-  ],
-  "postup": [
-    "Air fryer predhrej na 200 °C. Zmiešaj olej, cukor, cesnak, soľ a korenie. Pridaj kocky bôčika a obaľ. Ulož v jednej vrstve do koša (podľa potreby na dávky).",
-    "Peč 18–20 min. Počas pečenia niekoľkokrát pretras a otoč. Podávaj teplé."
-  ],
-  "tipy": "Bôčik pustí veľa tuku — kôš priebežne kontroluj.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "bravčové",
-    "air fryer"
-  ]
+ "id": "chrumkave-kusky-z-bocika",
+ "nazov": "Chrumkavé kúsky z bôčika",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 600,
+ "popis": "Kocky bravčového bôčika z air fryera, chrumkavé a jemne sladké.",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčového bôčika",
+   "mnozstvo": 700,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Repkového oleja",
+   "mnozstvo": 3,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "hnedý cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Sušeného cesnaku",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Air fryer predhrej na 200 °C. Zmiešaj olej, cukor, cesnak, soľ a korenie. Pridaj kocky bôčika a obaľ. Ulož v jednej vrstve do koša (podľa potreby na dávky).",
+  "Peč 18–20 min. Počas pečenia niekoľkokrát pretras a otoč. Podávaj teplé."
+ ],
+ "tipy": "Bôčik pustí veľa tuku — kôš priebežne kontroluj.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "bravčové",
+  "air fryer"
+ ]
 }

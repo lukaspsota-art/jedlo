@@ -1,61 +1,61 @@
 {
-  "id": "uhorkovo-redkovkovy-salat",
-  "nazov": "Uhorkovo-reďkovkový salát",
-  "kategoria": "Šalát",
-  "kuchyna": "Ruská",
-  "zdroj": "Wikibooks Cookbook – Cucumber and Radish Salad (CC BY-SA)",
-  "porcie": 2,
-  "cas": "10 min",
-  "kcal_na_porciu": 39,
-  "popis": "Uhorka a reďkovky nakrájané na kocky s jarnou cibuľkou a lyžicou kyslej smotany.",
-  "ingrediencie": [
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 140,
-      "jednotka": "g",
-      "poznamka": "nakladačka"
-    },
-    {
-      "nazov": "Reďkovky",
-      "mnozstvo": 140,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jarná cibuľka",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kyslá smotana",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Uhorky a reďkovky nakrájaj na malé kocky, približne 6 mm.",
-    "Nasekaj jarnú cibuľku.",
-    "Všetko zmiešaj v miske vhodnej veľkosti.",
-    "Pridaj kyslú smotanu a poriadne premiešaj.",
-    "Osoľ podľa chuti a znova premiešaj."
-  ],
-  "tipy": "Najlepší je hneď po príprave - zelenina rýchlo pustí vodu.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "príloha",
-    "ruská",
-    "uhorka",
-    "reďkovky",
-    "rýchle",
-    "bez varenia"
-  ]
+ "id": "uhorkovo-redkovkovy-salat",
+ "nazov": "Uhorkovo-reďkovkový salát",
+ "kategoria": "Šalát",
+ "kuchyna": "Ruská",
+ "zdroj": "Wikibooks Cookbook – Cucumber and Radish Salad (CC BY-SA)",
+ "porcie": 2,
+ "cas": "10 min",
+ "kcal_na_porciu": 39,
+ "popis": "Uhorka a reďkovky nakrájané na kocky s jarnou cibuľkou a lyžicou kyslej smotany.",
+ "ingrediencie": [
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 140,
+   "jednotka": "g",
+   "poznamka": "nakladačka"
+  },
+  {
+   "nazov": "Reďkovky",
+   "mnozstvo": 140,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Uhorky a reďkovky nakrájaj na malé kocky, približne 6 mm.",
+  "Nasekaj jarnú cibuľku.",
+  "Všetko zmiešaj v miske vhodnej veľkosti.",
+  "Pridaj kyslú smotanu a poriadne premiešaj.",
+  "Osoľ podľa chuti a znova premiešaj."
+ ],
+ "tipy": "Najlepší je hneď po príprave - zelenina rýchlo pustí vodu.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "príloha",
+  "ruská",
+  "uhorka",
+  "reďkovky",
+  "rýchle",
+  "bez varenia"
+ ]
 }

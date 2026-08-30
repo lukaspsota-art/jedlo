@@ -4,7 +4,14 @@ Appka je pripravená ako **PWA** (dá sa nainštalovať a funguje offline) a má
 
 ## Krok 1 — dať appku online (10 min, zadarmo)
 
-Potrebné súbory (celý priečinok): `kucharka.html`, `sw.js`, priečinky `recepty/` a `data/` (a `sync-config.js`, ak ho vytvoríš v kroku 2).
+Potrebné súbory: **`kucharka.html` + `sw.js`** (a `sync-config.js`, ak ho vytvoríš v kroku 2).
+`kucharka.html` je jeden samostatný súbor — recepty aj databázu potravín má v sebe, priečinky
+`recepty/` a `data/` na hosting **netreba**. Bez `sw.js` vedľa nej appka nebude fungovať offline.
+
+Pre GitHub Pages je všetko pripravené v priečinku **`docs/`** — `python3 generuj_kucharku.py`
+tam sám skopíruje `index.html`, `sw.js` aj `sync-config.js` (ak existuje).
+`docs/index.html` a `docs/sw.js` sú vygenerované súbory a v repozitári nie sú — pri hostovaní
+cez GitHub Pages ich po builde commitni (`git add docs/index.html docs/sw.js`).
 
 Najjednoduchšie cez **Netlify Drop**:
 1. Choď na https://app.netlify.com/drop
@@ -16,13 +23,26 @@ Alternatívy: GitHub Pages, Cloudflare Pages, Vercel — čokoľvek, čo servír
 
 > Po tomto kroku máš appku všade, ale obľúbené/plán sú stále uložené v každom zariadení zvlášť. Na spoločné dáta pokračuj krokom 2.
 
+### Ako sa appka aktualizuje po novom builde
+`sw.js` drží dokument v režime **stale-while-revalidate**:
+
+1. Appka sa otvorí **okamžite z cache** (aj offline, aj na pomalých dátach — `kucharka.html` má ~4,7 MB).
+2. Na pozadí sa podmieneným requestom overí, či server nemá novšiu verziu. Ak nie, vráti sa 304 a nesťahuje sa nič.
+3. Keď nový build existuje, stiahne sa na pozadí a appka ukáže hlášku
+   *„🔄 Stiahla sa nová verzia kuchárky — obnov stránku a načíta sa."*
+4. Po obnovení stránky beží nová verzia.
+
+Používateľ teda **nikdy neuviazne na starej verzii** a zároveň nečaká na 4,7 MB pri každom spustení.
+Cache sa volá `kucharka-<VERZIA>`; konštantu `VERZIA` v `sw.js` treba zvýšiť len vtedy, keď chceš
+vynútiť vyhodenie celej starej cache (zmena stratégie, poškodený obsah) — na bežnú zmenu obsahu nie.
+
 ## Krok 2 — synchronizácia dát (Supabase, zadarmo)
 
 Toto musíš spraviť ty (vytvorenie účtu a kľúčov neviem urobiť za teba), ja som appku už pripravil.
 
 1. Vytvor si zadarmo účet na https://supabase.com a nový projekt.
 2. V **Settings → API** skopíruj **Project URL** a **anon public** kľúč.
-3. V priečinku Jedlo vytvor súbor **`sync-config.js`** s týmto obsahom (doplň svoje `url` a `key`):
+3. Skopíruj **`sync-config.example.js`** ako **`sync-config.js`** a doplň svoje `url` a `key`:
    ```js
    window.SYNC_CONFIG = {
      url: "https://TVOJ-PROJEKT.supabase.co",  // Settings -> API -> Project URL
@@ -30,7 +50,8 @@ Toto musíš spraviť ty (vytvorenie účtu a kľúčov neviem urobiť za teba),
      id:  ""                                    // pri prihlásení (Krok 3) sa nepoužíva
    };
    ```
-   Pre hosting na GitHub Pages skopíruj ten istý súbor aj do **`docs/sync-config.js`** (Pages beží z priečinka `docs/`).
+   Do `docs/` ho kopírovať netreba — spraví to `generuj_kucharku.py`.
+   Oba súbory (`sync-config.js` aj `docs/sync-config.js`) sú v `.gitignore`.
 4. Nahraj/aktualizuj na hosting (krok 1). Prihlásenie a skupiny nastavíš v **Kroku 3**.
 
 > Anon kľúč je verejný (patrí do frontendu), commit do repa je v poriadku. Tvoje dáta chráni prihlásenie + RLS (Krok 3).
@@ -95,7 +116,25 @@ Toto pridá prihlásenie a „skupiny": pozvaný člen uvidí a môže upravova�
 
 > Prístup k zdieľaným dátam chráni prihlásenie + kód skupiny. Zmeny fungujú štýlom „posledná úprava vyhráva" — pre 2–4-člennú domácnosť to stačí.
 
+### Čo sa stane pri výpadku siete a pri konflikte
+- **Výpadok počas ukladania:** zmena ostane v `localStorage` a označí sa ako nenahratá.
+  Appka ju dotlačí sama, keď sa sieť vráti (`online`) alebo keď sa vrátiš na kartu s appkou.
+  Dovtedy svieti stav „🔴 Chyba synchronizácie" / „⚪ Offline".
+- **Kým máš nenahraté zmeny, appka nesťahuje serverovú verziu** — inak by ti prepísala to,
+  čo si práve odškrtol v obchode. Najprv sa nahrá tvoja zmena, potom sa ťahá.
+- **Konflikt (zmena na PC aj na mobile súčasne):** vyhráva ten, kto uložil **neskôr**, a to
+  **celým blokom** — plán, nákup a špajza sa prenášajú ako jeden celok. Ak teda jeden odškrtne
+  „mlieko" a druhý v tej istej chvíli „chlieb", ostane len jedna z tých zmien.
+  Pre domácnosť, kde sa nakupuje po jednom, to stačí; pre súbežné odškrtávanie by bolo treba
+  zlučovanie po položkách (otvorené, viď report).
+- **Obľúbené, poznámky, váhy a TDEE profil** sú osobné (tabuľka `pouzivatel_data`)
+  a synchronizujú sa len medzi tvojimi zariadeniami, nie so skupinou.
+
 ## Poznámky
-- Bez `sync-config.js` appka beží úplne normálne, len bez synchronizácie.
+- Bez `sync-config.js` appka beží úplne normálne, len bez synchronizácie (overené: appka sa
+  načíta, funguje offline a v Nastaveniach píše „Nie je nastavená — dáta sú len v tomto zariadení").
+- **Pred každým `git push` spusti `python3 scripts/kontrola_tajomstiev.py`.** Prehľadá repozitár
+  vrátane `kucharka.html` a `docs/` (GitHub Pages je verejné!) a padne, ak nájde Supabase URL,
+  JWT, servisný kľúč alebo vyplnené Sync ID v súbore, ktorý nie je v `.gitignore`.
 - Zálohu dát máš aj tak v Nastaveniach (export/import do súboru).
 - Ak chceš, s nastavením Supabase ti v ďalšom kroku pomôžem krok za krokom.

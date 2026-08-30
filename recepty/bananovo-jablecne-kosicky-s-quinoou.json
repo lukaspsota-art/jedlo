@@ -1,34 +1,79 @@
 {
-  "id": "bananovo-jablecne-kosicky-s-quinoou",
-  "nazov": "Banánovo-jablčné košíčky s quinoou",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 12,
-  "cas": "45 min",
-  "kcal_na_porciu": 191,
-  "popis": "Zdravé muffiny z banánu, jablka a quinoy s ovsenými vločkami.",
-  "ingrediencie": [
-    {"nazov": "Quinoa", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Jablko stredné", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Banán", "mnozstvo": 3, "jednotka": "ks"},
-    {"nazov": "Jablčné pyré bez cukru", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Ovsené vločky", "mnozstvo": 300, "jednotka": "g"},
-    {"nazov": "Mlieko", "mnozstvo": 100, "jednotka": "ml"},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Škorica", "mnozstvo": 1, "jednotka": "ČL"}
-  ],
-  "postup": [
-    "Quinou uvarte podľa návodu na obale, rúru predhrejte na 180 °C.",
-    "Jablko nastrúhajte, banány rozmačkajte vidličkou.",
-    "Do misy pridajte jablčné pyré, med, vanilkový extrakt, ovsené vločky, scedenú quinou, mlieko, vajce a škoricu.",
-    "Všetko dôkladne premiešajte na cesto.",
-    "Rozdeľte rovnomerne do 12 košíčkov na muffiny.",
-    "Pečte 25–30 minút pri 170–180 °C."
-  ],
-  "tipy": "Zvyšnú ryžu od obeda môžete použiť namiesto quinoy.",
-  "foto": "",
-  "tagy": ["dezert", "muffiny", "quinoa", "banán"]
+ "id": "bananovo-jablecne-kosicky-s-quinoou",
+ "nazov": "Banánovo-jablčné košíčky s quinoou",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 12,
+ "cas": "45 min",
+ "kcal_na_porciu": 191,
+ "popis": "Zdravé muffiny z banánu, jablka a quinoy s ovsenými vločkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Quinoa",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Jablko stredné",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Jablčné pyré bez cukru",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 300,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 100,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Quinou uvar podľa návodu na obale, rúru predhrej na 180 °C.",
+  "Jablko nastrúhaj, banány rozmačkaj vidličkou.",
+  "Do misy pridaj jablčné pyré, med, vanilkový extrakt, ovsené vločky, scedenú quinou, mlieko, vajce a škoricu.",
+  "Všetko dôkladne premiešaj na cesto.",
+  "Rozdeľ rovnomerne do 12 košíčkov na muffiny.",
+  "Peč 25–30 minút pri 170–180 °C."
+ ],
+ "tipy": "Zvyšnú ryžu od obeda môžete použiť namiesto quinoy.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "muffiny",
+  "quinoa",
+  "banán"
+ ]
 }

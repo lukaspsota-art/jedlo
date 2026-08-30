@@ -6,7 +6,7 @@
   "zdroj": "Kaufland FOOD magazín",
   "porcie": 2,
   "cas": "60 min",
-  "kcal_na_porciu": 520,
+  "kcal_na_porciu": 779,
   "popis": "Marinované grilované tofu špízy s krémovou arašidovou omáčkou, koriandrom a limetkou.",
   "ingrediencie": [
     {
@@ -90,5 +90,6 @@
     "tofu",
     "vegán",
     "grilované"
-  ]
+  ],
+  "kcal_zdroj": "vypocet"
 }

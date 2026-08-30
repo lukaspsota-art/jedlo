@@ -1,33 +1,84 @@
 {
-  "id": "brokolicovy-salat-jablko",
-  "nazov": "Brokolicový salát s jablkom",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "16 min",
-  "kcal_na_porciu": 333,
-  "popis": "Šalát z blanšírovanej brokolice a jablka s arašidovo-medovým dresingom.",
-  "ingrediencie": [
-    { "nazov": "Brokolicové ružičky", "mnozstvo": 300, "jednotka": "g" },
-    { "nazov": "Jablko", "mnozstvo": 1, "jednotka": "ks" },
-    { "nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks" },
-    { "nazov": "Nasekané mandle", "mnozstvo": 50, "jednotka": "g" },
-    { "nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka", "poznamka": "dresing" },
-    { "nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": "dresing" },
-    { "nazov": "Arašidové maslo", "mnozstvo": 60, "jednotka": "g", "poznamka": "dresing" },
-    { "nazov": "Citrónová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z 1 citróna, dresing" },
-    { "nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": "dresing" },
-    { "nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL", "poznamka": "dresing" }
-  ],
-  "postup": [
-    "Ružičky brokolice obar cca 1 minútu v osolenej vriacej vode, daj do misy.",
-    "Jablko nakrájaj na plátky, šalotku na polmesiačiky, primiešaj k brokolici.",
-    "Všetky surové na dresing rozmixuj do hladka.",
-    "Rozdeľ na 4 porcie, zalej dresingom a posyp nasekanými mandľami.",
-    "Prípadne dochuť soľou a korením."
-  ],
-  "tipy": "Šalát podávaj s natvrdo uvarenými vajcami alebo trhaným kuracím mäsom.",
-  "foto": "",
-  "tagy": ["šalát", "brokolica", "jablko", "arašidy"]
+ "id": "brokolicovy-salat-jablko",
+ "nazov": "Brokolicový salát s jablkom",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "16 min",
+ "kcal_na_porciu": 333,
+ "popis": "Šalát z blanšírovanej brokolice a jablka s arašidovo-medovým dresingom.",
+ "ingrediencie": [
+  {
+   "nazov": "Brokolicové ružičky",
+   "mnozstvo": 300,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Nasekané mandle",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": "dresing"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "dresing"
+  },
+  {
+   "nazov": "Arašidové maslo",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "dresing"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "z 1 citróna, dresing"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "dresing"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "dresing"
+  }
+ ],
+ "postup": [
+  "Ružičky brokolice obar cca 1 minútu v osolenej vriacej vode, daj do misy.",
+  "Jablko nakrájaj na plátky, šalotku na polmesiačiky, primiešaj k brokolici.",
+  "Všetky surové na dresing rozmixuj do hladka.",
+  "Rozdeľ na 4 porcie, zalej dresingom a posyp nasekanými mandľami.",
+  "Prípadne dochuť soľou a korením."
+ ],
+ "tipy": "Šalát podávaj s natvrdo uvarenými vajcami alebo trhaným kuracím mäsom.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "brokolica",
+  "jablko",
+  "arašidy"
+ ]
 }

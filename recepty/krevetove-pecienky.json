@@ -1,31 +1,75 @@
 {
-  "id": "krevetove-pecienky",
-  "nazov": "Krevetové pečienky",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 252,
-  "popis": "Pečené krevetové placky obalené v panko strúhanke s kurkumou a pažítkou.",
-  "ingrediencie": [
-    {"nazov": "Krevety", "mnozstvo": 250, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Panko strúhanka", "mnozstvo": 100, "jednotka": "g", "poznamka": "alebo ovsené vločky"},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Kurkuma", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Čerstvá nasekaná pažítka", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 170 °C.",
-    "Krevety rozmixujte v mixéri na hrudkovitú konzistenciu, nie na kašu.",
-    "V mise zmiešajte krevety s panko strúhankou, soľou, korením, vajcami, olejom, kurkumou a pažítkou.",
-    "Zo zmesi vytvarujte asi 12 placiek.",
-    "Uložte na plech vyložený papierom na pečenie a pečte 20 minút pri 160-170 °C."
-  ],
-  "tipy": "Podávajte s dipom zo 200 g zakysanej smotany, štipky soli a nasekaného čerstvého kôpru.",
-  "foto": "",
-  "tagy": ["krevety", "pečienky", "morské plody"]
+ "id": "krevetove-pecienky",
+ "nazov": "Krevetové pečienky",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 252,
+ "popis": "Pečené krevetové placky obalené v panko strúhanke s kurkumou a pažítkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Krevety",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Panko strúhanka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "alebo ovsené vločky"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kurkuma",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá nasekaná pažítka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 170 °C.",
+  "Krevety rozmixuj v mixéri na hrudkovitú konzistenciu, nie na kašu.",
+  "V mise zmiešaj krevety s panko strúhankou, soľou, korením, vajcami, olejom, kurkumou a pažítkou.",
+  "Zo zmesi vytvaruj asi 12 placiek.",
+  "Ulož na plech vyložený papierom na pečenie a peč 20 minút pri 160-170 °C."
+ ],
+ "tipy": "Podávaj s dipom zo 200 g zakysanej smotany, štipky soli a nasekaného čerstvého kôpru.",
+ "foto": "",
+ "tagy": [
+  "krevety",
+  "pečienky",
+  "morské plody"
+ ]
 }

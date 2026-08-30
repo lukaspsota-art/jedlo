@@ -1,29 +1,73 @@
 {
-  "id": "chilli-hummus",
-  "nazov": "Chilli hummus",
-  "kategoria": "Nátierka",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "5 min",
-  "kcal_na_porciu": 418,
-  "popis": "Pikantný hummus z cíceru s kokosovým mliekom, tahini a čili.",
-  "ingrediencie": [
-    {"nazov": "Predvarený cícer", "mnozstvo": 400, "jednotka": "g"},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik"},
-    {"nazov": "Citrónová šťava", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Tahini", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Kokosové mlieko", "mnozstvo": 100, "jednotka": "g", "poznamka": "z plechovky"},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Sušené čili", "mnozstvo": 0.5, "jednotka": "ČL"}
-  ],
-  "postup": [
-    "Všetky ingrediencie rozmixujte nahladko.",
-    "Pomazánku prípadne zrieďte pár lyžicami vody."
-  ],
-  "tipy": "Skúste hummus dochutiť 1 ČL sladkej papriky.",
-  "foto": "",
-  "tagy": ["hummus", "cícer", "nátierka", "čili"]
+ "id": "chilli-hummus",
+ "nazov": "Chilli hummus",
+ "kategoria": "Nátierka",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "5 min",
+ "kcal_na_porciu": 418,
+ "popis": "Pikantný hummus z cíceru s kokosovým mliekom, tahini a čili.",
+ "ingrediencie": [
+  {
+   "nazov": "Predvarený cícer",
+   "mnozstvo": 400,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Tahini",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "z plechovky"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Sušené čili",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie rozmixuj nahladko.",
+  "Pomazánku prípadne zrieď pár lyžicami vody."
+ ],
+ "tipy": "Skús hummus dochutiť 1 ČL sladkej papriky.",
+ "foto": "",
+ "tagy": [
+  "hummus",
+  "cícer",
+  "nátierka",
+  "čili"
+ ]
 }

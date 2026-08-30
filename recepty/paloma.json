@@ -1,35 +1,37 @@
 {
- "id": "paloma",
- "nazov": "Paloma",
- "kategoria": "Kokteil",
- "kuchyna": "Mexická",
- "zdroj": "TheCocktailDB – Paloma",
- "zdroj_url": "https://www.thecocktaildb.com/drink/17253",
- "porcie": 1,
- "cas": "5 min",
- "popis": "Cocktail · Collins glass",
- "ingrediencie": [
-  {
-   "nazov": "Grape Soda",
-   "mnozstvo": 88.7,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tequila",
-   "mnozstvo": 44.4,
-   "jednotka": "ml",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Premiešame a podávame na ľade."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "kokteil",
-  "tequila",
-  "mexické"
- ]
+  "id": "paloma",
+  "nazov": "Paloma",
+  "kategoria": "Kokteil",
+  "kuchyna": "Mexická",
+  "zdroj": "TheCocktailDB – Paloma",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17253",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Kokteil. Základ: grape Soda, tequila. Podávaj vo vysokom pohári collins.",
+  "ingrediencie": [
+    {
+      "nazov": "Grape Soda",
+      "mnozstvo": 88.7,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 44.4,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Premiešaj a podávaj na ľade."
+  ],
+  "tipy": "Pohár vychlaď vopred. Vo vlažnom pohári kokteil rýchlo zovšednie a chutí sladšie, než má.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "tequila",
+    "mexické"
+  ],
+  "kcal_na_porciu": 97,
+  "kcal_zdroj": "vypocet"
 }

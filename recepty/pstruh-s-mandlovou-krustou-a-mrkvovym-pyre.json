@@ -1,32 +1,87 @@
 {
-  "id": "pstruh-s-mandlovou-krustou-a-mrkvovym-pyre",
-  "nazov": "Pstruh s mandľovou krustou a mrkvovým pyré",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 420,
-  "popis": "Opečené filety pstruha v mandľovej kôrke podávané s krémovým pyré z mrkvy a chilli.",
-  "ingrediencie": [
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Dijonská horčica", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Filety z pstruha", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Mleté mandle", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mrkva", "mnozstvo": 600, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mleté chilli", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Teplé mlieko", "mnozstvo": 100, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Mrkvu očistite, párkrát narežte a varte v osolenej vode do mäkka.",
-    "Filety pstruha umyte, potrite dijonskou horčicou a obaľte v mletých mandľiach.",
-    "Na rozohriatom oleji opekajte filety kožou nadol 2-3 minúty, potom otočte a opekajte ešte 2 minúty.",
-    "Uvarenú mrkvu sceďte a rozmixujte tyčovým mixérom s chilli, soľou, korením, maslom a teplým mliekom."
-  ],
-  "tipy": "Pstruha pred podávaním posypte nasucho opraženými plátkami mandlí pre krehkejšiu kôrku.",
-  "foto": "",
-  "tagy": ["pstruh", "mandle", "mrkva", "ryba"]
+ "id": "pstruh-s-mandlovou-krustou-a-mrkvovym-pyre",
+ "nazov": "Pstruh s mandľovou krustou a mrkvovým pyré",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 420,
+ "popis": "Opečené filety pstruha v mandľovej kôrke podávané s krémovým pyré z mrkvy a chilli.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Dijonská horčica",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Filety z pstruha",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté mandle",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté chilli",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prepustené maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Teplé mlieko",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Mrkvu očisti, párkrát narež a var v osolenej vode do mäkka.",
+  "Filety pstruha umy, potri dijonskou horčicou a obaľ v mletých mandľiach.",
+  "Na rozohriatom oleji opekaj filety kožou nadol 2-3 minúty, potom otoč a opekaj ešte 2 minúty.",
+  "Uvarenú mrkvu sceď a rozmixuj tyčovým mixérom s chilli, soľou, korením, maslom a teplým mliekom."
+ ],
+ "tipy": "Pstruha pred podávaním posyp nasucho opraženými plátkami mandlí pre krehkejšiu kôrku.",
+ "foto": "",
+ "tagy": [
+  "pstruh",
+  "mandle",
+  "mrkva",
+  "ryba"
+ ]
 }

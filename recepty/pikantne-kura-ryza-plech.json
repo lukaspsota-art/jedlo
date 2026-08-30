@@ -1,84 +1,84 @@
 {
-  "id": "pikantne-kura-ryza-plech",
-  "nazov": "Pikantné kura s ryžou z plechu",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jamie Oliver",
-  "porcie": 4,
-  "cas": "65 min",
-  "kcal_na_porciu": 520,
-  "popis": "Kuracie stehná s kajunským korením pečené na plechu spolu s ryžou, paprikou a kukuricou.",
-  "ingrediencie": [
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "červené"
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": "mix farieb"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Kuracie stehná",
-      "mnozstvo": 8,
-      "jednotka": "ks",
-      "poznamka": "s kosťou a kožou"
-    },
-    {
-      "nazov": "Cajun korenie",
-      "mnozstvo": 3,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Ryža",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": "dlhozrnná"
-    },
-    {
-      "nazov": "Kukurica",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "klásky"
-    },
-    {
-      "nazov": "Peri-peri omáčka",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Biely jogurt",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 600,
-      "jednotka": "ml",
-      "poznamka": "vriaca"
-    }
-  ],
-  "postup": [
-    "Rúru na 180 °C. Cibule nakrájaj na osminky, papriky natrhaj na veľké kusy.",
-    "Do pekáča daj kuracie stehná, zeleninu, cajun korenie a olej. Premiešaj a kura otoč kožou nahor.",
-    "Peč 40 minút.",
-    "Okolo kuraťa rozsyp ryžu, prilej vriacu vodu, vlož kukuričné klásky a prikry alobalom.",
-    "Vráť do rúry na 20 minút, kým ryža nasiakne.",
-    "Dochuť, podávaj s peri-peri omáčkou a jogurtom."
-  ],
-  "tipy": "Alobal drž tesne, aby sa ryža uvarila v pare.",
-  "foto": "",
-  "tagy": [
-    "kura",
-    "plech",
-    "ryža"
-  ]
+ "id": "pikantne-kura-ryza-plech",
+ "nazov": "Pikantné kura s ryžou z plechu",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jamie Oliver",
+ "porcie": 4,
+ "cas": "65 min",
+ "kcal_na_porciu": 520,
+ "popis": "Kuracie stehná s kajunským korením pečené na plechu spolu s ryžou, paprikou a kukuricou.",
+ "ingrediencie": [
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "červené"
+  },
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "mix farieb"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Kuracie stehná",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": "s kosťou a kožou"
+  },
+  {
+   "nazov": "Cajun korenie",
+   "mnozstvo": 3,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Ryža",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "dlhozrnná"
+  },
+  {
+   "nazov": "Kukurica",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "klásky"
+  },
+  {
+   "nazov": "Peri-peri omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Biely jogurt",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 600,
+   "jednotka": "ml",
+   "poznamka": "vriaca"
+  }
+ ],
+ "postup": [
+  "Rúru na 180 °C. Cibule nakrájaj na osminky, papriky natrhaj na veľké kusy.",
+  "Do pekáča daj kuracie stehná, zeleninu, cajun korenie a olej. Premiešaj a kura otoč kožou nahor.",
+  "Peč 40 minút.",
+  "Okolo kuraťa rozsyp ryžu, prilej vriacu vodu, vlož kukuričné klásky a prikry alobalom.",
+  "Vráť do rúry na 20 minút, kým ryža nasiakne.",
+  "Dochuť, podávaj s peri-peri omáčkou a jogurtom."
+ ],
+ "tipy": "Alobal drž tesne, aby sa ryža uvarila v pare.",
+ "foto": "",
+ "tagy": [
+  "kura",
+  "plech",
+  "ryža"
+ ]
 }

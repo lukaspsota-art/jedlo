@@ -1,38 +1,108 @@
 {
-  "id": "mrkvova-rolada",
-  "nazov": "Mrkvová roláda",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 10,
-  "cas": "45 min",
-  "kcal_na_porciu": 160,
-  "popis": "Kypká mrkvová roláda plnená tvarohovo-smotanovým krémom.",
-  "ingrediencie": [
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 110, "jednotka": "g", "poznamka": "na cesto"},
-    {"nazov": "Prášok do pečiva", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na cesto"},
-    {"nazov": "Mletá škorica", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "na cesto"},
-    {"nazov": "Mletý zázvor", "mnozstvo": 0.25, "jednotka": "ČL", "poznamka": "na cesto"},
-    {"nazov": "Vajce", "mnozstvo": 3, "jednotka": "ks", "poznamka": "na cesto"},
-    {"nazov": "Med", "mnozstvo": 70, "jednotka": "g", "poznamka": "na cesto"},
-    {"nazov": "Mlieko", "mnozstvo": 100, "jednotka": "ml", "poznamka": "na cesto"},
-    {"nazov": "Mrkva", "mnozstvo": 150, "jednotka": "g", "poznamka": "nastrúhaná a vysušená"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Smotanový syr", "mnozstvo": 150, "jednotka": "g", "poznamka": "na náplň"},
-    {"nazov": "Tvaroh", "mnozstvo": 200, "jednotka": "g", "poznamka": "na náplň"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na náplň"},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "na náplň"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 175 °C.",
-    "Múku preosejte, zmiešajte s práškom do pečiva, soľou, škoricou a zázvorom.",
-    "Vajcia vyšľahajte s medom a mliekom, spojte s múčnou zmesou a primiešajte mrkvu.",
-    "Cesto nalejte do formy 25x35 cm vyloženej papierom a pečte 12-18 minút pri 165-175 °C.",
-    "Medzitým vyšľahajte smotanový syr, tvaroh, med a vanilku na náplň.",
-    "Upečený korpus preložte na navlhčenú utierku, zrolujte a necháte zabalené aspoň 5 minút.",
-    "Cesto rozbaľte, natrite krémom, znova zrolujte a dajte aspoň na 1 hodinu do chladničky."
-  ],
-  "tipy": "Ľahšiu verziu urobíte, ak náplň pripravíte len z tvarohu dosladeného stéviou.",
-  "foto": "",
-  "tagy": ["roláda", "mrkva", "tvaroh", "dezert"]
+ "id": "mrkvova-rolada",
+ "nazov": "Mrkvová roláda",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 10,
+ "cas": "45 min",
+ "kcal_na_porciu": 160,
+ "popis": "Kypká mrkvová roláda plnená tvarohovo-smotanovým krémom.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 110,
+   "jednotka": "g",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Mletý zázvor",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "nastrúhaná a vysušená"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "na náplň"
+  },
+  {
+   "nazov": "Tvaroh",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "na náplň"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na náplň"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na náplň"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 175 °C.",
+  "Múku preosej, zmiešaj s práškom do pečiva, soľou, škoricou a zázvorom.",
+  "Vajcia vyšľahaj s medom a mliekom, spoj s múčnou zmesou a primiešaj mrkvu.",
+  "Cesto nalej do formy 25x35 cm vyloženej papierom a peč 12-18 minút pri 165-175 °C.",
+  "Medzitým vyšľahaj smotanový syr, tvaroh, med a vanilku na náplň.",
+  "Upečený korpus prelož na navlhčenú utierku, zroluj a nechaj zabalené aspoň 5 minút.",
+  "Cesto rozbaľ, natri krémom, znova zroluj a daj aspoň na 1 hodinu do chladničky."
+ ],
+ "tipy": "Ľahšiu verziu urobíte, ak náplň pripravíte len z tvarohu dosladeného stéviou.",
+ "foto": "",
+ "tagy": [
+  "roláda",
+  "mrkva",
+  "tvaroh",
+  "dezert"
+ ]
 }

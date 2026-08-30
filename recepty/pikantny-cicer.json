@@ -1,27 +1,57 @@
 {
-  "id": "pikantny-cicer",
-  "nazov": "Pikantný cícer",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 140,
-  "popis": "Chrumkavý pečený cícer korenený paprikou a kurkumou.",
-  "ingrediencie": [
-    {"nazov": "Cícer", "mnozstvo": 400, "jednotka": "g", "poznamka": "z konzervy"},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Pálivá paprika", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Kurkuma", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""}
-  ],
-  "postup": [
-    "Rúru predhrejte na 170 °C.",
-    "Cícer scedite, dajte do misky a premiešajte s olejom, paprikou, kurkumou a soľou.",
-    "Rozprestrite rovnomerne na plech s papierom na pečenie.",
-    "Pečte pri 160-170 °C asi 40 minút, počas pečenia dvakrát premiešajte."
-  ],
-  "tipy": "Pikantný cícer podávajte samostatne alebo k zeleninovému šalátu.",
-  "foto": "",
-  "tagy": ["cícer", "snack", "pečené", "strukoviny"]
+ "id": "pikantny-cicer",
+ "nazov": "Pikantný cícer",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 140,
+ "popis": "Chrumkavý pečený cícer korenený paprikou a kurkumou.",
+ "ingrediencie": [
+  {
+   "nazov": "Cícer",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "z konzervy"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pálivá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kurkuma",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 170 °C.",
+  "Cícer scedi, daj do misky a premiešaj s olejom, paprikou, kurkumou a soľou.",
+  "Rozprestri rovnomerne na plech s papierom na pečenie.",
+  "Peč pri 160-170 °C asi 40 minút, počas pečenia dvakrát premiešaj."
+ ],
+ "tipy": "Pikantný cícer podávaj samostatne alebo k zeleninovému šalátu.",
+ "foto": "",
+ "tagy": [
+  "cícer",
+  "snack",
+  "pečené",
+  "strukoviny"
+ ]
 }

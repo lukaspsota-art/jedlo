@@ -1,29 +1,64 @@
 {
-  "id": "zapecene-avokado-s-vajcom",
-  "nazov": "Zapečené avokádo s vajcom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 2,
-  "cas": "25 min",
-  "kcal_na_porciu": 319,
-  "popis": "Polovice avokáda naplnené vajcom a cherry paradajkami zapečené v rúre.",
-  "ingrediencie": [
-    {"nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Cherry paradajky", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Sušený koriander", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
-    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rozohrej rúru na 190 °C.",
-    "Avokádo rozpoly a vyber kôstku.",
-    "Uprostred oboch polovíc vykroj lyžičkou väčšiu jamku.",
-    "Do každej vklop vajce, nakrájané cherry paradajky a posyp soľou, korením a koriandrom.",
-    "Pečieme na 180-190 °C cca 20 minút."
-  ],
-  "tipy": "Avokádo môžeš zapiecť napríklad s mozzarellou a šunkou.",
-  "foto": "",
-  "tagy": ["raňajky", "avokádo", "vajce", "zapečené"]
+ "id": "zapecene-avokado-s-vajcom",
+ "nazov": "Zapečené avokádo s vajcom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 2,
+ "cas": "25 min",
+ "kcal_na_porciu": 319,
+ "popis": "Polovice avokáda naplnené vajcom a cherry paradajkami zapečené v rúre.",
+ "ingrediencie": [
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cherry paradajky",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený koriander",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rozohrej rúru na 190 °C.",
+  "Avokádo rozpoly a vyber kôstku.",
+  "Uprostred oboch polovíc vykroj lyžičkou väčšiu jamku.",
+  "Do každej vklop vajce, nakrájané cherry paradajky a posyp soľou, korením a koriandrom.",
+  "Peč na 180-190 °C cca 20 minút."
+ ],
+ "tipy": "Avokádo môžeš zapiecť napríklad s mozzarellou a šunkou.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "avokádo",
+  "vajce",
+  "zapečené"
+ ]
 }

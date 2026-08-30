@@ -1,58 +1,59 @@
 {
- "id": "bobova-prazenica",
- "nazov": "Bôbová praženica",
- "kategoria": "Raňajky",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Bôbová praženica (fotorecept) (autor: hubarka35)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/bobova-prazenica-fotorecept/18061-recept.html",
- "porcie": 2,
- "cas": "30 min",
- "kcal_na_porciu": 237,
- "popis": "Kedže som sa dostala k bôbu suchému-zasadila som ho do záhrady-mám ho dost-popri \r\ncelom plote nasadený-nikdy som z bôbu nevarila nič,jedlo navyzerá moc vábne no chuti na \r\nmoje prekvapenie skvele....",
- "ingrediencie": [
-  {
-   "nazov": "Čerstvý bôb",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "oberieme mladé bôbové lusky",
-  "všetko pekne vylúpeme",
-  "Bôb som povarila v osolenej vode,po uvarení tá šupka mi nejak nešmakovala tak som ho povytlačala von zo šupky-išlo to rychlo.",
-  "na panvici som rozohriala olej,pridala bôb a vajcia.",
-  "a tu je bôbopraženička na večeru.."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "raňajky",
-  "vajcia",
-  "bezmäsité"
- ]
+  "id": "bobova-prazenica",
+  "nazov": "Bôbová praženica",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Bôbová praženica (fotorecept) (autor: hubarka35)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/bobova-prazenica-fotorecept/18061-recept.html",
+  "porcie": 2,
+  "cas": "30 min",
+  "kcal_na_porciu": 407,
+  "popis": "Kedže som sa dostala k bôbu suchému-zasadila som ho do záhrady-mám ho dost-popri \r\ncelom plote nasadený-nikdy som z bôbu nevarila nič,jedlo navyzerá moc vábne no chuti na \r\nmoje prekvapenie skvele....",
+  "ingrediencie": [
+    {
+      "nazov": "Čerstvý bôb",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "ober mladé bôbové lusky",
+    "všetko pekne vylúp",
+    "Bôb som povarila v osolenej vode,po uvarení tá šupka mi nejak nešmakovala tak som ho povytlačala von zo šupky-išlo to rychlo.",
+    "na panvici rozohrej olej,pridaj bôb a vajcia.",
+    "a tu je bôbopraženička na večeru.."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "vajcia",
+    "bezmäsité"
+  ],
+  "kcal_zdroj": "vypocet"
 }

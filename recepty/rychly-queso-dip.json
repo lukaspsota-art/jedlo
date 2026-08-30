@@ -1,51 +1,51 @@
 {
-  "id": "rychly-queso-dip",
-  "nazov": "Rýchly queso dip",
-  "kategoria": "Nátierka",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Quick and Easy Queso Dip (CC BY-SA)",
-  "porcie": 6,
-  "cas": "15 min",
-  "kcal_na_porciu": 364,
-  "popis": "Dva syry rozpustené s paradajkami a cibuľou. Najrýchlejší tex-mex dip, aký sa dá spraviť.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 280,
-      "jednotka": "g",
-      "poznamka": "z konzervy, so zelenými chilli"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "nasekaná"
-    },
-    {
-      "nazov": "Tavený syr",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": "nakrájaný na kocky"
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 225,
-      "jednotka": "g",
-      "poznamka": "Monterey Jack, strúhaný"
-    }
-  ],
-  "postup": [
-    "V malom hrnci zohrej neodcedené paradajky s cibuľou a var, kým sa neodparí tekutina.",
-    "Kým sa paradajky varia, tavený syr rozpusti v mikrovlnke v miske. Pridaj strúhaný syr a rozpusti na polovičný výkon.",
-    "Paradajkovú zmes vmiešaj do syrovej."
-  ],
-  "tipy": "Dá sa spraviť aj v pomalom hrnci. Tekutinu z paradajok naozaj odvar, inak bude dip riedky.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "dip",
-    "americká",
-    "syr",
-    "rýchle"
-  ]
+ "id": "rychly-queso-dip",
+ "nazov": "Rýchly queso dip",
+ "kategoria": "Nátierka",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Quick and Easy Queso Dip (CC BY-SA)",
+ "porcie": 6,
+ "cas": "15 min",
+ "kcal_na_porciu": 364,
+ "popis": "Dva syry rozpustené s paradajkami a cibuľou. Najrýchlejší tex-mex dip, aký sa dá spraviť.",
+ "ingrediencie": [
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 280,
+   "jednotka": "g",
+   "poznamka": "z konzervy, so zelenými chilli"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Tavený syr",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": "nakrájaný na kocky"
+  },
+  {
+   "nazov": "Syr",
+   "mnozstvo": 225,
+   "jednotka": "g",
+   "poznamka": "Monterey Jack, strúhaný"
+  }
+ ],
+ "postup": [
+  "V malom hrnci zohrej neodcedené paradajky s cibuľou a var, kým sa neodparí tekutina.",
+  "Kým sa paradajky varia, tavený syr rozpusti v mikrovlnke v miske. Pridaj strúhaný syr a rozpusti na polovičný výkon.",
+  "Paradajkovú zmes vmiešaj do syrovej."
+ ],
+ "tipy": "Dá sa spraviť aj v pomalom hrnci. Tekutinu z paradajok naozaj odvar, inak bude dip riedky.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "dip",
+  "americká",
+  "syr",
+  "rýchle"
+ ]
 }

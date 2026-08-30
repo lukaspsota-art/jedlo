@@ -1,40 +1,102 @@
 {
-  "id": "medovnik-z-ovsenych-vlociek",
-  "nazov": "Medovník z ovsených vločiek",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 16,
-  "cas": "42 min",
-  "kcal_na_porciu": 284,
-  "popis": "Medovník s korpusom z ovsených vločiek a orechovo-ricottovou náplňou.",
-  "ingrediencie": [
-    {"nazov": "Celozrnná špaldová múka jemne mletá", "mnozstvo": 200, "jednotka": "g"},
-    {"nazov": "Ovsené vločky", "mnozstvo": 130, "jednotka": "g"},
-    {"nazov": "Ovsené vločky rozmixované", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Škorica mletá", "mnozstvo": 2, "jednotka": "ČL"},
-    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks"},
-    {"nazov": "Med tekutý", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Mlieko", "mnozstvo": 125, "jednotka": "ml", "poznamka": "100–150 ml"},
-    {"nazov": "Kokosový olej rozpustený", "mnozstvo": 30, "jednotka": "g"},
-    {"nazov": "Ricotta", "mnozstvo": 400, "jednotka": "g", "poznamka": "na náplň"},
-    {"nazov": "Tvaroh polotučný", "mnozstvo": 100, "jednotka": "g", "poznamka": "na náplň"},
-    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na náplň"},
-    {"nazov": "Vlašské orechy mleté", "mnozstvo": 200, "jednotka": "g", "poznamka": "na náplň a obalenie"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 190 °C.",
-    "Zmiešajte múku, ovsené vločky, rozmixované vločky, škoricu a kypriaci prášok.",
-    "V druhej mise vyšľahajte vajcia s medom, mliekom a kokosovým olejom.",
-    "Obsah mís spojte na cesto.",
-    "Navlhčenou lyžicou vytvarujte päť rovnako veľkých koláčov na plechu s papierom na pečenie.",
-    "Pečte pri 180–190 °C 12 minút.",
-    "Vyšľahajte ricottu s tvarohom a medom.",
-    "Vychladnuté korpusy potrite ¾ náplne a poukladajte na seba, zvyšnou náplňou potrite okraje a vrch.",
-    "Obalte z boku a z vrchu mletými vlašskými orechami a pred podávaním chlaďte aspoň 1 hodinu."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["dezert", "medovník", "ricotta", "orechy"]
+ "id": "medovnik-z-ovsenych-vlociek",
+ "nazov": "Medovník z ovsených vločiek",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 16,
+ "cas": "42 min",
+ "kcal_na_porciu": 284,
+ "popis": "Medovník s korpusom z ovsených vločiek a orechovo-ricottovou náplňou.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnná špaldová múka jemne mletá",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 130,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Ovsené vločky rozmixované",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Škorica mletá",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kypriaci prášok bez fosfátov",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Med tekutý",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 125,
+   "jednotka": "ml",
+   "poznamka": "100–150 ml"
+  },
+  {
+   "nazov": "Kokosový olej rozpustený",
+   "mnozstvo": 30,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Ricotta",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "na náplň"
+  },
+  {
+   "nazov": "Tvaroh polotučný",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "na náplň"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na náplň"
+  },
+  {
+   "nazov": "Vlašské orechy mleté",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "na náplň a obalenie"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 190 °C.",
+  "Zmiešaj múku, ovsené vločky, rozmixované vločky, škoricu a kypriaci prášok.",
+  "V druhej mise vyšľahaj vajcia s medom, mliekom a kokosovým olejom.",
+  "Obsah mís spoj na cesto.",
+  "Navlhčenou lyžicou vytvaruj päť rovnako veľkých koláčov na plechu s papierom na pečenie.",
+  "Peč pri 180–190 °C 12 minút.",
+  "Vyšľahaj ricottu s tvarohom a medom.",
+  "Vychladnuté korpusy potri ¾ náplne a poukladaj na seba, zvyšnou náplňou potri okraje a vrch.",
+  "Obal z boku a z vrchu mletými vlašskými orechami a pred podávaním chlaď aspoň 1 hodinu."
+ ],
+ "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "medovník",
+  "ricotta",
+  "orechy"
+ ]
 }

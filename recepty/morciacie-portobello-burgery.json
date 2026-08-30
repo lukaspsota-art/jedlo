@@ -1,36 +1,100 @@
 {
-  "id": "morciacie-portobello-burgery",
-  "nazov": "Morčacie portobello burgery",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "55 min",
-  "kcal_na_porciu": 515,
-  "popis": "Morčacie burgery podávané na pečenej portobello hube s avokádovým dresingom.",
-  "ingrediencie": [
-    {"nazov": "Morčacie mäso mleté", "mnozstvo": 450, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Oregano sušené", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Tymian sušený", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Kurkuma (alebo kari)", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 4, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Portobello huby", "mnozstvo": 8, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Avokádo", "mnozstvo": 1.5, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Ricotta", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""}
-  ],
-  "postup": [
-    "Rúru predhrejeme na 180 °C.",
-    "Portobello huby uložíme na plech s papierom na pečenie, potrieme 2 PL olivového oleja a pečieme 15-20 minút pri 170-180 °C.",
-    "Vo väčšej miske zmiešame morčacie mäso, nastrúhanú šalotku, oregano, tymian, soľ, korenie a kurkumu.",
-    "Zo zmesi vytvarujeme 4 rovnaké burgery a opečieme na zvyšných 2 PL olivového oleja na strednom plameni 4-5 minút z každej strany.",
-    "Medzitým pripravíme avokádový dresing - rozmixujeme avokádo s ricottou a citrónovou šťavou, dochutíme soľou a korením.",
-    "Na upečenú portobello hubu dáme burger, trochu avokádového dresingu a obľúbenú zeleninu (paradajky, červenú cibuľu, špenát). Rovnako pripravíme aj ostatné."
-  ],
-  "tipy": "Namiesto morčacieho mäsa môžete použiť kuracie.",
-  "foto": "",
-  "tagy": ["burger", "morčacie mäso", "portobello"]
+ "id": "morciacie-portobello-burgery",
+ "nazov": "Morčacie portobello burgery",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "55 min",
+ "kcal_na_porciu": 515,
+ "popis": "Morčacie burgery podávané na pečenej portobello hube s avokádovým dresingom.",
+ "ingrediencie": [
+  {
+   "nazov": "Morčacie mäso mleté",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano sušené",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian sušený",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Kurkuma (alebo kari)",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Portobello huby",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ricotta",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "Portobello huby ulož na plech s papierom na pečenie, potri 2 PL olivového oleja a peč 15-20 minút pri 170-180 °C.",
+  "Vo väčšej miske zmiešaj morčacie mäso, nastrúhanú šalotku, oregano, tymian, soľ, korenie a kurkumu.",
+  "Zo zmesi vytvaruj 4 rovnaké burgery a opeč na zvyšných 2 PL olivového oleja na strednom plameni 4-5 minút z každej strany.",
+  "Medzitým priprav avokádový dresing - rozmixuj avokádo s ricottou a citrónovou šťavou, dochuť soľou a korením.",
+  "Na upečenú portobello hubu daj burger, trochu avokádového dresingu a obľúbenú zeleninu (paradajky, červenú cibuľu, špenát). Rovnako priprav aj ostatné."
+ ],
+ "tipy": "Namiesto morčacieho mäsa môžete použiť kuracie.",
+ "foto": "",
+ "tagy": [
+  "burger",
+  "morčacie mäso",
+  "portobello"
+ ]
 }

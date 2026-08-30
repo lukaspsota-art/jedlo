@@ -32,9 +32,7 @@ function mulberry32(a) {
 }
 
 // const/let sa v skripte nestanú vlastnosťou globalu — vyexportuj ich ručne na koniec app.js
-const EXPORT_TAIL = ";globalThis.__exp={RECEPTY,POTRAVINY,JEDALNICKY,S,LS,DNI,VSETKY_SLOTY,DEFAULT_SLOTY," +
-  "SLOT_KATEGORIE,KS_DEF,KS_JEDNOTKY,ML_JED,NEDELITELNE_JEDNOTKY,PRILOHY,CARB_PRILOHY,KOLEKCIE,SEZONA," +
-  "HS_HI,HS_LO,PORADIE_ODDELENI,SLOT_PODIEL,TYZDNE_PAMATE,TYZDNE_PAMATE_SNACK,MIN_KCAL_HLAVNY};";
+const EXPORT_TAIL = ";globalThis.__exp={RECEPTY,POTRAVINY,JEDALNICKY,S,LS,DNI,VSETKY_SLOTY,DEFAULT_SLOTY,SLOT_KATEGORIE,KS_DEF,KS_JEDNOTKY,ML_JED,NEDELITELNE_JEDNOTKY,PRILOHY,CARB_PRILOHY,KOLEKCIE,SEZONA,HS_HI,HS_LO,PORADIE_ODDELENI,SLOT_PODIEL,TYZDNE_PAMATE,TYZDNE_PAMATE_SNACK,MIN_KCAL_HLAVNY,NAKUP_MAX_BALENI,FAKTOR_MIN,FAKTOR_MAX,PORADIE_SLOTOV,MIN_POOL,OKNO_DOLE,OKNO_HORE,VERZIA};";
 
 const FAKE_HODNOTY = { hladaj: "", "f-kuchyna": "", "f-cas": "", "f-diet": "", "f-sort": "" };
 
@@ -81,7 +79,10 @@ function load(opts = {}) {
     get documentElement() { return this.getElementById("__html"); },
     get activeElement() { return null; },
   };
-  let ulozene = JSON.stringify(stav);
+  // opts.rawStav = surový reťazec do localStorage (test poškodeného stavu: nevalidný JSON, "null", pole…).
+  // Bez neho sa nedá otestovať, že nacitaj() prežije rozbitý kľúč kucharka_v2 — JSON.stringify(objekt)
+  // je vždy validný JSON.
+  let ulozene = (opts.rawStav !== undefined) ? opts.rawStav : JSON.stringify(stav);
   const box = {
     console,
     setTimeout, clearTimeout, setInterval, clearInterval,
@@ -121,7 +122,7 @@ function load(opts = {}) {
 
   // originály renderov nechávame dostupné pre výkonnostné testy
   ctx.__orig = {};
-  ["renderGrid", "renderNakup", "renderVyziva", "renderDash"].forEach(f => { ctx.__orig[f] = ctx[f]; });
+  ["renderGrid", "renderNakup", "renderVyziva", "renderDash", "renderPlan"].forEach(f => { ctx.__orig[f] = ctx[f]; });
 
   // renderery preč — testy počítajú, nekreslia
   ["renderPlan", "renderDash", "renderNakup", "renderVyziva", "renderGrid", "renderSpajza",

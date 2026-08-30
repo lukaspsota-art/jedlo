@@ -1,26 +1,55 @@
 {
-  "id": "sladky-dynovy-dip",
-  "nazov": "Sladký tekvicový dip",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "20 min",
-  "kcal_na_porciu": 116,
-  "popis": "Sladký krémový dip z tekvicového pyré, smotanového syra a korenia.",
-  "ingrediencie": [
-    { "nazov": "Grécky jogurt", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Smotanový syr", "mnozstvo": 150, "jednotka": "g" },
-    { "nazov": "Tekvicové pyré", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Med", "mnozstvo": 2, "jednotka": "ČL" },
-    { "nazov": "Mletá škorica", "mnozstvo": 0.5, "jednotka": "ČL" },
-    { "nazov": "Mletý kardamón", "mnozstvo": 0.5, "jednotka": "ČL" }
-  ],
-  "postup": [
-    "Všetky surové zmiešaj do hladkého dipu.",
-    "Podávaj s čerstvo nakrájaným ovocím."
-  ],
-  "tipy": "Dip môžeš podávať aj so zeleninou, alebo ho jednoducho natrieť na chlieb ako sladkú desiatu.",
-  "foto": "",
-  "tagy": ["nátierka", "dip", "tekvica", "dezert"]
+ "id": "sladky-dynovy-dip",
+ "nazov": "Sladký tekvicový dip",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "20 min",
+ "kcal_na_porciu": 116,
+ "popis": "Sladký krémový dip z tekvicového pyré, smotanového syra a korenia.",
+ "ingrediencie": [
+  {
+   "nazov": "Grécky jogurt",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 150,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Tekvicové pyré",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Mletý kardamón",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Všetky surové zmiešaj do hladkého dipu.",
+  "Podávaj s čerstvo nakrájaným ovocím."
+ ],
+ "tipy": "Dip môžeš podávať aj so zeleninou, alebo ho jednoducho natrieť na chlieb ako sladkú desiatu.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "dip",
+  "tekvica",
+  "dezert"
+ ]
 }

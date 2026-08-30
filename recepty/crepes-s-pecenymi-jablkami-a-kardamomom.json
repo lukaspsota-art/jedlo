@@ -6,29 +6,85 @@
   "zdroj": "Jíme zdravě s Fitrecepty III",
   "porcie": 2,
   "cas": "25 min",
-  "kcal_na_porciu": 389,
+  "kcal_na_porciu": 551,
   "popis": "Špaldové palacinky plnené pečenými jablkami s kardamómom a jogurtom.",
   "ingrediencie": [
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 100, "jednotka": "g", "poznamka": "na cesto"},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": "na cesto"},
-    {"nazov": "Mlieko", "mnozstvo": 150, "jednotka": "ml", "poznamka": "na cesto"},
-    {"nazov": "Maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na cesto"},
-    {"nazov": "Jablko", "mnozstvo": 2, "jednotka": "ks", "poznamka": "na pečené jablká"},
-    {"nazov": "Med", "mnozstvo": 3, "jednotka": "PL", "poznamka": "na pečené jablká"},
-    {"nazov": "Rozpustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na pečené jablká"},
-    {"nazov": "Škorica", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "na pečené jablká"},
-    {"nazov": "Kardamóm", "mnozstvo": 0.25, "jednotka": "ČL", "poznamka": "na pečené jablká"},
-    {"nazov": "Biely jogurt", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na podávanie"}
+    {
+      "nazov": "Celozrnná špaldová múka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": "na cesto"
+    },
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": "na cesto"
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": "na cesto"
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": "na cesto"
+    },
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": "na pečené jablká"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": "na pečené jablká"
+    },
+    {
+      "nazov": "Rozpustené maslo",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": "na pečené jablká"
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": "na pečené jablká"
+    },
+    {
+      "nazov": "Kardamóm",
+      "mnozstvo": 0.25,
+      "jednotka": "ČL",
+      "poznamka": "na pečené jablká"
+    },
+    {
+      "nazov": "Biely jogurt",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": "na podávanie"
+    }
   ],
   "postup": [
-    "Vo väčšej mise zmiešajte špaldovú múku, vajcia, mlieko a maslo na hladké cesto.",
-    "Rozohrejte nepriľnavú panvicu, naberačkou nalievajte cesto od stredu a rozlejte ho tenko (1-2 mm) po celej panvici.",
-    "Každú crêpe opekajte 40-50 sekúnd z jednej strany a 30-40 sekúnd z druhej.",
-    "V inej panvici rozohrejte lyžicu masla a 3 lyžice medu, pridajte jablká nakrájané na kocky, škoricu a kardamóm.",
-    "Restujte na strednom ohni asi 10 minút.",
-    "Každú crêpe preložte na štvrtiny, rozdeľte na 2 porcie, bohato posypte pečenými jablkami a dozdobte lyžicou jogurtu."
+    "Vo väčšej mise zmiešaj špaldovú múku, vajcia, mlieko a maslo na hladké cesto.",
+    "Rozohrej nepriľnavú panvicu, naberačkou nalievaj cesto od stredu a rozlej ho tenko (1-2 mm) po celej panvici.",
+    "Každú crêpe opekaj 40-50 sekúnd z jednej strany a 30-40 sekúnd z druhej.",
+    "V inej panvici rozohrej lyžicu masla a 3 lyžice medu, pridaj jablká nakrájané na kocky, škoricu a kardamóm.",
+    "Restuj na strednom ohni asi 10 minút.",
+    "Každú crêpe prelož na štvrtiny, rozdeľ na 2 porcie, bohato posyp pečenými jablkami a dozdob lyžicou jogurtu."
   ],
-  "tipy": "Cesto na crêpes si pripravte vopred a uskladnite v mrazničke, pár hodín pred prípravou ho vyberte na povolenie.",
+  "tipy": "Cesto na crêpes si priprav vopred a uskladni v mrazničke, pár hodín pred prípravou ho vyber na povolenie.",
   "foto": "",
-  "tagy": ["palacinky", "jablká", "kardamóm", "raňajky"]
+  "tagy": [
+    "palacinky",
+    "jablká",
+    "kardamóm",
+    "raňajky"
+  ],
+  "kcal_zdroj": "vypocet"
 }

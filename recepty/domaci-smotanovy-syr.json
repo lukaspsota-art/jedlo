@@ -1,24 +1,38 @@
 {
-  "id": "domaci-smotanovy-syr",
-  "nazov": "Domáci smotanový syr",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 1,
-  "cas": "15 min",
-  "kcal_na_porciu": 706,
-  "popis": "Základný domáci smotanový syr scedený z jogurtu a smotany, vhodný ako základ na ďalšie nátierky.",
-  "ingrediencie": [
-    {"nazov": "Sójová smotana", "mnozstvo": 200, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Sedliacky jogurt (3,5 % tuku)", "mnozstvo": 500, "jednotka": "g", "poznamka": ""}
-  ],
-  "postup": [
-    "Do väčšej misky polož sitko vyložené čistou utierkou.",
-    "Naplň sitko jogurtom zmiešaným so smotanou.",
-    "Nechaj pri izbovej teplote odstáť do druhého dňa.",
-    "Prebytočná voda odkape do misky a zostane čistý smotanový syr, cca 450 g."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["nátierka", "domáci syr", "jogurt"]
+ "id": "domaci-smotanovy-syr",
+ "nazov": "Domáci smotanový syr",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 1,
+ "cas": "15 min",
+ "kcal_na_porciu": 706,
+ "popis": "Základný domáci smotanový syr scedený z jogurtu a smotany, vhodný ako základ na ďalšie nátierky.",
+ "ingrediencie": [
+  {
+   "nazov": "Sójová smotana",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sedliacky jogurt (3,5 % tuku)",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do väčšej misky polož sitko vyložené čistou utierkou.",
+  "Naplň sitko jogurtom zmiešaným so smotanou.",
+  "Nechaj pri izbovej teplote odstáť do druhého dňa.",
+  "Prebytočná voda odkape do misky a zostane čistý smotanový syr, cca 450 g."
+ ],
+ "tipy": "Nátierku nechaj pred podávaním aspoň hodinu v chladničke — chute sa prepoja a natiera sa lepšie.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "domáci syr",
+  "jogurt"
+ ]
 }

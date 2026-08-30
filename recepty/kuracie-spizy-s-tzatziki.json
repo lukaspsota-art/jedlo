@@ -1,39 +1,114 @@
 {
-  "id": "kuracie-spizy-s-tzatziki",
-  "nazov": "Kuracie špízy s tzatziki",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Grécka",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "43 min",
-  "kcal_na_porciu": 303,
-  "popis": "Marinované kuracie špízy podávané s domácou tzatziki omáčkou.",
-  "ingrediencie": [
-    {"nazov": "Kuracie prsia", "mnozstvo": 600, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Citrónová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z 1 citróna"},
-    {"nazov": "Vínny ocot", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Koriander mletý", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Oregano mleté", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Uhorka hadovka", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Biely jogurt", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Limetková šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z 0.5 limetky"},
-    {"nazov": "Cesnak na tzatziki", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": ""},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Olivový olej na tzatziki", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""}
-  ],
-  "postup": [
-    "Kuracie prsia nakrájame na kocky, dáme do misy s citrónovou šťavou, vínnym octom, olivovým olejom, roztlačeným cesnakom, koriandrom a oreganom.",
-    "Rukou premiešame, aby sa marináda rovnomerne obalila okolo mäsa, a dáme do chladničky.",
-    "Uhorku nastrúhame najemno a zmiešame s jogurtom, limetkovou šťavou a roztlačeným cesnakom.",
-    "Tzatziki dochutíme soľou a korením, dáme do chladničky.",
-    "Mäso napichujeme na špajle.",
-    "Špízy opekáme na panvici na olivovom oleji 4-5 minút z každej strany.",
-    "Podávame s vychladenou tzatziki omáčkou."
-  ],
-  "tipy": "Špízy môžete opiecť aj na grile.",
-  "foto": "",
-  "tagy": ["kura", "špízy", "tzatziki", "grécka kuchyňa"]
+ "id": "kuracie-spizy-s-tzatziki",
+ "nazov": "Kuracie špízy s tzatziki",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Grécka",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "43 min",
+ "kcal_na_porciu": 303,
+ "popis": "Marinované kuracie špízy podávané s domácou tzatziki omáčkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "z 1 citróna"
+  },
+  {
+   "nazov": "Vínny ocot",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriander mletý",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano mleté",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka hadovka",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biely jogurt",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "z 0.5 limetky"
+  },
+  {
+   "nazov": "Cesnak na tzatziki",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Olivový olej na tzatziki",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kuracie prsia nakrájaj na kocky, daj do misy s citrónovou šťavou, vínnym octom, olivovým olejom, roztlačeným cesnakom, koriandrom a oreganom.",
+  "Rukou premiešaj, aby sa marináda rovnomerne obalila okolo mäsa, a daj do chladničky.",
+  "Uhorku nastrúhaj najemno a zmiešaj s jogurtom, limetkovou šťavou a roztlačeným cesnakom.",
+  "Tzatziki dochuť soľou a korením, daj do chladničky.",
+  "Mäso napichuj na špajle.",
+  "Špízy opekaj na panvici na olivovom oleji 4-5 minút z každej strany.",
+  "Podávaj s vychladenou tzatziki omáčkou."
+ ],
+ "tipy": "Špízy môžete opiecť aj na grile.",
+ "foto": "",
+ "tagy": [
+  "kura",
+  "špízy",
+  "tzatziki",
+  "grécka kuchyňa"
+ ]
 }

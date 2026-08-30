@@ -1,61 +1,61 @@
 {
-  "id": "morcaci-wrap-zapeceny",
-  "nazov": "Morčací wrap zapečený",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Turkey Wrap (CC BY-SA)",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 669,
-  "popis": "Morčacie mäso s olivami a paradajkovým pretlakom zavinuté do tortilly a zapečené v rúre.",
-  "ingrediencie": [
-    {
-      "nazov": "Tortilla",
-      "mnozstvo": 8,
-      "jednotka": "ks",
-      "poznamka": "veľké, priemer 30 cm"
-    },
-    {
-      "nazov": "Paradajkový pretlak",
-      "mnozstvo": 170,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivy",
-      "mnozstvo": 170,
-      "jednotka": "g",
-      "poznamka": "čierne, odkvapkané"
-    },
-    {
-      "nazov": "Morčacie prsia",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": "uvarené"
-    }
-  ],
-  "postup": [
-    "Olivy rozrež na polovice.",
-    "Morčacie mäso nakrájaj na kocky veľké asi 2 cm.",
-    "Zmiešaj olivy s paradajkovým pretlakom.",
-    "Vmiešaj morčacie mäso, pridaj ho toľko, koľko sa dá pretlakom obaliť.",
-    "Zmes podľa chuti prehrej.",
-    "Časť zmesi polož na tortillu.",
-    "Tortillu okolo zmesi zavin.",
-    "Hotový wrap polož na nevymastený plech, voľným okrajom dole, aby sa pred pečením nerozvinul.",
-    "Zopakuj so zvyškom.",
-    "Plech vlož do rúry vyhriatej na 175 °C.",
-    "Wrapy vyber, keď začnú hnednúť, asi po 15 minútach.",
-    "Nechaj chvíľu vychladnúť na povrchu, kým sa teplo dostane dovnútra."
-  ],
-  "tipy": "Voľný okraj tortilly musí ísť naspodok, inak sa wrap v rúre otvorí. Pretlaku nedávaj menej, než sa zmestí - drží plnku pokope.",
-  "foto": "",
-  "tagy": [
-    "obed",
-    "večera",
-    "americká",
-    "morčacie",
-    "tortilla",
-    "zapekané"
-  ]
+ "id": "morcaci-wrap-zapeceny",
+ "nazov": "Morčací wrap zapečený",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Turkey Wrap (CC BY-SA)",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 669,
+ "popis": "Morčacie mäso s olivami a paradajkovým pretlakom zavinuté do tortilly a zapečené v rúre.",
+ "ingrediencie": [
+  {
+   "nazov": "Tortilla",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": "veľké, priemer 30 cm"
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 170,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivy",
+   "mnozstvo": 170,
+   "jednotka": "g",
+   "poznamka": "čierne, odkvapkané"
+  },
+  {
+   "nazov": "Morčacie prsia",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": "uvarené"
+  }
+ ],
+ "postup": [
+  "Olivy rozrež na polovice.",
+  "Morčacie mäso nakrájaj na kocky veľké asi 2 cm.",
+  "Zmiešaj olivy s paradajkovým pretlakom.",
+  "Vmiešaj morčacie mäso, pridaj ho toľko, koľko sa dá pretlakom obaliť.",
+  "Zmes podľa chuti prehrej.",
+  "Časť zmesi polož na tortillu.",
+  "Tortillu okolo zmesi zavin.",
+  "Hotový wrap polož na nevymastený plech, voľným okrajom dole, aby sa pred pečením nerozvinul.",
+  "Zopakuj so zvyškom.",
+  "Plech vlož do rúry vyhriatej na 175 °C.",
+  "Wrapy vyber, keď začnú hnednúť, asi po 15 minútach.",
+  "Nechaj chvíľu vychladnúť na povrchu, kým sa teplo dostane dovnútra."
+ ],
+ "tipy": "Voľný okraj tortilly musí ísť naspodok, inak sa wrap v rúre otvorí. Pretlaku nedávaj menej, než sa zmestí - drží plnku pokope.",
+ "foto": "",
+ "tagy": [
+  "obed",
+  "večera",
+  "americká",
+  "morčacie",
+  "tortilla",
+  "zapekané"
+ ]
 }

@@ -1,54 +1,54 @@
 {
-  "id": "vajickove-maslo",
-  "nazov": "Vajíčkové maslo",
-  "kategoria": "Nátierka",
-  "kuchyna": "Estónska",
-  "zdroj": "Wikibooks Cookbook – Egg Butter (CC BY-SA)",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 171,
-  "popis": "Estónska a finská nátierka z tvrdých vajec zmiešaných s maslom. Dve zložky, ktoré dokopy dávajú niečo úplne iné.",
-  "ingrediencie": [
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 4,
-      "jednotka": "PL",
-      "poznamka": "mäkké"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vajcia uvar na tvrdo, približne 10 minút.",
-    "Nasekaj ich na malé kúsky - väčšie kusy bielka sa s maslom nespoja.",
-    "Nasekané vajcia zmiešaj s maslom.",
-    "Osoľ a opepri.",
-    "Používaj ako nátierku na chlieb."
-  ],
-  "tipy": "Maslo musí byť naozaj mäkké, inak sa vajcia nespoja a nátierka zostane hrudkovitá.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "raňajky",
-    "estónska",
-    "finská",
-    "vajcia",
-    "rýchle"
-  ]
+ "id": "vajickove-maslo",
+ "nazov": "Vajíčkové maslo",
+ "kategoria": "Nátierka",
+ "kuchyna": "Estónska",
+ "zdroj": "Wikibooks Cookbook – Egg Butter (CC BY-SA)",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 171,
+ "popis": "Estónska a finská nátierka z tvrdých vajec zmiešaných s maslom. Dve zložky, ktoré dokopy dávajú niečo úplne iné.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": "mäkké"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vajcia uvar na tvrdo, približne 10 minút.",
+  "Nasekaj ich na malé kúsky - väčšie kusy bielka sa s maslom nespoja.",
+  "Nasekané vajcia zmiešaj s maslom.",
+  "Osoľ a opepri.",
+  "Používaj ako nátierku na chlieb."
+ ],
+ "tipy": "Maslo musí byť naozaj mäkké, inak sa vajcia nespoja a nátierka zostane hrudkovitá.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "raňajky",
+  "estónska",
+  "finská",
+  "vajcia",
+  "rýchle"
+ ]
 }

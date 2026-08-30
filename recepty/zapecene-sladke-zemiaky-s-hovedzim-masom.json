@@ -1,36 +1,95 @@
 {
-  "id": "zapecene-sladke-zemiaky-s-hovedzim-masom",
-  "nazov": "Zapečené sladké zemiaky s hovädzím mäsom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "35 min",
-  "kcal_na_porciu": 694,
-  "popis": "Pečené sladké zemiaky plnené mletým hovädzím mäsom, kelom a fetou.",
-  "ingrediencie": [
-    {"nazov": "Sladké zemiaky (batáty)", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Hovädzie mäso mleté", "mnozstvo": 250, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Kel kučeravý", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Pažítka čerstvá", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Syr feta", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejeme na 180 °C.",
-    "Sladké zemiaky potrieme olivovým olejom, popícháme vidličkou a pozdĺžne rozrežeme.",
-    "Dáme na plech s papierom na pečenie a pečieme pri 170-180 °C asi 50 minút.",
-    "Medzitým na panvici rozohrejeme prepustené maslo a 2-3 minúty restujeme najemno nakrájanú šalotku.",
-    "Pridáme roztlačený cesnak a mleté hovädzie mäso, opekáme 10-12 minút.",
-    "Pridáme kel a pažítku, premiešame.",
-    "Upečené sladké zemiaky naplníme mäsovou zmesou, posypeme fetou a dochutíme soľou a korením."
-  ],
-  "tipy": "Namiesto kelu môžete použiť baby špenát alebo rukolu.",
-  "foto": "",
-  "tagy": ["batáty", "hovädzie mäso", "zapekané"]
+ "id": "zapecene-sladke-zemiaky-s-hovedzim-masom",
+ "nazov": "Zapečené sladké zemiaky s hovädzím mäsom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "35 min",
+ "kcal_na_porciu": 694,
+ "popis": "Pečené sladké zemiaky plnené mletým hovädzím mäsom, kelom a fetou.",
+ "ingrediencie": [
+  {
+   "nazov": "Sladké zemiaky (batáty)",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prepustené maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzie mäso mleté",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kel kučeravý",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka čerstvá",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr feta",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "Sladké zemiaky potri olivovým olejom, popíchaj vidličkou a pozdĺžne rozrež.",
+  "Daj na plech s papierom na pečenie a peč pri 170-180 °C asi 50 minút.",
+  "Medzitým na panvici rozohrej prepustené maslo a 2-3 minúty restuj najemno nakrájanú šalotku.",
+  "Pridaj roztlačený cesnak a mleté hovädzie mäso, opekaj 10-12 minút.",
+  "Pridaj kel a pažítku, premiešaj.",
+  "Upečené sladké zemiaky naplň mäsovou zmesou, posyp fetou a dochuť soľou a korením."
+ ],
+ "tipy": "Namiesto kelu môžete použiť baby špenát alebo rukolu.",
+ "foto": "",
+ "tagy": [
+  "batáty",
+  "hovädzie mäso",
+  "zapekané"
+ ]
 }

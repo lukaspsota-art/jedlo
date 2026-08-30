@@ -1,83 +1,83 @@
 {
-  "id": "au-jus-sendvic-s-hovadzim",
-  "nazov": "Au jus sendvič s hovädzím",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Au Jus Sandwich (CC BY-SA)",
-  "porcie": 4,
-  "cas": "6 h 20 min",
-  "kcal_na_porciu": 881,
-  "popis": "Kalifornský sendvič z pomalého hrnca - hovädzie dusené šesť hodín, servírované vo vlastnej šťave, do ktorej sa sendvič namáča.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzia lopatka",
-      "mnozstvo": 800,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Múka",
-      "mnozstvo": 3,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hovädzí vývar",
-      "mnozstvo": 900,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pivo",
-      "mnozstvo": 330,
-      "jednotka": "ml",
-      "poznamka": "voliteľné"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Všetko okrem pečiva daj do pomalého hrnca alebo do hrnca do rúry na 150 °C.",
-    "Nechaj dusiť aspoň šesť hodín. Tento krok je kľúčový, práve tým sa mäso rozpadne.",
-    "Mäso natrhaj a naber do rozkrojených bagiet.",
-    "Sendvič môžeš namočiť do šťavy ešte pred podávaním, alebo šťavu podaj vedľa v miske a namáčaj priebežne pri jedení."
-  ],
-  "tipy": "Pečivo sa dá pred naplnením opiecť a namazať maslom. V originálnom sendviči sa chlieb namáčal do šťavy ešte pred pridaním mäsa, nie až na stole. Množstvo masla je v origináli 250 g, väčšina zostane v šťave - tu je znížené na 60 g. Namiesto hovädzieho poslúži aj jahňacie, bravčové alebo morčacie. Zdroj používa konzervovaný hovädzí consommé a francúzsku cibuľovú polievku - tu je nahradené vývarom a cibuľou.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "večera",
-    "americká",
-    "hovädzie",
-    "pomalý hrniec"
-  ]
+ "id": "au-jus-sendvic-s-hovadzim",
+ "nazov": "Au jus sendvič s hovädzím",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Au Jus Sandwich (CC BY-SA)",
+ "porcie": 4,
+ "cas": "6 hod 20 min",
+ "kcal_na_porciu": 881,
+ "popis": "Kalifornský sendvič z pomalého hrnca - hovädzie dusené šesť hodín, servírované vo vlastnej šťave, do ktorej sa sendvič namáča.",
+ "ingrediencie": [
+  {
+   "nazov": "Hovädzia lopatka",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzí vývar",
+   "mnozstvo": 900,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pivo",
+   "mnozstvo": 330,
+   "jednotka": "ml",
+   "poznamka": "voliteľné"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bageta",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetko okrem pečiva daj do pomalého hrnca alebo do hrnca do rúry na 150 °C.",
+  "Nechaj dusiť aspoň šesť hodín. Tento krok je kľúčový, práve tým sa mäso rozpadne.",
+  "Mäso natrhaj a naber do rozkrojených bagiet.",
+  "Sendvič môžeš namočiť do šťavy ešte pred podávaním, alebo šťavu podaj vedľa v miske a namáčaj priebežne pri jedení."
+ ],
+ "tipy": "Pečivo sa dá pred naplnením opiecť a namazať maslom. V originálnom sendviči sa chlieb namáčal do šťavy ešte pred pridaním mäsa, nie až na stole. Množstvo masla je v origináli 250 g, väčšina zostane v šťave - tu je znížené na 60 g. Namiesto hovädzieho poslúži aj jahňacie, bravčové alebo morčacie. Zdroj používa konzervovaný hovädzí consommé a francúzsku cibuľovú polievku - tu je nahradené vývarom a cibuľou.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "večera",
+  "americká",
+  "hovädzie",
+  "pomalý hrniec"
+ ]
 }

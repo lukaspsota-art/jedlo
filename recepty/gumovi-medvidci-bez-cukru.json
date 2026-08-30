@@ -6,22 +6,53 @@
   "zdroj": "Jíme zdravě s Fitrecepty III",
   "porcie": 30,
   "cas": "25 min",
-  "kcal_na_porciu": 11,
+  "kcal_na_porciu": 6,
   "popis": "Domáce ovocné gumové medvedíky bez cukru zahustené agarom.",
   "ingrediencie": [
-    {"nazov": "Jahody", "mnozstvo": 200, "jednotka": "g", "poznamka": "alebo 200 g čučoriedok, alebo 1,5 pomaranča"},
-    {"nazov": "Voda", "mnozstvo": 200, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Citrónová šťava", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Javorový sirup", "mnozstvo": 3, "jednotka": "ČL", "poznamka": "alebo med"},
-    {"nazov": "Agarové vločky", "mnozstvo": 3, "jednotka": "ČL", "poznamka": ""}
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": "alebo 200 g čučoriedok, alebo 1,5 pomaranča"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Javorový sirup",
+      "mnozstvo": 3,
+      "jednotka": "ČL",
+      "poznamka": "alebo med"
+    },
+    {
+      "nazov": "Agarové vločky",
+      "mnozstvo": 3,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
   ],
   "postup": [
-    "Ovocie rozmixujte s vodou, citrónovou šťavou a sirupom.",
-    "Zmes priveďte v rendlíku k varu, primiešajte agar a varte 5-6 minút.",
-    "Zmes nalievajte do formičiek.",
-    "Formičky dajte na 2-3 hodiny do chladničky."
+    "Ovocie rozmixuj s vodou, citrónovou šťavou a sirupom.",
+    "Zmes priveď v rendlíku k varu, primiešaj agar a var 5-6 minút.",
+    "Zmes nalievaj do formičiek.",
+    "Formičky daj na 2-3 hodiny do chladničky."
   ],
-  "tipy": "",
+  "tipy": "Šťavu vytlač až tesne pred použitím a nezabudni na kôru — väčšina arómy je v nej, nie v šťave.",
   "foto": "",
-  "tagy": ["snack", "bez cukru", "ovocie", "agar"]
+  "tagy": [
+    "snack",
+    "bez cukru",
+    "ovocie",
+    "agar"
+  ],
+  "kcal_zdroj": "vypocet"
 }

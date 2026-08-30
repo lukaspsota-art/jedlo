@@ -1,33 +1,83 @@
 {
-  "id": "quinoovy-salat-tahini-dresing",
-  "nazov": "Quinoový salát s tahini dresingom",
-  "kategoria": "Šalát",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 5,
-  "cas": "25 min",
-  "kcal_na_porciu": 394,
-  "popis": "Ľahký šalát z quinoy, cíceru a uhorky s tahini dresingom.",
-  "ingrediencie": [
-    { "nazov": "Quinoa", "mnozstvo": 150, "jednotka": "g" },
-    { "nazov": "Uhorka", "mnozstvo": 150, "jednotka": "g" },
-    { "nazov": "Rukola", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Predvarený cícer", "mnozstvo": 200, "jednotka": "g" },
-    { "nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks" },
-    { "nazov": "Tahini", "mnozstvo": 50, "jednotka": "g", "poznamka": "dresing" },
-    { "nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": "dresing" },
-    { "nazov": "Citrónová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z ½ citróna, dresing" },
-    { "nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL", "poznamka": "dresing" },
-    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, dresing" }
-  ],
-  "postup": [
-    "Quinou uvar v osolenej vode podľa návodu na obale.",
-    "Na dresing zmiešaj tahini, prelisovaný cesnak, citrónovú šťavu, olivový olej a soľ.",
-    "Uhorku nakrájaj na kolieska a rozdeľ na štvrtiny.",
-    "Rukolu preper a zmiešaj s cícerom a najemno nakrájanou šalotkou.",
-    "Všetko premiešaj s uvarenou quinoou a zalej dresingom."
-  ],
-  "tipy": "Do šalátu pridaj zelené fazuľky.",
-  "foto": "",
-  "tagy": ["šalát", "quinoa", "tahini", "cícer"]
+ "id": "quinoovy-salat-tahini-dresing",
+ "nazov": "Quinoový salát s tahini dresingom",
+ "kategoria": "Šalát",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 5,
+ "cas": "25 min",
+ "kcal_na_porciu": 394,
+ "popis": "Ľahký šalát z quinoy, cíceru a uhorky s tahini dresingom.",
+ "ingrediencie": [
+  {
+   "nazov": "Quinoa",
+   "mnozstvo": 150,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 150,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Rukola",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Predvarený cícer",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Tahini",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "dresing"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "dresing"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "z ½ citróna, dresing"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "dresing"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti, dresing"
+  }
+ ],
+ "postup": [
+  "Quinou uvar v osolenej vode podľa návodu na obale.",
+  "Na dresing zmiešaj tahini, prelisovaný cesnak, citrónovú šťavu, olivový olej a soľ.",
+  "Uhorku nakrájaj na kolieska a rozdeľ na štvrtiny.",
+  "Rukolu preper a zmiešaj s cícerom a najemno nakrájanou šalotkou.",
+  "Všetko premiešaj s uvarenou quinoou a zalej dresingom."
+ ],
+ "tipy": "Do šalátu pridaj zelené fazuľky.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "quinoa",
+  "tahini",
+  "cícer"
+ ]
 }

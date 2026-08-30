@@ -1,50 +1,50 @@
 {
-  "id": "limoncello-margarita",
-  "nazov": "Limoncello margarita",
-  "kategoria": "Kokteil",
-  "kuchyna": "Talianska",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 170,
-  "popis": "Pikantná a mierne sladká margarita s tequilou a limoncellom.",
-  "ingrediencie": [
-    {
-      "nazov": "Tequila",
-      "mnozstvo": 30,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Limoncello",
-      "mnozstvo": 30,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Limetková šťava",
-      "mnozstvo": 20,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "plátok na ozdobu"
-    }
-  ],
-  "postup": [
-    "V šejkri s ľadom pretras tequilu, limoncello a limetkovú šťavu a preceď do pohára s ľadom.",
-    "Ozdob plátkom citróna."
-  ],
-  "tipy": "Okraj pohára môžeš osoliť.",
-  "foto": "",
-  "tagy": [
-    "drink",
-    "limoncello",
-    "koktail"
-  ]
+ "id": "limoncello-margarita",
+ "nazov": "Limoncello margarita",
+ "kategoria": "Kokteil",
+ "kuchyna": "Talianska",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 170,
+ "popis": "Pikantná a mierne sladká margarita s tequilou a limoncellom.",
+ "ingrediencie": [
+  {
+   "nazov": "Tequila",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Limoncello",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 20,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "plátok na ozdobu"
+  }
+ ],
+ "postup": [
+  "V šejkri s ľadom pretras tequilu, limoncello a limetkovú šťavu a preceď do pohára s ľadom.",
+  "Ozdob plátkom citróna."
+ ],
+ "tipy": "Okraj pohára môžeš osoliť.",
+ "foto": "",
+ "tagy": [
+  "drink",
+  "limoncello",
+  "koktail"
+ ]
 }

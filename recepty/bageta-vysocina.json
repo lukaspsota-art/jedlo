@@ -6,7 +6,7 @@
   "zdroj": "Kaufland jedálniček",
   "porcie": 6,
   "cas": "10 min",
-  "kcal_na_porciu": 339,
+  "kcal_na_porciu": 506,
   "popis": "Naplnená bageta so salámou Vysočina, maslom, uhorkou a paradajkou, pripravená vopred.",
   "ingrediencie": [
     {
@@ -49,5 +49,6 @@
     "raňajky",
     "bageta",
     "meal-prep"
-  ]
+  ],
+  "kcal_zdroj": "vypocet"
 }

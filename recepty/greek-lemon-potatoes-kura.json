@@ -1,71 +1,71 @@
 {
-  "id": "greek-lemon-potatoes-kura",
-  "nazov": "Grécke citrónové zemiaky s pečeným kuracím stehnom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Grécka",
-  "zdroj": "RecipeTin Eats",
-  "porcie": 4,
-  "cas": "75 min",
-  "kcal_na_porciu": 430,
-  "popis": "Chrumkavé pečené zemiaky s citrónom, cesnakom a oreganom, pečené spolu s kuracími stehnami.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "ošúpané"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 80,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Citrónová šťava",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": "2 citróny"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 4,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Sušené oregano",
-      "mnozstvo": 2,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Kuracie dolné stehná s kosťou a kožou",
-      "mnozstvo": 560,
-      "jednotka": "g",
-      "poznamka": "4 ks"
-    },
-    {
-      "nazov": "Soľ a čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Rúru predhrej na 200 °C. Zemiaky ošúp a nakrájaj na klinky, poukladaj do pekáča v jednej vrstve.",
-    "Zmiešaj olivový olej, vodu, citrónovú šťavu, pretlačený cesnak, oregano, soľ a korenie a polej zemiaky.",
-    "Kuracie stehná osoľ, okoreň a polož medzi zemiaky.",
-    "Peč 30 minút.",
-    "Otoč zemiaky, polej šťavou zo dna a peč ďalších 30 minút dozlatista."
-  ],
-  "tipy": "Zemiaky nakrájaj rovnomerne, aby sa piekli naraz.",
-  "foto": "",
-  "tagy": [
-    "grécke",
-    "zemiaky",
-    "kura"
-  ]
+ "id": "greek-lemon-potatoes-kura",
+ "nazov": "Grécke citrónové zemiaky s pečeným kuracím stehnom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Grécka",
+ "zdroj": "RecipeTin Eats",
+ "porcie": 4,
+ "cas": "75 min",
+ "kcal_na_porciu": 430,
+ "popis": "Chrumkavé pečené zemiaky s citrónom, cesnakom a oreganom, pečené spolu s kuracími stehnami.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": "ošúpané"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 80,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "2 citróny"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kuracie dolné stehná s kosťou a kožou",
+   "mnozstvo": 560,
+   "jednotka": "g",
+   "poznamka": "4 ks"
+  },
+  {
+   "nazov": "Soľ a čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 200 °C. Zemiaky ošúp a nakrájaj na klinky, poukladaj do pekáča v jednej vrstve.",
+  "Zmiešaj olivový olej, vodu, citrónovú šťavu, pretlačený cesnak, oregano, soľ a korenie a polej zemiaky.",
+  "Kuracie stehná osoľ, okoreň a polož medzi zemiaky.",
+  "Peč 30 minút.",
+  "Otoč zemiaky, polej šťavou zo dna a peč ďalších 30 minút dozlatista."
+ ],
+ "tipy": "Zemiaky nakrájaj rovnomerne, aby sa piekli naraz.",
+ "foto": "",
+ "tagy": [
+  "grécke",
+  "zemiaky",
+  "kura"
+ ]
 }

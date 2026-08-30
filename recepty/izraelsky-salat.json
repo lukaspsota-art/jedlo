@@ -1,83 +1,83 @@
 {
-  "id": "izraelsky-salat",
-  "nazov": "Izraelský salát",
-  "kategoria": "Šalát",
-  "kuchyna": "Izraelská",
-  "zdroj": "Wikibooks Cookbook – Israeli Salad (CC BY-SA)",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 97,
-  "popis": "Uhorka, paradajka a cibuľa nakrájané na presné kocky, s petržlenom, citrónom a za'atarom.",
-  "ingrediencie": [
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "na kocky 1 cm"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "na kocky 1 cm"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "na kocky 1 cm"
-    },
-    {
-      "nazov": "Petržlen",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "nasekaný"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "sok alebo ocot"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Za'atar",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zmiešaj uhorku, paradajku, cibuľu a petržlen.",
-    "Zmiešaj olej, citrónový sok, soľ, korenie a za'atar na zálievku.",
-    "Zálievku prelej na zeleninu. Dochuť podľa chuti."
-  ],
-  "tipy": "Za'atar sa dá nahradiť štvrtinou lyžičky tymianu. Veľkosť kociek je tu naozaj podstatná - všetko rovnako veľké na 1 cm.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "príloha",
-    "izraelská",
-    "zelenina",
-    "vegánske",
-    "rýchle",
-    "bez varenia"
-  ]
+ "id": "izraelsky-salat",
+ "nazov": "Izraelský salát",
+ "kategoria": "Šalát",
+ "kuchyna": "Izraelská",
+ "zdroj": "Wikibooks Cookbook – Israeli Salad (CC BY-SA)",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 97,
+ "popis": "Uhorka, paradajka a cibuľa nakrájané na presné kocky, s petržlenom, citrónom a za'atarom.",
+ "ingrediencie": [
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "na kocky 1 cm"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na kocky 1 cm"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na kocky 1 cm"
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "nasekaný"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "sok alebo ocot"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Za'atar",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zmiešaj uhorku, paradajku, cibuľu a petržlen.",
+  "Zmiešaj olej, citrónový sok, soľ, korenie a za'atar na zálievku.",
+  "Zálievku prelej na zeleninu. Dochuť podľa chuti."
+ ],
+ "tipy": "Za'atar sa dá nahradiť štvrtinou lyžičky tymianu. Veľkosť kociek je tu naozaj podstatná - všetko rovnako veľké na 1 cm.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "príloha",
+  "izraelská",
+  "zelenina",
+  "vegánske",
+  "rýchle",
+  "bez varenia"
+ ]
 }

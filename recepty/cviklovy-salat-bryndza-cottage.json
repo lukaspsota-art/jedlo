@@ -1,61 +1,61 @@
 {
-  "id": "cviklovy-salat-bryndza-cottage",
-  "nazov": "Cviklový šalát s bryndzou a cottage cheese",
-  "kategoria": "Šalát",
-  "kuchyna": "Slovenská",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 2,
-  "cas": "10 min",
-  "kcal_na_porciu": 220,
-  "popis": "Rýchly cviklový šalát s bryndzou, cottage cheese a cesnakom.",
-  "ingrediencie": [
-    {
-      "nazov": "Cottage cheese",
-      "mnozstvo": 150,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "bryndza",
-      "mnozstvo": 70,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Uvarenej cvikly",
-      "mnozstvo": 200,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Citróna",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 1,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Uvarenú cviklu nakrájaj na malé kocky. Pridaj cottage cheese, bryndzu, pretlačený cesnak a citrónovú šťavu. Osoľ, okoreň a premiešaj.",
-    "Ochutnaj a dochuť. Podávaj s opečeným chlebom."
-  ],
-  "tipy": "Ak zmes rozmixuješ dohladka, získaš výbornú nátierku.",
-  "foto": "",
-  "tagy": [
-    "slovenské",
-    "šalát",
-    "cvikla",
-    "bryndza"
-  ]
+ "id": "cviklovy-salat-bryndza-cottage",
+ "nazov": "Cviklový šalát s bryndzou a cottage cheese",
+ "kategoria": "Šalát",
+ "kuchyna": "Slovenská",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 2,
+ "cas": "10 min",
+ "kcal_na_porciu": 220,
+ "popis": "Rýchly cviklový šalát s bryndzou, cottage cheese a cesnakom.",
+ "ingrediencie": [
+  {
+   "nazov": "Cottage cheese",
+   "mnozstvo": 150,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "bryndza",
+   "mnozstvo": 70,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Uvarenej cvikly",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Citróna",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "šťava"
+  },
+  {
+   "nazov": "Cesnaku",
+   "mnozstvo": 1,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": ""
+  }
+ ],
+ "postup": [
+  "Uvarenú cviklu nakrájaj na malé kocky. Pridaj cottage cheese, bryndzu, pretlačený cesnak a citrónovú šťavu. Osoľ, okoreň a premiešaj.",
+  "Ochutnaj a dochuť. Podávaj s opečeným chlebom."
+ ],
+ "tipy": "Ak zmes rozmixuješ dohladka, získaš výbornú nátierku.",
+ "foto": "",
+ "tagy": [
+  "slovenské",
+  "šalát",
+  "cvikla",
+  "bryndza"
+ ]
 }

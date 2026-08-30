@@ -1,49 +1,49 @@
 {
-  "id": "bageta-udena-sunka-gouda",
-  "nazov": "Bageta s údenou šunkou a goudou",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Allrecipes",
-  "porcie": 2,
-  "cas": "10 min",
-  "kcal_na_porciu": 378,
-  "popis": "Naplnená bageta s výberovou údenou šunkou a goudou, pripravená večer vopred.",
-  "ingrediencie": [
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 150,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "údená výberová"
-    },
-    {
-      "nazov": "Gouda",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "48 %"
-    },
-    {
-      "nazov": "Soľ a čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Bagetu prekroj pozdĺžne.",
-    "Goudu nakrájaj na plátky.",
-    "Vlož údenú šunku a goudu, prisoľ a okoreň.",
-    "Zabaľ a daj do chladničky do rána."
-  ],
-  "tipy": "Na prípravu večer vopred.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "bageta",
-    "syr"
-  ]
+ "id": "bageta-udena-sunka-gouda",
+ "nazov": "Bageta s údenou šunkou a goudou",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Allrecipes",
+ "porcie": 2,
+ "cas": "10 min",
+ "kcal_na_porciu": 378,
+ "popis": "Naplnená bageta s výberovou údenou šunkou a goudou, pripravená večer vopred.",
+ "ingrediencie": [
+  {
+   "nazov": "Bageta",
+   "mnozstvo": 150,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "údená výberová"
+  },
+  {
+   "nazov": "Gouda",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "48 %"
+  },
+  {
+   "nazov": "Soľ a čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Bagetu prekroj pozdĺžne.",
+  "Goudu nakrájaj na plátky.",
+  "Vlož údenú šunku a goudu, prisoľ a okoreň.",
+  "Zabaľ a daj do chladničky do rána."
+ ],
+ "tipy": "Na prípravu večer vopred.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "bageta",
+  "syr"
+ ]
 }

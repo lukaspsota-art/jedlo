@@ -1,36 +1,85 @@
 {
-  "id": "tekvicovo-jablkova-polievka",
-  "nazov": "Tekvicovo-jablková polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 6,
-  "cas": "75 min",
-  "kcal_na_porciu": 189,
-  "popis": "Krémová polievka z pečenej tekvice hokkaido a jabĺk s cesnakom a tymianom.",
-  "ingrediencie": [
-    {"nazov": "Tekvica hokkaido", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Jablko", "mnozstvo": 2, "jednotka": "ks", "poznamka": "stredné"},
-    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 4, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Sušený tymian", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Zeleninový vývar", "mnozstvo": 1, "jednotka": "l", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
-    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rozohrej rúru na 180 °C.",
-    "Tekvicu očisti, vydlab a nakrájaj na menšie kúsky spolu s jablkami, rozlož na plech.",
-    "Cesnak nakrájaj na plátky a pridaj na plech.",
-    "Všetko zalej 2 lyžicami oleja a posyp tymianom.",
-    "Pečieme pri 170-180 °C cca 35 minút.",
-    "V hrnci orestuj nadrobno nakrájanú šalotku.",
-    "Pridaj upečenú tekvicu s jablkami, zalej vývarom a var 15 minút.",
-    "Polievku necháme vychladnúť a rozmixuj tyčovým mixérom.",
-    "Dosoľ a dokorenie podľa chuti."
-  ],
-  "tipy": "Vnútro tekvice nevyhadzuj, semienka opraž nasucho na panvici a ozdob nimi polievku.",
-  "foto": "",
-  "tagy": ["polievka", "tekvica", "jablko"]
+ "id": "tekvicovo-jablkova-polievka",
+ "nazov": "Tekvicovo-jablková polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 6,
+ "cas": "75 min",
+ "kcal_na_porciu": 189,
+ "popis": "Krémová polievka z pečenej tekvice hokkaido a jabĺk s cesnakom a tymianom.",
+ "ingrediencie": [
+  {
+   "nazov": "Tekvica hokkaido",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "stredné"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený tymian",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 1,
+   "jednotka": "l",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rozohrej rúru na 180 °C.",
+  "Tekvicu očisti, vydlab a nakrájaj na menšie kúsky spolu s jablkami, rozlož na plech.",
+  "Cesnak nakrájaj na plátky a pridaj na plech.",
+  "Všetko zalej 2 lyžicami oleja a posyp tymianom.",
+  "Peč pri 170-180 °C cca 35 minút.",
+  "V hrnci orestuj nadrobno nakrájanú šalotku.",
+  "Pridaj upečenú tekvicu s jablkami, zalej vývarom a var 15 minút.",
+  "Polievku nechaj vychladnúť a rozmixuj tyčovým mixérom.",
+  "Dosoľ a dokorenie podľa chuti."
+ ],
+ "tipy": "Vnútro tekvice nevyhadzuj, semienka opraž nasucho na panvici a ozdob nimi polievku.",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "tekvica",
+  "jablko"
+ ]
 }

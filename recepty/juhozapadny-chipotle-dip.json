@@ -1,57 +1,57 @@
 {
-  "id": "juhozapadny-chipotle-dip",
-  "nazov": "Juhozápadný chipotle dip",
-  "kategoria": "Nátierka",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Southwestern Dip (CC BY-SA)",
-  "porcie": 6,
-  "cas": "5 min",
-  "kcal_na_porciu": 114,
-  "popis": "Kyslá smotana s chipotle chilli, adobo omáčkou a rascou. Vyšľahaná priamo v miske, v ktorej sa podáva.",
-  "ingrediencie": [
-    {
-      "nazov": "Kyslá smotana",
-      "mnozstvo": 240,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chipotle chilli v adobo",
-      "mnozstvo": 70,
-      "jednotka": "g",
-      "poznamka": "nasekané najemno, s nálevom"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kmín",
-      "mnozstvo": 0.25,
-      "jednotka": "ČL",
-      "poznamka": "mletý"
-    }
-  ],
-  "postup": [
-    "V servírovacej miske vyšľahaj všetky zložky.",
-    "Podávaj s tortillovými lupienkami alebo iným snackom."
-  ],
-  "tipy": "Rasca musí byť mletá čerstvo - z prášku zo zásuvky to nie je to isté.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "dip",
-    "americká",
-    "pikantné",
-    "rýchle",
-    "bez varenia"
-  ]
+ "id": "juhozapadny-chipotle-dip",
+ "nazov": "Juhozápadný chipotle dip",
+ "kategoria": "Nátierka",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Southwestern Dip (CC BY-SA)",
+ "porcie": 6,
+ "cas": "5 min",
+ "kcal_na_porciu": 114,
+ "popis": "Kyslá smotana s chipotle chilli, adobo omáčkou a rascou. Vyšľahaná priamo v miske, v ktorej sa podáva.",
+ "ingrediencie": [
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chipotle chilli v adobo",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": "nasekané najemno, s nálevom"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kmín",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "mletý"
+  }
+ ],
+ "postup": [
+  "V servírovacej miske vyšľahaj všetky zložky.",
+  "Podávaj s tortillovými lupienkami alebo iným snackom."
+ ],
+ "tipy": "Rasca musí byť mletá čerstvo - z prášku zo zásuvky to nie je to isté.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "dip",
+  "americká",
+  "pikantné",
+  "rýchle",
+  "bez varenia"
+ ]
 }

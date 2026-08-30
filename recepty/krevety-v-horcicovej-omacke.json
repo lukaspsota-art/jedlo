@@ -1,34 +1,88 @@
 {
-  "id": "krevety-v-horcicovej-omacke",
-  "nazov": "Krevety v horčicovej omáčke",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 386,
-  "popis": "Krevety v krémovej kokosovo-horčicovej omáčke so špenátom a mozzarellou.",
-  "ingrediencie": [
-    {"nazov": "Repkový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Krevety", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Malá biela cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Dijonská horčica", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Kokosové mlieko z konzervy", "mnozstvo": 400, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Špenát", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Strúhaná mozzarella", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Na oleji opekajte pretlačený cesnak 1 minútu.",
-    "Pridajte krevety a opekajte 3-4 minúty, potom vyberte a odložte.",
-    "V tej istej panvici osmažte najemno nakrájanú cibuľu 3 minúty.",
-    "Pridajte horčicu, premiešajte, prilejte kokosové mlieko a varte 5-7 minút.",
-    "Vráťte krevety, pridajte špenát a premiešajte.",
-    "Nakoniec vsypte mozzarellu a dochuťte soľou a korením."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["krevety", "horčica", "kokosové mlieko"]
+ "id": "krevety-v-horcicovej-omacke",
+ "nazov": "Krevety v horčicovej omáčke",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 386,
+ "popis": "Krevety v krémovej kokosovo-horčicovej omáčke so špenátom a mozzarellou.",
+ "ingrediencie": [
+  {
+   "nazov": "Repkový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krevety",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Malá biela cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Dijonská horčica",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové mlieko z konzervy",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenát",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaná mozzarella",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Na oleji opekaj pretlačený cesnak 1 minútu.",
+  "Pridaj krevety a opekaj 3-4 minúty, potom vyber a odlož.",
+  "V tej istej panvici osmaž najemno nakrájanú cibuľu 3 minúty.",
+  "Pridaj horčicu, premiešaj, prilej kokosové mlieko a var 5-7 minút.",
+  "Vráť krevety, pridaj špenát a premiešaj.",
+  "Nakoniec vsyp mozzarellu a dochuť soľou a korením."
+ ],
+ "tipy": "Čerstvý špenát sa scvrkne takmer na desatinu objemu — nezľakni sa množstva na začiatku.",
+ "foto": "",
+ "tagy": [
+  "krevety",
+  "horčica",
+  "kokosové mlieko"
+ ]
 }

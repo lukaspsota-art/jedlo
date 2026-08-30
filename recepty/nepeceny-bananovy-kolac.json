@@ -1,38 +1,118 @@
 {
-  "id": "nepeceny-bananovy-kolac",
-  "nazov": "Nepečený banánový koláč",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 16,
-  "cas": "20 min",
-  "kcal_na_porciu": 334,
-  "popis": "Nepečený viacvrstvový koláč s pohánkovým korpusom, banánovo-arašidovou vrstvou a avokádovo-kakaovou vrstvou.",
-  "ingrediencie": [
-    { "nazov": "Mleté pohánkové vločky", "mnozstvo": 200, "jednotka": "g", "poznamka": "korpus" },
-    { "nazov": "Strúhaný kokos", "mnozstvo": 50, "jednotka": "g", "poznamka": "korpus" },
-    { "nazov": "Arašidové maslo", "mnozstvo": 160, "jednotka": "g", "poznamka": "korpus" },
-    { "nazov": "Javorový sirup", "mnozstvo": 100, "jednotka": "g", "poznamka": "korpus, alebo med" },
-    { "nazov": "Banán", "mnozstvo": 1, "jednotka": "ks", "poznamka": "korpus" },
-    { "nazov": "Banán", "mnozstvo": 2, "jednotka": "ks", "poznamka": "1. vrstva" },
-    { "nazov": "Arašidové maslo", "mnozstvo": 200, "jednotka": "g", "poznamka": "1. vrstva" },
-    { "nazov": "Javorový sirup", "mnozstvo": 120, "jednotka": "g", "poznamka": "1. vrstva, alebo med" },
-    { "nazov": "Kokosová múka", "mnozstvo": 100, "jednotka": "g", "poznamka": "1. vrstva" },
-    { "nazov": "Kokosové mlieko", "mnozstvo": 200, "jednotka": "ml", "poznamka": "1. vrstva, z plechovky" },
-    { "nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks", "poznamka": "2. vrstva" },
-    { "nazov": "Holandské kakao", "mnozstvo": 1, "jednotka": "PL", "poznamka": "2. vrstva" },
-    { "nazov": "Javorový sirup", "mnozstvo": 1, "jednotka": "PL", "poznamka": "2. vrstva" },
-    { "nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka", "poznamka": "2. vrstva" },
-    { "nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "2. vrstva" }
-  ],
-  "postup": [
-    "Pohánkové vločky, kokos, arašidové maslo a javorový sirup zmiešaj a rovnomerne rozotri do dortovej formy (Ø 20 cm) — vznikne korpus.",
-    "Na korpus poukladaj banán nakrájaný na kolieska.",
-    "Rozmixuj 2 banány, arašidové maslo, javorový sirup, kokosovú múku a kokosové mlieko a prelej na korpus.",
-    "Rozmixuj avokádo, kakao, javorový sirup, soľ a vanilkový extrakt do hladka a navrstvi na predchádzajúcu vrstvu.",
-    "Uhlaď povrch a koláč nechaj pred podávaním aspoň 2 hodiny v chladničke."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["dezert", "nepečené", "banán", "vegán"]
+ "id": "nepeceny-bananovy-kolac",
+ "nazov": "Nepečený banánový koláč",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 16,
+ "cas": "20 min",
+ "kcal_na_porciu": 334,
+ "popis": "Nepečený viacvrstvový koláč s pohánkovým korpusom, banánovo-arašidovou vrstvou a avokádovo-kakaovou vrstvou.",
+ "ingrediencie": [
+  {
+   "nazov": "Mleté pohánkové vločky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "korpus"
+  },
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "korpus"
+  },
+  {
+   "nazov": "Arašidové maslo",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": "korpus"
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "korpus, alebo med"
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "korpus"
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "1. vrstva"
+  },
+  {
+   "nazov": "Arašidové maslo",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "1. vrstva"
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "1. vrstva, alebo med"
+  },
+  {
+   "nazov": "Kokosová múka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "1. vrstva"
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": "1. vrstva, z plechovky"
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "2. vrstva"
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "2. vrstva"
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "2. vrstva"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": "2. vrstva"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "2. vrstva"
+  }
+ ],
+ "postup": [
+  "Pohánkové vločky, kokos, arašidové maslo a javorový sirup zmiešaj a rovnomerne rozotri do dortovej formy (Ø 20 cm) — vznikne korpus.",
+  "Na korpus poukladaj banán nakrájaný na kolieska.",
+  "Rozmixuj 2 banány, arašidové maslo, javorový sirup, kokosovú múku a kokosové mlieko a prelej na korpus.",
+  "Rozmixuj avokádo, kakao, javorový sirup, soľ a vanilkový extrakt do hladka a navrstvi na predchádzajúcu vrstvu.",
+  "Uhlaď povrch a koláč nechaj pred podávaním aspoň 2 hodiny v chladničke."
+ ],
+ "tipy": "Avokádo pokvapkaj citrónovou šťavou — bez kyseliny zhnedne do pár minút.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "nepečené",
+  "banán",
+  "vegán"
+ ]
 }

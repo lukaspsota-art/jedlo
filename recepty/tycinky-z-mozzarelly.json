@@ -1,61 +1,61 @@
 {
-  "id": "tycinky-z-mozzarelly",
-  "nazov": "Tyčinky z mozzarelly",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 4,
-  "cas": "30 min + mrazenie",
-  "kcal_na_porciu": 330,
-  "popis": "Panírované mozzarellové tyčinky z air fryera — chrumkavé zvonka, ťahavé vnútri.",
-  "ingrediencie": [
-    {
-      "nazov": "Mozzarelly na pizzu",
-      "mnozstvo": 400,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "hladká múka",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "strúhanka",
-      "mnozstvo": 40,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Mozzarellu nakrájaj na prúžky ~1,5 cm a osuš.",
-    "Priprav 3 misky: múka; rozšľahané vajce so soľou a korením; panko.",
-    "Každý kúsok obaľ v múke, vajci a strúhanke. Postup zopakuj (dvojité obalenie), aby syr nevytekal. Daj do mrazničky aspoň na 30 min.",
-    "Air fryer predhrej na 200 °C. Kôš postriekaj olejom, tyčinky ulož v jednej vrstve, postriekaj a peč ~10 min dozlatista. Podávaj s dresingom."
-  ],
-  "tipy": "Zmrazenie pred pečením je kľúč — inak syr vytečie.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "syr",
-    "air fryer"
-  ]
+ "id": "tycinky-z-mozzarelly",
+ "nazov": "Tyčinky z mozzarelly",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 330,
+ "popis": "Panírované mozzarellové tyčinky z air fryera — chrumkavé zvonka, ťahavé vnútri.",
+ "ingrediencie": [
+  {
+   "nazov": "Mozzarelly na pizzu",
+   "mnozstvo": 400,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "hladká múka",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "strúhanka",
+   "mnozstvo": 40,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": ""
+  }
+ ],
+ "postup": [
+  "Mozzarellu nakrájaj na prúžky ~1,5 cm a osuš.",
+  "Priprav 3 misky: múka; rozšľahané vajce so soľou a korením; panko.",
+  "Každý kúsok obaľ v múke, vajci a strúhanke. Postup zopakuj (dvojité obalenie), aby syr nevytekal. Daj do mrazničky aspoň na 30 min.",
+  "Air fryer predhrej na 200 °C. Kôš postriekaj olejom, tyčinky ulož v jednej vrstve, postriekaj a peč ~10 min dozlatista. Podávaj s dresingom."
+ ],
+ "tipy": "Zmrazenie pred pečením je kľúč — inak syr vytečie. Okrem uvedeného času počítaj ešte s časom na mrazenie.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "syr",
+  "air fryer"
+ ]
 }

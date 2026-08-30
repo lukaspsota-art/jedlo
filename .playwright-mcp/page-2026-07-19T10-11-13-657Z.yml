@@ -1,0 +1,153 @@
+- generic [ref=f2e2]:
+  - complementary [ref=f2e3]:
+    - generic [ref=f2e4]: 🍲 Kuchárka
+    - navigation [ref=f2e5]:
+      - generic [ref=f2e6] [cursor=pointer]:
+        - generic [ref=f2e7]: 🏠
+        - text: Domov
+      - generic [ref=f2e8] [cursor=pointer]:
+        - generic [ref=f2e9]: 📖
+        - text: Recepty
+      - generic [ref=f2e10] [cursor=pointer]:
+        - generic [ref=f2e11]: 📅
+        - text: Plán
+      - generic [ref=f2e12] [cursor=pointer]:
+        - generic [ref=f2e13]: 🛒
+        - text: Nákup
+      - generic [ref=f2e14] [cursor=pointer]:
+        - generic [ref=f2e15]: 📊
+        - text: Výživa
+      - generic [ref=f2e16] [cursor=pointer]:
+        - generic [ref=f2e17]: 🧊
+        - text: Špajza
+    - generic [ref=f2e18]:
+      - generic [ref=f2e19] [cursor=pointer]:
+        - generic [ref=f2e20]: 🥫
+        - text: Čo mám doma
+      - generic [ref=f2e21] [cursor=pointer]:
+        - generic [ref=f2e22]: ⚙️
+        - text: Nastavenia
+  - generic [ref=f2e5228]:
+    - heading "Nákupný zoznam" [level=2] [ref=f2e5229]
+    - paragraph [ref=f2e5230]: Z receptov v pláne, zoradené podľa oddelení v obchode.
+    - generic [ref=f2e5231]:
+      - textbox "Mám doma (odráta sa)…" [ref=f2e5232]
+      - button "📋 Kopírovať" [ref=f2e5233] [cursor=pointer]
+      - button "🖨 Tlačiť" [ref=f2e5234] [cursor=pointer]
+    - generic [ref=f2e5235]:
+      - generic [ref=f2e5236]:
+        - generic [ref=f2e5237]: Odhadovaná cena nákupu (2 os.)
+        - generic [ref=f2e5238]: 23,81 €
+      - generic [ref=f2e5239]:
+        - heading "Zelenina a ovocie" [level=4] [ref=f2e5240]
+        - generic [ref=f2e5241] [cursor=pointer]:
+          - generic [ref=f2e5242]:
+            - checkbox "Cibuľa — 3 ks 0,33 €" [ref=f2e5243]
+            - text: Cibuľa —
+            - generic [ref=f2e5244]: 3 ks
+          - generic [ref=f2e5245]: 0,33 €
+        - generic [ref=f2e5246] [cursor=pointer]:
+          - generic [ref=f2e5247]:
+            - checkbox "Paradajkový pretlak — 1 ks 0,54 €" [ref=f2e5248]
+            - text: Paradajkový pretlak —
+            - generic [ref=f2e5249]: 1 ks
+          - generic [ref=f2e5250]: 0,54 €
+        - generic [ref=f2e5251] [cursor=pointer]:
+          - generic [ref=f2e5252]:
+            - checkbox "Šampiňóny — 374 g 2,24 €" [ref=f2e5253]
+            - text: Šampiňóny —
+            - generic [ref=f2e5254]: 374 g
+          - generic [ref=f2e5255]: 2,24 €
+        - generic [ref=f2e5256] [cursor=pointer]:
+          - generic [ref=f2e5257]:
+            - checkbox "Údená paprika — 2 ks 1,08 €" [ref=f2e5258]
+            - text: Údená paprika —
+            - generic [ref=f2e5259]: 2 ks
+          - generic [ref=f2e5260]: 1,08 €
+      - generic [ref=f2e5261]:
+        - heading "Mäso a ryby" [level=4] [ref=f2e5262]
+        - generic [ref=f2e5264] [cursor=pointer]:
+          - checkbox "Bravčová panenka — 599 g" [ref=f2e5265]
+          - text: Bravčová panenka —
+          - generic [ref=f2e5266]: 599 g
+      - generic [ref=f2e5267]:
+        - heading "Mliečne a vajcia" [level=4] [ref=f2e5268]
+        - generic [ref=f2e5269] [cursor=pointer]:
+          - generic [ref=f2e5270]:
+            - 'checkbox "Kyslá smotana — 150 ml (bal.: 1× 200 g) 0,90 €" [ref=f2e5271]'
+            - text: Kyslá smotana —
+            - generic [ref=f2e5272]: "150 ml (bal.: 1× 200 g)"
+          - generic [ref=f2e5273]: 0,90 €
+        - generic [ref=f2e5274] [cursor=pointer]:
+          - generic [ref=f2e5275]:
+            - 'checkbox "Mlieko — 150 ml (bal.: 1× 1 l) 0,18 €" [ref=f2e5276]'
+            - text: Mlieko —
+            - generic [ref=f2e5277]: "150 ml (bal.: 1× 1 l)"
+          - generic [ref=f2e5278]: 0,18 €
+        - generic [ref=f2e5279] [cursor=pointer]:
+          - generic [ref=f2e5280]:
+            - checkbox "Podmaslie — 299 ml 0,92 €" [ref=f2e5281]
+            - text: Podmaslie —
+            - generic [ref=f2e5282]: 299 ml
+          - generic [ref=f2e5283]: 0,92 €
+        - generic [ref=f2e5284] [cursor=pointer]:
+          - generic [ref=f2e5285]:
+            - 'checkbox "Proteínový puding — 1197 g (bal.: 6× 200 g) 14,37 €" [ref=f2e5286]'
+            - text: Proteínový puding —
+            - generic [ref=f2e5287]: "1197 g (bal.: 6× 200 g)"
+          - generic [ref=f2e5288]: 14,37 €
+        - generic [ref=f2e5289] [cursor=pointer]:
+          - generic [ref=f2e5290]:
+            - 'checkbox "Vajce — 3 ks (bal.: 1× 10 ks) 0,74 €" [ref=f2e5291]'
+            - text: Vajce —
+            - generic [ref=f2e5292]: "3 ks (bal.: 1× 10 ks)"
+          - generic [ref=f2e5293]: 0,74 €
+      - generic [ref=f2e5294]:
+        - heading "Cestoviny a ryža" [level=4] [ref=f2e5295]
+        - generic [ref=f2e5296] [cursor=pointer]:
+          - generic [ref=f2e5297]:
+            - checkbox "Celozrnná špaldová hladká múka — 329 g 1,98 €" [ref=f2e5298]
+            - text: Celozrnná špaldová hladká múka —
+            - generic [ref=f2e5299]: 329 g
+          - generic [ref=f2e5300]: 1,98 €
+        - generic [ref=f2e5301] [cursor=pointer]:
+          - generic [ref=f2e5302]:
+            - 'checkbox "Ryža — 269 g (bal.: 1× 1 kg) 0,54 €" [ref=f2e5303]'
+            - text: Ryža —
+            - generic [ref=f2e5304]: "269 g (bal.: 1× 1 kg)"
+          - generic [ref=f2e5305]: 0,54 €
+      - generic [ref=f2e5306]:
+        - heading "Oleje a tuky" [level=4] [ref=f2e5307]
+        - generic [ref=f2e5309] [cursor=pointer]:
+          - 'checkbox "Olivový olej — 0 g (bal.: 1× 1 l)" [ref=f2e5310]'
+          - text: Olivový olej —
+          - generic [ref=f2e5311]: "0 g (bal.: 1× 1 l)"
+      - generic [ref=f2e5312]:
+        - heading "Pečenie a sladké" [level=4] [ref=f2e5313]
+        - generic [ref=f2e5315] [cursor=pointer]:
+          - checkbox "Kokosový olej — 0 g" [ref=f2e5316]
+          - text: Kokosový olej —
+          - generic [ref=f2e5317]: 0 g
+        - generic [ref=f2e5319] [cursor=pointer]:
+          - checkbox "Kypriaci prášok bez fosfátov — 0 g" [ref=f2e5320]
+          - text: Kypriaci prášok bez fosfátov —
+          - generic [ref=f2e5321]: 0 g
+        - generic [ref=f2e5323] [cursor=pointer]:
+          - 'checkbox "Med — 0 g (bal.: 1× 450 g)" [ref=f2e5324]'
+          - text: Med —
+          - generic [ref=f2e5325]: "0 g (bal.: 1× 450 g)"
+      - generic [ref=f2e5326]:
+        - heading "Korenie a bylinky" [level=4] [ref=f2e5327]
+        - generic [ref=f2e5329] [cursor=pointer]:
+          - checkbox "Mletá škorica — 0 g" [ref=f2e5330]
+          - text: Mletá škorica —
+          - generic [ref=f2e5331]: 0 g
+        - generic [ref=f2e5333] [cursor=pointer]:
+          - text: Soľ —
+          - generic [ref=f2e5334]: podľa chuti
+      - generic [ref=f2e5335]:
+        - heading "Ostatné" [level=4] [ref=f2e5336]
+        - generic [ref=f2e5338] [cursor=pointer]:
+          - checkbox "Kurací vývar — 299 ml" [ref=f2e5339]
+          - text: Kurací vývar —
+          - generic [ref=f2e5340]: 299 ml

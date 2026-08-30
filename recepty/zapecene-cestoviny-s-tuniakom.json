@@ -1,39 +1,109 @@
 {
-  "id": "zapecene-cestoviny-s-tuniakom",
-  "nazov": "Zapečené cestoviny s tuniakom",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 5,
-  "cas": "60 min",
-  "kcal_na_porciu": 592,
-  "popis": "Zapekané celozrnné penne s tuniakom, kukuricou, paradajkami a mozzarellou.",
-  "ingrediencie": [
-    {"nazov": "Celozrnné alebo bezlepkové penne", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Paradajkový pretlak", "mnozstvo": 2, "jednotka": "PL", "poznamka": "bez cukru"},
-    {"nazov": "Predvarená kukurica", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Paradajky", "mnozstvo": 200, "jednotka": "g", "poznamka": "z konzervy"},
-    {"nazov": "Rozmarín", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Tymian", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Tuniak vo vlastnej šťave", "mnozstvo": 350, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mozzarella", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 200 °C.",
-    "Cestoviny uvarte v osolenej vode podľa návodu na obale.",
-    "Na oleji restujte nadrobno nakrájanú šalotku 5 minút.",
-    "Pridajte cesnak a pretlak, restujte ďalšiu minútu.",
-    "Pridajte kukuricu, paradajky, rozmarín a tymian, podlejte 100 ml vody, duste pod pokrievkou 15-20 minút.",
-    "Vmiešajte tuniaka, uvarené cestoviny a nakrájanú mozzarellu.",
-    "Preneste do zapekacej misy, dochutite soľou a korením.",
-    "Pečte pri 190-200 °C 15-20 minút."
-  ],
-  "tipy": "Vyskúšajte ostrejšiu verziu s mletou chilli paprikou.",
-  "foto": "",
-  "tagy": ["cestoviny", "tuniak", "zapekané", "mozzarella"]
+ "id": "zapecene-cestoviny-s-tuniakom",
+ "nazov": "Zapečené cestoviny s tuniakom",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 5,
+ "cas": "60 min",
+ "kcal_na_porciu": 592,
+ "popis": "Zapekané celozrnné penne s tuniakom, kukuricou, paradajkami a mozzarellou.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnné alebo bezlepkové penne",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "bez cukru"
+  },
+  {
+   "nazov": "Predvarená kukurica",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "z konzervy"
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tuniak vo vlastnej šťave",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 200 °C.",
+  "Cestoviny uvar v osolenej vode podľa návodu na obale.",
+  "Na oleji restuj nadrobno nakrájanú šalotku 5 minút.",
+  "Pridaj cesnak a pretlak, restuj ďalšiu minútu.",
+  "Pridaj kukuricu, paradajky, rozmarín a tymian, podlej 100 ml vody, dus pod pokrievkou 15-20 minút.",
+  "Vmiešaj tuniaka, uvarené cestoviny a nakrájanú mozzarellu.",
+  "Prenes do zapekacej misy, dochuti soľou a korením.",
+  "Peč pri 190-200 °C 15-20 minút."
+ ],
+ "tipy": "Vyskúšaj ostrejšiu verziu s mletou chilli paprikou.",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "tuniak",
+  "zapekané",
+  "mozzarella"
+ ]
 }

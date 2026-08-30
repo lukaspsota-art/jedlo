@@ -1,0 +1,357 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - complementary [ref=f2e3]:
+      - generic [ref=f2e4]: 🍲 Kuchárka
+      - navigation [ref=f2e5]:
+        - generic [ref=f2e6] [cursor=pointer]:
+          - generic [ref=f2e7]: 🏠
+          - text: Domov
+        - generic [ref=f2e8] [cursor=pointer]:
+          - generic [ref=f2e9]: 📖
+          - text: Recepty
+        - generic [ref=f2e10] [cursor=pointer]:
+          - generic [ref=f2e11]: 📅
+          - text: Plán
+        - generic [ref=f2e12] [cursor=pointer]:
+          - generic [ref=f2e13]: 🛒
+          - text: Nákup
+        - generic [ref=f2e14] [cursor=pointer]:
+          - generic [ref=f2e15]: 📊
+          - text: Výživa
+        - generic [ref=f2e16] [cursor=pointer]:
+          - generic [ref=f2e17]: 🧊
+          - text: Špajza
+      - generic [ref=f2e18]:
+        - generic [ref=f2e19] [cursor=pointer]:
+          - generic [ref=f2e20]: 🥫
+          - text: Čo mám doma
+        - generic [ref=f2e21] [cursor=pointer]:
+          - generic [ref=f2e22]: ⚙️
+          - text: Nastavenia
+    - generic [ref=f2e67]:
+      - heading "Nákupný zoznam" [level=2] [ref=f2e68]
+      - paragraph [ref=f2e69]: Z receptov v pláne, zoradené podľa oddelení v obchode.
+      - generic [ref=f2e70]:
+        - textbox "Pridať vlastnú položku (napr. toaletný papier)…" [ref=f2e71]
+        - button "+ Pridať" [ref=f2e72] [cursor=pointer]
+      - generic [ref=f2e73]:
+        - textbox "Mám doma (odráta sa)…" [ref=f2e74]
+        - button "📤 Zdieľať" [ref=f2e75] [cursor=pointer]
+        - button "📋 Kopírovať" [ref=f2e76] [cursor=pointer]
+        - button "🖨 Tlačiť" [ref=f2e77] [cursor=pointer]
+      - generic [ref=f2e78]:
+        - generic [ref=f2e383]:
+          - heading "Zelenina a ovocie" [level=4] [ref=f2e384]
+          - generic [ref=f2e386] [cursor=pointer]:
+            - checkbox "Baklažán — 2 ks" [ref=f2e387]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e388]: Baklažán
+            - text: —
+            - generic [ref=f2e389]: 2 ks
+          - generic [ref=f2e391] [cursor=pointer]:
+            - checkbox "Cesnak — 9 ks" [ref=f2e392]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e393]: Cesnak
+            - text: —
+            - generic [ref=f2e394]: 9 ks
+          - generic [ref=f2e396] [cursor=pointer]:
+            - checkbox "Cibuľa — 1 ks" [ref=f2e397]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e398]: Cibuľa
+            - text: —
+            - generic [ref=f2e399]: 1 ks
+          - generic [ref=f2e401] [cursor=pointer]:
+            - checkbox "Citrónová šťava — 8 ml" [ref=f2e402]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e403]: Citrónová šťava
+            - text: —
+            - generic [ref=f2e404]: 8 ml
+          - generic [ref=f2e406] [cursor=pointer]:
+            - checkbox "Citrónová šťava — z 1 citróna" [ref=f2e407]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e408]: Citrónová šťava
+            - text: —
+            - generic [ref=f2e409]: z 1 citróna
+          - generic [ref=f2e411] [cursor=pointer]:
+            - checkbox "Jarná cibuľka — 3 ks" [ref=f2e412]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e413]: Jarná cibuľka
+            - text: —
+            - generic [ref=f2e414]: 3 ks
+          - generic [ref=f2e416] [cursor=pointer]:
+            - checkbox "Limetková šťava — z 0.5 limetky" [ref=f2e417]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e418]: Limetková šťava
+            - text: —
+            - generic [ref=f2e419]: z 0.5 limetky
+          - generic [ref=f2e421] [cursor=pointer]:
+            - checkbox "Mäsité paradajky — 11 ks" [ref=f2e422]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e423]: Mäsité paradajky
+            - text: —
+            - generic [ref=f2e424]: 11 ks
+          - generic [ref=f2e426] [cursor=pointer]:
+            - checkbox "Predvarená červená repa — 223 g" [ref=f2e427]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e428]: Predvarená červená repa
+            - text: —
+            - generic [ref=f2e429]: 223 g
+          - generic [ref=f2e431] [cursor=pointer]:
+            - checkbox "Šalát — 10 ks" [ref=f2e432]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e433]: Šalát
+            - text: —
+            - generic [ref=f2e434]: 10 ks
+          - generic [ref=f2e436] [cursor=pointer]:
+            - checkbox "Šalotka — 1 ks" [ref=f2e437]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e438]: Šalotka
+            - text: —
+            - generic [ref=f2e439]: 1 ks
+          - generic [ref=f2e441] [cursor=pointer]:
+            - checkbox "Špenátové listy — 201 g" [ref=f2e442]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e443]: Špenátové listy
+            - text: —
+            - generic [ref=f2e444]: 201 g
+          - generic [ref=f2e446] [cursor=pointer]:
+            - checkbox "Uhorka hadovka — 134 g" [ref=f2e447]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e448]: Uhorka hadovka
+            - text: —
+            - generic [ref=f2e449]: 134 g
+          - generic [ref=f2e451] [cursor=pointer]:
+            - checkbox "Zeler — 51 g" [ref=f2e452]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e453]: Zeler
+            - text: —
+            - generic [ref=f2e454]: 51 g
+          - generic [ref=f2e456] [cursor=pointer]:
+            - checkbox "Žampióny — 223 g" [ref=f2e457]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e458]: Žampióny
+            - text: —
+            - generic [ref=f2e459]: 223 g
+        - generic [ref=f2e460]:
+          - heading "Mäso a ryby" [level=4] [ref=f2e461]
+          - generic [ref=f2e463] [cursor=pointer]:
+            - checkbox "Kuracie prsia — 535 g" [ref=f2e464]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e465]: Kuracie prsia
+            - text: —
+            - generic [ref=f2e466]: 535 g
+          - generic [ref=f2e468] [cursor=pointer]:
+            - checkbox "Kuracie stehná bez kosti — 529 g" [ref=f2e469]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e470]: Kuracie stehná bez kosti
+            - text: —
+            - generic [ref=f2e471]: 529 g
+          - generic [ref=f2e473] [cursor=pointer]:
+            - 'checkbox "Šunka — 178 g (bal.: 2× 100 g)" [ref=f2e474]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e475]: Šunka
+            - text: —
+            - generic [ref=f2e476]: "178 g (bal.: 2× 100 g)"
+          - generic [ref=f2e478] [cursor=pointer]:
+            - checkbox "Tuniak — 280 g" [ref=f2e479]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e480]: Tuniak
+            - text: —
+            - generic [ref=f2e481]: 280 g
+        - generic [ref=f2e482]:
+          - heading "Mliečne a vajcia" [level=4] [ref=f2e483]
+          - generic [ref=f2e485] [cursor=pointer]:
+            - 'checkbox "Biely jogurt — 268 g (bal.: 2× 150 g)" [ref=f2e486]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e487]: Biely jogurt
+            - text: —
+            - generic [ref=f2e488]: "268 g (bal.: 2× 150 g)"
+          - generic [ref=f2e490] [cursor=pointer]:
+            - 'checkbox "Eidam — 107 g (bal.: 1× 300 g)" [ref=f2e491]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e492]: Eidam
+            - text: —
+            - generic [ref=f2e493]: "107 g (bal.: 1× 300 g)"
+          - generic [ref=f2e495] [cursor=pointer]:
+            - 'checkbox "Maslo — 73 g (bal.: 1× 250 g)" [ref=f2e496]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e497]: Maslo
+            - text: —
+            - generic [ref=f2e498]: "73 g (bal.: 1× 250 g)"
+          - generic [ref=f2e500] [cursor=pointer]:
+            - checkbox "Mozzarella — 513 g" [ref=f2e501]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e502]: Mozzarella
+            - text: —
+            - generic [ref=f2e503]: 513 g
+          - generic [ref=f2e505] [cursor=pointer]:
+            - checkbox "Olomoucké tvarôžky — 209 g" [ref=f2e506]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e507]: Olomoucké tvarôžky
+            - text: —
+            - generic [ref=f2e508]: 209 g
+          - generic [ref=f2e510] [cursor=pointer]:
+            - checkbox "Ricotta — 302 g" [ref=f2e511]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e512]: Ricotta
+            - text: —
+            - generic [ref=f2e513]: 302 g
+          - generic [ref=f2e515] [cursor=pointer]:
+            - 'checkbox "Tvaroh — 272 g (bal.: 2× 250 g)" [ref=f2e516]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e517]: Tvaroh
+            - text: —
+            - generic [ref=f2e518]: "272 g (bal.: 2× 250 g)"
+          - generic [ref=f2e520] [cursor=pointer]:
+            - 'checkbox "Vajce — 4 ks (bal.: 1× 10 ks)" [ref=f2e521]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e522]: Vajce
+            - text: —
+            - generic [ref=f2e523]: "4 ks (bal.: 1× 10 ks)"
+          - generic [ref=f2e525] [cursor=pointer]:
+            - checkbox "Vaječné bielka — 3 ks" [ref=f2e526]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e527]: Vaječné bielka
+            - text: —
+            - generic [ref=f2e528]: 3 ks
+        - generic [ref=f2e529]:
+          - heading "Pečivo" [level=4] [ref=f2e530]
+          - generic [ref=f2e532] [cursor=pointer]:
+            - checkbox "Bageta — 777 g" [ref=f2e533]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e534]: Bageta
+            - text: —
+            - generic [ref=f2e535]: 777 g
+          - generic [ref=f2e537] [cursor=pointer]:
+            - 'checkbox "Krekry — 334 g (bal.: 4× 100 g)" [ref=f2e538]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e539]: Krekry
+            - text: —
+            - generic [ref=f2e540]: "334 g (bal.: 4× 100 g)"
+          - generic [ref=f2e542] [cursor=pointer]:
+            - checkbox "Tortilla — 7 ks" [ref=f2e543]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e544]: Tortilla
+            - text: —
+            - generic [ref=f2e545]: 7 ks
+        - generic [ref=f2e546]:
+          - heading "Cestoviny a ryža" [level=4] [ref=f2e547]
+          - generic [ref=f2e549] [cursor=pointer]:
+            - 'checkbox "Ryža — 1323 g (bal.: 2× 1 kg)" [ref=f2e550]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e551]: Ryža
+            - text: —
+            - generic [ref=f2e552]: "1323 g (bal.: 2× 1 kg)"
+        - generic [ref=f2e553]:
+          - heading "Omáčky a dochucovadlá" [level=4] [ref=f2e554]
+          - generic [ref=f2e556] [cursor=pointer]:
+            - checkbox "Horčica — 36 g" [ref=f2e557]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e558]: Horčica
+            - text: —
+            - generic [ref=f2e559]: 36 g
+          - generic [ref=f2e561] [cursor=pointer]:
+            - checkbox "Jablčný ocot — 11 ml" [ref=f2e562]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e563]: Jablčný ocot
+            - text: —
+            - generic [ref=f2e564]: 11 ml
+          - generic [ref=f2e566] [cursor=pointer]:
+            - 'checkbox "Kečup — 45 ml (bal.: 1× 500 g)" [ref=f2e567]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e568]: Kečup
+            - text: —
+            - generic [ref=f2e569]: "45 ml (bal.: 1× 500 g)"
+          - generic [ref=f2e571] [cursor=pointer]:
+            - checkbox "Majonéza — 56 g" [ref=f2e572]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e573]: Majonéza
+            - text: —
+            - generic [ref=f2e574]: 56 g
+          - generic [ref=f2e576] [cursor=pointer]:
+            - 'checkbox "Sójová omáčka — 17 ml (bal.: 1× 150 ml)" [ref=f2e577]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e578]: Sójová omáčka
+            - text: —
+            - generic [ref=f2e579]: "17 ml (bal.: 1× 150 ml)"
+          - generic [ref=f2e581] [cursor=pointer]:
+            - checkbox "Vínny ocot — 14 g" [ref=f2e582]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e583]: Vínny ocot
+            - text: —
+            - generic [ref=f2e584]: 14 g
+          - generic [ref=f2e586] [cursor=pointer]:
+            - checkbox "Worcestershire omáčka — 8 ml" [ref=f2e587]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e588]: Worcestershire omáčka
+            - text: —
+            - generic [ref=f2e589]: 8 ml
+        - generic [ref=f2e590]:
+          - heading "Oleje a tuky" [level=4] [ref=f2e591]
+          - generic [ref=f2e593] [cursor=pointer]:
+            - checkbox "Ghí — 12 g" [ref=f2e594]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e595]: Ghí
+            - text: —
+            - generic [ref=f2e596]: 12 g
+          - generic [ref=f2e598] [cursor=pointer]:
+            - 'checkbox "Olivový olej — 77 ml (bal.: 1× 1 l)" [ref=f2e599]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e600]: Olivový olej
+            - text: —
+            - generic [ref=f2e601]: "77 ml (bal.: 1× 1 l)"
+          - generic [ref=f2e603] [cursor=pointer]:
+            - 'checkbox "Slnečnicový olej — 15 g (bal.: 1× 1 l)" [ref=f2e604]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e605]: Slnečnicový olej
+            - text: —
+            - generic [ref=f2e606]: "15 g (bal.: 1× 1 l)"
+        - generic [ref=f2e607]:
+          - heading "Orechy a semená" [level=4] [ref=f2e608]
+          - generic [ref=f2e610] [cursor=pointer]:
+            - 'checkbox "Mandle — 107 g (bal.: 1× 200 g)" [ref=f2e611]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e612]: Mandle
+            - text: —
+            - generic [ref=f2e613]: "107 g (bal.: 1× 200 g)"
+          - generic [ref=f2e615] [cursor=pointer]:
+            - 'checkbox "Vlašské orechy — 15 g (bal.: 1× 100 g)" [ref=f2e616]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e617]: Vlašské orechy
+            - text: —
+            - generic [ref=f2e618]: "15 g (bal.: 1× 100 g)"
+        - generic [ref=f2e619]:
+          - heading "Pečenie a sladké" [level=4] [ref=f2e620]
+          - generic [ref=f2e622] [cursor=pointer]:
+            - 'checkbox "Cukor — 30 g (bal.: 1× 1 kg)" [ref=f2e623]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e624]: Cukor
+            - text: —
+            - generic [ref=f2e625]: "30 g (bal.: 1× 1 kg)"
+          - generic [ref=f2e627] [cursor=pointer]:
+            - 'checkbox "Čokoláda — 45 g (bal.: 1× 100 g)" [ref=f2e628]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e629]: Čokoláda
+            - text: —
+            - generic [ref=f2e630]: "45 g (bal.: 1× 100 g)"
+          - generic [ref=f2e632] [cursor=pointer]:
+            - 'checkbox "Hnedý cukor — 29 g (bal.: 1× 500 g)" [ref=f2e633]'
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e634]: Hnedý cukor
+            - text: —
+            - generic [ref=f2e635]: "29 g (bal.: 1× 500 g)"
+        - generic [ref=f2e636]:
+          - heading "Korenie a bylinky" [level=4] [ref=f2e637]
+          - generic [ref=f2e639] [cursor=pointer]:
+            - checkbox "Čerstvé bazalkové listy — alebo lyžička sušenej bazalky" [ref=f2e640]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e641]: Čerstvé bazalkové listy
+            - text: —
+            - generic [ref=f2e642]: alebo lyžička sušenej bazalky
+          - generic [ref=f2e644] [cursor=pointer]:
+            - checkbox "Čerstvý kôpor — 45 g" [ref=f2e645]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e646]: Čerstvý kôpor
+            - text: —
+            - generic [ref=f2e647]: 45 g
+          - generic [ref=f2e649] [cursor=pointer]:
+            - checkbox "Čierne korenie — podľa chuti" [ref=f2e650]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e651]: Čierne korenie
+            - text: —
+            - generic [ref=f2e652]: podľa chuti
+          - generic [ref=f2e654] [cursor=pointer]:
+            - checkbox "Koriander mletý — 4 g" [ref=f2e655]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e656]: Koriander mletý
+            - text: —
+            - generic [ref=f2e657]: 4 g
+          - generic [ref=f2e659] [cursor=pointer]:
+            - checkbox "Mletá bazalka — 2 ks" [ref=f2e660]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e661]: Mletá bazalka
+            - text: —
+            - generic [ref=f2e662]: 2 ks
+          - generic [ref=f2e664] [cursor=pointer]:
+            - checkbox "Oregano mleté — 4 g" [ref=f2e665]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e666]: Oregano mleté
+            - text: —
+            - generic [ref=f2e667]: 4 g
+          - generic [ref=f2e669] [cursor=pointer]:
+            - checkbox "Soľ — podľa chuti" [ref=f2e670]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e671]: Soľ
+            - text: —
+            - generic [ref=f2e672]: podľa chuti
+          - generic [ref=f2e674] [cursor=pointer]:
+            - checkbox "Sušený rozmarín — 2 g" [ref=f2e675]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e676]: Sušený rozmarín
+            - text: —
+            - generic [ref=f2e677]: 2 g
+        - generic [ref=f2e678]:
+          - heading "Ostatné" [level=4] [ref=f2e679]
+          - generic [ref=f2e681] [cursor=pointer]:
+            - checkbox "Zeleninový vývar — 713 ml" [ref=f2e682]
+            - generic "v ktorom recepte · čím nahradiť" [ref=f2e683]: Zeleninový vývar
+            - text: —
+            - generic [ref=f2e684]: 713 ml
+  - generic [ref=f2e686]:
+    - generic [ref=f2e687]:
+      - button "✕" [ref=f2e688] [cursor=pointer]
+      - heading "Cesnak" [level=2] [ref=f2e689]
+    - generic [ref=f2e690]:
+      - heading "🍲 V ktorom recepte (z plánu)" [level=4] [ref=f2e691]
+      - generic [ref=f2e692] [cursor=pointer]: 🍽️ Kuracie špízy s tzatziki
+      - generic [ref=f2e694] [cursor=pointer]: 🍽️ Rizoto z červenej repy
+      - generic [ref=f2e696] [cursor=pointer]: 🍽️ Pizza so špenátovým základom
+      - generic [ref=f2e698] [cursor=pointer]: 🍽️ Zapečený baklažán s olomouckými tvarôžkami
+      - generic [ref=f2e700] [cursor=pointer]: 🍽️ Sticky Baked Chicken Thighs
+      - heading "🔄 Čím nahradiť" [level=4] [ref=f2e702]
+      - paragraph [ref=f2e703]: Pre túto surovinu nemám návrh náhrady.

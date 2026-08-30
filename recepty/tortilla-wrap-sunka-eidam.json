@@ -1,59 +1,59 @@
 {
-  "id": "tortilla-wrap-sunka-eidam",
-  "nazov": "Tortilla wrap so šunkou a eidamom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Slovenská",
-  "zdroj": "Kaufland jedálniček",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 397,
-  "popis": "Studený raňajkový wrap so šunkou, eidamom, šalátom a horčicou — na prípravu večer vopred.",
-  "ingrediencie": [
-    {
-      "nazov": "Tortilla",
-      "mnozstvo": 4,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "od kosti"
-    },
-    {
-      "nazov": "Eidam",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": "30 %, plátky"
-    },
-    {
-      "nazov": "Šalát",
-      "mnozstvo": 4,
-      "jednotka": "list"
-    },
-    {
-      "nazov": "Horčica",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": "francúzska"
-    }
-  ],
-  "postup": [
-    "Na tortillu natri tenšiu vrstvu masla a horčice.",
-    "Poukladaj plátky šunky a eidamu.",
-    "Pridaj list šalátu.",
-    "Pevne zaroluj, zabaľ do fólie a ulož do chladničky."
-  ],
-  "tipy": "Priprav večer vopred — cez noc chuť pekne prejde.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "wrap",
-    "meal-prep"
-  ]
+ "id": "tortilla-wrap-sunka-eidam",
+ "nazov": "Tortilla wrap so šunkou a eidamom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Slovenská",
+ "zdroj": "Kaufland jedálniček",
+ "porcie": 4,
+ "cas": "10 min",
+ "kcal_na_porciu": 397,
+ "popis": "Studený raňajkový wrap so šunkou, eidamom, šalátom a horčicou — na prípravu večer vopred.",
+ "ingrediencie": [
+  {
+   "nazov": "Tortilla",
+   "mnozstvo": 4,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "od kosti"
+  },
+  {
+   "nazov": "Eidam",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "30 %, plátky"
+  },
+  {
+   "nazov": "Šalát",
+   "mnozstvo": 4,
+   "jednotka": "list"
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "francúzska"
+  }
+ ],
+ "postup": [
+  "Na tortillu natri tenšiu vrstvu masla a horčice.",
+  "Poukladaj plátky šunky a eidamu.",
+  "Pridaj list šalátu.",
+  "Pevne zaroluj, zabaľ do fólie a ulož do chladničky."
+ ],
+ "tipy": "Priprav večer vopred — cez noc chuť pekne prejde.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "wrap",
+  "meal-prep"
+ ]
 }

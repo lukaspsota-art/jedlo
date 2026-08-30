@@ -81,7 +81,11 @@ async function main() {
   S.viewOd = app.pridajDni(PRVY_PONDELOK, (N - 1) * 7);
   const rows = app.nakupItems();
   const cenaTyzdna = rows.reduce((a, r) => a + (r.cena || 0), 0);
-  const bezCeny = rows.filter(r => r.bezCeny || (r.gkey && !(r.cena > 0))).length;
+  // Pozor: „cena 0 €" ≠ „neznáma cena". Voda z vodovodu má cena100: 0, čo je ZNÁMA cena, a stará
+  // podmienka (!(r.cena > 0)) ju rátala medzi chýbajúce. Rozhodnutie robí appka (dovodBezCeny),
+  // nech merací skript a UI hlásia to isté číslo.
+  const bezCeny = rows.filter(r => r.bezCeny).length;
+  const bezCenyZoz = rows.filter(r => r.bezCeny).map(r => r.nazov + " (" + r.dovodCeny + ")");
 
   const posledne = dni.slice(-7);
   const priem = f => posledne.reduce((a, d) => a + f(d), 0) / (posledne.length || 1);
@@ -103,6 +107,11 @@ async function main() {
   const baseV10 = dni.filter(d => Math.abs(d.base - ciel) <= ciel * 0.1).length;
   const poV10 = dni.filter(d => Math.abs(d.kcal - ciel) <= ciel * 0.1).length;
   const bielMed = median(dni.map(d => d.b));
+  // priemer/medián vlákniny cez VŠETKY dni — sekcia „VÝŽIVA" ju počíta len z posledného týždňa,
+  // 7 dní pri tejto metrike skáče o ±5 g
+  const vlPriem = dni.reduce((a, d) => a + d.vl, 0) / (dni.length || 1);
+  const vlMed = median(dni.map(d => d.vl));
+  const bielPriem = dni.reduce((a, d) => a + d.b, 0) / (dni.length || 1);
   const bielPod80 = dni.filter(d => d.b < 80).length;
   let opakovanieSusedne = 0;
   for (let i = 1; i < pouziteVTyzdni.length; i++)
@@ -119,6 +128,7 @@ async function main() {
   T("priemer sodíka/deň", Math.round(priem(d => d.na)) + " mg");
   T("cena týždňa (Nákup)", (Math.round(cenaTyzdna * 100) / 100).toFixed(2) + " €");
   T("položiek nákupu bez ceny", bezCeny + " / " + rows.length);
+  if (bezCeny) console.log("    ↳ " + bezCenyZoz.join("\n    ↳ "));
 
   console.log(`\n=== GENERÁTOR (${N} týždňov = ${dni.length} dní) ===`);
   T("Obed ≥ Večera", pct(obedVecera, dniOVR.length) + " %");
@@ -132,7 +142,9 @@ async function main() {
   T("dní v ±10 % cieľa (pred škálovaním)", pct(baseV10, dni.length) + " %");
   T("dní v ±10 % cieľa (po škálovaní)", pct(poV10, dni.length) + " %");
   T("medián bielkovín/deň", Math.round(bielMed * 10) / 10 + " g");
+  T("priemer bielkovín/deň (všetky dni)", Math.round(bielPriem * 10) / 10 + " g");
   T("dní pod 80 g bielkovín", pct(bielPod80, dni.length) + " %");
+  T("vláknina/deň priemer / medián (všetky dni)", Math.round(vlPriem * 10) / 10 + " / " + Math.round(vlMed * 10) / 10 + " g");
   T("medián kcal Raňajky/Obed/Večera/Snack",
     ["Raňajky", "Obed", "Večera", "Snack"].map(s => Math.round(median(slotKcal[s] || [0]))).join(" / "));
   T("2× sacharid (príloha k sach. jedlu)", carbNaCarb + " / " + hlavnychChodov);

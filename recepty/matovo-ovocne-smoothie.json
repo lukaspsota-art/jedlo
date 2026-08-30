@@ -1,42 +1,44 @@
 {
- "id": "matovo-ovocne-smoothie",
- "nazov": "Mätovo-ovocné smoothie",
- "kategoria": "Nápoj",
- "kuchyna": "Medzinárodná",
- "zdroj": "TheCocktailDB – Just a Moonmint",
- "zdroj_url": "https://www.thecocktaildb.com/drink/12688",
- "porcie": 1,
- "cas": "5 min",
- "popis": "Shake · Highball Glass",
- "ingrediencie": [
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 480,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čokoláda",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mäta",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Všetky ingrediencie dáme do mixéra a mixujeme na strednej rýchlosti do hladka.",
-  "Nalejeme do jedného vysokého alebo dvoch stredných pohárov."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "nápoj",
-  "čokoláda",
-  "bezmäsité"
- ]
+  "id": "matovo-ovocne-smoothie",
+  "nazov": "Mätovo-ovocné smoothie",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Just a Moonmint",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12688",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Šejk. Základ: mlieko, čokoláda, mäta. Podávaj vo vysokom pohári.",
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 480,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čokoláda",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Všetky ingrediencie daj do mixéra a mixuj na strednej rýchlosti do hladka.",
+    "Nalej do jedného vysokého alebo dvoch stredných pohárov."
+  ],
+  "tipy": "Šejkruj s ľadom 10–15 sekúnd. Nápoj sa nielen vychladí, ale aj mierne zriedi — a to k nemu patrí.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "čokoláda",
+    "bezmäsité"
+  ],
+  "kcal_na_porciu": 307,
+  "kcal_zdroj": "vypocet"
 }

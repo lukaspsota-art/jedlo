@@ -1,28 +1,58 @@
 {
-  "id": "celozrnne-sunkofleky",
-  "nazov": "Celozrnné šunkofleky",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 10,
-  "cas": "70 min",
-  "kcal_na_porciu": 470,
-  "popis": "Zapekané celozrnné fľaky so šunkou a vajcami.",
-  "ingrediencie": [
-    {"nazov": "Celozrnné cestoviny", "mnozstvo": 1200, "jednotka": "g", "poznamka": "fľaky"},
-    {"nazov": "Kuracia šunka", "mnozstvo": 500, "jednotka": "g", "poznamka": "kvalitná"},
-    {"nazov": "Vajce", "mnozstvo": 8, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 160 °C.",
-    "Fľaky uvarte v osolenej vode domäkka 2-3 minúty.",
-    "Šunku nakrájajte na kocky a zmiešajte s uvarenými fľakmi v zapekacej mise.",
-    "Pečte v rúre 25 minút pri 150-160 °C.",
-    "Vajcia vyšľahajte so soľou a korením, zalejte fľaky a vráťte do rúry na ďalších 25-30 minút."
-  ],
-  "tipy": "Do šunkofliekov môžete pridať cca 300 g čerstvých húb.",
-  "foto": "",
-  "tagy": ["fľaky", "šunka", "zapekané", "cestoviny"]
+ "id": "celozrnne-sunkofleky",
+ "nazov": "Celozrnné šunkofleky",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 10,
+ "cas": "70 min",
+ "kcal_na_porciu": 470,
+ "popis": "Zapekané celozrnné fľaky so šunkou a vajcami.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnné cestoviny",
+   "mnozstvo": 1200,
+   "jednotka": "g",
+   "poznamka": "fľaky"
+  },
+  {
+   "nazov": "Kuracia šunka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": "kvalitná"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 160 °C.",
+  "Fľaky uvar v osolenej vode domäkka 2-3 minúty.",
+  "Šunku nakrájaj na kocky a zmiešaj s uvarenými fľakmi v zapekacej mise.",
+  "Peč v rúre 25 minút pri 150-160 °C.",
+  "Vajcia vyšľahaj so soľou a korením, zalej fľaky a vráť do rúry na ďalších 25-30 minút."
+ ],
+ "tipy": "Do šunkofliekov môžete pridať cca 300 g čerstvých húb.",
+ "foto": "",
+ "tagy": [
+  "fľaky",
+  "šunka",
+  "zapekané",
+  "cestoviny"
+ ]
 }

@@ -1,42 +1,125 @@
 {
-  "id": "portobello-steaky-avokadova-omacka-zemiaky",
-  "nazov": "Portobello steaky s avokádovou omáčkou a zemiakmi",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "60 min",
-  "kcal_na_porciu": 476,
-  "popis": "Grilované portobello huby v citrusovej marináde s krémovou avokádovou omáčkou a maslovými zemiakmi.",
-  "ingrediencie": [
-    {"nazov": "Portobello huby", "mnozstvo": 4, "jednotka": "ks"},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na marinádu"},
-    {"nazov": "Pomaranč", "mnozstvo": 1, "jednotka": "ks", "poznamka": "na šťavu"},
-    {"nazov": "Citrón", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": "na šťavu"},
-    {"nazov": "Sušený tymian", "mnozstvo": 0.5, "jednotka": "ČL"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Zemiaky", "mnozstvo": 500, "jednotka": "g"},
-    {"nazov": "Ghí", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Čerstvá petržlenová vňať", "mnozstvo": 1, "jednotka": "hrsť"},
-    {"nazov": "Avokádo", "mnozstvo": 2, "jednotka": "ks"},
-    {"nazov": "Jarná cibuľka", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": "nasekaná"},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik"},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "do omáčky"},
-    {"nazov": "Citrón", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": "na šťavu do omáčky"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Zemiaky oškrabte a varte v osolenej vode domäkka.",
-    "Zmiešajte olivový olej, pomarančovú a citrónovú šťavu, tymian, soľ a korenie na marinádu.",
-    "Portobellá očistite, vložte do marinády a nechajte 20 minút odstáť.",
-    "Avokádo rozmixujte vidličkou s cesnakom, olivovým olejom, citrónovou šťavou, soľou a korením na omáčku.",
-    "Marinované portobellá opečte na panvici na strednom ohni 4 minúty z každej strany.",
-    "Uvarené zemiaky zmiešajte s ghí a petržlenom.",
-    "Portobellá podávajte poliate avokádovou omáčkou so zemiakmi."
-  ],
-  "tipy": "Portobellá môžete aj grilovať na roštovej mriežke potreté trochou olivového oleja.",
-  "foto": "",
-  "tagy": ["portobello", "avokádo", "zemiaky", "vegetariánske"]
+ "id": "portobello-steaky-avokadova-omacka-zemiaky",
+ "nazov": "Portobello steaky s avokádovou omáčkou a zemiakmi",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "60 min",
+ "kcal_na_porciu": 476,
+ "popis": "Grilované portobello huby v citrusovej marináde s krémovou avokádovou omáčkou a maslovými zemiakmi.",
+ "ingrediencie": [
+  {
+   "nazov": "Portobello huby",
+   "mnozstvo": 4,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na marinádu"
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na šťavu"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "na šťavu"
+  },
+  {
+   "nazov": "Sušený tymian",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 500,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Ghí",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Čerstvá petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "do omáčky"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "na šťavu do omáčky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Zemiaky oškrab a var v osolenej vode domäkka.",
+  "Zmiešaj olivový olej, pomarančovú a citrónovú šťavu, tymian, soľ a korenie na marinádu.",
+  "Portobellá očisti, vlož do marinády a nechaj 20 minút odstáť.",
+  "Avokádo rozmixuj vidličkou s cesnakom, olivovým olejom, citrónovou šťavou, soľou a korením na omáčku.",
+  "Marinované portobellá opeč na panvici na strednom ohni 4 minúty z každej strany.",
+  "Uvarené zemiaky zmiešaj s ghí a petržlenom.",
+  "Portobellá podávaj poliate avokádovou omáčkou so zemiakmi."
+ ],
+ "tipy": "Portobellá môžete aj grilovať na roštovej mriežke potreté trochou olivového oleja.",
+ "foto": "",
+ "tagy": [
+  "portobello",
+  "avokádo",
+  "zemiaky",
+  "vegetariánske"
+ ]
 }

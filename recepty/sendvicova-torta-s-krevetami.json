@@ -1,100 +1,100 @@
 {
-  "id": "sendvicova-torta-s-krevetami",
-  "nazov": "Sendvičová torta s krevetami",
-  "kategoria": "Snack",
-  "kuchyna": "Švédska",
-  "zdroj": "Wikibooks Cookbook – Sandwich Layer-Cake (CC BY-SA)",
-  "porcie": 10,
-  "cas": "60 min",
-  "kcal_na_porciu": 717,
-  "popis": "Švédska smörgåstårta - vrstvy chleba s krevetovou plnkou, obalené v majonéze a ozdobené. Slávnostné predjedlo.",
-  "ingrediencie": [
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Krevety",
-      "mnozstvo": 1000,
-      "jednotka": "g",
-      "poznamka": "s panciermi"
-    },
-    {
-      "nazov": "Cottage",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kyslá smotana",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Toastový chlieb",
-      "mnozstvo": 900,
-      "jednotka": "g",
-      "poznamka": "dva bochníky bieleho chleba"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kôpor",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlen",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vajcia uvar na tvrdo a krevety olúp.",
-    "Približne tretinu kreviet odlož na ozdobenie. Zvyšok nasekaj, ten pôjde do plnky.",
-    "Zmiešaj 100 ml majonézy so 100 ml kyslej smotany v šálke a daj do chladničky.",
-    "Zvyšnú majonézu zmiešaj v inej miske s cottage syrom a nasekanými krevetami - to je plnka.",
-    "Chlieb nakrájaj po dĺžke na osem plátkov hrubých 1 cm. Vrchný a spodný plátok vyhoď.",
-    "Dva plátky polož vedľa seba, najlepšie na dosku. Rozotri na ne tretinu plnky. Prikry ďalšími dvoma plátkami. Rozotri polovicu zvyšnej plnky a zopakuj pre poslednú vrstvu. Torta má mať štyri vrstvy chleba a tri vrstvy plnky.",
-    "Ak treba, ostrým nožom zarovnaj hrany torty.",
-    "Vyber z chladničky zmes majonézy s kyslou smotanou a natri ju tenko a rovnomerne na boky a vrch torty.",
-    "Boky obaľ nasekaným petržlenom alebo kôprom. Ozdob krevetami, plátkami vajec a vetvičkami kôpru alebo plátkami citróna."
-  ],
-  "tipy": "Do jednotlivých vrstiev sa dajú použiť rôzne plnky, len musia chuťovo ladiť. Dá sa spraviť aj trojvrstvová torta. Namiesto celej torty sa dá pred podávaním nakrájať na porcie. Keďže je pomerne ťažká, podáva sa so zmiešaným salátom.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "predjedlo",
-    "švédska",
-    "krevety",
-    "príprava vopred",
-    "oslava"
-  ]
+ "id": "sendvicova-torta-s-krevetami",
+ "nazov": "Sendvičová torta s krevetami",
+ "kategoria": "Snack",
+ "kuchyna": "Švédska",
+ "zdroj": "Wikibooks Cookbook – Sandwich Layer-Cake (CC BY-SA)",
+ "porcie": 10,
+ "cas": "60 min",
+ "kcal_na_porciu": 717,
+ "popis": "Švédska smörgåstårta - vrstvy chleba s krevetovou plnkou, obalené v majonéze a ozdobené. Slávnostné predjedlo.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krevety",
+   "mnozstvo": 1000,
+   "jednotka": "g",
+   "poznamka": "s panciermi"
+  },
+  {
+   "nazov": "Cottage",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Toastový chlieb",
+   "mnozstvo": 900,
+   "jednotka": "g",
+   "poznamka": "dva bochníky bieleho chleba"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vajcia uvar na tvrdo a krevety olúp.",
+  "Približne tretinu kreviet odlož na ozdobenie. Zvyšok nasekaj, ten pôjde do plnky.",
+  "Zmiešaj 100 ml majonézy so 100 ml kyslej smotany v šálke a daj do chladničky.",
+  "Zvyšnú majonézu zmiešaj v inej miske s cottage syrom a nasekanými krevetami - to je plnka.",
+  "Chlieb nakrájaj po dĺžke na osem plátkov hrubých 1 cm. Vrchný a spodný plátok vyhoď.",
+  "Dva plátky polož vedľa seba, najlepšie na dosku. Rozotri na ne tretinu plnky. Prikry ďalšími dvoma plátkami. Rozotri polovicu zvyšnej plnky a zopakuj pre poslednú vrstvu. Torta má mať štyri vrstvy chleba a tri vrstvy plnky.",
+  "Ak treba, ostrým nožom zarovnaj hrany torty.",
+  "Vyber z chladničky zmes majonézy s kyslou smotanou a natri ju tenko a rovnomerne na boky a vrch torty.",
+  "Boky obaľ nasekaným petržlenom alebo kôprom. Ozdob krevetami, plátkami vajec a vetvičkami kôpru alebo plátkami citróna."
+ ],
+ "tipy": "Do jednotlivých vrstiev sa dajú použiť rôzne plnky, len musia chuťovo ladiť. Dá sa spraviť aj trojvrstvová torta. Namiesto celej torty sa dá pred podávaním nakrájať na porcie. Keďže je pomerne ťažká, podáva sa so zmiešaným salátom.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "predjedlo",
+  "švédska",
+  "krevety",
+  "príprava vopred",
+  "oslava"
+ ]
 }

@@ -1,92 +1,93 @@
 {
- "id": "cestoviny-s-cicerom-a-paradajkami",
- "nazov": "Cestoviny s cícerom a paradajkovou omáčkou",
- "kategoria": "Cestoviny",
- "kuchyna": "Talianska",
- "zdroj": "Varecha.sk – Mangoldové cestoviny v paradajkovej omáčke (autor: redakcia)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/mangoldove-cestoviny-v-paradajkovej-omacke/18150-recept.html",
- "porcie": 4,
- "cas": "30 min",
- "kcal_na_porciu": 394,
- "popis": "Sýte vegetariánske cestoviny s cícerom, paradajkovou omáčkou a bazalkou.",
- "ingrediencie": [
-  {
-   "nazov": "Cestovina conchiglioni",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Syr ricotta",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mangold",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Drvené paradajky",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvá bazalka",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 75,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté čerstvé korenie",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jarná cibuľka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Parmezán",
-   "mnozstvo": 40,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Cestoviny si uvaríme v osolenej vode. Na troche oleja speníme jarnú cibuľku a pridáme natrhaný čerstvý mangold a opražíme. Pridáme ricottu, dochutíme soľou, korením a cesnakom.",
-  "Conchiglioni naplníme pripravenou zmesou a poukladáme do zapekacej misky v dvoch vrstvách. Posypeme parmezánom a zapečieme.",
-  "Omáčku pripravíme z drvených paradajok, a to opražením na cibuľke a podusením s bazalkou."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "vegetariánske",
-  "cícer"
- ]
+  "id": "cestoviny-s-cicerom-a-paradajkami",
+  "nazov": "Cestoviny s cícerom a paradajkovou omáčkou",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "Varecha.sk – Mangoldové cestoviny v paradajkovej omáčke (autor: redakcia)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/mangoldove-cestoviny-v-paradajkovej-omacke/18150-recept.html",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 844,
+  "popis": "Sýte vegetariánske cestoviny s cícerom, paradajkovou omáčkou a bazalkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Cestovina conchiglioni",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr ricotta",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mangold",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Drvené paradajky",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvá bazalka",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 75,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté čerstvé korenie",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jarná cibuľka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cestoviny si uvar v osolenej vode. Na troche oleja speň jarnú cibuľku a pridaj natrhaný čerstvý mangold a opraž. Pridaj ricottu, dochuť soľou, korením a cesnakom.",
+    "Conchiglioni naplň pripravenou zmesou a poukladaj do zapekacej misky v dvoch vrstvách. Posyp parmezánom a zapeč.",
+    "Omáčku priprav z drvených paradajok, a to opražením na cibuľke a podusením s bazalkou."
+  ],
+  "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "vegetariánske",
+    "cícer"
+  ],
+  "kcal_zdroj": "vypocet"
 }

@@ -1,39 +1,94 @@
 {
-  "id": "zapeceny-baklazan-s-olomouckymi-tvarozkami",
-  "nazov": "Zapečený baklažán s olomouckými tvarôžkami",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 147,
-  "popis": "Plnený baklažán s paradajkami, cesnakom a olomouckými tvarôžkami zapečený v rúre.",
-  "ingrediencie": [
-    {"nazov": "Baklažán", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Paradajky", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Jarná cibuľka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Olomoucké tvarôžky", "mnozstvo": 125, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Vaječné bielka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Čerstvé bazalkové listy", "mnozstvo": null, "jednotka": "hrsť", "poznamka": "alebo lyžička sušenej bazalky"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rozohrej rúru na 190 °C.",
-    "Baklažán rozpoly, vydlab dužinu (odlož nabok) a osoľ.",
-    "Vydlabané polovice pečieme na plechu pri 180-190 °C cca 10 minút.",
-    "Vydlabanú dužinu nastrúhaj najemno a daj do misky.",
-    "Pridaj paradajky nakrájané na kocky a roztlačený cesnak.",
-    "Na panvici rozpusti maslo, pridaj cibuľku nakrájanú na kolieska a opeč.",
-    "Po minúte pridaj dužinu s paradajkami a cesnakom, restuj 5 minút.",
-    "Pridaj tvarôžky nakrájané na kocky, vmiešaj vajce a bielka a hneď odstav.",
-    "Naplň polovice baklažánu zmesou.",
-    "Pečieme ďalších 30 minút pri 180-190 °C, kým baklažán nezmäkne.",
-    "Posyp bazalkou a podávaj."
-  ],
-  "tipy": "Baklažán posyp zelenými olivami.",
-  "foto": "",
-  "tagy": ["hlavné jedlo", "baklažán", "tvarôžky", "zapečené"]
+ "id": "zapeceny-baklazan-s-olomouckymi-tvarozkami",
+ "nazov": "Zapečený baklažán s olomouckými tvarôžkami",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 147,
+ "popis": "Plnený baklažán s paradajkami, cesnakom a olomouckými tvarôžkami zapečený v rúre.",
+ "ingrediencie": [
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prepustené maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olomoucké tvarôžky",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vaječné bielka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvé bazalkové listy",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": "alebo lyžička sušenej bazalky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rozohrej rúru na 190 °C.",
+  "Baklažán rozpoly, vydlab dužinu (odlož nabok) a osoľ.",
+  "Vydlabané polovice peč na plechu pri 180-190 °C cca 10 minút.",
+  "Vydlabanú dužinu nastrúhaj najemno a daj do misky.",
+  "Pridaj paradajky nakrájané na kocky a roztlačený cesnak.",
+  "Na panvici rozpusti maslo, pridaj cibuľku nakrájanú na kolieska a opeč.",
+  "Po minúte pridaj dužinu s paradajkami a cesnakom, restuj 5 minút.",
+  "Pridaj tvarôžky nakrájané na kocky, vmiešaj vajce a bielka a hneď odstav.",
+  "Naplň polovice baklažánu zmesou.",
+  "Peč ďalších 30 minút pri 180-190 °C, kým baklažán nezmäkne.",
+  "Posyp bazalkou a podávaj."
+ ],
+ "tipy": "Baklažán posyp zelenými olivami.",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "baklažán",
+  "tvarôžky",
+  "zapečené"
+ ]
 }

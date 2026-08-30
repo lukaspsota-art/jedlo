@@ -1,31 +1,81 @@
 {
-  "id": "mrkvove-placky",
-  "nazov": "Mrkvové placky",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "23 min",
-  "kcal_na_porciu": 279,
-  "popis": "Vyprážané placky z nastrúhanej mrkvy a údeného tofu, dochutené karí a bazalkou.",
-  "ingrediencie": [
-    {"nazov": "Údené tofu", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mrkva", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Sušená bazalka", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Sušené karí", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
-    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Tofu spolu s očistenou mrkvou nastrúhaj.",
-    "Pridaj vajcia, múku, soľ, korenie, bazalku a karí.",
-    "Všetko premiešaj.",
-    "Smaž na panvici na oleji z každej strany 2-4 minúty."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["hlavné jedlo", "mrkva", "tofu", "placky"]
+ "id": "mrkvove-placky",
+ "nazov": "Mrkvové placky",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "23 min",
+ "kcal_na_porciu": 279,
+ "popis": "Vyprážané placky z nastrúhanej mrkvy a údeného tofu, dochutené karí a bazalkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Údené tofu",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušená bazalka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené karí",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Tofu spolu s očistenou mrkvou nastrúhaj.",
+  "Pridaj vajcia, múku, soľ, korenie, bazalku a karí.",
+  "Všetko premiešaj.",
+  "Smaž na panvici na oleji z každej strany 2-4 minúty."
+ ],
+ "tipy": "Tofu pred opekaním vylisuj medzi dvomi utierkami — čím menej vody, tým lepšia kôrka.",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "mrkva",
+  "tofu",
+  "placky"
+ ]
 }

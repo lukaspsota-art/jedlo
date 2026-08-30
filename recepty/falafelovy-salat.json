@@ -1,82 +1,82 @@
 {
-  "id": "falafelovy-salat",
-  "nazov": "Falafelový salát",
-  "kategoria": "Šalát",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "Wikibooks Cookbook – Falafel Salad (CC BY-SA)",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 345,
-  "popis": "Falafelové guľky upečené a dosmažené, premiešané so zeleninou a tahini-jogurtovou omáčkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Falafel",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": "zmes"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 300,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šalát",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": "červený listový, nasekaný"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": "na kúsky"
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "olúpaná, plátky"
-    },
-    {
-      "nazov": "Tahini",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Grécky jogurt",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rastlinný olej",
-      "mnozstvo": null,
-      "jednotka": "na smaženie",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vo veľkej miske prilej vodu k falafelovej zmesi a poriadne rozmiešaj.",
-    "Nechaj 15 minút odstáť, aby zmes nasiakla vodu.",
-    "Vytvor z nej guľky veľké asi 2 cm.",
-    "Guľky poklaď do formy na mini muffiny alebo na plech.",
-    "Peč pri 190 °C 12 minút.",
-    "Rozohrej asi 1 cm oleja na 190 °C.",
-    "Guľky dosmaž do zhnednutia a chrumkava, približne 3 minúty.",
-    "Odkvapkaj a odlož.",
-    "Tahini zmiešaj s jogurtom na omáčku.",
-    "Zeleninu premiešaj s falafelmi a prelej tahini-jogurtovou omáčkou. Falafel môže byť teplý aj studený."
-  ],
-  "tipy": "Predpečenie v rúre pred smažením je trik zo zdroja - guľky sa nerozpadnú v oleji. Zmes musí naozaj 15 minút nasiaknuť.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "obed",
-    "blízkovýchodná",
-    "falafel",
-    "vegetariánske"
-  ]
+ "id": "falafelovy-salat",
+ "nazov": "Falafelový salát",
+ "kategoria": "Šalát",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Wikibooks Cookbook – Falafel Salad (CC BY-SA)",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 345,
+ "popis": "Falafelové guľky upečené a dosmažené, premiešané so zeleninou a tahini-jogurtovou omáčkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Falafel",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "zmes"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalát",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "červený listový, nasekaný"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "na kúsky"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "olúpaná, plátky"
+  },
+  {
+   "nazov": "Tahini",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Grécky jogurt",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": null,
+   "jednotka": "na smaženie",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vo veľkej miske prilej vodu k falafelovej zmesi a poriadne rozmiešaj.",
+  "Nechaj 15 minút odstáť, aby zmes nasiakla vodu.",
+  "Vytvor z nej guľky veľké asi 2 cm.",
+  "Guľky poklaď do formy na mini muffiny alebo na plech.",
+  "Peč pri 190 °C 12 minút.",
+  "Rozohrej asi 1 cm oleja na 190 °C.",
+  "Guľky dosmaž do zhnednutia a chrumkava, približne 3 minúty.",
+  "Odkvapkaj a odlož.",
+  "Tahini zmiešaj s jogurtom na omáčku.",
+  "Zeleninu premiešaj s falafelmi a prelej tahini-jogurtovou omáčkou. Falafel môže byť teplý aj studený."
+ ],
+ "tipy": "Predpečenie v rúre pred smažením je trik zo zdroja - guľky sa nerozpadnú v oleji. Zmes musí naozaj 15 minút nasiaknuť.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "obed",
+  "blízkovýchodná",
+  "falafel",
+  "vegetariánske"
+ ]
 }

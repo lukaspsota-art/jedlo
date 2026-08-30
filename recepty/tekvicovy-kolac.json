@@ -1,38 +1,97 @@
 {
-  "id": "tekvicovy-kolac",
-  "nazov": "Tekvicový koláč",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 12,
-  "cas": "60 min",
-  "kcal_na_porciu": 161,
-  "popis": "Korenistý tekvicový koláč s jogurtovou polevou.",
-  "ingrediencie": [
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 200, "jednotka": "g"},
-    {"nazov": "Mletá škorica", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Mletý zázvor", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Mletý muškátový oriešok", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Prášok do pečiva", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Jedlá sóda", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks"},
-    {"nazov": "Kokosový olej", "mnozstvo": 40, "jednotka": "g", "poznamka": "rozpustený"},
-    {"nazov": "Tekvicové pyré", "mnozstvo": 250, "jednotka": "g"},
-    {"nazov": "Med", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Grécky jogurt", "mnozstvo": 300, "jednotka": "g", "poznamka": "na polevu"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na polevu, alebo pár kvapiek stévie"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 180 °C.",
-    "Do väčšej misy preosejte múku, pridajte škoricu, zázvor, muškátový oriešok, prášok do pečiva, sódu a soľ.",
-    "V druhej mise vyšľahajte vajcia s kokosovým olejom, tekvicovým pyré a medom.",
-    "Spojte obsah oboch mís a premiešajte, aby nezostali hrudky.",
-    "Cesto vlejte do vymastenej koláčovej formy Ø 25 cm.",
-    "Pečte pri 170-180 °C 30-35 minút.",
-    "Koláč necháte vychladnúť a potrite polevou z gréckeho jogurtu a medu."
-  ],
-  "tipy": "Koláč môžete posypať nasucho opraženými vlašskými orechmi.",
-  "foto": "",
-  "tagy": ["koláč", "tekvica", "dezert"]
+ "id": "tekvicovy-kolac",
+ "nazov": "Tekvicový koláč",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 12,
+ "cas": "60 min",
+ "kcal_na_porciu": 161,
+ "popis": "Korenistý tekvicový koláč s jogurtovou polevou.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Mletý zázvor",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Mletý muškátový oriešok",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Jedlá sóda",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "rozpustený"
+  },
+  {
+   "nazov": "Tekvicové pyré",
+   "mnozstvo": 250,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Grécky jogurt",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "na polevu"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na polevu, alebo pár kvapiek stévie"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "Do väčšej misy preosej múku, pridaj škoricu, zázvor, muškátový oriešok, prášok do pečiva, sódu a soľ.",
+  "V druhej mise vyšľahaj vajcia s kokosovým olejom, tekvicovým pyré a medom.",
+  "Spoj obsah oboch mís a premiešaj, aby nezostali hrudky.",
+  "Cesto vlej do vymastenej koláčovej formy Ø 25 cm.",
+  "Peč pri 170-180 °C 30-35 minút.",
+  "Koláč nechaj vychladnúť a potri polevou z gréckeho jogurtu a medu."
+ ],
+ "tipy": "Koláč môžete posypať nasucho opraženými vlašskými orechmi.",
+ "foto": "",
+ "tagy": [
+  "koláč",
+  "tekvica",
+  "dezert"
+ ]
 }

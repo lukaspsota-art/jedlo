@@ -1,32 +1,76 @@
 {
-  "id": "lava-cake",
-  "nazov": "Lava cake",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 401,
-  "popis": "Teplý čokoládový koláčik s tekutým stredom, posypaný pistáciami.",
-  "ingrediencie": [
-    {"nazov": "Horká čokoláda", "mnozstvo": 100, "jednotka": "g", "poznamka": "kvalitná"},
-    {"nazov": "Kokosový olej", "mnozstvo": 30, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vaječný žĺtok", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 75, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Drvené pistácie", "mnozstvo": 50, "jednotka": "g", "poznamka": "na ozdobu"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 175 °C.",
-    "Čokoládu roztopte spolu s kokosovým olejom v rendlíku a necháte trochu vychladnúť.",
-    "Vychladnutú čokoládu zmiešajte so žĺtkom, vajcom, vanilkovým extraktom, múkou a štipkou soli.",
-    "Cesto rozdeľte do 4 vymazaných formičiek.",
-    "Pečte 10 minút pri 165-175 °C.",
-    "Podávajte teplé, posypané drvenými pistáciami."
-  ],
-  "tipy": "Podávajte s domácou banánovo-kokosovou zmrzlinou - rozmixujte kokosové mlieko s banánom a trochou sladidla a zmrazte.",
-  "foto": "",
-  "tagy": ["čokoláda", "dezert", "lava cake"]
+ "id": "lava-cake",
+ "nazov": "Lava cake",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 401,
+ "popis": "Teplý čokoládový koláčik s tekutým stredom, posypaný pistáciami.",
+ "ingrediencie": [
+  {
+   "nazov": "Horká čokoláda",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "kvalitná"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vaječný žĺtok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 75,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Drvené pistácie",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "na ozdobu"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 175 °C.",
+  "Čokoládu roztop spolu s kokosovým olejom v rendlíku a nechaj trochu vychladnúť.",
+  "Vychladnutú čokoládu zmiešaj so žĺtkom, vajcom, vanilkovým extraktom, múkou a štipkou soli.",
+  "Cesto rozdeľ do 4 vymazaných formičiek.",
+  "Peč 10 minút pri 165-175 °C.",
+  "Podávaj teplé, posypané drvenými pistáciami."
+ ],
+ "tipy": "Podávaj s domácou banánovo-kokosovou zmrzlinou - rozmixuj kokosové mlieko s banánom a trochou sladidla a zmraz.",
+ "foto": "",
+ "tagy": [
+  "čokoláda",
+  "dezert",
+  "lava cake"
+ ]
 }

@@ -1,27 +1,54 @@
 {
-  "id": "vajickovy-salat-s-kurkumou",
-  "nazov": "Vajíčkový šalát s kurkumou",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 305,
-  "popis": "Rýchly vaječný šalát s gréckym jogurtom a kurkumou.",
-  "ingrediencie": [
-    {"nazov": "Vajce uvarené natvrdo", "mnozstvo": 6, "jednotka": "ks"},
-    {"nazov": "Grécky biely jogurt", "mnozstvo": 250, "jednotka": "g"},
-    {"nazov": "Kurkuma", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Vajcia nakrájajte na kocky.",
-    "Zmiešajte s jogurtom a kurkumou.",
-    "Osoľte a opepríte podľa chuti.",
-    "Necháte uležať aspoň 2 hodiny v chladničke."
-  ],
-  "tipy": "Namiesto jogurtu vyskúšajte napríklad domáci smotanový syr.",
-  "foto": "",
-  "tagy": ["šalát", "vajcia", "jogurt", "kurkuma"]
+ "id": "vajickovy-salat-s-kurkumou",
+ "nazov": "Vajíčkový šalát s kurkumou",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 2,
+ "cas": "15 min",
+ "kcal_na_porciu": 305,
+ "popis": "Rýchly vaječný šalát s gréckym jogurtom a kurkumou.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajce uvarené natvrdo",
+   "mnozstvo": 6,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Grécky biely jogurt",
+   "mnozstvo": 250,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kurkuma",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Vajcia nakrájaj na kocky.",
+  "Zmiešaj s jogurtom a kurkumou.",
+  "Osoľ a opepri podľa chuti.",
+  "Nechaj uležať aspoň 2 hodiny v chladničke."
+ ],
+ "tipy": "Namiesto jogurtu vyskúšaj napríklad domáci smotanový syr.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "vajcia",
+  "jogurt",
+  "kurkuma"
+ ]
 }

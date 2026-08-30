@@ -1,40 +1,110 @@
 {
-  "id": "karfiolova-pizza",
-  "nazov": "Karfiolová pizza",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Talianska",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 5,
-  "cas": "45 min",
-  "kcal_na_porciu": 147,
-  "popis": "Nízkosacharidová pizza s cestom z karfiolu, s domácou paradajkovou omáčkou.",
-  "ingrediencie": [
-    {"nazov": "Karfiol", "mnozstvo": 1, "jednotka": "ks", "poznamka": "stredný, na cesto"},
-    {"nazov": "Vajce", "mnozstvo": 3, "jednotka": "ks", "poznamka": "na cesto"},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na cesto"},
-    {"nazov": "Sušené oregano", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na cesto"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "na cesto, podľa chuti"},
-    {"nazov": "Ľanové semienko", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na cesto"},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na omáčku"},
-    {"nazov": "Biela cibuľa", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": "na omáčku"},
-    {"nazov": "Paradajky", "mnozstvo": 400, "jednotka": "g", "poznamka": "konzerva, na omáčku"},
-    {"nazov": "Paradajkový pretlak", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na omáčku"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "na omáčku, podľa chuti"},
-    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "na omáčku, podľa chuti"},
-    {"nazov": "Oregano", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "na omáčku"}
-  ],
-  "postup": [
-    "Rozohrej rúru na 190 °C.",
-    "Karfiol umy, rozdeľ na ružičky a uvar domäkka.",
-    "Vodu zlej, karfiol vytlač a rozmixuj v mixéri.",
-    "Pridaj vajcia, olej, oregano, soľ a ľanové semienko a mixuj do spojenia.",
-    "Lyžičkou tvaruj placky na plech vyložený papierom na pečenie (vyjde cca 4 menšie pizze).",
-    "Na oleji zopeň nadrobno nakrájanú cibuľku, pridaj pretlak a opekaj 2 minúty.",
-    "Pridaj paradajky nakrájané na kúsky a var omáčku 5 minút, dochuť soľou, korením a oreganom.",
-    "Omáčku natri na cesto a pečieme pri 180-190 °C cca 20 minút.",
-    "Navrstvi obľúbené suroviny a pečieme ďalších 10 minút."
-  ],
-  "tipy": "Ako náplň môžeš použiť mozzarellu, olivy, šunku, parmezán alebo paradajky s bazalkou.",
-  "foto": "",
-  "tagy": ["hlavné jedlo", "karfiol", "pizza", "nízkosacharidové"]
+ "id": "karfiolova-pizza",
+ "nazov": "Karfiolová pizza",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Talianska",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 5,
+ "cas": "45 min",
+ "kcal_na_porciu": 147,
+ "popis": "Nízkosacharidová pizza s cestom z karfiolu, s domácou paradajkovou omáčkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Karfiol",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "stredný, na cesto"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "na cesto, podľa chuti"
+  },
+  {
+   "nazov": "Ľanové semienko",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na cesto"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Biela cibuľa",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "konzerva, na omáčku"
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "na omáčku, podľa chuti"
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "na omáčku, podľa chuti"
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na omáčku"
+  }
+ ],
+ "postup": [
+  "Rozohrej rúru na 190 °C.",
+  "Karfiol umy, rozdeľ na ružičky a uvar domäkka.",
+  "Vodu zlej, karfiol vytlač a rozmixuj v mixéri.",
+  "Pridaj vajcia, olej, oregano, soľ a ľanové semienko a mixuj do spojenia.",
+  "Lyžičkou tvaruj placky na plech vyložený papierom na pečenie (vyjde cca 4 menšie pizze).",
+  "Na oleji zopeň nadrobno nakrájanú cibuľku, pridaj pretlak a opekaj 2 minúty.",
+  "Pridaj paradajky nakrájané na kúsky a var omáčku 5 minút, dochuť soľou, korením a oreganom.",
+  "Omáčku natri na cesto a peč pri 180-190 °C cca 20 minút.",
+  "Navrstvi obľúbené suroviny a peč ďalších 10 minút."
+ ],
+ "tipy": "Ako náplň môžeš použiť mozzarellu, olivy, šunku, parmezán alebo paradajky s bazalkou.",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "karfiol",
+  "pizza",
+  "nízkosacharidové"
+ ]
 }

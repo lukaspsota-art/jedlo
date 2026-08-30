@@ -1,34 +1,77 @@
 {
-  "id": "batatovy-falafel",
-  "nazov": "Batátový falafel",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "50 min",
-  "kcal_na_porciu": 420,
-  "popis": "Pečený falafel z cíceru a batátového pyré s quinoou a čerstvými bylinkami.",
-  "ingrediencie": [
-    {"nazov": "Quinoa", "mnozstvo": 60, "jednotka": "g"},
-    {"nazov": "Predvarený cícer", "mnozstvo": 400, "jednotka": "g"},
-    {"nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Batátové pyré", "mnozstvo": 150, "jednotka": "g"},
-    {"nazov": "Petržlenová vňať", "mnozstvo": 1, "jednotka": "hrsť"},
-    {"nazov": "Čerstvý koriander", "mnozstvo": 1, "jednotka": "hrsť"},
-    {"nazov": "Múka z ovsených vločiek", "mnozstvo": 200, "jednotka": "g"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 170 °C.",
-    "Quinou uvarte podľa návodu na obale.",
-    "Batáty uvarte v osolenej vode domäkka, scedte a rozmixujte na hladké pyré.",
-    "Cícer scedte a spolu s ovsenou múkou, šalotkou, batátovým pyré, petržlenom a koriandrom rozmixujte nahladko.",
-    "Zmes preložte do misy, zmiešajte s uvarenou quinoou a dochuťte soľou a korením.",
-    "Tvarujte kuličky, uložte na plech s papierom.",
-    "Pečte pri 160-170 °C asi 25 minút."
-  ],
-  "tipy": "Falafel môžete aj osmažiť na panvici na približne 4 PL oleja.",
-  "foto": "",
-  "tagy": ["falafel", "batáty", "cícer", "vegetariánske"]
+ "id": "batatovy-falafel",
+ "nazov": "Batátový falafel",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "50 min",
+ "kcal_na_porciu": 420,
+ "popis": "Pečený falafel z cíceru a batátového pyré s quinoou a čerstvými bylinkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Quinoa",
+   "mnozstvo": 60,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Predvarený cícer",
+   "mnozstvo": 400,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Batátové pyré",
+   "mnozstvo": 150,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  },
+  {
+   "nazov": "Čerstvý koriander",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  },
+  {
+   "nazov": "Múka z ovsených vločiek",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 170 °C.",
+  "Quinou uvar podľa návodu na obale.",
+  "Batáty uvar v osolenej vode domäkka, sceď a rozmixuj na hladké pyré.",
+  "Cícer sceď a spolu s ovsenou múkou, šalotkou, batátovým pyré, petržlenom a koriandrom rozmixuj nahladko.",
+  "Zmes prelož do misy, zmiešaj s uvarenou quinoou a dochuť soľou a korením.",
+  "Tvaruj kuličky, ulož na plech s papierom.",
+  "Peč pri 160-170 °C asi 25 minút."
+ ],
+ "tipy": "Falafel môžete aj osmažiť na panvici na približne 4 PL oleja.",
+ "foto": "",
+ "tagy": [
+  "falafel",
+  "batáty",
+  "cícer",
+  "vegetariánske"
+ ]
 }

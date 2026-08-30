@@ -1,30 +1,58 @@
 {
-  "id": "celozrnny-naan",
-  "nazov": "Celozrnný naan",
-  "kategoria": "Príloha",
-  "kuchyna": "Ázijská",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "37 min",
-  "kcal_na_porciu": 456,
-  "popis": "Domáci celozrnný naan chlieb kysnutý droždím, pečený v rúre.",
-  "ingrediencie": [
-    {"nazov": "Sušené droždie", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Kokosový cukor", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 360, "jednotka": "g"},
-    {"nazov": "Olivový olej", "mnozstvo": 4, "jednotka": "PL"},
-    {"nazov": "Jogurt", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "ČL"}
-  ],
-  "postup": [
-    "V hrnčeku zmiešajte 150 ml horúcej vody, cukor a droždie, prikryte utierkou a nechajte 10 minút vzchádzať.",
-    "Do väčšej misy preosejte múku, pridajte 2 PL olivového oleja, jogurt, soľ a kvások.",
-    "Vypracujte cesto, vytvarujte guľu a potrite zvyšným olivovým olejom.",
-    "Prikryte utierkou a nechajte kysnúť na teplom mieste 60-90 minút.",
-    "Vykysnuté cesto premiesite, rozdeľte na menšie kúsky a vytvarujte placky na pomúčenom vále.",
-    "Pečte na plechu s papierom pri 170-180 °C asi 12 minút."
-  ],
-  "tipy": "Chlebíky môžete opekať aj nasucho na dobrej panvici.",
-  "foto": "",
-  "tagy": ["naan", "chlieb", "príloha"]
+ "id": "celozrnny-naan",
+ "nazov": "Celozrnný naan",
+ "kategoria": "Príloha",
+ "kuchyna": "Ázijská",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "37 min",
+ "kcal_na_porciu": 456,
+ "popis": "Domáci celozrnný naan chlieb kysnutý droždím, pečený v rúre.",
+ "ingrediencie": [
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Kokosový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 360,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Jogurt",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "V hrnčeku zmiešaj 150 ml horúcej vody, cukor a droždie, prikry utierkou a nechaj 10 minút vzchádzať.",
+  "Do väčšej misy preosej múku, pridaj 2 PL olivového oleja, jogurt, soľ a kvások.",
+  "Vypracuj cesto, vytvaruj guľu a potri zvyšným olivovým olejom.",
+  "Prikry utierkou a nechaj kysnúť na teplom mieste 60-90 minút.",
+  "Vykysnuté cesto premiesi, rozdeľ na menšie kúsky a vytvaruj placky na pomúčenom vále.",
+  "Peč na plechu s papierom pri 170-180 °C asi 12 minút."
+ ],
+ "tipy": "Chlebíky môžete opekať aj nasucho na dobrej panvici.",
+ "foto": "",
+ "tagy": [
+  "naan",
+  "chlieb",
+  "príloha"
+ ]
 }

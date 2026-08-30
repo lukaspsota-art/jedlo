@@ -1,35 +1,79 @@
 {
-  "id": "matcha-susienky",
-  "nazov": "Matcha sušienky",
-  "kategoria": "Dezert",
-  "kuchyna": "Ázijská",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 20,
-  "cas": "25 min",
-  "kcal_na_porciu": 102,
-  "popis": "Zelené sušienky s matcha čajom a chia semienkami.",
-  "ingrediencie": [
-    {"nazov": "Mleté vločky", "mnozstvo": 200, "jednotka": "g"},
-    {"nazov": "Matcha čaj", "mnozstvo": 15, "jednotka": "g"},
-    {"nazov": "Prášok do pečiva", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Jedlá sóda", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Kokosový olej", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Med", "mnozstvo": 60, "jednotka": "g"},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Chia semienka", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 170 °C.",
-    "V jednej mise zmiešajte mleté vločky, matcha čaj, sódu a prášok do pečiva.",
-    "V druhej mise vyšľahajte kokosový olej s vanilkovým extraktom, medom a vajcom.",
-    "Spojte obsah oboch mís, pridajte chia semienka a soľ, premiešajte na kompaktné cesto.",
-    "Cesto zabaľte do fólie a dajte aspoň na 1 hodinu do chladničky.",
-    "Vyváľajte na plát 2-3 mm a vykrajujte tvary.",
-    "Pečte na plechu s papierom pri 160-170 °C 10 minút."
-  ],
-  "tipy": "Cesto môžete tiež vytvarovať do valčeka, chladiť 30 minút a potom krájať nožom alebo niťou.",
-  "foto": "",
-  "tagy": ["sušienky", "matcha", "dezert"]
+ "id": "matcha-susienky",
+ "nazov": "Matcha sušienky",
+ "kategoria": "Dezert",
+ "kuchyna": "Ázijská",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 20,
+ "cas": "25 min",
+ "kcal_na_porciu": 102,
+ "popis": "Zelené sušienky s matcha čajom a chia semienkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Mleté vločky",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Matcha čaj",
+   "mnozstvo": 15,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Jedlá sóda",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 60,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Chia semienka",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 170 °C.",
+  "V jednej mise zmiešaj mleté vločky, matcha čaj, sódu a prášok do pečiva.",
+  "V druhej mise vyšľahaj kokosový olej s vanilkovým extraktom, medom a vajcom.",
+  "Spoj obsah oboch mís, pridaj chia semienka a soľ, premiešaj na kompaktné cesto.",
+  "Cesto zabaľ do fólie a daj aspoň na 1 hodinu do chladničky.",
+  "Vyváľaj na plát 2-3 mm a vykrajuj tvary.",
+  "Peč na plechu s papierom pri 160-170 °C 10 minút."
+ ],
+ "tipy": "Cesto môžete tiež vytvarovať do valčeka, chladiť 30 minút a potom krájať nožom alebo niťou.",
+ "foto": "",
+ "tagy": [
+  "sušienky",
+  "matcha",
+  "dezert"
+ ]
 }

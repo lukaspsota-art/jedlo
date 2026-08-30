@@ -1,31 +1,75 @@
 {
-  "id": "tunakove-muffiny",
-  "nazov": "Tuniakové muffiny",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 6,
-  "cas": "55 min",
-  "kcal_na_porciu": 239,
-  "popis": "Slané proteínové muffiny s tuniakom, mozzarellou a mätou.",
-  "ingrediencie": [
-    { "nazov": "Tuniak vo vlastnej šťave", "mnozstvo": 200, "jednotka": "g", "poznamka": "scezený" },
-    { "nazov": "Vajcia", "mnozstvo": 3, "jednotka": "ks" },
-    { "nazov": "Čerstvá mäta", "mnozstvo": 1, "jednotka": "hrsť" },
-    { "nazov": "Mozzarella", "mnozstvo": 120, "jednotka": "g" },
-    { "nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL" },
-    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" },
-    { "nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" },
-    { "nazov": "Kari korenie", "mnozstvo": 1, "jednotka": "ČL" },
-    { "nazov": "Jemne mleté ovsené vločky", "mnozstvo": 100, "jednotka": "g" }
-  ],
-  "postup": [
-    "Nasekaj najemno mätu, mozzarellu nastrúhaj.",
-    "Všetky surové zmiešaj v miske do jednotnej hmoty.",
-    "Hmotou naplň košíčky na muffiny.",
-    "Pečieme pri 160–170 °C 30–35 minút."
-  ],
-  "tipy": "Do muffinov pridaj nastrúhanú mrkvu, cuketu alebo cibuľu.",
-  "foto": "",
-  "tagy": ["snack", "tuniak", "muffin", "proteín"]
+ "id": "tunakove-muffiny",
+ "nazov": "Tuniakové muffiny",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 6,
+ "cas": "55 min",
+ "kcal_na_porciu": 239,
+ "popis": "Slané proteínové muffiny s tuniakom, mozzarellou a mätou.",
+ "ingrediencie": [
+  {
+   "nazov": "Tuniak vo vlastnej šťave",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "scezený"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Čerstvá mäta",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 120,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Kari korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Jemne mleté ovsené vločky",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  }
+ ],
+ "postup": [
+  "Nasekaj najemno mätu, mozzarellu nastrúhaj.",
+  "Všetky surové zmiešaj v miske do jednotnej hmoty.",
+  "Hmotou naplň košíčky na muffiny.",
+  "Peč pri 160–170 °C 30–35 minút."
+ ],
+ "tipy": "Do muffinov pridaj nastrúhanú mrkvu, cuketu alebo cibuľu.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "tuniak",
+  "muffin",
+  "proteín"
+ ]
 }

@@ -1,80 +1,80 @@
 {
-  "id": "grilovany-baklazan-plneny-fetou",
-  "nazov": "Grilovaný baklažán plnený fetou",
-  "kategoria": "Snack",
-  "kuchyna": "Grécka",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 4,
-  "cas": "60 min",
-  "kcal_na_porciu": 320,
-  "popis": "Grilované plátky baklažánu zrolované s krémovou fetovo-jogurtovou plnkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Baklažány",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Olivového oleja",
-      "mnozstvo": 0.25,
-      "jednotka": "hrnček"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Syra feta",
-      "mnozstvo": 230,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Gréckeho jogurtu",
-      "mnozstvo": 0.25,
-      "jednotka": "hrnček"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 2,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Citrónovej šťavy",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Petržlenovej vňate alebo mäty",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Čili vločiek",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL"
-    }
-  ],
-  "postup": [
-    "Baklažány nakrájaj pozdĺžne na plátky ~5 mm.",
-    "Posyp soľou a nechaj 15–20 min „vypotiť“, potom opláchni a osuš.",
-    "Rozpáľ gril a mriežku potri olejom.",
-    "Plátky potri olejom a jemne okoreň (soľ opatrne, feta je slaná).",
-    "Griluj ~3–4 min z každej strany, kým nie sú mäkké a ohybné. Nechaj mierne vychladnúť.",
-    "Plnka: zmiešaj rozdrobenú fetu, jogurt, cesnak, citrón a bylinky, roztlač vidličkou a dochuť.",
-    "Na každý plátok daj lyžicu plnky, zroluj a polož spojom nadol. Pokvapkaj olejom a ozdob bylinkami."
-  ],
-  "tipy": "Baklažán nechaj pred grilovaním osoliť — zbaví sa horkosti a prebytočnej vody.",
-  "foto": "",
-  "tagy": [
-    "grécke",
-    "baklažán",
-    "feta",
-    "snack"
-  ]
+ "id": "grilovany-baklazan-plneny-fetou",
+ "nazov": "Grilovaný baklažán plnený fetou",
+ "kategoria": "Snack",
+ "kuchyna": "Grécka",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 4,
+ "cas": "60 min",
+ "kcal_na_porciu": 320,
+ "popis": "Grilované plátky baklažánu zrolované s krémovou fetovo-jogurtovou plnkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Baklažány",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Olivového oleja",
+   "mnozstvo": 0.25,
+   "jednotka": "hrnček"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Syra feta",
+   "mnozstvo": 230,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Gréckeho jogurtu",
+   "mnozstvo": 0.25,
+   "jednotka": "hrnček"
+  },
+  {
+   "nazov": "Cesnaku",
+   "mnozstvo": 2,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Citrónovej šťavy",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Petržlenovej vňate alebo mäty",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Čili vločiek",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Baklažány nakrájaj pozdĺžne na plátky ~5 mm.",
+  "Posyp soľou a nechaj 15–20 min „vypotiť“, potom opláchni a osuš.",
+  "Rozpáľ gril a mriežku potri olejom.",
+  "Plátky potri olejom a jemne okoreň (soľ opatrne, feta je slaná).",
+  "Griluj ~3–4 min z každej strany, kým nie sú mäkké a ohybné. Nechaj mierne vychladnúť.",
+  "Plnka: zmiešaj rozdrobenú fetu, jogurt, cesnak, citrón a bylinky, roztlač vidličkou a dochuť.",
+  "Na každý plátok daj lyžicu plnky, zroluj a polož spojom nadol. Pokvapkaj olejom a ozdob bylinkami."
+ ],
+ "tipy": "Baklažán nechaj pred grilovaním osoliť — zbaví sa horkosti a prebytočnej vody.",
+ "foto": "",
+ "tagy": [
+  "grécke",
+  "baklažán",
+  "feta",
+  "snack"
+ ]
 }

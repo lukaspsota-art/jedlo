@@ -1,28 +1,56 @@
 {
-  "id": "kokosove-tycinky-cokolada",
-  "nazov": "Kokosové tyčinky v čokoláde",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 20,
-  "cas": "50 min",
-  "kcal_na_porciu": 126,
-  "popis": "Nepečené kokosovo-mandľové tyčinky obalené v horkej čokoláde.",
-  "ingrediencie": [
-    { "nazov": "Lúpané mandle", "mnozstvo": 100, "jednotka": "g", "poznamka": "namočené cez noc vo vode" },
-    { "nazov": "Strúhaný kokos", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Ryžový sirup", "mnozstvo": 60, "jednotka": "g", "poznamka": "alebo med, iný sirup" },
-    { "nazov": "Kokosový olej", "mnozstvo": 40, "jednotka": "g" },
-    { "nazov": "Horká čokoláda", "mnozstvo": 100, "jednotka": "g", "poznamka": "kvalitná" }
-  ],
-  "postup": [
-    "Mandle rozmixuj so strúhaným kokosom, ryžovým sirupom a kokosovým olejom.",
-    "Hmotu presuň do misy a daj aspoň na 30 minút stuhnúť do chladničky.",
-    "Z hmoty tvaruj pravidelné hranoly.",
-    "Hranoly ulož na mriežku, každý prelej lyžicou rozpustenej horkej čokolády.",
-    "Pred podávaním necháme tyčinky 2 hodiny stuhnúť v chladničke."
-  ],
-  "tipy": "Hmotu môžeš aj rozotrieť do formy 15×15 cm, poliať čokoládou, dať na 2 hodiny do chladničky a potom krájať na kocky.",
-  "foto": "",
-  "tagy": ["dezert", "kokos", "čokoláda", "bez pečenia"]
+ "id": "kokosove-tycinky-cokolada",
+ "nazov": "Kokosové tyčinky v čokoláde",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 20,
+ "cas": "50 min",
+ "kcal_na_porciu": 126,
+ "popis": "Nepečené kokosovo-mandľové tyčinky obalené v horkej čokoláde.",
+ "ingrediencie": [
+  {
+   "nazov": "Lúpané mandle",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "namočené cez noc vo vode"
+  },
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Ryžový sirup",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "alebo med, iný sirup"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 40,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Horká čokoláda",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "kvalitná"
+  }
+ ],
+ "postup": [
+  "Mandle rozmixuj so strúhaným kokosom, ryžovým sirupom a kokosovým olejom.",
+  "Hmotu presuň do misy a daj aspoň na 30 minút stuhnúť do chladničky.",
+  "Z hmoty tvaruj pravidelné hranoly.",
+  "Hranoly ulož na mriežku, každý prelej lyžicou rozpustenej horkej čokolády.",
+  "Pred podávaním nechaj tyčinky 2 hodiny stuhnúť v chladničke."
+ ],
+ "tipy": "Hmotu môžeš aj rozotrieť do formy 15×15 cm, poliať čokoládou, dať na 2 hodiny do chladničky a potom krájať na kocky.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "kokos",
+  "čokoláda",
+  "bez pečenia"
+ ]
 }

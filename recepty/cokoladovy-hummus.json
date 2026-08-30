@@ -1,27 +1,60 @@
 {
-  "id": "cokoladovy-hummus",
-  "nazov": "Čokoládový hummus",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 6,
-  "cas": "10 min",
-  "kcal_na_porciu": 175,
-  "popis": "Sladký dezertný hummus z cíceru, kakaa a lieskovorieškového masla.",
-  "ingrediencie": [
-    {"nazov": "Predvarený cícer", "mnozstvo": 300, "jednotka": "g"},
-    {"nazov": "Lieskovorieškové maslo", "mnozstvo": 80, "jednotka": "g"},
-    {"nazov": "Strúhaný kokos", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Mlieko", "mnozstvo": 120, "jednotka": "ml"},
-    {"nazov": "Holandské kakao", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Mletá škorica", "mnozstvo": 1, "jednotka": "ČL"}
-  ],
-  "postup": [
-    "Všetky ingrediencie vložte do mixéra.",
-    "Mixujte nahladko."
-  ],
-  "tipy": "Čokoládový hummus podávajte napríklad s pomarančom alebo iným sezónnym ovocím, hodí sa aj do palaciniek.",
-  "foto": "",
-  "tagy": ["hummus", "cícer", "dezert", "kakao"]
+ "id": "cokoladovy-hummus",
+ "nazov": "Čokoládový hummus",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 6,
+ "cas": "10 min",
+ "kcal_na_porciu": 175,
+ "popis": "Sladký dezertný hummus z cíceru, kakaa a lieskovorieškového masla.",
+ "ingrediencie": [
+  {
+   "nazov": "Predvarený cícer",
+   "mnozstvo": 300,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Lieskovorieškové maslo",
+   "mnozstvo": 80,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 120,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie vlož do mixéra.",
+  "Mixuj nahladko."
+ ],
+ "tipy": "Čokoládový hummus podávaj napríklad s pomarančom alebo iným sezónnym ovocím, hodí sa aj do palaciniek.",
+ "foto": "",
+ "tagy": [
+  "hummus",
+  "cícer",
+  "dezert",
+  "kakao"
+ ]
 }

@@ -6,30 +6,90 @@
   "zdroj": "Jíme zdravě s Fitrecepty II",
   "porcie": 2,
   "cas": "50 min",
-  "kcal_na_porciu": 278,
+  "kcal_na_porciu": 608,
   "popis": "Marinované kuracie prsia zrolované s paprikou a pečené v rúre.",
   "ingrediencie": [
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Chilli mleté", "mnozstvo": null, "jednotka": "štipka", "poznamka": ""},
-    {"nazov": "Rozmarín mletý", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Citrónová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z 0.5 citróna"},
-    {"nazov": "Koriander čerstvý", "mnozstvo": null, "jednotka": "hrsť", "poznamka": "možno nahradiť 1 ČL sušeného"},
-    {"nazov": "Kuracie prsia", "mnozstvo": 3, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Paprika žltá", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Paprika červená", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chilli mleté",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rozmarín mletý",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "z 0.5 citróna"
+    },
+    {
+      "nazov": "Koriander čerstvý",
+      "mnozstvo": null,
+      "jednotka": "hrsť",
+      "poznamka": "možno nahradiť 1 ČL sušeného"
+    },
+    {
+      "nazov": "Kuracie prsia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika žltá",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika červená",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
   ],
   "postup": [
-    "Pripravíme marinádu - vo väčšej miske vyšľaháme olivový olej, citrónovú šťavu, roztlačený cesnak, chilli, korenie, soľ a koriander.",
-    "Kuracie prsia pozdĺžne rozrežeme a naložíme aspoň na 1 hodinu do marinády.",
-    "Papriky umyjeme a nakrájame na nudličky.",
-    "Plátky mäsa vyberieme z marinády, na stred každého dáme 4-5 nudličiek paprík.",
-    "Zrolujeme a spichneme špajlou.",
-    "Rolky preložíme na plech, potrieme zvyšnou marinádou a pečieme pri 170-180 °C 30 minút."
+    "Priprav marinádu - vo väčšej miske vyšľahaj olivový olej, citrónovú šťavu, roztlačený cesnak, chilli, korenie, soľ a koriander.",
+    "Kuracie prsia pozdĺžne rozrež a nalož aspoň na 1 hodinu do marinády.",
+    "Papriky umyj a nakrájaj na nudličky.",
+    "Plátky mäsa vyber z marinády, na stred každého daj 4-5 nudličiek paprík.",
+    "Zroluj a spichni špajlou.",
+    "Rolky prelož na plech, potri zvyšnou marinádou a peč pri 170-180 °C 30 minút."
   ],
-  "tipy": "Ako prílohu odporúčame pečené zemiaky alebo celozrnnú ryžu.",
+  "tipy": "Ako prílohu odporúčaj pečené zemiaky alebo celozrnnú ryžu.",
   "foto": "",
-  "tagy": ["kura", "rolky", "pečené"]
+  "tagy": [
+    "kura",
+    "rolky",
+    "pečené"
+  ],
+  "kcal_zdroj": "vypocet"
 }

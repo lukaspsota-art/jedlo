@@ -1,99 +1,99 @@
 {
-  "id": "texasky-sendvic-s-udenou-hrudou",
-  "nazov": "Texaský sendvič s údenou hruďou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Texas Brisket Sandwiches (CC BY-SA)",
-  "porcie": 9,
-  "cas": "10 h",
-  "kcal_na_porciu": 1235,
-  "popis": "Hovädzia hruď potretá horčicou a korením, údená deväť hodín nad mesquite drevom, nasekaná a premiešaná s octovým sprejom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie mäso hruď",
-      "mnozstvo": 3600,
-      "jednotka": "g",
-      "poznamka": "očistené na 6 mm tuku"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "drvené"
-    },
-    {
-      "nazov": "Jablčný ocot",
-      "mnozstvo": 180,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Horčica",
-      "mnozstvo": 180,
-      "jednotka": "g",
-      "poznamka": "žltá"
-    },
-    {
-      "nazov": "Kajenské korenie",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnakový prášok",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sladká paprika",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chilli omáčka",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Melasa",
-      "mnozstvo": 3,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Žemľa",
-      "mnozstvo": 9,
-      "jednotka": "ks",
-      "poznamka": "hamburgerové"
-    }
-  ],
-  "postup": [
-    "Zmiešaj pálivú omáčku, melasu, ocot a 60 g horčice. Prelej do rozprašovača a odlož.",
-    "Hruď potri 120 g horčice a odlož.",
-    "Zmiešaj koreniny so soľou. Zmes vtlač do oboch strán hrudi. Nechaj v chladničke cez noc.",
-    "Na druhý deň rozohrej údiareň s mesquite drevom na 95 °C. Vlož hruď a udí 9 hodín, každé 3 hodiny postriekaj octovou zmesou a drevo dopĺňaj tak, aby teplota zostala na 95 °C.",
-    "Hruď vyber a nechaj pol hodiny odstáť. Rozdeľ ju po línii tuku a nakrájaj natenko proti vláknu.",
-    "Plátky nasekaj najemno a premiešaj so zvyškom octovej zmesi. Do každej žemle daj jednu deviatinu a podávaj teplé."
-  ],
-  "tipy": "Ak nemáš údiareň, predhrej rúru na 90 °C. Na dno pekáča daj namočené mesquite štiepky, pridaj mriežku a na ňu potretú hruď. Pevne prikry alobalom a peč rovnako dlho.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "večera",
-    "americká",
-    "hovädzie",
-    "barbecue",
-    "údené",
-    "príprava vopred"
-  ]
+ "id": "texasky-sendvic-s-udenou-hrudou",
+ "nazov": "Texaský sendvič s údenou hruďou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Texas Brisket Sandwiches (CC BY-SA)",
+ "porcie": 9,
+ "cas": "10 hod",
+ "kcal_na_porciu": 1235,
+ "popis": "Hovädzia hruď potretá horčicou a korením, údená deväť hodín nad mesquite drevom, nasekaná a premiešaná s octovým sprejom.",
+ "ingrediencie": [
+  {
+   "nazov": "Hovädzie mäso hruď",
+   "mnozstvo": 3600,
+   "jednotka": "g",
+   "poznamka": "očistené na 6 mm tuku"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "drvené"
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 180,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": "žltá"
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sladká paprika",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Melasa",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žemľa",
+   "mnozstvo": 9,
+   "jednotka": "ks",
+   "poznamka": "hamburgerové"
+  }
+ ],
+ "postup": [
+  "Zmiešaj pálivú omáčku, melasu, ocot a 60 g horčice. Prelej do rozprašovača a odlož.",
+  "Hruď potri 120 g horčice a odlož.",
+  "Zmiešaj koreniny so soľou. Zmes vtlač do oboch strán hrudi. Nechaj v chladničke cez noc.",
+  "Na druhý deň rozohrej údiareň s mesquite drevom na 95 °C. Vlož hruď a udí 9 hodín, každé 3 hodiny postriekaj octovou zmesou a drevo dopĺňaj tak, aby teplota zostala na 95 °C.",
+  "Hruď vyber a nechaj pol hodiny odstáť. Rozdeľ ju po línii tuku a nakrájaj natenko proti vláknu.",
+  "Plátky nasekaj najemno a premiešaj so zvyškom octovej zmesi. Do každej žemle daj jednu deviatinu a podávaj teplé."
+ ],
+ "tipy": "Ak nemáš údiareň, predhrej rúru na 90 °C. Na dno pekáča daj namočené mesquite štiepky, pridaj mriežku a na ňu potretú hruď. Pevne prikry alobalom a peč rovnako dlho.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "večera",
+  "americká",
+  "hovädzie",
+  "barbecue",
+  "údené",
+  "príprava vopred"
+ ]
 }

@@ -1,55 +1,55 @@
 {
-  "id": "klobasky-gril-kapia-zemiaky",
-  "nazov": "Klobásky na gril s pečenou kapiou a zemiakmi",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jamie Oliver",
-  "porcie": 2,
-  "cas": "50 min",
-  "kcal_na_porciu": 425,
-  "popis": "Grilovacie klobásky pečené na plechu s kapiou a zemiakmi.",
-  "ingrediencie": [
-    {
-      "nazov": "Klobásky",
-      "mnozstvo": 166,
-      "jednotka": "g",
-      "poznamka": "na gril"
-    },
-    {
-      "nazov": "Paprika",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": "kapia"
-    },
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 330,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 8,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Soľ a čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Predhrej rúru na 200 °C.",
-    "Zemiaky a kapiu nakrájaj, pomiešaj s olejom, osoľ a okoreň.",
-    "Rozlož na plech a navrch polož klobásky.",
-    "Peč do polovice, potom premiešaj a klobásky otoč.",
-    "Dopeč do zlatista a mäkkých zemiakov."
-  ],
-  "tipy": "Zemiaky nakrájaj na menšie kusy, aby sa dopiekli súčasne s klobáskami.",
-  "foto": "",
-  "tagy": [
-    "klobásky",
-    "plech",
-    "zemiaky"
-  ]
+ "id": "klobasky-gril-kapia-zemiaky",
+ "nazov": "Klobásky na gril s pečenou kapiou a zemiakmi",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jamie Oliver",
+ "porcie": 2,
+ "cas": "50 min",
+ "kcal_na_porciu": 425,
+ "popis": "Grilovacie klobásky pečené na plechu s kapiou a zemiakmi.",
+ "ingrediencie": [
+  {
+   "nazov": "Klobásky",
+   "mnozstvo": 166,
+   "jednotka": "g",
+   "poznamka": "na gril"
+  },
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "kapia"
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 330,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 8,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Soľ a čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Predhrej rúru na 200 °C.",
+  "Zemiaky a kapiu nakrájaj, pomiešaj s olejom, osoľ a okoreň.",
+  "Rozlož na plech a navrch polož klobásky.",
+  "Peč do polovice, potom premiešaj a klobásky otoč.",
+  "Dopeč do zlatista a mäkkých zemiakov."
+ ],
+ "tipy": "Zemiaky nakrájaj na menšie kusy, aby sa dopiekli súčasne s klobáskami.",
+ "foto": "",
+ "tagy": [
+  "klobásky",
+  "plech",
+  "zemiaky"
+ ]
 }

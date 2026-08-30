@@ -1,121 +1,122 @@
 {
- "id": "kukuricny-chlieb",
- "nazov": "Kukuričný chlieb",
- "kategoria": "Pečivo",
- "kuchyna": "Americká",
- "zdroj": "Varecha.sk – Chlieb z kukuričnej múky s kapiou (fotorecept) (autor: pusta)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/chlieb-z-kukuricnej-muky-s-kapiou-fotorecept/53536-recept.html",
- "porcie": 9,
- "cas": "100 min",
- "kcal_na_porciu": 299,
- "popis": "Tento recept je z TV paprika od Roberta Bedeho, ide o zdravý chutný chlieb s kapiou a \r\nkoreninami. Recept som máličko upravila.",
- "ingrediencie": [
-  {
-   "nazov": "Kukuričná polohrubá múka",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvé maslo",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvé droždie",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlažné mlieko",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jogurt domáci hustý biely neochuten",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie čierne čerstvo mleté",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená sladká mletá paprika",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená štipľavá mletá paprika",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprika kápia čerstvá",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sóda bikarbóna",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Papriku kápiu som pokrájala na malé kocky o hrane asi 3 mm.",
-  "Kukuričnú múku som nasypala do misy, pridala som soľ, sóda bicarbonu, sladkú a štipľavú mletú červenú papriku, mletú rascu, čerstvo mleté čierne korenie, všetko som spolu premiešala,...",
-  "..do jamky v múke som nadrobila droždie, posypala som ho cukrom,...",
-  "...zaliala som ho vlažným mliekom a nechala vykysnúť kvások - asi 15 minút.",
-  "Ked kvások vykysol, pridala som vajcia, presypala múkou,...",
-  "...pridala som maslo pokrájané na kocky,...",
-  "...domáci biely hustý jogurt,...",
-  "...pokrájanú čerstvú kápiu na kocky ...",
-  "...a všetko som spracovala rukami na stredne husté hladké cesto,...",
-  "...ktoré som dala do formy na biskupský chlebíček, vystlaný pečiacim papierom...",
-  "...a nechala som ho vykysnúť na teple prikryté čistou utierkou - asi 45 minút.",
-  "Chlieb som piekla v trúbe vyhriatej na 190 stupňov C 40 minút, ihned som ho vyklopila z formy a nechala som ho vychladnúť na mriežke.",
-  "Prierez chlebom - ide o zdravý chutný chlieb z kukuričnej múky s kápiou a koreninami, ktorý je vhodný pre bezlepkových, diabetikov, vegetariánov i zdravých, výborný na raňajky s maslom alebo chutnou nátierkou, tiež ako príloha k rôznym polievkam na kyslo a gulášom či šalátom.",
-  "Chlieb som pokrájala na krajce asi o hrúbke 1 cm, podávala som na raňajky."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "pečivo",
-  "kukurica",
-  "rýchle"
- ]
+  "id": "kukuricny-chlieb",
+  "nazov": "Kukuričný chlieb",
+  "kategoria": "Pečivo",
+  "kuchyna": "Americká",
+  "zdroj": "Varecha.sk – Chlieb z kukuričnej múky s kapiou (fotorecept) (autor: pusta)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/chlieb-z-kukuricnej-muky-s-kapiou-fotorecept/53536-recept.html",
+  "porcie": 9,
+  "cas": "100 min",
+  "kcal_na_porciu": 147,
+  "popis": "Tento recept je z TV paprika od Roberta Bedeho, ide o zdravý chutný chlieb s kapiou a \r\nkoreninami. Recept som máličko upravila.",
+  "ingrediencie": [
+    {
+      "nazov": "Kukuričná polohrubá múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvé maslo",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvé droždie",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlažné mlieko",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jogurt domáci hustý biely neochuten",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie čierne čerstvo mleté",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená sladká mletá paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená štipľavá mletá paprika",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika kápia čerstvá",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sóda bikarbóna",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Papriku kápiu pokrájaj na malé kocky o hrane asi 3 mm.",
+    "Kukuričnú múku som nasypala do misy, pridala som soľ, sóda bicarbonu, sladkú a štipľavú mletú červenú papriku, mletú rascu, čerstvo mleté čierne korenie, všetko som spolu premiešala,...",
+    "..do jamky v múke som nadrobila droždie, posypala som ho cukrom,...",
+    "...zalej ho vlažným mliekom a nechaj vykysnúť kvások - asi 15 minút.",
+    "Ked kvások vykysol, pridala som vajcia, presypala múkou,...",
+    "...pridaj maslo pokrájané na kocky,...",
+    "...domáci biely hustý jogurt,...",
+    "...pokrájanú čerstvú kápiu na kocky ...",
+    "...a všetko spracuj rukami na stredne husté hladké cesto,...",
+    "...ktoré som dala do formy na biskupský chlebíček, vystlaný pečiacim papierom...",
+    "...a nechaj ho vykysnúť na teple prikryté čistou utierkou - asi 45 minút.",
+    "Chlieb som piekla v trúbe vyhriatej na 190 stupňov C 40 minút, ihned som ho vyklopila z formy a nechala som ho vychladnúť na mriežke.",
+    "Prierez chlebom - ide o zdravý chutný chlieb z kukuričnej múky s kápiou a koreninami, ktorý je vhodný pre bezlepkových, diabetikov, vegetariánov i zdravých, výborný na raňajky s maslom alebo chutnou nátierkou, tiež ako príloha k rôznym polievkam na kyslo a gulášom či šalátom.",
+    "Chlieb som pokrájala na krajce asi o hrúbke 1 cm, podávala som na raňajky."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "kukurica",
+    "rýchle"
+  ],
+  "kcal_zdroj": "vypocet"
 }

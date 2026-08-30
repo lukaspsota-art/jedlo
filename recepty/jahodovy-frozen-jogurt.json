@@ -6,13 +6,30 @@
   "zdroj": "Jíme zdravě s Fitrecepty II",
   "porcie": 2,
   "cas": "5 min",
-  "kcal_na_porciu": 117,
+  "kcal_na_porciu": 180,
   "popis": "Rýchla domáca zmrzlina z jahôd a gréckeho jogurtu bez zmrzlinovača.",
   "ingrediencie": [
-    { "nazov": "Jahody", "mnozstvo": 200, "jednotka": "g" },
-    { "nazov": "Grécky jogurt", "mnozstvo": 250, "jednotka": "g" },
-    { "nazov": "Med", "mnozstvo": 2, "jednotka": "ČL" },
-    { "nazov": "Vanilkový lusk", "mnozstvo": 1, "jednotka": "ks", "poznamka": "semienka z lusku, nepovinné" }
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 200,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Grécky jogurt",
+      "mnozstvo": 250,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 2,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Vanilkový lusk",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "semienka z lusku, nepovinné"
+    }
   ],
   "postup": [
     "Všetky surové rozmixuj dohladka.",
@@ -21,5 +38,11 @@
   ],
   "tipy": "Chuť jahôd výborne doplnia pistácie alebo iné orechy.",
   "foto": "",
-  "tagy": ["dezert", "zmrzlina", "jahody", "jogurt"]
+  "tagy": [
+    "dezert",
+    "zmrzlina",
+    "jahody",
+    "jogurt"
+  ],
+  "kcal_zdroj": "vypocet"
 }

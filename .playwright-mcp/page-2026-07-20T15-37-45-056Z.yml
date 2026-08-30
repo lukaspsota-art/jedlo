@@ -1,0 +1,66 @@
+- generic [ref=f12e2]:
+  - complementary [ref=f12e3]:
+    - generic [ref=f12e4]: 🍲 Kuchárka
+    - navigation [ref=f12e5]:
+      - generic [ref=f12e6] [cursor=pointer]:
+        - generic [ref=f12e7]: 🏠
+        - text: Domov
+      - generic [ref=f12e8] [cursor=pointer]:
+        - generic [ref=f12e9]: 📖
+        - text: Recepty
+      - generic [ref=f12e10] [cursor=pointer]:
+        - generic [ref=f12e11]: 📅
+        - text: Plán
+      - generic [ref=f12e12] [cursor=pointer]:
+        - generic [ref=f12e13]: 🛒
+        - text: Nákup
+      - generic [ref=f12e14] [cursor=pointer]:
+        - generic [ref=f12e15]: 📊
+        - text: Výživa
+      - generic [ref=f12e16] [cursor=pointer]:
+        - generic [ref=f12e17]: 🧊
+        - text: Špajza
+    - generic [ref=f12e19] [cursor=pointer]:
+      - generic [ref=f12e20]: ⚙️
+      - text: Nastavenia
+  - generic [ref=f12e23]:
+    - heading "Dobrý deň, Lukáš" [level=2] [ref=f12e24]
+    - paragraph [ref=f12e25]: aktualizované 20.07.2026
+    - generic [ref=f12e26]:
+      - generic [ref=f12e27]:
+        - generic [ref=f12e28]: Receptov
+        - generic [ref=f12e29]: "691"
+      - generic [ref=f12e30]:
+        - generic [ref=f12e31]: Jedál v pláne
+        - generic [ref=f12e32]: "32"
+    - generic [ref=f12e33]:
+      - heading "📅 Dnešný plán" [level=3] [ref=f12e34]
+      - generic [ref=f12e35]:
+        - generic [ref=f12e36]:
+          - generic [ref=f12e37]: 🍳 Raňajky
+          - generic [ref=f12e38]: Vajcová tortilla s paprikou a syrom
+        - generic [ref=f12e39]:
+          - generic [ref=f12e40]: 🍝 Obed
+          - generic [ref=f12e41]: Celozrnné šunkofleky
+        - generic [ref=f12e42]:
+          - generic [ref=f12e43]: 🍽️ Večera
+          - generic [ref=f12e44]: Cuketová tortilla s ricottou, + Ryža (príloha)
+        - generic [ref=f12e45]:
+          - generic [ref=f12e46]: 🥪 Snack
+          - generic [ref=f12e47]: Tvarohový krém (typ Miša)
+        - generic [ref=f12e48]: 3175 / 3010 kcal · B 148,12 g · T 124,36 g · S 357,02 g
+    - generic [ref=f12e49]:
+      - heading "Rýchle akcie" [level=3] [ref=f12e50]
+      - generic [ref=f12e51]:
+        - button "✨ Zostaviť jedálniček" [ref=f12e52] [cursor=pointer]
+        - button "🧊 Uvar zo špajze" [ref=f12e53] [cursor=pointer]
+        - button "♻️ Dojedz zvyšky" [ref=f12e54] [cursor=pointer]
+    - generic [ref=f12e55]:
+      - heading "Obľúbené" [level=3] [ref=f12e56]
+      - paragraph [ref=f12e58]: Zatiaľ žiadne obľúbené — klikni na ★ pri recepte.
+    - generic [ref=f12e59]:
+      - heading "🧊 Špajza — spotrebuj čoskoro" [level=3] [ref=f12e60]
+      - generic [ref=f12e61]: ⏰ paprika (o 1 d), vajcia (o 3 d)
+    - generic [ref=f12e62]:
+      - heading "Naposledy varené" [level=3] [ref=f12e63]
+      - generic [ref=f12e64]: Nič zatiaľ. Po dokončení režimu varenia sa recept zapíše sem.

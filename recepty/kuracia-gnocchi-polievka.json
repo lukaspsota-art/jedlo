@@ -1,118 +1,118 @@
 {
-  "id": "kuracia-gnocchi-polievka",
-  "nazov": "Kuracia gnocchi polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "internet (@iankyo)",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 490,
-  "popis": "Krémová paradajkovo-jogurtová polievka s koreneným kuraťom, gnocchi a špenátom.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Cesnakového prášku",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "kajenské korenie",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Vločiek červenej papriky",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Tymianu",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Bazalky",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 4,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Olivového oleja",
-      "mnozstvo": 20,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Paradajkového pretlaku",
-      "mnozstvo": 3,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "sušené paradajky",
-      "mnozstvo": 20,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Kuracieho vývaru",
-      "mnozstvo": 1,
-      "jednotka": "l"
-    },
-    {
-      "nazov": "Bieleho jogurtu",
-      "mnozstvo": 500,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Strúhaného parmezánu",
-      "mnozstvo": 50,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Gnocchi",
-      "mnozstvo": 400,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Špenátu",
-      "mnozstvo": 1,
-      "jednotka": "hrsť"
-    }
-  ],
-  "postup": [
-    "Kuracie prsia naklepaj a obaľ vo všetkých koreninách.",
-    "V hrnci opeč prsia z oboch strán 7–8 min, potom vyber.",
-    "V tom istom hrnci poduste cibuľu, cesnak, pretlak, sušené paradajky a zalej vývarom; var 15 min.",
-    "Pridaj jogurt a parmezán, premiešaj a var ďalších 20 min.",
-    "Pridaj nakrájané kura, gnocchi a špenát a povar 5 min."
-  ],
-  "tipy": "Podľa zdroja ~490 kcal a 52 g bielkovín na porciu.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "kuracie",
-    "gnocchi",
-    "krémové"
-  ]
+ "id": "kuracia-gnocchi-polievka",
+ "nazov": "Kuracia gnocchi polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "internet (@iankyo)",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 490,
+ "popis": "Krémová paradajkovo-jogurtová polievka s koreneným kuraťom, gnocchi a špenátom.",
+ "ingrediencie": [
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Cesnakového prášku",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "kajenské korenie",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Vločiek červenej papriky",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Tymianu",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Bazalky",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Cesnaku",
+   "mnozstvo": 4,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Olivového oleja",
+   "mnozstvo": 20,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Paradajkového pretlaku",
+   "mnozstvo": 3,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "sušené paradajky",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kuracieho vývaru",
+   "mnozstvo": 1,
+   "jednotka": "l"
+  },
+  {
+   "nazov": "Bieleho jogurtu",
+   "mnozstvo": 500,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Strúhaného parmezánu",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Gnocchi",
+   "mnozstvo": 400,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Špenátu",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  }
+ ],
+ "postup": [
+  "Kuracie prsia naklepaj a obaľ vo všetkých koreninách.",
+  "V hrnci opeč prsia z oboch strán 7–8 min, potom vyber.",
+  "V tom istom hrnci podus cibuľu, cesnak, pretlak, sušené paradajky a zalej vývarom; var 15 min.",
+  "Pridaj jogurt a parmezán, premiešaj a var ďalších 20 min.",
+  "Pridaj nakrájané kura, gnocchi a špenát a povar 5 min."
+ ],
+ "tipy": "Podľa zdroja ~490 kcal a 52 g bielkovín na porciu.",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "kuracie",
+  "gnocchi",
+  "krémové"
+ ]
 }

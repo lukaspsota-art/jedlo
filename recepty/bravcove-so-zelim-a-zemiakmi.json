@@ -1,100 +1,101 @@
 {
- "id": "bravcove-so-zelim-a-zemiakmi",
- "nazov": "Bravčové so zelím a zemiakmi",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Nemecká",
- "zdroj": "Varecha.sk – Bravčový tokáň (autor: ferno)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/bravcovy-tokan/82523-recept.html",
- "porcie": 6,
- "cas": "55 min",
- "kcal_na_porciu": 379,
- "popis": "Sýte jedlo z bravčového mäsa, dusenej kapusty a zemiakov.",
- "ingrediencie": [
-  {
-   "nazov": "Bravčové stehno",
-   "mnozstvo": 600,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slanina",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šampiňóny",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Nakladané uhorky",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hovädzí vývar",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červené víno",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bravčová masť",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Na masti osmažíme na drobno nakrájanú cibuľu. Pridáme nakrájanú slaninu a po chvíli aj nasekaný cesnak a na kocky nakrájané mäso. Osolíme a okoreníme.",
-  "Keď sa mäso zatiahne, pridáme mletú červenú papriku a nakrájané šampiňóny. Premiešame a podusíme.",
-  "Pridáme rajčinový pretlak, vývar a červené víno. Dodusíme domäkka.",
-  "Pred koncom pridáme nastrúhané uhorky a nakrájanú papriku. A dochutíme.",
-  "Ako prílohu som použil tarhoňu."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "nemecké"
- ]
+  "id": "bravcove-so-zelim-a-zemiakmi",
+  "nazov": "Bravčové so zelím a zemiakmi",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Nemecká",
+  "zdroj": "Varecha.sk – Bravčový tokáň (autor: ferno)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/bravcovy-tokan/82523-recept.html",
+  "porcie": 6,
+  "cas": "55 min",
+  "kcal_na_porciu": 581,
+  "popis": "Sýte jedlo z bravčového mäsa, dusenej kapusty a zemiakov.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčové stehno",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šampiňóny",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Nakladané uhorky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hovädzí vývar",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červené víno",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na masti osmaž na drobno nakrájanú cibuľu. Pridaj nakrájanú slaninu a po chvíli aj nasekaný cesnak a na kocky nakrájané mäso. Osoľ a okoreň.",
+    "Keď sa mäso zatiahne, pridaj mletú červenú papriku a nakrájané šampiňóny. Premiešaj a podus.",
+    "Pridaj rajčinový pretlak, vývar a červené víno. Dodus domäkka.",
+    "Pred koncom pridaj nastrúhané uhorky a nakrájanú papriku. A dochuť.",
+    "Ako prílohu použi tarhoňu."
+  ],
+  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "nemecké"
+  ],
+  "kcal_zdroj": "vypocet"
 }

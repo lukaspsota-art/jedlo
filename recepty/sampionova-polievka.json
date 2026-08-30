@@ -1,30 +1,74 @@
 {
-  "id": "sampionova-polievka",
-  "nazov": "Šampiónová polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 116,
-  "popis": "Krémová šampiónová polievka s ryžovým mliekom a šalviou.",
-  "ingrediencie": [
-    {"nazov": "Prepustené maslo", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Cibuľa biela veľká", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Šampióny", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Zeleninový vývar", "mnozstvo": 700, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Šalvia sušená", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Ryžové mlieko", "mnozstvo": 250, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "V hrnci rozohrejeme prepustené maslo a spenníme najemno nakrájanú cibuľku (asi 5 minút).",
-    "Pridáme šampióny nakrájané na plátky so šalviou a restujeme na strednom plameni 10 minút.",
-    "Zalejeme vývarom a varíme 15 minút pod pokrievkou.",
-    "Nakoniec prilejeme ryžové mlieko, dochutíme soľou a korením a rozmixujeme tyčovým mixérom dohladka."
-  ],
-  "tipy": "S ryžovým mliekom bude polievka trochu sladšia než s kravským.",
-  "foto": "",
-  "tagy": ["polievka", "šampióny", "krémová"]
+ "id": "sampionova-polievka",
+ "nazov": "Šampiónová polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 116,
+ "popis": "Krémová šampiónová polievka s ryžovým mliekom a šalviou.",
+ "ingrediencie": [
+  {
+   "nazov": "Prepustené maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa biela veľká",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampióny",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 700,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalvia sušená",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžové mlieko",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "V hrnci rozohrej prepustené maslo a spenni najemno nakrájanú cibuľku (asi 5 minút).",
+  "Pridaj šampióny nakrájané na plátky so šalviou a restuj na strednom plameni 10 minút.",
+  "Zalej vývarom a var 15 minút pod pokrievkou.",
+  "Nakoniec prilej ryžové mlieko, dochuť soľou a korením a rozmixuj tyčovým mixérom dohladka."
+ ],
+ "tipy": "S ryžovým mliekom bude polievka trochu sladšia než s kravským.",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "šampióny",
+  "krémová"
+ ]
 }

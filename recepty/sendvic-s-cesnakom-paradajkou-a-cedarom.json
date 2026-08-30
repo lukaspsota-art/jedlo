@@ -1,85 +1,85 @@
 {
-  "id": "sendvic-s-cesnakom-paradajkou-a-cedarom",
-  "nazov": "Sendvič s cesnakom, paradajkou a čedarom",
-  "kategoria": "Snack",
-  "kuchyna": "Anglická",
-  "zdroj": "Wikibooks Cookbook – Garlic, Tomato and Cheddar Sandwich (CC BY-SA)",
-  "porcie": 1,
-  "cas": "10 min",
-  "kcal_na_porciu": 669,
-  "popis": "Cesnak vytretý do opečeného chleba, rozmačkaná paradajka, zrelý čedar a zelené chilli. Vegetariánsky sendvič bez varenia.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnný chlieb",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chilli paprička",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "zelená"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čedar",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": "veľmi zrelý, dlhé plátky"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "sok"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Oba plátky chleba opeč tak, aby aspoň jeden už nebol mäkký.",
-    "Strúčik cesnaku vytri do tvrdého opečeného plátku, kým z neho nezostane len malý kúsok. Ten nasekaj a rozsyp po chlebe.",
-    "Paradajku rozrež na polovicu a každú polovicu rozmačkaj na tom istom plátku. Šťavu rozotri, zvyšok paradajky nakrájaj a polož na chlieb.",
-    "Pridaj olivový olej, ale pozor, aby oleja nebolo viac než chleba.",
-    "Osoľ, opepri, chilli nakrájaj alebo rozdrv a rozsyp po chlebe. Pokvapkaj citrónovým sokom.",
-    "Poklaď plátkami čedaru a sendvič zavri druhým plátkom chleba."
-  ],
-  "tipy": "Ak chceš teplý sendvič, ten istý sa dá dať na pár minút do rúry, kým paradajka a cesnak nie sú spolovice upečené a čedar sa neroztopí. Mikrovlnku nepoužívaj.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "anglická",
-    "vegetariánske",
-    "syr",
-    "rýchle"
-  ]
+ "id": "sendvic-s-cesnakom-paradajkou-a-cedarom",
+ "nazov": "Sendvič s cesnakom, paradajkou a čedarom",
+ "kategoria": "Snack",
+ "kuchyna": "Anglická",
+ "zdroj": "Wikibooks Cookbook – Garlic, Tomato and Cheddar Sandwich (CC BY-SA)",
+ "porcie": 1,
+ "cas": "10 min",
+ "kcal_na_porciu": 669,
+ "popis": "Cesnak vytretý do opečeného chleba, rozmačkaná paradajka, zrelý čedar a zelené chilli. Vegetariánsky sendvič bez varenia.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnný chlieb",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli paprička",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "zelená"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čedar",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "veľmi zrelý, dlhé plátky"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "sok"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Oba plátky chleba opeč tak, aby aspoň jeden už nebol mäkký.",
+  "Strúčik cesnaku vytri do tvrdého opečeného plátku, kým z neho nezostane len malý kúsok. Ten nasekaj a rozsyp po chlebe.",
+  "Paradajku rozrež na polovicu a každú polovicu rozmačkaj na tom istom plátku. Šťavu rozotri, zvyšok paradajky nakrájaj a polož na chlieb.",
+  "Pridaj olivový olej, ale pozor, aby oleja nebolo viac než chleba.",
+  "Osoľ, opepri, chilli nakrájaj alebo rozdrv a rozsyp po chlebe. Pokvapkaj citrónovým sokom.",
+  "Poklaď plátkami čedaru a sendvič zavri druhým plátkom chleba."
+ ],
+ "tipy": "Ak chceš teplý sendvič, ten istý sa dá dať na pár minút do rúry, kým paradajka a cesnak nie sú spolovice upečené a čedar sa neroztopí. Mikrovlnku nepoužívaj.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "anglická",
+  "vegetariánske",
+  "syr",
+  "rýchle"
+ ]
 }

@@ -1,27 +1,62 @@
 {
-  "id": "bazalkove-pesto",
-  "nazov": "Bazalkové pesto",
-  "kategoria": "Nátierka",
-  "kuchyna": "Talianska",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 760,
-  "popis": "Krémové bazalkové pesto z kešu orechov a kokosového mlieka.",
-  "ingrediencie": [
-    {"nazov": "Kešu orechy", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Kokosové mlieko", "mnozstvo": 100, "jednotka": "g", "poznamka": "z plechovky"},
-    {"nazov": "Listy bazalky", "mnozstvo": 2, "jednotka": "hrsť"},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik"},
-    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Všetky ingrediencie vložte do mixéra.",
-    "Mixujte na plný výkon 20-30 sekúnd do polohrubej konzistencie, nemixujte úplne nahladko."
-  ],
-  "tipy": "Pesto ochutíte uvarené celozrnné cestoviny, slané kaše, celozrnnú pizzu alebo varené zemiaky.",
-  "foto": "",
-  "tagy": ["pesto", "bazalka", "kešu"]
+ "id": "bazalkove-pesto",
+ "nazov": "Bazalkové pesto",
+ "kategoria": "Nátierka",
+ "kuchyna": "Talianska",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 760,
+ "popis": "Krémové bazalkové pesto z kešu orechov a kokosového mlieka.",
+ "ingrediencie": [
+  {
+   "nazov": "Kešu orechy",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "z plechovky"
+  },
+  {
+   "nazov": "Listy bazalky",
+   "mnozstvo": 2,
+   "jednotka": "hrsť"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie vlož do mixéra.",
+  "Mixuj na plný výkon 20-30 sekúnd do polohrubej konzistencie, nemixuj úplne nahladko."
+ ],
+ "tipy": "Pesto ochutíte uvarené celozrnné cestoviny, slané kaše, celozrnnú pizzu alebo varené zemiaky.",
+ "foto": "",
+ "tagy": [
+  "pesto",
+  "bazalka",
+  "kešu"
+ ]
 }

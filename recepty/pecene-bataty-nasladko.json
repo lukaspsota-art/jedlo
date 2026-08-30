@@ -1,32 +1,64 @@
 {
-  "id": "pecene-bataty-nasladko",
-  "nazov": "Pečené batáty nasladko",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "95 min",
-  "kcal_na_porciu": 537,
-  "popis": "Pečené sladké batáty plnené karamelizovanými jablkami, orechmi a gréckym jogurtom.",
-  "ingrediencie": [
-    {"nazov": "Batát", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Kokosový olej", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Jablko", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Mletá škorica", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Vlašské orechy", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Grécky jogurt", "mnozstvo": 200, "jednotka": "g"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 180 °C.",
-    "Batát očistite, pozdĺžne rozrežte a uložte na plech s papierom.",
-    "Pečte v rúre asi 1 hodinu.",
-    "Na panvici rozohrejte kokosový olej, pridajte na plátky nakrájané jablko a opekajte 2 minúty.",
-    "Zasypte škoricou, zalejte medom a opekajte ďalších 10 minút.",
-    "Vlašské orechy nasucho opražte na inej panvici.",
-    "Upečený batát rozotvorte, naplňte jablkami, posypte orechmi a podávajte s gréckym jogurtom."
-  ],
-  "tipy": "Batát môžete naplniť aj hruškami s pridaním 0,5 ČL kardamónu.",
-  "foto": "",
-  "tagy": ["batáty", "jablká", "dezert"]
+ "id": "pecene-bataty-nasladko",
+ "nazov": "Pečené batáty nasladko",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "95 min",
+ "kcal_na_porciu": 537,
+ "popis": "Pečené sladké batáty plnené karamelizovanými jablkami, orechmi a gréckym jogurtom.",
+ "ingrediencie": [
+  {
+   "nazov": "Batát",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Grécky jogurt",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "Batát očisti, pozdĺžne rozrež a ulož na plech s papierom.",
+  "Peč v rúre asi 1 hodinu.",
+  "Na panvici rozohrej kokosový olej, pridaj na plátky nakrájané jablko a opekaj 2 minúty.",
+  "Zasyp škoricou, zalej medom a opekaj ďalších 10 minút.",
+  "Vlašské orechy nasucho opraž na inej panvici.",
+  "Upečený batát rozotvor, naplň jablkami, posyp orechmi a podávaj s gréckym jogurtom."
+ ],
+ "tipy": "Batát môžete naplniť aj hruškami s pridaním 0,5 ČL kardamónu.",
+ "foto": "",
+ "tagy": [
+  "batáty",
+  "jablká",
+  "dezert"
+ ]
 }

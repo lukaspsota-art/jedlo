@@ -1,35 +1,90 @@
 {
-  "id": "salat-s-tunakom-a-jahodami",
-  "nazov": "Šalát s tuniakom a jahodami",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 1,
-  "cas": "10 min",
-  "kcal_na_porciu": 753,
-  "popis": "Netradičný šalát kombinujúci tuniaka, jahody a avokádo s medovo-horčicovou zálievkou.",
-  "ingrediencie": [
-    {"nazov": "Salátové listy čerstvé", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Avokádo", "mnozstvo": 0.5, "jednotka": "ks"},
-    {"nazov": "Tuniak vo vlastnej šťave", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Jahody", "mnozstvo": 3, "jednotka": "ks"},
-    {"nazov": "Jogurt", "mnozstvo": 40, "jednotka": "g"},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Dijonská horčica", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Mäta čerstvá", "mnozstvo": 1, "jednotka": "hrsť"},
-    {"nazov": "Para orechy nasekané", "mnozstvo": 30, "jednotka": "g"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Salátové listy s nakrájaným avokádom a jahodami dajte do misy.",
-    "Pridajte tuniaka.",
-    "Z jogurtu, soli, korenia, olivového oleja, horčice a medu pripravte zálievku.",
-    "Zálievkou prelejte šalát.",
-    "Ozdobte čerstvou mätou a nasekanými para orechmi."
-  ],
-  "tipy": "Do šalátu môžete pridať zeleninové chipsy.",
-  "foto": "",
-  "tagy": ["šalát", "tuniak", "jahody", "avokádo"]
+ "id": "salat-s-tunakom-a-jahodami",
+ "nazov": "Šalát s tuniakom a jahodami",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 1,
+ "cas": "10 min",
+ "kcal_na_porciu": 753,
+ "popis": "Netradičný šalát kombinujúci tuniaka, jahody a avokádo s medovo-horčicovou zálievkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Salátové listy čerstvé",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 0.5,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Tuniak vo vlastnej šťave",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Jahody",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Jogurt",
+   "mnozstvo": 40,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Dijonská horčica",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Mäta čerstvá",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  },
+  {
+   "nazov": "Para orechy nasekané",
+   "mnozstvo": 30,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Salátové listy s nakrájaným avokádom a jahodami daj do misy.",
+  "Pridaj tuniaka.",
+  "Z jogurtu, soli, korenia, olivového oleja, horčice a medu priprav zálievku.",
+  "Zálievkou prelej šalát.",
+  "Ozdob čerstvou mätou a nasekanými para orechmi."
+ ],
+ "tipy": "Do šalátu môžete pridať zeleninové chipsy.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "tuniak",
+  "jahody",
+  "avokádo"
+ ]
 }

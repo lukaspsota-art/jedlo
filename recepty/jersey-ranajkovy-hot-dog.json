@@ -1,72 +1,72 @@
 {
-  "id": "jersey-ranajkovy-hot-dog",
-  "nazov": "Jersey raňajkový hot dog",
-  "kategoria": "Raňajky",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Jersey Breakfast Dog (CC BY-SA)",
-  "porcie": 1,
-  "cas": "20 min",
-  "kcal_na_porciu": 648,
-  "popis": "Párok obalený slaninou a vysmažený, s volským okom a syrom v žemli. Lacné raňajky z New Jersey.",
-  "ingrediencie": [
-    {
-      "nazov": "Párok",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "hovädzí"
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": "jeden plátok"
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čedar",
-      "mnozstvo": 25,
-      "jednotka": "g",
-      "poznamka": "jeden plátok"
-    },
-    {
-      "nazov": "Žemľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Rastlinný olej",
-      "mnozstvo": null,
-      "jednotka": "na smaženie",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Fritézu alebo hrniec s olejom rozohrej na 180 °C.",
-    "Slaninu oviň okolo párku a na oboch koncoch ju zaisti špáradlom.",
-    "Keď olej dosiahne teplotu, obalený párok doň opatrne spusti.",
-    "Rozohrej panvicu a usmaž jedno vajce.",
-    "Vajce vyber na malý tanierik.",
-    "Žemľu rozkroj a polož na panvicu na miernom ohni alebo do toastovača, aby sa zľahka opekala.",
-    "Keď je slanina pevná a chrumkavá, párok vyber z oleja.",
-    "Na vajce polož plátok syra a nechaj ho pár sekúnd rozpustiť.",
-    "Vajce so syrom polož na žemľu.",
-    "Zo párku vyber špáradlá a pridaj do žemle.",
-    "Dochuť podľa chuti a podávaj."
-  ],
-  "tipy": "Špáradlá nezabudni vytiahnuť pred podávaním. Namiesto fritézy poslúži hlbšia panvica s olejom.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "americká",
-    "párok",
-    "slanina",
-    "smažené",
-    "lacné"
-  ]
+ "id": "jersey-ranajkovy-hot-dog",
+ "nazov": "Jersey raňajkový hot dog",
+ "kategoria": "Raňajky",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Jersey Breakfast Dog (CC BY-SA)",
+ "porcie": 1,
+ "cas": "20 min",
+ "kcal_na_porciu": 648,
+ "popis": "Párok obalený slaninou a vysmažený, s volským okom a syrom v žemli. Lacné raňajky z New Jersey.",
+ "ingrediencie": [
+  {
+   "nazov": "Párok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "hovädzí"
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": "jeden plátok"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čedar",
+   "mnozstvo": 25,
+   "jednotka": "g",
+   "poznamka": "jeden plátok"
+  },
+  {
+   "nazov": "Žemľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": null,
+   "jednotka": "na smaženie",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Fritézu alebo hrniec s olejom rozohrej na 180 °C.",
+  "Slaninu oviň okolo párku a na oboch koncoch ju zaisti špáradlom.",
+  "Keď olej dosiahne teplotu, obalený párok doň opatrne spusti.",
+  "Rozohrej panvicu a usmaž jedno vajce.",
+  "Vajce vyber na malý tanierik.",
+  "Žemľu rozkroj a polož na panvicu na miernom ohni alebo do toastovača, aby sa zľahka opekala.",
+  "Keď je slanina pevná a chrumkavá, párok vyber z oleja.",
+  "Na vajce polož plátok syra a nechaj ho pár sekúnd rozpustiť.",
+  "Vajce so syrom polož na žemľu.",
+  "Zo párku vyber špáradlá a pridaj do žemle.",
+  "Dochuť podľa chuti a podávaj."
+ ],
+ "tipy": "Špáradlá nezabudni vytiahnuť pred podávaním. Namiesto fritézy poslúži hlbšia panvica s olejom.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "americká",
+  "párok",
+  "slanina",
+  "smažené",
+  "lacné"
+ ]
 }

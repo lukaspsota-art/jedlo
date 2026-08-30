@@ -1,35 +1,82 @@
 {
-  "id": "celozrnna-vanocka",
-  "nazov": "Celozrnná vianočka",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 15,
-  "cas": "65 min",
-  "kcal_na_porciu": 267,
-  "popis": "Tradičná pletená vianočka z celozrnnej a hladkej špaldovej múky s hrozienkami a mandľami.",
-  "ingrediencie": [
-    { "nazov": "Vlažné mlieko", "mnozstvo": 220, "jednotka": "ml" },
-    { "nazov": "Sušené droždie", "mnozstvo": 1, "jednotka": "ks", "poznamka": "balíček" },
-    { "nazov": "Celozrnná špaldová múka", "mnozstvo": 300, "jednotka": "g" },
-    { "nazov": "Hladká špaldová múka", "mnozstvo": 200, "jednotka": "g" },
-    { "nazov": "Maslo", "mnozstvo": 80, "jednotka": "g" },
-    { "nazov": "Trstinový cukor", "mnozstvo": 80, "jednotka": "g" },
-    { "nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka" },
-    { "nazov": "Žĺtok", "mnozstvo": 2, "jednotka": "ks", "poznamka": "+ 1 žĺtok na potretie vianočky" },
-    { "nazov": "Hrozienka", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Plátkové mandle", "mnozstvo": 100, "jednotka": "g" }
-  ],
-  "postup": [
-    "V miske pripraviť kvások – do 100 ml vlažného mlieka rozmiešaj droždie a lyžičku cukru, odlož na teplé miesto.",
-    "Zmiešaj obe múky, vmiešaj rozšľahané maslo s cukrom, mliekom, soľou a žĺtkami.",
-    "Pridaj kvások a hrozienka, vypracuj cesto.",
-    "Cesto necháme kysnúť na teplom mieste asi 40 minút.",
-    "Rúru predhrej na 190 °C.",
-    "Z vykysnutého cesta upleteme vianočku, polož na plech s papierom na pečenie, potri žĺtkom a posyp mandľami.",
-    "Pečieme pri 180–190 °C 35 minút."
-  ],
-  "tipy": "Vianočku si dopraj ráno s maslom, marmeládou a kakaom – veď sú Vianoce.",
-  "foto": "",
-  "tagy": ["dezert", "vianočka", "špalda", "vianoce"]
+ "id": "celozrnna-vanocka",
+ "nazov": "Celozrnná vianočka",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 15,
+ "cas": "65 min",
+ "kcal_na_porciu": 267,
+ "popis": "Tradičná pletená vianočka z celozrnnej a hladkej špaldovej múky s hrozienkami a mandľami.",
+ "ingrediencie": [
+  {
+   "nazov": "Vlažné mlieko",
+   "mnozstvo": 220,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "balíček"
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 300,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Hladká špaldová múka",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 80,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 80,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka"
+  },
+  {
+   "nazov": "Žĺtok",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "+ 1 žĺtok na potretie vianočky"
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Plátkové mandle",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  }
+ ],
+ "postup": [
+  "V miske pripraviť kvások – do 100 ml vlažného mlieka rozmiešaj droždie a lyžičku cukru, odlož na teplé miesto.",
+  "Zmiešaj obe múky, vmiešaj rozšľahané maslo s cukrom, mliekom, soľou a žĺtkami.",
+  "Pridaj kvások a hrozienka, vypracuj cesto.",
+  "Cesto nechaj kysnúť na teplom mieste asi 40 minút.",
+  "Rúru predhrej na 190 °C.",
+  "Z vykysnutého cesta uplet vianočku, polož na plech s papierom na pečenie, potri žĺtkom a posyp mandľami.",
+  "Peč pri 180–190 °C 35 minút."
+ ],
+ "tipy": "Vianočku si dopraj ráno s maslom, marmeládou a kakaom – veď sú Vianoce.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "vianočka",
+  "špalda",
+  "vianoce"
+ ]
 }

@@ -1,29 +1,74 @@
 {
-  "id": "tvarohova-natierka-s-pazitkou",
-  "nazov": "Tvarohová nátierka s pažítkou",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "5 min",
-  "kcal_na_porciu": 182,
-  "popis": "Jemná tvarohová nátierka so slnečnicovými semienkami a pažítkou.",
-  "ingrediencie": [
-    {"nazov": "Polotučný tvaroh", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Slnečnicové semienka", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Ryžová smotana", "mnozstvo": 60, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks", "poznamka": "menšia"},
-    {"nazov": "Čerstvá pažítka", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Cesnak prelisujte do misky a zmiešajte s tvarohom, semienkami a smotanou.",
-    "Pridajte nadrobno nakrájanú šalotku a pažítku.",
-    "Dochutite soľou a korením."
-  ],
-  "tipy": "Nátierku môžete použiť v studenej aj teplej kuchyni.",
-  "foto": "",
-  "tagy": ["tvaroh", "nátierka", "pažítka", "rýchle"]
+ "id": "tvarohova-natierka-s-pazitkou",
+ "nazov": "Tvarohová nátierka s pažítkou",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "5 min",
+ "kcal_na_porciu": 182,
+ "popis": "Jemná tvarohová nátierka so slnečnicovými semienkami a pažítkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Polotučný tvaroh",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ryžová smotana",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "menšia"
+  },
+  {
+   "nazov": "Čerstvá pažítka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Cesnak prelisuj do misky a zmiešaj s tvarohom, semienkami a smotanou.",
+  "Pridaj nadrobno nakrájanú šalotku a pažítku.",
+  "Dochuti soľou a korením."
+ ],
+ "tipy": "Nátierku môžete použiť v studenej aj teplej kuchyni.",
+ "foto": "",
+ "tagy": [
+  "tvaroh",
+  "nátierka",
+  "pažítka",
+  "rýchle"
+ ]
 }

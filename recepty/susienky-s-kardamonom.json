@@ -1,32 +1,69 @@
 {
-  "id": "susienky-s-kardamonom",
-  "nazov": "Sušienky s kardamónom",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 20,
-  "cas": "25 min",
-  "kcal_na_porciu": 57,
-  "popis": "Jemné sušienky z ovsených vločiek a špaldovej múky dochutené kardamónom.",
-  "ingrediencie": [
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Mlieko", "mnozstvo": 120, "jednotka": "ml"},
-    {"nazov": "Kokosový olej", "mnozstvo": 30, "jednotka": "g"},
-    {"nazov": "Datľový sirup", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 110, "jednotka": "g"},
-    {"nazov": "Ovsené vločky jemne mleté", "mnozstvo": 80, "jednotka": "g"},
-    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Kardamón mletý", "mnozstvo": 0.5, "jednotka": "ČL"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 180 °C.",
-    "Vajce vyšľahajte s mliekom, kokosovým olejom a sirupom.",
-    "Vmiešajte múku, ovsené vločky, kypriaci prášok a kardamón.",
-    "Z cesta tvarujte guľky a ukladajte na plech s papierom na pečenie.",
-    "Každú guľku zatlačte vidličkou.",
-    "Pečte pri 170–180 °C asi 15 minút."
-  ],
-  "tipy": "Do cesta môžete pred pečením pridať 50 g nastrúhaných datlí.",
-  "foto": "",
-  "tagy": ["dezert", "sušienky", "kardamón", "pečené"]
+ "id": "susienky-s-kardamonom",
+ "nazov": "Sušienky s kardamónom",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 20,
+ "cas": "25 min",
+ "kcal_na_porciu": 57,
+ "popis": "Jemné sušienky z ovsených vločiek a špaldovej múky dochutené kardamónom.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 120,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 30,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Datľový sirup",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 110,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Ovsené vločky jemne mleté",
+   "mnozstvo": 80,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kypriaci prášok bez fosfátov",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kardamón mletý",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "Vajce vyšľahaj s mliekom, kokosovým olejom a sirupom.",
+  "Vmiešaj múku, ovsené vločky, kypriaci prášok a kardamón.",
+  "Z cesta tvaruj guľky a ukladaj na plech s papierom na pečenie.",
+  "Každú guľku zatlač vidličkou.",
+  "Peč pri 170–180 °C asi 15 minút."
+ ],
+ "tipy": "Do cesta môžete pred pečením pridať 50 g nastrúhaných datlí.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "sušienky",
+  "kardamón",
+  "pečené"
+ ]
 }

@@ -1,28 +1,58 @@
 {
-  "id": "chia-puding-s-mangovym-pyre",
-  "nazov": "Chia puding s mangovým pyré",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 1,
-  "cas": "10 min",
-  "kcal_na_porciu": 448,
-  "popis": "Chia semienka nabobtnané v mlieku, podávané s čerstvým mangom a strúhaným kokosom.",
-  "ingrediencie": [
-    {"nazov": "Chia semienka", "mnozstvo": 30, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mlieko", "mnozstvo": 200, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Mango", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Stévia", "mnozstvo": null, "jednotka": "ČL", "poznamka": "podľa chuti, pár kvapiek"},
-    {"nazov": "Strúhaný kokos", "mnozstvo": 10, "jednotka": "g", "poznamka": "na posypanie"}
-  ],
-  "postup": [
-    "Chia semienka rozmiešaj v mlieku spolu so stéviou.",
-    "Nechaj v chladničke aspoň 30 minút nabobtnať.",
-    "Mango nakrájaj na plátky a vlož do pohára.",
-    "Pridaj hotový puding a posyp kokosom.",
-    "Podávaj hneď, prípadne skladuj v chladničke až týždeň."
-  ],
-  "tipy": "Chia puding je rýchla raňajka alebo desiata, semienka môžeš nechať nabobtnať aj cez noc.",
-  "foto": "",
-  "tagy": ["raňajky", "chia", "mango", "puding"]
+ "id": "chia-puding-s-mangovym-pyre",
+ "nazov": "Chia puding s mangovým pyré",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 1,
+ "cas": "10 min",
+ "kcal_na_porciu": 448,
+ "popis": "Chia semienka nabobtnané v mlieku, podávané s čerstvým mangom a strúhaným kokosom.",
+ "ingrediencie": [
+  {
+   "nazov": "Chia semienka",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mango",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Stévia",
+   "mnozstvo": null,
+   "jednotka": "ČL",
+   "poznamka": "podľa chuti, pár kvapiek"
+  },
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "na posypanie"
+  }
+ ],
+ "postup": [
+  "Chia semienka rozmiešaj v mlieku spolu so stéviou.",
+  "Nechaj v chladničke aspoň 30 minút nabobtnať.",
+  "Mango nakrájaj na plátky a vlož do pohára.",
+  "Pridaj hotový puding a posyp kokosom.",
+  "Podávaj hneď, prípadne skladuj v chladničke až týždeň."
+ ],
+ "tipy": "Chia puding je rýchla raňajka alebo desiata, semienka môžeš nechať nabobtnať aj cez noc.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "chia",
+  "mango",
+  "puding"
+ ]
 }

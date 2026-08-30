@@ -1,34 +1,88 @@
 {
-  "id": "krevety-s-matovo-zemiakovou-kasou",
-  "nazov": "Krevety s mätovo-zemiakovou kašou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "45 min",
-  "kcal_na_porciu": 403,
-  "popis": "Opečené krevety podávané s mätovo-zemiakovou kašou a cukrovým hráškom.",
-  "ingrediencie": [
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Krevety vylúpané", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Zemiaky", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Cukrový hrášok", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mäta čerstvá", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Mlieko vlažné", "mnozstvo": 100, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Ghí", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Zemiaky olúpeme, nakrájame na kocky a varíme v osolenej vode domäkka 15-20 minút.",
-    "Na panvici rozohrejeme olivový olej, pridáme roztlačený cesnak a opekáme 1 minútu.",
-    "Pridáme očistené krevety a na strednom plameni krátko opečieme, 1-2 minúty z každej strany, potom odstavíme a prikryjeme.",
-    "Uvarené zemiaky scedíme a rozšťúchame na kašu s vlažným mliekom a rozpusteným ghí.",
-    "Do kaše primiešame nahrubo nasekanú mätu a cukrový hrášok.",
-    "Kašu dochutíme soľou a korením a podávame s krevetami."
-  ],
-  "tipy": "Krevety s kašou zalejte trochou oleja z panvice, na ktorej ste krevety opiekli.",
-  "foto": "",
-  "tagy": ["krevety", "zemiaková kaša", "mäta"]
+ "id": "krevety-s-matovo-zemiakovou-kasou",
+ "nazov": "Krevety s mätovo-zemiakovou kašou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "45 min",
+ "kcal_na_porciu": 403,
+ "popis": "Opečené krevety podávané s mätovo-zemiakovou kašou a cukrovým hráškom.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krevety vylúpané",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukrový hrášok",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäta čerstvá",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko vlažné",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ghí",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Zemiaky olúp, nakrájaj na kocky a var v osolenej vode domäkka 15-20 minút.",
+  "Na panvici rozohrej olivový olej, pridaj roztlačený cesnak a opekaj 1 minútu.",
+  "Pridaj očistené krevety a na strednom plameni krátko opeč, 1-2 minúty z každej strany, potom odstav a prikryj.",
+  "Uvarené zemiaky sceď a rozšťúchaj na kašu s vlažným mliekom a rozpusteným ghí.",
+  "Do kaše primiešaj nahrubo nasekanú mätu a cukrový hrášok.",
+  "Kašu dochuť soľou a korením a podávaj s krevetami."
+ ],
+ "tipy": "Krevety s kašou zalej trochou oleja z panvice, na ktorej ste krevety opiekli.",
+ "foto": "",
+ "tagy": [
+  "krevety",
+  "zemiaková kaša",
+  "mäta"
+ ]
 }

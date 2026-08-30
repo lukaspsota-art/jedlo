@@ -1,29 +1,69 @@
 {
-  "id": "ovocie-v-cokolade",
-  "nazov": "Ovocie v čokoláde",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 10,
-  "cas": "15 min",
-  "kcal_na_porciu": 235,
-  "popis": "Čerstvé ovocie namočené v horkej čokoláde a obalené v kokose či orieškoch.",
-  "ingrediencie": [
-    {"nazov": "Horká čokoláda", "mnozstvo": 200, "jednotka": "g", "poznamka": "kvalitná"},
-    {"nazov": "Jablká", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Banán", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Pomaranče", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Strúhaný kokos", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Slnečnicové semienka", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Arašidové maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""}
-  ],
-  "postup": [
-    "Jablká nakrájajte na mesiačiky a zbavte jadrovníkov.",
-    "Banány olúpte, rozpoľte a napichnite na špajdľu, pomaranče olúpte a rozdeľte na mesiačiky.",
-    "Čokoládu roztopte nad vodným kúpeľom.",
-    "Pripravené ovocie namáčajte v teplej čokoláde a obaľujte v kokose, slnečnicových semienkach alebo polejte arašidovým maslom."
-  ],
-  "tipy": "Čokoládu na ovocí môžete posypať mletými orechmi alebo sušeným ovocím.",
-  "foto": "",
-  "tagy": ["ovocie", "čokoláda", "snack", "dezert"]
+ "id": "ovocie-v-cokolade",
+ "nazov": "Ovocie v čokoláde",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 10,
+ "cas": "15 min",
+ "kcal_na_porciu": 235,
+ "popis": "Čerstvé ovocie namočené v horkej čokoláde a obalené v kokose či orieškoch.",
+ "ingrediencie": [
+  {
+   "nazov": "Horká čokoláda",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "kvalitná"
+  },
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomaranče",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaný kokos",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Arašidové maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Jablká nakrájaj na mesiačiky a zbav jadrovníkov.",
+  "Banány olúp, rozpoľ a napichni na špajdľu, pomaranče olúp a rozdeľ na mesiačiky.",
+  "Čokoládu roztop nad vodným kúpeľom.",
+  "Pripravené ovocie namáčaj v teplej čokoláde a obaľuj v kokose, slnečnicových semienkach alebo polej arašidovým maslom."
+ ],
+ "tipy": "Čokoládu na ovocí môžete posypať mletými orechmi alebo sušeným ovocím.",
+ "foto": "",
+ "tagy": [
+  "ovocie",
+  "čokoláda",
+  "snack",
+  "dezert"
+ ]
 }

@@ -1,25 +1,60 @@
 {
-  "id": "avokadova-natierka",
-  "nazov": "Avokádová nátierka",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 2,
-  "cas": "5 min",
-  "kcal_na_porciu": 336,
-  "popis": "Krémová nátierka z avokáda, cottage syra a tahini.",
-  "ingrediencie": [
-    {"nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Cottage syr", "mnozstvo": 120, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Tahini", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Všetky ingrediencie spoločne rozmixujte dohladka."
-  ],
-  "tipy": "Natrite na celozrnný chlieb a obložte vareným vajcom nakrájaným na plátky.",
-  "foto": "",
-  "tagy": ["avokádo", "nátierka", "tahini", "rýchle"]
+ "id": "avokadova-natierka",
+ "nazov": "Avokádová nátierka",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 2,
+ "cas": "5 min",
+ "kcal_na_porciu": 336,
+ "popis": "Krémová nátierka z avokáda, cottage syra a tahini.",
+ "ingrediencie": [
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cottage syr",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tahini",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie spoločne rozmixuj dohladka."
+ ],
+ "tipy": "Natri na celozrnný chlieb a oblož vareným vajcom nakrájaným na plátky.",
+ "foto": "",
+ "tagy": [
+  "avokádo",
+  "nátierka",
+  "tahini",
+  "rýchle"
+ ]
 }

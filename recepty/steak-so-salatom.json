@@ -6,27 +6,73 @@
   "zdroj": "Jíme zdravě s Fitrecepty III",
   "porcie": 4,
   "cas": "20 min",
-  "kcal_na_porciu": 387,
+  "kcal_na_porciu": 548,
   "popis": "Jemný hovädzí steak podávaný s ľahkým listovým šalátom a balzamikovou zálivkou.",
   "ingrediencie": [
-    {"nazov": "Hovädzí rump steak alebo vysoká roštenka", "mnozstvo": 800, "jednotka": "g", "poznamka": "na steak"},
-    {"nazov": "Hrubozrnná soľ", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na steak"},
-    {"nazov": "Čierne korenie", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "nahrubo mleté, na steak"},
-    {"nazov": "Mix šalátových listov", "mnozstvo": 400, "jednotka": "g", "poznamka": "na šalát"},
-    {"nazov": "Mletá rasca", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "na šalát"},
-    {"nazov": "Balzamikový ocot", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na šalát"},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na šalát"},
-    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na šalát"}
+    {
+      "nazov": "Hovädzí rump steak alebo vysoká roštenka",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": "na steak"
+    },
+    {
+      "nazov": "Hrubozrnná soľ",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": "na steak"
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": "nahrubo mleté, na steak"
+    },
+    {
+      "nazov": "Mix šalátových listov",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": "na šalát"
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": "na šalát"
+    },
+    {
+      "nazov": "Balzamikový ocot",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": "na šalát"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": "na šalát"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": "na šalát"
+    }
   ],
   "postup": [
-    "Predhrejte rúru na 100 °C a rozohrejte nepriľnavú panvicu.",
-    "Steak opečte na panvici z každej strany podľa hrúbky (napríklad 3 cm hrubý steak 3 minúty z každej strany).",
-    "Panvicu so steakom preložte do rúry a dopečte cca 10 minút (na grile dokončite na chladnejšej časti pod pokrievkou).",
-    "Pripravte zálivku zmiešaním rasce, balzamikového octu, olivového oleja a citrónovej šťavy.",
-    "Zálivku premiešajte so šalátovými listami.",
-    "Steak nakrájajte na tenké plátky, dochuťte soľou a korením a podávajte so šalátom."
+    "Predhrej rúru na 100 °C a rozohrej nepriľnavú panvicu.",
+    "Steak opeč na panvici z každej strany podľa hrúbky (napríklad 3 cm hrubý steak 3 minúty z každej strany).",
+    "Panvicu so steakom prelož do rúry a dopeč cca 10 minút (na grile dokonči na chladnejšej časti pod pokrievkou).",
+    "Priprav zálivku zmiešaním rasce, balzamikového octu, olivového oleja a citrónovej šťavy.",
+    "Zálivku premiešaj so šalátovými listami.",
+    "Steak nakrájaj na tenké plátky, dochuť soľou a korením a podávaj so šalátom."
   ],
-  "tipy": "",
+  "tipy": "Grilovaciu mriežku poriadne rozpáľ a namasti, až potom prilož mäso. Na studenej mriežke sa prilepí a roztrhá.",
   "foto": "",
-  "tagy": ["hovädzie", "steak", "šalát", "nízke sacharidy"]
+  "tagy": [
+    "hovädzie",
+    "steak",
+    "šalát",
+    "nízke sacharidy"
+  ],
+  "kcal_zdroj": "vypocet"
 }

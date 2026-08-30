@@ -1,66 +1,66 @@
 {
-  "id": "sendvic-s-arasidovym-maslom-a-medom",
-  "nazov": "Sendvič s arašidovým maslom a medom",
-  "kategoria": "Snack",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Peanut Butter Sandwich (CC BY-SA)",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 719,
-  "popis": "Arašidové maslo zmiešané s medom a maslom na jednej strane, džem na druhej. Podáva sa s veľmi studeným mliekom.",
-  "ingrediencie": [
-    {
-      "nazov": "Toastový chlieb",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 15,
-      "jednotka": "g",
-      "poznamka": "mäkké"
-    },
-    {
-      "nazov": "Arašidové maslo",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Marmeláda",
-      "mnozstvo": 25,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": "veľmi studené"
-    }
-  ],
-  "postup": [
-    "Plátky chleba opeč a namaž maslom.",
-    "Zmiešaj arašidové maslo, med a maslo. Rozotri na jeden plátok opečeného chleba.",
-    "Na druhý plátok rozotri džem.",
-    "Obe polovice spoj.",
-    "Rozkroj na polovice a podávaj s mliekom."
-  ],
-  "tipy": "Pozor, zmes s arašidovým maslom je tekutá a rozteká sa. Ak je príliš riedka, natri med tenko na oba plátky a maslo do zmesi nedávaj. Pridať sa dajú hrozienka, ktoré majú medovú chuť. Banán je tradičná príloha.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "raňajky",
-    "americká",
-    "arašidové maslo",
-    "sladké",
-    "rýchle"
-  ]
+ "id": "sendvic-s-arasidovym-maslom-a-medom",
+ "nazov": "Sendvič s arašidovým maslom a medom",
+ "kategoria": "Snack",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Peanut Butter Sandwich (CC BY-SA)",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 719,
+ "popis": "Arašidové maslo zmiešané s medom a maslom na jednej strane, džem na druhej. Podáva sa s veľmi studeným mliekom.",
+ "ingrediencie": [
+  {
+   "nazov": "Toastový chlieb",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 15,
+   "jednotka": "g",
+   "poznamka": "mäkké"
+  },
+  {
+   "nazov": "Arašidové maslo",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Marmeláda",
+   "mnozstvo": 25,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": "veľmi studené"
+  }
+ ],
+ "postup": [
+  "Plátky chleba opeč a namaž maslom.",
+  "Zmiešaj arašidové maslo, med a maslo. Rozotri na jeden plátok opečeného chleba.",
+  "Na druhý plátok rozotri džem.",
+  "Obe polovice spoj.",
+  "Rozkroj na polovice a podávaj s mliekom."
+ ],
+ "tipy": "Pozor, zmes s arašidovým maslom je tekutá a rozteká sa. Ak je príliš riedka, natri med tenko na oba plátky a maslo do zmesi nedávaj. Pridať sa dajú hrozienka, ktoré majú medovú chuť. Banán je tradičná príloha.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "raňajky",
+  "americká",
+  "arašidové maslo",
+  "sladké",
+  "rýchle"
+ ]
 }

@@ -1,60 +1,60 @@
 {
-  "id": "mrkvovy-salat-s-hrozienkami",
-  "nazov": "Mrkvový salát s hrozienkami",
-  "kategoria": "Šalát",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Carrot and Raisin Salad (CC BY-SA)",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 91,
-  "popis": "Nastrúhaná mrkva s hrozienkami, citrónovou a pomarančovou kôrou a sokom. Bez majonézy.",
-  "ingrediencie": [
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": "nastrúhaná"
-    },
-    {
-      "nazov": "Hrozienka",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "kôra a sok"
-    },
-    {
-      "nazov": "Pomaranč",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "kôra a sok"
-    },
-    {
-      "nazov": "Med",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": "alebo cukor podľa chuti"
-    }
-  ],
-  "postup": [
-    "Mrkvu zmiešaj v miske s hrozienkami.",
-    "Pridaj približne lyžičku najemno nastrúhanej citrónovej a pomarančovej kôry a potom oba soky.",
-    "Dochuť cukrom alebo medom a všetko poriadne premiešaj.",
-    "Nechaj vychladnúť v chladničke a podávaj."
-  ],
-  "tipy": "Kôra je tu dôležitejšia než sok - dodáva vôňu, ktorú samotný sok nedá. Strúhaj len farebnú časť, biela je horká.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "príloha",
-    "americká",
-    "mrkva",
-    "vegetariánske",
-    "rýchle",
-    "bez varenia"
-  ]
+ "id": "mrkvovy-salat-s-hrozienkami",
+ "nazov": "Mrkvový salát s hrozienkami",
+ "kategoria": "Šalát",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Carrot and Raisin Salad (CC BY-SA)",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 91,
+ "popis": "Nastrúhaná mrkva s hrozienkami, citrónovou a pomarančovou kôrou a sokom. Bez majonézy.",
+ "ingrediencie": [
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "nastrúhaná"
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "kôra a sok"
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "kôra a sok"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "alebo cukor podľa chuti"
+  }
+ ],
+ "postup": [
+  "Mrkvu zmiešaj v miske s hrozienkami.",
+  "Pridaj približne lyžičku najemno nastrúhanej citrónovej a pomarančovej kôry a potom oba soky.",
+  "Dochuť cukrom alebo medom a všetko poriadne premiešaj.",
+  "Nechaj vychladnúť v chladničke a podávaj."
+ ],
+ "tipy": "Kôra je tu dôležitejšia než sok - dodáva vôňu, ktorú samotný sok nedá. Strúhaj len farebnú časť, biela je horká.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "príloha",
+  "americká",
+  "mrkva",
+  "vegetariánske",
+  "rýchle",
+  "bez varenia"
+ ]
 }

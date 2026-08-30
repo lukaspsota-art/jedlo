@@ -1,34 +1,72 @@
 {
-  "id": "mini-cheesecaky",
-  "nazov": "Mini cheesecaky",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 8,
-  "cas": "35 min",
-  "kcal_na_porciu": 176,
-  "popis": "Mini cheesecaky s datľovo-mandľovým korpusom, jogurtovou náplňou a malinami.",
-  "ingrediencie": [
-    {"nazov": "Datle medjool", "mnozstvo": 5, "jednotka": "ks"},
-    {"nazov": "Kokosový olej rozpustený", "mnozstvo": 20, "jednotka": "g"},
-    {"nazov": "Kokosový cukor", "mnozstvo": 20, "jednotka": "g"},
-    {"nazov": "Mandle nahrubo mleté", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Grécky jogurt", "mnozstvo": 400, "jednotka": "g"},
-    {"nazov": "Stévia extrakt", "mnozstvo": null, "jednotka": "", "poznamka": "pár kvapiek podľa chuti"},
-    {"nazov": "Maliny", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Želatína v plátkoch", "mnozstvo": 3, "jednotka": "plátok"}
-  ],
-  "postup": [
-    "Želatínu namočte do 100 ml vody.",
-    "Datle rozmixujte a zmiešajte s kokosovým olejom, cukrom a mandľami na korpus.",
-    "Formu na muffiny vyložte papierovými košíčkami a na dno rozdeľte datľovú zmes.",
-    "Jogurt zmiešajte so stéviou.",
-    "Namočenú želatínu rozpustite v rendlíku, primiešajte 2 PL jogurtovej zmesi a potom za stáleho miešania vlejte do zvyšného jogurtu.",
-    "Zmes rozmixujte dohladka.",
-    "Po 2 PL zmesi rozdeľte do košíčkov a navrch poukladajte maliny.",
-    "Pred podávaním chlaďte aspoň 4 hodiny."
-  ],
-  "tipy": "Maliny môžete nahradiť akýmkoľvek iným sezónnym ovocím.",
-  "foto": "",
-  "tagy": ["dezert", "cheesecake", "jogurt", "maliny"]
+ "id": "mini-cheesecaky",
+ "nazov": "Mini cheesecaky",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 8,
+ "cas": "35 min",
+ "kcal_na_porciu": 176,
+ "popis": "Mini cheesecaky s datľovo-mandľovým korpusom, jogurtovou náplňou a malinami.",
+ "ingrediencie": [
+  {
+   "nazov": "Datle medjool",
+   "mnozstvo": 5,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Kokosový olej rozpustený",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kokosový cukor",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Mandle nahrubo mleté",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Grécky jogurt",
+   "mnozstvo": 400,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Stévia extrakt",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "pár kvapiek podľa chuti"
+  },
+  {
+   "nazov": "Maliny",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Želatína v plátkoch",
+   "mnozstvo": 3,
+   "jednotka": "plátok"
+  }
+ ],
+ "postup": [
+  "Želatínu namoč do 100 ml vody.",
+  "Datle rozmixuj a zmiešaj s kokosovým olejom, cukrom a mandľami na korpus.",
+  "Formu na muffiny vylož papierovými košíčkami a na dno rozdeľ datľovú zmes.",
+  "Jogurt zmiešaj so stéviou.",
+  "Namočenú želatínu rozpusti v rendlíku, primiešaj 2 PL jogurtovej zmesi a potom za stáleho miešania vlej do zvyšného jogurtu.",
+  "Zmes rozmixuj dohladka.",
+  "Po 2 PL zmesi rozdeľ do košíčkov a navrch poukladaj maliny.",
+  "Pred podávaním chlaď aspoň 4 hodiny."
+ ],
+ "tipy": "Maliny môžete nahradiť akýmkoľvek iným sezónnym ovocím.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "cheesecake",
+  "jogurt",
+  "maliny"
+ ]
 }

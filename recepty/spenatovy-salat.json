@@ -1,32 +1,72 @@
 {
-  "id": "spenatovy-salat",
-  "nazov": "Špenátový šalát",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 2,
-  "cas": "18 min",
-  "kcal_na_porciu": 295,
-  "popis": "Šalát z baby špenátu, mrkvy a repy s opraženými slnečnicovými semienkami.",
-  "ingrediencie": [
-    {"nazov": "Baby špenát", "mnozstvo": 200, "jednotka": "g"},
-    {"nazov": "Mrkva", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Reďkovky", "mnozstvo": 4, "jednotka": "ks"},
-    {"nazov": "Červená repa predvarená", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Slnečnicové semienka", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na zálievku"},
-    {"nazov": "Sójová omáčka", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na zálievku"},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na zálievku"}
-  ],
-  "postup": [
-    "Špenát preplavte pod tečúcou vodou, osušte a dajte do misy.",
-    "Mrkvu ošúpte, nastrúhajte na dlhšie plátky a pridajte spolu s nakrájanými reďkovkami.",
-    "Pridajte na plátky nakrájanú repu.",
-    "Slnečnicové semienka opražte 3 minúty nasucho na panvici.",
-    "Zmiešajte med, sójovú omáčku a olivový olej na zálievku a zalejte šalát.",
-    "Rozdeľte na 2 porcie a posypte opraženými semienkami."
-  ],
-  "tipy": "K šalátu môžete pridať 2 natvrdo uvarené vajcia.",
-  "foto": "",
-  "tagy": ["šalát", "špenát", "repa", "mrkva"]
+ "id": "spenatovy-salat",
+ "nazov": "Špenátový šalát",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 2,
+ "cas": "18 min",
+ "kcal_na_porciu": 295,
+ "popis": "Šalát z baby špenátu, mrkvy a repy s opraženými slnečnicovými semienkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Baby špenát",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Reďkovky",
+   "mnozstvo": 4,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Červená repa predvarená",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na zálievku"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na zálievku"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na zálievku"
+  }
+ ],
+ "postup": [
+  "Špenát preplav pod tečúcou vodou, osuš a daj do misy.",
+  "Mrkvu ošúp, nastrúhaj na dlhšie plátky a pridaj spolu s nakrájanými reďkovkami.",
+  "Pridaj na plátky nakrájanú repu.",
+  "Slnečnicové semienka opraž 3 minúty nasucho na panvici.",
+  "Zmiešaj med, sójovú omáčku a olivový olej na zálievku a zalej šalát.",
+  "Rozdeľ na 2 porcie a posyp opraženými semienkami."
+ ],
+ "tipy": "K šalátu môžete pridať 2 natvrdo uvarené vajcia.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "špenát",
+  "repa",
+  "mrkva"
+ ]
 }

@@ -1,32 +1,66 @@
 {
-  "id": "kanapky-s-hummusom",
-  "nazov": "Kanapky s hummusom",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 20,
-  "cas": "60 min",
-  "kcal_na_porciu": 49,
-  "popis": "Pečené vrstvené kanapky zo zeleniny a zemiakov spojené repným hummusom.",
-  "ingrediencie": [
-    { "nazov": "Cuketa", "mnozstvo": 1, "jednotka": "ks" },
-    { "nazov": "Červená repa", "mnozstvo": 300, "jednotka": "g", "poznamka": "menšie bulvy" },
-    { "nazov": "Zemiaky", "mnozstvo": 3, "jednotka": "ks" },
-    { "nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL" },
-    { "nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik" },
-    { "nazov": "Oregano", "mnozstvo": 1, "jednotka": "ČL" },
-    { "nazov": "Repný hummus", "mnozstvo": 100, "jednotka": "g" }
-  ],
-  "postup": [
-    "Rúru predhrej na 175 °C.",
-    "Cuketu, repu a zemiaky nakrájaj na plátky 2–3 mm.",
-    "Plátky premiešaj s olivovým olejom, prelisovaným cesnakom a oreganom.",
-    "Rozlož na plech vystlaný papierom na pečenie.",
-    "Pečieme pri 165–175 °C 35–40 minút.",
-    "Plátok zemiaka potri hummusom, priklop plátkom repy, znova potri hummusom a priklop plátkom cukety, postup zopakuj.",
-    "Ak kanapky nedržia spolu, napichni ich zhora špajdľou."
-  ],
-  "tipy": "Do kanapiek pridaj nakladané sušené paradajky.",
-  "foto": "",
-  "tagy": ["snack", "hummus", "zelenina", "párty"]
+ "id": "kanapky-s-hummusom",
+ "nazov": "Kanapky s hummusom",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 20,
+ "cas": "60 min",
+ "kcal_na_porciu": 49,
+ "popis": "Pečené vrstvené kanapky zo zeleniny a zemiakov spojené repným hummusom.",
+ "ingrediencie": [
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Červená repa",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "menšie bulvy"
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Repný hummus",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 175 °C.",
+  "Cuketu, repu a zemiaky nakrájaj na plátky 2–3 mm.",
+  "Plátky premiešaj s olivovým olejom, prelisovaným cesnakom a oreganom.",
+  "Rozlož na plech vystlaný papierom na pečenie.",
+  "Peč pri 165–175 °C 35–40 minút.",
+  "Plátok zemiaka potri hummusom, priklop plátkom repy, znova potri hummusom a priklop plátkom cukety, postup zopakuj.",
+  "Ak kanapky nedržia spolu, napichni ich zhora špajdľou."
+ ],
+ "tipy": "Do kanapiek pridaj nakladané sušené paradajky.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "hummus",
+  "zelenina",
+  "párty"
+ ]
 }

@@ -1,34 +1,84 @@
 {
-  "id": "zapecene-sampinony-s-masom",
-  "nazov": "Zapečené šampiňóny s mäsom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 5,
-  "cas": "35 min",
-  "kcal_na_porciu": 198,
-  "popis": "Hlavičky šampiňónov plnené mletým mäsom a cesnakom, zapečené v rúre.",
-  "ingrediencie": [
-    {"nazov": "Šampiňóny", "mnozstvo": 15, "jednotka": "ks", "poznamka": "väčšie"},
-    {"nazov": "Mleté bravčové mäso", "mnozstvo": 300, "jednotka": "g", "poznamka": "kvalitné"},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": "menšia"},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Čerstvá petržlenová vňať", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 190 °C.",
-    "Šampiňóny očistite a odlomte nožičky.",
-    "V miske zmiešajte mleté mäso, roztlačený cesnak, nadrobno nakrájanú cibuľu, vajce, olej a nasekanú petržlenovú vňať.",
-    "Dochutite soľou a korením.",
-    "Zmesou naplňte hlavičky šampiňónov a poukladajte na plech s papierom na pečenie.",
-    "Pečte pri 180-190 °C asi 25 minút.",
-    "Posypte čerstvou nasekanou petržlenovou vňaťou."
-  ],
-  "tipy": "Posledných 5 minút pečenia môžete šampiňóny posypať strúhaným syrom.",
-  "foto": "",
-  "tagy": ["šampiňóny", "mleté mäso", "plnené huby", "hlavné jedlo"]
+ "id": "zapecene-sampinony-s-masom",
+ "nazov": "Zapečené šampiňóny s mäsom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 5,
+ "cas": "35 min",
+ "kcal_na_porciu": 198,
+ "popis": "Hlavičky šampiňónov plnené mletým mäsom a cesnakom, zapečené v rúre.",
+ "ingrediencie": [
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 15,
+   "jednotka": "ks",
+   "poznamka": "väčšie"
+  },
+  {
+   "nazov": "Mleté bravčové mäso",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "kvalitné"
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "menšia"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 190 °C.",
+  "Šampiňóny očisti a odlom nožičky.",
+  "V miske zmiešaj mleté mäso, roztlačený cesnak, nadrobno nakrájanú cibuľu, vajce, olej a nasekanú petržlenovú vňať.",
+  "Dochuti soľou a korením.",
+  "Zmesou naplň hlavičky šampiňónov a poukladaj na plech s papierom na pečenie.",
+  "Peč pri 180-190 °C asi 25 minút.",
+  "Posyp čerstvou nasekanou petržlenovou vňaťou."
+ ],
+ "tipy": "Posledných 5 minút pečenia môžete šampiňóny posypať strúhaným syrom.",
+ "foto": "",
+ "tagy": [
+  "šampiňóny",
+  "mleté mäso",
+  "plnené huby",
+  "hlavné jedlo"
+ ]
 }

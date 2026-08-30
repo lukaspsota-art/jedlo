@@ -1,36 +1,101 @@
 {
-  "id": "hovadzia-natierka-na-hrianky",
-  "nazov": "Nátierka na hrianky",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 8,
-  "cas": "55 min",
-  "kcal_na_porciu": 213,
-  "popis": "Pečená zeleninovo-mäsová nátierka z hovädzieho mäsa na opečený chlieb.",
-  "ingrediencie": [
-    {"nazov": "Slnečnicový chlieb", "mnozstvo": 8, "jednotka": "plátok", "poznamka": ""},
-    {"nazov": "Mleté hovädzie mäso", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Biela cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": "stredná"},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Mrkva", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Koreň petržlenu", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Paprika", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Pór", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Mäsité paradajky", "mnozstvo": 250, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 190 °C.",
-    "Hovädzie mäso orestujte s cibuľou na oleji v hlbšej panvici.",
-    "Pridajte mrkvu, petržlen, papriku, pór a paradajky, podlejte 200 ml vody.",
-    "Panvicu vložte do rúry a pečte pod pokrievkou pri 180-190 °C asi 45 minút.",
-    "Necháte vychladnúť a rozmixujte dohladka.",
-    "Dochutite soľou, korením a pridajte prelisovaný cesnak."
-  ],
-  "tipy": "Nátierku podávajte na nasucho opečených plátkoch celozrnného chleba.",
-  "foto": "",
-  "tagy": ["hovädzie mäso", "nátierka", "hrianky", "zelenina"]
+ "id": "hovadzia-natierka-na-hrianky",
+ "nazov": "Nátierka na hrianky",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 8,
+ "cas": "55 min",
+ "kcal_na_porciu": 213,
+ "popis": "Pečená zeleninovo-mäsová nátierka z hovädzieho mäsa na opečený chlieb.",
+ "ingrediencie": [
+  {
+   "nazov": "Slnečnicový chlieb",
+   "mnozstvo": 8,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté hovädzie mäso",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biela cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "stredná"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koreň petržlenu",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pór",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäsité paradajky",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 190 °C.",
+  "Hovädzie mäso orestuj s cibuľou na oleji v hlbšej panvici.",
+  "Pridaj mrkvu, petržlen, papriku, pór a paradajky, podlej 200 ml vody.",
+  "Panvicu vlož do rúry a peč pod pokrievkou pri 180-190 °C asi 45 minút.",
+  "Nechaj vychladnúť a rozmixuj dohladka.",
+  "Dochuti soľou, korením a pridaj prelisovaný cesnak."
+ ],
+ "tipy": "Nátierku podávaj na nasucho opečených plátkoch celozrnného chleba.",
+ "foto": "",
+ "tagy": [
+  "hovädzie mäso",
+  "nátierka",
+  "hrianky",
+  "zelenina"
+ ]
 }

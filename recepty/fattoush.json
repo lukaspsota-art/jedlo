@@ -1,126 +1,126 @@
 {
-  "id": "fattoush",
-  "nazov": "Fattoush",
-  "kategoria": "Šalát",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "Wikibooks Cookbook – Fattoush (CC BY-SA)",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 252,
-  "popis": "Levantský salát s opečenou pitou, sumakom a hromadou byliniek. Zálievka sa zahusťuje škrobom, nie olejom.",
-  "ingrediencie": [
-    {
-      "nazov": "Voda",
-      "mnozstvo": 120,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Škrob",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 80,
-      "jednotka": "ml",
-      "poznamka": "sok"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 2,
-      "jednotka": "strúčik",
-      "poznamka": "nasekaný najemno"
-    },
-    {
-      "nazov": "Sumak",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šalát",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": "rímsky, natrhaný"
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "na kocky"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "veľké, na kocky"
-    },
-    {
-      "nazov": "Jarná cibuľka",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "nasekaná"
-    },
-    {
-      "nazov": "Petržlen",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "nasekaný"
-    },
-    {
-      "nazov": "Mäta",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "nasekaná"
-    },
-    {
-      "nazov": "Zelená paprika",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "bez semien, nasekaná"
-    },
-    {
-      "nazov": "Rukola",
-      "mnozstvo": 140,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pita",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "opečené a natrhané na kúsky"
-    }
-  ],
-  "postup": [
-    "V malom hrnci na stredne vysokom ohni miešaj vodu so škrobom, kým nezhustne.",
-    "Stiahni z ohňa a vmiešaj citrónový sok, cesnak, sumak, soľ a korenie.",
-    "Nechaj v chladničke do použitia.",
-    "Vo veľkej miske premiešaj šalát, uhorku, paradajky, jarnú cibuľku, petržlen, mätu, papriku a rukolu.",
-    "Premiešaj so zálievkou a podávaj s pitou."
-  ],
-  "tipy": "Zdroj používa aj portulaku - ak ju nenájdeš, nahradí ju žerucha, petržlen alebo rukola. Pitu primiešaj až tesne pred podávaním, inak zmäkne.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "obed",
-    "blízkovýchodná",
-    "zelenina",
-    "vegánske",
-    "pita"
-  ]
+ "id": "fattoush",
+ "nazov": "Fattoush",
+ "kategoria": "Šalát",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Wikibooks Cookbook – Fattoush (CC BY-SA)",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 252,
+ "popis": "Levantský salát s opečenou pitou, sumakom a hromadou byliniek. Zálievka sa zahusťuje škrobom, nie olejom.",
+ "ingrediencie": [
+  {
+   "nazov": "Voda",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škrob",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 80,
+   "jednotka": "ml",
+   "poznamka": "sok"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": "nasekaný najemno"
+  },
+  {
+   "nazov": "Sumak",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalát",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "rímsky, natrhaný"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "na kocky"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "veľké, na kocky"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "nasekaný"
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Zelená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "bez semien, nasekaná"
+  },
+  {
+   "nazov": "Rukola",
+   "mnozstvo": 140,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pita",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "opečené a natrhané na kúsky"
+  }
+ ],
+ "postup": [
+  "V malom hrnci na stredne vysokom ohni miešaj vodu so škrobom, kým nezhustne.",
+  "Stiahni z ohňa a vmiešaj citrónový sok, cesnak, sumak, soľ a korenie.",
+  "Nechaj v chladničke do použitia.",
+  "Vo veľkej miske premiešaj šalát, uhorku, paradajky, jarnú cibuľku, petržlen, mätu, papriku a rukolu.",
+  "Premiešaj so zálievkou a podávaj s pitou."
+ ],
+ "tipy": "Zdroj používa aj portulaku - ak ju nenájdeš, nahradí ju žerucha, petržlen alebo rukola. Pitu primiešaj až tesne pred podávaním, inak zmäkne.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "obed",
+  "blízkovýchodná",
+  "zelenina",
+  "vegánske",
+  "pita"
+ ]
 }

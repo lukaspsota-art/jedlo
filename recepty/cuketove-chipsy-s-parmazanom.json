@@ -1,32 +1,72 @@
 {
-  "id": "cuketove-chipsy-s-parmazanom",
-  "nazov": "Cuketové chipsy s parmezánom",
-  "kategoria": "Snack",
-  "kuchyna": "Talianska",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 2,
-  "cas": "35 min",
-  "kcal_na_porciu": 204,
-  "popis": "Chrumkavé cuketové chipsy obalené vo vajci a parmezáne.",
-  "ingrediencie": [
-    {"nazov": "Cuketa", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Parmezán", "mnozstvo": 100, "jednotka": "g", "poznamka": "strúhaný"},
-    {"nazov": "Čierne korenie", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""}
-  ],
-  "postup": [
-    "Rúru predhrejte na 160 °C.",
-    "Cuketu nakrájajte na hranolky alebo kolieska.",
-    "V miske zmiešajte olej, vajce, prelisovaný cesnak, soľ a korenie.",
-    "Do druhej misy nasypte parmezán.",
-    "Každý kúsok obaľte najprv v zmesi s vajcom, potom v parmezáne.",
-    "Poukladajte na plech s papierom na pečenie.",
-    "Pečte pri 150-160 °C 15-20 minút."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["cuketa", "chipsy", "parmezán", "snack"]
+ "id": "cuketove-chipsy-s-parmazanom",
+ "nazov": "Cuketové chipsy s parmezánom",
+ "kategoria": "Snack",
+ "kuchyna": "Talianska",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 2,
+ "cas": "35 min",
+ "kcal_na_porciu": 204,
+ "popis": "Chrumkavé cuketové chipsy obalené vo vajci a parmezáne.",
+ "ingrediencie": [
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "strúhaný"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 160 °C.",
+  "Cuketu nakrájaj na hranolky alebo kolieska.",
+  "V miske zmiešaj olej, vajce, prelisovaný cesnak, soľ a korenie.",
+  "Do druhej misy nasyp parmezán.",
+  "Každý kúsok obaľ najprv v zmesi s vajcom, potom v parmezáne.",
+  "Poukladaj na plech s papierom na pečenie.",
+  "Peč pri 150-160 °C 15-20 minút."
+ ],
+ "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+ "foto": "",
+ "tagy": [
+  "cuketa",
+  "chipsy",
+  "parmezán",
+  "snack"
+ ]
 }

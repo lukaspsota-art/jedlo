@@ -1,28 +1,68 @@
 {
-  "id": "ovsene-lievance-z-cottage-syra",
-  "nazov": "Ovsené lievance z cottage syra",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "13 min",
-  "kcal_na_porciu": 237,
-  "popis": "Rýchle raňajkové lievance z mixovaného cottage syra a ovsených vločiek s banánom.",
-  "ingrediencie": [
-    {"nazov": "Cottage syr", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Ovsené vločky", "mnozstvo": 160, "jednotka": "g", "poznamka": "mleté"},
-    {"nazov": "Škorica", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Banán", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Sójové mlieko", "mnozstvo": 80, "jednotka": "ml", "poznamka": ""}
-  ],
-  "postup": [
-    "Všetky ingrediencie vlož do mixéra a mixuj dohladka.",
-    "Z hotovej hmoty tvaruj na nepriľnavej panvici menšie lievance.",
-    "Opekaj 2 minúty z každej strany."
-  ],
-  "tipy": "Lievance podávaj s čerstvým ovocím a jogurtom.",
-  "foto": "",
-  "tagy": ["raňajky", "lievance", "cottage syr", "ovsené vločky"]
+ "id": "ovsene-lievance-z-cottage-syra",
+ "nazov": "Ovsené lievance z cottage syra",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "13 min",
+ "kcal_na_porciu": 237,
+ "popis": "Rýchle raňajkové lievance z mixovaného cottage syra a ovsených vločiek s banánom.",
+ "ingrediencie": [
+  {
+   "nazov": "Cottage syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kypriaci prášok bez fosfátov",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójové mlieko",
+   "mnozstvo": 80,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie vlož do mixéra a mixuj dohladka.",
+  "Z hotovej hmoty tvaruj na nepriľnavej panvici menšie lievance.",
+  "Opekaj 2 minúty z každej strany."
+ ],
+ "tipy": "Lievance podávaj s čerstvým ovocím a jogurtom.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "lievance",
+  "cottage syr",
+  "ovsené vločky"
+ ]
 }

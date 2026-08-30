@@ -6,7 +6,7 @@
   "zdroj": "Kaufland FOOD magazín",
   "porcie": 6,
   "cas": "40 min",
-  "kcal_na_porciu": 220,
+  "kcal_na_porciu": 351,
   "popis": "Sýrsky dip z pečenej červenej papriky a vlašských orechov s granátovým sirupom a čili.",
   "ingrediencie": [
     {
@@ -81,5 +81,6 @@
     "dip",
     "nátierka",
     "orechy"
-  ]
+  ],
+  "kcal_zdroj": "vypocet"
 }

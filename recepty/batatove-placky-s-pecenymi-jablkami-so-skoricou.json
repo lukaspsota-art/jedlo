@@ -1,33 +1,83 @@
 {
-  "id": "batatove-placky-s-pecenymi-jablkami-so-skoricou",
-  "nazov": "Batátové placky s pečenými jablkami so škoricou",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 4,
-  "cas": "75 min",
-  "kcal_na_porciu": 374,
-  "popis": "Batátové placky podávané s teplými škoricovými jablkami.",
-  "ingrediencie": [
-    {"nazov": "Sladké zemiaky", "mnozstvo": 500, "jednotka": "g", "poznamka": "batáty, na placky"},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": "na placky"},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "na placky"},
-    {"nazov": "Hladká pohánková múka", "mnozstvo": 80, "jednotka": "g", "poznamka": "na placky"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Jablká", "mnozstvo": 3, "jednotka": "ks", "poznamka": "na pečené jablká"},
-    {"nazov": "Kokosový olej", "mnozstvo": 50, "jednotka": "g", "poznamka": "na pečené jablká"},
-    {"nazov": "Škorica", "mnozstvo": 2, "jednotka": "ČL", "poznamka": "na pečené jablká"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na pečené jablká"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 175 °C.",
-    "Jablká nakrájajte na kocky, zmiešajte s rozpusteným kokosovým olejom, škoricou a medom.",
-    "Rozložte na plech s papierom a pečte 20-25 minút pri 165-175 °C.",
-    "Batáty ošúpte, nakrájajte na kocky a varte vo vode 25-30 minút domäkka.",
-    "Zliate batáty rozmixujte s múkou, vajcami, štipkou soli a vanilkou.",
-    "Na nepriľnavej panvici opekajte placky (Ø 10 cm) 2 minúty z jednej strany a 1 minútu z druhej."
-  ],
-  "tipy": "Placky podávajte s 200 g tvarohu zmiešaným s vanilkou.",
-  "foto": "",
-  "tagy": ["batáty", "raňajky", "jablká", "škorica"]
+ "id": "batatove-placky-s-pecenymi-jablkami-so-skoricou",
+ "nazov": "Batátové placky s pečenými jablkami so škoricou",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 4,
+ "cas": "75 min",
+ "kcal_na_porciu": 374,
+ "popis": "Batátové placky podávané s teplými škoricovými jablkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Sladké zemiaky",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": "batáty, na placky"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na placky"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na placky"
+  },
+  {
+   "nazov": "Hladká pohánková múka",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "na placky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "na pečené jablká"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "na pečené jablká"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na pečené jablká"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na pečené jablká"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 175 °C.",
+  "Jablká nakrájaj na kocky, zmiešaj s rozpusteným kokosovým olejom, škoricou a medom.",
+  "Rozlož na plech s papierom a peč 20-25 minút pri 165-175 °C.",
+  "Batáty ošúp, nakrájaj na kocky a var vo vode 25-30 minút domäkka.",
+  "Zliate batáty rozmixuj s múkou, vajcami, štipkou soli a vanilkou.",
+  "Na nepriľnavej panvici opekaj placky (Ø 10 cm) 2 minúty z jednej strany a 1 minútu z druhej."
+ ],
+ "tipy": "Placky podávaj s 200 g tvarohu zmiešaným s vanilkou.",
+ "foto": "",
+ "tagy": [
+  "batáty",
+  "raňajky",
+  "jablká",
+  "škorica"
+ ]
 }

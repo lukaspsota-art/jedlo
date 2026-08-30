@@ -1,41 +1,121 @@
 {
-  "id": "soba-rezance-s-mletym-masom",
-  "nazov": "Soba rezance s mletým mäsom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 670,
-  "popis": "Pohánkové soba rezance s dusenou zeleninou a mletým hovädzím mäsom v paradajkovej omáčke.",
-  "ingrediencie": [
-    {"nazov": "Soba rezance", "mnozstvo": 380, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 3, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Mrkva", "mnozstvo": 3, "jednotka": "ks", "poznamka": "stredná"},
-    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Cuketa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Baklažán", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Mleté hovädzie mäso", "mnozstvo": 200, "jednotka": "g", "poznamka": "kvalitné"},
-    {"nazov": "Paradajkový pretlak bez cukru", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Krájané paradajky", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Konzervovaná kukurica", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mletá bazalka", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Oregano", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
-    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Soba rezance uvar podľa návodu na obale.",
-    "V hlbšej panvici na oleji orestuj nadrobno nakrájanú šalotku.",
-    "Pridaj roztlačený cesnak, mrkvu, cuketu a baklažán nakrájané na kocky.",
-    "Opekaj na strednom plameni 10 minút, podlej 100 ml vody a nechaj vyvariť.",
-    "Pridaj mleté mäso a opekaj ďalších 5 minút.",
-    "Vmiešaj pretlak, paradajky a kukuricu, prikry pokrievkou a var 15 minút, podľa potreby podlej vodou.",
-    "Okoreň bazalkou a oreganom, dosoľ a dokorenie.",
-    "Nakoniec vmiešaj uvarené rezance a podávaj."
-  ],
-  "tipy": "Soba rezance môžeš nahradiť celozrnnými cestovinami.",
-  "foto": "",
-  "tagy": ["hlavné jedlo", "rezance", "mäso", "zelenina"]
+ "id": "soba-rezance-s-mletym-masom",
+ "nazov": "Soba rezance s mletým mäsom",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Ázijská",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 670,
+ "popis": "Pohánkové soba rezance s dusenou zeleninou a mletým hovädzím mäsom v paradajkovej omáčke.",
+ "ingrediencie": [
+  {
+   "nazov": "Soba rezance",
+   "mnozstvo": 380,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "stredná"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté hovädzie mäso",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "kvalitné"
+  },
+  {
+   "nazov": "Paradajkový pretlak bez cukru",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krájané paradajky",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Konzervovaná kukurica",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá bazalka",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Soba rezance uvar podľa návodu na obale.",
+  "V hlbšej panvici na oleji orestuj nadrobno nakrájanú šalotku.",
+  "Pridaj roztlačený cesnak, mrkvu, cuketu a baklažán nakrájané na kocky.",
+  "Opekaj na strednom plameni 10 minút, podlej 100 ml vody a nechaj vyvariť.",
+  "Pridaj mleté mäso a opekaj ďalších 5 minút.",
+  "Vmiešaj pretlak, paradajky a kukuricu, prikry pokrievkou a var 15 minút, podľa potreby podlej vodou.",
+  "Okoreň bazalkou a oreganom, dosoľ a dokorenie.",
+  "Nakoniec vmiešaj uvarené rezance a podávaj."
+ ],
+ "tipy": "Soba rezance môžeš nahradiť celozrnnými cestovinami.",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "rezance",
+  "mäso",
+  "zelenina"
+ ]
 }

@@ -1,39 +1,114 @@
 {
-  "id": "sekana-s-tekvicou",
-  "nazov": "Sekaná s tekvicou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 6,
-  "cas": "80 min",
-  "kcal_na_porciu": 393,
-  "popis": "Sekaná z hovädzieho mäsa, jačmenných vločiek a tekvicového pyré.",
-  "ingrediencie": [
-    {"nazov": "Jačmenné vločky", "mnozstvo": 170, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Mrkva", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Pór", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Tekvicové pyré", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mleté hovädzie mäso", "mnozstvo": 600, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Sušený tymian", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Pálivá paprika", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Tamari", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 180 °C.",
-    "Šalotku, mrkvu, pór a cesnak nadrobno nakrájajte alebo rozmixujte.",
-    "Na olivovom oleji restujte zeleninu 10 minút.",
-    "Vločky zmiešajte s tekvicovým pyré, restovanou zeleninou a mäsom.",
-    "Pridajte vajce, tymian, papriku, tamari, soľ a korenie a vypracujte cesto.",
-    "Cesto vložte do formy na sekanú vyloženej papierom na pečenie.",
-    "Pečte pri 170-180 °C 50-60 minút."
-  ],
-  "tipy": "Tekvicové pyré si pripravíte upečením 500 g tekvice nakrájanej na kocky pri 170-180 °C a následným rozmixovaním.",
-  "foto": "",
-  "tagy": ["sekaná", "tekvica", "hovädzie mäso", "hlavné jedlo"]
+ "id": "sekana-s-tekvicou",
+ "nazov": "Sekaná s tekvicou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 6,
+ "cas": "80 min",
+ "kcal_na_porciu": 393,
+ "popis": "Sekaná z hovädzieho mäsa, jačmenných vločiek a tekvicového pyré.",
+ "ingrediencie": [
+  {
+   "nazov": "Jačmenné vločky",
+   "mnozstvo": 170,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pór",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tekvicové pyré",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté hovädzie mäso",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený tymian",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pálivá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tamari",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "Šalotku, mrkvu, pór a cesnak nadrobno nakrájaj alebo rozmixuj.",
+  "Na olivovom oleji restuj zeleninu 10 minút.",
+  "Vločky zmiešaj s tekvicovým pyré, restovanou zeleninou a mäsom.",
+  "Pridaj vajce, tymian, papriku, tamari, soľ a korenie a vypracuj cesto.",
+  "Cesto vlož do formy na sekanú vyloženej papierom na pečenie.",
+  "Peč pri 170-180 °C 50-60 minút."
+ ],
+ "tipy": "Tekvicové pyré si pripravíte upečením 500 g tekvice nakrájanej na kocky pri 170-180 °C a následným rozmixovaním.",
+ "foto": "",
+ "tagy": [
+  "sekaná",
+  "tekvica",
+  "hovädzie mäso",
+  "hlavné jedlo"
+ ]
 }

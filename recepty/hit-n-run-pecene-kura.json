@@ -6,7 +6,7 @@
   "zdroj": "Jamie Oliver",
   "porcie": 4,
   "cas": "75 min",
-  "kcal_na_porciu": 424,
+  "kcal_na_porciu": 614,
   "popis": "Kuracie stehná pečené na plechu s paradajkami, paprikou, cesnakom a tymianom, s ryžou.",
   "ingrediencie": [
     {
@@ -91,5 +91,6 @@
     "kura",
     "plech",
     "večera"
-  ]
+  ],
+  "kcal_zdroj": "vypocet"
 }

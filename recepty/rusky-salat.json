@@ -1,71 +1,71 @@
 {
-  "id": "rusky-salat",
-  "nazov": "Ruský salát",
-  "kategoria": "Šalát",
-  "kuchyna": "Ruská",
-  "zdroj": "Wikibooks Cookbook – Russian Salad (CC BY-SA)",
-  "porcie": 6,
-  "cas": "35 min",
-  "kcal_na_porciu": 364,
-  "popis": "Varená zelenina s nakladanými uhorkami a majonézou. Základná verzia salátu, ktorý pozná celá východná Európa.",
-  "ingrediencie": [
-    {
-      "nazov": "Kukurica",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "mrazená"
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "mrazená, na kocky"
-    },
-    {
-      "nazov": "Hrášok",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Nakladané uhorky",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": "na kocky"
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 240,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zeleninu uvar spolu, sceď a prelož do misky.",
-    "Pridaj nakrájané nakladané uhorky a nechaj vychladnúť na pokojovú teplotu.",
-    "Pridaj majonézu a miešaj, kým nie je všetko rovnomerne spojené.",
-    "Nakoniec dochuť soľou."
-  ],
-  "tipy": "Zelenina musí byť pred pridaním majonézy naozaj vychladnutá, inak sa majonéza rozpadne. Zdroj uvádza 480 g majonézy, tu je polovica.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "príloha",
-    "ruská",
-    "zelenina",
-    "zemiaky",
-    "príprava vopred"
-  ]
+ "id": "rusky-salat",
+ "nazov": "Ruský salát",
+ "kategoria": "Šalát",
+ "kuchyna": "Ruská",
+ "zdroj": "Wikibooks Cookbook – Russian Salad (CC BY-SA)",
+ "porcie": 6,
+ "cas": "35 min",
+ "kcal_na_porciu": 364,
+ "popis": "Varená zelenina s nakladanými uhorkami a majonézou. Základná verzia salátu, ktorý pozná celá východná Európa.",
+ "ingrediencie": [
+  {
+   "nazov": "Kukurica",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "mrazená"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "mrazená, na kocky"
+  },
+  {
+   "nazov": "Hrášok",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nakladané uhorky",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "na kocky"
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zeleninu uvar spolu, sceď a prelož do misky.",
+  "Pridaj nakrájané nakladané uhorky a nechaj vychladnúť na pokojovú teplotu.",
+  "Pridaj majonézu a miešaj, kým nie je všetko rovnomerne spojené.",
+  "Nakoniec dochuť soľou."
+ ],
+ "tipy": "Zelenina musí byť pred pridaním majonézy naozaj vychladnutá, inak sa majonéza rozpadne. Zdroj uvádza 480 g majonézy, tu je polovica.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "príloha",
+  "ruská",
+  "zelenina",
+  "zemiaky",
+  "príprava vopred"
+ ]
 }

@@ -1,108 +1,108 @@
 {
-  "id": "kari-indonezsky-tofu",
-  "nazov": "Karí na indonézsky spôsob s tofu a kurkumovou ryžou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Indonézska",
-  "zdroj": "Kaufland online",
-  "porcie": 2,
-  "cas": "40 min",
-  "kcal_na_porciu": 520,
-  "popis": "Vegetariánske kokosové curry s tofu a zeleninou, podávané s kurkumovou ryžou.",
-  "ingrediencie": [
-    {
-      "nazov": "Kokosového mlieka",
-      "mnozstvo": 400,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Kokosového oleja",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Tofu",
-      "mnozstvo": 200,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "kari pasta",
-      "mnozstvo": 4,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Citrónovej trávy",
-      "mnozstvo": 30,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "hráškové struky",
-      "mnozstvo": 150,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "škorica",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "cukor",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "sójová omáčka",
-      "mnozstvo": 3,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "Kurkumy",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "mrkva",
-      "mnozstvo": 3,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Brokolice",
-      "mnozstvo": 0.5,
-      "jednotka": "hlávka"
-    },
-    {
-      "nazov": "voda",
-      "mnozstvo": 1,
-      "jednotka": "šálka"
-    },
-    {
-      "nazov": "Nastrúhaného zázvoru",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    }
-  ],
-  "postup": [
-    "Tofu nakrájaj na kocky a opeč na troške oleja dozlatista, potom odlož.",
-    "Vo woku rozohrej kokosový olej, pridaj zázvor a curry pastu a krátko opekaj. Pridaj mrkvu na pásiky a brokolicu na ružičky, osoľ a restuj.",
-    "Zalej kokosovým mliekom a vodou, pridaj polámanú citrónovú trávu a var pár minút, kým zelenina nezmäkne.",
-    "Ku koncu pridaj hráškové struky a dochuť škoricou, kurkumou a soľou. Pridaj cukor, limetku, sójovku a opečené tofu a krátko povar. Podávaj s jazmínovou ryžou uvarenou s lyžičkou kurkumy."
-  ],
-  "tipy": "Ryžu uvar s kurkumou — dostane zlatú farbu a jemnú arómu.",
-  "foto": "",
-  "tagy": [
-    "indonézske",
-    "tofu",
-    "curry",
-    "vegetariánske"
-  ]
+ "id": "kari-indonezsky-tofu",
+ "nazov": "Karí na indonézsky spôsob s tofu a kurkumovou ryžou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Indonézska",
+ "zdroj": "Kaufland online",
+ "porcie": 2,
+ "cas": "40 min",
+ "kcal_na_porciu": 520,
+ "popis": "Vegetariánske kokosové curry s tofu a zeleninou, podávané s kurkumovou ryžou.",
+ "ingrediencie": [
+  {
+   "nazov": "Kokosového mlieka",
+   "mnozstvo": 400,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Kokosového oleja",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Tofu",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "kari pasta",
+   "mnozstvo": 4,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Citrónovej trávy",
+   "mnozstvo": 30,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "hráškové struky",
+   "mnozstvo": 150,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "sójová omáčka",
+   "mnozstvo": 3,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "šťava"
+  },
+  {
+   "nazov": "Kurkumy",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "mrkva",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Brokolice",
+   "mnozstvo": 0.5,
+   "jednotka": "hlávka"
+  },
+  {
+   "nazov": "voda",
+   "mnozstvo": 1,
+   "jednotka": "šálka"
+  },
+  {
+   "nazov": "Nastrúhaného zázvoru",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  }
+ ],
+ "postup": [
+  "Tofu nakrájaj na kocky a opeč na troške oleja dozlatista, potom odlož.",
+  "Vo woku rozohrej kokosový olej, pridaj zázvor a curry pastu a krátko opekaj. Pridaj mrkvu na pásiky a brokolicu na ružičky, osoľ a restuj.",
+  "Zalej kokosovým mliekom a vodou, pridaj polámanú citrónovú trávu a var pár minút, kým zelenina nezmäkne.",
+  "Ku koncu pridaj hráškové struky a dochuť škoricou, kurkumou a soľou. Pridaj cukor, limetku, sójovku a opečené tofu a krátko povar. Podávaj s jazmínovou ryžou uvarenou s lyžičkou kurkumy."
+ ],
+ "tipy": "Ryžu uvar s kurkumou — dostane zlatú farbu a jemnú arómu.",
+ "foto": "",
+ "tagy": [
+  "indonézske",
+  "tofu",
+  "curry",
+  "vegetariánske"
+ ]
 }

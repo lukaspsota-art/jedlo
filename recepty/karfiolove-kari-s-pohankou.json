@@ -1,34 +1,84 @@
 {
-  "id": "karfiolove-kari-s-pohankou",
-  "nazov": "Karfiolové kari s pohánkou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 337,
-  "popis": "Karí z nastrúhaného karfiolu dusené so sójovou smotanou, podávané s pohánkou.",
-  "ingrediencie": [
-    {"nazov": "Pohánka lámanka", "mnozstvo": 240, "jednotka": "g", "poznamka": "alebo pohánkové krúpy"},
-    {"nazov": "Biela cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": "stredná"},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Karfiol", "mnozstvo": 1, "jednotka": "ks", "poznamka": "hlávka"},
-    {"nazov": "Sójová smotana", "mnozstvo": 120, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Karí korenie", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Čerstvá petržlenová vňať", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
-    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Pohánku uvar podľa návodu na obale.",
-    "Karfiol rozdeľ na ružičky a nastrúhaj na jemnom strúhadle.",
-    "Na panvici rozohrej olej a orestuj najemno nakrájanú cibuľku.",
-    "Po dvoch minútach pridaj karfiol, karí, soľ a korenie a restuj na strednom plameni 25 minút.",
-    "Počas restovania karfiol zalievaj vodou, nechaj vsiaknuť a postup opakuj do zmäknutia.",
-    "Zalej sójovou smotanou a premiešaj.",
-    "Karfiolové kari zmiešaj s pohánkou a podávaj posypané petržlenovou vňaťou."
-  ],
-  "tipy": "Ak máš doma kokosové mlieko, prilievaj ho počas varenia namiesto vody, jedlo bude mať plnšiu chuť.",
-  "foto": "",
-  "tagy": ["hlavné jedlo", "karfiol", "pohánka", "karí"]
+ "id": "karfiolove-kari-s-pohankou",
+ "nazov": "Karfiolové kari s pohánkou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 337,
+ "popis": "Karí z nastrúhaného karfiolu dusené so sójovou smotanou, podávané s pohánkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Pohánka lámanka",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": "alebo pohánkové krúpy"
+  },
+  {
+   "nazov": "Biela cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "stredná"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karfiol",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "hlávka"
+  },
+  {
+   "nazov": "Sójová smotana",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karí korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Pohánku uvar podľa návodu na obale.",
+  "Karfiol rozdeľ na ružičky a nastrúhaj na jemnom strúhadle.",
+  "Na panvici rozohrej olej a orestuj najemno nakrájanú cibuľku.",
+  "Po dvoch minútach pridaj karfiol, karí, soľ a korenie a restuj na strednom plameni 25 minút.",
+  "Počas restovania karfiol zalievaj vodou, nechaj vsiaknuť a postup opakuj do zmäknutia.",
+  "Zalej sójovou smotanou a premiešaj.",
+  "Karfiolové kari zmiešaj s pohánkou a podávaj posypané petržlenovou vňaťou."
+ ],
+ "tipy": "Ak máš doma kokosové mlieko, prilievaj ho počas varenia namiesto vody, jedlo bude mať plnšiu chuť.",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "karfiol",
+  "pohánka",
+  "karí"
+ ]
 }

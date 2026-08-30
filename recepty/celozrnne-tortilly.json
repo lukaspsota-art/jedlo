@@ -1,31 +1,71 @@
 {
-  "id": "celozrnne-tortilly",
-  "nazov": "Celozrnné tortilly",
-  "kategoria": "Príloha",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 16,
-  "cas": "40 min",
-  "kcal_na_porciu": 215,
-  "popis": "Domáce celozrnné tortilly vhodné ako príloha alebo na plnenie.",
-  "ingrediencie": [
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 600, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Kokosový olej", "mnozstvo": 90, "jednotka": "g", "poznamka": "tuhý"},
-    {"nazov": "Voda", "mnozstvo": 350, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Prášok do pečiva", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Rastlinný olej", "mnozstvo": 40, "jednotka": "g", "poznamka": "na hnetenie"},
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 50, "jednotka": "g", "poznamka": "na podsypanie"}
-  ],
-  "postup": [
-    "Múku preosejte s práškom do pečiva, rukami premiešajte, pridajte soľ, tuhý kokosový olej a vodu a vypracujte cesto.",
-    "Cesto hnette cca 5 minút do hladka.",
-    "Cesto preložte na pracovnú plochu potretú olejom a hnette ďalších 4 minúty, olej pridávajte podľa potreby, ak sa cesto lepí.",
-    "Cesto vráťte do misy, prikryte a odložte na 10 minút.",
-    "Rozdeľte na 16 rovnakých kúskov a z každého vyváľajte tenkú tortillu na pomúčenej ploche.",
-    "Tortilly pečte na nízkom ohni 3 minúty z jednej strany, po vytvorení bublín otočte a pečte 2-3 minúty z druhej strany."
-  ],
-  "tipy": "Tortilly podávajte s polievkami, zarolujte do nich zeleninu alebo naplňte jogurtom a marmeládou.",
-  "foto": "",
-  "tagy": ["tortilla", "pečivo", "príloha", "celozrnné"]
+ "id": "celozrnne-tortilly",
+ "nazov": "Celozrnné tortilly",
+ "kategoria": "Príloha",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 16,
+ "cas": "40 min",
+ "kcal_na_porciu": 215,
+ "popis": "Domáce celozrnné tortilly vhodné ako príloha alebo na plnenie.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 90,
+   "jednotka": "g",
+   "poznamka": "tuhý"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 350,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "na hnetenie"
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "na podsypanie"
+  }
+ ],
+ "postup": [
+  "Múku preosej s práškom do pečiva, rukami premiešaj, pridaj soľ, tuhý kokosový olej a vodu a vypracuj cesto.",
+  "Cesto hneť cca 5 minút do hladka.",
+  "Cesto prelož na pracovnú plochu potretú olejom a hneť ďalších 4 minúty, olej pridávaj podľa potreby, ak sa cesto lepí.",
+  "Cesto vráť do misy, prikry a odlož na 10 minút.",
+  "Rozdeľ na 16 rovnakých kúskov a z každého vyváľaj tenkú tortillu na pomúčenej ploche.",
+  "Tortilly peč na nízkom ohni 3 minúty z jednej strany, po vytvorení bublín otoč a peč 2-3 minúty z druhej strany."
+ ],
+ "tipy": "Tortilly podávaj s polievkami, zaroluj do nich zeleninu alebo naplň jogurtom a marmeládou.",
+ "foto": "",
+ "tagy": [
+  "tortilla",
+  "pečivo",
+  "príloha",
+  "celozrnné"
+ ]
 }

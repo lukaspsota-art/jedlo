@@ -1,40 +1,106 @@
 {
-  "id": "cokoladove-muffiny-s-polevou",
-  "nazov": "Čokoládové muffiny s polevou",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 12,
-  "cas": "50 min",
-  "kcal_na_porciu": 127,
-  "popis": "Vláčne kakaové muffiny s čokoládovou polevou.",
-  "ingrediencie": [
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Holandské kakao", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Prášok do pečiva", "mnozstvo": 2, "jednotka": "ČL"},
-    {"nazov": "Jedlá sóda", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Kokosový olej", "mnozstvo": 40, "jednotka": "g", "poznamka": "rozpustený"},
-    {"nazov": "Med", "mnozstvo": 70, "jednotka": "g"},
-    {"nazov": "Mlieko", "mnozstvo": 160, "jednotka": "ml"},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Holandské kakao", "mnozstvo": 30, "jednotka": "g", "poznamka": "na polevu"},
-    {"nazov": "Kokosový olej", "mnozstvo": 20, "jednotka": "g", "poznamka": "na polevu"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na polevu"},
-    {"nazov": "Mlieko", "mnozstvo": 60, "jednotka": "ml", "poznamka": "na polevu"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 170 °C.",
-    "Do väčšej misy preosejte múku, kakao, soľ, prášok do pečiva a sódu.",
-    "V druhej mise vyšľahajte rozpustený kokosový olej, med, mlieko, vanilkový extrakt a vajcia.",
-    "Obsah oboch mís spojte a premiešajte.",
-    "Cesto rozlejte do 12 košíčkov na muffiny.",
-    "Pečte pri 160-170 °C 20-25 minút.",
-    "Zmiešajte kakao, rozpustený kokosový olej, med a mlieko na polevu.",
-    "Vychladnuté muffiny polejte polevou."
-  ],
-  "tipy": "Muffiny ozdobte ovocím alebo nahrubo posekanými orechmi.",
-  "foto": "",
-  "tagy": ["muffiny", "čokoláda", "dezert"]
+ "id": "cokoladove-muffiny-s-polevou",
+ "nazov": "Čokoládové muffiny s polevou",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 12,
+ "cas": "50 min",
+ "kcal_na_porciu": 127,
+ "popis": "Vláčne kakaové muffiny s čokoládovou polevou.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Jedlá sóda",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "rozpustený"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 70,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 160,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": "na polevu"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": "na polevu"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na polevu"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "na polevu"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 170 °C.",
+  "Do väčšej misy preosej múku, kakao, soľ, prášok do pečiva a sódu.",
+  "V druhej mise vyšľahaj rozpustený kokosový olej, med, mlieko, vanilkový extrakt a vajcia.",
+  "Obsah oboch mís spoj a premiešaj.",
+  "Cesto rozlej do 12 košíčkov na muffiny.",
+  "Peč pri 160-170 °C 20-25 minút.",
+  "Zmiešaj kakao, rozpustený kokosový olej, med a mlieko na polevu.",
+  "Vychladnuté muffiny polej polevou."
+ ],
+ "tipy": "Muffiny ozdob ovocím alebo nahrubo posekanými orechmi.",
+ "foto": "",
+ "tagy": [
+  "muffiny",
+  "čokoláda",
+  "dezert"
+ ]
 }

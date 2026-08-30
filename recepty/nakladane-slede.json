@@ -5,8 +5,8 @@
   "kuchyna": "Švédska",
   "zdroj": "Wikibooks Cookbook – Pickled Herring (CC BY-SA)",
   "porcie": 8,
-  "cas": "26 h",
-  "kcal_na_porciu": 270,
+  "cas": "26 hod",
+  "kcal_na_porciu": 138,
   "popis": "Sleďové filé najprv v slanom náleve, potom v octovom s citrónom a červenou cibuľou. Škandinávska klasika na chlieb.",
   "ingrediencie": [
     {
@@ -98,5 +98,6 @@
     "ryby",
     "nakladané",
     "príprava vopred"
-  ]
+  ],
+  "kcal_zdroj": "vypocet"
 }

@@ -1,32 +1,83 @@
 {
-  "id": "salat-divoka-ryza-kokos",
-  "nazov": "Salát s divokou ryžou a kokosom",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 3,
-  "cas": "50 min",
-  "kcal_na_porciu": 479,
-  "popis": "Exotický šalát z divokej ryže s kokosom, mandľami a jogurtovým dresingom.",
-  "ingrediencie": [
-    { "nazov": "Divoká ryža", "mnozstvo": 150, "jednotka": "g", "poznamka": "surová" },
-    { "nazov": "Kokosové plátky", "mnozstvo": 20, "jednotka": "g" },
-    { "nazov": "Plátkové mandle", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Čerstvý koriander", "mnozstvo": 1, "jednotka": "hrsť" },
-    { "nazov": "Jarná cibuľka", "mnozstvo": 0.5, "jednotka": "ks" },
-    { "nazov": "Citrónová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z 1 citróna, dresing" },
-    { "nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": "dresing" },
-    { "nazov": "Grécky jogurt", "mnozstvo": 200, "jednotka": "g", "poznamka": "dresing" },
-    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, dresing" },
-    { "nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, dresing" }
-  ],
-  "postup": [
-    "Ryžu uvar v osolenej vode podľa času na obale.",
-    "Pripravíme dresing – zmiešaj citrónovú šťavu, prelisovaný cesnak, grécky jogurt, soľ a korenie.",
-    "Uvarenú ryžu necháme vychladnúť a zmiešame s kokosom, mandľami, korianderom a najemno nakrájanou jarnou cibuľkou.",
-    "Rozdeľ na 3 porcie, zalej dresingom a podávaj."
-  ],
-  "tipy": "Do dresingu pridaj pol lyžičky kurkumy alebo kari korenia.",
-  "foto": "",
-  "tagy": ["šalát", "divoká ryža", "kokos", "fit"]
+ "id": "salat-divoka-ryza-kokos",
+ "nazov": "Salát s divokou ryžou a kokosom",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 3,
+ "cas": "50 min",
+ "kcal_na_porciu": 479,
+ "popis": "Exotický šalát z divokej ryže s kokosom, mandľami a jogurtovým dresingom.",
+ "ingrediencie": [
+  {
+   "nazov": "Divoká ryža",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "surová"
+  },
+  {
+   "nazov": "Kokosové plátky",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Plátkové mandle",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Čerstvý koriander",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 0.5,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "z 1 citróna, dresing"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "dresing"
+  },
+  {
+   "nazov": "Grécky jogurt",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "dresing"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti, dresing"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti, dresing"
+  }
+ ],
+ "postup": [
+  "Ryžu uvar v osolenej vode podľa času na obale.",
+  "Priprav dresing – zmiešaj citrónovú šťavu, prelisovaný cesnak, grécky jogurt, soľ a korenie.",
+  "Uvarenú ryžu nechaj vychladnúť a zmiešaj s kokosom, mandľami, korianderom a najemno nakrájanou jarnou cibuľkou.",
+  "Rozdeľ na 3 porcie, zalej dresingom a podávaj."
+ ],
+ "tipy": "Do dresingu pridaj pol lyžičky kurkumy alebo kari korenia.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "divoká ryža",
+  "kokos",
+  "fit"
+ ]
 }

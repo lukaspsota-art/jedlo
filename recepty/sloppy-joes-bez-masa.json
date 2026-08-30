@@ -1,77 +1,77 @@
 {
-  "id": "sloppy-joes-bez-masa",
-  "nazov": "Sloppy Joes bez mäsa",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Meatless Sloppy Joes (CC BY-SA)",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 590,
-  "popis": "Vegetariánska verzia sloppy joes z chilli fazule a hnedej ryže s barbecue omáčkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "nasekaná"
-    },
-    {
-      "nazov": "Zelená paprika",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "nasekaná"
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "nastrúhaná"
-    },
-    {
-      "nazov": "Fazuľa",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "chilli fazuľa z konzervy, s nálevom"
-    },
-    {
-      "nazov": "Hnedá ryža",
-      "mnozstvo": 280,
-      "jednotka": "g",
-      "poznamka": "uvarená"
-    },
-    {
-      "nazov": "Barbecue omáčka",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "hikorová"
-    },
-    {
-      "nazov": "Žemľa",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "hamburgerové"
-    }
-  ],
-  "postup": [
-    "Do panvice na stredne silnom ohni pridaj olivový olej.",
-    "Pridaj cibuľu, papriku a mrkvu a opekaj 3-4 minúty.",
-    "Pridaj ryžu, chilli fazuľu a barbecue omáčku a variť približne 10-15 minút, často miešaj, aby sa všetko poriadne prehrialo.",
-    "Podávaj na hamburgerových žemliach."
-  ],
-  "tipy": "Fazuľa sa nescedzuje - nálev tvorí omáčku. Ak je zmes príliš riedka, var ju o niekoľko minút dlhšie odkrytú.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "večera",
-    "americká",
-    "vegetariánske",
-    "fazuľa"
-  ]
+ "id": "sloppy-joes-bez-masa",
+ "nazov": "Sloppy Joes bez mäsa",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Meatless Sloppy Joes (CC BY-SA)",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 590,
+ "popis": "Vegetariánska verzia sloppy joes z chilli fazule a hnedej ryže s barbecue omáčkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Zelená paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "nastrúhaná"
+  },
+  {
+   "nazov": "Fazuľa",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "chilli fazuľa z konzervy, s nálevom"
+  },
+  {
+   "nazov": "Hnedá ryža",
+   "mnozstvo": 280,
+   "jednotka": "g",
+   "poznamka": "uvarená"
+  },
+  {
+   "nazov": "Barbecue omáčka",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "hikorová"
+  },
+  {
+   "nazov": "Žemľa",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "hamburgerové"
+  }
+ ],
+ "postup": [
+  "Do panvice na stredne silnom ohni pridaj olivový olej.",
+  "Pridaj cibuľu, papriku a mrkvu a opekaj 3-4 minúty.",
+  "Pridaj ryžu, chilli fazuľu a barbecue omáčku a variť približne 10-15 minút, často miešaj, aby sa všetko poriadne prehrialo.",
+  "Podávaj na hamburgerových žemliach."
+ ],
+ "tipy": "Fazuľa sa nescedzuje - nálev tvorí omáčku. Ak je zmes príliš riedka, var ju o niekoľko minút dlhšie odkrytú.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "večera",
+  "americká",
+  "vegetariánske",
+  "fazuľa"
+ ]
 }

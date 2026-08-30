@@ -1,28 +1,65 @@
 {
-  "id": "ananasova-smoothie-bowl",
-  "nazov": "Ananásová smoothie bowl",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 3,
-  "cas": "10 min",
-  "kcal_na_porciu": 238,
-  "popis": "Osviežujúca smoothie bowl z mrazeného ananásu a banánu, dozdobená kešu orechmi a kiwi.",
-  "ingrediencie": [
-    { "nazov": "Zmrazený ananás", "mnozstvo": 200, "jednotka": "g" },
-    { "nazov": "Zmrazený banán", "mnozstvo": 1, "jednotka": "ks" },
-    { "nazov": "Chia semienka", "mnozstvo": 1, "jednotka": "PL" },
-    { "nazov": "Kešu orechy", "mnozstvo": 50, "jednotka": "g", "poznamka": "na dozdobenie" },
-    { "nazov": "Kiwi", "mnozstvo": 2, "jednotka": "ks", "poznamka": "na dozdobenie" },
-    { "nazov": "Kokosové lupienky", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": "na dozdobenie" },
-    { "nazov": "Kakaové bôby", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na dozdobenie" }
-  ],
-  "postup": [
-    "Ananás, banán a chia semienka rozmixuj v mixéri dohladka.",
-    "Zmes rozdeľ do misiek.",
-    "Dozdob kešu orechmi, kolieskami kiwi, kokosovými lupienkami a kakaovými bôbmi."
-  ],
-  "tipy": "Ananás nahraď iným sezónnym ovocím zmrazeným cez noc, napríklad čučoriedkami.",
-  "foto": "",
-  "tagy": ["raňajky", "smoothie bowl", "ananás", "vegán"]
+ "id": "ananasova-smoothie-bowl",
+ "nazov": "Ananásová smoothie bowl",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 3,
+ "cas": "10 min",
+ "kcal_na_porciu": 238,
+ "popis": "Osviežujúca smoothie bowl z mrazeného ananásu a banánu, dozdobená kešu orechmi a kiwi.",
+ "ingrediencie": [
+  {
+   "nazov": "Zmrazený ananás",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Zmrazený banán",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Chia semienka",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Kešu orechy",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "na dozdobenie"
+  },
+  {
+   "nazov": "Kiwi",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na dozdobenie"
+  },
+  {
+   "nazov": "Kokosové lupienky",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": "na dozdobenie"
+  },
+  {
+   "nazov": "Kakaové bôby",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na dozdobenie"
+  }
+ ],
+ "postup": [
+  "Ananás, banán a chia semienka rozmixuj v mixéri dohladka.",
+  "Zmes rozdeľ do misiek.",
+  "Dozdob kešu orechmi, kolieskami kiwi, kokosovými lupienkami a kakaovými bôbmi."
+ ],
+ "tipy": "Ananás nahraď iným sezónnym ovocím zmrazeným cez noc, napríklad čučoriedkami.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "smoothie bowl",
+  "ananás",
+  "vegán"
+ ]
 }

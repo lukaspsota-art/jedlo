@@ -1,45 +1,45 @@
 {
-  "id": "limoncello-martini",
-  "nazov": "Limoncello martini",
-  "kategoria": "Kokteil",
-  "kuchyna": "Talianska",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 160,
-  "popis": "Jemný elegantný koktail s vodkou a limoncellom, pripravený v šejkri.",
-  "ingrediencie": [
-    {
-      "nazov": "Vodka",
-      "mnozstvo": 45,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Limoncello",
-      "mnozstvo": 30,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Citrónová šťava",
-      "mnozstvo": 10,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "plátok na ozdobu"
-    }
-  ],
-  "postup": [
-    "V šejkri s ľadom pretras vodku, limoncello a citrónovú šťavu a preceď do pohára.",
-    "Ozdob plátkom citróna."
-  ],
-  "tipy": "Pohár vopred vychlaď.",
-  "foto": "",
-  "tagy": [
-    "drink",
-    "limoncello",
-    "koktail"
-  ]
+ "id": "limoncello-martini",
+ "nazov": "Limoncello martini",
+ "kategoria": "Kokteil",
+ "kuchyna": "Talianska",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 160,
+ "popis": "Jemný elegantný koktail s vodkou a limoncellom, pripravený v šejkri.",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 45,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Limoncello",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 10,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "plátok na ozdobu"
+  }
+ ],
+ "postup": [
+  "V šejkri s ľadom pretras vodku, limoncello a citrónovú šťavu a preceď do pohára.",
+  "Ozdob plátkom citróna."
+ ],
+ "tipy": "Pohár vopred vychlaď.",
+ "foto": "",
+ "tagy": [
+  "drink",
+  "limoncello",
+  "koktail"
+ ]
 }

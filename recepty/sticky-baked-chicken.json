@@ -1,82 +1,82 @@
 {
-  "id": "sticky-baked-chicken",
-  "nazov": "Sticky Baked Chicken Thighs",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "RecipeTinEats.com",
-  "porcie": 2,
-  "cas": "35 min",
-  "kcal_na_porciu": 650,
-  "popis": "Pečené kuracie stehná v sladko-slanej glazúre. Podáva sa s ryžou.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie stehná bez kosti",
-      "mnozstvo": 350,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Kečup",
-      "mnozstvo": 30,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Hnedý cukor",
-      "mnozstvo": 19,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 11,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Jablčný ocot",
-      "mnozstvo": 7,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 7,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Worcestershire omáčka",
-      "mnozstvo": 5,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": "pretlačený"
-    },
-    {
-      "nazov": "Soľ a čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    },
-    {
-      "nazov": "Ryža (suchá)",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": "príloha"
-    }
-  ],
-  "postup": [
-    "Rúru predhrej na 200 °C (180 °C ventilátor).",
-    "V miske zmiešaj kečup, hnedý cukor, sójovú omáčku, jablčný ocot, olivový olej, Worcestershire omáčku a cesnak — to je glazúra.",
-    "Kuracie stehná osoľ, okoreň a vlož do pekáča vysypaného alobalom.",
-    "Lyžicou natri každé stehno glazúrou zo všetkých strán.",
-    "Peč 25–28 minút, kým nie je kura prepečené a glazúra karamelizovaná. V polovici pečenia potri šťavou z pekáča.",
-    "Ryžu opláchni, daj do hrnca s 240 ml osolenej vody, priveď do varu, zníž plameň, prikry a var 12 min, potom 5 min odpočívať.",
-    "Podávaj kura s ryžou."
-  ],
-  "tipy": "Mäso sa robí vopred večer pred blokom B.",
-  "foto": "",
-  "tagy": [
-    "kura",
-    "pečené",
-    "ryža"
-  ]
+ "id": "sticky-baked-chicken",
+ "nazov": "Sticky Baked Chicken Thighs",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "RecipeTinEats.com",
+ "porcie": 2,
+ "cas": "35 min",
+ "kcal_na_porciu": 650,
+ "popis": "Pečené kuracie stehná v sladko-slanej glazúre. Podáva sa s ryžou.",
+ "ingrediencie": [
+  {
+   "nazov": "Kuracie stehná bez kosti",
+   "mnozstvo": 350,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kečup",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 19,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 11,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 7,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 7,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Worcestershire omáčka",
+   "mnozstvo": 5,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "pretlačený"
+  },
+  {
+   "nazov": "Soľ a čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Ryža (suchá)",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "príloha"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 200 °C (180 °C ventilátor).",
+  "V miske zmiešaj kečup, hnedý cukor, sójovú omáčku, jablčný ocot, olivový olej, Worcestershire omáčku a cesnak — to je glazúra.",
+  "Kuracie stehná osoľ, okoreň a vlož do pekáča vysypaného alobalom.",
+  "Lyžicou natri každé stehno glazúrou zo všetkých strán.",
+  "Peč 25–28 minút, kým nie je kura prepečené a glazúra karamelizovaná. V polovici pečenia potri šťavou z pekáča.",
+  "Ryžu opláchni, daj do hrnca s 240 ml osolenej vody, priveď do varu, zníž plameň, prikry a var 12 min, potom 5 min odpočívať.",
+  "Podávaj kura s ryžou."
+ ],
+ "tipy": "Mäso sa robí vopred večer pred blokom B.",
+ "foto": "",
+ "tagy": [
+  "kura",
+  "pečené",
+  "ryža"
+ ]
 }

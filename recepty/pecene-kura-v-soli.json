@@ -1,75 +1,75 @@
 {
-  "id": "pecene-kura-v-soli",
-  "nazov": "Pečené kura v soli",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 6,
-  "cas": "150 min",
-  "kcal_na_porciu": 450,
-  "popis": "Celé kura pečené uzavreté v soľnej kruste s bielkami a bylinkami — mäso zostáva mimoriadne šťavnaté.",
-  "ingrediencie": [
-    {
-      "nazov": "Kura",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "cca 1,5 kg"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 2,
-      "jednotka": "kg"
-    },
-    {
-      "nazov": "Bielka",
-      "mnozstvo": 4,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Nasekané čerstvé bylinky",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "väčšia hrsť, podľa chuti"
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 0.5,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 100,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 3.5,
-      "jednotka": "ks",
-      "poznamka": "3–4 hľuzy"
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 4.5,
-      "jednotka": "ks",
-      "poznamka": "4–5 ks"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "hlávka"
-    }
-  ],
-  "postup": [
-    "V miske zmiešaj soľ so štyrmi bielkami a lyžičkou byliniek — má vzniknúť hmota ako mokrý piesok. Na dno pekáča s papierom rozprestri asi 2 cm vrstvu.",
-    "Na kurati opatrne uvoľni kožu na prsiach a natlač do vzniknutých kapsičiek bylinkové maslo. Dovnútra vlož polovicu citróna. Kura polož na soľný základ a úplne ho zasyp zvyšnou soľou, poriadne pritlač.",
-    "Okolo rozlož očistenú zeleninu a prepolenú hlávku cesnaku. Peč pri 200 °C zhruba 90–100 minút. Po vytiahnutí nechaj kura 20 minút odpočívať, potom krustu rozbi, kura očisti od soli a podávaj."
-  ],
-  "tipy": "Soľná krusta musí kura úplne uzavrieť — inak sa presolí. Nechaj odpočívať, šťava sa rozloží rovnomerne.",
-  "foto": "",
-  "tagy": [
-    "kura",
-    "pečené",
-    "večera"
-  ]
+ "id": "pecene-kura-v-soli",
+ "nazov": "Pečené kura v soli",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 6,
+ "cas": "150 min",
+ "kcal_na_porciu": 450,
+ "popis": "Celé kura pečené uzavreté v soľnej krus s bielkami a bylinkami — mäso zostáva mimoriadne šťavnaté.",
+ "ingrediencie": [
+  {
+   "nazov": "Kura",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "cca 1,5 kg"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "kg"
+  },
+  {
+   "nazov": "Bielka",
+   "mnozstvo": 4,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Nasekané čerstvé bylinky",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "väčšia hrsť, podľa chuti"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 0.5,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 3.5,
+   "jednotka": "ks",
+   "poznamka": "3–4 hľuzy"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 4.5,
+   "jednotka": "ks",
+   "poznamka": "4–5 ks"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "hlávka"
+  }
+ ],
+ "postup": [
+  "V miske zmiešaj soľ so štyrmi bielkami a lyžičkou byliniek — má vzniknúť hmota ako mokrý piesok. Na dno pekáča s papierom rozprestri asi 2 cm vrstvu.",
+  "Na kurati opatrne uvoľni kožu na prsiach a natlač do vzniknutých kapsičiek bylinkové maslo. Dovnútra vlož polovicu citróna. Kura polož na soľný základ a úplne ho zasyp zvyšnou soľou, poriadne pritlač.",
+  "Okolo rozlož očistenú zeleninu a prepolenú hlávku cesnaku. Peč pri 200 °C zhruba 90–100 minút. Po vytiahnutí nechaj kura 20 minút odpočívať, potom krustu rozbi, kura očisti od soli a podávaj."
+ ],
+ "tipy": "Soľná krusta musí kura úplne uzavrieť — inak sa presolí. Nechaj odpočívať, šťava sa rozloží rovnomerne.",
+ "foto": "",
+ "tagy": [
+  "kura",
+  "pečené",
+  "večera"
+ ]
 }

@@ -1,50 +1,50 @@
 {
-  "id": "becherovka-greps",
-  "nazov": "Becherovka Grapefruit & Hops – Greps",
-  "kategoria": "Kokteil",
-  "kuchyna": "Slovenská",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 120,
-  "popis": "Jednoduchý svieži highball z Becherovky Grapefruit & Hops so sódou a citrónom.",
-  "ingrediencie": [
-    {
-      "nazov": "becherovka",
-      "mnozstvo": 50,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Sóda",
-      "mnozstvo": 100,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Citróna",
-      "mnozstvo": 0.125,
-      "jednotka": "ks",
-      "poznamka": "šťava"
-    },
-    {
-      "nazov": "soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Do vysokého pohára s ľadom nalej Becherovku, pridaj sódu, citrónovú šťavu a štipku soli.",
-    "Jemne premiešaj a podávaj dobre vychladené."
-  ],
-  "tipy": "Štipka soli prekvapivo zvýrazní citrusovú chuť.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "nápoj",
-    "letné"
-  ]
+ "id": "becherovka-greps",
+ "nazov": "Becherovka Grapefruit & Hops – Greps",
+ "kategoria": "Kokteil",
+ "kuchyna": "Slovenská",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 120,
+ "popis": "Jednoduchý svieži highball z Becherovky Grapefruit & Hops so sódou a citrónom.",
+ "ingrediencie": [
+  {
+   "nazov": "becherovka",
+   "mnozstvo": 50,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Sóda",
+   "mnozstvo": 100,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Citróna",
+   "mnozstvo": 0.125,
+   "jednotka": "ks",
+   "poznamka": "šťava"
+  },
+  {
+   "nazov": "soľ",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": ""
+  }
+ ],
+ "postup": [
+  "Do vysokého pohára s ľadom nalej Becherovku, pridaj sódu, citrónovú šťavu a štipku soli.",
+  "Jemne premiešaj a podávaj dobre vychladené."
+ ],
+ "tipy": "Štipka soli prekvapivo zvýrazní citrusovú chuť.",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "nápoj",
+  "letné"
+ ]
 }

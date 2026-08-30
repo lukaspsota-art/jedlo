@@ -1,33 +1,83 @@
 {
-  "id": "zapecene-vajcia-so-spenatom",
-  "nazov": "Zapečené vajcia so špenátom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 3,
-  "cas": "14 min",
-  "kcal_na_porciu": 716,
-  "popis": "Zapekaná vaječná zmes so špenátom, mozzarellou a cícerom, posypaná slnečnicovými semienkami.",
-  "ingrediencie": [
-    {"nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Špenát", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 7, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Mozzarella", "mnozstvo": 180, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Cícer predvarený", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Slnečnicové semienka", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejeme na 180 °C.",
-    "V hlbšej panvici rozohrejeme olivový olej a opražíme najemno nakrájané šalotky.",
-    "Pridáme opraný špenát a opekáme 3-4 minúty, potom odstavíme.",
-    "Vajcia vyšľaháme so soľou a korením, pridáme opečený špenát so šalotkou, nastrúhanú mozzarellu a cícer.",
-    "Zmes prelejeme do zapekacej formy (30x30 cm) vyloženej papierom na pečenie alebo vymastenej olivovým olejom.",
-    "Posypeme slnečnicovými semienkami a pečieme pri 170-180 °C asi 30 minút."
-  ],
-  "tipy": "Pred pečením môžete pridať nadrobno nakrájané sušené paradajky a olivy.",
-  "foto": "",
-  "tagy": ["vajcia", "špenát", "raňajky", "zapekané"]
+ "id": "zapecene-vajcia-so-spenatom",
+ "nazov": "Zapečené vajcia so špenátom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 3,
+ "cas": "14 min",
+ "kcal_na_porciu": 716,
+ "popis": "Zapekaná vaječná zmes so špenátom, mozzarellou a cícerom, posypaná slnečnicovými semienkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenát",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 7,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cícer predvarený",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "V hlbšej panvici rozohrej olivový olej a opraž najemno nakrájané šalotky.",
+  "Pridaj opraný špenát a opekaj 3-4 minúty, potom odstav.",
+  "Vajcia vyšľahaj so soľou a korením, pridaj opečený špenát so šalotkou, nastrúhanú mozzarellu a cícer.",
+  "Zmes prelej do zapekacej formy (30x30 cm) vyloženej papierom na pečenie alebo vymastenej olivovým olejom.",
+  "Posyp slnečnicovými semienkami a peč pri 170-180 °C asi 30 minút."
+ ],
+ "tipy": "Pred pečením môžete pridať nadrobno nakrájané sušené paradajky a olivy.",
+ "foto": "",
+ "tagy": [
+  "vajcia",
+  "špenát",
+  "raňajky",
+  "zapekané"
+ ]
 }

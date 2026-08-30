@@ -1,32 +1,65 @@
 {
-  "id": "brownies-s-pekanovymi-orechmi",
-  "nazov": "Brownies s pekanovými orechami",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 16,
-  "cas": "65 min",
-  "kcal_na_porciu": 242,
-  "popis": "Vláčne čokoládové brownies s pečenými kúskami pekanových orechov.",
-  "ingrediencie": [
-    {"nazov": "Horká čokoláda kvalitná", "mnozstvo": 200, "jednotka": "g"},
-    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Kokosový olej", "mnozstvo": 150, "jednotka": "g"},
-    {"nazov": "Holandské kakao", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Vajce", "mnozstvo": 3, "jednotka": "ks"},
-    {"nazov": "Pohánková múka", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Pekanové orechy nasekané", "mnozstvo": 100, "jednotka": "g"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 190 °C.",
-    "Nad vodným kúpeľom rozpustite čokoládu s medom a kokosovým olejom.",
-    "Za stáleho miešania vmiešajte kakao a vajcia.",
-    "Odstavte z ohňa a primiešajte múku a polovicu orechov.",
-    "Cesto vylejte do pekáča (20 × 20 cm) vyloženého papierom na pečenie a posypte zvyšnými orechmi.",
-    "Pečte pri 180–190 °C 35 minút.",
-    "Necháte vychladnúť a podávajte."
-  ],
-  "tipy": "Pre výraznejšiu chuť pridajte do cesta kúsky horkej čokolády.",
-  "foto": "",
-  "tagy": ["dezert", "brownies", "čokoláda", "orechy"]
+ "id": "brownies-s-pekanovymi-orechmi",
+ "nazov": "Brownies s pekanovými orechami",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 16,
+ "cas": "65 min",
+ "kcal_na_porciu": 242,
+ "popis": "Vláčne čokoládové brownies s pečenými kúskami pekanových orechov.",
+ "ingrediencie": [
+  {
+   "nazov": "Horká čokoláda kvalitná",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 150,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Pohánková múka",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Pekanové orechy nasekané",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 190 °C.",
+  "Nad vodným kúpeľom rozpusti čokoládu s medom a kokosovým olejom.",
+  "Za stáleho miešania vmiešaj kakao a vajcia.",
+  "Odstav z ohňa a primiešaj múku a polovicu orechov.",
+  "Cesto vylej do pekáča (20 × 20 cm) vyloženého papierom na pečenie a posyp zvyšnými orechmi.",
+  "Peč pri 180–190 °C 35 minút.",
+  "Nechaj vychladnúť a podávaj."
+ ],
+ "tipy": "Pre výraznejšiu chuť pridaj do cesta kúsky horkej čokolády.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "brownies",
+  "čokoláda",
+  "orechy"
+ ]
 }

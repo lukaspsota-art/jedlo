@@ -1,48 +1,48 @@
 {
-  "id": "toastovy-sendvic-spisska",
-  "nazov": "Toastový sendvič so Spišskou šunkou a taveným syrom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Slovenská",
-  "zdroj": "Kaufland jedálniček",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 389,
-  "popis": "Trojposchodový toastový sendvič s taveným syrom a Spišskou šunkou, pripravený vopred.",
-  "ingrediencie": [
-    {
-      "nazov": "Toastový chlieb",
-      "mnozstvo": 12,
-      "jednotka": "plátok"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 240,
-      "jednotka": "g",
-      "poznamka": "Spišská"
-    },
-    {
-      "nazov": "Tavený syr",
-      "mnozstvo": 140,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Na plátok toastu natri maslo.",
-    "Polož plátky šunky a tavený syr.",
-    "Priklop druhým plátkom.",
-    "Navrch pridaj ďalší natretý plátok (trojposchodový).",
-    "Zabaľ do fólie a ulož do chladničky."
-  ],
-  "tipy": "Na prípravu večer vopred; ráno len vybaliť.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "toast",
-    "meal-prep"
-  ]
+ "id": "toastovy-sendvic-spisska",
+ "nazov": "Toastový sendvič so Spišskou šunkou a taveným syrom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Slovenská",
+ "zdroj": "Kaufland jedálniček",
+ "porcie": 4,
+ "cas": "10 min",
+ "kcal_na_porciu": 389,
+ "popis": "Trojposchodový toastový sendvič s taveným syrom a Spišskou šunkou, pripravený vopred.",
+ "ingrediencie": [
+  {
+   "nazov": "Toastový chlieb",
+   "mnozstvo": 12,
+   "jednotka": "plátok"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 40,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": "Spišská"
+  },
+  {
+   "nazov": "Tavený syr",
+   "mnozstvo": 140,
+   "jednotka": "g"
+  }
+ ],
+ "postup": [
+  "Na plátok toastu natri maslo.",
+  "Polož plátky šunky a tavený syr.",
+  "Priklop druhým plátkom.",
+  "Navrch pridaj ďalší natretý plátok (trojposchodový).",
+  "Zabaľ do fólie a ulož do chladničky."
+ ],
+ "tipy": "Na prípravu večer vopred; ráno len vybaliť.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "toast",
+  "meal-prep"
+ ]
 }

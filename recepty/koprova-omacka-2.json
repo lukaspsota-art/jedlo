@@ -1,94 +1,96 @@
 {
- "id": "koprova-omacka-2",
- "nazov": "Kôprová omáčka",
- "kategoria": "Príloha",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kôprová omáčka (videorecept) (autor: ladycaroline)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/koprova-omacka-videorecept/94193-recept.html",
- "porcie": 12,
- "cas": "45 min",
- "kcal_na_porciu": 162,
- "popis": "Jemná a krémová bezlepková kôprová \r\nomáčka podľa babkinho receptu.* \r\nVýborne sa hodí k hovädziemu mäsu, \r\nvareným vajíčkam alebo ku klasickej \r\nbezlepkovej parenej knedli. Tradičná \r\ndomáca chuť, ktorá nikdy nesklame.",
- "ingrediencie": [
-  {
-   "nazov": "Bezlepková múka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hovädzí vývar",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 800,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Smotana na šľahanie",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ocot",
-   "mnozstvo": 40,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 80,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kôpor",
-   "mnozstvo": 10,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Na strednom plameni rozohrejeme olej, pridáme bezlepkovú múku a spravíme zásmažku.",
-  "Zalejeme studeným vývarom zmiešaným s mliekom a smotanou. Poriadne premiešame. Privedieme k varu a varíme približne 20 minút.",
-  "Potom do omáčky pridáme cukor, soľ a ocot, povaríme.",
-  "Pridáme nasekaný čerstvý kôpor, my sme mali zo záhradky a musela som ešte pridať viac, lebo to ľúbime riadne kôprové :)",
-  "Zjemníme maslom. My nakoniec pridávame čierne korenie, ako pridávala babka a nám to tak veľmi chutí. Ono to pozdvihne tie chute :) ale záleží na každom ako má rád.",
-  "Vývar sme robili deň dopredu, ťahali sme ho aj vyše 5 hodín. Je to výborné tradičné jedlo u nás v rodine."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "príloha",
-  "hovädzie"
- ]
+  "id": "koprova-omacka-2",
+  "nazov": "Kôprová omáčka",
+  "kategoria": "Príloha",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kôprová omáčka (videorecept) (autor: ladycaroline)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/koprova-omacka-videorecept/94193-recept.html",
+  "porcie": 12,
+  "cas": "45 min",
+  "kcal_na_porciu": 264,
+  "popis": "Jemná a krémová bezlepková kôprová \r\nomáčka podľa babkinho receptu.* \r\nVýborne sa hodí k hovädziemu mäsu, \r\nvareným vajíčkam alebo ku klasickej \r\nbezlepkovej parenej knedli. Tradičná \r\ndomáca chuť, ktorá nikdy nesklaš.",
+  "ingrediencie": [
+    {
+      "nazov": "Bezlepková múka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hovädzí vývar",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 800,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 40,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kôpor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na strednom plameni rozohrej olej, pridaj bezlepkovú múku a sprav zásmažku.",
+    "Zalej studeným vývarom zmiešaným s mliekom a smotanou. Poriadne premiešaj. Priveď k varu a var približne 20 minút.",
+    "Potom do omáčky pridaj cukor, soľ a ocot, povar.",
+    "Pridaj nasekaný čerstvý kôpor, my sme mali zo záhradky a musela som ešte pridať viac, lebo to ľúbiš riadne kôprové :)",
+    "Zjemni maslom. My nakoniec pridávaj čierne korenie, ako pridávala babka a nám to tak veľmi chutí. Ono to pozdvihne tie chute :) ale záleží na každom ako má rád.",
+    "Vývar sme robili deň dopredu, ťahali sme ho aj vyše 5 hodín. Je to výborné tradičné jedlo u nás v rodine."
+  ],
+  "tipy": "Smotanu aj metly daj pred šľahaním do chladničky. Teplá smotana sa nevyšľahá, len sa zrazí.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "hovädzie",
+    "slovenská"
+  ],
+  "kcal_zdroj": "vypocet"
 }

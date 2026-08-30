@@ -1,27 +1,52 @@
 {
-  "id": "malinovy-parfait",
-  "nazov": "Malinový parfait",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 309,
-  "popis": "Rýchly vrstvený dezert z malín, jogurtu a ovsených vločiek.",
-  "ingrediencie": [
-    {"nazov": "Maliny", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Chia semienka", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Biely jogurt", "mnozstvo": 120, "jednotka": "g"},
-    {"nazov": "Ovsené vločky", "mnozstvo": 30, "jednotka": "g"}
-  ],
-  "postup": [
-    "Maliny rozmačkajte s medom a chia semienkami.",
-    "Zmes dajte na dno pohára.",
-    "Navrstvite jogurt.",
-    "Zasypte ovsenými vločkami."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["dezert", "raňajky", "maliny", "jogurt"]
+ "id": "malinovy-parfait",
+ "nazov": "Malinový parfait",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 309,
+ "popis": "Rýchly vrstvený dezert z malín, jogurtu a ovsených vločiek.",
+ "ingrediencie": [
+  {
+   "nazov": "Maliny",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Chia semienka",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Biely jogurt",
+   "mnozstvo": 120,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 30,
+   "jednotka": "g"
+  }
+ ],
+ "postup": [
+  "Maliny rozmačkaj s medom a chia semienkami.",
+  "Zmes daj na dno pohára.",
+  "Navrstvi jogurt.",
+  "Zasyp ovsenými vločkami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "raňajky",
+  "maliny",
+  "jogurt"
+ ]
 }

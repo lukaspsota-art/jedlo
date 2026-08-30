@@ -8,7 +8,7 @@
  "porcie": 1,
  "cas": "5 min",
  "kcal_na_porciu": 220,
- "popis": "Ordinary Drink · Cocktail glass",
+ "popis": "Miešaný nápoj. Základ: brandy, rum, triple sec. Podávaj v kokteilovom pohári.",
  "ingrediencie": [
   {
    "nazov": "Brandy",
@@ -36,13 +36,15 @@
   }
  ],
  "postup": [
-  "Všetky ingrediencie nalejeme do šejkra s ľadom.",
-  "Pretrepeme a precedíme do vychladeného kokteilového pohára."
+  "Všetky ingrediencie nalej do šejkra s ľadom.",
+  "Pretrep a preceď do vychladeného kokteilového pohára."
  ],
- "tipy": "",
+ "tipy": "Šejkruj s ľadom 10–15 sekúnd. Nápoj sa nielen vychladí, ale aj mierne zriedi — a to k nemu patrí.",
  "foto": "",
  "tagy": [
   "kokteil",
-  "bezmäsité"
+  "bezmäsité",
+  "rum",
+  "brandy"
  ]
 }

@@ -1,31 +1,81 @@
 {
-  "id": "vafle-s-podmaslim-a-skoricou",
-  "nazov": "Vafle s podmaslím a škoricou",
-  "kategoria": "Raňajky",
-  "kuchyna": "Americká",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "8 min",
-  "kcal_na_porciu": 317,
-  "popis": "Mäkké vafle z celozrnnej špaldovej múky ochutené podmaslím a škoricou.",
-  "ingrediencie": [
-    {"nazov": "Podmaslie", "mnozstvo": 200, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Mlieko", "mnozstvo": 100, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Kokosový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "rozpustený"},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Celozrnná špaldová hladká múka", "mnozstvo": 220, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Mletá škorica", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "V miske vyšľahaj podmaslie s mliekom, medom, kokosovým olejom a vajcami.",
-    "Postupne zapracuj celozrnnú múku, kypriaci prášok, soľ a škoricu.",
-    "Cesto lej po častiach do vafľovača.",
-    "Pečieme 2-3 minúty podľa typu vafľovača."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["raňajky", "vafle", "podmaslie", "škorica"]
+ "id": "vafle-s-podmaslim-a-skoricou",
+ "nazov": "Vafle s podmaslím a škoricou",
+ "kategoria": "Raňajky",
+ "kuchyna": "Americká",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "8 min",
+ "kcal_na_porciu": 317,
+ "popis": "Mäkké vafle z celozrnnej špaldovej múky ochutené podmaslím a škoricou.",
+ "ingrediencie": [
+  {
+   "nazov": "Podmaslie",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "rozpustený"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnná špaldová hladká múka",
+   "mnozstvo": 220,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kypriaci prášok bez fosfátov",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "V miske vyšľahaj podmaslie s mliekom, medom, kokosovým olejom a vajcami.",
+  "Postupne zapracuj celozrnnú múku, kypriaci prášok, soľ a škoricu.",
+  "Cesto lej po častiach do vafľovača.",
+  "Peč 2-3 minúty podľa typu vafľovača."
+ ],
+ "tipy": "Cesto nechaj pred pečením 20 minút odpočívať. Múka nasiakne a palacinky budú vláčnejšie, nie gumové.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "vafle",
+  "podmaslie",
+  "škorica"
+ ]
 }

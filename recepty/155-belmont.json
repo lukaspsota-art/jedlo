@@ -8,7 +8,7 @@
  "porcie": 1,
  "cas": "5 min",
  "kcal_na_porciu": 370,
- "popis": "Cocktail · White wine glass",
+ "popis": "Kokteil. Základ: tmavý rum, rum, vodka. Podávaj v pohári na biele víno.",
  "ingrediencie": [
   {
    "nazov": "Tmavý rum",
@@ -36,14 +36,16 @@
   }
  ],
  "postup": [
-  "Rozmixujeme s ľadom.",
-  "Podávame v pohári na víno.",
-  "Ozdobíme mrkvou."
+  "Rozmixuj s ľadom.",
+  "Podávaj v pohári na víno.",
+  "Ozdob mrkvou."
  ],
- "tipy": "",
+ "tipy": "Pohár vychlaď vopred. Vo vlažnom pohári kokteil rýchlo zovšednie a chutí sladšie, než má.",
  "foto": "",
  "tagy": [
   "kokteil",
-  "bezmäsité"
+  "bezmäsité",
+  "rum",
+  "vodka"
  ]
 }

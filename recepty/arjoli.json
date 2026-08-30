@@ -1,87 +1,87 @@
 {
-  "id": "arjoli",
-  "nazov": "Arjoli",
-  "kategoria": "Nátierka",
-  "kuchyna": "Maltská",
-  "zdroj": "Wikibooks Cookbook – Arjoli (Maltese Herbed Bread Dip) (CC BY-SA)",
-  "porcie": 6,
-  "cas": "20 min",
-  "kcal_na_porciu": 181,
-  "popis": "Maltská nátierka z rozmočeného tvrdého chleba, bylniek, olív, kaparov a ančovičiek. Rozdrví sa v mažiari na pastu.",
-  "ingrediencie": [
-    {
-      "nazov": "Chlieb",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "tvrdý, suchý"
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": "nasekaná"
-    },
-    {
-      "nazov": "Mäta",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": "nasekaná"
-    },
-    {
-      "nazov": "Petržlen",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": "nasekaný"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 4,
-      "jednotka": "strúčik",
-      "poznamka": "nakrájaný"
-    },
-    {
-      "nazov": "Olivy",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "čierne a zelené, nasekané"
-    },
-    {
-      "nazov": "Kapary",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "nasekané"
-    },
-    {
-      "nazov": "Ančovičková pasta",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajkový pretlak",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 3,
-      "jednotka": "PL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Chlieb nechaj cez noc rozmočiť vo vode, aby zmäkol.",
-    "Rozmočený chlieb a všetky ostatné zložky daj do mažiara a rozdrv na pastu."
-  ],
-  "tipy": "Zdroj používa maltské galletti, tvrdé okrúhle sucháre - nahradí ich akýkoľvek suchý chlieb. Pre výraznejšiu chuť pridaj jednu alebo dve sušené paradajky.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "maltská",
-    "olivy",
-    "bylinky",
-    "vegetariánske",
-    "príprava vopred"
-  ]
+ "id": "arjoli",
+ "nazov": "Arjoli",
+ "kategoria": "Nátierka",
+ "kuchyna": "Maltská",
+ "zdroj": "Wikibooks Cookbook – Arjoli (Maltese Herbed Bread Dip) (CC BY-SA)",
+ "porcie": 6,
+ "cas": "20 min",
+ "kcal_na_porciu": 181,
+ "popis": "Maltská nátierka z rozmočeného tvrdého chleba, bylniek, olív, kaparov a ančovičiek. Rozdrví sa v mažiari na pastu.",
+ "ingrediencie": [
+  {
+   "nazov": "Chlieb",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "tvrdý, suchý"
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": "nasekaný"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": "nakrájaný"
+  },
+  {
+   "nazov": "Olivy",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "čierne a zelené, nasekané"
+  },
+  {
+   "nazov": "Kapary",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "nasekané"
+  },
+  {
+   "nazov": "Ančovičková pasta",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Chlieb nechaj cez noc rozmočiť vo vode, aby zmäkol.",
+  "Rozmočený chlieb a všetky ostatné zložky daj do mažiara a rozdrv na pastu."
+ ],
+ "tipy": "Zdroj používa maltské galletti, tvrdé okrúhle sucháre - nahradí ich akýkoľvek suchý chlieb. Pre výraznejšiu chuť pridaj jednu alebo dve sušené paradajky.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "maltská",
+  "olivy",
+  "bylinky",
+  "vegetariánske",
+  "príprava vopred"
+ ]
 }

@@ -1,106 +1,107 @@
 {
- "id": "hovadzie-v-miske",
- "nazov": "Hovädzie v miske",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Hovädzie v miske (fotorecept) (autor: svedka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzie-v-miske-fotorecept/57286-recept.html",
- "porcie": 5,
- "cas": "",
- "kcal_na_porciu": 369,
- "popis": "",
- "ingrediencie": [
-  {
-   "nazov": "Jemné hovädzie",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vývar z hovädzích kostí",
-   "mnozstvo": 300,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Džús z čiernych ribezlí",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 3,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "údená hrubozrnná"
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tymian",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Maso si nakrajame na kocky a na troche oleja sprudka oprazime-odlozime. Do druhej nadoby si na rozpalenom oleji zacnem smazit nadrobno nakrajanu cibulu a nasekany cesnak. Uberieme z teploty a prazime minimalne 15 minut, aby cibulka chytila hnedasty odtien a sladsiu chut. Pridame mrkvu nakrajanu na drobne kococky a poprasime mierne paprikou. Pridame do zmesi maso a zalejeme vyvarom/vodou (extremisti bujonom) :D .Nechame pobublavat na najslabsom ,,plameni´´ zakryte-aspon hodinku a pol.Potom zbadame,ze zmes nam mierne zhustla.supneme tam ribezlovy dzus/vino.Zakryjeme a nechame opat pomalicky bublat dalsiu hodinku.Nakoniec pridame tymian,korenie a dosolime podla toho,ci sme pouzili slany vyvar alebo len vodu...logicky :). Mame hotovo, oprobujeme masko-malo by byt skoro ako masielko:D. Ak je ako zuvacka, nechame si zajst chut, nechame si dalej bublat a ideme si pripravit nase misky.",
-  "Vacsie zemiaky v supke su uvarime. Nechame vychladnut, prekrojime na polovice. Lyzickou vydlabeme vnutro-vnutro odlozime na dalsie pouzitie. Polovicky rozlozime na plech vystlanym papierom na pecenie.poprskame olejom a posolime hrubozrnnou, najlepsie udenou solou.Takto:",
-  "Ruru zapneme, nastelujeme 220 stupnov. Zemiaky si na plechu otocime a opakujeme: olej, sol. Takto, aha:",
-  "Asi po polhodine pecenia sa z nich stanu paradne misky. Extra chrumkave a extra chutne. No vsak vidite:",
-  "Do omacky s masom prihodime za hrst pomackanych zemiakov, ktore sme vydlabali, inak netreba zahustovat...a hotovo, maso s omackou nalozime do zemiakovych misiek a mlsame. Do takychto zemiakov sa hodi hocico, povolte uzdu vasej fantazii...dobru chut :)"
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "hovädzie",
-  "zemiaky"
- ]
+  "id": "hovadzie-v-miske",
+  "nazov": "Hovädzie v miske",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Hovädzie v miske (fotorecept) (autor: svedka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzie-v-miske-fotorecept/57286-recept.html",
+  "porcie": 5,
+  "cas": "1 hod 35 min",
+  "kcal_na_porciu": 581,
+  "popis": "Sýte mäsité hlavné jedlo. Základ: jemné hovädzie, vývar z hovädzích kostí, džús z čiernych ribezlí. Robí sa na panvici. Navariť sa dá dopredu na celý blok.",
+  "ingrediencie": [
+    {
+      "nazov": "Jemné hovädzie",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar z hovädzích kostí",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Džús z čiernych ribezlí",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "údená hrubozrnná"
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tymian",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Maso si nakrájaj na kocky a na troche oleja sprudka opraž-odlož. Do druhej nadoby si na rozpalenom oleji zacnem smazit nadrobno nakrajanu cibulu a nasekany cesnak. Uber z teploty a praz minimalne 15 minut, aby cibulka chytila hnedasty odtien a sladsiu chut. Pridaj mrkvu nakrajanu na drobne kococky a popras mierne paprikou. Pridaj do zmesi maso a zalej vyvarom/vodou (extremisti bujonom) :D .Nechaj pobublavat na najslabsom ,,plameni´´ zakry-aspon hodinku a pol.Potom zbadaj,ze zmes nam mierne zhustla.supni tam ribezlovy dzus/vino.Zakryj a nechaj opat pomalicky bublat dalsiu hodinku.Nakoniec pridaj tymian,korenie a dosoľ podla toho,ci pouz slany vyvar alebo len vodu...logicky :). Máš hotovo, oprobuj masko-malo by byt skoro ako masielko:D. Ak je ako zuvacka, nechaj si zajst chut, nechaj si dalej bublat a ideme si pripravit nase misky.",
+    "Vacsie zemiaky v supke su uvar. Nechaj vychladnut, prekroj na polovice. Lyzickou vydlab vnutro-vnutro odlož na dalsie pouzitie. Polovicky rozloz na plech vystlanym papierom na pecenie.poprskaj olejom a posoľ hrubozrnnou, najlepsie udenou solou.Takto:",
+    "Ruru zapni, nasteluj 220 stupnov. Zemiaky si na plechu otoc a opakuj: olej, sol. Takto, aha:",
+    "Asi po polhodine pecenia sa z nich stanu paradne misky. Extra chrumkave a extra chutne. No vsak vidite:",
+    "Do omacky s masom prihoď za hrst pomackanych zemiakov, ktore sme vydlabali, inak netreba zahustovat...a hotovo, maso s omackou naloz do zemiakovych misiek a mlsaj. Do takychto zemiakov sa hodi hocico, povol uzdu vasej fantazii...dobru chut :)"
+  ],
+  "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "zemiaky"
+  ],
+  "kcal_zdroj": "vypocet"
 }

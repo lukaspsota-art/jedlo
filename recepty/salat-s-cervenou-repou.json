@@ -1,30 +1,64 @@
 {
-  "id": "salat-s-cervenou-repou",
-  "nazov": "Šalát s červenou repou",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 2,
-  "cas": "30 min",
-  "kcal_na_porciu": 503,
-  "popis": "Šalát z uvarenej červenej repy s vlašskými orechmi, rukolou a balzamikovou zálievkou.",
-  "ingrediencie": [
-    {"nazov": "Červená repa uvarená", "mnozstvo": 2, "jednotka": "ks"},
-    {"nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL"},
-    {"nazov": "Balzamikový ocot", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Citrón", "mnozstvo": 1, "jednotka": "ks", "poznamka": "šťava z 1 citróna"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Vlašské orechy", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Rukola", "mnozstvo": 100, "jednotka": "g"}
-  ],
-  "postup": [
-    "Repu ošúpte a nakrájajte na tenšie plátky.",
-    "Plátky ukladajte do väčšej misy.",
-    "Zmiešajte olej, balzamikový ocot, citrónovú šťavu a med.",
-    "Zálievkou zalejte repu a necháte 20 minút uležať.",
-    "Pridajte orechy a rukolu a podávajte."
-  ],
-  "tipy": "Do šalátu môžete pridať čerstvý kozí syr.",
-  "foto": "",
-  "tagy": ["šalát", "repa", "rukola", "orechy"]
+ "id": "salat-s-cervenou-repou",
+ "nazov": "Šalát s červenou repou",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 2,
+ "cas": "30 min",
+ "kcal_na_porciu": 503,
+ "popis": "Šalát z uvarenej červenej repy s vlašskými orechmi, rukolou a balzamikovou zálievkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Červená repa uvarená",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Balzamikový ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "šťava z 1 citróna"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Rukola",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  }
+ ],
+ "postup": [
+  "Repu ošúp a nakrájaj na tenšie plátky.",
+  "Plátky ukladaj do väčšej misy.",
+  "Zmiešaj olej, balzamikový ocot, citrónovú šťavu a med.",
+  "Zálievkou zalej repu a nechaj 20 minút uležať.",
+  "Pridaj orechy a rukolu a podávaj."
+ ],
+ "tipy": "Do šalátu môžete pridať čerstvý kozí syr.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "repa",
+  "rukola",
+  "orechy"
+ ]
 }

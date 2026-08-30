@@ -1,34 +1,84 @@
 {
-  "id": "hubove-pate",
-  "nazov": "Hubové paté",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 10,
-  "cas": "35 min",
-  "kcal_na_porciu": 94,
-  "popis": "Krémové hubové paté so smotanovým syrom a tymianom.",
-  "ingrediencie": [
-    {"nazov": "Sušené huby", "mnozstvo": 30, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Maslo", "mnozstvo": 40, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Žampióny", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Sušený tymian", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Smotanový syr", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Sušené huby namočte do 100 ml vody.",
-    "Na masle opražte nadrobno nakrájanú šalotku.",
-    "Pridajte na plátky nakrájané žampióny, prelisovaný cesnak a tymian a opekajte 12-15 minút.",
-    "Scedené namočené huby pridajte na panvicu, premiešajte a odstavte.",
-    "Obsah panvice preceďte cez sitko, aby odkvaplo prebytočné maslo.",
-    "Huby rozmixujte spolu so smotanovým syrom dohladka.",
-    "Dochuťte soľou a korením, rozdeľte do pohárikov a uložte do chladničky."
-  ],
-  "tipy": "Na tmavú želatínovú vrstvu uvarte 200 ml vody so sójovou omáčkou a 2 ČL agaru, prevarte 1-2 minúty a nalejte na paté.",
-  "foto": "",
-  "tagy": ["nátierka", "huby", "paté", "smotanový syr"]
+ "id": "hubove-pate",
+ "nazov": "Hubové paté",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 10,
+ "cas": "35 min",
+ "kcal_na_porciu": 94,
+ "popis": "Krémové hubové paté so smotanovým syrom a tymianom.",
+ "ingrediencie": [
+  {
+   "nazov": "Sušené huby",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žampióny",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený tymian",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Sušené huby namoč do 100 ml vody.",
+  "Na masle opraž nadrobno nakrájanú šalotku.",
+  "Pridaj na plátky nakrájané žampióny, prelisovaný cesnak a tymian a opekaj 12-15 minút.",
+  "Scedené namočené huby pridaj na panvicu, premiešaj a odstav.",
+  "Obsah panvice preceď cez sitko, aby odkvaplo prebytočné maslo.",
+  "Huby rozmixuj spolu so smotanovým syrom dohladka.",
+  "Dochuť soľou a korením, rozdeľ do pohárikov a ulož do chladničky."
+ ],
+ "tipy": "Na tmavú želatínovú vrstvu uvar 200 ml vody so sójovou omáčkou a 2 ČL agaru, prevar 1-2 minúty a nalej na paté.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "huby",
+  "paté",
+  "smotanový syr"
+ ]
 }

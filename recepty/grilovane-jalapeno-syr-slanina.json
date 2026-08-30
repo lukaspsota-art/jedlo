@@ -1,48 +1,48 @@
 {
-  "id": "grilovane-jalapeno-syr-slanina",
-  "nazov": "Grilované jalapeño papričky so syrom a slaninou",
-  "kategoria": "Snack",
-  "kuchyna": "Americká",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 3,
-  "cas": "30 min",
-  "kcal_na_porciu": 380,
-  "popis": "Jalapeño polovice plnené smotanovým syrom a čedarom, obalené v slanine a grilované.",
-  "ingrediencie": [
-    {
-      "nazov": "Smotanový krémový syr",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "napr. nátierkové maslo"
-    },
-    {
-      "nazov": "Strúhaný čedar",
-      "mnozstvo": 100,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Jalapeño papričky",
-      "mnozstvo": 7,
-      "jednotka": "ks",
-      "poznamka": "6–8 ks"
-    },
-    {
-      "nazov": "Plátky slaniny",
-      "mnozstvo": 14,
-      "jednotka": "ks",
-      "poznamka": "12–16 ks"
-    }
-  ],
-  "postup": [
-    "Papričky pozdĺžne rozrež, odstráň semienka a žilky. Každú polovicu naplň syrovou zmesou a obaľ plátkom slaniny, prípadne zaisti špáradlom.",
-    "Poukladaj na grilovaciu tácku syrom nahor.",
-    "Griluj so zatvoreným vekom 10–15 minút, kým slanina nie je chrumkavá; priebežne potieraj výpekom z tácky."
-  ],
-  "tipy": "Semienka odstráň dôkladne, ak chceš miernejšiu chuť. Špáradlá na spevnenie zavinutých jalapeňos vytiahni pred podávaním.",
-  "foto": "",
-  "tagy": [
-    "predjedlo",
-    "grilované",
-    "slanina"
-  ]
+ "id": "grilovane-jalapeno-syr-slanina",
+ "nazov": "Grilované jalapeño papričky so syrom a slaninou",
+ "kategoria": "Snack",
+ "kuchyna": "Americká",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 3,
+ "cas": "30 min",
+ "kcal_na_porciu": 380,
+ "popis": "Jalapeño polovice plnené smotanovým syrom a čedarom, obalené v slanine a grilované.",
+ "ingrediencie": [
+  {
+   "nazov": "Smotanový krémový syr",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "napr. nátierkové maslo"
+  },
+  {
+   "nazov": "Strúhaný čedar",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Jalapeño papričky",
+   "mnozstvo": 7,
+   "jednotka": "ks",
+   "poznamka": "6–8 ks"
+  },
+  {
+   "nazov": "Plátky slaniny",
+   "mnozstvo": 14,
+   "jednotka": "ks",
+   "poznamka": "12–16 ks"
+  }
+ ],
+ "postup": [
+  "Papričky pozdĺžne rozrež, odstráň semienka a žilky. Každú polovicu naplň syrovou zmesou a obaľ plátkom slaniny, prípadne zaisti špáradlom.",
+  "Poukladaj na grilovaciu tácku syrom nahor.",
+  "Griluj so zatvoreným vekom 10–15 minút, kým slanina nie je chrumkavá; priebežne potieraj výpekom z tácky."
+ ],
+ "tipy": "Semienka odstráň dôkladne, ak chceš miernejšiu chuť. Špáradlá na spevnenie zavinutých jalapeňos vytiahni pred podávaním.",
+ "foto": "",
+ "tagy": [
+  "predjedlo",
+  "grilované",
+  "slanina"
+ ]
 }

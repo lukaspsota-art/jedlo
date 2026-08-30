@@ -1,72 +1,72 @@
 {
-  "id": "zapeceny-sendvic-s-grilovanou-zeleninou",
-  "nazov": "Zapečený sendvič s grilovanou zeleninou",
-  "kategoria": "Snack",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Grilled Vegetable Sandwich (CC BY-SA)",
-  "porcie": 1,
-  "cas": "20 min",
-  "kcal_na_porciu": 401,
-  "popis": "Otvorený sendvič so zeleninou zapečenou priamo na chlebe pod grilom. Vegánske a bez zložitosti.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnný chlieb",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cuketa",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Šampiňóny",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Červená paprika",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "pásiky"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Oregano",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Plátky chleba polož vedľa seba na plech.",
-    "Zeleninu rozlož rovnomerne na oba plátky.",
-    "Prekvapkaj olivovým olejom a výdatne posyp oreganom.",
-    "Zapekaj pod stredne silným grilom 5-10 minút, kým nie je zlatohnedé.",
-    "Podávaj otvorené, alebo obe polovice opatrne spoj."
-  ],
-  "tipy": "Zelenina je len návrh - funguje čokoľvek, čo sa dá nakrájať na tenké plátky a rýchlo upečie.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "obed",
-    "vegánske",
-    "zelenina",
-    "rýchle",
-    "zapekané"
-  ]
+ "id": "zapeceny-sendvic-s-grilovanou-zeleninou",
+ "nazov": "Zapečený sendvič s grilovanou zeleninou",
+ "kategoria": "Snack",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Grilled Vegetable Sandwich (CC BY-SA)",
+ "porcie": 1,
+ "cas": "20 min",
+ "kcal_na_porciu": 401,
+ "popis": "Otvorený sendvič so zeleninou zapečenou priamo na chlebe pod grilom. Vegánske a bez zložitosti.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnný chlieb",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "pásiky"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Plátky chleba polož vedľa seba na plech.",
+  "Zeleninu rozlož rovnomerne na oba plátky.",
+  "Prekvapkaj olivovým olejom a výdatne posyp oreganom.",
+  "Zapekaj pod stredne silným grilom 5-10 minút, kým nie je zlatohnedé.",
+  "Podávaj otvorené, alebo obe polovice opatrne spoj."
+ ],
+ "tipy": "Zelenina je len návrh - funguje čokoľvek, čo sa dá nakrájať na tenké plátky a rýchlo upečie.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "obed",
+  "vegánske",
+  "zelenina",
+  "rýchle",
+  "zapekané"
+ ]
 }

@@ -1,59 +1,59 @@
 {
-  "id": "udeny-tuniakovy-melt",
-  "nazov": "Údený tuniakový melt",
-  "kategoria": "Snack",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Smoky Tuna Melts (CC BY-SA)",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 418,
-  "popis": "Tuniak s rozpusteným maslom a citrónom pod údenou mozzarellou, zapečený pod grilom. Tri kroky a hotovo.",
-  "ingrediencie": [
-    {
-      "nazov": "Tuniak",
-      "mnozstvo": 130,
-      "jednotka": "g",
-      "poznamka": "s dymovou príchuťou"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "rozpustené"
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": "sok"
-    },
-    {
-      "nazov": "Toastový chlieb",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mozzarella",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "údená, dva plátky"
-    }
-  ],
-  "postup": [
-    "Zmiešaj tuniaka, rozpustené maslo a citrónový sok.",
-    "Časť tuniakovej zmesi rozotri na každý plátok chleba. Navrch polož syr.",
-    "Zapekaj pod grilom, kým sa syr nerozpustí."
-  ],
-  "tipy": "Ak nemáš tuniaka s dymovou príchuťou, pridaj do zmesi štipku údenej papriky.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "obed",
-    "americká",
-    "tuniak",
-    "syr",
-    "rýchle",
-    "zapekané"
-  ]
+ "id": "udeny-tuniakovy-melt",
+ "nazov": "Údený tuniakový melt",
+ "kategoria": "Snack",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Smoky Tuna Melts (CC BY-SA)",
+ "porcie": 2,
+ "cas": "15 min",
+ "kcal_na_porciu": 418,
+ "popis": "Tuniak s rozpusteným maslom a citrónom pod údenou mozzarellou, zapečený pod grilom. Tri kroky a hotovo.",
+ "ingrediencie": [
+  {
+   "nazov": "Tuniak",
+   "mnozstvo": 130,
+   "jednotka": "g",
+   "poznamka": "s dymovou príchuťou"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "rozpustené"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "sok"
+  },
+  {
+   "nazov": "Toastový chlieb",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "údená, dva plátky"
+  }
+ ],
+ "postup": [
+  "Zmiešaj tuniaka, rozpustené maslo a citrónový sok.",
+  "Časť tuniakovej zmesi rozotri na každý plátok chleba. Navrch polož syr.",
+  "Zapekaj pod grilom, kým sa syr nerozpustí."
+ ],
+ "tipy": "Ak nemáš tuniaka s dymovou príchuťou, pridaj do zmesi štipku údenej papriky.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "obed",
+  "americká",
+  "tuniak",
+  "syr",
+  "rýchle",
+  "zapekané"
+ ]
 }

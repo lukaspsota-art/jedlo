@@ -1,32 +1,72 @@
 {
-  "id": "sushi-s-quinoou-a-avokadom",
-  "nazov": "Sushi s quinoou a avokádom",
-  "kategoria": "Snack",
-  "kuchyna": "Ázijská",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 234,
-  "popis": "Zdravšia verzia sushi s čiernou quinoou namiesto ryže, lososom, repou a uhorkou.",
-  "ingrediencie": [
-    {"nazov": "Čierna quinoa", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Predvarená repa", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Čerstvý losos", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Uhorka", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Smotanový syr", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Nori riasa", "mnozstvo": 4, "jednotka": "plátok", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Quinou aspoň 2-krát prepláchnite vo vode a uvarte podľa návodu na obale.",
-    "Repu, lososa aj uhorku nakrájajte na rovnako dlhé tenké nudličky.",
-    "Uvarenú quinou nechajte vychladnúť a zmiešajte so smotanovým syrom a štipkou soli.",
-    "Na rohož na rolovanie položte nori riasu lesklou stranou nadol a natrite na ňu vrstvu quinoy (asi 3 mm), rovnomerne upechujte lyžicou.",
-    "Na spodný okraj riasy naukladajte pásik lososa, repy a uhorky.",
-    "Rolujte od kraja s náplňou smerom k prázdnej strane riasy, na konci pritlačte a spoj zľahka navlhčite.",
-    "Postup zopakujte s ďalšími riasami a rolky nakrájajte ostrým nožom na kúsky asi 2 cm."
-  ],
-  "tipy": "Ak nemáte kvalitného čerstvého lososa, použite údeného.",
-  "foto": "",
-  "tagy": ["sushi", "quinoa", "losos", "zdravé"]
+ "id": "sushi-s-quinoou-a-avokadom",
+ "nazov": "Sushi s quinoou a avokádom",
+ "kategoria": "Snack",
+ "kuchyna": "Ázijská",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 234,
+ "popis": "Zdravšia verzia sushi s čiernou quinoou namiesto ryže, lososom, repou a uhorkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Čierna quinoa",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Predvarená repa",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvý losos",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nori riasa",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Quinou aspoň 2-krát prepláchni vo vode a uvar podľa návodu na obale.",
+  "Repu, lososa aj uhorku nakrájaj na rovnako dlhé tenké nudličky.",
+  "Uvarenú quinou nechaj vychladnúť a zmiešaj so smotanovým syrom a štipkou soli.",
+  "Na rohož na rolovanie polož nori riasu lesklou stranou nadol a natri na ňu vrstvu quinoy (asi 3 mm), rovnomerne upechuj lyžicou.",
+  "Na spodný okraj riasy naukladaj pásik lososa, repy a uhorky.",
+  "Roluj od kraja s náplňou smerom k prázdnej strane riasy, na konci pritlač a spoj zľahka navlhči.",
+  "Postup zopakuj s ďalšími riasami a rolky nakrájaj ostrým nožom na kúsky asi 2 cm."
+ ],
+ "tipy": "Ak nemáte kvalitného čerstvého lososa, použi údeného.",
+ "foto": "",
+ "tagy": [
+  "sushi",
+  "quinoa",
+  "losos",
+  "zdravé"
+ ]
 }

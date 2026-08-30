@@ -245,4 +245,116 @@ ok("picker v pláne hľadá aj podľa suroviny a ukáže ktorá sedí", () => {
   assert.ok(html.includes("🥕 Zubrovka"), "chýba hint, ktorá surovina sedí: " + html.slice(0, 200));
 });
 
+// ─────────────────────────────────────────────────────────── A8 prístupnosť klávesnicou
+nadpis("\nA8 — klávesnica (WCAG 2.1.1 / 2.4.3)");
+const ZDROJ = require("fs").readFileSync(__dirname + "/data/app.js", "utf8");
+
+ok("karta receptu je JEDEN obal s rolou tlačidla, tabindexom a aria-label", () => {
+  const app = novy();
+  const h = app.kartaHTML(app.RECEPTY[0]);
+  assert.ok(h.includes('class="card-open" role="button" tabindex="0"'), "karta nemá obal card-open s rolou: " + h.slice(0, 160));
+  assert.ok(/aria-label="[^"]+ — otvoriť recept"/.test(h), "karte chýba aria-label s názvom receptu");
+  // pôvodný stav: `.thumb` aj `.body` mali vlastný onclick a ani jeden nebol dosiahnuteľný Tabom
+  assert.ok(!/<div class="thumb"[^>]*onclick/.test(h), "thumb má stále vlastný onclick");
+  assert.ok(!/<div class="body"[^>]*onclick/.test(h), "body má stále vlastný onclick");
+  assert.strictEqual((h.match(/onclick=/g) || []).length, 2, "na karte majú byť práve 2 akcie (★ a otvorenie)");
+});
+
+ok("★ na karte má aria-label aj aria-pressed", () => {
+  const app = novy();
+  const h = app.kartaHTML(app.RECEPTY[0]);
+  assert.ok(/class="fav" aria-pressed="(true|false)" aria-label="[^"]+"/.test(h), "★ nemá stav ani menovku: " + h.slice(0, 120));
+});
+
+ok("bunka plánu je zo skutočných <button>, nie zo `span onclick`", () => {
+  // renderPlan je v harnesse stubnutý (testy nekreslia), preto kontrolujeme zdroj
+  const usek = ZDROJ.slice(ZDROJ.indexOf("function renderPlan("), ZDROJ.indexOf("let dragSrc="));
+  assert.ok(usek.length > 500, "nenašiel som telo renderPlan");
+  assert.ok(!/<span class="rm"[^>]*onclick/.test(usek), "„✎ zmeniť“/„⋯ viac“ sú stále span onclick");
+  assert.ok(!/<span class="kc"[^>]*onclick/.test(usek), "riadok kcal je stále span onclick");
+  assert.ok(!/<span class="nm"[^>]*onclick/.test(usek), "názov jedla je stále span onclick");
+  assert.ok(!/<div class="plan-cell prazdne"[^>]*onclick/.test(usek), "prázdna bunka je stále div onclick");
+  ["pc-btn", "pc-empty", "pc-x"].forEach(c => assert.ok(usek.includes(c), "v bunke chýba trieda " + c));
+  // každé ovládanie v bunke musí mať menovku — sú to samé ikonky a skratky
+  assert.ok((usek.match(/aria-label=/g) || []).length >= 6, "v bunke plánu je málo aria-label");
+});
+
+ok("mchip a hranica sú tlačidlá so stavom", () => {
+  assert.ok(/<button class="mchip\$\{on\?' on':''\}"[^`]*aria-pressed/.test(ZDROJ), "mchip nie je button s aria-pressed");
+  assert.ok(/<button class="hranica"/.test(ZDROJ), "hranica blokov nie je button");
+});
+
+ok("Enter/medzerník aktivuje čokoľvek s rolou tlačidla (aj riadky pickerov)", () => {
+  // predtým bol zoznam vymenovaný ručne a `.plan-cell[tabindex]` v ňom chýbal:
+  // riadky pickerov boli fokusovateľné, ale Enter s nimi neurobil nič
+  assert.ok(ZDROJ.includes(`t.matches('[role="button"][tabindex="0"],.side a,.botnav a,.menu a')`),
+    "chýba všeobecné pravidlo pre Enter/medzerník");
+});
+
+ok("zavretie modálu vracia fokus tam, odkiaľ sa otváral", () => {
+  ["function zavri()", "function zavriPick()", "function zavriCook()", "function dlgZavri("].forEach(f => {
+    const i = ZDROJ.indexOf(f);
+    assert.ok(i > 0, "nenašiel som " + f);
+    assert.ok(ZDROJ.slice(i, i + 420).includes("_vratFokus()"), f + " nevracia fokus");
+  });
+  assert.ok(ZDROJ.includes("_fokusDoModalu"), "fokus sa po otvorení nepresúva do dialógu");
+});
+
+ok("zpristupniKliky nepečiatkuje rolu na skutočné <button>", () => {
+  const i = ZDROJ.indexOf("function zpristupniKliky(");
+  assert.ok(ZDROJ.slice(i, i + 500).includes('el.tagName==="BUTTON"'), "pečiatkovanie by duplikovalo rolu tlačidla");
+});
+
+// ─────────────────────────────────────────────────────────── A9 výkon mriežky
+nadpis("\nA9 — mriežka sa dopĺňa po dávkach");
+ok("prvé vykreslenie dá 60 kariet, nie 1956", () => {
+  const app = novy();
+  const grid = app.document.getElementById("grid");
+  const pred = grid.children.length;                 // fake DOM innerHTML="" deti nemaže, meriame prírastok
+  app.__orig.renderGrid();
+  const prva = grid.children.length - pred;
+  assert.strictEqual(prva, 60, "prvá dávka má 60 kariet, dostal som " + prva);
+  assert.ok(app.RECEPTY.length > 1000, "kontrola dáva zmysel len na plnej zásobe");
+});
+ok("„Načítať ďalšie“ pridá ďalšiu dávku a na konci zoznamu skončí", () => {
+  const app = novy();
+  const grid = app.document.getElementById("grid");
+  app.__orig.renderGrid();
+  const po1 = grid.children.length;
+  app.gridViac();
+  assert.strictEqual(grid.children.length - po1, 60, "druhá dávka nemá 60 kariet");
+  // dojazd na koniec krátkeho zoznamu
+  const app2 = novy();
+  app2.RECEPTY.length = 0;
+  for (let i = 0; i < 70; i++) vloz(app2, recept("g" + i, 400));
+  const g2 = app2.document.getElementById("grid");
+  const p2 = g2.children.length;
+  app2.__orig.renderGrid();
+  assert.strictEqual(g2.children.length - p2, 60, "prvá dávka zo 70 receptov");
+  app2.gridViac();
+  assert.strictEqual(g2.children.length - p2, 70, "druhá dávka mala dobrať zvyšných 10");
+  app2.gridViac();
+  assert.strictEqual(g2.children.length - p2, 70, "za koncom zoznamu sa už nesmie nič pridať");
+});
+ok("filtre, hľadanie a počítadlá pracujú nad CELÝM zoznamom, nie nad vykreslenou dávkou", () => {
+  const app = novy();
+  const D = app.document;
+  app.__orig.renderGrid();
+  assert.strictEqual(String(D.getElementById("pocet").textContent), String(app.RECEPTY.length), "#pocet bez filtra = celá zásoba");
+  assert.strictEqual(D.getElementById("f-cnt").hidden, true, "#f-cnt má byť skrytý bez filtrov");
+  D.getElementById("hladaj").value = "kuracie";
+  const grid = D.getElementById("grid");
+  const pred = grid.children.length;
+  app.__orig.renderGrid();
+  const p = String(D.getElementById("pocet").textContent);
+  assert.ok(/^\d+ \/ \d+$/.test(p), "#pocet pri filtri má tvar „X / Y“, dostal som " + p);
+  const najdene = parseInt(p);
+  assert.ok(najdene > 60, "test má zmysel len keď je výsledkov viac než jedna dávka (" + najdene + ")");
+  assert.strictEqual(grid.children.length - pred, 60, "vykreslená je dávka, ale #pocet hlási celý výsledok");
+  D.getElementById("f-diet").value = "veg";
+  app.__orig.renderGrid();
+  assert.strictEqual(String(D.getElementById("f-cnt").textContent), "1", "#f-cnt má počítať 1 aktívny filter");
+  assert.strictEqual(D.getElementById("f-cnt").hidden, false, "#f-cnt sa má zobraziť");
+});
+
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });

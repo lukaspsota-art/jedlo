@@ -1,32 +1,82 @@
 {
-  "id": "cuketovy-chlieb",
-  "nazov": "Cuketový chlieb",
-  "kategoria": "Príloha",
-  "kuchyna": "Slovenská",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 20,
-  "cas": "70 min",
-  "kcal_na_porciu": 131,
-  "popis": "Slaný chlebík z cukety so semienkami a rímskou rascou.",
-  "ingrediencie": [
-    {"nazov": "Cuketa", "mnozstvo": 250, "jednotka": "g", "poznamka": "nastrúhaná"},
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Ľanové semienka", "mnozstvo": 40, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Slnečnicové semienka", "mnozstvo": 70, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Tekvicové semienka", "mnozstvo": 30, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Rímska rasca", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "mletá"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 185 °C.",
-    "V mise zmiešajte nastrúhanú cuketu, múku, vajcia, semienka, rascu, soľ a korenie.",
-    "Cesto nalejte do formy typu srnčí chrbát vyloženej papierom.",
-    "Pečte 40-45 minút pri 165-175 °C.",
-    "Chlieb necháte pred podávaním vychladnúť na mriežke."
-  ],
-  "tipy": "Ak je cuketa vodnatá, posolte ju štipkou soli a necháte vykapkať prebytočnú vodu.",
-  "foto": "",
-  "tagy": ["chlieb", "cuketa", "semienka", "pečivo"]
+ "id": "cuketovy-chlieb",
+ "nazov": "Cuketový chlieb",
+ "kategoria": "Príloha",
+ "kuchyna": "Slovenská",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 20,
+ "cas": "70 min",
+ "kcal_na_porciu": 131,
+ "popis": "Slaný chlebík z cukety so semienkami a rímskou rascou.",
+ "ingrediencie": [
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "nastrúhaná"
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľanové semienka",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tekvicové semienka",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rímska rasca",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "mletá"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 185 °C.",
+  "V mise zmiešaj nastrúhanú cuketu, múku, vajcia, semienka, rascu, soľ a korenie.",
+  "Cesto nalej do formy typu srnčí chrbát vyloženej papierom.",
+  "Peč 40-45 minút pri 165-175 °C.",
+  "Chlieb nechaj pred podávaním vychladnúť na mriežke."
+ ],
+ "tipy": "Ak je cuketa vodnatá, posol ju štipkou soli a nechaj vykapkať prebytočnú vodu.",
+ "foto": "",
+ "tagy": [
+  "chlieb",
+  "cuketa",
+  "semienka",
+  "pečivo"
+ ]
 }

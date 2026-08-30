@@ -1,35 +1,84 @@
 {
-  "id": "babovka-s-cicerom",
-  "nazov": "Bábovka s cícerom",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 20,
-  "cas": "70 min",
-  "kcal_na_porciu": 104,
-  "popis": "Čokoládová bábovka, v ktorej je časť múky nahradená cícerom.",
-  "ingrediencie": [
-    {"nazov": "Predvarený cícer (možno z konzervy)", "mnozstvo": 400, "jednotka": "g"},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks"},
-    {"nazov": "Ovsené mlieko", "mnozstvo": 160, "jednotka": "ml"},
-    {"nazov": "Ryžový sirup", "mnozstvo": 80, "jednotka": "g"},
-    {"nazov": "Kokosový olej rozpustený", "mnozstvo": 20, "jednotka": "g"},
-    {"nazov": "Holandské kakao", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Jedlá sóda", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 2, "jednotka": "ČL"},
-    {"nazov": "Pohánková múka", "mnozstvo": 180, "jednotka": "g"},
-    {"nazov": "Kokosový olej na vymazanie formy", "mnozstvo": 20, "jednotka": "g"},
-    {"nazov": "Holandské kakao na vysypanie formy", "mnozstvo": 2, "jednotka": "ČL"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 160 °C.",
-    "Cícer rozmixujte dohladka a preložte do misy.",
-    "Zmiešajte s vajcami, mliekom, sirupom, olejom, kakaom, sódou, kypriacim práškom a múkou.",
-    "Cesto dôkladne premiešajte, aby v ňom nezostali hrudky.",
-    "Nalejte do vymazanej a vysypanej formy na bábovku.",
-    "Pečte pri 150–160 °C asi 60 minút."
-  ],
-  "tipy": "Po vyklopení bábovku môžete posypať stéviou.",
-  "foto": "",
-  "tagy": ["dezert", "bábovka", "cícer", "bez lepku"]
+ "id": "babovka-s-cicerom",
+ "nazov": "Bábovka s cícerom",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 20,
+ "cas": "70 min",
+ "kcal_na_porciu": 104,
+ "popis": "Čokoládová bábovka, v ktorej je časť múky nahradená cícerom.",
+ "ingrediencie": [
+  {
+   "nazov": "Predvarený cícer (možno z konzervy)",
+   "mnozstvo": 400,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Ovsené mlieko",
+   "mnozstvo": 160,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Ryžový sirup",
+   "mnozstvo": 80,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kokosový olej rozpustený",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Jedlá sóda",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kypriaci prášok bez fosfátov",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Pohánková múka",
+   "mnozstvo": 180,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kokosový olej na vymazanie formy",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Holandské kakao na vysypanie formy",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 160 °C.",
+  "Cícer rozmixuj dohladka a prelož do misy.",
+  "Zmiešaj s vajcami, mliekom, sirupom, olejom, kakaom, sódou, kypriacim práškom a múkou.",
+  "Cesto dôkladne premiešaj, aby v ňom nezostali hrudky.",
+  "Nalej do vymazanej a vysypanej formy na bábovku.",
+  "Peč pri 150–160 °C asi 60 minút."
+ ],
+ "tipy": "Po vyklopení bábovku môžete posypať stéviou.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "bábovka",
+  "cícer",
+  "bez lepku"
+ ]
 }

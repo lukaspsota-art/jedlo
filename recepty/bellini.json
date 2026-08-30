@@ -1,36 +1,38 @@
 {
- "id": "bellini",
- "nazov": "Bellini",
- "kategoria": "Kokteil",
- "kuchyna": "Talianska",
- "zdroj": "TheCocktailDB – Bellini",
- "zdroj_url": "https://www.thecocktaildb.com/drink/17195",
- "porcie": 1,
- "cas": "5 min",
- "popis": "Ordinary Drink · Champagne Flute",
- "ingrediencie": [
-  {
-   "nazov": "Šampanské",
-   "mnozstvo": 177.4,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Broskyňa",
-   "mnozstvo": 29.6,
-   "jednotka": "ml",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Broskyňové pyré nalejeme do vychladenej flauty a dolejeme šumivým vínom.",
-  "Opatrne premiešame."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "kokteil",
-  "prosecco",
-  "talianske"
- ]
+  "id": "bellini",
+  "nazov": "Bellini",
+  "kategoria": "Kokteil",
+  "kuchyna": "Talianska",
+  "zdroj": "TheCocktailDB – Bellini",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17195",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Miešaný nápoj. Základ: šampanské, broskyňa. Podávaj v flaute na šampanské.",
+  "ingrediencie": [
+    {
+      "nazov": "Šampanské",
+      "mnozstvo": 177.4,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Broskyňa",
+      "mnozstvo": 29.6,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Broskyňové pyré nalej do vychladenej flauty a dolej šumivým vínom.",
+    "Opatrne premiešaj."
+  ],
+  "tipy": "Pohár vychlaď vopred. Vo vlažnom pohári kokteil rýchlo zovšednie a chutí sladšie, než má.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "prosecco",
+    "talianske"
+  ],
+  "kcal_na_porciu": 145,
+  "kcal_zdroj": "vypocet"
 }

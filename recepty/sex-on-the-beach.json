@@ -1,48 +1,50 @@
 {
- "id": "sex-on-the-beach",
- "nazov": "Sex on the Beach",
- "kategoria": "Kokteil",
- "kuchyna": "Americká",
- "zdroj": "TheCocktailDB – Sex on the Beach",
- "zdroj_url": "https://www.thecocktaildb.com/drink/12754",
- "porcie": 1,
- "cas": "5 min",
- "popis": "Ordinary Drink · Highball glass",
- "ingrediencie": [
-  {
-   "nazov": "Vodka",
-   "mnozstvo": 29.6,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Broskyňa",
-   "mnozstvo": 22.2,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cranberry juice",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pomarančová šťava",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Ingrediencie postupne vrstvíme do vysokého pohára naplneného ľadom.",
-  "Ozdobíme plátkom pomaranča."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "kokteil",
-  "vodka",
-  "letné"
- ]
+  "id": "sex-on-the-beach",
+  "nazov": "Sex on the Beach",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Sex on the Beach",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12754",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Miešaný nápoj. Základ: vodka, broskyňa, cranberry juice. Podávaj vo vysokom pohári.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 29.6,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Broskyňa",
+      "mnozstvo": 22.2,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cranberry juice",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ingrediencie postupne vrstvi do vysokého pohára naplneného ľadom.",
+    "Ozdob plátkom pomaranča."
+  ],
+  "tipy": "Pohár vychlaď vopred. Vo vlažnom pohári kokteil rýchlo zovšednie a chutí sladšie, než má.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "vodka",
+    "letné"
+  ],
+  "kcal_na_porciu": 74,
+  "kcal_zdroj": "vypocet"
 }

@@ -1,70 +1,70 @@
 {
-  "id": "philly-cheesesteak",
-  "nazov": "Philly cheesesteak",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Philly Cheesesteak (CC BY-SA)",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 754,
-  "popis": "Filadelfský sendvič - opečené hovädzie nakrájané na kúsky, s cibuľou a natrhaným syrom v mäkkej bagete.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie mäso",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": "sviečkovica, naklepaná naplocho"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "nakrájaná na pásiky"
-    },
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "takmer rozkrojená"
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "plátky, natrhané"
-    }
-  ],
-  "postup": [
-    "Mäso pokvapkaj olivovým olejom, osoľ a opepri. Opeč na liatinovej panvici na strednom ohni 6 minút z každej strany. Vyber a nechaj 7 minút odstáť, potom nakrájaj na kúsky na jedno zahryznutie. Udržuj v teple.",
-    "Cibuľu premiešaj s trochou olivového oleja a v tej istej panvici opraž, kým na okrajoch zľahka nezhnedne.",
-    "Pri podávaní naber veľkú lyžicu mäsa do pečiva. Navrch daj cibuľu a natrhaný syr."
-  ],
-  "tipy": "Zdroj používa sviečkovicu, čo je pre cheesesteak nezvyklé - v Philadelphii sa bežne používa lacnejšia roštenka nakrájaná na papierovo tenké plátky. Syr natrhaj, netraj - roztopí sa nerovnomerne a to je správne.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "večera",
-    "americká",
-    "hovädzie",
-    "philly"
-  ]
+ "id": "philly-cheesesteak",
+ "nazov": "Philly cheesesteak",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Philly Cheesesteak (CC BY-SA)",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 754,
+ "popis": "Filadelfský sendvič - opečené hovädzie nakrájané na kúsky, s cibuľou a natrhaným syrom v mäkkej bagete.",
+ "ingrediencie": [
+  {
+   "nazov": "Hovädzie mäso",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": "sviečkovica, naklepaná naplocho"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nakrájaná na pásiky"
+  },
+  {
+   "nazov": "Bageta",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "takmer rozkrojená"
+  },
+  {
+   "nazov": "Syr",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "plátky, natrhané"
+  }
+ ],
+ "postup": [
+  "Mäso pokvapkaj olivovým olejom, osoľ a opepri. Opeč na liatinovej panvici na strednom ohni 6 minút z každej strany. Vyber a nechaj 7 minút odstáť, potom nakrájaj na kúsky na jedno zahryznutie. Udržuj v teple.",
+  "Cibuľu premiešaj s trochou olivového oleja a v tej istej panvici opraž, kým na okrajoch zľahka nezhnedne.",
+  "Pri podávaní naber veľkú lyžicu mäsa do pečiva. Navrch daj cibuľu a natrhaný syr."
+ ],
+ "tipy": "Zdroj používa sviečkovicu, čo je pre cheesesteak nezvyklé - v Philadelphii sa bežne používa lacnejšia roštenka nakrájaná na papierovo tenké plátky. Syr natrhaj, netraj - roztopí sa nerovnomerne a to je správne.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "večera",
+  "americká",
+  "hovädzie",
+  "philly"
+ ]
 }

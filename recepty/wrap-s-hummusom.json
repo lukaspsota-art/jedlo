@@ -1,35 +1,91 @@
 {
-  "id": "wrap-s-hummusom",
-  "nazov": "Wrap s hummusom",
-  "kategoria": "Snack",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 318,
-  "popis": "Celozrnná tortilla plnená cviklovým hummusom a čerstvou zeleninou.",
-  "ingrediencie": [
-    {"nazov": "Predvarený cícer", "mnozstvo": 200, "jednotka": "g"},
-    {"nazov": "Predvarená červená cvikla", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik"},
-    {"nazov": "Nutričné kvasnice", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Celozrnná tortilla", "mnozstvo": 4, "jednotka": "plátok"},
-    {"nazov": "Uhorka", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Mrkva", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Cukrový hrášok", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Ľadový šalát", "mnozstvo": null, "jednotka": "list", "poznamka": "pár lístkov"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Cícer rozmixujte s cviklou, olivovým olejom, cesnakom, nutričnými kvasnicami a 4 PL vody nahladko.",
-    "Hummus dochuťte soľou a korením.",
-    "Tortilly rozložte a rovnomerne potrite hummusom, nie až po okraj.",
-    "Doprostred naukladajte hrášok, mrkvu, uhorku a ľadový šalát.",
-    "Tortilly zabaľte a podávajte alebo uložte v chladničke."
-  ],
-  "tipy": "K wrapu môžete pripraviť dip zo 200 g gréckeho jogurtu, strúčika cesnaku, pažítky, soli a korenia.",
-  "foto": "",
-  "tagy": ["wrap", "hummus", "cvikla", "vegetariánske"]
+ "id": "wrap-s-hummusom",
+ "nazov": "Wrap s hummusom",
+ "kategoria": "Snack",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 318,
+ "popis": "Celozrnná tortilla plnená cviklovým hummusom a čerstvou zeleninou.",
+ "ingrediencie": [
+  {
+   "nazov": "Predvarený cícer",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Predvarená červená cvikla",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Nutričné kvasnice",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Celozrnná tortilla",
+   "mnozstvo": 4,
+   "jednotka": "plátok"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Cukrový hrášok",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Ľadový šalát",
+   "mnozstvo": null,
+   "jednotka": "list",
+   "poznamka": "pár lístkov"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Cícer rozmixuj s cviklou, olivovým olejom, cesnakom, nutričnými kvasnicami a 4 PL vody nahladko.",
+  "Hummus dochuť soľou a korením.",
+  "Tortilly rozlož a rovnomerne potri hummusom, nie až po okraj.",
+  "Doprostred naukladaj hrášok, mrkvu, uhorku a ľadový šalát.",
+  "Tortilly zabaľ a podávaj alebo ulož v chladničke."
+ ],
+ "tipy": "K wrapu môžete pripraviť dip zo 200 g gréckeho jogurtu, strúčika cesnaku, pažítky, soli a korenia.",
+ "foto": "",
+ "tagy": [
+  "wrap",
+  "hummus",
+  "cvikla",
+  "vegetariánske"
+ ]
 }

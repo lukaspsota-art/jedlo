@@ -1,79 +1,79 @@
 {
-  "id": "kremove-kura-suse-paradajky-spenat",
-  "nazov": "Krémové kura so sušenými paradajkami a špenátom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Talianska",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 520,
-  "popis": "Kuracie prsia v krémovej omáčke so sušenými paradajkami, špenátom a parmezánom, dopečené v rúre.",
-  "ingrediencie": [
-    {
-      "nazov": "Extra panenský olivový olej",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Kuracie prsia bez kosti a kože",
-      "mnozstvo": 3,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Soľ a mleté čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    },
-    {
-      "nazov": "Sušené oregano",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 3,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik",
-      "poznamka": "nasekaný"
-    },
-    {
-      "nazov": "Sušené paradajky",
-      "mnozstvo": 1,
-      "jednotka": "hrnček",
-      "poznamka": "nakrájané"
-    },
-    {
-      "nazov": "Baby špenát",
-      "mnozstvo": 2,
-      "jednotka": "hrnček"
-    },
-    {
-      "nazov": "Smotana na šľahanie",
-      "mnozstvo": 250,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": "strúhaný"
-    }
-  ],
-  "postup": [
-    "Vo veľkej panvici rozohrej olej. Kuracie mäso osoľ, okoreň, posyp oreganom a opekaj 8–10 minút z každej strany dozlatista, potom vyber.",
-    "V tej istej panvici rozpusti maslo, pridaj cesnak a krátko opeč. Prisyp sušené paradajky, chvíľu poduste, prilej smotanu a parmezán a nechaj krátko prevrieť a zhustnúť.",
-    "Vráť kuracie mäso, pridaj špenát, premiešaj a vlož do rúry vyhriatej na 180 °C na 10–15 minút, kým sa povrch jemne zapečie."
-  ],
-  "tipy": "Ak je omáčka riedka, povar ju o pár minút dlhšie pred vrátením mäsa.",
-  "foto": "",
-  "tagy": [
-    "kura",
-    "krémové",
-    "rúra"
-  ]
+ "id": "kremove-kura-suse-paradajky-spenat",
+ "nazov": "Krémové kura so sušenými paradajkami a špenátom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Talianska",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 520,
+ "popis": "Kuracie prsia v krémovej omáčke so sušenými paradajkami, špenátom a parmezánom, dopečené v rúre.",
+ "ingrediencie": [
+  {
+   "nazov": "Extra panenský olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Kuracie prsia bez kosti a kože",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Soľ a mleté čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 3,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": "nasekaný"
+  },
+  {
+   "nazov": "Sušené paradajky",
+   "mnozstvo": 1,
+   "jednotka": "hrnček",
+   "poznamka": "nakrájané"
+  },
+  {
+   "nazov": "Baby špenát",
+   "mnozstvo": 2,
+   "jednotka": "hrnček"
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 250,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": "strúhaný"
+  }
+ ],
+ "postup": [
+  "Vo veľkej panvici rozohrej olej. Kuracie mäso osoľ, okoreň, posyp oreganom a opekaj 8–10 minút z každej strany dozlatista, potom vyber.",
+  "V tej istej panvici rozpusti maslo, pridaj cesnak a krátko opeč. Prisyp sušené paradajky, chvíľu podus, prilej smotanu a parmezán a nechaj krátko prevrieť a zhustnúť.",
+  "Vráť kuracie mäso, pridaj špenát, premiešaj a vlož do rúry vyhriatej na 180 °C na 10–15 minút, kým sa povrch jemne zapečie."
+ ],
+ "tipy": "Ak je omáčka riedka, povar ju o pár minút dlhšie pred vrátením mäsa.",
+ "foto": "",
+ "tagy": [
+  "kura",
+  "krémové",
+  "rúra"
+ ]
 }

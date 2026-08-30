@@ -1,26 +1,52 @@
 {
-  "id": "pomazanka-z-nakladanych-paprik",
-  "nazov": "Pomazánka z nakladaných paprík",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 6,
-  "cas": "15 min",
-  "kcal_na_porciu": 245,
-  "popis": "Krémová nátierka z namočených mandlí a nakladaných paprík s nutričnými kvasnicami.",
-  "ingrediencie": [
-    {"nazov": "Mandle", "mnozstvo": 200, "jednotka": "g", "poznamka": "namočené cez noc vo vode"},
-    {"nazov": "Nakladané papriky v oleji", "mnozstvo": 100, "jednotka": "g", "poznamka": "1 pohár, scedené od oleja"},
-    {"nazov": "Nutričné kvasnice", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Uzená soľ", "mnozstvo": 2, "jednotka": "ČL"},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik"}
-  ],
-  "postup": [
-    "Mandle scedte a vložte do mixéra.",
-    "Z nakladaných paprík odlejte olej a pridajte ich spolu s nutričnými kvasnicami, soľou a cesnakom do mixéra.",
-    "Mixujte na plný výkon 1-2 minúty."
-  ],
-  "tipy": "Pomazánka chutí nielen s pečivom a zeleninou, ale aj v tortille.",
-  "foto": "",
-  "tagy": ["nátierka", "mandle", "papriky"]
+ "id": "pomazanka-z-nakladanych-paprik",
+ "nazov": "Pomazánka z nakladaných paprík",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 6,
+ "cas": "15 min",
+ "kcal_na_porciu": 245,
+ "popis": "Krémová nátierka z namočených mandlí a nakladaných paprík s nutričnými kvasnicami.",
+ "ingrediencie": [
+  {
+   "nazov": "Mandle",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "namočené cez noc vo vode"
+  },
+  {
+   "nazov": "Nakladané papriky v oleji",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "1 pohár, scedené od oleja"
+  },
+  {
+   "nazov": "Nutričné kvasnice",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Uzená soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik"
+  }
+ ],
+ "postup": [
+  "Mandle sceď a vlož do mixéra.",
+  "Z nakladaných paprík odlej olej a pridaj ich spolu s nutričnými kvasnicami, soľou a cesnakom do mixéra.",
+  "Mixuj na plný výkon 1-2 minúty."
+ ],
+ "tipy": "Pomazánka chutí nielen s pečivom a zeleninou, ale aj v tortille.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "mandle",
+  "papriky"
+ ]
 }

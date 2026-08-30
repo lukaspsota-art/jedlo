@@ -1,32 +1,82 @@
 {
-  "id": "spenatova-omeleta-so-sampionmi",
-  "nazov": "Špenátová omeleta so šampiónmi",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "20 min",
-  "kcal_na_porciu": 595,
-  "popis": "Vaječná omeleta plnená opečenými šampiónmi, špenátom, avokádom a parmezánom.",
-  "ingrediencie": [
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Šampióny", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Mlieko", "mnozstvo": 200, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Baby špenát", "mnozstvo": 2, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Parmezán strúhaný", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "V panvici rozohrejeme olivový olej a asi 5 minút opekáme nakrájané šampióny.",
-    "Vajcia rozšľaháme s mliekom, soľou a korením.",
-    "Vylejeme na druhú panvicu a opekáme na strednom plameni 5-6 minút, kým okraje nezačnú hnednúť.",
-    "Omeletu preložíme na tanier, na jednu polovicu naukladáme šampióny, špenát, avokádo na kocky a parmezán.",
-    "Omeletu preložíme na polovicu a podávame."
-  ],
-  "tipy": "Skúste namiesto bežného mlieka použiť mandľové - dodá omelete zaujímavú chuť.",
-  "foto": "",
-  "tagy": ["omeleta", "špenát", "raňajky", "šampióny"]
+ "id": "spenatova-omeleta-so-sampionmi",
+ "nazov": "Špenátová omeleta so šampiónmi",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "20 min",
+ "kcal_na_porciu": 595,
+ "popis": "Vaječná omeleta plnená opečenými šampiónmi, špenátom, avokádom a parmezánom.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampióny",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Baby špenát",
+   "mnozstvo": 2,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán strúhaný",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "V panvici rozohrej olivový olej a asi 5 minút opekaj nakrájané šampióny.",
+  "Vajcia rozšľahaj s mliekom, soľou a korením.",
+  "Vylej na druhú panvicu a opekaj na strednom plameni 5-6 minút, kým okraje nezačnú hnednúť.",
+  "Omeletu prelož na tanier, na jednu polovicu naukladaj šampióny, špenát, avokádo na kocky a parmezán.",
+  "Omeletu prelož na polovicu a podávaj."
+ ],
+ "tipy": "Skús namiesto bežného mlieka použiť mandľové - dodá omelete zaujímavú chuť.",
+ "foto": "",
+ "tagy": [
+  "omeleta",
+  "špenát",
+  "raňajky",
+  "šampióny"
+ ]
 }

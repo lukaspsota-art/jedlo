@@ -1,52 +1,52 @@
 {
-  "id": "steak-melt-so-syrom",
-  "nazov": "Steak melt so syrom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Steak Melts (CC BY-SA)",
-  "porcie": 2,
-  "cas": "20 min",
-  "kcal_na_porciu": 967,
-  "popis": "Tenko krájaný steak s pikantným syrom medzi plátkami chleba, opečený na masle na platni.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzia roštenka",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "upečená podľa chuti"
-    },
-    {
-      "nazov": "Toastový chlieb",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": "nesolené, rozpustené"
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "pepper jack alebo Monterey Jack, štyri plátky"
-    }
-  ],
-  "postup": [
-    "Steaky nakrájaj našikmo na tenké plátky proti vláknu. Na každý plátok chleba polož štvrtinu plátkov.",
-    "Navrch polož plátok syra, potom dva plátky chleba pritlač k sebe a to isté zopakuj s druhým sendvičom. Vonkajšie strany potri rozpusteným maslom.",
-    "Rozohrej platňu alebo panvicu na vysoký oheň. Sendviče opekaj do zlatohneda z každej strany. Podávaj hneď."
-  ],
-  "tipy": "Steak nakrájaj proti vláknu a našikmo - inak sa v sendviči ťahá a nedá sa prehryznúť.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "večera",
-    "americká",
-    "hovädzie",
-    "grilovaný syr"
-  ]
+ "id": "steak-melt-so-syrom",
+ "nazov": "Steak melt so syrom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Steak Melts (CC BY-SA)",
+ "porcie": 2,
+ "cas": "20 min",
+ "kcal_na_porciu": 967,
+ "popis": "Tenko krájaný steak s pikantným syrom medzi plátkami chleba, opečený na masle na platni.",
+ "ingrediencie": [
+  {
+   "nazov": "Hovädzia roštenka",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "upečená podľa chuti"
+  },
+  {
+   "nazov": "Toastový chlieb",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "nesolené, rozpustené"
+  },
+  {
+   "nazov": "Syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "pepper jack alebo Monterey Jack, štyri plátky"
+  }
+ ],
+ "postup": [
+  "Steaky nakrájaj našikmo na tenké plátky proti vláknu. Na každý plátok chleba polož štvrtinu plátkov.",
+  "Navrch polož plátok syra, potom dva plátky chleba pritlač k sebe a to isté zopakuj s druhým sendvičom. Vonkajšie strany potri rozpusteným maslom.",
+  "Rozohrej platňu alebo panvicu na vysoký oheň. Sendviče opekaj do zlatohneda z každej strany. Podávaj hneď."
+ ],
+ "tipy": "Steak nakrájaj proti vláknu a našikmo - inak sa v sendviči ťahá a nedá sa prehryznúť.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "večera",
+  "americká",
+  "hovädzie",
+  "grilovaný syr"
+ ]
 }

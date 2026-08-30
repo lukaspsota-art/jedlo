@@ -1,31 +1,71 @@
 {
-  "id": "ovsene-mini-pizze",
-  "nazov": "Ovsené mini pizze",
-  "kategoria": "Snack",
-  "kuchyna": "Talianska",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 8,
-  "cas": "30 min",
-  "kcal_na_porciu": 159,
-  "popis": "Mini pizzové koláčiky z ovsených vločiek s kečupom, šunkou a mozzarellou.",
-  "ingrediencie": [
-    {"nazov": "Ovsené vločky", "mnozstvo": 200, "jednotka": "g", "poznamka": "rozmixované"},
-    {"nazov": "Vaječný bielok", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "štipka"},
-    {"nazov": "Tymian", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Kečup sladený stéviou", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Morčacia šunka", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mozzarella", "mnozstvo": 100, "jednotka": "g", "poznamka": ""}
-  ],
-  "postup": [
-    "Rúru predhrejte na 200 °C.",
-    "Vločky zmiešajte s bielkami, 2 PL vody, soľou a tymianom.",
-    "Na plech s papierom na pečenie vytvarujte 8 koliesok vysokých asi 5 mm.",
-    "Pečte 5 minút pri 190-200 °C.",
-    "Potrite kečupom, pridajte nadrobno nakrájanú šunku a mozzarellu.",
-    "Vráťte do rúry a pečte ďalších 15-18 minút."
-  ],
-  "tipy": "Šunku a mozzarellu môžete vymeniť napríklad za šampiňóny, fazuľky alebo paradajky.",
-  "foto": "",
-  "tagy": ["ovsené vločky", "mini pizza", "snack", "šunka"]
+ "id": "ovsene-mini-pizze",
+ "nazov": "Ovsené mini pizze",
+ "kategoria": "Snack",
+ "kuchyna": "Talianska",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 8,
+ "cas": "30 min",
+ "kcal_na_porciu": 159,
+ "popis": "Mini pizzové koláčiky z ovsených vločiek s kečupom, šunkou a mozzarellou.",
+ "ingrediencie": [
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "rozmixované"
+  },
+  {
+   "nazov": "Vaječný bielok",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "štipka"
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kečup sladený stéviou",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morčacia šunka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 200 °C.",
+  "Vločky zmiešaj s bielkami, 2 PL vody, soľou a tymianom.",
+  "Na plech s papierom na pečenie vytvaruj 8 koliesok vysokých asi 5 mm.",
+  "Peč 5 minút pri 190-200 °C.",
+  "Potri kečupom, pridaj nadrobno nakrájanú šunku a mozzarellu.",
+  "Vráť do rúry a peč ďalších 15-18 minút."
+ ],
+ "tipy": "Šunku a mozzarellu môžete vymeniť napríklad za šampiňóny, fazuľky alebo paradajky.",
+ "foto": "",
+ "tagy": [
+  "ovsené vločky",
+  "mini pizza",
+  "snack",
+  "šunka"
+ ]
 }

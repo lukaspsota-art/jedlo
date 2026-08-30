@@ -1,31 +1,86 @@
 {
-  "id": "matcha-smoothie-bowl",
-  "nazov": "Matcha smoothie bowl",
-  "kategoria": "Raňajky",
-  "kuchyna": "Ázijská",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 510,
-  "popis": "Krémové smoothie z banánu, avokáda a matcha čaju podávané v miske s ovocím a krupkami.",
-  "ingrediencie": [
-    {"nazov": "Mandľové mlieko", "mnozstvo": 150, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Avokádo", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Banán zmrazený", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Chia semienka", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Arašidové maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Datľový sirup", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Škorica", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Matcha čaj", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Banán na podávanie", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Pohankové krupky", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""}
-  ],
-  "postup": [
-    "Mlieko, avokádo, zmrazený banán, chia semienka, arašidové maslo, datľový sirup, škoricu a matcha čaj dáme do mixéra.",
-    "Rozmixujeme dohladka.",
-    "Prendáme do misky a ozdobíme banánom nakrájaným na kolieska a pohankovými krupkami."
-  ],
-  "tipy": "Namiesto datľového sirupu môžete použiť nasekané datle. Podávajte napríklad s marakujou.",
-  "foto": "",
-  "tagy": ["smoothie bowl", "matcha", "raňajky", "vegan"]
+ "id": "matcha-smoothie-bowl",
+ "nazov": "Matcha smoothie bowl",
+ "kategoria": "Raňajky",
+ "kuchyna": "Ázijská",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 510,
+ "popis": "Krémové smoothie z banánu, avokáda a matcha čaju podávané v miske s ovocím a krupkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Mandľové mlieko",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banán zmrazený",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chia semienka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Arašidové maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Datľový sirup",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Matcha čaj",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Banán na podávanie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pohankové krupky",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mlieko, avokádo, zmrazený banán, chia semienka, arašidové maslo, datľový sirup, škoricu a matcha čaj daj do mixéra.",
+  "Rozmixuj dohladka.",
+  "Prendaj do misky a ozdob banánom nakrájaným na kolieska a pohankovými krupkami."
+ ],
+ "tipy": "Namiesto datľového sirupu môžete použiť nasekané datle. Podávaj napríklad s marakujou.",
+ "foto": "",
+ "tagy": [
+  "smoothie bowl",
+  "matcha",
+  "raňajky",
+  "vegan"
+ ]
 }

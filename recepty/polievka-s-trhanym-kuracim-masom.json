@@ -1,34 +1,88 @@
 {
-  "id": "polievka-s-trhanym-kuracim-masom",
-  "nazov": "Polievka s trhaným kuracím mäsom",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 6,
-  "cas": "40 min",
-  "kcal_na_porciu": 246,
-  "popis": "Sýta polievka s červenou fazuľou, paradajkami a trhaným kuracím mäsom.",
-  "ingrediencie": [
-    {"nazov": "Trhané kuracie mäso", "mnozstvo": 300, "jednotka": "g", "poznamka": "napr. zvyšky pečeného kuraťa"},
-    {"nazov": "Repkový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Menšia cibuľa", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 4, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Predvarená červená fazuľa", "mnozstvo": 600, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Paradajky", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Zeleninový vývar", "mnozstvo": 1000, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Chilli", "mnozstvo": null, "jednotka": "", "poznamka": "štipka, podľa chuti"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "V hrnci rozohrejte olej, osmažte najemno nakrájanú cibuľu.",
-    "Po 2 minútach pridajte na plátky nakrájaný cesnak, nechajte 2-3 minúty zozlatnúť.",
-    "Pridajte fazuľu a na kocky nakrájané paradajky, prikryte a duste 5-7 minút.",
-    "Prilejte vývar, prikryte a varte asi 25 minút, kým sa nezredukuje prebytočná voda.",
-    "Zamiešajte trhané kuracie mäso, dochuťte soľou, korením a prípadne chilli.",
-    "Podávajte s čerstvým celozrnným pečivom."
-  ],
-  "tipy": "Na posledných 10 minút varenia prisypte 70 g bulguru.",
-  "foto": "",
-  "tagy": ["polievka", "kuracie mäso", "fazuľa"]
+ "id": "polievka-s-trhanym-kuracim-masom",
+ "nazov": "Polievka s trhaným kuracím mäsom",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 6,
+ "cas": "40 min",
+ "kcal_na_porciu": 246,
+ "popis": "Sýta polievka s červenou fazuľou, paradajkami a trhaným kuracím mäsom.",
+ "ingrediencie": [
+  {
+   "nazov": "Trhané kuracie mäso",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "napr. zvyšky pečeného kuraťa"
+  },
+  {
+   "nazov": "Repkový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Menšia cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Predvarená červená fazuľa",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "štipka, podľa chuti"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "V hrnci rozohrej olej, osmaž najemno nakrájanú cibuľu.",
+  "Po 2 minútach pridaj na plátky nakrájaný cesnak, nechaj 2-3 minúty zozlatnúť.",
+  "Pridaj fazuľu a na kocky nakrájané paradajky, prikry a dus 5-7 minút.",
+  "Prilej vývar, prikry a var asi 25 minút, kým sa nezredukuje prebytočná voda.",
+  "Zamiešaj trhané kuracie mäso, dochuť soľou, korením a prípadne chilli.",
+  "Podávaj s čerstvým celozrnným pečivom."
+ ],
+ "tipy": "Na posledných 10 minút varenia prisyp 70 g bulguru.",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "kuracie mäso",
+  "fazuľa"
+ ]
 }

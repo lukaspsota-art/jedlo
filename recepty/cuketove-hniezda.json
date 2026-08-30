@@ -1,29 +1,64 @@
 {
-  "id": "cuketove-hniezda",
-  "nazov": "Cuketové hniezda",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 6,
-  "cas": "25 min",
-  "kcal_na_porciu": 258,
-  "popis": "Hniezda z nastrúhanej cukety s vajcom, podávané s avokádom a cherry paradajkami.",
-  "ingrediencie": [
-    {"nazov": "Cuketa", "mnozstvo": 600, "jednotka": "g", "poznamka": "nastrúhaná"},
-    {"nazov": "Vajce", "mnozstvo": 6, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Avokádo", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Cherry paradajky", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Cuketu nastrúhajte na hrubšom strúhadle alebo spiralizéri.",
-    "Na rozohriatej nepriľnavej panvici vytvarujte z nastrúhanej cukety hniezda.",
-    "Do každého hniezda vyklopte jedno vajce, osoľte, opeprite a panvicu prikryte pokrievkou.",
-    "Varte pod pokrievkou 4-5 minút, kým sa vajce neuvarí podľa chuti.",
-    "Každé hniezdo podávajte s plátkami avokáda a rozpolenými cherry paradajkami."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["cuketa", "vajce", "raňajky", "avokádo"]
+ "id": "cuketove-hniezda",
+ "nazov": "Cuketové hniezda",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 6,
+ "cas": "25 min",
+ "kcal_na_porciu": 258,
+ "popis": "Hniezda z nastrúhanej cukety s vajcom, podávané s avokádom a cherry paradajkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": "nastrúhaná"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cherry paradajky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Cuketu nastrúhaj na hrubšom strúhadle alebo spiralizéri.",
+  "Na rozohriatej nepriľnavej panvici vytvaruj z nastrúhanej cukety hniezda.",
+  "Do každého hniezda vyklop jedno vajce, osoľ, opepri a panvicu prikry pokrievkou.",
+  "Var pod pokrievkou 4-5 minút, kým sa vajce neuvarí podľa chuti.",
+  "Každé hniezdo podávaj s plátkami avokáda a rozpolenými cherry paradajkami."
+ ],
+ "tipy": "Avokádo pokvapkaj citrónovou šťavou — bez kyseliny zhnedne do pár minút.",
+ "foto": "",
+ "tagy": [
+  "cuketa",
+  "vajce",
+  "raňajky",
+  "avokádo"
+ ]
 }

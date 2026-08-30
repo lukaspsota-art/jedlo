@@ -1,38 +1,107 @@
 {
-  "id": "morciacia-zmes-s-cicerom",
-  "nazov": "Morčacia zmes s cícerom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 437,
-  "popis": "Dusené morčacie prsia s cícerom a paradajkami dochutené korením a dijonskou horčicou.",
-  "ingrediencie": [
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Morčacie prsia", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Dijonská horčica", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Kari mleté", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Kajenské korenie", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Koriander mletý", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Cícer predvarený", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Paradajky krájané (konzerva)", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Zeleninový vývar", "mnozstvo": 200, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "V hlbšej panvici rozohrejeme olej a opražíme najemno nasekané šalotky.",
-    "Znížime plameň a pridáme roztlačený cesnak.",
-    "Morčacie prsia nakrájame na kocky alebo nudličky, pridáme do panvice a opekáme 5 minút.",
-    "Pridáme horčicu, kari, kajenské korenie a koriander, premiešame a restujeme 2 minúty.",
-    "Pridáme cícer s paradajkami, premiešame a zalejeme vývarom.",
-    "Necháme provariť 15 minút, dochutíme soľou a korením.",
-    "Podávame s ryžou alebo celozrnnými cestovinami."
-  ],
-  "tipy": "Zmes môžete podávať napríklad s pečenou tekvicou - tekvicu hokkaido očistíme, nakrájame na kocky, zmiešame s olivovým olejom, oreganom, soľou a korením a pečieme pri 180 °C 40 minút domäkka.",
-  "foto": "",
-  "tagy": ["morčacie mäso", "cícer", "hlavné jedlo"]
+ "id": "morciacia-zmes-s-cicerom",
+ "nazov": "Morčacia zmes s cícerom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 437,
+ "popis": "Dusené morčacie prsia s cícerom a paradajkami dochutené korením a dijonskou horčicou.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morčacie prsia",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Dijonská horčica",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kari mleté",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriander mletý",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cícer predvarený",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky krájané (konzerva)",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "V hlbšej panvici rozohrej olej a opraž najemno nasekané šalotky.",
+  "Zníž plameň a pridaj roztlačený cesnak.",
+  "Morčacie prsia nakrájaj na kocky alebo nudličky, pridaj do panvice a opekaj 5 minút.",
+  "Pridaj horčicu, kari, kajenské korenie a koriander, premiešaj a restuj 2 minúty.",
+  "Pridaj cícer s paradajkami, premiešaj a zalej vývarom.",
+  "Nechaj provariť 15 minút, dochuť soľou a korením.",
+  "Podávaj s ryžou alebo celozrnnými cestovinami."
+ ],
+ "tipy": "Zmes môžete podávať napríklad s pečenou tekvicou - tekvicu hokkaido očisti, nakrájaj na kocky, zmiešaj s olivovým olejom, oreganom, soľou a korením a peč pri 180 °C 40 minút domäkka.",
+ "foto": "",
+ "tagy": [
+  "morčacie mäso",
+  "cícer",
+  "hlavné jedlo"
+ ]
 }

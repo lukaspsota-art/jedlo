@@ -10,6 +10,7 @@
 //   node scripts/dopocitaj_kcal.js --zapis    zapíše do recepty/*.json
 const fs = require("fs"), path = require("path");
 const { load } = require("../test_harness");
+const P = require("./lib_patch_json");
 
 const ZAPIS = process.argv.includes("--zapis");
 const MIN = 3, MAX = 1200;   // mimo tohto rozsahu radšej nechaj prázdne a nech to niekto pozrie
@@ -39,17 +40,13 @@ let zapisanych = 0;
 for (const { id, kcal } of kandidati) {
   const cesta = path.join(DIR, id + ".json");
   if (!fs.existsSync(cesta)) { console.log("  chýba súbor: " + cesta); continue; }
-  const r = JSON.parse(fs.readFileSync(cesta, "utf8"));
-  if (r.kcal_na_porciu) continue;
-  // pole vlož za „cas" (ak existuje), nech je poradie kľúčov rovnaké ako pri ostatných receptoch
-  const novy = {};
-  let vlozene = false;
-  for (const k of Object.keys(r)) {
-    novy[k] = r[k];
-    if (k === "cas") { novy.kcal_na_porciu = kcal; novy.kcal_zdroj = "vypocet"; vlozene = true; }
-  }
-  if (!vlozene) { novy.kcal_na_porciu = kcal; novy.kcal_zdroj = "vypocet"; }
-  fs.writeFileSync(cesta, JSON.stringify(novy, null, 2) + "\n", "utf8");
+  let txt = P.nacitaj(cesta);
+  if (JSON.parse(txt).kcal_na_porciu) continue;
+  // pole vlož za „cas" (ak existuje), nech je poradie kľúčov rovnaké ako pri ostatných receptoch;
+  // patchujeme text, nie objekt — JSON.stringify by preformátoval celý súbor (3 rôzne štýly odsadenia)
+  txt = P.nastavPole(txt, "kcal_na_porciu", kcal, "cas");
+  txt = P.nastavPole(txt, "kcal_zdroj", "vypocet", "kcal_na_porciu");
+  P.zapis(cesta, txt);
   zapisanych++;
 }
 console.log("zapísaných: " + zapisanych);

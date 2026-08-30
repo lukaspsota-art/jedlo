@@ -1,104 +1,104 @@
 {
-  "id": "chivito",
-  "nazov": "Chivito",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Uruguajská",
-  "zdroj": "Wikibooks Cookbook – Chivito (Uruguayan Beef Sandwich) (CC BY-SA)",
-  "porcie": 2,
-  "cas": "25 min",
-  "kcal_na_porciu": 1044,
-  "popis": "Uruguajský národný sendvič - tenký hovädzí steak s volským okom, šalátom a paradajkou v pečive.",
-  "ingrediencie": [
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 180,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šalátové listy",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hovädzie mäso",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": "sukňový steak, tenké plátky"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Rastlinný olej",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kečup",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": "voliteľné"
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "voliteľné"
-    },
-    {
-      "nazov": "Horčica",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "voliteľné"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Pečivo rozkroj po dĺžke a daj na teplé miesto.",
-    "Hovädzie mäso opeč na horúcej panvici s trochou oleja.",
-    "Osoľ a opepri.",
-    "Vajce usmaž vedľa mäsa alebo na druhej panvici. Žĺtok má byť dobre prepečený, nie tečúci.",
-    "Obe strany pečiva potri majonézou. Navrstvi mäso, volské oko, dva šalátové listy a plátky paradajky.",
-    "Dochuť kečupom alebo horčicou.",
-    "Prikry druhou polovicou pečiva a podávaj horúce."
-  ],
-  "tipy": "Chivito canadiense pridáva plátky nakladanej bravčovej sviečkovice, ktoré sa prehrejú na panvici spolu s mäsom a vajcom. Chivito al plato je tá istá skladba bez pečiva - všetko na tanieri a je sa príborom.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "večera",
-    "uruguajská",
-    "hovädzie",
-    "vajcia"
-  ]
+ "id": "chivito",
+ "nazov": "Chivito",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Uruguajská",
+ "zdroj": "Wikibooks Cookbook – Chivito (Uruguayan Beef Sandwich) (CC BY-SA)",
+ "porcie": 2,
+ "cas": "25 min",
+ "kcal_na_porciu": 1044,
+ "popis": "Uruguajský národný sendvič - tenký hovädzí steak s volským okom, šalátom a paradajkou v pečive.",
+ "ingrediencie": [
+  {
+   "nazov": "Bageta",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalátové listy",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzie mäso",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "sukňový steak, tenké plátky"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kečup",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "voliteľné"
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "voliteľné"
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "voliteľné"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Pečivo rozkroj po dĺžke a daj na teplé miesto.",
+  "Hovädzie mäso opeč na horúcej panvici s trochou oleja.",
+  "Osoľ a opepri.",
+  "Vajce usmaž vedľa mäsa alebo na druhej panvici. Žĺtok má byť dobre prepečený, nie tečúci.",
+  "Obe strany pečiva potri majonézou. Navrstvi mäso, volské oko, dva šalátové listy a plátky paradajky.",
+  "Dochuť kečupom alebo horčicou.",
+  "Prikry druhou polovicou pečiva a podávaj horúce."
+ ],
+ "tipy": "Chivito canadiense pridáva plátky nakladanej bravčovej sviečkovice, ktoré sa prehrejú na panvici spolu s mäsom a vajcom. Chivito al plato je tá istá skladba bez pečiva - všetko na tanieri a je sa príborom.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "večera",
+  "uruguajská",
+  "hovädzie",
+  "vajcia"
+ ]
 }

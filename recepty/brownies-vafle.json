@@ -1,32 +1,82 @@
 {
-  "id": "brownies-vafle",
-  "nazov": "Brownies vafle",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 6,
-  "cas": "10 min",
-  "kcal_na_porciu": 218,
-  "popis": "Čokoládové vafle s kakaom a chia semienkami, ktoré chutia ako brownies.",
-  "ingrediencie": [
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Sójové mlieko", "mnozstvo": 300, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Žitná múka", "mnozstvo": 160, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Holandské kakao", "mnozstvo": 30, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Chia semienka", "mnozstvo": 10, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Prášok do pečiva", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Škorica", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Horká čokoláda (85 %)", "mnozstvo": 50, "jednotka": "g", "poznamka": ""}
-  ],
-  "postup": [
-    "Vajcia vyšľahaj v miske.",
-    "Prilej mlieko a postupne prisypávaj múku, kakao, chia semienka, med, prášok do pečiva a škoricu.",
-    "Nakoniec vmiešaj horkú čokoládu rozpustenú vo vodnom kúpeli.",
-    "Hotové cesto lej po častiach do vafľovača.",
-    "Pečieme 3-4 minúty podľa typu vafľovača."
-  ],
-  "tipy": "Vafle môžeš na záver pokvapkať medom, výborné sú aj s čerstvým ovocím.",
-  "foto": "",
-  "tagy": ["raňajky", "vafle", "čokoláda", "kakao"]
+ "id": "brownies-vafle",
+ "nazov": "Brownies vafle",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 6,
+ "cas": "10 min",
+ "kcal_na_porciu": 218,
+ "popis": "Čokoládové vafle s kakaom a chia semienkami, ktoré chutia ako brownies.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójové mlieko",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žitná múka",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chia semienka",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Horká čokoláda (85 %)",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vajcia vyšľahaj v miske.",
+  "Prilej mlieko a postupne prisypávaj múku, kakao, chia semienka, med, prášok do pečiva a škoricu.",
+  "Nakoniec vmiešaj horkú čokoládu rozpustenú vo vodnom kúpeli.",
+  "Hotové cesto lej po častiach do vafľovača.",
+  "Peč 3-4 minúty podľa typu vafľovača."
+ ],
+ "tipy": "Vafle môžeš na záver pokvapkať medom, výborné sú aj s čerstvým ovocím.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "vafle",
+  "čokoláda",
+  "kakao"
+ ]
 }

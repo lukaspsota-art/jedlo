@@ -1,35 +1,95 @@
 {
-  "id": "batatove-chipsy-s-avokadovym-dipom",
-  "nazov": "Batátové chipsy s avokádovým dipom",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 4,
-  "cas": "55 min",
-  "kcal_na_porciu": 255,
-  "popis": "Pečené batátové chipsy s uzenou paprikou a avokádovým dipom.",
-  "ingrediencie": [
-    {"nazov": "Sladké zemiaky", "mnozstvo": 500, "jednotka": "g", "poznamka": "batáty, na chipsy"},
-    {"nazov": "Olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na chipsy"},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": "na chipsy"},
-    {"nazov": "Mletá uzená paprika", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na chipsy"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks", "poznamka": "na dip"},
-    {"nazov": "Jogurt", "mnozstvo": 200, "jednotka": "g", "poznamka": "3,5 % tuku, na dip"},
-    {"nazov": "Citrónová šťava", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na dip"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, na dip"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, na dip"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 180 °C.",
-    "Batáty očistite a nakrájajte na plátky hrubé 2-3 mm.",
-    "Zmiešajte s olejom, soľou, korením, prelisovaným cesnakom a uzenou paprikou.",
-    "Plátky rozložte na plech s papierom a pečte dochrumkava cca 30 minút pri 170-180 °C.",
-    "Medzitým rozmixujte avokádo, jogurt, citrónovú šťavu, soľ a korenie na dip.",
-    "Upečené chipsy podávajte s dipom."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["batáty", "chipsy", "avokádo", "snack"]
+ "id": "batatove-chipsy-s-avokadovym-dipom",
+ "nazov": "Batátové chipsy s avokádovým dipom",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 4,
+ "cas": "55 min",
+ "kcal_na_porciu": 255,
+ "popis": "Pečené batátové chipsy s uzenou paprikou a avokádovým dipom.",
+ "ingrediencie": [
+  {
+   "nazov": "Sladké zemiaky",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": "batáty, na chipsy"
+  },
+  {
+   "nazov": "Olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na chipsy"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": "na chipsy"
+  },
+  {
+   "nazov": "Mletá uzená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na chipsy"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na dip"
+  },
+  {
+   "nazov": "Jogurt",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "3,5 % tuku, na dip"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na dip"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti, na dip"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti, na dip"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "Batáty očisti a nakrájaj na plátky hrubé 2-3 mm.",
+  "Zmiešaj s olejom, soľou, korením, prelisovaným cesnakom a uzenou paprikou.",
+  "Plátky rozlož na plech s papierom a peč dochrumkava cca 30 minút pri 170-180 °C.",
+  "Medzitým rozmixuj avokádo, jogurt, citrónovú šťavu, soľ a korenie na dip.",
+  "Upečené chipsy podávaj s dipom."
+ ],
+ "tipy": "Avokádo pokvapkaj citrónovou šťavou — bez kyseliny zhnedne do pár minút.",
+ "foto": "",
+ "tagy": [
+  "batáty",
+  "chipsy",
+  "avokádo",
+  "snack"
+ ]
 }

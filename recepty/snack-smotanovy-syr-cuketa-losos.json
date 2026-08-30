@@ -1,23 +1,43 @@
 {
-  "id": "snack-smotanovy-syr-cuketa-losos",
-  "nazov": "Snack: smotanový syr s cuketou a lososom",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 287,
-  "popis": "Kolieska cukety so smotanovým syrom a uzeným lososom.",
-  "ingrediencie": [
-    {"nazov": "Smotanový syr", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Cuketa", "mnozstvo": null, "jednotka": "", "poznamka": "pár koliesok"},
-    {"nazov": "Uzený losos", "mnozstvo": 50, "jednotka": "g", "poznamka": ""}
-  ],
-  "postup": [
-    "Kolieska cukety potrieme smotanovým syrom.",
-    "Poukladáme na ne uzeného lososa a podávame."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["snack", "losos", "cuketa", "syr"]
+ "id": "snack-smotanovy-syr-cuketa-losos",
+ "nazov": "Snack: smotanový syr s cuketou a lososom",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 287,
+ "popis": "Kolieska cukety so smotanovým syrom a uzeným lososom.",
+ "ingrediencie": [
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "pár koliesok"
+  },
+  {
+   "nazov": "Uzený losos",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Kolieska cukety potri smotanovým syrom.",
+  "Poukladaj na ne uzeného lososa a podávaj."
+ ],
+ "tipy": "Rybu nesoľ dlho vopred a peč ju krátko. Hotová je, keď sa mäso dá vidličkou ľahko oddeliť.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "losos",
+  "cuketa",
+  "syr"
+ ]
 }

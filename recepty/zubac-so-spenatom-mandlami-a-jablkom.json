@@ -1,36 +1,105 @@
 {
-  "id": "zubac-so-spenatom-mandlami-a-jablkom",
-  "nazov": "Zubáč so špenátom, mandľami a jablkom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "24 min",
-  "kcal_na_porciu": 504,
-  "popis": "Opekané filety zo zubáča so šalátom zo špenátu, jablka a plátkových mandlí.",
-  "ingrediencie": [
-    {"nazov": "Filety zo zubáča", "mnozstvo": 4, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Kmín drvený", "mnozstvo": null, "jednotka": "štipka", "poznamka": ""},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Cherry paradajky", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Baby špenát", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mandle plátkové", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Jablko zelené menšie", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Olivový olej na dresing", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Balzamikový ocot", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Javorový sirup", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""}
-  ],
-  "postup": [
-    "Cherry paradajky rozdelíme na polovice, špenát nahrubo nasekáme, jablko nakrájame na tenké plátky.",
-    "Všetko zmiešame v miske, pridáme plátkové mandle a zalejeme dresingom z olivového oleja, balzamika a javorového sirupu.",
-    "Zubáča opláchneme, osušíme a potrieme kmínom, korením a soľou.",
-    "Na panvici rozohrejeme olivový olej s maslom, vložíme zubáča kožou nadol a opekáme na strednom ohni 4 minúty.",
-    "Filety otočíme, opekáme ďalších 5 minút a hneď odstavíme z platne."
-  ],
-  "tipy": "K zubáčovi so šalátom môžete podávať quinou, ryžu alebo bulgur ako prílohu.",
-  "foto": "",
-  "tagy": ["zubáč", "ryba", "šalát"]
+ "id": "zubac-so-spenatom-mandlami-a-jablkom",
+ "nazov": "Zubáč so špenátom, mandľami a jablkom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "24 min",
+ "kcal_na_porciu": 504,
+ "popis": "Opekané filety zo zubáča so šalátom zo špenátu, jablka a plátkových mandlí.",
+ "ingrediencie": [
+  {
+   "nazov": "Filety zo zubáča",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prepustené maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kmín drvený",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Cherry paradajky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Baby špenát",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandle plátkové",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablko zelené menšie",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej na dresing",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Balzamikový ocot",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cherry paradajky rozdeľ na polovice, špenát nahrubo nasekaj, jablko nakrájaj na tenké plátky.",
+  "Všetko zmiešaj v miske, pridaj plátkové mandle a zalej dresingom z olivového oleja, balzamika a javorového sirupu.",
+  "Zubáča opláchni, osuš a potri kmínom, korením a soľou.",
+  "Na panvici rozohrej olivový olej s maslom, vlož zubáča kožou nadol a opekaj na strednom ohni 4 minúty.",
+  "Filety otoč, opekaj ďalších 5 minút a hneď odstav z platne."
+ ],
+ "tipy": "K zubáčovi so šalátom môžete podávať quinou, ryžu alebo bulgur ako prílohu.",
+ "foto": "",
+ "tagy": [
+  "zubáč",
+  "ryba",
+  "šalát"
+ ]
 }

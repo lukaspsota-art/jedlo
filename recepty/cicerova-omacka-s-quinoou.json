@@ -1,33 +1,88 @@
 {
-  "id": "cicerova-omacka-s-quinoou",
-  "nazov": "Cícerová omáčka s quinoou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 420,
-  "popis": "Sýta paradajková omáčka s cícerom a pálivou paprikou podávaná s quinoou.",
-  "ingrediencie": [
-    {"nazov": "Quinoa", "mnozstvo": 250, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Jarná cibuľka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Paradajkový pretlak", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Mäsité paradajky", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Predvarený cícer", "mnozstvo": 400, "jednotka": "g", "poznamka": "z konzervy"},
-    {"nazov": "Pálivá paprika", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Quinou uvarte podľa návodu na obale.",
-    "Na olivovom oleji orestujte nadrobno nakrájanú cibuľku.",
-    "Pridajte pretlak, cesnak a paradajky, podlejte 100 ml vody a duste pod pokrievkou 5-10 minút.",
-    "Pridajte scedený cícer a pálivú papriku, varte ďalších 5 minút.",
-    "Dochutite soľou a korením a podávajte s quinoou."
-  ],
-  "tipy": "Do omáčky môžete pridať hrášok, kukuricu alebo inú zeleninu podľa chuti.",
-  "foto": "",
-  "tagy": ["cícer", "quinoa", "strukoviny", "hlavné jedlo"]
+ "id": "cicerova-omacka-s-quinoou",
+ "nazov": "Cícerová omáčka s quinoou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 420,
+ "popis": "Sýta paradajková omáčka s cícerom a pálivou paprikou podávaná s quinoou.",
+ "ingrediencie": [
+  {
+   "nazov": "Quinoa",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäsité paradajky",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Predvarený cícer",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "z konzervy"
+  },
+  {
+   "nazov": "Pálivá paprika",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Quinou uvar podľa návodu na obale.",
+  "Na olivovom oleji orestuj nadrobno nakrájanú cibuľku.",
+  "Pridaj pretlak, cesnak a paradajky, podlej 100 ml vody a dus pod pokrievkou 5-10 minút.",
+  "Pridaj scedený cícer a pálivú papriku, var ďalších 5 minút.",
+  "Dochuti soľou a korením a podávaj s quinoou."
+ ],
+ "tipy": "Do omáčky môžete pridať hrášok, kukuricu alebo inú zeleninu podľa chuti.",
+ "foto": "",
+ "tagy": [
+  "cícer",
+  "quinoa",
+  "strukoviny",
+  "hlavné jedlo"
+ ]
 }

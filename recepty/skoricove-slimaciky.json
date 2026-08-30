@@ -1,35 +1,85 @@
 {
-  "id": "skoricove-slimaciky",
-  "nazov": "Škoricové slimáčiky",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 10,
-  "cas": "40 min",
-  "kcal_na_porciu": 135,
-  "popis": "Kysnuté škoricové slimáčiky z celozrnnej múky s medovou náplňou.",
-  "ingrediencie": [
-    {"nazov": "Teplé mlieko", "mnozstvo": 150, "jednotka": "ml"},
-    {"nazov": "Kokosový olej", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Sušené droždie", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": "balíček"},
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 250, "jednotka": "g", "poznamka": "+ 50 g na posypanie vala"},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Med", "mnozstvo": 3, "jednotka": "PL", "poznamka": "do náplne"},
-    {"nazov": "Škorica", "mnozstvo": 1, "jednotka": "PL", "poznamka": "do náplne"},
-    {"nazov": "Kokosový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "do náplne"}
-  ],
-  "postup": [
-    "Do väčšej misy dajte mlieko, rozpustený kokosový olej, rozpustený med, štipku soli a droždie, odložte na 10 minút.",
-    "Premiešajte a prisypte múku s vanilkovým extraktom.",
-    "Na pomúčenom vále vypracujte cesto a vyváľajte do tvaru obdĺžnika.",
-    "Zmiešajte med, škoricu a rozpustený kokosový olej na náplň, rozotrite na cesto.",
-    "Cesto zrolujte, nakrájajte na kolieska a uložte do okrúhlej formy s papierom.",
-    "Prikryte utierkou a nechajte na teplom mieste kysnúť 1 hodinu.",
-    "Rúru predhrejte na 180 °C a pečte slimáčiky 15-20 minút pri 170-180 °C."
-  ],
-  "tipy": "Slimáčiky sú výborné aj s polevou z gréckeho jogurtu, smotanového syra, medu a sušeného mlieka.",
-  "foto": "",
-  "tagy": ["slimáčiky", "škorica", "dezert"]
+ "id": "skoricove-slimaciky",
+ "nazov": "Škoricové slimáčiky",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 10,
+ "cas": "40 min",
+ "kcal_na_porciu": 135,
+ "popis": "Kysnuté škoricové slimáčiky z celozrnnej múky s medovou náplňou.",
+ "ingrediencie": [
+  {
+   "nazov": "Teplé mlieko",
+   "mnozstvo": 150,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "balíček"
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "+ 50 g na posypanie vala"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "do náplne"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "do náplne"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "do náplne"
+  }
+ ],
+ "postup": [
+  "Do väčšej misy daj mlieko, rozpustený kokosový olej, rozpustený med, štipku soli a droždie, odlož na 10 minút.",
+  "Premiešaj a prisyp múku s vanilkovým extraktom.",
+  "Na pomúčenom vále vypracuj cesto a vyváľaj do tvaru obdĺžnika.",
+  "Zmiešaj med, škoricu a rozpustený kokosový olej na náplň, rozotri na cesto.",
+  "Cesto zroluj, nakrájaj na kolieska a ulož do okrúhlej formy s papierom.",
+  "Prikry utierkou a nechaj na teplom mieste kysnúť 1 hodinu.",
+  "Rúru predhrej na 180 °C a peč slimáčiky 15-20 minút pri 170-180 °C."
+ ],
+ "tipy": "Slimáčiky sú výborné aj s polevou z gréckeho jogurtu, smotanového syra, medu a sušeného mlieka.",
+ "foto": "",
+ "tagy": [
+  "slimáčiky",
+  "škorica",
+  "dezert"
+ ]
 }

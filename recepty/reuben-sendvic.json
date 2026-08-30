@@ -1,86 +1,86 @@
 {
-  "id": "reuben-sendvic",
-  "nazov": "Reuben sendvič",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Reuben Sandwich (CC BY-SA)",
-  "porcie": 1,
-  "cas": "20 min",
-  "kcal_na_porciu": 1097,
-  "popis": "Corned beef s ementálom, kyslou kapustou a ruským dresingom na ražnom chlebe, opečený na masle. Klasika newyorských delikatés.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzie corned beef",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "plátky, alebo pastrami"
-    },
-    {
-      "nazov": "Kyslá kapusta",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "odkvapkaná"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "nasekaná, sladká"
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 1.5,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kečup",
-      "mnozstvo": 0.5,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ražný chlieb",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Emental",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Petržlen",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": "nasekaný"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zmiešaj kyslú kapustu, cibuľu a petržlen.",
-    "Majonézu zmiešaj s kečupom na ruský dresing a natri ho na oba plátky chleba.",
-    "Na jeden plátok navrstvi corned beef, syr a zmes s kyslou kapustou.",
-    "Prikry druhým plátkom chleba.",
-    "Vonkajšie strany chleba potri maslom.",
-    "Opekaj, kým nie je zľahka zhnednutý, približne 5-10 minút."
-  ],
-  "tipy": "Zdroj uvádza 225 g corned beefu na jeden sendvič, tu je 150 g. Reuben má sestru - sendvič Rachel s pastrami alebo morčacím namiesto corned beefu a niekedy s coleslaw namiesto kyslej kapusty. Georgia Reuben je s morčacím a coleslaw. Reuben podávaný v židovskej delikatese by neobsahoval syr ani maslo, pretože stravovacie predpisy zakazujú mäso a mliečne v jednom jedle.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "večera",
-    "americká",
-    "hovädzie",
-    "grilovaný syr",
-    "klasika"
-  ]
+ "id": "reuben-sendvic",
+ "nazov": "Reuben sendvič",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Reuben Sandwich (CC BY-SA)",
+ "porcie": 1,
+ "cas": "20 min",
+ "kcal_na_porciu": 1097,
+ "popis": "Corned beef s ementálom, kyslou kapustou a ruským dresingom na ražnom chlebe, opečený na masle. Klasika newyorských delikatés.",
+ "ingrediencie": [
+  {
+   "nazov": "Hovädzie corned beef",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "plátky, alebo pastrami"
+  },
+  {
+   "nazov": "Kyslá kapusta",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "odkvapkaná"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "nasekaná, sladká"
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kečup",
+   "mnozstvo": 0.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ražný chlieb",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Emental",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "nasekaný"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zmiešaj kyslú kapustu, cibuľu a petržlen.",
+  "Majonézu zmiešaj s kečupom na ruský dresing a natri ho na oba plátky chleba.",
+  "Na jeden plátok navrstvi corned beef, syr a zmes s kyslou kapustou.",
+  "Prikry druhým plátkom chleba.",
+  "Vonkajšie strany chleba potri maslom.",
+  "Opekaj, kým nie je zľahka zhnednutý, približne 5-10 minút."
+ ],
+ "tipy": "Zdroj uvádza 225 g corned beefu na jeden sendvič, tu je 150 g. Reuben má sestru - sendvič Rachel s pastrami alebo morčacím namiesto corned beefu a niekedy s coleslaw namiesto kyslej kapusty. Georgia Reuben je s morčacím a coleslaw. Reuben podávaný v židovskej delikatese by neobsahoval syr ani maslo, pretože stravovacie predpisy zakazujú mäso a mliečne v jednom jedle.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "večera",
+  "americká",
+  "hovädzie",
+  "grilovaný syr",
+  "klasika"
+ ]
 }

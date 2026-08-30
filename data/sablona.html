@@ -110,6 +110,24 @@
   body.dark .badge.alerg{background:#3a2320;color:#f0a89e;border-color:#5a332d}
   .badge.price{background:#fff6e6;color:#8a6100;border-color:#f0e0be}
   .empty{padding:50px 20px;text-align:center;color:var(--muted)}
+  /* A8 (klávesnica) + A9 (postupné dopĺňanie mriežky). Komponenty patria PRED @media — pozri CLAUDE.md. */
+  .card-open{display:block;cursor:pointer}
+  .card-open:focus-visible{outline:3px solid var(--accent);outline-offset:-3px;border-radius:12px}
+  .grid-viac{display:block;width:100%;margin:16px 0 0;min-height:44px}
+  .lnk{background:none;border:0;padding:0;font:inherit;color:var(--accent);text-decoration:underline;cursor:pointer}
+  .sub .lnk{display:inline-flex;align-items:center;min-height:24px}
+  /* bunka plánu je teraz zo skutočných <button>; .pc-btn im zoberie vzhľad tlačidla, štýl nesú .nm/.kc/.rm */
+  .pc-btn{background:none;border:0;margin:0;padding:0;font:inherit;color:inherit;cursor:pointer;text-align:left}
+  .pc-btn:focus-visible{outline:2px solid var(--accent);outline-offset:1px;border-radius:4px}
+  .pc-odkaz{text-decoration:underline}
+  .pc-x{color:var(--warn);align-self:flex-start;min-width:24px;text-align:center}
+  .pc-empty{width:100%}
+  /* WCAG 2.5.8: hustá mriežka plánu nemusí mať 44 px, ale nikdy nesmie klesnúť pod 24 px —
+     na mobile to platilo od v20, na počítači boli tie isté prvky 16–20 px (P2 z auditu 19. 8.). */
+  .plan-cell .rm{min-height:24px;display:inline-flex;align-items:center}
+  .plan-cell .nm,.plan-cell .kc{padding:4px 0;min-height:24px}
+  .plan-cell a,.plan-cell .pc-x{min-width:24px;min-height:24px;display:inline-flex;align-items:center;justify-content:center}
+  .plan-varenia{min-height:24px;display:inline-flex;align-items:center}
   /* modal */
   .overlay{position:fixed;inset:0;background:rgba(20,20,20,.55);display:none;align-items:flex-start;justify-content:center;padding:30px 16px;z-index:60;overflow-y:auto}
   .overlay.open{display:flex}
@@ -206,12 +224,12 @@
   body.dark .plan-cell.vyp{background:repeating-linear-gradient(45deg,transparent,transparent 6px,rgba(255,255,255,.04) 6px,rgba(255,255,255,.04) 12px)}
   .ctrl-row td.ctrl{padding:4px;text-align:center;vertical-align:top}
   .ctrl-row .ppl{display:flex;gap:4px;align-items:center;justify-content:center;margin-bottom:4px}
-  .ctrl-row .ppl button{width:22px;height:22px;border:1px solid var(--line);background:var(--card);border-radius:6px;cursor:pointer;font-size:14px;line-height:1;color:inherit}
+  .ctrl-row .ppl button{width:24px;height:24px;border:1px solid var(--line);background:var(--card);border-radius:6px;cursor:pointer;font-size:14px;line-height:1;color:inherit}
   .ctrl-row .pplnum{font-size:12px;min-width:36px}
   .ctrl-row .pplnum.cust{font-weight:700;color:var(--accent-txt)}
   .ctrl-row .mchips{display:flex;gap:3px;justify-content:center;flex-wrap:wrap}
-  .hranica{display:inline-flex;align-items:center;justify-content:center;min-width:30px;min-height:38px;cursor:pointer;font-size:18px;user-select:none}
-  .mchip{width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;border-radius:6px;cursor:pointer;font-size:13px;background:var(--line);opacity:.35;filter:grayscale(1);user-select:none}
+  .hranica{display:inline-flex;align-items:center;justify-content:center;min-width:30px;min-height:38px;cursor:pointer;font-size:18px;user-select:none;border:0;background:none;padding:0;font-family:inherit}
+  .mchip{width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;border-radius:6px;cursor:pointer;font-size:13px;background:var(--line);opacity:.35;filter:grayscale(1);user-select:none;border:0;padding:0;color:inherit;font-family:inherit}
   .mchip.on{opacity:1;filter:none;background:#e8f1eb}
   body.dark .mchip.on{background:var(--accent-dark)}
   tr.suma td{background:#eef3ef;font-weight:600;font-size:13px;text-align:center}
@@ -352,13 +370,13 @@
     .plan-cell .rm{min-height:24px;display:inline-flex;align-items:center}
     /* názov jedla (16 px), riadok kcal (17 px) a ✕ (11×20) boli tiež pod 24 px */
     .plan-cell .nm,.plan-cell .kc{padding:5px 0}  /* 4px dá presne 23,6 px — pod hranicou */
-    .plan-cell a{min-width:24px;min-height:24px;display:inline-flex;align-items:center;justify-content:center}
+    .plan-cell a,.plan-cell .pc-x{min-width:24px;min-height:24px;display:inline-flex;align-items:center;justify-content:center}
     .hranica{min-height:44px}
     /* U1: dotykové ciele — 38 px tlačidlo sa prstom míňa */
     .btn{min-height:44px;padding:11px 16px}
     .chip,.kol-tile,button.mini{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
     details > summary,details.panel > summary{min-height:44px}
-    .sub a{display:inline-flex;align-items:center;min-height:44px}
+    .sub a,.sub .lnk{display:inline-flex;align-items:center;min-height:44px}
     .botnav a{min-height:52px;display:flex;flex-direction:column;justify-content:center}
     .akcie .btn.primary{min-width:0}
     .ctrl-row .ppl button{flex:0 0 auto}
@@ -567,7 +585,7 @@
 
     <div class="view" id="v-recepty">
       <h2 class="h">Recepty</h2>
-      <p class="sub"><span id="pocet">__POCET__</span> receptov v kuchárke · <a onclick="novyRecept()" style="cursor:pointer;color:var(--accent);text-decoration:underline">+ Nový recept</a></p>
+      <p class="sub"><span id="pocet">__POCET__</span> receptov v kuchárke · <button class="lnk" onclick="novyRecept()">+ Nový recept</button></p>
       <datalist id="jedn-dl"><option value="g"></option><option value="ml"></option><option value="ks"></option><option value="ČL"></option><option value="PL"></option><option value="strúčik"></option><option value="štipka"></option><option value="hrsť"></option><option value="plátok"></option></datalist>
       <div class="controls" id="rec-controls">
         <input id="hladaj" type="search" placeholder="Hľadať recept alebo surovinu…">
@@ -582,6 +600,7 @@
       <div id="kolekcie" class="kolekcie"></div>
       <div class="chips" id="chips"></div>
       <div class="grid" id="grid"></div>
+      <button class="btn grid-viac" id="grid-viac" style="display:none" onclick="gridViac()">Načítať ďalšie</button>
       <div class="empty" id="empty" style="display:none">Nič sa nenašlo.</div>
     </div>
 

@@ -1,38 +1,105 @@
 {
-  "id": "salat-s-avokadom",
-  "nazov": "Šalát s avokádom",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "60 min",
-  "kcal_na_porciu": 494,
-  "popis": "Šalát z pečenej zeleniny a listov little gem s avokádovým dresingom.",
-  "ingrediencie": [
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Červená paprika", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Šampiňóny", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Baklažán", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Cuketa", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Oregano", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Salát little gem", "mnozstvo": 400, "jednotka": "g"},
-    {"nazov": "Sezamové semienka", "mnozstvo": 20, "jednotka": "g"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Avokádo", "mnozstvo": 2, "jednotka": "ks", "poznamka": "na omáčku"},
-    {"nazov": "Citrón", "mnozstvo": 1, "jednotka": "ks", "poznamka": "šťava z 1 citróna, na omáčku"},
-    {"nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL", "poznamka": "na omáčku"},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": "na omáčku"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 190 °C.",
-    "Papriku, šampiňóny, baklažán a cuketu nakrájajte na kocky a zmiešajte s olivovým olejom, soľou a oreganom.",
-    "Zeleninu rozložte na plech s papierom na pečenie a pečte 40 minút pri 180–190 °C.",
-    "Rozmixujte dužinu avokáda, citrónovú šťavu, olivový olej a cesnak na dresing.",
-    "Na taniere rozložte listy little gem a upečenú zeleninu.",
-    "Prelejte avokádovým dresingom a posypte sezamovými semienkami."
-  ],
-  "tipy": "Namiesto uvedenej zeleniny môžete použiť napríklad mrkvu alebo petržlen.",
-  "foto": "",
-  "tagy": ["šalát", "avokádo", "pečená zelenina", "vegetariánske"]
+ "id": "salat-s-avokadom",
+ "nazov": "Šalát s avokádom",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "60 min",
+ "kcal_na_porciu": 494,
+ "popis": "Šalát z pečenej zeleniny a listov little gem s avokádovým dresingom.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Salát little gem",
+   "mnozstvo": 400,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Sezamové semienka",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "šťava z 1 citróna, na omáčku"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "na omáčku"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 190 °C.",
+  "Papriku, šampiňóny, baklažán a cuketu nakrájaj na kocky a zmiešaj s olivovým olejom, soľou a oreganom.",
+  "Zeleninu rozlož na plech s papierom na pečenie a peč 40 minút pri 180–190 °C.",
+  "Rozmixuj dužinu avokáda, citrónovú šťavu, olivový olej a cesnak na dresing.",
+  "Na taniere rozlož listy little gem a upečenú zeleninu.",
+  "Prelej avokádovým dresingom a posyp sezamovými semienkami."
+ ],
+ "tipy": "Namiesto uvedenej zeleniny môžete použiť napríklad mrkvu alebo petržlen.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "avokádo",
+  "pečená zelenina",
+  "vegetariánske"
+ ]
 }

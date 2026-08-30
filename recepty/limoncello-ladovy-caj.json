@@ -1,55 +1,55 @@
 {
-  "id": "limoncello-ladovy-caj",
-  "nazov": "Limoncello ľadový čaj",
-  "kategoria": "Kokteil",
-  "kuchyna": "Talianska",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 90,
-  "popis": "Svieži citrusový ľadový čaj s limoncellom.",
-  "ingrediencie": [
-    {
-      "nazov": "Limoncello",
-      "mnozstvo": 30,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Ľadový čaj",
-      "mnozstvo": 60,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Citrónová šťava",
-      "mnozstvo": 10,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "plátky na ozdobu"
-    },
-    {
-      "nazov": "Mäta",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "na ozdobu"
-    }
-  ],
-  "postup": [
-    "Do pohára s ľadom nalej limoncello, ľadový čaj a citrónovú šťavu, premiešaj a ozdob citrónom a mätou."
-  ],
-  "tipy": "Použi nesladený ľadový čaj pre vyváženú chuť.",
-  "foto": "",
-  "tagy": [
-    "drink",
-    "limoncello",
-    "svieže"
-  ]
+ "id": "limoncello-ladovy-caj",
+ "nazov": "Limoncello ľadový čaj",
+ "kategoria": "Kokteil",
+ "kuchyna": "Talianska",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 90,
+ "popis": "Svieži citrusový ľadový čaj s limoncellom.",
+ "ingrediencie": [
+  {
+   "nazov": "Limoncello",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Ľadový čaj",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 10,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "plátky na ozdobu"
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "na ozdobu"
+  }
+ ],
+ "postup": [
+  "Do pohára s ľadom nalej limoncello, ľadový čaj a citrónovú šťavu, premiešaj a ozdob citrónom a mätou."
+ ],
+ "tipy": "Použi nesladený ľadový čaj pre vyváženú chuť.",
+ "foto": "",
+ "tagy": [
+  "drink",
+  "limoncello",
+  "svieže"
+ ]
 }

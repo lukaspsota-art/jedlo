@@ -1,96 +1,96 @@
 {
-  "id": "pita-s-quornom",
-  "nazov": "Pita s quornom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Anglická",
-  "zdroj": "Wikibooks Cookbook – Quorn Pitta (CC BY-SA)",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 403,
-  "popis": "Vegetariánska pita s quornom v korenistej paradajkovej paste. Celé sa robí v mikrovlnke.",
-  "ingrediencie": [
-    {
-      "nazov": "Chilli vločky",
-      "mnozstvo": 1.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Paradajkový pretlak",
-      "mnozstvo": 240,
-      "jednotka": "g",
-      "poznamka": "dvojkoncentrát"
-    },
-    {
-      "nazov": "Šalotka",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "nasekaná najemno"
-    },
-    {
-      "nazov": "Cesnakový prášok",
-      "mnozstvo": 0.25,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 4,
-      "jednotka": "PL",
-      "poznamka": "biely"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Oregano",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": "sušené"
-    },
-    {
-      "nazov": "Kmín",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "mletý"
-    },
-    {
-      "nazov": "Kardamóm",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "mletý čierny"
-    },
-    {
-      "nazov": "Pita",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Quorn",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zmiešaj všetky zložky omáčky a rozmiešaj ju do úplnej hladkosti.",
-    "Omáčku daj na 2 minúty do mikrovlnky. Premiešaj, skontroluj, či nevyschla, a ak áno, prilej trochu octu. Daj na ďalšie 2 minúty a odlož.",
-    "Quorn daj na 1-2 minúty do mikrovlnky. Zmiešaj s omáčkou a rozmiešaj do hladka - celé má vyzerať skôr ako pasta než ako mäso. Daj ešte na 2 minúty do mikrovlnky.",
-    "Pitu priprav podľa obalu alebo použi tak, ako je. Quornovú zmes vlož do pity.",
-    "Podávaj."
-  ],
-  "tipy": "Quorn sa dá nahradiť tofu alebo drobno nasekanými šampiňónmi. Dvojkoncentrovaný pretlak je dôležitý - obyčajný by zmes príliš rozriedil.",
-  "foto": "",
-  "tagy": [
-    "obed",
-    "večera",
-    "anglická",
-    "vegetariánske",
-    "pita",
-    "rýchle"
-  ]
+ "id": "pita-s-quornom",
+ "nazov": "Pita s quornom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Anglická",
+ "zdroj": "Wikibooks Cookbook – Quorn Pitta (CC BY-SA)",
+ "porcie": 2,
+ "cas": "15 min",
+ "kcal_na_porciu": 403,
+ "popis": "Vegetariánska pita s quornom v korenistej paradajkovej paste. Celé sa robí v mikrovlnke.",
+ "ingrediencie": [
+  {
+   "nazov": "Chilli vločky",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": "dvojkoncentrát"
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "nasekaná najemno"
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": "biely"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "sušené"
+  },
+  {
+   "nazov": "Kmín",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mletý"
+  },
+  {
+   "nazov": "Kardamóm",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mletý čierny"
+  },
+  {
+   "nazov": "Pita",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Quorn",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zmiešaj všetky zložky omáčky a rozmiešaj ju do úplnej hladkosti.",
+  "Omáčku daj na 2 minúty do mikrovlnky. Premiešaj, skontroluj, či nevyschla, a ak áno, prilej trochu octu. Daj na ďalšie 2 minúty a odlož.",
+  "Quorn daj na 1-2 minúty do mikrovlnky. Zmiešaj s omáčkou a rozmiešaj do hladka - celé má vyzerať skôr ako pasta než ako mäso. Daj ešte na 2 minúty do mikrovlnky.",
+  "Pitu priprav podľa obalu alebo použi tak, ako je. Quornovú zmes vlož do pity.",
+  "Podávaj."
+ ],
+ "tipy": "Quorn sa dá nahradiť tofu alebo drobno nasekanými šampiňónmi. Dvojkoncentrovaný pretlak je dôležitý - obyčajný by zmes príliš rozriedil.",
+ "foto": "",
+ "tagy": [
+  "obed",
+  "večera",
+  "anglická",
+  "vegetariánske",
+  "pita",
+  "rýchle"
+ ]
 }

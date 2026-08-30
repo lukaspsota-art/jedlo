@@ -1,33 +1,75 @@
 {
-  "id": "cuketova-tortilla-ricotta",
-  "nazov": "Cuketová tortilla s ricottou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Talianska",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 8,
-  "cas": "45 min",
-  "kcal_na_porciu": 133,
-  "popis": "Zapekaná cuketová torta s ricottou, cottage syrom a vajcami.",
-  "ingrediencie": [
-    { "nazov": "Cuketa", "mnozstvo": 400, "jednotka": "g" },
-    { "nazov": "Ricotta", "mnozstvo": 350, "jednotka": "g" },
-    { "nazov": "Cottage syr", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks" },
-    { "nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik" },
-    { "nazov": "Hrubozrnná horčica", "mnozstvo": 1, "jednotka": "PL" },
-    { "nazov": "Vajcia", "mnozstvo": 3, "jednotka": "ks" },
-    { "nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL" },
-    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" }
-  ],
-  "postup": [
-    "Rúru predhrej na 180 °C.",
-    "200 g cukety nastrúhaj najemno, osoľ a necháj vypustiť vodu, potom vyžmýkaj.",
-    "Cuketu zmiešaj s ricottou, cottage syrom, najemno nakrájanou cibuľou, prelisovaným cesnakom, soľou, horčicou a vajcami.",
-    "Cesto nalej do koláčovej formy vymastenej olivovým olejom.",
-    "Zvyšných 200 g cukety nakrájaj na kolieska a rovnomerne rozlož navrch.",
-    "Pečieme pri 170–180 °C približne 30 minút."
-  ],
-  "tipy": "Podľa chuti pridaj sušené paradajky alebo olivy.",
-  "foto": "",
-  "tagy": ["hlavné jedlo", "cuketa", "ricotta", "zapekané"]
+ "id": "cuketova-tortilla-ricotta",
+ "nazov": "Cuketová tortilla s ricottou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Talianska",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 8,
+ "cas": "45 min",
+ "kcal_na_porciu": 133,
+ "popis": "Zapekaná cuketová torta s ricottou, cottage syrom a vajcami.",
+ "ingrediencie": [
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 400,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Ricotta",
+   "mnozstvo": 350,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Cottage syr",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Hrubozrnná horčica",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "200 g cukety nastrúhaj najemno, osoľ a necháj vypustiť vodu, potom vyžmýkaj.",
+  "Cuketu zmiešaj s ricottou, cottage syrom, najemno nakrájanou cibuľou, prelisovaným cesnakom, soľou, horčicou a vajcami.",
+  "Cesto nalej do koláčovej formy vymastenej olivovým olejom.",
+  "Zvyšných 200 g cukety nakrájaj na kolieska a rovnomerne rozlož navrch.",
+  "Peč pri 170–180 °C približne 30 minút."
+ ],
+ "tipy": "Podľa chuti pridaj sušené paradajky alebo olivy.",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "cuketa",
+  "ricotta",
+  "zapekané"
+ ]
 }

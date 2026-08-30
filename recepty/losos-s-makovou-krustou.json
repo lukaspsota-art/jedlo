@@ -1,32 +1,76 @@
 {
-  "id": "losos-s-makovou-krustou",
-  "nazov": "Losos s makovou krustou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "40 min",
-  "kcal_na_porciu": 571,
-  "popis": "Pečený losos s makovou krustou, podávaný s kuskusovým šalátom a granátovým jablkom.",
-  "ingrediencie": [
-    {"nazov": "Steaky z lososa", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Mak", "mnozstvo": 3, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Celozrnný kuskus", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Granátové jablko (zrnká)", "mnozstvo": null, "jednotka": "", "poznamka": "z 0.5 ks"},
-    {"nazov": "Baby špenát", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Valeriánka", "mnozstvo": 50, "jednotka": "g", "poznamka": ""}
-  ],
-  "postup": [
-    "Rúru predhrejeme na 170 °C.",
-    "Oba plátky lososa (zo strany bez kože) bohato natrieme makom.",
-    "Položíme na plech s papierom na pečenie kožou nadol a pečieme 20-25 minút pri 160-170 °C.",
-    "Kuskus zalejeme horúcou vodou (asi 1,5 cm nad okraj) so štipkou soli a necháme vsiaknuť.",
-    "Do kuskusu zamiešame olivový olej a premiešame so špenátom, valeriánkou a granátovým jablkom.",
-    "Upečeného lososa vyberieme, osolíme a podávame s polovicou pripraveného šalátu na porciu."
-  ],
-  "tipy": "Lososa môžete pred podávaním pokvapkať limetkovou šťavou.",
-  "foto": "",
-  "tagy": ["losos", "mak", "kuskus"]
+ "id": "losos-s-makovou-krustou",
+ "nazov": "Losos s makovou krustou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "40 min",
+ "kcal_na_porciu": 571,
+ "popis": "Pečený losos s makovou krustou, podávaný s kuskusovým šalátom a granátovým jablkom.",
+ "ingrediencie": [
+  {
+   "nazov": "Steaky z lososa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mak",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Celozrnný kuskus",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Granátové jablko (zrnká)",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "z 0.5 ks"
+  },
+  {
+   "nazov": "Baby špenát",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Valeriánka",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 170 °C.",
+  "Oba plátky lososa (zo strany bez kože) bohato natri makom.",
+  "Polož na plech s papierom na pečenie kožou nadol a peč 20-25 minút pri 160-170 °C.",
+  "Kuskus zalej horúcou vodou (asi 1,5 cm nad okraj) so štipkou soli a nechaj vsiaknuť.",
+  "Do kuskusu zamiešaj olivový olej a premiešaj so špenátom, valeriánkou a granátovým jablkom.",
+  "Upečeného lososa vyber, osoľ a podávaj s polovicou pripraveného šalátu na porciu."
+ ],
+ "tipy": "Lososa môžete pred podávaním pokvapkať limetkovou šťavou.",
+ "foto": "",
+ "tagy": [
+  "losos",
+  "mak",
+  "kuskus"
+ ]
 }

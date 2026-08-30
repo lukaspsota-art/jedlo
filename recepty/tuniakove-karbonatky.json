@@ -1,33 +1,83 @@
 {
-  "id": "tuniakove-karbonatky",
-  "nazov": "Tuniakové karbonátky",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 5,
-  "cas": "35 min",
-  "kcal_na_porciu": 230,
-  "popis": "Pečené karbonátky z tuniaka, pohánky a tofu s mrkvou a ľanovým semienkom.",
-  "ingrediencie": [
-    {"nazov": "Pohánka lámanka", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Tuniak vo vlastnej šťave", "mnozstvo": 160, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mrkva", "mnozstvo": 1, "jednotka": "ks", "poznamka": "nastrúhaná"},
-    {"nazov": "Vajce", "mnozstvo": 3, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Údené tofu", "mnozstvo": 200, "jednotka": "g", "poznamka": "nastrúhané"},
-    {"nazov": "Dijonská horčica", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Ľanové semienko", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 180 °C.",
-    "Pohánku uvarte podľa návodu na obale.",
-    "Uvarenú pohánku zmiešajte s tuniakom, nastrúhanou mrkvou, vajcami, tofu, horčicou a ľanovým semienkom.",
-    "Dochutite soľou a korením.",
-    "Z hmoty tvarujte placky a poukladajte na plech s papierom na pečenie.",
-    "Pečte 25 minút pri 170-180 °C."
-  ],
-  "tipy": "Pohánku môžete nahradiť ryžou, ktorá vám zostala z predošlých dní.",
-  "foto": "",
-  "tagy": ["tuniak", "karbonátky", "pohánka", "hlavné jedlo"]
+ "id": "tuniakove-karbonatky",
+ "nazov": "Tuniakové karbonátky",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 5,
+ "cas": "35 min",
+ "kcal_na_porciu": 230,
+ "popis": "Pečené karbonátky z tuniaka, pohánky a tofu s mrkvou a ľanovým semienkom.",
+ "ingrediencie": [
+  {
+   "nazov": "Pohánka lámanka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tuniak vo vlastnej šťave",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nastrúhaná"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Údené tofu",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "nastrúhané"
+  },
+  {
+   "nazov": "Dijonská horčica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľanové semienko",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "Pohánku uvar podľa návodu na obale.",
+  "Uvarenú pohánku zmiešaj s tuniakom, nastrúhanou mrkvou, vajcami, tofu, horčicou a ľanovým semienkom.",
+  "Dochuti soľou a korením.",
+  "Z hmoty tvaruj placky a poukladaj na plech s papierom na pečenie.",
+  "Peč 25 minút pri 170-180 °C."
+ ],
+ "tipy": "Pohánku môžete nahradiť ryžou, ktorá vám zostala z predošlých dní.",
+ "foto": "",
+ "tagy": [
+  "tuniak",
+  "karbonátky",
+  "pohánka",
+  "hlavné jedlo"
+ ]
 }

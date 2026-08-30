@@ -1,36 +1,95 @@
 {
-  "id": "pstruh-s-chilli-a-limetkou-s-teplym-bulgurovym-salatom",
-  "nazov": "Pstruh s chilli a limetkou s teplým bulgurovým šalátom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "25 min",
-  "kcal_na_porciu": 594,
-  "popis": "Opekaný pstruh s limetkovo-chilli marinádou, podávaný s teplým bulgurovým šalátom s brusnicami.",
-  "ingrediencie": [
-    {"nazov": "Filé z pstruha", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Limetková šťava", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Limetková kôra", "mnozstvo": null, "jednotka": "", "poznamka": "z 1 limety"},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Chilli mleté", "mnozstvo": 0.25, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Bulgur", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Sušené brusnice", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mäta čerstvá", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""}
-  ],
-  "postup": [
-    "Rúru predhrejeme na 150 °C a uvaríme bulgur podľa návodu na obale.",
-    "Filety opláchneme, osušíme a osolíme z oboch strán.",
-    "V miske zmiešame limetkovú šťavu, limetkovú kôru, roztlačený cesnak, olivový olej, chilli a korenie.",
-    "Na panvici rozohrejeme 1 PL olivového oleja, položíme pstruha kožou nadol a opekáme 3-4 minúty.",
-    "Pstruha otočíme, polejeme limetkovou marinádou a opekáme ďalšie 2 minúty.",
-    "Panvicu presunieme do rúry a dopečieme pri 140-150 °C 4-5 minút.",
-    "Uvarený bulgur zmiešame s brusnicami a mätou a podávame spolu s pstruhom."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["pstruh", "bulgur", "ryba"]
+ "id": "pstruh-s-chilli-a-limetkou-s-teplym-bulgurovym-salatom",
+ "nazov": "Pstruh s chilli a limetkou s teplým bulgurovým šalátom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "25 min",
+ "kcal_na_porciu": 594,
+ "popis": "Opekaný pstruh s limetkovo-chilli marinádou, podávaný s teplým bulgurovým šalátom s brusnicami.",
+ "ingrediencie": [
+  {
+   "nazov": "Filé z pstruha",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková kôra",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "z 1 limety"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli mleté",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bulgur",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené brusnice",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mäta čerstvá",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 150 °C a uvar bulgur podľa návodu na obale.",
+  "Filety opláchni, osuš a osoľ z oboch strán.",
+  "V miske zmiešaj limetkovú šťavu, limetkovú kôru, roztlačený cesnak, olivový olej, chilli a korenie.",
+  "Na panvici rozohrej 1 PL olivového oleja, polož pstruha kožou nadol a opekaj 3-4 minúty.",
+  "Pstruha otoč, polej limetkovou marinádou a opekaj ďalšie 2 minúty.",
+  "Panvicu presuň do rúry a dopeč pri 140-150 °C 4-5 minút.",
+  "Uvarený bulgur zmiešaj s brusnicami a mätou a podávaj spolu s pstruhom."
+ ],
+ "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
+ "foto": "",
+ "tagy": [
+  "pstruh",
+  "bulgur",
+  "ryba"
+ ]
 }

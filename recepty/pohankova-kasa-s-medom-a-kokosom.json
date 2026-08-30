@@ -1,30 +1,70 @@
 {
-  "id": "pohankova-kasa-s-medom-a-kokosom",
-  "nazov": "Pohanková kaša s medom a kokosom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "20 min",
-  "kcal_na_porciu": 616,
-  "popis": "Krémová pohanková kaša na mandľovom mlieku s medom, kokosom a pekanovými orechmi.",
-  "ingrediencie": [
-    {"nazov": "Pohanka lámaná", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mandľové mlieko", "mnozstvo": 300, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Kokos strúhaný", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Med", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Pekanové orechy sekané", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Figy", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""}
-  ],
-  "postup": [
-    "Mlieko privedieme k varu a vsypeme pohanku.",
-    "Za stáleho miešania varíme 10 minút, potom odstavíme z platne.",
-    "Prikryjeme pokrievkou a necháme 5 minút postáť.",
-    "Zamiešame vanilkový extrakt a strúhaný kokos.",
-    "Kašu rozdelíme do dvoch misiek, ozdobíme plátkami fíg, polejeme medom a posypeme pekanovými orechmi."
-  ],
-  "tipy": "Do kaše môžete pridať skoricu, arašidové maslo alebo sušené a čerstvé ovocie.",
-  "foto": "",
-  "tagy": ["pohanka", "raňajky", "med", "kaša"]
+ "id": "pohankova-kasa-s-medom-a-kokosom",
+ "nazov": "Pohanková kaša s medom a kokosom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "20 min",
+ "kcal_na_porciu": 616,
+ "popis": "Krémová pohanková kaša na mandľovom mlieku s medom, kokosom a pekanovými orechmi.",
+ "ingrediencie": [
+  {
+   "nazov": "Pohanka lámaná",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľové mlieko",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokos strúhaný",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pekanové orechy sekané",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Figy",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Mlieko priveď k varu a vsyp pohanku.",
+  "Za stáleho miešania var 10 minút, potom odstav z platne.",
+  "Prikryj pokrievkou a nechaj 5 minút postáť.",
+  "Zamiešaj vanilkový extrakt a strúhaný kokos.",
+  "Kašu rozdeľ do dvoch misiek, ozdob plátkami fíg, polej medom a posyp pekanovými orechmi."
+ ],
+ "tipy": "Do kaše môžete pridať skoricu, arašidové maslo alebo sušené a čerstvé ovocie.",
+ "foto": "",
+ "tagy": [
+  "pohanka",
+  "raňajky",
+  "med",
+  "kaša"
+ ]
 }

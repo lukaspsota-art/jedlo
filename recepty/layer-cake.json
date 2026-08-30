@@ -1,38 +1,99 @@
 {
-  "id": "layer-cake",
-  "nazov": "Layer cake",
-  "kategoria": "Dezert",
-  "kuchyna": "Americká",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 12,
-  "cas": "55 min",
-  "kcal_na_porciu": 206,
-  "popis": "Viacvrstvová torta z kakaového korpusu plnená ricottovým krémom a malinami.",
-  "ingrediencie": [
-    {"nazov": "Pohánková múka", "mnozstvo": 200, "jednotka": "g"},
-    {"nazov": "Jablčné pyré", "mnozstvo": 140, "jednotka": "g"},
-    {"nazov": "Kokosový olej rozpustený", "mnozstvo": 30, "jednotka": "g"},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks"},
-    {"nazov": "Holandské kakao", "mnozstvo": 2, "jednotka": "PL"},
-    {"nazov": "Mlieko", "mnozstvo": 120, "jednotka": "ml"},
-    {"nazov": "Med", "mnozstvo": 40, "jednotka": "g"},
-    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 2, "jednotka": "ČL"},
-    {"nazov": "Jedlá sóda", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Ricotta", "mnozstvo": 500, "jednotka": "g", "poznamka": "na náplň"},
-    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na náplň"},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na náplň"},
-    {"nazov": "Maliny čerstvé", "mnozstvo": 100, "jednotka": "g", "poznamka": "na ozdobenie"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 170 °C.",
-    "Zmiešajte múku, jablčné pyré, kokosový olej, vajcia, kakao, mlieko, med, kypriaci prášok a sódu.",
-    "Cesto nalejte do formy (Ø 20 cm) vyloženej papierom na pečenie a pečte pri 160–170 °C asi 30 minút.",
-    "Korpus necháte vychladnúť.",
-    "Elektrickým šľahačom vyšľahajte ricottu s medom a vanilkovým extraktom.",
-    "Korpus dvakrát pozdĺžne rozrežte na tri diely.",
-    "Každý diel natrite náplňou a poukladajte na seba, vrch ozdobte malinami."
-  ],
-  "tipy": "Layer cake môžete vyzdobiť čerstvými jahodami.",
-  "foto": "",
-  "tagy": ["dezert", "torta", "ricotta", "maliny"]
+ "id": "layer-cake",
+ "nazov": "Layer cake",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 12,
+ "cas": "55 min",
+ "kcal_na_porciu": 206,
+ "popis": "Viacvrstvová torta z kakaového korpusu plnená ricottovým krémom a malinami.",
+ "ingrediencie": [
+  {
+   "nazov": "Pohánková múka",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Jablčné pyré",
+   "mnozstvo": 140,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kokosový olej rozpustený",
+   "mnozstvo": 30,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 120,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 40,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kypriaci prášok bez fosfátov",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Jedlá sóda",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Ricotta",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": "na náplň"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na náplň"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na náplň"
+  },
+  {
+   "nazov": "Maliny čerstvé",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "na ozdobenie"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 170 °C.",
+  "Zmiešaj múku, jablčné pyré, kokosový olej, vajcia, kakao, mlieko, med, kypriaci prášok a sódu.",
+  "Cesto nalej do formy (Ø 20 cm) vyloženej papierom na pečenie a peč pri 160–170 °C asi 30 minút.",
+  "Korpus nechaj vychladnúť.",
+  "Elektrickým šľahačom vyšľahaj ricottu s medom a vanilkovým extraktom.",
+  "Korpus dvakrát pozdĺžne rozrež na tri diely.",
+  "Každý diel natri náplňou a poukladaj na seba, vrch ozdob malinami."
+ ],
+ "tipy": "Layer cake môžete vyzdobiť čerstvými jahodami.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "torta",
+  "ricotta",
+  "maliny"
+ ]
 }

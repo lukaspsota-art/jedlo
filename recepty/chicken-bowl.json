@@ -1,37 +1,107 @@
 {
-  "id": "chicken-bowl",
-  "nazov": "Chicken bowl",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "60 min",
-  "kcal_na_porciu": 354,
-  "popis": "Miska s kuracím mäsom, quinoou, pečeným cícerom a mrkvovo-repnou zeleninou zalitá mandľovou zálievkou.",
-  "ingrediencie": [
-    {"nazov": "Repa", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mrkva", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Avokádo", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Quinoa", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Kuracie prsia", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Cícer predvarený", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Baby špenát", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mandľové maslo", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Limetková šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""}
-  ],
-  "postup": [
-    "Cícer rozprestrieme na plech s papierom na pečenie a pečieme 25-30 minút pri 160-170 °C.",
-    "Quinou opláchneme v studenej vode a uvaríme v osolenej vode podľa návodu.",
-    "Kuracie prsia nakrájame na nudličky a osmažíme na lyžici olivového oleja.",
-    "Mrkvu a repu nastrúhame najemno a dáme do misky.",
-    "Pridáme avokádo na plátky, pečený cícer, baby špenát a kuracie prsia s quinoou.",
-    "Zalejeme zálievkou z mandľového masla, medu a limetkovej šťavy a dochutíme soľou a korením."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["bowl", "kura", "quinoa", "zdravé"]
+ "id": "chicken-bowl",
+ "nazov": "Chicken bowl",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "60 min",
+ "kcal_na_porciu": 354,
+ "popis": "Miska s kuracím mäsom, quinoou, pečeným cícerom a mrkvovo-repnou zeleninou zalitá mandľovou zálievkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Repa",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Quinoa",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Cícer predvarený",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Baby špenát",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mandľové maslo",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Cícer rozprestri na plech s papierom na pečenie a peč 25-30 minút pri 160-170 °C.",
+  "Quinou opláchni v studenej vode a uvar v osolenej vode podľa návodu.",
+  "Kuracie prsia nakrájaj na nudličky a osmaž na lyžici olivového oleja.",
+  "Mrkvu a repu nastrúhaj najemno a daj do misky.",
+  "Pridaj avokádo na plátky, pečený cícer, baby špenát a kuracie prsia s quinoou.",
+  "Zalej zálievkou z mandľového masla, medu a limetkovej šťavy a dochuť soľou a korením."
+ ],
+ "tipy": "Avokádo pokvapkaj citrónovou šťavou — bez kyseliny zhnedne do pár minút.",
+ "foto": "",
+ "tagy": [
+  "bowl",
+  "kura",
+  "quinoa",
+  "zdravé"
+ ]
 }

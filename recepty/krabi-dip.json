@@ -1,70 +1,70 @@
 {
-  "id": "krabi-dip",
-  "nazov": "Krabí dip",
-  "kategoria": "Nátierka",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Crab Dip (CC BY-SA)",
-  "porcie": 6,
-  "cas": "15 min",
-  "kcal_na_porciu": 408,
-  "popis": "Krabie mäso s majonézou, kyslou smotanou a citrónom. Južanský dip ku krekrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Krabie mäso",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 240,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kyslá smotana",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "sok"
-    },
-    {
-      "nazov": "Biele víno",
-      "mnozstvo": 3,
-      "jednotka": "ČL",
-      "poznamka": "suché"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Krabie mäso odkvapkaj, prepláchni a prehľadaj, či v ňom nezostali úlomky panciera a chrupky.",
-    "Zmiešaj všetky zložky a poriadne premiešaj.",
-    "Nechaj v chladničke do podávania."
-  ],
-  "tipy": "Zdroj používa suché sherry - nahradí ho suché biele víno. Podávaj pred večerou s lupienkami a krekrami, prípadne s orieškami a farebnou zeleninou.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "dip",
-    "americká",
-    "krab",
-    "morské plody",
-    "bez varenia"
-  ]
+ "id": "krabi-dip",
+ "nazov": "Krabí dip",
+ "kategoria": "Nátierka",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Crab Dip (CC BY-SA)",
+ "porcie": 6,
+ "cas": "15 min",
+ "kcal_na_porciu": 408,
+ "popis": "Krabie mäso s majonézou, kyslou smotanou a citrónom. Južanský dip ku krekrom.",
+ "ingrediencie": [
+  {
+   "nazov": "Krabie mäso",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "sok"
+  },
+  {
+   "nazov": "Biele víno",
+   "mnozstvo": 3,
+   "jednotka": "ČL",
+   "poznamka": "suché"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Krabie mäso odkvapkaj, prepláchni a prehľadaj, či v ňom nezostali úlomky panciera a chrupky.",
+  "Zmiešaj všetky zložky a poriadne premiešaj.",
+  "Nechaj v chladničke do podávania."
+ ],
+ "tipy": "Zdroj používa suché sherry - nahradí ho suché biele víno. Podávaj pred večerou s lupienkami a krekrami, prípadne s orieškami a farebnou zeleninou.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "dip",
+  "americká",
+  "krab",
+  "morské plody",
+  "bez varenia"
+ ]
 }

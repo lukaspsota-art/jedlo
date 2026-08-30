@@ -1,31 +1,68 @@
 {
-  "id": "zitne-pernicky",
-  "nazov": "Žitné perníčky",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 50,
-  "cas": "50 min",
-  "kcal_na_porciu": 84,
-  "popis": "Vianočné perníčky zo žitnej múky s perníkovým korením a orechami.",
-  "ingrediencie": [
-    { "nazov": "Žitná múka", "mnozstvo": 400, "jednotka": "g" },
-    { "nazov": "Žĺtok", "mnozstvo": 3, "jednotka": "ks" },
-    { "nazov": "Maslo", "mnozstvo": 130, "jednotka": "g" },
-    { "nazov": "Med", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Trstinový cukor", "mnozstvo": 130, "jednotka": "g" },
-    { "nazov": "Mleté vlašské orechy", "mnozstvo": 90, "jednotka": "g" },
-    { "nazov": "Perníkové korenie", "mnozstvo": 1, "jednotka": "PL" },
-    { "nazov": "Jedlá sóda", "mnozstvo": 1, "jednotka": "ČL" }
-  ],
-  "postup": [
-    "Všetky surové spracuj vo veľkej miske na kompaktné cesto.",
-    "Z cesta vytvor kôpku, zabaľ do fólie a necháme odpočinúť na chladnom mieste, najlepšie do druhého dňa.",
-    "Cesto prehneť rukami, vyváľaj a vykrajuj tvarmi.",
-    "Ukladaj na plech s papierom na pečenie.",
-    "Pečieme pri 165–175 °C dozlatista, 10–12 minút."
-  ],
-  "tipy": "Perníkové korenie si pripravíš aj doma: zmiešaj 1 ČL mletej vanilky, 2 PL mletej škorice, 1,5 PL mletého zázvoru, ½ ČL mletého badiánu, ½ ČL muškátového orieška a 1 ČL mletých klinčekov.",
-  "foto": "",
-  "tagy": ["dezert", "perníčky", "vianočné pečivo", "žito"]
+ "id": "zitne-pernicky",
+ "nazov": "Žitné perníčky",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 50,
+ "cas": "50 min",
+ "kcal_na_porciu": 84,
+ "popis": "Vianočné perníčky zo žitnej múky s perníkovým korením a orechami.",
+ "ingrediencie": [
+  {
+   "nazov": "Žitná múka",
+   "mnozstvo": 400,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Žĺtok",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 130,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Trstinový cukor",
+   "mnozstvo": 130,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Mleté vlašské orechy",
+   "mnozstvo": 90,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Perníkové korenie",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Jedlá sóda",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Všetky surové spracuj vo veľkej miske na kompaktné cesto.",
+  "Z cesta vytvor kôpku, zabaľ do fólie a nechaj odpočinúť na chladnom mieste, najlepšie do druhého dňa.",
+  "Cesto prehneť rukami, vyváľaj a vykrajuj tvarmi.",
+  "Ukladaj na plech s papierom na pečenie.",
+  "Peč pri 165–175 °C dozlatista, 10–12 minút."
+ ],
+ "tipy": "Perníkové korenie si pripravíš aj doma: zmiešaj 1 ČL mletej vanilky, 2 PL mletej škorice, 1,5 PL mletého zázvoru, ½ ČL mletého badiánu, ½ ČL muškátového orieška a 1 ČL mletých klinčekov.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "perníčky",
+  "vianočné pečivo",
+  "žito"
+ ]
 }

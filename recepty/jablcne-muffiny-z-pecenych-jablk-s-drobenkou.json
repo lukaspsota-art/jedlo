@@ -1,40 +1,120 @@
 {
-  "id": "jablcne-muffiny-z-pecenych-jablk-s-drobenkou",
-  "nazov": "Jablčné muffiny z pečených jabĺk s drobenkou",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 12,
-  "cas": "65 min",
-  "kcal_na_porciu": 160,
-  "popis": "Nadýchané muffiny s pečenými jablkami, škoricou a chrumkavou drobenkou.",
-  "ingrediencie": [
-    {"nazov": "Jablká", "mnozstvo": 2, "jednotka": "ks", "poznamka": "menšie, na pečené jablká"},
-    {"nazov": "Kokosový olej", "mnozstvo": 20, "jednotka": "g", "poznamka": "na pečené jablká"},
-    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na pečené jablká"},
-    {"nazov": "Mletá škorica", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na pečené jablká"},
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 100, "jednotka": "g", "poznamka": "na muffiny"},
-    {"nazov": "Prášok do pečiva", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na muffiny"},
-    {"nazov": "Mletá škorica", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "na muffiny"},
-    {"nazov": "Kokosový olej", "mnozstvo": 60, "jednotka": "g", "poznamka": "rozpustený, na muffiny"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na muffiny"},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Ricotta", "mnozstvo": 160, "jednotka": "g", "poznamka": "možno nahradiť gréckym jogurtom"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Med", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na drobenku"},
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na drobenku"},
-    {"nazov": "Kokosový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "tuhý, na drobenku"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 170-180 °C.",
-    "V panvici rozohrejte 20 g kokosového oleja s medom a škoricou, pridajte jablká nakrájané na kocky a duste 10-12 minút.",
-    "V miske zmiešajte múku, prášok do pečiva, škoricu a soľ.",
-    "V druhej miske vyšľahajte kokosový olej, med, vajce a ricottu a spojte s múčnou zmesou.",
-    "Primiešajte pečené jablká a rozdeľte cesto do 12 formičiek na muffiny.",
-    "Zmiešajte med, múku a kokosový olej na drobenku a posypte ňou muffiny.",
-    "Pečte 15-20 minút pri 170-180 °C."
-  ],
-  "tipy": "Kokosový olej môžete nahradiť maslom, ricottu gréckym jogurtom.",
-  "foto": "",
-  "tagy": ["muffiny", "jablká", "škorica", "dezert"]
+ "id": "jablcne-muffiny-z-pecenych-jablk-s-drobenkou",
+ "nazov": "Jablčné muffiny z pečených jabĺk s drobenkou",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 12,
+ "cas": "65 min",
+ "kcal_na_porciu": 160,
+ "popis": "Nadýchané muffiny s pečenými jablkami, škoricou a chrumkavou drobenkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Jablká",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "menšie, na pečené jablká"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": "na pečené jablká"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na pečené jablká"
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na pečené jablká"
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "na muffiny"
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na muffiny"
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na muffiny"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "rozpustený, na muffiny"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na muffiny"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ricotta",
+   "mnozstvo": 160,
+   "jednotka": "g",
+   "poznamka": "možno nahradiť gréckym jogurtom"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na drobenku"
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na drobenku"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "tuhý, na drobenku"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 170-180 °C.",
+  "V panvici rozohrej 20 g kokosového oleja s medom a škoricou, pridaj jablká nakrájané na kocky a dus 10-12 minút.",
+  "V miske zmiešaj múku, prášok do pečiva, škoricu a soľ.",
+  "V druhej miske vyšľahaj kokosový olej, med, vajce a ricottu a spoj s múčnou zmesou.",
+  "Primiešaj pečené jablká a rozdeľ cesto do 12 formičiek na muffiny.",
+  "Zmiešaj med, múku a kokosový olej na drobenku a posyp ňou muffiny.",
+  "Peč 15-20 minút pri 170-180 °C."
+ ],
+ "tipy": "Kokosový olej môžete nahradiť maslom, ricottu gréckym jogurtom.",
+ "foto": "",
+ "tagy": [
+  "muffiny",
+  "jablká",
+  "škorica",
+  "dezert"
+ ]
 }

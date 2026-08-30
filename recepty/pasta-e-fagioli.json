@@ -1,95 +1,95 @@
 {
-  "id": "pasta-e-fagioli",
-  "nazov": "Pasta e Fagioli",
-  "kategoria": "Polievka",
-  "kuchyna": "Talianska",
-  "zdroj": "Bon Appétit",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 437,
-  "popis": "Sýta talianska polievka-cestoviny s bielou fazuľou cannellini, koreňovou zeleninou a parmezánom.",
-  "ingrediencie": [
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 2.5,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "1 veľká"
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": "2 stonky"
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "1 veľká"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Konzervované krájané paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Biela fazuľa cannellini",
-      "mnozstvo": 300,
-      "jednotka": "g",
-      "poznamka": "scedená"
-    },
-    {
-      "nazov": "Kurací vývar",
-      "mnozstvo": 750,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Malé cestoviny",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "kolienka/ditalini"
-    },
-    {
-      "nazov": "Sušené oregano",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Parmezán",
-      "mnozstvo": 40,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Soľ a čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "V hrnci rozohrej olej, pridaj nakrájanú cibuľu, zeler a mrkvu a restuj 8 minút.",
-    "Pridaj cesnak a oregano, miešaj 1 minútu.",
-    "Pridaj paradajky a varí 3 minúty.",
-    "Prilej vývar a priveď k varu.",
-    "Pridaj cestoviny a varí al dente podľa obalu.",
-    "Pridaj scedenú fazuľu a prehrej 2 minúty, osoľ a okoreň.",
-    "Servíruj posypané strúhaným parmezánom."
-  ],
-  "tipy": "Ak polievka príliš zhustne pri státí, prilej trochu vývaru.",
-  "foto": "",
-  "tagy": [
-    "polievka",
-    "fazuľa",
-    "pasta"
-  ]
+ "id": "pasta-e-fagioli",
+ "nazov": "Pasta e Fagioli",
+ "kategoria": "Polievka",
+ "kuchyna": "Talianska",
+ "zdroj": "Bon Appétit",
+ "porcie": 4,
+ "cas": "35 min",
+ "kcal_na_porciu": 437,
+ "popis": "Sýta talianska polievka-cestoviny s bielou fazuľou cannellini, koreňovou zeleninou a parmezánom.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2.5,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "1 veľká"
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "2 stonky"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "1 veľká"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Konzervované krájané paradajky",
+   "mnozstvo": 400,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Biela fazuľa cannellini",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "scedená"
+  },
+  {
+   "nazov": "Kurací vývar",
+   "mnozstvo": 750,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Malé cestoviny",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "kolienka/ditalini"
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 40,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Soľ a čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "V hrnci rozohrej olej, pridaj nakrájanú cibuľu, zeler a mrkvu a restuj 8 minút.",
+  "Pridaj cesnak a oregano, miešaj 1 minútu.",
+  "Pridaj paradajky a varí 3 minúty.",
+  "Prilej vývar a priveď k varu.",
+  "Pridaj cestoviny a varí al dente podľa obalu.",
+  "Pridaj scedenú fazuľu a prehrej 2 minúty, osoľ a okoreň.",
+  "Servíruj posypané strúhaným parmezánom."
+ ],
+ "tipy": "Ak polievka príliš zhustne pri státí, prilej trochu vývaru.",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "fazuľa",
+  "pasta"
+ ]
 }

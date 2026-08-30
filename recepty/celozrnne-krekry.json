@@ -1,36 +1,96 @@
 {
-  "id": "celozrnne-krekry",
-  "nazov": "Celozrnné krekry",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 30,
-  "cas": "65 min",
-  "kcal_na_porciu": 73,
-  "popis": "Domáce celozrnné krekry so sezamom, makom a chia semienkami.",
-  "ingrediencie": [
-    {"nazov": "Celozrnná špaldová hladká múka", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Múka z ovsených vločiek", "mnozstvo": 110, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Pohánková múka", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "štipka"},
-    {"nazov": "Olivový olej", "mnozstvo": 4, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Podmaslie", "mnozstvo": 100, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Mlieko", "mnozstvo": 150, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Mak", "mnozstvo": 1.5, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Sezamové semienka", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Chia semienka", "mnozstvo": 1.5, "jednotka": "ČL", "poznamka": ""}
-  ],
-  "postup": [
-    "Rúru predhrejte na 180 °C.",
-    "V mise zmiešajte všetky druhy múky, kypriaci prášok, soľ, olej, podmaslie a mlieko.",
-    "Vypracujte hladké cesto a zapracujte doň mak, sezamové a chia semienka.",
-    "Cesto zabaľte do potravinovej fólie a necháte 30 minút odležať.",
-    "Vyváľajte na pomúčenom vále na hrúbku 3 mm.",
-    "Preneste na plech s papierom na pečenie a rozrežte na 30 rovnakých dielikov.",
-    "Pečte pri 170-180 °C 20 minút."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["krekry", "celozrnné", "snack", "semienka"]
+ "id": "celozrnne-krekry",
+ "nazov": "Celozrnné krekry",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 30,
+ "cas": "65 min",
+ "kcal_na_porciu": 73,
+ "popis": "Domáce celozrnné krekry so sezamom, makom a chia semienkami.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnná špaldová hladká múka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Múka z ovsených vločiek",
+   "mnozstvo": 110,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pohánková múka",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kypriaci prášok bez fosfátov",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "štipka"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Podmaslie",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mak",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamové semienka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chia semienka",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "V mise zmiešaj všetky druhy múky, kypriaci prášok, soľ, olej, podmaslie a mlieko.",
+  "Vypracuj hladké cesto a zapracuj doň mak, sezamové a chia semienka.",
+  "Cesto zabaľ do potravinovej fólie a nechaj 30 minút odležať.",
+  "Vyváľaj na pomúčenom vále na hrúbku 3 mm.",
+  "Prenes na plech s papierom na pečenie a rozrež na 30 rovnakých dielikov.",
+  "Peč pri 170-180 °C 20 minút."
+ ],
+ "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+ "foto": "",
+ "tagy": [
+  "krekry",
+  "celozrnné",
+  "snack",
+  "semienka"
+ ]
 }

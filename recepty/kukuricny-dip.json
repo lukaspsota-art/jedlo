@@ -1,29 +1,74 @@
 {
-  "id": "kukuricny-dip",
-  "nazov": "Kukuricový dip",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 2,
-  "cas": "10 min",
-  "kcal_na_porciu": 144,
-  "popis": "Krémový dip z kukurice, smotanového syra a jogurtu s korením.",
-  "ingrediencie": [
-    {"nazov": "Predvarená kukurica", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Smotanový syr", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Jogurt", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mletá paprika", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Kajenské korenie", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Limetková šťava", "mnozstvo": null, "jednotka": "", "poznamka": "šťava z 1 limetky"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Odoberte asi 100 g kukurice nabok.",
-    "Zvyšnú kukuricu a ostatné ingrediencie dajte do mixéra a rozmixujte dohladka.",
-    "Pridajte odloženú kukuricu a premiešajte."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["dip", "kukurica", "smotanový syr", "rýchle"]
+ "id": "kukuricny-dip",
+ "nazov": "Kukuricový dip",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 2,
+ "cas": "10 min",
+ "kcal_na_porciu": 144,
+ "popis": "Krémový dip z kukurice, smotanového syra a jogurtu s korením.",
+ "ingrediencie": [
+  {
+   "nazov": "Predvarená kukurica",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jogurt",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "šťava z 1 limetky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Odober asi 100 g kukurice nabok.",
+  "Zvyšnú kukuricu a ostatné ingrediencie daj do mixéra a rozmixuj dohladka.",
+  "Pridaj odloženú kukuricu a premiešaj."
+ ],
+ "tipy": "Nátierku nechaj pred podávaním aspoň hodinu v chladničke — chute sa prepoja a natiera sa lepšie.",
+ "foto": "",
+ "tagy": [
+  "dip",
+  "kukurica",
+  "smotanový syr",
+  "rýchle"
+ ]
 }

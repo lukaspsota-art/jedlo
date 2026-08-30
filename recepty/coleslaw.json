@@ -1,53 +1,53 @@
 {
-  "id": "coleslaw",
-  "nazov": "Coleslaw",
-  "kategoria": "Šalát",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Coleslaw I (CC BY-SA)",
-  "porcie": 6,
-  "cas": "25 min",
-  "kcal_na_porciu": 103,
-  "popis": "Základný coleslaw z bieleho zelia a červenej cibule s majonézou a jablčným octom. K sendvičom, burgerom aj grilovanému mäsu.",
-  "ingrediencie": [
-    {
-      "nazov": "Kapusta",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": "biele zelie"
-    },
-    {
-      "nazov": "Červená cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "nakrájaná natenko"
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 4,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jablčný ocot",
-      "mnozstvo": 60,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Ak pridávaš jablčný ocot, zmiešaj ho s majonézou a poriadne rozmiešaj.",
-    "Zelie nakrájaj alebo nastrúhaj, nahrubo alebo natenko podľa chuti.",
-    "Vo veľkej miske zmiešaj zelie a cibuľu s majonézou.",
-    "Odlož aspoň na 20 minút, ideálne na pár hodín, aby sa chute prepojili."
-  ],
-  "tipy": "Namiesto bieleho zelia sa dá použiť kel. Pre pestrosť sa dá pridať ďalšia zelenina - mrkva, paprika alebo jablko. Majonézu vie zastúpiť 2 dl olivového oleja.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "príloha",
-    "americká",
-    "kapusta",
-    "vegetariánske",
-    "k sendvičom"
-  ]
+ "id": "coleslaw",
+ "nazov": "Coleslaw",
+ "kategoria": "Šalát",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Coleslaw I (CC BY-SA)",
+ "porcie": 6,
+ "cas": "25 min",
+ "kcal_na_porciu": 103,
+ "popis": "Základný coleslaw z bieleho zelia a červenej cibule s majonézou a jablčným octom. K sendvičom, burgerom aj grilovanému mäsu.",
+ "ingrediencie": [
+  {
+   "nazov": "Kapusta",
+   "mnozstvo": 700,
+   "jednotka": "g",
+   "poznamka": "biele zelie"
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nakrájaná natenko"
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ak pridávaš jablčný ocot, zmiešaj ho s majonézou a poriadne rozmiešaj.",
+  "Zelie nakrájaj alebo nastrúhaj, nahrubo alebo natenko podľa chuti.",
+  "Vo veľkej miske zmiešaj zelie a cibuľu s majonézou.",
+  "Odlož aspoň na 20 minút, ideálne na pár hodín, aby sa chute prepojili."
+ ],
+ "tipy": "Namiesto bieleho zelia sa dá použiť kel. Pre pestrosť sa dá pridať ďalšia zelenina - mrkva, paprika alebo jablko. Majonézu vie zastúpiť 2 dl olivového oleja.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "príloha",
+  "americká",
+  "kapusta",
+  "vegetariánske",
+  "k sendvičom"
+ ]
 }

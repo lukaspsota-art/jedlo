@@ -1,91 +1,93 @@
 {
- "id": "libanonsky-salat-tabbouleh",
- "nazov": "Libanonský šalát tabbouleh",
- "kategoria": "Šalát",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Libanonský šalát tabbouleh (autor: redakcia)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/libanonsky-salat-tabbouleh-/85637-recept.html",
- "porcie": 6,
- "cas": "30 min",
- "kcal_na_porciu": 305,
- "popis": "Ochutnajte doma najznámejší libanonský šalát z bulguru.",
- "ingrediencie": [
-  {
-   "nazov": "Bulgur",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 700,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jarná cibuľka",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajka",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová hladká vňať",
-   "mnozstvo": 185,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mäta",
-   "mnozstvo": 10,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šalát rímsky",
-   "mnozstvo": 3,
-   "jednotka": "list",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová šťava",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "z 2 citrónov"
-  },
-  {
-   "nazov": "Olej olivový extra panenský",
-   "mnozstvo": 125,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Najprv pripravíme dresing, všetky suroviny a šťavu z citrónov len zmiešame.",
-  "Bulgur prepláchneme studenou vodou a vložíme do keramickej misy. Bulgur zalejeme vriacou vodou, misu zakryjeme a necháme bulgur v teple napučať asi 30 minút, kým nevsiakne všetka tekutina a nebude mäkký.",
-  "Zeleninu aj bylinky nakrájame nadrobno, zmiešame s bulgurom a dresingom."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "šalát",
-  "bezmäsité"
- ]
+  "id": "libanonsky-salat-tabbouleh",
+  "nazov": "Libanonský šalát tabbouleh",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Libanonský šalát tabbouleh (autor: redakcia)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/libanonsky-salat-tabbouleh-/85637-recept.html",
+  "porcie": 6,
+  "cas": "30 min",
+  "kcal_na_porciu": 166,
+  "popis": "Ochutnaj doma najznámejší libanonský šalát z bulguru.",
+  "ingrediencie": [
+    {
+      "nazov": "Bulgur",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 700,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jarná cibuľka",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajka",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová hladká vňať",
+      "mnozstvo": 185,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šalát rímsky",
+      "mnozstvo": 3,
+      "jednotka": "list",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "z 2 citrónov"
+    },
+    {
+      "nazov": "Olej olivový extra panenský",
+      "mnozstvo": 125,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najprv priprav dresing, všetky suroviny a šťavu z citrónov len zmiešaj.",
+    "Bulgur prepláchni studenou vodou a vlož do keramickej misy. Bulgur zalej vriacou vodou, misu zakryj a nechaj bulgur v teple napučať asi 30 minút, kým nevsiakne všetka tekutina a nebude mäkký.",
+    "Zeleninu aj bylinky nakrájaj nadrobno, zmiešaj s bulgurom a dresingom."
+  ],
+  "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "bezmäsité",
+    "zelenina"
+  ],
+  "kcal_zdroj": "vypocet"
 }

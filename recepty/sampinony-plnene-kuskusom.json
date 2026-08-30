@@ -1,34 +1,89 @@
 {
-  "id": "sampinony-plnene-kuskusom",
-  "nazov": "Šampiňóny plnené kuskusom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 307,
-  "popis": "Pečené hlavičky šampiňónov plnené kuskusom, kokosovou smotanou a mozzarellou.",
-  "ingrediencie": [
-    {"nazov": "Šampiňóny", "mnozstvo": 12, "jednotka": "ks", "poznamka": "väčšie hlavičky"},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Kuskus", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Kari korenie", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Kokosová smotana", "mnozstvo": 50, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Čerstvá petržlenová vňať", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Slnečnicové semienka", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mozzarella", "mnozstvo": 100, "jednotka": "g", "poznamka": "nastrúhaná"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 190 °C.",
-    "Očistené šampiňóny rozložte na plech, pokvapkajte olejom a pečte 5 minút pri 180-190 °C.",
-    "Kuskus zmiešajte s kari korením, soľou a korením, zalejte vriacou vodou a necháte pod pokrievkou vsiaknuť.",
-    "Šampiňóny vyberte z rúry a odložte.",
-    "Do kuskusu primiešajte smotanu, nasekanú petržlenovú vňať, semienka a mozzarellu.",
-    "Zmesou naplňte šampiňóny a zapečte v rúre ďalších 10 minút pri 180-190 °C."
-  ],
-  "tipy": "Mozzarellu môžete nahradiť strúhaným parmezánom.",
-  "foto": "",
-  "tagy": ["šampiňóny", "kuskus", "plnené huby", "hlavné jedlo"]
+ "id": "sampinony-plnene-kuskusom",
+ "nazov": "Šampiňóny plnené kuskusom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "35 min",
+ "kcal_na_porciu": 307,
+ "popis": "Pečené hlavičky šampiňónov plnené kuskusom, kokosovou smotanou a mozzarellou.",
+ "ingrediencie": [
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 12,
+   "jednotka": "ks",
+   "poznamka": "väčšie hlavičky"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kuskus",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kari korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Kokosová smotana",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "nastrúhaná"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 190 °C.",
+  "Očistené šampiňóny rozlož na plech, pokvapkaj olejom a peč 5 minút pri 180-190 °C.",
+  "Kuskus zmiešaj s kari korením, soľou a korením, zalej vriacou vodou a nechaj pod pokrievkou vsiaknuť.",
+  "Šampiňóny vyber z rúry a odlož.",
+  "Do kuskusu primiešaj smotanu, nasekanú petržlenovú vňať, semienka a mozzarellu.",
+  "Zmesou naplň šampiňóny a zapeč v rúre ďalších 10 minút pri 180-190 °C."
+ ],
+ "tipy": "Mozzarellu môžete nahradiť strúhaným parmezánom.",
+ "foto": "",
+ "tagy": [
+  "šampiňóny",
+  "kuskus",
+  "plnené huby",
+  "hlavné jedlo"
+ ]
 }

@@ -1,80 +1,80 @@
 {
-  "id": "bravcovy-wok-rezance",
-  "nazov": "Bravčový wok s rezancami",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "BBC Good Food",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 605,
-  "popis": "Mleté bravčové s vaječnými rezancami, wok zeleninou a sladkou chilli omáčkou.",
-  "ingrediencie": [
-    {
-      "nazov": "Sezamový olej",
-      "mnozstvo": 45,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Mleté bravčové mäso",
-      "mnozstvo": 350,
-      "jednotka": "g",
-      "poznamka": "chudé"
-    },
-    {
-      "nazov": "Vaječné rezance",
-      "mnozstvo": 350,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Zázvor",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": "nastrúhaný"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 3,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Zeleninová zmes",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "wok"
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 60,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Kukuričný škrob",
-      "mnozstvo": 2,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Sladká chilli omáčka",
-      "mnozstvo": 60,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    }
-  ],
-  "postup": [
-    "Vo woku rozohrej sezamový olej na vysoký oheň, pridaj mleté bravčové a opekaj ~8 minút dozlata.",
-    "Rezance zalej v mise vriacou vodou a nechaj 5–10 minút zmäknúť.",
-    "K mäsu pridaj zázvor, cesnak a zeleninu, restuj 2–3 minúty.",
-    "Zmiešaj 1 PL sójovky so škrobom na pastu, pridaj zvyšnú sójovku, sladkú chilli omáčku a vodu.",
-    "Rezance sceď, pridaj do woku s omáčkou a miešaj, kým omáčka obalí rezance."
-  ],
-  "tipy": "Podľa potreby prilej trochu vody, aby sa omáčka pekne rozprestrela.",
-  "foto": "",
-  "tagy": [
-    "bravčové",
-    "wok",
-    "rezance"
-  ]
+ "id": "bravcovy-wok-rezance",
+ "nazov": "Bravčový wok s rezancami",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "BBC Good Food",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 605,
+ "popis": "Mleté bravčové s vaječnými rezancami, wok zeleninou a sladkou chilli omáčkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Sezamový olej",
+   "mnozstvo": 45,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Mleté bravčové mäso",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": "chudé"
+  },
+  {
+   "nazov": "Vaječné rezance",
+   "mnozstvo": 350,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": "nastrúhaný"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Zeleninová zmes",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "wok"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Kukuričný škrob",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Sladká chilli omáčka",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  }
+ ],
+ "postup": [
+  "Vo woku rozohrej sezamový olej na vysoký oheň, pridaj mleté bravčové a opekaj ~8 minút dozlata.",
+  "Rezance zalej v mise vriacou vodou a nechaj 5–10 minút zmäknúť.",
+  "K mäsu pridaj zázvor, cesnak a zeleninu, restuj 2–3 minúty.",
+  "Zmiešaj 1 PL sójovky so škrobom na pastu, pridaj zvyšnú sójovku, sladkú chilli omáčku a vodu.",
+  "Rezance sceď, pridaj do woku s omáčkou a miešaj, kým omáčka obalí rezance."
+ ],
+ "tipy": "Podľa potreby prilej trochu vody, aby sa omáčka pekne rozprestrela.",
+ "foto": "",
+ "tagy": [
+  "bravčové",
+  "wok",
+  "rezance"
+ ]
 }

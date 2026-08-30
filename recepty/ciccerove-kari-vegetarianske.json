@@ -1,99 +1,100 @@
 {
- "id": "ciccerove-kari-vegetarianske",
- "nazov": "Cícerové kari (vegetariánske)",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Indická",
- "zdroj": "Varecha.sk – Cícerové karí (fotorecept) (autor: dorisa)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/cicerove-kari-fotorecept/45006-recept.html",
- "porcie": 1,
- "cas": "60 min",
- "kcal_na_porciu": 456,
- "popis": "Včera sme  mali takýto obedík.",
- "ingrediencie": [
-  {
-   "nazov": "Suchý cícer",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jarná cibuľka",
-   "mnozstvo": 1,
-   "jednotka": "zväzok",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Očistený zázvor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajky",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olej olivový extra virgin",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie Garamské Masala",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti alebo zmes: rasca, koriander"
-  },
-  {
-   "nazov": "Morská hrubozrnná soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa potreby"
-  },
-  {
-   "nazov": "Mletá škorica",
-   "mnozstvo": 0.25,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá kurkuma",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Pripravíme si suroviny",
-  "Na tanierik som si pripravila zmes vsetkých korenín, ktoré budem potrebovať.",
-  "Cícer si pripravíme tak, že ho namočíme do vody, večer vodu zlejeme, premyjeme, doplníme novú vodu a necháme napučať. Potom pred varením zas cícer prepláchneme. Potom ho varíme cca 30 minút.",
-  "Cibuľku, cesnak, zázvor a paradajky najemno nakrájame",
-  "V hrnci rozohrejeme olej, osmahneme cesnak, zázvor a korenie....",
-  "...pridáme cibuľku, podlejeme vodou ...",
-  "... pridáme odkvapkaný cícer. Varíme cca 10 minút.",
-  "Potom pridáme paradajky...dodusíme.",
-  "Servírujeme s uvarenou celozrnnou ryžou a zeleninovým šalátom. Dobrú chuť."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "vegetariánske",
-  "cícer",
-  "indické"
- ]
+  "id": "ciccerove-kari-vegetarianske",
+  "nazov": "Cícerové kari (vegetariánske)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Indická",
+  "zdroj": "Varecha.sk – Cícerové karí (fotorecept) (autor: dorisa)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/cicerove-kari-fotorecept/45006-recept.html",
+  "porcie": 1,
+  "cas": "60 min",
+  "kcal_na_porciu": 258,
+  "popis": "Včera sme  mali takýto obedík.",
+  "ingrediencie": [
+    {
+      "nazov": "Suchý cícer",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jarná cibuľka",
+      "mnozstvo": 1,
+      "jednotka": "zväzok",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Očistený zázvor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej olivový extra virgin",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie Garamské Masala",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti alebo zmes: rasca, koriander"
+    },
+    {
+      "nazov": "Morská hrubozrnná soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa potreby"
+    },
+    {
+      "nazov": "Mletá škorica",
+      "mnozstvo": 0.25,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá kurkuma",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si suroviny",
+    "Na tanierik si priprav zmes vsetkých korenín, ktoré budem potrebovať.",
+    "Cícer si priprav tak, že ho namočíš do vody, večer vodu zlej, premyj, doplň novú vodu a nechaj napučať. Potom pred varením zas cícer prepláchni. Potom ho var cca 30 minút.",
+    "Cibuľku, cesnak, zázvor a paradajky najemno nakrájaj",
+    "V hrnci rozohrej olej, osmahni cesnak, zázvor a korenie....",
+    "...pridaj cibuľku, podlej vodou ...",
+    "... pridaj odkvapkaný cícer. Var cca 10 minút.",
+    "Potom pridaj paradajky...dodus.",
+    "Servíruj s uvarenou celozrnnou ryžou a zeleninovým šalátom. Dobrú chuť."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "vegetariánske",
+    "cícer",
+    "indické"
+  ],
+  "kcal_zdroj": "vypocet"
 }

@@ -1,41 +1,44 @@
 {
- "id": "citronovy-napoj-so-zazvorovou-limonadou",
- "nazov": "Citrónový nápoj so zázvorovou limonádou",
- "kategoria": "Nápoj",
- "kuchyna": "Medzinárodná",
- "zdroj": "TheCocktailDB – Rail Splitter",
- "zdroj_url": "https://www.thecocktaildb.com/drink/12630",
- "porcie": 1,
- "cas": "5 min",
- "popis": "Cocktail · Highball glass",
- "ingrediencie": [
-  {
-   "nazov": "Cukrový sirup",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová šťava",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zázvor",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Vo vysokom pohári zmiešame cukrový sirup s citrónovou šťavou.",
-  "Dolejeme zázvorovou limonádou."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "nápoj",
-  "bezmäsité"
- ]
+  "id": "citronovy-napoj-so-zazvorovou-limonadou",
+  "nazov": "Citrónový nápoj so zázvorovou limonádou",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Rail Splitter",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12630",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Kokteil. Základ: cukrový sirup, citrónová šťava, zázvor. Podávaj vo vysokom pohári.",
+  "ingrediencie": [
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vo vysokom pohári zmiešaj cukrový sirup s citrónovou šťavou.",
+    "Dolej zázvorovou limonádou."
+  ],
+  "tipy": "Šťavu vytlač až tesne pred použitím a nezabudni na kôru — väčšina arómy je v nej, nie v šťave.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "bezmäsité",
+    "medzinárodná"
+  ],
+  "kcal_na_porciu": 34,
+  "kcal_zdroj": "vypocet"
 }

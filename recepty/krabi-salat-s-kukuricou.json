@@ -1,60 +1,60 @@
 {
-  "id": "krabi-salat-s-kukuricou",
-  "nazov": "Krabí salát s kukuricou",
-  "kategoria": "Šalát",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Crab and Corn Salad (CC BY-SA)",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 403,
-  "popis": "Krabie tyčinky s kukuricou, jarnou cibuľkou a majonézou. Štyri zložky a desať minút.",
-  "ingrediencie": [
-    {
-      "nazov": "Krabie tyčinky",
-      "mnozstvo": 225,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kukurica",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": "z konzervy"
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jarná cibuľka",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "strúhaný, voliteľné"
-    }
-  ],
-  "postup": [
-    "Krabie tyčinky a jarnú cibuľku nasekaj.",
-    "Zmiešaj ich v miske vhodnej veľkosti s kukuricou a majonézou.",
-    "Poriadne premiešaj.",
-    "Podľa chuti pridaj strúhaný syr a znova premiešaj."
-  ],
-  "tipy": "Kukuricu poriadne odkvapkaj, inak bude salát vodnatý. Skvelá plnka do sendviča aj do wrapu.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "príloha",
-    "americká",
-    "krab",
-    "kukurica",
-    "rýchle",
-    "bez varenia"
-  ]
+ "id": "krabi-salat-s-kukuricou",
+ "nazov": "Krabí salát s kukuricou",
+ "kategoria": "Šalát",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Crab and Corn Salad (CC BY-SA)",
+ "porcie": 4,
+ "cas": "10 min",
+ "kcal_na_porciu": 403,
+ "popis": "Krabie tyčinky s kukuricou, jarnou cibuľkou a majonézou. Štyri zložky a desať minút.",
+ "ingrediencie": [
+  {
+   "nazov": "Krabie tyčinky",
+   "mnozstvo": 225,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukurica",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": "z konzervy"
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Syr",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "strúhaný, voliteľné"
+  }
+ ],
+ "postup": [
+  "Krabie tyčinky a jarnú cibuľku nasekaj.",
+  "Zmiešaj ich v miske vhodnej veľkosti s kukuricou a majonézou.",
+  "Poriadne premiešaj.",
+  "Podľa chuti pridaj strúhaný syr a znova premiešaj."
+ ],
+ "tipy": "Kukuricu poriadne odkvapkaj, inak bude salát vodnatý. Skvelá plnka do sendviča aj do wrapu.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "príloha",
+  "americká",
+  "krab",
+  "kukurica",
+  "rýchle",
+  "bez varenia"
+ ]
 }

@@ -1,64 +1,64 @@
 {
-  "id": "jednoduchy-kuraci-salat",
-  "nazov": "Jednoduchý kurací salát",
-  "kategoria": "Šalát",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Simple Chicken Salad (CC BY-SA)",
-  "porcie": 2,
-  "cas": "15 min",
-  "kcal_na_porciu": 746,
-  "popis": "Uvarené kurča so slaninou, šalátom, majonézou a cesnakom. Šesť zložiek, jedno premiešanie.",
-  "ingrediencie": [
-    {
-      "nazov": "Kuracie prsia",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": "uvarené a nakrájané na kocky"
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šalátové listy",
-      "mnozstvo": 2,
-      "jednotka": "hrsť",
-      "poznamka": "čerstvo nakrájané"
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "opečená, na kocky"
-    },
-    {
-      "nazov": "Horčica",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "nasekaný najemno"
-    }
-  ],
-  "postup": [
-    "Všetky zložky premiešaj, kým sa dobre nespoja.",
-    "Podávaj chladené alebo pri pokojovej teplote."
-  ],
-  "tipy": "Skvelá plnka do sendviča. Ak ho chceš vlhkejší, pridaj ešte lyžicu majonézy.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "obed",
-    "americká",
-    "kuracie",
-    "slanina",
-    "rýchle",
-    "zbytky"
-  ]
+ "id": "jednoduchy-kuraci-salat",
+ "nazov": "Jednoduchý kurací salát",
+ "kategoria": "Šalát",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Simple Chicken Salad (CC BY-SA)",
+ "porcie": 2,
+ "cas": "15 min",
+ "kcal_na_porciu": 746,
+ "popis": "Uvarené kurča so slaninou, šalátom, majonézou a cesnakom. Šesť zložiek, jedno premiešanie.",
+ "ingrediencie": [
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": "uvarené a nakrájané na kocky"
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalátové listy",
+   "mnozstvo": 2,
+   "jednotka": "hrsť",
+   "poznamka": "čerstvo nakrájané"
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "opečená, na kocky"
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "nasekaný najemno"
+  }
+ ],
+ "postup": [
+  "Všetky zložky premiešaj, kým sa dobre nespoja.",
+  "Podávaj chladené alebo pri pokojovej teplote."
+ ],
+ "tipy": "Skvelá plnka do sendviča. Ak ho chceš vlhkejší, pridaj ešte lyžicu majonézy.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "obed",
+  "americká",
+  "kuracie",
+  "slanina",
+  "rýchle",
+  "zbytky"
+ ]
 }

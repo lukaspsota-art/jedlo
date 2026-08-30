@@ -1,74 +1,74 @@
 {
-  "id": "domace-hovadzie-burgery",
-  "nazov": "Domáce hovädzie burgery",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Allrecipes — Juiciest Hamburgers",
-  "porcie": 2,
-  "cas": "25 min",
-  "kcal_na_porciu": 491,
-  "popis": "Šťavnaté domáce burgery z mletého mäsa s worcesterom a strúhankou v kaizerke.",
-  "ingrediencie": [
-    {
-      "nazov": "Mleté mäso",
-      "mnozstvo": 227,
-      "jednotka": "g",
-      "poznamka": "hovädzie + bravčové"
-    },
-    {
-      "nazov": "Strúhanka",
-      "mnozstvo": 20,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 0.5,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Kondenzované mlieko",
-      "mnozstvo": 10,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Worcester",
-      "mnozstvo": 8,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Kaizerka",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 0.5,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "Cayenne",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "štipka"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "štipka"
-    }
-  ],
-  "postup": [
-    "Zmiešaj mleté mäso, strúhanku, vajce, kondenzované mlieko, worcester, cesnak, štipku cayenne a soľ.",
-    "Vytvaruj 2 rovnaké placky.",
-    "Na grile alebo panvici opekaj z každej strany do prepečenia.",
-    "Kaizerky prekroj, vlož burger a podávaj."
-  ],
-  "tipy": "Mäso príliš nepremiešaj, aby burgery zostali šťavnaté.",
-  "foto": "",
-  "tagy": [
-    "burger",
-    "hovädzie",
-    "gril"
-  ]
+ "id": "domace-hovadzie-burgery",
+ "nazov": "Domáce hovädzie burgery",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Allrecipes — Juiciest Hamburgers",
+ "porcie": 2,
+ "cas": "25 min",
+ "kcal_na_porciu": 491,
+ "popis": "Šťavnaté domáce burgery z mletého mäsa s worcesterom a strúhankou v kaizerke.",
+ "ingrediencie": [
+  {
+   "nazov": "Mleté mäso",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "hovädzie + bravčové"
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 0.5,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Kondenzované mlieko",
+   "mnozstvo": 10,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Worcester",
+   "mnozstvo": 8,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Kaizerka",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 0.5,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Cayenne",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "štipka"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "štipka"
+  }
+ ],
+ "postup": [
+  "Zmiešaj mleté mäso, strúhanku, vajce, kondenzované mlieko, worcester, cesnak, štipku cayenne a soľ.",
+  "Vytvaruj 2 rovnaké placky.",
+  "Na grile alebo panvici opekaj z každej strany do prepečenia.",
+  "Kaizerky prekroj, vlož burger a podávaj."
+ ],
+ "tipy": "Mäso príliš nepremiešaj, aby burgery zostali šťavnaté.",
+ "foto": "",
+ "tagy": [
+  "burger",
+  "hovädzie",
+  "gril"
+ ]
 }

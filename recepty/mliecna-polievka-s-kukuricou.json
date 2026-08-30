@@ -6,20 +6,75 @@
   "zdroj": "Jíme zdravě s Fitrecepty I",
   "porcie": 4,
   "cas": "35 min",
-  "kcal_na_porciu": 240,
+  "kcal_na_porciu": 349,
   "popis": "Mierne krémová polievka z odstredeného mlieka so zemiakmi, zelerom a kukuricou.",
   "ingrediencie": [
-    {"nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Stopkový zeler", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Ryžová múka", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Odstredené mlieko", "mnozstvo": 800, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Zemiaky", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Predvarená kukurica", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mletá rasca", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
-    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šalotka",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Stopkový zeler",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ryžová múka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Odstredené mlieko",
+      "mnozstvo": 800,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiaky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Predvarená kukurica",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Korenie",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": "podľa chuti"
+    }
   ],
   "postup": [
     "Stopkový zeler zbav listov a nakrájaj na kocky.",
@@ -31,5 +86,11 @@
   ],
   "tipy": "K polievke sa hodí čerstvá majoránka.",
   "foto": "",
-  "tagy": ["polievka", "mlieko", "kukurica", "zemiaky"]
+  "tagy": [
+    "polievka",
+    "mlieko",
+    "kukurica",
+    "zemiaky"
+  ],
+  "kcal_zdroj": "vypocet"
 }

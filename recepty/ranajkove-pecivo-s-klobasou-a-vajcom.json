@@ -1,64 +1,64 @@
 {
-  "id": "ranajkove-pecivo-s-klobasou-a-vajcom",
-  "nazov": "Raňajkové pečivo s klobásou a vajcom",
-  "kategoria": "Raňajky",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Sausage and Egg Breakfast Roll (CC BY-SA)",
-  "porcie": 1,
-  "cas": "15 min",
-  "kcal_na_porciu": 856,
-  "popis": "Raňajková klobása s miešaným vajcom v ciabatte natretej smotanovým syrom.",
-  "ingrediencie": [
-    {
-      "nazov": "Klobása",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": "raňajková, malá"
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotanový syr",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ciabatta",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "rozkrojená"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Klobásu nakrájaj na malé kúsky a opeč do prepečenia. Ak treba, odlej tuk a klobásu zľahka opláchni v sitku, potom ju vráť do panvice.",
-    "Pridaj vajce a zamiešaj do klobásy, kým sa nespojí a nezostane tekuté. Osoľ a opepri.",
-    "Na ciabattu natri hrubú vrstvu smotanového syra a naber do nej zmes vajca s klobásou.",
-    "Podávaj ako klasický sendvič, alebo obe polovice nechaj oddelene."
-  ],
-  "tipy": "Smotanový syr natieraj hrubo - jeho úlohou je držať drobné kúsky klobásy a vajca pokope.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "americká",
-    "klobása",
-    "vajcia",
-    "rýchle"
-  ]
+ "id": "ranajkove-pecivo-s-klobasou-a-vajcom",
+ "nazov": "Raňajkové pečivo s klobásou a vajcom",
+ "kategoria": "Raňajky",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Sausage and Egg Breakfast Roll (CC BY-SA)",
+ "porcie": 1,
+ "cas": "15 min",
+ "kcal_na_porciu": 856,
+ "popis": "Raňajková klobása s miešaným vajcom v ciabat natretej smotanovým syrom.",
+ "ingrediencie": [
+  {
+   "nazov": "Klobása",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "raňajková, malá"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ciabatta",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "rozkrojená"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Klobásu nakrájaj na malé kúsky a opeč do prepečenia. Ak treba, odlej tuk a klobásu zľahka opláchni v sitku, potom ju vráť do panvice.",
+  "Pridaj vajce a zamiešaj do klobásy, kým sa nespojí a nezostane tekuté. Osoľ a opepri.",
+  "Na ciabattu natri hrubú vrstvu smotanového syra a naber do nej zmes vajca s klobásou.",
+  "Podávaj ako klasický sendvič, alebo obe polovice nechaj oddelene."
+ ],
+ "tipy": "Smotanový syr natieraj hrubo - jeho úlohou je držať drobné kúsky klobásy a vajca pokope.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "americká",
+  "klobása",
+  "vajcia",
+  "rýchle"
+ ]
 }

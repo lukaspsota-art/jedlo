@@ -1,28 +1,63 @@
 {
-  "id": "avokadovo-tuniakove-zapecene-hrianky",
-  "nazov": "Avokádovo-tuniakové zapečené hrianky",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "14 min",
-  "kcal_na_porciu": 629,
-  "popis": "Celozrnné hrianky plnené avokádovo-tuniakovou zmesou, mozzarellou a paradajkou, zapečené v hriankovači.",
-  "ingrediencie": [
-    {"nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Tuniak z konzervy scedený", "mnozstvo": 90, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Mozzarella", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Paradajka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Celozrnný chlieb", "mnozstvo": 4, "jednotka": "plátok", "poznamka": ""}
-  ],
-  "postup": [
-    "Avokádo rozmixujeme vidličkou a zmiešame s tuniakom a olivovým olejom.",
-    "Na 2 plátky celozrnného chleba nanesieme avokádovo-tuniakovú zmes, poukladáme nastrúhanú mozzarellu a plátky paradajky.",
-    "Prikryjeme zvyšnými dvomi plátkami chleba.",
-    "Zapečieme v hriankovači 3-4 minúty."
-  ],
-  "tipy": "Do zmesi pridajte 0.5 ČL sušeného chilli.",
-  "foto": "",
-  "tagy": ["hrianky", "tuniak", "avokádo", "raňajky"]
+ "id": "avokadovo-tuniakove-zapecene-hrianky",
+ "nazov": "Avokádovo-tuniakové zapečené hrianky",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "14 min",
+ "kcal_na_porciu": 629,
+ "popis": "Celozrnné hrianky plnené avokádovo-tuniakovou zmesou, mozzarellou a paradajkou, zapečené v hriankovači.",
+ "ingrediencie": [
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tuniak z konzervy scedený",
+   "mnozstvo": 90,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnný chlieb",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Avokádo rozmixuj vidličkou a zmiešaj s tuniakom a olivovým olejom.",
+  "Na 2 plátky celozrnného chleba nanes avokádovo-tuniakovú zmes, poukladaj nastrúhanú mozzarellu a plátky paradajky.",
+  "Prikryj zvyšnými dvomi plátkami chleba.",
+  "Zapeč v hriankovači 3-4 minúty."
+ ],
+ "tipy": "Do zmesi pridaj 0.5 ČL sušeného chilli.",
+ "foto": "",
+ "tagy": [
+  "hrianky",
+  "tuniak",
+  "avokádo",
+  "raňajky"
+ ]
 }

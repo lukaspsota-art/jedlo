@@ -1,50 +1,50 @@
 {
-  "id": "mrazene-limoncello-daiquiri",
-  "nazov": "Mrazené limoncello daiquiri",
-  "kategoria": "Kokteil",
-  "kuchyna": "Talianska",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 180,
-  "popis": "Kyslasté a chladivé mrazené daiquiri s bielym rumom a limoncellom, pripravené v mixéri.",
-  "ingrediencie": [
-    {
-      "nazov": "Biely rum",
-      "mnozstvo": 45,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Limoncello",
-      "mnozstvo": 30,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Limetková šťava",
-      "mnozstvo": 15,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "plátok na ozdobu"
-    }
-  ],
-  "postup": [
-    "V mixéri rozmixuj rum, limoncello, limetkovú šťavu a ľad dohladka a nalej do pohára.",
-    "Ozdob plátkom limetky."
-  ],
-  "tipy": "Použi dostatok ľadu pre hustú mrazenú konzistenciu.",
-  "foto": "",
-  "tagy": [
-    "drink",
-    "limoncello",
-    "mrazené"
-  ]
+ "id": "mrazene-limoncello-daiquiri",
+ "nazov": "Mrazené limoncello daiquiri",
+ "kategoria": "Kokteil",
+ "kuchyna": "Talianska",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 180,
+ "popis": "Kyslasté a chladivé mrazené daiquiri s bielym rumom a limoncellom, pripravené v mixéri.",
+ "ingrediencie": [
+  {
+   "nazov": "Biely rum",
+   "mnozstvo": 45,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Limoncello",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "plátok na ozdobu"
+  }
+ ],
+ "postup": [
+  "V mixéri rozmixuj rum, limoncello, limetkovú šťavu a ľad dohladka a nalej do pohára.",
+  "Ozdob plátkom limetky."
+ ],
+ "tipy": "Použi dostatok ľadu pre hustú mrazenú konzistenciu.",
+ "foto": "",
+ "tagy": [
+  "drink",
+  "limoncello",
+  "mrazené"
+ ]
 }

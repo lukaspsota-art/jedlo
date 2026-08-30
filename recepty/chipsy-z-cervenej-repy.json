@@ -1,27 +1,52 @@
 {
-  "id": "chipsy-z-cervenej-repy",
-  "nazov": "Chipsy z červenej repy",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 2,
-  "cas": "40 min",
-  "kcal_na_porciu": 148,
-  "popis": "Pečené chrumkavé chipsy z červenej repy s provensálskym korením.",
-  "ingrediencie": [
-    {"nazov": "Surová červená repa", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Provensálske korenie", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""}
-  ],
-  "postup": [
-    "Repu olúpte a nakrájajte na tenké plátky.",
-    "Zmiešajte s olivovým olejom, soľou a provensálskym korením.",
-    "Plátky rozložte na plech s papierom na pečenie.",
-    "Pečte 20 minút pri 150-160 °C.",
-    "Chipsy otočte a pečte ďalších 15-20 minút."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["chipsy", "červená repa", "snack", "pečené"]
+ "id": "chipsy-z-cervenej-repy",
+ "nazov": "Chipsy z červenej repy",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 2,
+ "cas": "40 min",
+ "kcal_na_porciu": 148,
+ "popis": "Pečené chrumkavé chipsy z červenej repy s provensálskym korením.",
+ "ingrediencie": [
+  {
+   "nazov": "Surová červená repa",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Provensálske korenie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Repu olúp a nakrájaj na tenké plátky.",
+  "Zmiešaj s olivovým olejom, soľou a provensálskym korením.",
+  "Plátky rozlož na plech s papierom na pečenie.",
+  "Peč 20 minút pri 150-160 °C.",
+  "Chipsy otoč a peč ďalších 15-20 minút."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "chipsy",
+  "červená repa",
+  "snack",
+  "pečené"
+ ]
 }

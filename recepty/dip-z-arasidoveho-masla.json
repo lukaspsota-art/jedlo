@@ -1,25 +1,50 @@
 {
-  "id": "dip-z-arasidoveho-masla",
-  "nazov": "Dip z arašidového masla",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "20 min",
-  "kcal_na_porciu": 237,
-  "popis": "Krémový sladký dip z arašidového masla, gréckeho jogurtu a smotanového syra.",
-  "ingrediencie": [
-    { "nazov": "Arašidové maslo", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Grécky jogurt", "mnozstvo": 200, "jednotka": "g" },
-    { "nazov": "Smotanový syr", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Med", "mnozstvo": 2, "jednotka": "ČL" },
-    { "nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL" }
-  ],
-  "postup": [
-    "Všetky surové zmiešaj v miske do hladkého dipu.",
-    "Skladuj v chladničke."
-  ],
-  "tipy": "Dip podávaj k ovociu alebo na celozrnnom toaste s jablkami a orechmi.",
-  "foto": "",
-  "tagy": ["nátierka", "dip", "arašidy", "raňajky"]
+ "id": "dip-z-arasidoveho-masla",
+ "nazov": "Dip z arašidového masla",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "20 min",
+ "kcal_na_porciu": 237,
+ "popis": "Krémový sladký dip z arašidového masla, gréckeho jogurtu a smotanového syra.",
+ "ingrediencie": [
+  {
+   "nazov": "Arašidové maslo",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Grécky jogurt",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Všetky surové zmiešaj v miske do hladkého dipu.",
+  "Skladuj v chladničke."
+ ],
+ "tipy": "Dip podávaj k ovociu alebo na celozrnnom toas s jablkami a orechmi.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "dip",
+  "arašidy",
+  "raňajky"
+ ]
 }

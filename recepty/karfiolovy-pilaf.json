@@ -1,31 +1,81 @@
 {
-  "id": "karfiolovy-pilaf",
-  "nazov": "Karfiolový pilaf",
-  "kategoria": "Príloha",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 2,
-  "cas": "27 min",
-  "kcal_na_porciu": 132,
-  "popis": "Nízkosacharidová obmena pilafu z nastrúhaného karfiolu s kurkumou a citrónom.",
-  "ingrediencie": [
-    {"nazov": "Nastrúhaný karfiol", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Prepustené maslo (ghí)", "mnozstvo": 1, "jednotka": "PL", "poznamka": "alebo olej"},
-    {"nazov": "Malá cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Kurkuma", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Čerstvá petržlenová vňať", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "V panvici rozohrejte prepustené maslo, osmažte nadrobno nakrájanú cibuľu.",
-    "Pridajte nastrúhaný karfiol, kurkumu a pretlačený cesnak.",
-    "Opekajte 5-7 minút, odstavte, dochuťte citrónovou šťavou, soľou a korením.",
-    "Nakoniec primiešajte nasekanú petržlenovú vňať a podávajte."
-  ],
-  "tipy": "Podávajte samostatne, napríklad s grilovanou zeleninou, alebo ako prílohu.",
-  "foto": "",
-  "tagy": ["karfiol", "pilaf", "príloha", "nízkosacharidové"]
+ "id": "karfiolovy-pilaf",
+ "nazov": "Karfiolový pilaf",
+ "kategoria": "Príloha",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 2,
+ "cas": "27 min",
+ "kcal_na_porciu": 132,
+ "popis": "Nízkosacharidová obmena pilafu z nastrúhaného karfiolu s kurkumou a citrónom.",
+ "ingrediencie": [
+  {
+   "nazov": "Nastrúhaný karfiol",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prepustené maslo (ghí)",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "alebo olej"
+  },
+  {
+   "nazov": "Malá cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kurkuma",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "V panvici rozohrej prepustené maslo, osmaž nadrobno nakrájanú cibuľu.",
+  "Pridaj nastrúhaný karfiol, kurkumu a pretlačený cesnak.",
+  "Opekaj 5-7 minút, odstav, dochuť citrónovou šťavou, soľou a korením.",
+  "Nakoniec primiešaj nasekanú petržlenovú vňať a podávaj."
+ ],
+ "tipy": "Podávaj samostatne, napríklad s grilovanou zeleninou, alebo ako prílohu.",
+ "foto": "",
+ "tagy": [
+  "karfiol",
+  "pilaf",
+  "príloha",
+  "nízkosacharidové"
+ ]
 }

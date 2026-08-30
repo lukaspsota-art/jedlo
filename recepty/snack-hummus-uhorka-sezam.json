@@ -6,18 +6,39 @@
   "zdroj": "Jíme zdravě s Fitrecepty II",
   "porcie": 1,
   "cas": "5 min",
-  "kcal_na_porciu": 250,
+  "kcal_na_porciu": 140,
   "popis": "Kolieska uhorky s hummusom posypané sezamovými semienkami.",
   "ingrediencie": [
-    {"nazov": "Hummus", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Uhorka", "mnozstvo": null, "jednotka": "", "poznamka": "pár koliesok"},
-    {"nazov": "Sezamové semienka", "mnozstvo": 20, "jednotka": "g", "poznamka": ""}
+    {
+      "nazov": "Hummus",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "pár koliesok"
+    },
+    {
+      "nazov": "Sezamové semienka",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    }
   ],
   "postup": [
-    "Kolieska uhorky potrieme hummusom.",
-    "Posypeme sezamovými semienkami a podávame."
+    "Kolieska uhorky potri hummusom.",
+    "Posyp sezamovými semienkami a podávaj."
   ],
   "tipy": "",
   "foto": "",
-  "tagy": ["snack", "hummus", "uhorka", "sezam"]
+  "tagy": [
+    "snack",
+    "hummus",
+    "uhorka",
+    "sezam"
+  ],
+  "kcal_zdroj": "vypocet"
 }

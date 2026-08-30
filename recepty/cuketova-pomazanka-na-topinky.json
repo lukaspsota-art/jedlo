@@ -1,34 +1,89 @@
 {
-  "id": "cuketova-pomazanka-na-topinky",
-  "nazov": "Cuketová nátierka na hrianky",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 8,
-  "cas": "40 min",
-  "kcal_na_porciu": 170,
-  "popis": "Aromatická cuketová nátierka s cesnakom a paradajkovým pretlakom.",
-  "ingrediencie": [
-    {"nazov": "Cuketa", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Cibuľa", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Slnečnicový olej", "mnozstvo": 90, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Tamari", "mnozstvo": 8, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Kari korenie", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Chilli", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Zázvor", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Paradajkový pretlak", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 1.5, "jednotka": "ks", "poznamka": "hlávka"}
-  ],
-  "postup": [
-    "Ošúpanú cuketu nastrúhajte nahrubo.",
-    "Na oleji v hrnci opečte nadrobno nakrájanú cibuľu dosklovata.",
-    "Pridajte cuketu, tamari, kari, chilli, zázvor, soľ a paradajkový pretlak.",
-    "Cesnak nastrúhajte alebo nakrájajte na plátky a pridajte do hrnca.",
-    "Duste 30 minút na miernom ohni.",
-    "Zmes rozdeľte do sklenených pohárov, prípadne sterilizujte 15 minút pri 85 °C."
-  ],
-  "tipy": "Ak nechcete pomazánku zavárať, vychladnutú uložte do čistých sklenených pohárov, v chladničke vydrží 1-2 týždne.",
-  "foto": "",
-  "tagy": ["nátierka", "cuketa", "cesnak", "zavarenina"]
+ "id": "cuketova-pomazanka-na-topinky",
+ "nazov": "Cuketová nátierka na hrianky",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 8,
+ "cas": "40 min",
+ "kcal_na_porciu": 170,
+ "popis": "Aromatická cuketová nátierka s cesnakom a paradajkovým pretlakom.",
+ "ingrediencie": [
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 90,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tamari",
+   "mnozstvo": 8,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kari korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1.5,
+   "jednotka": "ks",
+   "poznamka": "hlávka"
+  }
+ ],
+ "postup": [
+  "Ošúpanú cuketu nastrúhaj nahrubo.",
+  "Na oleji v hrnci opeč nadrobno nakrájanú cibuľu dosklovata.",
+  "Pridaj cuketu, tamari, kari, chilli, zázvor, soľ a paradajkový pretlak.",
+  "Cesnak nastrúhaj alebo nakrájaj na plátky a pridaj do hrnca.",
+  "Dus 30 minút na miernom ohni.",
+  "Zmes rozdeľ do sklenených pohárov, prípadne sterilizuj 15 minút pri 85 °C."
+ ],
+ "tipy": "Ak nechcete pomazánku zavárať, vychladnutú ulož do čistých sklenených pohárov, v chladničke vydrží 1-2 týždne.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "cuketa",
+  "cesnak",
+  "zavarenina"
+ ]
 }

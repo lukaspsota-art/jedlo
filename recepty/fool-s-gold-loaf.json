@@ -1,61 +1,61 @@
 {
-  "id": "fool-s-gold-loaf",
-  "nazov": "Fool's Gold Loaf",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Fool's Gold Loaf (CC BY-SA)",
-  "porcie": 4,
-  "cas": "30 min",
-  "kcal_na_porciu": 1309,
-  "popis": "Vydlabaná francúzska bageta naplnená arašidovým maslom, hroznovým želé a pol kilom slaniny. Sendvič, pre ktorý Elvis údajne letel do Denveru.",
-  "ingrediencie": [
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "veľká"
-    },
-    {
-      "nazov": "Margarín",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Arašidové maslo",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hroznová marmeláda",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rúru predhrej na 180 °C. Bagetu zo všetkých strán výdatne potri margarínom a polož na plech do rúry.",
-    "Medzitým slaninu opeč na troche oleja do chrumkava a dôkladne odkvapkaj na papierových utierkach.",
-    "Bagetu vyber z rúry, keď je rovnomerne zhnednutá, približne po 15 minútach.",
-    "Rozkroj ju po dĺžke a vydlab vnútro - striedky na stenách nechaj toľko, koľko chceš.",
-    "Do dutiny natri hrubú vrstvu arašidového masla a na ňu hrubú vrstvu hroznovej marmelády. Nešetri ani jedným.",
-    "Do dutiny rozlož plátky slaniny, prípadne ich navrstvi medzi arašidové maslo a marmeládu. Bagetu zavri, nakrájaj a jedz."
-  ],
-  "tipy": "Jedna bageta má v origináli okolo 8000 kcal a je určená pre viacerých - tu je rozdelená na štyri porcie. Neber to ako každodenné jedlo.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "americká",
-    "slanina",
-    "arašidové maslo",
-    "sladké",
-    "kuriozita"
-  ]
+ "id": "fool-s-gold-loaf",
+ "nazov": "Fool's Gold Loaf",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Fool's Gold Loaf (CC BY-SA)",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 1309,
+ "popis": "Vydlabaná francúzska bageta naplnená arašidovým maslom, hroznovým želé a pol kilom slaniny. Sendvič, pre ktorý Elvis údajne letel do Denveru.",
+ "ingrediencie": [
+  {
+   "nazov": "Bageta",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "veľká"
+  },
+  {
+   "nazov": "Margarín",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Arašidové maslo",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hroznová marmeláda",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C. Bagetu zo všetkých strán výdatne potri margarínom a polož na plech do rúry.",
+  "Medzitým slaninu opeč na troche oleja do chrumkava a dôkladne odkvapkaj na papierových utierkach.",
+  "Bagetu vyber z rúry, keď je rovnomerne zhnednutá, približne po 15 minútach.",
+  "Rozkroj ju po dĺžke a vydlab vnútro - striedky na stenách nechaj toľko, koľko chceš.",
+  "Do dutiny natri hrubú vrstvu arašidového masla a na ňu hrubú vrstvu hroznovej marmelády. Nešetri ani jedným.",
+  "Do dutiny rozlož plátky slaniny, prípadne ich navrstvi medzi arašidové maslo a marmeládu. Bagetu zavri, nakrájaj a jedz."
+ ],
+ "tipy": "Jedna bageta má v origináli okolo 8000 kcal a je určená pre viacerých - tu je rozdelená na štyri porcie. Neber to ako každodenné jedlo.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "americká",
+  "slanina",
+  "arašidové maslo",
+  "sladké",
+  "kuriozita"
+ ]
 }

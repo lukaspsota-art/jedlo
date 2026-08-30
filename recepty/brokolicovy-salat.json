@@ -1,83 +1,83 @@
 {
-  "id": "brokolicovy-salat",
-  "nazov": "Brokolicový salát",
-  "kategoria": "Šalát",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Broccoli Salad (CC BY-SA)",
-  "porcie": 8,
-  "cas": "25 min",
-  "kcal_na_porciu": 504,
-  "popis": "Surová brokolica so slaninou, cibuľou, hrozienkami a pekanmi v sladkej majonézovej zálievke. Robí sa deň vopred.",
-  "ingrediencie": [
-    {
-      "nazov": "Brokolica",
-      "mnozstvo": 750,
-      "jednotka": "g",
-      "poznamka": "ružičky"
-    },
-    {
-      "nazov": "Slanina",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "opečená do chrumkava, nadrobená"
-    },
-    {
-      "nazov": "Červená cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "nasekaná"
-    },
-    {
-      "nazov": "Jablko",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "nasekané, voliteľné"
-    },
-    {
-      "nazov": "Hrozienka",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": "napučané v horúcej vode"
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 250,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 110,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pekanové orechy",
-      "mnozstvo": 40,
-      "jednotka": "g",
-      "poznamka": "alebo slnečnicové semienka"
-    },
-    {
-      "nazov": "Jablčný ocot",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vyšľahaj majonézu, cukor a ocot.",
-    "Zmiešaj zvyšné zložky a vo veľkej miske ich dôkladne spoj so zálievkou.",
-    "Prikry.",
-    "Nechaj cez noc vychladnúť v chladničke pred podávaním."
-  ],
-  "tipy": "Skladuj v chladničke. Pri podávaní posyp ďalšími pekanmi alebo slnečnicovými semienkami. Cukru je v origináli veľa - dá sa dať polovica alebo sladidlo.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "príloha",
-    "americká",
-    "brokolica",
-    "slanina",
-    "príprava vopred"
-  ]
+ "id": "brokolicovy-salat",
+ "nazov": "Brokolicový salát",
+ "kategoria": "Šalát",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Broccoli Salad (CC BY-SA)",
+ "porcie": 8,
+ "cas": "25 min",
+ "kcal_na_porciu": 504,
+ "popis": "Surová brokolica so slaninou, cibuľou, hrozienkami a pekanmi v sladkej majonézovej zálievke. Robí sa deň vopred.",
+ "ingrediencie": [
+  {
+   "nazov": "Brokolica",
+   "mnozstvo": 750,
+   "jednotka": "g",
+   "poznamka": "ružičky"
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "opečená do chrumkava, nadrobená"
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nasekané, voliteľné"
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "napučané v horúcej vode"
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 110,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pekanové orechy",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "alebo slnečnicové semienka"
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vyšľahaj majonézu, cukor a ocot.",
+  "Zmiešaj zvyšné zložky a vo veľkej miske ich dôkladne spoj so zálievkou.",
+  "Prikry.",
+  "Nechaj cez noc vychladnúť v chladničke pred podávaním."
+ ],
+ "tipy": "Skladuj v chladničke. Pri podávaní posyp ďalšími pekanmi alebo slnečnicovými semienkami. Cukru je v origináli veľa - dá sa dať polovica alebo sladidlo.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "príloha",
+  "americká",
+  "brokolica",
+  "slanina",
+  "príprava vopred"
+ ]
 }

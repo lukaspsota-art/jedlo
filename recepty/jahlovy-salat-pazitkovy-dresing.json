@@ -1,33 +1,83 @@
 {
-  "id": "jahlovy-salat-pazitkovy-dresing",
-  "nazov": "Jáhlový salát s pažítkovým dresingom",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 625,
-  "popis": "Sýty šalát z jáhel s avokádom, rukolou a krémovým pažítkovým dresingom.",
-  "ingrediencie": [
-    { "nazov": "Jáhly", "mnozstvo": 200, "jednotka": "g" },
-    { "nazov": "Fazuľové výhonky", "mnozstvo": 1, "jednotka": "hrsť" },
-    { "nazov": "Slnečnicové semienka", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Avokádo", "mnozstvo": 2, "jednotka": "ks" },
-    { "nazov": "Rukola", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Limetková šťava", "mnozstvo": 3, "jednotka": "PL", "poznamka": "dresing" },
-    { "nazov": "Ricotta", "mnozstvo": 200, "jednotka": "g", "poznamka": "dresing" },
-    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, dresing" },
-    { "nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, dresing" },
-    { "nazov": "Čerstvá pažítka", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": "nasekaná, dresing" }
-  ],
-  "postup": [
-    "Jáhly uvar v osolenej vode podľa návodu na obale, necháme vychladnúť.",
-    "Na dresing zmiešaj limetkovú šťavu, ricottu, soľ, korenie a pažítku.",
-    "Slnečnicové semienka opraž nasucho na panvici z oboch strán, asi 3 minúty.",
-    "Vychladnuté jáhly zmiešaj s fazuľovými výhonkami, rukolou a dresingom.",
-    "Rozdeľ na 4 porcie, posyp opraženými semienkami a nakrájaným avokádom."
-  ],
-  "tipy": "Jáhly môžeš nahradiť krúpami.",
-  "foto": "",
-  "tagy": ["šalát", "jáhly", "avokádo", "fit"]
+ "id": "jahlovy-salat-pazitkovy-dresing",
+ "nazov": "Jáhlový salát s pažítkovým dresingom",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 625,
+ "popis": "Sýty šalát z jáhel s avokádom, rukolou a krémovým pažítkovým dresingom.",
+ "ingrediencie": [
+  {
+   "nazov": "Jáhly",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Fazuľové výhonky",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Rukola",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "dresing"
+  },
+  {
+   "nazov": "Ricotta",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "dresing"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti, dresing"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti, dresing"
+  },
+  {
+   "nazov": "Čerstvá pažítka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": "nasekaná, dresing"
+  }
+ ],
+ "postup": [
+  "Jáhly uvar v osolenej vode podľa návodu na obale, nechaj vychladnúť.",
+  "Na dresing zmiešaj limetkovú šťavu, ricottu, soľ, korenie a pažítku.",
+  "Slnečnicové semienka opraž nasucho na panvici z oboch strán, asi 3 minúty.",
+  "Vychladnuté jáhly zmiešaj s fazuľovými výhonkami, rukolou a dresingom.",
+  "Rozdeľ na 4 porcie, posyp opraženými semienkami a nakrájaným avokádom."
+ ],
+ "tipy": "Jáhly môžeš nahradiť krúpami.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "jáhly",
+  "avokádo",
+  "fit"
+ ]
 }

@@ -1,37 +1,107 @@
 {
-  "id": "kuracie-palicky-v-omacke-zo-susenych-paradajok",
-  "nazov": "Kuracie paličky v omáčke zo sušených paradajok",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Talianska",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 4,
-  "cas": "65 min",
-  "kcal_na_porciu": 388,
-  "popis": "Dusené kuracie paličky v krémovej omáčke zo sušených paradajok a parmezánu.",
-  "ingrediencie": [
-    {"nazov": "Kuracie paličky", "mnozstvo": 600, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Prepustené maslo", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Sušené oregano", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Sušený tymian", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Najemno nakrájané sušené paradajky (bez oleja)", "mnozstvo": 3, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Paradajkový pretlak", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Zeleninový vývar", "mnozstvo": 400, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Mlieko", "mnozstvo": 100, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Celozrnná múka", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Strúhaný parmezán", "mnozstvo": 3, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 170 °C, na prepustenom masle opečte paličky zo všetkých strán asi 4 minúty a vyberte z panvice.",
-    "Do tej istej panvice pridajte pretlačený cesnak, tymian, oregano, sušené paradajky a paradajkový pretlak, restujte 5 minút.",
-    "Zalejte vývarom, vráťte paličky späť, prilejte mlieko, osoľte, opeprite.",
-    "Panvicu prikryte, vložte do rúry a pečte 15-20 minút pri 170-180 °C.",
-    "Múku rozšľahajte v 150 ml vody a za stáleho miešania vlejte do panvice na zhustenie omáčky.",
-    "Posypte parmezánom a podávajte."
-  ],
-  "tipy": "Podávajte s rukolou a trhaným celozrnným chlebom.",
-  "foto": "",
-  "tagy": ["kura", "paradajky", "omáčka", "talianska kuchyňa"]
+ "id": "kuracie-palicky-v-omacke-zo-susenych-paradajok",
+ "nazov": "Kuracie paličky v omáčke zo sušených paradajok",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Talianska",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 4,
+ "cas": "65 min",
+ "kcal_na_porciu": 388,
+ "popis": "Dusené kuracie paličky v krémovej omáčke zo sušených paradajok a parmezánu.",
+ "ingrediencie": [
+  {
+   "nazov": "Kuracie paličky",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prepustené maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený tymian",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Najemno nakrájané sušené paradajky (bez oleja)",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnná múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúhaný parmezán",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 170 °C, na prepustenom masle opeč paličky zo všetkých strán asi 4 minúty a vyber z panvice.",
+  "Do tej istej panvice pridaj pretlačený cesnak, tymian, oregano, sušené paradajky a paradajkový pretlak, restuj 5 minút.",
+  "Zalej vývarom, vráť paličky späť, prilej mlieko, osoľ, opepri.",
+  "Panvicu prikry, vlož do rúry a peč 15-20 minút pri 170-180 °C.",
+  "Múku rozšľahaj v 150 ml vody a za stáleho miešania vlej do panvice na zhustenie omáčky.",
+  "Posyp parmezánom a podávaj."
+ ],
+ "tipy": "Podávaj s rukolou a trhaným celozrnným chlebom.",
+ "foto": "",
+ "tagy": [
+  "kura",
+  "paradajky",
+  "omáčka",
+  "talianska kuchyňa"
+ ]
 }

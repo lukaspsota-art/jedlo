@@ -1,32 +1,68 @@
 {
-  "id": "cuketove-kulicky",
-  "nazov": "Cuketové kuličky",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 5,
-  "cas": "30 min",
-  "kcal_na_porciu": 223,
-  "popis": "Pečené kuličky z nastrúhanej cukety, vajec a ovsených vločiek.",
-  "ingrediencie": [
-    { "nazov": "Cuketa", "mnozstvo": 1, "jednotka": "ks", "poznamka": "menšia" },
-    { "nazov": "Vajcia", "mnozstvo": 3, "jednotka": "ks" },
-    { "nazov": "Ovsené vločky", "mnozstvo": 200, "jednotka": "g" },
-    { "nazov": "Cottage syr", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Mleté oregano", "mnozstvo": 1, "jednotka": "ČL" },
-    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" },
-    { "nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" }
-  ],
-  "postup": [
-    "Cuketu nastrúhaj najemno, osoľ a necháj vypustiť vodu na site (pod neho daj misku).",
-    "Vyžmýkaj cuketu rukami, aby zostala suchá.",
-    "Rúru predhrej na 190 °C.",
-    "Cuketu zmiešaj s vajcami, ovsenými vločkami, cottage syrom a oreganom, osoľ a opeprí.",
-    "Ak je zmes riedka, prisyp vločky, ak príliš tuhá, prilej trochu mlieka.",
-    "Z hmoty tvaruj kuličky lyžičkou alebo rukami a ukladaj na plech s papierom na pečenie.",
-    "Pečieme pri 180–190 °C 15–20 minút."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["snack", "cuketa", "vajcia", "fit"]
+ "id": "cuketove-kulicky",
+ "nazov": "Cuketové kuličky",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 5,
+ "cas": "30 min",
+ "kcal_na_porciu": 223,
+ "popis": "Pečené kuličky z nastrúhanej cukety, vajec a ovsených vločiek.",
+ "ingrediencie": [
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "menšia"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Cottage syr",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Mleté oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Cuketu nastrúhaj najemno, osoľ a necháj vypustiť vodu na site (pod neho daj misku).",
+  "Vyžmýkaj cuketu rukami, aby zostala suchá.",
+  "Rúru predhrej na 190 °C.",
+  "Cuketu zmiešaj s vajcami, ovsenými vločkami, cottage syrom a oreganom, osoľ a opeprí.",
+  "Ak je zmes riedka, prisyp vločky, ak príliš tuhá, prilej trochu mlieka.",
+  "Z hmoty tvaruj kuličky lyžičkou alebo rukami a ukladaj na plech s papierom na pečenie.",
+  "Peč pri 180–190 °C 15–20 minút."
+ ],
+ "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "cuketa",
+  "vajcia",
+  "fit"
+ ]
 }

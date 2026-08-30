@@ -1,29 +1,29 @@
 {
   "id": "2026-06-11",
   "nazov": "Týždeň KW24 (11.–17.6.2026)",
-  "od": "2026-06-11",
+  "od": "2026-06-08",
   "ciel_kcal": 1400,
   "plan": {
-    "0": {
-      "Raňajky": "bageta-udena-sunka-gouda",
-      "Obed": "medovo-cesnakove-kura-ryza",
-      "Večera": "klobasky-gril-kapia-zemiaky"
-    },
-    "1": {
-      "Raňajky": "bageta-udena-sunka-gouda",
-      "Obed": "medovo-cesnakove-kura-ryza",
-      "Večera": "klobasky-gril-kapia-zemiaky"
-    },
+    "0": {},
+    "1": {},
     "2": {
-      "Raňajky": "tunakovy-wrap-uhorka",
-      "Obed": "domace-hovadzie-burgery"
+      "Raňajky": "bageta-udena-sunka-gouda",
+      "Obed": "medovo-cesnakove-kura-ryza",
+      "Večera": "klobasky-gril-kapia-zemiaky"
     },
     "3": {
+      "Raňajky": "bageta-udena-sunka-gouda",
+      "Obed": "medovo-cesnakove-kura-ryza",
+      "Večera": "klobasky-gril-kapia-zemiaky"
+    },
+    "4": {},
+    "5": {
       "Raňajky": "tunakovy-wrap-uhorka",
       "Obed": "domace-hovadzie-burgery"
     },
-    "4": {},
-    "5": {},
-    "6": {}
+    "6": {
+      "Raňajky": "tunakovy-wrap-uhorka",
+      "Obed": "domace-hovadzie-burgery"
+    }
   }
 }

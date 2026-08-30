@@ -1,29 +1,64 @@
 {
-  "id": "kakaove-gulky-do-mlieka",
-  "nazov": "Kakaové guľky do mlieka",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 6,
-  "cas": "29 min",
-  "kcal_na_porciu": 406,
-  "popis": "Drobné pečené guľky zo špaldovej múky a medu, ideálne na namáčanie do mlieka.",
-  "ingrediencie": [
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Jedlá sóda", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Prášok do pečiva", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Rozpustený kokosový olej", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Med", "mnozstvo": 120, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mlieko", "mnozstvo": 250, "jednotka": "ml", "poznamka": ""}
-  ],
-  "postup": [
-    "Rúru predhrejte na 180 °C.",
-    "Všetky ingrediencie zmiešajte vo veľkej mise na hladké cesto.",
-    "Cesto preložte do zdobiaceho vrecka a na plech vyložený papierom na pečenie vytláčajte malé kolieska (asi 0,5 cm).",
-    "Špičku na každom koliesku zahlaďte namočeným prstom.",
-    "Pečte v predhriatej rúre 4-5 minút pri 170-180 °C."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["dezert", "kakao", "špalda", "pečenie"]
+ "id": "kakaove-gulky-do-mlieka",
+ "nazov": "Kakaové guľky do mlieka",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 6,
+ "cas": "29 min",
+ "kcal_na_porciu": 406,
+ "popis": "Drobné pečené guľky zo špaldovej múky a medu, ideálne na namáčanie do mlieka.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jedlá sóda",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozpustený kokosový olej",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "Všetky ingrediencie zmiešaj vo veľkej mise na hladké cesto.",
+  "Cesto prelož do zdobiaceho vrecka a na plech vyložený papierom na pečenie vytláčaj malé kolieska (asi 0,5 cm).",
+  "Špičku na každom koliesku zahlaď namočeným prstom.",
+  "Peč v predhriatej rúre 4-5 minút pri 170-180 °C."
+ ],
+ "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "kakao",
+  "špalda",
+  "pečenie"
+ ]
 }

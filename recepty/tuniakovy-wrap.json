@@ -1,84 +1,84 @@
 {
-  "id": "tuniakovy-wrap",
-  "nazov": "Tuniakový wrap s orechmi a zelerom",
-  "kategoria": "Šalát",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Budget Bytes",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 385,
-  "popis": "Chrumkavá tuniaková zmes so zelerom, vlašskými orechmi a majonézou, zabalená v tortille.",
-  "ingrediencie": [
-    {
-      "nazov": "Tuniak",
-      "mnozstvo": 370,
-      "jednotka": "g",
-      "poznamka": "vo vlastnej šťave, 2 plechovky"
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 67,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Vlašské orechy",
-      "mnozstvo": 20,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Jarná cibuľka",
-      "mnozstvo": 2,
-      "jednotka": "ks"
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 74,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Citrónová šťava",
-      "mnozstvo": 10,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Paradajka",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "slivkové"
-    },
-    {
-      "nazov": "Šalát",
-      "mnozstvo": 8,
-      "jednotka": "list",
-      "poznamka": "rímsky"
-    },
-    {
-      "nazov": "Tortilla",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "veľké"
-    },
-    {
-      "nazov": "Soľ a čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "štipka"
-    }
-  ],
-  "postup": [
-    "Plechovky tuniaka dôkladne sceď.",
-    "Nadrobno nakrájaj zeler, nasekaj orechy a nakrájaj jarnú cibuľku.",
-    "Zmiešaj tuniak, zeler, orechy, cibuľku, majonézu, citrónovú šťavu, soľ a korenie.",
-    "Natrhaj šalát a nakrájaj paradajky na tenké plátky.",
-    "Tortillu krátko prihrej, aby sa dobre rolovala.",
-    "Na tortillu ulož šalát, paradajky a štvrtinu tuniakovej zmesi.",
-    "Pevne zroluj švom nadol; spolu 4 wrapy."
-  ],
-  "tipy": "Šalát daj naspodok — chráni tortillu pred rozmočením. Zmes vydrží v chladničke 4 dni.",
-  "foto": "",
-  "tagy": [
-    "raňajky",
-    "wrap",
-    "tuniak"
-  ]
+ "id": "tuniakovy-wrap",
+ "nazov": "Tuniakový wrap s orechmi a zelerom",
+ "kategoria": "Šalát",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Budget Bytes",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 385,
+ "popis": "Chrumkavá tuniaková zmes so zelerom, vlašskými orechmi a majonézou, zabalená v tortille.",
+ "ingrediencie": [
+  {
+   "nazov": "Tuniak",
+   "mnozstvo": 370,
+   "jednotka": "g",
+   "poznamka": "vo vlastnej šťave, 2 plechovky"
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 67,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 74,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 10,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "slivkové"
+  },
+  {
+   "nazov": "Šalát",
+   "mnozstvo": 8,
+   "jednotka": "list",
+   "poznamka": "rímsky"
+  },
+  {
+   "nazov": "Tortilla",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "veľké"
+  },
+  {
+   "nazov": "Soľ a čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "štipka"
+  }
+ ],
+ "postup": [
+  "Plechovky tuniaka dôkladne sceď.",
+  "Nadrobno nakrájaj zeler, nasekaj orechy a nakrájaj jarnú cibuľku.",
+  "Zmiešaj tuniak, zeler, orechy, cibuľku, majonézu, citrónovú šťavu, soľ a korenie.",
+  "Natrhaj šalát a nakrájaj paradajky na tenké plátky.",
+  "Tortillu krátko prihrej, aby sa dobre rolovala.",
+  "Na tortillu ulož šalát, paradajky a štvrtinu tuniakovej zmesi.",
+  "Pevne zroluj švom nadol; spolu 4 wrapy."
+ ],
+ "tipy": "Šalát daj naspodok — chráni tortillu pred rozmočením. Zmes vydrží v chladničke 4 dni.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "wrap",
+  "tuniak"
+ ]
 }

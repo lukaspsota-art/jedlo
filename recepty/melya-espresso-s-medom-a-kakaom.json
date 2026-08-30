@@ -7,7 +7,7 @@
  "zdroj_url": "https://www.thecocktaildb.com/drink/12776",
  "porcie": 1,
  "cas": "5 min",
- "popis": "Coffee / Tea · Coffee mug",
+ "popis": "Teplý nápoj. Základ: espresso, med, kakao. Podávaj v hrnčeku.",
  "ingrediencie": [
   {
    "nazov": "Espresso",
@@ -29,16 +29,18 @@
   }
  ],
  "postup": [
-  "Uvaríme espresso.",
-  "Do hrnčeka dáme lyžičku nesladeného kakaa a lyžičku medu.",
-  "Miešame, kým sa med s kakaom nespoja na hladkú čokoládovú hmotu.",
-  "Zalejeme horúcim espressom a miešame, kým sa všetko nerozpustí.",
-  "Podávame so smotanou."
+  "Uvar espresso.",
+  "Do hrnčeka daj lyžičku nesladeného kakaa a lyžičku medu.",
+  "Miešaj, kým sa med s kakaom nespoja na hladkú čokoládovú hmotu.",
+  "Zalej horúcim espressom a miešaj, kým sa všetko nerozpustí.",
+  "Podávaj so smotanou."
  ],
- "tipy": "",
+ "tipy": "Med primiešaj až do vlažnej zmesi. Nad 40 °C stráca vôňu aj časť enzýmov.",
  "foto": "",
  "tagy": [
   "nápoj",
-  "bezmäsité"
+  "bezmäsité",
+  "káva",
+  "čokoláda"
  ]
 }

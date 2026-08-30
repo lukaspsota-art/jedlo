@@ -1,28 +1,68 @@
 {
-  "id": "cappuccino-mliecna-ryza",
-  "nazov": "Cappuccino mliečna ryža",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "55 min",
-  "kcal_na_porciu": 155,
-  "popis": "Mliečna ryžová kaša dochutená espressom, medom a škoricou v štýle cappuccina.",
-  "ingrediencie": [
-    {"nazov": "Mandľové mlieko", "mnozstvo": 400, "jednotka": "ml", "poznamka": "možno nahradiť iným mliekom"},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Hnedá ryža surová", "mnozstvo": 55, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Espresso silné", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": ""},
-    {"nazov": "Škorica mletá", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""}
-  ],
-  "postup": [
-    "Do hrnca vlejeme mlieko, vanilkový extrakt a espresso, pridáme med, štipku soli a škoricu.",
-    "Vsypeme ryžu a privedieme k varu.",
-    "Varíme na strednom plameni 35-40 minút, kým ryža nezmäkne."
-  ],
-  "tipy": "Ryžu môžete podávať s gréckym jogurtom osladeným medom.",
-  "foto": "",
-  "tagy": ["ryža", "raňajky", "kaša", "espresso"]
+ "id": "cappuccino-mliecna-ryza",
+ "nazov": "Cappuccino mliečna ryža",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "55 min",
+ "kcal_na_porciu": 155,
+ "popis": "Mliečna ryžová kaša dochutená espressom, medom a škoricou v štýle cappuccina.",
+ "ingrediencie": [
+  {
+   "nazov": "Mandľové mlieko",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": "možno nahradiť iným mliekom"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hnedá ryža surová",
+   "mnozstvo": 55,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Espresso silné",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škorica mletá",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do hrnca vlej mlieko, vanilkový extrakt a espresso, pridaj med, štipku soli a škoricu.",
+  "Vsyp ryžu a priveď k varu.",
+  "Var na strednom plameni 35-40 minút, kým ryža nezmäkne."
+ ],
+ "tipy": "Ryžu môžete podávať s gréckym jogurtom osladeným medom.",
+ "foto": "",
+ "tagy": [
+  "ryža",
+  "raňajky",
+  "kaša",
+  "espresso"
+ ]
 }

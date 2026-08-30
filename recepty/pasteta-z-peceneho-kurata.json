@@ -1,64 +1,64 @@
 {
-  "id": "pasteta-z-peceneho-kurata",
-  "nazov": "Paštéta z pečeného kuraťa",
-  "kategoria": "Nátierka",
-  "kuchyna": "Slovenská",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 2,
-  "cas": "60 min",
-  "kcal_na_porciu": 300,
-  "popis": "Jemná paštéta z pečeného kuraťa s upečeným cesnakom, maslom a horčicou.",
-  "ingrediencie": [
-    {
-      "nazov": "Mäsa z pečeného kuraťa",
-      "mnozstvo": 200,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "maslo",
-      "mnozstvo": 90,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Cesnaku",
-      "mnozstvo": 6,
-      "jednotka": "strúčik"
-    },
-    {
-      "nazov": "dijonská horčica",
-      "mnozstvo": 2,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Bylinky",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Z hlavičiek cesnaku odrež vrchnú časť, pokvapkaj olejom, zabaľ do alobalu a peč pri 180 °C 30–35 min domäkka. Vytlač strúčiky zo šupiek.",
-    "Kuracie mäso, upečený cesnak, maslo, horčicu a bylinky vlož do mixéra. Osoľ, okoreň a mixuj dohladka. Prelož do pohárov a nechaj v chladničke odležať 1–2 h."
-  ],
-  "tipy": "Skvelý spôsob, ako využiť zvyšok pečeného kuraťa.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "kuracie",
-    "cesnak"
-  ]
+ "id": "pasteta-z-peceneho-kurata",
+ "nazov": "Paštéta z pečeného kuraťa",
+ "kategoria": "Nátierka",
+ "kuchyna": "Slovenská",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 2,
+ "cas": "60 min",
+ "kcal_na_porciu": 300,
+ "popis": "Jemná paštéta z pečeného kuraťa s upečeným cesnakom, maslom a horčicou.",
+ "ingrediencie": [
+  {
+   "nazov": "Mäsa z pečeného kuraťa",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "maslo",
+   "mnozstvo": 90,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Cesnaku",
+   "mnozstvo": 6,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "dijonská horčica",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Bylinky",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": null,
+   "jednotka": ""
+  }
+ ],
+ "postup": [
+  "Z hlavičiek cesnaku odrež vrchnú časť, pokvapkaj olejom, zabaľ do alobalu a peč pri 180 °C 30–35 min domäkka. Vytlač strúčiky zo šupiek.",
+  "Kuracie mäso, upečený cesnak, maslo, horčicu a bylinky vlož do mixéra. Osoľ, okoreň a mixuj dohladka. Prelož do pohárov a nechaj v chladničke odležať 1–2 h."
+ ],
+ "tipy": "Skvelý spôsob, ako využiť zvyšok pečeného kuraťa.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "kuracie",
+  "cesnak"
+ ]
 }

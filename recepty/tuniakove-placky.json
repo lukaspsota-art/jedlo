@@ -1,96 +1,96 @@
 {
-  "id": "tuniakove-placky",
-  "nazov": "Tuniakové placky",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Anglická",
-  "zdroj": "Wikibooks Cookbook – Tuna Fish Cakes (CC BY-SA)",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 505,
-  "popis": "Placky zo zemiakovej kaše s tuniakom, kukuricou a hráškom, obaľované v strúhanke. Dajú sa upiecť, zagrilovať aj usmažiť.",
-  "ingrediencie": [
-    {
-      "nazov": "Zemiaky",
-      "mnozstvo": 700,
-      "jednotka": "g",
-      "poznamka": "uvarené a rozmačkané"
-    },
-    {
-      "nazov": "Tuniak",
-      "mnozstvo": 425,
-      "jednotka": "g",
-      "poznamka": "odkvapkaný"
-    },
-    {
-      "nazov": "Kukurica",
-      "mnozstvo": 180,
-      "jednotka": "g",
-      "poznamka": "z konzervy"
-    },
-    {
-      "nazov": "Hrášok",
-      "mnozstvo": 180,
-      "jednotka": "g",
-      "poznamka": "mrazený, rozmrazený a odkvapkaný"
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": "uvarená, malé kúsky"
-    },
-    {
-      "nazov": "Koriander",
-      "mnozstvo": 4,
-      "jednotka": "PL",
-      "poznamka": "nasekané čerstvé bylinky"
-    },
-    {
-      "nazov": "Chilli omáčka",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "rozšľahané"
-    },
-    {
-      "nazov": "Strúhanka",
-      "mnozstvo": 130,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Vo veľkej miske zmiešaj všetky zložky okrem strúhanky a miešaj, kým sa nespoja.",
-    "Zo zmesi vytvaruj placky a jemne ich obaľ v strúhanke, kým nie sú dobre pokryté.",
-    "Placky rozlož na plech a peč v stredne vyhriatej rúre pri 200 °C 30-35 minút, raz otoč, kým nie sú zlaté a chrumkavé.",
-    "Alebo ich zapekaj pod stredne silným grilom 8-10 minút z každej strany.",
-    "Alebo ich smaž na troche oleja na panvici 5 minút z každej strany do chrumkava, dobre odkvapkaj a udrž teplé."
-  ],
-  "tipy": "Zemiaková kaša musí byť vychladnutá, inak sa placky rozpadnú. Bylinky použi podľa toho, čo máš - koriander, bazalku aj petržlen.",
-  "foto": "",
-  "tagy": [
-    "obed",
-    "večera",
-    "anglická",
-    "tuniak",
-    "zemiaky",
-    "lacné"
-  ]
+ "id": "tuniakove-placky",
+ "nazov": "Tuniakové placky",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Anglická",
+ "zdroj": "Wikibooks Cookbook – Tuna Fish Cakes (CC BY-SA)",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 505,
+ "popis": "Placky zo zemiakovej kaše s tuniakom, kukuricou a hráškom, obaľované v strúhanke. Dajú sa upiecť, zagrilovať aj usmažiť.",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 700,
+   "jednotka": "g",
+   "poznamka": "uvarené a rozmačkané"
+  },
+  {
+   "nazov": "Tuniak",
+   "mnozstvo": 425,
+   "jednotka": "g",
+   "poznamka": "odkvapkaný"
+  },
+  {
+   "nazov": "Kukurica",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": "z konzervy"
+  },
+  {
+   "nazov": "Hrášok",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": "mrazený, rozmrazený a odkvapkaný"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "uvarená, malé kúsky"
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": "nasekané čerstvé bylinky"
+  },
+  {
+   "nazov": "Chilli omáčka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "rozšľahané"
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 130,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Vo veľkej miske zmiešaj všetky zložky okrem strúhanky a miešaj, kým sa nespoja.",
+  "Zo zmesi vytvaruj placky a jemne ich obaľ v strúhanke, kým nie sú dobre pokryté.",
+  "Placky rozlož na plech a peč v stredne vyhriatej rúre pri 200 °C 30-35 minút, raz otoč, kým nie sú zlaté a chrumkavé.",
+  "Alebo ich zapekaj pod stredne silným grilom 8-10 minút z každej strany.",
+  "Alebo ich smaž na troche oleja na panvici 5 minút z každej strany do chrumkava, dobre odkvapkaj a udrž teplé."
+ ],
+ "tipy": "Zemiaková kaša musí byť vychladnutá, inak sa placky rozpadnú. Bylinky použi podľa toho, čo máš - koriander, bazalku aj petržlen.",
+ "foto": "",
+ "tagy": [
+  "obed",
+  "večera",
+  "anglická",
+  "tuniak",
+  "zemiaky",
+  "lacné"
+ ]
 }

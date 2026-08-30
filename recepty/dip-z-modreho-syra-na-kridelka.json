@@ -1,64 +1,64 @@
 {
-  "id": "dip-z-modreho-syra-na-kridelka",
-  "nazov": "Dip z modrého syra na krídelká",
-  "kategoria": "Nátierka",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Hot Wing Dip (CC BY-SA)",
-  "porcie": 6,
-  "cas": "10 min",
-  "kcal_na_porciu": 158,
-  "popis": "Rozdrobený modrý syr s kyslou smotanou, cesnakom a kajenským korením. Klasický dip ku pálivým krídelkám.",
-  "ingrediencie": [
-    {
-      "nazov": "Gorgonzola",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "rozdrobená"
-    },
-    {
-      "nazov": "Kyslá smotana",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 0.5,
-      "jednotka": "PL",
-      "poznamka": "nasekaný najemno"
-    },
-    {
-      "nazov": "Kajenské korenie",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "stopkový, na pásiky"
-    }
-  ],
-  "postup": [
-    "V servírovacej miske zmiešaj syr, kajenské korenie, kyslú smotanu, cesnak a soľ.",
-    "Podávaj so zelerovými pásikmi a pálivými krídelkami."
-  ],
-  "tipy": "Dve lyžice kajenského korenia sú v origináli veľmi veľa - začni s jednou lyžičkou a dochuť podľa chuti. Soli tiež stačí menej.",
-  "foto": "",
-  "tagy": [
-    "nátierka",
-    "dip",
-    "americká",
-    "syr",
-    "pikantné",
-    "rýchle",
-    "bez varenia"
-  ]
+ "id": "dip-z-modreho-syra-na-kridelka",
+ "nazov": "Dip z modrého syra na krídelká",
+ "kategoria": "Nátierka",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Hot Wing Dip (CC BY-SA)",
+ "porcie": 6,
+ "cas": "10 min",
+ "kcal_na_porciu": 158,
+ "popis": "Rozdrobený modrý syr s kyslou smotanou, cesnakom a kajenským korením. Klasický dip ku pálivým krídelkám.",
+ "ingrediencie": [
+  {
+   "nazov": "Gorgonzola",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "rozdrobená"
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 0.5,
+   "jednotka": "PL",
+   "poznamka": "nasekaný najemno"
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "stopkový, na pásiky"
+  }
+ ],
+ "postup": [
+  "V servírovacej miske zmiešaj syr, kajenské korenie, kyslú smotanu, cesnak a soľ.",
+  "Podávaj so zelerovými pásikmi a pálivými krídelkami."
+ ],
+ "tipy": "Dve lyžice kajenského korenia sú v origináli veľmi veľa - začni s jednou lyžičkou a dochuť podľa chuti. Soli tiež stačí menej.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "dip",
+  "americká",
+  "syr",
+  "pikantné",
+  "rýchle",
+  "bez varenia"
+ ]
 }

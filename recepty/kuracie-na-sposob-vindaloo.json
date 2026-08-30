@@ -1,133 +1,135 @@
 {
- "id": "kuracie-na-sposob-vindaloo",
- "nazov": "Kuracie na spôsob vindaloo",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "BBC Good Food – Chicken vindaloo",
- "zdroj_url": "https://www.bbcgoodfood.com/recipes/chicken-vindaloo",
- "porcie": 4,
- "cas": "45 min",
- "kcal_na_porciu": 374,
- "popis": "Turn up the heat with this member recipe for homemade chicken vindaloo made with plenty of aromatic spices. Serve with warmed flatbreads for a simple, satisfying supper",
- "ingrediencie": [
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Škorica",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": "stick lightly bruised or drvená"
-  },
-  {
-   "nazov": "Čili vločky",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kajenské korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": "najemno nasekaná"
-  },
-  {
-   "nazov": "Drvené paradajky",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Koriander",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "voliteľné, čerstvá chilli a warmed flatbreads or rice"
-  },
-  {
-   "nazov": "Citrónová šťava",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kurkuma",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čili vločky",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": "drvená or nastrúhaná garlic approx 2-3 veľká"
-  },
-  {
-   "nazov": "Zázvor",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": "finely nastrúhaná"
-  },
-  {
-   "nazov": "Garam masala",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rasca",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": "mleté"
-  },
-  {
-   "nazov": "Koriander",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": "mleté"
-  },
-  {
-   "nazov": "Kajenské korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horčica",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Vo veľkej mise zmiešame citrónovú šťavu, kurča nakrájané na kocky, cesnak a zázvor so sušenými koreninami a 2 ČL soli. Prikryjeme a necháme marinovať v chladničke aspoň 3–4 hodiny, ideálne cez noc.",
-  "Vo veľkom hrnci rozohrejeme 2 PL oleja na stredne vysokom ohni. Pridáme lyžičku kurkumy pre farbu a chuť, potom paradajkový pretlak. Podľa chuti pridáme čili vločky. Kurča krátko opečieme a vyberieme na tanier — v tejto fáze ešte nie je prepečené. Pridáme zvyšný olej a nakrájanú cibuľu a na strednom ohni restujeme 10–15 minút do zmäknutia. Pridáme zvyšné koreniny a restujeme 2 minúty. Vmiešame nakrájané paradajky a 200 ml vody, vrátime kurča, prikryjeme a dusíme 15–20 minút, kým nie je mäso prepečené. Dochutíme.",
-  "Ozdobíme koriandrom, čerstvým čili a chrumkavou cibuľou a podávame s plackami alebo ryžou."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kuracie"
- ]
+  "id": "kuracie-na-sposob-vindaloo",
+  "nazov": "Kuracie na spôsob vindaloo",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "BBC Good Food – Chicken vindaloo",
+  "zdroj_url": "https://www.bbcgoodfood.com/recipes/chicken-vindaloo",
+  "porcie": 4,
+  "cas": "45 min",
+  "kcal_na_porciu": 179,
+  "popis": "Poriadne pálivé domáce kuracie vindaloo s množstvom aromatických korenín. Podávaj s ryžou alebo plackovým chlebom.",
+  "ingrediencie": [
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "stick lightly bruised or drvená"
+    },
+    {
+      "nazov": "Čili vločky",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kajenské korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "najemno nasekaná"
+    },
+    {
+      "nazov": "Drvené paradajky",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Koriander",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "voliteľné, čerstvá chilli a warmed flatbreads or rice"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kurkuma",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čili vločky",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": "drvená or nastrúhaná garlic approx 2-3 veľká"
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": "finely nastrúhaná"
+    },
+    {
+      "nazov": "Garam masala",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": "mleté"
+    },
+    {
+      "nazov": "Koriander",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": "mleté"
+    },
+    {
+      "nazov": "Kajenské korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vo veľkej mise zmiešaj citrónovú šťavu, kurča nakrájané na kocky, cesnak a zázvor so sušenými koreninami a 2 ČL soli. Prikryj a nechaj marinovať v chladničke aspoň 3–4 hodiny, ideálne cez noc.",
+    "Vo veľkom hrnci rozohrej 2 PL oleja na stredne vysokom ohni. Pridaj lyžičku kurkumy pre farbu a chuť, potom paradajkový pretlak. Podľa chuti pridaj čili vločky. Kurča krátko opeč a vyber na tanier — v tejto fáze ešte nie je prepečené. Pridaj zvyšný olej a nakrájanú cibuľu a na strednom ohni restuj 10–15 minút do zmäknutia. Pridaj zvyšné koreniny a restuj 2 minúty. Vmiešaj nakrájané paradajky a 200 ml vody, vráť kurča, prikryj a dus 15–20 minút, kým nie je mäso prepečené. Dochuť.",
+    "Ozdob koriandrom, čerstvým čili a chrumkavou cibuľou a podávaj s plackami alebo ryžou."
+  ],
+  "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kuracie",
+    "zelenina"
+  ],
+  "kcal_zdroj": "vypocet"
 }

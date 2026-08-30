@@ -1,29 +1,74 @@
 {
-  "id": "bananove-lievance",
-  "nazov": "Banánové lievance",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 2,
-  "cas": "9 min",
-  "kcal_na_porciu": 307,
-  "popis": "Jednoduché lievance z rozmixovaného banánu, vajec a ovsených vločiek.",
-  "ingrediencie": [
-    {"nazov": "Banán", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Ovsené vločky", "mnozstvo": 30, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Kokosový olej", "mnozstvo": 15, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Špaldová múka", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Škorica", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Kypriaci prášok bez fosfátov", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""}
-  ],
-  "postup": [
-    "Všetky ingrediencie rozmixuj dohladka.",
-    "Z cesta tvaruj menšie lievance.",
-    "Opekaj na nepriľnavej panvici (alebo na lyžici kokosového oleja) 2 minúty z každej strany."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["raňajky", "lievance", "banán", "ovsené vločky"]
+ "id": "bananove-lievance",
+ "nazov": "Banánové lievance",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 2,
+ "cas": "9 min",
+ "kcal_na_porciu": 307,
+ "popis": "Jednoduché lievance z rozmixovaného banánu, vajec a ovsených vločiek.",
+ "ingrediencie": [
+  {
+   "nazov": "Banán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 15,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špaldová múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kypriaci prášok bez fosfátov",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie rozmixuj dohladka.",
+  "Z cesta tvaruj menšie lievance.",
+  "Opekaj na nepriľnavej panvici (alebo na lyžici kokosového oleja) 2 minúty z každej strany."
+ ],
+ "tipy": "Cesto nechaj pred pečením 20 minút odpočívať. Múka nasiakne a palacinky budú vláčnejšie, nie gumové.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "lievance",
+  "banán",
+  "ovsené vločky"
+ ]
 }

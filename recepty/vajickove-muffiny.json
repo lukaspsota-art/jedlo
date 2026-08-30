@@ -1,33 +1,83 @@
 {
-  "id": "vajickove-muffiny",
-  "nazov": "Vajíčkové muffiny",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 12,
-  "cas": "15 min",
-  "kcal_na_porciu": 105,
-  "popis": "Slané vaječné muffiny so šunkou, mozzarellou a špenátom.",
-  "ingrediencie": [
-    {"nazov": "Vajce", "mnozstvo": 10, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Kvalitná šunka", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Jarná cibuľka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Mozzarella", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Špenát", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Sušené paradajky", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Tymian", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 160 °C.",
-    "V mise vyšľahajte vajcia.",
-    "Šunku nakrájajte na kocky, cibuľku, mozzarellu, špenát a paradajky nadrobno a pridajte k vajciam.",
-    "Osoľte, okoreňte a ochuťte tymianom.",
-    "Cesto rozdeľte do 12 formičiek na muffiny.",
-    "Pečte pri 150-160 °C 8-10 minút."
-  ],
-  "tipy": "K muffinom môžete pridať tuniaka vo vlastnej šťave.",
-  "foto": "",
-  "tagy": ["vajcia", "muffiny", "raňajky", "šunka"]
+ "id": "vajickove-muffiny",
+ "nazov": "Vajíčkové muffiny",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 12,
+ "cas": "15 min",
+ "kcal_na_porciu": 105,
+ "popis": "Slané vaječné muffiny so šunkou, mozzarellou a špenátom.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kvalitná šunka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Špenát",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené paradajky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 160 °C.",
+  "V mise vyšľahaj vajcia.",
+  "Šunku nakrájaj na kocky, cibuľku, mozzarellu, špenát a paradajky nadrobno a pridaj k vajciam.",
+  "Osoľ, okoreň a ochuť tymianom.",
+  "Cesto rozdeľ do 12 formičiek na muffiny.",
+  "Peč pri 150-160 °C 8-10 minút."
+ ],
+ "tipy": "K muffinom môžete pridať tuniaka vo vlastnej šťave.",
+ "foto": "",
+ "tagy": [
+  "vajcia",
+  "muffiny",
+  "raňajky",
+  "šunka"
+ ]
 }

@@ -1,78 +1,78 @@
 {
-  "id": "caesar-salat",
-  "nazov": "Caesar salát",
-  "kategoria": "Šalát",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Caesar Salad (CC BY-SA)",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 246,
-  "popis": "Rímsky šalát obalený v olivovom oleji, worcesterovej omáčke a vajciach varených namäkko, s cesnakovými krutónmi.",
-  "ingrediencie": [
-    {
-      "nazov": "Šalát",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "rímsky, nahrubo nasekaný"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 50,
-      "jednotka": "ml",
-      "poznamka": "extra virgin"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "morská, výdatná štipka",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "červený vínny"
-    },
-    {
-      "nazov": "Worcesterová omáčka",
-      "mnozstvo": 3,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "varené namäkko"
-    },
-    {
-      "nazov": "Krutóny",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": "cesnakové"
-    }
-  ],
-  "postup": [
-    "Šalát pokvapkaj dvoma lyžicami olivového oleja a premiešaj, aby sa obalil.",
-    "Osoľ a opepri a znova premiešaj.",
-    "Prilej ocot a premiešaj.",
-    "Pokvapkaj worcesterovou omáčkou a premiešaj.",
-    "Vajcia rozklop priamo na salát a premiešaj, aby sa obalil.",
-    "Navrch daj cesnakové krutóny a podávaj."
-  ],
-  "tipy": "Vajcia varené namäkko tu robia zálievku - rozklopené priamo na salát obalia listy. Podávaj hneď, inak listy zvädnú.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "obed",
-    "americká",
-    "vegetariánske",
-    "rýchle"
-  ]
+ "id": "caesar-salat",
+ "nazov": "Caesar salát",
+ "kategoria": "Šalát",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Caesar Salad (CC BY-SA)",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 246,
+ "popis": "Rímsky šalát obalený v olivovom oleji, worcesterovej omáčke a vajciach varených namäkko, s cesnakovými krutónmi.",
+ "ingrediencie": [
+  {
+   "nazov": "Šalát",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "rímsky, nahrubo nasekaný"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": "extra virgin"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "morská, výdatná štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "červený vínny"
+  },
+  {
+   "nazov": "Worcesterová omáčka",
+   "mnozstvo": 3,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "varené namäkko"
+  },
+  {
+   "nazov": "Krutóny",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "cesnakové"
+  }
+ ],
+ "postup": [
+  "Šalát pokvapkaj dvoma lyžicami olivového oleja a premiešaj, aby sa obalil.",
+  "Osoľ a opepri a znova premiešaj.",
+  "Prilej ocot a premiešaj.",
+  "Pokvapkaj worcesterovou omáčkou a premiešaj.",
+  "Vajcia rozklop priamo na salát a premiešaj, aby sa obalil.",
+  "Navrch daj cesnakové krutóny a podávaj."
+ ],
+ "tipy": "Vajcia varené namäkko tu robia zálievku - rozklopené priamo na salát obalia listy. Podávaj hneď, inak listy zvädnú.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "obed",
+  "americká",
+  "vegetariánske",
+  "rýchle"
+ ]
 }

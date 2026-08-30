@@ -1,33 +1,88 @@
 {
-  "id": "slana-ovsena-kasa-so-sampionmi",
-  "nazov": "Slaná ovsená kaša so šampiónmi",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 2,
-  "cas": "35 min",
-  "kcal_na_porciu": 588,
-  "popis": "Slaná ovsená kaša s parmezánom, podávaná s opečenými šampiónmi a strateným vajcom.",
-  "ingrediencie": [
-    {"nazov": "Ovsené vločky", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Šampióny", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Rozmarín sušený", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Parmezán strúhaný", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "V rendlíku privedieme k varu 400 ml vody, vsypeme ovsené vločky a varíme 15 minút domäkka.",
-    "Medzitým na 2 PL olivového oleja opražíme šalotku, pridáme na plátky nakrájané šampióny, roztlačený cesnak a rozmarín, opekáme 8 minút.",
-    "Do uvarených vločiek zamiešame strúhaný parmezán a dochutíme soľou a korením.",
-    "Pripravíme stratené vajce vo vode s trochou octu.",
-    "Kašu rozdelíme na 2 porcie a podávame s opečenými šampiónmi a strateným vajcom."
-  ],
-  "tipy": "K šampiónom pridajte na posledné 2 minúty opekania 2 hrsti baby špenátu.",
-  "foto": "",
-  "tagy": ["ovsená kaša", "raňajky", "šampióny", "vajce"]
+ "id": "slana-ovsena-kasa-so-sampionmi",
+ "nazov": "Slaná ovsená kaša so šampiónmi",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 2,
+ "cas": "35 min",
+ "kcal_na_porciu": 588,
+ "popis": "Slaná ovsená kaša s parmezánom, podávaná s opečenými šampiónmi a strateným vajcom.",
+ "ingrediencie": [
+  {
+   "nazov": "Ovsené vločky",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampióny",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín sušený",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán strúhaný",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "V rendlíku priveď k varu 400 ml vody, vsyp ovsené vločky a var 15 minút domäkka.",
+  "Medzitým na 2 PL olivového oleja opraž šalotku, pridaj na plátky nakrájané šampióny, roztlačený cesnak a rozmarín, opekaj 8 minút.",
+  "Do uvarených vločiek zamiešaj strúhaný parmezán a dochuť soľou a korením.",
+  "Priprav stratené vajce vo vode s trochou octu.",
+  "Kašu rozdeľ na 2 porcie a podávaj s opečenými šampiónmi a strateným vajcom."
+ ],
+ "tipy": "K šampiónom pridaj na posledné 2 minúty opekania 2 hrsti baby špenátu.",
+ "foto": "",
+ "tagy": [
+  "ovsená kaša",
+  "raňajky",
+  "šampióny",
+  "vajce"
+ ]
 }

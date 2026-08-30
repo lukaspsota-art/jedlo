@@ -1,85 +1,85 @@
 {
-  "id": "pico-de-gallo",
-  "nazov": "Pico de gallo",
-  "kategoria": "Šalát",
-  "kuchyna": "Mexická",
-  "zdroj": "Wikibooks Cookbook – Pico de Gallo (CC BY-SA)",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 36,
-  "popis": "Mexická čerstvá salsa z paradajok, cibule, koriandra a jalapeña. Po pol hodine odstátia je najlepšia.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 400,
-      "jednotka": "g",
-      "poznamka": "bez semien, nasekané"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": "biela, nasekaná"
-    },
-    {
-      "nazov": "Koriander",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "nasekaný"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Limetka",
-      "mnozstvo": 2,
-      "jednotka": "ČL",
-      "poznamka": "čerstvo vytlačený sok"
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jalapeño",
-      "mnozstvo": 1.5,
-      "jednotka": "PL",
-      "poznamka": "bez stopiek a semien, nasekané najemno"
-    },
-    {
-      "nazov": "Cesnak",
-      "mnozstvo": 1,
-      "jednotka": "strúčik",
-      "poznamka": "nasekaný najemno"
-    },
-    {
-      "nazov": "Chilli omáčka",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zeleninu a koriander umy.",
-    "Zmiešaj zeleninu a poriadne premiešaj.",
-    "Pridaj soľ, korenie, chilli, limetkový sok a cesnak.",
-    "Podľa chuti pridaj pálivú omáčku.",
-    "Nechaj 30 minút odstáť, aby sa chute prepojili."
-  ],
-  "tipy": "Paradajky zbav semien a šťavy, inak bude salsa vodnatá. Tridsať minút odstátia nie je voliteľných - surová cibuľa potrebuje čas.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "príloha",
-    "mexická",
-    "paradajky",
-    "vegánske",
-    "rýchle",
-    "bez varenia"
-  ]
+ "id": "pico-de-gallo",
+ "nazov": "Pico de gallo",
+ "kategoria": "Šalát",
+ "kuchyna": "Mexická",
+ "zdroj": "Wikibooks Cookbook – Pico de Gallo (CC BY-SA)",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 36,
+ "popis": "Mexická čerstvá salsa z paradajok, cibule, koriandra a jalapeña. Po pol hodine odstátia je najlepšia.",
+ "ingrediencie": [
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "bez semien, nasekané"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "biela, nasekaná"
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "nasekaný"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "čerstvo vytlačený sok"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jalapeño",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": "bez stopiek a semien, nasekané najemno"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "nasekaný najemno"
+  },
+  {
+   "nazov": "Chilli omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zeleninu a koriander umy.",
+  "Zmiešaj zeleninu a poriadne premiešaj.",
+  "Pridaj soľ, korenie, chilli, limetkový sok a cesnak.",
+  "Podľa chuti pridaj pálivú omáčku.",
+  "Nechaj 30 minút odstáť, aby sa chute prepojili."
+ ],
+ "tipy": "Paradajky zbav semien a šťavy, inak bude salsa vodnatá. Tridsať minút odstátia nie je voliteľných - surová cibuľa potrebuje čas.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "príloha",
+  "mexická",
+  "paradajky",
+  "vegánske",
+  "rýchle",
+  "bez varenia"
+ ]
 }

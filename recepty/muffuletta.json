@@ -1,72 +1,72 @@
 {
-  "id": "muffuletta",
-  "nazov": "Muffuletta",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Muffuletta Sandwich (CC BY-SA)",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 896,
-  "popis": "Sendvič z New Orleans - okrúhly chlieb s olivovou nátierkou a vrstvami talianskych údenín a syrov. Po zložení sa zaťaží.",
-  "ingrediencie": [
-    {
-      "nazov": "Focaccia",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "okrúhly chlieb, priemer asi 25 cm"
-    },
-    {
-      "nazov": "Olivová nátierka",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Šunka",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Mortadella",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Saláma",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Emental",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Syr",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "provolone, plátky"
-    }
-  ],
-  "postup": [
-    "Chlieb rozkroj vodorovne a obe rezané strany potri olivovou nátierkou.",
-    "Pre autentickú muffulettu z Central Grocery navrstvi na spodnú polovicu salámu, šunku, emental, provolone, mortadellu a druhú vrstvu salámy.",
-    "Prikry vrchnou polovicou a stlač.",
-    "Muffulettu rozkroj na štvrtiny a podávaj, alebo ju pevne zabaľ do fólie a odlož na neskôr."
-  ],
-  "tipy": "Zabalená a zaťažená muffuletta je na druhý deň lepšia - olivový olej presiakne do striedky. Olivovú nátierku si sprav z nasekaných olív, artičokov, kaparov, cesnaku, oregana a olivového oleja.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "americká",
-    "talianska",
-    "údeniny",
-    "príprava vopred",
-    "na výlet"
-  ]
+ "id": "muffuletta",
+ "nazov": "Muffuletta",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Muffuletta Sandwich (CC BY-SA)",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 896,
+ "popis": "Sendvič z New Orleans - okrúhly chlieb s olivovou nátierkou a vrstvami talianskych údenín a syrov. Po zložení sa zaťaží.",
+ "ingrediencie": [
+  {
+   "nazov": "Focaccia",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": "okrúhly chlieb, priemer asi 25 cm"
+  },
+  {
+   "nazov": "Olivová nátierka",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šunka",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Mortadella",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Saláma",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Emental",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "provolone, plátky"
+  }
+ ],
+ "postup": [
+  "Chlieb rozkroj vodorovne a obe rezané strany potri olivovou nátierkou.",
+  "Pre autentickú muffulettu z Central Grocery navrstvi na spodnú polovicu salámu, šunku, emental, provolone, mortadellu a druhú vrstvu salámy.",
+  "Prikry vrchnou polovicou a stlač.",
+  "Muffulettu rozkroj na štvrtiny a podávaj, alebo ju pevne zabaľ do fólie a odlož na neskôr."
+ ],
+ "tipy": "Zabalená a zaťažená muffuletta je na druhý deň lepšia - olivový olej presiakne do striedky. Olivovú nátierku si sprav z nasekaných olív, artičokov, kaparov, cesnaku, oregana a olivového oleja.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "americká",
+  "talianska",
+  "údeniny",
+  "príprava vopred",
+  "na výlet"
+ ]
 }

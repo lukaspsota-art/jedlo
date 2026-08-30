@@ -1,35 +1,95 @@
 {
-  "id": "plnene-krutie-prsia-s-batatovym-pyre-a-chilli",
-  "nazov": "Plnené morčacie prsia s batátovým pyré a chilli",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 2,
-  "cas": "85 min",
-  "kcal_na_porciu": 413,
-  "popis": "Morčacie prsia plnené koriandrovo-limetkovou nátierkou, podávané s pikantným batátovým pyré.",
-  "ingrediencie": [
-    {"nazov": "Sladké zemiaky (batáty)", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Morčacie prsia", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mletý koriander", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Jarná cibuľka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Kokosové mlieko z konzervy", "mnozstvo": 20, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Limetka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Mleté chilli", "mnozstvo": 0.25, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 180 °C, batáty očistite, nakrájajte na kocky a varte v osolenej vode 20-25 minút do mäkka.",
-    "Morčacie prsia očistite, odrežte nevzhľadné časti a dajte stranou.",
-    "Odrezky rozmixujte s koriandrom, bielou časťou jarných cibuliek, kokosovým mliekom a šťavou z limetky.",
-    "Rozklepnuté morčacie prsia naplňte touto zmesou a zrolujte spolu so zelenou časťou cibuliek.",
-    "Závitky opečte zo všetkých strán, preložte do zapekacej misy a pečte 20-25 minút pri 170-180 °C.",
-    "Uvarené batáty sceďte a rozmixujte s limetkovou kôrou, soľou, korením, medom a chilli."
-  ],
-  "tipy": "Podávajte s mätovo-rukolovým pestom.",
-  "foto": "",
-  "tagy": ["morčacie mäso", "batáty", "chilli", "plnené"]
+ "id": "plnene-krutie-prsia-s-batatovym-pyre-a-chilli",
+ "nazov": "Plnené morčacie prsia s batátovým pyré a chilli",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 2,
+ "cas": "85 min",
+ "kcal_na_porciu": 413,
+ "popis": "Morčacie prsia plnené koriandrovo-limetkovou nátierkou, podávané s pikantným batátovým pyré.",
+ "ingrediencie": [
+  {
+   "nazov": "Sladké zemiaky (batáty)",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Morčacie prsia",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletý koriander",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové mlieko z konzervy",
+   "mnozstvo": 20,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté chilli",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C, batáty očisti, nakrájaj na kocky a var v osolenej vode 20-25 minút do mäkka.",
+  "Morčacie prsia očisti, odrež nevzhľadné časti a daj stranou.",
+  "Odrezky rozmixuj s koriandrom, bielou časťou jarných cibuliek, kokosovým mliekom a šťavou z limetky.",
+  "Rozklepnuté morčacie prsia naplň touto zmesou a zroluj spolu so zelenou časťou cibuliek.",
+  "Závitky opeč zo všetkých strán, prelož do zapekacej misy a peč 20-25 minút pri 170-180 °C.",
+  "Uvarené batáty sceď a rozmixuj s limetkovou kôrou, soľou, korením, medom a chilli."
+ ],
+ "tipy": "Podávaj s mätovo-rukolovým pestom.",
+ "foto": "",
+ "tagy": [
+  "morčacie mäso",
+  "batáty",
+  "chilli",
+  "plnené"
+ ]
 }

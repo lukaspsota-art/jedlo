@@ -1,36 +1,38 @@
 {
- "id": "screwdriver",
- "nazov": "Screwdriver",
- "kategoria": "Kokteil",
- "kuchyna": "Americká",
- "zdroj": "TheCocktailDB – Screwdriver",
- "zdroj_url": "https://www.thecocktaildb.com/drink/12162",
- "porcie": 1,
- "cas": "5 min",
- "popis": "Ordinary Drink · Highball glass",
- "ingrediencie": [
-  {
-   "nazov": "Vodka",
-   "mnozstvo": 59.1,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pomarančová šťava",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Zmiešame vo vysokom pohári s ľadom.",
-  "Ozdobíme a podávame."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "kokteil",
-  "vodka",
-  "jednoduché"
- ]
+  "id": "screwdriver",
+  "nazov": "Screwdriver",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Screwdriver",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12162",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Miešaný nápoj. Základ: vodka, pomarančová šťava. Podávaj vo vysokom pohári.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 59.1,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zmiešaj vo vysokom pohári s ľadom.",
+    "Ozdob a podávaj."
+  ],
+  "tipy": "Pohár vychlaď vopred. Vo vlažnom pohári kokteil rýchlo zovšednie a chutí sladšie, než má.",
+  "foto": "",
+  "tagy": [
+    "kokteil",
+    "vodka",
+    "jednoduché"
+  ],
+  "kcal_na_porciu": 130,
+  "kcal_zdroj": "vypocet"
 }

@@ -1,31 +1,60 @@
 {
-  "id": "lieskovooriskovy-krem",
-  "nazov": "Lieskovoorieškový krém",
-  "kategoria": "Nátierka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 1,
-  "cas": "25 min",
-  "kcal_na_porciu": 2209,
-  "popis": "Hustý čokoládovo-orieškový krém z pečených lieskových orieškov, ideálny na chlieb aj palacinky.",
-  "ingrediencie": [
-    {"nazov": "Lieskové oriešky", "mnozstvo": 240, "jednotka": "g"},
-    {"nazov": "Holandské kakao", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Med", "mnozstvo": 60, "jednotka": "g"},
-    {"nazov": "Kokosový olej", "mnozstvo": 20, "jednotka": "g"},
-    {"nazov": "Mandľové mlieko", "mnozstvo": 120, "jednotka": "ml"},
-    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 200 °C.",
-    "Oriešky rozložte na plech s papierom na pečenie a pečte 10 minút pri 190–200 °C.",
-    "Horúce oriešky obaľte do utierky a trením odstráňte šupky.",
-    "Oriešky mixujte v mixéri, kým nevznikne hladká pasta.",
-    "Prisypte kakao, med, soľ a olej a znovu premixujte.",
-    "Postupne prilievajte mandľové mlieko a mixujte do hladkého krému.",
-    "Krém preložte do uzatvárateľnej sklenej nádoby, v chladničke vydrží asi 3 týždne."
-  ],
-  "tipy": "Krém môžete použiť ako náplň do palaciniek alebo k čerstvému ovociu.",
-  "foto": "",
-  "tagy": ["nátierka", "orechy", "dezert", "bez lepku"]
+ "id": "lieskovooriskovy-krem",
+ "nazov": "Lieskovoorieškový krém",
+ "kategoria": "Nátierka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 1,
+ "cas": "25 min",
+ "kcal_na_porciu": 2209,
+ "popis": "Hustý čokoládovo-orieškový krém z pečených lieskových orieškov, ideálny na chlieb aj palacinky.",
+ "ingrediencie": [
+  {
+   "nazov": "Lieskové oriešky",
+   "mnozstvo": 240,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 60,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Mandľové mlieko",
+   "mnozstvo": 120,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 200 °C.",
+  "Oriešky rozlož na plech s papierom na pečenie a peč 10 minút pri 190–200 °C.",
+  "Horúce oriešky obaľ do utierky a trením odstráň šupky.",
+  "Oriešky mixuj v mixéri, kým nevznikne hladká pasta.",
+  "Prisyp kakao, med, soľ a olej a znovu premixuj.",
+  "Postupne prilievaj mandľové mlieko a mixuj do hladkého krému.",
+  "Krém prelož do uzatvárateľnej sklenej nádoby, v chladničke vydrží asi 3 týždne."
+ ],
+ "tipy": "Krém môžete použiť ako náplň do palaciniek alebo k čerstvému ovociu.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "orechy",
+  "dezert",
+  "bez lepku"
+ ]
 }

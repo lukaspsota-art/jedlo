@@ -1,32 +1,82 @@
 {
-  "id": "avokadova-omacka-s-cestovinami",
-  "nazov": "Avokádová omáčka s cestovinami",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 657,
-  "popis": "Krémová omáčka z avokáda podávaná s celozrnnými špagetami a vlašskými orechmi.",
-  "ingrediencie": [
-    {"nazov": "Celozrnné špagety", "mnozstvo": 240, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Avokádo", "mnozstvo": 3, "jednotka": "ks", "poznamka": "zrelé"},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Čerstvá bazalka", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, na dozdobenie"},
-    {"nazov": "Vlašské orechy", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Špagety uvarte v osolenej vode podľa návodu na obale.",
-    "Avokádo zbavte šupky a kôstky, rozmixujte s olivovým olejom, cesnakom a citrónovou šťavou.",
-    "Omáčku zmiešajte so scedenými cestovinami.",
-    "Dochutite soľou a korením.",
-    "Podávajte s lístkami bazalky a vlašskými orechmi."
-  ],
-  "tipy": "Vlašské orechy môžete nahradiť opraženými píniovými oriečkami alebo pokrájanými paradajkami.",
-  "foto": "",
-  "tagy": ["avokádo", "cestoviny", "talianska kuchyňa", "rýchle jedlo"]
+ "id": "avokadova-omacka-s-cestovinami",
+ "nazov": "Avokádová omáčka s cestovinami",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 657,
+ "popis": "Krémová omáčka z avokáda podávaná s celozrnnými špagetami a vlašskými orechmi.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnné špagety",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "zrelé"
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti, na dozdobenie"
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Špagety uvar v osolenej vode podľa návodu na obale.",
+  "Avokádo zbav šupky a kôstky, rozmixuj s olivovým olejom, cesnakom a citrónovou šťavou.",
+  "Omáčku zmiešaj so scedenými cestovinami.",
+  "Dochuti soľou a korením.",
+  "Podávaj s lístkami bazalky a vlašskými orechmi."
+ ],
+ "tipy": "Vlašské orechy môžete nahradiť opraženými píniovými oriečkami alebo pokrájanými paradajkami.",
+ "foto": "",
+ "tagy": [
+  "avokádo",
+  "cestoviny",
+  "talianska kuchyňa",
+  "rýchle jedlo"
+ ]
 }

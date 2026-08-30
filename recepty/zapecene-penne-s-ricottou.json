@@ -1,37 +1,97 @@
 {
-  "id": "zapecene-penne-s-ricottou",
-  "nazov": "Zapečené penne s ricottou",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "70 min",
-  "kcal_na_porciu": 455,
-  "popis": "Celozrnné penne v paradajkovej omáčke, zapečené s ricottou a mozzarellou.",
-  "ingrediencie": [
-    {"nazov": "Celozrnné cestoviny", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Krájané paradajky", "mnozstvo": 400, "jednotka": "g", "poznamka": "konzerva"},
-    {"nazov": "Tymian", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
-    {"nazov": "Rozmarín", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
-    {"nazov": "Ricotta", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mozzarella", "mnozstvo": 125, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Čerstvá bazalka", "mnozstvo": null, "jednotka": "hrsť", "poznamka": "pár listov"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Cestoviny uvar v osolenej vode podľa návodu na obale.",
-    "Na panvici opeč na oleji cibuľu nakrájanú na kocky.",
-    "Po 5 minútach pridaj cesnak nakrájaný na plátky, o 2 minúty neskôr paradajky, tymian a rozmarín.",
-    "Var 10 minút a horúcu omáčku vlej k cestovinám.",
-    "Premiešaj, pridaj ricottu a znova zamiešaj.",
-    "Zmes presuň do zapekacej misy, poklad plátky mozzarelly.",
-    "Zapekaj pri 170-180 °C cca 20 minút.",
-    "Podávaj s čerstvou bazalkou."
-  ],
-  "tipy": "Konzervované paradajky môžeš nahradiť rovnakým množstvom čerstvých, spariť ich, olúpať a nakrájať na kocky.",
-  "foto": "",
-  "tagy": ["cestoviny", "ricotta", "mozzarella", "zapečené"]
+ "id": "zapecene-penne-s-ricottou",
+ "nazov": "Zapečené penne s ricottou",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "70 min",
+ "kcal_na_porciu": 455,
+ "popis": "Celozrnné penne v paradajkovej omáčke, zapečené s ricottou a mozzarellou.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnné cestoviny",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krájané paradajky",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "konzerva"
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Ricotta",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": "pár listov"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Cestoviny uvar v osolenej vode podľa návodu na obale.",
+  "Na panvici opeč na oleji cibuľu nakrájanú na kocky.",
+  "Po 5 minútach pridaj cesnak nakrájaný na plátky, o 2 minúty neskôr paradajky, tymian a rozmarín.",
+  "Var 10 minút a horúcu omáčku vlej k cestovinám.",
+  "Premiešaj, pridaj ricottu a znova zamiešaj.",
+  "Zmes presuň do zapekacej misy, poklad plátky mozzarelly.",
+  "Zapekaj pri 170-180 °C cca 20 minút.",
+  "Podávaj s čerstvou bazalkou."
+ ],
+ "tipy": "Konzervované paradajky môžeš nahradiť rovnakým množstvom čerstvých, spariť ich, olúpať a nakrájať na kocky.",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "ricotta",
+  "mozzarella",
+  "zapečené"
+ ]
 }

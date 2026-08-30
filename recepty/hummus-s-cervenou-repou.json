@@ -1,28 +1,67 @@
 {
-  "id": "hummus-s-cervenou-repou",
-  "nazov": "Hummus s červenou repou",
-  "kategoria": "Nátierka",
-  "kuchyna": "Blízkovýchodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "5 min",
-  "kcal_na_porciu": 391,
-  "popis": "Ružový hummus z cíceru a červenej repy s tahini a medom.",
-  "ingrediencie": [
-    {"nazov": "Červená repa", "mnozstvo": 350, "jednotka": "g"},
-    {"nazov": "Predvarený cícer", "mnozstvo": 400, "jednotka": "g"},
-    {"nazov": "Tahini", "mnozstvo": 1, "jednotka": "PL", "poznamka": "možno vynechať"},
-    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Repu nakrájajte na kocky a vložte spolu s ostatnými ingredienciami do mixéra.",
-    "Mixujte nahladko, prípadne zrieďte vodou."
-  ],
-  "tipy": "Hummus podávajte s celozrnným pečivom, zeleninou alebo ako základ na wrap.",
-  "foto": "",
-  "tagy": ["hummus", "repa", "nátierka"]
+ "id": "hummus-s-cervenou-repou",
+ "nazov": "Hummus s červenou repou",
+ "kategoria": "Nátierka",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "5 min",
+ "kcal_na_porciu": 391,
+ "popis": "Ružový hummus z cíceru a červenej repy s tahini a medom.",
+ "ingrediencie": [
+  {
+   "nazov": "Červená repa",
+   "mnozstvo": 350,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Predvarený cícer",
+   "mnozstvo": 400,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Tahini",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "možno vynechať"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Repu nakrájaj na kocky a vlož spolu s ostatnými ingredienciami do mixéra.",
+  "Mixuj nahladko, prípadne zrieď vodou."
+ ],
+ "tipy": "Hummus podávaj s celozrnným pečivom, zeleninou alebo ako základ na wrap.",
+ "foto": "",
+ "tagy": [
+  "hummus",
+  "repa",
+  "nátierka"
+ ]
 }

@@ -1,32 +1,72 @@
 {
-  "id": "cuketove-spagety",
-  "nazov": "Cuketové špagety",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Talianska",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 1,
-  "cas": "35 min",
-  "kcal_na_porciu": 223,
-  "popis": "Nízkosacharidové špagety z cukety s pečenou paprikou, cherry paradajkami a balzamikom.",
-  "ingrediencie": [
-    {"nazov": "Cuketa", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Paprika", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Cherry paradajky", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Balzamikový ocot", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"},
-    {"nazov": "Čierne korenie", "mnozstvo": 1, "jednotka": "štipka"},
-    {"nazov": "Sušené oregano", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Čerstvá bazalka", "mnozstvo": 1, "jednotka": "hrsť"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 190 °C.",
-    "Cuketu ošúpte a nakrájajte na dlhé tenké špagety škrabkou alebo v spiralizéri.",
-    "Papriku nakrájajte na kocky a spolu s cherry paradajkami, balzamikom, olivovým olejom, soľou, korením a oreganom vložte do menšieho pekáča a premiešajte.",
-    "Pečte pri 180-190 °C 20-25 minút.",
-    "Pečenú zeleninu zmiešajte s cuketovými špagetami, posypte bazalkou a podávajte."
-  ],
-  "tipy": "Cuketovými špagetami môžete nahradiť klasické cestoviny v hlavných jedlách.",
-  "foto": "",
-  "tagy": ["cuketa", "nízkosacharidové", "vegetariánske"]
+ "id": "cuketove-spagety",
+ "nazov": "Cuketové špagety",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 1,
+ "cas": "35 min",
+ "kcal_na_porciu": 223,
+ "popis": "Nízkosacharidové špagety z cukety s pečenou paprikou, cherry paradajkami a balzamikom.",
+ "ingrediencie": [
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Cherry paradajky",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Balzamikový ocot",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "štipka"
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 190 °C.",
+  "Cuketu ošúp a nakrájaj na dlhé tenké špagety škrabkou alebo v spiralizéri.",
+  "Papriku nakrájaj na kocky a spolu s cherry paradajkami, balzamikom, olivovým olejom, soľou, korením a oreganom vlož do menšieho pekáča a premiešaj.",
+  "Peč pri 180-190 °C 20-25 minút.",
+  "Pečenú zeleninu zmiešaj s cuketovými špagetami, posyp bazalkou a podávaj."
+ ],
+ "tipy": "Cuketovými špagetami môžete nahradiť klasické cestoviny v hlavných jedlách.",
+ "foto": "",
+ "tagy": [
+  "cuketa",
+  "nízkosacharidové",
+  "vegetariánske"
+ ]
 }

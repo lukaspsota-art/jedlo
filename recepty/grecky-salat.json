@@ -1,90 +1,90 @@
 {
-  "id": "grecky-salat",
-  "nazov": "Grécky salát",
-  "kategoria": "Šalát",
-  "kuchyna": "Grécka",
-  "zdroj": "Wikibooks Cookbook – Greek Salad (CC BY-SA)",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 343,
-  "popis": "Paradajky, uhorka, cibuľa, paprika a olivy s celým plátkom fety navrchu. Bez šalátových listov, ako sa má.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "červené, nasekané"
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "kolieska"
-    },
-    {
-      "nazov": "Červená cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "na polmesiačiky"
-    },
-    {
-      "nazov": "Zelená paprika",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "na malé kúsky"
-    },
-    {
-      "nazov": "Olivy",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "grécke"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 4,
-      "jednotka": "PL",
-      "poznamka": "extra virgin"
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "alebo citrónový sok"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feta",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Oregano",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Do hlbokej misky zmiešaj paradajky, uhorky, cibuľu, papriku a olivy.",
-    "Pridaj podľa chuti olivový olej, ocot alebo citrónový sok a soľ. Pol minúty premiešavaj.",
-    "Navrch polož plátok fety a pokvapkaj ho olivovým olejom.",
-    "Podľa chuti posyp vetvičkou oregana."
-  ],
-  "tipy": "Feta sa nedrobí a nemieša - kladie sa navrch celá v plátku. To je rozdiel medzi grécky a turisticky.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "obed",
-    "grécka",
-    "zelenina",
-    "feta",
-    "vegetariánske",
-    "bez varenia"
-  ]
+ "id": "grecky-salat",
+ "nazov": "Grécky salát",
+ "kategoria": "Šalát",
+ "kuchyna": "Grécka",
+ "zdroj": "Wikibooks Cookbook – Greek Salad (CC BY-SA)",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 343,
+ "popis": "Paradajky, uhorka, cibuľa, paprika a olivy s celým plátkom fety navrchu. Bez šalátových listov, ako sa má.",
+ "ingrediencie": [
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "červené, nasekané"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "kolieska"
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na polmesiačiky"
+  },
+  {
+   "nazov": "Zelená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na malé kúsky"
+  },
+  {
+   "nazov": "Olivy",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "grécke"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": "extra virgin"
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "alebo citrónový sok"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Feta",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Do hlbokej misky zmiešaj paradajky, uhorky, cibuľu, papriku a olivy.",
+  "Pridaj podľa chuti olivový olej, ocot alebo citrónový sok a soľ. Pol minúty premiešavaj.",
+  "Navrch polož plátok fety a pokvapkaj ho olivovým olejom.",
+  "Podľa chuti posyp vetvičkou oregana."
+ ],
+ "tipy": "Feta sa nedrobí a nemieša - kladie sa navrch celá v plátku. To je rozdiel medzi grécky a turisticky.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "obed",
+  "grécka",
+  "zelenina",
+  "feta",
+  "vegetariánske",
+  "bez varenia"
+ ]
 }

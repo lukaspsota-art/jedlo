@@ -1,79 +1,79 @@
 {
-  "id": "sloppy-joes",
-  "nazov": "Sloppy Joes",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Sloppy Joes (CC BY-SA)",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 627,
-  "popis": "Mleté hovädzie v kečupovo-barbecue omáčke v opečenej hamburgerovej žemli. Klasika stredného západu.",
-  "ingrediencie": [
-    {
-      "nazov": "Mleté hovädzie mäso",
-      "mnozstvo": 450,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kečup",
-      "mnozstvo": 240,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Barbecue omáčka",
-      "mnozstvo": 240,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnakový prášok",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chilli mleté",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "nasekaná, voliteľné"
-    },
-    {
-      "nazov": "Zelená paprika",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "nasekaná, voliteľné"
-    },
-    {
-      "nazov": "Žemľa",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "hamburgerové"
-    }
-  ],
-  "postup": [
-    "Mleté hovädzie, cibuľu a papriku opekaj v panvici na strednom ohni, kým mäso nezhnedne.",
-    "Zo zmesi odlej tekutinu.",
-    "Mäso vráť do panvice.",
-    "Na strednom ohni vmiešaj kečup, barbecue omáčku, cesnakový prášok a chilli v akomkoľvek poradí.",
-    "Nechaj 20 minút prebublávať.",
-    "Podávaj na rozkrojených a opečených hamburgerových žemliach."
-  ],
-  "tipy": "Odliatie tekutiny po opražení mäsa je dôležité - inak zmes zostane vodnatá a rozmočí žemľu.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "večera",
-    "americká",
-    "hovädzie",
-    "pre deti"
-  ]
+ "id": "sloppy-joes",
+ "nazov": "Sloppy Joes",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Sloppy Joes (CC BY-SA)",
+ "porcie": 4,
+ "cas": "35 min",
+ "kcal_na_porciu": 627,
+ "popis": "Mleté hovädzie v kečupovo-barbecue omáčke v opečenej hamburgerovej žemli. Klasika stredného západu.",
+ "ingrediencie": [
+  {
+   "nazov": "Mleté hovädzie mäso",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kečup",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Barbecue omáčka",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli mleté",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "nasekaná, voliteľné"
+  },
+  {
+   "nazov": "Zelená paprika",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "nasekaná, voliteľné"
+  },
+  {
+   "nazov": "Žemľa",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "hamburgerové"
+  }
+ ],
+ "postup": [
+  "Mleté hovädzie, cibuľu a papriku opekaj v panvici na strednom ohni, kým mäso nezhnedne.",
+  "Zo zmesi odlej tekutinu.",
+  "Mäso vráť do panvice.",
+  "Na strednom ohni vmiešaj kečup, barbecue omáčku, cesnakový prášok a chilli v akomkoľvek poradí.",
+  "Nechaj 20 minút prebublávať.",
+  "Podávaj na rozkrojených a opečených hamburgerových žemliach."
+ ],
+ "tipy": "Odliatie tekutiny po opražení mäsa je dôležité - inak zmes zostane vodnatá a rozmočí žemľu.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "večera",
+  "americká",
+  "hovädzie",
+  "pre deti"
+ ]
 }

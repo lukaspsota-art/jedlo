@@ -1,32 +1,79 @@
 {
-  "id": "vaflovajicka-bazalka",
-  "nazov": "Vaflovajíčka s bazalkou",
-  "kategoria": "Raňajky",
-  "kuchyna": "Talianska",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 2,
-  "cas": "27 min",
-  "kcal_na_porciu": 334,
-  "popis": "Slané vaječné vafle s mozzarellou, cherry paradajkami a bazalkou.",
-  "ingrediencie": [
-    { "nazov": "Vajcia", "mnozstvo": 2, "jednotka": "ks" },
-    { "nazov": "Mlieko", "mnozstvo": 120, "jednotka": "ml" },
-    { "nazov": "Celozrnná múka", "mnozstvo": 2, "jednotka": "PL" },
-    { "nazov": "Sušené oregano", "mnozstvo": 0.5, "jednotka": "ČL" },
-    { "nazov": "Čerstvá bazalka", "mnozstvo": 1, "jednotka": "hrsť" },
-    { "nazov": "Cherry paradajky", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Mozzarella", "mnozstvo": 100, "jednotka": "g" },
-    { "nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL" },
-    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" },
-    { "nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" }
-  ],
-  "postup": [
-    "Vajcia vyšľahaj s mliekom, múkou, soľou, korením a sušeným oreganom.",
-    "Cesto nalej do predhriatej vafľovačky a pečieme 1–2 minúty (podľa potreby vymasti trochou tuku).",
-    "Vafľu ozdob lístkami bazalky, trhanou mozzarellou a cherry paradajkami.",
-    "Celú porciu zalej lyžicou kvalitného olivového oleja."
-  ],
-  "tipy": "Ak máš ráno čas, cherry paradajky si vopred opeč v rúre alebo na grile.",
-  "foto": "",
-  "tagy": ["raňajky", "vafle", "mozzarella", "bazalka"]
+ "id": "vaflovajicka-bazalka",
+ "nazov": "Vaflovajíčka s bazalkou",
+ "kategoria": "Raňajky",
+ "kuchyna": "Talianska",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 2,
+ "cas": "27 min",
+ "kcal_na_porciu": 334,
+ "popis": "Slané vaječné vafle s mozzarellou, cherry paradajkami a bazalkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 120,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Celozrnná múka",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Čerstvá bazalka",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  },
+  {
+   "nazov": "Cherry paradajky",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Vajcia vyšľahaj s mliekom, múkou, soľou, korením a sušeným oreganom.",
+  "Cesto nalej do predhriatej vafľovačky a peč 1–2 minúty (podľa potreby vymasti trochou tuku).",
+  "Vafľu ozdob lístkami bazalky, trhanou mozzarellou a cherry paradajkami.",
+  "Celú porciu zalej lyžicou kvalitného olivového oleja."
+ ],
+ "tipy": "Ak máš ráno čas, cherry paradajky si vopred opeč v rúre alebo na grile.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "vafle",
+  "mozzarella",
+  "bazalka"
+ ]
 }

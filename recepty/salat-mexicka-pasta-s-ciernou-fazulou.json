@@ -1,124 +1,125 @@
 {
- "id": "salat-mexicka-pasta-s-ciernou-fazulou",
- "nazov": "Šalát Mexická pasta s čiernou fazuľou",
- "kategoria": "Cestoviny",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Šalát Mexická pasta s čiernou fazuľou (fotorecept) (autor: kecemis)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/salat-mexicka-pasta-s-ciernou-fazulou-fotorecept/43885-recept.html",
- "porcie": 6,
- "cas": "37 min",
- "kcal_na_porciu": 434,
- "popis": "Kazda restauracia, alebo hotel ma svoj vlastny recept, tajnu prichut. Ponukam Vam zakladny recept, ako som ho ziskal ja.",
- "ingrediencie": [
-  {
-   "nazov": "Cibuľa šalotka",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rasca rímska mletá",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie chilli mleté",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie štyroch farieb",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cider ocot",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový panenský olej",
-   "mnozstvo": 6,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cestoviny",
-   "mnozstvo": 220,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Fazuľa čierna v konzerve",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa nasekaná na jemno",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajky",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Koriandrová vňať",
-   "mnozstvo": 62.5,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprička jalapeño",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kukurica mrazená alebo čerstvá",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mäsitá paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Žltá mäsitá paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Dam si varit cestoviny. Uvarene cestoviny olachnem v studenej vode, aby som zastavil proces varenia. Na pripravu saucu pouzijem suroviny, ako su uvedene v zozname. Dobre premiesam, aby sa vytvorila troche hustejsia emulzia. Sauce dame bokom.",
-  "Na pripravu salatu si najemno nasekam cibulu, pridam kukuricu a nakrajane paradajky.",
-  "K tomu som pridal nakrajanu farebnu papriku a jalapeno. Ja som pouzil habanero, mame to radi ostrejsie.",
-  "Potom pridam fazulu a cestoviny. K tomu pridam pripraveny sauce a zamiesam.",
-  "Nakoniec pridam coriander. Najlepsie tesne pred podavanim. Salat podaveme bud vychladeny, alebo v izbovej teplote."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "strukoviny",
-  "bezmäsité"
- ]
+  "id": "salat-mexicka-pasta-s-ciernou-fazulou",
+  "nazov": "Šalát Mexická pasta s čiernou fazuľou",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Šalát Mexická pasta s čiernou fazuľou (fotorecept) (autor: kecemis)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/salat-mexicka-pasta-s-ciernou-fazulou-fotorecept/43885-recept.html",
+  "porcie": 6,
+  "cas": "37 min",
+  "kcal_na_porciu": 255,
+  "popis": "Kazda restauracia, alebo hotel ma svoj vlastny recept, tajnu prichut. Ponukam Vam zakladny recept, ako som ho ziskal ja.",
+  "ingrediencie": [
+    {
+      "nazov": "Cibuľa šalotka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca rímska mletá",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie chilli mleté",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie štyroch farieb",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cider ocot",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový panenský olej",
+      "mnozstvo": 6,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 220,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Fazuľa čierna v konzerve",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa nasekaná na jemno",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Koriandrová vňať",
+      "mnozstvo": 62.5,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprička jalapeño",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kukurica mrazená alebo čerstvá",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mäsitá paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Žltá mäsitá paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Dam si varit cestoviny. Uvarene cestoviny olachnem v studenej vode, aby som zastavil proces varenia. Na pripravu saucu pouzijem suroviny, ako su uvedene v zoznaj. Dobre premiešaj, aby sa vytvorila troche hustejsia emulzia. Sauce daj bokom.",
+    "Na pripravu salatu si najemno nasekam cibulu, pridam kukuricu a nakrajane paradajky.",
+    "K tomu pridaj nakrajanu farebnu papriku a jalapeno. Ja som pouzil habanero, máš to radi ostrejsie.",
+    "Potom pridaj fazulu a cestoviny. K tomu pridam pripraveny sauce a zamiesam.",
+    "Nakoniec pridaj coriander. Najlepsie tesne pred podavanim. Salat podav bud vychladeny, alebo v izbovej teplote."
+  ],
+  "tipy": "Pohár vody z varenia cestovín si odlož. Škrob v nej spojí omáčku s cestovinami lepšie než smotana.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "strukoviny",
+    "bezmäsité"
+  ],
+  "kcal_zdroj": "vypocet"
 }

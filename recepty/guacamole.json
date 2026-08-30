@@ -1,29 +1,69 @@
 {
-  "id": "guacamole",
-  "nazov": "Guacamole",
-  "kategoria": "Nátierka",
-  "kuchyna": "Mexická",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "10 min",
-  "kcal_na_porciu": 253,
-  "popis": "Klasické mexické guacamole z avokáda, cibuľky a jalapeña.",
-  "ingrediencie": [
-    {"nazov": "Avokádo", "mnozstvo": 2, "jednotka": "ks", "poznamka": "zrelé"},
-    {"nazov": "Citrónová šťava", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Jalapeño paprička", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Cherry paradajky", "mnozstvo": 3, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Strúčik cesnaku", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Sušený koriander", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""}
-  ],
-  "postup": [
-    "Avokáda zbavte šupky a kôstky a rozmačkajte vidličkou.",
-    "Pridajte citrónovú šťavu, nadrobno nasekanú šalotku, jalapeño papričku a nakrájané paradajky.",
-    "Pridajte roztlačený cesnak a koriander.",
-    "Dôkladne premiešajte."
-  ],
-  "tipy": "Ak máte čerstvé bylinky, nahraďte sušený koriander čerstvým zo záhradky.",
-  "foto": "",
-  "tagy": ["guacamole", "avokádo", "mexická kuchyňa", "nátierka"]
+ "id": "guacamole",
+ "nazov": "Guacamole",
+ "kategoria": "Nátierka",
+ "kuchyna": "Mexická",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "10 min",
+ "kcal_na_porciu": 253,
+ "popis": "Klasické mexické guacamole z avokáda, cibuľky a jalapeña.",
+ "ingrediencie": [
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "zrelé"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jalapeño paprička",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cherry paradajky",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Strúčik cesnaku",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušený koriander",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Avokáda zbav šupky a kôstky a rozmačkaj vidličkou.",
+  "Pridaj citrónovú šťavu, nadrobno nasekanú šalotku, jalapeño papričku a nakrájané paradajky.",
+  "Pridaj roztlačený cesnak a koriander.",
+  "Dôkladne premiešaj."
+ ],
+ "tipy": "Ak máte čerstvé bylinky, nahraď sušený koriander čerstvým zo záhradky.",
+ "foto": "",
+ "tagy": [
+  "guacamole",
+  "avokádo",
+  "mexická kuchyňa",
+  "nátierka"
+ ]
 }

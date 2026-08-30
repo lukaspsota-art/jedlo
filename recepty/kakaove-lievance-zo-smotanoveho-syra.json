@@ -1,29 +1,69 @@
 {
-  "id": "kakaove-lievance-zo-smotanoveho-syra",
-  "nazov": "Kakaové lievance zo smotanového syra",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 222,
-  "popis": "Rýchle raňajkové lievance z mäkkého smotanového syra s kakaom a špaldovou múkou.",
-  "ingrediencie": [
-    {"nazov": "Smotanový syr", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vanilkový lusk", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": "semienka, možno vynechať"},
-    {"nazov": "Javorový sirup", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Holandské kakao", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vajce", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Mlieko", "mnozstvo": 100, "jednotka": "ml", "poznamka": ""}
-  ],
-  "postup": [
-    "Všetky ingrediencie zmiešajte v mise alebo rozmixujte v mixéri dohladka.",
-    "Rozohrejte nepriľnavú panvicu.",
-    "Varechou tvarujte od stredu panvice lievance (priemer 8-10 cm).",
-    "Opekajte z každej strany asi 1 minútu."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["raňajky", "lievance", "kakao", "špalda"]
+ "id": "kakaove-lievance-zo-smotanoveho-syra",
+ "nazov": "Kakaové lievance zo smotanového syra",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 222,
+ "popis": "Rýchle raňajkové lievance z mäkkého smotanového syra s kakaom a špaldovou múkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vanilkový lusk",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "semienka, možno vynechať"
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie zmiešaj v mise alebo rozmixuj v mixéri dohladka.",
+  "Rozohrej nepriľnavú panvicu.",
+  "Varechou tvaruj od stredu panvice lievance (priemer 8-10 cm).",
+  "Opekaj z každej strany asi 1 minútu."
+ ],
+ "tipy": "Cesto nechaj pred pečením 20 minút odpočívať. Múka nasiakne a palacinky budú vláčnejšie, nie gumové.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "lievance",
+  "kakao",
+  "špalda"
+ ]
 }

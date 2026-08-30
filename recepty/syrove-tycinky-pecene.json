@@ -1,60 +1,61 @@
 {
- "id": "syrove-tycinky-pecene",
- "nazov": "Syrové tyčinky pečené",
- "kategoria": "Snack",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Pečený syr (fotorecept) (autor: elisticka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/peceny-syr-fotorecept/33712-recept.html",
- "porcie": 6,
- "cas": "30 min",
- "kcal_na_porciu": 158,
- "popis": "Kúpila som si misky na zapekanie, a tak som ich chcela vyskúšať ..a zapekaný syr tu na \r\nvareche ešte nemáme tak ho pridávam .. neskoro som sa rozhodla že budem fotiť, ale \r\nzachytila som to hlavné.",
- "ingrediencie": [
-  {
-   "nazov": "Tvrdý sýr",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šunka",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 6,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na vymastenie"
-  },
-  {
-   "nazov": "Strúhanka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na vysypanie"
-  }
- ],
- "postup": [
-  "ako prvé som si vymazala misky maslom a vysypala strúhankou .potom som postrúhala syr a aj šunku",
-  "na dno misiek som nasypala syr a na to som pridala šunku",
-  "do každej porcie som rozbila jedno vajce",
-  "ja som si žltko zozpučila aby bolo po celej šunke a na vajce zas ide šunka",
-  "a nakoniec zakryjeme syrom",
-  "do pekáča dáme vodu asi do polovice misiek a dáme piecť na 230-250 st asi 20 minút do ružova",
-  "a takto krásne vyzerá upečený sýr .. ja som zvolila prílohu varené zemiaky a tatárku ale výborné by to bolo s hranolkami ..dobrú chuť !"
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "snack",
-  "syr",
-  "pečené"
- ]
+  "id": "syrove-tycinky-pecene",
+  "nazov": "Syrové tyčinky pečené",
+  "kategoria": "Snack",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Pečený syr (fotorecept) (autor: elisticka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/peceny-syr-fotorecept/33712-recept.html",
+  "porcie": 6,
+  "cas": "30 min",
+  "kcal_na_porciu": 333,
+  "popis": "Kúpila som si misky na zapekanie, a tak som ich chcela vyskúšať ..a zapekaný syr tu na \r\nvareche ešte nemáme tak ho pridávam .. neskoro som sa rozhodla že budem fotiť, ale \r\nzachytila som to hlavné.",
+  "ingrediencie": [
+    {
+      "nazov": "Tvrdý sýr",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šunka",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 6,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na vymastenie"
+    },
+    {
+      "nazov": "Strúhanka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na vysypanie"
+    }
+  ],
+  "postup": [
+    "ako prvé si vymazaj misky maslom a vysyp strúhankou .potom postrúhaj syr a aj šunku",
+    "na dno misiek som nasypala syr a na to som pridala šunku",
+    "do každej porcie rozbi jedno vajce",
+    "ja som si žltko zozpučila aby bolo po celej šunke a na vajce zas ide šunka",
+    "a nakoniec zakryj syrom",
+    "do pekáča daj vodu asi do polovice misiek a daj piecť na 230-250 st asi 20 minút do ružova",
+    "a takto krásne vyzerá upečený sýr .. ja som zvolila prílohu varené zemiaky a tatárku ale výborné by to bolo s hranolkami ..dobrú chuť !"
+  ],
+  "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "syr",
+    "pečené"
+  ],
+  "kcal_zdroj": "vypocet"
 }

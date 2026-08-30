@@ -1,12 +1,6 @@
-# tajné (Supabase kľúče pre synchronizáciu)
+__pycache__/
+*.pyc
+node_modules/
 sync-config.js
-
-# OS / editor
-.DS_Store
-Thumbs.db
-desktop.ini
-*.tmp
-*~
-
-# Playwright MCP testovacie artefakty
-.playwright-mcp/
+kucharka.html
+docs/index.html

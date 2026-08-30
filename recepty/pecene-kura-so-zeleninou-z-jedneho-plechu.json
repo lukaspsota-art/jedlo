@@ -1,37 +1,107 @@
 {
-  "id": "pecene-kura-so-zeleninou-z-jedneho-plechu",
-  "nazov": "Pečené kura so zeleninou z jedného plechu",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 4,
-  "cas": "105 min",
-  "kcal_na_porciu": 327,
-  "popis": "Celé kuratá pečené na jednom plechu s baby zemiakmi, mrkvou, brokolicou a balzamikovou zálievkou.",
-  "ingrediencie": [
-    {"nazov": "Jarné kurčatá (z voľného chovu)", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Malé zemiaky", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Reďkovky", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Brokolica", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Cherry paradajky", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Mrkva", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Balzamikový ocot", "mnozstvo": 3, "jednotka": "PL", "poznamka": "na zálievku"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na zálievku"},
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": "na zálievku"},
-    {"nazov": "Soľ", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "na zálievku"},
-    {"nazov": "Sušený rozmarín", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "na zálievku"},
-    {"nazov": "Citrónová kôra a šťava", "mnozstvo": 1, "jednotka": "ks", "poznamka": "z 1 citróna, na zálievku"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 180 °C, zmiešajte balzamikový ocot, med, olivový olej, soľ, korenie, rozmarín a kôru a šťavu z citróna.",
-    "Zálievku vmasírujte do kuriat a nechajte odstáť.",
-    "Zemiaky olúpte a nakrájajte na štvrtiny, mrkvu na kolieska, reďkovky rozpolte, cherry paradajky rozpolte, brokolicu rozdeľte na ružičky.",
-    "Kuratá uložte na plech vyložený papierom na pečenie a pečte 70-80 minút pri 170-180 °C do zlatista.",
-    "Po 40 minútach pridajte reďkovky, mrkvu a zemiaky, po 50 minútach brokolicu, na posledných 10 minút cherry paradajky.",
-    "Podávajte s pečenou zeleninou."
-  ],
-  "tipy": "Zálievku si pripravte trochu viac a kura aj zeleninu ňou počas pečenia potierajte.",
-  "foto": "",
-  "tagy": ["kura", "pečené", "zelenina", "jeden plech"]
+ "id": "pecene-kura-so-zeleninou-z-jedneho-plechu",
+ "nazov": "Pečené kura so zeleninou z jedného plechu",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 4,
+ "cas": "105 min",
+ "kcal_na_porciu": 327,
+ "popis": "Celé kuratá pečené na jednom plechu s baby zemiakmi, mrkvou, brokolicou a balzamikovou zálievkou.",
+ "ingrediencie": [
+  {
+   "nazov": "Jarné kurčatá (z voľného chovu)",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Malé zemiaky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Reďkovky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Brokolica",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cherry paradajky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Balzamikový ocot",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na zálievku"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na zálievku"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na zálievku"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na zálievku"
+  },
+  {
+   "nazov": "Sušený rozmarín",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na zálievku"
+  },
+  {
+   "nazov": "Citrónová kôra a šťava",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "z 1 citróna, na zálievku"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C, zmiešaj balzamikový ocot, med, olivový olej, soľ, korenie, rozmarín a kôru a šťavu z citróna.",
+  "Zálievku vmasíruj do kuriat a nechaj odstáť.",
+  "Zemiaky olúp a nakrájaj na štvrtiny, mrkvu na kolieska, reďkovky rozpol, cherry paradajky rozpol, brokolicu rozdeľ na ružičky.",
+  "Kuratá ulož na plech vyložený papierom na pečenie a peč 70-80 minút pri 170-180 °C do zlatista.",
+  "Po 40 minútach pridaj reďkovky, mrkvu a zemiaky, po 50 minútach brokolicu, na posledných 10 minút cherry paradajky.",
+  "Podávaj s pečenou zeleninou."
+ ],
+ "tipy": "Zálievku si priprav trochu viac a kura aj zeleninu ňou počas pečenia potieraj.",
+ "foto": "",
+ "tagy": [
+  "kura",
+  "pečené",
+  "zelenina",
+  "jeden plech"
+ ]
 }

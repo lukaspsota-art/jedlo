@@ -1,116 +1,116 @@
 {
-  "id": "chrumkavy-rybi-sendvic",
-  "nazov": "Chrumkavý rybí sendvič",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Crispy Fish Sandwich (CC BY-SA)",
-  "porcie": 4,
-  "cas": "35 min",
-  "kcal_na_porciu": 838,
-  "popis": "Rybie filé v kukuričnej krupici s pikantnou majonézou a rukolou v ciabatte.",
-  "ingrediencie": [
-    {
-      "nazov": "Biela ryba",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": "filé, 4 kusy"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cesnakový prášok",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kajenské korenie",
-      "mnozstvo": 1.5,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kukuričná krupica",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ciabatta",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "rozkrojené"
-    },
-    {
-      "nazov": "Rastlinný olej",
-      "mnozstvo": null,
-      "jednotka": "na smaženie",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Jalapeño",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "nasekané najemno"
-    },
-    {
-      "nazov": "Nakladané uhorky",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": "nasekané najemno"
-    },
-    {
-      "nazov": "Rukola",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rybu okoreň soľou, korením, cesnakovým práškom a kajenským korením.",
-    "Obaľ v kukuričnej krupici, namoč do citrónového soku, obaľ druhýkrát a nechaj 2-3 minúty odstáť.",
-    "Rozohrej olej na 175 °C. Opatrne vkladaj rybu a smaž po dvoch kusoch tri minúty. Odkvapkaj na mriežke a zopakuj so zvyškom.",
-    "Rozkrojené strany pečiva potri olivovým olejom, osoľ a opepri.",
-    "Polož rezanou stranou dole na rozohriatu grilovaciu panvicu a opeč, kým nemá mriežku a nie je opečené.",
-    "Zmiešaj majonézu, jalapeño a nakladané uhorky. Zmes výdatne rozotri na opečené strany pečiva.",
-    "Na spodné polovice polož rybu, navrch rukolu a prikry vrchnou polovicou. Podávaj teplé."
-  ],
-  "tipy": "Zdroj používa tilapiu - poslúži akákoľvek biela ryba s pevným filé. Majonézy je v origináli 240 g, tu je polovica. Kajenského korenia je v origináli veľa, začni s polovicou a dochuť.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "večera",
-    "americká",
-    "ryby",
-    "smažené"
-  ]
+ "id": "chrumkavy-rybi-sendvic",
+ "nazov": "Chrumkavý rybí sendvič",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Crispy Fish Sandwich (CC BY-SA)",
+ "porcie": 4,
+ "cas": "35 min",
+ "kcal_na_porciu": 838,
+ "popis": "Rybie filé v kukuričnej krupici s pikantnou majonézou a rukolou v ciabat.",
+ "ingrediencie": [
+  {
+   "nazov": "Biela ryba",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": "filé, 4 kusy"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kukuričná krupica",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ciabatta",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "rozkrojené"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": null,
+   "jednotka": "na smaženie",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jalapeño",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nasekané najemno"
+  },
+  {
+   "nazov": "Nakladané uhorky",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": "nasekané najemno"
+  },
+  {
+   "nazov": "Rukola",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rybu okoreň soľou, korením, cesnakovým práškom a kajenským korením.",
+  "Obaľ v kukuričnej krupici, namoč do citrónového soku, obaľ druhýkrát a nechaj 2-3 minúty odstáť.",
+  "Rozohrej olej na 175 °C. Opatrne vkladaj rybu a smaž po dvoch kusoch tri minúty. Odkvapkaj na mriežke a zopakuj so zvyškom.",
+  "Rozkrojené strany pečiva potri olivovým olejom, osoľ a opepri.",
+  "Polož rezanou stranou dole na rozohriatu grilovaciu panvicu a opeč, kým nemá mriežku a nie je opečené.",
+  "Zmiešaj majonézu, jalapeño a nakladané uhorky. Zmes výdatne rozotri na opečené strany pečiva.",
+  "Na spodné polovice polož rybu, navrch rukolu a prikry vrchnou polovicou. Podávaj teplé."
+ ],
+ "tipy": "Zdroj používa tilapiu - poslúži akákoľvek biela ryba s pevným filé. Majonézy je v origináli 240 g, tu je polovica. Kajenského korenia je v origináli veľa, začni s polovicou a dochuť.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "večera",
+  "americká",
+  "ryby",
+  "smažené"
+ ]
 }

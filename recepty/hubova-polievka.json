@@ -1,34 +1,93 @@
 {
-  "id": "hubova-polievka",
-  "nazov": "Hubová polievka",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 6,
-  "cas": "60 min",
-  "kcal_na_porciu": 94,
-  "popis": "Ľahká polievka z hnedých žampiónov so zelerom, pórom a rozmarínom.",
-  "ingrediencie": [
-    {"nazov": "Slnečnicový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Biela cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Zeler", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Nasekaná pórová vňať", "mnozstvo": 2, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Rozmarín", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Huby (hnedé žampióny)", "mnozstvo": 800, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Zeleninový vývar", "mnozstvo": 1200, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Mleté čierne korenie", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "V hrnci rozohrejte maslo s olejom, pridajte najemno nakrájanú cibuľu a osmažte.",
-    "Pridajte na kocky nakrájaný zeler a pór, opekajte 2 minúty.",
-    "Prelisujte cesnak, pridajte rozmarín a na štvrtiny nakrájané huby, zalejte vývarom.",
-    "Varte 25-30 minút, kým huby nezmäknú.",
-    "Dochuťte soľou a korením a podávajte."
-  ],
-  "tipy": "Poslúžia aj mrazené alebo sušené huby.",
-  "foto": "",
-  "tagy": ["polievka", "huby", "zelenina"]
+ "id": "hubova-polievka",
+ "nazov": "Hubová polievka",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 6,
+ "cas": "60 min",
+ "kcal_na_porciu": 94,
+ "popis": "Ľahká polievka z hnedých žampiónov so zelerom, pórom a rozmarínom.",
+ "ingrediencie": [
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Biela cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nasekaná pórová vňať",
+   "mnozstvo": 2,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Huby (hnedé žampióny)",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 1200,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mleté čierne korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "V hrnci rozohrej maslo s olejom, pridaj najemno nakrájanú cibuľu a osmaž.",
+  "Pridaj na kocky nakrájaný zeler a pór, opekaj 2 minúty.",
+  "Prelisuj cesnak, pridaj rozmarín a na štvrtiny nakrájané huby, zalej vývarom.",
+  "Var 25-30 minút, kým huby nezmäknú.",
+  "Dochuť soľou a korením a podávaj."
+ ],
+ "tipy": "Poslúžia aj mrazené alebo sušené huby.",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "huby",
+  "zelenina"
+ ]
 }

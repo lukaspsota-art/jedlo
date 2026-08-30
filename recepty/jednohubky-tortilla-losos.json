@@ -1,30 +1,67 @@
 {
-  "id": "jednohubky-tortilla-losos",
-  "nazov": "Jednohubky z tortilly a údeného lososa",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 25,
-  "cas": "30 min",
-  "kcal_na_porciu": 73,
-  "popis": "Vrstvené tortilly s avokádovou nátierkou a údeným lososom nakrájané na jednohubky.",
-  "ingrediencie": [
-    { "nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks" },
-    { "nazov": "Čerstvý kôpor", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": "nasekaný" },
-    { "nazov": "Celozrnné tortilly", "mnozstvo": 3, "jednotka": "ks" },
-    { "nazov": "Smotanový syr", "mnozstvo": 200, "jednotka": "g", "poznamka": "alebo domáca lučina" },
-    { "nazov": "Údený losos", "mnozstvo": 200, "jednotka": "g" },
-    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" },
-    { "nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" }
-  ],
-  "postup": [
-    "Avokádo rozmixuj so smotanovým syrom, osoľ, opeprí a primiešaj nasekaný kôpor.",
-    "Jednu tortillu potri polovicou avokádovej nátierky, rovnomerne rozlož 100 g údeného lososa a priklop druhou tortillou.",
-    "Postup zopakuj s ďalšou tortillou a zvyšnou náplňou.",
-    "Pripravené tortilly vlož aspoň na 20 minút do chladničky.",
-    "Po vychladení nakrájaj na štvorčeky a podávaj ako jednohubky."
-  ],
-  "tipy": "Jednohubky môžeš pripraviť aj s hummusom, sušenými paradajkami a olivami.",
-  "foto": "",
-  "tagy": ["snack", "losos", "tortilla", "párty"]
+ "id": "jednohubky-tortilla-losos",
+ "nazov": "Jednohubky z tortilly a údeného lososa",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 25,
+ "cas": "30 min",
+ "kcal_na_porciu": 73,
+ "popis": "Vrstvené tortilly s avokádovou nátierkou a údeným lososom nakrájané na jednohubky.",
+ "ingrediencie": [
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Čerstvý kôpor",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": "nasekaný"
+  },
+  {
+   "nazov": "Celozrnné tortilly",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "alebo domáca lučina"
+  },
+  {
+   "nazov": "Údený losos",
+   "mnozstvo": 200,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Avokádo rozmixuj so smotanovým syrom, osoľ, opeprí a primiešaj nasekaný kôpor.",
+  "Jednu tortillu potri polovicou avokádovej nátierky, rovnomerne rozlož 100 g údeného lososa a priklop druhou tortillou.",
+  "Postup zopakuj s ďalšou tortillou a zvyšnou náplňou.",
+  "Pripravené tortilly vlož aspoň na 20 minút do chladničky.",
+  "Po vychladení nakrájaj na štvorčeky a podávaj ako jednohubky."
+ ],
+ "tipy": "Jednohubky môžeš pripraviť aj s hummusom, sušenými paradajkami a olivami.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "losos",
+  "tortilla",
+  "párty"
+ ]
 }

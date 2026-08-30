@@ -1,32 +1,82 @@
 {
-  "id": "kuracie-prsia-s-chrenovou-quinoou-a-hubami",
-  "nazov": "Kuracie prsia s chrenovou quinoou a hubami",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 2,
-  "cas": "55 min",
-  "kcal_na_porciu": 629,
-  "popis": "Opečené kuracie prsia s quinoou dochutenou chrenom a restovanými hubami.",
-  "ingrediencie": [
-    {"nazov": "Olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Kuracie prsia", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Čerstvo strúhaný chren", "mnozstvo": 50, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Quinoa", "mnozstvo": 150, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Maslo", "mnozstvo": 20, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Žampióny", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Čerstvý rozmarín", "mnozstvo": null, "jednotka": "", "poznamka": "pár vetvičiek"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Kuracie prsia opekajte na oleji 4 minúty z každej strany.",
-    "Quinou uvarte podľa návodu na obale spolu s chrenom.",
-    "Medzitým na masle opekajte na štvrtiny nakrájané žampióny, osoľte, opeprite a restujte 5 minút.",
-    "Podlejte 100 ml vody, nechajte zredukovať a odstavte.",
-    "Kuracie prsia rozdeľte na 2 porcie, k ku každej dajte polovicu uvarenej quinoy, zalejte výpekom s hubami a posypte rozmarínom."
-  ],
-  "tipy": "Každú porciu doplňte vrchovatou lyžicou hummusu.",
-  "foto": "",
-  "tagy": ["kuracie prsia", "quinoa", "huby", "chren"]
+ "id": "kuracie-prsia-s-chrenovou-quinoou-a-hubami",
+ "nazov": "Kuracie prsia s chrenovou quinoou a hubami",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 2,
+ "cas": "55 min",
+ "kcal_na_porciu": 629,
+ "popis": "Opečené kuracie prsia s quinoou dochutenou chrenom a restovanými hubami.",
+ "ingrediencie": [
+  {
+   "nazov": "Olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvo strúhaný chren",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Quinoa",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žampióny",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvý rozmarín",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "pár vetvičiek"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Kuracie prsia opekaj na oleji 4 minúty z každej strany.",
+  "Quinou uvar podľa návodu na obale spolu s chrenom.",
+  "Medzitým na masle opekaj na štvrtiny nakrájané žampióny, osoľ, opepri a restuj 5 minút.",
+  "Podlej 100 ml vody, nechaj zredukovať a odstav.",
+  "Kuracie prsia rozdeľ na 2 porcie, k ku každej daj polovicu uvarenej quinoy, zalej výpekom s hubami a posyp rozmarínom."
+ ],
+ "tipy": "Každú porciu doplň vrchovatou lyžicou hummusu.",
+ "foto": "",
+ "tagy": [
+  "kuracie prsia",
+  "quinoa",
+  "huby",
+  "chren"
+ ]
 }

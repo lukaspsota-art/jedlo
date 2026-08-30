@@ -1,26 +1,51 @@
 {
-  "id": "kakaovo-kokosova-pena",
-  "nazov": "Kakaovo-kokosová pena",
-  "kategoria": "Dezert",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 3,
-  "cas": "10 min",
-  "kcal_na_porciu": 299,
-  "popis": "Ľahký penovitý dezert z vyšľahaného kokosového mlieka a kakaa.",
-  "ingrediencie": [
-    {"nazov": "Kokosové mlieko", "mnozstvo": 400, "jednotka": "ml", "poznamka": "1 plechovka"},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Holandské kakao", "mnozstvo": 1, "jednotka": "PL"},
-    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"}
-  ],
-  "postup": [
-    "Kokosové mlieko vyšľahajte elektrickým šľahačom.",
-    "Primiešajte soľ, vanilkový extrakt, med a kakao.",
-    "Penu rozdeľte do skleničiek a dajte na aspoň 2 hodiny do chladničky stuhnúť."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["dezert", "kokos", "kakao"]
+ "id": "kakaovo-kokosova-pena",
+ "nazov": "Kakaovo-kokosová pena",
+ "kategoria": "Dezert",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 3,
+ "cas": "10 min",
+ "kcal_na_porciu": 299,
+ "popis": "Ľahký penovitý dezert z vyšľahaného kokosového mlieka a kakaa.",
+ "ingrediencie": [
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": "1 plechovka"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Holandské kakao",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka"
+  }
+ ],
+ "postup": [
+  "Kokosové mlieko vyšľahaj elektrickým šľahačom.",
+  "Primiešaj soľ, vanilkový extrakt, med a kakao.",
+  "Penu rozdeľ do skleničiek a daj na aspoň 2 hodiny do chladničky stuhnúť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "kokos",
+  "kakao"
+ ]
 }

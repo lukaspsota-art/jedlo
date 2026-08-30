@@ -1,116 +1,116 @@
 {
-  "id": "sabich-v-pite",
-  "nazov": "Sabich v pite",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Izraelská",
-  "zdroj": "Wikibooks Cookbook – Sabich (Vegetable and Pita Sandwich) (CC BY-SA)",
-  "porcie": 4,
-  "cas": "40 min",
-  "kcal_na_porciu": 630,
-  "popis": "Izraelská pita s vysmaženým baklažánom, tvrdými vajcami, hummusom, tahini a izraelským salátom.",
-  "ingrediencie": [
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": "nasekané"
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "nasekaná"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "nasekaná"
-    },
-    {
-      "nazov": "Petržlen",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": "nasekaný najemno"
-    },
-    {
-      "nazov": "Citrón",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "sok"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Baklažán",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "kolieska hrubé 1 cm"
-    },
-    {
-      "nazov": "Vajce",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "uvarené na tvrdo, plátky"
-    },
-    {
-      "nazov": "Rastlinný olej",
-      "mnozstvo": null,
-      "jednotka": "na smaženie",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Pita",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Hummus",
-      "mnozstvo": 180,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Tahini",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Chilli omáčka",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Paradajky, uhorku, cibuľu a petržlen daj do misky.",
-    "V druhej malej miske zmiešaj citrónový sok, olej a soľ.",
-    "Dresing prelej na zeleninu, dobre premiešaj a nechaj pár minút postáť.",
-    "Medzitým rozohrej olej v širokej panvici na stredne vysokú teplotu. Keď je dostatočne horúci, kolieska baklažánu smaž do zlatohneda. Odlož na papierovú utierku, aby odtiekol prebytočný olej.",
-    "Do každej pity rovnomerne rozotri hummus.",
-    "Pity naplň plátkami vysmaženého baklažánu a tvrdých vajec.",
-    "Navrch naber izraelský salát, pokvapkaj tahini a pálivou omáčkou a podávaj."
-  ],
-  "tipy": "Autenticky sa používa amba, nakladané mango, ktoré je na Blízkom východe veľmi populárne. Ak ju nenájdeš, zdroj priamo odporúča namiesto nej pálivú omáčku.",
-  "foto": "",
-  "tagy": [
-    "obed",
-    "večera",
-    "izraelská",
-    "vegetariánske",
-    "baklažán",
-    "pita"
-  ]
+ "id": "sabich-v-pite",
+ "nazov": "Sabich v pite",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Izraelská",
+ "zdroj": "Wikibooks Cookbook – Sabich (Vegetable and Pita Sandwich) (CC BY-SA)",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 630,
+ "popis": "Izraelská pita s vysmaženým baklažánom, tvrdými vajcami, hummusom, tahini a izraelským salátom.",
+ "ingrediencie": [
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "nasekané"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "nasekaný najemno"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "sok"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "kolieska hrubé 1 cm"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "uvarené na tvrdo, plátky"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": null,
+   "jednotka": "na smaženie",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pita",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hummus",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tahini",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Paradajky, uhorku, cibuľu a petržlen daj do misky.",
+  "V druhej malej miske zmiešaj citrónový sok, olej a soľ.",
+  "Dresing prelej na zeleninu, dobre premiešaj a nechaj pár minút postáť.",
+  "Medzitým rozohrej olej v širokej panvici na stredne vysokú teplotu. Keď je dostatočne horúci, kolieska baklažánu smaž do zlatohneda. Odlož na papierovú utierku, aby odtiekol prebytočný olej.",
+  "Do každej pity rovnomerne rozotri hummus.",
+  "Pity naplň plátkami vysmaženého baklažánu a tvrdých vajec.",
+  "Navrch naber izraelský salát, pokvapkaj tahini a pálivou omáčkou a podávaj."
+ ],
+ "tipy": "Autenticky sa používa amba, nakladané mango, ktoré je na Blízkom východe veľmi populárne. Ak ju nenájdeš, zdroj priamo odporúča namiesto nej pálivú omáčku.",
+ "foto": "",
+ "tagy": [
+  "obed",
+  "večera",
+  "izraelská",
+  "vegetariánske",
+  "baklažán",
+  "pita"
+ ]
 }

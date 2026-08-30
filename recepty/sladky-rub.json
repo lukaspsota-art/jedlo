@@ -1,64 +1,64 @@
 {
-  "id": "sladky-rub",
-  "nazov": "Sladký rub",
-  "kategoria": "Príloha",
-  "kuchyna": "Americká",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 8,
-  "cas": "5 min",
-  "kcal_na_porciu": 30,
-  "popis": "Sladko-korenistá suchá zmes na potieranie mäsa pred grilovaním či pečením.",
-  "ingrediencie": [
-    {
-      "nazov": "Tmavý trstinový cukor",
-      "mnozstvo": 60,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Hrubozrnná soľ",
-      "mnozstvo": 1,
-      "jednotka": "PL"
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": 2,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Údená červená paprika",
-      "mnozstvo": 2,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Sušený cesnak",
-      "mnozstvo": 2,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Sušená cibuľa",
-      "mnozstvo": 2,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Mleté horčicové semienka",
-      "mnozstvo": 1,
-      "jednotka": "ČL"
-    },
-    {
-      "nazov": "Kajenské korenie",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL"
-    }
-  ],
-  "postup": [
-    "Zmiešaj všetky ingrediencie v malej miske, rozbi hrudky vidličkou.",
-    "Použi hneď alebo uskladni vo vzduchotesnej nádobe."
-  ],
-  "tipy": "Skvelý na bravčové rebrá aj kuracie stehná.",
-  "foto": "",
-  "tagy": [
-    "korenie",
-    "rub",
-    "grilovanie"
-  ]
+ "id": "sladky-rub",
+ "nazov": "Sladký rub",
+ "kategoria": "Príloha",
+ "kuchyna": "Americká",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 8,
+ "cas": "5 min",
+ "kcal_na_porciu": 30,
+ "popis": "Sladko-korenistá suchá zmes na potieranie mäsa pred grilovaním či pečením.",
+ "ingrediencie": [
+  {
+   "nazov": "Tmavý trstinový cukor",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Hrubozrnná soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Údená červená paprika",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Sušený cesnak",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Sušená cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Mleté horčicové semienka",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Zmiešaj všetky ingrediencie v malej miske, rozbi hrudky vidličkou.",
+  "Použi hneď alebo uskladni vo vzduchotesnej nádobe."
+ ],
+ "tipy": "Skvelý na bravčové rebrá aj kuracie stehná.",
+ "foto": "",
+ "tagy": [
+  "korenie",
+  "rub",
+  "grilovanie"
+ ]
 }

@@ -6,7 +6,7 @@
   "zdroj": "Jíme zdravě s Fitrecepty II",
   "porcie": 5,
   "cas": "45 min",
-  "kcal_na_porciu": 400,
+  "kcal_na_porciu": 707,
   "popis": "Kokosové kuracie kari s citrónovou trávou a zázvorom, podávané so soba rezancami.",
   "ingrediencie": [
     {
@@ -83,13 +83,13 @@
     }
   ],
   "postup": [
-    "Rezance pripravíme podľa návodu na obale.",
-    "Vo väčšej panvici rozohrejeme olej a opražíme nadrobno nasekané šalotky.",
-    "Pridáme cukor, nadrobno nakrájanú citrónovú trávu a strúhaný zázvor.",
-    "Pridáme kuracie mäso nakrájané na kocky a kari pastu, premiešame a opekáme asi 4 minúty.",
-    "Prilejeme kokosové mlieko a vývar, prikryjeme a povaríme 10-12 minút.",
-    "Pridáme hráškové struky a varíme ďalších 5 minút.",
-    "Kari podávame s uvarenými rezancami."
+    "Rezance priprav podľa návodu na obale.",
+    "Vo väčšej panvici rozohrej olej a opraž nadrobno nasekané šalotky.",
+    "Pridaj cukor, nadrobno nakrájanú citrónovú trávu a strúhaný zázvor.",
+    "Pridaj kuracie mäso nakrájané na kocky a kari pastu, premiešaj a opekaj asi 4 minúty.",
+    "Prilej kokosové mlieko a vývar, prikryj a povar 10-12 minút.",
+    "Pridaj hráškové struky a var ďalších 5 minút.",
+    "Kari podávaj s uvarenými rezancami."
   ],
   "tipy": "Kari môžete podávať aj s ryžou.",
   "foto": "",
@@ -98,5 +98,6 @@
     "kura",
     "ázijská kuchyňa",
     "kokosové mlieko"
-  ]
+  ],
+  "kcal_zdroj": "vypocet"
 }

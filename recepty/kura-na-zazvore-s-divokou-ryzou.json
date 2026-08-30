@@ -1,33 +1,83 @@
 {
-  "id": "kura-na-zazvore-s-divokou-ryzou",
-  "nazov": "Kura na zázvore s divokou ryžou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Ázijská",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 4,
-  "cas": "21 min",
-  "kcal_na_porciu": 498,
-  "popis": "Marinované kuracie kúsky v zázvore a karí, dusené v kokosovej smotane, s divokou ryžou.",
-  "ingrediencie": [
-    {"nazov": "Divoká ryža", "mnozstvo": 240, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Kuracie prsia bez kože", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Čerstvý zázvor", "mnozstvo": null, "jednotka": "ks", "poznamka": "kúsok cca 2-3 cm"},
-    {"nazov": "Olivový olej", "mnozstvo": 3, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Karí korenie", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Kokosová smotana", "mnozstvo": 150, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"},
-    {"nazov": "Korenie", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Mäso nakrájaj na kocky a vlož do misky s nastrúhaným zázvorom, olejom, soľou, korením a karí.",
-    "Premiešaj a nechaj marinovať v chladničke aspoň 1 hodinu.",
-    "Ryžu uvar podľa návodu na obale v osolenej vode domäkka.",
-    "Marinované kuracie kúsky restuj na prepustenom masle cca 7 minút domäkka.",
-    "Zalej kokosovou smotanou a var 4 minúty.",
-    "Podávaj s divokou ryžou."
-  ],
-  "tipy": "Pre jemnejšiu konzistenciu rozmixuj vidličkou dužinu z avokáda a pridaj ju ku každej porcii.",
-  "foto": "",
-  "tagy": ["hlavné jedlo", "kura", "zázvor", "ryža"]
+ "id": "kura-na-zazvore-s-divokou-ryzou",
+ "nazov": "Kura na zázvore s divokou ryžou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 4,
+ "cas": "21 min",
+ "kcal_na_porciu": 498,
+ "popis": "Marinované kuracie kúsky v zázvore a karí, dusené v kokosovej smotane, s divokou ryžou.",
+ "ingrediencie": [
+  {
+   "nazov": "Divoká ryža",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kuracie prsia bez kože",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čerstvý zázvor",
+   "mnozstvo": null,
+   "jednotka": "ks",
+   "poznamka": "kúsok cca 2-3 cm"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karí korenie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prepustené maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosová smotana",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Mäso nakrájaj na kocky a vlož do misky s nastrúhaným zázvorom, olejom, soľou, korením a karí.",
+  "Premiešaj a nechaj marinovať v chladničke aspoň 1 hodinu.",
+  "Ryžu uvar podľa návodu na obale v osolenej vode domäkka.",
+  "Marinované kuracie kúsky restuj na prepustenom masle cca 7 minút domäkka.",
+  "Zalej kokosovou smotanou a var 4 minúty.",
+  "Podávaj s divokou ryžou."
+ ],
+ "tipy": "Pre jemnejšiu konzistenciu rozmixuj vidličkou dužinu z avokáda a pridaj ju ku každej porcii.",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kura",
+  "zázvor",
+  "ryža"
+ ]
 }

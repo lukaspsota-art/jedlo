@@ -1,39 +1,103 @@
 {
-  "id": "zapecene-cukety-s-hovedzim-masom",
-  "nazov": "Zapečené cukety s hovädzím mäsom",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 3,
-  "cas": "65 min",
-  "kcal_na_porciu": 689,
-  "popis": "Okrúhle cukety plnené hovädzím mäsom v paradajkovej omáčke a zapečené s parmezánom.",
-  "ingrediencie": [
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Cibuľa biela", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Hovädzie mäso mleté (kvalitné)", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Sladká paprika", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Paradajky krájané (konzerva)", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Cukety malé okrúhle", "mnozstvo": 6, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Parmezán strúhaný", "mnozstvo": 60, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Avokádo", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Pažítka čerstvá nasekaná", "mnozstvo": null, "jednotka": "hrsť", "poznamka": ""}
-  ],
-  "postup": [
-    "Rúru predhrejeme na 180 °C.",
-    "V hlbšej panvici rozohrejeme olej a rýchlo opražíme najemno nakrájanú cibuľu.",
-    "Pridáme mleté hovädzie mäso a opekáme na strednom plameni.",
-    "Ochutíme roztlačeným cesnakom, soľou, korením a sladkou paprikou.",
-    "Pridáme paradajky s nálevom, prikryjeme a dusíme 10-15 minút.",
-    "Medzitým z cukiet odrežeme vrchnáčiky a vydlabeme lyžicou.",
-    "Na plech s papierom na pečenie uložíme cukety, naplníme mäsovou zmesou a posypeme parmezánom.",
-    "Prikryjeme alobalom a pečieme pri 170-180 °C 25-30 minút.",
-    "Upečené cukety poukladáme na plátky nakrájaným avokádom a posypeme pažítkou."
-  ],
-  "tipy": "Vydlabanú stredovú časť cukety nevyhadzujte - nakrájajte alebo rozmixujte a pridajte do mäsovej zmesi.",
-  "foto": "",
-  "tagy": ["cuketa", "hovädzie mäso", "zapekané"]
+ "id": "zapecene-cukety-s-hovedzim-masom",
+ "nazov": "Zapečené cukety s hovädzím mäsom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 3,
+ "cas": "65 min",
+ "kcal_na_porciu": 689,
+ "popis": "Okrúhle cukety plnené hovädzím mäsom v paradajkovej omáčke a zapečené s parmezánom.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa biela",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hovädzie mäso mleté (kvalitné)",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Sladká paprika",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky krájané (konzerva)",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cukety malé okrúhle",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán strúhaný",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pažítka čerstvá nasekaná",
+   "mnozstvo": null,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "V hlbšej panvici rozohrej olej a rýchlo opraž najemno nakrájanú cibuľu.",
+  "Pridaj mleté hovädzie mäso a opekaj na strednom plameni.",
+  "Ochuť roztlačeným cesnakom, soľou, korením a sladkou paprikou.",
+  "Pridaj paradajky s nálevom, prikryj a dus 10-15 minút.",
+  "Medzitým z cukiet odrež vrchnáčiky a vydlab lyžicou.",
+  "Na plech s papierom na pečenie ulož cukety, naplň mäsovou zmesou a posyp parmezánom.",
+  "Prikryj alobalom a peč pri 170-180 °C 25-30 minút.",
+  "Upečené cukety poukladaj na plátky nakrájaným avokádom a posyp pažítkou."
+ ],
+ "tipy": "Vydlabanú stredovú časť cukety nevyhadzuj - nakrájaj alebo rozmixuj a pridaj do mäsovej zmesi.",
+ "foto": "",
+ "tagy": [
+  "cuketa",
+  "hovädzie mäso",
+  "zapekané"
+ ]
 }

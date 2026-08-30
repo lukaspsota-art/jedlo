@@ -1,103 +1,103 @@
 {
-  "id": "svieckova",
-  "nazov": "Sviečková",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 8,
-  "cas": "61 min",
-  "kcal_na_porciu": 383,
-  "popis": "Klasická sviečková omáčka z koreňovej zeleniny s hovädzím mäsom a kokosovým mliekom.",
-  "ingrediencie": [
-    {
-      "nazov": "Hovädzia lopatka",
-      "mnozstvo": 1,
-      "jednotka": "kg",
-      "poznamka": "alebo zadné hovädzie"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Petržlen",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Zeleninový vývar",
-      "mnozstvo": 1000,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Bobkový list",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Nové korenie",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "kuličky"
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": 0.5,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kokosové mlieko",
-      "mnozstvo": 250,
-      "jednotka": "ml",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rúru predhrejte na 180 °C.",
-    "V hrnci na masle opražte nadrobno nakrájanú cibuľu.",
-    "Pridajte na kocky nakrájanú mrkvu, petržen a zeler a opekajte 10-12 minút.",
-    "Vložte bobkový list, nové korenie, korenie a soľ.",
-    "Pridajte hovädzie mäso a zľahka opečte z každej strany.",
-    "Zalejte vývarom, hrnec priklopte a pečte v rúre 1 hodinu pri 170-180 °C.",
-    "Upečené mäso vyberte, zeleninu rozmixujte a preceďte cez sito.",
-    "Do omáčky primiešajte kokosové mlieko a dochuťte soľou a korením."
-  ],
-  "tipy": "Podávajte s ryžovými knedlíkmi.",
-  "foto": "",
-  "tagy": [
-    "hovädzie",
-    "omáčka",
-    "tradičné jedlo",
-    "zelenina"
-  ]
+ "id": "svieckova",
+ "nazov": "Sviečková",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 8,
+ "cas": "61 min",
+ "kcal_na_porciu": 383,
+ "popis": "Klasická sviečková omáčka z koreňovej zeleniny s hovädzím mäsom a kokosovým mliekom.",
+ "ingrediencie": [
+  {
+   "nazov": "Hovädzia lopatka",
+   "mnozstvo": 1,
+   "jednotka": "kg",
+   "poznamka": "alebo zadné hovädzie"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Nové korenie",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "kuličky"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 250,
+   "jednotka": "ml",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "V hrnci na masle opraž nadrobno nakrájanú cibuľu.",
+  "Pridaj na kocky nakrájanú mrkvu, petržen a zeler a opekaj 10-12 minút.",
+  "Vlož bobkový list, nové korenie, korenie a soľ.",
+  "Pridaj hovädzie mäso a zľahka opeč z každej strany.",
+  "Zalej vývarom, hrnec priklop a peč v rúre 1 hodinu pri 170-180 °C.",
+  "Upečené mäso vyber, zeleninu rozmixuj a preceď cez sito.",
+  "Do omáčky primiešaj kokosové mlieko a dochuť soľou a korením."
+ ],
+ "tipy": "Podávaj s ryžovými knedlíkmi.",
+ "foto": "",
+ "tagy": [
+  "hovädzie",
+  "omáčka",
+  "tradičné jedlo",
+  "zelenina"
+ ]
 }

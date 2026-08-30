@@ -1,99 +1,101 @@
 {
- "id": "nakladany-hermelin-na-kyslo",
- "nazov": "Nakladaný Hermelín na kyslo",
- "kategoria": "Snack",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Nakladaný Hermelín na kyslo (autor: kimlo)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/nakladany-hermelin-na-kyslo/59294-recept.html",
- "porcie": 11,
- "cas": "20 min",
- "kcal_na_porciu": 205,
- "popis": "Receptov na nakladané syry je tu veľa, na internete som vžak dávnejšie objavil jeden výnimočný, ktorý sa predsa len od ostatných líši...nie je použitý klasický nálev pozostávajúci len z oleja s bylinkami či koreninami, ale ochutený olej so sladko-kyslou príchuťou, ktorú mu dodáva cukor, ocot a prípravok na konzervovanie zeleniny od nemenovanej firmy.",
- "ingrediencie": [
-  {
-   "nazov": "Heremelín",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pikant Fix Dr.Oetker",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ocot biely",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 4,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zelené olivy",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Bobkový list",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sterilizovaná kápia",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Chilli",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Baraní roh",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Zrejme najväčší problém bude zohnať prípravok na konzerváciu zeleniny Pikant Fix od nemenovanej firmy. Pred časom sa u nás bežne predával v obchodoch, no keď som ho začal zháňať, nebolo po ňom ani chýru...keď som napísal priamo výrobcovi, odpovedali mi že sa na Slovensko prestal dovážať pre nezáujem spotrebiteľov. Ujo Google mi poradil že ho ešte dostať v južnejších krajinách bývalej Juhoslávie, mne ho jedna známa priniesla zo srbskej Vojvodiny. Dá sa kúpiť aj v Chorvátsku, a keďže sa blíži čas dovoleniek, prípadní záujemci o takto nakladaný syr by si mali tento prípravok napísať do nákupného zoznamu... Toľko o prípravku Pikant Fix....",
-  "Hermelíny pokrájame na štvrťky, cibuľu na tenké mesiačiky, cesnak na plátky.",
-  "Na miernom ohni necháme rozpustiť v oleji cukor (ja som použil trstinový), Pikant Fix, a ocot. Po rozpustení cukru necháme nálev vychladnúť.",
-  "Na dno pohára uložíme nakrájanú cibuľu, bobkový list, na to kúsky hermelínu, cibule, cesnaku, baranie rohy, olivy...a pokračujeme až minieme všetky suroviny. Zalejeme vychladnutým nálevom, uzatvoríme a dáme do chladničky aspoň na 5 dní.",
-  "Po 5-tich dňoch je táto lahôdka určená na konzumáciu, môžeme použiť ako chuťovku k vínu, či pivu, prípadne ozdobu studených mís."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "snack",
-  "bezmäsité"
- ]
+  "id": "nakladany-hermelin-na-kyslo",
+  "nazov": "Nakladaný Hermelín na kyslo",
+  "kategoria": "Snack",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Nakladaný Hermelín na kyslo (autor: kimlo)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/nakladany-hermelin-na-kyslo/59294-recept.html",
+  "porcie": 11,
+  "cas": "20 min",
+  "kcal_na_porciu": 205,
+  "popis": "Receptov na nakladané syry je tu veľa, na internete som vžak dávnejšie objavil jeden výnimočný, ktorý sa predsa len od ostatných líši...nie je použitý klasický nálev pozostávajúci len z oleja s bylinkami či koreninami, ale ochutený olej so sladko-kyslou príchuťou, ktorú mu dodáva cukor, ocot a prípravok na konzervovanie zeleniny od nemenovanej firmy.",
+  "ingrediencie": [
+    {
+      "nazov": "Heremelín",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": "",
+      "vsiaknutie": 0.12
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pikant Fix Dr.Oetker",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot biely",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zelené olivy",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Bobkový list",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sterilizovaná kápia",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Chilli",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Baraní roh",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zrejme najväčší problém bude zohnať prípravok na konzerváciu zeleniny Pikant Fix od nemenovanej firmy. Pred časom sa u nás bežne predával v obchodoch, no keď som ho začal zháňať, nebolo po ňom ani chýru...keď som napísal priamo výrobcovi, odpovedali mi že sa na Slovensko prestal dovážať pre nezáujem spotrebiteľov. Ujo Google mi poradil že ho ešte dostať v južnejších krajinách bývalej Juhoslávie, mne ho jedna známa priniesla zo srbskej Vojvodiny. Dá sa kúpiť aj v Chorvátsku, a keďže sa blíži čas dovoleniek, prípadní záujemci o takto nakladaný syr by si mali tento prípravok napísať do nákupného zoznamu... Toľko o prípravku Pikant Fix....",
+    "Hermelíny pokrájaj na štvrťky, cibuľu na tenké mesiačiky, cesnak na plátky.",
+    "Na miernom ohni nechaj rozpustiť v oleji cukor (ja som použil trstinový), Pikant Fix, a ocot. Po rozpustení cukru nechaj nálev vychladnúť.",
+    "Na dno pohára ulož nakrájanú cibuľu, bobkový list, na to kúsky hermelínu, cibule, cesnaku, baranie rohy, olivy...a pokračuj až minieš všetky suroviny. Zalej vychladnutým nálevom, uzatvor a daj do chladničky aspoň na 5 dní.",
+    "Po 5-tich dňoch je táto lahôdka určená na konzumáciu, môžeš použiť ako chuťovku k vínu, či pivu, prípadne ozdobu studených mís."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "bezmäsité",
+    "slovenská"
+  ]
 }

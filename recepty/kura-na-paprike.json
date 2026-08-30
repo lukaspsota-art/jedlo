@@ -6,7 +6,7 @@
   "zdroj": "Kaufland online",
   "porcie": 4,
   "cas": "40 min",
-  "kcal_na_porciu": 560,
+  "kcal_na_porciu": 827,
   "popis": "Kuracie stehná v jemnej paprikovo-smotanovej omáčke s cestovinami.",
   "ingrediencie": [
     {
@@ -75,5 +75,6 @@
     "slovenské",
     "kuracie",
     "smotanové"
-  ]
+  ],
+  "kcal_zdroj": "vypocet"
 }

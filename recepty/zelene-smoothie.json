@@ -1,27 +1,56 @@
 {
-  "id": "zelene-smoothie",
-  "nazov": "Zelené smoothie",
-  "kategoria": "Nápoj",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 254,
-  "popis": "Zelené smoothie z mandľového mlieka, banánu, uhorky a špenátu s mätou.",
-  "ingrediencie": [
-    {"nazov": "Mandľové mlieko", "mnozstvo": 200, "jednotka": "ml"},
-    {"nazov": "Banán", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Hadovka uhorka", "mnozstvo": 100, "jednotka": "g"},
-    {"nazov": "Baby špenát", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Selský jogurt", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Mäta čerstvá", "mnozstvo": 1, "jednotka": "hrsť"}
-  ],
-  "postup": [
-    "Všetky ingrediencie vložte do mixéra.",
-    "Rozmixujte dohladka.",
-    "Podávajte okamžite."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["nápoj", "smoothie", "špenát", "raňajky"]
+ "id": "zelene-smoothie",
+ "nazov": "Zelené smoothie",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 254,
+ "popis": "Zelené smoothie z mandľového mlieka, banánu, uhorky a špenátu s mätou.",
+ "ingrediencie": [
+  {
+   "nazov": "Mandľové mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Hadovka uhorka",
+   "mnozstvo": 100,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Baby špenát",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Selský jogurt",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Mäta čerstvá",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  }
+ ],
+ "postup": [
+  "Všetky ingrediencie vlož do mixéra.",
+  "Rozmixuj dohladka.",
+  "Podávaj okamžite."
+ ],
+ "tipy": "Čerstvý špenát sa scvrkne takmer na desatinu objemu — nezľakni sa množstva na začiatku.",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "smoothie",
+  "špenát",
+  "raňajky"
+ ]
 }

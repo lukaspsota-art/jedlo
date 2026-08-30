@@ -1,31 +1,76 @@
 {
-  "id": "gravlax-s-cervenou-repou",
-  "nazov": "Gravlax s červenou repou",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 10,
-  "cas": "35 min",
-  "kcal_na_porciu": 120,
-  "popis": "Marinovaný losos v repnej zálievke s korením, tradičná severská delikatesa.",
-  "ingrediencie": [
-    {"nazov": "Losos bez kože", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Predvarená červená repa", "mnozstvo": 200, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Pomarančová kôra", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": "z pomaranča"},
-    {"nazov": "Borievky", "mnozstvo": 3, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Citrónová kôra", "mnozstvo": 0.5, "jednotka": "ks", "poznamka": "z citróna"},
-    {"nazov": "Med", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Kôpor", "mnozstvo": 1, "jednotka": "hrsť", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": ""}
-  ],
-  "postup": [
-    "V mixéri rozmixujte repu, citrónovú a pomarančovú kôru, borievky, med a soľ.",
-    "Lososa potrite zmesou zo všetkých strán, vložte do uzatvárateľnej sklenej nádoby a dajte do chladničky.",
-    "Marinujte 24 hodín.",
-    "Na druhý deň zo lososa jemne zmyte zvyšky repnej zmesi, navrstvite na neho nasekaný kôpor, vložte späť do nádoby a marinujte ďalších 24 hodín.",
-    "Na tretí deň lososa vyberte, nakrájajte na tenké plátky a podávajte."
-  ],
-  "tipy": "Podávajte v celozrnnej bagetke so smotanovým syrom a kaparmi.",
-  "foto": "",
-  "tagy": ["losos", "gravlax", "repa", "marinovanie"]
+ "id": "gravlax-s-cervenou-repou",
+ "nazov": "Gravlax s červenou repou",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 10,
+ "cas": "35 min",
+ "kcal_na_porciu": 120,
+ "popis": "Marinovaný losos v repnej zálievke s korením, tradičná severská delikatesa.",
+ "ingrediencie": [
+  {
+   "nazov": "Losos bez kože",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Predvarená červená repa",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pomarančová kôra",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "z pomaranča"
+  },
+  {
+   "nazov": "Borievky",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "z citróna"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "V mixéri rozmixuj repu, citrónovú a pomarančovú kôru, borievky, med a soľ.",
+  "Lososa potri zmesou zo všetkých strán, vlož do uzatvárateľnej sklenej nádoby a daj do chladničky.",
+  "Marinuj 24 hodín.",
+  "Na druhý deň zo lososa jemne zmy zvyšky repnej zmesi, navrstvi na neho nasekaný kôpor, vlož späť do nádoby a marinuj ďalších 24 hodín.",
+  "Na tretí deň lososa vyber, nakrájaj na tenké plátky a podávaj."
+ ],
+ "tipy": "Podávaj v celozrnnej bagetke so smotanovým syrom a kaparmi.",
+ "foto": "",
+ "tagy": [
+  "losos",
+  "gravlax",
+  "repa",
+  "marinovanie"
+ ]
 }

@@ -1,14 +1,14 @@
 {
  "id": "alice-cocktail",
  "nazov": "Alice Cocktail",
- "kategoria": "Nápoj",
+ "kategoria": "Kokteil",
  "kuchyna": "Medzinárodná",
  "zdroj": "TheCocktailDB – Alice Cocktail",
  "zdroj_url": "https://www.thecocktaildb.com/drink/12562",
  "porcie": 1,
  "cas": "5 min",
  "kcal_na_porciu": 150,
- "popis": "Cocktail · Cocktail glass",
+ "popis": "Kokteil. Základ: grenadína, pomarančová šťava, ananás. Podávaj v kokteilovom pohári.",
  "ingrediencie": [
   {
    "nazov": "Grenadína",
@@ -36,13 +36,15 @@
   }
  ],
  "postup": [
-  "Poriadne pretrepeme v šejkri s ľadom.",
-  "Precedíme do väčšieho kokteilového pohára."
+  "Poriadne pretrep v šejkri s ľadom.",
+  "Preceď do väčšieho kokteilového pohára."
  ],
- "tipy": "",
+ "tipy": "Šejkruj s ľadom 10–15 sekúnd. Nápoj sa nielen vychladí, ale aj mierne zriedi — a to k nemu patrí.",
  "foto": "",
  "tagy": [
   "nápoj",
-  "bezmäsité"
+  "bezmäsité",
+  "kokteil",
+  "ovocie"
  ]
 }

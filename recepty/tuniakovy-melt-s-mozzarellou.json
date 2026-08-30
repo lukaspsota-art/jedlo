@@ -1,81 +1,81 @@
 {
-  "id": "tuniakovy-melt-s-mozzarellou",
-  "nazov": "Tuniakový melt s mozzarellou",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Mozzarella Tuna Melts (CC BY-SA)",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 448,
-  "popis": "Tuniakový salát so zelerom a cibuľou, zapečený s mozzarellou a paradajkou v hamburgerovej žemli.",
-  "ingrediencie": [
-    {
-      "nazov": "Tuniak",
-      "mnozstvo": 170,
-      "jednotka": "g",
-      "poznamka": "vo vode, odkvapkaný a rozdrobený"
-    },
-    {
-      "nazov": "Zeler",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "nasekaný najemno"
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "nasekaná najemno"
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Žemľa",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": "rozkrojené"
-    },
-    {
-      "nazov": "Mozzarella",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "štyri plátky"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "štyri plátky"
-    },
-    {
-      "nazov": "Šalátové listy",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Rúru predhrej na 175 °C.",
-    "V malej miske zmiešaj tuniaka, zeler, cibuľu a majonézu.",
-    "Zmes rozotri na spodné polovice žemieľ.",
-    "Na tuniakovú zmes polož plátok syra a plátok paradajky.",
-    "Polož na nevymastený plech.",
-    "Peč 12-15 minút, kým nie je všetko prehriate a syr rozpustený.",
-    "Na každý polož šalátový list a prikry vrchnou polovicou žemle."
-  ],
-  "tipy": "Šalát dávaj až po pečení, inak zvädne. Tuniak vo vode je tu zámerný - majonéza dodá dosť tuku.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "americká",
-    "tuniak",
-    "syr",
-    "zapekané",
-    "lacné"
-  ]
+ "id": "tuniakovy-melt-s-mozzarellou",
+ "nazov": "Tuniakový melt s mozzarellou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Mozzarella Tuna Melts (CC BY-SA)",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 448,
+ "popis": "Tuniakový salát so zelerom a cibuľou, zapečený s mozzarellou a paradajkou v hamburgerovej žemli.",
+ "ingrediencie": [
+  {
+   "nazov": "Tuniak",
+   "mnozstvo": 170,
+   "jednotka": "g",
+   "poznamka": "vo vode, odkvapkaný a rozdrobený"
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "nasekaný najemno"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "nasekaná najemno"
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Žemľa",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "rozkrojené"
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "štyri plátky"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "štyri plátky"
+  },
+  {
+   "nazov": "Šalátové listy",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 175 °C.",
+  "V malej miske zmiešaj tuniaka, zeler, cibuľu a majonézu.",
+  "Zmes rozotri na spodné polovice žemieľ.",
+  "Na tuniakovú zmes polož plátok syra a plátok paradajky.",
+  "Polož na nevymastený plech.",
+  "Peč 12-15 minút, kým nie je všetko prehriate a syr rozpustený.",
+  "Na každý polož šalátový list a prikry vrchnou polovicou žemle."
+ ],
+ "tipy": "Šalát dávaj až po pečení, inak zvädne. Tuniak vo vode je tu zámerný - majonéza dodá dosť tuku.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "americká",
+  "tuniak",
+  "syr",
+  "zapekané",
+  "lacné"
+ ]
 }

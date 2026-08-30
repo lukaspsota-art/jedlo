@@ -1,61 +1,61 @@
 {
-  "id": "cacio-e-pepe",
-  "nazov": "Cacio e Pepe",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Talianska",
-  "zdroj": "Serious Eats",
-  "porcie": 4,
-  "cas": "20 min",
-  "kcal_na_porciu": 510,
-  "popis": "Klasická rímska pasta — iba syr, korenie a pasta voda. Pasta voda je tajomstvo krémovej omáčky.",
-  "ingrediencie": [
-    {
-      "nazov": "Spaghetti",
-      "mnozstvo": 300,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Pecorino Romano, jemne strúhaný",
-      "mnozstvo": 53,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 37,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 60,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Čierny korenie, hrubo mletý",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "1–2 čaj. lyžičky"
-    },
-    {
-      "nazov": "Soľ (na vodu)",
-      "mnozstvo": null,
-      "jednotka": "",
-      "poznamka": "podľa chuti"
-    }
-  ],
-  "postup": [
-    "Veľký hrniec s osolenou vodou priveď do varu. Spaghetti var al dente (o 1–2 min kratšie ako uvádza obal).",
-    "Pred odliatím si odlej 200 ml pasta vody — je to základ omáčky.",
-    "Na panvici na strednom ohni rozpusti maslo s olivovým olejom. Pridaj hrubo mletý korenie a 30 sekúnd praž.",
-    "Prilej 80 ml pasta vody, priveď do varu.",
-    "Pridaj uvarenú pastu a miešaj, kým voda nevsiakne — cca 1–2 minúty.",
-    "Odstav z ohňa. Posyp Pecorinom Romano a rýchlo miešaj. Ak je omáčka príliš hustá, prilej trochu pasta vody.",
-    "Ihneď podávaj — pasta nesmie stáť."
-  ],
-  "tipy": "Pecorino strúhaj najemno — tak sa lepšie rozpustí. Pasta voda musí byť horúca pri pridávaní syra, inak syr zrazí.",
-  "foto": "",
-  "tagy": [
-    "pasta",
-    "vegetariánske",
-    "rýchle"
-  ]
+ "id": "cacio-e-pepe",
+ "nazov": "Cacio e Pepe",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "Serious Eats",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 510,
+ "popis": "Klasická rímska pasta — iba syr, korenie a pasta voda. Pasta voda je tajomstvo krémovej omáčky.",
+ "ingrediencie": [
+  {
+   "nazov": "Spaghetti",
+   "mnozstvo": 300,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Pecorino Romano, jemne strúhaný",
+   "mnozstvo": 53,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 37,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Čierny korenie, hrubo mletý",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "1–2 čaj. lyžičky"
+  },
+  {
+   "nazov": "Soľ (na vodu)",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Veľký hrniec s osolenou vodou priveď do varu. Spaghetti var al dente (o 1–2 min kratšie ako uvádza obal).",
+  "Pred odliatím si odlej 200 ml pasta vody — je to základ omáčky.",
+  "Na panvici na strednom ohni rozpusti maslo s olivovým olejom. Pridaj hrubo mletý korenie a 30 sekúnd praž.",
+  "Prilej 80 ml pasta vody, priveď do varu.",
+  "Pridaj uvarenú pastu a miešaj, kým voda nevsiakne — cca 1–2 minúty.",
+  "Odstav z ohňa. Posyp Pecorinom Romano a rýchlo miešaj. Ak je omáčka príliš hustá, prilej trochu pasta vody.",
+  "Ihneď podávaj — pasta nesmie stáť."
+ ],
+ "tipy": "Pecorino strúhaj najemno — tak sa lepšie rozpustí. Pasta voda musí byť horúca pri pridávaní syra, inak syr zrazí.",
+ "foto": "",
+ "tagy": [
+  "pasta",
+  "vegetariánske",
+  "rýchle"
+ ]
 }

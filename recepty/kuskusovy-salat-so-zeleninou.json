@@ -1,92 +1,93 @@
 {
- "id": "kuskusovy-salat-so-zeleninou",
- "nazov": "Kuskusový šalát so zeleninou",
- "kategoria": "Šalát",
- "kuchyna": "Blízkovýchodná",
- "zdroj": "Varecha.sk – Zeleninový šalát s kuskusom v pohári (autor: redakcia)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/zeleninovy-salat-s-kuskusom-v-pohari/92159-recept.html",
- "porcie": 3,
- "cas": "25 min",
- "kcal_na_porciu": 319,
- "popis": "Pripravte si doma šalát do pohára, ktorý si môžete zobrať so   sebou do práce.",
- "ingrediencie": [
-  {
-   "nazov": "Kuskus",
-   "mnozstvo": 45,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zelený hrášok",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Reďkovka",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šalátová uhorka",
-   "mnozstvo": 0.25,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajky cherry",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šalát",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čučoriedky",
-   "mnozstvo": 40,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jablčný ocot",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olej olivový extra panenský",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Kuskus v miske zalejeme 120 ml vriacej vody. Prikryjeme ho a necháme 5 minút napučať. Hrášok vložíme do studenej vody a necháme rozmraziť. Reďkovky nakrájame na tenké plátky, vložíme ich do misky s ľadovou vodou a necháme skrehnúť. Uhorku ošúpeme a nakrájame na kúsky. Rovnako ich zalejeme ľadovou vodou a necháme v chlade skrehnúť. Cherry paradajky rozkrojíme na štvrtinky.",
-  "Všetky suroviny na dresing spolu so štipkou soli a korenia vložíme do vysokej nádoby a ponorným mixérom rozmixujeme.",
-  "Pripravený dresing nalejeme na dno sklenenej nádoby. Uhorku scedíme, necháme ju mierne odkvapkať a vložíme do dresingu. Potom pridáme vrstvu paradajok. Reďkovky a hrášok scedíme a navrstvíme do pohára. Ďalej rozložíme kuskus a nakoniec pridáme umyté a osušené listy šalátu."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "šalát",
-  "kuskus",
-  "blízkovýchodné"
- ]
+  "id": "kuskusovy-salat-so-zeleninou",
+  "nazov": "Kuskusový šalát so zeleninou",
+  "kategoria": "Šalát",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "Varecha.sk – Zeleninový šalát s kuskusom v pohári (autor: redakcia)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/zeleninovy-salat-s-kuskusom-v-pohari/92159-recept.html",
+  "porcie": 3,
+  "cas": "25 min",
+  "kcal_na_porciu": 171,
+  "popis": "Priprav si doma šalát do pohára, ktorý si môžete zobrať so   sebou do práce.",
+  "ingrediencie": [
+    {
+      "nazov": "Kuskus",
+      "mnozstvo": 45,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zelený hrášok",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Reďkovka",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šalátová uhorka",
+      "mnozstvo": 0.25,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky cherry",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šalát",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čučoriedky",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablčný ocot",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej olivový extra panenský",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kuskus v miske zalej 120 ml vriacej vody. Prikryj ho a nechaj 5 minút napučať. Hrášok vlož do studenej vody a nechaj rozmraziť. Reďkovky nakrájaj na tenké plátky, vlož ich do misky s ľadovou vodou a nechaj skrehnúť. Uhorku ošúp a nakrájaj na kúsky. Rovnako ich zalej ľadovou vodou a nechaj v chlade skrehnúť. Cherry paradajky rozkroj na štvrtinky.",
+    "Všetky suroviny na dresing spolu so štipkou soli a korenia vlož do vysokej nádoby a ponorným mixérom rozmixuj.",
+    "Pripravený dresing nalej na dno sklenenej nádoby. Uhorku sceď, nechaj ju mierne odkvapkať a vlož do dresingu. Potom pridaj vrstvu paradajok. Reďkovky a hrášok sceď a navrstvi do pohára. Ďalej rozlož kuskus a nakoniec pridaj umyté a osušené listy šalátu."
+  ],
+  "tipy": "Kuskus zalej rovnakým objemom vriacej tekutiny, prikry a 5 minút nechaj napučať. Potom ho rozčeš vidličkou, nemiešaj lyžicou.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "kuskus",
+    "blízkovýchodné"
+  ],
+  "kcal_zdroj": "vypocet"
 }

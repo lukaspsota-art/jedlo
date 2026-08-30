@@ -1,33 +1,87 @@
 {
-  "id": "mrkvove-hranolky-paprikovy-dip",
-  "nazov": "Mrkvové hranolky s paprikovým dipom",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "25 min",
-  "kcal_na_porciu": 141,
-  "popis": "Pečené mrkvové hranolky podávané s jogurtovým dipom s údenou paprikou.",
-  "ingrediencie": [
-    { "nazov": "Mrkva", "mnozstvo": 500, "jednotka": "g", "poznamka": "hranolky, očistená a olúpaná" },
-    { "nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL" },
-    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" },
-    { "nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti" },
-    { "nazov": "Biely jogurt", "mnozstvo": 250, "jednotka": "g", "poznamka": "dip" },
-    { "nazov": "Údená paprika", "mnozstvo": 0.5, "jednotka": "ČL", "poznamka": "dip" },
-    { "nazov": "Citrónová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z ½ citróna, dip" },
-    { "nazov": "Cesnak", "mnozstvo": 1, "jednotka": "strúčik", "poznamka": "dip" },
-    { "nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, dip" },
-    { "nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti, dip" }
-  ],
-  "postup": [
-    "Rúru predhrej na 180 °C.",
-    "Mrkvu nakrájaj na hranolky, premiešaj s olivovým olejom, soľou a korením.",
-    "Rozlož na plech vystlaný papierom na pečenie, pečieme pri 170–180 °C 10–15 minút.",
-    "Zatiaľ zmiešaj biely jogurt, údenú papriku, prelisovaný cesnak, citrónovú šťavu, soľ a korenie – dip daj do chladničky.",
-    "Upečené hranolky podávaj s dipom."
-  ],
-  "tipy": "Do dipu pridaj čerstvú nasekanú petržlenovú vňať.",
-  "foto": "",
-  "tagy": ["snack", "mrkva", "dip", "príloha"]
+ "id": "mrkvove-hranolky-paprikovy-dip",
+ "nazov": "Mrkvové hranolky s paprikovým dipom",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "25 min",
+ "kcal_na_porciu": 141,
+ "popis": "Pečené mrkvové hranolky podávané s jogurtovým dipom s údenou paprikou.",
+ "ingrediencie": [
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": "hranolky, očistená a olúpaná"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Biely jogurt",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "dip"
+  },
+  {
+   "nazov": "Údená paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "dip"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "z ½ citróna, dip"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "dip"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti, dip"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti, dip"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 180 °C.",
+  "Mrkvu nakrájaj na hranolky, premiešaj s olivovým olejom, soľou a korením.",
+  "Rozlož na plech vystlaný papierom na pečenie, peč pri 170–180 °C 10–15 minút.",
+  "Zatiaľ zmiešaj biely jogurt, údenú papriku, prelisovaný cesnak, citrónovú šťavu, soľ a korenie – dip daj do chladničky.",
+  "Upečené hranolky podávaj s dipom."
+ ],
+ "tipy": "Do dipu pridaj čerstvú nasekanú petržlenovú vňať.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "mrkva",
+  "dip",
+  "príloha"
+ ]
 }

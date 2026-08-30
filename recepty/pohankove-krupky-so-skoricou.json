@@ -6,26 +6,63 @@
   "zdroj": "Jíme zdravě s Fitrecepty II",
   "porcie": 2,
   "cas": "45 min",
-  "kcal_na_porciu": 1837,
+  "kcal_na_porciu": 939,
   "popis": "Chrumkavé müsli krupky z pohánkovej krupice, mandlí a slnečnicových semienok.",
   "ingrediencie": [
-    {"nazov": "Pohánková krupica", "mnozstvo": 180, "jednotka": "g"},
-    {"nazov": "Jemne mleté mandle", "mnozstvo": 60, "jednotka": "g"},
-    {"nazov": "Slnečnicové semienka", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Soľ", "mnozstvo": 1, "jednotka": "štipka"},
-    {"nazov": "Mletá škorica", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Med", "mnozstvo": 80, "jednotka": "g"},
-    {"nazov": "Kokosový olej", "mnozstvo": 3, "jednotka": "PL"},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"}
+    {
+      "nazov": "Pohánková krupica",
+      "mnozstvo": 180,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Jemne mleté mandle",
+      "mnozstvo": 60,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Slnečnicové semienka",
+      "mnozstvo": 50,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "štipka"
+    },
+    {
+      "nazov": "Mletá škorica",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 80,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Kokosový olej",
+      "mnozstvo": 3,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Vanilkový extrakt",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    }
   ],
   "postup": [
-    "Rúru predhrejte na 160 °C.",
-    "V mise dôkladne zmiešajte všetky ingrediencie.",
-    "Cesto rozotrite na plech s papierom a natrhajte lyžicou na menšie kúsky.",
-    "Pečte pri 150-160 °C 30-35 minút.",
-    "Necháte vychladnúť, rozlámte na kúsky a uložte do uzatvárateľnej sklenej nádoby."
+    "Rúru predhrej na 160 °C.",
+    "V mise dôkladne zmiešaj všetky ingrediencie.",
+    "Cesto rozotri na plech s papierom a natrhaj lyžicou na menšie kúsky.",
+    "Peč pri 150-160 °C 30-35 minút.",
+    "Nechaj vychladnúť, rozlám na kúsky a ulož do uzatvárateľnej sklenej nádoby."
   ],
   "tipy": "Krupky môžete jesť samostatne, s mliekom, jogurtom alebo s ovocím.",
   "foto": "",
-  "tagy": ["krupky", "pohánka", "snack"]
+  "tagy": [
+    "krupky",
+    "pohánka",
+    "snack"
+  ],
+  "kcal_zdroj": "vypocet"
 }

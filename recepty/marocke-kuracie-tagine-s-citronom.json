@@ -1,79 +1,80 @@
 {
- "id": "marocke-kuracie-tagine-s-citronom",
- "nazov": "Marocké kuracie tagine s citrónom a olivami",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Marocká",
- "zdroj": "BBC Good Food – Easy chicken tagine",
- "zdroj_url": "https://www.bbcgoodfood.com/recipes/easy-chicken-tagine",
- "porcie": 4,
- "cas": "50 min",
- "kcal_na_porciu": 304,
- "popis": "Simple one-pots are perfect  for the busy cook. This chicken tagine is great eaten with cous cous for something a bit more filling",
- "ingrediencie": [
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kuracie stehná",
-   "mnozstvo": 8,
-   "jednotka": "ks",
-   "poznamka": "bez kože bez kosti na polovice if veľká"
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": "nasekaná"
-  },
-  {
-   "nazov": "Zázvor",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": "nastrúhaná čerstvá root"
-  },
-  {
-   "nazov": "Šafran",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "malá bunch nahrubo nasekaná"
-  },
-  {
-   "nazov": "Citrón",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Vo veľkom širokom hrnci s pokrievkou rozohrejeme olej, pridáme kurča a rýchlo opečieme, kým zľahka nezozlatne. Pridáme cibuľu a zázvor a restujeme ďalšie 2 minúty.",
-  "Prilejeme 150 ml vody, pridáme šafran, med a mrkvu, osolíme a dobre premiešame. Privedieme k varu, dobre prikryjeme a dusíme 30 minút, kým nie je kurča mäkké. Odkryjeme a na vyššom ohni asi 5 minút omáčku zredukujeme. Posypeme petržlenom a podávame s klinčekmi citróna na vytlačenie."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kura",
-  "marocké"
- ]
+  "id": "marocke-kuracie-tagine-s-citronom",
+  "nazov": "Marocké kuracie tagine s citrónom a olivami",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Marocká",
+  "zdroj": "BBC Good Food – Easy chicken tagine",
+  "zdroj_url": "https://www.bbcgoodfood.com/recipes/easy-chicken-tagine",
+  "porcie": 4,
+  "cas": "50 min",
+  "kcal_na_porciu": 674,
+  "popis": "Jednoduché jedlo z jedného hrnca pre zaneprázdnených. Kuracie tagine sa výborne hodí ku kuskusu.",
+  "ingrediencie": [
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kuracie stehná",
+      "mnozstvo": 8,
+      "jednotka": "ks",
+      "poznamka": "bez kože bez kosti na polovice if veľká"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "nasekaná"
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": "nastrúhaná čerstvá root"
+    },
+    {
+      "nazov": "Šafran",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "malá bunch nahrubo nasekaná"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vo veľkom širokom hrnci s pokrievkou rozohrej olej, pridaj kurča a rýchlo opeč, kým zľahka nezozlatne. Pridaj cibuľu a zázvor a restuj ďalšie 2 minúty.",
+    "Prilej 150 ml vody, pridaj šafran, med a mrkvu, osoľ a dobre premiešaj. Priveď k varu, dobre prikryj a dus 30 minút, kým nie je kurča mäkké. Odkryj a na vyššom ohni asi 5 minút omáčku zredukuj. Posyp petržlenom a podávaj s klinčekmi citróna na vytlačenie."
+  ],
+  "tipy": "Šťavu vytlač až tesne pred použitím a nezabudni na kôru — väčšina arómy je v nej, nie v šťave.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kura",
+    "marocké"
+  ],
+  "kcal_zdroj": "vypocet"
 }

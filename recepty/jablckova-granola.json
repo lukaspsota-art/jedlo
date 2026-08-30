@@ -1,28 +1,63 @@
 {
-  "id": "jablckova-granola",
-  "nazov": "Jablčková granola",
-  "kategoria": "Raňajky",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 2,
-  "cas": "40 min",
-  "kcal_na_porciu": 189,
-  "popis": "Jemná pečená granola zo špaldových vločiek, jablčného pyré a pekanových orechov.",
-  "ingrediencie": [
-    {"nazov": "Špaldové vločky", "mnozstvo": 250, "jednotka": "g", "poznamka": "možno nahradiť ovsenými"},
-    {"nazov": "Jablčné pyré bez cukru", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Kokosový olej", "mnozstvo": 40, "jednotka": "g", "poznamka": "rozpustený"},
-    {"nazov": "Med", "mnozstvo": 30, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Pekanové orechy", "mnozstvo": 70, "jednotka": "g", "poznamka": "nasekané"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "štipka", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "Rozohrej rúru na 160 °C.",
-    "V miske zmiešaj vločky, jablčné pyré, kokosový olej, med, pekanové orechy a soľ.",
-    "Všetko premiešaj a rovnomerne rozlož na plech vyložený papierom na pečenie.",
-    "Pečieme 25-30 minút pri 150-160 °C, počas pečenia niekoľkokrát premiešame."
-  ],
-  "tipy": "",
-  "foto": "",
-  "tagy": ["raňajky", "granola", "jablko", "pekanové orechy"]
+ "id": "jablckova-granola",
+ "nazov": "Jablčková granola",
+ "kategoria": "Raňajky",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 2,
+ "cas": "40 min",
+ "kcal_na_porciu": 189,
+ "popis": "Jemná pečená granola zo špaldových vločiek, jablčného pyré a pekanových orechov.",
+ "ingrediencie": [
+  {
+   "nazov": "Špaldové vločky",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "možno nahradiť ovsenými"
+  },
+  {
+   "nazov": "Jablčné pyré bez cukru",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kokosový olej",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "rozpustený"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Pekanové orechy",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": "nasekané"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rozohrej rúru na 160 °C.",
+  "V miske zmiešaj vločky, jablčné pyré, kokosový olej, med, pekanové orechy a soľ.",
+  "Všetko premiešaj a rovnomerne rozlož na plech vyložený papierom na pečenie.",
+  "Peč 25-30 minút pri 150-160 °C, počas pečenia niekoľkokrát premiešaj."
+ ],
+ "tipy": "Med primiešaj až do vlažnej zmesi. Nad 40 °C stráca vôňu aj časť enzýmov.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "granola",
+  "jablko",
+  "pekanové orechy"
+ ]
 }

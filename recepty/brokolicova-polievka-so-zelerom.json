@@ -1,34 +1,88 @@
 {
-  "id": "brokolicova-polievka-so-zelerom",
-  "nazov": "Brokolicová polievka so zelerom",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "45 min",
-  "kcal_na_porciu": 151,
-  "popis": "Krémová polievka z brokolice a zeleru s rozmarínom.",
-  "ingrediencie": [
-    {"nazov": "Prepustené maslo", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Olivový olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Šalotka", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Zeler", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Rozmarín sušený", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Brokolica", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Vývar", "mnozstvo": 800, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"}
-  ],
-  "postup": [
-    "V hrnci rozohrejeme prepustené maslo s olivovým olejom a opražíme najemno nakrájanú šalotku asi 5 minút.",
-    "Pridáme roztlačený cesnak, zeler nakrájaný na kocky a zasypeme rozmarínom.",
-    "Pridáme brokolicové ružičky a vývar, privedieme k varu.",
-    "Varíme 10-15 minút, kým brokolica nezmäkne.",
-    "Necháme trochu vychladnúť a rozmixujeme tyčovým mixérom na hladký krém.",
-    "Dochutíme soľou a korením."
-  ],
-  "tipy": "Uvedené množstvo vývaru je na hustú polievku, ak máte radšej redšiu, pridajte vývar alebo vodu.",
-  "foto": "",
-  "tagy": ["polievka", "brokolica", "krémová"]
+ "id": "brokolicova-polievka-so-zelerom",
+ "nazov": "Brokolicová polievka so zelerom",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 151,
+ "popis": "Krémová polievka z brokolice a zeleru s rozmarínom.",
+ "ingrediencie": [
+  {
+   "nazov": "Prepustené maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín sušený",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Brokolica",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vývar",
+   "mnozstvo": 800,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "V hrnci rozohrej prepustené maslo s olivovým olejom a opraž najemno nakrájanú šalotku asi 5 minút.",
+  "Pridaj roztlačený cesnak, zeler nakrájaný na kocky a zasyp rozmarínom.",
+  "Pridaj brokolicové ružičky a vývar, priveď k varu.",
+  "Var 10-15 minút, kým brokolica nezmäkne.",
+  "Nechaj trochu vychladnúť a rozmixuj tyčovým mixérom na hladký krém.",
+  "Dochuť soľou a korením."
+ ],
+ "tipy": "Uvedené množstvo vývaru je na hustú polievku, ak máte radšej redšiu, pridaj vývar alebo vodu.",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "brokolica",
+  "krémová"
+ ]
 }

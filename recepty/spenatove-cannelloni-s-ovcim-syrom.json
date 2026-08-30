@@ -1,124 +1,125 @@
 {
- "id": "spenatove-cannelloni-s-ovcim-syrom",
- "nazov": "Špenátové cannelloni s ovčím syrom",
- "kategoria": "Cestoviny",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Špenátové cannelloni s ovčím syrom (fotorecept) (autor: dorisa)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/spenatove-cannelloni-s-ovcim-syrom-fotorecept/18991-recept.html",
- "porcie": 4,
- "cas": "70 min",
- "kcal_na_porciu": 285,
- "popis": "Dávno som sa chystala uvariť si cannelloni. S mäsovou plnou som nechcela, lebo zas mäso jesť a s baklažánom...,ten  nemusím. Tak som si našla na nete recepty a jedlo som pripravila kombináciou receptov a vlastnou fantáziou.",
- "ingrediencie": [
-  {
-   "nazov": "Cestovina cannelloni",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ovčí syr",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Špenátový list",
-   "mnozstvo": 130,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Špenátový pretlak",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bazalka",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Lúpané paradajky",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Muškátový oriešok mletý",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olej olivový extra virgin",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Parmezán",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "strúhaný na posypanie"
-  }
- ],
- "postup": [
-  "Základné suroviny na jedlo. Ešte som nevedela, či je to všetko.",
-  "Začnem paradajkovou zmesou: Na panvicu na olivovom oleji speníme nadrobno najkrájanú cibuľu...",
-  "... pridáme na kusky nakrájané pardadajky z konzervy( pohára), dusíme. Postupne ochucujeme rozotretým cesnakom, soľou, korením bazalkou.",
-  "V inej panvici si urobím špenátovo- syrovú plnku do cannellot. Na olivovom oleji sparíme špenátové listy...",
-  "... nastrúhame si ovčí syr.",
-  "Keďže som nemala dosť sviežeho špenátu, tak som pridala aj špenátový pretlak. Ochutila som rozotretým cesnakom. Odstavila som z ohňa, pridala ešte za tepla vajce a zamiešala. Nakoniec som pridala nastrúhaný ovčí syr...",
-  "...plnka je hotová.",
-  "Pripravila som si cannelloni. Vypočítala som si koľko mi ich bude treba. Mne vychádzalo 13 kúskov. Nevarila som, použila som suché.",
-  "Lyžičkou potom plníme cannelloni ...",
-  "Na spodok zapekacej misky dáme mierne z paradajkovej omáčky. Potom naukladáme naplnené cannelloni.",
-  "Zalejem paradajkovou omáčkou.",
-  "Posypem nastrúhaným parmezánom....dáme piecť do vyhriatej rúry na 180-200 stupňov a pečieme asi 50 minút.",
-  "Cannelloni po upečení.",
-  "Teraz si už kľudne možem svoju porciu odrezať...",
-  "...tu je v reze...",
-  "...a ešte raz pekáč s cannellonami."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "syr",
-  "vajcia",
-  "bezmäsité"
- ]
+  "id": "spenatove-cannelloni-s-ovcim-syrom",
+  "nazov": "Špenátové cannelloni s ovčím syrom",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Špenátové cannelloni s ovčím syrom (fotorecept) (autor: dorisa)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/spenatove-cannelloni-s-ovcim-syrom-fotorecept/18991-recept.html",
+  "porcie": 4,
+  "cas": "70 min",
+  "kcal_na_porciu": 421,
+  "popis": "Dávno som sa chystala uvariť si cannelloni. S mäsovou plnou som nechcela, lebo zas mäso jesť a s baklažánom...,ten  nemusím. Tak som si našla na nete recepty a jedlo som pripravila kombináciou receptov a vlastnou fantáziou.",
+  "ingrediencie": [
+    {
+      "nazov": "Cestovina cannelloni",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ovčí syr",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Špenátový list",
+      "mnozstvo": 130,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Špenátový pretlak",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bazalka",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Lúpané paradajky",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Muškátový oriešok mletý",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej olivový extra virgin",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "strúhaný na posypanie"
+    }
+  ],
+  "postup": [
+    "Základné suroviny na jedlo. Ešte som nevedela, či je to všetko.",
+    "Začni paradajkovou zmesou: Na panvicu na olivovom oleji speň nadrobno najkrájanú cibuľu...",
+    "... pridaj na kusky nakrájané pardadajky z konzervy( pohára), dus. Postupne ochucuj rozotretým cesnakom, soľou, korením bazalkou.",
+    "V inej panvici si urob špenátovo- syrovú plnku do cannellot. Na olivovom oleji spar špenátové listy...",
+    "... nastrúhaj si ovčí syr.",
+    "Keďže som nemala dosť sviežeho špenátu, tak som pridala aj špenátový pretlak.Ochuť rozotretým cesnakom.Odstav z ohňa, pridaj ešte za tepla vajce a zamiešaj.Nakoniec pridaj nastrúhaný ovčí syr...",
+    "...plnka je hotová.",
+    "Priprav si cannelloni.Vypočítaj si koľko mi ich bude treba. Mne vychádzalo 13 kúskov. Nevarila som, použila som suché.",
+    "Lyžičkou potom plň cannelloni ...",
+    "Na spodok zapekacej misky daj mierne z paradajkovej omáčky. Potom naukladaj naplnené cannelloni.",
+    "Zalej paradajkovou omáčkou.",
+    "Posyp nastrúhaným parmezánom....daj piecť do vyhriatej rúry na 180-200 stupňov a peč asi 50 minút.",
+    "Cannelloni po upečení.",
+    "Teraz si už kľudne možem svoju porciu odrezať...",
+    "...tu je v reze...",
+    "...a ešte raz pekáč s cannellonami."
+  ],
+  "tipy": "Čerstvý špenát sa scvrkne takmer na desatinu objemu — nezľakni sa množstva na začiatku.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "syr",
+    "vajcia",
+    "bezmäsité"
+  ],
+  "kcal_zdroj": "vypocet"
 }

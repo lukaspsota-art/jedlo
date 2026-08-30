@@ -1,32 +1,72 @@
 {
-  "id": "sezamove-celozrnne-bulky",
-  "nazov": "Sezamové celozrnné bulky",
-  "kategoria": "Príloha",
-  "kuchyna": "Slovenská",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 15,
-  "cas": "58 min",
-  "kcal_na_porciu": 198,
-  "popis": "Domáce celozrnné bulky posypané sezamom.",
-  "ingrediencie": [
-    {"nazov": "Celozrnná špaldová múka", "mnozstvo": 500, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Ľanové semienka", "mnozstvo": 1, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Sušené droždie", "mnozstvo": 7, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": 2, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Polotučné mlieko", "mnozstvo": 400, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Olej", "mnozstvo": 50, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Sezamové semienka", "mnozstvo": 80, "jednotka": "g", "poznamka": ""}
-  ],
-  "postup": [
-    "Ľanové semienka rozmixujte, zmiešajte s múkou, droždím a soľou.",
-    "Pridajte mlieko a olej, vypracujte cesto a dôkladne ho prehnette.",
-    "Cesto preložte do misy, prikryte utierkou a dajte kysnúť na teplom mieste 1,5-2 hodiny.",
-    "Cesto ešte raz prehnette a necháte ďalších 30 minút kysnúť.",
-    "Rúru predhrejte na 190 °C.",
-    "Vytvarujte cca 15 rovnakých buliek, poukladajte na plech s papierom, posypte sezamom a necháte 20 minút odpočívať.",
-    "Pečte 20-25 minút pri 180-190 °C."
-  ],
-  "tipy": "Do cesta môžete pridať 150 g nasekaných vlašských orechov.",
-  "foto": "",
-  "tagy": ["bulky", "pečivo", "sezam", "celozrnné"]
+ "id": "sezamove-celozrnne-bulky",
+ "nazov": "Sezamové celozrnné bulky",
+ "kategoria": "Príloha",
+ "kuchyna": "Slovenská",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 15,
+ "cas": "58 min",
+ "kcal_na_porciu": 198,
+ "popis": "Domáce celozrnné bulky posypané sezamom.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnná špaldová múka",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ľanové semienka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené droždie",
+   "mnozstvo": 7,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polotučné mlieko",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sezamové semienka",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Ľanové semienka rozmixuj, zmiešaj s múkou, droždím a soľou.",
+  "Pridaj mlieko a olej, vypracuj cesto a dôkladne ho prehneť.",
+  "Cesto prelož do misy, prikry utierkou a daj kysnúť na teplom mieste 1,5-2 hodiny.",
+  "Cesto ešte raz prehneť a nechaj ďalších 30 minút kysnúť.",
+  "Rúru predhrej na 190 °C.",
+  "Vytvaruj cca 15 rovnakých buliek, poukladaj na plech s papierom, posyp sezamom a nechaj 20 minút odpočívať.",
+  "Peč 20-25 minút pri 180-190 °C."
+ ],
+ "tipy": "Do cesta môžete pridať 150 g nasekaných vlašských orechov.",
+ "foto": "",
+ "tagy": [
+  "bulky",
+  "pečivo",
+  "sezam",
+  "celozrnné"
+ ]
 }

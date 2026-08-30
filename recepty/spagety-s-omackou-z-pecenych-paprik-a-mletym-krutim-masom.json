@@ -1,36 +1,96 @@
 {
-  "id": "spagety-s-omackou-z-pecenych-paprik-a-mletym-krutim-masom",
-  "nazov": "Špagety s omáčkou z pečených paprík a mletým morčacím mäsom",
-  "kategoria": "Cestoviny",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 4,
-  "cas": "55 min",
-  "kcal_na_porciu": 596,
-  "popis": "Celozrnné špagety s domácou omáčkou z pečených paprík a paradajok, dochutené opečeným mletým morčacím mäsom.",
-  "ingrediencie": [
-    {"nazov": "Červené papriky", "mnozstvo": 5, "jednotka": "ks", "poznamka": "na omáčku"},
-    {"nazov": "Cherry paradajky", "mnozstvo": 200, "jednotka": "g", "poznamka": "na omáčku"},
-    {"nazov": "Cesnak", "mnozstvo": 2, "jednotka": "strúčik", "poznamka": "na omáčku"},
-    {"nazov": "Vínny ocot", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na omáčku"},
-    {"nazov": "Olej", "mnozstvo": 50, "jednotka": "ml", "poznamka": "na omáčku"},
-    {"nazov": "Uzená paprika", "mnozstvo": 1, "jednotka": "ČL", "poznamka": "na omáčku"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Olej", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na mäso"},
-    {"nazov": "Kvalitné mleté morčacie mäso", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Celozrnné špagety", "mnozstvo": 320, "jednotka": "g", "poznamka": "v suchom stave"}
-  ],
-  "postup": [
-    "Papriky s paradajkami opečte 10-15 minút na grile alebo 30 minút v rúre pri 170-180 °C, kým nesčernejú.",
-    "Vložte ich do igelitového vrecka, uzavrite a odložte na 10 minút.",
-    "Z paprík oškrabte šupku, vložte spolu s paradajkami, cesnakom, vínnym octom, olejom, soľou a uzenou paprikou do mixéra a rozmixujte dohladka.",
-    "Špagety uvarte v osolenej vode podľa návodu na obale.",
-    "Mleté morčacie mäso opečte na oleji, osoľte, opeprite, opekajte, kým nezmizne ružová farba.",
-    "Pridajte omáčku, premiešajte, prikryte a duste 5 minút.",
-    "Primiešajte scedené špagety a rozdeľte na 4 porcie."
-  ],
-  "tipy": "Každú porciu posypte nasekanou čerstvou bazalkou.",
-  "foto": "",
-  "tagy": ["cestoviny", "špagety", "morčacie mäso", "paprika"]
+ "id": "spagety-s-omackou-z-pecenych-paprik-a-mletym-krutim-masom",
+ "nazov": "Špagety s omáčkou z pečených paprík a mletým morčacím mäsom",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 4,
+ "cas": "55 min",
+ "kcal_na_porciu": 596,
+ "popis": "Celozrnné špagety s domácou omáčkou z pečených paprík a paradajok, dochutené opečeným mletým morčacím mäsom.",
+ "ingrediencie": [
+  {
+   "nazov": "Červené papriky",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Cherry paradajky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Vínny ocot",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Olej",
+   "mnozstvo": 50,
+   "jednotka": "ml",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Uzená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na mäso"
+  },
+  {
+   "nazov": "Kvalitné mleté morčacie mäso",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnné špagety",
+   "mnozstvo": 320,
+   "jednotka": "g",
+   "poznamka": "v suchom stave"
+  }
+ ],
+ "postup": [
+  "Papriky s paradajkami opeč 10-15 minút na grile alebo 30 minút v rúre pri 170-180 °C, kým nesčernejú.",
+  "Vlož ich do igelitového vrecka, uzavri a odlož na 10 minút.",
+  "Z paprík oškrab šupku, vlož spolu s paradajkami, cesnakom, vínnym octom, olejom, soľou a uzenou paprikou do mixéra a rozmixuj dohladka.",
+  "Špagety uvar v osolenej vode podľa návodu na obale.",
+  "Mleté morčacie mäso opeč na oleji, osoľ, opepri, opekaj, kým nezmizne ružová farba.",
+  "Pridaj omáčku, premiešaj, prikry a dus 5 minút.",
+  "Primiešaj scedené špagety a rozdeľ na 4 porcie."
+ ],
+ "tipy": "Každú porciu posyp nasekanou čerstvou bazalkou.",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "špagety",
+  "morčacie mäso",
+  "paprika"
+ ]
 }

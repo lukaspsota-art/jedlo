@@ -1,48 +1,48 @@
 {
-  "id": "grilovany-syrovy-sendvic",
-  "nazov": "Grilovaný syrový sendvič",
-  "kategoria": "Snack",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Grilled Cheese Sandwich (CC BY-SA)",
-  "porcie": 1,
-  "cas": "15 min",
-  "kcal_na_porciu": 532,
-  "popis": "Dva plátky chleba, maslo a syr, ktorý sa dobre topí. Základná verzia americkej klasiky opekaná na panvici.",
-  "ingrediencie": [
-    {
-      "nazov": "Toastový chlieb",
-      "mnozstvo": 2,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Maslo",
-      "mnozstvo": 20,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čedar",
-      "mnozstvo": 60,
-      "jednotka": "g",
-      "poznamka": "alebo gouda, plátky či strúhaný"
-    }
-  ],
-  "postup": [
-    "Panvicu rozohrej na stredný oheň.",
-    "Chlieb potri maslom a oba plátky vlož do panvice maslovou stranou dole.",
-    "Keď obe maslové strany zhnednú, jeden plátok otoč, polož naň syr a prikry druhým plátkom, opäť maslovou stranou navrch.",
-    "Sendvič stlač obračkou.",
-    "Keď je spodná strana dostatočne opečená, sendvič otoč. Keď sú obe strany zhnednuté, stiahni z ohňa, rozkroj a podávaj."
-  ],
-  "tipy": "Zdroj uvádza aj verziu z rúry - chlieb potri maslom z oboch strán, poskladaj a peč pri 150 °C 10-15 minút, otoč a peč ďalších 5-10 minút. Chlieb sa dá potrieť aj majonézou, horčicou, barbecue omáčkou, kečupom alebo aioli. K syru sa dá vrstviť šunka, paradajka, trhané bravčové alebo saláma.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "obed",
-    "americká",
-    "syr",
-    "rýchle",
-    "pre deti"
-  ]
+ "id": "grilovany-syrovy-sendvic",
+ "nazov": "Grilovaný syrový sendvič",
+ "kategoria": "Snack",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Grilled Cheese Sandwich (CC BY-SA)",
+ "porcie": 1,
+ "cas": "15 min",
+ "kcal_na_porciu": 532,
+ "popis": "Dva plátky chleba, maslo a syr, ktorý sa dobre topí. Základná verzia americkej klasiky opekaná na panvici.",
+ "ingrediencie": [
+  {
+   "nazov": "Toastový chlieb",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čedar",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "alebo gouda, plátky či strúhaný"
+  }
+ ],
+ "postup": [
+  "Panvicu rozohrej na stredný oheň.",
+  "Chlieb potri maslom a oba plátky vlož do panvice maslovou stranou dole.",
+  "Keď obe maslové strany zhnednú, jeden plátok otoč, polož naň syr a prikry druhým plátkom, opäť maslovou stranou navrch.",
+  "Sendvič stlač obračkou.",
+  "Keď je spodná strana dostatočne opečená, sendvič otoč. Keď sú obe strany zhnednuté, stiahni z ohňa, rozkroj a podávaj."
+ ],
+ "tipy": "Zdroj uvádza aj verziu z rúry - chlieb potri maslom z oboch strán, poskladaj a peč pri 150 °C 10-15 minút, otoč a peč ďalších 5-10 minút. Chlieb sa dá potrieť aj majonézou, horčicou, barbecue omáčkou, kečupom alebo aioli. K syru sa dá vrstviť šunka, paradajka, trhané bravčové alebo saláma.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "obed",
+  "americká",
+  "syr",
+  "rýchle",
+  "pre deti"
+ ]
 }

@@ -1,36 +1,89 @@
 {
-  "id": "orechove-tycinky",
-  "nazov": "Orechové tyčinky",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 15,
-  "cas": "55 min",
-  "kcal_na_porciu": 221,
-  "popis": "Pečené müsli tyčinky z ovsených vločiek, orechov a sušeného ovocia.",
-  "ingrediencie": [
-    {"nazov": "Ovsené vločky jemne mleté", "mnozstvo": 350, "jednotka": "g"},
-    {"nazov": "Vlašské orechy", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Slnečnicové semienka", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Datle sušené", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Brusnice sušené", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Goji sušené", "mnozstvo": 50, "jednotka": "g"},
-    {"nazov": "Banán", "mnozstvo": 1, "jednotka": "ks"},
-    {"nazov": "Jablčné pyré", "mnozstvo": 60, "jednotka": "g"},
-    {"nazov": "Kokosový olej rozpustený", "mnozstvo": 60, "jednotka": "g"},
-    {"nazov": "Med", "mnozstvo": 3, "jednotka": "PL"},
-    {"nazov": "Škorica", "mnozstvo": 1, "jednotka": "ČL"},
-    {"nazov": "Zázvor mletý", "mnozstvo": 0.5, "jednotka": "ČL"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 190 °C.",
-    "Do veľkej misy nasypte ovsené vločky, nasekané vlašské orechy a slnečnicové semienka.",
-    "Datle nakrájajte na kúsky a pridajte spolu s brusnicami a goji.",
-    "Rozmačkaný banán zamiešajte spolu s jablčným pyré, kokosovým olejom, medom, škoricou a zázvorom.",
-    "Zmes rozotrite na plech do výšky asi 1,5 cm.",
-    "Pečte 35–45 minút pri 180–190 °C."
-  ],
-  "tipy": "Do cesta môžete pridať akékoľvek sušené ovocie alebo orechy.",
-  "foto": "",
-  "tagy": ["snack", "tyčinky", "ovsené vločky", "orechy"]
+ "id": "orechove-tycinky",
+ "nazov": "Orechové tyčinky",
+ "kategoria": "Snack",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 15,
+ "cas": "55 min",
+ "kcal_na_porciu": 221,
+ "popis": "Pečené müsli tyčinky z ovsených vločiek, orechov a sušeného ovocia.",
+ "ingrediencie": [
+  {
+   "nazov": "Ovsené vločky jemne mleté",
+   "mnozstvo": 350,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Slnečnicové semienka",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Datle sušené",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Brusnice sušené",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Goji sušené",
+   "mnozstvo": 50,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Banán",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Jablčné pyré",
+   "mnozstvo": 60,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kokosový olej rozpustený",
+   "mnozstvo": 60,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 3,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Zázvor mletý",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 190 °C.",
+  "Do veľkej misy nasyp ovsené vločky, nasekané vlašské orechy a slnečnicové semienka.",
+  "Datle nakrájaj na kúsky a pridaj spolu s brusnicami a goji.",
+  "Rozmačkaný banán zamiešaj spolu s jablčným pyré, kokosovým olejom, medom, škoricou a zázvorom.",
+  "Zmes rozotri na plech do výšky asi 1,5 cm.",
+  "Peč 35–45 minút pri 180–190 °C."
+ ],
+ "tipy": "Do cesta môžete pridať akékoľvek sušené ovocie alebo orechy.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "tyčinky",
+  "ovsené vločky",
+  "orechy"
+ ]
 }

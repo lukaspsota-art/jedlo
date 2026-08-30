@@ -1,104 +1,104 @@
 {
-  "id": "sendvic-s-uhorkou-a-klickami",
-  "nazov": "Sendvič s uhorkou a klíčkami",
-  "kategoria": "Snack",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Cucumber Sprout Sandwich (CC BY-SA)",
-  "porcie": 1,
-  "cas": "10 min",
-  "kcal_na_porciu": 577,
-  "popis": "Studený vegetariánsky sendvič so smotanovým syrom, uhorkou, klíčkami a rozmačkaným avokádom.",
-  "ingrediencie": [
-    {
-      "nazov": "Celozrnný chlieb",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Smotanový syr",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": "olúpaná, šesť plátkov"
-    },
-    {
-      "nazov": "Čerstvé klíčky",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": "červený vínny"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Šalátové listy",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Feferónky",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Avokádo",
-      "mnozstvo": 0.5,
-      "jednotka": "ks",
-      "poznamka": "olúpané a rozmačkané"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na každý plátok chleba rozotri lyžicu smotanového syra.",
-    "Na jeden plátok rozlož plátky uhorky v jednej vrstve.",
-    "Ten istý plátok pokry klíčkami a pokvapkaj olejom a octom.",
-    "Navrstvi plátky paradajky, šalát a feferónky.",
-    "Na druhý plátok rozotri rozmačkané avokádo.",
-    "Osoľ a opepri podľa chuti.",
-    "Sendvič zlož a podávaj hneď."
-  ],
-  "tipy": "Zdroj používa klíčky lucerny. Sendvič sa neuchováva - klíčky a paradajka rýchlo pustia vodu.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "americká",
-    "vegetariánske",
-    "avokádo",
-    "bez varenia"
-  ]
+ "id": "sendvic-s-uhorkou-a-klickami",
+ "nazov": "Sendvič s uhorkou a klíčkami",
+ "kategoria": "Snack",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Cucumber Sprout Sandwich (CC BY-SA)",
+ "porcie": 1,
+ "cas": "10 min",
+ "kcal_na_porciu": 577,
+ "popis": "Studený vegetariánsky sendvič so smotanovým syrom, uhorkou, klíčkami a rozmačkaným avokádom.",
+ "ingrediencie": [
+  {
+   "nazov": "Celozrnný chlieb",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "olúpaná, šesť plátkov"
+  },
+  {
+   "nazov": "Čerstvé klíčky",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "červený vínny"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Šalátové listy",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Feferónky",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "olúpané a rozmačkané"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na každý plátok chleba rozotri lyžicu smotanového syra.",
+  "Na jeden plátok rozlož plátky uhorky v jednej vrstve.",
+  "Ten istý plátok pokry klíčkami a pokvapkaj olejom a octom.",
+  "Navrstvi plátky paradajky, šalát a feferónky.",
+  "Na druhý plátok rozotri rozmačkané avokádo.",
+  "Osoľ a opepri podľa chuti.",
+  "Sendvič zlož a podávaj hneď."
+ ],
+ "tipy": "Zdroj používa klíčky lucerny. Sendvič sa neuchováva - klíčky a paradajka rýchlo pustia vodu.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "americká",
+  "vegetariánske",
+  "avokádo",
+  "bez varenia"
+ ]
 }

@@ -1,44 +1,44 @@
 {
-  "id": "becherovka-ght",
-  "nazov": "Becherovka Grapefruit & Hops – GHT",
-  "kategoria": "Kokteil",
-  "kuchyna": "Slovenská",
-  "zdroj": "Kaufland FOOD magazín",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 150,
-  "popis": "Osviežujúci letný drink z Becherovky Grapefruit & Hops s grepovým tonikom.",
-  "ingrediencie": [
-    {
-      "nazov": "becherovka",
-      "mnozstvo": 40,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "River Pink Grapefruit tonic",
-      "mnozstvo": 100,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Plátok grepu",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Ľad",
-      "mnozstvo": null,
-      "jednotka": ""
-    }
-  ],
-  "postup": [
-    "Do pohára s ľadom nalej Becherovku Grapefruit & Hops, dolej Pink Grapefruit tonic a zľahka premiešaj.",
-    "Ozdob plátkom čerstvého grepu a podávaj dobre vychladené."
-  ],
-  "tipy": "Podávaj dobre vychladené, ideálne v horúcich letných dňoch.",
-  "foto": "",
-  "tagy": [
-    "kokteil",
-    "nápoj",
-    "letné"
-  ]
+ "id": "becherovka-ght",
+ "nazov": "Becherovka Grapefruit & Hops – GHT",
+ "kategoria": "Kokteil",
+ "kuchyna": "Slovenská",
+ "zdroj": "Kaufland FOOD magazín",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 150,
+ "popis": "Osviežujúci letný drink z Becherovky Grapefruit & Hops s grepovým tonikom.",
+ "ingrediencie": [
+  {
+   "nazov": "becherovka",
+   "mnozstvo": 40,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "River Pink Grapefruit tonic",
+   "mnozstvo": 100,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Plátok grepu",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": ""
+  }
+ ],
+ "postup": [
+  "Do pohára s ľadom nalej Becherovku Grapefruit & Hops, dolej Pink Grapefruit tonic a zľahka premiešaj.",
+  "Ozdob plátkom čerstvého grepu a podávaj dobre vychladené."
+ ],
+ "tipy": "Podávaj dobre vychladené, ideálne v horúcich letných dňoch.",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "nápoj",
+  "letné"
+ ]
 }

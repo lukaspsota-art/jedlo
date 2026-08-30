@@ -1,38 +1,107 @@
 {
-  "id": "sosovicova-polievka-s-kurkumou",
-  "nazov": "Šošovicová polievka s kurkumou",
-  "kategoria": "Polievka",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 4,
-  "cas": "65 min",
-  "kcal_na_porciu": 220,
-  "popis": "Sýta šošovicová polievka s paradajkami, mrkvou a kurkumou, dochutená citrónom.",
-  "ingrediencie": [
-    {"nazov": "Olivový olej", "mnozstvo": 2, "jednotka": "PL", "poznamka": ""},
-    {"nazov": "Cibuľa", "mnozstvo": 1, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Mrkva", "mnozstvo": 2, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Cesnak", "mnozstvo": 3, "jednotka": "strúčik", "poznamka": ""},
-    {"nazov": "Kmín mletý", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Kurkuma", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Rozmarín sušený", "mnozstvo": 1, "jednotka": "ČL", "poznamka": ""},
-    {"nazov": "Paradajky krájané (konzerva)", "mnozstvo": 400, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Zeleninový vývar", "mnozstvo": 900, "jednotka": "ml", "poznamka": ""},
-    {"nazov": "Červená šošovica", "mnozstvo": 100, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Citrónová šťava", "mnozstvo": null, "jednotka": "", "poznamka": "z 0.5 citróna"}
-  ],
-  "postup": [
-    "V hrnci rozohrejeme olej a opražíme najemno nakrájanú cibuľku.",
-    "Pridáme mrkvu nakrájanú na tenké kolieska a roztlačený cesnak, restujeme 5 minút.",
-    "Pridáme kmín, kurkumu a rozmarín, opekáme asi 20 sekúnd.",
-    "Pridáme paradajky nakrájané na kocky, premiešame a necháme 5 minút prevariť.",
-    "Zalejeme zeleninovým vývarom, pridáme červenú šošovicu, prikryjeme a varíme 30 minút.",
-    "Necháme trochu vychladnúť, polovicu odlejeme do mixéra, rozmixujeme a vrátime späť do hrnca.",
-    "Dochutíme soľou, korením a citrónovou šťavou."
-  ],
-  "tipy": "Každú porciu podávajte s knedličkou zakysanej smotany.",
-  "foto": "",
-  "tagy": ["polievka", "šošovica", "kurkuma"]
+ "id": "sosovicova-polievka-s-kurkumou",
+ "nazov": "Šošovicová polievka s kurkumou",
+ "kategoria": "Polievka",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 4,
+ "cas": "65 min",
+ "kcal_na_porciu": 220,
+ "popis": "Sýta šošovicová polievka s paradajkami, mrkvou a kurkumou, dochutená citrónom.",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kmín mletý",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kurkuma",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín sušený",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky krájané (konzerva)",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 900,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červená šošovica",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "z 0.5 citróna"
+  }
+ ],
+ "postup": [
+  "V hrnci rozohrej olej a opraž najemno nakrájanú cibuľku.",
+  "Pridaj mrkvu nakrájanú na tenké kolieska a roztlačený cesnak, restuj 5 minút.",
+  "Pridaj kmín, kurkumu a rozmarín, opekaj asi 20 sekúnd.",
+  "Pridaj paradajky nakrájané na kocky, premiešaj a nechaj 5 minút prevariť.",
+  "Zalej zeleninovým vývarom, pridaj červenú šošovicu, prikryj a var 30 minút.",
+  "Nechaj trochu vychladnúť, polovicu odlej do mixéra, rozmixuj a vráť späť do hrnca.",
+  "Dochuť soľou, korením a citrónovou šťavou."
+ ],
+ "tipy": "Každú porciu podávaj s knedličkou zakysanej smotany.",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "šošovica",
+  "kurkuma"
+ ]
 }

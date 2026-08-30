@@ -1,28 +1,54 @@
 {
-  "id": "tvarohovy-kolac",
-  "nazov": "Tvarohový koláč",
-  "kategoria": "Dezert",
-  "kuchyna": "Slovenská",
-  "zdroj": "Jíme zdravě s Fitrecepty I",
-  "porcie": 10,
-  "cas": "70 min",
-  "kcal_na_porciu": 110,
-  "popis": "Jednoduchý tvarohový koláč s vanilkovým pudingom bez múky.",
-  "ingrediencie": [
-    {"nazov": "Tvaroh polotučný", "mnozstvo": 500, "jednotka": "g"},
-    {"nazov": "Vanilkový puding v prášku", "mnozstvo": 40, "jednotka": "g", "poznamka": "1 balenie"},
-    {"nazov": "Datľový sirup", "mnozstvo": 80, "jednotka": "g"},
-    {"nazov": "Vajce", "mnozstvo": 4, "jednotka": "ks"},
-    {"nazov": "Vanilkový extrakt", "mnozstvo": 1, "jednotka": "ČL"}
-  ],
-  "postup": [
-    "Rúru predhrejte na 170 °C.",
-    "Tvaroh vyšľahajte s datľovým sirupom a vajcami.",
-    "Vmiešajte puding a vanilkový extrakt.",
-    "Cesto nalejte do koláčovej formy (Ø 25 cm) s papierom na pečenie.",
-    "Pečte pri 150–160 °C 50 minút (25 minút horkovzdušne, potom 25 minút na spodný ohrev)."
-  ],
-  "tipy": "Cesto môžete rozdeliť na dve časti, do jednej primiešať holandské kakao a vrstviť do formy.",
-  "foto": "",
-  "tagy": ["dezert", "tvaroh", "koláč", "bez múky"]
+ "id": "tvarohovy-kolac",
+ "nazov": "Tvarohový koláč",
+ "kategoria": "Dezert",
+ "kuchyna": "Slovenská",
+ "zdroj": "Jíme zdravě s Fitrecepty I",
+ "porcie": 10,
+ "cas": "70 min",
+ "kcal_na_porciu": 110,
+ "popis": "Jednoduchý tvarohový koláč s vanilkovým pudingom bez múky.",
+ "ingrediencie": [
+  {
+   "nazov": "Tvaroh polotučný",
+   "mnozstvo": 500,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Vanilkový puding v prášku",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "1 balenie"
+  },
+  {
+   "nazov": "Datľový sirup",
+   "mnozstvo": 80,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 4,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 170 °C.",
+  "Tvaroh vyšľahaj s datľovým sirupom a vajcami.",
+  "Vmiešaj puding a vanilkový extrakt.",
+  "Cesto nalej do koláčovej formy (Ø 25 cm) s papierom na pečenie.",
+  "Peč pri 150–160 °C 50 minút (25 minút horkovzdušne, potom 25 minút na spodný ohrev)."
+ ],
+ "tipy": "Cesto môžete rozdeliť na dve časti, do jednej primiešať holandské kakao a vrstviť do formy.",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "tvaroh",
+  "koláč",
+  "bez múky"
+ ]
 }

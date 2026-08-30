@@ -1,121 +1,121 @@
 {
-  "id": "banh-mi",
-  "nazov": "Bánh mì",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Vietnamská",
-  "zdroj": "Wikibooks Cookbook – Bánh Mì (CC BY-SA)",
-  "porcie": 2,
-  "cas": "30 min",
-  "kcal_na_porciu": 889,
-  "popis": "Bánh mì znamená vo vietnamčine chlieb a označuje aj tento sendvič. Vznikol ako spôsob, ako spracovať zvyšky - chrumkavá bageta, nakladaná mrkva s daikonom, koriander, uhorka a ľubovoľná bielkovina.",
-  "ingrediencie": [
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "nastrúhaná na zápalky"
-    },
-    {
-      "nazov": "Biela reďkovka daikon",
-      "mnozstvo": 150,
-      "jednotka": "g",
-      "poznamka": "nastrúhaná na zápalky"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Voda",
-      "mnozstvo": 120,
-      "jednotka": "ml",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 120,
-      "jednotka": "ml",
-      "poznamka": "kokosový alebo biely"
-    },
-    {
-      "nazov": "Cukor",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Koriander",
-      "mnozstvo": 1,
-      "jednotka": "hrsť",
-      "poznamka": "listy aj stopky"
-    },
-    {
-      "nazov": "Jalapeño",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "na papierovo tenké kolieska"
-    },
-    {
-      "nazov": "Uhorka",
-      "mnozstvo": 100,
-      "jednotka": "g",
-      "poznamka": "plátky"
-    },
-    {
-      "nazov": "Bravčové karé",
-      "mnozstvo": 200,
-      "jednotka": "g",
-      "poznamka": "grilované, plátky"
-    },
-    {
-      "nazov": "Pečeňová paštéta",
-      "mnozstvo": 50,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Majonéza",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sójová omáčka",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Sriracha",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Nastrúhanú mrkvu a reďkovku zľahka posyp soľou, nechaj 5 minút odstáť a opláchni studenou vodou.",
-    "Zmiešaj rovnaký diel vody a octu s cukrom, priveď do varu, nechaj vychladnúť a prelej zeleninu.",
-    "Nakladanú zeleninu drž v uzavretej nádobe v chladničke - najlepšia je až po jednom dni.",
-    "Bagetu rozkroj po dĺžke. V každej polovici vytvor korýtko - buď vyber prebytočnú striedku, alebo ju stlač. Do týchto priehlbín ide plnka.",
-    "Bagetu podľa chuti opeč.",
-    "Majonézu zmiešaj so sójovou omáčkou a srirachou. Jednu polovicu bagety potri paštétou, druhú touto omáčkou.",
-    "Naplň bravčovým mäsom, nakladanou zeleninou, uhorkou, koriandrom a jalapeñom."
-  ],
-  "tipy": "Zdrojový recept uvádza desiatky možných plniek - grilované bravčové aj kuracie, paštétu, mäsové guľky, sardinky, údeného lososa, tofu, sekanú. Tu je zapísaná najbežnejšia kombinácia, ale poskladaj si vlastnú. Nakladanú zeleninu si priprav aspoň deň vopred.",
-  "foto": "",
-  "tagy": [
-    "sendvič",
-    "obed",
-    "vietnamská",
-    "bánh mì",
-    "príprava vopred"
-  ]
+ "id": "banh-mi",
+ "nazov": "Bánh mì",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Vietnamská",
+ "zdroj": "Wikibooks Cookbook – Bánh Mì (CC BY-SA)",
+ "porcie": 2,
+ "cas": "30 min",
+ "kcal_na_porciu": 889,
+ "popis": "Bánh mì znamená vo vietnamčine chlieb a označuje aj tento sendvič. Vznikol ako spôsob, ako spracovať zvyšky - chrumkavá bageta, nakladaná mrkva s daikonom, koriander, uhorka a ľubovoľná bielkovina.",
+ "ingrediencie": [
+  {
+   "nazov": "Bageta",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "nastrúhaná na zápalky"
+  },
+  {
+   "nazov": "Biela reďkovka daikon",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "nastrúhaná na zápalky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "kokosový alebo biely"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": "listy aj stopky"
+  },
+  {
+   "nazov": "Jalapeño",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na papierovo tenké kolieska"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "plátky"
+  },
+  {
+   "nazov": "Bravčové karé",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "grilované, plátky"
+  },
+  {
+   "nazov": "Pečeňová paštéta",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sriracha",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Nastrúhanú mrkvu a reďkovku zľahka posyp soľou, nechaj 5 minút odstáť a opláchni studenou vodou.",
+  "Zmiešaj rovnaký diel vody a octu s cukrom, priveď do varu, nechaj vychladnúť a prelej zeleninu.",
+  "Nakladanú zeleninu drž v uzavretej nádobe v chladničke - najlepšia je až po jednom dni.",
+  "Bagetu rozkroj po dĺžke. V každej polovici vytvor korýtko - buď vyber prebytočnú striedku, alebo ju stlač. Do týchto priehlbín ide plnka.",
+  "Bagetu podľa chuti opeč.",
+  "Majonézu zmiešaj so sójovou omáčkou a srirachou. Jednu polovicu bagety potri paštétou, druhú touto omáčkou.",
+  "Naplň bravčovým mäsom, nakladanou zeleninou, uhorkou, koriandrom a jalapeñom."
+ ],
+ "tipy": "Zdrojový recept uvádza desiatky možných plniek - grilované bravčové aj kuracie, paštétu, mäsové guľky, sardinky, údeného lososa, tofu, sekanú. Tu je zapísaná najbežnejšia kombinácia, ale poskladaj si vlastnú. Nakladanú zeleninu si priprav aspoň deň vopred.",
+ "foto": "",
+ "tagy": [
+  "sendvič",
+  "obed",
+  "vietnamská",
+  "bánh mì",
+  "príprava vopred"
+ ]
 }

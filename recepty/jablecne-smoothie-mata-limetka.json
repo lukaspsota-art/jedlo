@@ -1,26 +1,56 @@
 {
-  "id": "jablecne-smoothie-mata-limetka",
-  "nazov": "Jablčné smoothie s mätou a limetkou",
-  "kategoria": "Nápoj",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty II",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 115,
-  "popis": "Sviežé zelené smoothie z jablka, špenátu, mäty a limetky.",
-  "ingrediencie": [
-    { "nazov": "Mandľové mlieko", "mnozstvo": 200, "jednotka": "ml" },
-    { "nazov": "Baby špenát", "mnozstvo": 1, "jednotka": "hrsť" },
-    { "nazov": "Zelené jablko", "mnozstvo": 0.5, "jednotka": "ks" },
-    { "nazov": "Čerstvá mäta", "mnozstvo": null, "jednotka": "", "poznamka": "pár lístkov" },
-    { "nazov": "Limetková šťava", "mnozstvo": 2, "jednotka": "ČL" },
-    { "nazov": "Med", "mnozstvo": 1, "jednotka": "ČL" }
-  ],
-  "postup": [
-    "Všetky surové rozmixuj dohladka.",
-    "Podávaj hneď."
-  ],
-  "tipy": "V letných dňoch pridaj do smoothie pár kociek ľadu.",
-  "foto": "",
-  "tagy": ["nápoj", "smoothie", "jablko", "mäta"]
+ "id": "jablecne-smoothie-mata-limetka",
+ "nazov": "Jablčné smoothie s mätou a limetkou",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty II",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 115,
+ "popis": "Sviežé zelené smoothie z jablka, špenátu, mäty a limetky.",
+ "ingrediencie": [
+  {
+   "nazov": "Mandľové mlieko",
+   "mnozstvo": 200,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Baby špenát",
+   "mnozstvo": 1,
+   "jednotka": "hrsť"
+  },
+  {
+   "nazov": "Zelené jablko",
+   "mnozstvo": 0.5,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Čerstvá mäta",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "pár lístkov"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  }
+ ],
+ "postup": [
+  "Všetky surové rozmixuj dohladka.",
+  "Podávaj hneď."
+ ],
+ "tipy": "V letných dňoch pridaj do smoothie pár kociek ľadu.",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "smoothie",
+  "jablko",
+  "mäta"
+ ]
 }

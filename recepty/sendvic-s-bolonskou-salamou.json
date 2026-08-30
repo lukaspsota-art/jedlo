@@ -1,45 +1,45 @@
 {
-  "id": "sendvic-s-bolonskou-salamou",
-  "nazov": "Sendvič s bolonskou salámou",
-  "kategoria": "Snack",
-  "kuchyna": "Americká",
-  "zdroj": "Wikibooks Cookbook – Baloney Sandwich (CC BY-SA)",
-  "porcie": 1,
-  "cas": "5 min",
-  "kcal_na_porciu": 608,
-  "popis": "Kopa plátkov salámy a hrubá horčica na kaizerke. Americký sendvič zredukovaný na tri zložky.",
-  "ingrediencie": [
-    {
-      "nazov": "Saláma",
-      "mnozstvo": 120,
-      "jednotka": "g",
-      "poznamka": "tenké plátky"
-    },
-    {
-      "nazov": "Horčica",
-      "mnozstvo": 30,
-      "jednotka": "g",
-      "poznamka": "hrubá"
-    },
-    {
-      "nazov": "Kaizerka",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Na spodnú polovicu kaizerky naskladaj plátky salámy tak, aby sa navzájom prekrývali a prečnievali cez okraj pečiva.",
-    "Vrchnú polovicu potri z mäkkej strany hrubou horčicou a sendvič zavri."
-  ],
-  "tipy": "Pokojne použi akékoľvek pečivo. Zdroj uvádza 16 plátkov salámy, tu je zapísaných 120 g - množstvo si uprav podľa chuti. Dajú sa pridať aj ďalšie plnky - plátky paradajky, šalát, majonéza alebo plátky syra.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "obed",
-    "americká",
-    "saláma",
-    "rýchle",
-    "bez varenia"
-  ]
+ "id": "sendvic-s-bolonskou-salamou",
+ "nazov": "Sendvič s bolonskou salámou",
+ "kategoria": "Snack",
+ "kuchyna": "Americká",
+ "zdroj": "Wikibooks Cookbook – Baloney Sandwich (CC BY-SA)",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 608,
+ "popis": "Kopa plátkov salámy a hrubá horčica na kaizerke. Americký sendvič zredukovaný na tri zložky.",
+ "ingrediencie": [
+  {
+   "nazov": "Saláma",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "tenké plátky"
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": "hrubá"
+  },
+  {
+   "nazov": "Kaizerka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Na spodnú polovicu kaizerky naskladaj plátky salámy tak, aby sa navzájom prekrývali a prečnievali cez okraj pečiva.",
+  "Vrchnú polovicu potri z mäkkej strany hrubou horčicou a sendvič zavri."
+ ],
+ "tipy": "Pokojne použi akékoľvek pečivo. Zdroj uvádza 16 plátkov salámy, tu je zapísaných 120 g - množstvo si uprav podľa chuti. Dajú sa pridať aj ďalšie plnky - plátky paradajky, šalát, majonéza alebo plátky syra.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "obed",
+  "americká",
+  "saláma",
+  "rýchle",
+  "bez varenia"
+ ]
 }

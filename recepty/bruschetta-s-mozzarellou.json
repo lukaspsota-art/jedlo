@@ -1,86 +1,86 @@
 {
-  "id": "bruschetta-s-mozzarellou",
-  "nazov": "Bruschetta s mozzarellou",
-  "kategoria": "Snack",
-  "kuchyna": "Talianska",
-  "zdroj": "Wikibooks Cookbook – Fresh Mozzarella Bruschetta (CC BY-SA)",
-  "porcie": 6,
-  "cas": "20 min",
-  "kcal_na_porciu": 362,
-  "popis": "Opečený chlieb s paradajkou, čerstvou mozzarellou, bazalkou a balzamikom. Talianske predjedlo, ktoré sa robí za dvadsať minút.",
-  "ingrediencie": [
-    {
-      "nazov": "Bageta",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": "dlhá, chrumkavá"
-    },
-    {
-      "nazov": "Paradajky",
-      "mnozstvo": 3,
-      "jednotka": "ks",
-      "poznamka": "zrelé"
-    },
-    {
-      "nazov": "Mozzarella",
-      "mnozstvo": 375,
-      "jednotka": "g",
-      "poznamka": "čerstvá, 3 kusy"
-    },
-    {
-      "nazov": "Bazalka",
-      "mnozstvo": 24,
-      "jednotka": "lístok",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "hrubá, podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Olivový olej",
-      "mnozstvo": 3,
-      "jednotka": "PL",
-      "poznamka": "extra virgin"
-    },
-    {
-      "nazov": "Oregano",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": "balzamikový"
-    }
-  ],
-  "postup": [
-    "Chlieb nakrájaj našikmo na plátky hrubé 1,3 cm.",
-    "Zľahka ho opeč v rúre z oboch strán.",
-    "Paradajky nakrájaj na plátky hrubé 0,75 cm a na každý plátok chleba polož jeden.",
-    "Mozzarellu nakrájaj na plátky hrubé 0,75 cm a polož na paradajku.",
-    "Bazalku nakrájaj na tenké pásiky a posyp spolu s oreganom.",
-    "V malej miske zmiešaj olivový olej s balzamikovým octom podľa chuti.",
-    "Bruschettu pokvapkaj zmesou a posyp soľou a korením."
-  ],
-  "tipy": "Voliteľné druhé opečenie už s plnkou roztopí mozzarellu a je ešte lepšie. Autentická talianska bruschetta začína tým, že sa opečený chlieb potrie strúčikom pečeného cesnaku.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "predjedlo",
-    "talianska",
-    "paradajky",
-    "mozzarella",
-    "vegetariánske"
-  ]
+ "id": "bruschetta-s-mozzarellou",
+ "nazov": "Bruschetta s mozzarellou",
+ "kategoria": "Snack",
+ "kuchyna": "Talianska",
+ "zdroj": "Wikibooks Cookbook – Fresh Mozzarella Bruschetta (CC BY-SA)",
+ "porcie": 6,
+ "cas": "20 min",
+ "kcal_na_porciu": 362,
+ "popis": "Opečený chlieb s paradajkou, čerstvou mozzarellou, bazalkou a balzamikom. Talianske predjedlo, ktoré sa robí za dvadsať minút.",
+ "ingrediencie": [
+  {
+   "nazov": "Bageta",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "dlhá, chrumkavá"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "zrelé"
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 375,
+   "jednotka": "g",
+   "poznamka": "čerstvá, 3 kusy"
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 24,
+   "jednotka": "lístok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "hrubá, podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "extra virgin"
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "balzamikový"
+  }
+ ],
+ "postup": [
+  "Chlieb nakrájaj našikmo na plátky hrubé 1,3 cm.",
+  "Zľahka ho opeč v rúre z oboch strán.",
+  "Paradajky nakrájaj na plátky hrubé 0,75 cm a na každý plátok chleba polož jeden.",
+  "Mozzarellu nakrájaj na plátky hrubé 0,75 cm a polož na paradajku.",
+  "Bazalku nakrájaj na tenké pásiky a posyp spolu s oreganom.",
+  "V malej miske zmiešaj olivový olej s balzamikovým octom podľa chuti.",
+  "Bruschettu pokvapkaj zmesou a posyp soľou a korením."
+ ],
+ "tipy": "Voliteľné druhé opečenie už s plnkou roztopí mozzarellu a je ešte lepšie. Autentická talianska bruschetta začína tým, že sa opečený chlieb potrie strúčikom pečeného cesnaku.",
+ "foto": "",
+ "tagy": [
+  "snack",
+  "predjedlo",
+  "talianska",
+  "paradajky",
+  "mozzarella",
+  "vegetariánske"
+ ]
 }

@@ -1,33 +1,88 @@
 {
-  "id": "sosovicove-karbanatky",
-  "nazov": "Šošovicové karbanátky",
-  "kategoria": "Hlavné jedlo",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "Jíme zdravě s Fitrecepty III",
-  "porcie": 6,
-  "cas": "50 min",
-  "kcal_na_porciu": 524,
-  "popis": "Pečené karbanátky z červenej šošovice a mandlí podávané v žemli s hummusom a polníčkom.",
-  "ingrediencie": [
-    {"nazov": "Surová červená šošovica", "mnozstvo": 180, "jednotka": "g", "poznamka": "na karbanátky"},
-    {"nazov": "Mleté mandle", "mnozstvo": 100, "jednotka": "g", "poznamka": "na karbanátky"},
-    {"nazov": "Mleté vločky", "mnozstvo": 100, "jednotka": "g", "poznamka": "na karbanátky"},
-    {"nazov": "Horčica", "mnozstvo": 1, "jednotka": "PL", "poznamka": "na karbanátky"},
-    {"nazov": "Vajce", "mnozstvo": 1, "jednotka": "ks", "poznamka": "na karbanátky"},
-    {"nazov": "Soľ", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Čierne korenie", "mnozstvo": null, "jednotka": "", "poznamka": "podľa chuti"},
-    {"nazov": "Hummus", "mnozstvo": 300, "jednotka": "g", "poznamka": ""},
-    {"nazov": "Celozrnné žemle", "mnozstvo": 6, "jednotka": "ks", "poznamka": ""},
-    {"nazov": "Polníček", "mnozstvo": 100, "jednotka": "g", "poznamka": ""}
-  ],
-  "postup": [
-    "Červenú šošovicu uvarte podľa návodu na obale, nechajte vychladnúť.",
-    "Zmiešajte šošovicu s mandľami, vločkami, soľou, korením, horčicou a vajcom.",
-    "Rúru predhrejte na 170 °C, z cesta vytvarujte 6 rovnako veľkých karbanátkov.",
-    "Uložte na plech vyložený papierom na pečenie a pečte 15 minút pri 160-170 °C.",
-    "Žemle rozrežte, každú potrite hummusom, posypte polníčkom a vložte karbanátok."
-  ],
-  "tipy": "Namiesto žemlí použite plátky cuketového chleba.",
-  "foto": "",
-  "tagy": ["karbanátky", "šošovica", "hummus", "vegetariánske"]
+ "id": "sosovicove-karbanatky",
+ "nazov": "Šošovicové karbanátky",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Jíme zdravě s Fitrecepty III",
+ "porcie": 6,
+ "cas": "50 min",
+ "kcal_na_porciu": 524,
+ "popis": "Pečené karbanátky z červenej šošovice a mandlí podávané v žemli s hummusom a polníčkom.",
+ "ingrediencie": [
+  {
+   "nazov": "Surová červená šošovica",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": "na karbanátky"
+  },
+  {
+   "nazov": "Mleté mandle",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "na karbanátky"
+  },
+  {
+   "nazov": "Mleté vločky",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "na karbanátky"
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na karbanátky"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na karbanátky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Hummus",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Celozrnné žemle",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Polníček",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Červenú šošovicu uvar podľa návodu na obale, nechaj vychladnúť.",
+  "Zmiešaj šošovicu s mandľami, vločkami, soľou, korením, horčicou a vajcom.",
+  "Rúru predhrej na 170 °C, z cesta vytvaruj 6 rovnako veľkých karbanátkov.",
+  "Ulož na plech vyložený papierom na pečenie a peč 15 minút pri 160-170 °C.",
+  "Žemle rozrež, každú potri hummusom, posyp polníčkom a vlož karbanátok."
+ ],
+ "tipy": "Namiesto žemlí použi plátky cuketového chleba.",
+ "foto": "",
+ "tagy": [
+  "karbanátky",
+  "šošovica",
+  "hummus",
+  "vegetariánske"
+ ]
 }

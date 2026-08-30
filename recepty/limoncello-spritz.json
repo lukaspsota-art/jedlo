@@ -6,7 +6,7 @@
   "zdroj": "Kaufland FOOD magazín",
   "porcie": 1,
   "cas": "5 min",
-  "kcal_na_porciu": 180,
+  "kcal_na_porciu": 281,
   "popis": "Ľahký citrusový perlivý drink s limoncellom a proseccom, pripravený priamo v pohári.",
   "ingrediencie": [
     {
@@ -52,5 +52,6 @@
     "drink",
     "limoncello",
     "perlivé"
-  ]
+  ],
+  "kcal_zdroj": "vypocet"
 }

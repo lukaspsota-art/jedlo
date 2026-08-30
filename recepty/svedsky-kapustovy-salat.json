@@ -1,59 +1,59 @@
 {
-  "id": "svedsky-kapustovy-salat",
-  "nazov": "Švédsky kapustový salát",
-  "kategoria": "Šalát",
-  "kuchyna": "Švédska",
-  "zdroj": "Wikibooks Cookbook – Cabbage Salad (CC BY-SA)",
-  "porcie": 4,
-  "cas": "15 min",
-  "kcal_na_porciu": 236,
-  "popis": "Tenko nakrájané biele zelie v olejovo-octovej zálievke, ktoré cez noc v chladničke zmäkne.",
-  "ingrediencie": [
-    {
-      "nazov": "Kapusta",
-      "mnozstvo": 500,
-      "jednotka": "g",
-      "poznamka": "biele zelie"
-    },
-    {
-      "nazov": "Rastlinný olej",
-      "mnozstvo": 100,
-      "jednotka": "ml",
-      "poznamka": "repkový"
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": "biely"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "štipka",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": "hrubo mleté, štipka",
-      "poznamka": ""
-    }
-  ],
-  "postup": [
-    "Zelie nakrájaj natenko, na plátky hrubé 1-2 mm.",
-    "Z oleja, octu, soli a korenia priprav zálievku a zelie s ňou premiešaj.",
-    "Salát nechaj cez noc v chladničke."
-  ],
-  "tipy": "Cez noc v chladničke je nutnosť, nie odporúčanie - surové zelie potrebuje čas, aby zálievka prenikla a zmäkla ho.",
-  "foto": "",
-  "tagy": [
-    "šalát",
-    "príloha",
-    "švédska",
-    "kapusta",
-    "vegánske",
-    "príprava vopred",
-    "lacné"
-  ]
+ "id": "svedsky-kapustovy-salat",
+ "nazov": "Švédsky kapustový salát",
+ "kategoria": "Šalát",
+ "kuchyna": "Švédska",
+ "zdroj": "Wikibooks Cookbook – Cabbage Salad (CC BY-SA)",
+ "porcie": 4,
+ "cas": "15 min",
+ "kcal_na_porciu": 236,
+ "popis": "Tenko nakrájané biele zelie v olejovo-octovej zálievke, ktoré cez noc v chladničke zmäkne.",
+ "ingrediencie": [
+  {
+   "nazov": "Kapusta",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": "biele zelie"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": "repkový"
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "biely"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "hrubo mleté, štipka",
+   "poznamka": ""
+  }
+ ],
+ "postup": [
+  "Zelie nakrájaj natenko, na plátky hrubé 1-2 mm.",
+  "Z oleja, octu, soli a korenia priprav zálievku a zelie s ňou premiešaj.",
+  "Salát nechaj cez noc v chladničke."
+ ],
+ "tipy": "Cez noc v chladničke je nutnosť, nie odporúčanie - surové zelie potrebuje čas, aby zálievka prenikla a zmäkla ho.",
+ "foto": "",
+ "tagy": [
+  "šalát",
+  "príloha",
+  "švédska",
+  "kapusta",
+  "vegánske",
+  "príprava vopred",
+  "lacné"
+ ]
 }
