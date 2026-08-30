@@ -67,6 +67,16 @@ Kategórie: Raňajky, Hlavné jedlo, Cestoviny, Polievka, Šalát, Nátierka, Pr
 - Jednotky → gramy: `gZaJednotku` (jediné miesto), `gramy` a `gramyNaJed` sú navzájom inverzné.
 - Ceny: **jedna funkcia `cenaTyzdna(mode)`** — `"spotreba"` (domácnosť), `"balenia"` (celé balenia), `"osoba"`.
 
+## Vzhľad — dizajnový systém Organic (v22)
+Paleta je **terakota + krém**, nie pôvodná zelená. Celá téma je JEDEN blok na konci `<style>`
+v `data/sablona.html` medzi `/* Organic theme — start */` a `/* Organic theme — end */`.
+Blok pôvodné CSS iba **prebíja**, nič v ňom nemaže — odstránenie témy = zmazať blok.
+- Fonty **Alfa Slab One** (nadpisy) a **Figtree** (text) sú vložené ako **base64 `data:` URI**
+  priamo v šablóne. Appka musí zostať jeden offline súbor — nepridávaj `@import` ani CDN.
+  Caprasimo z Organicu nepoužívaj, nemá slovenskú diakritiku.
+- `py scripts/kontrast_organic.py` číta tokeny priamo zo šablóny a **padne**, ak niektorý pár
+  klesne pod WCAG AA. Spusti ho po každej zmene farieb.
+
 ## Mobilné UI (v20 — mobil je hlavné zariadenie)
 Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, breakpoint je `820px`.
 - **Jedna primárna akcia na obrazovku**, zvyšok do `.menu-wrap` + `.menu` („⋯ Viac"). Na mobile je
@@ -79,6 +89,10 @@ Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, 
   (`.controls.f-open`); počet aktívnych filtrov píše `renderGrid` do `#f-cnt`.
 - **Farby pod bielym textom používaj `--accent-fill`, nie `--accent`.** `--accent` je v tmavom
   režime zosvetlený pre TEXT (na bielom písme dáva 3,26:1); `--accent-fill` sa nezosvetľuje.
+- **`--accent` musí zostať čitateľný ako TEXT (≥ 4,5:1 na kréme).** `app.js` ho píše priamo do
+  inline štýlov (`app.js:381`, `:383` odkazy v prázdnom stave, `:811`+`:1555` súčet kcal v pláne)
+  a inline štýl sa nedá prebiť žiadnym selektorom — jediné miesto opravy je hodnota tokenu.
+  Preto je `--accent` tmavšia terakota `#9a4f1c`, nie základná `#c67139` (tá dáva 3,18:1).
 - **Dotykové ciele ≥44 px na mobile**, nikdy nie pod 24 px. Výnimka: hustá mriežka plánu.
 - **Nové ovládanie píš ako `<button class="btn">`.** `<span onclick>` nie je dosiahnuteľný
   klávesnicou; chipy/kolekcie/menu to dorovnáva `zpristupniKliky(root)` — **vždy jej dávaj
