@@ -3,107 +3,59 @@
  "nazov": "Kuracie na spôsob vindaloo",
  "kategoria": "Hlavné jedlo",
  "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kuracie na spôsob vindaloo (fotorecept) (autor: afataga)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-na-sposob-vindaloo-fotorecept/55150-recept.html",
- "porcie": 6,
- "cas": "80 min",
- "kcal_na_porciu": 389,
- "popis": "Keď som sa rozhodla vyskúšať jedlo s týmto názvom, začala som pátrať po nete a potom som poprosila o radu dve šikovné varecháčky, a to @mijaita a @methi, týmto im ďakujem za pomoc, rady a linky, nakoniec som si ako inšpiráciu vybrala rcp. z Labužníka: http://www.labuznik.cz/recept/vindaloo-authentic/, trochu som si ho upravila, hlavne postup podľa iného rcp. Mám podozrenie, že na vindaloo existuje",
+ "zdroj": "BBC Good Food – Chicken vindaloo",
+ "zdroj_url": "https://www.bbcgoodfood.com/recipes/chicken-vindaloo",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 374,
+ "popis": "Turn up the heat with this member recipe for homemade chicken vindaloo made with plenty of aromatic spices. Serve with warmed flatbreads for a simple, satisfying supper",
  "ingrediencie": [
   {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 700,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Koriandrové drvené semienka",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne drvené korenie",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Drvené klinčeky",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá škorica",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené drvené chilli",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rasca rímska drvená",
-   "mnozstvo": 1.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Drvený cesnak",
-   "mnozstvo": 4,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šťava z citróna",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
    "nazov": "Slnečnicový olej",
-   "mnozstvo": 50,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horčičné drvené semienka",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa veľká nadrobno nakrájaná červená",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Drvený cesnak",
    "mnozstvo": 4,
-   "jednotka": "strúčik",
+   "jednotka": "PL",
    "poznamka": ""
   },
   {
-   "nazov": "Paradajky pokrájané nadrobno",
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "stick lightly bruised or drvená"
+  },
+  {
+   "nazov": "Čili vločky",
    "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "najemno nasekaná"
+  },
+  {
+   "nazov": "Drvené paradajky",
+   "mnozstvo": 1,
    "jednotka": "ks",
    "poznamka": ""
   },
   {
-   "nazov": "Strúhaný zázvor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
+   "nazov": "Koriander",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "voliteľné, čerstvá chilli a warmed flatbreads or rice"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
    "poznamka": ""
   },
   {
@@ -113,39 +65,64 @@
    "poznamka": ""
   },
   {
-   "nazov": "Chilli mleté so soľou",
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Čili vločky",
    "mnozstvo": 1,
    "jednotka": "ČL",
    "poznamka": ""
   },
   {
-   "nazov": "Soľ",
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "drvená or nastrúhaná garlic approx 2-3 veľká"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "finely nastrúhaná"
+  },
+  {
+   "nazov": "Garam masala",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Kajenské korenie",
    "mnozstvo": null,
    "jednotka": "podľa chuti",
    "poznamka": ""
   },
   {
-   "nazov": "Voda",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hnedý cukor",
-   "mnozstvo": 2,
+   "nazov": "Horčica",
+   "mnozstvo": 1,
    "jednotka": "ČL",
    "poznamka": ""
   }
  ],
  "postup": [
-  "Ako som spomínala v úvode, rcp som si trochu upravila, link na originál som pridala. Zo surovín na marinádu som si urobila zmes, riskla som a dala som aj soľ, nič strašné sa nestalo, mäso som nechala do druhého dňa v chladničke. Všetky koreniny som si postupne drvila v mažiari.",
-  "Na druhý deň som vo woku rozpálila olej a mäso som postupne prudko opekala po častiach, aby sa zatiahlo, vyberala som ho do misky, ja som použila kuracie prsia",
-  "Do woku som hodila horčičné semienka a chvíľu nechala prevoňať, pridala som cibuľu a cesnak a chvíľu som restovala",
-  "Pridala som paradajky, zázvor a kurkumu, premiešala, podliala trochou vody, znížila som teplotu a nechala dusiť asi 20 min.",
-  "Omáčku som ochutnala, pridala som ešte chilli, cukor a soľ",
-  "Do omáčky som vrátila opečené mäso, v pôvodnom rcp sa malo pridať surové a dusiť, ale moc sa mi to nepáčilo",
-  "Nechala som už iba prehriať asi 3 min.",
-  "My sme mali prílohu ryžu"
+  "Vo veľkej mise zmiešame citrónovú šťavu, kurča nakrájané na kocky, cesnak a zázvor so sušenými koreninami a 2 ČL soli. Prikryjeme a necháme marinovať v chladničke aspoň 3–4 hodiny, ideálne cez noc.",
+  "Vo veľkom hrnci rozohrejeme 2 PL oleja na stredne vysokom ohni. Pridáme lyžičku kurkumy pre farbu a chuť, potom paradajkový pretlak. Podľa chuti pridáme čili vločky. Kurča krátko opečieme a vyberieme na tanier — v tejto fáze ešte nie je prepečené. Pridáme zvyšný olej a nakrájanú cibuľu a na strednom ohni restujeme 10–15 minút do zmäknutia. Pridáme zvyšné koreniny a restujeme 2 minúty. Vmiešame nakrájané paradajky a 200 ml vody, vrátime kurča, prikryjeme a dusíme 15–20 minút, kým nie je mäso prepečené. Dochutíme.",
+  "Ozdobíme koriandrom, čerstvým čili a chrumkavou cibuľou a podávame s plackami alebo ryžou."
  ],
  "tipy": "",
  "foto": "",

@@ -327,6 +327,19 @@ function spajzaMatchEl(r){ if(!_spajzaSkore)return ""; const s=_spajzaSkore[r.id
   const info = s.chyba.length ? "chýba: "+s.chyba.slice(0,3).join(", ")+(s.chyba.length>3?"…":"") : "máš všetko 🎉";
   return '<div class="spajza-match">🧊 '+s.mame+'/'+s.spolu+' · '+info+'</div>';
 }
+// Vyhľadávanie (Recepty aj picker v Pláne): názov + popis + tagy + ingrediencie.
+// Samotný substring nechytí skloňovanie („paradajka" nenájde „paradajky"), preto rovnaký OR
+// s kmeňovým párovaním ako pri zakázaných surovinách. Hay sa cachuje mimo receptu (nie ako `r._hay`,
+// to by sa uložilo do localStorage pri vlastných receptoch) — inak sa prepočíta pri každom klávese.
+// Cachuje sa aj rozklad na slová: kmeňové párovanie ho potrebuje pre KAŽDÝ recept pri každom
+// klávese a bez cache to je ~50 ms na úder (2000 receptov × regex split).
+const _hayCache=new Map();
+function hladaHay(r){ let h=_hayCache.get(r.id);
+  if(!h){ const s=bezDia(r.nazov+" "+(r.popis||"")+" "+(r.tagy||[]).join(" ")+" "+(r.ingrediencie||[]).map(i=>i.nazov).join(" "));
+    h={s,slova:_slova(s)}; _hayCache.set(r.id,h); }
+  return h; }
+function hladaSedi(r,q){ if(!q) return true; const h=hladaHay(r);
+  return h.s.includes(q) || _surovinaVSlovach(h.slova,[q]); }
 function renderGrid(){
   const grid=document.getElementById("grid");
   const q=bezDia(document.getElementById("hladaj").value.trim());
@@ -347,7 +360,7 @@ function renderGrid(){
     if(fd==="veg"&&!diety(r).veg) return false;
     if(fd==="lepok"&&!diety(r).bezlepku) return false;
     if(fd==="mlieko"&&!diety(r).bezlaktozy) return false;
-    if(q){ const hay=bezDia(r.nazov+" "+(r.popis||"")+" "+(r.tagy||[]).join(" ")+" "+(r.ingrediencie||[]).map(i=>i.nazov).join(" ")); if(!hay.includes(q)) return false; }
+    if(!hladaSedi(r,q)) return false;
     return true;
   });
   _spajzaSkore=null;
@@ -813,22 +826,28 @@ function ukazKatPicker(){
   const odp=SLOT_KATEGORIE[pickCiel.slot]||[];
   kats.sort((a,b)=>((odp.includes(b)?1:0)-(odp.includes(a)?1:0)) || a.localeCompare(b,"sk"));
   let h=`<div class="hero"><button class="close" onclick="zavriPick()">✕</button><h2>Aké jedlo?</h2><div class="subx">${pickRozsah()} · ${pickCiel.slot}</div></div><div class="content2">`;
-  h+=`<div style="position:relative;margin-bottom:14px"><input id="pick-search" type="text" placeholder="🔍 Hľadať recept podľa názvu…" oninput="pickSearchInput(this.value)" autocomplete="off" style="width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-size:15px"><div id="pick-search-results" class="pick-dropdown"></div></div>`;
+  h+=`<div style="position:relative;margin-bottom:14px"><input id="pick-search" type="text" placeholder="🔍 Hľadať recept alebo surovinu…" oninput="pickSearchInput(this.value)" autocomplete="off" style="width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-size:15px"><div id="pick-search-results" class="pick-dropdown"></div></div>`;
   if(S.blokMode) h+=`<label class="switch" style="margin-bottom:12px"><input type="checkbox" ${pickCiel.blok?"checked":""} onchange="pickCiel.blok=this.checked;document.querySelector('.modal .subx').textContent=pickRozsah()+' · '+pickCiel.slot"> Použiť na celý blok</label>`;
   h+='<div class="chips">';
   kats.forEach(k=>{ const zvyr=odp.includes(k); h+=`<span class="chip${zvyr?' active':''}" onclick="ukazReceptyKat('${k.replace(/'/g,"")}')">${ikony[k]||"🍴"} ${k}</span>`; });
   h+=`</div><div class="btn-row"><button class="btn" onclick="ukazReceptyKat('')">Zobraziť všetky recepty</button></div></div>`;
   document.getElementById("pick-modal").innerHTML=h;
 }
-function pickSearchRiadok(r){ return `<div class="plan-cell" style="border-bottom:1px solid var(--line);border-radius:0" onclick="nastavPlan('${r.id}')"><span class="nm">${ikony[r.kategoria]||"🍴"} ${r.nazov}</span><span class="kc">${r.kategoria}${r.kuchyna?" · "+r.kuchyna:""} · ${kcalPorcia(r)} kcal</span></div>`; }
+// keď zhoda nie je v názve, ukáž ktorá ingrediencia sedí — inak výsledok vyzerá náhodne
+function pickSurovina(r,qq){ if(bezDia(r.nazov).includes(qq)) return null;
+  return (r.ingrediencie||[]).find(i=>bezDia(i.nazov).includes(qq)||obsahujeSurovinu(i.nazov,[qq])); }
+function pickSearchRiadok(r,qq){ const ing=pickSurovina(r,qq);
+  return `<div class="plan-cell" style="border-bottom:1px solid var(--line);border-radius:0" onclick="nastavPlan('${r.id}')"><span class="nm">${ikony[r.kategoria]||"🍴"} ${r.nazov}</span><span class="kc">${ing?"🥕 "+ing.nazov+" · ":""}${r.kategoria}${r.kuchyna?" · "+r.kuchyna:""} · ${kcalPorcia(r)} kcal</span></div>`; }
 function pickSearchInput(q){
   const box=document.getElementById("pick-search-results"); if(!box)return;
   q=q.trim();
   if(!q){ box.style.display="none"; box.innerHTML=""; return; }
   const qq=bezDia(q);
-  const list=RECEPTY.filter(r=>prejdeProfil(r) && bezDia(r.nazov).includes(qq)).sort((a,b)=>a.nazov.localeCompare(b.nazov,"sk")).slice(0,8);
+  // zhody v názve idú hore, až za nimi tie, čo sedia len ingredienciou
+  const list=RECEPTY.filter(r=>prejdeProfil(r) && hladaSedi(r,qq))
+    .sort((a,b)=>(bezDia(b.nazov).includes(qq)-bezDia(a.nazov).includes(qq)) || a.nazov.localeCompare(b.nazov,"sk")).slice(0,8);
   box.style.display="block";
-  box.innerHTML = list.length ? list.map(pickSearchRiadok).join("") : '<p class="info" style="padding:10px;margin:0">Nič sa nenašlo.</p>';
+  box.innerHTML = list.length ? list.map(r=>pickSearchRiadok(r,qq)).join("") : '<p class="info" style="padding:10px;margin:0">Nič sa nenašlo.</p>';
 }
 function ukazReceptyKat(kat){
   let list=RECEPTY.filter(r=>prejdeProfil(r) && (!kat||r.kategoria===kat)).sort((a,b)=>a.nazov.localeCompare(b.nazov,"sk"));
@@ -1294,14 +1313,20 @@ function cenaTyzdna(mode){
 // tokeny kratšie ako 3 znaky.
 // jediné miesto, kde sa text porovnáva so zoznamom surovín (kmeň + prefix, zvláda skloňovanie).
 // Používa to „Mám doma" v nákupe aj zakázané suroviny v profile.
-function obsahujeSurovinu(text,tok){ if(!tok||!tok.length) return false; const slova=_slova(text);
-  return tok.some(t=>{ const kmene=_slova(t).map(_kmen);
-    if(kmene.length>0 && _sadneOd(slova,kmene)>=0) return true;
-    // U4: „koriander" → „koriandrová" a „huby" → „hubová" menia kmeň, nie príponu, takže kmeňové
-    // párovanie ich nechytí. Porovnaj aj začiatok slova (min. 3, max. 5 znakov, do +6 navyše).
-    if(kmene.length!==1) return false;
-    const pref=t.slice(0,Math.max(3,Math.min(5,t.length-1)));
-    return pref.length>=3 && slova.some(w=>w.startsWith(pref) && w.length-pref.length<=6); }); }
+// U4: „koriander" → „koriandrová" a „huby" → „hubová" menia kmeň, nie príponu, takže kmeňové
+// párovanie ich nechytí. Preto sa porovnáva aj začiatok slova (min. 3, max. 5 znakov, do +6 navyše).
+// Rozklad tokenu sa cachuje — rovnaké tokeny idú cez všetkých ~2000 receptov (zákazy aj hľadanie).
+const _tokCache=new Map();
+function _tokRozklad(t){ let x=_tokCache.get(t);
+  if(!x){ const kmene=_slova(t).map(_kmen), pref=t.slice(0,Math.max(3,Math.min(5,t.length-1)));
+    x={kmene,pref:(kmene.length===1&&pref.length>=3)?pref:null}; _tokCache.set(t,x); }
+  return x; }
+// jadro pracuje nad už rozloženými slovami — hľadanie v Receptoch si rozklad cachuje (hladaHay)
+function _surovinaVSlovach(slova,tok){ if(!tok||!tok.length) return false;
+  return tok.some(t=>{ const x=_tokRozklad(t);
+    if(x.kmene.length>0 && _sadneOd(slova,x.kmene)>=0) return true;
+    return !!x.pref && slova.some(w=>w.startsWith(x.pref) && w.length-x.pref.length<=6); }); }
+function obsahujeSurovinu(text,tok){ return _surovinaVSlovach(_slova(text),tok); }
 function jeDoma(nazov,tok){ return obsahujeSurovinu(nazov,tok); }
 function nakupBalenie(G){ if(G.matched && G.p && G.p.balenie_g && G.grams>0){ const n=Math.max(1,Math.ceil(G.grams/G.p.balenie_g)); return {n:n,pop:G.p.balenie_popis,celkG:n*G.p.balenie_g}; } return null; }
 // C2: celé balenia sa účtujú len keď ich používateľ chce vidieť — inak riadok hlásil 8 plátkov

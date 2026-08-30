@@ -3,72 +3,65 @@
  "nazov": "Cícerové fašírky (falafel-style)",
  "kategoria": "Hlavné jedlo",
  "kuchyna": "Blízkovýchodná",
- "zdroj": "Varecha.sk – Cícerové fašírky (autor: summerx)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/cicerove-fasirky-/54021-recept.html",
+ "zdroj": "TheMealDB – Falafel",
+ "zdroj_url": "https://www.themealdb.com/meal/53266",
  "porcie": 4,
  "cas": "40 min",
- "kcal_na_porciu": 341,
- "popis": "Chcela som jesť na obed niečo ľahké a zeleninové, tak vzniklo toto:)",
+ "kcal_na_porciu": 244,
+ "popis": "Turkish · Vegetarian",
  "ingrediencie": [
   {
-   "nazov": "Cícer namočený deň vopred",
-   "mnozstvo": 250,
-   "jednotka": "ml",
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
    "poznamka": ""
   },
   {
-   "nazov": "Strúhaná mrkva",
+   "nazov": "Cibuľa",
    "mnozstvo": 1,
    "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ovsené mleté vločky",
-   "mnozstvo": 125,
-   "jednotka": "ml",
-   "poznamka": ""
+   "poznamka": "nasekaná"
   },
   {
    "nazov": "Cesnak",
    "mnozstvo": 1,
    "jednotka": "strúčik",
+   "poznamka": "olúpaná drvená"
+  },
+  {
+   "nazov": "Cícer",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
    "poznamka": ""
   },
   {
    "nazov": "Vajcia",
    "mnozstvo": 1,
    "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Strúhaný syr",
-   "mnozstvo": 125,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená sladká mletá paprika",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
+   "poznamka": "rozšľahané"
   }
  ],
  "postup": [
-  "Cícer si deň predtým namočíme do vody (alebo použijeme cícer z konzervy). Na druhý deň uvaríme s bobkovým listom asi pol hodinu. Vytvorí sa nám na povrchu taký biely povlak - ten lyžicou vyberieme aj s bobkovým listom. Zlejeme z vody, pomixujeme a necháme vychladnúť.",
-  "Nastrúhanú mrkvu, syr a vločky pomiešame, pridáme vajce, vychladnutý pomixovaný cícer, soľ, korenie a papriku.",
-  "Z hmoty tvarujeme fašírky, ktoré môžme vyprážať na panvici, alebo ako som to robila ja - piecť v rúre. Plech vystlieme papierom na pečenie, potrieme ho olejom, naukladáme fašírky, tie tiež potrieme olejom a dáme piecť na 200 stupňov asi 30min. Po 15 minútach fašírky preobrátime a pečieme ďaľších 15 minút. Dobrú chuť :)"
+  "Vo veľkom hrnci rozohrejeme 1 PL oleja a cibuľu s cesnakom restujeme na miernom ohni 5 minút do zmäknutia. Presypeme do veľkej misy s cícerom a koreninami a vidličkou alebo zemiakovým tlačidlom rozmixujeme, kým sa cícer úplne nerozpadne. Vmiešame petržlen alebo sušené bylinky a dochutíme. Pridáme vajce a zmes rukami dobre spracujeme.",
+  "Zo zmesi vytvarujeme 6 guliek a sploštíme ich na placky. Na panvici rozohrejeme zvyšný olej a falafely opekáme na strednom ohni 3 minúty z každej strany, kým nie sú zlatohnedé a pevné. Podávame teplé alebo studené s kuskusom, pitou alebo šalátom."
  ],
  "tipy": "",
  "foto": "",

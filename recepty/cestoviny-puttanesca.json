@@ -3,102 +3,78 @@
  "nazov": "Špagety alla puttanesca",
  "kategoria": "Cestoviny",
  "kuchyna": "Talianska",
- "zdroj": "Varecha.sk – Spaghetti alla puttanesca (autor: frezia)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/spaghetti-alla-puttanesca/52752-recept.html",
- "porcie": 2,
- "cas": "25 min",
- "kcal_na_porciu": 428,
- "popis": "Tento recept s pikantno-korenistou chutou pochadza z juzneho Talianska. Vhodne jedlo \r\npocas horucich slnecnych dni.",
+ "zdroj": "BBC Good Food – Spaghetti puttanesca",
+ "zdroj_url": "https://www.bbcgoodfood.com/recipes/spaghetti-puttanesca",
+ "porcie": 4,
+ "cas": "35 min",
+ "kcal_na_porciu": 495,
+ "popis": "Cook up this classic sauce in one pan, then toss with spaghetti for a simple midweek meal. It's budget-friendly too, making it a great meal for the family",
  "ingrediencie": [
   {
-   "nazov": "Spaghetti",
-   "mnozstvo": 200,
-   "jednotka": "g",
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
    "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "najemno nasekaná"
   },
   {
    "nazov": "Cesnak",
-   "mnozstvo": 1,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa nasekaná nadrobno",
-   "mnozstvo": 1,
+   "mnozstvo": 2,
    "jednotka": "ks",
-   "poznamka": ""
+   "poznamka": "veľká drvená"
   },
   {
-   "nazov": "Paradajky cherry",
-   "mnozstvo": 300,
+   "nazov": "Čili vločky",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "voliteľné"
+  },
+  {
+   "nazov": "Drvené paradajky",
+   "mnozstvo": 400,
    "jednotka": "g",
    "poznamka": ""
   },
   {
-   "nazov": "Čierne olivy",
-   "mnozstvo": 20,
+   "nazov": "Ančovičky",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": "najemno nasekaná"
+  },
+  {
+   "nazov": "Olivy",
+   "mnozstvo": 120,
    "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Kapary",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "odkvapkaná"
   },
   {
-   "nazov": "Chili paprička",
-   "mnozstvo": 1,
+   "nazov": "Špagety",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "sušená"
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 0.5,
    "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sardelky",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvá bazalka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "alebo petržlénova vnať"
-  },
-  {
-   "nazov": "Korenie čerstvo namleté",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Oregano",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Parmezán",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "alebo pecorino"
+   "poznamka": "malá bunch of najemno nasekaná"
   }
  ],
  "postup": [
-  "Do horuceho oleja dame oprazit pokrajany cesnak, nakrajanu cibulu a sardelky. Pomaly prazime, kym sa nam sardelky nerozpustia. Pridame cherry paradajky, (alebo cherry paradajky vo vlastnej stave) pokrajanu feferonku, oregano a cerstvo namlete korenie. Par minut povarime, aby sa chute spojili. Na zaver pridame vykostkovane a prekrojene olivy a kapary. Mozeme pridat par bazalkovych listkov. Podla potreby este osolime a okorenime.",
-  "Zvlast si uvarime spaghetti al dente. Pridame ich do uvarenej zmesi a premiesame.",
-  "Na zaver pridame na kocky nakrajany parmezan, (pecorino) premiesame a servirujeme. Ozdobime cerstvou bazalkou, alebo petrzlenom."
+  "Na nepriľnavej panvici rozohrejeme olej na strednom ohni. Pridáme cibuľu s výdatnou štipkou soli a restujeme 10 minút do zmäknutia. Pridáme cesnak a prípadne čili a restujeme ešte minútu.",
+  "Vmiešame paradajky, ančovičky, olivy a kapary, privedieme k mírnemu varu a varíme odkryté 15 minút. Dochutíme.",
+  "Medzitým privedieme k varu veľký hrniec osolenej vody. Špagety uvaríme podľa obalu, scedíme a premiešame s omáčkou a petržlenovou vňaťou."
  ],
  "tipy": "",
  "foto": "",

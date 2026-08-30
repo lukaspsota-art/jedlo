@@ -3,86 +3,90 @@
  "nazov": "Bolognese (ragú)",
  "kategoria": "Cestoviny",
  "kuchyna": "Talianska",
- "zdroj": "Varecha.sk – Špagety Bolognese (autor: receptyodkureho)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/spagety-bolognese/57280-recept.html",
- "porcie": 6,
+ "zdroj": "TheMealDB – Spaghetti Bolognese",
+ "zdroj_url": "https://www.themealdb.com/meal/52770",
+ "porcie": 4,
  "cas": "60 min",
- "kcal_na_porciu": 383,
- "popis": "Recept som pripravoval ako už malý chlapec a po rokoch varenia je neskutočný",
+ "kcal_na_porciu": 708,
+ "popis": "Italian · Beef",
  "ingrediencie": [
   {
    "nazov": "Cibuľa",
-   "mnozstvo": 1,
+   "mnozstvo": 2,
    "jednotka": "ks",
    "poznamka": ""
   },
   {
-   "nazov": "Slnečnicový olej",
+   "nazov": "Olivový olej",
    "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "štipka čerstvo mleté"
-  },
-  {
-   "nazov": "Vegeta",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maggi",
-   "mnozstvo": 0.5,
    "jednotka": "PL",
    "poznamka": ""
   },
   {
-   "nazov": "Červená mletá paprika",
+   "nazov": "Cesnak",
    "mnozstvo": 1,
-   "jednotka": "ČL",
+   "jednotka": "strúčik",
    "poznamka": ""
   },
   {
-   "nazov": "Mleté mäso",
+   "nazov": "Hovädzie mäso",
    "mnozstvo": 500,
    "jednotka": "g",
+   "poznamka": "lean posekaná"
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 90,
+   "jednotka": "g",
    "poznamka": ""
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "sušená"
   },
   {
    "nazov": "Paradajky",
-   "mnozstvo": 300,
+   "mnozstvo": 400,
    "jednotka": "g",
    "poznamka": ""
   },
   {
-   "nazov": "Bujón",
-   "mnozstvo": 0.25,
-   "jednotka": "ks",
+   "nazov": "Hovädzí vývar",
+   "mnozstvo": 300,
+   "jednotka": "ml",
+   "poznamka": "horúca"
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
    "poznamka": ""
   },
   {
-   "nazov": "Voda",
-   "mnozstvo": 300,
-   "jednotka": "ml",
+   "nazov": "Worcesterská omáčka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
    "poznamka": ""
   },
   {
    "nazov": "Špagety",
-   "mnozstvo": 250,
+   "mnozstvo": 350,
    "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
    "poznamka": ""
   }
  ],
  "postup": [
-  "Na drobno narežeme cibuľu, pridáme na rozpálenú panvicu s olejom a o pár sekúnd pridáme mäso, cibuľu, vegetu, maggi, ck, papriku. Všetko poriadne opražíme, pokiaľ mäso sa krásne nerozpadá. Cca 15min.",
-  "Pridáme 1/4 bujónu a vodu...dusíme 25 min.",
-  "Pridáme pasírované paradajky a varíme pokiaľ omáčka nie je hustá. Nezahusťujeme múkou. Pridáme koreniny podľa chuti.",
-  "Špagety (najlepšie panzani) varíme vo vriacej vode 13 minút. Ochutnajte samozrejme .",
-  "Naložíme na tanier. Dobrú chuť."
+  "Cibuľu s olejom dáme do veľkého hrnca a na vyššom ohni restujeme 3–4 minúty. Pridáme cesnak a mleté mäso a opekáme, kým obe nezhnednú. Pridáme šampiňóny a bylinky a varíme ešte pár minút.",
+  "Vmiešame paradajky, hovädzí vývar, kečup alebo pretlak, worcesterskú omáčku, osolíme a okoreníme. Privedieme k varu, stiahneme oheň, prikryjeme a dusíme 30 minút; občas premiešame.",
+  "Medzitým vo veľkom hrnci osolenej vriacej vody uvaríme špagety podľa obalu. Scedíme, vrátime do hrnca, podľa chuti pokvapkáme olivovým olejom a vmiešame mäsovú omáčku. Podávame v teplých tanieroch, parmezán dáme na stôl na posypanie."
  ],
  "tipy": "",
  "foto": "",

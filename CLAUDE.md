@@ -104,10 +104,21 @@ Backlog a inšpirácia z 25 aplikácií: `INSPIRACIA.md`. Otvorené (treba backe
 
 ## Zdroje receptov (od v21)
 Všetkých **1956 receptov má dohľadateľný zdroj** — žiadny `vlastný recept` ani prázdne pole:
-Varecha.sk 1388 · Fitrecepty (kniha) 309 · Wikibooks Cookbook (CC BY-SA) 113 · TheCocktailDB 71 · Kaufland 48 · iné 27.
+Varecha.sk 1365 · Fitrecepty (kniha) 309 · Wikibooks Cookbook (CC BY-SA) 113 · TheCocktailDB 71 ·
+Kaufland 48 · BBC Good Food 16 · TheMealDB 10 · iné 24.
 - **Varecha.sk:** `robots.txt` povoľuje `Claude-User` (user-initiated fetch), zakazuje `ClaudeBot` (training).
   Content Policy vyžaduje **atribúciu + aktívny odkaz** → preto `zdroj` aj `zdroj_url` v každom recepte.
   Recepty sa parsujú z `application/ld+json` (schema.org Recipe), množstvá sú v `recipeIngredient` ako `„názov, 250 g"`.
+- **Anglické portály (od 20. 8. 2026):** kanonické medzinárodné jedlá berieme z **BBC Good Food**
+  (`robots.txt` blokuje len `GPTBot`, `User-agent: *` recepty povoľuje; JSON-LD má aj výživu)
+  a **TheMealDB** (otvorené dáta, kanonické názvy — „Spaghetti alla Carbonara", nie varecha
+  „Carbonara so špenátom"). Indexy: BBC 17 102 receptov zo sitemap, TheMealDB 789.
+- **Allrecipes / Serious Eats / Simply Recipes (People Inc.) sa POUŽIŤ NEDAJÚ.** V `robots.txt`
+  majú `anthropic-ai` aj `Claude-SearchBot` → `Disallow: /` a v hlavičke výslovný zákaz TDM,
+  trénovania **aj RAG** a vytvárania datasetov z ich obsahu. Nepokúšaj sa to obchádzať iným UA.
+- Párovanie SK názvu na anglický index: len **konkrétne názvy jedál** (`dish_query`), generické
+  slová („nátierka", „šalát") dávajú nezmysly. Ďalej penalizuj varianty (`vegan`, `keto`,
+  `air-fryer`) a zmenu hlavnej suroviny („Kuracie fajitas" ≠ „Chickpea Fajitas").
 - Pipeline (audit → index → priradenie → náhrada → nové) je v `%TEMP%\jedlo_audit\` (mimo repa, `jed_*.py`).
   Kľúčové filtre proti zlým zhodám: druh jedla (posledné slovo pred predložkou), jadro názvu,
   zhoda bielkoviny a **zhoda kurzu podľa varecha `keywords`** (`Polievky`/`Šaláty`/`Nápoje`…).

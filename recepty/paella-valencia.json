@@ -3,102 +3,104 @@
  "nazov": "Paella Valencia",
  "kategoria": "Hlavné jedlo",
  "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Paella Valencia (autor: steak)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/paella-valencia/39323-recept.html",
- "porcie": 13,
+ "zdroj": "TheMealDB – Paella",
+ "zdroj_url": "https://www.themealdb.com/meal/53151",
+ "porcie": 4,
  "cas": "45 min",
- "kcal_na_porciu": 414,
- "popis": "",
+ "kcal_na_porciu": 688,
+ "popis": "Spanish · Seafood",
  "ingrediencie": [
   {
-   "nazov": "Stehná kuracie horné",
-   "mnozstvo": 5,
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krevety",
+   "mnozstvo": 10,
    "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sherry",
+   "mnozstvo": 100,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mušle",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šafran",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chorizo",
+   "mnozstvo": 150,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Cibuľa",
    "mnozstvo": 1,
    "jednotka": "ks",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
    "poznamka": ""
   },
   {
-   "nazov": "Žltá paprika",
+   "nazov": "Kalamáre",
    "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "stredná"
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
    "jednotka": "ks",
    "poznamka": ""
   },
   {
-   "nazov": "Červená paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "nazov": "Ryža",
+   "mnozstvo": 250,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
-   "nazov": "Mrazený hrášok",
+   "nazov": "Bôb",
    "mnozstvo": 100,
    "jednotka": "g",
    "poznamka": ""
   },
   {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ryža",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Krájané lúpané paradajky",
+   "nazov": "Citrónová kôra",
    "mnozstvo": 1,
    "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bujón",
-   "mnozstvo": 800,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slávky",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Veľké krevety",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
    "poznamka": ""
   }
  ],
  "postup": [
-  "Papriky nakrájame na väčšie kocky, cibuľu nadrobno a cesnak na plátky. Na panvici (wok) orestujeme na olivovom oleji krevety a papriku. Po orestovaní všetko vylejeme do inej nádoby. Tpto zmes budeme potrebovať na konci.",
-  "Do panvice pridáme ešte trocha oleja a vhodíme kuracie stehná nakrájané na kocky. Osolíme ich okoreníme, pridáme cesnak, cibuľu a dobre spolu dozlatova restujeme. Pridáme prepláchnutú ryžu, paradajky, premiešame a zalejeme bujónom. Privedieme k varu, osolíme a okoreníme. Priebežne miešame a varíme cca 10 minút.",
-  "Do zmesi ryže vložíme krevety s paprikami, kroášok a slávky. Všetko zamiešame a rpikryjeme pokrievkou alebo alobalom. Ešte 10 minút na slabom ohni dusíme."
+  "V širokej plochej panvici rozohrejeme 1 PL oleja. Pridáme hlavy z kreviet a stonky petržlenu a opekáme, kým hlavy nezružovejú, potom ich rozdrvíme tlačidlom. Prilejeme sherry alebo víno a 300 ml vody, osolíme a varíme 10 minút na vývar; hlavy pritom ďalej drvíme.",
+  "Do panvice vsypeme mušle, voľne prikryjeme pokrievkou alebo utierkou a na vysokom ohni necháme 3–4 minúty, kým sa mušle neotvoria. Premiešame, aby pustili šťavu, a obsah panvice prelejeme do sitka nad veľkou misou so šafranom. Šafran necháme vo vývare lúhovať — spolu potrebujeme 700 ml, takže podľa potreby dolejeme vodu a premiešame. Mušle zo sitka vyberieme a odložíme.",
+  "Panvicu vytrieme a prilejeme zvyšok olivového oleja. Chorizo opekáme, kým nepustí olej, potom pridáme cibuľu s cesnakom a restujeme do zmäknutia. Pridáme kalamáre a obracáme, kým nezbelejú. Pridáme paradajky, minútu povaríme, potom prilejeme väčšinu vývaru, dobre premiešame a privedieme k varu. Ryžu rozsypeme po vývare, raz dobre premiešame a 5 minút varíme na silnom ohni. Stiahneme na minimum a bez miešania pomaly varíme 10 minút, kým ryža nevsiakne väčšinu tekutiny.",
+  "Do ryže zapichneme krevetové chvosty a varíme 5 minút, pričom ich obrátime. Vmiešame mušle a bôb alebo hrášok. Ryžu ochutnáme — ak je ešte tvrdá a panvica suchá, prilejeme trochu vývaru; ak je príliš tekutá, zvýšime oheň a zvyšok vývaru odparíme.",
+  "Keď je ryža akurát uvarená, vypneme oheň a na niekoľko minút prikryjeme utierkou. Posypeme lístkami petržlenu a citrónovou kôrou, podľa chuti dosolíme údenou soľou. Raz premiešame a podávame priamo z panvice s klinčekmi citróna."
  ],
  "tipy": "",
  "foto": "",

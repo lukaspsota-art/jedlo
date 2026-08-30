@@ -3,111 +3,97 @@
  "nazov": "Pad Thai",
  "kategoria": "Cestoviny",
  "kuchyna": "Thajská",
- "zdroj": "Varecha.sk – Pad Thai (autor: lunter)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/pad-thai/91747-recept.html",
- "porcie": 12,
+ "zdroj": "TheMealDB – Pad Thai",
+ "zdroj_url": "https://www.themealdb.com/meal/53191",
+ "porcie": 4,
  "cas": "30 min",
- "kcal_na_porciu": 418,
- "popis": "Zabudni na donášku – tento Pad Thai s Teriyaki tofu ťa prenesie rovno do ulíc Bangkoku!* Sladko-pikantná omáčka, chrumkavá \r\nzelenina a poriadna dávka arašidov z neho robia neodolateľný vegánsky hit.",
+ "kcal_na_porciu": 307,
+ "popis": "Thai · Seafood",
  "ingrediencie": [
   {
-   "nazov": "LUNTER Marinated Tofu Teriyaki",
-   "mnozstvo": 900,
+   "nazov": "Rezance",
+   "mnozstvo": 125,
    "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ryžové rezance",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rastlinný olej",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jarná cibuľka",
-   "mnozstvo": 6,
-   "jednotka": "ks",
    "poznamka": ""
   },
   {
    "nazov": "Limetka",
-   "mnozstvo": 4,
-   "jednotka": "ks",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
    "poznamka": ""
   },
   {
-   "nazov": "Koriander",
-   "mnozstvo": 15,
-   "jednotka": "g",
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
    "poznamka": ""
   },
   {
-   "nazov": "Arašidy",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Fazuľa mungo",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprička chilli",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sójová omáčka",
-   "mnozstvo": 8,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ryžový ocot",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Limetková šťava",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Omáčka pálivá Sriracha",
+   "nazov": "Kryštálový cukor",
    "mnozstvo": 2,
    "jednotka": "ČL",
    "poznamka": ""
   },
   {
-   "nazov": "Javorový sirup",
-   "mnozstvo": 8,
+   "nazov": "Rybia omáčka",
+   "mnozstvo": 2,
    "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Krevety",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "finely na plátky"
+  },
+  {
+   "nazov": "Klíčky",
+   "mnozstvo": 140,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Arašidy",
+   "mnozstvo": 25,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sweet chilli sauce",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
    "poznamka": ""
   }
  ],
  "postup": [
-  "Nakrájaj mrkvu na tenké pásiky, nasekaj jarnú cibuľku, koriander a arašidy. Tofu nakrájaj na kocky veľkosti približne 1,5 cm.",
-  "Rezance uvar podľa návodu na obale.",
-  "Priprav omáčku: V malej miske zmiešaj všetky ingrediencie na omáčku. Odlož bokom.",
-  "Opeč tofu: Vo veľkej panvici zohrej olej na stredne vysokej teplote. Pridaj tofu a opeč ho zo všetkých strán dozlatista.",
-  "K tofu v panvici pridaj rezance, omáčku a zeleninu. Miešaj, kým sa všetko zohreje.",
-  "Každú porciu posyp arašidmi, chilli a ďalším koriandrom. Podávaj s mesiačikmi limetky a klíčkami mungo fazule na boku. Pred jedlom dochuť limetkovou šťavou podľa chuti."
+  "Rezance dáme do veľkej misy odolnej voči teplu, zalejeme vriacou vodou a necháme 4 minúty, potom scedíme a prepláchneme studenou vodou.",
+  "V miske zmiešame limetkovú šťavu, kajenské korenie, cukor a rybaciu omáčku. Ostatné ingrediencie máme pripravené pri sporáku.",
+  "Rozohrejeme olej a krevety opražíme, kým sa neprehrejú. Pridáme jarnú cibuľku a rezance a premiešame. Prilejeme limetkovú zmes, potom vmiešame klíčky a polovicu arašidov a koriandra. Varíme minútu, kým sa všetko neprehreje.",
+  "Naložíme na veľkú misu, posypeme zvyškom arašidov a koriandra a podávame s klinčekmi limetky a sladkou čili omáčkou."
  ],
  "tipy": "",
  "foto": "",

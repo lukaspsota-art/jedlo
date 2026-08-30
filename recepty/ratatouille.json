@@ -3,96 +3,79 @@
  "nazov": "Ratatouille",
  "kategoria": "Hlavné jedlo",
  "kuchyna": "Francúzska",
- "zdroj": "Varecha.sk – Ratatouille (autor: redakcia)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/ratatouille/45176-recept.html",
- "porcie": 1,
+ "zdroj": "TheMealDB – Ratatouille",
+ "zdroj_url": "https://www.themealdb.com/meal/52908",
+ "porcie": 4,
  "cas": "20 min",
- "kcal_na_porciu": 336,
- "popis": "Klasické francúzske dusené letné zeleninové jedlo z Provence.",
+ "kcal_na_porciu": 106,
+ "popis": "France · Vegetarian",
  "ingrediencie": [
   {
-   "nazov": "Cuketa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
    "nazov": "Baklažán",
-   "mnozstvo": 1,
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "veľká"
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 4,
    "jednotka": "ks",
    "poznamka": ""
   },
   {
-   "nazov": "Žltá paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zelená paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajka",
+   "nazov": "Čierne korenie",
    "mnozstvo": 2,
    "jednotka": "ks",
    "poznamka": ""
   },
   {
-   "nazov": "Červená cibuľa",
-   "mnozstvo": 1,
+   "nazov": "Paradajka",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "veľká"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 5,
    "jednotka": "ks",
    "poznamka": ""
   },
   {
-   "nazov": "Drvené paradajky",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
+   "nazov": "Bazalka",
    "mnozstvo": null,
    "jednotka": "podľa chuti",
    "poznamka": ""
   },
   {
-   "nazov": "Tymian",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "stredná"
   },
   {
    "nazov": "Cesnak",
    "mnozstvo": 3,
-   "jednotka": "strúčik",
+   "jednotka": "ks",
+   "poznamka": "najemno nasekaná clove"
+  },
+  {
+   "nazov": "Vínny ocot",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
    "poznamka": ""
   },
   {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
+   "nazov": "Kryštálový cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
    "poznamka": ""
   }
  ],
  "postup": [
-  "Na olivovom oleji postupne opekáme všetky suroviny, ktoré sme samostatne nakrájali.",
-  "Po opečení všetky spolu premiešame, pridáme drvené paradajky, tymian a dochutíme soľou a korením.",
-  "Podávame s francúzskou bielou bagetou."
+  "Baklažány rozkrojíme po dĺžke na polovicu. Položíme ich rezom dole, znovu rozkrojíme po dĺžke a potom narežeme na kúsky asi 1,5 cm. Cukete odrežeme konce a nakrájame ju na kolieska 1,5 cm. Papriky olúpeme od stopky nadol, postavíme ich, vyrežeme stopku a rozkrojíme na 3 časti. Odstránime blany a nakrájame na kúsky na jedno zahryznutie.",
+  "Na spodok každej paradajky narežeme malý krížik a dáme ich do misy odolnej voči teplu. Zalejeme vriacou vodou, necháme 20 sekúnd a vyberieme. Vodu vylejeme, paradajky vrátime a zalejeme studenou vodou. Po vychladnutí olúpeme kožu. Paradajky rozkrojíme na štvrtiny, lyžicou vyškrabeme semienka a dužinu nahrubo nakrájame.",
+  "Panvicu rozohrejeme na strednom ohni a prilejeme 2 PL olivového oleja. Baklažán opekáme 5 minút z každej strany, kým kúsky nezmäknú. Odložíme a v ďalšej lyžici oleja opekáme 5 minút cuketu, kým nezozlatne z oboch strán. To isté zopakujeme s paprikami. Zeleninu v tejto fáze neprepekáme — ešte sa bude variť.",
+  "Bazalku natrháme a odložíme. V panvici restujeme cibuľu 5 minút. Pridáme cesnak a restujeme ďalšiu minútu. Vmiešame ocot a cukor, potom pridáme paradajky a polovicu bazalky. Vrátime zeleninu, osolíme, okoreníme a varíme 5 minút. Podávame s bazalkou."
  ],
  "tipy": "",
  "foto": "",

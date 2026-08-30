@@ -3,36 +3,24 @@
  "nazov": "Focaccia s paradajkami a olivami",
  "kategoria": "Pečivo",
  "kuchyna": "Talianska",
- "zdroj": "Varecha.sk – Talianska olivová focaccia (autor: vejik)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/talianska-olivova-focaccia/61493-recept.html",
- "porcie": 6,
- "cas": "110 min",
- "kcal_na_porciu": 377,
- "popis": "Focacciu sme upiekli s priatelom prvy krat, kedze nam \r\nna dovolenke v taliansku velmi chutila. Cesto je krasne \r\nmakkucke a chutne,  tak dufam ze vdaka tomuto receptu \r\nsi ju aj vy chutnate tak ako my :-)",
+ "zdroj": "BBC Good Food – Focaccia",
+ "zdroj_url": "https://www.bbcgoodfood.com/recipes/focaccia",
+ "porcie": 12,
+ "cas": "45 min",
+ "kcal_na_porciu": 208,
+ "popis": "Make a simple, homemade version of this classic Italian bread. Serve our rosemary focaccia alongside pasta dishes or enjoy with green salads",
  "ingrediencie": [
   {
-   "nazov": "Múka hladká špeciál 00",
+   "nazov": "Chlebová múka",
    "mnozstvo": 500,
    "jednotka": "g",
    "poznamka": ""
   },
   {
-   "nazov": "Čerstvé droždie",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
+   "nazov": "Droždie",
+   "mnozstvo": 7,
+   "jednotka": "g",
+   "poznamka": "sušená fast action"
   },
   {
    "nazov": "Morská soľ",
@@ -42,33 +30,32 @@
   },
   {
    "nazov": "Olivový olej",
-   "mnozstvo": 3,
+   "mnozstvo": 5,
    "jednotka": "PL",
    "poznamka": ""
   },
   {
-   "nazov": "Olivový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Zelené olivy",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
    "nazov": "Morská soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
    "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": 0.25,
+   "jednotka": "ks",
+   "poznamka": "malá bunch of sprigs picked"
   }
  ],
  "postup": [
-  "Najskor si pripravime kvasok. Do pohara vody si nalejeme vlaznu vodu, lyzicku cukru, stipku soli a rozdrobime drozdie. Nechame vzist kvasok. Do misky si dame muku, drozdie, olivovy olej, morsku sol a a zacneme.miesit. Vodu uz dolievat treba nebudem . Cesto bude lepivejsie treba si vsak pomoct tym, ze si do cesta podla.potreby budeme pridavat.muku a olivovy olej. Cesto si ochutname a osolime podla vlastnej chuti Dokladne vymiesime a nechame kysnut na teplom mieste 40minut,.alebo dokial neznasobi svoj objem.",
-  "Po vykysnuti si dame na plech olivovy olej, my sme dali trochu viac, je to na vas ci plech potriete alebo nechate trosku vacsiu vrstvicku oleja. Nato rukami roztlacime foccaciu. Rukami alebo vareskou spravime do nej diery. Nasledne natrieme nanu olej ktory sme si.zriedili len s troskou vody . Vrch este jemne posolime a Do dier si dame olivy. Nechame podkysnut prikryte utierkou pol hodinu.",
-  "Foccaciu pecieme pri 220stupnoch 20minut , treba sledovat. Po vybrati z rury foccaciu potrieme olivovym olejom, nesetrime,.k.zaveru mozme poliat. Do cesta to vsiakne a foccacia bude tak vlacna a makkucka :-) dobru chut! :-)"
+  "Múku nasypeme do veľkej misy. Do jednej strany múky zamiešame droždie, do druhej jemnú soľ.",
+  "Potom všetko spojíme — týmto oddelením zabránime tomu, aby soľ zničila droždie.",
+  "V strede múky urobíme jamku, prilejeme 2 PL oleja a postupne 350–400 ml vlažnej vody, kým nevznikne mierne lepivé cesto (nemusíme použiť všetku vodu).",
+  "Pracovnú plochu posypeme múkou, cesto na ňu vyklopíme a miesime 5–10 minút, kým nie je hebké a menej lepivé. Cesto dáme do čistej misy, prikryjeme utierkou a necháme kysnúť 1 hodinu, kým nezdvojnásobí objem.",
+  "Vymastíme plochú hranatú formu (25 × 35 cm). Cesto vyklopíme na pracovnú plochu a rozťaháme ho do formy. Prikryjeme utierkou a necháme kysnúť ďalších 35–45 minút.",
+  "Rúru rozohrejeme na 220 °C (200 °C s ventilátorom). Prstami do cesta vtlačíme jamky.",
+  "Zmiešame 1,5 PL olivového oleja, 1 PL vody a vločkovú soľ a pokvapkáme cesto. Do jamiek zatlačíme vetvičky rozmarínu.",
+  "Pečieme 20 minút do zlatista. Ešte horúce pokvapkáme 1–2 PL olivového oleja. Nakrájame na štvorce a podávame teplé alebo studené, podľa chuti s ďalším olivovým olejom."
  ],
  "tipy": "",
  "foto": "",

@@ -3,104 +3,53 @@
  "nazov": "Gazpacho",
  "kategoria": "Polievka",
  "kuchyna": "Španielska",
- "zdroj": "Varecha.sk – Gazpacho (autor: tinca)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/gazpacho/19727-recept.html",
- "porcie": 3,
+ "zdroj": "TheMealDB – Quick gazpacho",
+ "zdroj_url": "https://www.themealdb.com/meal/53173",
+ "porcie": 4,
  "cas": "25 min",
- "kcal_na_porciu": 158,
- "popis": "Ortuť teplomera sa šplhá vysoko nad 30 stupňov a málo kto z nás má chuť na horúcu polievku. Výborne padne teraz táto studená španielska polievka, ktorá nás nielen osvieži, ale nabije aj vitamínmi.",
+ "kcal_na_porciu": 14,
+ "popis": "Spanish · Starter",
  "ingrediencie": [
   {
-   "nazov": "Paradajky",
-   "mnozstvo": 500,
+   "nazov": "Paradajkové pyré",
+   "mnozstvo": 250,
    "jednotka": "g",
    "poznamka": ""
   },
   {
-   "nazov": "Čerstvá stredná uhorka",
+   "nazov": "Čierne korenie",
    "mnozstvo": 1,
    "jednotka": "ks",
-   "poznamka": ""
+   "poznamka": "nasekaná red"
   },
   {
-   "nazov": "Zelená paprika",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená paprika",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa červená stredne veľká",
+   "nazov": "Chopped Red Chilli",
    "mnozstvo": 1,
    "jednotka": "ks",
    "poznamka": ""
   },
   {
    "nazov": "Cesnak",
-   "mnozstvo": 2,
+   "mnozstvo": 1,
    "jednotka": "strúčik",
-   "poznamka": ""
+   "poznamka": "olúpaná drvená"
   },
   {
-   "nazov": "Biely chlieb bez kôrky",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová šťava",
+   "nazov": "Sherry ocot",
    "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cukor hnedý /klasický/",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olej olivový extra virgin",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červený vinny ocot",
-   "mnozstvo": 2,
    "jednotka": "ČL",
    "poznamka": ""
   },
   {
-   "nazov": "Čierne korenie",
+   "nazov": "Limetka",
    "mnozstvo": null,
    "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rímska rasca",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvá bazalka",
-   "mnozstvo": 5,
-   "jednotka": "list",
    "poznamka": ""
   }
  ],
  "postup": [
-  "Pripavíme si všetky suroviny. Očistíme uhorku, papriku,cibuľu, cesnak. Zeleninu pokrájame na kocky, cesnak pretlačíme a chlieb namočíme v troške vlažnej vody. Všetko včetne bazalky rozmixujeme, okrem korením a pochutín. Vznikne nám jemná zeleninová kaša. Zmes potom pretlačíme cez husté sítko, aby sme sa zbavili prípadných šupiek.",
-  "Potom pridáme cukor, citrónovú šťavu, vínny ocot, olej a koreniny. Ak by bola zmes hustá, tak ju zriedime troškou vody. Pripravené gazpacho uložíme do chladičky a necháme dobre vychladiť.",
-  "Podávame chladené, poliate olivovým olejom, lístkami bazalky a ozdobíme kôpkami na drobno pokrájanej použitej zeleniny. Ako prílohu som robila tousty z tmavého chleba nasucho opečené, ale hodí sa aj bagetka, alebo krutónky.",
-  "Gazpacho môžeme podávať v letných horúcich dňoch aj ako drink na záhradnej párty. Stačí ho prizdobiť limetkou a lístkami bazalky. Prípadne pridáme kocku ľadu.",
-  "Použila som tento červený vínny ocot - španielsky a veľmi sa mi chuťovo páči. Kúpila som ho v obchode zdravej výživy."
+  "V mixéri (alebo tyčovým mixérom) rozmixujeme do hladka paradajkové pyré, červenú papriku, čili, cesnak, sherry ocot a limetkovú šťavu.",
+  "Dochutíme a podávame s kockami ľadu."
  ],
  "tipy": "",
  "foto": "",

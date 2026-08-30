@@ -3,150 +3,90 @@
  "nazov": "Harira",
  "kategoria": "Polievka",
  "kuchyna": "Marocká",
- "zdroj": "Varecha.sk – Harira - marocká polievka (fotorecept) (autor: mata29)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/harira-marocka-polievka-fotorecept/49139-recept.html",
+ "zdroj": "BBC Good Food – Harira",
+ "zdroj_url": "https://www.bbcgoodfood.com/recipes/harira",
  "porcie": 6,
  "cas": "110 min",
- "kcal_na_porciu": 158,
- "popis": "Túto polievku so prvý krát jedla v Marrakéši a zamilovala som si ju. Odvtedy si ju robím aj \r\ndoma. Je vynikajúca :)",
+ "kcal_na_porciu": 224,
+ "popis": "Make a warming bowl of harira, the Moroccan soup full of pulses, tomato, beef and spices. It's hearty, satisfying and full of flavour – perfect for cold days",
  "ingrediencie": [
   {
-   "nazov": "Mäso hovädzie",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cícer v konzerve",
+   "nazov": "Olivový olej",
    "mnozstvo": 1,
-   "jednotka": "ks",
+   "jednotka": "PL",
    "poznamka": ""
   },
   {
-   "nazov": "Šošovica",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
+   "nazov": "Hovädzie mäso",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "očistená of excess fat"
   },
   {
    "nazov": "Cibuľa",
    "mnozstvo": 1,
    "jednotka": "ks",
-   "poznamka": ""
+   "poznamka": "malá najemno nasekaná"
   },
   {
-   "nazov": "Zelerová vňať",
+   "nazov": "Kurkuma",
    "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "jednotka": "ČL",
+   "poznamka": "mleté"
   },
   {
-   "nazov": "Koriandrová vňať",
+   "nazov": "Čierne korenie",
    "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
+   "jednotka": "ČL",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "mleté"
   },
   {
    "nazov": "Petržlenová vňať",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
    "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá škorica",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletý zázvor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá kurkuma",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletý šafrán",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie čili",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rastlinný olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Chladná voda",
-   "mnozstvo": 1000,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Chladná voda",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
+   "jednotka": "PL",
+   "poznamka": "nasekaná čerstvá"
   },
   {
    "nazov": "Paradajkový pretlak",
-   "mnozstvo": 3,
+   "mnozstvo": 1,
    "jednotka": "PL",
    "poznamka": ""
   },
   {
-   "nazov": "Chladná voda",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slíže",
+   "nazov": "Šafran",
    "mnozstvo": null,
    "jednotka": "podľa chuti",
    "poznamka": ""
   },
   {
-   "nazov": "Čerstvé celé vajce",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "nazov": "Cícer",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": "odkvapkaná, sušená soaked overnight a odkvapkaná"
   },
   {
    "nazov": "Paradajky",
-   "mnozstvo": 3,
+   "mnozstvo": 6,
    "jednotka": "ks",
-   "poznamka": ""
+   "poznamka": "veľká nastrúhaná or blitzed in a food processor"
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "najemno nasekaná"
+  },
+  {
+   "nazov": "Šošovica",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "sušená green"
   },
   {
    "nazov": "Hladká múka",
@@ -155,22 +95,16 @@
    "poznamka": ""
   },
   {
-   "nazov": "Citrón",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na dochutenie"
+   "nazov": "Koriander",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "nasekaná čerstvá a lemon na klinky"
   }
  ],
  "postup": [
-  "Najskôr si pripravíme všetky potrebné suroviny.",
-  "Ďalej si nakrájame všetky suroviny: hovädzie/baranie mäso, 1 väčšiu cibuľu, 3 strúčiky cesnaku, 1 pohár zelerovej, 1/2 pohára koriandrovej a 1/2 pohára petržlenovej vňate nakrájame nadrobno. Cícer vylejeme z konzervy a opláchneme a 1/2 pohára šošovice taktiež opláchneme.",
-  "Na rozpálenom oleji z prudka opečieme mäso (ja som použila hovädzie mäso), pridáme nakrájanú cibuľu a taktisto chvíľu za stáleho miešania osmažíme. Pridáme 1 pohár cíceru, 1/2 pohára šošovice, zelerovú, koriandrovú, petržlenovú vňať a cesnak. Následne všetko pomiešame.",
-  "Pridáme všetky koreniny: čierne mleté korenie, soľ, škoricu mletú, zázvor mletý/čerstvý strúhaný, kurkumu mletú, šafrán mletý, čilli korenie (z každého korenia 1 čl). Všetko dobre premiešame, prikryjeme pokrievkou a necháme 5 minút variť.",
-  "Po 5 minútach pridáme liter vody, pomiešame, prikryjeme a necháme variť 1 hodinu.",
-  "Medzitým si pripravíme ďalšie ingrediencie: z 3 až 6 stredne veľkých až veľkých paradajok si urobíme pyré pomocou mixéra alebo pasírovača ( ja som ich len nadrobno nakrájala). Zmiešame 3 PL múky s 1/2 pohárom vody a 3 PL pretlaku s 1/2 pohárom vody.",
-  "Po hodine varenia pridáme paradajkové pyré, zmiešanú múku s vodou a zmiešaný pretlak s vodou a slíže. Následne pomiešame a necháme variť 20 minút. Po pridaní týchto ingrediencií polievku kontrolujte a občasne premiešajte, aby sa neprihorela.",
-  "Po 20 minútach si rozbijeme jedno čerstvé vajce (môžete si ho v miske rozšľahať, aby z neho neboli v polievke veľké kusy a vyzeralo to chutne), pridáme ho do polievky a premiešame. Necháme chvíľu povariť, ochutnáme a podľa potreby dochutíme soľou.",
-  "Pred podávaním si polievku dochuťte citrónom, nech má správnu chuť. Dobrú chuť :) Dáfam, že Vám bude chutiť tak ako mne :)"
+  "Vo veľkom kastróle rozohrejeme olivový olej na strednom ohni. Pridáme mäso, cibuľu a koreniny s 1,5 ČL soli. Za občasného miešania 5–10 minút mäso zľahka opečieme. Pridáme všetky ostatné ingrediencie okrem šošovice, kukuričného škrobu, koriandra a citróna. Prilejeme liter vriacej vody, privedieme k varu, prikryjeme a stiahneme na mierny oheň. Dusíme 1 hodinu.",
+  "Do kastróla pridáme šošovicu, prikryjeme a varíme ďalších 20 minút. Keď je cícer, mäso aj šošovica uvarené, v malej miske rozmiešame kukuričný škrob s 3 PL vody do hladka a vmiešame do polievky. Varíme 5 minút, kým harira nezhustne a nezíska zamatovú konzistenciu.",
+  "Posypeme koriandrom a podávame horúce s klinčekmi citróna na vytlačenie."
  ],
  "tipy": "",
  "foto": "",

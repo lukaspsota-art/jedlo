@@ -220,4 +220,29 @@ ok("dialóg je nad režimom varenia a toast nad dialógom", () => {
   assert.ok(toast >= dlg, `toast (${toast}) nesmie byť pod dialógom (${dlg})`);
 });
 
+// ─────────────────────────────────────────────────────────── V1 vyhľadávanie
+nadpis("\nV1 — vyhľadávanie (názov aj surovina)");
+const misa = (id, nazov) => ({ id, nazov, kategoria: "Hlavné jedlo", kuchyna: "", porcie: 2, kcal_na_porciu: 500,
+  ingrediencie: [{ nazov: "Cícer", mnozstvo: 200, jednotka: "g" }, { nazov: "Paradajky", mnozstvo: 2, jednotka: "ks" }],
+  postup: [], tagy: [] });
+
+ok("hľadanie chytí surovinu aj v inom páde, nie cudziu", () => {
+  const app = novy();
+  const r = vloz(app, misa("v1", "Letná misa"));
+  assert.ok(app.hladaSedi(r, "letna"), "názov");
+  assert.ok(app.hladaSedi(r, "cicer"), "surovina");
+  assert.ok(app.hladaSedi(r, "paradajka"), "surovina v inom páde („paradajka“ vs „Paradajky“)");
+  assert.ok(!app.hladaSedi(r, "losos"), "surovina, ktorá v recepte nie je");
+});
+
+ok("picker v pláne hľadá aj podľa suroviny a ukáže ktorá sedí", () => {
+  const app = novy();
+  const r = vloz(app, misa("v2", "Nedeľný obed"));
+  r.ingrediencie.push({ nazov: "Zubrovka", mnozstvo: 1, jednotka: "pl" }); // surovina, ktorú nemá žiadny reálny recept
+  app.pickSearchInput("žubrovky");
+  const html = app.document.getElementById("pick-search-results").innerHTML;
+  assert.ok(html.includes("Nedeľný obed"), "picker nenašiel recept podľa suroviny: " + html.slice(0, 200));
+  assert.ok(html.includes("🥕 Zubrovka"), "chýba hint, ktorá surovina sedí: " + html.slice(0, 200));
+});
+
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });

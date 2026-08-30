@@ -3,169 +3,89 @@
  "nazov": "Butter Chicken (Murgh Makhani)",
  "kategoria": "Hlavné jedlo",
  "kuchyna": "Indická",
- "zdroj": "Varecha.sk – Butter chicken vo fit verzii (autor: Ryža SOS)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/butter-chicken-vo-fit-verzii/91748-recept.html",
- "porcie": 7,
- "cas": "35 min",
- "kcal_na_porciu": 434,
- "popis": "Tak tento recept budú milovať všetci obľúbenci spojenia indickej kuchyne a fit receptov!* Butter chicken vo fit verzii obsahuje oproti klasike minimum pridaného tuku, no aj tak chutí stále lahodne, krémovo a \r\nšťavnato. Bielkovinami nabitý recept s kuracím mäsom, ktorý je jednoduchý na prípravu a tak chutný! Tento recept pre vás pripravila Lucka, Fitrecepty.",
+ "zdroj": "BBC Good Food – Butter chicken",
+ "zdroj_url": "https://www.bbcgoodfood.com/recipes/butter-chicken",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 358,
+ "popis": "Cooked with butter, cashew nut butter, tangy passata and plenty of spices, this chicken curry is rich, indulgent and ready in less than an hour",
  "ingrediencie": [
   {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 800,
+   "nazov": "Maslo",
+   "mnozstvo": 25,
    "jednotka": "g",
    "poznamka": ""
   },
   {
-   "nazov": "Jogurt grécky biely nízkotučný",
-   "mnozstvo": 120,
-   "jednotka": "g",
-   "poznamka": ""
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na polovice a finely na plátky"
+  },
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "bez kože cut into chunks"
   },
   {
    "nazov": "Garam masala",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá kurkuma",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušený mletý zázvor",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá škorica",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 1,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 1,
+   "mnozstvo": 2,
    "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa biela",
-   "mnozstvo": 1,
-   "jednotka": "ks",
    "poznamka": ""
   },
   {
    "nazov": "Cesnak",
    "mnozstvo": 3,
-   "jednotka": "strúčik",
-   "poznamka": ""
+   "jednotka": "ks",
+   "poznamka": "drvená"
   },
   {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 70,
+   "nazov": "Zázvor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "finely nastrúhaná"
+  },
+  {
+   "nazov": "Paradajkové pyré",
+   "mnozstvo": 500,
    "jednotka": "g",
    "poznamka": ""
   },
   {
-   "nazov": "Smotanový syr",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "nazov": "Kešu maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL",
    "poznamka": ""
   },
   {
-   "nazov": "Garam masala",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletý koriander",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletý zázvor",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
+   "nazov": "Smotana na šľahanie",
    "mnozstvo": 50,
    "jednotka": "ml",
    "poznamka": ""
   },
   {
-   "nazov": "Ryža SOS Basmati",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šafran",
+   "nazov": "Koriander",
    "mnozstvo": null,
    "jednotka": "podľa chuti",
-   "poznamka": "voliteľné"
+   "poznamka": "handful nasekaná"
+  },
+  {
+   "nazov": "Ryža",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "uvarená to serve"
+  },
+  {
+   "nazov": "Špenát",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": ""
   }
  ],
  "postup": [
-  "Najprv si pripravíme zmes korenín na mäso a omáčku zvlášť.",
-  "V miske zmiešame všetky suroviny na marinádu.",
-  "Pridáme na malé kúsky nakrájané kuracie mäso a dôkladne premiešame, aby sa obalilo marinádou. Odložíme ho minimálne na 30 minút do chladničky – čím dlhšie, tým lepšie.",
-  "Ryžu prepláchneme pod tečúcou vodou, aby sme ju zbavili škrobu. Dáme ju variť s 500 ml vody a 1 ČL soli. V prípade záujmu môžeme pridať aj šafran.",
-  "Ryžu varíme odokrytú na miernom plameni cca 12 minút. Potom ju odstavíme a necháme dôjsť ešte 5 minút pod pokrievkou.",
-  "V hrnci alebo vo woku rozohrejeme maslo a opražíme na ňom nasekanú cibuľu.",
-  "Pridáme marinované kuracie kúsky a opečieme ich zo všetkých strán, kým sa mäso zatiahne (cca 3–4 minúty).",
-  "Potom pridáme prelisované strúčiky cesnaku, paradajkový pretlak, koreniny, soľ, zamiešame a podlejeme vodou. Premiešame a necháme variť približne 15 minút.",
-  "Potom k mäsu pridáme Philadelphia syr, zamiešame a v prípade potreby ešte pridáme viac vody. Ak naopak potrebujeme omáčku zahustiť, môžeme si zmiešať trochu vody s kukuričným škrobom (cca 1 PL) a vmiešať zmes do omáčky.",
-  "Butter chicken podávame spolu s uvarenou ryžou, posypané čerstvým koriandrom."
+  "Vo veľkom hrnci rozpustíme maslo a cibuľu restujeme na strednom ohni 5 minút do zmäknutia. Pridáme kurča a opekáme do zlatohneda. Pridáme garam masalu, cesnak, zázvor a paradajkové pyré. Dusíme odkryté 20 minút.",
+  "Pred podávaním vmiešame kešu maslo a smotanu, dochutíme a posypeme koriandrom. Podávame s uvarenou ryžou a osmaženým špenátom."
  ],
  "tipy": "",
  "foto": "",

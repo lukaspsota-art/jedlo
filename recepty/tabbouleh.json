@@ -3,68 +3,72 @@
  "nazov": "Tabbouleh",
  "kategoria": "Šalát",
  "kuchyna": "Blízkovýchodná",
- "zdroj": "Varecha.sk – Tabulé (tabbouleh) z quinoy (autor: Ryža SOS)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/tabule-tabbouleh-z-quinoy/91619-recept.html",
- "porcie": 2,
- "cas": "30 min",
- "kcal_na_porciu": 390,
- "popis": "Tabulé z quinoy je ľahké, výživné a jednoduché na prípravu.* Tento recept, ktorý kombinuje čerstvé ingrediencie, ako je \r\npetržlenová vňať, mäta a paradajky, je ideálny na vychutnanie si v horúcich dňoch alebo ako príloha k akémukoľvek jedlu. \r\nNavyše, quinoa dodáva jedinečný a zdravý nádych, je bohatá na bielkoviny a neobsahuje lepok. Ideálny recept so SOS Quinoa.",
+ "zdroj": "BBC Good Food – Tabbouleh salad",
+ "zdroj_url": "https://www.bbcgoodfood.com/recipes/tabbouleh-0",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 320,
+ "popis": "This classic and well-loved Middle-Eastern dish is perfect to serve with fish",
  "ingrediencie": [
   {
-   "nazov": "SOS Quinoa",
-   "mnozstvo": 200,
+   "nazov": "Kuskus",
+   "mnozstvo": 250,
    "jednotka": "g",
    "poznamka": ""
   },
   {
-   "nazov": "Paradajka",
-   "mnozstvo": 1,
+   "nazov": "Paradajky",
+   "mnozstvo": 4,
    "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
    "poznamka": ""
   },
   {
    "nazov": "Jarná cibuľka",
    "mnozstvo": 1,
    "jednotka": "ks",
-   "poznamka": ""
+   "poznamka": "bunch na plátky"
   },
   {
    "nazov": "Petržlenová vňať",
-   "mnozstvo": 1,
-   "jednotka": "zväzok",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mäta",
-   "mnozstvo": 1,
-   "jednotka": "zväzok",
-   "poznamka": ""
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "x 20g packs čerstvá"
   },
   {
    "nazov": "Citrón",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nastrúhaná zest of a"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 6,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
    "mnozstvo": 1,
    "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olej olivový extra panenský",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
+   "poznamka": "drvená clove"
   }
  ],
  "postup": [
-  "Quinou uvarte podľa návodu na obale a nechajte vychladnúť.",
-  "Jarnú cibuľku a paradajku nakrájajte na malé kúsky. Čerstvú petržlenovú vňať a mätu dôkladne umyte a nasekajte nadrobno.",
-  "Do veľkej šalátovej misy dajte vychladnutú quinou ako základ. Pridajte nakrájanú zelenú cibuľku, nadrobno nakrájané paradajky a nadrobno nasekanú petržlenovú vňať a mätu. Jemne premiešajte , aby sa ingrediencie rovnomerne rozložili.",
-  "Tabbouleh pokvapkajte šťavou z citróna a dochuťte soľou podľa vašej preferencie. Nakoniec pridajte extra panenský olivový olej a premiešajte.",
-  "Podávajte samostatne alebo ako prílohu."
+  "Kuskus dáme do veľkej misy. Zalejeme vriacou vodou alebo vývarom a premiešame. Prikryjeme tanierom alebo fóliou a necháme 5 minút stáť, kým sa tekutina nevsiakne. Vidličkou zrná prečuchráme a oddelíme.",
+  "Paradajky a uhorku nakrájame najemno na kocky. Jarnú cibuľku nakrájame na kolieska a petržlen najemno nasekáme, potom všetko pridáme ku kuskusu spolu s nastrúhanou citrónovou kôrou.",
+  "Olivový olej, citrónovú šťavu a cesnak dobre osolíme, prešľaháme a pokvapkáme kuskus. Dobre premiešame a podávame s grilovanou rybou, mäsom alebo kurčaťom."
  ],
  "tipy": "",
  "foto": "",

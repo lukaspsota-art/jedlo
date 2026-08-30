@@ -3,45 +3,45 @@
  "nazov": "Kuracie coq au vin",
  "kategoria": "Hlavné jedlo",
  "kuchyna": "Francúzska",
- "zdroj": "Varecha.sk – Coq au vin – kohút na víne (autor: redakcia)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/coq-au-vin-kohut-na-vine/45177-recept.html",
- "porcie": 6,
+ "zdroj": "TheMealDB – Coq au vin",
+ "zdroj_url": "https://www.themealdb.com/meal/52832",
+ "porcie": 4,
  "cas": "80 min",
- "kcal_na_porciu": 535,
- "popis": "Klasické francúzske kuracie mäso dusené v červenom víne s hubami.",
+ "kcal_na_porciu": 1047,
+ "popis": "France · Chicken",
  "ingrediencie": [
   {
-   "nazov": "Kohút",
+   "nazov": "Olivový olej",
    "mnozstvo": 1,
    "jednotka": "ks",
-   "poznamka": ""
+   "poznamka": "0.5 tbsp"
   },
   {
-   "nazov": "Prerastená slanina",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
+   "nazov": "Slanina",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "nasekaná dry-cured bacon"
   },
   {
-   "nazov": "Červená cibuľa",
+   "nazov": "Šalotka",
+   "mnozstvo": 12,
+   "jednotka": "ks",
+   "poznamka": "malá"
+  },
+  {
+   "nazov": "Kuracie mäso",
    "mnozstvo": 2,
    "jednotka": "ks",
    "poznamka": ""
   },
   {
-   "nazov": "Červené husté víno",
-   "mnozstvo": 1000,
-   "jednotka": "ml",
+   "nazov": "Kuracie stehná",
+   "mnozstvo": 4,
+   "jednotka": "ks",
    "poznamka": ""
   },
   {
-   "nazov": "Šampiňóny",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
+   "nazov": "Kuracie prsia",
    "mnozstvo": 2,
    "jednotka": "ks",
    "poznamka": ""
@@ -49,50 +49,83 @@
   {
    "nazov": "Cesnak",
    "mnozstvo": 3,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pór",
-   "mnozstvo": 1,
    "jednotka": "ks",
+   "poznamka": "najemno nasekaná"
+  },
+  {
+   "nazov": "Brandy",
+   "mnozstvo": 3,
+   "jednotka": "PL",
    "poznamka": ""
   },
   {
-   "nazov": "Maslo",
+   "nazov": "Červené víno",
+   "mnozstvo": 600,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kurací vývar",
    "mnozstvo": 150,
-   "jednotka": "g",
+   "jednotka": "ml",
    "poznamka": ""
   },
   {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Nové celé korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
    "poznamka": ""
   },
   {
    "nazov": "Tymian",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlenová vňať",
    "mnozstvo": null,
    "jednotka": "podľa chuti",
    "poznamka": ""
   },
   {
-   "nazov": "Bobkový list",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
+   "nazov": "Šampiňóny",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
    "poznamka": ""
   }
  ],
  "postup": [
-  "Kohúta stiahneme z kože a nakrájame na menšie kusy. Varíme v červenom víne s pridaním soli, cesnaku, bobkového listu, nového a celého korenia, tymianu asi 30 minút. Slaninu nakrájame na jemné plátky a orestujeme do chrumkava. Vytiahneme z prebytočného tuku.",
-  "V tuku zo slaniny orestujeme očistenú, na kolieska nakrájanú mrkvu a šampiňóny. Po orestovaní vyberieme z tuku. V tuku znovu orestujeme pór. Po orestovaní vyberieme a celý proces zopakujeme s červenou cibuľou.",
-  "Uvareného kohúta vyberieme z vína. Do vína pridáme orestovanú zeleninu, slaninu, zahustíme maslom a spolu varíme asi 5 minút. Na záver pridáme kohúta, dochutíme soľou, korením a čerstvým tymianom."
+  "Vo veľkom hrnci s hrubým dnom rozohrejeme 1 PL oleja. Pridáme slaninu a opražíme do chrumkava. Vyberieme a necháme odkvapkať na papierovej utierke. Do hrnca pridáme šalotky a za častého potriasania restujeme 5–8 minút, kým poriadne nezhnednú. Vyberieme a odložíme k slanine.",
+  "Kuracie diely osušíme papierovou utierkou. Do hrnca prilejeme zvyšný olej a polovicu kurčaťa za pravidelného obracania opekáme 5–8 minút do zlatohneda. Vyberieme a rovnako spracujeme zvyšok.",
+  "Vsypeme cesnak a krátko orestujeme, potom na stredne vysokom ohni prilejeme brandy alebo cognac a miešaním uvoľníme výpek z dna. Alkohol má zasyčať a takmer sa odpariť.",
+  "Do hrnca vrátime kuracie stehná so všetkou vypustenou šťavou, prilejeme trochu vína a znovu premiešame dno. Prilejeme zvyšok vína, vývar a paradajkový pretlak, vložíme bylinkový zväzok, okoreníme a mierne osolíme, potom vrátime slaninu a šalotky. Prikryjeme, stiahneme na mierny oheň, pridáme kuracie prsia a varíme 50–60 minút.",
+  "Krátko pred podávaním rozohrejeme na veľkej nepriľnavej panvici olej na šampiňóny. Pridáme šampiňóny a na vysokom ohni ich pár minút opekáme do zlatista. Vyberieme a udržujeme teplé.",
+  "Kurča, šalotky a slaninu vyberieme z hrnca na vyhriatu misu a bylinkový zväzok vyhodíme. Na zahustenie zmiešame v malej miske múku, olivový olej a maslo. Vínnu omáčku privedieme k mírnemu varu a po malých kúskoch do nej metličkou vmiešame zahusťovadlo. Povaríme 1–2 minúty. Kurča posypeme šampiňónmi, prelejeme vínnou omáčkou a ozdobíme petržlenom."
  ],
  "tipy": "",
  "foto": "",

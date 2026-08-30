@@ -3,67 +3,41 @@
  "nazov": "Cacio e Pepe s čiernym korením",
  "kategoria": "Cestoviny",
  "kuchyna": "Talianska",
- "zdroj": "Varecha.sk – Špagety cacio e pepe s rukolou a citrónovou kôrou (autor: skatulka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/spagety-cacio-e-pepe-s-rukolou-a-citronovou-korou/72281-recept.html",
- "porcie": 6,
- "cas": "40 min",
- "kcal_na_porciu": 386,
- "popis": "Odkedy som ich vyskúšala pripraviť, stali sa tieto cestoviny jedny z mojich \r\nnajobľúbenejších. Jednoduchosť surovín a vynikajúca chuť.",
+ "zdroj": "BBC Good Food – Cacio e pepe",
+ "zdroj_url": "https://www.bbcgoodfood.com/recipes/cacio-e-pepe",
+ "porcie": 2,
+ "cas": "15 min",
+ "kcal_na_porciu": 565,
+ "popis": "Whip up Good Food's version of cacio e pepe for an easy, speedy lunch",
  "ingrediencie": [
   {
    "nazov": "Špagety",
-   "mnozstvo": 400,
+   "mnozstvo": 200,
    "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Maslo",
-   "mnozstvo": 4,
-   "jednotka": "PL",
+   "mnozstvo": 25,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
-   "nazov": "Korenie čierne mleté čerstvo",
-   "mnozstvo": 1.5,
+   "nazov": "Čierne korenie",
+   "mnozstvo": 2,
    "jednotka": "ČL",
-   "poznamka": ""
+   "poznamka": "or 1 tsp čerstvo mleté black pepper, celá mleté"
   },
   {
-   "nazov": "Grana Padano",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pecorino",
-   "mnozstvo": 125,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rukola",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrón",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
+   "nazov": "Parmezán",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "finely nastrúhaná"
   }
  ],
  "postup": [
-  "V osolenej vode uvaríme cestoviny. Vodu z cestovín nevylievajte, budeme ju potrebovať.",
-  "Na panvici rozpustíme 2 PL masla. Pridáme čerstvé mleté korenie a orestujeme max. pol minúty.",
-  "Pridáme za veľkú naberačku vody z cestovín. Následne pridáme cestoviny a zvyšné maslo. Teplotu znížime na minimum a pridáme Grana Padano (alebo parmezán) a pecorino. Necháme rozpustiť a pridáme rukolu. Možeme ešte mierne dosoliť.",
-  "Podávame posypané postrúhanou citrónovou kôrou, môžeme pridať aj pár kvapiek citrónovej šťavy."
+  "Cestoviny uvaríme v osolenej vriacej vode o 2 minúty kratšie, než uvádza obal. Medzitým na panvici na miernom ohni rozpustíme maslo, pridáme mleté čierne korenie a niekoľko minút opražíme.",
+  "Cestoviny scedíme a 200 ml vody z varenia si odložíme. Cestoviny a 100 ml vody pridáme na panvicu k maslu s korením. Krátko premiešame, potom rovnomerne posypeme parmezánom, ale NEMIEŠAME — počkáme 30 sekúnd, kým sa syr rozpustí, a až potom všetko dôkladne premiešame. Takto sa syr nezrazí a omáčka bude hladká a lesklá. Ak treba, prilejeme trochu vody z cestovín. Podávame ihneď s čerstvo mletým čiernym korením."
  ],
  "tipy": "",
  "foto": "",

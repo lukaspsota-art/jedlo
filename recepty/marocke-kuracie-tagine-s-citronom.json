@@ -3,115 +3,71 @@
  "nazov": "Marocké kuracie tagine s citrónom a olivami",
  "kategoria": "Hlavné jedlo",
  "kuchyna": "Marocká",
- "zdroj": "Varecha.sk – Marocký kozací tagine (autor: marymelb7)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/marocky-kozaci-tagine/47016-recept.html",
- "porcie": 12,
- "cas": "55 min",
- "kcal_na_porciu": 345,
- "popis": "Tagine je keramická marocká nádoba a všetko čo sa v nej varí sa tiež volá tagine.  Jedlo sa \r\nneodokrýva a nemieša.  Para ktorá sa tvorí pri varení sa vo vrchnáku zráža na vodu a tým sa \r\nvlastne jedlo samé podlieva. Môže sa variť v rúre alebo na šporáku veľmi pomaly. Ja to varím k \r\nVeľkej noci a to z jahňacieho mäsa, prvýkrát som vyskúšala kozie. Môžete použiť  ľubovoľne aj \r\niné druhý mäsa a ze",
+ "zdroj": "BBC Good Food – Easy chicken tagine",
+ "zdroj_url": "https://www.bbcgoodfood.com/recipes/easy-chicken-tagine",
+ "porcie": 4,
+ "cas": "50 min",
+ "kcal_na_porciu": 304,
+ "popis": "Simple one-pots are perfect  for the busy cook. This chicken tagine is great eaten with cous cous for something a bit more filling",
  "ingrediencie": [
   {
-   "nazov": "Kozacie mäso",
-   "mnozstvo": 1000,
-   "jednotka": "g",
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
    "poznamka": ""
+  },
+  {
+   "nazov": "Kuracie stehná",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": "bez kože bez kosti na polovice if veľká"
   },
   {
    "nazov": "Cibuľa",
    "mnozstvo": 1,
    "jednotka": "ks",
-   "poznamka": ""
+   "poznamka": "nasekaná"
   },
   {
-   "nazov": "Cesnak",
+   "nazov": "Zázvor",
    "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
+   "jednotka": "ČL",
+   "poznamka": "nastrúhaná čerstvá root"
   },
   {
-   "nazov": "Čerstvá mrkva",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Baklažán",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajka",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Malý zemiak",
-   "mnozstvo": 8,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vňať koriander",
+   "nazov": "Šafran",
    "mnozstvo": null,
    "jednotka": "podľa chuti",
    "poznamka": ""
   },
   {
-   "nazov": "Olivový olej",
-   "mnozstvo": 3,
+   "nazov": "Med",
+   "mnozstvo": 1,
    "jednotka": "PL",
    "poznamka": ""
   },
   {
-   "nazov": "Mletá škorica",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
+   "nazov": "Mrkva",
+   "mnozstvo": 400,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
-   "nazov": "Mletý zázvor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletý koriander",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jogurt biely",
+   "nazov": "Petržlenová vňať",
    "mnozstvo": null,
    "jednotka": "podľa chuti",
-   "poznamka": "alebo smotana"
+   "poznamka": "malá bunch nahrubo nasekaná"
   },
   {
-   "nazov": "Sušený šafran",
+   "nazov": "Citrón",
    "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "štipka",
+   "jednotka": "podľa chuti",
    "poznamka": ""
   }
  ],
  "postup": [
-  "Mäso nakrájame na kocky dáme do nádoby,alebo ako ja, do plastického sáčku pridáme všetko suché korenie a olej, všetko dobre premiešame a dáme na noc do chladničky marínovať.",
-  "Na mäso poukladáme na kocky pokrájanú cibuľu, cesnak,na šťvrtky nakrájanú mrkvu, na kolieska baklažán.",
-  "Poukladáme zemiaky, paradajky, vňaťku a pridáme štipku šafranu a soľ. Ak nemáte tagine nádobu, tak treba všetko podliať trochou vody. Prikryjeme pokličkou a pomaly dusíme 1,5 h",
-  "Keď je mäso mäkké porcujeme, ozdobime jogurtom a korianderovou vňatkou,podávame s ryžou"
+  "Vo veľkom širokom hrnci s pokrievkou rozohrejeme olej, pridáme kurča a rýchlo opečieme, kým zľahka nezozlatne. Pridáme cibuľu a zázvor a restujeme ďalšie 2 minúty.",
+  "Prilejeme 150 ml vody, pridáme šafran, med a mrkvu, osolíme a dobre premiešame. Privedieme k varu, dobre prikryjeme a dusíme 30 minút, kým nie je kurča mäkké. Odkryjeme a na vyššom ohni asi 5 minút omáčku zredukujeme. Posypeme petržlenom a podávame s klinčekmi citróna na vytlačenie."
  ],
  "tipy": "",
  "foto": "",
