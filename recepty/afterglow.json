@@ -1,6 +1,6 @@
 {
  "id": "afterglow",
- "nazov": "Afterglow",
+ "nazov": "Afterglow (nealko drink s grenadínou)",
  "kategoria": "Nápoj",
  "kuchyna": "Medzinárodná",
  "zdroj": "TheCocktailDB – Afterglow",
@@ -8,7 +8,7 @@
  "porcie": 1,
  "cas": "5 min",
  "kcal_na_porciu": 185,
- "popis": "Kokteil. Základ: grenadína, pomarančová šťava, ananás. Podávaj vo vysokom pohári.",
+ "popis": "Nealkoholický drink z grenadíny, pomarančovej šťavy a ananásu, podávaný na ľade.",
  "ingrediencie": [
   {
    "nazov": "Grenadína",
@@ -25,7 +25,7 @@
   {
    "nazov": "Ananás",
    "mnozstvo": 100,
-   "jednotka": "ml",
+   "jednotka": "g",
    "poznamka": ""
   }
  ],

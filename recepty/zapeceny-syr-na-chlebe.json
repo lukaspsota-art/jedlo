@@ -1,9 +1,10 @@
 {
  "id": "zapeceny-syr-na-chlebe",
  "nazov": "Zapečený syr na chlebe",
- "kategoria": "Snack",
+ "kategoria": "Hlavné jedlo",
  "kuchyna": "Anglická",
  "zdroj": "Wikibooks Cookbook – Cheese on Toast (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Cheese_on_Toast",
  "porcie": 2,
  "cas": "10 min",
  "kcal_na_porciu": 552,
@@ -48,11 +49,11 @@
  "tipy": "Jedz rýchlo, ale opatrne - syr je horúci tak, že spáli jazyk.",
  "foto": "",
  "tagy": [
-  "snack",
   "raňajky",
   "anglická",
   "syr",
   "rýchle",
-  "zapekané"
+  "zapekané",
+  "hlavné jedlo"
  ]
 }

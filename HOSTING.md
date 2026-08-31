@@ -54,13 +54,83 @@ Toto musíš spraviť ty (vytvorenie účtu a kľúčov neviem urobiť za teba),
    Oba súbory (`sync-config.js` aj `docs/sync-config.js`) sú v `.gitignore`.
 4. Nahraj/aktualizuj na hosting (krok 1). Prihlásenie a skupiny nastavíš v **Kroku 3**.
 
-> Anon kľúč je verejný (patrí do frontendu), commit do repa je v poriadku. Tvoje dáta chráni prihlásenie + RLS (Krok 3).
->
-> **Staršia možnosť bez prihlásenia** (zdieľanie celej blob medzi *tvojimi* zariadeniami cez tajné „Sync ID"): navyše vytvor tabuľku
-> `create table kucharka (id text primary key, data jsonb, ts bigint);` s otvoreným RLS
-> `create policy "verejne" on kucharka for all using (true) with check (true);` a vyplň `id` v `sync-config.js`. S prihlásením (Krok 3) to nepotrebuješ.
+> Anon kľúč je verejný (patrí do frontendu), commit do repa je v poriadku. **Sám o sebe však nechráni nič** — čo z databázy uvidí ktokoľvek na internete, rozhoduje výhradne RLS. Tvoje dáta chráni prihlásenie + RLS (Krok 3).
 
-## Krok 3 — účty a skupiny (voliteľné, na zdieľanie plánu s ďalšou osobou)
+### ⛔ Politika `using (true)` — ak si ju už spustil, oprav ju hneď
+
+Staršie znenie tohto návodu odporúčalo tabuľku `kucharka` s politikou
+`create policy "verejne" on kucharka for all using (true) with check (true);`.
+**Toto je bezpečnostná diera, nie „jednoduchšia možnosť".** RLS nevie o filtri `?id=eq....`,
+ktorý posiela appka — vyhodnocuje sa nad každým riadkom zvlášť. Pri `using (true)` teda:
+
+- `GET /rest/v1/kucharka?select=*` s obyčajným anon kľúčom (a ten je verejne stiahnuteľný
+  z `sync-config.js` na tvojom hostingu) vráti **riadky všetkých domácností**,
+- `POST` na tú istú tabuľku ich vie **prepísať**.
+
+V blobe je plán, nákupný zoznam, špajza, TDEE profil, **váhový denník** aj história varenia.
+„Sync ID" nechránilo nič — tajné na ňom nebolo nič.
+
+Oprava (SQL Editor, bezpečné spustiť aj keď si tabuľku nikdy nevytvoril):
+
+```sql
+drop policy if exists "verejne" on kucharka;
+revoke all on table kucharka from anon, authenticated;
+alter table if exists kucharka enable row level security;
+```
+
+Potom si vyber jednu z dvoch bezpečných ciest: **Krok 3 (odporúčané)**, alebo **Krok 2B** nižšie.
+
+## Krok 2B — synchronizácia bez účtov (len ak nechceš prihlásenie)
+
+Appka nemá vlastné účty pre túto cestu, takže sa treba preukázať niečím iným. Riešenie:
+**tabuľka je pre anon rolu úplne zamknutá** a číta/píše sa výhradne cez dve funkcie, ktorým
+sa Sync ID musí odovzdať ako argument. Funkcia vráti len ten jeden riadok, ktorého `id` sedí —
+nikdy nie cudzie. `security definer` znamená, že funkcia beží s právami vlastníka, preto sa
+tabuľka nemusí sprístupniť nikomu; `set search_path = public` bráni podstrčeniu inej tabuľky.
+
+1. V **SQL Editor** spusti:
+   ```sql
+   create table if not exists kucharka (id text primary key, data jsonb, ts bigint);
+   alter table kucharka enable row level security;   -- žiadna politika = anon nevidí ani riadok
+   revoke all on table kucharka from anon, authenticated;
+
+   create or replace function sync_nacitaj(p_id text)
+     returns table (data jsonb, ts bigint)
+     language sql security definer set search_path = public as $$
+       select k.data, k.ts from kucharka k where k.id = p_id and length(p_id) >= 20;
+     $$;
+
+   create or replace function sync_uloz(p_id text, p_data jsonb, p_ts bigint)
+     returns void
+     language sql security definer set search_path = public as $$
+       insert into kucharka(id, data, ts) values (p_id, p_data, p_ts)
+       on conflict (id) do update set data = excluded.data, ts = excluded.ts;
+     $$;
+
+   revoke all on function sync_nacitaj(text) from public;
+   revoke all on function sync_uloz(text, jsonb, bigint) from public;
+   grant execute on function sync_nacitaj(text) to anon;
+   grant execute on function sync_uloz(text, jsonb, bigint) to anon;
+   ```
+2. **Vygeneruj si Sync ID ako náhodný reťazec, nie ako slovo.** Je to jediné tajomstvo tejto
+   cesty — kto ho pozná, vidí a prepíše celý tvoj stav. Podmienka `length(p_id) >= 20` vyššie
+   je poistka proti „rodina" a podobným; skutočnú silu dáva náhodnosť, nie dĺžka.
+   V prehliadači (F12 → Console) alebo v termináli:
+   ```js
+   crypto.randomUUID() + "-" + crypto.randomUUID()
+   ```
+3. To isté Sync ID vyplň na **každom** zariadení: buď do `sync-config.js` (`id: "…"`),
+   alebo v appke v **Nastavenia → Synchronizácia → Sync ID**. Zariadenia s rovnakým Sync ID
+   zdieľajú celý stav.
+4. Hotovo. Appka funkcie nájde sama; ak v projekte nie sú (staré nastavenie), vráti sa
+   k priamemu prístupu do tabuľky — vtedy si **nedokončil opravu vyššie** a dáta sú stále verejné.
+
+Čo táto cesta **nechráni**: Sync ID je zdieľané tajomstvo v štýle hesla. Neposielaj ho cez
+verejné kanály, nedávaj do commitu (`sync-config.js` je v `.gitignore`) a pri podozrení ho zmeň
+a starý riadok zmaž: `delete from kucharka where id = 'STARE-SYNC-ID';`.
+Ak chceš zdieľať plán s ďalšou osobou a mať zvlášť súkromné a spoločné dáta, choď na **Krok 3**.
+
+## Krok 3 — účty a skupiny (odporúčané; nutné na zdieľanie plánu s ďalšou osobou)
 
 Toto pridá prihlásenie a „skupiny": pozvaný člen uvidí a môže upravovať **tvoj plán, nákupný zoznam a špajzu**. Obľúbené, poznámky, váhy a TDEE profil ostávajú u každého súkromné. Vyžaduje hotový Krok 2 (`sync-config.js` s `url` a `key`).
 
@@ -101,8 +171,10 @@ Toto pridá prihlásenie a „skupiny": pozvaný člen uvidí a môže upravova�
      using (skupina_id in (select skupina_id from clenstvo where user_id = auth.uid()))
      with check (skupina_id in (select skupina_id from clenstvo where user_id = auth.uid()));
 
+   -- set search_path: bez neho by sa dala funkcii bežiacej s právami vlastníka podstrčiť
+   -- iná tabuľka „skupiny" cez search_path volajúceho (P3-5 z auditu).
    create or replace function pridaj_sa(kod text) returns uuid
-     language plpgsql security definer as $$
+     language plpgsql security definer set search_path = public as $$
    declare sid uuid;
    begin
      select id into sid from skupiny where skupiny.kod = pridaj_sa.kod;
@@ -115,6 +187,24 @@ Toto pridá prihlásenie a „skupiny": pozvaný člen uvidí a môže upravova�
 4. Pošli kód druhej osobe. Ona sa v appke zaregistruje a v tom istom paneli zadá kód → **Pripojiť sa**. Odvtedy obaja zdieľate plán, nákup a špajzu (zmeny sa objavia po prepnutí späť na kartu appky).
 
 > Prístup k zdieľaným dátam chráni prihlásenie + kód skupiny. Zmeny fungujú štýlom „posledná úprava vyhráva" — pre 2–4-člennú domácnosť to stačí.
+>
+> **Prečo je toto bezpečné a `using (true)` nie:** každá politika vyššie porovnáva riadok
+> s `auth.uid()`, teda s identitou z prihlasovacieho tokenu. Riadky cudzieho používateľa alebo
+> cudzej skupiny sa nevrátia ani vtedy, keď si ich niekto vypýta priamo cez REST API s anon
+> kľúčom. `pouzivatel_data` vidí len vlastník, `skupina_data` len člen skupiny.
+
+### Ako si overiť, že RLS naozaj drží
+Po nastavení skús v termináli (nahraď `URL` a `ANON_KEY` svojimi hodnotami) stiahnuť tabuľky
+bez prihlásenia — každý dotaz musí vrátiť prázdne pole `[]`, nie dáta:
+
+```bash
+for t in kucharka pouzivatel_data skupina_data skupiny clenstvo; do
+  echo -n "$t: "; curl -s "URL/rest/v1/$t?select=*" -H "apikey: ANON_KEY" -H "Authorization: Bearer ANON_KEY"; echo
+done
+```
+
+Ak niektorý riadok vráti tvoje dáta, politika pre tú tabuľku je zle — oprav ju skôr, než dáš
+appku online.
 
 ### Čo sa stane pri výpadku siete a pri konflikte
 - **Výpadok počas ukladania:** zmena ostane v `localStorage` a označí sa ako nenahratá.

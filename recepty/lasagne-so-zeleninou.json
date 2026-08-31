@@ -12,8 +12,8 @@
  "ingrediencie": [
   {
    "nazov": "Mozzarella Galbani",
-   "mnozstvo": 3,
-   "jednotka": "ks",
+   "mnozstvo": 375,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -78,9 +78,9 @@
   },
   {
    "nazov": "Červené víno",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Mleté mäso",

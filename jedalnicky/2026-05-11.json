@@ -4,12 +4,40 @@
   "od": "2026-05-11",
   "ciel_kcal": 1450,
   "plan": {
-    "0": {"Raňajky":"toast-sunka","Obed":"cacio-e-pepe","Večera":"sticky-baked-chicken"},
-    "1": {"Raňajky":"toast-sunka","Obed":"cacio-e-pepe","Večera":"sticky-baked-chicken"},
-    "2": {"Raňajky":"vajcova-tortilla","Obed":"salmon-linguine","Večera":"hong-shao-rou"},
-    "3": {"Raňajky":"vajcova-tortilla","Obed":"salmon-linguine","Večera":"hong-shao-rou"},
-    "4": {"Raňajky":"vajcova-tortilla","Obed":"cacio-e-pepe","Večera":"sticky-baked-chicken"},
-    "5": {"Raňajky":"bageta-ostiepok","Obed":"salmon-linguine","Večera":"hong-shao-rou"},
-    "6": {"Raňajky":"bageta-ostiepok","Obed":"cacio-e-pepe","Večera":"sticky-baked-chicken"}
+    "0": {
+      "Raňajky": "toast-sunka",
+      "Obed": "cacio-e-pepe",
+      "Večera": "sticky-baked-chicken"
+    },
+    "1": {
+      "Raňajky": "toast-sunka",
+      "Obed": "cacio-e-pepe",
+      "Večera": "sticky-baked-chicken"
+    },
+    "2": {
+      "Raňajky": "domace-tortilly",
+      "Obed": "salmon-linguine",
+      "Večera": "hong-shao-rou"
+    },
+    "3": {
+      "Raňajky": "domace-tortilly",
+      "Obed": "salmon-linguine",
+      "Večera": "hong-shao-rou"
+    },
+    "4": {
+      "Raňajky": "domace-tortilly",
+      "Obed": "cacio-e-pepe",
+      "Večera": "sticky-baked-chicken"
+    },
+    "5": {
+      "Raňajky": "domace-bagety",
+      "Obed": "salmon-linguine",
+      "Večera": "hong-shao-rou"
+    },
+    "6": {
+      "Raňajky": "domace-bagety",
+      "Obed": "cacio-e-pepe",
+      "Večera": "sticky-baked-chicken"
+    }
   }
 }

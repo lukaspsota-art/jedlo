@@ -203,6 +203,40 @@ ok("vyzivaReceptu hlási pokrytie hmoty údajmi (v.hmota / v.hmotaNa)", () => {
   assert.ok(v2.hmotaNa / v2.hmota < 1, "nenapárovaná surovina má znížiť pokrytie");
 });
 
+// ─────────────────────────────────────── B7: vsiaknutie (olej na vyprážanie)
+console.log("\nB7 — `vsiaknutie` zmenšuje VÝŽIVU, nie nákup ani cenu");
+ok("kcal, makrá, vláknina a sodík klesnú presne o koeficient; cena a gramy zostanú", () => {
+  const ing = { nazov: "Slnečnicový olej", mnozstvo: 500, jednotka: "ml" };
+  const plny = app.vyzivaReceptu({ id: "_v1", nazov: "V", porcie: 1, ingrediencie: [{ ...ing }] });
+  const s20 = app.vyzivaReceptu({ id: "_v2", nazov: "V", porcie: 1, ingrediencie: [{ ...ing, vsiaknutie: 0.2 }] });
+  assert.ok(Math.abs(s20.kcal - plny.kcal * 0.2) < 1e-6, "kcal má klesnúť 5×");
+  assert.ok(Math.abs(s20.t - plny.t * 0.2) < 1e-6, "tuky majú klesnúť 5×");
+  assert.ok(Math.abs(s20.cena - plny.cena) < 1e-9, "cena musí zostať na plnom množstve (olej sa kupuje celý)");
+  const p = app.najdiPotravinu(ing.nazov);
+  assert.strictEqual(app.gramy({ ...ing, vsiaknutie: 0.2 }, p), app.gramy(ing, p), "gramy() sa nesmie meniť");
+});
+ok("neplatné alebo chýbajúce `vsiaknutie` = 1 (pôvodné správanie)", () => {
+  [undefined, null, "0.2", -1, 2, NaN].forEach(v => {
+    assert.strictEqual(app.vsiaknuteho({ nazov: "x", vsiaknutie: v }), 1, "vsiaknutie=" + v);
+  });
+  assert.strictEqual(app.vsiaknuteho({ nazov: "x", vsiaknutie: 0.25 }), 0.25);
+  assert.strictEqual(app.vsiaknuteho({ nazov: "x", vsiaknutie: 0 }), 0);
+});
+ok("nákupný zoznam kupuje PLNÉ množstvo označenej suroviny", () => {
+  const a2 = load({ seed: 7, stav: { viewOd: "2026-08-17",
+    plan: { "2026-08-17": { "Obed": "musaka" } },
+    profil: { osoby: 1, kcal: 1450, stravnici: [{ nazov: "A", kcal: 1450 }] } } });
+  const { grp } = a2.nakupPolozky();
+  const olej = Object.values(grp).find(G => /slnečnicový olej/i.test(G.nazov));
+  assert.ok(olej, "olej z musaky musí byť v nákupe");
+  const r = a2.receptById("musaka");
+  const i = r.ingrediencie.find(x => x.vsiaknutie != null);
+  const p = a2.najdiPotravinu(i.nazov);
+  const plne = a2.gramy(i, p) / (r.porcie || 1);      // na 1 porciu v pláne
+  assert.ok(olej.grams > plne * 0.9, "do nákupu ide plné množstvo, nie vsiaknuté (" +
+    Math.round(olej.grams) + " g vs " + Math.round(plne) + " g)");
+});
+
 // ─────────────────────────────────────────────────────────── B4: kcal brzda
 console.log("\nB4 — kurátorovanému kcal_na_porciu sa verí vždy");
 ok("au-jus-sendvic-s-hovadzim zobrazí kurátorovaných 881 kcal (výpočet dá ~220)", () => {
@@ -215,16 +249,40 @@ ok("kuracie-nugetky zobrazia svoje deklarované kcal", () => {
   assert.strictEqual(app.kcalPorcia(r), r.kcal_na_porciu);
 });
 ok("makrá a cena sa prepočítajú rovnakým faktorom, vláknina a sodík NIE", () => {
-  const r = { id: "_b", nazov: "B", porcie: 1, kcal_na_porciu: 100,
+  const zaklad = { id: "_b", nazov: "B", porcie: 1,
     ingrediencie: [{ nazov: "Ryža", mnozstvo: 100, jednotka: "g" }] };
-  const bez = app.vyzivaReceptu({ ...r, kcal_na_porciu: 0 });
-  const s = app.vyzivaReceptu(r);
-  const k = 100 / bez.kcal;
-  assert.strictEqual(s.kcal, 100);
+  const bez = app.vyzivaReceptu({ ...zaklad, kcal_na_porciu: 0 });
+  // deklarácia vnútri pásma dôvery ⟨0,5; 2⟩ → plné preškálovanie ako doteraz
+  const dekl = Math.round(bez.kcal * 0.8);
+  const s = app.vyzivaReceptu({ ...zaklad, kcal_na_porciu: dekl });
+  const k = dekl / bez.kcal;
+  assert.strictEqual(s.kcal, dekl);
   assert.ok(Math.abs(s.b - bez.b * k) < 1e-9, "bielkoviny sa majú škálovať");
   assert.ok(Math.abs(s.cena - bez.cena * k) < 1e-9, "cena sa má škálovať");
   assert.ok(Math.abs(s.vl - bez.vl) < 1e-9, "vláknina sa NEMÁ škálovať");
   assert.ok(Math.abs(s.na - bez.na) < 1e-9, "sodík sa NEMÁ škálovať");
+  assert.ok(!s.sporne, "rozdiel 20 % nie je sporný");
+});
+// ── B8: poistka na faktor mimo pásma ⟨0,5; 2⟩ ────────────────────────────────
+ok("faktor mimo pásma sa zovrie a recept sa PRIZNÁ ako odhad (nie tiché preškálovanie)", () => {
+  const zaklad = { id: "_k", nazov: "K", porcie: 1,
+    ingrediencie: [{ nazov: "Ryža", mnozstvo: 100, jednotka: "g" }] };
+  const bez = app.vyzivaReceptu({ ...zaklad, kcal_na_porciu: 0 });
+  // deklarované 10× menej než suroviny (typ „hovädzí steak z 500 g krkovice, porcie: 1")
+  const male = Math.round(bez.kcal / 10);
+  const s = app.vyzivaReceptu({ ...zaklad, kcal_na_porciu: male });
+  assert.strictEqual(s.kcal, male, "B4 platí ďalej — kcal je deklarovaná hodnota");
+  assert.ok(s.sporne, "recept musí byť označený ako sporný");
+  assert.ok(s.q > app.K_PASMO_HI, "q má byť nad horným okrajom pásma");
+  const kZovrety = 1 / app.K_PASMO_HI;               // najviac 2× nadol
+  assert.ok(Math.abs(s.b - bez.b * kZovrety) < 1e-9,
+    "bielkoviny sa smú deliť najviac dvojkou, nie desiatkou (" + s.b.toFixed(2) + " g)");
+  // opačný smer: deklarované 10× viac než suroviny (chýbajúce gramy)
+  const velke = Math.round(bez.kcal * 10);
+  const v = app.vyzivaReceptu({ ...zaklad, kcal_na_porciu: velke });
+  assert.ok(v.sporne, "aj podstrelený dopočet musí byť označený ako sporný");
+  assert.ok(Math.abs(v.b - bez.b / app.K_PASMO_LO) < 1e-9,
+    "bielkoviny sa smú násobiť najviac dvojkou (" + v.b.toFixed(2) + " g)");
 });
 ok("rozdiel > 10 % je označený ako odhad, do 10 % nie", () => {
   const zaklad = { id: "_o", nazov: "O", porcie: 1, ingrediencie: [{ nazov: "Ryža", mnozstvo: 100, jednotka: "g" }] };

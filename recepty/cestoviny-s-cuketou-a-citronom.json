@@ -1,6 +1,6 @@
 {
  "id": "cestoviny-s-cuketou-a-citronom",
- "nazov": "Cestoviny s cuketou a citrónom",
+ "nazov": "Cestoviny s cuketou a sušenými paradajkami",
  "kategoria": "Cestoviny",
  "kuchyna": "Talianska",
  "zdroj": "Varecha.sk – Cestoviny s cuketou (autor: danda3)",
@@ -30,9 +30,9 @@
   },
   {
    "nazov": "Sušené paradajky nakladané v oleji",
-   "mnozstvo": 5,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Slnečnicový olej",

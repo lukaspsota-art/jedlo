@@ -24,9 +24,9 @@
   },
   {
    "nazov": "Mletá kurkuma",
-   "mnozstvo": 0.25,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Červená cibuľa",
@@ -84,20 +84,20 @@
   },
   {
    "nazov": "Mletá kurkuma",
-   "mnozstvo": 0.33,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Mletý koriander",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Garam masala",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
+   "mnozstvo": 15,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -110,7 +110,7 @@
  "postup": [
   "Baby kukuricky umyj a vlož do hrnca s vodou a kurkumou. Vodu priveď do varu a kukuricky var 10 minut. Potom ich vyber a odlož bokom do dalsieho pouzitia. Vychladnute pokrájaj. Kym sa varia kukuricky, namoč si mandle.",
   "Do mixera vlož vsetky suroviny uvedene na pastu a rozmixuj.",
-  "V hrnci zohrej asi 2 lyzice ghee. Pridaj bobkovy list. (Ja som pouzila azijsky, kludne sa moze pouzit obycajny.)",
+  "V hrnci zohrej asi 2 lyzice ghee. Pridaj bobkovy list.",
   "Dalej pridaj pripravenu pastu a na miernom ohni ju zredukuj. Trvalo to asi 10 minut.",
   "Poto pridaj mletu kurkumu a mlety koriander a premiešaj.",
   "Dalej pridaj trocha vody, aby vznikla husta omacka. Premiešaj, osoľ a priveď do varu. Ohen zmierni.",

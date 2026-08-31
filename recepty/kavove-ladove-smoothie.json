@@ -11,8 +11,8 @@
  "ingrediencie": [
   {
    "nazov": "Káva",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 250,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -23,14 +23,14 @@
   },
   {
    "nazov": "Kryštálový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 1000,
+   "jednotka": "g",
    "poznamka": "voliteľné"
   },
   {
    "nazov": "Ľad",
-   "mnozstvo": 3,
-   "jednotka": "ks",
+   "mnozstvo": null,
+   "jednotka": "",
    "poznamka": "voliteľné"
   },
   {

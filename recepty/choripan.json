@@ -4,6 +4,7 @@
  "kategoria": "Hlavné jedlo",
  "kuchyna": "Argentínska",
  "zdroj": "Wikibooks Cookbook – Choripán (Argentine Chorizo Sandwich) (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Chorip%C3%A1n_(Argentine_Chorizo_Sandwich)",
  "porcie": 2,
  "cas": "45 min",
  "kcal_na_porciu": 886,
@@ -29,8 +30,8 @@
   },
   {
    "nazov": "Šalátové listy",
-   "mnozstvo": 2,
-   "jednotka": "ks",
+   "mnozstvo": 300,
+   "jednotka": "g",
    "poznamka": "voliteľné"
   },
   {

@@ -12,9 +12,9 @@
  "ingrediencie": [
   {
    "nazov": "Stehná kačacie",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Masť kačacia",
@@ -66,8 +66,8 @@
   },
   {
    "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 1000,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -84,8 +84,8 @@
   },
   {
    "nazov": "Celá rasca",
-   "mnozstvo": 2,
-   "jednotka": "ks",
+   "mnozstvo": 50,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -110,7 +110,7 @@
  "postup": [
   "Kačacie stehná popichaj vidličkou, dobre nasoľ a na noc odlož do chladničky. V deň prípravy daj do pekáčika ku stehnám kačaciu masť a podlej vodou. Vlož prikryté do trúby vyhriatej na 160-170 stupňov a pomaly peč za prelievania vypečenou šťavou do zmäknutia. Ked sú stehná mäkké /asi 45 minút/ dopeč odkryté do zlatohnedej farby kože.",
   "V hrnci na oleji orestuj cibuľu, pridaj na jemné prúžky pokrájanú kapustu, osoľ a pridaj ostatné koreniny. Podlej vodou, zamiešaj a dus na strednom plameni do mäkka a odparenia temer všetkej tekutiny. Zapráš múkou a za stáleho miešania dodus. Hotovú kapustu dochuť cukrom a octom.",
-  "Na tanieri upečené kačacie stehná oblož dusenou kapustou a plátkami knedlí, ktoré pokvapkáš výpekom z upečených stehien. Takto upravenú kapustu servíruj tiež k pečenej husi, bravčovej krkovičke, pliecku, bôčiku..."
+  "Na tanieri upečené kačacie stehná oblož dusenou kapustou a plátkami knedlí, ktoré pokvapkáš výpekom z upečených stehien. Takto upravenú kapustu servíruj tiež k pečenej husi, bravčovej krkovičke, pliecku, bôčiku"
  ],
  "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
  "foto": "",

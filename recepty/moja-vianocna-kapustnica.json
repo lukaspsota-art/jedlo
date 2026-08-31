@@ -12,8 +12,8 @@
  "ingrediencie": [
   {
    "nazov": "Údené koleno",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 200,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -72,15 +72,15 @@
   },
   {
    "nazov": "Červená mletá sladká paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Červená mletá údená paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Hladká múka",
@@ -91,9 +91,9 @@
  ],
  "postup": [
   "V 5 l hrnci zalej údené koleno asi 1-2 cm pod okraj hrnca a var 2-3 hodiny spolu s bobkovým listom, čiernym a novým korením.",
-  "Po uvarení koleno vyber aj s korením a bobkovým listom. Do vývaru z kolena pridaj poriadne vytlačenú kapustu, ktorú sme si pred tým nakrájali, aby sa príliš neťahala pri jedení. Ja ju veľmi nepreplachujem, stačí poriadne vytlačiť šťavu. Var 1-2 hodiny. Šťavu môžeš za ten čas popíjať, dodá nám probiotiká a vitamín C :)",
+  "Po uvarení koleno vyber aj s korením a bobkovým listom. Do vývaru z kolena pridaj poriadne vytlačenú kapustu, ktorú si pred tým nakrájaj, aby sa príliš neťahala pri jedení. Ja ju veľmi nepreplachujem, stačí poriadne vytlačiť šťavu. Var 1-2 hodiny. Šťavu môžeš za ten čas popíjať, dodá nám probiotiká a vitamín C",
   "Počas varenia kapusty si namoč huby do vriacej vody na cca 15-20 minút. Vodu z húb preceď cez jemné sitko do misky a vlej do kapustnice. Huby tiež nakrájaj na menšie kúsky a obaľ v hladkej múke a 20 minút pred dovarením kapusty ich pridaj do kapustnice. Spolu s hubami pridaj aj klobásu nakrájanú na hrubšie kolieska a varené údené koleno nakrájané na kocky.",
-  "Po 20 minútach od pridania húb si sprav zápražku z cibule nakrájanej na jemno, opraženej na oleji resp. bravčovej masti do sklovita a červenej sladkej+údenej papriky. Zápražku pridaj do kapustnice spolu s prelisovaným cesnakom a ešte 20-30 minút var. V prípade potreby ešte dosoľ. Podávaj najlepšie až na druhý deň, keď sa chute rozležia :)"
+  "Po 20 minútach od pridania húb si sprav zápražku z cibule nakrájanej na jemno, opraženej na oleji resp. bravčovej masti do sklovita a červenej sladkej+údenej papriky. Zápražku pridaj do kapustnice spolu s prelisovaným cesnakom a ešte 20-30 minút var. V prípade potreby ešte dosoľ. Podávaj najlepšie až na druhý deň, keď sa chute rozležia"
  ],
  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
  "foto": "",

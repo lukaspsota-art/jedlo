@@ -1,9 +1,10 @@
 {
  "id": "sendvic-s-bolonskou-salamou",
  "nazov": "Sendvič s bolonskou salámou",
- "kategoria": "Snack",
+ "kategoria": "Hlavné jedlo",
  "kuchyna": "Americká",
  "zdroj": "Wikibooks Cookbook – Baloney Sandwich (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Baloney_Sandwich",
  "porcie": 1,
  "cas": "5 min",
  "kcal_na_porciu": 608,
@@ -35,11 +36,11 @@
  "tipy": "Pokojne použi akékoľvek pečivo. Zdroj uvádza 16 plátkov salámy, tu je zapísaných 120 g - množstvo si uprav podľa chuti. Dajú sa pridať aj ďalšie plnky - plátky paradajky, šalát, majonéza alebo plátky syra.",
  "foto": "",
  "tagy": [
-  "snack",
   "obed",
   "americká",
   "saláma",
   "rýchle",
-  "bez varenia"
+  "bez varenia",
+  "hlavné jedlo"
  ]
 }

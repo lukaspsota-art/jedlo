@@ -1,64 +1,64 @@
 {
-  "id": "chrumkave-zemiakove-vrecka",
-  "nazov": "Chrumkavé zemiakové vrecká",
-  "kategoria": "Snack",
-  "kuchyna": "Medzinárodná",
-  "zdroj": "internet (@hungry.happens)",
-  "porcie": 6,
-  "cas": "40 min",
-  "kcal_na_porciu": 160,
-  "popis": "Zemiakové placky plnené mozzarellou, opečené dochrumkava na panvici.",
-  "ingrediencie": [
-    {
-      "nazov": "Ošúpaných zemiakov",
-      "mnozstvo": 800,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Kukuričného škrobu",
-      "mnozstvo": 70,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Olivového oleja",
-      "mnozstvo": 15,
-      "jednotka": "ml"
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Čierne korenie",
-      "mnozstvo": null,
-      "jednotka": ""
-    },
-    {
-      "nazov": "Parmezánu",
-      "mnozstvo": 20,
-      "jednotka": "g"
-    },
-    {
-      "nazov": "Strúhanej mozzarelly",
-      "mnozstvo": 30,
-      "jednotka": "g"
-    }
-  ],
-  "postup": [
-    "Zemiaky nakrájaj na malé kocky.",
-    "Var ich ~10 min domäkka. Sceď a nechaj 5 min vychladnúť.",
-    "Rozmačkaj, pridaj škrob, soľ a korenie a rukami spracuj na cesto.",
-    "Rozdeľ na 6 guľôčok, do stredu daj náplň (mozzarella + parmezán), uzavri a sploští na placku.",
-    "Na oleji opeč z oboch strán 3–4 min dochrumkava.",
-    "Nechaj 3–5 min postáť a podávaj."
-  ],
-  "tipy": "1 vrecko s mozzarellou má podľa zdroja ~280 kcal, 11 g bielkovín.",
-  "foto": "",
-  "tagy": [
-    "snack",
-    "zemiaky",
-    "syr"
-  ],
-  "kcal_zdroj": "vypocet"
+ "id": "chrumkave-zemiakove-vrecka",
+ "nazov": "Chrumkavé zemiakové vrecká",
+ "kategoria": "Príloha",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "internet (@hungry.happens)",
+ "porcie": 6,
+ "cas": "40 min",
+ "kcal_na_porciu": 160,
+ "popis": "Zemiakové placky plnené mozzarellou, opečené dochrumkava na panvici.",
+ "ingrediencie": [
+  {
+   "nazov": "Ošúpaných zemiakov",
+   "mnozstvo": 800,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Kukuričného škrobu",
+   "mnozstvo": 70,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Olivového oleja",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": ""
+  },
+  {
+   "nazov": "Parmezánu",
+   "mnozstvo": 20,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Strúhanej mozzarelly",
+   "mnozstvo": 30,
+   "jednotka": "g"
+  }
+ ],
+ "postup": [
+  "Zemiaky nakrájaj na malé kocky.",
+  "Var ich ~10 min domäkka. Sceď a nechaj 5 min vychladnúť.",
+  "Rozmačkaj, pridaj škrob, soľ a korenie a rukami spracuj na cesto.",
+  "Rozdeľ na 6 guľôčok, do stredu daj náplň (mozzarella + parmezán), uzavri a sploští na placku.",
+  "Na oleji opeč z oboch strán 3–4 min dochrumkava.",
+  "Nechaj 3–5 min postáť a podávaj."
+ ],
+ "tipy": "1 vrecko s mozzarellou má podľa zdroja ~280 kcal, 11 g bielkovín.",
+ "foto": "",
+ "tagy": [
+  "zemiaky",
+  "syr",
+  "príloha"
+ ],
+ "kcal_zdroj": "vypocet"
 }

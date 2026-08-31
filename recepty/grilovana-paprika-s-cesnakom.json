@@ -7,7 +7,8 @@
  "zdroj_url": "https://varecha.pravda.sk/recepty/grilovane-a-marinovane-papriky/829-recept.html",
  "porcie": 8,
  "cas": "70 min",
- "kcal_na_porciu": 224,
+ "kcal_na_porciu": 49,
+ "kcal_zdroj": "korekcia_olej",
  "popis": "Varí: Vojtech Artz\nšéfkuchár spoločnosti Metro",
  "ingrediencie": [
   {
@@ -20,7 +21,8 @@
    "nazov": "Olivový olej",
    "mnozstvo": 200,
    "jednotka": "ml",
-   "poznamka": ""
+   "poznamka": "",
+   "vsiaknutie": 0.12
   },
   {
    "nazov": "Vínny ocot biely",

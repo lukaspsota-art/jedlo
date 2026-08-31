@@ -437,4 +437,172 @@ ok("odpis suroviny s neprevoditeľnou jednotkou nechá zásobu na pokoji", () =>
   S.spajza = [];
 });
 
+// ════════════════════════════════════════════════════════════════════════════════════════════
+// N-2026-08-31 — agent NÁKUP-V-OBCHODE: odškrtávanie jednou rukou, trasa obchodom, šum v zozname
+// ════════════════════════════════════════════════════════════════════════════════════════════
+
+console.log("\nP1 — riadok sa odškrtne ťuknutím kamkoľvek");
+ok("riadok nemá onclick ani preventDefault, ktorý by rušil aktiváciu <label>", () => {
+  const r = fakeRecept("Riadkový test", [{ nazov: "Ryža", mnozstvo: 200, jednotka: "g" }]);
+  planujLen([r]);
+  const html = app.riadokNakup(riadok("Ryža"));
+  assert.ok(!/preventDefault/.test(html), "riadok stále volá preventDefault: " + html);
+  const label = html.match(/<label[^>]*>/)[0];
+  assert.ok(!/onclick/.test(label), "<label> má onclick, ktorý prebije odškrtnutie: " + label);
+  assert.ok(/<input type="checkbox"[^>]*onchange="checkNakup\(/.test(html), "chýba checkbox s checkNakup: " + html);
+});
+ok("„v ktorom recepte“ má vlastné tlačidlo mimo <label>", () => {
+  const html = app.riadokNakup(riadok("Ryža"));
+  assert.ok(/<button class="nak-i"[^>]*onclick="surovinaInfo\(/.test(html), "chýba tlačidlo ⓘ: " + html);
+  const predLabelom = html.split("</label>")[1] || "";
+  assert.ok(/nak-i/.test(predLabelom), "ⓘ je vnútri <label> — klik naň by odškrtol položku");
+});
+ok("ručná položka má tiež jeden veľký cieľ a mazanie ako tlačidlo", () => {
+  const html = app.riadokNakup({ man: true, id: "m1", nazov: "Toaletný papier", mnoz: "2 ks", ck: false });
+  assert.ok(/<label[^>]*><input type="checkbox"/.test(html), "ručný riadok nemá checkbox v labeli: " + html);
+  assert.ok(/<button class="nak-i warn"[^>]*zmazManual/.test(html), "mazanie nie je tlačidlo: " + html);
+});
+
+console.log("\nTrasa obchodom — poradie oddelení sa dá prestaviť");
+// presety čítame cez poradieOddeleni() (S.obchod), nech test nezávisí od exportu konštánt
+function poradiePre(kluc) { const bolo = S.obchod; S.obchod = kluc; const p = app.poradieOddeleni(); S.obchod = bolo; return p; }
+ok("každý preset obsahuje VŠETKY oddelenia z potraviny.json a bez duplicít", () => {
+  const vsetky = [...new Set(app.POTRAVINY.map(p => p.oddelenie))];
+  ["kaufland", "lidl"].forEach(k => {
+    const por = poradiePre(k);
+    const chyba = vsetky.filter(o => !por.includes(o));
+    assert.strictEqual(chyba.length, 0, k + " nemá: " + chyba.join(", "));
+    assert.strictEqual(new Set(por).size, por.length, k + " má duplicitu");
+  });
+});
+ok("Kaufland a Lidl sa naozaj líšia (inak je nastavenie na nič)", () => {
+  assert.notStrictEqual(JSON.stringify(poradiePre("kaufland")), JSON.stringify(poradiePre("lidl")));
+});
+ok("neznámy obchod v stave spadne späť na predvolenú trasu", () => {
+  assert.deepStrictEqual(poradiePre("neexistujuci"), app.PORADIE_ODDELENI);
+});
+ok("ozdravPoradie doplní chýbajúce oddelenie a vyhodí neznáme aj duplicitné", () => {
+  const p = app.ozdravPoradie(["Pečivo", "Pečivo", "Vymyslené oddelenie"]);
+  assert.strictEqual(p[0], "Pečivo");
+  assert.strictEqual(new Set(p).size, p.length, "duplicita: " + p.join(", "));
+  assert.ok(!p.includes("Vymyslené oddelenie"), "neznáme oddelenie zostalo");
+  app.PORADIE_ODDELENI.forEach(o => assert.ok(p.includes(o), "chýba " + o));
+});
+ok("posunOddelenie prehodí dve oddelenia a prepne na vlastné poradie", () => {
+  S.obchod = "kaufland"; delete S.obchodPor;
+  const pred = app.poradieOddeleni().slice();
+  app.posunOddelenie(1, -1);
+  const po = app.poradieOddeleni();
+  assert.strictEqual(S.obchod, "vlastne", "neprepol sa na vlastné poradie");
+  assert.strictEqual(po[0], pred[1], "poradie sa nezmenilo: " + po.slice(0, 3).join(", "));
+  assert.strictEqual(po[1], pred[0]);
+  S.obchod = "kaufland"; delete S.obchodPor;
+});
+ok("posun mimo rozsahu nič nerozbije", () => {
+  S.obchod = "kaufland"; delete S.obchodPor;
+  app.posunOddelenie(0, -1);
+  assert.strictEqual(app.poradieOddeleni().length, app.PORADIE_ODDELENI.length);
+  S.obchod = "kaufland"; delete S.obchodPor;
+});
+
+console.log("\nRegál podľa názvu — omáčka nesmie skončiť v zelenine");
+ok("„Cesnaková omáčka“ ide k omáčkam, nie k cesnaku do zeleniny", () => {
+  const p = app.najdiPotravinu("Cesnaková omáčka");
+  assert.strictEqual(p && p.oddelenie, "Zelenina a ovocie", "test stráca zmysel, párovanie sa zmenilo");
+  assert.strictEqual(app.oddelenieRiadku("Cesnaková omáčka", p.oddelenie), "Omáčky a dochucovadlá");
+});
+ok("kompót a konzerva idú medzi trvanlivé, mrazené medzi mrazené", () => {
+  assert.strictEqual(app.oddelenieRiadku("Ananásový kompót", "Zelenina a ovocie"), "Trvanlivé a konzervy");
+  assert.strictEqual(app.oddelenieRiadku("Kukurica v konzerve", "Zelenina a ovocie"), "Trvanlivé a konzervy");
+  assert.strictEqual(app.oddelenieRiadku("Mrazený špenát", "Zelenina a ovocie"), "Mrazené");
+});
+ok("sušené: bylinka ku koreniu, ovocie k trvanlivým, čerstvé sa nedotkne", () => {
+  assert.strictEqual(app.oddelenieRiadku("Sušený cesnak", "Zelenina a ovocie"), "Korenie a bylinky");
+  assert.strictEqual(app.oddelenieRiadku("Sušené marhule", "Zelenina a ovocie"), "Trvanlivé a konzervy");
+  assert.strictEqual(app.oddelenieRiadku("Mrkva", "Zelenina a ovocie"), "Zelenina a ovocie");
+});
+ok("bežný názov si oddelenie potraviny ponechá", () => {
+  assert.strictEqual(app.oddelenieRiadku("Kuracie prsia", "Mäso a ryby"), "Mäso a ryby");
+  assert.strictEqual(app.oddelenieRiadku("Neznáma vec", ""), "Ostatné");
+});
+
+console.log("\nJednotky — mililitre len pri tekutine");
+ok("pevná surovina zadaná v šálkach sa v nákupe vypíše v gramoch, nie v ml", () => {
+  const r = fakeRecept("Kapustový test", [{ nazov: "Kapusta čínska", mnozstvo: 3, jednotka: "šálka" }]);
+  planujLen([r]);
+  const t = cistyText(riadok("Kapusta čínska").mnoz);
+  assert.ok(!/\bml\b/.test(t), "kapusta sa hlási v ml: " + t);
+  assert.ok(/\bg\b/.test(t), "chýbajú gramy: " + t);
+});
+ok("tekutina zadaná v lyžiciach zostáva v ml", () => {
+  const r = fakeRecept("Olejový test", [{ nazov: "Olivový olej", mnozstvo: 4, jednotka: "PL" }]);
+  planujLen([r]);
+  const t = cistyText(riadok("Olivový olej").mnoz);
+  assert.ok(/\bml\b/.test(t), "olej sa nehlási v ml: " + t);
+});
+ok("nenapárovaná surovina s prevediteľnou jednotkou má gramáž (nie 0 g)", () => {
+  const r = fakeRecept("Neznámy mix", [{ nazov: "Burrito seasoning mix", mnozstvo: 4, jednotka: "ČL" }]);
+  planujLen([r]);
+  const it = riadok("Burrito seasoning mix");
+  assert.ok(it && it.gramy > 0, "gramáž je " + (it && it.gramy));
+  assert.strictEqual(it.matched, false, "test predpokladá surovinu mimo databázy");
+  assert.strictEqual(it.bezCeny, true, "cena musí zostať priznane neznáma");
+  assert.ok(/ČL/.test(cistyText(it.mnoz)), "množstvo sa má vypísať v jednotke receptu: " + cistyText(it.mnoz));
+});
+
+console.log("\nDochucovadlá — 36 % zoznamu, ktoré v obchode nekupuješ");
+ok("2 g korenia je „základná vec“, 100 g papriky na guláš nie", () => {
+  assert.strictEqual(app.jeZakladnaVec({ odd: "Korenie a bylinky", gramy: 2 }), true);
+  assert.strictEqual(app.jeZakladnaVec({ odd: "Korenie a bylinky", gramy: 100 }), false);
+  assert.strictEqual(app.jeZakladnaVec({ odd: "Zelenina a ovocie", gramy: 2 }), false);
+});
+ok("„podľa chuti“ (bez množstva) je vždy základná vec a nezmizne zo zoznamu", () => {
+  const r = fakeRecept("Chuťový test", [
+    { nazov: "Ryža", mnozstvo: 200, jednotka: "g" },
+    { nazov: "Soľ", mnozstvo: null, jednotka: "", poznamka: "podľa chuti" }]);
+  planujLen([r]);
+  const sol = app.nakupItems().find(x => /Soľ/.test(x.nazov));
+  assert.ok(sol, "soľ zo zoznamu úplne zmizla");
+  assert.strictEqual(sol.zaklad, true, "soľ „podľa chuti“ nie je označená ako základná vec");
+  const ryza = riadok("Ryža");
+  assert.strictEqual(ryza.zaklad, false, "ryža sa označila ako dochucovadlo");
+});
+
+console.log("\n„Mám doma“ vs zakázané suroviny — opačná cena chyby");
+ok("„med“ nechytí „medvedí cesnak“ v „Mám doma“ (ale v zákazoch áno)", () => {
+  assert.strictEqual(app.jeDoma("Medvedí cesnak", ["med"]), false, "med označil medvedí cesnak ako „máš doma“");
+  assert.strictEqual(app.jeDoma("Medovka", ["med"]), false, "med označil medovku");
+  assert.strictEqual(app.obsahujeSurovinu("Medvedí cesnak", ["med"]), true, "zákazy majú blokovať radšej viac");
+});
+ok("„Mám doma“ ďalej chytá skloňovanie vlastnej suroviny", () => {
+  assert.strictEqual(app.jeDoma("Med kvetový", ["med"]), true);
+  assert.strictEqual(app.jeDoma("Cibuľa červená", ["cibuľa"]), true);
+  assert.strictEqual(app.jeDoma("Ryža basmati", ["ryža"]), true);
+});
+
+console.log("\nŠpajza — položka s neznámym miestom");
+ok("zásoba s neznámym `miesto` sa dostane do sekcie (nie je neviditeľná)", () => {
+  S.spajza = [
+    { id: 1, nazov: "Tajomná zásoba", mnozstvo: 500, jednotka: "g", miesto: "Pivnica", expiry: "", min: 0 },
+    { id: 2, nazov: "Maslo", mnozstvo: 250, jednotka: "g", miesto: "Chladnička", expiry: "", min: 0 },
+    { id: 3, nazov: "Bez miesta", mnozstvo: 100, jednotka: "g", expiry: "", min: 0 }];
+  const sk = app.spajzaSkupiny();
+  const vidno = new Set();
+  sk.forEach(s => s.polozky.forEach(x => vidno.add(x.id)));
+  S.spajza.forEach(x => assert.ok(vidno.has(x.id), "položka " + x.nazov + " (miesto: " + x.miesto + ") sa nikde nevykreslí"));
+  assert.ok(sk.some(s => /Bez zaradenia/.test(s.nadpis)), "chýba sekcia pre neznáme miesto");
+  const html = app.spRow(S.spajza[0]);
+  assert.ok(/zmazZasobu\(1\)/.test(html), "nedá sa zmazať: " + html);
+  S.spajza = [];
+});
+ok("každá položka špajze patrí práve do jednej sekcie miesta", () => {
+  S.spajza = ["Chladnička", "Mraznička", "Špajza", "Pivnica", undefined, ""].map((m, i) =>
+    ({ id: 10 + i, nazov: "Vec " + i, mnozstvo: 1, jednotka: "ks", miesto: m, expiry: "", min: 0 }));
+  const miestne = app.spajzaSkupiny().filter(s => !s.duplicit);
+  const pocty = {};
+  miestne.forEach(s => s.polozky.forEach(x => pocty[x.id] = (pocty[x.id] || 0) + 1));
+  S.spajza.forEach(x => assert.strictEqual(pocty[x.id], 1, "položka " + x.nazov + " je v " + (pocty[x.id] || 0) + " sekciách"));
+  S.spajza = [];
+});
+
 console.log("\nOK — " + bezov + " kontrol prešlo.");

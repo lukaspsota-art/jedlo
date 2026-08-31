@@ -12,14 +12,14 @@
  "ingrediencie": [
   {
    "nazov": "Zelené olivy",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Syr bambino",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 200,
+   "jednotka": "g",
    "poznamka": ""
   },
   {

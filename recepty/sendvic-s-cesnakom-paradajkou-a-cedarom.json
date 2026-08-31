@@ -1,9 +1,10 @@
 {
  "id": "sendvic-s-cesnakom-paradajkou-a-cedarom",
  "nazov": "Sendvič s cesnakom, paradajkou a čedarom",
- "kategoria": "Snack",
+ "kategoria": "Hlavné jedlo",
  "kuchyna": "Anglická",
  "zdroj": "Wikibooks Cookbook – Garlic, Tomato and Cheddar Sandwich (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Garlic%2C_Tomato_and_Cheddar_Sandwich",
  "porcie": 1,
  "cas": "10 min",
  "kcal_na_porciu": 669,
@@ -80,6 +81,7 @@
   "anglická",
   "vegetariánske",
   "syr",
-  "rýchle"
+  "rýchle",
+  "hlavné jedlo"
  ]
 }

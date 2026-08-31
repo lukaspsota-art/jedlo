@@ -12,9 +12,9 @@
  "ingrediencie": [
   {
    "nazov": "Bravé karé",
-   "mnozstvo": 6,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Kvasená kapusta",
@@ -30,8 +30,8 @@
   },
   {
    "nazov": "Bravčová šunka",
-   "mnozstvo": 6,
-   "jednotka": "plátok",
+   "mnozstvo": 1200,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -78,10 +78,10 @@
   }
  ],
  "postup": [
-  "Karé jemne naklep,osoľ a okoreň.Potri pretlakom,posyp majoránom.",
-  "Polož plátok šunky,rozlož kapustu,do stredu polož slivky.",
-  "Zviň do rolky a spichni ihlicou.Na rozpálenom oleji prudko opeč zo všetkých strán.",
-  "Pridaj v šupe uvarené,olúpané a nakrájané zemiaky,zalej vývarom a dus 30 minút.Potom pridaj kyslú smotanu a ešte 15 minút podus.Dobrú chuť."
+  "Karé jemne naklep, osoľ a okoreň. Potri pretlakom, posyp majoránom.",
+  "Polož plátok šunky, rozlož kapustu, do stredu polož slivky.",
+  "Zviň do rolky a spichni ihlicou. Na rozpálenom oleji prudko opeč zo všetkých strán.",
+  "Pridaj v šupe uvarené, olúpané a nakrájané zemiaky, zalej vývarom a dus 30 minút. Potom pridaj kyslú smotanu a ešte 15 minút podus. Dobrú chuť."
  ],
  "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
  "foto": "",

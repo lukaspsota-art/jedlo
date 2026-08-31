@@ -30,8 +30,8 @@
   },
   {
    "nazov": "Syrokrém",
-   "mnozstvo": 2,
-   "jednotka": "ks",
+   "mnozstvo": 250,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -42,15 +42,15 @@
   },
   {
    "nazov": "Mlieko",
-   "mnozstvo": 3,
-   "jednotka": "ks",
+   "mnozstvo": 3000,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Voda",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Bujón",

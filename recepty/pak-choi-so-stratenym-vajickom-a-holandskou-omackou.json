@@ -12,8 +12,8 @@
  "ingrediencie": [
   {
    "nazov": "Pak choi",
-   "mnozstvo": 4,
-   "jednotka": "ks",
+   "mnozstvo": 600,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -72,9 +72,9 @@
   },
   {
    "nazov": "Granátové jablko",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Bylinky",
@@ -92,7 +92,8 @@
  "postup": [
   "Na panici zohrej trochu olivového oleja a pridaj nakrájanú šalotku. Minútu restuj, pridaj cukor a rozpusť na karamel. Potom pridaj vínny ocot a biele víno. Nechaj 5 minút variť, osoľ a okoreň. Nálev sceď a nechaj vychladnúť.",
   "Žĺtky vlož do misky a daj nad vodný kúpeľ, pridaj vychladený nálev a metličkou pomaly neustále šľahaj, kým zmes nezačne hustnúť.",
-  "V rajnici na miernom plameni rozpusť maslo (nevar – pomaly roztápaj). Keď je žĺtkový základ dostatočne hustý, malým cícerkom (za stáleho miešania) k nemu zašľahaj rozpustené maslo. Získaš stredne hustú omáčku, ktorú odstavíš z vodného kúpeľa. Omáčku ochuť soľou, korením a zrieď citrónovou šťavou. Holandskú omáčku vráť späť nad vodný kúpeľ (plameň vypni), aby ostala teplá až vlažná, kým sa bude podávať.",
+  "V rajnici na miernom plameni rozpusť maslo (nevar – pomaly roztápaj). Keď je žĺtkový základ dostatočne hustý, malým cícerkom (za stáleho miešania) k nemu zašľahaj rozpustené maslo. Získaš stredne hustú omáčku, ktorú odstavíš z vodného kúpeľa. Omáčku ochuť soľou, korením a zrieď citrónovou šťavou.",
+  "Holandskú omáčku vráť späť nad vodný kúpeľ (plameň vypni), aby ostala teplá až vlažná, kým sa bude podávať.",
   "Očistené a opláchnuté pak choi rozrež po dĺžke na polovicu a 5 minút opekaj na olivovom oleji.",
   "V hrnci nechaj zovrieť vodu s octom, zamiešaj lyžicou, aby sa vytvoril vír, a doň vlej rozbité vajce. Var ho 3 minúty a vyber z vody. Takto priprav 5 stratených vajíčok.",
   "Servíruj tak, že na tanier položíš 2 polovice opečeného pak choi, zalej holandskou omáčkou, potom polož stratené vajíčko. Dekoruj zrnkami granátového jablka, bylinkami alebo mikrozeleninou. Ako príloha sa hodí opečená bagetka pokvapkaná olivovým olejom."

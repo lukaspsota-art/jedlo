@@ -24,9 +24,9 @@
   },
   {
    "nazov": "Čerstvý kôpor",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Jogurt biely",
@@ -36,14 +36,14 @@
   },
   {
    "nazov": "Hustá smotana",
-   "mnozstvo": 3,
-   "jednotka": "ks",
+   "mnozstvo": 600,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Majonéza",
-   "mnozstvo": 3,
-   "jednotka": "ks",
+   "mnozstvo": 1200,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -72,9 +72,9 @@
   }
  ],
  "postup": [
-  "Priprav si suroviny. Kôpor daj kľudne poriadny zväzok, netreba šetriť :-) Vajíčka si uvar na tvrdo, kôpor pokrájaj ako aj cibuľu na drobno..",
+  "Priprav si suroviny. Kôpor daj kľudne poriadny zväzok, netreba šetriť Vajíčka si uvar na tvrdo, kôpor pokrájaj ako aj cibuľu na drobno..",
   "Vajíčka pretlač cez mriežku, pridaj cibuľu, kôpor a premiešaj. Daj jogurt, zo 3 - 4 kopcovité PL smotany, podľa chuti horčicu, 3 PL majonézu, soľ a mleté čierne korenie. Celé dobre premiešaj a ochuť ešte citrónovou šťavou..",
-  "Výborný je aj hneď, ale keď trocha postojí je ešte lepší. Dobrú chuť :-)"
+  "Výborný je aj hneď, ale keď trocha postojí je ešte lepší. Dobrú chuť"
  ],
  "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",
  "foto": "",

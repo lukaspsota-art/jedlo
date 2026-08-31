@@ -7,7 +7,8 @@
  "zdroj_url": "https://varecha.pravda.sk/recepty/tagliatelle-s-mletym-masom-fotorecept/40155-recept.html",
  "porcie": 4,
  "cas": "55 min",
- "kcal_na_porciu": 360,
+ "kcal_na_porciu": 815,
+ "kcal_zdroj": "vypocet",
  "popis": "Kyslá hubová omáčka zahustená zápražkou, podávaná s chlebom alebo knedľou.",
  "ingrediencie": [
   {
@@ -36,9 +37,9 @@
   },
   {
    "nazov": "Zelené olivy",
-   "mnozstvo": 8,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Bazalka",
@@ -90,12 +91,12 @@
   }
  ],
  "postup": [
-  "Cibuľu si upraž, pridaj pomleté mäso / ja som dal hovädzie zadné a pomlel som si ho doma / , okoreň , osoľ, pridaj PL korenia chilli con carne a dus.",
-  "Pridaj olúpané paradajky s chilli / v konzerve / , na kolieska nakrájané zelené olivy,prelisovaný cesnak a chvíľu povar.",
+  "Cibuľu si upraž, pridaj pomleté mäso / daj hovädzie zadné a pomeľ si ho doma /, okoreň, osoľ, pridaj PL korenia chilli con carne a dus.",
+  "Pridaj olúpané paradajky s chilli / v konzerve /, na kolieska nakrájané zelené olivy, prelisovaný cesnak a chvíľu povar.",
   "Cestoviny tagliatelle kúp v obchode, nakoľko nemám strojček na výrobu cestovín. Uvar podľa návodu.",
-  "Hnedé šampiňony opláchni , nakrájaj a podus na cibuli.",
+  "Hnedé šampiňony opláchni, nakrájaj a podus na cibuli.",
   "Cestoviny preceď a pridaj olivový olej. Na vrch daj mäsovú zmes, potom za lyžicu šampiňonov, nasekanú bazalku, nastrúhaný parmezán a susené paradajky naložené v oleji.",
-  "Aby nám to lepšie prešlo do žalúdka, môžeš to trošku zapiť a zriediť ...."
+  "Aby nám to lepšie prešlo do žalúdka, môžeš to trošku zapiť a zriediť"
  ],
  "tipy": "Pohár vody z varenia cestovín si odlož. Škrob v nej spojí omáčku s cestovinami lepšie než smotana.",
  "foto": "",

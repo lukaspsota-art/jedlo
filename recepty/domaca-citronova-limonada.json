@@ -1,6 +1,6 @@
 {
  "id": "domaca-citronova-limonada",
- "nazov": "Domáca citrónová limonáda",
+ "nazov": "Bylinková limonáda s citrusmi",
  "kategoria": "Nápoj",
  "kuchyna": "Medzinárodná",
  "zdroj": "Varecha.sk – Bylinková limonáda (autor: redakcia)",
@@ -18,9 +18,9 @@
   },
   {
    "nazov": "Medovka",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Bazalka",

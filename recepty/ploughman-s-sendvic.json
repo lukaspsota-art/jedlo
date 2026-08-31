@@ -1,9 +1,10 @@
 {
  "id": "ploughman-s-sendvic",
  "nazov": "Ploughman's sendvič",
- "kategoria": "Snack",
+ "kategoria": "Hlavné jedlo",
  "kuchyna": "Anglická",
  "zdroj": "Wikibooks Cookbook – Ploughman's Sandwich (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Ploughman's_Sandwich",
  "porcie": 1,
  "cas": "10 min",
  "kcal_na_porciu": 572,
@@ -58,11 +59,11 @@
  "tipy": "Autenticky sa používa anglický pickle typu Branston - u nás ho najlepšie zastúpi sladko-kyslá nakladaná zelenina alebo čatní.",
  "foto": "",
  "tagy": [
-  "snack",
   "obed",
   "anglická",
   "syr",
   "vegetariánske",
-  "bez varenia"
+  "bez varenia",
+  "hlavné jedlo"
  ]
 }

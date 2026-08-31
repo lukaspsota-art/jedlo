@@ -1,7 +1,7 @@
 {
  "id": "polievka-z-bazanta-s-bielym-vinom-chardonnay",
- "nazov": "Polievka z bažanta s bielym vínom Chardonnay",
- "kategoria": "Hlavné jedlo",
+ "nazov": "Polievka z bažanta so sušenými dubákmi",
+ "kategoria": "Polievka",
  "kuchyna": "Slovenská",
  "zdroj": "Varecha.sk – Polievka z bažanta s bielym vínom Chardonnay (fotorecept) (autor: pusta)",
  "zdroj_url": "https://varecha.pravda.sk/recepty/polievka-z-bazanta-s-bielym-vinom-chardonnay-fotorecept/51614-recept.html",
@@ -12,8 +12,8 @@
  "ingrediencie": [
   {
    "nazov": "Bažant",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 200,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -78,8 +78,8 @@
   },
   {
    "nazov": "Sušené dubáky",
-   "mnozstvo": 5,
-   "jednotka": "plátok",
+   "mnozstvo": 750,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -162,21 +162,22 @@
   }
  ],
  "postup": [
-  "Bažanta som zaliala studenou vodou, aby som ho mohla dočistiť, zbaviť krvi a nečistôt, broky som nenašla v bažantovi,umyla som ho poriadne pod prúdom studenej vody,...",
-  "...osušila som ho kuchynskou papierovou utierkou a rozsekla na doske na polovicu, ešte som ho dočiistila, išlo to dosť ťažko a koža sa ľahko trhala.",
-  "Na hovädzie kosti ulož obe polovice bažanta, ...",
-  "...zaliala som ho dostatočným množstvom studenej vody, osolila, pomaly som uviedla do varu, varila som ho na slabom ohni pomaly za priebežného zbierania peny - asi 120 minút, kým mäsko nebolo takmer mäkké. Bažant má pevné, tuhé mäso ako každá divina, preto vyžaduje dlhšiu prípravu ako kura.",
-  "Zatiaľ som očistila všetku zeleninu, pokrájala som ju na menšie kusy.",
+  "Bažanta zalej studenou vodou, aby som ho mohla dočistiť, zbaviť krvi a nečistôt, broky nenašla v bažantovi, umy som ho poriadne pod prúdom studenej vody,",
+  "Na hovädzie kosti ulož obe polovice bažanta,",
+  "Zalej ho dostatočným množstvom studenej vody, osoľ, pomaly uviedla do varu, var ho na slabom ohni pomaly za priebežného zbierania peny - asi 120 minút, kým mäsko nebolo takmer mäkké. Bažant má pevné, tuhé mäso ako každá divina, preto vyžaduje dlhšiu prípravu ako kura.",
+  "Zatiaľ očisti všetku zeleninu, pokrájaj ju na menšie kusy.",
   "Priprav si všetky koreniny i šafrán.",
   "Ked bolo mäsíčko bažanta takmer mäkké, pridaj zeleninu, chilli papičky a koreniny.",
-  "Varila som daľších 30 minút pomalým varom, kým bolo mäsko úplne mäkké, skúsila som do neho pichnúť vidličkou, vbehla ľahko,...",
-  "...vtedy si priprav Chardonnay,...",
-  "..priliala som ho do hotovej polievky, vypla som plyn a nechala som polievku asi 30 minút odstáť.",
-  "Potom vyber mäsíčko a zeleninku do misy,....",
-  "...vývar som scedila, časť som odobrala, uvarila som v ňom domáce rezance.",
-  "Na tanier som dala zeleninku uvarenú al dente, uvarené domáce rezance, obraté mäsíčko z bažanta, zaliala som horúcim vývarom a podávala, samozrejme, ja som tam musela mať svoje štipľavé chilli a dubáky:-) Moji chlapi sú veľmi\"polievkoví\" a táto silná, zdravá a nová sviatočná ostrá a korenená varianta polievky z bažanta s vínom im úžasne chutila :-)",
-  "Záber zblízka. Bažant má pevné, veľmi chutné mäsíčko, vývar z neho je mimoriadne zdravý, posilňujúci, polievka bola výdatná, nádherne voňavá, ostrej a aromatickej chuti použitých korenín, krásnej žltej farby, číra, je to úžasná delikatessa, kvalitné suché víno zvýraznilo a podčiarklo fantastickiú chuť tejto polievky, pripravenej ináč ako je obvyklé.odporúčam vyskúšať, bažantia polievka patrí medzi sviatočné a slávnostné polievky a lahôdky. Bažanty žijú na poliach, i v lesoch, najčastejšie v lužných lesoch, ale chovajú sa aj na farmách voľne, dokonca na gazdovstvách na dedinách vo volérach, je známych viac druhov, najznámejší je Bažant obyčajný a mnoho iných, je to kurovitý divý vták.",
-  "Ešte som pridala fotku šafránu, ktoý som použila, len veľmi málo, naozaj len na hrot noža."
+  "Var daľších 30 minút pomalým varom, kým bolo mäsko úplne mäkké, skúsila som do neho pichnúť vidličkou, vbehla ľahko,",
+  "vtedy si priprav Chardonnay,",
+  "..prilej ho do hotovej polievky, vypla plyn a nechaj som polievku asi 30 minút odstáť.",
+  "Potom vyber mäsíčko a zeleninku do misy,",
+  "Vývar sceď, časť odobrala, uvar som v ňom domáce rezance.",
+  "Na tanier daj zeleninku uvarenú al dente, uvarené domáce rezance, obraté mäsíčko z bažanta, zalej horúcim vývarom a podávaj, samozrejme, tam musela mať svoje štipľavé chilli a dubáky Moji chlapi sú veľmi\"polievkoví\" a táto silná, zdravá a nová sviatočná ostrá a korenená varianta polievky z bažanta s vínom im úžasne chutila",
+  "Záber zblízka.",
+  "Bažant má pevné, veľmi chutné mäsíčko, vývar z neho je mimoriadne zdravý, posilňujúci, polievka bola výdatná, nádherne voňavá, ostrej a aromatickej chuti použitých korenín, krásnej žltej farby, číra, je to úžasná delikatessa, kvalitné suché víno zvýraznilo a podčiarklo fantastickiú chuť tejto polievky, pripravenej ináč ako je obvyklé.odporúčam vyskúšať, bažantia polievka patrí medzi sviatočné a slávnostné polievky a lahôdky.",
+  "Bažanty žijú na poliach, i v lesoch, najčastejšie v lužných lesoch, ale chovajú sa aj na farmách voľne, dokonca na gazdovstvách na dedinách vo volérach, je známych viac druhov, najznámejší je Bažant obyčajný a mnoho iných, je to kurovitý divý vták.",
+  "Ešte pridaj fotku šafránu, ktoý použi, len veľmi málo, naozaj len na hrot noža."
  ],
  "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
  "foto": "",

@@ -1,19 +1,19 @@
 {
  "id": "bruschetta-s-vajcom",
- "nazov": "Bruschetta s vajcom",
+ "nazov": "Bruschetta s paradajkami a ajvarom",
  "kategoria": "Raňajky",
  "kuchyna": "Talianska",
  "zdroj": "Varecha.sk – Bruschetta (autor: podravka)",
  "zdroj_url": "https://varecha.pravda.sk/recepty/bruschetta/66798-recept.html",
- "porcie": 15,
+ "porcie": 8,
  "cas": "20 min",
  "kcal_na_porciu": 395,
  "popis": "Komerčný recept<br />Nečakane vám prišla návšteva a radi by ste im ponúkli niečo rýchle a chutné? Nech sa páči! Vyskúšaj tento recept \r\nna skvelé jednoduché bruschetty.",
  "ingrediencie": [
   {
    "nazov": "Bageta",
-   "mnozstvo": 8,
-   "jednotka": "plátok",
+   "mnozstvo": null,
+   "jednotka": "",
    "poznamka": "francúzsky chlieb, normálny chlieb"
   },
   {

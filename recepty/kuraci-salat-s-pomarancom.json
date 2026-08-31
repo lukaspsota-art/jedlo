@@ -42,9 +42,9 @@
   },
   {
    "nazov": "Karí korenie",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Soľ",
@@ -60,14 +60,14 @@
   },
   {
    "nazov": "Majonéza",
-   "mnozstvo": 3,
-   "jednotka": "ks",
+   "mnozstvo": 1200,
+   "jednotka": "g",
    "poznamka": ""
   }
  ],
  "postup": [
-  "Uvarene a odkostene kuracie masko, v supke uvarene zemiaky, vajicka uvarene na tvrdo a cibulku pokrájaj (cibulku pokrajaj na drobno). Pridaj sol, peper, kari korenie. Ked su vsetky ingrediencie vychladnute, zmiešaj to. Vmiesaj majonezu (ja som pouzila majonezu s polovicnym obsahom tuku).",
-  "Ošúp pomaranc. Ja som ho zbavila aj koziek. Toto 'odkozkovanie' nie je nutne, ale pomaranc je potom jemnejsi. Najprv zbav cely pomaranc kozky (musíš pouzit ostry noz). Potom povyrezuj mesiaciky (bez bocnych blaniek). Pomaranc tiez pokrájaj na kusky. Par mesiacikov si nechaj na ozdobu. Na koniec vmiesaj do salatu opatrne pomarancove kusky. Podávaj s chlebikom, s pecivom, na hriankach.",
+  "Uvarene a odkostene kuracie masko, v supke uvarene zemiaky, vajicka uvarene na tvrdo a cibulku pokrájaj (cibulku pokrajaj na drobno). Pridaj sol, peper, kari korenie. Ked su vsetky ingrediencie vychladnute, zmiešaj to. Vmiesaj majonezu.",
+  "Ošúp pomaranc. Toto 'odkozkovanie' nie je nutne, ale pomaranc je potom jemnejsi. Najprv zbav cely pomaranc kozky (musíš pouzit ostry noz). Potom povyrezuj mesiaciky (bez bocnych blaniek). Pomaranc tiez pokrájaj na kusky. Par mesiacikov si nechaj na ozdobu. Na koniec vmiesaj do salatu opatrne pomarancove kusky. Podávaj s chlebikom, s pecivom, na hriankach.",
   "Tip: Mozu sa pouzit aj ine casti kurata, napriklad stehna. Kuraci vyvar mozete pouzit na pripravu polievky. Dobru chut!"
  ],
  "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",

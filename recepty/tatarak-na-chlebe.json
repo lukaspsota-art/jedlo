@@ -1,9 +1,10 @@
 {
  "id": "tatarak-na-chlebe",
  "nazov": "Tatarák na chlebe",
- "kategoria": "Snack",
+ "kategoria": "Hlavné jedlo",
  "kuchyna": "Francúzska",
  "zdroj": "Wikibooks Cookbook – Steak Tartare (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Steak_Tartare",
  "porcie": 2,
  "cas": "20 min",
  "kcal_na_porciu": 742,
@@ -73,11 +74,11 @@
  "tipy": "Zdroj výslovne upozorňuje, že tatarák z kontaminovaných surovín môže spôsobiť ťažké onemocnenie. Kupuj mäso len z overeného zdroja, spracuj ho v ten istý deň a drž vychladené. V Poľsku sa nazýva tatar a niekedy sa doň pridáva nakrájaná nakladaná uhorka.",
  "foto": "",
  "tagy": [
-  "snack",
   "predjedlo",
   "francúzska",
   "hovädzie",
   "surové",
-  "bez varenia"
+  "bez varenia",
+  "hlavné jedlo"
  ]
 }

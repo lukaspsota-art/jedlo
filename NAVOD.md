@@ -2,27 +2,34 @@
 
 ## Súbory
 - **`kucharka.html`** — otvor dvojklikom. Celá appka (recepty, plánovač, nákup, výživa).
-- **`recepty/`** — každý recept je jeden `.json`. Fotky → `recepty/fotky/`.
+- **`recepty/`** — každý recept je jeden `.json`. (Priečinok `recepty/fotky/` je pripravený v kóde, ale zatiaľ prázdny — viď funkcia 4.)
 - **`data/potraviny.json`** — databáza potravín (kalórie, makrá, oddelenia v obchode, alergény).
 - **`data/sablona.html`** — vzhľad appky.
 - **`generuj_kucharku.py`** — z receptov + databázy znova postaví `kucharka.html`.
 
-## Funkcie (15)
-1. Obľúbené (hviezda na karte)
-2. Hodnotenie 1–5 + vlastná poznámka pri recepte
-3. Filtre: kategória, kuchyňa, čas, diéta/obľúbené
-4. Fotky receptov
-5. Plánovač týždňa (Po–Ne × Raňajky/Obed/Večera/Snack)
-6. Nákupný zoznam z plánu (sčítané suroviny)
-7. Nákup zoradený podľa oddelení v obchode
-8. „Čo mám doma" — návrh receptov podľa surovín
-9. Makrá: kalórie, bielkoviny, tuky, sacharidy (počítané zo surovín)
-10. Denný kalorický cieľ + upozornenie pri prekročení
-11. Alergény a diétne značky (bez lepku, bez laktózy, vegetariánske)
-12. Import z fotky/textu/odkazu (spraví Claude)
-13. Prepočet porcií, „na 1 porciu", prepočet ml → lyžice
-14. Režim varenia (veľké písmo, krok po kroku, časovače, obrazovka nezhasne)
-15. Tlač / export do PDF (recept, plán, nákupný zoznam)
+## Funkcie (15) — a čo z nich appka naozaj robí
+Overené v prehliadači 31. 8. 2026 (Chromium, 393×850 aj 1440×900) na vygenerovanom `kucharka.html`.
+**✅ = appka to vie sama · 🤖 = robí to Claude mimo appky · ❌ = nie je hotové.**
+
+| # | Funkcia | Stav | Kde to je |
+|---|---|---|---|
+| 1 | Obľúbené (hviezda na karte) | ✅ | ★ na karte v Receptoch aj v detaile |
+| 2 | Hodnotenie 1–5 + vlastná poznámka | ✅ | detail receptu (aj polovičné hviezdy) |
+| 3 | Filtre: kategória, kuchyňa, čas, diéta/obľúbené | ✅ | Recepty → „⚙ Filtre a radenie" |
+| 4 | Fotky receptov | ❌ **appka ich nemá** | žiadny z 1956 receptov nemá pole `foto`, `recepty/fotky/` neexistuje. V UI je namiesto fotky emoji podľa kategórie. |
+| 5 | Plánovač týždňa (Po–Ne × Raňajky/Obed/Večera/Snack) | ✅ | Plán → 📋 Týždeň |
+| 6 | Nákupný zoznam z plánu (sčítané suroviny) | ✅ | Nákup (v skúšobnom týždni 91 položiek) |
+| 7 | Nákup zoradený podľa oddelení v obchode | ✅ ale poradie je pevné | `PORADIE_ODDELENI` je konštanta — nedá sa prestaviť podľa Kauflandu/Lidla |
+| 8 | „Čo mám doma" — návrh receptov podľa surovín | ✅ | Recepty → radenie „🧊 Najviac z mojej špajze"; Špajza → „Načítať zo špajze" |
+| 9 | Makrá: kalórie, bielkoviny, tuky, sacharidy zo surovín | ✅ | karta receptu, detail, Plán, Výživa |
+| 10 | Denný kalorický cieľ + upozornenie pri prekročení | ✅ | riadok „Σ kcal/deň" v Pláne (pásik + ⚠) |
+| 11 | Alergény a diétne značky | ✅ | badge v detaile, filter „Bez obmedzenia / Vegetariánske / Bez lepku / Bez laktózy" |
+| 12 | Import z fotky/textu/odkazu | 🤖 **appka to nevie** | v `data/app.js` nie je ani parser JSON-LD, ani OCR (`fetch` je len na Supabase synchronizáciu). Appka má **ručný formulár „+ Nový recept"**. Recept z fotky/textu/odkazu ti do kuchárky pridám ja — pošli mi ho. |
+| 13 | Prepočet porcií, „na 1 porciu", ml → lyžice, imperiálne | ✅ | detail receptu — stepper porcií + prepínač g/ml · PL/ČL · oz/cup |
+| 14 | Režim varenia (veľké písmo, kroky, časovače, obrazovka nezhasne) | ✅ | „Variť" v detaile; viac súbežných časovačov, hlasové čítanie, Wake Lock |
+| 15 | Tlač / export do PDF (recept, plán, nákup) | ✅ | „🖨 Tlačiť" v každej sekcii + „🖨 Týždeň (plán+nákup)" |
+
+**Zhrnutie: 13 z 15 robí appka sama, 1 (import) robí Claude, 1 (fotky) nie je hotová.**
 
 ## Pridanie receptu
 **Najjednoduchšie:** pošli mi recept textom, fotku alebo odkaz — uložím ho a znova vygenerujem kuchárku.
@@ -34,7 +41,7 @@
 - Appka má responzívny vzhľad, funguje aj na telefóne.
 - Recepty sú vložené priamo v `kucharka.html`, takže súbor funguje samostatne offline.
 - Otvor `kucharka.html` v mobilnom prehliadači a daj „Pridať na plochu" — bude sa tváriť ako appka.
-- Pozn.: obľúbené, hodnotenia a plán sa ukladajú v danom zariadení (nesynchronizujú sa medzi PC a telefónom). Fotky sa na mobile zobrazia len ak je pri súbore aj priečinok `recepty/fotky/`.
+- Pozn.: obľúbené, hodnotenia a plán sa ukladajú v danom zariadení (nesynchronizujú sa medzi PC a telefónom). Fotky receptov zatiaľ nie sú (ani na PC, ani na mobile) — v mriežke aj v detaile je emoji podľa kategórie.
 - Ak chceš plnú synchronizáciu PC ↔ telefón, viem nastaviť online (hostovanú) verziu — povedz.
 
 ---
@@ -82,7 +89,7 @@ Nové funkcie:
 
 ### Zatiaľ neurobené (na ďalšie kolo)
 - Porovnanie Kaufland vs Lidl (treba dva letáky).
-- Ilustračné fotky ku každému receptu (generovanie, väčšia práca).
+- Ilustračné fotky ku každému receptu (generovanie, väčšia práca) — **stále neurobené**, viď funkcia 4.
 - Online verzia so synchronizáciou PC ↔ mobil (potrebný hosting).
 - Ceny v databáze sú odhad — pri niektorých surovinách ich možno bude treba spresniť.
 
@@ -90,7 +97,7 @@ Nové funkcie:
 
 ## Verzia 6 — bloky, výber jedla, hosting
 - **Nákup = presné čísla** — primárne exaktné množstvo a cena; balenie len v zátvorke „(bal.: 2× 250 g)", dá sa vypnúť v Nastaveniach.
-- **Blokový plán (meal-prep)** — dni sa zoskupia do blokov (default Po-Ut / St-Št / Pi-So / Ne). Navaríš raz, je sa cez blok; nákup automaticky znásobí množstvá podľa dní v bloku. Hranice blokov meníš klikom (✂) nad tabuľkou, režim vieš vypnúť.
+- **Blokový plán (meal-prep)** — dni sa zoskupia do blokov. Navaríš raz, je sa cez blok; nákup automaticky znásobí množstvá podľa dní v bloku. *(Predvolené rozdelenie aj ovládanie sa medzitým zmenili — platí verzia 15 nižšie.)*
 - **Dvojkrokový výber** — klik na bunku → najprv typ jedla (kategória), potom recept z nej. V bloku sa dá vybrať „na celý blok" alebo len jeden deň.
 - **PWA / hosting** — appka je pripravená ako inštalovateľná offline appka (`sw.js`). Návod na nasadenie: `HOSTING.md`.
 - **Synchronizácia PC ↔ mobil** — voliteľná cez Supabase; aktivuje sa vytvorením `sync-config.js` (vzor `sync-config.example.js`, postup v `HOSTING.md`). Bez nej appka beží normálne.
@@ -170,3 +177,58 @@ Nové funkcie:
 - **Nedeliteľné suroviny** — žemľa, rožok, kus, plátok sa zaokrúhľujú na **celé** (0,7 žemle → 1). Gramy/ml ostávajú presné.
 - **Raňajky Po–Pi = sendviče/wrapy** — generátor ich cez pracovný týždeň uprednostní (víkend voľnejšie).
 - **Plán varenia na blok** ukazuje presné porcie na navarenie pre celý blok.
+
+---
+
+## Verzia 15 — rozvrh varenia (bloky nastaviteľné a zrozumiteľné)
+
+**Rozvrh varenia je teraz vidieť priamo v Pláne**, nie schovaný v podmenu. Nad tabuľkou týždňa je pás,
+ktorý vetou hovorí, kedy varíš a na čo:
+
+> 🍳 **Rozvrh varenia · 3 bloky** — Varíš 3× do týždňa: Ne, Ut a Pi večer.
+> **A** Varíš v nedeľu večer na pondelok a utorok. · Po–Ut · 2 dni z jednej várky · plán varenia →
+> **B** Varíš v utorok večer na stredu, štvrtok a piatok. · St–Pi · 3 dni z jednej várky
+> **C** Varíš v piatok večer na sobotu a nedeľu. · So–Ne · 2 dni z jednej várky
+
+Na telefóne je vidieť blok pre práve zvolený deň (v tabuľke je aj tak jeden deň); riadok nad ním
+vždy hovorí, koľkokrát do týždňa a v ktoré večery varíš. Hlavička bloku v tabuľke má okrem rozsahu
+aj varný deň („🍳 varíš Ne večer").
+
+### Ako rozvrh zmeniť
+**Plán → „✂️ Upraviť rozvrh"** (alebo ⋯ Viac → „🍳 Rozvrh varenia (bloky)").
+
+**Hotové rozvrhy — jedno ťuknutie:**
+
+| Rozvrh | Varíš | Bloky |
+|---|---|---|
+| **Ako varím ja** (predvolený) | Ne · Ut · Pi večer | Po–Ut · St–Pi · So–Ne |
+| Dvakrát do týždňa | Ne a St večer | Po–St · Št–Ne |
+| Týždeň a víkend | Ne a Pi večer | Po–Pi · So–Ne |
+| Raz na celý týždeň | Ne večer | Po–Ne |
+| Štyrikrát do týždňa | Ne · Ut · Št · So večer | Po–Ut · St–Št · Pi–So · Ne |
+| Každý deň zvlášť | každý deň | bez blokov |
+
+**Vlastné rozdelenie:** pod predvoľbami je pás dní `Po · Ut ✂ St · Št · Pi ✂ So · Ne`.
+Ťuknutie medzi dva dni prepne, či tam začína nový blok (**✂**) alebo dni patria k sebe (**·**).
+Náhľad pod pásom hneď píše celou vetou, čo z toho vyšlo. Vlastný rozvrh si uložíš tlačidlom
+**„💾 Uložiť ako môj rozvrh"** a nabudúce ho vyberieš zo zoznamu ako predvoľbu.
+
+### Čo sa stane s už naplneným plánom
+**Zmena rozvrhu nič nemaže.** Každý deň si necháva jedlá, ktoré mal.
+Ak po zmene niektorý blok obsahuje dni s rôznymi jedlami (varil by si viackrát), dialóg to povie
+a ponúkne dve možnosti — **„Zjednotiť bloky podľa prvého dňa"** (skopíruje prvý deň bloku do
+ostatných) alebo **„Nechať tak"**. Navyše je tam **„↩︎ Vrátiť pôvodný"**, ktoré vráti rozvrh,
+aký bol pri otvorení dialógu.
+
+### Ďalšie zmeny v tejto verzii
+- **Generovanie nad naplneným plánom sa pýta.** „✨ Generovať" aj „🎲 Zamiešať" predtým prepísali
+  hotový týždeň bez varovania. Teraz sa opýtajú a pripomenú „Uložiť tento plán".
+- **Prázdny týždeň v Pláne** hovorí, čo s ním — zostaviť jedálniček, skopírovať minulý týždeň
+  alebo načítať uložený.
+- **Stravníci sú na Domove**, nie len v Nastaveniach: panel „👥 Pre koho varíš" ukazuje každého
+  s jeho kalorickým cieľom a „✎ Upraviť" ich zmení na mieste. Riadok stravníka sa už na 393 px
+  nepreteká.
+- **Recepty začínajú jedlom, nie kokteilom.** Predvolené radenie posúva 125 nápojov a kokteilov
+  na koniec zoznamu (chip „🍸 Kokteil" ich ukáže hneď, nič sa nestratilo).
+- **Preskočiť navigáciu** — prvý Tab na stránke ukáže odkaz, ktorý preskočí menu; v Receptoch
+  mieri rovno na mriežku. Predtým trvalo 23 stlačení Tab, kým sa dalo prejsť na prvý recept.

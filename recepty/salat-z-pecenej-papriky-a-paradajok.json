@@ -1,13 +1,13 @@
 {
   "id": "salat-z-pecenej-papriky-a-paradajok",
-  "nazov": "Šalát z pečenej papriky a paradajok",
+  "nazov": "Panzanella — šalát z paradajok a chleba",
   "kategoria": "Šalát",
   "kuchyna": "Balkánska",
   "zdroj": "Varecha.sk – Šalát z paradajok a chleba (fotorecept) (autor: marianne)",
   "zdroj_url": "https://varecha.pravda.sk/recepty/salat-z-paradajok-a-chleba-fotorecept/43455-recept.html",
   "porcie": 4,
   "cas": "10 min",
-  "kcal_na_porciu": 153,
+  "kcal_na_porciu": 320,
   "popis": "Úprimne,kedže poznám chute domácich,myslela som,že  budem šalát doma jesť sama.Aj tak dobre,hovorím si,viac mi ostane.Ale skoro neostalo ani na fotku.Do pol hodinky bolo po ňom. Doslova za pár minút bol hotový. Celozrnný chlebík splnil svoj účel.",
   "ingrediencie": [
     {
@@ -18,8 +18,8 @@
     },
     {
       "nazov": "Celozrnný starší chlieb",
-      "mnozstvo": 4,
-      "jednotka": "plátok",
+      "mnozstvo": 4000,
+      "jednotka": "g",
       "poznamka": ""
     },
     {
@@ -66,11 +66,11 @@
     }
   ],
   "postup": [
-    "Paradajky nakrájaj na malé kúsky,posoľ a nechaj postáť.",
-    "Nakrájaj chlieb na kocky,daj ich do misy a pokvapkaj červeným vínom,ktoré môžeš a nemusíš zmiešať s troškou vody.Pridaj bylinky.",
-    "Pridaj posolené rajčinky,cibuľku aj vňaťková môže byť.Pokvapkaj oliv.olejom asi 4 PL,okoreň čerstvo pomletým korením,daj vychladnúť do chladničky.",
-    "Vychladené ešte pokvapkaj dvoma PL oleja.Podávaj.Doma si k tomu pridali ešte údený ovčí syr.A chutilo veľmi.Zmizlo rýchlosťou blesku.",
-    "Recept na chlieb je tu: http://varecha.pravda.sk/recepty/celozrnny-kysnuty-chlieb-fotorecept/43431-recept.html alebo si upeč podľa svojho osvedčeného receptu,alebo aj kupovaný poslúži."
+    "Paradajky nakrájaj na malé kúsky, posoľ a nechaj postáť.",
+    "Nakrájaj chlieb na kocky, daj ich do misy a pokvapkaj červeným vínom, ktoré môžeš a nemusíš zmiešať s troškou vody. Pridaj bylinky.",
+    "Pridaj posolené rajčinky, cibuľku aj vňaťková môže byť. Pokvapkaj oliv.olejom asi 4 PL, okoreň čerstvo pomletým korením, daj vychladnúť do chladničky.",
+    "Vychladené ešte pokvapkaj dvoma PL oleja. Podávaj. Doma si k tomu pridali ešte údený ovčí syr. A chutilo veľmi. Zmizlo rýchlosťou blesku.",
+    "Recept na chlieb je tu: alebo si upeč podľa svojho osvedčeného receptu, alebo aj kupovaný poslúži."
   ],
   "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",
   "foto": "",

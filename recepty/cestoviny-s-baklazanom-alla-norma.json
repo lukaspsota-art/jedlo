@@ -18,8 +18,8 @@
   },
   {
    "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 1000,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -72,9 +72,9 @@
   },
   {
    "nazov": "Kapary",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Parmezán",

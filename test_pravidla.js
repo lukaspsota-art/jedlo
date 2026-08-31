@@ -80,7 +80,7 @@ async function appSPlanom() {
   return a;
 }
 
-Promise.all([zber(), appSPlanom()]).then(([tyzdne, nak]) => {
+Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
   console.log(`Pravidlá: seedy ${SEEDS.join(", ")} × ${N} týždňov = ${tyzdne.length} týždňov\n`);
   const app = novy(SEEDS[0]);
 
@@ -320,6 +320,96 @@ Promise.all([zber(), appSPlanom()]).then(([tyzdne, nak]) => {
       assert.ok(Number.isFinite(m) && m > 0, "faktor " + f + " → mnozMult " + m);
       assert.ok(Math.abs(m - a.porcieSlot(0, "Obed") * a.pf(0, "Obed")) < 1e-9);
     });
+  });
+
+  // ── D8: pravidlá musia platiť aj pri NEŠTANDARDNOM rozvrhu ────────────────
+  // Používateľ si rozvrh prestavuje (2 bloky, 4 bloky, jeden blok cez celý týždeň).
+  // Doménové pravidlá batch cookingu sa tým nesmú rozsypať.
+  nadpis("\nD8 — neštandardné rozdelenie blokov (2 / 4 / 1 blok)");
+  const ROZVRHY_TEST = [
+    { meno: "2 bloky (Po–St, Št–Ne)", hranice: [true, false, false, true, false, false, false], ocak: "[[0,1,2],[3,4,5,6]]" },
+    { meno: "4 bloky (Po–Ut, St–Št, Pi–So, Ne)", hranice: [true, false, true, false, true, false, true], ocak: "[[0,1],[2,3],[4,5],[6]]" },
+    { meno: "1 blok cez celý týždeň", hranice: [true, false, false, false, false, false, false], ocak: "[[0,1,2,3,4,5,6]]" },
+    { meno: "posunutý týždeň (Ut a Pi večer)", hranice: [true, false, true, false, false, false, false], ocak: "[[0,1],[2,3,4,5,6]]" },
+  ];
+  const zberRozvrh = async (hranice) => {
+    const app = novy(SEEDS[0], { hranice: hranice.slice(), blokV: 6 }); // blokV:6 = preskoč jednorazovú migráciu starého rozdelenia
+    const out = [];
+    for (let w = 0; w < 2; w++) {
+      app.S.viewOd = app.pridajDni(PONDELOK, w * 7);
+      await app.generujJedalnicek(true);
+      const t = { bloky: [], dni: [] };
+      app.bloky().forEach(b => {
+        const blok = { dni: b.slice(), sloty: {}, recepty: new Set(), kcal: {} };
+        app.slotyDna(b[0]).forEach(sl => {
+          const ids = app.slotIds(b[0], sl); if (!ids.length) return;
+          blok.sloty[sl] = ids;
+          blok.kcal[sl] = ids.reduce((a, id) => a + app.kcalPorcia(app.komponent(id)), 0) * app.pf(b[0], sl);
+          ids.forEach(id => { const r = app.komponent(id); if (r && !r._priloha) blok.recepty.add(r.id); });
+        });
+        t.bloky.push(blok);
+      });
+      for (let di = 0; di < 7; di++) { const o = {}; app.slotyDna(di).forEach(sl => { o[sl] = app.slotIds(di, sl); }); t.dni.push(o); }
+      out.push(t);
+    }
+    return { app, tyzdne: out };
+  };
+  for (const R of ROZVRHY_TEST) {
+    const { app, tyzdne: tt } = await zberRozvrh(R.hranice);
+    ok(R.meno + " — bloky() sedia a pokryjú celý týždeň", () => {
+      assert.strictEqual(JSON.stringify(app.bloky()), R.ocak, JSON.stringify(app.bloky()));
+      assert.strictEqual(app.bloky().reduce((a, b) => a + b.length, 0), 7, "bloky nepokrývajú 7 dní");
+      // varný deň je vždy deň PRED prvým dňom bloku
+      app.bloky().forEach(b => assert.strictEqual(app.varnyDen(b[0]), (b[0] + 6) % 7));
+    });
+    ok(R.meno + " — 1 variant na slot a blok (všetky dni bloku majú to isté)", () => {
+      let zle = 0, spolu = 0;
+      tt.forEach(t => t.bloky.forEach(b => {
+        Object.keys(b.sloty).forEach(sl => b.dni.forEach(di => {
+          spolu++;
+          if (JSON.stringify(t.dni[di][sl] || []) !== JSON.stringify(b.sloty[sl])) zle++;
+        }));
+      }));
+      assert.ok(spolu > 0, "nič sa nevygenerovalo");
+      assert.strictEqual(zle, 0, zle + " z " + spolu + " dní bloku má iný obsah slotu");
+    });
+    ok(R.meno + " — žiadny recept sa neopakuje medzi blokmi toho istého týždňa", () => {
+      let zle = 0;
+      tt.forEach(t => {
+        for (let i = 0; i < t.bloky.length; i++)
+          for (let j = i + 1; j < t.bloky.length; j++)
+            [...t.bloky[i].recepty].forEach(id => { if (t.bloky[j].recepty.has(id)) zle++; });
+      });
+      assert.strictEqual(zle, 0, zle + " opakovaní receptu medzi blokmi");
+    });
+    ok(R.meno + " — bez carryover: posledný blok týždňa sa neprelieva do prvého bloku ďalšieho", () => {
+      let zle = 0;
+      for (let i = 1; i < tt.length; i++) {
+        const C = tt[i - 1].bloky[tt[i - 1].bloky.length - 1].recepty, A = tt[i].bloky[0].recepty;
+        [...A].forEach(id => { if (C.has(id)) zle++; });
+      }
+      assert.strictEqual(zle, 0, zle + " receptov prešlo z posledného bloku do prvého");
+    });
+    ok(R.meno + " — každý blok má naplnené všetky 4 sloty a Obed ≥ Večera", () => {
+      let prazdne = 0, poradie = 0, spolu = 0;
+      tt.forEach(t => t.bloky.forEach(b => {
+        spolu++;
+        ["Raňajky", "Obed", "Večera", "Snack"].forEach(sl => { if (!b.sloty[sl] || !b.sloty[sl].length) prazdne++; });
+        if (b.kcal.Obed != null && b.kcal["Večera"] != null && b.kcal["Večera"] > b.kcal.Obed + 1e-6) poradie++;
+      }));
+      assert.strictEqual(prazdne, 0, prazdne + " prázdnych slotov v " + spolu + " blokoch");
+      assert.strictEqual(poradie, 0, poradie + " z " + spolu + " blokov má väčšiu večeru než obed");
+    });
+  }
+  ok("nákup pokryje celý týždeň aj pri jednom bloku cez celý týždeň", async () => {
+    const app = novy(SEEDS[0], { hranice: [true, false, false, false, false, false, false], blokV: 6 });
+    await app.generujJedalnicek(true);
+    assert.strictEqual(app.bloky().length, 1);
+    const grp = app.nakupPolozky().grp;
+    assert.ok(Object.keys(grp).length > 10, "nákup má len " + Object.keys(grp).length + " položiek");
+    // 7 dní × stravníci — porcie musia zodpovedať celému týždňu, nie jednému dňu
+    const por = app.porcieSlotBlok(0, "Obed");
+    assert.ok(por >= 7, "porcií na obed pre 7-dňový blok je len " + por);
   });
 
   console.log("\nOK — " + bezov + " kontrol prešlo.");

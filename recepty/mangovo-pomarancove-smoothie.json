@@ -8,18 +8,18 @@
  "porcie": 1,
  "cas": "5 min",
  "kcal_na_porciu": 38,
- "popis": "Nápoj. Základ: mango, pomaranč. Podávaj vo vysokom pohári.",
+ "popis": "Smoothie z manga a pomaranča — dve suroviny, žiadny pridaný cukor.",
  "ingrediencie": [
   {
    "nazov": "Mango",
-   "mnozstvo": 25,
-   "jednotka": "ml",
+   "mnozstvo": 200,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Pomaranč",
-   "mnozstvo": 50,
-   "jednotka": "ml",
+   "mnozstvo": 2,
+   "jednotka": "ks",
    "poznamka": ""
   }
  ],

@@ -7,7 +7,7 @@ a šablónu data/sablona.html, a vytvorí offline stránku kucharka.html.
 
 Spusti: python3 generuj_kucharku.py
 """
-import json, os, glob, datetime, shutil, sys
+import argparse, base64, json, os, glob, datetime, re, shutil, subprocess, sys, tempfile
 
 ZAKLAD = os.path.dirname(os.path.abspath(__file__))
 RECEPTY_DIR = os.path.join(ZAKLAD, "recepty")
@@ -182,7 +182,192 @@ def skontroluj_jedalnicky(jedalnicky, id_receptov):
         zomri(f"CHYBY V ULOŽENÝCH JEDÁLNIČKOCH: {len(chyby)}", chyby)
 
 
+# Placeholdery, ktoré generátor nahrádza. Reťazec, ktorý sa dostane do dát (napr. z rozbitého
+# parsera receptov), by sa v ďalšom kroku nahradil znova — recept s názvom „__POTRAVINY__ test“
+# do seba vtiahol celú databázu potravín a appka skončila so SyntaxError. Preto sa nahrádza
+# JEDNÝM prechodom (viď jednorazova_nahrada) a navyše sa dáta na placeholdery kontrolujú.
+PLACEHOLDERY = ("__APP_JS__", "__DATA__", "__POTRAVINY__", "__JEDALNICKY__", "__DATUM__", "__POCET__")
+
+
+def prejdi_retazce(o, cesta=""):
+    """Rekurzívne vydá (cesta k poľu, text) pre KAŽDÝ reťazec v dátach — nech hláška vie povedať,
+    v ktorom recepte a v ktorom poli je problém, nie len „niekde v dátach“."""
+    if isinstance(o, str):
+        yield (cesta or "(celý súbor)"), o
+    elif isinstance(o, dict):
+        for k, v in o.items():
+            yield from prejdi_retazce(v, (cesta + "." if cesta else "") + str(k))
+    elif isinstance(o, list):
+        for i, v in enumerate(o):
+            yield from prejdi_retazce(v, f"{cesta}[{i}]")
+
+
+def skontroluj_bezpecnost_dat(polozky, popis):
+    """Dáta idú inline do <script> v jednom HTML súbore. Doteraz sa nekontrolovali vôbec:
+    recept s `</script>` v postupe alebo s placeholderom v názve prešiel buildom s kódom 0
+    a `kucharka.html` mala syntaktickú chybu — appka bola mŕtva a nič to nepovedalo.
+
+    Prečo padnúť a nie ticho escapovať: 1365 receptov je parsovaných z webu, takže `<script>`
+    alebo `__DATA__` v recepte neznamená „exotický text“, ale ROZBITÝ IMPORT — a ten treba
+    opraviť v dátach, nie zamaskovať. Escapovanie (`</` → `<\/`, jednorazová náhrada
+    placeholderov) tu je NAVYŠE, ako poistka pre prípad, že táto kontrola niečo prepustí."""
+    chyby = []
+    for cesta, data in polozky:
+        kde = kratko(cesta)
+        for pole, txt in prejdi_retazce(data):
+            nizke = txt.lower()
+            if "</script" in nizke or "<script" in nizke:
+                chyby.append(f"{kde} → pole „{pole}“ obsahuje značku <script> "
+                             f"(vložené inline do stránky ukončí blok skriptu a appka sa nespustí)")
+            for ph in PLACEHOLDERY:
+                if ph in txt:
+                    chyby.append(f"{kde} → pole „{pole}“ obsahuje placeholder generátora {ph} "
+                                 f"(generátor doň vkladá dáta — v recepte nemá čo robiť)")
+            if "\u2028" in txt or "\u2029" in txt:
+                chyby.append(f"{kde} → pole „{pole}“ obsahuje neviditeľný oddeľovač riadkov "
+                             f"U+2028/U+2029 (v JavaScripte zalomí reťazec → SyntaxError)")
+    if chyby:
+        zomri(f"NEBEZPEČNÝ OBSAH V DÁTACH ({popis}): {len(chyby)}", chyby)
+
+
+def json_do_scriptu_text(txt):
+    """Ako json_do_scriptu, ale vstup je už hotový JSON reťazec."""
+    return json_do_scriptu(json.loads(txt))
+
+
+def json_do_scriptu(o):
+    """JSON pripravený na vloženie do inline <script>.
+    `</` → `<\/`: v JavaScripte je to ten istý znak, dáta ostávajú bajt na bajt rovnaké,
+    ale `</script>` už nemôže ukončiť blok. U+2028/U+2029 sú v JSON legálne, v JS zdroji
+    však zalomia reťazec."""
+    return (json.dumps(o, ensure_ascii=False)
+            .replace("</", "<\\/")
+            .replace("\u2028", "\\u2028")
+            .replace("\u2029", "\\u2029"))
+
+
+def jednorazova_nahrada(text, nahrady):
+    """Nahradí placeholdery JEDNÝM prechodom. Reťazená `.replace()` prepúšťala placeholder
+    vložený v predchádzajúcom kroku (dáta → ďalší placeholder), takže obsah receptu vedel
+    do stránky vtiahnuť ďalší blok dát. Vložený text sa už neprehľadáva."""
+    vzor = re.compile("|".join(re.escape(k) for k in nahrady))
+    return vzor.sub(lambda m: nahrady[m.group(0)], text)
+
+
+def over_syntax_js(html, cesta_html):
+    """Po builde over, že inline JavaScript je naozaj syntakticky platný. Bez toho vedel build
+    skončiť úspechom a vyrobiť stránku, ktorá v prehliadači nespustí ani riadok."""
+    bloky = re.findall(r"<script(?![^>]*\bsrc=)[^>]*>(.*?)</script>", html, re.S)
+    if not bloky:
+        zomri(f"{kratko(cesta_html)} neobsahuje žiadny inline <script> — appka by bola prázdna.")
+    try:
+        subprocess.run(["node", "--version"], capture_output=True, check=True)
+    except (OSError, subprocess.CalledProcessError):
+        print("POZOR: node sa nenašiel — syntax vygenerovaného JavaScriptu sa neoverila.", file=sys.stderr)
+        return
+    for idx, kod in enumerate(bloky, 1):
+        with tempfile.NamedTemporaryFile("w", suffix=".js", encoding="utf-8", delete=False) as f:
+            f.write(kod)
+            docasny = f.name
+        try:
+            v = subprocess.run(["node", "--check", docasny], capture_output=True, text=True)
+        finally:
+            os.unlink(docasny)
+        if v.returncode != 0:
+            hlaska = [r for r in (v.stderr or "").splitlines() if r.strip()][:6]
+            zomri(f"VYGENEROVANÝ JAVASCRIPT NIE JE PLATNÝ ({kratko(cesta_html)}, blok #{idx} z {len(bloky)}).",
+                  hlaska + ["Appka by sa v prehliadači vôbec nespustila.",
+                            "Najčastejšie: nebezpečný obsah v dátach (</script>, placeholder) alebo chyba v data/app.js."])
+# ─────────────────────────── fotky receptov ───────────────────────────
+FOTKY_DIR = os.path.join(RECEPTY_DIR, "fotky")
+FOTKY_ZDROJE = os.path.join(FOTKY_DIR, "ZDROJE.json")
+# Rozpočet na inline fotky. Nad ním sa `kucharka.html` predlžuje o načítanie, ktoré
+# používateľ na 4 Mbit/s pocíti — merania sú v reporty/report-fotky.md.
+# Nie je to tvrdý limit (build nepadne), ale build to VYPÍŠE, aby to nikto neprehliadol.
+FOTKY_ROZPOCET_MB = 2.5
+MIME = {".webp": "image/webp", ".jpg": "image/jpeg", ".jpeg": "image/jpeg",
+        ".png": "image/png", ".avif": "image/avif"}
+
+
+def foto_subor(recept):
+    """Vráti názov súboru fotky pre recept, alebo None.
+    Zdroj pravdy je pole `foto` v recepte; ak nie je vyplnené, skúsi sa `recepty/fotky/<id>.webp`,
+    aby stačilo doplniť súbor a nemuselo sa editovať 1956 JSONov."""
+    f = (recept.get("foto") or "").strip()
+    if f.startswith("data:"):
+        return f  # už vložená fotka (vlastný recept exportovaný z appky)
+    if not f:
+        f = str(recept.get("id") or "") + ".webp"
+    if not re.match(r"^[A-Za-z0-9._-]{1,80}\.(webp|jpg|jpeg|png|avif)$", f):
+        return None
+    return f if os.path.exists(os.path.join(FOTKY_DIR, f)) else None
+
+
+def priprav_fotky(recepty, rezim):
+    """Nastaví pole `foto` podľa režimu buildu a vráti (počet, bajtov_inline, hlásenia).
+
+    inline  — fotka ide do HTML ako data: URI. Kuchárka zostáva JEDEN offline súbor
+              (dvojklik, kópia do telefónu, „Pridať na plochu" — všade rovnako).
+    subor   — v poli `foto` ostane názov súboru a `recepty/fotky/` sa skopíruje k výstupu.
+              Menší HTML, ale appka prestáva byť jeden súbor: samotný kucharka.html
+              prenesený do telefónu ukáže emoji namiesto fotiek.
+    ziadne  — fotky sa vynechajú (build na porovnanie / úsporný režim).
+    """
+    poc, bajtov, hlasenia = 0, 0, []
+    chybajuce = 0
+    for r in recepty:
+        f = foto_subor(r)
+        if f and f.startswith("data:"):
+            poc += 1; bajtov += len(f); continue
+        if (r.get("foto") or "").strip() and not f:
+            chybajuce += 1
+        if not f or rezim == "ziadne":
+            r["foto"] = ""
+            continue
+        if rezim == "subor":
+            r["foto"] = f; poc += 1; continue
+        cesta = os.path.join(FOTKY_DIR, f)
+        try:
+            with open(cesta, "rb") as fh:
+                sur = fh.read()
+        except OSError as e:
+            hlasenia.append(f"fotka {f} sa nedá prečítať ({e}) — recept ju nedostane")
+            r["foto"] = ""
+            continue
+        mime = MIME.get(os.path.splitext(f)[1].lower(), "image/webp")
+        r["foto"] = "data:" + mime + ";base64," + base64.b64encode(sur).decode("ascii")
+        poc += 1; bajtov += len(r["foto"])
+    if chybajuce:
+        hlasenia.append(f"{chybajuce} receptov má vyplnené pole „foto“, ale súbor v recepty/fotky/ chýba "
+                        f"(appka na nich ukáže emoji — to je v poriadku, len o tom vedz)")
+    return poc, bajtov, hlasenia
+
+
+def foto_zdroje_pre_appku():
+    """Kompaktná mapa atribúcie pre UI: {id: {a: autor, l: licencia, lu: odkaz na licenciu, u: zdroj}}.
+    Wikimedia (CC BY-SA) aj TheMealDB/TheCocktailDB vyžadujú uvedenie autora a licencie
+    PRI fotke — appka to vykresľuje ako popisku pod obrázkom v detaile receptu."""
+    if not os.path.exists(FOTKY_ZDROJE):
+        return {}
+    surove = nacitaj_json(FOTKY_ZDROJE, "pôvod a licencie fotiek")
+    out = {}
+    for rid, z in (surove or {}).items():
+        if not isinstance(z, dict):
+            continue
+        out[rid] = {k: v for k, v in (("a", (z.get("autor") or "").strip()[:120]),
+                                      ("l", (z.get("licencia") or "").strip()[:120]),
+                                      ("lu", z.get("licencia_url") or ""),
+                                      ("u", z.get("obrazok_url") or z.get("zdroj_url") or "")) if v}
+    return out
+
+
 def main():
+    ap = argparse.ArgumentParser(description="Poskladá kucharka.html zo zdrojov.")
+    ap.add_argument("--fotky", choices=("inline", "subor", "ziadne"), default="inline",
+                    help="inline = fotky do HTML ako data: URI (jeden offline súbor, predvolené); "
+                         "subor = necháva recepty/fotky/ vedľa; ziadne = bez fotiek")
+    args = ap.parse_args()
+
     recepty_p = nacitaj_json_zoznam(RECEPTY_DIR, "recepty")
     if not recepty_p:
         zomri(f"V {kratko(RECEPTY_DIR)} nie je ani jeden recept (*.json).")
@@ -194,6 +379,10 @@ def main():
     potraviny = nacitaj_json(POTRAVINY, "databáza potravín")
     skontroluj_potraviny(potraviny)
 
+    skontroluj_bezpecnost_dat(recepty_p, "recepty/")
+    skontroluj_bezpecnost_dat(jedalnicky_p, "jedalnicky/")
+    skontroluj_bezpecnost_dat([(POTRAVINY, potraviny)], "data/potraviny.json")
+
     sablona = nacitaj_text(SABLONA, "HTML šablóna")
     appjs = nacitaj_text(APPJS, "JavaScript appky")
     if "</script>" in appjs:
@@ -201,7 +390,7 @@ def main():
               ["Vložený inline do šablóny by predčasne ukončil <script> a appka by sa nespustila.",
                "Rozdeľ ho napr. na \"<\\/script>\"."])
     for cesta, text, placeholdery in ((SABLONA, sablona, ("__APP_JS__", "__DATUM__", "__POCET__")),
-                                      (APPJS, appjs, ("__DATA__", "__POTRAVINY__", "__JEDALNICKY__"))):
+                                      (APPJS, appjs, ("__DATA__", "__POTRAVINY__", "__JEDALNICKY__", "__FOTO_ZDROJE__"))):
         for placeholder in placeholdery:
             if placeholder not in text:
                 zomri(f"{kratko(cesta)} nemá placeholder {placeholder}.",
@@ -209,25 +398,33 @@ def main():
 
     recepty = [r for _, r in recepty_p]
     jedalnicky = [j for _, j in jedalnicky_p]
-    data_json = json.dumps(recepty, ensure_ascii=False)
-    potraviny_json = json.dumps(potraviny, ensure_ascii=False)
-    jedalnicky_json = json.dumps(jedalnicky, ensure_ascii=False)
-    # Dáta idú inline do <script>. Literál </script> kdekoľvek v texte receptu by ho ukončil
-    # a appka by sa vôbec nespustila.
-    for popis, txt in (("recepty/", data_json), ("data/potraviny.json", potraviny_json),
-                       ("jedalnicky/", jedalnicky_json)):
-        if "</script>" in txt:
-            zomri(f"V dátach ({popis}) je literál </script>.",
-                  ["Vložený inline do stránky by predčasne ukončil <script> a appka by sa nespustila.",
-                   f"Nájdi ho: grep -rl '</script>' {popis}"])
-    sablona = sablona.replace("__APP_JS__", appjs)
+    # Export ide von PRED vložením fotiek: v `recepty` by po ňom boli data: URI a strojový
+    # výpis by narástol o megabajty base64, ktoré v ňom nikomu nepomôžu.
+    # export/jedlo_data.json je strojovo čitateľný výpis receptov + potravín (pre skripty
+    # a import do iných nástrojov). Generujeme ho, aby sa nemohol nenápadne rozísť so zdrojmi —
+    # dovtedy to bola ručná kópia, ktorá pri prvej zmene receptu prestala platiť.
+    os.makedirs(os.path.dirname(EXPORT), exist_ok=True)
+    with open(EXPORT, "w", encoding="utf-8") as f:
+        json.dump({"potraviny": potraviny, "recepty": recepty}, f, ensure_ascii=False, separators=(",", ":"))
+
+    foto_poc, foto_bajtov, foto_hlasenia = priprav_fotky(recepty, args.fotky)
+    for h in foto_hlasenia:
+        print("Pozor: " + h, file=sys.stderr)
+    foto_zdroje_json = json.dumps(foto_zdroje_pre_appku(), ensure_ascii=False,
+                                  separators=(",", ":"), sort_keys=True)
+    data_json = json_do_scriptu(recepty)
+    potraviny_json = json_do_scriptu(potraviny)
+    jedalnicky_json = json_do_scriptu(jedalnicky)
+    foto_zdroje_json = json_do_scriptu_text(foto_zdroje_json)
     datum = datetime.date.today().strftime("%d.%m.%Y")
-    html_out = (sablona
-        .replace("__DATA__", data_json)
-        .replace("__POTRAVINY__", potraviny_json)
-        .replace("__JEDALNICKY__", jedalnicky_json)
-        .replace("__DATUM__", datum)
-        .replace("__POCET__", str(len(recepty))))
+    # Dva prechody, každý jednorazový: najprv dáta do app.js, potom hotový app.js do šablóny.
+    # Vložený text sa už neprehľadáva, takže placeholder v dátach nemôže vtiahnuť ďalší blok.
+    appjs_hotovy = jednorazova_nahrada(appjs, {
+        "__DATA__": data_json, "__POTRAVINY__": potraviny_json,
+        "__JEDALNICKY__": jedalnicky_json, "__FOTO_ZDROJE__": foto_zdroje_json})
+    html_out = jednorazova_nahrada(sablona, {
+        "__APP_JS__": appjs_hotovy, "__DATUM__": datum, "__POCET__": str(len(recepty))})
+    over_syntax_js(html_out, VYSTUP)
     with open(VYSTUP, "w", encoding="utf-8") as f:
         f.write(html_out)
 
@@ -241,14 +438,25 @@ def main():
     if os.path.exists(SYNC_CONFIG):
         shutil.copyfile(SYNC_CONFIG, os.path.join(DOCS, "sync-config.js"))
 
-    # export/jedlo_data.json je strojovo čitateľný výpis receptov + potravín (pre skripty
-    # a import do iných nástrojov). Generujeme ho, aby sa nemohol nenápadne rozísť so zdrojmi —
-    # dovtedy to bola ručná kópia, ktorá pri prvej zmene receptu prestala platiť.
-    os.makedirs(os.path.dirname(EXPORT), exist_ok=True)
-    with open(EXPORT, "w", encoding="utf-8") as f:
-        json.dump({"potraviny": potraviny, "recepty": recepty}, f, ensure_ascii=False, separators=(",", ":"))
+    if args.fotky == "subor" and os.path.isdir(FOTKY_DIR):
+        ciel = os.path.join(DOCS, "recepty", "fotky")
+        shutil.rmtree(ciel, ignore_errors=True)
+        shutil.copytree(FOTKY_DIR, ciel)
 
+    velkost = os.path.getsize(VYSTUP)
     print(f"Hotovo: {VYSTUP}")
+    print(f"Veľkosť: {velkost/1048576:.2f} MB  ·  ~{velkost*8/4e6:.1f} s na 4 Mbit/s")
+    if args.fotky == "inline":
+        print(f"Fotky: {foto_poc} inline ({foto_bajtov/1048576:.2f} MB base64 = "
+              f"{foto_bajtov*100.0/max(velkost,1):.0f} % súboru)")
+        if foto_bajtov / 1048576 > FOTKY_ROZPOCET_MB:
+            print(f"POZOR: inline fotky prekročili rozpočet {FOTKY_ROZPOCET_MB} MB. "
+                  f"Zváž menej fotiek alebo --fotky=subor (viď reporty/report-fotky.md).", file=sys.stderr)
+    elif args.fotky == "subor":
+        print(f"Fotky: {foto_poc} zo súborov v {kratko(FOTKY_DIR)} "
+              f"(kuchárka UŽ NIE JE jeden súbor — priečinok musí ísť s ňou)")
+    else:
+        print("Fotky: vypnuté (--fotky=ziadne)")
     print(f"GitHub Pages: {DOCS_INDEX}" + (" (+ sw.js)" if os.path.exists(SW) else ""))
     print(f"Dátový výpis: {EXPORT}")
     print(f"Receptov: {len(recepty)} · potravín: {len(potraviny)} · jedálničkov: {len(jedalnicky)}")

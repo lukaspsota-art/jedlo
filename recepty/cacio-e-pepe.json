@@ -3,7 +3,7 @@
  "nazov": "Cacio e Pepe",
  "kategoria": "Cestoviny",
  "kuchyna": "Talianska",
- "zdroj": "Serious Eats",
+ "zdroj": "BBC Good Food – Cacio e pepe",
  "porcie": 4,
  "cas": "20 min",
  "kcal_na_porciu": 510,
@@ -57,5 +57,6 @@
   "pasta",
   "vegetariánske",
   "rýchle"
- ]
+ ],
+ "zdroj_url": "https://www.bbcgoodfood.com/recipes/cacio-e-pepe"
 }

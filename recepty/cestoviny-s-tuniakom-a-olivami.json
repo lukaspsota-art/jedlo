@@ -1,6 +1,6 @@
 {
  "id": "cestoviny-s-tuniakom-a-olivami",
- "nazov": "Cestoviny s tuniakom a olivami",
+ "nazov": "Cestoviny s paradajkami, olivami a čili",
  "kategoria": "Cestoviny",
  "kuchyna": "Talianska",
  "zdroj": "Varecha.sk – Pikantné cestoviny s olivami a bazalkou (autor: mihoo9)",
@@ -42,9 +42,9 @@
   },
   {
    "nazov": "Paprička chilli sušená",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Masť",

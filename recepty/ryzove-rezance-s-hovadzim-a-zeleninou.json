@@ -1,6 +1,6 @@
 {
  "id": "ryzove-rezance-s-hovadzim-a-zeleninou",
- "nazov": "Ryžové rezance s hovädzím mäsom a zeleninou",
+ "nazov": "Ryžové rezance so zeleninou a šampiňónmi",
  "kategoria": "Cestoviny",
  "kuchyna": "Ázijská",
  "zdroj": "Varecha.sk – Ryžové rezance so šampiňónmi a zeleninou (autor: mitzy)",
@@ -12,9 +12,9 @@
  "ingrediencie": [
   {
    "nazov": "Ryžové rezance",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Šampiňóny",
@@ -24,8 +24,8 @@
   },
   {
    "nazov": "Zmes zeleninová čínska",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 150,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -55,7 +55,8 @@
  ],
  "postup": [
   "Nechaj zovrieť vodu a ryžové rezance povar vo vode podľa návodu (2-3 minúty). Potom ich sceď cez sitko.",
-  "Na panvici speň na oleji nadrobno posekanú cibuľu. Pridaj pokrájané nožičky šampiňónov, potom pokrájané klobúčiky. Podlej trochou vody. Keď sa voda odparí, pridaj mrazenú zeleninovú zmes. Premiešaj. Pofŕkaj sójovou omáčkou a znovu premiešaj. Keď zelenina zmäkne a voda sa z nej odparí, zmes jemne osoľ, pridaj uvarené a scedené ryžové rezance a premiešaj. V prípade potreby ešte dochuť soľou alebo sójovou omáčkou.",
+  "Na panvici speň na oleji nadrobno posekanú cibuľu. Pridaj pokrájané nožičky šampiňónov, potom pokrájané klobúčiky. Podlej trochou vody. Keď sa voda odparí, pridaj mrazenú zeleninovú zmes. Premiešaj. Pofŕkaj sójovou omáčkou a znovu premiešaj.",
+  "Keď zelenina zmäkne a voda sa z nej odparí, zmes jemne osoľ, pridaj uvarené a scedené ryžové rezance a premiešaj. V prípade potreby ešte dochuť soľou alebo sójovou omáčkou.",
   "Dobrú chuť!"
  ],
  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",

@@ -12,9 +12,9 @@
  "ingrediencie": [
   {
    "nazov": "Zelené orechy",
-   "mnozstvo": 30,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Klinček",
@@ -30,8 +30,8 @@
   },
   {
    "nazov": "Pomaranč",
-   "mnozstvo": 5,
-   "jednotka": "plátok",
+   "mnozstvo": 750,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -48,9 +48,9 @@
   },
   {
    "nazov": "Zrná kávové celé",
-   "mnozstvo": 15,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Kryštálový cukor",

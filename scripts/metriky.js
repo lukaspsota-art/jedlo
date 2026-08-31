@@ -4,6 +4,8 @@
 const { load } = require("../test_harness");
 
 const N = parseInt(process.argv[2]) || 30;
+// voliteľný seed (2. argument) — rozdiel medzi seedmi ukáže, čo je šum generátora a čo regresia
+const SEED = parseInt(process.argv[3]) || 20260818;
 
 // Nezávislý (referenčný) detektor sacharidového jedla — schválne NIE app.maCarb, aby sa dal
 // zmerať aj stav PRED opravou A4. Sem patrí všetko, čo človek vníma ako prílohu-v-jedle.
@@ -29,7 +31,7 @@ function median(a) { if (!a.length) return 0; const b = a.slice().sort((x, y) =>
 const pct = (n, d) => d ? Math.round(n / d * 1000) / 10 : 0;
 
 async function main() {
-  const app = load({ stav: stavPre(), seed: 20260818 });
+  const app = load({ stav: stavPre(), seed: SEED });
   const S = app.S;
 
   const dni = [];            // jeden záznam na deň

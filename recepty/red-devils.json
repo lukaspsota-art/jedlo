@@ -1,9 +1,10 @@
 {
  "id": "red-devils",
  "nazov": "Red devils",
- "kategoria": "Snack",
+ "kategoria": "Hlavné jedlo",
  "kuchyna": "Americká",
  "zdroj": "Wikibooks Cookbook – Red Devils (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Red_Devils",
  "porcie": 4,
  "cas": "15 min",
  "kcal_na_porciu": 335,
@@ -55,12 +56,12 @@
  "tipy": "Slanina je zvyčajne dlhšia než sendvič - rozrež ju na polovicu a na jeden sendvič dávaj obe polovice. Často sa to ľahšie je príborom než rukou.",
  "foto": "",
  "tagy": [
-  "snack",
   "obed",
   "americká",
   "slanina",
   "syr",
   "zapekané",
-  "rýchle"
+  "rýchle",
+  "hlavné jedlo"
  ]
 }

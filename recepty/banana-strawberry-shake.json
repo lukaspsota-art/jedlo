@@ -1,6 +1,6 @@
 {
  "id": "banana-strawberry-shake",
- "nazov": "Banana Strawberry Shake",
+ "nazov": "Jahodovo-banánový šejk",
  "kategoria": "Nápoj",
  "kuchyna": "Medzinárodná",
  "zdroj": "TheCocktailDB – Banana Strawberry Shake",
@@ -8,12 +8,12 @@
  "porcie": 3,
  "cas": "5 min",
  "kcal_na_porciu": 136,
- "popis": "Šejk. Základ: jahody, banán, biely jogurt. Podávaj vo vysokom pohári.",
+ "popis": "Hustý ovocný šejk z jahôd, banánu a bieleho jogurtu — hotový za dve minúty v mixéri.",
  "ingrediencie": [
   {
    "nazov": "Jahody",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
+   "mnozstvo": 150,
+   "jednotka": "g",
    "poznamka": ""
   },
   {

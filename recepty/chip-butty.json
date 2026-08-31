@@ -1,9 +1,10 @@
 {
  "id": "chip-butty",
  "nazov": "Chip butty",
- "kategoria": "Snack",
+ "kategoria": "Hlavné jedlo",
  "kuchyna": "Anglická",
  "zdroj": "Wikibooks Cookbook – Chip Butty (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Chip_Butty",
  "porcie": 2,
  "cas": "10 min",
  "kcal_na_porciu": 389,
@@ -43,11 +44,11 @@
  "tipy": "Namiesto kečupu poslúži aj hnedá omáčka. Pre variant z kebabu použi namiesto toastového chleba pita chlieb.",
  "foto": "",
  "tagy": [
-  "snack",
   "obed",
   "anglická",
   "zemiaky",
   "rýchle",
-  "lacné"
+  "lacné",
+  "hlavné jedlo"
  ]
 }

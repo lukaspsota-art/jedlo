@@ -8,24 +8,24 @@
  "porcie": 1,
  "cas": "5 min",
  "kcal_na_porciu": 174,
- "popis": "Nápoj. Základ: hrozno, citrón, ananás. Podávaj vo vysokom pohári.",
+ "popis": "Smoothie z hrozna s citrónom a ananásom — svieže a ľahké.",
  "ingrediencie": [
   {
    "nazov": "Hrozno",
    "mnozstvo": 240,
-   "jednotka": "ml",
+   "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Citrón",
-   "mnozstvo": 6.2,
-   "jednotka": "ml",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
    "poznamka": ""
   },
   {
    "nazov": "Ananás",
-   "mnozstvo": 12.5,
-   "jednotka": "ml",
+   "mnozstvo": 100,
+   "jednotka": "g",
    "poznamka": ""
   }
  ],

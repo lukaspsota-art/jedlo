@@ -1,9 +1,10 @@
 {
  "id": "pizza-rolky",
  "nazov": "Pizza rolky",
- "kategoria": "Snack",
+ "kategoria": "Pečivo",
  "kuchyna": "Americká",
  "zdroj": "Wikibooks Cookbook – Pizza Rollups (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Pizza_Rollups",
  "porcie": 4,
  "cas": "25 min",
  "kcal_na_porciu": 388,
@@ -57,10 +58,10 @@
  "tipy": "Korenie si namiešaj podľa chuti - anízom, feniklom alebo cesnakom. Rolky sú najlepšie hneď z rúry.",
  "foto": "",
  "tagy": [
-  "snack",
   "americká",
   "pečené",
   "pre deti",
-  "lacné"
+  "lacné",
+  "pečivo"
  ]
 }

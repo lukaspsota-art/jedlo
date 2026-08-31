@@ -36,9 +36,9 @@
   },
   {
    "nazov": "Čedar",
-   "mnozstvo": 8,
-   "jednotka": "plátok",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Kyslé uhorky",
@@ -72,8 +72,8 @@
   },
   {
    "nazov": "Tymian",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 10,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -156,7 +156,8 @@
   }
  ],
  "postup": [
-  "Burgerové žemle: Žemle môžeš kúpiť, alebo upeč vlastné, ktoré sú samozrejme lepšie. Mlieko zohrej na 40 °C a pomrv doň droždie. Pridaj lyžicu cukru, jemne premiešaj a nechaj aktivovať droždie. Všetky suroviny v robote vymies na hladké pružné cesto. Prikryté ho nechaj hodinku kysnúť. Po hodine cesto vyber na pomúčenú dosku a rozdeľ na desať častí. Vytvaruj guľôčky, ktoré uložíš na plech s papierom na pečenie. Prikryté nechaj vykysnúť, aby zdvojnásobili objem. Potri rozšľahaným vajíčkom a posyp napríklad makom. Peč pri 180 °C 15–18 minút.",
+  "Burgerové žemle: Žemle môžeš kúpiť, alebo upeč vlastné, ktoré sú samozrejme lepšie. Mlieko zohrej na 40 °C a pomrv doň droždie. Pridaj lyžicu cukru, jemne premiešaj a nechaj aktivovať droždie. Všetky suroviny v robote vymies na hladké pružné cesto. Prikryté ho nechaj hodinku kysnúť.",
+  "Po hodine cesto vyber na pomúčenú dosku a rozdeľ na desať častí. Vytvaruj guľôčky, ktoré uložíš na plech s papierom na pečenie. Prikryté nechaj vykysnúť, aby zdvojnásobili objem. Potri rozšľahaným vajíčkom a posyp napríklad makom. Peč pri 180 °C 15–18 minút.",
   "Cibuľová marmeláda: Červenú cibuľu nakrájaj na tenké plátky. V hrnci rozpusť cukor na karamel a pridaj cibuľu. Jemne osoľ, pridaj tymian a trošku balsamica. Dus do konzistencie džemu.",
   "Sriracha mayo: Suroviny na omáčku spolu rozmixuj dohladka a osoľ.",
   "Mleté hovädzie mäso osoľ a okoreň, riadne ho premiešaj. Rozdeľ na štyri časti a vytvaruj burgre. Na rozpálenom grile peč burgre asi dve minúty z každej strany. Potom na každý polož dva plátky čedaru a nechaj ho roztopiť. Opeč plátky slaninu a ešte teplé polož na mäso.",

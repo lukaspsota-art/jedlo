@@ -36,8 +36,8 @@
   },
   {
    "nazov": "Paradajkový pretlak",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 140,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -48,9 +48,9 @@
   },
   {
    "nazov": "Voda",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Cukor kryštál",
@@ -90,8 +90,8 @@
   },
   {
    "nazov": "Lasagne",
-   "mnozstvo": 9,
-   "jednotka": "ks",
+   "mnozstvo": 2250,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -108,8 +108,8 @@
   },
   {
    "nazov": "Kyslá smotana",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 200,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -121,14 +121,14 @@
  ],
  "postup": [
   "Cibulu s cesnakom nakrájaj na drobno.",
-  "Na troške oleja osmaž a pridaj maso.Restuj do hneda.",
-  "Mäso vypni a pridaj paradajky,kečup a pretlak.",
-  "Pridaj vodu,cukor,bylinky,sol , korenie a petrž.vnat.",
-  "Tvaroh si rozmiešaj s kyslou smotanou,štipkou soli,korenia,petrž.vnatou a vajíčkom.Možete použit aj riccotu alebo cottage cheese.",
+  "Na troške oleja osmaž a pridaj maso. Restuj do hneda.",
+  "Mäso vypni a pridaj paradajky, kečup a pretlak.",
+  "Pridaj vodu, cukor, bylinky, sol, korenie a petrž.vnat.",
+  "Tvaroh si rozmiešaj s kyslou smotanou, štipkou soli, korenia, petrž.vnatou a vajíčkom. Možete použit aj riccotu alebo cottage cheese.",
   "Platy lasagne si 5 minut predvar.. na dno formy daj trochu mäsa a na to cesto..",
-  "Na cesto daj tvarohovu napln a zakryj syrom.Na to zase vrstvu mäsa a pokračuj s prekladaním...",
-  "Skonči vrsvou mäsa ,zakryj alobalom a daj piect do vyhriatej rury na 190 st asi hodinku.",
-  "Pred koncom posyp syrom a daj zapiect.Pred podavaním nechaj 15 minut postat."
+  "Na cesto daj tvarohovu napln a zakryj syrom. Na to zase vrstvu mäsa a pokračuj s prekladaním",
+  "Skonči vrsvou mäsa,zakryj alobalom a daj piect do vyhriatej rury na 190 st asi hodinku.",
+  "Pred koncom posyp syrom a daj zapiect. Pred podavaním nechaj 15 minut postat."
  ],
  "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
  "foto": "",

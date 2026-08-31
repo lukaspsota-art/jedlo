@@ -1,9 +1,10 @@
 {
  "id": "grilovany-syrovy-sendvic",
  "nazov": "Grilovaný syrový sendvič",
- "kategoria": "Snack",
+ "kategoria": "Hlavné jedlo",
  "kuchyna": "Americká",
  "zdroj": "Wikibooks Cookbook – Grilled Cheese Sandwich (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Grilled_Cheese_Sandwich",
  "porcie": 1,
  "cas": "15 min",
  "kcal_na_porciu": 532,
@@ -38,11 +39,11 @@
  "tipy": "Zdroj uvádza aj verziu z rúry - chlieb potri maslom z oboch strán, poskladaj a peč pri 150 °C 10-15 minút, otoč a peč ďalších 5-10 minút. Chlieb sa dá potrieť aj majonézou, horčicou, barbecue omáčkou, kečupom alebo aioli. K syru sa dá vrstviť šunka, paradajka, trhané bravčové alebo saláma.",
  "foto": "",
  "tagy": [
-  "snack",
   "obed",
   "americká",
   "syr",
   "rýchle",
-  "pre deti"
+  "pre deti",
+  "hlavné jedlo"
  ]
 }

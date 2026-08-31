@@ -4,6 +4,7 @@
  "kategoria": "Šalát",
  "kuchyna": "Americká",
  "zdroj": "Wikibooks Cookbook – Waldorf Salad (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Waldorf_Salad",
  "porcie": 2,
  "cas": "40 min",
  "kcal_na_porciu": 919,
@@ -53,8 +54,8 @@
   },
   {
    "nazov": "Šalátové listy",
-   "mnozstvo": 6,
-   "jednotka": "ks",
+   "mnozstvo": 900,
+   "jednotka": "g",
    "poznamka": "veľké"
   },
   {

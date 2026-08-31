@@ -126,9 +126,9 @@
   },
   {
    "nazov": "Karí madras",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Bobkový list",
@@ -144,9 +144,9 @@
   },
   {
    "nazov": "Koriandrové semienka",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Sušené čili",
@@ -158,7 +158,8 @@
  "postup": [
   "Do hrnca nalej trocha oleja, rozohrej a pridaj karí pastu. Zľahka restuj na najmenšom plameni asi 5 minút, občas premiešaj. Tým zaruč, že do oleja sa uvoľní celá chuť pasty.",
   "Medzitým priprav základ na karí. Nakrájaj cibuľu a cesnak najemno, nastrúhaj zázvor a nakrájaj stonky z čerstvej koriandrovej vňate. Všetko daj do hrnca s olejom a restuj dosklovita. Pridaj soľ.",
-  "Všetky ingrediencie na koreniacu zmes zmixuj a pridaj do základu, rovnako ako karí pastu s olejom. Ešte chvíľu restuj (nie dlho, aby to nezhorklo) a pridáš červenú šošovicu. Po chvíli pridaj drvené paradajky. Keď vidíš, že šošovica mierne zväčšila svoj objem, podlej zeleninovým vývarom a var, kým sa šošovica nerozvarí. Pridaj kokosové mlieko a tyčovým mixérom základ mierne vymixuj (nie na kašu) iba do chvíle, kým trocha nezhustne. Na konci pridaj do karí cícer, prevar.",
+  "Všetky ingrediencie na koreniacu zmes zmixuj a pridaj do základu, rovnako ako karí pastu s olejom. Ešte chvíľu restuj (nie dlho, aby to nezhorklo) a pridáš červenú šošovicu. Po chvíli pridaj drvené paradajky.",
+  "Keď vidíš, že šošovica mierne zväčšila svoj objem, podlej zeleninovým vývarom a var, kým sa šošovica nerozvarí. Pridaj kokosové mlieko a tyčovým mixérom základ mierne vymixuj (nie na kašu) iba do chvíle, kým trocha nezhustne. Na konci pridaj do karí cícer, prevar.",
   "Medzitým očisti šampiňóny a zeleninu (cuketu, mrkvu, zeler) a nakrájaj na tenké rezančeky (julienne). Rozpáľ panvicu, pridaj trocha oleja a sprudka šampiňóny a zeleninu orestuj (max 1–2 minúty). Pred koncom podlej sójovou omáčkou. Na druhej panvici orestuj tofu.",
   "V miske s olejom a so soľou trochu „poprehadzuj“ lístky baby špenátu a prelož ich na taniere. Na ne ulož restovanú zeleninu. Pridaj cícerové karí a restované tofu."
  ],

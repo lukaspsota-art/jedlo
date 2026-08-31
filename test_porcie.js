@@ -18,7 +18,7 @@ const FAKE = JSON.stringify([
 ]);
 
 const src = fs.readFileSync(__dirname + "/data/app.js", "utf8")
-  .replace("__DATA__", FAKE).replace("__POTRAVINY__", "[]").replace("__JEDALNICKY__", "[]")
+  .replace("__DATA__", FAKE).replace("__FOTO_ZDROJE__", "{}").replace("__POTRAVINY__", "[]").replace("__JEDALNICKY__", "[]")
   // ponytail: capture hneď po inicializácii S — zvyšok skriptu je DOM a padne, funkcie sú už hoistnuté
   .replace("S.blokMode=(S.blokMode!==undefined?S.blokMode:true);",
            "S.blokMode=(S.blokMode!==undefined?S.blokMode:true); globalThis.__S=S;");

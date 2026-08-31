@@ -1,6 +1,6 @@
 {
  "id": "cestoviny-s-brokolicou-a-kuracim-masom",
- "nazov": "Cestoviny s brokolicou a kuracím mäsom v smotanovej omáčke",
+ "nazov": "Cestoviny s hubami a kuracím mäsom v smotanovej omáčke",
  "kategoria": "Cestoviny",
  "kuchyna": "Talianska",
  "zdroj": "Varecha.sk – Smotanovo-hubové cestoviny s kuracím mäsom (fotorecept) (autor: eviana)",
@@ -54,9 +54,9 @@
   },
   {
    "nazov": "Ligurček",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Soľ",
@@ -96,21 +96,21 @@
   }
  ],
  "postup": [
-  "...hrsť sušených húb si zalej vriacou vodou a cca 30 minút si ich nevšímaj.",
-  "...zatiaľ si nakrájaj kuracie mäsko na kocky cca 1x1 cm, cibuľku na nie príliš jemné kocky a cesnak na štvrťky (chceš aby dal jemnú príchuť, nie aby chuť hríbikov zabil:))",
-  "...na panvicu si daj plátok masla (cca 1 cm z veľkého masla) a 2 PL olivového oleja, do rozpáleného pridaj kocky kuracích pŕs",
-  "...jemne ich okoreň, smaž len 2-3 minútky kým sa zatiahnu, potom ich vyber z panvice a výpek použij ďalej",
-  "...pridaj kúsky cesnaku (dosť veľké, aby sme ich neskôr mohli vybrať a neskôr pretlačiť)",
-  "...vsyp nakrájanú cibuľu",
-  "...teraz si začni všímať namočené sušené huby - poriadne z nich zlej vodu (tú odlož bokom, ešte sa nám zíde) a vysyp ich do panvice, nechaj spolu dusiť 2-3 minuty",
-  "...potom cesnak vyberiem a pretlač ho naspäť k hubám a cibuli... už nasiakol hubami a cibuľou (ak by sme ho pretlačili hneď v úvode, jedlo by naopak natiahlo silnú chuť cesnaku a chuť húb by zanikla). Podus spolu cca 25 minút, keď máš pocit, že je málo tekutiny, podlej vodou z húb.",
-  "...čerstvé (alebo ako u mňa mrazené lieviky trúbkovité) huby si očisti, opláchni a nakrájaj na väčšie kúsky. Možno použiť hocijaké huby, ktoré máte k dispozícii - aj pečiarky (šampiňóny).",
-  "...huby vsyp do panvice, dochuť - korením, rascou, sladkou paprikou, soľou... podľa chuti",
-  "...pridaj halúzku ligurčeka (domácky názov vegeta), zalej cca 0,5 dl vody z húb a všetko spolu dus cca 10 minút",
-  "...vlej smotanu na varenie",
-  "...nechaj prevrieť - zredukovať",
-  "...do vriacej hmoty vysyp kuracie prsia a nechaj prehriať - maximálne minútku",
-  "...odstav z ohňa a vsyp nasekanú petržlenovú vňať. Potom už len uvariť cestoviny a je to... naozaj skvelé :)"
+  "hrsť sušených húb si zalej vriacou vodou a cca 30 minút si ich nevšímaj.",
+  "zatiaľ si nakrájaj kuracie mäsko na kocky cca 1x1 cm, cibuľku na nie príliš jemné kocky a cesnak na štvrťky (chceš aby dal jemnú príchuť, nie aby chuť hríbikov zabil",
+  "na panvicu si daj plátok masla (cca 1 cm z veľkého masla) a 2 PL olivového oleja, do rozpáleného pridaj kocky kuracích pŕs",
+  "jemne ich okoreň, smaž len 2-3 minútky kým sa zatiahnu, potom ich vyber z panvice a výpek použij ďalej",
+  "pridaj kúsky cesnaku",
+  "vsyp nakrájanú cibuľu",
+  "teraz si začni všímať namočené sušené huby - poriadne z nich zlej vodu (tú odlož bokom, ešte sa nám zíde) a vysyp ich do panvice, nechaj spolu dusiť 2-3 minuty",
+  "potom cesnak vyberiem a pretlač ho naspäť k hubám a cibuli už nasiakol hubami a cibuľou. Podus spolu cca 25 minút, keď máš pocit, že je málo tekutiny, podlej vodou z húb.",
+  "čerstvé (alebo ako u mňa mrazené lieviky trúbkovité) huby si očisti, opláchni a nakrájaj na väčšie kúsky. Možno použiť hocijaké huby, ktoré máte k dispozícii - aj pečiarky (šampiňóny).",
+  "huby vsyp do panvice, dochuť - korením, rascou, sladkou paprikou, soľou podľa chuti",
+  "pridaj halúzku ligurčeka (domácky názov vegeta), zalej cca 0,5 dl vody z húb a všetko spolu dus cca 10 minút",
+  "vlej smotanu na varenie",
+  "nechaj prevrieť - zredukovať",
+  "do vriacej hmoty vysyp kuracie prsia a nechaj prehriať - maximálne minútku",
+  "odstav z ohňa a vsyp nasekanú petržlenovú vňať. Potom už len uvariť cestoviny a je to naozaj skvelé"
  ],
  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
  "foto": "",

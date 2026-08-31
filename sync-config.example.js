@@ -22,7 +22,12 @@ window.SYNC_CONFIG = {
   // Supabase → Settings → API → anon public — NIE servisný kľúč (ten patrí výhradne na server)
   key: "TVOJ-ANON-PUBLIC-KEY",
 
-  // Staršia možnosť bez prihlásenia: tajné „Sync ID", ktoré zdieľajú tvoje zariadenia.
-  // S prihlásením a skupinami (Krok 3 v HOSTING.md) nechaj prázdne.
+  // Synchronizácia BEZ prihlásenia (HOSTING.md, Krok 2B): „Sync ID", ktoré zdieľajú tvoje
+  // zariadenia. Je to jediné tajomstvo tej cesty — kto ho pozná, vidí a prepíše celý tvoj stav,
+  // preto musí byť NÁHODNÉ a dlhé (min. 20 znakov), nie slovo. Vygeneruj si ho napr. v konzole
+  // prehliadača: crypto.randomUUID() + "-" + crypto.randomUUID()
+  // Krok 2B vyžaduje SQL funkcie sync_nacitaj/sync_uloz z HOSTING.md — bez nich je tabuľka
+  // `kucharka` prístupná komukoľvek s anon kľúčom.
+  // S prihlásením a skupinami (Krok 3 v HOSTING.md, odporúčané) nechaj prázdne.
   id: ""
 };

@@ -18,8 +18,8 @@
   },
   {
    "nazov": "Olivovy olej",
-   "mnozstvo": 3,
-   "jednotka": "ks",
+   "mnozstvo": 2760,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -30,20 +30,20 @@
   },
   {
    "nazov": "Maslo",
-   "mnozstvo": 4,
-   "jednotka": "ks",
+   "mnozstvo": 1000,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Hladká múka",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
+   "mnozstvo": 500,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Soľ",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
+   "mnozstvo": 500,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -54,9 +54,9 @@
   },
   {
    "nazov": "Mletá kurkuma",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Kurací vývar",
@@ -78,8 +78,8 @@
   },
   {
    "nazov": "Slahacka",
-   "mnozstvo": 2,
-   "jednotka": "ks",
+   "mnozstvo": 500,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -91,8 +91,9 @@
  ],
  "postup": [
   "Pouzij vacsi hrniec, ako na gulas. Slaninku narež na drobno/ako na halusky / daj do hrnca a pridaj olivovy olej a opraž na strednej teplote do zlatova/cca 5 min./ Vyber do misky a odlož nabok, pouzij neskor.",
-  "Zniz teplotu, pridaj maslo a nakrajanu cibulu a var do sklovita. Potom pridaj muku, sol, mlete cierne korenie a turmeric, miešaj a var dalsie cca 3 minuty/ako zaprazka/,ide to rychlo treba to v tejto faze sledovat. Zalej kuracim vyvarom , pridaj nakrajane zemiaky , dobre premiešaj,priveď dovaru a odokry var kym zemiaky nie su makke/cca 15 min./Pozor, aby neboli velmi makke/.",
-  "Prisyp mrazenu kukuricu, pridaj half and half/ mix mlieka a slahacky / a postruhany chedar. Nedavam vsetok syr, nechavam si aj na posypanie na tanier. Var dalsich 3-5 minut, kym syr nie je rozpusteny. Podava sa na hlbokom taniery posypane syrom a oprazenou slaninkou. Je vynikajuca aj vlazna a vydrzi v chladnicke aj zopar dni. Teda ak vydrzi, u nas nie. Ked ju robim len pre nas, tak jednoducho urobim z polovicnej davky. Zelam Vam naozaj dobru chut!!!"
+  "Zniz teplotu, pridaj maslo a nakrajanu cibulu a var do sklovita. Potom pridaj muku, sol, mlete cierne korenie a turmeric, miešaj a var dalsie cca 3 minuty/ako zaprazka/,ide to rychlo treba to v tejto faze sledovat. Zalej kuracim vyvarom, pridaj nakrajane zemiaky, dobre premiešaj, priveď dovaru a odokry var kym zemiaky nie su makke/cca 15 min./Pozor, aby neboli velmi makke/.",
+  "Prisyp mrazenu kukuricu, pridaj half and half/ mix mlieka a slahacky / a postruhany chedar. Nedavam vsetok syr, nechavam si aj na posypanie na tanier. Var dalsich 3-5 minut, kym syr nie je rozpusteny. Podava sa na hlbokom taniery posypane syrom a oprazenou slaninkou.",
+  "Je vynikajuca aj vlazna a vydrzi v chladnicke aj zopar dni. Teda ak vydrzi, u nas nie. Ked ju robim len pre nas, tak jednoducho urobim z polovicnej davky. Zelam Vam naozaj dobru chut!!!"
  ],
  "tipy": "Polievku dochuť až nakoniec. Počas varenia sa tekutina odparí a chute zosilnejú.",
  "foto": "",

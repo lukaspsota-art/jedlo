@@ -1,9 +1,10 @@
 {
  "id": "sendvic-s-vegemitom",
  "nazov": "Sendvič s vegemitom",
- "kategoria": "Snack",
+ "kategoria": "Hlavné jedlo",
  "kuchyna": "Austrálska",
  "zdroj": "Wikibooks Cookbook – Vegemite Sandwich (CC BY-SA)",
+ "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Vegemite_Sandwich",
  "porcie": 1,
  "cas": "5 min",
  "kcal_na_porciu": 441,
@@ -49,10 +50,9 @@
  "tipy": "Vegemitu naozaj len tenkú vrstvu - je extrémne slaný. S avokádom vznikne avokádový vegemi sendvič. Varianta bez masla je tiež bežná. Alebo natri vegemi, polož cibuľu a plátok syra a daj pod gril, kým sa syr neroztopí.",
  "foto": "",
  "tagy": [
-  "snack",
-  "raňajky",
   "austrálska",
   "rýchle",
-  "bez varenia"
+  "bez varenia",
+  "hlavné jedlo"
  ]
 }

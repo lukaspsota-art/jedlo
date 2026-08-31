@@ -23,8 +23,8 @@
   },
   {
    "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 1000,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -47,15 +47,15 @@
   },
   {
    "nazov": "Sezamové semiačka",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Ľanové semiačka",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Vločky",
@@ -67,7 +67,7 @@
  "postup": [
   "Nahrejem ruru, vlozim do nej formu (ja mam zeleznu) ale podla mna toto mozete vynechat. Potom vsetko v mixeri zmiesam a vymiesim cesto. polozim do teplej zeleznej formy (mozete na obycajny plech alebo do kosika na kysnutie) a pockam kym to vykysne.",
   "Potom to dam piect, zhruba na 30 minut, alebo 45 minut.",
-  "Hotovo !"
+  "Hotovo!"
  ],
  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
  "foto": "",

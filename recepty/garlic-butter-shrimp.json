@@ -12,8 +12,8 @@
  "ingrediencie": [
   {
    "nazov": "Krevety",
-   "mnozstvo": 36,
-   "jednotka": "ks",
+   "mnozstvo": 7200,
+   "jednotka": "g",
    "poznamka": "olúpaná a deveined"
   },
   {
@@ -30,8 +30,8 @@
   },
   {
    "nazov": "Maslo",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 250,
+   "jednotka": "g",
    "poznamka": "0.25 cups"
   },
   {
@@ -54,9 +54,9 @@
   },
   {
    "nazov": "Lemons ",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Smotana na šľahanie",

@@ -30,8 +30,8 @@
   },
   {
    "nazov": "Strúhanka",
-   "mnozstvo": 0.25,
-   "jednotka": "ks",
+   "mnozstvo": 100,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -72,8 +72,8 @@
   },
   {
    "nazov": "Mlieko",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 1000,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -96,18 +96,17 @@
   }
  ],
  "postup": [
-  "Priprav si misku na pecenie, priemeru 23cm.Vymasti ju olivovym olejom.",
+  "Priprav si misku na pecenie, priemeru 23cm. Vymasti ju olivovym olejom.",
   "Dve cukiny strednej velkosti postruhaj na struhadle.",
-  "Postruhane cukiny uloz do misky na pecenie.Rozloz ich rovnomerne po spodku aj po bokoch misky.Posoľ to aj pokoreň. Dala som to zapiect do rury 200'C na 15min",
-  "Hovadzie maso som si pomlela, cibulu nasekala na drobno, cesnak pretlacila cez tlacitko, petrzlenovu vnatku som tiez nasekala na drobne kusky, pridala som horcicu, struhanku, vajicko, sol a korenie.",
+  "Postruhane cukiny uloz do misky na pecenie. Rozloz ich rovnomerne po spodku aj po bokoch misky. Posoľ to aj pokoreň. Daj to zapiect do rury 200'C na 15min",
+  "Hovadzie maso si pomeľ, cibulu nasekala na drobno, cesnak pretlacila cez tlacitko, petrzlenovu vnatku tiez nasekaj na drobne kusky, pridaj horcicu, struhanku, vajicko, sol a korenie.",
   "Vsetko to spracuj do kopy.",
-  "Z pripravenej masy som si sformovala gulky priemeru 3cm, ktore som oprazila na oleji.",
   "Oprazene vyber na papierovy obrusok.",
   "Potom oprazene gulky uloz na zapecenu cukinu.",
-  "Na gulky som navrstvila zemiakove pyre, ktore som spravila z osolenych uvarenych zemiakov a mlieka.",
-  "Zemiaky som posypala struhanym syrom a dala som to zapiect do rury180'C na 20minut.",
+  "Na gulky navrstvi zemiakove pyre, ktore sprav z osolenych uvarenych zemiakov a mlieka.",
+  "Zemiaky posyp struhanym syrom a daj to zapiect do rury180'C na 20minut.",
   "Vsetko sa spolu prepieklo, syr sa rozpustil a tiez zapiekol.",
-  "Nakrajaj jednotlive porcie a dala na tanier. My sme to jedli s kecupom a so stiplavou chili omackou."
+  "Nakrajaj jednotlive porcie a dala na tanier."
  ],
  "tipy": "Syr si nastrúhaj z bloku. Balený strúhaný má protihrudkovací škrob a roztápa sa horšie.",
  "foto": "",

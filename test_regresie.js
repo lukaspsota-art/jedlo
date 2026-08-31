@@ -40,8 +40,12 @@ process.on("unhandledRejection", e => {
 
 // ── R1 ────────────────────────────────────────────────────────────────────────
 nadpis("R1 — vyprážané recepty rátajú CELÝ olej, nie vsiaknutý");
-regresia("R1", "PADÁ",
-  "olej na vyprážanie nesmie dať viac než polovicu kcal porcie (musaka dnes 407 z 430 kcal)", () => {
+// OPRAVENÉ (B7): `_vyzivaVypocet` násobí hmotu do výživy poľom `vsiaknutie` na ingrediencii
+// (0–1 = podiel, ktorý sa naozaj zje). Do nákupu a ceny ide naďalej celé množstvo, preto test
+// meria to isté, čo appka zobrazí: gramy × vsiaknutie. Recept bez príznaku má vsiaknutie = 1,
+// takže neoznačený olej na vyprážanie kontrolu naďalej zhodí.
+regresia("R1", "PREJDE",
+  "olej na vyprážanie nesmie dať viac než polovicu kcal porcie (musaka bola 407 z 430 kcal)", () => {
     const a = novy(1);
     const zle = [];
     a.RECEPTY.forEach(r => {
@@ -52,17 +56,46 @@ regresia("R1", "PADÁ",
         if (!/olej|masť|sadlo/i.test(i.nazov)) return;
         const p = a.najdiPotravinu(i.nazov); if (!p) return;
         const g = a.gramy(i, p); if (g < 150) return;   // menej než 150 g nie je vyprážanie v hlbokom tuku
-        const zOleja = g * p.kcal / 100 / (r.porcie || 1);
-        if (zOleja > kcalPorcia * 0.5) zle.push(r.id + ": " + Math.round(zOleja) + " z " + kcalPorcia + " kcal");
+        // Kaluž tuku nad 150 g v hlbokom vyprážaní MUSÍ mať kurátorovaný koeficient. Bez neho
+        // (vsiaknutie = 1) sa celá kúpeľ započíta do porcie — presne tá chyba, ktorú R1 stráži.
+        if (i.vsiaknutie == null) {
+          const cely = g * p.kcal / 100 / (r.porcie || 1);
+          if (cely > kcalPorcia * 0.5)
+            zle.push(r.id + ": neoznačených " + Math.round(cely) + " z " + kcalPorcia + " kcal");
+          return;
+        }
+        // Označený tuk: koeficient musí sedieť s tabuľkou z report-data-kcal.md (0,12–0,30).
+        // Cestíčkové jedlá (agátové kvety) majú z vsiaknutého tuku legitímne aj polovicu kcal —
+        // strop preto stráži koeficient, nie podiel kalórií.
+        if (!(i.vsiaknutie >= 0.10 && i.vsiaknutie <= 0.35))
+          zle.push(r.id + ": vsiaknutie " + i.vsiaknutie + " je mimo tabuľky 0,12–0,30");
       });
     });
     assert.strictEqual(zle.length, 0, zle.length + " vyprážaných receptov ráta celý olej: " + zle.join(" · "));
   });
+// R1b: opačná poistka — príznak `vsiaknutie` nesmie zlacniť nákup. 600 ml oleja sa kupuje celých.
+regresia("R1b", "PREJDE",
+  "vsiaknutie mení výživu, NIE cenu porcie ani gramáž do nákupu", () => {
+    const a = novy(1);
+    const r = a.RECEPTY.find(x => x.id === "musaka");
+    assert.ok(r, "recept musaka chýba");
+    const i = (r.ingrediencie || []).find(x => x.vsiaknutie != null);
+    assert.ok(i, "musaka nemá ingredienciu s poľom vsiaknutie");
+    const p = a.najdiPotravinu(i.nazov);
+    assert.strictEqual(a.gramy(i, p), 600 * (p.hustota || 1), "gramy() musí vrátiť PLNÉ množstvo");
+    // cena porcie počítaná z plných gramov: porovnaj s receptom bez príznaku
+    const bez = JSON.parse(JSON.stringify(r)); bez.id = "musaka-bez";
+    bez.ingrediencie.forEach(x => { delete x.vsiaknutie; });
+    const vA = a.vyzivaReceptu(r), vB = a.vyzivaReceptu(bez);
+    assert.ok(vA.t < vB.t * 0.85, "tuky s vsiaknutím musia klesnúť (" + vA.t.toFixed(1) + " vs " + vB.t.toFixed(1) + " g)");
+  });
 
 // ── R2 ────────────────────────────────────────────────────────────────────────
 nadpis("\nR2 — položky nákupu bez ceny / bez hmotnosti");
-regresia("R2a", "PADÁ",
-  "žiadna napárovaná položka nákupu nemá 0 g (dnes „Cestoviny 3 ks“ = 0 g, lebo ks nemá g_za_ks)", () => {
+// opravené 31. 8. 2026 (agent NÁKUP-V-OBCHODE): 211× doplnené `g_za_ks` / 15× `g_za_platok`
+// v potraviny.json + nenapárovaná surovina s prevediteľnou jednotkou („4 ČL") dostane gramáž v nakupPolozky.
+regresia("R2a", "PREJDE",
+  "žiadna napárovaná položka nákupu nemá 0 g (bolo: „Cestoviny 3 ks“ = 0 g, lebo ks nemá g_za_ks)", () => {
     const a = novy(20260818);
     return a.generujJedalnicek(true).then(() => {
       const zle = a.nakupItems().filter(r => r.gkey && !(r.gramy > 0)).map(r => r.nazov + " (" + r.mnoz.replace(/<[^>]*>/g, "").trim() + ")");
@@ -89,14 +122,14 @@ function klikateľnéBezKlávesnice(html) {
     .filter(x => !/\btabindex=/.test(x) && !/\brole="button"/.test(x) && !KRYTE_ZPRISTUPNI.test(x));
 }
 nadpis("\nR3 — karty receptov nie sú dosiahnuteľné klávesnicou (P1 z AUDIT_UI_2026-08-19)");
-regresia("R3", "PADÁ",
+regresia("R3", "PREJDE",
   "kartaHTML nesmie mať <div onclick> bez tabindex — otvorenie receptu musí ísť aj Tab+Enter", () => {
     const a = novy(1);
     const zle = klikateľnéBezKlávesnice(a.kartaHTML(a.RECEPTY[0]));
     assert.strictEqual(zle.length, 0, zle.length + " nedosiahnuteľných prvkov na karte: " + zle.join(" "));
   });
 nadpis("\nR7 — bunky plánu nie sú dosiahnuteľné klávesnicou (P1 z AUDIT_UI_2026-08-19)");
-regresia("R7", "PADÁ",
+regresia("R7", "PREJDE",
   "tabuľka plánu nesmie mať klikateľné span/div bez tabindex (dnes ~180: .rm, .kc, .mchip)", () => {
     const a = novy(20260818);
     return a.generujJedalnicek(true).then(() => {
@@ -110,7 +143,7 @@ regresia("R7", "PADÁ",
 
 // ── R4 ────────────────────────────────────────────────────────────────────────
 nadpis("\nR4 — mriežka renderuje všetky recepty naraz");
-regresia("R4", "PADÁ",
+regresia("R4", "PREJDE",
   "renderGrid nesmie vložiť do DOM viac ako 200 kariet naraz (dnes všetkých ~1900)", () => {
     const a = novy(1);
     a.__orig.renderGrid();
@@ -120,6 +153,10 @@ regresia("R4", "PADÁ",
 
 // ── R6 ────────────────────────────────────────────────────────────────────────
 nadpis("\nR6 — raňajková báza sa v jednom týždni zopakuje (oprava dňa obchádza pravidlo)");
+// Pozn. (PRAVDA-V-ČÍSLACH, 31. 8.): R6 je CITLIVÁ NA DÁTA, nie na kód. Oprava `porcie`/`kcal`
+// v 31 receptoch posunula náhodnú postupnosť generátora tak, že kontrola raz prešla a po ďalšej
+// zmene dát opäť padla. Kým `opravDen`/`zlepsiBielkoviny` nepoznajú pravidlo raňajkovej bázy,
+// je jej výsledok lotéria — neprepínaj ju na "PREJDE" bez zásahu do generátora.
 regresia("R6", "PADÁ",
   "CLAUDE.md: „raňajky sendvič/wrap iná báza/blok“ — dnes 2 z 3 blokov dostanú toast/tortillu " +
   "(bez opravDen/zlepsiBielkoviny je porušení 0, s ňou ~20 % týždňov)", () => {

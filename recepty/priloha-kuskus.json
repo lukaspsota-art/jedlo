@@ -60,8 +60,8 @@
   },
   {
    "nazov": "Čierne olivy",
-   "mnozstvo": 10,
-   "jednotka": "ks",
+   "mnozstvo": 2000,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -84,9 +84,9 @@
   },
   {
    "nazov": "Granátové jablko",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   }
  ],
  "postup": [

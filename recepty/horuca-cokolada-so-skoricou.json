@@ -8,7 +8,7 @@
  "porcie": 8,
  "cas": "5 min",
  "kcal_na_porciu": 190,
- "popis": "Horúca čokoláda. Základ: mlieko, čokoláda, škorica. Podávaj v hrnčeku.",
+ "popis": "Hustá horúca čokoláda šľahaná vo vodnom kúpeli, dochutená škoricou.",
  "ingrediencie": [
   {
    "nazov": "Mlieko",
@@ -18,8 +18,8 @@
   },
   {
    "nazov": "Čokoláda",
-   "mnozstvo": 88.7,
-   "jednotka": "ml",
+   "mnozstvo": 90,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -30,8 +30,8 @@
   },
   {
    "nazov": "Vajcia",
-   "mnozstvo": 75,
-   "jednotka": "ml",
+   "mnozstvo": 1,
+   "jednotka": "ks",
    "poznamka": ""
   }
  ],

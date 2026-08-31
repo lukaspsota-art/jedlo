@@ -12,9 +12,9 @@
  "ingrediencie": [
   {
    "nazov": "Fine mix Liana - bezlepková múčna zmes na perníky a medovníky",
-   "mnozstvo": 2.5,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Vajcia",
@@ -24,14 +24,14 @@
   },
   {
    "nazov": "Med",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
+   "mnozstvo": 225,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Práškový cukor",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
+   "mnozstvo": 500,
+   "jednotka": "g",
    "poznamka": ""
   },
   {

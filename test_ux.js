@@ -163,18 +163,131 @@ ok("„⋯ viac“ v bunke plánu ponúkne všetky 4 sekundárne akcie", () => {
     .forEach(fn => assert.ok(h.includes(fn), "v paneli chýba " + fn));
   assert.ok(app.document.getElementById("pick-overlay").classList.contains("open"), "panel sa neotvoril");
 });
-// renderBlokEditor je v harnesse stubnutý (testy nekreslia) — kontrolujeme stráž a kontejner
-ok("rozdelenie blokov sa otvorí len v blokovom režime", () => {
+
+// ─────────────────────────────────────────────────────── U6 rozvrh varenia (bloky)
+nadpis("\nU6 — rozvrh varenia (bloky)");
+ok("dialóg rozvrhu sa otvorí VŽDY, aj keď sú bloky vypnuté", () => {
   const app = novy();
   app.S.blokMode = false;
-  app.otvorRozdelenie();
-  assert.ok(!app.document.getElementById("pick-modal").innerHTML.includes("Rozdelenie"),
-    "bez blokového režimu sa panel nemá otvoriť");
-  app.S.blokMode = true;
-  app.otvorRozdelenie();
+  app.otvorRozvrh();
   const h = app.document.getElementById("pick-modal").innerHTML;
-  assert.ok(h.includes('id="blok-editor"'), "v paneli chýba kontejner editora");
+  assert.ok(h.includes("Rozvrh varenia"), "dialóg sa neotvoril bez blokového režimu");
   assert.ok(app.document.getElementById("pick-overlay").classList.contains("open"), "panel sa neotvoril");
+});
+ok("dialóg ponúka hotové predvoľby vrátane rozvrhu používateľa (Ne/Ut/Pi večer)", () => {
+  const app = novy();
+  app.otvorRozvrh();
+  const h = app.document.getElementById("rozvrh-body").innerHTML;
+  ["ja", "2x", "tv", "1x", "4x", "denne"].forEach(id =>
+    assert.ok(h.includes("pouziRozvrh('" + id + "')"), "chýba predvoľba " + id));
+  const ja = app.ROZVRHY_PRED.find(r => r.id === "ja");
+  assert.strictEqual(JSON.stringify(app.hraniceNaBloky(ja.hranice)), "[[0,1],[2,3,4],[5,6]]");
+});
+ok("stará cesta otvorRozdelenie() nikoho nevyhodí — otvorí nový dialóg", () => {
+  const app = novy();
+  app.otvorRozdelenie();
+  assert.ok(app.document.getElementById("pick-modal").innerHTML.includes("Rozvrh varenia"));
+});
+ok("predvoľba prestaví bloky (1 blok / 4 bloky / denný režim)", () => {
+  const app = novy();
+  app.S.blokMode = true;
+  app.pouziRozvrh("1x");
+  assert.strictEqual(JSON.stringify(app.bloky()), "[[0,1,2,3,4,5,6]]", JSON.stringify(app.bloky()));
+  app.pouziRozvrh("4x");
+  assert.strictEqual(JSON.stringify(app.bloky()), "[[0,1],[2,3],[4,5],[6]]", JSON.stringify(app.bloky()));
+  app.pouziRozvrh("denne");
+  assert.strictEqual(app.S.blokMode, false, "„Každý deň zvlášť“ nevyplo bloky");
+});
+ok("↩︎ Vrátiť pôvodný vráti hranice aj režim", () => {
+  const app = novy();
+  app.S.blokMode = true;
+  const pred = JSON.stringify(app.S.hranice);
+  app.pouziRozvrh("1x");
+  assert.notStrictEqual(JSON.stringify(app.S.hranice), pred, "zmena sa nepremietla");
+  app.vratRozvrh();
+  assert.strictEqual(JSON.stringify(app.S.hranice), pred, "vrátenie nefunguje");
+  assert.strictEqual(app.S.blokMode, true);
+});
+ok("hranica sa dá preklikať aj priamo (ťuknutie medzi dva dni)", () => {
+  const app = novy();
+  app.S.blokMode = true;
+  app.S.hranice = [true, false, true, false, false, true, false];
+  app.toggleHranica(2);                       // spoj Po–Ut s St–Pi
+  assert.strictEqual(JSON.stringify(app.bloky()), "[[0,1,2,3,4],[5,6]]", JSON.stringify(app.bloky()));
+  app.toggleHranica(2);
+  assert.strictEqual(JSON.stringify(app.bloky()), "[[0,1],[2,3,4],[5,6]]", JSON.stringify(app.bloky()));
+});
+ok("vlastný rozvrh sa dá uložiť a znovu použiť", async () => {
+  const app = novy();
+  app.S.blokMode = true;
+  app.promptModal = () => Promise.resolve("Sťahovací týždeň");
+  app.S.hranice = [true, false, false, true, false, false, false];
+  await app.ulozRozvrh();
+  assert.strictEqual((app.S.rozvrhy || []).length, 1, "rozvrh sa neuložil");
+  assert.strictEqual(app.S.rozvrhy[0].nazov, "Sťahovací týždeň");
+  app.pouziRozvrh("1x");
+  app.pouziRozvrh("u:" + app.S.rozvrhy[0].id);
+  assert.strictEqual(JSON.stringify(app.bloky()), "[[0,1,2],[3,4,5,6]]", JSON.stringify(app.bloky()));
+});
+ok("zmena rozvrhu NEZMAŽE naplnený plán, len ohlási nejednotné bloky", async () => {
+  const app = novy();
+  app.S.blokMode = true;
+  app.S.hranice = [true, false, true, false, false, true, false];
+  await app.generujJedalnicek(true);
+  const pred = JSON.stringify(app.S.plan);
+  assert.strictEqual(JSON.stringify(app.nejednotneBloky()), "[]", "vygenerovaný týždeň má byť jednotný");
+  app.toggleHranica(2);                       // Po–Ut + St–Pi do jedného bloku
+  assert.strictEqual(JSON.stringify(app.S.plan), pred, "zmena rozvrhu prepísala plán");
+  assert.strictEqual(JSON.stringify(app.nejednotneBloky()), "[0]", JSON.stringify(app.nejednotneBloky()));
+});
+ok("„Zjednotiť bloky“ zrovná blok podľa prvého dňa (a nič nezmaže)", async () => {
+  const app = novy();
+  app.S.blokMode = true;
+  await app.generujJedalnicek(true);
+  app.toggleHranica(2);
+  const prvyDen = JSON.stringify(app.S.plan[app.datumPre(0)]);
+  app.zjednotBloky();
+  assert.strictEqual(JSON.stringify(app.nejednotneBloky()), "[]", "bloky sa nezjednotili");
+  [0, 1, 2, 3, 4].forEach(di =>
+    assert.strictEqual(JSON.stringify(app.S.plan[app.datumPre(di)]), prvyDen, "deň " + di + " nesedí"));
+});
+ok("dialóg povie, čo sa stane s naplneným plánom", async () => {
+  const app = novy();
+  app.S.blokMode = true;
+  await app.generujJedalnicek(true);
+  app.otvorRozvrh();
+  app.toggleHranica(2);
+  const h = app.document.getElementById("rozvrh-body").innerHTML;
+  assert.ok(h.includes("nič nemaže"), "chýba veta, že sa nič nemaže");
+  assert.ok(h.includes("zjednotBloky()"), "chýba ponuka zjednotiť bloky");
+  assert.ok(h.includes("vratRozvrh()"), "chýba možnosť vrátiť pôvodný rozvrh");
+});
+ok("pás nad plánom hovorí varný deň vetou („Varíš v nedeľu večer na…“)", () => {
+  const app = novy();
+  app.S.blokMode = true;
+  app.S.hranice = [true, false, true, false, false, true, false];
+  const bl = app.bloky();
+  assert.strictEqual(app.vetaBloku(bl[0]), "Varíš v nedeľu večer na pondelok a utorok.", app.vetaBloku(bl[0]));
+  assert.strictEqual(app.vetaBloku(bl[1]), "Varíš v utorok večer na stredu, štvrtok a piatok.", app.vetaBloku(bl[1]));
+  assert.strictEqual(app.vetaBloku(bl[2]), "Varíš v piatok večer na sobotu a nedeľu.", app.vetaBloku(bl[2]));
+  assert.ok(app.rozvrhZhrnutie().includes("3×"), app.rozvrhZhrnutie());
+});
+ok("generovanie nad naplneným plánom sa najprv opýta", async () => {
+  const app = novy();
+  await app.generujJedalnicek(true);
+  let pytane = null;
+  app.confirmModal = (t) => { pytane = t; return Promise.resolve(false); };
+  const pred = JSON.stringify(app.S.plan);
+  await app.generujTlacidlo(false);
+  assert.ok(pytane && /prepíše/i.test(pytane), "neopýtalo sa: " + pytane);
+  assert.strictEqual(JSON.stringify(app.S.plan), pred, "plán sa prepísal napriek zamietnutiu");
+});
+ok("nad prázdnym týždňom sa generovanie nepýta na nič", async () => {
+  const app = novy();
+  let pytane = false;
+  app.confirmModal = () => { pytane = true; return Promise.resolve(true); };
+  await app.generujTlacidlo(false);
+  assert.ok(!pytane, "zbytočná otázka nad prázdnym týždňom");
 });
 
 // ─────────────────────────────────────────────────────────── U2 zakázané suroviny
@@ -279,9 +392,54 @@ ok("bunka plánu je zo skutočných <button>, nie zo `span onclick`", () => {
   assert.ok((usek.match(/aria-label=/g) || []).length >= 6, "v bunke plánu je málo aria-label");
 });
 
+ok("skip-link je prvý tab-stop a v Receptoch mieri rovno na mriežku", () => {
+  const html = require("fs").readFileSync(__dirname + "/data/sablona.html", "utf8");
+  const telo = html.slice(html.indexOf("<body>"));
+  assert.ok(/^<body>\s*<a class="skip"/.test(telo.trim().replace(/\n/g, "")) || /<body>\s*\n?<a class="skip"/.test(telo),
+    "skip-link nie je prvý prvok v <body>");
+  assert.ok(html.includes('id="grid" tabindex="-1"'), "mriežka nie je cieľom skip-linku (chýba tabindex=-1)");
+  assert.ok(html.includes('id="obsah" tabindex="-1"'), "obsah nie je fokusovateľný cieľ");
+  assert.ok(/\.skip\{[^}]*left:-9999px/.test(html) && /\.skip:focus\{[^}]*left:0/.test(html),
+    "skip-link nie je schovaný mimo obrazovky, kým nedostane fokus");
+  assert.ok(ZDROJ.includes("function preskocNaObsah"), "chýba preskocNaObsah");
+  assert.ok(/aktualizujSkip\(\)/.test(ZDROJ), "text skip-linku sa nemení podľa obrazovky");
+});
+ok("predvolené radenie receptov dá jedlá pred nápoje a kokteily", () => {
+  const app = novy();
+  const grid = app.document.getElementById("grid");
+  const pred = grid.children.length;
+  app.__orig.renderGrid();                                  // prvá dávka = to, čo človek vidí ako prvé
+  const davka = [...grid.children].slice(pred);
+  assert.ok(davka.length >= 30, "malá dávka: " + davka.length);
+  const napoje = davka.filter(c => /Kokteil|Nápoj/.test(c.innerHTML));
+  assert.strictEqual(napoje.length, 0, "na prvej obrazovke Receptov je " + napoje.length + " nápojov/kokteilov");
+  // nič sa nesmie stratiť — počítadlo ukazuje všetkých 1956
+  assert.strictEqual(app.document.getElementById("pocet").textContent, app.RECEPTY.length,
+    "predvolené radenie zmenilo počet receptov");
+});
+ok("stravníci sú na Domove, nielen v Nastaveniach", () => {
+  const html = require("fs").readFileSync(__dirname + "/data/sablona.html", "utf8");
+  const domov = html.slice(html.indexOf('id="v-domov"'), html.indexOf('id="v-recepty"'));
+  assert.ok(domov.includes('id="dash-stravnici"'), "Domov nemá panel stravníkov");
+  assert.ok(ZDROJ.includes("function renderDashStravnici"), "chýba renderDashStravnici");
+  assert.ok(ZDROJ.includes("function otvorStravnici"), "stravníci sa z Domova nedajú upraviť");
+  // jeden zdroj pravdy pre riadok stravníka (pretekal na 393 px)
+  assert.ok(ZDROJ.includes("function stravniciRiadkyHTML"), "chýba spoločný riadok stravníka");
+  assert.ok(/\.strav-row\{[^}]*flex-wrap:wrap/.test(html), "riadok stravníka sa nezalamuje");
+});
+ok("prázdny týždeň v pláne ponúka, čo s tým", () => {
+  const app = novy();
+  app.S.plan = {};
+  app.renderPlanPrazdny();
+  const h = app.document.getElementById("plan-prazdny").innerHTML;
+  assert.ok(h.includes("prázdny"), "prázdny stav nič nehovorí");
+  assert.ok(h.includes("skopirujMinuly()") && h.includes("otvorNacitat()"), "prázdny stav neponúka východiská");
+});
+
 ok("mchip a hranica sú tlačidlá so stavom", () => {
   assert.ok(/<button class="mchip\$\{on\?' on':''\}"[^`]*aria-pressed/.test(ZDROJ), "mchip nie je button s aria-pressed");
-  assert.ok(/<button class="hranica"/.test(ZDROJ), "hranica blokov nie je button");
+  assert.ok(/<button class="hranica/.test(ZDROJ), "hranica blokov nie je button");
+  assert.ok(/class="hranica[^\n]{0,220}aria-label=/.test(ZDROJ), "hranica blokov nemá aria-label");
 });
 
 ok("Enter/medzerník aktivuje čokoľvek s rolou tlačidla (aj riadky pickerov)", () => {

@@ -8,18 +8,18 @@
  "porcie": 2,
  "cas": "5 min",
  "kcal_na_porciu": 148,
- "popis": "Nápoj. Základ: jablková šťava, jahody, kryštálový cukor. Podávaj vo vysokom pohári.",
+ "popis": "Chladený nápoj z jahôd naložených v cukre, jablkovej šťavy a sódy — na celý džbán.",
  "ingrediencie": [
   {
    "nazov": "Jablková šťava",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 500,
+   "jednotka": "ml",
    "poznamka": ""
   },
   {
    "nazov": "Jahody",
    "mnozstvo": 240,
-   "jednotka": "ml",
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -30,14 +30,14 @@
   },
   {
    "nazov": "Citrón",
-   "mnozstvo": 25,
-   "jednotka": "ml",
+   "mnozstvo": 1,
+   "jednotka": "ks",
    "poznamka": ""
   },
   {
    "nazov": "Jablko",
-   "mnozstvo": 25,
-   "jednotka": "ml",
+   "mnozstvo": 1,
+   "jednotka": "ks",
    "poznamka": ""
   },
   {

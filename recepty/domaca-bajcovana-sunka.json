@@ -1,7 +1,7 @@
 {
  "id": "domaca-bajcovana-sunka",
  "nazov": "Domáca bajcovaná šunka",
- "kategoria": "Príloha",
+ "kategoria": "Hlavné jedlo",
  "kuchyna": "Slovenská",
  "zdroj": "Varecha.sk – Domáca bajcovaná šunka (fotorecept) (autor: ancicka)",
  "zdroj_url": "https://varecha.pravda.sk/recepty/domaca-bajcovana-sunka-fotorecept/25956-recept.html",
@@ -36,9 +36,9 @@
   },
   {
    "nazov": "Jadlovec",
-   "mnozstvo": 30,
-   "jednotka": "ks",
-   "poznamka": ""
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "podľa chuti"
   },
   {
    "nazov": "Bobkový list",
@@ -68,11 +68,11 @@
  "postup": [
   "Vykostené mäso dobré nasoľ a nechaj v chlade 7 dní. Každý deň mäso obraciaj.",
   "Uvar si nálev a nechaj vychladnuť.",
-  "Do vychladnutého nálevu namoč mäso.Nálevu musí byť dostatočné množstvo,tak aby mäsko bolo ponorené vo vode. Moč 7-9 dní.Každý deň ho obraciaj.",
-  "Ked je mäsko dobré vymočené,tak ho z nálevu vyber a daj do sieťky na šunku a daj vyúdiť..",
-  "Uď 3 dní.Vyúdenu šunku môžeš aj zmraziť a podľa potreby zužitkovať.",
-  "Ked jú chcem uvariť,tak ju na noc nechaj namočiť a uvar, asi pol hodiny.Domáca šunčička je výborna!",
-  "ked potrebujem vývar tak ju var priamo vo vode,ale ked potrebujem iba šunku,tak ju vlož do mikrotenového sačku a tak ju vo vode uvar."
+  "Do vychladnutého nálevu namoč mäso. Nálevu musí byť dostatočné množstvo, tak aby mäsko bolo ponorené vo vode. Moč 7-9 dní. Každý deň ho obraciaj.",
+  "Ked je mäsko dobré vymočené, tak ho z nálevu vyber a daj do sieťky na šunku a daj vyúdiť..",
+  "Uď 3 dní. Vyúdenu šunku môžeš aj zmraziť a podľa potreby zužitkovať.",
+  "Ked jú chcem uvariť, tak ju na noc nechaj namočiť a uvar, asi pol hodiny. Domáca šunčička je výborna!",
+  "ked potrebujem vývar tak ju var priamo vo vode, ale ked potrebujem iba šunku, tak ju vlož do mikrotenového sačku a tak ju vo vode uvar."
  ],
  "tipy": "Celé koreniny krátko opraž nasucho, kým nezavoňajú. Uvoľnia oveľa viac chuti než rovno vhodené do jedla.",
  "foto": "",

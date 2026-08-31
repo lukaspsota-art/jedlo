@@ -7,7 +7,8 @@
  "zdroj_url": "https://varecha.pravda.sk/recepty/hydinove-ministeaky-s-jablkami-so-sampinonmi-a-s-kalvadosom/78483-recept.html",
  "porcie": 4,
  "cas": "60 min",
- "kcal_na_porciu": 312,
+ "kcal_na_porciu": 627,
+ "kcal_zdroj": "vypocet",
  "popis": "Bezmäsité hlavné jedlo. Základ: hydinové prsia, jablká, šampiňóny. Robí sa na panvici. Navariť sa dá dopredu na celý blok.",
  "ingrediencie": [
   {
@@ -48,8 +49,8 @@
   },
   {
    "nazov": "Tymian",
-   "mnozstvo": 2,
-   "jednotka": "ks",
+   "mnozstvo": 20,
+   "jednotka": "g",
    "poznamka": ""
   },
   {

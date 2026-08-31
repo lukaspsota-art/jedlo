@@ -18,15 +18,16 @@
   },
   {
    "nazov": "Klobása Chorizo",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 200,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Slnečnicový olej",
    "mnozstvo": 8,
    "jednotka": "PL",
-   "poznamka": ""
+   "poznamka": "",
+   "vsiaknutie": 0.3
   },
   {
    "nazov": "Kečup",

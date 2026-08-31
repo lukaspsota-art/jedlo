@@ -32,7 +32,7 @@ function mulberry32(a) {
 }
 
 // const/let sa v skripte nestanú vlastnosťou globalu — vyexportuj ich ručne na koniec app.js
-const EXPORT_TAIL = ";globalThis.__exp={RECEPTY,POTRAVINY,JEDALNICKY,S,LS,DNI,VSETKY_SLOTY,DEFAULT_SLOTY,SLOT_KATEGORIE,KS_DEF,KS_JEDNOTKY,ML_JED,NEDELITELNE_JEDNOTKY,PRILOHY,CARB_PRILOHY,KOLEKCIE,SEZONA,HS_HI,HS_LO,PORADIE_ODDELENI,SLOT_PODIEL,TYZDNE_PAMATE,TYZDNE_PAMATE_SNACK,MIN_KCAL_HLAVNY,NAKUP_MAX_BALENI,FAKTOR_MIN,FAKTOR_MAX,PORADIE_SLOTOV,MIN_POOL,OKNO_DOLE,OKNO_HORE,VERZIA};";
+const EXPORT_TAIL = ";globalThis.__exp={RECEPTY,POTRAVINY,JEDALNICKY,S,LS,DNI,VSETKY_SLOTY,DEFAULT_SLOTY,SLOT_KATEGORIE,KS_DEF,KS_JEDNOTKY,ML_JED,NEDELITELNE_JEDNOTKY,PRILOHY,CARB_PRILOHY,KOLEKCIE,SEZONA,HS_HI,HS_LO,PORADIE_ODDELENI,SLOT_PODIEL,TYZDNE_PAMATE,TYZDNE_PAMATE_SNACK,MIN_KCAL_HLAVNY,NAKUP_MAX_BALENI,K_PASMO_LO,K_PASMO_HI,G_ZA_LIST_BYLINKA,FAKTOR_MIN,FAKTOR_MAX,PORADIE_SLOTOV,MIN_POOL,OKNO_DOLE,OKNO_HORE,VERZIA,ROZVRHY_PRED,DNI_V,DNI_NA};";
 
 const FAKE_HODNOTY = { hladaj: "", "f-kuchyna": "", "f-cas": "", "f-diet": "", "f-sort": "" };
 
@@ -64,6 +64,7 @@ function load(opts = {}) {
   const src = fs.readFileSync(path.join(ROOT, "data", "app.js"), "utf8")
     .replace("__DATA__", () => JSON.stringify(opts.recepty || nacitajRecepty()))
     .replace("__POTRAVINY__", () => JSON.stringify(opts.potraviny || nacitajPotraviny()))
+    .replace("__FOTO_ZDROJE__", () => { try { return require("fs").readFileSync(require("path").join(__dirname,"recepty/fotky/ZDROJE.json"),"utf8"); } catch(e) { return "{}"; } })
     .replace("__JEDALNICKY__", () => JSON.stringify(opts.jedalnicky || nacitajJedalnicky()))
     + "\n" + EXPORT_TAIL + "\n";
 

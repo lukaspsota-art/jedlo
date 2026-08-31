@@ -7,18 +7,18 @@
  "zdroj_url": "https://www.thecocktaildb.com/drink/12708",
  "porcie": 1,
  "cas": "5 min",
- "popis": "Nápoj. Základ: cantaloupe, banán. Podávaj vo vysokom pohári.",
+ "popis": "Dvojzložkové smoothie z cantaloupe melóna a banánu — sladké bez pridaného cukru.",
  "ingrediencie": [
   {
    "nazov": "Cantaloupe",
-   "mnozstvo": 1,
-   "jednotka": "ks",
+   "mnozstvo": 500,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
    "nazov": "Banán",
-   "mnozstvo": 25,
-   "jednotka": "ml",
+   "mnozstvo": 1,
+   "jednotka": "ks",
    "poznamka": ""
   }
  ],
