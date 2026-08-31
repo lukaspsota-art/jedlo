@@ -1,6 +1,6 @@
 # Inšpiračný report — aplikácie na plánovanie jedál, recepty a nákupné zoznamy
 
-Prieskum 12 populárnych aplikácií a čo si z nich vziať pre našu osobnú webovú kuchárku (offline HTML appka pre Lukáša).
+Prieskum **25** populárnych aplikácií a čo si z nich vziať pre našu osobnú webovú kuchárku (offline HTML appka pre Lukáša). Prvá vlna (appky 1–12) je z 16. 7. 2026, druhá (13–25) pribudla neskôr — preto je odporúčaná časť rozdelená na dve.
 
 **Kontext appky:** recepty s kalóriami/makrami a cenami, týždenný blokový plánovač (meal-prep, bloky A/B/C), automatický generátor jedálnička, nákupný zoznam po oddeleniach + export do Listonic, kategórie jedál, sezónnosť, akcie (Kaufland leták), profil domácnosti, tmavý režim, PWA/offline, voliteľná synchronizácia, nákup ráta balenia, jedlo = hlavný chod + príloha.
 

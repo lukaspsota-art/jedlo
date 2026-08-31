@@ -1777,9 +1777,25 @@ function snackDruh(r){
 const SNACK_DRUH_DOPL={ovocie:"B",zelenina:"B",pečivo:"B",orechy:"B",sušené:"B",
   mliečne:"O",syr:"O",mäso:"O",nápoj:"O",sladké:"O",tyčinka:"O",slané:"O"};
 let _snackDoplCache=null;
+// Zoznamy vyššie sú KURÁTOROVANÉ JADRO, nie celý výber. Keď boli jediným zdrojom, 21 položiek
+// na 210 snackových dní znamenalo, že sa ten istý doplnok nominoval stále dokola (namerané:
+// najčastejší snack 12× za 30 týždňov). Preto sa jadro dopĺňa o VŠETKY výrobky z katalógu,
+// ktoré spĺňajú tie isté podmienky ako náhradná vetva (`_snackDoplKandidati`) — ovocie podľa
+// druhu, bielkovinový doplnok podľa g/100 kcal — obmedzené na veľkosť jadra, aby dvojica
+// nenarástla. Kurátorované id zostávajú na začiatku, takže sa uprednostnia.
 function _snackDoplZoznamy(){ if(_snackDoplCache) return _snackDoplCache;
   const ok=z=>z.filter(id=>{ const r=receptById(id); return !!r && jeVyrobok(r) && r.kategoria==="Snack"; });
-  _snackDoplCache={O:ok(SNACK_DOPL_OVOCIE),B:ok(SNACK_DOPL_BIELKOVINA)};
+  const jadro={O:ok(SNACK_DOPL_OVOCIE),B:ok(SNACK_DOPL_BIELKOVINA)};
+  const strop=t=>{ const k=jadro[t].map(id=>kcalPorcia(receptById(id))).filter(x=>x>0);
+    return k.length?Math.max.apply(null,k):SNACK_SOLO_KCAL*2; };
+  const rozsir=(t,test)=>{ const max=strop(t), mam=new Set(jadro[t]);
+    const dalsie=RECEPTY.filter(x=>x&&x.kategoria==="Snack"&&jeVyrobok(x)&&!mam.has(x.id)
+      && kcalPorcia(x)>0 && kcalPorcia(x)<=max && test(x))
+      .sort((a,b)=>String(a.id).localeCompare(String(b.id),"sk")).map(x=>x.id);
+    return jadro[t].concat(dalsie); };
+  _snackDoplCache={
+    O:rozsir("O",x=>snackDruh(x)==="ovocie"),
+    B:rozsir("B",x=>bielkovinyNa100(x)>=SNACK_DOPL_B100)};
   return _snackDoplCache; }
 function _snackHash(s){ let h=0; for(let i=0;i<s.length;i++) h=(h*31+s.charCodeAt(i))>>>0; return h; }
 // poradové číslo zobrazeného týždňa — dvojice sa tým medzi týždňami pretočia

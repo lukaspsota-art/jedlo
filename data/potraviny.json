@@ -1,5 +1,324 @@
 [
  {
+  "kluc": "edamame",
+  "oddelenie": "Mrazené",
+  "alergeny": [
+   "sója"
+  ],
+  "kcal": 121,
+  "bielkoviny": 12.0,
+  "tuky": 5.0,
+  "sacharidy": 9,
+  "g_za_ks": null,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.9,
+  "vlaknina": 5.2,
+  "sodik": 6,
+  "balenie_g": 400,
+  "balenie_popis": "400 g"
+ },
+ {
+  "kluc": "ružičkový kel",
+  "oddelenie": "Zelenina a ovocie",
+  "alergeny": [],
+  "kcal": 43,
+  "bielkoviny": 3.4,
+  "tuky": 0.3,
+  "sacharidy": 9,
+  "g_za_ks": 20,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.9,
+  "vlaknina": 3.8,
+  "sodik": 25,
+  "balenie_g": 500,
+  "balenie_popis": "500 g"
+ },
+ {
+  "kluc": "paštrnák",
+  "oddelenie": "Zelenina a ovocie",
+  "alergeny": [],
+  "kcal": 75,
+  "bielkoviny": 1.2,
+  "tuky": 0.3,
+  "sacharidy": 13,
+  "g_za_ks": 150,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.6,
+  "vlaknina": 4.9,
+  "sodik": 10
+ },
+ {
+  "kluc": "ovsené otruby",
+  "oddelenie": "Cestoviny a ryža",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 246,
+  "bielkoviny": 17.0,
+  "tuky": 7.0,
+  "sacharidy": 50,
+  "g_za_ks": null,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.5,
+  "vlaknina": 15.4,
+  "sodik": 4,
+  "balenie_g": 500,
+  "balenie_popis": "500 g"
+ },
+ {
+  "kluc": "ryža natural",
+  "oddelenie": "Cestoviny a ryža",
+  "alergeny": [],
+  "kcal": 360,
+  "bielkoviny": 7.5,
+  "tuky": 2.7,
+  "sacharidy": 72,
+  "g_za_ks": null,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.3,
+  "vlaknina": 3.5,
+  "sodik": 5,
+  "balenie_g": 500,
+  "balenie_popis": "500 g"
+ },
+ {
+  "kluc": "celozrnné cestoviny",
+  "oddelenie": "Cestoviny a ryža",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 348,
+  "bielkoviny": 13.0,
+  "tuky": 2.5,
+  "sacharidy": 62,
+  "g_za_ks": null,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.3,
+  "vlaknina": 8.0,
+  "sodik": 8,
+  "balenie_g": 500,
+  "balenie_popis": "500 g"
+ },
+ {
+  "kluc": "celozrnná žemľa",
+  "oddelenie": "Pečivo",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 255,
+  "bielkoviny": 10.0,
+  "tuky": 3.0,
+  "sacharidy": 44,
+  "g_za_ks": 60,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.5,
+  "vlaknina": 6.0,
+  "sodik": 470,
+  "balenie_g": 300,
+  "balenie_popis": "5 ks"
+ },
+ {
+  "kluc": "celozrnný toastový chlieb",
+  "oddelenie": "Pečivo",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 245,
+  "bielkoviny": 10.0,
+  "tuky": 3.5,
+  "sacharidy": 38,
+  "g_za_ks": 32,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.5,
+  "vlaknina": 7.0,
+  "sodik": 440,
+  "balenie_g": 500,
+  "balenie_popis": "500 g",
+  "g_za_platok": 32
+ },
+ {
+  "kluc": "ražný chlieb",
+  "oddelenie": "Pečivo",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 250,
+  "bielkoviny": 8.0,
+  "tuky": 1.5,
+  "sacharidy": 46,
+  "g_za_ks": 500,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.35,
+  "vlaknina": 8.0,
+  "sodik": 500,
+  "balenie_g": 500,
+  "balenie_popis": "500 g",
+  "g_za_platok": 40
+ },
+ {
+  "kluc": "kváskový chlieb",
+  "oddelenie": "Pečivo",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 255,
+  "bielkoviny": 8.5,
+  "tuky": 1.5,
+  "sacharidy": 50,
+  "g_za_ks": 500,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.4,
+  "vlaknina": 4.5,
+  "sodik": 480,
+  "balenie_g": 500,
+  "balenie_popis": "500 g",
+  "g_za_platok": 45
+ },
+ {
+  "kluc": "celozrnná pita",
+  "oddelenie": "Pečivo",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 265,
+  "bielkoviny": 10.0,
+  "tuky": 2.0,
+  "sacharidy": 48,
+  "g_za_ks": 60,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.65,
+  "vlaknina": 7.5,
+  "sodik": 480,
+  "balenie_g": 300,
+  "balenie_popis": "5 ks"
+ },
+ {
+  "kluc": "pita chlieb",
+  "oddelenie": "Pečivo",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 275,
+  "bielkoviny": 9.0,
+  "tuky": 1.5,
+  "sacharidy": 55,
+  "g_za_ks": 60,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.55,
+  "vlaknina": 2.8,
+  "sodik": 500,
+  "balenie_g": 300,
+  "balenie_popis": "5 ks"
+ },
+ {
+  "kluc": "knäckebrot",
+  "oddelenie": "Pečivo",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 330,
+  "bielkoviny": 10.0,
+  "tuky": 2.0,
+  "sacharidy": 60,
+  "g_za_ks": 11,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.9,
+  "vlaknina": 16.0,
+  "sodik": 400,
+  "balenie_g": 250,
+  "balenie_popis": "250 g"
+ },
+ {
+  "kluc": "celozrnný bagel",
+  "oddelenie": "Pečivo",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 255,
+  "bielkoviny": 10.5,
+  "tuky": 1.5,
+  "sacharidy": 45,
+  "g_za_ks": 90,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.75,
+  "vlaknina": 6.5,
+  "sodik": 460,
+  "balenie_g": 360,
+  "balenie_popis": "4 ks"
+ },
+ {
+  "kluc": "grahamový rožok",
+  "oddelenie": "Pečivo",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 265,
+  "bielkoviny": 9.5,
+  "tuky": 3.0,
+  "sacharidy": 47,
+  "g_za_ks": 60,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.35,
+  "vlaknina": 5.5,
+  "sodik": 470,
+  "balenie_g": 300,
+  "balenie_popis": "5 ks"
+ },
+ {
+  "kluc": "celozrnná tortilla",
+  "oddelenie": "Pečivo",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 300,
+  "bielkoviny": 9.0,
+  "tuky": 7.0,
+  "sacharidy": 44,
+  "g_za_ks": 62,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.75,
+  "vlaknina": 6.5,
+  "sodik": 590,
+  "balenie_g": 370,
+  "balenie_popis": "6 ks"
+ },
+ {
+  "kluc": "celozrnná bageta",
+  "oddelenie": "Pečivo",
+  "alergeny": [
+   "lepok"
+  ],
+  "kcal": 250,
+  "bielkoviny": 10.0,
+  "tuky": 2.5,
+  "sacharidy": 43,
+  "g_za_ks": 250,
+  "hustota": 1,
+  "meso": false,
+  "cena100": 0.4,
+  "vlaknina": 7.0,
+  "sodik": 480,
+  "balenie_g": 250,
+  "balenie_popis": "250 g",
+  "g_za_platok": 30
+ },
+ {
   "kluc": "mozzarella",
   "oddelenie": "Mliečne a vajcia",
   "alergeny": [
@@ -874,7 +1193,7 @@
   "cena100": 0.1,
   "balenie_g": 1000,
   "balenie_popis": "1 kg",
-  "vlaknina": 1.0,
+  "vlaknina": 2.7,
   "sodik": 25
  },
  {
@@ -1285,7 +1604,7 @@
   "cena100": 0.3,
   "balenie_g": 500,
   "balenie_popis": "500 g",
-  "vlaknina": 2.5,
+  "vlaknina": 3.2,
   "sodik": 5
  },
  {
@@ -1317,7 +1636,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.3,
-  "vlaknina": 2.0,
+  "vlaknina": 3.0,
   "sodik": 8,
   "g_za_platok": 15
  },
@@ -2235,7 +2554,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.25,
-  "vlaknina": 2.5,
+  "vlaknina": 3.2,
   "sodik": 5,
   "balenie_g": 250,
   "balenie_popis": "250 g"
@@ -2454,7 +2773,7 @@
   "cena100": 0.35,
   "balenie_g": 500,
   "balenie_popis": "500 g",
-  "vlaknina": 2.5,
+  "vlaknina": 12.5,
   "sodik": 5
  },
  {
@@ -2581,7 +2900,7 @@
   "cena100": 1,
   "balenie_g": 200,
   "balenie_popis": "200 g",
-  "vlaknina": 4,
+  "vlaknina": 6.0,
   "sodik": 380
  },
  {
@@ -2671,7 +2990,7 @@
   "cena100": 1.2,
   "balenie_g": 350,
   "balenie_popis": "350 g",
-  "vlaknina": 1.0,
+  "vlaknina": 6.0,
   "sodik": 25
  },
  {
@@ -2767,7 +3086,7 @@
   "hustota": 0.4,
   "meso": false,
   "cena100": 0.3,
-  "vlaknina": 2.5,
+  "vlaknina": 10.0,
   "sodik": 5,
   "balenie_g": 500,
   "balenie_popis": "500 g"
@@ -2801,7 +3120,7 @@
   "hustota": 0.7,
   "meso": false,
   "cena100": 2.5,
-  "vlaknina": 8.0,
+  "vlaknina": 34.0,
   "sodik": 5
  },
  {
@@ -2899,7 +3218,7 @@
   "hustota": 0.6,
   "meso": false,
   "cena100": 1.5,
-  "vlaknina": 8.0,
+  "vlaknina": 11.8,
   "sodik": 5
  },
  {
@@ -2944,7 +3263,7 @@
   "hustota": 0.8,
   "meso": false,
   "cena100": 1,
-  "vlaknina": 2.5,
+  "vlaknina": 7.0,
   "sodik": 5
  },
  {
@@ -3140,7 +3459,7 @@
   "hustota": 0.45,
   "meso": false,
   "cena100": 0.35,
-  "vlaknina": 2.5,
+  "vlaknina": 10.0,
   "sodik": 5
  },
  {
@@ -3185,7 +3504,7 @@
   "hustota": 0.6,
   "meso": false,
   "cena100": 0.8,
-  "vlaknina": 8.0,
+  "vlaknina": 27.3,
   "sodik": 5
  },
  {
@@ -3215,7 +3534,7 @@
   "hustota": 0.5,
   "meso": false,
   "cena100": 2,
-  "vlaknina": 2.0,
+  "vlaknina": 6.5,
   "sodik": 8
  },
  {
@@ -3262,7 +3581,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.5,
-  "vlaknina": 2.5,
+  "vlaknina": 9.0,
   "sodik": 5
  },
  {
@@ -3465,7 +3784,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.45,
-  "vlaknina": 8,
+  "vlaknina": 10.7,
   "sodik": 6,
   "balenie_g": 500,
   "balenie_popis": "500 g"
@@ -3544,7 +3863,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.5,
-  "vlaknina": 2.5,
+  "vlaknina": 10.0,
   "sodik": 5
  },
  {
@@ -3719,7 +4038,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.8,
-  "vlaknina": 8.0,
+  "vlaknina": 27.3,
   "sodik": 5
  },
  {
@@ -3768,7 +4087,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.6,
-  "vlaknina": 2.5,
+  "vlaknina": 8.0,
   "sodik": 5
  },
  {
@@ -3828,7 +4147,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.5,
-  "vlaknina": 2.5,
+  "vlaknina": 10.0,
   "sodik": 5
  },
  {
@@ -3875,7 +4194,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.5,
-  "vlaknina": 2.5,
+  "vlaknina": 10.0,
   "sodik": 5
  },
  {
@@ -3999,7 +4318,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 1.2,
-  "vlaknina": 2.0,
+  "vlaknina": 9.8,
   "sodik": 8
  },
  {
@@ -4061,7 +4380,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 3.5,
-  "vlaknina": 2.0,
+  "vlaknina": 13.0,
   "sodik": 8
  },
  {
@@ -4092,7 +4411,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.5,
-  "vlaknina": 2.0,
+  "vlaknina": 3.0,
   "sodik": 8
  },
  {
@@ -4158,7 +4477,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.7,
-  "vlaknina": 2.0,
+  "vlaknina": 3.0,
   "sodik": 8
  },
  {
@@ -4220,7 +4539,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 1.2,
-  "vlaknina": 2.0,
+  "vlaknina": 5.3,
   "sodik": 8
  },
  {
@@ -4265,7 +4584,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.8,
-  "vlaknina": 2.0,
+  "vlaknina": 3.7,
   "sodik": 8,
   "balenie_g": 200,
   "balenie_popis": "200 g"
@@ -4284,7 +4603,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.4,
-  "vlaknina": 2.5,
+  "vlaknina": 3.2,
   "sodik": 5
  },
  {
@@ -4359,7 +4678,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 1,
-  "vlaknina": 2.0,
+  "vlaknina": 8.0,
   "sodik": 8
  },
  {
@@ -4596,7 +4915,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.45,
-  "vlaknina": 2.5,
+  "vlaknina": 8.5,
   "sodik": 5
  },
  {
@@ -4671,7 +4990,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.6,
-  "vlaknina": 2.5,
+  "vlaknina": 7.0,
   "sodik": 5
  },
  {
@@ -4735,7 +5054,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 1.2,
-  "vlaknina": 8.0,
+  "vlaknina": 11.8,
   "sodik": 5,
   "balenie_g": 100,
   "balenie_popis": "100 g"
@@ -4752,7 +5071,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.7,
-  "vlaknina": 2.5,
+  "vlaknina": 10.0,
   "sodik": 5
  },
  {
@@ -4815,7 +5134,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 3,
-  "vlaknina": 2.0,
+  "vlaknina": 13.0,
   "sodik": 8
  },
  {
@@ -4845,7 +5164,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.6,
-  "vlaknina": 2.5,
+  "vlaknina": 10.0,
   "sodik": 5
  },
  {
@@ -4875,7 +5194,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 1,
-  "vlaknina": 2.0,
+  "vlaknina": 8.0,
   "sodik": 8
  },
  {
@@ -4890,7 +5209,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 1.8,
-  "vlaknina": 2.0,
+  "vlaknina": 5.7,
   "sodik": 8
  },
  {
@@ -4905,7 +5224,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 3,
-  "vlaknina": 2.0,
+  "vlaknina": 13.0,
   "sodik": 8
  },
  {
@@ -4920,7 +5239,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.25,
-  "vlaknina": 2.0,
+  "vlaknina": 3.1,
   "sodik": 8
  },
  {
@@ -4935,7 +5254,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.4,
-  "vlaknina": 2.5,
+  "vlaknina": 6.0,
   "sodik": 5,
   "balenie_g": 500,
   "balenie_popis": "500 g"
@@ -5016,7 +5335,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 1.2,
-  "vlaknina": 2.5,
+  "vlaknina": 7.0,
   "sodik": 5,
   "balenie_g": 500,
   "balenie_popis": "500 g"
@@ -5033,7 +5352,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 2.5,
-  "vlaknina": 2.0,
+  "vlaknina": 5.7,
   "sodik": 8
  },
  {
@@ -5048,7 +5367,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.7,
-  "vlaknina": 2.5,
+  "vlaknina": 10.0,
   "sodik": 5,
   "balenie_g": 500,
   "balenie_popis": "500 g"
@@ -5174,7 +5493,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.5,
-  "vlaknina": 2.5,
+  "vlaknina": 15.0,
   "sodik": 5
  },
  {
@@ -5287,7 +5606,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 1,
-  "vlaknina": 8.0,
+  "vlaknina": 27.3,
   "sodik": 5
  },
  {
@@ -5304,7 +5623,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 1.5,
-  "vlaknina": 8.0,
+  "vlaknina": 11.8,
   "sodik": 5
  },
  {
@@ -5473,7 +5792,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.35,
-  "vlaknina": 2.5,
+  "vlaknina": 10.0,
   "sodik": 5
  },
  {
@@ -5488,7 +5807,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.4,
-  "vlaknina": 2.5,
+  "vlaknina": 10.8,
   "sodik": 5
  },
  {
@@ -5548,7 +5867,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 1.2,
-  "vlaknina": 2.0,
+  "vlaknina": 7.1,
   "sodik": 8
  },
  {
@@ -5595,7 +5914,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 1.8,
-  "vlaknina": 2.5,
+  "vlaknina": 7.0,
   "sodik": 5
  },
  {
@@ -5812,7 +6131,7 @@
   "meso": false,
   "cena100": 0.8,
   "g_za_platok": 25,
-  "vlaknina": 2.0,
+  "vlaknina": 6.7,
   "sodik": 8,
   "balenie_g": 200,
   "balenie_popis": "200 g"
@@ -12768,7 +13087,7 @@
   "hustota": 1,
   "meso": false,
   "cena100": 0.3,
-  "vlaknina": 2.5,
+  "vlaknina": 3.0,
   "sodik": 300,
   "balenie_g": 750,
   "balenie_popis": "750 g"

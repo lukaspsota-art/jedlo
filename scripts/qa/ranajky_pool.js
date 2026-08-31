@@ -1,0 +1,21 @@
+// QA: hrdlo raňajok v číslach — presne tie riadky, ktoré meral report-generator-doladenie §2.
+"use strict";
+const { load } = require("../../test_harness");
+const app = load({ stav: { profil: { osoby: 2, kcal: 1450 } }, seed: 1 });
+const pool = app.poolPreSlot("Raňajky");
+const ciel = app.cielSlotu("Raňajky", app.SLOTY(), 1450);
+const vOkne = r => { const k = app.kcalPorcia(r); return k >= ciel * 0.6 && k <= ciel * 1.45; };
+const b100 = r => { const v = app.vyzivaReceptu(r), k = app.kcalPorcia(r); return k > 0 ? v.b / (k / 100) : 0; };
+const vl100 = r => { const v = app.vyzivaReceptu(r), k = app.kcalPorcia(r); return k > 0 ? v.vl / (k / 100) : 0; };
+const sendvice = pool.filter(r => app.jeSendvic(r));
+const vokne = sendvice.filter(vOkne);
+const bazy = {}; vokne.forEach(r => { const b = app.ranajkyBaza(r); bazy[b] = (bazy[b] || 0) + 1; });
+const med = a => { const b = a.slice().sort((x, y) => x - y); return b[b.length >> 1] || 0; };
+console.log(`cieľ slotu Raňajky: ${Math.round(ciel)} kcal (okno ${Math.round(ciel*0.6)}–${Math.round(ciel*1.45)})`);
+console.log(`pool Raňajky (po profile):            ${pool.length}`);
+console.log(`z toho sendvič/wrap (jeSendvic):      ${sendvice.length}`);
+console.log(`sendvičov v kcal-okne slotu:          ${vokne.length}`);
+console.log(`rozdelenie tried bázy v okne:         ${Object.entries(bazy).sort((a,b)=>b[1]-a[1]).map(([k,v])=>k+" "+v).join(" · ")}`);
+console.log(`sendvičov s ≥ 8 g bielkovín/100 kcal: ${sendvice.filter(r => b100(r) >= 8).length}  (medián ${med(sendvice.map(b100)).toFixed(1)})`);
+console.log(`sendvičov s ≥ 2 g vlákniny/100 kcal:  ${sendvice.filter(r => vl100(r) >= 2).length}  (medián ${med(sendvice.map(vl100)).toFixed(1)})`);
+console.log(`raňajok s ≥ 8 g bielkovín/100 kcal:   ${pool.filter(r => b100(r) >= 8).length}`);
