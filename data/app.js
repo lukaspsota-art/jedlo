@@ -1,13 +1,88 @@
-const RECEPTY = __DATA__;
-const POTRAVINY = __POTRAVINY__;
-const JEDALNICKY = __JEDALNICKY__;
+// ── Rozbalenie vložených dát (P3: veľkosť súboru) ─────────────────────────────
+// 1961 receptov ako obyčajný JSON = 3,95 MB z 5,35 MB súboru, teda ~11 s prvého načítania
+// na 4 Mbit/s. Build ich preto vkladá skomprimované (raw DEFLATE, RFC 1951, base64).
+// Rozbalenie MUSÍ byť synchrónne: RECEPTY je top-level const, od ktorého závisí celý
+// zvyšok súboru, a `DecompressionStream` je asynchrónny (prerobiť appku na async štart
+// je iná úloha). Preto je tu malý inflate — je to celá podpora, ktorú appka potrebuje,
+// a kuchárka zostáva JEDEN offline súbor bez CDN a bez knižnice.
+// `_rozbal` prepustí hotové pole/objekt bez zmeny: tak dostáva dáta test_harness.js
+// (vkladá do placeholderu priamo JSON) aj build s prepínačom `--data=json`.
+const _ZL_LB=[3,4,5,6,7,8,9,10,11,13,15,17,19,23,27,31,35,43,51,59,67,83,99,115,131,163,195,227,258];
+const _ZL_LE=[0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,0];
+const _ZL_DB=[1,2,3,4,5,7,9,13,17,25,33,49,65,97,129,193,257,385,513,769,1025,1537,2049,3073,4097,6145,8193,12289,16385,24577];
+const _ZL_DE=[0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13];
+const _ZL_ORD=[16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15];
+// kanonický Huffmanov strom podľa dĺžok kódov (postup „puff“ z referenčnej implementácie zlib)
+function _zlStrom(lens,off,n){ const count=new Int32Array(16);
+  for(let i=0;i<n;i++)count[lens[off+i]]++;
+  count[0]=0;
+  const offs=new Int32Array(16); for(let i=1;i<16;i++)offs[i]=offs[i-1]+count[i-1];
+  const symbol=new Int32Array(n); for(let i=0;i<n;i++){ const l=lens[off+i]; if(l)symbol[offs[l]++]=i; }
+  return {c:count,s:symbol}; }
+function _zlInflate(src){
+  let out=new Uint8Array(Math.max(4096,src.length*5)),olen=0;
+  const rez=n=>{ if(olen+n<=out.length)return; let c=out.length; while(c<olen+n)c*=2;
+    const b=new Uint8Array(c); b.set(out.subarray(0,olen)); out=b; };
+  let pos=0,buf=0,cnt=0;
+  const bits=n=>{ while(cnt<n){ buf|=src[pos++]<<cnt; cnt+=8; } const v=buf&((1<<n)-1); buf>>>=n; cnt-=n; return v; };
+  const dec=h=>{ let code=0,first=0,index=0;
+    for(let len=1;len<16;len++){ code|=bits(1); const c=h.c[len];
+      if(code-first<c) return h.s[index+(code-first)];
+      index+=c; first=(first+c)<<1; code<<=1; }
+    throw new Error("poškodené dáta (Huffman)"); };
+  let fixL=null,fixD=null;
+  for(;;){
+    const posl=bits(1), typ=bits(2);
+    if(typ===0){ pos-=cnt>>3; buf=0; cnt=0;            // nekomprimovaný blok: zarovnaj na bajt
+      const len=src[pos]|(src[pos+1]<<8); pos+=4;
+      rez(len); out.set(src.subarray(pos,pos+len),olen); olen+=len; pos+=len; }
+    else{
+      let L,D;
+      if(typ===1){ if(!fixL){ const l=new Uint8Array(288); let i=0;
+          for(;i<144;i++)l[i]=8; for(;i<256;i++)l[i]=9; for(;i<280;i++)l[i]=7; for(;i<288;i++)l[i]=8;
+          fixL=_zlStrom(l,0,288); const d=new Uint8Array(30); d.fill(5); fixD=_zlStrom(d,0,30); }
+        L=fixL; D=fixD; }
+      else if(typ===2){
+        const nl=bits(5)+257, nd=bits(5)+1, nc=bits(4)+4;
+        const cl=new Uint8Array(19);
+        for(let i=0;i<nc;i++) cl[_ZL_ORD[i]]=bits(3);
+        const CH=_zlStrom(cl,0,19);
+        const lens=new Uint8Array(nl+nd);
+        let i=0;
+        while(i<nl+nd){ const sym=dec(CH);
+          if(sym<16) lens[i++]=sym;
+          else{ let hod=0,op=0;
+            if(sym===16){ hod=lens[i-1]; op=3+bits(2); }
+            else if(sym===17){ op=3+bits(3); }
+            else { op=11+bits(7); }
+            while(op--) lens[i++]=hod; } }
+        L=_zlStrom(lens,0,nl); D=_zlStrom(lens,nl,nd); }
+      else throw new Error("poškodené dáta (typ bloku)");
+      for(;;){ const sym=dec(L);
+        if(sym<256){ rez(1); out[olen++]=sym; }
+        else if(sym===256) break;
+        else { const si=sym-257; const dl=_ZL_LB[si]+bits(_ZL_LE[si]);
+          const di=dec(D); const vzd=_ZL_DB[di]+bits(_ZL_DE[di]);
+          rez(dl); let p=olen-vzd; for(let k=0;k<dl;k++) out[olen++]=out[p++]; } }
+    }
+    if(posl)break;
+  }
+  return out.subarray(0,olen); }
+function _rozbal(x){ if(typeof x!=="string") return x;      // hotové dáta (harness, --data=json)
+  const bin=atob(x), n=bin.length, u=new Uint8Array(n);
+  for(let i=0;i<n;i++) u[i]=bin.charCodeAt(i);
+  return JSON.parse(new TextDecoder().decode(_zlInflate(u))); }
+
+const RECEPTY = _rozbal(__DATA__);
+const POTRAVINY = _rozbal(__POTRAVINY__);
+const JEDALNICKY = _rozbal(__JEDALNICKY__);
 // ── Fotky receptov ─────────────────────────────────────────────────────────────
 // `foto` je BUĎ prázdne, BUĎ názov súboru v `recepty/fotky/`, BUĎ priamo `data:` URI.
 // Build (generuj_kucharku.py --fotky=inline, predvolené) vkladá miniatúry ako data: URI,
 // aby kuchárka zostala JEDEN offline súbor; `--fotky=subor` necháva názvy súborov.
 // Vlastné recepty z mobilu si ukladajú data: URI (zmenšené cez canvas) do localStorage.
 // FOTO_ZDROJE = atribúcia k fotke (autor, licencia, odkaz) — vykresľuje sa POD fotkou v detaile.
-const FOTO_ZDROJE = __FOTO_ZDROJE__;
+const FOTO_ZDROJE = _rozbal(__FOTO_ZDROJE__);
 // Prísna validácia: `foto` sa dostáva aj zo synchronizovaného localStorage, takže do `src`
 // nesmie ísť ľubovoľný reťazec (`" onerror=…` by bol XSS). Čokoľvek iné = žiadna fotka.
 function fotoSrc(r){ const f=(r&&r.foto)||"";
@@ -103,7 +178,8 @@ const PROFIL_TYPY={
   osoby:"n", kcal:"n", biel:"n", oknostart:"n",
   ryby:"b", lepok:"b", mlieko:"b", dark:"b", big:"b", balenia:"b", okno:"b", kupSnack:"b",
   syncOff:"b", onboarded:"b",
-  watch:"s", zakazane:"s", cielTyp:"s", syncId:"s", skupinaId:"s", skupinaKod:"s", skupinaNazov:"s" };
+  watch:"s", zakazane:"s", cielTyp:"s", syncId:"s", skupinaId:"s", skupinaKod:"s", skupinaNazov:"s",
+  rezim:"s" };
 const GENCFG_TYPY={ zachovat:"b", cielMode:"b", neMasoZaSebou:"b", filtre:"ao" };
 // Prvok poľa, ktorému chýba pole na zobrazenie alebo radenie, sa v UI nedá ani ukázať, ani
 // zmazať — a `a.nazov.localeCompare(b.nazov)` v renderNakup na ňom zhodí celý Nákup. Zdieľaný
@@ -210,6 +286,7 @@ const VERZIA="v20";
 // (= 29,40 €/os./týždeň = 128 €/mesiac, teda na úrovni najdrahšieho kraja). 0 = rozpočet vypnutý.
 const CENA_CIEL_DEF=4.2;
 S.profil=Object.assign({osoby:2,kcal:1450,biel:0,ryby:false,lepok:false,mlieko:false,dark:false,big:false,balenia:true,watch:"",zakazane:"",kupSnack:true,cielTyp:"udrzanie",okno:false,oknostart:12,syncId:"",syncOff:false,skupinaId:"",skupinaKod:"",skupinaNazov:"",cenaCiel:CENA_CIEL_DEF,sloty:DEFAULT_SLOTY.slice()}, S.profil||{});
+S.profil.rezim=["plan","obchod","kuchyna"].indexOf(S.profil.rezim)>=0?S.profil.rezim:"plan"; // režim hustoty prežije reload
 if(S.ciel && !S.profil._migr){ S.profil.kcal=parseInt(S.ciel)||S.profil.kcal; S.profil._migr=1; }
 if(_prvySpust && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches){ S.profil.dark=true; } // E6
 function save(){uloz(S); if(typeof syncPush==="function")syncPush(); if(typeof syncOsobnePush==="function")syncOsobnePush(); if(typeof syncSkupinaPush==="function")syncSkupinaPush();}
@@ -478,6 +555,18 @@ const TLAC_CSS = `@media print{
   body.tlac-plan table.plan{table-layout:fixed!important}
   body.tlac-plan table.plan td[data-d],body.tlac-plan table.plan th[data-d]{display:table-cell!important}
   body.tlac-plan table.plan tr.dni-hlavicka{display:table-row!important}
+  /* P4: vlna 3 pridala do plánu aj nákupu skutočné <button> a na papier sa dostali.
+     Rozlišujeme dva druhy. Tlačidlo, ktoré je LEN akcia (✕, ⓘ, ✎, „plán varenia →",
+     „✂️ Upraviť rozvrh", prúžok postupu, panely „Mám doma"/„Trasa obchodom"), sa skryje.
+     Tlačidlo, ktoré nesie OBSAH (názov jedla, kcal dňa), sa NESMIE skryť — inak by sa
+     vytlačil prázdny plán. Dostane display:contents — schránka tlačidla zmizne
+     (žiadny rám, žiadna afordancia, žiadny box v layoute), text zostane. */
+  .plan-cell .pc-x,.plan-cell .pc-ed,.plan-varenia,.rozvrh-upr,.rozvrh-bloky,.plan-zbal,
+  .nak-i,.nak-pruh,.nakup-suhrn button,#v-nakup > details.panel,
+  .suhrn-viac > summary{display:none!important}
+  .plan-cell .nm.pc-btn,.plan-cell .kc.pc-btn{display:contents}
+  /* zbalené „podrobnosti" súhrnu nákupu sa na papieri vypíšu celé */
+  .suhrn-viac,.suhrn-viac > .sv-in{display:contents!important}
 }`;
 const TLAC_PAGE_SIROKO = `@page{size:A4 landscape;margin:8mm}`;
 function tlacStyl(id,css){ let el=document.getElementById(id);
@@ -487,9 +576,13 @@ function tlacStyl(id,css){ let el=document.getElementById(id);
 function tlacPriprav(rezim){ tlacStyl("tlac-css",TLAC_CSS);
   document.body.classList.toggle("tlac-plan",rezim==="plan");
   document.body.classList.toggle("tlac-detail",rezim==="detail");
+  // Zbalený <details> sa nevytlačí — na papieri by chýbalo 14 dochucovadiel. Otvor ho
+  // na čas tlače a po nej vráť späť (aby sa obrazovka nezmenila pod rukami).
+  document.querySelectorAll("#v-nakup details.odd:not([open])").forEach(d=>{ d.dataset.tlacOpen="1"; d.open=true; });
   // @page sa nedá podmieniť triedou na <body>, preto ho pridávame/odoberáme celý.
   tlacStyl("tlac-page",rezim==="plan"?TLAC_PAGE_SIROKO:""); }
-function tlacUprac(){ document.body.classList.remove("tlac-plan","tlac-detail"); tlacStyl("tlac-page",""); }
+function tlacUprac(){ document.body.classList.remove("tlac-plan","tlac-detail"); tlacStyl("tlac-page","");
+  document.querySelectorAll("#v-nakup details.odd[data-tlac-open]").forEach(d=>{ d.open=false; delete d.dataset.tlacOpen; }); }
 window.addEventListener("afterprint",tlacUprac);
 function tlacView(v){ prepni(v);
   document.querySelectorAll(".view").forEach(el=>el.classList.remove("printme"));
@@ -661,6 +754,8 @@ function _gridSledujKoniec(){ if(typeof IntersectionObserver!=="function")return
   _gridIO=new IntersectionObserver(es=>{ if(es.some(e=>e.isIntersecting)) _gridDopln(); },{rootMargin:"600px 0px"});
   _gridIO.observe(b); }
 function zrusFiltre(){ const h=document.getElementById("hladaj"); if(h)h.value=""; ["f-kuchyna","f-cas","f-diet"].forEach(id=>{const e=document.getElementById(id); if(e)e.value="";}); aktivnaKat="Všetko"; aktivnaKolekcia=""; renderChips(); renderKolekcie(); renderGrid(); } // R2
+// P2: jedno miesto, kde sa pýtame „je to telefón?" — rovnaká hranica ako v CSS (820 px).
+function jeMobil(){ return typeof matchMedia==="function" && matchMedia("(max-width:820px)").matches; }
 // U1: sekundárne panely sú na telefóne zbalené; na počítači ostávajú otvorené (je tam miesto)
 function zbalNaMobile(){ if(typeof matchMedia!=="function" || !matchMedia("(max-width:820px)").matches) return;
   document.querySelectorAll("details.mob-zbal[open]").forEach(d=>{ d.open=false; }); }
@@ -1000,15 +1095,25 @@ document.addEventListener("keydown",e=>{ const t=e.target; if(!t||!t.matches)ret
 
 let cookKrok=0, cookKroky=[], wakeLock=null, cookRecept=null, cookAuto=false;
 let casovace=[], casInterval=null, casId=0;
+// Farby blokov na tmavej ploche varenia sú SVETLÉ varianty (svetlá slivka #6E2A55 by na
+// #141210 dala 2,3:1). --akcent sa počíta na <html>, takže sa dnu neprefarbí sám —
+// nastavujeme ho priamo na .cook podľa bloku, v ktorom sa tento recept varí.
+const COOK_BLOKY=["#E39CC4","#6FCBE4","#BCD05E"];
+function blokReceptu(id){ const it=planItems().find(x=>x.cid===id||x.r.id===id); return it?blokIndex(it.di):null; }
 async function spustiCook(){ cookKroky=aktualny.postup||[]; cookKrok=0; cookRecept=aktualny.id;
-  document.getElementById("cook-title").textContent=aktualny.nazov;
-  document.getElementById("cook").classList.add("open"); ukazKrok();
+  const bi=blokReceptu(aktualny.id);
+  const el=document.getElementById("cook");
+  el.style.setProperty("--akcent", bi==null?"#6FCBE4":COOK_BLOKY[bi%3]);
+  document.getElementById("cook-title").innerHTML=(bi==null?"":`<span class="znak ${blokTrieda(bi)}">${blokPismeno(bi)}</span> `)+escHtml(aktualny.nazov);
+  el.classList.add("open"); ukazKrok();
   if('wakeLock' in navigator){ try{wakeLock=await navigator.wakeLock.request('screen');}catch(e){} } }
 function parseCasSek(t){ const m=t.match(/(\d+)(?:\s*[–-]\s*\d+)?\s*(min|minút|minut)/i); const se=t.match(/(\d+)(?:\s*[–-]\s*\d+)?\s*(sek|sekúnd|sekund)/i); if(m)return parseInt(m[1])*60; if(se)return parseInt(se[1]); return 0; }
 function formatCas(x){ const m=Math.floor(x/60),s=x%60; return (m<10?"0":"")+m+":"+(s<10?"0":"")+s; }
 function ukazKrok(){ const t=cookKroky[cookKrok]||"";
   document.getElementById("cook-step").textContent=(cookKrok+1)+". "+t;
   document.getElementById("cook-progress").textContent=(cookKrok+1)+" / "+cookKroky.length;
+  const kr=document.getElementById("cook-kroky");
+  if(kr) kr.innerHTML=cookKroky.map((_,i)=>`<i class="${i<cookKrok?"hot":(i===cookKrok?"tu":"")}"></i>`).join("");
   const sek=parseCasSek(t); const ab=document.getElementById("cook-add-timer");
   if(sek){ ab.style.display="inline-block"; ab.textContent="➕ "+formatCas(sek)+" časovač"; ab.dataset.sek=sek; } else ab.style.display="none";
   if(cookAuto) citajKrok();
@@ -1091,7 +1196,13 @@ function pocetPorciiDna(di,slot){
   return pocetPorcii(di)/f; }
 function porcieSlot(di,slot){ const d=S.slotPpl&&S.slotPpl[datumPre(di)]; const o=d&&d[slot]; return (o>0)?(o/pf(di,slot)):pocetPorciiDna(di,slot); }
 // ponytail: hrubá heuristika mäsa (bez NLP) — na "nie 2× rovnaké mäso za sebou"; morčacie spadá pod hydinu
-function masoTyp(r){ const s=bezDia((r.ingrediencie||[]).map(i=>i.nazov).join(" ")+" "+(r.nazov||""));
+// D1: memo. `masoTyp` aj `ranajkyBaza` púšťajú 5–13 regexov cez spojené názvy surovín a volajú
+// sa pri KAŽDEJ výmene slotu (a od opravy stopy aj pri každom vrátení). Výsledok závisí len od
+// receptu, takže sa cachuje natrvalo do `_memoBaza`/`_memoMaso`.
+const _memoMaso=new Map(), _memoBaza=new Map();
+function masoTyp(r){ if(!r)return ""; const mk=_memoMaso.get(r.id); if(mk!==undefined)return mk;
+  const v=_masoTypVypocet(r); _memoMaso.set(r.id,v); return v; }
+function _masoTypVypocet(r){ const s=bezDia((r.ingrediencie||[]).map(i=>i.nazov).join(" ")+" "+(r.nazov||""));
   if(/kura|kurac|kurca|kurci|slepac|sliepk|morcac|moriak|hydin/.test(s))return "hydina";
   if(/losos|tuniak|treska|ryb(a|y|ac|ie|i)|kreveta|garnat|makrela|pstruh|sardin|krabie/.test(s))return "ryby";
   if(/bravc|slanin|sunk|klobas|parok|panenk|prosciutto/.test(s))return "bravcove";
@@ -1108,7 +1219,44 @@ function jeSendvic(r){ const b=ranajkyBaza(r); if(["tortilla","bageta","toast","
 function fmtPct(f){ return f===1?"":(" · "+Math.round(f*100)+"%"); }
 function planItems(){ const out=[]; for(let di=0;di<7;di++){ slotyDna(di).forEach(sl=>{ slotIds(di,sl).forEach(cid=>{ const r=komponent(cid); if(r)out.push({r,cid,di,slot:sl,f:pf(di,sl)}); }); }); } return out; }
 function planovaneRecepty(){ return planItems().map(x=>x.r); }
-function applyVzhlad(){ document.body.classList.toggle("dark",!!S.profil.dark); document.body.classList.toggle("big",!!S.profil.big); }
+function applyVzhlad(){ document.body.classList.toggle("dark",!!S.profil.dark); document.body.classList.toggle("big",!!S.profil.big);
+  // „svetla" je STAMP: bez neho platí @media(prefers-color-scheme:dark) a appka je tmavá
+  // podľa systému ešte skôr, než sa JS dostane k slovu. S ním je voľba používateľa konečná.
+  document.body.classList.toggle("svetla",!S.profil.dark);
+  applyRezim(); nastavAkcent(); }
+
+/* ── Režimy hustoty (koncepcia B) ──────────────────────────────────────────
+   Tri fyzické situácie, nie tri appky: Plánovanie 1,0/44 px · Obchod 1,22/56 px ·
+   Kuchyňa 1,5/64 px. Menia tokeny --skala a --cil na <html>; --skala zväčšuje obsah
+   (.content a .modal majú zoom:var(--skala)), --cil dvíha dotykové ciele.
+   Kuchyňa NEPREBÍJA režim varenia — dopĺňa ho: varenie sa otvára ako doteraz,
+   len všetko okolo neho je väčšie. Voľba žije v S.profil.rezim a prežije reload. */
+const REZIMY=["plan","obchod","kuchyna"];
+function applyRezim(){ const r=REZIMY.includes(S.profil.rezim)?S.profil.rezim:"plan";
+  document.documentElement.setAttribute("data-rezim",r);
+  document.querySelectorAll("#rezimy button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.rezim===r))); }
+function nastavRezim(r){ if(!REZIMY.includes(r))r="plan"; tik();
+  S.profil.rezim=r; save(); applyRezim();
+  if(r==="obchod" && _curView!=="nakup") prepni("nakup");
+  else if(r==="plan" && _curView==="nakup") { /* nechaj obrazovku tak, mení sa len hustota */ }
+  toast(r==="obchod"?"🛒 Režim Obchod — väčšie ciele na odškrtávanie."
+      :r==="kuchyna"?"🍳 Režim Kuchyňa — väčšie písmo pre mastné ruky."
+      :"📋 Režim Plánovanie — hustejšia informácia."); }
+
+/* Blok = farba. Akcent je farba bloku, v ktorom sa práve nachádzam; token sa prepisuje
+   na <html>, takže všetko, čo píše var(--accent) (aj inline štýly v app.js), sa prefarbí samo. */
+const BLOK_TRIEDY=["blok-a","blok-b","blok-c"];
+function dnesDi(){ return (new Date().getDay()+6)%7; }
+function blokTrieda(bi){ return BLOK_TRIEDY[((bi%3)+3)%3]; }
+function blokPismeno(bi){ return String.fromCharCode(65+bi); }
+function blokIndex(di){ const b=bloky(); for(let i=0;i<b.length;i++) if(b[i].indexOf(di)>=0) return i; return 0; }
+function znakBloku(bi,titul){ const t=blokTrieda(bi), p=blokPismeno(bi);
+  return `<span class="znak ${t}" title="${titul||("Blok "+p)}" aria-label="Blok ${p}">${p}</span>`; }
+function nastavAkcent(bi){ try{
+    if(bi==null) bi=blokIndex(dnesDi());
+    const t=blokTrieda(bi); const st=document.documentElement.style;
+    st.setProperty("--akcent","var(--"+t+")"); st.setProperty("--akcent-tlac","var(--"+t+")");
+  }catch(e){} }
 
 function hraniceInit(){ if(!Array.isArray(S.hranice)||S.hranice.length!==7)S.hranice=[true,false,true,false,false,true,false]; S.hranice[0]=true; }
 function bloky(){ hraniceInit(); const out=[]; let cur=null; for(let i=0;i<7;i++){ if(i===0||S.hranice[i]){ cur=[i]; out.push(cur); } else cur.push(i); } return out; }
@@ -1150,9 +1298,13 @@ function aktivnyRozvrhId(){ if(!S.blokMode) return "denne";
 
 // Zmena hraníc plán NEMAŽE — len môže rozbiť pravidlo „v jednom bloku sa je to isté".
 // Toto vráti indexy blokov, kde majú dni rôzny obsah, aby sme to používateľovi vedeli povedať.
+// P5: „nejednotný blok" je varovanie o BATCH COOKINGU — že sa v jednom bloku varí viackrát.
+// Snackový slot sa nevarí (je to zabalený výrobok z regálu) a od vlny P5 sa zámerne líši deň
+// od dňa, takže do tejto kontroly nepatrí — inak appka po každom generovaní hlási nejednotnosť,
+// ktorá žiadnu prácu navyše nestojí.
 function nejednotneBloky(){ const out=[];
   bloky().forEach((b,idx)=>{ if(b.length<2)return;
-    const sloty=[...new Set(b.flatMap(d=>slotyDna(d)))];
+    const sloty=[...new Set(b.flatMap(d=>slotyDna(d)))].filter(s=>!jeSnackSlot(s));
     const zle=sloty.some(s=>{ const dni=b.filter(d=>slotyDna(d).includes(s)); if(dni.length<2)return false;
       const prvy=JSON.stringify(slotIds(dni[0],s)); return dni.some(d=>JSON.stringify(slotIds(d,s))!==prvy); });
     if(zle) out.push(idx); });
@@ -1196,10 +1348,16 @@ async function ulozRozvrh(){ hraniceInit();
 function zmazRozvrh(id){ S.rozvrhy=(S.rozvrhy||[]).filter(r=>r.id!==id); save(); renderRozvrhDialog(); }
 
 // ── Pás nad tabuľkou plánu ───────────────────────────────────────────────────
+// P2: na telefóne mal pás rozvrhu 189 px a odtlačil tabuľku plánu pod prehyb. Zbalený ukazuje
+// jeden riadok („🍳 Rozvrh varenia · 3 bloky" + ✂️ + ▾); vetu a tri bloky rozbalí ťuknutie.
+// Nič sa nestráca: blok práve zvoleného dňa aj s varným dňom je v hlavičke tabuľky pod pásom.
+let _pasOtvoreny=false;
+function prepniRozvrhPas(){ _pasOtvoreny=!_pasOtvoreny; renderRozvrhPas(); }
 function renderRozvrhPas(){ const box=document.getElementById("rozvrh-pas"); if(!box)return;
-  const upr='<button class="btn rozvrh-upr" onclick="otvorRozvrh()" aria-label="Upraviť rozvrh varenia — kedy varíš a na koľko dní">✂️ Upraviť rozvrh</button>';
+  const upr='<button class="btn rozvrh-upr" onclick="otvorRozvrh()" aria-label="Upraviť rozvrh varenia — kedy varíš a na koľko dní">✂️ <span class="tl">Upraviť rozvrh</span></button>'
+    +'<button class="btn plan-zbal" onclick="prepniRozvrhPas()" aria-expanded="'+(_pasOtvoreny?"true":"false")+'" aria-controls="rozvrh-pas" aria-label="'+(_pasOtvoreny?"Zbaliť":"Rozbaliť")+' podrobnosti rozvrhu varenia"><span aria-hidden="true">'+(_pasOtvoreny?"▴":"▾")+'</span></button>';
   const hlava=nadpis=>'<div class="rozvrh-hlava"><span class="rozvrh-nadpis">🍳 Rozvrh varenia'+nadpis+'</span>'+upr+'</div>';
-  box.className="rozvrh-pas d"+planDen;
+  box.className="rozvrh-pas d"+planDen+(_pasOtvoreny?" otvoreny":"");
   if(!S.blokMode){ box.innerHTML=hlava("")
       +'<p class="info" style="margin:7px 0 0">Každý deň zvlášť — každý deň má vlastné jedlá a varí sa nanovo. Ak varíš na viac dní dopredu, zapni bloky v „Upraviť rozvrh“.</p>';
     zpristupniKliky(box); return; }
@@ -1207,7 +1365,7 @@ function renderRozvrhPas(){ const box=document.getElementById("rozvrh-pas"); if(
   let h=hlava(" · "+bl.length+(bl.length===1?" blok":(bl.length<5?" bloky":" blokov")))
     +'<p class="info" style="margin:7px 0 0">'+rozvrhZhrnutie()+'</p><div class="rozvrh-bloky">';
   bl.forEach((b,idx)=>{ const pism=String.fromCharCode(65+idx);
-    h+='<button class="rozvrh-blok" data-d="'+b.join(" ")+'" onclick="planVarenia('+b[0]+')" aria-label="'+escHtml(vetaBloku(b))+' Otvoriť plán varenia pre blok '+pism+'">'
+    h+='<button class="rozvrh-blok '+blokTrieda(idx)+'" data-d="'+b.join(" ")+'" onclick="planVarenia('+b[0]+')" aria-label="'+escHtml(vetaBloku(b))+' Otvoriť plán varenia pre blok '+pism+'">'
       +'<span class="rb-pis" aria-hidden="true">'+pism+'</span><span class="rb-txt"><b>'+escHtml(vetaBloku(b))+'</b>'
       +'<small>'+rozsahKratko(b)+' · '+b.length+(b.length===1?" deň":(b.length<5?" dni":" dní"))+' z jednej várky · plán varenia →</small></span></button>'; });
   h+='</div>'; box.innerHTML=h; zpristupniKliky(box); }
@@ -1230,9 +1388,9 @@ function renderRozvrhDialog(){ const box=document.getElementById("rozvrh-body");
   h+='<h4 class="sekcia">Vlastné rozdelenie</h4><p class="info" style="margin:0 0 8px">Ťukni medzi dva dni: <b>✂</b> = tu sa začína nový blok (varíš deň predtým večer), <b>·</b> = dni patria do jedného bloku.</p>';
   h+='<div id="rozvrh-dni" class="rozvrh-dni">';
   if(!S.blokMode){ h+='<p class="info">Bloky sú vypnuté. Ťukni na hranicu a zapnú sa.</p>'; }
-  const parita={}; bloky().forEach((b,i)=>b.forEach(d=>parita[d]=i%2));
-  for(let i=0;i<7;i++){ const tr=S.blokMode?(parita[i]?"blokb":"bloka"):"";
-    h+='<span class="rozvrh-den '+tr+'">'+DNI[i].slice(0,2)+'</span>';
+  const idxB={}; bloky().forEach((b,i)=>b.forEach(d=>idxB[d]=i));
+  for(let i=0;i<7;i++){ const bi=idxB[i]||0; const tr=S.blokMode?blokTrieda(bi):"";
+    h+='<span class="rozvrh-den '+tr+'" title="'+(S.blokMode?"Blok "+blokPismeno(bi):"")+'">'+DNI[i].slice(0,2)+(S.blokMode?'<b class="rd-p" aria-hidden="true">'+blokPismeno(bi)+'</b>':'')+'</span>';
     if(i<6){ const sp=!!S.hranice[i+1]&&S.blokMode; const tit=sp?"spojiť "+DNI[i]+" a "+DNI[i+1]+" do jedného bloku":"rozdeliť medzi "+DNI[i]+" a "+DNI[i+1];
       h+='<button class="hranica'+(sp?" rez":"")+'" onclick="toggleHranica('+(i+1)+')" title="'+tit+'" aria-label="'+tit+'">'+(sp?"✂":"·")+'</button>'; } }
   h+='</div>';
@@ -1267,7 +1425,7 @@ function tyzdenNavHTML(){ const jeTentoTyzden=S.viewOd===pondelokPre(dnesISO());
     <span class="chip" style="cursor:pointer" onclick="posunTyzden(-1)" title="Predchádzajúci týždeň">◀</span>
     <span class="chip" style="cursor:default;font-weight:600">${fmtD(S.viewOd)}–${fmtD(pridajDni(S.viewOd,6))}</span>
     <span class="chip" style="cursor:pointer" onclick="posunTyzden(1)" title="Ďalší týždeň">▶</span>
-    ${jeTentoTyzden?"":'<span class="chip" style="cursor:pointer" onclick="skokNaDnesTyzden()">📅 Tento týždeň</span>'}
+    ${jeTentoTyzden?"":'<span class="chip" style="cursor:pointer" onclick="skokNaDnesTyzden()" aria-label="Skočiť na tento týždeň">📅 <span class="tl">Tento týždeň</span></span>'}
   </div>`; }
 function renderTyzdenNav(){ const el=document.getElementById("plan-kontext"); if(el){el.innerHTML=tyzdenNavHTML(); zpristupniKliky(el);} }
 // Na mobile sa 7 stĺpcov nezmestí — ukazujeme jeden deň naraz (CSS skryje ostatné stĺpce, dáta ostávajú tie isté).
@@ -1290,9 +1448,12 @@ function renderPlanPrazdny(){ const el=document.getElementById("plan-prazdny"); 
   zpristupniKliky(el); }
 function renderPlan(){
   renderTyzdenNav(); hraniceInit(); renderRozvrhPas(); renderPlanPrazdny(); renderDenNav();
-  const bl=bloky(); const parita={}; bl.forEach((b,idx)=>b.forEach(di=>parita[di]=idx%2));
-  // trieda, nie inline background — inline štýl prebíja body.dark a v tmavom režime robí tabuľku nečitateľnou
-  const tint=di=>S.blokMode?(parita[di]?'blokb':'bloka'):'';
+  const bl=bloky(); const idxBloku={}; bl.forEach((b,idx)=>b.forEach(di=>idxBloku[di]=idx));
+  // trieda, nie inline background — inline štýl prebíja body.dark a v tmavom režime robí tabuľku nečitateľnou.
+  // Koncepcia B: farba = blok (A slivka / B more / C oliva), nie striedanie dvoch odtieňov.
+  // Farba nikdy nestojí sama — písmeno bloku je v hlavičke stĺpca aj v páse nad tabuľkou.
+  const bIdx=di=>idxBloku[di]||0;
+  const tint=di=>S.blokMode?("bunka-"+blokTrieda(bIdx(di)).slice(5)):'';
   const t=document.getElementById("plan-table"); 
   // table-layout:fixed berie šírky z PRVÉHO riadku; ten má v blokovom režime colspan bunky, takže
   // zvyšok šírky spadol do stĺpca s názvami jedál (718 px) a dni dostali 51 px. <colgroup> to určí priamo.
@@ -1303,8 +1464,11 @@ function renderPlan(){
     // B1: hlavička bloku hovorí aj VARNÝ DEŇ, nielen rozsah — bez toho sa dalo z tabuľky vyčítať
     // „Blok A · Po–Ut", ale nie „varíš v nedeľu večer". Celá veta je v title/aria a v páse nad tabuľkou.
     bl.forEach((b,idx)=>{ const pism=String.fromCharCode(65+idx); const vari=DNI[varnyDen(b[0])].slice(0,2); const veta=escHtml(vetaBloku(b));
-      h+=`<td colspan="${b.length}" data-d="${b.join(" ")}" class="${tint(b[0])} blok-hlava" title="${veta}"><b>Blok ${pism} · ${rozsahKratko(b)}</b><br><span class="bh-vari">🍳 varíš ${vari} večer</span><br><button class="plan-varenia lnk" onclick="planVarenia(${b[0]})" aria-label="${veta} Otvoriť plán varenia pre blok ${pism}">plán varenia →</button></td>`; }); h+="</tr>"; }
-  h+='<tr class="dni-hlavicka"><th>Jedlo</th>'; DNI.forEach((d,di)=>h+=`<th data-d="${di}">${d.slice(0,3)}</th>`); h+="</tr>";
+      h+=`<td colspan="${b.length}" data-d="${b.join(" ")}" class="${blokTrieda(idx)} blok-hlava" title="${veta}"><b>${znakBloku(idx)} Blok ${pism} · ${rozsahKratko(b)}</b><br><span class="bh-vari">🍳 varíš ${vari} večer</span><br><button class="plan-varenia lnk" onclick="planVarenia(${b[0]})" aria-label="${veta} Otvoriť plán varenia pre blok ${pism}">plán varenia →</button></td>`; }); h+="</tr>"; }
+  h+='<tr class="dni-hlavicka"><th>Jedlo</th>';
+  DNI.forEach((d,di)=>{ const bi=bIdx(di);
+    h+=`<th data-d="${di}" class="${blokTrieda(bi)}">${znakBloku(bi,"Blok "+blokPismeno(bi)+" · "+d)}${d.slice(0,3)}</th>`; });
+  h+="</tr>";
   h+='<tr class="ctrl-row"><td class="slotname rohova"></td>';
   DNI.forEach((d,di)=>{ const custom=(S.dayPpl[datumPre(di)]!=null); const ppl=custom?S.dayPpl[datumPre(di)]:stravniciList().length;
     const chips=rowSloty.map(s=>{ const on=slotyDna(di).indexOf(s)>=0;
@@ -1325,7 +1489,7 @@ function renderPlan(){
             :k._left?`<button class="nm pc-btn" onclick="otvor('${k._srcId}')" title="Zvyšok — zobraziť recept" aria-label="Zvyšok ${kn} — zobraziť recept">♻️ ${kn} <small>(zvyšok)</small></button>`
             :`<button class="nm pc-btn pc-odkaz" onclick="otvor('${cid}',{di:${di},slot:'${slot}'})" title="Zobraziť recept" aria-label="${kn} — zobraziť recept">${kn}</button>`;
           return `<div style="display:flex;justify-content:space-between;gap:4px;align-items:start">${nm}<button class="pc-btn pc-x" onclick="odoberKomponent(${di},'${slot}','${cid}')" title="odobrať" aria-label="Odobrať ${kn} z plánu — ${kde}">✕</button></div>`;}).join("");
-        h+=`<td data-d="${di}" class="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><div class="plan-cell" draggable="true" ondragstart="dragStart(event,${di},'${slot}')" title="Potiahni pre presun">${riadky}<button class="kc pc-btn" title="Upraviť veľkosť porcie" aria-label="Upraviť veľkosť porcie — ${kde}" onclick="upravFaktor(${di},'${slot}')">${Math.round(kc*f)} kcal ${fmtPct(f)} ✎</button><span style="display:flex;gap:14px;margin-top:2px"><button class="rm pc-btn" style="color:var(--accent)" aria-label="Zmeniť jedlo — ${kde}" onclick="vyberDoPlanu(${di},'${slot}')">✎ zmeniť</button><button class="rm pc-btn" style="color:var(--accent)" onclick="akcieSlotu(${di},'${slot}')" title="Doplnok, znova, porcie, zvyšok" aria-label="Ďalšie akcie — ${kde}">⋯ viac</button></span></div></td>`;
+        h+=`<td data-d="${di}" class="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><div class="plan-cell" draggable="true" ondragstart="dragStart(event,${di},'${slot}')" title="Potiahni pre presun">${riadky}<button class="kc pc-btn" title="Upraviť veľkosť porcie" aria-label="Upraviť veľkosť porcie — ${kde}" onclick="upravFaktor(${di},'${slot}')">${Math.round(kc*f)} kcal ${fmtPct(f)} <i class="pc-ed" aria-hidden="true">✎</i></button><span style="display:flex;gap:14px;margin-top:2px"><button class="rm pc-btn" style="color:var(--accent)" aria-label="Zmeniť jedlo — ${kde}" onclick="vyberDoPlanu(${di},'${slot}')">✎ zmeniť</button><button class="rm pc-btn" style="color:var(--accent)" onclick="akcieSlotu(${di},'${slot}')" title="Doplnok, znova, porcie, zvyšok" aria-label="Ďalšie akcie — ${kde}">⋯ viac</button></span></div></td>`;
       } else h+=`<td data-d="${di}" class="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><button class="plan-cell prazdne pc-btn pc-empty" aria-label="Pridať jedlo — ${DNI[di]}, ${slot}" onclick="vyberDoPlanu(${di},'${slot}')">+ pridať</button></td>`;
     });
     h+="</tr>";
@@ -1338,6 +1502,13 @@ function renderPlan(){
     h+=`<td data-d="${di}" class="${over?'over':''}" title="${st.d?st.d+' kcal vs cieľ':''}"><span style="color:${st.c}">${sum}${ciel?'<span class="ciel-mini">/'+ciel+'</span>':''}</span>${over?" ⚠":""}${ciel?`<div class="kc-bar"><i style="width:${pct}%;background:${st.c||'var(--accent)'}"></i></div>`:""}</td>`; });
   h+="</tr>"; t.innerHTML=h; t.className="plan d"+planDen;
 }
+// P2: riadok so stravníkmi a slotmi dňa (👥 − 2 + · ikonky jedál) zaberal na telefóne 98 px
+// nad prvým jedlom. Na mobile je skrytý a otvára ho položka „👥 Stravníci a jedlá dňa"
+// v „⋯ Viac"; na počítači je stále rovno v tabuľke.
+function prepniPlanCtrl(){ const on=!document.body.classList.contains("plan-ctrl");
+  document.body.classList.toggle("plan-ctrl",on);
+  const a=document.getElementById("m-plan-ctrl"); if(a)a.setAttribute("aria-pressed",on?"true":"false");
+  toast(on?"Stravníci a jedlá dňa sú v tabuľke.":"Stravníci a jedlá dňa sú skryté."); }
 let dragSrc=null;
 function dragStart(e,di,slot){ dragSrc={di,slot}; try{e.dataTransfer.effectAllowed="move";e.dataTransfer.setData("text","x");}catch(_){} }
 function dragOver(e){ e.preventDefault(); try{e.dataTransfer.dropEffect="move";}catch(_){} }
@@ -1456,7 +1627,9 @@ function ulozDoPlanu(id){ const di=parseInt(document.getElementById("pdp-den").v
   rescaleDen(dni); save(); zavriPick(); prepni("planovac"); }
 // A7: skutočné triedy raňajok. Predtým všetko nesendvičové vrátilo unikát ("iná:id"),
 // takže dedup báz nerobil nič a týždeň mohol byť 5× ovsená kaša.
-function ranajkyBaza(r){ const s=bezDia(r.nazov+" "+(r.ingrediencie||[]).map(i=>i.nazov).join(" ")+" "+((r.tagy||[]).join(" ")));
+function ranajkyBaza(r){ if(!r)return ""; const mk=_memoBaza.get(r.id); if(mk!==undefined)return mk;
+  const v=_ranajkyBazaVypocet(r); _memoBaza.set(r.id,v); return v; }
+function _ranajkyBazaVypocet(r){ const s=bezDia(r.nazov+" "+(r.ingrediencie||[]).map(i=>i.nazov).join(" ")+" "+((r.tagy||[]).join(" ")));
   if(/tortill|wrap|burrito|quesadill/.test(s)) return "tortilla";
   if(/bagel/.test(s)) return "bagel";
   if(/baget|panini|ciabatt|focacc/.test(s)) return "bageta";
@@ -1487,9 +1660,9 @@ function _poolPreSlotVypocet(slot){
   let pool=RECEPTY.filter(r=>r.kategoria!=="Kokteil"&&r.kategoria!=="Nápoj"&&prejdeProfil(r));
   const kats=SLOT_KATEGORIE[slot]||[];
   let p=pool.filter(r=>kats.includes(r.kategoria));
-  if(jeSnackSlot(slot)){ const v=p.filter(jeVyrobok); if(v.length) return _cenovyStrop(v); }
+  if(jeSnackSlot(slot)){ const v=p.filter(jeVyrobok); if(v.length) return _cenovyStrop(v,slot); }
   if(!p.length) p=pool.filter(r=>r.kategoria!=="Kokteil"&&r.kategoria!=="Nápoj");
-  return _cenovyStrop(p);
+  return _cenovyStrop(p,slot);
 }
 // R5: mäkký strop na luxus sa uplatní RAZ, na celom univerze receptov — nie zakaždým vo výbere.
 // Prečo takto: opravné prechody (kcal, poradie, bielkoviny, vláknina) robia desiatky výmen a každý
@@ -1498,9 +1671,34 @@ function _poolPreSlotVypocet(slot){
 // s cenou nesúťaží. Strop je na €/100 kcal, takže netrestá veľké jedlá, len drahé suroviny.
 // Poistka: ak by strop zobral viac než 60 % poolu (úzky profil, drahá databáza), neuplatní sa —
 // pravidlá slotu a pestrosť sú prednejšie než rozpočet.
-function _cenovyStrop(p){
+// D2: v SNACKOVOM slote sa strop meria na PORCII, nie na 100 kcal. Snack je hotový kúpený
+// výrobok s malým objemom, takže sa mu €/100 kcal počíta z 60–150 kcal a vyjde vysoké aj pri
+// úplne bežnej cene: 88 kcal skyr za 0,98 € = 1,11 €/100 kcal a starý strop (3 × rozpočet na
+// 100 kcal = 0,87) ho vyhodil. Spolu s ním vypadol VŠETOK skyr, proteínové nápoje aj jogurt,
+// všetky tri šunky, tuniak, sušené hovädzie a kurací wrap — 19 z 90 výrobkov a práve tie
+// najbielkovinovejšie (pool klesol na 71 s mediánom 3,5 g bielkovín/100 kcal).
+// Rozpočet snacku je daný jeho PODIELOM NA DNI (~0,42 € pri 4,20 €/deň), nie jeho vlastnými
+// kalóriami — inak si malé jedlo kúpi strop len tým, že je malé, a veľké lacné jedlo dostane
+// rozpočet, ktorý nikdy neminie. Údený losos za 2,90 €/porcia stropom stále neprejde.
+function _cenovyStrop(p,slot){
   const ref=cenaRef(); if(!(ref>0)||!p.length) return p;
-  const pc=p.filter(r=>{ const c=cenaNa100(r); return !(c>ref*CENA_LUX); });
+  let test;
+  if(slot && jeSnackSlot(slot)){
+    // Základ rozpočtu = podiel snacku na dni, ale najmenej MEDIÁN ceny porcie v katalógu.
+    // Rozpočet 0,42 €/porcia je na hotové balené výrobky nereálny (medián katalógu je ~0,9 €)
+    // a sám by vyhodil aj obyčajnú šunku. Mediánová poistka robí zo stropu detektor OUTLIEROV
+    // v rámci katalógu (dnes ~2,7 €: kurací wrap 3,06 € a balené cherry paradajky 2,75 €),
+    // nie nástroj na škrtanie bielkovín. Týždenný rozpočet stráži `zlacniDen` a cenová pokuta
+    // v `skoreJedla`, ktoré vidia celý deň — nie tento predfilter.
+    const cielK=cielSlotu(slot,SLOTY(),S.profil.kcal||0);
+    const ceny=p.map(r=>vyzivaReceptu(r).cena||0).filter(c=>c>0).sort((a,b)=>a-b);
+    const med=ceny.length?ceny[ceny.length>>1]:0;
+    const strop=Math.max(ref*Math.max(60,cielK)/100,med)*CENA_LUX;
+    // pozn.: `med` sa tu počíta z `p` (ešte neexistuje pool slotu, práve ho staviame),
+    // v `cenaSlotu` z hotového poolu cez `_medianCenaPoolu` — obe dávajú to isté číslo.
+    test=r=>!((vyzivaReceptu(r).cena||0)>strop);
+  } else test=r=>!(cenaNa100(r)>ref*CENA_LUX);
+  const pc=p.filter(test);
   return (pc.length>=Math.max(MIN_POOL,Math.ceil(p.length*0.4)))?pc:p;
 }
 function akcieTokens(){ return (S.akcie||"").toLowerCase().split(/[\n,;]+/).map(x=>x.trim()).filter(Boolean); }
@@ -1517,9 +1715,131 @@ function bielkovinyNa100(r){ const v=vyzivaReceptu(r); return v.kcal>5 ? v.b/(v.
 // Faktor to potom sťahoval a visel na dolnom doraze (medián 0,9). Odtiaľ všetky tri problémy:
 // slabá kcal-presnosť pred škálovaním, riedené bielkoviny (príloha je 200 kcal takmer bez bielkovín)
 // aj zaseknutý zlepsiBielkoviny (deň už bol na kalorickom strope, ďalšia výmena ho prebila).
+// ── P5: SNACK AKO DVOJICA (hotový výrobok + hotový doplnok) ───────────────────
+// Zadanie používateľa: „ako snack tam môžu byť normálne veci, čo vieš kúpiť v supermarkete —
+// nič, čo treba robiť alebo zvlášť vážiť. Normálne zabalené, ako sa to kúpi." To pravidlo
+// platí ďalej: OBA komponenty snacku sú kategórie Snack, typ „vyrobok", 1 balenie = 1 porcia.
+//
+// Prečo dvojica. Slot Snack má pri 1450 kcal cieľ 145 kcal a okno 87–210. Jablko má 78 kcal,
+// mandarínky 74, čučoriedky 71, reďkovky 32 — pod dolnú hranicu, takže sa do plánu NEMOHLI
+// dostať vôbec (namerané: čerstvé ovocie tvorilo 2,5 % snackov). Rozšíriť okno nadol sa dá,
+// ale potom je „desiata" 78 kcal a deň si to musí vybrať inde. Reálna desiata je pritom dvojica:
+// jablko s hrsťou orieškov, jogurt s banánom, mrkva so syrovými niťami. Appka to vie —
+// slot má viac komponentov (`slotIds`, `komponent`), presne ako hlavný chod s prílohou.
+//
+// Doplnok sa priradí, keď výrobok NIE JE snack sám o sebe:
+//   • je príliš malý (< SNACK_SOLO_KCAL), alebo
+//   • je výživovo chudobný (< SNACK_SOLO_B100 g bielkovín/100 kcal) — sem padá holý rožok,
+//     holý chlieb, popcorn aj čokoláda. „Suchý rožok ako olovrant" tým prestáva existovať:
+//     buď dostane šunku/syr, alebo mu súčet vypadne z kcal-okna a nevyberie sa.
+// Ktorý doplnok: bielkovinový výrobok k ovociu/zelenine/pečivu/orechom, ovocie k mliečnym,
+// syrom, mäsu a k sladkému. Voľba je DETERMINISTICKÁ (hash id + poradové číslo týždňa), aby
+// `jedloVyziva` počítala presne to, čo `zlozSlot` naozaj zapíše do plánu — a aby sa dvojice
+// medzi týždňami premiešali. Nákup ani prepočet porcií to nerozbíja: druhý komponent je
+// obyčajný recept s jednou ingredienciou „1 ks", rovnako ako prvý.
+const SNACK_SOLO_KCAL=85, SNACK_SOLO_B100=4;
+const SNACK_DOPL_OVOCIE=["kup-jablko","kup-banan","kup-mandarinky","kup-hrozno","kup-hruska",
+  "kup-broskyna","kup-nektarinka","kup-cucoriedky","kup-maliny","kup-jahody","kup-pomaranc",
+  "kup-kiwi","kup-marhule","kup-ceresne","kup-mango-kus","kup-klementinky","kup-grep"];
+const SNACK_DOPL_BIELKOVINA=["kup-skyr-biely","kup-grecky-jogurt-nula","kup-jogurt-biely-light",
+  "kup-jogurt-biely","kup-sunka-dusena","kup-sunka-morcacia","kup-sunka-kuracia",
+  "kup-kuracie-jerky","kup-krabie-tycinky","kup-mini-syry","kup-tavene-trojuholniky",
+  "kup-cmar","kup-syrove-nite-male","kup-eidam-platky-male","kup-babybel","kup-varene-vajce",
+  "kup-mozzarella-snack","kup-cottage-maly","kup-tuniak-mini","kup-kabanos-mini",
+  "kup-skyr-pistacia"];
+// koľko kcal smie mať náhradný doplnok navyše/menej oproti tomu, ktorý vyšiel z hashu.
+// Náhrada sa hľadá len vtedy, keď je nominálny doplnok v týždni už použitý — vďaka pásmu
+// zostáva `jedloVyziva` (ktorá počíta s nominálnym) v rámci ±20 kcal presná.
+const SNACK_DOPL_KCAL_TOL=12, SNACK_DOPL_B100=8, SNACK_DOPL_B_TOL=2;
+// druh snacku — používa sa na pestrosť v týždni (nie dvakrát to isté „oddelenie regálu")
+// aj na voľbu doplnku. Poradie testov je zámerné: sušené ovocie nie je čerstvé ovocie,
+// ovocná tyčinka nie je ovocie.
+// koľkokrát smie ísť do týždňa ten istý druh: najprv sa skúsi „ani raz", potom „najviac dvakrát".
+// Tvrdý strop 1 zúžil pool per-denného výberu na 5–14 kandidátov a polovica dní tak zostala
+// s tým istým snackom ako prvý deň bloku.
+const SNACK_DRUH_STROPY=[1,2,3];
+function snackDruh(r){
+  if(!r) return "iné";
+  const t=new Set(r.tagy||[]);
+  if(t.has("tyčinka")||t.has("sušienky")) return "tyčinka";
+  if(t.has("sušené")) return "sušené";
+  if(t.has("ovocie")) return "ovocie";
+  if(t.has("zelenina")) return "zelenina";
+  if(t.has("orechy")||t.has("semienka")) return "orechy";
+  if(t.has("pečivo")||t.has("sendvič")||t.has("wrap")) return "pečivo";
+  if(t.has("čokoláda")||t.has("dezert")) return "sladké";
+  if(t.has("chrumkavé")||t.has("slané")) return "slané";
+  if(t.has("syr")) return "syr";
+  if(t.has("mäso")||t.has("ryba")) return "mäso";
+  if(t.has("nápoj")) return "nápoj";
+  if(t.has("mliečne")||t.has("jogurt")||t.has("skyr")||t.has("tvaroh")) return "mliečne";
+  return "iné"; }
+const SNACK_DRUH_DOPL={ovocie:"B",zelenina:"B",pečivo:"B",orechy:"B",sušené:"B",
+  mliečne:"O",syr:"O",mäso:"O",nápoj:"O",sladké:"O",tyčinka:"O",slané:"O"};
+let _snackDoplCache=null;
+function _snackDoplZoznamy(){ if(_snackDoplCache) return _snackDoplCache;
+  const ok=z=>z.filter(id=>{ const r=receptById(id); return !!r && jeVyrobok(r) && r.kategoria==="Snack"; });
+  _snackDoplCache={O:ok(SNACK_DOPL_OVOCIE),B:ok(SNACK_DOPL_BIELKOVINA)};
+  return _snackDoplCache; }
+function _snackHash(s){ let h=0; for(let i=0;i<s.length;i++) h=(h*31+s.charCodeAt(i))>>>0; return h; }
+// poradové číslo zobrazeného týždňa — dvojice sa tým medzi týždňami pretočia
+function _snackTyzdenIx(){ const d=Date.parse((S.viewOd||"2026-01-05")+"T00:00:00Z");
+  return isFinite(d)?Math.floor(d/6048e5):0; }
+// Pamäť snackov platná pre celé jedno generovanie. Je tu preto, aby bol doplnok funkciou
+// vecí, ktoré sa počas generovania NEMENIA (výrobok, týždeň, pamäť) — `jedloVyziva` tak
+// počíta presne tú dvojicu, ktorú `zlozSlot` naozaj zapíše. Keby doplnok závisel od
+// priebežne rastúceho `ctx.pouzite`, optimalizátor by rátal s jednou dvojicou a do plánu
+// by sa zapísala iná (namerané: kcal-presnosť dňa spadla zo 100 na 98,6 %).
+let _genPamatSnack=null;
+function snackDoplnok(r){
+  if(!r||!jeVyrobok(r)||r.kategoria!=="Snack") return null;
+  if(kcalPorcia(r)>=SNACK_SOLO_KCAL && bielkovinyNa100(r)>=SNACK_SOLO_B100) return null;
+  const z=_snackDoplZoznamy()[SNACK_DRUH_DOPL[snackDruh(r)]||"B"]||[];
+  let kand=z.filter(id=>id!==r.id);
+  if(!kand.length) return null;
+  // doplnok z posledných TYZDNE_PAMATE_SNACK týždňov sa preskočí, ak je z čoho vyberať
+  if(_genPamatSnack){ const c=kand.filter(id=>!_genPamatSnack.has(id)); if(c.length)kand=c; }
+  return kand[(_snackHash(r.id)+_snackTyzdenIx())%kand.length]; }
+// Pri skladaní slotu sa doplnok, ktorý je v týždni už použitý ALEBO bol nedávno, vymení za
+// rovnako veľký iný. Bez toho visí jeden jogurt pri každom druhom ovocí (namerané 43× na
+// 40 týždňov) a susedné týždne sa začnú opakovať. Náhrada sa hľadá v celom poole snacku,
+// nie len v krátkom zozname, a v pásme ±SNACK_DOPL_KCAL_TOL okolo nominálneho doplnku —
+// vďaka tomu zostáva `jedloVyziva` (ktorá počíta s nominálnym) presná.
+// Náhradný doplnok musí sedieť s nominálnym nielen v kcal, ale aj v BIELKOVINÁCH — inak
+// optimalizátor dňa počíta s jednou dvojicou a do plánu sa zapíše slabšia (namerané:
+// 3,8 % dní pod 80 g bielkovín, keď sa strážili len kalórie).
+function _snackDoplKandidati(r,slot,k0,b0,trieda,zle){
+  return poolPreSlot(slot||"Snack").filter(x=>x.id!==r.id && !zle(x.id)
+    && Math.abs(kcalPorcia(x)-k0)<=SNACK_DOPL_KCAL_TOL
+    && vyzivaReceptu(x).b>=b0-SNACK_DOPL_B_TOL
+    && (trieda==="O" ? snackDruh(x)==="ovocie" : bielkovinyNa100(x)>=SNACK_DOPL_B100)); }
+function snackDoplnokPre(r,ctx,slot){
+  const nom=snackDoplnok(r);
+  if(!nom||!ctx||!ctx.pouzite) return nom;
+  const uz=id=>ctx.pouzite.has(id);
+  if(!uz(nom)) return nom;
+  // nominálny doplnok je v tomto týždni už na tanieri — vymeň ho za VEĽMI podobný
+  // (±SNACK_DOPL_KCAL_TOL kcal, ±SNACK_DOPL_B_TOL g bielkovín), aby odhad zostal presný.
+  const rn=receptById(nom), trieda=SNACK_DRUH_DOPL[snackDruh(r)]||"B";
+  const k0=kcalPorcia(rn), b0=vyzivaReceptu(rn).b;
+  const pamat=(ctx.nedavneSnack||[]);
+  for(let i=0;i<=pamat.length;i++){
+    const p=pamat[i];
+    const kand=_snackDoplKandidati(r,slot,k0,b0,trieda,id=>uz(id)||(p&&p.has(id)));
+    if(kand.length) return kand[(_snackHash(r.id)+_snackTyzdenIx())%kand.length].id;
+  }
+  return nom; }
+// hustota bielkovín CELÉHO snacku (výrobok + doplnok) — vstup do preferenčnej váhy.
+// Bez toho by váha merala len prvú položku a jablko by sa do turnaja nedostalo, hoci
+// „jablko + šunka" má rovnakú hustotu ako proteínový puding.
+function snackHustotaB(r){ const d=snackDoplnok(r); if(!d) return bielkovinyNa100(r);
+  const c=receptById(d); if(!c) return bielkovinyNa100(r);
+  const k=kcalPorcia(r)+kcalPorcia(c), b=vyzivaReceptu(r).b+vyzivaReceptu(c).b;
+  return k>5?b/(k/100):0; }
 function prilohaTokenPre(r,slot,rot){
   if(!r) return null;
   if(jeHlavnyChodSlot(slot)) return prilohaPre(r,rot||0);
+  if(jeSnackSlot(slot)) return snackDoplnok(r);
   if(jeNatierkovySlot(slot) && r.kategoria==="Nátierka") return "prf:pecivo";
   return null; }
 function jedloVyziva(r,slot,rot){
@@ -1560,7 +1880,17 @@ function slotHustota(ids){ let k=0,b=0; (ids||[]).forEach(id=>{ const c=komponen
 // zúžení kcal-okna. Turnaj a druhý opravný prechod počet týchto volaní znásobili, preto majú
 // obe funkcie cache platnú počas jedného generovania (S.hodn/akcie/watch/špajza sa v ňom nemenia).
 let _genCache=null;
-function _genCacheReset(zapni){ _genCache = zapni ? {vaha:new Map(), jedlo:new Map(), pool:new Map()} : null; }
+function _genCacheReset(zapni){ _genCache = zapni ? {vaha:new Map(), jedlo:new Map(), pool:new Map(), med:new Map()} : null; }
+// D2b: mediánová cena PORCIE v poole slotu. Slúži ako realistický základ rozpočtu tam, kde je
+// podiel slotu na dennom rozpočte nereálne malý (snack = 10 % dňa = 0,42 €, ale hotový výrobok
+// pod 0,42 € v Kauflande prakticky nie je). Bez nej dostane KAŽDÝ výrobok plnú cenovú pokutu
+// a cena prestane rozlišovať skyr za 0,98 € od údeného lososa za 2,60 €.
+function _medianCenaPoolu(slot){
+  if(_genCache){ const c=_genCache.med.get(slot); if(c!==undefined) return c; }
+  const ceny=poolPreSlot(slot).map(r=>vyzivaReceptu(r).cena||0).filter(c=>c>0).sort((a,b)=>a-b);
+  const v=ceny.length?ceny[ceny.length>>1]:0;
+  if(_genCache)_genCache.med.set(slot,v);
+  return v; }
 function vahaReceptu(r,slot){
   const kl=_genCache?(slot+"|"+r.id):null;
   if(kl!==null){ const c=_genCache.vaha.get(kl); if(c!==undefined) return c; }
@@ -1572,9 +1902,17 @@ function _vahaVypocet(r,slot){ let w=1+(S.hodn[r.id]||0); if(jeSezonne(r))w+=0.8
   // K2: váha je už len PREDVÝBER do turnaja, kvalitu rozhoduje skoreJedla. Preto je bielkovinový
   // multiplikátor plochší než predtým (0,4–2,0 → 0,7–1,6): ostrý multiplikátor + turnaj by z 743
   // hlavných chodov točil tú istú tridsiatku a využitie databázy by kleslo.
-  w*= (slot==="Snack") ? (0.85+Math.min(0.5,bielkovinyNa100(r)/16)) : (0.7+Math.min(0.9,bielkovinyNa100(r)/12));
+  // P5: v snackovom slote sa hustota berie z CELEJ dvojice (výrobok + doplnok), nie z prvej
+  // položky — inak má „jablko" váhu 0,88 a „skyr" 1,35, hoci „jablko + šunka" je rovnako
+  // bielkovinové ako skyr, a čerstvé ovocie sa do turnaja prakticky nedostane.
+  w*= (slot==="Snack") ? (0.85+Math.min(0.5,snackHustotaB(r)/16)) : (0.7+Math.min(0.9,bielkovinyNa100(r)/12));
   // A5: „kupované" je preferencia, nie podmienka (tvrdý filter zúžil pool snackov z 351 na 36)
   if(slot==="Snack" && S.profil.kupSnack && (r.tagy||[]).includes("kupované")) w*=2;
+  // P5: čerstvé ovocie má v snackovom slote prirážku. Nie je to kozmetika — jablko je
+  // archetypálna desiata, ale v turnaji prehráva s proteínovým pudingom na hustote bielkovín
+  // aj po tom, čo sa hustota počíta z dvojice. Bez prirážky vyšlo čerstvé ovocie na 14 %
+  // snackov, s ňou na cieľových 15+ %.
+  if(slot==="Snack" && snackDruh(r)==="ovocie") w*=1.35;
   // R3: cena je v predvýbere len JEMNÝ multiplikátor (0,7–1,3), rovnako plochý ako bielkovinový.
   // Zámerne je zhora zastropovaný: keby lacné jedlo dostávalo neobmedzený bonus, turnaj by sa
   // naplnil zemiakmi a cestovinami a pestrosť by spadla. Drahé jedlo sa NEVYRAĎUJE — len má
@@ -1686,13 +2024,35 @@ function nedavneRecepty(tyzdnov){
 // Prah je PODIEL poolu, nie pevné číslo: 8 kandidátov je dosť na to, aby výber niečo vrátil,
 // ale primálo na to, aby v nich bolo kcal-okno aj slušná hustota bielkovín. Preto sa dlhá pamäť
 // prijme len vtedy, keď v poole nechá aspoň 40 % receptov, inak sa spadne o stupeň nižšie.
-function _uplatniPamat(pool,pamat){
+// P5: v snackovom slote je prah nižší (0,25 namiesto 0,4). Pool snacku má dnes ~190 výrobkov
+// a berie sa 7× do týždňa, takže 0,4 zastropovalo pamäť na ~9 týždňov — a snack, ktorý sa
+// smie vrátiť po deviatich týždňoch, vyjde na 30-týždňovom horizonte trikrát. Pool zostáva
+// aj po 0,25 dosť veľký (~47 výrobkov) na kcal-okno aj na bielkovinový prah.
+function _uplatniPamat(pool,pamat,podiel){
   if(!pamat||!pamat.length) return pool;
-  const dost=Math.max(MIN_POOL,Math.ceil(pool.length*0.4));
+  const dost=Math.max(MIN_POOL,Math.ceil(pool.length*(podiel||0.4)));
   for(let i=0;i<pamat.length;i++){ const p=pool.filter(r=>!pamat[i].has(r.id)); if(p.length>=dost) return p; }
   for(let i=pamat.length-1;i>=0;i--){ const p=pool.filter(r=>!pamat[i].has(r.id)); if(p.length) return p; }
   return null; }
+// D1: doménové pravidlo raňajok na jednom mieste — aby sa dalo uplatniť aj na zálohu `sirsi`.
+// Poradie je zámerné: najprv sendvič (vo všedný blok), potom iná báza než mali predošlé bloky.
+// Ak by po báze nezostalo nič, pravidlo bázy sa skúsi ešte raz na CELOM poole (bez sendviča) —
+// „iná báza/blok" je pre pestrosť dôležitejšie než „sendvič", lebo sendvičových raňajok je 48.
+function _pravidlaRanajok(pool,ctx){
+  let p=pool;
+  if(ctx.vsednyBlok){ const ps=p.filter(r=>jeSendvic(r)); if(ps.length)p=ps; }
+  const pb=p.filter(r=>!ctx.pouziteBazy.has(ranajkyBaza(r)));
+  if(pb.length) return pb;
+  const pb2=pool.filter(r=>!ctx.pouziteBazy.has(ranajkyBaza(r)));
+  return pb2.length?pb2:p; }
+// P5: stavba poolu je oddelená od losovania, aby si per-denný výber snacku vedel pool
+// vypýtať raz a prechádzať ho BEZ VRÁTENIA — turnaj volaný n-krát vracia stále tých istých
+// pár favoritov, takže 52 % dní zostalo s tým istým snackom ako prvý deň bloku.
 function vyberDoSlotu(slot,ctx,cielK,minB100,medze,okrem){
+  const pool=_poolVyberu(slot,ctx,cielK,minB100,medze,okrem);
+  return vyberVazene(pool,ctx.pouzite,slot,cielK,ctx.prilRot,_cenaVypnuta?0:cenaSlotu(ctx,cielK,slot));
+}
+function _poolVyberu(slot,ctx,cielK,minB100,medze,okrem){
   const pamat=(slot==="Snack"||slot==="Desiata"||slot==="Olovrant")?ctx.nedavneSnack:ctx.nedavne;
   let pool=poolPreSlot(slot);
   // A3: hlavný chod pod 300 kcal je večera za 28 kcal (Kórejský uhorkový šalát), nie jedlo
@@ -1700,15 +2060,27 @@ function vyberDoSlotu(slot,ctx,cielK,minB100,medze,okrem){
   if(ctx.kf && slot!=="Raňajky"){ const pk=pool.filter(r=>(r.kuchyna||"").toLowerCase()===ctx.kf.toLowerCase()); if(pk.length)pool=pk; }
   if(ctx.pr&&ctx.pr.veg){ const pv=pool.filter(r=>diety(r).veg); if(pv.length)pool=pv; }
   if(ctx.pr&&ctx.pr.maxCas>0){ const pc=pool.filter(r=>casMin(r)<=ctx.pr.maxCas); if(pc.length)pool=pc; }
-  const sirsi=pool; // záloha: keď pamäť vyprázdni zúžený pool, uvoľní sa voliteľné zúženie, nie pamäť
+  // D1: záloha pre pamäť. Uvoľniť sa smie len VOLITEĽNÉ zúženie (kuchyňa dňa, mäso za sebou) —
+  // doménové pravidlo raňajok (sendvič vo všedný blok + iná báza/blok) platí aj na zálohe,
+  // inak si pamäť cez `_uplatniPamat(sirsi,…)` prepašuje tú istú bázu do druhého bloku.
+  const pred=pool; // záloha PRED voliteľným zúžením; doménové pravidlá sa na ňu dopočítajú lenivo
+  const sirsi=()=>(slot==="Raňajky")?_pravidlaRanajok(pred,ctx):pred;
   if(ctx.cfg.neMasoZaSebou && jeHlavnyChodSlot(slot) && ctx.prevBlokMaso.size){ const pm=pool.filter(r=>{const mt=masoTyp(r); return !mt||!ctx.prevBlokMaso.has(mt);}); if(pm.length)pool=pm; }
-  if(slot==="Raňajky"){ if(ctx.vsednyBlok){ const ps=pool.filter(r=>jeSendvic(r)); if(ps.length)pool=ps; }
-    const p2=pool.filter(r=>!ctx.pouziteBazy.has(ranajkyBaza(r))); if(p2.length)pool=p2; }
+  if(slot==="Raňajky"){ pool=_pravidlaRanajok(pool,ctx); }
   else { const zak=_kuchyneBloku(ctx,slot);
     const p2=pool.filter(r=>!r.kuchyna||!zak.has(r.kuchyna)); if(p2.length)pool=p2; }
+  // P5: pestrosť snackov v rámci týždňa sa neriadi kuchyňou (výrobky žiadnu nemajú), ale
+  // DRUHOM — regálom, z ktorého výrobok je. Bez toho vyšla polovica týždňa z jedného regálu
+  // (namerané: 21 % snackov holé pečivo, 2,5 % čerstvé ovocie). Filter je mäkký: uplatní sa,
+  // len ak po ňom zostane aspoň MIN_POOL kandidátov.
+  if(jeSnackSlot(slot) && ctx.snackDruhy && ctx.snackDruhy.size){
+    for(const strop of SNACK_DRUH_STROPY){
+      const pd=pool.filter(r=>(ctx.snackDruhy.get(snackDruh(r))||0)<strop);
+      if(pd.length>=MIN_POOL){ pool=pd; break; } } }
   // R9: ctx.bezPamate je posledná inštancia poistky poradia — zopakovať raňajky spred 22 týždňov
   // je menšie zlo než nechať raňajky väčšie ako obed.
-  if(!(ctx.bezPamate)) pool=_uplatniPamat(pool,pamat)||_uplatniPamat(sirsi,pamat)||pool;
+  const podielPam=jeSnackSlot(slot)?0.35:0.4;
+  if(!(ctx.bezPamate)) pool=_uplatniPamat(pool,pamat,podielPam)||_uplatniPamat(sirsi(),pamat,podielPam)||pool;
   const jk=r=>jedloKcal(r,slot,ctx.prilRot);
   if(medze&&(medze.min>0||medze.max>0)){
     const pm=pool.filter(r=>{ const k=jk(r);
@@ -1723,9 +2095,8 @@ function vyberDoSlotu(slot,ctx,cielK,minB100,medze,okrem){
   // R5: mäkký strop na luxus. Uplatní sa AŽ ZA kcal-oknom a bielkovinovým prahom, takže výživa
   // rozhoduje prvá; a len ak po ňom zostane aspoň MIN_POOL kandidátov — inak by úzky pool
   // (48 sendvičových raňajok) rozpočet vyprázdnil a pravidlo slotu by ticho vypadlo.
-  const cielC=cenaSlotu(ctx,cielK);
   if(okrem){ const p=pool.filter(r=>r.id!==okrem); if(p.length)pool=p; }
-  return vyberVazene(pool,ctx.pouzite,slot,cielK,ctx.prilRot,_cenaVypnuta?0:cielC);
+  return pool;
 }
 // rozpočet jedla = referenčná cena za 100 kcal × kcal-cieľ slotu. ctx.cenaRef nesie korekciu
 // bloku (viď R7); mimo generovania (regenerujSlot) sa berie čistý cieľ z profilu.
@@ -1737,7 +2108,12 @@ function vyberDoSlotu(slot,ctx,cielK,minB100,medze,okrem){
 let _cenaVypnuta=false;
 function bezRozpoctu(fn){ const p=_cenaVypnuta; _cenaVypnuta=true; try{ return fn(); } finally { _cenaVypnuta=p; } }
 function sRozpoctom(fn){ const p=_cenaVypnuta; _cenaVypnuta=false; try{ return fn(); } finally { _cenaVypnuta=p; } }
-function cenaSlotu(ctx,cielK){ if(!(cielK>0)) return 0;
+// D2c: SKÚŠANÉ A ZAMIETNUTÉ — dať snacku realistický rozpočet (median ceny porcie) namiesto
+// jeho 10 % podielu na dni. Znie to správne (dnes dostane plnú cenovú pokutu každý výrobok
+// nad 0,84 €, čiže všetky bielkovinové), ale namerané je to horšie: dní pod 80 g bielkovín
+// 1,6 → 3,2 %, poradie 100 → 99,4 %, cena len 170,5 → 168,4 €/týždeň. Slabá, ale rovnomerná
+// pokuta funguje lepšie než ostrá pokuta na drahej polovici poolu. Cena zostáva na podiele.
+function cenaSlotu(ctx,cielK,slot){ if(!(cielK>0)) return 0;
   const ref=(ctx&&ctx.cenaRef!=null)?ctx.cenaRef:cenaRef();
   return ref>0?ref*cielK/100:0; }
 // zloží komponenty slotu (hlavné jedlo + príloha) a zapíše si do ctx, čo už bolo použité
@@ -1748,25 +2124,52 @@ function cenaSlotu(ctx,cielK){ if(!(cielK>0)) return 0;
 function _kuchyneBloku(ctx,okremSlot){ const z=new Set();
   for(const s in ctx.stopa){ if(s===okremSlot)continue; const k=ctx.stopa[s].kuchyna; if(k)z.add(k); }
   return z; }
+function _stopaPre(r,slot){ return {kuchyna:r.kuchyna||"", baza:(slot==="Raňajky")?ranajkyBaza(r):"",
+                   maso:(jeHlavnyChodSlot(slot)?masoTyp(r):"")||""}; }
+// D1 (R6): VRÁTENIE SLOTU MUSÍ VRÁTIŤ AJ `ctx.stopa`. Toto bola skutočná príčina R6.
+// `prehodSlot` zapíše stopu cez `zlozSlot` hneď pri výmene, ale štyri prechody dňa
+// (`skusPrehod`, `zlepsiBielkoviny`, `zlepsiVlakninu`, `zlacniDen`) zamietnutú výmenu vracali
+// len v `denPlan` + `ctx.pouzite`. V stope tak zostala báza receptu, ktorý v bloku NIE JE —
+// a keďže sa hotová stopa na konci bloku sype do týždňovej `pouziteBazy`, blok A si zaregistroval
+// napr. „bageta", hoci reálne podával toast. Blok B potom vylúčil bagetu, vybral toast a
+// pravidlo „iná báza/blok" padlo. (Namerané: 4 z 12 týždňov.)
+// P5: snack má dva REÁLNE komponenty, takže sa z „použitých" musia uvoľniť (a zabrať) oba —
+// inak by v `ctx.pouzite` zostal doplnok zamietnutej výmeny a blok C by prišiel o jogurt,
+// ktorý reálne nikde nie je.
+function _uvolniKomp(comp,ctx){ (comp||[]).forEach(id=>{ if(typeof id==="string"&&id.indexOf("prf:")!==0)ctx.pouzite.delete(id); }); }
+function _zaberKomp(comp,ctx){ (comp||[]).forEach(id=>{ if(typeof id==="string"&&id.indexOf("prf:")!==0)ctx.pouzite.add(id); }); }
+function vratSlot(denPlan,slot,ctx,zaloha){
+  const teraz=denPlan[slot]&&denPlan[slot][0]; if(teraz)ctx.pouzite.delete(teraz);
+  if(jeSnackSlot(slot))_uvolniKomp(denPlan[slot],ctx);
+  const stary=zaloha&&zaloha[0];
+  if(zaloha){ denPlan[slot]=zaloha; if(stary)ctx.pouzite.add(stary); if(jeSnackSlot(slot))_zaberKomp(zaloha,ctx);
+    const r0=komponent(stary); if(r0)ctx.stopa[slot]=_stopaPre(r0,slot); else delete ctx.stopa[slot]; }
+  else { delete denPlan[slot]; delete ctx.stopa[slot]; }
+}
 function zlozSlot(r,slot,ctx){
   ctx.pouzite.add(r.id);
-  ctx.stopa[slot]={kuchyna:r.kuchyna||"", baza:(slot==="Raňajky")?ranajkyBaza(r):"",
-                   maso:(jeHlavnyChodSlot(slot)?masoTyp(r):"")||""};
+  ctx.stopa[slot]=_stopaPre(r,slot);
   const comp=[r.id];
   if(jeHlavnyChodSlot(slot)){ const pr=prilohaPre(r,ctx.prilRot++); if(pr)comp.push(pr); }
   if(jeNatierkovySlot(slot) && r.kategoria==="Nátierka") comp.push("prf:pecivo");
+  // P5: doplnok snacku je REÁLNY výrobok (nie virtuálny `prf:` token), takže má vlastnú
+  // kartu receptu, vlastnú cenu a vlastný riadok v nákupe. Zapisuje sa aj do `ctx.pouzite`,
+  // aby sa ten istý jogurt neobjavil v inom bloku ešte raz ako samostatný snack.
+  if(jeSnackSlot(slot)){ const dp=snackDoplnokPre(r,ctx,slot); if(dp){ comp.push(dp); ctx.pouzite.add(dp); } }
   return comp;
 }
 // A1/A2/A3: namiesto naťahovania porcií prehoď jedlo. potrebaK = koľko kcal má slot mať.
 function prehodSlot(denPlan,slot,ctx,potrebaK,minB100,medze){
   const stary=denPlan[slot]&&denPlan[slot][0];
+  const zalohaK=denPlan[slot]?denPlan[slot].slice():null;
   if(stary)ctx.pouzite.delete(stary);
+  if(jeSnackSlot(slot))_uvolniKomp(zalohaK,ctx);
   // K18: doterajší recept sa z výberu vylúči. Predtým sa len uvoľnil z „použitých", turnaj ho
   // ako najlepší v okne vrátil znova a prehodSlot ohlásil neúspech — opravDen sa potom vzdal
   // s dňom o 300 kcal vedľa. Týkalo sa to práve blokov s úzkym poolom (všedné raňajky = 48
   // sendvičov), kde je opakovaná voľba najpravdepodobnejšia.
   const r=vyberDoSlotu(slot,ctx,potrebaK,minB100,medze,stary);
-  if(!r || r.id===stary){ if(stary)ctx.pouzite.add(stary); return false; }
+  if(!r || r.id===stary){ if(stary)ctx.pouzite.add(stary); if(jeSnackSlot(slot))_zaberKomp(zalohaK,ctx); return false; }
   denPlan[slot]=zlozSlot(r,slot,ctx);
   return true;
 }
@@ -1777,8 +2180,7 @@ function skusPrehod(denPlan,slot,ctx,potrebaK,minB100,medze,lepsie){
   const zaloha=denPlan[slot]?denPlan[slot].slice():null, stary=zaloha&&zaloha[0];
   if(!prehodSlot(denPlan,slot,ctx,potrebaK,minB100,medze)) return false;
   if(!lepsie||lepsie()) return true;
-  ctx.pouzite.delete(denPlan[slot][0]);
-  if(zaloha){ denPlan[slot]=zaloha; if(stary)ctx.pouzite.add(stary); } else delete denPlan[slot];
+  vratSlot(denPlan,slot,ctx,zaloha);
   return false; }
 const PORADIE_SLOTOV=["Obed","Večera","Raňajky","Desiata","Olovrant","Snack"]; // od najväčšieho jedla po najmenšie
 function denKcal(denPlan,sloty){ let dk=0; sloty.forEach(s=>{ if(denPlan[s])dk+=mealKcal(denPlan[s]); }); return dk; }
@@ -1873,7 +2275,7 @@ function _zlepsiBielkoviny(denPlan,sloty,ctx,ciel){
     const kc={}; napln.forEach(s=>{ kc[s]=mealKcal(denPlan[s]); });
     if(!prehodSlot(denPlan,naj,ctx,mealKcal(zaloha),najB+1,medzePoradia(napln,naj,kc))) continue;
     if(denJeOk(denPlan,sloty,ciel) && denBielkovinyPoSkal(denPlan,sloty,ciel)>b && odchylka()<=strop) continue;
-    ctx.pouzite.delete(denPlan[naj][0]); denPlan[naj]=zaloha; ctx.pouzite.add(stary); // späť
+    vratSlot(denPlan,naj,ctx,zaloha); // späť (vrátane ctx.stopa — viď D1)
   } }
 // K4: keď je deň už bielkovinovo v pláne, doladí sa vláknina — rovnaká mechanika, ale
 // výmena musí nechať bielkoviny aj kcal tam, kde boli. Preto vláknina nemôže nič zhoršiť.
@@ -1881,6 +2283,11 @@ function zlepsiVlakninu(denPlan,sloty,ctx,ciel,cielVl){
   if(!(cielVl>0)) return;
   _vlakninaRezim=true; try{ bezRozpoctu(()=>_zlepsiVlakninu(denPlan,sloty,ctx,ciel,cielVl)); } finally { _vlakninaRezim=false; } }
 function _zlepsiVlakninu(denPlan,sloty,ctx,ciel,cielVl){
+  // D3: bielkoviny NAD denným cieľom sú voľná kapacita, ktorú smie vláknina minúť. Predtým
+  // nesmela výmena zhoršiť bielkoviny o viac než 1 g bez ohľadu na to, či deň má 95 alebo 125 g —
+  // po zvýšení bielkovín (D1/D2) tak vláknina stratila skoro každého kandidáta. Podlaha je denný
+  // cieľ bielkovín; pod ním platí pôvodné „nesmie klesnúť" a vláknina znova ustúpi.
+  const cielB=(cieloveMakra(ciel)||{}).b||0;
   const pokusy={}; const MAX_POKUS=3;
   const odchylka=()=>Math.abs(denKcal(denPlan,sloty)-ciel);
   for(let i=0;i<18;i++){
@@ -1895,9 +2302,10 @@ function _zlepsiVlakninu(denPlan,sloty,ctx,ciel,cielVl){
     const zaloha=denPlan[naj].slice(), stary=zaloha[0];
     const kc={}; napln.forEach(s=>{ kc[s]=mealKcal(denPlan[s]); });
     if(!prehodSlot(denPlan,naj,ctx,mealKcal(zaloha),slotHustota(zaloha),medzePoradia(napln,naj,kc))) continue;
+    const bMin=Math.min(b0-1,Math.max(cielB,0));
     if(denJeOk(denPlan,sloty,ciel) && denVlakninaPoSkal(denPlan,sloty,ciel)>vl
-       && denBielkovinyPoSkal(denPlan,sloty,ciel)>=b0-1 && odchylka()<=strop) continue;
-    ctx.pouzite.delete(denPlan[naj][0]); denPlan[naj]=zaloha; ctx.pouzite.add(stary);
+       && denBielkovinyPoSkal(denPlan,sloty,ciel)>=bMin && odchylka()<=strop) continue;
+    vratSlot(denPlan,naj,ctx,zaloha);
   } }
 // R6: „zlacni deň" — rovnaká mechanika ako zlepsiVlakninu, ale výmena musí nechať výživu tam,
 // kde bola. Prijme sa LEN vtedy, keď deň zostane platný (kcal v pásme + poradie jedál), cena
@@ -1910,6 +2318,10 @@ function _zlacniDen(denPlan,sloty,ctx,ciel){
   const ref=(ctx&&ctx.cenaRef!=null)?ctx.cenaRef:cenaRef();
   if(!(ref>0)||!(ciel>0)) return;
   const cielDen=ref*ciel/100;
+  // D4: SKÚŠANÉ A ZAMIETNUTÉ — pustiť cenu do výživovej rezervy tak, ako to robí vláknina (D3):
+  // bielkoviny smú klesnúť po denný cieľ, vláknina po svoj. Cena klesla len o 2 % (173,3 → 169,4 €
+  // za týždeň, 36 týždňov), ale dní pod 80 g bielkovín stúplo z 1,3 na 2,1 % a vláknina klesla
+  // z 22,2 na 21,5 g. Zlý obchod — cena zostáva zovretá tvrdo, rezervu dostáva len vláknina.
   const pokusy={}; const MAX_POKUS=3;
   const odchylka=()=>Math.abs(denKcal(denPlan,sloty)-ciel);
   for(let i=0;i<14;i++){
@@ -1931,7 +2343,7 @@ function _zlacniDen(denPlan,sloty,ctx,ciel){
     if(denJeOk(denPlan,sloty,ciel) && denCenaPoSkal(denPlan,sloty,ciel)<ce
        && denBielkovinyPoSkal(denPlan,sloty,ciel)>=b0
        && denVlakninaPoSkal(denPlan,sloty,ciel)>=vl0 && odchylka()<=strop) continue;
-    ctx.pouzite.delete(denPlan[naj][0]); denPlan[naj]=zaloha; ctx.pouzite.add(stary);
+    vratSlot(denPlan,naj,ctx,zaloha);
   } }
 // R9: POISTKA PORADIA. Poradie jedál je TVRDÉ doménové pravidlo, ale opravDen ho rieši ako jeden
 // z troch krokov: keď sa výmena menšieho jedla nepodarí, celý opravDen sa vzdá a deň zostane
@@ -2047,17 +2459,108 @@ function _opravDen(denPlan,sloty,ctx,ciel,maxIter){
     return; // deň je v poriadku
   }
 }
+// ── P5b: SNACK SA MENÍ KAŽDÝ DEŇ ─────────────────────────────────────────────
+// Doménové pravidlo „1 variant na slot a blok" je pravidlo BATCH COOKINGU: navarím raz a jem
+// to dva-tri dni. Snack sa ale nevarí — je to zabalený výrobok z regálu, kúpim tri jogurty
+// rovnako ľahko ako tri kusy jedného. Kým bol snack viazaný na blok, mal týždeň iba 3 ťahy
+// a mesiac 12 — a to bol strop, nie výsledok výberu: namerané „12 unikátnych z 12 ťahov"
+// je 100 % pestrosť, len na dvanástich ťahoch. Preto sa snack odteraz losuje pre KAŽDÝ DEŇ
+// bloku zvlášť (28 ťahov za mesiac). Nákup to znesie — sú to kusové balenia.
+//
+// Deň bloku sa pritom nesmie výživovo rozísť: prvý deň si drží voľbu, ktorú vyoptimalizovali
+// prechody dňa, a ostatné dni dostanú NÁHRADU V PÁSME — kcal do ±SNACK_DEN_KCAL_TOL a
+// bielkoviny najviac o SNACK_DEN_B_TOL nižšie. Preto sa medián bielkovín ani kcal-presnosť
+// nehýbu, hoci sa jedlo mení.
+const SNACK_DEN_KCAL_TOL=0.35, SNACK_DEN_B_TOL=2, SNACK_DEN_VL_TOL=0.6, SNACK_DEN_POKUSOV=30;
+// deň sa náhradou nesmie kaloricky vzdialiť od cieľa viac, než bol vzdialený predtým
+// (a nikdy viac než SNACK_DEN_DEN_PASMO) — inak by pestrosť snacku zaplatila kcal-presnosť dňa.
+const SNACK_DEN_PASMO=0.07;
+// koľko bielkovín smie deň náhradou stratiť — a nikdy nie pod denný cieľ. Rovnaká logika
+// ako D3 pri vláknine: míňať sa smie len to, čo je NAD cieľom. Bez tohto pravidla zamietla
+// bielkovinová podmienka polovicu kandidátov (opravné prechody tlačia snack na maximum
+// hustoty, takže „rovnako bielkovinová náhrada" pre 24 g tvaroh prakticky neexistuje).
+const SNACK_DEN_B_MAX=5;
+function _pridajDruh(ctx,d){ ctx.snackDruhy.set(d,(ctx.snackDruhy.get(d)||0)+1); }
+function slotVyzivaKomp(ids){ let k=0,b=0,vl=0;
+  (ids||[]).forEach(id=>{ const c=komponent(id); if(!c)return; const v=vyzivaReceptu(c);
+    k+=kcalPorcia(c); b+=v.b; vl+=v.vl||0; });
+  return {k:k,b:b,vl:vl}; }
+// horná medza kcal je zovretá aj poradím jedál: snack musí zostať najmenším jedlom dňa.
+function _inySnack(slot,ctx,cielK,v0,okrem,dkBez,ciel,strop,vlBez,vlCiel,dbBez,cielB){
+  const hore=Math.min(v0.k*(1+SNACK_DEN_KCAL_TOL), strop>0?strop:Infinity);
+  const medze={min:v0.k*(1-SNACK_DEN_KCAL_TOL), max:hore, tvrde:true};
+  const odch0=(ciel>0)?Math.abs(dkBez+v0.k-ciel):0;
+  const dovolena=(ciel>0)?Math.max(odch0,ciel*SNACK_DEN_PASMO):Infinity;
+  // predfilter na hustotu bielkovín: bez neho turnaj vracia kandidátov, ktorých vzápätí
+  // zamietne bielkovinová podmienka, a 77 % dní zostane s tým istým snackom ako prvý deň
+  const d0=v0.k>5?v0.b/(v0.k/100):0;
+  const minB=Math.max(0,d0-1.5);
+  // turnaj beží vo vlákninovom režime: náhrada musí spravidla uniesť aj vlákninu dňa,
+  // ktorú do bloku doniesol `zlepsiVlakninu` — inak zamietne kandidáta vlákninová podmienka
+  // (namerané: 235 zamietnutí z vlákniny oproti 174 z bielkovín).
+  const vlPred=_vlakninaRezim; _vlakninaRezim=true;
+  const cielC=_cenaVypnuta?0:cenaSlotu(ctx,cielK,slot);
+  let zvysok=_poolVyberu(slot,ctx,cielK,minB,medze,okrem);
+  if(zvysok.length<3) zvysok=_poolVyberu(slot,ctx,cielK,0,medze,okrem);
+  // SKÚŠANÉ A ZAMIETNUTÉ: keď pamäť + kcal-okno nenechajú z čoho vyberať, obísť pamäť úplne
+  // (ctx.bezPamate, ako to robí R9 pri raňajkách). Podiel dní, ktoré zostanú s voľbou prvého
+  // dňa bloku, tým klesol z 50 na 40 %, ale „najčastejší snack" na 30 týždňoch sa nezmenil
+  // (7×) a zaplatili to dni pod 80 g bielkovín (0 → 1,4 %) a susedné týždne (0 → 1 z 29).
+  zvysok=zvysok.filter(r=>!ctx.pouzite.has(r.id));
+  try{
+  for(let i=0;i<SNACK_DEN_POKUSOV && zvysok.length;i++){
+    const r=vyberVazene(zvysok,ctx.pouzite,slot,cielK,ctx.prilRot,cielC);
+    if(!r) break;
+    zvysok=zvysok.filter(x=>x!==r);
+    if(ctx.pouzite.has(r.id)) continue;
+    const comp=[r.id]; const dp=snackDoplnokPre(r,ctx,slot); if(dp)comp.push(dp);
+    const v=slotVyzivaKomp(comp);
+    // stratiť sa smie najviac SNACK_DEN_B_MAX g a len to, čo je NAD denným cieľom;
+    // SNACK_DEN_B_TOL g je vždy k dispozícii, inak by sa nedalo vymeniť vôbec nič.
+    const rezerva=(cielB>0)?(dbBez+v0.b-cielB):SNACK_DEN_B_MAX;
+    const strata=Math.min(SNACK_DEN_B_MAX,Math.max(SNACK_DEN_B_TOL,rezerva));
+    if(v.b<v0.b-strata) continue;
+    // vláknina: buď sa nezhorší, alebo deň aj tak zostane nad svojím vlákninovým cieľom
+    // (rovnaká logika ako D3 pri bielkovinách — míňať sa smie len to, čo je NAD cieľom)
+    if(v.vl<v0.vl-SNACK_DEN_VL_TOL && !(vlCiel>0 && vlBez+v.vl>=vlCiel-1)) continue;
+    if(Math.abs(v.k-v0.k)>v0.k*SNACK_DEN_KCAL_TOL) continue;
+    if(ciel>0 && Math.abs(dkBez+v.k-ciel)>dovolena) continue;
+    _zaberKomp(comp,ctx);
+    if(ctx.snackDruhy)_pridajDruh(ctx,snackDruh(r));
+    return comp;
+  }
+  } finally { _vlakninaRezim=vlPred; }
+  return null; }
+function snackyPoDnoch(denPlan,sloty,dni,ctx,ciel){
+  const von={};
+  sloty.forEach(slot=>{ if(!jeSnackSlot(slot))return;
+    const zaklad=denPlan[slot]; if(!zaklad||!zaklad.length)return;
+    const r0=komponent(zaklad[0]); if(r0&&ctx.snackDruhy)_pridajDruh(ctx,snackDruh(r0));
+    if(dni.length<2)return;
+    const cielK=cielSlotu(slot,sloty,ciel), v0=slotVyzivaKomp(zaklad);
+    let dkBez=0, vlBez=0, dbBez=0, strop=Infinity;
+    sloty.forEach(s2=>{ if(s2===slot||!denPlan[s2])return;
+      const w=slotVyzivaKomp(denPlan[s2]); dkBez+=w.k; vlBez+=w.vl; dbBez+=w.b; strop=Math.min(strop,w.k); });
+    strop=isFinite(strop)?strop-1:0;
+    const vlCiel=VLAKNINA_CIEL*sloty.length/4, cielB=(cieloveMakra(ciel)||{}).b||0;
+    for(let i=1;i<dni.length;i++){
+      const c=_inySnack(slot,ctx,cielK,v0,zaklad[0],dkBez,ciel,strop,vlBez,vlCiel,dbBez,cielB);
+      if(c){ von[dni[i]]=von[dni[i]]||{}; von[dni[i]][slot]=c; }
+    }
+  });
+  return von; }
 async function generujJedalnicek(zamiesaj){
   const cfg=S.genCfg||{}; const zachovat=!!cfg.zachovat;
   const naplnene=[0,1,2,3,4,5,6].map(datumPre).some(iso=>S.plan[iso]&&Object.keys(S.plan[iso]).length);
   if(naplnene && !zamiesaj && !zachovat && !await confirmModal("Vygenerovať nový jedálniček? Prepíše sa tento týždeň.")) return;
-  const pouzite=new Set(), pouziteBazy=new Set(), plan={}, planF={};
+  const pouzite=new Set(), pouziteBazy=new Set(), plan={}, planF={}, snackDruhy=new Map();
   const stupne=t=>PAMAT_STUPNE.map(x=>nedavneRecepty(Math.max(2,Math.round(t*x))));
   const nedavne=stupne(TYZDNE_PAMATE), nedavneSnack=stupne(TYZDNE_PAMATE_SNACK);
+  _genPamatSnack=nedavneSnack[0];
   const ciel=cfg.cielMode?(S.profil.kcal||0):0;
   if(zachovat){ for(let di=0;di<7;di++) slotyDna(di).forEach(sl=>slotIds(di,sl).forEach(id=>pouzite.add(id))); }
   const skupiny = S.blokMode ? bloky() : [[0],[1],[2],[3],[4],[5],[6]];
-  let prilRot=0, prevBlokMaso=new Set();
+  let prilRot=0, prevBlokMaso=new Set(); const hotoveBloky=[];
   // R7: rozpočet sa nesleduje po dňoch, ale ako ZOSTATOK na týždeň. Bloky sa generujú za sebou,
   // takže drahší blok A automaticky utiahne rozpočet blokov B a C — to je zároveň odpoveď na
   // „drahé jedlá s odstupom": po drahom bloku sa luxusný strop posunie nadol a krevety sa
@@ -2076,7 +2579,7 @@ async function generujJedalnicek(zamiesaj){
       const naDen=rozpoctZostatok/dniZostava;
       cenaRefBlok=Math.max(refZ*0.75,Math.min(refZ*1.3,naDen/(S.profil.kcal/100)));
     }
-    const ctx={ cfg, pouzite, pouziteBazy, nedavne, nedavneSnack, stopa:{}, prevBlokMaso,
+    const ctx={ cfg, pouzite, pouziteBazy, nedavne, nedavneSnack, stopa:{}, prevBlokMaso, snackDruhy,
       kf:filterKuchynaPreDen(dni[0]), pr:pravidloPreDen(dni[0]), vsednyBlok:dni.every(d=>d<5), prilRot,
       cenaRef:cenaRefBlok };
     const denPlan={};
@@ -2115,6 +2618,7 @@ async function generujJedalnicek(zamiesaj){
     dniZostava-=dni.length;
     let fac=1;
     if(ciel>0){ let dk=0; sloty.forEach(s=>{ if(denPlan[s])dk+=mealKcal(denPlan[s]); }); if(dk>0) fac=Math.max(FAKTOR_MIN,Math.min(FAKTOR_MAX,Math.round(ciel/dk*20)/20)); }
+    hotoveBloky.push({dni:dni.slice(),sloty:sloty,ctx:ctx,denPlan:denPlan});
     dni.forEach(di=>{ const sd=slotyDna(di); plan[di]={}; planF[di]={};
       sd.forEach(s2=>{ if(denPlan[s2]){ plan[di][s2]=denPlan[s2].slice(); if(fac!==1)planF[di][s2]=fac; } }); });
     // stopa hotového bloku ide do týždňovej pamäte až tu — počas opráv sa ešte mení
@@ -2122,7 +2626,13 @@ async function generujJedalnicek(zamiesaj){
     Object.keys(ctx.stopa).forEach(sl=>{ const st=ctx.stopa[sl];
       if(st.baza)pouziteBazy.add(st.baza); if(st.maso)prevBlokMaso.add(st.maso); });
   });
-  _genCacheReset(false);
+  // P5b: per-denné snacky sa dopĺňajú AŽ po dogenerovaní všetkých blokov. Keby bežali vnútri
+  // bloku, ich voľby by cez `ctx.pouzite` zúžili pool nasledujúcich blokov a zaplatili by to
+  // hlavné jedlá (namerané: kcal-presnosť dňa 99,3 → 98,7 %).
+  hotoveBloky.forEach(b=>{ const sd=snackyPoDnoch(b.denPlan,b.sloty,b.dni,b.ctx,ciel);
+    b.dni.forEach(di=>{ const x=sd[di]; if(!x)return;
+      Object.keys(x).forEach(sl=>{ if(plan[di]&&plan[di][sl]) plan[di][sl]=x[sl].slice(); }); }); });
+  _genCacheReset(false); _genPamatSnack=null;
   nacitajSablonuDoTyzdna(plan,planF); save(); renderPlan();
   if(document.getElementById("v-domov").classList.contains("active"))renderDash();
 }
@@ -2235,15 +2745,16 @@ function nakupPolozky(){
   const varenia={};
   planItems().forEach(({r,di,slot,cid})=>{ if(r._left)return; // zvyšok = už uvarené v inom bloku
     const k=(cid||r.id)+"|"+slot+"|"+denyBloku(di)[0];
-    if(!varenia[k])varenia[k]={r,porcie:porcieSlotBlok(di,slot,cid),fVelkost:pf(di,slot)}; });
-  Object.values(varenia).forEach(({r,porcie,fVelkost})=>{ const fPocet=porcie/(r.porcie||1);
+    // koncepcia B: v nákupe treba hneď vidieť, na ktorú várku položka je → nesieme index bloku
+    if(!varenia[k])varenia[k]={r,porcie:porcieSlotBlok(di,slot,cid),fVelkost:pf(di,slot),bi:blokIndex(di)}; });
+  Object.values(varenia).forEach(({r,porcie,fVelkost,bi})=>{ const fPocet=porcie/(r.porcie||1);
     (r.ingrediencie||[]).forEach(i=>{ const p=najdiPotravinu(i.nazov);
       if(i.mnozstvo==null){ const kk=(p?p.kluc:i.nazov.toLowerCase()); if(!notes[kk])notes[kk]={nazov:i.nazov,pozn:i.poznamka||"podľa chuti",oddelenie:(p||{}).oddelenie||"Ostatné"}; return; }
       const j=(i.jednotka||"").toLowerCase().trim();
       const rodina=rodinaJednotky(j);
       const mn=skalovanaHodnota(i.mnozstvo,i.jednotka,fPocet,fVelkost);
-      if(p){ const kluc=p.kluc; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:p.oddelenie||"Ostatné",p:p,matched:true,grams:0,cena:0,hasKs:false,hasMl:false,hasG:false,pocty:{},ziadane:0,zdroje:[]};
-        const G=grp[kluc]; const g=gramy({mnozstvo:mn,jednotka:i.jednotka},p);
+      if(p){ const kluc=p.kluc; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:p.oddelenie||"Ostatné",p:p,matched:true,grams:0,cena:0,hasKs:false,hasMl:false,hasG:false,pocty:{},ziadane:0,zdroje:[],bl:{}};
+        const G=grp[kluc]; const g=gramy({mnozstvo:mn,jednotka:i.jednotka},p); if(bi!=null){G.bl=G.bl||{};G.bl[bi]=1;}
         // B5+: `ziadane` = surový súčet množstiev zo receptov. Slúži len na rozlíšenie „recept nič nepýta"
         // od „recept pýta, ale nevieme to previesť na gramy" — bez neho by druhý prípad ticho ukázal 0,00 €.
         G.ziadane+=Math.abs(mn); G.grams+=g; G.cena+=g/100*(p.cena100||0);
@@ -2251,7 +2762,8 @@ function nakupPolozky(){
         // C1: pamätáme si PÔVODNÚ počítateľnú jednotku (strúčik, plátok, list), nie univerzálne „ks"
         if(rodina==="pocet"){ G.hasKs=true; G.pocty[i.jednotka||"ks"]=(G.pocty[i.jednotka||"ks"]||0)+mn; }
         else if(rodina==="ml")G.hasMl=true; else G.hasG=true;
-      } else { const kluc="u|"+i.nazov.toLowerCase()+"|"+j; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:"Ostatné",matched:false,raw:0,grams:0,jednotka:i.jednotka||"",cena:0,ziadane:0,zdroje:[]};
+      } else { const kluc="u|"+i.nazov.toLowerCase()+"|"+j; if(!grp[kluc])grp[kluc]={key:kluc,nazov:i.nazov,oddelenie:"Ostatné",matched:false,raw:0,grams:0,jednotka:i.jednotka||"",cena:0,ziadane:0,zdroje:[],bl:{}};
+        if(bi!=null){grp[kluc].bl=grp[kluc].bl||{};grp[kluc].bl[bi]=1;}
         // B5+/N-obchod: aj surovina mimo databázy má hmotnosť, keď je jednotka prevediteľná
         // („Burrito seasoning mix 4 ČL" = 20 g). Cena zostáva neznáma — to rieši dovodBezCeny().
         grp[kluc].grams+=gramy({mnozstvo:mn,jednotka:i.jednotka},null);
@@ -2487,6 +2999,7 @@ function nakupItems(){
     const dovod=dovodBezCeny(G0); // z G0, nie z G — položka pokrytá špajzou má 0 g legitímne
     const odd=oddelenieRiadku(G.nazov,G.oddelenie);
     rows.push({key,gkey:G.key,odd,nazov:G.nazov,mnoz:nakupMnozstvo(G),cena:nakupCena(G),matched:!!G.matched,
+      bloky:Object.keys(G.bl||{}).map(Number).sort((a,b)=>a-b),
       cenaSpotreba:nakupCenaSpotreba(G),cenaBalenia:nakupCenaBalenia(G),gramy:G.grams,zoSpajze:sg,
       bezCeny:!!dovod,dovodCeny:dovod,akc:ingVakcii(G.nazov),doma,vSpajzi,klik:true,zaklad:jeZakladnaVec({odd,gramy:G.grams}),ck:!!(S.nakupCheck[nakupCheckKey(key)]||doma)}); });
   Object.values(notes).forEach(N=>{ const key="note|"+bezDia(N.nazov); const doma=jeDoma(N.nazov,tok);
@@ -2507,12 +3020,16 @@ function jeZakladnaVec(r){ if(!r) return false;
 //   · celý <label> (≥48 px) je jeden cieľ a odškrtáva — žiadny onclick, žiadny preventDefault,
 //   · „v ktorom recepte / čím nahradiť" má vlastné tlačidlo „ⓘ" 44×44 px vpravo,
 //   · info-tlačidlo je SÚRODENEC labelu, nie jeho potomok (v labeli by ho klik prekryl).
+// Koncepcia B: pri položke vidno, na ktorú várku je — farba bloku a K NEJ VŽDY písmeno.
+// Bez písmena by bola farba jediným nosičom informácie (WCAG 1.4.1).
+function znakyBlokov(bl){ if(!S.blokMode || !bl || !bl.length) return "";
+  return '<span class="znaky">'+bl.map(bi=>znakBloku(bi,"Kupuješ na blok "+blokPismeno(bi))).join("")+'</span>'; }
 function riadokNakup(r){ const en=escHtml(String(r.nazov||"").replace(/\\/g,"\\\\").replace(/'/g,"\\'"));
   if(r.man){ return `<div class="nak-row${r.ck?' checked':''}"><label class="${r.ck?'checked':''}"><input type="checkbox" ${r.ck?'checked':''} onchange="checkManual('${escHtml(r.id)}',this.checked)"><span class="nm2">${escHtml(r.nazov)}${r.mnoz?' — <b>'+escHtml(r.mnoz)+'</b>':''} <span class="info">(ručné)</span></span></label><button class="nak-i warn" title="Zmazať položku" aria-label="Zmazať položku ${escHtml(r.nazov)}" onclick="zmazManual('${escHtml(r.id)}')">✕</button></div>`; } // N1: ručná položka v oddelení
   // B5+: položka bez ceny to musí priznať priamo v riadku — inak sa tvári, že stojí 0,00 €
   const bez=r.bezCeny?` <span class="badge price" title="${escHtml(r.dovodCeny||"neznáma cena")}">? cena</span>`:'';
   const info=r.klik&&r.gkey?`<button class="nak-i" title="v ktorom recepte · čím nahradiť" aria-label="Detail suroviny ${escHtml(r.nazov)}" onclick="surovinaInfo('${escHtml(String(r.gkey||"").replace(/\\/g,"\\\\").replace(/'/g,"\\'"))}','${en}')">ⓘ</button>`:'';
-  return `<div class="nak-row${r.ck?' checked':''}"><label class="${r.ck?'checked':''}"><input type="checkbox" ${r.ck?'checked':''} ${r.doma?'disabled':''} onchange="checkNakup('${escHtml(String(r.key||"").replace(/\\/g,"\\\\").replace(/'/g,"\\'"))}',this.checked)"><span class="nm2">${escHtml(r.nazov)} — <b>${r.mnoz}</b>${bez}${r.akc?' <span class="badge price">🏷️ akcia</span>':''}${r.doma?' <span class="info">(máš doma)</span>':''}</span></label>${info}</div>`; }
+  return `<div class="nak-row${r.ck?' checked':''}"><label class="${r.ck?'checked':''}"><input type="checkbox" ${r.ck?'checked':''} ${r.doma?'disabled':''} onchange="checkNakup('${escHtml(String(r.key||"").replace(/\\/g,"\\\\").replace(/'/g,"\\'"))}',this.checked)"><span class="nm2">${znakyBlokov(r.bloky)}${escHtml(r.nazov)} — <b>${r.mnoz}</b>${bez}${r.akc?' <span class="badge price">🏷️ akcia</span>':''}${r.doma?' <span class="info">(máš doma)</span>':''}</span></label>${info}</div>`; }
 function renderNakup(){
   const box=document.getElementById("nakup-list");
   const nk=document.getElementById("nakup-kontext"); if(nk){nk.innerHTML=tyzdenNavHTML(); zpristupniKliky(nk);} // nákup je na zvolený týždeň — treba to vidieť
@@ -2539,11 +3056,21 @@ function renderNakup(){
   if(!nez.length && !zakl.length && (zas.length||vSp.length))
     h+=`<div class="nakup-suhrn"><span><b>🎉 Máš všetko v košíku.</b></span>`+
       `<button class="btn" onclick="vycistiNakup()">Zrušiť odškrtnutie</button></div>`;
-  if(nez.length){ h+=`<div class="nakup-suhrn"><span><b>${nez.length}</b> položiek na kúpu</span>`+
-    (zakl.length?`<span class="info" title="Korenie a „podľa chuti“ — zbalené dole">+ ${zakl.length} dochucovadiel</span>`:"")+
+  // Prúžok postupu (koncepcia B): v obchode je najdôležitejšia otázka „koľko ešte".
+  { const hotovo=rows.filter(r=>r.ck && !r.zaklad).length, spolu=rows.filter(r=>!r.zaklad).length;
+    if(spolu) h+=`<div class="nak-pruh" role="img" aria-label="Odškrtnutých ${hotovo} zo ${spolu} položiek"><i style="width:${Math.round(hotovo/spolu*100)}%"></i></div>`; }
+  // P2: súhrn mal na telefóne 205 px a odtlačil prvú položku pod prehyb. Hore zostáva to,
+  // kvôli čomu človek na súhrn pozerá v obchode — koľko položiek a koľko to stojí; zvyšok
+  // (dochucovadlá, celé balenia, akcie, rozdiel nákup/plán) je na telefóne pod „podrobnosti".
+  // Na počítači je <details> otvorený, takže sa nič nemení; v tlači sa vypíše celý.
+  if(nez.length){ const viac=
+      (zakl.length?`<span class="info" title="Korenie a „podľa chuti“ — zbalené dole">+ ${zakl.length} dochucovadiel</span>`:"")+
+      (sBaleniami>spotreba+0.01?`<span title="Vrátane zvyšku v celých baleniach">v celých baleniach ~ <b>${eur(sBaleniami)}</b></span>`:"")+
+      `${akciaN?`<span class="badge price">🏷️ ${akciaN} v akcii</span>`:""}${nakupKryciePokrytieHTML()}`;
+    h+=`<div class="nakup-suhrn"><span><b>${nez.length}</b> položiek na kúpu</span>`+
     `<span title="Suroviny spotrebované receptami">spotrebuješ ~ <b>${eur(spotreba)}</b>${bezCenyN?` <span class="info">(${bezCenyN} bez ceny)</span>`:""}</span>`+
-    (sBaleniami>spotreba+0.01?`<span title="Vrátane zvyšku v celých baleniach">v celých baleniach ~ <b>${eur(sBaleniami)}</b></span>`:"")+
-    `${akciaN?`<span class="badge price">🏷️ ${akciaN} v akcii</span>`:""}${nakupKryciePokrytieHTML()}</div>`; }
+    (viac?`<details class="suhrn-viac"${jeMobil()?"":" open"}><summary>podrobnosti</summary><div class="sv-in">${viac}</div></details>`:"")+
+    `</div>`; }
   if(lowStock.length){ h+='<div class="odd"><h4>🧊 Doplniť zásoby (pod minimom)</h4>'; lowStock.forEach(x=>{ h+=`<label><span class="nm2">${escHtml(x.nazov)} — <b>${fmt(Math.max(0,x.min-x.mnozstvo))} ${escHtml(x.jednotka)}</b></span></label>`; }); h+="</div>"; }
   oddPor.forEach(o=>{ h+=`<div class="odd"><h4>${o}</h4>`; podla[o].sort((a,b)=>a.nazov.localeCompare(b.nazov,"sk")).forEach(r=>h+=riadokNakup(r)); h+="</div>"; });
   // dochucovadlá a „podľa chuti" — zbalené, aby zoznam v obchode nemal o tretinu viac riadkov
@@ -2567,7 +3094,7 @@ function nakupKryciePokrytieHTML(){
   const pct=Math.round((d.pomer-1)*100);
   if(Math.abs(pct)<5) return "";
   const preco=d.top.length? " Najviac: "+d.top.map(t=>t.nazov).slice(0,2).join(", ")+"." : "";
-  return `<span class="info" style="flex-basis:100%" title="Plán a Výživa počítajú s kurátorovanou hodnotou kcal na porciu, nákup kupuje suroviny. Rozdiel znamená, že v týchto receptoch si suroviny a deklarované kalórie nesedia.">`+
+  return `<span class="info nak-pokrytie" style="flex-basis:100%" title="Plán a Výživa počítajú s kurátorovanou hodnotou kcal na porciu, nákup kupuje suroviny. Rozdiel znamená, že v týchto receptoch si suroviny a deklarované kalórie nesedia.">`+
     `⚠️ Nákup pokrýva ${pct>0?"o "+pct+" % viac":"o "+(-pct)+" % menej"} kalórií, než hlási plán.${preco}</span>`;
 }
 function checkNakup(key,val){ tik(); const k=nakupCheckKey(key); S.nakupCheck[k]=val; if(!val)delete S.nakupCheck[k]; save(); renderNakup(); }
@@ -2642,6 +3169,7 @@ function renderDash(){
     <div class="tile"><div class="lbl">Jedál v pláne</div><div class="val">${plan.length}</div></div>
     <div class="tile"><div class="lbl">Priemer bielkovín/deň</div><div class="val">${plan.length?fmt(totB/nd)+"<small> g</small>":"–"}</div></div>
     <div class="tile" title="Spotrebované suroviny za celú domácnosť — rovnaké číslo ako v Nákupe"><div class="lbl">Cena/deň (domácnosť)</div><div class="val">${plan.length?eur(totCena/nd):"–"}</div></div>`;
+  renderDashTyzden();
   renderDashStravnici();
   renderDnesPlan();
   vyberDnes();
@@ -2685,6 +3213,21 @@ function renderStravniciModal(){ const box=document.getElementById("stravnici-mo
     +'<div class="tipy" style="margin-top:12px">Súčet: <b>'+stravniciList().reduce((a,p)=>a+(p.kcal||0),0)+' kcal/deň</b> za celú domácnosť. Podľa toho sa počítajú porcie aj nákup.</div>'
     +'<div class="btn-row" style="margin-top:14px;justify-content:flex-end"><button class="btn primary" onclick="zavriPick();renderDash();if(_curView===\'planovac\')renderPlan()">Hotovo</button></div>';
   zpristupniKliky(box); zpristupniFormulare(box); }
+// Pás týždňa (koncepcia B): sedem dní, kcal na deň a POD nimi prúžok vo farbe bloku.
+// Farba je len opakovanie toho, čo hovorí písmeno v titulku a v pláne — nikdy nie jediný nosič.
+function renderDashTyzden(){
+  const el=document.getElementById("dash-tyzden"); if(!el)return;
+  const dnes=dnesDi();
+  let h="";
+  for(let di=0;di<7;di++){ let kc=0;
+    slotyDna(di).forEach(sl=>{ const f=pf(di,sl); slotIds(di,sl).forEach(cid=>{ const r=komponent(cid); if(r)kc+=kcalPorcia(r)*f; }); });
+    const bi=blokIndex(di); const pism=blokPismeno(bi);
+    const popis=DNI[di]+(S.blokMode?" · blok "+pism:"")+" · "+(kc?Math.round(kc)+" kcal":"nič v pláne");
+    h+=`<div class="d${di===dnes?" dnes":""}" title="${escHtml(popis)}"><span class="kc">${kc?Math.round(kc):"–"}</span>`
+      +`<span class="dn">${DNI[di].slice(0,2)}${S.blokMode?" "+pism:""}</span>`
+      +`<span class="pr ${S.blokMode?blokTrieda(bi):""}"></span></div>`; }
+  el.innerHTML=h;
+}
 function renderDnesPlan(){
   const el=document.getElementById("dnes-plan"); if(!el)return;
   // S.viewOd je tu už prepnutý na reálny týždeň (rieši renderDash, jediný volajúci).
@@ -2693,11 +3236,11 @@ function renderDnesPlan(){
   const di=(new Date().getDay()+6)%7;
   let hVar="";
   if(S.blokMode){ bloky().forEach((bk,idx)=>{ if((bk[0]+6)%7!==di)return;
-    hVar+=`<div class="dnes-varenie-hero"><b>🍳 Dnes večer treba navariť — Blok ${String.fromCharCode(65+idx)} (na ${bk.length} dni)</b>`;
+    hVar+=`<div class="dnes-varenie-hero ${blokTrieda(idx)}"><b>${znakBloku(idx)} 🍳 Dnes večer treba navariť — Blok ${blokPismeno(idx)} (na ${bk.length} dni)</b>`;
     slotyDna(bk[0]).forEach(sl=>{ const ids=slotIds(bk[0],sl); if(!ids.length)return;
       ids.forEach(cid=>{ const k=komponent(cid); if(!k)return; const por=porcieSlotBlok(bk[0],sl,cid);
         hVar+=`<div class="dnes-row"><span class="dnes-slot">${ikony[sl]||""} ${sl}</span><span>${pripravaVopred(k)?"⏰ ":""}${escHtml(k.nazov)} <small>(${por} porcií)</small></span></div>`; }); });
-    hVar+=`<button class="lnk" style="color:var(--accent-txt);font-size:13px;min-height:24px" onclick="${naTentoTyzden}planVarenia(${bk[0]})">celý plán varenia →</button></div>`;
+    hVar+=`<button class="lnk" style="font-size:13px;min-height:24px" onclick="${naTentoTyzden}planVarenia(${bk[0]})">celý plán varenia →</button></div>`;
   }); }
   let h="",kc=0,b=0,t=0,sx=0,any=false;
   slotyDna(di).forEach(sl=>{ const ids=slotIds(di,sl); const f=pf(di,sl);
@@ -2707,7 +3250,7 @@ function renderDnesPlan(){
       // odkaz na jedlo mal 18 px (pod hranicou 24 px z CLAUDE.md) a ako <span onclick> nebol
       // dosiahnuteľný klávesnicou — <button class="lnk"> rieši oboje, výška je v CSS
       return k._priloha?("+ "+escHtml(k.nazov)):`<button type="button" class="lnk sur-klik" onclick="${naTentoTyzden}otvor('${cid}',{di:${di},slot:'${sl}'})">${escHtml(k.nazov)}</button>`;}).filter(Boolean).join(", ");
-    h+=`<div class="dnes-row"><span class="dnes-slot">${ikony[sl]||""} ${sl}</span><span>${mena}</span></div>`;
+    h+=`<div class="dnes-row"><span class="dnes-slot">${S.blokMode?znakBloku(blokIndex(di)):""} ${ikony[sl]||""} ${sl}</span><span>${mena}</span></div>`;
   });
   const cot=document.getElementById("cotvarit-panel");
   if(!any && !hVar){ el.innerHTML='<p class="info">Na dnes nič naplánované. Zostav jedálniček alebo pridaj jedlá v Pláne.</p>'; if(cot)cot.style.display=""; return; }
@@ -2809,7 +3352,8 @@ function renderVyziva(){
     const mc=d.b*4+d.t*9+d.s*4||1;
     const seg=d.kc>0?`<div class="seg segB" style="height:${d.b*4/mc*100}%"></div><div class="seg segT" style="height:${d.t*9/mc*100}%"></div><div class="seg segS" style="height:${d.s*4/mc*100}%"></div>`:"";
     const sel=isDen&&vyzivaDi===i?' style="cursor:pointer;font-weight:700;text-decoration:underline"':' style="cursor:pointer"';
-    ch+=`<div class="col"${sel} title="Zobraziť deň" onclick="vyzivaBar(${i})"><span class="v" style="${over?'color:var(--warn)':''}">${d.kc||""}</span><div class="bar2" style="height:${hgt}%">${seg}</div><span class="d">${DNI[i].slice(0,2)}</span></div>`; });
+    const bi=blokIndex(i);
+    ch+=`<div class="col"${sel} title="Zobraziť deň${S.blokMode?" · blok "+blokPismeno(bi):""}" onclick="vyzivaBar(${i})"><span class="v" style="${over?'color:var(--warn)':''}">${d.kc||""}</span><div class="bar2" style="height:${hgt}%">${seg}</div><span class="pruh-bloku ${S.blokMode?blokTrieda(bi):""}"></span><span class="d">${DNI[i].slice(0,2)}${S.blokMode?" "+blokPismeno(bi):""}</span></div>`; });
   document.getElementById("vyziva-chart").innerHTML=ch;
   document.getElementById("vyziva-ciel").innerHTML = (ciel? `Prerušovaná čiara = denný cieľ ${ciel} kcal. Klikni na stĺpec pre rozpad jedál dňa.` : "Nastav si denný cieľ v Nastaveniach.") + ` <span class="chart-leg"><span class="lg segB"></span> bielkoviny<span class="lg segT"></span> tuky<span class="lg segS"></span> sacharidy</span>`;
   // makrá: rings (na prvý pohľad) + detailné pruhy pod nimi
@@ -2821,9 +3365,9 @@ function renderVyziva(){
       ${ring(src.b,cm?cm.b:0,rB,"Biel. g")}
       ${ring(src.t,cm?cm.t:0,"var(--accent)","Tuky g")}
       ${ring(src.s,cm?cm.s:0,"var(--accent)","Sach. g")}</div>
-    ${makroBar("🟩","Bielkoviny","#2e7d54",src.b,cm?cm.b:0)}
-    ${makroBar("🟨","Tuky","#e0a800",src.t,cm?cm.t:0)}
-    ${makroBar("🟫","Sacharidy","#b06a3b",src.s,cm?cm.s:0)}
+    ${makroBar("🟩","Bielkoviny","var(--blok-b)",src.b,cm?cm.b:0)}
+    ${makroBar("🟨","Tuky","var(--blok-c)",src.t,cm?cm.t:0)}
+    ${makroBar("🟫","Sacharidy","var(--blok-a)",src.s,cm?cm.s:0)}
     <p class="info" style="margin-top:6px">${isDen?DNI[vyzivaDi]:"Priemer na deň"}${cm?" oproti cieľu (z "+ciel+" kcal)":""}.</p>`;
   // ciele stravníkov
   const strav=stravniciList(); const sp=document.getElementById("vyziva-stravnici");
@@ -2901,7 +3445,7 @@ function naplnUcet(){ const box=document.getElementById("ucet-box"); if(!box)ret
     +'<div class="field"><label>Pozývací kód (pošli ho členom)</label><input type="text" id="au-kodshow" readonly value="'+(S.profil.skupinaKod||"").replace(/"/g,"")+'" onclick="this.select()" style="font-weight:700;letter-spacing:1px"></div>'
     +'<button class="ghost" onclick="uiSkupinaOpusti()">Opustiť skupinu</button>'; }
   h+='<p class="info" id="au-msg"></p>'; box.innerHTML=h; }
-function auMsg(t,err){ const m=document.getElementById("au-msg"); if(m){ m.textContent=t; m.style.color=err?"var(--warn)":"var(--ok,green)"; } }
+function auMsg(t,err){ const m=document.getElementById("au-msg"); if(m){ m.textContent=t; m.style.color=err?"var(--signal)":"var(--blok-c)"; } }
 async function uiLogin(){ try{ await authLogin(document.getElementById("au-email").value.trim(),document.getElementById("au-pass").value); await syncSkupinaPull(); naplnUcet(); }catch(e){ auMsg(e.message,true); } }
 async function uiSignup(){ try{ await authSignup(document.getElementById("au-email").value.trim(),document.getElementById("au-pass").value); naplnUcet(); }catch(e){ auMsg(e.message,true); } }
 async function uiLogout(){ if(!await confirmModal("Odhlásiť sa? Tvoje údaje ostanú uložené v účte a načítajú sa po ďalšom prihlásení. Z tohto zariadenia sa vyčistia."))return; await authLogout(); }
@@ -3112,7 +3656,7 @@ function sparkVahy(){ const v=S.vahy; if(v.length<2)return ""; const W=300,H=70,
   const ks=v.map(x=>x.kg); const mn=Math.min(...ks),mx=Math.max(...ks),rng=(mx-mn)||1;
   const x=i=>P+i*(W-2*P)/(v.length-1); const y=k=>H-P-(k-mn)/rng*(H-2*P);
   const pts=v.map((p,i)=>x(i).toFixed(1)+","+y(p.kg).toFixed(1)).join(" ");
-  const dots=v.map((p,i)=>`<circle cx="${x(i).toFixed(1)}" cy="${y(p.kg).toFixed(1)}" r="2.5" fill="var(--accent-dark)"></circle>`).join("");
+  const dots=v.map((p,i)=>`<circle cx="${x(i).toFixed(1)}" cy="${y(p.kg).toFixed(1)}" r="2.5" fill="var(--akcent)"></circle>`).join("");
   const ema=emaVahy(); const emaPts=v.map((p,i)=>x(i).toFixed(1)+","+y(ema[i]).toFixed(1)).join(" "); // NS1: trendová čiara
   return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:${W}px;height:auto;margin-top:10px" preserveAspectRatio="xMidYMid meet">
     <polyline points="${pts}" fill="none" stroke="var(--line)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"></polyline>
@@ -3313,7 +3857,7 @@ if('serviceWorker' in navigator && location.protocol.startsWith('http')){
   const link=document.querySelector("link[rel=manifest]"), ico=document.querySelector("link[rel=icon]");
   if(!link||!ico)return;
   const tc=document.querySelector('meta[name="theme-color"]:not([media*="dark"])')||document.querySelector('meta[name="theme-color"]');
-  const farba=(tc&&tc.getAttribute("content"))||"#6d3813";
+  const farba=(tc&&tc.getAttribute("content"))||"#E7E4DD";
   const start=location.href.split("#")[0], scope=start.replace(/[^/]*$/,"");
   const m={ id:start, name:"Moja kuchárka", short_name:"Kuchárka", lang:"sk", dir:"ltr",
     start_url:start, scope:scope, display:"fullscreen", orientation:"portrait",

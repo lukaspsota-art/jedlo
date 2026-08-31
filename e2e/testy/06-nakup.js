@@ -192,14 +192,31 @@ module.exports = {
     const toastTxt = await page.evaluate(() => document.getElementById("toast").textContent);
     await t.ok(/Skopírované/i.test(toastTxt), "po kopírovaní sa ukáže potvrdenie", toastTxt);
 
-    // ── klik na názov suroviny ukáže, v ktorom recepte je ──────────────────
-    await page.locator("#nakup-list .odd label .sur-klik").first().click();
+    // ── vlna 3: celý riadok odškrtáva, info má vlastné tlačidlo ⓘ ──────────
+    // Predtým bol názov suroviny klikateľný (.sur-klik) a `preventDefault()` v ňom rušil
+    // odškrtnutie labelu. Dnes: <label> = odškrtnutie, ⓘ (súrodenec labelu) = info.
+    const stavba = await page.evaluate(() => {
+      const row = document.querySelector("#nakup-list .nak-row");
+      if (!row) return null;
+      const lab = row.querySelector("label"), inf = row.querySelector(".nak-i");
+      return {
+        maLabel: !!lab, maInfo: !!inf,
+        infoVLabeli: !!(inf && lab && lab.contains(inf)),
+        klikNaNazve: !!row.querySelector("label .sur-klik, label [onclick]"),
+        infoRozmer: inf ? [Math.round(inf.getBoundingClientRect().width), Math.round(inf.getBoundingClientRect().height)] : null,
+      };
+    });
+    await t.ok(stavba && stavba.maLabel && stavba.maInfo, "riadok nákupu má <label> aj tlačidlo ⓘ", JSON.stringify(stavba));
+    await t.ok(stavba && !stavba.infoVLabeli, "ⓘ je súrodenec labelu, nie jeho potomok (inak by ho klik prekryl)", JSON.stringify(stavba));
+    await t.ok(stavba && !stavba.klikNaNazve, "názov suroviny už nie je samostatný klikací cieľ vnútri labelu", JSON.stringify(stavba));
+
+    await page.locator("#nakup-list .nak-row .nak-i").first().click();
     await page.waitForTimeout(250);
     const info = await page.evaluate(() => ({
       otvorene: document.getElementById("pick-overlay").classList.contains("open"),
       text: (document.getElementById("pick-modal").textContent || "").slice(0, 120),
     }));
-    await t.ok(info.otvorene, "klik na surovinu otvorí info „v ktorom recepte“", JSON.stringify(info));
+    await t.ok(info.otvorene, "ⓘ otvorí info „v ktorom recepte · čím nahradiť“", JSON.stringify(info));
     await zavriOkna(page);
 
     await t.ok(page.chyby.length === 0, "žiadna chyba v konzole v nákupe",

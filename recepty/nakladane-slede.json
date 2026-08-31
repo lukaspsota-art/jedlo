@@ -7,14 +7,15 @@
   "zdroj_url": "https://en.wikibooks.org/wiki/Cookbook:Pickled_Herring",
   "porcie": 8,
   "cas": "26 hod",
-  "kcal_na_porciu": 138,
+  "kcal_na_porciu": 108,
   "popis": "Sleďové filé najprv v slanom náleve, potom v octovom s citrónom a červenou cibuľou. Škandinávska klasika na chlieb.",
   "ingrediencie": [
     {
       "nazov": "Soľ",
       "mnozstvo": 60,
       "jednotka": "g",
-      "poznamka": ""
+      "poznamka": "",
+      "vsiaknutie": 0.2
     },
     {
       "nazov": "Voda",
@@ -32,13 +33,15 @@
       "nazov": "Ocot",
       "mnozstvo": 480,
       "jednotka": "ml",
-      "poznamka": "biely vínny"
+      "poznamka": "biely vínny",
+      "vsiaknutie": 0.2
     },
     {
       "nazov": "Cukor",
       "mnozstvo": 50,
       "jednotka": "g",
-      "poznamka": ""
+      "poznamka": "",
+      "vsiaknutie": 0.2
     },
     {
       "nazov": "Horčicové semienka",

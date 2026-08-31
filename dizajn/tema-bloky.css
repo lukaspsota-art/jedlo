@@ -1,0 +1,472 @@
+/* ── TOKENY ──────────────────────────────────────────────────────────────
+     Koncepcia B „Bloky": týždeň má tri varné bloky a KAŽDÝ má vlastnú farbu,
+     ktorá ide cez všetky obrazovky — plán, nákup, domov, varenie.
+     Farba tu nie je ozdoba, je to odpoveď na otázku „na ktorý blok to je".
+     Preto je vždy doplnená písmenom A/B/C (farba nesmie byť jediný nosič). */
+  :root{
+    /* plochy a text */
+    --zem:#E7E4DD;        /* podklad strany — teplá šeď, nie krém */
+    --doska:#FFFFFF;      /* plocha karty / bunky */
+    --text:#1E1B16;       /* text (13,5:1 na zemi) */
+    --text2:#5A544A;      /* druhotný text (5,9:1 na zemi) */
+    --linka:#D3CEC3;      /* vlasová linka — iba zoskupuje, nič neohraničuje */
+    --okraj:#7E796F;      /* okraj OVLÁDACIEHO prvku — WCAG 1.4.11 ≥ 3:1 */
+    --tint:#DBD7CE;       /* tónovaná plocha (chip, súčtový riadok) */
+    --tlac:#1E1B16;       /* tmavá „vytlačená" plocha — toast, hero, skip */
+    --na-tlaci:#F4F1EA;   /* text na nej (15,2:1) */
+    /* bloky */
+    --blok-a:#6E2A55;     /* slivka */
+    --blok-b:#0E5A70;     /* more */
+    --blok-c:#4B5A15;     /* oliva */
+    --na-bloku:#FFFFFF;   /* text vyrazený z farebnej plochy bloku */
+    --signal:#A82C19;     /* nad cieľom, odobrať, po expirácii — LEN stav, nie identita */
+    --zlato:#725700;      /* hodnotenie, cieľová čiara (4,75:1 aj na tónovanej ploche) */
+    /* akcent = farba práve zobrazeného bloku (app.js ho prepisuje na <html>) */
+    --akcent:var(--blok-b);
+    --akcent-tlac:var(--blok-b);
+    /* hustota: tri situácie, v ktorých sa appka používa */
+    --skala:1;            /* plánovanie 1 · obchod 1,22 · kuchyňa 1,5 */
+    --cil:44px;           /* najmenší dotykový cieľ (mimo zoomovanej plochy) */
+    --cil-in:calc(var(--cil) / var(--skala));  /* to isté vnútri .content (zoom ho dorovná) */
+    --r:16px; --r-mala:8px; --r-btn:12px; --radius:16px;
+    /* preklad starých tokenov na nové — pôvodné CSS sa tým prefarbí celé naraz */
+    --bg:var(--zem); --panel:var(--doska); --card:var(--doska);
+    --ink:var(--text); --muted:var(--text2); --line:var(--linka); --chip:var(--tint);
+    --accent:var(--akcent); --accent-txt:var(--akcent); --accent-fill:var(--akcent-tlac);
+    --accent-dark:var(--tlac); --warn:var(--signal); --gold:var(--zlato);
+    --shadow:0 1px 2px rgba(30,27,22,.06);
+    --org-soft:#F1EEE7; --org-tint:var(--tint);
+    color-scheme:light;
+  }
+  /* režim OBCHOD — jedna ruka, košík v druhej */
+  :root[data-rezim="obchod"]{ --skala:1.22; --cil:56px }
+  /* režim KUCHYŇA — mastné ruky, telefón opretý */
+  :root[data-rezim="kuchyna"]{ --skala:1.5; --cil:64px }
+
+  /* ── TMAVÁ TÉMA ────────────────────────────────────────────────────────
+     `body.dark` = výslovná voľba, `body:not(.svetla)` v @media = systémové
+     nastavenie ešte pred tým, než sa JS dostane k slovu (stav „bez stampu"). */
+  body.dark, body.dark:root{ color-scheme:dark }
+  body.dark{
+    --zem:#151310; --doska:#211E19; --text:#F0EBE1; --text2:#A79E90;
+    --linka:#38332B; --okraj:#8B8478; --tint:#2C2822;
+    --tlac:#2A251E; --na-tlaci:#F4F1EA;
+    --blok-a:#DE8DBB; --blok-b:#5EC1DC; --blok-c:#AEC252;
+    --na-bloku:#151310; --signal:#F0836C; --zlato:#D9AE3A;
+    --org-soft:#262019;
+    --shadow:0 1px 2px rgba(0,0,0,.4);
+  }
+  @media (prefers-color-scheme:dark){
+    body:not(.svetla){
+      --zem:#151310; --doska:#211E19; --text:#F0EBE1; --text2:#A79E90;
+      --linka:#38332B; --okraj:#8B8478; --tint:#2C2822;
+      --tlac:#2A251E; --na-tlaci:#F4F1EA;
+      --blok-a:#DE8DBB; --blok-b:#5EC1DC; --blok-c:#AEC252;
+      --na-bloku:#151310; --signal:#F0836C; --zlato:#D9AE3A;
+      --org-soft:#262019; --shadow:0 1px 2px rgba(0,0,0,.4);
+      color-scheme:dark;
+    }
+  }
+
+  /* ── ZÁKLAD ─────────────────────────────────────────────────────────── */
+  body{background:var(--zem);color:var(--text);
+       font-family:'Instrument Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       -webkit-tap-highlight-color:rgba(14,90,112,.16)}
+  /* Archivo je premenlivý font (400–800) — nadpisy nesú váhu 800, čísla 600 */
+  .side .brand,h2.h,.panel h3,h4.sekcia,.odd h4,.card h3,.modal .hero h2,.tile .val,
+  details.panel > summary,.dnes .nm,.rozvrh-nadpis,.odd.zaklady>summary,.nakup-suhrn b,
+  table.plan th,table.plan td.slotname,.plan-cell .nm,.polozka .nm,.znak,.rezimy button{
+    font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:800;letter-spacing:-.015em}
+  .tile .val,.plan-cell .kc,tr.suma td,.chart .v,table.ing td.mn,.card .kcal{font-variant-numeric:tabular-nums}
+  .plan-cell .nm,table.plan td.slotname,.rezimy button,.nakup-suhrn b{font-weight:600}
+  :focus-visible{outline:3px solid var(--akcent);outline-offset:2px;border-radius:4px}
+
+  /* hustota: obsah aj dialógy sa zväčšujú, pevná navigácia si drží svoju veľkosť */
+  .content{zoom:var(--skala)}
+  .modal{zoom:var(--skala)}
+  body.big{zoom:1.12}
+
+  /* ── ZNAČKA + PREPÍNAČ REŽIMOV ─────────────────────────────────────── */
+  .side{background:var(--doska);border-right:2px solid var(--text);color:var(--text)}
+  .side .brand{display:flex;align-items:center;gap:9px;font-size:19px;color:var(--text)}
+  .znacka-bloky{display:inline-flex;gap:2px;flex:0 0 auto}
+  .znacka-bloky i{width:7px;height:18px;border-radius:2px;display:block}
+  .znacka-bloky i:nth-child(1){background:var(--blok-a)}
+  .znacka-bloky i:nth-child(2){background:var(--blok-b)}
+  .znacka-bloky i:nth-child(3){background:var(--blok-c)}
+  .side nav a,.side .foot a{color:var(--text2);border:2px solid transparent;font-weight:600;min-height:var(--cil)}
+  .side nav a:hover,.side .foot a:hover{background:var(--tint);color:var(--text)}
+  .side nav a.active,.side .foot a.active{background:transparent;color:var(--text);border-color:var(--text);font-weight:800}
+  .side .foot{border-top:1px solid var(--linka)}
+  .side nav a:focus-visible,.side .foot a:focus-visible{outline-color:var(--akcent);outline-offset:-2px}
+  :root{--sidebar:224px}
+  .rezimy{display:flex;border:2px solid var(--text);border-radius:var(--r-btn);overflow:hidden;margin:0 12px 12px}
+  .rezimy button{flex:1 1 0;min-width:0;background:none;border:0;padding:8px 3px;min-height:var(--cil);
+    cursor:pointer;font-size:12px;letter-spacing:-.01em;color:var(--text2);white-space:nowrap}
+  .rezimy button+button{border-left:2px solid var(--text)}
+  .rezimy button[aria-pressed="true"]{background:var(--text);color:var(--zem)}
+
+  /* ── PLOCHY ─────────────────────────────────────────────────────────── */
+  .panel,.tile,.card,.controls,.match,.nakup-suhrn,.hist-item,.dnes-varenie-hero,
+  .rozvrh-pas,.plan-prazdny{border-radius:var(--r);box-shadow:none}
+  .panel,.tile,.card,.match,.nakup-suhrn,.hist-item{background:var(--doska);border:1px solid var(--linka)}
+  .controls{background:var(--doska);border:1px solid var(--linka)}
+  .card:hover{transform:none;box-shadow:0 4px 14px rgba(30,27,22,.10);border-color:var(--okraj)}
+  .modal{background:var(--doska);border-radius:calc(var(--r) + 4px);box-shadow:0 20px 50px rgba(0,0,0,.34)}
+  .modal .hero{background:var(--tlac);color:var(--na-tlaci);border-radius:calc(var(--r) + 4px) calc(var(--r) + 4px) 0 0}
+  .modal .content2{background:var(--doska);color:var(--text);border-radius:0 0 calc(var(--r) + 4px) calc(var(--r) + 4px)}
+  .modal .close{background:rgba(255,255,255,.16);color:var(--na-tlaci)}
+  .pick-dropdown,.menu{background:var(--doska);border:1px solid var(--okraj);border-radius:var(--r-mala);color:var(--text)}
+  .menu a{color:var(--text);min-height:var(--cil);display:flex;align-items:center}
+  .menu a:hover{background:var(--tint)}
+  .tipy,.subst,.nutri div,.rozvrh-nahlad,.rozvrh-info,.plan-prazdny{background:var(--org-soft);border-color:var(--linka);color:var(--text)}
+  .tipy{border-left:3px solid var(--akcent)}
+  .rozvrh-info{border-left:4px solid var(--akcent)}
+  .rozvrh-info.warn{border-left-color:var(--signal)}
+  .nutri b{color:var(--text)}
+  .badge{background:var(--tint);border:1px solid var(--linka);color:var(--text2)}
+  .badge.price{background:var(--doska);color:var(--zlato);border-color:var(--linka)}
+  .badge.alerg{background:var(--doska);color:var(--signal);border-color:var(--signal)}
+  .star-slot .star-e{color:var(--linka)}
+  .star-slot .star-f{color:var(--zlato)}
+  /* ★ je súrodenec .card-open a .thumb je tiež positioned → bez z-indexu ju náhľad prekryje */
+  .fav{background:var(--doska);border:1px solid var(--linka);color:var(--zlato);z-index:3}
+  .match .bar{background:var(--linka)}
+  .match .bar i{background:var(--akcent)}
+  .info,.card .meta,.card .macros,.plan-cell .kc{color:var(--text2)}
+  .card .spajza-match{color:var(--akcent)}
+  .exp-soon{color:var(--zlato)} .exp-over,.low{color:var(--signal)}
+  .kal .day{background:var(--doska);border-color:var(--linka)}
+  .kal .day.mimo{background:transparent}
+  .kal .ev{background:var(--tint)}
+
+  /* ── TYPOGRAFIA STRÁNKY ────────────────────────────────────────────── */
+  h2.h{font-size:30px;line-height:1.06;letter-spacing:-.025em;margin:0 0 4px;color:var(--text)}
+  .sub{color:var(--text2);font-size:14.5px;margin:0 0 20px}
+  .panel h3,h4.sekcia,.odd h4,details.panel > summary{color:var(--text)}
+  h4.sekcia,.odd h4{border-bottom:2px solid var(--text);padding-bottom:6px}
+  .odd.zaklady>summary{color:var(--text);border-bottom:2px solid var(--text)}
+  .tile .val{color:var(--text);font-size:26px;letter-spacing:-.02em}
+  .tile .lbl{color:var(--text2)}
+
+  /* ── TLAČIDLÁ, CHIPY, POLIA ────────────────────────────────────────── */
+  .btn{background:var(--doska);border:2px solid var(--text);border-radius:var(--r-btn);
+       color:var(--text);font-weight:600;font-family:'Archivo','Instrument Sans',Arial,sans-serif;
+       min-height:max(44px,var(--cil-in));padding:10px 16px}
+  .btn:hover{background:var(--tint)}
+  .btn.primary{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku);font-weight:800}
+  .btn.primary:hover{filter:brightness(1.08)}
+  .mini{background:var(--doska);border:1px solid var(--okraj);border-radius:var(--r-mala);color:var(--text)}
+  .mini.on{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku)}
+  .chip,.kol-tile{background:var(--doska);border:2px solid var(--okraj);border-radius:var(--r-mala);
+    color:var(--text);font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:600}
+  .chip.active,.kol-tile.active{background:var(--text);border-color:var(--text);color:var(--zem)}
+  .strav-chip{background:var(--tint);border:1px solid var(--linka);border-radius:var(--r-mala);color:var(--text)}
+  .card .kat{background:var(--tint);color:var(--text2);border-radius:var(--r-mala);
+    font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:600;letter-spacing:.09em}
+  .f-toggle .cnt{background:var(--akcent-tlac);color:var(--na-bloku)}
+  #hladaj,select.f,input.f,textarea.pozn,.doma-in,
+  .field input[type=number],.field input[type=text],.field input[type=email],
+  .field input[type=password],.field input[type=date]{
+    background:var(--doska);color:var(--text);border:1px solid var(--okraj);border-radius:var(--r-mala)}
+  #hladaj:focus,select.f:focus,input.f:focus,.field input:focus{
+    border-color:var(--akcent);box-shadow:0 0 0 3px color-mix(in srgb,var(--akcent) 26%,transparent)}
+  .stepper{background:var(--doska);border:2px solid var(--text);border-radius:var(--r-btn);overflow:hidden}
+  .stepper button{background:var(--doska);color:var(--text)}
+  .stepper button:hover{background:var(--tint)}
+  input[type=checkbox],input[type=radio]{accent-color:var(--akcent-tlac)}
+  .porcie-box{background:var(--doska);border:1px solid var(--linka);border-radius:var(--r)}
+  .lnk{color:var(--akcent)}
+  #toast{background:var(--tlac);color:var(--na-tlaci);border-radius:var(--r-btn)}
+  .skip{background:var(--tlac);color:var(--na-tlaci)}
+
+  /* ── ŠTÍTOK BLOKU — farba + písmeno, nikdy nie farba sama ──────────── */
+  .znak{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;
+    width:22px;height:22px;border-radius:6px;font-size:12px;font-weight:800;line-height:1;
+    font-family:'Archivo','Instrument Sans',Arial,sans-serif;color:var(--na-bloku);vertical-align:middle}
+  .znak.blok-a{background:var(--blok-a)} .znak.blok-b{background:var(--blok-b)} .znak.blok-c{background:var(--blok-c)}
+  .znak.blok-ziadny{background:var(--linka);color:var(--text2)}
+  .znaky{display:inline-flex;gap:3px;flex:0 0 auto;vertical-align:middle}
+
+  /* ── PLÁN — doska kariet, nie mriežka liniek ──────────────────────── */
+  table.plan{border-collapse:separate;border-spacing:4px;width:100%}
+  table.plan th,table.plan td{background:var(--doska);border:1px solid var(--linka);
+    border-radius:var(--r-mala);padding:6px;vertical-align:top}
+  table.plan th{background:var(--tint);color:var(--text);font-size:13.5px;padding:8px 9px;text-align:left}
+  table.plan th .znak{margin-right:5px}
+  table.plan th.blok-a{background:var(--blok-a);color:var(--na-bloku);border-color:var(--blok-a)}
+  table.plan th.blok-b{background:var(--blok-b);color:var(--na-bloku);border-color:var(--blok-b)}
+  table.plan th.blok-c{background:var(--blok-c);color:var(--na-bloku);border-color:var(--blok-c)}
+  table.plan th.blok-a .znak,table.plan th.blok-b .znak,table.plan th.blok-c .znak{
+    background:var(--na-bloku);color:var(--text)}
+  table.plan td.slotname{background:transparent;border-color:transparent;color:var(--text2);font-size:13px}
+  table.plan td.rohova{background:transparent;border-color:transparent}
+  /* farebná plocha bloku nad tabuľkou — text sa z nej vyráža */
+  table.plan td.blok-hlava{color:var(--na-bloku);border:0;text-align:left;padding:9px 11px}
+  table.plan td.blok-hlava.blok-a{background:var(--blok-a)}
+  table.plan td.blok-hlava.blok-b{background:var(--blok-b)}
+  table.plan td.blok-hlava.blok-c{background:var(--blok-c)}
+  table.plan td.blok-hlava .bh-vari{color:inherit;opacity:.86}
+  table.plan td.blok-hlava .plan-varenia{color:inherit;text-decoration:underline}
+  /* bunky bloku dostanú jemný nádych svojej farby — vždy popri písmene v hlavičke */
+  table.plan td.bunka-a{background:color-mix(in srgb,var(--blok-a) 7%,var(--doska))}
+  table.plan td.bunka-b{background:color-mix(in srgb,var(--blok-b) 7%,var(--doska))}
+  table.plan td.bunka-c{background:color-mix(in srgb,var(--blok-c) 7%,var(--doska))}
+  .plan-cell:hover{background:color-mix(in srgb,var(--akcent) 10%,transparent)}
+  .plan-cell .rm{color:var(--signal)}
+  .pc-x{color:var(--signal)}
+  .pc-odkaz{text-decoration:underline;text-underline-offset:2px}
+  tr.suma td{background:var(--tint);border-color:var(--linka);color:var(--text)}
+  tr.suma td.over{color:var(--signal)}
+  .suma .kc-bar{background:var(--linka)}
+  .mchip{background:var(--linka);color:var(--text2)}
+  .mchip.on{background:var(--akcent-tlac);color:var(--na-bloku);opacity:1}
+  .hranica.rez{color:var(--akcent)}
+  .rozvrh-pas{background:var(--doska);border:1px solid var(--linka)}
+  .rozvrh-blok{background:var(--doska);border:1px solid var(--okraj);border-radius:var(--r-mala)}
+  .rozvrh-blok:hover{border-color:var(--akcent)}
+  .rozvrh-blok .rb-pis{border-radius:6px;background:var(--akcent-tlac);color:var(--na-bloku);font-family:'Archivo',Arial,sans-serif}
+  .rozvrh-blok.blok-a .rb-pis{background:var(--blok-a)}
+  .rozvrh-blok.blok-b .rb-pis{background:var(--blok-b)}
+  .rozvrh-blok.blok-c .rb-pis{background:var(--blok-c)}
+  .rozvrh-pred{background:var(--doska);border:1px solid var(--okraj);border-radius:var(--r-mala)}
+  .rozvrh-pred.on{border-color:var(--akcent);box-shadow:inset 0 0 0 1px var(--akcent)}
+  .rozvrh-den{background:var(--tint);color:var(--text)}
+  .rozvrh-den.blok-a{background:color-mix(in srgb,var(--blok-a) 18%,var(--doska))}
+  .rozvrh-den.blok-b{background:color-mix(in srgb,var(--blok-b) 18%,var(--doska))}
+  .rozvrh-den.blok-c{background:color-mix(in srgb,var(--blok-c) 18%,var(--doska))}
+  .plan-cell.vyp{background:repeating-linear-gradient(45deg,transparent,transparent 6px,
+    color-mix(in srgb,var(--text) 6%,transparent) 6px,color-mix(in srgb,var(--text) 6%,transparent) 12px)}
+  .ctrl-row .ppl button{background:var(--doska);border:1px solid var(--okraj);color:var(--text);border-radius:6px}
+  .ctrl-row .pplnum.cust{color:var(--akcent)}
+
+  /* ── DOMOV ─────────────────────────────────────────────────────────── */
+  .dnes-varenie-hero{background:var(--akcent-tlac);color:var(--na-bloku);border-left:0;padding:16px 18px}
+  .dnes-varenie-hero b{color:inherit}
+  .dnes-varenie-hero .dnes-row{border-bottom-color:rgba(255,255,255,.28);color:inherit}
+  body.dark .dnes-varenie-hero .dnes-row{border-bottom-color:rgba(0,0,0,.24)}
+  .dnes-varenie-hero .lnk,.dnes-varenie-hero .sur-klik{color:inherit}
+  .dnes-varenie-hero.blok-a{--akcent-tlac:var(--blok-a)}
+  .dnes-varenie-hero.blok-b{--akcent-tlac:var(--blok-b)}
+  .dnes-varenie-hero.blok-c{--akcent-tlac:var(--blok-c)}
+  .dnes-slot{color:var(--text2);font-weight:600}
+  .dnes-row{border-bottom-color:var(--linka)}
+  .dnes .thumb,.card .thumb{background:var(--tint);color:var(--text2)}
+  .tyzden-pas{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin:0 0 20px}
+  .tyzden-pas .d{background:var(--doska);border:1px solid var(--linka);border-radius:var(--r-mala);
+    padding:8px 3px;text-align:center;min-width:0}
+  .tyzden-pas .d.dnes{border-color:var(--text);border-width:2px}
+  .tyzden-pas .kc{display:block;font-family:'Archivo',Arial,sans-serif;font-weight:800;
+    font-variant-numeric:tabular-nums;font-size:15px;line-height:1.1;color:var(--text)}
+  .tyzden-pas .dn{display:block;font-size:11.5px;color:var(--text2);margin-top:1px}
+  .tyzden-pas .pr{display:block;height:5px;border-radius:3px;margin-top:6px;background:var(--linka)}
+  .tyzden-pas .pr.blok-a{background:var(--blok-a)}
+  .tyzden-pas .pr.blok-b{background:var(--blok-b)}
+  .tyzden-pas .pr.blok-c{background:var(--blok-c)}
+
+  /* ── NÁKUP ─────────────────────────────────────────────────────────── */
+  .odd .nak-row>label{background:var(--doska);border:1px solid var(--linka);border-radius:var(--r-mala);
+    margin-bottom:6px;padding:10px 12px;min-height:max(48px,var(--cil-in))}
+  .odd .nak-row>label:hover{border-color:var(--akcent)}
+  .odd .nak-row>label.checked{opacity:.62}
+  .odd .nak-row>label .nm2{font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:600}
+  .odd .nak-row>label input[type=checkbox]{width:24px;height:24px}
+  .nak-i{border:1px solid var(--okraj);border-radius:var(--r-mala);background:var(--doska);
+    color:var(--text2);min-width:max(44px,var(--cil-in));min-height:max(44px,var(--cil-in))}
+  .nak-i:hover,.nak-i:focus-visible{background:var(--tint);color:var(--text)}
+  .nak-i.warn{color:var(--signal)}
+  .nakup-suhrn b{color:var(--text)}
+  .odd .cena{color:var(--text2)}
+  .nak-pruh{height:8px;background:var(--linka);border-radius:4px;overflow:hidden;margin:0 0 14px}
+  .nak-pruh i{display:block;height:100%;background:var(--akcent)}
+
+  /* ── VÝŽIVA ────────────────────────────────────────────────────────── */
+  .chart{border-bottom:2px solid var(--text)}
+  .chart .bar2{border-radius:6px 6px 0 0}
+  .chart .v{color:var(--text2)}
+  .chart .d{color:var(--text2)}
+  .chart .cielline{border-top-color:var(--signal)}
+  .chart .cielline span{color:var(--signal);background:var(--zem)}
+  /* Makrá sú rozpad JEDNEJ veličiny → tónový rebrík z --text. Farby blokov sa tu nesmú
+     objaviť, inak by tá istá farba znamenala raz blok a raz živinu. */
+  .segB{background:var(--text)}
+  .segT{background:color-mix(in srgb,var(--text) 62%,var(--doska))}
+  .segS{background:color-mix(in srgb,var(--text) 30%,var(--doska))}
+  .chart .col.b-a .bar2{background:var(--blok-a)} .chart .col.b-b .bar2{background:var(--blok-b)}
+  .chart .col.b-c .bar2{background:var(--blok-c)}
+  .goalline{border-top-color:var(--zlato)}
+  .hdot.hs-green{background:var(--text2)} .hdot.hs-amber{background:var(--zlato)} .hdot.hs-red{background:var(--signal)}
+  .hs-green{background:var(--text2)} .hs-amber{background:var(--zlato)} .hs-red{background:var(--signal)}
+  .badge.hs-green{background:var(--doska);color:var(--text2);border-color:var(--okraj)}
+  .badge.hs-amber{background:var(--doska);color:var(--zlato);border-color:var(--zlato)}
+  .badge.hs-red{background:var(--doska);color:var(--signal);border-color:var(--signal)}
+  .ring b{background:var(--doska);color:var(--text)}
+
+  /* znak bloku NA farebnej ploche bloku sa musí obrátiť, inak splynie */
+  .dnes-varenie-hero .znak,table.plan td.blok-hlava .znak{background:var(--na-bloku);color:var(--text)}
+  .dnes-varenie-hero .dnes-slot,.dnes-varenie-hero .info,.dnes-varenie-hero small{color:inherit;opacity:.9}
+  .dnes-varenie-hero .lnk{color:var(--na-bloku);text-decoration:underline}
+  /* pruh dní v dialógu rozvrhu nesie písmeno bloku, nielen farbu */
+  .rozvrh-den .rd-p{display:inline-block;margin-left:4px;font-size:11px;font-weight:800;
+    font-family:'Archivo',Arial,sans-serif;opacity:.75}
+  /* graf výživy: prúžok bloku pod stĺpcom (farba) + písmeno v menovke dňa (text) */
+  .chart .col .pruh-bloku{display:block;width:70%;height:5px;border-radius:3px;background:var(--linka);flex:0 0 auto}
+  .chart .col .pruh-bloku.blok-a{background:var(--blok-a)}
+  .chart .col .pruh-bloku.blok-b{background:var(--blok-b)}
+  .chart .col .pruh-bloku.blok-c{background:var(--blok-c)}
+
+  /* ── REŽIM VARENIA ─────────────────────────────────────────────────
+     Plocha je tmavá VŽDY, preto má vlastnú sadu farieb blokov: svetlá slivka
+     #6E2A55 by na #141210 dala 2,3:1 a tlačidlo „Ďalej" by zhaslo. */
+  .cook{--blok-a:#E39CC4;--blok-b:#6FCBE4;--blok-c:#BCD05E;--na-bloku:#141210;
+        background:#141210;color:#F4EFE6;padding:20px 22px}
+  .cook .ch{opacity:1;color:#B8AFA1;font-family:'Archivo',Arial,sans-serif;font-weight:600;
+    flex-wrap:wrap;gap:10px;align-items:center}
+  .cook #cook-title{flex:1 1 100%;color:#F4EFE6;font-size:17px;font-weight:800;letter-spacing:-.01em;
+    display:flex;align-items:center;gap:8px;order:-1}
+  .cook .znak{color:#141210}
+  .cook .ch .btn{background:none;border:2px solid #4A443C;color:#F4EFE6;min-height:52px}
+  .cook .ch .btn:hover{background:#262119}
+  .cook .step{font-size:33px;line-height:1.3;font-weight:400;text-align:left;justify-content:flex-start;max-width:900px}
+  /* pás krokov — koľko zostáva, čitateľné aj s mokrými rukami cez pol kuchyne */
+  .cook .cook-kroky{display:flex;gap:4px;margin:14px 0 6px}
+  .cook .cook-kroky i{flex:1;height:7px;border-radius:4px;background:#3A342C}
+  .cook .cook-kroky i.hot{background:var(--akcent)}
+  .cook .cook-kroky i.tu{background:#F4EFE6}
+  .cook #cook-timers{justify-content:flex-start!important}
+  .cook .nav2{align-items:stretch;gap:12px}
+  .cook .nav2 button{background:var(--akcent);color:#141210;border-radius:14px;min-height:70px;
+    padding:0 28px;font-family:'Archivo',Arial,sans-serif;font-weight:800;font-size:21px}
+  .cook .nav2 button.ghost{background:none;border:2px solid #4A443C;color:#F4EFE6;font-weight:600;font-size:16px;flex:0 0 auto}
+  .cook .nav2 button:not(.ghost){flex:1;max-width:520px}
+  .cook .timer{background:#262119;color:#F4EFE6;border-radius:14px;font-family:'Archivo',Arial,sans-serif;
+    font-weight:600;font-variant-numeric:tabular-nums;min-height:56px;border:0}
+  .cook .timer.run{background:#C7452E;color:#fff}
+  .cook #cook-progress{font-family:'Archivo',Arial,sans-serif;font-weight:600;color:#B8AFA1}
+
+  /* ── FOTKY RECEPTOV (v23) ─────────────────────────────────────────── */
+  .dnes .thumb,.card .thumb{position:relative;overflow:hidden}
+  .card .thumb .ikon,.dnes .thumb .ikon{position:relative;z-index:0;line-height:1;opacity:.7}
+  .card .thumb img,.dnes .thumb img{position:absolute;inset:0;width:100%;height:100%;
+    object-fit:cover;z-index:1;display:block;background:transparent}
+  .card .thumb.t0,.dnes .thumb.t0{background:color-mix(in srgb,var(--blok-a) 12%,var(--tint))}
+  .card .thumb.t1,.dnes .thumb.t1{background:color-mix(in srgb,var(--blok-b) 12%,var(--tint))}
+  .card .thumb.t2,.dnes .thumb.t2{background:color-mix(in srgb,var(--blok-c) 12%,var(--tint))}
+  .card .thumb.t3,.dnes .thumb.t3{background:color-mix(in srgb,var(--blok-a) 20%,var(--tint))}
+  .card .thumb.t4,.dnes .thumb.t4{background:color-mix(in srgb,var(--blok-b) 20%,var(--tint))}
+  .card .thumb.t5,.dnes .thumb.t5{background:color-mix(in srgb,var(--blok-c) 20%,var(--tint))}
+  .card .thumb.ma-foto::after{content:"";position:absolute;inset:auto 0 0 0;height:34%;z-index:2;
+    background:linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.18));pointer-events:none}
+  .detail-foto img{border-radius:var(--r-mala);background:var(--tint)}
+  .foto-kredit{color:var(--text2)}
+  .foto-kredit a{color:var(--text2)}
+
+  /* ── REŽIM OBCHOD ──────────────────────────────────────────────────
+     V obchode nepotrebuješ nadpis ani podtitul — potrebuješ položky. */
+  :root[data-rezim="obchod"] #v-nakup > h2.h,
+  :root[data-rezim="obchod"] #v-nakup > .sub,
+  :root[data-rezim="obchod"] #v-nakup > .plan-head,
+  :root[data-rezim="obchod"] #v-nakup > details.panel{display:none}
+  :root[data-rezim="obchod"] #v-nakup .nakup-suhrn{gap:10px;padding:9px 12px;font-size:13.5px}
+  /* rozdiel „nákup vs plán" je poznatok pre plánovanie, nie pre stánie pri regáli */
+  :root[data-rezim="obchod"] #v-nakup .nak-pokrytie{display:none}
+  :root[data-rezim="obchod"] #v-nakup .odd .nak-row>label .cena{font-size:14px}
+
+  /* ── P2: PRVÉ JEDLO A PRVÁ POLOŽKA NAD PREHYBOM ────────────────────────
+     Namerané na 393×850 s naplneným plánom (režim Plánovanie): tabuľka plánu
+     začínala na y=700, prvé jedlo na y=902, prvá položka nákupu na y=874 —
+     pri výške 850 px nebolo vidieť ani jedno. Nadpis a podtitul sú vysvetlivky
+     pre počítač; v Obchode ich Nákup už skrýval, teraz to isté platí pre Plán
+     a v Kuchyni pre obe obrazovky. „Jedna primárna akcia na obrazovku." */
+  :root[data-rezim="obchod"] #v-planovac > h2.h,
+  :root[data-rezim="obchod"] #v-planovac > .sub,
+  :root[data-rezim="kuchyna"] #v-planovac > h2.h,
+  :root[data-rezim="kuchyna"] #v-planovac > .sub,
+  :root[data-rezim="kuchyna"] #v-nakup > h2.h,
+  :root[data-rezim="kuchyna"] #v-nakup > .sub{display:none}
+
+  /* Zbaliteľné podrobnosti súhrnu nákupu. Na počítači ich renderNakup vypisuje
+     s atribútom `open`, takže sa nič nemení; na telefóne sú zbalené. */
+  .suhrn-viac{flex-basis:100%;margin:0}
+  .suhrn-viac > summary{cursor:pointer;color:var(--text2);font-size:13px;list-style:none;
+    display:inline-flex;align-items:center;gap:5px}
+  .suhrn-viac > summary::-webkit-details-marker{display:none}
+  .suhrn-viac > summary::before{content:"\25be";font-size:11px}
+  .suhrn-viac[open] > summary::before{content:"\25b4"}
+  .suhrn-viac > .sv-in{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin-top:7px}
+  /* pás rozvrhu je na počítači vždy rozbalený — zbaľovacie tlačidlo tam nemá zmysel */
+  .plan-zbal{display:none}
+
+  /* ── TELEFÓN ───────────────────────────────────────────────────────
+     Vlastný @media, lebo mobilné pravidlá pôvodného CSS sú NAD týmto blokom. */
+  @media(max-width:820px){
+    .side{flex-wrap:wrap;border-right:0;border-bottom:2px solid var(--text);background:var(--doska)}
+    .side .brand{padding:12px 14px;font-size:17px;flex:1 1 auto}
+    /* flex-basis:100 % + vodorovné okraje = pretok o 20 px — šírku musí niesť calc() */
+    .rezimy{flex:0 0 auto;width:calc(100% - 20px);order:3;margin:0 10px 10px}
+    .rezimy button{font-size:13px;padding:8px 4px}
+    .botnav{background:var(--doska);border-top:2px solid var(--text);padding:4px 2px calc(4px + env(safe-area-inset-bottom))}
+    .botnav a{color:var(--text2);font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:600;
+      border-radius:10px;min-height:max(52px,var(--cil))}
+    .botnav a.active{color:var(--text);background:var(--tint)}
+    .card .thumb{height:78px}
+    .nutri{grid-template-columns:repeat(2,1fr)}
+    .cook{padding:16px;padding-bottom:calc(16px + env(safe-area-inset-bottom))}
+    .cook .step{font-size:27px}
+    .cook .nav2 button{min-height:62px;font-size:19px;padding:0 20px}
+    table.plan{border-spacing:3px}
+    table.plan td.slotname{width:70px}
+    .odd .nak-row>label{min-height:max(52px,var(--cil-in))}
+    .btn{min-height:max(44px,var(--cil-in))}
+    .chip,.kol-tile,button.mini{min-height:max(44px,var(--cil-in))}
+    .menu{border-radius:var(--r);z-index:70}
+    .tyzden-pas{gap:3px}
+    .tyzden-pas .kc{font-size:13px}
+
+    /* ── P2 na telefóne ──────────────────────────────────────────────── */
+    /* podtitul je vysvetlivka pre počítač; tu stojí 42 px nad obsahom */
+    #v-planovac > p.sub,#v-nakup > p.sub{display:none}
+    /* navigácia týždňa a prepínač Týždeň/Kalendár na JEDEN riadok (bolo 108 px) */
+    /* flex-basis, nie `1 1 auto`: keď sa oboje na jeden riadok nezmestí (Kuchyňa má
+       pri 1,5× len 262 px použiteľnej šírky), prepínač sa zalomí pod navigáciu.
+       Bez toho sa navigácia týždňa orezala a šípka „▶" zmizla za okrajom. */
+    .plan-topline{display:flex;flex-wrap:wrap;gap:0 8px;align-items:flex-start;justify-content:space-between}
+    .plan-topline > #plan-kontext{flex:1 1 190px;min-width:0}
+    .plan-topline > .plan-tabs{flex:0 0 auto;margin-bottom:0}
+    .plan-topline .tl{display:none}
+    .plan-tabs .chip{min-width:max(44px,var(--cil-in));justify-content:center;padding:0 6px}
+    /* pás rozvrhu: zbalený jeden riadok (bolo 189 px). Blok práve zvoleného dňa
+       aj s varným dňom je aj tak v hlavičke tabuľky hneď pod pásom. */
+    .rozvrh-pas > p.info,.rozvrh-pas .rozvrh-bloky{display:none}
+    .rozvrh-pas.otvoreny > p.info{display:block}
+    .rozvrh-pas.otvoreny .rozvrh-bloky{display:grid}
+    .rozvrh-hlava{flex-wrap:nowrap;gap:6px}
+    .rozvrh-nadpis{flex:1 1 auto;min-width:0;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .rozvrh-upr{flex:0 0 auto;white-space:nowrap;min-width:max(44px,var(--cil-in));
+      justify-content:center;padding:0 10px}
+    .rozvrh-upr .tl{display:none}
+    /* V Kuchyni je všetko 1,5× a pás by aj zbalený odtlačil prvé jedlo pod prehyb.
+       Pri sporáku rozvrh varenia nenastavuješ — je v „⋯ Viac" a blok práve
+       zvoleného dňa aj s varným dňom je v hlavičke tabuľky. */
+    :root[data-rezim="kuchyna"] #rozvrh-pas{display:none}
+    .plan-zbal{display:inline-flex;flex:0 0 auto;align-items:center;justify-content:center;
+      min-width:max(44px,var(--cil-in));padding:0}
+    /* dátum dňa je navyše — rozsah týždňa je v hornom riadku */
+    .plan-den-nav .chip:last-child{display:none}
+    /* stravníci a sloty dňa (98 px) idú do „⋯ Viac" → prepniPlanCtrl() */
+    table.plan tr.ctrl-row{display:none}
+    body.plan-ctrl table.plan tr.ctrl-row{display:table-row}
+    /* Nákup: pridávanie vlastnej položky a panely „Mám doma"/„Trasa obchodom"
+       nie sú to, čo v obchode potrebuješ ako prvé — poradím idú POD zoznam.
+       Nič sa neskrýva, len sa to prestalo tlačiť pred prvú položku. */
+    #v-nakup.view.active{display:flex;flex-direction:column}
+    #v-nakup > h2.h{order:1}
+    #v-nakup > #nakup-kontext{order:2}
+    #v-nakup > #nakup-list{order:3}
+    #v-nakup > .plan-head{order:8;margin-top:18px}
+    #v-nakup > details.panel{order:9}
+    .nakup-suhrn{gap:6px 14px;padding:10px 12px;font-size:13.5px}
+    .suhrn-viac > summary{min-height:max(44px,var(--cil-in))}
+  }
+  @media (prefers-reduced-motion:reduce){ *{transition:none!important;animation:none!important} }
+  @media print{ body{background:#fff;color:#000} .content{zoom:1} }

@@ -67,15 +67,57 @@ Kategórie: Raňajky, Hlavné jedlo, Cestoviny, Polievka, Šalát, Nátierka, Pr
 - Jednotky → gramy: `gZaJednotku` (jediné miesto), `gramy` a `gramyNaJed` sú navzájom inverzné.
 - Ceny: **jedna funkcia `cenaTyzdna(mode)`** — `"spotreba"` (domácnosť), `"balenia"` (celé balenia), `"osoba"`.
 
-## Vzhľad — dizajnový systém Organic (v22)
-Paleta je **terakota + krém**, nie pôvodná zelená. Celá téma je JEDEN blok na konci `<style>`
-v `data/sablona.html` medzi `/* Organic theme — start */` a `/* Organic theme — end */`.
-Blok pôvodné CSS iba **prebíja**, nič v ňom nemaže — odstránenie témy = zmazať blok.
-- Fonty **Alfa Slab One** (nadpisy) a **Figtree** (text) sú vložené ako **base64 `data:` URI**
-  priamo v šablóne. Appka musí zostať jeden offline súbor — nepridávaj `@import` ani CDN.
-  Caprasimo z Organicu nepoužívaj, nemá slovenskú diakritiku.
-- `py scripts/kontrast_organic.py` číta tokeny priamo zo šablóny a **padne**, ak niektorý pár
-  klesne pod WCAG AA. Spusti ho po každej zmene farieb.
+## Vzhľad — dizajnový systém „Bloky" (v24, koncepcia B)
+Paleta stojí na jednej myšlienke: **farba = varný blok**. Týždeň má tri bloky a každý má
+vlastnú farbu, ktorá ide cez plán, nákup, domov aj varenie — v pláne aj v nákupe hneď vidieť,
+na ktorú várku položka patrí. `--signal` je len na STAV (nad cieľom, odobrať, po expirácii),
+nikdy nie na identitu. Podklad je teplá šeď `--zem`, nie krém.
+
+Celá téma je JEDEN blok na konci `<style>` v `data/sablona.html` medzi
+`/* Bloky theme — start */` a `/* Bloky theme — end */`. Blok pôvodné CSS iba **prebíja**,
+nič v ňom nemaže — odstránenie témy = zmazať blok.
+- Zdroj témy je **`dizajn/tema-bloky.css`**; do šablóny (aj s base64 fontmi) ju vloží
+  **`python3 scripts/vloz_temu.py`**. Šablónu needituj v tomto bloku ručne.
+- Fonty **Archivo** (nadpisy a čísla, premenlivá váha 400–800) a **Instrument Sans** (text)
+  sú base64 `data:` URI, 4 súbory / 106 KB (latin + latin-ext pre každý). Appka musí zostať
+  jeden offline súbor — nepridávaj `@import` ani CDN. **Slovenskú diakritiku nesie latin-ext**
+  (č ď ľ ň ŕ š ť ž), latin nesie á é í ó ô ú ý a €; bez oboch podmnožín text ochorie.
+- **Tokeny:** `--zem --doska --tint --text --text2 --linka --okraj --tlac/--na-tlaci`,
+  bloky `--blok-a` (slivka) `--blok-b` (more) `--blok-c` (oliva) + `--na-bloku`,
+  `--signal`, `--zlato`, `--akcent`/`--akcent-tlac` (= farba práve zobrazeného bloku).
+  Staré tokeny (`--bg --panel --ink --muted --line --chip --accent --accent-fill
+  --accent-dark --warn --gold`) sú na ne **premapované** — pôvodné CSS sa tým prefarbí naraz.
+- **Tmavá téma má dva vstupy:** výslovná voľba `body.dark` a systémové nastavenie
+  `@media(prefers-color-scheme:dark){ body:not(.svetla) }`. `applyVzhlad()` pridáva na `<body>`
+  triedu `svetla` ako STAMP — bez nej platí systém ešte pred spustením JS. Obe sady tokenov
+  musia byť identické; kontroluje to `scripts/kontrast_bloky.py`.
+- `python3 scripts/kontrast_bloky.py` číta tokeny priamo zo šablóny a **padne**, ak niektorý
+  pár klesne pod WCAG AA (obe témy + natrvalo tmavá plocha varenia). Spusti po každej zmene farieb.
+- **Farba nikdy nesmie byť jediný nosič informácie** (WCAG 1.4.1): ku každej farbe bloku patrí
+  písmeno A/B/C — `znakBloku(bi)` vyrába `<span class="znak blok-x">A</span>`. Používa sa
+  v hlavičke plánu, v riadku nákupu, na Domove, v páse týždňa, v grafe výživy aj vo varení.
+- **Znak bloku NA ploche bloku sa musí obrátiť** (`background:var(--na-bloku);color:var(--text)`),
+  inak splynie — týka sa `.dnes-varenie-hero`, `table.plan th.blok-*` a `td.blok-hlava`.
+
+## Tri režimy hustoty (jadro koncepcie B)
+Prepínač **Plánovanie / Obchod / Kuchyňa** je v bočnom paneli (`#rezimy`, na mobile vlastný
+riadok pod značkou). Voľba žije v `S.profil.rezim`, prežije reload a nastavuje na `<html>`
+atribút `data-rezim`, ktorý mení dva tokeny:
+
+| režim | `--skala` | `--cil` | situácia |
+|---|---|---|---|
+| Plánovanie | 1,0 | 44 px | v pokoji, hustejšia informácia, tabuľka týždňa |
+| Obchod | 1,22 | 56 px | jedna ruka, košík v druhej, rýchle odškrtávanie |
+| Kuchyňa | 1,5 | 64 px | mastné ruky, telefón opretý, veľké písmo |
+
+- `--skala` je nasadená ako **`zoom` na `.content` a `.modal`** — pôvodné CSS má stovky pevných
+  px a prepísať ich všetky by bola iná úloha. Pevná navigácia (`.side`, `.botnav`, `.cook`)
+  sa nezoomuje, aby fixed-position prvky nezmenili súradnicovú sústavu.
+- Preto sú vnútri zoomovanej plochy dotykové ciele `max(44px, var(--cil-in))`, kde
+  `--cil-in = var(--cil) / var(--skala)`; mimo nej sa používa `--cil` priamo.
+- **Kuchyňa NEPREBÍJA režim varenia** — dopĺňa ho. Varenie sa otvára ako doteraz.
+- Režim Obchod navyše skryje na Nákupe nadpis, podtitul, riadok „+ Pridať / ⋯ Viac",
+  panely „Mám doma"/„Trasa obchodom" a poznámku o pokrytí kalórií. V Plánovaní sú späť.
 
 ## Mobilné UI (v20 — mobil je hlavné zariadenie)
 Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, breakpoint je `820px`.
@@ -87,12 +129,19 @@ Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, 
   zbalený všade. Polia vnútra zostávajú v DOM, takže `ulozProfil()` ich vidí aj zavreté.
 - **Filtre v Receptoch:** selecty sú v `.f-body`, na mobile ich odomkne `prepniFiltre()`
   (`.controls.f-open`); počet aktívnych filtrov píše `renderGrid` do `#f-cnt`.
-- **Farby pod bielym textom používaj `--accent-fill`, nie `--accent`.** `--accent` je v tmavom
-  režime zosvetlený pre TEXT (na bielom písme dáva 3,26:1); `--accent-fill` sa nezosvetľuje.
-- **`--accent` musí zostať čitateľný ako TEXT (≥ 4,5:1 na kréme).** `app.js` ho píše priamo do
-  inline štýlov (`app.js:381`, `:383` odkazy v prázdnom stave, `:811`+`:1555` súčet kcal v pláne)
-  a inline štýl sa nedá prebiť žiadnym selektorom — jediné miesto opravy je hodnota tokenu.
-  Preto je `--accent` tmavšia terakota `#9a4f1c`, nie základná `#c67139` (tá dáva 3,18:1).
+- **`app.js` píše farby do INLINE štýlov a inline štýl sa nedá prebiť žiadnym selektorom.**
+  Jediné miesto opravy je hodnota tokenu, preto tam smú byť **len tokeny, nikdy hex**.
+  Miesta: prázdny stav Receptov (`:625`, `:627`), prstenec podielu (`:791`), „Zmazať recept"
+  (`:830`), dátum v páse týždňa (`:1327`), súčet kcal v pláne (`:1393`), onboarding (`:2199`),
+  filtre generátora (`:2220`), `stavCiel` (`:2831`), `makroBar` (`:2834`), `ring` (`:2842`),
+  dlaždice Výživy (`:2880`–`:2884`), graf (`:2894`), makrá (`:2904`–`:2908`), účet (`:2977`,
+  `:2986`), špajza (`:3011`–`:3066`), graf váhy (`:3197`–`:3203`).
+  Jediné hexy, ktoré v `app.js` smú zostať, sú `COOK_BLOKY` (`:1008`) — plocha varenia je
+  natrvalo tmavá a potrebuje SVETLÉ varianty farieb blokov (svetlá slivka `#6E2A55` by na
+  `#141210` dala 2,3:1 a tlačidlo „Ďalej" by zhaslo) — a záložná farba manifestu (`:3398`).
+- **`--akcent` sa počíta na `<html>`** (`nastavAkcent(bi)` cez `setProperty`), takže sa
+  vnútri `.cook` NEprefarbí sám: `var()` v hodnote vlastnej vlastnosti sa substituuje na prvku,
+  kde je deklarovaná. Preto `spustiCook()` nastavuje `--akcent` priamo na `#cook`.
 - **Dotykové ciele ≥44 px na mobile**, nikdy nie pod 24 px. Výnimka: hustá mriežka plánu.
 - **Nové ovládanie píš ako `<button class="btn">`.** `<span onclick>` nie je dosiahnuteľný
   klávesnicou; chipy/kolekcie/menu to dorovnáva `zpristupniKliky(root)` — **vždy jej dávaj

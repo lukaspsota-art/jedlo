@@ -12,7 +12,7 @@
  "ingrediencie": [
   {
    "nazov": "Strúhaná kapusta",
-   "mnozstvo": 4000,
+   "mnozstvo": 400,
    "jednotka": "g",
    "poznamka": ""
   },
@@ -32,13 +32,15 @@
    "nazov": "Cukor kryštál",
    "mnozstvo": 500,
    "jednotka": "g",
-   "poznamka": ""
+   "poznamka": "",
+   "vsiaknutie": 0.2
   },
   {
    "nazov": "Ocot",
    "mnozstvo": 500,
    "jednotka": "ml",
-   "poznamka": ""
+   "poznamka": "",
+   "vsiaknutie": 0.2
   },
   {
    "nazov": "Voda",

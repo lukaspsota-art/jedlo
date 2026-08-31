@@ -1,0 +1,150 @@
+{
+  "merania": [
+    {
+      "kde": "varenie",
+      "typ": "screenshot",
+      "hodnota": "{\"a\":true,\"b\":true,\"c\":true,\"d\":true}"
+    },
+    {
+      "kde": "rezim plan",
+      "typ": "najmenší cieľ (px)",
+      "hodnota": "44"
+    },
+    {
+      "kde": "rezim plan",
+      "typ": "cieľov pod 24 px",
+      "hodnota": "0"
+    },
+    {
+      "kde": "rezim plan",
+      "typ": "výška riadku nákupu (px)",
+      "hodnota": "68"
+    },
+    {
+      "kde": "rezim plan",
+      "typ": "data-rezim",
+      "hodnota": "plan"
+    },
+    {
+      "kde": "rezim plan",
+      "typ": "pretok",
+      "hodnota": "nie"
+    },
+    {
+      "kde": "rezim obchod",
+      "typ": "najmenší cieľ (px)",
+      "hodnota": "56"
+    },
+    {
+      "kde": "rezim obchod",
+      "typ": "cieľov pod 24 px",
+      "hodnota": "0"
+    },
+    {
+      "kde": "rezim obchod",
+      "typ": "výška riadku nákupu (px)",
+      "hodnota": "81"
+    },
+    {
+      "kde": "rezim obchod",
+      "typ": "data-rezim",
+      "hodnota": "obchod"
+    },
+    {
+      "kde": "rezim obchod",
+      "typ": "pretok",
+      "hodnota": "nie"
+    },
+    {
+      "kde": "rezim kuchyna",
+      "typ": "najmenší cieľ (px)",
+      "hodnota": "64"
+    },
+    {
+      "kde": "rezim kuchyna",
+      "typ": "cieľov pod 24 px",
+      "hodnota": "0"
+    },
+    {
+      "kde": "rezim kuchyna",
+      "typ": "výška riadku nákupu (px)",
+      "hodnota": "168"
+    },
+    {
+      "kde": "rezim kuchyna",
+      "typ": "data-rezim",
+      "hodnota": "kuchyna"
+    },
+    {
+      "kde": "rezim kuchyna",
+      "typ": "pretok",
+      "hodnota": "nie"
+    },
+    {
+      "kde": "šírka 360",
+      "typ": "vodorovný pretok",
+      "hodnota": "žiadny"
+    },
+    {
+      "kde": "šírka 393",
+      "typ": "vodorovný pretok",
+      "hodnota": "žiadny"
+    },
+    {
+      "kde": "šírka 768",
+      "typ": "vodorovný pretok",
+      "hodnota": "žiadny"
+    },
+    {
+      "kde": "šírka 1440",
+      "typ": "vodorovný pretok",
+      "hodnota": "žiadny"
+    },
+    {
+      "kde": "Recepty",
+      "typ": "render mriežky (ms, priemer zo 4)",
+      "hodnota": "26.7"
+    },
+    {
+      "kde": "Plán/počítač",
+      "typ": "ovládaní pod 24 px",
+      "hodnota": "0 z 188"
+    },
+    {
+      "kde": "mobil/domov",
+      "typ": "ciele",
+      "hodnota": "14 prvkov · pod 44 px: 0 · pod 24 px: 0"
+    },
+    {
+      "kde": "mobil/recepty",
+      "typ": "ciele",
+      "hodnota": "28 prvkov · pod 44 px: 0 · pod 24 px: 0"
+    },
+    {
+      "kde": "mobil/planovac",
+      "typ": "ciele",
+      "hodnota": "24 prvkov · pod 44 px: 1 · pod 24 px: 0"
+    },
+    {
+      "kde": "mobil/nakup",
+      "typ": "ciele",
+      "hodnota": "132 prvkov · pod 44 px: 0 · pod 24 px: 0"
+    },
+    {
+      "kde": "mobil/vyziva",
+      "typ": "ciele",
+      "hodnota": "10 prvkov · pod 44 px: 0 · pod 24 px: 0"
+    },
+    {
+      "kde": "mobil/spajza",
+      "typ": "ciele",
+      "hodnota": "12 prvkov · pod 44 px: 0 · pod 24 px: 0"
+    },
+    {
+      "kde": "mobil/nastavenia",
+      "typ": "ciele",
+      "hodnota": "24 prvkov · pod 44 px: 0 · pod 24 px: 0"
+    }
+  ],
+  "chyby": []
+}

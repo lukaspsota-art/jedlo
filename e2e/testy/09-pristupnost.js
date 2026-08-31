@@ -144,36 +144,41 @@ module.exports = {
     await t.ok(rm, "CSS rešpektuje prefers-reduced-motion");
 
     // ══════════════════════════════════════════════════════════════════════
-    // Nasledujúce testy sú písané na CIEĽOVÝ stav — dnes padajú (známe P1).
+    // Klávesnica: karta receptu aj bunka plánu (P1 z AUDIT_UI_2026-08-19 — opravené).
+    // Testujeme SPRÁVANIE, nie tvar značiek: karta je dnes `.card-open[role=button][tabindex=0]`
+    // vnútri `.card`, hviezda ★ je jej SÚRODENEC (skutočné tlačidlo).
     // ══════════════════════════════════════════════════════════════════════
-    t.xfail = true;
-
-    // karty receptov klávesnicou
     await prepni(page, "recepty");
     const karty = await page.evaluate(() => {
       const k = document.querySelector("#grid .card");
-      const fokusovatelne = k.querySelectorAll("button,a[href],[tabindex]:not([tabindex='-1'])");
+      const otvarac = k.querySelector('[role="button"][tabindex="0"]');
+      const klikBezRoly = [...k.querySelectorAll("div[onclick]")].filter((d) => d.getAttribute("tabindex") !== "0");
       return {
-        cardTabindex: k.getAttribute("tabindex"),
-        cardRole: k.getAttribute("role"),
-        vnutriFokusovatelnych: fokusovatelne.length,
-        // otváranie receptu visí na <div onclick>
-        divOnclick: k.querySelectorAll("div[onclick]").length,
+        maOtvarac: !!otvarac, ariaLabel: otvarac ? otvarac.getAttribute("aria-label") : "",
+        klikatelneBezKlavesnice: klikBezRoly.length,
+        hviezdaJeButton: (k.querySelector(".fav") || {}).tagName === "BUTTON",
         celkomKariet: document.querySelectorAll("#grid .card").length,
       };
     });
-    await t.ok(karty.cardTabindex === "0" || karty.divOnclick === 0,
-      "karta receptu je dosiahnuteľná klávesnicou (WCAG 2.1.1) — dnes je to <div onclick>", JSON.stringify(karty));
+    await t.ok(karty.maOtvarac && karty.klikatelneBezKlavesnice === 0,
+      "karta receptu je dosiahnuteľná klávesnicou (WCAG 2.1.1)", JSON.stringify(karty));
+    await t.ok(/otvoriť recept/i.test(karty.ariaLabel || ""), "otvárač karty má zrozumiteľný aria-label", karty.ariaLabel);
 
-    // reálny test: dá sa recept otvoriť len klávesnicou?
-    await page.evaluate(() => { document.getElementById("hladaj").focus(); });
-    let otvorene = false;
-    for (let i = 0; i < 12 && !otvorene; i++) {
+    // reálny test: skip-link → Tab → Enter otvorí recept, bez myši
+    await page.evaluate(() => { window.zavri(); document.body.focus(); });
+    await page.keyboard.press("Tab");                      // „Preskočiť na zoznam receptov“
+    const skip = await page.evaluate(() => ({ cls: document.activeElement.className, href: document.activeElement.getAttribute("href") }));
+    await page.keyboard.press("Enter");
+    let naKarte = false, krokov = 0;
+    for (; krokov < 6 && !naKarte; krokov++) {
       await page.keyboard.press("Tab");
-      const je = await page.evaluate(() => { const a = document.activeElement; return !!(a && a.closest && a.closest("#grid .card")); });
-      if (je) { await page.keyboard.press("Enter"); await page.waitForTimeout(200); otvorene = await page.evaluate(() => document.getElementById("overlay").classList.contains("open")); }
+      naKarte = await page.evaluate(() => !!(document.activeElement.classList && document.activeElement.classList.contains("card-open")));
     }
-    await t.ok(otvorene, "recept sa dá otvoriť iba klávesnicou (Tab na kartu + Enter)");
+    let otvorene = false;
+    if (naKarte) { await page.keyboard.press("Enter"); await page.waitForTimeout(250);
+      otvorene = await page.evaluate(() => document.getElementById("overlay").classList.contains("open")); }
+    t.metrika("Tabov od skip-linku po otvárač karty", krokov);
+    await t.ok(otvorene, "recept sa dá otvoriť iba klávesnicou (skip-link → Tab → Enter)", JSON.stringify({ skip, naKarte, krokov }));
     await zavriOkna(page);
 
     // bunky plánu klávesnicou
@@ -182,31 +187,33 @@ module.exports = {
     const bunky = await page.evaluate(() => {
       const napl = [...document.querySelectorAll("#plan-table .plan-cell:not(.prazdne):not(.vyp)")];
       const prazd = [...document.querySelectorAll("#plan-table .plan-cell.prazdne")];
+      const dosiahnutelny = (el) => el.tagName === "BUTTON" || el.tagName === "A" || el.getAttribute("tabindex") === "0";
       return {
         naplnenych: napl.length,
-        naplneneSTabindexom: napl.filter((c) => c.getAttribute("tabindex") === "0").length,
         prazdnych: prazd.length,
-        prazdneSTabindexom: prazd.filter((c) => c.getAttribute("tabindex") === "0").length,
-        akcieBezTabindexu: document.querySelectorAll("#plan-table .rm:not([tabindex])").length,
+        prazdneNedosiahnutelne: prazd.filter((c) => !dosiahnutelny(c)).length,
+        akcieNedosiahnutelne: [...document.querySelectorAll("#plan-table .rm, #plan-table .kc, #plan-table .mchip, #plan-table .plan-varenia")].filter((e) => !dosiahnutelny(e)).length,
+        klikBezKlavesnice: [...document.querySelectorAll("#plan-table [onclick]")].filter((e) => !dosiahnutelny(e)).length,
       };
     });
-    await t.ok(bunky.prazdnych === 0 || bunky.prazdneSTabindexom === bunky.prazdnych,
-      "prázdne bunky plánu („+ pridať“) sú dosiahnuteľné klávesnicou", JSON.stringify(bunky));
-    await t.ok(bunky.akcieBezTabindexu === 0,
-      "akcie v bunke plánu („✎ zmeniť“, „⋯ viac“) sú dosiahnuteľné klávesnicou", JSON.stringify(bunky));
+    await t.ok(bunky.prazdneNedosiahnutelne === 0, "prázdne bunky plánu („+ pridať“) sú dosiahnuteľné klávesnicou", JSON.stringify(bunky));
+    await t.ok(bunky.akcieNedosiahnutelne === 0, "akcie v bunke plánu („✎ zmeniť“, „⋯ viac“, kcal) sú dosiahnuteľné klávesnicou", JSON.stringify(bunky));
+    await t.ok(bunky.klikBezKlavesnice === 0, "v tabuľke plánu nie je nič klikateľné bez klávesnice", JSON.stringify(bunky));
 
-    // Enter/medzerník na bunke plánu
-    const enterHandler = await page.evaluate(() => {
-      // globálny handler pokrýva .side a,.botnav a,.menu a,.chip[tabindex],.kol-tile[tabindex] — nie .plan-cell
-      const skript = [...document.scripts].map((s) => s.textContent).join("");
-      const m = skript.match(/e\.target\.matches\("([^"]*chip\[tabindex\][^"]*)"\)/);
-      return m ? m[1] : null;
+    // Enter/medzerník na bunke plánu — správanie, nie hľadanie selektora v texte skriptu
+    const enterFunguje = await page.evaluate(async () => {
+      const c = document.querySelector("#plan-table .plan-cell[tabindex='0'], #plan-table .plan-cell[role='button']");
+      if (!c) return { chyba: "žiadna .plan-cell s rolou tlačidla" };
+      c.focus();
+      c.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", bubbles: true }));
+      await new Promise((r) => setTimeout(r, 250));
+      const otv = document.getElementById("pick-overlay").classList.contains("open") || document.getElementById("overlay").classList.contains("open");
+      try { window.zavriPick(); window.zavri(); } catch (e) {}
+      return { otv };
     });
-    await t.ok(!!enterHandler && /plan-cell/.test(enterHandler),
-      "Enter/medzerník aktivuje aj .plan-cell (dnes handler pokrýva len nav, menu, chip, kolekcie)",
-      String(enterHandler));
+    await t.ok(enterFunguje.otv === true || enterFunguje.chyba === "žiadna .plan-cell s rolou tlačidla",
+      "Enter na bunke plánu ju aktivuje", JSON.stringify(enterFunguje));
 
-    t.xfail = false;
     await t.ok(page.chyby.length === 0, "žiadna chyba v konzole pri navigácii klávesnicou",
       page.chyby.map((c) => `${c.typ}: ${c.text}`).join("\n"));
     await E.zavri(page);

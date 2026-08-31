@@ -46,14 +46,20 @@ async function zber() {
       const t = { seed, w, bloky: [], hranice: app.S.hranice.slice() };
       bl.forEach(b => {
         const d0 = b[0];
-        const blok = { dni: b.slice(), sloty: {}, recepty: new Set(), kcal: {} };
+        // `recepty` = to, čo sa v bloku VARÍ (bez snacku — ten je hotový kúpený výrobok
+        // a od vlny P5 sa mení deň po dni; viď D2). `snacky` = všetky snacky celého bloku.
+        const blok = { dni: b.slice(), sloty: {}, recepty: new Set(), snacky: [], kcal: {} };
         app.slotyDna(d0).forEach(sl => {
           const ids = app.slotIds(d0, sl);
           if (!ids.length) return;
           blok.sloty[sl] = ids;
           blok.kcal[sl] = ids.reduce((a, id) => a + app.kcalPorcia(app.komponent(id)), 0) * app.pf(d0, sl);
+          if (app.jeSnackSlot(sl)) return;
+          // snack sa nevarí, takže sa naň pravidlo „bez opakovania naprieč blokmi" nevzťahuje
           ids.forEach(id => { const r = app.komponent(id); if (r && !r._priloha) blok.recepty.add(r.id); });
         });
+        b.forEach(di => app.slotyDna(di).filter(sl => app.jeSnackSlot(sl)).forEach(sl =>
+          app.slotIds(di, sl).forEach(id => { const r = app.komponent(id); if (r && !r._priloha) blok.snacky.push({ di, id: r.id, prim: app.slotIds(di, sl)[0] === id }); })));
         const rr = blok.sloty["Raňajky"] && app.komponent(blok.sloty["Raňajky"][0]);
         blok.ranajkyBaza = rr ? app.ranajkyBaza(rr) : null;
         blok.ranajkySendvic = rr ? app.jeSendvic(rr) : false;
@@ -112,22 +118,39 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
     assert.strictEqual(JSON.stringify(a.bloky()), "[[0,1,2,3,4,5,6]]", JSON.stringify(a.bloky()));
   });
 
-  nadpis("\nD2 — 1 variant na slot a blok");
-  ok("všetky dni bloku majú v každom slote presne to isté", () => {
+  nadpis("\nD2 — 1 variant na slot a blok (pre VARENÉ sloty)");
+  // Pravidlo batch cookingu hovorí, že sa v bloku navarí raz a je sa to celý blok. Týka sa
+  // teda VARENÝCH slotov. Snack je od vlny P5 hotový kúpený výrobok (typ „vyrobok“, jedno
+  // balenie = jedna porcia) — nič sa preň nevarí a tri rôzne jogurty sa kupujú rovnako ľahko
+  // ako tri rovnaké, takže sa smie (a má) meniť deň po dni. Kým bol viazaný na blok, mal
+  // mesiac strop 12 ťahov. Že sa naozaj nič nevarí, stráži kontrola v D4.
+  ok("všetky dni bloku majú v každom VARENOM slote presne to isté", () => {
     let zle = 0, spolu = 0;
     tyzdne.forEach(t => t.bloky.forEach(b => {
-      Object.keys(b.sloty).forEach(sl => {
+      Object.keys(b.sloty).filter(sl => !app.jeSnackSlot(sl)).forEach(sl => {
         b.dni.forEach(di => {
           spolu++;
           if (JSON.stringify(t.dni[di][sl] || []) !== JSON.stringify(b.sloty[sl])) zle++;
         });
       });
     }));
-    assert.strictEqual(zle, 0, zle + " z " + spolu + " dní bloku má iný obsah slotu");
+    assert.strictEqual(zle, 0, zle + " z " + spolu + " dní bloku má iný obsah vareného slotu");
+  });
+  ok("snack sa v rámci bloku MENÍ — aspoň v polovici viacdňových blokov", () => {
+    let menia = 0, spolu = 0;
+    tyzdne.forEach(t => t.bloky.forEach(b => {
+      if (b.dni.length < 2) return;
+      const prim = b.dni.map(di => (b.snacky.find(x => x.di === di && x.prim) || {}).id);
+      if (prim.some(x => x == null)) return;
+      spolu++; if (new Set(prim).size > 1) menia++;
+    }));
+    const p = pct(menia, spolu);
+    console.log("      (" + menia + " z " + spolu + " blokov = " + p.toFixed(1) + " %)");
+    assert.ok(p >= 50, "len " + p.toFixed(1) + " % blokov má v rámci bloku rôzne snacky");
   });
 
   nadpis("\nD3 — bez opakovania naprieč blokmi a bez carryover C→A");
-  ok("v jednom týždni sa žiadny recept neobjaví v dvoch blokoch", () => {
+  ok("v jednom týždni sa žiadny VARENÝ recept neobjaví v dvoch blokoch", () => {
     let zle = 0;
     tyzdne.forEach(t => {
       for (let i = 0; i < t.bloky.length; i++)
@@ -136,7 +159,7 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
     });
     assert.strictEqual(zle, 0, zle + " opakovaní receptu medzi blokmi toho istého týždňa");
   });
-  ok("posledný blok týždňa (C) sa neprelieva do prvého bloku (A) nasledujúceho týždňa", () => {
+  ok("posledný VARENÝ blok týždňa (C) sa neprelieva do prvého bloku (A) nasledujúceho týždňa", () => {
     let zle = 0, parov = 0;
     for (let i = 1; i < tyzdne.length; i++) {
       const prev = tyzdne[i - 1], cur = tyzdne[i];
@@ -189,6 +212,55 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
       if (o && v && o === v) zle++;
     }));
     assert.strictEqual(zle, 0, zle + " blokov má obed a večeru z toho istého receptu");
+  });
+
+  // D4b (pridané 31. 8., vlna „doladenie"): pravidlo z CLAUDE.md „raňajky sendvič/wrap iná
+  // báza/blok" sa dovtedy iba ZBIERALO (blok.ranajkyBaza), ale nikdy netvrdilo. Stráži ho aj
+  // R6 v test_regresie.js; tu je preto, aby sa pravidlo dalo merať na viacerých seedoch naraz.
+  ok("raňajková báza sa v jednom týždni neopakuje medzi blokmi", () => {
+    let zle = 0, spolu = 0;
+    tyzdne.forEach(t => {
+      const bazy = t.bloky.map(b => b.ranajkyBaza).filter(Boolean);
+      spolu++;
+      if (new Set(bazy).size !== bazy.length) zle++;
+    });
+    assert.strictEqual(zle, 0, zle + " z " + spolu + " týždňov má dva bloky s rovnakou raňajkovou bázou");
+  });
+  ok("vo všednom bloku (Po–Pi) sú raňajky sendvič/wrap — aspoň v 90 % blokov", () => {
+    let send = 0, spolu = 0;
+    tyzdne.forEach(t => t.bloky.forEach(b => {
+      if (!b.dni.every(d => d < 5)) return;          // len všedné bloky
+      if (b.ranajkyBaza == null) return;
+      spolu++; if (b.ranajkySendvic) send++;
+    }));
+    const p = pct(send, spolu);
+    console.log("      (" + send + " z " + spolu + " všedných blokov = " + p.toFixed(1) + " %)");
+    // nie 100 %: sendvičových raňajok je v databáze len ~48 a pri dlhej pamäti sa môžu minúť.
+    // Vtedy je pravidlo bázy (a poradia jedál) prednejšie — viď _pravidlaRanajok v app.js.
+    assert.ok(p >= 90, "len " + p.toFixed(1) + " % všedných blokov má sendvičové raňajky");
+  });
+  // Kontrola beží na VŠETKÝCH komponentoch VŠETKÝCH dní — teda aj na druhej položke dvojice
+  // („jablko + šunka“). Pravidlo používateľa: „nič, čo treba robiť alebo zvlášť vážiť;
+  // normálne zabalené, ako sa to kúpi“ = 1 ingrediencia „1 ks“ a 1 krok postupu.
+  ok("v snackovom slote je vždy hotový kúpený výrobok (typ „vyrobok“, 1 balenie = 1 porcia)", () => {
+    let zle = 0, spolu = 0; const zlych = [];
+    tyzdne.forEach(t => t.bloky.forEach(b => b.snacky.forEach(x => {
+      const r = app.receptById(x.id); if (!r) return;
+      spolu++;
+      const ing = (r.ingrediencie || []), post = (r.postup || []);
+      if (r.typ !== "vyrobok" || r.kategoria !== "Snack" || ing.length !== 1 || post.length !== 1
+        || ing[0].mnozstvo !== 1 || ing[0].jednotka !== "ks") { zle++; if (zlych.length < 5) zlych.push(r.id); }
+    })));
+    assert.ok(spolu > 0, "žiadny snack sa nevygeneroval");
+    assert.strictEqual(zle, 0, zle + " z " + spolu + " snackov nie je hotový výrobok: " + zlych.join(", "));
+  });
+  ok("snack má najviac 2 komponenty a druhý je tiež kúpený výrobok (dvojica typu „jablko + šunka“)", () => {
+    let zle = 0, spolu = 0;
+    tyzdne.forEach(t => t.bloky.forEach(b => b.dni.forEach(di => {
+      const ids = (t.dni[di]["Snack"] || []); if (!ids.length) return;
+      spolu++; if (ids.length > 2) zle++;
+    })));
+    assert.strictEqual(zle, 0, zle + " z " + spolu + " snackových slotov má viac než 2 komponenty");
   });
 
   nadpis("\nD5 — kalorický cieľ domácnosti");
@@ -345,7 +417,9 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
           const ids = app.slotIds(b[0], sl); if (!ids.length) return;
           blok.sloty[sl] = ids;
           blok.kcal[sl] = ids.reduce((a, id) => a + app.kcalPorcia(app.komponent(id)), 0) * app.pf(b[0], sl);
-          ids.forEach(id => { const r = app.komponent(id); if (r && !r._priloha) blok.recepty.add(r.id); });
+          // snack sa nevarí — pravidlo „bez opakovania naprieč blokmi" sa naň nevzťahuje
+          // (rovnako ako v D3, kde sa počítajú len VARENÉ recepty); pestrosť snackov stráži D2
+          if (!app.jeSnackSlot(sl)) ids.forEach(id => { const r = app.komponent(id); if (r && !r._priloha) blok.recepty.add(r.id); });
         });
         t.bloky.push(blok);
       });
@@ -362,10 +436,10 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
       // varný deň je vždy deň PRED prvým dňom bloku
       app.bloky().forEach(b => assert.strictEqual(app.varnyDen(b[0]), (b[0] + 6) % 7));
     });
-    ok(R.meno + " — 1 variant na slot a blok (všetky dni bloku majú to isté)", () => {
+    ok(R.meno + " — 1 variant na slot a blok (všetky dni bloku majú to isté; snack viď D2)", () => {
       let zle = 0, spolu = 0;
       tt.forEach(t => t.bloky.forEach(b => {
-        Object.keys(b.sloty).forEach(sl => b.dni.forEach(di => {
+        Object.keys(b.sloty).filter(sl => !app.jeSnackSlot(sl)).forEach(sl => b.dni.forEach(di => {
           spolu++;
           if (JSON.stringify(t.dni[di][sl] || []) !== JSON.stringify(b.sloty[sl])) zle++;
         }));
@@ -373,7 +447,7 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
       assert.ok(spolu > 0, "nič sa nevygenerovalo");
       assert.strictEqual(zle, 0, zle + " z " + spolu + " dní bloku má iný obsah slotu");
     });
-    ok(R.meno + " — žiadny recept sa neopakuje medzi blokmi toho istého týždňa", () => {
+    ok(R.meno + " — žiadny VARENÝ recept sa neopakuje medzi blokmi toho istého týždňa", () => {
       let zle = 0;
       tt.forEach(t => {
         for (let i = 0; i < t.bloky.length; i++)

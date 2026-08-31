@@ -2,6 +2,15 @@
 "use strict";
 const { prepni, zavriOkna } = require("../lib");
 
+// Mriežka sa od vlny 3 dopĺňa po dávkach po 60 kartách (IntersectionObserver + pätička
+// „Načítať ďalších…“). Počet <div class="card"> v DOM-e preto NIE JE počet výsledkov —
+// logický počet appka píše do #pocet („N / M“ pri aktívnom filtri, inak M).
+async function pocetVysledkov(page) {
+  return page.evaluate(() => {
+    const m = String(document.getElementById("pocet").textContent || "").replace(/\s/g, "").match(/^(\d+)/);
+    return m ? +m[1] : 0;
+  });
+}
 async function pocetKariet(page) {
   return page.evaluate(() => document.getElementById("grid").children.length);
 }
@@ -16,12 +25,28 @@ module.exports = {
   async spusti(E, t) {
     const page = await E.novaStranka();
     await prepni(page, "recepty");
-    const vsetkyN = await pocetKariet(page);
-    await t.ok(vsetkyN > 1000, "mriežka vykreslí recepty", vsetkyN);
+    const vsetkyN = await pocetVysledkov(page);
+    await t.ok(vsetkyN > 1000, "mriežka pozná všetky recepty (#pocet)", vsetkyN);
+
+    // ── lazy mriežka: prvá dávka + dopĺňanie (výkonová zmena vlny 3) ────────
+    const prvaDavka = await pocetKariet(page);
+    await t.ok(prvaDavka > 0 && prvaDavka <= 60,
+      `mriežka vykreslí prvú dávku, nie všetkých ${vsetkyN} kariet naraz (${prvaDavka})`, prvaDavka);
+    const patka = await page.evaluate(() => {
+      const b = document.getElementById("grid-viac");
+      return b ? { vidno: getComputedStyle(b).display !== "none", text: b.textContent.trim(), tag: b.tagName.toLowerCase(), aria: b.getAttribute("aria-label") || "" } : null;
+    });
+    await t.ok(patka && patka.vidno && /Načítať/i.test(patka.text),
+      "pod mriežkou je tlačidlo „Načítať ďalších…“ (funguje aj bez IntersectionObservera)", JSON.stringify(patka));
+    await t.ok(patka && patka.tag === "button", "pätička mriežky je <button> — dosiahnuteľná klávesnicou", JSON.stringify(patka));
+    await page.evaluate(() => window.gridViac());
+    const poDavke = await pocetKariet(page);
+    await t.ok(poDavke > prvaDavka, `„Načítať ďalších“ pridá ďalšiu dávku (${prvaDavka} → ${poDavke})`, `${prvaDavka} → ${poDavke}`);
+    t.metrika("mriežka — prvá dávka / po dobratí ďalšej", `${prvaDavka} / ${poDavke} kariet z ${vsetkyN}`);
 
     // ── hľadanie podľa názvu ─────────────────────────────────────────────────
     await hladaj(page, "guláš");
-    const gulas = await pocetKariet(page);
+    const gulas = await pocetVysledkov(page);
     await t.ok(gulas > 0 && gulas < vsetkyN, `hľadanie podľa názvu („guláš“) filtruje: ${gulas} z ${vsetkyN}`, gulas);
     const nazvySedia = await page.evaluate(() =>
       [...document.querySelectorAll("#grid .card h3")].slice(0, 10).map((h) => h.textContent));
@@ -29,7 +54,7 @@ module.exports = {
 
     // ── hľadanie podľa suroviny (nie je v názve) ────────────────────────────
     await hladaj(page, "kmín");
-    const kmin = await pocetKariet(page);
+    const kmin = await pocetVysledkov(page);
     const kminBezNazvu = await page.evaluate(() => {
       // aspoň jeden zásah, ktorý slovo NEMÁ v názve → našlo sa cez ingredienciu/popis
       return [...document.querySelectorAll("#grid .card h3")]
@@ -40,9 +65,9 @@ module.exports = {
 
     // ── skloňovanie (iný pád) ───────────────────────────────────────────────
     await hladaj(page, "paradajka");
-    const p1 = await pocetKariet(page);
+    const p1 = await pocetVysledkov(page);
     await hladaj(page, "paradajky");
-    const p2 = await pocetKariet(page);
+    const p2 = await pocetVysledkov(page);
     await t.ok(p1 > 0, "„paradajka“ (1. pád) nájde recepty — kmeňové párovanie", p1);
     await t.ok(p2 > 0, "„paradajky“ (iný pád) nájde recepty", p2);
     t.metrika("zásahov „paradajka“ / „paradajky“", `${p1} / ${p2}`);
@@ -57,7 +82,7 @@ module.exports = {
     await t.ok(/Zrušiť filtre/i.test(prazdny.text), "prázdny stav ponúka „Zrušiť filtre“", prazdny.text);
     // zrušenie filtrov vráti všetko
     await page.evaluate(() => window.zrusFiltre());
-    await t.ok(await pocetKariet(page) === vsetkyN, "„Zrušiť filtre“ obnoví celý zoznam");
+    await t.ok(await pocetVysledkov(page) === vsetkyN, "„Zrušiť filtre“ obnoví celý zoznam");
 
     // ── počítadlo aktívnych filtrov #f-cnt ──────────────────────────────────
     const cnt = async () => page.evaluate(() => {
@@ -75,10 +100,10 @@ module.exports = {
     await t.ok(!c.hidden && c.text === "2", "#f-cnt ukáže 2 pri dvoch filtroch", JSON.stringify(c));
 
     // ── kombinácia filtrov naozaj zužuje ────────────────────────────────────
-    const vegRychle = await pocetKariet(page);
+    const vegRychle = await pocetVysledkov(page);
     await page.selectOption("#f-diet", "");
     await page.evaluate(() => window.renderGrid());
-    const lenRychle = await pocetKariet(page);
+    const lenRychle = await pocetVysledkov(page);
     await t.ok(vegRychle > 0 && vegRychle < lenRychle,
       `kombinácia „do 35 min“ + „vegetariánske“ zúži výsledok (${vegRychle} < ${lenRychle})`, `${vegRychle} vs ${lenRychle}`);
     // over, že filter „do 35 min“ naozaj drží
@@ -105,7 +130,7 @@ module.exports = {
       [...document.querySelectorAll("#chips .chip")].find((c) => c.textContent.trim() === k).click();
     }, kat);
     await page.waitForTimeout(150);
-    const poKat = await pocetKariet(page);
+    const poKat = await pocetVysledkov(page);
     const vsetkyRovnake = await page.evaluate((k) =>
       [...document.querySelectorAll("#grid .card .kat")].slice(0, 50).every((e) => e.textContent.trim() === k), kat);
     await t.ok(poKat > 0 && poKat < vsetkyN, `chip kategórie „${kat}“ filtruje (${poKat})`, poKat);
@@ -135,7 +160,7 @@ module.exports = {
     await prepni(page, "recepty");
     await page.selectOption("#f-diet", "fav");
     await page.evaluate(() => window.renderGrid());
-    const favN = await pocetKariet(page);
+    const favN = await pocetVysledkov(page);
     await t.ok(favN === 1, "filter „Len obľúbené“ ukáže práve označený recept", favN);
     const hviezda = await page.evaluate(() => (document.querySelector("#grid .card .fav") || {}).textContent);
     await t.ok(hviezda === "★", "karta obľúbeného receptu má plnú hviezdu", hviezda);

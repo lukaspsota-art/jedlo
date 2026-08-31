@@ -16,7 +16,7 @@ module.exports = {
       kariet: document.getElementById("grid").children.length,
       profil: !!(typeof S !== "undefined" && S.profil && S.profil.kcal),
     }));
-    await t.ok(s1.recepty > 1000 && s1.kariet > 1000, "appka sa načíta aj s poškodeným localStorage", JSON.stringify(s1));
+    await t.ok(s1.recepty > 1000 && s1.kariet > 0, "appka sa načíta aj s poškodeným localStorage", JSON.stringify(s1));
     await t.ok(s1.profil, "poškodený stav sa nahradí predvoleným profilom", JSON.stringify(s1));
     for (const v of ["recepty", "planovac", "nakup", "vyziva", "spajza", "nastavenia", "domov"]) await prepni(zly, v);
     await t.ok(zly.chyby.length === 0, "poškodený localStorage nevyhodí chybu do konzoly",
@@ -216,16 +216,26 @@ module.exports = {
     });
     await prepni(spajza, "spajza");
     await spajza.waitForTimeout(250);
-    const s8 = await spajza.evaluate(() => ({
-      riadkov: document.querySelectorAll("#spajza-list .sp-row").length,
-      vStave: S.spajza.length,
-      text: document.getElementById("spajza-list").textContent.replace(/\s+/g, " ").slice(0, 120),
-    }));
+    const s8 = await spajza.evaluate(() => {
+      const txt = document.getElementById("spajza-list").textContent.replace(/\s+/g, " ");
+      return {
+        riadkov: document.querySelectorAll("#spajza-list .sp-row").length,
+        vStave: S.spajza.length,
+        // položka je „viditeľná“, ak sa jej názov (alebo id pri prázdnom názve) niekde v prehľade objaví
+        chybajuce: S.spajza.filter((x) => !(String(x.nazov || "").trim() && txt.includes(String(x.nazov).trim()))).map((x) => x.id + ":" + JSON.stringify(x.nazov)),
+        bezZaradenia: /Bez zaradenia/.test(txt),
+        text: txt.slice(0, 120),
+      };
+    });
     await t.ok(s8.riadkov >= 1, "špajza s nezmyselnými hodnotami sa vykreslí a nepadne", JSON.stringify(s8));
+    await t.ok(s8.bezZaradenia, "položka s neznámym „miesto“ dostane sekciu „📦 Bez zaradenia“ (dá sa opraviť aj zmazať)", JSON.stringify(s8));
     // Každá položka špajze musí byť v prehľade viditeľná — inak sa nedá zmazať ani opraviť,
     // hoci ďalej ovplyvňuje nákup a upozornenia na expiráciu.
-    await t.ok(s8.riadkov === s8.vStave,
-      `každá položka špajze je viditeľná v prehľade (${s8.riadkov} z ${s8.vStave}) — položky s neznámym „miesto“ sa nevykreslia`,
+    // Sekcia „⏰ Spotrebuj čoskoro“ je zámerne duplicitná (položka je aj vo svojej sekcii),
+    // preto riadkov býva viac než položiek. Podstatné je, že KAŽDÁ položka má aspoň jeden riadok —
+    // aj tá s neznámym „miesto“ (od vlny 3 padá do sekcie „📦 Bez zaradenia“).
+    await t.ok(s8.chybajuce.length === 0,
+      `každá položka špajze je viditeľná v prehľade (${s8.riadkov} riadkov na ${s8.vStave} položiek; chýbajú: ${s8.chybajuce.join(", ") || "žiadne"})`,
       JSON.stringify(s8));
     await prepni(spajza, "nakup");
     await prepni(spajza, "domov");

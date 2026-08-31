@@ -26,19 +26,41 @@ module.exports = {
     // ── generovanie cez UI tlačidlo (dialóg generovania) ────────────────────
     await page.click("#v-planovac button.btn.primary");
     await page.waitForTimeout(300);
+    // Vlna 3: tlačidlo v dotazníku volá `generujTlacidlo()`, nie priamo `generujJedalnicek()` —
+    // medzikrok sa nad naplneným týždňom pýta, či ho naozaj prepísať (B3).
     const wiz = await page.evaluate(() => ({
       otvorene: document.getElementById("pick-overlay").classList.contains("open"),
       text: (document.getElementById("pick-modal").textContent || "").slice(0, 120),
-      maTlacidlo: !!document.querySelector("#pick-modal [onclick*='generujJedalnicek']"),
+      maTlacidlo: !!document.querySelector("#pick-modal [onclick*='generujTlacidlo']"),
+      popisTlacidla: (document.querySelector("#pick-modal [onclick*='generujTlacidlo']") || {}).textContent || "",
     }));
     await t.ok(wiz.otvorene, "„✨ Zostaviť jedálniček“ otvorí dotazník generovania", JSON.stringify(wiz));
     await t.ok(wiz.maTlacidlo, "dotazník má tlačidlo na spustenie generovania", JSON.stringify(wiz));
-    await page.click("#pick-modal [onclick*='generujJedalnicek']");
-    await page.waitForTimeout(600);
+    await t.ok(/Generovať/i.test(wiz.popisTlacidla), "tlačidlo v dotazníku má menovku, nie iba ikonu", wiz.popisTlacidla);
+    await page.click("#pick-modal [onclick*='generujTlacidlo']");
+    await page.waitForTimeout(900);
     await zavriOkna(page);
 
     const n1 = await pocetSlotov(page);
     await t.ok(n1 >= 20, `generovanie z UI naplní plán (${n1} slotov)`, n1);
+
+    // ── hotový týždeň sa neprepíše bez opýtania (B3) ────────────────────────
+    await page.evaluate(() => { window.generujTlacidlo(false); });
+    await page.waitForTimeout(400);
+    const otazka = await page.evaluate(() => {
+      const txt = (document.getElementById("dlg-modal").textContent || "").replace(/\s+/g, " ");
+      return { otvorene: document.getElementById("dlg-overlay").classList.contains("open"), txt: txt.slice(0, 200) };
+    });
+    await t.ok(otazka.otvorene && /prepíš|prepis/i.test(otazka.txt),
+      "generovanie nad naplneným týždňom sa najprv opýta", JSON.stringify(otazka));
+    await t.ok(/Uložiť tento plán/i.test(otazka.txt),
+      "otázka pripomenie, že sa plán dá pred prepísaním uložiť", otazka.txt);
+    // „Zrušiť“ — plán musí zostať presne taký, aký bol
+    await page.click("#dlg-modal .btn-row .btn:not(.primary)");
+    await page.waitForTimeout(300);
+    const s0 = await snimok(page);
+    await t.ok(JSON.stringify(s0) === JSON.stringify(await snimok(page)) && (await pocetSlotov(page)) === n1,
+      "zrušenie otázky nechá plán nedotknutý");
 
     const s1 = await snimok(page);
     const k1 = await dennyKcal(page);

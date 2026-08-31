@@ -7,7 +7,7 @@ a šablónu data/sablona.html, a vytvorí offline stránku kucharka.html.
 
 Spusti: python3 generuj_kucharku.py
 """
-import argparse, base64, json, os, glob, datetime, re, shutil, subprocess, sys, tempfile
+import argparse, base64, json, os, glob, datetime, re, shutil, subprocess, sys, tempfile, zlib
 
 ZAKLAD = os.path.dirname(os.path.abspath(__file__))
 RECEPTY_DIR = os.path.join(ZAKLAD, "recepty")
@@ -123,6 +123,87 @@ def skontroluj_recepty(recepty):
     return videne
 
 
+# ── poistka proti poškodeným množstvám (P1, august 2026) ────────────────────────────────
+# Zber receptov z webu vyrobil 127 receptov, kde bola gramáž nafúknutá 10–1000× („Celozrnný
+# starší chlieb 4000 g", „Hladká múka 24 000 g", „Krevety 7200 g"). Appka to nevidela: plán
+# hlási kurátorované `kcal_na_porciu` (pravidlo B4), zatiaľ čo nákupný zoznam kupuje suroviny —
+# a ten pýtal 2,4× viac jedla, než plán sľuboval. Dáta sa budú zbierať ďalej, takže build to
+# odteraz kontroluje sám.
+#
+# PRAH: 700 g jedla na porciu. Bežná porcia hlavného jedla váži 300–500 g, veľká polievková
+# 600 g. Vody, vývary, nálevy a marinády sa NERÁTAJÚ — tie sú legitímne v litroch. Prah je
+# nastavený tak, aby nechal prejsť skutočné zaváraniny a várky (klobásy z 10 kg mäsa na
+# 24 porcií), a zároveň zachytil každú desatinnú čiarku posunutú o rád.
+#
+# NIE JE to tvrdý pád: legitímne prípady existujú (zaváranie, kysnuté cestá, kura v soľnej
+# kruste) a build, ktorý padá na správnych dátach, sa naučíš obchádzať. Je to výpis, ktorý sa
+# nedá prehliadnuť — a `--striktne` ho na želanie zmení na pád (hodí sa do CI).
+HMOTNOST_NA_PORCIU_PRAH = 700          # g jedla na porciu (bez vody, vývaru a nálevu)
+JEDNA_SUROVINA_PRAH = 700              # g jednej suroviny na porciu
+_TEKUTE_LEGITIMNE = re.compile(
+    r"voda|vody|vodou|n[áa]lev|marin[áa]d|v[ýy]var|buj[óo]n|ľad|olej na vypr[áa]žanie", re.I)
+# jednotky, ktoré vieme previesť na gramy bez databázy potravín (hustota ~1)
+_G_ZA_JEDNOTKU = {"g": 1, "gram": 1, "gramov": 1, "kg": 1000, "ml": 1, "l": 1000, "liter": 1000,
+                  "dcl": 100, "dl": 100, "pl": 15, "lyžica": 15, "lyzica": 15,
+                  "polievková lyžica": 15, "čl": 5, "cl": 5, "lyžička": 5, "lyzicka": 5,
+                  "šálka": 250, "salka": 250, "hrnček": 250, "hrncek": 250,
+                  "pohár": 250, "pohar": 250}
+
+
+def skontroluj_mnozstva(recepty, striktne=False):
+    """Vypíše recepty, ktoré pýtajú nereálne veľa jedla na porciu. Vracia počet nálezov."""
+    nalezy = []
+    for cesta, r in recepty:
+        if not isinstance(r, dict):
+            continue
+        # Nápoje a kokteily sú z definície tekutina — ich hmotnosť je voda a prah pre jedlo
+        # na ne nesedí (džbán limonády na dvoch je legitímne 1,5 kg).
+        if r.get("kategoria") in ("Nápoj", "Kokteil"):
+            continue
+        porcie = r.get("porcie") or 1
+        try:
+            porcie = max(1, float(porcie))
+        except (TypeError, ValueError):
+            porcie = 1
+        spolu, velke = 0.0, []
+        for i in r.get("ingrediencie", []):
+            m = i.get("mnozstvo")
+            if not isinstance(m, (int, float)):
+                continue
+            nazov = str(i.get("nazov") or "")
+            if _TEKUTE_LEGITIMNE.search(nazov):
+                continue
+            g = m * _G_ZA_JEDNOTKU.get((i.get("jednotka") or "").strip().lower(), 0)
+            if g <= 0:
+                continue
+            spolu += g
+            if g / porcie > JEDNA_SUROVINA_PRAH:
+                velke.append(f"{nazov} {m} {i.get('jednotka')} = {round(g / porcie)} g/porcia")
+        na_porciu = spolu / porcie
+        if na_porciu > HMOTNOST_NA_PORCIU_PRAH or velke:
+            nalezy.append((round(na_porciu), r.get("id") or kratko(cesta), r.get("nazov") or "", velke))
+    if not nalezy:
+        return 0
+    nalezy.sort(key=lambda x: -x[0])
+    riadky = []
+    for na_porciu, rid, nazov, velke in nalezy:
+        riadky.append(f"{na_porciu} g/porcia · {nazov} [{rid}]")
+        riadky += ["    " + v for v in velke[:3]]
+    nadpis = (f"⚠️  NEREÁLNE MNOŽSTVÁ: {len(nalezy)} receptov pýta viac než "
+              f"{HMOTNOST_NA_PORCIU_PRAH} g jedla na porciu (bez vody a vývaru)")
+    if striktne:
+        zomri(nadpis, riadky)
+    print("\n" + "=" * 78, file=sys.stderr)
+    print(nadpis, file=sys.stderr)
+    print("Bežná porcia hlavného jedla váži 300–500 g. Skontroluj ich cez\n"
+          "  node scripts/qa/klasifikuj_mnozstva.js   a oprav cez  node scripts/oprav_mnozstva.js",
+          file=sys.stderr)
+    for r in riadky:
+        print("  - " + r, file=sys.stderr)
+    print("=" * 78 + "\n", file=sys.stderr)
+    return len(nalezy)
+
+
 POV_CISLA = ("kcal", "bielkoviny", "tuky", "sacharidy")
 
 
@@ -230,20 +311,35 @@ def skontroluj_bezpecnost_dat(polozky, popis):
         zomri(f"NEBEZPEČNÝ OBSAH V DÁTACH ({popis}): {len(chyby)}", chyby)
 
 
-def json_do_scriptu_text(txt):
-    """Ako json_do_scriptu, ale vstup je už hotový JSON reťazec."""
-    return json_do_scriptu(json.loads(txt))
-
-
 def json_do_scriptu(o):
     """JSON pripravený na vloženie do inline <script>.
     `</` → `<\/`: v JavaScripte je to ten istý znak, dáta ostávajú bajt na bajt rovnaké,
     ale `</script>` už nemôže ukončiť blok. U+2028/U+2029 sú v JSON legálne, v JS zdroji
-    však zalomia reťazec."""
-    return (json.dumps(o, ensure_ascii=False)
+    však zalomia reťazec.
+    Oddeľovače sú bez medzier — pri 1961 receptoch je „, “ a „: “ navyše 216 kB."""
+    return (json.dumps(o, ensure_ascii=False, separators=(",", ":"))
             .replace("</", "<\\/")
             .replace("\u2028", "\\u2028")
             .replace("\u2029", "\\u2029"))
+
+
+# P3: recepty ako obyčajný JSON zaberali 3,95 MB z 5,35 MB súboru — na 4 Mbit/s je to
+# ~11 s prvého načítania. Ten istý JSON skomprimovaný (raw DEFLATE) a v base64 má 1,80 MB.
+# Appka ho rozbalí synchrónne (`_rozbal` + `_zlInflate` v data/app.js), takže kuchárka
+# zostáva jeden offline súbor bez knižnice a bez siete. Fotky sú vnútri: base64 WebP
+# sa síce nezmenší (base64 → deflate → base64 je zhruba nula), ale ani nezväčší.
+def data_do_scriptu(o, rezim):
+    """Vráti (JS výraz s dátami, bajtov pred, bajtov po) — buď JSON, alebo base64 DEFLATE."""
+    if rezim == "json":
+        v = json_do_scriptu(o)
+        return v, len(v.encode("utf-8")), len(v.encode("utf-8"))
+    raw = json.dumps(o, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    d = zlib.compressobj(9, zlib.DEFLATED, -15)   # -15 = raw deflate, bez zlib hlavičky
+    b64 = base64.b64encode(d.compress(raw) + d.flush()).decode("ascii")
+    # base64 abeceda je A–Z a–z 0–9 + / = — v JS reťazci ani v HTML nemá čo ukončiť.
+    if not re.fullmatch(r"[A-Za-z0-9+/=]*", b64):
+        zomri("base64 dát obsahuje znak mimo abecedy — nevkladám to do <script>.")
+    return '"' + b64 + '"', len(raw), len(b64) + 2
 
 
 def jednorazova_nahrada(text, nahrady):
@@ -366,12 +462,19 @@ def main():
     ap.add_argument("--fotky", choices=("inline", "subor", "ziadne"), default="inline",
                     help="inline = fotky do HTML ako data: URI (jeden offline súbor, predvolené); "
                          "subor = necháva recepty/fotky/ vedľa; ziadne = bez fotiek")
+    ap.add_argument("--striktne", action="store_true",
+                    help="varovanie o nereálnych množstvách zmení na pád buildu (do CI)")
+    ap.add_argument("--data", choices=("zbalene", "json"), default="zbalene",
+                    help="zbalene = recepty a potraviny sa vkladajú skomprimované "
+                         "(raw DEFLATE + base64, appka ich rozbalí sama; predvolené); "
+                         "json = čitateľný JSON priamo v súbore (o ~2,7 MB väčší, na ladenie)")
     args = ap.parse_args()
 
     recepty_p = nacitaj_json_zoznam(RECEPTY_DIR, "recepty")
     if not recepty_p:
         zomri(f"V {kratko(RECEPTY_DIR)} nie je ani jeden recept (*.json).")
     id_receptov = skontroluj_recepty(recepty_p)
+    pocet_mnozstiev = skontroluj_mnozstva(recepty_p, striktne=args.striktne)
 
     jedalnicky_p = nacitaj_json_zoznam(JEDALNICKY_DIR, "uložené jedálničky")
     skontroluj_jedalnicky(jedalnicky_p, id_receptov)
@@ -392,9 +495,16 @@ def main():
     for cesta, text, placeholdery in ((SABLONA, sablona, ("__APP_JS__", "__DATUM__", "__POCET__")),
                                       (APPJS, appjs, ("__DATA__", "__POTRAVINY__", "__JEDALNICKY__", "__FOTO_ZDROJE__"))):
         for placeholder in placeholdery:
-            if placeholder not in text:
+            poc = text.count(placeholder)
+            if poc == 0:
                 zomri(f"{kratko(cesta)} nemá placeholder {placeholder}.",
                       ["Generátor doň vkladá dáta — bez neho by appka bola prázdna."])
+            # Placeholder navyše (aj v komentári!) sa nahradí tiež — 1,9 MB dát dvakrát.
+            if poc > 1:
+                zomri(f"{kratko(cesta)} má placeholder {placeholder} {poc}×.",
+                      ["Generátor nahrádza VŠETKY výskyty, takže by sa dáta vložili viackrát",
+                       "(a to aj vtedy, keď je druhý výskyt len v komentári).",
+                       "Nechaj v súbore jediný výskyt a v komentároch ho neopisuj doslova."])
 
     recepty = [r for _, r in recepty_p]
     jedalnicky = [j for _, j in jedalnicky_p]
@@ -410,12 +520,10 @@ def main():
     foto_poc, foto_bajtov, foto_hlasenia = priprav_fotky(recepty, args.fotky)
     for h in foto_hlasenia:
         print("Pozor: " + h, file=sys.stderr)
-    foto_zdroje_json = json.dumps(foto_zdroje_pre_appku(), ensure_ascii=False,
-                                  separators=(",", ":"), sort_keys=True)
-    data_json = json_do_scriptu(recepty)
-    potraviny_json = json_do_scriptu(potraviny)
-    jedalnicky_json = json_do_scriptu(jedalnicky)
-    foto_zdroje_json = json_do_scriptu_text(foto_zdroje_json)
+    data_json, dat_pred, dat_po = data_do_scriptu(recepty, args.data)
+    potraviny_json, pot_pred, pot_po = data_do_scriptu(potraviny, args.data)
+    jedalnicky_json, _, _ = data_do_scriptu(jedalnicky, args.data)
+    foto_zdroje_json, _, _ = data_do_scriptu(foto_zdroje_pre_appku(), args.data)
     datum = datetime.date.today().strftime("%d.%m.%Y")
     # Dva prechody, každý jednorazový: najprv dáta do app.js, potom hotový app.js do šablóny.
     # Vložený text sa už neprehľadáva, takže placeholder v dátach nemôže vtiahnuť ďalší blok.
@@ -446,6 +554,12 @@ def main():
     velkost = os.path.getsize(VYSTUP)
     print(f"Hotovo: {VYSTUP}")
     print(f"Veľkosť: {velkost/1048576:.2f} MB  ·  ~{velkost*8/4e6:.1f} s na 4 Mbit/s")
+    if args.data == "zbalene":
+        print(f"Dáta: recepty {dat_pred/1048576:.2f} → {dat_po/1048576:.2f} MB, "
+              f"potraviny {pot_pred/1048576:.2f} → {pot_po/1048576:.2f} MB "
+              f"(raw DEFLATE + base64; --data=json vypne)")
+    else:
+        print("Dáta: nekomprimovaný JSON (--data=json)")
     if args.fotky == "inline":
         print(f"Fotky: {foto_poc} inline ({foto_bajtov/1048576:.2f} MB base64 = "
               f"{foto_bajtov*100.0/max(velkost,1):.0f} % súboru)")
@@ -460,6 +574,8 @@ def main():
     print(f"GitHub Pages: {DOCS_INDEX}" + (" (+ sw.js)" if os.path.exists(SW) else ""))
     print(f"Dátový výpis: {EXPORT}")
     print(f"Receptov: {len(recepty)} · potravín: {len(potraviny)} · jedálničkov: {len(jedalnicky)}")
+    if pocet_mnozstiev:
+        print(f"⚠️  Receptov s nereálnym množstvom na porciu: {pocet_mnozstiev} (podrobnosti vyššie)")
 
 
 if __name__ == "__main__":

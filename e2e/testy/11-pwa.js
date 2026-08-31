@@ -85,7 +85,8 @@ module.exports = {
       slotov: Object.keys(S.plan).length,
     }));
     await t.ok(offline.online === false, "prehliadač je naozaj offline", offline.online);
-    await t.ok(offline.recepty > 1000 && offline.kariet > 1000, "appka sa načíta offline z cache", JSON.stringify(offline));
+    // mriežka sa od vlny 3 dopĺňa po dávkach po 60 — offline je zásadné, že sú v súbore VŠETKY recepty
+    await t.ok(offline.recepty > 1000 && offline.kariet > 0, "appka sa načíta offline z cache", JSON.stringify(offline));
     await t.ok(offline.slotov === predOffline.slotov, "plán je offline dostupný", JSON.stringify({ predOffline, offline }));
 
     // a je použiteľná: hľadanie, plán, nákup, generovanie

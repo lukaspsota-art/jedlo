@@ -515,4 +515,45 @@ ok("filtre, hľadanie a počítadlá pracujú nad CELÝM zoznamom, nie nad vykre
   assert.strictEqual(D.getElementById("f-cnt").hidden, false, "#f-cnt sa má zobraziť");
 });
 
+// ── P3: rozbaľovanie vložených dát (raw DEFLATE) ─────────────────────────────
+// Build vkladá recepty skomprimované; keby `_zlInflate` v app.js vrátil čo i len jeden
+// zlý bajt, appka sa v prehliadači nespustí vôbec. Preto ho tu ženieme proti zlib.
+ok("_zlInflate rozbalí presne to, čo zlib zabalil (fixné, dynamické aj uložené bloky)", () => {
+  const zlib = require("zlib");
+  const app = novy();
+  assert.strictEqual(typeof app._zlInflate, "function", "app.js musí mať _zlInflate");
+  const vzorky = [
+    Buffer.alloc(0),
+    Buffer.from("á"),
+    Buffer.from("Kuracie prsia v slaninovom kabáte".repeat(400), "utf8"),
+    Buffer.alloc(70000, 0x41),
+    require("crypto").randomBytes(50000),                       // nestlačiteľné → uložené bloky
+    Buffer.from(JSON.stringify(app.RECEPTY.slice(0, 200)), "utf8"),
+  ];
+  const Z = zlib.constants;
+  for (const v of vzorky) {
+    for (const [uroven, strategia] of [[0, Z.Z_DEFAULT_STRATEGY], [1, Z.Z_DEFAULT_STRATEGY],
+                                       [9, Z.Z_DEFAULT_STRATEGY], [9, Z.Z_FIXED], [9, Z.Z_RLE]]) {
+      const zbalene = zlib.deflateRawSync(v, { level: uroven, strategy: strategia });
+      const von = Buffer.from(app._zlInflate(new Uint8Array(zbalene)));
+      assert.ok(Buffer.compare(von, v) === 0,
+        `rozbalenie sa rozišlo (${v.length} B, úroveň ${uroven}, stratégia ${strategia})`);
+    }
+  }
+});
+ok("_rozbal prepustí hotové dáta a rozbalí base64 reťazec", () => {
+  const zlib = require("zlib");
+  const app = novy();
+  const pole = [{ id: "x", nazov: "Šalát ľadový" }];
+  assert.strictEqual(app._rozbal(pole), pole, "hotové pole musí prejsť bez zmeny (harness, --data=json)");
+  const raw = Buffer.from(JSON.stringify(pole), "utf8");
+  const b64 = zlib.deflateRawSync(raw, { level: 9 }).toString("base64");
+  // v prehliadači to robí atob + TextDecoder; tu ich doplníme, lebo vo fake DOM nie sú
+  app.atob = (t) => Buffer.from(t, "base64").toString("binary");
+  app.TextDecoder = class { decode(u) { return Buffer.from(u).toString("utf8"); } };
+  // porovnávame cez JSON: objekt z `vm` má prototyp z iného realmu, deepStrictEqual by ho odmietol
+  assert.strictEqual(JSON.stringify(app._rozbal(b64)), JSON.stringify(pole),
+    "base64 DEFLATE sa musí rozbaliť na pôvodné dáta");
+});
+
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });

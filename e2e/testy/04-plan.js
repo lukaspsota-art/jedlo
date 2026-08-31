@@ -74,27 +74,41 @@ module.exports = {
     await t.ok(panel.polozky.length === 4, `panel má 4 akcie (doplnok, znova, porcie, zvyšok) — ${panel.polozky.length}`, JSON.stringify(panel));
     await zavriOkna(page);
 
-    // ── rozdelenie blokov patrí do „⋯ Viac“ v hlavičke, nie do obrazovky ───
+    // ── rozvrh varenia: pás nad tabuľkou + dialóg (vlna 3, NAVOD v15) ──────
+    // Predtým sa rozdelenie blokov volalo „✂️ Rozdelenie blokov“ a bolo len v „⋯ Viac“.
+    // Dnes je nad tabuľkou pás, ktorý vetou hovorí kedy varíš, a má vlastné „✂️ Upraviť rozvrh“.
+    await page.evaluate(() => { if (!S.blokMode) window.prepniBlok(true); });
+    await page.waitForTimeout(150);
+    const pas = await page.evaluate(() => {
+      const b = document.querySelector("#v-planovac .rozvrh-upr");
+      const txt = (document.getElementById("v-planovac").textContent || "").replace(/\s+/g, " ");
+      return { maTlacidlo: !!b, text: b ? b.textContent.trim() : "", veta: /Varíš vo? .{2,12} večer na /.test(txt), pocetBlokov: /Rozvrh varenia · \d+ blok/.test(txt) };
+    });
+    await t.ok(pas.maTlacidlo && /Upraviť rozvrh/i.test(pas.text), "nad tabuľkou je „✂️ Upraviť rozvrh“", JSON.stringify(pas));
+    await t.ok(pas.veta, "rozvrh hovorí celou vetou, kedy a na čo varíš", JSON.stringify(pas));
+    await t.ok(pas.pocetBlokov, "rozvrh povie, koľko blokov máš", JSON.stringify(pas));
+
     const menu = await page.evaluate(() => ({
       polozky: [...document.querySelectorAll("#m-plan a")].map((a) => a.textContent.trim()),
       editorNaObrazovke: (() => { const b = document.getElementById("blok-editor"); return !!(b && b.closest("#v-planovac")); })(),
     }));
-    await t.ok(menu.polozky.some((x) => /Rozdelenie blokov/i.test(x)), "„✂️ Rozdelenie blokov“ je v menu ⋯ Viac", JSON.stringify(menu.polozky));
+    await t.ok(menu.polozky.some((x) => /Rozvrh varenia/i.test(x)), "„🍳 Rozvrh varenia (bloky)“ je aj v menu ⋯ Viac", JSON.stringify(menu.polozky));
     await t.ok(!menu.editorNaObrazovke, "editor rozdelenia nezaberá miesto priamo v obrazovke Plánu");
 
-    // otvor rozdelenie blokov reálnym klikom (v blokovom režime)
-    await page.evaluate(() => { if (!S.blokMode) window.prepniBlok(true); });
-    await page.click("#v-planovac .plan-head .menu-wrap > button");
-    await page.waitForTimeout(120);
-    await page.locator("#m-plan a", { hasText: "Rozdelenie blokov" }).click();
-    await page.waitForTimeout(200);
+    // otvor rozvrh reálnym klikom na pás
+    await page.click("#v-planovac .rozvrh-upr");
+    await page.waitForTimeout(250);
     const rozd = await page.evaluate(() => ({
       otvorene: document.getElementById("pick-overlay").classList.contains("open"),
       nadpis: (document.querySelector("#pick-modal h2") || {}).textContent || "",
-      hranic: document.querySelectorAll("#blok-editor [onclick^='toggleHranica']").length,
+      hranic: document.querySelectorAll("#pick-modal [onclick^='toggleHranica']").length,
+      predvolby: document.querySelectorAll("#pick-modal [onclick^='pouziRozvrh']").length,
+      nahlad: /Varíš vo? .{2,12} večer na /.test((document.getElementById("pick-modal").textContent || "").replace(/\s+/g, " ")),
     }));
-    await t.ok(rozd.otvorene && /Rozdelenie/.test(rozd.nadpis), "Rozdelenie blokov sa otvorí v okne", JSON.stringify(rozd));
-    await t.ok(rozd.hranic >= 6, "editor ponúka hranice medzi dňami", rozd.hranic);
+    await t.ok(rozd.otvorene && /Rozvrh/i.test(rozd.nadpis), "„✂️ Upraviť rozvrh“ otvorí dialóg rozvrhu", JSON.stringify(rozd));
+    await t.ok(rozd.hranic >= 6, "dialóg ponúka hranice medzi dňami (pás Po · Ut ✂ St …)", rozd.hranic);
+    await t.ok(rozd.predvolby >= 5, "dialóg ponúka hotové rozvrhy na jedno ťuknutie", rozd.predvolby);
+    await t.ok(rozd.nahlad, "dialóg píše náhľad celou vetou", JSON.stringify(rozd));
     await zavriOkna(page);
 
     // ── denné súčty kcal a cieľ ─────────────────────────────────────────────

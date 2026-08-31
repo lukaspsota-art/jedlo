@@ -218,22 +218,30 @@ module.exports = {
     // ── nákup v obchode: odškrtnutie jednou rukou ──────────────────────────
     await prepni(m, "nakup");
     await m.waitForTimeout(250);
+    // Vlna 3: cieľom je CELÝ riadok (<label>), nie 20×20 px políčko. Info má vlastné tlačidlo ⓘ.
+    await m.evaluate(() => { const r = document.querySelector("#nakup-list .nak-row"); if (r) r.scrollIntoView({ block: "center" }); });
+    await m.waitForTimeout(250);
     const rc = await m.evaluate(() => {
-      const lab = document.querySelector("#nakup-list .odd label");
+      const lab = document.querySelector("#nakup-list .nak-row label");
       const inp = lab.querySelector("input[type=checkbox]");
-      const nm = lab.querySelector(".sur-klik");
-      const R = (e) => { const r = e.getBoundingClientRect(); return { x: r.x, y: r.y, w: Math.round(r.width), h: Math.round(r.height) }; };
-      return { label: R(lab), input: R(inp), nm: R(nm) };
+      const nm = lab.querySelector(".nm2");
+      const inf = lab.parentElement.querySelector(".nak-i");
+      const R = (e) => { if (!e) return null; const r = e.getBoundingClientRect(); return { x: r.x, y: r.y, w: Math.round(r.width), h: Math.round(r.height) }; };
+      return { label: R(lab), input: R(inp), nm: R(nm), info: R(inf) };
     });
     const predKlik = await m.evaluate(() => Object.keys(S.nakupCheck).length);
+    // ťuknutie na NÁZOV (najpravdepodobnejšie miesto palca) musí odškrtnúť, nie otvoriť okno
     await m.mouse.click(rc.nm.x + rc.nm.w / 2, rc.nm.y + rc.nm.h / 2);
     await m.waitForTimeout(400);
     const poKlik = await m.evaluate(() => ({ n: Object.keys(S.nakupCheck).length, pick: document.getElementById("pick-overlay").classList.contains("open") }));
     await zavriOkna(m);
     t.metrika("nákup — riadok / odškrtávací cieľ (393 px)", `${rc.label.w}×${rc.label.h} px / ${rc.input.w}×${rc.input.h} px`);
-    await t.ok(Math.min(rc.input.w, rc.input.h) >= 24 || poKlik.n > predKlik,
-      `položku nákupu sa dá odškrtnúť väčším cieľom než ${rc.input.w}×${rc.input.h} px (riadok má ${rc.label.w}×${rc.label.h} px)`,
-      JSON.stringify({ rc, predKlik, poKlik }));
+    t.metrika("nákup — tlačidlo ⓘ (393 px)", rc.info ? `${rc.info.w}×${rc.info.h} px` : "chýba");
+    await t.ok(rc.label.h >= 44, `celý riadok nákupu je dotykový cieľ ≥44 px (${rc.label.w}×${rc.label.h})`, JSON.stringify(rc));
+    await t.ok(poKlik.n > predKlik && !poKlik.pick,
+      "ťuknutie na názov suroviny ju odškrtne (a neotvorí info-okno)", JSON.stringify({ rc, predKlik, poKlik }));
+    await t.ok(rc.info && Math.min(rc.info.w, rc.info.h) >= 40,
+      `ⓘ má vlastný cieľ aspoň 40 px (${rc.info && rc.info.w}×${rc.info && rc.info.h})`, JSON.stringify(rc.info));
 
     // ── spodné menu „⋯ Viac“ na obrazovke Plánu je spodný panel ────────────
     await prepni(m, "planovac");

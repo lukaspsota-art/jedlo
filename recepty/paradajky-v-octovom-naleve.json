@@ -12,7 +12,7 @@
  "ingrediencie": [
   {
    "nazov": "Malé paradajky",
-   "mnozstvo": 2000,
+   "mnozstvo": 200,
    "jednotka": "g",
    "poznamka": ""
   },
@@ -24,9 +24,10 @@
   },
   {
    "nazov": "Ocot vínny",
-   "mnozstvo": 1000,
+   "mnozstvo": 100,
    "jednotka": "ml",
-   "poznamka": ""
+   "poznamka": "",
+   "vsiaknutie": 0.2
   },
   {
    "nazov": "Voda",

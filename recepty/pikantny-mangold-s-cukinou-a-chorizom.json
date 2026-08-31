@@ -12,8 +12,8 @@
  "ingrediencie": [
   {
    "nazov": "Mangold",
-   "mnozstvo": 4,
-   "jednotka": "ks",
+   "mnozstvo": 300,
+   "jednotka": "g",
    "poznamka": ""
   },
   {
@@ -24,7 +24,7 @@
   },
   {
    "nazov": "Klobása chorizo",
-   "mnozstvo": 3600,
+   "mnozstvo": 360,
    "jednotka": "g",
    "poznamka": ""
   },
@@ -66,7 +66,7 @@
   },
   {
    "nazov": "Tabasco",
-   "mnozstvo": 120,
+   "mnozstvo": 6,
    "jednotka": "g",
    "poznamka": ""
   },

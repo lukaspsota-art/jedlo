@@ -72,10 +72,21 @@ module.exports = {
     const planOvl = await ovladacieVTlaci(page, "#v-planovac");
     t.metrika("tlač plánu — formulárové prvky / afordancie / klikateľný text",
       `${planOvl.formulare.length} / ${planOvl.afordancie.length} / ${planOvl.textKlik.length}`);
+    // Opravené (P4): TLAC_CSS skrýva tlačidlá, ktoré sú LEN akcia (✕, ✎, „plán varenia →“,
+    // „✂️ Upraviť rozvrh“), a tlačidlám, ktoré nesú OBSAH (názov jedla, kcal dňa), berie
+    // schránku cez `display:contents` — text sa vytlačí, afordancia nie.
     await t.ok(planOvl.formulare.length === 0, "tlačová verzia plánu neobsahuje formulárové prvky",
       JSON.stringify(planOvl.formulare.slice(0, 8)));
     await t.ok(planOvl.afordancie.length === 0, "tlačová verzia plánu neobsahuje klikacie afordancie (✎ zmeniť, ⋯ viac, mchipy, +/−)",
       JSON.stringify(planOvl.afordancie.slice(0, 10)));
+    // Poistka proti „opravím tlač tým, že skryjem všetko“: plán musí na papieri niesť názvy jedál.
+    const planObsah = await page.evaluate(() => {
+      const bunky = [...document.querySelectorAll("#v-planovac .plan-cell")].filter((c) => c.getBoundingClientRect().height > 0);
+      const s = bunky.map((c) => (c.innerText || "").trim()).filter((x) => x.length > 3);
+      return { buniek: bunky.length, sTextom: s.length, ukazka: s.slice(0, 2) };
+    });
+    await t.ok(planObsah.buniek > 10 && planObsah.sTextom === planObsah.buniek,
+      `tlačová verzia plánu má v každej bunke názov jedla (${planObsah.sTextom}/${planObsah.buniek})`, JSON.stringify(planObsah));
     await page.screenshot({ path: require("path").join(__dirname, "..", "screenshoty", "tlac-plan.png"), fullPage: false }).catch(() => {});
     await page.emulateMedia({ media: "screen" });
 
@@ -89,6 +100,8 @@ module.exports = {
     const bezCheckboxov = nakupOvl.formulare.filter((x) => !(x.tag === "input" && /^(on|)$/.test(x.text)));
     t.metrika("tlač nákupu — formulárové prvky mimo políčok / afordancie / klikateľný text",
       `${bezCheckboxov.length} / ${nakupOvl.afordancie.length} / ${nakupOvl.textKlik.length}`);
+    // Opravené (P4): „ⓘ“ aj panely „Mám doma“ / „Trasa obchodom“ sú v tlači skryté,
+    // zbalené „Dochucovadlá“ sa naopak na tlač otvárajú (tlacPriprav), aby sa nič neodrezalo.
     await t.ok(bezCheckboxov.length === 0, "tlačová verzia nákupu neobsahuje formulárové prvky (okrem zaškrtávacích políčok)",
       JSON.stringify(bezCheckboxov.slice(0, 8)));
     await t.ok(nakupOvl.afordancie.length === 0, "tlačová verzia nákupu neobsahuje klikacie afordancie",
@@ -103,7 +116,8 @@ module.exports = {
     const id = await page.evaluate(() => RECEPTY.find((r) => (r.postup || []).length >= 3 && r.zdroj_url).id);
     await page.evaluate((i) => window.otvor(i), id);
     await page.waitForTimeout(200);
-    await page.evaluate(() => { window.__print = 0; document.querySelector("#m-det a[onclick*='window.print']").click(); });
+    // vlna 3: položka v „⋯ Viac“ volá tlacRecept() (pripraví TLAC_CSS), nie priamo window.print()
+    await page.evaluate(() => { window.__print = 0; document.querySelector("#m-det a[onclick*='tlacRecept']").click(); });
     await page.waitForTimeout(200);
     await t.ok(await page.evaluate(() => window.__print) === 1, "„🖨 Tlačiť recept“ zavolá window.print()");
 
