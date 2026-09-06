@@ -1265,6 +1265,11 @@
         <label class="switch"><input type="checkbox" id="p-mlieko"> Bez laktózy</label>
         <label class="switch"><input type="checkbox" id="p-kupsnack"> Preferovať kupované snacky</label>
       </details>
+      <details class="panel"><summary>📚 Zdroje receptov — z čoho smie generátor vyberať</summary>
+        <p class="info">Zaškrtnutý zdroj generátor <b>používa</b>, odškrtnutý <b>preskočí</b>. V Receptoch ostávajú všetky recepty viditeľné a naplánovať sa dajú aj ručne — toto obmedzuje iba „✨ Zostaviť jedálniček". Mení sa hneď, netreba ukladať.</p>
+        <div id="zdroje-box"></div>
+        <p class="info" id="zdroje-info" style="margin-top:10px"></p>
+      </details>
       <details class="panel"><summary>🎨 Zobrazenie a okno jedenia</summary>
         <label class="switch" style="gap:10px">Farebná téma
           <select id="p-dark" class="mini" style="min-height:44px">
@@ -3109,13 +3114,18 @@ function poolPreSlot(slot){
 // S2: v snackovom slote musí byť hotový kúpený výrobok. Filter je TVRDÝ (stačí jeden výrobok
 // v poole), lebo „snack, čo sa varí" je presne to, čo používateľ zakázal — radšej ten istý
 // jogurt druhýkrát než cuketové chipsy zo 7 surovín.
-function _poolPreSlotVypocet(slot){
-  let pool=RECEPTY.filter(r=>r.kategoria!=="Kokteil"&&r.kategoria!=="Nápoj"&&prejdeProfil(r));
-  // Zdroje sú VOLITEĽNÉ zúženie („if(z.length)"), nie doménové pravidlo ani diéta: chuťová
-  // preferencia nesmie nechať prázdny deň. Preto je to tu, na univerze, a nie v prejdeProfil —
-  // v Receptoch sa vypnutý zdroj naďalej dá prezerať aj naplánovať ručne.
+// Univerzum generátora — presne to, z čoho vyberá slot. Nastavenia z toho hlásia počet, takže
+// číslo pod prepínačmi zdrojov NEMÔŽE klamať: je to tá istá funkcia, nie druhý výpočet.
+// Zdroje sú VOLITEĽNÉ zúženie („if(z.length)"), nie doménové pravidlo ani diéta: chuťová
+// preferencia nesmie nechať prázdny deň. Preto je to tu, na univerze, a nie v prejdeProfil —
+// v Receptoch sa vypnutý zdroj naďalej dá prezerať aj naplánovať ručne.
+function genUniverzum(){
+  const pool=RECEPTY.filter(r=>r.kategoria!=="Kokteil"&&r.kategoria!=="Nápoj"&&prejdeProfil(r));
   const off=zdrojeOff();
-  if(off.size){ const z=pool.filter(r=>!off.has(zdrojRodina(r))); if(z.length)pool=z; }
+  if(off.size){ const z=pool.filter(r=>!off.has(zdrojRodina(r))); if(z.length)return z; }
+  return pool; }
+function _poolPreSlotVypocet(slot){
+  let pool=genUniverzum();
   const kats=SLOT_KATEGORIE[slot]||[];
   let p=pool.filter(r=>kats.includes(r.kategoria));
   if(jeSnackSlot(slot)){ const v=p.filter(jeVyrobok); if(v.length) return _cenovyStrop(v,slot); }
@@ -4142,7 +4152,7 @@ function onboardingModal(){ normStravnici(); const l=stravniciList();
   </div>`;
   document.getElementById("pick-modal").innerHTML=h; zpristupniKliky(document.getElementById("pick-modal")); document.getElementById("pick-overlay").classList.add("open"); _fokusDoModalu("pick-modal"); }
 function dokonciOnboarding(){ S.profil.onboarded=true; save(); }
-function renderGenWizard(){ const cfg=S.genCfg; const dni=["Po","Ut","St","Št","Pi","So","Ne"]; const kuch=kuchyneList(); const zoff=zdrojeOff();
+function renderGenWizard(){ const cfg=S.genCfg; const dni=["Po","Ut","St","Št","Pi","So","Ne"]; const kuch=kuchyneList();
   normStravnici(); const l=stravniciList();
   const ct=S.profil.cielTyp||"udrzanie"; const opt=(v,t)=>`<option value="${v}" ${ct===v?"selected":""}>${t}</option>`;
   const popisPr=f=>[f.kuchyna,(f.veg?"bezmäso":""),(f.maxCas>0?("do "+f.maxCas+" min"):"")].filter(Boolean).join(" · ")||"(bez podmienky)";
@@ -4174,10 +4184,7 @@ function renderGenWizard(){ const cfg=S.genCfg; const dni=["Po","Ut","St","Št",
     <label class="switch"><input type="checkbox" ${cfg.zachovat?"checked":""} onchange="S.genCfg.zachovat=this.checked;save()"> Zachovať už naplánované jedlá (kotvy)</label>
     <label class="switch"><input type="checkbox" ${cfg.neMasoZaSebou?"checked":""} onchange="S.genCfg.neMasoZaSebou=this.checked;save()"> Nevariť rovnaké mäso v dvoch blokoch po sebe</label>
     <label class="switch"><input type="checkbox" ${S.profil.kupSnack!==false?"checked":""} onchange="S.profil.kupSnack=this.checked;save()"> Kupované snacky (nemusím ich variť)</label>
-    <h3 class="sekcia">📚 Zdroje receptov</h3>
-    <p class="info" style="margin:0 0 6px">Zapnuté zdroje generátor používa, vypnuté preskočí. V Receptoch ostanú viditeľné a dajú sa naplánovať ručne.</p>
-    <div class="field"><div class="chips">${zdrojeList().map(([z,n],i)=>`<span class="chip${zoff.has(z)?"":" active"}" role="button" aria-pressed="${!zoff.has(z)}" onclick="toggleZdroj(${i})">${escHtml(z)} <b>${n}</b></span>`).join("")}</div></div>
-
+    <p class="info" style="margin:6px 0">📚 Zdroje receptov: ${zdrojeStav()} <button class="lnk" onclick="zavriPick();prepni('nastavenia')">zmeniť v Nastaveniach →</button></p>
     <div class="field"><label>Suroviny v akcii (uprednostní ich)</label><textarea onchange="S.akcie=this.value;save()" style="width:100%;min-height:52px;padding:8px;border:1px solid var(--line);border-radius:8px">${escHtml(S.akcie)}</textarea></div>
     <div class="field"><label>Pravidlo pre rozsah dní (kuchyňa / bezmäso / čas)</label>
     <div class="controls" style="align-items:center;flex-wrap:wrap">
@@ -4196,9 +4203,14 @@ function pridajGenFilter(){ const od=parseInt(document.getElementById("gf-od").v
   const pr={od,do:doo}; if(kuchyna)pr.kuchyna=kuchyna; if(veg)pr.veg=true; if(maxCas>0)pr.maxCas=maxCas;
   S.genCfg.filtre.push(pr); save(); renderGenWizard(); }
 function zmazGenFilter(i){ S.genCfg.filtre.splice(i,1); save(); renderGenWizard(); }
-// index, nie názov — názov zdroja ide inak do onclick reťazca a apostrof v ňom by rozbil HTML
-function toggleZdroj(i){ const e=zdrojeList()[i]; if(!e)return; const s=zdrojeOff();
-  s.has(e[0])?s.delete(e[0]):s.add(e[0]); S.profil.zdrojeOff=[...s].join("|"); save(); renderGenWizard(); }
+// Jedna veta o tom, čo filter zdrojov práve robí. Číslo je z genUniverzum(), teda z toho istého
+// poolu, z ktorého vyberá generátor — bez neho sa nedalo overiť, či prepínač vôbec zabral.
+// Pomenúva aj stav „vypnuté je všetko": zúženie je mäkké, takže sa vtedy TICHO neuplatní
+// a počet receptov neklesne. To treba priznať, nie nechať používateľa hádať.
+function zdrojeStav(){ const off=zdrojeOff(), vsetky=zdrojeList().length, n=genUniverzum().length;
+  if(!off.size) return "zapnuté sú všetky, generátor vyberá z "+n+" receptov";
+  if(off.size>=vsetky) return "vypnuté sú VŠETKY — to sa nedá splniť, generátor ich preto ignoruje a berie zo všetkých "+n+" receptov";
+  return "zapnutých "+(vsetky-off.size)+" z "+vsetky+", generátor vyberá z "+n+" receptov"; }
 function vsetkyJedalnicky(){ return JEDALNICKY.concat(S.archiv||[]); }
 // vytiahne PRÁVE ZOBRAZENÝ týždeň (7 dátumov od S.viewOd) a re-key na 0-6 pre prenosný archívny formát
 function tydenAkoSablonu(){ const plan={},planF={}; for(let di=0;di<7;di++){ const iso=datumPre(di); if(S.plan[iso])plan[di]=S.plan[iso]; if(S.planF[iso])planF[di]=S.planF[iso]; } return {plan,planF}; }
@@ -4904,7 +4916,22 @@ function zmazStravnika(i){ let l=stravniciList().slice(); if(l.length<=1)return;
 function renderSlotyBox(){ const box=document.getElementById("sloty-box"); if(!box)return;
   const akt=(Array.isArray(S.profil.sloty)&&S.profil.sloty.length)?S.profil.sloty:DEFAULT_SLOTY;
   box.innerHTML=VSETKY_SLOTY.map(s=>`<label class="switch"><input type="checkbox" data-slot="${s}" ${akt.includes(s)?"checked":""}> ${ikony[s]||""} ${s}</label>`).join(""); }
-function naplnProfil(){ renderStravnici(); renderSlotyBox(); document.getElementById("p-kcal").value=S.profil.kcal;
+// Vzor je renderSlotyBox: zaškrtávacie políčka s data-atribútom, ktoré si ulozProfil prečíta späť.
+// ZÁMERNE to nie sú chipy — v generátorovom okne znamená `.chip.active` u „Dni bez varenia"
+// VYPNUTÝ deň, takže tá istá tmavá bublina by u zdrojov znamenala presný opak. Políčko so
+// štítkom je jednoznačné: zaškrtnuté = generátor ten zdroj používa.
+function renderZdrojeBox(){ const box=document.getElementById("zdroje-box"); if(!box)return;
+  const off=zdrojeOff();
+  box.innerHTML=zdrojeList().map(([z,n])=>`<label class="switch"><input type="checkbox" data-zdroj="${escHtml(z)}" ${off.has(z)?"":"checked"} onchange="ulozZdroje()"> ${escHtml(z)} <span class="info">${n} receptov</span></label>`).join("");
+  zdrojeInfo(); }
+function zdrojeInfo(){ const el=document.getElementById("zdroje-info"); if(el)el.textContent=zdrojeStav().replace(/^./,c=>c.toUpperCase())+"."; }
+// Píše sa hneď pri kliknutí (nie až na „Uložiť nastavenia") — inak sa počet pod zoznamom
+// nehne a používateľ nemá ako zistiť, či prepínač niečo urobil. Prekresľuje sa LEN veta,
+// nie celý box, aby políčko pod prstom neprišlo o fokus.
+function ulozZdroje(){ const box=document.getElementById("zdroje-box"); if(!box)return;
+  S.profil.zdrojeOff=[...box.querySelectorAll("input[data-zdroj]")].filter(i=>!i.checked).map(i=>i.dataset.zdroj).join("|");
+  save(); zdrojeInfo(); }
+function naplnProfil(){ renderStravnici(); renderSlotyBox(); renderZdrojeBox(); document.getElementById("p-kcal").value=S.profil.kcal;
   document.getElementById("p-biel").value=S.profil.biel||0; document.getElementById("p-ryby").checked=!!S.profil.ryby;
   document.getElementById("p-lepok").checked=!!S.profil.lepok; document.getElementById("p-mlieko").checked=!!S.profil.mlieko; var pd=document.getElementById("p-dark"); if(pd)pd.value=(S.profil.temaAuto!==false)?"auto":(S.profil.dark?"tmava":"svetla"); var pb=document.getElementById("p-big"); if(pb)pb.checked=!!S.profil.big; var pa=document.getElementById("p-akcie"); if(pa)pa.value=S.akcie||""; var pbal=document.getElementById("p-balenia"); if(pbal)pbal.checked=(S.profil.balenia!==false); var pw=document.getElementById("p-watch"); if(pw)pw.value=S.profil.watch||""; var pz=document.getElementById("p-zakazane"); if(pz)pz.value=S.profil.zakazane||""; var pks=document.getElementById("p-kupsnack"); if(pks)pks.checked=(S.profil.kupSnack!==false); var pct=document.getElementById("p-cieltyp"); if(pct)pct.value=S.profil.cielTyp||"udrzanie"; var pok=document.getElementById("p-okno"); if(pok)pok.checked=!!S.profil.okno; var pos=document.getElementById("p-oknostart"); if(pos)pos.value=S.profil.oknostart||12;
   var pso=document.getElementById("p-syncoff"); if(pso)pso.checked=!!S.profil.syncOff; var psi=document.getElementById("p-syncid"); if(psi)psi.value=S.profil.syncId||"";

@@ -42,14 +42,14 @@ vygenerovanom JS. Keď padne, **`kucharka.html` sa neprepíše** — starý buil
 
 ## Ako overiť
 - Syntax JS: `node --check data/app.js`
-- Celá sada (po každej zmene `app.js`) — **10 sád, 268 pomenovaných kontrol**:
+- Celá sada (po každej zmene `app.js`) — **10 sád, 269 pomenovaných kontrol**:
   ```
   node test_vypocty.js && node test_generator.js && node test_nakup.js && node test_ux.js \
     && node test_prepocty.js && node test_porcie.js && node test_jednotky.js \
     && node test_parovanie.js && node test_pravidla.js && node test_odolnost.js
   node test_regresie.js     # 12 kontrol, MUSÍ hlásiť 0 otvorených chýb
   ```
-  (vypocty 35 · generator 16 · nakup 65 · ux 47 · jednotky 14 · parovanie 19 · pravidla 52 ·
+  (vypocty 35 · generator 16 · nakup 65 · ux 47 · jednotky 14 · parovanie 19 · pravidla 53 ·
   odolnost 20 · prepocty ✓ · porcie ✓)
 - **`test_regresie.js` je zoznam už opravených chýb**, nie bežný test. Každá kontrola vie,
   či má prejsť alebo padnúť; keď sa stav zmení, test to povie. Nulu treba udržať.
@@ -178,8 +178,15 @@ názvu. Výsledok je cachovaný.
     `zdrojeList()`. Gate je v `_poolPreSlotVypocet`, **nie v `prejdeProfil`**: je to
     *voliteľné* zúženie (`if(z.length)pool=z`), takže vypnutie všetkých zdrojov nenechá prázdny
     deň, a v Receptoch sa vypnutý zdroj naďalej prezerá aj plánuje ručne. UI = chipy v sekcii
-    „📚 Zdroje receptov" v generátorovom wizarde; `toggleZdroj(i)` berie **index**, nie názov
-    (apostrof v názve zdroja by rozbil `onclick`).
+    „📚 Zdroje receptov" **v Nastaveniach** (`renderZdrojeBox` / `ulozZdroje`, vzor je
+    `renderSlotyBox`). **Nesmú to byť chipy:** v generátorovom okne znamená `.chip.active`
+    u „Dni bez varenia" VYPNUTÝ deň, takže tá istá tmavá bublina by u zdrojov znamenala presný
+    opak — a používateľ nevedel, či označená = povolená. Zaškrtnuté políčko so štítkom je
+    jednoznačné. Zapisuje sa hneď pri kliknutí, nie až na „Uložiť nastavenia".
+  - **`genUniverzum()`** je pool, z ktorého vyberá slot, a Nastavenia z neho hlásia počet
+    (`zdrojeStav()`) — jedna funkcia, takže číslo pod prepínačmi nemôže klamať. Bez tej vety sa
+    nedalo overiť, či filter vôbec zabral. Hlásenie zvlášť pomenúva stav „vypnuté je všetko":
+    zúženie je mäkké, TICHO sa neuplatní a počet neklesne, čo treba priznať.
 - Hľadanie (`hladaSedi`): najprv celý dopyt ako **frázu** nad haystackom (názov + popis + tagy +
   ingrediencie), potom **AND cez tokeny** (`/[\s,;]+/`) — `kura ryza` aj `cicer, paradajka`
   vracia recepty, ktoré majú OBE suroviny. Jednoslovný dopyt je preto bajt na bajt pôvodný.
@@ -446,7 +453,7 @@ Cieľ ~1400–1450 kcal/os./deň. Pantry staples vždy do nákupu. RecipeTinEats
 - Pestrosť snackov sa neriadi kuchyňou (výrobky žiadnu nemajú), ale **druhom regálu**
   (`snackDruh`: ovocie / zelenina / mliečne / syr / mäso / orechy / sušené / pečivo / tyčinka /
   sladké / slané / nápoj).
-- Doménové pravidlá stráži `test_pravidla.js` (52 kontrol) na viacerých seedoch:
+- Doménové pravidlá stráži `test_pravidla.js` (53 kontrol) na viacerých seedoch:
   `SEEDS=1,2,3,7,42,99,555,20260818 TYZDNOV=6 node test_pravidla.js`.
 
 **Pozor na „soft constraints".** Filtre vo `vyberDoSlotu` majú tvar `if(p.length) pool=p` —

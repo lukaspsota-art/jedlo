@@ -505,6 +505,20 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
       assert.ok(vsetko.planovaneRecepty().length > 5,
         "plán má len " + vsetko.planovaneRecepty().length + " receptov — zúženie zdrojov ho vyprázdnilo");
     });
+    ok("hlásenie o zdrojoch nezatají, že mäkké zúženie sa neuplatnilo", () => {
+      const a = novy(SEEDS[0], { profil: Object.assign({}, prof) });
+      const vsetkyZap = a.zdrojeStav();
+      a.S.profil.zdrojeOff = "Varecha.sk";
+      const jeden = a.zdrojeStav();
+      a.S.profil.zdrojeOff = a.zdrojeList().map(x => x[0]).join("|");
+      const nic = a.zdrojeStav();
+      // číslo sa MUSÍ hýbať, inak sa nedá overiť, či prepínač zabral
+      assert.notStrictEqual(jeden, vsetkyZap, "vypnutie zdroja nezmenilo hlásenie");
+      assert.ok(/z \d+ receptov/.test(jeden), "hlásenie neuvádza počet receptov: " + jeden);
+      // a keď sa zúženie NEuplatní (vypnuté je všetko), musí to povedať nahlas
+      assert.ok(/VŠETKY/.test(nic) && /ignoruje/.test(nic),
+        "pri vypnutí všetkých zdrojov hlásenie nepriznáva, že filter neplatí: " + nic);
+    });
     ok("rodina zdroja zlúči diely a autorov do jedného mena", () => {
       const z = id => bez.zdrojRodina({ zdroj: id });
       assert.strictEqual(z("Varecha.sk – Bravčový guláš (autor: redakcia)"), "Varecha.sk");
