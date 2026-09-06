@@ -1,0 +1,106 @@
+{
+ "id": "kuracie-s-kuskusom",
+ "nazov": "Kuracie s kuskusom po marocky",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Marocká",
+ "zdroj": "TheMealDB – Chicken Couscous",
+ "zdroj_url": "https://www.themealdb.com/meal/52850",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 666,
+ "kcal_zdroj": "vypocet",
+ "popis": "Marocký tanier: kuracie so zeleninou a cícerom nad kuskusom, dochutené harissou a sušenými marhuľami.",
+ "hlavna_surovina": "Kuracie prsia",
+ "narocnost": "jednoduchá",
+ "ingrediencie": [
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": "na kocky"
+  },
+  {
+   "nazov": "Kuskus",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cícer",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": "scedený"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Harissa",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kurací vývar",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené marhule",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karí korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Nakrájaj kuracie prsia na kocky, osoľ ich a opeč na olivovom oleji dozlatista.",
+  "Pridaj mrkvu a cuketu na kolieska a restuj päť minút.",
+  "Vmiešaj harissu a karí korenie a nechaj ich minútu rozvoňať.",
+  "Prilej polovicu vývaru, pridaj cícer a nasekané sušené marhule a dus desať minút.",
+  "Zalej kuskus zvyškom horúceho vývaru, prikry a nechaj päť minút napučať; potom ho prevzdušni vidličkou.",
+  "Navŕš dusené kuracie so zeleninou na kuskus a podávaj."
+ ],
+ "tipy": "Kuskus sa nevarí, len zaparí — pomer je jeden diel kuskusu na jeden diel vriaceho vývaru.",
+ "foto": "",
+ "tagy": [
+  "kuracie",
+  "kuskus",
+  "marocká kuchyňa",
+  "zelenina",
+  "rýchle"
+ ]
+}

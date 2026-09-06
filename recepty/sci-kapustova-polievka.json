@@ -1,0 +1,112 @@
+{
+ "id": "sci-kapustova-polievka",
+ "nazov": "Šči (kapustová polievka)",
+ "kategoria": "Polievka",
+ "kuchyna": "Ruská",
+ "zdroj": "TheMealDB – Cabbage Soup (Shchi)",
+ "zdroj_url": "https://www.themealdb.com/meal/53077",
+ "porcie": 6,
+ "cas": "50 min",
+ "kcal_na_porciu": 202,
+ "kcal_zdroj": "vypocet",
+ "popis": "Ruská kapustová polievka so zeleninou a zemiakmi, dochutená kyslou smotanou a kôprom.",
+ "hlavna_surovina": "Kapusta",
+ "narocnost": "jednoduchá",
+ "ingrediencie": [
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 45,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kapusta",
+   "mnozstvo": 700,
+   "jednotka": "g",
+   "poznamka": "nakrájaná nadrobno"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 1900,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": "na kocky"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rozpusti maslo v hrnci a orestuj cibuľu dosklovita.",
+  "Pridaj kapustu, mrkvu a zeler a restuj tri minúty, kým zelenina nezačne mäknúť.",
+  "Prilej vývar, vlož bobkový list a var pätnásť minút pod pokrievkou.",
+  "Vlož zemiaky a var ďalších desať minút domäkka.",
+  "Pridaj nakrájané paradajky a var odkryté päť minút. Dochuť soľou a korením.",
+  "Vyber bobkový list a podávaj s lyžicou kyslej smotany a kôprom."
+ ],
+ "tipy": "Šči sa v Rusku tradične nechá cez noc odstáť a až potom sa zohreje — kapusta zjemnie a chute sa spoja.",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "bezmäsité",
+  "kapusta",
+  "zelenina",
+  "lacné"
+ ]
+}

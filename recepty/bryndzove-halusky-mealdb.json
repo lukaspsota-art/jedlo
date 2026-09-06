@@ -1,0 +1,82 @@
+{
+ "id": "bryndzove-halusky-mealdb",
+ "nazov": "Bryndzové halušky so slaninou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Slovenská",
+ "zdroj": "TheMealDB – Bryndzové Halušky",
+ "zdroj_url": "https://www.themealdb.com/meal/53190",
+ "porcie": 4,
+ "cas": "50 min",
+ "kcal_na_porciu": 694,
+ "kcal_zdroj": "vypocet",
+ "popis": "Slovenské národné jedlo tak, ako ho pozná svet: zemiakové halušky, bryndza a vypečená slanina.",
+ "hlavna_surovina": "Bryndza",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bryndza",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "na kocky"
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Nastrúhaj zemiaky najemno aj so šťavou, ktorú pustia.",
+  "Zamiešaj do nich múku, vajce a soľ na lepkavé, ale tvarovateľné cesto.",
+  "Uvar vo veľkom hrnci osolenú vodu a preteláčaj cesto cez haluškovač priamo do vriacej vody.",
+  "Vyber halušky dierovanou lyžicou, keď vyplávajú na hladinu — trvá to dve až tri minúty.",
+  "Opeč slaninu na panvici dochrumkava a nechaj ju aj s výpekom bokom.",
+  "Zmiešaj horúce halušky s bryndzou, kým sa neobalia do krému, a posyp slaninou a pažítkou."
+ ],
+ "tipy": "Bryndzu rozmiešaj s dvoma lyžicami horúcej vody z haluškov — krém bude hladší a nezrazí sa. Halušky miešaj s bryndzou mimo ohňa.",
+ "foto": "",
+ "tagy": [
+  "bravčové",
+  "zemiaky",
+  "syr",
+  "slovenská kuchyňa",
+  "tradičné"
+ ]
+}

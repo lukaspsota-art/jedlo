@@ -1,0 +1,80 @@
+{
+ "id": "chlebova-omeleta",
+ "nazov": "Chlebová omeleta",
+ "kategoria": "Raňajky",
+ "kuchyna": "Indická",
+ "zdroj": "TheMealDB – Bread omelette",
+ "zdroj_url": "https://www.themealdb.com/meal/53076",
+ "porcie": 2,
+ "cas": "15 min",
+ "kcal_na_porciu": 353,
+ "kcal_zdroj": "vypocet",
+ "popis": "Indické pouličné raňajky: toastový chlieb zapečený vo vajci s cibuľou a chilli.",
+ "hlavna_surovina": "Vajcia",
+ "narocnost": "jednoduchá",
+ "ingrediencie": [
+  {
+   "nazov": "Toastový chlieb",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "nadrobno"
+  },
+  {
+   "nazov": "Chilli paprička",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nadrobno"
+  },
+  {
+   "nazov": "Koriandrová vňať",
+   "mnozstvo": 5,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Rozšľahaj vajcia so soľou, nasekanou cibuľou, chilli papričkou a koriandrom.",
+  "Rozohrej na panvici olej a nalej naň polovicu vaječnej zmesi.",
+  "Vlož do ešte tekutej zmesi dva plátky chleba vedľa seba a jemne ich pritlač, nech sa obalia.",
+  "Opeč omeletu dve minúty, potom ju obráť aj s chlebom a dopeč z druhej strany dozlatista.",
+  "Zopakuj to so zvyškom zmesi a chleba a podávaj horúce."
+ ],
+ "tipy": "Chlieb pritlač do vajca hneď, kým je zmes tekutá — na zapečenej omelete sa už neudrží.",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "vajcia",
+  "rýchle",
+  "indická kuchyňa"
+ ]
+}

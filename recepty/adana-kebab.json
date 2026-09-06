@@ -1,0 +1,75 @@
+{
+ "id": "adana-kebab",
+ "nazov": "Adana kebab",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Turecká",
+ "zdroj": "TheMealDB – Adana kebab",
+ "zdroj_url": "https://www.themealdb.com/meal/53262",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 486,
+ "kcal_zdroj": "vypocet",
+ "popis": "Turecký grilovaný kebab z mletého jahňacieho s paprikovou pastou a chilli vločkami.",
+ "hlavna_surovina": "Jahňacie mäso",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Mleté jahňacie stehno",
+   "mnozstvo": 700,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kapia",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Ajvar",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Chilli vločky",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Nasekaj kapiu najemno a vytlač z nej v site čo najviac šťavy — mokrá zmes sa na ihle neudrží.",
+  "Zmiešaj mäso s kapiou, ajvarom, chilli vločkami, soľou a dvoma lyžicami oleja.",
+  "Miesi zmes aspoň tri minúty, kým nezačne byť lepkavá. Ruky si priebežne namáčaj v studenej vode.",
+  "Prikry misu a vychlaď zmes v chladničke aspoň dve hodiny.",
+  "Rozdeľ zmes na osem dielov a vytvaruj z nich okolo ihiel dvadsaťcentimetrové valce. Mokrými prstami sprav po dĺžke priehlbiny.",
+  "Griluj kebaby desať až dvanásť minút a priebežne ich otáčaj, kým nie sú zvonka chrumkavé."
+ ],
+ "tipy": "Bez vychladenia sa zmes z ihiel zošmykne. Ak nemáš ihly, vytvaruj podlhovasté fašírky a upeč ich na plechu pri 220 °C.",
+ "foto": "",
+ "tagy": [
+  "jahňacie",
+  "grilované",
+  "turecká kuchyňa",
+  "mleté mäso"
+ ]
+}

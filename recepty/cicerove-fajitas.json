@@ -1,0 +1,118 @@
+{
+ "id": "cicerove-fajitas",
+ "nazov": "Cícerové fajitas",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Mexická",
+ "zdroj": "TheMealDB – Chickpea Fajitas",
+ "zdroj_url": "https://www.themealdb.com/meal/52870",
+ "porcie": 4,
+ "cas": "35 min",
+ "kcal_na_porciu": 514,
+ "kcal_zdroj": "vypocet",
+ "popis": "Chrumkavo upečený cícer namiesto mäsa, k tomu guacamole, nakladaná cibuľa a harissová smotana.",
+ "hlavna_surovina": "Cícer",
+ "narocnost": "jednoduchá",
+ "ingrediencie": [
+  {
+   "nazov": "Cícer",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "scedený"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Mletá paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "červená, na tenké plátky"
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "červený vínny"
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Harissa",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tortilla",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Koriandrová vňať",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Osuš scedený cícer, zamiešaj ho s olejom a mletou paprikou a rozlož na plech.",
+  "Peč cícer na 200 °C dvadsať až dvadsaťpäť minút dochrumkava; v polovici plech pretras.",
+  "Zmiešaj nakrájané paradajky a cibuľu s octom a nechaj ich zatiaľ naložiť.",
+  "Roztlač avokádo vidličkou nahrubo, zamiešaj doň limetkovú šťavu a osoľ.",
+  "Rozmiešaj kyslú smotanu s harissou.",
+  "Opeč tortilly na suchej panvici z oboch strán a naplň ich smotanou, cícerom, guacamole, naloženou zeleninou a koriandrom."
+ ],
+ "tipy": "Cícer musí byť pred pečením naozaj suchý — vlhký sa upečie mäkký, nie chrumkavý.",
+ "foto": "",
+ "tagy": [
+  "bezmäsité",
+  "strukoviny",
+  "mexická kuchyňa",
+  "tortilla",
+  "rýchle"
+ ]
+}

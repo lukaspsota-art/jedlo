@@ -1,0 +1,81 @@
+{
+ "id": "jahnacie-souvlaki",
+ "nazov": "Jahňacie souvlaki s citrónom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Grécka",
+ "zdroj": "TheMealDB – Lamb and Lemon Souvlaki",
+ "zdroj_url": "https://www.themealdb.com/meal/53009",
+ "porcie": 4,
+ "cas": "30 min",
+ "kcal_na_porciu": 669,
+ "kcal_zdroj": "vypocet",
+ "popis": "Grécke špízy z jahňacieho marinovaného v citróne, cesnaku a kôpre. Marináda robí všetku prácu.",
+ "hlavna_surovina": "Jahňacie stehno",
+ "narocnost": "jednoduchá",
+ "ingrediencie": [
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 5,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Jahňacie stehno",
+   "mnozstvo": 750,
+   "jednotka": "g",
+   "poznamka": "na kocky"
+  },
+  {
+   "nazov": "Pita",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Roztlač cesnak so soľou na hladkú pastu.",
+  "Rozšľahaj olivový olej s citrónovou šťavou, nastrúhanou kôrou, nasekaným kôprom a cesnakovou pastou.",
+  "Zamiešaj do marinády kocky jahňacieho, prikry a marinuj aspoň dve hodiny, pokojne cez noc.",
+  "Vyber mäso z chladničky pol hodiny pred grilovaním a napichaj ho na ihly.",
+  "Griluj špízy na vysokom ohni dve až tri minúty z každej strany a priebežne ich potieraj zvyšnou marinádou.",
+  "Zohrej pity a naplň ich mäsom zo špízov."
+ ],
+ "tipy": "Drevené ihly namoč pred použitím na pol hodinu do vody, inak na grile zhoria.",
+ "foto": "",
+ "tagy": [
+  "jahňacie",
+  "grilované",
+  "grécka kuchyňa",
+  "marinované"
+ ]
+}

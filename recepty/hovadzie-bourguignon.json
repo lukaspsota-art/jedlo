@@ -1,0 +1,118 @@
+{
+ "id": "hovadzie-bourguignon",
+ "nazov": "Hovädzie Bourguignon",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Francúzska",
+ "zdroj": "TheMealDB – Beef Bourguignon",
+ "zdroj_url": "https://www.themealdb.com/meal/52904",
+ "porcie": 4,
+ "cas": "3 hod 30 min",
+ "kcal_na_porciu": 746,
+ "kcal_zdroj": "vypocet",
+ "popis": "Burgundský klasik: hovädzie dusené v červenom víne so slaninou, šalotkou a hubami. Chce čas, nie zručnosť.",
+ "hlavna_surovina": "Hovädzie mäso",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Hovädzie mäso",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": "na kocky"
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 350,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Červené víno",
+   "mnozstvo": 400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "zelerová buľva"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Osuš hovädzie mäso a opeč ho na oleji po dávkach dozlatista — v jednej vrstve, nie na kope, inak sa dusí namiesto pečenia.",
+  "Vyber mäso a v tom istom hrnci orestuj slaninu, šalotku a šampiňóny, kým nezhnednú. Pridaj cesnak a paradajkový pretlak a restuj ešte dve minúty.",
+  "Vráť mäso do hrnca, zalej červeným vínom a doplň vodou tak, aby mäso vykúkalo nad hladinu. Priveď k varu a zospodu zoškrab pripečenú šťavu.",
+  "Prikry a dus v rúre na 150 °C tri hodiny, kým sa mäso nerozpadá.",
+  "Olúp zeler, nakrájaj ho na kocky a opeč na olivovom oleji dozlatista. Pridaj tymian, rozmarín a bobkový list, podlej vodou a dus 25 minút domäkka.",
+  "Roztlač zeler na hrubé pyré, vyber z neho bylinky a podávaj pod hovädzím."
+ ],
+ "tipy": "Na druhý deň je to lepšie — mäso sa cez noc v omáčke dotiahne. Víno použi také, aké by si aj vypil.",
+ "foto": "",
+ "tagy": [
+  "hovädzie",
+  "dusené",
+  "francúzska kuchyňa",
+  "na víkend",
+  "jednohrncové"
+ ]
+}

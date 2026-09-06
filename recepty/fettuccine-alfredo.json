@@ -1,0 +1,75 @@
+{
+ "id": "fettuccine-alfredo",
+ "nazov": "Fettuccine Alfredo",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Talianska",
+ "zdroj": "TheMealDB – Fettuccine Alfredo",
+ "zdroj_url": "https://www.themealdb.com/meal/53064",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 678,
+ "kcal_zdroj": "vypocet",
+ "popis": "Tri suroviny, dvadsať minút: cestoviny, maslo a parmezán v smotanovej omáčke.",
+ "hlavna_surovina": "Fettuccine",
+ "narocnost": "jednoduchá",
+ "ingrediencie": [
+  {
+   "nazov": "Fettuccine",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "nastrúhaný"
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "nasekaný"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Uvar fettuccine v osolenej vode podľa návodu na obale a odlož si hrnček vody z varenia.",
+  "Rozohrej na širokej panvici smotanu s maslom, kým sa maslo nerozpustí a smotana nezačne bublať.",
+  "Vmiešaj metličkou nastrúhaný parmezán a dochuť soľou a čerstvo mletým korením.",
+  "Pridaj scedené cestoviny a premiešaj ich s omáčkou; podľa potreby prilej vodu z varenia, kým sa omáčka neprilepí na cestoviny.",
+  "Posyp petržlenom a podávaj hneď."
+ ],
+ "tipy": "Voda z varenia cestovín je to, čo omáčku spojí — bez nej sa parmezán zrazí do hrudiek. Panvicu pri miešaní stiahni z ohňa.",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "syr",
+  "rýchle",
+  "talianska kuchyňa",
+  "bezmäsité"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "id": "borsc-repna-polievka",
+ "nazov": "Boršč (repná polievka)",
+ "kategoria": "Polievka",
+ "kuchyna": "Ukrajinská",
+ "zdroj": "TheMealDB – Beetroot Soup (Borscht)",
+ "zdroj_url": "https://www.themealdb.com/meal/53078",
+ "porcie": 4,
+ "cas": "40 min",
+ "kcal_na_porciu": 344,
+ "kcal_zdroj": "vypocet",
+ "popis": "Ukrajinská repná polievka s fazuľou a zemiakmi. Sýta natoľko, že obed netreba dopĺňať.",
+ "hlavna_surovina": "Červená repa",
+ "narocnost": "jednoduchá",
+ "ingrediencie": [
+  {
+   "nazov": "Červená repa",
+   "mnozstvo": 500,
+   "jednotka": "g",
+   "poznamka": "na kocky"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 1400,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "na kocky"
+  },
+  {
+   "nazov": "Biele fazule",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": "z konzervy"
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Olúp červenú repu a nakrájaj ju na kocky.",
+  "Zalej repu vývarom a var pätnásť minút.",
+  "Pridaj zemiaky a olivový olej a var ďalších pätnásť minút, kým zemiaky nezmäknú.",
+  "Vmiešaj scedené fazule a nechaj polievku prejsť varom ešte päť minút.",
+  "Posyp nasekaným kôprom a podávaj rovno z hrnca."
+ ],
+ "tipy": "Kvapka octu alebo citrónovej šťavy na konci udrží farbu jasne červenú — bez nej repa do hneda vybledne.",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "bezmäsité",
+  "strukoviny",
+  "zelenina",
+  "lacné"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "id": "baba-ghanoush",
+ "nazov": "Baba ghanoush",
+ "kategoria": "Nátierka",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "TheMealDB – Baba Ghanoush",
+ "zdroj_url": "https://www.themealdb.com/meal/53094",
+ "porcie": 4,
+ "cas": "45 min",
+ "kcal_na_porciu": 203,
+ "kcal_zdroj": "vypocet",
+ "popis": "Sýrska nátierka z pečeného baklažánu s tahini, cesnakom a citrónom.",
+ "hlavna_surovina": "Baklažán",
+ "narocnost": "jednoduchá",
+ "ingrediencie": [
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 700,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Tahini",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Rasca rímska",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Petržlen",
+   "mnozstvo": 5,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Popichaj baklažány vidličkou a peč ich celé na 220 °C štyridsať minút, kým sa koža neodlepí a dužina nezmäkne.",
+  "Nechaj baklažány vychladnúť, prekroj ich a vyber dužinu lyžicou; kožu zahoď.",
+  "Nechaj dužinu odkvapkať v site aspoň desať minút — prebytočná voda by nátierku rozriedila.",
+  "Roztlač cesnak so soľou na pastu a zmiešaj ju s tahini, citrónovou šťavou a rímskou rascou.",
+  "Vmiešaj dužinu a rozotri všetko vidličkou; nátierka má zostať hrubá, nie hladká ako pyré.",
+  "Pokvapkaj olivovým olejom a posyp nasekaným petržlenom."
+ ],
+ "tipy": "Nátierku miešaj vidličkou, nie mixérom — rozmixovaná stratí štruktúru a chutí ako maz.",
+ "foto": "",
+ "tagy": [
+  "nátierka",
+  "bezmäsité",
+  "baklažán",
+  "blízkovýchodná kuchyňa",
+  "zelenina"
+ ]
+}
