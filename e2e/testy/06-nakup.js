@@ -17,7 +17,7 @@ module.exports = {
     await naplnPlan(page);
     await prepni(page, "nakup");
     const zoz = await page.evaluate(() => {
-      const oddelenia = [...document.querySelectorAll("#nakup-list .odd h4")].map((h) => h.textContent.trim());
+      const oddelenia = [...document.querySelectorAll("#nakup-list .odd h3")].map((h) => h.textContent.trim());
       return {
         oddelenia,
         polozky: document.querySelectorAll("#nakup-list label").length,
@@ -33,7 +33,7 @@ module.exports = {
     // ── poradie oddelení podľa PORADIE_ODDELENI ────────────────────────────
     const poradie = await page.evaluate(() => {
       const por = PORADIE_ODDELENI;
-      const zoznam = [...document.querySelectorAll("#nakup-list .odd h4")].map((h) => h.textContent.trim())
+      const zoznam = [...document.querySelectorAll("#nakup-list .odd h3")].map((h) => h.textContent.trim())
         .filter((n) => por.includes(n));
       const idx = zoznam.map((n) => por.indexOf(n));
       return { zoznam, idx, zoradene: idx.every((x, i) => i === 0 || idx[i - 1] < x), por };
@@ -55,7 +55,7 @@ module.exports = {
     const poZaskrtnuti = await page.evaluate(() => ({
       hotove: document.querySelectorAll("#nakup-list .done-sekcia label").length,
       kluce: Object.keys(S.nakupCheck).length,
-      maSekciu: [...document.querySelectorAll("#nakup-list .odd h4")].some((h) => /Už máme|v košíku/i.test(h.textContent)),
+      maSekciu: [...document.querySelectorAll("#nakup-list .odd h3")].some((h) => /Už máme|v košíku/i.test(h.textContent)),
     }));
     await t.ok(poZaskrtnuti.kluce === 1, "zaškrtnutie sa uloží do stavu", JSON.stringify(poZaskrtnuti));
     await t.ok(poZaskrtnuti.maSekciu, `zaškrtnutá položka („${menoPrveho}“) sa presunie do „Už máme / v košíku“`, JSON.stringify(poZaskrtnuti));
@@ -152,7 +152,7 @@ module.exports = {
     await page.waitForTimeout(200);
     const uplne = await page.evaluate((c) => {
       const r = nakupItems().find((x) => x.nazov === c.nazov);
-      return { vSpajzi: r && r.vSpajzi, sekcia: [...document.querySelectorAll("#nakup-list .odd h4")].some((h) => /Mám v špajzi/i.test(h.textContent)) };
+      return { vSpajzi: r && r.vSpajzi, sekcia: [...document.querySelectorAll("#nakup-list .odd h3")].some((h) => /Mám v špajzi/i.test(h.textContent)) };
     }, cielSur);
     await t.ok(uplne.vSpajzi === true && uplne.sekcia, "položka plne krytá špajzou ide do sekcie „Mám v špajzi“", JSON.stringify(uplne));
     await page.evaluate(() => { S.spajza = []; save(); renderNakup(); });
@@ -163,7 +163,7 @@ module.exports = {
       save(); renderNakup();
     });
     await page.waitForTimeout(150);
-    const low = await page.evaluate(() => [...document.querySelectorAll("#nakup-list .odd h4")].some((h) => /Doplniť zásoby/i.test(h.textContent)));
+    const low = await page.evaluate(() => [...document.querySelectorAll("#nakup-list .odd h3")].some((h) => /Doplniť zásoby/i.test(h.textContent)));
     await t.ok(low, "zásoba pod minimom sa objaví v sekcii „Doplniť zásoby“");
     await page.evaluate(() => { S.spajza = []; save(); renderNakup(); });
 

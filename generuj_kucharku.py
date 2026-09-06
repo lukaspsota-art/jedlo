@@ -9,6 +9,14 @@ Spusti: python3 generuj_kucharku.py
 """
 import argparse, base64, json, os, glob, datetime, re, shutil, subprocess, sys, tempfile, zlib
 
+# Windows konzola beží v cp1250 a padne na „→" v záverečnom výpise — súbor je vtedy už
+# zapísaný, ale build vráti nenulový kód a e2e/spusti.sh to vyhodnotí ako zlyhaný build.
+for _prud in (sys.stdout, sys.stderr):
+    try:
+        _prud.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 ZAKLAD = os.path.dirname(os.path.abspath(__file__))
 RECEPTY_DIR = os.path.join(ZAKLAD, "recepty")
 JEDALNICKY_DIR = os.path.join(ZAKLAD, "jedalnicky")

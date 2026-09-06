@@ -238,10 +238,19 @@ nič v ňom nemaže — odstránenie témy = zmazať blok.
   `--skala --cil --cil-in --r --r-mala --r-btn`.
   Staré tokeny (`--bg --panel --ink --muted --line --chip --accent --accent-fill
   --accent-dark --warn --gold`) sú na ne **premapované** — pôvodné CSS sa tým prefarbí naraz.
-- **Tmavá téma má dva vstupy:** výslovná voľba `body.dark` a systémové nastavenie
-  `@media(prefers-color-scheme:dark){ body:not(.svetla) }`. `applyVzhlad()` pridáva na `<body>`
-  triedu `svetla` ako STAMP — bez nej platí systém ešte pred spustením JS. Obe sady tokenov
-  musia byť identické; kontroluje to `scripts/kontrast_bloky.py`.
+- **Téma má TRI stavy** (`S.profil.temaAuto` + `S.profil.dark`, prepínač „Farebná téma"
+  v Nastaveniach): *podľa systému* (predvolené) nedá na `<body>` ANI JEDNU triedu, takže
+  rozhoduje `@media(prefers-color-scheme:dark){ body:not(.svetla) }` — a rozhoduje aj keď si
+  používateľ prepne tému telefónu neskôr. *Svetlá* a *tmavá* pečiatkujú `svetla` / `dark`
+  a systém tým prebijú. Do v26 bol `dark` iba boolean, takže `svetla` sa nastavilo každému,
+  kto si tmavú výslovne nezapol — systémová voľba sa preto uplatnila len pri úplne prvom
+  spustení a pri každom načítaní bol vidieť blik z tmavej do svetlej.
+  Migrácia: kto mal `dark:true`, ostáva na výslovnej voľbe.
+  Obe sady tokenov musia byť identické; kontroluje to `scripts/kontrast_bloky.py`.
+- **`body.dark .btn` (0,2,1) prebíja `.btn.primary` (0,2,0)** — preto má téma vlastné
+  `body.dark .btn.primary`. Bez neho je v tmavom režime primárne tlačidlo bajtovo zhodné
+  so sekundárnym a obrazovka stratí jedinú primárnu akciu. `kontrast_bloky.py` to nechytí:
+  obe farby sú čitateľné, len nesprávne.
 - `python3 scripts/kontrast_bloky.py` číta tokeny priamo zo šablóny a **padne**, ak niektorý
   pár klesne pod WCAG AA (obe témy + natrvalo tmavá plocha varenia). Spusti po každej zmene farieb.
 - **Farba nikdy nesmie byť jediný nosič informácie** (WCAG 1.4.1): ku každej farbe bloku patrí
@@ -289,10 +298,17 @@ Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, 
 
 **Meradlo (v26):** na 393×850 s naplneným plánom musí byť **prvé jedlo v Pláne a prvá položka
 v Nákupe viditeľné bez skrolovania vo všetkých štyroch režimoch hustoty** (`.botnav` začína na
-y ≈ 780). Namerané: Kompakt **410 / 290** · Plánovanie 483 / 356 · Obchod 621 / 436 ·
-Kuchyňa 704 / 512. Položiek nákupu nad prehybom: **9 / 5 / 4 / 1** — to je jediný dôvod, prečo
+y ≈ 780). Namerané: Kompakt **315 / 290** · Plánovanie 483 / 356 · Obchod 621 / 436 ·
+Kuchyňa 704 / 512. Položiek nákupu nad prehybom: **9 / 6 / 3 / 1** — to je jediný dôvod, prečo
 Kompakt existuje, a `08-mobil.js` to drží ako tvrdú kontrolu (`kompakt > plan`).
 V Kompakte sa tak na Pláne zmestí celý deň (raňajky · obed · večera · snack) na jednu obrazovku.
+
+**Kompakt je informačný režim, nie zmenšenina (v26).** Dovtedy to bol iba `zoom:.82` a skrytý
+nadpis — tie isté informácie, menšie písmo. Miesto, ktoré zoom ušetrí, sa vracia ako DÁTA:
+bunka plánu ukazuje `.pc-data` (bielkoviny + cena na porciu), skrýva sa odkaz „plán varenia →"
+(akcia, je v `⋯ Viac`) a pás `#rozvrh-pas` (nastavovanie, je v `⋯ Viac → 🍳 Rozvrh varenia`),
+a bunky sú tesnejšie. **Hlavička bloku si drží písmeno, názov aj varný deň — to je obsah.**
+Ostatné tri režimy sa nemenia. Ak pridávaš do bunky ďalší údaj, patrí do `.pc-data`.
 
 **Značka a prepínač hustoty sú na telefóne na JEDNOM riadku.** Riadok so značkou bol 50 px
 dekorácie na každej obrazovke; `.side .brand` má na mobile `font-size:0`, takže slovo „Kuchárka"
@@ -306,9 +322,12 @@ platí pre **všetky štyri režimy**, nielen pre Kompakt.
   v Kuchyni je na telefóne skrytý celý (pri sporáku rozvrh nenastavuješ).
 - `tr.ctrl-row` (👥 stravníci + ikonky jedál dňa) je na telefóne skrytá, otvára ju
   `prepniPlanCtrl()` z „⋯ Viac" (`body.plan-ctrl`).
-- `#v-nakup` je na telefóne `display:flex;flex-direction:column` + `order` — pole „Pridať vlastnú
-  položku" a panely „Mám doma"/„Trasa obchodom" sú POD zoznamom. Pravidlo musí byť na
-  `#v-nakup.view.active`, inak by bol pohľad viditeľný vždy.
+- **V Nákupe je `#nakup-list` v DOM-e PRED ovládaním** — pole „Pridať vlastnú položku"
+  a panely „Mám doma"/„Trasa obchodom" sú za ním. Do v26 to robilo CSS `order:8/9`, čím sa
+  tab rozišiel s vizuálnym poradím o ~5400 px (WCAG 1.3.2): klávesnica prešla cez štyri
+  ovládacie prvky skôr, než sa dostala k prvej položke. **`order` sem už nepridávaj** —
+  ani pre desktop, kde by to zaviedlo tú istú chybu, len o pár stoviek px.
+  Cena: „Mám doma" je pod zoznamom aj na počítači.
 - Súhrn nákupu má sekundárne údaje v `<details class="suhrn-viac">`; `renderNakup` mu dáva
   `open` len na počítači (`jeMobil()`).
 - **Nič sa neskrýva bez náhrady.** Všetko skryté je dosiahnuteľné z „⋯ Viac" alebo rozbaľovacím
@@ -486,14 +505,35 @@ RecipeTin Eats 5 · iné ~15.
 - **Vláknina 22,9 g/deň bola chyba merania, nie méta.** Ťahal ju jeden recept s kilogramom
   chleba na porciu. Skutočnosť je ~18,5 g ⟳ proti odporúčaným 25–30.
 
-## Stav a otvorené veci (31. 8. 2026)
-Všetkých 10 testovacích sád je zelených (264 kontrol), `test_regresie.js` hlási **0 otvorených
-chýb**, E2E sada v prehliadači prechádza, `kontrast_bloky.py` je OK, build padá na všetkých
-6 nebezpečných vstupoch. Audit z 18. 8. (`AUDIT_KUCHARKA_2026-08-18.md`) je vyriešený celý;
-z UI auditu z 19. 8. (`AUDIT_UI_2026-08-19.md`) sú **všetky štyri P1 opravené** — karty receptov
-aj bunky plánu sú dosiahnuteľné klávesnicou a mriežka sa kreslí po dávkach 60, nie naraz.
+## Stav a otvorené veci (6. 9. 2026)
+Všetkých 10 testovacích sád je zelených (268 kontrol), `test_regresie.js` hlási **0 otvorených
+chýb**, E2E 397/399 (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`),
+`kontrast_bloky.py` je OK, build padá na všetkých 6 nebezpečných vstupoch.
+
+**Mobilný UX audit zo 6. 9. 2026** (`.impeccable/critique/2026-09-06T14-25-35Z__kucharka-html.md`,
+Nielsen 24/40, technický audit 12/20) — opravené v tej istej vlne:
+- Kompakt je informačný režim (bunka plánu nesie bielkoviny a cenu, prvé jedlo 410 → **315 px**)
+- Domov ukazuje „Dnešný plán" a „Čo dnes ješ" v prvom viewporte (563 → **142 px** v Kompakte)
+- panel „Filtre a radenie" sa už nevykresľuje mimo obrazovky (`.f-body` mala `flex:1;min-width:0`,
+  takže sa zmrštila na 28 px a selecty visel za pravým okrajom — WCAG 1.4.10)
+- téma má tri stavy, systémový tmavý režim funguje aj po prvom spustení a zmizol blik
+- v tmavom režime je primárne tlačidlo opäť odlíšené od sekundárneho
+- poradie tabovania v Nákupe sedí s vizuálnym (bolo o ~5400 px vedľa)
+- fokus vchádza do režimu varenia; graf Výživy je celý dostupný klávesnicou (7 dní, bolo 1)
+- `::placeholder` má farbu (v tmavom mal 3,60:1); graf Výživy nepreteká v Kuchyni
+- nadpisy oddelení sú `h3`, nie `h4` (h2→h4 preskakovalo úroveň); appka má `h1` a `role="main"`
+- dialóg „Aké jedlo?" ponúka 4 návrhy s dôvodom namiesto 12 kategórií; „Použiť na celý blok"
+  už nie je predzaškrtnuté
+- makrá v gramoch sa zobrazujú na celé čísla (`fmtG`), nie na dve desatinné miesta
+- `generuj_kucharku.py` a `scripts/kontrola_tajomstiev.py` už nepadajú na Windows konzole
 
 Otvorené je toto:
+
+0. **`docs/sync-config.js` s reálnym Supabase URL a anon JWT je commitnutý a na GitHub Pages**
+   (commit `5c60e5b`, vedome). `.gitignore` sa na trackovaný súbor nevzťahuje. Riziko závisí
+   **výhradne od RLS policies** na projekte; zdieľané `id` je v commitnutej kópii prázdne.
+   `generuj_kucharku.py:545` tvrdí opak („je v .gitignore aj v docs/") a treba to opraviť.
+   Poistka `kontrola_tajomstiev.py` teraz na Windows dobehne a hlási **4 nálezy**, nie 0.
 
 1. **Najčastejší snack sa objaví 6–7× za 30 týždňov ⟳**, cieľ je 3×. Nie je to chyba výberu:
    210 snackových dní by si vyžiadalo pamäť ~70 ťahov, ale `_uplatniPamat` nesmie vyprázdniť
@@ -511,9 +551,10 @@ Otvorené je toto:
    doménového pravidla (4 bloky, alebo 2 varianty na slot v bloku), čo je produktové rozhodnutie.
 5. **`recepty/fotky/` má 59 osirelých fotiek** (patria receptom zmazaným pri čistke dát).
    Vyčistiť priečinok aj `ZDROJE.json`.
-6. **Verzia sa hlási na troch miestach a nesedí.** `app.js` má `VERZIA = "v20"` (a `sw.js` z nej
-   odvodzuje názov cache), `CHANGELOG.md` je na v25, dizajn je „Bloky v24". Nastavenia teda
-   používateľovi ukazujú „v20". Treba jeden zdroj pravdy (napr. placeholder v šablóne).
+6. **Verzia sa hlási na ŠTYROCH miestach a žiadne dve nesedia.** `app.js` má `VERZIA = "v20"`
+   (to vidí používateľ v Nastaveniach), `sw.js` má vlastné `VERZIA = "v19"` (názov cache),
+   `CHANGELOG.md` je na v25, dizajn je „Bloky v24". Treba jeden zdroj pravdy
+   (napr. placeholder `__VERZIA__` v šablóne aj v `sw.js`).
 7. **`data/app.js` má 345 KB / 3874 riadkov** — rozdelenie na moduly + spájanie v generátore je
    stále otvorené; pozor na poradie top-level `const`-ov (funkcie sú hoistnuté, konštanty nie).
 8. **Nové top-level konštanty nie sú v `EXPORT_TAIL`** (`_memoMaso`, `_memoBaza`, `GEN_SK`,
@@ -526,11 +567,30 @@ Otvorené je toto:
 11. **`zjednotBloky()`** („Zjednotiť bloky" v UI) skopíruje prvý deň bloku na ostatné **vrátane
     snacku**, čím zruší per-denné snacky. Je to výslovná voľba používateľa a `nejednotneBloky()`
     ju sama neponúka, ale je to nekonzistentné.
-12. **Šesť implementácií „obsahuje túto surovinu".** Nákup a zakázané suroviny zdieľajú
-    `obsahujeSurovinu`, ale „Čo mám doma", `pridajChybajuceDoNakupu`, `spajzaSedi`, `odpisRecept`
-    a `expBoost`/`jeVakcii`/`jeWatch` majú vlastné varianty. Dôsledok: to isté slovo funguje
-    v Nákupe a nefunguje v „Čo mám doma".
+12. **OSEM implementácií „obsahuje túto surovinu"** (premerané 6. 9., dovtedy uvádzaných šesť):
+    `najdiPotravinu`, `skoreReceptu`, `jeVakcii`, `jeWatch`, `obsahujeSurovinu`, `spajzaSedi`,
+    `pridajChybajuceDoNakupu`, `expBoost`/`odpisRecept`. `jeVakcii` a `jeWatch` sú **doslovné
+    kópie** — zlúčiť na `_maToken(r, tokeny)`. Dôsledok: to isté slovo funguje v Nákupe
+    a nefunguje v „Čo mám doma".
 13. **Import receptu z fotky/textu/odkazu appka nemá** — nie je v nej parser JSON-LD ani OCR.
     Appka má ručný formulár „+ Nový recept" (aj s fotkou z mobilu cez `nrFotoZmena`, canvas
     320×180 WebP, nič sa neposiela von). Import robí Claude mimo appky — píš to tak všade.
 14. **`.ics` export plánu** chýba (tlačidlo v menu v šablóne + ~20 riadkov).
+15. **Modály nemajú `role="dialog"`, `aria-modal` ani focus trap** (overených 6 kontajnerov).
+    Fokus dovnútra ide (`_fokusDoModalu`) a vracia sa (`_vratFokus`), ale nič ho tam nedrží:
+    desiaty Tab v detaile receptu vypadne na `body` a číta obsah za prekrytím (WCAG 4.1.2 A).
+    Najlacnejšie: `role="dialog" aria-modal="true" aria-labelledby` + cyklenie Tabu
+    v existujúcom keydown listeneri. Alternatíva s nulovým JS: natívny `<dialog>` + `showModal()`.
+16. **Pri 320 px v Kuchyni (1,5×) preteká Domov +10, Nákup +4 a Výživa +37 px.** Na cieľových
+    393 aj 360 px je pretečenie nulové vo všetkých štyroch režimoch. Vzor je vždy ten istý —
+    `flex:1` bez `min-width:0`; oplatí sa prejsť zvyšné výskyty v šablóne.
+17. **Poistky merajú deklarácie, nie vyrenderovanú stránku.** Tri P1 zo 6. 9. prešli cez zelenú
+    sadu 268 kontrol: `kontrast_bloky.py` číta tokeny (neuvidí `::placeholder`, ani že sa celá
+    tmavá sada nepoužije), `test_ux.js` stráži z-index dialógu nad varením (ale nie fokus doň).
+    Chýba sonda nad `getComputedStyle` skutočne vykreslenej stránky — E2E harness na to existuje,
+    sú to ~40 riadkov. Bez nej sa tá istá trieda chýb vráti.
+18. **`.odd` sekcie v Nákupe majú layoutovú škatuľu aj zavreté.** Obsah zavretého
+    `<details class="odd">` sa nekreslí ani netrafí kliknutím a Tab ho preskočí
+    (`content-visibility:hidden`), ale `getBoundingClientRect()` naň vracia nenulový obdĺžnik
+    mimo rodiča. Nie je to chyba pre používateľa — je to pasca pre merací skript.
+    Sondy na poradie fokusu preto píš cez **skutočný Tab**, nie cez `querySelectorAll` + rect.

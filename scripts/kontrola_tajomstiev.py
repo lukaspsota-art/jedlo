@@ -12,6 +12,14 @@ Vráti 1, ak niečo našiel — dá sa zavesiť do CI alebo pre-commit hooku.
 """
 import os, re, sys, subprocess
 
+# Bez tohto padne poistka na Windows konzole (cp1250) na znaku „⛔" skôr, než stihne
+# nález vypísať — čiže presne vtedy, keď niečo našla.
+for _prud in (sys.stdout, sys.stderr):
+    try:
+        _prud.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 ZAKLAD = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Súbory, ktoré sa smú (a majú) prehľadať. Binárky a fotky preskakujeme.

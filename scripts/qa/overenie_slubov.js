@@ -85,7 +85,7 @@ function vysledok(c, stav, popis) { V.push({ c, stav, popis }); console.log(`${S
     window.prepni("nakup"); window.renderNakup();
     return {
       polozky: document.querySelectorAll("#nakup-list .nak-row").length,
-      oddelenia: [...document.querySelectorAll("#nakup-list .odd h4")].map(h => h.textContent.trim()),
+      oddelenia: [...document.querySelectorAll("#nakup-list .odd h3")].map(h => h.textContent.trim()),
       daSaPrestavit: typeof window.otvorPoradieOddeleni === "function" || !!document.querySelector("[onclick*='oradieOdd']"),
     };
   });

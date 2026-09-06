@@ -141,7 +141,7 @@ const P = (s) => console.log(s);
   });
   P("2.2 súhrn nákupu: " + suhrn);
 
-  const oddelenia = await p.evaluate(() => [...document.querySelectorAll("#nakup-list .odd h4, #nakup-list details summary")].map(h => h.textContent.replace(/\s+/g, " ").trim()));
+  const oddelenia = await p.evaluate(() => [...document.querySelectorAll("#nakup-list .odd h3, #nakup-list details summary")].map(h => h.textContent.replace(/\s+/g, " ").trim()));
   P("2.3 oddelenia: " + JSON.stringify(oddelenia));
 
   // odškrtávanie jednou rukou: kde sú riadky voči palcu, či ich neprekrýva spodná lišta

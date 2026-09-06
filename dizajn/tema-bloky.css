@@ -87,7 +87,7 @@
        font-family:'Instrument Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
        -webkit-tap-highlight-color:rgba(14,90,112,.16)}
   /* Archivo je premenlivý font (400–800) — nadpisy nesú váhu 800, čísla 600 */
-  .side .brand,h2.h,.panel h3,h4.sekcia,.odd h4,.card h3,.modal .hero h2,.tile .val,
+  .side .brand,h2.h,.panel h3,h3.sekcia,.odd h3,.card h3,.modal .hero h2,.tile .val,
   details.panel > summary,.dnes .nm,.rozvrh-nadpis,.odd.zaklady>summary,.nakup-suhrn b,
   table.plan th,table.plan td.slotname,.plan-cell .nm,.polozka .nm,.znak,.rezimy button{
     font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:800;letter-spacing:-.015em}
@@ -157,8 +157,8 @@
   /* ── TYPOGRAFIA STRÁNKY ────────────────────────────────────────────── */
   h2.h{font-size:30px;line-height:1.06;letter-spacing:-.025em;margin:0 0 4px;color:var(--text)}
   .sub{color:var(--text2);font-size:14.5px;margin:0 0 20px}
-  .panel h3,h4.sekcia,.odd h4,details.panel > summary{color:var(--text)}
-  h4.sekcia,.odd h4{border-bottom:2px solid var(--text);padding-bottom:6px}
+  .panel h3,h3.sekcia,.odd h3,details.panel > summary{color:var(--text)}
+  h3.sekcia,.odd h3{border-bottom:2px solid var(--text);padding-bottom:6px}
   .odd.zaklady>summary{color:var(--text);border-bottom:2px solid var(--text)}
   .tile .val{color:var(--text);font-size:26px;letter-spacing:-.02em}
   .tile .lbl{color:var(--text2)}
@@ -170,6 +170,13 @@
   .btn:hover{background:var(--tint)}
   .btn.primary{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku);font-weight:800}
   .btn.primary:hover{filter:brightness(1.08)}
+  /* `body.dark .btn` (0,2,1) prebíja `.btn.primary` (0,2,0), takže bez tohto pravidla je
+     v tmavom režime primárne tlačidlo bajtovo zhodné so sekundárnym a obrazovka stratí
+     jedinú primárnu akciu. Špecificita 0,3,1 vyhráva nad oboma. */
+  body.dark .btn.primary{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku)}
+  /* Placeholder nemal žiadny token a dedil UA default #757575 → v tmavom režime 3,60:1.
+     opacity:1 je nutné, Firefox inak pridá vlastných 0,54. */
+  ::placeholder{color:var(--text2);opacity:1}
   .mini{background:var(--doska);border:1px solid var(--okraj);border-radius:var(--r-mala);color:var(--text)}
   .mini.on{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku)}
   .chip,.kol-tile{background:var(--doska);border:2px solid var(--okraj);border-radius:var(--r-mala);
@@ -269,7 +276,9 @@
   .tyzden-pas{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin:0 0 20px}
   .tyzden-pas .d{background:var(--doska);border:1px solid var(--linka);border-radius:var(--r-mala);
     padding:8px 3px;text-align:center;min-width:0}
-  .tyzden-pas .d.dnes{border-color:var(--text);border-width:2px}
+  /* outline namiesto border-width: border by zmenil layout a posunul obsah dnešnej bunky
+     o 17–33 px nadol, takže jej blokový pásik skončil zalepený o spodný okraj. */
+  .tyzden-pas .d.dnes{border-color:var(--text);outline:2px solid var(--text);outline-offset:-2px}
   .tyzden-pas .kc{display:block;font-family:'Archivo',Arial,sans-serif;font-weight:800;
     font-variant-numeric:tabular-nums;font-size:15px;line-height:1.1;color:var(--text)}
   .tyzden-pas .dn{display:block;font-size:11.5px;color:var(--text2);margin-top:1px}
@@ -402,7 +411,35 @@
   :root[data-rezim="kuchyna"] #v-planovac > h2.h,
   :root[data-rezim="kuchyna"] #v-planovac > .sub,
   :root[data-rezim="kuchyna"] #v-nakup > h2.h,
-  :root[data-rezim="kuchyna"] #v-nakup > .sub{display:none}
+  :root[data-rezim="kuchyna"] #v-nakup > .sub,
+  /* Domov: pozdrav („Dobrý deň, Ja") a „aktualizované …" sú 130 px, ktoré nič nehovoria.
+     V DOM-e ostávajú kvôli čítačkám, len sa v hustých režimoch nekreslia — presne
+     ako h2/.sub na Pláne a v Nákupe. V Plánovaní sú späť. */
+  :root[data-rezim="kompakt"] #v-domov > h2.h,
+  :root[data-rezim="kompakt"] #v-domov > .sub,
+  :root[data-rezim="obchod"] #v-domov > h2.h,
+  :root[data-rezim="obchod"] #v-domov > .sub,
+  :root[data-rezim="kuchyna"] #v-domov > h2.h,
+  :root[data-rezim="kuchyna"] #v-domov > .sub{display:none}
+
+  /* ── KOMPAKT = INFORMAČNÝ REŽIM, nie zmenšenina ──────────────────────────
+     Kompakt bol dovtedy iba `zoom:.82` + skrytý nadpis: rovnaké informácie, menšie
+     písmo. Miesto, ktoré zoom ušetrí, sa tu vracia ako DÁTA, nie ako vzduch.
+     Ostatné tri režimy sa nemenia. */
+  /* bielkoviny a cena na porciu priamo v bunke plánu */
+  .pc-data{display:none}
+  :root[data-rezim="kompakt"] .pc-data{display:block;font-size:11.5px;color:var(--text2);
+    font-variant-numeric:tabular-nums;margin-top:1px;line-height:1.25}
+  /* Hlavička bloku si drží písmeno, názov aj varný deň — to je obsah. Ide preč len
+     odkaz „plán varenia →", čo je akcia, a tá je v „⋯ Viac". Ušetrí riadok × 3 bloky. */
+  :root[data-rezim="kompakt"] table.plan .blok-hlava .plan-varenia{display:none}
+  /* Pás rozvrhu je nastavovanie, nie obsah. Dostupný ostáva z „⋯ Viac → 🍳 Rozvrh
+     varenia (bloky)", rovnako ako v Kuchyni, kde sa skrýva už dnes. */
+  :root[data-rezim="kompakt"] #rozvrh-pas{display:none}
+  /* tesnejšie bunky: ušetrené riadky idú na ďalší deň, nie na medzery */
+  :root[data-rezim="kompakt"] table.plan td{padding:3px}
+  :root[data-rezim="kompakt"] .plan-cell{padding:6px 7px}
+  :root[data-rezim="kompakt"] .tyzden-pas{margin-bottom:10px}
 
   /* Zbaliteľné podrobnosti súhrnu nákupu. Na počítači ich renderNakup vypisuje
      s atribútom `open`, takže sa nič nemení; na telefóne sú zbalené. */
@@ -479,16 +516,16 @@
     table.plan tr.ctrl-row{display:none}
     body.plan-ctrl table.plan tr.ctrl-row{display:table-row}
     /* Nákup: pridávanie vlastnej položky a panely „Mám doma"/„Trasa obchodom"
-       nie sú to, čo v obchode potrebuješ ako prvé — poradím idú POD zoznam.
-       Nič sa neskrýva, len sa to prestalo tlačiť pred prvú položku. */
-    #v-nakup.view.active{display:flex;flex-direction:column}
-    #v-nakup > h2.h{order:1}
-    #v-nakup > #nakup-kontext{order:2}
-    #v-nakup > #nakup-list{order:3}
-    #v-nakup > .plan-head{order:8;margin-top:18px}
-    #v-nakup > details.panel{order:9}
+       nie sú to, čo v obchode potrebuješ ako prvé — sú POD zoznamom.
+       Poradie dáva priamo DOM, takže tu `order` už netreba — a hlavne nesmie byť,
+       inak sa tab rozíde s vizuálnym poradím. Nič sa neskrýva. */
+    #v-nakup > .plan-head{margin-top:18px}
     .nakup-suhrn{gap:6px 14px;padding:10px 12px;font-size:13.5px}
     .suhrn-viac > summary{min-height:max(44px,var(--cil-in))}
   }
+  /* Na počítači sa `order` zámerne NEVRACIA: rozišlo by tab s vizuálnym poradím znova,
+     len o pár stoviek px namiesto tisícok — WCAG 1.3.2 platí v každom viewporte.
+     Cena je, že „Mám doma" je aj na počítači pod zoznamom. Telefón je hlavné
+     zariadenie a na počítači je skrolovanie lacné. */
   @media (prefers-reduced-motion:reduce){ *{transition:none!important;animation:none!important} }
   @media print{ body{background:#fff;color:#000} .content{zoom:1} }

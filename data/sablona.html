@@ -152,7 +152,7 @@
   .nutri div{background:#f3f8f4;border:1px solid #d9e6dd;border-radius:10px;padding:10px;text-align:center}
   .nutri b{display:block;font-size:18px;color:var(--accent-txt)}
   .nutri small{color:var(--muted);font-size:11px}
-  h4.sekcia{margin:20px 0 10px;color:var(--accent-txt);font-size:16px;border-bottom:2px solid var(--line);padding-bottom:6px}
+  h3.sekcia{margin:20px 0 10px;color:var(--accent-txt);font-size:16px;border-bottom:2px solid var(--line);padding-bottom:6px}
   table.ing{width:100%;border-collapse:collapse}
   table.ing td{padding:8px 6px;border-bottom:1px solid var(--line);font-size:15px}
   table.ing td.mn{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--accent-txt);font-weight:600}
@@ -278,13 +278,13 @@
   tr.suma td.over{color:var(--warn)}
   /* nákup / doma / výživa */
   .odd{margin-bottom:18px}
-  .odd h4{margin:0 0 8px;color:var(--accent-txt);font-size:15px;border-bottom:2px solid var(--line);padding-bottom:5px}
+  .odd h3{margin:0 0 8px;color:var(--accent-txt);font-size:15px;border-bottom:2px solid var(--line);padding-bottom:5px}
   .odd label{display:flex;gap:10px;padding:6px 4px;font-size:15px;cursor:pointer;align-items:center;justify-content:space-between}
   .odd label .nm2{display:flex;gap:10px;align-items:center}
   .odd label.checked .nm2{text-decoration:line-through;color:var(--muted)}
   .odd label .cena{color:var(--muted);font-size:13px;white-space:nowrap}
   .odd.done-sekcia{opacity:.7}
-  .odd.done-sekcia h4{color:var(--muted)}
+  .odd.done-sekcia h3{color:var(--muted)}
   .sur-klik{cursor:pointer;text-decoration:underline dotted;text-underline-offset:3px}
   /* P1 — nákup jednou rukou: celý riadok odškrtáva, „ⓘ" je samostatný cieľ.
      Riadok mal 361×38 px a odškrtlo ho len políčko 20×20 px. */
@@ -319,7 +319,10 @@
   .match .bar i{display:block;height:100%;background:var(--accent)}
   .info{color:var(--muted);font-size:13px}
   .chart{display:flex;align-items:flex-end;gap:10px;height:180px;padding:10px 0 0;border-bottom:2px solid var(--line)}
-  .chart .col{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end}
+  /* min-width:0 je nutné: bez neho default min-width:auto nedovolí stĺpcu zmenšiť sa pod
+     šírku obsahu a v Kuchyni (--skala 1,5) 7 stĺpcov pretečie stránku. Rovnaká pasca ako
+     .plan-topline > #plan-kontext nižšie. */
+  .chart .col{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end}
   .chart .bar2{width:70%;background:var(--accent);border-radius:6px 6px 0 0;min-height:2px;position:relative}
   .chart .bar2.over{background:var(--warn)}
   .chart .d{font-size:12px;color:var(--muted)}
@@ -412,7 +415,7 @@
     .side nav,.side .foot{display:none}
     .content{padding:16px 16px calc(90px + env(safe-area-inset-bottom))}
     .botnav{display:flex;position:fixed;left:0;right:0;bottom:0;background:var(--accent-dark);z-index:50;padding:6px 4px calc(6px + env(safe-area-inset-bottom));justify-content:space-around}
-    .botnav a{flex:1;color:#cfe0d6;text-decoration:none;text-align:center;font-size:10.5px;padding:6px 2px;border-radius:10px;cursor:pointer}
+    .botnav a{flex:1;color:#cfe0d6;text-decoration:none;text-align:center;font-size:12px;padding:6px 2px;border-radius:10px;cursor:pointer}
     .botnav a .ic{display:block;font-size:20px;margin-bottom:2px}
     .botnav a.active{color:#fff;background:rgba(255,255,255,.14)}
     .nutri{grid-template-columns:repeat(3,1fr)}
@@ -465,7 +468,9 @@
     #hladaj{min-width:0;flex:1 1 120px}
     .controls{padding:9px;margin-bottom:10px}
     .sub{margin-bottom:12px}
-    .f-body{display:none;width:100%}
+    /* flex:0 0 100% je nutné: základné .f-body má flex:1;min-width:0, a flex-basis:0%
+       prebíja width:100% → panel sa zmrští na ~28 px a selecty vypadnú za pravý okraj. */
+    .f-body{display:none;width:100%;flex:0 0 100%}
     .controls.f-open .f-body{display:flex}
     .f-body select.f{flex:1 1 calc(50% - 5px);min-height:44px}
   }
@@ -606,7 +611,7 @@
        font-family:'Instrument Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
        -webkit-tap-highlight-color:rgba(14,90,112,.16)}
   /* Archivo je premenlivý font (400–800) — nadpisy nesú váhu 800, čísla 600 */
-  .side .brand,h2.h,.panel h3,h4.sekcia,.odd h4,.card h3,.modal .hero h2,.tile .val,
+  .side .brand,h2.h,.panel h3,h3.sekcia,.odd h3,.card h3,.modal .hero h2,.tile .val,
   details.panel > summary,.dnes .nm,.rozvrh-nadpis,.odd.zaklady>summary,.nakup-suhrn b,
   table.plan th,table.plan td.slotname,.plan-cell .nm,.polozka .nm,.znak,.rezimy button{
     font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:800;letter-spacing:-.015em}
@@ -676,8 +681,8 @@
   /* ── TYPOGRAFIA STRÁNKY ────────────────────────────────────────────── */
   h2.h{font-size:30px;line-height:1.06;letter-spacing:-.025em;margin:0 0 4px;color:var(--text)}
   .sub{color:var(--text2);font-size:14.5px;margin:0 0 20px}
-  .panel h3,h4.sekcia,.odd h4,details.panel > summary{color:var(--text)}
-  h4.sekcia,.odd h4{border-bottom:2px solid var(--text);padding-bottom:6px}
+  .panel h3,h3.sekcia,.odd h3,details.panel > summary{color:var(--text)}
+  h3.sekcia,.odd h3{border-bottom:2px solid var(--text);padding-bottom:6px}
   .odd.zaklady>summary{color:var(--text);border-bottom:2px solid var(--text)}
   .tile .val{color:var(--text);font-size:26px;letter-spacing:-.02em}
   .tile .lbl{color:var(--text2)}
@@ -689,6 +694,13 @@
   .btn:hover{background:var(--tint)}
   .btn.primary{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku);font-weight:800}
   .btn.primary:hover{filter:brightness(1.08)}
+  /* `body.dark .btn` (0,2,1) prebíja `.btn.primary` (0,2,0), takže bez tohto pravidla je
+     v tmavom režime primárne tlačidlo bajtovo zhodné so sekundárnym a obrazovka stratí
+     jedinú primárnu akciu. Špecificita 0,3,1 vyhráva nad oboma. */
+  body.dark .btn.primary{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku)}
+  /* Placeholder nemal žiadny token a dedil UA default #757575 → v tmavom režime 3,60:1.
+     opacity:1 je nutné, Firefox inak pridá vlastných 0,54. */
+  ::placeholder{color:var(--text2);opacity:1}
   .mini{background:var(--doska);border:1px solid var(--okraj);border-radius:var(--r-mala);color:var(--text)}
   .mini.on{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku)}
   .chip,.kol-tile{background:var(--doska);border:2px solid var(--okraj);border-radius:var(--r-mala);
@@ -788,7 +800,9 @@
   .tyzden-pas{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin:0 0 20px}
   .tyzden-pas .d{background:var(--doska);border:1px solid var(--linka);border-radius:var(--r-mala);
     padding:8px 3px;text-align:center;min-width:0}
-  .tyzden-pas .d.dnes{border-color:var(--text);border-width:2px}
+  /* outline namiesto border-width: border by zmenil layout a posunul obsah dnešnej bunky
+     o 17–33 px nadol, takže jej blokový pásik skončil zalepený o spodný okraj. */
+  .tyzden-pas .d.dnes{border-color:var(--text);outline:2px solid var(--text);outline-offset:-2px}
   .tyzden-pas .kc{display:block;font-family:'Archivo',Arial,sans-serif;font-weight:800;
     font-variant-numeric:tabular-nums;font-size:15px;line-height:1.1;color:var(--text)}
   .tyzden-pas .dn{display:block;font-size:11.5px;color:var(--text2);margin-top:1px}
@@ -921,7 +935,35 @@
   :root[data-rezim="kuchyna"] #v-planovac > h2.h,
   :root[data-rezim="kuchyna"] #v-planovac > .sub,
   :root[data-rezim="kuchyna"] #v-nakup > h2.h,
-  :root[data-rezim="kuchyna"] #v-nakup > .sub{display:none}
+  :root[data-rezim="kuchyna"] #v-nakup > .sub,
+  /* Domov: pozdrav („Dobrý deň, Ja") a „aktualizované …" sú 130 px, ktoré nič nehovoria.
+     V DOM-e ostávajú kvôli čítačkám, len sa v hustých režimoch nekreslia — presne
+     ako h2/.sub na Pláne a v Nákupe. V Plánovaní sú späť. */
+  :root[data-rezim="kompakt"] #v-domov > h2.h,
+  :root[data-rezim="kompakt"] #v-domov > .sub,
+  :root[data-rezim="obchod"] #v-domov > h2.h,
+  :root[data-rezim="obchod"] #v-domov > .sub,
+  :root[data-rezim="kuchyna"] #v-domov > h2.h,
+  :root[data-rezim="kuchyna"] #v-domov > .sub{display:none}
+
+  /* ── KOMPAKT = INFORMAČNÝ REŽIM, nie zmenšenina ──────────────────────────
+     Kompakt bol dovtedy iba `zoom:.82` + skrytý nadpis: rovnaké informácie, menšie
+     písmo. Miesto, ktoré zoom ušetrí, sa tu vracia ako DÁTA, nie ako vzduch.
+     Ostatné tri režimy sa nemenia. */
+  /* bielkoviny a cena na porciu priamo v bunke plánu */
+  .pc-data{display:none}
+  :root[data-rezim="kompakt"] .pc-data{display:block;font-size:11.5px;color:var(--text2);
+    font-variant-numeric:tabular-nums;margin-top:1px;line-height:1.25}
+  /* Hlavička bloku si drží písmeno, názov aj varný deň — to je obsah. Ide preč len
+     odkaz „plán varenia →", čo je akcia, a tá je v „⋯ Viac". Ušetrí riadok × 3 bloky. */
+  :root[data-rezim="kompakt"] table.plan .blok-hlava .plan-varenia{display:none}
+  /* Pás rozvrhu je nastavovanie, nie obsah. Dostupný ostáva z „⋯ Viac → 🍳 Rozvrh
+     varenia (bloky)", rovnako ako v Kuchyni, kde sa skrýva už dnes. */
+  :root[data-rezim="kompakt"] #rozvrh-pas{display:none}
+  /* tesnejšie bunky: ušetrené riadky idú na ďalší deň, nie na medzery */
+  :root[data-rezim="kompakt"] table.plan td{padding:3px}
+  :root[data-rezim="kompakt"] .plan-cell{padding:6px 7px}
+  :root[data-rezim="kompakt"] .tyzden-pas{margin-bottom:10px}
 
   /* Zbaliteľné podrobnosti súhrnu nákupu. Na počítači ich renderNakup vypisuje
      s atribútom `open`, takže sa nič nemení; na telefóne sú zbalené. */
@@ -998,17 +1040,17 @@
     table.plan tr.ctrl-row{display:none}
     body.plan-ctrl table.plan tr.ctrl-row{display:table-row}
     /* Nákup: pridávanie vlastnej položky a panely „Mám doma"/„Trasa obchodom"
-       nie sú to, čo v obchode potrebuješ ako prvé — poradím idú POD zoznam.
-       Nič sa neskrýva, len sa to prestalo tlačiť pred prvú položku. */
-    #v-nakup.view.active{display:flex;flex-direction:column}
-    #v-nakup > h2.h{order:1}
-    #v-nakup > #nakup-kontext{order:2}
-    #v-nakup > #nakup-list{order:3}
-    #v-nakup > .plan-head{order:8;margin-top:18px}
-    #v-nakup > details.panel{order:9}
+       nie sú to, čo v obchode potrebuješ ako prvé — sú POD zoznamom.
+       Poradie dáva priamo DOM, takže tu `order` už netreba — a hlavne nesmie byť,
+       inak sa tab rozíde s vizuálnym poradím. Nič sa neskrýva. */
+    #v-nakup > .plan-head{margin-top:18px}
     .nakup-suhrn{gap:6px 14px;padding:10px 12px;font-size:13.5px}
     .suhrn-viac > summary{min-height:max(44px,var(--cil-in))}
   }
+  /* Na počítači sa `order` zámerne NEVRACIA: rozišlo by tab s vizuálnym poradím znova,
+     len o pár stoviek px namiesto tisícok — WCAG 1.3.2 platí v každom viewporte.
+     Cena je, že „Mám doma" je aj na počítači pod zoznamom. Telefón je hlavné
+     zariadenie a na počítači je skrolovanie lacné. */
   @media (prefers-reduced-motion:reduce){ *{transition:none!important;animation:none!important} }
   @media print{ body{background:#fff;color:#000} .content{zoom:1} }
   /* Bloky theme — end ------------------------------------------------------ */
@@ -1018,7 +1060,9 @@
 <a class="skip" href="#obsah" onclick="preskocNaObsah(event)">Preskočiť navigáciu</a>
 <div class="app">
   <aside class="side">
-    <div class="brand"><span class="znacka-bloky" aria-hidden="true"><i></i><i></i><i></i></span> Kuchárka</div>
+    <!-- h1, nie div: appka nemala žiadny h1 a každý pohľad začínal na h2. Na mobile má
+         .brand font-size:0, takže sa nekreslí, ale čítačkám obrazovky ostáva. -->
+    <h1 class="brand"><span class="znacka-bloky" aria-hidden="true"><i></i><i></i><i></i></span> Kuchárka</h1>
     <!-- Prepínač hustoty: štyri fyzické situácie, nie štyri appky (koncepcia B). -->
     <div class="rezimy" id="rezimy" role="group" aria-label="Režim použitia">
       <button type="button" data-rezim="kompakt" aria-pressed="false" onclick="nastavRezim('kompakt')" title="Kompakt — malý telefón, viac obsahu na obrazovku">Kompakt</button>
@@ -1039,15 +1083,19 @@
     </div>
   </aside>
 
-  <div class="main"><div class="content" id="obsah" tabindex="-1">
+  <!-- role="main" namiesto <main>: dá čítačkám ten istý landmark bez prepisovania
+       párovania <div> v celej šablóne. -->
+  <div class="main"><div class="content" id="obsah" tabindex="-1" role="main">
 
     <div class="view active" id="v-domov">
       <h2 class="h" id="pozdrav">Dobrý deň</h2>
       <p class="sub" id="datum-sub">aktualizované __DATUM__</p>
-      <div class="tiles" id="dash-tiles"></div>
+      <!-- Poradie Domova je zámerné: prvý viewport patrí tomu, PREČO sa appka otvára —
+           čo dnes variť a čo dnes ješ. Dlaždice s metrikami a panel „Pre koho varíš"
+           (čo sú nastavenia domácnosti, nie obsah) idú pod primárnu akciu. Predtým
+           „Dnešný plán" začínal na y≈563 a jeho obsah bol celý pod prehybom. -->
       <!-- pás týždňa: kcal na deň + farebný prúžok bloku (koncepcia B) -->
       <div class="tyzden-pas" id="dash-tyzden"></div>
-      <div class="panel" id="stravnici-panel"><h3>👥 Pre koho varíš</h3><div id="dash-stravnici"></div></div>
       <div class="panel" id="dnes-plan-panel"><h3>📅 Dnešný plán</h3><div id="dnes-plan"></div></div>
       <div class="panel" id="cotvarit-panel"><h3>Čo variť dnes?</h3><div class="dnes" id="dnes"></div></div>
       <div class="akcie">
@@ -1061,6 +1109,10 @@
         </div>
       </div>
       <div id="zvysky-out"></div>
+      <div class="tiles" id="dash-tiles"></div>
+      <!-- „Pre koho varíš" je nastavenie domácnosti, nie obsah dňa → zbaliteľný panel
+           ako každý iný sekundárny. Polia ostávajú v DOM aj zavreté, takže ulozProfil() ich vidí. -->
+      <details class="panel mob-zbal" id="stravnici-panel" open><summary>👥 Pre koho varíš</summary><div id="dash-stravnici"></div></details>
       <div class="panel" id="okno-panel"><h3>🕒 Okno jedenia</h3><div id="dash-okno" class="info"></div></div>
       <details class="panel mob-zbal" open><summary>Obľúbené</summary><div class="grid" id="dash-fav"></div></details>
       <details class="panel mob-zbal" open><summary>🧊 Špajza — spotrebuj čoskoro</summary><div id="dash-spajza" class="info"></div></details>
@@ -1130,6 +1182,11 @@
       <h2 class="h">Nákupný zoznam</h2>
       <p class="sub">Z receptov v pláne, zoradené podľa oddelení v obchode.</p>
       <div id="nakup-kontext"></div>
+      <!-- Zoznam je v DOM-e PRED ovládaním zámerne. Predtým ho mobil posúval nahor iba
+           cez CSS `order:8/9`, takže tab prešiel cez štyri prvky, ktoré sú fyzicky
+           o ~5400 px nižšie, než sa dostal k prvej položke (WCAG 1.3.2). Vizuálne
+           poradie na počítači vracia `order` v @media(min-width:821px). -->
+      <div id="nakup-list"></div>
       <div class="plan-head">
         <input class="f" id="nakup-manual" style="flex:1;min-width:200px" placeholder="Pridať vlastnú položku (napr. toaletný papier)…" onkeydown="if(event.key==='Enter')pridajNakupPolozku()">
         <button class="btn" onclick="pridajNakupPolozku()">+ Pridať</button>
@@ -1148,7 +1205,6 @@
       <details class="panel" ontoggle="if(this.open)renderTrasa()"><summary>🏪 Trasa obchodom</summary>
         <div id="trasa-box"></div>
       </details>
-      <div id="nakup-list"></div>
     </div>
 
     <div class="view" id="v-vyziva">
@@ -1210,7 +1266,12 @@
         <label class="switch"><input type="checkbox" id="p-kupsnack"> Preferovať kupované snacky</label>
       </details>
       <details class="panel"><summary>🎨 Zobrazenie a okno jedenia</summary>
-        <label class="switch"><input type="checkbox" id="p-dark"> Tmavý režim</label>
+        <label class="switch" style="gap:10px">Farebná téma
+          <select id="p-dark" class="mini" style="min-height:44px">
+            <option value="auto">Podľa systému</option>
+            <option value="svetla">Svetlá</option>
+            <option value="tmava">Tmavá</option>
+          </select></label>
         <label class="switch"><input type="checkbox" id="p-big"> Väčšie písmo</label>
         <label class="switch"><input type="checkbox" id="p-balenia"> Zobrazovať balenia v nákupe (v zátvorke)</label>
         <label class="switch"><input type="checkbox" id="p-okno"> Okno jedenia 16:8</label>
@@ -1276,7 +1337,7 @@
     <span style="display:flex;gap:10px;align-items:center">
       <label style="font-size:13px;display:flex;gap:6px;align-items:center"><input type="checkbox" id="cook-auto" onchange="cookAuto=this.checked"> hlas</label>
       <button class="btn" style="background:#333;color:#fff;border:none" onclick="citajKrok()">🔊 Prečítať</button>
-      <button class="btn" style="background:#333;color:#fff;border:none" onclick="zavriCook()">✕ Koniec</button>
+      <button class="btn close" style="background:#333;color:#fff;border:none" onclick="zavriCook()">✕ Koniec</button>
     </span>
   </div>
   <!-- pás krokov: koľko zostáva, viditeľné aj cez izbu (koncepcia B) -->
