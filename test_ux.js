@@ -348,6 +348,15 @@ ok("hľadanie chytí surovinu aj v inom páde, nie cudziu", () => {
   assert.ok(!app.hladaSedi(r, "losos"), "surovina, ktorá v recepte nie je");
 });
 
+ok("hľadanie viac surovín naraz je AND, nie OR", () => {
+  const app = novy();
+  const r = vloz(app, misa("v1b", "Letná misa"));
+  assert.ok(app.hladaSedi(r, "cicer paradajka"), "obe suroviny v recepte sú");
+  assert.ok(app.hladaSedi(r, "cicer, paradajka"), "oddeľovač čiarkou");
+  assert.ok(!app.hladaSedi(r, "cicer losos"), "druhá surovina chýba — AND musí zamietnuť");
+  assert.ok(app.hladaSedi(r, "letna misa"), "viacslovný názov ostáva nájditeľný");
+});
+
 ok("picker v pláne hľadá aj podľa suroviny a ukáže ktorá sedí", () => {
   const app = novy();
   const r = vloz(app, misa("v2", "Nedeľný obed"));

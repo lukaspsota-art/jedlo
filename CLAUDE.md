@@ -42,14 +42,14 @@ vygenerovanom JS. Keď padne, **`kucharka.html` sa neprepíše** — starý buil
 
 ## Ako overiť
 - Syntax JS: `node --check data/app.js`
-- Celá sada (po každej zmene `app.js`) — **10 sád, 264 pomenovaných kontrol**:
+- Celá sada (po každej zmene `app.js`) — **10 sád, 268 pomenovaných kontrol**:
   ```
   node test_vypocty.js && node test_generator.js && node test_nakup.js && node test_ux.js \
     && node test_prepocty.js && node test_porcie.js && node test_jednotky.js \
     && node test_parovanie.js && node test_pravidla.js && node test_odolnost.js
   node test_regresie.js     # 12 kontrol, MUSÍ hlásiť 0 otvorených chýb
   ```
-  (vypocty 35 · generator 16 · nakup 65 · ux 46 · jednotky 14 · parovanie 19 · pravidla 49 ·
+  (vypocty 35 · generator 16 · nakup 65 · ux 47 · jednotky 14 · parovanie 19 · pravidla 52 ·
   odolnost 20 · prepocty ✓ · porcie ✓)
 - **`test_regresie.js` je zoznam už opravených chýb**, nie bežný test. Každá kontrola vie,
   či má prejsť alebo padnúť; keď sa stav zmení, test to povie. Nulu treba udržať.
@@ -58,8 +58,11 @@ vygenerovanom JS. Keď padne, **`kucharka.html` sa neprepíše** — starý buil
   `const app = require("./test_harness").load({stav:{...}, seed:42}); app.vyzivaReceptu(...)`.
   Pozn.: harness číta `const`-y cez export na konci súboru — nové konštanty, ktoré má vidieť test,
   dopíš do `EXPORT_TAIL`.
-- **E2E v prehliadači:** `./e2e/spusti.sh` (Playwright + Chromium, ~380 kontrol; `e2e/testy/`
+- **E2E v prehliadači:** `./e2e/spusti.sh` (Playwright + Chromium, ~400 kontrol; `e2e/testy/`
   je 13 skupín od smoke po tlač). `e2e/screenshoty/` je výstup behu a je v `.gitignore`.
+  Na Windows bez stiahnutého Chromia: `PW_CHANNEL=msedge PY=py ./e2e/spusti.sh` (systémový Edge
+  + `py` namiesto `python3`). Pozn.: Edge nepreklápa `navigator.onLine` po `context.setOffline`,
+  takže jedna kontrola v `11-pwa.js` na ňom padne — vecné offline kontroly hneď za ňou prechádzajú.
 - Merania pred/po (výživa, cena, pravidlá generátora): `node scripts/metriky.js 30`
   — jeden seed je ilustrácia. **Na rozhodovanie používaj `node scripts/kvalita.js 24 8`**
   (N seedov × W týždňov), inak meriaš šum ±3 body.
@@ -169,6 +172,19 @@ názvu. Výsledok je cachovaný.
     luxus. V bežnom slote sa meria €/100 kcal; **v snackovom slote na PORCII** a s mediánovou
     poistkou — hotový výrobok má 60–150 kcal, takže €/100 kcal mu vyjde vysoké aj pri bežnej
     cene a strop by vyhodil presne skyr, šunku a tuniak, kvôli ktorým slot existuje.
+  - **Filter zdrojov (v26):** `S.profil.zdrojeOff` je „|"-oddelený zoznam vypnutých **rodín**
+    zdrojov; rodinu vyrába `zdrojRodina(r)` (prvý segment pred pomlčkou, bez zátvorky a bez
+    rímskeho dielu — z 2200 rôznych polí `zdroj` vypadne 23 rodín), zoznam pre wizard
+    `zdrojeList()`. Gate je v `_poolPreSlotVypocet`, **nie v `prejdeProfil`**: je to
+    *voliteľné* zúženie (`if(z.length)pool=z`), takže vypnutie všetkých zdrojov nenechá prázdny
+    deň, a v Receptoch sa vypnutý zdroj naďalej prezerá aj plánuje ručne. UI = chipy v sekcii
+    „📚 Zdroje receptov" v generátorovom wizarde; `toggleZdroj(i)` berie **index**, nie názov
+    (apostrof v názve zdroja by rozbil `onclick`).
+- Hľadanie (`hladaSedi`): najprv celý dopyt ako **frázu** nad haystackom (názov + popis + tagy +
+  ingrediencie), potom **AND cez tokeny** (`/[\s,;]+/`) — `kura ryza` aj `cicer, paradajka`
+  vracia recepty, ktoré majú OBE suroviny. Jednoslovný dopyt je preto bajt na bajt pôvodný.
+  Radenie v pickeri plánu stojí na `_vNazve` (zhoda v názve nad zhodou v surovinách) — obyčajné
+  `nazov.includes(q)` by pri dvojslovnom dopyte prestalo radiť.
 - Špajza: `S.spajza`, expirácie, min. zásoby → nákup, `odpisRecept` (FIFO podľa expirácie),
   `zasobaPlatna` (expirovaná ani záporná zásoba nezmenšuje nákup).
 - Nedeliteľné jednotky (ks/rožok/žemľa/plátok) sa zaokrúhľujú na celé, a to až na **súčte**
@@ -235,13 +251,14 @@ nič v ňom nemaže — odstránenie témy = zmazať blok.
 - **Znak bloku NA ploche bloku sa musí obrátiť** (`background:var(--na-bloku);color:var(--text)`),
   inak splynie — týka sa `.dnes-varenie-hero`, `table.plan th.blok-*` a `td.blok-hlava`.
 
-## Tri režimy hustoty (jadro koncepcie B)
-Prepínač **Plánovanie / Obchod / Kuchyňa** je v bočnom paneli (`#rezimy`, na mobile vlastný
-riadok pod značkou). Voľba žije v `S.profil.rezim` (je v `STAV_TYPY`, takže prežije aj poškodený
-stav), prežije reload a nastavuje na `<html>` atribút `data-rezim`, ktorý mení dva tokeny:
+## Štyri režimy hustoty (jadro koncepcie B)
+Prepínač **Kompakt / Plánovanie / Obchod / Kuchyňa** je v bočnom paneli (`#rezimy`, na mobile
+vlastný riadok pod značkou). Voľba žije v `S.profil.rezim` (je v `STAV_TYPY`, takže prežije aj
+poškodený stav), prežije reload a nastavuje na `<html>` atribút `data-rezim`, ktorý mení dva tokeny:
 
 | režim | `--skala` | `--cil` | situácia |
 |---|---|---|---|
+| Kompakt | 0,82 | 44 px | malý telefón, prehľad — čo najviac obsahu na obrazovku |
 | Plánovanie | 1,0 | 44 px | v pokoji, hustejšia informácia, tabuľka týždňa |
 | Obchod | 1,22 | 56 px | jedna ruka, košík v druhej, rýchle odškrtávanie |
 | Kuchyňa | 1,5 | 64 px | mastné ruky, telefón opretý, veľké písmo |
@@ -251,16 +268,37 @@ stav), prežije reload a nastavuje na `<html>` atribút `data-rezim`, ktorý men
   sa nezoomuje, aby fixed-position prvky nezmenili súradnicovú sústavu.
 - Preto sú vnútri zoomovanej plochy dotykové ciele `max(44px, var(--cil-in))`, kde
   `--cil-in = var(--cil) / var(--skala)`; mimo nej sa používa `--cil` priamo.
+- **Kompakt je jediný režim so `--skala` pod 1,0 a to obracia logiku dotykových cieľov.**
+  Čo stojí na `max(44px, var(--cil-in))`, je v poriadku samo (`--cil-in` = 44/0,82 = 53,6 px
+  → po zoome naspäť 44 fyzických px). Ohrozené je to, čo tam nestojí a má natvrdo 24 px:
+  text a ✕ v bunke plánu (`.pc-btn`, `.plan-cell .pc-x`) a odkazy-tlačidlá (`.lnk`).
+  Tie majú v Kompakte vlastnú podlahu **30 px** (30 × 0,82 = 24,6 fyzických px), a to
+  `min-height` **aj `min-width`** — zoom zmenšuje obe osi. Selektor tejto podlahy **musí
+  ostať úzky**: širšie `.content button` prebije `max(44px, var(--cil-in))` a chipy sa
+  ZMENŠIA zo 44 na 25 px. Ak by ju niekto prebil inline štýlom z `app.js`, selektorom sa to
+  už opraviť nedá — preto v `app.js` žiadne inline `min-height` nie je.
+  Kryje to `e2e/testy/08-mobil.js` (každý zo 4 režimov × 4 obrazovky, podlaha 24 px).
 - **Kuchyňa NEPREBÍJA režim varenia** — dopĺňa ho. Varenie sa otvára ako doteraz.
 - Režim Obchod skrýva na Nákupe nadpis, podtitul, riadok „+ Pridať / ⋯ Viac", panely
   „Mám doma"/„Trasa obchodom" a poznámku o pokrytí kalórií. V Plánovaní sú späť.
+- `h2.h` a `.sub` na Pláne a Nákupe skrýva **Kompakt, Obchod aj Kuchyňa** — jediný režim,
+  ktorý ich ukazuje, je Plánovanie. Ktorá obrazovka je otvorená, hovorí spodná lišta.
 
 ## Mobilné UI (mobil je hlavné zariadenie)
 Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, breakpoint je `820px`.
 
-**Meradlo (v25):** na 393×850 s naplneným plánom musí byť **prvé jedlo v Pláne a prvá položka
-v Nákupe viditeľné bez skrolovania vo všetkých troch režimoch hustoty** (`.botnav` začína na
-y ≈ 780). Namerané po oprave: Plánovanie 526 / 400 · Obchod 664 / 480 · Kuchyňa 748 / 555.
+**Meradlo (v26):** na 393×850 s naplneným plánom musí byť **prvé jedlo v Pláne a prvá položka
+v Nákupe viditeľné bez skrolovania vo všetkých štyroch režimoch hustoty** (`.botnav` začína na
+y ≈ 780). Namerané: Kompakt **410 / 290** · Plánovanie 483 / 356 · Obchod 621 / 436 ·
+Kuchyňa 704 / 512. Položiek nákupu nad prehybom: **9 / 5 / 4 / 1** — to je jediný dôvod, prečo
+Kompakt existuje, a `08-mobil.js` to drží ako tvrdú kontrolu (`kompakt > plan`).
+V Kompakte sa tak na Pláne zmestí celý deň (raňajky · obed · večera · snack) na jednu obrazovku.
+
+**Značka a prepínač hustoty sú na telefóne na JEDNOM riadku.** Riadok so značkou bol 50 px
+dekorácie na každej obrazovke; `.side .brand` má na mobile `font-size:0`, takže slovo „Kuchárka"
+ostáva čítačkám obrazovky, ale nekreslí sa — vidno len 3-blokové logo. `.rezimy` sa presunul
+z `order:3` na `order:0` a z `width:calc(100% - 20px)` na `flex:1 1 0`. Ušetrený celý riadok
+platí pre **všetky štyri režimy**, nielen pre Kompakt.
 - `p.sub` je na telefóne na Pláne a Nákupe skrytý; `h2.h` navyše v Obchode a Kuchyni.
 - `.plan-topline` drží navigáciu týždňa a prepínač Týždeň/Kalendár na jednom riadku;
   `#plan-kontext` má `flex:1 1 190px`, aby sa pri 1,5× zalomil prepínač, nie navigácia.
@@ -389,7 +427,7 @@ Cieľ ~1400–1450 kcal/os./deň. Pantry staples vždy do nákupu. RecipeTinEats
 - Pestrosť snackov sa neriadi kuchyňou (výrobky žiadnu nemajú), ale **druhom regálu**
   (`snackDruh`: ovocie / zelenina / mliečne / syr / mäso / orechy / sušené / pečivo / tyčinka /
   sladké / slané / nápoj).
-- Doménové pravidlá stráži `test_pravidla.js` (49 kontrol) na viacerých seedoch:
+- Doménové pravidlá stráži `test_pravidla.js` (52 kontrol) na viacerých seedoch:
   `SEEDS=1,2,3,7,42,99,555,20260818 TYZDNOV=6 node test_pravidla.js`.
 
 **Pozor na „soft constraints".** Filtre vo `vyberDoSlotu` majú tvar `if(p.length) pool=p` —

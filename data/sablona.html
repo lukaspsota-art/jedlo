@@ -543,8 +543,8 @@
     /* akcent = farba práve zobrazeného bloku (app.js ho prepisuje na <html>) */
     --akcent:var(--blok-b);
     --akcent-tlac:var(--blok-b);
-    /* hustota: tri situácie, v ktorých sa appka používa */
-    --skala:1;            /* plánovanie 1 · obchod 1,22 · kuchyňa 1,5 */
+    /* hustota: štyri situácie, v ktorých sa appka používa */
+    --skala:1;            /* kompakt 0,82 · plánovanie 1 · obchod 1,22 · kuchyňa 1,5 */
     --cil:44px;           /* najmenší dotykový cieľ (mimo zoomovanej plochy) */
     --cil-in:calc(var(--cil) / var(--skala));  /* to isté vnútri .content (zoom ho dorovná) */
     --r:16px; --r-mala:8px; --r-btn:12px; --radius:16px;
@@ -557,6 +557,20 @@
     --org-soft:#F1EEE7; --org-tint:var(--tint);
     color-scheme:light;
   }
+  /* režim KOMPAKT — prehľad na malom telefóne: viac obsahu na obrazovku.
+     --cil ostáva 44 px, takže --cil-in (44/0,82 = 53,6 px) po zoome dá naspäť
+     44 fyzických px — dotykové ciele sa NEZMENŠIA, len text a medzery. */
+  :root[data-rezim="kompakt"]{ --skala:.82; --cil:44px }
+  /* zoom < 1 zmenšuje aj ciele. Chipy, .btn a riadky nákupu to ustoja — stoja na
+     max(44px, var(--cil-in)) a --cil-in je v Kompakte 53,6 px. Podlahu nemajú len
+     textové ovládanie v bunke plánu (.pc-btn) a odkazy-tlačidlá (.lnk): v Plánovaní
+     sedia na 20–26 px a v Kompakte by klesli pod 24 px. 30 × 0,82 = 24,6 fyzických px.
+     Selektor MUSÍ ostať úzky — širšie `button` prebije max(44px,…) a chipy sa ZMENŠIA. */
+  :root[data-rezim="kompakt"] .content .pc-btn,
+  :root[data-rezim="kompakt"] .content .lnk{ min-height:30px }
+  /* ✕ a odkazy v bunke plánu stoja na 24 px aj ŠÍRKOU — tú zoom zmenší rovnako. */
+  :root[data-rezim="kompakt"] .content .plan-cell a,
+  :root[data-rezim="kompakt"] .content .plan-cell .pc-x{ min-width:30px }
   /* režim OBCHOD — jedna ruka, košík v druhej */
   :root[data-rezim="obchod"]{ --skala:1.22; --cil:56px }
   /* režim KUCHYŇA — mastné ruky, telefón opretý */
@@ -824,7 +838,8 @@
   /* znak bloku NA farebnej ploche bloku sa musí obrátiť, inak splynie */
   .dnes-varenie-hero .znak,table.plan td.blok-hlava .znak{background:var(--na-bloku);color:var(--text)}
   .dnes-varenie-hero .dnes-slot,.dnes-varenie-hero .info,.dnes-varenie-hero small{color:inherit;opacity:.9}
-  .dnes-varenie-hero .lnk{color:var(--na-bloku);text-decoration:underline}
+  .dnes-varenie-hero .lnk{color:var(--na-bloku);text-decoration:underline;
+    display:inline-flex;align-items:center;min-height:24px}
   /* pruh dní v dialógu rozvrhu nesie písmeno bloku, nielen farbu */
   .rozvrh-den .rd-p{display:inline-block;margin-left:4px;font-size:11px;font-weight:800;
     font-family:'Archivo',Arial,sans-serif;opacity:.75}
@@ -897,6 +912,10 @@
      pri výške 850 px nebolo vidieť ani jedno. Nadpis a podtitul sú vysvetlivky
      pre počítač; v Obchode ich Nákup už skrýval, teraz to isté platí pre Plán
      a v Kuchyni pre obe obrazovky. „Jedna primárna akcia na obrazovku." */
+  :root[data-rezim="kompakt"] #v-planovac > h2.h,
+  :root[data-rezim="kompakt"] #v-planovac > .sub,
+  :root[data-rezim="kompakt"] #v-nakup > h2.h,
+  :root[data-rezim="kompakt"] #v-nakup > .sub,
   :root[data-rezim="obchod"] #v-planovac > h2.h,
   :root[data-rezim="obchod"] #v-planovac > .sub,
   :root[data-rezim="kuchyna"] #v-planovac > h2.h,
@@ -920,9 +939,12 @@
      Vlastný @media, lebo mobilné pravidlá pôvodného CSS sú NAD týmto blokom. */
   @media(max-width:820px){
     .side{flex-wrap:wrap;border-right:0;border-bottom:2px solid var(--text);background:var(--doska)}
-    .side .brand{padding:12px 14px;font-size:17px;flex:1 1 auto}
-    /* flex-basis:100 % + vodorovné okraje = pretok o 20 px — šírku musí niesť calc() */
-    .rezimy{flex:0 0 auto;width:calc(100% - 20px);order:3;margin:0 10px 10px}
+    /* Značka a prepínač hustoty na JEDEN riadok. Samotný riadok značky bol 50 px
+       dekorácie na KAŽDEJ obrazovke; slovo „Kuchárka" ide preč (font-size:0 ho nechá
+       čítačkám obrazovky, len ho nekreslí — v PWA na celú obrazovku aj tak vieš, čo máš
+       otvorené), 3-blokové logo zostáva ako identita. Ušetrí to celý riadok. */
+    .side .brand{padding:0 0 0 10px;font-size:0;gap:0;flex:0 0 auto}
+    .rezimy{flex:1 1 0;width:auto;min-width:0;order:0;margin:8px 10px}
     .rezimy button{font-size:13px;padding:8px 4px}
     .botnav{background:var(--doska);border-top:2px solid var(--text);padding:4px 2px calc(4px + env(safe-area-inset-bottom))}
     .botnav a{color:var(--text2);font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:600;
@@ -997,8 +1019,9 @@
 <div class="app">
   <aside class="side">
     <div class="brand"><span class="znacka-bloky" aria-hidden="true"><i></i><i></i><i></i></span> Kuchárka</div>
-    <!-- Prepínač hustoty: tri fyzické situácie, nie tri appky (koncepcia B). -->
+    <!-- Prepínač hustoty: štyri fyzické situácie, nie štyri appky (koncepcia B). -->
     <div class="rezimy" id="rezimy" role="group" aria-label="Režim použitia">
+      <button type="button" data-rezim="kompakt" aria-pressed="false" onclick="nastavRezim('kompakt')" title="Kompakt — malý telefón, viac obsahu na obrazovku">Kompakt</button>
       <button type="button" data-rezim="plan" aria-pressed="true" onclick="nastavRezim('plan')" title="Plánovanie — hustejšia informácia, tabuľka týždňa">Plánovanie</button>
       <button type="button" data-rezim="obchod" aria-pressed="false" onclick="nastavRezim('obchod')" title="Obchod — jedna ruka, väčšie ciele, rýchle odškrtávanie">Obchod</button>
       <button type="button" data-rezim="kuchyna" aria-pressed="false" onclick="nastavRezim('kuchyna')" title="Kuchyňa — mastné ruky, veľké písmo">Kuchyňa</button>
@@ -1049,7 +1072,7 @@
       <p class="sub"><span id="pocet">__POCET__</span> receptov v kuchárke · <button class="lnk" onclick="novyRecept()">+ Nový recept</button></p>
       <datalist id="jedn-dl"><option value="g"></option><option value="ml"></option><option value="ks"></option><option value="ČL"></option><option value="PL"></option><option value="strúčik"></option><option value="štipka"></option><option value="hrsť"></option><option value="plátok"></option></datalist>
       <div class="controls" id="rec-controls">
-        <input id="hladaj" type="search" placeholder="Hľadať recept alebo surovinu…">
+        <input id="hladaj" type="search" placeholder="Hľadať recept alebo suroviny: kura, ryža…">
         <button class="btn f-toggle" id="f-toggle" aria-expanded="false" aria-controls="f-body" onclick="prepniFiltre()">⚙ Filtre a radenie <span class="cnt" id="f-cnt" hidden>0</span></button>
         <div class="f-body" id="f-body">
         <select class="f" id="f-kuchyna"><option value="">Všetky kuchyne</option></select>

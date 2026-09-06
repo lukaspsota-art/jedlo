@@ -486,5 +486,33 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
     assert.ok(por >= 7, "porcií na obed pre 7-dňový blok je len " + por);
   });
 
+  // Filter zdrojov (S.profil.zdrojeOff): vypnutý zdroj sa do plánu nedostane — ale je to
+  // VOLITEĽNÉ zúženie, takže vypnutie všetkého nesmie nechať prázdny deň.
+  {
+    const prof = { osoby: 2, kcal: CIEL, stravnici: [{ nazov: "A", kcal: CIEL }, { nazov: "B", kcal: CIEL }] };
+    const bez = novy(SEEDS[0], { profil: Object.assign({ zdrojeOff: "Varecha.sk" }, prof) });
+    await bez.generujJedalnicek(true);
+    const zdroje = bez.planovaneRecepty().map(r => bez.zdrojRodina(r));
+    ok("vypnutý zdroj sa do vygenerovaného týždňa nedostane", () => {
+      assert.ok(zdroje.length > 5, "plán je prázdny (" + zdroje.length + " receptov)");
+      assert.strictEqual(zdroje.filter(z => z === "Varecha.sk").length, 0,
+        "Varecha.sk je vypnutá, ale v pláne je " + zdroje.filter(z => z === "Varecha.sk").length + " jej receptov");
+    });
+    const vsetko = novy(SEEDS[0], { profil: Object.assign({}, prof) });
+    vsetko.S.profil.zdrojeOff = vsetko.zdrojeList().map(x => x[0]).join("|");
+    await vsetko.generujJedalnicek(true);
+    ok("vypnutie VŠETKÝCH zdrojov nevyprázdni plán (soft constraint)", () => {
+      assert.ok(vsetko.planovaneRecepty().length > 5,
+        "plán má len " + vsetko.planovaneRecepty().length + " receptov — zúženie zdrojov ho vyprázdnilo");
+    });
+    ok("rodina zdroja zlúči diely a autorov do jedného mena", () => {
+      const z = id => bez.zdrojRodina({ zdroj: id });
+      assert.strictEqual(z("Varecha.sk – Bravčový guláš (autor: redakcia)"), "Varecha.sk");
+      assert.strictEqual(z("Jíme zdravě s Fitrecepty III"), "Jíme zdravě s Fitrecepty");
+      assert.strictEqual(z("Kuchárka Jedlo — vlastný recept (vlna 5)"), "Kuchárka Jedlo");
+      assert.strictEqual(z(""), "(bez zdroja)");
+    });
+  }
+
   console.log("\nOK — " + bezov + " kontrol prešlo.");
 }).catch(e => { console.error(String(e.message || e.stack || e)); process.exit(1); });

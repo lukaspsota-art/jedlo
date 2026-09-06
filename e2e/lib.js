@@ -92,7 +92,8 @@ function volnyPort() {
 }
 async function spustiServer() {
   const port = await volnyPort();
-  const proc = spawn("python3", ["-m", "http.server", String(port), "--bind", "127.0.0.1"], {
+  // PY=py na Windows, kde `python3` neexistuje (viď CLAUDE.md — build sa tiež spúšťa cez `py`)
+  const proc = spawn(process.env.PY || "python3", ["-m", "http.server", String(port), "--bind", "127.0.0.1"], {
     cwd: KOREN, stdio: "ignore", detached: false,
   });
   // počkaj, kým začne odpovedať
@@ -117,7 +118,9 @@ const DESKTOP = { width: 1440, height: 900 };
 
 async function vytvorProstredie(t) {
   let browser;
-  try { browser = await chromium.launch(); }
+  // PW_CHANNEL=msedge — stroj bez stiahnutého chromia použije systémový prehliadač
+  const kanal = process.env.PW_CHANNEL ? { channel: process.env.PW_CHANNEL } : {};
+  try { browser = await chromium.launch(kanal); }
   catch (e) { browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" }); }
   const server = await spustiServer();
   const E = {

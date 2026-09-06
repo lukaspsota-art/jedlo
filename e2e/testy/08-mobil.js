@@ -215,6 +215,38 @@ module.exports = {
     await t.ok(malychPrim <= 12, `na telefónnych obrazovkách je málo cieľov pod 44 px (${malychPrim})`,
       JSON.stringify(primarne.map((v) => v + ":" + detaily[v].pod44).join(" ")));
 
+    // ── režimy hustoty: Kompakt zmenšuje zoomom, a zoom < 1 zmenšuje aj ciele ──
+    // Kompakt (--skala 0,82) je jediný režim pod 1,0. Prvky, ktoré nestoja na
+    // max(44px, var(--cil-in)) — text v bunke plánu, odkazy-tlačidlá — v ňom klesnú
+    // pod dokumentovanú podlahu 24 px, ak im niekto vezme min-height (napr. inline
+    // štýlom z app.js, ktorý sa selektorom prebiť nedá). Preto sa meria každý režim.
+    const REZIMY_T = ["kompakt", "plan", "obchod", "kuchyna"];
+    const nadPrehybom = {};
+    for (const r of REZIMY_T) {
+      await m.evaluate((x) => nastavRezim(x), r);
+      await m.waitForTimeout(200);
+      await t.ok(await m.evaluate((x) => document.documentElement.getAttribute("data-rezim") === x, r),
+        `režim „${r}“ sa zapíše na <html>`);
+      for (const v of primarne) {
+        await prepni(m, v);
+        await m.waitForTimeout(180);
+        const c = await ciele(m);
+        await t.ok(c.velmiMale.length === 0,
+          `režim „${r}“ — žiadny dotykový cieľ pod 24 px v „${v}“`, JSON.stringify(c.velmiMale.slice(0, 6)));
+      }
+      await prepni(m, "nakup");
+      await m.waitForTimeout(200);
+      nadPrehybom[r] = await m.evaluate(() => [...document.querySelectorAll("#nakup-list .nak-row")]
+        .filter((e) => { const b = e.getBoundingClientRect(); return b.height > 0 && b.bottom <= 780; }).length);
+    }
+    t.metrika("položiek nákupu nad prehybom (kompakt/plan/obchod/kuchyna)",
+      REZIMY_T.map((r) => nadPrehybom[r]).join(" / "));
+    // dôvod existencie režimu Kompakt: na 393 px ukáže viac obsahu než Plánovanie
+    await t.ok(nadPrehybom.kompakt > nadPrehybom.plan,
+      "Kompakt ukáže nad prehybom viac položiek nákupu než Plánovanie", JSON.stringify(nadPrehybom));
+    await m.evaluate(() => nastavRezim("plan"));
+    await m.waitForTimeout(200);
+
     // ── nákup v obchode: odškrtnutie jednou rukou ──────────────────────────
     await prepni(m, "nakup");
     await m.waitForTimeout(250);
