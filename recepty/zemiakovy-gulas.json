@@ -1,110 +1,110 @@
 {
- "id": "zemiakovy-gulas",
- "nazov": "Zemiakový guláš (fačkový)",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Zemiakový guláš s fazuľou (fotorecept) (autor: kimlo)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakovy-gulas-s-fazulou-fotorecept/85758-recept.html",
- "porcie": 4,
- "cas": "45 min",
- "kcal_na_porciu": 327,
- "popis": "Aj keď sa čiastočne jedná o klasický buřtguláš, ver, že pridaním fazule postúpi v rebríčku obľúbenosti na vyšší level.* Recept \r\nsom našiel na internete.",
- "ingrediencie": [
-  {
-   "nazov": "Špekáčiky",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 3,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená fazuľa",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bravčová masť",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vývar",
-   "mnozstvo": 1.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Celá rasca",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Majorán",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Špekáčiky ošúp, zemiaky, cibuľu a cesnak očisti.",
-  "Na masti opeč nakájané špekáčiky, vyber ich a odlož.",
-  "Vo výpeku orestuj na drobno nakrájanú cibuľu a nakoniec plátky cesnaku.",
-  "Pridaj rascu, múku, opraž ju a potom pridaj mletú papriku. Krátko opraž, aby nezhorkla.",
-  "Zalej vývarom a priveď k varu a pridaj zemiaky, osoľ, a var do ich zmäknutia asi 20 minút.",
-  "Pridaj odložené špekáčiky, scedenú fazuľu z konzervy a spolu chvíľu prevar. Ochuť mletým korením, majoránom, prípadne ešte dosoľ.",
-  "Podávaj s chlebom alebo obľúbeným pečivom. Si daj minichlebíky z môjho predchádzajúceho receptu.",
-  "Guláš je lepší na druhý deň"
- ],
- "tipy": "Zemiaky pred pečením osuš a rozlož na plech v jednej vrstve. Natlačené na sebe sa dusia a nezhnednú.",
- "foto": "",
- "tagy": [
-  "slovenské",
-  "tradičné",
-  "zemiaky",
-  "klobása"
- ]
+  "id": "zemiakovy-gulas",
+  "nazov": "Zemiakový guláš (fačkový)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Zemiakový guláš s fazuľou (fotorecept) (autor: kimlo)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakovy-gulas-s-fazulou-fotorecept/85758-recept.html",
+  "porcie": 4,
+  "cas": "45 min",
+  "kcal_na_porciu": 327,
+  "popis": "Aj keď ide čiastočne o klasický buřtguláš, pridaním fazule postúpi v rebríčku obľúbenosti na vyšší level.",
+  "ingrediencie": [
+    {
+      "nazov": "Špekáčiky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená fazuľa",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 1.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Celá rasca",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majorán",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Špekáčiky ošúp, zemiaky, cibuľu a cesnak očisti.",
+    "Na masti opeč nakájané špekáčiky, vyber ich a odlož.",
+    "Vo výpeku orestuj na drobno nakrájanú cibuľu a nakoniec plátky cesnaku.",
+    "Pridaj rascu, múku, opraž ju a potom pridaj mletú papriku. Krátko opraž, aby nezhorkla.",
+    "Zalej vývarom a priveď k varu a pridaj zemiaky, osoľ, a var do ich zmäknutia asi 20 minút.",
+    "Pridaj odložené špekáčiky, scedenú fazuľu z konzervy a spolu chvíľu prevar. Ochuť mletým korením, majoránom, prípadne ešte dosoľ.",
+    "Podávaj s chlebom alebo obľúbeným pečivom. Si daj minichlebíky z môjho predchádzajúceho receptu.",
+    "Guláš je lepší na druhý deň"
+  ],
+  "tipy": "Zemiaky pred pečením osuš a rozlož na plech v jednej vrstve. Natlačené na sebe sa dusia a nezhnednú.",
+  "foto": "",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "zemiaky",
+    "klobása"
+  ]
 }

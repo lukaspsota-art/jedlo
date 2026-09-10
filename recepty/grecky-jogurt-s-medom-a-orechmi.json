@@ -1,81 +1,81 @@
 {
- "id": "grecky-jogurt-s-medom-a-orechmi",
- "nazov": "Grécky jogurt s medom a orechmi",
- "kategoria": "Raňajky",
- "kuchyna": "Grécka",
- "zdroj": "Varecha.sk – Lievance z gréckeho jogurtu (autor: lemonova)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/lievance-z-greckeho-jogurtu/82015-recept.html",
- "porcie": 12,
- "cas": "40 min",
- "kcal_na_porciu": 86,
- "popis": "Veľa mojich receptíkov vzniká systémom pokus omyl, kým nenájdem TOP verziu* :-) Mám veľmi rada lievance - aj preto, že \r\nsa na nich dobre takýmto spôsobom experimentuje. Táto verzia je už moja osvedčená. Odporúčam použiť do nej pravý \r\ngrécky jogurt, ten má o niečo krémovejšiu konzistenciu ako náš. Na obrázku je lievancová torta, ktorú som robila synovcovi - tak \r\nsi lievance obľúbil, že nechce kl",
- "ingrediencie": [
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jogurt grécky biely",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok do pečiva",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jablko",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Najprv si oddeľ žĺtky od bielkov. Z bielkov ušľahaj sneh.",
-  "Žĺtky vymiešaj s cukrami do peny, pridaj postupne olej a jogurt a ešte dobre vymiešaj. Do krému pridaj tiež nahrubo postrúhané jablko. Stačí naozaj malé, prípadne polovica veľkého.",
-  "Jemne vmiešaj preosiatu múku spojenú s práškom do pečiva a štipkou soli. Cesto by nemalo byť riedke, takže múku maj poruke, ak by ju bolo treba pridať. Ak ste to s hustotou naopak \"prešvihli\", môžete cesto rozriediť mliekom. Napokon opatrne vmiešaj sneh z bielkov.",
-  "Lievance veľmi narastú vďaka prášku do pečiva a snehu, preto ich nerob príliš veľké a peč ich na miernom ohni radšej dlhšie ako rýchlo a sprudka. Panvicu predtým len veľmi jemne potri olejom alebo maslom. Dobrú chuť :-)"
- ],
- "tipy": "Cesto nechaj pred pečením 20 minút odpočívať. Múka nasiakne a palacinky budú vláčnejšie, nie gumové.",
- "foto": "",
- "tagy": [
-  "jogurt",
-  "grécke",
-  "raňajky"
- ]
+  "id": "grecky-jogurt-s-medom-a-orechmi",
+  "nazov": "Grécky jogurt s medom a orechmi",
+  "kategoria": "Raňajky",
+  "kuchyna": "Grécka",
+  "zdroj": "Varecha.sk – Lievance z gréckeho jogurtu (autor: lemonova)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/lievance-z-greckeho-jogurtu/82015-recept.html",
+  "porcie": 12,
+  "cas": "40 min",
+  "kcal_na_porciu": 86,
+  "popis": "Odporúča sa použiť pravý grécky jogurt, ktorý má o niečo krémovejšiu konzistenciu.",
+  "ingrediencie": [
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jogurt grécky biely",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najprv si oddeľ žĺtky od bielkov. Z bielkov ušľahaj sneh.",
+    "Žĺtky vymiešaj s cukrami do peny, pridaj postupne olej a jogurt a ešte dobre vymiešaj. Do krému pridaj tiež nahrubo postrúhané jablko. Stačí naozaj malé, prípadne polovica veľkého.",
+    "Jemne vmiešaj preosiatu múku spojenú s práškom do pečiva a štipkou soli. Cesto by nemalo byť riedke, takže múku maj poruke, ak by ju bolo treba pridať. Ak ste to s hustotou naopak \"prešvihli\", môžete cesto rozriediť mliekom. Napokon opatrne vmiešaj sneh z bielkov.",
+    "Lievance veľmi narastú vďaka prášku do pečiva a snehu, preto ich nerob príliš veľké a peč ich na miernom ohni radšej dlhšie ako rýchlo a sprudka. Panvicu predtým len veľmi jemne potri olejom alebo maslom. Dobrú chuť :-)"
+  ],
+  "tipy": "Cesto nechaj pred pečením 20 minút odpočívať. Múka nasiakne a palacinky budú vláčnejšie, nie gumové.",
+  "foto": "",
+  "tagy": [
+    "jogurt",
+    "grécke",
+    "raňajky"
+  ]
 }

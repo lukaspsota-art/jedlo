@@ -1,90 +1,90 @@
 {
- "id": "kuracie-prsia-s-listovym-salatom",
- "nazov": "Kuracie prsia s listovým šalátom",
- "kategoria": "Šalát",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kuracie prsia s listovým šalátom (fotorecept) (autor: pusta)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-prsia-s-listovym-salatom-fotorecept/57456-recept.html",
- "porcie": 6,
- "cas": "30 min",
- "kcal_na_porciu": 319,
- "popis": "Jar klope na dvere a žiadajú sa vyslovene jarné jedlá, pripravila som kuracie prsia s baby \r\nšpenátom, rukolou a červeným mangoldom, pridala som aj údený polooštiepok a datľové \r\nparadajky, ochutila citrónovou šťavou a behom chvíľky na stole rozvoniavalo ľahké, \r\nosviežujúce, lahodné a chutné jarné jedlo.",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 350,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Datľové paradajky",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šalát miešaný - baby špenát",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": "rukola, červený mangold"
-  },
-  {
-   "nazov": "Údený polooštiepok",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Čierne korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti čerstvo mleté"
-  },
-  {
-   "nazov": "Citrón",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 60,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Umyté kuracie prsia pokrájaj na kocky o hrane asi 1 cm,",
-  "Osoľ ich a okorenila čerstvo mletým čiernym korením, nechaj ich odpočívať pri izbovej teplote, kým priprav ostatné suroviny,",
-  "údený polooštiepok pokrájaj na rovnako veľké kocky ako kuracie prsia,",
-  "datľové paradajky pokrájaj na malé kocky,",
-  "baby listy špenátu, rukoly a červeného mangoldu umyla a nechaj na cedníku dobre odkvapkať z vody,",
-  "v hrnci nechaj rozpustiť maslo,",
-  "na rozohriatom masle na silnom plameni sprudka orestuj kuracie prsia za stáleho miešania zo všetkých strán,",
-  "Stiahlla som plameň na strednú intenzitu a pridaj plátky cesnaku, ktoré orestuj len krátko, asi 1 - 2 minúty, kým sa pekne rozvoňal,",
-  "..pridaj kocky datľových paradajok a restovala za stáleho miešania, kým pustili šťavu, znížila som plameň na minimum,",
-  "Pridaj odkvapkané baby listy špenátu, rukoly a červeného mangoldu, nechaj ich iba zavädnúť, asi 1 - 2 minúty, neboj sa toho množstva, značne zmenšia svoj objem,",
-  "Vypla plameň, pridaj som kocky údeného polooštiepka a miešala, syr sa prehreje zbytkovým teplom a čiastočne rozpustí, na záver hotové jedlo ochuť ešte citrónovou šťavou.",
-  "Podávaj ihned ešte horúce na podklade z varenej a neochutenej basmati ryže, ktorú priprav podľa receptu našej varecháčky @methi: Dokonalá basmati a môžem povedať, že je skutočne dokonalá a dokonale sa hodí k tomuto vynikajúcemu jedlu.",
-  "Ide o nádherne voňavé, osviežujúce ľahké jarné jedlo z kuracích pŕs s jemnou údenou príchuťou polooštiepka a citronom a cesnakom ochutených paradajok s listami mladých šalátových listov, jedlo je veľmi chutné a rýchlo hotové, vrelo odporúčam vyskúšať a prajem vám Dobrú chuť"
- ],
- "tipy": "Čerstvý špenát sa scvrkne takmer na desatinu objemu — nezľakni sa množstva na začiatku.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "kuracie",
-  "zelenina"
- ]
+  "id": "kuracie-prsia-s-listovym-salatom",
+  "nazov": "Kuracie prsia s listovým šalátom",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kuracie prsia s listovým šalátom (fotorecept) (autor: pusta)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-prsia-s-listovym-salatom-fotorecept/57456-recept.html",
+  "porcie": 6,
+  "cas": "30 min",
+  "kcal_na_porciu": 319,
+  "popis": "Ľahké jarné jedlo z kuracích pŕs s baby špenátom, rukolou, červeným mangoldom, údeným polooštiepkom a datľovými paradajkami, ochutené citrónovou šťavou.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 350,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Datľové paradajky",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šalát miešaný - baby špenát",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": "rukola, červený mangold"
+    },
+    {
+      "nazov": "Údený polooštiepok",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti čerstvo mleté"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Umyté kuracie prsia pokrájaj na kocky o hrane asi 1 cm,",
+    "Osoľ ich a okoreň čerstvo mletým čiernym korením, nechaj ich odpočívať pri izbovej teplote, kým pripravíš ostatné suroviny,",
+    "údený polooštiepok pokrájaj na rovnako veľké kocky ako kuracie prsia,",
+    "datľové paradajky pokrájaj na malé kocky,",
+    "baby listy špenátu, rukoly a červeného mangoldu umy a nechaj na cedníku dobre odkvapkať z vody,",
+    "v hrnci nechaj rozpustiť maslo,",
+    "na rozohriatom masle na silnom plameni sprudka orestuj kuracie prsia za stáleho miešania zo všetkých strán,",
+    "stiahni plameň na strednú intenzitu a pridaj plátky cesnaku, ktoré orestuj len krátko, asi 1 - 2 minúty, kým sa pekne rozvoňajú,",
+    "..pridaj kocky datľových paradajok a restuj za stáleho miešania, kým pustia šťavu, potom zníž plameň na minimum,",
+    "Pridaj odkvapkané baby listy špenátu, rukoly a červeného mangoldu, nechaj ich iba zavädnúť, asi 1 - 2 minúty, neboj sa toho množstva, značne zmenšia svoj objem,",
+    "Vypni plameň, pridaj kocky údeného polooštiepka a miešaj, syr sa prehreje zbytkovým teplom a čiastočne rozpustí, na záver hotové jedlo ochuť ešte citrónovou šťavou.",
+    "Podávaj ihneď ešte horúce na podklade z varenej a neochutenej basmati ryže, ktorú priprav podľa receptu Dokonalá basmati, ktorá sa k tomuto jedlu dokonale hodí.",
+    "Ide o nádherne voňavé, osviežujúce ľahké jarné jedlo z kuracích pŕs s jemnou údenou príchuťou polooštiepka a citrónom a cesnakom ochutených paradajok s listami mladých šalátových listov, jedlo je veľmi chutné a rýchlo hotové. Dobrú chuť."
+  ],
+  "tipy": "Čerstvý špenát sa scvrkne takmer na desatinu objemu — nezľakni sa množstva na začiatku.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "kuracie",
+    "zelenina"
+  ]
 }

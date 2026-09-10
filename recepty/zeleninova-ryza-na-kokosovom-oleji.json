@@ -1,93 +1,93 @@
 {
- "id": "zeleninova-ryza-na-kokosovom-oleji",
- "nazov": "Zeleninová ryža na kokosovom oleji",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Zeleninová ryža na kokosovom oleji (autor: deer)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/zeleninova-ryza-na-kokosovom-oleji/54619-recept.html",
- "porcie": 3,
- "cas": "30 min",
- "kcal_na_porciu": 391,
- "popis": "Dnes bola chuť na ľahký a zdravý obed, keď už sa pomaly blížia tie chladné zimné dni, treba sa ešte trošku zásobiť vitamínmi navyše. Toto jedlo je chutné, dodá energiu a nezaťaží organizmus zdĺhavým trávením, obsahuje aj kari korenie ktoré je istým štartérom metabolizmu vďaka jeho hlavnej zložke - kurkume.",
- "ingrediencie": [
-  {
-   "nazov": "Guľatozrnná ryža",
-   "mnozstvo": 220,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená kapusta",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cherry paradajky",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kokosový olej",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kari korenie",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bazalka",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 3,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Najprv si daj klasicky variť ryžu, každý má svoj osvedčený postup, ja som tento krát ryžu nepražila na oleji, len ju zalej dvoma hrnčekami vody a po tom ako zovrela, ju odstav zo šporáka a zabalila do periny kde bez problémov dôjde do požadovaného stavu.",
-  "Kým sa ryža \"varí\" v perine, priprav si zeleninu. Všetko umyj, očisti, nakrájaj na nám esteticky príjemné kúsky, odporúčam však menšie, aby sa zelenina rýchlejšie podusila. Do väčšieho hrnca daj rozpustiť kokosový olej, prihoď tam pokrájané alebo roztlačené strúčiky cesnaku a chvíľku miešaj.",
-  "Prihoď pokrájanú mrkvu, keď je polomäkká, daj do hrnca červenú kapustu, posoľ ju, zníž plameň na minimum a 10 minút nechaj zeleninu v hrnci dusiť. Potom pridaj ešte pokrájané cherry paradajky, všetky koreniny aj bazalku, zmes dôkladne vymiešaj, prikryj a nechaj odpočinúť.",
-  "Teraz by už mala byť hotová aj ryža, tak ju vyber a jednoducho premiešaj s pripravenou zeleninou. Môžeš servírovať samotné, prípadne posypané syrom alebo ako prílohu k mäsu. Dobrú chuť"
- ],
- "tipy": "Ryžu pred varením prepláchni, kým voda neostane číra, a počas varenia ju nemiešaj — inak sa rozvarí na kašu.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "ryža",
-  "bezmäsité"
- ]
+  "id": "zeleninova-ryza-na-kokosovom-oleji",
+  "nazov": "Zeleninová ryža na kokosovom oleji",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Zeleninová ryža na kokosovom oleji (autor: deer)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/zeleninova-ryza-na-kokosovom-oleji/54619-recept.html",
+  "porcie": 3,
+  "cas": "30 min",
+  "kcal_na_porciu": 391,
+  "popis": "Dnes bola chuť na ľahký a zdravý obed, keď už sa pomaly blížia tie chladné zimné dni, treba sa ešte trošku zásobiť vitamínmi navyše. Toto jedlo je chutné, dodá energiu a nezaťaží organizmus zdĺhavým trávením, obsahuje aj kari korenie ktoré je istým štartérom metabolizmu vďaka jeho hlavnej zložke - kurkume.",
+  "ingrediencie": [
+    {
+      "nazov": "Guľatozrnná ryža",
+      "mnozstvo": 220,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená kapusta",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cherry paradajky",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokosový olej",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kari korenie",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bazalka",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najprv si daj klasicky variť ryžu, každý má svoj osvedčený postup; ryžu tentoraz nepraž na oleji, len ju zalej dvoma hrnčekami vody a po tom, ako zovrie, ju odstav zo šporáka a zabaľ do periny, kde bez problémov dôjde do požadovaného stavu.",
+    "Kým sa ryža \"varí\" v perine, priprav si zeleninu. Všetko umyj, očisti, nakrájaj na esteticky príjemné kúsky, lepšie sú však menšie, aby sa zelenina rýchlejšie podusila. Do väčšieho hrnca daj rozpustiť kokosový olej, prihoď tam pokrájané alebo roztlačené strúčiky cesnaku a chvíľku miešaj.",
+    "Prihoď pokrájanú mrkvu, keď je polomäkká, daj do hrnca červenú kapustu, posoľ ju, zníž plameň na minimum a 10 minút nechaj zeleninu v hrnci dusiť. Potom pridaj ešte pokrájané cherry paradajky, všetky koreniny aj bazalku, zmes dôkladne vymiešaj, prikry a nechaj odpočinúť.",
+    "Teraz by už mala byť hotová aj ryža, tak ju vyber a jednoducho premiešaj s pripravenou zeleninou. Môžeš servírovať samotné, prípadne posypané syrom alebo ako prílohu k mäsu. Dobrú chuť"
+  ],
+  "tipy": "Ryžu pred varením prepláchni, kým voda neostane číra, a počas varenia ju nemiešaj — inak sa rozvarí na kašu.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "ryža",
+    "bezmäsité"
+  ]
 }

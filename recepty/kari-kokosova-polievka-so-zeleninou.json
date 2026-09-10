@@ -1,110 +1,110 @@
 {
- "id": "kari-kokosova-polievka-so-zeleninou",
- "nazov": "Kokosová polievka s kuracím mäsom a čili",
- "kategoria": "Polievka",
- "kuchyna": "Thajská",
- "zdroj": "Varecha.sk – Kokosová polievka (autor: mirkatarby)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kokosova-polievka/39333-recept.html",
- "porcie": 6,
- "cas": "50 min",
- "kcal_na_porciu": 280,
- "popis": "Kedže vačšina exotických jedál si vyžaduje často ingrediencie,ktoré sú u nás ťažko dostupné,preto som túto polievku upravila na slovenské podmienky a už ju varievam dosť dlho.",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Huby čerstvé alebo mrazené",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kukurica",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 3,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kokosové mlieko",
-   "mnozstvo": 400,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Limetka",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Koriander",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zázvor",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Omáčka čili",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rybia omáčka",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sweet & Sour Sauce",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bujón",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vňať koriander",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Kuracie prsia daj do hrnca a zalej 2 litrami vody, osoľ a daj variť. Pridaj zeleninový bujón, mletý koriander, zázvor a pretlačený cesnak a var asi pol hodiny kým nie je mäso hotové.",
-  "Potom mäso vyber. Vývar prelej cez sito (nemusíš),daj na sporák a pridaj huby. Mala lesné mrazené, pridaj som jeden pohár. Nechaj variť ešte asi 10 minút kým sa neuvaria huby.",
-  "Pridaj po lyžici z každej omáčky, kokosové mlieko, limetovú šťavu a kukuricu. Čerstvý koriander narež a pridaj do polievky. Nechaj prevrieť. Nakoniec pridaj pokrájané prsia a dochuť."
- ],
- "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
- "foto": "",
- "tagy": [
-  "polievka",
-  "kokos",
-  "thajské"
- ]
+  "id": "kari-kokosova-polievka-so-zeleninou",
+  "nazov": "Kokosová polievka s kuracím mäsom a čili",
+  "kategoria": "Polievka",
+  "kuchyna": "Thajská",
+  "zdroj": "Varecha.sk – Kokosová polievka (autor: mirkatarby)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kokosova-polievka/39333-recept.html",
+  "porcie": 6,
+  "cas": "50 min",
+  "kcal_na_porciu": 280,
+  "popis": "Exotická kokosová polievka je upravená na slovenské podmienky a bežne dostupné suroviny.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Huby čerstvé alebo mrazené",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kukurica",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokosové mlieko",
+      "mnozstvo": 400,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Koriander",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Omáčka čili",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rybia omáčka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sweet & Sour Sauce",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bujón",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vňať koriander",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kuracie prsia daj do hrnca a zalej 2 litrami vody, osoľ a daj variť. Pridaj zeleninový bujón, mletý koriander, zázvor a pretlačený cesnak a var asi pol hodiny kým nie je mäso hotové.",
+    "Potom mäso vyber. Vývar prelej cez sito (nemusíš), daj na sporák a pridaj huby. Hodia sa lesné mrazené, pridaj jeden pohár. Nechaj variť ešte asi 10 minút kým sa neuvaria huby.",
+    "Pridaj po lyžici z každej omáčky, kokosové mlieko, limetovú šťavu a kukuricu. Čerstvý koriander narež a pridaj do polievky. Nechaj prevrieť. Nakoniec pridaj pokrájané prsia a dochuť."
+  ],
+  "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "kokos",
+    "thajské"
+  ]
 }

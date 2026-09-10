@@ -1,96 +1,95 @@
 {
- "id": "argentinska-pochutka",
- "nazov": "Argentínska pochúťka",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Argentínska pochúťka (fotorecept) (autor: marianne)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/argentinska-pochutka-fotorecept/27538-recept.html",
- "porcie": 6,
- "cas": "70 min",
- "kcal_na_porciu": 502,
- "popis": "Nemám ani šajn,či to v Argentíne vôbec varia,(že by tam dávali našu zemiakovú kašu:-)?našla som recept v časopise, varila ho pani Nora Beňačkova, tak ju nazvala, ale je to výborne...ak by niekomu prekážal názov,nemám problém ho zmeniť....varil môj muž,ja som len dala recept..",
- "ingrediencie": [
-  {
-   "nazov": "Hovädzie mäso zadné",
-   "mnozstvo": 700,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová šťava",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "z 1 ks"
-  },
-  {
-   "nazov": "Pomaranč",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "z 1 ks"
-  },
-  {
-   "nazov": "Nastrúhaná cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rozotretý cesnak",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podla potreby"
-  },
-  {
-   "nazov": "Čerstvo mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Surové vajcia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Oregano",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vykostkovane olivy v naleve",
-   "mnozstvo": 180,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiakove pyre z",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Pomeliaj hovadzie masko.",
-  "Pridaj vsetky suroviny okrem zemiakovej kase a vypracuj cesto, ktore nechaš na noc odlezat v chladnicke.(nie je podmienkou, ale odporuca sa)",
-  "Priprav si zemiakove pyre, ktore ja robim takto:zemiaky ocisti, uvar v osolenej vode, priadaj 1PL masla,1dl mlieka, a riadne vymiesaj.",
-  "Do vymastenej jenskej misy vlož maso",
-  "Na masko rozotri zemiakove pyre a upeč v predhriatej rure pri teplote 180 stupnov asi 40-50 minut. Desat minut pred dopecenim pokrievky z misy odstraň a dopeč. Môžeš posypat parmezanom, kto by chcel uz nedaj, chuti to malo uz dost",
-  "upecene"
- ],
- "tipy": "Na kašu ber múčnaté zemiaky a mixuj ich čo najmenej. Z prílišného mixovania sa stane lepidlo.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "hovädzie",
-  "vajcia",
-  "zemiaky"
- ]
+  "id": "argentinska-pochutka",
+  "nazov": "Argentínska pochúťka",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Argentínska pochúťka (fotorecept) (autor: marianne)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/argentinska-pochutka-fotorecept/27538-recept.html",
+  "porcie": 6,
+  "cas": "70 min",
+  "kcal_na_porciu": 502,
+  "ingrediencie": [
+    {
+      "nazov": "Hovädzie mäso zadné",
+      "mnozstvo": 700,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "z 1 ks"
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "z 1 ks"
+    },
+    {
+      "nazov": "Nastrúhaná cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rozotretý cesnak",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podla potreby"
+    },
+    {
+      "nazov": "Čerstvo mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Surové vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Oregano",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vykostkovane olivy v naleve",
+      "mnozstvo": 180,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiakove pyre z",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pomeliaj hovadzie masko.",
+    "Pridaj vsetky suroviny okrem zemiakovej kase a vypracuj cesto, ktore nechaš na noc odlezat v chladnicke.(nie je podmienkou, ale odporuca sa)",
+    "Priprav si zemiakove pyre, ktore ja robim takto:zemiaky ocisti, uvar v osolenej vode, priadaj 1PL masla,1dl mlieka, a riadne vymiesaj.",
+    "Do vymastenej jenskej misy vlož maso",
+    "Na masko rozotri zemiakove pyre a upeč v predhriatej rure pri teplote 180 stupnov asi 40-50 minut. Desat minut pred dopecenim pokrievky z misy odstraň a dopeč. Môžeš posypat parmezanom, kto by chcel uz nedaj, chuti to malo uz dost",
+    "upecene"
+  ],
+  "tipy": "Na kašu ber múčnaté zemiaky a mixuj ich čo najmenej. Z prílišného mixovania sa stane lepidlo.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "vajcia",
+    "zemiaky"
+  ]
 }

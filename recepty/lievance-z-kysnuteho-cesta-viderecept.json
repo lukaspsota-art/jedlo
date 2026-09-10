@@ -1,84 +1,84 @@
 {
- "id": "lievance-z-kysnuteho-cesta-viderecept",
- "nazov": "Lievance z kysnutého cesta (viderecept)",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Lievance z kysnutého cesta (viderecept) (autor: ovyfj)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/lievance-z-kysnuteho-cesta-viderecept/78370-recept.html",
- "porcie": 6,
- "cas": "80 min",
- "kcal_na_porciu": 489,
- "popis": "Tento recept sme vypracovali z noriem pre školské stravovanie. So študentami sme zdigitalizovali pracovný postup a niekoľkokrát sme recept odskúšali. Doplnili sme krátke video zo samotného pečenia lievancov, aj z flambovania jabĺk. Dobrú chuť s \r\nvarechou! (nabudúce sa musíš polepšiť s estetickou úpravou pokrmu, ale na prvákov móže byť ?-))",
- "ingrediencie": [
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 700,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 2,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na panvicu"
-  }
- ],
- "postup": [
-  "Priprav si suroviny. Preosej múku. Zohrej mlieko. Oddeľ žĺtky od bielkov.",
-  "Rozpusť kryštálový cukor v teplom mlieku.",
-  "Časť sladkého mlieka vlej do preosiatej múky.",
-  "Do tohto mlieka rozdrob droždie a nechaj vzísť kvások.",
-  "Kým kysne kvások, vyšľahaj z bielkov sneh.",
-  "Keď je kvások nakysnutý pridáš ďalšiu časť mlieka.",
-  "Pridaj žĺtky.",
-  "Pridaj soľ.",
-  "Začni miesiť cesto a postupne pridávaj zvyšné mlieko.",
-  "Na záver pridaj sneh z bielkov a zľahka ho zapracuj do cesta. Zamiesené cesto prikryj a nechaj na teplom mieste kysnúť cca 30 minút. Kým cesto kysne, môžeš si pripraviť napríklad tvarohovú plnku, džemovú alebo lekvárovú plnku, horúce ovocie, atď.",
-  "Keď je cesto vykysnuté, môžeš začať piecť lievance.",
-  "Dobre rozohrej panvicu na lievance alebo obyčajnú panvicu. Trocha pomasti olejom. Niekto pridáva olej do cesta, aby nemusel toľko mastiť panvicu. Dbaj na BOZP, najmä ak pracuješ na plameni! Ak by nám stiekol alebo sa vylial olej, môže prísť k vznieteniu.",
-  "Naberačkou nakladaj cesto na panvicu a tvaruj okrúhle lievance.",
-  "Keď je lievanec zo spodu dostatočne opečený, obracačkou ho obráť.",
-  "Peč a peč",
-  "Lievance naplň lekvárom.",
-  "Dozdobili tvarohovou plnkou a cukrom.",
-  "Varianta s flambovanými jablkami.",
-  "Samotné flambovanie:"
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "vajcia",
-  "bezmäsité"
- ]
+  "id": "lievance-z-kysnuteho-cesta-viderecept",
+  "nazov": "Lievance z kysnutého cesta (viderecept)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Lievance z kysnutého cesta (viderecept) (autor: ovyfj)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/lievance-z-kysnuteho-cesta-viderecept/78370-recept.html",
+  "porcie": 6,
+  "cas": "80 min",
+  "kcal_na_porciu": 489,
+  "popis": "Lievance z kysnutého cesta pripravené podľa noriem pre školské stravovanie, doplnené krátkym videom z pečenia lievancov aj z flambovania jabĺk.",
+  "ingrediencie": [
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 700,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 2,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na panvicu"
+    }
+  ],
+  "postup": [
+    "Priprav si suroviny. Preosej múku. Zohrej mlieko. Oddeľ žĺtky od bielkov.",
+    "Rozpusť kryštálový cukor v teplom mlieku.",
+    "Časť sladkého mlieka vlej do preosiatej múky.",
+    "Do tohto mlieka rozdrob droždie a nechaj vzísť kvások.",
+    "Kým kysne kvások, vyšľahaj z bielkov sneh.",
+    "Keď je kvások nakysnutý pridáš ďalšiu časť mlieka.",
+    "Pridaj žĺtky.",
+    "Pridaj soľ.",
+    "Začni miesiť cesto a postupne pridávaj zvyšné mlieko.",
+    "Na záver pridaj sneh z bielkov a zľahka ho zapracuj do cesta. Zamiesené cesto prikryj a nechaj na teplom mieste kysnúť cca 30 minút. Kým cesto kysne, môžeš si pripraviť napríklad tvarohovú plnku, džemovú alebo lekvárovú plnku, horúce ovocie, atď.",
+    "Keď je cesto vykysnuté, môžeš začať piecť lievance.",
+    "Dobre rozohrej panvicu na lievance alebo obyčajnú panvicu. Trocha pomasti olejom. Niekto pridáva olej do cesta, aby nemusel toľko mastiť panvicu. Dbaj na BOZP, najmä ak pracuješ na plameni! Ak by nám stiekol alebo sa vylial olej, môže prísť k vznieteniu.",
+    "Naberačkou nakladaj cesto na panvicu a tvaruj okrúhle lievance.",
+    "Keď je lievanec zo spodu dostatočne opečený, obracačkou ho obráť.",
+    "Peč a peč",
+    "Lievance naplň lekvárom.",
+    "Dozdobili tvarohovou plnkou a cukrom.",
+    "Varianta s flambovanými jablkami.",
+    "Samotné flambovanie:"
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "vajcia",
+    "bezmäsité"
+  ]
 }

@@ -1,72 +1,71 @@
 {
- "id": "zemiakovy-chlieb",
- "nazov": "Zemiakový chlieb",
- "kategoria": "Pečivo",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Zemiakový chlieb (autor: snehulka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakovy-chlieb/48561-recept.html",
- "porcie": 16,
- "cas": "155 min",
- "kcal_na_porciu": 259,
- "popis": "Tento chlebík nepečiem často, lebo ja a moji traja chalani by sme mali po sto kíl, nedá sa mu odolať.",
- "ingrediencie": [
-  {
-   "nazov": "Veľké zemiaky",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Teplá voda",
-   "mnozstvo": 600,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ocot",
-   "mnozstvo": 3,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 3,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Múka hladká T650",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Zemiaky uvar všupke, nechaj vychladnúť a pretlač.",
-  "Všetky suroviny daj do misky, a 10 minút všetko mixuj. Nechaj 5 min. postáť a vyklop na silno pomúčenú dosku.",
-  "Prelož postupne všetky 4 okraje. Nechaj 15 min. kysnúť, opakuj ešte raz.",
-  "Potom cesto zroluj na bochník a daj na pomastený a múkou vysypaný pekáč.",
-  "Nechaj ešte 1/2 hodinu kysnúť.",
-  "Daj do rúry a peč na 240 stupňov 40 min., potom na 120 stupňov 40 min.",
-  "Vyklop a potri slanou vodou. Dobrú chuť!"
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "pečivo",
-  "zemiaky",
-  "chlieb"
- ]
+  "id": "zemiakovy-chlieb",
+  "nazov": "Zemiakový chlieb",
+  "kategoria": "Pečivo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Zemiakový chlieb (autor: snehulka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/zemiakovy-chlieb/48561-recept.html",
+  "porcie": 16,
+  "cas": "155 min",
+  "kcal_na_porciu": 259,
+  "ingrediencie": [
+    {
+      "nazov": "Veľké zemiaky",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Teplá voda",
+      "mnozstvo": 600,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 3,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 3,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Múka hladká T650",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zemiaky uvar všupke, nechaj vychladnúť a pretlač.",
+    "Všetky suroviny daj do misky, a 10 minút všetko mixuj. Nechaj 5 min. postáť a vyklop na silno pomúčenú dosku.",
+    "Prelož postupne všetky 4 okraje. Nechaj 15 min. kysnúť, opakuj ešte raz.",
+    "Potom cesto zroluj na bochník a daj na pomastený a múkou vysypaný pekáč.",
+    "Nechaj ešte 1/2 hodinu kysnúť.",
+    "Daj do rúry a peč na 240 stupňov 40 min., potom na 120 stupňov 40 min.",
+    "Vyklop a potri slanou vodou. Dobrú chuť!"
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "zemiaky",
+    "chlieb"
+  ]
 }

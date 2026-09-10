@@ -1,116 +1,116 @@
 {
- "id": "salat-z-pecenej-mrkvy-s-fetou",
- "nazov": "Šalát z pečenej cvikly s fetou a hovädzím",
- "kategoria": "Šalát",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Šalát z pečenej cvikly s fetou a kúskami hovädzieho mäsa (autor: redakcia)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/salat-z-pecenej-cvikly-s-fetou-a-kuskami-hovadzieho-masa/90691-recept.html",
- "porcie": 8,
- "cas": "55 min",
- "kcal_na_porciu": 322,
- "popis": "Surová cvikla je pomerne tvrdá a chuťovo nevýrazná, po upečení bude však fantasticky sladká.* Ak ju kúpite aj s vňaťou, môžete ju do šalátu použiť tiež. My sme v tomto recepte použili žltú cviklu, ale to nie je podmienkou, šalát bude vynikajúci aj z červenej.",
- "ingrediencie": [
-  {
-   "nazov": "Cvikla",
-   "mnozstvo": 600,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tymian",
-   "mnozstvo": 12,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 4,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Javorový sirup",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hovädzie",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šalátové listy",
-   "mnozstvo": 2,
-   "jednotka": "hrsť",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Syr feta",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pažítka",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jablčný ocot",
-   "mnozstvo": 60,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horčica",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový panenský olej",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Priprav si štyri štvorce alobalu. Cviklu umyj a osuš. Každú buľvu polož na jeden štvorec alobalu, potri olejom, ochuť tymianom, pretlačeným cesnakom, javorovým sirupom, soľou a korením. Zabaľ a peč asi 40 minút pri teplote 200 °C.",
-  "Upečenú cviklu ošúp a nakrájaj na mesiačiky. Zmiešaj všetky ingrediencie na dresing. Ešte teplú cviklu vlož do dresingu a nechaj marinovať.",
-  "Steak osoľ a okoreň. Na panvici zahrej kvapku oleja a mäso opekaj asi 3 minúty z každej strany. Nechaj ho 5 minút odpočívať prekrytý alobalom a potom ho nakrájaj na plátky. Servíruj spolu s cviklou, so šalátovými listami, s fetou a dresingom. Dozdob nasekanou pažítkou."
- ],
- "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "mrkva",
-  "feta"
- ]
+  "id": "salat-z-pecenej-mrkvy-s-fetou",
+  "nazov": "Šalát z pečenej cvikly s fetou a hovädzím",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Šalát z pečenej cvikly s fetou a kúskami hovädzieho mäsa (autor: redakcia)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/salat-z-pecenej-cvikly-s-fetou-a-kuskami-hovadzieho-masa/90691-recept.html",
+  "porcie": 8,
+  "cas": "55 min",
+  "kcal_na_porciu": 322,
+  "popis": "Šalát z pečenej cvikly s fetou a hovädzím - surová cvikla je pomerne tvrdá a chuťovo nevýrazná, po upečení je však fantasticky sladká, použiť sa dá žltá aj červená, prípadne aj s vňaťou.",
+  "ingrediencie": [
+    {
+      "nazov": "Cvikla",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tymian",
+      "mnozstvo": 12,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Javorový sirup",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hovädzie",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šalátové listy",
+      "mnozstvo": 2,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr feta",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pažítka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablčný ocot",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový panenský olej",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si štyri štvorce alobalu. Cviklu umyj a osuš. Každú buľvu polož na jeden štvorec alobalu, potri olejom, ochuť tymianom, pretlačeným cesnakom, javorovým sirupom, soľou a korením. Zabaľ a peč asi 40 minút pri teplote 200 °C.",
+    "Upečenú cviklu ošúp a nakrájaj na mesiačiky. Zmiešaj všetky ingrediencie na dresing. Ešte teplú cviklu vlož do dresingu a nechaj marinovať.",
+    "Steak osoľ a okoreň. Na panvici zahrej kvapku oleja a mäso opekaj asi 3 minúty z každej strany. Nechaj ho 5 minút odpočívať prekrytý alobalom a potom ho nakrájaj na plátky. Servíruj spolu s cviklou, so šalátovými listami, s fetou a dresingom. Dozdob nasekanou pažítkou."
+  ],
+  "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "mrkva",
+    "feta"
+  ]
 }

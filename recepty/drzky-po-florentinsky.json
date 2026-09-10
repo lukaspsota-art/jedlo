@@ -1,94 +1,94 @@
 {
- "id": "drzky-po-florentinsky",
- "nazov": "Držky po florentínsky",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Držky po florentínsky (fotorecept) (autor: stanci11)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/drzky-po-florentinsky-fotorecept/66383-recept.html",
- "porcie": 4,
- "cas": "65 min",
- "kcal_na_porciu": 399,
- "popis": "Tak tento recept som minule zbadala v telke u kamaráta kde išli staré diely \"S Italem v \r\nkuchyni\". Čiže recept je \r\npresne a lá Emanuele Ridi a jeho talianska verzia držiek... Jedným slovom mňam! Bola \r\nsom strašne zvedavá na \r\nfinálnu chuť, lebo predsalen držkový perkelt alebo polievka je niečo iné, ako držky na \r\nrajčátkach a zasypané \r\nparmazánom ... Ale nedá sa to povedať inak, len že odporúč",
- "ingrediencie": [
-  {
-   "nazov": "Držky hovädzie",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajky",
-   "mnozstvo": 340,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Stonkový zeler",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Parmezán",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Najskor si priprav držky - aby to bolo rýchlejšie, tak v tlakovom hrnci - a to pod vodou prepraté a očistené držky zalej vodou, hrniec natlakovala a 10 minút povarila. Potom vodu zlej, nalej čistú a zase 10 minút var pod tlakom. Držky zase sceď a nakrájaj na väčšie kúsky.",
-  "Kým sa držky var tak si nakrájala na drobno cibuľku, zeler a mrkvu na základ",
-  "a spar si 4 stredne veľké rajčinky (narezaná šupka, aby sa dali pekne olúpať).",
-  "Rajčátka nakrájaj na prúžky, ale s tým že predtým vyber tú jadierkovo-vodnatú časť (pridáš do varenia iný deň, alebo zjedz )",
-  "A teraz začína sranda Na oliváči speň základ - cibuľka, zeler a mrkvička - len úplne zľahúčka.",
-  "Pridaj nakrájané držky a spoločne restuj cca 5-7 min.",
-  "Ďalej pridaj nakrajané rajčátka a restovala kým sa nerozpustili (ak by sa vám to prichytávalo na spodok hrnca, je možné málinko podliať vodou).",
-  "Keď rajčinky vytvorili omáčku, tak pridaj tých cca 30 g paradajkového pretlaku pre chuť čo si budeš klamať, tieto zimné rajčiny nie sú nič moc okoreň to čerstvo namletým čierným korením, podlej vodou tesne pod povrch a nechaj dusiť pod prikrývkou asi 20 minút.",
-  "Dĺžka dusenia závisí od toho ako moc boli predvarené držky, a tiež aké ich chcete pevné ja som ten typ čo si užíva al dente, takže aj držky mám radšej také pevnejšie Samozrejme ak ich nechaj dusiť dlhšie, možno bude treba ešte priliať vodu aby vám to neprihorelo mne sa za tých 20 minút krásne zredukovala omáčka a bolo to akurát podľa môjho gusta",
-  "A na záver dosoľ podľa chuti, nalož na taniere, posyp kopu parmezánu, a nedôverčivo degustuj Ja som totiž neverila že ten parmezán tam sadne, ale normálne som si musela ešte pridať dokonale to chuťovo doplnil!"
- ],
- "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "hovädzie",
-  "syr",
-  "zelenina"
- ]
+  "id": "drzky-po-florentinsky",
+  "nazov": "Držky po florentínsky",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Držky po florentínsky (fotorecept) (autor: stanci11)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/drzky-po-florentinsky-fotorecept/66383-recept.html",
+  "porcie": 4,
+  "cas": "65 min",
+  "kcal_na_porciu": 399,
+  "popis": "Talianska verzia držiek na rajčinách zasypaných parmezánom podľa Emanuele Ridiho.",
+  "ingrediencie": [
+    {
+      "nazov": "Držky hovädzie",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 340,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Stonkový zeler",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najskôr si priprav držky - aby to bolo rýchlejšie, tak v tlakovom hrnci - a to pod vodou prepraté a očistené držky zalej vodou, hrniec natlakuj a 10 minút povar. Potom vodu zlej, nalej čistú a zase 10 minút var pod tlakom. Držky zase sceď a nakrájaj na väčšie kúsky.",
+    "Kým sa držky varia, nakrájaj nadrobno cibuľku, zeler a mrkvu na základ",
+    "a spar si 4 stredne veľké rajčinky (narezaná šupka, aby sa dali pekne olúpať).",
+    "Rajčiny nakrájaj na prúžky, ale s tým, že predtým vyber tú jadierkovo-vodnatú časť (pridaj ju do varenia iný deň alebo zjedz).",
+    "A teraz začína sranda: na oliváči speň základ - cibuľku, zeler a mrkvičku - len úplne zľahúčka.",
+    "Pridaj nakrájané držky a spoločne restuj cca 5-7 min.",
+    "Ďalej pridaj nakrájané rajčiny a restuj, kým sa nerozpustia (ak by sa to prichytávalo na spodok hrnca, je možné málinko podliať vodou).",
+    "Keď rajčinky vytvoria omáčku, pridaj tých cca 30 g paradajkového pretlaku pre chuť, lebo zimné rajčiny nie sú nič moc. Okoreň to čerstvo namletým čiernym korením, podlej vodou tesne pod povrch a nechaj dusiť pod prikrývkou asi 20 minút.",
+    "Dĺžka dusenia závisí od toho, ako veľmi boli držky predvarené, a tiež od toho, aké pevné ich chceš mať. Ak ich necháš dusiť dlhšie, možno bude treba ešte priliať vodu, aby to neprihorelo; za tých 20 minút sa omáčka krásne zredukuje.",
+    "A na záver dosoľ podľa chuti, nalož na taniere, posyp kopou parmezánu a degustuj - parmezán to chuťovo dokonale doplní."
+  ],
+  "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "syr",
+    "zelenina"
+  ]
 }

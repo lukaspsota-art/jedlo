@@ -1,90 +1,90 @@
 {
- "id": "bucatini-s-mrkvou-a-hovadzim-maskom",
- "nazov": "Bucatini s mrkvou a hovädzím mäskom",
- "kategoria": "Cestoviny",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Bucatini s mrkvou a hovädzím mäskom (fotorecept) (autor: janocka84)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/bucatini-s-mrkvou-a-hovadzim-maskom-fotorecept/44311-recept.html",
- "porcie": 1,
- "cas": "1 hod 10 min",
- "kcal_na_porciu": 479,
- "popis": "Spracovávala som mrkvu zo záhrady, tak som ju rovno zakomponovala aj do obedného \r\nmenu.",
- "ingrediencie": [
-  {
-   "nazov": "Cestoviny bucatini",
-   "mnozstvo": 63,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mäso hovädzie mleté",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvá mrkva",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pretlak",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Majonéza",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Fazuľa v paradajkovej omáčke",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Malá cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Nachystaj si suroviny. Použi bucatini, pretože ich mám rada, ale môžete použiť v podstate akékoľvek iné.",
-  "Nakrájaj si cibuľku na drobno a mrkvu na kolieska. Na oleji osmaž cibuľu a do druhého hrnca daj variť vodu na cestoviny.",
-  "Ja mám vo zvyku cestoviny takejto dĺžky prelomiť na polovice. Daj ich variť a osoľ vodu.",
-  "Do cibuľky daj popražiť mrkvu.",
-  "Pridaj mleté mäso, osoľ, pokoreň a za stáleho miešania popraž.",
-  "Pridaj kečup, alebo paradajkový pretlak a majonézu a zamiešaj. Po chvíľke pridaj pol konzervy bielej fazule v pretlaku.",
-  "Cestoviny sceď, prepláchni studenou vodou a prekvapkaj olejom, aby sa nelepili. No a môžeš servírovať. Dobrú chuť."
- ],
- "tipy": "Pohár vody z varenia cestovín si odlož. Škrob v nej spojí omáčku s cestovinami lepšie než smotana.",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "hovädzie",
-  "strukoviny"
- ]
+  "id": "bucatini-s-mrkvou-a-hovadzim-maskom",
+  "nazov": "Bucatini s mrkvou a hovädzím mäskom",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Bucatini s mrkvou a hovädzím mäskom (fotorecept) (autor: janocka84)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/bucatini-s-mrkvou-a-hovadzim-maskom-fotorecept/44311-recept.html",
+  "porcie": 1,
+  "cas": "1 hod 10 min",
+  "kcal_na_porciu": 479,
+  "popis": "Obedové jedlo, v ktorom sa spracuje čerstvá mrkva zo záhrady.",
+  "ingrediencie": [
+    {
+      "nazov": "Cestoviny bucatini",
+      "mnozstvo": 63,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mäso hovädzie mleté",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvá mrkva",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pretlak",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majonéza",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Fazuľa v paradajkovej omáčke",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Malá cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Nachystaj si suroviny. Použi bucatini, pretože ich mám rada, ale môžete použiť v podstate akékoľvek iné.",
+    "Nakrájaj si cibuľku na drobno a mrkvu na kolieska. Na oleji osmaž cibuľu a do druhého hrnca daj variť vodu na cestoviny.",
+    "Ja mám vo zvyku cestoviny takejto dĺžky prelomiť na polovice. Daj ich variť a osoľ vodu.",
+    "Do cibuľky daj popražiť mrkvu.",
+    "Pridaj mleté mäso, osoľ, pokoreň a za stáleho miešania popraž.",
+    "Pridaj kečup, alebo paradajkový pretlak a majonézu a zamiešaj. Po chvíľke pridaj pol konzervy bielej fazule v pretlaku.",
+    "Cestoviny sceď, prepláchni studenou vodou a prekvapkaj olejom, aby sa nelepili. No a môžeš servírovať. Dobrú chuť."
+  ],
+  "tipy": "Pohár vody z varenia cestovín si odlož. Škrob v nej spojí omáčku s cestovinami lepšie než smotana.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "hovädzie",
+    "strukoviny"
+  ]
 }

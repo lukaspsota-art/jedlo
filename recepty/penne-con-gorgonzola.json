@@ -1,99 +1,98 @@
 {
- "id": "penne-con-gorgonzola",
- "nazov": "Penne con Gorgonzola",
- "kategoria": "Cestoviny",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Penne con Gorgonzola (fotorecept) (autor: naivemutant)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/penne-con-gorgonzola-fotorecept/19665-recept.html",
- "porcie": 9,
- "cas": "30 min",
- "kcal_na_porciu": 446,
- "popis": "Toto jedlo sme jedli v jednej reštaurácii, tak som hneď hľadala na internete recepty \r\na našla niečo podobné.",
- "ingrediencie": [
-  {
-   "nazov": "Penne Rigate",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cherry paradajky",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Gorgonzola",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jogurt biely",
-   "mnozstvo": 1000,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Nastrúhaný parmezán",
-   "mnozstvo": 125,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mozzarela",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Provensálske bylinky",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bylinková soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 4,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Daj variť cestoviny podľa návodu. (11 min)",
-  "Zatiaľ si nastrúhaj parmezán (1/2 hrnčeka)",
-  "Nakrájaj gorgonzolu na kocky.",
-  "Na olivovom oleji orestuj nakrájaný cesnak a neskôr pridaj paradajky. Podus.",
-  "Pridaj gorgonzolu, neskôr biely jogurt, počkaj kým omáčka zhustne a nakoniec pridáš parmezán. Dochuť soľou, bylinkovou soľou a okoreň provensálskymi bylinkami.",
-  "Precedené cestoviny zmiešaj s omáčkou v hrnci.",
-  "Cestoviny ulož do plechu (vymastený olivovým olejom). Na cestoviny poukladaj na kolieska nakrájanú mozzarellu. Daj piecť na 200°C po dobu 10 min.",
-  "Hotové jedlo.",
-  "Naservíruj."
- ],
- "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "bezmäsité",
-  "syr",
-  "zelenina"
- ]
+  "id": "penne-con-gorgonzola",
+  "nazov": "Penne con Gorgonzola",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Penne con Gorgonzola (fotorecept) (autor: naivemutant)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/penne-con-gorgonzola-fotorecept/19665-recept.html",
+  "porcie": 9,
+  "cas": "30 min",
+  "kcal_na_porciu": 446,
+  "ingrediencie": [
+    {
+      "nazov": "Penne Rigate",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cherry paradajky",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Gorgonzola",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jogurt biely",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Nastrúhaný parmezán",
+      "mnozstvo": 125,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mozzarela",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Provensálske bylinky",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bylinková soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Daj variť cestoviny podľa návodu. (11 min)",
+    "Zatiaľ si nastrúhaj parmezán (1/2 hrnčeka)",
+    "Nakrájaj gorgonzolu na kocky.",
+    "Na olivovom oleji orestuj nakrájaný cesnak a neskôr pridaj paradajky. Podus.",
+    "Pridaj gorgonzolu, neskôr biely jogurt, počkaj kým omáčka zhustne a nakoniec pridáš parmezán. Dochuť soľou, bylinkovou soľou a okoreň provensálskymi bylinkami.",
+    "Precedené cestoviny zmiešaj s omáčkou v hrnci.",
+    "Cestoviny ulož do plechu (vymastený olivovým olejom). Na cestoviny poukladaj na kolieska nakrájanú mozzarellu. Daj piecť na 200°C po dobu 10 min.",
+    "Hotové jedlo.",
+    "Naservíruj."
+  ],
+  "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "bezmäsité",
+    "syr",
+    "zelenina"
+  ]
 }

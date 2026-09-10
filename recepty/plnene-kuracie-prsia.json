@@ -1,126 +1,125 @@
 {
- "id": "plnene-kuracie-prsia",
- "nazov": "Plnené kuracie prsia",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Plnené kuracie prsia (autor: stacy77777)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/plnene-kuracie-prsia/38765-recept.html",
- "porcie": 8,
- "cas": "90 min",
- "kcal_na_porciu": 448,
- "popis": "Pôvodne som chcela dnes robiť recept od Palokuchki na kuracie košíčky, ale keďže patrilo medzi nadľudské výkony u nás zohnať píniové oriešky, musela som od tohoto receptu upustiť a prišla na rad improvizácia....",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Korenie štyroch farieb čerstvo pomlete",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rožky",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pór",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľka mladá s vňaťou",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvá rukola",
-   "mnozstvo": 15,
-   "jednotka": "list",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajky cherry",
-   "mnozstvo": 8,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie štyroch farieb",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Syr eidam jemne nastrúhaný",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Plnotučná horčica",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Kuracie prsia ponakrajuj, aby vznikol plát, do ktorého sa plnka zabalí. Posoľ a posyp čerstvo namletým korením štyroch farieb.",
-  "Rožky si nakrájaj na malé kocky a opraž na sucho na panvici. Hotové odlož do misky, pridaj vajíčka, nakrájaný pór, cibuľku aj s vňaťou, rukolu, pokrájaj cherry paradajky, pridaj troška soli, málo, soľ mäso, korenie, vňať petržlenu a na jemno nastrúhaný syr. Všetko spolu vymiešaj.",
-  "Plnku nanes na plát kuracích pŕs.",
-  "Zlož okrajmi dohora, do bochníčka a upevni špajlami. Takto pripravené prudko opeč na oleji.",
-  "Opečené prelož do misy z jenského skla. Do výpeku daj 1 lyžicu horčice, podlej vodou, horčicu rozmiešaj a zalej mäso. Na každý bochník ulož kúsoček masla.",
-  "Peč na 200°C asi 50-60minút. Podávaj ľubovoľne s hranolkami, pyré, ryžou"
- ],
- "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kuracie",
-  "syr",
-  "vajcia"
- ]
+  "id": "plnene-kuracie-prsia",
+  "nazov": "Plnené kuracie prsia",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Plnené kuracie prsia (autor: stacy77777)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/plnene-kuracie-prsia/38765-recept.html",
+  "porcie": 8,
+  "cas": "90 min",
+  "kcal_na_porciu": 448,
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Korenie štyroch farieb čerstvo pomlete",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rožky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pór",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľka mladá s vňaťou",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvá rukola",
+      "mnozstvo": 15,
+      "jednotka": "list",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky cherry",
+      "mnozstvo": 8,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie štyroch farieb",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Syr eidam jemne nastrúhaný",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Plnotučná horčica",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kuracie prsia ponakrajuj, aby vznikol plát, do ktorého sa plnka zabalí. Posoľ a posyp čerstvo namletým korením štyroch farieb.",
+    "Rožky si nakrájaj na malé kocky a opraž na sucho na panvici. Hotové odlož do misky, pridaj vajíčka, nakrájaný pór, cibuľku aj s vňaťou, rukolu, pokrájaj cherry paradajky, pridaj troška soli, málo, soľ mäso, korenie, vňať petržlenu a na jemno nastrúhaný syr. Všetko spolu vymiešaj.",
+    "Plnku nanes na plát kuracích pŕs.",
+    "Zlož okrajmi dohora, do bochníčka a upevni špajlami. Takto pripravené prudko opeč na oleji.",
+    "Opečené prelož do misy z jenského skla. Do výpeku daj 1 lyžicu horčice, podlej vodou, horčicu rozmiešaj a zalej mäso. Na každý bochník ulož kúsoček masla.",
+    "Peč na 200°C asi 50-60minút. Podávaj ľubovoľne s hranolkami, pyré, ryžou"
+  ],
+  "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kuracie",
+    "syr",
+    "vajcia"
+  ]
 }

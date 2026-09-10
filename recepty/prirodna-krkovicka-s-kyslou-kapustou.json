@@ -1,69 +1,69 @@
 {
- "id": "prirodna-krkovicka-s-kyslou-kapustou",
- "nazov": "Prírodná krkovička s kyslou kapustou",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Prírodná krkovička s kyslou kapustou (fotorecept) (autor: janazjarku)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/prirodna-krkovicka-s-kyslou-kapustou-fotorecept/15502-recept.html",
- "porcie": 6,
- "cas": "75 min",
- "kcal_na_porciu": 521,
- "popis": "Tento recept som vyhútala včera podvečer s cieľom uvariť niečo dobré a pritom sa veľmi nenarobiť :-) Výsledok prekvapil svojou jednoduchosťou a nezameniteľnou slovenskou chuťou, lebo krkovička a kyslá kapusta to je predsa ono !",
- "ingrediencie": [
-  {
-   "nazov": "Bravčová krkovička",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kvasená kapusta",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Bravčovú krkovičku nakrájaj na rezne cca 2 cm hrubé, osoľ, okoreň, potri jemne olejom a nechaj odležať Inak celkom nič sa nestane ak tie rezne nebudú odležané, lebo základ bude krkovička na prírodno, ale odležaná bola chutnejšia.",
-  "Priprav si dve väčšie cibule, ktoré pozdĺžne nakrájaš na hrubšie plátky.",
-  "Do rajnice v ktorej budeš celé jedlo pripravovať naleješ olej na ktorom budeš postupne opekať rezne.",
-  "Mäso po opečení ukladaj na zohriaty tanier (aby sa nezľaklo)",
-  "Po opečení posledných rezňov všetko vráť do výpeku pričom už nepridávaj žiadny olej, lebo krkovička si pustí svoju šťavu sama.",
-  "Mäso posyp cibuľou a cibuľu jemne osoľ. Pozor mäso nemiešaj a nepodlievaj!! Rajnicu prikryj a na miernom ohni dus podľa \"veku\" krkovičky 40-50 minút.",
-  "Priprav si kyslú kapustu, ak je potrebné nakrájaš ju na menšie rezance, aby sa nám neťahala až za uši, keď sa budeš pri jedle oblizovať",
-  "Približne 10 minút pred ukončením dusenia (keď je mäso mäkké) pridáš surovú kyslú kapustu, nemiešaj a prikryté podus a neuveríte je navarené!",
-  "Jedlo, ktoré sa na pohľad tvári ako známe české \"knedlo, vepřo, zelo\" uvar v jedom hrnci čo určite ocenia zamestnané žienky, ale aj tie čo sú na materskej \"dovolenke\". Predpokladám, že rovnako dobré to môže byť aj s kuracími rezňami (info pre nebravčové krajiny).",
-  "Tak a potom je na vašom rozhodnutí, či príloha budú knedle, alebo pečené či varené zemiaky. Dobrú chuť milí varecháči!!"
- ],
- "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "zelenina"
- ]
+  "id": "prirodna-krkovicka-s-kyslou-kapustou",
+  "nazov": "Prírodná krkovička s kyslou kapustou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Prírodná krkovička s kyslou kapustou (fotorecept) (autor: janazjarku)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/prirodna-krkovicka-s-kyslou-kapustou-fotorecept/15502-recept.html",
+  "porcie": 6,
+  "cas": "75 min",
+  "kcal_na_porciu": 521,
+  "popis": "Jednoduché jedlo z krkovičky a kyslej kapusty s nezameniteľnou slovenskou chuťou.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčová krkovička",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kvasená kapusta",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Bravčovú krkovičku nakrájaj na rezne cca 2 cm hrubé, osoľ, okoreň, potri jemne olejom a nechaj odležať Inak celkom nič sa nestane ak tie rezne nebudú odležané, lebo základ bude krkovička na prírodno, ale odležaná bola chutnejšia.",
+    "Priprav si dve väčšie cibule, ktoré pozdĺžne nakrájaš na hrubšie plátky.",
+    "Do rajnice v ktorej budeš celé jedlo pripravovať naleješ olej na ktorom budeš postupne opekať rezne.",
+    "Mäso po opečení ukladaj na zohriaty tanier (aby sa nezľaklo)",
+    "Po opečení posledných rezňov všetko vráť do výpeku pričom už nepridávaj žiadny olej, lebo krkovička si pustí svoju šťavu sama.",
+    "Mäso posyp cibuľou a cibuľu jemne osoľ. Pozor mäso nemiešaj a nepodlievaj!! Rajnicu prikryj a na miernom ohni dus podľa \"veku\" krkovičky 40-50 minút.",
+    "Priprav si kyslú kapustu, ak je potrebné nakrájaš ju na menšie rezance, aby sa nám neťahala až za uši, keď sa budeš pri jedle oblizovať",
+    "Približne 10 minút pred ukončením dusenia (keď je mäso mäkké) pridáš surovú kyslú kapustu, nemiešaj a prikryté podus a neuveríte je navarené!",
+    "Jedlo, ktoré sa na pohľad tvári ako známe české \"knedlo, vepřo, zelo\" uvar v jedom hrnci čo určite ocenia zamestnané žienky, ale aj tie čo sú na materskej \"dovolenke\". Predpokladám, že rovnako dobré to môže byť aj s kuracími rezňami (info pre nebravčové krajiny).",
+    "Tak a potom je na vašom rozhodnutí, či príloha budú knedle, alebo pečené či varené zemiaky. Dobrú chuť milí varecháči!!"
+  ],
+  "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "zelenina"
+  ]
 }

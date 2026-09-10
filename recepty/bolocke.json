@@ -1,123 +1,122 @@
 {
- "id": "bolocke",
- "nazov": "Bolocke",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Bolocke (fotorecept) (autor: monty469)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/bolocke-fotorecept/63625-recept.html",
- "porcie": 20,
- "cas": "30 min",
- "kcal_na_porciu": 331,
- "popis": "Ako je u mňa zvykom, rada pečiem koláče podľa starých receptov, a ešte radšej, keď \r\nje ten recept od mojej babky, \r\nktorá má úctyhodných 96 rokov! Pri poslednej návšteve, som objavila veľmi vzácny \r\nzošit z jej receptami, ktoré  zvykla piecť.. mnoho z nich si pamätám .. keď sme chodili \r\nk babke na prázdniny, stále nás pohostila niečím sladkým, najčastejšie to bol koláč na \r\nkyslom mlieku, ale ta",
- "ingrediencie": [
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok do pečiva",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kakao",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlašské orechy",
-   "mnozstvo": 5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový cukor",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilková aróma",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "pár kvapiek"
-  },
-  {
-   "nazov": "Višňový lekvár",
-   "mnozstvo": 320,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlašské orechy",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Strúhaná čokoláda",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na vrch"
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Múka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "V úvode vám ponúkam originál recept z babkineho zošita ho trošku upravila, pridaj orechy a na vrch nastrúhala čokoládu",
-  "Takže, v múke rozmiešaj kypriaci prášok, pridaj maslo, cukor, vajíčka a hneť cesto.",
-  "Cesto rozdeľ na tri časti.",
-  "Do jednej daj kakao, do druhej orechy, do tretej vanilkový cukor. Daj do chladničky na polhodinku.",
-  "Rozvaľkaj kakaové cesto, daj na maslom vymastený a múkou vysypaný plech (35x25), natri lekvárom. Použi višňový lekvár s kúskami višní Lekvárom nešetr!",
-  "Teraz rozvaľkaj orechové cesto, daj na kakaové, opäť potri lekvárom, zasyp orechami, ktoré si rozmiešaj s kryštálovým cukrom.",
-  "Na záver rozvaľkaj vanilkové cesto, a daj na orechovú vrstvu. Popichaj vidličkou a peč pri teplote 180°C asi 30 minút.",
-  "Po upečení vrch potri ešte za horúca tenkou vrstvou lekváru, a hneď postrúhaj čokoládou. Čokoláda sa pekne roztopí.",
-  "Nechaj vychladnúť a podávaj A konečne si môžem na chvíľu vyložiť nohy, uvariť kávičku a vychutnávať voľný deň"
- ],
- "tipy": "Čokoládu top nad parou, nie priamo na platni — nad 50 °C sa zráža a zrnie.",
- "foto": "",
- "tagy": [
-  "dezert",
-  "vajcia",
-  "čokoláda",
-  "bezmäsité"
- ]
+  "id": "bolocke",
+  "nazov": "Bolocke",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Bolocke (fotorecept) (autor: monty469)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/bolocke-fotorecept/63625-recept.html",
+  "porcie": 20,
+  "cas": "30 min",
+  "kcal_na_porciu": 331,
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kakao",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový cukor",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilková aróma",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "pár kvapiek"
+    },
+    {
+      "nazov": "Višňový lekvár",
+      "mnozstvo": 320,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Strúhaná čokoláda",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na vrch"
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Múka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "V úvode vám ponúkam originál recept z babkineho zošita ho trošku upravila, pridaj orechy a na vrch nastrúhala čokoládu",
+    "Takže, v múke rozmiešaj kypriaci prášok, pridaj maslo, cukor, vajíčka a hneť cesto.",
+    "Cesto rozdeľ na tri časti.",
+    "Do jednej daj kakao, do druhej orechy, do tretej vanilkový cukor. Daj do chladničky na polhodinku.",
+    "Rozvaľkaj kakaové cesto, daj na maslom vymastený a múkou vysypaný plech (35x25), natri lekvárom. Použi višňový lekvár s kúskami višní Lekvárom nešetr!",
+    "Teraz rozvaľkaj orechové cesto, daj na kakaové, opäť potri lekvárom, zasyp orechami, ktoré si rozmiešaj s kryštálovým cukrom.",
+    "Na záver rozvaľkaj vanilkové cesto, a daj na orechovú vrstvu. Popichaj vidličkou a peč pri teplote 180°C asi 30 minút.",
+    "Po upečení vrch potri ešte za horúca tenkou vrstvou lekváru, a hneď postrúhaj čokoládou. Čokoláda sa pekne roztopí.",
+    "Nechaj vychladnúť a podávaj A konečne si môžem na chvíľu vyložiť nohy, uvariť kávičku a vychutnávať voľný deň"
+  ],
+  "tipy": "Čokoládu top nad parou, nie priamo na platni — nad 50 °C sa zráža a zrnie.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "vajcia",
+    "čokoláda",
+    "bezmäsité"
+  ]
 }

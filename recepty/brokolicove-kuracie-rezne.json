@@ -1,84 +1,84 @@
 {
- "id": "brokolicove-kuracie-rezne",
- "nazov": "Brokolicové kuracie rezne",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Brokolicové kuracie rezne (autor: owlann)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/brokolicove-kuracie-rezne-/55088-recept.html",
- "porcie": 6,
- "cas": "1 hod 30 min",
- "kcal_na_porciu": 391,
- "popis": "Medzi obľúbený druh mäsa, ktorý konzumuješ patrí predovšetkým kuracina. Tá je u \r\nmňa TOP  a má mnohostranné využitie. Tento obed je tiež kombináciou surovín, ktoré \r\nobľubuješ - brokolica, plesňový syr a schwarzwaldská šunka. \r\nPriatelia mali prísť na kolaudáciu bytu, preto som im uvarila naše obľúbené :) \r\nBohužiaľ pri varení, pečení a príprave pre návštevu som nestihla jedlo nafotiť, preto \r\n",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Malá brokolica",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Syr eidam",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Plesňový syr",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šunka kuracia",
-   "mnozstvo": 4,
-   "jednotka": "plátok",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Schwarzwaldská šunka",
-   "mnozstvo": 4,
-   "jednotka": "plátok",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Na začiatku našej prípravy si umyj brokolicu a rozdeľ ju na ružičky. Daj do hrnca so slanou vodou a povar, aby bola stredne tvrdá, cca taká ako keď ju chceš vyprážať. Zlej vodu a brokolicu si nastrúhaj na strúhadle s väčšími otvormi. Daj si ju bokom.",
-  "Priprav si syr eidam aj plesňový syr - môže byť Niva, príp. Rival. Oba syry si nastrúhaj a zmiešaj s nastrúhanou brokolicou. Osoľ - ale jemne, pretože syr je slaný.",
-  "Kuracie prsia si umyj, orež všetky tie biele veci, ktoré sú na mäse a osuš. Rezne si nakoreň, osoľ a z každej strany jemne naklep. Do každého rezňa vlož plátok šunky, môžeš aj dva, podľa toho, kto je aký mäsožravec a plň pripravenou brokolicovo-syrovou zmesou.",
-  "V tomto bode si naplnené mäsko musíš nejako \"zopnúť\", aby nám plnka pri pečení neušla. Použi obyčajné špáradlá, prípadne nalámanú špajdlu, ale veď vy si poradíte Na panvici si rozpáľ olej a môžeš opekať mäsko, najskôr na silnejšou plameni, aby sa nám uzavrelo a potom si zmierniš oheň a jemne pečieš.",
-  "Mäsko je hotové, keď je mäkké, to budete vidieť, neviem presne povedať čas, pretože každý má inú platňu ale určite to budete vidieť a ja to robím tak, že do mäsa pichnem jemne vidličkou a cítim, či je mäkké alebo ešte je surové zvnútra. Pred koncom pečenia si mäso obaľ v schwarzwaldskej šunke.",
-  "Šunku dávaj preto neskôr, aby sa nám hneď nespiekla, pričom mäso by bolo ešte surové. Ak sa stane že šunka z mäsa opadáva, nič sa nedeje, stačí ju len pri servírovaní položiť na vrch.",
-  "K hotovým brokolicovým rezňom podávaj opekané zemiaky alebo ryžu, no môžeš aj 1/2 ryža, 1/2 zemiaky. To už záleží od chute a stravníkov. Taktiež môžeš pripraviť zeleninový šalát a ja robievam cesnakový dressing - kyslá smotana, cesnak, korenie, soľ. Pri servírovaní jemne posyp červenou paprikou. Dobrú chuť"
- ],
- "tipy": "Olej rozohrej na 170–180 °C. Pri nižšej teplote sa obal napije tuku, pri vyššej sa spáli skôr, než sa vnútro prehreje.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kuracie",
-  "syr"
- ]
+  "id": "brokolicove-kuracie-rezne",
+  "nazov": "Brokolicové kuracie rezne",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Brokolicové kuracie rezne (autor: owlann)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/brokolicove-kuracie-rezne-/55088-recept.html",
+  "porcie": 6,
+  "cas": "1 hod 30 min",
+  "kcal_na_porciu": 391,
+  "popis": "Kuracie rezne, ktoré kombinujú brokolicu, plesňový syr a schwarzwaldskú šunku.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Malá brokolica",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr eidam",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Plesňový syr",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šunka kuracia",
+      "mnozstvo": 4,
+      "jednotka": "plátok",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Schwarzwaldská šunka",
+      "mnozstvo": 4,
+      "jednotka": "plátok",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na začiatku našej prípravy si umyj brokolicu a rozdeľ ju na ružičky. Daj do hrnca so slanou vodou a povar, aby bola stredne tvrdá, cca taká ako keď ju chceš vyprážať. Zlej vodu a brokolicu si nastrúhaj na strúhadle s väčšími otvormi. Daj si ju bokom.",
+    "Priprav si syr eidam aj plesňový syr - môže byť Niva, príp. Rival. Oba syry si nastrúhaj a zmiešaj s nastrúhanou brokolicou. Osoľ - ale jemne, pretože syr je slaný.",
+    "Kuracie prsia si umyj, orež všetky tie biele veci, ktoré sú na mäse a osuš. Rezne si nakoreň, osoľ a z každej strany jemne naklep. Do každého rezňa vlož plátok šunky, môžeš aj dva, podľa toho, kto je aký mäsožravec a plň pripravenou brokolicovo-syrovou zmesou.",
+    "V tomto bode si naplnené mäsko musíš nejako \"zopnúť\", aby nám plnka pri pečení neušla. Použi obyčajné špáradlá, prípadne nalámanú špajdlu, ale veď vy si poradíte Na panvici si rozpáľ olej a môžeš opekať mäsko, najskôr na silnejšou plameni, aby sa nám uzavrelo a potom si zmierniš oheň a jemne pečieš.",
+    "Mäsko je hotové, keď je mäkké, to budete vidieť, neviem presne povedať čas, pretože každý má inú platňu ale určite to budete vidieť a ja to robím tak, že do mäsa pichnem jemne vidličkou a cítim, či je mäkké alebo ešte je surové zvnútra. Pred koncom pečenia si mäso obaľ v schwarzwaldskej šunke.",
+    "Šunku dávaj preto neskôr, aby sa nám hneď nespiekla, pričom mäso by bolo ešte surové. Ak sa stane že šunka z mäsa opadáva, nič sa nedeje, stačí ju len pri servírovaní položiť na vrch.",
+    "K hotovým brokolicovým rezňom podávaj opekané zemiaky alebo ryžu, no môžeš aj 1/2 ryža, 1/2 zemiaky. To už záleží od chute a stravníkov. Taktiež môžeš pripraviť zeleninový šalát a ja robievam cesnakový dressing - kyslá smotana, cesnak, korenie, soľ. Pri servírovaní jemne posyp červenou paprikou. Dobrú chuť"
+  ],
+  "tipy": "Olej rozohrej na 170–180 °C. Pri nižšej teplote sa obal napije tuku, pri vyššej sa spáli skôr, než sa vnútro prehreje.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kuracie",
+    "syr"
+  ]
 }

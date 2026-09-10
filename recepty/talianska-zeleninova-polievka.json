@@ -1,80 +1,79 @@
 {
- "id": "talianska-zeleninova-polievka",
- "nazov": "Talianska zeleninová polievka",
- "kategoria": "Polievka",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Talianska zeleninová polievka (autor: lair)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/talianska-zeleninova-polievka/13197-recept.html",
- "porcie": 4,
- "cas": "55 min",
- "kcal_na_porciu": 85,
- "popis": "Ahoj. Som tu nový, teda čítam tieto recepty, v tom nie som nový, ale som čerstvo zaregistrovaný. Žijem a pracujem v Anglicku ako žeriavnik. Pracujem v Londýne, ale žijem na južnom pobreží. V sobotu a v nedeľu var v jednom pube, na vidieku, je to vlastne uprostred ničoho. Ten pub nie je ani v mes, ani v dedine, iba niekoľko fárm je naokolo. Popri tradičnej anglickej strave var aj niečo od n",
- "ingrediencie": [
-  {
-   "nazov": "Zelenina mrazená Talianska",
-   "mnozstvo": 750,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Parajky krájané v konzerve",
-   "mnozstvo": 340,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajková šťava",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 5,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené oregano",
-   "mnozstvo": 10,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cestoviny",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bujón",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Stredne veľkú cibuľu nakrájaj na kocky a popraž. Pridaj červenú papriku a hneď Taliansku mrazenú zeleninovú zmes. (dostať ju iba v Lidl tak ako na Slovensku, aj v Anglicku). Pridaj mleté čierne korenie, roztlačený cesnak, oregáno, zeleninový bujón ( môže by aj slepačí, prípadne vegeta). Pridaj ešte konzervu posekaných paradajok a paradajkový pretlak, alebo štavu.",
-  "Pridaj ešte horúcu vodu a var v prikrytom hrnci na malom plameni 30 -40 minút. Potom pridaj cestoviny, najlepšie malé ako tarhoňa. Ja iba polámem špagety na malé kúsky. Povar ešte polievku asi 10 minút a keď sú cestoviny v nej uvarené, polievka je hotová.",
-  "Pri podávaní polievky môžeš každému, ak to má rád, pridať strúhaný parmezán. Táto polievka nie je síce minestrone, ale chutí rovnako dobre"
- ],
- "tipy": "Pohár vody z varenia cestovín si odlož. Škrob v nej spojí omáčku s cestovinami lepšie než smotana.",
- "foto": "",
- "tagy": [
-  "polievka",
-  "cestoviny",
-  "bezmäsité"
- ]
+  "id": "talianska-zeleninova-polievka",
+  "nazov": "Talianska zeleninová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Talianska zeleninová polievka (autor: lair)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/talianska-zeleninova-polievka/13197-recept.html",
+  "porcie": 4,
+  "cas": "55 min",
+  "kcal_na_porciu": 85,
+  "ingrediencie": [
+    {
+      "nazov": "Zelenina mrazená Talianska",
+      "mnozstvo": 750,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parajky krájané v konzerve",
+      "mnozstvo": 340,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajková šťava",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 5,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené oregano",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bujón",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Stredne veľkú cibuľu nakrájaj na kocky a popraž. Pridaj červenú papriku a hneď Taliansku mrazenú zeleninovú zmes. (dostať ju iba v Lidl tak ako na Slovensku, aj v Anglicku). Pridaj mleté čierne korenie, roztlačený cesnak, oregáno, zeleninový bujón ( môže by aj slepačí, prípadne vegeta). Pridaj ešte konzervu posekaných paradajok a paradajkový pretlak, alebo štavu.",
+    "Pridaj ešte horúcu vodu a var v prikrytom hrnci na malom plameni 30 -40 minút. Potom pridaj cestoviny, najlepšie malé ako tarhoňa. Ja iba polámem špagety na malé kúsky. Povar ešte polievku asi 10 minút a keď sú cestoviny v nej uvarené, polievka je hotová.",
+    "Pri podávaní polievky môžeš každému, ak to má rád, pridať strúhaný parmezán. Táto polievka nie je síce minestrone, ale chutí rovnako dobre"
+  ],
+  "tipy": "Pohár vody z varenia cestovín si odlož. Škrob v nej spojí omáčku s cestovinami lepšie než smotana.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "cestoviny",
+    "bezmäsité"
+  ]
 }

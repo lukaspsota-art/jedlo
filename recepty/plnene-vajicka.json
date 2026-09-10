@@ -1,63 +1,62 @@
 {
- "id": "plnene-vajicka",
- "nazov": "Plnené vajíčka",
- "kategoria": "Príloha",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Plnené vajíčka (autor: atusqa)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/plnene-vajicka-/24437-recept.html",
- "porcie": 12,
- "cas": "20 min",
- "kcal_na_porciu": 78,
- "popis": "Ten to recept sme robili v 2. triede a moja skupina vyhrala .Odporúčam.:))",
- "ingrediencie": [
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 6,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tavený syr",
-   "mnozstvo": 70,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horčica francúzska",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Karí korenie",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Vajíčka uvar na tvrdo.Olúp ich,vychladené prekroj na polovicu.",
-  "Žítka vyber a daj ich do misky.Pridaj všetky suroviny okrem bielok.",
-  "Dobre vymiešaj a prekrojené bielka naplň zmesou."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "syr",
-  "vajcia",
-  "bezmäsité",
-  "príloha"
- ]
+  "id": "plnene-vajicka",
+  "nazov": "Plnené vajíčka",
+  "kategoria": "Príloha",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Plnené vajíčka (autor: atusqa)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/plnene-vajicka-/24437-recept.html",
+  "porcie": 12,
+  "cas": "20 min",
+  "kcal_na_porciu": 78,
+  "ingrediencie": [
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 6,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tavený syr",
+      "mnozstvo": 70,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica francúzska",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Karí korenie",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vajíčka uvar na tvrdo.Olúp ich,vychladené prekroj na polovicu.",
+    "Žítka vyber a daj ich do misky.Pridaj všetky suroviny okrem bielok.",
+    "Dobre vymiešaj a prekrojené bielka naplň zmesou."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "syr",
+    "vajcia",
+    "bezmäsité",
+    "príloha"
+  ]
 }

@@ -1,60 +1,60 @@
 {
- "id": "orechove-rozky-viano",
- "nazov": "Orechové rožky (vianočné)",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Duté orechové rožky (fotorecept) (autor: 18mon)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/dute-orechove-rozky-fotorecept/46901-recept.html",
- "porcie": 24,
- "cas": "30 min",
- "kcal_na_porciu": 120,
- "popis": "Tieto  rožteky milujem a tak som si teraz len na nečisto pár kúskov upiekla ešte takto pred \r\nVianocami, aby som si bola istá že ich ešte viem upiecť :) Tak sa s vami podelím o  tento \r\nrýchly a jednoduchý recept.",
- "ingrediencie": [
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sóda bikarbóna",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlašské orechy",
-   "mnozstvo": 125,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 125,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Múku preosej s cukrom, pridaj sódu bikarbónu, mleté vlašské orechy a pokrájané maslo. Vypracuj pevné cesto.",
-  "Cesto po kúskoch vtláčaj do formičiek.",
-  "Keď máš hotovo",
-  "daj piecť do vyhriatej rúry, ktorú vyhreješ len na 150°C a pečieš 15 minút. Rožteky sa nesmú piecť prudko, pretože by spľasli. Takto sa nám pekne nafúknu..",
-  "Po upečení nechaj pečivo chvíľku vychladnúť vo formičkách a potom rožteky vyklop.",
-  "Mne vyšlo 51 rožtekov, ale moja forma je na dosť veľké rožky, takže ak máte menšie formičky, tak aj rožtekov bude pre viac mlsných jazýčkov."
- ],
- "tipy": "Pečivo nechaj úplne vychladnúť, až potom ho krájaj — v teplom sa strieda ešte dopeká.",
- "foto": "",
- "tagy": [
-  "pečivo",
-  "slovenské",
-  "vianočné",
-  "orechy"
- ]
+  "id": "orechove-rozky-viano",
+  "nazov": "Orechové rožky (vianočné)",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Duté orechové rožky (fotorecept) (autor: 18mon)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/dute-orechove-rozky-fotorecept/46901-recept.html",
+  "porcie": 24,
+  "cas": "30 min",
+  "kcal_na_porciu": 120,
+  "popis": "Rýchle a jednoduché orechové rožteky, ktoré sa pečú pred Vianocami.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sóda bikarbóna",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 125,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 125,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Múku preosej s cukrom, pridaj sódu bikarbónu, mleté vlašské orechy a pokrájané maslo. Vypracuj pevné cesto.",
+    "Cesto po kúskoch vtláčaj do formičiek.",
+    "Keď máš hotovo",
+    "daj piecť do vyhriatej rúry, ktorú vyhreješ len na 150°C a pečieš 15 minút. Rožteky sa nesmú piecť prudko, pretože by spľasli. Takto sa nám pekne nafúknu..",
+    "Po upečení nechaj pečivo chvíľku vychladnúť vo formičkách a potom rožteky vyklop.",
+    "Mne vyšlo 51 rožtekov, ale moja forma je na dosť veľké rožky, takže ak máte menšie formičky, tak aj rožtekov bude pre viac mlsných jazýčkov."
+  ],
+  "tipy": "Pečivo nechaj úplne vychladnúť, až potom ho krájaj — v teplom sa strieda ešte dopeká.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "slovenské",
+    "vianočné",
+    "orechy"
+  ]
 }

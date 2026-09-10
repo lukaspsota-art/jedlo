@@ -1,75 +1,75 @@
 {
- "id": "proteinove-placky",
- "nazov": "Proteínové placky",
- "kategoria": "Raňajky",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Proteínové placky (fotorecept) (autor: katka90)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/proteinove-placky-fotorecept/37807-recept.html",
- "porcie": 5,
- "cas": "55 min",
- "kcal_na_porciu": 119,
- "popis": "Inšpirovala som sa receptom od Rous5 na Tvarohovú fitness pochúťku, ale upravila \r\nsom si prísady podľa toho čo som mala doma, a podľa toho koľko bielkovín a \r\nsacharidov potrebujem :D Ako prílohu som si urobila ovsenú kašu, ale dajú sa jesť aj \r\nlen tak samé. Ja som tú kašu potrebovala aby som dokopy mala na deň 100 g \r\nsacharidov. Všetky placky z tejto dávky cesta majú spolu zhruba 60 g bielkoví",
- "ingrediencie": [
-  {
-   "nazov": "Nízkotučný tvaroh",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cottage Cheese",
-   "mnozstvo": 75,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Celé vajce",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Srvátkový proteín",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ovsené vločky",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sladidlo umelé al. Stevia",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Vanilková esencia",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti (nemusí byť"
-  }
- ],
- "postup": [
-  "Tu sú nachystané suroviny. Tvaroh som použila ten jemný nízkotučný, hrudkovitý som nemala. Kvôli nemu bolo cesto úplne riedke, ale nevadí. Vanilkovú arómu nemusíte dávať, ja som ju dala len preto, lebo som mala chuť na niečo naozaj vanilkové. Proteín je tiež vanilkový, ale určite to nepokazíte ani inou príchuťou. Ja niekedy vyskúšam aj čokoládový.",
-  "Ovsené vločky si asi hodinku vopred namoč do studenej vody.Vajce vyšľahaj s vanilkovou arómou.Cottage zmiešaj s tvarohom a sladidlom.",
-  "Tvarohovú zmes zmiešaj s vajíčkom.",
-  "Potom pridaj ovsené vločky.",
-  "Tu je hotové \"cesto\". Je naozaj dosť riedke. Ak sa vám podarí hustejšie, tak to vôbec nevadí :D",
-  "Cesto daj na plech s papierom na pečenie. Ja som si na deň naplánovala 5 porcií, tak som si urobila 10 placiek, na každú porciu 2. A bola to aj taká akurát veľkosť.",
-  "Peč vo vopred vyhriatej rúre na 180 °C asi 20 minút.Po tomto čase placky vyzeraj ako tuhší puding, tak ich asi ešte ďalších 20 minút nechaj \"sušiť\" vo vypnutej rúre. Na tomto obrázku sú už hotové.",
-  "Placky nechaj trošku vychladnúť a keď sa dajú chytiť, odlep ich z papiera na pečenie a hotovo :)",
-  "K plackám som si urobila ešte ovsenú kašu klasickým postupom - za stáleho miešania som rozvarila vločky vo vode. Pridala som sladidlo a 2 lyžičky čokoládového proteínu (len pre chuť) a nakoniec posypala kakaom."
- ],
- "tipy": "Vajcia miešaj na miernom ohni a stiahni ich z platne, kým sú ešte trochu tekuté — dohotovia sa vlastným teplom.",
- "foto": "",
- "tagy": [
-  "tvaroh",
-  "vajcia",
-  "bezmäsité",
-  "raňajky"
- ]
+  "id": "proteinove-placky",
+  "nazov": "Proteínové placky",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Proteínové placky (fotorecept) (autor: katka90)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/proteinove-placky-fotorecept/37807-recept.html",
+  "porcie": 5,
+  "cas": "55 min",
+  "kcal_na_porciu": 119,
+  "popis": "Proteínové placky, ktoré sa dajú jesť samotné aj s ovsenou kašou; všetky placky z tejto dávky cesta majú spolu zhruba 60 g bielkovín.",
+  "ingrediencie": [
+    {
+      "nazov": "Nízkotučný tvaroh",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cottage Cheese",
+      "mnozstvo": 75,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Celé vajce",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Srvátkový proteín",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ovsené vločky",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladidlo umelé al. Stevia",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Vanilková esencia",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti (nemusí byť"
+    }
+  ],
+  "postup": [
+    "Tu sú nachystané suroviny. Použi jemný nízkotučný tvaroh, hrudkovitý netreba. Kvôli nemu bude cesto úplne riedke, ale nevadí. Vanilkovú arómu nemusíš dávať, hodí sa, keď máš chuť na niečo naozaj vanilkové. Proteín je tiež vanilkový, ale určite to nepokazíš ani inou príchuťou, napríklad čokoládovou.",
+    "Ovsené vločky si asi hodinku vopred namoč do studenej vody. Vajce vyšľahaj s vanilkovou arómou. Cottage zmiešaj s tvarohom a sladidlom.",
+    "Tvarohovú zmes zmiešaj s vajíčkom.",
+    "Potom pridaj ovsené vločky.",
+    "Tu je hotové „cesto“. Je naozaj dosť riedke. Ak sa ti podarí hustejšie, tak to vôbec nevadí.",
+    "Cesto daj na plech s papierom na pečenie. Na 5 porcií urob 10 placiek, na každú porciu 2. A je to aj taká akurát veľkosť.",
+    "Peč vo vopred vyhriatej rúre na 180 °C asi 20 minút. Po tomto čase placky vyzerajú ako tuhší puding, tak ich asi ešte ďalších 20 minút nechaj „sušiť“ vo vypnutej rúre. Na tomto obrázku sú už hotové.",
+    "Placky nechaj trošku vychladnúť a keď sa dajú chytiť, odlep ich z papiera na pečenie a hotovo.",
+    "K plackám si urob ešte ovsenú kašu klasickým postupom - za stáleho miešania rozvar vločky vo vode. Pridaj sladidlo a 2 lyžičky čokoládového proteínu (len pre chuť) a nakoniec posyp kakaom."
+  ],
+  "tipy": "Vajcia miešaj na miernom ohni a stiahni ich z platne, kým sú ešte trochu tekuté — dohotovia sa vlastným teplom.",
+  "foto": "",
+  "tagy": [
+    "tvaroh",
+    "vajcia",
+    "bezmäsité",
+    "raňajky"
+  ]
 }

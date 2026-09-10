@@ -1,93 +1,93 @@
 {
- "id": "dusena-bravcova-pecienka-na-cibulke",
- "nazov": "Dusená bravčová pečienka na cibuľke",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Dusená bravčová pečienka na cibuľke (fotorecept) (autor: babkamt)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/dusena-bravcova-pecienka-na-cibulke-fotorecept/51586-recept.html",
- "porcie": 4,
- "cas": "10 min",
- "kcal_na_porciu": 320,
- "popis": "Dnes som si bola kúpiť mäso na nedeľu. Kým mi predavačka vydávala, upútala ma \r\nbravčová pečienka. Už sme ju nemali hádam aj  2 - 3 roky. Tak som si kúsok zabrala, \r\nlebo som nemala uvarené a z nej bol obed rýchlo pripravený. Recept je z mojej prvej \r\npísanky, kde som si zapisovala recepty ako mladá gazdinka.",
- "ingrediencie": [
-  {
-   "nazov": "Bravčová pečeň",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa väčšia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Masť bravčová domáca",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená sladká mletá paprika",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Škrob",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Majorán",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Umytú pečienku nakrájaj asi na 5 cm dlhé slížiky. Podarilo sa mi kúpiť pekný kúsok.",
-  "Ma 1 pl domácej bravčovej masti do sklovita opeč cibuľu. Pridaj aj mletú rascu. Tiež ju opeč.",
-  "Budem potrebovať mleté čierne korenie, majoránku, paradajkový pretlak. Kto ho nemá, stačí malá konzerva z obchodu. Ja mám ešte od vlani svoj domáci. Na fotke mi chýba sladká mletá paprika.",
-  "Cibuľu odstav z plameňa, pridaj sladkú mletú červenú papriku.",
-  "Vráť panvicu na oheň. K cibuli pridaj pečienku, mleté korenie. Chvíľu pečienku praž.",
-  "Ja mám rada šťavu, keby to nechaj v panvici, tak by som jej mala málo.",
-  "Pečienku popráš l čl solamylu, chvíľu popraž,",
-  "potom pridaj paradajkový pretlak.",
-  "Pečienku ešte chvíľu povar. Do uvarenej daj majoránku. Niekto pridáva aj horčicu.",
-  "K pečienke podávaj varené zemiaky a uhorkový šalát. Osoľ ju až na tanieri. Milovníci pečienky, prajem dobrú chuť."
- ],
- "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "zelenina"
- ]
+  "id": "dusena-bravcova-pecienka-na-cibulke",
+  "nazov": "Dusená bravčová pečienka na cibuľke",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Dusená bravčová pečienka na cibuľke (fotorecept) (autor: babkamt)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/dusena-bravcova-pecienka-na-cibulke-fotorecept/51586-recept.html",
+  "porcie": 4,
+  "cas": "10 min",
+  "kcal_na_porciu": 320,
+  "popis": "Bravčová pečienka dusená na cibuľke, z ktorej je obed pripravený rýchlo.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčová pečeň",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa väčšia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Masť bravčová domáca",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená sladká mletá paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škrob",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majorán",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Umytú pečienku nakrájaj asi na 5 cm dlhé slížiky.",
+    "Na 1 pl domácej bravčovej masti opeč cibuľu do sklovita. Pridaj aj mletú rascu a tiež ju opeč.",
+    "Budeš potrebovať mleté čierne korenie, majoránku a paradajkový pretlak. Kto ho nemá, stačí malá konzerva z obchodu. Na fotke chýba sladká mletá paprika.",
+    "Cibuľu odstav z plameňa a pridaj sladkú mletú červenú papriku.",
+    "Vráť panvicu na oheň. K cibuli pridaj pečienku a mleté korenie. Chvíľu pečienku praž.",
+    "Kto má rád šťavu, tomu by jej pri príprave len v panvici zostalo málo.",
+    "Pečienku popráš 1 čl solamylu, chvíľu popraž,",
+    "potom pridaj paradajkový pretlak.",
+    "Pečienku ešte chvíľu povar. Do uvarenej daj majoránku. Niekto pridáva aj horčicu.",
+    "K pečienke podávaj varené zemiaky a uhorkový šalát. Osoľ ju až na tanieri. Milovníkom pečienky prajem dobrú chuť."
+  ],
+  "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "zelenina"
+  ]
 }

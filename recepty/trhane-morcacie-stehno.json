@@ -1,87 +1,87 @@
 {
- "id": "trhane-morcacie-stehno",
- "nazov": "Trhané morčacie stehno",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Trhané morčacie stehno (autor: mirkajan)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/trhane-morcacie-stehno/65173-recept.html",
- "porcie": 8,
- "cas": "315 min",
- "kcal_na_porciu": 448,
- "popis": "K vyskúšaniu tohoto receptu ma inšpiroval recept z časopisu Apetit, kde bol recept na trhané bravčové mäso v \r\nsendviči. Keďže bravčové mäso používaj doma minimálne, povedala som si, že to skúsim spraviť z morčacieho \r\nstehna - buď to vyjde alebo nie. A čuduj sa svete, vyšlo to - bolo to naozaj veľmi dobré. My sme to jedli s pečenými \r\nzemiakmi a Coleslaw šalátom, ale vyskúšali sme to aj do baget",
- "ingrediencie": [
-  {
-   "nazov": "Stehno morčacie horné",
-   "mnozstvo": 2000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa väčšia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 4,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 3,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Drvená celá rasca",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rasca rímska mletá",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Morčacie stehno zbav kože, odblaň a nakrájaj na väčšie kusy. Mäso daj do pekáča.",
-  "V miske zmiešaj na drobno pokrájané cibule, pretlačený cesnak, koreniny, soľ, olivový olej a trochu vody. Premiešaj a pridaj k mäsu. Dôkladne premiešaj rukami a prikryté odlož aspoň na 2 hodiny (alebo celú noc) do chladničky.",
-  "Rúru rozohrej na 200 °C. Do pekáča s mäsom prilej cca 500 ml vody a premiešaj. Prikryté daj piecť do vyhriatej rúry. Pri 200 °C peč dovtedy, kým tekutina v pekáči nezačne vrieť, potom teplotu zníž na 160°C a peč prikryté 5 - 6 hodín.",
-  "Mäso vyber z omáčky na tanier, omáčku preceď cez redšie sito, cibuľu z omáčky do nej prepasíruj. Mäso vráť do pekáča, kde ho natrhaj na jednotlivé vlákna vidličkou, zalej vypečenou šťavou a podávaj - či už s prílohou alebo v sendviči. Dobrú chuť!"
- ],
- "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "morčacie",
-  "zelenina"
- ]
+  "id": "trhane-morcacie-stehno",
+  "nazov": "Trhané morčacie stehno",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Trhané morčacie stehno (autor: mirkajan)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/trhane-morcacie-stehno/65173-recept.html",
+  "porcie": 8,
+  "cas": "315 min",
+  "kcal_na_porciu": 448,
+  "popis": "Trhané mäso z morčacieho stehna, ktoré sa podáva s pečenými zemiakmi a Coleslaw šalátom alebo do bagety.",
+  "ingrediencie": [
+    {
+      "nazov": "Stehno morčacie horné",
+      "mnozstvo": 2000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa väčšia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 3,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Drvená celá rasca",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca rímska mletá",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Morčacie stehno zbav kože, odblaň a nakrájaj na väčšie kusy. Mäso daj do pekáča.",
+    "V miske zmiešaj na drobno pokrájané cibule, pretlačený cesnak, koreniny, soľ, olivový olej a trochu vody. Premiešaj a pridaj k mäsu. Dôkladne premiešaj rukami a prikryté odlož aspoň na 2 hodiny (alebo celú noc) do chladničky.",
+    "Rúru rozohrej na 200 °C. Do pekáča s mäsom prilej cca 500 ml vody a premiešaj. Prikryté daj piecť do vyhriatej rúry. Pri 200 °C peč dovtedy, kým tekutina v pekáči nezačne vrieť, potom teplotu zníž na 160°C a peč prikryté 5 - 6 hodín.",
+    "Mäso vyber z omáčky na tanier, omáčku preceď cez redšie sito, cibuľu z omáčky do nej prepasíruj. Mäso vráť do pekáča, kde ho natrhaj na jednotlivé vlákna vidličkou, zalej vypečenou šťavou a podávaj - či už s prílohou alebo v sendviči. Dobrú chuť!"
+  ],
+  "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "morčacie",
+    "zelenina"
+  ]
 }

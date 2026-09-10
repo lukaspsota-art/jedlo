@@ -1,62 +1,61 @@
 {
- "id": "jablkovo-skoricove-palacinky",
- "nazov": "Jablkovo-škoricové palacinky",
- "kategoria": "Raňajky",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Škoricové palacinky (autor: petuska25)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/skoricove-palacinky-/62166-recept.html",
- "porcie": 12,
- "cas": "60 min",
- "kcal_na_porciu": 194,
- "popis": "Po dlhom hľadaní som konečne našla vyhovujúci recept na palacinkové cesto a vždy sa mi podaria. Samozrejme som si ešte pridala koreniny podľa seba, lebo inak by som to ani nebola ja :D",
- "ingrediencie": [
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 6,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa potreby cca 750 ml"
-  },
-  {
-   "nazov": "Vanilínový cukor",
-   "mnozstvo": 16,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Škoricový cukor",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olej na vyprážanie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Vajcia rozšľahaj, pridaj vanilínový a škoricový cukor.",
-  "Do tejto hmoty pomaly nalej mlieko. Ja ho zvyknem nechať otepliť na izbovú teplotu a pomaly šľahaj. Na záver pomaly pridávaj múku a miešaj všetko spolu na hladké cesto. Ak sa nám stále zdá husté, prilej mlieko. Cesto by malo mať redšiu konzistenciu.",
-  "Na rozpálenej panvici peč na malom množstve oleja tenké palacinky. Môžeš naplniť lekvárom alebo tvarohom. Ako je vidno na fotke ja som ich dozdobila čokoládovým toppingom a jabĺčkovým šalátom, ktorý priprav z nastrúhaných očistených jabĺk bez šupky, ktoré zmiešaj s vanilínovým cukrom a šťavou z polovice citróna."
- ],
- "tipy": "Cesto nechaj pred pečením 20 minút odpočívať. Múka nasiakne a palacinky budú vláčnejšie, nie gumové.",
- "foto": "",
- "tagy": [
-  "raňajky",
-  "palacinky",
-  "jablko"
- ]
+  "id": "jablkovo-skoricove-palacinky",
+  "nazov": "Jablkovo-škoricové palacinky",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Škoricové palacinky (autor: petuska25)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/skoricove-palacinky-/62166-recept.html",
+  "porcie": 12,
+  "cas": "60 min",
+  "kcal_na_porciu": 194,
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 6,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa potreby cca 750 ml"
+    },
+    {
+      "nazov": "Vanilínový cukor",
+      "mnozstvo": 16,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škoricový cukor",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej na vyprážanie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Vajcia rozšľahaj, pridaj vanilínový a škoricový cukor.",
+    "Do tejto hmoty pomaly nalej mlieko, najlepšie oteplené na izbovú teplotu, a pomaly šľahaj. Na záver pomaly pridávaj múku a miešaj všetko spolu na hladké cesto. Ak sa stále zdá husté, prilej mlieko. Cesto by malo mať redšiu konzistenciu.",
+    "Na rozpálenej panvici peč na malom množstve oleja tenké palacinky. Môžeš ich naplniť lekvárom alebo tvarohom. Dozdob ich čokoládovým toppingom a jabĺčkovým šalátom, ktorý priprav z nastrúhaných očistených jabĺk bez šupky, ktoré zmiešaj s vanilínovým cukrom a šťavou z polovice citróna."
+  ],
+  "tipy": "Cesto nechaj pred pečením 20 minút odpočívať. Múka nasiakne a palacinky budú vláčnejšie, nie gumové.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "palacinky",
+    "jablko"
+  ]
 }

@@ -1,105 +1,105 @@
 {
- "id": "snack-olivy",
- "nazov": "Olivové pečivo",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Olivové pečivo (fotorecept) (autor: marianne)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/olivove-pecivo-fotorecept/22944-recept.html",
- "porcie": 9,
- "cas": "70 min",
- "kcal_na_porciu": 218,
- "popis": "Pre milovnikov oliv a slaneho peciva....skoro som nestihla spravit hlavnu fotku,zmizlo rychlostou blesku,je vynikajuce....",
- "ingrediencie": [
-  {
-   "nazov": "Ražná múka",
-   "mnozstvo": 370,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 180,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tekvicový olej",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne olivy",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zelené olivy",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajky cherry",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Minimozzarela",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šalát",
-   "mnozstvo": null,
-   "jednotka": "list",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "par kvapiek"
-  },
-  {
-   "nazov": "Čierne olivy",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "a zelene na ozdobu"
-  }
- ],
- "postup": [
-  "Vo vlaznej vode rozpustene drozdie daj do misky spolu s mukou,s PL tekvicoveho oleja, PL olivoveho oleja a solou.Pridaj nadrobno pokrájaj zelene a cierne olivy,vypracuj cesto,ktore nechaš 20 minut vykysnut.",
-  "Potom cesto preloz na pomucenu pracovnu dosku a pokrájaj na rovnake kusky.",
-  "Kazdy kusok roztiahni do okruhleho tvaru.Ulož rozkrojene male paradajky a pridaj mozzarelu.Povrch cesta postriekaj s rozprasovacom s olivovym olejom.",
-  "Ulož na pomuceny plech a daj piect."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "kupované",
-  "zelenina",
-  "pečivo"
- ]
+  "id": "snack-olivy",
+  "nazov": "Olivové pečivo",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Olivové pečivo (fotorecept) (autor: marianne)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/olivove-pecivo-fotorecept/22944-recept.html",
+  "porcie": 9,
+  "cas": "70 min",
+  "kcal_na_porciu": 218,
+  "popis": "Slané pečivo pre milovníkov olív.",
+  "ingrediencie": [
+    {
+      "nazov": "Ražná múka",
+      "mnozstvo": 370,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 180,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tekvicový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne olivy",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zelené olivy",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky cherry",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Minimozzarela",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šalát",
+      "mnozstvo": null,
+      "jednotka": "list",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "par kvapiek"
+    },
+    {
+      "nazov": "Čierne olivy",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "a zelene na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vo vlaznej vode rozpustene drozdie daj do misky spolu s mukou,s PL tekvicoveho oleja, PL olivoveho oleja a solou.Pridaj nadrobno pokrájaj zelene a cierne olivy,vypracuj cesto,ktore nechaš 20 minut vykysnut.",
+    "Potom cesto preloz na pomucenu pracovnu dosku a pokrájaj na rovnake kusky.",
+    "Kazdy kusok roztiahni do okruhleho tvaru.Ulož rozkrojene male paradajky a pridaj mozzarelu.Povrch cesta postriekaj s rozprasovacom s olivovym olejom.",
+    "Ulož na pomuceny plech a daj piect."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "kupované",
+    "zelenina",
+    "pečivo"
+  ]
 }

@@ -1,153 +1,153 @@
 {
- "id": "pizza-vegetariana",
- "nazov": "Pizza vegetariana",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Talianska",
- "zdroj": "Varecha.sk – Bolognese vegetariana (autor: namarie)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/bolognese-vegetariana/68480-recept.html",
- "porcie": 7,
- "cas": "90 min",
- "kcal_na_porciu": 402,
- "popis": "Keď som ešte jedávala mäso, medzi moje najobľúbenejšie recepty na cestoviny patrili \r\njednoznačne Bolonské špagety. Keďže som sa tohoto \r\nreceptu nemienila vzdať ani teraz, keď už mäso jesť nemôžem, pripravila som variant \r\npre všetkých vegetariánov, ktorú od tej klasickej \r\nmäsovej chuťovo naozaj nerozoznáte. Sľubujem :)\r\nNie som zástankyňa tofu syra a iných \"gebuzín bez chute\", takže tento recep",
- "ingrediencie": [
-  {
-   "nazov": "Špagety",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šampiňóny",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 5,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cuketa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne olivy",
-   "mnozstvo": 80,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené oregano",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvá bazalka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne korenie",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie na guláš",
-   "mnozstvo": 3,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená sladká mletá paprika",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Worčestrová omáčka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sójová omáčka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kečup",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tvrdý syr",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "To, ako si pripraviť špagety, nemusím nikomu vysvetlovať. Pre istotu, pre tých, ktorí vedia uvariť len čaj - do 2 litrov horúcej osolenej vody dáš variť 300 g špagiet, za občasného premiešania var 10 - 12 minút. Preceď, vráť do hrnca.",
-  "Aj keď to mnohí kuchári radikálne zamietajú, ja ich vždy decentne v sitku prepláchnem studenou vodou, potom premiešam s trochou olivového oleja a nasekanou bazalkou. Takto sa mi NIKDY nezlepia. Je úplna blbosť nalievať olej do vody pri varení",
-  "Poďme na omáčku. Najskôr si nadrobno nakrájaj cibuľu a cesnak. To je základ. Potom vezmi strúhadlo a na časti, na ktorej strúhate mrkvu, si nastrúhaj umyté šampiňóny na grill (ak nemáte, kľudne použi hlivy, alebo shitake). Takým istým spôsobom nastrúhaj aj umytú cuketu (so šupkou). Priprav si tiež čierne olivy - narež na kolieska alebo nadrobno - ale s tým sa mi nechce prplať. Takže na kolieska",
-  "Do väčšieho hrnca daj olivový olej a 50 g masla. Olej zabráni maslu, aby prihorelo a zhnedlo. Ak nemáte olivový, kľudne daj aj rastlinný, napríklad taký kokosový tomu spraví perfektnú chuť. Na rozpálený olej s maslom daj cibuľku, keď je opražená do sklovita, pridaj cesnak - ten praž maximálne 1 minútu, aby sa nepripálil.",
-  "Do hrnca pridaj nastrúhané šampiňóny, olivy a cukinu. Poriadne premiešaj. Zatiaľ čo sa to praží pripráviš si v hrnčeku zmes korenia - zmiešaš soľ, korenie na guláš, červenú mletú papriku, oregano, škoricu. Ak máte radi pikantné, hoď tam aj trošku pálivej papriky alebo sušených lupienkov chilli.",
-  "Zmes korenia nasyp do hrnca a poriadne premiešaj s hríbami a cukinou. Pridaj nasekanú čerstvú bazalku, trochu worčestrovej a sójovej omáčky a trošku sladkého kečupu.",
-  "Asi po 5 minutách prilej do zmesi paradajkovú pasatu, pomiešaj a zalej cca 1 litrom horúcej vody. Za občasného miešania nechaj variť 30 až 40 minút. Hrniec nechaj posledných 15 minút pootvorený, nech sa odparí prebytočná tekutina. Omáčka by mala byť krásne hustá, nie ako polievka! Pre jemnosť omáčky pridávaj počas varenia maslo, tak ako uznáte za vhodné.",
-  "Keď je omáčka hotová, polej ňou špagety a navrch nastrúhaj syr podľa vlastného výberu. Úplná chuťová bomba je kozí syr - čím tvrdší tým lepší. Odporúčam Kozí Vršok 12-tku - konzistenciou pripomína parmezán - a chuťovo je to Áaaach jaj - nepopísateľné.",
-  "Samozrejme polovica populácie neznáša kozí syr, takže kľudne voľ niečo decentnejšie - parmezán, eidam, ementál, gouda Špagety ozdob listkami čerstvej bazalky. A Voilà vegetariánske bolognese sú na svete. Dobrú chuť. Daj vedieť či vám chutili"
- ],
- "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
- "foto": "",
- "tagy": [
-  "pizza",
-  "talianske",
-  "zelenina",
-  "vegetariánske"
- ]
+  "id": "pizza-vegetariana",
+  "nazov": "Pizza vegetariana",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Talianska",
+  "zdroj": "Varecha.sk – Bolognese vegetariana (autor: namarie)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/bolognese-vegetariana/68480-recept.html",
+  "porcie": 7,
+  "cas": "90 min",
+  "kcal_na_porciu": 402,
+  "popis": "Vegetariánsky variant klasického mäsového receptu bez tofu, ktorý sa od mäsovej verzie chuťovo takmer nedá rozoznať.",
+  "ingrediencie": [
+    {
+      "nazov": "Špagety",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šampiňóny",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 5,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne olivy",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené oregano",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvá bazalka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie na guláš",
+      "mnozstvo": 3,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená sladká mletá paprika",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Worčestrová omáčka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sójová omáčka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kečup",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvrdý syr",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "To, ako si pripraviť špagety, nemusím nikomu vysvetlovať. Pre istotu, pre tých, ktorí vedia uvariť len čaj - do 2 litrov horúcej osolenej vody dáš variť 300 g špagiet, za občasného premiešania var 10 - 12 minút. Preceď, vráť do hrnca.",
+    "Aj keď to mnohí kuchári radikálne zamietajú, ja ich vždy decentne v sitku prepláchnem studenou vodou, potom premiešam s trochou olivového oleja a nasekanou bazalkou. Takto sa mi NIKDY nezlepia. Je úplna blbosť nalievať olej do vody pri varení",
+    "Poďme na omáčku. Najskôr si nadrobno nakrájaj cibuľu a cesnak. To je základ. Potom vezmi strúhadlo a na časti, na ktorej strúhate mrkvu, si nastrúhaj umyté šampiňóny na grill (ak nemáte, kľudne použi hlivy, alebo shitake). Takým istým spôsobom nastrúhaj aj umytú cuketu (so šupkou). Priprav si tiež čierne olivy - narež na kolieska alebo nadrobno - ale s tým sa mi nechce prplať. Takže na kolieska",
+    "Do väčšieho hrnca daj olivový olej a 50 g masla. Olej zabráni maslu, aby prihorelo a zhnedlo. Ak nemáte olivový, kľudne daj aj rastlinný, napríklad taký kokosový tomu spraví perfektnú chuť. Na rozpálený olej s maslom daj cibuľku, keď je opražená do sklovita, pridaj cesnak - ten praž maximálne 1 minútu, aby sa nepripálil.",
+    "Do hrnca pridaj nastrúhané šampiňóny, olivy a cukinu. Poriadne premiešaj. Zatiaľ čo sa to praží pripráviš si v hrnčeku zmes korenia - zmiešaš soľ, korenie na guláš, červenú mletú papriku, oregano, škoricu. Ak máte radi pikantné, hoď tam aj trošku pálivej papriky alebo sušených lupienkov chilli.",
+    "Zmes korenia nasyp do hrnca a poriadne premiešaj s hríbami a cukinou. Pridaj nasekanú čerstvú bazalku, trochu worčestrovej a sójovej omáčky a trošku sladkého kečupu.",
+    "Asi po 5 minutách prilej do zmesi paradajkovú pasatu, pomiešaj a zalej cca 1 litrom horúcej vody. Za občasného miešania nechaj variť 30 až 40 minút. Hrniec nechaj posledných 15 minút pootvorený, nech sa odparí prebytočná tekutina. Omáčka by mala byť krásne hustá, nie ako polievka! Pre jemnosť omáčky pridávaj počas varenia maslo, tak ako uznáte za vhodné.",
+    "Keď je omáčka hotová, polej ňou špagety a navrch nastrúhaj syr podľa vlastného výberu. Úplná chuťová bomba je kozí syr - čím tvrdší tým lepší. Odporúčam Kozí Vršok 12-tku - konzistenciou pripomína parmezán - a chuťovo je to Áaaach jaj - nepopísateľné.",
+    "Samozrejme polovica populácie neznáša kozí syr, takže kľudne voľ niečo decentnejšie - parmezán, eidam, ementál, gouda Špagety ozdob listkami čerstvej bazalky. A Voilà vegetariánske bolognese sú na svete. Dobrú chuť. Daj vedieť či vám chutili"
+  ],
+  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
+  "foto": "",
+  "tagy": [
+    "pizza",
+    "talianske",
+    "zelenina",
+    "vegetariánske"
+  ]
 }

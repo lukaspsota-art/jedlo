@@ -1,61 +1,61 @@
 {
- "id": "bananovo-orechove-ovalky-v-cokolade",
- "nazov": "Banánovo-orechové oválky v čokoláde",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Banánovo-orechové oválky v čokoláde (fotorecept) (autor: dvorka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/bananovo-orechove-ovalky-v-cokolade-fotorecept/63692-recept.html",
- "porcie": 4,
- "cas": "55 min",
- "popis": "Nie vždy mám doma sladkosti a dnes som mala na ne veľkú chuť. Urobila som si guľky z banánov a surovín, ktoré mi prišli pod ruku.",
- "ingrediencie": [
-  {
-   "nazov": "Banány",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlašské orechy",
-   "mnozstvo": 65,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ovsené mleté vločky",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Proteínový prášok",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 24,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čokoláda",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "K vidličkou rozčvachtaným banánom pridaj nastrúhané orechy, pomleté ovsené vločky a proteín. Suroviny zmiešaj a vznikla mi nie príliš hustá hmota.",
-  "Zdobítkom naplň formičky na čokoládové pralinky, daj do mrazničky a priprav si čokoládu.",
-  "Keď mi masa vo formičkách zmrzla, zohrej si znova čokoládovú polevu. Každý kúsok banánovej masy vylupla z formičky, napichla na špáradlo a namoč do čokolády. Tá hneď zatuhla a guľku opatrne ulož na papier na pečenie. Všetky očokoládované guľky najskôr nechaj dobre stuhnúť v chladničke, potom som ich poukladala do papierových košíčkov."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "dezert",
-  "čokoláda",
-  "bezmäsité"
- ]
+  "id": "bananovo-orechove-ovalky-v-cokolade",
+  "nazov": "Banánovo-orechové oválky v čokoláde",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Banánovo-orechové oválky v čokoláde (fotorecept) (autor: dvorka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/bananovo-orechove-ovalky-v-cokolade-fotorecept/63692-recept.html",
+  "porcie": 4,
+  "cas": "55 min",
+  "popis": "Sladké guľky z banánov a orechov obalené v čokoláde.",
+  "ingrediencie": [
+    {
+      "nazov": "Banány",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 65,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ovsené mleté vločky",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Proteínový prášok",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 24,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čokoláda",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "K vidličkou rozčvachtaným banánom pridaj nastrúhané orechy, pomleté ovsené vločky a proteín. Suroviny zmiešaj na nie príliš hustú hmotu.",
+    "Zdobítkom naplň formičky na čokoládové pralinky, daj do mrazničky a priprav si čokoládu.",
+    "Keď masa vo formičkách zmrzne, zohrej si znova čokoládovú polevu. Každý kúsok banánovej masy vylúpni z formičky, napichni na špáradlo a namoč do čokolády. Poleva hneď zatuhne, guľku opatrne ulož na papier na pečenie. Všetky očokoládované guľky najskôr nechaj dobre stuhnúť v chladničke, potom ich poukladaj do papierových košíčkov."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "čokoláda",
+    "bezmäsité"
+  ]
 }

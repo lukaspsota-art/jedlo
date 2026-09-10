@@ -1,112 +1,112 @@
 {
- "id": "rolky-s-tuniakom",
- "nazov": "Rolky s tuniakom",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Rolky s tuniakom (autor: bembo)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/rolky-s-tuniakom/56941-recept.html",
- "porcie": 4,
- "cas": "50 min",
- "kcal_na_porciu": 326,
- "popis": "Minule mali v LIDLI ryžové plátky,ntak som si ich kúpil, že si ich pripravíš podľa nejakého receptu z Varechy. Nakoľko rád experimentujem, rozhodol som sa že namiesto mletého bravčového mäsa dám do nich tuniaka vo vlastnej šťave a ešte aj použijem  ingrediencie podľa mojej chuti.",
- "ingrediencie": [
-  {
-   "nazov": "Ryžové plátky",
-   "mnozstvo": 80,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tuniak",
-   "mnozstvo": 185,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Klíčky fazule",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bambusové výhonky",
-   "mnozstvo": 125,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "stredne veľká"
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 50,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Chilly paprika",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti pomletá"
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kelový list",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Ustricová omáčka",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Do panvice dal olej, nadrobno nakrájanú cibuľu, trochu cukru a nechaj skaramelizovať.",
-  "Potom pridaj konzervu tuniaka vo vlastnej šťave, klíčky fazule mungo, bambusové výhonky, kávovú lyžičku mletej čili v oleji a 2 plné lyžice ustricovej omáčky (kto nechce môže dať aj sójovú). Ostala mi z polievky varená mrkva, tak ju nadrobno pokrájaj na zjemnenie chuti. Nakoniec dal trošku korenia z mlynčeka, trochu podus cca 5 minút a odstav.",
-  "Kým mi táto zmes chladla, nakrájaj z kelového listu jemné rezančeky. Do tejto vychladnutej zmesi dal surové vajíčko a dobre premiešaj. Čo sa týka korenín a soli to ponechám, kto ako má rád.",
-  "Na malý plech som roztrel asi 1/2 dcl oleja, ryžové plátky namoč, poukladal na vlhkú utierku. Na plátok daj trochu nakrájaných kelových listov a 2 PL hotovej zmesi. Mne vyšlo 9 kusov. Potom metličkou potri zvitky povrchu olejom. Rúru vyhrej na 185 stupňov a 20 minút peč. Medzitým ešte 2x potri zvitky počas pečenia.",
-  "Pokiaľ niekto chce prílohu ja by si to daj zo zemiakovým pyré."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "ryba",
-  "vajcia"
- ]
+  "id": "rolky-s-tuniakom",
+  "nazov": "Rolky s tuniakom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Rolky s tuniakom (autor: bembo)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/rolky-s-tuniakom/56941-recept.html",
+  "porcie": 4,
+  "cas": "50 min",
+  "kcal_na_porciu": 326,
+  "popis": "Rolky z ryžových plátkov plnené tuniakom vo vlastnej šťave namiesto mletého bravčového mäsa.",
+  "ingrediencie": [
+    {
+      "nazov": "Ryžové plátky",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tuniak",
+      "mnozstvo": 185,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Klíčky fazule",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bambusové výhonky",
+      "mnozstvo": 125,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "stredne veľká"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chilly paprika",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti pomletá"
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kelový list",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Ustricová omáčka",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do panvice daj olej, nadrobno nakrájanú cibuľu a trochu cukru a nechaj skaramelizovať.",
+    "Potom pridaj konzervu tuniaka vo vlastnej šťave, klíčky fazule mungo, bambusové výhonky, kávovú lyžičku mletej čili v oleji a 2 plné lyžice ustricovej omáčky (kto nechce, môže dať aj sójovú). Ak zostala z polievky varená mrkva, nadrobno ju pokrájaj na zjemnenie chuti. Nakoniec daj trošku korenia z mlynčeka, trochu podus cca 5 minút a odstav.",
+    "Kým zmes chladne, nakrájaj z kelového listu jemné rezančeky. Do tejto vychladnutej zmesi daj surové vajíčko a dobre premiešaj. Čo sa týka korenín a soli, ponechaj to na vlastnú chuť.",
+    "Na malý plech rozotri asi 1/2 dcl oleja, ryžové plátky namoč a poukladaj na vlhkú utierku. Na plátok daj trochu nakrájaných kelových listov a 2 PL hotovej zmesi. Vyjde asi 9 kusov. Potom metličkou potri povrch zvitkov olejom. Rúru vyhrej na 185 stupňov a 20 minút peč. Medzitým ešte 2x potri zvitky počas pečenia.",
+    "Ak chceš prílohu, podávaj rolky so zemiakovým pyré."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "ryba",
+    "vajcia"
+  ]
 }

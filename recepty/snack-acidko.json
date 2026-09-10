@@ -1,109 +1,109 @@
 {
- "id": "snack-acidko",
- "nazov": "Pudingová bábovka z acidofilného mlieka",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Pudingová bábovka z acidofilného mlieka (fotorecept) (autor: ivka152)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/pudingova-babovka-z-acidofilneho-mlieka-fotorecept/55189-recept.html",
- "porcie": 16,
- "cas": "120 min",
- "kcal_na_porciu": 216,
- "popis": "Táto bábovka je jednoducho úžasná! Nieje vôbec \r\nsuchá,ani presladená.Odporúčam vyskúšať :-)",
- "ingrediencie": [
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 330,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kypriaci prášok do pečiva",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 180,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Acidofilné mlieko",
-   "mnozstvo": 350,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čokoládový puding",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Perníkové korenie",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový puding",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jablká veľké",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na vymastenie formy"
-  },
-  {
-   "nazov": "Hrubá múka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na vysypanie formy"
-  }
- ],
- "postup": [
-  "Osobitne zmiešaj suché suroviny(múka,PDP,cukor) a mokré(mlieko,vajcia,olej).Všetko spolu poriadne vymiešaj-stačí metličkou,pridaj očistené a na kocky pokrájané jablká a cesto rozdeľ na polovicu.Po jednej časti pridaj vanilkový puding...",
-  "...do druhej čokoládový puding a perníkové korenie.",
-  "Formu vymasti a vysyp hrubou múkou(mám silikónovú ale aj tak,lepšie sa vyklápa),a môžeš začať dávať cesto.Ja som cesto ukladala lyžicou.Najprv vrstva svetlého,potom tmavé..",
-  "...až kým neminieš všetko :-) a môžeš dať piecť do vyhriatej rúry na 180°C,asi po 1/2 hodine teplotu zníž na 160°C a dopeč.",
-  "Upečená :-) mne to trvalo cca hodinu a pol,mám elektrickú rúru,ale treba sledovať.",
-  "Nechaj vychladnúť a môžeš vyklopiť...",
-  "a samozrejme,čokoláda nesmie chýbať :-D"
- ],
- "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
- "foto": "",
- "tagy": [
-  "kupované",
-  "vajcia",
-  "čokoláda",
-  "dezert"
- ]
+  "id": "snack-acidko",
+  "nazov": "Pudingová bábovka z acidofilného mlieka",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Pudingová bábovka z acidofilného mlieka (fotorecept) (autor: ivka152)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/pudingova-babovka-z-acidofilneho-mlieka-fotorecept/55189-recept.html",
+  "porcie": 16,
+  "cas": "120 min",
+  "kcal_na_porciu": 216,
+  "popis": "Táto bábovka je jednoducho úžasná! Nieje vôbec \r\nsuchá,ani presladená.Odporúčam vyskúšať :-)",
+  "ingrediencie": [
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 330,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kypriaci prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 180,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Acidofilné mlieko",
+      "mnozstvo": 350,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čokoládový puding",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Perníkové korenie",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový puding",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablká veľké",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na vymastenie formy"
+    },
+    {
+      "nazov": "Hrubá múka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na vysypanie formy"
+    }
+  ],
+  "postup": [
+    "Osobitne zmiešaj suché suroviny (múka, PDP, cukor) a mokré (mlieko, vajcia, olej). Všetko spolu poriadne vymiešaj, stačí metličkou, pridaj očistené a na kocky pokrájané jablká a cesto rozdeľ na polovicu. Po jednej časti pridaj vanilkový puding...",
+    "...do druhej čokoládový puding a perníkové korenie.",
+    "Formu vymasti a vysyp hrubou múkou (silikónová sa lepšie vyklápa) a môžeš začať dávať cesto. Cesto ukladaj lyžicou, najprv vrstva svetlého, potom tmavé..",
+    "...až kým neminieš všetko a môžeš dať piecť do vyhriatej rúry na 180°C, asi po 1/2 hodine teplotu zníž na 160°C a dopeč.",
+    "Pečenie trvá cca hodinu a pol v elektrickej rúre, ale treba ho sledovať.",
+    "Nechaj vychladnúť a môžeš vyklopiť...",
+    "A samozrejme, čokoláda nesmie chýbať."
+  ],
+  "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+  "foto": "",
+  "tagy": [
+    "kupované",
+    "vajcia",
+    "čokoláda",
+    "dezert"
+  ]
 }

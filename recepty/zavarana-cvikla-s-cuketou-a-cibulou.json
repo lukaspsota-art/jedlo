@@ -1,84 +1,84 @@
 {
- "id": "zavarana-cvikla-s-cuketou-a-cibulou",
- "nazov": "Zaváraná cvikla s cuketou a cibuľou",
- "kategoria": "Šalát",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Zaváraná cvikla s cuketou a cibuľou (autor: stacy77777)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/zavarana-cvikla-s-cuketou-a-cibulou/31043-recept.html",
- "porcie": 15,
- "cas": "90 min",
- "kcal_na_porciu": 347,
- "popis": "Príliš veľa cukety na záhradke, cvikla väčšia ako mužská dlaň, nuž čo s tým.... Tak trocha \r\nspolu na skúšku. Jeden recept som mala od kolegyne, ale nakoľko moc neobľubujem olej v \r\nzaváraninách, skúsila som s klasickým nálevom na cviklu.",
- "ingrediencie": [
-  {
-   "nazov": "Cvikla",
-   "mnozstvo": 5000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cuketa",
-   "mnozstvo": 2500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená cibuľa",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 4000,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ocot",
-   "mnozstvo": 800,
-   "jednotka": "ml",
-   "poznamka": "",
-   "vsiaknutie": 0.2
-  },
-  {
-   "nazov": "Cukor kryštál",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": "",
-   "vsiaknutie": 0.2
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 140,
-   "jednotka": "g",
-   "poznamka": "",
-   "vsiaknutie": 0.2
-  },
-  {
-   "nazov": "Aníz",
-   "mnozstvo": 1.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Fenikel",
-   "mnozstvo": 1.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Cviklu umyj a daj uvariť. Mäkkú daj vychladiť, potom ošúp a nastrúhaj.",
-  "Cuketu ošúp, vyber semiačka a nastrúhaj.",
-  "Červenú cibuľu nakrájaj na mesiačiky.",
-  "Všetko spolu premiešaj. Do pohárov daj najskôr tak do polovice nálev, až potom plň zeleninou. Takto sa údajne cvikla nekazí. Tento postup vyčítaj zo starej kuchárky z roku 1956. No, človek sa učí celý život. Poháre uzatvor a sterilizuj 8-10minút. Z tejto dávky mi vyšlo 35 malých 300ml fľašiek."
- ],
- "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "bezmäsité",
-  "zelenina"
- ]
+  "id": "zavarana-cvikla-s-cuketou-a-cibulou",
+  "nazov": "Zaváraná cvikla s cuketou a cibuľou",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Zaváraná cvikla s cuketou a cibuľou (autor: stacy77777)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/zavarana-cvikla-s-cuketou-a-cibulou/31043-recept.html",
+  "porcie": 15,
+  "cas": "90 min",
+  "kcal_na_porciu": 347,
+  "popis": "Cvikla zaváraná spolu s cuketou v klasickom náleve na cviklu, bez oleja.",
+  "ingrediencie": [
+    {
+      "nazov": "Cvikla",
+      "mnozstvo": 5000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": 2500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená cibuľa",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 4000,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 800,
+      "jednotka": "ml",
+      "poznamka": "",
+      "vsiaknutie": 0.2
+    },
+    {
+      "nazov": "Cukor kryštál",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": "",
+      "vsiaknutie": 0.2
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 140,
+      "jednotka": "g",
+      "poznamka": "",
+      "vsiaknutie": 0.2
+    },
+    {
+      "nazov": "Aníz",
+      "mnozstvo": 1.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Fenikel",
+      "mnozstvo": 1.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cviklu umyj a daj uvariť. Mäkkú daj vychladiť, potom ošúp a nastrúhaj.",
+    "Cuketu ošúp, vyber semiačka a nastrúhaj.",
+    "Červenú cibuľu nakrájaj na mesiačiky.",
+    "Všetko spolu premiešaj. Do pohárov daj najskôr tak do polovice nálev, až potom plň zeleninou. Takto sa údajne cvikla nekazí. Tento postup vyčítaj zo starej kuchárky z roku 1956. No, človek sa učí celý život. Poháre uzatvor a sterilizuj 8-10minút. Z tejto dávky mi vyšlo 35 malých 300ml fľašiek."
+  ],
+  "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "bezmäsité",
+    "zelenina"
+  ]
 }

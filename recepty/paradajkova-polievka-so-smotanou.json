@@ -1,111 +1,111 @@
 {
- "id": "paradajkova-polievka-so-smotanou",
- "nazov": "Paradajková polievka so smotanou",
- "kategoria": "Polievka",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Krémová zeleninová polievka (s paradajkami a kyslou smotanou) (autor: lyali)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kremova-zeleninova-polievka-s-paradajkami-a-kyslou-smotanou/13624-recept.html",
- "porcie": 4,
- "cas": "30 min",
- "kcal_na_porciu": 238,
- "popis": "Inšpirovala som sa receptom zo švajčiarskej kuchárskej knižôčky, ktorú som dostala kedysi od mojej sestry svetobežníčky, keď jej domovom bolo dočasne Švajčiarsko.",
- "ingrediencie": [
-  {
-   "nazov": "Paradajky",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": null,
-   "jednotka": "ks",
-   "poznamka": "1 ks"
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vývar",
-   "mnozstvo": 1200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Biele mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá smotana",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Paradajky olúpaj.",
-  "Pokrájaj na štvrtky.",
-  "Zbav semienok.",
-  "Pokrájaj na malé kocky.",
-  "Očistenú cibuľu nakrájaj nadrobno Očistenú mrkvu postrúhaj nahrubo. Očistený zemiak pokrájaj na malé kocky.",
-  "Na olivovom oleji krátko orestuj cibuľu spolu s petržlenovou vňaťou.",
-  "Pridaj paradajky, paradajkový pretlak, mrkvu, zemiak. Okoreň pletým bielym korením. Pridaj pretlačený cesnak. Dus až do zmäknutia, pričom podlievaj vývarom.",
-  "Dolej prípadným zvyšným vývarom, nechaj prejsť varom a odlož zo sporáka. Pridaj kyslú smotanu a rozmixuj ponorným mixérom.",
-  "Dochuť medom. Dosoľ a dokoreň.",
-  "Podávaj s voňavými opečenými kolieskami rožkov (na masle a pretlačenom cesnaku)."
- ],
- "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
- "foto": "",
- "tagy": [
-  "polievka",
-  "paradajka",
-  "krémová"
- ]
+  "id": "paradajkova-polievka-so-smotanou",
+  "nazov": "Paradajková polievka so smotanou",
+  "kategoria": "Polievka",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Krémová zeleninová polievka (s paradajkami a kyslou smotanou) (autor: lyali)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kremova-zeleninova-polievka-s-paradajkami-a-kyslou-smotanou/13624-recept.html",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 238,
+  "popis": "Paradajková polievka so smotanou inšpirovaná receptom zo švajčiarskej kuchárskej knižôčky.",
+  "ingrediencie": [
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": null,
+      "jednotka": "ks",
+      "poznamka": "1 ks"
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 1200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Biele mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Paradajky olúpaj.",
+    "Pokrájaj na štvrtky.",
+    "Zbav semienok.",
+    "Pokrájaj na malé kocky.",
+    "Očistenú cibuľu nakrájaj nadrobno Očistenú mrkvu postrúhaj nahrubo. Očistený zemiak pokrájaj na malé kocky.",
+    "Na olivovom oleji krátko orestuj cibuľu spolu s petržlenovou vňaťou.",
+    "Pridaj paradajky, paradajkový pretlak, mrkvu, zemiak. Okoreň pletým bielym korením. Pridaj pretlačený cesnak. Dus až do zmäknutia, pričom podlievaj vývarom.",
+    "Dolej prípadným zvyšným vývarom, nechaj prejsť varom a odlož zo sporáka. Pridaj kyslú smotanu a rozmixuj ponorným mixérom.",
+    "Dochuť medom. Dosoľ a dokoreň.",
+    "Podávaj s voňavými opečenými kolieskami rožkov (na masle a pretlačenom cesnaku)."
+  ],
+  "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "paradajka",
+    "krémová"
+  ]
 }

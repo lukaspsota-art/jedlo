@@ -1,101 +1,101 @@
 {
- "id": "musli-tycinky-dobra-nalada",
- "nazov": "Müsli tyčinky - Dobrá nálada",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Müsli tyčinky - Dobrá nálada (autor: freshkuchta)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/musli-tycinky-dobra-nalada/47966-recept.html",
- "porcie": 21,
- "cas": "110 min",
- "kcal_na_porciu": 217,
- "popis": "Na uvod by som sa Vam chcela ospravedlnit, ze nepouzivam diakritiku, no som v Amerike \r\na tieto klavesnice ju nemaju. Urci vecsina ludi miluje sladkosti ako napriklad zdrave musli \r\ntycinky. No niekedy ked sa pozri na zadnu stranu a precitaj ingrediencie tak aspon \r\npolovicu z nich nepoznaj. Kedze ja milujem sladke, no zo vsetkeho najviac zdravu \r\nvyzivu, rozhodla som sa urobit tieto uzasne",
- "ingrediencie": [
-  {
-   "nazov": "Ovsené vločky",
-   "mnozstvo": 750,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mandle",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "pol hrnček"
-  },
-  {
-   "nazov": "Vlašské orechy",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ľanová semienka",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Semienka chia",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": 187.5,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Arašídové maslo",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kokosové fliačky",
-   "mnozstvo": 187.5,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko mandľove",
-   "mnozstvo": 83.33,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilková aróma",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Grapefruit",
-   "mnozstvo": 83.33,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jablko",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Najprv si priprav vsetky suroviny, ktore budeš potrebovat, aby sme ich mali po ruke. Jablcko posekaj na male kusky. Chia semienka nemusia byt, tak isto namiesto arasidoveho masla sa da pouzit banan. Lanove semienka mozu byt bud pomlete, ale aj cele.",
-  "Ak mate radi chrumkavejsie tycinky, oriesky posekaj na hrubo. Oriesky môžeš pomliet aj na mucku. Polovicu grapefruitu si vystav.",
-  "Ovsene vlocky daj na panvicu a zlahka ich opraž do chrumkava, vlasske orechy, mandle, lanove a chia semiacka tak isto. Pozor aby neprihoreli. Menej je vzdy viac!",
-  "Ovsene vlocky, orechy, kokosove fliacky a jablcka si daj do jednej nadoby.",
-  "Priprav si zmes medu, arasidoveho masla, stavy z grapefruitu a mandloveho mlieka. Daj na platnu a roztop aby sa vsetky zlozky spojili do jedneho. Nasledovne zmes vylej do nadoby s ostatnymi surovinami a poriadne premiešaj.",
-  "Potom uz len do hlbsieho pekaca daj papier na pecenie a zmes poriadne vtlac a utlapkaj aby nam po upeceni vznikli pekne pevne, tvrde tycinky. Daj piect na 50 minut, zatial si pomaly poumyvaj riad a sprav kavicku :). Po upeceni pokrájaj na obdlzniky a môžeš maskrtit. Jedna tycinka mojeho rozmeru ma zhruba 200-220 kalorii, vyvazeny pomer proteinu, vlakniny, tukov a sacharidov."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "jablká",
-  "bezmäsité",
-  "dezert"
- ]
+  "id": "musli-tycinky-dobra-nalada",
+  "nazov": "Müsli tyčinky - Dobrá nálada",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Müsli tyčinky - Dobrá nálada (autor: freshkuchta)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/musli-tycinky-dobra-nalada/47966-recept.html",
+  "porcie": 21,
+  "cas": "110 min",
+  "kcal_na_porciu": 217,
+  "popis": "Zdravé müsli tyčinky pripravené z jednoduchých a známych surovín.",
+  "ingrediencie": [
+    {
+      "nazov": "Ovsené vločky",
+      "mnozstvo": 750,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mandle",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "pol hrnček"
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľanová semienka",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Semienka chia",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 187.5,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Arašídové maslo",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokosové fliačky",
+      "mnozstvo": 187.5,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko mandľove",
+      "mnozstvo": 83.33,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilková aróma",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Grapefruit",
+      "mnozstvo": 83.33,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najprv si priprav všetky suroviny, ktoré budeš potrebovať, aby si ich mal po ruke. Jablčko posekaj na malé kúsky. Chia semienka nemusia byť, takisto namiesto arašidového masla sa dá použiť banán. Ľanové semienka môžu byť buď pomleté, ale aj celé.",
+    "Ak máš rád chrumkavejšie tyčinky, oriešky posekaj na hrubo. Oriešky môžeš pomlieť aj na múčku. Polovicu grapefruitu si vytlač.",
+    "Ovsené vločky daj na panvicu a zľahka ich opraž do chrumkava, vlašské orechy, mandle, ľanové a chia semiačka takisto. Pozor, aby neprihoreli. Menej je vždy viac!",
+    "Ovsené vločky, orechy, kokosové fliačky a jablčká si daj do jednej nádoby.",
+    "Priprav si zmes medu, arašidového masla, šťavy z grapefruitu a mandľového mlieka. Daj na platňu a roztop, aby sa všetky zložky spojili do jedného. Následne zmes vylej do nádoby s ostatnými surovinami a poriadne premiešaj.",
+    "Potom už len do hlbšieho pekáča daj papier na pečenie a zmes poriadne vtlač a utlapkaj, aby po upečení vznikli pekné pevné, tvrdé tyčinky. Daj piecť na 50 minút, zatiaľ si pomaly poumývaj riad a sprav kávičku. Po upečení pokrájaj na obdĺžniky a môžeš maškrtiť. Jedna tyčinka takéhoto rozmeru má zhruba 200-220 kalórií a vyvážený pomer proteínov, vlákniny, tukov a sacharidov."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "jablká",
+    "bezmäsité",
+    "dezert"
+  ]
 }

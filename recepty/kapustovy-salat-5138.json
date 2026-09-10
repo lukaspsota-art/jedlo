@@ -1,74 +1,73 @@
 {
- "id": "kapustovy-salat-5138",
- "nazov": "Kapustový šalát",
- "kategoria": "Príloha",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kapustový šalát (autor: praezision)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kapustovy-salat/32444-recept.html",
- "porcie": 18,
- "cas": "120 min",
- "kcal_na_porciu": 240,
- "popis": "Teraz je čas práce s kapustou, tak vám pridávam recept, ktorý sa u nás doma osvedčil.",
- "ingrediencie": [
-  {
-   "nazov": "Kapusta",
-   "mnozstvo": 5000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprika",
-   "mnozstvo": 10,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Feferónky",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cukor kryštál",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ocot",
-   "mnozstvo": 750,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Borkén",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Priprav si všetky suroviny, kapustu a mrkvu nastrúhaj najemno, cibuľu, papriku a feferónky si nakrájaj, snaž sa tiež na tenšie.",
-  "Keď už máš všetko nastrúhané a nakrájané posypeš kryštálovým cukrom, dekom a zalej octom. Nezabudni pridať borkén, ten je veľmi dôležitý na konzervovanie, pretože sterilizovať nebudeš.",
-  "Nechaj do druhého dňa odležať, snaž sa 1x za hodinu premiešavať. V noci nechaj odležať. Na druhý deň daj do kameninové súdka a potom už len vyberaj a konzumuj, môžeš začať aj okamžite."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "príloha",
-  "bezmäsité",
-  "zelenina"
- ]
+  "id": "kapustovy-salat-5138",
+  "nazov": "Kapustový šalát",
+  "kategoria": "Príloha",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kapustový šalát (autor: praezision)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kapustovy-salat/32444-recept.html",
+  "porcie": 18,
+  "cas": "120 min",
+  "kcal_na_porciu": 240,
+  "ingrediencie": [
+    {
+      "nazov": "Kapusta",
+      "mnozstvo": 5000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 10,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Feferónky",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor kryštál",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 750,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Borkén",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si všetky suroviny, kapustu a mrkvu nastrúhaj najemno, cibuľu, papriku a feferónky si nakrájaj, snaž sa tiež na tenšie.",
+    "Keď už máš všetko nastrúhané a nakrájané posypeš kryštálovým cukrom, dekom a zalej octom. Nezabudni pridať borkén, ten je veľmi dôležitý na konzervovanie, pretože sterilizovať nebudeš.",
+    "Nechaj do druhého dňa odležať, snaž sa 1x za hodinu premiešavať. V noci nechaj odležať. Na druhý deň daj do kameninové súdka a potom už len vyberaj a konzumuj, môžeš začať aj okamžite."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "bezmäsité",
+    "zelenina"
+  ]
 }

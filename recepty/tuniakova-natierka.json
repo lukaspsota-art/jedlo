@@ -1,56 +1,55 @@
 {
- "id": "tuniakova-natierka",
- "nazov": "Tuniaková nátierka",
- "kategoria": "Nátierka",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Tuniaková nátierka (autor: klaudidida)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/tuniakova-natierka/52413-recept.html",
- "porcie": 4,
- "cas": "10 min",
- "popis": "Tento recept ma naučila kamarátkiná Babka.",
- "ingrediencie": [
-  {
-   "nazov": "Tuniak vo vlastnej šťave",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tavený syr",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horčica",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Nakrájaj cibuľu na malé kúsky. A daj ich do misky.",
-  "Otvor tuniaka a vilej ho do misky.",
-  "Daj syrokrém do misky.",
-  "Pridaj 3 lyžičky horčice do misky. A všetko pomiešaj. Dobrú chuť"
- ],
- "tipy": "Nátierku nechaj pred podávaním aspoň hodinu v chladničke — chute sa prepoja a natiera sa lepšie.",
- "foto": "",
- "tagy": [
-  "nátierka",
-  "ryba",
-  "syr"
- ]
+  "id": "tuniakova-natierka",
+  "nazov": "Tuniaková nátierka",
+  "kategoria": "Nátierka",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Tuniaková nátierka (autor: klaudidida)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/tuniakova-natierka/52413-recept.html",
+  "porcie": 4,
+  "cas": "10 min",
+  "ingrediencie": [
+    {
+      "nazov": "Tuniak vo vlastnej šťave",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tavený syr",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Nakrájaj cibuľu na malé kúsky. A daj ich do misky.",
+    "Otvor tuniaka a vilej ho do misky.",
+    "Daj syrokrém do misky.",
+    "Pridaj 3 lyžičky horčice do misky. A všetko pomiešaj. Dobrú chuť"
+  ],
+  "tipy": "Nátierku nechaj pred podávaním aspoň hodinu v chladničke — chute sa prepoja a natiera sa lepšie.",
+  "foto": "",
+  "tagy": [
+    "nátierka",
+    "ryba",
+    "syr"
+  ]
 }

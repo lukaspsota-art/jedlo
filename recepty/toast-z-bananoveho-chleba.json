@@ -1,105 +1,105 @@
 {
- "id": "toast-z-bananoveho-chleba",
- "nazov": "Toast z banánového chleba",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Toast z banánového chleba (autor: redakcia)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/toast-z-bananoveho-chleba/59020-recept.html",
- "porcie": 24,
- "cas": "45 min",
- "kcal_na_porciu": 406,
- "popis": "Malé pečené taštičky plnené zeleninou, skvelý párty snack.",
- "ingrediencie": [
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Múka",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 6,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Banán",
-   "mnozstvo": 5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 70,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok do pečiva",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový struk",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Škorica",
-   "mnozstvo": 0.5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": 6,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Smotana",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Z banánu a mlieka vyšľahaj koktail. Potom priprav banánový chlebík. Vymiešaj maslo s cukrom do peny, po jednom pridaj vajíčka a banánové mlieko, spolu všetko vyšľahaj.",
-  "Potom pridaj múku a kypriaci prášok, znova vyšľahaj elektrickým mixérom. Hotové cesto vylej na plech, ktorý sme vystlali papierom na pečenie. Peč pri 185 °C 15 minút. Po vychladnutí z cesta vykroj kolieska.",
-  "Zmes na obaľovanie: Všetky suroviny zmiešaj a do zmesi namoč vykrojené kolieska, ktoré potom opekáš na rozpustenom masle.",
-  "Na hotový opečený chlebík poukladaj tenké kolieska banánov a posyp ich trstinovým cukrom, ktorý necháš skaramelizovať pomocou pištole na creme brulee. Ak pištoľ nemáš, nechaj cukor bez skaramelizovania."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "vajcia",
-  "bezmäsité",
-  "dezert"
- ]
+  "id": "toast-z-bananoveho-chleba",
+  "nazov": "Toast z banánového chleba",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Toast z banánového chleba (autor: redakcia)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/toast-z-bananoveho-chleba/59020-recept.html",
+  "porcie": 24,
+  "cas": "45 min",
+  "kcal_na_porciu": 406,
+  "popis": "Malé pečené taštičky plnené zeleninou, skvelý párty snack.",
+  "ingrediencie": [
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 6,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Banán",
+      "mnozstvo": 5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 70,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový struk",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 0.5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 6,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Z banánu a mlieka vyšľahaj koktail. Potom priprav banánový chlebík. Vymiešaj maslo s cukrom do peny, po jednom pridaj vajíčka a banánové mlieko, spolu všetko vyšľahaj.",
+    "Potom pridaj múku a kypriaci prášok, znova vyšľahaj elektrickým mixérom. Hotové cesto vylej na plech vystlaný papierom na pečenie. Peč pri 185 °C 15 minút. Po vychladnutí z cesta vykroj kolieska.",
+    "Zmes na obaľovanie: Všetky suroviny zmiešaj a do zmesi namoč vykrojené kolieska, ktoré potom opeč na rozpustenom masle.",
+    "Na hotový opečený chlebík poukladaj tenké kolieska banánov a posyp ich trstinovým cukrom, ktorý nechaj skaramelizovať pomocou pištole na creme brulee. Ak pištoľ nemáš, nechaj cukor bez skaramelizovania."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "vajcia",
+    "bezmäsité",
+    "dezert"
+  ]
 }

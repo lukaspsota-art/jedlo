@@ -1,95 +1,95 @@
 {
- "id": "plnene-cesnakovo-syrove-buchticky",
- "nazov": "Plnené cesnakovo syrové buchtičky",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Plnené cesnakovo syrové buchtičky (fotorecept) (autor: sonulienka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/plnene-cesnakovo-syrove-buchticky-fotorecept/73556-recept.html",
- "porcie": 19,
- "cas": "80 min",
- "kcal_na_porciu": 327,
- "popis": "Za chvíľu nás čaká rodinná oslava a tak skúšam niečo nové a objavila som výborný recept, zaujal ma a ihneď som ho vyskúšala. Určite na \r\noslavu urob.",
- "ingrediencie": [
-  {
-   "nazov": "Múka hladká špeciál",
-   "mnozstvo": 800,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 600,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 42,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 28,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tvrdý syr",
-   "mnozstvo": 190,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Najprv si urob kvások. Asi do 1 dcl vlažného mlieka pridaj 1 ČL cukru a rozmrv droždie, dobre premiešaj a nechaj vzísť kvások. Ďalej si preosej múku pridaj soľ a ešte zľahka prevzdušni múku.",
-  "Zatiaľ si urob náplň - očisti si cesnak (ak sa Vám vidí menej, daj si menej ale podľa mňa to nie je prehnané), prelisuj ho k maslu a dobre premiešaj. Nastrúhaj si syr. Keď máš kvások vzídený, pridaj do múky olej, vlažné mlieko a kvások. Vypracuj si cesto. Ja ako vždy strojom.",
-  "Keď je cesto dobre vypracované ihneď s ním pracuješ. Si cesto daj do valca a odkrajovala asi tak 70-80 g kúsky.",
-  "Do každého daj trochu syra a cesnakového masla - ale nechaj si asi štvrtinu náplne a trocha syra aj na vrch buchtičiek.",
-  "Dobre spojila a urob som guľky. Toto je jeden plech.",
-  "Toto je druhý plech - vyšlo mi 19 kusov.",
-  "Nechaj ich 20 minút kysnúť na plechu. Takto mi nakysli.",
-  "Do stredu každej guľky si pohárikom urob jamku kde daj cesnakové maslo a syr.",
-  "Na koniec potri rozšľahaným vajíčkom a ešte nechaj 10 minút kysnúť. Po 10 minútach daj do rúry. Peč do ružova na 200 stupňov. Nepíšem dobu pečenia každá si musíte sledovať svoju rúru.",
-  "No a tu sú upečené.",
-  "Tak čo páči sa Vám recept? Svietilo slniečko tak mám dosť tmavé foto no čo už. Ešte poznámočka, možno ich urobím menšie, ešte neviem ako sa rozhodnem."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "pečivo",
-  "syr",
-  "vajcia",
-  "bezmäsité"
- ]
+  "id": "plnene-cesnakovo-syrove-buchticky",
+  "nazov": "Plnené cesnakovo syrové buchtičky",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Plnené cesnakovo syrové buchtičky (fotorecept) (autor: sonulienka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/plnene-cesnakovo-syrove-buchticky-fotorecept/73556-recept.html",
+  "porcie": 19,
+  "cas": "80 min",
+  "kcal_na_porciu": 327,
+  "popis": "Plnené cesnakovo syrové buchtičky vhodné na rodinnú oslavu.",
+  "ingrediencie": [
+    {
+      "nazov": "Múka hladká špeciál",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 600,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 42,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 28,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvrdý syr",
+      "mnozstvo": 190,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najprv si urob kvások. Asi do 1 dcl vlažného mlieka pridaj 1 ČL cukru a rozmrv droždie, dobre premiešaj a nechaj vzísť kvások. Ďalej si preosej múku, pridaj soľ a ešte zľahka prevzdušni múku.",
+    "Zatiaľ si urob náplň - očisti cesnak (ak chceš, daj ho menej), prelisuj ho k maslu a dobre premiešaj. Nastrúhaj si syr. Keď máš kvások vzídený, pridaj do múky olej, vlažné mlieko a kvások. Vypracuj si cesto, pokojne aj strojom.",
+    "Keď je cesto dobre vypracované, ihneď s ním pracuj. Cesto vytvaruj do valca a odkrajuj z neho asi 70-80 g kúsky.",
+    "Do každého daj trochu syra a cesnakového masla - ale nechaj si asi štvrtinu náplne a trocha syra aj na vrch buchtičiek.",
+    "Dobre ich spoj a vytvaruj guľky. Toto je jeden plech.",
+    "Toto je druhý plech - vyjde asi 19 kusov.",
+    "Nechaj ich 20 minút kysnúť na plechu. Takto nakysnú.",
+    "Do stredu každej guľky si pohárikom urob jamku, kde daj cesnakové maslo a syr.",
+    "Nakoniec potri rozšľahaným vajíčkom a nechaj ešte 10 minút kysnúť. Po 10 minútach daj do rúry. Peč do ružova na 200 stupňov. Dobu pečenia si sleduj podľa vlastnej rúry.",
+    "A tu sú upečené.",
+    "Buchtičky môžeš nabudúce urobiť aj menšie."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "syr",
+    "vajcia",
+    "bezmäsité"
+  ]
 }

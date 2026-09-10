@@ -1,97 +1,96 @@
 {
- "id": "maslove-venceky",
- "nazov": "Maslové venčeky",
- "kategoria": "Raňajky",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Maslové venčeky (fotorecept) (autor: gordonko)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/maslove-venceky-fotorecept/78514-recept.html",
- "porcie": 12,
- "cas": "55 min",
- "kcal_na_porciu": 269,
- "popis": "Videorecept na toto maslové pečivo našli baby na Youtube a  chceli  ho vyskúšať. Ja  som  ich  predbehol, vyskúšal  a aj \r\n\"vylepšil\".",
- "ingrediencie": [
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 50,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené droždie",
-   "mnozstvo": 10,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 570,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sezamové semienka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rasca",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Do misky daj 200 ml vlažného mlieka, 100 ml vlažnej vody,pol deci oleja, dva bielky s jedným žĺtkom, 2 PL kryštálového cukru a 10 g sušeného droždia (1 a 1/2 vrecúška).",
-  "To, čo máš v miske premiešaš a potom postupne pridáš 570 g hladkej múky a kávovú lyžičku soli. Znova premiešaj a do tohto cesta potom rukami zapracuj 30 g masla izbovej teploty - miešaj do 5 minút, aby sa maslo rozpustilo a dostalo všade - možno by bolo dobré naliať roztopené maslo.",
-  "Vymiešané cesto sa už odlepuje od misy, tak ho popráš múkou, zakryj a nechaj hodinku na teplom mieste vykysnúť.",
-  "Po hodinke nám cesto pekne nabehlo, trochu ho prepracoval a rozdeľ na 12 kúskov a vytvaroval bochníčky.",
-  "Rúru zapni na 185 °C. Bochníček cesta vyvaľkaj do oválneho tvaru, potri maslom, radielkom urob niekoľko zárezov a zviň zo šikma k druhému koncu a konce spoj, aby vznikol venček a ukladáš na plech. Trochu som experimentoval, druhú polovicu cesta ešte osoľ na maslo, aby bolo cesto slanšie a to som ešte natiahol a trochu viac ponatáčal závity.",
-  "Na jeden plech stačí iba polovica cesta, lebo keď urobíš tie venčeky, nechaj 20 minút nakysnúť, oni pekne zaplnia plech, ponatieraj ich rozšľahaným bielkom s dvomi žĺtkami a posyp ich sezamovými semiačkami. Druhú polovicu venčekov, tu slanú natri a posyp rascou a ešte trochou soli.",
-  "Peč 20 - 25 minut na 185 °C. Cesto je super mäkučké - nadýchané. Mne osobne najviac chutili tie slané s mliekom. DOBRÚ CHUŤ.",
-  "Viac fotografií z postupu nájdete TU:"
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "raňajky",
-  "vajcia",
-  "bezmäsité"
- ]
+  "id": "maslove-venceky",
+  "nazov": "Maslové venčeky",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Maslové venčeky (fotorecept) (autor: gordonko)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/maslove-venceky-fotorecept/78514-recept.html",
+  "porcie": 12,
+  "cas": "55 min",
+  "kcal_na_porciu": 269,
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené droždie",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 570,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sezamové semienka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do misky daj 200 ml vlažného mlieka, 100 ml vlažnej vody,pol deci oleja, dva bielky s jedným žĺtkom, 2 PL kryštálového cukru a 10 g sušeného droždia (1 a 1/2 vrecúška).",
+    "To, čo máš v miske, premiešaj a potom postupne pridaj 570 g hladkej múky a kávovú lyžičku soli. Znova premiešaj a do tohto cesta potom rukami zapracuj 30 g masla izbovej teploty - miešaj do 5 minút, aby sa maslo rozpustilo a dostalo všade - možno by bolo dobré naliať roztopené maslo.",
+    "Vymiešané cesto sa už odlepuje od misy, tak ho popráš múkou, zakry a nechaj hodinku na teplom mieste vykysnúť.",
+    "Po hodinke cesto pekne nabehne, trochu ho prepracuj, rozdeľ na 12 kúskov a vytvaruj bochníčky.",
+    "Rúru zapni na 185 °C. Bochníček cesta vyvaľkaj do oválneho tvaru, potri maslom, radielkom urob niekoľko zárezov a zviň zo šikma k druhému koncu a konce spoj, aby vznikol venček, a ukladaj na plech. Druhú polovicu cesta ešte osoľ na maslo, aby bolo cesto slanšie, natiahni ho a trochu viac ponatáčaj závity.",
+    "Na jeden plech stačí iba polovica cesta, lebo keď urobíš tie venčeky, nechaj ich 20 minút nakysnúť, oni pekne zaplnia plech, ponatieraj ich rozšľahaným bielkom s dvomi žĺtkami a posyp ich sezamovými semiačkami. Druhú polovicu venčekov, tú slanú, natri a posyp rascou a ešte trochou soli.",
+    "Peč 20 - 25 minút na 185 °C. Cesto je super mäkučké - nadýchané. Najviac chutia tie slané s mliekom. DOBRÚ CHUŤ.",
+    "Viac fotografií z postupu nájdeš TU:"
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "vajcia",
+    "bezmäsité"
+  ]
 }

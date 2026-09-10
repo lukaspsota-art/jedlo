@@ -1,71 +1,70 @@
 {
- "id": "hemendex",
- "nazov": "Hemendex (šunka s vajcom)",
- "kategoria": "Raňajky",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Môj hemendex (fotorecept) (autor: sladkakatka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/moj-hemendex-fotorecept/57128-recept.html",
- "porcie": 4,
- "cas": "15 min",
- "popis": "Mala som doma všetko čo treba, aj zapekacie misky.....no neskús to :-)",
- "ingrediencie": [
-  {
-   "nazov": "Šunka",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tvrdý syr",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na zaliatie"
-  },
-  {
-   "nazov": "Jarná cibuľka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na drobno posekaná"
-  },
-  {
-   "nazov": "Zapekacie misky",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  }
- ],
- "postup": [
-  "Do zapekacích misiek daj trochu olivového oleja",
-  "Vlož koliesko šunky",
-  "Na šunku polož trojuholník syra",
-  "A zasa koliesko šunky",
-  "Na vrch daj vajíčko, osoľ a daj do vyhriatej rúry zapiecť na asi 10 minút. Po vybratí ozdob nakrájanou jarnou cibuľkou a podávaj",
-  "Dobrú chuť"
- ],
- "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
- "foto": "",
- "tagy": [
-  "slovenské",
-  "tradičné",
-  "vajcia",
-  "raňajky"
- ]
+  "id": "hemendex",
+  "nazov": "Hemendex (šunka s vajcom)",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Môj hemendex (fotorecept) (autor: sladkakatka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/moj-hemendex-fotorecept/57128-recept.html",
+  "porcie": 4,
+  "cas": "15 min",
+  "ingrediencie": [
+    {
+      "nazov": "Šunka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvrdý syr",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na zaliatie"
+    },
+    {
+      "nazov": "Jarná cibuľka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na drobno posekaná"
+    },
+    {
+      "nazov": "Zapekacie misky",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    }
+  ],
+  "postup": [
+    "Do zapekacích misiek daj trochu olivového oleja",
+    "Vlož koliesko šunky",
+    "Na šunku polož trojuholník syra",
+    "A zasa koliesko šunky",
+    "Na vrch daj vajíčko, osoľ a daj do vyhriatej rúry zapiecť na asi 10 minút. Po vybratí ozdob nakrájanou jarnou cibuľkou a podávaj",
+    "Dobrú chuť"
+  ],
+  "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+  "foto": "",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "vajcia",
+    "raňajky"
+  ]
 }

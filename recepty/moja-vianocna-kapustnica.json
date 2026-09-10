@@ -1,105 +1,104 @@
 {
- "id": "moja-vianocna-kapustnica",
- "nazov": "Moja vianočná kapustnica",
- "kategoria": "Polievka",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Moja vianočná kapustnica (autor: polepetko)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/moja-vianocna-kapustnica/69840-recept.html",
- "porcie": 10,
- "cas": "330 min",
- "kcal_na_porciu": 160,
- "popis": "Áno, ďalšia. Stopäťdesiataštvrtá kapustnica. Takto mi chutí a takto ju máme všetci radi :) \r\nRecept tu dávam preto, lebo ho vždy hľadám a spomínam ako som to robil minulý rok za \r\nasistencie ďalších 10 receptov z internetu. Dúfam, že na ďalší rok nezabudnem, že som si \r\nju tu pridal :D",
- "ingrediencie": [
-  {
-   "nazov": "Údené koleno",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pikantná klobása",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Nepikantná klobása",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá kapusta",
-   "mnozstvo": 1500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Nové korenie",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne korenie",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bobkový list",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené huby",
-   "mnozstvo": 40,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá sladká paprika",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Červená mletá údená paprika",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "V 5 l hrnci zalej údené koleno asi 1-2 cm pod okraj hrnca a var 2-3 hodiny spolu s bobkovým listom, čiernym a novým korením.",
-  "Po uvarení koleno vyber aj s korením a bobkovým listom. Do vývaru z kolena pridaj poriadne vytlačenú kapustu, ktorú si pred tým nakrájaj, aby sa príliš neťahala pri jedení. Ja ju veľmi nepreplachujem, stačí poriadne vytlačiť šťavu. Var 1-2 hodiny. Šťavu môžeš za ten čas popíjať, dodá nám probiotiká a vitamín C",
-  "Počas varenia kapusty si namoč huby do vriacej vody na cca 15-20 minút. Vodu z húb preceď cez jemné sitko do misky a vlej do kapustnice. Huby tiež nakrájaj na menšie kúsky a obaľ v hladkej múke a 20 minút pred dovarením kapusty ich pridaj do kapustnice. Spolu s hubami pridaj aj klobásu nakrájanú na hrubšie kolieska a varené údené koleno nakrájané na kocky.",
-  "Po 20 minútach od pridania húb si sprav zápražku z cibule nakrájanej na jemno, opraženej na oleji resp. bravčovej masti do sklovita a červenej sladkej+údenej papriky. Zápražku pridaj do kapustnice spolu s prelisovaným cesnakom a ešte 20-30 minút var. V prípade potreby ešte dosoľ. Podávaj najlepšie až na druhý deň, keď sa chute rozležia"
- ],
- "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
- "foto": "",
- "tagy": [
-  "polievka",
-  "huby",
-  "zelenina"
- ]
+  "id": "moja-vianocna-kapustnica",
+  "nazov": "Moja vianočná kapustnica",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Moja vianočná kapustnica (autor: polepetko)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/moja-vianocna-kapustnica/69840-recept.html",
+  "porcie": 10,
+  "cas": "330 min",
+  "kcal_na_porciu": 160,
+  "ingrediencie": [
+    {
+      "nazov": "Údené koleno",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pikantná klobása",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Nepikantná klobása",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá kapusta",
+      "mnozstvo": 1500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Nové korenie",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bobkový list",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené huby",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá sladká paprika",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Červená mletá údená paprika",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "V 5 l hrnci zalej údené koleno asi 1-2 cm pod okraj hrnca a var 2-3 hodiny spolu s bobkovým listom, čiernym a novým korením.",
+    "Po uvarení koleno vyber aj s korením a bobkovým listom. Do vývaru z kolena pridaj poriadne vytlačenú kapustu, ktorú si pred tým nakrájaj, aby sa príliš neťahala pri jedení. Ja ju veľmi nepreplachujem, stačí poriadne vytlačiť šťavu. Var 1-2 hodiny. Šťavu môžeš za ten čas popíjať, dodá nám probiotiká a vitamín C",
+    "Počas varenia kapusty si namoč huby do vriacej vody na cca 15-20 minút. Vodu z húb preceď cez jemné sitko do misky a vlej do kapustnice. Huby tiež nakrájaj na menšie kúsky a obaľ v hladkej múke a 20 minút pred dovarením kapusty ich pridaj do kapustnice. Spolu s hubami pridaj aj klobásu nakrájanú na hrubšie kolieska a varené údené koleno nakrájané na kocky.",
+    "Po 20 minútach od pridania húb si sprav zápražku z cibule nakrájanej na jemno, opraženej na oleji resp. bravčovej masti do sklovita a červenej sladkej+údenej papriky. Zápražku pridaj do kapustnice spolu s prelisovaným cesnakom a ešte 20-30 minút var. V prípade potreby ešte dosoľ. Podávaj najlepšie až na druhý deň, keď sa chute rozležia"
+  ],
+  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "huby",
+    "zelenina"
+  ]
 }

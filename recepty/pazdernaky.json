@@ -1,72 +1,72 @@
 {
- "id": "pazdernaky",
- "nazov": "Pazderňáky",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Pazderňáky (fotorecept) (autor: esi)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/pazdernaky-fotorecept/58905-recept.html",
- "porcie": 20,
- "cas": "150 min",
- "kcal_na_porciu": 54,
- "popis": "Je to recept starý prastarý, zdedený po rodičoch a starých rodičoch.  Neviem čo \r\nznamená tento výraz, nenašla som ani príbuzné slovo ani v slovníku cudzích slov. Proste  \r\nsú to \"Pazderňáky \"  Je to v podstate lokšové cesto s kváskom, plnené mletými \r\noškvarkami. \r\nTo, že je tento  môj konečný výrobok kalorický ani nehovorím, ale je ako všetko: čo je \r\nveľmi chutné a dobré je kalorické. Tak .... ",
- "ingrediencie": [
-  {
-   "nazov": "Zemiaky varené v šupke",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "toľko, koľko príjmu zemiaky"
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 42,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko vlažné do kvásku",
-   "mnozstvo": 150,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mleté oškvarky",
-   "mnozstvo": 8,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajce na potretie",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Priprav si všetky ingrediencie na cesto a taktiež oškvarky aby boli dobre rozotierateľné. Zemiaky odfotené nemám, práve sa chladili. Po vychladnutí ich na jemno ostrúhaj alebo pretlač ešte za tepla.",
-  "Zo všetkých ingrediencií si vymies nelepivé lokšové cesto. Ak bude veľmi lepiť,pridaj trochu múky. Toľko, aby sa cesto dalo rozvaľkať. Cesto po vykysnutí rozdeľ na 4 bochníky.",
-  "Pokysnutý bochník rozvaľkaj na obdĺžnik a hlavne dobre podmúč cesto. Natri oškvarkami, a zroluj ako roládu alebo cesto na fliačky. Z vrchu môžeš tú roládu trochu popritláčať na placato.",
-  "Teraz začínaj pracovať kukou.Ruku použij akoby krájaj nožom. Postupuj jemným pritláčaním na cesto tak, aby sa nám podľa možnosti nepretrhlo. Ak by sme mali veľa krát pretrhnuté cesto, pri pečení by nám masť z oškvarkov vytiekli. Keď rukou dosiahneš predelenie cesta, konečné prerezanie urob nožom. Veľkosť toho finálneho výrobku si určite sami.",
-  "Pazderňáky poukladaj na plech, potri rozhabarkovaným vajcom a vlož do rúry vyhriatej na 200 st.C, po 10 min. na 180 st.C. Peč do zlatova cca 30 min.",
-  "A tu je výsledok !!!!"
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "vajcia",
-  "zemiaky",
-  "bezmäsité",
-  "pečivo"
- ]
+  "id": "pazdernaky",
+  "nazov": "Pazderňáky",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Pazderňáky (fotorecept) (autor: esi)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/pazdernaky-fotorecept/58905-recept.html",
+  "porcie": 20,
+  "cas": "150 min",
+  "kcal_na_porciu": 54,
+  "popis": "Starý zdedený recept - v podstate lokšové cesto s kváskom, plnené mletými oškvarkami, kalorické, ale veľmi chutné.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiaky varené v šupke",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "toľko, koľko príjmu zemiaky"
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 42,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko vlažné do kvásku",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mleté oškvarky",
+      "mnozstvo": 8,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajce na potretie",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si všetky ingrediencie na cesto a taktiež oškvarky, aby boli dobre rozotierateľné. Zemiaky nechaj vychladnúť a po vychladnutí ich na jemno ostrúhaj alebo pretlač ešte za tepla.",
+    "Zo všetkých ingrediencií si vymies nelepivé lokšové cesto. Ak bude veľmi lepiť, pridaj trochu múky. Toľko, aby sa cesto dalo rozvaľkať. Cesto po vykysnutí rozdeľ na 4 bochníky.",
+    "Pokysnutý bochník rozvaľkaj na obdĺžnik a hlavne dobre podmúč cesto. Natri oškvarkami, a zroluj ako roládu alebo cesto na fliačky. Z vrchu môžeš tú roládu trochu popritláčať na placato.",
+    "Teraz začínaj pracovať rukou. Ruku použij, akoby si krájal nožom. Postupuj jemným pritláčaním na cesto tak, aby sa podľa možnosti nepretrhlo. Ak by bolo cesto veľakrát pretrhnuté, pri pečení by masť z oškvarkov vytiekla. Keď rukou dosiahneš predelenie cesta, konečné prerezanie urob nožom. Veľkosť toho finálneho výrobku si urči sám.",
+    "Pazderňáky poukladaj na plech, potri rozhabarkovaným vajcom a vlož do rúry vyhriatej na 200 st.C, po 10 min. na 180 st.C. Peč do zlatova cca 30 min.",
+    "A tu je výsledok !!!!"
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "vajcia",
+    "zemiaky",
+    "bezmäsité",
+    "pečivo"
+  ]
 }

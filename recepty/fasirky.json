@@ -1,74 +1,73 @@
 {
- "id": "fasirky",
- "nazov": "Fašírky (karbonátky)",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Fašírka (autor: marcelc)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/fasirka/48872-recept.html",
- "porcie": 6,
- "cas": "45 min",
- "kcal_na_porciu": 544,
- "popis": "Nikdy som nemal rád fašírku čo robili naši doma, postupom času som sa dopracoval k tejto \r\nverzii, ktorá je veľmi jedlá...",
- "ingrediencie": [
-  {
-   "nazov": "Bravčové mleté mäso",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mäso hovädzie mleté",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prosciutto",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslové rozdrvené sušienky",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Muškátový strúhaný oriešok",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa nadrobno pokrájaná",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Predhrej rúru na 200˚C.",
-  "V miske zmiešaj všetky suroviny, poriadne osoľ a okoreň. (Namiesto prosciutta môžte použiť udenú prerastanú slaninku, mleté mäso s čo najmenším množstvom tuku). Zo zmesi vytvaruj dve fašírky a popráš múkou. (Sušienky fungujú ako strúhanka).",
-  "Daj do vyhriatej rúry na cca 30 min."
- ],
- "tipy": "Mleté mäso rozprestri po panvici a chvíľu ho nemiešaj. Až keď zospodu zhnedne, začne sa opekať namiesto dusenia.",
- "foto": "",
- "tagy": [
-  "slovenské",
-  "tradičné",
-  "mäso"
- ]
+  "id": "fasirky",
+  "nazov": "Fašírky (karbonátky)",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Fašírka (autor: marcelc)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/fasirka/48872-recept.html",
+  "porcie": 6,
+  "cas": "45 min",
+  "kcal_na_porciu": 544,
+  "ingrediencie": [
+    {
+      "nazov": "Bravčové mleté mäso",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mäso hovädzie mleté",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prosciutto",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslové rozdrvené sušienky",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Muškátový strúhaný oriešok",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa nadrobno pokrájaná",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Predhrej rúru na 200˚C.",
+    "V miske zmiešaj všetky suroviny, poriadne osoľ a okoreň. (Namiesto prosciutta môžte použiť udenú prerastanú slaninku, mleté mäso s čo najmenším množstvom tuku). Zo zmesi vytvaruj dve fašírky a popráš múkou. (Sušienky fungujú ako strúhanka).",
+    "Daj do vyhriatej rúry na cca 30 min."
+  ],
+  "tipy": "Mleté mäso rozprestri po panvici a chvíľu ho nemiešaj. Až keď zospodu zhnedne, začne sa opekať namiesto dusenia.",
+  "foto": "",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "mäso"
+  ]
 }

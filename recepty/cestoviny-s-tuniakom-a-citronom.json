@@ -1,57 +1,56 @@
 {
- "id": "cestoviny-s-tuniakom-a-citronom",
- "nazov": "Cestoviny s tuniakom a syrokrémom",
- "kategoria": "Cestoviny",
- "kuchyna": "Talianska",
- "zdroj": "Varecha.sk – Syrovo-tuniakové cestoviny (autor: heslo)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/syrovo-tuniakove-cestoviny-/29781-recept.html",
- "porcie": 4,
- "cas": "15 min",
- "kcal_na_porciu": 424,
- "popis": "môj vlastný recept ktorý by zládol každý :)",
- "ingrediencie": [
-  {
-   "nazov": "Kocka syrokrému",
-   "mnozstvo": 90,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cestoviny",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajka",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tuniak v olivovom oleji",
-   "mnozstvo": 160,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Daj variť cestoviny podľa výberu a zatiaľ si nakrájaj paradajky na kocky.",
-  "Do hrnca nalej mlieko a postupne aj syrokrém. POZOR! omáčku treba neustále miešať.",
-  "Tuniaka rozdrv alebo nakrájaj na malé kusky.",
-  "Nakoniec vezmi paradajky, tuniaka, omáčku a cestoviny a zmiešaj to dokopy. Dobrú chuť!"
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "tuniak",
-  "rýchle"
- ]
+  "id": "cestoviny-s-tuniakom-a-citronom",
+  "nazov": "Cestoviny s tuniakom a syrokrémom",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "Varecha.sk – Syrovo-tuniakové cestoviny (autor: heslo)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/syrovo-tuniakove-cestoviny-/29781-recept.html",
+  "porcie": 4,
+  "cas": "15 min",
+  "kcal_na_porciu": 424,
+  "ingrediencie": [
+    {
+      "nazov": "Kocka syrokrému",
+      "mnozstvo": 90,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajka",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tuniak v olivovom oleji",
+      "mnozstvo": 160,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Daj variť cestoviny podľa výberu a zatiaľ si nakrájaj paradajky na kocky.",
+    "Do hrnca nalej mlieko a postupne aj syrokrém. POZOR! omáčku treba neustále miešať.",
+    "Tuniaka rozdrv alebo nakrájaj na malé kusky.",
+    "Nakoniec vezmi paradajky, tuniaka, omáčku a cestoviny a zmiešaj to dokopy. Dobrú chuť!"
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "tuniak",
+    "rýchle"
+  ]
 }

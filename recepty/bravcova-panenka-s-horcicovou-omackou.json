@@ -1,112 +1,112 @@
 {
- "id": "bravcova-panenka-s-horcicovou-omackou",
- "nazov": "Bravčová panenka s horčicovou omáčkou",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Francúzska",
- "zdroj": "Varecha.sk – Pečená bravčová panenka obalená v pivnom slade so smotanovo-horčicovou omáčkou (autor: natassa22)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/pecena-bravcova-panenka-obalena-v-pivnom-slade-so-smotanovo-horcicovou-o/70948-recept.html",
- "porcie": 20,
- "cas": "100 min",
- "kcal_na_porciu": 438,
- "popis": "Keďže vegánom už istú dobu nie \r\nsom, a varíme si doma mimo jedla \r\naj domáce pivko, ktorého prvotnú \r\nsurovinu - slad - preosievame od \r\ntej najjemnejšej múčky kvôli \r\nprípadnému pripaľovaniu v hrnci, \r\nnapadlo mi využiť tú sladovú \r\nmúčku pri bežnom varení. Tu Vám \r\nteda ponúkaj recept na našu \r\nvýbornú sladovú panenku.",
- "ingrediencie": [
-  {
-   "nazov": "Bravčová panenka",
-   "mnozstvo": 2000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Údená slanina",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slad pivovarnícky mletý",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Smotana na šľahanie",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 1000,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horčica",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bobkový list",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Údený syr",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Masť",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne pivo",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Keďže nám moc výpeku nepustila, pridaj masť. Keď bola opečená, vyber ju bokom a v danom výpeku sme prudko osmahli panenku v celku.",
-  "Zostatok čerstvej slaniny dokrájaj na pásiky a poukladaj na vrch panenky. Podliali výpekom z panvice a pivom. Nakrájaj cesnak a posypaj ním panenku. Osolili okorenili a dali do rúry piecť - 200 stupňov cca pol hod zakryté.",
-  "Medzitým omáčka - daj zovrieť mlieko, smotanu vymiešali so sladom tak, aby to bolo husté tak akurát a postupne prilievali k mlieku. Pridaj horčicu, bobkový list, nastrúhaný syr a miešaj a redukuj. Pridaj soľ + korenie.",
-  "Po pol hod odokryj misu v rúre a peč ďalej. Po ďalšej pol hodine, keď vidím, že mäso už je upečené, to zalej pripravenou omáčkou a nechali zapiecť ešte cca 20 minút.",
-  "Podávaj to s klasickým čerstvým uhorkovým šalátom, čo dokonalo spojilo tú nasladlo-údenú chuť mäsa. Dobrú chuť a príjemný zážitok."
- ],
- "tipy": "Smotanu aj metly daj pred šľahaním do chladničky. Teplá smotana sa nevyšľahá, len sa zrazí.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "francúzske"
- ]
+  "id": "bravcova-panenka-s-horcicovou-omackou",
+  "nazov": "Bravčová panenka s horčicovou omáčkou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Francúzska",
+  "zdroj": "Varecha.sk – Pečená bravčová panenka obalená v pivnom slade so smotanovo-horčicovou omáčkou (autor: natassa22)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/pecena-bravcova-panenka-obalena-v-pivnom-slade-so-smotanovo-horcicovou-o/70948-recept.html",
+  "porcie": 20,
+  "cas": "100 min",
+  "kcal_na_porciu": 438,
+  "popis": "Bravčová panenka pripravená s využitím sladovej múčky preosiatej zo sladu.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčová panenka",
+      "mnozstvo": 2000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údená slanina",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slad pivovarnícky mletý",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bobkový list",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údený syr",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Masť",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne pivo",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Keďže moc výpeku nepustí, pridaj masť. Keď je opečená, vyber ju bokom a v danom výpeku prudko osmahni panenku vcelku.",
+    "Zostatok čerstvej slaniny dokrájaj na pásiky a poukladaj na vrch panenky. Podlej výpekom z panvice a pivom. Nakrájaj cesnak a posyp ním panenku. Osoľ, okoreň a daj do rúry piecť - 200 stupňov cca pol hod zakryté.",
+    "Medzitým priprav omáčku - daj zovrieť mlieko, smotanu vymiešaj so sladom tak, aby to bolo husté tak akurát, a postupne prilievaj k mlieku. Pridaj horčicu, bobkový list, nastrúhaný syr a miešaj a redukuj. Pridaj soľ + korenie.",
+    "Po pol hod odokry misu v rúre a peč ďalej. Po ďalšej pol hodine, keď je mäso už upečené, zalej ho pripravenou omáčkou a nechaj zapiecť ešte cca 20 minút.",
+    "Podávaj to s klasickým čerstvým uhorkovým šalátom, ktorý dokonale spojí tú nasladlo-údenú chuť mäsa. Dobrú chuť a príjemný zážitok."
+  ],
+  "tipy": "Smotanu aj metly daj pred šľahaním do chladničky. Teplá smotana sa nevyšľahá, len sa zrazí.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "francúzske"
+  ]
 }

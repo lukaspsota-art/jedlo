@@ -1,120 +1,119 @@
 {
- "id": "masove-gulky-v-zemiakovom-nakype",
- "nazov": "Mäsove guľky v zemiakovom nákype",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Mäsove guľky v zemiakovom nákype (fotorecept) (autor: palokuchki)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/masove-gulky-v-zemiakovom-nakype-fotorecept/10193-recept.html",
- "porcie": 6,
- "cas": "65 min",
- "kcal_na_porciu": 334,
- "popis": "Tento recept som nasla madzi receptami, ktore si velmi davno odkladala moja dcera. Vyskusala som ho a chutil nam. Rozhodla som sa ho dat na varechu, mozno niekoho nim inspirujem.",
- "ingrediencie": [
-  {
-   "nazov": "Cuketa",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hovädzie mäso",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Strúhanka",
-   "mnozstvo": 13,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 0.25,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horčica",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tvrdý syr",
-   "mnozstvo": 60,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Priprav si misku na pecenie, priemeru 23cm. Vymasti ju olivovym olejom.",
-  "Dve cukiny strednej velkosti postruhaj na struhadle.",
-  "Postruhane cukiny uloz do misky na pecenie. Rozloz ich rovnomerne po spodku aj po bokoch misky. Posoľ to aj pokoreň. Daj to zapiect do rury 200'C na 15min",
-  "Hovadzie maso si pomeľ, cibulu nasekala na drobno, cesnak pretlacila cez tlacitko, petrzlenovu vnatku tiez nasekaj na drobne kusky, pridaj horcicu, struhanku, vajicko, sol a korenie.",
-  "Vsetko to spracuj do kopy.",
-  "Oprazene vyber na papierovy obrusok.",
-  "Potom oprazene gulky uloz na zapecenu cukinu.",
-  "Na gulky navrstvi zemiakove pyre, ktore sprav z osolenych uvarenych zemiakov a mlieka.",
-  "Zemiaky posyp struhanym syrom a daj to zapiect do rury180'C na 20minut.",
-  "Vsetko sa spolu prepieklo, syr sa rozpustil a tiez zapiekol.",
-  "Nakrajaj jednotlive porcie a dala na tanier."
- ],
- "tipy": "Syr si nastrúhaj z bloku. Balený strúhaný má protihrudkovací škrob a roztápa sa horšie.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "hovädzie",
-  "syr",
-  "vajcia",
-  "zemiaky"
- ]
+  "id": "masove-gulky-v-zemiakovom-nakype",
+  "nazov": "Mäsove guľky v zemiakovom nákype",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Mäsove guľky v zemiakovom nákype (fotorecept) (autor: palokuchki)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/masove-gulky-v-zemiakovom-nakype-fotorecept/10193-recept.html",
+  "porcie": 6,
+  "cas": "65 min",
+  "kcal_na_porciu": 334,
+  "ingrediencie": [
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hovädzie mäso",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Strúhanka",
+      "mnozstvo": 13,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 0.25,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvrdý syr",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si misku na pečenie, priemeru 23cm. Vymasti ju olivovým olejom.",
+    "Dve cukiny strednej veľkosti postrúhaj na strúhadle.",
+    "Postrúhané cukiny ulož do misky na pečenie. Rozlož ich rovnomerne po spodku aj po bokoch misky. Posoľ to aj pokoreň. Daj to zapiecť do rúry 200'C na 15 min.",
+    "Hovädzie mäso si pomeľ, cibuľu nasekaj na drobno, cesnak pretlač cez tlačidlo, petržlenovú vňatku tiež nasekaj na drobné kúsky, pridaj horčicu, strúhanku, vajíčko, soľ a korenie.",
+    "Všetko to spracuj do kopy.",
+    "Opražené vyber na papierový obrúsok.",
+    "Potom opražené guľky ulož na zapečenú cukinu.",
+    "Na guľky navrstvi zemiakové pyré, ktoré sprav z osolených uvarených zemiakov a mlieka.",
+    "Zemiaky posyp strúhaným syrom a daj to zapiecť do rúry 180'C na 20 minút.",
+    "Všetko sa spolu prepečie, syr sa rozpustí a tiež zapečie.",
+    "Nakrájaj jednotlivé porcie a daj na tanier."
+  ],
+  "tipy": "Syr si nastrúhaj z bloku. Balený strúhaný má protihrudkovací škrob a roztápa sa horšie.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "syr",
+    "vajcia",
+    "zemiaky"
+  ]
 }

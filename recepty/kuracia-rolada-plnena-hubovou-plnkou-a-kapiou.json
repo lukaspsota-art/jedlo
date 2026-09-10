@@ -1,96 +1,96 @@
 {
- "id": "kuracia-rolada-plnena-hubovou-plnkou-a-kapiou",
- "nazov": "Kuracia roláda plnená hubovou plnkou a kapiou",
- "kategoria": "Raňajky",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kuracia roláda plnená hubovou plnkou a kapiou (fotorecept) (autor: elenas)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kuracia-rolada-plnena-hubovou-plnkou-a-kapiou-fotorecept/70666-recept.html",
- "porcie": 5,
- "cas": "190 min",
- "kcal_na_porciu": 439,
- "popis": "Asi je veľa  receptov na kuraciu roládu ale vyskúšala som túto kombináciu.  Je výborná \r\nako hlavné jedlo ale aj na studeno, napríklad na misu.",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 600,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šampiňóny",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá uhorka",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zaváraná kapia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šunka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Priprav všetky suroviny. Cibuľu a šampiňóny očisti.",
-  "Na drobno nakrájanú cibuľu speň na oleji. Pridaj na drobno nakrájané šampiňóny a spolu smaž cca 5 minút. Osoľ, okoreň a pridaj rozmiešané vajcia a urob praženicu.",
-  "Osoľ, okoreň a pridaj rozmiešané vajcia a urob praženicu.",
-  "Kuracia prsia pozdĺžne narež (ale nie úplne prerezať) a otvor ako krídla motýlika tak, aby boli dva rovnaké diely a vyklepeš cez potravinovú fóliu (aby neprskalo) na veľké rezne.",
-  "Osoľ a okoreň.",
-  "Na pracovnú plochu daj 2 listy alobalu tak, aby sa prekrývali a pretrieš olejom. Rovnomerne ukladaj naň mäso.",
-  "Na mäso daj šunku.",
-  "Na šunku rovnomerne daj hubovú praženicu. Pozdĺžne ukladaj na pásiky nakrájané uhorky a kapiu.",
-  "Roládu opatrne zroluj a zabaľ ešte do jednej vrstvy alobalu, aby bolo pevnejšie. Daj na plech, na dno podlej trochou vody (naozaj len trochu). Peč v rúre pri 180 °C cca 70 - 80 minút.",
-  "Pri pečení roláda pustí šťavu, ktorú môžete využiť pri servírovaní.",
-  "Hotovú roládu rozbaľ a servíruj.",
-  "Podávaj, napríklad, so zemiakovou kašou. Dobrú chuť!"
- ],
- "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
- "foto": "",
- "tagy": [
-  "raňajky",
-  "kuracie",
-  "vajcia",
-  "huby"
- ]
+  "id": "kuracia-rolada-plnena-hubovou-plnkou-a-kapiou",
+  "nazov": "Kuracia roláda plnená hubovou plnkou a kapiou",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kuracia roláda plnená hubovou plnkou a kapiou (fotorecept) (autor: elenas)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kuracia-rolada-plnena-hubovou-plnkou-a-kapiou-fotorecept/70666-recept.html",
+  "porcie": 5,
+  "cas": "190 min",
+  "kcal_na_porciu": 439,
+  "popis": "Kuracia roláda s hubovou plnkou a kapiou je výborná ako hlavné jedlo, ale aj na studeno, napríklad na studenú misu.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šampiňóny",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá uhorka",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zaváraná kapia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šunka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav všetky suroviny. Cibuľu a šampiňóny očisti.",
+    "Na drobno nakrájanú cibuľu speň na oleji. Pridaj na drobno nakrájané šampiňóny a spolu smaž cca 5 minút. Osoľ, okoreň a pridaj rozmiešané vajcia a urob praženicu.",
+    "Osoľ, okoreň a pridaj rozmiešané vajcia a urob praženicu.",
+    "Kuracia prsia pozdĺžne narež (ale nie úplne prerezať) a otvor ako krídla motýlika tak, aby boli dva rovnaké diely a vyklepeš cez potravinovú fóliu (aby neprskalo) na veľké rezne.",
+    "Osoľ a okoreň.",
+    "Na pracovnú plochu daj 2 listy alobalu tak, aby sa prekrývali a pretrieš olejom. Rovnomerne ukladaj naň mäso.",
+    "Na mäso daj šunku.",
+    "Na šunku rovnomerne daj hubovú praženicu. Pozdĺžne ukladaj na pásiky nakrájané uhorky a kapiu.",
+    "Roládu opatrne zroluj a zabaľ ešte do jednej vrstvy alobalu, aby bolo pevnejšie. Daj na plech, na dno podlej trochou vody (naozaj len trochu). Peč v rúre pri 180 °C cca 70 - 80 minút.",
+    "Pri pečení roláda pustí šťavu, ktorú môžete využiť pri servírovaní.",
+    "Hotovú roládu rozbaľ a servíruj.",
+    "Podávaj, napríklad, so zemiakovou kašou. Dobrú chuť!"
+  ],
+  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "kuracie",
+    "vajcia",
+    "huby"
+  ]
 }
