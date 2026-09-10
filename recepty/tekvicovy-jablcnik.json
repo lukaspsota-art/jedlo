@@ -1,148 +1,148 @@
 {
- "id": "tekvicovy-jablcnik",
- "nazov": "Tekvicový jablčník",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Tekvicový jablčník (fotorecept) (autor: evadeva)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/tekvicovy-jablcnik-fotorecept/53972-recept.html",
- "porcie": 12,
- "cas": "40 min",
- "kcal_na_porciu": 259,
- "popis": "Tento koláčik som si zamilovala už v detstve v jeho nezdravej verzii a keďže som sa ho \r\nnedokázala vzdať, pretvorila som ho na zdravú dobrotu. Recept je veľmi jednoduchý a \r\nnenáročný na suroviny. Ja sama sa receptu úplne nedržím a vždy si ho niečím ozvláštnim. \r\nPrajem dobrú chuť! :)",
- "ingrediencie": [
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hrubá múka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ovsené vločky",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pšeničné otruby",
-   "mnozstvo": 15,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová kôra",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá škorica",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Stevia - prírodné sladidlo",
-   "mnozstvo": 5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kypriaci prášok do pečiva",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Strúhaná tekvica",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Citrónová šťava",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Škorica",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Slivkový lekvár",
-   "mnozstvo": 5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hrubá múka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ovsené vločky",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Stevia",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Suché suroviny na cesto dobre premiešaj a potom rovnomerne rozmrv s maslom. Pridaj med a vajíčka. Vypracuj cesto.",
-  "Cesto prstami roztlač na plech a posyp ovsenými vločkami.",
-  "Tekvicu rozotri na cesto. Na plnku rozmiestni kúsky slivkového lekváru. Zasyp mrvenicovou zmesou.",
-  "Hotový koláč ozdob opraženými tekvicovými semienkami."
- ],
- "tipy": "Šťavu vytlač až tesne pred použitím a nezabudni na kôru — väčšina arómy je v nej, nie v šťave.",
- "foto": "",
- "tagy": [
-  "vajcia",
-  "tekvica",
-  "bezmäsité",
-  "dezert"
- ]
+  "id": "tekvicovy-jablcnik",
+  "nazov": "Tekvicový jablčník",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Tekvicový jablčník (fotorecept) (autor: evadeva)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/tekvicovy-jablcnik-fotorecept/53972-recept.html",
+  "porcie": 12,
+  "cas": "40 min",
+  "kcal_na_porciu": 259,
+  "popis": "Zdravšia verzia obľúbeného koláčika, ktorá je veľmi jednoduchá a nenáročná na suroviny.",
+  "ingrediencie": [
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrubá múka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ovsené vločky",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pšeničné otruby",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová kôra",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá škorica",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Stevia - prírodné sladidlo",
+      "mnozstvo": 5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kypriaci prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Strúhaná tekvica",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Slivkový lekvár",
+      "mnozstvo": 5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrubá múka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ovsené vločky",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Stevia",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Suché suroviny na cesto dobre premiešaj a potom rovnomerne rozmrv s maslom. Pridaj med a vajíčka. Vypracuj cesto.",
+    "Cesto prstami roztlač na plech a posyp ovsenými vločkami.",
+    "Tekvicu rozotri na cesto. Na plnku rozmiestni kúsky slivkového lekváru. Zasyp mrvenicovou zmesou.",
+    "Hotový koláč ozdob opraženými tekvicovými semienkami."
+  ],
+  "tipy": "Šťavu vytlač až tesne pred použitím a nezabudni na kôru — väčšina arómy je v nej, nie v šťave.",
+  "foto": "",
+  "tagy": [
+    "vajcia",
+    "tekvica",
+    "bezmäsité",
+    "dezert"
+  ]
 }

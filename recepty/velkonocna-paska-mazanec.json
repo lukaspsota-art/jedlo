@@ -1,89 +1,89 @@
 {
- "id": "velkonocna-paska-mazanec",
- "nazov": "Veľkonočná paska - mazanec",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Veľkonočná paska - mazanec (fotorecept) (autor: bogar)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/velkonocna-paska-mazanec-fotorecept/76833-recept.html",
- "porcie": 11,
- "cas": "195 min",
- "kcal_na_porciu": 303,
- "popis": "Tento sladký koláč ja osobne milujem aj ku kapustnici. Je to veľká pochúťka na Veľkú noc k cvikle, chrenu, hrudke, vajíčkam a \r\nsyrku...",
- "ingrediencie": [
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 130,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový cukor",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Žĺtok",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová kôra",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Do misy od robota na hnetenie si daj suroviny - na spodok soľ, múky, všetok cukor, vlažné mlieko, droždie popučené v rukách, žĺtok a rozpustené teplé maslo. Prikryla to a nechaj 20 minút odpočívať.",
-  "Potom som robot zapla na miesenie a nechaj to miesiť 10 minút až kým sa cesto pekne nedelilo od krajov a bolo vidieť ako pekne sa robia bublinky (vpravo na foto je jedna krásna). Cesto prikryj a nechaj kysnúť hodinu.",
-  "Po hodine cesto premies rukou, prelož na plech, vytvaruj a nechaj kysnúť ďalšiu hodinu.",
-  "Po tej druhej hodine bochník prelož do tortovej formy vymastenej maslom. Potri rozšľahaným vajíčkom, urob krížik a posyp čím chcete, ja som mala mandle pražené s cukrom.",
-  "Rozohrej rúru na 200 stupňov a daj dnu pasku na 10 minút. Stále sleduj, aby sa nám nepripálila. Potom stiahni na 160 stupňov a peč 25 minút, ak by ste videli že Vám chytá vrch, kľudne ju prikry alobalom a ďalej dopekaj Taktiež ju treba vyskúšať špáradlom či je hotová a nič sa nelepí na špáradlo keď do nej pichnete.",
-  "Po upečení prelož na mriežku vychladnúť. Môžeš potrieť cukrovou vodou. Dobrú chuť."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "pečivo",
-  "bezmäsité",
-  "slovenská"
- ]
+  "id": "velkonocna-paska-mazanec",
+  "nazov": "Veľkonočná paska - mazanec",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Veľkonočná paska - mazanec (fotorecept) (autor: bogar)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/velkonocna-paska-mazanec-fotorecept/76833-recept.html",
+  "porcie": 11,
+  "cas": "195 min",
+  "kcal_na_porciu": 303,
+  "popis": "Sladký veľkonočný koláč, ktorý sa podáva ku kapustnici aj k cvikle, chrenu, hrudke, vajíčkam a syrku.",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 130,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový cukor",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Žĺtok",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová kôra",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do misy od robota na hnetenie si daj suroviny - na spodok soľ, múky, všetok cukor, vlažné mlieko, droždie popučené v rukách, žĺtok a rozpustené teplé maslo. Prikry to a nechaj 20 minút odpočívať.",
+    "Potom zapni robot na miesenie a nechaj to miesiť 10 minút, až kým sa cesto pekne neodlepuje od krajov a nie je vidieť, ako sa pekne robia bublinky (vpravo na foto je jedna krásna). Cesto prikry a nechaj kysnúť hodinu.",
+    "Po hodine cesto premies rukou, prelož na plech, vytvaruj a nechaj kysnúť ďalšiu hodinu.",
+    "Po tej druhej hodine bochník prelož do tortovej formy vymastenej maslom. Potri rozšľahaným vajíčkom, urob krížik a posyp čím chceš, napríklad mandľami praženými s cukrom.",
+    "Rozohrej rúru na 200 stupňov a daj dnu pasku na 10 minút. Stále sleduj, aby sa nepripálila. Potom stiahni na 160 stupňov a peč 25 minút; ak vidíš, že chytá vrch, kľudne ju prikry alobalom a ďalej dopekaj. Takisto ju treba vyskúšať špáradlom, či je hotová a nič sa nelepí na špáradlo, keď do nej pichneš.",
+    "Po upečení prelož na mriežku vychladnúť. Môžeš potrieť cukrovou vodou. Dobrú chuť."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "bezmäsité",
+    "slovenská"
+  ]
 }

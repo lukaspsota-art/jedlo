@@ -1,81 +1,81 @@
 {
- "id": "snack-ryzove-chlebicky",
- "nazov": "Domáca veka na chlebíčky",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Domáca veka na chlebíčky (autor: izabella929)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/domaca-veka-na-chlebicky/72785-recept.html",
- "porcie": 10,
- "cas": "110 min",
- "kcal_na_porciu": 210,
- "popis": "Na Silvestrovské chlebíčky si vždy peč domáce veky.",
- "ingrediencie": [
-  {
-   "nazov": "Múka hladká špeciál",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Polohrubá výberová múka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hrubá múka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 300,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvé droždie",
-   "mnozstvo": 40,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "pred pečením"
-  }
- ],
- "postup": [
-  "Nefoť FOTOPOSTUP. Najprv si priprav kvások. Z 300 ml vody odoberiem 50 ml, pridám pomrvené droždie a posypem cukrom a hladkou múkou. Daj vykysnúť na teplé miesto. Zatiaľ si všetky múky preosejem, pridám soľ a všetko spolu zmiešam. Keď mi kvások krásne nakysne, pridám ho k múke, premiešam, pridám zbytok vlažnej vody a olej a zmiešam. Cesto vlož do robota a nechaj miesiť 6 minút. Potom cesto prelož do misy, popráš múkou a nechaj kysnúť na teplom mieste 45 minút. Vykysnuté cesto vylož na pomúčenú dosku a jemne premies. Z cesta urobím dlhý šúľok a tento zrolujem do tvaru veky, ešte pošúľam, aby veka bola pekná rovná a ukladám ich na papierom vystlaný plech. Urobila som z tejto dávky 3 veky. Nechaj ich zakryté podkysnúť 30 minút. Keď krásne podkysli, potri ich mliekom a urob zárezy do veky a ešte 5 minút nechaj podkysnúť.",
-  "Rúru nechaj vyhriať na 180 °C a piekli sa 30 minút. Upečené vylož na mriežku a nechaj úplne vychladnúť, kým ich budem krájať.",
-  "Po vychladnutí som urobila vzorku v reze. Sú krehké a mäkučké. Za dôležité považujem poriadne kysnutie. Prajem vám dobrú chuť.",
-  "Chlebíčky sú hotové a ešte jedna rada... Ja na chlebíčky nestrúham syr, lebo keď sú chlebíčky dlhšie na stole, syr sa rýchlo vysuší... Strúham na chlebíčky pomarančovú kôru, samozrejme poriadne ju umyjem pred strúhaním. Takto chlebíčky zostanú aj svieže a sú zároveň aj chutné."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "kupované",
-  "slovenská",
-  "pečivo"
- ]
+  "id": "snack-ryzove-chlebicky",
+  "nazov": "Domáca veka na chlebíčky",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Domáca veka na chlebíčky (autor: izabella929)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/domaca-veka-na-chlebicky/72785-recept.html",
+  "porcie": 10,
+  "cas": "110 min",
+  "kcal_na_porciu": 210,
+  "popis": "Na Silvestrovské chlebíčky si vždy peč domáce veky.",
+  "ingrediencie": [
+    {
+      "nazov": "Múka hladká špeciál",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Polohrubá výberová múka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrubá múka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvé droždie",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "pred pečením"
+    }
+  ],
+  "postup": [
+    "Najprv si priprav kvások. Z 300 ml vody odober 50 ml, pridaj pomrvené droždie a posyp cukrom a hladkou múkou. Daj vykysnúť na teplé miesto. Zatiaľ si všetky múky preosej, pridaj soľ a všetko spolu zmiešaj. Keď kvások krásne nakysne, pridaj ho k múke, premiešaj, pridaj zbytok vlažnej vody a olej a zmiešaj. Cesto vlož do robota a nechaj miesiť 6 minút. Potom cesto prelož do misy, popráš múkou a nechaj kysnúť na teplom mieste 45 minút. Vykysnuté cesto vylož na pomúčenú dosku a jemne premies. Z cesta urob dlhý šúľok a ten zroluj do tvaru veky, ešte pošúľaj, aby veka bola pekná rovná, a ukladaj ich na papierom vystlaný plech. Z tejto dávky vyjdú 3 veky. Nechaj ich zakryté podkysnúť 30 minút. Keď krásne podkysnú, potri ich mliekom, urob zárezy do veky a ešte 5 minút nechaj podkysnúť.",
+    "Rúru nechaj vyhriať na 180 °C a peč 30 minút. Upečené vylož na mriežku a nechaj úplne vychladnúť, kým ich budeš krájať.",
+    "Po vychladnutí sú veky v reze krehké a mäkučké. Za dôležité sa považuje poriadne kysnutie.",
+    "Chlebíčky sú hotové a ešte jedna rada... Na chlebíčky nestrúhaj syr, lebo keď sú chlebíčky dlhšie na stole, syr sa rýchlo vysuší... Nastrúhaj na chlebíčky pomarančovú kôru, samozrejme pomaranč pred strúhaním poriadne umy. Takto chlebíčky zostanú aj svieže a sú zároveň aj chutné."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "kupované",
+    "slovenská",
+    "pečivo"
+  ]
 }

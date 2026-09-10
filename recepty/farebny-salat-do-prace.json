@@ -1,103 +1,103 @@
 {
- "id": "farebny-salat-do-prace",
- "nazov": "Farebný šalát do práce",
- "kategoria": "Šalát",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Farebný šalát do práce (fotorecept) (autor: redakcia)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/farebny-salat-do-prace-fotorecept/83901-recept.html",
- "porcie": 3,
- "cas": "30 min",
- "kcal_na_porciu": 351,
- "popis": "Ľahký obed so sebou, ktorý dodá kopec energie aj vitamínov, to je náš farebný šalát s kuracím mäsom.",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajky cherry",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jablko",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Avokádo",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrón",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jogurt biely grécky",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová hladkolistá vňať",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rukola",
-   "mnozstvo": 2,
-   "jednotka": "hrsť",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Uvarené kuracie prsia nakrájaj na plátky a potom na menšie kocky.",
-  "Červenú cibuľu nakrájaj na tenké mesiačiky, cherry paradajky na polovice, mrkvu nastrúhaj. Jablko zbav jadrovníka a nakrájaj na tenké plátky.",
-  "Do sekáčika daj jogurt, ošúpané a nakrájané avokádo, šťavu z polovice citróna, soľ a čerstvo zomleté korenie podľa chuti. Najemno rozmixuj.",
-  "Avokádový dip s jogurtom rozdeľ na dno pohárov.",
-  "Ďalej vrstvi plátky cibule. Ak chceš zjemniť cibuľovú chuť, môžeš ju najskôr preliať vriacou vodou.",
-  "Na cibuľu ukladaj plátky jabĺk, pokvapkaj ich šťavou z polovice citróna, aby nezhnedli. Nasleduje vrstva cherry paradajok.",
-  "Na paradajky ulož lístky rukoly a nastrúhanú mrkvu.",
-  "Nasledujú opäť lístky rukoly. Navrch poukladaj kuracie mäso. Šalát ozdob vetvičkou petržlenovej vňate a poháre uzatvor. V práci len preklop obsah pohára na tanier a zeleninu dôkladne zmiešaj s dipom."
- ],
- "tipy": "Avokádo pokvapkaj citrónovou šťavou — bez kyseliny zhnedne do pár minút.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "kuracie",
-  "jablká"
- ]
+  "id": "farebny-salat-do-prace",
+  "nazov": "Farebný šalát do práce",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Farebný šalát do práce (fotorecept) (autor: redakcia)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/farebny-salat-do-prace-fotorecept/83901-recept.html",
+  "porcie": 3,
+  "cas": "30 min",
+  "kcal_na_porciu": 351,
+  "popis": "Farebný šalát s kuracím mäsom ako ľahký obed so sebou, ktorý dodá kopec energie aj vitamínov.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky cherry",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Avokádo",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jogurt biely grécky",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová hladkolistá vňať",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rukola",
+      "mnozstvo": 2,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Uvarené kuracie prsia nakrájaj na plátky a potom na menšie kocky.",
+    "Červenú cibuľu nakrájaj na tenké mesiačiky, cherry paradajky na polovice, mrkvu nastrúhaj. Jablko zbav jadrovníka a nakrájaj na tenké plátky.",
+    "Do sekáčika daj jogurt, ošúpané a nakrájané avokádo, šťavu z polovice citróna, soľ a čerstvo zomleté korenie podľa chuti. Najemno rozmixuj.",
+    "Avokádový dip s jogurtom rozdeľ na dno pohárov.",
+    "Ďalej vrstvi plátky cibule. Ak chceš zjemniť cibuľovú chuť, môžeš ju najskôr preliať vriacou vodou.",
+    "Na cibuľu ukladaj plátky jabĺk, pokvapkaj ich šťavou z polovice citróna, aby nezhnedli. Nasleduje vrstva cherry paradajok.",
+    "Na paradajky ulož lístky rukoly a nastrúhanú mrkvu.",
+    "Nasledujú opäť lístky rukoly. Navrch poukladaj kuracie mäso. Šalát ozdob vetvičkou petržlenovej vňate a poháre uzatvor. V práci len preklop obsah pohára na tanier a zeleninu dôkladne zmiešaj s dipom."
+  ],
+  "tipy": "Avokádo pokvapkaj citrónovou šťavou — bez kyseliny zhnedne do pár minút.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "kuracie",
+    "jablká"
+  ]
 }

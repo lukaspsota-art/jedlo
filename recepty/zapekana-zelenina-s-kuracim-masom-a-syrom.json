@@ -1,114 +1,113 @@
 {
- "id": "zapekana-zelenina-s-kuracim-masom-a-syrom",
- "nazov": "Zapekaná zelenina s kuracím mäsom a syrom",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Zapekané kuracie prsia so zeleninou, syrom a slaninou (fotorecept) (autor: luclup)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/zapekane-kuracie-prsia-so-zeleninou-syrom-a-slaninou-fotorecept/70500-recept.html",
- "porcie": 12,
- "cas": "60 min",
- "kcal_na_porciu": 371,
- "popis": "Náš dnešný obed :)",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Údená slanina",
-   "mnozstvo": 130,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 70,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprika biela",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajka",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Syr čedar",
-   "mnozstvo": 80,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie na hydinu",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 4,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 6,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Mäso nakrájaj na polovicu vertikálne, ulož do misy a pridaj všetky suroviny na marinádu (cesnak nakrájaj na drobno alebo prelisuj) a dôkladne premiešaj.",
-  "Ošúp 3 cibule a nakrájaj na kolieska, jednotlivé kolieska oddeľ a poukladaj na dno zapekacej misy. Slaninu nakrájaj na tenké plátky (50 g) a ulož na cibuľu. Mäso ulož na vrch.",
-  "Nakrájaj zvyšnú slaninu na rezančeky, syr na tenké plátky, cibuľu, bielu papriku a paradajky na tenké kolieska, červenú papriku na rezančeky. Na každý kúsok ulož plátok slaniny, syra, cibule, papriky, paradajky - červenú papriku \"zapichni\" medzi mäsové kúsky.",
-  "Maslo nakrájaj na plátky a ulož na vrch, ktorý ešte pokvapkáš paradajkovým pretlakom (asi 6 PL). Zapekaciu misu zakryj a peč vo vyhriatej rúre asi 40 minút na 180 °C. Po tých 40 minútach vyber misu z rúry, mäso polej vydusenou šťavou, teplotu zvýš na 220 °C a odkryté zapeč (cca 20-30 minút).",
-  "Si všetko priprav deň vopred, zapekaciu misu nechala v chladničke cez noc a piekla na druhý deň. Po vybratí z chladničky je potrebné nechať misu odstáť asi hodinku pri izbovej teplote.",
-  "Podávaj s prílohou podľa chuti."
- ],
- "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kura",
-  "zapekané",
-  "jedno-mísové"
- ]
+  "id": "zapekana-zelenina-s-kuracim-masom-a-syrom",
+  "nazov": "Zapekaná zelenina s kuracím mäsom a syrom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Zapekané kuracie prsia so zeleninou, syrom a slaninou (fotorecept) (autor: luclup)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/zapekane-kuracie-prsia-so-zeleninou-syrom-a-slaninou-fotorecept/70500-recept.html",
+  "porcie": 12,
+  "cas": "60 min",
+  "kcal_na_porciu": 371,
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údená slanina",
+      "mnozstvo": 130,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 70,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika biela",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajka",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr čedar",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie na hydinu",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 6,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mäso nakrájaj na polovicu vertikálne, ulož do misy a pridaj všetky suroviny na marinádu (cesnak nakrájaj na drobno alebo prelisuj) a dôkladne premiešaj.",
+    "Ošúp 3 cibule a nakrájaj na kolieska, jednotlivé kolieska oddeľ a poukladaj na dno zapekacej misy. Slaninu nakrájaj na tenké plátky (50 g) a ulož na cibuľu. Mäso ulož na vrch.",
+    "Nakrájaj zvyšnú slaninu na rezančeky, syr na tenké plátky, cibuľu, bielu papriku a paradajky na tenké kolieska, červenú papriku na rezančeky. Na každý kúsok ulož plátok slaniny, syra, cibule, papriky, paradajky - červenú papriku \"zapichni\" medzi mäsové kúsky.",
+    "Maslo nakrájaj na plátky a ulož na vrch, ktorý ešte pokvapkáš paradajkovým pretlakom (asi 6 PL). Zapekaciu misu zakryj a peč vo vyhriatej rúre asi 40 minút na 180 °C. Po tých 40 minútach vyber misu z rúry, mäso polej vydusenou šťavou, teplotu zvýš na 220 °C a odkryté zapeč (cca 20-30 minút).",
+    "Si všetko priprav deň vopred, zapekaciu misu nechala v chladničke cez noc a piekla na druhý deň. Po vybratí z chladničky je potrebné nechať misu odstáť asi hodinku pri izbovej teplote.",
+    "Podávaj s prílohou podľa chuti."
+  ],
+  "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kura",
+    "zapekané",
+    "jedno-mísové"
+  ]
 }

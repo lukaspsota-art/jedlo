@@ -1,60 +1,60 @@
 {
- "id": "matcha-latte",
- "nazov": "Matcha latte",
- "kategoria": "Nápoj",
- "kuchyna": "Japonská",
- "zdroj": "Varecha.sk – Matcha latte (vegan) (autor: dora)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/matcha-latte-vegan/67392-recept.html",
- "porcie": 2,
- "cas": "5 min",
- "kcal_na_porciu": 119,
- "popis": "V tomto období, ktoré praje detoxikácii pečene a žlčníka som sa (nie vlastnou iniciatívou, \r\nale nakoniec rada) zamerala na tieto orgány aj ja. \r\nNeprípustná je, okrem iného, káva a alkohol, preto som pre vás dnes pripravila túto \r\nzdravú verziu lat. Áno, nie je v ňom káva, ale zdravie \r\nrozhodne áno! Preto, na zdravie!",
- "ingrediencie": [
-  {
-   "nazov": "Ovsené mlieko",
-   "mnozstvo": 400,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čaj matcha",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Škorica bio",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Muškátový kvet",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvý zázvor",
-   "mnozstvo": 3,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kokosový cukor",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Všetko spolu rozmixuj na kokteil."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "nápoj",
-  "matcha",
-  "japonské"
- ]
+  "id": "matcha-latte",
+  "nazov": "Matcha latte",
+  "kategoria": "Nápoj",
+  "kuchyna": "Japonská",
+  "zdroj": "Varecha.sk – Matcha latte (vegan) (autor: dora)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/matcha-latte-vegan/67392-recept.html",
+  "porcie": 2,
+  "cas": "5 min",
+  "kcal_na_porciu": 119,
+  "popis": "Zdravá verzia latté bez kávy, vhodná aj v období detoxikácie pečene a žlčníka, keď je káva neprípustná.",
+  "ingrediencie": [
+    {
+      "nazov": "Ovsené mlieko",
+      "mnozstvo": 400,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čaj matcha",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škorica bio",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Muškátový kvet",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvý zázvor",
+      "mnozstvo": 3,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokosový cukor",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Všetko spolu rozmixuj na kokteil."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "matcha",
+    "japonské"
+  ]
 }

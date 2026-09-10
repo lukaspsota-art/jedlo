@@ -1,122 +1,122 @@
 {
- "id": "kura-na-zemiakoch",
- "nazov": "Kura na zemiakoch",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kura na zemiakoch (fotorecept) (autor: vevuska187)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kura-na-zemiakoch-fotorecept/51605-recept.html",
- "porcie": 9,
- "cas": "135 min",
- "kcal_na_porciu": 431,
- "popis": "Tetno recept som našla na internete. Chutí veľmi dobre ale kto nemá moc rád kyslé,daj \r\niba jeden citrón :)",
- "ingrediencie": [
-  {
-   "nazov": "Stehná kuracie",
-   "mnozstvo": 6,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rozmarín",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Granulovaný cesnak",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušený tymian",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Dijonská horčica",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová šťava",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citróny",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiaky baby",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnaku",
-   "mnozstvo": 12,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na zaliatie"
-  }
- ],
- "postup": [
-  "Marinádu si priprav ešte večer aby sme na ďaľší deň mohli začať kuchtiť Prichystaj si suroviny. Do misky daj horčicu, červenú papriku, tymián, rozmarín, cibuľu, korenie, olej, granulovaný cesnak, soľ. Citróny si prekroj na polovicu a vytlač šťavu do misky.",
-  "Všetko zamiešaj a vznikne nám z toho takáto marináda.",
-  "Do marinády poukladaj kuracie stehná a citróny. Misu zatvor a daj do chladničky.",
-  "Na ďaľší deň si vyber marinádu a nechaj ju pri izbovej teplote \"odpočinúť\". Nachystaj si zemiaky.",
-  "Pokrájaj na mesiačiky.",
-  "Pridaj olivový olej, rozmarín, soľ a korenie.",
-  "Zamiešaj.",
-  "Daj všetko na plech. Na vrch poukladaj strúčky cesnaku a citróny. Trúbu si rozohrej na 220 stupňov. Zabaľ do alobalu a daj do trúby na hodinku a pol. Ja to robím tak, že hodinku nechám v alobale a pol hodinku bez",
-  "A môžeš podávať"
- ],
- "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kuracie",
-  "zemiaky"
- ]
+  "id": "kura-na-zemiakoch",
+  "nazov": "Kura na zemiakoch",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kura na zemiakoch (fotorecept) (autor: vevuska187)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kura-na-zemiakoch-fotorecept/51605-recept.html",
+  "porcie": 9,
+  "cas": "135 min",
+  "kcal_na_porciu": 431,
+  "popis": "Jedlo má výraznú citrónovú chuť, kto nemá veľmi rád kyslé, môže dať iba jeden citrón.",
+  "ingrediencie": [
+    {
+      "nazov": "Stehná kuracie",
+      "mnozstvo": 6,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rozmarín",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Granulovaný cesnak",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušený tymian",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Dijonská horčica",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citróny",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiaky baby",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnaku",
+      "mnozstvo": 12,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na zaliatie"
+    }
+  ],
+  "postup": [
+    "Marinádu si priprav ešte večer, aby si na ďalší deň mohol začať kuchtiť. Prichystaj si suroviny. Do misky daj horčicu, červenú papriku, tymián, rozmarín, cibuľu, korenie, olej, granulovaný cesnak, soľ. Citróny si prekroj na polovicu a vytlač šťavu do misky.",
+    "Všetko zamiešaj a vznikne z toho takáto marináda.",
+    "Do marinády poukladaj kuracie stehná a citróny. Misu zatvor a daj do chladničky.",
+    "Na ďalší deň si vyber marinádu a nechaj ju pri izbovej teplote „odpočinúť“. Nachystaj si zemiaky.",
+    "Pokrájaj na mesiačiky.",
+    "Pridaj olivový olej, rozmarín, soľ a korenie.",
+    "Zamiešaj.",
+    "Daj všetko na plech. Na vrch poukladaj strúčky cesnaku a citróny. Trúbu si rozohrej na 220 stupňov. Zabaľ do alobalu a daj do trúby na hodinku a pol. Hodinku nechaj v alobale a pol hodinku bez neho.",
+    "A môžeš podávať"
+  ],
+  "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kuracie",
+    "zemiaky"
+  ]
 }

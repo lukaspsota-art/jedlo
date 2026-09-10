@@ -1,112 +1,112 @@
 {
- "id": "hrachova-polievka-v-kotliku",
- "nazov": "Hrachová polievka v kotlíku",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Hrachová polievka v kotlíku (fotorecept) (autor: kvakac)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/hrachova-polievka-v-kotliku-fotorecept/77734-recept.html",
- "porcie": 20,
- "cas": "185 min",
- "kcal_na_porciu": 507,
- "popis": "Nielen chlebom je človek živý, ale aj hrachová uvarená v kotlíku nám život zachová. Žiadne mlieko, žiadne syry, no kolená \r\nuvarené v nej nám dajú sily.* No ale vážne, pri väčšej a ťažšej robote je táto polievka ako stvorená, pritom popri práci sa v kotlíku \r\nsama robí. Toto je množstvo surovín na 15 litrov.",
- "ingrediencie": [
-  {
-   "nazov": "Bravčové surové koleno",
-   "mnozstvo": 1500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bravčové údené koleno",
-   "mnozstvo": 1500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Údená klobása",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 450,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlen",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zeler",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Žltý suchý polený hrach",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jarná cibuľka",
-   "mnozstvo": 1,
-   "jednotka": "zväzok",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 1500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušený majorán",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Hrach daj večer pred varením polievky do vody, ktorú viackrát vymeníš. Do kotlíka daj obe kolená, obe cibule očisti a pokrájaj a cesnak očistený len rozpuč. Veď pokiaľ sa uvarí mäso sa cesnak a cibuľa rozpadne. Zalej vodou zarovno mäsa a var hodinu a pol. Nesoľ!",
-  "Zatiaľ si hrach ešte prepláchni. Koreňovú zeleninu očisti a nakrájaj na 1 cm kúsky. Zemiaky tiež očisti a pokrájaj a zalej vodou. Najlepšie sú na to staré zemiaky. Ja som už nemal, tak použi nové a poviem vám, nie je to ono. Staré zemiaky správne doladia chuť.",
-  "Po 1,5 hodine varenia mäsa pridaj do kotlíka hrach aj zeleninu a dolej vodou, aby bolo všetko ponorené. Var ďalej, pokiaľ sa hrach a kolená uvaria. Nesoliť!",
-  "Keď sú kolena aj hrach mäkké, tak kolená vyber a pridaj pripravené zemiaky a dolej vodu toľko, aby nám potom vošlo späť mäso. Teraz osoľ a okoreň podľa chuti. Mäso pokrájaj a daj späť do kotlíka. Var až sa zemiaky uvaria na mäkko. Ochutnaj, prípadne dosoľ. Teraz daj majoránku a kotlík odlož z ohňa.",
-  "A je hotovo. Dobrý chlieb k tomu a hostina môže začať. Je to sýte a zdravé jedlo, ktoré chutí všetkým."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "zemiaky"
- ]
+  "id": "hrachova-polievka-v-kotliku",
+  "nazov": "Hrachová polievka v kotlíku",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Hrachová polievka v kotlíku (fotorecept) (autor: kvakac)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/hrachova-polievka-v-kotliku-fotorecept/77734-recept.html",
+  "porcie": 20,
+  "cas": "185 min",
+  "kcal_na_porciu": 507,
+  "popis": "Hrachová polievka s kolenami varená v kotlíku je vhodná pri väčšej a ťažšej robote, pretože sa popri práci varí sama, a uvedené množstvo surovín je na 15 litrov.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčové surové koleno",
+      "mnozstvo": 1500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčové údené koleno",
+      "mnozstvo": 1500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údená klobása",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 450,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlen",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zeler",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Žltý suchý polený hrach",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jarná cibuľka",
+      "mnozstvo": 1,
+      "jednotka": "zväzok",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 1500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušený majorán",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Hrach daj večer pred varením polievky do vody, ktorú viackrát vymeníš. Do kotlíka daj obe kolená, obe cibule očisti a pokrájaj a cesnak očistený len rozpuč. Veď pokiaľ sa uvarí mäso, cesnak a cibuľa sa rozpadnú. Zalej vodou zarovno mäsa a var hodinu a pol. Nesoľ!",
+    "Zatiaľ si hrach ešte prepláchni. Koreňovú zeleninu očisti a nakrájaj na 1 cm kúsky. Zemiaky tiež očisti, pokrájaj a zalej vodou. Najlepšie sú na to staré zemiaky, s novými to nie je ono, staré zemiaky správne doladia chuť.",
+    "Po 1,5 hodine varenia mäsa pridaj do kotlíka hrach aj zeleninu a dolej vodou, aby bolo všetko ponorené. Var ďalej, pokiaľ sa hrach a kolená uvaria. Nesoľ!",
+    "Keď sú kolena aj hrach mäkké, tak kolená vyber a pridaj pripravené zemiaky a dolej vodu toľko, aby nám potom vošlo späť mäso. Teraz osoľ a okoreň podľa chuti. Mäso pokrájaj a daj späť do kotlíka. Var až sa zemiaky uvaria na mäkko. Ochutnaj, prípadne dosoľ. Teraz daj majoránku a kotlík odlož z ohňa.",
+    "A je hotovo. Dobrý chlieb k tomu a hostina môže začať. Je to sýte a zdravé jedlo, ktoré chutí všetkým."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "zemiaky"
+  ]
 }

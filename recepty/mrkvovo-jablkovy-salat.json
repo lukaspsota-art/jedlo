@@ -1,119 +1,118 @@
 {
- "id": "mrkvovo-jablkovy-salat",
- "nazov": "Mrkvovo-jablkový šalát",
- "kategoria": "Šalát",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Cviklovo-mrkvovo-jablkový RAW šalát (fotorecept) (autor: sracz)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/cviklovo-mrkvovo-jablkovy-raw-salat-fotorecept/92139-recept.html",
- "porcie": 6,
- "cas": "30 min",
- "kcal_na_porciu": 327,
- "popis": "Dal som sľub, tak považujem za „psiu povinnosť“ ho aj splniť.* Pripravuj ho už dávnejšie, zopár razy som naň aj upozornil, ale \r\n„per ksicht“ je to predsa iba najlepšie. Blíži sa termín mojej kontroly cukru a cholesterolu v krvi. Svoju hmotnosť som, aj vďaka \r\nzmene stravovacích návykov počas štyroch mesiacov, znížil o viac ako 12 kg. K tomuto výsledku, svojím spôsobom, prispel aj \r\ntento šalát.",
- "ingrediencie": [
-  {
-   "nazov": "Cvikla",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zelené jablko",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprička jalopeño",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlašské orechy",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová šťava",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletý koriander",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá škorica",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá kurkuma",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": "čerstvá, pokrájaná"
-  },
-  {
-   "nazov": "Olej olivový extra panenský",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zelerová vňať",
-   "mnozstvo": 120,
-   "jednotka": "ml",
-   "poznamka": "čerstvá, pokrájaná"
-  }
- ],
- "postup": [
-  "Očistenú cviklu a mrkvu do zmiešovacej misy postrúhaj na malých (syrových) slzičkách.",
-  "Jablko, neolúpané bez jadrinca, na veľkých a jalapeño aj s jadrincom, nadrobno (postupne na ½, potom na ¼ a napokon na 1/8) pokrájal.",
-  "Spolu s pokrájanou veľkou „bunčou“ pokrájanej petržlenovej vňate, mal som aj zelerové listy, tak ich pokrájaj a použi taktiež, vložil na postrúhané jablko. Orechy (cez noc namočené vo vode) pokrájaj na hrubšie kúsky.",
-  "Pridaj PL medu, soľ, mletý koriander (cilantro), mletú rascu, škoricu a kurkumu (ten už obsahuje curcumin), ešte šťavu z jedného citróna, pokropil olivovým olejom, tentoraz extra panenským, pretože nenasledovala tepelná úprava.",
-  "Po zmiešaní celá dávka vyzerala takto."
- ],
- "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "mrkva",
-  "jablko",
-  "zdravé"
- ]
+  "id": "mrkvovo-jablkovy-salat",
+  "nazov": "Mrkvovo-jablkový šalát",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Cviklovo-mrkvovo-jablkový RAW šalát (fotorecept) (autor: sracz)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/cviklovo-mrkvovo-jablkovy-raw-salat-fotorecept/92139-recept.html",
+  "porcie": 6,
+  "cas": "30 min",
+  "kcal_na_porciu": 327,
+  "ingrediencie": [
+    {
+      "nazov": "Cvikla",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zelené jablko",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprička jalopeño",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletý koriander",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá škorica",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá kurkuma",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": "čerstvá, pokrájaná"
+    },
+    {
+      "nazov": "Olej olivový extra panenský",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zelerová vňať",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "čerstvá, pokrájaná"
+    }
+  ],
+  "postup": [
+    "Očistenú cviklu a mrkvu do zmiešovacej misy postrúhaj na malých (syrových) slzičkách.",
+    "Jablko, neolúpané bez jadrinca, postrúhaj na veľkých a jalapeño aj s jadrincom pokrájaj nadrobno (postupne na ½, potom na ¼ a napokon na 1/8).",
+    "Veľkú „bunču“ pokrájanej petržlenovej vňate, prípadne aj pokrájané zelerové listy, vlož na postrúhané jablko. Orechy (cez noc namočené vo vode) pokrájaj na hrubšie kúsky.",
+    "Pridaj PL medu, soľ, mletý koriander (cilantro), mletú rascu, škoricu a kurkumu (tá už obsahuje curcumin), ešte šťavu z jedného citróna a pokrop olivovým olejom, tentoraz extra panenským, pretože nenasleduje tepelná úprava.",
+    "Po zmiešaní vyzerá celá dávka takto."
+  ],
+  "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "mrkva",
+    "jablko",
+    "zdravé"
+  ]
 }

@@ -1,100 +1,100 @@
 {
- "id": "morcacie-prsia-na-sposob-asconese",
- "nazov": "Morčacie prsia na spôsob Asconese",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Morčacie prsia na spôsob Asconese (autor: kukulienka71)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-prsia-na-sposob-asconese/50755-recept.html",
- "porcie": 4,
- "cas": "80 min",
- "kcal_na_porciu": 303,
- "popis": "Ascona je malebné švajčiarske mesto blízko talianskych hraníc,jeho kuchyňa je samozrejme ovplyvnená tou susedskou.Švajčiari obľubujú cestovinové jedlá aj v kombináciách,ktoré by sme my nečakali,ale v tomto jedle,ktoré sa mi zapáčilo v jednom tamojšom časopise,je kombinácia surovín dokonalá...",
- "ingrediencie": [
-  {
-   "nazov": "Prsia morčacie",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sterilizované paradajky",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kapary",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivy",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červené víno",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cestoviny tagliatelle",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Najprv si vyrob cestoviny tagliatelle -širšie dlhé rezance. Z 20 dkg polohrubej múky,1 vajca a asi 1 dcl vody som zarobila plastické cesto a strojčekom ho vyvaľkaj a nakrájaj. Ak nemáš dosť času, uvar kupované.",
-  "Priprav si suroviny na prípravu omáčky s mäsom",
-  "Očistenú cibuľu a cesnak pokrájaj na drobno a praž na oleji. Pridaj na kocky nakrájané morčacie prsia, tiež opraž, osoľ, okoreň, pridaj paradajkový pretlak, miešaj a ešte chvíľu spolu opekaj. Potom prilej červené víno, celú konzervu sterilizovaných rajčín, prepolené olivy a kapary.",
-  "Dus pod pokrievkou asi 20 minút, potom odokryté zredukuj asi na 1/3. Chute surovín sa cez ten čas pekne prepoja. Hotové jedlo má mať hustejšiu omáčku.",
-  "uvarené tagliatelle nechaj odkvapkať a na tanieri uprav ako lupene kvetu, do stredu naber mäso s omáčkou, posyp nasekanou zelenou vňaťkou."
- ],
- "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "morčacie",
-  "cestoviny"
- ]
+  "id": "morcacie-prsia-na-sposob-asconese",
+  "nazov": "Morčacie prsia na spôsob Asconese",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Morčacie prsia na spôsob Asconese (autor: kukulienka71)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-prsia-na-sposob-asconese/50755-recept.html",
+  "porcie": 4,
+  "cas": "80 min",
+  "kcal_na_porciu": 303,
+  "popis": "Cestovinové jedlo inšpirované kuchyňou švajčiarskej Ascony pri talianskych hraniciach, ktorá je ovplyvnená susednou talianskou kuchyňou.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia morčacie",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sterilizované paradajky",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kapary",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivy",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červené víno",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cestoviny tagliatelle",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najprv si vyrob cestoviny tagliatelle - širšie dlhé rezance. Z 20 dkg polohrubej múky, 1 vajca a asi 1 dcl vody zarob plastické cesto, strojčekom ho vyvaľkaj a nakrájaj. Ak nemáš dosť času, uvar kupované.",
+    "Priprav si suroviny na prípravu omáčky s mäsom",
+    "Očistenú cibuľu a cesnak pokrájaj na drobno a praž na oleji. Pridaj na kocky nakrájané morčacie prsia, tiež opraž, osoľ, okoreň, pridaj paradajkový pretlak, miešaj a ešte chvíľu spolu opekaj. Potom prilej červené víno, celú konzervu sterilizovaných rajčín, prepolené olivy a kapary.",
+    "Dus pod pokrievkou asi 20 minút, potom odokryté zredukuj asi na 1/3. Chute surovín sa cez ten čas pekne prepoja. Hotové jedlo má mať hustejšiu omáčku.",
+    "Uvarené tagliatelle nechaj odkvapkať a na tanieri uprav ako lupene kvetu, do stredu naber mäso s omáčkou, posyp nasekanou zelenou vňaťkou."
+  ],
+  "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "morčacie",
+    "cestoviny"
+  ]
 }

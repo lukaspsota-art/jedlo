@@ -1,82 +1,81 @@
 {
- "id": "sosovicovy-prejt-s-psenom",
- "nazov": "Šošovicový prejt s pšenom",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Šošovicový prejt s pšenom (fotorecept) (autor: tejaja)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/sosovicovy-prejt-s-psenom-fotorecept/91316-recept.html",
- "porcie": 3,
- "cas": "50 min",
- "kcal_na_porciu": 277,
- "popis": "Tento recept som vyskúšala prvýkrát pred niekoľkými rokmi. A keďže chutnal, tak ho raz za čas urob.* U nás ide všetko, čo je pečené, veľmi na odbyt :)",
- "ingrediencie": [
-  {
-   "nazov": "Pšeno",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šošovica",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 5,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Drvená rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Majorán",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Šošovicu a pšeno daj do hrnca, jemne osoľ a zalej vodou. Var domäkka. Vody nedávaj zbytočne veľa, len toľko, aby počas varenia všetka vsiakla. Ak daj vody málo, počas varenia dolej vriacou vodou.",
-  "Na oleji orestuj nakrájanú cibuľu.",
-  "K uvarenej zmesi šošovice a pšena pridaj orestovanú cibuľu, prelisovaný cesnak, majorán, rascu, osoľ a okoreň. Dobre premiešaj.",
-  "Daj do vymasteného pekáča. Peč na 180 °C 20-25 minút.",
-  "Podávaj so zeleninou alebo s kyslými uhorkami."
- ],
- "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "strukoviny",
-  "bezmäsité"
- ]
+  "id": "sosovicovy-prejt-s-psenom",
+  "nazov": "Šošovicový prejt s pšenom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Šošovicový prejt s pšenom (fotorecept) (autor: tejaja)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/sosovicovy-prejt-s-psenom-fotorecept/91316-recept.html",
+  "porcie": 3,
+  "cas": "50 min",
+  "kcal_na_porciu": 277,
+  "ingrediencie": [
+    {
+      "nazov": "Pšeno",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šošovica",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 5,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Drvená rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majorán",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Šošovicu a pšeno daj do hrnca, jemne osoľ a zalej vodou. Var domäkka. Vody nedávaj zbytočne veľa, len toľko, aby počas varenia všetka vsiakla. Ak daj vody málo, počas varenia dolej vriacou vodou.",
+    "Na oleji orestuj nakrájanú cibuľu.",
+    "K uvarenej zmesi šošovice a pšena pridaj orestovanú cibuľu, prelisovaný cesnak, majorán, rascu, osoľ a okoreň. Dobre premiešaj.",
+    "Daj do vymasteného pekáča. Peč na 180 °C 20-25 minút.",
+    "Podávaj so zeleninou alebo s kyslými uhorkami."
+  ],
+  "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "strukoviny",
+    "bezmäsité"
+  ]
 }

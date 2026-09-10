@@ -163,6 +163,14 @@
   ol.postup li{margin-bottom:11px;font-size:15px}
   .tipy{background:#f3f8f4;border-left:3px solid var(--accent);padding:12px 16px;border-radius:8px;margin-top:16px;font-size:14px}
   .zdroj{margin-top:14px;font-size:13px;color:var(--muted)}
+  /* F: odkaz na zdroj mal 216×16 px — pod hranicou 24 px, ktorú CLAUDE.md označuje za
+     nepodkročiteľnú aj na počítači. E2E ho nechytila, lebo detail receptu neotvára. */
+  .zdroj a{display:inline-block;min-height:24px;line-height:24px}
+  /* D: akcie boli na dne 3440 px dlhého okna — k „Do plánu" sa skrolovalo ~2570 px, tri
+     obrazovky. Lišta sa odteraz drží pri spodnom okraji; scrollujúci predok je .overlay. */
+  .modal .btn-row.akcie-lepiva{position:sticky;bottom:0;z-index:2;margin-top:20px;
+    padding:12px 0 calc(12px + env(safe-area-inset-bottom));
+    background:var(--panel);border-top:1px solid var(--line)}
   .hodnotenie{display:flex;align-items:center;gap:10px;margin-top:16px;flex-wrap:wrap}
   .starpick .star-slot{font-size:24px;cursor:pointer}
   textarea.pozn{width:100%;min-height:60px;border:1px solid var(--line);border-radius:10px;padding:10px;font-size:14px;font-family:inherit;margin-top:8px}
@@ -440,6 +448,17 @@
     .kolekcie,.chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
     .kolekcie::-webkit-scrollbar,.chips::-webkit-scrollbar{display:none}
     .kolekcie>*,.chips>*{flex:0 0 auto}
+    /* B: z trinástich kategórií bolo vidno tri a pol (skrytých 767 z 1128 px) a nič to
+       nenaznačovalo — len rez uprostred slova. Zmiznutý okraj hovorí „pokračuje to".
+       Triedy nasadzuje oznacPretecenie() podľa skutočného scrollLeft, takže na konci
+       lišty fade zmizne a nepredstiera obsah, ktorý tam nie je. */
+    .kolekcie.pret-v,.chips.pret-v{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent);
+      mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent)}
+    .kolekcie.pret-l,.chips.pret-l{-webkit-mask-image:linear-gradient(to right,transparent,#000 30px);
+      mask-image:linear-gradient(to right,transparent,#000 30px)}
+    .kolekcie.pret-l.pret-v,.chips.pret-l.pret-v{
+      -webkit-mask-image:linear-gradient(to right,transparent,#000 30px,#000 calc(100% - 30px),transparent);
+      mask-image:linear-gradient(to right,transparent,#000 30px,#000 calc(100% - 30px),transparent)}
     /* U1: panel na telefóne nemusí mať 20 px vnútorný okraj — je to 40 px šírky navyše */
     .panel{padding:14px 16px}
     /* U1: 7 dní v riadku sa delilo nerovnomerne (33–40 px); grid dá každému rovnaký podiel */
@@ -464,8 +483,15 @@
     .menu{position:fixed;left:8px;right:8px;top:auto;bottom:calc(74px + env(safe-area-inset-bottom));min-width:0;max-height:70vh;overflow:auto;border-radius:14px;z-index:70;box-shadow:0 -6px 30px rgba(0,0,0,.28)}
     .menu a{min-height:48px;display:flex;align-items:center}
     /* U1: filtre zbalené za jedno tlačidlo — v jednom riadku s hľadaním, nie pod ním */
+    /* Sticky lišta akcií sa lepí na spodný okraj SCROLLPORTU, ktorý je zmenšený o spodný
+       padding .overlay — pod ňou tak ostávalo 30 px, cez ktoré presvital recept. Na telefóne
+       je modál aj tak sheet na celú výšku, takže spodný padding netreba. */
+    .overlay{padding:16px 12px 0}
     .f-toggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto}
-    #hladaj{min-width:0;flex:1 1 120px}
+    /* A: hľadanie je hlavná cesta do 2220 receptov, ale delilo sa o riadok s tlačidlom filtrov
+       a zostalo mu 182 px z 393 — placeholder sa rezal uprostred slova. Odteraz má vlastný
+       riadok na celú šírku a filtre sú pod ním. */
+    #hladaj{min-width:0;flex:1 1 100%}
     .controls{padding:9px;margin-bottom:10px}
     .sub{margin-bottom:12px}
     /* flex:0 0 100% je nutné: základné .f-body má flex:1;min-width:0, a flex-basis:0%

@@ -512,6 +512,9 @@ function zobrazView(v){
   document.querySelectorAll(".view").forEach(el=>el.classList.remove("active"));
   const el=document.getElementById("v-"+v); if(el)el.classList.add("active");
   _curView=v;
+  // B: lišty sa merajú až tu. renderKolekcie/renderChips bežia aj kým je obrazovka skrytá,
+  // a skrytý prvok má clientWidth 0 — pretečenie by sa nikdy nezistilo.
+  if(v==="recepty" && typeof sledujPretecenie==="function") sledujPretecenie();
   if(v==="domov") renderDash();
   else if(v==="planovac") renderPlan();
   else if(v==="nakup") renderNakup();
@@ -626,8 +629,21 @@ const KOLEKCIE=[
   {id:"oblubene", nazov:"Obľúbené",       ikona:"★",  test:r=>!!S.fav[r.id]}
 ];
 function renderKolekcie(){ const box=document.getElementById("kolekcie"); if(!box)return;
-  box.innerHTML=KOLEKCIE.map(k=>`<span class="kol-tile${aktivnaKolekcia===k.id?' active':''}" role="button" tabindex="0" aria-pressed="${aktivnaKolekcia===k.id}" onclick="nastavKolekciu('${k.id}')">${k.ikona} ${k.nazov}</span>`).join(""); }
+  box.innerHTML=KOLEKCIE.map(k=>`<span class="kol-tile${aktivnaKolekcia===k.id?' active':''}" role="button" tabindex="0" aria-pressed="${aktivnaKolekcia===k.id}" onclick="nastavKolekciu('${k.id}')">${k.ikona} ${k.nazov}</span>`).join("");
+  sledujPretecenie(); }
 function nastavKolekciu(id){ aktivnaKolekcia=(aktivnaKolekcia===id)?"":id; renderKolekcie(); renderGrid(); }
+// B: vodorovná lišta (kolekcie, kategórie) na telefóne skrýva väčšinu obsahu — kategórie
+// 767 z 1128 px. Zmiznutý okraj je náznak, že to pokračuje; nasadzuje sa podľa SKUTOČNÉHO
+// scrollLeft, takže na začiatku nefaduje vľavo a na konci vpravo — inak by fade predstieral
+// obsah, ktorý tam už nie je.
+function oznacPretecenie(box){ if(!box)return;
+  const preteka=box.scrollWidth-box.clientWidth>2;
+  box.classList.toggle("pret-v", preteka && box.scrollLeft < box.scrollWidth-box.clientWidth-2);
+  box.classList.toggle("pret-l", preteka && box.scrollLeft > 2); }
+function sledujPretecenie(){ ["kolekcie","chips"].forEach(id=>{ const b=document.getElementById(id); if(!b)return;
+  oznacPretecenie(b);
+  if(!b._pretSleduje){ b._pretSleduje=true; b.addEventListener("scroll",()=>oznacPretecenie(b),{passive:true}); } }); }
+addEventListener("resize",sledujPretecenie);
 function kategorie(){ const s=new Set(RECEPTY.map(r=>r.kategoria).filter(Boolean)); return ["Všetko",...Array.from(s).sort()]; }
 // D9: volá sa aj po pridaní vlastného receptu, preto musí byť idempotentná (inak by pribúdali duplikáty)
 function naplnKuchyne(){ const sel=document.getElementById("f-kuchyna"); if(!sel)return;
@@ -639,7 +655,8 @@ function naplnKuchyne(){ const sel=document.getElementById("f-kuchyna"); if(!sel
 function renderChips(){ const box=document.getElementById("chips"); box.innerHTML="";
   kategorie().forEach(k=>{ const el=document.createElement("div"); el.className="chip"+(k===aktivnaKat?" active":""); el.textContent=k;
     el.tabIndex=0; el.setAttribute("role","button"); el.setAttribute("aria-pressed",k===aktivnaKat);
-    el.onclick=()=>{aktivnaKat=k;renderChips();renderGrid();}; box.appendChild(el); }); }
+    el.onclick=()=>{aktivnaKat=k;renderChips();renderGrid();}; box.appendChild(el); });
+  sledujPretecenie(); }
 function zakazaneTokens(){ return (S.profil.zakazane||"").split(/[\n,;]+/).map(x=>bezDia(x.trim())).filter(Boolean); }
 // ponytail: matchujem názov receptu + tagy, nielen ingrediencie (chytí "Pečené kura" aj keď ingrediencia je "kurčatá"). Zámerne len substring — kmeňový match by chytal aj kurkuma/kuriatka
 function zakazaneChyta(r){ const zt=zakazaneTokens(); if(!zt.length)return false;
@@ -960,11 +977,15 @@ function otvor(id, ctx){
       <div class="hodnotenie"><span>Hodnotenie:</span><div class="starpick">${stars}</div>
         <button class="mini" onclick="hodnot('${r.id}',0)">zrušiť</button></div>
       <textarea class="pozn" id="poznamka" placeholder="Moja poznámka k receptu…" oninput="ulozPozn('${r.id}')">${escHtml(S.pozn[r.id]||"")}</textarea>
-      <div class="btn-row">
-        <button class="btn primary" onclick="spustiCook()">👨‍🍳 Variť</button>
-        <button class="btn" onclick="pridajDoPlanu('${r.id}')">📅 Do plánu</button>
+      <div class="btn-row akcie-lepiva">
+        ${_poslednyCtx
+          ? `<button class="btn primary" onclick="spustiCook()">👨‍🍳 Variť</button>`
+          : `<button class="btn primary" onclick="pridajDoPlanu('${r.id}')">📅 Do plánu</button>`}
         <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-det')">⋯ Viac</button>
           <div class="menu" id="m-det">
+            ${_poslednyCtx
+              ? `<a onclick="zavriMenu();pridajDoPlanu('${r.id}')">📅 Do plánu</a>`
+              : `<a onclick="zavriMenu();spustiCook()">👨‍🍳 Variť</a>`}
             <a onclick="toggleSkryt('${r.id}');zavriMenu()">${S.skryte[r.id]?"👁 Zobraziť v generátore":"🚫 Skryť z generátora"}</a>
             <a onclick="zavriMenu();tlacRecept()">🖨 Tlačiť recept</a>
             ${r._moj?`<a onclick="zavriMenu();fotkaKReceptu('${r.id}')">📷 ${_fs?"Zmeniť fotku":"Pridať fotku"}</a>`:""}
@@ -1004,10 +1025,13 @@ function renderIng(){
     // B8: keď sa dopočet a deklarácia rozchádzajú viac než 2×, makrá sú odhad — povedz to naplno,
     // nie len značkou „≈". Používateľ podľa týchto čísel je.
     const sp=v.sporne?`<div style="grid-column:1/-1" class="info">≈ Makrá sú len odhad: suroviny vychádzajú na ${Math.round(v.q*Math.round(v.kcal))} kcal, recept hlási ${Math.round(v.kcal)} kcal na porciu. Skontroluj počet porcií alebo chýbajúce suroviny.</div>`:"";
+    // G: makrá boli na dve desatinné miesta („15,84 g"), hoci kcal vedľa nich poctivo priznáva
+    // „≈ (odhad)" a pochádzajú z tých istých dát. fmtG zaokrúhľuje na celé gramy — presnosť,
+    // ktorú dáta unesú (princíp 7: číslo bez krytia je horšie než chýbajúce).
     box.innerHTML=`<div><b>${v.pribl?"≈ ":""}${Math.round(v.kcal)}</b><small>kcal/porcia${v.pribl?" (odhad)":""}</small></div>
-      <div><b>${fmt(v.b)} g</b><small>bielkoviny${v.sporne?" (odhad)":""}</small></div>
-      <div><b>${fmt(v.t)} g</b><small>tuky</small></div>
-      <div><b>${fmt(v.s)} g</b><small>sacharidy</small></div>${sp}`;
+      <div><b>${fmtG(v.b)} g</b><small>bielkoviny${v.sporne?" (odhad)":""}</small></div>
+      <div><b>${fmtG(v.t)} g</b><small>tuky</small></div>
+      <div><b>${fmtG(v.s)} g</b><small>sacharidy</small></div>${sp}`;
   } else box.style.display="none";
   const sp=document.getElementById("nutri-spolu");
   if(sp){ if(v.kcal>5 && (aktPorcie>1||aktVelkost!==1)){ sp.style.display="block";

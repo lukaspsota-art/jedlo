@@ -1,112 +1,112 @@
 {
- "id": "brokolica-s-cestovinou-a-syrom",
- "nazov": "Brokolica s cestovinou a syrom",
- "kategoria": "Cestoviny",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Brokolica s cestovinou a syrom (fotorecept) (autor: tatranka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/brokolica-s-cestovinou-a-syrom-fotorecept/17189-recept.html",
- "porcie": 6,
- "cas": "60 min",
- "kcal_na_porciu": 285,
- "popis": "Je čas zeleninky a máme radi brokolicu,tak dnes padol lós na ľahký obed.",
- "ingrediencie": [
-  {
-   "nazov": "Brokolica",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tavený syr",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tvrdý syr",
-   "mnozstvo": 70,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cestoviny",
-   "mnozstvo": 375,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Smotana na varenia",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 50,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "pdľa chuti"
-  },
-  {
-   "nazov": "Vegeta",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "lyžica ,podravka"
-  },
-  {
-   "nazov": "Muškátový oriešok",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "nastrúhať trochu"
-  }
- ],
- "postup": [
-  "Ingrediencie.",
-  "Umytú brokolicu daj variť do osolenej vody, do polomäkka.",
-  "Tiež daj variť do osolenej vody cestovinu. Smotanu rožľahaj s celými vajíčkami, podravkou, štipkou muškátového orecha,a pol dcl.mlieka",
-  "Medzitým si usmaž na oleji cibuľku s cesnakom. Po uvarení brokolice a cestoviny zmiešaj pokrájanú brokolicu ktorú pokrájaj na menšie kúsky s cestovinou a usmaženou cibuľkou a cesnakom.",
-  "Všetko dobre premiešaj a ulož do olejom vymastenej mysy.",
-  "Na vrch tejto zmesi, pridaj na kúsky potrhaný mäkký syr a zalej zmesou rozšľahaných vajec, smotany podravky muškátového orecha. Daj na 25 minút zapiecť do rúry.",
-  "Potom zapečenú zmes vyber a zasyp nastrúhaným tvrdým syrom. Nechaj ešte asi 7-10 minút zapekať, kým sa syr neroztečie.",
-  "Hotová brokolica s cestovinou a syrom.",
-  "Podávaj k nej nejaký zeleninový šalát.",
-  "Hotová porcia."
- ],
- "tipy": "Pohár vody z varenia cestovín si odlož. Škrob v nej spojí omáčku s cestovinami lepšie než smotana.",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "syr",
-  "vajcia",
-  "bezmäsité"
- ]
+  "id": "brokolica-s-cestovinou-a-syrom",
+  "nazov": "Brokolica s cestovinou a syrom",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Brokolica s cestovinou a syrom (fotorecept) (autor: tatranka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/brokolica-s-cestovinou-a-syrom-fotorecept/17189-recept.html",
+  "porcie": 6,
+  "cas": "60 min",
+  "kcal_na_porciu": 285,
+  "popis": "Ľahký obed z brokolice s cestovinou a syrom, vhodný v čase čerstvej zeleniny.",
+  "ingrediencie": [
+    {
+      "nazov": "Brokolica",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tavený syr",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvrdý syr",
+      "mnozstvo": 70,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 375,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana na varenia",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "pdľa chuti"
+    },
+    {
+      "nazov": "Vegeta",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "lyžica ,podravka"
+    },
+    {
+      "nazov": "Muškátový oriešok",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "nastrúhať trochu"
+    }
+  ],
+  "postup": [
+    "Ingrediencie.",
+    "Umytú brokolicu daj variť do osolenej vody, do polomäkka.",
+    "Tiež daj variť do osolenej vody cestovinu. Smotanu rožľahaj s celými vajíčkami, podravkou, štipkou muškátového orecha,a pol dcl.mlieka",
+    "Medzitým si usmaž na oleji cibuľku s cesnakom. Po uvarení brokolice a cestoviny zmiešaj pokrájanú brokolicu ktorú pokrájaj na menšie kúsky s cestovinou a usmaženou cibuľkou a cesnakom.",
+    "Všetko dobre premiešaj a ulož do olejom vymastenej mysy.",
+    "Na vrch tejto zmesi, pridaj na kúsky potrhaný mäkký syr a zalej zmesou rozšľahaných vajec, smotany podravky muškátového orecha. Daj na 25 minút zapiecť do rúry.",
+    "Potom zapečenú zmes vyber a zasyp nastrúhaným tvrdým syrom. Nechaj ešte asi 7-10 minút zapekať, kým sa syr neroztečie.",
+    "Hotová brokolica s cestovinou a syrom.",
+    "Podávaj k nej nejaký zeleninový šalát.",
+    "Hotová porcia."
+  ],
+  "tipy": "Pohár vody z varenia cestovín si odlož. Škrob v nej spojí omáčku s cestovinami lepšie než smotana.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "syr",
+    "vajcia",
+    "bezmäsité"
+  ]
 }

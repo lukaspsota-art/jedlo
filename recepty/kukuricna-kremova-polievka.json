@@ -1,105 +1,105 @@
 {
- "id": "kukuricna-kremova-polievka",
- "nazov": "Kukuričná krémová polievka",
- "kategoria": "Polievka",
- "kuchyna": "Americká",
- "zdroj": "Varecha.sk – Kukuričná polievka (autor: cupcake)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kukuricna-polievka/30812-recept.html",
- "porcie": 11,
- "cas": "30 min",
- "kcal_na_porciu": 351,
- "popis": "Priatelka nas pozvala na party a podavala tuto fantasticku kukuricnu polievku ako jedno \r\nz jedal. Skusila som a odvtedy ju casto robievam. Kazdemu chuti , je velmi osviezujuca, \r\ndobra na akekolvek prilezitosti. V nasej rodine je oblubena skoro tak, ako dobry kotlikovy \r\ngulas. Autorkou je Ina Garten, ktorej recepty su naozaj vynikajuce, tak toto je jeden z \r\nnich.",
- "ingrediencie": [
-  {
-   "nazov": "Slanina",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivovy olej",
-   "mnozstvo": 45,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 40,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 5,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá kurkuma",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Kurací vývar",
-   "mnozstvo": 12,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 6,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrazená kukurica",
-   "mnozstvo": 10,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slahacka",
-   "mnozstvo": 80,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Syr Cheddar",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Pouzij vacsi hrniec, ako na gulas. Slaninku narež na drobno/ako na halusky / daj do hrnca a pridaj olivovy olej a opraž na strednej teplote do zlatova/cca 5 min./ Vyber do misky a odlož nabok, pouzij neskor.",
-  "Zniz teplotu, pridaj maslo a nakrajanu cibulu a var do sklovita. Potom pridaj muku, sol, mlete cierne korenie a turmeric, miešaj a var dalsie cca 3 minuty/ako zaprazka/,ide to rychlo treba to v tejto faze sledovat. Zalej kuracim vyvarom, pridaj nakrajane zemiaky, dobre premiešaj, priveď dovaru a odokry var kym zemiaky nie su makke/cca 15 min./Pozor, aby neboli velmi makke/.",
-  "Prisyp mrazenu kukuricu, pridaj half and half/ mix mlieka a slahacky / a postruhany chedar. Nedavam vsetok syr, nechavam si aj na posypanie na tanier. Var dalsich 3-5 minut, kym syr nie je rozpusteny. Podava sa na hlbokom taniery posypane syrom a oprazenou slaninkou.",
-  "Je vynikajuca aj vlazna a vydrzi v chladnicke aj zopar dni. Teda ak vydrzi, u nas nie. Ked ju robim len pre nas, tak jednoducho urobim z polovicnej davky. Zelam Vam naozaj dobru chut!!!"
- ],
- "tipy": "Polievku dochuť až nakoniec. Počas varenia sa tekutina odparí a chute zosilnejú.",
- "foto": "",
- "tagy": [
-  "polievka",
-  "kukurica",
-  "americké"
- ]
+  "id": "kukuricna-kremova-polievka",
+  "nazov": "Kukuričná krémová polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Americká",
+  "zdroj": "Varecha.sk – Kukuričná polievka (autor: cupcake)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kukuricna-polievka/30812-recept.html",
+  "porcie": 11,
+  "cas": "30 min",
+  "kcal_na_porciu": 351,
+  "popis": "Krémová kukuričná polievka je veľmi osviežujúca a vhodná na akúkoľvek príležitosť, jej autorkou je Ina Garten.",
+  "ingrediencie": [
+    {
+      "nazov": "Slanina",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivovy olej",
+      "mnozstvo": 45,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá kurkuma",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Kurací vývar",
+      "mnozstvo": 12,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 6,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrazená kukurica",
+      "mnozstvo": 10,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slahacka",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr Cheddar",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pouzij vacsi hrniec, ako na gulas. Slaninku narež na drobno/ako na halusky / daj do hrnca a pridaj olivovy olej a opraž na strednej teplote do zlatova/cca 5 min./ Vyber do misky a odlož nabok, pouzij neskor.",
+    "Zniz teplotu, pridaj maslo a nakrajanu cibulu a var do sklovita. Potom pridaj muku, sol, mlete cierne korenie a turmeric, miešaj a var dalsie cca 3 minuty/ako zaprazka/,ide to rychlo treba to v tejto faze sledovat. Zalej kuracim vyvarom, pridaj nakrajane zemiaky, dobre premiešaj, priveď dovaru a odokry var kym zemiaky nie su makke/cca 15 min./Pozor, aby neboli velmi makke/.",
+    "Prisyp mrazenu kukuricu, pridaj half and half/ mix mlieka a slahacky / a postruhany chedar. Nedavam vsetok syr, nechavam si aj na posypanie na tanier. Var dalsich 3-5 minut, kym syr nie je rozpusteny. Podava sa na hlbokom taniery posypane syrom a oprazenou slaninkou.",
+    "Je vynikajuca aj vlazna a vydrzi v chladnicke aj zopar dni. Teda ak vydrzi, u nas nie. Ked ju robim len pre nas, tak jednoducho urobim z polovicnej davky. Zelam Vam naozaj dobru chut!!!"
+  ],
+  "tipy": "Polievku dochuť až nakoniec. Počas varenia sa tekutina odparí a chute zosilnejú.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "kukurica",
+    "americké"
+  ]
 }

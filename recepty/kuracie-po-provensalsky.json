@@ -1,87 +1,86 @@
 {
- "id": "kuracie-po-provensalsky",
- "nazov": "Kuracie po provensálsky",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Francúzska",
- "zdroj": "Varecha.sk – Provensálske kuracie medailóniky s medom (autor: zuzlik0402)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/provensalske-kuracie-medailoniky-s-medom/45034-recept.html",
- "porcie": 5,
- "cas": "30 min",
- "kcal_na_porciu": 556,
- "popis": "inšpirované jednou šikovnou dievčinou z tohto fóra, upravila som iba množstvá a niektoré prísady",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": 7,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová šťava",
-   "mnozstvo": 5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie provensálske",
-   "mnozstvo": 4,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 4,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Karí",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne korenie",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 7,
-   "jednotka": "PL",
-   "poznamka": "",
-   "vsiaknutie": 0.3
-  },
-  {
-   "nazov": "Worcesterská omáčka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Zo všetkých prísad priprav marinádu.",
-  "Kuracie mäsko očisti, nakrájaj na väčšie kusy, trošku naklep a ukladaj do marinády aspoň na 24 hodín.",
-  "Na mierne omastenej panvici vypraž kuracie kúsky a podávaj hneď s hranolkami."
- ],
- "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kura",
-  "francúzske"
- ]
+  "id": "kuracie-po-provensalsky",
+  "nazov": "Kuracie po provensálsky",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Francúzska",
+  "zdroj": "Varecha.sk – Provensálske kuracie medailóniky s medom (autor: zuzlik0402)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/provensalske-kuracie-medailoniky-s-medom/45034-recept.html",
+  "porcie": 5,
+  "cas": "30 min",
+  "kcal_na_porciu": 556,
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 7,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie provensálske",
+      "mnozstvo": 4,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Karí",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 7,
+      "jednotka": "PL",
+      "poznamka": "",
+      "vsiaknutie": 0.3
+    },
+    {
+      "nazov": "Worcesterská omáčka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zo všetkých prísad priprav marinádu.",
+    "Kuracie mäsko očisti, nakrájaj na väčšie kusy, trošku naklep a ukladaj do marinády aspoň na 24 hodín.",
+    "Na mierne omastenej panvici vypraž kuracie kúsky a podávaj hneď s hranolkami."
+  ],
+  "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kura",
+    "francúzske"
+  ]
 }

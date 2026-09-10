@@ -1,111 +1,111 @@
 {
- "id": "sosovicovy-hrniec",
- "nazov": "Šošovicový hrniec",
- "kategoria": "Polievka",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Šošovicový hrniec (autor: jezibabka1)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/sosovicovy-hrniec/13679-recept.html",
- "porcie": 6,
- "cas": "45 min",
- "kcal_na_porciu": 275,
- "popis": "Mala som dnes v pláne uvariť šošovicovú polievku, \"aľe dakuščičko\" inak:), tak som sa rozhodla pre tento receptík z \"Dobrého jedla\". Lenže keďže u nás \"letí\" dobrá hustá polievka, kde lyžica stojí, tak gramáž si upravte pri varení podľa svojej chuti:)",
- "ingrediencie": [
-  {
-   "nazov": "Šošovica",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bobkový list",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pór",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mäsitá paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zeler",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šunka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "nasekaná"
-  },
-  {
-   "nazov": "Ocot",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cukor kryštál",
-   "mnozstvo": 0.5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté čerstvé korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Šošovicu premyj, zalej studenou vodou a nechaj postáť 30min.",
-  "Kým čakáš na šošovicu, očisti si zemiaky, mrkvu, zeler, pór, papriku, cibuľu. Mrkvu a pór nakrájaj na kolieska, zemiaky, zeler, papriku a cibuľu na drobnejšie kocky, šunku na rezančeky a nasekanú petržlenovú vňať.",
-  "Keď máš šošovicu naboptnanú (to je výraz ci panky daj ju variť so soľou a bobkovým listom, po 15min. varu pridaj všetku zeleninu, šunku, vňať a var do zmäknutia zemiakov a mrkvy.",
-  "Nakoniec dochuť octom, cukrom a čiernym mletým korením"
- ],
- "tipy": "Polievku dochuť až nakoniec. Počas varenia sa tekutina odparí a chute zosilnejú.",
- "foto": "",
- "tagy": [
-  "polievka",
-  "zemiaky",
-  "strukoviny"
- ]
+  "id": "sosovicovy-hrniec",
+  "nazov": "Šošovicový hrniec",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Šošovicový hrniec (autor: jezibabka1)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/sosovicovy-hrniec/13679-recept.html",
+  "porcie": 6,
+  "cas": "45 min",
+  "kcal_na_porciu": 275,
+  "popis": "Hustá šošovicová polievka, ktorej gramáž si možno pri varení upraviť podľa vlastnej chuti.",
+  "ingrediencie": [
+    {
+      "nazov": "Šošovica",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bobkový list",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pór",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mäsitá paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zeler",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šunka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "nasekaná"
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor kryštál",
+      "mnozstvo": 0.5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté čerstvé korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Šošovicu premyj, zalej studenou vodou a nechaj postáť 30min.",
+    "Kým čakáš na šošovicu, očisti si zemiaky, mrkvu, zeler, pór, papriku, cibuľu. Mrkvu a pór nakrájaj na kolieska, zemiaky, zeler, papriku a cibuľu na drobnejšie kocky, šunku na rezančeky a nasekanú petržlenovú vňať.",
+    "Keď máš šošovicu naboptnanú (to je výraz ci panky daj ju variť so soľou a bobkovým listom, po 15min. varu pridaj všetku zeleninu, šunku, vňať a var do zmäknutia zemiakov a mrkvy.",
+    "Nakoniec dochuť octom, cukrom a čiernym mletým korením"
+  ],
+  "tipy": "Polievku dochuť až nakoniec. Počas varenia sa tekutina odparí a chute zosilnejú.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "zemiaky",
+    "strukoviny"
+  ]
 }

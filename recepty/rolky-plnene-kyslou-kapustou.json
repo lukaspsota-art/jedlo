@@ -1,93 +1,92 @@
 {
- "id": "rolky-plnene-kyslou-kapustou",
- "nazov": "Rolky plnené kyslou kapustou",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Rolky plnené kyslou kapustou (autor: miloss2)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/rolky-plnene-kyslou-kapustou/32650-recept.html",
- "porcie": 6,
- "cas": "105 min",
- "kcal_na_porciu": 411,
- "popis": "Tento recept je z nového času pre ženy,dnes som ho vyskúšal.Je to dobrota,tak sa s vami oň podelím.",
- "ingrediencie": [
-  {
-   "nazov": "Bravé karé",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Kvasená kapusta",
-   "mnozstvo": 350,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené slivky",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bravčová šunka",
-   "mnozstvo": 900,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 6,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Majorán",
-   "mnozstvo": 3,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá smotana",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vývar",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Karé jemne naklep, osoľ a okoreň. Potri pretlakom, posyp majoránom.",
-  "Polož plátok šunky, rozlož kapustu, do stredu polož slivky.",
-  "Zviň do rolky a spichni ihlicou. Na rozpálenom oleji prudko opeč zo všetkých strán.",
-  "Pridaj v šupe uvarené, olúpané a nakrájané zemiaky, zalej vývarom a dus 30 minút. Potom pridaj kyslú smotanu a ešte 15 minút podus. Dobrú chuť."
- ],
- "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "zemiaky"
- ]
+  "id": "rolky-plnene-kyslou-kapustou",
+  "nazov": "Rolky plnené kyslou kapustou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Rolky plnené kyslou kapustou (autor: miloss2)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/rolky-plnene-kyslou-kapustou/32650-recept.html",
+  "porcie": 6,
+  "cas": "105 min",
+  "kcal_na_porciu": 411,
+  "ingrediencie": [
+    {
+      "nazov": "Bravé karé",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Kvasená kapusta",
+      "mnozstvo": 350,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené slivky",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová šunka",
+      "mnozstvo": 900,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 6,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majorán",
+      "mnozstvo": 3,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vývar",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Karé jemne naklep, osoľ a okoreň. Potri pretlakom, posyp majoránom.",
+    "Polož plátok šunky, rozlož kapustu, do stredu polož slivky.",
+    "Zviň do rolky a spichni ihlicou. Na rozpálenom oleji prudko opeč zo všetkých strán.",
+    "Pridaj v šupe uvarené, olúpané a nakrájané zemiaky, zalej vývarom a dus 30 minút. Potom pridaj kyslú smotanu a ešte 15 minút podus. Dobrú chuť."
+  ],
+  "tipy": "Paradajkovú omáčku var aspoň 20 minút. Kyslosť sa vytratí a chuť sa zaokrúhli — štipka cukru pomôže.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "zemiaky"
+  ]
 }

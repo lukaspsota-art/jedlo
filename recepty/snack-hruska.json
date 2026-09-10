@@ -1,50 +1,49 @@
 {
- "id": "snack-hruska",
- "nazov": "Hruškové želé",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Hruškové želé (autor: flavia)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/hruskove-zele/44070-recept.html",
- "porcie": 4,
- "cas": "30 min",
- "kcal_na_porciu": 60,
- "popis": "inšpiroval ma film Ja, zloduch 2 ;)",
- "ingrediencie": [
-  {
-   "nazov": "Želatína číra",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hrušky",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Priprav si potrebné množstvo želatíny...",
-  ".. a vody.Podľa návodu na obale si priprav tekutú želatínu.",
-  "Hrušky umyla, ošúp a postrúhaj. Do každého pohára som dala trocha postrúhaných hrušiek a zaliala som ich želatínou. Nakoniec som ich dala stuhnúť do chladničky, a pred podávaním som ich vyklopila na tanier."
- ],
- "tipy": "Želatínu nikdy nevar — nad 60 °C stráca schopnosť tuhnúť.",
- "foto": "",
- "tagy": [
-  "ovocie",
-  "kupované",
-  "dezert"
- ]
+  "id": "snack-hruska",
+  "nazov": "Hruškové želé",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Hruškové želé (autor: flavia)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/hruskove-zele/44070-recept.html",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 60,
+  "ingrediencie": [
+    {
+      "nazov": "Želatína číra",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrušky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si potrebné množstvo želatíny...",
+    ".. a vody. Podľa návodu na obale si priprav tekutú želatínu.",
+    "Hrušky umy, ošúp a postrúhaj. Do každého pohára daj trocha postrúhaných hrušiek a zalej ich želatínou. Nakoniec ich nechaj stuhnúť v chladničke a pred podávaním ich vyklop na tanier."
+  ],
+  "tipy": "Želatínu nikdy nevar — nad 60 °C stráca schopnosť tuhnúť.",
+  "foto": "",
+  "tagy": [
+    "ovocie",
+    "kupované",
+    "dezert"
+  ]
 }

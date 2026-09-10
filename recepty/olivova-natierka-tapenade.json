@@ -1,50 +1,49 @@
 {
- "id": "olivova-natierka-tapenade",
- "nazov": "Olivová nátierka (tapenade)",
- "kategoria": "Nátierka",
- "kuchyna": "Francúzska",
- "zdroj": "Varecha.sk – Olivová nátierka (autor: huslicka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/olivova-natierka/19519-recept.html",
- "porcie": 1,
- "cas": "15 min",
- "kcal_na_porciu": 368,
- "popis": "Mám ju od mojej kamarátky a veľmi sme si ju obľúbili",
- "ingrediencie": [
-  {
-   "nazov": "Zelené olivy",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Syr bambino",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Plnotučná horčica",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 1,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Zelené olivy nechaj odkvapkať a na jemno pokrájaj alebo posekaj.",
-  "Do misky vytlač syr, zmiešaj s olivami, horčicou a popučeným cesnakom.",
-  "Môžeš aj rozmixovať ale nie je to podmienka."
- ],
- "tipy": "Nátierku nechaj pred podávaním aspoň hodinu v chladničke — chute sa prepoja a natiera sa lepšie.",
- "foto": "",
- "tagy": [
-  "nátierka",
-  "olivy",
-  "francúzske"
- ]
+  "id": "olivova-natierka-tapenade",
+  "nazov": "Olivová nátierka (tapenade)",
+  "kategoria": "Nátierka",
+  "kuchyna": "Francúzska",
+  "zdroj": "Varecha.sk – Olivová nátierka (autor: huslicka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/olivova-natierka/19519-recept.html",
+  "porcie": 1,
+  "cas": "15 min",
+  "kcal_na_porciu": 368,
+  "ingrediencie": [
+    {
+      "nazov": "Zelené olivy",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Syr bambino",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Plnotučná horčica",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zelené olivy nechaj odkvapkať a na jemno pokrájaj alebo posekaj.",
+    "Do misky vytlač syr, zmiešaj s olivami, horčicou a popučeným cesnakom.",
+    "Môžeš aj rozmixovať ale nie je to podmienka."
+  ],
+  "tipy": "Nátierku nechaj pred podávaním aspoň hodinu v chladničke — chute sa prepoja a natiera sa lepšie.",
+  "foto": "",
+  "tagy": [
+    "nátierka",
+    "olivy",
+    "francúzske"
+  ]
 }

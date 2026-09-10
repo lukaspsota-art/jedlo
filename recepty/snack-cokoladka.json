@@ -1,51 +1,51 @@
 {
- "id": "snack-cokoladka",
- "nazov": "Čokoládové tyčinky",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Čokoládové tyčinky (autor: merrycherry)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/cokoladove-tycinky-/48722-recept.html",
- "porcie": 10,
- "cas": "1 min",
- "kcal_na_porciu": 279,
- "popis": "Recept mám z knihy od Jenny White - Tri stačia.\r\nNechcelo sa mi moc vypekať..tak len taká rychlovka...stačil jeden kúsok a bola som spokojná :)",
- "ingrediencie": [
-  {
-   "nazov": "Čokoláda mliečna",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Obyčajné ovsené maslové keksy",
-   "mnozstvo": 115,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené slivky",
-   "mnozstvo": 115,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Suroviny a gramáž napísaj tak ako boli v knihe ale kľudne si zameň mliečnu čokoládu za horkú. Ja som nemala sušené slivky, tak som dala hrozienka. Čokoládu rozlám na kúsky a vlož do ohňovzdornej misky. Pridaj maslo a zmes rozpúšťaj v mikrovlnke 1 až 2 min. Premiešaj a odlož. Čokoládu môžte rozpustiť aj vo vodnom kúpeli.",
-  "Keksy vlož do mikroténového vrecúška a rozlám na kúsky. Slivky posekaj nahrubo a pridaj ku keksom. Vmiešaj do čokoládovej zmesi. Zmes vlož do menšej formy /napr. na chlebik/ a nechaj v chladničke stuhnúť. Ostrým nožom krájaj.",
-  "Ja som si formu na chlebik vyložíla potravin.fóliou, ide to lahšie vyklopiť :) a zmes nedaj do chladničky ale asi na 20-25 min do mrazničky...Keď to bolo pekne tuhé, nakrájala na tyčinky :) Dobrú chuť :) PS : ja som použila hrozienka z Marks&Spencer...prídu mi sladšie a nie také vyschnuté ako iné..použi len jednu takúto malú krabičku 14 gramovú :)"
- ],
- "tipy": "Čokoládu top nad parou, nie priamo na platni — nad 50 °C sa zráža a zrnie.",
- "foto": "",
- "tagy": [
-  "kupované",
-  "čokoláda",
-  "ovocie",
-  "dezert"
- ]
+  "id": "snack-cokoladka",
+  "nazov": "Čokoládové tyčinky",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Čokoládové tyčinky (autor: merrycherry)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/cokoladove-tycinky-/48722-recept.html",
+  "porcie": 10,
+  "cas": "1 min",
+  "kcal_na_porciu": 279,
+  "popis": "Rýchle čokoládové tyčinky bez pečenia.",
+  "ingrediencie": [
+    {
+      "nazov": "Čokoláda mliečna",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Obyčajné ovsené maslové keksy",
+      "mnozstvo": 115,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené slivky",
+      "mnozstvo": 115,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Suroviny a gramáž sú uvedené podľa knihy, ale kľudne si zameň mliečnu čokoládu za horkú a sušené slivky za hrozienka. Čokoládu rozlám na kúsky a vlož do ohňovzdornej misky. Pridaj maslo a zmes rozpúšťaj v mikrovlnke 1 až 2 min. Premiešaj a odlož. Čokoládu môžeš rozpustiť aj vo vodnom kúpeli.",
+    "Keksy vlož do mikroténového vrecúška a rozlám na kúsky. Slivky posekaj nahrubo a pridaj ku keksom. Vmiešaj do čokoládovej zmesi. Zmes vlož do menšej formy /napr. na chlebik/ a nechaj v chladničke stuhnúť. Ostrým nožom krájaj.",
+    "Formu na chlebík vylož potravinárskou fóliou, ľahšie sa to vyklopí, a zmes nedávaj do chladničky, ale asi na 20-25 min do mrazničky. Keď je pekne tuhá, nakrájaj ju na tyčinky. Použi len jednu takúto malú 14 gramovú krabičku hrozienok."
+  ],
+  "tipy": "Čokoládu top nad parou, nie priamo na platni — nad 50 °C sa zráža a zrnie.",
+  "foto": "",
+  "tagy": [
+    "kupované",
+    "čokoláda",
+    "ovocie",
+    "dezert"
+  ]
 }

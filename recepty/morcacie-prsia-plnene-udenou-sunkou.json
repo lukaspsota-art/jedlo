@@ -1,96 +1,96 @@
 {
- "id": "morcacie-prsia-plnene-udenou-sunkou",
- "nazov": "Morčacie prsia plnené údenou šunkou",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Morčacie prsia plnené údenou šunkou (fotorecept) (autor: izabella929)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-prsia-plnene-udenou-sunkou-fotorecept/63854-recept.html",
- "porcie": 2,
- "cas": "60 min",
- "kcal_na_porciu": 313,
- "popis": "Tak som sa prehrabávala včera v mrazáku a objavila som tam veľkonočnú šunku, čo sme neminuli..a tak som dostala hneď nápad, čo s ňou..pokrájala som ju na kocky a naplnila ňou močracie prsia...a aká fajnotka.-)",
- "ingrediencie": [
-  {
-   "nazov": "Prsia morčacie",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Domáce prošuto",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Údená šunka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Nátierka papriková domáca",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Masť bravčová domáca",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Varené zemiaky",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Morčacie prsia umy, osuš a postupom podrezávaním som sa snažila urobiť z nich šál..aj sa mi podaril dosť veľký, ale ho pre istotu rozdeľ na polovicu, aby sa mäso prepieklo..takže každý kus naklep cez fóliu",
-  "osoľ, okoreň a natri ich paprikovou pomazánkou..",
-  "Pokrájaj údenú šunku na kocky, prošutto na tenké pásy a priprav plnku do misy daj pokrájanú šunku, našla som konček domáceho chlebíka, zúžitkovala som aj ten na kocky a pridaj pre pestrosť aj mrkvu z polievky, ktorá sa mi práve varila na sporáku..a pridala jedno vajce trošku osolila a okorenila a dobre premiešala.",
-  "Na panvici si urob 2 omeletky z dvoch vajec a polož ich na paprikovú pomazánku",
-  "na omeletku ulož domáce prošutto",
-  "a na prošutto ulož plnku z údenej šunky",
-  "Na panvicu daj rozohriať bravčovú masť a oba valčeky opeč zo všetkých strán",
-  "Podlej ich vývarom, zakryla pokrievkou a nechaj podusiť keďže prsia ochuť z vnútra a podliala dochuteným vývarom, už nič nepridávala dus sa 20min.",
-  "po 20min.roládky odkryla a nechaj ešte chvíľu opiecť na výpeku odstráň špagát..",
-  "Vyber ich na dosku nechala 15 min, odpočívať, aby šťava pri krájaní nevytiekla a potom ich pokrájaj na plátky..",
-  "a uložila na taniere prajem vám dobrú chuť.."
- ],
- "tipy": "Vajcia miešaj na miernom ohni a stiahni ich z platne, kým sú ešte trochu tekuté — dohotovia sa vlastným teplom.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "morčacie",
-  "vajcia",
-  "zemiaky"
- ]
+  "id": "morcacie-prsia-plnene-udenou-sunkou",
+  "nazov": "Morčacie prsia plnené údenou šunkou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Morčacie prsia plnené údenou šunkou (fotorecept) (autor: izabella929)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-prsia-plnene-udenou-sunkou-fotorecept/63854-recept.html",
+  "porcie": 2,
+  "cas": "60 min",
+  "kcal_na_porciu": 313,
+  "popis": "Morčacie prsia plnené na kocky pokrájanou údenou šunkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia morčacie",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Domáce prošuto",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údená šunka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Nátierka papriková domáca",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Masť bravčová domáca",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Varené zemiaky",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Morčacie prsia umy, osuš a postupným podrezávaním sa snaž urobiť z nich šál. Ak vyjde dosť veľký, pre istotu ho rozdeľ na polovicu, aby sa mäso prepieklo, takže každý kus naklep cez fóliu",
+    "osoľ, okoreň a natri ich paprikovou pomazánkou..",
+    "Pokrájaj údenú šunku na kocky, prošutto na tenké pásy a priprav plnku: do misy daj pokrájanú šunku, pridaj na kocky pokrájaný konček domáceho chlebíka, pridaj pre pestrosť aj mrkvu z polievky a jedno vajce, trošku osoľ, okoreň a dobre premiešaj.",
+    "Na panvici si urob 2 omeletky z dvoch vajec a polož ich na paprikovú pomazánku",
+    "na omeletku ulož domáce prošutto",
+    "a na prošutto ulož plnku z údenej šunky",
+    "Na panvicu daj rozohriať bravčovú masť a oba valčeky opeč zo všetkých strán",
+    "Podlej ich vývarom, zakry pokrievkou a nechaj podusiť; keďže sú prsia ochutené zvnútra a podliate dochuteným vývarom, už nič nepridávaj a dus 20min.",
+    "po 20min. roládky odkry a nechaj ešte chvíľu opiecť na výpeku, potom odstráň špagát..",
+    "Vyber ich na dosku, nechaj 15 min odpočívať, aby šťava pri krájaní nevytiekla, a potom ich pokrájaj na plátky..",
+    "a ulož na taniere, dobrú chuť.."
+  ],
+  "tipy": "Vajcia miešaj na miernom ohni a stiahni ich z platne, kým sú ešte trochu tekuté — dohotovia sa vlastným teplom.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "morčacie",
+    "vajcia",
+    "zemiaky"
+  ]
 }

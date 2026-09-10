@@ -1,96 +1,95 @@
 {
- "id": "vajickova-natierka-starej-mamy",
- "nazov": "Vajíčková nátierka starej mamy",
- "kategoria": "Raňajky",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Vajíčková nátierka starej mamy (fotorecept) (autor: kvakac)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/vajickova-natierka-starej-mamy-fotorecept/78049-recept.html",
- "porcie": 4,
- "cas": "19 min",
- "kcal_na_porciu": 267,
- "popis": "Túto nátierku nám robila starká, teraz ju robím deťom ja.",
- "ingrediencie": [
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 6,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 3,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horčica",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tavený trojuholníkový syr",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá uhorka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "strúhaná (nemusí byť"
-  }
- ],
- "postup": [
-  "Priprav si suroviny. Petržlenovú vňať nakrájaj.",
-  "Korenie zomeľ. Cibuľu očisti a nakrájaj na drobno. Očistený cesnak strúhaj na jemno. Syr si tak isto priprav. Vajcia rozbij a daj do misky. Rýchlo sa to bude robiť, tak nech je to pripravené.",
-  "Na rajnicu daj zohriať maslo s olejom. Po zohriatí pridaj cibuľu, nechaj zmäknúť. Ďalej pridaj cesnak, nechaj ho prevoňať. (Ak by chcel niekto kyslú uhorku, tak teraz ju nastrúhanú môžeš pridať. Ja niekedy dám a niekedy nie, podľa momentálnej chuti.)",
-  "Ďalej pridaj horčicu, korenie a syr. Syr sa musí roztopiť.",
-  "Keď je syr roztopený, nalej vajcia. Trochu osoľ a stále miešaj. Keď začnú vajcia tuhnúť, hrniec odstav zo sporáku. Ďalej miešaj, v horúcej rajnici vajcia dôjdu. Má to byť polotuhé, nie husté.",
-  "Môžeš natierať na chleba. Nám toto množstvo je akurát na štyri krajce. Vrstva nátierky podľa hrúbky krajca chleba. Keď chytíte chlieb v strede do ruky, tak kraje sa musia prehnúť od váhy vajca."
- ],
- "tipy": "Čerstvé bylinky pridaj až na tanier. Teplo z nich vôňu vyženie za pár minút.",
- "foto": "",
- "tagy": [
-  "raňajky",
-  "syr",
-  "vajcia",
-  "bezmäsité"
- ]
+  "id": "vajickova-natierka-starej-mamy",
+  "nazov": "Vajíčková nátierka starej mamy",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Vajíčková nátierka starej mamy (fotorecept) (autor: kvakac)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/vajickova-natierka-starej-mamy-fotorecept/78049-recept.html",
+  "porcie": 4,
+  "cas": "19 min",
+  "kcal_na_porciu": 267,
+  "ingrediencie": [
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 6,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tavený trojuholníkový syr",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá uhorka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "strúhaná (nemusí byť"
+    }
+  ],
+  "postup": [
+    "Priprav si suroviny. Petržlenovú vňať nakrájaj.",
+    "Korenie zomeľ. Cibuľu očisti a nakrájaj na drobno. Očistený cesnak strúhaj na jemno. Syr si tak isto priprav. Vajcia rozbij a daj do misky. Rýchlo sa to bude robiť, tak nech je to pripravené.",
+    "Na rajnicu daj zohriať maslo s olejom. Po zohriatí pridaj cibuľu, nechaj zmäknúť. Ďalej pridaj cesnak, nechaj ho prevoňať. (Ak by chcel niekto kyslú uhorku, tak teraz ju nastrúhanú môžeš pridať. Ja niekedy dám a niekedy nie, podľa momentálnej chuti.)",
+    "Ďalej pridaj horčicu, korenie a syr. Syr sa musí roztopiť.",
+    "Keď je syr roztopený, nalej vajcia. Trochu osoľ a stále miešaj. Keď začnú vajcia tuhnúť, hrniec odstav zo sporáku. Ďalej miešaj, v horúcej rajnici vajcia dôjdu. Má to byť polotuhé, nie husté.",
+    "Môžeš natierať na chleba. Nám toto množstvo je akurát na štyri krajce. Vrstva nátierky podľa hrúbky krajca chleba. Keď chytíte chlieb v strede do ruky, tak kraje sa musia prehnúť od váhy vajca."
+  ],
+  "tipy": "Čerstvé bylinky pridaj až na tanier. Teplo z nich vôňu vyženie za pár minút.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "syr",
+    "vajcia",
+    "bezmäsité"
+  ]
 }

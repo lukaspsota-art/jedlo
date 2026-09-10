@@ -1,96 +1,96 @@
 {
- "id": "kvaskove-sisky",
- "nazov": "Kváskové šišky",
- "kategoria": "Raňajky",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kváskové šišky (fotorecept) (autor: siisa)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kvaskove-sisky-fotorecept/64880-recept.html",
- "porcie": 7,
- "cas": "120 min",
- "kcal_na_porciu": 395,
- "popis": "Veľmi sme si pochutili na týchto šiškách, preto mi nedá nezverejniť túto dobrotu. Kto chce \r\nmôže vyskúšať. Použila som namiesto kvasníc ražný kvások.",
- "ingrediencie": [
-  {
-   "nazov": "Múka hladká špeciál",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kvások ražný - rozkvas",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Žĺtok",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá smotana",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rum",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Večer si nakŕmi kvások, použi ražný. Prikŕmi ho nasledovne: Z odloženého kvásku z chladničky odober tak 1-2 PL do misy z plastu, pridaj 100 g ražnej múky a 100 ml vlažnej vody. Všetko riadne vymiešaj dohladka a misu s kváskom daj do igelitovej tašky a na taške zaviaž ušká. Nechaj do rána vykysnúť. Tak 10 - 12 hodín.",
-  "Ráno si uvar v šupe zemiak. Vychladnutý postrúhaj na jemno. Skontroluj kvások. Ak kvások vykysol, je čas zamiesiť cesto. Cesto môžeš miesiť ručne, alebo v robote s hákom na miesenie cesta. Do misy z robota daj ako prvý kvások, potom múku a všetky ostatné ingrediencie.",
-  "Nakoniec si nechaj mlieko, ktoré po zapnutí robota pomaly leješ do misy. Cesto mies tak 15 minút. Nemalo by byť ani riedke ani husté. Potom ho pomocou varechy trochu dotvaruj na bochník. S misou daj do igelitovej tašky a uzavreté nechaj odpočívať hodinu.",
-  "Po hodine cesto vyklop na pomúčenú dosku a veľmi krátko premies. Vlastne len dotvaruj tak, ako vidieť na obrázku.",
-  "Rukou cesto roztlač na hrúbku 2 cm. Vykrajuj šišky v tvare a veľkosti aké sa nám páčia.",
-  "Potom ich nechaj podľa teploty v miestnosti nakysnúť, tak polhodinu až hodinu.",
-  "V širšej panvici si rozpáľ olej. Potom vyprážaj."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "raňajky",
-  "zemiaky",
-  "bezmäsité"
- ]
+  "id": "kvaskove-sisky",
+  "nazov": "Kváskové šišky",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kváskové šišky (fotorecept) (autor: siisa)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kvaskove-sisky-fotorecept/64880-recept.html",
+  "porcie": 7,
+  "cas": "120 min",
+  "kcal_na_porciu": 395,
+  "popis": "Šišky, v ktorých sú kvasnice nahradené ražným kváskom.",
+  "ingrediencie": [
+    {
+      "nazov": "Múka hladká špeciál",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kvások ražný - rozkvas",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Žĺtok",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rum",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Večer si nakŕmi kvások, použi ražný. Prikŕmi ho nasledovne: Z odloženého kvásku z chladničky odober tak 1-2 PL do misy z plastu, pridaj 100 g ražnej múky a 100 ml vlažnej vody. Všetko riadne vymiešaj dohladka a misu s kváskom daj do igelitovej tašky a na taške zaviaž ušká. Nechaj do rána vykysnúť. Tak 10 - 12 hodín.",
+    "Ráno si uvar v šupe zemiak. Vychladnutý postrúhaj na jemno. Skontroluj kvások. Ak kvások vykysol, je čas zamiesiť cesto. Cesto môžeš miesiť ručne, alebo v robote s hákom na miesenie cesta. Do misy z robota daj ako prvý kvások, potom múku a všetky ostatné ingrediencie.",
+    "Nakoniec si nechaj mlieko, ktoré po zapnutí robota pomaly leješ do misy. Cesto mies tak 15 minút. Nemalo by byť ani riedke ani husté. Potom ho pomocou varechy trochu dotvaruj na bochník. S misou daj do igelitovej tašky a uzavreté nechaj odpočívať hodinu.",
+    "Po hodine cesto vyklop na pomúčenú dosku a veľmi krátko premies. Vlastne len dotvaruj tak, ako vidieť na obrázku.",
+    "Rukou cesto roztlač na hrúbku 2 cm. Vykrajuj šišky v tvare a veľkosti aké sa nám páčia.",
+    "Potom ich nechaj podľa teploty v miestnosti nakysnúť, tak polhodinu až hodinu.",
+    "V širšej panvici si rozpáľ olej. Potom vyprážaj."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "zemiaky",
+    "bezmäsité"
+  ]
 }

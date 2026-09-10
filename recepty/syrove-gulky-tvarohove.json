@@ -1,102 +1,102 @@
 {
- "id": "syrove-gulky-tvarohove",
- "nazov": "Syrové guľky - tvarohové",
- "kategoria": "Príloha",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Syrové guľky - tvarohové (fotorecept) (autor: gordonko)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/syrove-gulky-tvarohove-fotorecept/56251-recept.html",
- "porcie": 15,
- "cas": "35 min",
- "kcal_na_porciu": 222,
- "popis": "kedysi  dávno  som  na  návšteve  jedol tvarohové guľky ...  boli  také  nadýchané  ale  nikdy  som  sa  knim  nedostal.  Vďaka zostatku syra ( domácá kravská hrudka )  rozhodol  že  ich  skúsim  z  toho  syra  namiesto  tvarohu ....  neboli  také   ako  som  kedysi  jedol  , ale  aj  tak boli   vinikajúcé",
- "ingrediencie": [
-  {
-   "nazov": "Syr kravská hrudka domáca",
-   "mnozstvo": 600,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia močacie",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Detská krupica",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kypriaci prášok do pečiva",
-   "mnozstvo": 1.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 2,
-   "jednotka": "plátok",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Strúhanka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Marhuľový lekvár",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "potrebné suroviny .... pôvodne som chcel urobiť iba z 250 gr syra ale nakoniec som dal všetok a urobil som ,, dvojitú ,, dávku ......mlieko nakoniec nedaj nebolo potreba",
-  "syr kravskú hrudku ( cca 600 - 700 )gr si nastrúhaj na jemnom strúhadle a pridaj 2 vajíčka",
-  "na vajička vysyp vanilínový cukor ,štipku soli , niečo málo cez 200 gr detskej krupičky a 1 a 1/2 lyžičky kypriaceho prášku",
-  "najskvôr varechou potom rukou som vymiešal cesto - ochutnal a pridal som doň ešte asi 5 - 6 ližic krištálového cukru",
-  "z cesta som mokrými rukami robil guľky veľkosti vlašského orecha a hádzal som ich do vriacej osolenej vody",
-  "variť by sa mali ešte chvilku po vyplávaní na povrch cca 4 minuty",
-  "prvé guľky sú hotové , no skoro sa mi rozpadávali",
-  "a tak do zvyšného cesta prisyp trochu strúhanky a znovu premiešaj",
-  "tieto guľky si už lepšie držali tvar , no varili sa o trochu dlhšie",
-  "na dvoch plátkoch masla si osmahni strúhanku",
-  "osmahnutou strúhankou posyp guľky , popráš práškovým cukrom a ..... je nanás či si ich poleješ roztopeným maslom , pridaj kompotované ovocie , šlahačku , alebo ....",
-  ",,dozdob ,, lekvárom DOBRÚ CHUŤ"
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "syr",
-  "vajcia",
-  "bezmäsité",
-  "príloha"
- ]
+  "id": "syrove-gulky-tvarohove",
+  "nazov": "Syrové guľky - tvarohové",
+  "kategoria": "Príloha",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Syrové guľky - tvarohové (fotorecept) (autor: gordonko)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/syrove-gulky-tvarohove-fotorecept/56251-recept.html",
+  "porcie": 15,
+  "cas": "35 min",
+  "kcal_na_porciu": 222,
+  "popis": "Nadýchané guľky pripravené z domácej kravskej hrudky namiesto tvarohu.",
+  "ingrediencie": [
+    {
+      "nazov": "Syr kravská hrudka domáca",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia močacie",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Detská krupica",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kypriaci prášok do pečiva",
+      "mnozstvo": 1.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 2,
+      "jednotka": "plátok",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Strúhanka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Marhuľový lekvár",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si potrebné suroviny. Pôvodne stačí 250 gr syra, ale pokojne daj všetok a urob dvojitú dávku. Mlieko nakoniec nedávaj, nebolo potrebné.",
+    "Syr kravskú hrudku ( cca 600 - 700 )gr si nastrúhaj na jemnom strúhadle a pridaj 2 vajíčka.",
+    "Na vajíčka vysyp vanilínový cukor, štipku soli, niečo málo cez 200 gr detskej krupičky a 1 a 1/2 lyžičky kypriaceho prášku.",
+    "Najskôr varechou, potom rukou vymiešaj cesto, ochutnaj a pridaj doň ešte asi 5 - 6 lyžíc krištálového cukru.",
+    "Z cesta mokrými rukami rob guľky veľkosti vlašského orecha a hádž ich do vriacej osolenej vody.",
+    "Variť by sa mali ešte chvíľku po vyplávaní na povrch, cca 4 minuty.",
+    "Prvé guľky sú hotové, no môžu sa takmer rozpadávať.",
+    "A tak do zvyšného cesta prisyp trochu strúhanky a znovu premiešaj.",
+    "Tieto guľky si už lepšie držia tvar, no varia sa o trochu dlhšie.",
+    "Na dvoch plátkoch masla si osmahni strúhanku.",
+    "Osmahnutou strúhankou posyp guľky, popráš práškovým cukrom a je len na tebe, či ich poleješ roztopeným maslom, pridáš kompotované ovocie, šľahačku, alebo...",
+    "Dozdob lekvárom. Dobrú chuť."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "syr",
+    "vajcia",
+    "bezmäsité",
+    "príloha"
+  ]
 }

@@ -1,82 +1,82 @@
 {
- "id": "pita-chlieb",
- "nazov": "Pita chlieb so sušenými paradajkami a sezamom",
- "kategoria": "Pečivo",
- "kuchyna": "Blízkovýchodná",
- "zdroj": "Varecha.sk – Pita chlieb (autor: tetrisss)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/pita-chlieb/31147-recept.html",
- "porcie": 15,
- "cas": "22 min",
- "kcal_na_porciu": 306,
- "popis": "Tento chlieb som našla na stránke receptov Coop jednota a keďže som zistila, že je to najlepšia príloha ku grilovaniu, ktoré má teraz určite zelenú, tak Vám ho ponúkam aj s mojimi dodatkami.",
- "ingrediencie": [
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 1250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 625,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 10,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 6,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Majorán",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajky sušené v oleji",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sezam",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Do nádoby daj vodu a kvasnice, prešľahaj vidličkou, pridaj 3 hrnčeky múky, rozmiešaj, pridaj prelisovaný cesnak, soľ a ešte 2 hrnčeky múky, vypracuj cesto. Potom ho prelož na dosku posypanú múkou a ešte uhneť az do podoby nelepivého mäkkého cesta. Cesto potom potri celé olejom a ulož do misy a nechaj kysnúť asi hodinu.",
-  "Cesto predeľ na 4 časti. Na plech, vystlaný papierom na pečenie vytiahni každý kúsok cesta do oválu 1,5 cm hrubého. Cesto potri olejom, posyp soľou a posyp majoránom. Potom použij radielko, alebo krájač na pizu a cesto takmer prekrájaj na pásy 2,5 cm široké.",
-  "Potom vezmi ručičky a ešte poprepichuj tie škáry, aby sa nám potom dali tie pásy odtrhnúť. Možno, že nemám správne nechty, kto má umelé, môže skúsiť.",
-  "Takto spracuj dva kusy cesta. Druhé dva vytiahni, a na polovicu cesta daj na kúsky nakrájané sušené paradajky v oleji, kľudne tam daj aj tú bazalku z oleja, priklop a pokračuj ako s tými prvými cestami. Vrch potri olejom z tých paradajok a posyp soľou a sezamom. Peč v dobre vyhriatej rúre 10 až 12 minút. Nechaj vychladnúť, nalám, podávaj a teš sa, ako ušetr mäsko na grilovačke.",
-  "Ešte taký malý dodatok, ak nám niečo z chlebíka ostane, zabaľ to do utierky, aby chlieb nevyschol. Potom pásy prekroj po dľžke a hrúbke, daj do hriakovača a máš krásne sucháriky. Tieto môžeš natriet maslom, alebo syrom."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "pečivo",
-  "blízkovýchodné",
-  "placky"
- ]
+  "id": "pita-chlieb",
+  "nazov": "Pita chlieb so sušenými paradajkami a sezamom",
+  "kategoria": "Pečivo",
+  "kuchyna": "Blízkovýchodná",
+  "zdroj": "Varecha.sk – Pita chlieb (autor: tetrisss)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/pita-chlieb/31147-recept.html",
+  "porcie": 15,
+  "cas": "22 min",
+  "kcal_na_porciu": 306,
+  "popis": "Pita chlieb so sušenými paradajkami a sezamom, ktorý je výbornou prílohou ku grilovaniu.",
+  "ingrediencie": [
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 1250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 625,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 6,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majorán",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky sušené v oleji",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sezam",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do nádoby daj vodu a kvasnice, prešľahaj vidličkou, pridaj 3 hrnčeky múky, rozmiešaj, pridaj prelisovaný cesnak, soľ a ešte 2 hrnčeky múky, vypracuj cesto. Potom ho prelož na dosku posypanú múkou a ešte uhneť az do podoby nelepivého mäkkého cesta. Cesto potom potri celé olejom a ulož do misy a nechaj kysnúť asi hodinu.",
+    "Cesto predeľ na 4 časti. Na plech, vystlaný papierom na pečenie vytiahni každý kúsok cesta do oválu 1,5 cm hrubého. Cesto potri olejom, posyp soľou a posyp majoránom. Potom použij radielko, alebo krájač na pizu a cesto takmer prekrájaj na pásy 2,5 cm široké.",
+    "Potom vezmi ručičky a ešte poprepichuj tie škáry, aby sa nám potom dali tie pásy odtrhnúť. Možno, že nemám správne nechty, kto má umelé, môže skúsiť.",
+    "Takto spracuj dva kusy cesta. Druhé dva vytiahni, a na polovicu cesta daj na kúsky nakrájané sušené paradajky v oleji, kľudne tam daj aj tú bazalku z oleja, priklop a pokračuj ako s tými prvými cestami. Vrch potri olejom z tých paradajok a posyp soľou a sezamom. Peč v dobre vyhriatej rúre 10 až 12 minút. Nechaj vychladnúť, nalám, podávaj a teš sa, ako ušetr mäsko na grilovačke.",
+    "Ešte taký malý dodatok, ak nám niečo z chlebíka ostane, zabaľ to do utierky, aby chlieb nevyschol. Potom pásy prekroj po dľžke a hrúbke, daj do hriakovača a máš krásne sucháriky. Tieto môžeš natriet maslom, alebo syrom."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "blízkovýchodné",
+    "placky"
+  ]
 }

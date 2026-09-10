@@ -1,120 +1,120 @@
 {
- "id": "obratene-hovadzie-rezne",
- "nazov": "Obrátené hovädzie rezne",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Obrátené hovädzie rezne (fotorecept) (autor: izabella929)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/obratene-hovadzie-rezne-fotorecept/80869-recept.html",
- "porcie": 5,
- "cas": "90 min",
- "kcal_na_porciu": 396,
- "popis": "Dnešný sviatočný obed z hovädzieho mäsa.",
- "ingrediencie": [
-  {
-   "nazov": "Roštenka hovadzia",
-   "mnozstvo": 360,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Strúhanka",
-   "mnozstvo": 7,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Masť",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bravčový vývar",
-   "mnozstvo": 300,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horčica",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kečup",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Rasca",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 1,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vegeta",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Hovädzie mäso umyla, osuš kuchynským papierom a nakrájaj na plátky. Každý kus naklep, osoľ a okoreň z oboch strán.",
-  "Rezne obaľ v strúhanke a potom som strúhanku do mäsa aj vklepala.",
-  "Vajcia rozšľahaj. Na panvici nechaj rozohriať masť. Každý rezeň vykúpaj v rozšľahaných vajciach.",
-  "Vkladaj ich po jednom do panvice a vypraž z oboch strán. Hotové rezne vylož do misy.",
-  "Priprav si nálev. Vývar z bravčových kostí daj do misy, pridaj kečup, horčicu, rascu, korenie, pol nakrájanej cibule a strúčik cesnaku. Napokon pridaj domácu vegetu. Všetko spolu premiešaj.",
-  "Rezne vlož do jenskej misy a každý jeden potri roztopeným maslom. Potom ich zalej nálevom a misu zakryla. Rúru nechaj zohriať na 200 °C, vlož misu s mäsom a keď sa misa rozohrej, znížila teplotu na 180 °C a piekla 40 minút. Potom misu odkryla a nechaj rezne na vrchu zapiecť.",
-  "Obed podávaj s varenými zemiakmi a uhorkovým šalátom."
- ],
- "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "vajcia"
- ]
+  "id": "obratene-hovadzie-rezne",
+  "nazov": "Obrátené hovädzie rezne",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Obrátené hovädzie rezne (fotorecept) (autor: izabella929)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/obratene-hovadzie-rezne-fotorecept/80869-recept.html",
+  "porcie": 5,
+  "cas": "90 min",
+  "kcal_na_porciu": 396,
+  "popis": "Dnešný sviatočný obed z hovädzieho mäsa.",
+  "ingrediencie": [
+    {
+      "nazov": "Roštenka hovadzia",
+      "mnozstvo": 360,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Strúhanka",
+      "mnozstvo": 7,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Masť",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčový vývar",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kečup",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vegeta",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Hovädzie mäso umy, osuš kuchynským papierom a nakrájaj na plátky. Každý kus naklep, osoľ a okoreň z oboch strán.",
+    "Rezne obaľ v strúhanke a potom strúhanku do mäsa aj vklep.",
+    "Vajcia rozšľahaj. Na panvici nechaj rozohriať masť. Každý rezeň vykúpaj v rozšľahaných vajciach.",
+    "Vkladaj ich po jednom do panvice a vypraž z oboch strán. Hotové rezne vylož do misy.",
+    "Priprav si nálev. Vývar z bravčových kostí daj do misy, pridaj kečup, horčicu, rascu, korenie, pol nakrájanej cibule a strúčik cesnaku. Napokon pridaj domácu vegetu. Všetko spolu premiešaj.",
+    "Rezne vlož do jenskej misy a každý jeden potri roztopeným maslom. Potom ich zalej nálevom a misu zakry. Rúru nechaj zohriať na 200 °C, vlož misu s mäsom a keď sa misa rozohreje, zníž teplotu na 180 °C a peč 40 minút. Potom misu odkry a nechaj rezne na vrchu zapiecť.",
+    "Obed podávaj s varenými zemiakmi a uhorkovým šalátom."
+  ],
+  "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "vajcia"
+  ]
 }

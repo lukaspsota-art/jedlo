@@ -1,84 +1,84 @@
 {
- "id": "buchty-s-tvarohom",
- "nazov": "Buchty s tvarohom",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Buchty s tvarohom (fotorecept) (autor: grejsy)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/buchty-s-tvarohom-fotorecept/51610-recept.html",
- "porcie": 4,
- "cas": "35 min",
- "kcal_na_porciu": 521,
- "popis": "Asi každý má rád buchtičky, ale tieto tvarohové sú naozaj výnimočné , dnes som ich piekla \r\nk obedu , veľmi nám chutili :-)  Ja do cesta nedávam vajce a sú ľahučké.",
- "ingrediencie": [
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlažné mlieko",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 50,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jemný tvaroh",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citronová kôra",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Najskôr si urob kvások. Droždie rozdrob v malej miske, pridaj 2 lyžičky čajové cukru, medzi prsty múky a trochu mlieka. Do misy daj múku, ostatný cukor, zvyšné mlieko,olej štipku soli a ked je kvások už hotový tak pridaj do cesta. Vymies na hladké cesto.",
-  "Daj kysnúť tak na pol hodiny, prikryj ho utierkou. Ked je už vykysnuté tak na pomúčenej doske si ho rozváľkaj asi tak na 0,5 cm. Z cesta si vykrajuj kúsky, ktoré naplníš tvarohovou plnkou. Tvaroh vymiešaj s cukrom a citronovou kôrou. Dávaj lyžičkou na kúsky cesta.",
-  "Každú buchtu zatoč do tvaru a prevráť.",
-  "Poukladaj ich na vymastený plech nechaj ešte chvíľu podkysnúť a po povrchu ich potri olejom a daj ich piecť na 35 - 40 minút na 200 stupňoch v elektric. trúbe.",
-  "Po upečení ich tiež pomasti olejom a nechaj ich chvíľku vychládnuť.",
-  "Teraz ich posyp práškovým cukrom.",
-  "Dobrú chuť."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "tvaroh",
-  "bezmäsité"
- ]
+  "id": "buchty-s-tvarohom",
+  "nazov": "Buchty s tvarohom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Buchty s tvarohom (fotorecept) (autor: grejsy)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/buchty-s-tvarohom-fotorecept/51610-recept.html",
+  "porcie": 4,
+  "cas": "35 min",
+  "kcal_na_porciu": 521,
+  "popis": "Tvarohové buchty, ktoré sú vďaka cestu bez vajca ľahučké a hodia sa aj k obedu.",
+  "ingrediencie": [
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlažné mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jemný tvaroh",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citronová kôra",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najskôr si urob kvások. Droždie rozdrob v malej miske, pridaj 2 lyžičky čajové cukru, medzi prsty múky a trochu mlieka. Do misy daj múku, ostatný cukor, zvyšné mlieko,olej štipku soli a ked je kvások už hotový tak pridaj do cesta. Vymies na hladké cesto.",
+    "Daj kysnúť tak na pol hodiny, prikryj ho utierkou. Ked je už vykysnuté tak na pomúčenej doske si ho rozváľkaj asi tak na 0,5 cm. Z cesta si vykrajuj kúsky, ktoré naplníš tvarohovou plnkou. Tvaroh vymiešaj s cukrom a citronovou kôrou. Dávaj lyžičkou na kúsky cesta.",
+    "Každú buchtu zatoč do tvaru a prevráť.",
+    "Poukladaj ich na vymastený plech nechaj ešte chvíľu podkysnúť a po povrchu ich potri olejom a daj ich piecť na 35 - 40 minút na 200 stupňoch v elektric. trúbe.",
+    "Po upečení ich tiež pomasti olejom a nechaj ich chvíľku vychládnuť.",
+    "Teraz ich posyp práškovým cukrom.",
+    "Dobrú chuť."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "tvaroh",
+    "bezmäsité"
+  ]
 }

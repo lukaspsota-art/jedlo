@@ -1,136 +1,136 @@
 {
- "id": "hovadzie-plnene-rolky",
- "nazov": "Hovädzie plnené rolky",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Hovädzie plnené rolky (fotorecept) (autor: izabella929)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzie-plnene-rolky-fotorecept/57563-recept.html",
- "porcie": 4,
- "cas": "190 min",
- "kcal_na_porciu": 559,
- "popis": "Sviatočný obed z hädzieho pliecka..naplnila som šunkou,syrom,kápiou a pórom..",
- "ingrediencie": [
-  {
-   "nazov": "Mäso hovädzie predné",
-   "mnozstvo": 700,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Masť bravčová domáca",
-   "mnozstvo": 0.5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 1,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kečup",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červené domáce víno",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Strúhaný čerstvý zázvor",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Muškátový oriešok",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Nakrájaná šunka",
-   "mnozstvo": 3,
-   "jednotka": "plátok",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kápia červená v oleji",
-   "mnozstvo": 360,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Syr eidam",
-   "mnozstvo": 3,
-   "jednotka": "plátok",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pór",
-   "mnozstvo": 450,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená sladká mletá paprika",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na špic noža"
-  },
-  {
-   "nazov": "Kremžská horčica",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Hovädzie mäso umyla, osuš..",
-  "mäsom pokrájaj na plátky, vyklep, osoľ a okoreň..",
-  "Plátky potri horčicou a nastrúhaj zázvor, cesnak a muškátový oriešok..",
-  "na plátky ulož plnku..",
-  "zrolovala a poistila špáradlom..",
-  "Na panvicu daj troška masti a opeč ich zo všetkých strán..",
-  "Do hlbšej panvice daj maslo, trošku oleja, pridaj pokrájanú cibuľu..",
-  "Pridaj na špic noža červenú mletú papriku a podliala som hovädzím vývarom..počas dusenia pridaj za lyžicu kečupu a pred koncom pridaj lyžicu červeného vína..dus na slabšom plameni pod pokrievkou..počas dusenia podlej vývarom..",
-  "Hotové rolky pokrájaj..pokiaľ sa rolky dusili, priprav ryžu..",
-  "hotové rolky a ryžu ulož na taniere..podávaj so zaváranými čučoriedkami prajem vám dobrú chuť.."
- ],
- "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "hovädzie",
-  "bravčové",
-  "syr"
- ]
+  "id": "hovadzie-plnene-rolky",
+  "nazov": "Hovädzie plnené rolky",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Hovädzie plnené rolky (fotorecept) (autor: izabella929)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzie-plnene-rolky-fotorecept/57563-recept.html",
+  "porcie": 4,
+  "cas": "190 min",
+  "kcal_na_porciu": 559,
+  "popis": "Sviatočný obed z hovädzieho pliecka plneného šunkou, syrom, kápiou a pórom.",
+  "ingrediencie": [
+    {
+      "nazov": "Mäso hovädzie predné",
+      "mnozstvo": 700,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Masť bravčová domáca",
+      "mnozstvo": 0.5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kečup",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červené domáce víno",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Strúhaný čerstvý zázvor",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Muškátový oriešok",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Nakrájaná šunka",
+      "mnozstvo": 3,
+      "jednotka": "plátok",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kápia červená v oleji",
+      "mnozstvo": 360,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr eidam",
+      "mnozstvo": 3,
+      "jednotka": "plátok",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pór",
+      "mnozstvo": 450,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená sladká mletá paprika",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na špic noža"
+    },
+    {
+      "nazov": "Kremžská horčica",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Hovädzie mäso umy a osuš.",
+    "Mäso pokrájaj na plátky, vyklep, osoľ a okoreň.",
+    "Plátky potri horčicou a nastrúhaj na ne zázvor, cesnak a muškátový oriešok.",
+    "Na plátky ulož plnku.",
+    "Zroluj ich a poisti špáradlom.",
+    "Na panvicu daj troška masti a opeč ich zo všetkých strán.",
+    "Do hlbšej panvice daj maslo, trošku oleja, pridaj pokrájanú cibuľu.",
+    "Pridaj na špic noža červenú mletú papriku a podlej hovädzím vývarom. Počas dusenia pridaj za lyžicu kečupu a pred koncom pridaj lyžicu červeného vína. Dus na slabšom plameni pod pokrievkou a počas dusenia podlievaj vývarom.",
+    "Hotové rolky pokrájaj; pokiaľ sa rolky dusia, priprav ryžu.",
+    "Hotové rolky a ryžu ulož na taniere a podávaj so zaváranými čučoriedkami."
+  ],
+  "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "bravčové",
+    "syr"
+  ]
 }

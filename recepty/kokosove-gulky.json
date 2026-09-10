@@ -1,126 +1,126 @@
 {
- "id": "kokosove-gulky",
- "nazov": "Kokosové guľky",
- "kategoria": "Dezert",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Rezy s kokosovými guľkami (fotorecept) (autor: nikola166)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/rezy-s-kokosovymi-gulkami-fotorecept-/49244-recept.html",
- "porcie": 24,
- "cas": "90 min",
- "kcal_na_porciu": 267,
- "popis": "Recept pridávaj hlavne kvôli cestu - je fakt výborné !! Na cesto sa môže natrieť krém podľa chuti.",
- "ingrediencie": [
-  {
-   "nazov": "Kokos",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Žĺtok",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tvaroh",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bielok",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 50,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá smotana",
-   "mnozstvo": 150,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prašok do pečiva kypriaci",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kakao",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Puding bez varenia vanilkový",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šľahačka v prášku",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kakao",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Najprv si z uvedených surovín priprav kokosové guľky a vlož ich do chladničky.",
-  "Maslo s cukrom vymiešaj do peny, postupne pridávaj tri celé vajcia a jeden bielok, ďalej múku zmiešanú s práškom do pečiva, mlieko a kyslú smotanu.",
-  "Rozdeľ na dve časti, do jednej pridaj kakao.",
-  "Svetlé cesto nalej na plech vystlaný papierom na pečenie a na to navrstvi kakaové cesto.",
-  "Do cesta vtlač guličky a vlož do vyhriatej rúry, peč cca 40 minút pri 180 °C.",
-  "Krém môžte spraviť aj klasický z masla, cukru a uvareného pudingu. Ja som spravila len jednoduchý z Olé pudingu a šľahačky.",
-  "Krém natri na vychladnutý koláč, ozdob kakaom alebo grankom, nechaj trocha stuhnúť a krájaj na kocky. Cesto je fakt veľmi dobré, vláčne, mäkkučké, odporúčam :)"
- ],
- "tipy": "Smotanu aj metly daj pred šľahaním do chladničky. Teplá smotana sa nevyšľahá, len sa zrazí.",
- "foto": "",
- "tagy": [
-  "kokos",
-  "bez pečenia",
-  "dezert"
- ]
+  "id": "kokosove-gulky",
+  "nazov": "Kokosové guľky",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Rezy s kokosovými guľkami (fotorecept) (autor: nikola166)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/rezy-s-kokosovymi-gulkami-fotorecept-/49244-recept.html",
+  "porcie": 24,
+  "cas": "90 min",
+  "kcal_na_porciu": 267,
+  "popis": "Recept pridávaj hlavne kvôli cestu - je fakt výborné !! Na cesto sa môže natrieť krém podľa chuti.",
+  "ingrediencie": [
+    {
+      "nazov": "Kokos",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Žĺtok",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvaroh",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bielok",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prašok do pečiva kypriaci",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kakao",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Puding bez varenia vanilkový",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šľahačka v prášku",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kakao",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najprv si z uvedených surovín priprav kokosové guľky a vlož ich do chladničky.",
+    "Maslo s cukrom vymiešaj do peny, postupne pridávaj tri celé vajcia a jeden bielok, ďalej múku zmiešanú s práškom do pečiva, mlieko a kyslú smotanu.",
+    "Rozdeľ na dve časti, do jednej pridaj kakao.",
+    "Svetlé cesto nalej na plech vystlaný papierom na pečenie a na to navrstvi kakaové cesto.",
+    "Do cesta vtlač guličky a vlož do vyhriatej rúry, peč cca 40 minút pri 180 °C.",
+    "Krém môžeš spraviť aj klasický z masla, cukru a uvareného pudingu, alebo len jednoduchý z Olé pudingu a šľahačky.",
+    "Krém natri na vychladnutý koláč, ozdob kakaom alebo grankom, nechaj trocha stuhnúť a krájaj na kocky. Cesto je fakt veľmi dobré, vláčne a mäkkučké."
+  ],
+  "tipy": "Smotanu aj metly daj pred šľahaním do chladničky. Teplá smotana sa nevyšľahá, len sa zrazí.",
+  "foto": "",
+  "tagy": [
+    "kokos",
+    "bez pečenia",
+    "dezert"
+  ]
 }

@@ -1,83 +1,83 @@
 {
- "id": "kokosove-tycinky-s-cokoladou",
- "nazov": "Kokosové tyčinky s čokoládou",
- "kategoria": "Dezert",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Kokosové tyčinky (domáce bounty) (autor: jenni)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kokosove-tycinky-domace-bounty/56368-recept.html",
- "porcie": 12,
- "cas": "30 min",
- "kcal_na_porciu": 143,
- "popis": "Kokosové tyčinky v štýle boundy tyčiniek, domáce a vegan :)\r\nwww.dontbefakebakesomecake.sk",
- "ingrediencie": [
-  {
-   "nazov": "Kešu natural",
-   "mnozstvo": 187.5,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Strúhaný sušený kokos",
-   "mnozstvo": 5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rastlinné mlieko",
-   "mnozstvo": 5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Javorový sirup",
-   "mnozstvo": 1.5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kokosový olej",
-   "mnozstvo": 1.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový struk",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čokoláda na varenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa potreby"
-  },
-  {
-   "nazov": "Kokosový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa potreby"
-  }
- ],
- "postup": [
-  "Kešu si zalej vodou a nechaj namáčať cez noc do druhého dňa. Na druhý deň vodu zlej a kešu trochu premyj novou vodou.",
-  "Do mixéra vlož kešu, pridaj sladidlo, kokosový olej, vyškrabané vnútro z vanilkového struku, štipku soli a mlieko. Všetky suroviny zmixuj na hladkú hmotu.",
-  "Hmotu z mixéra prelož do misky a po lyžiciach postupne pridávaj kokos, ktorý premiešavaš s kešu hmotou. Kokos pridávaj, kým vám nevznikne tuhšia hmota.",
-  "Z hmoty odoberaj a v rukách formuj menšie tyčinky. Mne vyšlo 12 kusov.Tyčinky daj zachladiť do chladničky aspoň na 2-3 hodiny.",
-  "Stuhnuté tyčinky nakoniec už len namáčaj v čokoláde, ktorú sme si pripravili tak, že nad parou sme si rozpustili čokoládu na varenie s kokosovým olejom. Tyčinky už len daj do chladu, aby čokoláda stuhla.",
-  "*Kokosového oleja nepridávaj veľa, lebo hotové a obalené tyčinky sa vám budú pri izbovej teplote veľmi topiť. Na 100 g čokolády na varenie použi cca 1 ČL kokosového oleja."
- ],
- "tipy": "Čokoládu top nad parou, nie priamo na platni — nad 50 °C sa zráža a zrnie.",
- "foto": "",
- "tagy": [
-  "kokos",
-  "čokoláda",
-  "dezert"
- ]
+  "id": "kokosove-tycinky-s-cokoladou",
+  "nazov": "Kokosové tyčinky s čokoládou",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Kokosové tyčinky (domáce bounty) (autor: jenni)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kokosove-tycinky-domace-bounty/56368-recept.html",
+  "porcie": 12,
+  "cas": "30 min",
+  "kcal_na_porciu": 143,
+  "popis": "Kokosové tyčinky v štýle boundy tyčiniek, domáce a vegan :)\r\nwww.dontbefakebakesomecake.sk",
+  "ingrediencie": [
+    {
+      "nazov": "Kešu natural",
+      "mnozstvo": 187.5,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Strúhaný sušený kokos",
+      "mnozstvo": 5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rastlinné mlieko",
+      "mnozstvo": 5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Javorový sirup",
+      "mnozstvo": 1.5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokosový olej",
+      "mnozstvo": 1.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový struk",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čokoláda na varenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa potreby"
+    },
+    {
+      "nazov": "Kokosový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa potreby"
+    }
+  ],
+  "postup": [
+    "Kešu si zalej vodou a nechaj namáčať cez noc do druhého dňa. Na druhý deň vodu zlej a kešu trochu premyj novou vodou.",
+    "Do mixéra vlož kešu, pridaj sladidlo, kokosový olej, vyškrabané vnútro z vanilkového struku, štipku soli a mlieko. Všetky suroviny zmixuj na hladkú hmotu.",
+    "Hmotu z mixéra prelož do misky a po lyžiciach postupne pridávaj kokos, ktorý premiešavaš s kešu hmotou. Kokos pridávaj, kým nevznikne tuhšia hmota.",
+    "Z hmoty odoberaj a v rukách formuj menšie tyčinky. Vyjde ich 12 kusov. Tyčinky daj zachladiť do chladničky aspoň na 2-3 hodiny.",
+    "Stuhnuté tyčinky nakoniec už len namáčaj v čokoláde, ktorú si priprav tak, že nad parou rozpustíš čokoládu na varenie s kokosovým olejom. Tyčinky už len daj do chladu, aby čokoláda stuhla.",
+    "*Kokosového oleja nepridávaj veľa, lebo hotové a obalené tyčinky sa budú pri izbovej teplote veľmi topiť. Na 100 g čokolády na varenie použi cca 1 ČL kokosového oleja."
+  ],
+  "tipy": "Čokoládu top nad parou, nie priamo na platni — nad 50 °C sa zráža a zrnie.",
+  "foto": "",
+  "tagy": [
+    "kokos",
+    "čokoláda",
+    "dezert"
+  ]
 }

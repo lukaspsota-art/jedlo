@@ -1,110 +1,110 @@
 {
- "id": "cestoviny-s-klobasou-a-paprikou",
- "nazov": "Cestoviny s klobásou a paprikou",
- "kategoria": "Cestoviny",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Pikantné cestoviny s klobásou a so syrom (fotorecept) (autor: kukulienka71)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/pikantne-cestoviny-s-klobasou-a-so-syrom-fotorecept/64216-recept.html",
- "porcie": 2,
- "cas": "35 min",
- "kcal_na_porciu": 819,
- "kcal_zdroj": "vypocet",
- "popis": "Toto jedlo je na prvé počutie celkom nezvyčajne poskladané, ale verte mi, že je veľmi chutné.  Inšpirácia zasa z \r\nmexickej kuchárky :-)",
- "ingrediencie": [
-  {
-   "nazov": "Niťovky",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Údená klobása",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti domáca"
-  },
-  {
-   "nazov": "Zelená paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprička čili",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Paradajková šťava",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Oregano",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tvrdý syr",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "posekaná (alebo koriandrová"
-  }
- ],
- "postup": [
-  "Oproti originálu urob drobné zmeny podľa svojich možností a surovín. Veľkou výhodou je varianta s použitím zvyšku varených rezancov, čo bol aj môj prípad.",
-  "Klobásku pokrájaj na kolieska a pridala opekať na panvicu, rúru som zapla na 200 °C",
-  "Skoro zabudla na cesnak, aj ten sa poopekaj.",
-  "Opečenú zmes posyp čiernym korením a zalej paradajkovou šťavou. Pridaj aj oregano.",
-  "Obsah panvice hneď zaškvrčal, nechaj ho prevrieť a prisyp rezance. Treba ich poriadne premiešať v tej omáčke a oheň vypnúť.",
-  "Ak je niekto veľmi-preveľmi hladný, už aj v takejto podobe to bude veľká dobrota, odpadne mu zapekanie. Zmes putuj zaraz do pekáčika, tam ju urovnaj a navrch nastrúhaj syr.",
-  "Zapekanie trvalo na tých 200 °C presne 15 minút, to už okraje hnedli.",
-  "Jednoducho, treba vyskúšať a ochutnať"
- ],
- "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "klobása",
-  "slovenské"
- ]
+  "id": "cestoviny-s-klobasou-a-paprikou",
+  "nazov": "Cestoviny s klobásou a paprikou",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Pikantné cestoviny s klobásou a so syrom (fotorecept) (autor: kukulienka71)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/pikantne-cestoviny-s-klobasou-a-so-syrom-fotorecept/64216-recept.html",
+  "porcie": 2,
+  "cas": "35 min",
+  "kcal_na_porciu": 819,
+  "kcal_zdroj": "vypocet",
+  "popis": "Na prvé počutie nezvyčajne poskladané, no veľmi chutné jedlo inšpirované mexickou kuchyňou.",
+  "ingrediencie": [
+    {
+      "nazov": "Niťovky",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Údená klobása",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti domáca"
+    },
+    {
+      "nazov": "Zelená paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprička čili",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Paradajková šťava",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Oregano",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvrdý syr",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "posekaná (alebo koriandrová"
+    }
+  ],
+  "postup": [
+    "Oproti originálu urob drobné zmeny podľa svojich možností a surovín. Veľkou výhodou je varianta s použitím zvyšku varených rezancov.",
+    "Klobásku pokrájaj na kolieska a pridaj opekať na panvicu, rúru zapni na 200 °C",
+    "Nezabudni na cesnak, aj ten poopekaj.",
+    "Opečenú zmes posyp čiernym korením a zalej paradajkovou šťavou. Pridaj aj oregano.",
+    "Obsah panvice hneď zaškvrčí, nechaj ho prevrieť a prisyp rezance. Treba ich poriadne premiešať v tej omáčke a oheň vypnúť.",
+    "Ak je niekto veľmi-preveľmi hladný, už aj v takejto podobe to bude veľká dobrota, odpadne mu zapekanie. Inak zmes daj zaraz do pekáčika, tam ju urovnaj a navrch nastrúhaj syr.",
+    "Zapekanie trvá pri tých 200 °C presne 15 minút, dovtedy už okraje zhnednú.",
+    "Jednoducho, treba vyskúšať a ochutnať"
+  ],
+  "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "klobása",
+    "slovenské"
+  ]
 }

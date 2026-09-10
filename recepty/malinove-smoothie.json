@@ -1,44 +1,44 @@
 {
- "id": "malinove-smoothie",
- "nazov": "Malinové smoothie",
- "kategoria": "Nápoj",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Malinové smoothie (autor: jenni)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/malinove-smoothie/52891-recept.html",
- "porcie": 3,
- "cas": "10 min",
- "kcal_na_porciu": 170,
- "popis": "Smoothie zbožňujem a okrem zeleného si vždy rada doprajem aj krémové a sladučké \r\nsmoothie z bobuľového ovocia a banánov ako napríklad toto malinové, v podobe sladkého \r\nkoktejlu na osvieženie do horúcich letných dní a taktiež ako sladkú zdravú maškrtu, keď ma \r\n\"prepadne\" mlsná.",
- "ingrediencie": [
-  {
-   "nazov": "Čerstvé maliny",
-   "mnozstvo": 187.5,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zrelé veľké banány",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kokosové mlieko",
-   "mnozstvo": 125,
-   "jednotka": "ml",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Maliny umy, banány ošúp a nakrájaj.",
-  "Ovocie daj do mixéra, prilej kokosové mlieko a pomixuj na hladkú krémovú zmes.",
-  "Dosladiť netreba — zrelé banány sú sladké dosť."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "nápoj",
-  "smoothie",
-  "maliny"
- ]
+  "id": "malinove-smoothie",
+  "nazov": "Malinové smoothie",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Malinové smoothie (autor: jenni)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/malinove-smoothie/52891-recept.html",
+  "porcie": 3,
+  "cas": "10 min",
+  "kcal_na_porciu": 170,
+  "popis": "Krémové a sladučké smoothie z malín a banánov na osvieženie do horúcich letných dní aj ako sladká zdravá maškrta.",
+  "ingrediencie": [
+    {
+      "nazov": "Čerstvé maliny",
+      "mnozstvo": 187.5,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zrelé veľké banány",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokosové mlieko",
+      "mnozstvo": 125,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Maliny umy, banány ošúp a nakrájaj.",
+    "Ovocie daj do mixéra, prilej kokosové mlieko a pomixuj na hladkú krémovú zmes.",
+    "Dosladiť netreba — zrelé banány sú sladké dosť."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "smoothie",
+    "maliny"
+  ]
 }

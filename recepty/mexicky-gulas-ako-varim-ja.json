@@ -1,116 +1,115 @@
 {
- "id": "mexicky-gulas-ako-varim-ja",
- "nazov": "Mexický guláš ako varím ja",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Mexický guláš ako varím ja (autor: myalab)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/mexicky-gulas-ako-varim-ja/75358-recept.html",
- "porcie": 11,
- "cas": "180 min",
- "kcal_na_porciu": 410,
- "popis": "S týmto jedlom sa v našej rodine zavďačím všetkým.",
- "ingrediencie": [
-  {
-   "nazov": "Mäso hovädzie zadné",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkovo-kapiová nátierka",
-   "mnozstvo": 350,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rasca",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Škrob",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vegeta",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprička chilli mletá",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Plnotučná horčica",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hrášok",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ementál",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "strúhaný"
-  },
-  {
-   "nazov": "Majorán",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Očistenú cibuľu nakrájanú na jemno udus na oleji, pridaj mäso nakrajané na kocky alebo keď kúpi už hotové nakrájané mäso v pohode môžu byť aj iné tvary. Po jeho orestovaní pridaj soľ, vegetu, rascu, mleté chilli papričky, horčicu, domácu paradajkovo-kapiovú nátierku - tu môžeš nahradiť aj pretlakom, ajvarom a podobne, trošku môžeš podliať a dus do mäkka.",
-  "Zahusti Solamylom rozmiešaným vo vode, dochuť cukrom prípadne medom, pridaj hrášok a úplne nakoniec pridaj majoránku. Podávaj s ryžou a so strúhaným syrom podľa svojej chuti.",
-  "Servíruj tak, že do stredu taniera dáš ryžu, okolo mexický guláš a posyp syrom."
- ],
- "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "hovädzie",
-  "zelenina"
- ]
+  "id": "mexicky-gulas-ako-varim-ja",
+  "nazov": "Mexický guláš ako varím ja",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Mexický guláš ako varím ja (autor: myalab)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/mexicky-gulas-ako-varim-ja/75358-recept.html",
+  "porcie": 11,
+  "cas": "180 min",
+  "kcal_na_porciu": 410,
+  "ingrediencie": [
+    {
+      "nazov": "Mäso hovädzie zadné",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkovo-kapiová nátierka",
+      "mnozstvo": 350,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škrob",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vegeta",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprička chilli mletá",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Plnotučná horčica",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrášok",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ementál",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "strúhaný"
+    },
+    {
+      "nazov": "Majorán",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Očistenú cibuľu nakrájanú na jemno udus na oleji, pridaj mäso nakrajané na kocky alebo keď kúpi už hotové nakrájané mäso v pohode môžu byť aj iné tvary. Po jeho orestovaní pridaj soľ, vegetu, rascu, mleté chilli papričky, horčicu, domácu paradajkovo-kapiovú nátierku - tu môžeš nahradiť aj pretlakom, ajvarom a podobne, trošku môžeš podliať a dus do mäkka.",
+    "Zahusti Solamylom rozmiešaným vo vode, dochuť cukrom prípadne medom, pridaj hrášok a úplne nakoniec pridaj majoránku. Podávaj s ryžou a so strúhaným syrom podľa svojej chuti.",
+    "Servíruj tak, že do stredu taniera dáš ryžu, okolo mexický guláš a posyp syrom."
+  ],
+  "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "zelenina"
+  ]
 }

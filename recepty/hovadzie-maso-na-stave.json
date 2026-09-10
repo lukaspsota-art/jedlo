@@ -1,89 +1,88 @@
 {
- "id": "hovadzie-maso-na-stave",
- "nazov": "Hovädzie mäso na šťave",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Hovädzie mäso na šťave (fotorecept) (autor: cesminaz)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzie-maso-na-stave-fotorecept/66135-recept.html",
- "porcie": 10,
- "cas": "1 hod 30 min",
- "kcal_na_porciu": 414,
- "popis": "Takto pripravovala mäso na šťave mama mojej najlepšej \r\nkamarátky. Je tomu síce už vela rokov, ale jeho chuť bola pre mňa \r\nnezabudnutelná :-) A teraz to má rada aj celá moja rodinka ;-P",
- "ingrediencie": [
-  {
-   "nazov": "Mäso hovädzie",
-   "mnozstvo": 1500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 2000,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa potreby"
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne celé korenie",
-   "mnozstvo": 8,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bobkový väčší list",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa potreby"
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 1.5,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Potrebuješ cca 1,5 kg hovädzieho mäsa, ktore si pokrajaš na väčšie kusy alebo platky. Cibulu si nakrájaj na kocky.",
-  "Na oleji zosklovať trocha osolenu cibulu. Dala k nej mäso, osolila ho a zakry nechala dusit kym pustilo dostatok svojej štavy. Potom zalej dvomi litrami vody a v kuchte var 30 minut. Po 30ich minutach bolo mäso do 3/4 uvarene.",
-  "Prelej to do obyčajneho hrnca, pridaj čierne korenie, bobkove listy, mletu rascu a priviedla znova do varu. Medzitym si sprav zápražku. Na oleji upraž muku nasledne pridaj mletu papriku. Zápražku zalej asi 2 dl vodou, rozmiesaj a vylej do mäsa. Takto var pomaly az do uplného zmäknutia mäsa.",
-  "Mne sa to varilo pomaly este cca 35 minut. Za ten čas mäso zmäkne a aj sa varením vytratí tá typická chuť zápražky. A nakoniec zostane len výborná chut Nakoniec možte este podla chuti dosolit, ale aj pridat mlete čierne korenie.",
-  "Ako prilohu priprav Orzo/slovensku ryžu so zeleninou. Na oleji trocha slovensku ryžu opeč, podlej dostatkom vody, osoľ a pridaj mrazeny hrášok a kapiu pokrajanu na male kocky. A klasicky dovarila",
-  "Jedlo chutí výborne. Ako príloha sa k nemu hodia kyslé uhorky, alebo baranie rohy"
- ],
- "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "hovädzie",
-  "zelenina"
- ]
+  "id": "hovadzie-maso-na-stave",
+  "nazov": "Hovädzie mäso na šťave",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Hovädzie mäso na šťave (fotorecept) (autor: cesminaz)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzie-maso-na-stave-fotorecept/66135-recept.html",
+  "porcie": 10,
+  "cas": "1 hod 30 min",
+  "kcal_na_porciu": 414,
+  "ingrediencie": [
+    {
+      "nazov": "Mäso hovädzie",
+      "mnozstvo": 1500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 2000,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa potreby"
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne celé korenie",
+      "mnozstvo": 8,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bobkový väčší list",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa potreby"
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 1.5,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Potrebuješ cca 1,5 kg hovädzieho mäsa, ktoré pokrájaj na väčšie kusy alebo plátky. Cibuľu nakrájaj na kocky.",
+    "Na oleji zaskli trochu osolenú cibuľu. Pridaj k nej mäso, osoľ ho, zakry a nechaj dusiť, kým nepustí dostatok svojej šťavy. Potom zalej dvomi litrami vody a v kuchte var 30 minút. Po 30 minútach je mäso do 3/4 uvarené.",
+    "Prelej to do obyčajného hrnca, pridaj čierne korenie, bobkové listy, mletú rascu a priveď znova do varu. Medzitým si sprav zápražku. Na oleji upraž múku, následne pridaj mletú papriku. Zápražku zalej asi 2 dl vodou, rozmiešaj a vylej do mäsa. Takto var pomaly až do úplného zmäknutia mäsa.",
+    "Var ešte pomaly cca 35 minút. Za ten čas mäso zmäkne a varením sa vytratí tá typická chuť zápražky. Nakoniec zostane len výborná chuť. Nakoniec môžeš ešte podľa chuti dosoliť, ale aj pridať mleté čierne korenie.",
+    "Ako prílohu priprav orzo/slovenskú ryžu so zeleninou. Na oleji slovenskú ryžu trochu opeč, podlej dostatkom vody, osoľ a pridaj mrazený hrášok a kapiu pokrájanú na malé kocky. A klasicky dovar.",
+    "Jedlo chutí výborne. Ako príloha sa k nemu hodia kyslé uhorky alebo baranie rohy."
+  ],
+  "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "zelenina"
+  ]
 }

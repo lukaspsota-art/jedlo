@@ -1,56 +1,56 @@
 {
- "id": "priloha-americke-zemiaky",
- "nazov": "Americké zemiaky",
- "kategoria": "Príloha",
- "kuchyna": "Americká",
- "zdroj": "Varecha.sk – Americké zemiaky s feta syrom (autor: kremes84)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/americke-zemiaky-s-feta-syrom/3809-recept.html",
- "porcie": 5,
- "cas": "35 min",
- "kcal_na_porciu": 228,
- "popis": "Chcem týmto receptom naučiť ludí urobiť si americke zemiaky doma a nie používať stále len polotovary. Mimochodom som tento recept trochu obkukal počas dovolenky v bulharsku",
- "ingrediencie": [
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Syr balkánsky",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Grilovacie korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Zemiaky daj variť v šupke do polomäkka. Mierne osoľ.",
-  "Uvarené zemiaky prekroj na polovicu aj so šupkou, okoreň grilovacím korením a daj piecť.",
-  "Na upečené zemiaky postúhaj balkánsky syr. doporučujem aj ako skvelú prílohu."
- ],
- "tipy": "Grilovaciu mriežku poriadne rozpáľ a namasti, až potom prilož mäso. Na studenej mriežke sa prilepí a roztrhá.",
- "foto": "",
- "tagy": [
-  "príloha",
-  "zemiaky",
-  "pečené"
- ]
+  "id": "priloha-americke-zemiaky",
+  "nazov": "Americké zemiaky",
+  "kategoria": "Príloha",
+  "kuchyna": "Americká",
+  "zdroj": "Varecha.sk – Americké zemiaky s feta syrom (autor: kremes84)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/americke-zemiaky-s-feta-syrom/3809-recept.html",
+  "porcie": 5,
+  "cas": "35 min",
+  "kcal_na_porciu": 228,
+  "popis": "Americké zemiaky pripravené doma namiesto polotovarov.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr balkánsky",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Grilovacie korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zemiaky daj variť v šupke do polomäkka. Mierne osoľ.",
+    "Uvarené zemiaky prekroj na polovicu aj so šupkou, okoreň grilovacím korením a daj piecť.",
+    "Na upečené zemiaky postúhaj balkánsky syr. doporučujem aj ako skvelú prílohu."
+  ],
+  "tipy": "Grilovaciu mriežku poriadne rozpáľ a namasti, až potom prilož mäso. Na studenej mriežke sa prilepí a roztrhá.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "zemiaky",
+    "pečené"
+  ]
 }

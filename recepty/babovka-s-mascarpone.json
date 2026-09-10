@@ -1,79 +1,79 @@
 {
- "id": "babovka-s-mascarpone",
- "nazov": "Bábovka s mascarpone",
- "kategoria": "Raňajky",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Bábovka s mascarpone (autor: mhrinova)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/babovka-s-mascarpone/67256-recept.html",
- "porcie": 14,
- "cas": "50 min",
- "kcal_na_porciu": 330,
- "popis": "Táto bábovka je v našej rodine obľúbená, mascarpone je možné nahradiť tvarohom.",
- "ingrediencie": [
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Trstinový cukor",
-   "mnozstvo": 175,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslová hera",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mascarpone",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Špaldová polohrubá múka",
-   "mnozstvo": 225,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok do pečiva",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlašské orechy",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "alebo višne, čučoriedky, ..."
-  }
- ],
- "postup": [
-  "Najprv si v miske vyšľahaj žĺtky s cukrami a pridaj zmäknutú Heru. Poriadne vyšľahaj. Pridaj mascarpone a zašľahaj.",
-  "Pridaj múku zmiešanú s práškom do pečiva a zamiešaj.",
-  "Opatrne vmiešaj vyšľahané bielky.",
-  "Polovicu cesta rozotri do formy, rozsyp na cesto orechy.",
-  "Navrstvi zvyšok cesta.",
-  "Peč (forma vymastená a vysypaná múkou) na 180 stupňov cca 40 - 45 minút.",
-  "Nechaj mierne vychladnúť a vyklop. Posyp práškovým cukrom alebo polej čokoládovou polevou.",
-  "Tu sú použité orechy a miesto mascarpone tvaroh."
- ],
- "tipy": "Vajcia miešaj na miernom ohni a stiahni ich z platne, kým sú ešte trochu tekuté — dohotovia sa vlastným teplom.",
- "foto": "",
- "tagy": [
-  "raňajky",
-  "vajcia",
-  "bezmäsité"
- ]
+  "id": "babovka-s-mascarpone",
+  "nazov": "Bábovka s mascarpone",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Bábovka s mascarpone (autor: mhrinova)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/babovka-s-mascarpone/67256-recept.html",
+  "porcie": 14,
+  "cas": "50 min",
+  "kcal_na_porciu": 330,
+  "popis": "Bábovka, v ktorej sa mascarpone dá nahradiť tvarohom.",
+  "ingrediencie": [
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Trstinový cukor",
+      "mnozstvo": 175,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslová hera",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mascarpone",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Špaldová polohrubá múka",
+      "mnozstvo": 225,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "alebo višne, čučoriedky, ..."
+    }
+  ],
+  "postup": [
+    "Najprv si v miske vyšľahaj žĺtky s cukrami a pridaj zmäknutú Heru. Poriadne vyšľahaj. Pridaj mascarpone a zašľahaj.",
+    "Pridaj múku zmiešanú s práškom do pečiva a zamiešaj.",
+    "Opatrne vmiešaj vyšľahané bielky.",
+    "Polovicu cesta rozotri do formy, rozsyp na cesto orechy.",
+    "Navrstvi zvyšok cesta.",
+    "Peč (forma vymastená a vysypaná múkou) na 180 stupňov cca 40 - 45 minút.",
+    "Nechaj mierne vychladnúť a vyklop. Posyp práškovým cukrom alebo polej čokoládovou polevou.",
+    "Tu sú použité orechy a miesto mascarpone tvaroh."
+  ],
+  "tipy": "Vajcia miešaj na miernom ohni a stiahni ich z platne, kým sú ešte trochu tekuté — dohotovia sa vlastným teplom.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "vajcia",
+    "bezmäsité"
+  ]
 }

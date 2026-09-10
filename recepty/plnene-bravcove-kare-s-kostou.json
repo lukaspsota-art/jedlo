@@ -1,114 +1,113 @@
 {
- "id": "plnene-bravcove-kare-s-kostou",
- "nazov": "Plnené bravčové karé s kosťou",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Plnené bravčové karé s kosťou (fotorecept) (autor: evusik)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/plnene-bravcove-kare-s-kostou-fotorecept/6632-recept.html",
- "porcie": 9,
- "cas": "60 min",
- "kcal_na_porciu": 414,
- "popis": "Tento recept je taký môj výmysel - čo bolo doma a čo nám chutí som pospájala dokopy - a celkom sa vydaril. Aspoň manželovi chutil.",
- "ingrediencie": [
-  {
-   "nazov": "Bravčové karé s kosťou",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prerastená slanina",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šampiňóny",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa väčšia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zmes korenia na pečené mäso",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prerastená slanina",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šampiňóny",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa stredne veľká",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rožky",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Drvená rasca",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Karé nakrájaj na hrubšie asi 1 cm rezne aj s kosťou a smerom od kosti urob v rezni kapsu. Okraje ponarezuj aby sa nám mäso pri pečení nekrútilo, osoľ, okoreň a mierne naklep.",
-  "Plnka: na panvici opraž na malé kocky nakrájanú slaninu, pridaj nadrobno nakrájanú cibuľu a podus. Pridaj šampiňóny na drobno posekané, osoľ, okmínuj, pridaj v mlieku alebo vode namočené rožky a vajce. Dobre premiešaj, ochutnaj a podľa chuti ešte dochuť. Plnka by mala byť skôr tuhšia.",
-  "Touto plnkou naplň pripravené kapsy. Otvor zavri špáradlom alebo kovovu ihlou",
-  "Naplnené rezne sprudka opeč z každej strany aby sa mäso zatiahlo. Na plech daj vrstvu cibule nakrájanej na mesiačky, slaninu pokrájanú na plátky nato poukladaj mäso, podlej vývarom, alebo vodou, zakryj alobalom a daj piecť.",
-  "Keď je mäso upečené, vyber ho a odlož do tepla. Všetko čo nám zostalo na pekáči zleješ na panvicu, pridaj šampiňóny, podľa potreby vývar alebo vodu, dochuť a prelej na rezne, ktorém sme si poukladali na misu. Kto má rád môže posypať strúhaným syrom a dať zapiecť.",
-  "Ja som si k tomu jedlu spravila zemiakové krokety - uvarené zemiaky roztlač, alebo rozmixuj, pridaj hrubú múku, vajíčko, osoľ, zamiešaj, tvaruj guľky alebo valčeky, obaľ v strúhanke a vypraž."
- ],
- "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "vajcia",
-  "huby"
- ]
+  "id": "plnene-bravcove-kare-s-kostou",
+  "nazov": "Plnené bravčové karé s kosťou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Plnené bravčové karé s kosťou (fotorecept) (autor: evusik)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/plnene-bravcove-kare-s-kostou-fotorecept/6632-recept.html",
+  "porcie": 9,
+  "cas": "60 min",
+  "kcal_na_porciu": 414,
+  "ingrediencie": [
+    {
+      "nazov": "Bravčové karé s kosťou",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prerastená slanina",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šampiňóny",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa väčšia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zmes korenia na pečené mäso",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prerastená slanina",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šampiňóny",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa stredne veľká",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rožky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Drvená rasca",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Karé nakrájaj na hrubšie asi 1 cm rezne aj s kosťou a smerom od kosti urob v rezni kapsu. Okraje ponarezuj, aby sa mäso pri pečení nekrútilo, osoľ, okoreň a mierne naklep.",
+    "Plnka: na panvici opraž na malé kocky nakrájanú slaninu, pridaj nadrobno nakrájanú cibuľu a podus. Pridaj šampiňóny nadrobno posekané, osoľ, okmínuj, pridaj v mlieku alebo vode namočené rožky a vajce. Dobre premiešaj, ochutnaj a podľa chuti ešte dochuť. Plnka by mala byť skôr tuhšia.",
+    "Touto plnkou naplň pripravené kapsy. Otvor zavri špáradlom alebo kovovou ihlou.",
+    "Naplnené rezne sprudka opeč z každej strany, aby sa mäso zatiahlo. Na plech daj vrstvu cibule nakrájanej na mesiačky, slaninu pokrájanú na plátky, na to poukladaj mäso, podlej vývarom alebo vodou, zakry alobalom a daj piecť.",
+    "Keď je mäso upečené, vyber ho a odlož do tepla. Všetko, čo zostalo na pekáči, zlej na panvicu, pridaj šampiňóny, podľa potreby vývar alebo vodu, dochuť a prelej na rezne poukladané na mise. Kto má rád, môže posypať strúhaným syrom a dať zapiecť.",
+    "K tomuto jedlu sa hodia zemiakové krokety - uvarené zemiaky roztlač alebo rozmixuj, pridaj hrubú múku, vajíčko, osoľ, zamiešaj, tvaruj guľky alebo valčeky, obaľ v strúhanke a vypraž."
+  ],
+  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "vajcia",
+    "huby"
+  ]
 }

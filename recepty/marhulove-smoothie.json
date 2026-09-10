@@ -1,56 +1,56 @@
 {
- "id": "marhulove-smoothie",
- "nazov": "Ovocné smoothie s jahodami a banánom",
- "kategoria": "Nápoj",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Smoothie (autor: lara159)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/smoothie/58700-recept.html",
- "porcie": 4,
- "cas": "10 min",
- "kcal_na_porciu": 128,
- "popis": "Toto smoothie som prvýkrát ochutnala u kamarátky. Recept je jednoduchý, smoothie \r\nveľmi dobre chutí v horúcich letných dňoch. Mne chitilo a dúfam že bude chutiť aj vám.\r\n:-)",
- "ingrediencie": [
-  {
-   "nazov": "Banán",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvé jahody",
-   "mnozstvo": 10,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jablko",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kiwi",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jahodový jogurt",
-   "mnozstvo": 120,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Priprav si všetky suroviny, ponorný mixér, misu, dosku na krájanie, nôž a poháre.",
-  "Banány, jablko, kiwi ošúp a nakrájaj na kocky. Jahody umyj, odstrámine z nich zelenú časť a prekroj na polovice. Ovocie môžeš dať do misy a mixuj ponorným mixérom. O chvíľu pridaj jahodový jogurt a mixuj aby v nápoji nezostali veľké kúsky z ovocia.",
-  "Keď je smoothie hotové, nalej do pohárov a môžeš piť. Dobrú chuť."
- ],
- "tipy": "Poháre aj viečka pred plnením sterilizuj a plň ich horúce. Studený obsah v studenom pohári dlho nevydrží.",
- "foto": "",
- "tagy": [
-  "nápoj",
-  "smoothie",
-  "letné"
- ]
+  "id": "marhulove-smoothie",
+  "nazov": "Ovocné smoothie s jahodami a banánom",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Smoothie (autor: lara159)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/smoothie/58700-recept.html",
+  "porcie": 4,
+  "cas": "10 min",
+  "kcal_na_porciu": 128,
+  "popis": "Jednoduché ovocné smoothie, ktoré veľmi dobre chutí v horúcich letných dňoch.",
+  "ingrediencie": [
+    {
+      "nazov": "Banán",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvé jahody",
+      "mnozstvo": 10,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kiwi",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jahodový jogurt",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si všetky suroviny, ponorný mixér, misu, dosku na krájanie, nôž a poháre.",
+    "Banány, jablko, kiwi ošúp a nakrájaj na kocky. Jahody umyj, odstrámine z nich zelenú časť a prekroj na polovice. Ovocie môžeš dať do misy a mixuj ponorným mixérom. O chvíľu pridaj jahodový jogurt a mixuj aby v nápoji nezostali veľké kúsky z ovocia.",
+    "Keď je smoothie hotové, nalej do pohárov a môžeš piť. Dobrú chuť."
+  ],
+  "tipy": "Poháre aj viečka pred plnením sterilizuj a plň ich horúce. Studený obsah v studenom pohári dlho nevydrží.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "smoothie",
+    "letné"
+  ]
 }

@@ -1,52 +1,52 @@
 {
- "id": "horuce-kakao-s-chilli",
- "nazov": "Horúce kakao s chilli",
- "kategoria": "Nápoj",
- "kuchyna": "Mexická",
- "zdroj": "Varecha.sk – Horúce kakao (fotorecept) (autor: janger)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/horuce-kakao-fotorecept/24708-recept.html",
- "porcie": 1,
- "cas": "3 min",
- "popis": "Prisla som domov uzimena, tak som si spravila horuce kakavko. Tu, v Holandsku, to patri k zime, ku korculovaniu, k zimnym prechadzkam... My ho doma robime takto. Tak sa zahrej aj vy!",
- "ingrediencie": [
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kakaový prášok",
-   "mnozstvo": 12,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 10,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Smotana na šľahanie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Do hrnceka daj 2 kopcovite lyzicky kakoveho prasku. Máš radi silne kakao.",
-  "Daj k tomu lyzicku cukru a premiešaj. Nemam rada kakao presladene, tak mne ta lyzicka uplne staci.",
-  "Pridaj trosku studeneho mlieka a vymiesaj kasicku. Teda, aby kakao nemalo hrcky",
-  "Ostatne mlieko daj varit.",
-  "Horucim mliekom zalej kakao. Dobre premiešaj.",
-  "Ozdob kopcekom slahacky. Ci uz cerstvo vyslahanej, alebo tak, ako tentokrat sprav ja, hotovej. Trosku môžeš posypat kakaovym praskom."
- ],
- "tipy": "Smotanu aj metly daj pred šľahaním do chladničky. Teplá smotana sa nevyšľahá, len sa zrazí.",
- "foto": "",
- "tagy": [
-  "nápoj",
-  "čokoláda",
-  "pikantné"
- ]
+  "id": "horuce-kakao-s-chilli",
+  "nazov": "Horúce kakao s chilli",
+  "kategoria": "Nápoj",
+  "kuchyna": "Mexická",
+  "zdroj": "Varecha.sk – Horúce kakao (fotorecept) (autor: janger)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/horuce-kakao-fotorecept/24708-recept.html",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Horúce kakao, ktoré v Holandsku patrí k zime, ku korčuľovaniu a k zimným prechádzkam.",
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kakaový prášok",
+      "mnozstvo": 12,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do hrnceka daj 2 kopcovite lyzicky kakoveho prasku. Máš radi silne kakao.",
+    "Daj k tomu lyzicku cukru a premiešaj. Nemam rada kakao presladene, tak mne ta lyzicka uplne staci.",
+    "Pridaj trosku studeneho mlieka a vymiesaj kasicku. Teda, aby kakao nemalo hrcky",
+    "Ostatne mlieko daj varit.",
+    "Horucim mliekom zalej kakao. Dobre premiešaj.",
+    "Ozdob kopcekom slahacky. Ci uz cerstvo vyslahanej, alebo tak, ako tentokrat sprav ja, hotovej. Trosku môžeš posypat kakaovym praskom."
+  ],
+  "tipy": "Smotanu aj metly daj pred šľahaním do chladničky. Teplá smotana sa nevyšľahá, len sa zrazí.",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "čokoláda",
+    "pikantné"
+  ]
 }

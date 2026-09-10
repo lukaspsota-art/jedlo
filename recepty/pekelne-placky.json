@@ -1,119 +1,118 @@
 {
- "id": "pekelne-placky",
- "nazov": "Pekelné placky",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Pekelné placky (autor: sampion)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/pekelne-placky/39300-recept.html",
- "porcie": 10,
- "cas": "50 min",
- "kcal_na_porciu": 445,
- "popis": "Len tak som experimentoval a celkom to vyšlo si myslím.",
- "ingrediencie": [
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 5,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mäso kuracie",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená paprika",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Chilli",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Omáčka sójová klasik",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sterlizovaná kápia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sterilizovaný chren",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ryža",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 1500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 125,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Zohrej olej a pridaj cesnak 3ks a nakrajane mäso na malé kúsky. Z prudka opeč a pridaj soľ, ml.čierne korenie, sladku papriku, sojovú omáčku a chilli ja pridávam viac lebo mám rád pikantné, ale každý podla chuti. A dus 5min.",
-  "V ďalšom hrnci si urob ryžu.",
-  "Po piatich minútach si k mäsu pridaj nakrájanu kapiu a chren. Chren zvoľ sladky domáci.prykryj a nechaj dusit este takých 10 minút.nezabudni podlievať.",
-  "Príprava zemiakovych placiek:Zemiaky očisti a zotri na trielku. Osoľ pridaj vajcia, zotri aj 2stručiky cesnaku, pridaj 2pl hladkej múky a zamiešaj. Potom už len peč. Ja ich pečiem klasicky na platničke bez masti a potom ich potriem maslom. Ak sa Vám zdá že by ich bolo vela je to možné, lebo ja ich robím vždy vela máš ich totiž veľmi radi."
- ],
- "tipy": "Ryžu pred varením prepláchni, kým voda neostane číra, a počas varenia ju nemiešaj — inak sa rozvarí na kašu.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kuracie",
-  "vajcia",
-  "zemiaky",
-  "ryža"
- ]
+  "id": "pekelne-placky",
+  "nazov": "Pekelné placky",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Pekelné placky (autor: sampion)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/pekelne-placky/39300-recept.html",
+  "porcie": 10,
+  "cas": "50 min",
+  "kcal_na_porciu": 445,
+  "ingrediencie": [
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 5,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mäso kuracie",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená paprika",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chilli",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Omáčka sójová klasik",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sterlizovaná kápia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sterilizovaný chren",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ryža",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 1500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 125,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zohrej olej a pridaj cesnak 3ks a nakrajane mäso na malé kúsky. Z prudka opeč a pridaj soľ, ml.čierne korenie, sladku papriku, sojovú omáčku a chilli ja pridávam viac lebo mám rád pikantné, ale každý podla chuti. A dus 5min.",
+    "V ďalšom hrnci si urob ryžu.",
+    "Po piatich minútach si k mäsu pridaj nakrájanu kapiu a chren. Chren zvoľ sladky domáci.prykryj a nechaj dusit este takých 10 minút.nezabudni podlievať.",
+    "Príprava zemiakovych placiek:Zemiaky očisti a zotri na trielku. Osoľ pridaj vajcia, zotri aj 2stručiky cesnaku, pridaj 2pl hladkej múky a zamiešaj. Potom už len peč. Ja ich pečiem klasicky na platničke bez masti a potom ich potriem maslom. Ak sa Vám zdá že by ich bolo vela je to možné, lebo ja ich robím vždy vela máš ich totiž veľmi radi."
+  ],
+  "tipy": "Ryžu pred varením prepláchni, kým voda neostane číra, a počas varenia ju nemiešaj — inak sa rozvarí na kašu.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kuracie",
+    "vajcia",
+    "zemiaky",
+    "ryža"
+  ]
 }

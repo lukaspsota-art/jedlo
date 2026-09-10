@@ -1,103 +1,102 @@
 {
- "id": "hovadzie-chilli-s-fazulou",
- "nazov": "Hovädzie dusené na červenom víne",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Mexická",
- "zdroj": "Varecha.sk – Hovädzie plátky v pikantnej čokoládovej omáčke s chilli (fotorecept) (autor: izabella929)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzie-platky-v-pikantnej-cokoladovej-omacke-s-chilli-fotorecept/49177-recept.html",
- "porcie": 4,
- "cas": "250 min",
- "kcal_na_porciu": 470,
- "popis": "Keď som pred rokom videla na ATV Lacibácsiho variť toto jedlo, pousmiala som sa a \r\npomyslela som si, že ľudia už fakt nevedia, čo vymyslieť od roztopaše...ale nedalo mi to, \r\nstále ma tento recept rušil a nemohla som na to nijako zabudnúť..a tak som ho dnes veru \r\nvyskúšala...môj poznatok? no niečo neuveriteľne výborné...",
- "ingrediencie": [
-  {
-   "nazov": "Mäso hovädzie",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bravčová masť",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Balzamikový ocot",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červené víno",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Chilli papričky",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horká čokoláda",
-   "mnozstvo": 60,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Hovädzie mäso pokrájaj na hrubšie plátky osušila a obalila v hladkej múke z oboch strán na rozohriatej masti plátky opeč",
-  "do rajnice zlej výpek a pokrájaj do neho cibuľu opeč a pridaj paradajkový pretlak..",
-  "Pridaj 2 lyžice balzamikový ocot, víno, soľ, mleté čierne korenie a pridaj hovädzí vývar /práve sa mi var polievka na sporáku z hovädzieho rebra/ toto všetko nechaj zovrieť",
-  "do hotovej pripravenej šťavy vlož hovädzie plátky var na úplne slabom plameni a iba raz mäso počas dusenia podlej troškou vývaru mäsko sa dusilo 120min..",
-  "hotové mäkké mäsko vyber z omáčky nastrúhaj čokoládu a polámaj do nej kúsky chilli papričky..",
-  "nastúhanú čokoládu s chilli dala do omáčky a nechaj prejsť varom..",
-  "k tomuto skvelému mäsku podávaj penne nabrala na taniere, ozdobila chilli, pomarančom, limentkou a petržlenovou vňaťkou prajem vám dobrú chuť.."
- ],
- "tipy": "Čokoládu top nad parou, nie priamo na platni — nad 50 °C sa zráža a zrnie.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "hovädzie",
-  "mexické",
-  "fazuľa"
- ]
+  "id": "hovadzie-chilli-s-fazulou",
+  "nazov": "Hovädzie dusené na červenom víne",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Mexická",
+  "zdroj": "Varecha.sk – Hovädzie plátky v pikantnej čokoládovej omáčke s chilli (fotorecept) (autor: izabella929)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzie-platky-v-pikantnej-cokoladovej-omacke-s-chilli-fotorecept/49177-recept.html",
+  "porcie": 4,
+  "cas": "250 min",
+  "kcal_na_porciu": 470,
+  "ingrediencie": [
+    {
+      "nazov": "Mäso hovädzie",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Balzamikový ocot",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červené víno",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chilli papričky",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horká čokoláda",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Hovädzie mäso pokrájaj na hrubšie plátky, osuš a obaľ v hladkej múke z oboch strán, potom plátky opeč na rozohriatej masti.",
+    "Do rajnice zlej výpek, pokrájaj do neho cibuľu, opeč ju a pridaj paradajkový pretlak.",
+    "Pridaj 2 lyžice balzamikového octu, víno, soľ, mleté čierne korenie a pridaj hovädzí vývar /napríklad z hovädzieho rebra/, toto všetko nechaj zovrieť.",
+    "Do hotovej pripravenej šťavy vlož hovädzie plátky, var na úplne slabom plameni a iba raz mäso počas dusenia podlej troškou vývaru, mäso dus 120 min.",
+    "Hotové mäkké mäso vyber z omáčky, nastrúhaj čokoládu a polámaj do nej kúsky chilli papričky.",
+    "Nastrúhanú čokoládu s chilli daj do omáčky a nechaj prejsť varom.",
+    "K tomuto mäsu podávaj penne, nalož na taniere a ozdob chilli, pomarančom, limetkou a petržlenovou vňaťkou."
+  ],
+  "tipy": "Čokoládu top nad parou, nie priamo na platni — nad 50 °C sa zráža a zrnie.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "mexické",
+    "fazuľa"
+  ]
 }

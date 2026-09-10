@@ -1,89 +1,89 @@
 {
- "id": "sojove-rezance-s-kari",
- "nazov": "Sójové rezance s karí",
- "kategoria": "Cestoviny",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Sójové rezance s karí (autor: edith)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/sojove-rezance-s-kari/52460-recept.html",
- "porcie": 2,
- "cas": "25 min",
- "kcal_na_porciu": 332,
- "popis": "Sójové mäso je pre mňa výborným spestrením jedálnička. Obsahuje veľa bielkovín, vlákniny a má nízky obsah tuku. Je vhodné i pre diabetické stravovanie. Vďaka vysokému obsahu bielkovín a nízkemu obsahu tukov je ideálne pre tých, ktorí dbajú o štíhlu líniu a zaujímajú sa o zdravý životný štýl. Svojou vláknitou štruktúrou pripomínajú mäso a používajú sa ako jeho zdravšia a lacnejšia alternatíva.",
- "ingrediencie": [
-  {
-   "nazov": "Sójové rezance",
-   "mnozstvo": 80,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Karí korenie",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok Humus BIO",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na zahustenie"
-  },
-  {
-   "nazov": "Paprička chilli",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zmes korenia BIO",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvá mrkva",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprika rôzne farby",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa menšia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pór",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Základom tohoto receptu je sója, chilli a pre mňa HUMUS-prášok BIO, ktorý používam v kuchyni ako náhradu namiesto múky. Zahustí rovnako dobre a navyše má výbornú chuť (aspoň mne chutí) a pomer za hustenia je rovnaký ako pri múke.",
-  "Sójové rezance si vlož do hrnca s vriacou vodou, ktorú pred tým ochuť (ľubovolne vegetou alebo bujónom) -. Nechaj povariť cca 10-12 min. Zlej a nechaj odoložené bokom.",
-  "Zeleninu si nakrájaj na pásiky a chilli papričky nakrájaj na menšie krúžky. Ja som tento krát nenatrafila na nie veľmi pikantnú tak použi dve ale pokiaľ máte ostrejšiu chilli papričku stačí 1. Na olivovom oleji si najprv osmaž chilli, kým nám nepustí krásne farbu, potom pridaj vychladnuté sójové rezance, nakrájanú zeleninu a kari korenie (cca 1 ČL), chvíľu osmaž, premiešaj a zalej vodou.",
-  "Prikryj a nechaj podusiť. Keď je sója uvarená, vo vode si rozmiešaj humus prášku / (postupuj tak akoby ste použili múku na zahustenie)/ a pridaj do hrnca a rozmiešaj metličkou prípadne vareškou. Treba miešať kým nám zmes nezhustne a hneď na to odstaviť.",
-  "Tento recept rada podávaj s jasmínovou ryžou ale nakoľko som bola veľmi hladná a nemala som doma ryžu tak si k tomu daj ( BIO-TOMATO WRAP) - (náhrada tortilli )."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bezmäsité",
-  "cestoviny",
-  "zelenina"
- ]
+  "id": "sojove-rezance-s-kari",
+  "nazov": "Sójové rezance s karí",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Sójové rezance s karí (autor: edith)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/sojove-rezance-s-kari/52460-recept.html",
+  "porcie": 2,
+  "cas": "25 min",
+  "kcal_na_porciu": 332,
+  "popis": "Sójové mäso je pre mňa výborným spestrením jedálnička. Obsahuje veľa bielkovín, vlákniny a má nízky obsah tuku. Je vhodné i pre diabetické stravovanie. Vďaka vysokému obsahu bielkovín a nízkemu obsahu tukov je ideálne pre tých, ktorí dbajú o štíhlu líniu a zaujímajú sa o zdravý životný štýl. Svojou vláknitou štruktúrou pripomínajú mäso a používajú sa ako jeho zdravšia a lacnejšia alternatíva.",
+  "ingrediencie": [
+    {
+      "nazov": "Sójové rezance",
+      "mnozstvo": 80,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Karí korenie",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok Humus BIO",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na zahustenie"
+    },
+    {
+      "nazov": "Paprička chilli",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zmes korenia BIO",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvá mrkva",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika rôzne farby",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa menšia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pór",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Základom tohoto receptu je sója, chilli a HUMUS-prášok BIO, ktorý sa v kuchyni používa ako náhrada namiesto múky. Zahustí rovnako dobre, navyše má výbornú chuť a pomer pri zahusťovaní je rovnaký ako pri múke.",
+    "Sójové rezance si vlož do hrnca s vriacou vodou, ktorú predtým ochuť (ľubovoľne vegetou alebo bujónom). Nechaj povariť cca 10-12 min. Zlej a nechaj odložené bokom.",
+    "Zeleninu si nakrájaj na pásiky a chilli papričky nakrájaj na menšie krúžky. Ak nie sú veľmi pikantné, použi dve, ale pokiaľ máš ostrejšiu chilli papričku, stačí 1. Na olivovom oleji si najprv osmaž chilli, kým nepustí krásne farbu, potom pridaj vychladnuté sójové rezance, nakrájanú zeleninu a kari korenie (cca 1 ČL), chvíľu osmaž, premiešaj a zalej vodou.",
+    "Prikryj a nechaj podusiť. Keď je sója uvarená, vo vode si rozmiešaj humus prášok /(postupuj tak, ako keby si použil múku na zahustenie)/ a pridaj do hrnca a rozmiešaj metličkou prípadne vareškou. Treba miešať, kým zmes nezhustne, a hneď na to odstaviť.",
+    "Tento recept rada podávaj s jasmínovou ryžou, ale ak nemáš doma ryžu, tak si k tomu daj ( BIO-TOMATO WRAP) - (náhrada tortilli )."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bezmäsité",
+    "cestoviny",
+    "zelenina"
+  ]
 }

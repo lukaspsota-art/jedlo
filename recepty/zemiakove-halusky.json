@@ -1,74 +1,74 @@
 {
- "id": "zemiakove-halusky",
- "nazov": "Zemiakové halušky",
- "kategoria": "Príloha",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Halušky so zemiakmi a smotanou (fotorecept) (autor: sisuk)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/halusky-so-zemiakmi-a-smotanou-fotorecept/36504-recept.html",
- "porcie": 18,
- "cas": "50 min",
- "kcal_na_porciu": 175,
- "popis": "Tento recept dávali v nejakej TV relácii pred 20 rokmi. Nepamätám si názov. Na vareche je receptov na halušky veľa, možno aj tento. Čo som stihla prezrieť, nenašla som. Halušky so zemiakmi a smotanou robievam často, hádam aj každý mesiac. Rozpis je pre 4 -5 osôb",
- "ingrediencie": [
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 350,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 450,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiaky varené v šupke",
-   "mnozstvo": 700,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá smotana",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko na zriedenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Zemiaky so šupkou umyj, zalej vodou a uvar. Zllej vodu, nechaj vychladnúť. Môžeš aj viackrát preliať studenou vodou, aby sa čo najskôr vychladili. Ošúp.",
-  "Daj si variť osolenú vodu na halušky a priprav si cesto: múku zmiešaj s vajíčkom, prilej vodu.",
-  "Vypracuj riedke cesto, aby sa dalo liať cez haluškár. Cesto zbytočne nemiešaj, inak by zhustlo.",
-  "Cez haluškár hádž do vriacej vody halušky.",
-  "Nechaj chvíľu variť. Keď halušky vyplávajú na povrch, sceď ich.",
-  "Vychladené zemiaky ošúp, pretlač cez sitko, osoľ.",
-  "Zmiešaj zemiaky s haluškami, pridaj 2-3 kyslé smotany.",
-  "Dobre premiešaj, podľa potreby prilej mlieko",
-  "Kto chce, môže si dať na tanier aj opečenú slaninku s cibuľkou. U nás si dávaj k tomu pohár kyslého mlieka."
- ],
- "tipy": "Zemiaky pred pečením osuš a rozlož na plech v jednej vrstve. Natlačené na sebe sa dusia a nezhnednú.",
- "foto": "",
- "tagy": [
-  "príloha",
-  "zemiaky",
-  "slovenské"
- ]
+  "id": "zemiakove-halusky",
+  "nazov": "Zemiakové halušky",
+  "kategoria": "Príloha",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Halušky so zemiakmi a smotanou (fotorecept) (autor: sisuk)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/halusky-so-zemiakmi-a-smotanou-fotorecept/36504-recept.html",
+  "porcie": 18,
+  "cas": "50 min",
+  "kcal_na_porciu": 175,
+  "popis": "Halušky so zemiakmi a smotanou, rozpis je pre 4 -5 osôb.",
+  "ingrediencie": [
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 350,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 450,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiaky varené v šupke",
+      "mnozstvo": 700,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko na zriedenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zemiaky so šupkou umyj, zalej vodou a uvar. Zllej vodu, nechaj vychladnúť. Môžeš aj viackrát preliať studenou vodou, aby sa čo najskôr vychladili. Ošúp.",
+    "Daj si variť osolenú vodu na halušky a priprav si cesto: múku zmiešaj s vajíčkom, prilej vodu.",
+    "Vypracuj riedke cesto, aby sa dalo liať cez haluškár. Cesto zbytočne nemiešaj, inak by zhustlo.",
+    "Cez haluškár hádž do vriacej vody halušky.",
+    "Nechaj chvíľu variť. Keď halušky vyplávajú na povrch, sceď ich.",
+    "Vychladené zemiaky ošúp, pretlač cez sitko, osoľ.",
+    "Zmiešaj zemiaky s haluškami, pridaj 2-3 kyslé smotany.",
+    "Dobre premiešaj, podľa potreby prilej mlieko",
+    "Kto chce, môže si dať na tanier aj opečenú slaninku s cibuľkou. U nás si dávaj k tomu pohár kyslého mlieka."
+  ],
+  "tipy": "Zemiaky pred pečením osuš a rozlož na plech v jednej vrstve. Natlačené na sebe sa dusia a nezhnednú.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "zemiaky",
+    "slovenské"
+  ]
 }

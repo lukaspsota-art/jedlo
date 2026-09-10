@@ -1,63 +1,63 @@
 {
- "id": "rukolovy-salat-s-hruskou-a-orechmi",
- "nazov": "Rukolový šalát s hruškou a parmezánom",
- "kategoria": "Šalát",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Rukolový šalát s hruškou a tvrdým syrom (fotorecept) (autor: mariaklara)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/rukolovy-salat-s-hruskou-a-tvrdym-syrom-fotorecept/29338-recept.html",
- "porcie": 1,
- "cas": "5 min",
- "kcal_na_porciu": 288,
- "popis": "Recept mám z knihy \" Hneď to bude \" od Dr. Bukovského a Pavla Liptáka. Raz mi ho syn ponúkol k obedu, keď som bola u neho na návšteve. A teraz mám vlastnú úrodu rukoly, tak si ho robím častejšie.",
- "ingrediencie": [
-  {
-   "nazov": "Rukola",
-   "mnozstvo": 8,
-   "jednotka": "list",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hruška",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová šťava",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tekvicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Parmezán",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Biele mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "- štipku"
-  }
- ],
- "postup": [
-  "Priprav si:",
-  "Rukolu aj hrušku umyj, hrušku pokrájaj na menšie kocky - pokvapkaj citrónovou šťavou, aby nestmavla, rukolu pokrájaj tiež na menšie kúsky - pokvapkaj olejom, premiešaj. ( poznámka autora receptu: použi hocijaký olej za studena lisovaný, len nie olivový )",
-  "Môžeš jemne posypať bielym korení ( nemusíš ), na vrch postrúhaj alebo pokrájaj tvrdý syr. Ešte raz zľahka premiešaj a môžeš konzumovať.",
-  "Môžeš použiť ako prílohu alebo len s tmavým chlebíkom. DOBRÚ CHUŤ!"
- ],
- "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "rukola",
-  "hruška"
- ]
+  "id": "rukolovy-salat-s-hruskou-a-orechmi",
+  "nazov": "Rukolový šalát s hruškou a parmezánom",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Rukolový šalát s hruškou a tvrdým syrom (fotorecept) (autor: mariaklara)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/rukolovy-salat-s-hruskou-a-tvrdym-syrom-fotorecept/29338-recept.html",
+  "porcie": 1,
+  "cas": "5 min",
+  "kcal_na_porciu": 288,
+  "popis": "Rukolový šalát s hruškou a parmezánom podľa knihy „Hneď to bude“ od Dr. Bukovského a Pavla Liptáka.",
+  "ingrediencie": [
+    {
+      "nazov": "Rukola",
+      "mnozstvo": 8,
+      "jednotka": "list",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hruška",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tekvicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Biele mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "- štipku"
+    }
+  ],
+  "postup": [
+    "Priprav si:",
+    "Rukolu aj hrušku umyj, hrušku pokrájaj na menšie kocky - pokvapkaj citrónovou šťavou, aby nestmavla, rukolu pokrájaj tiež na menšie kúsky - pokvapkaj olejom, premiešaj. ( poznámka autora receptu: použi hocijaký olej za studena lisovaný, len nie olivový )",
+    "Môžeš jemne posypať bielym korení ( nemusíš ), na vrch postrúhaj alebo pokrájaj tvrdý syr. Ešte raz zľahka premiešaj a môžeš konzumovať.",
+    "Môžeš použiť ako prílohu alebo len s tmavým chlebíkom. DOBRÚ CHUŤ!"
+  ],
+  "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "rukola",
+    "hruška"
+  ]
 }

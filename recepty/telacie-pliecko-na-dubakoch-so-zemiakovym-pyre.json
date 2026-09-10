@@ -1,98 +1,98 @@
 {
- "id": "telacie-pliecko-na-dubakoch-so-zemiakovym-pyre",
- "nazov": "Telacie pliecko na dubákoch so zemiakovým pyré",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Telacie pliecko na dubákoch so zemiakovým pyré (fotorecept) (autor: babkamt)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/telacie-pliecko-na-dubakoch-so-zemiakovym-pyre-fotorecept/54470-recept.html",
- "porcie": 4,
- "cas": "1 hod 50 min",
- "kcal_na_porciu": 543,
- "kcal_zdroj": "vypocet",
- "popis": "Syn mi priniesol čerstvé dubáky. Terezka chcela mäso na šťave so zemiakovým pyré.. \r\nOponovala som jej, že \r\nsme ho mali minulý týždeň. Vraj to nevadí, že ona má na to chuť. Tak sme  po týždni \r\nvarili znovu to isté. Iné bolo  mäso a hríby  a príloha.  Mäsko bolo výborné. \r\nVšetci si pochvaľovali sobotňajší obed.",
- "ingrediencie": [
-  {
-   "nazov": "Pliecko teľacie",
-   "mnozstvo": 800,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Múka hladká špeciál",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Dubáky",
-   "mnozstvo": 40,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Plnotučná horčica",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kremžská horčica",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "horúce"
-  }
- ],
- "postup": [
-  "Mäso umyla, nakrájaj na plátky. Cibuľu očisti, nakrájaj.",
-  "Z chladničky vyber čerstvé hríby.",
-  "Mäso osoľ, okoreň, jednu stranu obaľ v hladkej múke.",
-  "Mäso prudko opeč na 1 pl oleja. Už takéto opečené by sa dalo jesť.",
-  "Do výpeku pridaj cibuľu a 1 čl mletého kmínu, aby sa rozvinula chuť.. Orestuj ju do sklovita. Do hrnca daj opečené mäso,",
-  "Hríby si nakrájaj a pridaj k mäsu spolu s horčicami.",
-  "Spolu ich ešte dus asi 20 minút. Nakoniec šťavu zahusti s 2 čl hladkej múky rozmiešanými v troške vody. K obedu sprav zemiakové pyré a paradajkovú polievku.",
-  "Ešte rýchlo pripraviť stôl a môžeš ísť obedovať."
- ],
- "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "zemiaky",
-  "bezmäsité"
- ]
+  "id": "telacie-pliecko-na-dubakoch-so-zemiakovym-pyre",
+  "nazov": "Telacie pliecko na dubákoch so zemiakovým pyré",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Telacie pliecko na dubákoch so zemiakovým pyré (fotorecept) (autor: babkamt)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/telacie-pliecko-na-dubakoch-so-zemiakovym-pyre-fotorecept/54470-recept.html",
+  "porcie": 4,
+  "cas": "1 hod 50 min",
+  "kcal_na_porciu": 543,
+  "kcal_zdroj": "vypocet",
+  "popis": "Mäso na šťave s čerstvými dubákmi podávané so zemiakovým pyré.",
+  "ingrediencie": [
+    {
+      "nazov": "Pliecko teľacie",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Múka hladká špeciál",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Dubáky",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Plnotučná horčica",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kremžská horčica",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "horúce"
+    }
+  ],
+  "postup": [
+    "Mäso umyla, nakrájaj na plátky. Cibuľu očisti, nakrájaj.",
+    "Z chladničky vyber čerstvé hríby.",
+    "Mäso osoľ, okoreň, jednu stranu obaľ v hladkej múke.",
+    "Mäso prudko opeč na 1 pl oleja. Už takéto opečené by sa dalo jesť.",
+    "Do výpeku pridaj cibuľu a 1 čl mletého kmínu, aby sa rozvinula chuť.. Orestuj ju do sklovita. Do hrnca daj opečené mäso,",
+    "Hríby si nakrájaj a pridaj k mäsu spolu s horčicami.",
+    "Spolu ich ešte dus asi 20 minút. Nakoniec šťavu zahusti s 2 čl hladkej múky rozmiešanými v troške vody. K obedu sprav zemiakové pyré a paradajkovú polievku.",
+    "Ešte rýchlo pripraviť stôl a môžeš ísť obedovať."
+  ],
+  "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "zemiaky",
+    "bezmäsité"
+  ]
 }

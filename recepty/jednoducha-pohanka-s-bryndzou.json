@@ -1,58 +1,58 @@
 {
- "id": "jednoducha-pohanka-s-bryndzou",
- "nazov": "Jednoduchá pohánka s bryndzou",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Jednoduchá pohánka s bryndzou (fotorecept) (autor: tejaja)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/jednoducha-pohanka-s-bryndzou-fotorecept/91248-recept.html",
- "porcie": 3,
- "cas": "20 min",
- "kcal_na_porciu": 396,
- "popis": "Toto jednoduché jedlo, veľmi rýchlo hotové, sa u nás kedysi robievalo často. Výbornou prílohou k nemu je pohár kyslého mlieka.",
- "ingrediencie": [
-  {
-   "nazov": "Pohánka",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bryndza",
-   "mnozstvo": 125,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pažítka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Pohánku daj do misky, zalej vriacou vodou, zakryj a zabaľ do perín na 30 minút. Potom ju vyber.",
-  "Na oleji orestuj nakrájanú cibuľu.",
-  "Pridaj bryndzu a za stáleho miešania ju nechaj rozpustiť.",
-  "Vmiešaj pohánku.",
-  "Ihneď daj na taniere a posyp sekanou pažítkou."
- ],
- "tipy": "Čerstvé bylinky pridaj až na tanier. Teplo z nich vôňu vyženie za pár minút.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bryndza",
-  "bezmäsité"
- ]
+  "id": "jednoducha-pohanka-s-bryndzou",
+  "nazov": "Jednoduchá pohánka s bryndzou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Jednoduchá pohánka s bryndzou (fotorecept) (autor: tejaja)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/jednoducha-pohanka-s-bryndzou-fotorecept/91248-recept.html",
+  "porcie": 3,
+  "cas": "20 min",
+  "kcal_na_porciu": 396,
+  "popis": "Jednoduché a veľmi rýchlo hotové jedlo, ku ktorému je výbornou prílohou pohár kyslého mlieka.",
+  "ingrediencie": [
+    {
+      "nazov": "Pohánka",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bryndza",
+      "mnozstvo": 125,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pažítka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pohánku daj do misky, zalej vriacou vodou, zakryj a zabaľ do perín na 30 minút. Potom ju vyber.",
+    "Na oleji orestuj nakrájanú cibuľu.",
+    "Pridaj bryndzu a za stáleho miešania ju nechaj rozpustiť.",
+    "Vmiešaj pohánku.",
+    "Ihneď daj na taniere a posyp sekanou pažítkou."
+  ],
+  "tipy": "Čerstvé bylinky pridaj až na tanier. Teplo z nich vôňu vyženie za pár minút.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bryndza",
+    "bezmäsité"
+  ]
 }

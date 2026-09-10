@@ -1,95 +1,95 @@
 {
- "id": "bravcovy-eintopf-s-porom",
- "nazov": "Bravčový eintopf s pórom",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Bravčový eintopf s pórom (autor: mstepo)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/bravcovy-eintopf-s-porom/25880-recept.html",
- "porcie": 7,
- "cas": "65 min",
- "kcal_na_porciu": 408,
- "popis": "Toto jedlo je rýchle lacné a chutné ! Eintopf má veľa podôb a variácií preto pri jeho príprave môžme použiť to čo doma máme. Keďže je jar predodvermi tak som vsadil na papriku, pór a šampiňóny :D",
- "ingrediencie": [
-  {
-   "nazov": "Bravčové mäso",
-   "mnozstvo": 700,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pór",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šampiňóny",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ostrý kečup",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Smotana",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bujón",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "menšia kl"
-  },
-  {
-   "nazov": "Majorán",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Osušené mäso si nakrájaj na malé kúsky a rozdeľ si ho na tučné a čisté. Umytú zeleninu si nakrájaj. Šampiňónom odtrhni nohy, ktoré nakrájaš na štvrtiny.",
-  "Ako prvé opeč na rozpálenom oleji (nie moc veľa oleja) tučné kúsky mäsa. Po chvíľke pridaj ostatné mäso a opekaj aspoň 5 min..",
-  "Keď sa mäso poriadne zatiahne pridávaš pór, papriku a nohy šampiňónov a za stáleho miešania opekaj 5 - 7 min. Akonáhle pór s paprikou zmäknú pridáš kávovú lyžičku červenej mletej papriky (sladkej), zamiešaj a zalej rozriedeným ostrým kečupom, v pomere 2 dcl kečupu : 3 dcl vody.",
-  "Keď sa začne eintopf variť pridáš rozmrvenú kocku zeleninového bujónu, zamiešaj a nechaj variť 10 - 15 minút, kým sa šťava zredukuje na polovicu.",
-  "Kým sa nám varí eintopf pripravíš si šampiňóny. Klobúčiky nakrájaj na polovice a štvrtiny a na masle ich dozlata opeč. V polovici opekania ich jemne posoľ.",
-  "Ak je mäso mäkké pridáš smotanu a druhú polovicu masla a miešaš pokiaľ eintopf nezačne hustnúť. Keď nám sa nám eintopf zahustí odložíš ho zo šporáka a pridáš majoránku. Eintopf nechaj ešte 10 minút postáť a podľa chuti ho dosoľ a pridaj opečené klobúčiky šampiňónov. Ako prílohu môžte použiť celozrnné pečivo, noky."
- ],
- "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "huby"
- ]
+  "id": "bravcovy-eintopf-s-porom",
+  "nazov": "Bravčový eintopf s pórom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Bravčový eintopf s pórom (autor: mstepo)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/bravcovy-eintopf-s-porom/25880-recept.html",
+  "porcie": 7,
+  "cas": "65 min",
+  "kcal_na_porciu": 408,
+  "popis": "Rýchle, lacné a chutné jedlo, ktoré má veľa podôb a variácií, takže sa doň dá použiť to, čo je práve doma, v tomto prípade paprika, pór a šampiňóny.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčové mäso",
+      "mnozstvo": 700,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pór",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šampiňóny",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ostrý kečup",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bujón",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "menšia kl"
+    },
+    {
+      "nazov": "Majorán",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Osušené mäso si nakrájaj na malé kúsky a rozdeľ si ho na tučné a čisté. Umytú zeleninu si nakrájaj. Šampiňónom odtrhni nohy, ktoré nakrájaš na štvrtiny.",
+    "Ako prvé opeč na rozpálenom oleji (nie moc veľa oleja) tučné kúsky mäsa. Po chvíľke pridaj ostatné mäso a opekaj aspoň 5 min..",
+    "Keď sa mäso poriadne zatiahne pridávaš pór, papriku a nohy šampiňónov a za stáleho miešania opekaj 5 - 7 min. Akonáhle pór s paprikou zmäknú pridáš kávovú lyžičku červenej mletej papriky (sladkej), zamiešaj a zalej rozriedeným ostrým kečupom, v pomere 2 dcl kečupu : 3 dcl vody.",
+    "Keď sa začne eintopf variť pridáš rozmrvenú kocku zeleninového bujónu, zamiešaj a nechaj variť 10 - 15 minút, kým sa šťava zredukuje na polovicu.",
+    "Kým sa nám varí eintopf pripravíš si šampiňóny. Klobúčiky nakrájaj na polovice a štvrtiny a na masle ich dozlata opeč. V polovici opekania ich jemne posoľ.",
+    "Ak je mäso mäkké pridáš smotanu a druhú polovicu masla a miešaš pokiaľ eintopf nezačne hustnúť. Keď nám sa nám eintopf zahustí odložíš ho zo šporáka a pridáš majoránku. Eintopf nechaj ešte 10 minút postáť a podľa chuti ho dosoľ a pridaj opečené klobúčiky šampiňónov. Ako prílohu môžte použiť celozrnné pečivo, noky."
+  ],
+  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "huby"
+  ]
 }

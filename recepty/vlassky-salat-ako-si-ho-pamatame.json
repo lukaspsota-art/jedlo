@@ -1,109 +1,109 @@
 {
- "id": "vlassky-salat-ako-si-ho-pamatame",
- "nazov": "Vlašský šalát, ako si ho pamätáme",
- "kategoria": "Šalát",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Vlašský šalát, ako si ho pamätáme (fotorecept) (autor: rimm)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/vlassky-salat-ako-si-ho-pamatame-fotorecept/85300-recept.html",
- "porcie": 8,
- "cas": "30 min",
- "kcal_na_porciu": 317,
- "popis": "Pôvodný „prvorepublikový“ vlašský šalát podľa jeho autora Rudolfa Linka sa pripravoval z iných surovín.* Náš šalát je ten, čo sa \r\nvyrábal za čias socializmu a chutil v každej prevádzke rovnako. Trvanlivosť sa k dnešným šalátom ani \r\nnepribližovala, preto sa denne vyrábal čerstvý.",
- "ingrediencie": [
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 350,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šunková saláma",
-   "mnozstvo": 228,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Nakladané uhorky",
-   "mnozstvo": 90,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sterilizovaný hrášok",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zeler",
-   "mnozstvo": 32,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 48,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Plnotučná horčica",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 0.5,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ocot",
-   "mnozstvo": 15,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Worcesterská omáčka",
-   "mnozstvo": 5,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Majonéza",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Krupicový cukor",
-   "mnozstvo": 10,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 10,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Uvarené zemiaky (typ A, alebo B) nechaj vychladnúť.",
-  "Vychladnuté zemiaky nakrájaj na rovnaké slížiky alebo kocky. Rovnako nakrájaj uvarenú mrkvu so zelerom a uhorky, hrášok sceď. Všetko krájaj ručne, nie robotom alebo pretláčačom, tie sú hrubé, alebo to robot naseká na kašu.",
-  "Salámu nakrájaj na úzke slížiky. Salámu kupuj v kuse, nie na plátky. Kvalita salámy ovplyvní chuť, preto je dôležité mať kvalitnú šunkovú salámu, bez múky a iných éčiek.",
-  "Dodržuj množstvo, každý gram navyše zmení chuť a kvalitu šalátu.",
-  "Majonéza: 2 žĺtky + olej musí byť 200 g, ani viac ani menej! Soľ opatrne.",
-  "Majonézu zmiešaj s octom, horčicou, soľou, korením, cukrom a worchesterom (žiadne náhrady, sojovky, či iné šmakotiny).",
-  "Zmiešaj zeleninu so salámou. Primiešaj majonézu.",
-  "Ak dodržíte pomer surovín, už iný nikdy nebudete chcieť. A ide to aj bez stabilizátorov, gumy, regulátorov a inej chémie."
- ],
- "tipy": "Na kašu ber múčnaté zemiaky a mixuj ich čo najmenej. Z prílišného mixovania sa stane lepidlo.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "zemiaky",
-  "zelenina"
- ]
+  "id": "vlassky-salat-ako-si-ho-pamatame",
+  "nazov": "Vlašský šalát, ako si ho pamätáme",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Vlašský šalát, ako si ho pamätáme (fotorecept) (autor: rimm)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/vlassky-salat-ako-si-ho-pamatame-fotorecept/85300-recept.html",
+  "porcie": 8,
+  "cas": "30 min",
+  "kcal_na_porciu": 317,
+  "popis": "Vlašský šalát v podobe, v akej sa vyrábal za čias socializmu, keď chutil v každej prevádzke rovnako a pre krátku trvanlivosť sa musel robiť denne čerstvý.",
+  "ingrediencie": [
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 350,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šunková saláma",
+      "mnozstvo": 228,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Nakladané uhorky",
+      "mnozstvo": 90,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sterilizovaný hrášok",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zeler",
+      "mnozstvo": 32,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 48,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Plnotučná horčica",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 0.5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Worcesterská omáčka",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Majonéza",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Krupicový cukor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Uvarené zemiaky (typ A, alebo B) nechaj vychladnúť.",
+    "Vychladnuté zemiaky nakrájaj na rovnaké slížiky alebo kocky. Rovnako nakrájaj uvarenú mrkvu so zelerom a uhorky, hrášok sceď. Všetko krájaj ručne, nie robotom alebo pretláčačom, tie sú hrubé, alebo to robot naseká na kašu.",
+    "Salámu nakrájaj na úzke slížiky. Salámu kupuj v kuse, nie na plátky. Kvalita salámy ovplyvní chuť, preto je dôležité mať kvalitnú šunkovú salámu, bez múky a iných éčiek.",
+    "Dodržuj množstvo, každý gram navyše zmení chuť a kvalitu šalátu.",
+    "Majonéza: 2 žĺtky + olej musí byť 200 g, ani viac ani menej! Soľ opatrne.",
+    "Majonézu zmiešaj s octom, horčicou, soľou, korením, cukrom a worchesterom (žiadne náhrady, sojovky, či iné šmakotiny).",
+    "Zmiešaj zeleninu so salámou. Primiešaj majonézu.",
+    "Ak dodržíte pomer surovín, už iný nikdy nebudete chcieť. A ide to aj bez stabilizátorov, gumy, regulátorov a inej chémie."
+  ],
+  "tipy": "Na kašu ber múčnaté zemiaky a mixuj ich čo najmenej. Z prílišného mixovania sa stane lepidlo.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "zemiaky",
+    "zelenina"
+  ]
 }

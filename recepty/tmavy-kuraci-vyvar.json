@@ -1,86 +1,86 @@
 {
- "id": "tmavy-kuraci-vyvar",
- "nazov": "Tmavý kurací vývar",
- "kategoria": "Polievka",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Tmavý kurací vývar (fotorecept) (autor: marto990)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/tmavy-kuraci-vyvar-fotorecept/49859-recept.html",
- "porcie": 5,
- "cas": "200 min",
- "kcal_na_porciu": 262,
- "popis": "Podľa receptov, ktoré som si ku tmavému kuraciemu vývaru pozrel, je dobré ho variť \r\naspoň z kila kuracích krídel, ak nie z dvoch. Ďalej by bolo super variť ho v tlakovom hrnci, a \r\naž potom nechať zredukovať. Moja verzia je skôr taká lajtová, na nedeľný obed.",
- "ingrediencie": [
-  {
-   "nazov": "Krídla kuracie",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Huby väčšie",
-   "mnozstvo": 60,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "masť"
-  },
-  {
-   "nazov": "Zelenina",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Knedličky",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zázvor",
-   "mnozstvo": 18,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Kuracie odrezky, krídla umyj a osuš.",
-  "Poukladaj na plech, potri olejom. Peč vo vyhriatej rúre na 220 stupňov, prvých 15 minút na 180 stupňov. Potom opäť pridaj na 200 stupňov. Peč 500g, pokiaľ budete piecť väčšie množstvo, tak kľudne peč od začiatku na 200 stupňov.",
-  "Peč cca hodinu. V polovici pečenia otoč.",
-  "Očisti si zeleninu.",
-  "Cibuľku nakrájaj na drobno, a praž na strednom plameni, čo najdlhšie ako sa dá. Neustále miešaj, dávaj pozor aby sa nepripaľovala. Prípadne stíš plameň, no nemal by byť úplne najmenší, každopádne by sa mala cibuľka neustále pražiť.",
-  "Zeleninu nakrájaj na kocky. Zázvor len prerež na polovicu.",
-  "Pridaj k cibuli. Opekaj na veľmi miernom ohni, miešaj, stráv pri tom asi pol života.",
-  "Ku zmesi pridaj pečené mäso.",
-  "Na plech, v ktorom peč, nalej vriacu vodu a oškrab pripáleniny. Tie potom pridaj k vývaru. Teda zmes zalej spolu tak 2 litrami vody. Aj keby ste robili z väčšieho množstva mäsa, zalievaj tak 2 litrami vody, môžete priebežne doliať 2 alebo 3 deci vody. Vývar tak bude mať silnejšiu chuť, a nebudete musieť použiť bujón na zvýraznenie chuti.",
-  "V tomto kroku pridaj 2 štipky soli, a var na strednom a neskôr malom ohni, najprv asi hodinku a pol zakryté, a poslednú polhodinu, hodinu, čiastočne odkryté.",
-  "Hotový vývar preced cez jemné sitko.",
-  "Jedno vajíčko vymiešaj vidličkou, pridaj kúštik vody, a detskú krupicu. Tak od oka, na poloriedku konzistenciu. Po chvíľke krupica totiž vo vajíčku nabobtná a zmes bude hustejšia. Pridaj štipku soli a čierneho korenia. Konzistencia by mala byť hustá zhruba ako cesto na halušky.",
-  "Pomaly, ale veľmi pomaly by mala stekať z čajovej lyžičky. Nechaj si zovrieť vodu so štipkou soli. Stíš plameň na mierne bublanie. Na čajovú lyžičku si naberaj zmes a ponáraj ju do vody. Vhoď prvý knedlík, ak sa rozvarí, pridaj krupicu.",
-  "Samozrejme, že čo to sa rozvarí, tak sa s tou krupicou nesplaš, aby knedlíky neboli tvrdé. Nahádž do vody celú zmes, povar minútku, voda nech mierne bublá, nezabudni premiešať. Zlej a podávaj. Dobrú chuť."
- ],
- "tipy": "Polievku dochuť až nakoniec. Počas varenia sa tekutina odparí a chute zosilnejú.",
- "foto": "",
- "tagy": [
-  "polievka",
-  "kuracie",
-  "huby",
-  "zelenina"
- ]
+  "id": "tmavy-kuraci-vyvar",
+  "nazov": "Tmavý kurací vývar",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Tmavý kurací vývar (fotorecept) (autor: marto990)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/tmavy-kuraci-vyvar-fotorecept/49859-recept.html",
+  "porcie": 5,
+  "cas": "200 min",
+  "kcal_na_porciu": 262,
+  "popis": "Tmavý kurací vývar je vhodné variť aspoň z kila kuracích krídel, ideálne v tlakovom hrnci, a potom ho nechať zredukovať; táto verzia je odľahčenejšia a hodí sa na nedeľný obed.",
+  "ingrediencie": [
+    {
+      "nazov": "Krídla kuracie",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Huby väčšie",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "masť"
+    },
+    {
+      "nazov": "Zelenina",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Knedličky",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 18,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kuracie odrezky, krídla umyj a osuš.",
+    "Poukladaj na plech, potri olejom. Peč vo vyhriatej rúre na 220 stupňov, prvých 15 minút na 180 stupňov. Potom opäť pridaj na 200 stupňov. Peč 500g, pokiaľ budete piecť väčšie množstvo, tak kľudne peč od začiatku na 200 stupňov.",
+    "Peč cca hodinu. V polovici pečenia otoč.",
+    "Očisti si zeleninu.",
+    "Cibuľku nakrájaj na drobno, a praž na strednom plameni, čo najdlhšie ako sa dá. Neustále miešaj, dávaj pozor aby sa nepripaľovala. Prípadne stíš plameň, no nemal by byť úplne najmenší, každopádne by sa mala cibuľka neustále pražiť.",
+    "Zeleninu nakrájaj na kocky. Zázvor len prerež na polovicu.",
+    "Pridaj k cibuli. Opekaj na veľmi miernom ohni, miešaj, stráv pri tom asi pol života.",
+    "Ku zmesi pridaj pečené mäso.",
+    "Na plech, v ktorom peč, nalej vriacu vodu a oškrab pripáleniny. Tie potom pridaj k vývaru. Teda zmes zalej spolu tak 2 litrami vody. Aj keby ste robili z väčšieho množstva mäsa, zalievaj tak 2 litrami vody, môžete priebežne doliať 2 alebo 3 deci vody. Vývar tak bude mať silnejšiu chuť, a nebudete musieť použiť bujón na zvýraznenie chuti.",
+    "V tomto kroku pridaj 2 štipky soli, a var na strednom a neskôr malom ohni, najprv asi hodinku a pol zakryté, a poslednú polhodinu, hodinu, čiastočne odkryté.",
+    "Hotový vývar preced cez jemné sitko.",
+    "Jedno vajíčko vymiešaj vidličkou, pridaj kúštik vody, a detskú krupicu. Tak od oka, na poloriedku konzistenciu. Po chvíľke krupica totiž vo vajíčku nabobtná a zmes bude hustejšia. Pridaj štipku soli a čierneho korenia. Konzistencia by mala byť hustá zhruba ako cesto na halušky.",
+    "Pomaly, ale veľmi pomaly by mala stekať z čajovej lyžičky. Nechaj si zovrieť vodu so štipkou soli. Stíš plameň na mierne bublanie. Na čajovú lyžičku si naberaj zmes a ponáraj ju do vody. Vhoď prvý knedlík, ak sa rozvarí, pridaj krupicu.",
+    "Samozrejme, že čo to sa rozvarí, tak sa s tou krupicou nesplaš, aby knedlíky neboli tvrdé. Nahádž do vody celú zmes, povar minútku, voda nech mierne bublá, nezabudni premiešať. Zlej a podávaj. Dobrú chuť."
+  ],
+  "tipy": "Polievku dochuť až nakoniec. Počas varenia sa tekutina odparí a chute zosilnejú.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "kuracie",
+    "huby",
+    "zelenina"
+  ]
 }

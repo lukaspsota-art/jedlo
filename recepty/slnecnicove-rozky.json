@@ -1,56 +1,56 @@
 {
- "id": "slnecnicove-rozky",
- "nazov": "Slnečnicové rožky",
- "kategoria": "Pečivo",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Fúkané rožky zo slnečnice (autor: tekvica)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/fukane-rozky-zo-slnecnice/61743-recept.html",
- "porcie": 11,
- "cas": "50 min",
- "kcal_na_porciu": 265,
- "popis": "Po úspechu makových fúkaných rožkov som pokračovala v experimen ďalej. Skúsila \r\nsom \r\nvymeniť orechy za slnečnicové semienka a zrodila sa ďalšia lahôdka.",
- "ingrediencie": [
-  {
-   "nazov": "Slnečnicové semienka",
-   "mnozstvo": 125,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok do pečiva",
-   "mnozstvo": 0.25,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": 175,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hera",
-   "mnozstvo": 125,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Všetky sypké suroviny poriadne premiešaj v mise. Lúpané slnečnicové semienka kupujem v diskontnom obchodnom reťazci, je tam výhodná cena a veľké balenie, potom ich meliem na kávovom mlynčeku. Pridaj zmäknutú Heru a vypracuj hladké cesto.",
-  "Cesto plň do formičiek na rožky asi do 3/4. Viac nie, aby nepretiekli cez okraj. Rúru rozohrej na 160 °C a koláčiky upeč. Peč veľké 20 min. a malé 15 min., treba odsledovať, každá rúra pečie inak. Koláčiky majú mať trochu zlatistú farbu.",
-  "Po upečení nechaj vychladnúť a potom vyklop z formičiek. Ak chceš, môžeš namáčať do čokolády. Dobrú chuť."
- ],
- "tipy": "Pečivo nechaj úplne vychladnúť, až potom ho krájaj — v teplom sa strieda ešte dopeká.",
- "foto": "",
- "tagy": [
-  "pečivo",
-  "semienka",
-  "kysnuté"
- ]
+  "id": "slnecnicove-rozky",
+  "nazov": "Slnečnicové rožky",
+  "kategoria": "Pečivo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Fúkané rožky zo slnečnice (autor: tekvica)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/fukane-rozky-zo-slnecnice/61743-recept.html",
+  "porcie": 11,
+  "cas": "50 min",
+  "kcal_na_porciu": 265,
+  "popis": "Fúkané rožky, v ktorých sú orechy nahradené slnečnicovými semienkami.",
+  "ingrediencie": [
+    {
+      "nazov": "Slnečnicové semienka",
+      "mnozstvo": 125,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 0.25,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 175,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hera",
+      "mnozstvo": 125,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Všetky sypké suroviny poriadne premiešaj v mise. Lúpané slnečnicové semienka kupujem v diskontnom obchodnom reťazci, je tam výhodná cena a veľké balenie, potom ich meliem na kávovom mlynčeku. Pridaj zmäknutú Heru a vypracuj hladké cesto.",
+    "Cesto plň do formičiek na rožky asi do 3/4. Viac nie, aby nepretiekli cez okraj. Rúru rozohrej na 160 °C a koláčiky upeč. Peč veľké 20 min. a malé 15 min., treba odsledovať, každá rúra pečie inak. Koláčiky majú mať trochu zlatistú farbu.",
+    "Po upečení nechaj vychladnúť a potom vyklop z formičiek. Ak chceš, môžeš namáčať do čokolády. Dobrú chuť."
+  ],
+  "tipy": "Pečivo nechaj úplne vychladnúť, až potom ho krájaj — v teplom sa strieda ešte dopeká.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "semienka",
+    "kysnuté"
+  ]
 }

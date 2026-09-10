@@ -1,45 +1,45 @@
 {
- "id": "melonove-smoothie",
- "nazov": "Melónové smoothie",
- "kategoria": "Nápoj",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Smoothie zo žltého melónu (autor: mitzy)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/smoothie-zo-zlteho-melonu/67789-recept.html",
- "porcie": 4,
- "cas": "5 min",
- "popis": "Žltý melón je vitamínová bomba \r\npre telo. Detoxikuje, stará sa o \r\nkrásnu pokožku, dokonca je \r\nvhodný pri diéte, napriek tomu je \r\nsladučký. Urobila som z neho \r\nsmoothie a veľmi chutilo.",
- "ingrediencie": [
-  {
-   "nazov": "Žltý melón",
-   "mnozstvo": 75,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Banán",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vločky",
-   "mnozstvo": 1,
-   "jednotka": "hrsť",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Umy žltý melón, prekroj na polovicu a odstráň šupu.",
-  "Pokrájaj ho na kocky a vlož do nádoby na mixovanie.",
-  "Pridaj olúpaný a pokrájaný banán a za hrsť ovsených vločiek.",
-  "Pomixuj dohladka. Melón pustí vodu, takže iné sladidlo netreba."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "nápoj",
-  "smoothie",
-  "letné",
-  "melón"
- ]
+  "id": "melonove-smoothie",
+  "nazov": "Melónové smoothie",
+  "kategoria": "Nápoj",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Smoothie zo žltého melónu (autor: mitzy)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/smoothie-zo-zlteho-melonu/67789-recept.html",
+  "porcie": 4,
+  "cas": "5 min",
+  "popis": "Smoothie zo žltého melónu, ktorý je vitamínovou bombou, sladký a vhodný aj pri diéte.",
+  "ingrediencie": [
+    {
+      "nazov": "Žltý melón",
+      "mnozstvo": 75,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Banán",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vločky",
+      "mnozstvo": 1,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Umy žltý melón, prekroj na polovicu a odstráň šupu.",
+    "Pokrájaj ho na kocky a vlož do nádoby na mixovanie.",
+    "Pridaj olúpaný a pokrájaný banán a za hrsť ovsených vločiek.",
+    "Pomixuj dohladka. Melón pustí vodu, takže iné sladidlo netreba."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "nápoj",
+    "smoothie",
+    "letné",
+    "melón"
+  ]
 }

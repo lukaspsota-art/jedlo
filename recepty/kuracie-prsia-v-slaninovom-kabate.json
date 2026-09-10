@@ -1,90 +1,90 @@
 {
- "id": "kuracie-prsia-v-slaninovom-kabate",
- "nazov": "Kuracie prsia v slaninovom kabáte",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Kuracie prsia v keli (autor: patroveckypitrs)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-prsia-v-keli/58935-recept.html",
- "porcie": 6,
- "cas": "90 min",
- "kcal_na_porciu": 378,
- "popis": "Zohnal som v obchode krásnu hlávku mladého kelu. Mal som doma pripravené kuracie \r\nprsia, že si uvaríš nejakú činu. Nuž človek mieni život mení. Tak som spojil kel a kuracie \r\nprsia.",
- "ingrediencie": [
-  {
-   "nazov": "Kel",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 650,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kalifornská paprika",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čínská zelenina",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 5,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bravčová masť",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Kel očisti a nakrájaj asi na 2cm kocky.",
-  "Tak isto kuracie prsia očisti a nakrájaj na dvoj cm kocky. Papriky priprav tiež v tej veľkosti ako prsia.",
-  "Do hrnca daj rozpustiť bravčovú masť na ňu nasyp nakrájanú cibuľu tu dus do sklovitá. Potom odstav hrniec zo sporáka pridal nasekaný cesnak a rascu trochu premiešaj nech to v masti rozvonia. Na to daj nakrájaný kel a papriku podlial asi pol deci vody premiešal a späť na sporák nechaj to dusiť a často miešal nech mi rasca a cesnak neprihoria. Už vodu nedávaj len občas miešaj.",
-  "Kel aj paprika boli už skoro hotové asi po 45 minútach tak teraz pridaj mäso premiešaj, osoľ, okoreň a ďalej dus za občasného miešania.",
-  "Priprav si mrazenú činskú zmes tak polovinu zo sáčku.",
-  "Po 15 minútach dusenia mäsa do hrnca pridaj mrazenú zeleninu a dus ešte asi 10 minút.",
-  "Ochutnaj dosť slané netreba nič. Hotovo. Pes natlačený na sitových dverách a ťahal vôňu do seba aj on si prosil. Vôňa je parádna. Môžeš servírovať na tanier si z ryže sprav hniezdo a na to daj prsia v keli. Na tento teplý deň dobre ľahké jedlo. Tak ak Vám zachutilo prajem dobrú chuť."
- ],
- "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kura",
-  "slanina"
- ]
+  "id": "kuracie-prsia-v-slaninovom-kabate",
+  "nazov": "Kuracie prsia v slaninovom kabáte",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Kuracie prsia v keli (autor: patroveckypitrs)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-prsia-v-keli/58935-recept.html",
+  "porcie": 6,
+  "cas": "90 min",
+  "kcal_na_porciu": 378,
+  "popis": "Jedlo spájajúce mladý kel a kuracie prsia.",
+  "ingrediencie": [
+    {
+      "nazov": "Kel",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 650,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kalifornská paprika",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čínská zelenina",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 5,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová masť",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kel očisti a nakrájaj asi na 2cm kocky.",
+    "Tak isto kuracie prsia očisti a nakrájaj na dvoj cm kocky. Papriky priprav tiež v tej veľkosti ako prsia.",
+    "Do hrnca daj rozpustiť bravčovú masť, na ňu nasyp nakrájanú cibuľu a dus ju do sklovita. Potom odstav hrniec zo sporáka, pridaj nasekaný cesnak a rascu, trochu premiešaj, nech to v masti rozvonia. Na to daj nakrájaný kel a papriku, podlej asi pol deci vody, premiešaj a daj späť na sporák, nechaj to dusiť a často miešaj, nech rasca a cesnak neprihoria. Už vodu nedávaj, len občas premiešaj.",
+    "Kel aj paprika sú skoro hotové asi po 45 minútach, tak teraz pridaj mäso, premiešaj, osoľ, okoreň a ďalej dus za občasného miešania.",
+    "Priprav si mrazenú čínsku zmes, tak polovicu zo sáčku.",
+    "Po 15 minútach dusenia mäsa do hrnca pridaj mrazenú zeleninu a dus ešte asi 10 minút.",
+    "Ochutnaj, je dosť slané, netreba nič dopĺňať. Hotovo. Vôňa je parádna. Servíruj na tanier, z ryže si sprav hniezdo a na to daj prsia v keli. Na teplý deň je to dobré ľahké jedlo. Dobrú chuť."
+  ],
+  "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kura",
+    "slanina"
+  ]
 }

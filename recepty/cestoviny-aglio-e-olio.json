@@ -1,64 +1,64 @@
 {
- "id": "cestoviny-aglio-e-olio",
- "nazov": "Cestoviny Aglio e Olio",
- "kategoria": "Cestoviny",
- "kuchyna": "Talianska",
- "zdroj": "Varecha.sk – Spaghetti Aglio Olio e Pepperoncino (autor: chutimi)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/spaghetti-aglio-olio-e-pepperoncino/47266-recept.html",
- "porcie": 4,
- "cas": "25 min",
- "kcal_na_porciu": 341,
- "popis": "Jednoduché, rýchle, chutné. Na obrázku je záber porcie, kde som pridal aj sušené \r\nparadajky. Tento recept sa dá všemožne upravovať.",
- "ingrediencie": [
-  {
-   "nazov": "Spaghetti",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olej olivový extra virgin",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 4,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprička chili",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvá šalvia",
-   "mnozstvo": 6,
-   "jednotka": "list",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Parmezán",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "alebo Grana Padano"
-  }
- ],
- "postup": [
-  "Cestoviny uvar v osolenej vode al dente.",
-  "Cesnak očisti a nakrájaj na tenké plátky (snaž sa čo najrovnomernejšie). Papričku nakrájaj na tenké prúžky, posekaj aj semiačka. Šalviové lístky umy a odrež stopky. Lístky nasekaj na drobno.",
-  "V malom hrnci/na panvici zohrej olivový olej. Vhoď všetky suroviny a na miernom plameni nechaj až kým cesnak zozlatovie. Hneď prelej na cestoviny aby cesnak nezhnedol a nezhorkol! Pokiaľ nepoužijete privysokú teplotu, cesnak aj šalvia ostanú príjemne chrumkavé.",
-  "Posyp čerstvo nastrúhaným parmezánom a podávaj."
- ],
- "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "talianske",
-  "rýchle",
-  "jednoduché"
- ]
+  "id": "cestoviny-aglio-e-olio",
+  "nazov": "Cestoviny Aglio e Olio",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "Varecha.sk – Spaghetti Aglio Olio e Pepperoncino (autor: chutimi)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/spaghetti-aglio-olio-e-pepperoncino/47266-recept.html",
+  "porcie": 4,
+  "cas": "25 min",
+  "kcal_na_porciu": 341,
+  "popis": "Jednoduché, rýchle a chutné cestoviny, ktoré sa dajú všemožne upravovať, napríklad pridaním sušených paradajok.",
+  "ingrediencie": [
+    {
+      "nazov": "Spaghetti",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej olivový extra virgin",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprička chili",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvá šalvia",
+      "mnozstvo": 6,
+      "jednotka": "list",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "alebo Grana Padano"
+    }
+  ],
+  "postup": [
+    "Cestoviny uvar v osolenej vode al dente.",
+    "Cesnak očisti a nakrájaj na tenké plátky (snaž sa čo najrovnomernejšie). Papričku nakrájaj na tenké prúžky, posekaj aj semiačka. Šalviové lístky umy a odrež stopky. Lístky nasekaj na drobno.",
+    "V malom hrnci/na panvici zohrej olivový olej. Vhoď všetky suroviny a na miernom plameni nechaj až kým cesnak zozlatovie. Hneď prelej na cestoviny aby cesnak nezhnedol a nezhorkol! Pokiaľ nepoužijete privysokú teplotu, cesnak aj šalvia ostanú príjemne chrumkavé.",
+    "Posyp čerstvo nastrúhaným parmezánom a podávaj."
+  ],
+  "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "talianske",
+    "rýchle",
+    "jednoduché"
+  ]
 }
