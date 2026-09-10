@@ -2092,6 +2092,15 @@ const CENA_LUX=3.0;
 // súťaží s bielkovinami a kcal a zhoršila oba. Vlastný vlákninový prechod si ju na chvíľu
 // zosilní; jeho výmeny sú aj tak zovreté tak, že bielkoviny ani kcal zhoršiť nesmú.
 let _vlakninaRezim=false;
+// C: strop bielkovín. cieloveMakra dáva CIEĽ 30 % energie a zlepsiBielkoviny naň deň vytiahne,
+// ale nadol deň neťahalo nič: cez 12 týždňov pri cieli 2000 kcal skončilo 27,4 % dní nad 35 %
+// energie z bielkovín, medián 31,9 %, najhorší deň 44,5 %. 35 % je horná hranica pásma AMDR
+// (10–35 % energie). V tomto režime skóre odmieňa NIŽŠIU hustotu bielkovín — rovnaká mechanika
+// ako `_vlakninaRezim`, len opačným smerom, a zapína sa výhradne v znizBielkoviny().
+let _bielStropRezim=false;
+const B_STROP_PODIEL=0.35;
+function stropBielkovin(ciel){ if(!(ciel>0))return 0; const cielB=(cieloveMakra(ciel)||{}).b||0;
+  return Math.max(cielB, ciel*B_STROP_PODIEL/4); }
 function skoreJedla(r,slot,cielK,rot,cielC){
   const v=jedloVyziva(r,slot,rot);
   const wv=_vlakninaRezim?GEN_SK.vlSilne:GEN_SK.vl, cv=_vlakninaRezim?GEN_SK.vlCielSilne:GEN_SK.vlCiel;
@@ -2099,7 +2108,8 @@ function skoreJedla(r,slot,cielK,rot,cielC){
   // nemohol 145 kcal snack nikdy získať vlákninový bod a skóre ho tlačilo hore — snack potom
   // prerástol raňajky a padalo pravidlo poradia R > S.
   const vlD=v.k>5?v.vl/(v.k/100):0;
-  let s=GEN_SK.b*Math.min(1.25,v.d/HS_HI) + wv*Math.min(1,vlD/cv);
+  let s=(_bielStropRezim ? GEN_SK.b*(1-Math.min(1,v.d/HS_HI)) : GEN_SK.b*Math.min(1.25,v.d/HS_HI))
+        + wv*Math.min(1,vlD/cv);
   if(cielK>0 && v.k>0) s+=GEN_SK.kcal*(1-Math.min(1,Math.abs(v.k-cielK)/cielK));
   // R4: cena je POKUTA nad rozpočtom, nie bonus pod ním. Kritérium výživy tak nemôže prehrať
   // s cenou pri dvoch rovnako drahých jedlách a lacné jedlo si skóre nekupuje samotnou lacnosťou.
@@ -2462,6 +2472,37 @@ function _zlepsiVlakninu(denPlan,sloty,ctx,ciel,cielVl){
        && denBielkovinyPoSkal(denPlan,sloty,ciel)>=bMin && odchylka()<=strop) continue;
     vratSlot(denPlan,naj,ctx,zaloha);
   } }
+// C: „stiahni bielkoviny pod strop" — zrkadlo zlepsiBielkoviny. Beží len na dni, ktoré sú NAD
+// stropom, a výmena sa prijme len vtedy, keď deň zostane platný (kcal v pásme + poradie jedál),
+// bielkoviny naozaj klesnú a NEKLESNÚ pod denný cieľ. Preto strop nemôže vyrobiť chudobný deň:
+// v konflikte výmena jednoducho neprejde a deň ostane taký, aký bol.
+function znizBielkoviny(denPlan,sloty,ctx,ciel){
+  const strop=stropBielkovin(ciel); if(!(strop>0)) return;
+  _bielStropRezim=true;
+  try{ bezRozpoctu(()=>_znizBielkoviny(denPlan,sloty,ctx,ciel,strop)); }
+  finally { _bielStropRezim=false; } }
+function _znizBielkoviny(denPlan,sloty,ctx,ciel,strop){
+  const cielB=(cieloveMakra(ciel)||{}).b||0;
+  const hustotaStropu=strop/(ciel/100); // g bielkovín na 100 kcal, ktoré deň ako celok znesie
+  const pokusy={}; const MAX_POKUS=6;
+  const odchylka=()=>Math.abs(denKcal(denPlan,sloty)-ciel);
+  for(let i=0;i<30;i++){
+    const b=denBielkovinyPoSkal(denPlan,sloty,ciel); if(b<=strop) return;
+    const d0=odchylka(), tolK=Math.max(ciel*0.06,d0);
+    const napln=sloty.filter(s=>denPlan[s]&&denPlan[s].length&&(pokusy[s]||0)<MAX_POKUS);
+    // slot s najväčším PREBYTKOM nad hustotou stropu (kcal × koľko g/100 kcal je navyše)
+    let naj=null,najPreb=0;
+    napln.forEach(s=>{ const preb=mealKcal(denPlan[s])*Math.max(0,slotHustota(denPlan[s])-hustotaStropu)/100;
+      if(preb>najPreb){ najPreb=preb; naj=s; } });
+    if(!naj) return;
+    pokusy[naj]=(pokusy[naj]||0)+1;
+    const zaloha=denPlan[naj].slice();
+    const kc={}; napln.forEach(s=>{ kc[s]=mealKcal(denPlan[s]); });
+    if(!prehodSlot(denPlan,naj,ctx,mealKcal(zaloha),0,medzePoradia(napln,naj,kc))) continue;
+    const nove=denBielkovinyPoSkal(denPlan,sloty,ciel);
+    if(denJeOk(denPlan,sloty,ciel) && nove<b && nove>=cielB && odchylka()<=tolK) continue;
+    vratSlot(denPlan,naj,ctx,zaloha);
+  } }
 // R6: „zlacni deň" — rovnaká mechanika ako zlepsiVlakninu, ale výmena musí nechať výživu tam,
 // kde bola. Prijme sa LEN vtedy, keď deň zostane platný (kcal v pásme + poradie jedál), cena
 // naozaj klesne, bielkoviny po škálovaní neklesnú a vláknina sa nezhorší viac než o 1 g.
@@ -2752,6 +2793,9 @@ async function generujJedalnicek(zamiesaj){
       zlepsiVlakninu(denPlan,sloty,ctx,ciel,VLAKNINA_CIEL*sloty.length/4);
       opravDen(denPlan,sloty,ctx,ciel,20);
       zlepsiBielkoviny(denPlan,sloty,ctx,ciel);
+      // C: strop hneď za posledným dvíhaním bielkovín — nasledujúci opravDen dorovná kcal,
+      // ktoré výmena mohla rozhýbať, a vláknina aj cena majú potom viac miesta.
+      znizBielkoviny(denPlan,sloty,ctx,ciel);
       opravDen(denPlan,sloty,ctx,ciel,20);
       // K14b: druhý vlákninový prechod úplne na záver. Jeho výmeny sú zovreté tak, že nesmú
       // zhoršiť bielkoviny, kcal ani poradie, takže po ňom už netreba nič opravovať.
@@ -3314,8 +3358,9 @@ function zdielajNakup(){
 }
 function promptFallback(txt){ window.prompt("Skopíruj (Ctrl+C):",txt); }
 
-function pozdravText(){ const h=new Date().getHours(); const cast=h<10?"Dobré ráno":(h<18?"Dobrý deň":"Dobrý večer");
-  const meno=(stravniciList()[0]||{}).nazov||""; return meno?`${cast}, ${meno}`:cast; }
+// Pozdrav bez mena. Predvolené meno prvého stravníka je „Ja", takže appka vítala slovami
+// „Dobré ráno, Ja". Meno tu aj tak nič nerieši — domácnosť pozná samu seba.
+function pozdravText(){ const h=new Date().getHours(); return h<10?"Dobré ráno":(h<18?"Dobrý deň":"Dobrý večer"); }
 function renderDash(){
   // Domov hovorí vždy o REÁLNOM tomto týždni — aj keď si v Pláne listuješ dopredu. Prepneme na tento týždeň,
   // vykreslíme všetko (vrátane renderDnesPlan) a na konci S.viewOd vrátime.
@@ -3386,9 +3431,11 @@ function renderDashTyzden(){
     slotyDna(di).forEach(sl=>{ const f=pf(di,sl); slotIds(di,sl).forEach(cid=>{ const r=komponent(cid); if(r)kc+=kcalPorcia(r)*f; }); });
     const bi=blokIndex(di); const pism=blokPismeno(bi);
     const popis=DNI[di]+(S.blokMode?" · blok "+pism:"")+" · "+(kc?Math.round(kc)+" kcal":"nič v pláne");
-    h+=`<div class="d${di===dnes?" dnes":""}" title="${escHtml(popis)}"><span class="kc">${kc?Math.round(kc):"–"}</span>`
+    h+=`<div class="d${di===dnes?" je-dnes":""}" title="${escHtml(popis)}"><span class="kc">${kc?Math.round(kc):"–"}</span>`
       +`<span class="dn">${DNI[di].slice(0,2)}${S.blokMode?" "+pism:""}</span>`
-      +`<span class="pr ${S.blokMode?blokTrieda(bi):""}"></span></div>`; }
+      // D: farbu bloku dostane len deň, v ktorom NIEČO je. Prázdny týždeň mal sedem plne
+      // vyfarbených prúžkov nad siedmimi pomlčkami — farba tvrdila „tu je blok", obsah „nič".
+      +`<span class="pr ${S.blokMode&&kc?blokTrieda(bi):""}"></span></div>`; }
   el.innerHTML=h;
 }
 function renderDnesPlan(){
@@ -3409,14 +3456,23 @@ function renderDnesPlan(){
   slotyDna(di).forEach(sl=>{ const ids=slotIds(di,sl); const f=pf(di,sl);
     if(!ids.length){ h+=`<div class="dnes-row"><span class="dnes-slot">${ikony[sl]||""} ${sl}</span><span class="info">—</span></div>`; return; }
     any=true;
-    const mena=ids.map(cid=>{const k=komponent(cid); if(!k)return null; kc+=kcalPorcia(k)*f; const v=vyzivaReceptu(k); b+=v.b*f;t+=v.t*f;sx+=v.s*f;
+    const casti=ids.map(cid=>{const k=komponent(cid); if(!k)return null; kc+=kcalPorcia(k)*f; const v=vyzivaReceptu(k); b+=v.b*f;t+=v.t*f;sx+=v.s*f;
       // odkaz na jedlo mal 18 px (pod hranicou 24 px z CLAUDE.md) a ako <span onclick> nebol
       // dosiahnuteľný klávesnicou — <button class="lnk"> rieši oboje, výška je v CSS
-      return k._priloha?("+ "+escHtml(k.nazov)):`<button type="button" class="lnk sur-klik" onclick="${naTentoTyzden}otvor('${cid}',{di:${di},slot:'${sl}'})">${escHtml(k.nazov)}</button>`;}).filter(Boolean).join(", ");
+      return k._priloha?{pr:true,h:"+ "+escHtml(k.nazov)}
+        :{pr:false,h:`<button type="button" class="lnk sur-klik" onclick="${naTentoTyzden}otvor('${cid}',{di:${di},slot:'${sl}'})">${escHtml(k.nazov)}</button>`};}).filter(Boolean);
+    // F: doplnok („+ Kuracie prsia") sa pripája medzerou, nie čiarkou. Pri zalomení riadku
+    // na telefóne inak riadok začínal interpunkciou: „, + Kuracie prsia (doplnok)".
+    const mena=casti.reduce((a,x)=>a?a+(x.pr?" ":", ")+x.h:x.h,"");
     h+=`<div class="dnes-row"><span class="dnes-slot">${S.blokMode?znakBloku(blokIndex(di)):""} ${ikony[sl]||""} ${sl}</span><span>${mena}</span></div>`;
   });
   const cot=document.getElementById("cotvarit-panel");
-  if(!any && !hVar){ el.innerHTML='<p class="info">Na dnes nič naplánované. Zostav jedálniček alebo pridaj jedlá v Pláne.</p>'; if(cot)cot.style.display=""; return; }
+  const panel=document.getElementById("dnes-plan-panel");
+  // E: keď na dnes nič nie je, panel „Dnešný plán" sa celý skryje. Jeho jediným obsahom
+  // bola veta „nič naplánované" a tlačil primárnu akciu o ~140 px nižšie; to isté povie
+  // panel „Čo variť dnes?" aj tlačidlo „✨ Zostaviť jedálniček", ktoré tým vyjdú vyššie.
+  if(!any && !hVar){ el.innerHTML=""; if(panel)panel.style.display="none"; if(cot)cot.style.display=""; return; }
+  if(panel)panel.style.display="";
   if(cot)cot.style.display="none";
   let out=hVar;
   if(any){ const ciel=S.profil.kcal||0;
@@ -3813,7 +3869,7 @@ function renderKalendar(){ const grid=document.getElementById("kal-grid"), lab=d
   for(let i=0;i<start;i++) h+='<div class="day mimo"></div>';
   for(let d=1;d<=dniVMes;d++){ const iso=rok+"-"+String(mes+1).padStart(2,"0")+"-"+String(d).padStart(2,"0"); const ev=mapa[iso]||[];
     const naplanovane=S.plan[iso]&&Object.keys(S.plan[iso]).length>0;
-    h+=`<div class="day${iso===dnes?' dnes':''}" style="cursor:pointer" title="Ísť na týždeň tohto dňa v Pláne" onclick="skokNaTyzdenDna('${iso}')"><div class="dn">${d}${naplanovane?'<span class="plan-dot" title="naplánované">●</span>':''}</div>${ev.map(n=>`<div class="ev" title="${escHtml(n)}">${escHtml(n)}</div>`).join("")}</div>`; }
+    h+=`<div class="day${iso===dnes?' je-dnes':''}" style="cursor:pointer" title="Ísť na týždeň tohto dňa v Pláne" onclick="skokNaTyzdenDna('${iso}')"><div class="dn">${d}${naplanovane?'<span class="plan-dot" title="naplánované">●</span>':''}</div>${ev.map(n=>`<div class="ev" title="${escHtml(n)}">${escHtml(n)}</div>`).join("")}</div>`; }
   h+="</div>"; if(!(S.uvarene||[]).length) h+='<p class="info" style="margin-top:10px">Zatiaľ žiadna história. Po dokončení režimu varenia sa jedlo zapíše do kalendára.</p>';
   grid.innerHTML=h; }
 function planVarenia(di){ const dni=blokDni(di); const den=S.plan[datumPre(dni[0])]||{};
