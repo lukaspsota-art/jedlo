@@ -157,6 +157,9 @@
   table.ing td{padding:8px 6px;border-bottom:1px solid var(--line);font-size:15px}
   table.ing td.mn{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--accent-txt);font-weight:600}
   table.ing td .pozn{color:var(--muted);font-size:13px;font-style:italic}
+  table.ing tr.ing-prf th{text-align:left;padding:14px 6px 6px;font-size:14px;color:var(--accent-txt);border-bottom:1px solid var(--line)}
+  table.ing tr.ing-prf th .pozn{color:var(--muted);font-size:13px;font-weight:400}
+  ol.postup li.krok-prf{margin-top:16px}
   .subst{font-size:13px;color:var(--muted);background:#faf8f2;border:1px dashed var(--line);border-radius:10px;padding:10px 12px;margin-top:10px}
   .subst b{color:var(--accent-txt)}
   ol.postup{padding-left:22px;margin:0}
@@ -1089,7 +1092,7 @@
 
     <div class="view active" id="v-domov">
       <h2 class="h" id="pozdrav">Dobrý deň</h2>
-      <p class="sub" id="datum-sub">aktualizované 06.09.2026</p>
+      <p class="sub" id="datum-sub">aktualizované 13.09.2026</p>
       <!-- Poradie Domova je zámerné: prvý viewport patrí tomu, PREČO sa appka otvára —
            čo dnes variť a čo dnes ješ. Dlaždice s metrikami a panel „Pre koho varíš"
            (čo sú nastavenia domácnosti, nie obsah) idú pod primárnu akciu. Predtým
@@ -2256,7 +2259,14 @@ async function zmazMojRecept(id){ if(!await confirmModal("Zmazať tento vlastný
   S.mojeRecepty=S.mojeRecepty.filter(r=>r.id!==id); const i=RECEPTY.findIndex(r=>r.id===id); if(i>=0)RECEPTY.splice(i,1);
   delete S.fav[id]; delete S.hodn[id]; zabudniVyzivu(); save(); zavri(); renderChips(); renderGrid(); }
 
-let aktualny=null, aktPorcie=1, aktVelkost=1, jednotkaMode="metric";
+let aktualny=null, aktPorcie=1, aktVelkost=1, jednotkaMode="metric", aktPrilohy=[];
+// Prílohy (`prf:*`) v tom istom slote. Nemajú vlastnú kartu, takže ich gramáž aj postup
+// patria do detailu hlavného jedla — inak sa „+ Ryža (príloha)" nedá nikde rozkliknúť.
+// Porcie si príloha NEDRŽÍ vlastné — škáluje sa spolu s hlavným jedlom cez `aktPorcie`,
+// inak po prepnutí porcií 2→4 narastie len hlavný recept a ryža ostane na dvoch.
+function _prilohySlotu(id,ctx){ if(!(ctx&&ctx.di!=null))return [];
+  return slotIds(ctx.di,ctx.slot).filter(c=>c!==id&&typeof c==="string"&&c.indexOf("prf:")===0)
+    .map(c=>komponent(c)).filter(Boolean); }
 let _poslednyCtx=null; // D8: kontext plánu (deň/slot/porcie), z ktorého bol detail otvorený
 function otvor(id, ctx){
   const r=receptById(id); if(!r)return; aktualny=r; jednotkaMode="metric";
@@ -2265,6 +2275,7 @@ function otvor(id, ctx){
   // predtým sa zaokrúhľovali dokopy na celé číslo, čím sa pri malom počte porcií % veľkosti niekedy stratilo úplne (zaokrúhlilo naspäť na 100 %).
   if(ctx&&ctx.di!==undefined){ aktPorcie=porcieSlotBlok(ctx.di,ctx.slot,id); aktVelkost=pf(ctx.di,ctx.slot); }
   else { aktPorcie=r.porcie||1; aktVelkost=1; }
+  aktPrilohy=_prilohySlotu(id,_poslednyCtx);
   const al=alergenyReceptu(r); const d=diety(r);
   // Zdroj miniatúry je 320×180; v detaile ju preto nenaťahujeme cez celú šírku (max 480 px),
   // inak by bola na počítači rozmazaná. Pevný pomer 16:9 = žiadny posun rozloženia pri načítaní.
@@ -2324,18 +2335,22 @@ function otvor(id, ctx){
 function _fokusDoModalu(id){ const m=document.getElementById(id); if(!m||!m.querySelector)return;
   const el=m.querySelector(".close")||m.querySelector("button,[tabindex='0'],a[onclick]");
   if(el&&typeof el.focus==="function") setTimeout(()=>{ try{el.focus();}catch(_){} },0); }
+function _ingRiadok(i,fPocet){
+  let mn="";
+  if(i.mnozstvo!=null){ mn=prevodJednotka(skalovanaHodnota(i.mnozstvo,i.jednotka,fPocet,aktVelkost), i.jednotka||""); }
+  else if(i.poznamka){ mn=i.poznamka; }
+  const pozn=(i.mnozstvo!=null&&i.poznamka)?` <span class="pozn">(${escHtml(i.poznamka)})</span>`:"";
+  // B7: bez tejto vety by kalórie porcie nesedeli s hrubým súčtom surovín a vyzeralo by to ako chyba
+  const vs=vsiaknuteho(i);
+  const vsPozn=(i.mnozstvo!=null&&vs<1)?` <span class="pozn">· do jedla ide ~${Math.round(vs*100)} %, zvyšok sa zleje</span>`:"";
+  return `<tr><td>${escHtml(i.nazov)}${pozn}${vsPozn}</td><td class="mn">${escHtml(mn)}</td></tr>`;
+}
 function renderIng(){
   const r=aktualny; const fPocet=r.porcie?(aktPorcie/r.porcie):1; let rows="";
-  (r.ingrediencie||[]).forEach(i=>{
-    let mn="";
-    if(i.mnozstvo!=null){ mn=prevodJednotka(skalovanaHodnota(i.mnozstvo,i.jednotka,fPocet,aktVelkost), i.jednotka||""); }
-    else if(i.poznamka){ mn=i.poznamka; }
-    const pozn=(i.mnozstvo!=null&&i.poznamka)?` <span class="pozn">(${escHtml(i.poznamka)})</span>`:"";
-    // B7: bez tejto vety by kalórie porcie nesedeli s hrubým súčtom surovín a vyzeralo by to ako chyba
-    const vs=vsiaknuteho(i);
-    const vsPozn=(i.mnozstvo!=null&&vs<1)?` <span class="pozn">· do jedla ide ~${Math.round(vs*100)} %, zvyšok sa zleje</span>`:"";
-    rows+=`<tr><td>${escHtml(i.nazov)}${pozn}${vsPozn}</td><td class="mn">${escHtml(mn)}</td></tr>`;
-  });
+  (r.ingrediencie||[]).forEach(i=>{ rows+=_ingRiadok(i,fPocet); });
+  aktPrilohy.forEach(p=>{ const fp=aktPorcie/(p.porcie||1); const vk=vyzivaReceptu(p);
+    rows+=`<tr class="ing-prf"><th colspan="2" scope="colgroup">+ ${escHtml(p.nazov)}${vk.kcal>5?` <span class="pozn">· ${Math.round(vk.kcal*fp*aktVelkost)} kcal spolu</span>`:""}</th></tr>`;
+    (p.ingrediencie||[]).forEach(i=>{ rows+=_ingRiadok(i,fp); }); });
   document.getElementById("ing-body").innerHTML=rows;
   const v=vyzivaReceptu(r); const box=document.getElementById("nutri");
   if(v.kcal>5){ box.style.display="grid";
@@ -2347,20 +2362,32 @@ function renderIng(){
       <div><b>${fmt(v.t)} g</b><small>tuky</small></div>
       <div><b>${fmt(v.s)} g</b><small>sacharidy</small></div>${sp}`;
   } else box.style.display="none";
+  // Bunka plánu sčíta kcal za CELÝ slot (hlavné jedlo + príloha), dlaždice vyššie sú len za recept.
+  // Bez tohto riadku svieti v pláne 618 kcal a v detaile 420 — dve čísla za to isté jedlo.
+  // `porcie` prílohy je 1 (komponent()), takže vyzivaReceptu(p) je rovno „na jednu porciu" ako kcalPorcia.
+  const vp=aktPrilohy.reduce((a,p)=>{ const k=vyzivaReceptu(p);
+    return {kcal:a.kcal+k.kcal,b:a.b+k.b,t:a.t+k.t,s:a.s+k.s}; },{kcal:0,b:0,t:0,s:0});
   const sp=document.getElementById("nutri-spolu");
-  if(sp){ if(v.kcal>5 && (aktPorcie>1||aktVelkost!==1)){ sp.style.display="block";
-      const nasobok=aktPorcie*aktVelkost;
-      sp.innerHTML=`Spolu za <b>${aktPorcie} porcií${aktVelkost!==1?" × "+Math.round(aktVelkost*100)+" %":""}</b>: ${Math.round(v.kcal*nasobok)} kcal · B ${fmtG(v.b*nasobok)} g · T ${fmtG(v.t*nasobok)} g · S ${fmtG(v.s*nasobok)} g`;
+  if(sp){ if(v.kcal>5 && (aktPrilohy.length||aktPorcie>1||aktVelkost!==1)){ sp.style.display="block";
+      const nasobok=aktPorcie*aktVelkost; let sh="";
+      if(aktPrilohy.length) sh+=`S prílohou (${escHtml(aktPrilohy.map(p=>p.nazov).join(", "))}): <b>${Math.round(v.kcal+vp.kcal)} kcal/porcia</b> · B ${fmtG(v.b+vp.b)} g · T ${fmtG(v.t+vp.t)} g · S ${fmtG(v.s+vp.s)} g<br>`;
+      if(aktPorcie>1||aktVelkost!==1) sh+=`Spolu za <b>${aktPorcie} porcií${aktVelkost!==1?" × "+Math.round(aktVelkost*100)+" %":""}</b>: ${Math.round((v.kcal+vp.kcal)*nasobok)} kcal · B ${fmtG((v.b+vp.b)*nasobok)} g · T ${fmtG((v.t+vp.t)*nasobok)} g · S ${fmtG((v.s+vp.s)*nasobok)} g`;
+      sp.innerHTML=sh;
     } else sp.style.display="none"; }
   const um=document.getElementById("unit-mode"); if(um)um.value=jednotkaMode;
   renderPostup(fPocet,aktVelkost);
 }
-function krokHint(text,fPocet,fVelkost){ const h=bezDia(text); const found=[];
-  (aktualny.ingrediencie||[]).forEach(i=>{ if(i.mnozstvo==null)return; const nm=bezDia(i.nazov); const prve=nm.split(" ")[0];
+function krokHint(text,fPocet,fVelkost,zdroj){ const h=bezDia(text); const found=[];
+  ((zdroj||aktualny).ingrediencie||[]).forEach(i=>{ if(i.mnozstvo==null)return; const nm=bezDia(i.nazov); const prve=nm.split(" ")[0];
     if(nm.length>2 && (h.includes(nm)||(prve.length>3&&h.includes(prve)))) found.push(escHtml(i.nazov+" "+prevodJednotka(skalovanaHodnota(i.mnozstvo,i.jednotka,fPocet,fVelkost),i.jednotka||""))); });
   return found.length? ` <span class="krok-mn">▸ ${found.join(" · ")}</span>`:""; }
 function renderPostup(fPocet,fVelkost){ const ol=document.getElementById("postup-ol"); if(!ol)return;
-  ol.innerHTML=(aktualny.postup||[]).map(k=>`<li>${escHtml(k)}${krokHint(k,fPocet,fVelkost)}</li>`).join(""); }
+  let h=(aktualny.postup||[]).map(k=>`<li>${escHtml(k)}${krokHint(k,fPocet,fVelkost)}</li>`).join("");
+  aktPrilohy.forEach(p=>{ const fp=aktPorcie/(p.porcie||1);
+    h+=(p.postup||[]).map((k,ix)=>`<li${ix===0?' class="krok-prf"':''}>${ix===0?`<b>${escHtml(p.nazov)}:</b> `:""}${escHtml(k)}${krokHint(k,fp,fVelkost,p)}</li>`).join(""); });
+  ol.innerHTML=h; }
+// Varenie musí ukázať to isté, čo detail — inak si používateľ prečíta postup prílohy a v kuchyni zmizne.
+function _prilohaKroky(){ return aktPrilohy.reduce((a,p)=>a.concat((p.postup||[]).map((k,ix)=>ix===0?p.nazov+": "+k:k)),[]); }
 function renderSubst(){
   const r=aktualny; let items=[];
   (r.ingrediencie||[]).forEach(i=>{ const n=i.nazov.toLowerCase();
@@ -2493,7 +2520,7 @@ let casovace=[], casInterval=null, casId=0;
 // nastavujeme ho priamo na .cook podľa bloku, v ktorom sa tento recept varí.
 const COOK_BLOKY=["#E39CC4","#6FCBE4","#BCD05E"];
 function blokReceptu(id){ const it=planItems().find(x=>x.cid===id||x.r.id===id); return it?blokIndex(it.di):null; }
-async function spustiCook(){ cookKroky=aktualny.postup||[]; cookKrok=0; cookRecept=aktualny.id;
+async function spustiCook(){ cookKroky=(aktualny.postup||[]).concat(_prilohaKroky()); cookKrok=0; cookRecept=aktualny.id;
   const bi=blokReceptu(aktualny.id);
   const el=document.getElementById("cook");
   el.style.setProperty("--akcent", bi==null?"#6FCBE4":COOK_BLOKY[bi%3]);
@@ -2527,17 +2554,26 @@ function citajKrok(){ try{ if(!('speechSynthesis' in window))return; speechSynth
 async function krok(d){ if(d>0 && cookKrok===cookKroky.length-1){ oznacUvarene(cookRecept); const rr=receptById(cookRecept); zavriCook(); if(rr && S.spajza.length && await confirmModal("Uvarené! Odpísať suroviny zo špajze?")) odpisRecept(rr); return; } cookKrok=Math.min(cookKroky.length-1,Math.max(0,cookKrok+d)); ukazKrok(); }
 function zavriCook(){ if(!document.getElementById("cook").classList.contains("open"))return; document.getElementById("cook").classList.remove("open"); _zahodHistoriuModalu(); _vratFokus(); casovace=[]; if(casInterval){clearInterval(casInterval);casInterval=null;} renderCasovace(); try{speechSynthesis.cancel();}catch(e){} if(wakeLock){wakeLock.release();wakeLock=null;} }
 function oznacUvarene(id){ if(!id)return; S.uvarene.unshift({id:id,datum:isoZDatumu(new Date())}); S.uvarene=S.uvarene.slice(0,30); save(); }
+// Príloha nie je recept a nedá sa rozkliknúť — gramáž aj postup preto musí niesť sama,
+// inak sa používateľ z plánu nedozvie ani koľko ryže dať variť, ani ako dlho.
 const PRILOHY = {
- "prf:ryza":{nazov:"Ryža (príloha)", ing:{nazov:"Ryža",mnozstvo:60,jednotka:"g"}},
- "prf:zemiaky":{nazov:"Zemiaky (príloha)", ing:{nazov:"Zemiaky",mnozstvo:250,jednotka:"g"}},
- "prf:cestoviny":{nazov:"Cestoviny (príloha)", ing:{nazov:"Cestoviny",mnozstvo:80,jednotka:"g"}},
- "prf:pecivo":{nazov:"Pečivo", ing:{nazov:"Bageta",mnozstvo:80,jednotka:"g"}},
- "prf:salat":{nazov:"Zeleninový šalát", ing:{nazov:"Paradajky",mnozstvo:120,jednotka:"g"}},
+ "prf:ryza":{nazov:"Ryža (príloha)", ing:{nazov:"Ryža",mnozstvo:60,jednotka:"g"},
+   postup:["Ryžu prepláchni v studenej vode, kým voda neostane číra.","Zalej 1,5-násobkom vody (na 60 g ryže ~90 ml), osoľ a priveď do varu.","Prikry a var na miernom ohni 12–15 min, kým sa voda nevsiakne. Potom nechaj 5 min odstáť pod pokrievkou."]},
+ "prf:zemiaky":{nazov:"Zemiaky (príloha)", ing:{nazov:"Zemiaky",mnozstvo:250,jednotka:"g"},
+   postup:["Zemiaky ošúp a nakrájaj na rovnako veľké kusy.","Zalej studenou osolenou vodou a var 20–25 min domäkka (nôž prejde bez odporu).","Vodu zleji a nechaj chvíľu odpariť."]},
+ "prf:cestoviny":{nazov:"Cestoviny (príloha)", ing:{nazov:"Cestoviny",mnozstvo:80,jednotka:"g"},
+   postup:["Na každých 100 g cestovín daj variť 1 l vody a 10 g soli.","Cestoviny var podľa obalu al dente, zvyčajne 8–11 min.","Pred zliatím si odlož hrnček vody z varenia — ňou sa riedi omáčka."]},
+ "prf:pecivo":{nazov:"Pečivo", ing:{nazov:"Bageta",mnozstvo:80,jednotka:"g"},
+   postup:["Bagetu nakrájaj na hrubšie plátky.","Voliteľne opeč 3–4 min v hriankovači alebo na suchej panvici."]},
+ "prf:salat":{nazov:"Zeleninový šalát", ing:{nazov:"Paradajky",mnozstvo:120,jednotka:"g"},
+   postup:["Paradajky umy a nakrájaj na kúsky.","Zamiešaj s lyžicou olivového oleja, kvapkou octu, soľou a čerstvo mletým korením."]},
  // A3: polievka a šalát ako hlavné jedlo potrebujú doplnok, inak vyjde večera na 150 kcal
- "prf:bielkovina":{nazov:"Kuracie prsia (doplnok)", ing:{nazov:"Kuracie prsia",mnozstvo:120,jednotka:"g"}},
- "prf:bielkovina_veg":{nazov:"Cottage syr (doplnok)", ing:{nazov:"Cottage syr",mnozstvo:150,jednotka:"g"}}
+ "prf:bielkovina":{nazov:"Kuracie prsia (doplnok)", ing:{nazov:"Kuracie prsia",mnozstvo:120,jednotka:"g"},
+   postup:["Kuracie prsia osoľ a okoreň.","Opekaj na lyžici oleja 5–6 min z každej strany, kým nie sú vnútri celkom biele (74 °C).","Nechaj 3 min odpočívať a nakrájaj na plátky."]},
+ "prf:bielkovina_veg":{nazov:"Cottage syr (doplnok)", ing:{nazov:"Cottage syr",mnozstvo:150,jednotka:"g"},
+   postup:["Cottage syr vyklop k jedlu, osoľ a okoreň. Nevarí sa."]}
 };
-function komponent(id){ if(typeof id==="string" && id.indexOf("prf:")===0){ const p=PRILOHY[id]; if(!p)return null; return {id:id,nazov:p.nazov,kategoria:"Príloha",kuchyna:"",porcie:1,ingrediencie:[p.ing],postup:[],_priloha:true}; }
+function komponent(id){ if(typeof id==="string" && id.indexOf("prf:")===0){ const p=PRILOHY[id]; if(!p)return null; return {id:id,nazov:p.nazov,kategoria:"Príloha",kuchyna:"",porcie:1,ingrediencie:[p.ing],postup:(p.postup||[]).slice(),_priloha:true}; }
   if(typeof id==="string" && id.indexOf("left:")===0){ const r=receptById(id.slice(5)); if(!r)return null; return Object.assign({},r,{id:id,_left:true,_srcId:r.id}); } // zvyšok: ráta do kcal, nie do nákupu
   return receptById(id); }
 function slotIds(di,slot){ const v=(S.plan[datumPre(di)]||{})[slot]; if(!v)return []; return Array.isArray(v)?v.slice():[v]; }

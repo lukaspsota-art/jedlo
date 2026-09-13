@@ -145,6 +145,18 @@ názvu. Výsledok je cachovaný.
   Príloha-tokeny `prf:*` (PRILOHY) sú virtuálne recepty. **Snackový slot môže mať dvojicu**
   (jablko + orechy), ale oba komponenty sú **skutočné kúpené výrobky**, nie `prf:` tokeny —
   majú vlastnú kartu, vlastný riadok v nákupe aj vlastnú cenu.
+  **Príloha sa nedá rozkliknúť, preto jej gramáž aj postup nesie detail hlavného jedla**:
+  každý záznam v `PRILOHY` má vlastný `postup[]`, `otvor()` si cez `_prilohySlotu` vytiahne
+  `prf:` súrodencov zo slotu do `aktPrilohy` a `renderIng`/`renderPostup`/`spustiCook` ich
+  pripoja za hlavný recept. Nový `prf:` token bez `postup[]` je preto polovičný — používateľ
+  uvidí gramáž bez prípravy. Kryje `e2e/testy/03-detail.js`.
+  **Príloha škáluje cez `aktPorcie`, nie cez vlastné porcie** — inak sa po prepnutí porcií
+  2→4 zdvojnásobí hlavné jedlo a ryža ostane na dvoch.
+  **Dlaždice `#nutri` sú za SAMOTNÝ recept, `#nutri-spolu` pripočíta prílohu** („S prílohou:
+  618 kcal/porcia"). Bunka plánu sčítava `kcalPorcia` za celý slot, takže bez toho riadku
+  svieti v pláne 618 a v detaile 420 — dve čísla za to isté jedlo. `porcie` prílohy je 1
+  (`komponent()`), takže `vyzivaReceptu(p)` je rovno „na jednu porciu" ako `kcalPorcia`.
+  E2E to porovnáva s `mealKcal(slotIds(...)) × pf(...)`, teda nad vykresleným textom.
 - `stravniciList()`, `baseDayKcal`, `pocetPorcii` — prepočet množstiev pre viacerých stravníkov
   s rôznymi kalóriami.
 - **„%" faktor (`S.planF`, `rescaleDen`, `pf()`) existuje** — jemné dorovnanie dňa na cieľ,

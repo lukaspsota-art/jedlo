@@ -163,6 +163,45 @@ module.exports = {
     });
     await t.ok(nutri.vidno && /kcal/.test(nutri.text), "detail ukáže kcal a makrá", JSON.stringify(nutri));
 
+    // ── príloha v detaile hlavného jedla ────────────────────────────────────
+    // `prf:*` nemá vlastnú kartu ani sa nedá rozkliknúť — jej gramáž a postup
+    // musí ukázať detail hlavného jedla, inak ich používateľ nemá kde zistiť.
+    const prl = await page.evaluate(() => {
+      const r = RECEPTY.find((x) => isMain(x) && potrebujePrilohu(x) && (x.postup || []).length);
+      const prf = prilohaPre(r, 0);
+      const iso = datumPre(0);
+      S.plan[iso] = S.plan[iso] || {};
+      S.plan[iso]["Obed"] = [r.id, prf];
+      save();
+      window.otvor(r.id, { di: 0, slot: "Obed" });
+      const p = PRILOHY[prf];
+      const ing = document.getElementById("ing-body").innerText;
+      const zaHlavickou = (ing.split("+ " + p.nazov)[1] || "");
+      // Číslo v detaile musí sedieť s číslom v bunke plánu — inak svieti 587 kcal v pláne
+      // a 420 v detaile. Meria sa VYKRESLENÝ text, nie deklarácia (CLAUDE.md, otvorený bod 17).
+      const spolu = document.getElementById("nutri-spolu");
+      const m = spolu.innerText.match(/S prílohou[^:]*:\s*(\d+)\s*kcal/);
+      const f = pf(0, "Obed");
+      return {
+        nazov: p.nazov,
+        hlavicka: ing.includes("+ " + p.nazov),
+        surovina: zaHlavickou.includes(p.ing.nazov),
+        gramaz: /\d+([,.]\d+)?\s*g/.test(zaHlavickou),
+        postup: document.getElementById("postup-ol").innerText.includes(p.postup[0]),
+        spoluVidno: getComputedStyle(spolu).display !== "none",
+        detailKcal: m ? Math.round(Number(m[1]) * f) : null,
+        bunkaKcal: Math.round(mealKcal(slotIds(0, "Obed")) * f),
+        vareniePrvyKrok: (window.spustiCook(), cookKroky.some((k) => k.includes(p.postup[0]))),
+      };
+    });
+    await t.ok(prl.hlavicka && prl.surovina, `detail ukáže surovinu prílohy „${prl.nazov}“`, JSON.stringify(prl));
+    await t.ok(prl.gramaz, "príloha má v detaile gramáž prepočítanú na porcie", JSON.stringify(prl));
+    await t.ok(prl.postup, "detail ukáže postup prípravy prílohy", JSON.stringify(prl));
+    await t.ok(prl.vareniePrvyKrok, "režim varenia obsahuje kroky prílohy", JSON.stringify(prl));
+    await t.ok(prl.spoluVidno && prl.detailKcal != null, "detail ukáže kalórie vrátane prílohy", JSON.stringify(prl));
+    await t.ok(prl.detailKcal != null && Math.abs(prl.detailKcal - prl.bunkaKcal) <= 2,
+      "kcal s prílohou v detaile sedia s bunkou plánu", JSON.stringify(prl));
+
     await zavriOkna(page);
     await t.ok(page.chyby.length === 0, "žiadna chyba v konzole v detaile receptu",
       page.chyby.map((c) => `${c.typ}: ${c.text}`).join("\n"));

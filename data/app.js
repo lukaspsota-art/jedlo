@@ -895,9 +895,11 @@ async function zmazMojRecept(id){ if(!await confirmModal("Zmazať tento vlastný
 let aktualny=null, aktPorcie=1, aktVelkost=1, jednotkaMode="metric", aktPrilohy=[];
 // Prílohy (`prf:*`) v tom istom slote. Nemajú vlastnú kartu, takže ich gramáž aj postup
 // patria do detailu hlavného jedla — inak sa „+ Ryža (príloha)" nedá nikde rozkliknúť.
+// Porcie si príloha NEDRŽÍ vlastné — škáluje sa spolu s hlavným jedlom cez `aktPorcie`,
+// inak po prepnutí porcií 2→4 narastie len hlavný recept a ryža ostane na dvoch.
 function _prilohySlotu(id,ctx){ if(!(ctx&&ctx.di!=null))return [];
   return slotIds(ctx.di,ctx.slot).filter(c=>c!==id&&typeof c==="string"&&c.indexOf("prf:")===0)
-    .map(c=>{ const k=komponent(c); return k?{k:k,por:porcieSlotBlok(ctx.di,ctx.slot,c)}:null; }).filter(Boolean); }
+    .map(c=>komponent(c)).filter(Boolean); }
 let _poslednyCtx=null; // D8: kontext plánu (deň/slot/porcie), z ktorého bol detail otvorený
 function otvor(id, ctx){
   const r=receptById(id); if(!r)return; aktualny=r; jednotkaMode="metric";
@@ -979,9 +981,9 @@ function _ingRiadok(i,fPocet){
 function renderIng(){
   const r=aktualny; const fPocet=r.porcie?(aktPorcie/r.porcie):1; let rows="";
   (r.ingrediencie||[]).forEach(i=>{ rows+=_ingRiadok(i,fPocet); });
-  aktPrilohy.forEach(p=>{ const fp=p.por/(p.k.porcie||1); const vk=vyzivaReceptu(p.k);
-    rows+=`<tr class="ing-prf"><th colspan="2" scope="colgroup">+ ${escHtml(p.k.nazov)}${vk.kcal>5?` <span class="pozn">· ${Math.round(vk.kcal*fp*aktVelkost)} kcal spolu</span>`:""}</th></tr>`;
-    (p.k.ingrediencie||[]).forEach(i=>{ rows+=_ingRiadok(i,fp); }); });
+  aktPrilohy.forEach(p=>{ const fp=aktPorcie/(p.porcie||1); const vk=vyzivaReceptu(p);
+    rows+=`<tr class="ing-prf"><th colspan="2" scope="colgroup">+ ${escHtml(p.nazov)}${vk.kcal>5?` <span class="pozn">· ${Math.round(vk.kcal*fp*aktVelkost)} kcal spolu</span>`:""}</th></tr>`;
+    (p.ingrediencie||[]).forEach(i=>{ rows+=_ingRiadok(i,fp); }); });
   document.getElementById("ing-body").innerHTML=rows;
   const v=vyzivaReceptu(r); const box=document.getElementById("nutri");
   if(v.kcal>5){ box.style.display="grid";
@@ -993,20 +995,32 @@ function renderIng(){
       <div><b>${fmt(v.t)} g</b><small>tuky</small></div>
       <div><b>${fmt(v.s)} g</b><small>sacharidy</small></div>${sp}`;
   } else box.style.display="none";
+  // Bunka plánu sčíta kcal za CELÝ slot (hlavné jedlo + príloha), dlaždice vyššie sú len za recept.
+  // Bez tohto riadku svieti v pláne 618 kcal a v detaile 420 — dve čísla za to isté jedlo.
+  // `porcie` prílohy je 1 (komponent()), takže vyzivaReceptu(p) je rovno „na jednu porciu" ako kcalPorcia.
+  const vp=aktPrilohy.reduce((a,p)=>{ const k=vyzivaReceptu(p);
+    return {kcal:a.kcal+k.kcal,b:a.b+k.b,t:a.t+k.t,s:a.s+k.s}; },{kcal:0,b:0,t:0,s:0});
   const sp=document.getElementById("nutri-spolu");
-  if(sp){ if(v.kcal>5 && (aktPorcie>1||aktVelkost!==1)){ sp.style.display="block";
-      const nasobok=aktPorcie*aktVelkost;
-      sp.innerHTML=`Spolu za <b>${aktPorcie} porcií${aktVelkost!==1?" × "+Math.round(aktVelkost*100)+" %":""}</b>: ${Math.round(v.kcal*nasobok)} kcal · B ${fmtG(v.b*nasobok)} g · T ${fmtG(v.t*nasobok)} g · S ${fmtG(v.s*nasobok)} g`;
+  if(sp){ if(v.kcal>5 && (aktPrilohy.length||aktPorcie>1||aktVelkost!==1)){ sp.style.display="block";
+      const nasobok=aktPorcie*aktVelkost; let sh="";
+      if(aktPrilohy.length) sh+=`S prílohou (${escHtml(aktPrilohy.map(p=>p.nazov).join(", "))}): <b>${Math.round(v.kcal+vp.kcal)} kcal/porcia</b> · B ${fmtG(v.b+vp.b)} g · T ${fmtG(v.t+vp.t)} g · S ${fmtG(v.s+vp.s)} g<br>`;
+      if(aktPorcie>1||aktVelkost!==1) sh+=`Spolu za <b>${aktPorcie} porcií${aktVelkost!==1?" × "+Math.round(aktVelkost*100)+" %":""}</b>: ${Math.round((v.kcal+vp.kcal)*nasobok)} kcal · B ${fmtG((v.b+vp.b)*nasobok)} g · T ${fmtG((v.t+vp.t)*nasobok)} g · S ${fmtG((v.s+vp.s)*nasobok)} g`;
+      sp.innerHTML=sh;
     } else sp.style.display="none"; }
   const um=document.getElementById("unit-mode"); if(um)um.value=jednotkaMode;
   renderPostup(fPocet,aktVelkost);
 }
-function krokHint(text,fPocet,fVelkost){ const h=bezDia(text); const found=[];
-  (aktualny.ingrediencie||[]).forEach(i=>{ if(i.mnozstvo==null)return; const nm=bezDia(i.nazov); const prve=nm.split(" ")[0];
+function krokHint(text,fPocet,fVelkost,zdroj){ const h=bezDia(text); const found=[];
+  ((zdroj||aktualny).ingrediencie||[]).forEach(i=>{ if(i.mnozstvo==null)return; const nm=bezDia(i.nazov); const prve=nm.split(" ")[0];
     if(nm.length>2 && (h.includes(nm)||(prve.length>3&&h.includes(prve)))) found.push(escHtml(i.nazov+" "+prevodJednotka(skalovanaHodnota(i.mnozstvo,i.jednotka,fPocet,fVelkost),i.jednotka||""))); });
   return found.length? ` <span class="krok-mn">▸ ${found.join(" · ")}</span>`:""; }
 function renderPostup(fPocet,fVelkost){ const ol=document.getElementById("postup-ol"); if(!ol)return;
-  ol.innerHTML=(aktualny.postup||[]).map(k=>`<li>${escHtml(k)}${krokHint(k,fPocet,fVelkost)}</li>`).join(""); }
+  let h=(aktualny.postup||[]).map(k=>`<li>${escHtml(k)}${krokHint(k,fPocet,fVelkost)}</li>`).join("");
+  aktPrilohy.forEach(p=>{ const fp=aktPorcie/(p.porcie||1);
+    h+=(p.postup||[]).map((k,ix)=>`<li${ix===0?' class="krok-prf"':''}>${ix===0?`<b>${escHtml(p.nazov)}:</b> `:""}${escHtml(k)}${krokHint(k,fp,fVelkost,p)}</li>`).join(""); });
+  ol.innerHTML=h; }
+// Varenie musí ukázať to isté, čo detail — inak si používateľ prečíta postup prílohy a v kuchyni zmizne.
+function _prilohaKroky(){ return aktPrilohy.reduce((a,p)=>a.concat((p.postup||[]).map((k,ix)=>ix===0?p.nazov+": "+k:k)),[]); }
 function renderSubst(){
   const r=aktualny; let items=[];
   (r.ingrediencie||[]).forEach(i=>{ const n=i.nazov.toLowerCase();
@@ -1139,7 +1153,7 @@ let casovace=[], casInterval=null, casId=0;
 // nastavujeme ho priamo na .cook podľa bloku, v ktorom sa tento recept varí.
 const COOK_BLOKY=["#E39CC4","#6FCBE4","#BCD05E"];
 function blokReceptu(id){ const it=planItems().find(x=>x.cid===id||x.r.id===id); return it?blokIndex(it.di):null; }
-async function spustiCook(){ cookKroky=aktualny.postup||[]; cookKrok=0; cookRecept=aktualny.id;
+async function spustiCook(){ cookKroky=(aktualny.postup||[]).concat(_prilohaKroky()); cookKrok=0; cookRecept=aktualny.id;
   const bi=blokReceptu(aktualny.id);
   const el=document.getElementById("cook");
   el.style.setProperty("--akcent", bi==null?"#6FCBE4":COOK_BLOKY[bi%3]);
