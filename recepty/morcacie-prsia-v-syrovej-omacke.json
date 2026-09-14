@@ -1,111 +1,111 @@
 {
- "id": "morcacie-prsia-v-syrovej-omacke",
- "nazov": "Morčacie prsia v syrovej omáčke",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Morčacie prsia v syrovej omáčke (autor: alex100)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-prsia-v-syrovej-omacke/67416-recept.html",
- "porcie": 8,
- "cas": "95 min",
- "kcal_na_porciu": 262,
- "popis": "Mal som chuť na niečo dobré z kolienkami. Tak som spravil tento recept. No a keďže mi \r\nto chutilo, tak ho dávam aj sem. Možno si pochutí \r\naj niekto iný.",
- "ingrediencie": [
-  {
-   "nazov": "Prsia morčacie",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 4,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Syrokrém",
-   "mnozstvo": 60,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sladká smotana",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 750,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Bujón",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bazalka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horčica",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Mäso nakrájaj na rezne posoľ, pokoreň a opeč na oleji. Opečené odlož nabok.",
-  "Do výpeku daj nadrobno pokrájanú cibuľku a nastrúhaj cesnak. Chvíľku popraž a zalej vodou. Pridaj horčicu, premiešaj a po 5 minútach pridaj kocku bujonu a syr. Zasa var ked je syr roztopený pridaj smotanu. Nechaj povariť asi 10 minút na miernom ohni. Potom ešte pridaj medzi prsty bazalku.",
-  "V mlieku rozmiešaj 1 PL (nie kopcom naplnenú) hladkej múky, aby neboli hrudky a vleješ do vriacej omáčky. Počkaj až omáčka znova zovrie za stáleho miešania. Nakoniec vlož do omáčky upečené mäso a ešte nechaj na veľmi miernom ohni jemne vrieť asi 10 minút.",
-  "Podávaj s cestovinou - kolienka. Petržlenová vňať sa dáva len ako dekorácia na tanier."
- ],
- "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "morčacie",
-  "syr"
- ]
+  "id": "morcacie-prsia-v-syrovej-omacke",
+  "nazov": "Morčacie prsia v syrovej omáčke",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Morčacie prsia v syrovej omáčke (autor: alex100)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-prsia-v-syrovej-omacke/67416-recept.html",
+  "porcie": 8,
+  "cas": "95 min",
+  "kcal_na_porciu": 262,
+  "popis": "Morčacie prsia v syrovej omáčke, ktoré sa podávajú s kolienkami.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia morčacie",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syrokrém",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká smotana",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 750,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Bujón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bazalka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mäso nakrájaj na rezne posoľ, pokoreň a opeč na oleji. Opečené odlož nabok.",
+    "Do výpeku daj nadrobno pokrájanú cibuľku a nastrúhaj cesnak. Chvíľku popraž a zalej vodou. Pridaj horčicu, premiešaj a po 5 minútach pridaj kocku bujonu a syr. Zasa var ked je syr roztopený pridaj smotanu. Nechaj povariť asi 10 minút na miernom ohni. Potom ešte pridaj medzi prsty bazalku.",
+    "V mlieku rozmiešaj 1 PL (nie kopcom naplnenú) hladkej múky, aby neboli hrudky a vleješ do vriacej omáčky. Počkaj až omáčka znova zovrie za stáleho miešania. Nakoniec vlož do omáčky upečené mäso a ešte nechaj na veľmi miernom ohni jemne vrieť asi 10 minút.",
+    "Podávaj s cestovinou - kolienka. Petržlenová vňať sa dáva len ako dekorácia na tanier."
+  ],
+  "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "morčacie",
+    "syr"
+  ]
 }

@@ -1,81 +1,81 @@
 {
- "id": "original-zidovske-macesove-knedlicky-do-polievky",
- "nazov": "Originál židovské macesové knedličky do polievky",
- "kategoria": "Príloha",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Originál židovské macesové knedličky do polievky (autor: pusta)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/original-zidovske-macesove-knedlicky-do-polievky/14597-recept.html",
- "porcie": 4,
- "cas": "100 min",
- "kcal_na_porciu": 167,
- "popis": "Macesové knedličky sa dávajú do Zlatej slepačej polievky - Goldene joich. Sú spájané so židovským sviatkom Pesach, čo je židovská Veľká noc, ale pripravujú sa aj kedykoľvek inokedy. Dakujem židovskému šéfkuchárovi, ktorý ma ich naučil variť, ako aj za jeho láskavý súhlas ich recept uverejniť.",
- "ingrediencie": [
-  {
-   "nazov": "Maces",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Husacia masť",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slepačí vývar",
-   "mnozstvo": 120,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slepačí vývar",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa potreby na varenie kndličiek"
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 2,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zázvor",
-   "mnozstvo": 2,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Muškátový kvet",
-   "mnozstvo": 2,
-   "jednotka": "štipka",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Maces nalám na menšie kúsky a nadrv ho pomocou valčeka nsa cesto, vlož do misy. V inej miske rozšľahaj vajcia s husacou masťou a premiešaj ho s macesom, ktorý osoláš a okoreníš uvedenými koreninami.",
-  "Zmes nesmie byť ani príliš hustá - uvarené knedličky by boli tvrdé a nesmie byť ani riedka, knedličky by sa počas varenia rozpadli. Dohusti pridaním macesu, narieď vývarom do konzistencie, aby sa dali tvarovať knedličky.",
-  "Macesovú masu nechaj 1 hodinu stáť a potom vlhkými rukami tvaruj knedličky o čosi väčšie ako vlašský orech, varením značne zväčšia svoj objem. Knedličky var miernym varom prikryté v slepačom vývare asi 10 minút. Počas varenia neodkrývať a nenajúkať do hrnca.",
-  "Hotové knedličky vkladaj priamo do horúcej polievky alebo ich servíruj zvlášť na podnose a každý si naberie sám podľa chuti. Knedličky môžeš variť aj v osolenej vode, potom ich rob väčšie a podávaj ich ako prílohu k jedlám na šťave. Správne uvarené kneličky majú byť ľahúčke, nadýchané a rozplývajú sa na jazyku."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "príloha",
-  "vajcia",
-  "bezmäsité"
- ]
+  "id": "original-zidovske-macesove-knedlicky-do-polievky",
+  "nazov": "Originál židovské macesové knedličky do polievky",
+  "kategoria": "Príloha",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Originál židovské macesové knedličky do polievky (autor: pusta)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/original-zidovske-macesove-knedlicky-do-polievky/14597-recept.html",
+  "porcie": 4,
+  "cas": "100 min",
+  "kcal_na_porciu": 167,
+  "popis": "Macesové knedličky sa dávajú do zlatej slepačej polievky - Goldene joich a sú spájané so židovským sviatkom Pesach, čo je židovská Veľká noc, ale pripravujú sa aj kedykoľvek inokedy.",
+  "ingrediencie": [
+    {
+      "nazov": "Maces",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Husacia masť",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slepačí vývar",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slepačí vývar",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa potreby na varenie kndličiek"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 2,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 2,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Muškátový kvet",
+      "mnozstvo": 2,
+      "jednotka": "štipka",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Maces nalám na menšie kúsky a nadrv ho pomocou valčeka nsa cesto, vlož do misy. V inej miske rozšľahaj vajcia s husacou masťou a premiešaj ho s macesom, ktorý osoláš a okoreníš uvedenými koreninami.",
+    "Zmes nesmie byť ani príliš hustá - uvarené knedličky by boli tvrdé a nesmie byť ani riedka, knedličky by sa počas varenia rozpadli. Dohusti pridaním macesu, narieď vývarom do konzistencie, aby sa dali tvarovať knedličky.",
+    "Macesovú masu nechaj 1 hodinu stáť a potom vlhkými rukami tvaruj knedličky o čosi väčšie ako vlašský orech, varením značne zväčšia svoj objem. Knedličky var miernym varom prikryté v slepačom vývare asi 10 minút. Počas varenia neodkrývať a nenajúkať do hrnca.",
+    "Hotové knedličky vkladaj priamo do horúcej polievky alebo ich servíruj zvlášť na podnose a každý si naberie sám podľa chuti. Knedličky môžeš variť aj v osolenej vode, potom ich rob väčšie a podávaj ich ako prílohu k jedlám na šťave. Správne uvarené kneličky majú byť ľahúčke, nadýchané a rozplývajú sa na jazyku."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "vajcia",
+    "bezmäsité"
+  ]
 }

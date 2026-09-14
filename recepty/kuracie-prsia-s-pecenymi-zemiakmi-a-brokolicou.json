@@ -1,88 +1,88 @@
 {
- "id": "kuracie-prsia-s-pecenymi-zemiakmi-a-brokolicou",
- "nazov": "Kuracie prsia s pečenými zemiakmi",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kuracie prsia s pečenými zemiakmi a brokolicou (fotorecept) (autor: babkamt)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-prsia-s-pecenymi-zemiakmi-a-brokolicou-fotorecept/36653-recept.html",
- "porcie": 8,
- "cas": "40 min",
- "kcal_na_porciu": 332,
- "popis": "Najprv som chcela k obedu pripraviť len zapečenú brokolicu. No spomenula som si , že \r\nmám naložené kuracie prsia , tak som ich opiekla a pridala k brokolici . Opiekla som aj \r\npár  zemiakov .",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ostrý kečup",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Plnotučná horčica",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Chrenová horčica",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Celá rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Masť domáca bravčová",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Umyté mäso pokrájaj na rezne. Z kečupu, horčice plnotučnej, chrenovej, 100 ml oleja, 1 vajca a soli vymiešaj marinádu. Vlož do nej rezne. Marinuj ich od predošlého dňa. Na druhý deň ich na panvici na oleji opeč.",
-  "Asi 1 kg zemiakov var 10 minút. Potom ich sceď, daj na plech s 1 pl kopcom domácej masti, osoľ ich a pridaj 1 čl kmínu. Upeč ich v rúre.",
-  "K obedu sprav hlávkový šalát."
- ],
- "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kuracie",
-  "bravčové",
-  "vajcia",
-  "zemiaky"
- ]
+  "id": "kuracie-prsia-s-pecenymi-zemiakmi-a-brokolicou",
+  "nazov": "Kuracie prsia s pečenými zemiakmi",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kuracie prsia s pečenými zemiakmi a brokolicou (fotorecept) (autor: babkamt)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-prsia-s-pecenymi-zemiakmi-a-brokolicou-fotorecept/36653-recept.html",
+  "porcie": 8,
+  "cas": "40 min",
+  "kcal_na_porciu": 332,
+  "popis": "Opečené naložené kuracie prsia podávané so zapečenou brokolicou a opekanými zemiakmi.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ostrý kečup",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Plnotučná horčica",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chrenová horčica",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Celá rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Masť domáca bravčová",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Umyté mäso pokrájaj na rezne. Z kečupu, horčice plnotučnej, chrenovej, 100 ml oleja, 1 vajca a soli vymiešaj marinádu. Vlož do nej rezne. Marinuj ich od predošlého dňa. Na druhý deň ich na panvici na oleji opeč.",
+    "Asi 1 kg zemiakov var 10 minút. Potom ich sceď, daj na plech s 1 pl kopcom domácej masti, osoľ ich a pridaj 1 čl kmínu. Upeč ich v rúre.",
+    "K obedu sprav hlávkový šalát."
+  ],
+  "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kuracie",
+    "bravčové",
+    "vajcia",
+    "zemiaky"
+  ]
 }

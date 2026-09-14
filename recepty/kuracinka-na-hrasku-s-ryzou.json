@@ -1,136 +1,135 @@
 {
- "id": "kuracinka-na-hrasku-s-ryzou",
- "nazov": "Kuracie na hrášku v smotanovej omáčke",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kuracinka na hrášku s ryžou (fotorecept) (autor: anjelik138)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kuracinka-na-hrasku-s-ryzou-fotorecept/44366-recept.html",
- "porcie": 13,
- "cas": "55 min",
- "kcal_na_porciu": 236,
- "popis": "Skúšala , pýtala sa  a vyšlo mi to ...:) ;-)",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pretlak z paradajok",
-   "mnozstvo": 140,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pretlak paradajkový domáci",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hrášok",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Múka hladká na zahustenie",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá smotana",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bujón",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sojová omáčka sladká",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sojova omačka klasik",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jazmínová ryža",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Teplá voda",
-   "mnozstvo": 750,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vegeta",
-   "mnozstvo": 3,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Cibuľu orestuj na olivovom oleji, pridaj mäso, okoreň.",
-  "Pridaj obidve pretlaky a priveď do varu.",
-  "Pridaj sojové omáčky, daj z každej asi 1 kl.",
-  "Pridaj hrášok. Ktorý najprv umy.",
-  "Daj tam jeden bujon.",
-  "Zamiešaj a prilej vodu. Nakoniec to zahusti múkou rozmiešanou vo vode.",
-  "Tu už podávaj.",
-  "Chutilo.",
-  "So smotanou.",
-  "Smotana.",
-  "Zjedené"
- ],
- "tipy": "Ryžu pred varením prepláchni, kým voda neostane číra, a počas varenia ju nemiešaj — inak sa rozvarí na kašu.",
- "foto": "",
- "tagy": [
-  "príloha",
-  "kuracie",
-  "ryža"
- ]
+  "id": "kuracinka-na-hrasku-s-ryzou",
+  "nazov": "Kuracie na hrášku v smotanovej omáčke",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kuracinka na hrášku s ryžou (fotorecept) (autor: anjelik138)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kuracinka-na-hrasku-s-ryzou-fotorecept/44366-recept.html",
+  "porcie": 13,
+  "cas": "55 min",
+  "kcal_na_porciu": 236,
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pretlak z paradajok",
+      "mnozstvo": 140,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pretlak paradajkový domáci",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrášok",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Múka hladká na zahustenie",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bujón",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sojová omáčka sladká",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sojova omačka klasik",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jazmínová ryža",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Teplá voda",
+      "mnozstvo": 750,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vegeta",
+      "mnozstvo": 3,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cibuľu orestuj na olivovom oleji, pridaj mäso, okoreň.",
+    "Pridaj obidve pretlaky a priveď do varu.",
+    "Pridaj sojové omáčky, daj z každej asi 1 kl.",
+    "Pridaj hrášok. Ktorý najprv umy.",
+    "Daj tam jeden bujon.",
+    "Zamiešaj a prilej vodu. Nakoniec to zahusti múkou rozmiešanou vo vode.",
+    "Tu už podávaj.",
+    "Chutilo.",
+    "So smotanou.",
+    "Smotana.",
+    "Zjedené"
+  ],
+  "tipy": "Ryžu pred varením prepláchni, kým voda neostane číra, a počas varenia ju nemiešaj — inak sa rozvarí na kašu.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "kuracie",
+    "ryža"
+  ]
 }

@@ -1,58 +1,57 @@
 {
- "id": "celozrnne-palacinky-so-skoricou",
- "nazov": "Celozrnno-orechové palacinky",
- "kategoria": "Raňajky",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Celozrnno-orechové palacinky (autor: dvorka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/celozrnno-orechove-palacinky/64839-recept.html",
- "porcie": 3,
- "cas": "25 min",
- "kcal_na_porciu": 222,
- "popis": "Moja mamka robievala palacinky väčšinou celé doobedie. Piekla ich na jednej panvici a dávala ich postupne ako piekla štyrom hladným krkom ako vtáčatám. Po dopečení poslednej si unavená sadla a moji bratia sa jej s otáznikom v očiach opýtali: \"a čo bude na jedenie?\" Z bielej múky s džemom ich aj moje deti pojedli každý 5 aj viac. A teraz, keď už sú na trhu rôzne a hlavne celozrnné múky, aj dve pala",
- "ingrediencie": [
-  {
-   "nazov": "Špaldová celozrnná múka",
-   "mnozstvo": 5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlašské orechy",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ovsené otruby",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Surové vajíčka",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Najskôr si vymiešaj bielka na tuhý sneh. V mixéri vymiešaj múku s ostatnými sypkými surovinami, žĺtkami a mliekom na hladké polotekuté cesto. Do neho nakoniec vmiešaj sneh z bielkov. Netreba pridávať prášok do pečiva, soľ ani cukor.",
-  "Palacinkárku v strede trochu potri maslom, nalej cesto a dala pomaly piecť. Tak isto urob aj na druhej panvici. Kým sa druhá palacinka piekla, prvú obráť. Dnes mi stačili dve palacinkárky.",
-  "Za 10 minút upeč 9 palaciniek.",
-  "Na potretie použi ovocnú marmeládu, na vrch namiesto čokolády kakaovú polevu vymiešanú z holandského kakaa, sušeného mlieka v pomere 1:1 a osladila som trochou medu. Prilej trochu vody aby bola poleva liateľná, ale nie riedka. Samotná chutí ako čokoládový puding.",
-  "Na palacinkách pre mňa nesmie chýbať biely jogurt a ovocie."
- ],
- "tipy": "Vajcia miešaj na miernom ohni a stiahni ich z platne, kým sú ešte trochu tekuté — dohotovia sa vlastným teplom.",
- "foto": "",
- "tagy": [
-  "raňajky",
-  "celozrnné",
-  "palacinky"
- ]
+  "id": "celozrnne-palacinky-so-skoricou",
+  "nazov": "Celozrnno-orechové palacinky",
+  "kategoria": "Raňajky",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Celozrnno-orechové palacinky (autor: dvorka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/celozrnno-orechove-palacinky/64839-recept.html",
+  "porcie": 3,
+  "cas": "25 min",
+  "kcal_na_porciu": 222,
+  "ingrediencie": [
+    {
+      "nazov": "Špaldová celozrnná múka",
+      "mnozstvo": 5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ovsené otruby",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Surové vajíčka",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najskôr si vymiešaj bielka na tuhý sneh. V mixéri vymiešaj múku s ostatnými sypkými surovinami, žĺtkami a mliekom na hladké polotekuté cesto. Do neho nakoniec vmiešaj sneh z bielkov. Netreba pridávať prášok do pečiva, soľ ani cukor.",
+    "Palacinkárku v strede trochu potri maslom, nalej cesto a peč pomaly. Tak isto urob aj na druhej panvici. Kým sa druhá palacinka pečie, prvú obráť. Stačia dve palacinkárky.",
+    "Za 10 minút upeč 9 palaciniek.",
+    "Na potretie použi ovocnú marmeládu, na vrch namiesto čokolády kakaovú polevu vymiešanú z holandského kakaa a sušeného mlieka v pomere 1:1 a osladenú trochou medu. Prilej trochu vody, aby bola poleva liateľná, ale nie riedka. Samotná chutí ako čokoládový puding.",
+    "Na palacinky pridaj ešte biely jogurt a ovocie."
+  ],
+  "tipy": "Vajcia miešaj na miernom ohni a stiahni ich z platne, kým sú ešte trochu tekuté — dohotovia sa vlastným teplom.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "celozrnné",
+    "palacinky"
+  ]
 }

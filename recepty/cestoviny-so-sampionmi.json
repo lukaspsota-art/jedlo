@@ -1,98 +1,97 @@
 {
- "id": "cestoviny-so-sampionmi",
- "nazov": "Cestoviny so šampiňónmi na smotane",
- "kategoria": "Cestoviny",
- "kuchyna": "Talianska",
- "zdroj": "Varecha.sk – Cestoviny so šampiňónmi (autor: katka78)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-so-sampinonmi/57006-recept.html",
- "porcie": 3,
- "cas": "15 min",
- "kcal_na_porciu": 440,
- "popis": "Fandím projektom, ktoré nejakým spôsobom podporujú malých lokálnych producentov a propagujú poctivé výrobky. Ak môžem, snažím sa ich svojou malou kvapkou v mori podporiť. Nedávno som natrafila na zaujímavý projekt dvoch mladých nadšencov, ktorých snahou je predstaviť ľuďom kvalitné produkty, nové chute a podnietiť ich k experimentovaniu v kuchyni. Tak som získala svojho prvého zajaca v krabici.",
- "ingrediencie": [
-  {
-   "nazov": "Cestoviny",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jarná cibuľka",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šampiňóny",
-   "mnozstvo": 8,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Muškátový oriešok",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Biele víno",
-   "mnozstvo": 50,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sladká smotana",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Parmezán",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa potreby"
-  }
- ],
- "postup": [
-  "Na obale boli označené ako papardele, ja ich poznám aj ako \"lasagnet\", alebo \"lasagna noodles\". Boli skutočne výborné, pevné a nerozvárali sa.",
-  "Cestoviny si začni pripravovať ako prvé, kým zovrie voda a oni sa uvaria, aj omáčka bude hotová.",
-  "Do dostatočne veľkého hrnca nalej vodu, osoľ a priveď k varu. Medzitým si všetko priprav: očisti cesnak, jarnú cibuľku a šampiňóny. Cesnak pokrájaj nadrobno, jarnú cibuľku na kolieska a šampiňóny na plátky. Parmezán nastrúham, petržlenovú vňať nadrobno nasekám, víno, smotanu, soľ a korenie si prichystám, aby boli po ruke pri sporáku.",
-  "Do vriacej osolenej vody vlož cestoviny a var kým nie sú hotové (u mňa to bolo asi 10 minút).",
-  "Súbežne s tým pripravuj omáčku: na panvici si roztop kúsok masla, krátko na ňom opeč cesnak a jarnú cibuľku (trochu cibuľky si odlož bokom na posypanie). Pridaj šampiňóny a tiež krátko opeč.",
-  "Ochutím soľou, strúhaným muškátovým orieškom a mletým čiernym korením, podlej trochou vína a chvíľu povar, aby sa vyparil alkohol. Zalej smotanou a nechaj prehriať, potom pridaj strúhaný parmezán, ktorý omáčku zároveň zhustí.",
-  "Na záver pridaj nasekanú petržlenovú vňať (tiež trochu odlož bokom na posypanie).",
-  "Cestoviny, ktoré sa mi zhruba v tejto chvíli dovarili, precedím a vložím k omáčke. Jemne premiešaj, aby sa s ňou spojili.",
-  "Ihneď podávaj na zohriatom tanieri, ešte trochu ozdob odloženými kolieskami jarnej cibuľky, posyp sekanou petržlenovou vňaťou a pár hoblinkami parmezánu. Čerstvé jedlo, hotové za pár minút."
- ],
- "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "huby",
-  "krémové"
- ]
+  "id": "cestoviny-so-sampionmi",
+  "nazov": "Cestoviny so šampiňónmi na smotane",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "Varecha.sk – Cestoviny so šampiňónmi (autor: katka78)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-so-sampinonmi/57006-recept.html",
+  "porcie": 3,
+  "cas": "15 min",
+  "kcal_na_porciu": 440,
+  "ingrediencie": [
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jarná cibuľka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šampiňóny",
+      "mnozstvo": 8,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Muškátový oriešok",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Biele víno",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladká smotana",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Parmezán",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa potreby"
+    }
+  ],
+  "postup": [
+    "Na obale boli označené ako papardele, ja ich poznám aj ako \"lasagnet\", alebo \"lasagna noodles\". Boli skutočne výborné, pevné a nerozvárali sa.",
+    "Cestoviny si začni pripravovať ako prvé, kým zovrie voda a oni sa uvaria, aj omáčka bude hotová.",
+    "Do dostatočne veľkého hrnca nalej vodu, osoľ a priveď k varu. Medzitým si všetko priprav: očisti cesnak, jarnú cibuľku a šampiňóny. Cesnak pokrájaj nadrobno, jarnú cibuľku na kolieska a šampiňóny na plátky. Parmezán nastrúham, petržlenovú vňať nadrobno nasekám, víno, smotanu, soľ a korenie si prichystám, aby boli po ruke pri sporáku.",
+    "Do vriacej osolenej vody vlož cestoviny a var kým nie sú hotové (u mňa to bolo asi 10 minút).",
+    "Súbežne s tým pripravuj omáčku: na panvici si roztop kúsok masla, krátko na ňom opeč cesnak a jarnú cibuľku (trochu cibuľky si odlož bokom na posypanie). Pridaj šampiňóny a tiež krátko opeč.",
+    "Ochutím soľou, strúhaným muškátovým orieškom a mletým čiernym korením, podlej trochou vína a chvíľu povar, aby sa vyparil alkohol. Zalej smotanou a nechaj prehriať, potom pridaj strúhaný parmezán, ktorý omáčku zároveň zhustí.",
+    "Na záver pridaj nasekanú petržlenovú vňať (tiež trochu odlož bokom na posypanie).",
+    "Cestoviny, ktoré sa mi zhruba v tejto chvíli dovarili, precedím a vložím k omáčke. Jemne premiešaj, aby sa s ňou spojili.",
+    "Ihneď podávaj na zohriatom tanieri, ešte trochu ozdob odloženými kolieskami jarnej cibuľky, posyp sekanou petržlenovou vňaťou a pár hoblinkami parmezánu. Čerstvé jedlo, hotové za pár minút."
+  ],
+  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "huby",
+    "krémové"
+  ]
 }

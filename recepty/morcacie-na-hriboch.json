@@ -1,94 +1,94 @@
 {
- "id": "morcacie-na-hriboch",
- "nazov": "Morčacie na hríboch",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Morčacie na hríboch (fotorecept) (autor: kukulienka71)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-na-hriboch-fotorecept/64038-recept.html",
- "porcie": 5,
- "cas": "30 min",
- "kcal_na_porciu": 258,
- "popis": "Dnes bola aj u nás knedľa po dlhom čase. Mäso s fajnovou šťavou sa k nej výborne \r\nhodilo.",
- "ingrediencie": [
-  {
-   "nazov": "Prsia morčacie",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené hríby",
-   "mnozstvo": 25,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 3,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Repkový olej",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Worchestrová omáčka",
-   "mnozstvo": 45,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Škrob",
-   "mnozstvo": 4,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "A ak k nemu urobíte ryžu, bude komplet hotový ešte skôr. Na oleji spenila cibuľu, pridaj naplátkovaný cesnak a ešte krátko pražila, mletú papriku pridávaj do hrnca stiahnutého z platne a dobre premiešala.",
-  "Po opätovnom vrátení na zdroj tepla prihodila kocky mäsa, opeč ich z každej strany, okorenila, osolila, strekla worchester (zapáčil sa mi aj na podnet @klukaodvody), pridala vopred cez noc namočené sušené hríby. Tie trocha poprekrajuj, nech nevyzerajú ako oslie uši",
-  "Celé zalej vodou z hríbov a ešte nejakú čistú pridaj, aby bolo mäso takmer ponorené. Tlakový hrniec zavrela, natlakovala a var 15 minút. Potom paru vypusti a jedlo znova priviedla k varu.",
-  "Knedľa už bola medzitým hotová a čakala nakrájaná"
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "morčacie",
-  "huby",
-  "zelenina"
- ]
+  "id": "morcacie-na-hriboch",
+  "nazov": "Morčacie na hríboch",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Morčacie na hríboch (fotorecept) (autor: kukulienka71)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-na-hriboch-fotorecept/64038-recept.html",
+  "porcie": 5,
+  "cas": "30 min",
+  "kcal_na_porciu": 258,
+  "popis": "Mäso s chutnou šťavou, ktoré sa výborne hodí ku knedli.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia morčacie",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené hríby",
+      "mnozstvo": 25,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Repkový olej",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Worchestrová omáčka",
+      "mnozstvo": 45,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škrob",
+      "mnozstvo": 4,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "A ak k nemu urobíte ryžu, bude komplet hotový ešte skôr. Na oleji spenila cibuľu, pridaj naplátkovaný cesnak a ešte krátko pražila, mletú papriku pridávaj do hrnca stiahnutého z platne a dobre premiešala.",
+    "Po opätovnom vrátení na zdroj tepla prihodila kocky mäsa, opeč ich z každej strany, okorenila, osolila, strekla worchester (zapáčil sa mi aj na podnet @klukaodvody), pridala vopred cez noc namočené sušené hríby. Tie trocha poprekrajuj, nech nevyzerajú ako oslie uši",
+    "Celé zalej vodou z hríbov a ešte nejakú čistú pridaj, aby bolo mäso takmer ponorené. Tlakový hrniec zavrela, natlakovala a var 15 minút. Potom paru vypusti a jedlo znova priviedla k varu.",
+    "Knedľa už bola medzitým hotová a čakala nakrájaná"
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "morčacie",
+    "huby",
+    "zelenina"
+  ]
 }

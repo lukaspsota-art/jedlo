@@ -1,111 +1,111 @@
 {
- "id": "celozrnne-dalamanky",
- "nazov": "Celozrnné dalamánky",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Celozrnné dalamánky (autor: anina6)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/celozrnne-dalamanky/36116-recept.html",
- "porcie": 8,
- "cas": "55 min",
- "kcal_na_porciu": 214,
- "popis": "Dneska nám došiel chlieb, tak som vyskúšala celozrnné pečivko. Hľa tu je výsledok môjho \r\nsnaženia.",
- "ingrediencie": [
-  {
-   "nazov": "Celozrnná pšeničná múka",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Múka hladká T650",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ražná múka",
-   "mnozstvo": 0.5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "vlažné"
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Celá rasca",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Drvená rasca",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bylinky provensálske",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ocot",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Semená sezamové",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ovsené vločky",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Naprv si priprav kvások z vlažného mlieka, 1/2 lyžice ražnej múky, kryštálového cukru a droždia. Nechaj ho vykysnúť. Múku si preosej a priprav do misky. Pridaj kvások, rascu, provesálské bylinky, soľ, olej, ocot a vymies cesto.",
-  "Cesto urob redšie, nie až také tuhé ako na chlieb a používala som na miesenie vlažnú jemne perlivú vodu. Mies asi 10 minút. Nechaj cesto oddýchnuť v teple a medzitým si priprav dobrú kávičku a oddychuj aj my. Po hodinke cesto premies ešte raz a nechaj oddýchnúť asi 10 minút.",
-  "Priprav si plech, a rozvaľkaj si cesto. Na plechu nechaj ešte asi 20 minút a ked je vykysnuté, potri slanou studenou vodou, ozdob sezamom a ovsenými vločkami.",
-  "Vlož do vyhriatej rúry na 230 stuňov kde peč asi 15 minút. Potom stiahni teplotu na 150 a dopekaj asi 20 minút. Smozrejme počas pečenia potieraj studenou vodou. Ked sa dalamánky upeču ešte raz ich potri vodou a trošku maslom."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "pečivo",
-  "bezmäsité",
-  "slovenská"
- ]
+  "id": "celozrnne-dalamanky",
+  "nazov": "Celozrnné dalamánky",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Celozrnné dalamánky (autor: anina6)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/celozrnne-dalamanky/36116-recept.html",
+  "porcie": 8,
+  "cas": "55 min",
+  "kcal_na_porciu": 214,
+  "popis": "Celozrnné pečivo, ktoré dobre nahradí chlieb.",
+  "ingrediencie": [
+    {
+      "nazov": "Celozrnná pšeničná múka",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Múka hladká T650",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ražná múka",
+      "mnozstvo": 0.5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "vlažné"
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Celá rasca",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Drvená rasca",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bylinky provensálske",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Semená sezamové",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ovsené vločky",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najprv si priprav kvások z vlažného mlieka, 1/2 lyžice ražnej múky, kryštálového cukru a droždia. Nechaj ho vykysnúť. Múku si preosej a priprav do misky. Pridaj kvások, rascu, provensálske bylinky, soľ, olej, ocot a vymies cesto.",
+    "Cesto urob redšie, nie až také tuhé ako na chlieb, a na miesenie použi vlažnú jemne perlivú vodu. Mies asi 10 minút. Nechaj cesto oddýchnuť v teple a medzitým si priprav dobrú kávičku a oddýchni si aj ty. Po hodinke cesto premies ešte raz a nechaj oddýchnuť asi 10 minút.",
+    "Priprav si plech a rozvaľkaj si cesto. Na plechu nechaj ešte asi 20 minút, a keď je vykysnuté, potri slanou studenou vodou, ozdob sezamom a ovsenými vločkami.",
+    "Vlož do vyhriatej rúry na 230 stupňov, kde peč asi 15 minút. Potom stiahni teplotu na 150 a dopekaj asi 20 minút. Samozrejme počas pečenia potieraj studenou vodou. Keď sa dalamánky upečú, ešte raz ich potri vodou a trochou masla."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "bezmäsité",
+    "slovenská"
+  ]
 }

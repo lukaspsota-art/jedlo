@@ -1,116 +1,116 @@
 {
- "id": "marinovana-cervena-kapusta-k-pecenemu-masu",
- "nazov": "Marinovaná červená kapusta k pečenému mäsu",
- "kategoria": "Príloha",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Marinovaná červená kapusta k pečenému mäsu (autor: pusta)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/marinovana-cervena-kapusta-k-pecenemu-masu/14627-recept.html",
- "porcie": 5,
- "cas": "90 min",
- "kcal_na_porciu": 184,
- "popis": "Približne pred rokom sa mi dostal do rúk tento menej známy recep na červenú kapustu, vyskúšala som, posunula som dalším a chutil  nám. Odvtedy stále absolvuje svoje úspešné turné u nás i v zahraničí, preto som sa rozhodla s Vami o túto dobrotu podeliť",
- "ingrediencie": [
-  {
-   "nazov": "Červená kapusta",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pomarančová šťava",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová šťava",
-   "mnozstvo": 40,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jablko",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": null,
-   "jednotka": "ks",
-   "poznamka": "1 ks"
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Cukor kryštál",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bobkový list",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne celé korenie",
-   "mnozstvo": 10,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Nové celé korenie",
-   "mnozstvo": 5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Celé borievky",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Klinček",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ocot",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Potrebuješ aj: papierový filter na kávu, vajíčko na čaj alebo gáza Kapustu prekroj na polovicu, odstráň koštiaľ a vonkajšie klisty, pokrájaj na jemné prúžky a daj do misy Prilej vodu, šťavu z pomarančov, citrona, pridaj soľ a vetky koreniny, ocot, dobre premiešaj a odlož na 48 hodín do chladničky. Potom kapustu sceď, zachytenú šťavu odlož.",
-  "Do suchého hrnca nasyp cukor a za stáleho miešania urob svetlý karamel, ktorý podleješ polovicou odloženej marinády, primiešaj olej a po rozpustení karamelu pridaj na drobno nakrájanú cibuľu, ktorú orestuješ Primiešaš kapustu, podlej zvyšnou marinádou, pridaj nastrúhané jabko a prikryté dus takmer do mäkka.",
-  "Dolaď chuť octom, ev. cukrom, p, p. dosoľ. Výsledná chuť má byť príjemne sladko-kyselá a kapusta má zostať jemne chrumkavá, nesmie byť rozvarená. Podávaj ako prílohu k pečenému mäsu, najčastejšie k pečenej husi alebo kačici, ale aj k iným divým vtákom."
- ],
- "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
- "foto": "",
- "tagy": [
-  "príloha",
-  "jablká",
-  "bezmäsité"
- ]
+  "id": "marinovana-cervena-kapusta-k-pecenemu-masu",
+  "nazov": "Marinovaná červená kapusta k pečenému mäsu",
+  "kategoria": "Príloha",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Marinovaná červená kapusta k pečenému mäsu (autor: pusta)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/marinovana-cervena-kapusta-k-pecenemu-masu/14627-recept.html",
+  "porcie": 5,
+  "cas": "90 min",
+  "kcal_na_porciu": 184,
+  "popis": "Menej známy recept na marinovanú červenú kapustu, ktorá sa podáva k pečenému mäsu.",
+  "ingrediencie": [
+    {
+      "nazov": "Červená kapusta",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": null,
+      "jednotka": "ks",
+      "poznamka": "1 ks"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Cukor kryštál",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bobkový list",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne celé korenie",
+      "mnozstvo": 10,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Nové celé korenie",
+      "mnozstvo": 5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Celé borievky",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Klinček",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Potrebuješ aj: papierový filter na kávu, vajíčko na čaj alebo gáza Kapustu prekroj na polovicu, odstráň koštiaľ a vonkajšie klisty, pokrájaj na jemné prúžky a daj do misy Prilej vodu, šťavu z pomarančov, citrona, pridaj soľ a vetky koreniny, ocot, dobre premiešaj a odlož na 48 hodín do chladničky. Potom kapustu sceď, zachytenú šťavu odlož.",
+    "Do suchého hrnca nasyp cukor a za stáleho miešania urob svetlý karamel, ktorý podleješ polovicou odloženej marinády, primiešaj olej a po rozpustení karamelu pridaj na drobno nakrájanú cibuľu, ktorú orestuješ Primiešaš kapustu, podlej zvyšnou marinádou, pridaj nastrúhané jabko a prikryté dus takmer do mäkka.",
+    "Dolaď chuť octom, ev. cukrom, p, p. dosoľ. Výsledná chuť má byť príjemne sladko-kyselá a kapusta má zostať jemne chrumkavá, nesmie byť rozvarená. Podávaj ako prílohu k pečenému mäsu, najčastejšie k pečenej husi alebo kačici, ale aj k iným divým vtákom."
+  ],
+  "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "jablká",
+    "bezmäsité"
+  ]
 }

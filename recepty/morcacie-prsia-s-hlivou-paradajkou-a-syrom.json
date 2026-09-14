@@ -1,93 +1,93 @@
 {
- "id": "morcacie-prsia-s-hlivou-paradajkou-a-syrom",
- "nazov": "Morčacie prsia s hlivou, paradajkou a syrom",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Morčacie prsia s hlivou, paradajkou a syrom (fotorecept) (autor: babkamt)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-prsia-s-hlivou-paradajkou-a-syrom-fotorecept/55404-recept.html",
- "porcie": 4,
- "cas": "15 min",
- "kcal_na_porciu": 286,
- "popis": "Dnes som manželovi na obed pripravila  tieto morčacie prsíčka.  Neviem, či zabudol jedlo \r\nochutnať, ale naložil si dva krát:-) Ja som si spravila tiež  morčacie prsíčka, ale na môj  \r\n\"diétny\"  spôsob:-) Kúpila som 850 gramové prsia. Polovicu som spravila manželovi s \r\nhlivou.",
- "ingrediencie": [
-  {
-   "nazov": "Prsia morčacie",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ustricová hliva",
-   "mnozstvo": 180,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajka",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mozzarella",
-   "mnozstvo": 2,
-   "jednotka": "hrsť",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": 0.25,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiaková kaša",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Ako prvú si priprav hlivu. Očisti si dva strúčiky cesnaku a jednu strednú cibuľu.",
-  "Na sitku hlivu umyla, nechaj okvapkať. Prekroj ju na polovičku, osolila a okoreň.",
-  "Na troche oleja ju dus, kým si nakrájaj cibuľu na mesiačiky. K hlive pridaj trochu mletého kmínu.",
-  "Pridaj nakrájanú cibuľu a 2 prelisované strúčiky cesnaku. Pod pokrievkou ju dus ešte asi 5 minút. Hlivu netreba dlho dusiť.",
-  "Nechaj ju vychladnúť.",
-  "Mäso nakrájaj na plátky, osoľ a okoreň. Opeč ho krátko z obidvoch strán.",
-  "Opečené mäso prelož do zapekacej misy aj s výpekom.",
-  "Na mäso ulož udusenú hlivu a paradajku nakrájanú na plátky.",
-  "Na vrch daj strúhaný syr. Rúru som vyhriala na 180 stupňov, peč asi 15 minút, kým sa mi syr neroztopil.",
-  "K mäsu sprav zemiakové pyré. Obed podávaj s čerstvým hlávkovým šalátom."
- ],
- "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "morčacie",
-  "zemiaky"
- ]
+  "id": "morcacie-prsia-s-hlivou-paradajkou-a-syrom",
+  "nazov": "Morčacie prsia s hlivou, paradajkou a syrom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Morčacie prsia s hlivou, paradajkou a syrom (fotorecept) (autor: babkamt)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-prsia-s-hlivou-paradajkou-a-syrom-fotorecept/55404-recept.html",
+  "porcie": 4,
+  "cas": "15 min",
+  "kcal_na_porciu": 286,
+  "popis": "Morčacie prsia zapekané s hlivou, paradajkou a syrom, podávané so zemiakovým pyré.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia morčacie",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ustricová hliva",
+      "mnozstvo": 180,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mozzarella",
+      "mnozstvo": 2,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": 0.25,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiaková kaša",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ako prvú si priprav hlivu. Očisti si dva strúčiky cesnaku a jednu strednú cibuľu.",
+    "Hlivu umy na sitku a nechaj okvapkať. Prekroj ju na polovičku, osoľ a okoreň.",
+    "Na troche oleja ju dus a medzitým nakrájaj cibuľu na mesiačiky. K hlive pridaj trochu mletého kmínu.",
+    "Pridaj nakrájanú cibuľu a 2 prelisované strúčiky cesnaku. Pod pokrievkou ju dus ešte asi 5 minút. Hlivu netreba dlho dusiť.",
+    "Nechaj ju vychladnúť.",
+    "Mäso nakrájaj na plátky, osoľ a okoreň. Opeč ho krátko z obidvoch strán.",
+    "Opečené mäso prelož do zapekacej misy aj s výpekom.",
+    "Na mäso ulož udusenú hlivu a paradajku nakrájanú na plátky.",
+    "Na vrch daj strúhaný syr. Rúru vyhrej na 180 stupňov, peč asi 15 minút, kým sa syr neroztopí.",
+    "K mäsu sprav zemiakové pyré. Obed podávaj s čerstvým hlávkovým šalátom."
+  ],
+  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "morčacie",
+    "zemiaky"
+  ]
 }

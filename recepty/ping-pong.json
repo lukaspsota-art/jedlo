@@ -1,82 +1,82 @@
 {
- "id": "ping-pong",
- "nazov": "Ping-pong",
- "kategoria": "Cestoviny",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Ping-pong (fotorecept) (autor: socharka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/ping-pong-fotorecept/17972-recept.html",
- "porcie": 6,
- "cas": "30 min",
- "kcal_na_porciu": 450,
- "popis": "Ďalšia naša rýchla večera. Toto jedlo pomenovala moja kamoška, ktorá si myslela že je to dajaké čínske jedlo. Ale ja som okrem čínskych rezancov nepoužila žiadnu exotickú surovinu.",
- "ingrediencie": [
-  {
-   "nazov": "Čínske rezance",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šampiňóny",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprika",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľová vňať",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kuracie prsia",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sójová omáčka",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zelerová vňať",
-   "mnozstvo": 1,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Na oleji prudko orestuj na tenké rezančeky nakrájané kuracie prsia spolu s cibuľou.",
-  "Restuj len krátko, ale do chrumkava.",
-  "Pridaj na rezance nakrájanú farebnú papriku, šampiňóny a cibuľovú vňať. Všetko spolu krátko opekaj. Po chvíľke vyber z woku do misky.",
-  "Čínske rezance priprav podľa návodu na obale. V rozpálenom výpeku poriadne opeč uvarené čínske rezance spolu so sójovou omáčkou. Ja kombinujem slanú a sladkú pol na pol a už ani nesolím, ani žiadne korenie nepridávam.",
-  "Do opečených rezancov primiešaj opečené mäso so zeleninou a ihneď podávaj posypané nasekanou zelerovou vňaťkou."
- ],
- "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "kuracie",
-  "huby"
- ]
+  "id": "ping-pong",
+  "nazov": "Ping-pong",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Ping-pong (fotorecept) (autor: socharka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/ping-pong-fotorecept/17972-recept.html",
+  "porcie": 6,
+  "cas": "30 min",
+  "kcal_na_porciu": 450,
+  "popis": "Rýchla večera z čínskych rezancov bez ďalších exotických surovín.",
+  "ingrediencie": [
+    {
+      "nazov": "Čínske rezance",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šampiňóny",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľová vňať",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kuracie prsia",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sójová omáčka",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zelerová vňať",
+      "mnozstvo": 1,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na oleji prudko orestuj na tenké rezančeky nakrájané kuracie prsia spolu s cibuľou.",
+    "Restuj len krátko, ale do chrumkava.",
+    "Pridaj na rezance nakrájanú farebnú papriku, šampiňóny a cibuľovú vňať. Všetko spolu krátko opekaj. Po chvíľke vyber z woku do misky.",
+    "Čínske rezance priprav podľa návodu na obale. V rozpálenom výpeku poriadne opeč uvarené čínske rezance spolu so sójovou omáčkou. Ja kombinujem slanú a sladkú pol na pol a už ani nesolím, ani žiadne korenie nepridávam.",
+    "Do opečených rezancov primiešaj opečené mäso so zeleninou a ihneď podávaj posypané nasekanou zelerovou vňaťkou."
+  ],
+  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "kuracie",
+    "huby"
+  ]
 }

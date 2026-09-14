@@ -1,83 +1,83 @@
 {
- "id": "sekana-z-bocika",
- "nazov": "Sekaná z bôčika",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Sekaná z bôčika (fotorecept) (autor: socharka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/sekana-z-bocika-fotorecept/18285-recept.html",
- "porcie": 24,
- "cas": "65 min",
- "kcal_na_porciu": 271,
- "popis": "Tento recept je ešte z čias predrevolučných a tak ho sem dávam ako RETRO-recept v nezmenenej podobe - mám ho v zošite po mamke, pretože ja som vtedy ešte nevarila.  Každý z nás si sekanú dochucuje podľa svojej chuti. Ja som dnes chcela vyskúšať chuť sekanej podľa tohto receptu. \nJe lahodnejšia možno tým, že je tam toľko vajec a chuť detstva mi pripomína vegeta :-)",
- "ingrediencie": [
-  {
-   "nazov": "Bravčový bôčik",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 10,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vegeta",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Strúhanka",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok do pečiva Dr.Oetker",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Masť",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Pomletý bôčik daj do misy a pridaj vajcia, múku, strúhanku a vymiešaj. Hmota je dosť riedka, ale vraj to tak má byť.",
-  "Pridaj nasekanú cibuľu a pretlačený cesnak, vegetu a kypriaci prášok primiešaj až na koniec. Ja som použila Dr.Oetker.",
-  "Pripravenú hmotu na sekanú rozdeľ na dve polovice. Dva kusy alobalu potri masťou a na každý nalej polovicu hmoty.",
-  "Zabaľ ako balíček a daj do rúry piecť na 180 stupňov asi 50 minút. Potom alobal otvor a dopeč ešte asi 10 minút, aby mala sekaná peknú farbu.",
-  "Upečenú sekanú vyber z alobalu a pokrájaj na plátky.",
-  "Podávaj na teplo s rôznymi zemiakmi, k prívarkom...ale ja som pripravila slovenský zemiakový šalát. Druhý kus sekanej sme zjedli na studeno len tak, s chlebíkom, horčicou, cibuľou a uhorkami."
- ],
- "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
- "foto": "",
- "tagy": [
-  "bravčové",
-  "vajcia",
-  "hlavné jedlo"
- ]
+  "id": "sekana-z-bocika",
+  "nazov": "Sekaná z bôčika",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Sekaná z bôčika (fotorecept) (autor: socharka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/sekana-z-bocika-fotorecept/18285-recept.html",
+  "porcie": 24,
+  "cas": "65 min",
+  "kcal_na_porciu": 271,
+  "popis": "Retro recept na sekanú z bôčika z predrevolučných čias, ktorej lahodnú chuť dodáva väčšie množstvo vajec a vegeta.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčový bôčik",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 10,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vegeta",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Strúhanka",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva Dr.Oetker",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Masť",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Pomletý bôčik daj do misy a pridaj vajcia, múku, strúhanku a vymiešaj. Hmota je dosť riedka, ale vraj to tak má byť.",
+    "Pridaj nasekanú cibuľu a pretlačený cesnak, vegetu a kypriaci prášok primiešaj až na koniec.",
+    "Pripravenú hmotu na sekanú rozdeľ na dve polovice. Dva kusy alobalu potri masťou a na každý nalej polovicu hmoty.",
+    "Zabaľ ako balíček a daj do rúry piecť na 180 stupňov asi 50 minút. Potom alobal otvor a dopeč ešte asi 10 minút, aby mala sekaná peknú farbu.",
+    "Upečenú sekanú vyber z alobalu a pokrájaj na plátky.",
+    "Podávaj ju na teplo s rôznymi zemiakmi, k prívarkom... alebo aj so slovenským zemiakovým šalátom. Druhý kus sekanej môžeš zjesť na studeno len tak, s chlebíkom, horčicou, cibuľou a uhorkami."
+  ],
+  "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+  "foto": "",
+  "tagy": [
+    "bravčové",
+    "vajcia",
+    "hlavné jedlo"
+  ]
 }

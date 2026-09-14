@@ -1,100 +1,100 @@
 {
- "id": "pecene-sladko-kysle-pikantne-kridelka",
- "nazov": "Pečené sladko-kyslé pikantné krídelká",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Pečené sladko-kyslé pikantné krídelká (fotorecept) (autor: siuuu)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/pecene-sladko-kysle-pikantne-kridelka-fotorecept/74621-recept.html",
- "porcie": 11,
- "cas": "45 min",
- "kcal_na_porciu": 413,
- "popis": "Nedeľa, nenedeľa - dnes bola chuť na pečené krídelká. Tento recept mám vo svojej \r\nzbierke už roky rokúce, skúšala som už aj iné recepty, ale \r\nvždy sa vrátim k tomuto osvedčenému, ktorý nám chutí zo všetkých najviac - je to \r\njedno z našich TOP jedál. Výborne chutia s ryžou a \r\nšalátom, alebo iba s chrumkavou bagetkou či čerstvým chlebíkom.",
- "ingrediencie": [
-  {
-   "nazov": "Krídelká kuracie",
-   "mnozstvo": 10,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jemný kečup",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ocot",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Plnotučná horčica",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sójová omáčka",
-   "mnozstvo": 1.5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 0.25,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Omáčka chilli",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Hnedý cukor",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sezamové semienka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šalotka",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Priprav si všetky suroviny. Cibuľu a cesnak posekané nadrobno.",
-  "Do menšieho hrnca daj pokrájanú cibuľu a cesnak, kečup, sójovú omáčku, ocot, horčicu, cukor, chilli, soľ, premiešaj a var 2-3 minúty.",
-  "Krídelká umyj, osuš, odkroj najmenšiu časť (používam do vývaru), krídla prekroj (nemusíte, ale lepšie sa opečú aj konzumujú), obaľ v marináde, ulož na pekáč vystlaný papierom na pečenie (cukor aj med pri pečení skaramelizujú, takže určite odporúčam dať papier, budete mať oveľa menej práce s čistením pekáča), ak nám zostala marináda, rozdeľ ju rovnomerne na krídelká.",
-  "Pokvapkaj medom a vlož do rúry zohriatej na 190 - 200 °C. Peč cca 35 - 45 minút, podľa veľkosti krídelok.",
-  "Po upečení posyp sezamovými semienkami a podávaj."
- ],
- "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kuracie",
-  "slovenská"
- ]
+  "id": "pecene-sladko-kysle-pikantne-kridelka",
+  "nazov": "Pečené sladko-kyslé pikantné krídelká",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Pečené sladko-kyslé pikantné krídelká (fotorecept) (autor: siuuu)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/pecene-sladko-kysle-pikantne-kridelka-fotorecept/74621-recept.html",
+  "porcie": 11,
+  "cas": "45 min",
+  "kcal_na_porciu": 413,
+  "popis": "Pečené sladko-kyslé pikantné krídelká, ktoré výborne chutia s ryžou a šalátom alebo iba s chrumkavou bagetkou či čerstvým chlebíkom.",
+  "ingrediencie": [
+    {
+      "nazov": "Krídelká kuracie",
+      "mnozstvo": 10,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jemný kečup",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Plnotučná horčica",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sójová omáčka",
+      "mnozstvo": 1.5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 0.25,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Omáčka chilli",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Hnedý cukor",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sezamové semienka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šalotka",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si všetky suroviny. Cibuľu a cesnak posekané nadrobno.",
+    "Do menšieho hrnca daj pokrájanú cibuľu a cesnak, kečup, sójovú omáčku, ocot, horčicu, cukor, chilli, soľ, premiešaj a var 2-3 minúty.",
+    "Krídelká umyj, osuš, odkroj najmenšiu časť (používam do vývaru), krídla prekroj (nemusíte, ale lepšie sa opečú aj konzumujú), obaľ v marináde, ulož na pekáč vystlaný papierom na pečenie (cukor aj med pri pečení skaramelizujú, takže určite odporúčam dať papier, budete mať oveľa menej práce s čistením pekáča), ak nám zostala marináda, rozdeľ ju rovnomerne na krídelká.",
+    "Pokvapkaj medom a vlož do rúry zohriatej na 190 - 200 °C. Peč cca 35 - 45 minút, podľa veľkosti krídelok.",
+    "Po upečení posyp sezamovými semienkami a podávaj."
+  ],
+  "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kuracie",
+    "slovenská"
+  ]
 }

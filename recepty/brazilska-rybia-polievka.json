@@ -1,114 +1,114 @@
 {
- "id": "brazilska-rybia-polievka",
- "nazov": "Brazílska rybia polievka",
- "kategoria": "Polievka",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Brazílska rybia polievka (fotorecept) (autor: tizian1cat)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/brazilska-rybia-polievka-fotorecept/13008-recept.html",
- "porcie": 2,
- "cas": "25 min",
- "kcal_na_porciu": 138,
- "popis": "Mala som chuť na niečo dobré. Potrebovala som si antidepresívne čímsi pohladiť dušičku. V chladničke som mala rozmrazené 2 filé aljašskej tresky. Tak som sa inšpirovala Elise zo skvelého blogu Simple Recipes a geniálne dobrá polievočka bola o chvíľu na stole.",
- "ingrediencie": [
-  {
-   "nazov": "Filety z bielej ryby",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrón",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jarná cibuľka",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Veľká farebná mäsitá paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cuketa",
-   "mnozstvo": null,
-   "jednotka": "ks",
-   "poznamka": "1 ks"
-  },
-  {
-   "nazov": "Paradajky",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Chilli paprička",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Morská soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "hrubozrnná"
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Koriandrová vňať",
-   "mnozstvo": null,
-   "jednotka": "hrsť",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kokosové mlieko",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rybí vývar",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Filety bielej ryby si nakrájaj na menšie kocky, pokvapkaj šťavou z citróna zmiešanou s prelisovaným cesnakom. Nechaj chvíľu marinovať.",
-  "Medzitým si nakrájaj všetku zeleninu na drobné kúsky. Na olivovom oleji do sklovita podus cibuľku.",
-  "Pridávaj postupne červenú papriku, cukinu, podrvené feferonky a dus asi 8 minút.",
-  "Nakoniec pridaj nakrájané rajčiny a krátko ešte povar. Z udusenej zeleniny odober 2 PL na ozdobenie hotovej polievky. Podlej 200ml rybieho vývaru (môže byť hocijaký iný vývar) a nechaj prevrieť. Nakoniec pridaj posekaný čerstvý koriander, dochuť soľou a čiernym mletým korením.",
-  "Medzitým podlej ochutené filety 100ml rybieho vývaru a 160ml kokosového mlieka. Nechaj na miernom ohni variť cca 15minút.",
-  "Opatrne vyber kúsky ryby z kokosovej tekutiny, ktorú prileješ k zelenine.",
-  "Ponorným mixérom nahrubo vymixuj. Na tanieri ozdob podusenou zeleninou, pridaj kúsky varenej ryby. Pokvapkaj olejom z pražených tekvicových semiačok."
- ],
- "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
- "foto": "",
- "tagy": [
-  "polievka",
-  "ryba",
-  "zelenina"
- ]
+  "id": "brazilska-rybia-polievka",
+  "nazov": "Brazílska rybia polievka",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Brazílska rybia polievka (fotorecept) (autor: tizian1cat)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/brazilska-rybia-polievka-fotorecept/13008-recept.html",
+  "porcie": 2,
+  "cas": "25 min",
+  "kcal_na_porciu": 138,
+  "popis": "Rybia polievka pripravená z filé z aljašskej tresky.",
+  "ingrediencie": [
+    {
+      "nazov": "Filety z bielej ryby",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jarná cibuľka",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Veľká farebná mäsitá paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": null,
+      "jednotka": "ks",
+      "poznamka": "1 ks"
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chilli paprička",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Morská soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "hrubozrnná"
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Koriandrová vňať",
+      "mnozstvo": null,
+      "jednotka": "hrsť",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokosové mlieko",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rybí vývar",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Filety bielej ryby si nakrájaj na menšie kocky, pokvapkaj šťavou z citróna zmiešanou s prelisovaným cesnakom. Nechaj chvíľu marinovať.",
+    "Medzitým si nakrájaj všetku zeleninu na drobné kúsky. Na olivovom oleji do sklovita podus cibuľku.",
+    "Pridávaj postupne červenú papriku, cukinu, podrvené feferonky a dus asi 8 minút.",
+    "Nakoniec pridaj nakrájané rajčiny a krátko ešte povar. Z udusenej zeleniny odober 2 PL na ozdobenie hotovej polievky. Podlej 200ml rybieho vývaru (môže byť hocijaký iný vývar) a nechaj prevrieť. Nakoniec pridaj posekaný čerstvý koriander, dochuť soľou a čiernym mletým korením.",
+    "Medzitým podlej ochutené filety 100ml rybieho vývaru a 160ml kokosového mlieka. Nechaj na miernom ohni variť cca 15minút.",
+    "Opatrne vyber kúsky ryby z kokosovej tekutiny, ktorú prileješ k zelenine.",
+    "Ponorným mixérom nahrubo vymixuj. Na tanieri ozdob podusenou zeleninou, pridaj kúsky varenej ryby. Pokvapkaj olejom z pražených tekvicových semiačok."
+  ],
+  "tipy": "Marinuj v chladničke, nie na linke. Mäso pred opekaním nechaj chvíľu zohriať na izbovú teplotu — inak sa zvonku spáli a vnútri zostane surové.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "ryba",
+    "zelenina"
+  ]
 }

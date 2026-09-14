@@ -1,79 +1,79 @@
 {
- "id": "domace-pecivo",
- "nazov": "Domáce pečivo",
- "kategoria": "Príloha",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Domáce pečivo (fotorecept) (autor: ywett)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/domace-pecivo-fotorecept/14425-recept.html",
- "porcie": 18,
- "cas": "20 min",
- "kcal_na_porciu": 174,
- "popis": "A zase som potrápila pekárničku a nechala som ju aspoň cesto vymiesiť a vypracovať  ;-)",
- "ingrediencie": [
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá smotana",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 650,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 15,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené droždie",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Žĺtky",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Potrebné suroviny",
-  "Do nádoby daj vlažné mlieko a pridaj smotanu",
-  "Do rohu nádoby daj soľ",
-  "Uprostred nádoby urob prstom do múky dierku a daj droždie, ktoré jemne zahrnieš múkou (alebo ak nechcete sušené môžte dať 25g čerstvého droždia)",
-  "Nádobu vlož do pekárničky, zapni program cesto a nechaj pekárničku pracovať. Sem tam nakuknem či netreba pridať múku, cesto by sa nemalo lepiť na boky nádoby.",
-  "Po vykysnutí cesto z pekárničky vyber. Daj na pomúčenú dosku a rozdeľ na 18 menších častí a jednu väčšiu (kto ako chce) a nechaj 5 minút odpočinúť",
-  "Popros moju malú pomocníčku (dcérku) aby mi pomohla",
-  "A teraz postup na rožky: Vyvaľkať",
-  "Začínaj od kraja",
-  "A ešte celý šúlok po zamotaní troška rukou vyvaľkaj",
-  "A môžeš skúsiť aj takto tak ju vyvaľkáš do kruhu, nakrájaj trojuholníky, potri podľa chuti čo máte radi Najskôr zahni vrchné boky k sebe aby nám plnka nevytiekla a zakrútiš smerom k špicu",
-  "A stoč a aj na plech daj tým špicom dole, aby sa nám to pri pečení neroztvorilo.",
-  "Nechaj pod utierkou pokysnúť ešte 30 minút. Po vykysnutí natri žĺtkom rozmiešaným s mliekom, môžeš posypať rascou (semiačkami, hrubou soľou, makom) a daj piecť do vyhriatej rúry na 180°C 15 - 20 minút. Po upečení pečivo hneď prelož na mriežku aby sa zbytočne na horúcom plechu nevysušovalo",
-  "Dobrú chuť!!!"
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "príloha",
-  "bezmäsité",
-  "vajcia"
- ]
+  "id": "domace-pecivo",
+  "nazov": "Domáce pečivo",
+  "kategoria": "Príloha",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Domáce pečivo (fotorecept) (autor: ywett)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/domace-pecivo-fotorecept/14425-recept.html",
+  "porcie": 18,
+  "cas": "20 min",
+  "kcal_na_porciu": 174,
+  "popis": "Domáce pečivo, ktorého cesto vymiesi a vypracuje pekárnička.",
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 650,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 15,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené droždie",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Žĺtky",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Potrebné suroviny",
+    "Do nádoby daj vlažné mlieko a pridaj smotanu",
+    "Do rohu nádoby daj soľ",
+    "Uprostred nádoby urob prstom do múky dierku a daj droždie, ktoré jemne zahrnieš múkou (alebo ak nechcete sušené môžte dať 25g čerstvého droždia)",
+    "Nádobu vlož do pekárničky, zapni program cesto a nechaj pekárničku pracovať. Sem tam nakuknem či netreba pridať múku, cesto by sa nemalo lepiť na boky nádoby.",
+    "Po vykysnutí cesto z pekárničky vyber. Daj na pomúčenú dosku a rozdeľ na 18 menších častí a jednu väčšiu (kto ako chce) a nechaj 5 minút odpočinúť",
+    "Popros moju malú pomocníčku (dcérku) aby mi pomohla",
+    "A teraz postup na rožky: Vyvaľkať",
+    "Začínaj od kraja",
+    "A ešte celý šúlok po zamotaní troška rukou vyvaľkaj",
+    "A môžeš skúsiť aj takto tak ju vyvaľkáš do kruhu, nakrájaj trojuholníky, potri podľa chuti čo máte radi Najskôr zahni vrchné boky k sebe aby nám plnka nevytiekla a zakrútiš smerom k špicu",
+    "A stoč a aj na plech daj tým špicom dole, aby sa nám to pri pečení neroztvorilo.",
+    "Nechaj pod utierkou pokysnúť ešte 30 minút. Po vykysnutí natri žĺtkom rozmiešaným s mliekom, môžeš posypať rascou (semiačkami, hrubou soľou, makom) a daj piecť do vyhriatej rúry na 180°C 15 - 20 minút. Po upečení pečivo hneď prelož na mriežku aby sa zbytočne na horúcom plechu nevysušovalo",
+    "Dobrú chuť!!!"
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "bezmäsité",
+    "vajcia"
+  ]
 }

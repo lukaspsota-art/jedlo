@@ -1,86 +1,86 @@
 {
- "id": "bravcove-na-kreolsky-sposob",
- "nazov": "Bravčové na kreolský spôsob",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Bravčové na kreolský spôsob (autor: sisok)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/bravcove-na-kreolsky-sposob/40309-recept.html",
- "porcie": 4,
- "cas": "45 min",
- "kcal_na_porciu": 453,
- "popis": "Tento recept bol môj prvý z kreolskej kuchyne a priznám sa, že táto kuchyňa ma dnes očarila svojou chuťou, ale najmä jednoduchosťou. Korenie kolombo je typické pre kuchyňu zo zámorskych francúzskych kolónii a dalo by sa prirovnať ku karí, no chuťovo je trochu jemnejšie. V pôvodnom recepte použili bravčovú panenku, ja som však použila bravčové líčka, ktoré sa napokon ukázali ako dobrý výber a náhra",
- "ingrediencie": [
-  {
-   "nazov": "Bravčové líčka",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ananás",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Exotická zmes",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Korenie kolombo",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 150,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Cibuľu nakrájanú nadrobno si osmaž asi 2-3 minútky na oleji+masle. Pridaj bravčové mäso nakrájané na väčsie kusy a sprudka opeč z každej strany. Keď je mäso zatiahnuté, pridaj na kúsky nakrájaný ananás. Môžeš použiť ananás z konzervy, šťavu daj bokom, budeš ju potrebovať trošku neskôr. Mäso a ananás ochuť kolombom, osoľ a okoreň čiernym korením. Celú zmes opekaj na prudkom plameni asi 8-10minút.",
-  "Po 10 minútach pridaj exotickú zmes (sušené banány, kokosový orech, sušené hrozienka, exotické orechy), zalej sirupom z ananásu a podlej vodou. Stíš plameň a dus približne 40 minút.",
-  "Po 40 minútach odstav a podávaj s ryźou."
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "ovocie"
- ]
+  "id": "bravcove-na-kreolsky-sposob",
+  "nazov": "Bravčové na kreolský spôsob",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Bravčové na kreolský spôsob (autor: sisok)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/bravcove-na-kreolsky-sposob/40309-recept.html",
+  "porcie": 4,
+  "cas": "45 min",
+  "kcal_na_porciu": 453,
+  "popis": "Jednoduché jedlo kreolskej kuchyne s korením kolombo, ktoré je typické pre kuchyňu zámorských francúzskych kolónií a dá sa prirovnať ku karí, len je chuťovo jemnejšie, pripravené namiesto bravčovej panenky z bravčových líčok.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčové líčka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Exotická zmes",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Korenie kolombo",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cibuľu nakrájanú nadrobno si osmaž asi 2-3 minútky na oleji+masle. Pridaj bravčové mäso nakrájané na väčsie kusy a sprudka opeč z každej strany. Keď je mäso zatiahnuté, pridaj na kúsky nakrájaný ananás. Môžeš použiť ananás z konzervy, šťavu daj bokom, budeš ju potrebovať trošku neskôr. Mäso a ananás ochuť kolombom, osoľ a okoreň čiernym korením. Celú zmes opekaj na prudkom plameni asi 8-10minút.",
+    "Po 10 minútach pridaj exotickú zmes (sušené banány, kokosový orech, sušené hrozienka, exotické orechy), zalej sirupom z ananásu a podlej vodou. Stíš plameň a dus približne 40 minút.",
+    "Po 40 minútach odstav a podávaj s ryźou."
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "ovocie"
+  ]
 }

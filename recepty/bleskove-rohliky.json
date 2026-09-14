@@ -1,64 +1,64 @@
 {
- "id": "bleskove-rohliky",
- "nazov": "Bleskové rohlíky",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Bleskové rohlíky (fotorecept) (autor: naty)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/bleskove-rohliky-fotorecept/47994-recept.html",
- "porcie": 16,
- "cas": "20 min",
- "kcal_na_porciu": 126,
- "popis": "Sú veľmi chutné a skutočne bleskové, ved to uvidíte sami :)",
- "ingrediencie": [
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlažné mlieko",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ľubovoľný tuk",
-   "mnozstvo": 60,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Suroviny daj do misy. Ja som dala v takomto poradí: múka, vlažné mlieko, cukor, droždie, soľ a olej.",
-  "A daj vymiesiť pomocníkovi-robotovi, ten to má za 3 minútky",
-  "Vymiesené cesto prelož do misky-kysky a daj kysnúť na teplé miesto, približne 45-60 minút. Vykysnuté",
-  "Vykysnuté cesto rozdeľ na 4 časti, každú vyvaľkaj do kruhu a o5 rozdeľ na 4, trojuholníčky, ktorým dovnútra zahneš končeky a od širšej časti zagúľaš. Pri vaľkaní netreba vôbec podsýpať múkou pretože cesto je pružné a vôbec sa nelepí. Takto nechaj rohlíčky odpočívať na plechu 20 minút. Potom už iba šupni do vyhriatej rúry a peč cca 15-20 minút",
-  "Nechaj vychladnúť a dobrú chuť! :) Sú to moje prvé rohlíky, preto sú takých všelijakých tvarov :D"
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "bezmäsité",
-  "slovenská",
-  "pečivo"
- ]
+  "id": "bleskove-rohliky",
+  "nazov": "Bleskové rohlíky",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Bleskové rohlíky (fotorecept) (autor: naty)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/bleskove-rohliky-fotorecept/47994-recept.html",
+  "porcie": 16,
+  "cas": "20 min",
+  "kcal_na_porciu": 126,
+  "popis": "Sú veľmi chutné a skutočne bleskové, ved to uvidíte sami :)",
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlažné mlieko",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ľubovoľný tuk",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Suroviny daj do misy v takomto poradí: múka, vlažné mlieko, cukor, droždie, soľ a olej.",
+    "A daj vymiesiť pomocníkovi-robotovi, ten to má za 3 minútky",
+    "Vymiesené cesto prelož do misky-kysky a daj kysnúť na teplé miesto, približne 45-60 minút.",
+    "Vykysnuté cesto rozdeľ na 4 časti, každú vyvaľkaj do kruhu a o5 rozdeľ na 4 trojuholníčky, ktorým dovnútra zahni končeky a od širšej časti zaguľaj. Pri vaľkaní netreba vôbec podsýpať múkou, pretože cesto je pružné a vôbec sa nelepí. Takto nechaj rohlíčky odpočívať na plechu 20 minút. Potom už iba šupni do vyhriatej rúry a peč cca 15-20 minút",
+    "Nechaj vychladnúť a dobrú chuť! :)"
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "bezmäsité",
+    "slovenská",
+    "pečivo"
+  ]
 }

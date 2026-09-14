@@ -1,114 +1,114 @@
 {
- "id": "hovadzie-carbonnade",
- "nazov": "Hovädzie carbonnade",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Hovädzie carbonnade (fotorecept) (autor: afataga)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzie-carbonnade-fotorecept/52543-recept.html",
- "porcie": 8,
- "cas": "230 min",
- "kcal_na_porciu": 417,
- "popis": "Nedávno sme toto jedli na návšteve, chutilo, tak som si pýtala recept a dnes som to uvarila. Recept je z knihy od francuzskej kucharky, meno som zabudla. Carbonnade znamená v preklade pripravený na drevenom uhlí, kedže nemám milier, príprava prebiehala v rúre. Pôvodne sa vraj jedlo robilo práve v milieroch hlavne vo Flámsku, ale ja severnom Francúzsku. Tento recept som tu nenašla, tak možno sa nie",
- "ingrediencie": [
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rastlinný olej",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mäso hovädzie",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Veľká cibuľa",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prelisovaný cesnak",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hnedý trstinový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne pivo",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Bobkový list",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvý tymian",
-   "mnozstvo": 12,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Čierne drvené korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bageta",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Dijonská horčica",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "V recepte sa uvádza hovädzie zadné, alebo pliecko. Podarilo sa mi kúpiť krásny krk z býka a daj kúsok kližky. Mäso pokrájaj na plátky a tie ešte na polovice.",
-  "Do woku daj olej a maslo a mäso postupne opekaj po častiach, aby sa zatiahlo a ukladala som ho do misky.",
-  "Do výpeku daj cibuľu nakrájanú na mesiačiky a opekaj ju asi 10 min.pridaj ešte kúsok masla. Pridaj do nej cesnak a cukor, znížila teplotu a dus ešte 5 min.",
-  "Cibuľu vyber do druhej misky. Do výpeku vylej šťavu, čo pustilo mäso, pridaj múku a za chvíľu pivo. Pridaj soľ a korenie a povar pár minút. Na foto je šťava z mäsa s múkou.",
-  "Do pekáča daj polovicu mäsa, polovicu cibule, tymián a bobkový list a celé som to zopakovala. Omáčku z woku vylej do pekáča.",
-  "Peč zakryté 3 hod., alebo kým je mäso mäkké.",
-  "Príloha: krajce bagety opeč z oboch strán, jednu stranu natri horčicou a znova dala na chvíľu pod gril. Má sa to robiť tak, že bageta s horčicou sa má uložiť do pekáča na mäso a tak dať pod gril, ale nemám taký veľký gril."
- ],
- "tipy": "Grilovaciu mriežku poriadne rozpáľ a namasti, až potom prilož mäso. Na studenej mriežke sa prilepí a roztrhá.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "hovädzie",
-  "slovenská"
- ]
+  "id": "hovadzie-carbonnade",
+  "nazov": "Hovädzie carbonnade",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Hovädzie carbonnade (fotorecept) (autor: afataga)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/hovadzie-carbonnade-fotorecept/52543-recept.html",
+  "porcie": 8,
+  "cas": "230 min",
+  "kcal_na_porciu": 417,
+  "popis": "Carbonnade znamená v preklade pripravený na drevenom uhlí a pôvodne sa toto jedlo robilo v milieroch vo Flámsku a v severnom Francúzsku, tu sa pripravuje v rúre.",
+  "ingrediencie": [
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rastlinný olej",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mäso hovädzie",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Veľká cibuľa",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prelisovaný cesnak",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hnedý trstinový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne pivo",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Bobkový list",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvý tymian",
+      "mnozstvo": 12,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Čierne drvené korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bageta",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Dijonská horčica",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "V recepte sa uvádza hovädzie zadné alebo pliecko; použi krásny krk z býka a kúsok kližky. Mäso pokrájaj na plátky a tie ešte na polovice.",
+    "Do woku daj olej a maslo a mäso postupne opekaj po častiach, aby sa zatiahlo, a ukladaj ho do misky.",
+    "Do výpeku daj cibuľu nakrájanú na mesiačiky a opekaj ju asi 10 min., pridaj ešte kúsok masla. Pridaj do nej cesnak a cukor, zníž teplotu a dus ešte 5 min.",
+    "Cibuľu vyber do druhej misky. Do výpeku vylej šťavu, čo pustilo mäso, pridaj múku a za chvíľu pivo. Pridaj soľ a korenie a povar pár minút. Na foto je šťava z mäsa s múkou.",
+    "Do pekáča daj polovicu mäsa, polovicu cibule, tymián a bobkový list a celé to zopakuj. Omáčku z woku vylej do pekáča.",
+    "Peč zakryté 3 hod., alebo kým je mäso mäkké.",
+    "Príloha: krajce bagety opeč z oboch strán, jednu stranu natri horčicou a znova daj na chvíľu pod gril. Má sa to robiť tak, že bageta s horčicou sa uloží do pekáča na mäso a tak sa dá pod gril, na to však treba veľký gril."
+  ],
+  "tipy": "Grilovaciu mriežku poriadne rozpáľ a namasti, až potom prilož mäso. Na studenej mriežke sa prilepí a roztrhá.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "hovädzie",
+    "slovenská"
+  ]
 }

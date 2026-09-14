@@ -1,126 +1,126 @@
 {
- "id": "makove-buchty",
- "nazov": "Makové buchty",
- "kategoria": "Raňajky",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Makové buchty (fotorecept) (autor: gordonko)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/makove-buchty-fotorecept/77884-recept.html",
- "porcie": 15,
- "cas": "180 min",
- "kcal_na_porciu": 359,
- "popis": "50 rokov dozadu  takéto buchty robila moja mama. Jediné  vylepšenie tohto  receptu  je, že  namiesto kávovej lyžičky  \r\nmakovej plnky som dával polievkovú lyžicu, lebo keď makové, tak  MAKOVÉ.",
- "ingrediencie": [
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 75,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilínový cukor",
-   "mnozstvo": 8,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 125,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrónová kôra",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Žĺtky",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mak",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilínový cukor",
-   "mnozstvo": 8,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Škoricový cukor",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Do preosiatej múky urob jamku, do nej namrv kocku droždia, zasyp cukrom, zalej vlažným mliekom a nechaj vzísť kvások.",
-  "Keď vzíde kvások, pridaj štipku soli, 2 žĺtky, rozpustené maslo, nastrúhanú citrónovú kôru a vymiešaj. Mama to robila ručne, použi techniku. Vypracované cesto popráš múkou, zakryj utierkou a nechaj nakysnúť.",
-  "Kým kysne cesto, pomeľ si mak. Daj zovrieť 1/2 litra mlieka a keď mlieko začína vrieť, pridaj pomletý mak, vanilínový, škoricový a práškový cukor a var a miešaj do zhustnutia.",
-  "Nakysnuté cesto daj na pomúčenú dosku a cesto rozdeľ na malé bochníčky trochu väčšie od vajíčka. Z tých potom vytvaruj placku a na ňu daj za lyžicu makovej plnky. Okraje cesta daj k sebe a postláčaj ich tak, aby sa otvor uzavrel.",
-  "Buchty klaď do vymasteného pekáča uzavretím - postláčaním cesta dole a každú jednu buchtu ponatieraj po bokoch olejom, aby sa pri pečení nezlepili do hromady. Buchty na pekáči nechaj chvíľku nakysnúť a potom s ním šup do rúry.",
-  "Rúru si rozohrej na 170 °C a pekáč dávaj do rúry na 30 minút.",
-  "A treba pred koncom kontrolovať, aby buchty nechytili tmavý nádych ako tie moje (ale nič im nebolo). Po upečení ich potri roztopeným maslom a posyp práškovým cukrom."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "raňajky",
-  "bezmäsité",
-  "vajcia"
- ]
+  "id": "makove-buchty",
+  "nazov": "Makové buchty",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Makové buchty (fotorecept) (autor: gordonko)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/makove-buchty-fotorecept/77884-recept.html",
+  "porcie": 15,
+  "cas": "180 min",
+  "kcal_na_porciu": 359,
+  "popis": "Tradičné makové buchty, do ktorých sa namiesto kávovej lyžičky dáva polievková lyžica makovej plnky.",
+  "ingrediencie": [
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 75,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilínový cukor",
+      "mnozstvo": 8,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 125,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrónová kôra",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Žĺtky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mak",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilínový cukor",
+      "mnozstvo": 8,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škoricový cukor",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do preosiatej múky urob jamku, do nej namrv kocku droždia, zasyp cukrom, zalej vlažným mliekom a nechaj vzísť kvások.",
+    "Keď vzíde kvások, pridaj štipku soli, 2 žĺtky, rozpustené maslo, nastrúhanú citrónovú kôru a vymiešaj. Mama to robila ručne, použi techniku. Vypracované cesto popráš múkou, zakryj utierkou a nechaj nakysnúť.",
+    "Kým kysne cesto, pomeľ si mak. Daj zovrieť 1/2 litra mlieka a keď mlieko začína vrieť, pridaj pomletý mak, vanilínový, škoricový a práškový cukor a var a miešaj do zhustnutia.",
+    "Nakysnuté cesto daj na pomúčenú dosku a cesto rozdeľ na malé bochníčky trochu väčšie od vajíčka. Z tých potom vytvaruj placku a na ňu daj za lyžicu makovej plnky. Okraje cesta daj k sebe a postláčaj ich tak, aby sa otvor uzavrel.",
+    "Buchty klaď do vymasteného pekáča uzavretím - postláčaním cesta dole a každú jednu buchtu ponatieraj po bokoch olejom, aby sa pri pečení nezlepili do hromady. Buchty na pekáči nechaj chvíľku nakysnúť a potom s ním šup do rúry.",
+    "Rúru si rozohrej na 170 °C a pekáč dávaj do rúry na 30 minút.",
+    "A treba pred koncom kontrolovať, aby buchty nechytili tmavý nádych ako tie moje (ale nič im nebolo). Po upečení ich potri roztopeným maslom a posyp práškovým cukrom."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "bezmäsité",
+    "vajcia"
+  ]
 }

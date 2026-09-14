@@ -1,94 +1,93 @@
 {
- "id": "kysnuta-orechovo-kakaova-babovka",
- "nazov": "Kysnutá orechovo-kakaová bábovka",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kysnutá orechovo-kakaová bábovka (fotorecept) (autor: margaretka28)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kysnuta-orechovo-kakaova-babovka-fotorecept/47998-recept.html",
- "porcie": 15,
- "cas": "1 min",
- "kcal_na_porciu": 209,
- "popis": "Robila som ju včera poobede, ale fotka celej bábovky sa mi nepodarila, lebo ked sa upiekla  bola už tma a pri umelom svetle sa mi nedá dobre fotiť. Rozkrájala som ju ráno deťom a na fotenie zostalo už len toto čo vidíte na obrázku :-) Všetkým chutila s maslom a kakaom.",
- "ingrediencie": [
-  {
-   "nazov": "Múka hladká špeciál",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový cukor",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 20,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlažné mlieko",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlašské orechy",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kakaový prášok",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené brusnice",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Do misky preosiala múku, pridaj som cukor, rozmrvené droždie a zaliala polovicou vlažného mlieka, po vzídení kvásku pridaj vajce, maslo a soľ a zarobila som cesto.",
-  "Polovicu cesta som odobrala do druhej misky, do jednej časti pridaj mleté orechy a brusnice do druhej kakao, obidve cestá vymies a podľa potreby pridaj ešte mlieko a nechaj ich nakysnúť.",
-  "Vykysnuté cestá vyklop na dosku a sformuj do bochníkov.",
-  "Tmavé cesto som položila na bledé a spolu to vyvaľkaj, potom som cesto zrolovala ako roládu.",
-  "A vložila do vymastenej bábovkovej formy. Nechaj kysnúť vo forme ešte asi 20 minút. Upeč v rúre vyhriatej na 180 stupňov asi 45 minút, treba sledovať, ked sa kraje oddelia od formy, je hotová."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "snack",
-  "vajcia",
-  "bezmäsité"
- ]
+  "id": "kysnuta-orechovo-kakaova-babovka",
+  "nazov": "Kysnutá orechovo-kakaová bábovka",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kysnutá orechovo-kakaová bábovka (fotorecept) (autor: margaretka28)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kysnuta-orechovo-kakaova-babovka-fotorecept/47998-recept.html",
+  "porcie": 15,
+  "cas": "1 min",
+  "kcal_na_porciu": 209,
+  "ingrediencie": [
+    {
+      "nazov": "Múka hladká špeciál",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový cukor",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlažné mlieko",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlašské orechy",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kakaový prášok",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené brusnice",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do misky preosej múku, pridaj cukor, rozmrvené droždie a zalej polovicou vlažného mlieka, po vzídení kvásku pridaj vajce, maslo a soľ a zarob cesto.",
+    "Polovicu cesta odober do druhej misky, do jednej časti pridaj mleté orechy a brusnice, do druhej kakao, obidve cestá vymies a podľa potreby pridaj ešte mlieko a nechaj ich nakysnúť.",
+    "Vykysnuté cestá vyklop na dosku a sformuj do bochníkov.",
+    "Tmavé cesto polož na bledé, spolu to vyvaľkaj, potom cesto zroluj ako roládu.",
+    "A vlož do vymastenej bábovkovej formy. Nechaj kysnúť vo forme ešte asi 20 minút. Upeč v rúre vyhriatej na 180 stupňov asi 45 minút, treba sledovať, keď sa kraje oddelia od formy, je hotová."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "vajcia",
+    "bezmäsité"
+  ]
 }

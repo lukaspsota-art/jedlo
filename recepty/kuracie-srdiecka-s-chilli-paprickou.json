@@ -1,101 +1,101 @@
 {
- "id": "kuracie-srdiecka-s-chilli-paprickou",
- "nazov": "Kuracie srdiečka s chilli papričkou",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kuracie srdiečka s chilli papričkou (fotorecept) (autor: turistka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-srdiecka-s-chilli-paprickou-fotorecept/40195-recept.html",
- "porcie": 6,
- "cas": "155 min",
- "kcal_na_porciu": 378,
- "popis": "Navarila som obed na 2 dni,  ako hlavné jedlo som sa rozhodla pre kuracie srdiečka s chilli \npapričkou, kvôli jej pikantnosti.  Je to chutné jedlo.  Ako prílohu som dala nočky z detskej \nkrupice.",
- "ingrediencie": [
-  {
-   "nazov": "Srdiečka kuracie",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená sladká paprika",
-   "mnozstvo": 3,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprička chilli červená sušená",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jemný kečup",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa menšia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 8,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Teplá voda",
-   "mnozstvo": 1000,
-   "jednotka": "ml",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Srdiečka nakroj a vyčisti od zrazenej krvi, aorty - ak tam ešte sú vykrojíš. Tuk, ktorý je na nich necháš, pri dusení sa stopí. Cibuľu očisti a nakrájaj na drobno. Očisti strúčiky cesnaku.",
-  "Do 1 1/2 L hrnca daj 1 dl oleja, a daj zohriať tak, že vhodíš kúsok pokrájanej cibule a keď sa pekne bublinky od nej odhadzujú, tak vsyp všetku pokrájanú cibuľu. Dus ju tak málinko do červena, skôr je ešte biela no nie sklovitá. Odtiahni z plynu, pridaj mleté čierne korenie a červenú mletú papriku.",
-  "Premiešaj, daj naspäť na plyn a pridaj očistené, vodou opláchnuté srdiečka. Keď sa zatiahnu dáš 1 KL soli /druhú KL si nechávaš na dochutenie už na konci varenia. Vhoď 1 ks chilli papričky, podlej teplou vodou. Daj dusiť.",
-  "Tu sú prihodené srdiečka, fotka sa mi trošku nevydarila, ale keď budem robiť nabudúce, premením.",
-  "Potom daj 1 PL jemného kečupu a mletú rascu, zalej teplou vodou a nechaj variť na miernom ohni, cca 2 hodiny.",
-  "Medzitým som na sucho opeč múku na zápražku, zalej studenou vodou, premiešaj a ku konci varenia prilej k vareným srdiečkam. Dochuť, ak treba soľou. Hrniec som daj nabok a prisyp do hotového jedla trošku majoránky. Ako príloha sú vhodné: nočky, vrtuľky, makaróny, knedľa."
- ],
- "tipy": "Celé koreniny krátko opraž nasucho, kým nezavoňajú. Uvoľnia oveľa viac chuti než rovno vhodené do jedla.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kuracie",
-  "zelenina"
- ]
+  "id": "kuracie-srdiecka-s-chilli-paprickou",
+  "nazov": "Kuracie srdiečka s chilli papričkou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kuracie srdiečka s chilli papričkou (fotorecept) (autor: turistka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kuracie-srdiecka-s-chilli-paprickou-fotorecept/40195-recept.html",
+  "porcie": 6,
+  "cas": "155 min",
+  "kcal_na_porciu": 378,
+  "popis": "Pikantné hlavné jedlo z kuracích srdiečok s chilli papričkou, ktoré sa podáva s nočkami z detskej krupice.",
+  "ingrediencie": [
+    {
+      "nazov": "Srdiečka kuracie",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená sladká paprika",
+      "mnozstvo": 3,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprička chilli červená sušená",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jemný kečup",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa menšia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 8,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Teplá voda",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Srdiečka nakroj a vyčisti od zrazenej krvi a aorty - ak tam ešte sú, vykroj ich. Tuk, ktorý je na nich, nechaj, pri dusení sa stopí. Cibuľu očisti a nakrájaj na drobno. Očisti strúčiky cesnaku.",
+    "Do 1 1/2 L hrnca daj 1 dl oleja a daj zohriať tak, že vhodíš kúsok pokrájanej cibule, a keď sa pekne bublinky od nej odhadzujú, tak vsyp všetku pokrájanú cibuľu. Dus ju tak málinko do červena, skôr je ešte biela, no nie sklovitá. Odtiahni z plynu, pridaj mleté čierne korenie a červenú mletú papriku.",
+    "Premiešaj, daj naspäť na plyn a pridaj očistené, vodou opláchnuté srdiečka. Keď sa zatiahnu, daj 1 KL soli, druhú KL si nechaj na dochutenie už na konci varenia. Vhoď 1 ks chilli papričky, podlej teplou vodou. Daj dusiť.",
+    "Takto vyzerajú prihodené srdiečka.",
+    "Potom daj 1 PL jemného kečupu a mletú rascu, zalej teplou vodou a nechaj variť na miernom ohni, cca 2 hodiny.",
+    "Medzitým na sucho opeč múku na zápražku, zalej studenou vodou, premiešaj a ku koncu varenia prilej k vareným srdiečkam. Dochuť, ak treba, soľou. Hrniec daj nabok a prisyp do hotového jedla trošku majoránky. Ako príloha sú vhodné: nočky, vrtuľky, makaróny, knedľa."
+  ],
+  "tipy": "Celé koreniny krátko opraž nasucho, kým nezavoňajú. Uvoľnia oveľa viac chuti než rovno vhodené do jedla.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kuracie",
+    "zelenina"
+  ]
 }

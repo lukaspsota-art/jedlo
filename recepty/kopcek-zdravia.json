@@ -1,56 +1,56 @@
 {
- "id": "kopcek-zdravia",
- "nazov": "Kopček zdravia",
- "kategoria": "Šalát",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kopček zdravia (autor: andiss)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kopcek-zdravia/49429-recept.html",
- "porcie": 1,
- "cas": "40 min",
- "kcal_na_porciu": 150,
- "popis": "Vitamíny, vitamíny... tie nám teraz treba! Varila som cviklu, parila brokolicu a rozmýšľala \r\nsom, ako to skombinovať, aby som mala pestrejší obedík..a aha teda ;-)",
- "ingrediencie": [
-  {
-   "nazov": "Cvikla",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Brokolica",
-   "mnozstvo": 60,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Biele tofu",
-   "mnozstvo": 90,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rozmarín",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ himalájska",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Cviklu uvar domäkka. Brokoličku upar.",
-  "Tofu podrhni na hrubšej strane strúhadla. Osoľ, ochuť podľa seba.",
-  "Zapekaciu misu potri olivovym olejom. Vychladnutú cviklu ošúp a nakrájaj na kolieska. Vrstvi. Najprv kolieska cvikly, na to ružičky brokolice a nakoniec syr tofu. Šupni do rúry na asi 15 min, pokiaľ syr tofu trošku zhedne. Kto chce, môže si ešte urobiť šalátik či zemiačky ako prílohu."
- ],
- "tipy": "Tofu pred opekaním vylisuj medzi dvomi utierkami — čím menej vody, tým lepšia kôrka.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "bezmäsité",
-  "zelenina"
- ]
+  "id": "kopcek-zdravia",
+  "nazov": "Kopček zdravia",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kopček zdravia (autor: andiss)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kopcek-zdravia/49429-recept.html",
+  "porcie": 1,
+  "cas": "40 min",
+  "kcal_na_porciu": 150,
+  "popis": "Vitamínový obed, ktorý kombinuje varenú cviklu a parenú brokolicu.",
+  "ingrediencie": [
+    {
+      "nazov": "Cvikla",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Brokolica",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Biele tofu",
+      "mnozstvo": 90,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rozmarín",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ himalájska",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cviklu uvar domäkka. Brokoličku upar.",
+    "Tofu podrhni na hrubšej strane strúhadla. Osoľ, ochuť podľa seba.",
+    "Zapekaciu misu potri olivovym olejom. Vychladnutú cviklu ošúp a nakrájaj na kolieska. Vrstvi. Najprv kolieska cvikly, na to ružičky brokolice a nakoniec syr tofu. Šupni do rúry na asi 15 min, pokiaľ syr tofu trošku zhedne. Kto chce, môže si ešte urobiť šalátik či zemiačky ako prílohu."
+  ],
+  "tipy": "Tofu pred opekaním vylisuj medzi dvomi utierkami — čím menej vody, tým lepšia kôrka.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "bezmäsité",
+    "zelenina"
+  ]
 }

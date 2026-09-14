@@ -1,105 +1,104 @@
 {
- "id": "cokoladova-torta-s-jahodami-a-ceresnami",
- "nazov": "Čokoládová torta s jahodami a čerešňami",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Čokoládová torta s jahodami a čerešňami (autor: debnickovababicka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/cokoladova-torta-s-jahodami-a-ceresnami/59153-recept.html",
- "porcie": 24,
- "cas": "180 min",
- "kcal_na_porciu": 288,
- "popis": "Už dlho som chcela piecť tortu. A konečne som si na to našla čas. Ešteže včera pršalo :)\r\nRecept Debnička od babičky.",
- "ingrediencie": [
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hnedý cukor",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jogurt biely",
-   "mnozstvo": 150,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kakao",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok do pečiva",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mandle",
-   "mnozstvo": 50,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jahody",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerešne",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mascarpone",
-   "mnozstvo": 600,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jahodový džem",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na potretie"
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Rúru predhrej na 180 stupňov. Vymasti tortovú formu (25cm).",
-  "Zmäknuté maslo s cukrom vyšľahaj. Postupne pridávaj vajíčka. Prilej biely jogurt.",
-  "Múku, kakao, mleté mandle a kypriaci prášok prisyp do zmesi. Všetko spolu premiešaj. Zmes nalej do tortovej formy a peč okolo 60-90 minút.",
-  "Mascarpone si zmiešaj s práškovým cukrom podľa potreby. PO upečení nechaj tortu vychladnúť a rozrež na dva pláty. Spodný potri jahodovým džemom, rozotri mascarpone a poukladaj striedavo odkôstkované čerešne a jahody. Polož vrchnú vrstvu cesta, ozdob s mascarpone a čerešňami."
- ],
- "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
- "foto": "",
- "tagy": [
-  "snack",
-  "vajcia",
-  "bezmäsité"
- ]
+  "id": "cokoladova-torta-s-jahodami-a-ceresnami",
+  "nazov": "Čokoládová torta s jahodami a čerešňami",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Čokoládová torta s jahodami a čerešňami (autor: debnickovababicka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/cokoladova-torta-s-jahodami-a-ceresnami/59153-recept.html",
+  "porcie": 24,
+  "cas": "180 min",
+  "kcal_na_porciu": 288,
+  "ingrediencie": [
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hnedý cukor",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jogurt biely",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kakao",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mandle",
+      "mnozstvo": 50,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jahody",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerešne",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mascarpone",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jahodový džem",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na potretie"
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Rúru predhrej na 180 stupňov. Vymasti tortovú formu (25cm).",
+    "Zmäknuté maslo s cukrom vyšľahaj. Postupne pridávaj vajíčka. Prilej biely jogurt.",
+    "Múku, kakao, mleté mandle a kypriaci prášok prisyp do zmesi. Všetko spolu premiešaj. Zmes nalej do tortovej formy a peč okolo 60-90 minút.",
+    "Mascarpone si zmiešaj s práškovým cukrom podľa potreby. PO upečení nechaj tortu vychladnúť a rozrež na dva pláty. Spodný potri jahodovým džemom, rozotri mascarpone a poukladaj striedavo odkôstkované čerešne a jahody. Polož vrchnú vrstvu cesta, ozdob s mascarpone a čerešňami."
+  ],
+  "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+  "foto": "",
+  "tagy": [
+    "snack",
+    "vajcia",
+    "bezmäsité"
+  ]
 }

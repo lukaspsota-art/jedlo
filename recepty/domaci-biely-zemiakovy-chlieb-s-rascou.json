@@ -1,81 +1,80 @@
 {
- "id": "domaci-biely-zemiakovy-chlieb-s-rascou",
- "nazov": "Biely zemiakový chlieb s rascou",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Domáci biely zemiakový chlieb s rascou (autor: pusta)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/domaci-biely-zemiakovy-chlieb-s-rascou/14558-recept.html",
- "porcie": 19,
- "cas": "285 min",
- "kcal_na_porciu": 238,
- "popis": "Kedysi ako dieťa, som u mojej starej mamy ráno chodila k dedinskému pekárovi s múkou a poobede pre hotový chlieb. Predtým stará mama piekla doma v peci desať pecňov chleba v jeden deň, po vychladnutí ho zaviazala do čistej utierky, tento chlieb sa nedrolil a zostával pár dní vláčny...a tá nádherná dráždivá vôňa čerstvého chleba sa nedá nikdy zabudnúť... časť cesta odložila a pre mňa upiekla v peci",
- "ingrediencie": [
-  {
-   "nazov": "Pšeničná chlebová svetlá múka",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vlažná voda",
-   "mnozstvo": 650,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Celá rasca",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cukor kryštál",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cukor kryštál",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 42,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Do vandlíka preosej múku, zmiešaj so soľou, cukrom, rascou, vyhlb uprostred priehlbinu, do priehlbiny daj nastrúhané zemiaky, ktoré uvar v šupke, posyp kryštáľovvým cukrom, na ktorý namrvíš droždie, zalej časťou vlažnej vody, olejom a nechaj vykysnúť kvások, dôkladne spracuj zvyšnou vlažnou vodou na nelepivé, pružné a vláčne cesto strednej hustoty.",
-  "Popráš múkou, prikryj utierkou a nechaj v teple vykysnúť do dvojnásobného objemu - asi 45 minút.",
-  "Vykysnuté cesto znovu dôkladne prepracuj a na pomúčenej doske vytvaruj guľatý alebo pozdlžny bochník, prelož na plech s pečiacim papierom, nechaj znovu 20 minút podkysnúť, potri studenou vodou a vlož do trúby vyhriatej na 220 stupňov. Na spodok trúby daj malý kastrolik s horúcou vodou, aby sa počas pečenia tvorila para.",
-  "Po prvých 15 minútach pečenia zníž teplotu na 180 stupňov a peč ešte 60 minút. Vyber, daj vychladnúť na mriežku, aby sa odspodu chlieb nezaparil. Ihned po vybratí z trúby chlieb potri znovu studenou vodou, aby získal krásnu kôrku. Správne upečený chlieb má na poklop dutý zvuk. Krajce chleba sa dajú zmraziť. Vždy vyber len toľko, čo mieniš skonzumovať, po rozmrazení je ako čerstvý."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "príloha",
-  "zemiaky",
-  "bezmäsité"
- ]
+  "id": "domaci-biely-zemiakovy-chlieb-s-rascou",
+  "nazov": "Biely zemiakový chlieb s rascou",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Domáci biely zemiakový chlieb s rascou (autor: pusta)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/domaci-biely-zemiakovy-chlieb-s-rascou/14558-recept.html",
+  "porcie": 19,
+  "cas": "285 min",
+  "kcal_na_porciu": 238,
+  "ingrediencie": [
+    {
+      "nazov": "Pšeničná chlebová svetlá múka",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vlažná voda",
+      "mnozstvo": 650,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Celá rasca",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor kryštál",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cukor kryštál",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 42,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do vandlíka preosej múku, zmiešaj so soľou, cukrom, rascou, vyhlb uprostred priehlbinu, do priehlbiny daj nastrúhané zemiaky, ktoré uvar v šupke, posyp kryštáľovvým cukrom, na ktorý namrvíš droždie, zalej časťou vlažnej vody, olejom a nechaj vykysnúť kvások, dôkladne spracuj zvyšnou vlažnou vodou na nelepivé, pružné a vláčne cesto strednej hustoty.",
+    "Popráš múkou, prikryj utierkou a nechaj v teple vykysnúť do dvojnásobného objemu - asi 45 minút.",
+    "Vykysnuté cesto znovu dôkladne prepracuj a na pomúčenej doske vytvaruj guľatý alebo pozdlžny bochník, prelož na plech s pečiacim papierom, nechaj znovu 20 minút podkysnúť, potri studenou vodou a vlož do trúby vyhriatej na 220 stupňov. Na spodok trúby daj malý kastrolik s horúcou vodou, aby sa počas pečenia tvorila para.",
+    "Po prvých 15 minútach pečenia zníž teplotu na 180 stupňov a peč ešte 60 minút. Vyber, daj vychladnúť na mriežku, aby sa odspodu chlieb nezaparil. Ihned po vybratí z trúby chlieb potri znovu studenou vodou, aby získal krásnu kôrku. Správne upečený chlieb má na poklop dutý zvuk. Krajce chleba sa dajú zmraziť. Vždy vyber len toľko, čo mieniš skonzumovať, po rozmrazení je ako čerstvý."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "príloha",
+    "zemiaky",
+    "bezmäsité"
+  ]
 }

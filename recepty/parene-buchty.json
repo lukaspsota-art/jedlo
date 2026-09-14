@@ -1,123 +1,123 @@
 {
- "id": "parene-buchty",
- "nazov": "Parené buchty s lekvárom",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Parené buchty plnené lekvárom, sypané makom so šľahačkou (fotorecept) (autor: izabella929)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/parene-buchty-plnene-lekvarom-sypane-makom-so-slahackou-fotorecept/70396-recept.html",
- "porcie": 7,
- "cas": "48 min",
- "kcal_na_porciu": 300,
- "popis": "Dnešný obed.",
- "ingrediencie": [
-  {
-   "nazov": "Múka hladká špeciál",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvé droždie",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Marhuľový lekvár",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mak",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "mletý (na posypanie"
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na poliatie"
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "roztopené (na poliatie"
-  },
-  {
-   "nazov": "Šľahačka",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na ozdobenie"
-  },
-  {
-   "nazov": "Ovocie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na ozdobenie"
-  }
- ],
- "postup": [
-  "Najprv si priprav kvások. Vo vlažnom mlieku rozmrvi droždie a posyp cukrom a múkou. Nechala na teplom mieste vykysnúť. Zatiaľ si preosiala múky, pridaj som a vajce.",
-  "Keď kvások vykysol pridaj ho do múky a v nádobe, v ktorej kysol kvások prihriala mlieko a nechaj v ňom roztopiť maslo. Pridaj do cesta a vymies hladké nelepivé cesto.",
-  "Vypracované cesto posyp múkou zakryla kuchynskou utierkou a nechaj pol hodinu kysnúť.",
-  "Cesto rozvaľkaj a vykroj kolieska.",
-  "Naplnené kolieska nechaj podkysnúť.",
-  "Na parenie používam na hrniec gázu, ktorú preložíš 3x, aby bola hrubšia plocha a upevním ju na hrnci gumou.",
-  "Podkysnuté buchty ukladaj na gázu, pod ktorou už voda vrie. Buchty parím 8 min., hotové vylož do misy a zakryj kuchynskou utierkou, aby nevychladli.",
-  "A všetky buchty hotové.",
-  "Môžem ukladať na tanier. Buchty najprv potri maslom, potom polej medom a posyp mletým makom. Posyp práškovým cukrom. Dnes zdob šľahačkou a ovocím: kivi a hroznom."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "slovenské",
-  "tradičné",
-  "sladké",
-  "kysnuté"
- ]
+  "id": "parene-buchty",
+  "nazov": "Parené buchty s lekvárom",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Parené buchty plnené lekvárom, sypané makom so šľahačkou (fotorecept) (autor: izabella929)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/parene-buchty-plnene-lekvarom-sypane-makom-so-slahackou-fotorecept/70396-recept.html",
+  "porcie": 7,
+  "cas": "48 min",
+  "kcal_na_porciu": 300,
+  "popis": "Dnešný obed.",
+  "ingrediencie": [
+    {
+      "nazov": "Múka hladká špeciál",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvé droždie",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Marhuľový lekvár",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mak",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "mletý (na posypanie"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na poliatie"
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "roztopené (na poliatie"
+    },
+    {
+      "nazov": "Šľahačka",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na ozdobenie"
+    },
+    {
+      "nazov": "Ovocie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na ozdobenie"
+    }
+  ],
+  "postup": [
+    "Najprv si priprav kvások. Vo vlažnom mlieku rozmrvi droždie a posyp cukrom a múkou. Nechaj ho na teplom mieste vykysnúť. Zatiaľ si preosej múku a pridaj vajce.",
+    "Keď kvások vykysne, pridaj ho do múky a v nádobe, v ktorej kysol kvások, prihrej mlieko a nechaj v ňom roztopiť maslo. Pridaj do cesta a vymies hladké nelepivé cesto.",
+    "Vypracované cesto posyp múkou, zakry kuchynskou utierkou a nechaj pol hodinu kysnúť.",
+    "Cesto rozvaľkaj a vykroj kolieska.",
+    "Naplnené kolieska nechaj podkysnúť.",
+    "Na parenie použi na hrniec gázu, ktorú preložíš 3x, aby bola hrubšia plocha, a upevni ju na hrnci gumou.",
+    "Podkysnuté buchty ukladaj na gázu, pod ktorou už voda vrie. Buchty par 8 min., hotové vylož do misy a zakryj kuchynskou utierkou, aby nevychladli.",
+    "A všetky buchty hotové.",
+    "Môžeš ukladať na tanier. Buchty najprv potri maslom, potom polej medom a posyp mletým makom. Posyp práškovým cukrom. Dnes zdob šľahačkou a ovocím: kivi a hroznom."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "sladké",
+    "kysnuté"
+  ]
 }

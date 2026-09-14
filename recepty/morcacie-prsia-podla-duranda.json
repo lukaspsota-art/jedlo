@@ -1,91 +1,91 @@
 {
- "id": "morcacie-prsia-podla-duranda",
- "nazov": "Morčacie prsia podľa Duranda",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Morčacie prsia podľa Duranda (fotorecept) (autor: kukulienka71)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-prsia-podla-duranda-fotorecept/54909-recept.html",
- "porcie": 3,
- "cas": "30 min",
- "kcal_na_porciu": 408,
- "popis": "Jedná sa o minútku z hydinového mäsa, pôvodne z kuraťa. Neviem, kto bol Durand :-) \r\nZrejme francúzsky kuchár, ktorý vymyslel tento spôsob úpravy, lebo recept som našla \r\nmedzi francúzskymi a nesklamal ma.",
- "ingrediencie": [
-  {
-   "nazov": "Prsia morčacie",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rastlinný olej",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 2,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hydinová šunka",
-   "mnozstvo": 75,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajka",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Biele víno",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "morčacie prsia umyj, osuš, nakrájaj na približne rovnaké kúsky",
-  "osoľ, okoreň a obaľ ich v múke. Prudko ich zo všetkých strán opeč na rozhorúčenom oleji.",
-  "Počas pečenia mäsa par zemiaky na prílohu.",
-  "Stíš plameň a mäsko dopeč do mäkka, trvá to len pár minút. Vylož do do inej nádoby a udržuj v teple. Do výpeku pridaj nadrobno pokrájanú cibuľu a opekaj ju na vyššej teplote, pozor, nespáliť! Očistený a prelisovaný cesnak pridaj k cibuli spolu s nakrájanými rajčinami, kto chce, môže ich blanšírovať(zbaviť šupky vo vriacej vode), nám šupky nevadia.",
-  "hneď prisyp aj na rezančeky nakrájanú morčaciu šunku, trocha všetko poopekaj a zalej vínom.",
-  "Omáčku nechaj vrieť asi 7 minút, zatiaľ sa prebytočná tekutina odpar, zmes sa zahusti a správne ochuť. Jedlo bolo hotové.",
-  "Už len posekaj petržlenovú vňať na parené zemiaky, naber na taniere k mäsu a polej omáčkou. Je to vynikajúce"
- ],
- "tipy": "",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "morčacie",
-  "víno",
-  "zelenina"
- ]
+  "id": "morcacie-prsia-podla-duranda",
+  "nazov": "Morčacie prsia podľa Duranda",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Morčacie prsia podľa Duranda (fotorecept) (autor: kukulienka71)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/morcacie-prsia-podla-duranda-fotorecept/54909-recept.html",
+  "porcie": 3,
+  "cas": "30 min",
+  "kcal_na_porciu": 408,
+  "popis": "Minútka z hydinového mäsa, pôvodne z kuraťa, ktorej recept pochádza z francúzskej kuchyne.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia morčacie",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rastlinný olej",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 2,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hydinová šunka",
+      "mnozstvo": 75,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajka",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Biele víno",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "morčacie prsia umyj, osuš, nakrájaj na približne rovnaké kúsky",
+    "osoľ, okoreň a obaľ ich v múke. Prudko ich zo všetkých strán opeč na rozhorúčenom oleji.",
+    "Počas pečenia mäsa par zemiaky na prílohu.",
+    "Stíš plameň a mäsko dopeč do mäkka, trvá to len pár minút. Vylož do do inej nádoby a udržuj v teple. Do výpeku pridaj nadrobno pokrájanú cibuľu a opekaj ju na vyššej teplote, pozor, nespáliť! Očistený a prelisovaný cesnak pridaj k cibuli spolu s nakrájanými rajčinami, kto chce, môže ich blanšírovať(zbaviť šupky vo vriacej vode), nám šupky nevadia.",
+    "hneď prisyp aj na rezančeky nakrájanú morčaciu šunku, trocha všetko poopekaj a zalej vínom.",
+    "Omáčku nechaj vrieť asi 7 minút, zatiaľ sa prebytočná tekutina odpar, zmes sa zahusti a správne ochuť. Jedlo bolo hotové.",
+    "Už len posekaj petržlenovú vňať na parené zemiaky, naber na taniere k mäsu a polej omáčkou. Je to vynikajúce"
+  ],
+  "tipy": "",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "morčacie",
+    "víno",
+    "zelenina"
+  ]
 }

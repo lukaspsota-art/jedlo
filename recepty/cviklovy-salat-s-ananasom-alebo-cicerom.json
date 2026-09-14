@@ -1,54 +1,54 @@
 {
- "id": "cviklovy-salat-s-ananasom-alebo-cicerom",
- "nazov": "Cviklový šalát s ananásom alebo cícerom",
- "kategoria": "Šalát",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Cviklový šalát s ananásom alebo cícerom (autor: cyklistka77)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/cviklovy-salat-s-ananasom-alebo-cicerom/75621-recept.html",
- "porcie": 4,
- "cas": "60 min",
- "kcal_na_porciu": 78,
- "popis": "Alternatíva pre tých, čo nemajú radi zaváranú cviklu.* Uvarená a nastrúhaná cvikla sa zmieša s čerstvou citrónovou šťavou a na  kúsky nakrájaným čerstvým ananásom alebo uvareným cícerom.  Osvedčila sa mi kombinácia 1:1, aj keď na začiatku, keď som sa bála, či nepokazím ananás, som dala 2 hrnčeky cvikly a 1 hrnček ananásu.  Bežne rob šalát iba z cvikly a citrónovej šťavy, ale občas je super aj t",
- "ingrediencie": [
-  {
-   "nazov": "Cvikla",
-   "mnozstvo": 600,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrón",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ananás",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cícer",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Do vriacej vody daj variť cviklu. Uvar ju do mäkka, očisti a nastrúhaj. (Varí sa asi 40 minút - záleží od veľkosti.) Cviklu zmiešaj so šťavou z 2 citrónov (podľa veľkosti a kyslosti citrónov, to môžu byť aj 4 citróny). Zatiaľ máš asi 4-5 porcií.",
-  "Očisti čerstvý ananás, nakrájaj na kúsky (keď budú veľké, bude sa to nešikovne jesť a ak budú príliš malé, nebudete až tak cítiť, že je to ananás. Koliesko ananásu prekroj na polovicu, z polovice krájaj trojuholníky a tie som ešte prekrajovala na polovicu.",
-  "Pri takomto krájaní nie je potrebné vykrajovať stred. Ale toto si prispôsobí každý podľa svojich zvyklostí. V miske na fotografii je nakrájaný ananás z 2 koliesok, namiešané v pomere 1:1, ale toto si tiež prispôsobíte podľa vlastného uváženia.",
-  "Mne tam nechýbalo nič, ale môžete si do šalátu pridať pár kvapiek oleja, kyslú smotanu, alebo jogurt.",
-  "Ak máte radi cícer, môžete vyskúšať cviklu s uvareným cícerom tiež v pomere 1:1.",
-  "Cícer s cviklou nie je chuťovo tak úžasný, ako ananás s cviklou, ale je sýtejší, takže si ho pokojne zoberiem so sebou, keď budem cestovať a nebudem mať čas ísť do reštaurácie.",
-  "Cvikla býva rôznej veľkosti - preto počet porcií je ťažké napísať presne - tak mi to dúfam bude odpustené"
- ],
- "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "strukoviny",
-  "bezmäsité"
- ]
+  "id": "cviklovy-salat-s-ananasom-alebo-cicerom",
+  "nazov": "Cviklový šalát s ananásom alebo cícerom",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Cviklový šalát s ananásom alebo cícerom (autor: cyklistka77)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/cviklovy-salat-s-ananasom-alebo-cicerom/75621-recept.html",
+  "porcie": 4,
+  "cas": "60 min",
+  "kcal_na_porciu": 78,
+  "popis": "Alternatíva pre tých, čo nemajú radi zaváranú cviklu: uvarená a nastrúhaná cvikla sa zmieša s čerstvou citrónovou šťavou a na kúsky nakrájaným čerstvým ananásom alebo uvareným cícerom, osvedčila sa kombinácia 1:1.",
+  "ingrediencie": [
+    {
+      "nazov": "Cvikla",
+      "mnozstvo": 600,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cícer",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do vriacej vody daj variť cviklu. Uvar ju do mäkka, očisti a nastrúhaj. (Varí sa asi 40 minút - záleží od veľkosti.) Cviklu zmiešaj so šťavou z 2 citrónov (podľa veľkosti a kyslosti citrónov to môžu byť aj 4 citróny). Zatiaľ máš asi 4-5 porcií.",
+    "Očisti čerstvý ananás a nakrájaj ho na kúsky (keď budú veľké, bude sa to nešikovne jesť, a ak budú príliš malé, nebude až tak cítiť, že je to ananás). Koliesko ananásu prekroj na polovicu, z polovice krájaj trojuholníky a tie ešte prekroj na polovicu.",
+    "Pri takomto krájaní nie je potrebné vykrajovať stred. Ale toto si prispôsob podľa svojich zvyklostí. V miske na fotografii je nakrájaný ananás z 2 koliesok, namiešaný v pomere 1:1, ale aj toto si prispôsob podľa vlastného uváženia.",
+    "Nemusí tam chýbať nič ďalšie, ale do šalátu si môžeš pridať pár kvapiek oleja, kyslú smotanu alebo jogurt.",
+    "Ak máš rád cícer, môžeš vyskúšať cviklu s uvareným cícerom tiež v pomere 1:1.",
+    "Cícer s cviklou nie je chuťovo taký úžasný ako ananás s cviklou, ale je sýtejší, takže sa dá pokojne zobrať so sebou na cesty, keď nie je čas ísť do reštaurácie.",
+    "Cvikla býva rôznej veľkosti - preto je počet porcií ťažké napísať presne."
+  ],
+  "tipy": "Dresing primiešaj tesne pred podávaním. Inak šalát pustí vodu a zvädne.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "strukoviny",
+    "bezmäsité"
+  ]
 }

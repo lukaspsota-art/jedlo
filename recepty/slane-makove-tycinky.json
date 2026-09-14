@@ -1,61 +1,60 @@
 {
- "id": "slane-makove-tycinky",
- "nazov": "Slané tyčinky z kyslej smotany",
- "kategoria": "Pečivo",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Slané tyčinky s kyslou smotanou (autor: naty)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/slane-tycinky-s-kyslou-smotanou/45750-recept.html",
- "porcie": 12,
- "cas": "32 min",
- "kcal_na_porciu": 262,
- "popis": "Zatiaľ som nepridala veľa receptov, pretože väčšinou ked niečo robím, tak je to z varechy :) \r\nale tento recept som našla niekde na internete, tak ho sem môžem pridať :) veľmi často som \r\nrobievala tyčinky z lístkového cesta ale tieto sú oveľa lepšie!",
- "ingrediencie": [
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 175,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Žĺtky",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá smotana",
-   "mnozstvo": 125,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok do pečiva",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 0.5,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Zo všetkých surovín vypracuj hladké cesto. Nemusíš ho dávať stuhnúť do chladničky ale hned s ním pracuj. Vyvaľkaj na tenko cca 2 mm a krájaj na tyčinky. Prelož na plech, potri bielkom a posyp čím chceš (soľ, vegeta, rasca, sézam )",
-  "Z polovice sprav tyčinky, uzlíky, a z druhej polovice slimáčiky (vyvaľkané cesto potri kečupom zmiešaným s horčicou, cesnakom a pizzovým korením). A daj piecť. Tyčinky sú chrumkavé a slimáčiky mäkké!"
- ],
- "tipy": "Pečivo nechaj úplne vychladnúť, až potom ho krájaj — v teplom sa strieda ešte dopeká.",
- "foto": "",
- "tagy": [
-  "pečivo",
-  "slané",
-  "mak"
- ]
+  "id": "slane-makove-tycinky",
+  "nazov": "Slané tyčinky z kyslej smotany",
+  "kategoria": "Pečivo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Slané tyčinky s kyslou smotanou (autor: naty)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/slane-tycinky-s-kyslou-smotanou/45750-recept.html",
+  "porcie": 12,
+  "cas": "32 min",
+  "kcal_na_porciu": 262,
+  "ingrediencie": [
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 175,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Žĺtky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 125,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 0.5,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zo všetkých surovín vypracuj hladké cesto. Nemusíš ho dávať stuhnúť do chladničky ale hned s ním pracuj. Vyvaľkaj na tenko cca 2 mm a krájaj na tyčinky. Prelož na plech, potri bielkom a posyp čím chceš (soľ, vegeta, rasca, sézam )",
+    "Z polovice sprav tyčinky, uzlíky, a z druhej polovice slimáčiky (vyvaľkané cesto potri kečupom zmiešaným s horčicou, cesnakom a pizzovým korením). A daj piecť. Tyčinky sú chrumkavé a slimáčiky mäkké!"
+  ],
+  "tipy": "Pečivo nechaj úplne vychladnúť, až potom ho krájaj — v teplom sa strieda ešte dopeká.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "slané",
+    "mak"
+  ]
 }

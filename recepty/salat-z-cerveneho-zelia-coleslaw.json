@@ -1,92 +1,91 @@
 {
- "id": "salat-z-cerveneho-zelia-coleslaw",
- "nazov": "Šalát so zelerom, kukuricou a krabími tyčinkami",
- "kategoria": "Šalát",
- "kuchyna": "Americká",
- "zdroj": "Varecha.sk – Zel-Krab šalát (autor: catherinec)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/zel-krab-salat/60469-recept.html",
- "porcie": 5,
- "cas": "15 min",
- "kcal_na_porciu": 75,
- "popis": "Tento šalát vznikol ako improvizácia. Bola som na nákupe a vravím si, že by som si mohla \r\nna intráku spraviť nejaký dobrý šalát. A tak som kúštik zariskovala a podla mňa a mojich \r\nspolubývajúcich vznikol fakt skvelý šalát. Dúfam, že bude chutiť aj Vám :)",
- "ingrediencie": [
-  {
-   "nazov": "Strúhaný sterilizovaný zeler",
-   "mnozstvo": 320,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená čerstvá kápia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kukurica v konzerve",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Syr eidam",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Krabie tyčinky mrazené",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jogurt biely",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnakový dresing",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprika chilli pomletá",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Na začiatok si ošúp cibuľu a rozkroj na poly. Jednu polku nakrájaj na drobno a daj do misy, druhú časť si nakrájaj na väčšie kúsky a opraž do hneda na masle. Keď už je cibuľa hnedá, pridaj na kocky nakrájané krabie tyčinky, orestuj ich a pridaj klasik a chilli podľa chuti, nechaj vychladnúť.",
-  "Pokiaľ nám chladnú krabie tyčinky si pripravíš ostatok. Nakrájanú papriku zmiešaj spolu s cibuľou, kukuricou, odcedeným zelerom a syrom (je jedno, či na kocky, alebo ho nastrúhaj). Vychladené krabie tyčinky pridaj ku ostatku a nakoniec pridaj biely jogurt a dve lyžice cesnakového dressingu",
-  "Dobrú chuť!"
- ],
- "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "zelie",
-  "americké"
- ]
+  "id": "salat-z-cerveneho-zelia-coleslaw",
+  "nazov": "Šalát so zelerom, kukuricou a krabími tyčinkami",
+  "kategoria": "Šalát",
+  "kuchyna": "Americká",
+  "zdroj": "Varecha.sk – Zel-Krab šalát (autor: catherinec)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/zel-krab-salat/60469-recept.html",
+  "porcie": 5,
+  "cas": "15 min",
+  "kcal_na_porciu": 75,
+  "ingrediencie": [
+    {
+      "nazov": "Strúhaný sterilizovaný zeler",
+      "mnozstvo": 320,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená čerstvá kápia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kukurica v konzerve",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr eidam",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Krabie tyčinky mrazené",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jogurt biely",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnakový dresing",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika chilli pomletá",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Na začiatok si ošúp cibuľu a rozkroj na poly. Jednu polku nakrájaj na drobno a daj do misy, druhú časť si nakrájaj na väčšie kúsky a opraž do hneda na masle. Keď už je cibuľa hnedá, pridaj na kocky nakrájané krabie tyčinky, orestuj ich a pridaj klasik a chilli podľa chuti, nechaj vychladnúť.",
+    "Pokiaľ nám chladnú krabie tyčinky si pripravíš ostatok. Nakrájanú papriku zmiešaj spolu s cibuľou, kukuricou, odcedeným zelerom a syrom (je jedno, či na kocky, alebo ho nastrúhaj). Vychladené krabie tyčinky pridaj ku ostatku a nakoniec pridaj biely jogurt a dve lyžice cesnakového dressingu",
+    "Dobrú chuť!"
+  ],
+  "tipy": "Cesnak pridaj až na koniec restovania. Pripáli sa oveľa rýchlejšie než cibuľa a spálený zhorkne.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "zelie",
+    "americké"
+  ]
 }

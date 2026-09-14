@@ -1,90 +1,89 @@
 {
- "id": "cestoviny-hubova-smotanova",
- "nazov": "Cestoviny v hubovej smotanovej omáčke",
- "kategoria": "Cestoviny",
- "kuchyna": "Talianska",
- "zdroj": "Varecha.sk – Cestoviny so smotanovou omáčkou (autor: ferno)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-so-smotanovou-omackou/79615-recept.html",
- "porcie": 4,
- "cas": "30 min",
- "kcal_na_porciu": 363,
- "popis": "Pozrel som do chladničky a vzniklo toto.",
- "ingrediencie": [
-  {
-   "nazov": "Cestoviny",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Schwarzwaldská šunka",
-   "mnozstvo": 4,
-   "jednotka": "plátok",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cuketa",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šampiňóny",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Smotana",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový pretlak",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Kuracie prsia nakrájaj na kocky alebo úzke pásiky, schwarzwaldskú šunku na malé kocky.",
-  "Na masle opeč kuracie prsia. Pridaj šunku, chvíľku opeč. Okoreň.",
-  "Pridaj na malé kocky nakrájanú cuketu a na pásiky nakrájané šampiňóny, chvíľu opekaj.",
-  "Pridaj rajčinový pretlak, smotanu a pár minút povar.",
-  "Poprípade dochuť soľou a korením.",
-  "Cestoviny uvar v osolenej vode, sceď. Uvarené cestoviny buď pridaj do hrnca k omáčke a premiešaj alebo na tanier nalož cestoviny a na ne omáčku. Použi moje obľúbené malé vrtuľky, ktoré sú hotové po 2 minútach varenia."
- ],
- "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
- "foto": "",
- "tagy": [
-  "cestoviny",
-  "huby",
-  "smotanové",
-  "vegetariánske"
- ]
+  "id": "cestoviny-hubova-smotanova",
+  "nazov": "Cestoviny v hubovej smotanovej omáčke",
+  "kategoria": "Cestoviny",
+  "kuchyna": "Talianska",
+  "zdroj": "Varecha.sk – Cestoviny so smotanovou omáčkou (autor: ferno)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-so-smotanovou-omackou/79615-recept.html",
+  "porcie": 4,
+  "cas": "30 min",
+  "kcal_na_porciu": 363,
+  "ingrediencie": [
+    {
+      "nazov": "Cestoviny",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Schwarzwaldská šunka",
+      "mnozstvo": 4,
+      "jednotka": "plátok",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cuketa",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šampiňóny",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový pretlak",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kuracie prsia nakrájaj na kocky alebo úzke pásiky, schwarzwaldskú šunku na malé kocky.",
+    "Na masle opeč kuracie prsia. Pridaj šunku, chvíľku opeč. Okoreň.",
+    "Pridaj na malé kocky nakrájanú cuketu a na pásiky nakrájané šampiňóny, chvíľu opekaj.",
+    "Pridaj rajčinový pretlak, smotanu a pár minút povar.",
+    "Poprípade dochuť soľou a korením.",
+    "Cestoviny uvar v osolenej vode, sceď. Uvarené cestoviny buď pridaj do hrnca k omáčke a premiešaj alebo na tanier nalož cestoviny a na ne omáčku. Použi moje obľúbené malé vrtuľky, ktoré sú hotové po 2 minútach varenia."
+  ],
+  "tipy": "Huby daj na horúcu panvicu v jednej vrstve a nesoľ ich hneď. Inak pustia vodu a namiesto opekania sa dusia.",
+  "foto": "",
+  "tagy": [
+    "cestoviny",
+    "huby",
+    "smotanové",
+    "vegetariánske"
+  ]
 }

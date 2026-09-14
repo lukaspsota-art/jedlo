@@ -1,102 +1,101 @@
 {
- "id": "spenatovy-quiche",
- "nazov": "Špenátový quiche",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Špenátový quiche (autor: guru)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/spenatovy-quiche/54605-recept.html",
- "porcie": 8,
- "cas": "55 min",
- "kcal_na_porciu": 438,
- "popis": "Ked už som mal doma špenát :)m",
- "ingrediencie": [
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa potreby"
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tvrdý syr",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Smotana na varenie",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šampiňóny",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Špenátové lístky",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "plná hrsť čersvé"
-  }
- ],
- "postup": [
-  "Z múky, vody, soli, masla, vajca vymies tuhé cesto. Rozvaľkaj do kruhu, okrúhlu formu na pečenie si vymaž olejom.",
-  "Cesto vystel do okrúhlej formy.",
-  "Zo surovín vymiešaj plnku, ktorú následne vyleješ do okrúhlej formy vystlanej cestom.",
-  "Peč 10 minút pri 180°C a následne 15 minút pri 200 °C.",
-  "Dobrú chuť."
- ],
- "tipy": "Čerstvý špenát sa scvrkne takmer na desatinu objemu — nezľakni sa množstva na začiatku.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "syr",
-  "vajcia",
-  "huby",
-  "bezmäsité"
- ]
+  "id": "spenatovy-quiche",
+  "nazov": "Špenátový quiche",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Špenátový quiche (autor: guru)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/spenatovy-quiche/54605-recept.html",
+  "porcie": 8,
+  "cas": "55 min",
+  "kcal_na_porciu": 438,
+  "ingrediencie": [
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa potreby"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvrdý syr",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana na varenie",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šampiňóny",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Špenátové lístky",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "plná hrsť čersvé"
+    }
+  ],
+  "postup": [
+    "Z múky, vody, soli, masla, vajca vymies tuhé cesto. Rozvaľkaj do kruhu, okrúhlu formu na pečenie si vymaž olejom.",
+    "Cesto vystel do okrúhlej formy.",
+    "Zo surovín vymiešaj plnku, ktorú následne vyleješ do okrúhlej formy vystlanej cestom.",
+    "Peč 10 minút pri 180°C a následne 15 minút pri 200 °C.",
+    "Dobrú chuť."
+  ],
+  "tipy": "Čerstvý špenát sa scvrkne takmer na desatinu objemu — nezľakni sa množstva na začiatku.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "syr",
+    "vajcia",
+    "huby",
+    "bezmäsité"
+  ]
 }

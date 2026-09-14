@@ -1,99 +1,99 @@
 {
- "id": "azijsky-kuraci-salat",
- "nazov": "Ázijský kurací šalát",
- "kategoria": "Šalát",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Ázijský kurací šalát (fotorecept) (autor: alicina)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/azijsky-kuraci-salat-fotorecept/21318-recept.html",
- "porcie": 9,
- "cas": "45 min",
- "kcal_na_porciu": 357,
- "popis": "Pochúťka pre hostí či mňamka na bežný deň... Tento výborný šalátik mám od maminky \r\nmojej kamarátky. Robievam ho pravidelne.",
- "ingrediencie": [
-  {
-   "nazov": "Kuracie prsia",
-   "mnozstvo": 1000,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kukurica klásková v sladko-kyslom náleve",
-   "mnozstvo": 120,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sójové klíčky sterilizované",
-   "mnozstvo": 180,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zelená paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Oranžová paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olej olivový extra virgin",
-   "mnozstvo": 150,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sójová omáčka",
-   "mnozstvo": 7,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ocot vínny",
-   "mnozstvo": 6,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": 3,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Najprv si daj do vody uvariť kuracie prsia nakrájané na menšie kúsky. Ja zvyknem pridávať troška soli a kúsok zeleru. Vývar môžeš potom použiť pri varení. Na urýchlenie mäsko var v tlakovom hrnci. Po uvarení zlej a nechaj troška vychladnúť.",
-  "Priprav si všetky potrebné suroviny. Na drobno nakrájaj papriky a kláskovú kukuričku, pridaj scedené sójové výhonky.",
-  "Vychladnuté kuracie prsia nakrájaj nadrobno a pridaj k ostatným surovinám. Nakoniec zmiešaj všetky ingrediencie na zálievku a polej šalátik. Podľa chuti pridaj soľ a mleté korenie. Šalátik premiešaj a ulož do chladničky. Najlepšie chutí až na druhý deň, keď sa všetky chute dokonale spoja.",
-  "Dobrú chuť!!!"
- ],
- "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "kuracie",
-  "zelenina"
- ]
+  "id": "azijsky-kuraci-salat",
+  "nazov": "Ázijský kurací šalát",
+  "kategoria": "Šalát",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Ázijský kurací šalát (fotorecept) (autor: alicina)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/azijsky-kuraci-salat-fotorecept/21318-recept.html",
+  "porcie": 9,
+  "cas": "45 min",
+  "kcal_na_porciu": 357,
+  "popis": "Šalát vhodný pre hostí aj na bežný deň.",
+  "ingrediencie": [
+    {
+      "nazov": "Kuracie prsia",
+      "mnozstvo": 1000,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kukurica klásková v sladko-kyslom náleve",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sójové klíčky sterilizované",
+      "mnozstvo": 180,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zelená paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Oranžová paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olej olivový extra virgin",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sójová omáčka",
+      "mnozstvo": 7,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot vínny",
+      "mnozstvo": 6,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 3,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Najprv si daj do vody uvariť kuracie prsia nakrájané na menšie kúsky. Ja zvyknem pridávať troška soli a kúsok zeleru. Vývar môžeš potom použiť pri varení. Na urýchlenie mäsko var v tlakovom hrnci. Po uvarení zlej a nechaj troška vychladnúť.",
+    "Priprav si všetky potrebné suroviny. Na drobno nakrájaj papriky a kláskovú kukuričku, pridaj scedené sójové výhonky.",
+    "Vychladnuté kuracie prsia nakrájaj nadrobno a pridaj k ostatným surovinám. Nakoniec zmiešaj všetky ingrediencie na zálievku a polej šalátik. Podľa chuti pridaj soľ a mleté korenie. Šalátik premiešaj a ulož do chladničky. Najlepšie chutí až na druhý deň, keď sa všetky chute dokonale spoja.",
+    "Dobrú chuť!!!"
+  ],
+  "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "kuracie",
+    "zelenina"
+  ]
 }

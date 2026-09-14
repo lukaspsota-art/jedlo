@@ -1,87 +1,86 @@
 {
- "id": "moj-prvy-domaci-celozrnny-chlebik",
- "nazov": "Môj prvý domáci celozrnný chlebík",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Môj prvý domáci celozrnný chlebík (autor: anina6)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/moj-prvy-domaci-celozrnny-chlebik/35732-recept.html",
- "porcie": 7,
- "cas": "65 min",
- "kcal_na_porciu": 244,
- "popis": "Konečne som sa odhodlala aj ja upiecť domáci  chlieb. Poviem vám mala som pred tým \r\ndosť rešpekt , ale skúsila som a chlebík je na svete.",
- "ingrediencie": [
-  {
-   "nazov": "Celozrnná múka",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Droždie",
-   "mnozstvo": 21,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ocot",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 300,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Semená sezamové",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Deň pred tým, než sa chystala piecť, daj som si múku ohriať na izbovú teplotu. Čiže ju nechaj v kuchyni na linke. Ráno si prichystaj všetky suroviny a reku poďme na to dievča, či to zvládneš? Nasyp ju do misky a priprav si kvások.",
-  "Kvások urob z teplej vody, lyžičky cukru a polovičky kocky droždia. Ked to vykyslo, pridaj ho k múke, pridaj postupne soľ, ocot a rascu a vypracuj cesto, ktoré som si podlievala teplou vodu.",
-  "Vykysnuté cesto ešte raz prehnietla, vypracuj do tvaru dlhého chlebíka a na plechu ho ešte nechaj oddychovať asi polhodinku.",
-  "Predtým ho ešte potri studenou vodou a posyp sezamovými semiačkami. Peč asi 15 minút na 230 stupňoch v teplovzdušnej rúre, potom stiahni teplotu na 160 stupňov a dopekala som asi 40 minút. A ešte párkrát počas pečenie ho tou studenou vodou potri. Pozeraj do tej rúry, ako na taký malý zázrak, čo sa tam deje. A veru pre mňa to bol zázrak a zážitok, upeč svoj prvý chlebík. A tá vôňa"
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "pečivo",
-  "bezmäsité",
-  "slovenská"
- ]
+  "id": "moj-prvy-domaci-celozrnny-chlebik",
+  "nazov": "Môj prvý domáci celozrnný chlebík",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Môj prvý domáci celozrnný chlebík (autor: anina6)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/moj-prvy-domaci-celozrnny-chlebik/35732-recept.html",
+  "porcie": 7,
+  "cas": "65 min",
+  "kcal_na_porciu": 244,
+  "ingrediencie": [
+    {
+      "nazov": "Celozrnná múka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Droždie",
+      "mnozstvo": 21,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ocot",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Semená sezamové",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Deň pred pečením daj múku ohriať na izbovú teplotu, čiže ju nechaj v kuchyni na linke. Ráno si prichystaj všetky suroviny, nasyp múku do misky a priprav si kvások.",
+    "Kvások urob z teplej vody, lyžičky cukru a polovičky kocky droždia. Keď vykysne, pridaj ho k múke, pridaj postupne soľ, ocot a rascu a vypracuj cesto, ktoré podlievaj teplou vodou.",
+    "Vykysnuté cesto ešte raz prehnet, vypracuj do tvaru dlhého chlebíka a na plechu ho ešte nechaj oddychovať asi polhodinku.",
+    "Predtým ho ešte potri studenou vodou a posyp sezamovými semiačkami. Peč asi 15 minút na 230 stupňoch v teplovzdušnej rúre, potom stiahni teplotu na 160 stupňov a dopekaj asi 40 minút. Ešte párkrát počas pečenia ho tou studenou vodou potri."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "bezmäsité",
+    "slovenská"
+  ]
 }

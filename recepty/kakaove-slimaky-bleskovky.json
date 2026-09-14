@@ -1,88 +1,88 @@
 {
- "id": "kakaove-slimaky-bleskovky",
- "nazov": "Kakaové slimáky bleskovky",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Kakaové slimáky bleskovky (fotorecept) (autor: alex37)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kakaove-slimaky-bleskovky-fotorecept/47947-recept.html",
- "porcie": 14,
- "cas": "55 min",
- "kcal_na_porciu": 207,
- "popis": "Tento recept ma zaujal tým, že je to bleskovka. Trvá to fakt len 45minút a máte napečené.\r\nCesto je vláčne, ľahučké a mäkkučké a zvláštne tým, že neobsahuje kvasnice ale tvaroh.   \r\nŽiaľ neviem ako sa chová na druhý deň, nakoľko nám nezostal ani kúsoček ešte v priebehu \r\nhodiny všetko zmizlo :-)",
- "ingrediencie": [
-  {
-   "nazov": "Tvaroh",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 50,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 5,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok do pečiva",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kakaový prášok",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Práškový cukor",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Ručným mixérom vymiešaj tvaroh s cukrom a postupne pridaj mlieko a olej.",
-  "Do zmesi ručne primies múku rozmiešanú so štipkou soli a s práškom do pečiva.",
-  "Na jemne pomúčenej doske rozvaľkaj, potri olejom a posyp cez sitko zmesou kakaa a práškového cukru.",
-  "zatoč a nakrájaj dvojcentimetrové slimáčiky.",
-  "ulož na plech s papierom na pečenie /ja som dala na fóliu/. Peč v teplovzdušnej rúre pri 180°C cca 15´. Neodporúča sa prepiecť, aby cesto nestvrdlo."
- ],
- "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
- "foto": "",
- "tagy": [
-  "tvaroh",
-  "bezmäsité",
-  "dezert"
- ]
+  "id": "kakaove-slimaky-bleskovky",
+  "nazov": "Kakaové slimáky bleskovky",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Kakaové slimáky bleskovky (fotorecept) (autor: alex37)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kakaove-slimaky-bleskovky-fotorecept/47947-recept.html",
+  "porcie": 14,
+  "cas": "55 min",
+  "kcal_na_porciu": 207,
+  "popis": "Rýchle kakaové slimáky sú hotové za 45 minút a ich vláčne, ľahučké a mäkkučké cesto neobsahuje kvasnice, ale tvaroh.",
+  "ingrediencie": [
+    {
+      "nazov": "Tvaroh",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 5,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kakaový prášok",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ručným mixérom vymiešaj tvaroh s cukrom a postupne pridaj mlieko a olej.",
+    "Do zmesi ručne primies múku rozmiešanú so štipkou soli a s práškom do pečiva.",
+    "Na jemne pomúčenej doske rozvaľkaj, potri olejom a posyp cez sitko zmesou kakaa a práškového cukru.",
+    "zatoč a nakrájaj dvojcentimetrové slimáčiky.",
+    "ulož na plech s papierom na pečenie /môžeš dať aj na fóliu/. Peč v teplovzdušnej rúre pri 180°C cca 15´. Neodporúča sa prepiecť, aby cesto nestvrdlo."
+  ],
+  "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+  "foto": "",
+  "tagy": [
+    "tvaroh",
+    "bezmäsité",
+    "dezert"
+  ]
 }

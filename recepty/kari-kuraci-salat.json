@@ -1,80 +1,80 @@
 {
- "id": "kari-kuraci-salat",
- "nazov": "Karí kurací šalát",
- "kategoria": "Šalát",
- "kuchyna": "Britská",
- "zdroj": "Varecha.sk – Kurací karí šalát(fotorecept) (autor: kajusiqq)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kuraci-kari-salatfotorecept/33306-recept.html",
- "porcie": 3,
- "cas": "65 min",
- "kcal_na_porciu": 253,
- "popis": "Mala som chuť na niečo ľahke a kuracie:)",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 120,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kari",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vegeta",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Uhorka nakrájaná na plátky",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šalát",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajka",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Kuracie prsia narež na kocky alebo rezančeky, posoľ a posy kari korením Nechaj odležať na studenom mieste hodinku",
-  "Mäsko hoď na olej a opekaj",
-  "Nakrájaj šalát, papriku, uhorku a paradajky posoľ polej olivovým olejom a poriadne povegeť:-*pridaj mäsko Podávaj s kyslou smotanou do ktorej pridáš provensálske korenie."
- ],
- "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "kura",
-  "karí"
- ]
+  "id": "kari-kuraci-salat",
+  "nazov": "Karí kurací šalát",
+  "kategoria": "Šalát",
+  "kuchyna": "Britská",
+  "zdroj": "Varecha.sk – Kurací karí šalát(fotorecept) (autor: kajusiqq)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kuraci-kari-salatfotorecept/33306-recept.html",
+  "porcie": 3,
+  "cas": "65 min",
+  "kcal_na_porciu": 253,
+  "popis": "Ide o ľahký šalát s kuracím mäsom.",
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kari",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vegeta",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka nakrájaná na plátky",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šalát",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kuracie prsia narež na kocky alebo rezančeky, posoľ a posy kari korením Nechaj odležať na studenom mieste hodinku",
+    "Mäsko hoď na olej a opekaj",
+    "Nakrájaj šalát, papriku, uhorku a paradajky posoľ polej olivovým olejom a poriadne povegeť:-*pridaj mäsko Podávaj s kyslou smotanou do ktorej pridáš provensálske korenie."
+  ],
+  "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "kura",
+    "karí"
+  ]
 }

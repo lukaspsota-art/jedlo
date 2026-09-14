@@ -1,105 +1,105 @@
 {
- "id": "kuracie-so-spenatom-sag",
- "nazov": "Špenátové lasagne so zvyškovým kurčaťom",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Indická",
- "zdroj": "Varecha.sk – Špenátové lasagne s kuracím mäsom (fotorecept) (autor: archaa)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/spenatove-lasagne-s-kuracim-masom-fotorecept/41796-recept.html",
- "porcie": 4,
- "cas": "105 min",
- "kcal_na_porciu": 407,
- "popis": "Tento recept patrí u nás k najobľúbenejším na lasagne. Skvelo sa v ňon dajú využiť zbytky \ngrilovaného kuraťa z nedeľného obeda...",
- "ingrediencie": [
-  {
-   "nazov": "Mrazený špenát",
-   "mnozstvo": 450,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Syr na pizzu strúhaný",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Lasagne plátky",
-   "mnozstvo": 135,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zvyšky mäsa asi z polovice grilovaného kurčaťa",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 4,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 500,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Muškátový oriešok",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kyslá smotana",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Mäso ober a potrhaj do misy.2 hlavičky cesnaku očisti a pretlač k mäsu. Premiešaj a daj bokom",
-  "Ideme na bešamel: urob si zápražku z masla a múky. Praž, kým sa nám zápražka pení (asi 1 min), ale dávaj pozor, lebo musí ostat svetlá. Pridaj mlieko a uvar hustú omáčku, ktorú osolíš, okoreň a ochuť muškátovym orieškom",
-  "spoj ju s mäskom v miske a odlož",
-  "Medzitým si priprav špenát podľa návodu a zvyšné 2 strúčiky cesnaku doň roztlač",
-  "Zapekaciu formu si jemne vymasti a začni bešamelovou mäsovou omáčkou, ktorú na dno rozotrieš, poukladaj 3 plátky lasagní, na to špenát, znova bešamel a 3 plátky lasagní.",
-  "Zopakuj ešte raz a vrch potri kyslou smotanou, či jogurtom a posypeš polovicou syra",
-  "posyp polovicou syra, daj piecť pri 200 stupňoch na 30-35 minút a 15 minút pred dopečením ešte posyp druhou polovicou syra a dopeč.",
-  "Po vybratí z rúry nechaj odpočinúť asi 10 minút len tak voľne",
-  "Dobrú chuť!"
- ],
- "tipy": "Čerstvý špenát sa scvrkne takmer na desatinu objemu — nezľakni sa množstva na začiatku.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kura",
-  "indické",
-  "špenát"
- ]
+  "id": "kuracie-so-spenatom-sag",
+  "nazov": "Špenátové lasagne so zvyškovým kurčaťom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Indická",
+  "zdroj": "Varecha.sk – Špenátové lasagne s kuracím mäsom (fotorecept) (autor: archaa)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/spenatove-lasagne-s-kuracim-masom-fotorecept/41796-recept.html",
+  "porcie": 4,
+  "cas": "105 min",
+  "kcal_na_porciu": 407,
+  "popis": "Lasagne, v ktorých sa dajú výborne využiť zvyšky grilovaného kuraťa.",
+  "ingrediencie": [
+    {
+      "nazov": "Mrazený špenát",
+      "mnozstvo": 450,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Syr na pizzu strúhaný",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Lasagne plátky",
+      "mnozstvo": 135,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zvyšky mäsa asi z polovice grilovaného kurčaťa",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 500,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Muškátový oriešok",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kyslá smotana",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Mäso ober a potrhaj do misy.2 hlavičky cesnaku očisti a pretlač k mäsu. Premiešaj a daj bokom",
+    "Ideme na bešamel: urob si zápražku z masla a múky. Praž, kým sa nám zápražka pení (asi 1 min), ale dávaj pozor, lebo musí ostat svetlá. Pridaj mlieko a uvar hustú omáčku, ktorú osolíš, okoreň a ochuť muškátovym orieškom",
+    "spoj ju s mäskom v miske a odlož",
+    "Medzitým si priprav špenát podľa návodu a zvyšné 2 strúčiky cesnaku doň roztlač",
+    "Zapekaciu formu si jemne vymasti a začni bešamelovou mäsovou omáčkou, ktorú na dno rozotrieš, poukladaj 3 plátky lasagní, na to špenát, znova bešamel a 3 plátky lasagní.",
+    "Zopakuj ešte raz a vrch potri kyslou smotanou, či jogurtom a posypeš polovicou syra",
+    "posyp polovicou syra, daj piecť pri 200 stupňoch na 30-35 minút a 15 minút pred dopečením ešte posyp druhou polovicou syra a dopeč.",
+    "Po vybratí z rúry nechaj odpočinúť asi 10 minút len tak voľne",
+    "Dobrú chuť!"
+  ],
+  "tipy": "Čerstvý špenát sa scvrkne takmer na desatinu objemu — nezľakni sa množstva na začiatku.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kura",
+    "indické",
+    "špenát"
+  ]
 }

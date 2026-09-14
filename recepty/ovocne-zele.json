@@ -1,117 +1,117 @@
 {
- "id": "ovocne-zele",
- "nazov": "Ovocné želé",
- "kategoria": "Dezert",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Ovocná torta so želé (fotorecept) (autor: olinecka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/ovocna-torta-so-zele-fotorecept/83285-recept.html",
- "porcie": 18,
- "cas": "100 min",
- "kcal_na_porciu": 343,
- "popis": "Piekla som ju pre tých, ktorých \r\nmám rada.* Pre milovníkov ovocných \r\ndobrôt, ovocie môže byť \r\nrôzne...",
- "ingrediencie": [
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 6,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 6,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká tortová múka",
-   "mnozstvo": 240,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Smotana na šľahanie",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mascarpone",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jemný tvaroh",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Plnka jahodová v prášku",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jahodový sirup",
-   "mnozstvo": 300,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Želé tortové červené",
-   "mnozstvo": 40,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jahody",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "čerstvé (alebo iné ovocie podľa sezóny"
-  },
-  {
-   "nazov": "Jahodový džem",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Cesto: Bielky s cukrom a štipkou soli vyšľahaj do tuha. Pridaj po lyžiciach olej a postupne aj po jednom žĺtku, miešaj na menších otáčkach.",
-  "Do vaječnej peny varechou zľahka vmiešaj preosiatu múku. Formu (25x25 cm) vylož papierom na pečenie.",
-  "Cesto vlej do formy a peč 40-45 minút v rúre predhriatej na 180 stupňov.",
-  "Upečený korpus nechaj vychladnúť, stiahni papier na pečenie a korpus prekroj na dve rovnaké časti. Pripravené suroviny na plnku, jahodové želé, ovocie.",
-  "Smotanu s jahodovou plnkou v prášku (nemusí byť) vyšľahaj do polotuha, pridaj tvaroh, mascarpone, jahody pokrájané na menšie kúsky a došľahaj. Do tortovej formy daj spodný diel korpusu, jahody prekroj a poukladaj celom obvode.",
-  "Rozotri plnku, uhlaď a trochou plnky potri aj druhú časť korpusu, ktorý preložíš, zľahka pritlač.",
-  "Nanes jahodový džem a daj do chladničky stuhnúť.",
-  "Podľa návodu priprav želé, ktoré naleješ na celý povrch torty. Daj do chladničky stuhnúť. Tortu pred podávaním ozdob ovocím podľa seba.",
-  "Konečná verzia, ale rez torty nemám",
-  "Dnešná oslávenkyňa, nevesta Zlaťka."
- ],
- "tipy": "Smotanu aj metly daj pred šľahaním do chladničky. Teplá smotana sa nevyšľahá, len sa zrazí.",
- "foto": "",
- "tagy": [
-  "dezert",
-  "želé",
-  "ľahké"
- ]
+  "id": "ovocne-zele",
+  "nazov": "Ovocné želé",
+  "kategoria": "Dezert",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Ovocná torta so želé (fotorecept) (autor: olinecka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/ovocna-torta-so-zele-fotorecept/83285-recept.html",
+  "porcie": 18,
+  "cas": "100 min",
+  "kcal_na_porciu": 343,
+  "popis": "Dezert pre milovníkov ovocných dobrôt, pričom ovocie môže byť rôzne.",
+  "ingrediencie": [
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 6,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 6,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká tortová múka",
+      "mnozstvo": 240,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mascarpone",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jemný tvaroh",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Plnka jahodová v prášku",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jahodový sirup",
+      "mnozstvo": 300,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Želé tortové červené",
+      "mnozstvo": 40,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jahody",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "čerstvé (alebo iné ovocie podľa sezóny"
+    },
+    {
+      "nazov": "Jahodový džem",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cesto: Bielky s cukrom a štipkou soli vyšľahaj do tuha. Pridaj po lyžiciach olej a postupne aj po jednom žĺtku, miešaj na menších otáčkach.",
+    "Do vaječnej peny varechou zľahka vmiešaj preosiatu múku. Formu (25x25 cm) vylož papierom na pečenie.",
+    "Cesto vlej do formy a peč 40-45 minút v rúre predhriatej na 180 stupňov.",
+    "Upečený korpus nechaj vychladnúť, stiahni papier na pečenie a korpus prekroj na dve rovnaké časti. Pripravené suroviny na plnku, jahodové želé, ovocie.",
+    "Smotanu s jahodovou plnkou v prášku (nemusí byť) vyšľahaj do polotuha, pridaj tvaroh, mascarpone, jahody pokrájané na menšie kúsky a došľahaj. Do tortovej formy daj spodný diel korpusu, jahody prekroj a poukladaj celom obvode.",
+    "Rozotri plnku, uhlaď a trochou plnky potri aj druhú časť korpusu, ktorý preložíš, zľahka pritlač.",
+    "Nanes jahodový džem a daj do chladničky stuhnúť.",
+    "Podľa návodu priprav želé, ktoré naleješ na celý povrch torty. Daj do chladničky stuhnúť. Tortu pred podávaním ozdob ovocím podľa seba.",
+    "Konečná verzia, ale rez torty nemám",
+    "Dnešná oslávenkyňa, nevesta Zlaťka."
+  ],
+  "tipy": "Smotanu aj metly daj pred šľahaním do chladničky. Teplá smotana sa nevyšľahá, len sa zrazí.",
+  "foto": "",
+  "tagy": [
+    "dezert",
+    "želé",
+    "ľahké"
+  ]
 }

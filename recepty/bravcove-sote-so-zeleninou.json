@@ -1,93 +1,93 @@
 {
- "id": "bravcove-sote-so-zeleninou",
- "nazov": "Bravčové soté so zeleninou",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Bravčové soté z pliecka, ľadviny a pečienky (fotorecept) (autor: izabella929)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/bravcove-sote-z-pliecka-ladviny-a-pecienky-fotorecept/48104-recept.html",
- "porcie": 4,
- "cas": "100 min",
- "kcal_na_porciu": 535,
- "popis": "Tento recept som robila podľa Lacibácsiho z ATV..zaujalo ma použitie rôznych druhov \r\nbravčovín, teda bravčového pliecka, ľadviny a pečienky do jedného soté..jeho chuť skvele \r\ndoplnil paradajkový pretlak v spojení s paradajkovým lekvárom,paprikou a hríbami..veľmi \r\nchutné jedlo..",
- "ingrediencie": [
-  {
-   "nazov": "Bravčové pliecko",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bravčová ladvina",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Bravčová pečeň",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slanina údená domáca",
-   "mnozstvo": 70,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 3,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zelená paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pretlak paradakový domáci",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajkový lekvár",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené dubáky",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "priprav si všetky suroviny..",
-  "na panvicu dala pokrájanú slaninu, nechaj trošku topiť..",
-  "pridaj hneď pokrájanú cibuľu, cesnak a papriku..",
-  "pridaj pokrájanú lopatku a nechaj chvíľu opiecť..",
-  "pridaj paradajkový pretlak,paradajkový lekvár, soľ, korenie, bobkový list a nechaj povariť..",
-  "podlej malým množstvom vody a nechaj dusiť pol hodinu..po pol hodine pridaj pokrájanú ladvinu",
-  "nechaj dusiť s ľadvinou 15min.ochutnaj a ladvina bola uvarená tak pridaj aj pokrájanú pečienku..",
-  "Chvíľu ju nechaj prejsť varom a pridaj umyté sušenú dubáky",
-  "Keď bolo všetko uvarené, ešte ochutnala a dochuť hotové soté..pokiaľ sa soté dusilo, uvar si ako prílohu ryžu a opiekla zemiaky..",
-  "nezostalo mi nič iné, iba všetko uložiť na misu, ozdobiť a prajem dobrú chuť.."
- ],
- "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "bravčové",
-  "rýchle"
- ]
+  "id": "bravcove-sote-so-zeleninou",
+  "nazov": "Bravčové soté so zeleninou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Bravčové soté z pliecka, ľadviny a pečienky (fotorecept) (autor: izabella929)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/bravcove-sote-z-pliecka-ladviny-a-pecienky-fotorecept/48104-recept.html",
+  "porcie": 4,
+  "cas": "100 min",
+  "kcal_na_porciu": 535,
+  "popis": "Soté z rôznych druhov bravčoviny - z pliecka, ľadviny a pečienky - ktorého chuť dopĺňa paradajkový pretlak v spojení s paradajkovým lekvárom, paprikou a hríbami.",
+  "ingrediencie": [
+    {
+      "nazov": "Bravčové pliecko",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová ladvina",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Bravčová pečeň",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slanina údená domáca",
+      "mnozstvo": 70,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 3,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zelená paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pretlak paradakový domáci",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajkový lekvár",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené dubáky",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si všetky suroviny..",
+    "Na panvicu daj pokrájanú slaninu a nechaj ju trošku topiť..",
+    "pridaj hneď pokrájanú cibuľu, cesnak a papriku..",
+    "pridaj pokrájanú lopatku a nechaj chvíľu opiecť..",
+    "pridaj paradajkový pretlak, paradajkový lekvár, soľ, korenie, bobkový list a nechaj povariť..",
+    "podlej malým množstvom vody a nechaj dusiť pol hodinu..po pol hodine pridaj pokrájanú ľadvinu",
+    "nechaj dusiť s ľadvinou 15min., ochutnaj, a keď je ľadvina uvarená, pridaj aj pokrájanú pečienku..",
+    "Chvíľu ju nechaj prejsť varom a pridaj umyté sušené dubáky",
+    "Keď je všetko uvarené, ešte ochutnaj a dochuť hotové soté..pokiaľ sa soté dusí, uvar si ako prílohu ryžu a opeč zemiaky..",
+    "nakoniec už len všetko ulož na misu, ozdob a prajem dobrú chuť.."
+  ],
+  "tipy": "Dusené mäso sa nedá uponáhľať — zmäkne až po hodinách mierneho dusenia. Prudký var ho naopak vysuší.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "bravčové",
+    "rýchle"
+  ]
 }

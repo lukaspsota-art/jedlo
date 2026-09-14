@@ -1,102 +1,102 @@
 {
- "id": "skoricovy-chlieb",
- "nazov": "Škoricový chlieb",
- "kategoria": "Pečivo",
- "kuchyna": "Americká",
- "zdroj": "Varecha.sk – Chlieb: škoricový s hrozienkami (autor: pantinela)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/chlieb-skoricovy-s-hrozienkami/38942-recept.html",
- "porcie": 10,
- "cas": "120 min",
- "kcal_na_porciu": 313,
- "popis": "Tento chlieb opečený na hrianky patrí medzi najobľúbenejšie raňajkové jedlo v Severnej Amerike. Nádherne vonia a aj chutí. Je to taká \"chlebová vianočka\" :)",
- "ingrediencie": [
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené droždie",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hladká múka T650",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá škorica",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rozšľahané vajcia",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Roztopené maslo",
-   "mnozstvo": 3,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hrozienka",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Hnedý cukor",
-   "mnozstvo": 90,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Žĺtok",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Priprav si suroviny aby sme mali všetko poruke",
-  "V 100 ml mlieka rozpusť hnedý cukor a vysyp do neho kvasnice. Nechaj 5 minút a pomiešaj aby sa kvasnice rozpustili.",
-  "Vo veľkej mise zmiešaj múku, soľ a škoricu. V strede sprav jamku, vlej do nej rozpustené kvasnice, vajcia a rozpustené maslo. Zmiešaj s múku a podľa potreby pridávaj zvyšné mlieko až pokiaľ nevytvoríš vlhké lepkavé cesto.",
-  "Cesto prelož na zľahka pomúčenú dosku. Mies asi 10 minút, pokiaľ nie je hladké, mäkké a poddajné.",
-  "Cesto vlož do čistej misy a prikryj utierkou.",
-  "Nechaj kysnúť 1 - 1,5 hod., pokiaľ cesto nezdvojnásobý svoj objem.",
-  "Cesto \"zraz\" a nechaj 10 min. odpočívať.",
-  "Cesto vyvaľkaj na zľahka pomúčenej doske na obdĺžnik veľkosti 20 x 30 cm. Posyp ho hrozienkami a jemne ich zatlač do cesta. Cesto zroluj a poje pritlač dospodu aby sa zlepili. (Fotku, žiaľ, nemám, ale dúfam, že si to viete predstaviť). Bochník vlož do maslom vytretej formy, prikryj utierkou a nechaj kysnúť 30 - 45 min.",
-  "Bochník potri vajcovou glazúrou (vyšľahané žĺtko s vodou) a peč v rozohriatej rúre na 200°C 40 min., potom zníž teplotu na 180°C a peč ďalších približne 30 min., pokiaľ nie je bochník tmavý a lesklý. Po vyklopení z formy by mal po poklopaní na spodok vydávať dutý zvuk.",
-  "Cíti tú krásnu škoricovú vôňu? (nie, to nemáte špinavý monitor, to ja mám dopackanú rúru so zvyškami pohánkovej kaše",
-  "Vyber z formy a nechaj vychladnúť na mriežke.",
-  "Hotovo, prajem dobrú chuť",
-  "Ešte jedna rada na záver: fantasticky chutí pripravený ako hrianka s maslom"
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "pečivo",
-  "škorica",
-  "kysnuté"
- ]
+  "id": "skoricovy-chlieb",
+  "nazov": "Škoricový chlieb",
+  "kategoria": "Pečivo",
+  "kuchyna": "Americká",
+  "zdroj": "Varecha.sk – Chlieb: škoricový s hrozienkami (autor: pantinela)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/chlieb-skoricovy-s-hrozienkami/38942-recept.html",
+  "porcie": 10,
+  "cas": "120 min",
+  "kcal_na_porciu": 313,
+  "popis": "Tento chlieb opečený na hrianky patrí medzi najobľúbenejšie raňajkové jedlo v Severnej Amerike. Nádherne vonia a aj chutí. Je to taká \"chlebová vianočka\" :)",
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené droždie",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hladká múka T650",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá škorica",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rozšľahané vajcia",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Roztopené maslo",
+      "mnozstvo": 3,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hrozienka",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Hnedý cukor",
+      "mnozstvo": 90,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Žĺtok",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si suroviny, aby si mal všetko poruke.",
+    "V 100 ml mlieka rozpusť hnedý cukor a vysyp do neho kvasnice. Nechaj 5 minút a pomiešaj, aby sa kvasnice rozpustili.",
+    "Vo veľkej mise zmiešaj múku, soľ a škoricu. V strede sprav jamku, vlej do nej rozpustené kvasnice, vajcia a rozpustené maslo. Zmiešaj s múkou a podľa potreby pridávaj zvyšné mlieko až pokiaľ nevytvoríš vlhké lepkavé cesto.",
+    "Cesto prelož na zľahka pomúčenú dosku. Mies asi 10 minút, pokiaľ nie je hladké, mäkké a poddajné.",
+    "Cesto vlož do čistej misy a prikryj utierkou.",
+    "Nechaj kysnúť 1 - 1,5 hod., pokiaľ cesto nezdvojnásobí svoj objem.",
+    "Cesto „zraz“ a nechaj 10 min. odpočívať.",
+    "Cesto vyvaľkaj na zľahka pomúčenej doske na obdĺžnik veľkosti 20 x 30 cm. Posyp ho hrozienkami a jemne ich zatlač do cesta. Cesto zroluj a spoje pritlač dospodu, aby sa zlepili. Bochník vlož do maslom vytretej formy, prikryj utierkou a nechaj kysnúť 30 - 45 min.",
+    "Bochník potri vajcovou glazúrou (vyšľahané žĺtko s vodou) a peč v rozohriatej rúre na 200°C 40 min., potom zníž teplotu na 180°C a peč ďalších približne 30 min., pokiaľ nie je bochník tmavý a lesklý. Po vyklopení z formy by mal po poklopaní na spodok vydávať dutý zvuk.",
+    "Vychutnaj si tú krásnu škoricovú vôňu.",
+    "Vyber z formy a nechaj vychladnúť na mriežke.",
+    "Hotovo, dobrú chuť.",
+    "Ešte jedna rada na záver: fantasticky chutí pripravený ako hrianka s maslom."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "pečivo",
+    "škorica",
+    "kysnuté"
+  ]
 }

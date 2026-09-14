@@ -1,103 +1,103 @@
 {
- "id": "snack-krekry",
- "nazov": "Slané krekry",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Slané krekry (fotorecept) (autor: sonulienka)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/slane-krekry-fotorecept/71862-recept.html",
- "porcie": 24,
- "cas": "47 min",
- "kcal_na_porciu": 292,
- "popis": "A pokračovanie v slanom pečení.",
- "ingrediencie": [
-  {
-   "nazov": "Polohrubá múka",
-   "mnozstvo": 500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kryštálový cukor",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok do pečiva",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tvrdý syr",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 300,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vegeta",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Suroviny.",
-  "Všetky suroviny na cesto si dobre zames a vypracuj cesto.",
-  "Ako vidíte už mám naznačené že cesto rozdelíš na 6 častí. Cesto rozdelené.",
-  "Urob si plnku a aj tú rozdeľ na 6 častí nasledovne - syr si na jemno nastrúhaj rozmiešaj s maslom a pridaj červenú papriku.",
-  "Cesto rozvaľkaj.",
-  "Natri ho jednou časťou plnky.",
-  "Zatoč ho.",
-  "A takto spracuj všetkých šesť bochníkov. Každý valec zabaľ do potravinárskej fólie a poukladaj na tácku. Nechaj minimálne tri hodiny v chladničke. Ale najlepšie je do druhého dňa.",
-  "Na druhý deň krájaj na čo najtenšie kolieska a ukladáš na suchý plech. Ak ste dávali údený syr, nemusíte posýpať ale ak nie, tak vrch posyp vegetou, ktorú si rozmiešaj s mletou rascou.",
-  "Peč na 220 stupňov 7-8 minút.",
-  "Tu sú už upečené všetky.",
-  "Myslela som si, že toho je strašne veľa prakticky okolo 600 kusov ale keď sa do nich zahryznete nejdete prestať.",
-  "A ak máte dobré vínko tak určite odporúčam."
- ],
- "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
- "foto": "",
- "tagy": [
-  "kupované",
-  "syr",
-  "zelenina",
-  "pečivo"
- ]
+  "id": "snack-krekry",
+  "nazov": "Slané krekry",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Slané krekry (fotorecept) (autor: sonulienka)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/slane-krekry-fotorecept/71862-recept.html",
+  "porcie": 24,
+  "cas": "47 min",
+  "kcal_na_porciu": 292,
+  "popis": "A pokračovanie v slanom pečení.",
+  "ingrediencie": [
+    {
+      "nazov": "Polohrubá múka",
+      "mnozstvo": 500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kryštálový cukor",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvrdý syr",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 300,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vegeta",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Priprav si suroviny.",
+    "Všetky suroviny na cesto si dobre zames a vypracuj cesto.",
+    "Cesto rozdeľ na 6 častí.",
+    "Urob si plnku a aj tú rozdeľ na 6 častí nasledovne - syr si najemno nastrúhaj, rozmiešaj s maslom a pridaj červenú papriku.",
+    "Cesto rozvaľkaj.",
+    "Natri ho jednou časťou plnky.",
+    "Zatoč ho.",
+    "A takto spracuj všetkých šesť bochníkov. Každý valec zabaľ do potravinárskej fólie a poukladaj na tácku. Nechaj minimálne tri hodiny v chladničke. Ale najlepšie je do druhého dňa.",
+    "Na druhý deň krájaj na čo najtenšie kolieska a ukladaj ich na suchý plech. Ak si dal údený syr, nemusíš posýpať, ale ak nie, tak vrch posyp vegetou, ktorú si rozmiešaj s mletou rascou.",
+    "Peč na 220 stupňov 7-8 minút.",
+    "Takto vyzerajú všetky upečené.",
+    "Vyjde ich prakticky okolo 600 kusov, ale keď sa do nich zahryzneš, neprestaneš.",
+    "A ak máš dobré vínko, tak ich k nemu určite podávaj."
+  ],
+  "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+  "foto": "",
+  "tagy": [
+    "kupované",
+    "syr",
+    "zelenina",
+    "pečivo"
+  ]
 }

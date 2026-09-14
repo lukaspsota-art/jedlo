@@ -17,7 +17,11 @@ module.exports = {
 
     await page.evaluate((i) => window.otvor(i), id);
     await page.waitForTimeout(150);
-    await page.locator("#modal .btn.primary", { hasText: "Variť" }).click();
+    // „Variť" je primárne tlačidlo len keď sa recept otvorí Z PLÁNU (vtedy je jasné, čo variť).
+    // Otvorený zo zoznamu Receptov je primárna akcia „Do plánu" a Variť je pod „⋯ Viac“.
+    await page.locator("#modal .menu-wrap > .btn", { hasText: "Viac" }).click();
+    await page.waitForTimeout(150);
+    await page.locator("#m-det a", { hasText: "Variť" }).click();
     await page.waitForTimeout(300);
 
     const start = await page.evaluate(() => ({

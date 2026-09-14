@@ -1,99 +1,99 @@
 {
- "id": "grahamove-rozky-so-sezamom",
- "nazov": "Grahamové rožky so sezamom",
- "kategoria": "Pečivo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Grahamové rožky so sezamom (fotorecept) (autor: pusta)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/grahamove-rozky-so-sezamom-fotorecept/17362-recept.html",
- "porcie": 10,
- "cas": "132 min",
- "kcal_na_porciu": 258,
- "popis": "Včera som piekla tieto rohlíky. Podobné rohlíky som už vložila, ale tieto sú odlišné. Tu som použila Sladenku, ako tuk som použila slnečnicový olej, okrem vody som použila aj mlieko do cesta a kombinovala som len dva druhy múky - grahamovú múku s hladkou múkou. Vhodné aj pre diabetikov v množstve jeden rohlík.",
- "ingrediencie": [
-  {
-   "nazov": "Múka hladká extra špeciál 00",
-   "mnozstvo": 450,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Pšeničná grahamová múka",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sladenka",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 2,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 4,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čerstvé droždie",
-   "mnozstvo": 30,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 150,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 250,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sezamové semená",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "p.p vlažné na potieranie"
-  }
- ],
- "postup": [
-  "Priprav si Sladenku.",
-  "Do vandlíka som preosiala hladkú múku, pridala som grahamovú múku, v strede som vyhlbila jamku, do ktorej som dala Sladenku, namrvila som do nej droždie a zaliala som trochou vlažnej vody, čím som pripravila kvások.",
-  "Zohrej si odmerané množstvo mlieka, aby bolo vlažné.",
-  "Múku som osolila, do vykysnutého kvásku som pridala olej a...",
-  "...s vlažným mliekom a s vlažnou vodou zarob hladké pružné nelepivé cesto.",
-  "Cesto som prikryla utierkou a na teple som ho nechala vykysnúť do dvojnásobného objemu - cca 1 hodinu.",
-  "Vykysnuté cesto som znovu prepracovala a na pomúčenej doske som z neho vytvarovala valec,...",
-  "...ktorý som pokrájala na rovnaké diely.",
-  "Z každého dielu vyvaľkaj ovál približne do tvaru trojuholníka,...",
-  "...ktorý som začala stáčať od širšieho konca smerom k špičke až...",
-  "...ho stoč do rohlíka. S cestom sa veľmi dobre pracuje.",
-  "Rohlíky prelož na plech vyložený silikonovou podložkou/pečiacim papierom a...",
-  "...rohlíky bez daľšieho kysnutia potri vlažným mliekom a...",
-  "...posyp ich sezamom.",
-  "Rohlíky som piekla 12 minút v trúbe predohriatej na 220 stupňov, vybrala som ich a nechala som ich vychladnúť na doske.",
-  "Vychladnuté rohlíky ulož do košíka na pečivo."
- ],
- "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
- "foto": "",
- "tagy": [
-  "bezmäsité",
-  "slovenská",
-  "pečivo"
- ]
+  "id": "grahamove-rozky-so-sezamom",
+  "nazov": "Grahamové rožky so sezamom",
+  "kategoria": "Pečivo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Grahamové rožky so sezamom (fotorecept) (autor: pusta)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/grahamove-rozky-so-sezamom-fotorecept/17362-recept.html",
+  "porcie": 10,
+  "cas": "132 min",
+  "kcal_na_porciu": 258,
+  "popis": "Rožky z grahamovej a hladkej múky so Sladenkou a slnečnicovým olejom, do cesta sa okrem vody používa aj mlieko, a v množstve jeden rohlík sú vhodné aj pre diabetikov.",
+  "ingrediencie": [
+    {
+      "nazov": "Múka hladká extra špeciál 00",
+      "mnozstvo": 450,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Pšeničná grahamová múka",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sladenka",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 4,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čerstvé droždie",
+      "mnozstvo": 30,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sezamové semená",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "p.p vlažné na potieranie"
+    }
+  ],
+  "postup": [
+    "Priprav si Sladenku.",
+    "Do vandlíka preosej hladkú múku, pridaj grahamovú múku, v strede vyhĺb jamku, do ktorej daj Sladenku, namrv do nej droždie a zalej trochou vlažnej vody, čím pripravíš kvások.",
+    "Zohrej si odmerané množstvo mlieka, aby bolo vlažné.",
+    "Múku osoľ, do vykysnutého kvásku pridaj olej a...",
+    "...s vlažným mliekom a s vlažnou vodou zarob hladké pružné nelepivé cesto.",
+    "Cesto prikry utierkou a na teple ho nechaj vykysnúť do dvojnásobného objemu - cca 1 hodinu.",
+    "Vykysnuté cesto znovu prepracuj a na pomúčenej doske z neho vytvaruj valec,...",
+    "...ktorý pokrájaj na rovnaké diely.",
+    "Z každého dielu vyvaľkaj ovál približne do tvaru trojuholníka,...",
+    "...ktorý začni stáčať od širšieho konca smerom k špičke až...",
+    "...ho stoč do rohlíka. S cestom sa veľmi dobre pracuje.",
+    "Rohlíky prelož na plech vyložený silikonovou podložkou/pečiacim papierom a...",
+    "...rohlíky bez ďalšieho kysnutia potri vlažným mliekom a...",
+    "...posyp ich sezamom.",
+    "Rohlíky peč 12 minút v trúbe predohriatej na 220 stupňov, potom ich vyber a nechaj vychladnúť na doske.",
+    "Vychladnuté rohlíky ulož do košíka na pečivo."
+  ],
+  "tipy": "Cesto nechaj kysnúť na teplom mieste bez prievanu. Hotové je, keď zdvojnásobí objem — nie po presnom počte minút.",
+  "foto": "",
+  "tagy": [
+    "bezmäsité",
+    "slovenská",
+    "pečivo"
+  ]
 }

@@ -1,94 +1,93 @@
 {
- "id": "salat-z-hnedej-ryze-so-zeleninou",
- "nazov": "Šalát z basmati ryže a krúp so zeleninou",
- "kategoria": "Šalát",
- "kuchyna": "Medzinárodná",
- "zdroj": "Varecha.sk – Šalát z ryže, jačmenných krúpov a zeleniny (autor: daniella9)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/salat-z-ryze-jacmennych-krupov-a-zeleniny/28793-recept.html",
- "porcie": 6,
- "cas": "35 min",
- "kcal_na_porciu": 406,
- "popis": "Takýto recept tu už je, tuto:\nhttp://varecha.pravda.sk/recepty/salat-z-jacmennych-krupov-a-ryze/27365-recept.html\n\nJa len dávam trošku svoju upravenú verziu:-)",
- "ingrediencie": [
-  {
-   "nazov": "Ryža Basmati",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Jačmenné krúpy - č. 7",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šalátová uhorka",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Paradajky",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená cibuľa",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená paprika",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citorny",
-   "mnozstvo": null,
-   "jednotka": "",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušené oregano",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mleté čierne korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Morská soľ",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Ryžu a krúpy prepláchni vodou a daj variť. (Ryžu var podľa návodu na obale. Používam ryžu z Tesca, v takom ružovom balíčku). Prepláchnutú ryžu daj do hrnca a zalej vodou tak, aby bola ryžal en kúsok pod hladinou, priveď do varu. Ked voda vrie, ryžu osoľ a plameň stíš a var asi tak 10 minút.",
-  "Miešaj ju, aby sa neprilepila. Krúpy daj do zovretej vody a var, kým nebudú mäkké. Ked sú hotové, sceď ich a prepláchni studenou vodou a zmiešaj s ryžou.",
-  "Medzitým ako sa varí ryža a krúpy, si priprav zeleninu. Paradajky nakrájaj na malé kúsky, uhorky umyj, neočisti, len odkroj konce a nakrájaj na hrubšie kocky. Papriku nakrájaj tiež na hrubšie kúsky a cibuľu na plátky. Všetku zeleninu potom zamiešaj do ryže a krúpov.",
-  "Do misky vylej olej, citronovú šťavu, vysyp oregano, pridaj soľ a korenie a všetko spolu premiešaj. Nalej do šalátu. Všetko dobre premiešaj a daj schladiť do chladničky.",
-  "Hotovo, dobrú chuť Tento šalát je aj s dresingom celkom výrazný, takže si k nemu daj pár kúskov syru."
- ],
- "tipy": "Ryžu pred varením prepláchni, kým voda neostane číra, a počas varenia ju nemiešaj — inak sa rozvarí na kašu.",
- "foto": "",
- "tagy": [
-  "šalát",
-  "ryža",
-  "zdravé"
- ]
+  "id": "salat-z-hnedej-ryze-so-zeleninou",
+  "nazov": "Šalát z basmati ryže a krúp so zeleninou",
+  "kategoria": "Šalát",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "Varecha.sk – Šalát z ryže, jačmenných krúpov a zeleniny (autor: daniella9)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/salat-z-ryze-jacmennych-krupov-a-zeleniny/28793-recept.html",
+  "porcie": 6,
+  "cas": "35 min",
+  "kcal_na_porciu": 406,
+  "ingrediencie": [
+    {
+      "nazov": "Ryža Basmati",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Jačmenné krúpy - č. 7",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šalátová uhorka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Paradajky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená cibuľa",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená paprika",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citorny",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušené oregano",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mleté čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Morská soľ",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Ryžu a krúpy prepláchni vodou a daj variť. (Ryžu var podľa návodu na obale. Používam ryžu z Tesca, v takom ružovom balíčku). Prepláchnutú ryžu daj do hrnca a zalej vodou tak, aby bola ryžal en kúsok pod hladinou, priveď do varu. Ked voda vrie, ryžu osoľ a plameň stíš a var asi tak 10 minút.",
+    "Miešaj ju, aby sa neprilepila. Krúpy daj do zovretej vody a var, kým nebudú mäkké. Ked sú hotové, sceď ich a prepláchni studenou vodou a zmiešaj s ryžou.",
+    "Medzitým ako sa varí ryža a krúpy, si priprav zeleninu. Paradajky nakrájaj na malé kúsky, uhorky umyj, neočisti, len odkroj konce a nakrájaj na hrubšie kocky. Papriku nakrájaj tiež na hrubšie kúsky a cibuľu na plátky. Všetku zeleninu potom zamiešaj do ryže a krúpov.",
+    "Do misky vylej olej, citronovú šťavu, vysyp oregano, pridaj soľ a korenie a všetko spolu premiešaj. Nalej do šalátu. Všetko dobre premiešaj a daj schladiť do chladničky.",
+    "Hotovo, dobrú chuť Tento šalát je aj s dresingom celkom výrazný, takže si k nemu daj pár kúskov syru."
+  ],
+  "tipy": "Ryžu pred varením prepláchni, kým voda neostane číra, a počas varenia ju nemiešaj — inak sa rozvarí na kašu.",
+  "foto": "",
+  "tagy": [
+    "šalát",
+    "ryža",
+    "zdravé"
+  ]
 }

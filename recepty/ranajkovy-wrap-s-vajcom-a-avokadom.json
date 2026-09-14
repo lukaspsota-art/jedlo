@@ -1,75 +1,75 @@
 {
- "id": "ranajkovy-wrap-s-vajcom-a-avokadom",
- "nazov": "Raňajkový wrap s vajcom a avokádom",
- "kategoria": "Raňajky",
- "kuchyna": "Mexická",
- "zdroj": "Varecha.sk – Ľanový wrap (autor: iwusha)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/lanovy-wrap/47802-recept.html",
- "porcie": 2,
- "cas": "15 min",
- "kcal_na_porciu": 230,
- "popis": "Originálny recept pochádza z knihy Dr. Davisa - Život bez pšenice. Vhodný je pri bezpšeničnej diéte, keďže namiesto múky sa tu používajú zomleté ľanové semená. Takýmto wrapom môžete nahradiť ten klasický, spravíte tak niečo pre svoje zdravie :)",
- "ingrediencie": [
-  {
-   "nazov": "Ľanové mleté semienka",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Prášok do pečiva",
-   "mnozstvo": 0.25,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sušený cesnak",
-   "mnozstvo": 0.25,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 0.25,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kokosový olej",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Voda",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Zmiešaj mleté ľanové semienka, prášok do pečiva, sušený cesnak, mletú papriku a soľ. Následne vmiešaj roztopený kokosový olej. Pridaj vajce a vodu, aby vznikla súvislá hmota.",
-  "Autor knihy takto vzniknuté cesto rozotiera na vymastený pekáč vhodný do mikrovlnky a pečie ho v nej na vysokom výkone 2 až 3 minúty. Keďže ja takúto nádobu, ktorú by som mohla dať do mikrovlnky, doma nemám, peč wrap v rúre (takej miniatúrnej - ale samozrejme dá sa aj v klasickej).",
-  "Plech som si vyložila papierom na pečenie a to cesto naň natenko natri a snažila sa formovať ho do pekného kruhového tvaru. Peč pri 220 stupňoch asi 6 minút. Treba si to kontrolovať. Ak sa wrap dá odlepiť z pekáča, resp. papiera na pečenie je hotový. Z tohto množstva sprav dva wrapy.",
-  "Keď už máš wrap hotový, môžeš si ho naplniť čímkoľvek. Použi kari dressing a čerstvú zeleninku."
- ],
- "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
- "foto": "",
- "tagy": [
-  "raňajky",
-  "vajcia",
-  "avokádo"
- ]
+  "id": "ranajkovy-wrap-s-vajcom-a-avokadom",
+  "nazov": "Raňajkový wrap s vajcom a avokádom",
+  "kategoria": "Raňajky",
+  "kuchyna": "Mexická",
+  "zdroj": "Varecha.sk – Ľanový wrap (autor: iwusha)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/lanovy-wrap/47802-recept.html",
+  "porcie": 2,
+  "cas": "15 min",
+  "kcal_na_porciu": 230,
+  "popis": "Originálny recept pochádza z knihy Dr. Davisa - Život bez pšenice. Vhodný je pri bezpšeničnej diéte, keďže namiesto múky sa tu používajú zomleté ľanové semená. Takýmto wrapom môžete nahradiť ten klasický, spravíte tak niečo pre svoje zdravie :)",
+  "ingrediencie": [
+    {
+      "nazov": "Ľanové mleté semienka",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Prášok do pečiva",
+      "mnozstvo": 0.25,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sušený cesnak",
+      "mnozstvo": 0.25,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 0.25,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kokosový olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Zmiešaj mleté ľanové semienka, prášok do pečiva, sušený cesnak, mletú papriku a soľ. Následne vmiešaj roztopený kokosový olej. Pridaj vajce a vodu, aby vznikla súvislá hmota.",
+    "Vzniknuté cesto sa dá rozotrieť na vymastený pekáč vhodný do mikrovlnky a piecť v nej na vysokom výkone 2 až 3 minúty. Ak takúto nádobu doma nemáš, peč wrap v rúre (aj v takej miniatúrnej - ale samozrejme dá sa aj v klasickej).",
+    "Plech vylož papierom na pečenie, cesto naň natenko natri a snaž sa ho formovať do pekného kruhového tvaru. Peč pri 220 stupňoch asi 6 minút. Treba si to kontrolovať. Ak sa wrap dá odlepiť z pekáča, resp. papiera na pečenie, je hotový. Z tohto množstva sprav dva wrapy.",
+    "Keď už máš wrap hotový, môžeš si ho naplniť čímkoľvek. Použi kari dressing a čerstvú zeleninku."
+  ],
+  "tipy": "Rúru predhrej naprázdno aspoň 15 minút a upečenosť skontroluj špajľou v strede — musí vyjsť suchá.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "vajcia",
+    "avokádo"
+  ]
 }

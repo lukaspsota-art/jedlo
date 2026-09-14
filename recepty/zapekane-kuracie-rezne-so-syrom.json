@@ -1,102 +1,101 @@
 {
- "id": "zapekane-kuracie-rezne-so-syrom",
- "nazov": "Zapekané kuracie rezne so syrom",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Zapekané kuracie rezne so syrom (fotorecept) (autor: patroveckypitrs)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/zapekane-kuracie-rezne-so-syrom-fotorecept/54629-recept.html",
- "porcie": 9,
- "cas": "80 min",
- "kcal_na_porciu": 514,
- "popis": "Recept som som našiel v starej kuchárskej knihe po mame koľko tam bol ani sám neviem skúsil som a je to dobré tak sa oň podelím s Vami.",
- "ingrediencie": [
-  {
-   "nazov": "Prsia kuracie",
-   "mnozstvo": 800,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kukuričná strúhanka",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Strúhanka z rožkov",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tvrdý údený syr",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Červená mletá paprika",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 4,
-   "jednotka": "strúčik",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Petržlenová vňať",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Šunková krájaná saláma",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Kuracie prsia nakrájaj na tenšie rezne naklep a osoľ. Nechaj postať asi 15 minút nech soľ prejde do mäsa.",
-  "Maslo 100 g v panvici daj na sporák nech sa roztopí pridaj lisovaný cesnak do neho. Maslo s cesnakom nechaj postať asi 10 minút nech sa spoja. Maslo ma byť roztopené nie však horúce.",
-  "Do misy daj strúhanky a nasrúhaný údený sýr na jemno, červenú mletú papriku, mleté čierne korenie, soľ a nakrájanú petržlenovú vňať.",
-  "Všetko spolu dobre premiešaj.",
-  "Rezne vkladaj do teplého masla s cesnakom z oboch strán.",
-  "Potom ich z masla obaľ v pripravenej strúhanke z oboch strán a dobré pritlač v strúhanke.",
-  "Na tieto rezne daj plátok šunky a kúsok kapie.",
-  "Takto pripravený rezeň zroluj smer šunka dnu. Rolku mäsa daj na polku pekáča ktorú dobre vymasť s 50 g masla aj boky.",
-  "Tak postupne všetky takto upravené a zrolované rezne poukladaj.",
-  "Pekáč daj piecť do vyhriatej rúry na 200°C na pol hodinu ( podla typu rúry), nech sa to najskôr zapečie pozri ak je strúhanka do červenkastá tak krajom pekáča prileješ 2,5 dcl vody k mäsu uzavri druhou častou pekáča a daj do rúry dusiť ešte na 30 minút pri 200°C. Potom to otvor a pozri ako to vyzerá.",
-  "Dobre môžeš podávať.",
-  "Pokiaľ sa mäso v rúre pieklo tak zatiaľ si opeč zeleninu a uvaril ryžu, ktorú budem podávať k reznom.",
-  "Tak a môžeš servírovať, prajem dobrú chuť."
- ],
- "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kuracie",
-  "syr"
- ]
+  "id": "zapekane-kuracie-rezne-so-syrom",
+  "nazov": "Zapekané kuracie rezne so syrom",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Zapekané kuracie rezne so syrom (fotorecept) (autor: patroveckypitrs)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/zapekane-kuracie-rezne-so-syrom-fotorecept/54629-recept.html",
+  "porcie": 9,
+  "cas": "80 min",
+  "kcal_na_porciu": 514,
+  "ingrediencie": [
+    {
+      "nazov": "Prsia kuracie",
+      "mnozstvo": 800,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kukuričná strúhanka",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Strúhanka z rožkov",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvrdý údený syr",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Červená mletá paprika",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 4,
+      "jednotka": "strúčik",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Petržlenová vňať",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Šunková krájaná saláma",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kuracie prsia nakrájaj na tenšie rezne, naklep a osoľ. Nechaj postáť asi 15 minút, nech soľ prejde do mäsa.",
+    "Maslo 100 g daj v panvici na sporák, nech sa roztopí, a pridaj doň lisovaný cesnak. Maslo s cesnakom nechaj postáť asi 10 minút, nech sa spoja. Maslo má byť roztopené, nie však horúce.",
+    "Do misy daj strúhanku a najemno nastrúhaný údený syr, červenú mletú papriku, mleté čierne korenie, soľ a nakrájanú petržlenovú vňať.",
+    "Všetko spolu dobre premiešaj.",
+    "Rezne vkladaj do teplého masla s cesnakom z oboch strán.",
+    "Potom ich z masla obaľ v pripravenej strúhanke z oboch strán a dobre pritlač v strúhanke.",
+    "Na tieto rezne daj plátok šunky a kúsok kapie.",
+    "Takto pripravený rezeň zroluj smerom šunka dnu. Rolku mäsa daj na polku pekáča, ktorú dobre vymasti s 50 g masla aj boky.",
+    "Tak postupne poukladaj všetky takto upravené a zrolované rezne.",
+    "Pekáč daj piecť do vyhriatej rúry na 200°C na pol hodinu (podľa typu rúry), nech sa to najskôr zapečie; pozri, a ak je strúhanka do červenkasta, tak krajom pekáča prilej 2,5 dcl vody k mäsu, uzavri druhou časťou pekáča a daj do rúry dusiť ešte na 30 minút pri 200°C. Potom to otvor a pozri, ako to vyzerá.",
+    "Dobre, môžeš podávať.",
+    "Pokiaľ sa mäso v rúre pečie, zatiaľ si opeč zeleninu a uvar ryžu, ktorú budeš podávať k rezňom.",
+    "Tak a môžeš servírovať, dobrú chuť."
+  ],
+  "tipy": "Kuracie prsia stiahni z ohňa hneď, ako vnútri stratia ružovú farbu. Prepečené sa už zachrániť nedajú.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kuracie",
+    "syr"
+  ]
 }

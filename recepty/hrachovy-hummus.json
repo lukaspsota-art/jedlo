@@ -1,56 +1,56 @@
 {
- "id": "hrachovy-hummus",
- "nazov": "Cícerový hummus s gréckym jogurtom",
- "kategoria": "Raňajky",
- "kuchyna": "Slovenská",
- "zdroj": "TheMealDB – Hummus",
- "zdroj_url": "https://www.themealdb.com/meal/53269",
- "porcie": 4,
- "cas": "20 min",
- "kcal_na_porciu": 173,
- "popis": "Turkish · Side",
- "ingrediencie": [
-  {
-   "nazov": "Cícer",
-   "mnozstvo": 400,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tahini",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": "veľká clove"
-  },
-  {
-   "nazov": "Grécky jogurt",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Citrón",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Cícer sceď cez sitko nad miskou, aby sme zachytili nálev. Cícer, tahini, cesnak a jogurt daj do mixéra a rozmixuj do hladka.",
-  "Postupne primixuj po lyžici nálevu z cíceru, kým nemá hummus príjemnú konzistenciu, potom vyškrab do misky.",
-  "Vmiešaj trochu citrónovej šťavy a dochuť."
- ],
- "tipy": "Šťavu vytlač až tesne pred použitím a nezabudni na kôru — väčšina arómy je v nej, nie v šťave.",
- "foto": "",
- "tagy": [
-  "raňajky",
-  "bezmäsité",
-  "strukoviny"
- ]
+  "id": "hrachovy-hummus",
+  "nazov": "Cícerový hummus s gréckym jogurtom",
+  "kategoria": "Raňajky",
+  "kuchyna": "Slovenská",
+  "zdroj": "TheMealDB – Hummus",
+  "zdroj_url": "https://www.themealdb.com/meal/53269",
+  "porcie": 4,
+  "cas": "20 min",
+  "kcal_na_porciu": 173,
+  "popis": "Turkish · Side",
+  "ingrediencie": [
+    {
+      "nazov": "Cícer",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tahini",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "veľká clove"
+    },
+    {
+      "nazov": "Grécky jogurt",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Cícer sceď cez sitko nad miskou, aby si zachytil nálev. Cícer, tahini, cesnak a jogurt daj do mixéra a rozmixuj do hladka.",
+    "Postupne primixuj po lyžici nálevu z cíceru, kým nemá hummus príjemnú konzistenciu, potom vyškrab do misky.",
+    "Vmiešaj trochu citrónovej šťavy a dochuť."
+  ],
+  "tipy": "Šťavu vytlač až tesne pred použitím a nezabudni na kôru — väčšina arómy je v nej, nie v šťave.",
+  "foto": "",
+  "tagy": [
+    "raňajky",
+    "bezmäsité",
+    "strukoviny"
+  ]
 }

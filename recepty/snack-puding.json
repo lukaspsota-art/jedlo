@@ -1,55 +1,55 @@
 {
- "id": "snack-puding",
- "nazov": "Domáci puding",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Domáci puding (autor: dajaja)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/domaci-puding/47889-recept.html",
- "porcie": 1,
- "cas": "15 min",
- "kcal_na_porciu": 230,
- "popis": "Napadlo mi, že by som si mohla spraviť domáci puding. Nie je z prášku, viem čo v ňom \r\nje, chutí skoro rovnako a možno je aj zdravší.",
- "ingrediencie": [
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 200,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Špaldová múka",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kakao",
-   "mnozstvo": 0.5,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": 1,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ovocie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "akékoľvek"
-  }
- ],
- "postup": [
-  "Do hrnca si daj cca polovicu mlieka, pridaj med a nechaj za občasného premiešania variť na najslabšom ohni.",
-  "Do druhej polovice mlieka pridaj lyžicu múky, kakao a dobre premiešaj. Ak tam ostanú kakaové hrudky, nevadí, rozvaria sa.",
-  "Túto zmes prelej do hrnca s mliekom a medom a uvar puding. Je riedky ale keď ho nalejete do misky a chvíľku ho nechaj chladnúť zhustne. Potom už len ozdob ovocím. Ja ho mám najradšej ešte teplý. Prajem dobrú chuť!"
- ],
- "tipy": "Med primiešaj až do vlažnej zmesi. Nad 40 °C stráca vôňu aj časť enzýmov.",
- "foto": "",
- "tagy": [
-  "kupované",
-  "dezert"
- ]
+  "id": "snack-puding",
+  "nazov": "Domáci puding",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Domáci puding (autor: dajaja)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/domaci-puding/47889-recept.html",
+  "porcie": 1,
+  "cas": "15 min",
+  "kcal_na_porciu": 230,
+  "popis": "Domáci puding pripravený bez pudingového prášku, ktorý chutí skoro rovnako ako kupovaný.",
+  "ingrediencie": [
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 200,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Špaldová múka",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kakao",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ovocie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "akékoľvek"
+    }
+  ],
+  "postup": [
+    "Do hrnca si daj cca polovicu mlieka, pridaj med a nechaj za občasného premiešania variť na najslabšom ohni.",
+    "Do druhej polovice mlieka pridaj lyžicu múky, kakao a dobre premiešaj. Ak tam ostanú kakaové hrudky, nevadí, rozvaria sa.",
+    "Túto zmes prelej do hrnca s mliekom a medom a uvar puding. Je riedky ale keď ho nalejete do misky a chvíľku ho nechaj chladnúť zhustne. Potom už len ozdob ovocím. Ja ho mám najradšej ešte teplý. Prajem dobrú chuť!"
+  ],
+  "tipy": "Med primiešaj až do vlažnej zmesi. Nad 40 °C stráca vôňu aj časť enzýmov.",
+  "foto": "",
+  "tagy": [
+    "kupované",
+    "dezert"
+  ]
 }

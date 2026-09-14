@@ -1,111 +1,110 @@
 {
- "id": "kuracie-kridla-s-medovo-cili-omackou",
- "nazov": "Kuracie krídla s medovo-čili omáčkou",
- "kategoria": "Hlavné jedlo",
- "kuchyna": "Americká",
- "zdroj": "Varecha.sk – Grilované kuracie krídla na medovo-horčicovej omáčke a so sezamom (autor: shukvacik)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/grilovane-kuracie-kridla-na-medovo-horcicovej-omacke-a-so-sezamom/37835-recept.html",
- "porcie": 9,
- "cas": "70 min",
- "kcal_na_porciu": 440,
- "popis": "Tento recept som robil dnes prvý krát, už veľa krát som robil Grilovane krídla s kyslím \r\nobložením a tak ma napadlo skúsiť niečo nové :) napokon pokus vyšiel a všetkým chutilo.",
- "ingrediencie": [
-  {
-   "nazov": "Kuracie krídla",
-   "mnozstvo": 1500,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Sezam",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Med",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kremžská horčica",
-   "mnozstvo": 3,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Worcestrová omáčka",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Soľ",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne korenie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tekuté chilli",
-   "mnozstvo": 25,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Škrob",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Baranie rohy",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čalamáda",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Uhorka",
-   "mnozstvo": 200,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Chren",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Horčica",
-   "mnozstvo": 150,
-   "jednotka": "g",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Kuracie krídla si nasoľ, nechaj 2 hodiny postať, potom pridaj 3 PL medu, 3 PL kremžskej horčice, 1PL worcestrovej omáčky, čierne korenie, soľ a malú lyžičku solamylu. Všetko to spolu zmiešaj a nechaj v chladničke postať 2 hodiny.",
-  "Potom to vlož do rúry na program Gril, posyp sezamom a tekutím chilli a nechaj pomalí piecť na 180 stupňov asi hodinu.",
-  "Keď máš krídla upečené, ( ja dávam na jednu porciu 6 ks krídiel ) sprav si najlepšie na drevenú tácku kyslú oblohu kde si daj baranie rohy, čalamádu, kyslé uhorky, horčicu, chren Ja ešte robievam cibuľový šalát."
- ],
- "tipy": "Grilovaciu mriežku poriadne rozpáľ a namasti, až potom prilož mäso. Na studenej mriežke sa prilepí a roztrhá.",
- "foto": "",
- "tagy": [
-  "hlavné jedlo",
-  "kura",
-  "americké",
-  "pikantné"
- ]
+  "id": "kuracie-kridla-s-medovo-cili-omackou",
+  "nazov": "Kuracie krídla s medovo-čili omáčkou",
+  "kategoria": "Hlavné jedlo",
+  "kuchyna": "Americká",
+  "zdroj": "Varecha.sk – Grilované kuracie krídla na medovo-horčicovej omáčke a so sezamom (autor: shukvacik)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/grilovane-kuracie-kridla-na-medovo-horcicovej-omacke-a-so-sezamom/37835-recept.html",
+  "porcie": 9,
+  "cas": "70 min",
+  "kcal_na_porciu": 440,
+  "ingrediencie": [
+    {
+      "nazov": "Kuracie krídla",
+      "mnozstvo": 1500,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Sezam",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kremžská horčica",
+      "mnozstvo": 3,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Worcestrová omáčka",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tekuté chilli",
+      "mnozstvo": 25,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Škrob",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Baranie rohy",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čalamáda",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 200,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Chren",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Horčica",
+      "mnozstvo": 150,
+      "jednotka": "g",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Kuracie krídla si nasoľ, nechaj 2 hodiny postať, potom pridaj 3 PL medu, 3 PL kremžskej horčice, 1PL worcestrovej omáčky, čierne korenie, soľ a malú lyžičku solamylu. Všetko to spolu zmiešaj a nechaj v chladničke postať 2 hodiny.",
+    "Potom to vlož do rúry na program Gril, posyp sezamom a tekutím chilli a nechaj pomalí piecť na 180 stupňov asi hodinu.",
+    "Keď máš krídla upečené, ( ja dávam na jednu porciu 6 ks krídiel ) sprav si najlepšie na drevenú tácku kyslú oblohu kde si daj baranie rohy, čalamádu, kyslé uhorky, horčicu, chren Ja ešte robievam cibuľový šalát."
+  ],
+  "tipy": "Grilovaciu mriežku poriadne rozpáľ a namasti, až potom prilož mäso. Na studenej mriežke sa prilepí a roztrhá.",
+  "foto": "",
+  "tagy": [
+    "hlavné jedlo",
+    "kura",
+    "americké",
+    "pikantné"
+  ]
 }

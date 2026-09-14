@@ -1,98 +1,98 @@
 {
- "id": "kremova-polievka-zo-zeleniny",
- "nazov": "Krémová polievka zo zeleniny",
- "kategoria": "Polievka",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Krémová polievka zo zeleniny (fotorecept) (autor: bejda7)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/kremova-polievka-zo-zeleniny-fotorecept/13097-recept.html",
- "porcie": 11,
- "cas": "45 min",
- "kcal_na_porciu": 315,
- "popis": "Recept je ľahký,rýchly, zdravý a chutný:)Je to vymyslený experiment! Páči sa mi na ňom,že sa nemusí zahusťovať múkou..",
- "ingrediencie": [
-  {
-   "nazov": "Hrach",
-   "mnozstvo": 100,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mrkva",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Ružičkový kel",
-   "mnozstvo": 180,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Kaleráb",
-   "mnozstvo": 0.5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Zemiak",
-   "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Cesnak",
-   "mnozstvo": 5,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Olivový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vegeta",
-   "mnozstvo": 1,
-   "jednotka": "ČL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mletá rasca",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Čierne mleté korenie",
-   "mnozstvo": null,
-   "jednotka": "štipka",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Rožky",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Slnečnicový olej",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Do misky si namoč hrach na 1/2 hod. Potom si daj variť 1,3l vody do ktorej dáš variť očistenú a nakrájanú zeleninu. Pridaj korenie, vegetu, rascu, olej a nakoniec harach bez vody.",
-  "Var, kým zmäkne hrach",
-  "Nechaj trošku vychladnúť a potom všetko rozmixuj keď je krém rozmixovaný môžš ešte dochutiť podľa potreby. Kto má rád môže pridať nakrájaný a opečený rožok a petržlen."
- ],
- "tipy": "Zemiaky pred pečením osuš a rozlož na plech v jednej vrstve. Natlačené na sebe sa dusia a nezhnednú.",
- "foto": "",
- "tagy": [
-  "polievka",
-  "zemiaky",
-  "bezmäsité"
- ]
+  "id": "kremova-polievka-zo-zeleniny",
+  "nazov": "Krémová polievka zo zeleniny",
+  "kategoria": "Polievka",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Krémová polievka zo zeleniny (fotorecept) (autor: bejda7)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/kremova-polievka-zo-zeleniny-fotorecept/13097-recept.html",
+  "porcie": 11,
+  "cas": "45 min",
+  "kcal_na_porciu": 315,
+  "popis": "Ľahká, rýchla, zdravá a chutná krémová polievka, ktorú netreba zahusťovať múkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Hrach",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mrkva",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Ružičkový kel",
+      "mnozstvo": 180,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Kaleráb",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Zemiak",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Cesnak",
+      "mnozstvo": 5,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Olivový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vegeta",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mletá rasca",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Čierne mleté korenie",
+      "mnozstvo": null,
+      "jednotka": "štipka",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Rožky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Slnečnicový olej",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Do misky si namoč hrach na 1/2 hod. Potom si daj variť 1,3l vody do ktorej dáš variť očistenú a nakrájanú zeleninu. Pridaj korenie, vegetu, rascu, olej a nakoniec harach bez vody.",
+    "Var, kým zmäkne hrach",
+    "Nechaj trošku vychladnúť a potom všetko rozmixuj keď je krém rozmixovaný môžš ešte dochutiť podľa potreby. Kto má rád môže pridať nakrájaný a opečený rožok a petržlen."
+  ],
+  "tipy": "Zemiaky pred pečením osuš a rozlož na plech v jednej vrstve. Natlačené na sebe sa dusia a nezhnednú.",
+  "foto": "",
+  "tagy": [
+    "polievka",
+    "zemiaky",
+    "bezmäsité"
+  ]
 }

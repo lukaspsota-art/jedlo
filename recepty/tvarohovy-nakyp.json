@@ -1,81 +1,81 @@
 {
- "id": "tvarohovy-nakyp",
- "nazov": "Tvarohový nákyp",
- "kategoria": "Dezert",
- "kuchyna": "Slovenská",
- "zdroj": "Varecha.sk – Tvarohový nákyp s ovocím (fotorecept) (autor: imaginarium)",
- "zdroj_url": "https://varecha.pravda.sk/recepty/tvarohovy-nakyp-s-ovocim-fotorecept/71145-recept.html",
- "porcie": 6,
- "cas": "45 min",
- "kcal_na_porciu": 289,
- "popis": "Inšpirovala som sa receptom z Dobrého jedla. Pôvodne tam šlo 350 g syru Lučina, ale ten som nemala, \r\ntak som improvizovala a dala tvaroh. Takže začala som robiť syrový nákyp a skončila som \r\ns tvarohovým :D",
- "ingrediencie": [
-  {
-   "nazov": "Croissant",
-   "mnozstvo": 4,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Tvaroh",
-   "mnozstvo": 250,
-   "jednotka": "g",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Mlieko",
-   "mnozstvo": 100,
-   "jednotka": "ml",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vajcia",
-   "mnozstvo": 3,
-   "jednotka": "ks",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Vanilkový cukor",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Javorový sirup",
-   "mnozstvo": 2,
-   "jednotka": "PL",
-   "poznamka": ""
-  },
-  {
-   "nazov": "Maslo",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "na vymazanie zapekacej misy"
-  },
-  {
-   "nazov": "Ovocie",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "podľa chuti"
-  },
-  {
-   "nazov": "Citrónová šťava",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": ""
-  }
- ],
- "postup": [
-  "Croissanty si nakrájaj na menšie kúsky a daj do vymastenej malej zapekacej misy.",
-  "Tvaroh, mlieko, vajíčka, cukor a javorový sirup vymiešaj ponorným mixérom. Dochuť citrónovou šťavou.",
-  "Tvarohovou zmesou zalej croissanty a nechaj postáť 20 minút. Dozdob ovocím. Daj jahody a ríbezle. Peč v rúre vyhriatej na 180 °C asi 35 minút dozlata."
- ],
- "tipy": "Šťavu vytlač až tesne pred použitím a nezabudni na kôru — väčšina arómy je v nej, nie v šťave.",
- "foto": "",
- "tagy": [
-  "slovenské",
-  "tradičné",
-  "sladké",
-  "tvaroh"
- ]
+  "id": "tvarohovy-nakyp",
+  "nazov": "Tvarohový nákyp",
+  "kategoria": "Dezert",
+  "kuchyna": "Slovenská",
+  "zdroj": "Varecha.sk – Tvarohový nákyp s ovocím (fotorecept) (autor: imaginarium)",
+  "zdroj_url": "https://varecha.pravda.sk/recepty/tvarohovy-nakyp-s-ovocim-fotorecept/71145-recept.html",
+  "porcie": 6,
+  "cas": "45 min",
+  "kcal_na_porciu": 289,
+  "popis": "Nákyp pripravený z tvarohu namiesto pôvodne používaného syra Lučina.",
+  "ingrediencie": [
+    {
+      "nazov": "Croissant",
+      "mnozstvo": 4,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Tvaroh",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vajcia",
+      "mnozstvo": 3,
+      "jednotka": "ks",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Vanilkový cukor",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Javorový sirup",
+      "mnozstvo": 2,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "na vymazanie zapekacej misy"
+    },
+    {
+      "nazov": "Ovocie",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": null,
+      "jednotka": "podľa chuti",
+      "poznamka": ""
+    }
+  ],
+  "postup": [
+    "Croissanty si nakrájaj na menšie kúsky a daj do vymastenej malej zapekacej misy.",
+    "Tvaroh, mlieko, vajíčka, cukor a javorový sirup vymiešaj ponorným mixérom. Dochuť citrónovou šťavou.",
+    "Tvarohovou zmesou zalej croissanty a nechaj postáť 20 minút. Dozdob ovocím. Daj jahody a ríbezle. Peč v rúre vyhriatej na 180 °C asi 35 minút dozlata."
+  ],
+  "tipy": "Šťavu vytlač až tesne pred použitím a nezabudni na kôru — väčšina arómy je v nej, nie v šťave.",
+  "foto": "",
+  "tagy": [
+    "slovenské",
+    "tradičné",
+    "sladké",
+    "tvaroh"
+  ]
 }

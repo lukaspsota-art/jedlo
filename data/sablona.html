@@ -166,6 +166,14 @@
   ol.postup li{margin-bottom:11px;font-size:15px}
   .tipy{background:#f3f8f4;border-left:3px solid var(--accent);padding:12px 16px;border-radius:8px;margin-top:16px;font-size:14px}
   .zdroj{margin-top:14px;font-size:13px;color:var(--muted)}
+  /* F: odkaz na zdroj mal 216×16 px — pod hranicou 24 px, ktorú CLAUDE.md označuje za
+     nepodkročiteľnú aj na počítači. E2E ho nechytila, lebo detail receptu neotvára. */
+  .zdroj a{display:inline-block;min-height:24px;line-height:24px}
+  /* D: akcie boli na dne 3440 px dlhého okna — k „Do plánu" sa skrolovalo ~2570 px, tri
+     obrazovky. Lišta sa odteraz drží pri spodnom okraji; scrollujúci predok je .overlay. */
+  .modal .btn-row.akcie-lepiva{position:sticky;bottom:0;z-index:2;margin-top:20px;
+    padding:12px 0 calc(12px + env(safe-area-inset-bottom));
+    background:var(--panel);border-top:1px solid var(--line)}
   .hodnotenie{display:flex;align-items:center;gap:10px;margin-top:16px;flex-wrap:wrap}
   .starpick .star-slot{font-size:24px;cursor:pointer}
   textarea.pozn{width:100%;min-height:60px;border:1px solid var(--line);border-radius:10px;padding:10px;font-size:14px;font-family:inherit;margin-top:8px}
@@ -443,6 +451,17 @@
     .kolekcie,.chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
     .kolekcie::-webkit-scrollbar,.chips::-webkit-scrollbar{display:none}
     .kolekcie>*,.chips>*{flex:0 0 auto}
+    /* B: z trinástich kategórií bolo vidno tri a pol (skrytých 767 z 1128 px) a nič to
+       nenaznačovalo — len rez uprostred slova. Zmiznutý okraj hovorí „pokračuje to".
+       Triedy nasadzuje oznacPretecenie() podľa skutočného scrollLeft, takže na konci
+       lišty fade zmizne a nepredstiera obsah, ktorý tam nie je. */
+    .kolekcie.pret-v,.chips.pret-v{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent);
+      mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent)}
+    .kolekcie.pret-l,.chips.pret-l{-webkit-mask-image:linear-gradient(to right,transparent,#000 30px);
+      mask-image:linear-gradient(to right,transparent,#000 30px)}
+    .kolekcie.pret-l.pret-v,.chips.pret-l.pret-v{
+      -webkit-mask-image:linear-gradient(to right,transparent,#000 30px,#000 calc(100% - 30px),transparent);
+      mask-image:linear-gradient(to right,transparent,#000 30px,#000 calc(100% - 30px),transparent)}
     /* U1: panel na telefóne nemusí mať 20 px vnútorný okraj — je to 40 px šírky navyše */
     .panel{padding:14px 16px}
     /* U1: 7 dní v riadku sa delilo nerovnomerne (33–40 px); grid dá každému rovnaký podiel */
@@ -467,8 +486,15 @@
     .menu{position:fixed;left:8px;right:8px;top:auto;bottom:calc(74px + env(safe-area-inset-bottom));min-width:0;max-height:70vh;overflow:auto;border-radius:14px;z-index:70;box-shadow:0 -6px 30px rgba(0,0,0,.28)}
     .menu a{min-height:48px;display:flex;align-items:center}
     /* U1: filtre zbalené za jedno tlačidlo — v jednom riadku s hľadaním, nie pod ním */
+    /* Sticky lišta akcií sa lepí na spodný okraj SCROLLPORTU, ktorý je zmenšený o spodný
+       padding .overlay — pod ňou tak ostávalo 30 px, cez ktoré presvital recept. Na telefóne
+       je modál aj tak sheet na celú výšku, takže spodný padding netreba. */
+    .overlay{padding:16px 12px 0}
     .f-toggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto}
-    #hladaj{min-width:0;flex:1 1 120px}
+    /* A: hľadanie je hlavná cesta do 2220 receptov, ale delilo sa o riadok s tlačidlom filtrov
+       a zostalo mu 182 px z 393 — placeholder sa rezal uprostred slova. Odteraz má vlastný
+       riadok na celú šírku a filtre sú pod ním. */
+    #hladaj{min-width:0;flex:1 1 100%}
     .controls{padding:9px;margin-bottom:10px}
     .sub{margin-bottom:12px}
     /* flex:0 0 100% je nutné: základné .f-body má flex:1;min-width:0, a flex-basis:0%
@@ -496,7 +522,7 @@
   .kal .dow{font-size:12px;color:var(--muted);text-align:center;padding:4px;font-weight:600}
   .kal .day{background:#fff;border:1px solid var(--line);border-radius:8px;min-height:66px;padding:5px;font-size:11px;overflow:hidden}
   .kal .day .dn{font-weight:600;color:var(--muted)}
-  .kal .day.dnes{border-color:var(--accent);border-width:2px}
+  .kal .day.je-dnes{border-color:var(--accent);border-width:2px}
   .kal .day.mimo{background:transparent;border:none}
   .kal .ev{background:var(--chip);border-radius:5px;padding:1px 5px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .kal .plan-dot{color:var(--accent);font-size:8px;margin-left:4px;vertical-align:middle}
@@ -804,8 +830,11 @@
   .tyzden-pas .d{background:var(--doska);border:1px solid var(--linka);border-radius:var(--r-mala);
     padding:8px 3px;text-align:center;min-width:0}
   /* outline namiesto border-width: border by zmenil layout a posunul obsah dnešnej bunky
-     o 17–33 px nadol, takže jej blokový pásik skončil zalepený o spodný okraj. */
-  .tyzden-pas .d.dnes{border-color:var(--text);outline:2px solid var(--text);outline-offset:-2px}
+     o 17–33 px nadol, takže jej blokový pásik skončil zalepený o spodný okraj.
+     Stav sa volá `je-dnes`, NIE `dnes`: `.dnes` je panel „Čo variť dnes?" s display:flex
+     (:56) a chytal sa aj na túto bunku — prázdny prúžok bloku sa ako flex-položka zmrštil
+     na 0 px a dnešný deň, jediný, na ktorý sa pozeráš, stratil farbu svojho bloku. */
+  .tyzden-pas .d.je-dnes{border-color:var(--text);outline:2px solid var(--text);outline-offset:-2px}
   .tyzden-pas .kc{display:block;font-family:'Archivo',Arial,sans-serif;font-weight:800;
     font-variant-numeric:tabular-nums;font-size:15px;line-height:1.1;color:var(--text)}
   .tyzden-pas .dn{display:block;font-size:11.5px;color:var(--text2);margin-top:1px}
@@ -1254,8 +1283,8 @@
       <p class="sub">Predvoľby sa použijú pri plánovaní a filtrovaní.</p>
       <div class="panel">
         <div class="field"><label>Ktoré jedlá varíte?</label><div id="sloty-box"></div></div>
-        <div class="field"><label>Stravníci (rôzne kalórie/deň)</label><div id="stravnici-box"></div><button class="btn" onclick="pridajStravnika()" style="margin-top:6px">+ pridať osobu</button></div>
-        <div class="field"><label>Cieľ kalórií na deň (kcal)</label><input type="number" id="p-kcal" value="1450"></div>
+        <div class="field"><label>Stravníci (meno a cieľ kcal/deň — prvý riadok je hlavný stravník)</label><div id="stravnici-box"></div><button class="btn" onclick="pridajStravnika()" style="margin-top:6px">+ pridať osobu</button>
+          <p class="info" id="p-kcal-info" style="margin:8px 0 0"></p></div>
         <div class="field"><label>Cieľ</label><select class="f" id="p-cieltyp"><option value="chudnutie">Chudnutie</option><option value="udrzanie">Udržanie</option><option value="priberanie">Priberanie</option></select></div>
       </div>
       <details class="panel"><summary>🥗 Diéta a suroviny</summary>
