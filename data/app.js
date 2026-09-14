@@ -565,7 +565,7 @@ function akcieSlotu(di,slot){
 //     a vytlačil sa JEDEN deň namiesto siedmich. Na šírku (1123 px) sa zmestí celý týždeň.
 //  3) Na papieri ostávali ovládacie prvky: „✎ zmeniť", „⋯ viac", „✕", „+ pridať", steppery.
 const TLAC_CSS = `@media print{
-  .menu-wrap,.plan-den-nav,.view.printme > p.sub{display:none!important}
+  .menu-wrap,.plan-den-nav,#plan-den-hlava,.view.printme > p.sub{display:none!important}
   .plan-cell .rm,.plan-cell a,.plan-cell.prazdne,.plan-varenia,.mchips,.ppl,tr.ctrl-row,
   .stepper,.seg,.doma-in{display:none!important}
   .plan-cell .kc{cursor:auto}
@@ -584,6 +584,14 @@ const TLAC_CSS = `@media print{
   body.tlac-plan table.plan{table-layout:fixed!important}
   body.tlac-plan table.plan td[data-d],body.tlac-plan table.plan th[data-d]{display:table-cell!important}
   body.tlac-plan table.plan tr.dni-hlavicka{display:table-row!important}
+  /* A4 na výšku je 794 px, teda POD breakpointom 820 px — na papieri platí mobilná media
+     query. Tá skrýva prvý stĺpec (menovka jedla je v bunke) a riadok Σ (je v hlavičke dňa).
+     Na papieri je ale sedem dní naraz, takže oboje treba vrátiť a .pc-slot naopak zhasnúť,
+     inak by na hárku svietilo „RAŇAJKY" 7× v jednom riadku. Nie je to viazané na
+     body.tlac-plan — plán tlačí aj „Tlačiť týždeň". */
+  table.plan td.slotname,table.plan td.rohova{display:table-cell!important}
+  table.plan tr.suma{display:table-row!important}
+  .pc-slot{display:none!important}
   /* P4: vlna 3 pridala do plánu aj nákupu skutočné <button> a na papier sa dostali.
      Rozlišujeme dva druhy. Tlačidlo, ktoré je LEN akcia (✕, ⓘ, ✎, „plán varenia →",
      „✂️ Upraviť rozvrh", prúžok postupu, panely „Mám doma"/„Trasa obchodom"), sa skryje.
@@ -1177,7 +1185,10 @@ function zpristupniKliky(root){ (root||document).querySelectorAll(".chip:not([ta
     if(el.style.cursor==="default")return;
     if(el.tagName==="BUTTON")return; // skutočné tlačidlo už klávesnicu má, pečiatka by len duplikovala rolu
     el.setAttribute("tabindex","0"); if(!el.getAttribute("role"))el.setAttribute("role","button");
-    if(!el.getAttribute("aria-label")){ const t=(el.textContent||"").trim(); if(t)el.setAttribute("aria-label",t); } }); }
+    // Menovka sa berie z `title` PRED textom. Chip, ktorého obsah je len znak („◀", „📅"),
+    // by inak dostal aria-label="◀" a čítačka by prečítala názov znaku — vysvetlenie pritom
+    // v `title` je, len bolo na telefóne nedosiahnuteľné (hover-only).
+    if(!el.getAttribute("aria-label")){ const t=(el.getAttribute("title")||el.textContent||"").trim(); if(t)el.setAttribute("aria-label",t); } }); }
 function zpristupniNav(){ zpristupniKliky();
   document.querySelectorAll(".side nav a:not([tabindex]),.side .foot a:not([tabindex]),.botnav a:not([tabindex])").forEach(a=>{ a.setAttribute("role","button"); if(!a.hasAttribute("tabindex"))a.setAttribute("tabindex","0"); const ic=a.querySelector(".ic"); if(ic)ic.setAttribute("aria-hidden","true"); if(!a.getAttribute("aria-label"))a.setAttribute("aria-label",a.textContent.trim()); }); }
 // A8: jedno pravidlo pre VŠETKO, čo dostane rolu tlačidla — predtým tu chýbali `.plan-cell[tabindex]`
@@ -1321,7 +1332,9 @@ function _masoTypVypocet(r){ const s=bezDia((r.ingrediencie||[]).map(i=>i.nazov)
 function porcieSlotBlok(di,slot,cid){ const dni=denyBloku(di).filter(d=>slotyDna(d).includes(slot) && (cid==null||slotIds(d,slot).includes(cid)));
   return Math.max(1,Math.round((dni.length?dni:[di]).reduce((a,d)=>a+porcieSlot(d,slot),0))); }
 function jeSendvic(r){ const b=ranajkyBaza(r); if(["tortilla","bageta","toast","rožok","bagel"].includes(b))return true; const t=(r.tagy||[]).join(" ").toLowerCase(); return t.includes("wrap")||t.includes("sendvič")||t.includes("sendvic"); }
-function fmtPct(f){ return f===1?"":(" · "+Math.round(f*100)+"%"); }
+// Faktor veľkosti porcie (0,85–1,15) sa v bunke plánu MUSÍ pomenovať. Holé „110 %" vedľa kcal
+// nikto nevysvetlí a jediné vysvetlenie bolo v title, teda na telefóne nedosiahnuteľné.
+function fmtPct(f){ return f===1?"":(" · porcie "+Math.round(f*100)+" %"); }
 function planItems(){ const out=[]; for(let di=0;di<7;di++){ slotyDna(di).forEach(sl=>{ slotIds(di,sl).forEach(cid=>{ const r=komponent(cid); if(r)out.push({r,cid,di,slot:sl,f:pf(di,sl)}); }); }); } return out; }
 function planovaneRecepty(){ return planItems().map(x=>x.r); }
 function applyVzhlad(){ document.body.classList.toggle("big",!!S.profil.big);
@@ -1464,7 +1477,7 @@ function zmazRozvrh(id){ S.rozvrhy=(S.rozvrhy||[]).filter(r=>r.id!==id); save();
 let _pasOtvoreny=false;
 function prepniRozvrhPas(){ _pasOtvoreny=!_pasOtvoreny; renderRozvrhPas(); }
 function renderRozvrhPas(){ const box=document.getElementById("rozvrh-pas"); if(!box)return;
-  const upr='<button class="btn rozvrh-upr" onclick="otvorRozvrh()" aria-label="Upraviť rozvrh varenia — kedy varíš a na koľko dní">✂️ <span class="tl">Upraviť rozvrh</span></button>'
+  const upr='<button class="btn rozvrh-upr" onclick="otvorRozvrh()" aria-label="Upraviť rozvrh varenia — kedy varíš a na koľko dní">✂️ <span class="tl">Upraviť</span><span class="tl tl-dlhe"> rozvrh</span></button>'
     +'<button class="btn plan-zbal" onclick="prepniRozvrhPas()" aria-expanded="'+(_pasOtvoreny?"true":"false")+'" aria-controls="rozvrh-pas" aria-label="'+(_pasOtvoreny?"Zbaliť":"Rozbaliť")+' podrobnosti rozvrhu varenia"><span aria-hidden="true">'+(_pasOtvoreny?"▴":"▾")+'</span></button>';
   const hlava=nadpis=>'<div class="rozvrh-hlava"><span class="rozvrh-nadpis">🍳 Rozvrh varenia'+nadpis+'</span>'+upr+'</div>';
   box.className="rozvrh-pas d"+planDen+(_pasOtvoreny?" otvoreny":"");
@@ -1542,7 +1555,9 @@ function renderTyzdenNav(){ const el=document.getElementById("plan-kontext"); if
 let planDen=(new Date().getDay()+6)%7;
 function planDenNa(di){ planDen=di; renderPlan(); }
 function renderDenNav(){ const box=document.getElementById("plan-den-nav"); if(!box)return;
-  box.innerHTML=DNI.map((d,i)=>`<span class="chip${i===planDen?' active':''}" onclick="planDenNa(${i})">${d.slice(0,2)}</span>`).join("")
+  // `je-dnes`, nie `dnes` — `.dnes` je panel „Čo variť dnes?" s display:flex a stavový
+  // modifikátor by sa naň chytil (prázdny prúžok zmrštený na 0 px).
+  box.innerHTML=DNI.map((d,i)=>`<span class="chip${i===planDen?' active':''}${datumPre(i)===dnesISO()?' je-dnes':''}" onclick="planDenNa(${i})" title="${d}${datumPre(i)===dnesISO()?' — dnes':''}">${d.slice(0,2)}</span>`).join("")
     +`<span class="chip" style="cursor:default;background:none;border:none;color:var(--muted)">${fmtD(datumPre(planDen))}</span>`;
   zpristupniKliky(box); }
 
@@ -1589,7 +1604,10 @@ function renderPlan(){
   rowSloty.forEach(slot=>{
     h+=`<tr><td class="slotname">${slot}</td>`;
     DNI.forEach((d,di)=>{ const ids=slotIds(di,slot); const f=pf(di,slot);
-      if(slotyDna(di).indexOf(slot)<0){ h+=`<td data-d="${di}" class="${tint(di)}"><div class="plan-cell vyp">vyp.</div></td>`; return; }
+      // `.pc-slot` je menovka jedla V BUNKE. Na mobile nahrádza celý stĺpec `td.slotname`
+      // (88 z 361 px na jedno slovo), na počítači a na papieri je skrytá — tam stĺpec ostáva.
+      const slotLbl=`<span class="pc-slot">${slot}</span>`;
+      if(slotyDna(di).indexOf(slot)<0){ h+=`<td data-d="${di}" class="${tint(di)}"><div class="plan-cell vyp">${slotLbl}vyp.</div></td>`; return; }
       if(ids.length){ let kc=0, bl=0, cen=0, cenaZnama=true;
         // A8 (WCAG 2.1.1): obsah bunky boli `span onclick` — klávesnicou nedosiahnuteľné. Teraz sú to
         // skutočné <button> (trieda `pc-btn` im zoberie vzhľad tlačidla, štýl ostáva z .nm/.kc/.rm).
@@ -1602,19 +1620,30 @@ function renderPlan(){
             :k._left?`<button class="nm pc-btn" onclick="otvor('${k._srcId}')" title="Zvyšok — zobraziť recept" aria-label="Zvyšok ${kn} — zobraziť recept">♻️ ${kn} <small>(zvyšok)</small></button>`
             :`<button class="nm pc-btn pc-odkaz" onclick="otvor('${cid}',{di:${di},slot:'${slot}'})" title="Zobraziť recept" aria-label="${kn} — zobraziť recept">${kn}</button>`;
           return `<div style="display:flex;justify-content:space-between;gap:4px;align-items:start">${nm}<button class="pc-btn pc-x" onclick="odoberKomponent(${di},'${slot}','${cid}')" title="odobrať" aria-label="Odobrať ${kn} z plánu — ${kde}">✕</button></div>`;}).join("");
-        h+=`<td data-d="${di}" class="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><div class="plan-cell" draggable="true" ondragstart="dragStart(event,${di},'${slot}')" title="Potiahni pre presun">${riadky}<button class="kc pc-btn" title="Upraviť veľkosť porcie" aria-label="Upraviť veľkosť porcie — ${kde}" onclick="upravFaktor(${di},'${slot}')">${Math.round(kc*f)} kcal ${fmtPct(f)} <i class="pc-ed" aria-hidden="true">✎</i></button><span class="pc-data">B ${Math.round(bl*f)} g · ${cenaZnama?fmt(cen*f)+" €":"? cena"}</span><span style="display:flex;gap:14px;margin-top:2px"><button class="rm pc-btn" style="color:var(--accent)" aria-label="Zmeniť jedlo — ${kde}" onclick="vyberDoPlanu(${di},'${slot}')">✎ zmeniť</button><button class="rm pc-btn" style="color:var(--accent)" onclick="akcieSlotu(${di},'${slot}')" title="Doplnok, znova, porcie, zvyšok" aria-label="Ďalšie akcie — ${kde}">⋯ viac</button></span></div></td>`;
-      } else h+=`<td data-d="${di}" class="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><button class="plan-cell prazdne pc-btn pc-empty" aria-label="Pridať jedlo — ${DNI[di]}, ${slot}" onclick="vyberDoPlanu(${di},'${slot}')">+ pridať</button></td>`;
+        h+=`<td data-d="${di}" class="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><div class="plan-cell" draggable="true" ondragstart="dragStart(event,${di},'${slot}')" title="Potiahni pre presun">${slotLbl}${riadky}<button class="kc pc-btn" title="Upraviť veľkosť porcie" aria-label="Upraviť veľkosť porcie — ${kde}" onclick="upravFaktor(${di},'${slot}')">${Math.round(kc*f)} kcal${fmtPct(f)} <i class="pc-ed" aria-hidden="true">✎</i></button><span class="pc-data">B ${Math.round(bl*f)} g · ${cenaZnama?fmt(cen*f)+" €":"? cena"}</span><span style="display:flex;gap:14px;margin-top:2px"><button class="rm pc-btn" style="color:var(--accent)" aria-label="Zmeniť jedlo — ${kde}" onclick="vyberDoPlanu(${di},'${slot}')">✎ zmeniť</button><button class="rm pc-btn" style="color:var(--accent)" onclick="akcieSlotu(${di},'${slot}')" title="Doplnok, znova, porcie, zvyšok" aria-label="Ďalšie akcie — ${kde}">⋯ viac</button></span></div></td>`;
+      } else h+=`<td data-d="${di}" class="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><button class="plan-cell prazdne pc-btn pc-empty" aria-label="Pridať jedlo — ${DNI[di]}, ${slot}" onclick="vyberDoPlanu(${di},'${slot}')">${slotLbl}+ pridať</button></td>`;
     });
     h+="</tr>";
   });
   const ciel=parseInt(S.profil.kcal)||0;
+  let denSum=0, denSt=null; // súčet zobrazeného dňa pre #plan-den-hlava (rátame ho raz, tu)
   h+='<tr class="suma"><td>Σ kcal/deň</td>';
   DNI.forEach((d,di)=>{ let sum=0; slotyDna(di).forEach(sl=>{ const f=pf(di,sl); slotIds(di,sl).forEach(cid=>{const r=komponent(cid); if(r)sum+=kcalPorcia(r)*f;}); }); sum=Math.round(sum);
+    if(di===planDen){ denSum=sum; denSt=sum?stavCiel(sum,ciel):null; }
     if(!sum){ h+=`<td data-d="${di}"></td>`; return; }
     const st=stavCiel(sum,ciel); const over=ciel&&sum>ciel*1.1; const pct=ciel?Math.min(100,Math.round(sum/ciel*100)):0; // denný progress voči cieľu
     h+=`<td data-d="${di}" class="${over?'over':''}" title="${st.d?st.d+' kcal vs cieľ':''}"><span style="color:${st.c}">${sum}${ciel?'<span class="ciel-mini">/'+ciel+'</span>':''}</span>${over?" ⚠":""}${ciel?`<div class="kc-bar"><i style="width:${pct}%;background:${st.c||'var(--accent)'}"></i></div>`:""}</td>`; });
   h+="</tr>"; t.innerHTML=h; t.className="plan d"+planDen;
+  renderDenHlavu(denSum,denSt,ciel);
 }
+// Hlavička zobrazeného dňa (len mobil, CSS rozhoduje): ktorý deň · dátum · či je to dnes ·
+// koľko ten deň dáva voči cieľu. Čísla sú tie isté, ktoré práve vyrátal riadok Σ.
+function renderDenHlavu(sum,st,ciel){ const el=document.getElementById("plan-den-hlava"); if(!el)return;
+  const iso=datumPre(planDen); const dnes=iso===dnesISO();
+  el.innerHTML=`<span><span class="pdh-den">${DNI[planDen]} ${fmtD(iso)}</span>`
+    +(dnes?'<span class="pdh-dnes">dnes</span>':'')+'</span>'
+    +(sum?`<span class="pdh-kcal"${st&&st.d?` title="${st.d} kcal vs cieľ"`:''}><span style="color:${(st&&st.c)||'var(--text)'}">${sum}</span>`
+      +(ciel?`<span class="ciel-mini">/${ciel}</span>`:'')+' kcal</span>':'<span class="pdh-kcal ciel-mini">zatiaľ prázdny deň</span>'); }
 // P2: riadok so stravníkmi a slotmi dňa (👥 − 2 + · ikonky jedál) zaberal na telefóne 98 px
 // nad prvým jedlom. Na mobile je skrytý a otvára ho položka „👥 Stravníci a jedlá dňa"
 // v „⋯ Viac"; na počítači je stále rovno v tabuľke.

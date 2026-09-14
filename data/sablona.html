@@ -227,6 +227,8 @@
   table.plan td{height:66px}
   table.plan td.slotname{background:var(--chip);font-weight:600;font-size:13px;width:88px}
   .plan-cell{cursor:pointer;font-size:13px;border-radius:8px;padding:6px;min-height:52px;display:flex;flex-direction:column;gap:3px;justify-content:center}
+  /* menovka slotu v bunke — na počítači ju nesie stĺpec td.slotname, tu je zbytočná */
+  .pc-slot{display:none}
   .plan-cell:hover{background:#f3f8f4}
   body.dark .plan-cell:hover{background:rgba(255,255,255,.06)}
   body.dark .dnes-varenie-hero{background:#1e2c24;border-left-color:var(--accent)}
@@ -356,7 +358,10 @@
   .nakup-suhrn{display:flex;flex-wrap:wrap;gap:16px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:14px;font-size:14px}
   .nakup-suhrn b{color:var(--accent-txt);font-size:16px}
   .detail-meta{margin:2px 0 10px}
-  .suma .ciel-mini{color:var(--muted);font-weight:400;font-size:11px;margin-left:1px}
+  .suma .ciel-mini,.plan-den-hlava .ciel-mini{color:var(--muted);font-weight:400;font-size:11px;margin-left:1px}
+  /* Hlavička dňa nad tabuľkou — len na telefóne, kde je vidieť jediný deň. Na počítači
+     hovorí deň hlavička stĺpca a súčet riadok Σ, takže by to bolo zdvojenie. */
+  .plan-den-hlava{display:none}
   .suma .kc-bar{height:4px;background:var(--line);border-radius:3px;overflow:hidden;margin:3px auto 0;max-width:64px}
   .suma .kc-bar i{display:block;height:100%}
   #toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translate(-50%,16px);background:var(--accent-dark);color:#fff;padding:12px 18px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.28);z-index:100;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;max-width:90vw;text-align:center;font-size:14px}
@@ -399,12 +404,9 @@
     /* P0: pri table-layout:fixed a 6 skrytých dňoch dostala bunka s jedlom 16 px a slotname 313 px */
     table.plan{table-layout:auto}
     table.plan td{width:auto}
-    table.plan td.slotname{width:74px}
-    /* názvy dní sú na mobile zbytočné — deň hovorí den-nav aj dátum nad tabuľkou.
-       Prázdny roh MUSÍ zostať: bez neho spadne ctrl-bunka do prvého stĺpca a rozhodí šírky. */
+    /* názvy dní sú na mobile zbytočné — ktorý deň pozeráš, hovorí #plan-den-hlava aj den-nav.
+       Prvý stĺpec (slotname + rohova) sa od v29 skrýva celý — menovka slotu je v bunke. */
     table.plan tr.dni-hlavicka{display:none}
-    /* biely roh vyzeral ako prázdna bunka — priehľadný splynie s pozadím strany */
-    table.plan td.rohova{background:transparent}
     .plan-varenia{display:inline-block;min-height:30px;padding:6px 2px}
     /* B1: na mobile je v tabuľke vidieť jeden deň — pás nad ňou ukáže blok, do ktorého ten deň patrí.
        Celý rozvrh (počet blokov a varné večery) hovorí riadok nad zoznamom, takže sa nič nestratí. */
@@ -468,6 +470,12 @@
     .plan-den-nav{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
     .plan-den-nav .chip{padding:7px 2px;min-width:0}
     .plan-den-nav .chip:last-child{grid-column:1/-1;min-height:24px}
+    /* dnešok v páse dní: bodka pod skratkou. Farba nie je jediný nosič — celý dátum
+       aj slovo „dnes" píše #plan-den-hlava, tu ide len o rýchlu orientáciu v páse. */
+    .plan-den-nav .chip.je-dnes{position:relative}
+    .plan-den-nav .chip.je-dnes::after{content:"";position:absolute;left:50%;bottom:4px;
+      width:4px;height:4px;margin-left:-2px;border-radius:50%;background:var(--akcent)}
+    .plan-den-nav .chip.je-dnes.active::after{background:var(--na-bloku)}
     /* v bunke zostali len 2 akcie, takže sa zmestia na 24 px podľa WCAG 2.5.8 */
     .plan-cell .rm{min-height:24px;display:inline-flex;align-items:center}
     /* názov jedla (16 px), riadok kcal (17 px) a ✕ (11×20) boli tiež pod 24 px */
@@ -981,14 +989,14 @@
   /* ── KOMPAKT = INFORMAČNÝ REŽIM, nie zmenšenina ──────────────────────────
      Kompakt bol dovtedy iba `zoom:.82` + skrytý nadpis: rovnaké informácie, menšie
      písmo. Miesto, ktoré zoom ušetrí, sa tu vracia ako DÁTA, nie ako vzduch.
-     Ostatné tri režimy sa nemenia. */
-  /* bielkoviny a cena na porciu priamo v bunke plánu */
-  .pc-data{display:none}
-  :root[data-rezim="kompakt"] .pc-data{display:block;font-size:11.5px;color:var(--text2);
+     Od v29 si Kompakt drží už len TESNEJŠIE rozloženie a skrytý pás rozvrhu —
+     dáta v bunke (.pc-data) dostali všetky režimy, lebo skrývať ich pred Plánovaním
+     znamenalo ukázať v hustejšom režime menej než v zmenšenine. */
+  /* Bielkoviny a cena na porciu priamo v bunke plánu. Do v29 to mal LEN Kompakt, takže
+     Plánovanie — režim, ktorý má byť „hustejšia informácia" — ukazovalo o riadok MENEJ
+     než zmenšenina. Údaj je rovnako užitočný vo všetkých režimoch aj na počítači. */
+  .pc-data{display:block;font-size:11.5px;color:var(--text2);
     font-variant-numeric:tabular-nums;margin-top:1px;line-height:1.25}
-  /* Hlavička bloku si drží písmeno, názov aj varný deň — to je obsah. Ide preč len
-     odkaz „plán varenia →", čo je akcia, a tá je v „⋯ Viac". Ušetrí riadok × 3 bloky. */
-  :root[data-rezim="kompakt"] table.plan .blok-hlava .plan-varenia{display:none}
   /* Pás rozvrhu je nastavovanie, nie obsah. Dostupný ostáva z „⋯ Viac → 🍳 Rozvrh
      varenia (bloky)", rovnako ako v Kuchyni, kde sa skrýva už dnes. */
   :root[data-rezim="kompakt"] #rozvrh-pas{display:none}
@@ -1030,7 +1038,6 @@
     .cook .step{font-size:27px}
     .cook .nav2 button{min-height:62px;font-size:19px;padding:0 20px}
     table.plan{border-spacing:3px}
-    table.plan td.slotname{width:70px}
     .odd .nak-row>label{min-height:max(52px,var(--cil-in))}
     .btn{min-height:max(44px,var(--cil-in))}
     .chip,.kol-tile,button.mini{min-height:max(44px,var(--cil-in))}
@@ -1048,29 +1055,74 @@
     .plan-topline{display:flex;flex-wrap:wrap;gap:0 8px;align-items:flex-start;justify-content:space-between}
     .plan-topline > #plan-kontext{flex:1 1 190px;min-width:0}
     .plan-topline > .plan-tabs{flex:0 0 auto;margin-bottom:0}
-    .plan-topline .tl{display:none}
-    .plan-tabs .chip{min-width:max(44px,var(--cil-in));justify-content:center;padding:0 6px}
+    /* Menovky „Týždeň"/„Kalendár" ZOSTÁVAJÚ. Do v29 ich `.tl{display:none}` zhasol a
+       z tlačidiel 44×44 ostalo holé 📋 a 📆 — emoji je ozdoba, nie význam (PRODUCT.md 4).
+       V riadku boli voľné 3 px, takže sa prepínač zalomí pod navigáciu týždňa: +56 px
+       v Plánovaní (prvé jedlo 483 → 539 pri prehybe 798), 0 px v ostatných troch režimoch. */
+    .plan-tabs .chip{min-width:max(44px,var(--cil-in));justify-content:center;padding:0 8px;
+      white-space:nowrap;flex-wrap:nowrap}
     /* pás rozvrhu: zbalený jeden riadok (bolo 189 px). Blok práve zvoleného dňa
        aj s varným dňom je aj tak v hlavičke tabuľky hneď pod pásom. */
     .rozvrh-pas > p.info,.rozvrh-pas .rozvrh-bloky{display:none}
     .rozvrh-pas.otvoreny > p.info{display:block}
     .rozvrh-pas.otvoreny .rozvrh-bloky{display:grid}
-    .rozvrh-hlava{flex-wrap:nowrap;gap:6px}
-    .rozvrh-nadpis{flex:1 1 auto;min-width:0;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    /* Nadpis pásu potrebuje 180 px („🍳 Rozvrh varenia · 3 bloky"). Keď sa s tlačidlom
+       a ▾ na riadok nezmestí, NESMIE sa oholiť na „Rozvrh varenia …" — počet blokov je
+       obsah. `min-width` mu drží dno a zvyšok sa radšej zalomí pod neho (týka sa to len
+       Obchodu, kde je všetko 1,22×). V Plánovaní ostáva jeden riadok. */
+    .rozvrh-hlava{flex-wrap:wrap;gap:6px}
+    .rozvrh-nadpis{flex:1 1 auto;min-width:9rem;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    /* na telefóne stačí „✂️ Upraviť" — čoho, hovorí nadpis pásu hneď vedľa */
+    .rozvrh-upr .tl-dlhe{display:none}
+    /* menovka „Upraviť rozvrh" ostáva: holé „✂️" nevysvetlí nič a stojí 0 px navyše */
     .rozvrh-upr{flex:0 0 auto;white-space:nowrap;min-width:max(44px,var(--cil-in));
       justify-content:center;padding:0 10px}
-    .rozvrh-upr .tl{display:none}
     /* V Kuchyni je všetko 1,5× a pás by aj zbalený odtlačil prvé jedlo pod prehyb.
        Pri sporáku rozvrh varenia nenastavuješ — je v „⋯ Viac" a blok práve
        zvoleného dňa aj s varným dňom je v hlavičke tabuľky. */
     :root[data-rezim="kuchyna"] #rozvrh-pas{display:none}
     .plan-zbal{display:inline-flex;flex:0 0 auto;align-items:center;justify-content:center;
       min-width:max(44px,var(--cil-in));padding:0}
-    /* dátum dňa je navyše — rozsah týždňa je v hornom riadku */
+    /* dátum dňa je navyše — celý ho aj s názvom dňa píše #plan-den-hlava pod pásom */
     .plan-den-nav .chip:last-child{display:none}
     /* stravníci a sloty dňa (98 px) idú do „⋯ Viac" → prepniPlanCtrl() */
     table.plan tr.ctrl-row{display:none}
     body.plan-ctrl table.plan tr.ctrl-row{display:table-row}
+
+    /* ── v29: hlavička bloku na JEDEN riadok (bolo 88 px v Plánovaní) ──────
+       Písmeno, názov bloku aj varný deň sú OBSAH a ostávajú — len sa už nelámu do troch
+       riadkov. Odkaz „plán varenia →" je AKCIA a je v „⋯ Viac → 👨‍🍳 Plán varenia pre
+       tento deň"; dovtedy ho v „⋯ Viac" nemal ani Kompakt, ktorý ho skrýval už od v26. */
+    table.plan .blok-hlava br{display:none}
+    table.plan .blok-hlava .bh-vari::before{content:" · "}
+    table.plan .blok-hlava .plan-varenia{display:none}
+    /* `table.plan td{height:66px}` je minimum pre bunky s jedlom; hlavička bloku má po
+       zlúčení do riadku ~20 px textu a tých 66 px by držala ako prázdny farebný pás. */
+    table.plan td.blok-hlava{height:auto}
+
+    /* ── v29: menovka slotu je v karte, nie vo vlastnom stĺpci ─────────────
+       Na telefóne je vidieť JEDEN deň, takže stĺpec `td.slotname` zožral 88 z 361 px
+       (24 %) na jedno slovo zopakované štyrikrát a názov jedla sa lámal na tri riadky.
+       Menovka ide dovnútra bunky ako `.pc-slot` a názov dostane 197 → ~285 px.
+       Skrýva sa CELÝ prvý stĺpec naraz (slotname + rohova; riadok Σ je na mobile skrytý
+       celý, viď nižšie), inak sa riadky navzájom rozídu. Na papieri sa stĺpec vracia. */
+    table.plan td.slotname,table.plan td.rohova{display:none}
+    .pc-slot{display:block;font-size:11px;letter-spacing:.04em;text-transform:uppercase;
+      color:var(--text2);line-height:1.2}
+
+    /* ── v29: hlavička dňa ────────────────────────────────────────────────
+       Ktorý deň pozeráš, sa dalo vyčítať len z tmavého chipu „Po" v páse — bez dátumu
+       a bez toho, či je to dnešok. Súčet dňa bol v riadku Σ na DNE tabuľky, teda až za
+       štyrmi jedlami. Obe veci sú teraz nad tabuľkou a riadok Σ sa na mobile nekreslí
+       (v DOM-e ostáva — čítajú ho testy aj tlač). */
+    .plan-den-hlava{display:flex;justify-content:space-between;align-items:baseline;
+      gap:8px;margin:0 0 8px;font-size:14px}
+    .plan-den-hlava .pdh-den{font-weight:700}
+    .plan-den-hlava .pdh-dnes{font-size:11px;font-weight:700;text-transform:uppercase;
+      letter-spacing:.04em;background:var(--akcent);color:var(--na-bloku);
+      border-radius:999px;padding:1px 7px;margin-left:6px}
+    .plan-den-hlava .pdh-kcal{font-variant-numeric:tabular-nums;white-space:nowrap}
+    table.plan tr.suma{display:none}
     /* Nákup: pridávanie vlastnej položky a panely „Mám doma"/„Trasa obchodom"
        nie sú to, čo v obchode potrebuješ ako prvé — sú POD zoznamom.
        Poradie dáva priamo DOM, takže tu `order` už netreba — a hlavne nesmie byť,
@@ -1188,6 +1240,7 @@
           <div class="menu" id="m-plan">
             <a onclick="otvorGen();zavriMenu()">⚙️ Nastavenie generovania</a>
             <a onclick="zavriMenu();otvorRozvrh()">🍳 Rozvrh varenia (bloky)</a>
+            <a onclick="zavriMenu();planVarenia(planDen)">👨‍🍳 Plán varenia pre tento deň</a>
             <a id="m-plan-ctrl" onclick="prepniPlanCtrl();zavriMenu()">👥 Stravníci a jedlá dňa</a>
             <a onclick="zavriMenu();generujTlacidlo(true)">🎲 Zamiešať</a>
             <a onclick="skopirujMinuly();zavriMenu()">📋 Skopíruj minulý týždeň</a>
@@ -1202,6 +1255,7 @@
       <div id="rozvrh-pas" class="rozvrh-pas"></div>
       <div id="plan-prazdny" class="plan-prazdny" style="display:none"></div>
       <div id="plan-den-nav" class="chips plan-den-nav"></div>
+      <div id="plan-den-hlava" class="plan-den-hlava"></div>
       <div class="plan-grid"><table class="plan" id="plan-table"></table></div>
       </div>
       <div id="plan-kal" style="display:none">

@@ -150,8 +150,11 @@ module.exports = {
     });
     const po = await page.evaluate(() => document.querySelector("#plan-table tr.suma td:nth-child(2)").textContent.trim());
     await t.ok(pred !== po, "zmena veľkosti porcie sa prejaví v dennom súčte", `${pred} → ${po}`);
-    await t.ok(/%/.test(await page.evaluate(() => document.querySelector("#plan-table .plan-cell .kc").textContent)),
-      "bunka s upraveným faktorom ukáže „%“");
+    const kcTxt = await page.evaluate(() => document.querySelector("#plan-table .plan-cell .kc").textContent);
+    await t.ok(/%/.test(kcTxt), "bunka s upraveným faktorom ukáže „%“", kcTxt);
+    // v29: holé „110 %“ vedľa kcal nič nehovorilo a jediné vysvetlenie bolo v title,
+    // teda na telefóne nedosiahnuteľné. Číslo musí povedať, čoho je to percento.
+    await t.ok(/porcie/.test(kcTxt), "riadok kcal pomenuje faktor slovom „porcie“", kcTxt);
 
     // ── výmena jedla (picker) ───────────────────────────────────────────────
     await naplnPlan(page);

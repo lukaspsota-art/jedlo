@@ -1,0 +1,39 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Kuchárka — mobilný náhľad</title>
+<style>
+  :root{ color-scheme:light dark }
+  body{margin:0;font:14px/1.4 system-ui,sans-serif;display:flex;flex-direction:column;
+       align-items:center;gap:10px;padding:12px;background:#2b2b2b;color:#eee}
+  .lista{display:flex;gap:6px;flex-wrap:wrap;align-items:center;justify-content:center}
+  button{font:inherit;padding:6px 12px;border-radius:8px;border:1px solid #555;
+         background:#3a3a3a;color:#eee;cursor:pointer}
+  button[aria-pressed=true]{background:#eee;color:#222;font-weight:600}
+  .ramik{border:10px solid #111;border-radius:26px;box-shadow:0 8px 30px #0009;background:#000;
+         flex:0 0 auto}
+  iframe{display:block;border:0;background:#fff}
+  code{background:#000;padding:1px 5px;border-radius:4px}
+</style>
+
+<div class="lista">
+  <span>šírka:</span>
+  <button data-w="393" aria-pressed="true">393 — Nothing 3a Pro</button>
+  <button data-w="360">360</button>
+  <button data-w="320">320</button>
+  <button data-w="412">412</button>
+  <button id="znova" style="margin-left:14px">⟳ načítať znova</button>
+</div>
+
+<div class="ramik"><iframe id="ram" src="kucharka.html" width="393" height="870"></iframe></div>
+
+<div><code id="stav">393 × 870 CSS px</code> — režim hustoty prepínaš vnútri appky (⬛ vľavo hore)</div>
+
+<script>
+  const ram = document.getElementById("ram"), stav = document.getElementById("stav");
+  document.querySelectorAll("button[data-w]").forEach(b => b.onclick = () => {
+    document.querySelectorAll("button[data-w]").forEach(x => x.setAttribute("aria-pressed", x === b));
+    ram.width = b.dataset.w;
+    stav.textContent = b.dataset.w + " × 870 CSS px";
+  });
+  document.getElementById("znova").onclick = () => ram.contentWindow.location.reload();
+</script>

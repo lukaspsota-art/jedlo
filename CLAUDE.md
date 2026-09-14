@@ -315,19 +315,23 @@ poškodený stav), prežije reload a nastavuje na `<html>` atribút `data-rezim`
 ## Mobilné UI (mobil je hlavné zariadenie)
 Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, breakpoint je `820px`.
 
-**Meradlo (v26):** na 393×850 s naplneným plánom musí byť **prvé jedlo v Pláne a prvá položka
-v Nákupe viditeľné bez skrolovania vo všetkých štyroch režimoch hustoty** (`.botnav` začína na
-y ≈ 780). Namerané: Kompakt **315 / 290** · Plánovanie 483 / 356 · Obchod 621 / 436 ·
-Kuchyňa 704 / 512. Položiek nákupu nad prehybom: **9 / 6 / 3 / 1** — to je jediný dôvod, prečo
-Kompakt existuje, a `08-mobil.js` to drží ako tvrdú kontrolu (`kompakt > plan`).
-V Kompakte sa tak na Pláne zmestí celý deň (raňajky · obed · večera · snack) na jednu obrazovku.
+**Meradlo (v26, premerané v29):** na 393×870 s naplneným plánom musí byť **prvé jedlo v Pláne
+a prvá položka v Nákupe viditeľné bez skrolovania vo všetkých štyroch režimoch hustoty**
+(`.botnav` začína na y ≈ 798). Prvé jedlo v Pláne po v29: Kompakt **308** · Plánovanie **520** ·
+Obchod **597** · Kuchyňa **707** (pred v29: 315 / 483 / 621 / 704 — hlavička dňa a menovka slotu
+pridávajú, tenšia hlavička bloku uberá). Položiek nákupu nad prehybom: **9 / 5 / 3 / 1** — to je
+jediný dôvod, prečo Kompakt existuje, a `08-mobil.js` to drží ako tvrdú kontrolu
+(`kompakt > plan`). V Kompakte začínajú nad prehybom **všetky štyri jedlá dňa** (raňajky · obed ·
+večera · snack), celé sú vidieť tri; v ostatných režimoch je celé vidieť prvé (v Kuchyni jeho začiatok).
 
-**Kompakt je informačný režim, nie zmenšenina (v26).** Dovtedy to bol iba `zoom:.82` a skrytý
-nadpis — tie isté informácie, menšie písmo. Miesto, ktoré zoom ušetrí, sa vracia ako DÁTA:
-bunka plánu ukazuje `.pc-data` (bielkoviny + cena na porciu), skrýva sa odkaz „plán varenia →"
-(akcia, je v `⋯ Viac`) a pás `#rozvrh-pas` (nastavovanie, je v `⋯ Viac → 🍳 Rozvrh varenia`),
-a bunky sú tesnejšie. **Hlavička bloku si drží písmeno, názov aj varný deň — to je obsah.**
-Ostatné tri režimy sa nemenia. Ak pridávaš do bunky ďalší údaj, patrí do `.pc-data`.
+**Kompakt je informačný režim, nie zmenšenina (v26, zúžené v29).** Dovtedy to bol iba `zoom:.82`
+a skrytý nadpis — tie isté informácie, menšie písmo. Miesto, ktoré zoom ušetrí, sa vracia ako DÁTA.
+**Od v29 si Kompakt drží už len tesnejšie bunky a skrytý pás `#rozvrh-pas`** (nastavovanie, je
+v `⋯ Viac → 🍳 Rozvrh varenia`). `.pc-data` (bielkoviny + cena na porciu) a skrytý odkaz
+„plán varenia →" dostali **všetky režimy** — skrývať dáta pred Plánovaním znamenalo ukázať
+v „hustejšom" režime o riadok MENEJ než v zmenšenine. **Hlavička bloku si drží písmeno, názov
+aj varný deň — to je obsah**, len už na jednom riadku. Ak pridávaš do bunky ďalší údaj,
+patrí do `.pc-data`.
 
 **Značka a prepínač hustoty sú na telefóne na JEDNOM riadku.** Riadok so značkou bol 50 px
 dekorácie na každej obrazovke; `.side .brand` má na mobile `font-size:0`, takže slovo „Kuchárka"
@@ -335,12 +339,26 @@ ostáva čítačkám obrazovky, ale nekreslí sa — vidno len 3-blokové logo. 
 z `order:3` na `order:0` a z `width:calc(100% - 20px)` na `flex:1 1 0`. Ušetrený celý riadok
 platí pre **všetky štyri režimy**, nielen pre Kompakt.
 - `p.sub` je na telefóne na Pláne a Nákupe skrytý; `h2.h` navyše v Obchode a Kuchyni.
-- `.plan-topline` drží navigáciu týždňa a prepínač Týždeň/Kalendár na jednom riadku;
-  `#plan-kontext` má `flex:1 1 190px`, aby sa pri 1,5× zalomil prepínač, nie navigácia.
+- `.plan-topline` drží navigáciu týždňa a prepínač Týždeň/Kalendár;
+  `#plan-kontext` má `flex:1 1 190px`, aby sa zalomil prepínač, nie navigácia. **Od v29 majú
+  oba chipy textovú menovku** (`.tl` sa už na mobile neskrýva), takže v Plánovaní je riadok
+  zalomený na dva — vo voľných 8 px sa menovky nezmestili a holé 📋 / 📆 nikto nevysvetlí.
 - `#rozvrh-pas` je na telefóne zbalený na jeden riadok (`prepniRozvrhPas()`, trieda `otvoreny`);
   v Kuchyni je na telefóne skrytý celý (pri sporáku rozvrh nenastavuješ).
 - `tr.ctrl-row` (👥 stravníci + ikonky jedál dňa) je na telefóne skrytá, otvára ju
   `prepniPlanCtrl()` z „⋯ Viac" (`body.plan-ctrl`).
+- **Menovka jedla je v KARTE, nie vo vlastnom stĺpci (v29).** `renderPlan` vkladá do každej
+  `.plan-cell` `<span class="pc-slot">` a na mobile sa skrýva celý prvý stĺpec
+  (`td.slotname` aj `td.rohova`). Stĺpec bral 88 z 361 px (24 %) na jedno slovo, hoci na
+  telefóne je vidieť jediný deň; názov jedla tým narástol zo 197 na 261 px v Plánovaní.
+  **Skrývať treba celý stĺpec naraz** — keby ostala jediná bunka bez `data-d`, riadky sa
+  navzájom rozídu. Na papieri (A4 = 794 px, teda POD breakpointom) sa stĺpec vracia
+  a `.pc-slot` sa skrýva — je tam sedem dní, menovka patrí do stĺpca.
+- **`#plan-den-hlava` (v29)** nad tabuľkou hovorí, ktorý deň pozeráš: názov, dátum, odznak
+  „dnes" a súčet dňa voči cieľu. Čísla sú tie isté, ktoré ráta riadok `tr.suma` — ten je na
+  mobile skrytý (v DOM-e ostáva, čítajú ho testy aj tlač). Dovtedy sa deň dal vyčítať len
+  z tmavého chipu „Po" a súčet bol až za štyrmi jedlami. Dnešok má v páse dní aj bodku
+  (`.chip.je-dnes`) — **trieda `je-dnes`, nikdy `dnes`** (kolízia s panelom `.dnes`).
 - **V Nákupe je `#nakup-list` v DOM-e PRED ovládaním** — pole „Pridať vlastnú položku"
   a panely „Mám doma"/„Trasa obchodom" sú za ním. Do v26 to robilo CSS `order:8/9`, čím sa
   tab rozišiel s vizuálnym poradím o ~5400 px (WCAG 1.3.2): klávesnica prešla cez štyri
@@ -413,6 +431,14 @@ V tlači sa rozlišujú **dva druhy tlačidiel**:
 
 Aby sa dala z `.kc` odstrániť ceruzka bez straty čísla, má vlastný obal
 `<i class="pc-ed" aria-hidden="true">✎</i>`.
+
+**A4 na výšku je 794 px, teda POD breakpointom 820 — v tlači platí MOBILNÁ media query.**
+Preto `TLAC_CSS` musí vrátiť všetko, čo mobil skrýva preto, že je vidieť jediný deň:
+`td.slotname` a `td.rohova` (`display:table-cell`), `tr.suma` (`display:table-row`)
+a `tr.dni-hlavicka`; naopak skrýva `.pc-slot` a `#plan-den-hlava` — na papieri je sedem dní,
+takže menovka patrí do stĺpca a jednodenná hlavička by klamala. Tieto pravidlá **nie sú viazané
+na `body.tlac-plan`**, lebo plán tlačí aj „Tlačiť týždeň". Pozor: `12-tlac.js` beží na 1440 px,
+kde mobilná MQ NEPLATÍ — túto cestu tá sada nekryje a treba ju merať zvlášť na 794 px.
 `tlacPriprav()` na čas tlače otvára zbalené `#v-nakup details.odd` (inak by 14 položiek
 dochucovadiel na papieri chýbalo) a `tlacUprac()` ich na `afterprint` vracia — obrazovka sa
 pod rukami nezmení. Plán a Týždeň sa tlačia **A4 na šírku** (`TLAC_PAGE_SIROKO`), recept a nákup

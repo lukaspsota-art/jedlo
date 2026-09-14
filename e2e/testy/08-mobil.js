@@ -172,6 +172,32 @@ module.exports = {
     await t.ok(planM.slotW <= 100, `stĺpec s názvom slotu nezaberá obrazovku (${planM.slotW} px, kedysi 313 px)`, JSON.stringify(planM));
     await t.ok(planM.akcii === 2, "bunka plánu má na mobile 2 akcie", planM.akcii);
 
+    // ── v29: menovka slotu v karte, hlavička dňa, dáta v bunke, menovky na prepínači ──
+    const planR = await m.evaluate(() => {
+      const vid = (e) => e && getComputedStyle(e).display !== "none" && e.getBoundingClientRect().width > 0;
+      const bunka = [...document.querySelectorAll("#plan-table .plan-cell:not(.prazdne):not(.vyp)")].find((x) => x.getBoundingClientRect().width > 0);
+      const hl = document.getElementById("plan-den-hlava");
+      return {
+        slot: (() => { const s = bunka && bunka.querySelector(".pc-slot"); return vid(s) ? s.textContent.trim() : ""; })(),
+        slotnameSkryty: [...document.querySelectorAll("#plan-table td.slotname")].every((td) => getComputedStyle(td).display === "none"),
+        hlava: vid(hl) ? hl.innerText.replace(/\s+/g, " ") : "",
+        pcData: (() => { const d = bunka && bunka.querySelector(".pc-data"); return d ? getComputedStyle(d).display : "none"; })(),
+        taby: document.querySelector(".plan-tabs").innerText.replace(/\s+/g, " "),
+        sipka: (document.querySelector("#plan-kontext .chip") || {}).getAttribute
+          ? document.querySelector("#plan-kontext .chip").getAttribute("aria-label") : "",
+        rezim: document.documentElement.getAttribute("data-rezim") || "plan",
+      };
+    });
+    await t.ok(planR.slot.length > 2, `menovka jedla je v karte, nie vo vlastnom stĺpci (.pc-slot = „${planR.slot}")`, JSON.stringify(planR));
+    await t.ok(planR.slotnameSkryty, "stĺpec td.slotname je na mobile skrytý celý (inak sa riadky rozídu)", JSON.stringify(planR));
+    await t.ok(/\d{2}\.\d{2}\./.test(planR.hlava) && /\d+\/\d+ kcal/.test(planR.hlava),
+      `hlavička dňa hovorí dátum aj súčet voči cieľu („${planR.hlava}")`, planR.hlava);
+    await t.ok(planR.pcData === "block", "bielkoviny a cena sú v bunke aj mimo Kompaktu", JSON.stringify(planR));
+    await t.ok(/Týždeň/.test(planR.taby) && /Kalendár/.test(planR.taby),
+      "prepínač Týždeň/Kalendár má textové menovky, nie holé emoji", planR.taby);
+    await t.ok(/týžd/i.test(planR.sipka) && planR.sipka.length > 3,
+      `šípka týždňa má menovku zo slov, nie znak („${planR.sipka}")`, planR.sipka);
+
     // ── vodorovný pretok vo všetkých pohľadoch ─────────────────────────────
     for (const v of VIEWS) {
       await prepni(m, v);
