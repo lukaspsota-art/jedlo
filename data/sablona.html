@@ -229,6 +229,19 @@
   .plan-cell{cursor:pointer;font-size:13px;border-radius:8px;padding:6px;min-height:52px;display:flex;flex-direction:column;gap:3px;justify-content:center}
   /* menovka slotu v bunke — na počítači ju nesie stĺpec td.slotname, tu je zbytočná */
   .pc-slot{display:none}
+  /* prepínač hustoty v paneli „⋯ Viac" (na telefóne jediné miesto, kde sa dá prepnúť) */
+  .viac-nadpis{margin:14px 0 8px;font-size:13px;color:var(--text2);text-transform:uppercase;
+    letter-spacing:.04em;font-weight:700}
+  .viac-rezimy{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding-bottom:6px}
+  .viac-rezim{display:flex;flex-direction:column;align-items:flex-start;gap:2px;
+    min-height:max(56px,var(--cil-in));padding:9px 11px;text-align:left;cursor:pointer;
+    border:2px solid var(--okraj);border-radius:var(--r-mala);background:var(--doska);
+    color:var(--text);font:inherit}
+  .viac-rezim small{color:var(--text2);font-size:11px;line-height:1.25}
+  .viac-rezim.on{background:var(--text);color:var(--zem);border-color:var(--text)}
+  .viac-rezim.on small{color:var(--zem);opacity:.85}
+  /* blokový zoznam je mobilná náhrada tabuľky — na počítači sa tabuľka zmestí celá */
+  .plan-bloky{display:none}
   .plan-cell:hover{background:#f3f8f4}
   body.dark .plan-cell:hover{background:rgba(255,255,255,.06)}
   body.dark .dnes-varenie-hero{background:#1e2c24;border-left-color:var(--accent)}
@@ -1026,8 +1039,12 @@
        čítačkám obrazovky, len ho nekreslí — v PWA na celú obrazovku aj tak vieš, čo máš
        otvorené), 3-blokové logo zostáva ako identita. Ušetrí to celý riadok. */
     .side .brand{padding:0 0 0 10px;font-size:0;gap:0;flex:0 0 auto}
-    .rezimy{flex:1 1 0;width:auto;min-width:0;order:0;margin:8px 10px}
-    .rezimy button{font-size:13px;padding:8px 4px}
+    /* v29: prepínač hustoty je na telefóne v „⋯ Viac". V hornej lište zaberal celý pruh
+       na KAŽDEJ obrazovke, hoci sa režim prepína párkrát za deň — cena trvalá, úžitok
+       príležitostný. Tým sa horná lišta na mobile skryje celá (značka má font-size:0
+       a ostáva čítačkám v `h1.brand`, ktorá je v DOM-e ďalej). */
+    .rezimy{display:none}
+    .side{display:none}
     .botnav{background:var(--doska);border-top:2px solid var(--text);padding:4px 2px calc(4px + env(safe-area-inset-bottom))}
     .botnav a{color:var(--text2);font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:600;
       border-radius:10px;min-height:max(52px,var(--cil))}
@@ -1123,6 +1140,46 @@
       border-radius:999px;padding:1px 7px;margin-left:6px}
     .plan-den-hlava .pdh-kcal{font-variant-numeric:tabular-nums;white-space:nowrap}
     table.plan tr.suma{display:none}
+
+    /* ── v29: BLOKOVÝ ZOZNAM namiesto preklikávania dní ────────────────────
+       Týždeň má 28 naplnených buniek, ale len 16 rôznych jedál: v bloku je raňajky,
+       obed aj večera JEDEN variant (to je zmysel batch cookingu) a od v29 aj snack.
+       Denný pohľad teda nútil preklikať 7 dní, aby človek videl 16 vecí, z ktorých sa
+       9 opakuje dva- až trikrát. Blokový zoznam ukáže celý týždeň na jedno skrolovanie.
+       Tabuľka ostáva v DOM-e — kreslí sa na počítači a na papieri (tam je 7 dní). */
+    body.plan-bloky-on .plan-grid,
+    body.plan-bloky-on #plan-den-nav,
+    body.plan-bloky-on #plan-den-hlava{display:none}
+    body.plan-bloky-on .plan-bloky{display:block}
+    .blok-karta{border-radius:var(--r);margin:0 0 12px;overflow:hidden;
+      border:1px solid var(--linka);background:var(--doska)}
+    .blok-karta > .bk-hlava{display:flex;align-items:center;justify-content:space-between;
+      gap:8px;padding:9px 11px;color:var(--na-bloku)}
+    .blok-karta.blok-a > .bk-hlava{background:var(--blok-a)}
+    .blok-karta.blok-b > .bk-hlava{background:var(--blok-b)}
+    .blok-karta.blok-c > .bk-hlava{background:var(--blok-c)}
+    .bk-nazov{font-weight:700;font-size:14px}
+    /* znak bloku NA ploche bloku sa musí obrátiť, inak splynie */
+    .bk-hlava .znak{background:var(--na-bloku);color:var(--text)}
+    /* zámerne BEZ triedy `pc-btn` — tá má v Kompakte vlastnú podlahu 30 px (= 25 fyzických
+       po zoome) a stiahla by 🎲 hlboko pod 44 px. Toto je plnohodnotné tlačidlo. */
+    .bk-znova{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;gap:5px;
+      min-height:max(44px,var(--cil-in));min-width:max(44px,var(--cil-in));padding:0 12px;
+      border:0;font:inherit;cursor:pointer;
+      border-radius:999px;background:var(--na-bloku);color:var(--text);font-weight:600;font-size:13px}
+    .bk-dnes{flex:0 0 auto;font-size:11px;font-weight:700;text-transform:uppercase;
+      letter-spacing:.04em;background:var(--na-bloku);color:var(--text);
+      border-radius:999px;padding:2px 8px;margin-left:auto;margin-right:6px}
+    .bk-vari{margin:8px 11px 2px;font-size:12px;color:var(--text2)}
+    .blok-karta .plan-cell{margin:0 8px 6px}
+    /* nejednotný blok: človek si ručne vymenil jedlo v jeden deň — povedz to, nezataj */
+    .bk-vynimka{margin:0 8px 6px;border-left:3px solid var(--signal);border-radius:var(--r-mala);
+      background:color-mix(in srgb,var(--signal) 7%,transparent)}
+    .bk-vynimka .bk-dni{display:block;padding:5px 8px 0;font-size:11px;font-weight:700;
+      text-transform:uppercase;letter-spacing:.04em;color:var(--signal)}
+    .bk-vynimka .plan-cell{margin:0 4px 4px}
+    .bk-varenia{margin:2px 11px 10px}
+    .bk-varenia .lnk{min-height:30px;display:inline-flex;align-items:center}
     /* Nákup: pridávanie vlastnej položky a panely „Mám doma"/„Trasa obchodom"
        nie sú to, čo v obchode potrebuješ ako prvé — sú POD zoznamom.
        Poradie dáva priamo DOM, takže tu `order` už netreba — a hlavne nesmie byť,
@@ -1257,6 +1314,7 @@
       <div id="plan-den-nav" class="chips plan-den-nav"></div>
       <div id="plan-den-hlava" class="plan-den-hlava"></div>
       <div class="plan-grid"><table class="plan" id="plan-table"></table></div>
+      <div id="plan-bloky" class="plan-bloky"></div>
       </div>
       <div id="plan-kal" style="display:none">
         <div class="plan-head"><button class="btn" onclick="kalPosun(-1)">‹</button><b id="kal-label" style="min-width:170px;text-align:center;align-self:center"></b><button class="btn" onclick="kalPosun(1)">›</button></div>

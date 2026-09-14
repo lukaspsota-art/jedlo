@@ -317,12 +317,12 @@ Cieľové zariadenie: **Nothing Phone (3a) Pro** → CSS viewport **393×850**, 
 
 **Meradlo (v26, premerané v29):** na 393×870 s naplneným plánom musí byť **prvé jedlo v Pláne
 a prvá položka v Nákupe viditeľné bez skrolovania vo všetkých štyroch režimoch hustoty**
-(`.botnav` začína na y ≈ 798). Prvé jedlo v Pláne po v29: Kompakt **308** · Plánovanie **520** ·
-Obchod **597** · Kuchyňa **707** (pred v29: 315 / 483 / 621 / 704 — hlavička dňa a menovka slotu
-pridávajú, tenšia hlavička bloku uberá). Položiek nákupu nad prehybom: **9 / 5 / 3 / 1** — to je
-jediný dôvod, prečo Kompakt existuje, a `08-mobil.js` to drží ako tvrdú kontrolu
-(`kompakt > plan`). V Kompakte začínajú nad prehybom **všetky štyri jedlá dňa** (raňajky · obed ·
-večera · snack), celé sú vidieť tri; v ostatných režimoch je celé vidieť prvé (v Kuchyni jeho začiatok).
+(`.botnav` začína na y ≈ 798). Prvé jedlo v Pláne po v29 (blokový zoznam + skrytá horná lišta):
+Kompakt **215** · Plánovanie **405** · Obchod **494** · Kuchyňa **575** (pred v29 to bolo
+315 / 483 / 621 / 704 v dennom pohľade s hornou lištou). Položiek nákupu nad prehybom: **9 / 5 / 3 / 1** — to je jediný dôvod, prečo
+Kompakt existuje, a `08-mobil.js` to drží ako tvrdú kontrolu (`kompakt > plan`).
+V Kompakte sú nad prehybom **štyri jedlá naraz** a celý týždeň je 12 jedál na jedno skrolovanie,
+nie 28 buniek za siedmimi klikmi.
 
 **Kompakt je informačný režim, nie zmenšenina (v26, zúžené v29).** Dovtedy to bol iba `zoom:.82`
 a skrytý nadpis — tie isté informácie, menšie písmo. Miesto, ktoré zoom ušetrí, sa vracia ako DÁTA.
@@ -333,11 +333,14 @@ v „hustejšom" režime o riadok MENEJ než v zmenšenine. **Hlavička bloku si
 aj varný deň — to je obsah**, len už na jednom riadku. Ak pridávaš do bunky ďalší údaj,
 patrí do `.pc-data`.
 
-**Značka a prepínač hustoty sú na telefóne na JEDNOM riadku.** Riadok so značkou bol 50 px
-dekorácie na každej obrazovke; `.side .brand` má na mobile `font-size:0`, takže slovo „Kuchárka"
-ostáva čítačkám obrazovky, ale nekreslí sa — vidno len 3-blokové logo. `.rezimy` sa presunul
-z `order:3` na `order:0` a z `width:calc(100% - 20px)` na `flex:1 1 0`. Ušetrený celý riadok
-platí pre **všetky štyri režimy**, nielen pre Kompakt.
+**Horná lišta na telefóne NIE JE (v29).** V26 sa značka a prepínač hustoty zmestili na jeden
+riadok; vo v29 zmizli oba — `.side{display:none}` na mobile. Prepínač hustoty zaberal celý pruh
+na KAŽDEJ obrazovke, hoci sa režim prepína párkrát za deň (pred obchodom, pri sporáku): cena
+trvalá, úžitok príležitostný. Presunul sa do **„⋯ Viac"** (`otvorViac`, dlaždice s názvom aj
+popisom situácie, cieľ 76 px), odkiaľ je dostupný z ktorejkoľvek obrazovky na dve ťuknutia.
+Ušetrených **66 px na každej obrazovke** — prvé jedlo v Pláne 281 → 215 px (Kompakt).
+`h1.brand` ostáva v DOM-e kvôli čítačkám a štruktúre nadpisov. Na počítači je bočný panel
+aj s prepínačom bez zmeny.
 - `p.sub` je na telefóne na Pláne a Nákupe skrytý; `h2.h` navyše v Obchode a Kuchyni.
 - `.plan-topline` drží navigáciu týždňa a prepínač Týždeň/Kalendár;
   `#plan-kontext` má `flex:1 1 190px`, aby sa zalomil prepínač, nie navigácia. **Od v29 majú
@@ -347,6 +350,23 @@ platí pre **všetky štyri režimy**, nielen pre Kompakt.
   v Kuchyni je na telefóne skrytý celý (pri sporáku rozvrh nenastavuješ).
 - `tr.ctrl-row` (👥 stravníci + ikonky jedál dňa) je na telefóne skrytá, otvára ju
   `prepniPlanCtrl()` z „⋯ Viac" (`body.plan-ctrl`).
+- **Na telefóne je Plán BLOKOVÝ ZOZNAM, nie tabuľka dní (v29).** Týždeň má 28 naplnených
+  buniek, ale len **16 rôznych jedál**: v bloku je raňajky, obed aj večera jeden variant (to je
+  zmysel batch cookingu — navaríš raz, ješ 2–3 dni) a od v29 aj snack. Denný pohľad teda nútil
+  preklikať 7 dní, aby človek videl 16 vecí, z ktorých sa 9 opakuje dva- až trikrát.
+  `renderPlanBloky()` kreslí 3 karty (`#plan-bloky`), CSS ich prepína cez `body.plan-bloky-on`.
+  **Tabuľka ostáva v DOM-e** — kreslí sa na počítači a na papieri, kde je vidieť všetkých 7 dní.
+  Keď je `S.blokMode` vypnutý, bloky neexistujú a mobil sa vracia k dennému pohľadu
+  (`#plan-den-nav` + `#plan-den-hlava`).
+- **Bunku kreslí `planBunka(di,slot)` — jedna funkcia pre obe cesty.** Tabuľka si ju obalí do
+  `<td>`, blokový zoznam ju vloží priamo. Bez toho by mal telefón druhé, samostatne sa
+  rozchádzajúce správanie. `test_ux.js` preto reže zdroj od `function planBunka(`.
+- **Nejednotný blok sa PRIZNÁ.** Keď si človek ručne vymení jedlo v jeden deň bloku, blokový
+  zoznam ukáže oba varianty s menovkou dní (`.bk-vynimka`), nie len prvý deň.
+- **🎲 pri každom bloku** (`regenerujBlok`) prehodí len ten blok. Dovtedy sa dalo prehodiť buď
+  jedno jedlo (`⋯ viac → znova`), alebo celý týždeň (`⋯ Viac → Zamiešať`) — blok, teda to, na čo
+  sa človek pozerá, sa prehodiť nedal bez preklikávania slot po slote. Tlačidlo **nesmie mať
+  triedu `pc-btn`**: tá má v Kompakte vlastnú podlahu 30 px (= 25 fyzických po zoome).
 - **Menovka jedla je v KARTE, nie vo vlastnom stĺpci (v29).** `renderPlan` vkladá do každej
   `.plan-cell` `<span class="pc-slot">` a na mobile sa skrýva celý prvý stĺpec
   (`td.slotname` aj `td.rohova`). Stĺpec bral 88 z 361 px (24 %) na jedno slovo, hoci na
@@ -434,8 +454,9 @@ Aby sa dala z `.kc` odstrániť ceruzka bez straty čísla, má vlastný obal
 
 **A4 na výšku je 794 px, teda POD breakpointom 820 — v tlači platí MOBILNÁ media query.**
 Preto `TLAC_CSS` musí vrátiť všetko, čo mobil skrýva preto, že je vidieť jediný deň:
-`td.slotname` a `td.rohova` (`display:table-cell`), `tr.suma` (`display:table-row`)
-a `tr.dni-hlavicka`; naopak skrýva `.pc-slot` a `#plan-den-hlava` — na papieri je sedem dní,
+`.plan-grid` (na mobile ju nahrádza blokový zoznam), `td.slotname` a `td.rohova`
+(`display:table-cell`), `tr.suma` (`display:table-row`) a `tr.dni-hlavicka`;
+naopak skrýva `.plan-bloky`, `.pc-slot` a `#plan-den-hlava` — na papieri je sedem dní,
 takže menovka patrí do stĺpca a jednodenná hlavička by klamala. Tieto pravidlá **nie sú viazané
 na `body.tlac-plan`**, lebo plán tlačí aj „Tlačiť týždeň". Pozor: `12-tlac.js` beží na 1440 px,
 kde mobilná MQ NEPLATÍ — túto cestu tá sada nekryje a treba ju merať zvlášť na 794 px.
@@ -474,12 +495,17 @@ Cieľ ~1400–1450 kcal/os./deň. Pantry staples vždy do nákupu. RecipeTinEats
   `1 ks`, `postup` jeden krok („Otvor balenie a zjedz."), `cas: "1 min"`, `zdroj: "Kaufland"`,
   tagy `kúpené` a `bez prípravy`. Každý výrobok potrebuje záznam v `data/potraviny.json`
   s reálnou slovenskou cenou 2026.
-- **Snack sa NEVIAŽE na bloky.** Losuje sa na každý deň (`snackyPoDnoch`, `_inySnack`), lebo
-  pravidlo „1 variant na slot a blok" je pravidlo *varenia* — tri rôzne jogurty sa kupujú
-  rovnako ľahko ako tri rovnaké. Bez toho je strop pestrosti 12 snackov na mesiac (4 týždne ×
-  3 bloky), nech je katalóg akokoľvek veľký. Per-denné snacky sa dopĺňajú **až po dogenerovaní
-  všetkých blokov** — keď bežali vnútri bloku, ich voľby cez `ctx.pouzite` zúžili pool
-  nasledujúcich blokov a zaplatili to hlavné jedlá.
+- **Snack sa VIAŽE na blok, rovnako ako varené jedlá (v29 — OTOČENÉ oproti v26).** Do v29 sa
+  losoval na každý deň zvlášť (`snackyPoDnoch`, `_inySnack`), lebo „1 variant na slot a blok"
+  je pravidlo *varenia* a tri rôzne jogurty sa navaria rovnako ľahko ako tri rovnaké. Lenže
+  **nakupujú sa rovnako ľahko len na papieri**: sedem rôznych výrobkov na týždeň namiesto troch
+  znamená sedem otvorených balení a drahší nákup. Cena zmeraná na 30 týždňoch: unikátnych
+  výrobkov 119 → **81**, najčastejší výrobok **6× v oboch** prípadoch, dvojíc 31 → **39 %**,
+  snackov s čerstvým ovocím 19 → **25 %**. `snackyPoDnoch` dnes už len registruje druh
+  základného snacku do `ctx` (pestrosť MEDZI blokmi), per-denné varianty nevyrába.
+  Beží stále **až po dogenerovaní všetkých blokov** — keby bežala vnútri bloku, jej voľby by
+  cez `ctx.pouzite` zúžili pool nasledujúcich blokov a zaplatili by to hlavné jedlá.
+  Pripína to `test_pravidla.js` („snack je v rámci bloku ROVNAKÝ", musí byť 100 %).
 - **Snack smie byť dvojica** (jablko + orechy, jogurt + banán). Doplnok dostane výrobok, ktorý
   nie je snack sám o sebe: príliš malý (< 85 kcal) alebo výživovo chudobný (< 4 g bielkovín /
   100 kcal — sem padá holý rožok, holý chlieb, popcorn aj čokoláda). Bielkovinový doplnok
@@ -487,7 +513,9 @@ Cieľ ~1400–1450 kcal/os./deň. Pantry staples vždy do nákupu. RecipeTinEats
   **deterministická** (hash id + poradie týždňa) — keď závisela od priebežného `ctx.pouzite`,
   optimalizátor rátal s inou dvojicou, než sa do plánu zapísala.
 - `nejednotneBloky()` snackový slot **ignoruje** — „nejednotný blok" je varovanie o tom, že sa
-  v bloku varí viackrát, a snack sa nevarí.
+  v bloku varí viackrát, a snack sa nevarí. (Od v29 je snack v bloku aj tak jednotný, takže to
+  varovanie by nevyvolal; blokový zoznam na telefóne ale nejednotnosť **prizná** pri každom
+  slote vrátane snacku — viď `.bk-vynimka`.)
 - Pestrosť snackov sa neriadi kuchyňou (výrobky žiadnu nemajú), ale **druhom regálu**
   (`snackDruh`: ovocie / zelenina / mliečne / syr / mäso / orechy / sušené / pečivo / tyčinka /
   sladké / slané / nápoj).

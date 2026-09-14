@@ -389,9 +389,11 @@ ok("★ na karte má aria-label aj aria-pressed", () => {
 });
 
 ok("bunka plánu je zo skutočných <button>, nie zo `span onclick`", () => {
-  // renderPlan je v harnesse stubnutý (testy nekreslia), preto kontrolujeme zdroj
-  const usek = ZDROJ.slice(ZDROJ.indexOf("function renderPlan("), ZDROJ.indexOf("let dragSrc="));
-  assert.ok(usek.length > 500, "nenašiel som telo renderPlan");
+  // renderPlan je v harnesse stubnutý (testy nekreslia), preto kontrolujeme zdroj.
+  // v29: markup bunky sa presťahoval do `planBunka()`, aby ho vedela použiť tabuľka
+  // týždňa aj blokový zoznam na telefóne — rez teda začína tam, nie pri renderPlan.
+  const usek = ZDROJ.slice(ZDROJ.indexOf("function planBunka("), ZDROJ.indexOf("let dragSrc="));
+  assert.ok(usek.length > 500, "nenašiel som telo planBunka/renderPlan");
   assert.ok(!/<span class="rm"[^>]*onclick/.test(usek), "„✎ zmeniť“/„⋯ viac“ sú stále span onclick");
   assert.ok(!/<span class="kc"[^>]*onclick/.test(usek), "riadok kcal je stále span onclick");
   assert.ok(!/<span class="nm"[^>]*onclick/.test(usek), "názov jedla je stále span onclick");

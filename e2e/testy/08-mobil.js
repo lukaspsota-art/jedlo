@@ -153,50 +153,48 @@ module.exports = {
     await prepni(m, "planovac");
     await naplnPlan(m);
     await m.waitForTimeout(200);
+    // v29: na telefóne už Plán nie je tabuľka s preklikávaním dní, ale BLOKOVÝ zoznam.
+    // Týždeň má 28 naplnených buniek, ale len 16 rôznych jedál — v bloku je každý slot
+    // jeden variant (to je zmysel batch cookingu) a od v29 aj snack. Staré kontroly
+    // (table-layout, šírka bunky, šírka stĺpca slotov) merali pohľad, ktorý sa na mobile
+    // už nekreslí; tabuľka ostala pre počítač a pre papier, kde je vidieť 7 dní.
     const planM = await m.evaluate(() => {
-      const tb = document.getElementById("plan-table");
-      const bunka = document.querySelector("#plan-table .plan-cell:not(.prazdne):not(.vyp)");
-      return {
-        layout: getComputedStyle(tb).tableLayout,
-        hlavickaDni: getComputedStyle(document.querySelector("#plan-table tr.dni-hlavicka")).display,
-        denNav: document.querySelectorAll("#plan-den-nav .chip").length,
-        bunkaW: (() => { const b = [...document.querySelectorAll("#plan-table .plan-cell:not(.prazdne):not(.vyp)")].find((x) => x.getBoundingClientRect().width > 0); return b ? Math.round(b.getBoundingClientRect().width) : 0; })(),
-        slotW: Math.round(document.querySelector("#plan-table td.slotname").getBoundingClientRect().width),
-        akcii: bunka ? bunka.querySelectorAll(".rm").length : 0,
-      };
-    });
-    await t.ok(planM.layout === "auto", "na mobile má tabuľka plánu table-layout:auto (jeden viditeľný deň)", planM.layout);
-    await t.ok(planM.hlavickaDni === "none", "riadok s názvami dní je na mobile skrytý (deň hovorí den-nav)", planM.hlavickaDni);
-    await t.ok(planM.denNav >= 7, `navigácia dní má 7 dní (${planM.denNav})`, planM.denNav);
-    await t.ok(planM.bunkaW > 150, `bunka s jedlom je použiteľne široká (${planM.bunkaW} px, kedysi 16 px)`, JSON.stringify(planM));
-    await t.ok(planM.slotW <= 100, `stĺpec s názvom slotu nezaberá obrazovku (${planM.slotW} px, kedysi 313 px)`, JSON.stringify(planM));
-    await t.ok(planM.akcii === 2, "bunka plánu má na mobile 2 akcie", planM.akcii);
-
-    // ── v29: menovka slotu v karte, hlavička dňa, dáta v bunke, menovky na prepínači ──
-    const planR = await m.evaluate(() => {
       const vid = (e) => e && getComputedStyle(e).display !== "none" && e.getBoundingClientRect().width > 0;
-      const bunka = [...document.querySelectorAll("#plan-table .plan-cell:not(.prazdne):not(.vyp)")].find((x) => x.getBoundingClientRect().width > 0);
-      const hl = document.getElementById("plan-den-hlava");
+      const bl = document.getElementById("plan-bloky");
+      const karty = [...bl.querySelectorAll(".blok-karta")];
+      const bunka = [...bl.querySelectorAll(".plan-cell:not(.prazdne):not(.vyp)")].find((x) => x.getBoundingClientRect().width > 0);
+      const znovy = [...bl.querySelectorAll(".bk-znova")];
       return {
-        slot: (() => { const s = bunka && bunka.querySelector(".pc-slot"); return vid(s) ? s.textContent.trim() : ""; })(),
-        slotnameSkryty: [...document.querySelectorAll("#plan-table td.slotname")].every((td) => getComputedStyle(td).display === "none"),
-        hlava: vid(hl) ? hl.innerText.replace(/\s+/g, " ") : "",
+        blokyVidno: vid(bl),
+        tabulkaSkryta: !vid(document.querySelector(".plan-grid")),
+        kariet: karty.length,
+        znova: znovy.length,
+        znovaMin: znovy.length ? Math.min(...znovy.map((e) => { const r = e.getBoundingClientRect(); return Math.round(Math.min(r.width, r.height)); })) : 0,
+        jedal: bl.querySelectorAll(".plan-cell").length,
+        bunkaW: bunka ? Math.round(bunka.getBoundingClientRect().width) : 0,
+        akcii: bunka ? bunka.querySelectorAll(".rm").length : 0,
+        slot: (() => { const x = bunka && bunka.querySelector(".pc-slot"); return vid(x) ? x.textContent.trim() : ""; })(),
         pcData: (() => { const d = bunka && bunka.querySelector(".pc-data"); return d ? getComputedStyle(d).display : "none"; })(),
+        hlava: karty[0] ? karty[0].innerText.replace(/\s+/g, " ") : "",
         taby: document.querySelector(".plan-tabs").innerText.replace(/\s+/g, " "),
         sipka: (document.querySelector("#plan-kontext .chip") || {}).getAttribute
           ? document.querySelector("#plan-kontext .chip").getAttribute("aria-label") : "",
-        rezim: document.documentElement.getAttribute("data-rezim") || "plan",
       };
     });
-    await t.ok(planR.slot.length > 2, `menovka jedla je v karte, nie vo vlastnom stĺpci (.pc-slot = „${planR.slot}")`, JSON.stringify(planR));
-    await t.ok(planR.slotnameSkryty, "stĺpec td.slotname je na mobile skrytý celý (inak sa riadky rozídu)", JSON.stringify(planR));
-    await t.ok(/\d{2}\.\d{2}\./.test(planR.hlava) && /\d+\/\d+ kcal/.test(planR.hlava),
-      `hlavička dňa hovorí dátum aj súčet voči cieľu („${planR.hlava}")`, planR.hlava);
-    await t.ok(planR.pcData === "block", "bielkoviny a cena sú v bunke aj mimo Kompaktu", JSON.stringify(planR));
-    await t.ok(/Týždeň/.test(planR.taby) && /Kalendár/.test(planR.taby),
-      "prepínač Týždeň/Kalendár má textové menovky, nie holé emoji", planR.taby);
-    await t.ok(/týžd/i.test(planR.sipka) && planR.sipka.length > 3,
-      `šípka týždňa má menovku zo slov, nie znak („${planR.sipka}")`, planR.sipka);
+    await t.ok(planM.blokyVidno && planM.tabulkaSkryta, "na mobile kreslí Plán blokový zoznam, nie tabuľku dní", JSON.stringify(planM));
+    await t.ok(planM.kariet === 3, `týždeň je v troch blokoch bez preklikávania (${planM.kariet})`, JSON.stringify(planM));
+    await t.ok(planM.jedal >= 9 && planM.jedal <= 16, `celý týždeň je ${planM.jedal} jedál na jedno skrolovanie (bolo 28 buniek za 7 klikmi)`, JSON.stringify(planM));
+    await t.ok(planM.znova === 3 && planM.znovaMin >= 44, `každý blok má 🎲 znova a dosahuje 44 px (${planM.znovaMin} px)`, JSON.stringify(planM));
+    await t.ok(planM.bunkaW > 150, `bunka s jedlom je použiteľne široká (${planM.bunkaW} px, kedysi 16 px)`, JSON.stringify(planM));
+    await t.ok(planM.akcii === 2, "bunka plánu má na mobile 2 akcie", planM.akcii);
+    await t.ok(planM.slot.length > 2, `menovka jedla je v karte, nie vo vlastnom stĺpci (.pc-slot = „${planM.slot}")`, JSON.stringify(planM));
+    await t.ok(planM.pcData === "block", "bielkoviny a cena sú v bunke aj mimo Kompaktu", JSON.stringify(planM));
+    await t.ok(/varíš/.test(planM.hlava) && /kcal\/deň/.test(planM.hlava),
+      "hlavička bloku hovorí varný deň aj súčet voči cieľu", planM.hlava.slice(0, 90));
+    await t.ok(/Týždeň/.test(planM.taby) && /Kalendár/.test(planM.taby),
+      "prepínač Týždeň/Kalendár má textové menovky, nie holé emoji", planM.taby);
+    await t.ok(/týžd/i.test(planM.sipka) && planM.sipka.length > 3,
+      `šípka týždňa má menovku zo slov, nie znak („${planM.sipka}")`, planM.sipka);
 
     // ── vodorovný pretok vo všetkých pohľadoch ─────────────────────────────
     for (const v of VIEWS) {

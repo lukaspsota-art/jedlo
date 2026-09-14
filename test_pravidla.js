@@ -136,17 +136,22 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
     }));
     assert.strictEqual(zle, 0, zle + " z " + spolu + " dní bloku má iný obsah vareného slotu");
   });
-  ok("snack sa v rámci bloku MENÍ — aspoň v polovici viacdňových blokov", () => {
-    let menia = 0, spolu = 0;
+  // v29: OTOČENÉ. Do v29 sa snack losoval na každý deň zvlášť (pestrosť), lenže nakupovať
+  // sa tým musel každý deň iný výrobok — 7 druhov na týždeň namiesto 3, teda viac otvorených
+  // balení a drahší nákup. Snack sa teraz drží bloku ako každé iné jedlo. Cena je zmeraná:
+  // za 30 týždňov 119 → 81 unikátnych výrobkov, najčastejší ostal 6×, dvojíc 31 → 39 %,
+  // snackov s čerstvým ovocím 19 → 25 %.
+  ok("snack je v rámci bloku ROVNAKÝ — kupuje sa raz, ako každé iné jedlo bloku", () => {
+    let rovnake = 0, spolu = 0;
     tyzdne.forEach(t => t.bloky.forEach(b => {
       if (b.dni.length < 2) return;
       const prim = b.dni.map(di => (b.snacky.find(x => x.di === di && x.prim) || {}).id);
       if (prim.some(x => x == null)) return;
-      spolu++; if (new Set(prim).size > 1) menia++;
+      spolu++; if (new Set(prim).size === 1) rovnake++;
     }));
-    const p = pct(menia, spolu);
-    console.log("      (" + menia + " z " + spolu + " blokov = " + p.toFixed(1) + " %)");
-    assert.ok(p >= 50, "len " + p.toFixed(1) + " % blokov má v rámci bloku rôzne snacky");
+    const p = pct(rovnake, spolu);
+    console.log("      (" + rovnake + " z " + spolu + " blokov = " + p.toFixed(1) + " %)");
+    assert.ok(p === 100, (100 - p).toFixed(1) + " % blokov má v rámci bloku RÔZNE snacky");
   });
 
   nadpis("\nD3 — bez opakovania naprieč blokmi a bez carryover C→A");

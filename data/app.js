@@ -540,10 +540,22 @@ function aktualizujSkip(){ const a=document.querySelector("a.skip"); if(!a)retur
 function tik(){ try{ navigator.vibrate&&navigator.vibrate(8); }catch(e){} } // X1: jemná haptika na diskrétne akcie
 function prepni(v){ tik(); if(("#"+v)!==location.hash){ location.hash=v; } zobrazView(v); } // E8: hash = zdroj pravdy pre deep-link/back
 window.addEventListener("hashchange",()=>{ const v=location.hash.slice(1); if(v && v!==_curView && document.getElementById("v-"+v)) zobrazView(v); });
+// v29: prepínač hustoty sa presťahoval SEM z hornej lišty. Tam zaberal celý pruh na KAŽDEJ
+// obrazovke, hoci sa režim prepína párkrát za deň (pred obchodom, pri sporáku) — cena za to
+// bola trvalá, úžitok príležitostný. Tu je na dva ťuknutia zo spodnej lišty, z ktorejkoľvek
+// obrazovky. Na počítači ostáva v bočnom paneli, kde miesto nechýba.
+const REZIM_POPIS={kompakt:["Kompakt","malý telefón, viac obsahu na obrazovku"],
+  plan:["Plánovanie","hustejšia informácia, tabuľka týždňa"],
+  obchod:["Obchod","jedna ruka, väčšie ciele, rýchle odškrtávanie"],
+  kuchyna:["Kuchyňa","mastné ruky, telefón opretý, veľké písmo"]};
 function otvorViac(){ const pol=[["vyziva","📊 Výživa"],["spajza","🧊 Špajza"],["nastavenia","⚙️ Nastavenia"]];
+  const akt=REZIMY.includes(S.profil.rezim)?S.profil.rezim:"plan";
   let h='<div class="hero"><button class="close" onclick="zavriPick()">✕</button><h2>Viac</h2></div><div class="content2">';
   pol.forEach(([v,t])=>{ h+=`<div class="plan-cell" style="border-bottom:1px solid var(--line);border-radius:0" onclick="zavriPick();prepni('${v}')"><span class="nm">${t}</span></div>`; });
-  h+="</div>"; document.getElementById("pick-modal").innerHTML=h; zpristupniKliky(document.getElementById("pick-modal")); document.getElementById("pick-overlay").classList.add("open"); _fokusDoModalu("pick-modal"); }
+  h+='<h3 class="viac-nadpis">Veľkosť písma a tlačidiel</h3><div class="viac-rezimy" role="group" aria-label="Režim použitia">';
+  REZIMY.forEach(r=>{ const [nz,po]=REZIM_POPIS[r]||[r,""];
+    h+=`<button type="button" class="viac-rezim${r===akt?" on":""}" aria-pressed="${r===akt}" onclick="nastavRezim('${r}');zavriPick()"><b>${nz}</b><small>${po}</small></button>`; });
+  h+="</div></div>"; document.getElementById("pick-modal").innerHTML=h; zpristupniKliky(document.getElementById("pick-modal")); document.getElementById("pick-overlay").classList.add("open"); _fokusDoModalu("pick-modal"); }
 // U1: bunka plánu mala 5 mini-liniek (20 ovládacích prvkov na obrazovku telefónu).
 // Zostala primárna „✎ zmeniť", zvyšok je tu — rovnaký spodný panel ako „⋯ Viac".
 // B1: rozvrh varenia (bloky) už nie je schovaný tu — má vlastný pás nad tabuľkou plánu
@@ -589,6 +601,8 @@ const TLAC_CSS = `@media print{
      Na papieri je ale sedem dní naraz, takže oboje treba vrátiť a .pc-slot naopak zhasnúť,
      inak by na hárku svietilo „RAŇAJKY" 7× v jednom riadku. Nie je to viazané na
      body.tlac-plan — plán tlačí aj „Tlačiť týždeň". */
+  .plan-bloky{display:none!important}
+  body.plan-bloky-on .plan-grid{display:block!important}
   table.plan td.slotname,table.plan td.rohova{display:table-cell!important}
   table.plan tr.suma{display:table-row!important}
   .pc-slot{display:none!important}
@@ -1571,6 +1585,31 @@ function renderPlanPrazdny(){ const el=document.getElementById("plan-prazdny"); 
     +'<div class="btn-row" style="margin-top:9px"><button class="btn" onclick="skopirujMinuly()">📋 Skopírovať minulý týždeň</button>'
     +'<button class="btn" onclick="otvorNacitat()">📥 Načítať uložený jedálniček</button></div>';
   zpristupniKliky(el); }
+// Jedna bunka plánu. Používa ju tabuľka týždňa (počítač, tlač) AJ blokový zoznam (telefón),
+// aby mali obe cesty rovnaký obsah, rovnaké dotykové ciele aj rovnaké správanie pri tlači.
+// Vracia samotnú `.plan-cell` — obal (`<td>` alebo `<li>`) si doplní volajúci.
+function planBunka(di,slot){
+  // `.pc-slot` je menovka jedla V BUNKE. Na mobile nahrádza celý stĺpec `td.slotname`
+  // (88 z 361 px na jedno slovo), na počítači a na papieri je skrytá — tam stĺpec ostáva.
+  const slotLbl=`<span class="pc-slot">${slot}</span>`;
+  if(slotyDna(di).indexOf(slot)<0) return `<div class="plan-cell vyp">${slotLbl}vyp.</div>`;
+  const ids=slotIds(di,slot); const f=pf(di,slot);
+  if(ids.length){ let kc=0, bl=0, cen=0, cenaZnama=true;
+        // A8 (WCAG 2.1.1): obsah bunky boli `span onclick` — klávesnicou nedosiahnuteľné. Teraz sú to
+        // skutočné <button> (trieda `pc-btn` im zoberie vzhľad tlačidla, štýl ostáva z .nm/.kc/.rm).
+        const kde=`${DNI[di]}, ${slot}`;
+        const riadky=ids.map(cid=>{const k=komponent(cid); if(!k)return ""; kc+=kcalPorcia(k); const kn=escHtml(k.nazov);
+          // Bielkoviny a cena na porciu — v Kompakte ich bunka ukazuje, inde sú skryté.
+          // Kompakt tým prestáva byť len zmenšeninou a stáva sa informačným režimom.
+          const _v=vyzivaReceptu(k); bl+=(_v.b||0); if(_v.cena==null)cenaZnama=false; else cen+=_v.cena;
+          const nm=k._priloha?`<span class="nm">+ ${kn}</span>`
+            :k._left?`<button class="nm pc-btn" onclick="otvor('${k._srcId}')" title="Zvyšok — zobraziť recept" aria-label="Zvyšok ${kn} — zobraziť recept">♻️ ${kn} <small>(zvyšok)</small></button>`
+            :`<button class="nm pc-btn pc-odkaz" onclick="otvor('${cid}',{di:${di},slot:'${slot}'})" title="Zobraziť recept" aria-label="${kn} — zobraziť recept">${kn}</button>`;
+          return `<div style="display:flex;justify-content:space-between;gap:4px;align-items:start">${nm}<button class="pc-btn pc-x" onclick="odoberKomponent(${di},'${slot}','${cid}')" title="odobrať" aria-label="Odobrať ${kn} z plánu — ${kde}">✕</button></div>`;}).join("");
+    return `<div class="plan-cell" draggable="true" ondragstart="dragStart(event,${di},'${slot}')" title="Potiahni pre presun">${slotLbl}${riadky}<button class="kc pc-btn" title="Upraviť veľkosť porcie" aria-label="Upraviť veľkosť porcie — ${kde}" onclick="upravFaktor(${di},'${slot}')">${Math.round(kc*f)} kcal${fmtPct(f)} <i class="pc-ed" aria-hidden="true">✎</i></button><span class="pc-data">B ${Math.round(bl*f)} g · ${cenaZnama?fmt(cen*f)+" €":"? cena"}</span><span style="display:flex;gap:14px;margin-top:2px"><button class="rm pc-btn" style="color:var(--accent)" aria-label="Zmeniť jedlo — ${kde}" onclick="vyberDoPlanu(${di},'${slot}')">✎ zmeniť</button><button class="rm pc-btn" style="color:var(--accent)" onclick="akcieSlotu(${di},'${slot}')" title="Doplnok, znova, porcie, zvyšok" aria-label="Ďalšie akcie — ${kde}">⋯ viac</button></span></div>`;
+  }
+  return `<button class="plan-cell prazdne pc-btn pc-empty" aria-label="Pridať jedlo — ${DNI[di]}, ${slot}" onclick="vyberDoPlanu(${di},'${slot}')">${slotLbl}+ pridať</button>`;
+}
 function renderPlan(){
   renderTyzdenNav(); hraniceInit(); renderRozvrhPas(); renderPlanPrazdny(); renderDenNav();
   const bl=bloky(); const idxBloku={}; bl.forEach((b,idx)=>b.forEach(di=>idxBloku[di]=idx));
@@ -1603,25 +1642,10 @@ function renderPlan(){
   h+="</tr>";
   rowSloty.forEach(slot=>{
     h+=`<tr><td class="slotname">${slot}</td>`;
-    DNI.forEach((d,di)=>{ const ids=slotIds(di,slot); const f=pf(di,slot);
-      // `.pc-slot` je menovka jedla V BUNKE. Na mobile nahrádza celý stĺpec `td.slotname`
-      // (88 z 361 px na jedno slovo), na počítači a na papieri je skrytá — tam stĺpec ostáva.
-      const slotLbl=`<span class="pc-slot">${slot}</span>`;
-      if(slotyDna(di).indexOf(slot)<0){ h+=`<td data-d="${di}" class="${tint(di)}"><div class="plan-cell vyp">${slotLbl}vyp.</div></td>`; return; }
-      if(ids.length){ let kc=0, bl=0, cen=0, cenaZnama=true;
-        // A8 (WCAG 2.1.1): obsah bunky boli `span onclick` — klávesnicou nedosiahnuteľné. Teraz sú to
-        // skutočné <button> (trieda `pc-btn` im zoberie vzhľad tlačidla, štýl ostáva z .nm/.kc/.rm).
-        const kde=`${DNI[di]}, ${slot}`;
-        const riadky=ids.map(cid=>{const k=komponent(cid); if(!k)return ""; kc+=kcalPorcia(k); const kn=escHtml(k.nazov);
-          // Bielkoviny a cena na porciu — v Kompakte ich bunka ukazuje, inde sú skryté.
-          // Kompakt tým prestáva byť len zmenšeninou a stáva sa informačným režimom.
-          const _v=vyzivaReceptu(k); bl+=(_v.b||0); if(_v.cena==null)cenaZnama=false; else cen+=_v.cena;
-          const nm=k._priloha?`<span class="nm">+ ${kn}</span>`
-            :k._left?`<button class="nm pc-btn" onclick="otvor('${k._srcId}')" title="Zvyšok — zobraziť recept" aria-label="Zvyšok ${kn} — zobraziť recept">♻️ ${kn} <small>(zvyšok)</small></button>`
-            :`<button class="nm pc-btn pc-odkaz" onclick="otvor('${cid}',{di:${di},slot:'${slot}'})" title="Zobraziť recept" aria-label="${kn} — zobraziť recept">${kn}</button>`;
-          return `<div style="display:flex;justify-content:space-between;gap:4px;align-items:start">${nm}<button class="pc-btn pc-x" onclick="odoberKomponent(${di},'${slot}','${cid}')" title="odobrať" aria-label="Odobrať ${kn} z plánu — ${kde}">✕</button></div>`;}).join("");
-        h+=`<td data-d="${di}" class="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><div class="plan-cell" draggable="true" ondragstart="dragStart(event,${di},'${slot}')" title="Potiahni pre presun">${slotLbl}${riadky}<button class="kc pc-btn" title="Upraviť veľkosť porcie" aria-label="Upraviť veľkosť porcie — ${kde}" onclick="upravFaktor(${di},'${slot}')">${Math.round(kc*f)} kcal${fmtPct(f)} <i class="pc-ed" aria-hidden="true">✎</i></button><span class="pc-data">B ${Math.round(bl*f)} g · ${cenaZnama?fmt(cen*f)+" €":"? cena"}</span><span style="display:flex;gap:14px;margin-top:2px"><button class="rm pc-btn" style="color:var(--accent)" aria-label="Zmeniť jedlo — ${kde}" onclick="vyberDoPlanu(${di},'${slot}')">✎ zmeniť</button><button class="rm pc-btn" style="color:var(--accent)" onclick="akcieSlotu(${di},'${slot}')" title="Doplnok, znova, porcie, zvyšok" aria-label="Ďalšie akcie — ${kde}">⋯ viac</button></span></div></td>`;
-      } else h+=`<td data-d="${di}" class="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')"><button class="plan-cell prazdne pc-btn pc-empty" aria-label="Pridať jedlo — ${DNI[di]}, ${slot}" onclick="vyberDoPlanu(${di},'${slot}')">${slotLbl}+ pridať</button></td>`;
+    DNI.forEach((d,di)=>{ const vyp=slotyDna(di).indexOf(slot)<0;
+      // vypnutý slot nie je cieľ pre drag&drop — preto nemá ondragover/ondrop
+      h+=vyp?`<td data-d="${di}" class="${tint(di)}">${planBunka(di,slot)}</td>`
+            :`<td data-d="${di}" class="${tint(di)}" ondragover="dragOver(event)" ondrop="dragDrop(event,${di},'${slot}')">${planBunka(di,slot)}</td>`;
     });
     h+="</tr>";
   });
@@ -1635,9 +1659,49 @@ function renderPlan(){
     h+=`<td data-d="${di}" class="${over?'over':''}" title="${st.d?st.d+' kcal vs cieľ':''}"><span style="color:${st.c}">${sum}${ciel?'<span class="ciel-mini">/'+ciel+'</span>':''}</span>${over?" ⚠":""}${ciel?`<div class="kc-bar"><i style="width:${pct}%;background:${st.c||'var(--accent)'}"></i></div>`:""}</td>`; });
   h+="</tr>"; t.innerHTML=h; t.className="plan d"+planDen;
   renderDenHlavu(denSum,denSt,ciel);
+  renderPlanBloky(rowSloty,ciel);
 }
 // Hlavička zobrazeného dňa (len mobil, CSS rozhoduje): ktorý deň · dátum · či je to dnes ·
 // koľko ten deň dáva voči cieľu. Čísla sú tie isté, ktoré práve vyrátal riadok Σ.
+// ── BLOKOVÝ ZOZNAM (telefón) ────────────────────────────────────────────────
+// Denný pohľad nútil preklikať 7 dní, aby si videl 16 jedál — z toho 9 varených sa
+// opakuje 2–3×, lebo to je celý zmysel batch cookingu (navaríš raz, ješ dva dni).
+// Blokový zoznam ukáže celý týždeň na jedno skrolovanie: 3 hlavičky + ~16 kariet.
+// Bunku kreslí `planBunka`, teda tú istú ako tabuľka — žiadne druhé správanie.
+// Keď je blok NEJEDNOTNÝ (človek si ručne vymenil jedlo v jeden deň), pohľad to
+// PRIZNÁ a ukáže oba varianty s menovkou dní — nezatají to zobrazením prvého dňa.
+function renderPlanBloky(rowSloty,ciel){
+  const box=document.getElementById("plan-bloky"); if(!box)return;
+  document.body.classList.toggle("plan-bloky-on",!!S.blokMode);
+  if(!S.blokMode){ box.innerHTML=""; return; }
+  const denKcal=di=>{ let sum=0; slotyDna(di).forEach(sl=>{ const f=pf(di,sl);
+    slotIds(di,sl).forEach(cid=>{const r=komponent(cid); if(r)sum+=kcalPorcia(r)*f;}); }); return Math.round(sum); };
+  let h="";
+  bloky().forEach((dni,bi)=>{ const pism=blokPismeno(bi); const veta=escHtml(vetaBloku(dni));
+    const vari=DNI[varnyDen(dni[0])];
+    const kcal=dni.map(denKcal); const rovnake=kcal.every(k=>k===kcal[0]);
+    const st=kcal[0]?stavCiel(kcal[0],ciel):null;
+    const kcalTxt=!kcal[0]?'<span class="ciel-mini">prázdny blok</span>'
+      :`<span style="color:${(st&&st.c)||'var(--na-bloku)'}">${rovnake?kcal[0]:Math.min(...kcal)+"–"+Math.max(...kcal)}</span>`
+        +(ciel?`<span class="ciel-mini">/${ciel}</span>`:"")+" kcal/deň";
+    // ktorý blok je dnešný — v blokovom pohľade to inak nepovie nič (pás dní je preč)
+    const dnesVBloku=dni.some(di=>datumPre(di)===dnesISO());
+    h+=`<section class="blok-karta ${blokTrieda(bi)}${dnesVBloku?" je-dnes":""}" aria-label="Blok ${pism}, ${escHtml(rozsahKratko(dni))}${dnesVBloku?" — dnešný blok":""}">`
+      +`<header class="bk-hlava"><span class="bk-nazov">${znakBloku(bi)} Blok ${pism} · ${rozsahKratko(dni)}</span>`
+      +(dnesVBloku?`<span class="bk-dnes">dnes</span>`:"")
+      +`<button class="bk-znova" onclick="regenerujBlok(${bi})" title="${veta}" aria-label="Vygenerovať blok ${pism} znova">🎲 <span class="tl">znova</span></button></header>`
+      +`<p class="bk-vari">🍳 varíš ${vari} večer · ${kcalTxt}</p>`;
+    rowSloty.forEach(slot=>{
+      // varianty naprieč dňami bloku — pri jednotnom bloku je práve jeden
+      const mapa=new Map();
+      dni.forEach(di=>{ const k=slotyDna(di).indexOf(slot)<0?"__vyp":slotIds(di,slot).join("+");
+        if(!mapa.has(k))mapa.set(k,[]); mapa.get(k).push(di); });
+      if(mapa.size===1){ h+=planBunka(dni[0],slot); return; }
+      mapa.forEach(dd=>{ h+=`<div class="bk-vynimka"><span class="bk-dni">${dd.map(d=>DNI[d].slice(0,2)).join(", ")}</span>${planBunka(dd[0],slot)}</div>`; });
+    });
+    h+=`<p class="bk-varenia"><button class="lnk pc-btn" onclick="planVarenia(${dni[0]})" aria-label="${veta} Otvoriť plán varenia pre blok ${pism}">plán varenia →</button></p>`;
+    h+=`</section>`; });
+  box.innerHTML=h; zpristupniKliky(box); }
 function renderDenHlavu(sum,st,ciel){ const el=document.getElementById("plan-den-hlava"); if(!el)return;
   const iso=datumPre(planDen); const dnes=iso===dnesISO();
   el.innerHTML=`<span><span class="pdh-den">${DNI[planDen]} ${fmtD(iso)}</span>`
@@ -1789,13 +1853,26 @@ function _poolNavrhov(di,slot){ const dni=S.blokMode?blokDni(di):[di];
   if(pr&&pr.maxCas>0){ const pc=pool.filter(r=>casMin(r)<=pr.maxCas); if(pc.length)pool=pc; }
   if(slot==="Raňajky" && dni.every(d=>d<5)){ const ps=pool.filter(r=>jeSendvic(r)); if(ps.length)pool=ps; }
   return {dni,pool,pouzite,nedavne}; }
-function regenerujSlot(di,slot){ const {dni,pool,pouzite}=_poolNavrhov(di,slot);
-  const r=vyberVazene(pool,pouzite); if(!r)return;
+// Prehodenie jedného slotu. `_ticho` verzia nekreslí ani neukladá — volá ju `regenerujBlok`,
+// aby sa pri prehodení celého bloku nekreslilo štyrikrát za sebou.
+function _regenerujSlotTicho(di,slot){ const {dni,pool,pouzite}=_poolNavrhov(di,slot);
+  const r=vyberVazene(pool,pouzite); if(!r)return null;
   let comp=[r.id];
   { const pr=jeHlavnyChodSlot(slot)?prilohaPre(r,Math.floor(Math.random()*3)):null; if(pr) comp.push(pr); }
   if(jeNatierkovySlot(slot) && r.kategoria==="Nátierka") comp.push("prf:pecivo");
   dni.forEach(d=>{ const iso=datumPre(d); S.plan[iso]=S.plan[iso]||{}; S.plan[iso][slot]=comp.slice(); });
+  return dni; }
+function regenerujSlot(di,slot){ const dni=_regenerujSlotTicho(di,slot); if(!dni)return;
   rescaleDen(dni); save(); renderPlan(); }
+// v29: 🎲 pri každom bloku. Doteraz sa dalo prehodiť buď jedno jedlo (⋯ viac → znova),
+// alebo celý týždeň (⋯ Viac → Zamiešať) — blok, teda to, na čo sa človek v pláne pozerá,
+// sa prehodiť nedal bez preklikávania slot po slote.
+function regenerujBlok(bi){ const bl=bloky(); const dni=bl[bi]; if(!dni||!dni.length)return;
+  const di=dni[0]; let n=0;
+  slotyDna(di).forEach(sl=>{ if(_regenerujSlotTicho(di,sl))n++; });
+  if(!n){ toast("Pre tento blok som nenašiel náhradu."); return; }
+  rescaleDen(dni); save(); renderPlan();
+  toast("🎲 Blok "+blokPismeno(bi)+" ("+rozsahKratko(dni)+") je prehodený — "+n+" jedál."); }
 function zavriPick(){ document.getElementById("pick-overlay").classList.remove("open"); _zahodHistoriuModalu(); _vratFokus(); }
 document.getElementById("pick-overlay").addEventListener("click",e=>{if(e.target.id==="pick-overlay")zavriPick();});
 // nahradí obsah PRÁVE ZOBRAZENÉHO týždňa (7 dátumov od S.viewOd) šablónou indexovanou 0-6 (z archívu/JEDALNICKY) — S.plan mimo tohto rozsahu (iné týždne) sa nedotkne
@@ -2794,24 +2871,17 @@ function _inySnack(slot,ctx,cielK,v0,okrem,dkBez,ciel,strop,vlBez,vlCiel,dbBez,c
   }
   } finally { _vlakninaRezim=vlPred; }
   return null; }
+// v29: snack je v bloku ROVNAKY, ako kazde ine jedlo bloku.
+// Do v29 sa losoval na kazdy den zvlast (pestrost), lenze nakupovat sa tym musel kazdy den
+// iny vyrobok — 7 druhov na tyzden namiesto 3, cize viac otvorenych baleni a drahsi nakup.
+// Funkcia uz nevyraba per-denne varianty, len zaregistruje druh zakladneho snacku do ctx,
+// aby pestrost medzi BLOKMI fungovala dalej.
 function snackyPoDnoch(denPlan,sloty,dni,ctx,ciel){
-  const von={};
   sloty.forEach(slot=>{ if(!jeSnackSlot(slot))return;
     const zaklad=denPlan[slot]; if(!zaklad||!zaklad.length)return;
     const r0=komponent(zaklad[0]); if(r0&&ctx.snackDruhy)_pridajDruh(ctx,snackDruh(r0));
-    if(dni.length<2)return;
-    const cielK=cielSlotu(slot,sloty,ciel), v0=slotVyzivaKomp(zaklad);
-    let dkBez=0, vlBez=0, dbBez=0, strop=Infinity;
-    sloty.forEach(s2=>{ if(s2===slot||!denPlan[s2])return;
-      const w=slotVyzivaKomp(denPlan[s2]); dkBez+=w.k; vlBez+=w.vl; dbBez+=w.b; strop=Math.min(strop,w.k); });
-    strop=isFinite(strop)?strop-1:0;
-    const vlCiel=VLAKNINA_CIEL*sloty.length/4, cielB=(cieloveMakra(ciel)||{}).b||0;
-    for(let i=1;i<dni.length;i++){
-      const c=_inySnack(slot,ctx,cielK,v0,zaklad[0],dkBez,ciel,strop,vlBez,vlCiel,dbBez,cielB);
-      if(c){ von[dni[i]]=von[dni[i]]||{}; von[dni[i]][slot]=c; }
-    }
   });
-  return von; }
+  return {}; }
 async function generujJedalnicek(zamiesaj){
   const cfg=S.genCfg||{}; const zachovat=!!cfg.zachovat;
   const naplnene=[0,1,2,3,4,5,6].map(datumPre).some(iso=>S.plan[iso]&&Object.keys(S.plan[iso]).length);
@@ -2892,9 +2962,9 @@ async function generujJedalnicek(zamiesaj){
     Object.keys(ctx.stopa).forEach(sl=>{ const st=ctx.stopa[sl];
       if(st.baza)pouziteBazy.add(st.baza); if(st.maso)prevBlokMaso.add(st.maso); });
   });
-  // P5b: per-denné snacky sa dopĺňajú AŽ po dogenerovaní všetkých blokov. Keby bežali vnútri
-  // bloku, ich voľby by cez `ctx.pouzite` zúžili pool nasledujúcich blokov a zaplatili by to
-  // hlavné jedlá (namerané: kcal-presnosť dňa 99,3 → 98,7 %).
+  // Snack sa od v29 drží bloku ako ostatné jedlá (jeden výrobok na blok, kupuje sa raz).
+  // Beží to až tu, po dogenerovaní všetkých blokov: keby to bežalo vnútri bloku, voľby by
+  // cez `ctx.pouzite` zúžili pool nasledujúcich blokov a zaplatili by to hlavné jedlá.
   hotoveBloky.forEach(b=>{ const sd=snackyPoDnoch(b.denPlan,b.sloty,b.dni,b.ctx,ciel);
     b.dni.forEach(di=>{ const x=sd[di]; if(!x)return;
       Object.keys(x).forEach(sl=>{ if(plan[di]&&plan[di][sl]) plan[di][sl]=x[sl].slice(); }); }); });
