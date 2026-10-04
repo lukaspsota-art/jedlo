@@ -131,4 +131,32 @@ ok("aspoň 90 % ingrediencií s množstvom sa spáruje na potravinu", () => {
   assert.ok(p >= 90, "napárovaných len " + p.toFixed(1) + " %");
 });
 
+// v33 (Balík 6): hľadanie a zakázané suroviny párujú TVAR slova (kmeň + skutočná koncovka),
+// nie spoločný začiatok 3–5 znakov. `obsahujeSurovinu` = párovanie zákazov (bez podreťazca).
+nadpis("\nP7 — tvar slova: hľadanie a zakázané suroviny");
+const tvar = (text, token) => app.obsahujeSurovinu(text, [app.bezDia(token)]);
+ok("skloňovanie a odvodeniny sedia (aj pohyblivá samohláska, vsuvka, k → č)", () => {
+  [["Brokolica", "brokolica"], ["brokolicu", "brokolica"], ["brokolicou", "brokolica"], ["Brokolicový krém", "brokolica"],
+   ["kuracie", "kurací"], ["kuracím", "kuracie"], ["kurací", "kuracím"], ["Guláš", "gulas"], ["gulášová", "guláš"],
+   ["Vajcia", "vajce"], ["vajec", "vajcia"], ["Koriandrové semienka", "koriander"], ["Hubový bujón", "huby"],
+   ["Rybia omáčka", "ryby"], ["paradajok", "paradajka"], ["mliečna čokoláda", "mlieko"], ["cibule", "cibuľa"],
+   ["Mleté mäso", "mäso"], ["mäsom", "mäso"], ["Mäsový vývar", "mäso"], ["zelerom", "zeler"]]
+    .forEach(([s, t]) => assert.ok(tvar(s, t), t + " → " + s));
+});
+ok("cudzie slovo so spoločným začiatkom nesedí (do v33: maslo = mäso, zelenina = zeler)", () => {
+  [["Maslo", "mäso"], ["Bravčová masť", "mäso"], ["Zelenina", "zeler"], ["zelená", "zeler"], ["Kurkuma", "kura"],
+   ["Kuriatka", "kura"], ["Karbonátky", "karbonara"], ["Medvedí cesnak", "med"], ["Syrovátkový proteín", "syr"],
+   ["Jednohubky", "huby"], ["Šampiňóny", "huby"]]
+    .forEach(([s, t]) => assert.ok(!tvar(s, t), t + " ↛ " + s));
+});
+ok("synonymá platia obojsmerne (kinoa/quinoa, kura/kurča/chicken, zeler/celer…)", () => {
+  [["Quinoa", "kinoa"], ["kinoa", "quinoa"], ["Butter Chicken", "kura"], ["kurčaťom", "kura"], ["Celer", "zeler"],
+   ["Spaghetti", "špagety"], ["Vajíčka", "vajcia"], ["Rajčina", "paradajka"], ["Cestoviny Carbonara", "karbonara"]]
+    .forEach(([s, t]) => assert.ok(tvar(s, t), t + " ≈ " + s));
+});
+ok("„Mám doma“ (jeDoma) ostáva prísnejšie ako zákazy — iná cena chyby", () => {
+  assert.strictEqual(app.jeDoma("Medvedí cesnak", ["med"]), false);
+  assert.strictEqual(app.jeDoma("Ryža basmati", ["ryža"]), true);
+});
+
 console.log("\nOK — " + bezov + " kontrol prešlo.");

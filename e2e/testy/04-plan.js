@@ -71,10 +71,35 @@ module.exports = {
       polozky: [...document.querySelectorAll("#pick-modal .plan-cell .nm")].map((x) => x.textContent.trim()),
     }));
     await t.ok(panel.otvorene, "„⋯ viac“ v bunke otvorí panel akcií");
-    // v31: pri skutočnom recepte pribudla piata „🚫 Už nezobrazovať“ (pri zvyšku/prílohe nie je)
-    await t.ok(panel.polozky.length === 5 && /Už nezobrazovať/.test(panel.polozky[4]),
-      `panel má 5 akcií (doplnok, znova, porcie, zvyšok, už nezobrazovať) — ${panel.polozky.length}`, JSON.stringify(panel));
+    // v31: pri skutočnom recepte pribudla piata „🚫 Už nezobrazovať“ (pri zvyšku/prílohe nie je).
+    // B3: ✕ sa z bunky presunul sem (s rozsahom bloku) a pribudol 🔒 Zamknúť; ✕ prílohy, ak ju jedlo má.
+    await t.ok(panel.polozky.length >= 7 && /Už nezobrazovať/.test(panel.polozky[4]) && /Zamknúť/.test(panel.polozky[5])
+      && /^✕ Odobrať z (bloku|plánu)/.test(panel.polozky[panel.polozky.length - 1]),
+      `panel má akcie doplnok, znova, porcie, zvyšok, už nezobrazovať, 🔒, ✕ odobrať — ${panel.polozky.length}`, JSON.stringify(panel));
     await zavriOkna(page);
+
+    // ── B3: ✕ odobrať z „⋯ viac“ → toast „↩ Späť“ (skutočné tlačidlo) jedlo vráti ──────────
+    {
+      await page.evaluate(() => { if (!S.blokMode) window.prepniBlok(true); });
+      const pred = await page.evaluate(() => JSON.stringify([2, 3, 4].map((d) => slotIds(d, "Obed"))));
+      await page.evaluate(() => akcieSlotu(2, "Obed"));
+      await page.waitForTimeout(150);
+      await page.locator("#pick-modal .plan-cell", { hasText: "Odobrať z" }).last().click();
+      await page.waitForTimeout(200);
+      const po = await page.evaluate(() => ({
+        obed: JSON.stringify([2, 3, 4].map((d) => slotIds(d, "Obed"))),
+        toast: document.getElementById("toast").textContent,
+        tlacidlo: (() => { const b = document.querySelector("#toast button"); if (!b) return null; const r = b.getBoundingClientRect();
+          return { text: b.textContent, h: Math.round(r.height), pe: getComputedStyle(b).pointerEvents }; })(),
+      }));
+      await t.ok(po.obed === "[[],[],[]]", "✕ Odobrať z bloku odoberie obed v celom bloku St–Pi", po.obed);
+      await t.ok(po.tlacidlo && /Späť/.test(po.tlacidlo.text) && po.tlacidlo.h >= 44 && po.tlacidlo.pe === "auto",
+        "toast po odobratí má skutočné tlačidlo „↩ Späť“ (≥ 44 px, dá sa ťuknúť)", JSON.stringify(po));
+      await page.click("#toast button");
+      await page.waitForTimeout(200);
+      const vratene = await page.evaluate(() => JSON.stringify([2, 3, 4].map((d) => slotIds(d, "Obed"))));
+      await t.ok(vratene === pred, "„↩ Späť“ vráti odobraté jedlo", `${pred} → ${vratene}`);
+    }
 
     // ── rozvrh varenia: pás nad tabuľkou + dialóg (vlna 3, NAVOD v15) ──────
     // Predtým sa rozdelenie blokov volalo „✂️ Rozdelenie blokov“ a bolo len v „⋯ Viac“.

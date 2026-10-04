@@ -141,6 +141,7 @@ async function vytvorProstredie(t) {
       hasTouch: !!opts.touch,
       isMobile: false,       // Chromium mobile-emulation mení scroll/viewport metriky; breakpoint rieši šírka
       deviceScaleFactor: 1,
+      colorScheme: opts.colorScheme || "light",   // "dark" = tmavý telefón, téma „podľa systému"
       permissions: opts.permissions || [],
       serviceWorkers: opts.serviceWorkers || "allow",
       offline: false,

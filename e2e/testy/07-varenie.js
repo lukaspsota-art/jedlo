@@ -67,14 +67,26 @@ module.exports = {
       const cas = await page.evaluate(() => ({ pocet: casovace.length, dom: document.querySelectorAll("#cook-timers .timer, #cook-timers > *").length, text: document.getElementById("cook-timers").textContent }));
       await t.ok(cas.pocet === 1, "krokový časovač sa pridá", JSON.stringify(cas));
       await t.ok(/\d\d:\d\d/.test(cas.text), "bežiaci časovač ukazuje mm:ss", cas.text);
-      // odpočítava
-      await page.evaluate(() => { casovace[0].left = 5; renderCasovace(); });
+      // odpočítava — podľa hodín (`koniec`), nie počtom tikov: na pozadí sa setInterval spomalí
+      await page.evaluate(() => { casovace[0].koniec = Date.now() + 5000; casovace[0].left = 5; renderCasovace(); });
       const t1 = await page.evaluate(() => casovace[0].left);
       await page.waitForTimeout(1800);
       const t2 = await page.evaluate(() => casovace[0].left);
       await t.ok(t2 < t1, `časovač odpočítava (${t1} → ${t2} s)`, `${t1} → ${t2}`);
-      await page.evaluate(() => { zmazCasovac(casovace[0].id); });
-      await t.ok(await page.evaluate(() => casovace.length) === 0, "časovač sa dá zmazať");
+      // zmeškané tiky (zamknutý telefón) časovač dobehne podľa hodín, nie o minúty neskôr
+      const dobeh = await page.evaluate(() => { casovace[0].koniec = Date.now() - 1; tickCasovace(); return casovace[0].left; });
+      await t.ok(dobeh === 0, "časovač ráta podľa hodín — po zmeškaných tikoch ukáže 0, nie zvyšok", String(dobeh));
+      // časovač je tlačidlo; ťuk na BEŽIACI sa najprv opýta
+      await page.evaluate(() => { casovace[0].koniec = Date.now() + 60000; casovace[0].left = 60; renderCasovace(); });
+      const tl = await page.evaluate(() => { const b = document.querySelector("#cook-timers .timer"); return b ? { tag: b.tagName, lab: b.getAttribute("aria-label") } : null; });
+      await t.ok(tl && tl.tag === "BUTTON" && /zostáva/.test(tl.lab), "bežiaci časovač je tlačidlo s menovkou", JSON.stringify(tl));
+      await page.click("#cook-timers .timer");
+      await page.waitForTimeout(250);
+      const otaz = await page.evaluate(() => ({ dlg: document.getElementById("dlg-overlay").classList.contains("open"), n: casovace.length }));
+      await t.ok(otaz.dlg && otaz.n === 1, "ťuk na bežiaci časovač ho nezmaže bez opýtania", JSON.stringify(otaz));
+      await page.click("#dlg-modal .btn.primary");
+      await page.waitForTimeout(250);
+      await t.ok(await page.evaluate(() => casovace.length) === 0, "časovač sa dá zmazať (po potvrdení)");
     } else {
       await t.ok(false, "nenašiel sa krok s časovým údajom na test krokového časovača");
     }
@@ -146,7 +158,12 @@ module.exports = {
       "chýbajúci wake lock nevyhodí chybu do konzoly");
 
     // ── zavretie režimu varenia ─────────────────────────────────────────────
+    // bežiaci časovač (3 min z dialógu vyššie): „✕ Koniec" sa najprv opýta, inak by ho ticho zahodil
     await page.locator("#cook .ch button", { hasText: "Koniec" }).click();
+    await page.waitForTimeout(250);
+    const kOtazka = await page.evaluate(() => ({ dlg: document.getElementById("dlg-overlay").classList.contains("open"), cook: document.getElementById("cook").classList.contains("open"), text: (document.getElementById("dlg-text") || {}).textContent }));
+    await t.ok(kOtazka.dlg && kOtazka.cook && /časovač/i.test(kOtazka.text || ""), "„✕ Koniec“ s bežiacim časovačom sa opýta", JSON.stringify(kOtazka));
+    await page.click("#dlg-modal .btn.primary");
     await page.waitForTimeout(250);
     const koniec = await page.evaluate(() => ({
       otvorene: document.getElementById("cook").classList.contains("open"),
@@ -163,18 +180,22 @@ module.exports = {
     await page.waitForTimeout(120);
     await page.evaluate(() => window.spustiCook());
     await page.waitForTimeout(150);
-    await page.evaluate(async () => {
+    const hotovo = await page.evaluate(async () => {
       cookKrok = cookKroky.length - 1; ukazKrok();
+      const tlac = document.getElementById("cook-dalej").textContent;
       const p = krok(1);
       await new Promise((r) => setTimeout(r, 120));
-      const btn = document.querySelector("#dlg-modal .btn"); // „Zrušiť" — špajza nech ostane nedotknutá
+      const btn = document.querySelector("#dlg-overlay.open #dlg-modal .btn"); // „Zrušiť" — špajza nech ostane nedotknutá
       if (btn) btn.click();
       await p;
+      return { tlac, toast: document.getElementById("toast").textContent, spajza: S.spajza.length };
     });
     await page.waitForTimeout(250);
     const hist = await page.evaluate((i) => ({ uvarene: (S.uvarene || []).length, prvy: (S.uvarene[0] || {}).id, cook: document.getElementById("cook").classList.contains("open") }), id);
     await t.ok(hist.uvarene >= 1 && hist.prvy === id, "dokončenie posledného kroku zapíše recept do histórie varenia", JSON.stringify(hist));
     await t.ok(!hist.cook, "po dovarení sa režim varenia zavrie", JSON.stringify(hist));
+    await t.ok(/Hotovo/.test(hotovo.tlac), "posledný krok má tlačidlo „✓ Hotovo“, nie „Ďalej“", hotovo.tlac);
+    await t.ok(hotovo.spajza > 0 || /Uvarené/.test(hotovo.toast), "pri prázdnej špajzi appka povie, že jedlo zapísala do histórie", JSON.stringify(hotovo));
 
     await zavriOkna(page);
     await t.ok(page.chyby.length === 0, "žiadna chyba v konzole v režime varenia",

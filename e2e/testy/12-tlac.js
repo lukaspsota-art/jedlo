@@ -165,5 +165,44 @@ module.exports = {
     await t.ok(page.chyby.length === 0, "žiadna chyba v konzole pri tlači",
       page.chyby.map((c) => `${c.typ}: ${c.text}`).join("\n"));
     await E.zavri(page);
+
+    // ── A4 na výšku = 794 px, teda MOBILNÁ media query (sada vyššie beží na 1440 px) ──
+    // .app má min-height:100vh = výška strany; recept je v .overlay ZA .app, takže
+    // začínal až na druhej strane (y=1123) a prvá strana A4 vyšla prázdna.
+    const a4 = await E.novaStranka({ viewport: { width: 794, height: 1123 } });
+    await a4.evaluate(() => { window.print = () => {}; });
+    await prepni(a4, "recepty");
+    await a4.evaluate((i) => { window.otvor(i); window.tlacRecept(); }, id);
+    await a4.emulateMedia({ media: "print" });
+    await a4.waitForTimeout(200);
+    const a4Recept = await a4.evaluate(() => ({
+      modalTop: Math.round(document.getElementById("modal").getBoundingClientRect().top + scrollY),
+      appH: Math.round(document.querySelector(".app").getBoundingClientRect().height),
+    }));
+    await t.ok(a4Recept.modalTop < 100, "recept na A4 (794 px) začína na prvej strane, nie po prázdnej", JSON.stringify(a4Recept));
+    await a4.emulateMedia({ media: "screen" });
+    await a4.evaluate(() => { window.tlacUprac(); });
+    await zavriOkna(a4);
+
+    // nákup na A4: toast ani „✓ Už máme / v košíku" na papier nepatria
+    await prepni(a4, "planovac");
+    await naplnPlan(a4);
+    await prepni(a4, "nakup");
+    await a4.evaluate(() => {
+      [...document.querySelectorAll("#nakup-list input[type=checkbox]")].slice(0, 2).forEach((c) => c.click());
+      window.toast("Skopírované (56 položiek)"); window.tlacView("nakup");
+    });
+    await a4.emulateMedia({ media: "print" });
+    await a4.waitForTimeout(200);
+    const a4Nakup = await a4.evaluate(() => ({
+      toast: getComputedStyle(document.getElementById("toast")).display,
+      uzMame: [...document.querySelectorAll("#v-nakup .done-sekcia")].map((e) => getComputedStyle(e).display),
+      polozky: [...document.querySelectorAll("#nakup-list label")].filter((l) => l.getBoundingClientRect().height > 0).length,
+    }));
+    await t.ok(a4Nakup.toast === "none", "toast sa na papier nedostane", JSON.stringify(a4Nakup));
+    await t.ok(a4Nakup.uzMame.length > 0 && a4Nakup.uzMame.every((d) => d === "none") && a4Nakup.polozky > 10,
+      "„✓ Už máme / v košíku“ sa netlačí, zvyšok nákupu áno", JSON.stringify(a4Nakup));
+    await a4.emulateMedia({ media: "screen" });
+    await E.zavri(a4);
   },
 };

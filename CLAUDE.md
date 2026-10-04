@@ -42,15 +42,15 @@ vygenerovanom JS. Keď padne, **`kucharka.html` sa neprepíše** — starý buil
 
 ## Ako overiť
 - Syntax JS: `node --check data/app.js`
-- Celá sada (po každej zmene `app.js`) — **10 sád, 275 pomenovaných kontrol**:
+- Celá sada (po každej zmene `app.js`) — **10 sád, 372 pomenovaných kontrol** (4. 10. 2026):
   ```
   node test_vypocty.js && node test_generator.js && node test_nakup.js && node test_ux.js \
     && node test_prepocty.js && node test_porcie.js && node test_jednotky.js \
     && node test_parovanie.js && node test_pravidla.js && node test_odolnost.js
   node test_regresie.js     # 12 kontrol, MUSÍ hlásiť 0 otvorených chýb
   ```
-  (vypocty 35 · generator 19 · nakup 65 · ux 48 · jednotky 14 · parovanie 19 · pravidla 55 ·
-  odolnost 20 · prepocty ✓ · porcie ✓)
+  (vypocty 37 · generator 19 · nakup 88 · ux 87 · jednotky 15 · parovanie 23 · pravidla 72 ·
+  odolnost 31 · prepocty ✓ · porcie ✓)
 - **`test_regresie.js` je zoznam už opravených chýb**, nie bežný test. Každá kontrola vie,
   či má prejsť alebo padnúť; keď sa stav zmení, test to povie. Nulu treba udržať.
 - **`test_harness.js`** spúšťa SKUTOČNÝ `app.js` s reálnymi dátami v `node:vm` (fake DOM,
@@ -211,14 +211,39 @@ názvu. Výsledok je cachovaný.
     nedalo overiť, či filter vôbec zabral. Hlásenie zvlášť pomenúva stav „vypnuté je všetko":
     filter sa vtedy neuplatní a počet neklesne, čo treba priznať.
 - Hľadanie (`hladaSedi`): najprv celý dopyt ako **frázu** nad haystackom (názov + popis + tagy +
-  ingrediencie), potom **AND cez tokeny** (`/[\s,;]+/`) — `kura ryza` aj `cicer, paradajka`
-  vracia recepty, ktoré majú OBE suroviny. Jednoslovný dopyt je preto bajt na bajt pôvodný.
-  Radenie v pickeri plánu stojí na `_vNazve` (zhoda v názve nad zhodou v surovinách) — obyčajné
-  `nazov.includes(q)` by pri dvojslovnom dopyte prestalo radiť.
+  ingrediencie + kuchyňa + kategória + rodina zdroja), potom **AND cez tokeny** — `kura ryza`
+  aj `cicer, paradajka` vracia recepty, ktoré majú OBE suroviny.
+  **Od v32 (audit 30. 9.) sa páruje TVAR SLOVA, nie voľný prefix** (`_tvarSlova`: kmeň +
+  skutočná koncovka z `_TV_OK`, od 4 znakov aj začiatok slova pre písanie po písmenkách).
+  Voľný prefix 3–5 znakov chytal maslo pri „mäso“ (579 z 872 výsledkov) a zeleninu pri „zeler“.
+  `SYNONYMA` (vajce/vajíčko, kinoa/quinoa, zeler/celer…) platia obojsmerne aj pre zákazy,
+  `DRUHY` (huby → šampiňóny…) len v hľadaní. Dopyt rozumie **„bez X“ a „-X“** (`_dotaz`);
+  „bez mäsa“ = 🌱 veg. `hladaSkore` radí podľa poľa zhody (názov 3 > tag/kuchyňa/kategória 2 >
+  surovina 1 > popis/zdroj 0) v mriežke aj v pickri a `hladaSuroviny` píše na kartu „🥕 sedí: …“.
+  Kúpené výrobky sú v kolekciách a pri radení (okrem A–Z) skryté za prepínačom `#vyrobky-prep`.
+  Prázdny výsledok (`prazdnyHTML`) radí a priznáva zhody vo vypnutých zdrojoch/skrytých.
 - Špajza: `S.spajza`, expirácie, min. zásoby → nákup, `odpisRecept` (FIFO podľa expirácie),
-  `zasobaPlatna` (expirovaná ani záporná zásoba nezmenšuje nákup).
-- Nedeliteľné jednotky (ks/rožok/žemľa/plátok) sa zaokrúhľujú na celé, a to až na **súčte**
-  v nákupe, nie po receptoch.
+  `zasobaPlatna` (expirovaná ani záporná zásoba nezmenšuje nákup, nepočíta sa do odpisu ani do
+  `chybaDoMinima` — „🧊 Doplniť zásoby“, Domov, riadok špajze).
+  **Od v32 sa špajza páruje jedine cez `spajzaSedi`** (nákup, `mamVSpajzi`, odpis cez
+  `spajzaKandidati`): pri známej potravine rozhoduje zhodný kanonický kľúč a `jeDoma` odmietne
+  prídavné meno na -ový/-ová („Cesnakový dresing“ ≠ cesnak, „Kokosové mlieko“ ≠ mlieko). Dovtedy
+  `includes` nechal kokosové mlieko nekúpiť. `nakupItems` rozdelí každú zásobu medzi riadky raz
+  (mapa `zost` v `spajzaGramy`). Odpis po varení berie porcie bloku × veľkosť porcie (do v32
+  porovnával objekt `aktualny` s id, takže vždy odpísal porcie receptu).
+- **Synonymá potravín (v32):** potravina môže mať `kanon` v `potraviny.json` (120 záznamov —
+  vajíčk→vajc, kmín→rasca, rožky/rohlík…). Nákup, špajza aj „Mám doma“ zoskupujú cez
+  `kanonKluc`, výživa ostáva na vlastnom kľúči. Dovtedy kúpil 30 vajec na 16 (dva riadky).
+- **Nákup po várkach (v32):** výber „Nakupujem na: A · B · C“ (`S.nakupVarky={od,bl}`, viazaný na
+  týždeň, len pri `blokMode`). `nakupPolozky` nesie `G.po[blok]`, `nakupItems(sel)` (null =
+  celý týždeň) ráta len zvolené bloky. `S.nakupCheck[týždeň|kľúč]` je `{blok: kúpené množstvo}`
+  (staré `true` = kúpené celé); keď plán narastie nad kúpené, riadok sa vráti ako „dokúpiť +X“.
+  Obrazovka aj kopírovaný text idú z jedného `nakupZoznam` — jeho `spolu/hotovo` je JEDINÉ
+  pravidlo pre počítadlo, prúžok aj 🎉 (dochucovadlá a to, čo kryje špajza, sa nerátajú).
+  „📥 Kúpené do špajze“ (`kupeneDoSpajze`) presunie odškrtnuté s balením a odhadom expirácie.
+  Ručná položka má `tyzden`; riadok ukazuje hlavne balenie z regálu („1× 1 kg (treba 888 g)“).
+- Nedeliteľné jednotky (ks/rožok/žemľa/plátok) sa zaokrúhľujú **nahor** (`ceil`, od v32 —
+  `round` kupoval 1 ks namiesto 1,32), a to až na **súčte** v nákupe, nie po receptoch.
 - Jednotky → gramy: `gZaJednotku` (jediné miesto), `gramy` a `gramyNaJed` sú navzájom inverzné.
 - Ceny: **jedna funkcia `cenaTyzdna(mode)`** — `"spotreba"` (domácnosť), `"balenia"` (celé
   balenia), `"osoba"`. `dovodBezCeny(G)` je jediné miesto, kde sa rozhoduje, či je cena neznáma.
@@ -228,7 +253,9 @@ názvu. Výsledok je cachovaný.
   `true` = 1, polovica je `aria-pressed="mixed"`). `oblubenostVaha(id)` = `3^(h−3)` × {1; 1,3; 1,8}:
   nehodnotené = 3★ = 1, 5★ = 9, 1★ = 0,11. Násobí `_vahaVypocet` (generátor, 🎲 slot aj blok),
   radí „Čo variť dnes" a posúva 4 návrhy v „Aké jedlo?". Do v30 bolo `w=1+hodn`, takže aj 1★
-  bolo zvýhodnené oproti nehodnotenému. Namerané: 5★ obed 2,3× častejšie, 1★ 0,64×; „nie stále"
+  bolo zvýhodnené oproti nehodnotenému. Od v32 má aj člen `GEN_SK.hodn` (0,3) v `skoreJedla` — keď
+  kcal-okno a kotvy zúžia výber, samotná váha pri vstupe do turnaja nerozhodla (lift klesol na
+  1,2×). Namerané 4. 10.: 5★ obed 2,5–2,9× častejšie, 1★ 0,3×, bielkoviny bez zmeny; „nie stále"
   drží pamäť (žiadny 5★ obed dvakrát za 12 týždňov). Kryje `test_generator.js` H1.
 - **„🚫 Už nezobrazovať" = `S.skryte`** (v31 premenované z „Skryť z generátora", ktoré klamalo —
   `prejdeProfil` skrytý recept vylučuje VŠADE: Recepty, hľadanie, návrhy, generátor). Dá sa aj
@@ -236,6 +263,25 @@ názvu. Výsledok je cachovaný.
   v Receptoch cez filter „🚫 Skryté"; toast to pri skrytí hovorí.
 - **V detaile receptu je pod popisom LEN ⚠ alergény** (v31). Bielkoviny/100 kcal, podiel dňa,
   sezóna, akcia, diéty ani „priprav vopred" tam nie sú — diéty a sezóna ostávajú na karte.
+  Od v32 je alergén neutrálny `.badge.alerg`; `--signal`, ⚠ a text („máš bez lepku“) dostane až
+  `.zrazka` = zrážka s profilom (lepok, mlieko, ryby, zakázaná surovina).
+- **↩ Späť a zámky (v32).** Akcia, ktorá mení plán (🎲 jedla/bloku, odobrať, ✎ zmeniť, už
+  nezobrazovať, generovať/Zamiešať, vyprázdniť, skopírovať, zjednotiť bloky), volá pred zmenou
+  `zapamatajTyzden()` a na konci `toastSpat(msg)` — jedna úroveň, toast má skutočný `<button>`.
+  `S.zamky[iso][slot]` drží **id jedla** (iné jedlo v slote zámok automaticky zruší; je
+  v `SHARED_FIELDS`). Kotva (🔒 alebo „Zachovať“) je v generátore `ctx.pevne` a každý opravný
+  prechod si ju vyradí cez `_pevny(ctx,s)` vo VOLAJÚCOM, nikdy nie v `prehodSlot`/`vratSlot` —
+  nový prechod musí stráž dostať tiež. 🎲 vyberá ako generátor (`_ctxSlotu` + `_cielSlotuVDni`
+  + `_poolVyberu` + doplnok snacku). Pravidlo pre rozsah dní platí pre celý blok, ak ho má
+  ktorýkoľvek deň, kedy sa je doma (`pravidloPreDni`); „Dorovnať dni na cieľ“ vypína už len faktor.
+- **Vlastný recept (v32)** sa ukladá surový (migrácia `escV` 3) a upravuje sa tým istým formulárom
+  (`novyRecept(id)` / `ulozNovyRecept(id)`, v detaile „✏️ Upraviť“). `normalizujStav` cez
+  `normVlastnyRecept` vynúti tvar (id `[\w-]`, ingrediencie objekty so string `nazov`, `zdroj_url`
+  len http(s)); poškodený recept appku nezloží. Načítaná šablóna / „Skopírovať minulý týždeň“
+  (= predchádzajúci kalendárny týždeň) vymení cez `_vymenNevhodne` jedlá, ktoré neprejdú
+  `prejdeProfil`, a povie to.
+- **Hodnotenie (v32)** je `role="slider"` (šípky po 0,5) s cieľmi 44 px: ťuk = celá hviezda,
+  druhý ťuk na tú istú = pol. `hodnot()` mení detail aj karty NA MIESTE, bez `otvor()`.
 - Nákup po oddeleniach: `PORADIE_ODDELENI` je len **predvoľba Kauflandu**. Skutočné poradie dáva
   `poradieOddeleni()` podľa `S.obchod` (`kaufland` / `lidl` / `vlastne`); vlastné poradie sa
   prestavuje šípkami ↑↓ v paneli „🏪 Trasa obchodom" a `ozdravPoradie` ho dopĺňa a čistí voči
@@ -270,10 +316,10 @@ Celá téma je JEDEN blok na konci `<style>` v `data/sablona.html` medzi
 `/* Bloky theme — start */` a `/* Bloky theme — end */`. Blok pôvodné CSS iba **prebíja**,
 nič v ňom nemaže — odstránenie témy = zmazať blok.
 - Zdroj témy je **`dizajn/tema-bloky.css`**; do šablóny (aj s base64 fontmi) ju vloží
-  **`python3 scripts/vloz_temu.py`**. **POZOR — zdroj je zastaraný od v26:** v29, v30 aj v31
-  (blokový zoznam, `.bk-*`, `.pc-znova`, odstránené `.ring`) sa editovali PRIAMO v šablóne.
-  `vloz_temu.py` by ich zmazal. Pred jeho spustením najprv preber blok zo šablóny späť
-  do `tema-bloky.css` (rozdiel = všetko medzi značkami okrem `@font-face`).
+  **`python3 scripts/vloz_temu.py`** (od v32 píše LF). Medzi v26 a v31 sa téma upravovala
+  priamo v šablóne a zdroj zastaral; **4. 10. 2026 je `tema-bloky.css` opäť zhodný so šablónou**.
+  Kto mení tému priamo v šablóne, musí CSS dorovnať do `tema-bloky.css` — inak ho `vloz_temu.py`
+  pri ďalšom behu zmaže.
 - Fonty **Archivo** (nadpisy a čísla, premenlivá váha 400–800) a **Instrument Sans** (text)
   sú base64 `data:` URI, 4 súbory / 106 KB (latin + latin-ext pre každý). Appka musí zostať
   jeden offline súbor — nepridávaj `@import` ani CDN. **Slovenskú diakritiku nesie latin-ext**
@@ -284,6 +330,11 @@ nič v ňom nemaže — odstránenie témy = zmazať blok.
   `--skala --cil --cil-in --r --r-mala --r-btn`.
   Staré tokeny (`--bg --panel --ink --muted --line --chip --accent --accent-fill
   --accent-dark --warn --gold`) sú na ne **premapované** — pôvodné CSS sa tým prefarbí naraz.
+  **Odvodené tokeny (aj `--akcent/--akcent-tlac`) sú deklarované na `:root,body`, nie len na
+  `:root`** (v32): `var()` sa dosadí na prvku, kde je vlastnosť deklarovaná, a tmavá téma
+  prepisuje bázové tokeny až na `body`. Na samotnom `:root` sa aliasy vyhodnotili zo SVETLEJ
+  sady — v systémovej tmavej téme bolo 154 textov pod AA (súčet kcal 1,03:1). Preto aj
+  `nastavAkcent` píše inline na `document.body`, nie na `<html>`.
 - **Téma má TRI stavy** (`S.profil.temaAuto` + `S.profil.dark`, prepínač „Farebná téma"
   v Nastaveniach): *podľa systému* (predvolené) nedá na `<body>` ANI JEDNU triedu, takže
   rozhoduje `@media(prefers-color-scheme:dark){ body:not(.svetla) }` — a rozhoduje aj keď si
@@ -293,12 +344,16 @@ nič v ňom nemaže — odstránenie témy = zmazať blok.
   spustení a pri každom načítaní bol vidieť blik z tmavej do svetlej.
   Migrácia: kto mal `dark:true`, ostáva na výslovnej voľbe.
   Obe sady tokenov musia byť identické; kontroluje to `scripts/kontrast_bloky.py`.
-- **`body.dark .btn` (0,2,1) prebíja `.btn.primary` (0,2,0)** — preto má téma vlastné
-  `body.dark .btn.primary`. Bez neho je v tmavom režime primárne tlačidlo bajtovo zhodné
-  so sekundárnym a obrazovka stratí jedinú primárnu akciu. `kontrast_bloky.py` to nechytí:
-  obe farby sú čitateľné, len nesprávne.
+- **Tmavá téma je LEN tokeny** (v32): pôvodné pravidlá `body.dark X` spred Blokov (zelená paleta,
+  `body.dark .btn.primary`) sú zmazané, takže „Tmavá“ a „Podľa systému“ sa vykresľujú zhodne.
+  Hodnotu závislú od témy nepíš ako `body.dark X`, ale cez token (vzor:
+  `color-mix(in srgb,var(--na-bloku) 28%,transparent)`). Dôsledok: bez bloku témy Bloky by
+  výslovná „Tmavá“ nemala paletu — pravidlo „odstránenie témy = zmazať blok“ pre tmavý režim neplatí.
 - `python3 scripts/kontrast_bloky.py` číta tokeny priamo zo šablóny a **padne**, ak niektorý
   pár klesne pod WCAG AA (obe témy + natrvalo tmavá plocha varenia). Spusti po každej zmene farieb.
+  Tokeny ale nestačia — **`e2e/testy/09-pristupnost.js` meria kontrast VYKRESLENEJ stránky**
+  (`meraj()`: 3 stavy témy × 8 obrazoviek na 393×850, vrátane `::placeholder`); tá chytila
+  chybu aliasov, ktorú `kontrast_bloky.py` nevidel.
 - **Farba nikdy nesmie byť jediný nosič informácie** (WCAG 1.4.1): ku každej farbe bloku patrí
   písmeno A/B/C — `znakBloku(bi)` vyrába `<span class="znak blok-x">A</span>`. Používa sa
   v hlavičke plánu, v riadku nákupu, na Domove, v páse týždňa, v grafe výživy aj vo varení.
@@ -456,9 +511,13 @@ aj s prepínačom bez zmeny.
 - **V bunke plánu je 1 primárna akcia + `⋯ viac`** (`akcieSlotu`), rozdelenie blokov je v `⋯ Viac`
   (`otvorRozdelenie`). Nepridávaj ďalšie mini-linky do bunky — bolo ich 5 a plán vyzeral rozbito.
   **Výnimka od v31: 🎲 `.pc-znova` hneď vedľa názvu hlavného jedla** (výslovná požiadavka) —
-  okamžitá výmena cez `regenerujSlot` (celý blok, výber ako generátor). Len na telefóne
-  (na počítači `display:none`), 44 px, selektor so špecificitou Kompakt podlahy, v tlači skrytá.
+  okamžitá výmena cez `regenerujSlot` (celý blok, výber ako generátor, „↩ Späť“). Len na
+  telefóne (na počítači `display:none`), 44 px dotyk pri ~26 px v rozložení (záporný okraj
+  + `z-index`), raz na slot, v tlači skrytá. Zamknutý slot má namiesto 🎲 značku 🔒.
   **Nemá triedu `rm`** — testy rátajú v bunke presne 2× `.rm`.
+  **✕ v bunke od v32 NIE JE** (24 px tesne vedľa 🎲, mazalo celý blok bez návratu) — odobrať
+  slot aj prílohu/doplnok je v „⋯ viac“ s rozsahom bloku a „↩ Späť“. kcal a B sú v jednom
+  riadku `.pc-riadok` (jedlo 106–114 px namiesto 143–156).
 - **„Použiť na celý blok" JE predvolene zaškrtnuté** (v31, výslovná voľba; audit 6. 9. ho
   vypol). Bez toho „✎ zmeniť" v blokovom zozname rozbilo blok na výnimky.
 - **Prechod z okna na obrazovku (`zavriPick();prepni(v)`) rieši `prepni`**, nie volajúci:
@@ -466,6 +525,13 @@ aj s prepínačom bez zmeny.
   ten back() vrátil predošlú obrazovku. Do v31 sa preto na telefóne **nedali otvoriť
   Nastavenia** (Viac → Nastavenia bliklo a zmizlo, keď bol v URL hash). `prepni` teraz záznam
   okna nahradí (`history.replaceState`). Kryje `08-mobil.js`.
+- **Okná sú vrstvy (v32)** v pevnom poradí `dlg-overlay > cook > pick-overlay > overlay`
+  (`VRSTVY`), otvorené „⋯ Viac“ je navrchu. História má **práve jeden záznam na každú otvorenú
+  vrstvu** (`_zladHistoriu` ju zladí po dobehnutí kliku); Späť aj Escape volajú `zavriVrchnu()`
+  = zatvorí len najvrchnejšiu (dialóg = Zrušiť). Všetky okná majú `role="dialog"
+  aria-modal="true"`; `_syncModal` doplní `aria-labelledby`, `inert` pod oknom a pascu fokusu.
+  Nový typ okna pridaj do `VRSTVY`. Ovládanie prekresľované cez `innerHTML` obaľ do
+  `drzFokus(fn)` (nestabilnému prvku daj `data-fokus`) — inak fokus padne na `BODY`.
 - **`table.plan` má `<colgroup>`** — `table-layout:fixed` inak berie šírky z riadku s `colspan`
   a stĺpec s názvami jedál zabral 718 px. Na mobile je `table-layout:auto` (jeden viditeľný deň).
 - **Mriežka receptov sa kreslí po dávkach 60** (`_gridZoz`, `#grid-viac`, `IntersectionObserver`
@@ -475,8 +541,10 @@ aj s prepínačom bez zmeny.
 - **Poradie vrstiev (z-index):** dropdown 20 < menu 40 (70 na mobile) < spodná lišta 50 < prekrytie 60
   < režim varenia 80 < **dialóg 90** < **toast 100**. Dialóg MUSÍ byť nad varením — inak sa „➕ Časovač"
   v kuchyni otvorí neviditeľne a appka čaká na odpoveď. Kontroluje to test v `test_ux.js`.
-- **Zakázané suroviny a „Mám doma" zdieľajú `obsahujeSurovinu`** (kmeň + prefix 3–5 znakov).
-  Diétny filter radšej blokuje viac; nepridávaj tam čisté `includes`, prepustí skloňovanie.
+- **Zakázané suroviny párujú tvar slova (v32)** ako hľadanie (`zakazaneChyta` → `_tvarVSlovach`
+  + podreťazec) — voľný prefix zakazoval pri „zeler“ 443 receptov, z toho 344 bez zeleru (dnes 99).
+  Zakázané „mäso“ blokuje všetko, čo nie je 🌱 veg. Diétny filter radšej blokuje viac;
+  nepridávaj tam čisté `includes` na celý názov, prepustí skloňovanie.
   Pozor: „Čo mám doma" (`skoreReceptu`) a `pridajChybajuceDoNakupu` majú **vlastný, voľnejší
   algoritmus** — dve obrazovky s tým istým názvom sa preto správajú mierne inak. Je to otvorené.
 - **Testuj obrazovky s dátami** — prázdny plán skryl 5 ovládacích prvkov na bunku aj malé ciele.
@@ -618,10 +686,27 @@ RecipeTin Eats 5 · iné ~15.
 - **Vláknina 22,9 g/deň bola chyba merania, nie méta.** Ťahal ju jeden recept s kilogramom
   chleba na porciu. Skutočnosť je ~18,5 g ⟳ proti odporúčaným 25–30.
 
-## Stav a otvorené veci (6. 9. 2026)
-Všetkých 10 testovacích sád je zelených (268 kontrol), `test_regresie.js` hlási **0 otvorených
-chýb**, E2E 397/399 (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`),
-`kontrast_bloky.py` je OK, build padá na všetkých 6 nebezpečných vstupoch.
+## Stav a otvorené veci (4. 10. 2026)
+Všetkých 10 testovacích sád je zelených (**372 kontrol**), `test_regresie.js` hlási **0 otvorených
+chýb**, E2E **515/516** (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`; xfail „med“
+je opravený), `kontrast_bloky.py` je OK a sonda kontrastu vykreslenej stránky hlási 0 textov pod
+AA vo všetkých 3 stavoch témy. Build padá na všetkých 6 nebezpečných vstupoch.
+
+**Audit 30. 9. 2026** (`.impeccable/critique/2026-09-29T23-22-44Z__kucharka-html.md`, Nielsen
+24/40, technický 12/20; 6 agentov, 1 216 klikov, 41 kombinácií generovania) — v32 opravené:
+- tmavá téma podľa systému (154 textov pod AA → 0), primárne tlačidlo a fokus v tmavej
+- dáta: odpis po varení (porcie bloku), párovanie špajze bez podreťazca, jedna zásoba na jeden
+  riadok, expirovaná zásoba nič nekryje, synonymá potravín (`kanon`), kusy nahor
+- bezpečnosť: stored XSS v oddelení ručnej položky aj v id zásoby, poškodený vlastný recept,
+  falošné „🟢 Synchronizované“, Nastavenia zvierajú čísla
+- Plán: „↩ Späť“, ✕ do „⋯ viac“, 🎲 podľa pravidiel generátora, 🔒 zámky a kotvy, pravidlá
+  dní v bloku, „Dorovnať“ vypína len faktor, prvý deň „preč“, „Skopírovať minulý týždeň“
+- okná ako dialógy s pascou fokusu, Späť/Escape zatvoria najvrchnejšiu vrstvu, hodnotenie
+  klávesnicou, fokus po prekreslení, časovače vo varení podľa hodín, dotykové ciele, indikátor štartu
+- hľadanie tvarom slova (mäso ≠ maslo), synonymá, „bez X“, relevancia, bez kúpených výrobkov
+- nové: nákup po várkach, „📥 Kúpené do špajze“, „dokúpiť +X“, ✏️ úprava vlastného receptu
+- dáta receptov: žargón „vlna N“ zo `zdroj`, rodiny zdrojov 22 → 17, 7 chybných receptov,
+  tlač receptu bez prázdnej strany
 
 **Mobilný UX audit zo 6. 9. 2026** (`.impeccable/critique/2026-09-06T14-25-35Z__kucharka-html.md`,
 Nielsen 24/40, technický audit 12/20) — opravené v tej istej vlne:
@@ -672,9 +757,8 @@ Otvorené je toto:
    stále otvorené; pozor na poradie top-level `const`-ov (funkcie sú hoistnuté, konštanty nie).
 8. **Nové top-level konštanty nie sú v `EXPORT_TAIL`** (`_memoMaso`, `_memoBaza`, `GEN_SK`,
    `PAMAT_STUPNE`, `KCAL_PASMO`, `VLAKNINA_CIEL`). Žiadny test ich zatiaľ nepotrebuje.
-9. **Profil so 6 slotmi** (Desiata, Olovrant) nie je premeraný ani po jednej vlne.
-   `SLOT_PODIEL`, `VLAKNINA_CIEL` aj `_cenovyStrop` sa normalizujú počtom slotov, takže *by* mal
-   sedieť — ale je to nepremerané.
+9. ~~Profil so 6 slotmi nepremeraný~~ — premerané 30. 9.: 42/42 dní v ±10 % kcal, poradie 42/42,
+   bielkoviny 109–120 g.
 10. **Dve otvorené záložky sa navzájom prepíšu** — `app.js` nemá listener na `storage`
     a `uloz()` serializuje celý `S`.
 11. **`zjednotBloky()`** („Zjednotiť bloky" v UI) skopíruje prvý deň bloku na ostatné **vrátane
@@ -689,21 +773,21 @@ Otvorené je toto:
     Appka má ručný formulár „+ Nový recept" (aj s fotkou z mobilu cez `nrFotoZmena`, canvas
     320×180 WebP, nič sa neposiela von). Import robí Claude mimo appky — píš to tak všade.
 14. **`.ics` export plánu** chýba (tlačidlo v menu v šablóne + ~20 riadkov).
-15. **Modály nemajú `role="dialog"`, `aria-modal` ani focus trap** (overených 6 kontajnerov).
-    Fokus dovnútra ide (`_fokusDoModalu`) a vracia sa (`_vratFokus`), ale nič ho tam nedrží:
-    desiaty Tab v detaile receptu vypadne na `body` a číta obsah za prekrytím (WCAG 4.1.2 A).
-    Najlacnejšie: `role="dialog" aria-modal="true" aria-labelledby` + cyklenie Tabu
-    v existujúcom keydown listeneri. Alternatíva s nulovým JS: natívny `<dialog>` + `showModal()`.
-16. **Pri 320 px v Kuchyni (1,5×) preteká Domov +10, Nákup +4 a Výživa +37 px.** Na cieľových
-    393 aj 360 px je pretečenie nulové vo všetkých štyroch režimoch. Vzor je vždy ten istý —
-    `flex:1` bez `min-width:0`; oplatí sa prejsť zvyšné výskyty v šablóne.
-17. **Poistky merajú deklarácie, nie vyrenderovanú stránku.** Tri P1 zo 6. 9. prešli cez zelenú
-    sadu 268 kontrol: `kontrast_bloky.py` číta tokeny (neuvidí `::placeholder`, ani že sa celá
-    tmavá sada nepoužije), `test_ux.js` stráži z-index dialógu nad varením (ale nie fokus doň).
-    Chýba sonda nad `getComputedStyle` skutočne vykreslenej stránky — E2E harness na to existuje,
-    sú to ~40 riadkov. Bez nej sa tá istá trieda chýb vráti.
+15.–17. ~~Modály bez dialógu, 320 px pretok, poistky len nad deklaráciami~~ — vyriešené v32
+    (`VRSTVY`/`_syncModal`, 0 px na 320/360/393, sonda kontrastu v `09-pristupnost.js`).
 18. **`.odd` sekcie v Nákupe majú layoutovú škatuľu aj zavreté.** Obsah zavretého
     `<details class="odd">` sa nekreslí ani netrafí kliknutím a Tab ho preskočí
     (`content-visibility:hidden`), ale `getBoundingClientRect()` naň vracia nenulový obdĺžnik
     mimo rodiča. Nie je to chyba pre používateľa — je to pasca pre merací skript.
     Sondy na poradie fokusu preto píš cez **skutočný Tab**, nie cez `querySelectorAll` + rect.
+19. **Diéty v PRÍLOHÁCH netesnia (P0 z auditu 30. 9.)** — pri „Bez lepku“ 33 z 336 slotov dostalo
+    lepkovú prílohu (bageta k nátierke, `prf:cestoviny`), pri zakázaných „cestoviny, zemiaky“ 20.
+    `prilohaPre`/`PRILOHY`/recept-prílohy nevolajú `prejdeProfil`. Čaká na dokončenie funkcie
+    „recepty ako prílohy podľa kuchyne“ (`PRILOHY_RECEPTY`). Doplnky snacku už diétu rešpektujú.
+20. **Rozpočet „Úsporne“ ≈ „Bežne“** (−1 až −6 %): katalóg má cenovú podlahu ~100 € za týždeň
+    pre 2 osoby; viac sa z neho nevytlačí. Rozlíšenie úrovní by chcelo lacnejšie recepty.
+21. **Dáta:** duplicitný snack Eidam (`kup-eidam-30-platky` vs `kup-eidam-platky`); „Chilli omáčka“
+    sa páruje na čerstvé chilli; importy z Varechy majú miestami `popis`/`tipy`/`tagy` z iného
+    receptu; `ZDROJE.json` má 101 popisov fotiek s „(AGENTS.md: Credit…)“, ktoré vidí používateľ.
+22. **Nákup po várkach** prebytok balenia z A+B pre C neodhaduje (rieši sa „📥 Kúpené do
+    špajze“); ručné položky sa do špajze nepresúvajú; zoznam v Špajzi synonymá vizuálne nezoskupuje.

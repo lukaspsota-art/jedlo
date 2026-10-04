@@ -2,14 +2,20 @@
   "id": "kuracie-na-sposob-vindaloo",
   "nazov": "Kuracie na spôsob vindaloo",
   "kategoria": "Hlavné jedlo",
-  "kuchyna": "Slovenská",
+  "kuchyna": "Indická",
   "zdroj": "BBC Good Food – Chicken vindaloo",
   "zdroj_url": "https://www.bbcgoodfood.com/recipes/chicken-vindaloo",
   "porcie": 4,
   "cas": "45 min",
-  "kcal_na_porciu": 179,
+  "kcal_na_porciu": 701,
   "popis": "Poriadne pálivé domáce kuracie vindaloo s množstvom aromatických korenín. Podávaj s ryžou alebo plackovým chlebom.",
   "ingrediencie": [
+    {
+      "nazov": "Kuracie stehná",
+      "mnozstvo": 1,
+      "jednotka": "kg",
+      "poznamka": "vykostené, bez kože, na kocky"
+    },
     {
       "nazov": "Slnečnicový olej",
       "mnozstvo": 4,
@@ -20,7 +26,7 @@
       "nazov": "Škorica",
       "mnozstvo": 1,
       "jednotka": "ks",
-      "poznamka": "stick lightly bruised or drvená"
+      "poznamka": "tyčinka, zľahka rozdrvená"
     },
     {
       "nazov": "Čili vločky",
@@ -50,7 +56,7 @@
       "nazov": "Koriander",
       "mnozstvo": null,
       "jednotka": "podľa chuti",
-      "poznamka": "voliteľné, čerstvá chilli a warmed flatbreads or rice"
+      "poznamka": "na ozdobu; podávaj s čerstvým chilli a teplými plackami alebo ryžou"
     },
     {
       "nazov": "Citrónová šťava",
@@ -80,13 +86,13 @@
       "nazov": "Cesnak",
       "mnozstvo": 1,
       "jednotka": "ČL",
-      "poznamka": "drvená or nastrúhaná garlic approx 2-3 veľká"
+      "poznamka": "rozdrvený alebo nastrúhaný (2–3 veľké strúčiky)"
     },
     {
       "nazov": "Zázvor",
       "mnozstvo": 2,
       "jednotka": "ČL",
-      "poznamka": "finely nastrúhaná"
+      "poznamka": "najemno nastrúhaný"
     },
     {
       "nazov": "Garam masala",

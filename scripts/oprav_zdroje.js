@@ -18,8 +18,9 @@ const ZDROJE = {
   "domace-hovadzie-burgery": ["Wikibooks Cookbook – Hamburger (CC BY-SA)", "https://en.wikibooks.org/wiki/Cookbook:Hamburger"],
   "cacio-e-pepe": ["BBC Good Food – Cacio e pepe", "https://www.bbcgoodfood.com/recipes/cacio-e-pepe"],
   // kanonické jedlo, povolenú predlohu som nenašiel → pravdivý, nie vymyslený zdroj
-  "thai-basil-pork": ["Vlastná zostava (kanonické jedlo Pad Krapow Moo)", ""],
-  "bageta-udena-sunka-gouda": ["Vlastná zostava (skladaná bageta, bez prevzatej predlohy)", ""],
+  // (do 4. 10. 2026 „Vlastná zostava (…)" — v Nastaveniach to bola druhá rodina vlastných receptov)
+  "thai-basil-pork": ["Kuchárka Jedlo — vlastný recept", ""],
+  "bageta-udena-sunka-gouda": ["Kuchárka Jedlo — vlastný recept", ""],
 };
 
 // zdroj „internet (@handle)“ → odkaz na profil, aby atribúcia viedla niekam

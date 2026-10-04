@@ -123,7 +123,7 @@ function load(opts = {}) {
 
   // originály renderov nechávame dostupné pre výkonnostné testy
   ctx.__orig = {};
-  ["renderGrid", "renderNakup", "renderVyziva", "renderDash", "renderPlan"].forEach(f => { ctx.__orig[f] = ctx[f]; });
+  ["renderGrid", "renderNakup", "renderVyziva", "renderDash", "renderPlan", "renderSyncStav"].forEach(f => { ctx.__orig[f] = ctx[f]; });
 
   // renderery preč — testy počítajú, nekreslia
   ["renderPlan", "renderDash", "renderNakup", "renderVyziva", "renderGrid", "renderSpajza",

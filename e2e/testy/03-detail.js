@@ -122,6 +122,18 @@ module.exports = {
       `alergény sa zobrazia ako značky (${badge.alerg.join(", ")})`, JSON.stringify(badge));
     await zavriOkna(page);
 
+    // ⚠ a --signal len pri zrážke s profilom — a zrážka to povie aj textom, nie len farbou
+    const zrazka = await page.evaluate(() => {
+      const r = RECEPTY.find((x) => alergenyReceptu(x).includes("mlieko"));
+      const povodne = S.profil.mlieko; const zr = () => [...document.querySelectorAll("#modal .badge.alerg.zrazka")].map((b) => b.textContent.trim());
+      S.profil.mlieko = false; window.otvor(r.id); const bez = zr();
+      S.profil.mlieko = true; window.otvor(r.id); const s = zr();
+      S.profil.mlieko = povodne; window.zavri();
+      return { bez, s };
+    });
+    await t.ok(zrazka.bez.length === 0 && zrazka.s.some((x) => /mlieko.*bez laktózy/.test(x)),
+      "alergén je výstraha len pri zrážke s profilom (mlieko × „Bez laktózy“)", JSON.stringify(zrazka));
+
     const vegId = await page.evaluate(() => { const r = RECEPTY.find((x) => diety(x).veg && diety(x).bezlepku); return r ? r.id : null; });
     if (vegId) {
       await page.evaluate((i) => window.otvor(i), vegId);

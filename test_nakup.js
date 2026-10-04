@@ -310,7 +310,7 @@ ok("neznáma jednotka dá 0 g a gramyNaJed vráti null (nie tichý odhad)", () =
 
 // ─────────────────────────────────────────────────────────── nedeliteľné jednotky
 console.log("\nNedeliteľné jednotky — zaokrúhľuje sa až súčet");
-ok("3 recepty po 0,7 ks dajú 2 ks (2,1 zaokrúhlené raz), nie 3× po 1 ks", () => {
+ok("3 recepty po 0,7 ks: kusy sa zaokrúhlia NAHOR a raz, na súčte (nie po receptoch)", () => {
   const a = fakeRecept("Vajcia A", [{ nazov: "Vajce", mnozstvo: 0.7, jednotka: "ks" }]);
   const b = fakeRecept("Vajcia B", [{ nazov: "Vajce", mnozstvo: 0.7, jednotka: "ks" }]);
   const c = fakeRecept("Vajcia C", [{ nazov: "Vajce", mnozstvo: 0.7, jednotka: "ks" }]);
@@ -320,10 +320,11 @@ ok("3 recepty po 0,7 ks dajú 2 ks (2,1 zaokrúhlené raz), nie 3× po 1 ks", ()
   const t = cistyText(it.mnoz);
   const spolu = it.gramy / p.g_za_ks;                       // presný súčet kusov naprieč receptami
   assert.ok(Math.abs(spolu - Math.round(spolu)) > 0.05, "test potrebuje neceločíselný súčet, je " + spolu);
-  assert.ok(new RegExp("^" + Math.round(spolu) + " ks").test(t),
-    "má vyjsť " + Math.round(spolu) + " ks (súčet " + spolu.toFixed(2) + " zaokrúhlený RAZ), je: " + t);
-  const poReceptoch = 3 * Math.round(spolu / 3);            // keby sa zaokrúhľovalo v každom recepte
-  assert.notStrictEqual(Math.round(spolu), poReceptoch,
+  // audit 30. 9.: kusy sa kupujú nahor (1,32 ks čakanky = 2 ks, nie 1) — v riadku je to „treba N ks"
+  assert.ok(new RegExp("(^|treba )" + Math.ceil(spolu) + " ks").test(t),
+    "má vyjsť " + Math.ceil(spolu) + " ks (súčet " + spolu.toFixed(2) + " zaokrúhlený nahor RAZ), je: " + t);
+  const poReceptoch = 3 * Math.ceil(spolu / 3);             // keby sa zaokrúhľovalo v každom recepte
+  assert.notStrictEqual(Math.ceil(spolu), poReceptoch,
     "test nerozlíši oba spôsoby zaokrúhlenia (" + spolu + ")");
 });
 ok("zaokrúhlenie kusov nemení gramáž ani cenu (tá ide zo súčtu, nie zo zaokrúhlenia)", () => {
@@ -573,7 +574,10 @@ console.log("\n„Mám doma“ vs zakázané suroviny — opačná cena chyby");
 ok("„med“ nechytí „medvedí cesnak“ v „Mám doma“ (ale v zákazoch áno)", () => {
   assert.strictEqual(app.jeDoma("Medvedí cesnak", ["med"]), false, "med označil medvedí cesnak ako „máš doma“");
   assert.strictEqual(app.jeDoma("Medovka", ["med"]), false, "med označil medovku");
-  assert.strictEqual(app.obsahujeSurovinu("Medvedí cesnak", ["med"]), true, "zákazy majú blokovať radšej viac");
+  // v33: obsahujeSurovinu páruje TVAR slova (med ≠ medvedí); zákaz blokuje aj tak — podreťazcom v zakazaneChyta
+  const zak = app.S.profil.zakazane; app.S.profil.zakazane = "med";
+  assert.strictEqual(app.zakazaneChyta({ nazov: "x", ingrediencie: [{ nazov: "Medvedí cesnak" }], tagy: [] }), true, "zákazy majú blokovať radšej viac");
+  app.S.profil.zakazane = zak;
 });
 ok("„Mám doma“ ďalej chytá skloňovanie vlastnej suroviny", () => {
   assert.strictEqual(app.jeDoma("Med kvetový", ["med"]), true);
@@ -604,6 +608,338 @@ ok("každá položka špajze patrí práve do jednej sekcie miesta", () => {
   miestne.forEach(s => s.polozky.forEach(x => pocty[x.id] = (pocty[x.id] || 0) + 1));
   S.spajza.forEach(x => assert.strictEqual(pocty[x.id], 1, "položka " + x.nazov + " je v " + (pocty[x.id] || 0) + " sekciách"));
   S.spajza = [];
+});
+
+// ════════════════════════════════════════════════════════════════════════════════════════════
+// Audit 30. 9. 2026 — Balík 1 (dáta a bezpečnosť)
+// ════════════════════════════════════════════════════════════════════════════════════════════
+console.log("\nAudit 30. 9. — špajza, odpis, Nákup");
+ok("odpis po varení z detailu berie porcie bloku aj veľkosť porcie (2 → 4 porcie × 95 % = 266 g)", () => {
+  const r = fakeRecept("Odpis z plánu", [{ nazov: "Ryža", mnozstvo: 140, jednotka: "g" }]); r.porcie = 2;
+  require("vm").runInContext("aktualny=receptById('" + r.id + "'); aktPorcie=4; aktVelkost=0.95;", app);
+  S.spajza = [{ id: 1, nazov: "Ryža", mnozstvo: 1000, jednotka: "g", kluc: "ryža" }];
+  app.odpisRecept(r);                                  // tak ho volá varenie: bez porcií, zo stavu detailu
+  assert.ok(Math.abs(S.spajza[0].mnozstvo - (1000 - 266)) < 0.01, "zostalo " + S.spajza[0].mnozstvo + " g, čakané 734");
+  require("vm").runInContext("aktualny=null;", app);
+  S.spajza = [];
+});
+ok("špajza páruje po potravine a slovách, nie podreťazcom", () => {
+  const sedi = (zasoba, ing) => app.spajzaSedi({ nazov: zasoba }, ing, app.najdiPotravinu(ing));
+  [["Mlieko", "Kokosové mlieko"], ["Maslo", "Arašidové maslo"], ["Cesnak", "Cesnakový dresing"], ["Olej", "Sezamový olej"]]
+    .forEach(([z, i]) => assert.strictEqual(sedi(z, i), false, "„" + z + "“ v špajzi pokrylo „" + i + "“"));
+  [["Mlieko", "Mlieko polotučné"], ["Vajcia", "Vajcia M"], ["Cesnak", "Strúčiky cesnaku"]]
+    .forEach(([z, i]) => assert.strictEqual(sedi(z, i), true, "„" + z + "“ v špajzi nepokrylo „" + i + "“"));
+  S.spajza = [{ id: 1, nazov: "Mlieko", mnozstvo: 1, jednotka: "l" }];
+  app.odpisRecept({ id: "_kok", nazov: "Kari", porcie: 1, ingrediencie: [{ nazov: "Kokosové mlieko", mnozstvo: 400, jednotka: "ml" }] }, 1, 1);
+  assert.strictEqual(S.spajza[0].mnozstvo, 1, "kokosové mlieko sa odpísalo z kravského");
+  S.spajza = [];
+});
+ok("jedna zásoba sa rozdelí medzi riadky nákupu raz (nie celá na každý)", () => {
+  // názvy mimo databázy potravín — páruje sa menom, takže zásoba sedí na oba riadky
+  const r = fakeRecept("Dva riadky", [{ nazov: "Qqzx zmes červená", mnozstvo: 300, jednotka: "g" },
+    { nazov: "Qqzx zmes biela", mnozstvo: 400, jednotka: "g" }]);
+  planujLen([r]);                                     // 2 porcie → 600 g + 800 g
+  S.spajza = [{ id: 1, nazov: "Qqzx zmes", mnozstvo: 500, jednotka: "g" }];
+  const rows = app.nakupItems().filter(x => /Qqzx/.test(x.nazov));
+  assert.strictEqual(rows.length, 2, "test čaká dva riadky: " + rows.map(x => x.nazov));
+  const odratane = rows.reduce((a, x) => a + (x.vSpajzi ? x.gramy : x.zoSpajze), 0);
+  assert.ok(Math.abs(odratane - 500) < 0.01, "500 g zásoby odrátalo z nákupu " + odratane + " g");
+  S.spajza = [];
+});
+ok("expirovaná zásoba sa neodpisuje prvá a „Doplniť zásoby“ ju nepočíta", () => {
+  const r = fakeRecept("Odpis exp", [{ nazov: "Losos", mnozstvo: 400, jednotka: "g" }]);
+  S.spajza = [{ id: 1, nazov: "Losos", mnozstvo: 500, jednotka: "g", kluc: "losos", expiry: "2020-01-01" },
+              { id: 2, nazov: "Losos", mnozstvo: 500, jednotka: "g", kluc: "losos", expiry: "2099-01-01" }];
+  app.odpisRecept(r, 1, 1);
+  assert.strictEqual(S.spajza.find(x => x.id === 1).mnozstvo, 500, "minula sa expirovaná zásoba");
+  assert.strictEqual(S.spajza.find(x => x.id === 2).mnozstvo, 100, "platná zásoba sa neminula");
+  assert.strictEqual(app.chybaDoMinima({ nazov: "Ryža", mnozstvo: 800, jednotka: "g", min: 500, expiry: "2020-01-01" }), 500,
+    "expirovaná ryža nad minimom sa tvári ako zásoba");
+  assert.strictEqual(app.chybaDoMinima({ nazov: "Ryža", mnozstvo: 800, jednotka: "g", min: 500 }), 0);
+  S.spajza = [];
+});
+ok("oddelenie a id ručnej položky sa v Nákupe vykreslia ako text (stored XSS)", () => {
+  planujLen([]);
+  S.nakupManual = [{ id: "x');window.__xss=1;('", nazov: "Papier", odd: "<img src=x onerror=window.__xss=1>", done: false }];
+  app.__orig.renderNakup();
+  const html = app.document.getElementById("nakup-list").innerHTML;
+  assert.ok(!/<img/i.test(html), "oddelenie sa vložilo ako HTML: " + html.slice(0, 200));
+  const onclick = html.replace(/&#39;/g, "'");          // tak ho prehliadač dekóduje pred spustením JS
+  assert.ok(!/[^\\]'\);window\.__xss/.test(onclick), "id ručnej položky ukončilo JS reťazec v onclick");
+  const n = app.normalizujStav({ nakupManual: [{ id: "m1", nazov: "A", odd: { x: 1 } }, { nazov: "bez id" }] }).nakupManual;
+  assert.strictEqual(n.length, 1, "položka bez id prežila normalizáciu");
+  assert.strictEqual(n[0].odd, undefined, "oddelenie, ktoré nie je reťazec, prežilo normalizáciu");
+  S.nakupManual = [];
+});
+
+// ════════════════════════════════════════════════════════════════════════════════════════════
+// Audit 30. 9. 2026 — Balík 5 (Nákup a Špajza): várky, kúpené do špajze, synonymá, nálezy 1–11
+// ════════════════════════════════════════════════════════════════════════════════════════════
+// bloky testu: A = Po–Ut (0,1), B = St–Pi (2,3,4), C = So–Ne (5,6)
+function planujVarky(polozky) {
+  S.plan = {}; S.planF = {}; S.spajza = []; S.domaNakup = ""; S.nakupCheck = {}; S.nakupManual = []; S.nakupVarky = {};
+  S.daySloty = {}; S.dayPpl = {}; S.slotPpl = {}; S.tyzdenProfil = {};
+  polozky.forEach(([di, slot, r]) => { const iso = app.datumPre(di); S.plan[iso] = S.plan[iso] || {}; S.plan[iso][slot] = [r.id]; });
+}
+const vRiadok = (sel, nazov) => app.nakupItems(sel).find(r => r.nazov === nazov);
+const htmlNakupu = () => { app.__orig.renderNakup(); return app.document.getElementById("nakup-list").innerHTML; };
+
+console.log("\nBalík 5 — A: nákup po várkach");
+ok("výber várky C ukáže presne potrebu bloku C (a nič z iných várok)", () => {
+  const rA = fakeRecept("Várka A", [{ nazov: "Losos", mnozstvo: 100, jednotka: "g" }]);
+  const rC = fakeRecept("Várka C", [{ nazov: "Losos", mnozstvo: 150, jednotka: "g" }, { nazov: "Ryža", mnozstvo: 80, jednotka: "g" }]);
+  planujVarky([[0, "Obed", rA], [5, "Obed", rC]]);
+  const G = app.nakupPolozky().grp["losos"];
+  assert.deepStrictEqual(Object.keys(G.po).sort(), ["0", "2"], "losos má byť vo várkach A a C");
+  const c = vRiadok([2], "Losos");
+  assert.ok(Math.abs(c.gramy - G.po[2].grams) < 1e-6, "várka C: " + c.gramy + " g, potreba C " + G.po[2].grams);
+  assert.strictEqual(JSON.stringify(c.bloky), "[2]", "znaky blokov vo výbere C");
+  assert.ok(!vRiadok([0], "Ryža"), "ryža je len vo várke C, vo výbere A nemá byť");
+  assert.ok(Math.abs(vRiadok(null, "Losos").gramy - G.grams) < 1e-6, "celý týždeň = A + C");
+});
+ok("po nákupe na A+B ukáže C celú potrebu C mínus špajza — kúpené pre A sa pri C neráta ako kúpené", () => {
+  const G = app.nakupPolozky().grp["losos"];
+  S.nakupVarky = { od: S.viewOd, bl: [0, 1] };
+  assert.strictEqual(JSON.stringify(app.nakupVyber()), "[0,1]");
+  app.checkNakup("losos", true);
+  assert.ok(vRiadok([0, 1], "Losos").ck, "vo výbere A+B je losos kúpený");
+  S.nakupVarky = { od: S.viewOd, bl: [2] };
+  const c = vRiadok([2], "Losos");
+  assert.ok(!c.ck && !c.dokupit, "pre C nie je nič kúpené: " + JSON.stringify({ ck: c.ck, dokupit: c.dokupit }));
+  assert.ok(Math.abs(c.gramy - G.po[2].grams) < 1e-6, "C má ukázať celú potrebu C, ukazuje " + c.gramy);
+  // zásoba sa míňa chronologicky, ale len na NEKÚPENÉ — A je kúpené, takže 100 g ide na C
+  S.spajza = [{ id: 1, nazov: "Losos", mnozstvo: 100, jednotka: "g", kluc: "losos" }];
+  assert.ok(Math.abs(vRiadok([2], "Losos").gramy - (G.po[2].grams - 100)) < 1e-6, "špajza sa neodrátala z C");
+  const v = vRiadok(null, "Losos");                    // celý týždeň: A kúpené, chýba C mínus špajza
+  assert.ok(!v.ck && v.dokupit && Math.abs(v.gramy - (G.po[2].grams - 100)) < 1e-6, "celý týždeň: " + JSON.stringify({ ck: v.ck, dokupit: v.dokupit, g: v.gramy }));
+  S.spajza = [];
+});
+ok("všetky várky = celý týždeň; výber z iného týždňa a bez blokov sa neuplatní", () => {
+  const zoz = app.RECEPTY.filter(r => (r.ingrediencie || []).some(i => i.mnozstvo != null)).slice(0, 6);
+  planujVarky([[0, "Obed", zoz[0]], [1, "Večera", zoz[1]], [2, "Obed", zoz[2]], [4, "Večera", zoz[3]], [5, "Obed", zoz[4]], [6, "Raňajky", zoz[5]]]);
+  const a = app.nakupItems(null), b = app.nakupItems([0, 1, 2]);
+  assert.strictEqual(JSON.stringify(b.map(r => r.key + "|" + r.mnoz + "|" + r.gramy)), JSON.stringify(a.map(r => r.key + "|" + r.mnoz + "|" + r.gramy)));
+  S.nakupVarky = { od: S.viewOd, bl: [0, 1, 2] }; assert.strictEqual(app.nakupVyber(), null, "všetky várky = celý týždeň");
+  S.nakupVarky = { od: "2026-08-10", bl: [2] }; assert.strictEqual(app.nakupVyber(), null, "výber z iného týždňa platí");
+  S.nakupVarky = { od: S.viewOd, bl: [2] };
+  const h = htmlNakupu();
+  assert.ok(/id="varka-2"[^>]*aria-pressed="true"/.test(h) && /id="varka-0"[^>]*aria-pressed="false"/.test(h), "prepínače várok: " + h.slice(0, 400));
+  assert.ok(!/chip/.test((h.match(/<div class="nak-varky"[\s\S]*?<\/div>/) || [""])[0]), "várky nesmú byť .chip (opačný význam v generátore)");
+  S.blokMode = false;
+  assert.strictEqual(app.nakupVyber(), null, "bez blokov sa výber neuplatní");
+  assert.ok(!/nak-varky/.test(htmlNakupu()), "bez blokov sa výber nezobrazí");
+  S.blokMode = true; S.nakupVarky = {};
+});
+
+console.log("\nBalík 5 — #4: odškrtnutie si pamätá množstvo");
+ok("plán po odškrtnutí narastie → riadok sa vráti ako „dokúpiť +X“", () => {
+  const r1 = fakeRecept("Paprika 1", [{ nazov: "Paprika červená", mnozstvo: 150, jednotka: "g" }]);
+  const r2 = fakeRecept("Paprika 2", [{ nazov: "Paprika červená", mnozstvo: 30, jednotka: "g" }]);
+  planujVarky([[0, "Obed", r1]]);
+  const pred = vRiadok(null, "Paprika červená").gramy;
+  app.checkNakup("paprika", true);
+  assert.ok(vRiadok(null, "Paprika červená").ck, "po odškrtnutí má byť kúpená");
+  S.plan[app.datumPre(0)]["Večera"] = [r2.id];
+  const spolu = app.nakupPolozky().grp["paprika"].grams;
+  const po = vRiadok(null, "Paprika červená");
+  assert.ok(!po.ck && po.dokupit, "po náraste plánu ostala „kúpená“: " + JSON.stringify({ ck: po.ck, dokupit: po.dokupit }));
+  assert.ok(Math.abs(po.gramy - (spolu - pred)) < 1e-6, "dokúpiť " + po.gramy + " g, čakané " + (spolu - pred));
+  assert.ok(/dokúpiť \+/.test(app.riadokNakup(po)), "riadok nehovorí „dokúpiť“");
+});
+ok("kúpené balenie kryje rast plánu — 1 kg cibule ostane kúpený, kým plán neprekročí 1 kg", () => {
+  const r1 = fakeRecept("Cibuľa 1", [{ nazov: "Cibuľa", mnozstvo: 400, jednotka: "g" }]);
+  const r2 = fakeRecept("Cibuľa 2", [{ nazov: "Cibuľa", mnozstvo: 50, jednotka: "g" }]);
+  planujVarky([[0, "Obed", r1]]);
+  assert.ok(vRiadok(null, "Cibuľa").gramy < 1000, "test čaká potrebu pod 1 kg");
+  app.checkNakup("cibuľa", true);
+  S.plan[app.datumPre(0)]["Večera"] = [r2.id];
+  assert.ok(app.nakupPolozky().grp["cibuľa"].grams <= 1000, "test čaká stále do 1 kg");
+  assert.ok(vRiadok(null, "Cibuľa").ck, "1 kg balenie pokrýva aj väčšiu potrebu, netreba dokupovať");
+});
+
+console.log("\nBalík 5 — B: „Kúpené do špajze“");
+ok("odškrtnuté prejdú do špajze (balenie, jednotka, miesto, expirácia), zlúčia sa so zásobou a dajú sa vrátiť", () => {
+  const r = fakeRecept("Nákup do špajze", [{ nazov: "Vajcia", mnozstvo: 3, jednotka: "ks" }, { nazov: "Cibuľa", mnozstvo: 300, jednotka: "g" },
+    { nazov: "Olivový olej", mnozstvo: 2, jednotka: "PL" }, { nazov: "Losos", mnozstvo: 200, jednotka: "g" }, { nazov: "Soľ", mnozstvo: null, jednotka: "" }]);
+  planujVarky([[0, "Obed", r]]);
+  S.spajza = [{ id: 7, nazov: "Vajíčka", kluc: "vajíčk", mnozstvo: 4, jednotka: "ks", miesto: "Chladnička", expiry: "2099-01-01", min: 0 }];
+  const losos = vRiadok(null, "Losos").gramy;
+  ["vajc", "cibuľa", "olivový olej", "losos"].forEach(k => app.checkNakup(k, true));
+  const t0 = app.toast; let posl = null; app.toast = (m, a) => { posl = { m, a }; };
+  app.kupeneDoSpajze();
+  const spat = posl && posl.a;
+  const z = n => S.spajza.filter(x => x.nazov === n);
+  assert.strictEqual(S.spajza.find(x => x.id === 7).mnozstvo, 14, "vajcia (1 balenie = 10 ks) sa nepripočítali k zásobe „Vajíčka“: " + JSON.stringify(S.spajza));
+  assert.strictEqual(z("Vajcia").length, 0, "synonymum vytvorilo druhú zásobu");
+  assert.ok(S.spajza.find(x => x.id === 7).expiry < "2099-01-01", "zlúčená zásoba má mať skoršiu expiráciu");
+  const cib = z("Cibuľa")[0];
+  assert.ok(cib && cib.mnozstvo === 1000 && cib.jednotka === "g" && cib.miesto === "Špajza" && /^\d{4}-\d{2}-\d{2}$/.test(cib.expiry), "cibuľa: " + JSON.stringify(cib));
+  const olej = z("Olivový olej")[0];
+  const po = app.najdiPotravinu("Olivový olej");
+  assert.ok(olej && olej.jednotka === "ml" && olej.mnozstvo === Math.round(po.balenie_g / po.hustota), "olej (1 fľaša) má ísť v ml: " + JSON.stringify(olej));
+  const los = z("Losos")[0];
+  assert.ok(los && Math.abs(los.mnozstvo - Math.round(losos)) < 1e-9 && los.miesto === "Chladnička", "losos: " + JSON.stringify(los));
+  assert.strictEqual(z("Soľ").length, 0, "neodškrtnuté dochucovadlo sa presunulo");
+  assert.strictEqual(Object.keys(S.nakupCheck).length, 0, "presunuté ostali odškrtnuté");
+  assert.ok(vRiadok(null, "Cibuľa").vSpajzi, "presunutú cibuľu má kryť špajza");
+  const dlzka = S.spajza.length;
+  app.kupeneDoSpajze();                                  // druhé ťuknutie nič nezdvojí
+  assert.strictEqual(S.spajza.length, dlzka);
+  assert.ok(spat && /Späť/.test(spat.text), "chýba „↩ Späť“: " + JSON.stringify(posl));
+  spat.fn();
+  assert.strictEqual(S.spajza.length, 1, "↩ Späť nevrátil špajzu");
+  assert.strictEqual(S.spajza[0].mnozstvo, 4);
+  assert.strictEqual(Object.keys(S.nakupCheck).length, 4, "↩ Späť nevrátil odškrtnutie");
+  app.toast = t0; S.spajza = [];
+});
+
+console.log("\nBalík 5 — C: synonymá potravín");
+ok("kanon v potraviny.json ukazuje na existujúcu potravinu, ktorá sama kanon nemá", () => {
+  const k = new Map(app.POTRAVINY.map(p => [p.kluc, p]));
+  const zle = app.POTRAVINY.filter(p => p.kanon != null && (typeof p.kanon !== "string" || !k.has(p.kanon) || k.get(p.kanon).kanon || p.kanon === p.kluc));
+  assert.strictEqual(zle.length, 0, "zlý kanon: " + zle.map(p => p.kluc + " → " + p.kanon).join(", "));
+  assert.ok(app.POTRAVINY.filter(p => p.kanon).length > 50, "synonymá chýbajú");
+});
+ok("vajcia + vajíčka aj rasca + kmín + mletá rasca sú v nákupe JEDEN riadok s jedným balením", () => {
+  const r = fakeRecept("Vajcia a vajíčka", [{ nazov: "Vajcia", mnozstvo: 3, jednotka: "ks" }, { nazov: "Vajíčka", mnozstvo: 2, jednotka: "ks" },
+    { nazov: "Rasca", mnozstvo: 1, jednotka: "ČL" }, { nazov: "Kmín", mnozstvo: 1, jednotka: "ČL" }, { nazov: "Mletá rasca", mnozstvo: 1, jednotka: "ČL" }]);
+  planujVarky([[0, "Obed", r]]);
+  const rows = app.nakupItems();
+  const vaj = rows.filter(x => x.p && x.p.kluc === "vajc");
+  assert.strictEqual(vaj.length, 1, "vajcia v " + vaj.length + " riadkoch");
+  assert.ok(/^1× 10 ks/.test(cistyText(vaj[0].mnoz)), "5 ks na porciu = 1 balenie, je: " + cistyText(vaj[0].mnoz));
+  assert.strictEqual(rows.filter(x => x.p && x.p.kluc === "rasca").length, 1, "rasca v " + rows.filter(x => /rasca|kmín/i.test(x.nazov)).map(x => x.nazov));
+});
+ok("12 cherry paradajok je 12 × 15 g; prepeličie vajcia nesadnú na slepačie", () => {
+  const p = app.najdiPotravinu("Paradajky cherry");
+  assert.strictEqual(app.gramy({ mnozstvo: 12, jednotka: "ks" }, p), 180, "cherry = bežná paradajka 120 g/ks?");
+  assert.strictEqual(app.kanonKluc(app.najdiPotravinu("Cherry paradajky, balenie vanička 500 g").kluc), app.kanonKluc(app.najdiPotravinu("Cherry paradajky").kluc));
+  assert.strictEqual(app.kanonKluc(app.najdiPotravinu("Vajíčka prepeličie").kluc), "prepeličie vajcia");
+  assert.notStrictEqual(app.kanonKluc(app.najdiPotravinu("Vajíčka prepeličie").kluc), app.kanonKluc("vajc"));
+});
+ok("špajza aj „Mám doma“ zoskupujú podľa kanonu, ale prídavné meno („kmínový“) cez synonymum nič nepokryje", () => {
+  const r = fakeRecept("Vajcia doma", [{ nazov: "Vajcia", mnozstvo: 2, jednotka: "ks" }, { nazov: "Rasca", mnozstvo: 1, jednotka: "ČL" }]);
+  planujVarky([[0, "Obed", r]]);
+  S.spajza = [{ id: 1, nazov: "Vajíčka", kluc: "vajíčk", mnozstvo: 30, jednotka: "ks" }];
+  assert.ok(vRiadok(null, "Vajcia").vSpajzi, "„Vajíčka“ v špajzi nepokryli „Vajcia“");
+  S.spajza = []; S.domaNakup = "vajíčka";
+  assert.ok(vRiadok(null, "Vajcia").doma, "„vajíčka“ v Mám doma nepokryli „Vajcia“");
+  S.domaNakup = "kmín";
+  assert.ok(vRiadok(null, "Rasca").doma, "„kmín“ (synonymum) nepokryl rascu");
+  S.domaNakup = "kmínový";
+  assert.ok(!vRiadok(null, "Rasca").doma, "„kmínový“ pokryl rascu cez synonymum");
+  S.domaNakup = "";
+});
+
+console.log("\nBalík 5 — nálezy 1–11");
+ok("#1: počítadlo, prúžok a 🎉 majú jedno pravidlo (dochucovadlá ani špajza ho nezastavia, ručná položka áno)", () => {
+  const r = fakeRecept("Pravidlo", [{ nazov: "Losos", mnozstvo: 200, jednotka: "g" }, { nazov: "Ryža", mnozstvo: 100, jednotka: "g" },
+    { nazov: "Soľ", mnozstvo: null, jednotka: "" }]);
+  planujVarky([[0, "Obed", r]]);
+  S.spajza = [{ id: 1, nazov: "Ryža", kluc: "ryža", mnozstvo: 5000, jednotka: "g" }];
+  app.checkNakup("losos", true);
+  const Z = app.nakupZoznam(null);
+  assert.ok(Z.spolu === 1 && Z.hotovo === 1, "spolu/hotovo: " + Z.spolu + "/" + Z.hotovo);
+  let h = htmlNakupu();
+  assert.ok(/Máš všetko v košíku/.test(h) && /aria-valuenow="1"/.test(h) && /aria-valuemax="1"/.test(h), "🎉 a prúžok nesedia");
+  assert.ok(/<b>1<\/b> \/ 1 v košíku/.test(h), "počítadlo „1 / 1 v košíku“ chýba");
+  assert.ok(/kupeneDoSpajze\(\)/.test(h), "🎉 neponúka „Kúpené do špajze“");
+  S.nakupManual = [{ id: "m1", nazov: "Papier", done: false, tyzden: S.viewOd }];
+  h = htmlNakupu();
+  assert.ok(!/Máš všetko v košíku/.test(h) && /<b>1<\/b> \/ 2 v košíku/.test(h), "neodškrtnutá ručná položka a 🎉");
+  S.nakupManual = []; S.spajza = [];
+});
+ok("#2: kopírovaný zoznam ide po trase s hlavičkami, ručná položka má množstvo, zásoby v oddelení, dochucovadlá na konci", () => {
+  const r = fakeRecept("Text", [{ nazov: "Losos", mnozstvo: 200, jednotka: "g" }, { nazov: "Cibuľa", mnozstvo: 100, jednotka: "g" },
+    { nazov: "Soľ", mnozstvo: null, jednotka: "" }]);
+  planujVarky([[0, "Obed", r]]);
+  S.nakupManual = [{ id: "m1", nazov: "mlieko", mnoz: "2 l", odd: "Mliečne a vajcia", done: false, tyzden: S.viewOd }];
+  S.spajza = [{ id: 3, nazov: "Ryža", kluc: "ryža", mnozstvo: 100, jednotka: "g", miesto: "Špajza", min: 500 }];
+  S.obchod = "kaufland";
+  const t = app.nakupText(), i = h => t.indexOf(h);
+  assert.ok(i("Zelenina a ovocie:") === 0 && i("Zelenina a ovocie:") < i("Mäso a ryby:") && i("Mäso a ryby:") < i("Mliečne a vajcia:"), t.join(" | "));
+  assert.ok(t.includes("mlieko 2 l"), "ručná položka stratila množstvo: " + t.join(" | "));
+  assert.ok(i("Cestoviny a ryža:") > 0 && t[i("Cestoviny a ryža:") + 1] === "Ryža 400 g", "zásoba pod minimom: " + t.join(" | "));
+  assert.ok(i("Dochucovadlá (len ak došli):") > i("Cestoviny a ryža:") && /^Soľ/.test(t[t.length - 1]), "dochucovadlá: " + t.join(" | "));
+  assert.strictEqual(t.poloziek, 5, "počet položiek bez hlavičiek");
+  S.nakupManual = []; S.spajza = [];
+});
+ok("#3: zásoba pod minimom sa dá odškrtnúť a s položkou z plánu sa zlúči (olivový olej nie dvakrát)", () => {
+  const r = fakeRecept("Olej", [{ nazov: "Olivový olej", mnozstvo: 3, jednotka: "PL" }]);
+  planujVarky([[0, "Obed", r]]);
+  S.spajza = [{ id: 4, nazov: "Olivový olej", kluc: "olivový olej", mnozstvo: 10, jednotka: "ml", miesto: "Špajza", min: 500 },
+              { id: 5, nazov: "Ryža", kluc: "ryža", mnozstvo: 100, jednotka: "g", miesto: "Špajza", min: 500 }];
+  const vsetky = app.nakupZoznam(null).oddelenia.flatMap(o => o.rows);
+  const oleje = vsetky.filter(x => /olej/i.test(x.nazov));
+  assert.strictEqual(oleje.length, 1, "olej v " + oleje.length + " riadkoch");
+  assert.ok(oleje[0].doplnit && /doplniť zásobu/.test(app.riadokNakup(oleje[0])), "riadok oleja nehovorí o doplnení zásoby");
+  const ryza = vsetky.find(x => x.low && x.nazov === "Ryža");
+  assert.ok(ryza && /<input type="checkbox"/.test(app.riadokNakup(ryza)), "zásoba pod minimom nemá políčko");
+  assert.strictEqual(ryza.odd, "Cestoviny a ryža", "zásoba pod minimom nie je vo svojom oddelení");
+  app.checkNakup(ryza.key, true);
+  assert.ok(app.nakupZoznam(null).hotove.some(x => x.low && x.nazov === "Ryža"), "odškrtnutá zásoba nie je v „Už máme“");
+  S.spajza = [];
+});
+ok("#5: ručná položka patrí týždňu, „2 l mlieka“ sa rozparsuje, dvakrát „mlieko“ sa zlúči, prázdne pole niečo povie", () => {
+  planujVarky([]);
+  const t0 = app.toast; let posl = null; app.toast = m => { posl = m; };
+  app.pridajNakupPolozku("2 l mlieka");
+  assert.deepStrictEqual([S.nakupManual[0].nazov, S.nakupManual[0].mnoz, S.nakupManual[0].tyzden], ["mlieka", "2 l", S.viewOd]);
+  app.pridajNakupPolozku("Mlieko 1 l");
+  assert.strictEqual(S.nakupManual.length, 1, "druhé „mlieko“ je nová položka: " + JSON.stringify(S.nakupManual));
+  assert.strictEqual(S.nakupManual[0].mnoz, "3 l");
+  app.pridajNakupPolozku("Celozrnný chlieb"); app.pridajNakupPolozku("Chlieb");
+  assert.strictEqual(S.nakupManual.length, 3, "„Chlieb“ sa zlúčil s „Celozrnný chlieb“");
+  app.pridajNakupPolozku("100 % pomarančový džús");
+  assert.deepStrictEqual([S.nakupManual[3].nazov, S.nakupManual[3].mnoz], ["100 % pomarančový džús", ""]);
+  posl = null; app.pridajNakupPolozku("");
+  assert.ok(/Napíš/.test(posl || ""), "prázdne pole nič nepovedalo");
+  S.nakupManual = [{ id: "a", nazov: "Papier", done: true, tyzden: S.viewOd }, { id: "b", nazov: "Mydlo", done: false, tyzden: S.viewOd }];
+  const tyz = S.viewOd; S.viewOd = app.pridajDni(tyz, 7);
+  const Z = app.nakupZoznam(null);
+  const vidno = Z.oddelenia.flatMap(o => o.rows).concat(Z.hotove).filter(x => x.man).map(x => x.nazov);
+  assert.strictEqual(JSON.stringify(vidno), JSON.stringify(["Mydlo"]), "odškrtnutá visí v ďalšom týždni / nekúpená sa nepreniesla");
+  app.checkManual("b", true);
+  assert.strictEqual(S.nakupManual[1].tyzden, S.viewOd, "kúpená prenesená položka nepatrí týždňu nákupu");
+  S.viewOd = tyz;
+  assert.ok(!app.nakupZoznam(null).hotove.some(x => x.nazov === "Mydlo"), "mydlo kúpené v ďalšom týždni svieti aj v tomto");
+  assert.ok(/pridajNakupRychlo\(\)/.test(htmlNakupu()), "chýba rýchle pridanie (režim Obchod skrýva pole)");
+  app.toast = t0; S.nakupManual = [];
+});
+ok("#6: hlavný údaj je balenie z regálu, spotreba menším; výrobok „1 ks“ je len „N ks“; tekutiny v ml", () => {
+  const r = fakeRecept("Zobrazenie", [{ nazov: "Cibuľa", mnozstvo: 444, jednotka: "g" }, { nazov: "Hruška, balenie 1 ks (170 g)", mnozstvo: 3, jednotka: "ks" },
+    { nazov: "Citrónová šťava", mnozstvo: 45, jednotka: "g" }, { nazov: "Mäta", mnozstvo: 8, jednotka: "list" }]);
+  planujVarky([[0, "Obed", r]]);
+  const c = vRiadok(null, "Cibuľa");
+  assert.ok(/^<b>1× 1 kg<\/b>/.test(c.mnoz) && /\(treba \d+ g\)/.test(cistyText(c.mnoz)), "cibuľa: " + c.mnoz);
+  const h = vRiadok(null, "Hruška");
+  assert.ok(h, "názov výrobku si nechal „, balenie …“: " + app.nakupItems().map(x => x.nazov).join(", "));
+  assert.ok(/^\d+ ks$/.test(cistyText(h.mnoz)), "hruška: " + cistyText(h.mnoz));
+  const s = vRiadok(null, "Citrónová šťava");
+  assert.ok(/treba \d+ ml/.test(cistyText(s.mnoz)), "šťava nie je v ml: " + cistyText(s.mnoz));
+  assert.ok(/8 list/.test(cistyText(vRiadok(null, "Mäta").mnoz)) && vRiadok(null, "Mäta").gramy < 10, "8 lístkov mäty nie je " + vRiadok(null, "Mäta").gramy + " g");
+});
+ok("#7: kusy sa kupujú nahor — 1,32 ks čakanky sú 2 ks (2,0000001 ostane 2)", () => {
+  const p = app.najdiPotravinu("Červená čakanka");
+  const G = { matched: true, p, hasKs: true, hasG: false, hasMl: false, pocty: { ks: 1.32 }, grams: 1.32 * p.g_za_ks, ziadane: 1.32, zdroje: [] };
+  assert.ok(/^2 ks/.test(cistyText(app.zobrazMnozstvo(G))), cistyText(app.zobrazMnozstvo(G)));
+  G.pocty.ks = 2.0000001;
+  assert.ok(/^2 ks/.test(cistyText(app.zobrazMnozstvo(G))), cistyText(app.zobrazMnozstvo(G)));
+});
+ok("#8, #10: dochucovadlá si pamätajú zbalenie; prázdny nákup neodkazuje „vyššie“", () => {
+  const r = fakeRecept("Chuť", [{ nazov: "Ryža", mnozstvo: 100, jednotka: "g" }, { nazov: "Soľ", mnozstvo: null, jednotka: "" }]);
+  planujVarky([[0, "Obed", r]]);
+  assert.ok(/<details class="odd zaklady" open/.test(htmlNakupu()), "dochucovadlá majú byť rozbalené");
+  require("vm").runInContext("_zakladyOtvorene=false;", app);
+  assert.ok(/<details class="odd zaklady" ontoggle/.test(htmlNakupu()), "po zbalení sa dochucovadlá znova otvorili");
+  require("vm").runInContext("_zakladyOtvorene=true;", app);
+  planujVarky([]);
+  assert.ok(!/vyššie/.test(htmlNakupu()), "prázdny nákup odkazuje „vyššie“");
+});
+ok("#11: záporná zásoba sa v špajzi prizná; id zásoby ide do onclick vždy ako číslo", () => {
+  assert.ok(/záporné/.test(app.spRow({ id: 3, nazov: "Ryža", mnozstvo: -500, jednotka: "g", miesto: "Špajza" })));
+  const html = app.spRow({ id: "1);alert(1);(", nazov: "X", mnozstvo: 1, jednotka: "g" });
+  assert.ok(!/alert/.test(html) && /upravZasobu\(0,-1\)/.test(html), html);
 });
 
 console.log("\nOK — " + bezov + " kontrol prešlo.");

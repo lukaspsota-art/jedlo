@@ -78,7 +78,8 @@ def main():
     src = re.sub(r'<meta name="theme-color" content="#[0-9a-fA-F]{6}" media="\(prefers-color-scheme: dark\)">',
                  '<meta name="theme-color" content="#151310" media="(prefers-color-scheme: dark)">', src)
 
-    TPL.write_text(src, encoding="utf-8")
+    # newline="\n": na Windows by write_text prepísal celú šablónu na CRLF
+    TPL.write_text(src, encoding="utf-8", newline="\n")
     print("téma Bloky vložená: %d znakov (fonty %d KB)"
           % (len(novy), sum((FONTY / f[2]).stat().st_size for f in FACES) // 1024))
 

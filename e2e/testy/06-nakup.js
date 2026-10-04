@@ -121,13 +121,9 @@ module.exports = {
     }));
     await t.ok(sklon.cibula && sklon.koriander && sklon.huby,
       "„Mám doma“/zakázané chytá skloňované tvary meniace kmeň (koriandrové, hubový)", JSON.stringify(sklon));
-    // Nález: prefixové pravidlo (3–5 znakov, +6 navyše) prepustí cudzie slovo — „med" chytá
-    // „Medvedí cesnak", „Datle medjool", „Medovka". AUDIT_UI_2026-08-19 to hlási ako opravené,
-    // v tomto builde to opravené nie je. Pre zákazy je nadmerné blokovanie zámer (CLAUDE.md),
-    // pre „Mám doma" to znamená nekúpenú surovinu → hlásené ako P3, beh sady to neblokuje.
-    t.xfail = true;
-    await t.ok(sklon.med === false, "„med“ nechytá „medvedí cesnak“ (prefixové pravidlo prepúšťa cudzie slová)", JSON.stringify(sklon));
-    t.xfail = false;
+    // v33: prefixové pravidlo (3–5 znakov, +6 navyše) je preč — obsahujeSurovinu páruje tvar slova.
+    // Zákaz „med" medvedí cesnak blokuje aj tak (podreťazec v zakazaneChyta).
+    await t.ok(sklon.med === false, "„med“ nechytá „medvedí cesnak“ (tvar slova, nie prefix)", JSON.stringify(sklon));
     await page.fill("#doma-nakup", "");
     await page.dispatchEvent("#doma-nakup", "change");
     await page.waitForTimeout(400);
@@ -165,8 +161,12 @@ module.exports = {
       save(); renderNakup();
     });
     await page.waitForTimeout(150);
-    const low = await page.evaluate(() => [...document.querySelectorAll("#nakup-list .odd h3")].some((h) => /Doplniť zásoby/i.test(h.textContent)));
-    await t.ok(low, "zásoba pod minimom sa objaví v sekcii „Doplniť zásoby“");
+    // audit 30. 9.: zásoba pod minimom je riadok s políčkom v SVOJOM oddelení (do v33 <label> bez
+    // checkboxu v sekcii navrchu); keď ryžu pýta aj plán, pribudne „+ doplniť zásobu" k jej riadku
+    const low = await page.evaluate(() => { const r = [...document.querySelectorAll("#nakup-list .odd .nak-row")]
+      .find((x) => /Ryža/.test(x.textContent) && /pod minimom|doplniť zásobu/.test(x.textContent));
+      return r ? { checkbox: !!r.querySelector("input[type=checkbox]"), odd: r.closest(".odd").querySelector("h3").textContent } : null; });
+    await t.ok(low && low.checkbox && /Cestoviny a ryža/.test(low.odd), "zásoba pod minimom je v nákupe ako odškrtnuteľná položka vo svojom oddelení", JSON.stringify(low));
     await page.evaluate(() => { S.spajza = []; save(); renderNakup(); });
 
     // ── ručná položka ───────────────────────────────────────────────────────
@@ -220,6 +220,62 @@ module.exports = {
     }));
     await t.ok(info.otvorene, "ⓘ otvorí info „v ktorom recepte · čím nahradiť“", JSON.stringify(info));
     await zavriOkna(page);
+
+    // ── audit 30. 9. (Balík 5): nákup po várkach ────────────────────────────
+    await page.evaluate(() => { S.nakupCheck = {}; S.spajza = []; S.nakupVarky = {}; save(); renderNakup(); });
+    await page.waitForTimeout(150);
+    const varky = await page.evaluate(() => [...document.querySelectorAll("#nakup-list .varka")]
+      .map((b) => ({ tag: b.tagName, pressed: b.getAttribute("aria-pressed"), chip: b.classList.contains("chip"), txt: b.textContent })));
+    await t.ok(varky.length === 3 && varky.every((v) => v.tag === "BUTTON" && v.pressed === "true" && !v.chip),
+      "„Nakupujem na: A · B · C“ sú tlačidlá s aria-pressed, predvolene všetky várky", JSON.stringify(varky));
+    await page.click("#varka-0"); await page.waitForTimeout(150);
+    await page.click("#varka-1"); await page.waitForTimeout(150);
+    const lenC = await page.evaluate(() => ({
+      pressed: [...document.querySelectorAll("#nakup-list .varka")].map((b) => b.getAttribute("aria-pressed")).join(","),
+      vyber: JSON.stringify(nakupVyber()),
+      riadkov: document.querySelectorAll("#nakup-list .odd .nak-row").length,
+      znakyMimoC: [...document.querySelectorAll("#nakup-list .odd .nak-row .znak")].filter((z) => z.textContent.trim() !== "C").length,
+      vsetkych: nakupItems(null).length, vC: nakupItems([2]).length,
+    }));
+    await t.ok(lenC.pressed === "false,false,true" && lenC.vyber === "[2]" && lenC.riadkov > 0 && lenC.znakyMimoC === 0 && lenC.vC < lenC.vsetkych,
+      `výber „len C“ nechá v zozname len suroviny várky C (${lenC.vC} z ${lenC.vsetkych} riadkov)`, JSON.stringify(lenC));
+    await page.click("#varka-0"); await page.waitForTimeout(150);
+    await page.click("#varka-1"); await page.waitForTimeout(150);
+    await t.ok(await page.evaluate(() => nakupVyber() === null), "zapnutím všetkých várok je nákup opäť na celý týždeň");
+
+    // ── 🎉 a prúžok majú jedno pravidlo; posledné odškrtnutie → „📥 Kúpené do špajze“ ──
+    await page.evaluate(() => { const Z = nakupZoznam(null);
+      Z.oddelenia.flatMap((o) => o.rows).slice(1).forEach((r) => (r.man ? checkManual(r.id, true) : checkNakup(r.key, true))); });
+    await page.waitForTimeout(200);
+    const stavNakupu = () => page.evaluate(() => { const p = document.querySelector("#nakup-list .nak-pruh");
+      return { oslava: /Máš všetko v košíku/.test(document.getElementById("nakup-list").textContent),
+        now: p ? +p.getAttribute("aria-valuenow") : null, max: p ? +p.getAttribute("aria-valuemax") : null,
+        pocet: (document.querySelector("#nakup-list .nak-pocet") || {}).textContent || "",
+        fokus: document.activeElement ? document.activeElement.tagName : "",
+        toast: document.getElementById("toast").textContent, spat: !!document.querySelector("#toast .toast-akcia") }; });
+    const predPoslednou = await stavNakupu();
+    await t.ok(!predPoslednou.oslava && predPoslednou.now === predPoslednou.max - 1 && /\d+ \/ \d+ v košíku/.test(predPoslednou.pocet),
+      `pred poslednou položkou: „${predPoslednou.pocet}“ a 🎉 ešte nesvieti`, JSON.stringify(predPoslednou));
+    await page.locator("#nakup-list .odd:not(.done-sekcia) .nak-row label").first().click();
+    await page.waitForTimeout(350);
+    const poPoslednej = await stavNakupu();
+    await t.ok(poPoslednej.oslava && poPoslednej.now === poPoslednej.max,
+      "posledné odškrtnutie: prúžok na 100 % a 🎉 naraz", JSON.stringify(poPoslednej));
+    await t.ok(poPoslednej.spat && /v košíku/.test(poPoslednej.toast), "odškrtnutie ponúkne „↩ Späť“ (položka pod prstom odišla)", JSON.stringify(poPoslednej));
+    await t.ok(poPoslednej.fokus !== "BODY", `fokus po odškrtnutí nespadne na <body> (${poPoslednej.fokus})`, JSON.stringify(poPoslednej));
+    const spPred = await page.evaluate(() => S.spajza.length);
+    await page.click("#nakup-list .nak-hotovo .btn.primary");
+    await page.waitForTimeout(300);
+    const spPo = await page.evaluate(() => ({ n: S.spajza.length, odskrtnute: Object.keys(S.nakupCheck).length,
+      exp: S.spajza.every((x) => /^\d{4}-\d{2}-\d{2}$/.test(x.expiry || "")), jednotky: [...new Set(S.spajza.map((x) => x.jednotka))].join(","),
+      toast: document.getElementById("toast").textContent }));
+    await t.ok(spPo.n > spPred + 10 && spPo.exp && /Do špajze/.test(spPo.toast),
+      `„📥 Kúpené do špajze“ presunie odškrtnuté do špajze s odhadom expirácie (${spPo.n} zásob, jednotky ${spPo.jednotky})`, JSON.stringify(spPo));
+    t.metrika("kúpené do špajze (1 týždeň, 2 osoby)", `${spPo.n} zásob · jednotky ${spPo.jednotky}`);
+    await page.click("#toast .toast-akcia");
+    await page.waitForTimeout(200);
+    await t.ok(await page.evaluate((n) => S.spajza.length === n, spPred), "„↩ Späť“ vráti špajzu aj odškrtnutie");
+    await page.evaluate(() => { S.nakupCheck = {}; save(); renderNakup(); });
 
     await t.ok(page.chyby.length === 0, "žiadna chyba v konzole v nákupe",
       page.chyby.map((c) => `${c.typ}: ${c.text}`).join("\n"));

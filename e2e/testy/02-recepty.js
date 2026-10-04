@@ -72,6 +72,61 @@ module.exports = {
     await t.ok(p2 > 0, "„paradajky“ (iný pád) nájde recepty", p2);
     t.metrika("zásahov „paradajka“ / „paradajky“", `${p1} / ${p2}`);
 
+    // ── v33: tvar slova, synonymá, vylúčenie, relevancia, „sedí:“ na karte ──
+    await hladaj(page, "kura");
+    const kura = await page.evaluate(() => ({ n: _gridZoz.length,
+      prvych: _gridZoz.slice(0, 20).filter((r) => obsahujeSurovinu(r.nazov, ["kura"])).length }));
+    await t.ok(kura.n > 50 && kura.prvych === 20, `„kura“: prvých 20 výsledkov má kura v názve (relevancia) — ${kura.prvych}/20`, JSON.stringify(kura));
+    await hladaj(page, "kura bez ryže");
+    const bez = await page.evaluate(() => ({ n: _gridZoz.length,
+      sRyzou: _gridZoz.filter((r) => obsahujeSurovinu(r.nazov + " " + r.ingrediencie.map((i) => i.nazov).join(" "), ["ryza"])).length }));
+    await t.ok(bez.n > 0 && bez.n < kura.n && bez.sRyzou === 0, `„kura bez ryže“ vylúči ryžu (${bez.n} z ${kura.n})`, JSON.stringify(bez));
+    await hladaj(page, "kinoa");
+    await t.ok(await pocetVysledkov(page) > 0, "„kinoa“ nájde quinoa (synonymum)");
+    await hladaj(page, "mäso");
+    const lenMaslo = await page.evaluate(() => _gridZoz.filter((r) => !hladaHay(r).flat().some((w) => /^mas(o|a|e|u|om|ov|n|k)/.test(w))).map((r) => r.nazov));
+    await t.ok(lenMaslo.length === 0, "„mäso“ nevráti recept len s maslom/masťou (do v33: 579 z 872)", lenMaslo.slice(0, 3).join(", "));
+    await hladaj(page, "kmín");
+    const sedi = await page.evaluate(() => (document.querySelector("#grid .card .sedi") || {}).textContent || "");
+    await t.ok(/sedí: .*km/i.test(sedi), "karta pri zhode v surovine povie, čo sedí („🥕 sedí: …“)", sedi);
+    // písanie do poľa prekreslí mriežku samo (debounce 150 ms) a pole má kláves „Hľadať“
+    await page.evaluate(() => window.zrusFiltre());
+    await page.type("#hladaj", "guláš", { delay: 40 });
+    await page.waitForTimeout(400);
+    await t.ok(await pocetVysledkov(page) === gulas, "písanie do poľa prekreslí mriežku bez ručného renderGrid (debounce)", await pocetVysledkov(page));
+    await t.ok(await page.getAttribute("#hladaj", "enterkeyhint") === "search", "pole hľadania má enterkeyhint=search");
+
+    // ── kúpené výrobky v kolekcii a „Zrušiť filtre“ s radením ───────────────
+    await page.evaluate(() => { window.zrusFiltre(); nastavKolekciu("rychle"); });
+    const kol = await page.evaluate(() => ({ vyr: _gridZoz.filter(jeVyrobok).length, n: _gridZoz.length,
+      vp: !document.getElementById("vyrobky-prep").hidden, btn: (document.querySelector("#vyrobky-prep button") || {}).textContent || "" }));
+    await t.ok(kol.n > 0 && kol.vyr === 0 && kol.vp && /aj kúpené výrobky/.test(kol.btn), "„Do 20 min“ bez kúpených výrobkov, prepínač ich ponúka", JSON.stringify(kol));
+    await page.click("#vyrobky-prep button");
+    await page.waitForTimeout(80);
+    const kol2 = await page.evaluate(() => ({ vyr: _gridZoz.filter(jeVyrobok).length, ap: document.querySelector("#vyrobky-prep button").getAttribute("aria-pressed") }));
+    await t.ok(kol2.vyr > 0 && kol2.ap === "true", "prepínač „🛒 aj kúpené výrobky“ ich vráti", JSON.stringify(kol2));
+    await page.selectOption("#f-sort", "kcal");
+    await page.evaluate(() => window.renderGrid());
+    const prvyKcal = await page.evaluate(() => kcalPorcia(_gridZoz[0]));
+    await t.ok(prvyKcal > 0, "„Najmenej kcal“ nedá na prvé miesto recept bez kcal", prvyKcal);
+    await page.evaluate(() => window.zrusFiltre());
+    const poZruseni = await page.evaluate(() => ({ sort: document.getElementById("f-sort").value, cnt: document.getElementById("f-cnt").hidden,
+      vp: document.getElementById("vyrobky-prep").hidden }));
+    await t.ok(poZruseni.sort === "" && poZruseni.cnt && poZruseni.vp, "„Zrušiť filtre“ vráti aj radenie a výrobky, #f-cnt zhasne", JSON.stringify(poZruseni));
+
+    // ── picker „Aké jedlo?“: za 8 riadkami „Zobraziť všetky (N)“ ────────────
+    await page.evaluate(() => vyberDoPlanu(0, "Obed"));
+    await page.fill("#pick-search", "kura");
+    await page.waitForTimeout(100);
+    const pk = await page.evaluate(() => { const b = document.getElementById("pick-search-results");
+      return { riadky: b.querySelectorAll(".plan-cell").length, btn: (b.querySelector("button") || {}).textContent || "" }; });
+    await t.ok(pk.riadky === 8 && /Zobraziť všetky \(\d+\)/.test(pk.btn), "picker ukáže 8 riadkov a „Zobraziť všetky (N)“", JSON.stringify(pk));
+    await page.click("#pick-search-results button");
+    const pk2 = await page.evaluate(() => document.querySelectorAll("#pick-search-results .plan-cell").length);
+    await t.ok(pk2 === +pk.btn.match(/\d+/)[0], `„Zobraziť všetky“ ukáže všetkých ${pk2}`, pk2);
+    await zavriOkna(page);
+    await prepni(page, "recepty");
+
     // ── prázdny výsledok ────────────────────────────────────────────────────
     await hladaj(page, "xyzquwabc");
     const prazdny = await page.evaluate(() => {
@@ -80,6 +135,8 @@ module.exports = {
     });
     await t.ok(prazdny.kariet === 0 && prazdny.vidno, "prázdny výsledok zobrazí hlášku", JSON.stringify(prazdny));
     await t.ok(/Zrušiť filtre/i.test(prazdny.text), "prázdny stav ponúka „Zrušiť filtre“", prazdny.text);
+    const zrusBtn = await page.evaluate(() => { const b = document.querySelector("#empty button.btn"); return b ? b.tagName + " " + b.textContent : ""; });
+    await t.ok(/^BUTTON Zrušiť filtre/.test(zrusBtn) && /menej slov/.test(prazdny.text), "prázdny stav: rada + „Zrušiť filtre“ ako <button> (dosiahne ho Tab)", zrusBtn);
     // zrušenie filtrov vráti všetko
     await page.evaluate(() => window.zrusFiltre());
     await t.ok(await pocetVysledkov(page) === vsetkyN, "„Zrušiť filtre“ obnoví celý zoznam");

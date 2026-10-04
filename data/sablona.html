@@ -78,7 +78,6 @@
   .krok-mn{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:8px;background:var(--chip);color:var(--accent-txt);font-size:13px;font-weight:600;white-space:normal}
   .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
   .pick-dropdown{display:none;position:absolute;left:0;right:0;top:100%;margin-top:4px;background:#fff;border:1px solid var(--line);border-radius:8px;max-height:260px;overflow:auto;z-index:20;box-shadow:0 6px 18px rgba(0,0,0,.15)}
-  body.dark .pick-dropdown{background:var(--panel)}
   .kolekcie{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px}
   .kol-tile{padding:7px 12px;border:1px solid var(--line);border-radius:20px;cursor:pointer;font-size:14px;background:var(--card);white-space:nowrap;user-select:none}
   .kol-tile.active{background:var(--accent-fill);color:#fff;border-color:var(--accent-fill)}
@@ -106,7 +105,6 @@
   .card .diet{margin-top:6px;display:flex;gap:4px;flex-wrap:wrap}
   .badge{font-size:10.5px;padding:2px 7px;border-radius:10px;background:#eef3ef;color:var(--accent-dark);border:1px solid #d9e6dd}
   .badge.alerg{background:#fbefec;color:#c0392b;border-color:#f0d5cf}
-  body.dark .badge.alerg{background:#3a2320;color:#f0a89e;border-color:#5a332d}
   .badge.price{background:#fff6e6;color:#8a6100;border-color:#f0e0be}
   .empty{padding:50px 20px;text-align:center;color:var(--muted)}
   /* A8 (klávesnica) + A9 (postupné dopĺňanie mriežky). Komponenty patria PRED @media — pozri CLAUDE.md. */
@@ -119,15 +117,23 @@
   .pc-btn{background:none;border:0;margin:0;padding:0;font:inherit;color:inherit;cursor:pointer;text-align:left}
   .pc-btn:focus-visible{outline:2px solid var(--accent);outline-offset:1px;border-radius:4px}
   .pc-odkaz{text-decoration:underline}
-  .pc-x{color:var(--warn);align-self:flex-start;min-width:24px;text-align:center}
   .pc-znova{display:none} /* v31: 🎲 vedľa názvu jedla — len na telefóne, viď mobilný blok */
   .pc-empty{width:100%}
   /* WCAG 2.5.8: hustá mriežka plánu nemusí mať 44 px, ale nikdy nesmie klesnúť pod 24 px —
      na mobile to platilo od v20, na počítači boli tie isté prvky 16–20 px (P2 z auditu 19. 8.). */
   .plan-cell .rm{min-height:24px;display:inline-flex;align-items:center}
   .plan-cell .nm,.plan-cell .kc{padding:4px 0;min-height:24px}
-  .plan-cell a,.plan-cell .pc-x{min-width:24px;min-height:24px;display:inline-flex;align-items:center;justify-content:center}
+  .plan-cell a{min-width:24px;min-height:24px;display:inline-flex;align-items:center;justify-content:center}
   .plan-varenia{min-height:24px;display:inline-flex;align-items:center}
+  /* Štart: pri 4× pomalšom CPU trvá úloha pri štarte 4,4 s a shell dovtedy vyzerá hotový, ale
+     nereaguje. Čisté CSS (ukáže sa už pri prvom vykreslení, nič nesťahuje), app.js na konci štartu
+     pridá <html class="nacitane">. pointer-events:none — indikátor nič neblokuje. */
+  html:not(.nacitane) body::after{content:"Načítavam recepty…";position:fixed;left:50%;top:40%;transform:translateX(-50%);
+    z-index:200;pointer-events:none;padding:12px 22px;border-radius:999px;font:600 15px/1.3 system-ui,sans-serif;white-space:nowrap;
+    background:var(--tlac,#2B2620);color:var(--na-tlaci,#F4EFE6);box-shadow:0 8px 24px rgba(0,0,0,.25);animation:nacitavam .9s ease-in-out infinite alternate}
+  @keyframes nacitavam{from{opacity:.7}to{opacity:1}}
+  /* len pre čítačku obrazovky */
+  .sr-only{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
   /* modal */
   .overlay{position:fixed;inset:0;background:rgba(20,20,20,.55);display:none;align-items:flex-start;justify-content:center;padding:30px 16px;z-index:60;overflow-y:auto}
   .overlay.open{display:flex}
@@ -185,7 +191,6 @@
   .menu.open{display:block}
   .menu a{display:block;padding:11px 14px;font-size:14px;cursor:pointer;color:var(--ink);text-decoration:none}
   .menu a:hover{background:var(--chip)}
-  body.dark .menu{background:var(--panel);color:var(--ink)}
   /* U1: zbaliteľný panel — sekundárny obsah nesmie na telefóne tlačiť primárny pod okraj obrazovky */
   details.panel > summary{cursor:pointer;font-size:16px;font-weight:600;color:var(--accent-txt);display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:34px;list-style:none}
   details.panel > summary::-webkit-details-marker{display:none}
@@ -243,22 +248,15 @@
   /* blokový zoznam je mobilná náhrada tabuľky — na počítači sa tabuľka zmestí celá */
   .plan-bloky{display:none}
   .plan-cell:hover{background:#f3f8f4}
-  body.dark .plan-cell:hover{background:rgba(255,255,255,.06)}
-  body.dark .dnes-varenie-hero{background:#1e2c24;border-left-color:var(--accent)}
-  body.dark .dnes-varenie-hero .dnes-row{border-bottom-color:#2c3a32}
   /* podfarbenie blokov — trieda, nie inline style: inline by prebilo dark režim a text by ostal nečitateľný */
   table.plan td.bloka{background:#e8f1eb}
   table.plan td.blokb{background:#f4f8f5}
   table.plan td.rohova{background:#fff;border:none}
-  body.dark table.plan td.bloka{background:#1e2c24}
-  body.dark table.plan td.blokb{background:#252f28}
-  body.dark table.plan td.rohova{background:transparent}
   .plan-cell .nm{font-weight:600;line-height:1.2}
   .plan-cell .kc{color:var(--muted);font-size:11.5px}
   .plan-cell .rm{align-self:flex-end;color:var(--warn);font-size:11px;cursor:pointer}
   .plan-cell.prazdne{color:var(--muted);justify-content:center;align-items:center;text-align:center}
   .plan-cell.vyp{color:var(--muted);background:repeating-linear-gradient(45deg,transparent,transparent 6px,rgba(0,0,0,.03) 6px,rgba(0,0,0,.03) 12px);justify-content:center;align-items:center;text-align:center;font-size:12px;opacity:.6;cursor:default;min-height:32px}
-  body.dark .plan-cell.vyp{background:repeating-linear-gradient(45deg,transparent,transparent 6px,rgba(255,255,255,.04) 6px,rgba(255,255,255,.04) 12px)}
   .ctrl-row td.ctrl{padding:4px;text-align:center;vertical-align:top}
   .ctrl-row .ppl{display:flex;gap:4px;align-items:center;justify-content:center;margin-bottom:4px}
   .ctrl-row .ppl button{width:24px;height:24px;border:1px solid var(--line);background:var(--card);border-radius:6px;cursor:pointer;font-size:14px;line-height:1;color:inherit}
@@ -299,7 +297,6 @@
   .blok-hlava .bh-vari{font-size:11px;color:var(--muted)}
   .mchip{width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;border-radius:6px;cursor:pointer;font-size:13px;background:var(--line);opacity:.35;filter:grayscale(1);user-select:none;border:0;padding:0;color:inherit;font-family:inherit}
   .mchip.on{opacity:1;filter:none;background:#e8f1eb}
-  body.dark .mchip.on{background:var(--accent-dark)}
   tr.suma td{background:#eef3ef;font-weight:600;font-size:13px;text-align:center}
   tr.suma td.over{color:var(--warn)}
   /* nákup / doma / výživa */
@@ -337,6 +334,24 @@
   .trasa-akc{display:flex;gap:6px}
   .trasa-akc button{min-width:44px;min-height:44px}
   .trasa-akc button[disabled]{opacity:.35;cursor:default}
+  /* Nákup po várkach (audit 30. 9.): „Nakupujem na: A · B · C" — prepínače s aria-pressed v súhrne.
+     Stav nesie aj plná/čiarkovaná linka a hrúbka písma, nielen farba. Selektory sú dvojtriedne,
+     lebo téma Bloky (za týmto blokom) štýluje .btn jednou triedou a vyhrala by. */
+  .nak-varky{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin:0 0 10px}
+  .nakup-suhrn .nak-varky{flex-basis:100%;margin:0}
+  .nak-varky .varka{display:inline-flex;align-items:center;gap:4px;min-height:max(44px,var(--cil-in,44px));padding:4px 7px;font-size:13px}
+  .nak-varky .varka[aria-pressed="true"]{border:2px solid var(--ink);font-weight:700}
+  .nak-varky .varka[aria-pressed="false"]{border:2px dashed var(--line);color:var(--muted);background:transparent;font-weight:400}
+  /* v obchode sa nepozerá na „podrobnosti" (dochucovadlá majú vlastnú sekciu, akcia je pri položke) */
+  :root[data-rezim="obchod"] .nakup-suhrn .suhrn-viac{display:none}
+  /* počítadlo a prúžok sú jedno číslo — prúžok je v súhrne pod ním */
+  .nakup-suhrn .nak-pruh{flex-basis:100%;margin:0}
+  /* rýchle pridanie vlastnej položky len v režime Obchod (inde je pole pod zoznamom) */
+  .nakup-suhrn .nak-plus{display:none;min-width:max(44px,var(--cil-in,44px));min-height:max(44px,var(--cil-in,44px));margin-left:auto;padding:0 12px;font-size:20px;line-height:1}
+  :root[data-rezim="obchod"] .nakup-suhrn .nak-plus{display:inline-flex;align-items:center;justify-content:center}
+  .nak-dokup{color:var(--warn);font-weight:700}
+  .nak-dospajze{margin:-4px 0 10px}
+  @media print{ .nak-varky,.nakup-suhrn .nak-plus,.nak-dospajze,.nak-hotovo .btn{display:none!important} }
   /* Domov: názov jedla v „Čo dnes ješ" bol 18 px vysoký cieľ */
   #dnes-plan .sur-klik{display:inline-block;min-height:26px;padding:4px 2px;text-align:left}
   .doma-in{width:100%;min-height:70px;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:15px;font-family:inherit}
@@ -363,7 +378,9 @@
   .chart-leg .lg{display:inline-block;width:11px;height:11px;border-radius:3px;margin-left:10px;margin-right:2px}
   .card .macros{font-size:11.5px;color:var(--muted);margin-top:4px}
   .card .spajza-match{font-size:11.5px;color:var(--accent-dark);margin-top:5px;font-weight:600}
-  body.dark .card .spajza-match{color:var(--accent)}
+  .card .sedi{font-size:11.5px;color:var(--muted);margin-top:4px}
+  button.kol-tile{font-family:inherit;color:inherit}
+  #vyrobky-prep[hidden]{display:none}
   .hist-stats{font-size:14px;margin-bottom:10px;color:var(--fg,inherit)}
   .hist-wrap{display:flex;flex-wrap:wrap;gap:8px}
   .hist-item{display:inline-flex;align-items:center;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 11px;font-size:13.5px}
@@ -380,6 +397,15 @@
   #toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translate(-50%,16px);background:var(--accent-dark);color:#fff;padding:12px 18px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.28);z-index:100;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;max-width:90vw;text-align:center;font-size:14px}
   #toast.show{opacity:1;transform:translate(-50%,0)}
   @media(min-width:821px){ #toast{bottom:28px} }
+  /* B3: toast s akciou („↩ Späť") — ťuknúť sa dá LEN na tlačidlo (44 px); zvyšok toastu
+     prepúšťa dotyk na plán pod ním, inak by 8 s blokoval všetko, čo prekrýva */
+  #toast.s-akciou{display:flex;align-items:center;gap:12px;text-align:left;width:max-content}
+  .toast-akcia{pointer-events:auto;flex:0 0 auto;min-height:44px;min-width:44px;padding:0 14px;border:1.5px solid currentColor;
+    border-radius:999px;background:transparent;color:inherit;font:inherit;font-weight:700;cursor:pointer;white-space:nowrap}
+  /* B3: kcal a bielkoviny bunky plánu v jednom riadku; zámok zamknutého jedla (značka, nie tlačidlo) */
+  .pc-riadok{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:6px}
+  .pc-riadok .pc-data::before{content:"· "}
+  .pc-zamok{flex:0 0 auto;font-size:13px;line-height:1.6}
   #dlg-overlay{z-index:90}   /* U3: nad režimom varenia (80), inak je prompt časovača neviditeľný */
   #dlg-modal .content2 p{margin-top:0;font-size:15px;line-height:1.5}
   .tile{transition:transform .12s,box-shadow .12s}
@@ -449,6 +475,8 @@
     .cook .step{font-size:23px}
     /* zabráni auto-zoomu iOS Safari pri fokuse na formulár (potrebné min. 16px) */
     input,select,textarea,#hladaj{font-size:16px!important}
+    /* „+ Nový recept": polia mali 36–38 px. Padding je inline v app.js, min-height tam nie je. */
+    #pick-modal :is(input,select)[id^="nr-"],#nr-ing input{min-height:max(44px,var(--cil-in,44px))}
     .fav,.modal .close,.stepper button{width:44px;height:44px}
     .stepper button{font-size:22px}
     .modal .close{top:10px;right:12px}
@@ -493,7 +521,7 @@
     .plan-cell .rm{min-height:24px;display:inline-flex;align-items:center}
     /* názov jedla (16 px), riadok kcal (17 px) a ✕ (11×20) boli tiež pod 24 px */
     .plan-cell .nm,.plan-cell .kc{padding:5px 0}  /* 4px dá presne 23,6 px — pod hranicou */
-    .plan-cell a,.plan-cell .pc-x{min-width:24px;min-height:24px;display:inline-flex;align-items:center;justify-content:center}
+    .plan-cell a{min-width:24px;min-height:24px;display:inline-flex;align-items:center;justify-content:center}
     .hranica{min-height:44px}
     /* U1: dotykové ciele — 38 px tlačidlo sa prstom míňa */
     .btn{min-height:44px;padding:11px 16px}
@@ -525,7 +553,12 @@
     .f-body select.f{flex:1 1 calc(50% - 5px);min-height:44px}
   }
   @media print{
-    .side,.botnav,.controls,.chips,.plan-head,.btn-row,.close,.fav,.cook,.akcie,.hodnotenie{display:none!important}
+    /* #toast: hláška „Skopírované (56 položiek)…" nie je obsah, na papieri by visela nad zoznamom.
+       .done-sekcia: „✓ Už máme / v košíku" — papier je na nákup, odškrtnuté sa kupovať nebude. */
+    .side,.botnav,.controls,.chips,.plan-head,.btn-row,.close,.fav,.cook,.akcie,.hodnotenie,#toast,.done-sekcia{display:none!important}
+    /* .app má min-height:100vh = výška strany. Pri tlači receptu sú všetky .view skryté
+       a modál je ZA .app → prvá strana A4 vyšla prázdna a recept začínal až na y=1123. */
+    .app{min-height:0}
     body{background:#fff}
     .view{display:none!important}
     .view.printme{display:block!important}
@@ -547,16 +580,8 @@
   .kal .day.mimo{background:transparent;border:none}
   .kal .ev{background:var(--chip);border-radius:5px;padding:1px 5px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .kal .plan-dot{color:var(--accent);font-size:8px;margin-left:4px;vertical-align:middle}
-  body.dark .kal .day{background:var(--panel)}
   .sp-row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 4px;border-bottom:1px solid var(--line);font-size:15px}
   .sp-row .meta2{font-size:12.5px;color:var(--muted)}
-  body.dark{--warn:#ef6b5c; --bg:#181713;--panel:#232219;--ink:#ece7db;--muted:#a49d8b;--line:#39362c;--chip:#2b2a22;--accent:#4b9e73;--accent-dark:#12331f;--card:#232219;--accent-txt:#6fbf95}
-  body.dark .card,body.dark .tile,body.dark .panel,body.dark .modal .content2,body.dark input,body.dark select,body.dark textarea{background:var(--panel);color:var(--ink)}
-  body.dark .btn,body.dark .mini,body.dark .stepper button,body.dark .stepper,body.dark #hladaj{background:var(--panel);color:var(--ink);border-color:var(--line)}
-  body.dark table.plan td{background:var(--panel);color:var(--ink)}
-  body.dark table.plan td.slotname{background:#2b2a22}
-  body.dark .nutri div,body.dark .tipy,body.dark .match,body.dark .subst{background:#26261d;border-color:var(--line);color:var(--ink)}
-  body.dark .fav{background:rgba(60,58,48,.9)}
 
 
 
@@ -595,22 +620,29 @@
     --na-bloku:#FFFFFF;   /* text vyrazený z farebnej plochy bloku */
     --signal:#A82C19;     /* nad cieľom, odobrať, po expirácii — LEN stav, nie identita */
     --zlato:#725700;      /* hodnotenie, cieľová čiara (4,75:1 aj na tónovanej ploche) */
-    /* akcent = farba práve zobrazeného bloku (app.js ho prepisuje na <html>) */
-    --akcent:var(--blok-b);
-    --akcent-tlac:var(--blok-b);
     /* hustota: štyri situácie, v ktorých sa appka používa */
     --skala:1;            /* kompakt 0,82 · plánovanie 1 · obchod 1,22 · kuchyňa 1,5 */
     --cil:44px;           /* najmenší dotykový cieľ (mimo zoomovanej plochy) */
     --cil-in:calc(var(--cil) / var(--skala));  /* to isté vnútri .content (zoom ho dorovná) */
     --r:16px; --r-mala:8px; --r-btn:12px; --radius:16px;
+    --shadow:0 1px 2px rgba(30,27,22,.06);
+    --org-soft:#F1EEE7;
+    color-scheme:light;
+  }
+  /* Odvodené tokeny MUSIA byť deklarované aj na <body>: var() sa dosadí na prvku, kde je
+     vlastnosť deklarovaná, a potomkovia dedia už HOTOVÚ farbu. Tmavá téma prepisuje
+     --zem/--text/--blok-* až na body — alias len na :root by sa vyhodnotil zo svetlej sady
+     a systémová tmavá téma mala ~90 textov pod AA (súčet kcal na Domove 1,03:1). */
+  :root,body{
+    /* akcent = farba práve zobrazeného bloku (app.js ho prepisuje inline na <body>) */
+    --akcent:var(--blok-b);
+    --akcent-tlac:var(--blok-b);
     /* preklad starých tokenov na nové — pôvodné CSS sa tým prefarbí celé naraz */
     --bg:var(--zem); --panel:var(--doska); --card:var(--doska);
     --ink:var(--text); --muted:var(--text2); --line:var(--linka); --chip:var(--tint);
     --accent:var(--akcent); --accent-txt:var(--akcent); --accent-fill:var(--akcent-tlac);
     --accent-dark:var(--tlac); --warn:var(--signal); --gold:var(--zlato);
-    --shadow:0 1px 2px rgba(30,27,22,.06);
-    --org-soft:#F1EEE7; --org-tint:var(--tint);
-    color-scheme:light;
+    --org-tint:var(--tint);
   }
   /* režim KOMPAKT — prehľad na malom telefóne: viac obsahu na obrazovku.
      --cil ostáva 44 px, takže --cil-in (44/0,82 = 53,6 px) po zoome dá naspäť
@@ -623,9 +655,8 @@
      Selektor MUSÍ ostať úzky — širšie `button` prebije max(44px,…) a chipy sa ZMENŠIA. */
   :root[data-rezim="kompakt"] .content .pc-btn,
   :root[data-rezim="kompakt"] .content .lnk{ min-height:30px }
-  /* ✕ a odkazy v bunke plánu stoja na 24 px aj ŠÍRKOU — tú zoom zmenší rovnako. */
-  :root[data-rezim="kompakt"] .content .plan-cell a,
-  :root[data-rezim="kompakt"] .content .plan-cell .pc-x{ min-width:30px }
+  /* odkazy v bunke plánu stoja na 24 px aj ŠÍRKOU — tú zoom zmenší rovnako (✕ je od v32 v „⋯ viac“). */
+  :root[data-rezim="kompakt"] .content .plan-cell a{ min-width:30px }
   /* režim OBCHOD — jedna ruka, košík v druhej */
   :root[data-rezim="obchod"]{ --skala:1.22; --cil:56px }
   /* režim KUCHYŇA — mastné ruky, telefón opretý */
@@ -702,6 +733,7 @@
   .card:hover{transform:none;box-shadow:0 4px 14px rgba(30,27,22,.10);border-color:var(--okraj)}
   .modal{background:var(--doska);border-radius:calc(var(--r) + 4px);box-shadow:0 20px 50px rgba(0,0,0,.34)}
   .modal .hero{background:var(--tlac);color:var(--na-tlaci);border-radius:calc(var(--r) + 4px) calc(var(--r) + 4px) 0 0}
+  .modal .hero .info{color:inherit} /* .info = --text2, na tmavej --tlac 2,29:1 (sprievodca generovaním) */
   .modal .content2{background:var(--doska);color:var(--text);border-radius:0 0 calc(var(--r) + 4px) calc(var(--r) + 4px)}
   .modal .close{background:rgba(255,255,255,.16);color:var(--na-tlaci)}
   .pick-dropdown,.menu{background:var(--doska);border:1px solid var(--okraj);border-radius:var(--r-mala);color:var(--text)}
@@ -714,8 +746,10 @@
   .nutri b{color:var(--text)}
   .badge{background:var(--tint);border:1px solid var(--linka);color:var(--text2)}
   .badge.price{background:var(--doska);color:var(--zlato);border-color:var(--linka)}
-  .badge.alerg{background:var(--doska);color:var(--signal);border-color:var(--signal)}
-  .star-slot .star-e{color:var(--linka)}
+  /* alergén je informácia; --signal (stav!) dostane až zrážka s profilom — a tá má aj text */
+  .badge.alerg{background:var(--doska);color:var(--text2);border-color:var(--okraj)}
+  .badge.alerg.zrazka{color:var(--signal);border-color:var(--signal);font-weight:700}
+  .star-slot .star-e{color:var(--okraj)} /* prázdna hviezda je STAV ovládania (1.4.11) — --linka mala 1,57:1 */
   .star-slot .star-f{color:var(--zlato)}
   /* ★ je súrodenec .card-open a .thumb je tiež positioned → bez z-indexu ju náhľad prekryje */
   .fav{background:var(--doska);border:1px solid var(--linka);color:var(--zlato);z-index:3}
@@ -744,10 +778,9 @@
   .btn:hover{background:var(--tint)}
   .btn.primary{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku);font-weight:800}
   .btn.primary:hover{filter:brightness(1.08)}
-  /* `body.dark .btn` (0,2,1) prebíja `.btn.primary` (0,2,0), takže bez tohto pravidla je
-     v tmavom režime primárne tlačidlo bajtovo zhodné so sekundárnym a obrazovka stratí
-     jedinú primárnu akciu. Špecificita 0,3,1 vyhráva nad oboma. */
-  body.dark .btn.primary{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku)}
+  /* Polia bez vlastnej triedy (meno stravníka…) by v tmavej téme dostali UA plochu #3B3B3B
+     (placeholder 4,23:1). :where() = nulová špecificita, čokoľvek konkrétnejšie vyhrá. */
+  :where(input,select,textarea){background-color:var(--doska);color:var(--text)}
   /* Placeholder nemal žiadny token a dedil UA default #757575 → v tmavom režime 3,60:1.
      opacity:1 je nutné, Firefox inak pridá vlastných 0,54. */
   ::placeholder{color:var(--text2);opacity:1}
@@ -809,7 +842,6 @@
   table.plan td.bunka-c{background:color-mix(in srgb,var(--blok-c) 7%,var(--doska))}
   .plan-cell:hover{background:color-mix(in srgb,var(--akcent) 10%,transparent)}
   .plan-cell .rm{color:var(--signal)}
-  .pc-x{color:var(--signal)}
   .pc-odkaz{text-decoration:underline;text-underline-offset:2px}
   tr.suma td{background:var(--tint);border-color:var(--linka);color:var(--text)}
   tr.suma td.over{color:var(--signal)}
@@ -838,14 +870,19 @@
   /* ── DOMOV ─────────────────────────────────────────────────────────── */
   .dnes-varenie-hero{background:var(--akcent-tlac);color:var(--na-bloku);border-left:0;padding:16px 18px}
   .dnes-varenie-hero b{color:inherit}
-  .dnes-varenie-hero .dnes-row{border-bottom-color:rgba(255,255,255,.28);color:inherit}
-  body.dark .dnes-varenie-hero .dnes-row{border-bottom-color:rgba(0,0,0,.24)}
+  /* --na-bloku je biela vo svetlej a tmavá v tmavej téme — oddeľovač sedí v oboch bez body.dark */
+  .dnes-varenie-hero .dnes-row{border-bottom-color:color-mix(in srgb,var(--na-bloku) 28%,transparent);color:inherit}
   .dnes-varenie-hero .lnk,.dnes-varenie-hero .sur-klik{color:inherit}
   .dnes-varenie-hero.blok-a{--akcent-tlac:var(--blok-a)}
   .dnes-varenie-hero.blok-b{--akcent-tlac:var(--blok-b)}
   .dnes-varenie-hero.blok-c{--akcent-tlac:var(--blok-c)}
   .dnes-slot{color:var(--text2);font-weight:600}
   .dnes-row{border-bottom-color:var(--linka)}
+  /* Stĺpec slotu drží 90 px a názov sa nezmenší pod najdlhšie slovo, takže pri 320 px
+     v Kuchyni dvojica snackov pretiekla o +24 px. Kým sa vedľa slotu zmestí 8em, je názov
+     v stĺpci ako doteraz; keď nie, zalomí sa pod slot na celú šírku. */
+  .dnes-row{flex-wrap:wrap;row-gap:2px}
+  .dnes-row > :last-child{flex:1 1 8em}
   .dnes .thumb,.card .thumb{background:var(--tint);color:var(--text2)}
   .tyzden-pas{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin:0 0 20px}
   .tyzden-pas .d{background:var(--doska);border:1px solid var(--linka);border-radius:var(--r-mala);
@@ -892,6 +929,11 @@
   .segB{background:var(--text)}
   .segT{background:color-mix(in srgb,var(--text) 62%,var(--doska))}
   .segS{background:color-mix(in srgb,var(--text) 30%,var(--doska))}
+  /* ten istý štvorček je legenda grafu aj menovka pruhov makier (makroBar) — legenda = pruhy */
+  .lg{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+  /* inline-flex bez zalomenia pretekal pri 320 px v Kuchyni o 37 px; štvorček + slovo
+     sú v app.js jeden <span>, takže sa pri zalomení nerozdelia */
+  .chart-leg{flex-wrap:wrap}
   .chart .col.b-a .bar2{background:var(--blok-a)} .chart .col.b-b .bar2{background:var(--blok-b)}
   .chart .col.b-c .bar2{background:var(--blok-c)}
   .goalline{border-top-color:var(--zlato)}
@@ -1016,6 +1058,14 @@
   :root[data-rezim="kompakt"] table.plan td{padding:3px}
   :root[data-rezim="kompakt"] .plan-cell{padding:6px 7px}
   :root[data-rezim="kompakt"] .tyzden-pas{margin-bottom:10px}
+  /* Zoom 0,82 stlačil najdrobnejšie písmo pod čitateľnosť: alergény a štítky 8,6 px, popisy
+     dlaždíc výživy 9 px, údaje v bunke plánu 9,4 px (fyzických). Alergén je bezpečnostná
+     informácia — podlaha 11 fyzických px = 11 / --skala pred zoomom. Ostatné režimy ju majú. */
+  :root[data-rezim="kompakt"] .badge,
+  :root[data-rezim="kompakt"] .nutri small,
+  :root[data-rezim="kompakt"] .pc-data,
+  :root[data-rezim="kompakt"] .pc-slot,
+  :root[data-rezim="kompakt"] .plan-cell .kc{font-size:calc(11px / var(--skala))}
 
   /* Zbaliteľné podrobnosti súhrnu nákupu. Na počítači ich renderNakup vypisuje
      s atribútom `open`, takže sa nič nemení; na telefóne sú zbalené. */
@@ -1202,6 +1252,58 @@
      len o pár stoviek px namiesto tisícok — WCAG 1.3.2 platí v každom viewporte.
      Cena je, že „Mám doma" je aj na počítači pod zoznamom. Telefón je hlavné
      zariadenie a na počítači je skrolovanie lacné. */
+  /* ── OVLÁDANIE A PRÍSTUPNOSŤ (audit 30. 9.) ───────────────────────────
+     Ciele, ktoré stáli na pevných 44 CSS px, zoom Kompaktu (0,82) stiahol na 36 fyzických.
+     Všetko vnútri .content/.modal preto stojí na max(44px, var(--cil-in)). */
+  /* Hodnotenie v detaile: každá hviezda je cieľ ≥ 44 px (pol hviezdy podľa clientX mal 10 px,
+     v Kompakte 8). Ťuk = celá hviezda, druhý ťuk na tú istú = pol; klávesnica = slider. */
+  .starpick{display:inline-flex;border-radius:var(--r-mala)}
+  .starpick .star-cil{display:inline-flex;align-items:center;justify-content:center;cursor:pointer;
+    min-width:max(44px,var(--cil-in));min-height:max(44px,var(--cil-in))}
+  .starpick .star-slot{font-size:28px;line-height:1;cursor:inherit}
+  .menu a{min-height:max(44px,var(--cil-in))}
+  .switch{min-height:max(44px,var(--cil-in))}
+  .switch input[type=checkbox]{width:22px;height:22px;flex:0 0 auto}
+  #hladaj{min-height:max(44px,var(--cil-in))}
+  #dnes-plan .sur-klik{min-height:max(44px,var(--cil-in))}
+  /* ◀ ▶ týždňa a ‹ › Kalendára aj Výživy-deň mali 32–33 px na šírku */
+  #plan-kontext .chip,#nakup-kontext .chip{min-width:max(44px,var(--cil-in));justify-content:center}
+  #plan-kal .plan-head .btn,#vyziva-daynav .btn{min-width:max(44px,var(--cil-in))}
+  /* Špajza: −, +, ✎ mali 25–29 px na šírku, ✕ bol odkaz 12×23 px */
+  .sp-akc{display:flex;gap:6px;align-items:center;flex:0 0 auto}
+  .sp-row button.mini{min-width:max(44px,var(--cil-in));min-height:max(44px,var(--cil-in))}
+  .sp-row .sp-x{color:var(--signal);border-color:var(--signal)}
+  /* ✕ pravidla v sprievodcovi (<a onclick>, rolu tlačidla mu dá zpristupniKliky) */
+  #pick-modal .sp-row > a[onclick]{display:inline-flex;align-items:center;justify-content:center;
+    min-width:max(44px,var(--cil-in));min-height:max(44px,var(--cil-in))}
+  /* „← späť na typy jedál" bol <span onclick> 117×16 px na tmavej hlavičke */
+  .modal .hero .spat-typy{display:inline-flex;align-items:center;min-height:max(44px,var(--cil-in));color:inherit}
+  /* Hranice dní v Rozvrhu: výška ako každý cieľ; šírka 44 px sa so 7 dňami do riadku nezmestí,
+     preto len Kompakt podlaha 30 px (= 24,6 fyz.), rovnako úzkym selektorom ako .pc-btn */
+  .hranica{min-height:max(44px,var(--cil-in))}
+  :root[data-rezim="kompakt"] .modal .hranica,
+  :root[data-rezim="kompakt"] .content .hranica{min-width:30px}
+  @media(max-width:820px){
+    /* ✕ detailu a −/+ porcií: 44 CSS px → v Kompakte 36 fyzických */
+    .modal .close,.stepper button{width:max(44px,var(--cil-in));height:max(44px,var(--cil-in))}
+    .modal .hero h2{margin-right:calc(max(44px,var(--cil-in)) + 8px)}
+    /* h1 ostáva čítačke (sr-only), zvyšok bočného panela sa na telefóne nekreslí. `.side{display:none}`
+       vyradil z prístupnostného stromu aj h1 — appka na telefóne nemala hlavný nadpis. */
+    .side{display:block;position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;
+      clip-path:inset(50%);white-space:nowrap;border:0}
+    .side > :not(.brand){display:none}
+    .side .brand{font-size:16px}
+  }
+  /* Varenie: ciele sú tu najdôležitejšie (mastné ruky). „hlas" mal 20×20 v 26 px riadku. */
+  .cook .cook-hlas{display:flex;gap:8px;align-items:center;min-height:52px;padding:0 6px;font-size:15px;cursor:pointer}
+  .cook .cook-hlas input{width:24px;height:24px;margin:0}
+  .cook #cook-timers .timer{font:inherit;font-family:'Archivo',Arial,sans-serif;min-height:52px;border:0}
+  /* krok + množstvá surovín držia spolu v strede plochy */
+  .cook .cook-telo{flex:1;display:flex;flex-direction:column;justify-content:center;min-height:0;overflow-y:auto}
+  .cook .cook-telo .step{flex:0 0 auto;margin:0}
+  .cook .cook-mn{font-size:19px;line-height:1.45;color:#F4EFE6;padding:0 20px 12px;max-width:900px}
+  .cook .cook-mn .krok-mn{display:block;margin:0;padding:8px 12px;border-radius:12px;background:#262119;
+    color:#F4EFE6;font-size:inherit;font-weight:600}
   @media (prefers-reduced-motion:reduce){ *{transition:none!important;animation:none!important} }
   @media print{ body{background:#fff;color:#000} .content{zoom:1} }
   /* Bloky theme — end ------------------------------------------------------ */
@@ -1211,8 +1313,9 @@
 <a class="skip" href="#obsah" onclick="preskocNaObsah(event)">Preskočiť navigáciu</a>
 <div class="app">
   <aside class="side">
-    <!-- h1, nie div: appka nemala žiadny h1 a každý pohľad začínal na h2. Na mobile má
-         .brand font-size:0, takže sa nekreslí, ale čítačkám obrazovky ostáva. -->
+    <!-- h1, nie div: appka nemala žiadny h1 a každý pohľad začínal na h2. Na mobile je celý
+         .side vizuálne skrytý ako sr-only a jeho deti okrem h1 majú display:none — h1 tak
+         čítačke ostáva (do v32 ho `.side{display:none}` vyradil zo stromu prístupnosti). -->
     <h1 class="brand"><span class="znacka-bloky" aria-hidden="true"><i></i><i></i><i></i></span> Kuchárka</h1>
     <!-- Prepínač hustoty: štyri fyzické situácie, nie štyri appky (koncepcia B). -->
     <div class="rezimy" id="rezimy" role="group" aria-label="Režim použitia">
@@ -1222,7 +1325,7 @@
       <button type="button" data-rezim="kuchyna" aria-pressed="false" onclick="nastavRezim('kuchyna')" title="Kuchyňa — mastné ruky, veľké písmo">Kuchyňa</button>
     </div>
     <nav id="nav">
-      <a data-v="domov" class="active" onclick="prepni('domov')"><span class="ic">🏠</span> Domov</a>
+      <a data-v="domov" class="active" aria-current="page" onclick="prepni('domov')"><span class="ic">🏠</span> Domov</a>
       <a data-v="recepty" onclick="prepni('recepty')"><span class="ic">📖</span> Recepty</a>
       <a data-v="planovac" onclick="prepni('planovac')"><span class="ic">📅</span> Plán</a>
       <a data-v="nakup" onclick="prepni('nakup')"><span class="ic">🛒</span> Nákup</a>
@@ -1236,7 +1339,7 @@
 
   <!-- role="main" namiesto <main>: dá čítačkám ten istý landmark bez prepisovania
        párovania <div> v celej šablóne. -->
-  <div class="main"><div class="content" id="obsah" tabindex="-1" role="main">
+  <div class="main"><div class="content" id="obsah" tabindex="-1" role="main" aria-busy="true">
 
     <div class="view active" id="v-domov">
       <h2 class="h" id="pozdrav">Dobrý deň</h2>
@@ -1275,7 +1378,7 @@
       <p class="sub"><span id="pocet">__POCET__</span> receptov v kuchárke · <button class="lnk" onclick="novyRecept()">+ Nový recept</button></p>
       <datalist id="jedn-dl"><option value="g"></option><option value="ml"></option><option value="ks"></option><option value="ČL"></option><option value="PL"></option><option value="strúčik"></option><option value="štipka"></option><option value="hrsť"></option><option value="plátok"></option></datalist>
       <div class="controls" id="rec-controls">
-        <input id="hladaj" type="search" placeholder="Hľadať recept alebo suroviny: kura, ryža…">
+        <input id="hladaj" type="search" enterkeyhint="search" autocomplete="off" placeholder="Hľadať recept: kura bez ryže…">
         <button class="btn f-toggle" id="f-toggle" aria-expanded="false" aria-controls="f-body" onclick="prepniFiltre()">⚙ Filtre a radenie <span class="cnt" id="f-cnt" hidden>0</span></button>
         <div class="f-body" id="f-body">
         <select class="f" id="f-kuchyna"><option value="">Všetky kuchyne</option></select>
@@ -1285,6 +1388,7 @@
         </div>
       </div>
       <div id="kolekcie" class="kolekcie"></div>
+      <div id="vyrobky-prep" class="kolekcie" hidden></div>
       <div class="chips" id="chips"></div>
       <div class="grid" id="grid" tabindex="-1"></div>
       <button class="btn grid-viac" id="grid-viac" style="display:none" onclick="gridViac()">Načítať ďalšie</button>
@@ -1298,7 +1402,7 @@
            (108 px). V jednom riadku sa zmestia obe a plán začína o obrazovku vyššie. -->
       <div class="plan-topline">
         <div id="plan-kontext"></div>
-        <div class="chips plan-tabs" style="padding:0 0 12px"><span class="chip active" id="tab-tyzden" onclick="planZobraz('tyzden')">📋 <span class="tl">Týždeň</span></span><span class="chip" id="tab-kal" onclick="planZobraz('kalendar')">📆 <span class="tl">Kalendár</span></span></div>
+        <div class="chips plan-tabs" style="padding:0 0 12px"><span class="chip active" id="tab-tyzden" aria-pressed="true" onclick="planZobraz('tyzden')">📋 <span class="tl">Týždeň</span></span><span class="chip" id="tab-kal" aria-pressed="false" onclick="planZobraz('kalendar')">📆 <span class="tl">Kalendár</span></span></div>
       </div>
       <div id="plan-tyzden">
       <div class="plan-head">
@@ -1342,12 +1446,13 @@
            poradie na počítači vracia `order` v @media(min-width:821px). -->
       <div id="nakup-list"></div>
       <div class="plan-head">
-        <input class="f" id="nakup-manual" style="flex:1;min-width:200px" placeholder="Pridať vlastnú položku (napr. toaletný papier)…" onkeydown="if(event.key==='Enter')pridajNakupPolozku()">
+        <input class="f" id="nakup-manual" style="flex:1;min-width:min(200px,100%)" placeholder="Pridať vlastnú položku (napr. toaletný papier)…" onkeydown="if(event.key==='Enter')pridajNakupPolozku()">
         <button class="btn" onclick="pridajNakupPolozku()">+ Pridať</button>
         <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-nakup')">⋯ Viac</button>
           <div class="menu" id="m-nakup">
             <a onclick="zdielajNakup();zavriMenu()">📤 Zdieľať zoznam</a>
             <a onclick="kopirujListonic();zavriMenu()">📋 Kopírovať do schránky</a>
+            <a onclick="kupeneDoSpajze();zavriMenu()">📥 Odškrtnuté do špajze</a>
             <a onclick="tlacView('nakup');zavriMenu()">🖨 Tlačiť</a>
           </div>
         </div>
@@ -1364,7 +1469,7 @@
     <div class="view" id="v-vyziva">
       <h2 class="h">Výživa za týždeň</h2>
       <p class="sub">Z aktuálneho plánu oproti cieľu.</p>
-      <div class="chips" style="padding:0 0 12px"><span class="chip active" id="vt-tyzden" onclick="vyzivaZobraz('tyzden')">📊 Priemer týždňa</span><span class="chip" id="vt-den" onclick="vyzivaZobraz('den')">📅 Deň</span></div>
+      <div class="chips" style="padding:0 0 12px"><span class="chip active" id="vt-tyzden" aria-pressed="true" onclick="vyzivaZobraz('tyzden')">📊 Priemer týždňa</span><span class="chip" id="vt-den" aria-pressed="false" onclick="vyzivaZobraz('den')">📅 Deň</span></div>
       <div id="vyziva-daynav" style="display:none;margin-bottom:12px"></div>
       <div class="tiles" id="vyziva-tiles"></div>
       <div class="panel"><h3>Kalórie po dňoch</h3><div class="chart" id="vyziva-chart"></div>
@@ -1378,7 +1483,7 @@
       <h2 class="h">Špajza a čo z nej uvarím</h2>
       <p class="sub">Zásoby s miestom, dátumom spotreby a minimom. Pod minimum → do nákupu.</p>
       <datalist id="potraviny-dl"></datalist>
-      <details class="panel mob-zbal" open><summary>➕ Pridať zásobu</summary>
+      <details class="panel mob-zbal" id="sp-pridaj" open><summary>➕ Pridať zásobu</summary>
         <div class="controls">
           <input id="sp-nazov" list="potraviny-dl" placeholder="Surovina (vyber zo zoznamu)" oninput="aktualizujJednotky()" style="flex:1;min-width:160px;padding:10px;border:1px solid var(--line);border-radius:9px">
           <input id="sp-mn" type="number" placeholder="množstvo" style="width:110px;padding:10px;border:1px solid var(--line);border-radius:9px">
@@ -1390,7 +1495,7 @@
         </div>
       </details>
       <div id="spajza-list"></div>
-      <div class="panel"><h3>🍳 Čo z toho uvarím?</h3>
+      <div class="panel" id="sp-uvarim"><h3>🍳 Čo z toho uvarím?</h3>
         <div class="btn-row"><button class="btn primary" onclick="uvarZoSpajze()">Nájdi recepty zo špajze</button></div>
         <details style="margin-top:10px"><summary style="cursor:pointer;color:var(--muted)">+ pridať suroviny ručne</summary>
           <textarea class="doma-in" id="doma-in" placeholder="napr. vajcia, syr, paprika, cestoviny" style="margin-top:8px"></textarea>
@@ -1479,30 +1584,33 @@
 </div>
 
 <nav class="botnav" id="botnav">
-  <a data-v="domov" class="active" onclick="prepni('domov')"><span class="ic">🏠</span>Domov</a>
+  <a data-v="domov" class="active" aria-current="page" onclick="prepni('domov')"><span class="ic">🏠</span>Domov</a>
   <a data-v="recepty" onclick="prepni('recepty')"><span class="ic">📖</span>Recepty</a>
   <a data-v="planovac" onclick="prepni('planovac')"><span class="ic">📅</span>Plán</a>
   <a data-v="nakup" onclick="prepni('nakup')"><span class="ic">🛒</span>Nákup</a>
   <a data-v="_viac" onclick="otvorViac()"><span class="ic">⋯</span>Viac</a>
 </nav>
 
-<div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
-<div class="overlay" id="pick-overlay"><div class="modal" id="pick-modal" style="max-width:520px"></div></div>
-<div class="overlay" id="dlg-overlay"><div class="modal" id="dlg-modal" style="max-width:420px"></div></div>
+<!-- role="dialog" + aria-modal: okno je pre čítačku dialóg; aria-labelledby (nadpis okna) dopĺňa
+     _syncModal pri každej zmene obsahu, obsah pod oknom dostáva `inert`. -->
+<div class="overlay" id="overlay"><div class="modal" id="modal" role="dialog" aria-modal="true"></div></div>
+<div class="overlay" id="pick-overlay"><div class="modal" id="pick-modal" role="dialog" aria-modal="true" style="max-width:520px"></div></div>
+<div class="overlay" id="dlg-overlay"><div class="modal" id="dlg-modal" role="dialog" aria-modal="true" style="max-width:420px"></div></div>
 <div id="toast" role="status" aria-live="polite"></div>
 
-<div class="cook" id="cook">
+<div class="cook" id="cook" role="dialog" aria-modal="true" aria-labelledby="cook-title">
   <div class="ch"><span id="cook-title"></span>
     <span style="display:flex;gap:10px;align-items:center">
-      <label style="font-size:13px;display:flex;gap:6px;align-items:center"><input type="checkbox" id="cook-auto" onchange="cookAuto=this.checked"> hlas</label>
+      <label class="cook-hlas"><input type="checkbox" id="cook-auto" onchange="cookAuto=this.checked"> hlas<span class="sr-only"> — čítať každý krok nahlas</span></label>
       <button class="btn" style="background:#333;color:#fff;border:none" onclick="citajKrok()">🔊 Prečítať</button>
       <button class="btn close" style="background:#333;color:#fff;border:none" onclick="zavriCook()">✕ Koniec</button>
     </span>
   </div>
   <!-- pás krokov: koľko zostáva, viditeľné aj cez izbu (koncepcia B) -->
   <div class="cook-kroky" id="cook-kroky" aria-hidden="true"></div>
-  <div id="cook-timers" style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:8px"></div>
-  <div class="step" id="cook-step"></div>
+  <div id="cook-timers" role="group" aria-label="Časovače" style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:8px"></div>
+  <!-- krok + množstvá surovín, ktoré spomína (krokHint), prepočítané na porcie bloku -->
+  <div class="cook-telo"><div class="step" id="cook-step"></div><div class="cook-mn" id="cook-mn"></div></div>
   <div style="text-align:center;margin-bottom:12px">
     <button class="timer" id="cook-add-timer" style="display:none" onclick="pridajKrokovyCasovac()"></button>
     <button class="timer" style="background:#333" onclick="pridajCasovac()">➕ Časovač</button>
@@ -1510,7 +1618,7 @@
   <div class="nav2">
     <button class="ghost" onclick="krok(-1)">← Späť</button>
     <span id="cook-progress" style="min-width:70px;text-align:center"></span>
-    <button onclick="krok(1)">Ďalej →</button>
+    <button id="cook-dalej" onclick="krok(1)">Ďalej →</button>
   </div>
 </div>
 

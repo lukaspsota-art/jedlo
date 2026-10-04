@@ -545,8 +545,137 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
       assert.strictEqual(z("Varecha.sk – Bravčový guláš (autor: redakcia)"), "Varecha.sk");
       assert.strictEqual(z("Jíme zdravě s Fitrecepty III"), "Jíme zdravě s Fitrecepty");
       assert.strictEqual(z("Kuchárka Jedlo — vlastný recept (vlna 5)"), "Kuchárka Jedlo");
+      assert.strictEqual(z("Instagram @low.carb.love"), "Instagram", "každý účet bol vlastná rodina");
       assert.strictEqual(z(""), "(bez zdroja)");
+      // dáta: žiadna rodina sa nesmie líšiť len medzerou, bodkou či „.com" („RecipeTin Eats" vs „RecipeTinEats.com")
+      const kluc = s => s.toLowerCase().replace(/\.(com|sk|cz)$/, "").replace(/[^a-z0-9]/g, "");
+      const rod = bez.zdrojeList().map(([r]) => r), dup = rod.filter((r, i) => rod.findIndex(x => kluc(x) === kluc(r)) !== i);
+      assert.strictEqual(dup.length, 0, "duplicitné rodiny zdrojov: " + dup.join(", "));
+      // interné poznámky („vlna 5: …") sa v detaile čítajú ako zdroj
+      const zargon = bez.RECEPTY.filter(r => /\bvlna \d/i.test(r.zdroj || "")).map(r => r.id);
+      assert.strictEqual(zargon.length, 0, "interná poznámka v poli zdroj: " + zargon.slice(0, 5).join(", "));
     });
+    // audit 30. 9.: „Bryndzové halušky so slaninou" 2× (druhé boli cuketové), „Ovocný špíz" = zemiaky a klobása
+    ok("varené recepty majú jedinečný názov a dezert/nápoj nie je z mäsa", () => {
+      const pocet = new Map();
+      bez.RECEPTY.filter(r => !bez.jeVyrobok(r)).forEach(r => { const k = r.nazov.trim().toLowerCase(); pocet.set(k, (pocet.get(k) || 0) + 1); });
+      const dvakrat = [...pocet].filter(([, n]) => n > 1).map(([k]) => k);
+      assert.strictEqual(dvakrat.length, 0, "rovnaký názov má viac receptov: " + dvakrat.join(", "));
+      const meso = bez.RECEPTY.filter(r => /^(Dezert|Nápoj|Kokteil)$/.test(r.kategoria)
+        && (r.ingrediencie || []).some(i => { const p = bez.najdiPotravinu(i.nazov); return p && p.meso; })).map(r => r.id);
+      assert.strictEqual(meso.length, 0, "dezert/nápoj s mäsom: " + meso.join(", "));
+    });
+  }
+
+  // ── B3: zámky a kotvy, 🎲 ako generátor, pravidlo pre rozsah dní, „Dorovnať“ vyp. ──────────
+  nadpis("\nB3 — zámky a kotvy prežijú generovanie (8 seedov)");
+  {
+    const S8 = [1, 7, 42, 99, 555, 3, 11, 13];
+    const kotvaObed = a => a.RECEPTY.find(r => r.kategoria === "Hlavné jedlo" && a.kcalPorcia(r) > 700 && a.prejdeProfil(r) && a.maCarb(r));
+    const kotvaRan = a => a.RECEPTY.find(r => r.kategoria === "Raňajky" && a.kcalPorcia(r) > 250 && a.kcalPorcia(r) < 400 && a.prejdeProfil(r) && !a.jeSendvic(r));
+    let zamok = 0, kotva = 0, ran = 0, plne = 0;
+    for (const seed of S8) {
+      // 🔒 zamknutý ťažký obed v bloku B prežije „Zamiešať“ (generujJedalnicek bez kotiev)
+      const a = novy(seed);
+      await a.generujJedalnicek(true);
+      const k = kotvaObed(a);
+      [2, 3, 4].forEach(di => { a.S.plan[a.datumPre(di)].Obed = [k.id]; });
+      a.prepniZamok(2, "Obed");
+      await a.generujJedalnicek(true, true);
+      if ([2, 3, 4].every(di => a.slotIds(di, "Obed")[0] === k.id) && a.jeZamknute(3, "Obed")) zamok++;
+      if (a.planItems().length >= 20) plne++;
+      // „Zachovať už naplánované jedlá“: kotva v prázdnom týždni = rovnaký mechanizmus ako zámok
+      const b = novy(seed, { genCfg: { zachovat: true, cielMode: true, filtre: [] } });
+      const kb = kotvaObed(b);
+      [2, 3, 4].forEach(di => { b.S.plan[b.datumPre(di)] = { Obed: [kb.id] }; });
+      await b.generujJedalnicek(true);
+      if ([2, 3, 4].every(di => b.slotIds(di, "Obed")[0] === kb.id)) kotva++;
+      const c = novy(seed, { genCfg: { zachovat: true, cielMode: true, filtre: [] } });
+      const kc = kotvaRan(c);
+      [0, 1].forEach(di => { c.S.plan[c.datumPre(di)] = { "Raňajky": [kc.id] }; });
+      await c.generujJedalnicek(true);
+      if ([0, 1].every(di => c.slotIds(di, "Raňajky")[0] === kc.id)) ran++;
+    }
+    ok(`🔒 zamknutý obed 700+ kcal prežije Zamiešať aj opravné prechody (${zamok}/8)`, () => assert.strictEqual(zamok, 8));
+    ok(`zvyšok týždňa sa okolo zámku naplní (${plne}/8)`, () => assert.strictEqual(plne, 8));
+    ok(`kotva „Zachovať“ (obed 700+ kcal v bloku St–Pi) prežije generovanie (${kotva}/8, bolo 0/8)`, () => assert.strictEqual(kotva, 8));
+    ok(`kotva „Zachovať“ (nesendvičové raňajky vo všednom bloku) prežije generovanie (${ran}/8, bolo 1/8)`, () => assert.strictEqual(ran, 8));
+  }
+
+  nadpis("\nB3 — 🎲 pri jedle a pri bloku vyberá ako generátor");
+  {
+    const kSlot = (a, di, s) => a.mealKcal(a.slotIds(di, s)) * a.pf(di, s);
+    const poradieOk = (a, di) => { const O = kSlot(a, di, "Obed"), V = kSlot(a, di, "Večera"), R = kSlot(a, di, "Raňajky"), Sn = kSlot(a, di, "Snack");
+      return O >= V && V > R && R > Sn; };
+    let vymen = 0, zlePor = 0, pod300 = 0, bazaDupl = 0, snackBez = 0, snackTreba = 0, blokZle = 0, blokDni = 0, mimo = 0;
+    for (const seed of SEEDS) {
+      const a = novy(seed);
+      await a.generujJedalnicek(true);
+      const snap = JSON.stringify(a.S.plan), snapF = JSON.stringify(a.S.planF);
+      const bl = a.bloky();
+      for (const dni of bl) for (const s of ["Raňajky", "Obed", "Večera", "Snack"]) {
+        a.S.plan = JSON.parse(snap); a.S.planF = JSON.parse(snapF);
+        a.regenerujSlot(dni[0], s); vymen++;
+        if (!dni.every(di => poradieOk(a, di))) zlePor++;
+        const r = a.komponent(a.slotIds(dni[0], s)[0]);
+        if ((s === "Obed" || s === "Večera") && a.kcalPorcia(r) < a.MIN_KCAL_HLAVNY) pod300++;
+        if (s === "Raňajky") { const bazy = bl.map(b => a.ranajkyBaza(a.komponent(a.slotIds(b[0], "Raňajky")[0]))); if (new Set(bazy).size < bazy.length) bazaDupl++; }
+        if (s === "Snack" && a.snackDoplnok(r)) { snackTreba++; if (a.slotIds(dni[0], s).length < 2) snackBez++; }
+        if (Math.abs(a.baseDayKcal(dni[0]) * a.pf(dni[0], s) / CIEL - 1) > 0.15) mimo++;
+      }
+      a.S.plan = JSON.parse(snap); a.S.planF = JSON.parse(snapF);
+      for (let bi = 0; bi < bl.length; bi++) { a.regenerujBlok(bi); bl[bi].forEach(di => { blokDni++; if (!poradieOk(a, di)) blokZle++; }); }
+    }
+    ok(`🎲 pri jedle dodrží poradie kcal O ≥ V > R > S (${zlePor} z ${vymen} výmen porušilo, bolo 22 %)`, () => assert.strictEqual(zlePor, 0));
+    ok(`🎲 pri jedle nedá hlavné jedlo pod 300 kcal (${pod300}, bolo 7 zo 120)`, () => assert.strictEqual(pod300, 0));
+    ok(`🎲 raňajok nezopakuje bázu iného bloku (${bazaDupl})`, () => assert.strictEqual(bazaDupl, 0));
+    ok(`🎲 snacku nechá malému/chudobnému výrobku doplnok (${snackTreba - snackBez}/${snackTreba})`, () => assert.strictEqual(snackBez, 0));
+    ok(`po 🎲 je deň v pásme ±15 % cieľa (${mimo} mimo)`, () => assert.strictEqual(mimo, 0));
+    ok(`🎲 pri bloku dodrží poradie kcal v každom dni (${blokZle} z ${blokDni} dní porušilo, bolo 71 %)`, () => assert.strictEqual(blokZle, 0));
+  }
+  {
+    // prvý deň bloku „preč“ — 🎲 bloku dovtedy hlásilo „nenašiel som náhradu“
+    const a = novy(SEEDS[0], { tyzdenProfil: { [PONDELOK]: { ludia: null, prec: [0] } } });
+    await a.generujJedalnicek(true);
+    const pred = JSON.stringify(a.S.plan[a.datumPre(1)]);
+    a.regenerujBlok(0);
+    ok("🎲 bloku funguje, aj keď je prvý deň bloku „preč“", () => {
+      assert.notStrictEqual(JSON.stringify(a.S.plan[a.datumPre(1)]), pred, "utorok sa nezmenil");
+      assert.ok(a.slotIds(1, "Obed").length, "utorok ostal bez obeda");
+    });
+  }
+
+  nadpis("\nB3 — pravidlo pre rozsah dní platí pre celý blok, ak ho má ktorýkoľvek jeho deň");
+  {
+    let veg = 0, vegN = 0, cas = 0, casN = 0;
+    for (const seed of SEEDS) {
+      const a = novy(seed, { genCfg: { zachovat: false, cielMode: true, filtre: [{ od: 3, do: 3, veg: true }] } });
+      await a.generujJedalnicek(true);
+      [2, 3, 4].forEach(di => ["Obed", "Večera"].forEach(s => { vegN++; if (a.diety(a.komponent(a.slotIds(di, s)[0])).veg) veg++; }));
+      const b = novy(seed, { genCfg: { zachovat: false, cielMode: true, filtre: [{ od: 1, do: 2, maxCas: 15 }] } });
+      await b.generujJedalnicek(true);
+      [1, 2].forEach(di => ["Obed", "Večera"].forEach(s => { casN++; if (b.casMin(b.komponent(b.slotIds(di, s)[0])) <= 15) cas++; }));
+    }
+    ok(`„Št bezmäso“ v bloku St–Pi: obed aj večera bez mäsa (${veg}/${vegN}, bolo 8 %)`, () => assert.strictEqual(veg, vegN));
+    ok(`„Ut–St do 15 min“ platí v utorok aj v stredu, hoci sú v dvoch blokoch (${cas}/${casN}, utorok bol 8 %)`, () => assert.strictEqual(cas, casN));
+  }
+
+  nadpis("\nB3 — „Dorovnať dni na cieľ“ vypnuté vypne len škálovanie porcií");
+  {
+    let dni = 0, mimo = 0, zle = 0, faktor = 0; const kcal = [];
+    for (const seed of SEEDS) {
+      const a = novy(seed, { genCfg: { zachovat: false, cielMode: false, filtre: [] } });
+      await a.generujJedalnicek(true);
+      for (let di = 0; di < 7; di++) { dni++;
+        const k = a.baseDayKcal(di); kcal.push(Math.round(k));
+        if (Math.abs(k / CIEL - 1) > 0.15) mimo++;
+        const kc = s => a.mealKcal(a.slotIds(di, s));
+        if (!(kc("Obed") >= kc("Večera") && kc("Večera") > kc("Raňajky") && kc("Raňajky") > kc("Snack"))) zle++;
+        a.slotyDna(di).forEach(s => { if (a.pf(di, s) !== 1) faktor++; }); }
+    }
+    ok(`bez dorovnania sú dni stále v ±15 % cieľa (${dni - mimo}/${dni}; ${Math.min(...kcal)}–${Math.max(...kcal)} kcal, bolo −19 až +61 %)`, () => assert.strictEqual(mimo, 0));
+    ok(`bez dorovnania drží poradie jedál (${dni - zle}/${dni}, bolo 27/42)`, () => assert.strictEqual(zle, 0));
+    ok("bez dorovnania sa porcie neškálujú (žiadny faktor)", () => assert.strictEqual(faktor, 0));
   }
 
   console.log("\nOK — " + bezov + " kontrol prešlo.");

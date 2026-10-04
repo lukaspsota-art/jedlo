@@ -1,6 +1,6 @@
 // 08 — Mobil 393×850 (Nothing Phone 3a Pro) + 360×640 + 1440×900
 "use strict";
-const { prepni, zavriOkna, naplnPlan } = require("../lib");
+const { prepni, zavriOkna, naplnPlan, zakladnyStav } = require("../lib");
 
 const VIEWS = ["domov", "recepty", "planovac", "nakup", "vyziva", "spajza", "nastavenia"];
 
@@ -124,9 +124,11 @@ module.exports = {
     await zavriOkna(m);
 
     // ── <details class="panel mob-zbal"> je pri štarte zbalený ──────────────
+    // Výnimka (audit 30. 9.): pri PRÁZDNEJ špajzi je „➕ Pridať zásobu" otvorené — je to jediná akcia
+    // obrazovky a zbalené nad „Zatiaľ prázdne" pôsobilo, že sa nedá nič robiť.
     const det = await m.evaluate(() => ({
       mobZbal: [...document.querySelectorAll("details.panel.mob-zbal")].map((d) => ({ t: (d.querySelector("summary") || {}).textContent, open: d.open })),
-      otvorenych: document.querySelectorAll("details.panel.mob-zbal[open]").length,
+      otvorenych: [...document.querySelectorAll("details.panel.mob-zbal[open]")].filter((d) => !(d.id === "sp-pridaj" && !S.spajza.length)).length,
       poliaVDom: document.querySelectorAll("details.panel input, details.panel select").length,
     }));
     await t.ok(det.mobZbal.length > 0, `na stránke sú sekundárne panely mob-zbal (${det.mobZbal.length})`);
@@ -192,6 +194,11 @@ module.exports = {
         akcii: bunka ? bunka.querySelectorAll(".rm").length : 0,
         slot: (() => { const x = bunka && bunka.querySelector(".pc-slot"); return vid(x) ? x.textContent.trim() : ""; })(),
         pcData: (() => { const d = bunka && bunka.querySelector(".pc-data"); return d ? getComputedStyle(d).display : "none"; })(),
+        // B3: kcal a bielkoviny v jednom riadku (stred riadku kcal ≈ stred riadku B)
+        jedenRiadok: (() => { const k = bunka && bunka.querySelector(".kc"), d = bunka && bunka.querySelector(".pc-data"); if (!k || !d) return 99;
+          const a = k.getBoundingClientRect(), b = d.getBoundingClientRect(); return Math.round(Math.abs((a.top + a.bottom) / 2 - (b.top + b.bottom) / 2)); })(),
+        bunkaH: bunka ? Math.round(bunka.getBoundingClientRect().height) : 0,
+        krizik: bl.querySelectorAll(".pc-x, [onclick^='odoberKomponent']").length,
         kocka: (() => { const d = bunka && bunka.querySelector(".pc-znova"); if (!vid(d)) return 0; const r = d.getBoundingClientRect(); return Math.round(Math.min(r.width, r.height)); })(),
         hlava: karty[0] ? karty[0].innerText.replace(/\s+/g, " ") : "",
         taby: document.querySelector(".plan-tabs").innerText.replace(/\s+/g, " "),
@@ -207,6 +214,8 @@ module.exports = {
     await t.ok(planM.akcii === 2, "bunka plánu má na mobile 2 akcie", planM.akcii);
     await t.ok(planM.slot.length > 2, `menovka jedla je v karte, nie vo vlastnom stĺpci (.pc-slot = „${planM.slot}")`, JSON.stringify(planM));
     await t.ok(planM.pcData === "block", "bielkoviny sú v bunke aj mimo Kompaktu", JSON.stringify(planM));
+    await t.ok(planM.jedenRiadok <= 6, `kcal a bielkoviny sú v bunke v jednom riadku (posun ${planM.jedenRiadok} px; bunka ${planM.bunkaH} px, bolo 143–156)`, JSON.stringify(planM));
+    await t.ok(planM.krizik === 0, "✕ odobrať nie je v bunke plánu (je v „⋯ viac“ s rozsahom a „↩ Späť“)", planM.krizik);
     // v31: 🎲 hneď vedľa názvu jedla = okamžitá výmena v celom bloku
     await t.ok(planM.kocka >= 44, `🎲 vymeniť je vedľa názvu jedla a má ${planM.kocka} px`, JSON.stringify(planM));
     {
@@ -226,6 +235,31 @@ module.exports = {
       "prepínač Týždeň/Kalendár má textové menovky, nie holé emoji", planM.taby);
     await t.ok(/týžd/i.test(planM.sipka) && planM.sipka.length > 3,
       `šípka týždňa má menovku zo slov, nie znak („${planM.sipka}")`, planM.sipka);
+    // B3: sprievodca „✨ Zostaviť jedálniček“ na telefóne — Generovať v lepivej pätičke, dni sa
+    // zalamujú (chip „Ne“ bol mimo obrazovky) a „+ Pridať pravidlo“ nevyhodí skrolovanie na vrch
+    {
+      await m.evaluate(() => otvorGen());
+      await m.waitForTimeout(300);
+      const sp = await m.evaluate(() => {
+        const pm = document.getElementById("pick-modal");
+        const ne = [...pm.querySelectorAll(".chip")].find((c) => c.textContent.trim() === "Ne");
+        const pata = pm.querySelector(".akcie-lepiva"), r = pata ? pata.getBoundingClientRect() : null;
+        return { neVpravo: ne ? Math.round(ne.getBoundingClientRect().right) : 9999, w: innerWidth, h: innerHeight,
+          pata: r ? { top: Math.round(r.top), bottom: Math.round(r.bottom), text: pata.textContent.trim() } : null };
+      });
+      await t.ok(sp.neVpravo <= sp.w, `v sprievodcovi je chip „Ne“ na obrazovke (pravý okraj ${sp.neVpravo} px z ${sp.w})`, JSON.stringify(sp));
+      await t.ok(sp.pata && /Generovať/.test(sp.pata.text) && sp.pata.bottom <= sp.h && sp.pata.top < sp.h - 40,
+        "„✨ Generovať“ je v lepivej pätičke hneď po otvorení sprievodcu", JSON.stringify(sp));
+      // skroluje panel (spodný panel na telefóne) alebo prekrytie — meraj ten, čo sa naozaj skroluje
+      const skrolEl = () => { const pm = document.getElementById("pick-modal"), ov = document.getElementById("pick-overlay");
+        return pm.scrollHeight > pm.clientHeight + 1 ? pm : ov; };
+      const y = await m.evaluate((f) => { const el = eval(f)(); el.scrollTop = 1200; return el.scrollTop; }, "(" + skrolEl + ")");
+      await m.evaluate(() => { document.getElementById("gf-veg").checked = true; pridajGenFilter(); });
+      await m.waitForTimeout(200);
+      const y2 = await m.evaluate((f) => eval(f)().scrollTop, "(" + skrolEl + ")");
+      await t.ok(y > 300 && Math.abs(y2 - y) < 5, `„+ Pridať pravidlo“ ponechá pozíciu skrolovania (${Math.round(y)} → ${Math.round(y2)} px)`);
+      await m.evaluate(() => { S.genCfg.filtre = []; save(); zavriPick(); });
+    }
 
     // ── vodorovný pretok vo všetkých pohľadoch ─────────────────────────────
     for (const v of VIEWS) {
@@ -365,6 +399,92 @@ module.exports = {
     await t.ok(m.chyby.length === 0, "žiadna chyba v konzole na mobile",
       m.chyby.map((c) => `${c.typ}: ${c.text}`).join("\n"));
     await E.zavri(m);
+
+    // ── Späť a Escape zatvárajú LEN najvrchnejšiu vrstvu (audit 30. 9.) ─────
+    // Do v32 mal celý zásobník okien jeden záznam v histórii a dialóg ani menu žiadny: Späť nad
+    // dialógom prepol obrazovku a dialóg nechal visieť, Späť z varenia zavrelo aj detail.
+    const z = await E.novaStranka({ viewport: E.MOBIL, touch: true });
+    await prepni(z, "planovac");
+    await naplnPlan(z);
+    const vrstvy = () => z.evaluate(() => ({ view: document.querySelector(".view.active").id,
+      okna: ["overlay", "pick-overlay", "dlg-overlay", "cook"].filter((i) => document.getElementById(i).classList.contains("open")).join(","),
+      menu: !!document.querySelector(".menu.open"), dni: Object.keys(S.plan).length }));
+    const menuPlan = "#v-planovac .plan-head .menu-wrap > button";
+    await z.click(menuPlan); await z.waitForTimeout(250);
+    await z.goBack(); await z.waitForTimeout(400);
+    let v1 = await vrstvy();
+    await t.ok(!v1.menu && v1.view === "v-planovac", "„⋯ Viac“ → Späť zavrie len menu, Plán ostane", JSON.stringify(v1));
+    await z.click(menuPlan); await z.waitForTimeout(250);
+    await z.keyboard.press("Escape"); await z.waitForTimeout(250);
+    v1 = await vrstvy();
+    await t.ok(!v1.menu && v1.view === "v-planovac", "„⋯ Viac“ → Escape zavrie menu", JSON.stringify(v1));
+    const dniPred = v1.dni;
+    await z.evaluate(() => { window.confirmModal("Vyprázdniť tento týždenný plán?"); });
+    await z.waitForTimeout(250);
+    await z.goBack(); await z.waitForTimeout(400);
+    v1 = await vrstvy();
+    await t.ok(v1.okna === "" && v1.view === "v-planovac" && v1.dni === dniPred,
+      "potvrdzovací dialóg → Späť ho zavrie (= Zrušiť) a obrazovka sa nezmení", JSON.stringify(v1));
+    await z.evaluate(() => window.otvor(window.slotIds(0, "Obed")[0], { di: 0, slot: "Obed" })); await z.waitForTimeout(300);
+    await z.evaluate(() => window.spustiCook()); await z.waitForTimeout(300);
+    await z.locator('#cook button[onclick="pridajCasovac()"]').click(); await z.waitForTimeout(300);
+    v1 = await vrstvy();
+    await t.ok(v1.okna === "overlay,dlg-overlay,cook", "detail → varenie → ➕ Časovač sú tri vrstvy", JSON.stringify(v1));
+    await z.goBack(); await z.waitForTimeout(400);
+    v1 = await vrstvy();
+    await t.ok(v1.okna === "overlay,cook", "dialóg časovača → Späť zavrie len dialóg, varenie ostane", JSON.stringify(v1));
+    await z.goBack(); await z.waitForTimeout(400);
+    v1 = await vrstvy();
+    await t.ok(v1.okna === "overlay", "varenie → Späť vráti do detailu receptu (detail ostane otvorený)", JSON.stringify(v1));
+    await z.goBack(); await z.waitForTimeout(400);
+    v1 = await vrstvy();
+    await t.ok(v1.okna === "" && v1.view === "v-planovac", "detail → Späť → Plán", JSON.stringify(v1));
+    await t.ok(z.chyby.length === 0, "žiadna chyba v konzole pri Späť/Escape", z.chyby.map((c) => `${c.typ}: ${c.text}`).join("\n"));
+    await E.zavri(z);
+
+    // privítanie zavreté cez Escape sa pri ďalšom štarte už neukáže (dokončovali ho len ✕ a Preskočiť)
+    const ob = await E.novaStranka({ viewport: E.MOBIL, touch: true, stav: null });
+    const obPred = await ob.evaluate(() => document.getElementById("pick-overlay").classList.contains("open"));
+    await ob.keyboard.press("Escape");
+    await ob.waitForTimeout(400);
+    await ob.reload({ waitUntil: "load" });
+    await ob.waitForFunction(() => typeof RECEPTY !== "undefined");
+    await ob.waitForTimeout(150);
+    const obPo = await ob.evaluate(() => document.getElementById("pick-overlay").classList.contains("open"));
+    await t.ok(obPred && !obPo, "privítanie zavreté cez Escape sa pri ďalšom štarte neukáže", JSON.stringify({ obPred, obPo }));
+    await E.zavri(ob);
+
+    // ── dotykové ciele v Kompakte (zoom 0,82): to, čo stálo na pevných 44 CSS px, malo 36 ──
+    const k = await E.novaStranka({ viewport: E.MOBIL, touch: true, stav: {
+      profil: Object.assign(zakladnyStav().profil, { rezim: "kompakt" }),
+      spajza: [{ id: 1, nazov: "Mlieko", kluc: "mlieko", mnozstvo: 2, jednotka: "l", miesto: "Chladnička", expiry: "", min: 0 }], spSid: 2 } });
+    await prepni(k, "planovac");
+    await naplnPlan(k);
+    const kMin = (sel) => k.evaluate((s) => { const v = [...document.querySelectorAll(s)].filter((e) => e.getClientRects().length && e.checkVisibility())
+      .map((e) => { const r = (e.matches("input[type=checkbox]") && e.closest("label") ? e.closest("label") : e).getBoundingClientRect(); return Math.round(Math.min(r.width, r.height)); });
+      return v.length ? Math.min(...v) : null; }, sel);
+    const kc = {};
+    kc["◀ ▶ týždňa"] = await kMin("#plan-kontext .chip[onclick]");
+    await k.click(menuPlan); await k.waitForTimeout(200);
+    kc["položky ⋯ Viac"] = await kMin("#m-plan a");
+    await k.keyboard.press("Escape");
+    await k.evaluate(() => window.planZobraz("kalendar")); kc["‹ › kalendára"] = await kMin("#plan-kal .plan-head .btn");
+    await k.evaluate(() => window.planZobraz("tyzden"));
+    await k.evaluate(() => window.otvor(window.slotIds(0, "Obed")[0], { di: 0, slot: "Obed" })); await k.waitForTimeout(250);
+    kc["✕ detailu"] = await kMin("#modal .close"); kc["−/+ porcií"] = await kMin("#modal .stepper button"); kc["hviezda"] = await kMin("#modal .star-cil");
+    await zavriOkna(k);
+    await prepni(k, "domov"); kc["riadok Dnešný plán"] = await kMin("#dnes-plan .sur-klik");
+    await prepni(k, "recepty"); kc["hľadanie"] = await kMin("#hladaj");
+    await prepni(k, "nastavenia"); await k.evaluate(() => document.querySelectorAll("#v-nastavenia details").forEach((d) => { d.open = true; }));
+    kc["prepínač v Nastaveniach"] = await kMin("#v-nastavenia .switch input[type=checkbox]");
+    await k.evaluate(() => { window.prepni("vyziva"); window.vyzivaZobraz("den"); }); kc["‹ › Výživa-deň"] = await kMin("#vyziva-daynav .btn");
+    await prepni(k, "spajza"); kc["− + ✎ ✕ v Špajzi"] = await kMin("#spajza-list button");
+    const pod44 = Object.entries(kc).filter(([, v]) => v !== null && v < 44);
+    await t.ok(pod44.length === 0, "Kompakt: ✕, −/+, menu, prepínače, šípky, Špajza a hviezdy majú ≥ 44 px", JSON.stringify(kc));
+    await k.evaluate(() => window.otvorRozvrh()); await k.waitForTimeout(200);
+    const hr = await kMin("#pick-modal .hranica");
+    await t.ok(hr >= 24, `Kompakt: hranica dní v Rozvrhu má ≥ 24 px (${hr}; 44 sa so 7 dňami do riadku nezmestí)`, String(hr));
+    await E.zavri(k);
 
     // ── 360×640: najužší reálny telefón ────────────────────────────────────
     const s = await E.novaStranka({ viewport: E.MALY, touch: true });

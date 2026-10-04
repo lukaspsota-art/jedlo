@@ -300,4 +300,30 @@ ok("recept bez kcal_na_porciu sa nezmenil (kcal je čistý súčet surovín)", (
   assert.ok(Math.abs(v.kcal - kc / (r.porcie || 1)) < 1e-6, r.id + ": " + v.kcal + " vs " + kc / (r.porcie || 1));
 });
 
+// ─────────────────────────────────────────────────────────── audit 30. 9.: čísla z Nastavení
+console.log("\nNastavenia — vstupy sa zovrú na rozumný rozsah a povie sa to");
+ok("TDEE: vek −5, výška 0, váha 5000 kg nedá 79 240 kcal/deň, ale cieľ v rozsahu + toast", () => {
+  const a = load({ stav: { profil: { stravnici: [{ nazov: "Ja", kcal: 1450 }] } } });
+  const toasty = []; a.toast = m => toasty.push(m);
+  const pole = { "t-poh": "m", "t-vek": "-5", "t-vyska": "0", "t-vaha": "5000", "t-akt": "1.55", "t-koho": "0", "p-cieltyp": "udrzanie" };
+  Object.keys(pole).forEach(id => { a.document.getElementById(id).value = pole[id]; });
+  a.vypocitajCiel();
+  const k = a.S.profil.stravnici[0].kcal;
+  assert.ok(k >= 800 && k <= 5000, "cieľ " + k + " kcal/deň");
+  assert.strictEqual(a.document.getElementById("t-vek").value, 10, "pole veku neukazuje opravenú hodnotu");
+  assert.ok(toasty.some(t => /vek 10/.test(t) && /výška \(cm\) 100/.test(t) && /váha \(kg\) 250/.test(t)), "toast: " + toasty.join(" | "));
+});
+ok("kcal stravníka: −500 → 800 a 99 999 → 5000, nie potichu", () => {
+  const a = load({ stav: { profil: { stravnici: [{ nazov: "Ja", kcal: 1450 }] } } });
+  const toasty = []; a.toast = m => toasty.push(m);
+  a.zmenStravnika(0, "kcal", "-500");
+  assert.strictEqual(a.S.profil.stravnici[0].kcal, 800);
+  a.zmenStravnika(0, "kcal", "99999");
+  assert.strictEqual(a.S.profil.stravnici[0].kcal, 5000);
+  assert.strictEqual(toasty.length, 2, "toasty: " + toasty.join(" | "));
+  a.zmenStravnika(0, "kcal", "1800");
+  assert.strictEqual(a.S.profil.stravnici[0].kcal, 1800);
+  assert.strictEqual(toasty.length, 2, "platná hodnota nemá hlásiť opravu");
+});
+
 console.log("\nOK — " + bezov + " kontrol prešlo.");

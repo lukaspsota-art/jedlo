@@ -177,5 +177,15 @@ ok("prevodJednotka nedeliteľnú jednotku zaokrúhli na celé a nikdy nedá 0 pr
   const G = { matched: false, raw: 0.4, jednotka: "ks", zdroje: [] };
   assert.strictEqual(app.zobrazMnozstvo(G), "1 ks", app.zobrazMnozstvo(G));
 });
+ok("kuchynské miery sa v detaile zobrazia na polovice, pod 1 na štvrtiny; gramy od 10 na celé", () => {
+  // audit 30. 9.: „Chren 6,65 PL", „2,59 PL", „603,75 g" — presnosť, ktorú nikto neodmeria
+  assert.strictEqual(app.prevodJednotka(2.59, "PL"), "2,5 PL");
+  assert.strictEqual(app.prevodJednotka(6.65, "PL"), "6,5 PL");
+  assert.strictEqual(app.prevodJednotka(3.45, "strúčik"), "3,5 strúčik");
+  assert.strictEqual(app.prevodJednotka(0.25, "ČL"), "0,25 ČL", "¼ ČL sa nesmie zdvojnásobiť na pol");
+  assert.strictEqual(app.prevodJednotka(0.05, "ČL"), "0,25 ČL", "kladné množstvo nikdy nedá 0");
+  assert.strictEqual(app.prevodJednotka(603.75, "g"), "604 g");
+  assert.strictEqual(app.prevodJednotka(0.75, "l"), "0,75 l", "metrické jednotky sa nezaokrúhľujú na polovice");
+});
 
 console.log("\nOK — " + bezov + " kontrol prešlo.");

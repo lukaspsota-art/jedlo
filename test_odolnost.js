@@ -203,5 +203,71 @@ ok("všetky dni „preč“ → generátor nič nenaplánuje a nespadne", () => 
   });
 });
 
+nadpis("\nO7 — poškodený vlastný recept (záloha, synchronizácia)");
+// Do v32 každý z nich zhodil štart appky (alergenyReceptu, hľadanie) a s ním Domov aj Recepty.
+[
+  ["ingrediencie ako reťazec", { id: "moj-a", nazov: "A", ingrediencie: "abc", postup: ["Krok"] }],
+  ["ingrediencie a postup [null]", { id: "moj-b", nazov: "B", ingrediencie: [null], postup: [null] }],
+  ["surovina s číselným názvom, postup ako reťazec", { id: "moj-c", nazov: "C", ingrediencie: [{ nazov: 5, mnozstvo: "abc", jednotka: 7 }], postup: "Krok" }],
+  ["tagy ako reťazec, záporné porcie, javascript: odkaz", { id: "moj-d", nazov: "D", porcie: -3, tagy: "x", zdroj: "Ja", zdroj_url: "javascript:alert(1)",
+    ingrediencie: [{ nazov: "Ryža", mnozstvo: -100, jednotka: "g" }, null, { nazov: "Cesnak", mnozstvo: 2, jednotka: "strúčik" }], postup: "x" }],
+  ["id s úvodzovkou (onclick)", { id: "x');alert(1);('", nazov: "E", ingrediencie: [{ nazov: "Ryža", mnozstvo: 100, jednotka: "g" }], postup: [] }],
+].forEach(([popis, r]) => ok("appka sa naštartuje s vlastným receptom: " + popis, () => {
+  const a = neHodi("load", () => load({ seed: 1, stav: Object.assign({}, ZAKLAD, { mojeRecepty: [r] }) }));
+  neHodi("renderGrid", () => a.__orig.renderGrid());
+  neHodi("renderDash", () => a.__orig.renderDash());
+  a.RECEPTY.filter(x => x._moj).forEach(x => {
+    neHodi("hladaSedi", () => a.hladaSedi(x, "ryza cesnak"));
+    neHodi("diety", () => a.diety(x));
+    assert.ok(Array.isArray(x.ingrediencie) && x.ingrediencie.every(i => typeof i.nazov === "string" && (i.mnozstvo === null || i.mnozstvo > 0)), "ingrediencie: " + JSON.stringify(x.ingrediencie));
+    assert.ok(Array.isArray(x.postup) && x.postup.every(k => typeof k === "string"), "postup: " + JSON.stringify(x.postup));
+    assert.ok(Array.isArray(x.tagy) && x.porcie > 0, "tagy/porcie: " + JSON.stringify([x.tagy, x.porcie]));
+    assert.ok(!x.zdroj_url || /^https?:/.test(x.zdroj_url), "zdroj_url: " + x.zdroj_url);
+    assert.ok(/^[\w-]+$/.test(x.id), "id: " + x.id);
+  });
+  // recept bez jedinej suroviny aj kroku sa zahodí, ostatné sa opravia a ostanú
+  assert.strictEqual(a.S.mojeRecepty.length, r.id === "moj-b" || r.id.includes("'") ? 0 : 1, "počet vlastných receptov");
+}));
+
+nadpis("\nO8 — poškodené zámky jedál (S.zamky, B3)");
+[["reťazec", "zamky"], ["pole", [1, 2]], ["číslo", 5], ["null", null]].forEach(([nazov, hodnota]) =>
+  ok("S.zamky ako " + nazov + " sa zmení na {} a plán, zámok aj generátor fungujú", async () => {
+    const a = load({ seed: 3, stav: Object.assign({}, ZAKLAD, { zamky: hodnota }) });
+    assert.ok(a.S.zamky && typeof a.S.zamky === "object" && !Array.isArray(a.S.zamky), "zamky = " + JSON.stringify(a.S.zamky));
+    await a.generujJedalnicek(true);
+    neHodi("prepniZamok", () => a.prepniZamok(2, "Obed"));
+    assert.ok(a.jeZamknute(2, "Obed"), "zámok sa po oprave stavu nedá zapnúť");
+  }));
+ok("zámok dňa ako reťazec / číslo / pole a cudzie id nič nezamknú a nič nezhodia", async () => {
+  const a = load({ seed: 3, stav: ZAKLAD });
+  await a.generujJedalnicek(true);
+  a.S.zamky = { [a.datumPre(0)]: "Obed", [a.datumPre(1)]: 7, [a.datumPre(2)]: ["Obed"], [a.datumPre(3)]: { Obed: "neexistuje", Večera: 1 } };
+  for (let di = 0; di < 7; di++) ["Raňajky", "Obed", "Večera", "Snack"].forEach(sl =>
+    assert.strictEqual(neHodi("jeZamknute", () => a.jeZamknute(di, sl)), false, "deň " + di + " " + sl + " je zamknutý"));
+  neHodi("prepniZamok na reťazci", () => a.prepniZamok(0, "Obed"));
+  assert.ok(a.jeZamknute(0, "Obed"), "zámok na poškodenom dni sa nedá zapnúť");
+  await a.generujJedalnicek(true);
+  assert.ok(a.planItems().length > 10, "generátor so zámkami nenaplánoval nič");
+});
+
+nadpis("\nO9 — id zásoby zo synchronizácie / zálohy (audit 30. 9., Balík 5)");
+ok("textové id zásoby („1);alert(1);(“) sa prečísluje, zásoba ostane a onclick je neškodný", () => {
+  const zly = { id: "1);alert(1);(", nazov: "Ryža", mnozstvo: 500, jednotka: "g", miesto: "Špajza" };
+  const a = load({ seed: 1, stav: Object.assign({}, ZAKLAD, { spSid: 2, spajza: [zly,
+    { id: 1, nazov: "Cestoviny", mnozstvo: 500, jednotka: "g", miesto: "Špajza" },
+    { id: 1, nazov: "Duplicitné id", mnozstvo: 1, jednotka: "ks", miesto: "Špajza" }, { nazov: "Bez id", mnozstvo: 1, jednotka: "ks" }] }) });
+  const ids = a.S.spajza.map(x => x.id);
+  assert.strictEqual(a.S.spajza.length, 4, "zásoba sa zahodila: " + JSON.stringify(a.S.spajza));
+  assert.ok(ids.every(x => typeof x === "number" && Number.isFinite(x)), "id nie je číslo: " + JSON.stringify(ids));
+  assert.strictEqual(new Set(ids).size, 4, "id nie sú jedinečné: " + JSON.stringify(ids));
+  assert.ok(a.S.spSid > Math.max(...ids), "nové zásoby by dostali existujúce id (spSid " + a.S.spSid + ")");
+  const html = a.S.spajza.map(x => a.spRow(x)).join("");
+  assert.ok(!/alert/.test(html), "do onclick sa dostal cudzí JS: " + html.slice(0, 300));
+  // to isté cez synchronizáciu skupiny (normalizujStav nad prijatým blobom)
+  const s = a.normalizujStav({ spajza: [Object.assign({}, zly)] });
+  assert.ok(typeof s.spajza[0].id === "number" && s.spajza[0].nazov === "Ryža", JSON.stringify(s.spajza));
+  neHodi("nakupItems", () => a.nakupItems());
+});
+
 spusti().then(() => console.log("\nOK — " + bezov + " kontrol prešlo."))
   .catch(e => { console.error(String((e && e.message) || e)); process.exit(1); });

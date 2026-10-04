@@ -1003,7 +1003,8 @@
     "meso": false,
     "cena100": 1.5,
     "vlaknina": 0,
-    "sodik": 3300
+    "sodik": 3300,
+    "kanon": "worcestrov"
   },
   {
     "kluc": "tmavá sójová omáčka",
@@ -1058,7 +1059,8 @@
     "meso": false,
     "cena100": 0.25,
     "vlaknina": 0,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "jablkový ocot"
   },
   {
     "kluc": "ocot",
@@ -1746,7 +1748,8 @@
     "meso": false,
     "cena100": 1.5,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "g_za_list": 0.5
   },
   {
     "kluc": "limetk",
@@ -2521,7 +2524,8 @@
     "meso": false,
     "cena100": 4,
     "vlaknina": 27,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "kajenské korenie"
   },
   {
     "kluc": "zázvor",
@@ -3053,7 +3057,8 @@
     "meso": false,
     "cena100": 1.1,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "avokádo"
   },
   {
     "kluc": "prášok do pečiva",
@@ -3106,7 +3111,8 @@
     "vlaknina": 1,
     "sodik": 10000,
     "balenie_g": 12,
-    "balenie_popis": "12 g"
+    "balenie_popis": "12 g",
+    "kanon": "prášok do pečiva"
   },
   {
     "kluc": "chia",
@@ -3155,7 +3161,8 @@
     "meso": false,
     "cena100": 1.3,
     "vlaknina": 0,
-    "sodik": 400
+    "sodik": 400,
+    "kanon": "mozzarella"
   },
   {
     "kluc": "kokos",
@@ -3219,7 +3226,8 @@
     "meso": false,
     "cena100": 1.5,
     "vlaknina": 11.8,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "sezam"
   },
   {
     "kluc": "stévi",
@@ -3249,7 +3257,8 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "kurkuma"
   },
   {
     "kluc": "quino",
@@ -3264,7 +3273,8 @@
     "meso": false,
     "cena100": 1,
     "vlaknina": 7,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "quinoa"
   },
   {
     "kluc": "rukol",
@@ -3443,7 +3453,8 @@
     "meso": false,
     "cena100": 5,
     "vlaknina": 28,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "mleté chilli"
   },
   {
     "kluc": "vločky jemne mlet",
@@ -3475,7 +3486,8 @@
     "meso": false,
     "cena100": 0.6,
     "vlaknina": 7,
-    "sodik": 240
+    "sodik": 240,
+    "kanon": "predvarený cícer"
   },
   {
     "kluc": "čučoriedk",
@@ -3520,7 +3532,8 @@
     "meso": false,
     "cena100": 0.6,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "šampión"
   },
   {
     "kluc": "malin",
@@ -3629,7 +3642,8 @@
     "meso": false,
     "cena100": 2,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "polníč"
   },
   {
     "kluc": "polníč",
@@ -3832,7 +3846,8 @@
     "meso": false,
     "cena100": 6,
     "vlaknina": 28,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "chilli sušené"
   },
   {
     "kluc": "pyré bez cukru",
@@ -4024,7 +4039,8 @@
     "meso": false,
     "cena100": 4,
     "vlaknina": 40,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "majorán"
   },
   {
     "kluc": "ľanov",
@@ -4148,7 +4164,8 @@
     "meso": false,
     "cena100": 0.5,
     "vlaknina": 10,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "pohanka"
   },
   {
     "kluc": "brusnic",
@@ -4225,7 +4242,8 @@
     "meso": false,
     "cena100": 3.5,
     "vlaknina": 11,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "rasca"
   },
   {
     "kluc": "kardamón",
@@ -4287,7 +4305,8 @@
     "meso": false,
     "cena100": 0.6,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "reďkovky"
   },
   {
     "kluc": "lieskov",
@@ -4446,7 +4465,8 @@
     "meso": false,
     "cena100": 3.5,
     "vlaknina": 8,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "pistácie"
   },
   {
     "kluc": "srvátk",
@@ -4570,7 +4590,8 @@
     "meso": false,
     "cena100": 0.3,
     "vlaknina": 0,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "espresso"
   },
   {
     "kluc": "hrozien",
@@ -4649,7 +4670,8 @@
     "meso": false,
     "cena100": 1.3,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "čučoriedk"
   },
   {
     "kluc": "kardamóm",
@@ -4664,7 +4686,8 @@
     "meso": false,
     "cena100": 8,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "kardamón"
   },
   {
     "kluc": "datl",
@@ -4976,7 +4999,8 @@
     "meso": false,
     "cena100": 0.6,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "reďkovky"
   },
   {
     "kluc": "kukuričn",
@@ -5023,7 +5047,8 @@
     "meso": false,
     "cena100": 3.5,
     "vlaknina": 8,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "pistácie"
   },
   {
     "kluc": "kapar",
@@ -5105,7 +5130,8 @@
     "meso": false,
     "cena100": 2,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "karí korenie"
   },
   {
     "kluc": "kurkuma",
@@ -5150,7 +5176,8 @@
     "meso": false,
     "cena100": 2,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "karí korenie"
   },
   {
     "kluc": "pohánkov",
@@ -5225,7 +5252,8 @@
     "meso": false,
     "cena100": 3,
     "vlaknina": 13,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "goji ber"
   },
   {
     "kluc": "hrušky",
@@ -5402,7 +5430,8 @@
     "meso": false,
     "cena100": 3.5,
     "vlaknina": 8,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "pekan"
   },
   {
     "kluc": "kurkuma ml",
@@ -5417,7 +5446,8 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "kurkuma"
   },
   {
     "kluc": "reďkovky",
@@ -5477,7 +5507,8 @@
     "meso": false,
     "cena100": 0.5,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "červená repa"
   },
   {
     "kluc": "žitné vločky",
@@ -5528,7 +5559,8 @@
     "meso": true,
     "cena100": 2.5,
     "vlaknina": 0,
-    "sodik": 45
+    "sodik": 45,
+    "kanon": "filé z pstruha"
   },
   {
     "kluc": "gorgonzola",
@@ -5575,7 +5607,8 @@
     "meso": false,
     "cena100": 0.6,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "predvarená repa"
   },
   {
     "kluc": "vaječné bielky",
@@ -5592,7 +5625,8 @@
     "meso": false,
     "cena100": 0.3,
     "vlaknina": 0,
-    "sodik": 166
+    "sodik": 166,
+    "kanon": "bielok"
   },
   {
     "kluc": "ľanové semienko",
@@ -5607,7 +5641,8 @@
     "meso": false,
     "cena100": 1,
     "vlaknina": 27.3,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "ľanové semien"
   },
   {
     "kluc": "sezamové",
@@ -5639,7 +5674,8 @@
     "meso": false,
     "cena100": 2,
     "vlaknina": 1,
-    "sodik": 25
+    "sodik": 25,
+    "kanon": "kokos strúh"
   },
   {
     "kluc": "granátová",
@@ -5669,7 +5705,8 @@
     "meso": false,
     "cena100": 0.35,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "predvarená repa"
   },
   {
     "kluc": "roštenka",
@@ -5838,7 +5875,8 @@
     "meso": false,
     "cena100": 0.35,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "predvarená repa"
   },
   {
     "kluc": "chilli paprička",
@@ -5900,7 +5938,8 @@
     "meso": false,
     "cena100": 4,
     "vlaknina": 28,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "čili vločky"
   },
   {
     "kluc": "čierna quinoa",
@@ -6213,7 +6252,8 @@
     "meso": false,
     "cena100": 3,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "bazalk"
   },
   {
     "kluc": "zubáča",
@@ -6245,7 +6285,8 @@
     "meso": false,
     "cena100": 3,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "rasca"
   },
   {
     "kluc": "kefír",
@@ -7530,7 +7571,8 @@
     "balenie_g": 200,
     "balenie_popis": "200 g",
     "vlaknina": 0,
-    "sodik": 1000
+    "sodik": 1000,
+    "kanon": "párky"
   },
   {
     "kluc": "krab",
@@ -8238,7 +8280,8 @@
     "meso": false,
     "cena100": 5,
     "vlaknina": 34,
-    "sodik": 277
+    "sodik": 277,
+    "kanon": "klinčeky"
   },
   {
     "kluc": "kokosový olej",
@@ -8868,7 +8911,8 @@
     "meso": false,
     "cena100": 1.8,
     "vlaknina": 28,
-    "sodik": 1640
+    "sodik": 1640,
+    "kanon": "mleté chilli"
   },
   {
     "kluc": "čili vločky",
@@ -8898,7 +8942,8 @@
     "meso": false,
     "cena100": 1.8,
     "vlaknina": 28,
-    "sodik": 1640
+    "sodik": 1640,
+    "kanon": "mleté chilli"
   },
   {
     "kluc": "mleté rasca",
@@ -8913,7 +8958,8 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 11,
-    "sodik": 168
+    "sodik": 168,
+    "kanon": "rasca"
   },
   {
     "kluc": "mletý zázvor",
@@ -8943,7 +8989,8 @@
     "meso": false,
     "cena100": 3,
     "vlaknina": 53,
-    "sodik": 10
+    "sodik": 10,
+    "kanon": "škorica"
   },
   {
     "kluc": "vegeta",
@@ -8977,7 +9024,8 @@
     "balenie_g": 500,
     "balenie_popis": "500 g",
     "vlaknina": 0,
-    "sodik": 0
+    "sodik": 0,
+    "kanon": "bravčová masť"
   },
   {
     "kluc": "omastok",
@@ -9843,7 +9891,8 @@
     "vlaknina": 0,
     "sodik": 0,
     "balenie_g": 500,
-    "balenie_popis": "500 g"
+    "balenie_popis": "500 g",
+    "kanon": "kuracie prsia"
   },
   {
     "kluc": "stehno kuracie",
@@ -9858,7 +9907,8 @@
     "meso": true,
     "cena100": 0.6,
     "vlaknina": 0,
-    "sodik": 80
+    "sodik": 80,
+    "kanon": "kuracie steh"
   },
   {
     "kluc": "mäso kuracie",
@@ -9905,7 +9955,8 @@
     "vlaknina": 0,
     "sodik": 71,
     "balenie_g": 400,
-    "balenie_popis": "400 g"
+    "balenie_popis": "400 g",
+    "kanon": "kuracia pečeň"
   },
   {
     "kluc": "hydinová pečeň",
@@ -9950,7 +10001,8 @@
     "meso": true,
     "cena100": 0.4,
     "vlaknina": 0,
-    "sodik": 87
+    "sodik": 87,
+    "kanon": "bravčová pečeň"
   },
   {
     "kluc": "bravčová panenka",
@@ -9995,7 +10047,8 @@
     "meso": true,
     "cena100": 0.7,
     "vlaknina": 0,
-    "sodik": 60
+    "sodik": 60,
+    "kanon": "bravčové plece"
   },
   {
     "kluc": "bravčové karé",
@@ -10026,7 +10079,8 @@
     "cena100": 0.8,
     "vlaknina": 0,
     "sodik": 55,
-    "g_za_platok": 120
+    "g_za_platok": 120,
+    "kanon": "bravčové karé"
   },
   {
     "kluc": "stehno hovädzie",
@@ -10086,7 +10140,8 @@
     "meso": false,
     "cena100": 0.15,
     "vlaknina": 0,
-    "sodik": 350
+    "sodik": 350,
+    "kanon": "hovädzí vývar"
   },
   {
     "kluc": "bravčová masť",
@@ -10120,7 +10175,8 @@
     "vlaknina": 0,
     "sodik": 0,
     "balenie_g": 500,
-    "balenie_popis": "500 g"
+    "balenie_popis": "500 g",
+    "kanon": "bravčová masť"
   },
   {
     "kluc": "olej olivový",
@@ -10137,7 +10193,8 @@
     "vlaknina": 0,
     "sodik": 1,
     "balenie_g": 920,
-    "balenie_popis": "1 l"
+    "balenie_popis": "1 l",
+    "kanon": "olivový olej"
   },
   {
     "kluc": "olivový panenský olej",
@@ -10154,7 +10211,8 @@
     "vlaknina": 0,
     "sodik": 1,
     "balenie_g": 920,
-    "balenie_popis": "1 l"
+    "balenie_popis": "1 l",
+    "kanon": "olivový olej"
   },
   {
     "kluc": "olivový kvalitný olej",
@@ -10171,7 +10229,8 @@
     "vlaknina": 0,
     "sodik": 1,
     "balenie_g": 920,
-    "balenie_popis": "1 l"
+    "balenie_popis": "1 l",
+    "kanon": "olivový olej"
   },
   {
     "kluc": "sezamový olej",
@@ -10360,7 +10419,8 @@
     "meso": false,
     "cena100": 0.4,
     "vlaknina": 0.3,
-    "sodik": 1
+    "sodik": 1,
+    "kanon": "citrónová šťava"
   },
   {
     "kluc": "limetková šťava",
@@ -10390,7 +10450,8 @@
     "meso": false,
     "cena100": 0.8,
     "vlaknina": 0.4,
-    "sodik": 2
+    "sodik": 2,
+    "kanon": "limetková šťava"
   },
   {
     "kluc": "pomarančová šťava",
@@ -10444,7 +10505,8 @@
     "vlaknina": 2.5,
     "sodik": 1200,
     "balenie_g": 190,
-    "balenie_popis": "190 g"
+    "balenie_popis": "190 g",
+    "kanon": "pesto"
   },
   {
     "kluc": "bylinková soľ",
@@ -10512,7 +10574,8 @@
     "vlaknina": 0,
     "sodik": 0,
     "balenie_g": 1000,
-    "balenie_popis": "1 kg"
+    "balenie_popis": "1 kg",
+    "kanon": "cukor"
   },
   {
     "kluc": "cukor krupica",
@@ -10529,7 +10592,8 @@
     "vlaknina": 0,
     "sodik": 0,
     "balenie_g": 1000,
-    "balenie_popis": "1 kg"
+    "balenie_popis": "1 kg",
+    "kanon": "cukor"
   },
   {
     "kluc": "krupica cukor",
@@ -10546,7 +10610,8 @@
     "vlaknina": 0,
     "sodik": 0,
     "balenie_g": 1000,
-    "balenie_popis": "1 kg"
+    "balenie_popis": "1 kg",
+    "kanon": "cukor"
   },
   {
     "kluc": "jablkový ocot",
@@ -10578,7 +10643,8 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 10.5,
-    "sodik": 168
+    "sodik": 168,
+    "kanon": "rímska rasca"
   },
   {
     "kluc": "rímska rasca",
@@ -10608,7 +10674,8 @@
     "meso": false,
     "cena100": 0.8,
     "vlaknina": 2.6,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "zelená fazuľa"
   },
   {
     "kluc": "zelená fazuľa",
@@ -10672,7 +10739,8 @@
     "vlaknina": 2.9,
     "sodik": 660,
     "balenie_g": 500,
-    "balenie_popis": "500 g"
+    "balenie_popis": "500 g",
+    "kanon": "kyslá kapusta"
   },
   {
     "kluc": "medvedí cesnak",
@@ -10704,7 +10772,8 @@
     "vlaknina": 12,
     "sodik": 2100,
     "balenie_g": 100,
-    "balenie_popis": "100 g"
+    "balenie_popis": "100 g",
+    "kanon": "sušené paradajky"
   },
   {
     "kluc": "sóda bikarbóna",
@@ -10851,7 +10920,8 @@
     "vlaknina": 3,
     "sodik": 480,
     "balenie_g": 270,
-    "balenie_popis": "6 ks"
+    "balenie_popis": "6 ks",
+    "kanon": "rožok"
   },
   {
     "kluc": "rohlík",
@@ -10870,7 +10940,8 @@
     "vlaknina": 3,
     "sodik": 480,
     "balenie_g": 270,
-    "balenie_popis": "6 ks"
+    "balenie_popis": "6 ks",
+    "kanon": "rožok"
   },
   {
     "kluc": "veka",
@@ -11085,7 +11156,8 @@
     "vlaknina": 3,
     "sodik": 6,
     "balenie_g": 250,
-    "balenie_popis": "250 g"
+    "balenie_popis": "250 g",
+    "kanon": "lasagne plát"
   },
   {
     "kluc": "tagliatelle",
@@ -11255,7 +11327,8 @@
     "sodik": 10,
     "balenie_g": 200,
     "balenie_popis": "200 g",
-    "g_za_platok": 8
+    "g_za_platok": 8,
+    "kanon": "ryžový papier"
   },
   {
     "kluc": "ryžový papier",
@@ -11360,7 +11433,8 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 28,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "čili vločky"
   },
   {
     "kluc": "vločky chilli",
@@ -11375,7 +11449,8 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 28,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "čili vločky"
   },
   {
     "kluc": "granola",
@@ -11764,7 +11839,8 @@
     "meso": true,
     "cena100": 0.6,
     "vlaknina": 0,
-    "sodik": 900
+    "sodik": 900,
+    "kanon": "bravčové koleno"
   },
   {
     "kluc": "kolienk",
@@ -11779,7 +11855,8 @@
     "meso": true,
     "cena100": 0.6,
     "vlaknina": 0,
-    "sodik": 900
+    "sodik": 900,
+    "kanon": "bravčové koleno"
   },
   {
     "kluc": "údené kosti",
@@ -12124,7 +12201,8 @@
     "vlaknina": 0,
     "sodik": 840,
     "balenie_g": 120,
-    "balenie_popis": "120 g"
+    "balenie_popis": "120 g",
+    "kanon": "hermelín"
   },
   {
     "kluc": "grana padano",
@@ -12200,7 +12278,8 @@
     "vlaknina": 0,
     "sodik": 400,
     "balenie_g": 125,
-    "balenie_popis": "125 g"
+    "balenie_popis": "125 g",
+    "kanon": "mozzarella"
   },
   {
     "kluc": "crème fraîche",
@@ -12295,7 +12374,8 @@
     "vlaknina": 0,
     "sodik": 140,
     "balenie_g": 550,
-    "balenie_popis": "10 ks"
+    "balenie_popis": "10 ks",
+    "kanon": "vajc"
   },
   {
     "kluc": "prepeličie vajcia",
@@ -12487,7 +12567,8 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 2.5,
-    "sodik": 9
+    "sodik": 9,
+    "kanon": "shiitake"
   },
   {
     "kluc": "topinambur",
@@ -12532,7 +12613,8 @@
     "meso": false,
     "cena100": 0.3,
     "vlaknina": 1.2,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "paradajk"
   },
   {
     "kluc": "rajčiak",
@@ -12547,7 +12629,8 @@
     "meso": false,
     "cena100": 0.3,
     "vlaknina": 1.2,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "paradajk"
   },
   {
     "kluc": "pretlak",
@@ -12564,7 +12647,8 @@
     "vlaknina": 3,
     "sodik": 40,
     "balenie_g": 140,
-    "balenie_popis": "140 g"
+    "balenie_popis": "140 g",
+    "kanon": "paradajkový pretlak"
   },
   {
     "kluc": "špenátový pretlak",
@@ -12816,7 +12900,8 @@
     "meso": false,
     "cena100": 0.6,
     "vlaknina": 1.7,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "papaya"
   },
   {
     "kluc": "papaya",
@@ -12861,7 +12946,8 @@
     "meso": false,
     "cena100": 0.25,
     "vlaknina": 3.6,
-    "sodik": 20
+    "sodik": 20,
+    "kanon": "kaleráb"
   },
   {
     "kluc": "pak choi",
@@ -12891,7 +12977,8 @@
     "meso": false,
     "cena100": 0.5,
     "vlaknina": 1,
-    "sodik": 65
+    "sodik": 65,
+    "kanon": "pak choi"
   },
   {
     "kluc": "bambus",
@@ -12953,7 +13040,8 @@
     "meso": false,
     "cena100": 0.5,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "kanon": "baraní roh"
   },
   {
     "kluc": "chili",
@@ -12998,7 +13086,8 @@
     "meso": false,
     "cena100": 1.5,
     "vlaknina": 2.8,
-    "sodik": 3
+    "sodik": 3,
+    "kanon": "jalapeño"
   },
   {
     "kluc": "žihľav",
@@ -13182,7 +13271,8 @@
     "meso": false,
     "cena100": 6,
     "vlaknina": 21,
-    "sodik": 16
+    "sodik": 16,
+    "kanon": "muškátový oriešok"
   },
   {
     "kluc": "jalovec",
@@ -13212,7 +13302,8 @@
     "meso": false,
     "cena100": 3,
     "vlaknina": 30,
-    "sodik": 10
+    "sodik": 10,
+    "kanon": "jalovec"
   },
   {
     "kluc": "badyán",
@@ -13257,7 +13348,8 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 10.5,
-    "sodik": 168
+    "sodik": 168,
+    "kanon": "rímska rasca"
   },
   {
     "kluc": "turmerick",
@@ -13272,7 +13364,8 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 21,
-    "sodik": 38
+    "sodik": 38,
+    "kanon": "kurkuma"
   },
   {
     "kluc": "asafoetida",
@@ -13302,7 +13395,8 @@
     "meso": false,
     "cena100": 0.6,
     "vlaknina": 2,
-    "sodik": 13
+    "sodik": 13,
+    "kanon": "zázvor"
   },
   {
     "kluc": "kôprov",
@@ -13362,7 +13456,8 @@
     "meso": false,
     "cena100": 2,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "kanon": "karí korenie"
   },
   {
     "kluc": "rýchlosoľ",
@@ -13479,7 +13574,8 @@
     "vlaknina": 1,
     "sodik": 9,
     "balenie_g": 200,
-    "balenie_popis": "200 g"
+    "balenie_popis": "200 g",
+    "kanon": "kukuričný škrob"
   },
   {
     "kluc": "gustin",
@@ -13496,7 +13592,8 @@
     "vlaknina": 1,
     "sodik": 9,
     "balenie_g": 200,
-    "balenie_popis": "200 g"
+    "balenie_popis": "200 g",
+    "kanon": "kukuričný škrob"
   },
   {
     "kluc": "worchester",
@@ -13515,7 +13612,8 @@
     "vlaknina": 0,
     "sodik": 3300,
     "balenie_g": 140,
-    "balenie_popis": "140 ml"
+    "balenie_popis": "140 ml",
+    "kanon": "worcestrov"
   },
   {
     "kluc": "worcestrov",
@@ -13553,7 +13651,8 @@
     "vlaknina": 0,
     "sodik": 3300,
     "balenie_g": 140,
-    "balenie_popis": "140 ml"
+    "balenie_popis": "140 ml",
+    "kanon": "worcestrov"
   },
   {
     "kluc": "worcestrersk",
@@ -13572,7 +13671,8 @@
     "vlaknina": 0,
     "sodik": 3300,
     "balenie_g": 140,
-    "balenie_popis": "140 ml"
+    "balenie_popis": "140 ml",
+    "kanon": "worcestrov"
   },
   {
     "kluc": "tabasco",
@@ -13906,7 +14006,8 @@
     "vlaknina": 0,
     "sodik": 8000,
     "balenie_g": 250,
-    "balenie_popis": "250 ml"
+    "balenie_popis": "250 ml",
+    "kanon": "tekuté dochucovadlo"
   },
   {
     "kluc": "tekuté dochucovadlo",
@@ -13956,7 +14057,8 @@
     "sodik": 48,
     "balenie_g": 25,
     "balenie_popis": "25 g",
-    "g_za_platok": 3
+    "g_za_platok": 3,
+    "kanon": "riasy nori"
   },
   {
     "kluc": "riasy nori",
@@ -14253,7 +14355,8 @@
     "vlaknina": 0,
     "sodik": 0,
     "balenie_g": 20,
-    "balenie_popis": "20 g"
+    "balenie_popis": "20 g",
+    "kanon": "tortové želé"
   },
   {
     "kluc": "tortové želé",
@@ -14306,7 +14409,8 @@
     "vlaknina": 0,
     "sodik": 0,
     "balenie_g": 1000,
-    "balenie_popis": "1 kg"
+    "balenie_popis": "1 kg",
+    "kanon": "proteínový prášok"
   },
   {
     "kluc": "proteínový prášok",
@@ -14361,7 +14465,8 @@
     "vlaknina": 3.3,
     "sodik": 12,
     "balenie_g": 200,
-    "balenie_popis": "200 g"
+    "balenie_popis": "200 g",
+    "kanon": "kešu"
   },
   {
     "kluc": "orechy kešu",
@@ -14380,7 +14485,8 @@
     "vlaknina": 3.3,
     "sodik": 12,
     "balenie_g": 200,
-    "balenie_popis": "200 g"
+    "balenie_popis": "200 g",
+    "kanon": "kešu"
   },
   {
     "kluc": "semienka slnečnice",
@@ -14395,7 +14501,8 @@
     "meso": false,
     "cena100": 1,
     "vlaknina": 8.6,
-    "sodik": 9
+    "sodik": 9,
+    "kanon": "slnečnicové semien"
   },
   {
     "kluc": "slnečnicové jadierka",
@@ -14410,7 +14517,8 @@
     "meso": false,
     "cena100": 1,
     "vlaknina": 8.6,
-    "sodik": 9
+    "sodik": 9,
+    "kanon": "slnečnicové semien"
   },
   {
     "kluc": "jačmenný slad",
@@ -14459,7 +14567,8 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 0,
-    "sodik": 2
+    "sodik": 2,
+    "kanon": "espresso"
   },
   {
     "kluc": "čaj čierny",
@@ -14646,7 +14755,8 @@
     "vlaknina": 0,
     "sodik": 0,
     "balenie_g": 700,
-    "balenie_popis": "0,7 l"
+    "balenie_popis": "0,7 l",
+    "kanon": "kahlúa"
   },
   {
     "kluc": "griotka",
@@ -14754,7 +14864,8 @@
     "vlaknina": 0,
     "sodik": 0,
     "balenie_g": 500,
-    "balenie_popis": "0,5 l"
+    "balenie_popis": "0,5 l",
+    "kanon": "vaječný likér"
   },
   {
     "kluc": "cabernet",
@@ -14847,7 +14958,8 @@
     "vlaknina": 0,
     "sodik": 38,
     "balenie_g": 250,
-    "balenie_popis": "250 ml"
+    "balenie_popis": "250 ml",
+    "kanon": "smotana na šľahanie"
   },
   {
     "kluc": "prsia morčacie",
@@ -14864,7 +14976,8 @@
     "vlaknina": 0,
     "sodik": 60,
     "balenie_g": 500,
-    "balenie_popis": "500 g"
+    "balenie_popis": "500 g",
+    "kanon": "morčacie prsia"
   },
   {
     "kluc": "morčacie prsia",
@@ -14896,7 +15009,8 @@
     "meso": true,
     "cena100": 1,
     "vlaknina": 0,
-    "sodik": 70
+    "sodik": 70,
+    "kanon": "morčacie stehno"
   },
   {
     "kluc": "morčacie stehno",
@@ -14941,7 +15055,8 @@
     "meso": true,
     "cena100": 0.6,
     "vlaknina": 0,
-    "sodik": 900
+    "sodik": 900,
+    "kanon": "bravčové koleno"
   },
   {
     "kluc": "bravčové plece",
@@ -14988,7 +15103,8 @@
     "vlaknina": 0,
     "sodik": 0,
     "balenie_g": 500,
-    "balenie_popis": "500 g"
+    "balenie_popis": "500 g",
+    "kanon": "bravčová masť"
   },
   {
     "kluc": "sušené brusnice",
@@ -15054,7 +15170,8 @@
     "vlaknina": 0,
     "sodik": 36,
     "balenie_g": 400,
-    "balenie_popis": "400 g"
+    "balenie_popis": "400 g",
+    "kanon": "grécky jogurt"
   },
   {
     "kluc": "pomarančová kôra",
@@ -16268,7 +16385,8 @@
     "balenie_g": 500,
     "balenie_popis": "vanička 500 g",
     "vlaknina": 1.2,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "cherry paradajk"
   },
   {
     "kluc": "mini mrkva ocistena balenie",
@@ -18042,7 +18160,8 @@
     "balenie_g": 250,
     "balenie_popis": "vanička 250 g",
     "vlaknina": 1.2,
-    "sodik": 5
+    "sodik": 5,
+    "kanon": "cherry paradajk"
   },
   {
     "kluc": "baby mrkva balenie",
@@ -18586,5 +18705,60 @@
     "balenie_popis": null,
     "vlaknina": 3.1,
     "sodik": 52
+  },
+  {
+    "kluc": "cherry paradajk",
+    "oddelenie": "Zelenina a ovocie",
+    "alergeny": [],
+    "kcal": 18,
+    "bielkoviny": 0.9,
+    "tuky": 0.2,
+    "sacharidy": 3.9,
+    "g_za_ks": 15,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.55,
+    "vlaknina": 1.2,
+    "sodik": 5,
+    "balenie_g": 500,
+    "balenie_popis": "vanička 500 g"
+  },
+  {
+    "kluc": "paradajky cherry",
+    "oddelenie": "Zelenina a ovocie",
+    "alergeny": [],
+    "kcal": 18,
+    "bielkoviny": 0.9,
+    "tuky": 0.2,
+    "sacharidy": 3.9,
+    "g_za_ks": 15,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.55,
+    "vlaknina": 1.2,
+    "sodik": 5,
+    "balenie_g": 500,
+    "balenie_popis": "vanička 500 g",
+    "kanon": "cherry paradajk"
+  },
+  {
+    "kluc": "prepeličie",
+    "oddelenie": "Mliečne a vajcia",
+    "alergeny": [
+      "vajcia"
+    ],
+    "kcal": 158,
+    "bielkoviny": 13,
+    "tuky": 11,
+    "sacharidy": 0.4,
+    "g_za_ks": 10,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.5,
+    "vlaknina": 0,
+    "sodik": 141,
+    "balenie_g": 120,
+    "balenie_popis": "12 ks",
+    "kanon": "prepeličie vajcia"
   }
 ]

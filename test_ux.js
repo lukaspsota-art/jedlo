@@ -131,16 +131,28 @@ ok("4 prekreslenia mriežky (1336 receptov) pod 1,5 s", () => {
 
 // ─────────────────────────────────────────────────────────── D7 archív
 nadpis("\nD7 — „Skopíruj minulý týždeň“");
-ok("kopíruje sa NAJNOVŠÍ uložený týždeň (archív je unshift)", () => {
+// B3: kopíruje sa predchádzajúci KALENDÁRNY týždeň zo S.plan, nie posledný uložený z archívu,
+// a cieľ kcal sa nemení (archív ho prepisoval a rozišiel sa s prvým stravníkom)
+ok("kopíruje sa predchádzajúci kalendárny týždeň (podľa dátumov), nie archív, a cieľ kcal sa nemení", () => {
   const app = novy();
   const S = app.S;
-  vloz(app, recept("stary", 500)); vloz(app, recept("novy", 500));
-  S.archiv = [
-    { id: "a2", nazov: "novší", plan: { 0: { Obed: ["novy"] } }, planF: {} },
-    { id: "a1", nazov: "starší", plan: { 0: { Obed: ["stary"] } }, planF: {} },
-  ];
+  vloz(app, recept("minuly", 500)); vloz(app, recept("archivny", 500));
+  S.archiv = [{ id: "a1", nazov: "archív", ciel_kcal: 2000, plan: { 0: { Obed: ["archivny"] } }, planF: {} }];
+  S.plan[app.pridajDni(PONDELOK, -7)] = { Obed: ["minuly"] };       // pondelok minulého týždňa
+  S.plan[app.pridajDni(PONDELOK, -5)] = { Večera: ["minuly"] };     // streda minulého týždňa
   return app.skopirujMinuly().then(() => {
-    assert.deepStrictEqual(app.slotIds(0, "Obed"), ["novy"], "skopíroval sa " + app.slotIds(0, "Obed"));
+    assert.deepStrictEqual(Array.from(app.slotIds(0, "Obed")), ["minuly"], "pondelok: " + app.slotIds(0, "Obed"));
+    assert.deepStrictEqual(Array.from(app.slotIds(2, "Večera")), ["minuly"], "streda: " + app.slotIds(2, "Večera"));
+    assert.strictEqual(S.profil.kcal, 1450, "cieľ kcal sa zmenil na " + S.profil.kcal);
+    assert.ok(S.plan[app.pridajDni(PONDELOK, -7)], "minulý týždeň zmizol");
+  });
+});
+ok("prázdny minulý týždeň nič neprepíše", () => {
+  const app = novy();
+  vloz(app, recept("tento", 500));
+  app.S.plan[app.datumPre(0)] = { Obed: ["tento"] };
+  return app.skopirujMinuly().then(() => {
+    assert.deepStrictEqual(Array.from(app.slotIds(0, "Obed")), ["tento"], "plán sa zmenil: " + app.slotIds(0, "Obed"));
   });
 });
 
@@ -378,6 +390,135 @@ ok("picker v pláne hľadá aj podľa suroviny a ukáže ktorá sedí", () => {
   assert.ok(html.includes("🥕 Zubrovka"), "chýba hint, ktorá surovina sedí: " + html.slice(0, 200));
 });
 
+// ─────────────────────────────────────────────────────────── V2 lepšie hľadanie (v33, Balík 6)
+nadpis("\nV2 — hľadanie: tvar slova, synonymá, vylúčenie, relevancia, výrobky");
+// karty, ktoré pribudli v mriežke po poslednom renderGrid (fake DOM innerHTML="" deti nemaže)
+const novyGrid = app => { const g = app.document.getElementById("grid"), od = g.children.length;
+  return () => { const mapa = new Map(app.RECEPTY.map(r => [app.escHtml(r.nazov), r]));
+    return g.children.slice(od).map(c => mapa.get((c.innerHTML.match(/<h3>(.*?)<\/h3>/) || [])[1])); }; };
+const hladaj = (app, q) => app.RECEPTY.filter(r => app.prejdeProfil(r) && app.hladaSedi(r, app.bezDia(q)));
+const textReceptu = r => r.nazov + " " + (r.ingrediencie || []).map(i => i.nazov).join(" ") + " " + (r.tagy || []).join(" ");
+
+ok("„mäso“ nechytí maslo, „zeler“ zeleninu; „kinoa“ nájde quinoa a „vajíčka“ vajcia", () => {
+  const app = novy();
+  const maslo = vloz(app, Object.assign(misa("v33-maslo", "Maslové sušienky"), { ingrediencie: [{ nazov: "Maslo", mnozstvo: 100, jednotka: "g" }] }));
+  const zel = vloz(app, Object.assign(misa("v33-zel", "Letná miska"), { ingrediencie: [{ nazov: "Zelenina mrazená", mnozstvo: 100, jednotka: "g" }] }));
+  assert.ok(!app.hladaSedi(maslo, "maso"), "„mäso“ našlo recept len s maslom");
+  assert.ok(!app.hladaSedi(zel, "zeler"), "„zeler“ našiel recept len so zeleninou");
+  const kinoa = hladaj(app, "kinoa").length, quinoa = hladaj(app, "quinoa").length;
+  assert.ok(kinoa > 0 && kinoa === quinoa, `kinoa ${kinoa} vs quinoa ${quinoa}`);
+  assert.strictEqual(hladaj(app, "vajíčka").length, hladaj(app, "vajcia").length, "vajíčka ≠ vajcia");
+});
+ok("písanie po písmenkách: „bro“ už nájde brokolicu, celé „med“ ostáva prísne", () => {
+  const app = novy();
+  const medved = vloz(app, Object.assign(misa("v33-medved", "Jarná nátierka"), { ingrediencie: [{ nazov: "Medvedí cesnak", mnozstvo: 50, jednotka: "g" }] }));
+  assert.ok(hladaj(app, "bro").some(r => /brokolic/i.test(r.nazov)), "„bro“ nenašlo brokolicu");
+  assert.ok(hladaj(app, "br").length > 100, "„br“ nič nenašlo");
+  assert.ok(!app.hladaSedi(medved, "med"), "„med“ našlo medvedí cesnak");
+});
+ok("„kura bez ryže“ a „kura -ryza“ vylúčia ryžu; „bez mäsa“ = len 🌱 veg", () => {
+  const app = novy();
+  const s = hladaj(app, "kura ryža"), bez = hladaj(app, "kura bez ryže"), minus = hladaj(app, "kura -ryza"), kura = hladaj(app, "kura");
+  assert.ok(s.length > 5 && bez.length > 20, `s ryžou ${s.length}, bez ryže ${bez.length}`);
+  assert.ok(bez.length < kura.length, "vylúčenie nič neubralo");
+  const zle = bez.filter(r => app.obsahujeSurovinu(textReceptu(r), ["ryza"]));
+  assert.strictEqual(zle.length, 0, "„kura bez ryže“ vrátilo ryžu: " + zle.slice(0, 3).map(r => r.nazov).join(", "));
+  assert.deepStrictEqual(minus.map(r => r.id), bez.map(r => r.id), "„-ryza“ a „bez ryže“ sa líšia");
+  const bm = hladaj(app, "bez mäsa");
+  assert.ok(bm.length > 300 && bm.every(r => app.diety(r).veg), "„bez mäsa“ vrátilo nevegetariánsky recept");
+});
+ok("relevancia: zhoda v názve ide pred zhodu v surovine a karta povie, čo sedí", () => {
+  const app = novy();
+  app.document.getElementById("hladaj").value = "kura";
+  const karty = novyGrid(app); app.__orig.renderGrid();
+  const k = karty();
+  assert.ok(k.length === 60 && k.every(r => r && app.obsahujeSurovinu(r.nazov, ["kura"])),
+    "v prvej dávke „kura“ je recept bez kura v názve: " + k.filter(r => !r || !app.obsahujeSurovinu(r.nazov, ["kura"])).slice(0, 3).map(r => r && r.nazov));
+  app.document.getElementById("hladaj").value = "kura ryža";
+  const k2 = novyGrid(app); app.__orig.renderGrid();
+  const prvy = k2()[0];
+  assert.ok(app.obsahujeSurovinu(prvy.nazov, ["kura"]) && app.obsahujeSurovinu(prvy.nazov, ["ryza"]), "1. výsledok „kura ryža“: " + prvy.nazov);
+  const r = vloz(app, misa("v33-sedi", "Letná misa"));
+  assert.ok(app.kartaHTML(r, "cicer").includes("🥕 sedí: Cícer"), "karta neukázala surovinu, ktorá sedí");
+  assert.ok(!app.kartaHTML(r, "letna").includes("sedí:"), "zhoda v názve nemá ukazovať surovinu");
+});
+ok("hľadanie vidí kuchyňu, kategóriu a zdroj (talianska, BBC, wikibooks)", () => {
+  const app = novy();
+  const tal = app.RECEPTY.filter(r => r.kuchyna === "Talianska" && app.prejdeProfil(r)).length;
+  assert.ok(hladaj(app, "talianska").length >= tal, "„talianska“ nájde menej než filter kuchyne " + tal);
+  const bbc = app.RECEPTY.filter(r => app.zdrojRodina(r) === "BBC Good Food").length;
+  assert.ok(bbc > 0 && hladaj(app, "BBC").length >= bbc, "„BBC“ " + hladaj(app, "BBC").length + " z " + bbc);
+  assert.ok(hladaj(app, "wikibooks").length > 50, "„wikibooks“ nič nenašlo");
+});
+ok("zakázané „zeler“ neblokuje zeleninu, „mäso“ maslo — pravé zhody ostávajú", () => {
+  const app = novy();
+  const skus = (zak, ing) => { app.S.profil.zakazane = zak;
+    return app.zakazaneChyta({ nazov: "test", kategoria: "Šalát", porcie: 1, postup: [], tagy: [], ingrediencie: [{ nazov: ing, mnozstvo: 1, jednotka: "g" }] }); };
+  assert.ok(!skus("zeler", "Zelenina mrazená") && skus("zeler", "Zelerová vňať") && skus("zeler", "Celer bulvový"), "zeler");
+  assert.ok(!skus("mäso", "Maslo") && skus("mäso", "Mleté mäso") && skus("mäso", "Kuracie prsia"), "mäso (aj bez slova „mäso“)");
+  assert.ok(!skus("kura", "Kurkuma") && skus("kura", "Kurča celé"), "kura");
+  // na reálnych dátach: zeler neblokuje nič bez zeleru/celeru (do v33 443 receptov, z toho 344 len cez zeleninu)
+  app.S.profil.zakazane = "zeler";
+  const zle = app.RECEPTY.filter(r => app.zakazaneChyta(r) && !/zeler|celer/.test(app.bezDia(textReceptu(r))));
+  app.S.profil.zakazane = "";
+  assert.strictEqual(zle.length, 0, "zeler zablokoval: " + zle.slice(0, 3).map(r => r.nazov).join(", "));
+});
+ok("kúpené výrobky: v kolekcii preč, prepínač ich vráti, chip „Snack“ ich ukáže vždy", () => {
+  const app = novy(), D = app.document, vm = require("vm");
+  const pocet = () => parseInt(String(D.getElementById("pocet").textContent));
+  app.nastavKolekciu("rychle");
+  let karty = novyGrid(app); app.__orig.renderGrid();
+  const bez = pocet();
+  assert.ok(!karty().some(r => app.jeVyrobok(r)), "v „Do 20 min“ je kúpený výrobok");
+  const vp = D.getElementById("vyrobky-prep");
+  const m = vp.innerHTML.match(/aj kúpené výrobky \(\+(\d+)\)/);
+  assert.ok(!vp.hidden && m && +m[1] > 50, "prepínač výrobkov chýba alebo nehlási počet: " + vp.innerHTML);
+  app.prepniVyrobky(); app.__orig.renderGrid();
+  assert.strictEqual(pocet(), bez + (+m[1]), "prepínač nevrátil všetky výrobky");
+  app.prepniVyrobky(); app.nastavKolekciu("rychle");                       // späť: bez kolekcie
+  vm.runInContext('aktivnaKat="Snack"', app);
+  D.getElementById("f-sort").value = "cas";
+  karty = novyGrid(app); app.__orig.renderGrid();
+  assert.ok(karty().some(r => app.jeVyrobok(r)), "chip „Snack“ s radením skryl výrobky");
+});
+ok("„Najmenej kcal“ dá recept bez kcal na koniec, nie na začiatok", () => {
+  const app = novy(); const D = app.document;
+  vloz(app, Object.assign(recept("v33-bezkcal", 0), { nazov: "Bez kalórií", ingrediencie: [] }));
+  D.getElementById("f-sort").value = "kcal";
+  const karty = novyGrid(app); app.__orig.renderGrid();
+  const k = karty();
+  assert.ok(k.length && app.kcalPorcia(k[0]) > 0, "prvý pri „Najmenej kcal“: " + (k[0] && k[0].nazov) + " " + (k[0] && app.kcalPorcia(k[0])));
+});
+ok("„Zrušiť filtre“ vráti aj radenie, takže #f-cnt zhasne", () => {
+  const app = novy(); const D = app.document;
+  D.getElementById("f-sort").value = "cas"; app.__orig.renderGrid();
+  assert.strictEqual(String(D.getElementById("f-cnt").textContent), "1");
+  app.zrusFiltre(); app.__orig.renderGrid();
+  assert.strictEqual(D.getElementById("f-sort").value, "", "radenie ostalo");
+  assert.strictEqual(D.getElementById("f-cnt").hidden, true, "#f-cnt svieti aj po „Zrušiť filtre“");
+});
+ok("prázdny výsledok: rada, skutočný <button> a priznanie vypnutých zdrojov", () => {
+  const app = novy({ zdrojeOff: "BBC Good Food" }); const D = app.document;
+  // názov BBC receptu, ktorý mimo BBC nič nenájde → mriežka je prázdna, zhoda je vo vypnutom zdroji
+  const r = app.RECEPTY.find(r => app.zdrojRodina(r) === "BBC Good Food" && !hladaj(app, r.nazov).length);
+  assert.ok(r, "nenašiel som BBC recept s jedinečným názvom");
+  D.getElementById("hladaj").value = r.nazov; app.__orig.renderGrid();
+  const em = D.getElementById("empty").innerHTML;
+  assert.ok(/<button class="btn" onclick="zrusFiltre\(\)">Zrušiť filtre<\/button>/.test(em), "„Zrušiť filtre“ nie je <button>: " + em);
+  assert.ok(!/<a onclick/.test(em), "prázdny stav má stále <a> bez href");
+  assert.ok(/\d+ recept(y|ov)? (je|sú) vo vypnutých zdrojoch/.test(em), "nepriznal vypnutý zdroj: " + em);
+  assert.ok(/menej slov/.test(em), "chýba rada");
+});
+ok("picker „Aké jedlo?“ za 8 riadkami ponúkne „Zobraziť všetky (N)“", () => {
+  const app = novy();
+  app.pickSearchInput("kura");
+  const box = app.document.getElementById("pick-search-results");
+  const n = (box.innerHTML.match(/class="plan-cell"/g) || []).length, m = box.innerHTML.match(/Zobraziť všetky \((\d+)\)/);
+  assert.ok(n === 8 && m && +m[1] > 100, `riadkov ${n}, tlačidlo ${m && m[0]}`);
+  app.pickSearchInput("kura", true);
+  assert.strictEqual((box.innerHTML.match(/class="plan-cell"/g) || []).length, +m[1], "„Zobraziť všetky“ neukázalo všetky");
+});
+
 // ─────────────────────────────────────────────────────────── A8 prístupnosť klávesnicou
 nadpis("\nA8 — klávesnica (WCAG 2.1.1 / 2.4.3)");
 const ZDROJ = require("fs").readFileSync(__dirname + "/data/app.js", "utf8");
@@ -409,7 +550,9 @@ ok("bunka plánu je zo skutočných <button>, nie zo `span onclick`", () => {
   assert.ok(!/<span class="kc"[^>]*onclick/.test(usek), "riadok kcal je stále span onclick");
   assert.ok(!/<span class="nm"[^>]*onclick/.test(usek), "názov jedla je stále span onclick");
   assert.ok(!/<div class="plan-cell prazdne"[^>]*onclick/.test(usek), "prázdna bunka je stále div onclick");
-  ["pc-btn", "pc-empty", "pc-x"].forEach(c => assert.ok(usek.includes(c), "v bunke chýba trieda " + c));
+  ["pc-btn", "pc-empty", "pc-znova"].forEach(c => assert.ok(usek.includes(c), "v bunke chýba trieda " + c));
+  // B3: ✕ (24 px, 2–4 px od 🎲, mazal celý blok bez návratu) je v „⋯ viac“, nie v bunke
+  assert.ok(!usek.includes("odoberKomponent(") && !usek.includes("pc-x"), "✕ odobrať je stále priamo v bunke plánu");
   // každé ovládanie v bunke musí mať menovku — sú to samé ikonky a skratky
   assert.ok((usek.match(/aria-label=/g) || []).length >= 6, "v bunke plánu je málo aria-label");
 });
@@ -472,7 +615,7 @@ ok("Enter/medzerník aktivuje čokoľvek s rolou tlačidla (aj riadky pickerov)"
 });
 
 ok("zavretie modálu vracia fokus tam, odkiaľ sa otváral", () => {
-  ["function zavri()", "function zavriPick()", "function zavriCook()", "function dlgZavri("].forEach(f => {
+  ["function zavri()", "function zavriPick()", "function zavriCook(", "function dlgZavri("].forEach(f => {
     const i = ZDROJ.indexOf(f);
     assert.ok(i > 0, "nenašiel som " + f);
     assert.ok(ZDROJ.slice(i, i + 420).includes("_vratFokus()"), f + " nevracia fokus");
@@ -576,6 +719,331 @@ ok("_rozbal prepustí hotové dáta a rozbalí base64 reťazec", () => {
   // porovnávame cez JSON: objekt z `vm` má prototyp z iného realmu, deepStrictEqual by ho odmietol
   assert.strictEqual(JSON.stringify(app._rozbal(b64)), JSON.stringify(pole),
     "base64 DEFLATE sa musí rozbaliť na pôvodné dáta");
+});
+
+// ─────────────────────────────────────────────────────────── audit 30. 9. — Balík 1
+nadpis("\nAudit 30. 9. — synchronizácia, vlastný recept, uložené jedálničky, diéta");
+ok("bez Sync ID a prihlásenia nesvieti „Synchronizované“; offline bez zmien nesľubuje nahratie", () => {
+  const app = novy();
+  app.SYNC_CONFIG = { url: "https://x.supabase.co", key: "k" };   // Supabase je, Sync ID nie
+  const el = app.document.getElementById("sync-stav");
+  app.__orig.renderSyncStav();
+  assert.ok(/nie je nastavená/.test(el.innerHTML) && !/Synchronizované/.test(el.innerHTML), el.innerHTML);
+  app.S.profil.syncId = "domacnost"; app.navigator.onLine = false; app.S._dirty = false;
+  app.__orig.renderSyncStav();
+  assert.ok(/Offline/.test(el.innerHTML) && !/nahrajú/.test(el.innerHTML), el.innerHTML);
+  app.S._dirty = true; app.__orig.renderSyncStav();
+  assert.ok(/nahrajú po pripojení/.test(el.innerHTML), el.innerHTML);
+});
+// formulár „+ Nový recept“ vo fake DOM: polia podľa id, riadky surovín cez querySelectorAll
+function formular(app, polia, riadky) {
+  const vsetky = Object.assign({ "nr-kat": "Hlavné jedlo", "nr-porcie": "2", "nr-kuch": "", "nr-cas": "", "nr-postup": "Uvar.", "nr-tip": "" }, polia);
+  Object.keys(vsetky).forEach(id => { app.document.getElementById(id).value = vsetky[id]; });
+  const rows = riadky.map(([n, mn, jed]) => ({ querySelector: c => ({ value: { ".nr-in": n, ".nr-mn": mn, ".nr-jed": jed, ".nr-vs": "" }[c] }) }));
+  app.document.querySelectorAll = s => (s === "#nr-ing .controls" ? rows : []);
+}
+ok("vlastný recept sa ukladá surový („Soľ & korenie“) a detail ho escapuje raz", () => {
+  const app = novy(); app.toast = () => {};
+  formular(app, { "nr-nazov": "Test" }, [["Soľ & korenie", "5", "g"]]);
+  app.ulozNovyRecept();
+  const r = app.S.mojeRecepty[app.S.mojeRecepty.length - 1];
+  assert.strictEqual(r.ingrediencie[0].nazov, "Soľ & korenie");
+  const ing = app.document.getElementById("ing-body").innerHTML;
+  assert.ok(ing.includes("Soľ &amp; korenie") && !ing.includes("&amp;amp;"), ing);
+});
+ok("migrácia escV 2 → 3 odescapuje len suroviny vlastného receptu (tie escapoval formulár)", () => {
+  const app = load({ stav: { escV: 2, mojeRecepty: [{ id: "moj-1", nazov: "Tom &amp; Jerry", postup: ["x"],
+    ingrediencie: [{ nazov: "Soľ &amp; korenie", mnozstvo: 5, jednotka: "&lt;g&gt;" }] }] } });
+  const r = app.S.mojeRecepty[0];
+  assert.deepStrictEqual([r.nazov, r.ingrediencie[0].nazov, r.ingrediencie[0].jednotka, app.S.escV],
+    ["Tom &amp; Jerry", "Soľ & korenie", "<g>", 3]);
+});
+ok("formulár odmietne nulové a záporné porcie aj množstvo (s hláškou)", () => {
+  const app = novy(); const toasty = []; app.toast = m => toasty.push(m);
+  const pred = app.S.mojeRecepty.length;
+  formular(app, { "nr-nazov": "Zlé porcie", "nr-porcie": "-2" }, [["Ryža", "100", "g"]]);
+  app.ulozNovyRecept();
+  formular(app, { "nr-nazov": "Zlé množstvo" }, [["Ryža", "0", "g"]]);
+  app.ulozNovyRecept();
+  assert.strictEqual(app.S.mojeRecepty.length, pred, "uložil sa recept so zlým číslom");
+  assert.ok(/porcií/.test(toasty[0]) && /Ryža/.test(toasty[1]), toasty.join(" | "));
+});
+ok("vlastný recept sa dá upraviť na mieste — id, obľúbené, hodnotenie aj poznámka ostanú", () => {
+  const app = novy(); app.toast = () => {};
+  formular(app, { "nr-nazov": "Pôvodný" }, [["Ryža", "100", "g"]]);
+  app.ulozNovyRecept();
+  const id = app.S.mojeRecepty[app.S.mojeRecepty.length - 1].id, n = app.RECEPTY.length;
+  assert.ok(app.document.getElementById("modal").innerHTML.includes("novyRecept('" + id + "')"), "v menu detailu chýba ✏️ Upraviť");
+  app.S.fav[id] = 1; app.S.hodn[id] = 5; app.S.pozn[id] = "dobré";
+  app.hladaSedi(app.receptById(id), "povodny");                    // naplní cache hľadania starým názvom
+  app.novyRecept(id);
+  const form = app.document.getElementById("pick-modal").innerHTML;
+  assert.ok(/Upraviť recept/.test(form) && form.includes('value="Pôvodný"') && form.includes("ulozNovyRecept('" + id + "')"), "formulár nie je predvyplnený");
+  formular(app, { "nr-nazov": "Upravený", "nr-porcie": "4" }, [["Ryža", "200", "g"], ["Cesnak", "2", "strúčik"]]);
+  app.ulozNovyRecept(id);
+  const r = app.receptById(id);
+  assert.strictEqual(app.RECEPTY.length, n, "úprava pridala nový recept");
+  assert.deepStrictEqual([r.nazov, r.porcie, r.ingrediencie.length, app.S.fav[id], app.S.hodn[id], app.S.pozn[id]], ["Upravený", 4, 2, 1, 5, "dobré"]);
+  assert.ok(app.hladaSedi(r, "upraveny") && !app.hladaSedi(r, "povodny"), "hľadanie pozná starý názov");
+});
+ok("„Dojedz zvyšky“ nenavrhne kúpený výrobok", () => {
+  const app = novy();
+  const ing = ["Vajcia", "Paprika", "Syr", "Mlieko", "Šunka", "Cibuľa", "Paradajky", "Kuracie prsia"].map(n => ({ nazov: n, mnozstvo: 100, jednotka: "g" }));
+  vloz(app, { id: "zv-plan", nazov: "Plán", kategoria: "Hlavné jedlo", porcie: 1, ingrediencie: ing, postup: [], tagy: [] });
+  vloz(app, { id: "zv-vyrobok", nazov: "Výrobok", kategoria: "Snack", typ: "vyrobok", porcie: 1, ingrediencie: ing, postup: [], tagy: [] });
+  app.S.plan[app.datumPre(0)] = { Obed: ["zv-plan"] };
+  app.dojedzZvysky();
+  const html = app.document.getElementById("zvysky-out").innerHTML;
+  assert.ok(/otvor\('/.test(html), "test nemá čo porovnať: " + html.slice(0, 120));
+  assert.ok(!html.includes("zv-vyrobok"), "navrhol kúpený výrobok");
+});
+ok("načítaný jedálniček vymení jedlá, ktoré nesedia s diétou, a šablónu nezmení", () => {
+  const app = novy({ lepok: true }); const toasty = []; app.toast = m => toasty.push(m);
+  const zlych = plan => Object.values(plan || {}).reduce((a, den) => a + Object.values(den).filter(v => {
+    const id = Array.isArray(v) ? v[0] : v; const r = app.receptById(id);
+    return typeof id === "string" && !/^(prf|left):/.test(id) && !(r && app.prejdeProfil(r)); }).length, 0);
+  const j = app.JEDALNICKY.slice().sort((a, b) => zlych(b.plan) - zlych(a.plan))[0];
+  const predJson = JSON.stringify(j.plan), pred = zlych(j.plan);
+  assert.ok(pred > 0, "žiadny pribalený jedálniček neporušuje „bez lepku“ — test nemá čo overiť");
+  app.nacitajSablonuDoTyzdna(j.plan, j.planF || {});
+  const tyzden = {}; for (let di = 0; di < 7; di++) tyzden[di] = app.S.plan[app.datumPre(di)] || {};
+  assert.strictEqual(zlych(tyzden), 0, "po načítaní ostali jedlá s lepkom");
+  assert.ok(toasty.some(t => /Vymenil som/.test(t)), "chýba toast: " + toasty.join(" | "));
+  assert.strictEqual(JSON.stringify(j.plan), predJson, "výmena prepísala pribalený jedálniček");
+});
+ok("doplnok snacku rešpektuje diétu (bez laktózy, bez rýb)", () => {
+  const app = novy({ mlieko: true, ryby: true });
+  const snacky = app.RECEPTY.filter(r => app.jeVyrobok(r) && r.kategoria === "Snack" && app.prejdeProfil(r));
+  const zle = snacky.map(r => app.snackDoplnok(r)).filter(Boolean).filter(id => !app.prejdeProfil(app.receptById(id)));
+  assert.strictEqual(zle.length, 0, "doplnky proti diéte: " + [...new Set(zle)].slice(0, 5).join(", "));
+});
+ok("„Do plánu“ predvolí dnešok (resp. najbližší deň s prázdnym slotom) a povie, ktorý týždeň", () => {
+  const app = novy(); const S = app.S;
+  S.viewOd = app.pondelokPre(app.dnesISO());
+  const dnes = (new Date(app.dnesISO() + "T00:00:00").getDay() + 6) % 7;
+  const id = app.RECEPTY.find(r => r.kategoria === "Hlavné jedlo" && !app.jeVyrobok(r)).id;
+  const vybrany = () => (app.document.getElementById("pick-modal").innerHTML.match(/value="(\d)" selected/) || [])[1];
+  app.pridajDoPlanu(id);
+  assert.strictEqual(vybrany(), String(dnes), "predvolený deň nie je dnešok (audit: vždy Pondelok)");
+  assert.ok(app.document.getElementById("pick-modal").innerHTML.includes(app.fmtD(S.viewOd) + "–" + app.fmtD(app.pridajDni(S.viewOd, 6))),
+    "dialóg nehovorí, o ktorý týždeň ide");
+  if (dnes < 6) {
+    S.plan[app.datumPre(dnes)] = { Obed: [id] };
+    app.pridajDoPlanu(id);
+    assert.strictEqual(vybrany(), String(dnes + 1), "predvolil sa deň, kde už jedlo je");
+  }
+});
+
+// ─────────────────────────────────────────────────────────── B3 plán a generátor (audit 30. 9.)
+nadpis("\nB3 — plán: ↩ Späť, ✕ v „⋯ viac“, 🔒 zámok, bunka, karta bloku");
+const tyzdenB3 = app => JSON.stringify([0, 1, 2, 3, 4, 5, 6].map(d => [app.S.plan[app.datumPre(d)] || null, app.S.planF[app.datumPre(d)] || null]));
+const toastB3 = app => { const t = { m: "", akc: null }; app.toast = (m, akc) => { t.m = m; t.akc = akc || null; }; return t; };
+ok("sklon: 1 jedlo, 2–4 jedlá, 5+ jedál (toast „4 jedál“ v 🎲 bloku)", () => {
+  const app = novy();
+  assert.deepStrictEqual([0, 1, 2, 4, 5, 11].map(n => app.sklon(n, "jedlo", "jedlá", "jedál")),
+    ["0 jedál", "1 jedlo", "2 jedlá", "4 jedlá", "5 jedál", "11 jedál"]);
+  assert.ok(!/\+n\+" jedál/.test(ZDROJ), "v app.js je stále „n jedál“ bez skloňovania");
+});
+ok("„⋯ viac“ pomenuje rozsah bloku a ponúkne 🔒, ✕ prílohu aj ✕ celý slot", async () => {
+  const app = novy();
+  await app.generujJedalnicek(true);
+  const hl = app.slotIds(2, "Obed")[0];
+  [2, 3, 4].forEach(d => { app.S.plan[app.datumPre(d)].Obed = [hl, "prf:ryza"]; });
+  app.akcieSlotu(2, "Obed");
+  const h = app.document.getElementById("pick-modal").innerHTML;
+  assert.ok(h.includes("Obed · blok B (St–Pi)"), "hlavička nehovorí rozsah bloku: " + h.slice(0, 200));
+  assert.ok(h.includes("odoberSlot(2,'Obed')") && h.includes("Odobrať z bloku B (St–Pi)"), "chýba ✕ Odobrať z bloku s rozsahom");
+  assert.ok(h.includes("odoberKomponent(2,'Obed','prf:ryza')") && h.includes("Odobrať prílohu"), "príloha sa nedá odobrať");
+  assert.ok(h.includes("prepniZamok(2,'Obed')") && h.includes("Zamknúť"), "chýba 🔒 Zamknúť");
+});
+ok("↩ Späť vráti 🎲 jedla/bloku, ✕, ✎ zmeniť, už nezobrazovať (aj skrytie), vyprázdniť a generovať", async () => {
+  const app = novy();
+  await app.generujJedalnicek(true);
+  const t = toastB3(app);
+  const spat = (popis, p0) => { assert.ok(t.akc && /Späť/.test(t.akc.text), popis + ": toast nemá „↩ Späť“ (" + t.m + ")");
+    assert.notStrictEqual(tyzdenB3(app), p0, popis + ": plán sa nezmenil"); t.akc.fn();
+    assert.strictEqual(tyzdenB3(app), p0, popis + ": „↩ Späť“ nevrátil plán"); };
+  let p0 = tyzdenB3(app); app.regenerujSlot(2, "Obed"); spat("🎲 jedla", p0);
+  p0 = tyzdenB3(app); app.regenerujBlok(1);
+  assert.ok(/je prehodený — (1 jedlo|[234] jedlá|([05-9]|\d\d+) jedál)\.$/.test(t.m), "toast 🎲 bloku: " + t.m);
+  spat("🎲 bloku", p0);
+  p0 = tyzdenB3(app); app.odoberSlot(2, "Obed");
+  assert.ok([2, 3, 4].every(d => !app.slotIds(d, "Obed").length), "✕ neodobral jedlo z celého bloku"); spat("✕ odobrať", p0);
+  p0 = tyzdenB3(app); app.vyberDoPlanu(2, "Obed");
+  app.nastavPlan(app.RECEPTY.find(r => r.kategoria === "Hlavné jedlo" && r.id !== app.slotIds(2, "Obed")[0]).id); spat("✎ zmeniť", p0);
+  const id = app.slotIds(2, "Obed")[0];
+  p0 = tyzdenB3(app); app.nezobrazovatVSlote(2, "Obed"); assert.ok(app.S.skryte[id], "recept sa neskryl");
+  spat("už nezobrazovať", p0); assert.ok(!app.S.skryte[id], "„↩ Späť“ nevrátil skrytie receptu");
+  p0 = tyzdenB3(app); await app.vymazPlan(); spat("vyprázdniť", p0);
+  p0 = tyzdenB3(app); await app.generujJedalnicek(true);
+  assert.ok(/Týždeň je zostavený — \d+ jed(lo|lá|ál)\./.test(t.m), "po generovaní chýba toast s počtom jedál: " + t.m);
+  spat("generovať", p0);
+});
+ok("bunka: kcal a B v jednom riadku, ručné porcie viditeľné, 🔒 namiesto 🎲; zámok platí pre celý blok", async () => {
+  const app = novy();
+  await app.generujJedalnicek(true);
+  app.S.slotPpl[app.datumPre(2)] = { Obed: 3 };
+  let h = app.planBunka(2, "Obed");
+  assert.ok(/<span class="pc-riadok"><button class="kc pc-btn"[^]*?<\/button><span class="pc-data">B \d+ g · 👥 3 porcie<\/span><\/span>/.test(h),
+    "kcal, bielkoviny a porcie nie sú v jednom riadku: " + h);
+  assert.ok(h.includes("pc-znova") && !h.includes("pc-zamok"), "nezamknuté jedlo nemá 🎲");
+  app.prepniZamok(2, "Obed");
+  assert.ok([2, 3, 4].every(d => app.jeZamknute(d, "Obed")), "zámok neplatí pre celý blok St–Pi");
+  h = app.planBunka(3, "Obed");
+  assert.ok(h.includes("pc-zamok") && !h.includes("pc-znova"), "zamknuté jedlo má stále 🎲 alebo nemá 🔒");
+  app.akcieSlotu(2, "Obed");
+  assert.ok(app.document.getElementById("pick-modal").innerHTML.includes("Odomknúť"), "v „⋯ viac“ chýba 🔓 Odomknúť");
+  // zámok drží ID jedla: iné jedlo v slote (ručná zmena) už zamknuté nie je
+  app.vyberDoPlanu(2, "Obed");
+  app.nastavPlan(app.RECEPTY.find(r => r.kategoria === "Hlavné jedlo" && r.id !== app.slotIds(2, "Obed")[0]).id);
+  assert.ok(!app.jeZamknute(2, "Obed"), "zámok prešiel na ručne vybrané jedlo");
+});
+ok("🎲 bloku preskočí zamknuté jedlo", async () => {
+  const app = novy();
+  await app.generujJedalnicek(true);
+  const ob = app.slotIds(2, "Obed")[0];
+  app.prepniZamok(2, "Obed");
+  app.regenerujBlok(1);
+  assert.ok([2, 3, 4].every(d => app.slotIds(d, "Obed")[0] === ob), "🎲 bloku prehodilo zamknutý obed");
+});
+ok("„Zachovať“ + plný týždeň to povie (dovtedy ticho nič); Zamiešať týždeň prehodí", async () => {
+  const app = novy();
+  await app.generujJedalnicek(true);
+  const t = toastB3(app); app.S.genCfg.zachovat = true;
+  const p0 = tyzdenB3(app);
+  await app.generujJedalnicek(true);
+  assert.ok(/plný/.test(t.m) && /Zachovať/.test(t.m), "generovanie mlčí: " + t.m);
+  assert.strictEqual(tyzdenB3(app), p0, "plný týždeň so „Zachovať“ sa zmenil");
+  await app.generujTlacidlo(true);
+  assert.notStrictEqual(tyzdenB3(app), p0, "🎲 Zamiešať so zapnutým „Zachovať“ nič neurobilo");
+});
+ok("karta bloku: „varíš v nedeľu večer“; prvý deň „preč“ nie je prázdny blok; variant s inou porciou má vlastné čísla", async () => {
+  const SL = ["Raňajky", "Obed", "Večera", "Snack"];
+  const app = novy();
+  await app.generujJedalnicek(true);
+  app.renderPlanBloky(SL, 1450);
+  let h = app.document.getElementById("plan-bloky").innerHTML;
+  assert.ok(h.includes("varíš v nedeľu večer") && h.includes("varíš v utorok večer"), "chýba „varíš v nedeľu večer“");
+  assert.ok(!/varíš (Pondelok|Utorok|Streda|Štvrtok|Piatok|Sobota|Nedeľa)/.test(h), "hlavička bloku má „varíš Nedeľa večer“");
+  // iná veľkosť porcie v jeden deň bloku = iný variant, nie čísla prvého dňa za celý blok
+  app.S.planF[app.datumPre(3)] = { Raňajky: 1.15, Obed: 1.15, Večera: 1.15, Snack: 1.15 };
+  app.renderPlanBloky(SL, 1450);
+  h = app.document.getElementById("plan-bloky").innerHTML;
+  assert.ok((h.match(/bk-vynimka/g) || []).length >= 2 && /porcie 115 %/.test(h), "variant s inou porciou sa neukázal");
+  const b = novy();
+  b.S.tyzdenProfil = { [PONDELOK]: { ludia: null, prec: [0] } };
+  await b.generujJedalnicek(true);
+  b.renderPlanBloky(SL, 1450);
+  h = b.document.getElementById("plan-bloky").innerHTML;
+  assert.ok(!h.includes("prázdny blok") && !h.includes("bk-vynimka"), "blok s „preč“ v prvý deň: prázdny blok / výnimky");
+  assert.ok(h.includes("varíš v pondelok večer"), "s „preč“ v pondelok sa varí v pondelok večer na utorok");
+});
+ok("sprievodca: bez „Kupované snacky“ a „Zámer“, ✨ Generovať v lepivej pätičke, dni sa zalamujú, skrolovanie ostane", () => {
+  const usek = ZDROJ.slice(ZDROJ.indexOf("function renderGenWizard("), ZDROJ.indexOf("function pridajGenFilter("));
+  assert.ok(usek.length > 500, "nenašiel som renderGenWizard");
+  assert.ok(!usek.includes("kupSnack") && !usek.includes("Zámer"), "v sprievodcovi je stále voľba bez efektu");
+  assert.ok(/class="btn-row akcie-lepiva"><button class="btn primary"[^>]*>✨ Generovať/.test(usek), "✨ Generovať nie je v lepivej pätičke");
+  assert.ok(/class="chips" style="flex-wrap:wrap/.test(usek), "dni bez varenia sa nezalamujú");
+  assert.ok(/scrollTop=y\[0\]/.test(usek), "prekreslenie sprievodcu nevracia pozíciu skrolovania");
+});
+
+// ─────────────────────────────────────────────────────────── audit 30. 9. — Balík 4
+nadpis("\nAudit 30. 9. — vrstvy okien, hodnotenie, varenie, privítanie");
+const vmB4 = require("vm");
+// harness nemá skutočný DOM: okno „otvoríme" triedou na fake elemente, menu cez querySelector
+function vrstvyApp() { const app = novy(); const doc = app.document; const q = doc.querySelector;
+  app._menu = null; doc.querySelector = s => (s === ".menu.open" ? app._menu : q.call(doc, s));
+  app.otvorene = id => doc.getElementById(id).classList.contains("open");
+  app.otvor_ = (...ids) => ids.forEach(id => doc.getElementById(id).classList.add("open"));
+  return app; }
+ok("Escape/Späť zatvárajú len najvrchnejšiu vrstvu: dialóg → varenie → detail", async () => {
+  const app = vrstvyApp(); app.otvor_("overlay", "cook", "dlg-overlay");
+  assert.ok(app.zavriVrchnu()); await new Promise(r => setTimeout(r, 0));
+  assert.deepStrictEqual(["overlay", "cook", "dlg-overlay"].map(app.otvorene), [true, true, false], "najprv len dialóg");
+  app.zavriVrchnu(); await new Promise(r => setTimeout(r, 0));
+  assert.deepStrictEqual(["overlay", "cook"].map(app.otvorene), [true, false], "potom varenie, detail ostane");
+  app.zavriVrchnu();
+  assert.ok(!app.otvorene("overlay") && !app.zavriVrchnu(), "nakoniec detail; potom už niet čo zavrieť");
+});
+ok("otvorené „⋯ Viac“ je navrchu: Escape/Späť zavrie menu, okno pod ním ostane", () => {
+  const app = vrstvyApp(); app.otvor_("overlay");
+  let zavrete = 0; app.zavriMenu = () => { zavrete++; };
+  app._menu = { parentElement: null };
+  assert.ok(app.zavriVrchnu()); assert.strictEqual(zavrete, 1); assert.ok(app.otvorene("overlay"), "detail sa zavrel spolu s menu");
+});
+ok("história má záznam za každú otvorenú vrstvu vrátane dialógu a menu", () => {
+  const app = vrstvyApp(); app.otvor_("overlay", "cook", "dlg-overlay"); app._menu = {};
+  assert.strictEqual(app._pocetVrstiev(), 4);
+});
+ok("privítanie zavreté akoukoľvek cestou (Escape, Späť, ťuk vedľa) sa už neukáže", () => {
+  const app = vrstvyApp(); app.S.profil.onboarded = false; const doc = app.document, q = doc.querySelector;
+  doc.querySelector = s => (/dokonciOnboarding/.test(s) ? {} : q(s)); // v okne je tlačidlo privítania
+  app.otvor_("pick-overlay"); app.zavriVrchnu();
+  assert.strictEqual(app.S.profil.onboarded, true);
+  assert.ok(!app.otvorene("pick-overlay"));
+});
+ok("iné okno výberu privítanie nedokončí", () => {
+  const app = vrstvyApp(); app.S.profil.onboarded = false; app.otvor_("pick-overlay"); app.zavriPick();
+  assert.strictEqual(app.S.profil.onboarded, false);
+});
+ok("hodnotenie sa mení na mieste — detail sa neprekreslí (porcie, jednotky ani scroll sa nevrátia)", () => {
+  const app = novy(); const id = app.RECEPTY[0].id; let prekreslene = 0; app.otvor = () => { prekreslene++; };
+  app.hodnot(id, 3.5); assert.strictEqual(app.S.hodn[id], 3.5);
+  app.hodnot(id, 9); assert.strictEqual(app.S.hodn[id], 5, "nad 5 sa zovrie");
+  app.hodnot(id, 0); assert.ok(!(id in app.S.hodn), "0 = bez hodnotenia");
+  assert.strictEqual(prekreslene, 0, "hodnot() prekreslil detail");
+  assert.strictEqual(app.hodnotText(3.5), "3,5 z 5 hviezd"); assert.strictEqual(app.hodnotText(0), "bez hodnotenia");
+});
+ok("hodnotenie klávesnicou: šípky po 0,5, Home = 0, End = 5; ťuk = celá, druhý ťuk = pol", () => {
+  const app = novy(); const id = app.RECEPTY[0].id; app.otvor = () => {};
+  const k = key => app.hodnotKlaves({ key, preventDefault() {} }, id);
+  k("ArrowRight"); k("ArrowRight"); k("ArrowUp"); assert.strictEqual(app.S.hodn[id], 1.5);
+  k("ArrowLeft"); assert.strictEqual(app.S.hodn[id], 1);
+  k("End"); k("ArrowRight"); assert.strictEqual(app.S.hodn[id], 5, "End a nad 5 = 5");
+  k("Home"); assert.ok(!(id in app.S.hodn));
+  const tap = i => app.hodnotKlik({ target: { closest: () => ({ dataset: { i: String(i) } }) } }, id);
+  tap(3); assert.strictEqual(app.S.hodn[id], 3); tap(3); assert.strictEqual(app.S.hodn[id], 2.5); tap(3); assert.strictEqual(app.S.hodn[id], 3);
+  assert.ok(/class="star-cil" data-i="1"/.test(app.starsHTML(2, true)) && !/star-cil/.test(app.starsHTML(2)), "karta má hviezdy len na čítanie");
+});
+// recept, ktorého krok spomína surovinu s množstvom (krokHint) — deterministicky prvý taký
+function receptSMnozstvomVKroku(app) {
+  for (const r of app.RECEPTY) { const p = r.postup || []; if (p.length < 2) continue;
+    if (p.some(k => app.krokHint(k, 1, 1, r))) return r; }
+  return null; }
+ok("varenie ukáže pri kroku aj množstvá surovín a posledný krok je „✓ Hotovo“", async () => {
+  const app = novy(); app.toast = () => {}; const r = receptSMnozstvomVKroku(app); assert.ok(r, "žiadny recept s množstvom v kroku");
+  app.document.getElementById("cook").style.setProperty = () => {};
+  app.otvor(r.id); await app.spustiCook();
+  const i = (r.postup || []).findIndex(k => app.krokHint(k, 1, 1, r));
+  vmB4.runInContext("cookKrok=" + i + "; ukazKrok();", app);
+  assert.ok(/krok-mn/.test(app.document.getElementById("cook-mn").innerHTML), "pri kroku chýbajú množstvá");
+  vmB4.runInContext("cookKrok=cookKroky.length-1; ukazKrok();", app);
+  assert.strictEqual(app.document.getElementById("cook-dalej").textContent, "✓ Hotovo");
+});
+ok("varenie toho istého receptu pokračuje krokom, kde skončilo", async () => {
+  const app = novy(); const toasty = []; app.toast = m => toasty.push(m);
+  const r = app.RECEPTY.find(x => (x.postup || []).length >= 4);
+  app.document.getElementById("cook").style.setProperty = () => {};
+  app.otvor(r.id); await app.spustiCook(); vmB4.runInContext("cookKrok=2;", app);
+  app.document.getElementById("cook").classList.remove("open"); await app.spustiCook();
+  assert.strictEqual(vmB4.runInContext("cookKrok", app), 2);
+  assert.ok(toasty.some(t => /Pokračuješ krokom 3/.test(t)), toasty.join(" | "));
+});
+ok("časovač ráta podľa hodín; ťuk na bežiaci a zavretie varenia sa najprv opýtajú", async () => {
+  const app = novy(); const toasty = []; app.toast = m => toasty.push(m); let otazok = 0, odpoved = false;
+  app.confirmModal = () => { otazok++; return Promise.resolve(odpoved); };
+  app.pridajCasovacSek(120, "test");
+  const cas = () => vmB4.runInContext("casovace", app);
+  cas()[0].koniec = Date.now() - 1; app.tickCasovace();            // zmeškané tiky (telefón na pozadí)
+  assert.strictEqual(cas()[0].left, 0, "časovač nedobehol podľa hodín");
+  assert.ok(toasty.some(t => /dobehol/.test(t)), "dobehnutie sa neohlásilo (aria-live toast)");
+  app.pridajCasovacSek(60, "beží"); const id = cas()[1].id;
+  await app.zmazCasovacKlik(id); assert.strictEqual(cas().length, 2, "zmazal bez opýtania");
+  app.document.getElementById("cook").classList.add("open");
+  await app.zavriCook(); assert.ok(app.document.getElementById("cook").classList.contains("open"), "zavrel s bežiacim časovačom bez opýtania");
+  odpoved = true; await app.zavriCook();
+  assert.ok(!app.document.getElementById("cook").classList.contains("open") && cas().length === 0);
+  assert.strictEqual(otazok, 3);
 });
 
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });
