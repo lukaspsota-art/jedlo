@@ -126,8 +126,11 @@ module.exports = {
     if (vegId) {
       await page.evaluate((i) => window.otvor(i), vegId);
       await page.waitForTimeout(100);
+      // v31: pod popisom ostávajú LEN alergény — diéty, sezóna, podiel dňa ani cena tam nie sú
       const znacky = await page.evaluate(() => [...document.querySelectorAll("#modal .row-badges .badge")].map((b) => b.textContent.trim()).join(" | "));
-      await t.ok(/vegetariánske/i.test(znacky) && /bez lepku/i.test(znacky), "diétne značky (veg, bez lepku) sú v detaile", znacky);
+      await t.ok(!/vegetariánske|bez lepku|sezónne|podiel|€/i.test(znacky), "pod popisom v detaile sú len alergény", znacky);
+      const cenaDetail = await page.evaluate(() => /€/.test(document.getElementById("modal").textContent));
+      await t.ok(!cenaDetail, "detail receptu neukazuje cenu", String(cenaDetail));
       await zavriOkna(page);
     }
 

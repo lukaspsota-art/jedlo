@@ -85,8 +85,6 @@
   .hdot{display:inline-block;width:9px;height:9px;border-radius:50%;vertical-align:middle;margin-right:4px}
   .hs-green{background:#2e7d54} .hs-amber{background:#e0a800} .hs-red{background:#c0392b}
   .badge.hs-green{background:#e3f1e9;color:#2e7d54} .badge.hs-amber{background:#fbf0cf;color:#8a6d00} .badge.hs-red{background:#f6dedb;color:#c0392b}
-  .ring{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;font-size:11px;vertical-align:middle}
-  .ring b{background:var(--card);width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700}
   .chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:7px 13px;border-radius:20px;cursor:pointer;font-size:14px;user-select:none}
   .chip.active{background:var(--accent-fill);color:#fff;border-color:var(--accent-fill)}
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
@@ -96,6 +94,7 @@
   .card .thumb{height:120px;background:linear-gradient(135deg,#dfe8e0,#c8d8cc);display:flex;align-items:center;justify-content:center;font-size:40px;color:var(--accent-dark)}
   .card .thumb img{width:100%;height:100%;object-fit:cover}
   .fav{position:absolute;top:8px;right:8px;background:rgba(255,255,255,.92);border:none;border-radius:50%;width:34px;height:34px;font-size:18px;cursor:pointer;line-height:1;color:var(--gold)}
+  .fav .star-slot .star-e{color:inherit} /* v31: pol hviezdy na karte = obrys ☆ + ľavá polovica ★ */
   .card .body{padding:12px 15px}
   .card .kat{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#fff;background:var(--accent-fill);padding:3px 9px;border-radius:12px}
   .card h3{margin:8px 0 5px;font-size:16px}
@@ -121,6 +120,7 @@
   .pc-btn:focus-visible{outline:2px solid var(--accent);outline-offset:1px;border-radius:4px}
   .pc-odkaz{text-decoration:underline}
   .pc-x{color:var(--warn);align-self:flex-start;min-width:24px;text-align:center}
+  .pc-znova{display:none} /* v31: 🎲 vedľa názvu jedla — len na telefóne, viď mobilný blok */
   .pc-empty{width:100%}
   /* WCAG 2.5.8: hustá mriežka plánu nemusí mať 44 px, ale nikdy nesmie klesnúť pod 24 px —
      na mobile to platilo od v20, na počítači boli tie isté prvky 16–20 px (P2 z auditu 19. 8.). */
@@ -900,7 +900,6 @@
   .badge.hs-green{background:var(--doska);color:var(--text2);border-color:var(--okraj)}
   .badge.hs-amber{background:var(--doska);color:var(--zlato);border-color:var(--zlato)}
   .badge.hs-red{background:var(--doska);color:var(--signal);border-color:var(--signal)}
-  .ring b{background:var(--doska);color:var(--text)}
 
   /* znak bloku NA farebnej ploche bloku sa musí obrátiť, inak splynie */
   .dnes-varenie-hero .znak,table.plan td.blok-hlava .znak{background:var(--na-bloku);color:var(--text)}
@@ -1005,7 +1004,7 @@
      Od v29 si Kompakt drží už len TESNEJŠIE rozloženie a skrytý pás rozvrhu —
      dáta v bunke (.pc-data) dostali všetky režimy, lebo skrývať ich pred Plánovaním
      znamenalo ukázať v hustejšom režime menej než v zmenšenine. */
-  /* Bielkoviny a cena na porciu priamo v bunke plánu. Do v29 to mal LEN Kompakt, takže
+  /* Bielkoviny na porciu priamo v bunke plánu (cena od v31 nie je). Do v29 to mal LEN Kompakt, takže
      Plánovanie — režim, ktorý má byť „hustejšia informácia" — ukazovalo o riadok MENEJ
      než zmenšenina. Údaj je rovnako užitočný vo všetkých režimoch aj na počítači. */
   .pc-data{display:block;font-size:11.5px;color:var(--text2);
@@ -1180,6 +1179,17 @@
     .bk-vynimka .plan-cell{margin:0 4px 4px}
     .bk-varenia{margin:2px 11px 10px}
     .bk-varenia .lnk{min-height:30px;display:inline-flex;align-items:center}
+    /* v31: 🎲 okamžitá výmena hneď vedľa názvu jedla. Plný dotykový cieľ (✕ vedľa má 24 px,
+       väčší sused ho chráni pred omylom). Selektor má špecificitu Kompakt podlahy (0,4,0)
+       a stojí ZA ňou, takže 30 px podlaha ho nestiahne pod 44 fyzických px. */
+    .content .plan-cell .pc-btn.pc-znova{display:inline-flex;align-items:center;justify-content:center;
+      flex:0 0 auto;margin-left:auto;min-width:max(44px,var(--cil-in));min-height:max(44px,var(--cil-in));
+      font-size:18px;line-height:1;text-align:center;
+      /* dotyková plocha 44 px, ale v rozložení zaberá len ~26 px: záporný vertikálny okraj ju
+         nechá presahovať do prázdneho pravého okraja riadkov nad a pod ňou (z-index = vyhrá dotyk),
+         takže riadok s názvom nenarastie a 🎲 sedí v jednej línii s názvom a ✕ */
+      position:relative;z-index:1;margin-top:calc((26px - max(44px,var(--cil-in))) / 2);
+      margin-bottom:calc((26px - max(44px,var(--cil-in))) / 2)}
     /* Nákup: pridávanie vlastnej položky a panely „Mám doma"/„Trasa obchodom"
        nie sú to, čo v obchode potrebuješ ako prvé — sú POD zoznamom.
        Poradie dáva priamo DOM, takže tu `order` už netreba — a hlavne nesmie byť,
@@ -1409,8 +1419,8 @@
         <label class="switch"><input type="checkbox" id="p-mlieko"> Bez laktózy</label>
         <label class="switch"><input type="checkbox" id="p-kupsnack"> Preferovať kupované snacky</label>
       </details>
-      <details class="panel"><summary>📚 Zdroje receptov — z čoho smie generátor vyberať</summary>
-        <p class="info">Zaškrtnutý zdroj generátor <b>používa</b>, odškrtnutý <b>preskočí</b>. V Receptoch ostávajú všetky recepty viditeľné a naplánovať sa dajú aj ručne — toto obmedzuje iba „✨ Zostaviť jedálniček". Mení sa hneď, netreba ukladať.</p>
+      <details class="panel"><summary>📚 Zdroje receptov — ktoré recepty appka ukazuje</summary>
+        <p class="info">Zaškrtnutý zdroj appka <b>používa</b>, odškrtnutý sa <b>neukáže nikde</b> — ani v Receptoch, ani v návrhoch, ani v „✨ Zostaviť jedálniček". Jedlá, ktoré už máš v pláne, ostanú. Kúpené snacky sa zdrojom neriadia. Mení sa hneď, netreba ukladať.</p>
         <div id="zdroje-box"></div>
         <p class="info" id="zdroje-info" style="margin-top:10px"></p>
       </details>

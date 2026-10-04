@@ -51,8 +51,8 @@ vidno, na ktorú várku položka patrí. Podklad je teplá šeď, nie krém. Če
 5. **Palec dosiahne všetko.** Akcie dole, dotykové ciele ≥44 px (56 px v Obchode, 64 px
    v Kuchyni), žiadne hover-only.
 6. **Nič nesmie závisieť od siete.** Žiadne CDN, žiadne fonty z webu, jeden súbor.
-7. **Appka radšej prizná, že nevie.** Neznáma cena je „? cena" s dôvodom, nie tiché 0,00 €;
-   kalórie, ktoré nesedia so surovinami, sú „≈ odhad". Číslo bez krytia je horšie než chýbajúce.
+7. **Appka radšej prizná, že nevie.** Kalórie, ktoré nesedia so surovinami, sú „≈ odhad".
+   (Ceny appka od v31 neukazuje vôbec — rozpočet je len úroveň v generátore.) Číslo bez krytia je horšie než chýbajúce.
 
 ## Accessibility & Inclusion
 WCAG 2.2 AA ako cieľ: kontrast textu ≥4,5:1 v svetlom aj tmavom režime (strážené skriptom,

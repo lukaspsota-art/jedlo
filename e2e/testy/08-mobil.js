@@ -105,6 +105,23 @@ module.exports = {
     await t.ok(await m.evaluate(() => document.getElementById("v-spajza").classList.contains("active")),
       "položka z panela „Viac“ prepne pohľad");
     await zavriOkna(m);
+    // v31: „⋯ Viac → Nastavenia“ musí fungovať aj keď je v URL hash (po ťuknutí na spodnú lištu).
+    // Do v30 oneskorený history.back() zo zavriPick vrátil predošlú obrazovku — Nastavenia bliklo
+    // a zmizlo. Kontrola vyššie to nechytila: bežala na čerstvej stránke bez hashu.
+    for (const [cil, text] of [["nastavenia", "Nastavenia"], ["vyziva", "Výživa"]]) {
+      await prepni(m, "planovac");
+      await m.locator("#botnav a", { hasText: "Viac" }).click();
+      await m.waitForTimeout(250);
+      await m.locator("#pick-modal .plan-cell", { hasText: text }).click();
+      await m.waitForTimeout(400);
+      const st = await m.evaluate((c) => ({ akt: document.getElementById("v-" + c).classList.contains("active"), hash: location.hash }), cil);
+      await t.ok(st.akt && st.hash === "#" + cil, `„⋯ Viac → ${text}“ ostane otvorené aj po prechode z inej obrazovky`, JSON.stringify(st));
+      await m.goBack();
+      await m.waitForTimeout(300);
+      const spat = await m.evaluate(() => document.getElementById("v-planovac").classList.contains("active"));
+      await t.ok(spat, `„Späť“ z ${text} vráti na Plán, nie do prázdneho okna`, String(spat));
+    }
+    await zavriOkna(m);
 
     // ── <details class="panel mob-zbal"> je pri štarte zbalený ──────────────
     const det = await m.evaluate(() => ({
@@ -175,6 +192,7 @@ module.exports = {
         akcii: bunka ? bunka.querySelectorAll(".rm").length : 0,
         slot: (() => { const x = bunka && bunka.querySelector(".pc-slot"); return vid(x) ? x.textContent.trim() : ""; })(),
         pcData: (() => { const d = bunka && bunka.querySelector(".pc-data"); return d ? getComputedStyle(d).display : "none"; })(),
+        kocka: (() => { const d = bunka && bunka.querySelector(".pc-znova"); if (!vid(d)) return 0; const r = d.getBoundingClientRect(); return Math.round(Math.min(r.width, r.height)); })(),
         hlava: karty[0] ? karty[0].innerText.replace(/\s+/g, " ") : "",
         taby: document.querySelector(".plan-tabs").innerText.replace(/\s+/g, " "),
         sipka: (document.querySelector("#plan-kontext .chip") || {}).getAttribute
@@ -188,7 +206,20 @@ module.exports = {
     await t.ok(planM.bunkaW > 150, `bunka s jedlom je použiteľne široká (${planM.bunkaW} px, kedysi 16 px)`, JSON.stringify(planM));
     await t.ok(planM.akcii === 2, "bunka plánu má na mobile 2 akcie", planM.akcii);
     await t.ok(planM.slot.length > 2, `menovka jedla je v karte, nie vo vlastnom stĺpci (.pc-slot = „${planM.slot}")`, JSON.stringify(planM));
-    await t.ok(planM.pcData === "block", "bielkoviny a cena sú v bunke aj mimo Kompaktu", JSON.stringify(planM));
+    await t.ok(planM.pcData === "block", "bielkoviny sú v bunke aj mimo Kompaktu", JSON.stringify(planM));
+    // v31: 🎲 hneď vedľa názvu jedla = okamžitá výmena v celom bloku
+    await t.ok(planM.kocka >= 44, `🎲 vymeniť je vedľa názvu jedla a má ${planM.kocka} px`, JSON.stringify(planM));
+    {
+      const zn = m.locator("#plan-bloky .pc-znova").first();
+      const [, di, slot] = (await zn.getAttribute("onclick")).match(/regenerujSlot\((\d+),'([^']+)'\)/);
+      const blokJedla = () => m.evaluate(([d, s]) => blokDni(+d).map((x) => slotIds(x, s)[0]), [di, slot]);
+      const pred = await blokJedla();
+      await zn.click();
+      await m.waitForTimeout(200);
+      const po = await blokJedla();
+      await t.ok(po[0] && po[0] !== pred[0] && po.every((x) => x === po[0]),
+        "🎲 vymení jedlo jedným ťuknutím naraz v celom bloku", JSON.stringify({ pred, po }));
+    }
     await t.ok(/varíš/.test(planM.hlava) && /kcal\/deň/.test(planM.hlava),
       "hlavička bloku hovorí varný deň aj súčet voči cieľu", planM.hlava.slice(0, 90));
     await t.ok(/Týždeň/.test(planM.taby) && /Kalendár/.test(planM.taby),
@@ -203,6 +234,9 @@ module.exports = {
       const p = await pretok(m);
       await t.ok(p.zle.length === 0 && p.docW <= p.viewW + 2,
         `393 px — žiadny vodorovný pretok v pohľade „${v}“`, JSON.stringify(p));
+      // v31: ceny appka neukazuje nikde (s naplneným plánom, kde by sa ukázali)
+      const euro = await m.evaluate((x) => { const s = document.getElementById("v-" + x).innerText, i = s.indexOf("€"); return i < 0 ? "" : s.slice(Math.max(0, i - 40), i + 3); }, v);
+      await t.ok(!euro, `v pohľade „${v}“ nie je žiadna cena`, euro);
     }
     // aj s otvoreným detailom receptu
     await prepni(m, "recepty");

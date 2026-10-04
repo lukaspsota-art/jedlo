@@ -491,8 +491,8 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
     assert.ok(por >= 7, "porcií na obed pre 7-dňový blok je len " + por);
   });
 
-  // Filter zdrojov (S.profil.zdrojeOff): vypnutý zdroj sa do plánu nedostane — ale je to
-  // VOLITEĽNÉ zúženie, takže vypnutie všetkého nesmie nechať prázdny deň.
+  // Filter zdrojov (S.profil.zdrojeOff): vypnutý zdroj sa nedostane do plánu ani do Receptov (v31).
+  // Vypnutie VŠETKÉHO sa splniť nedá — vtedy filter neplatí, aby nevznikol prázdny deň.
   {
     const prof = { osoby: 2, kcal: CIEL, stravnici: [{ nazov: "A", kcal: CIEL }, { nazov: "B", kcal: CIEL }] };
     const bez = novy(SEEDS[0], { profil: Object.assign({ zdrojeOff: "Varecha.sk" }, prof) });
@@ -523,6 +523,22 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
       // a keď sa zúženie NEuplatní (vypnuté je všetko), musí to povedať nahlas
       assert.ok(/VŠETKY/.test(nic) && /ignoruje/.test(nic),
         "pri vypnutí všetkých zdrojov hlásenie nepriznáva, že filter neplatí: " + nic);
+    });
+    // v31: filter je TVRDÝ a platí všade, nielen v generátore
+    ok("vypnutý zdroj sa neukáže nikde — Recepty, hľadanie, návrhy aj generátor idú cez prejdeProfil", () => {
+      const a = novy(SEEDS[0], { profil: Object.assign({ zdrojeOff: "Varecha.sk" }, prof) });
+      const vid = a.RECEPTY.filter(r => a.prejdeProfil(r));
+      assert.ok(vid.length > 100, "po vypnutí jedného zdroja ostalo len " + vid.length + " receptov");
+      assert.strictEqual(vid.filter(r => a.zdrojRodina(r) === "Varecha.sk").length, 0, "prejdeProfil prepúšťa vypnutú Varechu");
+      assert.strictEqual(a.genUniverzum().filter(r => a.zdrojRodina(r) === "Varecha.sk").length, 0, "generátor berie vypnutú Varechu");
+    });
+    ok("kúpené snacky sa zdrojom neriadia — Kaufland sa neponúka a snack ostáva výrobok", () => {
+      const a = novy(SEEDS[0], { profil: Object.assign({}, prof) });
+      assert.ok(!a.zdrojeList().some(([z]) => z === "Kaufland"), "Kaufland (len kúpené výrobky) sa ponúka ako zdroj receptov");
+      a.S.profil.zdrojeOff = "Kaufland";
+      const pool = a.poolPreSlot("Snack");
+      assert.ok(pool.length > 20, "snackový pool má len " + pool.length);
+      assert.ok(pool.every(r => a.jeVyrobok(r)), "do snackového slotu sa dostalo varené jedlo");
     });
     ok("rodina zdroja zlúči diely a autorov do jedného mena", () => {
       const z = id => bez.zdrojRodina({ zdroj: id });

@@ -42,14 +42,14 @@ vygenerovanom JS. Keď padne, **`kucharka.html` sa neprepíše** — starý buil
 
 ## Ako overiť
 - Syntax JS: `node --check data/app.js`
-- Celá sada (po každej zmene `app.js`) — **10 sád, 269 pomenovaných kontrol**:
+- Celá sada (po každej zmene `app.js`) — **10 sád, 275 pomenovaných kontrol**:
   ```
   node test_vypocty.js && node test_generator.js && node test_nakup.js && node test_ux.js \
     && node test_prepocty.js && node test_porcie.js && node test_jednotky.js \
     && node test_parovanie.js && node test_pravidla.js && node test_odolnost.js
   node test_regresie.js     # 12 kontrol, MUSÍ hlásiť 0 otvorených chýb
   ```
-  (vypocty 35 · generator 16 · nakup 65 · ux 47 · jednotky 14 · parovanie 19 · pravidla 53 ·
+  (vypocty 35 · generator 19 · nakup 65 · ux 48 · jednotky 14 · parovanie 19 · pravidla 55 ·
   odolnost 20 · prepocty ✓ · porcie ✓)
 - **`test_regresie.js` je zoznam už opravených chýb**, nie bežný test. Každá kontrola vie,
   či má prejsť alebo padnúť; keď sa stav zmení, test to povie. Nulu treba udržať.
@@ -184,12 +184,23 @@ názvu. Výsledok je cachovaný.
     luxus. V bežnom slote sa meria €/100 kcal; **v snackovom slote na PORCII** a s mediánovou
     poistkou — hotový výrobok má 60–150 kcal, takže €/100 kcal mu vyjde vysoké aj pri bežnej
     cene a strop by vyhodil presne skyr, šunku a tuniak, kvôli ktorým slot existuje.
-  - **Filter zdrojov (v26):** `S.profil.zdrojeOff` je „|"-oddelený zoznam vypnutých **rodín**
+  - **Ceny sa od v31 NEZOBRAZUJÚ nikde** (výslovná voľba používateľa) — ani karta, detail, bunka
+    plánu, Nákup, Domov, Výživa, ani kolekcia „Lacné". Cenová mašinéria generátora ostáva
+    (`cenaRef`, `_cenovyStrop`, `zlacniDen`, `cenaTyzdna`), ovláda ju jediný prvok: **4 úrovne
+    „Rozpočet"** v „✨ Zostaviť jedálniček" (`CENA_UROVNE` → `S.profil.cenaCiel`, bez €):
+    Úsporne 2,6 · Bežne 4,2 · Voľnejšie 9 · Na cene nezáleží 0. Kalibrované 4 seedy × 8 týždňov:
+    medián týždňa 101 / 107 / 114 / 122 €, výživa na každej úrovni rovnaká (0 % dní pod 80 g).
+    Brzda sa nasycuje (3,2 ≈ 2,6 a 5,5 ≈ 4,2), preto tie hodnoty — nemeň ich bez merania.
+  - **Filter zdrojov (v26, TVRDÝ od v31):** `S.profil.zdrojeOff` je „|"-oddelený zoznam vypnutých **rodín**
     zdrojov; rodinu vyrába `zdrojRodina(r)` (prvý segment pred pomlčkou, bez zátvorky a bez
-    rímskeho dielu — z 2200 rôznych polí `zdroj` vypadne 23 rodín), zoznam pre wizard
-    `zdrojeList()`. Gate je v `_poolPreSlotVypocet`, **nie v `prejdeProfil`**: je to
-    *voliteľné* zúženie (`if(z.length)pool=z`), takže vypnutie všetkých zdrojov nenechá prázdny
-    deň, a v Receptoch sa vypnutý zdroj naďalej prezerá aj plánuje ručne. UI = chipy v sekcii
+    rímskeho dielu — z 2200 rôznych polí `zdroj` vypadne 23 rodín), zoznam pre Nastavenia
+    `zdrojeList()`. **Gate je v `prejdeProfil`** (v31, používateľ chcel „nikde"): vypnutý zdroj
+    nie je v Receptoch, hľadaní, pickeri, návrhoch, 🎲, generátore ani na Domove. Recept, ktorý
+    už je v pláne, ostáva (plán číta cez `receptById`, ako pri skrytých). Poistka je
+    v `zdrojeOffAktivne()`: vypnuté VŠETKO = filter neplatí (inak prázdne Recepty aj plán).
+    **Kúpené výrobky (`jeVyrobok`) sú z filtra vyňaté** a `zdrojeList` ich nepočíta — rodina
+    „Kaufland" je 187 snackov a jej vypnutie by nechalo snackový slot bez výrobku (generátor
+    by doň dal guláš). UI = chipy v sekcii
     „📚 Zdroje receptov" **v Nastaveniach** (`renderZdrojeBox` / `ulozZdroje`, vzor je
     `renderSlotyBox`). **Nesmú to byť chipy:** v generátorovom okne znamená `.chip.active`
     u „Dni bez varenia" VYPNUTÝ deň, takže tá istá tmavá bublina by u zdrojov znamenala presný
@@ -198,7 +209,7 @@ názvu. Výsledok je cachovaný.
   - **`genUniverzum()`** je pool, z ktorého vyberá slot, a Nastavenia z neho hlásia počet
     (`zdrojeStav()`) — jedna funkcia, takže číslo pod prepínačmi nemôže klamať. Bez tej vety sa
     nedalo overiť, či filter vôbec zabral. Hlásenie zvlášť pomenúva stav „vypnuté je všetko":
-    zúženie je mäkké, TICHO sa neuplatní a počet neklesne, čo treba priznať.
+    filter sa vtedy neuplatní a počet neklesne, čo treba priznať.
 - Hľadanie (`hladaSedi`): najprv celý dopyt ako **frázu** nad haystackom (názov + popis + tagy +
   ingrediencie), potom **AND cez tokeny** (`/[\s,;]+/`) — `kura ryza` aj `cicer, paradajka`
   vracia recepty, ktoré majú OBE suroviny. Jednoslovný dopyt je preto bajt na bajt pôvodný.
@@ -210,8 +221,21 @@ názvu. Výsledok je cachovaný.
   v nákupe, nie po receptoch.
 - Jednotky → gramy: `gZaJednotku` (jediné miesto), `gramy` a `gramyNaJed` sú navzájom inverzné.
 - Ceny: **jedna funkcia `cenaTyzdna(mode)`** — `"spotreba"` (domácnosť), `"balenia"` (celé
-  balenia), `"osoba"`. `dovodBezCeny(G)` je jediné miesto, kde sa rozhoduje, či je cena neznáma;
-  položka bez ceny to v UI **priznáva** odznakom „? cena" s dôvodom.
+  balenia), `"osoba"`. `dovodBezCeny(G)` je jediné miesto, kde sa rozhoduje, či je cena neznáma.
+  Obe slúžia generátoru a testom — na obrazovku sa od v31 nevypisujú (ani „? cena").
+- **Hodnotenie a obľúbené (v31) sú váha výberu, nie len štítok.** `S.hodn[id]` 0,5–5 (polhviezdy),
+  `S.fav[id]` ∈ {0,5; 1} — ★ na karte má tri stavy ☆ → ½ → ★ (`toggleFav`, `favStupen`; staré
+  `true` = 1, polovica je `aria-pressed="mixed"`). `oblubenostVaha(id)` = `3^(h−3)` × {1; 1,3; 1,8}:
+  nehodnotené = 3★ = 1, 5★ = 9, 1★ = 0,11. Násobí `_vahaVypocet` (generátor, 🎲 slot aj blok),
+  radí „Čo variť dnes" a posúva 4 návrhy v „Aké jedlo?". Do v30 bolo `w=1+hodn`, takže aj 1★
+  bolo zvýhodnené oproti nehodnotenému. Namerané: 5★ obed 2,3× častejšie, 1★ 0,64×; „nie stále"
+  drží pamäť (žiadny 5★ obed dvakrát za 12 týždňov). Kryje `test_generator.js` H1.
+- **„🚫 Už nezobrazovať" = `S.skryte`** (v31 premenované z „Skryť z generátora", ktoré klamalo —
+  `prejdeProfil` skrytý recept vylučuje VŠADE: Recepty, hľadanie, návrhy, generátor). Dá sa aj
+  z plánu cez „⋯ viac" (`nezobrazovatVSlote` — skryje a v bloku hneď vymení). Vracia sa
+  v Receptoch cez filter „🚫 Skryté"; toast to pri skrytí hovorí.
+- **V detaile receptu je pod popisom LEN ⚠ alergény** (v31). Bielkoviny/100 kcal, podiel dňa,
+  sezóna, akcia, diéty ani „priprav vopred" tam nie sú — diéty a sezóna ostávajú na karte.
 - Nákup po oddeleniach: `PORADIE_ODDELENI` je len **predvoľba Kauflandu**. Skutočné poradie dáva
   `poradieOddeleni()` podľa `S.obchod` (`kaufland` / `lidl` / `vlastne`); vlastné poradie sa
   prestavuje šípkami ↑↓ v paneli „🏪 Trasa obchodom" a `ozdravPoradie` ho dopĺňa a čistí voči
@@ -246,7 +270,10 @@ Celá téma je JEDEN blok na konci `<style>` v `data/sablona.html` medzi
 `/* Bloky theme — start */` a `/* Bloky theme — end */`. Blok pôvodné CSS iba **prebíja**,
 nič v ňom nemaže — odstránenie témy = zmazať blok.
 - Zdroj témy je **`dizajn/tema-bloky.css`**; do šablóny (aj s base64 fontmi) ju vloží
-  **`python3 scripts/vloz_temu.py`**. Šablónu needituj v tomto bloku ručne.
+  **`python3 scripts/vloz_temu.py`**. **POZOR — zdroj je zastaraný od v26:** v29, v30 aj v31
+  (blokový zoznam, `.bk-*`, `.pc-znova`, odstránené `.ring`) sa editovali PRIAMO v šablóne.
+  `vloz_temu.py` by ich zmazal. Pred jeho spustením najprv preber blok zo šablóny späť
+  do `tema-bloky.css` (rozdiel = všetko medzi značkami okrem `@font-face`).
 - Fonty **Archivo** (nadpisy a čísla, premenlivá váha 400–800) a **Instrument Sans** (text)
   sú base64 `data:` URI, 4 súbory / 106 KB (latin + latin-ext pre každý). Appka musí zostať
   jeden offline súbor — nepridávaj `@import` ani CDN. **Slovenskú diakritiku nesie latin-ext**
@@ -327,7 +354,7 @@ nie 28 buniek za siedmimi klikmi.
 **Kompakt je informačný režim, nie zmenšenina (v26, zúžené v29).** Dovtedy to bol iba `zoom:.82`
 a skrytý nadpis — tie isté informácie, menšie písmo. Miesto, ktoré zoom ušetrí, sa vracia ako DÁTA.
 **Od v29 si Kompakt drží už len tesnejšie bunky a skrytý pás `#rozvrh-pas`** (nastavovanie, je
-v `⋯ Viac → 🍳 Rozvrh varenia`). `.pc-data` (bielkoviny + cena na porciu) a skrytý odkaz
+v `⋯ Viac → 🍳 Rozvrh varenia`). `.pc-data` (bielkoviny na porciu; cena od v31 nie je) a skrytý odkaz
 „plán varenia →" dostali **všetky režimy** — skrývať dáta pred Plánovaním znamenalo ukázať
 v „hustejšom" režime o riadok MENEJ než v zmenšenine. **Hlavička bloku si drží písmeno, názov
 aj varný deň — to je obsah**, len už na jednom riadku. Ak pridávaš do bunky ďalší údaj,
@@ -386,7 +413,9 @@ aj s prepínačom bez zmeny.
   ani pre desktop, kde by to zaviedlo tú istú chybu, len o pár stoviek px.
   Cena: „Mám doma" je pod zoznamom aj na počítači.
 - Súhrn nákupu má sekundárne údaje v `<details class="suhrn-viac">`; `renderNakup` mu dáva
-  `open` len na počítači (`jeMobil()`).
+  `open` len na počítači (`jeMobil()`). Súhrn od v31 nehovorí cenu, len počet položiek.
+- **„🧂 Dochucovadlá a základné veci" (`details.odd.zaklady`) sú ROZBALENÉ** (v31, používateľ
+  ich chce mať na očiach). Po každom prekreslení Nákupu sa otvoria znova.
 - **Nič sa neskrýva bez náhrady.** Všetko skryté je dosiahnuteľné z „⋯ Viac" alebo rozbaľovacím
   `▾`. Priznaná výnimka: v režime Kuchyňa (1,5×) je nad prehybom názov jedla a začiatok bunky,
   ale nie jej spodok — získať ďalších ~100 px sa dá len skrytím primárneho tlačidla
@@ -426,6 +455,17 @@ aj s prepínačom bez zmeny.
 - Štýly viaž na **triedu, nie na element** (`select.f` nechalo `input.f` bez štýlu).
 - **V bunke plánu je 1 primárna akcia + `⋯ viac`** (`akcieSlotu`), rozdelenie blokov je v `⋯ Viac`
   (`otvorRozdelenie`). Nepridávaj ďalšie mini-linky do bunky — bolo ich 5 a plán vyzeral rozbito.
+  **Výnimka od v31: 🎲 `.pc-znova` hneď vedľa názvu hlavného jedla** (výslovná požiadavka) —
+  okamžitá výmena cez `regenerujSlot` (celý blok, výber ako generátor). Len na telefóne
+  (na počítači `display:none`), 44 px, selektor so špecificitou Kompakt podlahy, v tlači skrytá.
+  **Nemá triedu `rm`** — testy rátajú v bunke presne 2× `.rm`.
+- **„Použiť na celý blok" JE predvolene zaškrtnuté** (v31, výslovná voľba; audit 6. 9. ho
+  vypol). Bez toho „✎ zmeniť" v blokovom zozname rozbilo blok na výnimky.
+- **Prechod z okna na obrazovku (`zavriPick();prepni(v)`) rieši `prepni`**, nie volajúci:
+  `zavriPick` naplánuje `history.back()` na záznam okna, a keby `prepni` pridal nový hash,
+  ten back() vrátil predošlú obrazovku. Do v31 sa preto na telefóne **nedali otvoriť
+  Nastavenia** (Viac → Nastavenia bliklo a zmizlo, keď bol v URL hash). `prepni` teraz záznam
+  okna nahradí (`history.replaceState`). Kryje `08-mobil.js`.
 - **`table.plan` má `<colgroup>`** — `table-layout:fixed` inak berie šírky z riadku s `colspan`
   a stĺpec s názvami jedál zabral 718 px. Na mobile je `table-layout:auto` (jeden viditeľný deň).
 - **Mriežka receptov sa kreslí po dávkach 60** (`_gridZoz`, `#grid-viac`, `IntersectionObserver`
@@ -596,7 +636,7 @@ Nielsen 24/40, technický audit 12/20) — opravené v tej istej vlne:
 - `::placeholder` má farbu (v tmavom mal 3,60:1); graf Výživy nepreteká v Kuchyni
 - nadpisy oddelení sú `h3`, nie `h4` (h2→h4 preskakovalo úroveň); appka má `h1` a `role="main"`
 - dialóg „Aké jedlo?" ponúka 4 návrhy s dôvodom namiesto 12 kategórií; „Použiť na celý blok"
-  už nie je predzaškrtnuté
+  už nie je predzaškrtnuté (v31 vrátené späť na výslovnú žiadosť používateľa)
 - makrá v gramoch sa zobrazujú na celé čísla (`fmtG`), nie na dve desatinné miesta
 - `generuj_kucharku.py` a `scripts/kontrola_tajomstiev.py` už nepadajú na Windows konzole
 

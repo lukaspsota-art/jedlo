@@ -71,7 +71,9 @@ module.exports = {
       polozky: [...document.querySelectorAll("#pick-modal .plan-cell .nm")].map((x) => x.textContent.trim()),
     }));
     await t.ok(panel.otvorene, "„⋯ viac“ v bunke otvorí panel akcií");
-    await t.ok(panel.polozky.length === 4, `panel má 4 akcie (doplnok, znova, porcie, zvyšok) — ${panel.polozky.length}`, JSON.stringify(panel));
+    // v31: pri skutočnom recepte pribudla piata „🚫 Už nezobrazovať“ (pri zvyšku/prílohe nie je)
+    await t.ok(panel.polozky.length === 5 && /Už nezobrazovať/.test(panel.polozky[4]),
+      `panel má 5 akcií (doplnok, znova, porcie, zvyšok, už nezobrazovať) — ${panel.polozky.length}`, JSON.stringify(panel));
     await zavriOkna(page);
 
     // ── rozvrh varenia: pás nad tabuľkou + dialóg (vlna 3, NAVOD v15) ──────

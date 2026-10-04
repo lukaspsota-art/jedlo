@@ -175,7 +175,8 @@ ok("nenapárovaná surovina sa priznáva ako bez ceny (nie tichých 0,00 €)", 
   assert.ok(it, "položka vypadla z nákupu");
   assert.strictEqual(it.bezCeny, true, "nemá príznak bezCeny");
   assert.ok(/datab/i.test(it.dovodCeny), "dôvod: " + it.dovodCeny);
-  assert.ok(/\? cena/.test(app.riadokNakup(it)), "v riadku chýba priznanie: " + app.riadokNakup(it));
+  // v31: ceny appka neukazuje — príznak bezCeny ostáva pre dáta, do riadku nákupu nepatrí
+  assert.ok(!/cena|€/.test(app.riadokNakup(it)), "v riadku nákupu je cena: " + app.riadokNakup(it));
 });
 ok("matched položka bez gramáže nehlási „0 g“, ale to, čo recept pýta", () => {
   const r = fakeRecept("Neznáma jednotka", [{ nazov: "Soľ", mnozstvo: 2, jednotka: "na cesto" }]);

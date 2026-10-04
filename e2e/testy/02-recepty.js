@@ -141,6 +141,10 @@ module.exports = {
 
     // ── obľúbené / hodnotenie / poznámka + prežitie reloadu ─────────────────
     const id = await page.evaluate(() => RECEPTY.find((r) => (r.postup || []).length >= 2).id);
+    // v31: ★ má tri stavy — prvé ťuknutie = pol hviezdy, druhé = celá, tretie = nič
+    await page.evaluate((i) => window.toggleFav(i), id);
+    const pol = await page.evaluate((i) => S.fav[i], id);
+    await t.ok(pol === 0.5, "prvé ťuknutie na ☆ dá pol hviezdy", String(pol));
     await page.evaluate((i) => window.toggleFav(i), id);
     await page.evaluate((i) => window.hodnot(i, 4), id);
     await page.evaluate(() => window.zavri());
@@ -164,6 +168,11 @@ module.exports = {
     await t.ok(favN === 1, "filter „Len obľúbené“ ukáže práve označený recept", favN);
     const hviezda = await page.evaluate(() => (document.querySelector("#grid .card .fav") || {}).textContent);
     await t.ok(hviezda === "★", "karta obľúbeného receptu má plnú hviezdu", hviezda);
+    await page.evaluate((i) => { S.fav[i] = 0.5; window.renderGrid(); }, id);
+    const polKarta = await page.evaluate(() => { const b = document.querySelector("#grid .card .fav");
+      return b ? { ap: b.getAttribute("aria-pressed"), pol: !!b.querySelector(".star-f") } : null; });
+    await t.ok(polKarta && polKarta.ap === "mixed" && polKarta.pol, "pol hviezdy: karta ostáva v „Len obľúbené“ a tlačidlo je aria-pressed=mixed", JSON.stringify(polKarta));
+    await page.evaluate((i) => { S.fav[i] = 1; save(); }, id);
     await page.evaluate(() => window.zrusFiltre());
 
     // ── poznámka sa píše do textarey (skutočný input, nie iba API) ──────────

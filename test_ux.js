@@ -163,6 +163,17 @@ ok("„⋯ viac“ v bunke plánu ponúkne všetky 4 sekundárne akcie", () => {
     .forEach(fn => assert.ok(h.includes(fn), "v paneli chýba " + fn));
   assert.ok(app.document.getElementById("pick-overlay").classList.contains("open"), "panel sa neotvoril");
 });
+ok("v31: „🚫 Už nezobrazovať“ z plánu skryje recept všade a v celom bloku ho vymení", async () => {
+  const app = novy();
+  await app.generujJedalnicek(true);
+  const bl = app.blokDni(2), stary = app.slotIds(2, "Obed")[0];
+  app.akcieSlotu(2, "Obed");
+  assert.ok(app.document.getElementById("pick-modal").innerHTML.includes("nezobrazovatVSlote(2,'Obed')"), "v „⋯ viac“ chýba „Už nezobrazovať“");
+  app.nezobrazovatVSlote(2, "Obed");
+  assert.ok(app.S.skryte[stary], "recept sa neskryl");
+  assert.ok(!app.prejdeProfil(app.receptById(stary)), "skrytý recept stále prechádza do Receptov/návrhov");
+  bl.forEach(d => { const id = app.slotIds(d, "Obed")[0]; assert.ok(id && id !== stary, "v dni " + d + " ostal skrytý recept: " + id); });
+});
 
 // ─────────────────────────────────────────────────────── U6 rozvrh varenia (bloky)
 nadpis("\nU6 — rozvrh varenia (bloky)");

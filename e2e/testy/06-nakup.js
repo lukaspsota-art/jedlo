@@ -83,14 +83,16 @@ module.exports = {
       balenia: cenaTyzdna("balenia"),
       osoba: cenaTyzdna("osoba"),
       ludi: stravniciList().length,
-      suhrnText: (document.querySelector("#nakup-list .nakup-suhrn") || {}).textContent || "",
+      zoznamText: (document.getElementById("nakup-list") || {}).textContent || "",
     }));
     await t.ok(ceny.spotreba > 1, `režim „spotreba“ vráti cenu (${ceny.spotreba.toFixed(2)} €)`, JSON.stringify(ceny));
     await t.ok(ceny.balenia >= ceny.spotreba - 0.01, "režim „balenia“ nie je nižší ako spotreba (kupuješ celé balenia)", `${ceny.balenia} vs ${ceny.spotreba}`);
     await t.ok(Math.abs(ceny.osoba - ceny.spotreba / ceny.ludi) < 0.01, "režim „osoba“ = spotreba / počet stravníkov", JSON.stringify(ceny));
-    await t.ok(/spotrebuješ/i.test(ceny.suhrnText), "súhrn nákupu ukazuje cenu spotreby", ceny.suhrnText.slice(0, 100));
-    await t.ok(/balenia/i.test(ceny.suhrnText) || ceny.balenia <= ceny.spotreba + 0.01,
-      "súhrn ukazuje aj cenu za celé balenia", ceny.suhrnText.slice(0, 140));
+    // v31: ceny appka neukazuje — cenaTyzdna ostáva pre generátor (4 cenové úrovne), nie pre obrazovku
+    const cenaVZozname = (ceny.zoznamText.match(/[^.]{0,40}(€|\? cena|spotrebuješ)[^.]{0,20}/) || [""])[0];
+    await t.ok(!cenaVZozname, "Nákup neukazuje žiadnu cenu (ani súhrn, ani „? cena“ pri položke)", cenaVZozname);
+    const zaklady = await page.evaluate(() => { const d = document.querySelector("#nakup-list details.zaklady"); return d ? d.open : null; });
+    await t.ok(zaklady !== false, "dochucovadlá a základné veci sú rozbalené (v31)", String(zaklady));
     t.metrika("cena týždňa spotreba / balenia / osoba", `${ceny.spotreba.toFixed(2)} € / ${ceny.balenia.toFixed(2)} € / ${ceny.osoba.toFixed(2)} €`);
     const bezCeny = await page.evaluate(() => nakupItems().filter((r) => r.bezCeny).length);
     t.metrika("položiek bez ceny", bezCeny);

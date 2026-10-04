@@ -103,7 +103,29 @@ function najhorsi(perSeed, metrika, viacJeHorsie) {
     .sort((a, b) => viacJeHorsie ? b.v - a.v : a.v - b.v)[0];
 }
 
-zberVsetko().then(({ perSeed, agg }) => {
+// H1 (v31): hodnotenie je NÁSOBOK okolo neutrálu. Štvrtina obedov dostane 5★, štvrtina 1★,
+// zvyšok ostane nehodnotený; meria sa, ako často sa ktorá skupina dostane do plánu.
+async function zberHodnotenie(W) {
+  const tot = { 5: 0, 1: 0, 0: 0 }, n = { 5: 0, 1: 0, 0: 0 }; let maxT = 0;
+  for (const seed of SEEDS) {
+    const app = novy(seed);
+    const skup = {};
+    app.poolPreSlot("Obed").map(r => r.id).sort().forEach((id, i) => {
+      const g = i % 4 === 0 ? 5 : i % 4 === 1 ? 1 : 0; skup[id] = g; n[g]++; if (g) app.S.hodn[id] = g; });
+    const pocet = {};
+    for (let w = 0; w < W; w++) {
+      app.S.viewOd = app.pridajDni(PONDELOK, w * 7);
+      await app.generujJedalnicek(true);
+      const t = new Set(); for (let di = 0; di < 7; di++) { const id = app.slotIds(di, "Obed")[0]; if (id) t.add(id); }
+      t.forEach(id => { if (skup[id] !== undefined) { tot[skup[id]]++; pocet[id] = (pocet[id] || 0) + 1; } });
+    }
+    maxT = Math.max(maxT, ...Object.values(pocet));
+  }
+  const miera = g => tot[g] / n[g];
+  return { tot, lift5: miera(5) / miera(0), lift1: miera(1) / miera(0), maxT, W };
+}
+
+zberVsetko().then(async ({ perSeed, agg }) => {
   const dni = agg.dni, faktory = agg.faktory;
   console.log(`Generátor: seedy ${SEEDS.join(", ")} × ${N} týždňov = ${dni.length} dní\n`);
 
@@ -234,6 +256,19 @@ zberVsetko().then(({ perSeed, agg }) => {
       const b = app.ranajkyBaza({ id: "x" + ocakavane, tagy: [], ...r });
       assert.strictEqual(b, ocakavane, r.nazov + " → " + b);
     });
+  });
+
+  console.log("\nH1 — hodnotenie ovplyvňuje výber: viac, nie stále (v31)");
+  const h = await zberHodnotenie(8);
+  ok("5★ obed sa objaví ≥ 1,5× častejšie než nehodnotený (bez neho si hodnotenie nikto nevšimne)", () => {
+    assert.ok(h.lift5 >= 1.5, "lift 5★ je len " + h.lift5.toFixed(2) + " · výskyty " + JSON.stringify(h.tot));
+  });
+  ok("1★ nie je zvýhodnené oproti nehodnotenému (do v30 bolo, lebo váha bola 1+hodn)", () => {
+    assert.ok(h.lift1 <= 1, "lift 1★ je " + h.lift1.toFixed(2));
+    assert.ok(h.lift5 >= 2 * h.lift1, "5★ (" + h.lift5.toFixed(2) + ") nie je ani 2× nad 1★ (" + h.lift1.toFixed(2) + ")");
+  });
+  ok("ani 5★ obed nie je stále — žiadny nie je vo viac než tretine týždňov", () => {
+    assert.ok(h.maxT <= Math.ceil(h.W / 3), "jeden recept bol v " + h.maxT + " z " + h.W + " týždňov");
   });
 
   console.log("\nOK — " + bezov + " kontrol prešlo.");
