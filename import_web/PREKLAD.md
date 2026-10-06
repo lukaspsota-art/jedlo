@@ -68,8 +68,12 @@ Rovnaké pravidlá ako vyššie, s týmito rozdielmi. Výstup: `import_knihy/epu
   nie kapitola knihy (`raw.kategoria_web` je len nápoveda). Omáčka, dresing, korenie → Príloha.
   **Nikdy `Snack`** — tá kategória je len pre kúpené výrobky (`typ: "vyrobok"`); predjedlo,
   finger food, chuťovky → Príloha.
-- `nazov`: slovenský názov podľa toho, čo je to za jedlo (Torch Shooters → „Crème brûlée
-  v pohárikoch“); herný názov ostáva v `zdroj`. Musí sa líšiť od názvov v DB (check hlási duplicitu).
+- `nazov`: **herný názov z knihy + pomlčka + slovensky, čo je to za jedlo**, keď je anglický názov
+  hravý/herný: „Moa Wings – pikantné vyprážané kuracie krídla v cmare“, „Dragon’s Breath – cesnakový
+  dresing…“. Herný názov ostáva po anglicky so správnymi veľkými písmenami (of/and/the malé,
+  apostrof ’, úvodzovky „…“); slovenská časť začína malým písmenom. Keď anglický názov len opisuje
+  jedlo (Sushi, Churros, Hot Chocolate, Baked Potato Bites), je `nazov` iba slovenský. Musí sa
+  líšiť od názvov v DB (check hlási duplicitu).
 - `popis`: jedna vlastná veta o jedle; herný kontext smie byť v polovici vety. `tipy`: `""`.
 - `porcie`/`cas`: z `raw.porcie`/`raw.min`; keď je 0, vyčítaj z `raw.meta` (YIELD, PREP/COOK TIME).
   Výťažok v kusoch (16 brownies, 12 tamales) = porcie. „1 loaf“, „One 2-layer cake“ → odhadni
