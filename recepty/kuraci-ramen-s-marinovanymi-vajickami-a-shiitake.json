@@ -1,0 +1,243 @@
+{
+ "id": "kuraci-ramen-s-marinovanymi-vajickami-a-shiitake",
+ "nazov": "Ryuji’s Ramen Bowl – kurací ramen s marinovanými vajíčkami a shiitake",
+ "kategoria": "Polievka",
+ "kuchyna": "Japonská",
+ "zdroj": "Persona: The Official Cookbook – Ryuji’s Ramen Bowl",
+ "porcie": 6,
+ "cas": "14 hod",
+ "kcal_na_porciu": 663,
+ "kcal_zdroj": "vypocet",
+ "popis": "Poctivý ramen, aký by si dal Ryuji: celodenný kurací vývar dochutený slanou tare, rezance, opečené shiitake a cez noc marinované vajíčka ajitama.",
+ "hlavna_surovina": "Kuracie mäso",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Kuracie krídla",
+   "mnozstvo": 2268,
+   "jednotka": "g",
+   "poznamka": "alebo kuracie skelety, na vývar",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "veľká, olúpaná, na vývar",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "kúsok 15 cm, na plátky, na vývar",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 6,
+   "jednotka": "strúčik",
+   "poznamka": "olúpaný, na vývar"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "zväzok",
+   "poznamka": "kúsky 8 cm, na vývar",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "veľká, kúsky 8 cm, na vývar",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "veľké, rozštvrtené, na vývar",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 5700,
+   "jednotka": "ml",
+   "poznamka": "studená, na vývar, podľa potreby aj viac"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na tare"
+  },
+  {
+   "nazov": "Mirin",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na tare"
+  },
+  {
+   "nazov": "Ryžové víno sake",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na tare"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na tare"
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "ryžový, na tare"
+  },
+  {
+   "nazov": "Riasa kombu",
+   "mnozstvo": 5,
+   "jednotka": "g",
+   "poznamka": "kúsok 10 cm, na tare",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": "rozpučený, na marinádu vajec"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": "kúsok 8 cm, na plátky, na marinádu vajec",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Ryžové víno sake",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na marinádu vajec",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na marinádu vajec",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Mirin",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "na marinádu vajec",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na marinádu vajec",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "na marinádu vajec"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": "veľké"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na huby"
+  },
+  {
+   "nazov": "Shiitake",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "len klobúčiky, na tenké plátky"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na huby"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na huby"
+  },
+  {
+   "nazov": "Ramen rezance",
+   "mnozstvo": 480,
+   "jednotka": "g",
+   "poznamka": "6 porcií, čerstvé alebo mrazené"
+  },
+  {
+   "nazov": "Riasa nori",
+   "mnozstvo": 3,
+   "jednotka": "g",
+   "poznamka": "6 štvorčekov 5 × 5 cm"
+  },
+  {
+   "nazov": "Menma",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nakladané bambusové výhonky, na podávanie"
+  },
+  {
+   "nazov": "Nakladaný zázvor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "červený beni shōga, na podávanie"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na tenké kolieska, na podávanie"
+  },
+  {
+   "nazov": "Shichimi togarashi",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "japonská zmes korenia, na podávanie"
+  },
+  {
+   "nazov": "Sezamový olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "pálivý chili olej ra-yu, na podávanie"
+  }
+ ],
+ "postup": [
+  "Do veľkého hrnca daj kuracie krídla, cibuľu, zázvor, cesnak, jarnú cibuľku, mrkvu a jablko, zalej studenou vodou a priveď do varu. Často zbieraj penu a nechaj 6 hodín prudko vrieť; okrem poslednej hodiny každú hodinu dolej vodu.",
+  "Pevné časti vyhoď, vývar preceď cez jemné sitko a cez noc vychlaď v uzavretej nádobe.",
+  "Kým sa vývar varí, priprav tare: v malom hrnci priveď do varu soľ, mirin, sake, vodu a ocot a var asi 3 minúty, kým nevyprchá alkohol. Stíš oheň, pridaj kombu, var 10 minút, kombu vyber a tare vychlaď (vydrží 2 týždne).",
+  "Na marinádu povar 3 minúty cesnak, zázvor, sake, sójovú omáčku, mirin, cukor a vodu, kým sa cukor nerozpustí, a nechaj vychladnúť. Vajcia var 7 minút v pare nad vriacou vodou, prenes do ľadovej vody na 20 minút, ošúp a ponor do marinády. Uzavreté marinuj cez noc v chladničke.",
+  "Na panvici rozohrej olej a shiitake opekaj 10–15 minút, kým nie sú zlatisté a mierne chrumkavé. Premiešaj so sójovou omáčkou, okoreň a odlož (vydržia 3 dni).",
+  "Z vychladeného vývaru zober stuhnutý tuk a vývar zohrej. Vajcia vyber z marinády a prekroj na polovice. Do každej misky daj 2 PL tare (asi 1 PL na 250 ml vývaru) a podľa chuti dochuť.",
+  "Rezance var po porciách podľa obalu (čerstvé asi 2 minúty). Do misky nalej 500–750 ml horúceho vývaru, pridaj odkvapkané rezance, navrch huby, polovice vajca, menmu, nakladaný zázvor a jarnú cibuľku a za vajce zastrč štvorček nori. Podávaj so shichimi togarashi a chili olejom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "kuracie",
+  "ramen",
+  "herná kuchárka"
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "id": "shoyu-ramen-s-bravcovym-chashu-a-marinovanym-vajcom",
+ "nazov": "Shoyu ramen – bravčový ramen s chashu a marinovaným vajcom",
+ "kategoria": "Polievka",
+ "kuchyna": "Japonská",
+ "zdroj": "Persona: The Official Cookbook – Shoyu Pork Ramen",
+ "porcie": 8,
+ "cas": "17 hod",
+ "kcal_na_porciu": 1286,
+ "kcal_zdroj": "vypocet",
+ "popis": "Poctivý ramen so 16-hodinovým bravčovým vývarom, sójovou tare, dusenou bravčovou roládou chashu a vajcom s tekutým žĺtkom – víkendový projekt, aký by ocenili aj obyvatelia internátu z Persony.",
+ "hlavna_surovina": "bravčové mäso",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Bravčové kosti na vývar",
+   "mnozstvo": 2268,
+   "jednotka": "g",
+   "poznamka": "krčné a stehenné kosti",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Bravčové nožičky na vývar",
+   "mnozstvo": 1361,
+   "jednotka": "g",
+   "poznamka": "nakrájané na kolieska hrubé 1 cm",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "veľká, ošúpaná; na vývar"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "kus 10 cm, na plátky; na vývar"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 10,
+   "jednotka": "strúčik",
+   "poznamka": "ošúpaný; na vývar"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "kúsky 8 cm; na vývar"
+  },
+  {
+   "nazov": "Bravčový bôčik",
+   "mnozstvo": 907,
+   "jednotka": "g",
+   "poznamka": "bez kože, v jednom kuse; na chashu"
+  },
+  {
+   "nazov": "Sake",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "saké; na chashu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "na chashu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Mirin",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na chashu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 360,
+   "jednotka": "ml",
+   "poznamka": "na chashu"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "na chashu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "kúsky 8 cm; na chashu"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": "ošúpaný; na chashu"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 25,
+   "jednotka": "g",
+   "poznamka": "kus 5 cm, na plátky; na chashu"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": "veľké; na marinované vajcia aji tamago"
+  },
+  {
+   "nazov": "Vývar dashi",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "na tare"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 80,
+   "jednotka": "ml",
+   "poznamka": "na tare"
+  },
+  {
+   "nazov": "Mirin",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na tare"
+  },
+  {
+   "nazov": "Sake",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "saké; na tare"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "hrubá; na tare"
+  },
+  {
+   "nazov": "Rezance",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": "ramen, 8 porcií čerstvých alebo mrazených"
+  },
+  {
+   "nazov": "Mungo klíčky",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "na servírovanie"
+  },
+  {
+   "nazov": "Riasa nori",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "list nastrihaný na 8 štvorcov 5 × 5 cm"
+  },
+  {
+   "nazov": "Menma",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nakladané bambusové výhonky, na servírovanie"
+  },
+  {
+   "nazov": "Nakladaný zázvor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "beni shōga, na servírovanie"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na tenké kolieska, na posypanie"
+  },
+  {
+   "nazov": "Shichimi togarashi",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "japonská zmes korenia, na servírovanie"
+  },
+  {
+   "nazov": "Chilli olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "ra-yu, na servírovanie"
+  }
+ ],
+ "postup": [
+  "Kosti a nožičky daj do veľkého hrnca (aspoň 12 l), zalej asi 7,5 l studenej vody a priveď do varu. Var 15 minút, potom sceď a kosti pod studenou vodou vydrhni od peny a zrazenej krvi.",
+  "Kosti vráť do vypláchnutého hrnca s cibuľou, zázvorom, cesnakom a jarnou cibuľkou na vývar a zalej 7,5 l studenej vody. Priveď do varu, prvú polhodinu poctivo zbieraj penu a potom nechaj 16 hodín prudko vrieť. Každú hodinu dolej vodu na pôvodnú úroveň, poslednú hodinu a pol už nie. Vývar sceď cez jemné sitko – zostane ho asi 5,5 l.",
+  "Kým sa vývar varí, zroluj bôčik do pevnej rolády a previaž mäsiarskym špagátom. V liatinovom hrnci ho opeč zo všetkých strán do zlatista (5–7 minút na stranu), nechaj chvíľu vychladnúť a pridaj saké, sójovú omáčku, mirin, vodu, cukor, jarnú cibuľku, cesnak a zázvor na chashu. Priveď do varu a 3 hodiny pomaly dus, každých 30 minút roládu otoč.",
+  "Roládu vyber, výpek preceď a vychlaď, kým tuk na povrchu nestuhne – tuk zober a vyhoď. Roládu vlož do uzatvárateľného vrecka s asi 250 ml výpeku, vytlač vzduch, aby bola celá ponorená, a nechaj cez noc v chladničke.",
+  "Vajcia var na pare 7 minút, hneď ich prelož na 20 minút do ľadovej vody a olúp. Ulož ich do nádoby, zalej zvyšným výpekom z chashu a nechaj cez noc v chladničke.",
+  "Na tare zmiešaj v hrnčeku dashi, sójovú omáčku, mirin, saké a soľ a var 3–4 minúty, kým sa soľ nerozpustí a nevyprchá alkohol. Vychlaď.",
+  "Pred podávaním zohrej vývar a v druhom hrnci priveď do varu vodu. Chashu nakrájaj na tenké plátky a jednu stranu opáľ kuchynským horákom alebo na veľmi horúcej panvici, vajcia prekroj na polovice. Do každej misky daj 2 PL tare a zalej 500–700 ml horúceho vývaru.",
+  "Rezance var po porciách podľa obalu (čerstvé asi 2 minúty), sceď a vlož do misky. Klíčky povar 1 minútu a rozlož na rezance. Navrch daj 2 plátky chashu, polovice vajca, menmu, nakladaný zázvor, jarnú cibuľku a štvorček nori. Podávaj so shichimi togarashi a chilli olejom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "bravčové",
+  "ramen",
+  "herná kuchárka"
+ ]
+}
