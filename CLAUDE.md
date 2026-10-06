@@ -192,7 +192,8 @@ názvu. Výsledok je cachovaný.
     medián týždňa 101 / 107 / 114 / 122 €, výživa na každej úrovni rovnaká (0 % dní pod 80 g).
     Brzda sa nasycuje (3,2 ≈ 2,6 a 5,5 ≈ 4,2), preto tie hodnoty — nemeň ich bez merania.
   - **Filter zdrojov (v26, TVRDÝ od v31):** `S.profil.zdrojeOff` je „|"-oddelený zoznam vypnutých **rodín**
-    zdrojov; rodinu vyrába `zdrojRodina(r)` (prvý segment pred pomlčkou, bez zátvorky a bez
+    zdrojov (vedľa toho je v Receptoch obyčajný filter `#f-zdroj` „Všetky zdroje", plní ho
+    `naplnKuchyne` len zapnutými rodinami); rodinu vyrába `zdrojRodina(r)` (prvý segment pred pomlčkou, bez zátvorky a bez
     rímskeho dielu — z 2200 rôznych polí `zdroj` vypadne 23 rodín), zoznam pre Nastavenia
     `zdrojeList()`. **Gate je v `prejdeProfil`** (v31, používateľ chcel „nikde"): vypnutý zdroj
     nie je v Receptoch, hľadaní, pickeri, návrhoch, 🎲, generátore ani na Domove. Recept, ktorý

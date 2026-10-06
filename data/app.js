@@ -765,7 +765,13 @@ function naplnKuchyne(){ const sel=document.getElementById("f-kuchyna"); if(!sel
   sel.innerHTML='<option value="">Všetky kuchyne</option>';
   const s=new Set(RECEPTY.map(r=>r.kuchyna).filter(Boolean));
   Array.from(s).sort((a,b)=>a.localeCompare(b,"sk")).forEach(k=>{const o=document.createElement("option");o.value=k;o.textContent=k;sel.appendChild(o);});
-  sel.value=drz; }
+  sel.value=drz;
+  // Filter zdroja v Receptoch: len rodiny, ktoré nie sú vypnuté v Nastaveniach (vypnutá by dala prázdnu mriežku).
+  const zs=document.getElementById("f-zdroj"); if(!zs)return;
+  const zdrz=zs.value, off=zdrojeOffAktivne();
+  zs.innerHTML='<option value="">Všetky zdroje</option>';
+  zdrojeList().filter(([z])=>!off.has(z)).forEach(([z,n])=>{const o=document.createElement("option");o.value=z;o.textContent=z+" ("+n+")";zs.appendChild(o);});
+  zs.value=zdrz; if(zs.value!==zdrz) zs.value=""; }
 function renderChips(){ const box=document.getElementById("chips"); box.innerHTML="";
   kategorie().forEach(k=>{ const el=document.createElement("div"); el.className="chip"+(k===aktivnaKat?" active":""); el.textContent=k;
     el.tabIndex=0; el.setAttribute("role","button"); el.setAttribute("aria-pressed",k===aktivnaKat); el.dataset.fokus="kat:"+k;
@@ -935,6 +941,7 @@ function renderGrid(){
   const grid=document.getElementById("grid");
   const q=bezDia(document.getElementById("hladaj").value.trim());
   const fk=document.getElementById("f-kuchyna").value;
+  const fz=(document.getElementById("f-zdroj")||{}).value||"";
   const fc=parseInt(document.getElementById("f-cas").value)||0;
   const fd=document.getElementById("f-diet").value;
   const fs=(document.getElementById("f-sort")||{}).value||"";
@@ -952,6 +959,7 @@ function renderGrid(){
     if(aktivnaKolekcia){ const K=KOLEKCIE.find(k=>k.id===aktivnaKolekcia); if(K && !K.test(r)) return false; }
     if(aktivnaKat!=="Všetko"&&r.kategoria!==aktivnaKat) return false;
     if(fk&&r.kuchyna!==fk) return false;
+    if(fz&&zdrojRodina(r)!==fz) return false;
     if(fc&&casMin(r)>fc) return false;
     if(fd==="fav"&&!S.fav[r.id]) return false;
     if(fd==="veg"&&!diety(r).veg) return false;
@@ -978,9 +986,9 @@ function renderGrid(){
   // v33: pri hľadaní ide pred to relevancia (hladaSkore) — „kura" dávalo 4. „Baby Hokkaido polievku".
   else { const napoj=r=>(r.kategoria==="Kokteil"||r.kategoria==="Nápoj")?1:0;
     zoz=zoz.map((r,i)=>[r,i]).sort((a,b)=>(skore.get(b[0].id)-skore.get(a[0].id))||(napoj(a[0])-napoj(b[0]))||(a[1]-b[1])).map(x=>x[0]); }
-  const filtreAktivne = q||fk||fc||fd||aktivnaKat!=="Všetko"||aktivnaKolekcia||vyrobkyPrec;
+  const filtreAktivne = q||fk||fz||fc||fd||aktivnaKat!=="Všetko"||aktivnaKolekcia||vyrobkyPrec;
   // U1: na telefóne sú selecty schované za tlačidlom „Filtre" — bez počtu by používateľ nevidel, že filtruje
-  const fcnt=document.getElementById("f-cnt"); if(fcnt){ const n=[fk,fc,fd,fs].filter(Boolean).length; fcnt.textContent=n; fcnt.hidden=!n; }
+  const fcnt=document.getElementById("f-cnt"); if(fcnt){ const n=[fk,fz,fc,fd,fs].filter(Boolean).length; fcnt.textContent=n; fcnt.hidden=!n; }
   const vp=document.getElementById("vyrobky-prep");
   if(vp){ vp.hidden=!(vyrobkyZalezi && (aktVyrobky||vyrobkovPrec>0));
     vp.innerHTML=vp.hidden?"":`<button class="kol-tile${aktVyrobky?" active":""}" aria-pressed="${aktVyrobky}" onclick="prepniVyrobky()">🛒 aj kúpené výrobky${aktVyrobky?"":" (+"+vyrobkovPrec+")"}</button>`; }
@@ -1040,7 +1048,7 @@ function _gridSledujKoniec(){ if(typeof IntersectionObserver!=="function")return
   _gridIO=new IntersectionObserver(es=>{ if(es.some(e=>e.isIntersecting)) _gridDopln(); },{rootMargin:"600px 0px"});
   _gridIO.observe(b); }
 // R2. v33: vracia aj radenie — #f-cnt ho ráta („Filtre a radenie 1"), takže po „Zrušiť" svietila jednotka.
-function zrusFiltre(){ const h=document.getElementById("hladaj"); if(h)h.value=""; ["f-kuchyna","f-cas","f-diet","f-sort"].forEach(id=>{const e=document.getElementById(id); if(e)e.value="";}); aktivnaKat="Všetko"; aktivnaKolekcia=""; aktVyrobky=false; renderChips(); renderKolekcie(); renderGrid(); }
+function zrusFiltre(){ const h=document.getElementById("hladaj"); if(h)h.value=""; ["f-kuchyna","f-zdroj","f-cas","f-diet","f-sort"].forEach(id=>{const e=document.getElementById(id); if(e)e.value="";}); aktivnaKat="Všetko"; aktivnaKolekcia=""; aktVyrobky=false; renderChips(); renderKolekcie(); renderGrid(); }
 // P2: jedno miesto, kde sa pýtame „je to telefón?" — rovnaká hranica ako v CSS (820 px).
 function jeMobil(){ return typeof matchMedia==="function" && matchMedia("(max-width:820px)").matches; }
 // U1: sekundárne panely sú na telefóne zbalené; na počítači ostávajú otvorené (je tam miesto)
@@ -4665,7 +4673,7 @@ function zdrojeInfo(){ const el=document.getElementById("zdroje-info"); if(el)el
 // nie celý box, aby políčko pod prstom neprišlo o fokus.
 function ulozZdroje(){ const box=document.getElementById("zdroje-box"); if(!box)return;
   S.profil.zdrojeOff=[...box.querySelectorAll("input[data-zdroj]")].filter(i=>!i.checked).map(i=>i.dataset.zdroj).join("|");
-  save(); zdrojeInfo(); renderGrid(); }
+  save(); zdrojeInfo(); naplnKuchyne(); renderGrid(); }
 function naplnProfil(){ renderStravnici(); renderSlotyBox(); renderZdrojeBox(); renderHlavnyCielInfo();
   document.getElementById("p-biel").value=S.profil.biel||0; document.getElementById("p-ryby").checked=!!S.profil.ryby;
   document.getElementById("p-lepok").checked=!!S.profil.lepok; document.getElementById("p-mlieko").checked=!!S.profil.mlieko; var pd=document.getElementById("p-dark"); if(pd)pd.value=(S.profil.temaAuto!==false)?"auto":(S.profil.dark?"tmava":"svetla"); var pb=document.getElementById("p-big"); if(pb)pb.checked=!!S.profil.big; var pa=document.getElementById("p-akcie"); if(pa)pa.value=S.akcie||""; var pbal=document.getElementById("p-balenia"); if(pbal)pbal.checked=(S.profil.balenia!==false); var pw=document.getElementById("p-watch"); if(pw)pw.value=S.profil.watch||""; var pz=document.getElementById("p-zakazane"); if(pz)pz.value=S.profil.zakazane||""; var pks=document.getElementById("p-kupsnack"); if(pks)pks.checked=(S.profil.kupSnack!==false); var pct=document.getElementById("p-cieltyp"); if(pct)pct.value=S.profil.cielTyp||"udrzanie"; var pok=document.getElementById("p-okno"); if(pok)pok.checked=!!S.profil.okno; var pos=document.getElementById("p-oknostart"); if(pos)pos.value=S.profil.oknostart||12;
@@ -4734,7 +4742,7 @@ function pridajChybajuceDoNakupu(id){ const r=receptById(id); if(!r)return;
 // a zavrie klávesnicu, aby bolo vidieť výsledky.
 let _gridTimer=null;
 function renderGridDebounce(){ clearTimeout(_gridTimer); _gridTimer=setTimeout(renderGrid,150); }
-["hladaj","f-kuchyna","f-cas","f-diet","f-sort"].forEach(id=>{
+["hladaj","f-kuchyna","f-zdroj","f-cas","f-diet","f-sort"].forEach(id=>{
   const el=document.getElementById(id); if(!el)return;
   el.addEventListener("input",renderGridDebounce);
   if(id==="hladaj") el.addEventListener("keydown",e=>{ if(e.key==="Enter"){ clearTimeout(_gridTimer); renderGrid(); el.blur(); } });
