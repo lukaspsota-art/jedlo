@@ -20711,5 +20711,133 @@
     "sodik": 700,
     "balenie_g": 375,
     "balenie_popis": "375 g"
+  },
+  {
+    "kluc": "kozí syr",
+    "oddelenie": "Mliečne a vajcia",
+    "alergeny": [
+      "mlieko"
+    ],
+    "kcal": 364,
+    "bielkoviny": 22,
+    "tuky": 30,
+    "sacharidy": 0.1,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 2.8,
+    "vlaknina": 0,
+    "sodik": 515,
+    "balenie_g": 100,
+    "balenie_popis": "100 g"
+  },
+  {
+    "kluc": "čerstvé droždie",
+    "oddelenie": "Chladené",
+    "alergeny": [],
+    "kcal": 105,
+    "bielkoviny": 8.4,
+    "tuky": 1.9,
+    "sacharidy": 12,
+    "g_za_ks": 42,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.5,
+    "vlaknina": 6.9,
+    "sodik": 30,
+    "balenie_g": 42,
+    "balenie_popis": "42 g"
+  },
+  {
+    "kluc": "čerstvé figy",
+    "oddelenie": "Zelenina a ovocie",
+    "alergeny": [],
+    "kcal": 74,
+    "bielkoviny": 0.8,
+    "tuky": 0.3,
+    "sacharidy": 19,
+    "g_za_ks": 50,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.8,
+    "vlaknina": 2.9,
+    "sodik": 1,
+    "balenie_g": 250,
+    "balenie_popis": "250 g"
+  },
+  {
+    "kluc": "kozie mlieko",
+    "oddelenie": "Mliečne a vajcia",
+    "alergeny": [
+      "mlieko"
+    ],
+    "kcal": 69,
+    "bielkoviny": 3.6,
+    "tuky": 4.1,
+    "sacharidy": 4.5,
+    "g_za_ks": null,
+    "hustota": 1.03,
+    "meso": false,
+    "cena100": 0.4,
+    "vlaknina": 0,
+    "sodik": 50,
+    "balenie_g": 1000,
+    "balenie_popis": "1 l"
+  },
+  {
+    "kluc": "viničové listy",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [],
+    "kcal": 90,
+    "bielkoviny": 5.6,
+    "tuky": 2.1,
+    "sacharidy": 17,
+    "g_za_ks": 4,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.5,
+    "vlaknina": 11,
+    "sodik": 2800,
+    "balenie_g": 450,
+    "balenie_popis": "450 g"
+  },
+  {
+    "kluc": "slimáky",
+    "oddelenie": "Mäso a ryby",
+    "alergeny": [
+      "mäkkýše"
+    ],
+    "kcal": 90,
+    "bielkoviny": 16,
+    "tuky": 1.4,
+    "sacharidy": 2,
+    "g_za_ks": 5,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 3,
+    "vlaknina": 0,
+    "sodik": 70,
+    "balenie_g": 200,
+    "balenie_popis": "200 g"
+  },
+  {
+    "kluc": "holandská omáčka",
+    "oddelenie": "Omáčky a dochucovadlá",
+    "alergeny": [
+      "vajcia",
+      "mlieko"
+    ],
+    "kcal": 400,
+    "bielkoviny": 2,
+    "tuky": 42,
+    "sacharidy": 4,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.5,
+    "vlaknina": 0,
+    "sodik": 600,
+    "balenie_g": 250,
+    "balenie_popis": "250 ml"
   }
 ]

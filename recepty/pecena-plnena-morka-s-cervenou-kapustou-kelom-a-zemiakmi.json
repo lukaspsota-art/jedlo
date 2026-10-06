@@ -1,0 +1,267 @@
+{
+ "id": "pecena-plnena-morka-s-cervenou-kapustou-kelom-a-zemiakmi",
+ "nazov": "Pečená plnená morka s červenou kapustou, ružičkovým kelom a zemiakmi",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Dragon Age: The Official Cookbook – Roasted Turkey with Sides",
+ "porcie": 6,
+ "cas": "6 hod",
+ "kcal_na_porciu": 1410,
+ "kcal_zdroj": "vypocet",
+ "popis": "Celá morka plnená mletým mäsom s pečienkou a jablkom, s brusnicovou omáčkou, pečenými zemiakmi, maslovým ružičkovým kelom a dusenou červenou kapustou – hostina hodná dvora v Denerime.",
+ "hlavna_surovina": "Morčacie mäso",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na kocky; do plnky"
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "kyslé, olúpané, na kocky; do plnky"
+  },
+  {
+   "nazov": "Kuracia pečeň",
+   "mnozstvo": 99,
+   "jednotka": "g",
+   "poznamka": "na kocky; do plnky"
+  },
+  {
+   "nazov": "Mleté bravčové mäso",
+   "mnozstvo": 255,
+   "jednotka": "g",
+   "poznamka": "do plnky"
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": "½ stonky, nadrobno; do plnky"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "nadrobno; do plnky"
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 0.5,
+   "jednotka": "zväzok",
+   "poznamka": "nasekaná; do plnky"
+  },
+  {
+   "nazov": "Vývar",
+   "mnozstvo": 160,
+   "jednotka": "ml",
+   "poznamka": "kurací; do plnky"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "čerstvo mleté"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na potretie morky"
+  },
+  {
+   "nazov": "Sladká paprika",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na potretie morky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na potretie morky"
+  },
+  {
+   "nazov": "Morčacie mäso",
+   "mnozstvo": 4080,
+   "jednotka": "g",
+   "poznamka": "celá morka, pripravená na pečenie",
+   "vsiaknutie": 0.7
+  },
+  {
+   "nazov": "Pomarančový džús",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "do omáčky"
+  },
+  {
+   "nazov": "Biele víno",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "do omáčky"
+  },
+  {
+   "nazov": "Džem",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "brusnicový; do omáčky"
+  },
+  {
+   "nazov": "Smotana na šľahanie 33 %",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "do omáčky"
+  },
+  {
+   "nazov": "Kukuričný škrob",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "voliteľne, na zahustenie omáčky"
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 794,
+   "jednotka": "g",
+   "poznamka": "pevné, šalátové; na pečené zemiaky"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": "na pečené zemiaky"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": "nadrobno; na pečené zemiaky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": "na pečené zemiaky"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": "na pečené zemiaky"
+  },
+  {
+   "nazov": "Sladká paprika",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": "na pečené zemiaky"
+  },
+  {
+   "nazov": "Ružičkový kel",
+   "mnozstvo": 794,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 57,
+   "jednotka": "g",
+   "poznamka": "na ružičkový kel"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": "nastrúhaný; na ružičkový kel"
+  },
+  {
+   "nazov": "Červená kapusta",
+   "mnozstvo": 1020,
+   "jednotka": "g",
+   "poznamka": "1 hlávka, nakrájaná"
+  },
+  {
+   "nazov": "Prepustené maslo",
+   "mnozstvo": 57,
+   "jednotka": "g",
+   "poznamka": "ghee; na kapustu"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na kocky; na kapustu"
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "kyslé, olúpané, na kocky; na kapustu"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "a podľa chuti; na kapustu"
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "a podľa chuti; na kapustu"
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "list",
+   "poznamka": "na kapustu"
+  },
+  {
+   "nazov": "Klinčeky",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": "celé; na kapustu"
+  },
+  {
+   "nazov": "Borievky",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": "na kapustu"
+  },
+  {
+   "nazov": "Bujón",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "v prášku; na kapustu"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na kel a kapustu"
+  },
+  {
+   "nazov": "Brandy",
+   "mnozstvo": 4,
+   "jednotka": "ČL",
+   "poznamka": "na kapustu"
+  }
+ ],
+ "postup": [
+  "V mise zmiešaj cibuľu, jablko, pečeň, mleté mäso, zeler, cesnak a petržlenovú vňať s vývarom a okoreň.",
+  "Rúru predhrej na 175 °C a na jej dno postav pekáč s 2–3 cm vody na zachytávanie výpeku. V miske zmiešaj olivový olej, papriku, soľ a poriadnu štipku korenia.",
+  "Morku opláchni, osuš, naplň ju plnkou a otvor zopni špáradlami. Polož ju na rošt, celú potri ochuteným olejom a peč na najnižšej úrovni 4–5 hodín (asi 1 hodinu na každý kilogram). Každých 15 minút ju polej výpekom a raz za hodinu obráť.",
+  "Zemiaky umy a s kôrou nakrájaj na štvrtiny. Obal ich v rastlinnom oleji s cesnakom, soľou, korením a paprikou, rozlož na plech s papierom na pečenie a peč pri 175 °C 40–50 minút do zlatista; občas ich obráť.",
+  "Ružičkový kel var vo vode asi 15 minút domäkka a sceď. Na panvici rozpusti maslo a kel na ňom 2–3 minúty opekaj, ochuť soľou, korením a muškátovým orieškom.",
+  "V hrnci rozohrej ghee, cibuľu 2–3 minúty speň, pridaj jablko s cukrom a 1–2 minúty opekaj. Pridaj kapustu, ocot, bobkové listy, klinčeky, borievky, bujón, soľ a brandy, prikry a duste asi 45 minút domäkka. Klinčeky a borievky vyber a kapustu dochuť soľou, octom či cukrom.",
+  "Hotovú morku prikry alobalom a nechaj vo vypnutej rúre. Výpek preceď do hrnčeka, pridaj pomarančový džús, víno a brusnicový džem, prevar, stiahni oheň a vmiešaj smotanu; ak je omáčka riedka, zahusti ju škrobom rozmiešaným v lyžici vody.",
+  "Morku rozkrájaj, vyber plnku a podávaj s omáčkou, zemiakmi, kelom a kapustou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "morčacie",
+  "herná kuchárka"
+ ]
+}

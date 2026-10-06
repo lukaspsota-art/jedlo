@@ -89,3 +89,5 @@ Rovnaké pravidlá ako vyššie, s týmito rozdielmi. Výstup: `import_knihy/epu
   `surovina → kľúč kcal/100 g`. Prídavné meno príchute môže skĺznuť na inú potravinu
   („Čokoládová zmrzlina → čokoládov 570“, „Kokosová voda → kokos 660“): vtedy píš základ
   („Zmrzlina“) a príchuť daj do `poznamka`. Hotová omáčka/polotovar ≠ jej hlavná surovina.
+- **Dezert, Nápoj a Kokteil nesmú mať mäso medzi surovinami** (test_pravidla) — mäsová ozdoba
+  (jerky v bloody mary, slanina na dezerte) ide len do postupu: „kniha pridáva aj prúžok jerky“.
