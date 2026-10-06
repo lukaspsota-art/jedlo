@@ -1,0 +1,71 @@
+{
+ "id": "domace-marshmallows",
+ "nazov": "Domáce marshmallows",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Minecraft: Gather, Cook, Eat! Official Cookbook – Marshmallow Clouds",
+ "porcie": 12,
+ "cas": "4 hod 40 min",
+ "kcal_na_porciu": 231,
+ "kcal_zdroj": "vypocet",
+ "popis": "Nadýchané domáce marshmallows zo želatíny a cukrového sirupu, ktoré sa krájajú na kocky a obláčiky ako tie v hre.",
+ "hlavna_surovina": "cukor",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Želatína",
+   "mnozstvo": 21,
+   "jednotka": "g",
+   "poznamka": "3 vrecúška po 7 g"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "studená, rozdelená"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 300,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Glukózový sirup",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "svetlý kukuričný sirup"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "číry"
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "na posypanie"
+  }
+ ],
+ "postup": [
+  "Do misy robota so šľahacou metlou daj želatínu so 120 ml vody a nechaj napučať.",
+  "V malom hrnci zohrievaj cukor, sirup, soľ a zvyšných 120 ml vody na stredne vysokom ohni asi 10 minút, kým sa cukor nerozpustí a teplomer neukáže 115 °C. Hneď stiahni z ohňa.",
+  "Za pomalého chodu robota vlievaj sirup tenkým prúdom k želatíne, potom opatrne zvýš rýchlosť na najvyššiu a šľahaj asi 15 minút, kým hmota nie je veľmi hustá. Nakoniec vmiešaj vanilku.",
+  "Plech s okrajom 23 × 33 cm vymasti, posyp práškovým cukrom, hmotu doň rovnomerne vylej a vrch tiež popráš.",
+  "Nechaj odkryté stuhnúť aspoň 4 hodiny.",
+  "Dosku posyp práškovým cukrom, vyklop na ňu stuhnutú hmotu a krájačom na pizzu ju nakrájaj na kocky alebo obláčiky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "sladkosti",
+  "herná kuchárka"
+ ]
+}

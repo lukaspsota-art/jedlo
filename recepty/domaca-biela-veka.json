@@ -1,0 +1,72 @@
+{
+ "id": "domaca-biela-veka",
+ "nazov": "Domáca biela veka",
+ "kategoria": "Pečivo",
+ "kuchyna": "Americká",
+ "zdroj": "Minecraft: Gather, Cook, Eat! Official Cookbook – Bake(D) Bread",
+ "porcie": 12,
+ "cas": "2 hod 15 min",
+ "kcal_na_porciu": 119,
+ "kcal_zdroj": "vypocet",
+ "popis": "Jednoduchá kysnutá veka bez mlieka a vajec v ceste, s chrumkavou lesklou kôrkou z potretia bielkom.",
+ "hlavna_surovina": "múka",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Voda",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "vlažná"
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 0.5,
+   "jednotka": "PL",
+   "poznamka": "sušené"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 375,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Vaječný bielok",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na potretie"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na potretie"
+  }
+ ],
+ "postup": [
+  "V miske mixéra s hákom zmiešaj vlažnú vodu, droždie a cukor a nechaj 5 minút, kým nezačne peniť.",
+  "Pridaj soľ a asi tretinu múky a krátko premiešaj na nízkych otáčkach. Postupne pridávaj zvyšok múky a nakoniec miešaj minútu strednou rýchlosťou na hladké cesto (ak sa lepí, primiešaj trochu múky).",
+  "Cesto daj do vymastenej misy, prikry utierkou a nechaj asi hodinu kysnúť, kým nezdvojnásobí objem.",
+  "Na pomúčenej doske ho premiesi a vyvaľkaj na obdĺžnik asi 38 × 20 cm. Zroluj ho z dlhšej strany, konce zahni dovnútra a všetky spoje pritlač.",
+  "Veku polož spojom nadol na plech s papierom na pečenie, potri bielkom rozšľahaným s vodou a navrchu urob dva plytké šikmé zárezy.",
+  "Prikry utierkou a nechaj 30 minút kysnúť; medzitým predhrej rúru na 190 °C.",
+  "Peč 20–25 minút, kým nie je vrch zlatohnedý a veka pri poklepaní nezneje duto. Podávaj teplú s maslom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "pečivo",
+  "bezmäsité",
+  "vegánske",
+  "herná kuchárka"
+ ]
+}

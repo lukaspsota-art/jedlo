@@ -1,0 +1,77 @@
+{
+ "id": "pomaly-peceny-hovadzi-hrudnik",
+ "nazov": "Pomaly pečený hovädzí hrudník",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Minecraft: Gather, Cook, Eat! Official Cookbook – “Smoker” Brisket",
+ "porcie": 8,
+ "cas": "13 hod",
+ "kcal_na_porciu": 582,
+ "kcal_zdroj": "vypocet",
+ "popis": "Hovädzí hrudník cez noc marinovaný v korení a tekutom dyme a potom pomaly pečený v rúre, takže chutí ako z údiarne.",
+ "hlavna_surovina": "hovädzie mäso",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Hovädzie mäso",
+   "mnozstvo": 1800,
+   "jednotka": "g",
+   "poznamka": "hrudník (brisket), 1,8–2,7 kg"
+  },
+  {
+   "nazov": "Worcestrová omáčka",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Tekutý dym",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "hrubozrnná"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "zelerová"
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "granulovaný"
+  },
+  {
+   "nazov": "Cibuľový prášok",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "granulovaný"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  }
+ ],
+ "postup": [
+  "Hrudník polož na mriežku nad plechom s okrajom alebo do pekáča.",
+  "Zmiešaj worcestrovú omáčku s tekutým dymom a potri mäso zo všetkých strán.",
+  "Zmiešaj obe soli, cesnak, cibuľu a korenie a zmes rovnomerne pritlač na celý povrch mäsa.",
+  "Prikry alobalom a nechaj v chladničke aspoň 6 hodín, najlepšie cez noc.",
+  "Rúru predhrej na 150 °C a mäso medzitým nechaj zohriať na izbovú teplotu.",
+  "Hrudník otoč tukom nadol a stále pod alobalom ho peč 4–5 hodín, kým teplomer v najhrubšom mieste neukáže 95 °C. Odkry ho a peč ešte hodinu.",
+  "Nechaj 30 minút odpočívať a nakrájaj na tenké plátky naprieč vláknami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "herná kuchárka"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "cokoladovy-milkshake-s-karamelom-a-pekanmi",
+ "nazov": "Čokoládový milkshake s karamelom a pekanovými orechmi",
+ "kategoria": "Nápoj",
+ "kuchyna": "Americká",
+ "zdroj": "Minecraft: Gather, Cook, Eat! Official Cookbook – Potion Of The Turtle Master",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 1011,
+ "kcal_zdroj": "vypocet",
+ "popis": "Hustý čokoládový milkshake s karamelovou omáčkou a nadrvenými pekanovými orechmi, ozdobený šľahačkou.",
+ "hlavna_surovina": "Zmrzlina",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Zmrzlina",
+   "mnozstvo": 480,
+   "jednotka": "ml",
+   "poznamka": "čokoládová"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Karamelová omáčka",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "a trochu na ozdobu"
+  },
+  {
+   "nazov": "Pekanové orechy",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": "asi 10 kusov, nadrvené, a trochu na ozdobu"
+  },
+  {
+   "nazov": "Šľahačka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "navrch"
+  }
+ ],
+ "postup": [
+  "Zmrzlinu, mlieko, karamelovú omáčku a orechy daj do mixéra a mixuj asi 30 sekúnd, kým sa všetko nespojí.",
+  "Nalej do vysokého pohára, navrch daj šľahačku, polej karamelom a posyp nadrvenými orechmi."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "milkshake",
+  "rýchle",
+  "bezmäsité",
+  "herná kuchárka"
+ ]
+}
