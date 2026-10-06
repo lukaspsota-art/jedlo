@@ -1,0 +1,65 @@
+{
+  "id": "dons-special-daiquiri",
+  "nazov": "Don's Special Daiquiri",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Tiki variácia na daiquiri od Dona the Beachcombera: dva rumy, maracuja a med v mrazivej mixovanej podobe.",
+  "ingrediencie": [
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "zlatý jamajský"
+    },
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": "kubánsky"
+    },
+    {
+      "nazov": "Maracujový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 7.5,
+      "jednotka": "ml",
+      "poznamka": "rozriedený s rovnakým dielom teplej vody"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "drvený"
+    },
+    {
+      "nazov": "Maracuja",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "polovica na ozdobu"
+    }
+  ],
+  "postup": [
+    "Med rozmiešaj s trochou teplej vody na sirup.",
+    "Všetky suroviny daj do mixéra s hrsťou drveného ľadu a krátko rozmixuj.",
+    "Vylej do pohára na stopke, dosyp drvený ľad a ozdob polovicou maracuje."
+  ],
+  "tipy": "Mixuj len pár sekúnd — dlhé mixovanie z drinku urobí vodnatú ľadovú triešť.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

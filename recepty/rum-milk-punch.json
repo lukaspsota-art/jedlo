@@ -1,0 +1,50 @@
+{
+  "id": "rum-milk-punch",
+  "nazov": "Rum Milk Punch",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Rum Milk Punch",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12087",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krémový mliečny punč s rumom a muškátovým orieškom. V New Orleans je to tradičný drink k nedeľnému brunchu.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 150,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Muškátový oriešok",
+      "mnozstvo": 1,
+      "jednotka": "štipka",
+      "poznamka": "nastrúhaný, navrch"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Rum, mlieko a sirup daj do šejkra s ľadom.",
+    "Poriadne pretras, aby sa mlieko spenilo.",
+    "Preceď do vysokého pohára a navrch nastrúhaj muškátový oriešok."
+  ],
+  "tipy": "Muškátový oriešok strúhaj čerstvý — mletý z vrecúška má len zlomok vône.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

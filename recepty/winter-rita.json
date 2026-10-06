@@ -1,0 +1,72 @@
+{
+  "id": "winter-rita",
+  "nazov": "Winter Rita",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Winter Rita",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178347",
+  "porcie": 1,
+  "cas": "10 min",
+  "popis": "Zimná margarita so sirupom ochuteným rozmarínom, pomarančom a kvapkou Campari. Bylinková, mierne horká a voňavá.",
+  "ingrediencie": [
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Campari",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": "rozmarínový, viď tip"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "štipka"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na okraj pohára"
+    },
+    {
+      "nazov": "Rozmarín",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "vetvička na ozdobu"
+    }
+  ],
+  "postup": [
+    "Okraj pohára obtoč v soli.",
+    "Všetky tekutiny so štipkou soli pretras s ľadom.",
+    "Preceď do pohára s čerstvým ľadom a ozdob vetvičkou rozmarínu."
+  ],
+  "tipy": "Rozmarínový sirup si urob sám: cukor a voda v pomere 1 : 1 a dve vetvičky rozmarínu povar 5 minút a nechaj vychladnúť.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "tequila"
+  ]
+}

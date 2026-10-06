@@ -1,0 +1,50 @@
+{
+  "id": "bobby-burns",
+  "nazov": "Bobby Burns",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Bobby Burns Cocktail",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11121",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Koktail pomenovaný po škótskom básnikovi: whisky a sladký vermút s lyžičkou Bénédictine. Podobá sa rob royovi, je bylinkovejší.",
+  "ingrediencie": [
+    {
+      "nazov": "Škótska whisky",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sladký vermút",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Bénédictine",
+      "mnozstvo": 5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky tekutiny miešaj v pohári s ľadom.",
+    "Preceď do vychladeného koktailového pohára.",
+    "Ozdob citrónovou kôrkou."
+  ],
+  "tipy": "Hodí sa ako drink na Burnsovu noc 25. januára, k haggisu alebo k tvrdým syrom.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky"
+  ]
+}

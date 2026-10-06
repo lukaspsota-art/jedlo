@@ -1,0 +1,46 @@
+{
+  "id": "paradise",
+  "nazov": "Paradise",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/paradise/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Jemný ovocný ginový drink s marhuľovým likérom a pomarančom – zlatistý, sladší a ľahko piteľný.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Marhuľový likér",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": "apricot brandy"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": "čerstvá"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do šejkra a poriadne pretrep s ľadom.",
+    "Preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "Pomaranč vytlač čerstvý – džús z krabice drink zakalí a pridá zbytočný cukor.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

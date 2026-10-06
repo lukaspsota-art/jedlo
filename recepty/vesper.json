@@ -1,0 +1,51 @@
+{
+  "id": "vesper",
+  "nazov": "Vesper",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/vesper/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Martini Jamesa Bonda z ginu, vodky a Lilletu. Veľmi suchý a silný, s jemne horkastým citrusovým koncom.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Lillet Blanc",
+      "mnozstvo": 7.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra s ľadom.",
+    "Pretras a sceď do vychladeného kokteilového pohára.",
+    "Nad pohárom stlač citrónovú kôrku a vlož ju dnu."
+  ],
+  "tipy": "Pohár daj vopred na pár minút do mrazničky; drink bez ľadu inak rýchlo zteplie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

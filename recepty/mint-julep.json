@@ -1,0 +1,56 @@
+{
+  "id": "mint-julep",
+  "nazov": "Mint Julep",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/mint-julep/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Bourbon s mätou a cukrom na drvenom ľade. Silný, chladivý a voňavý drink z amerického juhu.",
+  "ingrediencie": [
+    {
+      "nazov": "Bourbon",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 4,
+      "jednotka": "vetvička"
+    },
+    {
+      "nazov": "Práškový cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 2,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "vetvička na ozdobu"
+    }
+  ],
+  "postup": [
+    "V kovovom pohári alebo nízkom pohári jemne roztlač mätu s cukrom a vodou.",
+    "Naplň drveným ľadom, prilej bourbon a miešaj, kým sa pohár neorosí.",
+    "Ozdob vetvičkou mäty."
+  ],
+  "tipy": "Mätu len zľahka pritlač, aby pustila vôňu; roztrhané lístky dajú trávovú horkosť.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky",
+    "IBA"
+  ]
+}

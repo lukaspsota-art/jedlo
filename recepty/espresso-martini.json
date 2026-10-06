@@ -1,0 +1,57 @@
+{
+  "id": "espresso-martini",
+  "nazov": "Espresso Martini",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/espresso-martini/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Moderná londýnska klasika: horké espresso, vodka a kávový likér s hustou zamatovou penou navrchu.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kávový likér",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Espresso",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "silné, čerstvo pripravené"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Kávové zrná",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "3 ks na ozdobu"
+    }
+  ],
+  "postup": [
+    "Priprav silné espresso a nechaj ho chvíľu vychladnúť.",
+    "Všetky suroviny nalej do šejkra s ľadom a veľmi dôkladne pretrep.",
+    "Preceď do vychladeného kokteilového pohára a na penu polož tri kávové zrná."
+  ],
+  "tipy": "Pena vznikne len z čerstvého espressa a poriadneho trasenia — káva z rána nepenú.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "IBA"
+  ]
+}

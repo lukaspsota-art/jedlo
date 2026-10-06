@@ -1,0 +1,56 @@
+{
+  "id": "pisco-sour",
+  "nazov": "Pisco Sour",
+  "kategoria": "Kokteil",
+  "kuchyna": "Peruánska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/pisco-sour/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Peruánska klasika z hroznového destilátu pisco, citróna a cukru so zamatovou penou z bielka. Kyslý a hodvábny.",
+  "ingrediencie": [
+    {
+      "nazov": "Pisco",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "pár kvapiek navrch"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Pisco, citrónovú šťavu, sirup a bielok pretras v šejkri s ľadom.",
+    "Sceď do vychladeného pohára na stopke.",
+    "Na penu nakvapkaj niekoľko kvapiek bitteru."
+  ],
+  "tipy": "Hustejšiu penu dostaneš, keď drink najprv pretrasieš bez ľadu a až potom s ľadom.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "brandy",
+    "IBA"
+  ]
+}

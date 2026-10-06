@@ -1,0 +1,64 @@
+{
+  "id": "bramble",
+  "nazov": "Bramble",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/bramble/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Londýnsky ginový sour z osemdesiatych rokov, cez ktorý sa na drvenom ľade pomaly rozteká tmavý černicový likér.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 12.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Černicový likér",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": "crème de mûre"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "drvený"
+    },
+    {
+      "nazov": "Černice",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Gin, citrónovú šťavu a sirup pretrep s ľadom.",
+    "Preceď do nízkeho pohára plného drveného ľadu.",
+    "Černicový likér nalej navrch krúživým pohybom, nech steká do drinku, a ozdob černicami."
+  ],
+  "tipy": "Likér nemiešaj — práve farebný prechod zhora nadol robí z Bramble to, čím je.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

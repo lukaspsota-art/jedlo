@@ -1,0 +1,56 @@
+{
+  "id": "orgasm",
+  "nazov": "Orgasm",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Orgasm",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11872",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Smotanový krátky drink zo štyroch druhov alkoholu: kakaového likéru, amaretta, pomarančového likéru a vodky. Sladký a hladký.",
+  "ingrediencie": [
+    {
+      "nazov": "Kakaový likér",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": "biely"
+    },
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do šejkra s ľadom.",
+    "Dôkladne pretrep, aby sa smotana spojila s likérmi.",
+    "Preceď do vychladeného koktailového pohára."
+  ],
+  "tipy": "Smotana musí byť plnotučná (aspoň 30 %), riedka sa v alkohole ľahko zrazí.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér",
+    "vodka"
+  ]
+}

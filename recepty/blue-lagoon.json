@@ -1,0 +1,51 @@
+{
+  "id": "blue-lagoon",
+  "nazov": "Blue Lagoon",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "TheCocktailDB – Blue Lagoon",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11117",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Žiarivo modrý letný drink z vodky, pomarančového likéru Blue curaçao a limonády. Sladkokyslý a hravý na pohľad.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Blue curaçao",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limonáda",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "citrónová, doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom.",
+    "Prilej vodku a Blue curaçao.",
+    "Dolej limonádu, premiešaj a navrch polož čerešňu."
+  ],
+  "tipy": "S kyslou domácou limonádou je vyváženejší než so sladkou sýtenou — tá ho ľahko presladí.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

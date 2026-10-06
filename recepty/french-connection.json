@@ -1,0 +1,39 @@
+{
+  "id": "french-connection",
+  "nazov": "French Connection",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/french-connection/",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Dvojzložkový digestív z koňaku a amaretta, hrejivý, s tónmi mandlí a sušeného ovocia.",
+  "ingrediencie": [
+    {
+      "nazov": "Koňak",
+      "mnozstvo": 35,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 35,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Nízky pohár naplň kockami ľadu.",
+    "Prilej koňak aj amaretto a jemne premiešaj."
+  ],
+  "tipy": "Ak ti je príliš sladký, uber amaretta na 25 ml — koňak sa potom ozve výraznejšie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "brandy",
+    "IBA"
+  ]
+}

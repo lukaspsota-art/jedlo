@@ -1,0 +1,50 @@
+{
+  "id": "gin-basil-smash",
+  "nazov": "Gin Basil Smash",
+  "kategoria": "Kokteil",
+  "kuchyna": "Nemecká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/gin-basil-smash/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Hamburský objav z roku 2008 — jasne zelený, bylinne voňavý ginový sour s hrsťou čerstvej bazalky.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Bazalka",
+      "mnozstvo": 10,
+      "jednotka": "lístok"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Bazalku jemne roztlač v šejkri s citrónovou šťavou a sirupom.",
+    "Prilej gin, pridaj ľad a ostro pretrep.",
+    "Preceď cez jemné sitko do vychladeného pohára."
+  ],
+  "tipy": "Bazalku netlač nasilu — roztrhané listy horknú; stačí ich pomliaždiť.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

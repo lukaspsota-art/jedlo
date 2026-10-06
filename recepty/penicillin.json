@@ -1,0 +1,65 @@
+{
+  "id": "penicillin",
+  "nazov": "Penicillin",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/penicillin/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Hrejivý whisky sour so zázvorom a medom, ktorému dymová islayská whisky navrchu dodá vôňu ohniska.",
+  "ingrediencie": [
+    {
+      "nazov": "Škótska whisky",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "blended"
+    },
+    {
+      "nazov": "Škótska whisky",
+      "mnozstvo": 7.5,
+      "jednotka": "ml",
+      "poznamka": "rašelinová islayská, napr. Lagavulin 16"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 10,
+      "jednotka": "ml",
+      "poznamka": "rozriedený s rovnakým dielom teplej vody"
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 3,
+      "jednotka": "plátok",
+      "poznamka": "čerstvý"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Kandizovaný zázvor",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Zázvor roztlač v šejkri, pridaj blended whisky, citrónovú šťavu a medový sirup.",
+    "Doplň ľadom a pretrep.",
+    "Preceď cez jemné sitko do nízkeho pohára s ľadom a navrch opatrne nalej islayskú whisky."
+  ],
+  "tipy": "Dymovú whisky nemiešaj s ostatným — má voňať pri každom dúšku z vrchu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky",
+    "IBA"
+  ]
+}

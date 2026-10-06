@@ -1,0 +1,49 @@
+{
+  "id": "between-the-sheets",
+  "nazov": "Between the Sheets",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/between-the-sheets/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Bratranec Sidecaru: koňak a biely rum s pomarančovým likérom a citrónom. Silný, suchší a ovocný, s vôňou pomarančovej kôry.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Koňak",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Do šejkra nalej rum, koňak, triple sec a citrónovú šťavu.",
+    "Pretrep s ľadom a preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "Je v ňom 90 ml alkoholu – podávaj v malom vychladenom pohári a ber ho ako drink na jeden kus večera.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

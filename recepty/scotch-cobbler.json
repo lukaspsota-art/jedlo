@@ -1,0 +1,57 @@
+{
+  "id": "scotch-cobbler",
+  "nazov": "Scotch Cobbler",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Scotch Cobbler",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12138",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Cobbler je starý štýl drinku na kope drveného ľadu. Tu je to škótska whisky s kvapkou brandy a pomarančového likéru.",
+  "ingrediencie": [
+    {
+      "nazov": "Škótska whisky",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Brandy",
+      "mnozstvo": 5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "drvený"
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "vetvička na ozdobu"
+    }
+  ],
+  "postup": [
+    "Nízky pohár naplň drveným ľadom.",
+    "Nalej whisky, brandy a triple sec a premiešaj.",
+    "Ozdob plátkom pomaranča a vetvičkou mäty."
+  ],
+  "tipy": "Ľad nasyp do kopčeka nad okraj pohára — práve tak vyzerá pravý cobbler.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky"
+  ]
+}

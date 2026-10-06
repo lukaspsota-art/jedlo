@@ -1,0 +1,57 @@
+{
+  "id": "gin-fizz",
+  "nazov": "Gin Fizz",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/gin-fizz/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Osviežujúci kyslý ginový drink zakončený sódou – ľahší a perlivejší než sour, podávaný bez ľadu vo vysokom pohári.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "koliesko na ozdobu"
+    }
+  ],
+  "postup": [
+    "Gin, citrónovú šťavu a cukrový sirup dôkladne pretrep s ľadom.",
+    "Preceď do úzkeho vysokého pohára bez ľadu.",
+    "Dolej strek sódy a ozdob kolieskom citróna."
+  ],
+  "tipy": "Sódu maj vychladenú a nalievaj ju po stene pohára, aby bublinky nevyprchali hneď na začiatku.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

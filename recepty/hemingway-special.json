@@ -1,0 +1,49 @@
+{
+  "id": "hemingway-special",
+  "nazov": "Hemingway Special",
+  "kategoria": "Kokteil",
+  "kuchyna": "Kubánska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/hemingway-special/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Daiquiri tak, ako ho pil Hemingway v Havane: viac rumu, grapefruit a maraschino namiesto cukru. Suchý a ostro kyslý.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grapefruitový džús",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Maraschino",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra s ľadom.",
+    "Dôkladne pretras a sceď do veľkého kokteilového pohára."
+  ],
+  "tipy": "Grapefruit stlač čerstvý; džús z krabice je sladší a drink stratí typickú horkastú suchosť.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

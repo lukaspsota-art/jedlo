@@ -1,0 +1,41 @@
+{
+  "id": "fernandito",
+  "nazov": "Fernandito",
+  "kategoria": "Kokteil",
+  "kuchyna": "Argentínska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/fernandito/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Argentínsky národný longdrink: horký bylinný fernet zriedený kolou, prekvapivo ľahký a osviežujúci.",
+  "ingrediencie": [
+    {
+      "nazov": "Fernet",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": "Fernet-Branca"
+    },
+    {
+      "nazov": "Cola",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Do dvojitého nízkeho pohára s ľadom nalej fernet.",
+    "Dolej kolou a jemne premiešaj."
+  ],
+  "tipy": "Colu lej pomaly po stene pohára — fernet s ňou silno pení.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér",
+    "IBA"
+  ]
+}

@@ -39,6 +39,35 @@ module.exports = {
       await page.waitForTimeout(150);
     }
 
+    // v32: „🍳 Čo uvarím z toho, čo mám" — tlačidlo na Domove → okno → výsledky → detail receptu
+    await page.click('#v-domov .akcie button:has-text("Čo uvarím")');
+    await page.fill("#cu-in", "zemiaky, vajce, mlieko, múka, maslo");
+    await page.waitForTimeout(600);   // debounce 300 ms
+    const cu = await page.evaluate(() => ({
+      nadpisy: [...document.querySelectorAll("#cu-out h3")].map((h) => h.textContent),
+      riadky: document.querySelectorAll("#cu-out .match").length, ulozene: S.mamDoma,
+    }));
+    await t.ok(/Uvaríš hneď/.test(cu.nadpisy[0] || "") && cu.riadky > 0,
+      "„Čo uvarím“ nájde recepty, ktoré uvaríš hneď", JSON.stringify(cu));
+    await t.ok(cu.ulozene === "zemiaky, vajce, mlieko, múka, maslo", "zoznam „čo mám doma“ sa zapamätá", cu.ulozene);
+    await page.click("#cu-out .match .cu-nazov");
+    await t.ok(await page.evaluate(() => document.getElementById("overlay").classList.contains("open")
+      && !document.getElementById("pick-overlay").classList.contains("open")), "klik na názov otvorí detail receptu");
+    await zavriOkna(page);
+
+    // v33: „🍸 Môj bar" — Domov ⋯ Viac → okno → zaškrtnúť fľašu → „Chýba 1 vec" + „Čo dokúpiť"
+    await page.click('#v-domov .akcie button:has-text("Viac")');
+    await page.click('#m-dom a:has-text("Môj bar")');
+    await page.check('#bar-zoz input[data-bar="limoncello"]');
+    const bar = await page.evaluate(() => ({
+      nadpisy: [...document.querySelectorAll("#bar-out h3")].map((h) => h.textContent).join(" | "),
+      ulozene: S.bar, chipy: document.querySelectorAll("#bar-chips .chip").length,
+    }));
+    await t.ok(/Chýba 1 vec/.test(bar.nadpisy) && /Čo dokúpiť/.test(bar.nadpisy) && bar.ulozene === "limoncello",
+      "„Môj bar“ po zaškrtnutí limoncella ukáže, čomu chýba 1 vec a čo dokúpiť", JSON.stringify(bar));
+    await t.ok(bar.chipy > 2, "„Môj bar“ má chipy podľa destilátu", String(bar.chipy));
+    await zavriOkna(page);
+
     await t.ok(page.chyby.length === 0, "žiadna chyba/výnimka v konzole počas celého priechodu (http)",
       page.chyby.map((c) => `${c.typ}: ${c.text}`).join("\n"));
 

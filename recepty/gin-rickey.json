@@ -1,0 +1,51 @@
+{
+  "id": "gin-rickey",
+  "nazov": "Gin Rickey",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Gin Rickey",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17230",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Suchý highball bez cukru: gin, čerstvá limetka a veľa sódy. Ideálny na leto, keď nechceš nič sladké.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "vytlačená polovica do pohára"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom a vytlač doň polovicu limetky.",
+    "Prilej gin a dolej sódu.",
+    "Jemne premiešaj, vytlačenú limetku nechaj v pohári."
+  ],
+  "tipy": "Ak ti je príliš kyslý, pridaj 5 ml grenadíny — drink potom zružovie a zmäkne.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "hot-toddy",
+  "nazov": "Hot Toddy",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "TheCocktailDB – Hot Toddy",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178345",
+  "porcie": 1,
+  "cas": "10 min",
+  "popis": "Horúci nápoj na zimné večery: whisky s medom, citrónom a škoricou zaliate vriacou vodou. Starý domáci liek na prechladnutie.",
+  "ingrediencie": [
+    {
+      "nazov": "Whisky",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 2,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": "vriaca"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "pol tyčinky"
+    },
+    {
+      "nazov": "Klinčeky",
+      "mnozstvo": 2,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "V teplovzdornom pohári rozmiešaj whisky s medom a pridaj škoricu.",
+    "Zalej vriacou vodou a pridaj citrónovú šťavu.",
+    "Do plátku citróna zapichni klinčeky a vlož ho do pohára."
+  ],
+  "tipy": "Pohár najprv vyhrej horúcou vodou a vylej ju — nápoj potom dlhšie vydrží teplý.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky"
+  ]
+}

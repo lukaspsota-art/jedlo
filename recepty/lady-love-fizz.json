@@ -1,0 +1,60 @@
+{
+  "id": "lady-love-fizz",
+  "nazov": "Lady Love Fizz",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Lady Love Fizz",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11634",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krémový fizz z ginu, citróna, smotany a bielka, dokončený sódou. Ľahký, penivý a jemne kyslý.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Gin, citrónovú šťavu, sirup, smotanu a bielok pretrep bez ľadu.",
+    "Pridaj ľad, pretrep znova a preceď do pohára s dvoma kockami ľadu.",
+    "Dolej sódu a jemne premiešaj."
+  ],
+  "tipy": "Sóda nadvihne penu nad okraj pohára — lej ju pomaly do stredu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "apello",
+  "nazov": "Apello",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Apello",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/15106",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Jednoduchý nealkoholický drink z troch citrusových a ovocných štiav. Ľahko horkastý vďaka grapefruitu.",
+  "ingrediencie": [
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 80,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grapefruitový džús",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Jablková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do pohára s ľadom nalej všetky tri šťavy.",
+    "Premiešaj a ozdob čerešňou."
+  ],
+  "tipy": "Z ružového grapefruitu je drink sladší a krajšie sfarbený.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "nealko"
+  ]
+}

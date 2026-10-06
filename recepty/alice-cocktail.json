@@ -1,0 +1,49 @@
+{
+  "id": "alice-cocktail",
+  "nazov": "Alice Cocktail",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Alice Cocktail",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12562",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Krémový nealko koktail zo smotany, ananásu, pomaranča a grenadíny. Ružový a jemný ako dezert.",
+  "ingrediencie": [
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetko daj do šejkra s ľadom.",
+    "Poriadne pretras, aby sa smotana spenila.",
+    "Preceď do koktailového pohára."
+  ],
+  "tipy": "Smotana sa so šťavou nezrazí, ak je všetko dobre vychladené a pretrasieš to rýchlo.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "nealko"
+  ]
+}

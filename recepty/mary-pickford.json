@@ -1,0 +1,50 @@
+{
+  "id": "mary-pickford",
+  "nazov": "Mary Pickford",
+  "kategoria": "Kokteil",
+  "kuchyna": "Kubánska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/mary-pickford/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ružový rumový drink z prohibičnej Havany, pomenovaný po hviezde nemého filmu. Ananás s trochou maraschina a grenadíny – ovocný a jemne sladký.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "čerstvý"
+    },
+    {
+      "nazov": "Maraschino",
+      "mnozstvo": 7.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do šejkra a poriadne pretrep s ľadom.",
+    "Preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "Čerstvo odšťavený ananás vytvorí v šejkri bohatú penu; džús z krabice ju nemá a je sladší.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

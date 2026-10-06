@@ -1,0 +1,55 @@
+{
+  "id": "frose",
+  "nazov": "Frosé",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Frosé",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178352",
+  "porcie": 4,
+  "cas": "6 h 30 min",
+  "popis": "Mrazená tríšť z ružového vína s jahodovým sirupom a citrónom. Letný hit, ktorý sa pripravuje vopred v mrazničke.",
+  "ingrediencie": [
+    {
+      "nazov": "Ružové víno",
+      "mnozstvo": 750,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 100,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 120,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 225,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "1 hrnček drveného"
+    }
+  ],
+  "postup": [
+    "Víno vylej do plytkej nádoby a zmraz aspoň na 6 hodín (úplne nestuhne).",
+    "Cukor s vodou povar, pridaj jahody, nechaj 30 minút lúhovať a preceď na sirup.",
+    "Zmrazené víno rozmixuj so sirupom, citrónovou šťavou a ľadom, daj na 30 minút do mrazničky a pred podávaním znova premixuj."
+  ],
+  "tipy": "Vyber výrazné, plné ružové víno — mrazom chuť slabne a jemné víno by sa stratilo.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "víno"
+  ]
+}

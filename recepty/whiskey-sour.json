@@ -1,0 +1,63 @@
+{
+  "id": "whiskey-sour",
+  "nazov": "Whiskey Sour",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/whiskey-sour/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Vyvážený kyslosladký drink z bourbonu a čerstvého citróna; s trochou bielka dostane jemnú penu a zamatovú chuť.",
+  "ingrediencie": [
+    {
+      "nazov": "Bourbon",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "niekoľko kvapiek, nepovinne"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "pol kolieska na ozdobu"
+    },
+    {
+      "nazov": "Koktejlová višňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do šejkra s ľadom nalej bourbon, citrónovú šťavu, cukrový sirup a prípadne bielok.",
+    "Poriadne pretrep – s bielkom dlhšie, aby vznikla pena.",
+    "Preceď do pohára; na ľade ho podávaj v nízkom pohári plnom ľadu. Ozdob pomarančom a višňou."
+  ],
+  "tipy": "Bez bielka je drink ostrejší a kyslejší; ak ho vynecháš, uber trochu citrónovej šťavy.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky",
+    "IBA"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "bijou",
+  "nazov": "Bijou",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Bijou",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17254",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Klenot z 19. storočia z ginu, zeleného Chartreuse a sladkého vermútu v rovnakom pomere. Bylinkový, sladkastý a silný.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zelený Chartreuse",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sladký vermút",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančový bitter",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "1 kvapka"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do miešacieho pohára s ľadom.",
+    "Miešaj asi 30 sekúnd.",
+    "Preceď do vychladeného koktailového pohára a ozdob citrónovou kôrkou."
+  ],
+  "tipy": "Chartreuse je výrazný — ak ti je drink príliš bylinkový, zníž ho na 20 ml a pridaj 10 ml ginu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "likér"
+  ]
+}

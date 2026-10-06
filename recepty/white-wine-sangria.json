@@ -1,0 +1,65 @@
+{
+  "id": "white-wine-sangria",
+  "nazov": "Sangria z bieleho vína",
+  "kategoria": "Kokteil",
+  "kuchyna": "Španielska",
+  "zdroj": "TheCocktailDB – White Wine Sangria",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178326",
+  "porcie": 6,
+  "cas": "15 min + 1 h",
+  "popis": "Ľahšia sangria z bieleho vína s jablkovým brandy, jahodami a citrusmi, doliata sódou. Vhodná na leto.",
+  "ingrediencie": [
+    {
+      "nazov": "Biele víno",
+      "mnozstvo": 750,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kalvados",
+      "mnozstvo": 90,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 150,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Jablko",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Limetku, citrón, jahody a jablko nakrájaj na väčšie kúsky a daj do džbánu.",
+    "Zalej vínom a kalvadosom a nechaj hodinu v chladničke.",
+    "Pred podávaním dolej sódou a pridaj ľad."
+  ],
+  "tipy": "Ak nemáš kalvados, poslúži akékoľvek brandy, len trochu menej.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "víno"
+  ]
+}

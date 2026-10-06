@@ -1,0 +1,55 @@
+{
+  "id": "amaretto-sour",
+  "nazov": "Amaretto Sour",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Amaretto Sour",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/13731",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Mandľový sour s čerstvým citrónom a penou z bielka. Sladkokyslý, voňavý a obľúbený aj medzi tými, čo silné drinky nemusia.",
+  "ingrediencie": [
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny pretrep bez ľadu, aby sa bielok napenil.",
+    "Pridaj ľad a pretrep znova.",
+    "Preceď do nízkeho pohára s čerstvým ľadom a ozdob čerešňou."
+  ],
+  "tipy": "Hotovú „sour mix“ zo skla nepoužívaj — čerstvý citrón a sirup chutia neporovnateľne lepšie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "ramos-fizz",
+  "nazov": "Ramos Fizz",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/ramos-fizz/",
+  "porcie": 1,
+  "cas": "10 min",
+  "popis": "Legenda z New Orleans: ginový fizz so smotanou, bielkom a kvapkou pomarančovej kvetovej vody. Nadýchaný ako mliečny krém a svieži ako limonáda.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "pomarančová kvetová, 3 kvapky"
+    },
+    {
+      "nazov": "Vanilkový extrakt",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny okrem sódy daj do šejkra s ľadom a dve minúty poriadne trep.",
+    "Preceď cez jemné sitko, vráť späť do šejkra a bez ľadu trep ešte minútu.",
+    "Preceď do vysokého pohára a pomaly dolej sódu, aby pena vystúpila nad okraj."
+  ],
+  "tipy": "Na trepanie si vyhraď čas – krátko pretrepaný Ramos nemá typickú hustú penu, ktorá stojí nad pohárom.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

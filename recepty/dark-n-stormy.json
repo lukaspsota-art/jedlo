@@ -1,0 +1,46 @@
+{
+  "id": "dark-n-stormy",
+  "nazov": "Dark 'n' Stormy",
+  "kategoria": "Kokteil",
+  "kuchyna": "Bermudská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/dark-n-stormy/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Bermudský highball, v ktorom tmavý rum pláva na pikantnom zázvorovom pive ako búrkové mračno.",
+  "ingrediencie": [
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zázvorové pivo",
+      "mnozstvo": 100,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "mesiačik na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom a nalej zázvorové pivo.",
+    "Rum opatrne prilej navrch, aby ostal plávať.",
+    "Ozdob mesiačikom limetky a podávaj nemiešané."
+  ],
+  "tipy": "Rum lej cez chrbát barovej lyžičky, potom sa vrstvy nepremiešajú.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "passion-fruit-martini",
+  "nazov": "Passion Fruit Martini",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Passion Fruit Martini",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178323",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Tropický krátky drink z vodky a maracujovej šťavy. Voňavý, sladkokyslý a jednoduchší príbuzný Pornstar Martini.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Maracujový džús",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Maracuja",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "polovica na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vodku, maracujový džús a sirup daj do šejkra s ľadom.",
+    "Pretrep do vychladenia.",
+    "Preceď do koktailového pohára a navrch polož polovicu maracuje."
+  ],
+  "tipy": "Ak máš čerstvé maracuje, vydlabaj dužinu dvoch do šejkra a džús zníž na polovicu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

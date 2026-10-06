@@ -1,0 +1,56 @@
+{
+  "id": "sex-on-the-beach",
+  "nazov": "Sex on the Beach",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/sex-on-the-beach/",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Ovocný long drink z vodky, broskyňového likéru, pomarančového a brusnicového džúsu. Sladký a farebný.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Broskyňový likér",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Brusnicový džús",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "pol plátku na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom.",
+    "Postupne nalej vodku, broskyňový likér a oba džúsy a premiešaj.",
+    "Ozdob polovicou plátku pomaranča."
+  ],
+  "tipy": "Ak brusnicový džús prileješ ako posledný a nemiešaš, drink bude mať pekný dvojfarebný prechod.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "IBA"
+  ]
+}

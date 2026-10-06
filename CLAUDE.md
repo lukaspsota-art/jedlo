@@ -6,7 +6,8 @@ Používateľský pohľad je v `PRECO_A_AKO.md` a `NAVOD.md`.
 > **Čísla označené ⟳ sa ešte hýbu** — do databázy pribúdajú recepty. Premeraj si ich sám:
 > `python3 generuj_kucharku.py` (počty a veľkosť) a `node scripts/metriky.js 30` (výživa, cena).
 > Stav, z ktorého tento súbor vychádza: 31. 8. 2026, **1995 receptov ⟳ · 1070 potravín ⟳ ·
-> 113 fotiek · `kucharka.html` 2,52 MB ⟳ · `data/app.js` 345 KB / 3874 riadkov**.
+> fotky pri 1988 receptoch ⟳ (súbory, `recepty/fotky/` 39 MB, stav 5. 10.) · `kucharka.html` 2,19 MB
+> bez fotiek ⟳ · `data/app.js` 345 KB / 3874 riadkov**.
 
 ## Čo to je
 Osobná **offline webová kuchárka** a **meal-prep plánovač** pre domácnosť (po slovensky).
@@ -42,14 +43,14 @@ vygenerovanom JS. Keď padne, **`kucharka.html` sa neprepíše** — starý buil
 
 ## Ako overiť
 - Syntax JS: `node --check data/app.js`
-- Celá sada (po každej zmene `app.js`) — **10 sád, 372 pomenovaných kontrol** (4. 10. 2026):
+- Celá sada (po každej zmene `app.js`) — **10 sád, 377 pomenovaných kontrol** (4. 10. 2026):
   ```
   node test_vypocty.js && node test_generator.js && node test_nakup.js && node test_ux.js \
     && node test_prepocty.js && node test_porcie.js && node test_jednotky.js \
     && node test_parovanie.js && node test_pravidla.js && node test_odolnost.js
   node test_regresie.js     # 12 kontrol, MUSÍ hlásiť 0 otvorených chýb
   ```
-  (vypocty 37 · generator 19 · nakup 88 · ux 87 · jednotky 15 · parovanie 23 · pravidla 72 ·
+  (vypocty 37 · generator 19 · nakup 88 · ux 91 · jednotky 15 · parovanie 23 · pravidla 73 ·
   odolnost 31 · prepocty ✓ · porcie ✓)
 - **`test_regresie.js` je zoznam už opravených chýb**, nie bežný test. Každá kontrola vie,
   či má prejsť alebo padnúť; keď sa stav zmení, test to povie. Nulu treba udržať.
@@ -78,7 +79,11 @@ vygenerovanom JS. Keď padne, **`kucharka.html` sa neprepíše** — starý buil
 
 ## Konvencie a nástrahy
 - **Offline, single-file:** appka nesmie závisieť od CDN/siete (okrem voliteľnej Supabase
-  synchronizácie). Všetko sa vkladá inline — fonty aj fotky ako `data:` URI.
+  synchronizácie). Všetko sa vkladá inline — fonty ako `data:` URI. **Výnimka od v32: fotky
+  receptov sú súbory** `recepty/fotky/<id>.webp` vedľa HTML (build ich zrkadlí do
+  `docs/recepty/fotky/`). Inline by ~2200 fotiek nafúklo HTML z 2 na ~40 MB. `sw.js` ich
+  cachuje pri prvom zobrazení (cache-first), takže videná fotka je offline; nevidená offline
+  chýba a ostane emoji (`thumbHTML` / `onerror` v detaile). `--fotky=inline` stále existuje.
 - **`app.js` nesmie obsahovať literál `</script>`** (rozbil by inline vloženie).
 - Po úprave `app.js`/`sablona.html`/dát **vždy** spusti generátor.
 - Stav používateľa je v `localStorage` pod kľúčom **`kucharka_v2`** (obľúbené, hodnotenia, poznámky,
@@ -118,16 +123,31 @@ vsiaknutie?}], postup[], tipy, foto, tagy[], typ?`.
   **aj** 170 g masla v bešamele (zje sa celé). Chýbajúce/neplatné = 1 (dnešné správanie).
   Používané koeficienty: 0,12 nálev · 0,15 cestíčko · 0,18 trojobal · 0,20 kaluž na panvici ·
   0,25 plátky zeleniny · 0,30 marináda. Restovanie, zásmažka a nátierka príznak **nedostávajú**.
+  Mäso s kosťou dostane jedlý podiel (USDA refuse): 0,5 hovädzí chvost · 0,55 krídla · 0,7 rebrá
+  a paličky · 0,8 stehná s kosťou (zatiaľ len recepty z `scripts/import_knihy.js`).
 - `kcal_zdroj` má tri hodnoty: `"vypocet"` (dopočítané zo surovín, nekurátorované),
   `"korekcia_olej"`, prípadne chýba (kurátorované číslo).
 - `typ: "vyrobok"` = hotový kúpený výrobok (snacky, viď nižšie).
 - Kategórie: Raňajky, Hlavné jedlo, Cestoviny, Polievka, Šalát, Nátierka, Príloha, Pečivo, Snack,
   Dezert, Kokteil, Nápoj.
 - **Fotka sa neviaže cez pole `foto`, ale konvenciou súboru.** Ak je `foto` prázdne, build skúsi
-  `recepty/fotky/<id>.webp` a vloží ho ako base64. Dnes je v priečinku **113 fotiek, z toho 54
-  sedí na existujúci recept** — zvyšných 59 patrí receptom, ktoré vypadli pri čistke dát vo
-  vlne 3, a `recepty/fotky/` aj `ZDROJE.json` by sa mali od nich vyčistiť. Rozpočet na inline
-  fotky je `FOTKY_ROZPOCET_MB = 2,5` — nie je to tvrdý limit, build to len vypíše.
+  `recepty/fotky/<id>.webp` a do `foto` zapíše názov súboru (`--fotky=subor`, predvolené od v32).
+  59 fotiek patrí receptom, ktoré vypadli pri čistke dát vo vlne 3 — `recepty/fotky/` aj
+  `ZDROJE.json` by sa mali od nich vyčistiť. `FOTKY_ROZPOCET_MB` platí len pre `--fotky=inline`.
+- **Odkiaľ sú fotky:** `scripts/stiahni_fotky.py` — TheMealDB/TheCocktailDB, Wikibooks a od v32
+  **full-text Commons (`--zdroj hladaj`)** podľa `scripts/foto_dopyty.json` (`{id: [konkrétny
+  anglický/domáci dopyt, záložný]}`, písané ručne — strojový preklad SK názvu na Commons nesadne).
+  Len voľné licencie (`VOLNE_LICENCIE`), jeden súbor = jeden recept (okrem kúpených výrobkov
+  a behu s `--zdielat`), na šírku má prednosť.
+  Fotka je **ilustračná** (druh jedla, nie tento recept) — popis v detaile to hovorí. Vybrané
+  fotky treba **prezrieť zrakom**; zlú vyhodí `--zamietni id,…` (zapíše súbor do
+  `scripts/foto_zamietnute.json`) a ďalší beh `hladaj` vezme ďalšieho kandidáta. Nové fotky
+  sú 480×270 WebP q62 (~19 KB), staršie 320×180. Varecha, BBC GF, Allrecipes sú zakázané.
+  **Namerané v októbri 2026:** prvé kolo dalo 2128 fotiek, zrakom vyradených 483 (22 %);
+  náhrady (`--zdielat`) 492, z nich vyradených 220. Výsledok 1988 receptov s fotkou (88 %).
+  Najslabšie sú kúpené výrobky (77 %) — Commons nemá fotky „skyr mango" ani „proteínový nápoj"
+  a vracia ľudí v kuchyni či regály. ~230 receptov bez fotky ukazuje emoji; ďalší beh
+  `hladaj` by im skúsil tretieho kandidáta.
 
 **Potravina** (`potraviny.json`): `kluc`, `oddelenie`, `alergeny[]`, `kcal/bielkoviny/tuky/sacharidy`
 na 100 g, `cena100` €/100 g (**`null` = neznáma cena, `0` = naozaj zadarmo**), `g_za_ks?`
@@ -152,6 +172,20 @@ názvu. Výsledok je cachovaný.
   uvidí gramáž bez prípravy. Kryje `e2e/testy/03-detail.js`.
   **Príloha škáluje cez `aktPorcie`, nie cez vlastné porcie** — inak sa po prepnutí porcií
   2→4 zdvojnásobí hlavné jedlo a ryža ostane na dvoch.
+  **Príloha môže byť aj skutočný recept z kategórie Príloha.** `prilohaPre` strieda základné
+  `prf:` tokeny (index 0 = doterajšia voľba) s **ručným zoznamom `PRILOHY_RECEPTY`** — 29 receptov
+  v 5 rodinách; k ázijskej kuchyni len ryža, knedľa a kapusta len k stredoeurópskej
+  (`kuchynaPrilohy`). Zoznam, nie filter: kategória Príloha je zmes (omáčky, nakladačky, chipsy,
+  pečivo, celé jedlá ako sviečková) a `diety().veg` je na nej nespoľahlivé — **nový recept-príloha
+  sa do generátora dostane až zápisom do zoznamu.** Recept-príloha je varený recept: ide do
+  `ctx.pouzite` (bez opakovania naprieč blokmi; `vratSlot`/`prehodSlot` ho uvoľňujú cez
+  `_uvolniKomp` pre KAŽDÝ slot, nie len snack), rešpektuje najkratší stupeň pamäte (~2 týždne),
+  má vlastný riadok v bunke a `_prilohySlotu` ho pripojí aj do detailu hlavného jedla.
+  Druh prílohy je memo na recept (`_prilohaDruh`), profil sa overuje až na vybranom kandidátovi
+  (`_prilohaPrejde` cez `_genCache.pril`) — `prilohaPre` je v kľúči cache `jedloVyziva` a
+  `receptById` je lineárne. Jedlo so sacharidom (`maCarb`) prílohu nedostane vôbec, preto je
+  recept-príloha len pri ~5 % hlavných jedál (28 % poolu potrebuje prílohu, generátor ich berie
+  menej). Kryje `test_pravidla.js` D3.
   **Dlaždice `#nutri` sú za SAMOTNÝ recept, `#nutri-spolu` pripočíta prílohu** („S prílohou:
   618 kcal/porcia"). Bunka plánu sčítava `kcalPorcia` za celý slot, takže bez toho riadku
   svieti v pláne 618 a v detaile 420 — dve čísla za to isté jedlo. `porcie` prílohy je 1
@@ -223,6 +257,24 @@ názvu. Výsledok je cachovaný.
   surovina 1 > popis/zdroj 0) v mriežke aj v pickri a `hladaSuroviny` píše na kartu „🥕 sedí: …“.
   Kúpené výrobky sú v kolekciách a pri radení (okrem A–Z) skryté za prepínačom `#vyrobky-prep`.
   Prázdny výsledok (`prazdnyHTML`) radí a priznáva zhody vo vypnutých zdrojoch/skrytých.
+- **„🍳 Čo uvarím z toho, čo mám" (v32)** — okno z Domova (`otvorCoUvarim`, zo Špajze
+  `otvorCoUvarim(true)` pripíše platné zásoby). Zoznam sa pamätá v **`S.mamDoma`** a je zámerne
+  NEZÁVISLÝ od `S.domaNakup` („Mám doma" v Nákupe) — čo napíšeš sem, nákup nezmenší.
+  `coUvarim(tok)`: bez kúpených výrobkov a nápojov, `chyba ≤ 2 && mame > chyba`, radenie
+  chýba ↑ → využité ↑ → obľúbenosť. **Soľ, korenie (≤ 25 g), voda a olej** (okrem oleja na
+  vyprážanie) sú `_samozrejme` — nerátajú sa ani do „mám", ani do „chýba". Kryje `test_ux.js` v32
+  a `e2e/testy/01-smoke.js`.
+- **„🍸 Môj bar" (v33, ako appka My Cocktail Bar)** — okno `otvorBar()` z Domova (⋯ Viac),
+  globálneho „⋯ Viac" a z Receptov pri chipe Kokteil (`#bar-cta`). Zaškrtnuté suroviny sú
+  v **`S.bar`** („|"-zoznam KĽÚČOV potravín, nie textu). Checklist (`barKatalog`) aj skóre
+  (`barSkore`) idú z jedného `barKluc` = `kanonKluc(najdiPotravinu())`, takže sa nerozídu.
+  Surovina bez množstva = ozdoba a nepočíta sa; ľad/voda/cukor/soľ sú samozrejmosť.
+  Sekcie: namiešaš hneď · chýba 1 vec · `coDokupit` (vec, ktorá ako JEDINÁ chýba najviacerým
+  drinkom). Chipy podľa `zakladDrinku` (alkohol s najväčším množstvom; Campari/vermút/bitter =
+  „Aperitívy a bitter"). `BAR_NAHRADY`: všeobecnú „Whisky"/„Rum" v recepte splní konkrétny druh
+  (bourbon, škótska, biely/tmavý rum), opačne nie; biely a tmavý rum sú dve fľaše. Do nákupu cez
+  `pridajDoNakupu` (spoločné s „Čo uvarím"). **Nový kokteil musí mať každú tvoriacu surovinu
+  s číselným množstvom a názov, ktorý sadne na potravinu** — inak ho bar nevidí. Kryje `test_ux.js` v33.
 - Špajza: `S.spajza`, expirácie, min. zásoby → nákup, `odpisRecept` (FIFO podľa expirácie),
   `zasobaPlatna` (expirovaná ani záporná zásoba nezmenšuje nákup, nepočíta sa do odpisu ani do
   `chybaDoMinima` — „🧊 Doplniť zásoby“, Domov, riadok špajze).
@@ -508,6 +560,13 @@ aj s prepínačom bez zmeny.
   **súrodenec**-`<button>` (skutočný button vnútri `role="button"` by bol vnorený button).
 - Fokus: po otvorení modálu ide na `✕` (`_fokusDoModalu`), po zavretí sa vracia na prvok,
   z ktorého sa otváralo (`_vratFokus` v `zavri`, `zavriPick`, `zavriCook`, `dlgZavri`).
+- **Detail receptu a výber jedla sú na telefóne PANEL ZDOLA (v32)** — `#overlay`/`#pick-overlay`
+  v bloku `@media screen and (max-width:820px)` na konci témy. Hore 48 px stlmeného plánu (ťuk
+  zatvára), skroluje panel, nie prekrytie (lišta akcií sa lepí na jeho spodok). `max-height` je
+  `(100dvh − 48px) / var(--skala)`, lebo `.modal` má `zoom` — bez delenia by v Kuchyni pretiekol.
+  Nábeh je `translate` 220 ms **bez fill-mode**: trvalý transform by z panela urobil containing
+  block pre `position:fixed` menu `#m-det`. `screen` je nutné — A4 (794 px) spadá pod mobilnú MQ.
+  `#dlg-overlay` ostáva v strede, počítač bez zmeny.
 - Štýly viaž na **triedu, nie na element** (`select.f` nechalo `input.f` bez štýlu).
 - **V bunke plánu je 1 primárna akcia + `⋯ viac`** (`akcieSlotu`), rozdelenie blokov je v `⋯ Viac`
   (`otvorRozdelenie`). Nepridávaj ďalšie mini-linky do bunky — bolo ich 5 a plán vyzeral rozbito.
@@ -546,8 +605,8 @@ aj s prepínačom bez zmeny.
   + podreťazec) — voľný prefix zakazoval pri „zeler“ 443 receptov, z toho 344 bez zeleru (dnes 99).
   Zakázané „mäso“ blokuje všetko, čo nie je 🌱 veg. Diétny filter radšej blokuje viac;
   nepridávaj tam čisté `includes` na celý názov, prepustí skloňovanie.
-  Pozor: „Čo mám doma" (`skoreReceptu`) a `pridajChybajuceDoNakupu` majú **vlastný, voľnejší
-  algoritmus** — dve obrazovky s tým istým názvom sa preto správajú mierne inak. Je to otvorené.
+  „🍳 Čo uvarím z toho, čo mám" (`skoreReceptu`, v32) páruje cez **`jeDoma`** — to isté prísne
+  pravidlo ako „Mám doma" v Nákupe; `pridajChybajuceDoNakupu` berie jeho `chyba`, vlastnú kópiu nemá.
 - **Testuj obrazovky s dátami** — prázdny plán skryl 5 ovládacích prvkov na bunku aj malé ciele.
 
 ## Tlač (v25)
@@ -646,6 +705,26 @@ denník skutočného príjmu (nie plánu), `.ics` export plánu do kalendára.
 Varecha.sk 1282 · Fitrecepty (kniha) 303 · Kaufland 235 (z toho 187 kúpených snackov) ·
 Wikibooks Cookbook (CC BY-SA) 116 · BBC Good Food 17 · TheCocktailDB 12 · TheMealDB 10 ·
 RecipeTin Eats 5 · iné ~15.
+- **Kokteily (6. 10. 2026): 217** — IBA Official Cocktails 97 (Unforgettables, Contemporary
+  Classics, New Era; `zdroj_url` na iba-world.com, robots.txt povoľuje) a TheCocktailDB 111
+  (ručne prepísané: slovenský text, okrúhle ml, vlastný popis — strojový import z roku 2026
+  sa musel celý zmazať, `scripts/oprav_napoje.js`). Pridaných 57 potravín (likéry, bittery,
+  džúsy, sirupy). Fotky: TheCocktailDB z API, IBA z Commons — `stiahni_fotky.py --zdroj hladaj
+  --len id1,id2,…|predpona*` obmedzí beh na vybrané recepty; bez `--len` ide `hladaj` na VŠETKY
+  recepty bez fotky.
+- **Knihy a časopisy, ktoré používateľ prepíše do JSON** (Jamie Oliver – fritéza, Kaufland FOOD
+  5/2026): `import_knihy/*.json` + doplnky v `import_knihy/meta.js` (kategória, popis, premenovanie
+  surovín na kľúče `potraviny.json`) → `node scripts/import_knihy.js [--suroviny] [--zapis]`.
+  Jednotku zdroja necháva, ak sedí ±25 % s jeho `g_odhad`, inak píše gramy. kcal z knihy sa
+  preberá, chýbajúce sa dopočíta (`kcal_zdroj: "vypocet"`).
+- **EPUB herné kuchárky (Insight Editions, `Downloads\Kuchárky`, v33):** `py scripts/zber_epub.py
+  <kniha.epub> --kod=x` → `import_knihy/epub/x_raw.jsonl` + fotky (gitignore) → preklad agentmi
+  podľa `import_web/PREKLAD.md` (sekcia „Knihy“) → `node scripts/import_web.js --staging
+  import_knihy/epub/x_staging.jsonl --check|--import` (import skopíruje fotku do `recepty/fotky/`
+  a zapíše `ZDROJE.json` s `© vydavateľ`). Fotka = **skutočná fotka receptu z knihy**, nie voľná
+  licencia — publikovanie v `docs/` je výslovná voľba používateľa. Fotka sa páruje podľa
+  **dvojstrany tlačenej knihy** (značky `page_N`), textúry a herné ilustrácie (< 150 KB) sa
+  vyraďujú. Kategória `Snack` je pre knihy zakázaná (len kúpené výrobky). Hotové: Minecraft (44).
 - **Varecha.sk:** `robots.txt` povoľuje `Claude-User` (user-initiated fetch), zakazuje `ClaudeBot`
   (training). Content Policy vyžaduje **atribúciu + aktívny odkaz** → preto `zdroj` aj `zdroj_url`
   v každom recepte. Recepty sa parsujú z `application/ld+json` (schema.org Recipe), množstvá sú
@@ -688,7 +767,7 @@ RecipeTin Eats 5 · iné ~15.
   chleba na porciu. Skutočnosť je ~18,5 g ⟳ proti odporúčaným 25–30.
 
 ## Stav a otvorené veci (4. 10. 2026)
-Všetkých 10 testovacích sád je zelených (**372 kontrol**), `test_regresie.js` hlási **0 otvorených
+Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených
 chýb**, E2E **515/516** (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`; xfail „med“
 je opravený), `kontrast_bloky.py` je OK a sonda kontrastu vykreslenej stránky hlási 0 textov pod
 AA vo všetkých 3 stavoch témy. Build padá na všetkých 6 nebezpečných vstupoch.
@@ -765,11 +844,10 @@ Otvorené je toto:
 11. **`zjednotBloky()`** („Zjednotiť bloky" v UI) skopíruje prvý deň bloku na ostatné **vrátane
     snacku**, čím zruší per-denné snacky. Je to výslovná voľba používateľa a `nejednotneBloky()`
     ju sama neponúka, ale je to nekonzistentné.
-12. **OSEM implementácií „obsahuje túto surovinu"** (premerané 6. 9., dovtedy uvádzaných šesť):
-    `najdiPotravinu`, `skoreReceptu`, `jeVakcii`, `jeWatch`, `obsahujeSurovinu`, `spajzaSedi`,
-    `pridajChybajuceDoNakupu`, `expBoost`/`odpisRecept`. `jeVakcii` a `jeWatch` sú **doslovné
-    kópie** — zlúčiť na `_maToken(r, tokeny)`. Dôsledok: to isté slovo funguje v Nákupe
-    a nefunguje v „Čo mám doma".
+12. **ŠESŤ implementácií „obsahuje túto surovinu"** (premerané 6. 9.; v32 `skoreReceptu`
+    a `pridajChybajuceDoNakupu` prešli na `jeDoma`): `najdiPotravinu`, `jeVakcii`, `jeWatch`,
+    `obsahujeSurovinu`, `spajzaSedi`, `expBoost`/`odpisRecept`. `jeVakcii` a `jeWatch` sú
+    **doslovné kópie** — zlúčiť na `_maToken(r, tokeny)`.
 13. **Import receptu z fotky/textu/odkazu appka nemá** — nie je v nej parser JSON-LD ani OCR.
     Appka má ručný formulár „+ Nový recept" (aj s fotkou z mobilu cez `nrFotoZmena`, canvas
     320×180 WebP, nič sa neposiela von). Import robí Claude mimo appky — píš to tak všade.

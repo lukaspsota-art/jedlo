@@ -1,0 +1,54 @@
+{
+  "id": "koreneny-broskynovy-punc",
+  "nazov": "Korenený broskyňový punč",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Spiced Peach Punch",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/13032",
+  "porcie": 8,
+  "cas": "20 min",
+  "popis": "Horúci broskyňový punč so škoricou a klinčekmi. Nealkoholická alternatíva vareného vína pre celú rodinu.",
+  "ingrediencie": [
+    {
+      "nazov": "Broskyňový nektár",
+      "mnozstvo": 1350,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 600,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Hnedý cukor",
+      "mnozstvo": 100,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 3,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Klinčeky",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    }
+  ],
+  "postup": [
+    "Nektár, pomarančovú šťavu a cukor daj do hrnca.",
+    "Korenie zaviaž do gázy, vlož do hrnca a za miešania pomaly zohrej a 10 minút var.",
+    "Vyber korenie, primiešaj limetkovú šťavu a nalievaj do hrnčekov."
+  ],
+  "tipy": "Korenie v gáze sa dá vybrať naraz — nikto potom nenájde klinček v hrnčeku.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "nealko"
+  ]
+}

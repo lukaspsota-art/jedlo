@@ -1,0 +1,61 @@
+{
+  "id": "bloody-maria",
+  "nazov": "Bloody Maria",
+  "kategoria": "Kokteil",
+  "kuchyna": "Mexická",
+  "zdroj": "TheCocktailDB – Bloody Maria",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11112",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Mexická sestra bloody mary: namiesto vodky tequila, ktorá s paradajkou a tabascom vytvorí pikantný drink na neskoré raňajky.",
+  "ingrediencie": [
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Paradajkový džús",
+      "mnozstvo": 90,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Tabasco",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Zelerová soľ",
+      "mnozstvo": 1,
+      "jednotka": "štipka"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Tequilu, paradajkový džús, citrónovú šťavu, tabasco a zelerovú soľ krátko pretras s ľadom.",
+    "Preceď do nízkeho pohára s čerstvým ľadom.",
+    "Ozdob plátkom citróna."
+  ],
+  "tipy": "Paradajkový drink netras dlho — rozriedi sa a stratí hustotu. Stačí ho niekoľkokrát preliať medzi dvoma nádobami.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "tequila"
+  ]
+}

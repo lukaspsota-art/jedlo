@@ -1,0 +1,62 @@
+{
+  "id": "bluebird",
+  "nazov": "Bluebird",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Bluebird",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11120",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Modrý krátky drink z ginu a dvoch pomarančových likérov s kvapkou bitteru. Suchší a silnejší, než naznačuje farba.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Blue curaçao",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do miešacieho pohára s ľadom.",
+    "Miešaj asi 20 sekúnd.",
+    "Preceď do vychladeného koktailového pohára a ozdob citrónovou kôrkou a čerešňou."
+  ],
+  "tipy": "Nad hotovým drinkom stlač citrónovú kôrku — olejčeky z nej osviežia sladkosť likérov.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "mojito",
+  "nazov": "Mojito",
+  "kategoria": "Kokteil",
+  "kuchyna": "Kubánska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/mojito/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Kubánsky long drink z bieleho rumu, mäty, limetky a cukru doliaty sódou. Svieži, mätový a nie príliš silný.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 6,
+      "jednotka": "vetvička"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": "biely trstinový"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vo vysokom pohári jemne premiešaj a pritlač mätu s cukrom a limetkovou šťavou.",
+    "Pridaj trochu sódy, naplň pohár ľadom a prilej rum.",
+    "Dolej sódou, zľahka premiešaj a ozdob mätou a plátkom limetky."
+  ],
+  "tipy": "Mätu netlač na kašu — stačí ju pritlačiť, aby pustila olej. Najlepšie je drvený ľad.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

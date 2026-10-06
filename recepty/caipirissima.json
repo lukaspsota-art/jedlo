@@ -1,0 +1,45 @@
+{
+  "id": "caipirissima",
+  "nazov": "Caipirissima",
+  "kategoria": "Kokteil",
+  "kuchyna": "Brazílska",
+  "zdroj": "TheCocktailDB – Caipirissima",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/13206",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Brazílska caipirinha, v ktorej je namiesto cachaçy biely rum. Rozdrvená limetka s cukrom a drvený ľad.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 2,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "drvený"
+    }
+  ],
+  "postup": [
+    "Limetku nakrájaj na osminky a v nízkom pohári ju roztlač s cukrom.",
+    "Pohár naplň drveným ľadom a nalej rum.",
+    "Dôkladne premiešaj odspodu, aby sa cukor rozpustil."
+  ],
+  "tipy": "Z limetky odrež bielu stredovú žilku — práve tá robí drink horkým.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "champagne-cocktail",
+  "nazov": "Champagne Cocktail",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/champagne-cocktail/",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Slávnostný drink: kocka cukru nasiaknutá horkým bitterom, kvapka koňaku a vychladené šampanské, ktoré na cukre jemne perlí.",
+  "ingrediencie": [
+    {
+      "nazov": "Šampanské",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": "vychladené"
+    },
+    {
+      "nazov": "Koňak",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 4,
+      "jednotka": "g",
+      "poznamka": "1 kocka"
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Kocku cukru polož na dno pohára na šampanské a nakvapkaj na ňu angosturu.",
+    "Prilej koňak a pomaly dolej vychladené šampanské.",
+    "Ozdob pomarančovou kôrkou a čerešňou."
+  ],
+  "tipy": "Šampanské lej pomaly po stene pohára — na hrubom cukre prudko spení a pretečie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "víno",
+    "IBA"
+  ]
+}

@@ -1,0 +1,2490 @@
+{
+  "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+  "poznamka": "Základné suroviny zo špajze (olivový olej, soľ, čierne korenie) nie sú v zozname, ak ich kniha neuvádza. g_odhad = približná hmotnosť pre nákupný zoznam, nie z knihy. Výživa je z knihy, na 1 porciu.",
+  "pocet": 26,
+  "recepty": [
+    {
+      "nazov": "Pikantný waleský toast (rarebit)",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 13,
+      "porcie": 2,
+      "priprava_min": 7,
+      "varenie_min": 10,
+      "spolu_min": 17,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "raňajky",
+        "večera"
+      ],
+      "tagy": [
+        "vegetariánske"
+      ],
+      "suroviny": [
+        {
+          "nazov": "kvalitný chlieb, veľké krajce 1,5 cm",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 120
+        },
+        {
+          "nazov": "vajce",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 55
+        },
+        {
+          "nazov": "čedar alebo Red Leicester",
+          "mnozstvo": 50,
+          "jednotka": "g",
+          "g_odhad": 50
+        },
+        {
+          "nazov": "crème fraîche polotučná",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "anglická horčica",
+          "mnozstvo": 1,
+          "jednotka": "ČL kopcovitá",
+          "g_odhad": 8
+        },
+        {
+          "nazov": "nakladané jalapeño",
+          "mnozstvo": 25,
+          "jednotka": "g",
+          "g_odhad": 25
+        },
+        {
+          "nazov": "jablko",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 150
+        },
+        {
+          "nazov": "šalát little gem",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "worcesterská omáčka (voliteľné)",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 0
+        }
+      ],
+      "postup": [
+        "Chlieb opekaj vo fritéze 5 min pri 200 °C.",
+        "Vajce vyšľahaj, vmiešaj najemno nastrúhaný syr, crème fraîche, horčicu a štipku korenia.",
+        "Chlieb otoč, natri syrovou zmesou, navrch vtlač jalapeño a peč 5 min pri 200 °C do zlatista.",
+        "Jablko nakrájaj na tenké plátky a tyčinky, šalát nadrobno; zakápni olivovým olejom a červeným vínnym octom, ochuť. Podávaj s toastom, podľa chuti s worcestrom."
+      ],
+      "tip": "Funguje s akýmkoľvek tavným syrom. Na pikantnejšiu verziu primiešaj jalapeño rovno do zmesi alebo daj pod syr vrstvu čili džemu.",
+      "vyziva_na_porciu": {
+        "kj": 1360,
+        "kcal": 325,
+        "tuky_g": 17.7,
+        "nasytene_g": 7.8,
+        "bielkoviny_g": 14.5,
+        "sacharidy_g": 27,
+        "cukry_g": 9.6,
+        "sol_g": 1.8,
+        "vlaknina_g": 2.8
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Čili s mäsovými guľkami",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 35,
+      "porcie": 2,
+      "priprava_min": 18,
+      "varenie_min": 25,
+      "spolu_min": 43,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [],
+      "suroviny": [
+        {
+          "nazov": "batat",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 250
+        },
+        {
+          "nazov": "údená paprika",
+          "mnozstvo": 2,
+          "jednotka": "ČL",
+          "g_odhad": 5
+        },
+        {
+          "nazov": "čierna fazuľa, konzerva",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 400
+        },
+        {
+          "nazov": "rímska rasca mletá",
+          "mnozstvo": 2,
+          "jednotka": "ČL",
+          "g_odhad": 4
+        },
+        {
+          "nazov": "červená čili paprička",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "koriandrová vňať",
+          "mnozstvo": 15,
+          "jednotka": "g",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "mleté hovädzie mäso",
+          "mnozstvo": 250,
+          "jednotka": "g",
+          "g_odhad": 250
+        },
+        {
+          "nazov": "limeta",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 70
+        },
+        {
+          "nazov": "cherry paradajky",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "chipotle čili omáčka",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 10
+        }
+      ],
+      "postup": [
+        "Batat umy, nakrájaj na 2 cm kocky a obaľ s paprikou, 1 PL olivového oleja, soľou a korením.",
+        "Zo zásuvky vyber mriežku, nasyp fazuľu aj s nálevom a 1 ČL rascu, ochuť. Mriežku vráť, daj naň batat a peč 15 min pri 180 °C. Misku od batatu odlož.",
+        "Čili (bez semienok podľa chuti) a väčšinu koriandra nasekaj, pár lístkov odlož. V miske zmiešaj so zvyšnou rascou, mletým mäsom a limetovou kôrou.",
+        "Vytvaruj 10 guľôčok, daj ich do zásuvky s paradajkami a peč 10 min pri 180 °C, v polovici pretras.",
+        "Guľky, batat a paradajky prelož bokom, vyber mriežku. Do fazule vytlač šťavu z ½ limety, pridaj trochu chipotle a polovicu fazule roztlač. Na taniere daj fazuľu, navrch guľky, batat a paradajky, posyp koriandrom. Podávaj s dielikmi limety a chipotle."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": {
+        "kj": 1933,
+        "kcal": 462,
+        "tuky_g": 14.6,
+        "nasytene_g": 3.9,
+        "bielkoviny_g": 39.7,
+        "sacharidy_g": 39,
+        "cukry_g": 10.1,
+        "sol_g": 1.5,
+        "vlaknina_g": 18
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Krevetové burgery so sladkou čili omáčkou",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 37,
+      "porcie": 2,
+      "priprava_min": 14,
+      "varenie_min": 12,
+      "spolu_min": 26,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [],
+      "suroviny": [
+        {
+          "nazov": "zázvor",
+          "mnozstvo": 2,
+          "jednotka": "cm",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "mladá cibuľka",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "koriandrová vňať",
+          "mnozstvo": 15,
+          "jednotka": "g",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "kukurica, konzerva (z 200 g)",
+          "mnozstvo": 0.5,
+          "jednotka": "ks",
+          "g_odhad": 70
+        },
+        {
+          "nazov": "kráľovské krevety surové očistené",
+          "mnozstvo": 165,
+          "jednotka": "g",
+          "g_odhad": 165
+        },
+        {
+          "nazov": "sladká čili omáčka",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 35
+        },
+        {
+          "nazov": "semienková burgerová žemľa",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 140
+        },
+        {
+          "nazov": "grécky jogurt",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 20
+        },
+        {
+          "nazov": "šalát little gem",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "limeta",
+          "mnozstvo": 0.5,
+          "jednotka": "ks",
+          "g_odhad": 35
+        }
+      ],
+      "postup": [
+        "Ošúp zázvor, očisti cibuľky, nasekaj koriandrové stopky (lístky odlož). Pridaj scedenú kukuricu, krevety, soľ a korenie a všetko sekaj na doske do rovnomernej hmoty; plochou nožom ju pár minút stláčaj, kým nedrží pokope.",
+        "Vytvaruj 2 placky hrubé 2 cm, daj do zásuvky, postriekaj olejom a peč 10 min pri 200 °C.",
+        "Potri ich polovicou čili omáčky, pridaj rozkrojené žemle reznou stranou hore a peč 2 min pri 200 °C.",
+        "Zvyšnú čili omáčku zmiešaj s jogurtom, polovicou natri spodky žemlí a polož placky. Šalát na pásiky zmiešaj s koriandrom a zvyškom jogurtu, navrstvi, zakápni limetou a prikry. Zvyšný šalát podávaj bokom."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": {
+        "kj": 2025,
+        "kcal": 484,
+        "tuky_g": 14.3,
+        "nasytene_g": 2.9,
+        "bielkoviny_g": 19.3,
+        "sacharidy_g": 60.3,
+        "cukry_g": 15.7,
+        "sol_g": 1.8,
+        "vlaknina_g": 5.4
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Plnené zapečené zemiaky",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 39,
+      "porcie": 2,
+      "priprava_min": 14,
+      "varenie_min": 47,
+      "spolu_min": 61,
+      "zasuvky": 2,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vegetariánske"
+      ],
+      "suroviny": [
+        {
+          "nazov": "zemiaky veľké (po 250 g)",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 500
+        },
+        {
+          "nazov": "fazuľa cannellini, konzerva",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 400
+        },
+        {
+          "nazov": "kečup",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "údená paprika",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 7
+        },
+        {
+          "nazov": "med",
+          "mnozstvo": 0.5,
+          "jednotka": "PL",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "citrón",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "pažítka",
+          "mnozstvo": 10,
+          "jednotka": "g",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "čedar alebo Red Leicester",
+          "mnozstvo": 50,
+          "jednotka": "g",
+          "g_odhad": 50
+        },
+        {
+          "nazov": "chrumkavá zelenina a ovocie (kapusta, mrkva, fenikel, jablko, hruška)",
+          "mnozstvo": 320,
+          "jednotka": "g",
+          "g_odhad": 320
+        }
+      ],
+      "postup": [
+        "Zemiaky umy, prepichni nožom, každý potri ½ ČL olivového oleja a osoľ. Peč vo veľkej zásuvke 40 min pri 180 °C, v polovici obráť.",
+        "V malej zásuvke bez mriežky zmiešaj fazuľu s nálevom, kečup, papriku a med. Var 40 min pri 180 °C, v polovici premiešaj.",
+        "Mäkké zemiaky prekroj a vydlab, nechaj ½ cm okraj.",
+        "Vnútro roztlač do fazule so šťavou z ½ citróna a polovicou nasekanej pažítky, ochuť. Naplň zemiaky, posyp nastrúhaným syrom a peč vo veľkej zásuvke 7 min pri 180 °C.",
+        "Zeleninu a ovocie nastrúhaj, ochuť zvyšnou citrónovou šťavou, ½ PL extra panenského oleja a zvyšnou pažítkou. Podávaj k zemiakom."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": {
+        "kj": 2477,
+        "kcal": 592,
+        "tuky_g": 18,
+        "nasytene_g": 6.6,
+        "bielkoviny_g": 22.4,
+        "sacharidy_g": 73.5,
+        "cukry_g": 16.2,
+        "sol_g": 1.3,
+        "vlaknina_g": 15.2
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Sezamové kuracie guľky",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 41,
+      "porcie": 2,
+      "priprava_min": 15,
+      "varenie_min": 10,
+      "spolu_min": 25,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vysokobielkovinové"
+      ],
+      "suroviny": [
+        {
+          "nazov": "červená čili paprička",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "koriandrová vňať",
+          "mnozstvo": 15,
+          "jednotka": "g",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 2,
+          "jednotka": "strúčik",
+          "g_odhad": 8
+        },
+        {
+          "nazov": "zázvor",
+          "mnozstvo": 2,
+          "jednotka": "cm",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "kuracie prsia (po 150 g)",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 300
+        },
+        {
+          "nazov": "arašidové maslo",
+          "mnozstvo": 1,
+          "jednotka": "PL kopcovitá",
+          "g_odhad": 20
+        },
+        {
+          "nazov": "sójová omáčka so zníženým obsahom soli",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "sezam pražený",
+          "mnozstvo": 3,
+          "jednotka": "PL",
+          "g_odhad": 27
+        },
+        {
+          "nazov": "tenké ryžové rezance (2 hniezda)",
+          "mnozstvo": 90,
+          "jednotka": "g",
+          "g_odhad": 90
+        },
+        {
+          "nazov": "mrkva malá",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 60
+        },
+        {
+          "nazov": "uhorka",
+          "mnozstvo": 0.25,
+          "jednotka": "ks",
+          "g_odhad": 80
+        },
+        {
+          "nazov": "limeta",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 140
+        },
+        {
+          "nazov": "mladá cibuľka",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "sladká čili omáčka",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 35
+        }
+      ],
+      "postup": [
+        "Čili nahrubo nasekaj (semienka podľa chuti) a zmixuj s koriandrovými stopkami (lístky odlož), cesnakom a zázvorom. Pulzne primixuj kuracie prsia, arašidové maslo a sójovku – zmes nemá byť úplne hladká.",
+        "Mokrými rukami vytvaruj 10 guliek, obaľ ich v sezame a pritlač. Peč 10 min pri 200 °C, v polovici pretras.",
+        "Rezance zalej vriacou vodou, nechaj nasiaknuť a sceď. Mrkvu a uhorku nakrájaj na tyčinky, zmiešaj s rezancami a šťavou z ½ limety, rozdeľ do misiek. Cibuľky nakrájaj na tenké kolieska.",
+        "Guľky prelej šťavou z 1 limety a čili omáčkou, osoľ, okoreň a premiešaj; nalož na rezance. Posyp cibuľkou a koriandrom, pokvapkaj čili omáčkou, podávaj s limetou."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": {
+        "kj": 2289,
+        "kcal": 547,
+        "tuky_g": 15.9,
+        "nasytene_g": 3.4,
+        "bielkoviny_g": 45.6,
+        "sacharidy_g": 55.4,
+        "cukry_g": 14.1,
+        "sol_g": 1.6,
+        "vlaknina_g": 3.9
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Bravčové rebrá teriyaki",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 43,
+      "porcie": 2,
+      "priprava_min": 6,
+      "varenie_min": 55,
+      "spolu_min": 61,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [],
+      "suroviny": [
+        {
+          "nazov": "kryštálový cukor",
+          "mnozstvo": 40,
+          "jednotka": "g",
+          "g_odhad": 40
+        },
+        {
+          "nazov": "sójová omáčka so zníženým obsahom soli",
+          "mnozstvo": 40,
+          "jednotka": "ml",
+          "g_odhad": 40
+        },
+        {
+          "nazov": "ryžový ocot",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "zázvor",
+          "mnozstvo": 2,
+          "jednotka": "cm",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 1,
+          "jednotka": "strúčik",
+          "g_odhad": 4
+        },
+        {
+          "nazov": "kukuričný škrob",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "bravčové rebrá zadné (1 kus)",
+          "mnozstvo": 600,
+          "jednotka": "g",
+          "g_odhad": 600
+        },
+        {
+          "nazov": "mladá cibuľka",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "voda",
+          "mnozstvo": 300,
+          "jednotka": "ml",
+          "g_odhad": 300
+        }
+      ],
+      "postup": [
+        "Zo zásuvky vyber mriežku, daj do nej cukor, sójovku, ocot a 300 ml vody. Pridaj nastrúhaný zázvor a cesnak a škrob, premiešaj a mriežku vráť.",
+        "Rebrá potri trochou olivového oleja, osoľ a polož na mriežku (prípadne rozpoľ). Peč 50 min pri 160 °C, kým mäso nezmäkne.",
+        "Mriežku opatrne vyber, rebrá obaľ v omáčke a peč ešte 5 min pri 200 °C, kým omáčka nezhustne a nestmavne.",
+        "Rebrá nakrájaj, posyp nakrájanými cibuľkami, zvyšnú omáčku daj na namáčanie. Podávaj s lepkavou ryžou a listovým šalátom."
+      ],
+      "tip": "Vyžaduje prílohu (ryža) – výživa je bez nej.",
+      "vyziva_na_porciu": {
+        "kj": 1650,
+        "kcal": 394,
+        "tuky_g": 19.4,
+        "nasytene_g": 7.6,
+        "bielkoviny_g": 28.4,
+        "sacharidy_g": 28,
+        "cukry_g": 23.6,
+        "sol_g": 2.6,
+        "vlaknina_g": 0.3
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Kačka hoisin",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 47,
+      "porcie": 2,
+      "priprava_min": 10,
+      "varenie_min": 15,
+      "spolu_min": 25,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "večera"
+      ],
+      "tagy": [
+        "vysokobielkovinové"
+      ],
+      "suroviny": [
+        {
+          "nazov": "kačacie prsia s kožou (po 150 g)",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 300
+        },
+        {
+          "nazov": "slivky",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "tenké ryžové rezance (1 hniezdo)",
+          "mnozstvo": 45,
+          "jednotka": "g",
+          "g_odhad": 45
+        },
+        {
+          "nazov": "šalát little gem",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "chrumkavá zelenina (mrkva, reďkovka, uhorka, cuketa, hráškové struky)",
+          "mnozstvo": 320,
+          "jednotka": "g",
+          "g_odhad": 320
+        },
+        {
+          "nazov": "červená čili paprička",
+          "mnozstvo": 0.5,
+          "jednotka": "ks",
+          "g_odhad": 8
+        },
+        {
+          "nazov": "limeta",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 70
+        },
+        {
+          "nazov": "omáčka hoisin",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 35
+        },
+        {
+          "nazov": "arašidovo-sezamový čili olej",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 25
+        }
+      ],
+      "postup": [
+        "Prsia osuš, kožu narež do mriežky po 1 cm. Vtri 1 PL olivového oleja, trochu soli a poriadne korenia. Slivky rozpoľ a vykôstkuj.",
+        "Mriežku v zásuvke podlož dvoma ohňovzdornými miskami či formičkami, aby bola koža bližšie k ohrevu. Na papier na pečenie daj prsia kožou hore, okolo slivky rezom dole. Peč 10 min pri 200 °C (vnútri ružové), potom nechaj 5 min odpočívať; zo sliviek stiahni šupku.",
+        "Rezance zalej vriacou vodou, nechaj nasiaknuť a sceď. Šalát rozober na listy. Zeleninu nahrubo nastrúhaj, primiešaj najemno nastrúhané čili, limetovú kôru, šťavu a štipku soli. Hoisin a čili olej daj do misiek.",
+        "Kačku nakrájaj na plátky a všetko naservíruj na dosku; šalátové listy slúžia ako misky na plnenie."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": {
+        "kj": 2523,
+        "kcal": 603,
+        "tuky_g": 26.9,
+        "nasytene_g": 5.4,
+        "bielkoviny_g": 47.3,
+        "sacharidy_g": 43,
+        "cukry_g": 18.7,
+        "sol_g": 1.6,
+        "vlaknina_g": 6.4
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Falafelové burgery",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 53,
+      "porcie": 2,
+      "priprava_min": 14,
+      "varenie_min": 15,
+      "spolu_min": 29,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vegetariánske",
+        "vegánska verzia"
+      ],
+      "suroviny": [
+        {
+          "nazov": "cícer, konzerva",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 400
+        },
+        {
+          "nazov": "mrkva",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 160
+        },
+        {
+          "nazov": "mladá cibuľka",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "petržlenová vňať",
+          "mnozstvo": 15,
+          "jednotka": "g",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "cícerová múka",
+          "mnozstvo": 2,
+          "jednotka": "PL kopcovitá",
+          "g_odhad": 25
+        },
+        {
+          "nazov": "korenie baharat",
+          "mnozstvo": 2.5,
+          "jednotka": "ČL",
+          "g_odhad": 6
+        },
+        {
+          "nazov": "sezam opražený",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 18
+        },
+        {
+          "nazov": "chlebová žemľa",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 140
+        },
+        {
+          "nazov": "cesnak malý",
+          "mnozstvo": 1,
+          "jednotka": "strúčik",
+          "g_odhad": 3
+        },
+        {
+          "nazov": "biely jogurt",
+          "mnozstvo": 2,
+          "jednotka": "PL kopcovitá",
+          "g_odhad": 50
+        },
+        {
+          "nazov": "červený vínny ocot",
+          "mnozstvo": 0.5,
+          "jednotka": "PL",
+          "g_odhad": 8
+        }
+      ],
+      "postup": [
+        "Scedený cícer daj do mixéra s 1 nasekanou mrkvou, cibuľkami a petržlenovými stopkami (lístky odlož). Pridaj cícerovú múku, 2 ČL baharatu, soľ a korenie a zmixuj.",
+        "Vytvaruj 2 placky hrubé 2 cm, obaľ v sezame a pritlač. Peč 15 min pri 180 °C do chrumkava; poslednú minútu pridaj rozkrojené žemle.",
+        "Druhú mrkvu nakrájaj škrabkou na tenké plátky, zmiešaj s petržlenovými lístkami, ½ PL octu a extra panenským olejom, ochuť.",
+        "Do jogurtu nastrúhaj cesnak a pridaj zvyšnú ½ ČL baharatu, ochuť a natri žemle. Na spodok falafel, navrch mrkvový šalát, prikry."
+      ],
+      "tip": "Vegánska verzia: vegánske žemle a rastlinný jogurt.",
+      "vyziva_na_porciu": {
+        "kj": 2469,
+        "kcal": 590,
+        "tuky_g": 16.8,
+        "nasytene_g": 3.7,
+        "bielkoviny_g": 17.6,
+        "sacharidy_g": 84.4,
+        "cukry_g": 10.7,
+        "sol_g": 1.7,
+        "vlaknina_g": 10.9
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Barbecue kuracie stehná",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 57,
+      "porcie": 2,
+      "priprava_min": 13,
+      "varenie_min": 33,
+      "spolu_min": 46,
+      "zasuvky": 2,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vysokobielkovinové"
+      ],
+      "suroviny": [
+        {
+          "nazov": "kuracie paličky (dolné stehná)",
+          "mnozstvo": 6,
+          "jednotka": "ks",
+          "g_odhad": 660
+        },
+        {
+          "nazov": "čínske korenie piatich vôní",
+          "mnozstvo": 1,
+          "jednotka": "ČL",
+          "g_odhad": 2
+        },
+        {
+          "nazov": "panko strúhanka",
+          "mnozstvo": 2,
+          "jednotka": "PL kopcovitá",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "sezam",
+          "mnozstvo": 2,
+          "jednotka": "PL kopcovitá",
+          "g_odhad": 20
+        },
+        {
+          "nazov": "uhorka",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 300
+        },
+        {
+          "nazov": "mladá cibuľka",
+          "mnozstvo": 4,
+          "jednotka": "ks",
+          "g_odhad": 60
+        },
+        {
+          "nazov": "pomaranč",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 300
+        },
+        {
+          "nazov": "arašidovo-sezamový čili olej",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 12
+        },
+        {
+          "nazov": "barbecue alebo hoisin omáčka",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 35
+        }
+      ],
+      "postup": [
+        "Paličky môžeš upiecť tak, ako sú, alebo ich upraviť ako „lízanky“: pri tenkom konci odrež mäso od kosti a stiahni ho k hrubšej časti.",
+        "Obaľ ich v korení, soli, čiernom korení a lyžici olivového oleja. Rozlož do veľkej zásuvky a peč 30 min pri 190 °C.",
+        "Po 15 min vyber z malej zásuvky mriežku, nasyp panko a sezam a peč 15 min pri 190 °C do svetlozlatista, dvakrát pretras. Vysyp na tanier.",
+        "Uhorku pozdĺžne rozštvrť, zbav semien a nakrájaj. Cibuľky najemno, 1½ pomaranča ošúp a nakrájaj na kolieska. Všetko do misy s čili olejom a šťavou zo zvyšnej polovice pomaranča, premiešaj a ochuť.",
+        "Paličky obaľ v BBQ omáčke, vráť do veľkej zásuvky na 3 min pri 150 °C. Potom ich obaľ v sezamovej strúhanke a podávaj so šalátom."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": {
+        "kj": 2393,
+        "kcal": 572,
+        "tuky_g": 29,
+        "nasytene_g": 5.7,
+        "bielkoviny_g": 45.4,
+        "sacharidy_g": 36.2,
+        "cukry_g": 13.8,
+        "sol_g": 1.4,
+        "vlaknina_g": 2.1
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Paradajkový tart s mozzarellou",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 65,
+      "porcie": 2,
+      "priprava_min": 15,
+      "varenie_min": 30,
+      "spolu_min": 45,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vegetariánske"
+      ],
+      "suroviny": [
+        {
+          "nazov": "paradajky",
+          "mnozstvo": 500,
+          "jednotka": "g",
+          "g_odhad": 500
+        },
+        {
+          "nazov": "lístkové cesto rozvaľkané (½ z 320 g)",
+          "mnozstvo": 160,
+          "jednotka": "g",
+          "g_odhad": 160
+        },
+        {
+          "nazov": "čierne olivy s kôstkou",
+          "mnozstvo": 6,
+          "jednotka": "ks",
+          "g_odhad": 25
+        },
+        {
+          "nazov": "červená čili paprička",
+          "mnozstvo": 0.5,
+          "jednotka": "ks",
+          "g_odhad": 8
+        },
+        {
+          "nazov": "mozzarella (½ balenia zo 125 g)",
+          "mnozstvo": 62,
+          "jednotka": "g",
+          "g_odhad": 62
+        },
+        {
+          "nazov": "bazalka",
+          "mnozstvo": 2,
+          "jednotka": "vetvička",
+          "g_odhad": 4
+        },
+        {
+          "nazov": "červený vínny ocot",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 15
+        }
+      ],
+      "postup": [
+        "Paradajky rozpoľ a prstami vyber semienka. Vyber mriežku, nasyp paradajky do zásuvky s lyžicou olivového oleja, soľou a korením, premiešaj a poukladaj rezom dole. Peč 15 min pri 200 °C.",
+        "Cesto natiahni na veľkosť zásuvky, polož na paradajky a zastrč okraje. Peč 15 min pri 200 °C, kým nie je zlatisté a nafúknuté.",
+        "Olivy vykôstkuj a natrhaj, čili nakrájaj na kolieska; zmiešaj s 1 PL octu a ½ PL extra panenského oleja, ochuť.",
+        "Tart rázne vyklop na dosku, natrhaj navrch mozzarellu a bazalku a pokvapkaj olivovou zmesou. Hodí sa rukolový šalát."
+      ],
+      "tip": "Málo bielkovín – vhodné skôr ako ľahká večera alebo s prílohou.",
+      "vyziva_na_porciu": {
+        "kj": 1264,
+        "kcal": 302,
+        "tuky_g": 21,
+        "nasytene_g": 9.9,
+        "bielkoviny_g": 8.5,
+        "sacharidy_g": 19.9,
+        "cukry_g": 4.2,
+        "sol_g": 1.3,
+        "vlaknina_g": 1.6
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Lepkavé baklažánové rezance",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 77,
+      "porcie": 1,
+      "priprava_min": 7,
+      "varenie_min": 20,
+      "spolu_min": 27,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vegánske"
+      ],
+      "suroviny": [
+        {
+          "nazov": "baklažán",
+          "mnozstvo": 250,
+          "jednotka": "g",
+          "g_odhad": 250
+        },
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 1,
+          "jednotka": "strúčik",
+          "g_odhad": 4
+        },
+        {
+          "nazov": "pak čoj",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 120
+        },
+        {
+          "nazov": "arašidy pražené nesolené",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 12
+        },
+        {
+          "nazov": "sladká čili omáčka",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 18
+        },
+        {
+          "nazov": "rezance udon hotové",
+          "mnozstvo": 150,
+          "jednotka": "g",
+          "g_odhad": 150
+        },
+        {
+          "nazov": "mladá cibuľka",
+          "mnozstvo": 4,
+          "jednotka": "ks",
+          "g_odhad": 60
+        },
+        {
+          "nazov": "červená čili paprička",
+          "mnozstvo": 0.5,
+          "jednotka": "ks",
+          "g_odhad": 8
+        },
+        {
+          "nazov": "šalát little gem",
+          "mnozstvo": 0.5,
+          "jednotka": "ks",
+          "g_odhad": 50
+        },
+        {
+          "nazov": "mäta alebo koriander",
+          "mnozstvo": 2,
+          "jednotka": "vetvička",
+          "g_odhad": 4
+        },
+        {
+          "nazov": "arašidovo-sezamový čili olej",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 12
+        },
+        {
+          "nazov": "balzamikový ocot",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 15
+        }
+      ],
+      "postup": [
+        "Baklažán nakrájaj pozdĺžne na 1 cm plátky a potom na 1 cm pásiky. Vyber mriežku, vsyp baklažán a peč 15 min pri 200 °C, v polovici pretras.",
+        "Cesnak nakrájaj na plátky, pak čoj pozdĺžne rozštvrť. K hotovému baklažánu pridaj cesnak, arašidy a čili omáčku, pretras, pridaj pak čoj a peč 5 min pri 200 °C, kým nie je baklažán mäkký a lepkavý.",
+        "Rezance zalej vriacou vodou a nechaj zmäknúť. Cibuľky a čili nakrájaj, šalát rozober na listy, otrhaj bylinky.",
+        "Rezance sceď a pridaj do zásuvky s časťou čili a cibuľky, čili olejom a balzamikom. Premiešaj, ochuť a presyp do misky; podávaj so šalátom, zvyšným čili, cibuľkou a bylinkami."
+      ],
+      "tip": "Recept je na 1 porciu.",
+      "vyziva_na_porciu": {
+        "kj": 1929,
+        "kcal": 461,
+        "tuky_g": 13.4,
+        "nasytene_g": 1.8,
+        "bielkoviny_g": 15.3,
+        "sacharidy_g": 69.9,
+        "cukry_g": 24.1,
+        "sol_g": 1.2,
+        "vlaknina_g": 11.8
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Lepkavý cibuľový tart",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 81,
+      "porcie": 2,
+      "priprava_min": 8,
+      "varenie_min": 35,
+      "spolu_min": 43,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vegetariánske"
+      ],
+      "suroviny": [
+        {
+          "nazov": "červená cibuľa malá",
+          "mnozstvo": 4,
+          "jednotka": "ks",
+          "g_odhad": 320
+        },
+        {
+          "nazov": "tymian čerstvý",
+          "mnozstvo": 4,
+          "jednotka": "vetvička",
+          "g_odhad": 3
+        },
+        {
+          "nazov": "pomarančová marmeláda",
+          "mnozstvo": 2,
+          "jednotka": "PL zarovnaná",
+          "g_odhad": 40
+        },
+        {
+          "nazov": "maslo",
+          "mnozstvo": 20,
+          "jednotka": "g",
+          "g_odhad": 20
+        },
+        {
+          "nazov": "lístkové cesto rozvaľkané (½ z 320 g)",
+          "mnozstvo": 160,
+          "jednotka": "g",
+          "g_odhad": 160
+        },
+        {
+          "nazov": "vlašské orechy",
+          "mnozstvo": 25,
+          "jednotka": "g",
+          "g_odhad": 25
+        },
+        {
+          "nazov": "kozí syr",
+          "mnozstvo": 50,
+          "jednotka": "g",
+          "g_odhad": 50
+        }
+      ],
+      "postup": [
+        "Vyber mriežku. Cibuľu nakrájaj na 1 cm kolieska a daj do zásuvky s tymianom. Marmeládu rozrieď 2 PL vody, prelej cibuľu, premiešaj a rozlož. Navrch maslo a peč 25 min pri 200 °C, v polovici pretras.",
+        "Cesto uprav na veľkosť zásuvky, polož na cibuľu a založ okraje. Peč 10 min pri 200 °C do tmavozlatista.",
+        "Tart vyklop na dosku, posyp nasekanými orechmi a kozím syrom. Podávaj s listovým šalátom a horčicovým dresingom."
+      ],
+      "tip": "Veľmi kalorické a tučné – skôr výnimočne.",
+      "vyziva_na_porciu": {
+        "kj": 2887,
+        "kcal": 690,
+        "tuky_g": 41.4,
+        "nasytene_g": 20,
+        "bielkoviny_g": 13.1,
+        "sacharidy_g": 67.9,
+        "cukry_g": 32.5,
+        "sol_g": 0.6,
+        "vlaknina_g": 5.7
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Plnené šampiňóny",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 89,
+      "porcie": 2,
+      "priprava_min": 12,
+      "varenie_min": 15,
+      "spolu_min": 27,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vegetariánske"
+      ],
+      "suroviny": [
+        {
+          "nazov": "šampiňóny veľké",
+          "mnozstvo": 4,
+          "jednotka": "ks",
+          "g_odhad": 320
+        },
+        {
+          "nazov": "nové zemiaky očistené, balenie (konzerva)",
+          "mnozstvo": 300,
+          "jednotka": "g",
+          "g_odhad": 300
+        },
+        {
+          "nazov": "syr taleggio",
+          "mnozstvo": 50,
+          "jednotka": "g",
+          "g_odhad": 50
+        },
+        {
+          "nazov": "rozmarín",
+          "mnozstvo": 10,
+          "jednotka": "g",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "citrón",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "kváskový chlieb (2 krajce)",
+          "mnozstvo": 100,
+          "jednotka": "g",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "šalát little gem",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "čakanka",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 120
+        },
+        {
+          "nazov": "rukola",
+          "mnozstvo": 2,
+          "jednotka": "hrsť",
+          "g_odhad": 40
+        }
+      ],
+      "postup": [
+        "Odstráň stopky šampiňónov, nasekaj ich do misy. Pridaj scedené zemiaky, natrhaný syr, väčšinu nasekaného rozmarínu, kôru z ½ citróna, soľ a korenie a roztlač. Rozlož na šampiňóny a pritlač.",
+        "Chlieb zmixuj na strúhanku so zvyškom rozmarínu a 1 PL olivového oleja, posyp huby.",
+        "Peč 15 min pri 180 °C, kým nie je strúhanka zlatistá a huby mäkké.",
+        "Little gem nakrájaj na dieliky, čakanku natenko, premiešaj s rukolou, citrónovou šťavou a ½ PL extra panenského oleja, ochuť. Podávaj so šampiňónmi."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": {
+        "kj": 1628,
+        "kcal": 389,
+        "tuky_g": 17.8,
+        "nasytene_g": 6,
+        "bielkoviny_g": 15.1,
+        "sacharidy_g": 42.3,
+        "cukry_g": 4,
+        "sol_g": 1.8,
+        "vlaknina_g": 3.6
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Plnená tekvica s čiernou fazuľou",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 99,
+      "porcie": 2,
+      "priprava_min": 13,
+      "varenie_min": 50,
+      "spolu_min": 63,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vegetariánske"
+      ],
+      "suroviny": [
+        {
+          "nazov": "maslová tekvica – široká časť (po 600 g)",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 1200
+        },
+        {
+          "nazov": "červená cibuľa malá",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 80
+        },
+        {
+          "nazov": "zelená čili paprička",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "čierna fazuľa, konzerva",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 400
+        },
+        {
+          "nazov": "vajce",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 55
+        },
+        {
+          "nazov": "feta",
+          "mnozstvo": 50,
+          "jednotka": "g",
+          "g_odhad": 50
+        },
+        {
+          "nazov": "kuskus",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "koriandrová vňať",
+          "mnozstvo": 30,
+          "jednotka": "g",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "avokádo zrelé",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 150
+        },
+        {
+          "nazov": "limeta",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 70
+        },
+        {
+          "nazov": "červený vínny ocot",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 15
+        }
+      ],
+      "postup": [
+        "Z tekvíc odkroj užšiu časť (odlož na iný recept), lyžicou vydlab semienka, nešúp. Potri olivovým olejom, osoľ, okoreň a peč 20 min pri 180 °C.",
+        "Cibuľu rozštvrť, čili poprepichuj. Tekvicu obráť, pridaj cibuľu a čili a peč 10 min pri 180 °C.",
+        "Zeleninu a mriežku vyber. Do zásuvky nasyp fazuľu s polovicou nálevu, lyžicu olivového oleja, ocot, soľ a korenie. Cibuľu a čili nakrájaj (semienka podľa chuti) a vmiešaj. Mriežku vráť a var 10 min pri 160 °C.",
+        "Vajce vyšľahaj, rozdrob doň fetu a pridaj kuskus a polovicu nasekaného koriandra (pár lístkov odlož). Nalej do dutín tekvice, vráť do zásuvky a peč s fazuľou ďalších 10 min pri 160 °C.",
+        "Avokádo nakrájaj, pokvapkaj polovicou limetovej šťavy a extra panenským olejom, ochuť.",
+        "Do fazule vmiešaj zvyšok koriandra, rozdeľ na taniere, navrch tekvicu, avokádo a lístky koriandra; podávaj s limetou."
+      ],
+      "tip": "Veľmi veľa vlákniny (24 g/porcia).",
+      "vyziva_na_porciu": {
+        "kj": 2389,
+        "kcal": 571,
+        "tuky_g": 23,
+        "nasytene_g": 6.7,
+        "bielkoviny_g": 24.1,
+        "sacharidy_g": 65,
+        "cukry_g": 31.6,
+        "sol_g": 1.8,
+        "vlaknina_g": 24
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Najlepšie pečené zemiaky",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 103,
+      "porcie": 4,
+      "priprava_min": 8,
+      "varenie_min": 60,
+      "spolu_min": 68,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "príloha"
+      ],
+      "tagy": [
+        "vegetariánske",
+        "príloha"
+      ],
+      "suroviny": [
+        {
+          "nazov": "zemiaky stredne veľké",
+          "mnozstvo": 1000,
+          "jednotka": "g",
+          "g_odhad": 1000
+        },
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 4,
+          "jednotka": "strúčik",
+          "g_odhad": 16
+        },
+        {
+          "nazov": "maslo",
+          "mnozstvo": 40,
+          "jednotka": "g",
+          "g_odhad": 40
+        },
+        {
+          "nazov": "šalvia",
+          "mnozstvo": 2,
+          "jednotka": "vetvička",
+          "g_odhad": 3
+        }
+      ],
+      "postup": [
+        "Zemiaky ošúp, nechaj celé (ideálne rovnako veľké, ~8 cm). Predvar 15 min v osolenej vode, sceď a nechaj 2 min odpariť v sitku; párkrát nimi jemne potras, aby sa povrch narušil, a vráť do hrnca.",
+        "Fritézu predhrej 2 min na 180 °C. Zemiaky premiešaj s neošúpaným cesnakom, maslom, 1 PL olivového oleja, soľou a korením, rozlož do zásuvky a peč 30 min do zlatista.",
+        "Každý zemiak jemne stlač obracačkou, aby sa navzájom dotýkali. Lístky šalvie obaľ v oleji, rozhoď navrch a peč ešte 15 min. Cesnak vytlač zo šupky a posyp ním zemiaky aj s pripečenými zvyškami."
+      ],
+      "tip": "Príloha na 4 porcie.",
+      "vyziva_na_porciu": {
+        "kj": 1243,
+        "kcal": 297,
+        "tuky_g": 12,
+        "nasytene_g": 5.8,
+        "bielkoviny_g": 5.5,
+        "sacharidy_g": 44.3,
+        "cukry_g": 1.6,
+        "sol_g": 0.6,
+        "vlaknina_g": 3.3
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Rezancový šalát s opečenými hubami",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 111,
+      "porcie": 2,
+      "priprava_min": 12,
+      "varenie_min": 15,
+      "spolu_min": 27,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vegánska verzia"
+      ],
+      "suroviny": [
+        {
+          "nazov": "zmes húb (šiitake, hliva)",
+          "mnozstvo": 400,
+          "jednotka": "g",
+          "g_odhad": 400
+        },
+        {
+          "nazov": "rezance udon hotové",
+          "mnozstvo": 300,
+          "jednotka": "g",
+          "g_odhad": 300
+        },
+        {
+          "nazov": "mladá cibuľka",
+          "mnozstvo": 4,
+          "jednotka": "ks",
+          "g_odhad": 60
+        },
+        {
+          "nazov": "uhorka",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 300
+        },
+        {
+          "nazov": "mäta",
+          "mnozstvo": 15,
+          "jednotka": "g",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 1,
+          "jednotka": "strúčik",
+          "g_odhad": 4
+        },
+        {
+          "nazov": "zázvor",
+          "mnozstvo": 4,
+          "jednotka": "cm",
+          "g_odhad": 20
+        },
+        {
+          "nazov": "limeta",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 70
+        },
+        {
+          "nazov": "červená čili paprička",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "sójová omáčka so zníženým obsahom soli",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "rybacia omáčka",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "sezam opražený",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 9
+        }
+      ],
+      "postup": [
+        "Huby (väčšie natrhaj) daj do veľkej zásuvky a peč 10 min pri 180 °C.",
+        "Rezance oddeľ, obaľ v olivovom oleji, daj na huby a peč ešte 5 min pri 180 °C.",
+        "Cibuľky nasekaj najemno, uhorku nahrubo, nasekaj mätu. Do veľkej misy nastrúhaj cesnak a zázvor, pridaj limetovú kôru, nasekané čili bez semien, 2 PL olivového oleja, sójovku, rybaciu omáčku a limetovú šťavu; ochuť.",
+        "Huby s rezancami prelož do dresingu, pridaj cibuľku, uhorku a mätu, premiešaj a posyp sezamom."
+      ],
+      "tip": "Vegánska verzia: vynechaj rybaciu omáčku.",
+      "vyziva_na_porciu": {
+        "kj": 1874,
+        "kcal": 448,
+        "tuky_g": 19.9,
+        "nasytene_g": 2.9,
+        "bielkoviny_g": 17.8,
+        "sacharidy_g": 48.6,
+        "cukry_g": 6,
+        "sol_g": 1.8,
+        "vlaknina_g": 6.9
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Kurací karí šalát",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 113,
+      "porcie": 2,
+      "priprava_min": 12,
+      "varenie_min": 40,
+      "spolu_min": 52,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [],
+      "suroviny": [
+        {
+          "nazov": "broskyne v náleve, konzerva (½ zo 410 g)",
+          "mnozstvo": 205,
+          "jednotka": "g",
+          "g_odhad": 205
+        },
+        {
+          "nazov": "červená cibuľa",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 300
+        },
+        {
+          "nazov": "kuracie stehná veľké s kožou a kosťou",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 500
+        },
+        {
+          "nazov": "citrón",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "karí pasta",
+          "mnozstvo": 2,
+          "jednotka": "PL kopcovitá",
+          "g_odhad": 40
+        },
+        {
+          "nazov": "mandľové lupienky",
+          "mnozstvo": 30,
+          "jednotka": "g",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "grécky jogurt",
+          "mnozstvo": 4,
+          "jednotka": "PL",
+          "g_odhad": 80
+        },
+        {
+          "nazov": "šalát little gem",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "koriandrová vňať",
+          "mnozstvo": 30,
+          "jednotka": "g",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "červená čili paprička",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 15
+        }
+      ],
+      "postup": [
+        "Vyber mriežku, do zásuvky daj broskyne (šťavu odlož) a mriežku vráť. Cibuľu nakrájaj na 6 dielikov. Stehná osuš, pokvapkaj šťavou z ½ citróna, potri karí pastou a lyžicou olivového oleja. Daj do zásuvky, cibuľu pod ne, a peč 40 min pri 180 °C; v polovici obráť, posledných 5 min pridaj mandle.",
+        "Mandle, mäso a cibuľu vyber na dosku, vyber mriežku. Do broskýň vmiešaj jogurt a trochu odloženej šťavy, pridaj natrhané mäso aj chrumkavú kožu (kosti preč) a cibuľu rozobratú na lupienky. Premiešaj a ochuť.",
+        "Šaláty nakrájaj na dieliky na tanier, posyp väčšinou nahrubo nasekaného koriandra. Navrch kurací šalát, kolieska čili, mandle a zvyšný koriander. Hodia sa placky poppadom."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": {
+        "kj": 2393,
+        "kcal": 572,
+        "tuky_g": 37.9,
+        "nasytene_g": 7.7,
+        "bielkoviny_g": 31.1,
+        "sacharidy_g": 29.8,
+        "cukry_g": 23.1,
+        "sol_g": 1.3,
+        "vlaknina_g": 9.7
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Teplý lososový šalát",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 115,
+      "porcie": 2,
+      "priprava_min": 10,
+      "varenie_min": 12,
+      "spolu_min": 22,
+      "zasuvky": 2,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vysokobielkovinové"
+      ],
+      "suroviny": [
+        {
+          "nazov": "zelená fazuľka",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "špargľa",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "šalát little gem",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "losos filet s kožou bez kostí (po 130 g)",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 260
+        },
+        {
+          "nazov": "vajce stredné",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 110
+        },
+        {
+          "nazov": "francúzska bageta",
+          "mnozstvo": 50,
+          "jednotka": "g",
+          "g_odhad": 50
+        },
+        {
+          "nazov": "paradajka",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 120
+        },
+        {
+          "nazov": "čierne olivy s kôstkou",
+          "mnozstvo": 8,
+          "jednotka": "ks",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "dijonská horčica",
+          "mnozstvo": 1,
+          "jednotka": "ČL",
+          "g_odhad": 5
+        },
+        {
+          "nazov": "červený vínny ocot",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 30
+        }
+      ],
+      "postup": [
+        "Fazuľku očisti, odlom drevnaté konce špargle, šalát rozštvrť. Všetko daj do veľkej zásuvky, pokvapkaj 1 PL olivového oleja, osoľ, okoreň a premiešaj. Navrch lososa kožou hore a peč 12 min pri 200 °C.",
+        "Vajcia uvar namäkko (6 min), schlaď a ošúp. Bagetu nakrájaj na tenké plátky a opeč v malej zásuvke 4 min pri 200 °C.",
+        "Na dresing nastrúhaj paradajku do plytkej misy (šupku vyhoď), pridaj nadrobno nasekané vykôstkované olivy, horčicu, 2 PL octu a 1 PL extra panenského oleja; ochuť.",
+        "Zeleninu a bagetu prelož do dresingu, premiešaj, navrch natrhaj lososa aj s kožou a pridaj rozpolené vajcia."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": {
+        "kj": 2364,
+        "kcal": 565,
+        "tuky_g": 25.2,
+        "nasytene_g": 6,
+        "bielkoviny_g": 41.4,
+        "sacharidy_g": 21.1,
+        "cukry_g": 7.4,
+        "sol_g": 1.5,
+        "vlaknina_g": 5.6
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Luxusné fish & chips",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 129,
+      "porcie": 2,
+      "priprava_min": 22,
+      "varenie_min": 30,
+      "spolu_min": 52,
+      "zasuvky": 2,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vysokobielkovinové"
+      ],
+      "suroviny": [
+        {
+          "nazov": "zemiaky",
+          "mnozstvo": 500,
+          "jednotka": "g",
+          "g_odhad": 500
+        },
+        {
+          "nazov": "vajce",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 55
+        },
+        {
+          "nazov": "údená paprika",
+          "mnozstvo": 0.5,
+          "jednotka": "ČL",
+          "g_odhad": 1
+        },
+        {
+          "nazov": "parmezán",
+          "mnozstvo": 10,
+          "jednotka": "g",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "celozrnný chlieb so semienkami (1 hrubý krajec)",
+          "mnozstvo": 40,
+          "jednotka": "g",
+          "g_odhad": 40
+        },
+        {
+          "nazov": "losos filet s kožou bez kostí (po 130 g)",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 260
+        },
+        {
+          "nazov": "hladká múka",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "malé zavárané uhorky, balenie",
+          "mnozstvo": 340,
+          "jednotka": "g",
+          "g_odhad": 340
+        },
+        {
+          "nazov": "mrazený hrášok",
+          "mnozstvo": 160,
+          "jednotka": "g",
+          "g_odhad": 160
+        },
+        {
+          "nazov": "mäta",
+          "mnozstvo": 2,
+          "jednotka": "vetvička",
+          "g_odhad": 4
+        }
+      ],
+      "postup": [
+        "Zemiaky nakrájaj pozdĺžne na 2 cm dieliky, vo veľkej zásuvke obaľ v 1 PL olivového oleja, soli a korení a rozlož v jednej vrstve. Peč 30 min pri 200 °C, v polovici pretras.",
+        "V plytkej miske rozšľahaj vajce s paprikou, ochuť. V mixéri rozmixuj parmezán, chlieb a 1 PL oleja na strúhanku, vysyp na tanier.",
+        "Lososa obaľ v múke, vajci a strúhanke (poriadne pritlač). Peč v malej zásuvke 10 min pri 200 °C do zlatista.",
+        "Uhorky s polovicou nálevu zmixuj dohladka na omáčku. Odober dve porcie, zvyšok vydrží v chladničke až 2 týždne.",
+        "Hrášok var 4 min v osolenej vode, sceď (trochu vody odlož). Zmixuj s lístkami mäty, podľa potreby rozrieď vodou, ochuť a udržuj v teple.",
+        "Podávaj rybu so zemiakmi, mätovým hráškom a uhorkovou omáčkou."
+      ],
+      "tip": "Uhorkovej omáčky zvýši aj na ďalšie porcie.",
+      "vyziva_na_porciu": {
+        "kj": 3033,
+        "kcal": 725,
+        "tuky_g": 22.4,
+        "nasytene_g": 4.4,
+        "bielkoviny_g": 64.6,
+        "sacharidy_g": 69.8,
+        "cukry_g": 5.4,
+        "sol_g": 0.9,
+        "vlaknina_g": 8.9
+      },
+      "jednotka_porcie": "porcia"
+    },
+    {
+      "nazov": "Rezance s pripečeným bravčovým a ananásom",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 139,
+      "porcie": 4,
+      "jednotka_porcie": "porcia",
+      "priprava_min": 20,
+      "varenie_min": 35,
+      "spolu_min": 55,
+      "zasuvky": 2,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [],
+      "suroviny": [
+        {
+          "nazov": "ananás malý",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 600
+        },
+        {
+          "nazov": "čínske korenie piatich vôní",
+          "mnozstvo": 1.5,
+          "jednotka": "ČL",
+          "g_odhad": 3
+        },
+        {
+          "nazov": "bravčový bôčik",
+          "mnozstvo": 500,
+          "jednotka": "g",
+          "g_odhad": 500
+        },
+        {
+          "nazov": "červená paprika",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 150
+        },
+        {
+          "nazov": "ryžové rezance široké",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "červená čili paprička",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "zázvor",
+          "mnozstvo": 6,
+          "jednotka": "cm",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 1,
+          "jednotka": "strúčik",
+          "g_odhad": 4
+        },
+        {
+          "nazov": "limeta",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 70
+        },
+        {
+          "nazov": "sójová omáčka so zníženým obsahom soli",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "sezamový olej",
+          "mnozstvo": 2,
+          "jednotka": "ČL",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "rybacia omáčka",
+          "mnozstvo": 2,
+          "jednotka": "ČL",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "med",
+          "mnozstvo": null,
+          "jednotka": "2 ČL + 1 PL",
+          "g_odhad": 35
+        },
+        {
+          "nazov": "zelenina (uhorka, reďkovka, hráškové struky, mrkva, špargľa)",
+          "mnozstvo": 800,
+          "jednotka": "g",
+          "g_odhad": 800
+        },
+        {
+          "nazov": "koriander a mäta spolu",
+          "mnozstvo": 30,
+          "jednotka": "g",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "sezam",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 9
+        }
+      ],
+      "postup": [
+        "Ananás očisti a nakrájaj na 8 kusov, posyp korením piatich vôní, pokvapkaj olivovým olejom a peč v malej zásuvke 30 min pri 200 °C do karamelizovania.",
+        "Bôčik nakrájaj na plátky, obaľ v 1 PL oleja, 1 ČL korenia piatich vôní, soli a čiernom korení. Papriku rozštvrť bez semien a s mäsom daj do veľkej zásuvky; peč 25 min pri 200 °C.",
+        "Rezance zalej vriacou vodou, nechaj nasiaknuť, sceď a prepláchni studenou vodou.",
+        "Dresing: na tanier nalej 2 PL olivového oleja, pridaj nadrobno nasekané čili, najemno nastrúhaný zázvor, cesnak a limetovú kôru, limetovú šťavu, sójovku, sezamový olej, rybaciu omáčku a 2 ČL medu; premiešaj.",
+        "Uhorku, reďkovky a hráškové struky nakrájaj na kúsky, mrkvu a špargľu škrabkou na pásiky. Nalož na tanier s rezancami a natrhaj navrch bylinky.",
+        "Papriku z veľkej zásuvky pridaj do šalátu. K mäsu pridaj 1 PL medu a sezam, premiešaj a peč 10 min pri 200 °C, v polovici obráť.",
+        "Mäso a ananás nakrájaj na kúsky, pridaj na šalát, premiešaj a dochuť."
+      ],
+      "tip": "Recept je na 4 porcie; porcia je veľmi kalorická (≈770 kcal).",
+      "vyziva_na_porciu": {
+        "kj": 3226,
+        "kcal": 771,
+        "tuky_g": 40.6,
+        "nasytene_g": 11.3,
+        "bielkoviny_g": 32.6,
+        "sacharidy_g": 69,
+        "cukry_g": 26.6,
+        "sol_g": 1.7,
+        "vlaknina_g": 2.2
+      }
+    },
+    {
+      "nazov": "Šošovica s paprikou a klobásou",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 147,
+      "porcie": 2,
+      "jednotka_porcie": "porcia",
+      "priprava_min": 16,
+      "varenie_min": 35,
+      "spolu_min": 51,
+      "zasuvky": 2,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [],
+      "suroviny": [
+        {
+          "nazov": "paprika (rôzne farby)",
+          "mnozstvo": 3,
+          "jednotka": "ks",
+          "g_odhad": 450
+        },
+        {
+          "nazov": "červená čili paprička",
+          "mnozstvo": 1.5,
+          "jednotka": "ks",
+          "g_odhad": 20
+        },
+        {
+          "nazov": "cesnak veľký",
+          "mnozstvo": 4,
+          "jednotka": "strúčik",
+          "g_odhad": 20
+        },
+        {
+          "nazov": "klobása",
+          "mnozstvo": 4,
+          "jednotka": "ks",
+          "g_odhad": 280
+        },
+        {
+          "nazov": "petržlenová vňať",
+          "mnozstvo": 15,
+          "jednotka": "g",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "uvarená šošovica, balenie",
+          "mnozstvo": 250,
+          "jednotka": "g",
+          "g_odhad": 250
+        },
+        {
+          "nazov": "červený vínny ocot",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "extra panenský olivový olej",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 14
+        }
+      ],
+      "postup": [
+        "Papriky a čili (1–2 ks) niekoľkokrát prepichni, daj do veľkej zásuvky, postriekaj olivovým olejom a peč 30 min pri 200 °C. V polovici obráť a pridaj neošúpaný cesnak. Po dopečení nechaj všetko 5 min v zatvorenej zásuvke dusiť v pare.",
+        "Klobásy niekoľkokrát hlboko nakroj po dĺžke, pokvapkaj olejom a peč v malej zásuvke 20 min pri 200 °C, v polovici pretras.",
+        "Cesnak vytlač zo šupiek na dosku. Vychladnuté papriky a čili ošúp, zbav semien a pridaj na dosku. Pár lístkov petržlenu odlož, zvyšok aj so stopkami nasekaj nadrobno spolu so zeleninou. Šošovicu ohrej podľa obalu a primiešaj, pridaj 2 PL octu a 1 PL extra panenského oleja, dochuť.",
+        "Podávaj s klobásami, posyp odloženým petržlenom. Hodí sa zelenina na pare alebo šalát."
+      ],
+      "tip": "Konzervovaná šošovica: keď je veľká zásuvka prázdna, vyber mriežku, nasyp scedenú šošovicu a var 5 min pri 200 °C.",
+      "vyziva_na_porciu": {
+        "kj": 2427,
+        "kcal": 580,
+        "tuky_g": 36.5,
+        "nasytene_g": 12,
+        "bielkoviny_g": 24.4,
+        "sacharidy_g": 39.9,
+        "cukry_g": 14.9,
+        "sol_g": 1.4,
+        "vlaknina_g": 15.8
+      }
+    },
+    {
+      "nazov": "Pečený medový syr",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": null,
+      "porcie": null,
+      "jednotka_porcie": "porcia",
+      "priprava_min": 3,
+      "varenie_min": 15,
+      "spolu_min": 18,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "snack",
+        "predjedlo"
+      ],
+      "tagy": [
+        "vegetariánske"
+      ],
+      "suroviny": [
+        {
+          "nazov": "halloumi alebo feta (1 kus)",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "med",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 40
+        },
+        {
+          "nazov": "korenie aleppo ½ ČL alebo údená paprika 1 kopcovitá ČL",
+          "mnozstvo": null,
+          "jednotka": "podľa výberu",
+          "g_odhad": 3
+        }
+      ],
+      "postup": [
+        "Syr nakroj krížom-krážom do polovice hrúbky a daj do malej ohňovzdornej misky, do ktorej sa akurát zmestí.",
+        "Med zmiešaj s korením a potri syr tak, aby sa zmes dostala aj do zárezov.",
+        "Peč 15 min pri 180 °C, kým nie je syr mäkký a pripečený; v polovici ho prelej omáčkou z misky.",
+        "Nechaj chvíľu vychladnúť. Podávaj samotný, na toaste alebo nakrájaný s paradajkovým šalátom s červenou cibuľou a mätou."
+      ],
+      "tip": "Na fotke chýba strana, počet porcií aj výživa – treba doplniť (odhad: 2–4 porcie ako predjedlo).",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Kuracie krídla miso",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 161,
+      "porcie": 8,
+      "jednotka_porcie": "kus",
+      "priprava_min": 6,
+      "varenie_min": 29,
+      "spolu_min": 35,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "snack",
+        "večera"
+      ],
+      "tagy": [
+        "vysokobielkovinové"
+      ],
+      "suroviny": [
+        {
+          "nazov": "kuracie krídla malé",
+          "mnozstvo": 8,
+          "jednotka": "ks",
+          "g_odhad": 640
+        },
+        {
+          "nazov": "pasta miso",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 18
+        },
+        {
+          "nazov": "med",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 20
+        },
+        {
+          "nazov": "ryžový ocot",
+          "mnozstvo": 1,
+          "jednotka": "ČL",
+          "g_odhad": 5
+        },
+        {
+          "nazov": "mladá cibuľka",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "sezam opražený",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 9
+        },
+        {
+          "nazov": "olivový olej",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 28
+        }
+      ],
+      "postup": [
+        "Krídla daj do zásuvky, premiešaj s 2 PL olivového oleja, soľou a korením. Peč 25 min pri 200 °C, v polovici pretras.",
+        "V miske zmiešaj miso, med a ocot na glazúru. Cibuľky nakrájaj natenko.",
+        "Krídla potri polovicou glazúry a peč 4 min pri 180 °C; v polovici obráť a potri zvyškom glazúry.",
+        "Prelož na tanier, posyp sezamom a cibuľkou."
+      ],
+      "tip": "Výživa je na 1 kus krídla (recept = 8 kusov).",
+      "vyziva_na_porciu": {
+        "kj": 552,
+        "kcal": 132,
+        "tuky_g": 8.3,
+        "nasytene_g": 2.3,
+        "bielkoviny_g": 12.8,
+        "sacharidy_g": 2.6,
+        "cukry_g": 2.1,
+        "sol_g": 0.3,
+        "vlaknina_g": 0.1
+      }
+    },
+    {
+      "nazov": "Lepkavé párkové špízy",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": null,
+      "porcie": null,
+      "jednotka_porcie": "porcia",
+      "priprava_min": 6,
+      "varenie_min": 17,
+      "spolu_min": 23,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "snack",
+        "párty"
+      ],
+      "tagy": [
+        "vegetariánska verzia"
+      ],
+      "suroviny": [
+        {
+          "nazov": "údená pancetta, plátky",
+          "mnozstvo": null,
+          "jednotka": "podľa počtu špízov (½ plátku na špíz)",
+          "g_odhad": null
+        },
+        {
+          "nazov": "malé surové (kokteilové) párky",
+          "mnozstvo": null,
+          "jednotka": "2 ks na špíz",
+          "g_odhad": null
+        },
+        {
+          "nazov": "šalvia, lístky",
+          "mnozstvo": null,
+          "jednotka": "podľa počtu",
+          "g_odhad": null
+        },
+        {
+          "nazov": "med",
+          "mnozstvo": null,
+          "jednotka": "na pokvapkanie",
+          "g_odhad": null
+        }
+      ],
+      "postup": [
+        "Drevené špáradlá namoč do studenej vody, aby sa nepripálili. Plátky pancetty plochou nožom roztlač, natiahni a rozpoľ.",
+        "Na každé špáradlo napichni dva párky s ½ plátku pancetty, medzi ne lístok šalvie.",
+        "Špízy rozlož do zásuvky a peč 15 min pri 180 °C, v polovici pretras.",
+        "Pokvapkaj medom, ešte raz pretras a peč 2 min pri 180 °C. Podávaj hneď."
+      ],
+      "tip": "Kniha neuvádza množstvá ani výživu – treba doplniť podľa počtu špízov.",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Čedarové trojuholníky s pažítkou",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 173,
+      "porcie": 6,
+      "jednotka_porcie": "porcia",
+      "priprava_min": 16,
+      "varenie_min": 12,
+      "spolu_min": 28,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "raňajky",
+        "snack"
+      ],
+      "tagy": [
+        "vegetariánske",
+        "pečivo"
+      ],
+      "suroviny": [
+        {
+          "nazov": "hladká múka (+ na posypanie)",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 210
+        },
+        {
+          "nazov": "kypriaci prášok",
+          "mnozstvo": 1.5,
+          "jednotka": "ČL",
+          "g_odhad": 6
+        },
+        {
+          "nazov": "horčica prášková",
+          "mnozstvo": 1,
+          "jednotka": "ČL",
+          "g_odhad": 3
+        },
+        {
+          "nazov": "kajenské korenie",
+          "mnozstvo": null,
+          "jednotka": "štipka",
+          "g_odhad": 1
+        },
+        {
+          "nazov": "maslo studené",
+          "mnozstvo": 75,
+          "jednotka": "g",
+          "g_odhad": 75
+        },
+        {
+          "nazov": "zrejúci čedar",
+          "mnozstvo": 120,
+          "jednotka": "g",
+          "g_odhad": 120
+        },
+        {
+          "nazov": "pažítka",
+          "mnozstvo": 20,
+          "jednotka": "g",
+          "g_odhad": 20
+        },
+        {
+          "nazov": "mlieko (+ na potretie)",
+          "mnozstvo": 70,
+          "jednotka": "ml",
+          "g_odhad": 80
+        },
+        {
+          "nazov": "smotanový syr nízkotučný",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "citrón",
+          "mnozstvo": 0.5,
+          "jednotka": "ks",
+          "g_odhad": 50
+        }
+      ],
+      "postup": [
+        "Múku preosej do misy s kypriacim práškom a horčicou, pridaj poriadnu štipku kajenského korenia a soli. Studené maslo nakrájaj na kocky a prstami zapracuj, kým nevzniknú drobné hrudky.",
+        "Nahrubo nastrúhaj 100 g čedaru, nadrobno nasekaj pažítku a vmiešaj. Urob jamku, nalej mlieko a rýchlo vypracuj mäkké, nelepivé cesto (podľa potreby prilej trochu mlieka) – nemiesiť dlho.",
+        "Na pomúčenej ploche vytvaruj kruh hrubý 3 cm a nakrájaj na 6 trojuholníkov. Potri mliekom, nastrúhaj navrch zvyšný syr a posyp kajenským korením.",
+        "Zásuvku vytri olivovým olejom a predhrej 2 min na 180 °C. Trojuholníky rozlož a peč 12 min do zlatista, prípadne po častiach.",
+        "Smotanový syr zmiešaj s nastrúhanou citrónovou kôrou, okoreň a pokvapkaj extra panenským olejom. Podávaj k teplým trojuholníkom; hodí sa šalát s potočnicou, čakankou, jablkom a vlašskými orechmi."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": {
+        "kj": 1540,
+        "kcal": 368,
+        "tuky_g": 24,
+        "nasytene_g": 13.7,
+        "bielkoviny_g": 11.4,
+        "sacharidy_g": 28.3,
+        "cukry_g": 2.9,
+        "sol_g": 1.1,
+        "vlaknina_g": 1.3
+      }
+    },
+    {
+      "nazov": "Koláčiky s mentolovou čokoládou",
+      "zdroj": "Jamie Oliver – Moja teplovzdušná fritéza",
+      "strana": 181,
+      "porcie": 8,
+      "jednotka_porcie": "porcia",
+      "priprava_min": 10,
+      "varenie_min": 37,
+      "spolu_min": 47,
+      "zasuvky": 1,
+      "vybavenie": [
+        "teplovzdušná fritéza"
+      ],
+      "typ_navrh": [
+        "dezert"
+      ],
+      "tagy": [
+        "vegetariánske",
+        "sladké"
+      ],
+      "suroviny": [
+        {
+          "nazov": "mentolová čokoláda Aero",
+          "mnozstvo": 145,
+          "jednotka": "g",
+          "g_odhad": 145
+        },
+        {
+          "nazov": "smotanový syr plnotučný",
+          "mnozstvo": 150,
+          "jednotka": "g",
+          "g_odhad": 150
+        },
+        {
+          "nazov": "maslo",
+          "mnozstvo": 85,
+          "jednotka": "g",
+          "g_odhad": 85
+        },
+        {
+          "nazov": "hladká múka",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "kypriaci prášok",
+          "mnozstvo": 0.5,
+          "jednotka": "ČL",
+          "g_odhad": 2
+        },
+        {
+          "nazov": "kryštálový cukor",
+          "mnozstvo": 100,
+          "jednotka": "g",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "kakao",
+          "mnozstvo": 3,
+          "jednotka": "PL",
+          "g_odhad": 20
+        },
+        {
+          "nazov": "sóda bikarbóna",
+          "mnozstvo": 0.5,
+          "jednotka": "ČL",
+          "g_odhad": 2
+        },
+        {
+          "nazov": "mliečne alebo horké čokoládové kúsky",
+          "mnozstvo": 100,
+          "jednotka": "g",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "vajce",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 110
+        }
+      ],
+      "postup": [
+        "Plnka: 120 g Aero nalámaj do ohňovzdornej misky a roztop v zásuvke 3 min pri 170 °C. Vymiešaj dohladka, zmiešaj so smotanovým syrom, prikry a nechaj aspoň hodinu stuhnúť v chladničke.",
+        "Maslo roztop v ohňovzdornej miske 4 min pri 170 °C. Vo veľkej mise zmiešaj múku, kypriaci prášok, cukor, kakao, sódu a čokoládové kúsky, potom vmiešaj maslo a vajcia. Vlhkými rukami vytvaruj 16 guľôčok, polož na papier na pečenie a jemne pritlač.",
+        "Zásuvku vystel papierom, vlož 4–6 koláčikov s 1 cm medzerami. Peč 10 min pri 170 °C (12 min z chladničky, 15 min zmrazené), vyber aj s papierom, nechaj vychladnúť na mriežke a opakuj.",
+        "Úplne vychladnuté koláčiky spájaj po dvoch plnkou a do každého nadrob kúsok zvyšnej Aero."
+      ],
+      "tip": "Energia a tuky boli na fotke zakryté prstom – treba doplniť. Porcia = 1 sendvič (2 koláčiky). Do zásoby: surové guľky 2 dni v chladničke alebo 3 mesiace v mrazničke; upečené 3 dni vo vzduchotesnej nádobe, plnka v chladničke až do skladania.",
+      "vyziva_na_porciu": {
+        "kj": null,
+        "kcal": null,
+        "tuky_g": null,
+        "nasytene_g": null,
+        "bielkoviny_g": 6.7,
+        "sacharidy_g": 52.2,
+        "cukry_g": 32.6,
+        "sol_g": 0.6,
+        "vlaknina_g": 1.9
+      }
+    }
+  ]
+}

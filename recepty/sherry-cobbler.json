@@ -1,0 +1,61 @@
+{
+  "id": "sherry-cobbler",
+  "nazov": "Sherry Cobbler",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/sherry-cobbler/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ľahký letný drink z 19. storočia — orieškové sherry s cukrom a citrusmi na kope drveného ľadu.",
+  "ingrediencie": [
+    {
+      "nazov": "Sherry",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": "pol na pol amontillado a palo cortado"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL",
+      "poznamka": "jemný"
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": 0.5,
+      "jednotka": "plátok",
+      "poznamka": "polovica kolieska"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "plátok",
+      "poznamka": "polovica kolieska"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "drvený"
+    },
+    {
+      "nazov": "Bobuľové ovocie",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Sherry, cukor a štvrtinky kolieska pomaranča a citróna daj do šejkra s ľadom.",
+    "Krátko a svižne pretrep.",
+    "Preceď do pohára plného drveného ľadu, ozdob ovocím a podávaj so slamkou."
+  ],
+  "tipy": "Bez drveného ľadu to nie je cobbler — kocky drink nevychladia dosť rýchlo.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "víno",
+    "IBA"
+  ]
+}

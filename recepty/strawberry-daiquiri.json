@@ -1,0 +1,61 @@
+{
+  "id": "strawberry-daiquiri",
+  "nazov": "Strawberry Daiquiri",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Strawberry Daiquiri",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12316",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Jahodová verzia daiquiri — svieža, ovocná a stále dosť kyslá na to, aby nebola dezertom. Jahodový likér zvýrazní chuť čerstvého ovocia.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Jahodový likér",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 60,
+      "jednotka": "g",
+      "poznamka": "asi 4 kusy"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Jahody",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "1 jahoda na okraj pohára"
+    }
+  ],
+  "postup": [
+    "Jahody rozdrv v šejkri na kašu.",
+    "Pridaj rum, likér, limetkovú šťavu, sirup a ľad a poriadne pretras.",
+    "Dvojito preceď do vychladeného koktailového pohára a ozdob jahodou."
+  ],
+  "tipy": "Ak sú jahody mimo sezóny, použi mrazené — dodajú chuť aj chlad a ľadu stačí menej.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

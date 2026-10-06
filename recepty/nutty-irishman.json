@@ -1,0 +1,45 @@
+{
+  "id": "nutty-irishman",
+  "nazov": "Nutty Irishman",
+  "kategoria": "Kokteil",
+  "kuchyna": "Írska",
+  "zdroj": "TheCocktailDB – Nutty Irishman",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/13861",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Smotanový drink z írskeho likéru a lieskovoorieškového likéru s mliekom. Chutí ako orieškové latte bez kávy.",
+  "ingrediencie": [
+    {
+      "nazov": "Írsky smotanový likér",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Lieskovoorieškový likér",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "napr. Frangelico"
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Nalej oba likéry a mlieko.",
+    "Premiešaj."
+  ],
+  "tipy": "Do horúcej kávy namiesto mlieka z neho urobíš zimnú verziu — ľad potom vynechaj.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér"
+  ]
+}

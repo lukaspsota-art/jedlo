@@ -1,0 +1,58 @@
+{
+  "id": "paloma",
+  "nazov": "Paloma",
+  "kategoria": "Kokteil",
+  "kuchyna": "Mexická",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/paloma/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Najobľúbenejší tequilový drink v Mexiku: tequila s grapefruitovou limonádou, kvapkou limetky a štipkou soli.",
+  "ingrediencie": [
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": "100 % agáve"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "štipka"
+    },
+    {
+      "nazov": "Grapefruitová limonáda",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": "ružová, doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do vysokého pohára nalej tequilu a vytlač limetkovú šťavu.",
+    "Pridaj ľad a štipku soli, dolej grapefruitovou limonádou.",
+    "Jemne premiešaj a ozdob plátkom limetky."
+  ],
+  "tipy": "Štipka soli nie je preklep — zvýrazní horkosť grapefruitu a drink pôsobí sviežejšie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "tequila",
+    "IBA"
+  ]
+}

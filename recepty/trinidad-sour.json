@@ -1,0 +1,49 @@
+{
+  "id": "trinidad-sour",
+  "nazov": "Trinidad Sour",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/trinidad-sour/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Odvážny sour, v ktorom je angostura hlavnou surovinou — korenistý, horký a pritom prekvapivo vyvážený mandľovým orgeatom.",
+  "ingrediencie": [
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Orgeat",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ražná whisky",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra s ľadom.",
+    "Ostro pretrep a preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "Fľaška angostury (200 ml) vystačí len na štyri drinky — pred hosťami si skontroluj zásobu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "bitter",
+    "IBA"
+  ]
+}

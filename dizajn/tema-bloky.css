@@ -400,8 +400,13 @@
   .card .thumb.t5,.dnes .thumb.t5{background:color-mix(in srgb,var(--blok-c) 20%,var(--tint))}
   .card .thumb.ma-foto::after{content:"";position:absolute;inset:auto 0 0 0;height:34%;z-index:2;
     background:linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.18));pointer-events:none}
-  .detail-foto img{border-radius:var(--r-mala);background:var(--tint)}
-  .foto-kredit{color:var(--text2)}
+  /* v32: rozmer fotky v detaile zmizol vo vlne 4 spolu so starým blokom fotiek — obrázok
+     sa kreslil v surovej veľkosti s 40 px okrajmi <figure> z prehliadača. Pevný 16:9 =
+     žiadny posun rozloženia pri načítaní. */
+  .detail-foto{margin:0 0 14px}
+  .detail-foto img{display:block;width:100%;max-width:480px;aspect-ratio:16/9;object-fit:cover;
+    border-radius:var(--r-mala);background:var(--tint)}
+  .foto-kredit{color:var(--text2);font-size:11.5px;margin:5px 0 0;line-height:1.45}
   .foto-kredit a{color:var(--text2)}
 
   /* ── REŽIM OBCHOD ──────────────────────────────────────────────────
@@ -653,6 +658,24 @@
      len o pár stoviek px namiesto tisícok — WCAG 1.3.2 platí v každom viewporte.
      Cena je, že „Mám doma" je aj na počítači pod zoznamom. Telefón je hlavné
      zariadenie a na počítači je skrolovanie lacné. */
+  /* v32: na telefóne je detail receptu aj výber jedla PANEL ZDOLA. Hore ostáva 48 px
+     stlmeného plánu — ťuk naň zatvára (handler na .overlay), ďalej ✕ a gesto späť.
+     Skroluje panel, nie prekrytie, takže lišta akcií sa lepí na spodok panela.
+     `screen`: A4 (794 px) spadá pod mobilnú MQ a tlač detailu nesmie dostať max-height.
+     max-height delí --skala, lebo .modal má zoom — v Kuchyni (1,5×) by panel pretiekol.
+     Animuje sa `translate` len 220 ms a bez fill-mode: trvalý transform by z panela urobil
+     containing block pre position:fixed menu #m-det a to by sa usadilo do panela.
+     Dialóg (#dlg-overlay) ostáva v strede. */
+  @media screen and (max-width:820px){
+    #overlay,#pick-overlay{align-items:flex-end;padding:48px 0 0;overflow:hidden}
+    #modal,#pick-modal{max-height:calc((100dvh - 48px) / var(--skala));overflow-y:auto;overscroll-behavior:contain;
+      border-radius:calc(var(--r) + 4px) calc(var(--r) + 4px) 0 0;animation:sheet-hore .22s cubic-bezier(.2,.8,.2,1)}
+    #modal .content2,#pick-modal .content2{border-radius:0}
+    /* výber kreslí zoznamy s inline max-height:60vh (ukazReceptyKat, načítanie jedálnička) —
+       v paneli by to bol scroll v scrolle; inline štýl prebije len !important */
+    #pick-modal .content2{max-height:none!important;overflow:visible!important}
+  }
+  @keyframes sheet-hore{from{translate:0 100%}}
   /* ── OVLÁDANIE A PRÍSTUPNOSŤ (audit 30. 9.) ───────────────────────────
      Ciele, ktoré stáli na pevných 44 CSS px, zoom Kompaktu (0,82) stiahol na 36 fyzických.
      Všetko vnútri .content/.modal preto stojí na max(44px, var(--cil-in)). */

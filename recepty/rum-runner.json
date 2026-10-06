@@ -1,0 +1,60 @@
+{
+  "id": "rum-runner",
+  "nazov": "Rum Runner",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Rum Runner",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/16250",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ovocný long drink z Floridy s kokosovým rumom a ostružinovým likérom. Tri džúsy z neho robia ľahko pitný letný drink.",
+  "ingrediencie": [
+    {
+      "nazov": "Kokosový rum",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Černicový likér",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Brusnicový džús",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom.",
+    "Nalej rum, likér a všetky tri džúsy.",
+    "Premiešaj barovou lyžičkou a ozdob plátkom pomaranča."
+  ],
+  "tipy": "Brusnicový džús nalej ako posledný a nemiešaj veľa — drink tak dostane pekný farebný prechod.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

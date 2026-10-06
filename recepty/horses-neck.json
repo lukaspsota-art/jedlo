@@ -1,0 +1,53 @@
+{
+  "id": "horses-neck",
+  "nazov": "Horse's Neck",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/horses-neck/",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Osviežujúci long drink z koňaku a zázvorovej limonády, ozdobený dlhou špirálou citrónovej kôry cez celý pohár.",
+  "ingrediencie": [
+    {
+      "nazov": "Koňak",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zázvorová limonáda",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "ginger ale"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky, nepovinné"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôra z celého citróna v jednej špirále"
+    }
+  ],
+  "postup": [
+    "Z citróna okrúhaj kôru v jednom dlhom páse a vlož ju do vysokého pohára tak, aby visela cez okraj.",
+    "Pohár naplň ľadom, nalej koňak a dolej zázvorovou limonádou.",
+    "Zľahka premiešaj; ak chceš, pridaj pár kvapiek angostury."
+  ],
+  "tipy": "Ginger ale je jemná zázvorová limonáda, nie ostré zázvorové pivo — so zázvorovým pivom by drink bol oveľa pálivejší.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "brandy",
+    "IBA"
+  ]
+}

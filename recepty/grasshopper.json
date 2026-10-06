@@ -1,0 +1,53 @@
+{
+  "id": "grasshopper",
+  "nazov": "Grasshopper",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/grasshopper/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krémový dezertný drink zelenej farby z mätového a kakaového likéru so smotanou. Chutí ako mätová čokoládka.",
+  "ingrediencie": [
+    {
+      "nazov": "Mätový likér",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": "zelený (crème de menthe)"
+    },
+    {
+      "nazov": "Kakaový likér",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": "biely (crème de cacao)"
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "lístok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra s ľadom.",
+    "Krátko a prudko pretras a sceď do vychladeného kokteilového pohára.",
+    "Ak chceš, ozdob lístkom mäty."
+  ],
+  "tipy": "Kakaový likér musí byť biely (priehľadný), inak drink stratí svoju zelenú farbu a zhnedne.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér",
+    "IBA"
+  ]
+}

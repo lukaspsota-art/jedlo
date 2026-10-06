@@ -1,0 +1,66 @@
+{
+  "id": "smashed-watermelon-margarita",
+  "nazov": "Smashed Watermelon Margarita",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Smashed Watermelon Margarita",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178332",
+  "porcie": 1,
+  "cas": "10 min",
+  "popis": "Letná margarita z rozdrveného melóna, mäty a grapefruitu. Ľahká, osviežujúca a menej sladká, než by sa zdalo.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodný melón",
+      "mnozstvo": 100,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 5,
+      "jednotka": "lístok"
+    },
+    {
+      "nazov": "Grapefruitový džús",
+      "mnozstvo": 80,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Vodný melón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "trojuholník na ozdobu"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "vetvička na ozdobu"
+    }
+  ],
+  "postup": [
+    "Melón s mätou rozdrv v pohári alebo šejkri na kašu a preceď.",
+    "Pridaj grapefruitový džús, limetkovú šťavu, tequilu a ľad a pretras.",
+    "Nalej do vysokého pohára s ľadom a ozdob melónom a mätou."
+  ],
+  "tipy": "Melón vyber čo najzrelší a dobre vychladený — určuje celú chuť drinku.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "tequila"
+  ]
+}

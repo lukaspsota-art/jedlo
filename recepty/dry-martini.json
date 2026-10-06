@@ -1,0 +1,52 @@
+{
+  "id": "dry-martini",
+  "nazov": "Dry Martini",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/dry-martini/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Najslávnejší kokteil sveta: ľadovo studený gin s trochou suchého vermútu. Suchý, čistý a aromatický.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Suchý vermút",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    },
+    {
+      "nazov": "Zelené olivy",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "nepovinne namiesto kôrky"
+    }
+  ],
+  "postup": [
+    "Do miešacieho pohára s ľadom nalej gin a suchý vermút a miešaj asi pol minúty.",
+    "Preceď do vychladeného martini pohára.",
+    "Nad hladinou vytlač olej z citrónovej kôrky, prípadne vlož zelenú olivu."
+  ],
+  "tipy": "Pohár aj gin daj vopred do mrazničky – martini sa pije studené a v ruke sa rýchlo ohrieva.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

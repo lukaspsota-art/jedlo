@@ -1,0 +1,67 @@
+{
+  "id": "rum-punch",
+  "nazov": "Rum Punch",
+  "kategoria": "Kokteil",
+  "kuchyna": "Karibská",
+  "zdroj": "TheCocktailDB – Rum Punch",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/14978",
+  "porcie": 8,
+  "cas": "10 min",
+  "popis": "Párty punč do misy: rum, zázvorová limonáda a ovocné šťavy. Robí sa naraz pre celú partiu a pije sa vychladený.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 350,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zázvorová limonáda",
+      "mnozstvo": 1000,
+      "jednotka": "ml",
+      "poznamka": "doliať tesne pred podávaním"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 350,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 350,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "drvený"
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátky na ozdobu"
+    }
+  ],
+  "postup": [
+    "V mise zmiešaj rum, pomarančovú šťavu, ananásový džús, limetkovú šťavu a grenadínu.",
+    "Tesne pred podávaním dolej vychladenú zázvorovú limonádu a jemne premiešaj.",
+    "Pridaj drvený ľad a plátky pomaranča, nalievaj naberačkou do pohárov."
+  ],
+  "tipy": "Limonádu nalievaj až na konci, inak punč do príchodu hostí vyprchá.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

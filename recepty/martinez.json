@@ -1,0 +1,58 @@
+{
+  "id": "martinez",
+  "nazov": "Martinez",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/martinez/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Predchodca martini z 19. storočia: gin a sladký vermút napoly, s trochou maraschina a pomarančového bitteru. Sladší a plnší než dnešné suché martini.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "London Dry"
+    },
+    {
+      "nazov": "Sladký vermút",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Maraschino",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "1 barová lyžička"
+    },
+    {
+      "nazov": "Pomarančový bitter",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do miešacieho pohára s ľadom nalej všetky suroviny a dobre premiešaj.",
+    "Preceď do vychladeného kokteilového pohára a ozdob citrónovou kôrkou."
+  ],
+  "tipy": "Otvorený vermút skladuj v chladničke a minúť ho do mesiaca – oxiduje ako víno a drink potom chutí zatuchnuto.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

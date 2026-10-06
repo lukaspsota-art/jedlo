@@ -1,0 +1,44 @@
+{
+  "id": "white-lady",
+  "nazov": "White Lady",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/white-lady/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Londýnsky ginový sour s pomarančovým likérom – svetlý, suchý a citrusový, ginová obdoba Sidecaru.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do šejkra a poriadne pretrep s ľadom.",
+    "Preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "Pohár dobre vychlaď – drink sa podáva bez ľadu aj bez ozdoby, takže teplota je všetko.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

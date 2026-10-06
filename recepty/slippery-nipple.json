@@ -1,0 +1,33 @@
+{
+  "id": "slippery-nipple",
+  "nazov": "Slippery Nipple",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Slippery Nipple",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178306",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Dvojvrstvový shot z anízovej sambuky a írskeho smotanového likéru. Číra spodná vrstva a krémová navrchu.",
+  "ingrediencie": [
+    {
+      "nazov": "Sambuca",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Írsky smotanový likér",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    }
+  ],
+  "postup": [
+    "Do pohárika nalej sambuku.",
+    "Cez chrbát lyžičky pomaly navrstvi smotanový likér tak, aby sa vrstvy nepremiešali."
+  ],
+  "tipy": "Hrot lyžičky opri o stenu pohárika tesne nad hladinou — likér potom steká a neprerazí spodnú vrstvu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér"
+  ]
+}

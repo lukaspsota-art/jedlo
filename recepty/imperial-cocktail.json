@@ -1,0 +1,45 @@
+{
+  "id": "imperial-cocktail",
+  "nazov": "Imperial Cocktail",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Imperial Cocktail",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12706",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krátky oranžový drink z Aperolu, ginu a limetky. Horkosladký ako spritz, len bez bubliniek a s väčšou silou.",
+  "ingrediencie": [
+    {
+      "nazov": "Aperol",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Gin",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do šejkra s ľadom.",
+    "Pretrep do vychladenia.",
+    "Preceď do koktailového pohára."
+  ],
+  "tipy": "Ak ti je kyslý, pridaj 5 ml cukrového sirupu — limetky bývajú rôzne šťavnaté.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "likér"
+  ]
+}

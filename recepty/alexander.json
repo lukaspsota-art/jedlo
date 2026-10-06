@@ -1,0 +1,52 @@
+{
+  "id": "alexander",
+  "nazov": "Alexander",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/alexander/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krémový dezertný drink z koňaku a kakaového likéru so smotanou. Chutí ako tekutá čokoládová pralinka s orieškovou vôňou muškátu.",
+  "ingrediencie": [
+    {
+      "nazov": "Koňak",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kakaový likér",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "tmavý (crème de cacao)"
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Muškátový oriešok",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "čerstvo nastrúhaný na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do šejkra plného ľadu nalej koňak, kakaový likér a smotanu.",
+    "Poriadne pretrep, aby sa smotana spenila a drink dobre vychladol.",
+    "Preceď do vychladeného kokteilového pohára a navrch nastrúhaj trochu muškátového orieška."
+  ],
+  "tipy": "Muškát strúhaj čerstvý tesne pred podávaním – mletý z vrecúška takmer nevonia a sadne na hladinu ako prach.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "brandy",
+    "IBA"
+  ]
+}

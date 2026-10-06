@@ -1,0 +1,62 @@
+{
+  "id": "corpse-reviver-2",
+  "nazov": "Corpse Reviver #2",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/corpse-reviver-2/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Rovnomerný kyslý drink z ginu, pomarančového likéru, Lilletu a citróna s kvapkou absintu. Suchý, citrusový a voňavý.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Lillet Blanc",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Absint",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "1 kvapka"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra s ľadom.",
+    "Dôkladne pretras a sceď do vychladeného kokteilového pohára.",
+    "Ozdob pomarančovou kôrkou."
+  ],
+  "tipy": "Absintu naozaj len kvapku — alebo ním iba vypláchni pohár. Viac anízu prebije všetko ostatné.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

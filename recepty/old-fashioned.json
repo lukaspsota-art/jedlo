@@ -1,0 +1,67 @@
+{
+  "id": "old-fashioned",
+  "nazov": "Old Fashioned",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/old-fashioned/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Najstarší typ kokteilu: whisky, cukor, bitter a kvapka vody. Jednoduchý, silný a hrejivý drink, v ktorom vynikne dobrý bourbon.",
+  "ingrediencie": [
+    {
+      "nazov": "Bourbon",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "alebo ražná whisky"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": "1 kocka"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "niekoľko kvapiek"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "pár kvapiek"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "koliesko alebo kôrka na ozdobu"
+    },
+    {
+      "nazov": "Koktejlová višňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Kocku cukru vlož do nízkeho pohára, nakvapkaj na ňu angosturu a pár kvapiek vody.",
+    "Roztlač ju a miešaj, kým sa cukor nerozpustí.",
+    "Pohár naplň ľadom, nalej whisky a jemne premiešaj.",
+    "Ozdob pomarančom a koktejlovou višňou."
+  ],
+  "tipy": "Kocku cukru môžeš nahradiť 5 ml cukrového sirupu – rozmieša sa hneď a netreba nič drviť.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky",
+    "IBA"
+  ]
+}

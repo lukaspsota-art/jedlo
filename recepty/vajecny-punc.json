@@ -1,0 +1,62 @@
+{
+  "id": "vajecny-punc",
+  "nazov": "Vaječný punč (eggnog)",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Egg-Nog - Classic Cooked",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12914",
+  "porcie": 6,
+  "cas": "20 min + 4 h",
+  "popis": "Hustý vianočný nápoj z vajec, mlieka a vanilky, uvarený do krémova a dochutený rumom. Pije sa vychladený s muškátovým orieškom.",
+  "ingrediencie": [
+    {
+      "nazov": "Vajce",
+      "mnozstvo": 6,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 50,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "štipka"
+    },
+    {
+      "nazov": "Mlieko",
+      "mnozstvo": 1000,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vanilkový extrakt",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "alebo brandy; bez neho je nápoj nealkoholický"
+    },
+    {
+      "nazov": "Muškátový oriešok",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na posypanie"
+    }
+  ],
+  "postup": [
+    "V hrnci vyšľahaj vajcia s cukrom a soľou a vmiešaj polovicu mlieka.",
+    "Na miernom ohni za stáleho miešania var, kým zmes nepokryje lyžicu (asi 70 °C).",
+    "Odstav, vmiešaj zvyšné mlieko a vanilku a nechaj aspoň 4 hodiny vychladnúť.",
+    "Pred podávaním primiešaj rum a posyp muškátovým orieškom."
+  ],
+  "tipy": "Zmes nesmie zovrieť, inak sa vajcia zrazia — ak sa to stane, hneď ju prepasíruj cez sitko.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

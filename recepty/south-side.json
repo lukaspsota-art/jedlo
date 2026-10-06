@@ -1,0 +1,62 @@
+{
+  "id": "south-side",
+  "nazov": "South Side",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/south-side/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Mätový ginový sour, ktorý sa vraj pil v chicagských gangoch — svieži ako mojito, len elegantnejší.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 6,
+      "jednotka": "lístok"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "pár kvapiek, voliteľné"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "vetvička na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra s ľadom.",
+    "Dobre pretrep — s bielkom dlhšie a ostrejšie.",
+    "Preceď cez jemné sitko do vychladeného kokteilového pohára a ozdob mätou."
+  ],
+  "tipy": "Pred ozdobou mätovú vetvičku tľapni v dlani, uvoľní vôňu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

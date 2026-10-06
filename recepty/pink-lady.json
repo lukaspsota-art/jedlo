@@ -1,0 +1,54 @@
+{
+  "id": "pink-lady",
+  "nazov": "Pink Lady",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Pink Lady",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11938",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ružový penivý drink z ginu, kalvadosu a grenadíny s hodvábnou penou z bielka. Jemne ovocný, nie presladený.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kalvados",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny pretrep najprv bez ľadu asi 15 sekúnd, aby sa bielok napenil.",
+    "Pridaj ľad a pretrep ešte raz naplno.",
+    "Preceď cez sitko do vychladeného koktailového pohára."
+  ],
+  "tipy": "Kalvados môžeš nahradiť jablkovicou alebo vynechať a pridať 5 ml grenadíny navyše — tak vyzerala staršia verzia.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

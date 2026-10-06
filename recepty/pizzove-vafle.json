@@ -1,0 +1,80 @@
+{
+ "id": "pizzove-vafle",
+ "nazov": "Pizzové vafle",
+ "kategoria": "Raňajky",
+ "kuchyna": "Talianska",
+ "zdroj": "Kaufland FOOD magazín – 5/2026",
+ "porcie": 2,
+ "cas": "15 min",
+ "kcal_na_porciu": 305,
+ "kcal_zdroj": "vypocet",
+ "popis": "Slané vafle zo syrového cesta s paradajkovou omáčkou a oreganom, ktoré chutia ako pizza.",
+ "ingrediencie": [
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Passata",
+   "mnozstvo": 40,
+   "jednotka": "ml",
+   "poznamka": "hustá paradajková omáčka"
+  },
+  {
+   "nazov": "Strúhaný syr",
+   "mnozstvo": 85,
+   "jednotka": "g",
+   "poznamka": "eidam, gouda"
+  },
+  {
+   "nazov": "Vajce",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Sušené oregano",
+   "mnozstvo": 1,
+   "jednotka": "g",
+   "poznamka": "1 ČL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "",
+   "poznamka": "štipka"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 5,
+   "jednotka": "ml",
+   "poznamka": "na potretie"
+  }
+ ],
+ "postup": [
+  "Zmiešaj múku, prášok do pečiva, oregano a soľ. V druhej miske rozšľahaj vajce s mliekom a paradajkovou omáčkou.",
+  "Mokré suroviny vlej k suchým a premiešaj na hladké cesto, nakoniec vmiešaj syr.",
+  "Vafľovač potri olivovým olejom, nalej cesto a peč asi 5 min dozlatista."
+ ],
+ "tipy": "Z cesta sú 4 vafle, porcia = 2 vafle.",
+ "foto": "",
+ "tagy": [
+  "vegetariánske",
+  "vafle",
+  "syr"
+ ]
+}

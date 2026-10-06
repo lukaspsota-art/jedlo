@@ -1,0 +1,39 @@
+{
+  "id": "wine-cooler",
+  "nazov": "Wine Cooler",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Wine Cooler",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/13056",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Víno zriedené sýtenou citrónovo-limetkovou limonádou na ľade. Ľahký letný nápoj s nízkym obsahom alkoholu.",
+  "ingrediencie": [
+    {
+      "nazov": "Biele víno",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": "alebo červené"
+    },
+    {
+      "nazov": "Sprite",
+      "mnozstvo": 150,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Nalej víno a dolej limonádou, krátko premiešaj."
+  ],
+  "tipy": "Ak chceš menej sladký nápoj, nahraď limonádu sódou — vznikne klasický strek.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "víno"
+  ]
+}

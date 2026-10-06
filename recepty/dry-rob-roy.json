@@ -1,0 +1,45 @@
+{
+  "id": "dry-rob-roy",
+  "nazov": "Dry Rob Roy",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Dry Rob Roy",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11324",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Suchá verzia rob roya — škótskeho manhattanu — so suchým namiesto sladkého vermútu. Na chuti vynikne samotná whisky.",
+  "ingrediencie": [
+    {
+      "nazov": "Škótska whisky",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Suchý vermút",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Whisky a vermút miešaj v pohári s ľadom asi 30 sekúnd.",
+    "Preceď do vychladeného koktailového pohára.",
+    "Ozdob citrónovou kôrkou."
+  ],
+  "tipy": "Vermút je víno — po otvorení ho skladuj v chladničke, inak za pár týždňov zvetrá.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky"
+  ]
+}

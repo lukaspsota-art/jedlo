@@ -1,0 +1,47 @@
+{
+  "id": "tennessee-mud",
+  "nazov": "Tennessee Mud",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Tennesee Mud",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/15515",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Horúca káva s whisky a amarettom, navrch so šľahačkou. Zahrievací dezertný drink na zimné popoludnie.",
+  "ingrediencie": [
+    {
+      "nazov": "Káva",
+      "mnozstvo": 150,
+      "jednotka": "ml",
+      "poznamka": "horúca, prekvapkávaná"
+    },
+    {
+      "nazov": "Whisky",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "tennesseeská"
+    },
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "vyšľahaná"
+    }
+  ],
+  "postup": [
+    "Do vyhriatej šálky nalej whisky a amaretto.",
+    "Dolej horúcou kávou a premiešaj.",
+    "Navrch polož ľahko vyšľahanú smotanu."
+  ],
+  "tipy": "Smotanu vyšľahaj len do polotuha — takto sa udrží na hladine a nepotopí sa.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky"
+  ]
+}

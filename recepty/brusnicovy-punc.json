@@ -1,0 +1,55 @@
+{
+  "id": "brusnicovy-punc",
+  "nazov": "Brusnicový punč",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Cranberry Punch",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12890",
+  "porcie": 16,
+  "cas": "10 min + 1 h",
+  "popis": "Veľký nealkoholický punč z brusnicového a ananásového džúsu so zázvorovou limonádou a mandľovou arómou. Na oslavy s deťmi.",
+  "ingrediencie": [
+    {
+      "nazov": "Brusnicový džús",
+      "mnozstvo": 1000,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 1000,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 150,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Mandľová aróma",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Zázvorová limonáda",
+      "mnozstvo": 2000,
+      "jednotka": "ml",
+      "poznamka": "doliať pred podávaním"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "V mise rozmiešaj džúsy s cukrom a arómou, kým sa cukor nerozpustí.",
+    "Nechaj aspoň hodinu vychladiť.",
+    "Tesne pred podávaním dolej limonádou a pridaj ľad."
+  ],
+  "tipy": "Namiesto kociek zmraz ľad v bábovkovej forme — veľký kruh sa topí pomaly a punč nerozriedi.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "nealko"
+  ]
+}

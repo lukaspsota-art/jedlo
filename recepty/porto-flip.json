@@ -1,0 +1,53 @@
+{
+  "id": "porto-flip",
+  "nazov": "Porto Flip",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/porto-flip/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Hodvábny dezertný drink z portského vína, trochy brandy a vaječného žĺtka. Krémový, orieškový a jemne sladký, s vôňou muškátu.",
+  "ingrediencie": [
+    {
+      "nazov": "Brandy",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Portské víno",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "červené tawny"
+    },
+    {
+      "nazov": "Vaječný žĺtok",
+      "mnozstvo": 10,
+      "jednotka": "ml",
+      "poznamka": "asi polovica žĺtka"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Muškátový oriešok",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "čerstvo nastrúhaný na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do šejkra s ľadom nalej brandy, portské víno a žĺtok.",
+    "Pretrep naozaj dôkladne, aby sa žĺtok úplne spojil.",
+    "Preceď do vychladeného kokteilového pohára a posyp nastrúhaným muškátom."
+  ],
+  "tipy": "Použi čerstvé vajce a trep dlho – nedostatočne rozbitý žĺtok ostane v pohári v hrudkách.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "brandy",
+    "IBA"
+  ]
+}

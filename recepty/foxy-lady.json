@@ -1,0 +1,45 @@
+{
+  "id": "foxy-lady",
+  "nazov": "Foxy Lady",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Foxy Lady",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11375",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Dezertný smotanový drink z amaretta a kakaového likéru. Pripomína mandľovo-čokoládový puding.",
+  "ingrediencie": [
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kakaový likér",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": "tmavý"
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do šejkra s ľadom.",
+    "Poriadne pretrep.",
+    "Preceď do vychladeného koktailového pohára."
+  ],
+  "tipy": "Okraj pohára môžeš namočiť do rozpustenej čokolády a nechať stuhnúť v chladničke.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér"
+  ]
+}

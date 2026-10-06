@@ -1,0 +1,61 @@
+{
+  "id": "espresso-rumtini",
+  "nazov": "Espresso Rumtini",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Espresso Rumtini",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178309",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Rumový brat espresso martini: tmavý rum, čerstvé espresso, kávový likér a vanilka. Na povrchu má hustú kávovú penu.",
+  "ingrediencie": [
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Espresso",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kávový likér",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vanilkový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Kávové zrná",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "3 zrnká na ozdobu"
+    },
+    {
+      "nazov": "Kakao",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na poprášenie"
+    }
+  ],
+  "postup": [
+    "Uvar espresso a nechaj ho chvíľu vychladnúť.",
+    "Všetko daj do šejkra s ľadom a pretras veľmi prudko, aby vznikla pena.",
+    "Preceď do vychladeného koktailového pohára, popráš kakaom a polož tri kávové zrná."
+  ],
+  "tipy": "Šejker pretras aspoň 15 sekúnd — pena vznikne len z dobre vychladeného espressa.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

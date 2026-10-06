@@ -1,0 +1,33 @@
+{
+  "id": "whisky-mac",
+  "nazov": "Whisky Mac",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "TheCocktailDB – Whisky Mac",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12518",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Škótsky zahrievací drink zo škótskej whisky a zázvorového vína. Bez ľadu, sladký a pálivý zároveň.",
+  "ingrediencie": [
+    {
+      "nazov": "Škótska whisky",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zázvorové víno",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    }
+  ],
+  "postup": [
+    "Do pohára nalej whisky.",
+    "Pridaj zázvorové víno a krátko premiešaj."
+  ],
+  "tipy": "Pije sa izbovej teploty; kto chce chladný, pridá jednu veľkú kocku ľadu, nie viac.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky"
+  ]
+}

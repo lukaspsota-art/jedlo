@@ -1,0 +1,44 @@
+{
+  "id": "sidecar",
+  "nazov": "Sidecar",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/sidecar/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Parížska klasika spred sto rokov: koňak s pomarančovým likérom a citrónom. Suchý, ovocný a elegantný.",
+  "ingrediencie": [
+    {
+      "nazov": "Koňak",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do šejkra a poriadne pretrep s ľadom.",
+    "Preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "Siahni po koňaku VS alebo VSOP – v takom jednoduchom drinku lacná brandy nič neskryje.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "brandy",
+    "IBA"
+  ]
+}

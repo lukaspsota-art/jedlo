@@ -1,0 +1,56 @@
+{
+  "id": "pina-colada",
+  "nazov": "Piña Colada",
+  "kategoria": "Kokteil",
+  "kuchyna": "Portorická",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/pina-colada/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krémový tropický drink z bieleho rumu, kokosového krému a ananásu, mixovaný s ľadom. Sladký a hustý.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kokosový krém",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Rum, kokosový krém, ananásový džús a hrsť ľadu rozmixuj v mixéri dohladka.",
+    "Vylej do veľkého pohára a podávaj so slamkou, ozdobené ananásom a čerešňou."
+  ],
+  "tipy": "Kokosový krém je sladený a hustý, nie kokosové mlieko z plechovky. Džús môžeš nahradiť štyrmi plátkami čerstvého ananásu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

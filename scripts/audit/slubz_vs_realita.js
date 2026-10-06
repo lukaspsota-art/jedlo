@@ -12,7 +12,7 @@ const F=[
  ["5. Plánovač týždňa", ()=>/function renderPlan/.test(APP)],
  ["6. Nákupný zoznam z plánu", ()=>/function nakupPolozky/.test(APP)],
  ["7. Nákup podľa oddelení", ()=>/PORADIE_ODDELENI/.test(APP)],
- ["8. „Čo mám doma\"", ()=>/function renderDoma/.test(APP)&&/id="doma-in"/.test(SAB)],
+ ["8. „Čo mám doma\"", ()=>/function coUvarim/.test(APP)&&/otvorCoUvarim\(/.test(SAB)],
  ["9. Makrá zo surovín", ()=>/function _vyzivaVypocet/.test(APP)],
  ["10. Denný cieľ + upozornenie", ()=>/stavCiel/.test(APP)&&/over\?'\s*⚠|⚠/.test(APP)],
  ["11. Alergény a diétne značky", ()=>/function alergenyReceptu/.test(APP)&&/function diety/.test(APP)],

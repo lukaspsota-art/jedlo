@@ -1,0 +1,51 @@
+{
+  "id": "limetkova-limonada",
+  "nazov": "Limetková limonáda",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Limeade",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12704",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Domáca limonáda z čerstvej limetky, cukru a sódy. Kyslá, osviežujúca a hotová za chvíľu.",
+  "ingrediencie": [
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "z 1 limetky"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 200,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "vyžmýkané polovice do pohára"
+    }
+  ],
+  "postup": [
+    "V pohári rozmiešaj limetkovú šťavu s cukrom.",
+    "Pridaj ľad a dolej vychladenou sódou.",
+    "Vyžmýkané polovice limetky hoď do pohára."
+  ],
+  "tipy": "Cukor sa v studenej šťave rozpúšťa pomaly — miešaj, kým nezmizne, až potom dolievaj sódu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "nealko"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "french-negroni",
+  "nazov": "French Negroni",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "TheCocktailDB – French Negroni",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17248",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Mäkšia obdoba negroni, v ktorej Campari nahrádza francúzsky aperitív Lillet Blanc. Menej horký, viac ovocný a kvetinový.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Lillet Blanc",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sladký vermút",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do miešacieho pohára s ľadom.",
+    "Miešaj barovou lyžičkou asi 30 sekúnd.",
+    "Preceď do nízkeho pohára s ľadom a ozdob pomarančovou kôrkou."
+  ],
+  "tipy": "Negroni sa nikdy netrepe — miešaný zostane číry a hodvábny.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

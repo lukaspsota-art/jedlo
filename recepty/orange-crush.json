@@ -1,0 +1,51 @@
+{
+  "id": "orange-crush",
+  "nazov": "Orange Crush",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Orange Crush",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/15330",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Pobrežný letný drink z čerstvo vytlačeného pomaranča, vodky a pomarančového likéru, dokončený bublinkami. Šťavnatý a voňavý.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": "čerstvo vytlačená"
+    },
+    {
+      "nazov": "Sprite",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Vytlač pomaranč priamo do pohára naplneného ľadom.",
+    "Pridaj vodku a Triple sec a premiešaj.",
+    "Dolej Sprite."
+  ],
+  "tipy": "Pomaranč stláčaj až pri podávaní — práve čerstvá šťava je celá podstata tohto drinku.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

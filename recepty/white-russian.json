@@ -1,0 +1,44 @@
+{
+  "id": "white-russian",
+  "nazov": "White Russian",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – White Russian",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12528",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Krémový dezertný drink z vodky, kávového likéru a smotany. Chutí ako ľadová káva so šľahačkou, len s poriadnym úderom.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kávový likér",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Nízky pohár naplň ľadom.",
+    "Nalej vodku a kávový likér a premiešaj.",
+    "Navrch opatrne prelej smotanu cez chrbát lyžičky, aby vytvorila vrstvu."
+  ],
+  "tipy": "Smotanu môžeš pred liatím krátko pretriasť v pohári s viečkom — trochu zhustne a lepšie drží na povrchu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

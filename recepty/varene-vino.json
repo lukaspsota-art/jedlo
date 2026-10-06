@@ -1,0 +1,60 @@
+{
+  "id": "varene-vino",
+  "nazov": "Varené víno",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Mulled Wine",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12988",
+  "porcie": 6,
+  "cas": "20 min",
+  "popis": "Horúce červené víno s korením, citrónovou kôrou a štipkou brandy. Vôňa vianočných trhov doma.",
+  "ingrediencie": [
+    {
+      "nazov": "Červené víno",
+      "mnozstvo": 750,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 250,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 120,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Klinčeky",
+      "mnozstvo": 8,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 2,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "len kôra"
+    },
+    {
+      "nazov": "Brandy",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    }
+  ],
+  "postup": [
+    "Vodu s cukrom, klinčekmi, škoricou a citrónovou kôrou pomaly var 10 minút.",
+    "Prilej víno a zohrej ho, kým nezačne pariť — nesmie zovrieť.",
+    "Odstav, primiešaj brandy a nalievaj do hrnčekov."
+  ],
+  "tipy": "Víno nikdy nenechaj zovrieť — alkohol sa vyparí a korenie zhorkne.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "víno"
+  ]
+}

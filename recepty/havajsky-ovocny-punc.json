@@ -1,0 +1,61 @@
+{
+  "id": "havajsky-ovocny-punc",
+  "nazov": "Havajský ovocný punč",
+  "kategoria": "Kokteil",
+  "kuchyna": "Havajská",
+  "zdroj": "TheCocktailDB – Aloha Fruit punch",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12862",
+  "porcie": 10,
+  "cas": "20 min + 1 h",
+  "popis": "Tropický punč z guavy, ananásu a zázvorového odvaru. Sladký, voňavý a výrazne ovocný.",
+  "ingrediencie": [
+    {
+      "nazov": "Voda",
+      "mnozstvo": 180,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": "nastrúhaný"
+    },
+    {
+      "nazov": "Guavový džús",
+      "mnozstvo": 500,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": 250,
+      "jednotka": "g",
+      "poznamka": "na kúsky"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 150,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 900,
+      "jednotka": "ml"
+    }
+  ],
+  "postup": [
+    "Zázvor povar v 60 ml vody 3 minúty a preceď.",
+    "Zo zvyšnej vody a cukru uvar sirup a nechaj vychladnúť.",
+    "Zmiešaj odvar, sirup, džúsy a kúsky ananásu a nechaj poriadne vychladiť."
+  ],
+  "tipy": "Ak guavový džús nezoženieš, nahraď ho mangovým — chuť bude iná, ale rovnako tropická.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "nealko"
+  ]
+}

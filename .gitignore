@@ -4,3 +4,11 @@ node_modules/
 sync-config.js
 kucharka.html
 docs/index.html
+
+# import receptov z webu: anglická predloha postupu a zoznamy URL sa necommitujú
+import_web/raw.jsonl
+import_web/urls_*.txt
+
+# EPUB kuchárky: anglický text a medzivýsledky fotiek (scripts/zber_epub.py)
+import_knihy/epub/*_raw.jsonl
+import_knihy/epub/fotky/

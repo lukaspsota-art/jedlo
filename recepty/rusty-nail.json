@@ -1,0 +1,45 @@
+{
+  "id": "rusty-nail",
+  "nazov": "Rusty Nail",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/rusty-nail/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Škótska whisky s medovo-bylinkovým likérom Drambuie. Jednoduchý, hrejivý drink po jedle s tónmi medu, vresu a dymu.",
+  "ingrediencie": [
+    {
+      "nazov": "Škótska whisky",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Drambuie",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Nízky pohár naplň ľadom a nalej doň whisky a Drambuie.",
+    "Jemne premiešaj a ozdob citrónovou kôrkou."
+  ],
+  "tipy": "Ak je ti drink príliš sladký, uber Drambuie na 15 ml – whisky viac vynikne.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky",
+    "IBA"
+  ]
+}

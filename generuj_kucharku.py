@@ -467,9 +467,11 @@ def foto_zdroje_pre_appku():
 
 def main():
     ap = argparse.ArgumentParser(description="Poskladá kucharka.html zo zdrojov.")
-    ap.add_argument("--fotky", choices=("inline", "subor", "ziadne"), default="inline",
-                    help="inline = fotky do HTML ako data: URI (jeden offline súbor, predvolené); "
-                         "subor = necháva recepty/fotky/ vedľa; ziadne = bez fotiek")
+    # v32: predvolené sú súbory — fotky pre ~2200 receptov by inline nafúkli HTML z 2,7 na ~40 MB.
+    # Service worker ich cachuje pri prvom zobrazení (cache-first), takže videné fotky sú offline.
+    ap.add_argument("--fotky", choices=("inline", "subor", "ziadne"), default="subor",
+                    help="subor = recepty/fotky/ vedľa HTML, do docs/ sa kopírujú (predvolené); "
+                         "inline = fotky do HTML ako data: URI (jeden offline súbor); ziadne = bez fotiek")
     ap.add_argument("--striktne", action="store_true",
                     help="varovanie o nereálnych množstvách zmení na pád buildu (do CI)")
     ap.add_argument("--data", choices=("zbalene", "json"), default="zbalene",
@@ -555,9 +557,20 @@ def main():
         shutil.copyfile(SYNC_CONFIG, os.path.join(DOCS, "sync-config.js"))
 
     if args.fotky == "subor" and os.path.isdir(FOTKY_DIR):
+        # Zrkadlo, nie rmtree + copytree: na OneDrive rmtree(ignore_errors) ticho nezmaže
+        # zamknuté súbory a copytree potom padne na „already exists". A prepisovať ~2200 fotiek
+        # pri každom builde by ich OneDrive zakaždým nahrával znova — kopíruje sa len nové/zmenené.
         ciel = os.path.join(DOCS, "recepty", "fotky")
-        shutil.rmtree(ciel, ignore_errors=True)
-        shutil.copytree(FOTKY_DIR, ciel)
+        os.makedirs(ciel, exist_ok=True)
+        zdroj = set(os.listdir(FOTKY_DIR))
+        for f in os.listdir(ciel):
+            if f not in zdroj:
+                os.remove(os.path.join(ciel, f))
+        for f in zdroj:
+            s, d = os.path.join(FOTKY_DIR, f), os.path.join(ciel, f)
+            if (not os.path.exists(d) or os.path.getsize(d) != os.path.getsize(s)
+                    or os.path.getmtime(d) < os.path.getmtime(s)):
+                shutil.copy2(s, d)
 
     velkost = os.path.getsize(VYSTUP)
     print(f"Hotovo: {VYSTUP}")

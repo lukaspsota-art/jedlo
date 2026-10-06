@@ -1,0 +1,56 @@
+{
+  "id": "bees-knees",
+  "nazov": "Bee's Knees",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/bees-knees/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Medovo-citrusová ginová klasika z čias prohibície: med zjemní ostrosť ginu a pomarančový džús dodá okrúhlu, slnečnú chuť.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 2,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "V šejkri rozmiešaj med s citrónovou a pomarančovou šťavou, kým sa nerozpustí.",
+    "Prilej gin, pridaj ľad a dôkladne pretrep.",
+    "Preceď do vychladeného kokteilového pohára a ozdob citrónovou kôrkou."
+  ],
+  "tipy": "Med rozmiešaj v šťavách ešte pred ľadom — v studenom by stuhol na dne šejkra.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

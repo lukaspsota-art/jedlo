@@ -1,0 +1,49 @@
+{
+  "id": "naked-and-famous",
+  "nazov": "Naked and Famous",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/naked-and-famous/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Moderná klasika v rovnakých dieloch: dymový mezcal, medový žltý Chartreuse a horkosladký Aperol vyvážené limetkou.",
+  "ingrediencie": [
+    {
+      "nazov": "Mezcal",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Žltý Chartreuse",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Aperol",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky štyri suroviny nalej do šejkra s ľadom.",
+    "Dôkladne pretrep a preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "Rovnaké diely sú celé tajomstvo — odmeriavaj presne, od oka sa drink ľahko preváži do sladka.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "mezcal",
+    "IBA"
+  ]
+}

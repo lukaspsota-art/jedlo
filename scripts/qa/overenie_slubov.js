@@ -95,10 +95,10 @@ function vysledok(c, stav, popis) { V.push({ c, stav, popis }); console.log(`${S
 
   // 8 — čo mám doma
   const doma = await p.evaluate(() => {
-    window.prepni("doma");
-    const el = document.getElementById("doma-in"); if (!el) return { chyba: "chýba pole" };
-    el.value = "kuracie prsia, ryža, paradajka"; window.renderDoma();
-    return { navrhy: document.querySelectorAll("#doma-out .match").length, text: (document.getElementById("doma-out").textContent || "").slice(0, 90) };
+    S.mamDoma = "kuracie prsia, ryža, paradajka"; window.otvorCoUvarim();
+    const out = document.getElementById("cu-out"); if (!out) return { chyba: "chýba okno" };
+    const r = { navrhy: out.querySelectorAll(".match").length, text: (out.textContent || "").slice(0, 90) };
+    window.zavriPick(); return r;
   });
   vysledok(8, doma.navrhy > 0 ? "FUNGUJE" : "CHYBA", "„Čo mám doma“ — " + JSON.stringify(doma));
 

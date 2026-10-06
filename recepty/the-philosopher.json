@@ -1,0 +1,57 @@
+{
+  "id": "the-philosopher",
+  "nazov": "The Philosopher",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – The Philosopher",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178330",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Svetlozelený šumivý drink z ginu a melónového likéru dokončený proseccom. Ovocný, s jemnou horkosťou pomarančového bitteru.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Melónový likér",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančový bitter",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Prosecco",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Gin, melónový likér, citrónovú šťavu a bitter pretrep s ľadom.",
+    "Preceď do širokého vychladeného pohára.",
+    "Dolej prosecco."
+  ],
+  "tipy": "Najlepšie sa hodí gin s uhorkovým tónom — s melónom si rozumie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "likér"
+  ]
+}

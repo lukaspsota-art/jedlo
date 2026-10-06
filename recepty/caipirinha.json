@@ -1,0 +1,46 @@
+{
+  "id": "caipirinha",
+  "nazov": "Caipirinha",
+  "kategoria": "Kokteil",
+  "kuchyna": "Brazílska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/caipirinha/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Brazílsky národný drink: rozdrvená limetka s cukrom zaliata cachaçou. Svieži, kyslastý a dosť silný.",
+  "ingrediencie": [
+    {
+      "nazov": "Cachaça",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "nakrájaná na mesiačiky"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 4,
+      "jednotka": "ČL",
+      "poznamka": "biely trstinový"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Mesiačiky limetky a cukor daj do širokého nízkeho pohára a jemne ich roztlač.",
+    "Pohár naplň drveným ľadom, prilej cachaçu a premiešaj, aby sa cukor rozpustil."
+  ],
+  "tipy": "Limetku tlač len zľahka — keď rozdrvíš aj bielu dužinu pod šupkou, drink zhorkne. S vodkou namiesto cachaçy vznikne Caipiroska.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "cachaça",
+    "IBA"
+  ]
+}

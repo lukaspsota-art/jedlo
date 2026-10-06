@@ -1,0 +1,50 @@
+{
+  "id": "gimlet",
+  "nazov": "Gimlet",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "TheCocktailDB – Gimlet",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17255",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krátky, ostro limetkový drink námorníkov britskej flotily. Gin a limetka v čistej podobe, s presne toľkým cukrom, aby kyselina nepichala.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kolieska na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky tekuté suroviny daj do šejkra s ľadom.",
+    "Dôkladne pretrep, kým šejker neorosí.",
+    "Preceď do vychladeného koktailového pohára a ozdob kolieskom limetky."
+  ],
+  "tipy": "Pohár si daj vopred na 10 minút do mrazničky — krátky drink bez ľadu sa inak rýchlo zohreje.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "monkey-gland",
+  "nazov": "Monkey Gland",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/monkey-gland/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ovocný ginový drink z Paríža 20. rokov – pomarančový džús a grenadína, nad ktorými sa vznáša anízová vôňa absintu.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "čerstvá"
+    },
+    {
+      "nazov": "Absint",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do šejkra a poriadne pretrep s ľadom.",
+    "Preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "Ak je ti lyžica absintu priveľa, len ním vypláchni pohár a zvyšok vylej – vôňa ostane, ale nebude prebíjať pomaranč.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

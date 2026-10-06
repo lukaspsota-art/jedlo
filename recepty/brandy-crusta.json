@@ -1,0 +1,75 @@
+{
+  "id": "brandy-crusta",
+  "nazov": "Brandy Crusta",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/brandy-crusta/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Elegantný predok Sidecaru z New Orleans: brandy s citrónom, maraschinom a pomarančovým likérom, podávaná v úzkom pohári s cukrovým okrajom.",
+  "ingrediencie": [
+    {
+      "nazov": "Brandy",
+      "mnozstvo": 52.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Maraschino",
+      "mnozstvo": 7.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "1 barová lyžička (curaçao)"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "1 barová lyžička"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na potretie okraja"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "jemný, na obalenie okraja pohára"
+    }
+  ],
+  "postup": [
+    "Okraj úzkeho kokteilového pohára potri plátkom pomaranča a obaľ v jemnom cukre.",
+    "Do miešacieho pohára s ľadom nalej všetky tekuté suroviny a dobre premiešaj.",
+    "Opatrne preceď do pripraveného pohára, aby si nezmyl cukrový okraj."
+  ],
+  "tipy": "Cukor na okraj rozomeľ na prášok – kryštálový sa drží zle a škrípe medzi zubami.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "brandy",
+    "IBA"
+  ]
+}

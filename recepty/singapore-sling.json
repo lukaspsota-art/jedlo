@@ -1,0 +1,83 @@
+{
+  "id": "singapore-sling",
+  "nazov": "Singapore Sling",
+  "kategoria": "Kokteil",
+  "kuchyna": "Singapurská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/singapore-sling/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ružový ovocný drink z hotela Raffles: gin s ananásom, čerešňovým a bylinným likérom a grenadínou. Plný a voňavý.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Čerešňový likér",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 7.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Bénédictine",
+      "mnozstvo": 7.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 120,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "1 kvapka"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kúsok na ozdobu"
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra plného ľadu.",
+    "Dôkladne pretras a sceď do vysokého pohára s ľadom.",
+    "Ozdob ananásom a čerešňou."
+  ],
+  "tipy": "Pretras ho naozaj dlho — ananásový džús potom vytvorí navrchu jemnú penu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

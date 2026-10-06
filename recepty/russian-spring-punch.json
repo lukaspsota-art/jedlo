@@ -1,0 +1,62 @@
+{
+  "id": "russian-spring-punch",
+  "nazov": "Russian Spring Punch",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ľahký šumivý punč od Dicka Bradsella s čiernymi ríbezľami a citrónom, ideálny na jarnú oslavu.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Crème de cassis",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Šampanské",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "alebo iné šumivé víno, doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Černice",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vodku, citrónovú šťavu, cassis a sirup pretrep s ľadom.",
+    "Preceď do vysokého pohára s ľadom.",
+    "Dolej šumivým vínom a ozdob černicami."
+  ],
+  "tipy": "Na väčšiu spoločnosť priprav základ vopred do džbánu a šumivé víno dolievaj až do pohárov.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "IBA"
+  ]
+}

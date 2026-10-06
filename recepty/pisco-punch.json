@@ -1,0 +1,61 @@
+{
+  "id": "pisco-punch",
+  "nazov": "Pisco Punch",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/pisco-punch/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Punč zo zlatej horúčky v San Franciscu: pisco s ananásom, citrónom, klinčekmi a kvapkou bieleho vína.",
+  "ingrediencie": [
+    {
+      "nazov": "Pisco",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Víno",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "biele suché"
+    },
+    {
+      "nazov": "Klinčeky",
+      "mnozstvo": 3,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "V šejkri jemne roztlač klinčeky so sirupom.",
+    "Pridaj pisco, ananásový džús, citrónovú šťavu a ľad a ostro pretrep.",
+    "Preceď cez jemné sitko do veľkého pohára na stopke, dolej víno a zľahka premiešaj."
+  ],
+  "tipy": "Klinčeky len pomliaždi — rozdrvené dajú drinku chuť zubnej ordinácie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "pisco",
+    "IBA"
+  ]
+}

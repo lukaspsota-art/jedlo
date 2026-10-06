@@ -1,0 +1,51 @@
+{
+  "id": "french-75",
+  "nazov": "French 75",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/french-75/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Šumivý drink z ginu, citróna a cukru doliaty šampanským. Pripomína perlivú limonádu, no pije sa ako aperitív.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Šampanské",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Gin, citrónovú šťavu a sirup pretras v šejkri s ľadom.",
+    "Sceď do pohára na šampanské.",
+    "Dolej šampanským a raz jemne premiešaj."
+  ],
+  "tipy": "Šampanské nedávaj do šejkra — stratilo by bublinky. Dolieva sa až v pohári.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

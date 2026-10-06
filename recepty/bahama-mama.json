@@ -1,0 +1,70 @@
+{
+  "id": "bahama-mama",
+  "nazov": "Bahama Mama",
+  "kategoria": "Kokteil",
+  "kuchyna": "Karibská",
+  "zdroj": "TheCocktailDB – Bahama Mama",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17267",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Sladký tropický long drink z dvoch rumov, banánového likéru a ovocných štiav. Farbu mu dáva grenadína, kyslosť citrón.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Banánový likér",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kúsok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky tekutiny nalej do šejkra s ľadom a krátko, ale prudko pretras.",
+    "Precedí do vysokého pohára plného čerstvého ľadu.",
+    "Ozdob kúskom ananásu a podávaj so slamkou."
+  ],
+  "tipy": "Citrónovú šťavu nevynechávaj — bez nej je drink len sladký džús s alkoholom.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "godfather",
+  "nazov": "Godfather",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Godfather",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11423",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Dvojzložkový drink zo škótskej whisky a mandľového amaretta. Sladký, hrejivý a hotový bez šejkra.",
+  "ingrediencie": [
+    {
+      "nazov": "Škótska whisky",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Nízky pohár naplň ľadom.",
+    "Nalej whisky a amaretto.",
+    "Jemne premiešaj barovou lyžičkou."
+  ],
+  "tipy": "Na tento drink nepoužívaj drahú single malt — vynikne v ňom aj obyčajná blended whisky.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky"
+  ]
+}

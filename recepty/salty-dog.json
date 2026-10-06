@@ -1,0 +1,52 @@
+{
+  "id": "salty-dog",
+  "nazov": "Salty Dog",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Salty Dog",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12107",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Grapefruitový longdrink s ginom a slaným okrajom pohára. Soľ stlmí horkosť grapefruitu a zvýrazní jeho šťavnatosť.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "alebo vodka"
+    },
+    {
+      "nazov": "Grapefruitový džús",
+      "mnozstvo": 120,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "štipka",
+      "poznamka": "na okraj pohára"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Grapefruit",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "dielik na navlhčenie okraja"
+    }
+  ],
+  "postup": [
+    "Okraj pohára navlhči dielikom grapefruitu a obtoč ho v soli.",
+    "Pohár naplň ľadom, prilej gin a grapefruitový džús.",
+    "Premiešaj a podávaj."
+  ],
+  "tipy": "Osoľ len polovicu okraja — každý si tak sám vyberie, či chce piť so soľou alebo bez.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

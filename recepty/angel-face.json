@@ -1,0 +1,45 @@
+{
+  "id": "angel-face",
+  "nazov": "Angel Face",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/angel-face/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Silný ovocný drink bez citrusov: gin, marhuľový likér a jablkový kalvados v rovnakom pomere. Vonia po sušených marhuliach a jablkách.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Marhuľový likér",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "apricot brandy"
+    },
+    {
+      "nazov": "Kalvados",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Do šejkra plného ľadu nalej gin, marhuľový likér a kalvados.",
+    "Dôkladne pretrep a preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "„Apricot brandy“ je v bare zvyčajne sladký marhuľový likér, nie marhuľovica – s čistou pálenkou by bol drink ostrý a suchý.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

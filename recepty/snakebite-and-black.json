@@ -1,0 +1,40 @@
+{
+  "id": "snakebite-and-black",
+  "nazov": "Snakebite and Black",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "TheCocktailDB – Snakebite and Black",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/15789",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Britský krčmový mix ležiaka a jablkového cideru s kvapkou ríbezľového sirupu. Nápoj je tmavoružový, jemne sladký a osviežujúci.",
+  "ingrediencie": [
+    {
+      "nazov": "Ríbezľový sirup",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pivo",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": "svetlý ležiak"
+    },
+    {
+      "nazov": "Cider",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": "jablkový"
+    }
+  ],
+  "postup": [
+    "Na dno pollitrového pohára nalej ríbezľový sirup.",
+    "Pomaly prilej vychladené pivo a potom cider."
+  ],
+  "tipy": "Bez sirupu je to obyčajný „Snakebite“ — aj ten sa dá, len je trpkejší.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "pivo"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "iba-tiki",
+  "nazov": "IBA Tiki",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/iba-tiki/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Oficiálny tiki drink IBA — plný, ovocný a orieškový, s dymovým rumom, maracujou a štipľavým zázvorom.",
+  "ingrediencie": [
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "polovica starnutý, polovica dymový"
+    },
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Lieskovoorieškový likér",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "Frangelico"
+    },
+    {
+      "nazov": "Maraschino",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "5 kvapiek"
+    },
+    {
+      "nazov": "Maracujové pyré",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 90,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zázvor",
+      "mnozstvo": 1,
+      "jednotka": "plátok",
+      "poznamka": "tenký"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "drvený"
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "sušený plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Plátok zázvoru roztlač na dne šejkra.",
+    "Prilej ostatné suroviny, pridaj ľad a ostro pretrep.",
+    "Preceď do vychladeného tiki pohára s drveným ľadom a ozdob citrusmi a sušeným ananásom."
+  ],
+  "tipy": "Ak nemáš dymový rum, pridaj k bežnému tmavému pár kvapiek rašelinovej škótskej whisky.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

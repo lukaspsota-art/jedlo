@@ -1,0 +1,51 @@
+{
+  "id": "cuba-libre",
+  "nazov": "Cuba Libre",
+  "kategoria": "Kokteil",
+  "kuchyna": "Kubánska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/cuba-libre/",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Jednoduchý long drink z bieleho rumu a coly, ktorý limetka robí sviežejším a menej sladkým.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cola",
+      "mnozstvo": 120,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "mesiačik na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom.",
+    "Nalej rum, limetkovú šťavu a dolej colou; zľahka premiešaj.",
+    "Ozdob mesiačikom limetky."
+  ],
+  "tipy": "Rozdiel oproti obyčajnému rumu s colou robí limetka — nevynechaj ju a mesiačik pred vložením do pohára stlač.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

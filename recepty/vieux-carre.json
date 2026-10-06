@@ -1,0 +1,69 @@
+{
+  "id": "vieux-carre",
+  "nazov": "Vieux Carré",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/vieux-carre/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Drink z francúzskej štvrte New Orleans: ražná whisky, koňak a sladký vermút s bylinkovým likérom Bénédictine. Plný, korenistý a zamatový.",
+  "ingrediencie": [
+    {
+      "nazov": "Ražná whisky",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Koňak",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sladký vermút",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Bénédictine",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "1 barová lyžička"
+    },
+    {
+      "nazov": "Peychaudov bitter",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    },
+    {
+      "nazov": "Koktejlová višňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do miešacieho pohára s ľadom nalej všetky suroviny a dobre premiešaj.",
+    "Preceď do vychladeného kokteilového pohára.",
+    "Ozdob pomarančovou kôrkou a višňou."
+  ],
+  "tipy": "Peychaudov bitter môžeš nahradiť angosturou – drink bude korenistejší a menej anízový.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky",
+    "IBA"
+  ]
+}

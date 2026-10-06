@@ -1,0 +1,46 @@
+{
+  "id": "vodka-tonic",
+  "nazov": "Vodka Tonic",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Vodka Tonic",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178364",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Čistý horkastý longdrink, v ktorom hrá hlavnú úlohu tonic a limetka. Neutrálnejší než gin tonic, bez borievkovej vône.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Tonic",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "dielik a kolieska"
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom a nalej vodku.",
+    "Dolej tonic.",
+    "Vytlač do pohára dielik limetky a ozdob kolieskom."
+  ],
+  "tipy": "Vodka sama chuť nenesie, preto rozhoduje kvalita tonicu — vyber taký s menej cukru.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

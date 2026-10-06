@@ -1,0 +1,35 @@
+{
+  "id": "radler",
+  "nazov": "Radler",
+  "kategoria": "Kokteil",
+  "kuchyna": "Nemecká",
+  "zdroj": "TheCocktailDB – Radler",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/16031",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Pivo s citrónovou limonádou v pomere jedna k jednej, v Anglicku známe ako shandy. Ľahké, sladkasté a na smäd po bicyklovaní.",
+  "ingrediencie": [
+    {
+      "nazov": "Pivo",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": "svetlý ležiak"
+    },
+    {
+      "nazov": "Limonáda",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": "citrónová sýtená"
+    }
+  ],
+  "postup": [
+    "Do vychladeného veľkého pohára nalej pivo.",
+    "Pomaly dolej vychladenú limonádu, aby pena nepretiekla."
+  ],
+  "tipy": "Pomer si prispôsob — s 2 dielmi piva na 1 diel limonády je menej sladký.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "pivo"
+  ]
+}

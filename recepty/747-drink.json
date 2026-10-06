@@ -1,0 +1,61 @@
+{
+  "id": "747-drink",
+  "nazov": "747",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – 747 Drink",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178318",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Ľahký longdrink z vodky, limetky a brusnicového džúsu doliaty citrónovo-limetkovou limonádou. Ružový, perlivý a nie príliš sladký.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Brusnicový džús",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sprite",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kolieska na ozdobu"
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Nalej vodku, limetkovú šťavu, sirup a brusnicový džús.",
+    "Dolej Sprite, jemne premiešaj a ozdob limetkou."
+  ],
+  "tipy": "Limetková šťava so sirupom nahrádza sladený limetkový koncentrát z pôvodného receptu; ak ho máš, daj 30 ml a sirup vynechaj.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

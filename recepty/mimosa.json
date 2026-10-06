@@ -1,0 +1,42 @@
+{
+  "id": "mimosa",
+  "nazov": "Mimosa",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/mimosa/",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Pomarančový džús a prosecco v rovnakom pomere. Ľahký, sviežo ovocný drink k nedeľným raňajkám.",
+  "ingrediencie": [
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 75,
+      "jednotka": "ml",
+      "poznamka": "čerstvo vytlačená"
+    },
+    {
+      "nazov": "Prosecco",
+      "mnozstvo": 75,
+      "jednotka": "ml",
+      "poznamka": "vychladené"
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu, nepovinné"
+    }
+  ],
+  "postup": [
+    "Do pohára na šampanské nalej pomarančovú šťavu.",
+    "Pomaly dolej prosecco a raz jemne premiešaj."
+  ],
+  "tipy": "Obe zložky maj vychladené, ľad sa do Mimosy nedáva — zriedil by ju.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "víno",
+    "IBA"
+  ]
+}

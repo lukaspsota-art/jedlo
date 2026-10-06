@@ -1,0 +1,55 @@
+{
+  "id": "tequila-fizz",
+  "nazov": "Tequila Fizz",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Tequila Fizz",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12362",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Penivý fizz s tequilou, grenadínou a bielkom, doliaty zázvorovou limonádou. Ružový, ľahký a jemne pikantný.",
+  "ingrediencie": [
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zázvorová limonáda",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Tequilu, citrónovú šťavu, grenadínu a bielok pretras najprv bez ľadu, potom s ľadom.",
+    "Preceď do vysokého pohára s ľadom.",
+    "Dolej zázvorovou limonádou a jemne premiešaj."
+  ],
+  "tipy": "Limonádu nalievaj pomaly po stene pohára, aby pena z bielka ostala navrchu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "tequila"
+  ]
+}

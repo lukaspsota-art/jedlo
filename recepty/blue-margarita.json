@@ -1,0 +1,56 @@
+{
+  "id": "blue-margarita",
+  "nazov": "Blue Margarita",
+  "kategoria": "Kokteil",
+  "kuchyna": "Mexická",
+  "zdroj": "TheCocktailDB – Blue Margarita",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11118",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Margarita sfarbená do modra pomarančovým likérom blue curaçao. Chuť ostáva klasická: tequila, limetka a slaný okraj.",
+  "ingrediencie": [
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Blue curaçao",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "hrubá, na okraj pohára"
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "mesiačik na ozdobu"
+    }
+  ],
+  "postup": [
+    "Okraj pohára potri limetkou a obtoč v hrubej soli.",
+    "Tequilu, curaçao a limetkovú šťavu pretras s ľadom.",
+    "Preceď do pripraveného pohára a ozdob limetkou."
+  ],
+  "tipy": "Soľ daj len na polovicu okraja — kto chce, pije zo slanej strany, kto nie, z druhej.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "tequila"
+  ]
+}

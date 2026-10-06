@@ -1,0 +1,51 @@
+{
+  "id": "brandy-alexander",
+  "nazov": "Brandy Alexander",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Brandy Alexander",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11016",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krémový dezertný kokteil z brandy, kakaového likéru a smotany posypaný muškátovým orieškom. Chutí ako tekutá čokoládová pena.",
+  "ingrediencie": [
+    {
+      "nazov": "Brandy",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kakaový likér",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "biely"
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Muškátový oriešok",
+      "mnozstvo": 1,
+      "jednotka": "štipka"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Brandy, kakaový likér a smotanu dôkladne pretrep s ľadom.",
+    "Preceď do vychladeného koktailového pohára.",
+    "Navrch nastrúhaj štipku muškátového orieška."
+  ],
+  "tipy": "Muškát strúhaj čerstvý priamo nad pohár — mletý z vrecka nevonia ani z polovice tak.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "brandy",
+    "likér"
+  ]
+}

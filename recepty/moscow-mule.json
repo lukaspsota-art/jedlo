@@ -1,0 +1,50 @@
+{
+  "id": "moscow-mule",
+  "nazov": "Moscow Mule",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/moscow-mule/",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Vodka so zázvorovým pivom a limetkou, tradične v medenom hrnčeku. Pálivo zázvorový a osviežujúci.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zázvorové pivo",
+      "mnozstvo": 120,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do medeného hrnčeka alebo nízkeho pohára s ľadom nalej vodku a zázvorové pivo.",
+    "Pridaj limetkovú šťavu, jemne premiešaj a ozdob plátkom limetky."
+  ],
+  "tipy": "Medený hrnček nie je nutný, ale drink v ňom ostane dlhšie studený. Zázvorové pivo vyber čo najostrejšie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "IBA"
+  ]
+}

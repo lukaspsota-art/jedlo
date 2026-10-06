@@ -1,0 +1,57 @@
+{
+  "id": "cosmopolitan",
+  "nazov": "Cosmopolitan",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/cosmopolitan/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ružový drink z citrónovej vodky, pomarančového likéru, limetky a brusníc. Kyslastý, ovocný a svieži.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 40,
+      "jednotka": "ml",
+      "poznamka": "citrónová"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Brusnicový džús",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra plného ľadu.",
+    "Dobre pretras a sceď do veľkého kokteilového pohára.",
+    "Ozdob stočenou citrónovou kôrkou."
+  ],
+  "tipy": "Kúp nesladený alebo len mierne sladený brusnicový džús; nektár s veľa cukru urobí z drinku sirup.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "IBA"
+  ]
+}

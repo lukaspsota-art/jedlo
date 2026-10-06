@@ -1,0 +1,1619 @@
+{
+  "zdroj": "F.O.O.D. 5/2026 (september–október)",
+  "poznamka": "Časopis neuvádza výživové hodnoty (vyziva_na_porciu = null). g_odhad je môj odhad pre nákup. Pole 'skupina' oddeľuje časti receptu (plnky, omáčka, ozdoba).",
+  "pocet": 16,
+  "recepty": [
+    {
+      "nazov": "Neviditeľný jablkový koláč",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": null,
+      "porcie": "8–10",
+      "jednotka_porcie": "porcia",
+      "spolu_min": 70,
+      "vybavenie": [
+        "rúra"
+      ],
+      "typ_navrh": [
+        "dezert"
+      ],
+      "tagy": [
+        "vegetariánske",
+        "sladké"
+      ],
+      "suroviny": [
+        {
+          "nazov": "jablká (asi 6 ks)",
+          "mnozstvo": 1000,
+          "jednotka": "g",
+          "g_odhad": 1000
+        },
+        {
+          "nazov": "vajcia izbovej teploty",
+          "mnozstvo": 3,
+          "jednotka": "ks",
+          "g_odhad": 165
+        },
+        {
+          "nazov": "kryštálový cukor",
+          "mnozstvo": 65,
+          "jednotka": "g",
+          "g_odhad": 65
+        },
+        {
+          "nazov": "maslo rozpustené a vychladnuté",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 25
+        },
+        {
+          "nazov": "plnotučné mlieko",
+          "mnozstvo": 60,
+          "jednotka": "ml",
+          "g_odhad": 62
+        },
+        {
+          "nazov": "smotana na šľahanie",
+          "mnozstvo": 60,
+          "jednotka": "ml",
+          "g_odhad": 60
+        },
+        {
+          "nazov": "vanilkový extrakt",
+          "mnozstvo": 2,
+          "jednotka": "ČL",
+          "g_odhad": 10
+        },
+        {
+          "nazov": "hladká múka",
+          "mnozstvo": 120,
+          "jednotka": "g",
+          "g_odhad": 120
+        },
+        {
+          "nazov": "soľ",
+          "mnozstvo": 0.25,
+          "jednotka": "ČL",
+          "g_odhad": 1
+        },
+        {
+          "nazov": "kypriaci prášok",
+          "mnozstvo": 2,
+          "jednotka": "ČL",
+          "g_odhad": 8
+        },
+        {
+          "nazov": "práškový cukor na posypanie",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 5
+        }
+      ],
+      "postup": [
+        "Vajcia vyšľahaj s cukrom do svetlej peny, pridaj maslo, mlieko, smotanu a vanilku. V druhej mise zmiešaj preosiatu múku, soľ a kypriaci prášok.",
+        "Jablká ošúp, zbav jadrovníkov a nakrájaj na veľmi tenké plátky – takmer priesvitné, ale nie tak tenké, aby sa pri miešaní lámali.",
+        "Rúru predhrej na 180 °C (rošt v strede). Formu na chlieb 22 × 13 cm vylož papierom na pečenie vrátane okrajov.",
+        "Suché suroviny zašľahaj do vaječnej zmesi – cesto bude riedke. Vmiešaj jablká, aby boli všetky obalené; cesta sa bude zdať málo, tak to má byť.",
+        "Jablká s cestom vrstvi po častiach do formy a priebežne ich pritláčaj lyžicou či vidličkou, aby ležali rovno.",
+        "Peč 45–50 min do zlatista. Nechaj aspoň 30 min chladnúť na mriežke a posyp práškovým cukrom."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Tekvicová polievka s bryndzou",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": null,
+      "porcie": 6,
+      "jednotka_porcie": "porcia",
+      "spolu_min": 60,
+      "vybavenie": [
+        "sporák",
+        "mixér"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vegetariánska verzia"
+      ],
+      "suroviny": [
+        {
+          "nazov": "tekvica hokkaido",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 1500
+        },
+        {
+          "nazov": "biela cibuľa",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 120
+        },
+        {
+          "nazov": "pór",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "olivový olej",
+          "mnozstvo": 4,
+          "jednotka": "PL",
+          "g_odhad": 55
+        },
+        {
+          "nazov": "paradajky",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 240
+        },
+        {
+          "nazov": "plnotučné mlieko",
+          "mnozstvo": 200,
+          "jednotka": "ml",
+          "g_odhad": 206
+        },
+        {
+          "nazov": "kyslá smotana",
+          "mnozstvo": 150,
+          "jednotka": "g",
+          "g_odhad": 150
+        },
+        {
+          "nazov": "zeleninový vývar",
+          "mnozstvo": 500,
+          "jednotka": "ml",
+          "g_odhad": 500
+        },
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 1,
+          "jednotka": "strúčik",
+          "g_odhad": 4
+        },
+        {
+          "nazov": "soľ a čierne korenie",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 0
+        },
+        {
+          "nazov": "bryndza",
+          "mnozstvo": 175,
+          "jednotka": "g",
+          "g_odhad": 175,
+          "skupina": "ozdoba"
+        },
+        {
+          "nazov": "kyslá smotana",
+          "mnozstvo": 100,
+          "jednotka": "g",
+          "g_odhad": 100,
+          "skupina": "ozdoba"
+        },
+        {
+          "nazov": "krutóny z pečiva",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 40,
+          "skupina": "ozdoba"
+        },
+        {
+          "nazov": "opražená slanina (nepovinné)",
+          "mnozstvo": 70,
+          "jednotka": "g",
+          "g_odhad": 70,
+          "skupina": "ozdoba"
+        }
+      ],
+      "postup": [
+        "Tekvicu umy, zbav semien a nakrájaj na menšie kúsky (nešúpe sa). Cibuľu a pór nasekaj najemno a speň na oleji.",
+        "Pridaj tekvicu, prelisovaný cesnak a nakrájané paradajky, zalej vývarom a var, kým všetko nezmäkne.",
+        "Rozmixuj dohladka, vmiešaj mlieko s kyslou smotanou izbovej teploty a dochuť soľou a korením.",
+        "Podávaj s kyslou smotanou, bryndzou, krutónmi a podľa chuti opraženou slaninou."
+      ],
+      "tip": "Bryndze 150–200 g podľa chuti.",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Tekvica plnená mletým mäsom",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": null,
+      "porcie": "4–6",
+      "jednotka_porcie": "porcia",
+      "spolu_min": 70,
+      "vybavenie": [
+        "sporák",
+        "rúra"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vysokobielkovinové"
+      ],
+      "suroviny": [
+        {
+          "nazov": "hliva ustricová",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "olej",
+          "mnozstvo": 3.5,
+          "jednotka": "PL",
+          "g_odhad": 48
+        },
+        {
+          "nazov": "tekvica hokkaido",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 2400
+        },
+        {
+          "nazov": "mleté mäso bravčové + hovädzie",
+          "mnozstvo": 500,
+          "jednotka": "g",
+          "g_odhad": 500
+        },
+        {
+          "nazov": "cibuľa",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 120
+        },
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 4,
+          "jednotka": "strúčik",
+          "g_odhad": 16
+        },
+        {
+          "nazov": "paradajkový pretlak",
+          "mnozstvo": 4,
+          "jednotka": "PL",
+          "g_odhad": 64
+        },
+        {
+          "nazov": "mozzarella",
+          "mnozstvo": 250,
+          "jednotka": "g",
+          "g_odhad": 250
+        },
+        {
+          "nazov": "soľ a čierne korenie",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 0
+        }
+      ],
+      "postup": [
+        "Tekvice umy, odrež vršky a vydlab semienka. Hlivu očisti a nakrájaj na malé kúsky, cibuľu a cesnak nasekaj nadrobno.",
+        "Na oleji orestuj cibuľu, pridaj cesnak a mäso a za stáleho miešania opeč. Pridaj hlivu a pretlak, osoľ, okoreň a krátko podus.",
+        "Zmesou naplň tekvice, ulož do pekáča a peč v rúre na 180 °C asi 45 min, kým tekvica nezmäkne.",
+        "Na plnku poukladaj nakrájanú mozzarellu a krátko zapeč, kým sa syr neroztopí a nezozlatne."
+      ],
+      "tip": "Hmotnosť tekvíc je odhad (hokkaido ~1,2 kg/ks).",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Cuketový koláč",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": 30,
+      "porcie": 12,
+      "jednotka_porcie": "porcia",
+      "spolu_min": 60,
+      "vybavenie": [
+        "sporák",
+        "rúra"
+      ],
+      "typ_navrh": [
+        "raňajky",
+        "obed",
+        "snack"
+      ],
+      "tagy": [],
+      "suroviny": [
+        {
+          "nazov": "cuketa",
+          "mnozstvo": 400,
+          "jednotka": "g",
+          "g_odhad": 400
+        },
+        {
+          "nazov": "cibuľa",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 120
+        },
+        {
+          "nazov": "extra panenský olivový olej",
+          "mnozstvo": 60,
+          "jednotka": "ml",
+          "g_odhad": 55
+        },
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 1,
+          "jednotka": "strúčik",
+          "g_odhad": 4
+        },
+        {
+          "nazov": "vajcia",
+          "mnozstvo": 5,
+          "jednotka": "ks",
+          "g_odhad": 275
+        },
+        {
+          "nazov": "čedar alebo iný výraznejší syr",
+          "mnozstvo": 250,
+          "jednotka": "g",
+          "g_odhad": 250
+        },
+        {
+          "nazov": "slanina",
+          "mnozstvo": 100,
+          "jednotka": "g",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "hladká múka",
+          "mnozstvo": 150,
+          "jednotka": "g",
+          "g_odhad": 150
+        },
+        {
+          "nazov": "kypriaci prášok",
+          "mnozstvo": 1.5,
+          "jednotka": "ČL",
+          "g_odhad": 6
+        },
+        {
+          "nazov": "soľ a čierne korenie",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 0
+        }
+      ],
+      "postup": [
+        "Formu 30 × 20 cm vylož papierom na pečenie (najprv ho pokrč, lepšie drží aj na okrajoch).",
+        "Cuketu aj cibuľu nastrúhaj nahrubo a rukami vytlač čo najviac vody – nie dosucha. Vytlačenú šťavu zachyť, pridáš ju do cesta.",
+        "Slaninu nakrájaj nadrobno a opeč na oleji 2–3 min do zlatista, na posledných 15 s pridaj cesnak. Vypni.",
+        "Vajcia vyšľahaj vo veľkej mise a postupne zašľahaj múku s práškom do hladka.",
+        "Pridaj cuketu, cibuľu so šťavou, olej, slaninu a nastrúhaný syr, osoľ, okoreň a premiešaj.",
+        "Nalej do formy, uhlaď a peč 35 min pri 180 °C (teplovzdušne 160 °C). Pred krájaním nechaj vychladnúť."
+      ],
+      "tip": null,
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Kuracie prsia v smotanovo-horčicovej omáčke",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": null,
+      "porcie": 4,
+      "jednotka_porcie": "porcia",
+      "spolu_min": 60,
+      "vybavenie": [
+        "sporák"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vysokobielkovinové"
+      ],
+      "suroviny": [
+        {
+          "nazov": "kuracie prsia",
+          "mnozstvo": 500,
+          "jednotka": "g",
+          "g_odhad": 500
+        },
+        {
+          "nazov": "olivový olej",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 14
+        },
+        {
+          "nazov": "citrón (šťava z polovice)",
+          "mnozstvo": 0.5,
+          "jednotka": "ks",
+          "g_odhad": 20
+        },
+        {
+          "nazov": "soľ a čierne korenie",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 0
+        },
+        {
+          "nazov": "vývar",
+          "mnozstvo": 200,
+          "jednotka": "ml",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "sladká smotana",
+          "mnozstvo": 200,
+          "jednotka": "ml",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "plnotučná horčica",
+          "mnozstvo": 1.5,
+          "jednotka": "PL",
+          "g_odhad": 22
+        },
+        {
+          "nazov": "mletá červená paprika",
+          "mnozstvo": 0.5,
+          "jednotka": "ČL",
+          "g_odhad": 1
+        },
+        {
+          "nazov": "petržlenová vňať",
+          "mnozstvo": null,
+          "jednotka": "hrsť",
+          "g_odhad": 10
+        }
+      ],
+      "postup": [
+        "Prsia okoreň, osoľ, pokvapkaj olivovým olejom a citrónovou šťavou a nechaj marinovať aspoň 30 min, pokojne cez noc.",
+        "Opeč ich z oboch strán na panvici, zalej vývarom a chvíľu povar.",
+        "Smotanu zmiešaj s horčicou a paprikou, podľa potreby dochuť, nalej na mäso a var, kým omáčka mierne nezhustne. Pred podávaním posyp nasekanou vňaťou."
+      ],
+      "tip": "Čas zahŕňa marinovanie. Na fotke s opekanými zemiakmi.",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Pizzové vafle",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": null,
+      "porcie": 4,
+      "jednotka_porcie": "kus",
+      "spolu_min": 15,
+      "vybavenie": [
+        "vafľovač"
+      ],
+      "typ_navrh": [
+        "raňajky",
+        "snack"
+      ],
+      "tagy": [
+        "vegetariánske"
+      ],
+      "suroviny": [
+        {
+          "nazov": "mlieko",
+          "mnozstvo": 40,
+          "jednotka": "ml",
+          "g_odhad": 41
+        },
+        {
+          "nazov": "hustá paradajková omáčka",
+          "mnozstvo": 40,
+          "jednotka": "ml",
+          "g_odhad": 42
+        },
+        {
+          "nazov": "strúhaný syr (eidam, gouda)",
+          "mnozstvo": 85,
+          "jednotka": "g",
+          "g_odhad": 85
+        },
+        {
+          "nazov": "vajce",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 55
+        },
+        {
+          "nazov": "hladká múka",
+          "mnozstvo": 40,
+          "jednotka": "g",
+          "g_odhad": 40
+        },
+        {
+          "nazov": "prášok do pečiva",
+          "mnozstvo": 0.25,
+          "jednotka": "ČL",
+          "g_odhad": 1
+        },
+        {
+          "nazov": "sušené oregano",
+          "mnozstvo": 1,
+          "jednotka": "ČL",
+          "g_odhad": 1
+        },
+        {
+          "nazov": "soľ",
+          "mnozstvo": null,
+          "jednotka": "štipka",
+          "g_odhad": 1
+        },
+        {
+          "nazov": "olivový olej",
+          "mnozstvo": null,
+          "jednotka": "na potretie",
+          "g_odhad": 5
+        }
+      ],
+      "postup": [
+        "Zmiešaj múku, prášok do pečiva, oregano a soľ. V druhej miske rozšľahaj vajce s mliekom a paradajkovou omáčkou.",
+        "Mokré suroviny vlej k suchým a premiešaj na hladké cesto, nakoniec vmiešaj syr.",
+        "Vafľovač potri olivovým olejom, nalej cesto a peč asi 5 min dozlatista."
+      ],
+      "tip": "Výťažok 4 kusy; porcia = 1 vafľa.",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Gaštanovo-čokoládové brownies",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": 38,
+      "porcie": null,
+      "jednotka_porcie": "porcia",
+      "spolu_min": 60,
+      "vybavenie": [
+        "rúra"
+      ],
+      "typ_navrh": [
+        "dezert"
+      ],
+      "tagy": [
+        "vegetariánske",
+        "sladké",
+        "bez lepku"
+      ],
+      "suroviny": [
+        {
+          "nazov": "kvalitná horká čokoláda",
+          "mnozstvo": 130,
+          "jednotka": "g",
+          "g_odhad": 130
+        },
+        {
+          "nazov": "gaštanové pyré",
+          "mnozstvo": 250,
+          "jednotka": "g",
+          "g_odhad": 250
+        },
+        {
+          "nazov": "pečené jedlé gaštany",
+          "mnozstvo": 100,
+          "jednotka": "g",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "nasekané mandle",
+          "mnozstvo": null,
+          "jednotka": "hrsť",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "maslo",
+          "mnozstvo": 250,
+          "jednotka": "g",
+          "g_odhad": 250
+        },
+        {
+          "nazov": "vajcia",
+          "mnozstvo": 4,
+          "jednotka": "ks",
+          "g_odhad": 220
+        },
+        {
+          "nazov": "hnedý cukor",
+          "mnozstvo": 80,
+          "jednotka": "g",
+          "g_odhad": 80
+        },
+        {
+          "nazov": "smotana na šľahanie 35 %",
+          "mnozstvo": 70,
+          "jednotka": "ml",
+          "g_odhad": 70
+        }
+      ],
+      "postup": [
+        "Čokoládu s maslom rozpusti vo vodnom kúpeli a nechaj trochu vychladnúť.",
+        "Gaštanové pyré vymiešaj so smotanou dohladka. Vajcia rozdeľ; žĺtky vyšľahaj s cukrom do peny, z bielkov vyšľahaj tuhý sneh.",
+        "Do žĺtkovej peny postupne vmiešaj pyré, potom čokoládu s maslom. Nakoniec zľahka vmiešaj sneh.",
+        "Rozotri na plech 20 × 30 cm vystlaný papierom, poukladaj navrch celé gaštany a posyp mandľami.",
+        "Peč asi 40 min pri 170 °C. Nechaj vychladnúť a nakrájaj na kocky."
+      ],
+      "tip": "Výťažok 1 plech 20 × 30 cm – počet kociek nie je uvedený (napr. 12–15).",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Gaštanový krém",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": 40,
+      "porcie": 4,
+      "jednotka_porcie": "porcia",
+      "spolu_min": 70,
+      "vybavenie": [
+        "rúra",
+        "sporák",
+        "ponorný mixér"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vegetariánske"
+      ],
+      "suroviny": [
+        {
+          "nazov": "čerstvé gaštany",
+          "mnozstvo": 400,
+          "jednotka": "g",
+          "g_odhad": 400
+        },
+        {
+          "nazov": "mrkva",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 160
+        },
+        {
+          "nazov": "zemiak",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 150
+        },
+        {
+          "nazov": "petržlen (koreň)",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 80
+        },
+        {
+          "nazov": "šalotka",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 60
+        },
+        {
+          "nazov": "voda",
+          "mnozstvo": 625,
+          "jednotka": "ml",
+          "g_odhad": 625
+        },
+        {
+          "nazov": "mlieko alebo smotana na varenie",
+          "mnozstvo": 225,
+          "jednotka": "ml",
+          "g_odhad": 230
+        },
+        {
+          "nazov": "maslo",
+          "mnozstvo": null,
+          "jednotka": "na opečenie + kúsok na koniec",
+          "g_odhad": 25
+        },
+        {
+          "nazov": "soľ a čierne korenie",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 0
+        }
+      ],
+      "postup": [
+        "Gaštany narež na plochej strane do kríža a peč na plechu, kým šupka nepopraská a gaštany nezmäknú. Nechaj trochu vychladnúť a ošúp.",
+        "V hrnci rozohrej maslo a krátko opeč nadrobno nakrájané šalotky. Pridaj mrkvu, zemiak a petržlen na menšie kúsky a chvíľu opekaj, potom pridaj gaštany a zalej 500–750 ml vody.",
+        "Priveď do varu a na miernom ohni var 45–60 min, kým zelenina úplne nezmäkne. Prilej mlieko alebo smotanu, osoľ, okoreň a krátko prehrej.",
+        "Odstav, pridaj kúsok masla a rozmixuj ponorným mixérom dohladka. Dochuť."
+      ],
+      "tip": "Teplota pečenia gaštanov nie je uvedená – bežne okolo 200 °C, 20–25 min.",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Koláče (posvícenské) s tromi plnkami",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": null,
+      "porcie": null,
+      "jednotka_porcie": "kus",
+      "spolu_min": 120,
+      "vybavenie": [
+        "rúra"
+      ],
+      "typ_navrh": [
+        "dezert"
+      ],
+      "tagy": [
+        "vegetariánske",
+        "sladké",
+        "pečivo"
+      ],
+      "suroviny": [
+        {
+          "nazov": "plnotučné mlieko vlažné",
+          "mnozstvo": 125,
+          "jednotka": "ml",
+          "g_odhad": 129,
+          "skupina": "cesto"
+        },
+        {
+          "nazov": "kryštálový cukor",
+          "mnozstvo": 100,
+          "jednotka": "g",
+          "g_odhad": 100,
+          "skupina": "cesto"
+        },
+        {
+          "nazov": "droždie",
+          "mnozstvo": 21,
+          "jednotka": "g",
+          "g_odhad": 21,
+          "skupina": "cesto"
+        },
+        {
+          "nazov": "polohrubá múka",
+          "mnozstvo": 500,
+          "jednotka": "g",
+          "g_odhad": 500,
+          "skupina": "cesto"
+        },
+        {
+          "nazov": "vanilkový cukor",
+          "mnozstvo": 0.5,
+          "jednotka": "balíček",
+          "g_odhad": 10,
+          "skupina": "cesto"
+        },
+        {
+          "nazov": "soľ",
+          "mnozstvo": null,
+          "jednotka": "štipka",
+          "g_odhad": 1,
+          "skupina": "cesto"
+        },
+        {
+          "nazov": "žĺtky",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 36,
+          "skupina": "cesto"
+        },
+        {
+          "nazov": "vajce",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 55,
+          "skupina": "cesto"
+        },
+        {
+          "nazov": "tuzemák",
+          "mnozstvo": 20,
+          "jednotka": "ml",
+          "g_odhad": 20,
+          "skupina": "cesto"
+        },
+        {
+          "nazov": "maslo rozpustené",
+          "mnozstvo": 125,
+          "jednotka": "g",
+          "g_odhad": 125,
+          "skupina": "cesto"
+        },
+        {
+          "nazov": "vajce",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 55,
+          "skupina": "potretie"
+        },
+        {
+          "nazov": "maslo",
+          "mnozstvo": null,
+          "jednotka": "na potretie",
+          "g_odhad": 15,
+          "skupina": "potretie"
+        },
+        {
+          "nazov": "mlieko",
+          "mnozstvo": null,
+          "jednotka": "trochu",
+          "g_odhad": 15,
+          "skupina": "potretie"
+        },
+        {
+          "nazov": "tuzemák",
+          "mnozstvo": null,
+          "jednotka": "trochu",
+          "g_odhad": 5,
+          "skupina": "potretie"
+        },
+        {
+          "nazov": "mäkký tvaroh",
+          "mnozstvo": 120,
+          "jednotka": "g",
+          "g_odhad": 120,
+          "skupina": "tvarohová plnka"
+        },
+        {
+          "nazov": "žĺtok",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 18,
+          "skupina": "tvarohová plnka"
+        },
+        {
+          "nazov": "kryštálový cukor",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 25,
+          "skupina": "tvarohová plnka"
+        },
+        {
+          "nazov": "brusnice namočené v tuzemáku",
+          "mnozstvo": null,
+          "jednotka": "na ozdobu",
+          "g_odhad": 20,
+          "skupina": "tvarohová plnka"
+        },
+        {
+          "nazov": "jablká",
+          "mnozstvo": 3,
+          "jednotka": "ks",
+          "g_odhad": 450,
+          "skupina": "jablková plnka"
+        },
+        {
+          "nazov": "kryštálový cukor",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 25,
+          "skupina": "jablková plnka"
+        },
+        {
+          "nazov": "škorica",
+          "mnozstvo": 1,
+          "jednotka": "ČL",
+          "g_odhad": 3,
+          "skupina": "jablková plnka"
+        },
+        {
+          "nazov": "posýpka",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 30,
+          "skupina": "jablková plnka"
+        },
+        {
+          "nazov": "mletý mak",
+          "mnozstvo": 100,
+          "jednotka": "g",
+          "g_odhad": 100,
+          "skupina": "maková plnka"
+        },
+        {
+          "nazov": "kryštálový cukor",
+          "mnozstvo": 3,
+          "jednotka": "PL",
+          "g_odhad": 38,
+          "skupina": "maková plnka"
+        },
+        {
+          "nazov": "plnotučné mlieko",
+          "mnozstvo": 0.5,
+          "jednotka": "pohára",
+          "g_odhad": 100,
+          "skupina": "maková plnka"
+        },
+        {
+          "nazov": "tuzemák",
+          "mnozstvo": 50,
+          "jednotka": "ml",
+          "g_odhad": 50,
+          "skupina": "maková plnka"
+        },
+        {
+          "nazov": "kakao",
+          "mnozstvo": 1,
+          "jednotka": "ČL",
+          "g_odhad": 3,
+          "skupina": "maková plnka"
+        },
+        {
+          "nazov": "citrónová kôra",
+          "mnozstvo": null,
+          "jednotka": "štipka",
+          "g_odhad": 1,
+          "skupina": "maková plnka"
+        },
+        {
+          "nazov": "vlašské orechy",
+          "mnozstvo": null,
+          "jednotka": "na ozdobu",
+          "g_odhad": 20,
+          "skupina": "maková plnka"
+        }
+      ],
+      "postup": [
+        "Kvások: do vlažného mlieka pridaj 1 PL cukru, rozdrob droždie a nechaj vzísť.",
+        "Múku preosej do misy, pridaj zvyšný cukor, vanilkový cukor a soľ. Vmiešaj vajce, žĺtky, tuzemák, rozpustené maslo a kvások a vypracuj hladké, nelepivé cesto – dôkladne ho vymies, aby boli koláče nadýchané.",
+        "Cesto popráš múkou, prikry utierkou a nechaj na teple vykysnúť. Premies, rozdeľ na väčšie kúsky a každý rozvaľkaj na pomúčenej doske. Pohárom vykrajuj kolieska a ukladaj na plech s papierom; nechaj 15 min podkysnúť. Dnom menšieho pohára vytlač do stredu jamku.",
+        "Plnky: tvaroh zmiešaj so žĺtkom a cukrom. Jablká ošúp, nakrájaj a podus s trochou vody, cukrom a škoricou domäkka, roztlač a na miernom ohni odpar; nechaj vychladnúť. Mak, cukor, rum, kôru a kakao rozmiešaj v horúcom mlieku, priveď k varu, hneď odstav a nechaj vychladnúť.",
+        "Okraje koláčov potri vajcom rozšľahaným s mliekom, do stredu daj plnku a ozdob (tvaroh brusnicami, mak orechmi, jablká posýpkou). Peč pri 175 °C 15–20 min dozlatista.",
+        "Horúce koláče potri rozpusteným maslom s trochou tuzemáku."
+      ],
+      "tip": "Výťažok 2 plechy – počet kusov nie je uvedený. Plnky si môžeš vybrať.",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Hovädzí chvost s paprikou",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": 53,
+      "porcie": 4,
+      "jednotka_porcie": "porcia",
+      "spolu_min": 210,
+      "vybavenie": [
+        "sporák"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vysokobielkovinové"
+      ],
+      "suroviny": [
+        {
+          "nazov": "hovädzí chvost",
+          "mnozstvo": 1000,
+          "jednotka": "g",
+          "g_odhad": 1000
+        },
+        {
+          "nazov": "soľ a čierne korenie",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 0
+        },
+        {
+          "nazov": "hladká múka",
+          "mnozstvo": 3,
+          "jednotka": "PL",
+          "g_odhad": 30
+        },
+        {
+          "nazov": "sladká mletá paprika",
+          "mnozstvo": 1,
+          "jednotka": "ČL",
+          "g_odhad": 2
+        },
+        {
+          "nazov": "olej",
+          "mnozstvo": 3,
+          "jednotka": "PL",
+          "g_odhad": 42
+        },
+        {
+          "nazov": "cesnak na plátky",
+          "mnozstvo": 4,
+          "jednotka": "strúčik",
+          "g_odhad": 16
+        },
+        {
+          "nazov": "cibuľa",
+          "mnozstvo": 3,
+          "jednotka": "ks",
+          "g_odhad": 360
+        },
+        {
+          "nazov": "anglická slanina",
+          "mnozstvo": 100,
+          "jednotka": "g",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "červená paprika",
+          "mnozstvo": 4,
+          "jednotka": "ks",
+          "g_odhad": 600
+        },
+        {
+          "nazov": "paradajkový pretlak",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 32
+        },
+        {
+          "nazov": "nové korenie",
+          "mnozstvo": 5,
+          "jednotka": "gulička",
+          "g_odhad": 1
+        },
+        {
+          "nazov": "mleté čili",
+          "mnozstvo": 0.25,
+          "jednotka": "ČL",
+          "g_odhad": 1
+        },
+        {
+          "nazov": "hovädzí vývar",
+          "mnozstvo": 400,
+          "jednotka": "ml",
+          "g_odhad": 400
+        },
+        {
+          "nazov": "bobkový list",
+          "mnozstvo": 3,
+          "jednotka": "ks",
+          "g_odhad": 1
+        }
+      ],
+      "postup": [
+        "Mäso nakrájaj na kusy, osoľ, okoreň a obaľ v múke zmiešanej so sladkou paprikou. V hrnci rozpáľ olej, mäso sprudka opeč zo všetkých strán, vyber a odlož do tepla.",
+        "Do výpeku pridaj nakrájanú slaninu, cibuľu a cesnak a spolu orestuj. Pridaj papriku s pretlakom a krátko podus; prihoď nové korenie a čili a var ešte 2 min.",
+        "Podlej trochou vývaru, vráť mäso, pridaj bobkový list a priveď k varu. Zakry a na miernom ohni pomaly dus asi 3 hodiny do zmäknutia, podľa potreby podlievaj zvyšným vývarom."
+      ],
+      "tip": "Hmotnosť chvosta je s kosťou – jedlé mäso je výrazne menej.",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Pečené hovädzie s yorkshirským pudingom",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": 54,
+      "porcie": "8–10",
+      "jednotka_porcie": "porcia",
+      "spolu_min": 180,
+      "vybavenie": [
+        "sporák",
+        "rúra",
+        "mixér",
+        "forma na 12 muffinov"
+      ],
+      "typ_navrh": [
+        "obed"
+      ],
+      "tagy": [
+        "vysokobielkovinové",
+        "sviatočné"
+      ],
+      "suroviny": [
+        {
+          "nazov": "nízka roštenka alebo vykostená vysoká roštenka vcelku",
+          "mnozstvo": 1750,
+          "jednotka": "g",
+          "g_odhad": 1750,
+          "skupina": "mäso"
+        },
+        {
+          "nazov": "olivový olej",
+          "mnozstvo": null,
+          "jednotka": "na pokvapkanie",
+          "g_odhad": 10,
+          "skupina": "mäso"
+        },
+        {
+          "nazov": "slnečnicový olej",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 28,
+          "skupina": "mäso"
+        },
+        {
+          "nazov": "cibuľa",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 240,
+          "skupina": "mäso"
+        },
+        {
+          "nazov": "mrkva",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 160,
+          "skupina": "mäso"
+        },
+        {
+          "nazov": "stonkový zeler",
+          "mnozstvo": 2,
+          "jednotka": "stonka",
+          "g_odhad": 80,
+          "skupina": "mäso"
+        },
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 1,
+          "jednotka": "hlávka",
+          "g_odhad": 50,
+          "skupina": "mäso"
+        },
+        {
+          "nazov": "rozmarín",
+          "mnozstvo": 2,
+          "jednotka": "vetvička",
+          "g_odhad": 2,
+          "skupina": "mäso"
+        },
+        {
+          "nazov": "tymian",
+          "mnozstvo": 3,
+          "jednotka": "vetvička",
+          "g_odhad": 2,
+          "skupina": "mäso"
+        },
+        {
+          "nazov": "bobkový list",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 1,
+          "skupina": "mäso"
+        },
+        {
+          "nazov": "hladká múka",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 20,
+          "skupina": "omáčka"
+        },
+        {
+          "nazov": "červené víno",
+          "mnozstvo": 0.6,
+          "jednotka": "šálky",
+          "g_odhad": 150,
+          "skupina": "omáčka"
+        },
+        {
+          "nazov": "kvalitný hovädzí vývar",
+          "mnozstvo": 750,
+          "jednotka": "ml",
+          "g_odhad": 750,
+          "skupina": "omáčka"
+        },
+        {
+          "nazov": "džem z lesného ovocia",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 20,
+          "skupina": "omáčka"
+        },
+        {
+          "nazov": "hladká múka",
+          "mnozstvo": 250,
+          "jednotka": "g",
+          "g_odhad": 250,
+          "skupina": "puding"
+        },
+        {
+          "nazov": "plnotučné mlieko",
+          "mnozstvo": 150,
+          "jednotka": "ml",
+          "g_odhad": 155,
+          "skupina": "puding"
+        },
+        {
+          "nazov": "studená voda",
+          "mnozstvo": 150,
+          "jednotka": "ml",
+          "g_odhad": 150,
+          "skupina": "puding"
+        },
+        {
+          "nazov": "vajcia",
+          "mnozstvo": 4,
+          "jednotka": "ks",
+          "g_odhad": 220,
+          "skupina": "puding"
+        },
+        {
+          "nazov": "soľ",
+          "mnozstvo": 0.5,
+          "jednotka": "ČL",
+          "g_odhad": 3,
+          "skupina": "puding"
+        },
+        {
+          "nazov": "slnečnicový olej",
+          "mnozstvo": 3,
+          "jednotka": "PL",
+          "g_odhad": 42,
+          "skupina": "puding"
+        }
+      ],
+      "postup": [
+        "Rúru predhrej na 180 °C. Na veľkej nepriľnavej panvici rozpáľ slnečnicový olej a mäso sprudka opeč zo všetkých strán.",
+        "Zeleninu, cesnak a bylinky rozlož na dno pekáča a pokvapkaj olivovým olejom; navrch polož mäso a peč podľa želaného prepečenia – orientačne 20 min na každých 500 g.",
+        "Najistejšie je riadiť sa teplotou v strede mäsa: krvavé 46 °C, stredne krvavé 48 °C, stredne prepečené 51 °C, takmer prepečené 53 °C. Mäso potom 30 min odpočíva a teplota ešte stúpne asi o 3 °C.",
+        "Omáčka: pekáč so zeleninou polož na sporák, prisyp múku a chvíľu restuj s výpekom. Zalej vínom a nechaj odpariť, prilej vývar a zoškrab pripečené kúsky; var asi 15 min.",
+        "Zeleninu a cesnak roztlač pučidlom, omáčku prepasíruj cez hrubšie sitko, pridaj džem, osoľ, okoreň (redšiu rozrieď horúcou vodou) a udržuj teplú. Mäso nakrájaj na veľmi tenké plátky.",
+        "Puding: všetko okrem oleja zmixuj dohladka na konzistenciu hustej smotany (ručne: najprv vajcia s mliekom a vodou, potom múka a soľ). Nechaj 15–30 min odpočívať.",
+        "Rúru rozpáľ na 230 °C. Do každého otvoru 12-dierovej formy na muffiny daj ½ ČL oleja a formu nechaj v rúre aspoň 15 min rozpáliť.",
+        "Rýchlo a rovnomerne nalej cesto – má zasyčať, inak formu vráť do rúry ešte dohriať. Peč 15–20 min, kým nie sú pudingy zlatisté a nadýchané. Podávaj hneď."
+      ],
+      "tip": "Hmotnosť mäsa 1,5–2 kg. Na fotke s hráškom a pečenými zemiakmi; puding = 12 kusov.",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Líčka s polentovou kašou",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": null,
+      "porcie": 4,
+      "jednotka_porcie": "porcia",
+      "spolu_min": 150,
+      "vybavenie": [
+        "sporák"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "vysokobielkovinové"
+      ],
+      "suroviny": [
+        {
+          "nazov": "teľacie (hovädzie) líčka",
+          "mnozstvo": 800,
+          "jednotka": "g",
+          "g_odhad": 800
+        },
+        {
+          "nazov": "soľ a čierne korenie",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 0
+        },
+        {
+          "nazov": "cibuľa",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 120
+        },
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 2,
+          "jednotka": "strúčik",
+          "g_odhad": 8
+        },
+        {
+          "nazov": "koreňová zelenina",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "olej",
+          "mnozstvo": 4,
+          "jednotka": "PL",
+          "g_odhad": 55
+        },
+        {
+          "nazov": "paradajkový pretlak",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 16
+        },
+        {
+          "nazov": "tymian",
+          "mnozstvo": null,
+          "jednotka": "pár vetvičiek",
+          "g_odhad": 2
+        },
+        {
+          "nazov": "červené víno",
+          "mnozstvo": 400,
+          "jednotka": "ml",
+          "g_odhad": 400
+        },
+        {
+          "nazov": "hovädzí vývar",
+          "mnozstvo": 1000,
+          "jednotka": "ml",
+          "g_odhad": 1000
+        },
+        {
+          "nazov": "instantná polenta",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "polotučné mlieko",
+          "mnozstvo": 500,
+          "jednotka": "ml",
+          "g_odhad": 515
+        },
+        {
+          "nazov": "maslo",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 15
+        },
+        {
+          "nazov": "voda na polentu",
+          "mnozstvo": null,
+          "jednotka": "podľa obalu",
+          "g_odhad": 500
+        }
+      ],
+      "postup": [
+        "Líčka dôkladne osuš, osoľ a okoreň. Koreňovú zeleninu a cibuľu očisti a nakrájaj. V hrnci rozohrej olej, líčka sprudka opeč z každej strany dohneda a vyber.",
+        "Do výpeku daj cibuľu a opeč dozlatista, pridaj cesnak a zvyšnú zeleninu a pár minút opekaj. Vmiešaj pretlak s tymianom a chvíľu prehrievaj.",
+        "Vráť líčka, zalej vínom a vývarom tak, aby boli takmer ponorené. Prikry a na miernom ohni dus aspoň 1,5, ideálne 2–2,5 hodiny do úplného zmäknutia. Líčka vyber a omáčku so zeleninou prepasíruj dohladka.",
+        "Polenta: vodu s mliekom a štipkou soli priveď do varu, tenkým prúdom vsypávaj polentu a stále miešaj metličkou. Na miernom ohni pár minút povar do zhustnutia, odstav a vmiešaj maslo."
+      ],
+      "tip": "V zozname sú teľacie líčka, v postupe hovädzie – funguje oboje. Množstvo vody na polentu nie je uvedené (odhad ~500 ml, podľa obalu).",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Zemiakový šterc",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": 68,
+      "porcie": 4,
+      "jednotka_porcie": "porcia",
+      "spolu_min": null,
+      "vybavenie": [
+        "sporák"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "tradičné"
+      ],
+      "suroviny": [
+        {
+          "nazov": "múčnaté zemiaky",
+          "mnozstvo": 400,
+          "jednotka": "g",
+          "g_odhad": 400
+        },
+        {
+          "nazov": "pšeničná krupica",
+          "mnozstvo": 200,
+          "jednotka": "g",
+          "g_odhad": 200
+        },
+        {
+          "nazov": "bravčová masť",
+          "mnozstvo": 1.75,
+          "jednotka": "PL",
+          "g_odhad": 25
+        },
+        {
+          "nazov": "soľ",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 0
+        }
+      ],
+      "postup": [
+        "Zemiaky ošúp, nakrájaj na menšie kúsky, zalej osolenou vodou tak, aby boli ponorené, a uvar domäkka.",
+        "Vo väčšom hrnci rozohrej časť masti, prisyp krupicu a za stáleho miešania ju opraž dozlatista.",
+        "Pridaj uvarené zemiaky aj s vodou, v ktorej sa varili, premiešaj a čiastočne roztlač, aby ostali aj menšie kúsky.",
+        "Pridaj zvyšnú masť a za stáleho miešania opekaj ešte asi 10 min, kým nie je zmes miestami zlatistá a chrumkavá. Podávaj horúci s kyslou uhorkou, kapustou alebo čalamádou."
+      ],
+      "tip": "Čas prípravy nie je uvedený (odhad ~40 min).",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Lepenica",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": 68,
+      "porcie": 2,
+      "jednotka_porcie": "porcia",
+      "spolu_min": null,
+      "vybavenie": [
+        "sporák"
+      ],
+      "typ_navrh": [
+        "obed",
+        "večera"
+      ],
+      "tagy": [
+        "tradičné"
+      ],
+      "suroviny": [
+        {
+          "nazov": "zemiaky veľké",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 500
+        },
+        {
+          "nazov": "kyslá kapusta",
+          "mnozstvo": 250,
+          "jednotka": "g",
+          "g_odhad": 250
+        },
+        {
+          "nazov": "cibuľa väčšia",
+          "mnozstvo": 2,
+          "jednotka": "ks",
+          "g_odhad": 300
+        },
+        {
+          "nazov": "bravčová masť",
+          "mnozstvo": 1,
+          "jednotka": "PL",
+          "g_odhad": 14
+        },
+        {
+          "nazov": "údená slanina",
+          "mnozstvo": 150,
+          "jednotka": "g",
+          "g_odhad": 150
+        },
+        {
+          "nazov": "rasca",
+          "mnozstvo": 1,
+          "jednotka": "ČL",
+          "g_odhad": 2
+        },
+        {
+          "nazov": "soľ a čierne korenie",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 0
+        }
+      ],
+      "postup": [
+        "Zemiaky nakrájaj na kocky a uvar domäkka v osolenej vode s rascou.",
+        "Jednu cibuľu nakrájaj nadrobno a opeč na masti, pridaj vyžmýkanú kyslú kapustu a 10 min podus.",
+        "Slaninu nakrájaj na malé kúsky a opeč, pridaj druhú cibuľu na prúžky a spolu opeč dozlatista.",
+        "Zemiaky sceď a roztlač pučidlom, primiešaj kapustu a časť slaniny s cibuľou, osoľ a okoreň. Na tanieri navrch pridaj zvyšnú slaninu s cibuľou."
+      ],
+      "tip": "Čas prípravy nie je uvedený (odhad ~40 min).",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Fondue (Švajčiarsko)",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": 86,
+      "porcie": 3,
+      "jednotka_porcie": "porcia",
+      "spolu_min": 20,
+      "vybavenie": [
+        "sporák",
+        "caquelon"
+      ],
+      "typ_navrh": [
+        "večera"
+      ],
+      "tagy": [
+        "vegetariánske",
+        "sviatočné"
+      ],
+      "suroviny": [
+        {
+          "nazov": "cesnak",
+          "mnozstvo": 1,
+          "jednotka": "strúčik",
+          "g_odhad": 4
+        },
+        {
+          "nazov": "mix syrov Gruyère, Appenzeller, Ementál (strúhaný)",
+          "mnozstvo": 500,
+          "jednotka": "g",
+          "g_odhad": 500
+        },
+        {
+          "nazov": "kukuričný škrob",
+          "mnozstvo": 2,
+          "jednotka": "PL",
+          "g_odhad": 16
+        },
+        {
+          "nazov": "suché biele víno",
+          "mnozstvo": 240,
+          "jednotka": "ml",
+          "g_odhad": 240
+        },
+        {
+          "nazov": "citrónová šťava",
+          "mnozstvo": 1,
+          "jednotka": "ČL",
+          "g_odhad": 5
+        },
+        {
+          "nazov": "čerešňovica alebo iná ovocná pálenka",
+          "mnozstvo": 1.5,
+          "jednotka": "PL",
+          "g_odhad": 22
+        },
+        {
+          "nazov": "soľ a čierne korenie",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 0
+        },
+        {
+          "nazov": "muškátový oriešok",
+          "mnozstvo": null,
+          "jednotka": "štipka",
+          "g_odhad": 0
+        }
+      ],
+      "postup": [
+        "Vnútro hrnca potri rozkrojeným cesnakom a nalej víno, podľa potreby s trochou citrónovej šťavy. Na miernom ohni zohrej tesne pod bod varu.",
+        "Syr premiešaj so škrobom a pridávaj ho do vína po menších dávkach; každú nechaj za stáleho miešania úplne rozpustiť, až potom pridaj ďalšiu, kým nevznikne hladká krémová hmota.",
+        "Osoľ, okoreň, pridaj štipku muškátového orieška a podľa chuti trochu čerešňovice.",
+        "Prelej do caquelonu a udržuj teplé nad sviečkou. Podávaj s nakrájaným pečivom alebo opečenými zemiakmi."
+      ],
+      "tip": "Obsahuje alkohol. Pečivo/zemiaky nie sú v surovinách.",
+      "vyziva_na_porciu": null
+    },
+    {
+      "nazov": "Sladká vínová polievka „Borleves“",
+      "zdroj": "F.O.O.D. 5/2026 (september–október)",
+      "strana": 87,
+      "porcie": 4,
+      "jednotka_porcie": "porcia",
+      "spolu_min": 15,
+      "vybavenie": [
+        "sporák"
+      ],
+      "typ_navrh": [
+        "dezert"
+      ],
+      "tagy": [
+        "vegetariánske",
+        "sladké",
+        "tradičné"
+      ],
+      "suroviny": [
+        {
+          "nazov": "suché biele víno",
+          "mnozstvo": 850,
+          "jednotka": "ml",
+          "g_odhad": 850
+        },
+        {
+          "nazov": "voda",
+          "mnozstvo": 180,
+          "jednotka": "ml",
+          "g_odhad": 180
+        },
+        {
+          "nazov": "cukor",
+          "mnozstvo": 100,
+          "jednotka": "g",
+          "g_odhad": 100
+        },
+        {
+          "nazov": "škoricové drievko",
+          "mnozstvo": 1,
+          "jednotka": "ks",
+          "g_odhad": 3
+        },
+        {
+          "nazov": "klinčeky",
+          "mnozstvo": 4,
+          "jednotka": "ks",
+          "g_odhad": 1
+        },
+        {
+          "nazov": "žĺtky",
+          "mnozstvo": 4,
+          "jednotka": "ks",
+          "g_odhad": 72
+        },
+        {
+          "nazov": "hrozienka na ozdobu",
+          "mnozstvo": null,
+          "jednotka": "podľa chuti",
+          "g_odhad": 15
+        }
+      ],
+      "postup": [
+        "Do hrnca nalej 700 ml vína a vodu, pridaj cukor, klinčeky a škoricu. Priveď do varu a zníž teplotu.",
+        "Žĺtky dobre vyšľahaj so zvyšnými 150 ml vína. Naberačkou odober trochu horúcej tekutiny a za stáleho šľahania ju pomaly prilievaj k žĺtkom; zopakuj s ďalšou naberačkou.",
+        "Žĺtkovú zmes za stáleho miešania pomaly vlej späť do hrnca a na miernom ohni miešaj, kým polievka mierne nezhustne – nevar, aby sa žĺtky nezrazili.",
+        "Vyber škoricu a klinčeky a hneď podávaj s hrozienkami."
+      ],
+      "tip": "Alkohol sa krátkym varom neodparí – nie pre deti a vodičov.",
+      "vyziva_na_porciu": null
+    }
+  ]
+}

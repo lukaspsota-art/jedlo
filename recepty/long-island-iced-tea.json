@@ -1,0 +1,77 @@
+{
+  "id": "long-island-iced-tea",
+  "nazov": "Long Island Iced Tea",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/long-island-iced-tea/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Silný long drink z piatich druhov alkoholu, citróna a coly. Farbou a chuťou pripomína ľadový čaj, ale čaj v ňom nie je.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Gin",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cola",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom.",
+    "Nalej všetky destiláty, triple sec, citrónovú šťavu a sirup a dolej colou.",
+    "Jemne premiešaj a ozdob plátkom citróna."
+  ],
+  "tipy": "Coly len toľko, aby drink stmavol do farby čaju — viac ho zbytočne osladí. Pozor, obsahuje takmer 75 ml destilátov.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "IBA"
+  ]
+}

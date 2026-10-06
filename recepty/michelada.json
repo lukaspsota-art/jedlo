@@ -1,0 +1,69 @@
+{
+  "id": "michelada",
+  "nazov": "Michelada",
+  "kategoria": "Kokteil",
+  "kuchyna": "Mexická",
+  "zdroj": "TheCocktailDB – Michelada",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178343",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Mexický pivný drink s paradajkou, limetkou a pikantnými omáčkami. Slaný a korenistý, obľúbený na kocovinu.",
+  "ingrediencie": [
+    {
+      "nazov": "Pivo",
+      "mnozstvo": 250,
+      "jednotka": "ml",
+      "poznamka": "svetlý ležiak"
+    },
+    {
+      "nazov": "Paradajkový džús",
+      "mnozstvo": 100,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Tabasco",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Worcesterská omáčka",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "pár kvapiek"
+    },
+    {
+      "nazov": "Sójová omáčka",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "pár kvapiek"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na okraj pohára"
+    }
+  ],
+  "postup": [
+    "Okraj veľkého pohára potri limetkou a obtoč v soli.",
+    "Do pohára s ľadom nalej paradajkový džús, limetkovú šťavu a omáčky a premiešaj.",
+    "Pomaly dolej vychladeným pivom."
+  ],
+  "tipy": "Do soli na okraj primiešaj trochu mletého čili alebo papriky.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "pivo"
+  ]
+}

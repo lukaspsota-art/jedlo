@@ -1,0 +1,35 @@
+{
+  "id": "caribbean-boilermaker",
+  "nazov": "Caribbean Boilermaker",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Caribbean Boilermaker",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17065",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Karibská obmena boilermakera: svetlé pivo s pridaným štamperlíkom bieleho rumu. Jednoduché a nie veľmi jemné.",
+  "ingrediencie": [
+    {
+      "nazov": "Pivo",
+      "mnozstvo": 330,
+      "jednotka": "ml",
+      "poznamka": "svetlý ležiak, napr. Corona"
+    },
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    }
+  ],
+  "postup": [
+    "Pivo nalej do veľkého pohára.",
+    "Pridaj rum a pi hneď."
+  ],
+  "tipy": "Pivo maj poriadne vychladené a rum tiež — teplý boilermaker nechutí nikomu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "pivo"
+  ]
+}

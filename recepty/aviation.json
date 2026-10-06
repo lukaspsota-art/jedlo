@@ -1,0 +1,57 @@
+{
+  "id": "aviation",
+  "nazov": "Aviation",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/aviation/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Svieži ginový sour s mandľovo-višňovým maraschinom a kvapkou fialkového likéru, ktorý mu dodá bledofialový nádych a kvetinovú vôňu.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Maraschino",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Fialkový likér",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "1 barová lyžička (crème de violette)"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Koktejlová višňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "nepovinne na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do šejkra nalej gin, maraschino, citrónovú šťavu a fialkový likér.",
+    "Pridaj drvený ľad a prudko pretrep.",
+    "Preceď do vychladeného kokteilového pohára, ak chceš, vlož doň koktejlovú višňu."
+  ],
+  "tipy": "S fialkovým likérom šetri – už dvojnásobná dávka urobí z drinku voňavé mydlo.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

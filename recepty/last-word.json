@@ -1,0 +1,49 @@
+{
+  "id": "last-word",
+  "nazov": "Last Word",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/last-word/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Štyri suroviny v rovnakom pomere: gin, zelený Chartreuse, maraschino a limetka. Výrazne bylinkový, sladkokyslý a prekvapivo vyvážený drink z čias prohibície.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zelený Chartreuse",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Maraschino",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra.",
+    "Pretrep s ľadom a preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "Zelený Chartreuse nemá náhradu – je to podstata drinku. Ak ho nemáš, priprav radšej iný kokteil.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

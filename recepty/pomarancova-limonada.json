@@ -1,0 +1,50 @@
+{
+  "id": "pomarancova-limonada",
+  "nazov": "Pomarančová limonáda",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Orangeade",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12618",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Pomarančová šťava s citrónom a sirupom doliata sódou. Chutí ako domáca oranžáda bez umelých farbív.",
+  "ingrediencie": [
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 150,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom.",
+    "Nalej pomarančovú a citrónovú šťavu a sirup, premiešaj.",
+    "Dolej sódou a podávaj so slamkou."
+  ],
+  "tipy": "Z čerstvo vytlačených pomarančov je limonáda omnoho lepšia než z krabicového džúsu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "nealko"
+  ]
+}

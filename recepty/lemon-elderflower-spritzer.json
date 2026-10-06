@@ -1,0 +1,56 @@
+{
+  "id": "lemon-elderflower-spritzer",
+  "nazov": "Lemon Elderflower Spritzer",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Lemon Elderflower Spritzer",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178360",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Bazový spritzer s vodkou a citrónom — kvetinový, jemne sladký a veľmi ľahký. Leto v pohári.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Bazový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom, pridaj vodku, bazový sirup a citrónovú šťavu.",
+    "Dolej sódu a premiešaj.",
+    "Ozdob plátkom citróna."
+  ],
+  "tipy": "Domáci bazový sirup z kvetov je silnejší než kúpený, začni s polovičnou dávkou a ochutnaj.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

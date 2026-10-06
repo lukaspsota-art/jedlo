@@ -1,0 +1,55 @@
+{
+  "id": "gin-smash",
+  "nazov": "Gin Smash",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Gin Smash",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11416",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ginová obdoba mojita bez sódy: čerstvá mäta, citrón a trocha cukru na drvenom ľade. Bylinkový a chladivý.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 8,
+      "jednotka": "lístok"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "vetvička na ozdobu"
+    }
+  ],
+  "postup": [
+    "V šejkri jemne roztlač mätu so sirupom.",
+    "Pridaj gin, citrónovú šťavu a ľad a pretrep.",
+    "Preceď do nízkeho pohára s drveným ľadom a ozdob vetvičkou mäty."
+  ],
+  "tipy": "Vetvičku mäty pred ozdobením tleskni medzi dlaňami — uvoľní vôňu, ktorú cítiš pri každom dúšku.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

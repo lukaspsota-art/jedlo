@@ -1,0 +1,63 @@
+{
+  "id": "jungle-bird",
+  "nazov": "Jungle Bird",
+  "kategoria": "Kokteil",
+  "kuchyna": "Malajzijská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/jungle-bird/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Horkosladký tiki drink z Kuala Lumpur, kde Campari a tmavý rum prekvapivo dobre ladia s ananásom.",
+  "ingrediencie": [
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "ideálne blackstrap"
+    },
+    {
+      "nazov": "Campari",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": "z demerara cukru"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kúsok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny pretrep v šejkri s ľadom.",
+    "Preceď do nízkeho pohára plného ľadu.",
+    "Ozdob kúskom ananásu."
+  ],
+  "tipy": "Hustý melasový rum je tu podstatný — s ľahkým bielym rumom Campari prehluší všetko ostatné.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

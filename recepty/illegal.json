@@ -1,0 +1,68 @@
+{
+  "id": "illegal",
+  "nazov": "Illegal",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/illegal/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Dymový mezcalový sour s korenistým falernom a tónom maraschina — newyorský pozdrav pašeráckym časom.",
+  "ingrediencie": [
+    {
+      "nazov": "Mezcal",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": "jamajský overproof"
+    },
+    {
+      "nazov": "Falernum",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Maraschino",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "1 barová lyžička"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "pár kvapiek, voliteľné"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra.",
+    "S ľadom ostro pretrep.",
+    "Preceď do vychladeného kokteilového pohára alebo na ľad do hlineného hrnčeka."
+  ],
+  "tipy": "Overproof rum má vyše 60 % — ak ho nemáš, bežný biely rum funguje, len drink bude jemnejší.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "mezcal",
+    "IBA"
+  ]
+}

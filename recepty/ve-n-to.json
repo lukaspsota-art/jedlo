@@ -1,0 +1,70 @@
+{
+  "id": "ve-n-to",
+  "nazov": "VE.N.TO",
+  "kategoria": "Kokteil",
+  "kuchyna": "Talianska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/ve-n-to/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Taliansky grappový sour s medom a harmančekom — jemný, kvetinový a prekvapivo hebký.",
+  "ingrediencie": [
+    {
+      "nazov": "Grappa",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "biela, jemná"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 7.5,
+      "jednotka": "ml",
+      "poznamka": "rozriedený s rovnakým dielom harmančekového čaju"
+    },
+    {
+      "nazov": "Harmančekový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "pár kvapiek, voliteľné"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    },
+    {
+      "nazov": "Hrozno",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "biele na ozdobu"
+    }
+  ],
+  "postup": [
+    "Med rozmiešaj s rovnakým množstvom teplého harmančekového čaju.",
+    "Všetky suroviny ostro pretrep s ľadom.",
+    "Preceď do malého nízkeho pohára s ľadom a ozdob citrónovou kôrkou a bielym hroznom."
+  ],
+  "tipy": "Harmančekový sirup si urobíš sám: silný čaj a cukor v pomere 1 : 1, krátko povariť.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "grappa",
+    "IBA"
+  ]
+}

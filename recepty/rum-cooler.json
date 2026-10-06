@@ -1,0 +1,45 @@
+{
+  "id": "rum-cooler",
+  "nazov": "Rum Cooler",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Rum Cooler",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12071",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Najjednoduchší letný rumový long drink: rum, citrónovo-limetková limonáda a veľa ľadu. Hotový za minútu.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sprite",
+      "mnozstvo": 120,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "mesiačik na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň takmer po okraj ľadom.",
+    "Nalej rum a dolej limonádu.",
+    "Jemne premiešaj a ozdob mesiačikom citróna."
+  ],
+  "tipy": "Do pohára vytlač aj šťavu z citrónového mesiačika — drink bude menej sladký.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

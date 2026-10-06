@@ -1,0 +1,80 @@
+{
+  "id": "bloody-mary",
+  "nazov": "Bloody Mary",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/bloody-mary/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Slaný, pikantný drink z vodky a paradajkového džúsu, dochutený worcesterskou omáčkou, tabascom a korením. Klasika na neskoré raňajky.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Paradajkový džús",
+      "mnozstvo": 90,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Worcesterská omáčka",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Tabasco",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "podľa chuti"
+    },
+    {
+      "nazov": "Soľ",
+      "mnozstvo": 1,
+      "jednotka": "štipka",
+      "poznamka": "zelerová"
+    },
+    {
+      "nazov": "Čierne korenie",
+      "mnozstvo": 1,
+      "jednotka": "štipka"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Zelerová vňať",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "stonka na ozdobu"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "mesiačik na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do miešacieho pohára s ľadom a jemne premiešaj.",
+    "Sceď do nízkeho pohára; ak chceš s ľadom, použi vysoký pohár plný ľadu.",
+    "Ozdob stonkou zeleru a mesiačikom citróna."
+  ],
+  "tipy": "Netras ho v šejkri — paradajkový džús by spenil a drink by bol riedky. Stačí miešať.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "IBA"
+  ]
+}

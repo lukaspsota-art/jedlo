@@ -1,0 +1,82 @@
+{
+  "id": "three-dots-and-a-dash",
+  "nazov": "Three Dots and a Dash",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Tiki drink pomenovaný podľa Morseovho V (víťazstvo) — korenistý, medový a citrusový, s dvoma druhmi rumu.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "martinický agricole"
+    },
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": "starnutý"
+    },
+    {
+      "nazov": "Falernum",
+      "mnozstvo": 7.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Likér z nového korenia",
+      "mnozstvo": 7.5,
+      "jednotka": "ml",
+      "poznamka": "allspice dram"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Med",
+      "mnozstvo": 7.5,
+      "jednotka": "ml",
+      "poznamka": "rozriedený s rovnakým dielom teplej vody"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "drvený"
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kúsok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do mixéra s asi 350 ml drveného ľadu.",
+    "Rozmixuj len na pár sekúnd a vylej do pohára na stopke.",
+    "Dosyp drvený ľad a ozdob tromi čerešňami a hranolčekom ananásu na špajdli."
+  ],
+  "tipy": "Ozdoba je súčasť mena: tri čerešne sú bodky, kúsok ananásu je čiarka.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

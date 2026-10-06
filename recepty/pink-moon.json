@@ -1,0 +1,56 @@
+{
+  "id": "pink-moon",
+  "nazov": "Pink Moon",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Pink Moon",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178354",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Kvetinovo-tropický drink z ginu, kokosového likéru, bazového sirupu a limetky, ozdobený ostružinami. Krémový a voňavý.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kokosový likér",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Bazový sirup",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Ostružiny",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "3–4 ks na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky tekuté suroviny pretrep s ľadom.",
+    "Preceď do nízkeho pohára s čerstvým ľadom.",
+    "Navrch polož ostružiny."
+  ],
+  "tipy": "Jednu ostružinu roztlač na dne pohára — drink dostane ružovú farbu, podľa ktorej je pomenovaný.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "likér"
+  ]
+}

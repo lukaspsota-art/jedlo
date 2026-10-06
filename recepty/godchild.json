@@ -1,0 +1,45 @@
+{
+  "id": "godchild",
+  "nazov": "Godchild",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Godchild",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11422",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krémová verzia Godmother: vodka, amaretto a smotana pretrepané do hladka. Sladký mandľový dezert v pohári na šampanské.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do šejkra s drveným ľadom.",
+    "Poriadne pretrep.",
+    "Preceď do vychladeného pohára na šampanské."
+  ],
+  "tipy": "Posyp ho nastrúhanými praženými mandľami — zvýrazní amaretto.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "likér"
+  ]
+}

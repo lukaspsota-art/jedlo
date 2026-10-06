@@ -1,0 +1,61 @@
+{
+  "id": "banana-daiquiri",
+  "nazov": "Banana Daiquiri",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Banana Daiquiri",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11064",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krémový mixovaný daiquiri so zrelým banánom a kvapkou pomarančového likéru. Hustý ako smoothie, no s riadnou rumovou chuťou.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Banán",
+      "mnozstvo": 0.5,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "hrsť"
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do mixéra daj banán, rum, triple sec, limetkovú šťavu, sirup a hrsť ľadu.",
+    "Mixuj, kým nie je drink hladký a hustý.",
+    "Nalej do vychladeného pohára a ozdob čerešňou."
+  ],
+  "tipy": "Najlepší je banán s hnedými škvrnami — je sladší a sirupu potom stačí menej.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "sazerac",
+  "nazov": "Sazerac",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/sazerac/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Drink z New Orleans: koňak s cukrom a Peychaudovým bitterom v pohári vypláchnutom absintom. Silný a aromatický, s jemnou anízovou vôňou.",
+  "ingrediencie": [
+    {
+      "nazov": "Koňak",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Absint",
+      "mnozstvo": 10,
+      "jednotka": "ml",
+      "poznamka": "na vypláchnutie pohára",
+      "vsiaknutie": 0.2
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 5,
+      "jednotka": "g",
+      "poznamka": "1 kocka"
+    },
+    {
+      "nazov": "Peychaudov bitter",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vychladený nízky pohár vypláchni absintom, nasyp doň drvený ľad a odlož bokom.",
+    "V miešacom pohári rozdrv kocku cukru s bitterom, pridaj koňak a ľad a dobre premiešaj.",
+    "Z pripraveného pohára vysyp ľad aj zvyšok absintu a preceď doň drink.",
+    "Ozdob citrónovou kôrkou."
+  ],
+  "tipy": "Pôvodne sa robil z koňaku, po americkej občianskej vojne ho nahradila ražná whisky – správne sú obe verzie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "brandy",
+    "IBA"
+  ]
+}

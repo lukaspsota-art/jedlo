@@ -1,0 +1,56 @@
+{
+  "id": "dirty-martini",
+  "nazov": "Dirty Martini",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Dirty Martini",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17181",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Martini so slaným tónom nálevu z olív. Suché, mierne slané a výrazné — pre tých, ktorí majú radšej olivy než sladké drinky.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Suchý vermút",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Nálev z olív",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Zelená oliva",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "1–2 ks na ozdobu"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "dielik na potretie okraja"
+    }
+  ],
+  "postup": [
+    "Vodku, vermút a nálev z olív vymiešaj alebo pretrep s ľadom do vychladnutia.",
+    "Okraj koktailového pohára potri dielikom citróna.",
+    "Preceď do pohára a vlož olivu na napichovátku."
+  ],
+  "tipy": "Ber nálev z kvalitných olív bez kôstok v slanom náleve, nie z marinovaných v oleji s cesnakom.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

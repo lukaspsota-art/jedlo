@@ -1,0 +1,40 @@
+{
+  "id": "godmother",
+  "nazov": "Godmother",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Godmother",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11424",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Mandľový „digestív“ z vodky a amaretta podávaný na ľade. Sladký, hladký a jednoduchý — vodková sestra Godfathera.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Nízky pohár naplň veľkými kockami ľadu.",
+    "Nalej vodku a amaretto.",
+    "Krátko premiešaj."
+  ],
+  "tipy": "Jedna veľká kocka ľadu sa topí pomalšie než hrsť malých — drink nezvodnie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "likér"
+  ]
+}

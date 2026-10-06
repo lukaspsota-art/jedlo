@@ -1,0 +1,35 @@
+{
+  "id": "kir",
+  "nazov": "Kir",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/kir/",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Burgundský aperitív: suché biele víno zafarbené kvapkou likéru z čiernych ríbezlí. Ľahký a ovocný.",
+  "ingrediencie": [
+    {
+      "nazov": "Víno",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": "suché biele, vychladené"
+    },
+    {
+      "nazov": "Crème de cassis",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    }
+  ],
+  "postup": [
+    "Do pohára na víno nalej ríbezľový likér.",
+    "Dolej vychladeným bielym vínom."
+  ],
+  "tipy": "So šampanským namiesto vína vznikne Kir Royal. Víno vyber kyslejšie, napríklad Veltlínske zelené.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "víno",
+    "IBA"
+  ]
+}

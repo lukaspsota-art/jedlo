@@ -1,0 +1,57 @@
+{
+  "id": "clover-club",
+  "nazov": "Clover Club",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/clover-club/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ružový ginový sour s malinovým sirupom a citrónom; trochu vaječného bielka mu dodá hodvábnu penu a zjemní kyslosť.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Malinový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "niekoľko kvapiek"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Maliny",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "čerstvé na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do šejkra nalej gin, malinový sirup, citrónovú šťavu a bielok.",
+    "Poriadne pretrep s ľadom a preceď do vychladeného kokteilového pohára.",
+    "Ozdob čerstvými malinami."
+  ],
+  "tipy": "Pre hustejšiu penu pretrep suroviny najprv bez ľadu a až potom s ľadom.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

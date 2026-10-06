@@ -1,0 +1,52 @@
+{
+  "id": "spritz-veneziano",
+  "nazov": "Spritz Veneziano",
+  "kategoria": "Kokteil",
+  "kuchyna": "Talianska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/spritz/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Benátsky aperitív z prosecca, Aperolu a štipky sódy — horkosladký, ľahký a ideálny pred večerou.",
+  "ingrediencie": [
+    {
+      "nazov": "Prosecco",
+      "mnozstvo": 90,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Aperol",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": "strek"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Veľký pohár na víno naplň ľadom.",
+    "Nalej prosecco, potom Aperol a strek sódy.",
+    "Jemne premiešaj a ozdob plátkom pomaranča."
+  ],
+  "tipy": "Aperol môžeš vymeniť za Campari alebo Select — v Benátkach sa pijú všetky tri.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér",
+    "IBA"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "blue-hurricane",
+  "nazov": "Blue Hurricane",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Blue Hurricane",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17268",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Modrá mixovaná obmena hurikánu z New Orleans: dva rumy, marakujový likér a blue curaçao. Ovocný, sladkokyslý a nápadný už farbou.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Maracujový likér",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Blue curaçao",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "1 hrnček drveného"
+    }
+  ],
+  "postup": [
+    "Všetky tekutiny nalej do mixéra a pridaj drvený ľad.",
+    "Krátko rozmixuj na hustú tríšť.",
+    "Nalej do vysokého pohára a podávaj s hrubou slamkou."
+  ],
+  "tipy": "Ak nemáš mixér, drink pretras s ľadom a nalej na drvený ľad — chuť bude rovnaká, len menej mrazivá.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

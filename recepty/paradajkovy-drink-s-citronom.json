@@ -1,0 +1,43 @@
+{
+  "id": "paradajkovy-drink-s-citronom",
+  "nazov": "Paradajkový drink s citrónom",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Tomato Tang",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12726",
+  "porcie": 2,
+  "cas": "3 min",
+  "popis": "Vychladený paradajkový džús okorenený citrónom a zelerovou soľou. Nealkoholický príbuzný bloody mary.",
+  "ingrediencie": [
+    {
+      "nazov": "Paradajkový džús",
+      "mnozstvo": 480,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zelerová soľ",
+      "mnozstvo": 1,
+      "jednotka": "štipka"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Džús, citrónovú šťavu a zelerovú soľ krátko rozmixuj.",
+    "Nalej do dvoch pohárov s ľadom."
+  ],
+  "tipy": "Kto má rád pikantné, pridá pár kvapiek tabasca a mleté čierne korenie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "nealko"
+  ]
+}

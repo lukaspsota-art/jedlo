@@ -1,0 +1,52 @@
+{
+  "id": "planters-punch",
+  "nazov": "Planter's Punch",
+  "kategoria": "Kokteil",
+  "kuchyna": "Karibská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/planters-punch/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Jamajský rumový punč podľa starého pravidla „kyslé, sladké, silné“: tmavý rum s limetkou a šťavou z cukrovej trstiny, zriedený podľa chuti.",
+  "ingrediencie": [
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "jamajský"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Šťava z cukrovej trstiny",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do malého pohára nalej rum, limetkovú šťavu a šťavu z cukrovej trstiny.",
+    "Rozrieď podľa chuti ľadom, vodou alebo čerstvým ovocným džúsom a premiešaj.",
+    "Ozdob pomarančovou kôrkou."
+  ],
+  "tipy": "Šťavu z cukrovej trstiny u nás zoženieš ťažko – nahraď ju 15 ml cukrového sirupu z trstinového cukru a 15 ml vody.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

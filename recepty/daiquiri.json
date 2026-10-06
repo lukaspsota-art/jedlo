@@ -1,0 +1,47 @@
+{
+  "id": "daiquiri",
+  "nazov": "Daiquiri",
+  "kategoria": "Kokteil",
+  "kuchyna": "Kubánska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/daiquiri/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Kubánska klasika z troch surovín: biely rum, limetka a cukor. Svieža, kyslosladká a čistá – bez jahôd a bez mixéra.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "kubánsky"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 2,
+      "jednotka": "ČL",
+      "poznamka": "jemný, 2 barové lyžičky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Do šejkra nalej rum a limetkovú šťavu, pridaj cukor a miešaj, kým sa nerozpustí.",
+    "Pridaj ľad a dôkladne pretrep.",
+    "Preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "Limetku vytlač tesne pred miešaním – stará šťava zhorkne a drink stratí sviežosť.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

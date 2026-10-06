@@ -1,0 +1,60 @@
+{
+  "id": "strawberry-margarita",
+  "nazov": "Strawberry Margarita",
+  "kategoria": "Kokteil",
+  "kuchyna": "Mexická",
+  "zdroj": "TheCocktailDB – Strawberry Margarita",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12322",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ovocná margarita s čerstvými jahodami a jahodovým likérom. Sladšia než klasika, no tequila v nej je stále cítiť.",
+  "ingrediencie": [
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Jahodový likér",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 60,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na okraj pohára"
+    }
+  ],
+  "postup": [
+    "Okraj pohára navlhči limetkovou šťavou a obtoč v cukre.",
+    "Jahody roztlač v šejkri, pridaj ostatné tekutiny a ľad a pretras.",
+    "Dvojito preceď do pohára, aby v ňom neboli jadierka."
+  ],
+  "tipy": "K jahodám sa viac hodí cukrový okraj než soľ, ale soľ s jahodou je zaujímavý kontrast — vyskúšaj.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "tequila"
+  ]
+}

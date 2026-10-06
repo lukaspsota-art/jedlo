@@ -1,0 +1,45 @@
+{
+  "id": "whitecap-margarita",
+  "nazov": "Whitecap Margarita",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Whitecap Margarita",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/16158",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krémová mixovaná margarita so sladkým kokosovým krémom. Pripomína piña coladu, ale namiesto rumu má tequilu a limetku.",
+  "ingrediencie": [
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kokosový krém",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "1 hrnček"
+    }
+  ],
+  "postup": [
+    "Tequilu, kokosový krém a limetkovú šťavu daj do mixéra s ľadom.",
+    "Mixuj, kým nie je drink hladký.",
+    "Nalej do širokého pohára na margaritu."
+  ],
+  "tipy": "Kokosový krém pred odmeraním premiešaj — v plechovke sa oddeľuje hustá časť od tekutej.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "tequila"
+  ]
+}

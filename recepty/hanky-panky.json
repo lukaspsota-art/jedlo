@@ -1,0 +1,51 @@
+{
+  "id": "hanky-panky",
+  "nazov": "Hanky Panky",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/hanky-panky/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Gin a sladký vermút v rovnakom pomere, ktoré trocha Fernetu posunie do bylinkovej, mentolovo horkej polohy. Vymyslela ho Ada Colemanová v londýnskom hoteli Savoy.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "London Dry"
+    },
+    {
+      "nazov": "Sladký vermút",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Fernet",
+      "mnozstvo": 7.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do miešacieho pohára s ľadom nalej gin, vermút a Fernet a dobre premiešaj.",
+    "Preceď do vychladeného kokteilového pohára a ozdob pomarančovou kôrkou."
+  ],
+  "tipy": "Fernet odmeraj presne – je veľmi výrazný a dvojnásobná dávka prekryje všetko ostatné.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

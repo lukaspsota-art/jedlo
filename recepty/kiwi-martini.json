@@ -1,0 +1,51 @@
+{
+  "id": "kiwi-martini",
+  "nazov": "Kiwi Martini",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Kiwi Martini",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178359",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Sviežo zelený krátky drink z čerstvého kiwi, vodky a sirupu. Ovocný, mierne kyslý a jednoduchý na prípravu.",
+  "ingrediencie": [
+    {
+      "nazov": "Kiwi",
+      "mnozstvo": 0.5,
+      "jednotka": "ks",
+      "poznamka": "olúpané"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Kiwi",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "koliesko na ozdobu"
+    }
+  ],
+  "postup": [
+    "Kiwi nakrájaj a v šejkri ho roztlač so sirupom.",
+    "Pridaj vodku a ľad a poriadne pretrep.",
+    "Preceď cez jemné sitko do vychladeného koktailového pohára a ozdob kolieskom kiwi."
+  ],
+  "tipy": "Jemné sitko je nutnosť — zachytí čierne semienka, ktoré by inak plávali v drinku.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

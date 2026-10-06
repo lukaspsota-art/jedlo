@@ -1,0 +1,85 @@
+{
+  "id": "zombie",
+  "nazov": "Zombie",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/zombie/",
+  "porcie": 1,
+  "cas": "10 min",
+  "popis": "Silný tiki drink z troch rumov, limetky, grapefruitu, škorice a korenistého sirupu falernum. Ovocný, korenistý a zradne silný.",
+  "ingrediencie": [
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 75,
+      "jednotka": "ml",
+      "poznamka": "45 ml jamajského a 30 ml demerara"
+    },
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "zlatý; portorický"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Falernum",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grapefruitový džús",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Škoricový sirup",
+      "mnozstvo": 5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "1 kvapka"
+    },
+    {
+      "nazov": "Absint",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "6 kvapiek, alebo Pernod"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "lístky na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do mixéra s asi 170 g drveného ľadu.",
+    "Rozmixuj len niekoľkými krátkymi pulzmi.",
+    "Vylej do vysokého pohára a ozdob mätou."
+  ],
+  "tipy": "Grapefruitová šťava a škoricový sirup v pomere 2 : 1 nahrádzajú tajnú zmes Donn's Mix. Viac ako jeden Zombie za večer sa neodporúča — obsahuje 120 ml rumu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

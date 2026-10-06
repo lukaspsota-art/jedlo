@@ -1,0 +1,65 @@
+{
+  "id": "sangria",
+  "nazov": "Sangria",
+  "kategoria": "Kokteil",
+  "kuchyna": "Španielska",
+  "zdroj": "TheCocktailDB – Sangria",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/13020",
+  "porcie": 6,
+  "cas": "15 min + 2 h",
+  "popis": "Španielsky ovocný punč z červeného vína, pomaranča a citróna, ochutený škoricou a klinčekmi. Najlepší po niekoľkých hodinách v chlade.",
+  "ingrediencie": [
+    {
+      "nazov": "Červené víno",
+      "mnozstvo": 750,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 250,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 100,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": 1,
+      "jednotka": "ks",
+      "poznamka": "na plátky"
+    },
+    {
+      "nazov": "Škorica",
+      "mnozstvo": 1,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Klinčeky",
+      "mnozstvo": 3,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "V džbáne rozmiešaj cukor so šťavami, kým sa nerozpustí.",
+    "Nalej víno, pridaj plátky pomaranča, škoricu a klinčeky.",
+    "Nechaj aspoň dve hodiny odležať v chladničke a podávaj s ľadom."
+  ],
+  "tipy": "Na sangriu stačí lacné, ale nie kyslé červené víno — ovocie a korenie chybu nezakryjú.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "víno"
+  ]
+}

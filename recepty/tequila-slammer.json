@@ -1,0 +1,34 @@
+{
+  "id": "tequila-slammer",
+  "nazov": "Tequila Slammer",
+  "kategoria": "Kokteil",
+  "kuchyna": "Mexická",
+  "zdroj": "TheCocktailDB – Tequila Slammer",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178307",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Párty shot, ktorý sa pije na jeden hlt: tequila so sýtenou limonádou. Bublinky sa uvoľnia úderom pohára o stôl.",
+  "ingrediencie": [
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sprite",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    }
+  ],
+  "postup": [
+    "Do pevného nízkeho pohára nalej tequilu a opatrne dolej limonádu.",
+    "Pohár zakry dlaňou a raz ním rázne buchni o stôl.",
+    "Kým drink šumí, vypi ho naraz."
+  ],
+  "tipy": "Používaj pohár s hrubým dnom — tenké sklo úder o stôl nevydrží.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "tequila"
+  ]
+}

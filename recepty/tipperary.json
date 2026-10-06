@@ -1,0 +1,57 @@
+{
+  "id": "tipperary",
+  "nazov": "Tipperary",
+  "kategoria": "Kokteil",
+  "kuchyna": "Írska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/tipperary/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Miešaný írsky drink príbuzný Manhattanu — whisky, sladký vermút a bylinná sila zeleného Chartreuse.",
+  "ingrediencie": [
+    {
+      "nazov": "Írska whisky",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sladký vermút",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zelený Chartreuse",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do miešacieho pohára s ľadom.",
+    "Miešaj asi pol minúty, kým sa pohár neorosí.",
+    "Preceď do vychladeného kokteilového pohára a ozdob pomarančom."
+  ],
+  "tipy": "Miešaj, netras — miešaný drink ostane číry a hodvábny.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky",
+    "IBA"
+  ]
+}

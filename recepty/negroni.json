@@ -1,0 +1,51 @@
+{
+  "id": "negroni",
+  "nazov": "Negroni",
+  "kategoria": "Kokteil",
+  "kuchyna": "Talianska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/negroni/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Florentský aperitív v pomere 1 : 1 : 1 – gin, Campari a sladký vermút. Horký, bylinkový a sladký zároveň, s vôňou pomaranča.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Campari",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sladký vermút",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "pol kolieska na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vychladený nízky pohár naplň ľadom.",
+    "Nalej gin, Campari a sladký vermút priamo do pohára a jemne premiešaj.",
+    "Ozdob polovicou pomarančového kolieska."
+  ],
+  "tipy": "Použi veľké kocky ľadu – topia sa pomalšie, takže drink sa nezriedi skôr, než ho dopiješ.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

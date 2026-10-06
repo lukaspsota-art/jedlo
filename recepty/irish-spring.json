@@ -1,0 +1,67 @@
+{
+  "id": "irish-spring",
+  "nazov": "Irish Spring",
+  "kategoria": "Kokteil",
+  "kuchyna": "Írska",
+  "zdroj": "TheCocktailDB – Irish Spring",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11528",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ovocný long drink s írskou whisky, broskyňovým likérom a pomarančom. Ľahký a jarne svieži.",
+  "ingrediencie": [
+    {
+      "nazov": "Whisky",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "írska"
+    },
+    {
+      "nazov": "Broskyňový likér",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom.",
+    "Nalej všetky tekutiny a premiešaj.",
+    "Ozdob plátkom pomaranča a čerešňou."
+  ],
+  "tipy": "Írska whisky je jemnejšia než škótska — preto ju tu nenahrádzaj dymovou whisky.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky"
+  ]
+}

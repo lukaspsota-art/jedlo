@@ -1,0 +1,40 @@
+{
+  "id": "pink-gin",
+  "nazov": "Pink Gin",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "TheCocktailDB – Pink Gin",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11936",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Pôvodný „ružový gin“ britských dôstojníkov: čistý gin zafarbený pár kvapkami horkého Angosturového bitteru. Silný, korenistý a bez cukru.",
+  "ingrediencie": [
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "3 kvapky"
+    },
+    {
+      "nazov": "Gin",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Nakvapkaj Angosturu do pohára a vykrúž ňou steny, prebytok vylej.",
+    "Gin vymiešaj s ľadom v inom pohári, aby vychladol.",
+    "Preceď do pripraveného pohára a podávaj bez ľadu."
+  ],
+  "tipy": "S dnešnými ružovými ochutenými ginmi nemá nič spoločné — farbu mu dáva len bitter.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

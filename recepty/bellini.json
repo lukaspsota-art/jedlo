@@ -1,0 +1,35 @@
+{
+  "id": "bellini",
+  "nazov": "Bellini",
+  "kategoria": "Kokteil",
+  "kuchyna": "Talianska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/bellini/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Jemný benátsky aperitív z prosecca a pyré z bielych broskýň. Je ľahký, ovocný a len nenápadne sladký.",
+  "ingrediencie": [
+    {
+      "nazov": "Prosecco",
+      "mnozstvo": 100,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Broskyňové pyré",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": "z bielych broskýň"
+    }
+  ],
+  "postup": [
+    "Pyré nalej do miešacieho pohára s ľadom a prilej prosecco.",
+    "Opatrne premiešaj, aby víno nevyprchalo, a sceď do vychladeného pohára na šampanské."
+  ],
+  "tipy": "Pyré si urobíš sám: zrelú broskyňu bez šupky rozmixuj s kvapkou citrónu, aby nezhnedla.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "víno",
+    "IBA"
+  ]
+}

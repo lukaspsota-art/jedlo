@@ -1,0 +1,45 @@
+{
+  "id": "vodka-martini",
+  "nazov": "Vodka Martini",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Vodka Martini",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/14167",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Čisté a suché martini, v ktorom gin nahrádza vodka. Neutrálnejšie a jemnejšie než ginová verzia, podávané s olivou.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Suchý vermút",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Zelená oliva",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vodku a vermút daj do pohára s veľkým množstvom ľadu.",
+    "Miešaj barovou lyžičkou asi 30 sekúnd (alebo pretrep, ak ho chceš „shaken, not stirred“).",
+    "Preceď do vychladeného koktailového pohára a pridaj olivu."
+  ],
+  "tipy": "Vermút skladuj otvorený v chladničke — je to víno a za mesiac pri izbovej teplote zoxiduje.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

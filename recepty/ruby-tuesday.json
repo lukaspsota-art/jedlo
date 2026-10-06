@@ -1,0 +1,50 @@
+{
+  "id": "ruby-tuesday",
+  "nazov": "Ruby Tuesday",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Ruby Tuesday",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17114",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Rubínový longdrink z ginu a brusnicového džúsu s troškou grenadíny. Trpkokyslý, ovocný a nenáročný na prípravu.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Brusnicový džús",
+      "mnozstvo": 120,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kolieska na ozdobu"
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom, nalej gin a brusnicový džús.",
+    "Pridaj grenadínu a premiešaj.",
+    "Ozdob kolieskom limetky."
+  ],
+  "tipy": "Vytlač doň dielik limetky — brusnicu pekne prebudí.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

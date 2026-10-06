@@ -1,0 +1,51 @@
+{
+  "id": "garibaldi-negroni",
+  "nazov": "Garibaldi Negroni",
+  "kategoria": "Kokteil",
+  "kuchyna": "Talianska",
+  "zdroj": "TheCocktailDB – Garibaldi Negroni",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178340",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Campari a gin rozriedené pomarančovým džúsom — prístupnejší, ovocný a menej horký príbuzný negroni.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Campari",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 90,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Gin, Campari a pomarančový džús krátko pretrep s ľadom.",
+    "Nalej do vysokého pohára s ľadom.",
+    "Ozdob plátkom pomaranča."
+  ],
+  "tipy": "Pretrepaním sa džús napení a drink je nadýchanejší — to je trik pôvodného Garibaldi.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "likér"
+  ]
+}

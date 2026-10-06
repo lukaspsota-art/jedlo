@@ -1,0 +1,56 @@
+{
+  "id": "munich-mule",
+  "nazov": "Munich Mule",
+  "kategoria": "Kokteil",
+  "kuchyna": "Nemecká",
+  "zdroj": "TheCocktailDB – Munich Mule",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178315",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Mníchovský variant Moscow Mule, v ktorom vodku nahrádza gin. Zázvorové pivo, limetka a uhorka mu dávajú pikantnú sviežosť.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zázvorové pivo",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Uhorka",
+      "mnozstvo": 3,
+      "jednotka": "plátok"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kolieska na ozdobu"
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom a vlož plátky uhorky.",
+    "Nalej gin a limetkovú šťavu.",
+    "Dolej zázvorové pivo, premiešaj a ozdob limetkou."
+  ],
+  "tipy": "Podávaj v medenom hrnčeku, ak ho máš — kov drink drží dlhšie studený.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

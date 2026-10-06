@@ -1,0 +1,45 @@
+{
+  "id": "jacks-vanilla-coke",
+  "nazov": "Jack's Vanilla Coke",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Jack's Vanilla Coke",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/16275",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Whisky s colou, ktorú vylepší kvapka vanilky. Klasický americký long drink s príjemne sladkou dochuťou.",
+  "ingrediencie": [
+    {
+      "nazov": "Whisky",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": "tennesseeská, napr. Jack Daniel's"
+    },
+    {
+      "nazov": "Vanilkový extrakt",
+      "mnozstvo": 0.5,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Cola",
+      "mnozstvo": 200,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom.",
+    "Nalej whisky a vanilkový extrakt, dolej colou.",
+    "Premiešaj odspodu, aby vanilka neostala na dne."
+  ],
+  "tipy": "Colu kupuj v malých fľašiach — veľká fľaša po otvorení rýchlo stratí bublinky.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky"
+  ]
+}

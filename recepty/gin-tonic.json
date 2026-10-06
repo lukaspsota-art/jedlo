@@ -1,0 +1,46 @@
+{
+  "id": "gin-tonic",
+  "nazov": "Gin Tonic",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "TheCocktailDB – Gin Tonic",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178365",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Najjednoduchší longdrink s ginom: borievková vôňa ginu, horkosť chinínu v tonicu a jemná citrusová nota. Svieži, suchý a ľahko sa pije.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Tonic",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka alebo plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň až po okraj ľadom.",
+    "Nalej gin a pomaly dolej vychladený tonic po lyžičke, aby nevyprchal.",
+    "Nad pohárom stlač citrónovú kôrku, vlož ju dnu a raz jemne premiešaj."
+  ],
+  "tipy": "Čím viac ľadu, tým pomalšie sa drink riedi — poloprázdny pohár ľadu je najčastejšia chyba.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

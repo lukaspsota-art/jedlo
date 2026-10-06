@@ -1,0 +1,75 @@
+{
+  "id": "mai-tai",
+  "nazov": "Mai Tai",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/mai-tai/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Tiki klasika z dvoch tmavých rumov, limetky, pomarančového likéru a mandľového sirupu. Plná, orieškovo kyslá chuť.",
+  "ingrediencie": [
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "30 ml jamajského a 30 ml z Martiniku"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": "pomarančový curaçao"
+    },
+    {
+      "nazov": "Orgeat",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 7.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kúsok na ozdobu"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "lístky na ozdobu"
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra s ľadom.",
+    "Pretras a vylej aj s ľadom do širokého nízkeho alebo vysokého pohára.",
+    "Ozdob kúskom ananásu, mätou a limetkovou kôrkou."
+  ],
+  "tipy": "Orgeat (mandľový sirup) je to, čo robí Mai Tai — nenahrádzaj ho amarettom ani obyčajným cukrom.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

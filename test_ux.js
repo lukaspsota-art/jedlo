@@ -721,6 +721,41 @@ ok("_rozbal prepustí hotové dáta a rozbalí base64 reťazec", () => {
     "base64 DEFLATE sa musí rozbaliť na pôvodné dáta");
 });
 
+// ─────────────────────────────────────────────────────────── v32 „Čo uvarím z toho, čo mám"
+nadpis("v32 — „🍳 Čo uvarím z toho, čo mám“");
+const receptDoma = (id) => ({ id, nazov: id, kategoria: "Hlavné jedlo", kuchyna: "", porcie: 2, kcal_na_porciu: 400,
+  postup: [], tagy: [], ingrediencie: [
+    { nazov: "Vajcia", mnozstvo: 4, jednotka: "ks" }, { nazov: "Syr", mnozstvo: 100, jednotka: "g" },
+    { nazov: "Soľ", mnozstvo: null, jednotka: "" }, { nazov: "Čierne korenie", mnozstvo: 1, jednotka: "g" },
+    { nazov: "Olivový olej", mnozstvo: 2, jednotka: "PL" }] });
+ok("skloňovanie („vajce“ = Vajcia) a soľ/korenie/olej sa nerátajú ako chýbajúce", () => {
+  const app = novy();
+  const s = app.skoreReceptu(receptDoma("doma-1"), ["vajce", "syr"]);
+  assert.deepStrictEqual([s.mame, s.spolu, s.chyba.length], [2, 2, 0], JSON.stringify(s));
+});
+ok("na čele je recept, ktorý uvaríš hneď; žiadny kúpený výrobok ani nápoj", () => {
+  const app = novy();
+  const z = app.coUvarim(["zemiaky", "vajce", "mlieko", "muka", "maslo"]);
+  assert.ok(z.length && z[0].chyba.length === 0, "prvý výsledok musí mať 0 chýbajúcich");
+  const zle = z.filter(x => app.jeVyrobok(x.r) || x.r.kategoria === "Nápoj" || x.r.kategoria === "Kokteil");
+  assert.strictEqual(zle.length, 0, "vo výsledkoch: " + zle.slice(0, 3).map(x => x.r.nazov).join(", "));
+});
+ok("radenie: menej chýbajúcich vyššie, pri zhode viac využitých surovín", () => {
+  const z = novy().coUvarim(["vajcia", "syr", "paprika", "cestoviny", "cibula"]);
+  for (let i = 1; i < z.length; i++) {
+    const a = z[i - 1], b = z[i];
+    assert.ok(a.chyba.length < b.chyba.length || (a.chyba.length === b.chyba.length && a.mame >= b.mame),
+      `poradie ${i}: ${a.r.nazov} (${a.mame}/${a.chyba.length}) pred ${b.r.nazov} (${b.mame}/${b.chyba.length})`);
+  }
+});
+ok("„+ do nákupu“ pridá len to, čo naozaj chýba (bez soli a korenia)", () => {
+  const app = novy();
+  vloz(app, receptDoma("doma-2"));
+  app.S.mamDoma = "vajce"; app.S.nakupManual = [];
+  app.pridajChybajuceDoNakupu("doma-2");
+  assert.deepStrictEqual(app.S.nakupManual.map(m => m.nazov), ["Syr"]);
+});
+
 // ─────────────────────────────────────────────────────────── audit 30. 9. — Balík 1
 nadpis("\nAudit 30. 9. — synchronizácia, vlastný recept, uložené jedálničky, diéta");
 ok("bez Sync ID a prihlásenia nesvieti „Synchronizované“; offline bez zmien nesľubuje nahratie", () => {
@@ -1044,6 +1079,48 @@ ok("časovač ráta podľa hodín; ťuk na bežiaci a zavretie varenia sa najprv
   odpoved = true; await app.zavriCook();
   assert.ok(!app.document.getElementById("cook").classList.contains("open") && cas().length === 0);
   assert.strictEqual(otazok, 3);
+});
+
+// ─────────────────────────────────────────────────────────── v33 „🍸 Môj bar"
+nadpis("v33 — „🍸 Môj bar“ (čo namiešam z toho, čo mám)");
+const kokteil = (id, ing) => ({ id, nazov: id, kategoria: "Kokteil", kuchyna: "", porcie: 1, postup: [], tagy: [],
+  ingrediencie: ing.map(([nazov, mnozstvo]) => ({ nazov, mnozstvo, jednotka: mnozstvo == null ? "" : "ml" })) });
+const MOJITO = [["Biely rum", 50], ["Limetková šťava", 25], ["Cukrový sirup", 20], ["Mäta", 6], ["Sóda", 60], ["Ľad", null], ["Limetka", null]];
+ok("ľad a ozdoba bez množstva sa nerátajú; plný bar = namiešaš hneď, bez sódy chýba práve sóda", () => {
+  const app = novy(), r = vloz(app, kokteil("t-mojito", MOJITO));
+  const k = n => app.barKluc({ nazov: n });
+  const plny = new Set(MOJITO.filter(x => x[1] != null).map(x => k(x[0])));
+  assert.deepEqual(app.barSkore(r, plny).chyba, []);
+  assert.strictEqual(app.barSkore(r, plny).spolu, 5, "ľad alebo ozdoba sa započítali");
+  plny.delete(k("Sóda"));
+  assert.deepEqual(app.barSkore(r, plny).chyba, [k("Sóda")]);
+});
+ok("čo dokúpiť: vec, ktorá ako jediná chýba najviacerým drinkom, je prvá", () => {
+  const app = novy();
+  const zoz = [kokteil("t-gt", [["Gin", 50], ["Tonic", 100]]), kokteil("t-vt", [["Vodka", 50], ["Tonic", 100]]),
+    kokteil("t-gs", [["Gin", 50], ["Sóda", 100]])].map(r => vloz(app, r));
+  const k = n => app.barKluc({ nazov: n });
+  const d = app.coDokupit(zoz, new Set([k("Gin"), k("Vodka")]));
+  assert.deepEqual(d[0], [k("Tonic"), 2]);
+});
+ok("všeobecnú „Whisky“ splní bourbon, ale „Bourbon“ nesplní holá whisky; biely a tmavý rum sú dve fľaše", () => {
+  const app = novy(), k = n => app.barKluc({ nazov: n });
+  const hb = vloz(app, kokteil("t-hb", [["Whisky", 50], ["Sóda", 100]])), of = vloz(app, kokteil("t-of", [["Bourbon", 50]]));
+  assert.deepEqual(app.barSkore(hb, new Set([k("Bourbon"), k("Sóda")])).chyba, []);
+  assert.deepEqual(app.barSkore(of, new Set([k("Whisky")])).chyba, [k("Bourbon")]);
+  assert.notStrictEqual(k("Biely rum"), k("Tmavý rum"));
+});
+ok("rodina drinku podľa hlavného alkoholu; bez alkoholu = Nealko", () => {
+  const app = novy();
+  assert.strictEqual(app.zakladDrinku(kokteil("t-m", MOJITO)), "Rum");
+  assert.strictEqual(app.zakladDrinku(kokteil("t-n", [["Pomarančová šťava", 100], ["Grenadína", 10]])), "Nealko");
+});
+ok("S.bar prežije poškodený stav a názov suroviny sa v okne escapuje", () => {
+  assert.strictEqual(load({ stav: { bar: 42 } }).S.bar, "");
+  const app = novy(); vloz(app, kokteil("t-x", [['<img src=x onerror=alert(1)>', 30]]));
+  app.otvorBar();
+  const h = app.document.getElementById("bar-zoz").innerHTML;
+  assert.ok(h.includes("&lt;img") && !h.includes("<img"), "XSS cez názov suroviny");
 });
 
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });

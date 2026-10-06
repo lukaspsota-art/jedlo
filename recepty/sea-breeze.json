@@ -1,0 +1,51 @@
+{
+  "id": "sea-breeze",
+  "nazov": "Sea Breeze",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/sea-breeze/",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Ľahký long drink z vodky, brusníc a grapefruitu. Kyslastý, mierne horký a veľmi osviežujúci.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Brusnicový džús",
+      "mnozstvo": 120,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grapefruitový džús",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom.",
+    "Nalej vodku, brusnicový a grapefruitový džús a zľahka premiešaj.",
+    "Ozdob pomarančovou kôrkou."
+  ],
+  "tipy": "Grapefruit nalej až na koniec — ostane navrchu a prvý dúšok bude sviežejší.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "IBA"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "paper-plane",
+  "nazov": "Paper Plane",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/paper-plane/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Vyvážený drink v rovnakých dieloch, kde bourbon, bylinné amaro a Aperol tvoria horkosladkú, citrusovo svieži celok.",
+  "ingrediencie": [
+    {
+      "nazov": "Bourbon",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Amaro",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "Amaro Nonino"
+    },
+    {
+      "nazov": "Aperol",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do šejkra s ľadom.",
+    "Dobre pretrep a preceď do vychladeného kokteilového pohára."
+  ],
+  "tipy": "Amaro Nonino sa nahrádza ťažko; iné amaro funguje, len drink bude horkejší.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky",
+    "IBA"
+  ]
+}

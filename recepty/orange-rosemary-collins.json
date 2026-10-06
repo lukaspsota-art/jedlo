@@ -1,0 +1,68 @@
+{
+  "id": "orange-rosemary-collins",
+  "nazov": "Orange Rosemary Collins",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Orange Rosemary Collins",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178341",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Collins s pomarančom a rozmarínom — bylinkovo-citrusový, perlivý a voňavý. Výborný na jesenné posedenie.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": "rozmarínový, pozri tip"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Rozmarín",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "vetvička na ozdobu"
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do vysokého pohára s ľadom nalej gin, pomarančovú a citrónovú šťavu a rozmarínový cukrový sirup.",
+    "Dolej sódu a premiešaj.",
+    "Ozdob plátkom pomaranča a vetvičkou rozmarínu."
+  ],
+  "tipy": "Rozmarínový sirup: 100 g cukru, 100 ml vody a 2 vetvičky povar 5 minút a nechaj vychladnúť.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

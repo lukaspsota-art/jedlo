@@ -1,0 +1,51 @@
+{
+  "id": "jahodova-limonada",
+  "nazov": "Jahodová limonáda",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Strawberry Lemonade",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/13036",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Rozmixované zrelé jahody s citrónom a vodou. Hustá ružová limonáda, ktorá chutí ako leto.",
+  "ingrediencie": [
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 120,
+      "jednotka": "g",
+      "poznamka": "8–10 kusov"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "z 1 citróna"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 1,
+      "jednotka": "PL"
+    },
+    {
+      "nazov": "Voda",
+      "mnozstvo": 250,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Jahody, citrónovú šťavu, cukor a vodu daj do mixéra.",
+    "Rozmixuj dohladka.",
+    "Nalej do pohára na ľad."
+  ],
+  "tipy": "Vodu môžeš nahradiť sódou — vmiešaj ju až po rozmixovaní, inak vyprchá.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "nealko"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "boulevardier",
+  "nazov": "Boulevardier",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/boulevardier/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Whisková verzia Negroni: bourbon namiesto ginu dodá horkému Campari a vermútu hrejivú vanilkovo-karamelovú hĺbku.",
+  "ingrediencie": [
+    {
+      "nazov": "Bourbon",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "alebo ražná whisky"
+    },
+    {
+      "nazov": "Campari",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sladký vermút",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do miešacieho pohára s ľadom nalej bourbon, Campari a sladký vermút.",
+    "Dobre premiešaj a preceď do vychladeného kokteilového pohára.",
+    "Ozdob pomarančovou kôrkou, prípadne citrónovou."
+  ],
+  "tipy": "Miešaj, netrep – drink má zostať číry a hodvábny, šejker by ho zakalil a prevzdušnil.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky",
+    "IBA"
+  ]
+}

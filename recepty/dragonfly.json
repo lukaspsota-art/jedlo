@@ -1,0 +1,46 @@
+{
+  "id": "dragonfly",
+  "nazov": "Dragonfly",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Dragonfly",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11320",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Jednoduchý highball z ginu a zázvorovej limonády s limetkou. Jemne pikantný, menej ostrý než drinky so zázvorovým pivom.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zázvorová limonáda",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "ginger ale, doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "dielik"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom a nalej gin.",
+    "Dolej zázvorovú limonádu a premiešaj.",
+    "Vytlač do pohára dielik limetky a nechaj ho v ňom."
+  ],
+  "tipy": "Ginger ale je jemnejší a sladší než zázvorové pivo; ak máš len to, pridaj 10 ml limetkovej šťavy.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}

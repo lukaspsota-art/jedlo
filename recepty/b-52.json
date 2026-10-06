@@ -1,0 +1,40 @@
+{
+  "id": "b-52",
+  "nazov": "B-52",
+  "kategoria": "Kokteil",
+  "kuchyna": "Kanadská",
+  "zdroj": "TheCocktailDB – B-52",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/15853",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Vrstvený shot z kávového likéru, írskeho smotanového likéru a pomarančového likéru. Tri farebné pásy, sladká káva s krémom.",
+  "ingrediencie": [
+    {
+      "nazov": "Kávový likér",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Írsky smotanový likér",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": "ideálne Grand Marnier"
+    }
+  ],
+  "postup": [
+    "Do pohárika nalej kávový likér.",
+    "Cez chrbát lyžičky opatrne navrstvi smotanový likér.",
+    "Rovnako navrch navrstvi pomarančový likér."
+  ],
+  "tipy": "Likéry maj vychladené a lej ich po stene pohára — studené vrstvy sa tak ľahko nepremiešajú.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér"
+  ]
+}

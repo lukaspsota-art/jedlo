@@ -1,0 +1,56 @@
+{
+  "id": "ipamena",
+  "nazov": "Ipamena",
+  "kategoria": "Kokteil",
+  "kuchyna": "Brazílska",
+  "zdroj": "TheCocktailDB – Ipamena",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17176",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Nealkoholická obmena caipirinhy: rozdrvená limetka s hnedým cukrom, marakuja a zázvorová limonáda.",
+  "ingrediencie": [
+    {
+      "nazov": "Limetka",
+      "mnozstvo": 0.5,
+      "jednotka": "ks"
+    },
+    {
+      "nazov": "Hnedý cukor",
+      "mnozstvo": 2,
+      "jednotka": "ČL"
+    },
+    {
+      "nazov": "Maracujový džús",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zázvorová limonáda",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na okraj pohára"
+    }
+  ],
+  "postup": [
+    "Limetku nakrájaj na kúsky a v šejkri ju roztlač s cukrom.",
+    "Pridaj marakujový džús a ľad a pretras.",
+    "Nalej do pohára, dolej limonádou, premiešaj a ozdob plátkom limetky."
+  ],
+  "tipy": "Hnedý cukor dodá karamelovú chuť — biely funguje tiež, ale drink je potom plochší.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "nealko"
+  ]
+}

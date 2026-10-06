@@ -1,0 +1,57 @@
+{
+  "id": "rum-old-fashioned",
+  "nazov": "Rum Old-Fashioned",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Rum Old-fashioned",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12089",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Old fashioned, v ktorom whisky nahradil rum. Sladidlo a bitter ostali, navrch pláva lyžička tmavého rumu.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 10,
+      "jednotka": "ml",
+      "poznamka": "navrch"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "V nízkom pohári premiešaj sirup s angosturou.",
+    "Pridaj veľkú kocku ľadu a biely rum a miešaj asi 20 sekúnd.",
+    "Navrch opatrne nalej tmavý rum a ozdob limetkovou kôrkou."
+  ],
+  "tipy": "Kôrku nad pohárom najprv zlom, aby jej olejčeky dopadli na hladinu, až potom ju vlož dnu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

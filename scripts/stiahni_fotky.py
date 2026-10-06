@@ -10,6 +10,8 @@ Povolené zdroje (overené 31. 8. 2026):
   * Wikibooks Cookbook (en) + Wikimedia Commons — CC BY / CC BY-SA / CC0 / public domain;
     berieme LEN súbory s voľnou licenciou a ukladáme autora + licenciu.
   * Slovenská/anglická Wikipédia (Commons) pre kanonické názvy jedál — rovnaké pravidlo.
+  * Full-text vyhľadávanie na Commons (`--zdroj hladaj`, v32) — rovnaké pravidlo licencií;
+    dopyty sú v scripts/foto_dopyty.json, zlé fotky sa vyraďujú cez `--zamietni`.
 
 ZAKÁZANÉ a v skripte vôbec nie sú:
   * Varecha.sk — server vracia 403 na každý automatizovaný request (aj pre Claude-User,
@@ -22,6 +24,8 @@ Spustenie:
     python3 scripts/stiahni_fotky.py            # všetky povolené zdroje
     python3 scripts/stiahni_fotky.py --zdroj cocktaildb
     python3 scripts/stiahni_fotky.py --limit 20 --suchy   # nič nezapíše
+    python3 scripts/stiahni_fotky.py --zdroj hladaj       # recepty bez fotky, hodiny
+    python3 scripts/stiahni_fotky.py --zamietni id1,id2   # zlá fotka von, nabudúce iný kandidát
 """
 import json, os, glob, re, sys, time, io, argparse, unicodedata
 import urllib.request, urllib.parse, urllib.error
@@ -30,11 +34,13 @@ ZAKLAD = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RECEPTY = os.path.join(ZAKLAD, "recepty")
 FOTKY = os.path.join(RECEPTY, "fotky")
 ZDROJE = os.path.join(FOTKY, "ZDROJE.json")
+DOPYTY = os.path.join(ZAKLAD, "scripts", "foto_dopyty.json")
+ZAMIETNUTE = os.path.join(ZAKLAD, "scripts", "foto_zamietnute.json")
 
-# Cieľový rozmer inline miniatúry. Karta má 82 px (mobil) / 120 px (počítač) výšky,
-# detail zobrazuje ten istý súbor do max. 480 px šírky — pri 320 px zdroji je to
-# nanajvýš 1,5× zväčšenie. Väčší rozmer sa nezmestí do rozpočtu (viď report-fotky.md).
-SIRKA, VYSKA, KVALITA = 320, 180, 62
+# Cieľový rozmer fotky. Od v32 sú fotky súbory vedľa appky (--fotky=subor), nie inline,
+# takže rozpočet ich už nedrží na 320 px. Detail na telefóne je panel na celú šírku
+# (~370 CSS px ≈ 1000 fyzických) — 320 px zdroj bol rozmazaný. Staršie fotky ostávajú 320×180.
+SIRKA, VYSKA, KVALITA = 480, 270, 62
 PAUZA = 1.5  # sekundy medzi požiadavkami — sťahujeme šetrne, sériovo
 
 # Wikimedia vyžaduje popisný User-Agent — generický aj AI-bot UA vracia 429.
@@ -140,7 +146,7 @@ def z_thedb(recepty, domena, api, meno, limit):
         thumb = polozky[0].get(pole)
         if not thumb:
             time.sleep(PAUZA); continue
-        yield r, thumb + "/medium", {
+        yield r, thumb, {   # plná veľkosť (700 px); „/medium“ je menší než 480 px výstup
             "zdroj": meno,
             "zdroj_url": r.get("zdroj_url"),
             "autor": meno,
@@ -240,22 +246,52 @@ def commons_meta_davka(subory):
             ii = ((p or {}).get("imageinfo") or [None])[0]
             if not ii:
                 continue
-            em = ii.get("extmetadata") or {}
-            def v(k):
-                x = (em.get(k) or {}).get("value") or ""
-                return re.sub(r"<[^>]+>", " ", str(x)).replace("&amp;", "&").strip()
-            lic = (v("LicenseShortName") or v("License")).replace("\u2011", "-")
-            if not lic or not VOLNE_LICENCIE.match(lic):
+            hit, lic = volna_meta(ii, sub)
+            if not hit:
                 print(f"  – {sub}: licencia „{lic or 'neznáma'}" + "\u201c → preskočené")
                 continue
-            out[sub] = (ii.get("thumburl") or ii.get("url"), {
-                "autor": re.sub(r"\s+", " ", v("Artist")) or "neuvedený",
-                "licencia": lic,
-                "licencia_url": v("LicenseUrl") or "https://commons.wikimedia.org/wiki/Commons:Licensing",
-                "obrazok_url": ii.get("descriptionurl"),
-                "subor": sub,
-            })
+            out[sub] = hit
         time.sleep(PAUZA)
+    return out
+
+
+def volna_meta(ii, sub):
+    """Z `imageinfo` Commons: ((url, meta), licencia) pri voľnej licencii, inak (None, licencia)."""
+    em = ii.get("extmetadata") or {}
+    def v(k):
+        x = (em.get(k) or {}).get("value") or ""
+        return re.sub(r"<[^>]+>", " ", str(x)).replace("&amp;", "&").strip()
+    lic = (v("LicenseShortName") or v("License")).replace("‑", "-")
+    if not lic or not VOLNE_LICENCIE.match(lic):
+        return None, lic
+    return (ii.get("thumburl") or ii.get("url"), {
+        "autor": re.sub(r"\s+", " ", v("Artist")) or "neuvedený",
+        "licencia": lic,
+        "licencia_url": v("LicenseUrl") or "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "obrazok_url": ii.get("descriptionurl"),
+        "subor": sub,
+    }), lic
+
+
+def commons_hladaj(q):
+    """Full-text Commons v poradí relevancie → [(súbor, šírka, výška, (url, meta))], len voľné licencie.
+    500 px je štandardná šírka náhľadu Wikimedia (neštandardné sa generujú pomaly) a na 480 px výstup stačí."""
+    api = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search"
+           "&gsrnamespace=6&gsrlimit=10&gsrsearch=" + urllib.parse.quote(q + " filetype:bitmap")
+           + "&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=500")
+    try:
+        d = json_get(api)
+    except Exception as e:
+        print(f"  ! hľadanie „{q}“: {e}"); time.sleep(PAUZA * 2); return []
+    time.sleep(PAUZA * 2)
+    out = []
+    for p in sorted((((d or {}).get("query") or {}).get("pages") or {}).values(), key=lambda p: p.get("index", 0)):
+        ii = (p.get("imageinfo") or [None])[0]
+        if not ii:
+            continue
+        hit, _ = volna_meta(ii, p.get("title", ""))
+        if hit:
+            out.append((p["title"], ii.get("width") or 0, ii.get("height") or 0, hit))
     return out
 
 
@@ -348,20 +384,87 @@ def z_wikipedia(recepty, limit, hotove):
         yield r, url, meta
 
 
+def z_hladania(recepty, limit, zdroje, zdielat=False):
+    """Recepty bez fotky: full-text Commons podľa dopytov v scripts/foto_dopyty.json
+    ({id: [konkrétny, záložný]}). Fotka je ILUSTRAČNÁ (jedlo, nie tento recept), takže sa
+    musí prezrieť zrakom; zlé ide cez --zamietni do foto_zamietnute.json a ďalší beh vezme
+    ďalšieho kandidáta. Jeden súbor dostane najviac jeden recept — inak by 10 palaciniek
+    malo tú istú fotku. Kúpené výrobky (typ vyrobok) sú výnimka: 8 variantov cottage je ten
+    istý druh výrobku a jedinečnosť ich tlačila k čoraz horším kandidátom (múka, polievka)."""
+    dopyty = json.load(open(DOPYTY, encoding="utf-8"))
+    zamietnute = json.load(open(ZAMIETNUTE, encoding="utf-8")) if os.path.exists(ZAMIETNUTE) else {}
+    pouzite = {m.get("subor") for m in zdroje.values() if m.get("subor")}
+    n = 0
+    for _, r in recepty:
+        rid = r["id"]
+        if n >= limit:
+            break
+        if rid in zdroje or rid not in dopyty:
+            continue
+        zle = set(zamietnute.get(rid, []))
+        jedinecne = not zdielat and r.get("typ") != "vyrobok"
+        for q in dopyty[rid]:
+            vhodne = [k for k in commons_hladaj(q)
+                      if k[0] not in zle and not (jedinecne and k[0] in pouzite)
+                      and k[1] >= SIRKA and k[2] >= VYSKA]
+            if not vhodne:
+                continue
+            # na šírku sa oreže na 16:9 bez straty jedla; na výšku len keď z top 5 nič iné nie je
+            sub, _, _, (url, meta) = next((k for k in vhodne[:5] if k[1] >= 1.2 * k[2]), vhodne[0])
+            pouzite.add(sub)
+            meta = dict(meta, zdroj="Wikimedia Commons (vyhľadávanie: " + q + ")",
+                        zdroj_url=meta["obrazok_url"], dopyt=q)
+            n += 1
+            yield r, url, meta
+            break
+        else:
+            print(f"  – {rid}: nič voľné pre {dopyty[rid]}")
+
+
+def zamietni(ids, zdroje):
+    """Zlú fotku zmaže a jej súbor si zapamätá, aby ju `hladaj` nevybral znova."""
+    zam = json.load(open(ZAMIETNUTE, encoding="utf-8")) if os.path.exists(ZAMIETNUTE) else {}
+    for rid in ids:
+        m = zdroje.pop(rid, None) or {}
+        if m.get("subor"):
+            zam.setdefault(rid, []).append(m["subor"])
+        try:
+            os.remove(os.path.join(FOTKY, rid + ".webp"))
+        except FileNotFoundError:
+            pass
+        print(f"  ✗ {rid}  {m.get('subor', '')}")
+    with open(ZAMIETNUTE, "w", encoding="utf-8") as f:
+        json.dump(zam, f, ensure_ascii=False, indent=1, sort_keys=True)
+    with open(ZDROJE, "w", encoding="utf-8") as f:
+        json.dump(zdroje, f, ensure_ascii=False, indent=1, sort_keys=True)
+
+
 # ─────────────────────────── beh ───────────────────────────
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--zdroj", default="vsetko",
-                    choices=["vsetko", "cocktaildb", "mealdb", "wikibooks", "wikipedia"])
+                    choices=["vsetko", "cocktaildb", "mealdb", "wikibooks", "wikipedia", "hladaj"],
+                    help="hladaj = full-text Commons podľa scripts/foto_dopyty.json (nie je vo „vsetko“, beží hodiny)")
     ap.add_argument("--limit", type=int, default=10 ** 6)
     ap.add_argument("--suchy", action="store_true", help="nič nezapisuj")
+    ap.add_argument("--zamietni", help="id1,id2,… — zmaž zlú fotku; ďalší beh --zdroj hladaj vezme iného kandidáta")
+    ap.add_argument("--zdielat", action="store_true",
+                    help="hladaj smie dať fotku, ktorú už má iný recept — na opakovaný beh po --zamietni: "
+                         "pri 40 raňajkových bagetách jedinečnosť tlačí k čoraz horším kandidátom")
+    ap.add_argument("--len", help="id1,id2,… alebo predpona* — len tieto recepty (napr. nová dávka kokteilov)")
     a = ap.parse_args()
 
     os.makedirs(FOTKY, exist_ok=True)
     recepty = nacitaj_recepty()
+    if a.len:
+        vyber = [x.strip() for x in a.len.split(",") if x.strip()]
+        recepty = [x for x in recepty if any(x[1]["id"] == v or (v.endswith("*") and x[1]["id"].startswith(v[:-1])) for v in vyber)]
     zdroje = {}
     if os.path.exists(ZDROJE):
         zdroje = json.load(open(ZDROJE, encoding="utf-8"))
+    if a.zamietni:
+        zamietni([x.strip() for x in a.zamietni.split(",") if x.strip()], zdroje)
+        return
 
     prudy = []
     if a.zdroj in ("vsetko", "cocktaildb"):
@@ -374,6 +477,8 @@ def main():
         prudy.append(("Wikibooks Cookbook", z_wikibooks(recepty, a.limit)))
     if a.zdroj in ("vsetko", "wikipedia"):
         prudy.append(("Wikipédia/Commons", z_wikipedia(recepty, a.limit, set(zdroje))))
+    if a.zdroj == "hladaj":
+        prudy.append(("Commons — vyhľadávanie", z_hladania(recepty, a.limit, zdroje, a.zdielat)))
 
     ulozene = 0
     for meno, prud in prudy:

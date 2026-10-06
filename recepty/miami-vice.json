@@ -1,0 +1,61 @@
+{
+  "id": "miami-vice",
+  "nazov": "Miami Vice",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Miami Vice",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/13936",
+  "porcie": 1,
+  "cas": "10 min",
+  "popis": "Dva mrazené drinky v jednom pohári: dolu jahodový daiquiri, hore piña colada. Pije sa tak, že sa vrstvy postupne miešajú.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 90,
+      "jednotka": "ml",
+      "poznamka": "polovica do každej časti"
+    },
+    {
+      "nazov": "Kokosový krém",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Jahody",
+      "mnozstvo": 100,
+      "jednotka": "g"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "2 hrnčeky drveného"
+    }
+  ],
+  "postup": [
+    "Rozmixuj 45 ml rumu s kokosovým krémom, ananásovým džúsom a hrnčekom ľadu, odlož do chladu.",
+    "Vypláchni mixér a rozmixuj zvyšný rum s jahodami, limetkovou šťavou, sirupom a ľadom.",
+    "Do vysokého pohára nalej najprv jahodovú časť, potom pomaly kokosovú, aby ostali dve vrstvy."
+  ],
+  "tipy": "Kokosovú časť lej po zadnej strane lyžice — vrstvy sa potom nezlejú hneď na začiatku.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

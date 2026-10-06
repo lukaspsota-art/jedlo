@@ -1,0 +1,56 @@
+{
+  "id": "frozen-daiquiri",
+  "nazov": "Frozen Daiquiri",
+  "kategoria": "Kokteil",
+  "kuchyna": "Kubánska",
+  "zdroj": "TheCocktailDB – Frozen Daiquiri",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11387",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Mrazený daiquiri v štýle havanského baru Floridita: rum, limetka a cukor rozmixované s drveným ľadom na ľadovú tríšť.",
+  "ingrediencie": [
+    {
+      "nazov": "Biely rum",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "1 hrnček drveného"
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetko okrem čerešne daj do mixéra s drveným ľadom.",
+    "Mixuj najprv pomaly, potom naplno, kým nevznikne hustá tríšť.",
+    "Naber do vychladeného pohára a navrch polož čerešňu."
+  ],
+  "tipy": "Pohár si daj vopred na desať minút do mrazničky — tríšť sa v ňom tak rýchlo neroztopí.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "tommys-margarita",
+  "nazov": "Tommy's Margarita",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/tommys-margarita/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Čistá margarita zo San Francisca bez pomarančového likéru — agávový sirup nechá vyniknúť samotnú tequilu.",
+  "ingrediencie": [
+    {
+      "nazov": "Tequila",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "100 % agáve"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Agávový sirup",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny pretrep v šejkri s ľadom.",
+    "Preceď do nízkeho pohára s ľadom a ozdob plátkom limetky."
+  ],
+  "tipy": "Hustý agávový sirup najprv rozmiešaj s limetkovou šťavou, inak sa prilepí na dno šejkra.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "tequila",
+    "IBA"
+  ]
+}

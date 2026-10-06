@@ -1,0 +1,45 @@
+{
+  "id": "kentucky-colonel",
+  "nazov": "Kentucky Colonel",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Kentucky Colonel",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11604",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Silný drink z bourbonu a bylinkového likéru Bénédictine. Bourbon dáva vanilku a dub, likér med a bylinky.",
+  "ingrediencie": [
+    {
+      "nazov": "Bourbon",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Bénédictine",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Bourbon a likér miešaj s ľadom asi 30 sekúnd.",
+    "Preceď do vychladeného koktailového pohára.",
+    "Nad pohárom zlom citrónovú kôrku a vlož ju dnu."
+  ],
+  "tipy": "Drink z čistých destilátov sa mieša, netrasie — ostane číry a hladký.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "black-russian",
+  "nazov": "Black Russian",
+  "kategoria": "Kokteil",
+  "kuchyna": "Belgická",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/black-russian/",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Krátky a silný drink z vodky a kávového likéru, horkosladký, s výraznou vôňou kávy.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kávový likér",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Pohár typu old fashioned naplň kockami ľadu.",
+    "Nalej vodku aj kávový likér a jemne premiešaj."
+  ],
+  "tipy": "Keď navrch opatrne prileješ trochu smotany a pomaly ju vmiešaš, máš White Russian.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "IBA"
+  ]
+}

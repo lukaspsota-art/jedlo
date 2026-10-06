@@ -176,6 +176,22 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
     assert.ok(parov > 0, "test nemal čo porovnať");
     assert.strictEqual(zle, 0, zle + " carryoverov C→A na " + parov + " dvojiciach týždňov");
   });
+  // Príloha hlavného jedla nie je len `prf:` ryža/zemiaky/cestoviny — generátor strieda aj recepty
+  // z kategórie Príloha (PRILOHY_RECEPTY). Recept-príloha je varený recept, takže ho kryjú aj dve
+  // kontroly vyššie; tu sa overuje, že sa naozaj objaví a sedí ku kuchyni hlavného jedla.
+  ok("hlavné jedlo dostáva aj recepty z kategórie Príloha a tie sedia ku kuchyni", () => {
+    let recept = 0; const zle = [];
+    tyzdne.forEach(t => t.bloky.forEach(b => Object.keys(b.sloty).filter(sl => app.jeHlavnyChodSlot(sl)).forEach(sl => {
+      const h = b.sloty[sl][0], p = b.sloty[sl][1];
+      if (!p || String(p).indexOf("prf:") === 0) return;
+      recept++;
+      const hr = app.komponent(h);
+      if (!app.prilohyPreKuchynu(app.kuchynaPrilohy(hr.kuchyna)).includes(p)) zle.push(hr.kuchyna + " → " + p);
+    })));
+    console.log("      (" + recept + " receptov-príloh)");
+    assert.ok(recept > 0, "generátor nedal ani jednu prílohu z kategórie Príloha");
+    assert.strictEqual(zle.length, 0, "príloha nesedí ku kuchyni: " + zle.join(", "));
+  });
 
   nadpis("\nD4 — 4 jedlá a ich poradie");
   ok("default sloty sú presne Raňajky, Obed, Večera, Snack", () => {
@@ -288,6 +304,7 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
     nak.planovaneRecepty().forEach(r => (r.ingrediencie || []).forEach(i => {
       const p = nak.najdiPotravinu(i.nazov);
       const j = (i.jednotka || "").toLowerCase().trim();
+      // nákup zoskupuje synonymá pod `kanon` (v32): kvasená kapusta → kyslá kapusta
       const kandidati = p ? [p.kluc, nak.kanonKluc(p.kluc)] : ["u|" + i.nazov.toLowerCase() + "|" + j, i.nazov.toLowerCase()];
       if (!kandidati.some(k => kluce.has(k))) chyba.push(r.id + " / " + i.nazov + " (" + i.mnozstvo + " " + j + ")");
     }));

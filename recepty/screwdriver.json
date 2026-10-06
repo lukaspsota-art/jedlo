@@ -1,0 +1,45 @@
+{
+  "id": "screwdriver",
+  "nazov": "Screwdriver",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Screwdriver",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12162",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Vodka s pomarančovým džúsom — asi najznámejší miešaný drink vôbec. Vodka sa v ňom takmer nedá rozoznať, preto je zradne ľahký.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 120,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Pohár naplň ľadom a nalej vodku.",
+    "Dolej vychladený pomarančový džús.",
+    "Premiešaj a ozdob plátkom pomaranča."
+  ],
+  "tipy": "Čerstvo vytlačený pomaranč a nie džús z krabice robí z obyčajného drinku dobrý drink.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

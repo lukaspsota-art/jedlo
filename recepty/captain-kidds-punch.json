@@ -1,0 +1,61 @@
+{
+  "id": "captain-kidds-punch",
+  "nazov": "Captain Kidd's Punch",
+  "kategoria": "Kokteil",
+  "kuchyna": "Karibská",
+  "zdroj": "TheCocktailDB – Captain Kidd's Punch",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/178329",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Penivý rumový sour s vaječným bielkom a kvapkou bitteru. Tmavý rum mu dáva karamelovú sladkosť.",
+  "ingrediencie": [
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Muškátový oriešok",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na posypanie"
+    }
+  ],
+  "postup": [
+    "Všetky tekutiny pretras v šejkri najprv bez ľadu, aby sa bielok napenil.",
+    "Pridaj ľad a pretras ešte raz.",
+    "Preceď do vysokého pohára a pena posyp muškátovým orieškom."
+  ],
+  "tipy": "Na bielok použi čerstvé vajce — pena z neho drží dlhšie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum"
+  ]
+}

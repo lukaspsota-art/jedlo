@@ -1,0 +1,34 @@
+{
+  "id": "kir-royale",
+  "nazov": "Kir Royale",
+  "kategoria": "Kokteil",
+  "kuchyna": "Francúzska",
+  "zdroj": "TheCocktailDB – Kir Royale",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/13837",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Šampanské s kvapkou likéru z čiernych ríbezlí. Elegantný aperitív burgundského pôvodu, ružovofialový a jemne ovocný.",
+  "ingrediencie": [
+    {
+      "nazov": "Crème de cassis",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Šampanské",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": "alebo iné suché šumivé víno"
+    }
+  ],
+  "postup": [
+    "Do vychladeného pohára na šampanské nalej Crème de cassis.",
+    "Pomaly dolej vychladené šampanské."
+  ],
+  "tipy": "Šumivé víno lej po stene nakloneného pohára, nepení tak cez okraj a drží bublinky.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér"
+  ]
+}

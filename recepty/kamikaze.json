@@ -1,0 +1,50 @@
+{
+  "id": "kamikaze",
+  "nazov": "Kamikaze",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Kamikaze",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11600",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Ostrý vodkový drink s limetkou a pomarančovým likérom, príbuzný margarity. Podáva sa ako krátky drink aj ako shot.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 40,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Triple sec",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 20,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kolieska na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetko daj do šejkra s ľadom.",
+    "Prudko pretrep.",
+    "Preceď do vychladeného koktailového pohára alebo rozdeľ do troch pohárikov na shoty."
+  ],
+  "tipy": "Limetkovú šťavu lisuj tesne pred miešaním — po hodine na vzduchu horkne.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

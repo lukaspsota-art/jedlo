@@ -1,0 +1,62 @@
+{
+  "id": "john-collins",
+  "nazov": "John Collins",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/john-collins/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Dlhý osviežujúci drink na ľade – v podstate ginová limonáda s citrónom a sódou. Ideálny na leto.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "koliesko na ozdobu"
+    },
+    {
+      "nazov": "Koktejlová višňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom.",
+    "Nalej gin, citrónovú šťavu, cukrový sirup a sódu a jemne premiešaj.",
+    "Ozdob kolieskom citróna a višňou."
+  ],
+  "tipy": "So sladším ginom Old Tom vznikne Tom Collins – postup je inak rovnaký.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

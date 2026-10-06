@@ -1,0 +1,39 @@
+{
+  "id": "greyhound",
+  "nazov": "Greyhound",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Greyhound",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/17252",
+  "porcie": 1,
+  "cas": "2 min",
+  "popis": "Dvojzložkový drink z vodky a grapefruitového džúsu. Horkastý, ľahký a hotový za minútu — bez soli, ktorou sa líši od Salty Dog.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grapefruitový džús",
+      "mnozstvo": 120,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Vysoký pohár naplň ľadom.",
+    "Nalej vodku a dolej grapefruitový džús.",
+    "Krátko premiešaj."
+  ],
+  "tipy": "Najlepší je z čerstvo vytlačeného ružového grapefruitu — je sladší než biely.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

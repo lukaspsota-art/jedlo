@@ -1,0 +1,57 @@
+{
+  "id": "long-vodka",
+  "nazov": "Long Vodka",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Long vodka",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/13196",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Vodka s tonicom, limetkou a pár kvapkami Angostury, ktoré drinku dodajú ružový nádych a korenistú hĺbku.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "4 kvapky"
+    },
+    {
+      "nazov": "Tonic",
+      "mnozstvo": 100,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Limetka",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "koliesko na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do vysokého pohára s ľadom nakvapkaj Angosturu a pohárom zakrúž.",
+    "Nalej vodku a limetkovú šťavu.",
+    "Dolej tonic, premiešaj a ozdob limetkou."
+  ],
+  "tipy": "Angosturu dávkuj po kvapkách a ochutnávaj — je to korenie, nie sirup.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka"
+  ]
+}

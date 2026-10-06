@@ -1,0 +1,46 @@
+{
+  "id": "stinger",
+  "nazov": "Stinger",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/stinger/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Koňak s bielym mätovým likérom – krátky, sviežo mentolový drink po večeri, ktorý zároveň chladí aj hreje.",
+  "ingrediencie": [
+    {
+      "nazov": "Koňak",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Biely mätový likér",
+      "mnozstvo": 20,
+      "jednotka": "ml",
+      "poznamka": "crème de menthe"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "lístok na ozdobu, nepovinne"
+    }
+  ],
+  "postup": [
+    "Do miešacieho pohára s ľadom nalej koňak a mätový likér a dobre premiešaj.",
+    "Preceď do vychladeného martini pohára, ak chceš, ozdob lístkom mäty."
+  ],
+  "tipy": "Použi bezfarebný mätový likér, nie zelený – chutí rovnako, ale drink ostane jantárový, nie bahnistý.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "brandy",
+    "IBA"
+  ]
+}

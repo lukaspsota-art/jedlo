@@ -1,0 +1,46 @@
+{
+  "id": "sloe-gin-cocktail",
+  "nazov": "Sloe Gin Cocktail",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "TheCocktailDB – Sloe Gin Cocktail",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12224",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Krátky miešaný drink z trnkového ginu s kvapkou suchého vermútu a pomarančového bitteru. Ovocne trpký, rubínovo červený.",
+  "ingrediencie": [
+    {
+      "nazov": "Trnkový gin",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Suchý vermút",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančový bitter",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do pohára s ľadom.",
+    "Miešaj barovou lyžičkou asi 20 sekúnd.",
+    "Preceď do vychladeného koktailového pohára."
+  ],
+  "tipy": "Trnkový gin je likér, nie suchý gin — zámena za bežný gin by drink úplne zmenila.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér",
+    "gin"
+  ]
+}

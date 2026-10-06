@@ -1,0 +1,47 @@
+{
+  "id": "irish-coffee",
+  "nazov": "Irish Coffee",
+  "kategoria": "Kokteil",
+  "kuchyna": "Írska",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/irish-coffee/",
+  "porcie": 1,
+  "cas": "10 min",
+  "popis": "Horúca sladená káva s írskou whisky a vrstvou studenej smotany navrchu. Pije sa cez smotanu, nemieša sa.",
+  "ingrediencie": [
+    {
+      "nazov": "Írska whisky",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Káva",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "horúca, čierna"
+    },
+    {
+      "nazov": "Smotana na šľahanie",
+      "mnozstvo": 50,
+      "jednotka": "ml",
+      "poznamka": "vychladená, mierne zhustená"
+    },
+    {
+      "nazov": "Cukor",
+      "mnozstvo": 1,
+      "jednotka": "ČL"
+    }
+  ],
+  "postup": [
+    "Pohár s uškom nahrej horúcou vodou a vylej ju.",
+    "Nalej horúcu kávu, pridaj whisky a cukor a miešaj, kým sa cukor nerozpustí.",
+    "Studenú smotanu pomaly nalej cez chrbát lyžičky tesne nad hladinou, aby ostala plávať navrchu."
+  ],
+  "tipy": "Smotanu len trochu prešľahaj, aby zhustla, ale ešte tiekla. Bez cukru v káve smotana klesne ku dnu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky",
+    "IBA"
+  ]
+}

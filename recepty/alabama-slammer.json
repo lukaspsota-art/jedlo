@@ -1,0 +1,54 @@
+{
+  "id": "alabama-slammer",
+  "nazov": "Alabama Slammer",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Alabama Slammer",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11012",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Sladký ovocný longdrink z broskyňového whiskeyového likéru, amaretta a trnkového ginu. Typický párty drink amerického juhu.",
+  "ingrediencie": [
+    {
+      "nazov": "Southern Comfort",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Amaretto",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Trnkový gin",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    }
+  ],
+  "postup": [
+    "Do pohára s ľadom nalej Southern Comfort, amaretto a trnkový gin.",
+    "Dolej pomarančový džús a premiešaj.",
+    "Navrch kvapni citrónovú šťavu."
+  ],
+  "tipy": "Ak nemáš trnkový gin, daj 10 ml grenadíny — drink stratí trochu horkosti, ale farbu si zachová.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér"
+  ]
+}

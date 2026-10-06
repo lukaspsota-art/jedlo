@@ -1,0 +1,63 @@
+{
+  "id": "chartreuse-swizzle",
+  "nazov": "Chartreuse Swizzle",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Bylinný, sviežo tropický drink zo San Francisca — zelený Chartreuse sa tu stretáva s ananásom, limetkou a korenistým falernom.",
+  "ingrediencie": [
+    {
+      "nazov": "Zelený Chartreuse",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Falernum",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "drvený"
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "lístky na ozdobu"
+    },
+    {
+      "nazov": "Muškátový oriešok",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "nastrúhaný na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny nalej do vysokého pohára a pridaj drvený ľad.",
+    "Swizzle paličkou alebo barovou lyžičkou rázne premiešaj, kým sa pohár neorosí.",
+    "Dosyp ľad po okraj a ozdob mätou a strúhaným muškátovým orieškom."
+  ],
+  "tipy": "Paličku drž medzi dlaňami a rýchlo ju roztáčaj — tak sa drink vychladí rovnomerne až po dno.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér",
+    "IBA"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "new-york-sour",
+  "nazov": "New York Sour",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/new-york-sour/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Whisky sour s vrstvou červeného vína navrchu, ktorá dodá ovocnú suchosť a krásny dvojfarebný vzhľad.",
+  "ingrediencie": [
+    {
+      "nazov": "Bourbon",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "alebo ražná whisky"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Vaječný bielok",
+      "mnozstvo": 5,
+      "jednotka": "ml",
+      "poznamka": "pár kvapiek"
+    },
+    {
+      "nazov": "Víno",
+      "mnozstvo": 15,
+      "jednotka": "ml",
+      "poznamka": "červené suché, napr. shiraz alebo malbec"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Whisky, sirup, citrónovú šťavu a bielok ostro pretrep s ľadom.",
+    "Preceď do nízkeho pohára s ľadom.",
+    "Víno opatrne nalej cez chrbát lyžičky, aby ostalo plávať navrchu."
+  ],
+  "tipy": "Na vrstvu sa hodí plné, ovocné víno — kyslé a riedke sa vmieša do drinku.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "whisky",
+    "IBA"
+  ]
+}

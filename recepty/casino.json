@@ -1,0 +1,63 @@
+{
+  "id": "casino",
+  "nazov": "Casino",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/casino/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Suchý ginový drink s nádychom maraschina, citróna a pomarančového bitteru – v podstate Aviation bez fialkového likéru, podávaný na ľade.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 40,
+      "jednotka": "ml",
+      "poznamka": "Old Tom"
+    },
+    {
+      "nazov": "Maraschino",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančový bitter",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    },
+    {
+      "nazov": "Koktejlová višňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky suroviny daj do šejkra a poriadne pretrep s ľadom.",
+    "Preceď do vychladeného nízkeho pohára s ľadom a ozdob citrónovou kôrkou a višňou."
+  ],
+  "tipy": "Old Tom gin je jemne sladší ako bežný London Dry; ak ho nemáš, použi bežný gin a pridaj pár kvapiek cukrového sirupu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

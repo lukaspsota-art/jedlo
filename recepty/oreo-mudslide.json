@@ -1,0 +1,52 @@
+{
+  "id": "oreo-mudslide",
+  "nazov": "Oreo Mudslide",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Oreo Mudslide",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/13499",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Mixovaný kokteil-milkshake z vodky, kávového a smotanového likéru, vanilkovej zmrzliny a sušienok Oreo. Skôr dezert než drink.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Kávový likér",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Írsky smotanový likér",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Zmrzlina",
+      "mnozstvo": 100,
+      "jednotka": "g",
+      "poznamka": "vanilková, 2 kopčeky"
+    },
+    {
+      "nazov": "Oreo sušienky",
+      "mnozstvo": 2,
+      "jednotka": "ks",
+      "poznamka": "1 do mixéra, 1 na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do mixéra daj vodku, oba likéry, zmrzlinu a jednu sušienku.",
+    "Rozmixuj dohladka, kým nevznikne hustý krém.",
+    "Nalej do vychladeného pohára a ozdob rozdrobenou sušienkou."
+  ],
+  "tipy": "Ľad do mixéra nepridávaj — zriedil by ho; hustotu dorovnáš zmrzlinou.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "likér"
+  ]
+}

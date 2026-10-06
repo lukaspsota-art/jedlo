@@ -1,0 +1,70 @@
+{
+  "id": "tuxedo",
+  "nazov": "Tuxedo",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/tuxedo/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Suchý ginový drink v štýle martini, ktorému kvapky maraschina, absintu a pomarančového bitteru dodajú hĺbku a vôňu.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 30,
+      "jednotka": "ml",
+      "poznamka": "Old Tom"
+    },
+    {
+      "nazov": "Suchý vermút",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Maraschino",
+      "mnozstvo": 2.5,
+      "jednotka": "ml",
+      "poznamka": "½ barovej lyžičky"
+    },
+    {
+      "nazov": "Absint",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "¼ barovej lyžičky"
+    },
+    {
+      "nazov": "Pomarančový bitter",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "3 kvapky"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Koktejlová višňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "kôrka na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do miešacieho pohára s ľadom nalej všetky suroviny a dobre premiešaj.",
+    "Preceď do vychladeného martini pohára a ozdob višňou a citrónovou kôrkou."
+  ],
+  "tipy": "Absint ber ako korenie, nie hlavnú surovinu – stačí pár kvapiek, viac by prebilo gin aj vermút.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin",
+    "IBA"
+  ]
+}

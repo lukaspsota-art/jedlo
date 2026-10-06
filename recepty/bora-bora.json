@@ -1,0 +1,61 @@
+{
+  "id": "bora-bora",
+  "nazov": "Bora Bora",
+  "kategoria": "Kokteil",
+  "kuchyna": "Medzinárodná",
+  "zdroj": "TheCocktailDB – Bora Bora",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12572",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Tropický nealko drink z ananásu a marakuje s kvapkou grenadíny. Sladkokyslý a voňavý.",
+  "ingrediencie": [
+    {
+      "nazov": "Ananásový džús",
+      "mnozstvo": 100,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Maracujový džús",
+      "mnozstvo": 60,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Grenadína",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Ananás",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Všetky tekutiny pretras s ľadom.",
+    "Nalej do vysokého pohára s ľadom.",
+    "Ozdob plátkom ananásu a čerešňou."
+  ],
+  "tipy": "Marakujový džús býva hustý — pred nalievaním ho dobre pretrep.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "nealko"
+  ]
+}

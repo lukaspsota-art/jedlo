@@ -1,0 +1,30 @@
+{
+ "raw_kat": {
+  "bezmaso": 3,
+  "dezerty": 3,
+  "maso": 4,
+  "pecenie": 1,
+  "polievky": 2,
+  "prilohy": 2,
+  "ranajky": 1,
+  "salaty": 3
+ },
+ "raw_web": {
+  "bbcgf": 4,
+  "natasha": 15
+ },
+ "staging_kat": {},
+ "staging_web": {},
+ "preskocene": 0,
+ "ciel": {
+  "ranajky": 30,
+  "polievky": 40,
+  "maso": 70,
+  "bezmaso": 40,
+  "prilohy": 25,
+  "salaty": 25,
+  "dezerty": 40,
+  "pecenie": 30
+ },
+ "cas": "2026-09-30 01:41"
+}

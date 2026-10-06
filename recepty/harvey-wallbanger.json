@@ -1,0 +1,51 @@
+{
+  "id": "harvey-wallbanger",
+  "nazov": "Harvey Wallbanger",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "TheCocktailDB – Harvey Wallbanger",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/11462",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Screwdriver vylepšený vanilkovo-anízovým likérom Galliano, ktorý pláva navrchu. Retro drink zo 70. rokov.",
+  "ingrediencie": [
+    {
+      "nazov": "Vodka",
+      "mnozstvo": 45,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Pomarančová šťava",
+      "mnozstvo": 90,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Galliano",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do pohára s ľadom nalej vodku a pomarančový džús a premiešaj.",
+    "Galliano opatrne prelej navrch cez chrbát lyžičky.",
+    "Ozdob plátkom pomaranča a už nemiešaj."
+  ],
+  "tipy": "Galliano je ťažší než džús, preto ho lej naozaj pomaly — inak klesne ku dnu.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "vodka",
+    "likér"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "old-cuban",
+  "nazov": "Old Cuban",
+  "kategoria": "Kokteil",
+  "kuchyna": "Americká",
+  "zdroj": "IBA – Official Cocktails",
+  "zdroj_url": "https://iba-world.com/iba-cocktail/old-cuban/",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Elegantný šumivý drink od Audrey Saunders — niečo medzi mojitom a francúzskou 75 so starnutým rumom.",
+  "ingrediencie": [
+    {
+      "nazov": "Mäta",
+      "mnozstvo": 7,
+      "jednotka": "lístok"
+    },
+    {
+      "nazov": "Tmavý rum",
+      "mnozstvo": 45,
+      "jednotka": "ml",
+      "poznamka": "starnutý"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 22.5,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 30,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Angostura",
+      "mnozstvo": 1,
+      "jednotka": "ml",
+      "poznamka": "2 kvapky"
+    },
+    {
+      "nazov": "Šampanské",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "alebo prosecco, doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Mäta",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "vetvička na ozdobu"
+    }
+  ],
+  "postup": [
+    "Mätu, rum, limetkovú šťavu, sirup a angosturu pretrep s ľadom.",
+    "Preceď cez jemné sitko do vychladeného pohára na stopke.",
+    "Dolej šampanským a ozdob vetvičkou mäty."
+  ],
+  "tipy": "Šumivé víno pridaj až v pohári — v šejkri by vyprchalo a mohlo by vystreliť veko.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "rum",
+    "IBA"
+  ]
+}

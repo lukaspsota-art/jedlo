@@ -1,0 +1,51 @@
+{
+  "id": "snowball",
+  "nazov": "Snowball",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "TheCocktailDB – Snowball",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/14195",
+  "porcie": 1,
+  "cas": "3 min",
+  "popis": "Vianočný britský longdrink z vaječného likéru a limonády. Penivý, sladký a krémový, s limetkovou sviežosťou.",
+  "ingrediencie": [
+    {
+      "nazov": "Vaječný likér",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limetková šťava",
+      "mnozstvo": 10,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Limonáda",
+      "mnozstvo": 120,
+      "jednotka": "ml",
+      "poznamka": "citrónová, sýtená"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Citrón",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    }
+  ],
+  "postup": [
+    "Do pohára daj pár kociek ľadu, vaječný likér a limetkovú šťavu.",
+    "Dolej limonádu a jemne premiešaj, kým drink nezačne peniť.",
+    "Ozdob plátkom citróna a podávaj hneď."
+  ],
+  "tipy": "Limonádu lej pomaly — vaječný likér s bublinkami pení a ľahko pretečie.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "likér"
+  ]
+}

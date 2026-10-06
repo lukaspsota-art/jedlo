@@ -1,0 +1,62 @@
+{
+  "id": "tom-collins",
+  "nazov": "Tom Collins",
+  "kategoria": "Kokteil",
+  "kuchyna": "Britská",
+  "zdroj": "TheCocktailDB – Tom Collins",
+  "zdroj_url": "https://www.thecocktaildb.com/drink/12402",
+  "porcie": 1,
+  "cas": "5 min",
+  "popis": "Osviežujúca ginová limonáda pre dospelých: kyslý citrón, trocha cukru a bublinky sódy. Klasika z 19. storočia, ktorá sa pije sama.",
+  "ingrediencie": [
+    {
+      "nazov": "Gin",
+      "mnozstvo": 50,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Citrónová šťava",
+      "mnozstvo": 25,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Cukrový sirup",
+      "mnozstvo": 15,
+      "jednotka": "ml"
+    },
+    {
+      "nazov": "Sóda",
+      "mnozstvo": 60,
+      "jednotka": "ml",
+      "poznamka": "doliať"
+    },
+    {
+      "nazov": "Ľad",
+      "mnozstvo": null,
+      "jednotka": ""
+    },
+    {
+      "nazov": "Pomaranč",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "plátok na ozdobu"
+    },
+    {
+      "nazov": "Koktailová čerešňa",
+      "mnozstvo": null,
+      "jednotka": "",
+      "poznamka": "na ozdobu"
+    }
+  ],
+  "postup": [
+    "Gin, citrónovú šťavu a sirup krátko pretrep s ľadom.",
+    "Preceď do vysokého pohára s čerstvým ľadom.",
+    "Dolej sódu, jemne premiešaj a ozdob plátkom pomaranča a čerešňou."
+  ],
+  "tipy": "Sódu nikdy netrep v šejkri — pridáva sa až do pohára, inak ti vyletí veko.",
+  "foto": "",
+  "tagy": [
+    "drink",
+    "gin"
+  ]
+}
