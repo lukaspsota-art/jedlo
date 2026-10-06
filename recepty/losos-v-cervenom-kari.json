@@ -1,0 +1,206 @@
+{
+ "id": "losos-v-cervenom-kari",
+ "nazov": "Losos v červenom kari",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Thajská",
+ "zdroj": "Halo: The Official Cookbook – Red Moon Salmon Curry",
+ "porcie": 4,
+ "cas": "1 hod 5 min",
+ "kcal_na_porciu": 772,
+ "kcal_zdroj": "vypocet",
+ "popis": "Losos s chrumkavou kožou dusený v kokosovom kari z domácej červenej chilli pasty, s hubami a jazmínovou ryžou.",
+ "hlavna_surovina": "Losos",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "do pasty"
+  },
+  {
+   "nazov": "Citrónová tráva",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": "1 stonka, nakrájaná, do pasty"
+  },
+  {
+   "nazov": "Chilli paprička",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "thajské, do pasty"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "kúsok 2,5 cm, do pasty"
+  },
+  {
+   "nazov": "Galangal",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "kúsok 2,5 cm, do pasty"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 5,
+   "jednotka": "strúčik",
+   "poznamka": "do pasty"
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "do pasty"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "celé, do pasty"
+  },
+  {
+   "nazov": "Chilli vločky",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "do pasty"
+  },
+  {
+   "nazov": "Koriandrové semienka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "do pasty"
+  },
+  {
+   "nazov": "Badián",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "do pasty"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "do pasty"
+  },
+  {
+   "nazov": "Kokosový cukor",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": "palmový, do pasty"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "do pasty"
+  },
+  {
+   "nazov": "Losos",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "s kožou, 4 porcie"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "repkový"
+  },
+  {
+   "nazov": "Hlíva",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "2 hlivy erynge, na plátky"
+  },
+  {
+   "nazov": "Shiitake",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "3 huby, na plátky"
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nakrájaná, do omáčky"
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": 15,
+   "jednotka": "g",
+   "poznamka": "cesnaková, 5 cm kúsky"
+  },
+  {
+   "nazov": "Kurací vývar",
+   "mnozstvo": 120,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 600,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Rybacia omáčka",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nastrúhaná kôra (1 PL)"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "do omáčky"
+  },
+  {
+   "nazov": "Jazmínová ryža",
+   "mnozstvo": 170,
+   "jednotka": "g",
+   "poznamka": "na podávanie (asi 500 g uvarenej)"
+  },
+  {
+   "nazov": "Koriandrová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nasekaná"
+  }
+ ],
+ "postup": [
+  "Všetky suroviny na pastu (od papriky po limetkovú šťavu) rozmixuj úplne dohladka. V uzavretej nádobe v chladničke vydrží týždeň.",
+  "Ryžu uvar podľa návodu. Lososa zo všetkých strán osoľ a okoreň. Na panvici rozohrej 1 ČL oleja a lososa opekaj kožou nadol asi 5 minút, kým koža nie je chrumkavá. Obráť, krátko opeč aj druhú stranu a vyber.",
+  "Na tej istej panvici opeč hlivu a shiitake dochrumkava a odlož.",
+  "Prilej zvyšný olej a asi 3 minúty opekaj šalotku. Pridaj kari pastu, vývar a kokosové mlieko, priveď k varu a stíš oheň. Vlož lososa, prikry a var 8 minút, kým nemá vnútri 63 °C.",
+  "Lososa vyber, do omáčky pridaj huby a pažítku a 2 minúty prehrievaj. Dochuť rybacou omáčkou, limetkovou kôrou a šťavou.",
+  "Do misiek daj ryžu, prelej omáčkou, navrch polož lososa a posyp koriandrom a jarnou cibuľkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "ryba",
+  "kari",
+  "herná kuchárka"
+ ]
+}

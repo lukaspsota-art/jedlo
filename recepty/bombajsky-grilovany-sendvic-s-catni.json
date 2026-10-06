@@ -1,0 +1,195 @@
+{
+ "id": "bombajsky-grilovany-sendvic-s-catni",
+ "nazov": "Bombajský grilovaný sendvič so zeleným čatní",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Indická",
+ "zdroj": "Halo: The Official Cookbook – Bombay Sandwich",
+ "porcie": 4,
+ "cas": "1 hod 15 min",
+ "kcal_na_porciu": 566,
+ "kcal_zdroj": "vypocet",
+ "popis": "Trojposchodový opečený sendvič s bylinkovým čatní, zemiakmi, zeleninou a mozzarellou, posypaný domácou chaat masalou.",
+ "hlavna_surovina": "Zemiaky",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Rímska rasca",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "celá, na chaat masalu"
+  },
+  {
+   "nazov": "Koriandrové semienka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na chaat masalu"
+  },
+  {
+   "nazov": "Feniklové semienka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na chaat masalu"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "celé zrnká, na chaat masalu"
+  },
+  {
+   "nazov": "Kardamón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "zelený struk, na chaat masalu"
+  },
+  {
+   "nazov": "Amčúr",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "prášok zo sušeného manga, na chaat masalu"
+  },
+  {
+   "nazov": "Mletý zázvor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na chaat masalu"
+  },
+  {
+   "nazov": "Mleté chilli",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "kašmírske, na chaat masalu"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "čierna (kala namak), na chaat masalu"
+  },
+  {
+   "nazov": "Kyselina citrónová",
+   "mnozstvo": 0.5,
+   "jednotka": "g",
+   "poznamka": "citrónová (E330), na chaat masalu"
+  },
+  {
+   "nazov": "Koriandrová vňať",
+   "mnozstvo": 1,
+   "jednotka": "zväzok",
+   "poznamka": "na čatní"
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "listy, na čatní"
+  },
+  {
+   "nazov": "Chilli paprička",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "serrano, bez stopky, na čatní"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": "na čatní"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 5,
+   "jednotka": "g",
+   "poznamka": "kúsok 1 cm, na čatní"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na čatní"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na čatní"
+  },
+  {
+   "nazov": "Limetky",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "šťava, na čatní"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na čatní"
+  },
+  {
+   "nazov": "Kokos strúhaný",
+   "mnozstvo": 7,
+   "jednotka": "g",
+   "poznamka": "na čatní"
+  },
+  {
+   "nazov": "Zemiak",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "múčnatý, olúpaný, na plátky"
+  },
+  {
+   "nazov": "Toastový chlieb",
+   "mnozstvo": 12,
+   "jednotka": "plátok",
+   "poznamka": "biely"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "nesolené, na potretie a opečenie"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na plátky"
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "na tenké plátky"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "olúpaná, na plátky"
+  },
+  {
+   "nazov": "Mozzarella",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "nastrúhaná"
+  }
+ ],
+ "postup": [
+  "Na chaat masalu opraž na suchej panvici na strednom ohni rascu, koriander, fenikel, zrnká korenia a kardamón asi 3 minúty a nechaj úplne vychladnúť.",
+  "Opražené korenie zomeľ v mlynčeku nadrobno a zmiešaj s amčúrom, zázvorom, chilli, čiernou soľou a kyselinou citrónovou. Skladuj v uzavretej nádobe.",
+  "Na čatní rozmixuj koriandrovú vňať, mätu, chilli, cesnak, zázvor, cukor, soľ, limetkovú šťavu, vodu a kokos dohladka. Ak je príliš husté, prilej po troškách vodu. V chladničke vydrží týždeň.",
+  "Plátky zemiaka var vo vriacej vode asi 12 minút do mäkka, sceď a osuš.",
+  "Plátok chleba natri z jednej strany maslom, otoč ho a druhú stranu natri čatní. Oblož ho zemiakmi, posyp chaat masalou a pridaj hrsť cibule.",
+  "Druhý plátok natri čatní, polož ho natretou stranou na sendvič a čatní natri aj jeho vrchnú stranu. Pridaj uhorku, paradajky a mozzarellu a posyp chaat masalou.",
+  "Tretí plátok natri čatní, polož ho natretou stranou dole a vrch potri maslom. Rovnako zlož ostatné sendviče.",
+  "Grilovaciu panvicu rozpáľ na stredne vysokom ohni, polož na ňu sendvič a zaťaž ho niečím ťažkým. Opekaj 3–5 minút dozlatista, otoč, znova zaťaž a opeč aj druhú stranu. Rovnako opeč ostatné sendviče."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bezmäsité",
+  "herná kuchárka"
+ ]
+}

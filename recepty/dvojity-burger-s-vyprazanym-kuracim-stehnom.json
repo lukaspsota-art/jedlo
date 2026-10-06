@@ -1,0 +1,280 @@
+{
+ "id": "dvojity-burger-s-vyprazanym-kuracim-stehnom",
+ "nazov": "Dvojitý burger s vyprážaným kuracím stehnom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Halo: The Official Cookbook – Full-Stack Ground Pounder",
+ "porcie": 6,
+ "cas": "9 hod 45 min",
+ "kcal_na_porciu": 2061,
+ "kcal_zdroj": "vypocet",
+ "popis": "Obrovský burger z domácich mliečnych žemlí, dvoch hovädzo-jahňacích placiek, vyprážaného kuracieho stehna a slaniny – legendárna výzva z Halo.",
+ "hlavna_surovina": "Hovädzie mäso",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 24,
+   "jednotka": "g",
+   "poznamka": "chlebová, na zápar (tangzhong)"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 80,
+   "jednotka": "ml",
+   "poznamka": "na zápar"
+  },
+  {
+   "nazov": "Droždie",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "instantné sušené, do cesta"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 160,
+   "jednotka": "ml",
+   "poznamka": "vlažné (38–43 °C), do cesta"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 340,
+   "jednotka": "g",
+   "poznamka": "chlebová, do cesta"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": "do cesta"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 16,
+   "jednotka": "g",
+   "poznamka": "do cesta"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "do cesta"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 57,
+   "jednotka": "g",
+   "poznamka": "nesolené, mäkké, do cesta"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na potretie"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na potretie"
+  },
+  {
+   "nazov": "Sezam",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "biely, na posypanie"
+  },
+  {
+   "nazov": "Kuracie stehná bez kosti",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": "bez kože"
+  },
+  {
+   "nazov": "Cmar",
+   "mnozstvo": 360,
+   "jednotka": "ml",
+   "poznamka": "do marinády"
+  },
+  {
+   "nazov": "Nálev z uhoriek",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "do marinády"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "celé, do marinády"
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "do marinády"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "do marinády"
+  },
+  {
+   "nazov": "Tabasco",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "alebo iná pálivá omáčka, do marinády"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "na obaľovanie kuracieho"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "hrubá, na obaľovanie"
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na obaľovanie"
+  },
+  {
+   "nazov": "Cibuľový prášok",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na obaľovanie"
+  },
+  {
+   "nazov": "Sladká paprika",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "mletá, na obaľovanie"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mleté, na obaľovanie"
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na obaľovanie"
+  },
+  {
+   "nazov": "Arašidový olej",
+   "mnozstvo": 1500,
+   "jednotka": "ml",
+   "poznamka": "na vyprážanie",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Mleté hovädzie mäso",
+   "mnozstvo": 907,
+   "jednotka": "g",
+   "poznamka": "na placky"
+  },
+  {
+   "nazov": "Jahňacie stehno",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "mleté, na placky"
+  },
+  {
+   "nazov": "Rybacia omáčka",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na placky"
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na placky"
+  },
+  {
+   "nazov": "Mletý fenikel",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na placky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "repkový, na opekanie placiek"
+  },
+  {
+   "nazov": "Čedar",
+   "mnozstvo": 6,
+   "jednotka": "plátok",
+   "poznamka": "na polovicu placiek"
+  },
+  {
+   "nazov": "Hlávkový šalát",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "maslový, 3 listy na burger"
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "japonská"
+  },
+  {
+   "nazov": "Čedar",
+   "mnozstvo": 6,
+   "jednotka": "plátok",
+   "poznamka": "do burgera"
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "12 plátkov"
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 12,
+   "jednotka": "plátok",
+   "poznamka": "opečená"
+  }
+ ],
+ "postup": [
+  "Zápar: v malom hrnci zmiešaj 24 g múky s 80 ml mlieka a na vyššom ohni šľahaj asi minútu, kým nezhustne. Nechaj vychladnúť.",
+  "Droždie rozmiešaj vo vlažnom mlieku a nechaj 5 minút pôsobiť. V mise robota zmiešaj 340 g múky, soľ a cukor, pridaj zápar, mlieko s droždím a vajce. Počas miesenia pridávaj maslo po lyžici a mies 5 minút do hladkého cesta.",
+  "Cesto vlož do vymastenej misy, prikry a nechaj hodinu kysnúť na dvojnásobok. Prepracuj ho, rozdeľ na 6 guliek, ulož na plech s papierom na pečenie, jemne sploští a pod fóliou nechaj ešte 30–60 minút kysnúť.",
+  "Rúru predhrej na 190 °C. Žemle potri vajcom rozšľahaným s 2 PL mlieka, posyp sezamom a peč 16–19 minút dozlatista.",
+  "Kuracie stehná vlož do uzatvárateľného vrecka s cmarom, uhorkovým nálevom, celým korením, bobkovými listami, soľou a pálivou omáčkou a nechaj v chladničke marinovať 8–24 hodín.",
+  "V hlbokom hrnci rozohrej asi 5 cm oleja na 175 °C. Zmiešaj múku so soľou, cesnakovým a cibuľovým práškom, paprikou, korením a kajenským korením. Osušené stehná obaľ v zmesi a vyprážaj 6–10 minút, kým nemajú vnútri 75 °C. Vyber na papierovú utierku.",
+  "Hovädzie a jahňacie mäso zľahka premiešaj s rybacou omáčkou, cesnakovým práškom a feniklom. Vytvaruj 12 placiek o niečo širších ako žemle, osoľ a okoreň. Na rozpálenej panvici s olejom ich opekaj 4 minúty z každej strany; na polovicu placiek polož plátok čedaru, prikry a nechaj syr roztopiť.",
+  "Žemľu rozrež a na spodok navrstvi placku so syrom, šalát, kuracie stehno, ďalší list šalátu a trochu majonézy. Pokračuj plackou bez syra, šalátom, plátkom čedaru, dvoma plátkami paradajky a dvoma plátkami slaniny a prikry vrchnou polovicou žemle."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "kuracie",
+  "burger",
+  "herná kuchárka"
+ ]
+}

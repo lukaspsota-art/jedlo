@@ -288,7 +288,7 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
     nak.planovaneRecepty().forEach(r => (r.ingrediencie || []).forEach(i => {
       const p = nak.najdiPotravinu(i.nazov);
       const j = (i.jednotka || "").toLowerCase().trim();
-      const kandidati = p ? [p.kluc] : ["u|" + i.nazov.toLowerCase() + "|" + j, i.nazov.toLowerCase()];
+      const kandidati = p ? [p.kluc, nak.kanonKluc(p.kluc)] : ["u|" + i.nazov.toLowerCase() + "|" + j, i.nazov.toLowerCase()];
       if (!kandidati.some(k => kluce.has(k))) chyba.push(r.id + " / " + i.nazov + " (" + i.mnozstvo + " " + j + ")");
     }));
     assert.strictEqual(chyba.length, 0, chyba.length + " surovín vypadlo z nákupu: " + chyba.slice(0, 8).join(" · "));

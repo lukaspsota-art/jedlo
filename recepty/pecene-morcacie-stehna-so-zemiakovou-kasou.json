@@ -1,0 +1,198 @@
+{
+ "id": "pecene-morcacie-stehna-so-zemiakovou-kasou",
+ "nazov": "Pečené morčacie stehná so zemiakovou kašou s cibuľou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Halo: The Official Cookbook – Turkey Dinner",
+ "porcie": 4,
+ "cas": "13 hod",
+ "kcal_na_porciu": 1173,
+ "kcal_zdroj": "vypocet",
+ "popis": "Morčacie stehná naložené cez noc v korenistom láku a upečené na zelenine, podávané s krémovou kašou so smotanovým syrom a karamelizovanou cibuľou.",
+ "hlavna_surovina": "morčacie mäso",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1920,
+   "jednotka": "ml",
+   "poznamka": "na lák"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 137,
+   "jednotka": "g",
+   "poznamka": "na lák",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "na lák",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 55,
+   "jednotka": "g",
+   "poznamka": "na lák",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mleté; na lák",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na lák",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Chilli prášok",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na lák",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Morčacie stehno",
+   "mnozstvo": 1800,
+   "jednotka": "g",
+   "poznamka": "4 stehná s kosťou",
+   "vsiaknutie": 0.7
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na veľké kusy"
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "3 stonky, na veľké kusy"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 5,
+   "jednotka": "strúčik",
+   "poznamka": "roztlačený"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na štvrtiny"
+  },
+  {
+   "nazov": "Sladká paprika",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na potretie"
+  },
+  {
+   "nazov": "Chilli prášok",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na potretie"
+  },
+  {
+   "nazov": "Cibuľový prášok",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na potretie"
+  },
+  {
+   "nazov": "Rímska rasca",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "mletá; na potretie"
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "mletý; na potretie"
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na potretie"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "repkový; na kašu"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na plátky; na kašu"
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 907,
+   "jednotka": "g",
+   "poznamka": "múčnaté; na kašu"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 114,
+   "jednotka": "g",
+   "poznamka": "nesolené; na kašu"
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "na kašu"
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 56,
+   "jednotka": "g",
+   "poznamka": "na kašu"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Vo veľkom hrnci zohrej vodu so soľou, oboma cukrami, korením, cesnakovým a chilli práškom, kým sa soľ nerozpustí. Nechaj úplne vychladnúť.",
+  "Morčacie stehná rozdeľ do dvoch veľkých uzatvárateľných vreciek, do každého pridaj bobkový list a zalej vychladnutým lákom. Nechaj 12 hodín v chladničke.",
+  "Rúru predhrej na 190 °C. Na dno hlbokého pekáča rozlož mrkvu, zeler, cesnak a štvrtiny cibule.",
+  "Zmiešaj korenie na potretie. Stehná vyber z láku, lák vylej, mäso osuš a dôkladne ho vytri koreninovou zmesou. Polož stehná na zeleninu a peč 20 minút, potom zníž teplotu na 175 °C a peč ďalších 20 minút. Stehná obráť a dopeč asi 30 minút, kým nemajú vnútri 75 °C.",
+  "Medzitým na panvici rozohrej olej a cibuľu dus asi 2 minúty dosklovita. Osoľ, stíš oheň a za občasného miešania ju karamelizuj 30–45 minút.",
+  "Zemiaky daj do hrnca, zalej vodou, pridaj 1 ČL soli a var 15–20 minút do mäkka. Sceď ich.",
+  "Do prázdneho hrnca daj maslo, smotanový syr a kyslú smotanu, pridaj zemiaky a roztlač ich dohladka. Vmiešaj karamelizovanú cibuľu, dochuť soľou a korením a podávaj so stehnami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "morčacie",
+  "herná kuchárka"
+ ]
+}
