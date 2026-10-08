@@ -2292,7 +2292,9 @@
   {
     "kluc": "zeler",
     "oddelenie": "Zelenina a ovocie",
-    "alergeny": [],
+    "alergeny": [
+      "zeler"
+    ],
     "kcal": 16,
     "bielkoviny": 0.7,
     "tuky": 0.2,
@@ -3378,18 +3380,18 @@
   },
   {
     "kluc": "droždie",
-    "oddelenie": "Pečenie a sladké",
+    "oddelenie": "Chladené",
     "alergeny": [],
-    "kcal": 325,
-    "bielkoviny": 40,
-    "tuky": 7,
-    "sacharidy": 36,
-    "g_za_ks": 7,
-    "hustota": 0.7,
+    "kcal": 105,
+    "bielkoviny": 8.4,
+    "tuky": 1.9,
+    "sacharidy": 12,
+    "g_za_ks": 42,
+    "hustota": 1,
     "meso": false,
-    "cena100": 3,
-    "vlaknina": 1,
-    "sodik": 25,
+    "cena100": 0.5,
+    "vlaknina": 6.9,
+    "sodik": 30,
     "balenie_g": 42,
     "balenie_popis": "42 g"
   },
@@ -6871,7 +6873,10 @@
   {
     "kluc": "tonkatsu omáčka",
     "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [],
+    "alergeny": [
+      "lepok",
+      "sója"
+    ],
     "kcal": 130,
     "bielkoviny": 1,
     "tuky": 0.1,
@@ -8770,7 +8775,7 @@
     "kluc": "krabie mäso",
     "oddelenie": "Mäso a ryby",
     "alergeny": [
-      "ryby"
+      "kôrovce"
     ],
     "kcal": 90,
     "bielkoviny": 15,
@@ -20964,5 +20969,39 @@
     "sodik": 420,
     "balenie_g": 500,
     "balenie_popis": "500 g"
+  },
+  {
+    "kluc": "sušené droždie",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 325,
+    "bielkoviny": 40,
+    "tuky": 7,
+    "sacharidy": 36,
+    "g_za_ks": 7,
+    "hustota": 0.7,
+    "meso": false,
+    "cena100": 3,
+    "vlaknina": 27,
+    "sodik": 50,
+    "balenie_g": 7,
+    "balenie_popis": "7 g"
+  },
+  {
+    "kluc": "lahôdkové droždie",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 355,
+    "bielkoviny": 50,
+    "tuky": 4,
+    "sacharidy": 35,
+    "g_za_ks": null,
+    "hustota": 0.7,
+    "meso": false,
+    "cena100": 6,
+    "vlaknina": 20,
+    "sodik": 30,
+    "balenie_g": 100,
+    "balenie_popis": "100 g"
   }
 ]
