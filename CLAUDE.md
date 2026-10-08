@@ -148,8 +148,16 @@ vsiaknutie?}], postup[], tipy, foto, tagy[], typ?`.
   **Namerané v októbri 2026:** prvé kolo dalo 2128 fotiek, zrakom vyradených 483 (22 %);
   náhrady (`--zdielat`) 492, z nich vyradených 220. Výsledok 1988 receptov s fotkou (88 %).
   Najslabšie sú kúpené výrobky (77 %) — Commons nemá fotky „skyr mango" ani „proteínový nápoj"
-  a vracia ľudí v kuchyni či regály. ~230 receptov bez fotky ukazuje emoji; ďalší beh
-  `hladaj` by im skúsil tretieho kandidáta.
+  a vracia ľudí v kuchyni či regály.
+  **Pixel art (9. 10. 2026): každý recept má obrázok.** Kontrola všetkých 3862 fotiek
+  (kontaktné hárky, 8 agentov + ručné overenie) vyradila 151 zlých (ľudia, regály, mapy,
+  surové mäso pri hotovom jedle, iné jedlo) cez `--zamietni`; 18 osirelých fotiek zmazaných.
+  Recept bez fotky (509: 358 bez fotky + 151 vyradených, väčšinou herné kuchárky bez fotky
+  v knihe a kúpené výrobky) dostal **`scripts/pixel_art_fotky.py`**: 96×54 px ×5 = 480×270,
+  bezstratové WebP, druh obrázka z názvu (`druh()` — hlavné podstatné meno pred „s/v/na“,
+  `hlava_nazvu`), farby zo surovín vážené množstvom, koktaily na bare v správnom pohári.
+  V `ZDROJE.json` má `pixelart: true`. Skutočnú fotku namiesto neho: `stiahni_fotky.py
+  --zamietni id` a potom `--zdroj hladaj` (pixel art súbor `hladaj` inak nechá tak).
 
 **Potravina** (`potraviny.json`): `kluc`, `oddelenie`, `alergeny[]`, `kcal/bielkoviny/tuky/sacharidy`
 na 100 g, `cena100` €/100 g (**`null` = neznáma cena, `0` = naozaj zadarmo**), `g_za_ks?`
@@ -896,9 +904,46 @@ Správy sú v scratchpade relácie (`audit3/VSETKO.md`). Čo sa zmenilo a na čo
   nie energie. Namerané (3 seedy × 4 týždne): 2000 kcal 27,4 → 22,4 % energie, 2500 kcal 21,7 %, kcal 100 % dní v ±10 %;
   profil 1450 kcal / 80 g (test_generator A2) bez zmeny. D7 v `test_pravidla` kontroluje faktor JEDLA v 0,7–1,5.
 - Ručná porcia zo zálohy/syncu je zovretá na 0,5–2 (`rucnyMult`). Testy: `test_ux.js` sekcia „Kolo 3".
-- **Ostáva z kola 3** (väčšie): gestá (potiahnutie vo varení, panel nadol), zatváranie okien animáciou, chrome Plánu
-  nad prvým jedlom (Týždeň/Kalendár do menu), strop času varného dňa, desiata do školy so sendvičmi, tlač nákupu
-  na 2 stĺpce, stopy orechov v potravinách, lenivé načítanie herných kuchárok (súbor 3,8 MB, generovanie 1–2 s).
+- **Ostáva z kola 3** (väčšie): strop času varného dňa, desiata do školy so sendvičmi, tlač nákupu na 2 stĺpce,
+  stopy orechov v potravinách, lenivé načítanie herných kuchárok (súbor 3,6 MB).
+
+### Kolo 4 (9. 10. 2026) — príprava pred auditom 11 rolí (cieľ ≥ 9/10)
+Roly od kola 4: dizajn, používateľ, výživa, kuchár, QA, rodič, prístupnosť, ovládanie, vizuál, pocit, **diabetik 2. typu**
+(študent, alergik a senior sú vyradení — rozhodnutie používateľa).
+- **🩺 Diabetes 2. typu** (`S.profil.diabetes`, Nastavenia → Diéta + uvítanie): `nevhodneDiabetu` vyradí dezerty,
+  sladkosti (`_SLADKE`), jedlo s > 60 % energie zo sacharidov a kúpený snack nad 20 g sacharidov; príloha
+  (`_priloha`) ostáva. `skoreJedla` tlmí sacharidy nad 40 % energie jedla (`GEN_SK.dia`) a pridá váhu vlákniny;
+  `jedloVyziva` nesie `s` aj s prílohou. Bunka ukáže „X g sach.", Výživa dlaždicu Sacharidy. Namerané 2000 kcal:
+  sacharidy 46,5 → 36 % E, jedál nad 75 g sacharidov 75 → 23 z 252, kcal 100 % dní, dezerty 0.
+- **🎨 Farebné témy** (`S.profil.paleta`, `PALETY`, `renderPalety`, `data-paleta` na `<html>`): Teplý stôl
+  (predvolená), Šalvia, More, Levanduľa, Vysoký kontrast — každá svetlá aj tmavá, mení LEN plochy a text, farby
+  blokov A/B/C ostávajú. CSS v `tema-bloky.css` („FAREBNÉ TÉMY"); `kontrast_bloky.py` kontroluje každú paletu.
+  Vzorky v `PALETY` sú jediné hexy v app.js mimo `COOK_BLOKY` (náhľad palety, nie farba rozhrania).
+- **Soľ a spracované mäso v skóre generátora** (`GEN_SK.sol` 0,5 nad 5 g/deň prepočítané na 100 kcal; rybacie jedlo
+  vyňaté; `GEN_SK.maso` aj pre raňajky a snack): 2000 kcal soľ 6,5 → 4,6 g/deň, dni nad 5 g 58 → 33 %,
+  spracované mäso 88 → 14 g/týž., týždne bez ryby 3 → 0 z 12.
+- **Plán na telefóne:** nadpis, Týždeň/Kalendár (→ ⋯ Viac „📆 Mesačný kalendár", späť „← Týždeň") a rozvrh (→ ⋯ Viac)
+  skryté; nad plným týždňom je „✨ Zostaviť" len v ⋯ Viac (`body.plan-plny`) a „⋯ Viac" stojí vpravo pri šípkach
+  týždňa. Prvé jedlo 436 → 179 px. **Jeden hrniec = jedna karta** „Obed aj večera · 🍲 jeden hrniec"
+  (`planBunka(di,slot,menovka)`).
+- **Emoji majú jeden význam:** ☕ raňajky, 🗓️ rozvrh, 👨‍🍳 varenie/plán varenia, 🥕 Čo uvarím, ✎ upraviť.
+- **Nákup:** jednotky sa skloňujú (`jednotkaSklon`, `JED_SKLON`: 1 hrsť · 3 plátky · 6 hrstí · 1,5 strúčika),
+  balenie z kusov „7 balení po 2 ks", riadok je jedna karta aj s ⓘ, tlačidlo „Len od dneška" (`nakupVyberOdDnes`,
+  `nakupOdDnes`) — predvolene ostáva celý týždeň (7 E2E kontrol na tom stojí a ticho skryť várku je horšie).
+- **Domov:** deň pred varným dňom karta „📅 Zajtra večer varíš blok X" (príprava vopred, nákup na blok), od piatku
+  „🗓️ Budúci týždeň ešte nemáš naplánovaný"; podtitul je dnešok a blok, nie dátum buildu.
+- **Kuchár:** `skladajVDen` (burger/tacos/pita s náplňou 45+ min = náplň dopredu, skladá sa v deň jedenia),
+  `_CERSTVE` pozná carbonaru, tempuru, fish & chips; `pripravaVopred` číta „24 h", „8–12 hodín", „šesť hodín",
+  namáčanie/marinádu; `parseCasSek` vie slovné číslovky, „1–1½ hodiny", „hodinu", „2 a 1/2 hod.". Vegetarián: tofu
+  ×1,5, za rybu cícer, veta „pred mäsom odober časť základu" v detaile, pláne varenia aj vo varení bloku.
+- **Pocit a ovládanie:** zatváranie okien „duchom" (`_odchodDuch`: stav sa mení hneď, odchádza len kópia bez id
+  a ovládania), gestá na dotyk (vo varení potiahnutie = krok, hlavička okna nadol = zavrieť), vstup do varenia
+  nábehom, `generujTlacidlo` sa počas zostavovania nespustí druhýkrát, prázdna Špajza a Nákup radia ďalší krok.
+- **Prístupnosť:** `_vratFokus` nájde aj prekreslený spúšťač (podľa `_fokusKluc`), 🎲 a 🎲 bloku cez `drzFokus`,
+  nový stravník dostane fokus do mena, polia receptu majú čísla riadkov, ✕ okien má meno „Zavrieť".
+- **QA:** druhá záložka — `storage` udalosť → táto záložka prestane zapisovať a ponúkne „↻ Načítať"
+  (`_cudziStav`); `sw.js` VERZIA = v34; 40 názvov výrobkov bez zátvorky v zátvorke; 5 falošných „vegetariánske".
+- Tehotná: pri voľbe typu toast o trimestroch a o tom, čo appka nesleduje. Malé dieťa: exotické kuchyne ×0,5.
 
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených

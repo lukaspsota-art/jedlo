@@ -1145,7 +1145,7 @@ ok("vegetarián medzi mäsožravcami: mäso v nákupe × (1 − podiel), za zvy�
   const r = { id: "t-gul", nazov: "Guláš", porcie: 2, ingrediencie: [{ nazov: "Hovädzie mäso", mnozstvo: 400, jednotka: "g" }, { nazov: "Cibuľa", mnozstvo: 1, jednotka: "ks" }] };
   const ing = app.ingrediencieNaNakup(r);
   assert.strictEqual(ing[0].mnozstvo, 200); assert.strictEqual(ing[1].mnozstvo, 1);
-  const t = ing.find(i => i.nazov === "Tofu"); assert.ok(t && t.mnozstvo === 200, JSON.stringify(t));
+  const t = ing.find(i => i.nazov === "Tofu"); assert.ok(t && t.mnozstvo === 300, JSON.stringify(t)); // tofu 1,5× (polovica bielkovín mäsa)
   assert.match(app.vegNahradaText(r), /Mama/);
   const v = novy({ stravnici: [{ nazov: "Otec", kcal: 2000 }, { nazov: "Mama", kcal: 2000, veg: true, typ: "" }, { nazov: "X", kcal: 2000, veg: true }] });
   assert.ok(Math.abs(v.vegPodiel() - 2 / 3) < 1e-9);
@@ -1253,6 +1253,62 @@ ok("↩ Späť má 5 krokov: dve 🎲 sa dajú vrátiť až po pôvodné jedlo",
   app.regenerujSlot(2, "Obed"); app.regenerujSlot(2, "Obed");
   app.vratSpat(); app.vratSpat();
   assert.strictEqual(app.slotIds(2, "Obed")[0], p0);
+});
+
+nadpis("\nKolo 4 (9. 10.) — diabetes, farebné témy, jednotky, časovač, jeden hrniec, nákup od dneška");
+ok("🩺 diabetes: bez dezertov a sladkostí, sacharidy do 60 % energie, kúpený snack do 20 g; príloha ostáva", () => {
+  const app = novy({ diabetes: true });
+  const U = app.genUniverzum();
+  assert.ok(!U.some(r => r.kategoria === "Dezert"), "dezert v pláne diabetika");
+  const zle = U.filter(r => { const v = app.vyzivaReceptu(r); return v.kcal > 0 && (app.jeVyrobok(r) ? v.s > 20 : v.s * 4 / v.kcal > 0.6); });
+  assert.strictEqual(zle.length, 0, zle.slice(0, 3).map(r => r.id).join(","));
+  assert.ok(app.vhodnyPrePlan(app.komponent("prf:ryza")), "ryža ako príloha musí ostať");
+  assert.ok(novy().genUniverzum().length > U.length);
+});
+ok("🩺 diabetes zníži podiel sacharidov v pláne a bunka ich ukáže", async () => {
+  const sach = async dia => { const a = novy({ diabetes: dia, kcal: 2000, stravnici: [{ nazov: "A", kcal: 2000 }] }); await a.generujJedalnicek(true);
+    let k = 0, s = 0; for (let di = 0; di < 7; di++) a.slotyDna(di).forEach(sl => a.slotIds(di, sl).forEach(c => { const r = a.komponent(c); if (r) { const v = a.vyzivaReceptu(r); k += v.kcal * a.pf(di, sl); s += v.s * a.pf(di, sl); } }));
+    return { p: s * 4 / k, a }; };
+  const bez = await sach(false), s = await sach(true);
+  assert.ok(s.p < bez.p - 0.04 && s.p < 0.42, (bez.p * 100).toFixed(1) + " % → " + (s.p * 100).toFixed(1) + " %");
+  assert.ok(/g sach\./.test(s.a.planBunka(0, "Obed")), "bunka neukazuje sacharidy");
+});
+ok("🎨 farebné témy: 5 paliet, voľba sa uloží na <html data-paleta> a neznáma hodnota nič nerozbije", () => {
+  const app = novy({ paleta: "more" });
+  assert.strictEqual(app.PALETY.length, 5);
+  app.applyVzhlad();
+  assert.strictEqual(app.document.documentElement.dataset.paleta, "more");
+  const x = novy({ paleta: "<script>" }); x.applyVzhlad();
+  assert.ok(!x.document.documentElement.dataset.paleta, "neznáma paleta sa nesmie zapísať");
+});
+ok("jednotky sa skloňujú: 1 hrsť · 3 plátky · 6 hrstí · 1,5 strúčika", () => {
+  const app = novy();
+  assert.deepStrictEqual([app.jednotkaSklon(1, "hrsť"), app.jednotkaSklon(3, "plátok"), app.jednotkaSklon(6, "hrsť"), app.jednotkaSklon(1.5, "strúčik"), app.jednotkaSklon(5, "g")],
+    ["hrsť", "plátky", "hrstí", "strúčika", "g"]);
+});
+ok("časovač zo slov: šesť hodín, 1–1½ hodiny, hodinu, 2 a 1/2 hod.", () => {
+  const app = novy(), m = t => app.parseCasSek(t) / 60;
+  assert.deepStrictEqual([m("Pečieme šesť hodín."), m("Duste 1–1½ hodiny."), m("Varte hodinu."), m("Peč 2 a 1/2 hod."), m("Peč 1 hodinu 30 minút")], [360, 60, 60, 150, 90]);
+});
+ok("jeden hrniec je v blokovom zozname JEDNA karta „Obed aj večera“", async () => {
+  const app = novy({ jedenHrniec: true });
+  await app.generujJedalnicek(true);
+  app.renderPlanBloky(["Raňajky", "Obed", "Večera", "Snack"], 1450);
+  const h = app.document.getElementById("plan-bloky").innerHTML;
+  assert.ok(/Obed aj večera/.test(h), "chýba spoločná karta");
+  assert.ok(!/<span class="pc-slot">Večera<\/span>/.test(h), "večera je ešte samostatná karta");
+});
+ok("nákup: predvolene celý týždeň; „Len od dneška“ zapne várky, ktoré sa ešte nezačali", () => {
+  const app = novy();
+  app.S.viewOd = app.pondelokPre(app.dnesISO()); app.S.nakupVarky = null;
+  assert.strictEqual(app.nakupVyber(), null, "bez voľby sa nesmie nič skryť");
+  const dnes = (new Date().getDay() + 6) % 7, b = app.bloky(), cakaju = b.map((d, i) => i).filter(i => b[i][0] > dnes);
+  const od = app.nakupVyberOdDnes();
+  if (cakaju.length && cakaju.length < b.length) {
+    assert.deepStrictEqual([...od], [...cakaju]);
+    assert.ok(/Len od dneška/.test(app.varkyHTML(null)), "chýba tlačidlo „Len od dneška“");
+    app.nakupOdDnes(); assert.deepStrictEqual([...app.nakupVyber()], [...cakaju]);
+  } else assert.strictEqual(od, null);
 });
 
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });

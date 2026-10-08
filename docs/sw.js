@@ -4,7 +4,7 @@
 // poškodený obsah). Na bežnú aktualizáciu obsahu ju meniť NETREBA: dokument beží
 // v režime „stale-while-revalidate“, čiže appka sa načíta okamžite z cache a nová
 // verzia sa doťahuje na pozadí (viď správa „nova-verzia“ nižšie).
-const VERZIA = "v19";
+const VERZIA = "v34"; // 9. 10. 2026: zladené s app.js (kolo 4) — nová cache raz vyhodí starú
 const CACHE = "kucharka-" + VERZIA;
 
 // sync-config.js sú TVOJE Supabase kľúče — nikdy ho necachuj, inak by sa zmena kľúčov

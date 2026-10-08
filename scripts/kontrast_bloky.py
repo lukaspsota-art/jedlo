@@ -128,6 +128,22 @@ def main():
     if v < AA_TEXT:
         zle.append("varenie/text = %.2f" % v)
 
+    # farebné témy (kolo 4): paleta prepisuje plochy a text nad základnou svetlou/tmavou sadou
+    for pal in sorted(set(re.findall(r':root\[data-paleta="([a-z]+)"\]\{', blok))):
+        def jedno(sel):
+            m = re.search(re.escape(sel) + r"\s*\{([^}]*)\}", blok)
+            if not m:
+                sys.exit("nenašiel som %r" % sel)
+            return dict(re.findall(r"--([a-z0-9-]+):\s*(#[0-9a-fA-F]{6})", m.group(1)))
+        sv = dict(svetla, **jedno(':root[data-paleta="%s"]' % pal))
+        tm_p = jedno(':root[data-paleta="%s"] body.dark' % pal)
+        tm = dict(tmava, **tm_p)
+        zle += skontroluj("paleta %s — svetlá" % pal, sv)
+        zle += skontroluj("paleta %s — tmavá" % pal, tm)
+        sy = jedno(':root[data-paleta="%s"] body:not(.svetla)' % pal)
+        if sy != tm_p:
+            zle.append("paleta %s: systémová tmavá sa líši od body.dark" % pal)
+
     print()
     if zle:
         print("PADÁ — %d párov pod prahom:" % len(zle))

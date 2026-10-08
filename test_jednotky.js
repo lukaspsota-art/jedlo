@@ -166,9 +166,9 @@ ok("v34: skalovanaHodnota škáluje aj kusy veľkosťou porcie (zaokrúhľuje sa
 });
 ok("prevodJednotka nedeliteľnú jednotku zaokrúhli na celé a nikdy nedá 0 pri kladnom množstve", () => {
   app.NEDELITELNE_JEDNOTKY.forEach(j => {
-    assert.strictEqual(app.prevodJednotka(0.3, j), "1 " + j, "0,3 " + j + " → " + app.prevodJednotka(0.3, j));
-    assert.strictEqual(app.prevodJednotka(2.6, j), "3 " + j, "2,6 " + j + " → " + app.prevodJednotka(2.6, j));
-    assert.strictEqual(app.prevodJednotka(0, j), "0 " + j, "0 " + j + " → " + app.prevodJednotka(0, j));
+    assert.strictEqual(app.prevodJednotka(0.3, j), "1 " + app.jednotkaSklon(1, j), "0,3 " + j + " → " + app.prevodJednotka(0.3, j));
+    assert.strictEqual(app.prevodJednotka(2.6, j), "3 " + app.jednotkaSklon(3, j), "2,6 " + j + " → " + app.prevodJednotka(2.6, j));
+    assert.strictEqual(app.prevodJednotka(0, j), "0 " + app.jednotkaSklon(0, j), "0 " + j + " → " + app.prevodJednotka(0, j));
   });
   // deliteľná jednotka sa zaokrúhľovať nesmie
   assert.ok(app.prevodJednotka(2.6, "g").startsWith("2,6") || app.prevodJednotka(2.6, "g").startsWith("2.6"),
@@ -181,7 +181,7 @@ ok("kuchynské miery sa v detaile zobrazia na polovice, pod 1 na štvrtiny; gram
   // audit 30. 9.: „Chren 6,65 PL", „2,59 PL", „603,75 g" — presnosť, ktorú nikto neodmeria
   assert.strictEqual(app.prevodJednotka(2.59, "PL"), "2,5 PL");
   assert.strictEqual(app.prevodJednotka(6.65, "PL"), "6,5 PL");
-  assert.strictEqual(app.prevodJednotka(3.45, "strúčik"), "3,5 strúčik");
+  assert.strictEqual(app.prevodJednotka(3.45, "strúčik"), "3,5 strúčika"); // desatinné číslo = 2. pád
   assert.strictEqual(app.prevodJednotka(0.25, "ČL"), "0,25 ČL", "¼ ČL sa nesmie zdvojnásobiť na pol");
   assert.strictEqual(app.prevodJednotka(0.05, "ČL"), "0,25 ČL", "kladné množstvo nikdy nedá 0");
   assert.strictEqual(app.prevodJednotka(603.75, "g"), "604 g");
