@@ -1,0 +1,209 @@
+{
+ "id": "hranolky-so-syrom-jahnacinou-a-omackou",
+ "nazov": "Port Hunding Cheese Fries – pečené zemiaky so syrom, trhanou jahňacinou a omáčkou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "The Elder Scrolls: The Official Cookbook Vol. 2 – Port Hunding Cheese Fries",
+ "porcie": 6,
+ "cas": "6 hod",
+ "kcal_na_porciu": 1040,
+ "kcal_zdroj": "vypocet",
+ "popis": "Redguardská obdoba poutine: chrumkavé zemiakové mesiačiky so za’atarom a sumakom, zaliate hustou omáčkou z jahňacieho vývaru a obložené syrom, trhanou jahňacinou, mätou a labneh.",
+ "hlavna_surovina": "jahňacie",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Jahňacie stehno",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": "na vývar; 2 jahňacie kolienka s kosťou",
+   "vsiaknutie": 0.7
+  },
+  {
+   "nazov": "Jahňacie pliecko",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "na vývar; alebo jahňacie rebierka s kosťou",
+   "vsiaknutie": 0.7
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na vývar"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mleté, na vývar"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "repkový, na vývar"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na vývar"
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "2 stonky, na vývar"
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na vývar"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "1 celá hlavička, na vývar"
+  },
+  {
+   "nazov": "Vývar",
+   "mnozstvo": 960,
+   "jednotka": "ml",
+   "poznamka": "kostný, na vývar"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "na vývar"
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "na vývar"
+  },
+  {
+   "nazov": "Rímska rasca",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "celá, na vývar"
+  },
+  {
+   "nazov": "Koriandrové semienka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na vývar"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "celé, na vývar"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "na zemiaky"
+  },
+  {
+   "nazov": "Za'atar",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na zemiaky"
+  },
+  {
+   "nazov": "Sumak",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na zemiaky"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "mleté, na zemiaky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na zemiaky"
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 900,
+   "jednotka": "g",
+   "poznamka": "múčne, na mesiačiky"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 9,
+   "jednotka": "PL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 94,
+   "jednotka": "g",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "do omáčky"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "do omáčky"
+  },
+  {
+   "nazov": "Syr",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "čerstvé syrové kúsky (cheese curds), alebo natrhaná mozzarella"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": "nakrájaná"
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 18,
+   "jednotka": "list",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Labneh",
+   "mnozstvo": 180,
+   "jednotka": "g",
+   "poznamka": "alebo labneh"
+  }
+ ],
+ "postup": [
+  "Jahňacie kolienka a rebierka osoľ a okoreň. V liatinovom hrnci rozohrej 1 PL oleja a mäso po častiach opeč zo všetkých strán dohneda (kolienka 3–5 minút z každej strany, rebierka 2–3 minúty), potom ho odlož.",
+  "V hrnci rozohrej ďalšiu lyžicu oleja a hrubo nakrájanú mrkvu, zeler, cibuľu a cesnak opekaj asi 8 minút, kým nezmäknú.",
+  "Vráť mäso, zalej vývarom a vodou, pridaj bobkové listy, rascu, koriandrové semienka a celé korenie. Prikry a na miernom ohni var 3–4 hodiny, kým sa mäso nerozpadá.",
+  "Vývar preceď a odlož. Mäso obter z kostí, odstráň tuk a natrhaj ho vidličkami.",
+  "Rúru predhrej na 230 °C. V mise zmiešaj olivový olej, za’atar, sumak, korenie a soľ a obaľ v tom zemiaky nakrájané na hrubé mesiačiky. Rozlož ich na vymastený plech vystlaný alobalom a peč 15 minút, premiešaj a peč ďalších 15 minút; nakoniec ich 4–5 minút zapeč pod grilom do chrumkava.",
+  "V hrnci rozpusti maslo, vmiešaj múku a za stáleho šľahania po troškách prilievaj 720 ml jahňacieho vývaru. Priveď do varu a na miernom ohni var, kým omáčka nezhustne. Osoľ a okoreň.",
+  "Do misiek nalož veľkú porciu zemiakov, posyp syrom, trhanou jahňacinou, jarnou cibuľkou a mätou, pridaj lyžicu jogurtu a všetko zalej horúcou omáčkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "jahňacie",
+  "zemiaky",
+  "herná kuchárka"
+ ]
+}

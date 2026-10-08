@@ -1,0 +1,80 @@
+{
+ "id": "peceny-morsky-vlk-s-harissou-a-zaatarom",
+ "nazov": "Pečený morský vlk s harissou a za’atarom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Marocká",
+ "zdroj": "The Elder Scrolls: The Official Cookbook Vol. 2 – Roast Branzino",
+ "porcie": 4,
+ "cas": "1 hod",
+ "kcal_na_porciu": 370,
+ "kcal_zdroj": "vypocet",
+ "popis": "Celé ryby potreté pikantnou harissou a za’atarom, plnené citrónom, cesnakom a petržlenom a upečené s chrumkavou kožou, jedlo púštnych Redguardov.",
+ "hlavna_surovina": "ryba",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Harissa",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Za'atar",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Morský vlk",
+   "mnozstvo": 1600,
+   "jednotka": "g",
+   "poznamka": "4 celé ryby, očistené, bez plutiev a šupín",
+   "vsiaknutie": 0.5
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na tenké plátky a mesiačiky na podávanie"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": "na tenké plátky"
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "hrsť",
+   "poznamka": "do plnky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "mleté"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 220 °C.",
+  "V miske zmiešaj olivový olej, harissu a za’atar a ryby zmesou potri zo všetkých strán. Brušnú dutinu naplň plátkami citróna, cesnakom a petržlenovou vňaťou a ryby štedro osoľ a okoreň.",
+  "Ryby polož na mriežku nad plechom a peč 10 minút. Opatrne ich otoč a peč ešte asi 15 minút, kým nie sú prepečené.",
+  "Zapni gril a asi 2 minúty nechaj kožu zchrumkavieť. Podávaj s mesiačikmi citróna."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "ryba",
+  "herná kuchárka"
+ ]
+}

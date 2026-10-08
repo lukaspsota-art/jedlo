@@ -1,0 +1,201 @@
+{
+ "id": "kokosove-kari-s-treskou-a-ryzou",
+ "nazov": "Senchal Curry Fish and Rice – kokosové kari s treskou, brokolicou a ryžou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Thajská",
+ "zdroj": "The Elder Scrolls: The Official Cookbook Vol. 2 – Senchal Curry Fish and Rice",
+ "porcie": 4,
+ "cas": "55 min",
+ "kcal_na_porciu": 644,
+ "kcal_zdroj": "vypocet",
+ "popis": "Krémové kokosové kari s domácou kurkumovo-čili pastou, citrónovou trávou a limetkou, v ktorom sa dusí treska, podávané na ryži ako v khajiitskom prístave Senchal.",
+ "hlavna_surovina": "ryba",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Žltá paprika",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "na pastu"
+  },
+  {
+   "nazov": "Citrónová tráva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nakrájaná, na pastu"
+  },
+  {
+   "nazov": "Koriandrové semienka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na pastu"
+  },
+  {
+   "nazov": "Rímska rasca",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "celá, na pastu"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "g",
+   "poznamka": "štvrtina tyčinky, na pastu"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "celé, na pastu"
+  },
+  {
+   "nazov": "Čili vločky",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na pastu"
+  },
+  {
+   "nazov": "Kurkuma",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "čerstvý koreň (2,5 cm) olúpaný, alebo 1 ČL mletej; na pastu"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": "kúsok 5 cm olúpaný, na pastu"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 5,
+   "jednotka": "strúčik",
+   "poznamka": "na pastu"
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na pastu"
+  },
+  {
+   "nazov": "Kokosový cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na pastu"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na pastu"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na pastu"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "repkový, na kari"
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "nakrájaná, na kari"
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "alebo hliva ustricová (king oyster), na plátky"
+  },
+  {
+   "nazov": "Brokolica",
+   "mnozstvo": 142,
+   "jednotka": "g",
+   "poznamka": "ideálne brokolini, kúsky po 5 cm"
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 240,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": 480,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Treska",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "filety, na 4 kusy"
+  },
+  {
+   "nazov": "Rybia omáčka",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Limetková kôra",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "do kari"
+  },
+  {
+   "nazov": "Ryža",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": "jazmínová, suchá (= asi 370 g uvarenej)"
+  },
+  {
+   "nazov": "Koriandrová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na posypanie"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nasekaná, na posypanie"
+  }
+ ],
+ "postup": [
+  "Uvar ryžu podľa návodu na obale.",
+  "V mixéri rozmixuj papriku, citrónovú trávu, koriandrové semienka, rascu, škoricu, celé korenie, čili vločky, kurkumu, zázvor, cesnak, 2 šalotky, kokosový cukor, 3 PL limetkovej šťavy a 1 PL oleja na úplne hladkú pastu.",
+  "V hrnci rozohrej olej a na strednom ohni opekaj nakrájané šalotky s hubami 5–8 minút, kým huby nezmäknú. Pridaj brokolicu a opekaj ešte 2 minúty.",
+  "Vmiešaj čili pastu, zalej vývarom a kokosovým mliekom, priveď do varu a stíš oheň na stredný.",
+  "Tresku zo všetkých strán osoľ a okoreň, vlož ju do omáčky, prikry a var asi 8 minút, kým ryba nemá vnútri 65 °C.",
+  "Dochuť rybou omáčkou, limetkovou kôrou a zvyšnou limetkovou šťavou.",
+  "Ryžu rozdeľ do štyroch misiek, zalej kari, na každú porciu polož kus tresky a posyp koriandrom a jarnou cibuľkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "ryba",
+  "kari",
+  "herná kuchárka"
+ ]
+}

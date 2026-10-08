@@ -1,0 +1,278 @@
+{
+ "id": "nordicke-ranajkove-plato-s-lososom-fazulou-a-zemiakmi",
+ "nazov": "Solitude Full Breakfast – severské raňajkové plato s lososovou nátierkou, fazuľou a pečenými zemiakmi",
+ "kategoria": "Raňajky",
+ "kuchyna": "Britská",
+ "zdroj": "The Elder Scrolls: The Official Cookbook Vol. 2 – Solitude Full Breakfast",
+ "porcie": 6,
+ "cas": "1 hod",
+ "kcal_na_porciu": 1464,
+ "kcal_zdroj": "vypocet",
+ "popis": "Veľké víkendové raňajky na zdieľanie: lososová nátierka, pečené zemiaky so šampiňónmi a paradajkami, fazuľa v sladkej paradajkovej omáčke, vajcia, syry, skyr s čučoriedkami, slanina a klobásky – hostina ako zo samotnej Solitude.",
+ "hlavna_surovina": "zemiaky",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "na lososovú nátierku"
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 85,
+   "jednotka": "g",
+   "poznamka": "na lososovú nátierku"
+  },
+  {
+   "nazov": "Údený losos",
+   "mnozstvo": 113,
+   "jednotka": "g",
+   "poznamka": "na lososovú nátierku"
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na lososovú nátierku"
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na lososovú nátierku; celá"
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na lososovú nátierku"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na lososovú nátierku"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na lososovú nátierku; mleté"
+  },
+  {
+   "nazov": "Olej",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na vymastenie"
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 907,
+   "jednotka": "g",
+   "poznamka": "na pečenú zeleninu; ošúpané, na veľké kusy"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na pečenú zeleninu"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na pečenú zeleninu"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na pečenú zeleninu"
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na pečenú zeleninu; sušený"
+  },
+  {
+   "nazov": "Šampiňóny",
+   "mnozstvo": 20,
+   "jednotka": "ks",
+   "poznamka": "na pečenú zeleninu; na štvrtiny"
+  },
+  {
+   "nazov": "Cherry paradajky",
+   "mnozstvo": 20,
+   "jednotka": "ks",
+   "poznamka": "na pečenú zeleninu"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 0.25,
+   "jednotka": "ks",
+   "poznamka": "na fazuľu; nadrobno"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "na fazuľu; nasekaný"
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Worcester",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Melasa",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na fazuľu; tmavý"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Kurací vývar",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Jablková šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Biele fazule",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "na fazuľu; z konzervy, scedené a prepláchnuté"
+  },
+  {
+   "nazov": "Kukuričný škrob",
+   "mnozstvo": 0.5,
+   "jednotka": "PL",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na fazuľu"
+  },
+  {
+   "nazov": "Údený losos",
+   "mnozstvo": 170,
+   "jednotka": "g",
+   "poznamka": "na plato"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 8,
+   "jednotka": "ks",
+   "poznamka": "na plato; natvrdo uvarené, ošúpané"
+  },
+  {
+   "nazov": "Chlieb",
+   "mnozstvo": 8,
+   "jednotka": "plátok",
+   "poznamka": "na plato; Solitude Bread z tejto knihy alebo kváskový"
+  },
+  {
+   "nazov": "Hermelín",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "na plato; v origináli brie"
+  },
+  {
+   "nazov": "Ementál",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "na plato; v origináli Jarlsberg"
+  },
+  {
+   "nazov": "Skyr",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "na plato"
+  },
+  {
+   "nazov": "Čučoriedky",
+   "mnozstvo": 170,
+   "jednotka": "g",
+   "poznamka": "na plato"
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 12,
+   "jednotka": "plátok",
+   "poznamka": "na plato; plecová, opečená"
+  },
+  {
+   "nazov": "Klobásky",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "na plato; 10 tenkých raňajkových, opečené"
+  }
+ ],
+ "postup": [
+  "Lososovú nátierku priprav vopred: smotanový syr vyšľahaj s kyslou smotanou, pridaj nasekaný losos (113 g), kôpor, rascu, citrónovú kôru so šťavou a korenie a len premiešaj. V uzavretej nádobe nechaj 2 hodiny v chladničke.",
+  "Rúru predhrej na 220 °C a plech vymasti olejom. Zemiaky zalej vodou, priveď do varu a varíš 10 minút, potom sceď. Premiešaj ich s olivovým olejom, soľou, korením a tymianom a rozlož na plech.",
+  "Zemiaky peč 10 minút, obráť ich, pridaj šampiňóny s paradajkami a peč ďalších 20 minút.",
+  "Medzitým v hrnci rozohrej olej a cibuľu s cesnakom opekaj asi 8 minút. Vmiešaj pretlak, med, worcester, melasu, cukor, soľ a korenie.",
+  "Prilej vývar, jablkovú šťavu a ocot, priveď do varu a 10 minút povar. Pridaj fazuľu, prehrej ju 5 minút a zahusti škrobom rozmiešaným vo vode.",
+  "Nátierku vyber 15 minút pred podávaním z chladničky. Na veľký podnos naukladaj pečenú zeleninu, údený losos, vajcia, oba syry a nakrájaný chlieb; skyr daj do misky s čučoriedkami, fazuľu do ďalšej a opečenú slaninu s klobáskami na samostatný tanier."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "raňajky",
+  "ryba",
+  "bravčové",
+  "herná kuchárka"
+ ]
+}
