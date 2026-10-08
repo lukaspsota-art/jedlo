@@ -1,0 +1,70 @@
+{
+ "id": "stout-s-bourbonom-kavovym-likerom-a-espressom",
+ "nazov": "Belcher’s Bluff – stout s bourbonom, kávovým likérom a espressom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Guild Wars 2: Feasts of Tyria – Belcher’s Bluff",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 385,
+ "kcal_zdroj": "vypocet",
+ "popis": "Tmavý pivný kokteil zo silného stoutu, bourbonu, kávového likéru a espressa so štipkou soli, presne pre ostrieľaných hráčov kariet z tavern Tyrie.",
+ "hlavna_surovina": "imperial stout",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Ľad",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Imperial stout",
+   "mnozstvo": 240,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Bourbon",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Kávový likér",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Cukrový sirup",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Espresso",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "1 shot"
+  },
+  {
+   "nazov": "Bitter",
+   "mnozstvo": 2,
+   "jednotka": "ml",
+   "poznamka": "čokoládový"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka"
+  }
+ ],
+ "postup": [
+  "Do šejkra daj ľad a všetky ostatné suroviny, zatvor a pretrep len asi 5 sekúnd — sýtený stout by inak šejker vytlačil.",
+  "Preceď do vychladeného pohára a podávaj."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "pivo",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

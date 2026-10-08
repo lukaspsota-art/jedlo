@@ -1,0 +1,75 @@
+{
+ "id": "modry-spritz-s-ginom-a-sumivym-vinom",
+ "nazov": "Blue Sun Spritz – modrý spritz s ginom a šumivým vínom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "Mass Effect: The Official Cocktail Book – Blue Sun Spritz",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 250,
+ "kcal_zdroj": "vypocet",
+ "popis": "Osviežujúci modrý spritz z ginu, suchého vermútu a šumivého vína, pomenovaný podľa žoldnierov Blue Suns.",
+ "hlavna_surovina": "gin",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Gin",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "silný (navy strength)"
+  },
+  {
+   "nazov": "Suchý vermút",
+   "mnozstvo": 22,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Lillet",
+   "mnozstvo": 22,
+   "jednotka": "ml",
+   "poznamka": "alebo iný aperitív z bieleho vína"
+  },
+  {
+   "nazov": "Blue curaçao",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Pomarančový bitter",
+   "mnozstvo": 2,
+   "jednotka": "ml",
+   "poznamka": "alebo grapefruitový, voliteľne"
+  },
+  {
+   "nazov": "Prosecco",
+   "mnozstvo": 90,
+   "jednotka": "ml",
+   "poznamka": "alebo iné šumivé víno, vychladené"
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "plátok krvavého pomaranča na ozdobu"
+  }
+ ],
+ "postup": [
+  "Vysoký pohár naplň do dvoch tretín ľadom.",
+  "Prilej gin, suchý vermút, Lillet, blue curaçao a bitter.",
+  "Dolej vychladeným šumivým vínom.",
+  "Ozdob plátkom krvavého pomaranča alebo sušeným plátkom citróna."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

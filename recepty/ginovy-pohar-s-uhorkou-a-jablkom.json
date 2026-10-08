@@ -1,0 +1,86 @@
+{
+ "id": "ginovy-pohar-s-uhorkou-a-jablkom",
+ "nazov": "Vim’s Cup – ginový pohár s uhorkou, jablkom a horcovým likérom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – Vim’s Cup",
+ "porcie": 1,
+ "cas": "10 min",
+ "kcal_na_porciu": 240,
+ "kcal_zdroj": "vypocet",
+ "popis": "Osviežujúci letný pohár s uhorkou, zeleným jablkom, ginom, horcovým a pomarančovým likérom, doliaty šumivou limonádou – ako na pobreží Far Harboru.",
+ "hlavna_surovina": "gin",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 3,
+   "jednotka": "plátok"
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 3,
+   "jednotka": "plátok",
+   "poznamka": "zelené"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "plátok"
+  },
+  {
+   "nazov": "Gin",
+   "mnozstvo": 20,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Likér",
+   "mnozstvo": 20,
+   "jednotka": "ml",
+   "poznamka": "horcový (napr. Suze)"
+  },
+  {
+   "nazov": "Triple sec",
+   "mnozstvo": 20,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Rybia omáčka",
+   "mnozstvo": 1,
+   "jednotka": "ml",
+   "poznamka": "1 kvapka, alebo štipka soli v kvapke vody"
+  },
+  {
+   "nazov": "Limonáda",
+   "mnozstvo": 75,
+   "jednotka": "ml",
+   "poznamka": "šumivá citrónová"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "kocky"
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "vetvičky na ozdobu"
+  }
+ ],
+ "postup": [
+  "Na dne pohára jemne roztlač plátky uhorky, jablka a citróna.",
+  "Pridaj gin, horcový likér, triple sec a kvapku rybej omáčky a premiešaj.",
+  "Pohár naplň do dvoch tretín ľadom a dolej šumivou limonádou.",
+  "Bohato ozdob pásikmi uhorky, plátkami jablka a citróna a vetvičkami mäty."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

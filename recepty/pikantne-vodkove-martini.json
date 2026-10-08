@@ -1,0 +1,50 @@
+{
+ "id": "pikantne-vodkove-martini",
+ "nazov": "Weeping Heart – pikantné vodkové martini",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Mass Effect: The Official Cocktail Book – Weeping Heart",
+ "porcie": 1,
+ "cas": "20 min",
+ "kcal_na_porciu": 193,
+ "kcal_zdroj": "vypocet",
+ "popis": "Suché vodkové martini s niekoľkými kvapkami pálivého bitteru, ozdobené sušenou chilli papričkou.",
+ "hlavna_surovina": "vodka",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 75,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Suchý vermút",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Bitter",
+   "mnozstvo": 5,
+   "jednotka": "ml",
+   "poznamka": "pikantný (habanero) alebo Drell Skin Venom z knihy"
+  },
+  {
+   "nazov": "Chilli sušené",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1 paprička alebo sečuánsky kvet na ozdobu"
+  }
+ ],
+ "postup": [
+  "Martini pohár vychlaď 10–15 minút v mrazničke.",
+  "Do miešacieho pohára s ľadom nalej vodku, vermút a bitter a miešaj, kým sa dobre nevychladia.",
+  "Precedz do vychladeného pohára a ozdob sušenou chilli papričkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "herná kuchárka"
+ ]
+}

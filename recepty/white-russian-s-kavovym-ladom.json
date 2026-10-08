@@ -1,0 +1,65 @@
+{
+ "id": "white-russian-s-kavovym-ladom",
+ "nazov": "White Russian s kávovým ľadom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – White Russian",
+ "porcie": 1,
+ "cas": "4 hod 5 min",
+ "kcal_na_porciu": 340,
+ "kcal_zdroj": "vypocet",
+ "popis": "Klasický White Russian z vodky, kávového likéru a smotany, ktorý namiesto obyčajného ľadu chladia kocky zo zmrazenej kávy, takže sa nerozriedi.",
+ "hlavna_surovina": "vodka",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Kávový likér",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "alebo smotana na varenie 12 %"
+  },
+  {
+   "nazov": "Káva",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "silný kávový koncentrát (cold brew) na kocky ľadu"
+  },
+  {
+   "nazov": "Angostura",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "4–5 kvapiek kávového bitteru do ľadu, voliteľne"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "štipka nastrúhaného na ozdobu, voliteľne"
+  }
+ ],
+ "postup": [
+  "Kávový koncentrát (podľa chuti s bitterom) nalej do formy na ľad a aspoň 4 hodiny mraz, kým nestuhne.",
+  "V nízkom pohári zmiešaj vodku s kávovým likérom.",
+  "Pridaj kávové kocky ľadu.",
+  "Pomaly prilej smotanu, aby vytvorila vrstvu, a podľa chuti posyp nastrúhaným muškátovým orieškom.",
+  "Pred pitím môžeš premiešať."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "káva",
+  "herná kuchárka"
+ ]
+}

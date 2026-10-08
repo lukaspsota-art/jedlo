@@ -1,0 +1,64 @@
+{
+ "id": "whisky-s-colou-a-lesnym-sirupom",
+ "nazov": "Dirty Wastelander – whisky s colou a lesným sirupom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – Dirty Wastelander",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 280,
+ "kcal_zdroj": "vypocet",
+ "popis": "Whisky s colou obohatená o černicovo-čučoriedkový sirup a ozdobená čerstvým lesným ovocím a mätou.",
+ "hlavna_surovina": "Whisky",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Whisky",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Cukrový sirup",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "černicovo-čučoriedkový Mutfruit sirup (recept z knihy)"
+  },
+  {
+   "nazov": "Cola",
+   "mnozstvo": 90,
+   "jednotka": "ml",
+   "poznamka": "ľadovo vychladená"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Černice",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo čučoriedky, na ozdobu"
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na ozdobu"
+  }
+ ],
+ "postup": [
+  "V pohári premiešaj whisky so sirupom.",
+  "Naplň pohár ľadom do dvoch tretín alebo podľa chuti.",
+  "Dolej ľadovo vychladenou colou.",
+  "Ozdob čerstvými černicami alebo čučoriedkami a mätou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

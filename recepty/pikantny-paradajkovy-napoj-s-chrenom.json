@@ -1,0 +1,103 @@
+{
+ "id": "pikantny-paradajkovy-napoj-s-chrenom",
+ "nazov": "Caesar’s Legion – pikantný paradajkový nápoj s chrenom",
+ "kategoria": "Nápoj",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – Caesar’s Legion",
+ "porcie": 1,
+ "cas": "10 min",
+ "kcal_na_porciu": 48,
+ "kcal_zdroj": "vypocet",
+ "popis": "Nealkoholická verzia kanadského Caesara z paradajkového džúsu, nálevu z jalapeño, citróna, worcestrovej omáčky a chrenu s okrajom z grilovacieho korenia – pikantná ako légia z Mojave.",
+ "hlavna_surovina": "paradajkový džús",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Paradajkový džús",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": "alebo Clamato"
+  },
+  {
+   "nazov": "Nálev z uhoriek",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "z nakladaných jalapeño alebo nopálov"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Worcestrová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Chren",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "strúhaný, z pohára"
+  },
+  {
+   "nazov": "Tabasco",
+   "mnozstvo": 1,
+   "jednotka": "ml",
+   "poznamka": "3–5 kvapiek"
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "grilovacie (mesquite) na okraj pohára"
+  },
+  {
+   "nazov": "Jalapeño",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nakladané, na ozdobu"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "mesiačiky na ozdobu"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Ak chceš, pohár vychlaď 15 minút v mrazničke.",
+  "Okraj pohára obtoč najprv v citrónovej šťave a potom v grilovacom korení.",
+  "Do pohára daj ľad, nalej paradajkový džús, nálev, citrónovú šťavu, worcestrovú omáčku, chren a Tabasco a dochuť cesnakovým práškom, soľou a korením.",
+  "Dobre premiešaj.",
+  "Na špajdlu napichni jalapeño, mesiačik citróna a čerstvé bylinky; kniha pridáva aj kúsok údeného mäsa."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "nealko",
+  "pikantné",
+  "herná kuchárka"
+ ]
+}

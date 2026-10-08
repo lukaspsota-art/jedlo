@@ -1,0 +1,74 @@
+{
+ "id": "tropicky-rumovy-drink-s-guavou-a-kokosom",
+ "nazov": "The Mindfish – tropický rumový drink s ananásom, guavou a kokosom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Mass Effect: The Official Cocktail Book – The Mindfish",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 269,
+ "kcal_zdroj": "vypocet",
+ "popis": "Tiki drink z rumu, ananásového a guavového džúsu s kokosovým krémom a limetkou, podávaný v guľatom pohári ako akvárium.",
+ "hlavna_surovina": "rum",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Rum",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "alebo maté či nealko alternatíva"
+  },
+  {
+   "nazov": "Ananásový džús",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Guavový džús",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "zmes maracuje, pomaranča a guavy"
+  },
+  {
+   "nazov": "Kokosový krém",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Pomarančový bitter",
+   "mnozstvo": 3,
+   "jednotka": "ml",
+   "poznamka": "nepovinné"
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "plátok na ozdobu"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "čerstvo nastrúhaný na ozdobu"
+  }
+ ],
+ "postup": [
+  "Všetky tekuté suroviny nalej do šejkra s ľadom a 10–15 sekúnd intenzívne pretrepávaj.",
+  "Precedz do guľatého pohára a podľa chuti pridaj ľad.",
+  "Ozdob plátkom limetky a nastrúhaj navrch muškátový oriešok."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

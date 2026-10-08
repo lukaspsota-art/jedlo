@@ -1,0 +1,90 @@
+{
+ "id": "tmave-pivo-s-proteinovym-napojom-a-kavou",
+ "nazov": "Power Armor Punch – tmavé pivo s proteínovým nápojom a kávou",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – Power Armor Punch",
+ "porcie": 2,
+ "cas": "10 min",
+ "kcal_na_porciu": 460,
+ "kcal_zdroj": "vypocet",
+ "popis": "Krémový pivný punč z porteru alebo stoutu, vanilkového proteínového nápoja, kondenzovaného mlieka a kávy so škoricou a muškátovým orieškom.",
+ "hlavna_surovina": "Pivo",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Proteínový nápoj",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "vanilkový"
+  },
+  {
+   "nazov": "Kondenzované mlieko",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "sladené"
+  },
+  {
+   "nazov": "Espresso",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "alebo koncentrát cold brew"
+  },
+  {
+   "nazov": "Škoricový sirup",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "Radroach Extract z knihy alebo falernum"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "mletá"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "mletý"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "do mixéra"
+  },
+  {
+   "nazov": "Tmavé pivo",
+   "mnozstvo": 360,
+   "jednotka": "ml",
+   "poznamka": "porter alebo stout, vychladené"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "do pohárov"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo muškátový oriešok, na ozdobu"
+  }
+ ],
+ "postup": [
+  "V mixéri rozmixuj dohladka proteínový nápoj, kondenzované mlieko, kávu, škoricový sirup, škoricu, muškátový oriešok a ľad.",
+  "Zmes prelej do väčšej misy alebo džbánu.",
+  "Pomaly prilievaj pivo a jemne miešaj, aby sa spojilo a príliš nepenilo.",
+  "Rozdeľ do pohárov s ľadom a posyp nastrúhaným muškátovým orieškom alebo škoricou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "pivo",
+  "herná kuchárka"
+ ]
+}

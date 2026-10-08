@@ -1,0 +1,80 @@
+{
+ "id": "silny-melonovy-vodkovy-drink-s-blue-curacao",
+ "nazov": "Ryncol Cocktail – silný melónový vodkový drink s blue curaçao",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Mass Effect: The Official Cocktail Book – Ryncol Cocktail",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 320,
+ "kcal_zdroj": "vypocet",
+ "popis": "Prudký zelenomodrý drink z vysokopercentnej vodky a melónového likéru, pomenovaný po krogánskom ryncole, s chrumkavým modrým cukrovým okrajom.",
+ "hlavna_surovina": "vodka",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "vysokopercentná (50 %)"
+  },
+  {
+   "nazov": "Melónový likér",
+   "mnozstvo": 45,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Blue curaçao",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1–2 kvapky slaného roztoku (1 PL soli v 80 ml teplej vody)"
+  },
+  {
+   "nazov": "Pomarančový bitter",
+   "mnozstvo": 2,
+   "jednotka": "ml",
+   "poznamka": "2–3 strieky, nepovinné"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "modrý zdobiaci cukor alebo praskajúce cukríky na okraj"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo kukuričný sirup na okraj"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "kocky do šejkra"
+  }
+ ],
+ "postup": [
+  "Modrý cukor rozsyp do plytkej misky, okraj pohára namoč do medu a otoč ho v cukre, aby sa prilepil. Do pohára daj ľad.",
+  "Do šejkra s ľadom nalej vodku, melónový likér, blue curaçao, limetkovú šťavu, slaný roztok a bitter.",
+  "Poriadne pretrepávaj a precedz do pripraveného pohára."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

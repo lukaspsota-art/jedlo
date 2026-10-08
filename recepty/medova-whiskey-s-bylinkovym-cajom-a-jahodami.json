@@ -1,0 +1,86 @@
+{
+ "id": "medova-whiskey-s-bylinkovym-cajom-a-jahodami",
+ "nazov": "Company Tea – medová whiskey s bylinkovým čajom a jahodami",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – Company Tea",
+ "porcie": 1,
+ "cas": "45 min",
+ "kcal_na_porciu": 215,
+ "kcal_zdroj": "vypocet",
+ "popis": "Sladký bylinkový čaj s jahodami a medovou whiskey, podávaný studený s ľadom alebo horúci v šálke, ako čaj na stretnutí spoločnosti.",
+ "hlavna_surovina": "whiskey",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Voda",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na čaj"
+  },
+  {
+   "nazov": "Bylinkový čaj",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1 vrecúško (v knihe labradorský čaj)"
+  },
+  {
+   "nazov": "Lyofilizované jahody",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na čaj"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na čaj"
+  },
+  {
+   "nazov": "Whiskey",
+   "mnozstvo": 45,
+   "jednotka": "ml",
+   "poznamka": "medová"
+  },
+  {
+   "nazov": "Cukrový sirup",
+   "mnozstvo": 8,
+   "jednotka": "ml",
+   "poznamka": "alebo colový sirup, nepovinné"
+  },
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 15,
+   "jednotka": "ml",
+   "poznamka": "nepovinné"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "pri studenej verzii"
+  },
+  {
+   "nazov": "Jahody",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "alebo jedlé kvety či medový plást na ozdobu"
+  }
+ ],
+ "postup": [
+  "Vodu prevar a vylúhuj v nej čaj s lyofilizovanými jahodami 6–8 minút.",
+  "Preceď cez jemné sitko a do ešte teplého čaju vmiešaj med.",
+  "Studená verzia: čaj nechaj vychladnúť na izbovú teplotu, potom ho v šejkri s ľadom pretrepávaj s whiskey a sirupom 10–15 sekúnd a precedz do šálky s ľadom; dolej smotanou podľa chuti.",
+  "Horúca verzia: horúci čaj nalej do šálky a vmiešaj whiskey, sirup a smotanu podľa chuti.",
+  "Ozdob jahodami, kvetmi alebo kúskom medového plástu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "whiskey",
+  "čaj",
+  "herná kuchárka"
+ ]
+}

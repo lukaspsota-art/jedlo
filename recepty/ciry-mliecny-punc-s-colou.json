@@ -1,0 +1,96 @@
+{
+ "id": "ciry-mliecny-punc-s-colou",
+ "nazov": "Project Puri-Tea – číry mliečny punč s colou",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – Project Puri-Tea",
+ "porcie": 2,
+ "cas": "2 hod 15 min",
+ "kcal_na_porciu": 282,
+ "kcal_zdroj": "vypocet",
+ "popis": "Silný punč v štýle Long Island z piatich liehov a coly, ktorý sa vyčíri zrazeným mliekom a precedí cez kávový filter dočista.",
+ "hlavna_surovina": "Vodka",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Gin",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Tequila",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Biely rum",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Triple sec",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Agáve",
+   "mnozstvo": 22,
+   "jednotka": "ml",
+   "poznamka": "sirup (Chem Fluid z knihy)"
+  },
+  {
+   "nazov": "Cola",
+   "mnozstvo": 180,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "plnotučné"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1 veľká kocka do každého pohára"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nastrúhaný, na ozdobu"
+  },
+  {
+   "nazov": "Pomarančová kôra",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na ozdobu"
+  }
+ ],
+ "postup": [
+  "Vo väčšom pohári zmiešaj vodku, gin, tequilu, rum, triple sec, limetkovú šťavu a agávový sirup a dolej colou.",
+  "Mlieko nalej do samostatnej veľkej nádoby a zmes s colou vlej do mlieka – nie naopak, inak sa bude horšie cediť.",
+  "Krátko premiešaj, prikry a nechaj aspoň 1 hodinu v chladničke, kým sa mlieko nezrazí a neoddelí.",
+  "Na sitko polož kávový filter a zmes cez neho precedi do čistej nádoby; trvá to 30–60 minút.",
+  "Pre úplne číry drink ju môžeš preliať cez zachytené mliečne zvyšky ešte raz alebo dvakrát; zvyšky potom vyhoď.",
+  "Nalej do pohárov na jednu veľkú kocku ľadu a ozdob nastrúhaným muškátovým orieškom a pomarančovou kôrou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "herná kuchárka"
+ ]
+}

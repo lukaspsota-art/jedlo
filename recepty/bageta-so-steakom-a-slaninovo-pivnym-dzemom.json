@@ -1,0 +1,182 @@
+{
+ "id": "bageta-so-steakom-a-slaninovo-pivnym-dzemom",
+ "nazov": "Kaidan’s Steak Sandwich – bageta so steakom a slaninovo-pivným džemom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Kanadská",
+ "zdroj": "Mass Effect: The Official Cocktail Book – Kaidan’s Steak Sandwich",
+ "porcie": 4,
+ "cas": "7 hod 45 min",
+ "kcal_na_porciu": 884,
+ "kcal_zdroj": "vypocet",
+ "popis": "Opečená bageta s marinovaným hovädzím steakom, karamelizovaným džemom zo slaniny, cibule a kanadského ležiaka a čerstvou rukolou.",
+ "hlavna_surovina": "hovädzie mäso",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na marinádu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Balzamikový ocot",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "alebo z červeného vína, na marinádu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na marinádu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 8,
+   "jednotka": "strúčik",
+   "poznamka": "nasekaný, na marinádu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": "na marinádu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Chilli vločky",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na marinádu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na marinádu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 6,
+   "jednotka": "plátok",
+   "poznamka": "hrubé plátky, na kúsky, na džem"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "nesolené, na džem"
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "veľká, nadrobno, na džem"
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na tenké plátky, na džem"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": "nasekaný, na džem"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na džem"
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "na džem"
+  },
+  {
+   "nazov": "Balzamikový ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na džem"
+  },
+  {
+   "nazov": "Pivo",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "kanadský ležiak, na džem"
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "sušený, na džem"
+  },
+  {
+   "nazov": "Hovädzia roštenka",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "alebo flank či ribeye steak"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na opekanie"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "nesolené, na opekanie"
+  },
+  {
+   "nazov": "Bageta",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "pozdĺžne rozpolená a nakrájaná na štvrtiny"
+  },
+  {
+   "nazov": "Rukola",
+   "mnozstvo": 1,
+   "jednotka": "zväzok",
+   "poznamka": "alebo žerucha"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "V uzatvárateľnej nádobe alebo vrecku zmiešaj olej, ocot, hnedý cukor, cesnak, soľ, chilli vločky a korenie. 1–2 lyžice marinády odlož bokom.",
+  "Steak na oboch stranách popichaj vidličkou, vlož do marinády tak, aby bol celý ponorený, a marinuj v chladničke 6–8 hodín alebo cez noc.",
+  "Na džem opeč na panvici slaninu dochrumkava, zlej prebytočný tuk a pridaj maslo, cibuľu, šalotku, cesnak a korenie. Na miernom ohni za častého miešania karamelizuj asi 20 minút.",
+  "Vmiešaj javorový sirup, ocot, pivo a tymian a var ešte 20–25 minút, kým sa tekutina nevyparí a zmes nezhustne na džem.",
+  "Steak vyber z marinády (tú vylej) a osuš. Na liatinovej panvici rozohrej olej, pridaj maslo a keď spení, opekaj steak 3–4 minúty z každej strany na teplotu 65 °C vnútri (medium rare).",
+  "Steak nechaj 10–15 minút odpočinúť na doske a nakrájaj ho naprieč vláknami na tenké plátky.",
+  "Kúsky bagety zľahka opeč, natri slaninovým džemom, polož na ne plátky steaku a rukolu, pokvapkaj odloženou marinádou a podávaj teplé."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "sendvič",
+  "herná kuchárka"
+ ]
+}

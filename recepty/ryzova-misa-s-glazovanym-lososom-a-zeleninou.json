@@ -1,0 +1,161 @@
+{
+ "id": "ryzova-misa-s-glazovanym-lososom-a-zeleninou",
+ "nazov": "Fishy Rice Bowl – ryžová misa s glazovaným lososom a zeleninou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Ázijská",
+ "zdroj": "Guild Wars 2: Feasts of Tyria – Fishy Rice Bowl",
+ "porcie": 4,
+ "cas": "3 hod 15 min",
+ "kcal_na_porciu": 548,
+ "kcal_zdroj": "vypocet",
+ "popis": "Ryža s lososom marinovaným v sójovej omáčke a ryžovom víne, restovanou zeleninou s hubami v kantánskom štýle a volským okom navrchu.",
+ "hlavna_surovina": "losos",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na marinádu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Sake",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "ryžové víno, na marinádu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na marinádu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "1 PL na marinádu, 2 PL do omáčky"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 12,
+   "jednotka": "g",
+   "poznamka": "nastrúhaný, na marinádu"
+  },
+  {
+   "nazov": "Rybacia omáčka",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": "0,5 ČL na marinádu, 1 ČL do omáčky"
+  },
+  {
+   "nazov": "Losos",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "na 4 porcie"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "do omáčky na zeleninu"
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Sezamový olej",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kukuričný škrob",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na plátky"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "na tenké rezance"
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na kúsky"
+  },
+  {
+   "nazov": "Shiitake",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "na plátky"
+  },
+  {
+   "nazov": "Huby",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "bukovec a hliva kráľovská"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "na kúsky 5 cm"
+  },
+  {
+   "nazov": "Čínska kapusta",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "na kúsky"
+  },
+  {
+   "nazov": "Ryža",
+   "mnozstvo": 110,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "na volské oká"
+  },
+  {
+   "nazov": "Sezamové semienka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "biele, na posypanie"
+  }
+ ],
+ "postup": [
+  "V uzatvárateľnom vrecku zmiešaj 120 ml sójovej omáčky, sake, cukor, 1 PL hnedého cukru, zázvor a pol ČL rybacej omáčky. Vlož lososa a nechaj aspoň 2 hodiny marinovať.",
+  "Rúru predhrej na 205 °C. Lososa vyber z marinády, polož na plech a peč 16–18 minút. Medzitým uvar ryžu.",
+  "V miske vyšľahaj zvyšnú sójovú omáčku, 2 PL hnedého cukru, vývar, sezamový olej, zvyšnú rybaciu omáčku a škrob.",
+  "Na veľkej panvici rozohrej olej a duste cibuľu s mrkvou 5–8 minút. Pridaj cuketu a huby a opekaj asi 5 minút, potom jarnú cibuľku a kapustu, kým nezvädnú.",
+  "Vlej omáčku a var 3–5 minút, kým nezhustne a zelenina nie je hotová. Na troške oleja usmaž volské oká.",
+  "Ryžu rozdeľ do 4 misiek, navrch daj zeleninu, kúsok lososa a volské oko a posyp sezamom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "ryba",
+  "herná kuchárka"
+ ]
+}

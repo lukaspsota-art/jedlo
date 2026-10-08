@@ -1,0 +1,283 @@
+{
+ "id": "skoricove-slimaciky-cucoriedkove-scones-a-susienky-s-dzemom",
+ "nazov": "Rowan’s Picnic Treats – škoricové slimáčiky, čučoriedkové scones a sušienky s čerešňovým džemom",
+ "kategoria": "Dezert",
+ "kuchyna": "Britská",
+ "zdroj": "Magic: The Gathering: The Official Cookbook – Rowan’s Picnic Treats",
+ "porcie": 96,
+ "cas": "24 hod 10 min",
+ "kcal_na_porciu": 116,
+ "kcal_zdroj": "vypocet",
+ "popis": "Piknikový košík troch dobrôt: maslové slimáčiky so škoricovou plnkou, citrónové scones s čučoriedkami a maslové sušienky s domácim čerešňovým džemom.",
+ "hlavna_surovina": "múka",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 438,
+   "jednotka": "g",
+   "poznamka": "na slimáčiky"
+  },
+  {
+   "nazov": "Jedlá sóda",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na slimáčiky"
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na slimáčiky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na slimáčiky"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "na slimáčiky"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 114,
+   "jednotka": "g",
+   "poznamka": "izbovej teploty, na slimáčiky"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na slimáčiky"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "alebo vanilková pasta, na slimáčiky"
+  },
+  {
+   "nazov": "Amaretto",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na slimáčiky"
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 113,
+   "jednotka": "g",
+   "poznamka": "na slimáčiky"
+  },
+  {
+   "nazov": "Smotana na šľahanie 33 %",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na slimáčiky"
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 165,
+   "jednotka": "g",
+   "poznamka": "na škoricovú plnku"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": "na škoricovú plnku"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na škoricovú plnku"
+  },
+  {
+   "nazov": "Kardamón",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "mletý, na škoricovú plnku"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "rozpustené, na škoricovú plnku"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 281,
+   "jednotka": "g",
+   "poznamka": "na scones"
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na scones"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na scones"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na scones"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na scones"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 67,
+   "jednotka": "g",
+   "poznamka": "na scones"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "menšie, len kôra, na scones",
+   "vsiaknutie": 0.1
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 114,
+   "jednotka": "g",
+   "poznamka": "na kocky, zmrazené, na scones"
+  },
+  {
+   "nazov": "Čučoriedky",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "mrazené, na scones"
+  },
+  {
+   "nazov": "Cmar",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "na scones"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na scones"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na scones"
+  },
+  {
+   "nazov": "Smotana na šľahanie 33 %",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na potretie scones"
+  },
+  {
+   "nazov": "Čerešne",
+   "mnozstvo": 340,
+   "jednotka": "g",
+   "poznamka": "bez kôstok, na džem"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 67,
+   "jednotka": "g",
+   "poznamka": "na džem"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "na džem"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": "na džem"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na džem"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 292,
+   "jednotka": "g",
+   "poznamka": "na sušienky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na sušienky"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "izbovej teploty, na sušienky"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "na sušienky"
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 55,
+   "jednotka": "g",
+   "poznamka": "na sušienky"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na sušienky"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na sušienky"
+  }
+ ],
+ "postup": [
+  "Slimáčiky: zmiešaj múku, sódu, prášok do pečiva a soľ. Vo veľkej mise vyšľahaj maslo s cukrom do nadýchanej peny, postupne zašľahaj vajcia, potom vanilku, amaretto a smotanový syr. Vmiešaj polovicu múky, smotanu a zvyšok múky.",
+  "Cesto rozdeľ na tri diely, zabaľ do fólie a nechaj aspoň 3 hodiny v chladničke. Na plnku zmiešaj hnedý cukor, škoricu, muškátový oriešok a kardamón.",
+  "Každý diel vyvaľkaj na obdĺžnik asi 25 × 18 cm, potri rozpusteným maslom, posyp tretinou plnky a pevne zroluj. Konce stlač, zabaľ do fólie a daj na 30 minút do mrazničky.",
+  "Rúru predhrej na 175 °C. Rolky krájaj na 1 cm hrubé kolieska, ukladaj špirálou nahor na plech a peč 10–13 minút, kým spodok jemne nezhnedne. Z každej rolky vyjde asi 20 kusov.",
+  "Scones: zmiešaj múku, prášok do pečiva, soľ, škoricu, muškátový oriešok, cukor a citrónovú kôru. Prstami vpracuj studené maslo na hrubú drobenku a vmiešaj čučoriedky. Pridaj cmar s vanilkou a citrónovou šťavou a miešaj, len kým sa cesto nespojí.",
+  "Vytvaruj štvorec so stranou 20 cm, rozkrájaj na 9 kúskov, ulož na plech s papierom a nechaj 30 minút v mrazničke. Potri smotanou a peč pri 190 °C 30–35 minút dozlatista.",
+  "Džem: čerešne rozmixuj, v hrnci pridaj cukor, škoricu, soľ a citrónovú šťavu, priveď do varu a 15–20 minút povar, kým nezhustne. Po vychladnutí nechaj aspoň 12 hodín v chladničke.",
+  "Sušienky: zmiešaj múku so soľou. Maslo vyšľahaj s oboma cukrami, pridaj vanilku a vajce a nakoniec krátko vmiešaj múku. Z cesta tvaruj guľky po 1–2 PL, ukladaj na plech a palcom do každej vtlač jamku. Chlaď aspoň 2 hodiny.",
+  "Jamky naplň džemom tesne pod okraj a peč pri 190 °C 12–15 minút dozlatista."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "sladké",
+  "pečenie",
+  "bezmäsité",
+  "herná kuchárka"
+ ]
+}

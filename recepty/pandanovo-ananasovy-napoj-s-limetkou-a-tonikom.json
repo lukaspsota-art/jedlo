@@ -1,0 +1,68 @@
+{
+ "id": "pandanovo-ananasovy-napoj-s-limetkou-a-tonikom",
+ "nazov": "Glowing Blood Pack – pandanovo-ananásový nápoj s limetkou a tonikom",
+ "kategoria": "Nápoj",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – Glowing Blood Pack",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 133,
+ "kcal_zdroj": "vypocet",
+ "popis": "Svietivo zelený nealkoholický nápoj z pandanového extraktu, kokosového krému, limetky a ananásového džúsu, doliaty tonikom – podávaný ako žiarivá transfúzia z pustatiny.",
+ "hlavna_surovina": "ananás",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Pandanový extrakt",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kokosový krém",
+   "mnozstvo": 22,
+   "jednotka": "ml",
+   "poznamka": "sladený sirup (cream of coconut)"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 22,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Ananásový džús",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": "alebo 2 kvapky soľného roztoku"
+  },
+  {
+   "nazov": "Tonic",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "do šejkra"
+  }
+ ],
+ "postup": [
+  "Do šejkra s ľadom daj pandanový extrakt, kokosový krém, limetkovú a ananásovú šťavu a soľ.",
+  "Pretrepávaj 20–25 sekúnd, kým nápoj nevychladne a mierne nespení – má byť výrazne zelený, inak pridaj ešte trochu extraktu.",
+  "Precedz do pohára (alebo cez lievik do infúzneho vrecka).",
+  "Dolej tonikom podľa chuti a podávaj so slamkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "nealko",
+  "bezmäsité",
+  "herná kuchárka"
+ ]
+}

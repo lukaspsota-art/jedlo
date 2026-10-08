@@ -1,0 +1,252 @@
+{
+ "id": "varene-morske-plody-s-klobasou-kukuricou-a-cesnakovym-maslom",
+ "nazov": "Krasis Fusion Boil – varené morské plody s klobásou, kukuricou a cesnakovým maslom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Magic: The Gathering: The Official Cookbook – Krasis Fusion Boil",
+ "porcie": 6,
+ "cas": "2 hod 15 min",
+ "kcal_na_porciu": 1023,
+ "kcal_zdroj": "vypocet",
+ "popis": "Krevety, krabie nohy, údená klobása, zemiaky a kukurica uvarené v korenistom vývare s citrónovou trávou a zázvorom a obalené v pikantnom cesnakovom masle.",
+ "hlavna_surovina": "krevety",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Údená paprika",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "do korenistej zmesi"
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "do korenistej zmesi"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "do korenistej zmesi"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "mleté, do korenistej zmesi"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "do korenistej zmesi"
+  },
+  {
+   "nazov": "Zelerové semienka",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "mleté, do korenistej zmesi"
+  },
+  {
+   "nazov": "Horčica v prášku",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "do korenistej zmesi"
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "do korenistej zmesi"
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mletý, do korenistej zmesi"
+  },
+  {
+   "nazov": "Koriander",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mletý, do korenistej zmesi"
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "sušený, do korenistej zmesi"
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "sušené, do korenistej zmesi"
+  },
+  {
+   "nazov": "Mletý zázvor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "do korenistej zmesi"
+  },
+  {
+   "nazov": "Muškátový kvet",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "mletý, do korenistej zmesi"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "mletý, do korenistej zmesi"
+  },
+  {
+   "nazov": "Nové korenie",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "mleté, do korenistej zmesi"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "mletá, do korenistej zmesi"
+  },
+  {
+   "nazov": "Klinčeky",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": "mleté, do korenistej zmesi"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 340,
+   "jednotka": "g",
+   "poznamka": "na cesnakové maslo"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 25,
+   "jednotka": "strúčik",
+   "poznamka": "nasekaný, na cesnakové maslo"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "šťava, na cesnakové maslo"
+  },
+  {
+   "nazov": "Sladká paprika",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na cesnakové maslo"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mleté, na cesnakové maslo"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "kus 10 cm, na plátky, do vývaru"
+  },
+  {
+   "nazov": "Citrónová tráva",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "do vývaru (vyhodí sa)",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na štvrtiny, do vývaru"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na plátky, do vývaru"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "2 hlávky, rozpolené, do vývaru (vyhodí sa)",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "do vývaru"
+  },
+  {
+   "nazov": "Rybia omáčka",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "do vývaru",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 2880,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "červené, malé"
+  },
+  {
+   "nazov": "Údená klobása",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "na kusy"
+  },
+  {
+   "nazov": "Krevety",
+   "mnozstvo": 907,
+   "jednotka": "g",
+   "poznamka": "veľké, s hlavami, bez čreva",
+   "vsiaknutie": 0.6
+  },
+  {
+   "nazov": "Krab",
+   "mnozstvo": 907,
+   "jednotka": "g",
+   "poznamka": "krabie nohy",
+   "vsiaknutie": 0.5
+  },
+  {
+   "nazov": "Kukurica",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "klasy prekrojené na polovicu"
+  }
+ ],
+ "postup": [
+  "Zmiešaj všetky koreniny na korenistú zmes.",
+  "V hrnci rozpusti maslo, pridaj nasekaný cesnak a na strednom ohni ho 10 minút pomaly duste, kým nezmäkne a nevonia.",
+  "Vmiešaj 4 PL korenistej zmesi, citrónovú šťavu, papriku a korenie, odstav a pred podávaním maslo mierne zohrej.",
+  "Do veľkého hrnca daj zvyšok korenistej zmesi, zázvor, citrónovú trávu, cibuľu, citrón, rozpolený cesnak, bobkové listy, rybiu omáčku a vodu. Priveď do varu a 40 minút var na miernom ohni.",
+  "Pridaj zemiaky a var 15 minút, potom klobásu na 10 minút. Nakoniec pridaj krevety, krabie nohy a kukuricu a var 3–5 minút, kým krevety nie sú hotové.",
+  "Všetko sceď, zemiaky, klobásu, morské plody a kukuricu prelož do veľkej misy (aromatické prísady vyhoď) a premiešaj s teplým cesnakovým maslom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "morské plody",
+  "krevety",
+  "herná kuchárka"
+ ]
+}

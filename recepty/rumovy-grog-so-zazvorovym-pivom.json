@@ -1,0 +1,75 @@
+{
+ "id": "rumovy-grog-so-zazvorovym-pivom",
+ "nazov": "Grognak’s Grog – rumový drink s maracujou a zázvorovým pivom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – Grognak’s Grog",
+ "porcie": 1,
+ "cas": "3 min",
+ "kcal_na_porciu": 190,
+ "kcal_zdroj": "vypocet",
+ "popis": "Osviežujúci tiki drink z tmavého rumu, tropickej šťavy, limetky a falernumu, dolievaný zázvorovým pivom a podávaný v korbeli.",
+ "hlavna_surovina": "rum",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Tmavý rum",
+   "mnozstvo": 45,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Maracujový džús",
+   "mnozstvo": 45,
+   "jednotka": "ml",
+   "poznamka": "ideálne zmes maracuja–pomaranč–guava"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 20,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Falernum",
+   "mnozstvo": 15,
+   "jednotka": "ml",
+   "poznamka": "alebo Radroach Extract"
+  },
+  {
+   "nazov": "Zázvorové pivo",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "hrsť kociek"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "tyčinka na ozdobu, voliteľne"
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "kôrka alebo koliesko na ozdobu"
+  }
+ ],
+ "postup": [
+  "V korbeli alebo pivovom pohári zmiešaj rum, maracujový džús, limetkovú šťavu a falernum.",
+  "Pohár naplň do dvoch tretín ľadom.",
+  "Dolej zázvorovým pivom a ozdob škoricou a limetkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rum",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

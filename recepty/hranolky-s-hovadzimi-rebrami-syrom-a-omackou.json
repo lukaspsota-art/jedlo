@@ -1,0 +1,207 @@
+{
+ "id": "hranolky-s-hovadzimi-rebrami-syrom-a-omackou",
+ "nazov": "Adventurer’s Poutine – pečené zemiaky s trhanými hovädzími rebrami, syrom a omáčkou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Kanadská",
+ "zdroj": "Magic: The Gathering: The Official Cookbook – Adventurer’s Poutine",
+ "porcie": 6,
+ "cas": "7 hod",
+ "kcal_na_porciu": 1214,
+ "kcal_zdroj": "vypocet",
+ "popis": "Kanadské poutine z korenených pečených zemiakových mesiačikov so syrovými zrnami, trhanými hovädzími rebrami a hustou omáčkou z ich vývaru – posila pre dobrodruhov na Zendikare.",
+ "hlavna_surovina": "hovädzie mäso",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 31,
+   "jednotka": "g",
+   "poznamka": "na obalenie rebier"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na rebrá"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na rebrá"
+  },
+  {
+   "nazov": "Hovädzie rebrá",
+   "mnozstvo": 1361,
+   "jednotka": "g",
+   "poznamka": "short ribs, s kosťou",
+   "vsiaknutie": 0.7
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "repkový"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nahrubo"
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "stonka, nahrubo"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nahrubo"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 6,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Hovädzí vývar",
+   "mnozstvo": 960,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 240,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": 4,
+   "jednotka": "vetvička"
+  },
+  {
+   "nazov": "Rozmarín",
+   "mnozstvo": 1,
+   "jednotka": "vetvička"
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "list"
+  },
+  {
+   "nazov": "Sušené huby",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "3 sušené shiitake"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "celé zrnká, do vývaru"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "na zemiaky"
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Cibuľový prášok",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "sušené"
+  },
+  {
+   "nazov": "Šalvia",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "sušená"
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 1,
+   "jednotka": "štipka"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na zemiaky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na zemiaky"
+  },
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "veľké, na mesiačiky"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 255,
+   "jednotka": "g",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 186,
+   "jednotka": "g",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "do omáčky"
+  },
+  {
+   "nazov": "Čedar",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "čerstvé syrové zrná (cheese curds)"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": "nakrájaná"
+  }
+ ],
+ "postup": [
+  "Rúru predhrej na 120 °C. Múku zmiešaj so soľou a korením vo vrecku, pridaj rebrá a pretrep, aby sa obalili.",
+  "V hrnci s hrubým dnom rozohrej 1 PL oleja a rebrá opeč dohneda zo všetkých strán, 3–5 minút z každej strany. Po dávkach, každú na troche oleja. Vyber na tanier.",
+  "Na ďalšej lyžici oleja 8 minút opekaj mrkvu, zeler, cibuľu a cesnak.",
+  "Zalej vývarom a vodou, vráť rebrá, pridaj tymian, rozmarín, bobkový list, sušené huby a celé korenie. Prikry a v rúre duste 5–6 hodín, kým sa mäso samo neoddeľuje od kosti.",
+  "Rebrá vyber, mäso natrhaj a kosti vyhoď. Vývar preceď a odlož na omáčku.",
+  "Rúru predhrej na 230 °C. Olivový olej zmiešaj s cesnakovým a cibuľovým práškom, oreganom, šalviou, kajenským korením, korením a soľou a obaľ v ňom zemiakové mesiačiky.",
+  "Rozlož ich na plech vystlaný alobalom, peč 15 minút, premiešaj, peč ďalších 15 minút a nakoniec 4–5 minút pod grilom dochrumkava.",
+  "Na omáčku rozpusti v hrnci maslo, vmiešaj múku a za stáleho šľahania veľmi pomaly prilievaj preceďený vývar. Priveď do varu a var na miernom ohni, kým nezhustne. Osoľ a okoreň.",
+  "Do misiek rozdeľ zemiaky, posyp syrovými zrnami, trhaným mäsom a jarnou cibuľkou a prelej horúcou omáčkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "zemiaky",
+  "herná kuchárka"
+ ]
+}

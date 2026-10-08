@@ -1,0 +1,242 @@
+{
+ "id": "hovadzie-jerky-orieskove-tycinky-a-pikantna-zmes",
+ "nazov": "Boros Legion Rations – hovädzie jerky, orieškové tyčinky a pikantná zmes s prepeličími vajíčkami",
+ "kategoria": "Príloha",
+ "kuchyna": "Americká",
+ "zdroj": "Magic: The Gathering: The Official Cookbook – Boros Legion Rations",
+ "porcie": 16,
+ "cas": "30 hod",
+ "kcal_na_porciu": 543,
+ "kcal_zdroj": "vypocet",
+ "popis": "Poľné prídely do zásoby: sušené hovädzie jerky, medové orieškové tyčinky, pečený cícer s orechmi a mangom a natvrdo uvarené prepeličie vajíčka.",
+ "hlavna_surovina": "hovädzie",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "do marinády",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 170,
+   "jednotka": "g",
+   "poznamka": "do marinády",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Worcester",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "do marinády",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Tekutý dym",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1 ČL, do marinády"
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "do marinády"
+  },
+  {
+   "nazov": "Cibuľový prášok",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "do marinády"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "mleté, do marinády"
+  },
+  {
+   "nazov": "Stehno hovädzie",
+   "mnozstvo": 907,
+   "jednotka": "g",
+   "poznamka": "libové (top round), na tenké plátky, na jerky"
+  },
+  {
+   "nazov": "Mandle",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "na tyčinky"
+  },
+  {
+   "nazov": "Kešu",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "na tyčinky"
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 120,
+   "jednotka": "g",
+   "poznamka": "na tyčinky"
+  },
+  {
+   "nazov": "Pistácie",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": "lúpané, na tyčinky"
+  },
+  {
+   "nazov": "Sušené čerešne",
+   "mnozstvo": 38,
+   "jednotka": "g",
+   "poznamka": "na tyčinky"
+  },
+  {
+   "nazov": "Sezamové semienka",
+   "mnozstvo": 36,
+   "jednotka": "g",
+   "poznamka": "biele, na tyčinky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na tyčinky"
+  },
+  {
+   "nazov": "Kardamón",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mletý, na tyčinky"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 170,
+   "jednotka": "g",
+   "poznamka": "na tyčinky"
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "na tyčinky"
+  },
+  {
+   "nazov": "Predvarený cícer",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": "z konzervy, prepláchnutý a osušený, do zmesi"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "do zmesi"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": "do zmesi"
+  },
+  {
+   "nazov": "Rímska rasca",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mletá, do zmesi"
+  },
+  {
+   "nazov": "Kurkuma",
+   "mnozstvo": 1.5,
+   "jednotka": "ČL",
+   "poznamka": "do zmesi"
+  },
+  {
+   "nazov": "Chilli prášok",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "do zmesi"
+  },
+  {
+   "nazov": "Kešu",
+   "mnozstvo": 90,
+   "jednotka": "g",
+   "poznamka": "do zmesi"
+  },
+  {
+   "nazov": "Mandle",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "nepražené, do zmesi"
+  },
+  {
+   "nazov": "Makadamové orechy",
+   "mnozstvo": 67,
+   "jednotka": "g",
+   "poznamka": "nepražené, do zmesi"
+  },
+  {
+   "nazov": "Tekvicové semienka",
+   "mnozstvo": 65,
+   "jednotka": "g",
+   "poznamka": "nepražené, do zmesi"
+  },
+  {
+   "nazov": "Mletý zázvor",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "do zmesi"
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "do zmesi"
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "do zmesi"
+  },
+  {
+   "nazov": "Sušené ovocie",
+   "mnozstvo": 85,
+   "jednotka": "g",
+   "poznamka": "sušené mango, nakrájané, do zmesi"
+  },
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 184,
+   "jednotka": "g",
+   "poznamka": "v jogurtovej poleve, do zmesi"
+  },
+  {
+   "nazov": "Prepeličie vajcia",
+   "mnozstvo": 12,
+   "jednotka": "ks"
+  }
+ ],
+ "postup": [
+  "Jerky: v uzatvárateľnom vrecku zmiešaj sójovú omáčku, med, worcester, tekutý dym, cesnakový a cibuľový prášok a korenie. Pridaj tenké plátky hovädzieho, uzavri, pretrep a nechaj cez noc (najviac 24 hodín) marinovať v chladničke.",
+  "Rúru predhrej na 80 °C. Na plech s alobalom polož vymastenú mriežku, mäso nechaj odkvapkať a rozlož na ňu.",
+  "Suš 4–5 hodín, kým nie je mäso suché a žuvacie. Nechaj vychladnúť; v uzavretej nádobe v chladničke vydrží týždeň.",
+  "Tyčinky: mandle, kešu, vlašské orechy a pistácie pulzne nadrv v mixéri, pridaj čerešne, sezam, soľ, kardamón, med a javorový sirup a premixuj na súdržnú hmotu.",
+  "Formu 20 × 20 cm vylož papierom na pečenie, hmotu do nej natlač, uhlaď a zakry ďalším papierom. Nechaj 24 hodín stuhnúť v chladničke, potom nakrájaj na kúsky 4 × 3 cm. V chladničke vydržia 2 týždne.",
+  "Zmes: rúru predhrej na 220 °C. Cícer premiešaj s olejom, 1/2 ČL soli, rascou, 1/2 ČL kurkumy a chilli, rozlož na plech s papierom a peč 30 minút; každých 10 minút plechom zatras. Nechaj vychladnúť.",
+  "Teplotu zníž na 175 °C a kešu, mandle, makadamové orechy a tekvicové semienka opekaj na plechu 8–10 minút dozlatista. Nechaj vychladnúť.",
+  "Cícer s orechmi premiešaj so zvyšnou soľou a kurkumou, zázvorom, cesnakovým práškom a kajenským korením, potom pridaj mango a hrozienka. Pri izbovej teplote vydrží týždeň.",
+  "Prepeličie vajíčka vlož do vriacej vody, prikry a var 3,5 minúty. Hneď ich schlaď pod studenou vodou a olúp; v chladničke vydržia 3 dni."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "predjedlo",
+  "hovädzie",
+  "orechy",
+  "do zásoby",
+  "herná kuchárka"
+ ]
+}

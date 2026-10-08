@@ -1,0 +1,194 @@
+{
+ "id": "pikantne-ramen-rezance-s-mletym-bravcovym",
+ "nazov": "Pikantné ramen rezance s mletým bravčovým",
+ "kategoria": "Cestoviny",
+ "kuchyna": "Čínska",
+ "zdroj": "Mass Effect: The Official Cocktail Book – Spicy Ramen Noodles",
+ "porcie": 4,
+ "cas": "1 hod",
+ "kcal_na_porciu": 815,
+ "kcal_zdroj": "vypocet",
+ "popis": "Rezance v štýle dan dan v pikantnej sezamovo-sójovej omáčke s chilli olejom, navrchu s chrumkavým mletým bravčovým, uhorkou a arašidmi.",
+ "hlavna_surovina": "rezance",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Sezamová pasta",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "alebo tahini či arašidové maslo, na omáčku"
+  },
+  {
+   "nazov": "Sambal",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "alebo doubanjiang, na omáčku"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "čierny alebo balzamikový, na omáčku"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "čínske korenie piatich chutí, na omáčku"
+  },
+  {
+   "nazov": "Sečuánske korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "mleté, na omáčku"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "chilli olej, na omáčku"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": "nasekaný, na omáčku"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "čerstvý, nastrúhaný, na omáčku"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na mäso"
+  },
+  {
+   "nazov": "Mleté bravčové mäso",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "alebo vegánska náhrada"
+  },
+  {
+   "nazov": "Hoisin omáčka",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na mäso"
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "ryžový, na mäso"
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na mäso"
+  },
+  {
+   "nazov": "Víno",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "ryžové saké, na mäso"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na mäso"
+  },
+  {
+   "nazov": "Sezamový olej",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na mäso"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "čerstvý, nasekaný, na mäso"
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "čínske korenie piatich chutí, na mäso"
+  },
+  {
+   "nazov": "Rezance",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "ramen"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na šikmo, navrch"
+  },
+  {
+   "nazov": "Koriandrová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nasekaná, navrch"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "olúpaná, na pásiky, navrch"
+  },
+  {
+   "nazov": "Chilli paprička",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na kolieska, voliteľne"
+  },
+  {
+   "nazov": "Arašidy",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "pražené, nasekané, navrch"
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "mesiačiky na podávanie"
+  }
+ ],
+ "postup": [
+  "V miske vyšľahaj všetky suroviny na omáčku a podľa chuti pridaj viac sambalu či chilli oleja.",
+  "Na veľkej panvici rozohrej olej a opekaj mleté bravčové, rozdrobuj ho varechou, 3–4 minúty, kým nezhnedne a nie je mierne chrumkavé.",
+  "Vmiešaj hoisin, ryžový ocot, cukor, saké, sójovú omáčku, sezamový olej, zázvor a korenie s asi 120 ml horúcej vody a duste 5–7 minút, kým sa tekutina neodparí.",
+  "Rezance uvar podľa návodu na obale a odlej, ale odlož si štvrtinu vody z varenia.",
+  "Omáčku daj do veľkej misy, pridaj rezance a premiešaj; ak je omáčka hustá, zrieď ju vodou z rezancov.",
+  "Rozdeľ do misiek, navrch daj mäso, jarnú cibuľku, koriander, uhorku, chilli a arašidy, pokvapkaj limetkou a pred jedlom premiešaj."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "cestoviny",
+  "bravčové",
+  "pikantné",
+  "herná kuchárka"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "id": "koreneny-rum-s-calvadosom-a-ciderom",
+ "nazov": "Rotten Scoundrel – korenený rum s calvadosom a jablkovým ciderom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Mass Effect: The Official Cocktail Book – Rotten Scoundrel",
+ "porcie": 1,
+ "cas": "10 min",
+ "kcal_na_porciu": 264,
+ "kcal_zdroj": "vypocet",
+ "popis": "Jablkový drink z koreneného rumu a calvadosu, zjemnený medovým sirupom, okyslený jablkovým octom a dolitý ciderom.",
+ "hlavna_surovina": "rum",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Rum",
+   "mnozstvo": 45,
+   "jednotka": "ml",
+   "poznamka": "korenený (spiced)"
+  },
+  {
+   "nazov": "Ovocná pálenka",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "jablkovica (calvados)"
+  },
+  {
+   "nazov": "Jablkový ocot",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": 12,
+   "jednotka": "ml",
+   "poznamka": "s rovnakým dielom horúcej vody = Asari medový sirup z tejto knihy"
+  },
+  {
+   "nazov": "Angostura",
+   "mnozstvo": 4,
+   "jednotka": "ml",
+   "poznamka": "3–5 kvapiek"
+  },
+  {
+   "nazov": "Cider",
+   "mnozstvo": 75,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "sušené koliesko na ozdobu"
+  },
+  {
+   "nazov": "Šalvia",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "čerstvé lístky na ozdobu"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "kocky"
+  }
+ ],
+ "postup": [
+  "Med rozmiešaj s rovnakým množstvom horúcej vody a štipkou škorice, nechaj vychladnúť.",
+  "Do šejkra s ľadom nalej rum, calvados, jablkový ocot, medový sirup a angosturu.",
+  "Pretrepávaj 10–15 sekúnd, kým drink nevychladne.",
+  "Precedz do nízkeho pohára, dolej cider a doplň ľadom.",
+  "Ozdob sušeným plátkom citróna alebo lístkami šalvie."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "herná kuchárka",
+  "rum"
+ ]
+}

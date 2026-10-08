@@ -1,0 +1,83 @@
+{
+ "id": "mrazeny-rumovy-drink-s-kokosom-a-ananasom",
+ "nazov": "The Big MT – mrazený rumový drink s kokosom a ananásom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – The Big MT",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 351,
+ "kcal_zdroj": "vypocet",
+ "popis": "Hustý frozen drink z dvoch rumov, ananásového džúsu a kokosového krému, rozmixovaný s ľadom a dokončený vrstvou vyzretého rumu.",
+ "hlavna_surovina": "rum",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Rum",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "silný (overproof)"
+  },
+  {
+   "nazov": "Kokosový rum",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Ananásový džús",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Kokosový krém",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "sladený (cream of coconut)"
+  },
+  {
+   "nazov": "Kokosové mlieko",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "kvapka, voliteľne"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1 hrnček"
+  },
+  {
+   "nazov": "Tmavý rum",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "vyzretý, navrch"
+  },
+  {
+   "nazov": "Ananás",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "plátok na ozdobu"
+  },
+  {
+   "nazov": "Koktejlová višňa",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1–2 na ozdobu"
+  }
+ ],
+ "postup": [
+  "Do mixéra daj silný rum, kokosový rum, ananásový džús, kokosový krém, kokosové mlieko a hrnček ľadu.",
+  "Mixuj 30–60 sekúnd dohladka.",
+  "Nalej do pohára typu hurricane a navrch opatrne prilej vyzretý rum.",
+  "Ozdob plátkom ananásu, višňami a koktailovým dáždnikom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rum",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

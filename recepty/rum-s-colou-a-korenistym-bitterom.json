@@ -1,0 +1,65 @@
+{
+ "id": "rum-s-colou-a-korenistym-bitterom",
+ "nazov": "Nuka Libre – rum s colou, limetkou a korenistým bitterom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – Nuka Libre",
+ "porcie": 1,
+ "cas": "3 min",
+ "kcal_na_porciu": 179,
+ "kcal_zdroj": "vypocet",
+ "popis": "Pustatinová obdoba Cuba Libre z vyzretého rumu, limetky a vychladenej coly, ktorej pár kvapiek korenistého bitteru dodá hĺbku.",
+ "hlavna_surovina": "rum",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Rum",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "vyzretý"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Angostura",
+   "mnozstvo": 2,
+   "jednotka": "ml",
+   "poznamka": "2–3 kvapky, ideálne bitter z nového korenia"
+  },
+  {
+   "nazov": "Cola",
+   "mnozstvo": 90,
+   "jednotka": "ml",
+   "poznamka": "dobre vychladená"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "hrsť kociek"
+  },
+  {
+   "nazov": "Limetka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1–2 mesiačiky na ozdobu"
+  }
+ ],
+ "postup": [
+  "Vysoký pohár naplň do dvoch tretín ľadom.",
+  "Nalej rum, limetkovú šťavu a bitter.",
+  "Dolej ľadovo studenou colou a ozdob mesiačikom limetky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rum",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

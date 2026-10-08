@@ -1,0 +1,103 @@
+{
+ "id": "zemiakova-bloody-mary",
+ "nazov": "The Tato Planter – zemiaková Bloody Mary s chrenom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – The Tato Planter",
+ "porcie": 1,
+ "cas": "10 min",
+ "kcal_na_porciu": 255,
+ "kcal_zdroj": "vypocet",
+ "popis": "Bloody Mary zo zemiakovej vodky s chrenom, worcesterom a ranč korením, podávaná v pohári s okrajom z rozdrvených chipsov.",
+ "hlavna_surovina": "Vodka",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "zemiaková alebo Junk Juice z knihy"
+  },
+  {
+   "nazov": "Paradajkový džús",
+   "mnozstvo": 135,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 22,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "ranč zmes (sušený cesnak, cibuľa, kôpor)"
+  },
+  {
+   "nazov": "Chren",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "strúhaný, z pohára"
+  },
+  {
+   "nazov": "Worcester",
+   "mnozstvo": 7,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Tabasco",
+   "mnozstvo": 3,
+   "jednotka": "ml",
+   "poznamka": "3–4 strieky"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Glukóza",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "kukuričný sirup, na okraj pohára"
+  },
+  {
+   "nazov": "Čipsy",
+   "mnozstvo": 15,
+   "jednotka": "g",
+   "poznamka": "rozdrvené, na okraj pohára"
+  },
+  {
+   "nazov": "Zeler",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "stonka s listami, na ozdobu"
+  },
+  {
+   "nazov": "Hranolky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1–3 zemiakové krokety na špajdli, voliteľne"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nakladané, na špajdli, voliteľne"
+  }
+ ],
+ "postup": [
+  "Ak chceš, napichni na špajdle opečené zemiakové krokety a nakladané paradajky a odlož ich.",
+  "Do jednej plytkej misky nalej trochu kukuričného sirupu, do druhej daj rozdrvené chipsy. Vonkajší okraj pohára obtoč najprv v sirupe a potom v chipsoch.",
+  "Pohár naplň ľadom a pridaj vodku, paradajkový džús, citrónovú šťavu, korenie, chren, worcester a tabasco podľa chuti. Jemne premiešaj barovou lyžičkou.",
+  "Ozdob stonkou zeleru a špajdľami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "herná kuchárka"
+ ]
+}

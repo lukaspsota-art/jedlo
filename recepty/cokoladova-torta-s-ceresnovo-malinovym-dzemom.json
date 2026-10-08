@@ -1,0 +1,204 @@
+{
+ "id": "cokoladova-torta-s-ceresnovo-malinovym-dzemom",
+ "nazov": "Chocolate Omnomberry Cake – čokoládová torta s čerešňovo-malinovým džemom",
+ "kategoria": "Dezert",
+ "kuchyna": "Americká",
+ "zdroj": "Guild Wars 2: Feasts of Tyria – Chocolate Omnomberry Cake",
+ "porcie": 16,
+ "cas": "15 hod 30 min",
+ "kcal_na_porciu": 781,
+ "kcal_zdroj": "vypocet",
+ "popis": "Trojposchodová kakaová torta s plnkou zo smotanového syra a domáceho džemu z čerešní, malín a černíc, ktorý v Tyrii nahrádza bájne omnomberry.",
+ "hlavna_surovina": "horká čokoláda",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na džem"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "na džem"
+  },
+  {
+   "nazov": "Maliny",
+   "mnozstvo": 142,
+   "jednotka": "g",
+   "poznamka": "na džem"
+  },
+  {
+   "nazov": "Černice",
+   "mnozstvo": 85,
+   "jednotka": "g",
+   "poznamka": "na džem"
+  },
+  {
+   "nazov": "Čerešne",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "vykôstkované, na džem"
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 64,
+   "jednotka": "g",
+   "poznamka": "do cesta"
+  },
+  {
+   "nazov": "Káva",
+   "mnozstvo": 160,
+   "jednotka": "ml",
+   "poznamka": "čerstvo uvarená"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 312,
+   "jednotka": "g",
+   "poznamka": "jemná koláčová"
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Jedlá sóda",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "do cesta"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "izbová teplota, do cesta"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "do cesta"
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 165,
+   "jednotka": "g",
+   "poznamka": "svetlý"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Vanilková pasta",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "do cesta"
+  },
+  {
+   "nazov": "Cmar",
+   "mnozstvo": 240,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "na plnku"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 114,
+   "jednotka": "g",
+   "poznamka": "na plnku"
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 240,
+   "jednotka": "g",
+   "poznamka": "na plnku"
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 270,
+   "jednotka": "g",
+   "poznamka": "na poťah"
+  },
+  {
+   "nazov": "Kakao",
+   "mnozstvo": 4,
+   "jednotka": "PL",
+   "poznamka": "na poťah"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na poťah"
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "na poťah"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 114,
+   "jednotka": "g",
+   "poznamka": "na poťah"
+  },
+  {
+   "nazov": "Horká čokoláda",
+   "mnozstvo": 255,
+   "jednotka": "g",
+   "poznamka": "roztopená a vychladnutá, na poťah"
+  },
+  {
+   "nazov": "Kyslá smotana",
+   "mnozstvo": 180,
+   "jednotka": "ml",
+   "poznamka": "na poťah"
+  },
+  {
+   "nazov": "Černice",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "8 kusov na ozdobu"
+  }
+ ],
+ "postup": [
+  "Deň vopred uvar džem: citrónovú šťavu, cukor, maliny, černice a čerešne prived do varu a 20–25 minút mierne var. Rozmixuj, preceď späť do hrnca a var ďalších 15 minút, kým nezhustne. Vychladni a nechaj cez noc v chladničke.",
+  "Rúru predhrej na 175 °C. Tri tortové formy s priemerom 20 cm vymasti a vylož papierom na pečenie. V miske vymiešaj kakao s ½ hrnčeka džemu a teplou kávou.",
+  "Zvlášť zmiešaj múku, prášok do pečiva, sódu a soľ. Vo veľkej mise vyšľahaj maslo s oboma cukrami do peny, potom vmiešaj vajcia a vanilku.",
+  "Vmiešaj polovicu suchej zmesi, potom kyslú smotanu s cmarom a kakaovú zmes, nakoniec zľahka zvyšok suchej zmesi. Rozdeľ do foriem, poklep nimi o linku a peč 35–40 minút, kým špajdľa nevyjde suchá. Po 5 minútach vyklop na mriežku, stiahni papier a nechaj aspoň hodinu vychladnúť.",
+  "Na plnku vyšľahaj smotanový syr s maslom do peny, vmiešaj ½ hrnčeka džemu a postupne práškový cukor.",
+  "Na poťah zmiešaj práškový cukor, kakao a soľ. Smotanový syr vyšľahaj s maslom, vmiešaj roztopenú čokoládu, potom po častiach cukrovú zmes a nakoniec kyslú smotanu.",
+  "Z korpusov zrež vypuklé vrchy. Prvý ulož rezom nahor, natri polovicou plnky, prikry druhým, natri zvyškom plnky a navrch polož tretí rezom nadol.",
+  "Celú tortu potri čokoládovým poťahom a stierkou uhlaď boky. Zvyšok poťahu nastriekaj vreckom s hviezdicovou špičkou okolo horného a dolného okraja a na osem kopčekov navrchu polož černice. Pred krájaním chlaď aspoň hodinu; v chladničke vydrží 4 dni."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "torta",
+  "čokoláda",
+  "bezmäsité",
+  "herná kuchárka"
+ ]
+}

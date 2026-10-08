@@ -1,0 +1,50 @@
+{
+ "id": "vodka-s-whisky-a-energetickym-napojom",
+ "nazov": "Subject Zero – vodka s whisky a jablkovým energetickým nápojom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Mass Effect: The Official Cocktail Book – Subject Zero",
+ "porcie": 1,
+ "cas": "2 min",
+ "kcal_na_porciu": 256,
+ "kcal_zdroj": "vypocet",
+ "popis": "Nekomplikovaný a riadne silný drink z jablkovej vodky, ražnej whisky a bourbonu doliaty energetickým nápojom.",
+ "hlavna_surovina": "vodka",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "s príchuťou zeleného jablka"
+  },
+  {
+   "nazov": "Ražná whisky",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Bourbon",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Energetický nápoj",
+   "mnozstvo": 105,
+   "jednotka": "ml",
+   "poznamka": "s príchuťou zeleného jablka, vychladený"
+  }
+ ],
+ "postup": [
+  "Vysoký pohár naplň ľadom a nalej vodku, whisky a bourbon.",
+  "Dolej energetickým nápojom a podávaj."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

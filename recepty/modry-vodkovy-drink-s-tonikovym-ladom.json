@@ -1,0 +1,82 @@
+{
+ "id": "modry-vodkovy-drink-s-tonikovym-ladom",
+ "nazov": "Nuka Quantum Grenade – modrý vodkový drink s tonikovým ľadom a granátovou sódou",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – Nuka Quantum Grenade",
+ "porcie": 1,
+ "cas": "4 hod 10 min",
+ "kcal_na_porciu": 287,
+ "kcal_zdroj": "vypocet",
+ "popis": "Žiarivo modrý highball z vodky a modrého likéru, v ktorom pláva valec zmrazeného toniku – svieti ako Nuka-Cola Quantum.",
+ "hlavna_surovina": "vodka",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "s príchuťou modrej maliny"
+  },
+  {
+   "nazov": "Blue curaçao",
+   "mnozstvo": 22,
+   "jednotka": "ml",
+   "poznamka": "alebo iný modrý ovocný likér"
+  },
+  {
+   "nazov": "Cukrový sirup",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Sóda",
+   "mnozstvo": 75,
+   "jednotka": "ml",
+   "poznamka": "s príchuťou granátového jablka"
+  },
+  {
+   "nazov": "Tonic",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "zmrazený vo valcovom tvorítku na ľad"
+  },
+  {
+   "nazov": "Cukrový sirup",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na okraj pohára"
+  },
+  {
+   "nazov": "Praskajúce cukríky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "modré, na okraj pohára, voliteľne"
+  },
+  {
+   "nazov": "Čerešne",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "kokteilová čerešňa na ozdobu, voliteľne"
+  }
+ ],
+ "postup": [
+  "Tonik nalej do valcového tvorítka na ľad a zmraz 4 až 6 hodín dotvrda.",
+  "Okraj pohára namoč v cukrovom sirupe a potom v modrých praskajúcich cukríkoch.",
+  "V pohári zmiešaj vodku, modrý likér, cukrový sirup a citrónovú šťavu (môžeš pridať aj dávku kofeínu bez chuti).",
+  "Vlož valec zmrazeného toniku a dolej granátovou sódou.",
+  "Ozdob kokteilovou čerešňou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "herná kuchárka"
+ ]
+}

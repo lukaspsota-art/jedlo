@@ -1,0 +1,269 @@
+{
+ "id": "kuraci-a-kacaci-miso-ramen-s-marinovanym-vajcom",
+ "nazov": "Imperial Ramen – kurací a kačací miso ramen s marinovaným vajcom",
+ "kategoria": "Polievka",
+ "kuchyna": "Japonská",
+ "zdroj": "Magic: The Gathering: The Official Cookbook – Imperial Ramen",
+ "porcie": 6,
+ "cas": "32 hod",
+ "kcal_na_porciu": 897,
+ "kcal_zdroj": "vypocet",
+ "popis": "Hustý biely vývar paitan z kačice a kuraťa, miso tare, cesnakový kačací olej, ramen rezance, pošírované kuracie prsia a miso vajíčko – slávnostná misa hodná cisárskeho dvora Kamigawy.",
+ "hlavna_surovina": "kuracie",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": "na miso vajíčka"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na marinádu vajec",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na marinádu vajec",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Miso pasta",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "biela shiro, na marinádu vajec",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Mirin",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "na marinádu vajec",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Sake",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "na marinádu vajec",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Kačica",
+   "mnozstvo": 2200,
+   "jednotka": "g",
+   "poznamka": "celá, rozporciovaná; kožu z pŕs odlož na olej; na vývar",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Celé kura",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "rozporciované; kožu z pŕs odlož na olej; na vývar",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Kuracie nôžky",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "bez pazúrov, na vývar",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "hlávka",
+   "poznamka": "prekrojená, na vývar"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": "kúsok 7–8 cm, na plátky, na vývar"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "na vývar"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 80,
+   "jednotka": "ml",
+   "poznamka": "repkový, na cesnakový kačací olej",
+   "vsiaknutie": 0.75
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 6,
+   "jednotka": "strúčik",
+   "poznamka": "nasekaný, na olej"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "nastrúhaný, na tare"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 3,
+   "jednotka": "strúčik",
+   "poznamka": "nastrúhaný, na tare"
+  },
+  {
+   "nazov": "Miso pasta",
+   "mnozstvo": 165,
+   "jednotka": "g",
+   "poznamka": "70 g červenej aka + 95 g bielej shiro, na tare",
+   "vsiaknutie": 0.5
+  },
+  {
+   "nazov": "Sake",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na tare",
+   "vsiaknutie": 0.5
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na tare"
+  },
+  {
+   "nazov": "Mirin",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na tare"
+  },
+  {
+   "nazov": "Glutaman sodný",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "voliteľne, v knihe 1/2 ČL, do tare"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na tare",
+   "vsiaknutie": 0.5
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na tare",
+   "vsiaknutie": 0.5
+  },
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na pošírovanie"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 0.25,
+   "jednotka": "ks",
+   "poznamka": "na pošírovanie"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": "na plátky, na pošírovanie"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 5,
+   "jednotka": "strúčik",
+   "poznamka": "na pošírovanie"
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 1,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Bujón",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "kurací, 6 g",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "asi 10 celých zrniek"
+  },
+  {
+   "nazov": "Sečuánske korenie",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "2 zrnká"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na huby"
+  },
+  {
+   "nazov": "Hlíva",
+   "mnozstvo": 600,
+   "jednotka": "g",
+   "poznamka": "6 hlív (king oyster), na plátky"
+  },
+  {
+   "nazov": "Rezance",
+   "mnozstvo": 330,
+   "jednotka": "g",
+   "poznamka": "ramen, suché (6 × 55 g)"
+  },
+  {
+   "nazov": "Klíčky",
+   "mnozstvo": 6,
+   "jednotka": "hrsť",
+   "poznamka": "hrachové"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "biela a svetlozelená časť (negi), na tenké kolieska"
+  },
+  {
+   "nazov": "Surimi",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "narutomaki (rybí koláč), 18 plátkov"
+  }
+ ],
+ "postup": [
+  "Vajcia vlož do vriacej vody a pod pokrievkou var 6,5 minúty. Schlaď pod studenou vodou a v ľadovej vode a olúp. Sójovú omáčku, hnedý cukor, miso, mirin a sake zmiešaj vo vrecku, vlož vajcia a marinuj v chladničke aspoň 24 hodín.",
+  "Kačicu, kura a kuracie nôžky zalej vodou v obrovskom hrnci, priveď do varu a zbieraj penu. Var prudko 4 hodiny, dolievaj vodu a každú polhodinu mäso a kosti rozdrv varechou.",
+  "Pridaj cesnak a zázvor a var ďalších 1,5 hodiny už bez dolievania, potom pridaj jarnú cibuľku na posledných 30 minút. Vývar precez cez jemné sitko, mäso a kosti dobre vytlač a vyhoď.",
+  "Na cesnakový olej zahrievaj repkový olej s kačacou a kuracou kožou na miernom ohni asi 20 minút, potom pridaj cesnak a var, kým nezhnedne (asi 10 minút). Kožu vyber, olej ulož do chladničky.",
+  "Na tare zmiešaj v hrnčeku zázvor, cesnak, oba druhy miso, sake, sójovú omáčku, mirin, glutaman, soľ a cukor a mierne var 10 minút. Nechaj vychladnúť.",
+  "Kuracie prsia zalej vodou s cibuľou, zázvorom, cesnakom, bobkovým listom, bujónom a korením, priveď do varu a na miernom ohni pošíruj 10–15 minút do 75 °C vnútri. Vyber, nechaj vychladnúť a nakrájaj na plátky.",
+  "Na panvici s 1 PL oleja opeč plátky hlivy do zlatista, 5–8 minút z každej strany. Rezance uvar podľa návodu.",
+  "Do každej misy daj 1 PL tare a 2 ČL cesnakového oleja, zalej asi 480 ml horúceho vývaru a dochuť ďalším tare. Do stredu daj rezance, navrch hlivu, klíčky, jarnú cibuľku, narutomaki a kuracie plátky. Podávaj s rozpoleným miso vajíčkom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "polievka",
+  "kuracie",
+  "rezance",
+  "herná kuchárka"
+ ]
+}

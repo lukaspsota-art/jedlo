@@ -1,0 +1,69 @@
+{
+ "id": "razna-whisky-s-jablkom-a-zazvorom",
+ "nazov": "RadAway – ražná whisky s jablkovou šťavou, javorovým sirupom a zázvorom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Fallout: The Official Drinks Book – RadAway",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 234,
+ "kcal_zdroj": "vypocet",
+ "popis": "Jesenný whisky sour s nefiltrovanou jablkovou šťavou, javorovým sirupom a zázvorovou kombuchou, podávaný hoci aj v infúznom vaku ako RadAway.",
+ "hlavna_surovina": "whisky",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Ražná whisky",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Jablková šťava",
+   "mnozstvo": 45,
+   "jednotka": "ml",
+   "poznamka": "nefiltrovaná"
+  },
+  {
+   "nazov": "Zázvorová limonáda",
+   "mnozstvo": 45,
+   "jednotka": "ml",
+   "poznamka": "alebo zázvorová kombucha"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "kocky"
+  },
+  {
+   "nazov": "Kandizovaný zázvor",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na ozdobu, nepovinné"
+  }
+ ],
+ "postup": [
+  "Do šejkra s ľadom nalej whisky, javorový sirup, citrónovú a jablkovú šťavu.",
+  "Pretrepávaj 10–15 sekúnd, kým sa dobre nevychladí.",
+  "Precedz do pohára s ľadom (alebo lievikom do infúzneho vaku).",
+  "Dolej zázvorovou limonádou a podľa chuti ozdob kandizovaným zázvorom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

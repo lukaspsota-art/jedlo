@@ -1,0 +1,74 @@
+{
+ "id": "tropicky-rumovy-drink-s-bourbonom-a-falernom",
+ "nazov": "Tavum & Juice – tropický rumový drink s bourbonom a falernom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Mass Effect: The Official Cocktail Book – Tavum & Juice",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 379,
+ "kcal_zdroj": "vypocet",
+ "popis": "Tiki drink z tmavého rumu, bourbonu a korenistého falerna s ovocným džúsom a kvapkou čiernych ríbezlí na drvenom ľade.",
+ "hlavna_surovina": "rum",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Tmavý rum",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Bourbon",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Falernum",
+   "mnozstvo": 30,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Ananásový džús",
+   "mnozstvo": 105,
+   "jednotka": "ml",
+   "poznamka": "zmes ananás, pomaranč a banán"
+  },
+  {
+   "nazov": "Crème de cassis",
+   "mnozstvo": 15,
+   "jednotka": "ml",
+   "poznamka": "alebo Tupo Concentrate z tejto knihy"
+  },
+  {
+   "nazov": "Koktejlová višňa",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na ozdobu"
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "plátky na ozdobu"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "drvený + kocky do šejkra"
+  }
+ ],
+ "postup": [
+  "Vysoký tiki pohár naplň po okraj drveným ľadom.",
+  "Rum, bourbon, džús, falernum a crème de cassis nalej do šejkra s kockami ľadu a dobre pretrepaj.",
+  "Precedz do pohára a ozdob dáždnikom, plátkami pomaranča a višňami."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "herná kuchárka",
+  "rum"
+ ]
+}
