@@ -1,0 +1,81 @@
+{
+ "id": "hrianky-s-jaternicou-na-pive-a-cedarom",
+ "nazov": "Ironforge Rations – hrianky s jaternicou na pive a čedarom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Britská",
+ "zdroj": "World of Warcraft: The Official Cookbook – Ironforge Rations",
+ "porcie": 4,
+ "cas": "20 min",
+ "kcal_na_porciu": 596,
+ "kcal_zdroj": "vypocet",
+ "popis": "Trpasličí obed z Ironforgu: plnka podusená so šalotkou a pivom na hustú omáčku, natretá na opečený chlieb a zapečená s čedarom.",
+ "hlavna_surovina": "jaternica",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Šalotka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "2–3, na tenké plátky"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "štipka"
+  },
+  {
+   "nazov": "Jaternica",
+   "mnozstvo": 425,
+   "jednotka": "g",
+   "poznamka": "bez čreva; kniha používa konzervu škótskeho haggisu"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Pivo",
+   "mnozstvo": 355,
+   "jednotka": "ml",
+   "poznamka": "použi tretinu až polovicu",
+   "vsiaknutie": 0.5
+  },
+  {
+   "nazov": "Chlieb",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": "4–6 krajcov vidieckeho chleba, opečených"
+  },
+  {
+   "nazov": "Čedar",
+   "mnozstvo": 115,
+   "jednotka": "g",
+   "poznamka": "nastrúhaný"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Na panvici rozpusti maslo a opeč šalotku, kým nezmäkne a nezosklovatie.",
+  "Pridaj soľ a jaternicu bez čreva, rozdrob ju a prehrievaj, kým nie je horúca.",
+  "Vmiešaj múku a podlej asi tretinou piva — vznikne hustá omáčka. Ak ju chceš redšiu, prilej viac piva.",
+  "Zmes rozdeľ na opečené krajce chleba, posyp čedarom a zapeč pod grilom, kým sa syr neroztopí. Dochuť soľou a korením."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

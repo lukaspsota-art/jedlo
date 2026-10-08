@@ -1,0 +1,50 @@
+{
+ "id": "prazeny-jacmenny-caj",
+ "nazov": "Pražený jačmenný čaj",
+ "kategoria": "Nápoj",
+ "kuchyna": "Ázijská",
+ "zdroj": "World of Warcraft: The Official Cookbook – Roasted Barley Tea",
+ "porcie": 2,
+ "cas": "15 min",
+ "kcal_na_porciu": 9,
+ "kcal_zdroj": "vypocet",
+ "popis": "Orieškovo voňavý čaj z dozlatista opražených jačmenných krúp, aký sa pije v Pandarii – podľa chuti osladený medom.",
+ "hlavna_surovina": "krúpy",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Krúpy",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "perličkový jačmeň",
+   "vsiaknutie": 0.1
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 360,
+   "jednotka": "ml",
+   "poznamka": "vriaca"
+  },
+  {
+   "nazov": "Med",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Krúpy nasyp na suchú panvicu a na miernom ohni ich za občasného miešania praž, kým rovnomerne nezozlatnú.",
+  "Zalej ich vriacou vodou a nechaj asi 5 minút lúhovať.",
+  "Preceď, podľa chuti osladi medom alebo pi bez cukru."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "čaj",
+  "rýchle",
+  "nealkoholické",
+  "bezmäsité",
+  "herná kuchárka"
+ ]
+}
