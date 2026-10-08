@@ -1,0 +1,57 @@
+{
+ "id": "porter-s-brandy-a-limetkou",
+ "nazov": "Deathrattle – porter s brandy a limetkou",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Hearthstone: Innkeeper's Tavern Cookbook – Deathrattle",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 320,
+ "kcal_zdroj": "vypocet",
+ "popis": "Tmavé pivo posilnené brandy, s kvapkou limetky a sirupu z hnedého cukru a štipkou zázvoru navrchu.",
+ "hlavna_surovina": "pivo",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Brandy",
+   "mnozstvo": 45,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 22,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Cukrový sirup",
+   "mnozstvo": 15,
+   "jednotka": "ml",
+   "poznamka": "z hnedého cukru, recept v knihe"
+  },
+  {
+   "nazov": "Pivo",
+   "mnozstvo": 360,
+   "jednotka": "ml",
+   "poznamka": "tmavé – porter alebo stout"
+  },
+  {
+   "nazov": "Mletý zázvor",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": "na posypanie"
+  }
+ ],
+ "postup": [
+  "Do veľkého pivového pohára nalej brandy, limetkovú šťavu a sirup.",
+  "Dolej pohár porterom a posyp štipkou mletého zázvoru."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "pivo",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

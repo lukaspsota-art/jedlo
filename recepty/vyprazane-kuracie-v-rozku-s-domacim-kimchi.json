@@ -1,0 +1,234 @@
+{
+ "id": "vyprazane-kuracie-v-rozku-s-domacim-kimchi",
+ "nazov": "Bowser’s Fiery Breath – vyprážané kuracie v rožku s domácim kimchi",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Kórejská",
+ "zdroj": "The Unofficial Super Mario Cookbook – Bowser’s Fiery Breath",
+ "porcie": 6,
+ "cas": "7 hod 10 min",
+ "kcal_na_porciu": 892,
+ "kcal_zdroj": "vypocet",
+ "popis": "Pikantné kuracie prsia marinované v korenenom cmare, obalené v kukuričných lupienkoch a vyprážané, podávané v rožku s domácim kimchi.",
+ "hlavna_surovina": "kuracie mäso",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Pekinská kapusta",
+   "mnozstvo": 900,
+   "jednotka": "g",
+   "poznamka": "polovica hlávky; na kimchi"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "malá, nastrúhaná na rezančeky; na kimchi"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "zväzok",
+   "poznamka": "na krúžky; na kimchi"
+  },
+  {
+   "nazov": "Reďkev",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "biela (daikon), nastrúhaná na rezančeky; na kimchi"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na kimchi"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": "na kimchi"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 30,
+   "jednotka": "g",
+   "poznamka": "kúsok asi 5 cm; na kimchi"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "malá; na kimchi"
+  },
+  {
+   "nazov": "Jablko",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "sladké, nastrúhané; na kimchi"
+  },
+  {
+   "nazov": "Chilli prášok",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na kimchi"
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na kimchi"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na kimchi"
+  },
+  {
+   "nazov": "Rybia omáčka",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na kimchi"
+  },
+  {
+   "nazov": "Kuracie prsia",
+   "mnozstvo": 794,
+   "jednotka": "g",
+   "poznamka": "bez kosti a kože; na vyprážané kuracie"
+  },
+  {
+   "nazov": "Mletá paprika",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na marinádu"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "morská; na marinádu"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "mleté; na marinádu"
+  },
+  {
+   "nazov": "Chilli prášok",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na marinádu"
+  },
+  {
+   "nazov": "Cesnakový prášok",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na marinádu"
+  },
+  {
+   "nazov": "Cibuľový prášok",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na marinádu"
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "trstinový; na marinádu"
+  },
+  {
+   "nazov": "Cmar",
+   "mnozstvo": 960,
+   "jednotka": "ml",
+   "poznamka": "na marinádu",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 320,
+   "jednotka": "ml",
+   "poznamka": "na obaľovanie",
+   "vsiaknutie": 0.5
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na obaľovanie",
+   "vsiaknutie": 0.5
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 189,
+   "jednotka": "g",
+   "poznamka": "na obaľovanie",
+   "vsiaknutie": 0.6
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 105,
+   "jednotka": "g",
+   "poznamka": "na obaľovanie",
+   "vsiaknutie": 0.6
+  },
+  {
+   "nazov": "Kukuričné lupienky",
+   "mnozstvo": 225,
+   "jednotka": "g",
+   "poznamka": "rozdrvené; na obaľovanie",
+   "vsiaknutie": 0.6
+  },
+  {
+   "nazov": "Arašidový olej",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": "na vyprážanie (kniha 1,9 l, stačí plná fritéza)",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Rožok",
+   "mnozstvo": 6,
+   "jednotka": "ks",
+   "poznamka": "francúzske rožky alebo bagetky"
+  },
+  {
+   "nazov": "Chilli paprička",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "červená, na krúžky"
+  },
+  {
+   "nazov": "Chilli vločky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na posypanie"
+  },
+  {
+   "nazov": "Sladkokyslá omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na pokvapkanie"
+  }
+ ],
+ "postup": [
+  "Na kimchi rozštvrť kapustu, vyrež hlúbik a nakrájaj ju na kúsky. Vo veľkej mise ju zmiešaj s mrkvou, jarnou cibuľkou a reďkvou, pridaj soľ a zľahka ju vmasíruj, kým zelenina nepustí šťavu.",
+  "Cesnak, zázvor, cibuľu, jablko, chilli prášok, kajenské korenie, cukor a rybiu omáčku rozmixuj na hladkú pastu (podľa potreby prilej trochu vody). Pastou dôkladne obaľ zeleninu.",
+  "Kimchi natlač po vrstvách do vyvarených pohárov tak, aby bolo celé ponorené v šťave a bez bublín, a nechaj asi 3 cm voľného miesta. Uzavri a nechaj 5–7 dní kvasiť pri izbovej teplote, potom 2–3 týždne v chladničke. Vydrží niekoľko mesiacov.",
+  "Kuracie prsia vlož do misy, posyp paprikou, morskou soľou, korením, chilli práškom, cesnakovým a cibuľovým práškom a cukrom a korenie vmasíruj do mäsa. Zalej cmarom a nechaj aspoň 6 hodín (ideálne cez noc) v chladničke.",
+  "V jednej plytkej miske rozšľahaj mlieko s vajcami, v druhej zmiešaj strúhanku, múku a rozdrvené kukuričné lupienky. Mäso vyber z cmaru (cmar vylej), namoč v mlieku a dôkladne obaľ v zmesi.",
+  "V hrnci rozohrej olej na 175 °C, rúru predhrej na 80 °C a na plech polož mriežku.",
+  "Kuracie vyprážaj po dávkach 10–12 minút dozlatista a do prepečenia, priebežne ho otáčaj. Hotové ukladaj na mriežku do teplej rúry, aby odkvapkalo.",
+  "Rožky rozkroj, vlož do nich vyprážané kuracie a kimchi, pridaj krúžky chilli, posyp chilli vločkami a pokvapkaj sladkokyslou omáčkou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "kuracie",
+  "vyprážané",
+  "sendvič",
+  "herná kuchárka"
+ ]
+}

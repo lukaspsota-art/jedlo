@@ -1,0 +1,71 @@
+{
+ "id": "zazvorova-kava-s-vajecnou-penou",
+ "nazov": "Beneath the Coffee Grounds – zázvorová káva so žĺtkovou penou",
+ "kategoria": "Nápoj",
+ "kuchyna": "Vietnamská",
+ "zdroj": "Hearthstone: Innkeeper's Tavern Cookbook – Beneath the Coffee Grounds",
+ "porcie": 2,
+ "cas": "10 min",
+ "kcal_na_porciu": 95,
+ "kcal_zdroj": "vypocet",
+ "popis": "Káva varená s bielkom a zázvorom, ktorá sa scedí dočista a zakryje hustou penou zo žĺtkov a kondenzovaného mlieka, podobne ako vietnamská vaječná káva.",
+ "hlavna_surovina": "káva",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Voda",
+   "mnozstvo": 480,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Vaječné bielky",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "zrazia sa s kávou a scedia",
+   "vsiaknutie": 0.1
+  },
+  {
+   "nazov": "Vaječné žĺtky",
+   "mnozstvo": 2,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Káva mletá",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Mletý zázvor",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kondenzované mlieko",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "sladené"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na posypanie"
+  }
+ ],
+ "postup": [
+  "V malom hrnci zohrej vodu na strednom ohni do mierneho varu.",
+  "V miske zmiešaj bielky s mletou kávou a zázvorom na hustú kašu.",
+  "Kašu vlož do vriacej vody – vytvorí na hladine plť. Za občasného miešania var asi 5 minút, kým káva nezíska sýtu jantárovú farbu.",
+  "Medzitým v malej miske šľahaj žĺtky s kondenzovaným mliekom ručným šľahačom na najvyšší stupeň niekoľko minút, kým nie sú svetlé a husté.",
+  "Kávu preceď cez jemné sitko do pohárov a navrch nalož žĺtkovú penu.",
+  "Posyp štipkou muškátového orieška a hneď podávaj."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "káva",
+  "bezmäsité",
+  "herná kuchárka"
+ ]
+}

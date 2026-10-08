@@ -1,0 +1,65 @@
+{
+ "id": "gin-s-bourbonom-sirupom-earl-grey-a-zazvorovym-pivom",
+ "nazov": "Sir Finley’s Adventurous Tea – gin s bourbonom, sirupom Earl Grey a zázvorovým pivom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "Hearthstone: Innkeeper's Tavern Cookbook – Sir Finley’s Adventurous Tea",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 332,
+ "kcal_zdroj": "vypocet",
+ "popis": "Čajový long drink z ginu a bourbonu so sirupom Earl Grey a pomarančovým likérom, doliaty zázvorovým pivom.",
+ "hlavna_surovina": "gin",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Gin",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Bourbon",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Triple sec",
+   "mnozstvo": 8,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Cukrový sirup",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "s čajom Earl Grey, recept v knihe"
+  },
+  {
+   "nazov": "Zázvorové pivo",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "mesiačik alebo koliesko na ozdobu"
+  }
+ ],
+ "postup": [
+  "Nízky pohár naplň ľadom a nalej doň gin, bourbon, triple sec a sirup.",
+  "Dolej zázvorovým pivom a ozdob mesiačikom alebo kolieskom pomaranča."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}
