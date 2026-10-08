@@ -1,0 +1,191 @@
+{
+ "id": "ovocny-chlebik-s-whisky-a-vlasskymi-orechmi",
+ "nazov": "Thanalan Ore Fruitcake – ovocný chlebíček so sušeným ovocím namočeným vo whisky",
+ "kategoria": "Dezert",
+ "kuchyna": "Britská",
+ "zdroj": "The Ultimate Final Fantasy XIV Cookbook, Vol. 2 – Thanalan Ore Fruitcake",
+ "porcie": 12,
+ "cas": "14 hod 15 min",
+ "kcal_na_porciu": 409,
+ "kcal_zdroj": "vypocet",
+ "popis": "Korenistý chlebíček plný sušeného ovocia namočeného cez noc vo whisky a amarette, s orechmi a javorovou polevou – hutný ako ruda z Thanalanu.",
+ "hlavna_surovina": "sušené ovocie",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Hrozienka",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "svetlé, na namočenie"
+  },
+  {
+   "nazov": "Sušené marhule",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "na namočenie"
+  },
+  {
+   "nazov": "Sušené čerešne",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "na namočenie"
+  },
+  {
+   "nazov": "Sušené brusnice",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "na namočenie"
+  },
+  {
+   "nazov": "Kandizovaný zázvor",
+   "mnozstvo": 50,
+   "jednotka": "g",
+   "poznamka": "na namočenie"
+  },
+  {
+   "nazov": "Figy",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": "sušené, nakrájané, na namočenie"
+  },
+  {
+   "nazov": "Whiskey",
+   "mnozstvo": 158,
+   "jednotka": "ml",
+   "poznamka": "na namočenie, tekutina sa zlieva",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Amaretto",
+   "mnozstvo": 59,
+   "jednotka": "ml",
+   "poznamka": "na namočenie, tekutina sa zlieva",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 156,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Prášok do pečiva",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Mletý zázvor",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kardamón",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "mletý"
+  },
+  {
+   "nazov": "Klinčeky",
+   "mnozstvo": 0.25,
+   "jednotka": "ČL",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "štipka, nastrúhaný"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 112,
+   "jednotka": "g",
+   "poznamka": "izbovej teploty"
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 156,
+   "jednotka": "g",
+   "poznamka": "tmavý"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "alebo vanilková pasta, do cesta"
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "nastrúhaná"
+  },
+  {
+   "nazov": "Pomarančová kôra",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "nastrúhaná"
+  },
+  {
+   "nazov": "Vlašské orechy",
+   "mnozstvo": 65,
+   "jednotka": "g",
+   "poznamka": "nasekané"
+  },
+  {
+   "nazov": "Vanilkový extrakt",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "alebo vanilková pasta, na polevu"
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na polevu"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na polevu"
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": "na polevu"
+  }
+ ],
+ "postup": [
+  "Hrozienka, marhule, čerešne, brusnice, zázvor a figy zalej v uzatvárateľnej nádobe whisky a amarettom a nechaj cez noc nasiaknuť.",
+  "Rúru predhrej na 150 °C. Ovocie sceď a tekutinu vylej. Formu na biskupský chlebíček vylož papierom na pečenie s presahom cez okraj a jemne vymasti.",
+  "V miske zmiešaj múku, prášok do pečiva, všetky mleté koreniny a soľ. Vo veľkej mise vymiešaj maslo s hnedým cukrom dohladka, pridaj vajcia, vanilku a obe kôry a dobre vyšľahaj.",
+  "Vmiešaj suché suroviny, potom vmiešaj scedené ovocie a orechy.",
+  "Cesto prelož do formy a peč 75–90 minút, kým nie je prepečené.",
+  "Nechaj 10 minút chladnúť vo forme, potom chlebíček vyber a nechaj úplne vychladnúť na mriežke.",
+  "Vyšľahaj vanilku, javorový sirup, vodu a práškový cukor a polevou polej vychladnutý chlebíček."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "dezert",
+  "bezmäsité",
+  "koláč",
+  "herná kuchárka"
+ ]
+}

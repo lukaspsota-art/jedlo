@@ -1,0 +1,227 @@
+{
+ "id": "opekane-klobasy-s-tromi-omackami",
+ "nazov": "Fuse’s Three Kinds of Fried Sausage – opekané klobásy s paprikovou, cibuľovou a kari omáčkou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Nemecká",
+ "zdroj": "Apex Legends: The Official Cookbook – Fuse’s Three Kinds of Fried Sausage",
+ "porcie": 3,
+ "cas": "1 hod 15 min",
+ "kcal_na_porciu": 1470,
+ "kcal_zdroj": "vypocet",
+ "popis": "Bravčové, hovädzie a kuracie klobásky opečené na panvici, každá s inou omáčkou – paprikovou, karamelizovanou cibuľovou s pancettou a pikantnou kari – presne podľa chuti Fusea.",
+ "hlavna_surovina": "klobásy",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na paprikovú omáčku"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "veľká, nakrájaná; na paprikovú omáčku"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "nasekaný"
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na paprikovú omáčku"
+  },
+  {
+   "nazov": "Paprika",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "zelená, žltá a červená, na kocky"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 284,
+   "jednotka": "g",
+   "poznamka": "konzervované, nakrájané"
+  },
+  {
+   "nazov": "Balzamikový ocot",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Worcester",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "worcestrová omáčka"
+  },
+  {
+   "nazov": "Údená paprika",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Karí korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na paprikovú omáčku"
+  },
+  {
+   "nazov": "Chilli prášok",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": "voliteľne"
+  },
+  {
+   "nazov": "Ghí",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "prepustené maslo; na cibuľovú omáčku"
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 1,
+   "jednotka": "štipka",
+   "poznamka": "trstinový"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "veľké, na kolieska; na cibuľovú omáčku"
+  },
+  {
+   "nazov": "Slanina",
+   "mnozstvo": 113,
+   "jednotka": "g",
+   "poznamka": "pancetta, na kocky"
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na cibuľovú omáčku"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Pivo",
+   "mnozstvo": 150,
+   "jednotka": "ml",
+   "poznamka": "sladové, tmavé"
+  },
+  {
+   "nazov": "Zeleninový vývar",
+   "mnozstvo": 120,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na kari omáčku"
+  },
+  {
+   "nazov": "Kečup",
+   "mnozstvo": 135,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Hovädzí vývar",
+   "mnozstvo": 4,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Karí korenie",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na kari omáčku a na posypanie"
+  },
+  {
+   "nazov": "Kajenské korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Bujón",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "zeleninový, sušený"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 1,
+   "jednotka": "ml",
+   "poznamka": "pár kvapiek"
+  },
+  {
+   "nazov": "Slnečnicový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na opekanie klobás"
+  },
+  {
+   "nazov": "Klobása",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "bravčová (bratwurst)"
+  },
+  {
+   "nazov": "Klobása",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "hovädzia (bratwurst)"
+  },
+  {
+   "nazov": "Klobása",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "kuracia (bratwurst)"
+  }
+ ],
+ "postup": [
+  "Paprikovú omáčku: v hrnci rozohrej olej, na stredom ohni 2–3 minúty restuj veľkú cibuľu s cesnakom, pridaj lyžicu pretlaku a krátko opeč. Vmiešaj papriku a duste 5 minút.",
+  "Pridaj paradajky, balzamikový ocot, worcestrovú omáčku, údenú papriku a kari a za občasného miešania varte 5–8 minút domäkka. Dochuť soľou, korením a podľa chuti chilli a udržuj v teple.",
+  "Cibuľovú omáčku: na nepriľnavej panvici rozpusti ghí, pridaj štipku cukru a cibuľové kolieska a 2–3 minúty karamelizuj. Pridaj pancettu a opeč dozlatista, vmiešaj čajovú lyžičku pretlaku, posyp múkou a za častého miešania chvíľu opekaj.",
+  "Keď sa tekutina takmer odparí, zalej pivom a vývarom, prived do varu, dochuť soľou, korením a rascou a bez pokrievky redukuj 5–6 minút, kým omáčka nezhustne. Udržuj v teple.",
+  "Kari omáčku: v malom hrnci prived do varu olivový olej, kečup a hovädzí vývar a minútu povar. Pridaj kari, kajenské korenie, bujón, cukor, soľ, korenie a kvapku jablčného octu, varte bez pokrievky 3 minúty a odstav.",
+  "Klobásy po celej dĺžke každé 3 cm prepichni nožom, aby nepraskli. Na nepriľnavej panvici rozohrej slnečnicový olej a opekaj ich po druhoch 5–7 minút dohneda, hotové udržuj v rúre pri 70 °C.",
+  "Bravčové klobásy polej kari omáčkou a posyp kari, hovädzie podávaj s cibuľovou a kuracie s paprikovou omáčkou. Hodia sa k nim pečené zemiakové lupienky alebo hranolky."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "bravčové",
+  "hovädzie",
+  "kuracie",
+  "herná kuchárka"
+ ]
+}

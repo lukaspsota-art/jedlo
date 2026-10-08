@@ -1,0 +1,248 @@
+{
+ "id": "zeleninovy-sendvic-s-kozim-pestom-a-nakladanou-mrkvou",
+ "nazov": "Knuckles Sandwich – zeleninový sendvič s kozím pestom, pečenou paprikou a nakladanou mrkvou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Americká",
+ "zdroj": "Sonic the Hedgehog: The Official Cookbook – Knuckles Sandwich",
+ "porcie": 4,
+ "cas": "4 hod",
+ "kcal_na_porciu": 822,
+ "kcal_zdroj": "vypocet",
+ "popis": "Poriadne vrstvený viaczrnný sendvič s pečenou paprikou, avokádom, rýchlo nakladanou mrkvou a kapustou a bazalkovým pestom s kozím syrom – taký nabitý, že by ho zjedol aj Knuckles.",
+ "hlavna_surovina": "zelenina",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Biely ocot",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na nakladanú mrkvu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na nakladanú mrkvu"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 67,
+   "jednotka": "g",
+   "poznamka": "na nakladanú mrkvu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na nakladanú mrkvu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "celé zrnká, na nakladanú mrkvu"
+  },
+  {
+   "nazov": "Koriandrová vňať",
+   "mnozstvo": 3,
+   "jednotka": "vetvička",
+   "poznamka": "na nakladanú mrkvu"
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 1,
+   "jednotka": "vetvička",
+   "poznamka": "na nakladanú mrkvu"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na tenké prúžky"
+  },
+  {
+   "nazov": "Biely ocot",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na nakladanú kapustu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Javorový sirup",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na nakladanú kapustu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na nakladanú kapustu"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 67,
+   "jednotka": "g",
+   "poznamka": "na nakladanú kapustu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na nakladanú kapustu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "celé zrnká, na nakladanú kapustu"
+  },
+  {
+   "nazov": "Červená kapusta",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": "pol hlávky, nastrúhaná"
+  },
+  {
+   "nazov": "Červená paprika",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na pečenú zeleninu"
+  },
+  {
+   "nazov": "Žltá paprika",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na pečenú zeleninu"
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na hrubé plátky"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na pečenú zeleninu"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Bazalka",
+   "mnozstvo": 57,
+   "jednotka": "g",
+   "poznamka": "čerstvá, na pesto"
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 28,
+   "jednotka": "g",
+   "poznamka": "nastrúhaný, na pesto"
+  },
+  {
+   "nazov": "Píniové oriešky",
+   "mnozstvo": 17,
+   "jednotka": "g",
+   "poznamka": "na pesto"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "na pesto"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na pesto"
+  },
+  {
+   "nazov": "Kozí syr",
+   "mnozstvo": 57,
+   "jednotka": "g",
+   "poznamka": "čerstvý, mäkký"
+  },
+  {
+   "nazov": "Crème fraîche",
+   "mnozstvo": 43,
+   "jednotka": "g",
+   "poznamka": "do pesta"
+  },
+  {
+   "nazov": "Celozrnný chlieb",
+   "mnozstvo": 8,
+   "jednotka": "plátok",
+   "poznamka": "viaczrnný"
+  },
+  {
+   "nazov": "Majonéza",
+   "mnozstvo": 4,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Avokádo",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na plátky"
+  },
+  {
+   "nazov": "Šalát",
+   "mnozstvo": 8,
+   "jednotka": "list",
+   "poznamka": "maslový"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "na plátky"
+  },
+  {
+   "nazov": "Paradajka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "4 plátky"
+  },
+  {
+   "nazov": "Klíčky",
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "reďkovkové"
+  }
+ ],
+ "postup": [
+  "Na nakladanú mrkvu zmiešaj v uzatvárateľnej nádobe ocot, vodu, cukor a soľ, pridaj zrnká korenia, koriandrovú vňať, mätu a mrkvu nakrájanú na tenké prúžky. Zatvor, pretrep a daj aspoň na 30 minút do chladničky.",
+  "Rovnako priprav kapustu: v druhej nádobe zmiešaj ocot, javorový sirup, vodu, cukor, soľ a korenie, pridaj nastrúhanú červenú kapustu, pretrep a nechaj aspoň 30 minút v chladničke. Obe zeleniny vydržia v chladničke asi týždeň.",
+  "Rúru predhrej na 230 °C. Rozpolené papriky bez jadier a hrubé plátky červenej cibule rozlož na plech, potri olivovým olejom, osoľ, okoreň a peč 30 minút, kým paprika nezmäkne a nezačne černieť.",
+  "Plech hneď zakry alobalom a nechaj 10 minút odpočívať, potom z papriky stiahni šupku. Zeleninu nechaj úplne vychladnúť a aspoň 2 hodiny chlaď v uzavretej nádobe.",
+  "Na pesto rozmixuj bazalku, parmezán, píniové oriešky, cesnak a olivový olej dohladka, potom primixuj kozí syr a crème fraîche.",
+  "Na sendvič natri jeden plátok chleba majonézou a rozlož naň plátky avokáda, ktoré zľahka roztlač. Druhý plátok natri pestom a prikry listami šalátu.",
+  "Na šalát navrstvi nakladanú mrkvu a kapustu, plátky uhorky a paradajky, pečenú papriku s cibuľou a hrsť klíčkov. Prikry plátkom s avokádom a sendvič pevne zabaľ do papiera na pečenie."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "sendvič",
+  "bezmäsité",
+  "herná kuchárka"
+ ]
+}

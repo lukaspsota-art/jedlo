@@ -1,0 +1,196 @@
+{
+ "id": "jahnacia-musaka-so-zemiakovou-kasou-a-besamelom",
+ "nazov": "Gyr Abania Jhammel Moussaka – jahňacia musaka so zemiakovou kašou a bešamelom",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Grécka",
+ "zdroj": "The Ultimate Final Fantasy XIV Cookbook, Vol. 2 – Gyr Abania Jhammel Moussaka",
+ "porcie": 8,
+ "cas": "3 hod",
+ "kcal_na_porciu": 712,
+ "kcal_zdroj": "vypocet",
+ "popis": "Zapekaná musaka z pečeného baklažánu a cukety, jahňacieho ragú so škoricou, zemiakovej kaše s fetou a parmezánového bešamelu.",
+ "hlavna_surovina": "Jahňacie mäso",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 907,
+   "jednotka": "g",
+   "poznamka": "olúpané, na kocky; na kašu"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 10,
+   "jednotka": "strúčik",
+   "poznamka": "8 do kaše, 2 do ragú"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 3,
+   "jednotka": "ČL",
+   "poznamka": "1 ČL do kaše, 2 ČL na zeleninu"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 228,
+   "jednotka": "g",
+   "poznamka": "nesolené; polovica do kaše, polovica do bešamelu"
+  },
+  {
+   "nazov": "Grécky jogurt",
+   "mnozstvo": 113,
+   "jednotka": "g",
+   "poznamka": "na kašu"
+  },
+  {
+   "nazov": "Feta",
+   "mnozstvo": 113,
+   "jednotka": "g",
+   "poznamka": "na kašu"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "do kaše a bešamelu"
+  },
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na 1 cm plátky"
+  },
+  {
+   "nazov": "Cuketa",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "na 1 cm plátky"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "2 PL na zeleninu, 1 PL do ragú"
+  },
+  {
+   "nazov": "Tymian",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "čerstvé lístky; na zeleninu a do ragú"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "mleté; na zeleninu a do bešamelu"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 62,
+   "jednotka": "g",
+   "poznamka": "na bešamel"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "štipka; do bešamelu"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 480,
+   "jednotka": "ml",
+   "poznamka": "na bešamel"
+  },
+  {
+   "nazov": "Parmezán",
+   "mnozstvo": 57,
+   "jednotka": "g",
+   "poznamka": "nastrúhaný; do bešamelu"
+  },
+  {
+   "nazov": "Žĺtok",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "do bešamelu"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nakrájaná; do ragú"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "do ragú"
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "do ragú"
+  },
+  {
+   "nazov": "Klinčeky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "štipka mletých; do ragú"
+  },
+  {
+   "nazov": "Paradajkový pretlak",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "do ragú"
+  },
+  {
+   "nazov": "Jahňacie pliecko",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "mleté; do ragú"
+  },
+  {
+   "nazov": "Paradajky",
+   "mnozstvo": 397,
+   "jednotka": "g",
+   "poznamka": "z konzervy, sekané; do ragú"
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "do ragú"
+  },
+  {
+   "nazov": "Škorica",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "celá tyčinka; do ragú"
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 0.5,
+   "jednotka": "zväzok",
+   "poznamka": "nadrobno; do ragú"
+  }
+ ],
+ "postup": [
+  "Zemiaky s 8 strúčikmi cesnaku a soľou zalej vodou, prived do varu a var 15–20 minút domäkka. Sceď.",
+  "V tom istom hrnci rozpusti polovicu masla s jogurtom, odstav, pridaj zemiaky a roztlač dohladka. Vmiešaj fetu, osoľ a okoreň.",
+  "Rúru predhrej na 230 °C a dva plechy vylož alobalom potretým olejom. Baklažán a cuketu premiešaj s olejom, polovicou tymianu, soľou a korením a peč 15 minút, otoč a peč ďalších 15 minút.",
+  "Na bešamel rozpusti zvyšné maslo, pridaj múku a muškátový oriešok a miešaj, kým nezavonia. Postupne prišľahaj mlieko na hustú omáčku, osoľ, okoreň, odstav a vmiešaj parmezán a žĺtky.",
+  "Na panvici rozohrej lyžicu oleja a cibuľu opekaj 3–5 minút. Pridaj 2 strúčiky cesnaku, zvyšný tymian, cukor, mletú škoricu a klinčeky a 2 minúty premiešavaj.",
+  "Pridaj jahňacie mäso a pretlak a opekaj 5–8 minút dohneda. Vmiešaj paradajky, bobkový list a škoricu, prikry a na strednom ohni var 10–15 minút.",
+  "Vyber bobkový list a škoricu, odstav, vmiešaj petržlenovú vňať a štvrtinu bešamelu.",
+  "Rúru prestav na 175 °C. Do hlbokej zapekacej misy navrstvi pečenú zeleninu, ragú, zemiakovú kašu a navrch zvyšný bešamel. Peč 45 minút, potom pod grilom opeč dozlatista a pred krájaním nechaj 15 minút postáť."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "jahňacie",
+  "zapekané",
+  "herná kuchárka"
+ ]
+}

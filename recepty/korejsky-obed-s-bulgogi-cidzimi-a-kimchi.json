@@ -1,0 +1,188 @@
+{
+ "id": "korejsky-obed-s-bulgogi-cidzimi-a-kimchi",
+ "nazov": "Crypto’s Dosirak – kórejský obed v krabičke s bulgogi, palacinkou čidžimi a kimchi",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Kórejská",
+ "zdroj": "Apex Legends: The Official Cookbook – Crypto’s Dosirak",
+ "porcie": 3,
+ "cas": "4 hod",
+ "kcal_na_porciu": 1044,
+ "kcal_zdroj": "vypocet",
+ "popis": "Kórejský obed do krabičky, aký si balí Crypto: marinované hovädzie bulgogi so zeleninou, chrumkavá palacinka čidžimi s cesnakovou pažítkou a omáčkou, kimchi a ryža.",
+ "hlavna_surovina": "hovädzie mäso",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Kimchi",
+   "mnozstvo": 300,
+   "jednotka": "g",
+   "poznamka": "hotové"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na bulgogi"
+  },
+  {
+   "nazov": "Sake",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na bulgogi"
+  },
+  {
+   "nazov": "Hnedý cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "trstinový, na bulgogi"
+  },
+  {
+   "nazov": "Mleté chilli",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na bulgogi"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 1,
+   "jednotka": "strúčik",
+   "poznamka": "prelisovaný, na bulgogi"
+  },
+  {
+   "nazov": "Zázvor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "nastrúhaný, na bulgogi"
+  },
+  {
+   "nazov": "Hovädzia roštenka",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "na veľmi tenké prúžky"
+  },
+  {
+   "nazov": "Sezamový olej",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "na opekanie bulgogi"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na tenké plátky"
+  },
+  {
+   "nazov": "Mrkva",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "malá, na tenké plátky"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na šikmé kúsky"
+  },
+  {
+   "nazov": "Sezam",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "opražený, na posypanie"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 208,
+   "jednotka": "g",
+   "poznamka": "na čidžimi"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 240,
+   "jednotka": "ml",
+   "poznamka": "na čidžimi"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na čidžimi"
+  },
+  {
+   "nazov": "Sezamový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "2 ČL do cesta, zvyšok na vyprážanie čidžimi"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na čidžimi"
+  },
+  {
+   "nazov": "Pažítka",
+   "mnozstvo": 1,
+   "jednotka": "zväzok",
+   "poznamka": "cesnaková (nira), na 5 cm kúsky"
+  },
+  {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na omáčku, ideálne ponzu"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Sezamový olej",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Jarná cibuľka",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "malá, na kolieska, na omáčku"
+  },
+  {
+   "nazov": "Mleté chilli",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "na omáčku"
+  },
+  {
+   "nazov": "Ryža",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "suchá, uvar ako prílohu"
+  }
+ ],
+ "postup": [
+  "Múku, vodu, vajcia, 2 ČL sezamového oleja a soľ vymixuj na hladké cesto bez hrudiek. Prikry a nechaj v chladničke aspoň 3 hodiny (najviac 12), aby sa chute spojili.",
+  "Na bulgogi zmiešaj sójovú omáčku, sake, cukor, chilli, cesnak a zázvor, vmiešaj mäso, prikry a nechaj 15 minút marinovať v chladničke.",
+  "Uvar ryžu. V malej miske zmiešaj sójovú omáčku, citrónovú šťavu, sezamový olej, cukor, jarnú cibuľku a chilli na omáčku.",
+  "Na panvici rozohrej sezamový olej, pridaj mäso, cibuľu, mrkvu a jarnú cibuľku a opekaj za občasného miešania, kým mäso nie je zlatisté a zelenina mäkká. Posyp opraženým sezamom.",
+  "Do cesta vmiešaj pažítku. Na veľkej nepriľnavej panvici rozohrej trochu sezamového oleja, vlej tretinu cesta, prikry a 3 minúty peč. Obráť a dopeč 3–4 minúty dozlatista. Rovnako upeč zvyšok cesta.",
+  "Čidžimi nakrájaj na kúsky a pokvapkaj omáčkou. Do krabičky poukladaj kimchi, bulgogi, čidžimi a ryžu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "kórejské",
+  "herná kuchárka"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "id": "studene-mrkvove-latte-s-amarettom",
+ "nazov": "Studené mrkvové latte s amarettom a syrovou penou",
+ "kategoria": "Kokteil",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "The Ultimate Final Fantasy XIV Cookbook, Vol. 2 – Carrot Coffee",
+ "porcie": 1,
+ "cas": "15 min",
+ "kcal_na_porciu": 280,
+ "kcal_zdroj": "vypocet",
+ "popis": "Ľadová káva s mrkvovou šťavou, ovseným mliekom, škoricou, zázvorom a kvapkou amaretta, korunovaná sladkou penou zo smotanového syra.",
+ "hlavna_surovina": "espresso",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Smotana na šľahanie",
+   "mnozstvo": 22,
+   "jednotka": "ml",
+   "poznamka": "na penu"
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 11,
+   "jednotka": "g",
+   "poznamka": "na penu, vyšľahaný"
+  },
+  {
+   "nazov": "Práškový cukor",
+   "mnozstvo": 7,
+   "jednotka": "g",
+   "poznamka": "na penu"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": null,
+   "jednotka": "štipka",
+   "poznamka": "na penu"
+  },
+  {
+   "nazov": "Ovsené mlieko",
+   "mnozstvo": 120,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Mrkvová šťava",
+   "mnozstvo": 120,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Espresso",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "2 shoty"
+  },
+  {
+   "nazov": "Amaretto",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Mletá škorica",
+   "mnozstvo": 0.125,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Mletý zázvor",
+   "mnozstvo": 0.125,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "do pohára"
+  }
+ ],
+ "postup": [
+  "Vo vysokom hrnčeku spoj smotanu, smotanový syr, práškový cukor a soľ a napeň šľahačom na mlieko do ľahkej peny.",
+  "V pohári zmiešaj ovsené mlieko, mrkvovú šťavu, espresso, amaretto, škoricu a zázvor a prešľahaj napeňovačom.",
+  "Servírovací pohár naplň ľadom, nalej doň mrkvovú kávu a navrch daj syrovú penu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "káva",
+  "bezmäsité",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}
