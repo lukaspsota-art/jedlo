@@ -5,7 +5,7 @@
   "kuchyna": "Slovenská",
   "zdroj": "Varecha.sk – Treska na zázvore a zmesi 4 korení (autor: sisok)",
   "zdroj_url": "https://varecha.pravda.sk/recepty/treska-na-zazvore-a-zmesi-4-koreni-/40310-recept.html",
-  "porcie": 1,
+  "porcie": 2,
   "cas": "20 min",
   "kcal_na_porciu": 332,
   "popis": "Omáčka zo zázvoru, zmesi 4 korení a sójovej omáčky dodá mrazenej treske výraznú chuť a jedlo dopĺňa skaramelizovaná cibuľka s čiernou reďkvičkou.",
@@ -51,6 +51,18 @@
       "mnozstvo": 100,
       "jednotka": "ml",
       "poznamka": ""
+    },
+    {
+      "nazov": "Olej",
+      "mnozstvo": 1,
+      "jednotka": "PL",
+      "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 20,
+      "jednotka": "g",
+      "poznamka": ""
     }
   ],
   "postup": [
@@ -62,7 +74,6 @@
   "foto": "",
   "tagy": [
     "hlavné jedlo",
-    "bezmäsité",
     "ryba"
   ]
 }

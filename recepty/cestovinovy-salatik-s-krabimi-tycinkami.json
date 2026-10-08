@@ -56,6 +56,12 @@
       "mnozstvo": null,
       "jednotka": "podľa chuti",
       "poznamka": ""
+    },
+    {
+      "nazov": "Maslo",
+      "mnozstvo": 10,
+      "jednotka": "g",
+      "poznamka": ""
     }
   ],
   "postup": [
@@ -68,7 +74,6 @@
   "foto": "",
   "tagy": [
     "cestoviny",
-    "syr",
-    "bezmäsité"
+    "syr"
   ]
 }

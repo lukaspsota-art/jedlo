@@ -552,7 +552,8 @@ def main():
     # nefungovala offline, hoci na Netlify áno.
     if os.path.exists(SW):
         shutil.copyfile(SW, os.path.join(DOCS, "sw.js"))
-    # sync-config.js je tajný a je v .gitignore (aj v docs/) — kopírujeme ho, len ak existuje.
+    # sync-config.js je v .gitignore, ALE docs/sync-config.js je v gite trackovaný (commit 5c60e5b, vedome) — po builde
+    # ide na GitHub Pages verejne. Je v ňom len anon kľúč; bezpečnosť stojí na RLS v Supabase. Kopíruje sa, len ak existuje.
     if os.path.exists(SYNC_CONFIG):
         shutil.copyfile(SYNC_CONFIG, os.path.join(DOCS, "sync-config.js"))
 

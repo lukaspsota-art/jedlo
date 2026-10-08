@@ -59,9 +59,8 @@ module.exports = {
         odobrat: c.querySelectorAll("a[onclick^='odoberKomponent']").length,
       };
     });
-    await t.ok(bunka && bunka.rm.length === 2, `v bunke plánu sú práve 2 mini-akcie (bolo ich 5)`, JSON.stringify(bunka));
-    await t.ok(bunka && /zmeniť/.test(bunka.rm[0]), "prvá akcia v bunke je „✎ zmeniť“", JSON.stringify(bunka));
-    await t.ok(bunka && /viac/.test(bunka.rm[1]), "druhá akcia v bunke je „⋯ viac“", JSON.stringify(bunka));
+    // v34: bunka = názov + 🎲 + jedno „⋯ viac“ (výber zo zoznamu, porcia a príloha sú v ňom)
+    await t.ok(bunka && bunka.rm.length === 1 && /viac/.test(bunka.rm[0]), `v bunke plánu je jediná mini-akcia „⋯ viac“ (bolo ich 5, potom 2)`, JSON.stringify(bunka));
 
     // klik na „⋯ viac“ otvorí panel so 4 akciami
     await page.locator("#plan-table .plan-cell:not(.prazdne):not(.vyp) .rm", { hasText: "viac" }).first().click();
@@ -73,7 +72,8 @@ module.exports = {
     await t.ok(panel.otvorene, "„⋯ viac“ v bunke otvorí panel akcií");
     // v31: pri skutočnom recepte pribudla piata „🚫 Už nezobrazovať“ (pri zvyšku/prílohe nie je).
     // B3: ✕ sa z bunky presunul sem (s rozsahom bloku) a pribudol 🔒 Zamknúť; ✕ prílohy, ak ju jedlo má.
-    await t.ok(panel.polozky.length >= 7 && /Už nezobrazovať/.test(panel.polozky[4]) && /Zamknúť/.test(panel.polozky[5])
+    // v34: navrchu tri rozsahy výmeny (🎲 náhodne / ✎ zo zoznamu / 🍽 porcia), potom doplnok, porcie, zvyšok…
+    await t.ok(panel.polozky.length >= 9 && /Vymeniť/.test(panel.polozky[0]) && /zoznamu/.test(panel.polozky[1]) && panel.polozky.some(p => /Už nezobrazovať/.test(p)) && panel.polozky.some(p => /Zamknúť/.test(p))
       && /^✕ Odobrať z (bloku|plánu)/.test(panel.polozky[panel.polozky.length - 1]),
       `panel má akcie doplnok, znova, porcie, zvyšok, už nezobrazovať, 🔒, ✕ odobrať — ${panel.polozky.length}`, JSON.stringify(panel));
     await zavriOkna(page);
@@ -109,7 +109,7 @@ module.exports = {
     const pas = await page.evaluate(() => {
       const b = document.querySelector("#v-planovac .rozvrh-upr");
       const txt = (document.getElementById("v-planovac").textContent || "").replace(/\s+/g, " ");
-      return { maTlacidlo: !!b, text: b ? b.textContent.trim() : "", veta: /Varíš vo? .{2,12} večer na /.test(txt), pocetBlokov: /Rozvrh varenia · \d+ blok/.test(txt) };
+      return { maTlacidlo: !!b, text: b ? b.textContent.trim() : "", veta: /Varíš vo? .{2,12} večer na /.test(txt), pocetBlokov: /Rozvrh varenia · varíš \d+× týždenne/.test(txt) };
     });
     await t.ok(pas.maTlacidlo && /Upraviť rozvrh/i.test(pas.text), "nad tabuľkou je „✂️ Upraviť rozvrh“", JSON.stringify(pas));
     await t.ok(pas.veta, "rozvrh hovorí celou vetou, kedy a na čo varíš", JSON.stringify(pas));
@@ -166,7 +166,8 @@ module.exports = {
       for (let di = 0; di < 7; di++) slotyDna(di).forEach((sl) => out.push(pf(di, sl)));
       return { min: Math.min(...out), max: Math.max(...out), unik: [...new Set(out)].sort() };
     });
-    await t.ok(fak.min >= 0.85 - 1e-9 && fak.max <= 1.15 + 1e-9, `faktor je zovretý na 0,85–1,15 (${fak.min}–${fak.max})`, JSON.stringify(fak));
+    // v34: faktor má každé jedlo zvlášť, automatika 0,7–1,5 (FAKTOR_SLOT_MIN/MAX)
+    await t.ok(fak.min >= 0.7 - 1e-9 && fak.max <= 1.5 + 1e-9, `faktor jedla je v 0,7–1,5 (${fak.min}–${fak.max})`, JSON.stringify(fak));
     t.metrika("faktor min/max", `${fak.min} / ${fak.max}`);
 
     // faktor sa dá upraviť a prejaví sa v súčte
@@ -178,15 +179,13 @@ module.exports = {
     const po = await page.evaluate(() => document.querySelector("#plan-table tr.suma td:nth-child(2)").textContent.trim());
     await t.ok(pred !== po, "zmena veľkosti porcie sa prejaví v dennom súčte", `${pred} → ${po}`);
     const kcTxt = await page.evaluate(() => document.querySelector("#plan-table .plan-cell .kc").textContent);
-    await t.ok(/%/.test(kcTxt), "bunka s upraveným faktorom ukáže „%“", kcTxt);
-    // v29: holé „110 %“ vedľa kcal nič nehovorilo a jediné vysvetlenie bolo v title,
-    // teda na telefóne nedosiahnuteľné. Číslo musí povedať, čoho je to percento.
-    await t.ok(/porcie/.test(kcTxt), "riadok kcal pomenuje faktor slovom „porcie“", kcTxt);
+    // v34: faktor má skoro každé jedlo — namiesto „porcie 110 %“ (žargón v každej bunke) bunka povie slovom
+    await t.ok(/(väčšia|menšia) porcia/.test(kcTxt), "bunka s upraveným faktorom povie „väčšia/menšia porcia“", kcTxt);
 
     // ── výmena jedla (picker) ───────────────────────────────────────────────
     await naplnPlan(page);
     const predVymenou = await page.evaluate(() => slotIds(0, slotyDna(0)[0])[0]);
-    await page.locator("#plan-table .plan-cell:not(.prazdne):not(.vyp) .rm", { hasText: "zmeniť" }).first().click();
+    await page.evaluate(() => vyberDoPlanu(0, slotyDna(0)[0])); // v34: „✎ Vybrať jedlo zo zoznamu“ je v „⋯ viac“
     await page.waitForTimeout(200);
     await t.ok(await page.evaluate(() => document.getElementById("pick-overlay").classList.contains("open")),
       "„✎ zmeniť“ otvorí výber receptu");

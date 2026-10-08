@@ -321,7 +321,7 @@ ok("3 recepty po 0,7 ks: kusy sa zaokrúhlia NAHOR a raz, na súčte (nie po rec
   const spolu = it.gramy / p.g_za_ks;                       // presný súčet kusov naprieč receptami
   assert.ok(Math.abs(spolu - Math.round(spolu)) > 0.05, "test potrebuje neceločíselný súčet, je " + spolu);
   // audit 30. 9.: kusy sa kupujú nahor (1,32 ks čakanky = 2 ks, nie 1) — v riadku je to „treba N ks"
-  assert.ok(new RegExp("(^|treba )" + Math.ceil(spolu) + " ks").test(t),
+  assert.ok(new RegExp("(^|jedál )" + Math.ceil(spolu) + " ks").test(t),
     "má vyjsť " + Math.ceil(spolu) + " ks (súčet " + spolu.toFixed(2) + " zaokrúhlený nahor RAZ), je: " + t);
   const poReceptoch = 3 * Math.ceil(spolu / 3);             // keby sa zaokrúhľovalo v každom recepte
   assert.notStrictEqual(Math.ceil(spolu), poReceptoch,
@@ -335,8 +335,8 @@ ok("zaokrúhlenie kusov nemení gramáž ani cenu (tá ide zo súčtu, nie zo za
   assert.ok(Math.abs(it.cenaSpotreba - it.gramy / 100 * p.cena100) < 1e-9,
     "cena nesedí s gramážou: " + it.cenaSpotreba);
 });
-ok("nedeliteľná jednotka sa neškáluje % veľkosti porcie, len počtom porcií", () => {
-  assert.strictEqual(app.skalovanaHodnota(2, "ks", 3, 0.5), 6);
+ok("v34: aj nedeliteľná jednotka sa škáluje veľkosťou porcie (zaokrúhli sa až súčet)", () => {
+  assert.strictEqual(app.skalovanaHodnota(2, "ks", 3, 0.5), 3);
   assert.strictEqual(app.skalovanaHodnota(2, "g", 3, 0.5), 3);
 });
 
@@ -911,12 +911,12 @@ ok("#6: hlavný údaj je balenie z regálu, spotreba menším; výrobok „1 ks�
     { nazov: "Citrónová šťava", mnozstvo: 45, jednotka: "g" }, { nazov: "Mäta", mnozstvo: 8, jednotka: "list" }]);
   planujVarky([[0, "Obed", r]]);
   const c = vRiadok(null, "Cibuľa");
-  assert.ok(/^<b>1× 1 kg<\/b>/.test(c.mnoz) && /\(treba \d+ g\)/.test(cistyText(c.mnoz)), "cibuľa: " + c.mnoz);
+  assert.ok(/^<b>1× 1 kg<\/b>/.test(c.mnoz) && /\(do jedál \d+ g\)/.test(cistyText(c.mnoz)), "cibuľa: " + c.mnoz);
   const h = vRiadok(null, "Hruška");
   assert.ok(h, "názov výrobku si nechal „, balenie …“: " + app.nakupItems().map(x => x.nazov).join(", "));
   assert.ok(/^\d+ ks$/.test(cistyText(h.mnoz)), "hruška: " + cistyText(h.mnoz));
   const s = vRiadok(null, "Citrónová šťava");
-  assert.ok(/treba \d+ ml/.test(cistyText(s.mnoz)), "šťava nie je v ml: " + cistyText(s.mnoz));
+  assert.ok(/jedál \d+ ml/.test(cistyText(s.mnoz)), "šťava nie je v ml: " + cistyText(s.mnoz));
   assert.ok(/8 list/.test(cistyText(vRiadok(null, "Mäta").mnoz)) && vRiadok(null, "Mäta").gramy < 10, "8 lístkov mäty nie je " + vRiadok(null, "Mäta").gramy + " g");
 });
 ok("#7: kusy sa kupujú nahor — 1,32 ks čakanky sú 2 ks (2,0000001 ostane 2)", () => {

@@ -182,7 +182,10 @@ async function vytvorProstredie(t) {
       const u = r.url();
       if (!jeZnama(u) && !u.startsWith("data:")) {
         const err = (r.failure() && r.failure().errorText) || "";
-        if (!/ERR_ABORTED/.test(err)) chyby.push({ typ: "requestfailed", text: u + " — " + err });
+        // v34: fotky receptov sú voliteľné súbory (thumbHTML/onerror → emoji); prerušené načítanie náhľadu
+        // pri zatvorení stránky (ERR_FAILED na lokálnom serveri) nie je chyba appky
+        const fotka = /\/recepty\/fotky\/[^/]+\.webp$/.test(u) && /ERR_FAILED/.test(err);
+        if (!/ERR_ABORTED/.test(err) && !fotka) chyby.push({ typ: "requestfailed", text: u + " — " + err });
       }
     });
     page.chyby = chyby;

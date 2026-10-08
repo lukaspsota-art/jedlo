@@ -6,7 +6,7 @@
  "zdroj": "Jíme zdravě s Fitrecepty III",
  "porcie": 8,
  "cas": "40 min",
- "kcal_na_porciu": 170,
+ "kcal_na_porciu": 270,
  "popis": "Aromatická cuketová nátierka s cesnakom a paradajkovým pretlakom.",
  "ingrediencie": [
   {
@@ -68,6 +68,12 @@
    "mnozstvo": 1.5,
    "jednotka": "ks",
    "poznamka": "hlávka"
+  },
+  {
+   "nazov": "Chlieb",
+   "mnozstvo": 8,
+   "jednotka": "plátok",
+   "poznamka": "na hrianky"
   }
  ],
  "postup": [

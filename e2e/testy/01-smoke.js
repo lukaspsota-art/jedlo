@@ -45,7 +45,7 @@ module.exports = {
     await page.waitForTimeout(600);   // debounce 300 ms
     const cu = await page.evaluate(() => ({
       nadpisy: [...document.querySelectorAll("#cu-out h3")].map((h) => h.textContent),
-      riadky: document.querySelectorAll("#cu-out .match").length, ulozene: S.mamDoma,
+      riadky: document.querySelectorAll("#cu-out .match").length, ulozene: S.domaNakup,
     }));
     await t.ok(/Uvaríš hneď/.test(cu.nadpisy[0] || "") && cu.riadky > 0,
       "„Čo uvarím“ nájde recepty, ktoré uvaríš hneď", JSON.stringify(cu));
@@ -55,9 +55,8 @@ module.exports = {
       && !document.getElementById("pick-overlay").classList.contains("open")), "klik na názov otvorí detail receptu");
     await zavriOkna(page);
 
-    // v33: „🍸 Môj bar" — Domov ⋯ Viac → okno → zaškrtnúť fľašu → „Chýba 1 vec" + „Čo dokúpiť"
-    await page.click('#v-domov .akcie button:has-text("Viac")');
-    await page.click('#m-dom a:has-text("Môj bar")');
+    // v33: „🍸 Môj bar" — tlačidlo na Domove → okno → zaškrtnúť fľašu → „Chýba 1 vec" + „Čo dokúpiť"
+    await page.click('#bar-dom');
     await page.check('#bar-zoz input[data-bar="limoncello"]');
     const bar = await page.evaluate(() => ({
       nadpisy: [...document.querySelectorAll("#bar-out h3")].map((h) => h.textContent).join(" | "),

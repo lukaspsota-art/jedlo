@@ -8,7 +8,7 @@
  "porcie": 4,
  "cas": "20 min",
  "kcal_na_porciu": 320,
- "popis": "Klasický blízkovýchodný šalát z bulguru s množstvom petržlenovej vňate a mäty. Skvelý k rybe aj ku grilovanému mäsu.",
+ "popis": "Klasický blízkovýchodný šalát z kuskusu s množstvom petržlenovej vňate a mäty. Skvelý k rybe aj ku grilovanému mäsu.",
  "ingrediencie": [
   {
    "nazov": "Kuskus",
@@ -31,20 +31,20 @@
   {
    "nazov": "Jarná cibuľka",
    "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": "bunch na plátky"
+   "jednotka": "zväzok",
+   "poznamka": "na plátky"
   },
   {
    "nazov": "Petržlenová vňať",
-   "mnozstvo": 2,
-   "jednotka": "ks",
-   "poznamka": "x 20g packs čerstvá"
+   "mnozstvo": 40,
+   "jednotka": "g",
+   "poznamka": "čerstvá"
   },
   {
    "nazov": "Citrón",
-   "mnozstvo": null,
-   "jednotka": "podľa chuti",
-   "poznamka": "nastrúhaná zest of a"
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "nastrúhaná kôra"
   },
   {
    "nazov": "Olivový olej",
@@ -61,8 +61,8 @@
   {
    "nazov": "Cesnak",
    "mnozstvo": 1,
-   "jednotka": "ks",
-   "poznamka": "drvená clove"
+   "jednotka": "strúčik",
+   "poznamka": "roztlačený"
   }
  ],
  "postup": [

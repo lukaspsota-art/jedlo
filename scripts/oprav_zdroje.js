@@ -19,8 +19,8 @@ const ZDROJE = {
   "cacio-e-pepe": ["BBC Good Food – Cacio e pepe", "https://www.bbcgoodfood.com/recipes/cacio-e-pepe"],
   // kanonické jedlo, povolenú predlohu som nenašiel → pravdivý, nie vymyslený zdroj
   // (do 4. 10. 2026 „Vlastná zostava (…)" — v Nastaveniach to bola druhá rodina vlastných receptov)
-  "thai-basil-pork": ["Kuchárka Jedlo — vlastný recept", ""],
-  "bageta-udena-sunka-gouda": ["Kuchárka Jedlo — vlastný recept", ""],
+  "thai-basil-pork": ["Jedlo — návrh (neoverený)", ""],
+  "bageta-udena-sunka-gouda": ["Jedlo — návrh (neoverený)", ""],
 };
 
 // zdroj „internet (@handle)“ → odkaz na profil, aby atribúcia viedla niekam

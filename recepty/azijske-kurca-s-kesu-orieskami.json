@@ -8,7 +8,7 @@
  "porcie": 4,
  "cas": "30 min",
  "kcal_na_porciu": 446,
- "popis": "Sýte mäsité hlavné jedlo. Základ: prsia kuracie, vajcia, kukuričná múka. Robí sa na panvici. Navariť sa dá dopredu na celý blok.",
+ "popis": "Sýte mäsité hlavné jedlo. Základ: prsia kuracie, vajcia, kukuričná múka. Robí sa na panvici.",
  "ingrediencie": [
   {
    "nazov": "Prsia kuracie",
@@ -69,6 +69,12 @@
    "mnozstvo": 4,
    "jednotka": "PL",
    "poznamka": ""
+  },
+  {
+   "nazov": "Olej",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na opraženie"
   }
  ],
  "postup": [

@@ -7,7 +7,7 @@
   "zdroj_url": "https://varecha.pravda.sk/recepty/cestoviny-quattro-duo-formaggi-z-dvoch-druhov-syra-/28591-recept.html",
   "porcie": 5,
   "cas": "30 min",
-  "kcal_na_porciu": 438,
+  "kcal_na_porciu": 718,
   "ingrediencie": [
     {
       "nazov": "Syr Cheddar",
@@ -80,6 +80,12 @@
       "mnozstvo": null,
       "jednotka": "podľa chuti",
       "poznamka": ""
+    },
+    {
+      "nazov": "Špagety",
+      "mnozstvo": 400,
+      "jednotka": "g",
+      "poznamka": ""
     }
   ],
   "postup": [
@@ -94,7 +100,6 @@
   "tagy": [
     "cestoviny",
     "talianske",
-    "syr",
-    "vegetariánske"
+    "syr"
   ]
 }

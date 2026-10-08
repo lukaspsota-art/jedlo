@@ -8,7 +8,7 @@
  "porcie": 13,
  "cas": "20 min",
  "kcal_na_porciu": 165,
- "popis": "Ľahká dusená mrkva a brokolica na masle.",
+ "popis": "Domáca kysnutá varená knedľa z polohrubej múky.",
  "ingrediencie": [
   {
    "nazov": "Teplé mlieko",
@@ -45,6 +45,12 @@
    "mnozstvo": 1,
    "jednotka": "ks",
    "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 10,
+   "jednotka": "g",
+   "poznamka": "na potretie"
   }
  ],
  "postup": [

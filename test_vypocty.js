@@ -309,15 +309,15 @@ ok("TDEE: vek −5, výška 0, váha 5000 kg nedá 79 240 kcal/deň, ale cieľ v
   Object.keys(pole).forEach(id => { a.document.getElementById(id).value = pole[id]; });
   a.vypocitajCiel();
   const k = a.S.profil.stravnici[0].kcal;
-  assert.ok(k >= 800 && k <= 5000, "cieľ " + k + " kcal/deň");
+  assert.ok(k >= 1000 && k <= 5000, "cieľ " + k + " kcal/deň");
   assert.strictEqual(a.document.getElementById("t-vek").value, 10, "pole veku neukazuje opravenú hodnotu");
   assert.ok(toasty.some(t => /vek 10/.test(t) && /výška \(cm\) 100/.test(t) && /váha \(kg\) 250/.test(t)), "toast: " + toasty.join(" | "));
 });
-ok("kcal stravníka: −500 → 800 a 99 999 → 5000, nie potichu", () => {
+ok("kcal stravníka: −500 → 1000 (v34) a 99 999 → 5000, nie potichu", () => {
   const a = load({ stav: { profil: { stravnici: [{ nazov: "Ja", kcal: 1450 }] } } });
   const toasty = []; a.toast = m => toasty.push(m);
   a.zmenStravnika(0, "kcal", "-500");
-  assert.strictEqual(a.S.profil.stravnici[0].kcal, 800);
+  assert.strictEqual(a.S.profil.stravnici[0].kcal, 1000);
   a.zmenStravnika(0, "kcal", "99999");
   assert.strictEqual(a.S.profil.stravnici[0].kcal, 5000);
   assert.strictEqual(toasty.length, 2, "toasty: " + toasty.join(" | "));

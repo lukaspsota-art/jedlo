@@ -99,7 +99,8 @@ module.exports = {
       polozky: [...document.querySelectorAll("#pick-modal .plan-cell .nm")].map((x) => x.textContent.trim()),
     }));
     await t.ok(viac.otvorene, "„⋯ Viac“ na spodnej lište otvorí panel");
-    await t.ok(viac.polozky.length === 3, `panel „Viac“ obsahuje Výživa/Špajza/Nastavenia (${viac.polozky.join(", ")})`, JSON.stringify(viac));
+    // v33: pribudol „🍸 Môj bar“
+    await t.ok(["Výživa","Špajza","Nastavenia"].every(x=>viac.polozky.some(p=>p.includes(x))) && viac.polozky.length === 4, `panel „Viac“ obsahuje Výživa/Špajza/Nastavenia/Môj bar (${viac.polozky.join(", ")})`, JSON.stringify(viac));
     await m.locator("#pick-modal .plan-cell", { hasText: "Špajza" }).click();
     await m.waitForTimeout(250);
     await t.ok(await m.evaluate(() => document.getElementById("v-spajza").classList.contains("active")),
@@ -154,7 +155,8 @@ module.exports = {
     }));
     await t.ok(po.fbody !== "none" && /f-open/.test(po.trieda), "prepniFiltre() odomkne filtre", JSON.stringify(po));
     await t.ok(po.aria === "true", "aria-expanded sa aktualizuje", JSON.stringify(po));
-    await t.ok(po.selektov === 4, `všetky 4 selecty sú po odomknutí viditeľné (${po.selektov})`, JSON.stringify(po));
+    // v33: pribudol filter zdrojov #f-zdroj
+    await t.ok(po.selektov === 5, `všetkých 5 selectov je po odomknutí viditeľných (${po.selektov})`, JSON.stringify(po));
     // #f-cnt musí byť viditeľné aj so zbalenými filtrami
     await m.selectOption("#f-cas", "20");
     await m.evaluate(() => window.renderGrid());
@@ -211,7 +213,7 @@ module.exports = {
     await t.ok(planM.jedal >= 9 && planM.jedal <= 16, `celý týždeň je ${planM.jedal} jedál na jedno skrolovanie (bolo 28 buniek za 7 klikmi)`, JSON.stringify(planM));
     await t.ok(planM.znova === 3 && planM.znovaMin >= 44, `každý blok má 🎲 znova a dosahuje 44 px (${planM.znovaMin} px)`, JSON.stringify(planM));
     await t.ok(planM.bunkaW > 150, `bunka s jedlom je použiteľne široká (${planM.bunkaW} px, kedysi 16 px)`, JSON.stringify(planM));
-    await t.ok(planM.akcii === 2, "bunka plánu má na mobile 2 akcie", planM.akcii);
+    await t.ok(planM.akcii === 1, "bunka plánu má na mobile jedinú mini-akciu „⋯ viac“ (+ 🎲 pri názve)", planM.akcii);
     await t.ok(planM.slot.length > 2, `menovka jedla je v karte, nie vo vlastnom stĺpci (.pc-slot = „${planM.slot}")`, JSON.stringify(planM));
     await t.ok(planM.pcData === "block", "bielkoviny sú v bunke aj mimo Kompaktu", JSON.stringify(planM));
     await t.ok(planM.jedenRiadok <= 6, `kcal a bielkoviny sú v bunke v jednom riadku (posun ${planM.jedenRiadok} px; bunka ${planM.bunkaH} px, bolo 143–156)`, JSON.stringify(planM));
@@ -312,7 +314,7 @@ module.exports = {
     // max(44px, var(--cil-in)) — text v bunke plánu, odkazy-tlačidlá — v ňom klesnú
     // pod dokumentovanú podlahu 24 px, ak im niekto vezme min-height (napr. inline
     // štýlom z app.js, ktorý sa selektorom prebiť nedá). Preto sa meria každý režim.
-    const REZIMY_T = ["kompakt", "plan", "obchod", "kuchyna"];
+    const REZIMY_T = ["plan", "obchod"]; // v34: dva režimy (Normálne / Veľké písmo); Kompakt a Kuchyňa sa migrujú
     const nadPrehybom = {};
     for (const r of REZIMY_T) {
       await m.evaluate((x) => nastavRezim(x), r);
@@ -331,11 +333,9 @@ module.exports = {
       nadPrehybom[r] = await m.evaluate(() => [...document.querySelectorAll("#nakup-list .nak-row")]
         .filter((e) => { const b = e.getBoundingClientRect(); return b.height > 0 && b.bottom <= 780; }).length);
     }
-    t.metrika("položiek nákupu nad prehybom (kompakt/plan/obchod/kuchyna)",
+    t.metrika("položiek nákupu nad prehybom (normálne/veľké)",
       REZIMY_T.map((r) => nadPrehybom[r]).join(" / "));
-    // dôvod existencie režimu Kompakt: na 393 px ukáže viac obsahu než Plánovanie
-    await t.ok(nadPrehybom.kompakt > nadPrehybom.plan,
-      "Kompakt ukáže nad prehybom viac položiek nákupu než Plánovanie", JSON.stringify(nadPrehybom));
+    await t.ok(nadPrehybom.plan >= 1 && nadPrehybom.obchod >= 1, "v oboch režimoch je nad prehybom aspoň jedna položka nákupu", JSON.stringify(nadPrehybom));
     await m.evaluate(() => nastavRezim("plan"));
     await m.waitForTimeout(200);
 

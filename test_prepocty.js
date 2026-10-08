@@ -19,8 +19,8 @@ const baklazan = { kluc: "baklažán", g_za_ks: 250 };
 const fPocet = 1.5, fVelkost = 0.7; // 1,5× porcií, veľkosť porcie 70 % (kcal brzda)
 
 // kusy: % veľkosti porcie sa neuplatní ani v detaile receptu, ani v nákupe
-assert.strictEqual(skalovanaHodnota(2, "ks", fPocet, fVelkost), 3);
-assert.strictEqual(gramy({ mnozstvo: skalovanaHodnota(2, "ks", fPocet, fVelkost), jednotka: "ks" }, baklazan), 750);
+assert.ok(Math.abs(skalovanaHodnota(2, "ks", fPocet, fVelkost) - 2.1) < 1e-9); // v34: kusy aj veľkosťou porcie
+assert.ok(Math.abs(gramy({ mnozstvo: skalovanaHodnota(2, "ks", fPocet, fVelkost), jednotka: "ks" }, baklazan) - 525) < 1e-6);
 
 // gramy/ml: % veľkosti porcie sa uplatní
 assert.ok(Math.abs(skalovanaHodnota(200, "g", fPocet, fVelkost) - 210) < 1e-9);

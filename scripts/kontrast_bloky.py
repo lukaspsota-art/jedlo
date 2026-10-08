@@ -55,6 +55,7 @@ PARY = [
     ("signal", "zem", AA_TEXT), ("signal", "doska", AA_TEXT), ("signal", "tint", AA_TEXT),
     ("zlato", "zem", AA_TEXT), ("zlato", "doska", AA_TEXT), ("zlato", "tint", AA_TEXT),
     ("na-tlaci", "tlac", AA_TEXT),
+    ("na-bloku", "text", AA_TEXT),  # primárne tlačidlo: --akcent-tlac = --text, popis --na-bloku
     # --okraj ohraničuje OVLÁDACIE prvky (tlačidlá, polia, chipy) → 1.4.11 = 3:1.
     # --linka je vlasový oddeľovač, nie ohraničenie ovládania — vypisuje sa informatívne.
     ("okraj", "zem", AA_VELKY), ("okraj", "doska", AA_VELKY), ("okraj", "tint", AA_VELKY),

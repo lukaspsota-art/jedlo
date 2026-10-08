@@ -6,7 +6,7 @@
  "zdroj": "Kaufland FOOD magazín – 5/2026 (s. 86)",
  "porcie": 3,
  "cas": "20 min",
- "kcal_na_porciu": 690,
+ "kcal_na_porciu": 915,
  "kcal_zdroj": "vypocet",
  "popis": "Klasické švajčiarske fondue zo syrov gruyère, appenzeller a ementál rozpustených v bielom víne.",
  "ingrediencie": [
@@ -57,6 +57,12 @@
    "mnozstvo": null,
    "jednotka": "",
    "poznamka": "štipka"
+  },
+  {
+   "nazov": "Bageta",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na namáčanie"
   }
  ],
  "postup": [

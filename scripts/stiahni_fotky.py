@@ -104,14 +104,20 @@ def nacitaj_recepty():
 
 
 # ─────────────────────────── konverzia ───────────────────────────
-def na_webp(bajty):
-    """Orež na 16:9 (stred) a ulož ako WebP. Vráti bajty alebo None."""
+def na_webp(bajty, orez=True):
+    """Orež na 16:9 (stred) a ulož ako WebP. Vráti bajty alebo None.
+    orez=False: celá fotka zmenšená do SIRKA×SIRKA (fotky z kníh, detail ju ukáže celú)."""
     from PIL import Image
     im = Image.open(io.BytesIO(bajty))
     im = im.convert("RGB")
     sw, sh = im.size
     if sw < 200 or sh < 120:
         return None  # príliš malý zdroj, na karte by bol rozmazaný
+    if not orez:
+        im.thumbnail((SIRKA, SIRKA), Image.LANCZOS)
+        buf = io.BytesIO()
+        im.save(buf, "WEBP", quality=KVALITA, method=6)
+        return buf.getvalue()
     s = max(SIRKA / sw, VYSKA / sh)
     im = im.resize((max(SIRKA, int(sw * s + .5)), max(VYSKA, int(sh * s + .5))), Image.LANCZOS)
     l = (im.width - SIRKA) // 2
@@ -150,7 +156,7 @@ def z_thedb(recepty, domena, api, meno, limit):
             "zdroj": meno,
             "zdroj_url": r.get("zdroj_url"),
             "autor": meno,
-            "licencia": meno + " — voľné použitie s uvedením zdroja (AGENTS.md: Credit " + meno + " as the data and image source)",
+            "licencia": meno + " — voľné použitie s uvedením zdroja",
             "licencia_url": f"https://www.{domena}/api.php",
             "obrazok_url": thumb,
         }

@@ -8,7 +8,7 @@
  "porcie": 6,
  "cas": "45 min",
  "kcal_na_porciu": 420,
- "popis": "Klasické francúzske dusené hovädzie na červenom víne so slaninou, hubami a cibuľkami.",
+ "popis": "Zemiakovo-pohánkové šúľance s makom a omáčkou z lesného ovocia na červenom víne.",
  "ingrediencie": [
   {
    "nazov": "Zemiak",
@@ -67,6 +67,12 @@
   {
    "nazov": "Škrob",
    "mnozstvo": 20,
+   "jednotka": "g",
+   "poznamka": ""
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 40,
    "jednotka": "g",
    "poznamka": ""
   }

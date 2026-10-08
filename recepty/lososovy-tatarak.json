@@ -8,7 +8,7 @@
  "porcie": 2,
  "cas": "20 min",
  "kcal_na_porciu": 454,
- "popis": "Sýte mäsité hlavné jedlo. Základ: čerstvý losos, cibuľa, cesnak. Navariť sa dá dopredu na celý blok.",
+ "popis": "Sýte mäsité hlavné jedlo. Základ: čerstvý losos, cibuľa, cesnak.",
  "ingrediencie": [
   {
    "nazov": "Čerstvý losos",
@@ -39,6 +39,12 @@
    "mnozstvo": 3,
    "jednotka": "strúčik",
    "poznamka": ""
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "šťava"
   }
  ],
  "postup": [
@@ -46,7 +52,7 @@
   "Postup: Rybu umyj, odstráň kožu. Začni nožíkom jemne trhať na malé kúsky, potom ešte pre istotu tie natrhané kúsky posekať trošku nožíkom. Cibuľku a cesnak tiež na úplne maličké posekať. Všetko spolu zmiešať v miske (lepšie v nekovovej) dochutiť citrónom a korením.",
   "Trošku nechať v chladničke uležať. Podávaj s hriankou. Mňam! Dobrú chuť."
  ],
- "tipy": "Rybu nesoľ dlho vopred a peč ju krátko. Hotová je, keď sa mäso dá vidličkou ľahko oddeliť.",
+ "tipy": "Tatarák je zo surovej ryby: kupuj čo najčerstvejšieho lososa a zjedz ho v deň prípravy.",
  "foto": "",
  "tagy": [
   "hlavné jedlo",

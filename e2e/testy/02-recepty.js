@@ -114,13 +114,13 @@ module.exports = {
       vp: document.getElementById("vyrobky-prep").hidden }));
     await t.ok(poZruseni.sort === "" && poZruseni.cnt && poZruseni.vp, "„Zrušiť filtre“ vráti aj radenie a výrobky, #f-cnt zhasne", JSON.stringify(poZruseni));
 
-    // ── picker „Aké jedlo?“: za 8 riadkami „Zobraziť všetky (N)“ ────────────
+    // ── picker „Aké jedlo?“: za 30 riadkami „Zobraziť všetky (N)“ ────────────
     await page.evaluate(() => vyberDoPlanu(0, "Obed"));
     await page.fill("#pick-search", "kura");
     await page.waitForTimeout(100);
     const pk = await page.evaluate(() => { const b = document.getElementById("pick-search-results");
       return { riadky: b.querySelectorAll(".plan-cell").length, btn: (b.querySelector("button") || {}).textContent || "" }; });
-    await t.ok(pk.riadky === 8 && /Zobraziť všetky \(\d+\)/.test(pk.btn), "picker ukáže 8 riadkov a „Zobraziť všetky (N)“", JSON.stringify(pk));
+    await t.ok(pk.riadky === 30 && /Zobraziť všetky \(\d+\)/.test(pk.btn), "picker ukáže 30 riadkov a „Zobraziť všetky (N)“", JSON.stringify(pk));
     await page.click("#pick-search-results button");
     const pk2 = await page.evaluate(() => document.querySelectorAll("#pick-search-results .plan-cell").length);
     await t.ok(pk2 === +pk.btn.match(/\d+/)[0], `„Zobraziť všetky“ ukáže všetkých ${pk2}`, pk2);

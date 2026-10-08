@@ -1,14 +1,14 @@
 {
   "id": "majonezovy-a-cibulovy-salat",
-  "nazov": "Majonézový a cibuľový  šalát",
-  "kategoria": "Hlavné jedlo",
+  "nazov": "Majonézový šalát",
+  "kategoria": "Príloha",
   "kuchyna": "Slovenská",
   "zdroj": "Varecha.sk – Majonézový a cibuľový  šalát (fotorecept) (autor: babkamt)",
   "zdroj_url": "https://varecha.pravda.sk/recepty/majonezovy-a-cibulovy-salat-fotorecept/54624-recept.html",
-  "porcie": 13,
+  "porcie": 10,
   "cas": "2 hod",
-  "kcal_na_porciu": 442,
-  "popis": "Recept na dva šaláty pripravované naraz - majonézový a cibuľový.",
+  "kcal_na_porciu": 459,
+  "popis": "Klasický slovenský zemiakový šalát s koreňovou zeleninou, hráškom a majonézou — príloha k rezňu alebo rybe.",
   "ingrediencie": [
     {
       "nazov": "Zemiak",
@@ -99,89 +99,23 @@
       "mnozstvo": 15,
       "jednotka": "g",
       "poznamka": ""
-    },
-    {
-      "nazov": "Zemiak",
-      "mnozstvo": 600,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Cibuľa",
-      "mnozstvo": 4,
-      "jednotka": "ks",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kyslé uhorky",
-      "mnozstvo": 80,
-      "jednotka": "g",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Kryštálový cukor",
-      "mnozstvo": 1,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Soľ",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Čierne mleté korenie",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Slnečnicový olej",
-      "mnozstvo": 2,
-      "jednotka": "PL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Ocot",
-      "mnozstvo": null,
-      "jednotka": "podľa chuti",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Plnotučná horčica",
-      "mnozstvo": 1,
-      "jednotka": "ČL",
-      "poznamka": ""
-    },
-    {
-      "nazov": "Mrkva",
-      "mnozstvo": 1,
-      "jednotka": "ks",
-      "poznamka": ""
     }
   ],
   "postup": [
-    "Zemiaky na obidva šaláty var spolu.",
-    "Očisti si mrkvu, petržlen, zeler. Uvar ich v slanej vode.",
-    "Tri väčšie cibule idú do cibuľového šalátu, množstvo cibule uprav podľa chuti. Menšia ide do majonézového - nadrobno nakrájaná.",
-    "Na cibuľový šalát daj variť deci vody, pridaj do nej cukor, ocot. a soľ. Nechaj ho zovrieť.",
-    "Horúci nálev nalej na 3 nakrájané cibule. Zakry misku, aby sa cibuľa sparila.",
-    "Pridaj k nej jednu kyslú uhorku, nakrájaj do nálevu zemiaky a jednu mrkvu. Nakoniec pridaj ešte mleté čierne korenie, 2 pl oleja a soľ. Šalát zamiešaj a nechaj ho vychladnúť. Kým spravíš cibuľový šalát, varená zelenina vychladne.",
-    "Na majonézový šalát začni krájať očistené zemiaky na malé kocky.",
-    "Zostáva nakrájať už len trochu zeleniny.",
-    "Pri krájaní pomôže osvedčený kuchynský pomocník.",
-    "Hrášok spar a nechaj okvapkať a vychladnúť.",
-    "V druhej miske zmiešaj majonézu s kyslou smotanou. Pridaj cukor, soľ, mleté biele korenie a trochu nálevu zo zaváraných uhoriek, pár kvapiek worchestrovej omáčky. Ochutenú majonézu zamiešaj do zeleniny. Podľa potreby šalát ešte ochuť.",
-    "Ak trochu šalátu zostane od obeda, na druhý deň sprav poobede ruské vajcia.",
-    "Tak sa pohraj.",
-    "a za chvíľku máš na stole niečo iné. Trochu majonézy odober, rozmiešaj s kyslou smotanou a polej vajíčko na šaláte."
+    "Zemiaky uvar v šupke do mäkka, nechaj vychladnúť a ošúp.",
+    "Očisti mrkvu, petržlen a zeler a uvar ich v osolenej vode do mäkka; nechaj vychladnúť.",
+    "Hrášok spar, nechaj okvapkať a vychladnúť.",
+    "Zemiaky, koreňovú zeleninu a uhorky nakrájaj na malé kocky, cibuľku nadrobno.",
+    "V miske zmiešaj majonézu s kyslou smotanou a horčicou. Pridaj cukor, soľ, mleté biele korenie, citrónovú šťavu, trochu nálevu zo zaváraných uhoriek a pár kvapiek worcesterskej omáčky.",
+    "Ochutenú majonézu zamiešaj do zeleniny, podľa potreby dochuť a nechaj odležať v chladničke."
   ],
-  "tipy": "Šťavu vytlač až tesne pred použitím a nezabudni na kôru — väčšina arómy je v nej, nie v šťave.",
+  "tipy": "Šalát nechaj v chladničke odležať aspoň hodinu, najlepší je na druhý deň.",
   "foto": "",
   "tagy": [
-    "hlavné jedlo",
+    "príloha",
+    "šalát",
     "zemiaky",
-    "bezmäsité"
-  ]
+    "tradičné"
+  ],
+  "kcal_zdroj": "vypocet"
 }

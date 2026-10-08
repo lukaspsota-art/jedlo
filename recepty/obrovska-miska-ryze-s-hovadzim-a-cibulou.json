@@ -5,8 +5,8 @@
  "kuchyna": "Japonská",
  "zdroj": "Persona: The Official Cookbook – Rainy Day Special Mega Beef Bowl",
  "porcie": 8,
- "cas": "20 min",
- "kcal_na_porciu": 853,
+ "cas": "30 min",
+ "kcal_na_porciu": 850,
  "kcal_zdroj": "vypocet",
  "popis": "Gyudon v rozmere výzvy z hry: tenké plátky hovädzieho dusené s cibuľou v sladkom vývare so sójou a mirinom, navrstvené na ryži a korunované volským okom.",
  "hlavna_surovina": "Hovädzie mäso",
@@ -14,39 +14,39 @@
  "ingrediencie": [
   {
    "nazov": "Dashi",
-   "mnozstvo": 960,
+   "mnozstvo": 640,
    "jednotka": "ml",
    "poznamka": "japonský vývar dashi, recept z knihy"
   },
   {
    "nazov": "Ryžové víno sake",
-   "mnozstvo": 360,
-   "jednotka": "ml"
-  },
-  {
-   "nazov": "Sójová omáčka",
-   "mnozstvo": 360,
-   "jednotka": "ml"
-  },
-  {
-   "nazov": "Mirin",
    "mnozstvo": 240,
    "jednotka": "ml"
   },
   {
+   "nazov": "Sójová omáčka",
+   "mnozstvo": 240,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Mirin",
+   "mnozstvo": 160,
+   "jednotka": "ml"
+  },
+  {
    "nazov": "Cukor",
-   "mnozstvo": 100,
+   "mnozstvo": 70,
    "jednotka": "g"
   },
   {
    "nazov": "Cibuľa",
-   "mnozstvo": 3,
+   "mnozstvo": 2,
    "jednotka": "ks",
    "poznamka": "veľká, na tenké plátky"
   },
   {
    "nazov": "Hovädzia roštenka",
-   "mnozstvo": 1814,
+   "mnozstvo": 1200,
    "jednotka": "g",
    "poznamka": "veľmi tenké plátky (ribeye)"
   },
@@ -58,26 +58,26 @@
   },
   {
    "nazov": "Sezamový olej",
-   "mnozstvo": 1,
+   "mnozstvo": 2,
    "jednotka": "PL",
-   "poznamka": "na vajce"
+   "poznamka": "na vajcia"
   },
   {
    "nazov": "Vajce",
-   "mnozstvo": 1,
+   "mnozstvo": 8,
    "jednotka": "ks"
   },
   {
    "nazov": "Soľ",
    "mnozstvo": null,
    "jednotka": "podľa chuti",
-   "poznamka": "štipka na vajce"
+   "poznamka": "štipka na vajcia"
   },
   {
    "nazov": "Ryža",
-   "mnozstvo": 400,
+   "mnozstvo": 640,
    "jednotka": "g",
-   "poznamka": "guľatozrnná biela, uvarená (asi 1,1 kg uvarenej)"
+   "poznamka": "guľatozrnná biela, 80 g na porciu"
   },
   {
    "nazov": "Shichimi togarashi",
@@ -90,8 +90,8 @@
   "Vo veľmi veľkej panvici zmiešaj dashi, sake, sójovú omáčku, mirin a cukor. Na silnom ohni priveď do varu a miešaj, kým sa cukor nerozpustí a nevyprchá alkohol.",
   "Pridaj cibuľu, nechaj znova zovrieť, stíš oheň a za občasného miešania var asi 10 minút, kým cibuľa nezmäkne a nesklovatie.",
   "Plátky mäsa rozlož rovnomerne na cibuľu, zvýš oheň a priveď do varu. Zober penu, stíš oheň, prikry a duste 5–7 minút, kým mäso nie je prepečené a šťava sa trochu nezredukuje.",
-  "Vmiešaj nastrúhaný zázvor, odstav a nechaj prikryté. Na malej panvici rozohrej olej, rozbi do neho vajce, osoľ, prikry a smaž 2 minúty, kým bielok nestuhne; odkry a smaž ešte minútu.",
-  "Ryžu nalož do veľkej misy, navrch kopcom navrstvi mäso s cibuľou a podľa chuti prilej šťavu. Polož volské oko, posyp shichimi togarashi a podávaj."
+  "Vmiešaj nastrúhaný zázvor, odstav a nechaj prikryté. Na panvici rozohrej olej, rozbi do nej vajcia (podľa veľkosti panvice po dávkach), osoľ, prikry a smaž 2 minúty, kým bielok nestuhne; odkry a smaž ešte minútu.",
+  "Ryžu rozdeľ do 8 misiek, navrch navrstvi mäso s cibuľou a podľa chuti prilej šťavu. Na každú misku polož volské oko, posyp shichimi togarashi a podávaj."
  ],
  "tipy": "",
  "foto": "",

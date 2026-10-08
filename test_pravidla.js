@@ -419,6 +419,29 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
   // ── D8: pravidlá musia platiť aj pri NEŠTANDARDNOM rozvrhu ────────────────
   // Používateľ si rozvrh prestavuje (2 bloky, 4 bloky, jeden blok cez celý týždeň).
   // Doménové pravidlá batch cookingu sa tým nesmú rozsypať.
+  nadpis("\nD9 — veľkosť porcie má každé jedlo zvlášť (v34)");
+  {
+    let dni = 0, vPasme = 0, rozne = 0, snackIne = 0, mimoMedzi = 0, dopytZle = 0;
+    for (const seed of SEEDS.slice(0, 3)) {
+      const a = novy(seed, { profil: { osoby: 2, kcal: 2500, stravnici: [{ nazov: "A", kcal: 2500 }, { nazov: "B", kcal: 1800 }] } });
+      await a.generujJedalnicek(true);
+      for (let di = 0; di < 7; di++) { const sl = a.slotyDna(di).filter(s => a.slotIds(di, s).length); if (!sl.length) continue; dni++;
+        const k = sl.reduce((x, s) => x + a.mealKcal(a.slotIds(di, s)) * a.pf(di, s), 0);
+        if (Math.abs(k / 2500 - 1) <= 0.1) vPasme++;
+        const fs = new Set(sl.filter(s => s !== "Snack").map(s => a.pf(di, s))); if (fs.size > 1) rozne++;
+        if (sl.includes("Snack") && a.pf(di, "Snack") !== 1) snackIne++;
+        sl.forEach(s => { const f = a.pf(di, s); if (f < a.FAKTOR_SLOT_MIN - 1e-9 || f > a.FAKTOR_SLOT_MAX + 1e-9) mimoMedzi++; });
+        // navarené množstvo dňa = dopyt domácnosti (4300 kcal), aj keď majú jedlá rôzne faktory
+        const nav = sl.reduce((x, s) => x + a.mealKcal(a.slotIds(di, s)) * a.pocetPorciiDna(di, s) * a.pf(di, s), 0);
+        if (Math.abs(nav / 4300 - 1) > 0.02) dopytZle++; }
+    }
+    ok(`2500 kcal: deň v ±10 % cieľa (${vPasme}/${dni})`, () => assert.strictEqual(vPasme, dni));
+    ok(`jedlá dňa majú rôzne veľkosti porcie aspoň niekde (${rozne}/${dni} dní)`, () => assert.ok(rozne > 0));
+    ok(`snack (kúpené balenie) sa neškáluje (${snackIne})`, () => assert.strictEqual(snackIne, 0));
+    ok(`faktor jedla je v 70–150 % (${mimoMedzi} mimo)`, () => assert.strictEqual(mimoMedzi, 0));
+    ok(`navarené množstvo dňa = dopyt domácnosti (${dopytZle} dní mimo ±2 %)`, () => assert.strictEqual(dopytZle, 0));
+  }
+
   nadpis("\nD8 — neštandardné rozdelenie blokov (2 / 4 / 1 blok)");
   const ROZVRHY_TEST = [
     { meno: "2 bloky (Po–St, Št–Ne)", hranice: [true, false, false, true, false, false, false], ocak: "[[0,1,2],[3,4,5,6]]" },
@@ -640,7 +663,8 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
         if ((s === "Obed" || s === "Večera") && a.kcalPorcia(r) < a.MIN_KCAL_HLAVNY) pod300++;
         if (s === "Raňajky") { const bazy = bl.map(b => a.ranajkyBaza(a.komponent(a.slotIds(b[0], "Raňajky")[0]))); if (new Set(bazy).size < bazy.length) bazaDupl++; }
         if (s === "Snack" && a.snackDoplnok(r)) { snackTreba++; if (a.slotIds(dni[0], s).length < 2) snackBez++; }
-        if (Math.abs(a.baseDayKcal(dni[0]) * a.pf(dni[0], s) / CIEL - 1) > 0.15) mimo++;
+        // v34: faktor má každé jedlo zvlášť — deň = súčet jedál, každé so svojím faktorom
+        if (Math.abs(a.slotyDna(dni[0]).reduce((x, sl) => x + kSlot(a, dni[0], sl), 0) / CIEL - 1) > 0.15) mimo++;
       }
       a.S.plan = JSON.parse(snap); a.S.planF = JSON.parse(snapF);
       for (let bi = 0; bi < bl.length; bi++) { a.regenerujBlok(bi); bl[bi].forEach(di => { blokDni++; if (!poradieOk(a, di)) blokZle++; }); }

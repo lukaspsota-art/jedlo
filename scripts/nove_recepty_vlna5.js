@@ -12,7 +12,7 @@ const { load } = require("../test_harness");
 const DRY = process.argv.includes("--dry");
 const DIR = path.join(__dirname, "..", "recepty");
 // bez „(vlna 5: …)" — pole zdroj číta používateľ v detaile receptu (audit 30. 9. 2026)
-const ZDROJ = "Kuchárka Jedlo — vlastný recept";
+const ZDROJ = "Jedlo — návrh (neoverený)"; // = ZDROJ_NAVRH v app.js (polovičná váha v generátore, kým nie je ohodnotený)
 
 // i(nazov, mnozstvo, jednotka, poznamka)
 const i = (nazov, mnozstvo, jednotka, poznamka) => ({ nazov, mnozstvo, jednotka, poznamka: poznamka || "" });

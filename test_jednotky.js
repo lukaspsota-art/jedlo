@@ -157,10 +157,10 @@ ok("mnozstvo:null je vždy 0 g, nikdy NaN", () => {
 });
 
 nadpis("\nJ4 — nedeliteľné jednotky sa zaokrúhľujú na celé");
-ok("skalovanaHodnota nedeliteľnú jednotku neškáluje faktorom veľkosti porcie", () => {
-  // kus/plátok/rožok: 2 porcie × 85 % nesmie dať 1,7 vajca — faktor veľkosti sa naň neuplatní
+ok("v34: skalovanaHodnota škáluje aj kusy veľkosťou porcie (zaokrúhľuje sa až pri zobrazení a v nákupe)", () => {
+  // kuchár 2. kolo: pri faktore 1,25 ostali 4 prsia, kalórie rátali s piatimi
   app.NEDELITELNE_JEDNOTKY.forEach(j => {
-    assert.strictEqual(app.skalovanaHodnota(2, j, 2, 0.85), 4, j);
+    assert.ok(Math.abs(app.skalovanaHodnota(2, j, 2, 1.25) - 5) < 1e-9, j);
   });
   assert.ok(Math.abs(app.skalovanaHodnota(100, "g", 2, 0.85) - 170) < 1e-9, "gramy sa škálujú oboma faktormi");
 });

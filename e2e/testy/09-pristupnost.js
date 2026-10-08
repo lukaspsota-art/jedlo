@@ -192,7 +192,7 @@ module.exports = {
         naplnenych: napl.length,
         prazdnych: prazd.length,
         prazdneNedosiahnutelne: prazd.filter((c) => !dosiahnutelny(c)).length,
-        akcieNedosiahnutelne: [...document.querySelectorAll("#plan-table .rm, #plan-table .kc, #plan-table .mchip, #plan-table .plan-varenia")].filter((e) => !dosiahnutelny(e)).length,
+        akcieNedosiahnutelne: [...document.querySelectorAll("#plan-table .rm, #plan-table .mchip, #plan-table .plan-varenia")].filter((e) => !dosiahnutelny(e)).length,
         klikBezKlavesnice: [...document.querySelectorAll("#plan-table [onclick]")].filter((e) => !dosiahnutelny(e)).length,
       };
     });
@@ -334,7 +334,7 @@ module.exports = {
     await a.keyboard.press("Enter");
     await a.waitForTimeout(150);
     const fav = await a.evaluate(() => ({ cls: document.activeElement.className, ap: document.activeElement.getAttribute("aria-pressed") }));
-    await t.ok(fav.cls === "fav" && fav.ap === "mixed", "★ na karte: fokus ostane na hviezde a hlási nový stav", JSON.stringify(fav));
+    await t.ok(/^fav( puk)?$/.test(fav.cls) && fav.ap === "mixed", /* v34: „puk" = krátka animácia */ "★ na karte: fokus ostane na hviezde a hlási nový stav", JSON.stringify(fav));
     await a.evaluate(() => document.querySelectorAll("#chips .chip")[2].focus());
     await a.keyboard.press(" ");
     await a.waitForTimeout(250);

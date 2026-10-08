@@ -459,7 +459,8 @@ ok("zakázané „zeler“ neblokuje zeleninu, „mäso“ maslo — pravé zhod
   assert.ok(!skus("kura", "Kurkuma") && skus("kura", "Kurča celé"), "kura");
   // na reálnych dátach: zeler neblokuje nič bez zeleru/celeru (do v33 443 receptov, z toho 344 len cez zeleninu)
   app.S.profil.zakazane = "zeler";
-  const zle = app.RECEPTY.filter(r => app.zakazaneChyta(r) && !/zeler|celer/.test(app.bezDia(textReceptu(r))));
+  // od 8. 10. platí aj alergén zeler (vývar, Vegeta, bujón) — to je pre alergika správne, chybou je len zelenina
+  const zle = app.RECEPTY.filter(r => app.zakazaneChyta(r) && !/zeler|celer/.test(app.bezDia(textReceptu(r))) && !app.alergenyReceptu(r).includes("zeler"));
   app.S.profil.zakazane = "";
   assert.strictEqual(zle.length, 0, "zeler zablokoval: " + zle.slice(0, 3).map(r => r.nazov).join(", "));
 });
@@ -509,12 +510,12 @@ ok("prázdny výsledok: rada, skutočný <button> a priznanie vypnutých zdrojov
   assert.ok(/\d+ recept(y|ov)? (je|sú) vo vypnutých zdrojoch/.test(em), "nepriznal vypnutý zdroj: " + em);
   assert.ok(/menej slov/.test(em), "chýba rada");
 });
-ok("picker „Aké jedlo?“ za 8 riadkami ponúkne „Zobraziť všetky (N)“", () => {
+ok("picker „Aké jedlo?“ za 30 riadkami ponúkne „Zobraziť všetky (N)“", () => {
   const app = novy();
   app.pickSearchInput("kura");
   const box = app.document.getElementById("pick-search-results");
   const n = (box.innerHTML.match(/class="plan-cell"/g) || []).length, m = box.innerHTML.match(/Zobraziť všetky \((\d+)\)/);
-  assert.ok(n === 8 && m && +m[1] > 100, `riadkov ${n}, tlačidlo ${m && m[0]}`);
+  assert.ok(n === 30 && m && +m[1] > 100, `riadkov ${n}, tlačidlo ${m && m[0]}`);
   app.pickSearchInput("kura", true);
   assert.strictEqual((box.innerHTML.match(/class="plan-cell"/g) || []).length, +m[1], "„Zobraziť všetky“ neukázalo všetky");
 });
@@ -751,7 +752,7 @@ ok("radenie: menej chýbajúcich vyššie, pri zhode viac využitých surovín",
 ok("„+ do nákupu“ pridá len to, čo naozaj chýba (bez soli a korenia)", () => {
   const app = novy();
   vloz(app, receptDoma("doma-2"));
-  app.S.mamDoma = "vajce"; app.S.nakupManual = [];
+  app.S.domaNakup = "vajce"; app.S.nakupManual = []; // v34: jeden zoznam „mám doma"
   app.pridajChybajuceDoNakupu("doma-2");
   assert.deepStrictEqual(app.S.nakupManual.map(m => m.nazov), ["Syr"]);
 });
@@ -919,7 +920,7 @@ ok("bunka: kcal a B v jednom riadku, ručné porcie viditeľné, 🔒 namiesto �
   await app.generujJedalnicek(true);
   app.S.slotPpl[app.datumPre(2)] = { Obed: 3 };
   let h = app.planBunka(2, "Obed");
-  assert.ok(/<span class="pc-riadok"><button class="kc pc-btn"[^]*?<\/button><span class="pc-data">B \d+ g · 👥 3 porcie<\/span><\/span>/.test(h),
+  assert.ok(/<span class="pc-riadok"><span class="kc">[^<]*<\/span><span class="pc-data">\d+ g bielk\. · 👥 3 porcie<\/span><\/span>/.test(h),
     "kcal, bielkoviny a porcie nie sú v jednom riadku: " + h);
   assert.ok(h.includes("pc-znova") && !h.includes("pc-zamok"), "nezamknuté jedlo nemá 🎲");
   app.prepniZamok(2, "Obed");
@@ -964,7 +965,7 @@ ok("karta bloku: „varíš v nedeľu večer“; prvý deň „preč“ nie je p
   app.S.planF[app.datumPre(3)] = { Raňajky: 1.15, Obed: 1.15, Večera: 1.15, Snack: 1.15 };
   app.renderPlanBloky(SL, 1450);
   h = app.document.getElementById("plan-bloky").innerHTML;
-  assert.ok((h.match(/bk-vynimka/g) || []).length >= 2 && /porcie 115 %/.test(h), "variant s inou porciou sa neukázal");
+  assert.ok((h.match(/bk-vynimka/g) || []).length >= 2 && /väčšia porcia/.test(h), "variant s inou porciou sa neukázal");
   const b = novy();
   b.S.tyzdenProfil = { [PONDELOK]: { ludia: null, prec: [0] } };
   await b.generujJedalnicek(true);
@@ -1050,7 +1051,7 @@ ok("varenie ukáže pri kroku aj množstvá surovín a posledný krok je „✓ 
   app.document.getElementById("cook").style.setProperty = () => {};
   app.otvor(r.id); await app.spustiCook();
   const i = (r.postup || []).findIndex(k => app.krokHint(k, 1, 1, r));
-  vmB4.runInContext("cookKrok=" + i + "; ukazKrok();", app);
+  vmB4.runInContext("cookKrok=" + (i + 1) + "; ukazKrok();", app); // v34: krok 0 je „🧺 Priprav si"
   assert.ok(/krok-mn/.test(app.document.getElementById("cook-mn").innerHTML), "pri kroku chýbajú množstvá");
   vmB4.runInContext("cookKrok=cookKroky.length-1; ukazKrok();", app);
   assert.strictEqual(app.document.getElementById("cook-dalej").textContent, "✓ Hotovo");
@@ -1121,6 +1122,66 @@ ok("S.bar prežije poškodený stav a názov suroviny sa v okne escapuje", () =>
   app.otvorBar();
   const h = app.document.getElementById("bar-zoz").innerHTML;
   assert.ok(h.includes("&lt;img") && !h.includes("<img"), "XSS cez názov suroviny");
+});
+ok("tlačidlo na Domove hovorí, koľko drinkov namiešaš hneď; prázdny bar = len pozvánka", () => {
+  const app = novy(), r = vloz(app, kokteil("t-mojito", MOJITO)), b = app.document.getElementById("bar-dom");
+  app.renderBarDom(); assert.strictEqual(b.textContent, "🍸 Môj bar — čo namiešam");
+  app.S.bar = app._barSuroviny(r).join("|"); app.renderBarDom();
+  assert.match(b.textContent, /namiešaš \d+ kokteil/);
+});
+
+console.log("\nv34 — typ stravníka a vegetarián v zmiešanej domácnosti");
+ok("dieťa v domácnosti: generátor nevidí alkohol, tatarák ani kávu; Recepty ich ďalej majú", () => {
+  const app = novy({ stravnici: [{ nazov: "A", kcal: 2000 }, { nazov: "Malý", kcal: 1400, typ: "dieta" }] });
+  const u = app.genUniverzum();
+  assert.ok(u.length > 500, "univerzum sa zrútilo: " + u.length);
+  assert.strictEqual(u.filter(r => app.nevhodneCitlivym(r)).length, 0);
+  assert.ok(app.RECEPTY.some(r => /tatar/i.test(app.bezDia(r.nazov)) && app.prejdeProfil(r)), "tatarák zmizol aj z Receptov");
+  assert.ok(!app.nevhodneCitlivym({ id: "t-zem", nazov: "Placky", ingrediencie: [{ nazov: "Korenie na pečené zemiaky" }] }), "„pečené“ ≠ pečeň");
+});
+ok("vegetarián medzi mäsožravcami: mäso v nákupe × (1 − podiel), za zvyšok tofu; plán to povie", () => {
+  const app = novy({ stravnici: [{ nazov: "Otec", kcal: 2000 }, { nazov: "Mama", kcal: 2000, veg: true }] });
+  assert.ok(Math.abs(app.vegPodiel() - 0.5) < 1e-9);
+  const r = { id: "t-gul", nazov: "Guláš", porcie: 2, ingrediencie: [{ nazov: "Hovädzie mäso", mnozstvo: 400, jednotka: "g" }, { nazov: "Cibuľa", mnozstvo: 1, jednotka: "ks" }] };
+  const ing = app.ingrediencieNaNakup(r);
+  assert.strictEqual(ing[0].mnozstvo, 200); assert.strictEqual(ing[1].mnozstvo, 1);
+  const t = ing.find(i => i.nazov === "Tofu"); assert.ok(t && t.mnozstvo === 200, JSON.stringify(t));
+  assert.match(app.vegNahradaText(r), /Mama/);
+  const v = novy({ stravnici: [{ nazov: "Otec", kcal: 2000 }, { nazov: "Mama", kcal: 2000, veg: true, typ: "" }, { nazov: "X", kcal: 2000, veg: true }] });
+  assert.ok(Math.abs(v.vegPodiel() - 2 / 3) < 1e-9);
+  const vsetci = novy({ stravnici: [{ nazov: "A", kcal: 2000, veg: true }] });
+  assert.strictEqual(vsetci.vegPodiel(), 0, "jediný (vegetariánsky) stravník nie je zmiešaná domácnosť");
+});
+
+console.log("\nv34 — import receptu (JSON-LD aj text)");
+ok("riadok suroviny: množstvo, jednotka a názov v oboch poradiach, zlomky, podľa chuti", () => {
+  const app = novy(), p = x => JSON.parse(JSON.stringify(app.parseIngRiadok(x)));
+  assert.deepStrictEqual(p("250 g hladkej múky"), { nazov: "Hladká múka", mnozstvo: 250, jednotka: "g" });
+  assert.deepStrictEqual(p("Múka hladká, 250 g"), { nazov: "Múka hladká", mnozstvo: 250, jednotka: "g" });
+  assert.deepStrictEqual(p("1 ½ lyžičky soli"), { nazov: "Soľ", mnozstvo: 1.5, jednotka: "ČL" });
+  assert.deepStrictEqual(p("0,5 l mlieka"), { nazov: "Mlieko", mnozstvo: 500, jednotka: "ml" });
+  assert.deepStrictEqual(p("soľ podľa chuti"), { nazov: "Soľ", mnozstvo: null, jednotka: "" });
+});
+ok("JSON-LD v @graph: názov, porcie, čas, suroviny, kroky a zdroj s odkazom", () => {
+  const app = novy();
+  const r = app.parseReceptImport('<script type="application/ld+json">{"@graph":[{"@type":"WebPage"},{"@type":["Recipe"],"name":"Guláš","recipeYield":["4"],"totalTime":"PT1H30M","recipeIngredient":["Cibuľa, 2 ks"],"recipeInstructions":[{"@type":"HowToSection","itemListElement":[{"@type":"HowToStep","text":"Opraž."}]}],"url":"https://www.varecha.sk/r/1"}]}</script>');
+  assert.strictEqual(r.nazov, "Guláš"); assert.strictEqual(r.porcie, 4); assert.strictEqual(r.cas, "1 h 30 min");
+  assert.deepStrictEqual([...r.postup], ["Opraž."]); assert.strictEqual(r.ingrediencie[0].mnozstvo, 2);
+  assert.strictEqual(r.zdroj_url, "https://www.varecha.sk/r/1");
+});
+ok("slovenské jednotky a 2. pád: dkg, pol, čajová lyžička, plechovka (400 g), hladkej múky → Hladká múka", () => {
+  const app = novy(), p = x => JSON.parse(JSON.stringify(app.parseIngRiadok(x)));
+  assert.deepStrictEqual([p("10 dkg masla").mnozstvo, p("10 dkg masla").jednotka, p("10 dkg masla").nazov], [100, "g", "Maslo"]);
+  assert.strictEqual(p("pol cibule").mnozstvo, 0.5);
+  assert.strictEqual(p("1 čajová lyžička cukru").jednotka, "ČL");
+  assert.deepStrictEqual([p("1 konzerva paradajok (400 g)").mnozstvo, p("1 konzerva paradajok (400 g)").jednotka], [400, "g"]);
+  assert.strictEqual(p("250 g hladkej múky").nazov, "Hladká múka");
+  assert.strictEqual(p("1 sáčok prášku do pečiva").nazov, "Prášok do pečiva");
+});
+ok("obyčajný text s nadpismi Suroviny/Postup", () => {
+  const r = novy().parseReceptImport("Palacinky\n4 porcie\nSuroviny\n250 g múky\n2 vajcia\nPostup\n1. Vymiešaj cesto.\n2. Peč.");
+  assert.strictEqual(r.nazov, "Palacinky"); assert.strictEqual(r.porcie, 4);
+  assert.strictEqual(r.ingrediencie.length, 2); assert.deepStrictEqual([...r.postup], ["Vymiešaj cesto.", "Peč."]);
 });
 
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });

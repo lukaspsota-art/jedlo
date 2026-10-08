@@ -23,26 +23,26 @@ module.exports = {
     const page = await E.novaStranka();
     await prepni(page, "planovac");
 
-    // ── generovanie cez UI tlačidlo (dialóg generovania) ────────────────────
+    // ── generovanie cez UI tlačidlo ─────────────────────────────────────────
+    // 8. 10.: „✨ Zostaviť jedálniček“ generuje rovno (prázdny týždeň sa nepýta); dotazník je
+    // v „⋯ Viac → ⚙️ Nastavenie generovania“ (otvorGen) a jeho tlačidlo volá generujTlacidlo().
     await page.click("#v-planovac button.btn.primary");
+    await page.waitForTimeout(900);
+    await zavriOkna(page);
+    const n1 = await pocetSlotov(page);
+    await t.ok(n1 >= 20, `„✨ Zostaviť jedálniček“ rovno naplní plán (${n1} slotov)`, n1);
+    await page.evaluate(() => window.otvorGen());
     await page.waitForTimeout(300);
-    // Vlna 3: tlačidlo v dotazníku volá `generujTlacidlo()`, nie priamo `generujJedalnicek()` —
-    // medzikrok sa nad naplneným týždňom pýta, či ho naozaj prepísať (B3).
     const wiz = await page.evaluate(() => ({
       otvorene: document.getElementById("pick-overlay").classList.contains("open"),
       text: (document.getElementById("pick-modal").textContent || "").slice(0, 120),
       maTlacidlo: !!document.querySelector("#pick-modal [onclick*='generujTlacidlo']"),
       popisTlacidla: (document.querySelector("#pick-modal [onclick*='generujTlacidlo']") || {}).textContent || "",
     }));
-    await t.ok(wiz.otvorene, "„✨ Zostaviť jedálniček“ otvorí dotazník generovania", JSON.stringify(wiz));
+    await t.ok(wiz.otvorene, "⚙️ Nastavenie generovania otvorí dotazník", JSON.stringify(wiz));
     await t.ok(wiz.maTlacidlo, "dotazník má tlačidlo na spustenie generovania", JSON.stringify(wiz));
     await t.ok(/Generovať/i.test(wiz.popisTlacidla), "tlačidlo v dotazníku má menovku, nie iba ikonu", wiz.popisTlacidla);
-    await page.click("#pick-modal [onclick*='generujTlacidlo']");
-    await page.waitForTimeout(900);
     await zavriOkna(page);
-
-    const n1 = await pocetSlotov(page);
-    await t.ok(n1 >= 20, `generovanie z UI naplní plán (${n1} slotov)`, n1);
 
     // ── hotový týždeň sa neprepíše bez opýtania (B3) ────────────────────────
     await page.evaluate(() => { window.generujTlacidlo(false); });

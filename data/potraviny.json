@@ -359,7 +359,8 @@
     "kluc": "müsli zmes",
     "oddelenie": "Trvanlivé a konzervy",
     "alergeny": [
-      "lepok"
+      "lepok",
+      "orechy"
     ],
     "kcal": 380,
     "bielkoviny": 9,
@@ -426,7 +427,9 @@
   {
     "kluc": "sušené ovocie",
     "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 300,
     "bielkoviny": 3,
     "tuky": 1,
@@ -748,7 +751,9 @@
     "cena100": 0.3,
     "vlaknina": 3,
     "sodik": 500,
-    "g_za_platok": 30
+    "g_za_platok": 30,
+    "balenie_g": 250,
+    "balenie_popis": "1 ks (250 g)"
   },
   {
     "kluc": "cesnak",
@@ -880,7 +885,9 @@
     "meso": false,
     "cena100": 1.5,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "balenie_g": 25,
+    "balenie_popis": "zväzok 25 g"
   },
   {
     "kluc": "petržlen",
@@ -992,7 +999,8 @@
     "kluc": "worcester",
     "oddelenie": "Omáčky a dochucovadlá",
     "alergeny": [
-      "ryby"
+      "ryby",
+      "lepok"
     ],
     "kcal": 78,
     "bielkoviny": 0,
@@ -1081,8 +1089,10 @@
   },
   {
     "kluc": "shaoxing",
-    "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [],
+    "oddelenie": "Alkohol",
+    "alergeny": [
+      "lepok"
+    ],
     "kcal": 100,
     "bielkoviny": 0.3,
     "tuky": 0,
@@ -1594,7 +1604,8 @@
     "kluc": "tarhoňa",
     "oddelenie": "Cestoviny a ryža",
     "alergeny": [
-      "lepok"
+      "lepok",
+      "vajcia"
     ],
     "kcal": 360,
     "bielkoviny": 12,
@@ -1749,7 +1760,9 @@
     "cena100": 1.5,
     "vlaknina": 2,
     "sodik": 8,
-    "g_za_list": 0.5
+    "g_za_list": 0.5,
+    "balenie_g": 20,
+    "balenie_popis": "vanička 20 g"
   },
   {
     "kluc": "limetk",
@@ -1820,7 +1833,9 @@
     "meso": false,
     "cena100": 1.5,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "balenie_g": 20,
+    "balenie_popis": "vanička 20 g"
   },
   {
     "kluc": "oregano",
@@ -1933,7 +1948,9 @@
     "meso": false,
     "cena100": 1.5,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "balenie_g": 30,
+    "balenie_popis": "zväzok 30 g"
   },
   {
     "kluc": "vanilkový extrakt",
@@ -1953,7 +1970,9 @@
   {
     "kluc": "horčicové semienka",
     "oddelenie": "Korenie a bylinky",
-    "alergeny": [],
+    "alergeny": [
+      "horčica"
+    ],
     "kcal": 508,
     "bielkoviny": 26,
     "tuky": 36,
@@ -2003,7 +2022,9 @@
   {
     "kluc": "horčica",
     "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [],
+    "alergeny": [
+      "horčica"
+    ],
     "kcal": 66,
     "bielkoviny": 4,
     "tuky": 3,
@@ -2123,7 +2144,9 @@
   {
     "kluc": "prosecco",
     "oddelenie": "Alkohol",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 80,
     "bielkoviny": 0.2,
     "tuky": 0,
@@ -2287,7 +2310,9 @@
     "meso": false,
     "cena100": 3,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "balenie_g": 20,
+    "balenie_popis": "kvetináč 20 g"
   },
   {
     "kluc": "zeler",
@@ -2329,14 +2354,16 @@
   {
     "kluc": "vývar",
     "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [],
+    "alergeny": [
+      "zeler"
+    ],
     "kcal": 4,
     "bielkoviny": 0.5,
     "tuky": 0.1,
     "sacharidy": 0.3,
     "g_za_ks": 10,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 0.15,
     "vlaknina": 0,
     "sodik": 350,
@@ -2431,7 +2458,8 @@
     "kluc": "majonéza",
     "oddelenie": "Omáčky a dochucovadlá",
     "alergeny": [
-      "vajcia"
+      "vajcia",
+      "horčica"
     ],
     "kcal": 680,
     "bielkoviny": 1,
@@ -2657,7 +2685,9 @@
     "meso": false,
     "cena100": 3,
     "vlaknina": 2,
-    "sodik": 8
+    "sodik": 8,
+    "balenie_g": 50,
+    "balenie_popis": "vanička 50 g"
   },
   {
     "kluc": "saláma",
@@ -2928,7 +2958,8 @@
     "kluc": "proteínová tyčinka",
     "oddelenie": "Pečenie a sladké",
     "alergeny": [
-      "mlieko"
+      "mlieko",
+      "lepok"
     ],
     "kcal": 350,
     "bielkoviny": 30,
@@ -2984,7 +3015,8 @@
     "kluc": "arašidové maslo",
     "oddelenie": "Pečenie a sladké",
     "alergeny": [
-      "orechy"
+      "orechy",
+      "arašidy"
     ],
     "kcal": 588,
     "bielkoviny": 25,
@@ -3129,7 +3161,9 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 34,
-    "sodik": 5
+    "sodik": 5,
+    "balenie_g": 200,
+    "balenie_popis": "200 g"
   },
   {
     "kluc": "ricott",
@@ -3440,7 +3474,9 @@
     "meso": false,
     "cena100": 3,
     "vlaknina": 14,
-    "sodik": 30
+    "sodik": 30,
+    "balenie_g": 20,
+    "balenie_popis": "vanička 20 g"
   },
   {
     "kluc": "chilli mleté",
@@ -3519,7 +3555,9 @@
     "meso": false,
     "cena100": 0.8,
     "vlaknina": 27.3,
-    "sodik": 5
+    "sodik": 5,
+    "balenie_g": 250,
+    "balenie_popis": "250 g"
   },
   {
     "kluc": "žampión",
@@ -3741,7 +3779,9 @@
     "meso": true,
     "cena100": 2.2,
     "vlaknina": 0,
-    "sodik": 250
+    "sodik": 250,
+    "balenie_g": 250,
+    "balenie_popis": "250 g"
   },
   {
     "kluc": "jablčn",
@@ -4151,7 +4191,9 @@
     "meso": false,
     "cena100": 2,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "balenie_g": 30,
+    "balenie_popis": "zväzok 30 g"
   },
   {
     "kluc": "pohánk",
@@ -4515,7 +4557,9 @@
     "meso": false,
     "cena100": 3,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "balenie_g": 20,
+    "balenie_popis": "kvetináč 20 g"
   },
   {
     "kluc": "mozzarel",
@@ -4726,7 +4770,9 @@
   {
     "kluc": "mušle",
     "oddelenie": "Mäso a ryby",
-    "alergeny": [],
+    "alergeny": [
+      "mäkkýše"
+    ],
     "kcal": 90,
     "bielkoviny": 12,
     "tuky": 2,
@@ -4751,7 +4797,9 @@
     "meso": false,
     "cena100": 2.5,
     "vlaknina": 10,
-    "sodik": 30
+    "sodik": 30,
+    "balenie_g": 20,
+    "balenie_popis": "vanička 20 g"
   },
   {
     "kluc": "celozrn",
@@ -5111,7 +5159,7 @@
     "sacharidy": 0,
     "g_za_ks": 2,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 3.5,
     "g_za_platok": 2,
     "vlaknina": 1,
@@ -5815,7 +5863,9 @@
     "meso": false,
     "cena100": 3.5,
     "vlaknina": 40,
-    "sodik": 30
+    "sodik": 30,
+    "balenie_g": 20,
+    "balenie_popis": "vanička 20 g"
   },
   {
     "kluc": "jačmenné vločky",
@@ -6255,7 +6305,9 @@
     "cena100": 3,
     "vlaknina": 10,
     "sodik": 30,
-    "kanon": "bazalk"
+    "kanon": "bazalk",
+    "balenie_g": 20,
+    "balenie_popis": "kvetináč 20 g"
   },
   {
     "kluc": "zubáča",
@@ -6425,7 +6477,8 @@
     "kluc": "čokoládová tyčinka",
     "oddelenie": "Pečenie a sladké",
     "alergeny": [
-      "mlieko"
+      "mlieko",
+      "lepok"
     ],
     "kcal": 480,
     "bielkoviny": 6,
@@ -6441,7 +6494,9 @@
   {
     "kluc": "víno",
     "oddelenie": "Alkohol",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 85,
     "bielkoviny": 0.1,
     "tuky": 0,
@@ -6663,7 +6718,9 @@
   {
     "kluc": "amaretto",
     "oddelenie": "Alkohol",
-    "alergeny": [],
+    "alergeny": [
+      "orechy"
+    ],
     "kcal": 280,
     "bielkoviny": 0,
     "tuky": 0,
@@ -6819,7 +6876,8 @@
     "kluc": "hoisin omáčka",
     "oddelenie": "Omáčky a dochucovadlá",
     "alergeny": [
-      "sója"
+      "sója",
+      "lepok"
     ],
     "kcal": 220,
     "bielkoviny": 3,
@@ -6832,7 +6890,7 @@
     "balenie_g": 250,
     "balenie_popis": "250 g",
     "vlaknina": 2.8,
-    "sodik": 0
+    "sodik": 1600
   },
   {
     "kluc": "mirin",
@@ -6855,7 +6913,8 @@
     "kluc": "ustricová omáčka",
     "oddelenie": "Omáčky a dochucovadlá",
     "alergeny": [
-      "mäkkýše"
+      "mäkkýše",
+      "lepok"
     ],
     "kcal": 120,
     "bielkoviny": 2,
@@ -6863,7 +6922,7 @@
     "sacharidy": 27,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 1.5,
     "balenie_g": 250,
     "balenie_popis": "250 ml",
@@ -6957,7 +7016,7 @@
     "balenie_g": 300,
     "balenie_popis": "300 g",
     "vlaknina": 2.4,
-    "sodik": 0
+    "sodik": 500
   },
   {
     "kluc": "badián",
@@ -7020,7 +7079,7 @@
     "sacharidy": 0,
     "g_za_ks": 15,
     "hustota": 0.92,
-    "meso": false,
+    "meso": true,
     "cena100": 1.2,
     "balenie_g": 200,
     "balenie_popis": "200 g",
@@ -7182,7 +7241,7 @@
     "balenie_g": 300,
     "balenie_popis": "300 g",
     "vlaknina": 5.4,
-    "sodik": 0
+    "sodik": 3728
   },
   {
     "kluc": "mandľové mlieko",
@@ -8139,7 +8198,9 @@
   {
     "kluc": "horčica v prášku",
     "oddelenie": "Korenie a bylinky",
-    "alergeny": [],
+    "alergeny": [
+      "horčica"
+    ],
     "kcal": 508,
     "bielkoviny": 26,
     "tuky": 36,
@@ -8693,7 +8754,9 @@
   {
     "kluc": "balzamikový krém",
     "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 250,
     "bielkoviny": 0.5,
     "tuky": 0.1,
@@ -8727,7 +8790,9 @@
   {
     "kluc": "hp omáčka",
     "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [],
+    "alergeny": [
+      "lepok"
+    ],
     "kcal": 120,
     "bielkoviny": 1,
     "tuky": 0.2,
@@ -8743,7 +8808,8 @@
     "kluc": "remoulade",
     "oddelenie": "Omáčky a dochucovadlá",
     "alergeny": [
-      "vajcia"
+      "vajcia",
+      "horčica"
     ],
     "kcal": 380,
     "bielkoviny": 1,
@@ -9000,7 +9066,9 @@
   {
     "kluc": "vegeta",
     "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [],
+    "alergeny": [
+      "zeler"
+    ],
     "kcal": 170,
     "bielkoviny": 8,
     "tuky": 1,
@@ -9024,7 +9092,7 @@
     "sacharidy": 0,
     "g_za_ks": 15,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 0.35,
     "balenie_g": 500,
     "balenie_popis": "500 g",
@@ -9069,14 +9137,16 @@
   {
     "kluc": "bujón",
     "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [],
+    "alergeny": [
+      "zeler"
+    ],
     "kcal": 240,
     "bielkoviny": 10,
     "tuky": 15,
     "sacharidy": 18,
     "g_za_ks": 10,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 1,
     "balenie_g": 66,
     "balenie_popis": "6 kociek",
@@ -9087,7 +9157,8 @@
     "kluc": "tatárska omáčka",
     "oddelenie": "Omáčky a dochucovadlá",
     "alergeny": [
-      "vajcia"
+      "vajcia",
+      "horčica"
     ],
     "kcal": 400,
     "bielkoviny": 1,
@@ -9201,8 +9272,8 @@
     "hustota": 1,
     "meso": false,
     "cena100": 2,
-    "balenie_g": null,
-    "balenie_popis": null,
+    "balenie_g": 30,
+    "balenie_popis": "zväzok 30 g",
     "vlaknina": 2.8,
     "sodik": 0
   },
@@ -9218,8 +9289,8 @@
     "hustota": 1,
     "meso": false,
     "cena100": 3,
-    "balenie_g": null,
-    "balenie_popis": null,
+    "balenie_g": 20,
+    "balenie_popis": "vanička 20 g",
     "vlaknina": 6,
     "sodik": 0
   },
@@ -9298,7 +9369,9 @@
   {
     "kluc": "kvások",
     "oddelenie": "Pečenie a sladké",
-    "alergeny": [],
+    "alergeny": [
+      "lepok"
+    ],
     "kcal": 180,
     "bielkoviny": 6,
     "tuky": 1,
@@ -9383,7 +9456,9 @@
   {
     "kluc": "sladký vermút",
     "oddelenie": "Alkohol",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 150,
     "bielkoviny": 0,
     "tuky": 0,
@@ -9400,7 +9475,9 @@
   {
     "kluc": "suchý vermút",
     "oddelenie": "Alkohol",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 120,
     "bielkoviny": 0,
     "tuky": 0,
@@ -9417,7 +9494,9 @@
   {
     "kluc": "šampanské",
     "oddelenie": "Alkohol",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 76,
     "bielkoviny": 0.2,
     "tuky": 0,
@@ -9744,7 +9823,9 @@
   {
     "kluc": "sherry",
     "oddelenie": "Alkohol",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 120,
     "bielkoviny": 0,
     "tuky": 0,
@@ -9761,7 +9842,9 @@
   {
     "kluc": "sherry ocot",
     "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 20,
     "bielkoviny": 0,
     "tuky": 0,
@@ -9825,15 +9908,17 @@
     "hustota": 1,
     "meso": false,
     "cena100": 1.5,
-    "balenie_g": null,
-    "balenie_popis": null,
+    "balenie_g": 30,
+    "balenie_popis": "zväzok 30 g",
     "vlaknina": 3,
     "sodik": 0
   },
   {
     "kluc": "kalamáre",
     "oddelenie": "Mäso a ryby",
-    "alergeny": [],
+    "alergeny": [
+      "mäkkýše"
+    ],
     "kcal": 92,
     "bielkoviny": 15.6,
     "tuky": 1.4,
@@ -10120,14 +10205,16 @@
   {
     "kluc": "hovädzí vývar",
     "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [],
+    "alergeny": [
+      "zeler"
+    ],
     "kcal": 4,
     "bielkoviny": 0.5,
     "tuky": 0.1,
     "sacharidy": 0.3,
     "g_za_ks": 10,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 0.15,
     "vlaknina": 0,
     "sodik": 350
@@ -10135,14 +10222,16 @@
   {
     "kluc": "vývar hovädzí",
     "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [],
+    "alergeny": [
+      "zeler"
+    ],
     "kcal": 4,
     "bielkoviny": 0.5,
     "tuky": 0.1,
     "sacharidy": 0.3,
     "g_za_ks": 10,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 0.15,
     "vlaknina": 0,
     "sodik": 350,
@@ -10158,7 +10247,7 @@
     "sacharidy": 0,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 0.35,
     "vlaknina": 0,
     "sodik": 0,
@@ -10175,7 +10264,7 @@
     "sacharidy": 0,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 0.35,
     "vlaknina": 0,
     "sodik": 0,
@@ -10259,7 +10348,9 @@
   {
     "kluc": "arašidový olej",
     "oddelenie": "Oleje a tuky",
-    "alergeny": [],
+    "alergeny": [
+      "arašidy"
+    ],
     "kcal": 884,
     "bielkoviny": 0,
     "tuky": 100,
@@ -10760,7 +10851,9 @@
     "meso": false,
     "cena100": 2,
     "vlaknina": 2.5,
-    "sodik": 15
+    "sodik": 15,
+    "balenie_g": 50,
+    "balenie_popis": "zväzok 50 g"
   },
   {
     "kluc": "paradajky sušené",
@@ -10847,7 +10940,9 @@
   {
     "kluc": "zeleninový vývar",
     "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [],
+    "alergeny": [
+      "zeler"
+    ],
     "kcal": 4,
     "bielkoviny": 0.5,
     "tuky": 0.1,
@@ -11022,7 +11117,9 @@
   {
     "kluc": "chlebová zmes",
     "oddelenie": "Pečenie a sladké",
-    "alergeny": [],
+    "alergeny": [
+      "lepok"
+    ],
     "kcal": 350,
     "bielkoviny": 10,
     "tuky": 2,
@@ -11168,7 +11265,8 @@
     "kluc": "tagliatelle",
     "oddelenie": "Cestoviny a ryža",
     "alergeny": [
-      "lepok"
+      "lepok",
+      "vajcia"
     ],
     "kcal": 360,
     "bielkoviny": 12,
@@ -11356,7 +11454,9 @@
   {
     "kluc": "jačmeň",
     "oddelenie": "Cestoviny a ryža",
-    "alergeny": [],
+    "alergeny": [
+      "lepok"
+    ],
     "kcal": 352,
     "bielkoviny": 10,
     "tuky": 2.3,
@@ -11460,7 +11560,10 @@
   {
     "kluc": "granola",
     "oddelenie": "Cestoviny a ryža",
-    "alergeny": [],
+    "alergeny": [
+      "lepok",
+      "orechy"
+    ],
     "kcal": 450,
     "bielkoviny": 10,
     "tuky": 18,
@@ -13431,7 +13534,9 @@
     "meso": false,
     "cena100": 1.5,
     "vlaknina": 3.3,
-    "sodik": 56
+    "sodik": 56,
+    "balenie_g": 30,
+    "balenie_popis": "zväzok 30 g"
   },
   {
     "kluc": "karí korenie",
@@ -13624,7 +13729,8 @@
     "kluc": "worcestrov",
     "oddelenie": "Omáčky a dochucovadlá",
     "alergeny": [
-      "ryby"
+      "ryby",
+      "lepok"
     ],
     "kcal": 78,
     "bielkoviny": 0,
@@ -13663,7 +13769,8 @@
     "kluc": "worcestrersk",
     "oddelenie": "Omáčky a dochucovadlá",
     "alergeny": [
-      "ryby"
+      "ryby",
+      "lepok"
     ],
     "kcal": 78,
     "bielkoviny": 0,
@@ -13819,7 +13926,8 @@
     "kluc": "oyster sauce",
     "oddelenie": "Omáčky a dochucovadlá",
     "alergeny": [
-      "mäkkýše"
+      "mäkkýše",
+      "lepok"
     ],
     "kcal": 120,
     "bielkoviny": 3,
@@ -13827,7 +13935,7 @@
     "sacharidy": 27,
     "g_za_ks": null,
     "hustota": 1.2,
-    "meso": false,
+    "meso": true,
     "cena100": 1.8,
     "vlaknina": 0,
     "sodik": 3400,
@@ -13981,7 +14089,9 @@
     "oddelenie": "Omáčky a dochucovadlá",
     "alergeny": [
       "vajcia",
-      "ryby"
+      "ryby",
+      "horčica",
+      "mlieko"
     ],
     "kcal": 450,
     "bielkoviny": 3,
@@ -13999,7 +14109,9 @@
   {
     "kluc": "tekuté ochucovadlo",
     "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [],
+    "alergeny": [
+      "lepok"
+    ],
     "kcal": 90,
     "bielkoviny": 6,
     "tuky": 0.5,
@@ -14017,7 +14129,9 @@
   {
     "kluc": "tekuté dochucovadlo",
     "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [],
+    "alergeny": [
+      "lepok"
+    ],
     "kcal": 90,
     "bielkoviny": 6,
     "tuky": 0.5,
@@ -14528,7 +14642,9 @@
   {
     "kluc": "jačmenný slad",
     "oddelenie": "Pečenie a sladké",
-    "alergeny": [],
+    "alergeny": [
+      "lepok"
+    ],
     "kcal": 360,
     "bielkoviny": 8,
     "tuky": 2,
@@ -14697,7 +14813,9 @@
   {
     "kluc": "vermút",
     "oddelenie": "Alkohol",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 150,
     "bielkoviny": 0,
     "tuky": 0,
@@ -15103,7 +15221,7 @@
     "sacharidy": 0,
     "g_za_ks": null,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 0.35,
     "vlaknina": 0,
     "sodik": 0,
@@ -15900,7 +16018,7 @@
     "sacharidy": 0,
     "g_za_ks": 145,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 1.1,
     "balenie_g": 145,
     "balenie_popis": "konzerva 185 g (odkvapkaný 145 g)",
@@ -15958,7 +16076,7 @@
     "sacharidy": 22,
     "g_za_ks": 170,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 1.6,
     "balenie_g": 170,
     "balenie_popis": "balenie 170 g",
@@ -15977,7 +16095,7 @@
     "sacharidy": 20,
     "g_za_ks": 180,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 1.7,
     "balenie_g": 180,
     "balenie_popis": "balenie 180 g",
@@ -15997,7 +16115,7 @@
     "sacharidy": 21,
     "g_za_ks": 160,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 1.65,
     "balenie_g": 160,
     "balenie_popis": "balenie 160 g",
@@ -16157,7 +16275,9 @@
   {
     "kluc": "susene marhule balenie",
     "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 240,
     "bielkoviny": 3.4,
     "tuky": 0.5,
@@ -16657,7 +16777,8 @@
     "kluc": "ovocno orechova tycinka balenie",
     "oddelenie": "Trvanlivé a konzervy",
     "alergeny": [
-      "orechy"
+      "orechy",
+      "lepok"
     ],
     "kcal": 350,
     "bielkoviny": 5,
@@ -16677,7 +16798,8 @@
     "oddelenie": "Trvanlivé a konzervy",
     "alergeny": [
       "mlieko",
-      "sója"
+      "sója",
+      "lepok"
     ],
     "kcal": 380,
     "bielkoviny": 30,
@@ -16698,7 +16820,8 @@
     "alergeny": [
       "mlieko",
       "sója",
-      "orechy"
+      "orechy",
+      "lepok"
     ],
     "kcal": 350,
     "bielkoviny": 20,
@@ -17643,7 +17766,10 @@
     "oddelenie": "Chladené",
     "alergeny": [
       "ryby",
-      "mäkkýše"
+      "mäkkýše",
+      "kôrovce",
+      "lepok",
+      "vajcia"
     ],
     "kcal": 100,
     "bielkoviny": 9,
@@ -17683,7 +17809,8 @@
     "alergeny": [
       "mlieko",
       "orechy",
-      "sója"
+      "sója",
+      "lepok"
     ],
     "kcal": 350,
     "bielkoviny": 33,
@@ -18667,7 +18794,7 @@
     "sacharidy": 29,
     "g_za_ks": 80,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 1.6,
     "balenie_g": 80,
     "balenie_popis": "balenie 80 g",
@@ -18687,7 +18814,7 @@
     "sacharidy": 28,
     "g_za_ks": 110,
     "hustota": 1,
-    "meso": false,
+    "meso": true,
     "cena100": 1.35,
     "balenie_g": 110,
     "balenie_popis": "balenie 110 g",
@@ -19283,7 +19410,9 @@
   {
     "kluc": "cider",
     "oddelenie": "Alkohol",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 45,
     "bielkoviny": 0,
     "tuky": 0,
@@ -19903,7 +20032,9 @@
   {
     "kluc": "zázvorové víno",
     "oddelenie": "Alkohol",
-    "alergeny": [],
+    "alergeny": [
+      "siričitany"
+    ],
     "kcal": 170,
     "bielkoviny": 0,
     "tuky": 0,
@@ -20231,6 +20362,25 @@
     "sodik": 10,
     "balenie_g": 200,
     "balenie_popis": "200 g"
+  },
+  {
+    "kluc": "kozí syr",
+    "oddelenie": "Mliečne a vajcia",
+    "alergeny": [
+      "mlieko"
+    ],
+    "kcal": 364,
+    "bielkoviny": 22,
+    "tuky": 30,
+    "sacharidy": 0.1,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 2.8,
+    "vlaknina": 0,
+    "sodik": 515,
+    "balenie_g": 100,
+    "balenie_popis": "100 g"
   },
   {
     "kluc": "mangový nektár",
@@ -20703,7 +20853,9 @@
   {
     "kluc": "kukuričné lupienky",
     "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [],
+    "alergeny": [
+      "lepok"
+    ],
     "kcal": 378,
     "bielkoviny": 7,
     "tuky": 0.9,
@@ -20716,25 +20868,6 @@
     "sodik": 700,
     "balenie_g": 375,
     "balenie_popis": "375 g"
-  },
-  {
-    "kluc": "kozí syr",
-    "oddelenie": "Mliečne a vajcia",
-    "alergeny": [
-      "mlieko"
-    ],
-    "kcal": 364,
-    "bielkoviny": 22,
-    "tuky": 30,
-    "sacharidy": 0.1,
-    "g_za_ks": null,
-    "hustota": 1,
-    "meso": false,
-    "cena100": 2.8,
-    "vlaknina": 0,
-    "sodik": 515,
-    "balenie_g": 100,
-    "balenie_popis": "100 g"
   },
   {
     "kluc": "čerstvé droždie",
@@ -20788,6 +20921,25 @@
     "sodik": 50,
     "balenie_g": 1000,
     "balenie_popis": "1 l"
+  },
+  {
+    "kluc": "ghee",
+    "oddelenie": "Oleje a tuky",
+    "alergeny": [
+      "mlieko"
+    ],
+    "kcal": 876,
+    "bielkoviny": 0.3,
+    "tuky": 99.5,
+    "sacharidy": 0,
+    "g_za_ks": null,
+    "hustota": 0.91,
+    "meso": false,
+    "cena100": 2.5,
+    "vlaknina": 0,
+    "sodik": 2,
+    "balenie_g": 250,
+    "balenie_popis": "250 g"
   },
   {
     "kluc": "viničové listy",
@@ -20952,6 +21104,23 @@
     "balenie_popis": "500 g"
   },
   {
+    "kluc": "kozie mäso",
+    "oddelenie": "Mäso a ryby",
+    "alergeny": [],
+    "kcal": 110,
+    "bielkoviny": 21,
+    "tuky": 2.3,
+    "sacharidy": 0,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 1.8,
+    "vlaknina": 0,
+    "sodik": 82,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg"
+  },
+  {
     "kluc": "homár",
     "oddelenie": "Mäso a ryby",
     "alergeny": [
@@ -21005,6 +21174,45 @@
     "balenie_popis": "100 g"
   },
   {
+    "kluc": "pšeničná",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 364,
+    "bielkoviny": 10,
+    "tuky": 1,
+    "sacharidy": 76,
+    "g_za_ks": 100,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.1,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg",
+    "vlaknina": 2.7,
+    "sodik": 25,
+    "kanon": "múka"
+  },
+  {
+    "kluc": "pšeničné klíčky",
+    "oddelenie": "Cestoviny a ryža",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 360,
+    "bielkoviny": 23,
+    "tuky": 9.7,
+    "sacharidy": 39,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.2,
+    "vlaknina": 13.2,
+    "sodik": 12,
+    "balenie_g": 250,
+    "balenie_popis": "250 g"
+  },
+  {
     "kluc": "pšeničné otruby",
     "oddelenie": "Cestoviny a ryža",
     "alergeny": [
@@ -21022,6 +21230,278 @@
     "sodik": 2,
     "balenie_g": 250,
     "balenie_popis": "250 g"
+  },
+  {
+    "kluc": "pšeničný kvások",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 180,
+    "bielkoviny": 6,
+    "tuky": 1,
+    "sacharidy": 36,
+    "g_za_ks": 42,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.3,
+    "balenie_g": null,
+    "balenie_popis": null,
+    "vlaknina": 3,
+    "sodik": 0,
+    "kanon": "kvások"
+  },
+  {
+    "kluc": "kvások pšeničný",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 180,
+    "bielkoviny": 6,
+    "tuky": 1,
+    "sacharidy": 36,
+    "g_za_ks": 42,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.3,
+    "balenie_g": null,
+    "balenie_popis": null,
+    "vlaknina": 3,
+    "sodik": 0,
+    "kanon": "kvások"
+  },
+  {
+    "kluc": "kvások biely",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 180,
+    "bielkoviny": 6,
+    "tuky": 1,
+    "sacharidy": 36,
+    "g_za_ks": 42,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.3,
+    "balenie_g": null,
+    "balenie_popis": null,
+    "vlaknina": 3,
+    "sodik": 0,
+    "kanon": "kvások"
+  },
+  {
+    "kluc": "pšeničný chlieb",
+    "oddelenie": "Pečivo",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 250,
+    "bielkoviny": 8,
+    "tuky": 3,
+    "sacharidy": 49,
+    "g_za_ks": 40,
+    "hustota": 1,
+    "meso": false,
+    "vlaknina": 6,
+    "sodik": 500,
+    "g_za_platok": 40,
+    "cena100": 0.25,
+    "balenie_g": 500,
+    "balenie_popis": "500 g",
+    "kanon": "chlieb"
+  },
+  {
+    "kluc": "pšeničná tortilla",
+    "oddelenie": "Pečivo",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 310,
+    "bielkoviny": 8,
+    "tuky": 8,
+    "sacharidy": 50,
+    "g_za_ks": 64,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 3,
+    "sodik": 600,
+    "balenie_g": 320,
+    "balenie_popis": "8 ks",
+    "kanon": "tortilla"
+  },
+  {
+    "kluc": "pšeničná krupica",
+    "oddelenie": "Cestoviny a ryža",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 360,
+    "bielkoviny": 12,
+    "tuky": 1,
+    "sacharidy": 73,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.2,
+    "vlaknina": 3,
+    "sodik": 1,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg",
+    "kanon": "krupica"
+  },
+  {
+    "kluc": "celozrnná pšeničná",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 340,
+    "bielkoviny": 13,
+    "tuky": 2.5,
+    "sacharidy": 65,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.35,
+    "vlaknina": 10.7,
+    "sodik": 5,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg",
+    "kanon": "celozrn"
+  },
+  {
+    "kluc": "pšeničná celozrnná",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 340,
+    "bielkoviny": 13,
+    "tuky": 2.5,
+    "sacharidy": 65,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.35,
+    "vlaknina": 10.7,
+    "sodik": 5,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg",
+    "kanon": "celozrn"
+  },
+  {
+    "kluc": "tuniak v olivovom oleji",
+    "oddelenie": "Mäso a ryby",
+    "alergeny": [
+      "ryby"
+    ],
+    "kcal": 198,
+    "bielkoviny": 29,
+    "tuky": 8,
+    "sacharidy": 0,
+    "g_za_ks": 150,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 1.6,
+    "vlaknina": 0,
+    "sodik": 350,
+    "balenie_g": 160,
+    "balenie_popis": "160 g",
+    "kanon": "tuniak v oleji"
+  },
+  {
+    "kluc": "tuniak v rastlinnom oleji",
+    "oddelenie": "Mäso a ryby",
+    "alergeny": [
+      "ryby"
+    ],
+    "kcal": 198,
+    "bielkoviny": 29,
+    "tuky": 8,
+    "sacharidy": 0,
+    "g_za_ks": 150,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 1.6,
+    "vlaknina": 0,
+    "sodik": 350,
+    "balenie_g": 160,
+    "balenie_popis": "160 g",
+    "kanon": "tuniak v oleji"
+  },
+  {
+    "kluc": "hubový bujón",
+    "oddelenie": "Omáčky a dochucovadlá",
+    "alergeny": [
+      "zeler"
+    ],
+    "kcal": 240,
+    "bielkoviny": 10,
+    "tuky": 15,
+    "sacharidy": 18,
+    "g_za_ks": 10,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1,
+    "balenie_g": 66,
+    "balenie_popis": "6 kociek",
+    "vlaknina": 1,
+    "sodik": 20000,
+    "kanon": "bujón"
+  },
+  {
+    "kluc": "bezlepkové vločky",
+    "oddelenie": "Cestoviny a ryža",
+    "alergeny": [],
+    "kcal": 375,
+    "bielkoviny": 13,
+    "tuky": 7,
+    "sacharidy": 60,
+    "g_za_ks": null,
+    "hustota": 0.45,
+    "meso": false,
+    "cena100": 0.4,
+    "vlaknina": 9,
+    "sodik": 5,
+    "balenie_g": 500,
+    "balenie_popis": "500 g"
+  },
+  {
+    "kluc": "bezlepková chlebová zmes",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 350,
+    "bielkoviny": 10,
+    "tuky": 2,
+    "sacharidy": 70,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.5,
+    "vlaknina": 5,
+    "sodik": 400,
+    "balenie_g": 500,
+    "balenie_popis": "500 g"
+  },
+  {
+    "kluc": "bezlepkový kvások",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 180,
+    "bielkoviny": 6,
+    "tuky": 1,
+    "sacharidy": 36,
+    "g_za_ks": 42,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.3,
+    "balenie_g": null,
+    "balenie_popis": null,
+    "vlaknina": 3,
+    "sodik": 0
   },
   {
     "kluc": "nopál",
@@ -21551,62 +22031,6 @@
     "balenie_popis": "mrazené 200 g"
   },
   {
-    "kluc": "sušené marhule",
-    "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [
-      "siričitany"
-    ],
-    "kcal": 241,
-    "bielkoviny": 3.4,
-    "tuky": 0.5,
-    "sacharidy": 62.6,
-    "g_za_ks": 8,
-    "hustota": 1,
-    "meso": false,
-    "cena100": 1.2,
-    "vlaknina": 7.3,
-    "sodik": 10,
-    "balenie_g": 200,
-    "balenie_popis": "1 balenie 200 g"
-  },
-  {
-    "kluc": "králičie mäso",
-    "oddelenie": "Mäso a ryby",
-    "alergeny": [],
-    "kcal": 136,
-    "bielkoviny": 20.1,
-    "tuky": 5.6,
-    "sacharidy": 0,
-    "g_za_ks": null,
-    "hustota": 1,
-    "meso": true,
-    "cena100": 1.4,
-    "vlaknina": 0,
-    "sodik": 41,
-    "balenie_g": 1200,
-    "balenie_popis": "1 králik porciovaný (mrazený)"
-  },
-  {
-    "kluc": "celozrnná pšeničná",
-    "oddelenie": "Pečenie a sladké",
-    "alergeny": [
-      "lepok"
-    ],
-    "kcal": 340,
-    "bielkoviny": 13,
-    "tuky": 2.5,
-    "sacharidy": 65,
-    "g_za_ks": null,
-    "hustota": 1,
-    "meso": false,
-    "cena100": 0.35,
-    "vlaknina": 10.7,
-    "sodik": 5,
-    "balenie_g": 1000,
-    "balenie_popis": "1 kg",
-    "kanon": "celozrn"
-  },
-  {
     "kluc": "achiote",
     "oddelenie": "Korenie a bylinky",
     "alergeny": [],
@@ -21690,63 +22114,6 @@
     "sodik": 80,
     "balenie_g": 250,
     "balenie_popis": "plechovka 0,25 l"
-  },
-  {
-    "kluc": "rybí vývar",
-    "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [
-      "ryby"
-    ],
-    "kcal": 3,
-    "bielkoviny": 0.5,
-    "tuky": 0.1,
-    "sacharidy": 0.2,
-    "g_za_ks": null,
-    "hustota": 1,
-    "meso": true,
-    "cena100": 0.45,
-    "vlaknina": 0,
-    "sodik": 300,
-    "balenie_g": 500,
-    "balenie_popis": "500 ml"
-  },
-  {
-    "kluc": "kandizovaný zázvor",
-    "oddelenie": "Pečenie a sladké",
-    "alergeny": [
-      "siričitany"
-    ],
-    "kcal": 350,
-    "bielkoviny": 0.2,
-    "tuky": 0.2,
-    "sacharidy": 87,
-    "g_za_ks": 5,
-    "hustota": 0.7,
-    "meso": false,
-    "cena100": 2.5,
-    "vlaknina": 1,
-    "sodik": 10,
-    "balenie_g": 100,
-    "balenie_popis": "100 g"
-  },
-  {
-    "kluc": "ghee",
-    "oddelenie": "Oleje a tuky",
-    "alergeny": [
-      "mlieko"
-    ],
-    "kcal": 876,
-    "bielkoviny": 0.3,
-    "tuky": 99.5,
-    "sacharidy": 0,
-    "g_za_ks": null,
-    "hustota": 0.91,
-    "meso": false,
-    "cena100": 2.5,
-    "vlaknina": 0,
-    "sodik": 2,
-    "balenie_g": 250,
-    "balenie_popis": "250 g"
   },
   {
     "kluc": "čaj zo sladkého drievka",
@@ -21853,26 +22220,6 @@
     "balenie_popis": "50 g"
   },
   {
-    "kluc": "pšeničná tortilla",
-    "oddelenie": "Pečivo",
-    "alergeny": [
-      "lepok"
-    ],
-    "kcal": 310,
-    "bielkoviny": 8,
-    "tuky": 8,
-    "sacharidy": 50,
-    "g_za_ks": 64,
-    "hustota": 1,
-    "meso": false,
-    "cena100": 0.6,
-    "vlaknina": 3,
-    "sodik": 600,
-    "balenie_g": 320,
-    "balenie_popis": "8 ks",
-    "kanon": "tortilla"
-  },
-  {
     "kluc": "tapioková múka",
     "oddelenie": "Pečenie a sladké",
     "alergeny": [],
@@ -21892,7 +22239,9 @@
   {
     "kluc": "ovsený jogurt",
     "oddelenie": "Chladené",
-    "alergeny": [],
+    "alergeny": [
+      "lepok"
+    ],
     "kcal": 82,
     "bielkoviny": 1.2,
     "tuky": 3,
@@ -22070,6 +22419,80 @@
     "balenie_popis": "8 ks"
   },
   {
+    "kluc": "sušené marhule",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [
+      "siričitany"
+    ],
+    "kcal": 241,
+    "bielkoviny": 3.4,
+    "tuky": 0.5,
+    "sacharidy": 62.6,
+    "g_za_ks": 8,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.2,
+    "vlaknina": 7.3,
+    "sodik": 10,
+    "balenie_g": 200,
+    "balenie_popis": "1 balenie 200 g"
+  },
+  {
+    "kluc": "rybí vývar",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [
+      "ryby"
+    ],
+    "kcal": 3,
+    "bielkoviny": 0.5,
+    "tuky": 0.1,
+    "sacharidy": 0.2,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 0.45,
+    "vlaknina": 0,
+    "sodik": 300,
+    "balenie_g": 500,
+    "balenie_popis": "500 ml"
+  },
+  {
+    "kluc": "kandizovaný zázvor",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "siričitany"
+    ],
+    "kcal": 350,
+    "bielkoviny": 0.2,
+    "tuky": 0.2,
+    "sacharidy": 87,
+    "g_za_ks": 5,
+    "hustota": 0.7,
+    "meso": false,
+    "cena100": 2.5,
+    "vlaknina": 1,
+    "sodik": 10,
+    "balenie_g": 100,
+    "balenie_popis": "100 g"
+  },
+  {
+    "kluc": "králičie mäso",
+    "oddelenie": "Mäso a ryby",
+    "alergeny": [],
+    "kcal": 136,
+    "bielkoviny": 20.1,
+    "tuky": 5.6,
+    "sacharidy": 0,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 1.4,
+    "vlaknina": 0,
+    "sodik": 41,
+    "balenie_g": 1200,
+    "balenie_popis": "1 králik porciovaný (mrazený)"
+  },
+  {
     "kluc": "manioková múka",
     "oddelenie": "Pečenie a sladké",
     "alergeny": [],
@@ -22157,93 +22580,6 @@
     "sodik": 5,
     "balenie_g": 330,
     "balenie_popis": "fľaša 0,33 l"
-  },
-  {
-    "kluc": "amchur",
-    "oddelenie": "Korenie a bylinky",
-    "alergeny": [],
-    "kcal": 330,
-    "bielkoviny": 2.5,
-    "tuky": 1,
-    "sacharidy": 80,
-    "g_za_ks": null,
-    "hustota": 0.5,
-    "meso": false,
-    "cena100": 4,
-    "vlaknina": 10,
-    "sodik": 30,
-    "balenie_g": 100,
-    "balenie_popis": "100 g"
-  },
-  {
-    "kluc": "hovädzie kosti",
-    "oddelenie": "Mäso a ryby",
-    "alergeny": [],
-    "kcal": 120,
-    "bielkoviny": 11,
-    "tuky": 8,
-    "sacharidy": 0,
-    "g_za_ks": null,
-    "hustota": 1,
-    "meso": true,
-    "cena100": 0.35,
-    "vlaknina": 0,
-    "sodik": 60,
-    "balenie_g": 1000,
-    "balenie_popis": "~1 kg kostí na vývar"
-  },
-  {
-    "kluc": "ube halaya",
-    "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [
-      "mlieko"
-    ],
-    "kcal": 250,
-    "bielkoviny": 2.5,
-    "tuky": 6,
-    "sacharidy": 47,
-    "g_za_ks": null,
-    "hustota": 1.2,
-    "meso": false,
-    "cena100": 1.6,
-    "vlaknina": 2,
-    "sodik": 40,
-    "balenie_g": 340,
-    "balenie_popis": "pohár 340 g"
-  },
-  {
-    "kluc": "nové korenie",
-    "oddelenie": "Korenie a bylinky",
-    "alergeny": [],
-    "kcal": 263,
-    "bielkoviny": 6.1,
-    "tuky": 8.7,
-    "sacharidy": 50.5,
-    "g_za_ks": 0.2,
-    "hustota": 0.5,
-    "meso": false,
-    "cena100": 6,
-    "vlaknina": 21.6,
-    "sodik": 77,
-    "balenie_g": 20,
-    "balenie_popis": "20 g celé guľôčky"
-  },
-  {
-    "kluc": "kozie mäso",
-    "oddelenie": "Mäso a ryby",
-    "alergeny": [],
-    "kcal": 110,
-    "bielkoviny": 21,
-    "tuky": 2.3,
-    "sacharidy": 0,
-    "g_za_ks": null,
-    "hustota": 1,
-    "meso": true,
-    "cena100": 1.8,
-    "vlaknina": 0,
-    "sodik": 82,
-    "balenie_g": 1000,
-    "balenie_popis": "1 kg"
   },
   {
     "kluc": "palmové srdiečka",
@@ -22367,6 +22703,59 @@
     "balenie_popis": "4 × 100 g mrazené"
   },
   {
+    "kluc": "amchur",
+    "oddelenie": "Korenie a bylinky",
+    "alergeny": [],
+    "kcal": 330,
+    "bielkoviny": 2.5,
+    "tuky": 1,
+    "sacharidy": 80,
+    "g_za_ks": null,
+    "hustota": 0.5,
+    "meso": false,
+    "cena100": 4,
+    "vlaknina": 10,
+    "sodik": 30,
+    "balenie_g": 100,
+    "balenie_popis": "100 g"
+  },
+  {
+    "kluc": "hovädzie kosti",
+    "oddelenie": "Mäso a ryby",
+    "alergeny": [],
+    "kcal": 120,
+    "bielkoviny": 11,
+    "tuky": 8,
+    "sacharidy": 0,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 0.35,
+    "vlaknina": 0,
+    "sodik": 60,
+    "balenie_g": 1000,
+    "balenie_popis": "~1 kg kostí na vývar"
+  },
+  {
+    "kluc": "ube halaya",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [
+      "mlieko"
+    ],
+    "kcal": 250,
+    "bielkoviny": 2.5,
+    "tuky": 6,
+    "sacharidy": 47,
+    "g_za_ks": null,
+    "hustota": 1.2,
+    "meso": false,
+    "cena100": 1.6,
+    "vlaknina": 2,
+    "sodik": 40,
+    "balenie_g": 340,
+    "balenie_popis": "pohár 340 g"
+  },
+  {
     "kluc": "sušené mlieko",
     "oddelenie": "Trvanlivé a konzervy",
     "alergeny": [
@@ -22469,23 +22858,6 @@
     "sodik": 2,
     "balenie_g": 500,
     "balenie_popis": "500 g"
-  },
-  {
-    "kluc": "kakaové bôby",
-    "oddelenie": "Pečenie a sladké",
-    "alergeny": [],
-    "kcal": 570,
-    "bielkoviny": 11,
-    "tuky": 50,
-    "sacharidy": 11,
-    "g_za_ks": null,
-    "hustota": 0.6,
-    "meso": false,
-    "cena100": 2.5,
-    "vlaknina": 18,
-    "sodik": 10,
-    "balenie_g": 100,
-    "balenie_popis": "100 g drvené"
   },
   {
     "kluc": "zemiakové lupienky",
@@ -22607,6 +22979,40 @@
     "sodik": 0,
     "balenie_g": 20,
     "balenie_popis": "20 ml fľaštička"
+  },
+  {
+    "kluc": "kakaové bôby",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 570,
+    "bielkoviny": 11,
+    "tuky": 50,
+    "sacharidy": 11,
+    "g_za_ks": null,
+    "hustota": 0.6,
+    "meso": false,
+    "cena100": 2.5,
+    "vlaknina": 18,
+    "sodik": 10,
+    "balenie_g": 100,
+    "balenie_popis": "100 g drvené"
+  },
+  {
+    "kluc": "nové korenie",
+    "oddelenie": "Korenie a bylinky",
+    "alergeny": [],
+    "kcal": 263,
+    "bielkoviny": 6.1,
+    "tuky": 8.7,
+    "sacharidy": 50.5,
+    "g_za_ks": 0.2,
+    "hustota": 0.5,
+    "meso": false,
+    "cena100": 6,
+    "vlaknina": 21.6,
+    "sodik": 77,
+    "balenie_g": 20,
+    "balenie_popis": "20 g celé guľôčky"
   },
   {
     "kluc": "sušené shiitake",
@@ -22872,6 +23278,963 @@
     "balenie_popis": "plechovka 410 g (nesladené)"
   },
   {
+    "kluc": "lieskovoorieškové maslo",
+    "oddelenie": "Orechy a semená",
+    "alergeny": [
+      "orechy"
+    ],
+    "kcal": 630,
+    "bielkoviny": 15,
+    "tuky": 60,
+    "sacharidy": 8,
+    "g_za_ks": null,
+    "hustota": 1.05,
+    "meso": false,
+    "cena100": 2.8,
+    "vlaknina": 9,
+    "sodik": 0,
+    "balenie_g": 250,
+    "balenie_popis": "250 g"
+  },
+  {
+    "kluc": "orieškové maslo",
+    "oddelenie": "Orechy a semená",
+    "alergeny": [
+      "orechy"
+    ],
+    "kcal": 630,
+    "bielkoviny": 15,
+    "tuky": 60,
+    "sacharidy": 8,
+    "g_za_ks": null,
+    "hustota": 1.05,
+    "meso": false,
+    "cena100": 2.8,
+    "vlaknina": 9,
+    "sodik": 0,
+    "balenie_g": 250,
+    "balenie_popis": "250 g",
+    "kanon": "lieskovoorieškové maslo"
+  },
+  {
+    "kluc": "lieskovooriešková nátierka",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "orechy",
+      "mlieko",
+      "sója"
+    ],
+    "kcal": 540,
+    "bielkoviny": 6,
+    "tuky": 31,
+    "sacharidy": 57,
+    "g_za_ks": null,
+    "hustota": 1.1,
+    "meso": false,
+    "cena100": 1.2,
+    "vlaknina": 3,
+    "sodik": 40,
+    "balenie_g": 400,
+    "balenie_popis": "400 g"
+  },
+  {
+    "kluc": "lieskovoorieškový krém",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "orechy",
+      "mlieko",
+      "sója"
+    ],
+    "kcal": 540,
+    "bielkoviny": 6,
+    "tuky": 31,
+    "sacharidy": 57,
+    "g_za_ks": null,
+    "hustota": 1.1,
+    "meso": false,
+    "cena100": 1.2,
+    "vlaknina": 3,
+    "sodik": 40,
+    "balenie_g": 400,
+    "balenie_popis": "400 g",
+    "kanon": "lieskovooriešková nátierka"
+  },
+  {
+    "kluc": "kukuričné vločky",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 378,
+    "bielkoviny": 7,
+    "tuky": 0.9,
+    "sacharidy": 84,
+    "g_za_ks": null,
+    "hustota": 0.15,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 3,
+    "sodik": 700,
+    "balenie_g": 375,
+    "balenie_popis": "375 g",
+    "kanon": "kukuričné lupienky"
+  },
+  {
+    "kluc": "corn flakes",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 378,
+    "bielkoviny": 7,
+    "tuky": 0.9,
+    "sacharidy": 84,
+    "g_za_ks": null,
+    "hustota": 0.15,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 3,
+    "sodik": 700,
+    "balenie_g": 375,
+    "balenie_popis": "375 g",
+    "kanon": "kukuričné lupienky"
+  },
+  {
+    "kluc": "cornflakes",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 378,
+    "bielkoviny": 7,
+    "tuky": 0.9,
+    "sacharidy": 84,
+    "g_za_ks": null,
+    "hustota": 0.15,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 3,
+    "sodik": 700,
+    "balenie_g": 375,
+    "balenie_popis": "375 g",
+    "kanon": "kukuričné lupienky"
+  },
+  {
+    "kluc": "cereálie",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 385,
+    "bielkoviny": 8,
+    "tuky": 3,
+    "sacharidy": 80,
+    "g_za_ks": null,
+    "hustota": 0.3,
+    "meso": false,
+    "cena100": 0.8,
+    "vlaknina": 5,
+    "sodik": 400,
+    "balenie_g": 375,
+    "balenie_popis": "375 g"
+  },
+  {
+    "kluc": "krabie tyčinky",
+    "oddelenie": "Chladené",
+    "alergeny": [
+      "ryby",
+      "lepok",
+      "vajcia",
+      "kôrovce"
+    ],
+    "kcal": 95,
+    "bielkoviny": 7.6,
+    "tuky": 0.5,
+    "sacharidy": 15,
+    "g_za_ks": 17,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 0.9,
+    "vlaknina": 0,
+    "sodik": 840,
+    "balenie_g": 250,
+    "balenie_popis": "250 g"
+  },
+  {
+    "kluc": "miso",
+    "oddelenie": "Chladené",
+    "alergeny": [
+      "sója"
+    ],
+    "kcal": 200,
+    "bielkoviny": 12,
+    "tuky": 6,
+    "sacharidy": 26,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 2,
+    "vlaknina": 5.4,
+    "sodik": 3728,
+    "balenie_g": 300,
+    "balenie_popis": "300 g",
+    "kanon": "miso pasta"
+  },
+  {
+    "kluc": "miso polievka",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [
+      "sója"
+    ],
+    "kcal": 40,
+    "bielkoviny": 2.5,
+    "tuky": 1.2,
+    "sacharidy": 5,
+    "g_za_ks": 250,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.2,
+    "vlaknina": 0.5,
+    "sodik": 900,
+    "balenie_g": 30,
+    "balenie_popis": "3 vrecká (instantná)"
+  },
+  {
+    "kluc": "injera",
+    "oddelenie": "Pečivo",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 130,
+    "bielkoviny": 4,
+    "tuky": 1,
+    "sacharidy": 27,
+    "g_za_ks": 120,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1,
+    "vlaknina": 3,
+    "sodik": 100,
+    "balenie_g": 400,
+    "balenie_popis": "400 g"
+  },
+  {
+    "kluc": "perník",
+    "oddelenie": "Pečivo",
+    "alergeny": [
+      "lepok",
+      "vajcia"
+    ],
+    "kcal": 350,
+    "bielkoviny": 5,
+    "tuky": 4,
+    "sacharidy": 73,
+    "g_za_ks": 40,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.8,
+    "vlaknina": 2,
+    "sodik": 150,
+    "balenie_g": 300,
+    "balenie_popis": "300 g"
+  },
+  {
+    "kluc": "prášok do perníka",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 60,
+    "bielkoviny": 0,
+    "tuky": 0,
+    "sacharidy": 30,
+    "g_za_ks": 12,
+    "hustota": 0.9,
+    "meso": false,
+    "cena100": 2.5,
+    "vlaknina": 1,
+    "sodik": 10000,
+    "balenie_g": 12,
+    "balenie_popis": "12 g",
+    "kanon": "prášok do pečiva"
+  },
+  {
+    "kluc": "nugát",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "orechy",
+      "mlieko"
+    ],
+    "kcal": 530,
+    "bielkoviny": 6,
+    "tuky": 30,
+    "sacharidy": 58,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.8,
+    "vlaknina": 3,
+    "sodik": 30,
+    "balenie_g": 200,
+    "balenie_popis": "200 g"
+  },
+  {
+    "kluc": "pralinka",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "orechy",
+      "mlieko",
+      "sója"
+    ],
+    "kcal": 520,
+    "bielkoviny": 6,
+    "tuky": 30,
+    "sacharidy": 55,
+    "g_za_ks": 12,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 3,
+    "vlaknina": 3,
+    "sodik": 40,
+    "balenie_g": 200,
+    "balenie_popis": "bonboniéra 200 g"
+  },
+  {
+    "kluc": "baklava",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "lepok",
+      "orechy",
+      "mlieko"
+    ],
+    "kcal": 430,
+    "bielkoviny": 6,
+    "tuky": 23,
+    "sacharidy": 50,
+    "g_za_ks": 40,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 2.5,
+    "vlaknina": 2,
+    "sodik": 250,
+    "balenie_g": 250,
+    "balenie_popis": "250 g"
+  },
+  {
+    "kluc": "frangelico",
+    "oddelenie": "Alkohol",
+    "alergeny": [
+      "orechy"
+    ],
+    "kcal": 270,
+    "bielkoviny": 0,
+    "tuky": 0,
+    "sacharidy": 30,
+    "g_za_ks": null,
+    "hustota": 1.08,
+    "meso": false,
+    "cena100": 3.4,
+    "vlaknina": 0,
+    "sodik": 0,
+    "balenie_g": 700,
+    "balenie_popis": "700 ml",
+    "kanon": "lieskovoorieškový likér"
+  },
+  {
+    "kluc": "oblátky",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 390,
+    "bielkoviny": 8,
+    "tuky": 3,
+    "sacharidy": 80,
+    "g_za_ks": 15,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.5,
+    "vlaknina": 3,
+    "sodik": 10,
+    "balenie_g": 100,
+    "balenie_popis": "100 g"
+  },
+  {
+    "kluc": "halušky",
+    "oddelenie": "Cestoviny a ryža",
+    "alergeny": [
+      "lepok",
+      "vajcia"
+    ],
+    "kcal": 350,
+    "bielkoviny": 11,
+    "tuky": 2,
+    "sacharidy": 72,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.4,
+    "vlaknina": 3,
+    "sodik": 20,
+    "balenie_g": 500,
+    "balenie_popis": "500 g"
+  },
+  {
+    "kluc": "panko",
+    "oddelenie": "Pečivo",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 380,
+    "bielkoviny": 12,
+    "tuky": 4,
+    "sacharidy": 74,
+    "g_za_ks": null,
+    "hustota": 0.25,
+    "meso": false,
+    "cena100": 1,
+    "vlaknina": 3,
+    "sodik": 500,
+    "balenie_g": 200,
+    "balenie_popis": "200 g"
+  },
+  {
+    "kluc": "kokosové nesladené mlieko",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [],
+    "kcal": 197,
+    "bielkoviny": 2,
+    "tuky": 21,
+    "sacharidy": 3,
+    "g_za_ks": 400,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.5,
+    "vlaknina": 2.2,
+    "sodik": 15,
+    "balenie_g": 400,
+    "balenie_popis": "400 ml",
+    "kanon": "kokosové mlieko"
+  },
+  {
+    "kluc": "mlieko kokosové",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [],
+    "kcal": 197,
+    "bielkoviny": 2,
+    "tuky": 21,
+    "sacharidy": 3,
+    "g_za_ks": 400,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.5,
+    "vlaknina": 2.2,
+    "sodik": 15,
+    "balenie_g": 400,
+    "balenie_popis": "400 ml",
+    "kanon": "kokosové mlieko"
+  },
+  {
+    "kluc": "kokosové fliačky",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 660,
+    "bielkoviny": 7,
+    "tuky": 65,
+    "sacharidy": 6,
+    "g_za_ks": 10,
+    "hustota": 0.35,
+    "meso": false,
+    "cena100": 1,
+    "vlaknina": 1,
+    "sodik": 25,
+    "balenie_g": 200,
+    "balenie_popis": "200 g",
+    "kanon": "kokos"
+  },
+  {
+    "kluc": "kokosové chipsy",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 660,
+    "bielkoviny": 7,
+    "tuky": 65,
+    "sacharidy": 6,
+    "g_za_ks": 10,
+    "hustota": 0.35,
+    "meso": false,
+    "cena100": 1,
+    "vlaknina": 1,
+    "sodik": 25,
+    "balenie_g": 200,
+    "balenie_popis": "200 g",
+    "kanon": "kokos"
+  },
+  {
+    "kluc": "vývar z kostí",
+    "oddelenie": "Mäso a ryby",
+    "alergeny": [],
+    "kcal": 20,
+    "bielkoviny": 4,
+    "tuky": 0.5,
+    "sacharidy": 0.5,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 0.3,
+    "vlaknina": 0,
+    "sodik": 300,
+    "balenie_g": 1000,
+    "balenie_popis": "1 l"
+  },
+  {
+    "kluc": "kostný vývar",
+    "oddelenie": "Mäso a ryby",
+    "alergeny": [],
+    "kcal": 20,
+    "bielkoviny": 4,
+    "tuky": 0.5,
+    "sacharidy": 0.5,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 0.3,
+    "vlaknina": 0,
+    "sodik": 300,
+    "balenie_g": 1000,
+    "balenie_popis": "1 l",
+    "kanon": "vývar z kostí"
+  },
+  {
+    "kluc": "vývar z hovädzích kostí",
+    "oddelenie": "Mäso a ryby",
+    "alergeny": [],
+    "kcal": 20,
+    "bielkoviny": 4,
+    "tuky": 0.5,
+    "sacharidy": 0.5,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 0.3,
+    "vlaknina": 0,
+    "sodik": 300,
+    "balenie_g": 1000,
+    "balenie_popis": "1 l",
+    "kanon": "vývar z kostí"
+  },
+  {
+    "kluc": "vývar z bravčových rebierok",
+    "oddelenie": "Mäso a ryby",
+    "alergeny": [],
+    "kcal": 20,
+    "bielkoviny": 4,
+    "tuky": 0.5,
+    "sacharidy": 0.5,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": true,
+    "cena100": 0.3,
+    "vlaknina": 0,
+    "sodik": 300,
+    "balenie_g": 1000,
+    "balenie_popis": "1 l",
+    "kanon": "vývar z kostí"
+  },
+  {
+    "kluc": "vínny ocot",
+    "oddelenie": "Omáčky a dochucovadlá",
+    "alergeny": [
+      "siričitany"
+    ],
+    "kcal": 19,
+    "bielkoviny": 0,
+    "tuky": 0,
+    "sacharidy": 0.3,
+    "g_za_ks": null,
+    "hustota": 1.01,
+    "meso": false,
+    "cena100": 0.3,
+    "vlaknina": 0,
+    "sodik": 8,
+    "balenie_g": 500,
+    "balenie_popis": "500 ml"
+  },
+  {
+    "kluc": "ocot vínny",
+    "oddelenie": "Omáčky a dochucovadlá",
+    "alergeny": [
+      "siričitany"
+    ],
+    "kcal": 19,
+    "bielkoviny": 0,
+    "tuky": 0,
+    "sacharidy": 0.3,
+    "g_za_ks": null,
+    "hustota": 1.01,
+    "meso": false,
+    "cena100": 0.3,
+    "vlaknina": 0,
+    "sodik": 8,
+    "balenie_g": 500,
+    "balenie_popis": "500 ml",
+    "kanon": "vínny ocot"
+  },
+  {
+    "kluc": "ocot sherry",
+    "oddelenie": "Omáčky a dochucovadlá",
+    "alergeny": [
+      "siričitany"
+    ],
+    "kcal": 20,
+    "bielkoviny": 0,
+    "tuky": 0,
+    "sacharidy": 1,
+    "g_za_ks": null,
+    "hustota": 1.01,
+    "meso": false,
+    "cena100": 2,
+    "vlaknina": 0,
+    "sodik": 0,
+    "kanon": "sherry ocot"
+  },
+  {
+    "kluc": "ryžové víno",
+    "oddelenie": "Alkohol",
+    "alergeny": [],
+    "kcal": 134,
+    "bielkoviny": 0.5,
+    "tuky": 0,
+    "sacharidy": 5,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.5,
+    "vlaknina": 0,
+    "sodik": 2,
+    "balenie_g": 750,
+    "balenie_popis": "750 ml"
+  },
+  {
+    "kluc": "shaoxing ryžové víno",
+    "oddelenie": "Alkohol",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 100,
+    "bielkoviny": 0.3,
+    "tuky": 0,
+    "sacharidy": 4,
+    "g_za_ks": null,
+    "hustota": 0.99,
+    "meso": false,
+    "cena100": 1.2,
+    "vlaknina": 0,
+    "sodik": 800,
+    "kanon": "shaoxing"
+  },
+  {
+    "kluc": "bezlepková múka",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 350,
+    "bielkoviny": 3,
+    "tuky": 1,
+    "sacharidy": 80,
+    "g_za_ks": 100,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 3,
+    "sodik": 30,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg"
+  },
+  {
+    "kluc": "múka bezlepková",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 350,
+    "bielkoviny": 3,
+    "tuky": 1,
+    "sacharidy": 80,
+    "g_za_ks": 100,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 3,
+    "sodik": 30,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg",
+    "kanon": "bezlepková múka"
+  },
+  {
+    "kluc": "múka bezgluténová",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 350,
+    "bielkoviny": 3,
+    "tuky": 1,
+    "sacharidy": 80,
+    "g_za_ks": 100,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 3,
+    "sodik": 30,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg",
+    "kanon": "bezlepková múka"
+  },
+  {
+    "kluc": "bezgluténová múka",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 350,
+    "bielkoviny": 3,
+    "tuky": 1,
+    "sacharidy": 80,
+    "g_za_ks": 100,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 3,
+    "sodik": 30,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg",
+    "kanon": "bezlepková múka"
+  },
+  {
+    "kluc": "bezlepková múčna zmes",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 350,
+    "bielkoviny": 3,
+    "tuky": 1,
+    "sacharidy": 80,
+    "g_za_ks": 100,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 3,
+    "sodik": 30,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg",
+    "kanon": "bezlepková múka"
+  },
+  {
+    "kluc": "bread mix",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 350,
+    "bielkoviny": 3,
+    "tuky": 1,
+    "sacharidy": 80,
+    "g_za_ks": 100,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 3,
+    "sodik": 30,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg",
+    "kanon": "bezlepková múka"
+  },
+  {
+    "kluc": "palacinky bezgluténové",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 350,
+    "bielkoviny": 3,
+    "tuky": 1,
+    "sacharidy": 80,
+    "g_za_ks": 100,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 3,
+    "sodik": 30,
+    "balenie_g": 1000,
+    "balenie_popis": "1 kg",
+    "kanon": "bezlepková múka"
+  },
+  {
+    "kluc": "múka ryžová",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 366,
+    "bielkoviny": 6,
+    "tuky": 1.4,
+    "sacharidy": 80,
+    "g_za_ks": null,
+    "hustota": 0.6,
+    "meso": false,
+    "cena100": 0.5,
+    "vlaknina": 2.4,
+    "sodik": 0,
+    "balenie_g": 500,
+    "balenie_popis": "500 g",
+    "kanon": "ryžová múka"
+  },
+  {
+    "kluc": "múka kukuričná",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 361,
+    "bielkoviny": 7,
+    "tuky": 3.9,
+    "sacharidy": 77,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 7,
+    "sodik": 5,
+    "balenie_g": 500,
+    "balenie_popis": "500 g",
+    "kanon": "kukuričná múka"
+  },
+  {
+    "kluc": "bezlepkové cestoviny",
+    "oddelenie": "Cestoviny a ryža",
+    "alergeny": [],
+    "kcal": 355,
+    "bielkoviny": 7,
+    "tuky": 1.5,
+    "sacharidy": 78,
+    "g_za_ks": 500,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.5,
+    "vlaknina": 3,
+    "sodik": 5,
+    "balenie_g": 500,
+    "balenie_popis": "500 g"
+  },
+  {
+    "kluc": "bezlepkový chlieb",
+    "oddelenie": "Pečivo",
+    "alergeny": [],
+    "kcal": 250,
+    "bielkoviny": 3,
+    "tuky": 6,
+    "sacharidy": 45,
+    "g_za_ks": 30,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.8,
+    "vlaknina": 5,
+    "sodik": 450,
+    "balenie_g": 300,
+    "balenie_popis": "300 g",
+    "g_za_platok": 30
+  },
+  {
+    "kluc": "bezlepkové pečivo",
+    "oddelenie": "Pečivo",
+    "alergeny": [],
+    "kcal": 250,
+    "bielkoviny": 3,
+    "tuky": 6,
+    "sacharidy": 45,
+    "g_za_ks": 30,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.8,
+    "vlaknina": 5,
+    "sodik": 450,
+    "balenie_g": 300,
+    "balenie_popis": "300 g",
+    "g_za_platok": 30,
+    "kanon": "bezlepkový chlieb"
+  },
+  {
+    "kluc": "chlebíček",
+    "oddelenie": "Pečivo",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 250,
+    "bielkoviny": 8,
+    "tuky": 3,
+    "sacharidy": 49,
+    "g_za_ks": 40,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.25,
+    "vlaknina": 6,
+    "sodik": 500,
+    "balenie_g": 500,
+    "balenie_popis": "500 g",
+    "g_za_platok": 40
+  },
+  {
+    "kluc": "bezlepková strúhanka",
+    "oddelenie": "Pečivo",
+    "alergeny": [],
+    "kcal": 380,
+    "bielkoviny": 6,
+    "tuky": 3,
+    "sacharidy": 80,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.8,
+    "vlaknina": 3,
+    "sodik": 400,
+    "balenie_g": 250,
+    "balenie_popis": "250 g"
+  },
+  {
+    "kluc": "bezlepkové ovsené vločky",
+    "oddelenie": "Cestoviny a ryža",
+    "alergeny": [],
+    "kcal": 375,
+    "bielkoviny": 13,
+    "tuky": 7,
+    "sacharidy": 60,
+    "g_za_ks": null,
+    "hustota": 0.45,
+    "meso": false,
+    "cena100": 0.4,
+    "vlaknina": 9,
+    "sodik": 5,
+    "balenie_g": 500,
+    "balenie_popis": "500 g",
+    "kanon": "bezlepkové vločky"
+  },
+  {
+    "kluc": "ryžové vločky",
+    "oddelenie": "Cestoviny a ryža",
+    "alergeny": [],
+    "kcal": 370,
+    "bielkoviny": 7,
+    "tuky": 1,
+    "sacharidy": 80,
+    "g_za_ks": null,
+    "hustota": 0.45,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 2,
+    "sodik": 5,
+    "balenie_g": 250,
+    "balenie_popis": "250 g"
+  },
+  {
+    "kluc": "ryžový kvások",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 180,
+    "bielkoviny": 6,
+    "tuky": 1,
+    "sacharidy": 36,
+    "g_za_ks": 42,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.3,
+    "vlaknina": 3,
+    "sodik": 0,
+    "kanon": "bezlepkový kvások"
+  },
+  {
     "kluc": "petržlenová vňať",
     "oddelenie": "Zelenina a ovocie",
     "alergeny": [],
@@ -22887,6 +24250,98 @@
     "sodik": 56,
     "balenie_g": 40,
     "balenie_popis": "zväzok 40 g"
+  },
+  {
+    "kluc": "ryžová krupica",
+    "oddelenie": "Cestoviny a ryža",
+    "alergeny": [],
+    "kcal": 360,
+    "bielkoviny": 7,
+    "tuky": 0.6,
+    "sacharidy": 80,
+    "g_za_ks": null,
+    "hustota": 0.8,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 1,
+    "sodik": 5,
+    "balenie_g": 400,
+    "balenie_popis": "400 g"
+  },
+  {
+    "kluc": "krupicová ryžová",
+    "oddelenie": "Cestoviny a ryža",
+    "alergeny": [],
+    "kcal": 360,
+    "bielkoviny": 7,
+    "tuky": 0.6,
+    "sacharidy": 80,
+    "g_za_ks": null,
+    "hustota": 0.8,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 1,
+    "sodik": 5,
+    "balenie_g": 400,
+    "balenie_popis": "400 g",
+    "kanon": "ryžová krupica"
+  },
+  {
+    "kluc": "tekvicové gnocchi",
+    "oddelenie": "Cestoviny a ryža",
+    "alergeny": [
+      "lepok",
+      "vajcia"
+    ],
+    "kcal": 150,
+    "bielkoviny": 4,
+    "tuky": 2,
+    "sacharidy": 29,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.6,
+    "vlaknina": 2.5,
+    "sodik": 5
+  },
+  {
+    "kluc": "zmes na hŕstkovú polievku",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [
+      "lepok"
+    ],
+    "kcal": 330,
+    "bielkoviny": 18,
+    "tuky": 1.5,
+    "sacharidy": 55,
+    "g_za_ks": null,
+    "hustota": 0.8,
+    "meso": false,
+    "cena100": 0.5,
+    "vlaknina": 12,
+    "sodik": 10,
+    "balenie_g": 500,
+    "balenie_popis": "500 g"
+  },
+  {
+    "kluc": "orechovo medové vločky",
+    "oddelenie": "Cestoviny a ryža",
+    "alergeny": [
+      "lepok",
+      "orechy"
+    ],
+    "kcal": 450,
+    "bielkoviny": 10,
+    "tuky": 18,
+    "sacharidy": 60,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.2,
+    "vlaknina": 7,
+    "sodik": 60,
+    "balenie_g": 350,
+    "balenie_popis": "350 g"
   },
   {
     "kluc": "zázvorový likér",
@@ -22989,74 +24444,6 @@
     "sodik": 1,
     "balenie_g": 40,
     "balenie_popis": "20 vrecúšok (pražený koreň púpavy / jačmenný čaj)"
-  },
-  {
-    "kluc": "kvety motýlieho hrachu",
-    "oddelenie": "Korenie a bylinky",
-    "alergeny": [],
-    "kcal": 0,
-    "bielkoviny": 0,
-    "tuky": 0,
-    "sacharidy": 0,
-    "g_za_ks": null,
-    "hustota": 1,
-    "meso": false,
-    "cena100": 24,
-    "vlaknina": 0,
-    "sodik": 0,
-    "balenie_g": 25,
-    "balenie_popis": "25 g sušených kvetov (butterfly pea, čaj)"
-  },
-  {
-    "kluc": "pomarančová kvetová voda",
-    "oddelenie": "Pečenie a sladké",
-    "alergeny": [],
-    "kcal": 0,
-    "bielkoviny": 0,
-    "tuky": 0,
-    "sacharidy": 0,
-    "g_za_ks": null,
-    "hustota": 1,
-    "meso": false,
-    "cena100": 4,
-    "vlaknina": 0,
-    "sodik": 0,
-    "balenie_g": 100,
-    "balenie_popis": "100 ml"
-  },
-  {
-    "kluc": "ube extrakt",
-    "oddelenie": "Pečenie a sladké",
-    "alergeny": [],
-    "kcal": 0,
-    "bielkoviny": 0,
-    "tuky": 0,
-    "sacharidy": 0,
-    "g_za_ks": null,
-    "hustota": 1,
-    "meso": false,
-    "cena100": 15,
-    "vlaknina": 0,
-    "sodik": 0,
-    "balenie_g": 30,
-    "balenie_popis": "30 ml fľaštička"
-  },
-  {
-    "kluc": "liči",
-    "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [],
-    "kcal": 76,
-    "bielkoviny": 0.4,
-    "tuky": 0.4,
-    "sacharidy": 18.5,
-    "g_za_ks": 10,
-    "hustota": 1,
-    "meso": false,
-    "cena100": 0.8,
-    "vlaknina": 0.9,
-    "sodik": 1,
-    "balenie_g": 567,
-    "balenie_popis": "plechovka 567 g (v sirupe)"
   },
   {
     "kluc": "popping boba",
@@ -23231,6 +24618,40 @@
     "balenie_popis": "20 vrecúšok (≈ 4 l čaju)"
   },
   {
+    "kluc": "kvety motýlieho hrachu",
+    "oddelenie": "Korenie a bylinky",
+    "alergeny": [],
+    "kcal": 0,
+    "bielkoviny": 0,
+    "tuky": 0,
+    "sacharidy": 0,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 24,
+    "vlaknina": 0,
+    "sodik": 0,
+    "balenie_g": 25,
+    "balenie_popis": "25 g sušených kvetov (butterfly pea, čaj)"
+  },
+  {
+    "kluc": "pomarančová kvetová voda",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 0,
+    "bielkoviny": 0,
+    "tuky": 0,
+    "sacharidy": 0,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 4,
+    "vlaknina": 0,
+    "sodik": 0,
+    "balenie_g": 100,
+    "balenie_popis": "100 ml"
+  },
+  {
     "kluc": "nata de coco",
     "oddelenie": "Trvanlivé a konzervy",
     "alergeny": [],
@@ -23246,26 +24667,6 @@
     "sodik": 10,
     "balenie_g": 340,
     "balenie_popis": "pohár 340 g (v sirupe)"
-  },
-  {
-    "kluc": "pšeničná krupica",
-    "oddelenie": "Cestoviny a ryža",
-    "alergeny": [
-      "lepok"
-    ],
-    "kcal": 360,
-    "bielkoviny": 12,
-    "tuky": 1,
-    "sacharidy": 73,
-    "g_za_ks": null,
-    "hustota": 1,
-    "meso": false,
-    "cena100": 0.2,
-    "vlaknina": 3,
-    "sodik": 1,
-    "balenie_g": 1000,
-    "balenie_popis": "1 kg",
-    "kanon": "krupica"
   },
   {
     "kluc": "kokosová aróma",
@@ -23304,6 +24705,23 @@
     "balenie_popis": "fľaša 240 ml"
   },
   {
+    "kluc": "ube extrakt",
+    "oddelenie": "Pečenie a sladké",
+    "alergeny": [],
+    "kcal": 0,
+    "bielkoviny": 0,
+    "tuky": 0,
+    "sacharidy": 0,
+    "g_za_ks": null,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 15,
+    "vlaknina": 0,
+    "sodik": 0,
+    "balenie_g": 30,
+    "balenie_popis": "30 ml fľaštička"
+  },
+  {
     "kluc": "chmeľ",
     "oddelenie": "Ostatné",
     "alergeny": [],
@@ -23319,6 +24737,23 @@
     "sodik": 10,
     "balenie_g": 50,
     "balenie_popis": "50 g granule"
+  },
+  {
+    "kluc": "liči",
+    "oddelenie": "Trvanlivé a konzervy",
+    "alergeny": [],
+    "kcal": 76,
+    "bielkoviny": 0.4,
+    "tuky": 0.4,
+    "sacharidy": 18.5,
+    "g_za_ks": 10,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 0.8,
+    "vlaknina": 0.9,
+    "sodik": 1,
+    "balenie_g": 567,
+    "balenie_popis": "plechovka 567 g (v sirupe)"
   },
   {
     "kluc": "kuracia klobása",
@@ -23338,27 +24773,6 @@
     "balenie_popis": "4 ks"
   },
   {
-    "kluc": "lieskovooriešková nátierka",
-    "oddelenie": "Pečenie a sladké",
-    "alergeny": [
-      "orechy",
-      "mlieko",
-      "sója"
-    ],
-    "kcal": 540,
-    "bielkoviny": 6,
-    "tuky": 31,
-    "sacharidy": 57,
-    "g_za_ks": null,
-    "hustota": 1.1,
-    "meso": false,
-    "cena100": 1.2,
-    "vlaknina": 3,
-    "sodik": 40,
-    "balenie_g": 400,
-    "balenie_popis": "400 g"
-  },
-  {
     "kluc": "snehové pusinky",
     "oddelenie": "Pečenie a sladké",
     "alergeny": [
@@ -23376,25 +24790,6 @@
     "sodik": 85,
     "balenie_g": 100,
     "balenie_popis": "1 vrecko 100 g"
-  },
-  {
-    "kluc": "cereálie",
-    "oddelenie": "Trvanlivé a konzervy",
-    "alergeny": [
-      "lepok"
-    ],
-    "kcal": 385,
-    "bielkoviny": 8,
-    "tuky": 3,
-    "sacharidy": 80,
-    "g_za_ks": null,
-    "hustota": 0.3,
-    "meso": false,
-    "cena100": 0.8,
-    "vlaknina": 5,
-    "sodik": 400,
-    "balenie_g": 375,
-    "balenie_popis": "375 g"
   },
   {
     "kluc": "sladkokyslá omáčka",
@@ -23435,61 +24830,6 @@
     "balenie_popis": "10 ks"
   },
   {
-    "kluc": "karambola",
-    "oddelenie": "Zelenina a ovocie",
-    "alergeny": [],
-    "kcal": 31,
-    "bielkoviny": 1,
-    "tuky": 0.3,
-    "sacharidy": 6.7,
-    "g_za_ks": 90,
-    "hustota": 1,
-    "meso": false,
-    "cena100": 1.2,
-    "vlaknina": 2.8,
-    "sodik": 2,
-    "balenie_g": 90,
-    "balenie_popis": "1 ks"
-  },
-  {
-    "kluc": "balzamikový ocot",
-    "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [
-      "siričitany"
-    ],
-    "kcal": 88,
-    "bielkoviny": 0.5,
-    "tuky": 0,
-    "sacharidy": 17,
-    "g_za_ks": null,
-    "hustota": 1.06,
-    "meso": false,
-    "cena100": 0.5,
-    "vlaknina": 0,
-    "sodik": 23,
-    "balenie_g": 500,
-    "balenie_popis": "500 ml"
-  },
-  {
-    "kluc": "vínny ocot",
-    "oddelenie": "Omáčky a dochucovadlá",
-    "alergeny": [
-      "siričitany"
-    ],
-    "kcal": 19,
-    "bielkoviny": 0,
-    "tuky": 0,
-    "sacharidy": 0.3,
-    "g_za_ks": null,
-    "hustota": 1.01,
-    "meso": false,
-    "cena100": 0.3,
-    "vlaknina": 0,
-    "sodik": 8,
-    "balenie_g": 500,
-    "balenie_popis": "500 ml"
-  },
-  {
     "kluc": "tortellini",
     "oddelenie": "Chladené",
     "alergeny": [
@@ -23526,6 +24866,42 @@
     "sodik": 466,
     "balenie_g": 85,
     "balenie_popis": "1 vrecúško 85 g"
+  },
+  {
+    "kluc": "karambola",
+    "oddelenie": "Zelenina a ovocie",
+    "alergeny": [],
+    "kcal": 31,
+    "bielkoviny": 1,
+    "tuky": 0.3,
+    "sacharidy": 6.7,
+    "g_za_ks": 90,
+    "hustota": 1,
+    "meso": false,
+    "cena100": 1.2,
+    "vlaknina": 2.8,
+    "sodik": 2,
+    "balenie_g": 90,
+    "balenie_popis": "1 ks"
+  },
+  {
+    "kluc": "balzamikový ocot",
+    "oddelenie": "Omáčky a dochucovadlá",
+    "alergeny": [
+      "siričitany"
+    ],
+    "kcal": 88,
+    "bielkoviny": 0.5,
+    "tuky": 0,
+    "sacharidy": 17,
+    "g_za_ks": null,
+    "hustota": 1.06,
+    "meso": false,
+    "cena100": 0.5,
+    "vlaknina": 0,
+    "sodik": 23,
+    "balenie_g": 500,
+    "balenie_popis": "500 ml"
   },
   {
     "kluc": "ranch dresing",

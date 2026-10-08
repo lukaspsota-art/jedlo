@@ -139,7 +139,9 @@ vsiaknutie?}], postup[], tipy, foto, tagy[], typ?`.
   anglický/domáci dopyt, záložný]}`, písané ručne — strojový preklad SK názvu na Commons nesadne).
   Len voľné licencie (`VOLNE_LICENCIE`), jeden súbor = jeden recept (okrem kúpených výrobkov
   a behu s `--zdielat`), na šírku má prednosť.
-  Fotka je **ilustračná** (druh jedla, nie tento recept) — popis v detaile to hovorí. Vybrané
+  Fotka je **ilustračná** (druh jedla, nie tento recept). **Od 6. 10. 2026 detail popis/atribúciu
+  fotky NEukazuje** (voľba používateľa; `FOTO_ZDROJE` sa ďalej vkladá, len sa nekreslí) a fotku
+  ukazuje celú, bez orezu na 16:9. Vybrané
   fotky treba **prezrieť zrakom**; zlú vyhodí `--zamietni id,…` (zapíše súbor do
   `scripts/foto_zamietnute.json`) a ďalší beh `hladaj` vezme ďalšieho kandidáta. Nové fotky
   sú 480×270 WebP q62 (~19 KB), staršie 320×180. Varecha, BBC GF, Allrecipes sú zakázané.
@@ -724,7 +726,14 @@ RecipeTin Eats 5 · iné ~15.
   a zapíše `ZDROJE.json` s `© vydavateľ`). Fotka = **skutočná fotka receptu z knihy**, nie voľná
   licencia — publikovanie v `docs/` je výslovná voľba používateľa. Fotka sa páruje podľa
   **dvojstrany tlačenej knihy** (značky `page_N`), textúry a herné ilustrácie (< 150 KB) sa
-  vyraďujú. Kategória `Snack` je pre knihy zakázaná (len kúpené výrobky). Hotové: Minecraft (44).
+  vyraďujú. Fotka z knihy sa NEoreže (`na_webp(..., orez=False)`, celá do 480×480). Kategória
+  `Snack` je pre knihy zakázaná (len kúpené výrobky). **Hotových všetkých 26 kníh (8. 10. 2026)**,
+  1 750 receptov; zdroj = „<kniha> – <anglický názov>“. Hearthstone je PDF — raz vyťažený
+  jednorazovým skriptom (pypdf: text strany + portrétny obrázok z predošlej strany bez textu), raw
+  má pole `text` namiesto `ing/kroky`. Pri importe sa pridávajú potraviny cez kontrolu dopadu:
+  nový kľúč nesmie bez overenia zmeniť párovanie starších receptov (`harmanček` je zamietnutý —
+  „Harmančekový sirup“ by sa napároval na sušený čaj). Olej na vyprážanie: objem knihy (2–3 l)
+  × 0,12 dáva nereálne kcal — píše sa reálna náplň fritézy (~1 l) a pôvodné číslo do poznámky.
 - **Varecha.sk:** `robots.txt` povoľuje `Claude-User` (user-initiated fetch), zakazuje `ClaudeBot`
   (training). Content Policy vyžaduje **atribúciu + aktívny odkaz** → preto `zdroj` aj `zdroj_url`
   v každom recepte. Recepty sa parsujú z `application/ld+json` (schema.org Recipe), množstvá sú
@@ -765,6 +774,91 @@ RecipeTin Eats 5 · iné ~15.
   nie z hmoty). Rozdiel > 10 % appka priznáva značkou „≈ odhad".
 - **Vláknina 22,9 g/deň bola chyba merania, nie méta.** Ťahal ju jeden recept s kilogramom
   chleba na porciu. Skutočnosť je ~18,5 g ⟳ proti odporúčaným 25–30.
+
+## Audit 8. 10. 2026 — 5 rolí (dizajnér, bežný používateľ, výživa, kuchár, kritik) — v34
+Appku používajú aj iní ľudia: výživa sa meria podľa EFSA/WHO, nie podľa čísel autora.
+- **Diéty platia aj na prílohy:** `prilohaPre` pustí `prf:` token aj recept-prílohu len cez
+  `_prilohaPrejde` (→ `prejdeProfil(komponent(id))`); polievka/šalát majú v `_prilohaDruh` POLE
+  náhrad (`prf:vajcia`, `prf:zelenina`), nátierka ide cez `natierkaPriloha()`. Šalát s ≥ 20 g
+  bielkovín na porciu bielkovinový doplnok nedostane (Niçoise + kuracie).
+- **Vegetarián = zakázané „mäso"** (`jeBezMasa`/`bezMasaNastav`, prepínač v uvítaní aj v
+  Nastaveniach `#p-veg`) — žiadny nový kľúč stavu. Zakázaná surovina, ktorá je názvom alergénu EÚ
+  (orechy, horčica, zeler, sezam, sója…), platí podľa `alergenyReceptu`. Hľadanie „bez lepku" /
+  „bez laktózy" je diétny príznak (`_dotaz` → `p.lepok`/`p.mlieko`), nie slovo.
+- `potraviny.json`: pšeničná múka už nesadá na `pšeno`; `meso:true` majú aj masť, želatína,
+  mäsový vývar/bujón; nové alergény horčica, zeler, siričitany…
+- **Predvolený cieľ bielkovín 20 % E** (`B_PODIEL_DEF`, predtým 30 % ≈ 2,4 g/kg). Hustotný bonus
+  v `skoreJedla` ostal, takže reálne ~27 % E. Kto chce viac, nastaví „Min. bielkovín".
+- **Ryba:** strop ceny 2× vyšší + `GEN_SK.ryba` 0,06 → 0,9–2 rybacie jedlá/týž (bolo 54–67 %
+  týždňov bez ryby). 0,3 dalo 3–4,5/týž — batch naťahuje jedlo na 2–3 dni.
+- `hodnVaha`: recept so `zdroj` = `ZDROJ_NAVRH` („Jedlo — návrh (neoverený)", 207 receptov
+  napísaných strojovo) má polovičnú váhu, kým ho niekto neohodnotí.
+- **Plán varenia** delí jedlá cez `skladovanie(k)` na *navar dopredu* (od najdlhšieho) / *priprav
+  v deň jedenia* (sendviče, šaláty, surová ryba, pečivo) / *len kúpiť* a hovorí o skladovaní.
+- Varenie: `parseCasSek` vie hodiny, „1 hodinu 30 minút", „pol hodiny"; `krokHint` páruje tvar
+  slova (`_krokSlovo`). Výživa: dlaždica **Soľ g /5 g** (WHO) namiesto sodíka /2300 mg.
+- Nákup: voda a dochucovadlo s spotrebou ≤ 60 g a < 10 % balenia idú medzi „základné veci";
+  riadok píše „(do jedál X)" v jednotke balenia; „Nakupujem na:" má viditeľnú menovku.
+- Poistky: varovanie pod 1200 kcal, `navigator.storage.persist()`, pripomienka zálohy raz za
+  30 dní bez synchronizácie (`kucharka_zaloha_t` / `kucharka_pripomienka_t` mimo `S`).
+- Opravené: v `_masoTypVypocet` boli namiesto `\b` znaky backspace (0x08) — „kura" a „ryba"
+  sa ako slovo nikdy nechytili. **Pozor pri úpravách cez Bash heredoc: `\b` sa zmení na 0x08.**
+- Dáta receptov (651 súborov): 22 názvov podľa zdroja, 100 falošných „vegetariánske", 178
+  generických tipov preč, 63 chýbajúcich surovín, 18× „navariť na celý blok" pri surovom/čerstvom.
+  Zoznam zmien: scratchpad relácie `fix-recepty/zmeny.json` (nie v repe).
+- **Vedome NEZMENENÉ (rozhodnutie používateľa):** repo ostáva verejné (licencie fotiek z kníh),
+  herné kuchárky zapnuté, registrácia Supabase ostáva.
+- **Akcent je neutrálny:** `--akcent`/`--akcent-tlac` = `--text` (primárne tlačidlo tmavé, v tmavej
+  téme svetlé; `kontrast_bloky.py` kontroluje `na-bloku` na `text`). `nastavAkcent()` už nič
+  nenastavuje. Farbu bloku nesú len hlavičky blokov, znaky A/B/C, pás dňa a varenie (lokálne).
+- **„✨ Zostaviť jedálniček" generuje rovno** (`generujTlacidlo`); dotazník (`otvorGen`) je
+  v „⋯ Viac → ⚙️ Nastavenie generovania" na Domove aj v Pláne.
+- **Import receptu** vo formulári „+ Nový recept": `parseReceptImport(text,url)` (JSON-LD schema.org
+  vrátane `@graph`/`HowToSection`, inak text s nadpismi Suroviny/Postup alebo heuristika),
+  `parseIngRiadok` (oboje poradie, zlomky, jednotky → g/ml/ks/PL/ČL…). Odkaz skúsi `fetch` (CORS
+  väčšinou nedovolí → hláška). Zdroj a odkaz sa zapíšu do receptu (`_nrZdroj`).
+- **Stravník má `typ`** ("" | `dieta` | `tehotna`) a **`veg`** (bool) — `TYP_STRAV`. Citlivá
+  domácnosť (`domacnostCitliva`) vyradí z `genUniverzum` aj z príloh jedlá `nevhodneCitlivym`
+  (alkohol = oddelenie Alkohol, tatarák/sushi/tiramisu/pečienky/paštéta/plesňové syry/káva); Recepty
+  ich ukazujú ďalej. Vegetarián medzi mäsožravcami: `vegPodiel` (kcal), generátor bezmäsité ×3 vo
+  váhe + `GEN_SK.vegMix` (54 % bezmäsitých hlavných), nákup cez `ingrediencieNaNakup` (mäso ×
+  (1 − podiel) + Tofu), plán a detail píšu `vegNahradaText`.
+- **Porcia má KAŽDÉ JEDLO zvlášť** (`faktorySlotov`, rozsah `FAKTOR_SLOT_MIN/MAX` 0,7–1,5; snack 1).
+  Generátor vyberá jedlá pre `genCiel(ciel)` (1300–2100 kcal) a skutočný cieľ dorovnajú porcie;
+  `rescaleDen` používa tú istú funkciu. `pocetPorciiDna` pri automatike delí **priemerným
+  faktorom dňa** (`priemernyFaktorDna`) — deň spolu = dopyt domácnosti, jedlo úmerne svojmu
+  faktoru. Namerané (3 seedy × 4 týž.): muž 2500 tuk 37 → 28 % E, červené+spracované 1249 → 714 g
+  surového/týž., týždne bez ryby 88 → 25 %; 1200 kcal vláknina ≥ 25 g 37 → 65 % dní; kcal ±10 %
+  100 % dní pri všetkých profiloch. Kryje `test_pravidla.js` D9. Bunka plánu píše „väčšia/menšia
+  porcia", nie percentá.
+
+### Kolo 2 (8. 10. 2026, 14 audítorov + 3 prieskumy konkurencie) — doplnené vo v34
+- **Bunka plánu** = názov + 🎲 + jediné „⋯ viac" (kcal je len text `.kc`); v ponuke `akcieSlotu` navrchu
+  🎲 Vymeniť / ✎ Vybrať zo zoznamu / 🍽 Veľkosť porcie / 🔁 Iná príloha (`inaPriloha`).
+- **Veľkosť porcie ručne** = `S.planM[iso][slot]` (násobok automatiky, celý blok, ↩ Späť), `pf = auto × planM`;
+  `priemernyFaktorDna` počíta z `pfAuto`, takže ručne väčšia porcia nezmenší ostatné jedlá. `rescaleDen` po dňoch.
+- **Kusy sa škálujú porciou** (`skalovanaHodnota` = mn × fPocet × fVelkost); zaokrúhľuje sa až zobrazenie/súčet.
+- `vhodnyPrePlan(r)` = prejdeProfil + dieťa/tehotná + zmiešaná domácnosť + 🧂 `menejSoli` (> 1,5 g soli/porcia,
+  snack > 1 g). Po zmene diéty/stravníka `opravPlanPoZmene` (prílohy aj doplnky), ⚠ v bunke.
+- **Stravník** sa normalizuje v `normalizujStav` (nazov ≤ 40, kcal 1000–5000, typ z `TYP_STRAV`, veg bool) —
+  `CIEL_DEF`, `KCAL_DEN_MIN/MAX`, `TYP_STRAV` sú preto PRED `let S = normalizujStav(…)` (TDZ!).
+- **Dva režimy písma** (`REZIMY=["plan","obchod"]` = Normálne / Veľké písmo); kompakt/kuchyna/„Väčšie písmo" sa migrujú.
+  CSS pre kompakt/kuchyna ostáva (staré stavy). Voľba písma je aj v uvítaní.
+- **Nastavenia sa ukladajú hneď** (delegovaný `change` → `ulozProfil`), tlačidlo „Uložiť" je preč; kalkulačka,
+  váha a okno 16:8 sú v zbalenom `#pokrocile`. **Rozpočet zrušený** (`cenaCiel` = `CENA_CIEL_DEF` pri štarte).
+- **Jeden zoznam „mám doma"**: `S.domaNakup` (Nákup aj „Čo uvarím") + platné zásoby Špajze (`mamDomaTok`);
+  `S.mamDoma` sa pri štarte prilepí k `domaNakup` a vyprázdni.
+- 🏡 `S.profil.domaca` (váha ×3 + `GEN_SK.domaca`) → ~57 % domácich hlavných jedál; `dueSkore` (Grocy 20/10/1 bodov
+  za zásobu ≤ 2/5/7 dní) v `expBoost` aj `skoreJedla` (`GEN_SK.dojed`) → zásoby využité 48 → 71 %.
+- **Import**: dkg, „pol/štvrť/poldruha", čajová/polievková lyžica, obaly (sáčok, plechovka) s „(400 g)", poznámka za
+  čiarkou, `_impNominativ` (2. pád → tvar z `potraviny.json`), v texte navigácia webu preč, „Porcie:", „Čas:", „Postup:".
+- **Pocit**: téma „teplý stôl" (svetlejšia `--zem`, 1 px rámy, tóny hlavičiek blokov), `th-mini` fotky v Pláne a na
+  Domove, `animuj()`/`vibruj()`/`USPECH`, zdieľané `AudioContext` (3 pípnutia), `body.generujem` + `.gen-pas`,
+  „Ako chutilo?" po uvarení, krok „🧺 Priprav si" na začiatku varenia, toast podľa dĺžky textu (so Späť 20 s, Ctrl+Z).
+- **Plán varenia**: súčet času, „📅 Deň vopred", „🧊 … v chladničke najviac 2 dni" (`kratkaTrvanlivost`);
+  `skladovanie` vie burgre/vyprážané/vaječné → v deň jedenia, strukovinové šaláty → dopredu.
+- Otvorené z kola 2: „jem mimo domu" (slot znižuje cieľ), 1 osoba obed = večera, výživa po stravníkoch, týždenný
+  strop červeného mäsa, dieťa podľa veku, varenie celého bloku naraz, „Rozdeľ hrniec".
 
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených
@@ -829,7 +923,8 @@ Otvorené je toto:
    doménového pravidla (4 bloky, alebo 2 varianty na slot v bloku), čo je produktové rozhodnutie.
 5. **`recepty/fotky/` má 59 osirelých fotiek** (patria receptom zmazaným pri čistke dát).
    Vyčistiť priečinok aj `ZDROJE.json`.
-6. **Verzia sa hlási na ŠTYROCH miestach a žiadne dve nesedia.** `app.js` má `VERZIA = "v20"`
+6. **Verzia sa hlási na ŠTYROCH miestach a žiadne dve nesedia** (8. 10.: `app.js` zdvihnutý na v34,
+   jeden zdroj pravdy stále chýba). Pôvodne `app.js` mal `VERZIA = "v20"`
    (to vidí používateľ v Nastaveniach), `sw.js` má vlastné `VERZIA = "v19"` (názov cache),
    `CHANGELOG.md` je na v25, dizajn je „Bloky v24". Treba jeden zdroj pravdy
    (napr. placeholder `__VERZIA__` v šablóne aj v `sw.js`).
@@ -859,7 +954,7 @@ Otvorené je toto:
     (`content-visibility:hidden`), ale `getBoundingClientRect()` naň vracia nenulový obdĺžnik
     mimo rodiča. Nie je to chyba pre používateľa — je to pasca pre merací skript.
     Sondy na poradie fokusu preto píš cez **skutočný Tab**, nie cez `querySelectorAll` + rect.
-19. **Diéty v PRÍLOHÁCH netesnia (P0 z auditu 30. 9.)** — pri „Bez lepku“ 33 z 336 slotov dostalo
+19. ~~**Diéty v PRÍLOHÁCH netesnia**~~ — vyriešené 8. 10. (`_prilohaPrejde` aj pre `prf:`). Pôvodne: pri „Bez lepku“ 33 z 336 slotov dostalo
     lepkovú prílohu (bageta k nátierke, `prf:cestoviny`), pri zakázaných „cestoviny, zemiaky“ 20.
     `prilohaPre`/`PRILOHY`/recept-prílohy nevolajú `prejdeProfil`. Čaká na dokončenie funkcie
     „recepty ako prílohy podľa kuchyne“ (`PRILOHY_RECEPTY`). Doplnky snacku už diétu rešpektujú.

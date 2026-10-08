@@ -74,9 +74,9 @@ def main():
 
     # farba prehliadača / PWA splash musí sedieť s témou
     src = re.sub(r'<meta name="theme-color" content="#[0-9a-fA-F]{6}" media="\(prefers-color-scheme: light\)">',
-                 '<meta name="theme-color" content="#E7E4DD" media="(prefers-color-scheme: light)">', src)
+                 '<meta name="theme-color" content="#F2EEE7" media="(prefers-color-scheme: light)">', src)
     src = re.sub(r'<meta name="theme-color" content="#[0-9a-fA-F]{6}" media="\(prefers-color-scheme: dark\)">',
-                 '<meta name="theme-color" content="#151310" media="(prefers-color-scheme: dark)">', src)
+                 '<meta name="theme-color" content="#1A1815" media="(prefers-color-scheme: dark)">', src)
 
     # newline="\n": na Windows by write_text prepísal celú šablónu na CRLF
     TPL.write_text(src, encoding="utf-8", newline="\n")
