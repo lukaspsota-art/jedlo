@@ -334,9 +334,10 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
     tyzdne.forEach(t => t.bloky.forEach(b => Object.keys(b.sloty).forEach(() => spolu++)));
     // faktory z reálneho behu (zber ich má v kcal už zarátané) — kontrolujeme priamo planF appky
     Object.values(nak.S.planF).forEach(d => Object.values(d || {}).forEach(f => {
-      spolu++; if (f < 0.85 - 1e-9 || f > 1.15 + 1e-9) mimo++;
+      // v34: faktor JEDNÉHO jedla smie byť 0,7–1,5 (FAKTOR_SLOT_MIN/MAX — ručná porcia, menšia večera); 0,85–1,15 je pásmo dňa
+      spolu++; if (f < nak.FAKTOR_SLOT_MIN - 1e-9 || f > nak.FAKTOR_SLOT_MAX + 1e-9) mimo++;
     }));
-    assert.strictEqual(mimo, 0, mimo + " faktorov mimo pásma 0,85–1,15");
+    assert.strictEqual(mimo, 0, mimo + " faktorov jedla mimo pásma " + nak.FAKTOR_SLOT_MIN + "–" + nak.FAKTOR_SLOT_MAX);
   });
   ok("faktor NEZNIŽUJE navarené množstvo — pocetPorciiDna ním delí", () => {
     // celkové navarené kcal dňa = základ × počet porcií; faktor sa vykráti.
@@ -440,6 +441,30 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
     ok(`snack (kúpené balenie) sa neškáluje (${snackIne})`, () => assert.strictEqual(snackIne, 0));
     ok(`faktor jedla je v 70–150 % (${mimoMedzi} mimo)`, () => assert.strictEqual(mimoMedzi, 0));
     ok(`navarené množstvo dňa = dopyt domácnosti (${dopytZle} dní mimo ±2 %)`, () => assert.strictEqual(dopytZle, 0));
+  }
+
+  nadpis("\nD10 — kolo 3: jem mimo domu, jeden hrniec, dieťa podľa veku, strop mäsa");
+  {
+    const a = novy(SEEDS[0], { profil: { osoby: 1, kcal: 2200, mimo: "Obed", stravnici: [{ nazov: "A", kcal: 2200 }] } });
+    await a.generujJedalnicek(true);
+    let zle = 0; for (let di = 0; di < 7; di++) { const sl = a.slotyDna(di), k = sl.reduce((x, s) => x + a.mealKcal(a.slotIds(di, s)) * a.pf(di, s), 0);
+      if ((di < 5) === sl.includes("Obed") || Math.abs(k / a.cielDna(di) - 1) > 0.1) zle++; }
+    ok(`obed mimo domu: Po–Pi bez obeda, cieľ dňa sa zmenší a deň ho trafí (${zle} zlých dní)`, () => assert.strictEqual(zle, 0));
+    ok("cieľ pracovného dňa je menší o podiel obeda", () => assert.ok(a.cielDna(0) < 2200 * 0.75 && a.cielDna(5) === 2200));
+    const b = novy(SEEDS[0], { profil: { osoby: 1, kcal: 2200, jedenHrniec: true, stravnici: [{ nazov: "A", kcal: 2200 }] } });
+    await b.generujJedalnicek(true);
+    ok("jeden hrniec: večera je to isté jedlo ako obed v každom dni", () => {
+      for (let di = 0; di < 7; di++) assert.strictEqual(b.slotIds(di, "Večera")[0], b.slotIds(di, "Obed")[0], b.DNI[di]); });
+    const c = novy(SEEDS[0], { profil: { osoby: 2, kcal: 2000, stravnici: [{ nazov: "A", kcal: 2000 }, { nazov: "Ema", kcal: 2000 }] } });
+    c.zmenStravnika(1, "typ", "dieta4");
+    ok("Dieťa 4–6 r.: kcal 1350 a domácnosť je citlivá (bez alkoholu, surového…)", () => {
+      assert.strictEqual(c.S.profil.stravnici[1].kcal, 1350); assert.ok(c.domacnostCitliva()); });
+    let nad = 0, tyz = 0;
+    for (const seed of SEEDS.slice(0, 3)) { const d = novy(seed, { profil: { osoby: 1, kcal: 2500, stravnici: [{ nazov: "A", kcal: 2500 }] } });
+      for (let w = 0; w < 3; w++) { d.S.viewOd = d.pridajDni(PONDELOK, w * 7); await d.generujJedalnicek(true); tyz++;
+        let g = 0; for (let di = 0; di < 7; di++) d.slotyDna(di).forEach(sl => { const r = d.komponent(d.slotIds(di, sl)[0]); if (r && d.isMain(r)) g += d.cerveneG(r).g * d.pf(di, sl); });
+        if (g > 900) nad++; } }
+    ok(`2500 kcal: červené a spracované mäso nad ~900 g surového za týždeň len výnimočne (${nad}/${tyz})`, () => assert.ok(nad <= Math.ceil(tyz * 0.15)));
   }
 
   nadpis("\nD8 — neštandardné rozdelenie blokov (2 / 4 / 1 blok)");

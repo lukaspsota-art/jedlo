@@ -244,7 +244,7 @@ module.exports = {
       await m.waitForTimeout(300);
       const sp = await m.evaluate(() => {
         const pm = document.getElementById("pick-modal");
-        const ne = [...pm.querySelectorAll(".chip")].find((c) => c.textContent.trim() === "Ne");
+        const ne = [...pm.querySelectorAll(".chip, .mimo-riadok label")].find((c) => c.textContent.trim() === "Ne");
         const pata = pm.querySelector(".akcie-lepiva"), r = pata ? pata.getBoundingClientRect() : null;
         return { neVpravo: ne ? Math.round(ne.getBoundingClientRect().right) : 9999, w: innerWidth, h: innerHeight,
           pata: r ? { top: Math.round(r.top), bottom: Math.round(r.bottom), text: pata.textContent.trim() } : null };

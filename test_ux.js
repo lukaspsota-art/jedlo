@@ -920,7 +920,7 @@ ok("bunka: kcal a B v jednom riadku, ručné porcie viditeľné, 🔒 namiesto �
   await app.generujJedalnicek(true);
   app.S.slotPpl[app.datumPre(2)] = { Obed: 3 };
   let h = app.planBunka(2, "Obed");
-  assert.ok(/<span class="pc-riadok"><span class="kc">[^<]*<\/span><span class="pc-data">\d+ g bielk\. · 👥 3 porcie<\/span><\/span>/.test(h),
+  assert.ok(/<span class="pc-riadok"><span class="kc">[^<]*<\/span><span class="pc-data">\d+ g bielk\. · 👥 3 porcie<\/span><button class="rm pc-btn pc-viac"[^>]*>⋯ viac<\/button><\/span>/.test(h),
     "kcal, bielkoviny a porcie nie sú v jednom riadku: " + h);
   assert.ok(h.includes("pc-znova") && !h.includes("pc-zamok"), "nezamknuté jedlo nemá 🎲");
   app.prepniZamok(2, "Obed");
@@ -979,7 +979,7 @@ ok("sprievodca: bez „Kupované snacky“ a „Zámer“, ✨ Generovať v lepi
   assert.ok(usek.length > 500, "nenašiel som renderGenWizard");
   assert.ok(!usek.includes("kupSnack") && !usek.includes("Zámer"), "v sprievodcovi je stále voľba bez efektu");
   assert.ok(/class="btn-row akcie-lepiva"><button class="btn primary"[^>]*>✨ Generovať/.test(usek), "✨ Generovať nie je v lepivej pätičke");
-  assert.ok(/class="chips" style="flex-wrap:wrap/.test(usek), "dni bez varenia sa nezalamujú");
+  assert.ok(/class="chips" style="flex-wrap:wrap|class="mimo-riadok"/.test(usek), "dni bez varenia sa nezalamujú");
   assert.ok(/scrollTop=y\[0\]/.test(usek), "prekreslenie sprievodcu nevracia pozíciu skrolovania");
 });
 
@@ -1182,6 +1182,77 @@ ok("obyčajný text s nadpismi Suroviny/Postup", () => {
   const r = novy().parseReceptImport("Palacinky\n4 porcie\nSuroviny\n250 g múky\n2 vajcia\nPostup\n1. Vymiešaj cesto.\n2. Peč.");
   assert.strictEqual(r.nazov, "Palacinky"); assert.strictEqual(r.porcie, 4);
   assert.strictEqual(r.ingrediencie.length, 2); assert.deepStrictEqual([...r.postup], ["Vymiešaj cesto.", "Peč."]);
+});
+
+nadpis("\nKolo 3 (8. 10.) — import, jeden hrniec, mimo domu po osobách, snack, zákazy, Späť");
+ok("import: pol kila, KL, 2 x 400 g, čas aj porcie v jednom riadku, komentáre preč, koláč bez porcií = 8", () => {
+  const app = novy(), p = x => JSON.parse(JSON.stringify(app.parseIngRiadok(x)));
+  assert.deepStrictEqual([p("pol kila zemiakov").mnozstvo, p("pol kila zemiakov").jednotka], [500, "g"]);
+  assert.strictEqual(p("1 KL soli").jednotka, "ČL");
+  assert.deepStrictEqual([p("2 x 400 g paradajok").mnozstvo, p("2 x 400 g paradajok").jednotka], [800, "g"]);
+  assert.ok(!/^Šťavo/.test(p("šťava z 1 citróna").nazov), p("šťava z 1 citróna").nazov);
+  const r = app.parseReceptImport("Kurací perkelt\nČas: 40 min   Porcie: 4\nSuroviny\n500 g kuracích pŕs\nPostup\n1. Opraž cibuľu.\nKomentáre (12)\nPrihlásiť sa");
+  assert.strictEqual(r.porcie, 4); assert.strictEqual(r.cas, "40 min");
+  assert.ok(!r.postup.some(x => /Koment|Prihl/.test(x)), JSON.stringify(r.postup));
+  const k = app.parseReceptImport("Jablkový koláč\nSuroviny\n300 g múky\n4 jablká\nPostup\n1. Upeč.");
+  assert.strictEqual(k.porcie, 8); assert.strictEqual(k.porcieOdhad, true);
+});
+ok("jeden hrniec: varenie bloku a detail rátajú obed AJ večeru (navarí sa celé, nie polovica)", async () => {
+  const app = novy({ jedenHrniec: true });
+  await app.generujJedalnicek(true);
+  const id = app.slotIds(0, "Obed")[0];
+  assert.strictEqual(app.slotIds(0, "Večera")[0], id);
+  const x = app.varenieBloku(app.denyBloku(0)).find(v => v.cid === id);
+  const ocak = ["Obed", "Večera"].reduce((a, s) => a + app.porcieSlotBlok(0, s, id) * app.pf(0, s), 0);
+  assert.deepStrictEqual([...x.sloty], ["Obed", "Večera"]);
+  assert.ok(Math.abs(x.por - ocak) < 1e-9, x.por + " vs " + ocak);
+  app.otvor(id, { di: 0, slot: "Obed" });
+  const pv = require("vm").runInContext("aktPorcie*aktVelkost", app); assert.ok(Math.abs(pv - ocak) < 0.05, pv + " vs " + ocak);
+  app.regenerujSlot(0, "Obed");
+  assert.strictEqual(app.slotIds(0, "Večera")[0], app.slotIds(0, "Obed")[0], "🎲 obeda rozbilo jeden hrniec");
+});
+ok("mimo domu po osobách: obed ostane, kým je niekto doma, a porcie sú len pre tých doma", async () => {
+  const app = novy({ osoby: 2, kcal: 2000, stravnici: [{ nazov: "Ja", kcal: 2000 }, { nazov: "Peter", kcal: 2000, mimo: "Obed" }] });
+  await app.generujJedalnicek(true);
+  assert.ok(app.slotyDna(0).includes("Obed") && app.slotyDna(5).includes("Obed"));
+  assert.strictEqual(app.cielDna(0), 2000, "cieľ hlavného stravníka sa nesmie zmenšiť");
+  const pomer = app.porcieSlot(0, "Obed") / app.porcieSlot(0, "Večera") / (app.pf(0, "Večera") / app.pf(0, "Obed"));
+  assert.ok(Math.abs(app.vahaPritomnych(0, "Obed") - 0.5) < 1e-9 && app.vahaPritomnych(5, "Obed") === 1);
+  assert.deepStrictEqual([...app.mimoMena(0, "Obed")], ["Peter"]); assert.ok(pomer > 0);
+  const b = novy({ osoby: 2, kcal: 2000, stravnici: [{ nazov: "Ja", kcal: 2000, mimo: "Obed" }, { nazov: "Peter", kcal: 2000, mimo: "Obed" }] });
+  assert.ok(!b.slotyDna(0).includes("Obed") && b.slotyDna(5).includes("Obed"), "keď sú preč všetci, obed v pracovný deň zmizne");
+  assert.ok(/mimo domu/.test(b.planBunka(0, "Obed")) && !/vyp\./.test(b.planBunka(0, "Obed")));
+});
+ok("doplnok snacku rešpektuje domácnosť (dieťa 4–6 r.): žiadna káva, celé orechy ani proteínový nápoj", () => {
+  const app = novy({ osoby: 2, kcal: 1450, stravnici: [{ nazov: "A", kcal: 1450 }, { nazov: "Ema", kcal: 1350, typ: "dieta4" }] });
+  const zle = app.RECEPTY.filter(r => r.kategoria === "Snack" && app.jeVyrobok(r)).map(r => app.snackDoplnok(r)).filter(Boolean)
+    .filter(id => !app.vhodnyPrePlan(app.receptById(id)));
+  assert.deepStrictEqual([...zle], []);
+  assert.ok(app.nevhodneMalym({ nazov: "Arašidy pražené", typ: "vyrobok", kategoria: "Snack", ingrediencie: [] }));
+});
+ok("čerstvo zostavený týždeň nehlási „Vymenil som…“ (dieťa v domácnosti, menej soli)", async () => {
+  const app = novy({ osoby: 2, kcal: 1450, menejSoli: true, stravnici: [{ nazov: "A", kcal: 1450 }, { nazov: "Ema", kcal: 1350, typ: "dieta4" }] });
+  await app.generujJedalnicek(true);
+  assert.ok(!/Vymenil/.test(app.toast._posl || ""), app.toast._posl);
+});
+ok("zákazy: „bez lepku“, „celiakia“ a „tree nuts“ sú lepok a orechy", () => {
+  const app = novy({ zakazane: "bez lepku, celiakia, tree nuts" });
+  const t = app.zakazaneTokens();
+  assert.ok(t.includes("lepok") && t.includes("orechy"), JSON.stringify(t));
+});
+ok("diéta: nespárovaná surovina „kuracích pŕs“ urobí jedlo mäsitým; tatár je pre dieťa nevhodný, tatárska omáčka nie", () => {
+  const app = novy();
+  assert.strictEqual(app.diety({ ingrediencie: [{ nazov: "Kuracích pŕs vykostených", mnozstvo: 300, jednotka: "g" }] }).veg, false);
+  assert.ok(app.nevhodneCitlivym({ id: "x1", nazov: "Losos tatár", ingrediencie: [] }));
+  assert.ok(!app.nevhodneCitlivym({ id: "x2", nazov: "Ryba s tatárskou omáčkou", ingrediencie: [] }));
+});
+ok("↩ Späť má 5 krokov: dve 🎲 sa dajú vrátiť až po pôvodné jedlo", async () => {
+  const app = novy();
+  await app.generujJedalnicek(true);
+  const p0 = app.slotIds(2, "Obed")[0];
+  app.regenerujSlot(2, "Obed"); app.regenerujSlot(2, "Obed");
+  app.vratSpat(); app.vratSpat();
+  assert.strictEqual(app.slotIds(2, "Obed")[0], p0);
 });
 
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });

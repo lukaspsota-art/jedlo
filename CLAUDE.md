@@ -860,6 +860,46 @@ Appku používajú aj iní ľudia: výživa sa meria podľa EFSA/WHO, nie podľa
 - Otvorené z kola 2: „jem mimo domu" (slot znižuje cieľ), 1 osoba obed = večera, výživa po stravníkoch, týždenný
   strop červeného mäsa, dieťa podľa veku, varenie celého bloku naraz, „Rozdeľ hrniec".
 
+### Kolo 3 (8. 10. 2026, 13 audítorov, známky 6,5–8) — opravené
+Správy sú v scratchpade relácie (`audit3/VSETKO.md`). Čo sa zmenilo a na čo nezabudnúť:
+- **Jedlo sa v bloku varí raz** — `varenieBloku(dni)` je JEDINÉ miesto, ktoré zbiera jedlá bloku zo VŠETKÝCH dní
+  doma a všetkých slotov a sčíta porcie po slotoch ako nákup (`porcieSlotBlok × pf`). Používajú ho plán varenia,
+  „Variť celý blok", karta varného dňa na Domove aj detail z plánu (`otvor` → `aktPorcie`). Do kola 3 brali prvý
+  deň a prvý slot: jeden hrniec navaril polovicu, víkendový obed pri „mimo domu" chýbal.
+- **Jeden hrniec + 🎲**: `_zrkadliHrniec` drží obed = večeru po 🎲 jedla (len dni, kde boli rovnaké) aj bloku.
+- **„Mimo domu" je na stravníkovi** (`p.mimo` "Obed|Snack"; `S.profil.mimo` = stará voľba pre toho, kto vlastnú
+  nemá). `mimoSloty()` = PRIENIK — slot zmizne z Po–Pi, len keď je preč každý; inak `vahaPritomnych(di,slot)`
+  zmenší porcie slotu (kcal pri dorovnaní, hlavy bez neho) a bunka napíše „🏢 Peter je mimo domu". Vypnutý slot
+  pre všetkých kreslí `.plan-cell.mimo-domu`, nie „vyp.". `podielOsoby(p,di)` = cieľ dňa osoby vo Výžive.
+- **Generátor**: blok s rôznymi cieľmi dní (menza Št–Pi, víkend doma) sa po zostavení dorovná `rescaleDen` po dňoch.
+  Čerstvo zostavený týždeň už nehlási „Vymenil som N jedál" — doplnok snacku ide cez `vhodnyPrePlan`.
+- **Výživa**: cieľ = `kcal osoby × podielOsoby` (jedlo mimo domu sa nepočíta), rozpad dňa v porciách vybranej osoby,
+  `cieloveMakra(kcal, osoba)` (dieťa `TYP_BIEL`), vláknina `TYP_VL` a soľ `TYP_SOL` podľa veku; makrá slovami.
+- **Deti**: `maleDieta()` (do 6 r.) vyradí kúpené snacky s celými orechmi, jerky, proteínové (`nevhodneMalym`),
+  pálivé jedlá majú váhu ×0,2. Filter pre dieťa/tehotnú chytá `tatar(?!sk)`, pho, mirin. `diety()` pozná mäso aj
+  z NESPÁROVANEJ suroviny (`_MASO_NAZOV`). Typ stravníka prepíše kcal len vtedy, keď boli predvolené.
+- **Zákazy** rozumejú „bez lepku", „celiakia", „tree nuts" (`zakazaneTokens` odreže „bez"). Zmena diéty v okne
+  generovania aj v uvítaní volá `opravPlanPoZmene`, ktorá opraví aj ďalšie už vygenerované týždne.
+- **Varenie**: „🧺 Priprav si" je zaškrtávací zoznam (`pripravZoznam`: `kanonKluc` + jednotka, poradie oddelení),
+  krok bloku má meno jedla ako menovku a množstvá len z textu kroku (`cookZdroje[i][2]`). Koniec bloku: toast
+  o bloku, odpis každého jedla, `akoChutilo([ids])` pre všetky neohodnotené. Štart varenia zavrie toast.
+- **Rozdeliť hrniec** (`rozdelHrniec(id,di)`) delí nezaokrúhleným pomerom (deň × slot × kcal osoby), súčet = hrniec;
+  je aj v pláne varenia (⚖️).
+- **↩ Späť je zásobník 5 snímok** (`_undoZ`) a je v „⋯ Viac → ↩ Vrátiť poslednú zmenu"; Ctrl+Z volá akciu
+  PRÁVE SVIETIACEHO toastu (`t._akcia`), nič iné. `toastSkry()`.
+- **Bunka**: „⋯ viac" v riadku kcal (`.pc-viac`, 44 px), príloha a 2. výrobok „+ názov" (`.pc-pril`), miniatúra len
+  s fotkou, štítok porcie až od ±15 %. Menu Plánu má skupiny Týždeň / Varenie / Tlač (`.menu-sk`).
+- **Nákup**: toast po odškrtnutí 4 s, posledné odškrtnutie = `_nakupDokonceny` (🎉, vibrácia, posun na banner).
+- **Import**: kilo/„pol kila", KL, „2 x 400 g" = 800 g, „vrecko", porcie kdekoľvek v riadku, ≥ 1, koláč bez údaja
+  = 8 (`porcieOdhad` → pole zvýraznené), komentáre/prihlásenie preč, 1. pád podstatného mena len na slovo potraviny.
+- **Strop bielkovín** = max(cieľ, min(30 % energie, `B_STROP_G` 115 g)) — bielkoviny sa potrebujú podľa hmotnosti,
+  nie energie. Namerané (3 seedy × 4 týždne): 2000 kcal 27,4 → 22,4 % energie, 2500 kcal 21,7 %, kcal 100 % dní v ±10 %;
+  profil 1450 kcal / 80 g (test_generator A2) bez zmeny. D7 v `test_pravidla` kontroluje faktor JEDLA v 0,7–1,5.
+- Ručná porcia zo zálohy/syncu je zovretá na 0,5–2 (`rucnyMult`). Testy: `test_ux.js` sekcia „Kolo 3".
+- **Ostáva z kola 3** (väčšie): gestá (potiahnutie vo varení, panel nadol), zatváranie okien animáciou, chrome Plánu
+  nad prvým jedlom (Týždeň/Kalendár do menu), strop času varného dňa, desiata do školy so sendvičmi, tlač nákupu
+  na 2 stĺpce, stopy orechov v potravinách, lenivé načítanie herných kuchárok (súbor 3,8 MB, generovanie 1–2 s).
+
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených
 chýb**, E2E **515/516** (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`; xfail „med“

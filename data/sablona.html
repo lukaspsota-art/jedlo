@@ -316,7 +316,7 @@
   /* P1 — nákup jednou rukou: celý riadok odškrtáva, „ⓘ" je samostatný cieľ.
      Riadok mal 361×38 px a odškrtlo ho len políčko 20×20 px. */
   .nak-row{display:flex;align-items:stretch;gap:4px}
-  .odd .nak-row>label{flex:1;min-height:48px;padding:8px 4px;gap:12px;justify-content:flex-start}
+  .odd .nak-row>label{flex:1;min-width:0;min-height:48px;padding:8px 4px;gap:12px;justify-content:flex-start} /* min-width:0 — dlhý názov sa zalomí, ⓘ nevytŕča (360 px) */
   .odd .nak-row>label input[type=checkbox]{width:24px;height:24px;flex:0 0 auto;margin:0}
   .odd .nak-row>label .nm2{flex:1;display:block}
   .odd .nak-row .nm2 > .znaky{margin-right:6px} /* znak bloku bol nalepený na názov („BBaklažán") */
@@ -409,6 +409,8 @@
   #toast.s-akciou{display:flex;align-items:center;gap:12px;text-align:left;width:max-content}
   .toast-akcia{pointer-events:auto;flex:0 0 auto;min-height:44px;min-width:44px;padding:0 14px;border:1.5px solid currentColor;
     border-radius:999px;background:transparent;color:inherit;font:inherit;font-weight:700;cursor:pointer;white-space:nowrap}
+  /* zhasnutý toast: tlačidlo „↩ Späť“ nesmie ostať neviditeľne klikateľné (kolo 3: chytalo ťuky nad „➕ Časovač“) */
+  #toast:not(.show) .toast-akcia{pointer-events:none;visibility:hidden}
   /* B3: kcal a bielkoviny bunky plánu v jednom riadku; zámok zamknutého jedla (značka, nie tlačidlo) */
   .pc-riadok{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:6px}
   .pc-riadok .pc-data::before{content:"· "}
@@ -973,8 +975,8 @@
   /* Makrá sú rozpad JEDNEJ veličiny → tónový rebrík z --text. Farby blokov sa tu nesmú
      objaviť, inak by tá istá farba znamenala raz blok a raz živinu. */
   .segB{background:var(--text)}
-  .segT{background:color-mix(in srgb,var(--text) 62%,var(--doska))}
-  .segS{background:color-mix(in srgb,var(--text) 30%,var(--doska))}
+  .segT{background:var(--zlato)}
+  .segS{background:color-mix(in srgb,var(--zlato) 45%,var(--doska))}
   /* ten istý štvorček je legenda grafu aj menovka pruhov makier (makroBar) — legenda = pruhy */
   .lg{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
   /* inline-flex bez zalomenia pretekal pri 320 px v Kuchyni o 37 px; štvorček + slovo
@@ -1380,6 +1382,23 @@
   .cook .cook-mn{font-size:19px;line-height:1.45;color:#F4EFE6;padding:0 20px 12px;max-width:900px}
   .cook .cook-mn .krok-mn{display:block;margin:0;padding:8px 12px;border-radius:12px;background:#262119;
     color:#F4EFE6;font-size:inherit;font-weight:600}
+  /* kolo 3: „🧺 Priprav si“ je zaškrtávací zoznam, krok bloku nesie meno jedla ako menovku */
+  .cook .prip-zoz{list-style:none;margin:4px 0 0;padding:0}
+  .cook .prip-zoz li label{display:flex;gap:12px;align-items:center;min-height:var(--cil);padding:6px 4px;border-bottom:1px solid #3A332A;cursor:pointer}
+  .cook .prip-zoz input{width:26px;height:26px;flex:none;accent-color:var(--akcent)}
+  .cook .prip-zoz li.hot{opacity:.55;text-decoration:line-through}
+  .cook .cook-jedlo{display:block;font-size:.62em;font-weight:600;opacity:.8;margin:2px 0 6px;color:var(--akcent)}
+  .menu .menu-sk{margin:8px 14px 2px;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text2)}
+  .menu .menu-sk:first-child{margin-top:4px}
+  /* kolo 3: „⋯ viac“ v riadku kcal (celý cieľ), príloha a doplnok ako „+ názov“, mimo domu ako informácia */
+  .plan-cell .pc-riadok .pc-viac{margin-left:auto;min-height:max(44px,var(--cil-in));min-width:max(44px,var(--cil-in));
+    padding:0 10px;font-size:14px;font-weight:600;color:var(--text);border-radius:var(--r-btn);justify-content:center;align-self:center}
+  .plan-cell .pc-pril{font-weight:400}
+  .plan-cell.mimo-domu{color:var(--text2);font-size:13px;background:var(--tint);border-style:dashed;justify-content:center;min-height:44px}
+  .mimo-riadok{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;margin:2px 0}
+  .pole-pozor{outline:3px solid var(--zlato);outline-offset:1px}
+  .pv-akcie{display:flex;gap:6px;flex:none;align-items:center}
+  .pv-akcie .mini{white-space:nowrap}
 
   /* ── v35 „TEPLÝ STÔL" (audit 8. 10. 2026, vizuál + dizajn 2. kolo) ──────────
      Tokeny sú prepísané priamo hore v bloku tokenov (kontrast_bloky.py ich číta odtiaľ).
@@ -1534,7 +1553,7 @@
       <button type="button" data-rezim="plan" aria-pressed="true" onclick="nastavRezim('plan')">Normálne písmo</button>
       <button type="button" data-rezim="obchod" aria-pressed="false" onclick="nastavRezim('obchod')">Veľké písmo</button>
     </div>
-    <nav id="nav">
+    <nav id="nav" aria-label="Hlavná navigácia">
       <a data-v="domov" class="active" aria-current="page" onclick="prepni('domov')"><span class="ic">🏠</span> Domov</a>
       <a data-v="recepty" onclick="prepni('recepty')"><span class="ic">📖</span> Recepty</a>
       <a data-v="planovac" onclick="prepni('planovac')"><span class="ic">📅</span> Plán</a>
@@ -1611,7 +1630,7 @@
 
     <div class="view" id="v-planovac">
       <h2 class="h">Plán týždňa</h2>
-      <p class="sub">Klikni na jedlo pre recept · „✎ zmeniť" vymení jedlo.</p>
+      <p class="sub">Klikni na jedlo pre recept · 🎲 iné jedlo · „⋯ viac“ = výber zo zoznamu, veľkosť porcie, príloha.</p>
       <!-- P2: na telefóne bola navigácia týždňa a prepínač Týždeň/Kalendár na dvoch riadkoch
            (108 px). V jednom riadku sa zmestia obe a plán začína o obrazovku vyššie. -->
       <div class="plan-topline">
@@ -1625,17 +1644,21 @@
         <button class="btn primary" onclick="generujTlacidlo()">✨ Zostaviť jedálniček</button>
         <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-plan')">⋯ Viac</button>
           <div class="menu" id="m-plan">
-            <a onclick="otvorGen();zavriMenu()">⚙️ Nastavenie generovania</a>
-            <a onclick="zavriMenu();otvorRozvrh()">🍳 Rozvrh varenia (bloky)</a>
-            <a onclick="zavriMenu();planVarenia(planDen)">👨‍🍳 Plán varenia pre tento deň</a>
-            <a id="m-plan-ctrl" onclick="prepniPlanCtrl();zavriMenu()">👥 Stravníci a jedlá dňa</a>
-            <a onclick="zavriMenu();generujTlacidlo(true)">🎲 Zamiešať</a>
-            <a onclick="skopirujMinuly();zavriMenu()">📋 Skopíruj minulý týždeň</a>
+            <p class="menu-sk" aria-hidden="true">Týždeň</p>
+            <a onclick="zavriMenu();vratSpat()">↩ Vrátiť poslednú zmenu</a>
+            <a onclick="zavriMenu();generujTlacidlo(true)">🎲 Zostaviť celý týždeň nanovo</a>
+            <a onclick="skopirujMinuly();zavriMenu()">📋 Skopírovať minulý týždeň</a>
             <a onclick="otvorNacitat();zavriMenu()">📥 Načítať uložený jedálniček</a>
             <a onclick="ulozPlanArchiv();zavriMenu()">💾 Uložiť tento plán</a>
             <a onclick="vymazPlan();zavriMenu()">🗑 Vyprázdniť týždeň</a>
+            <p class="menu-sk" aria-hidden="true">Varenie</p>
+            <a onclick="zavriMenu();planVarenia(planDen)">👨‍🍳 Plán varenia</a>
+            <a onclick="zavriMenu();otvorRozvrh()">🍳 Rozvrh varenia (bloky)</a>
+            <a id="m-plan-ctrl" onclick="prepniPlanCtrl();zavriMenu()">👥 Stravníci a jedlá dňa</a>
+            <a onclick="otvorGen();zavriMenu()">⚙️ Nastavenie generovania</a>
+            <p class="menu-sk" aria-hidden="true">Tlač</p>
             <a onclick="tlacView('planovac');zavriMenu()">🖨 Tlačiť plán</a>
-            <a onclick="tlacTyzden();zavriMenu()">🖨 Tlačiť týždeň (plán+nákup)</a>
+            <a onclick="tlacTyzden();zavriMenu()">🖨 Tlačiť týždeň (plán + nákup)</a>
           </div>
         </div>
       </div>
@@ -1686,6 +1709,7 @@
       <h2 class="h">Výživa za týždeň</h2>
       <p class="sub">Z aktuálneho plánu oproti cieľu.</p>
       <div class="chips" style="padding:0 0 12px"><span class="chip active" id="vt-tyzden" aria-pressed="true" onclick="vyzivaZobraz('tyzden')">📊 Priemer týždňa</span><span class="chip" id="vt-den" aria-pressed="false" onclick="vyzivaZobraz('den')">📅 Deň</span></div>
+      <div id="vyziva-osoba" style="margin-bottom:10px"></div>
       <div id="vyziva-daynav" style="display:none;margin-bottom:12px"></div>
       <div class="tiles" id="vyziva-tiles"></div>
       <div class="panel"><h3>Kalórie po dňoch</h3><div class="chart" id="vyziva-chart"></div>
@@ -1721,6 +1745,7 @@
       <p class="sub">Predvoľby sa použijú pri plánovaní a filtrovaní.</p>
       <div class="panel">
         <div class="field"><label>Ktoré jedlá varíte?</label><div id="sloty-box"></div></div>
+        <label class="switch"><input type="checkbox" id="p-jedenhrniec"> 🍲 Obed aj večera z jedného hrnca (menej receptov a balení — hodí sa pri varení pre seba)</label>
         <div class="field"><label>Stravníci (meno a cieľ kcal/deň — prvý riadok je hlavný stravník)</label><div id="stravnici-box"></div><button class="btn" onclick="pridajStravnika()" style="margin-top:6px">+ pridať osobu</button>
           <p class="info" id="p-kcal-info" style="margin:8px 0 0"></p></div>
       </div>
@@ -1799,7 +1824,7 @@
   </div></div>
 </div>
 
-<nav class="botnav" id="botnav">
+<nav class="botnav" id="botnav" aria-label="Obrazovky">
   <a data-v="domov" class="active" aria-current="page" onclick="prepni('domov')"><span class="ic">🏠</span>Domov</a>
   <a data-v="recepty" onclick="prepni('recepty')"><span class="ic">📖</span>Recepty</a>
   <a data-v="planovac" onclick="prepni('planovac')"><span class="ic">📅</span>Plán</a>
@@ -1827,7 +1852,7 @@
   <div class="cook-kroky" id="cook-kroky" aria-hidden="true"></div>
   <div id="cook-timers" role="group" aria-label="Časovače" style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:8px"></div>
   <!-- krok + množstvá surovín, ktoré spomína (krokHint), prepočítané na porcie bloku -->
-  <div class="cook-telo"><div class="step" id="cook-step"></div><div class="cook-mn" id="cook-mn"></div></div>
+  <div class="cook-telo"><div class="step" id="cook-step" aria-live="polite"></div><div class="cook-mn" id="cook-mn"></div></div>
   <div style="text-align:center;margin-bottom:12px">
     <button class="timer" id="cook-add-timer" style="display:none" onclick="pridajKrokovyCasovac()"></button>
     <button class="timer" style="background:#333" onclick="pridajCasovac()">➕ Časovač</button>
