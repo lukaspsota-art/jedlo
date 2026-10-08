@@ -1,0 +1,209 @@
+{
+ "id": "hostinska-misa-s-hummusom-baba-ganusom-a-prosciuttom",
+ "nazov": "Feasting Board with Haunch – hostinská misa s hummusom, baba ganúšom a prosciuttom",
+ "kategoria": "Príloha",
+ "kuchyna": "Blízkovýchodná",
+ "zdroj": "The Official Horizon Cookbook – Feasting Board with Haunch",
+ "porcie": 8,
+ "cas": "5 hod",
+ "kcal_na_porciu": 761,
+ "kcal_zdroj": "vypocet",
+ "popis": "Veľká misa na zdieľanie s domácim hummusom, baba ganúšom a jogurtovým haydari, olivami, figami, zeleninou, fetou, pitou a sušenou šunkou – hostina Tenakthov.",
+ "hlavna_surovina": "cícer",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Cícer predvarený",
+   "mnozstvo": 250,
+   "jednotka": "g",
+   "poznamka": "1 konzerva, scedený a prepláchnutý, na hummus"
+  },
+  {
+   "nazov": "Tahini",
+   "mnozstvo": 60,
+   "jednotka": "g",
+   "poznamka": "na hummus"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": "na hummus"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na hummus"
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 3,
+   "jednotka": "PL",
+   "poznamka": "na hummus"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na hummus"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na hummus"
+  },
+  {
+   "nazov": "Baklažán",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na baba ganúš"
+  },
+  {
+   "nazov": "Olivový olej",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na baba ganúš, plus na potretie a podávanie"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 4,
+   "jednotka": "strúčik",
+   "poznamka": "na baba ganúš"
+  },
+  {
+   "nazov": "Tahini",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "na baba ganúš"
+  },
+  {
+   "nazov": "Rímska rasca",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "mletá, na baba ganúš"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na baba ganúš"
+  },
+  {
+   "nazov": "Citrónová šťava",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na baba ganúš"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 42,
+   "jednotka": "g",
+   "poznamka": "nesolené, na haydari"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": "nasekaný, na haydari"
+  },
+  {
+   "nazov": "Mäta",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "sušená, na haydari"
+  },
+  {
+   "nazov": "Feta",
+   "mnozstvo": 142,
+   "jednotka": "g",
+   "poznamka": "na haydari"
+  },
+  {
+   "nazov": "Biely jogurt",
+   "mnozstvo": 612,
+   "jednotka": "g",
+   "poznamka": "na haydari"
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "čerstvý, nasekaný, na haydari"
+  },
+  {
+   "nazov": "Olivy",
+   "mnozstvo": 70,
+   "jednotka": "g",
+   "poznamka": "kalamata a plnené paprikou"
+  },
+  {
+   "nazov": "Zelené olivy",
+   "mnozstvo": 35,
+   "jednotka": "g",
+   "poznamka": "Castelvetrano"
+  },
+  {
+   "nazov": "Artičoky",
+   "mnozstvo": 150,
+   "jednotka": "g",
+   "poznamka": "srdcia, v náleve"
+  },
+  {
+   "nazov": "Čerstvé figy",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": "rozpolené"
+  },
+  {
+   "nazov": "Cherry paradajky",
+   "mnozstvo": 20,
+   "jednotka": "ks"
+  },
+  {
+   "nazov": "Uhorka",
+   "mnozstvo": 2,
+   "jednotka": "ks",
+   "poznamka": "na plátky"
+  },
+  {
+   "nazov": "Reďkovky",
+   "mnozstvo": 10,
+   "jednotka": "ks",
+   "poznamka": "na plátky"
+  },
+  {
+   "nazov": "Prosciutto",
+   "mnozstvo": 170,
+   "jednotka": "g"
+  },
+  {
+   "nazov": "Feta",
+   "mnozstvo": 142,
+   "jednotka": "g",
+   "poznamka": "na kocky"
+  },
+  {
+   "nazov": "Pita chlieb",
+   "mnozstvo": 5,
+   "jednotka": "ks",
+   "poznamka": "rozštvrtené"
+  }
+ ],
+ "postup": [
+  "Hummus: všetky suroviny na hummus rozmixuj v sekáčiku dohladka. Ak je príliš hustý, prilievaj po lyžičke vody. Vydrží týždeň v chladničke.",
+  "Baba ganúš: rúru predhrej na 175 °C. Baklažány popichaj, potri olejom a peč na plechu asi 1 hodinu, kým nezmäknú. Nechaj vychladnúť, ošúp ich a nakrájaj na veľké kusy.",
+  "Baklažán rozmixuj v sekáčiku s cesnakom, tahini, rascou a soľou dohladka. Za chodu pomaly prilievaj olej a citrónovú šťavu. Prelož do nádoby a aspoň 3 hodiny chlaď.",
+  "Haydari: na malej panvici rozpusť maslo, pridaj cesnak a opekaj 2–3 minúty dozlatista. Vmiešaj sušenú mätu, odstav a nechaj úplne vychladnúť.",
+  "Fetu roztlač v miske, vmiešaj jogurt, potom vychladnuté maslo s cesnakom a kôpor. Vydrží týždeň v chladničke.",
+  "Hummus, baba ganúš a haydari daj do samostatných misiek a na veľkej doske okolo nich rozlož olivy, artičoky, figy, paradajky, uhorky, reďkovky, prosciutto, kocky fety a pitu."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "predjedlo",
+  "herná kuchárka"
+ ]
+}

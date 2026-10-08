@@ -1,0 +1,184 @@
+{
+ "id": "gravlax-s-chrenovou-natierkou-a-nakladanou-cibulou",
+ "nazov": "Gravlax s chrenovou nátierkou a nakladanou cibuľou",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Škandinávska",
+ "zdroj": "The Official Horizon Cookbook – Cured Coldwater Fish",
+ "porcie": 4,
+ "cas": "48 hod 30 min",
+ "kcal_na_porciu": 635,
+ "kcal_zdroj": "vypocet",
+ "popis": "Dva dni nakladaný losos s kôprom a citrusovou kôrou, podávaný ako otvorený chlebíček s chrenovou nátierkou, vajcom a nakladanou červenou cibuľou.",
+ "hlavna_surovina": "losos",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Losos",
+   "mnozstvo": 454,
+   "jednotka": "g",
+   "poznamka": "stredový kus s kožou"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "celé, na lososa"
+  },
+  {
+   "nazov": "Ružové korenie",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "celé, na lososa"
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na lososa"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 91,
+   "jednotka": "g",
+   "poznamka": "na nakladanie lososa",
+   "vsiaknutie": 0.15
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 91,
+   "jednotka": "g",
+   "poznamka": "na nakladanie lososa",
+   "vsiaknutie": 0.15
+  },
+  {
+   "nazov": "Citrónová kôra",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Pomarančová kôra",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Kôpor",
+   "mnozstvo": 28,
+   "jednotka": "g",
+   "poznamka": "nasekaný"
+  },
+  {
+   "nazov": "Smotanový syr",
+   "mnozstvo": 227,
+   "jednotka": "g",
+   "poznamka": "izbovej teploty, na nátierku"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "mäkké, na nátierku"
+  },
+  {
+   "nazov": "Chren",
+   "mnozstvo": 1.5,
+   "jednotka": "PL",
+   "poznamka": "na nátierku"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "kôra a šťava, na nátierku"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Ocot",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "biely, na nakladanú cibuľu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 120,
+   "jednotka": "ml",
+   "poznamka": "na nakladanú cibuľu"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 67,
+   "jednotka": "g",
+   "poznamka": "na nakladanú cibuľu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na nakladanú cibuľu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Bobkový list",
+   "mnozstvo": 2,
+   "jednotka": "list"
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "na nakladanú cibuľu"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "celé, na nakladanú cibuľu"
+  },
+  {
+   "nazov": "Ružové korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "celé, na nakladanú cibuľu"
+  },
+  {
+   "nazov": "Červená cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "na tenké plátky"
+  },
+  {
+   "nazov": "Chrumkavý ražný chlieb",
+   "mnozstvo": 4,
+   "jednotka": "plátok",
+   "poznamka": "Shatterbread z tejto knihy"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "uvarené natvrdo, na plátky"
+  }
+ ],
+ "postup": [
+  "Z lososa vyber kostičky a odrež tučné časti. Čierne a ružové korenie s rascou zľahka podrv v mažiari a zmiešaj so soľou, cukrom, citrónovou a pomarančovou kôrou.",
+  "Na potravinovú fóliu nasyp polovicu zmesi v tvare lososa a posyp polovicou kôpru. Polož naň lososa, zasyp ho zvyškom zmesi a kôpru, aby bol obalený celý, a pevne zabaľ do fólie.",
+  "Balíček polož kožou nahor do hlbšej misy a daj na 24 hodín do chladničky. Potom ho otoč a nechaj ešte 24 hodín.",
+  "Lososa rozbaľ, zoškrab zvyšky zmesi a opláchni studenou vodou. V uzavretej nádobe vydrží v chladničke 3 dni.",
+  "Na nátierku vyšľahaj smotanový syr s maslom, vmiešaj chren, citrónovú kôru a šťavu a dochuť soľou a korením.",
+  "Na nakladanú cibuľu zmiešaj v nádobe ocot, vodu, cukor a soľ, pridaj bobkové listy, rascu, korenie a cibuľu. Uzavri a nechaj aspoň 30 minút v chladničke.",
+  "Lososa nakrájaj ostrým nožom šikmo na tenké plátky bez kože. Chlieb natri hrubou vrstvou nátierky, oblož plátkami vajca, lososa a nakladanou cibuľou a podávaj ako otvorený chlebíček."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "ryba",
+  "herná kuchárka"
+ ]
+}
