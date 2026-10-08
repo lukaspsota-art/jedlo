@@ -1,0 +1,195 @@
+{
+ "id": "vyprazane-zemiakove-gulky-s-mletym-masom-a-kyslou-kapustou",
+ "nazov": "Forge Bites – vyprážané zemiakové guľky s mletým mäsom a kyslou kapustou",
+ "kategoria": "Príloha",
+ "kuchyna": "Nemecká",
+ "zdroj": "Diablo: Drinks, Potions & Elixirs – Forge Bites",
+ "porcie": 8,
+ "cas": "3 hod",
+ "kcal_na_porciu": 695,
+ "kcal_zdroj": "vypocet",
+ "popis": "Chrumkavé guľky zo zemiakovej kaše, opečeného mletého mäsa, kyslej kapusty a ementálu v trojobale, podávané s horčicou a nakladanou červenou kapustou k pivu.",
+ "hlavna_surovina": "zemiaky",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Zemiaky",
+   "mnozstvo": 800,
+   "jednotka": "g",
+   "poznamka": "4 stredné, olúpané, na štvrtiny"
+  },
+  {
+   "nazov": "Maslo",
+   "mnozstvo": 2,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Mlieko",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Mleté hovädzie mäso",
+   "mnozstvo": 450,
+   "jednotka": "g",
+   "poznamka": "alebo bravčové"
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 0.5,
+   "jednotka": "ks",
+   "poznamka": "veľká, nasekaná"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "cesnaková, podľa chuti až 2 ČL"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Sladká paprika",
+   "mnozstvo": 2,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Mletý zázvor",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Nové korenie",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Muškátový oriešok",
+   "mnozstvo": 0.5,
+   "jednotka": "ČL",
+   "poznamka": "mletý"
+  },
+  {
+   "nazov": "Petržlenová vňať",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "nasekaná"
+  },
+  {
+   "nazov": "Kyslá kapusta",
+   "mnozstvo": 140,
+   "jednotka": "g",
+   "poznamka": "dobre vyžmýkaná"
+  },
+  {
+   "nazov": "Ementál",
+   "mnozstvo": 100,
+   "jednotka": "g",
+   "poznamka": "strúhaný, alebo gruyère (voliteľné)"
+  },
+  {
+   "nazov": "Vajcia",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "1 do zmesi, 2 na obaľovanie"
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 1000,
+   "jednotka": "ml",
+   "poznamka": "na vyprážanie",
+   "vsiaknutie": 0.18
+  },
+  {
+   "nazov": "Pivo",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "alebo voda, na obaľovanie"
+  },
+  {
+   "nazov": "Hladká múka",
+   "mnozstvo": 125,
+   "jednotka": "g",
+   "poznamka": "na obaľovanie"
+  },
+  {
+   "nazov": "Strúhanka",
+   "mnozstvo": 200,
+   "jednotka": "g",
+   "poznamka": "na obaľovanie"
+  },
+  {
+   "nazov": "Červená kapusta",
+   "mnozstvo": 400,
+   "jednotka": "g",
+   "poznamka": "pol malej hlávky, na nakladanú kapustu (voliteľné)"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 2,
+   "jednotka": "strúčik",
+   "poznamka": "na nakladanú kapustu"
+  },
+  {
+   "nazov": "Rasca",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na nakladanú kapustu"
+  },
+  {
+   "nazov": "Jablčný ocot",
+   "mnozstvo": 180,
+   "jednotka": "ml",
+   "poznamka": "na nakladanú kapustu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 180,
+   "jednotka": "ml",
+   "poznamka": "na nakladanú kapustu"
+  },
+  {
+   "nazov": "Cukor",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "na nakladanú kapustu",
+   "vsiaknutie": 0.12
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "na nakladanú kapustu"
+  },
+  {
+   "nazov": "Horčica",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "rôzne druhy na podávanie"
+  }
+ ],
+ "postup": [
+  "Na nakladanú kapustu zmiešaj nastrúhanú červenú kapustu s cesnakom, rascou, octom, vodou, cukrom a soľou, natlač do pohára, zalej nálevom a daj do chladničky.",
+  "Zemiaky uvar v osolenej vode domäkka (12–15 minút), sceď a roztlač s maslom a mliekom na hladkú kašu.",
+  "Na panvici opeč mleté mäso, kým nezhnedne, zlej väčšinu tuku a pridaj cibuľu. Duste 5–6 minút domäkka a dochuť cesnakovou soľou, korením, paprikou, zázvorom, novým korením a muškátovým orieškom.",
+  "Do kaše primiešaj petržlenovú vňať, mäso s cibuľou, vyžmýkanú kyslú kapustu a ementál, dochuť a vmiešaj 1 vajce.",
+  "Vytvaruj 24 pevných guliek s priemerom asi 5 cm, polož ich na plech s papierom na pečenie, prikry a nechaj aspoň 30 minút stuhnúť v chladničke.",
+  "V širokom hrnci rozohrej olej (asi 5 cm vysoko) na 175 °C. Zvyšné 2 vajcia rozšľahaj s pivom; múku a strúhanku daj do dvoch plytkých misiek.",
+  "Guľky obaľ v múke, vajci a strúhanke a vyprážaj po dávkach 1–2 minúty z každej strany do zlatista. Nechaj odkvapkať na papierovej utierke.",
+  "Podávaj teplé s horčicami na namáčanie a nakladanou kapustou."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "príloha",
+  "hovädzie",
+  "vyprážané",
+  "herná kuchárka"
+ ]
+}

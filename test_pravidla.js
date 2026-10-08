@@ -579,7 +579,9 @@ Promise.all([zber(), appSPlanom()]).then(async ([tyzdne, nak]) => {
       const dvakrat = [...pocet].filter(([, n]) => n > 1).map(([k]) => k);
       assert.strictEqual(dvakrat.length, 0, "rovnaký názov má viac receptov: " + dvakrat.join(", "));
       const meso = bez.RECEPTY.filter(r => /^(Dezert|Nápoj|Kokteil)$/.test(r.kategoria)
-        && (r.ingrediencie || []).some(i => { const p = bez.najdiPotravinu(i.nazov); return p && p.meso; })).map(r => r.id);
+        // od 8. 10. majú `meso` aj želatína, masť a vývar (vegetarián) — dezert so želatínou je v poriadku,
+        // test stráži pokazené dáta („Ovocný špíz" s klobásou), teda surovinu z oddelenia mäsa
+        && (r.ingrediencie || []).some(i => { const p = bez.najdiPotravinu(i.nazov); return p && p.meso && p.oddelenie === "Mäso a ryby"; })).map(r => r.id);
       assert.strictEqual(meso.length, 0, "dezert/nápoj s mäsom: " + meso.join(", "));
     });
   }

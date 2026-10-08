@@ -1,0 +1,65 @@
+{
+ "id": "citronova-vodka-s-pivom-a-limonadou",
+ "nazov": "Yellow Yorgle’s Yorsh – citrónová vodka s pivom a limonádou",
+ "kategoria": "Kokteil",
+ "kuchyna": "Americká",
+ "zdroj": "The Gamer's Bar – Yellow Yorgle’s Yorsh",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 248,
+ "kcal_zdroj": "vypocet",
+ "popis": "Ľahký pivný mix podľa ruského jeršu: citrónová vodka, limonáda a žltý chartreuse doliate vychladeným svetlým pivom.",
+ "hlavna_surovina": "pivo",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Vodka",
+   "mnozstvo": 45,
+   "jednotka": "ml",
+   "poznamka": "citrónová"
+  },
+  {
+   "nazov": "Limonáda",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "citrónová, vychladená"
+  },
+  {
+   "nazov": "Žltý chartreuse",
+   "mnozstvo": 22,
+   "jednotka": "ml",
+   "poznamka": "alebo iný žltý bylinný likér"
+  },
+  {
+   "nazov": "Bitter",
+   "mnozstvo": 2,
+   "jednotka": "ml",
+   "poznamka": "citrusový alebo pikantný, 2–4 kvapky"
+  },
+  {
+   "nazov": "Pivo",
+   "mnozstvo": 90,
+   "jednotka": "ml",
+   "poznamka": "svetlý ležiak alebo blonde ale, vychladené"
+  },
+  {
+   "nazov": "Citrón",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "kôra alebo koliesko na ozdobu"
+  }
+ ],
+ "postup": [
+  "V pohári zmiešaj vodku, limonádu, žltý chartreuse a bitter.",
+  "Pridaj ľad podľa chuti.",
+  "Dolej vychladeným pivom a ozdob citrónom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

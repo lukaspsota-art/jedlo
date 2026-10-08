@@ -1,0 +1,93 @@
+{
+ "id": "domace-svetle-pivo-ale-zo-sladu",
+ "nazov": "Asgarnian Ale – domáce svetlé pivo zo sladu",
+ "kategoria": "Kokteil",
+ "kuchyna": "Britská",
+ "zdroj": "RuneScape: The Official Cookbook – Asgarnian Ale",
+ "porcie": 42,
+ "cas": "678 hod",
+ "kcal_na_porciu": 213,
+ "kcal_zdroj": "vypocet",
+ "popis": "Medovo-sladové anglické pivo typu ale (5,6 % alkoholu) varené doma zo sladu, chmeľu a pivovarských kvasníc.",
+ "hlavna_surovina": "slad",
+ "narocnost": "náročná",
+ "ingrediencie": [
+  {
+   "nazov": "Jačmenný slad",
+   "mnozstvo": 3600,
+   "jednotka": "g",
+   "poznamka": "svetlý Maris Otter (alebo 2,5 kg sušeného sladového extraktu)",
+   "vsiaknutie": 0.55
+  },
+  {
+   "nazov": "Jačmenný slad",
+   "mnozstvo": 900,
+   "jednotka": "g",
+   "poznamka": "medový (Honey Malt)",
+   "vsiaknutie": 0.55
+  },
+  {
+   "nazov": "Voda",
+   "mnozstvo": 30,
+   "jednotka": "l",
+   "poznamka": "na rmut a vysladzovanie (pred chmeľovarom 26,5 l)"
+  },
+  {
+   "nazov": "Chmeľ",
+   "mnozstvo": 14,
+   "jednotka": "g",
+   "poznamka": "Target, granule – 60 min",
+   "vsiaknutie": 0.05
+  },
+  {
+   "nazov": "Chmeľ",
+   "mnozstvo": 14,
+   "jednotka": "g",
+   "poznamka": "Northern Brewer, granule – 60 min",
+   "vsiaknutie": 0.05
+  },
+  {
+   "nazov": "Chmeľ",
+   "mnozstvo": 14,
+   "jednotka": "g",
+   "poznamka": "East Kent Goldings, granule – 15 min",
+   "vsiaknutie": 0.05
+  },
+  {
+   "nazov": "Chmeľ",
+   "mnozstvo": 57,
+   "jednotka": "g",
+   "poznamka": "Fuggle, granule – po vypnutí",
+   "vsiaknutie": 0.05
+  },
+  {
+   "nazov": "Írsky mach",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "1 ČL alebo 1 tableta Whirlfloc, 15 min pred koncom"
+  },
+  {
+   "nazov": "Kvasnice",
+   "mnozstvo": 11,
+   "jednotka": "g",
+   "poznamka": "pivovarské londýnske/anglické ale, 1 balíček"
+  }
+ ],
+ "postup": [
+  "Slady pomel (ak nie sú pomleté) a vmiešaj do asi 14 l vody zohriatej na 72 °C. Rmut drž 60 minút pri 66–67 °C.",
+  "Rmut sceď a zrno vysladzuj vodou s teplotou 76 °C, kým nemáš v hrnci asi 26,5 l sladiny.",
+  "Sladinu priveď k varu a var 60 minút. Hneď na začiatku pridaj chmeľ Target a Northern Brewer, 15 minút pred koncom East Kent Goldings a írsky mach. Po vypnutí vsyp Fuggle a nechaj 15 minút postáť.",
+  "Sladinu čo najrýchlejšie schlaď na 18–20 °C, prelej do vydezinfikovanej kvasnej nádoby (asi 21 l, stupňovitosť okolo 1,057) a zasyp kvasnice.",
+  "Nechaj kvasiť pri 18–20 °C asi 2 týždne, kým hustota neklesne na približne 1,014.",
+  "Pivo stoč do fliaš s trochou cukru na nasýtenie, uzavri a nechaj 2 týždne dozrieť pri izbovej teplote, potom vychlaď.",
+  "Pre zlatú verziu (Asgoldian Ale) vmiešaj do 350 ml piva ⅛ ČL jedlého zlatého prášku."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "pivo",
+  "herná kuchárka"
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "id": "carne-asada-grilovany-marinovany-hovadzi-bok",
+ "nazov": "Cooked Meat – carne asada, grilovaný hovädzí bok v citrusovo-chilli marináde",
+ "kategoria": "Hlavné jedlo",
+ "kuchyna": "Mexická",
+ "zdroj": "RuneScape: The Official Cookbook – Cooked Meat / Carne Asada",
+ "porcie": 8,
+ "cas": "9 hod",
+ "kcal_na_porciu": 629,
+ "kcal_zdroj": "vypocet",
+ "popis": "Hovädzí bok marinovaný v pomaranči, limetke, ananáse, chilli a korení, rýchlo opečený na grile a nakrájaný na tenké plátky do tortíl.",
+ "hlavna_surovina": "hovädzie mäso",
+ "narocnost": "stredná",
+ "ingrediencie": [
+  {
+   "nazov": "Chilli omáčka",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "Spicy Sauce z tejto knihy, alebo 47 g mletého ancho chilli a 1 chipotle v adobe",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Rastlinný olej",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Ananás",
+   "mnozstvo": 85,
+   "jednotka": "g",
+   "poznamka": "čerstvý, na kúsky",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Pomaranče",
+   "mnozstvo": 3,
+   "jednotka": "ks",
+   "poznamka": "šťava a kôra",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Limetky",
+   "mnozstvo": 4,
+   "jednotka": "ks",
+   "poznamka": "šťava a kôra",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Agáve",
+   "mnozstvo": 2,
+   "jednotka": "PL",
+   "poznamka": "sirup",
+   "vsiaknutie": 0.3
+  },
+  {
+   "nazov": "Cibuľa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "malá, na štvrtiny"
+  },
+  {
+   "nazov": "Koriandrová vňať",
+   "mnozstvo": 0.5,
+   "jednotka": "zväzok",
+   "poznamka": "lístky aj tenké stonky"
+  },
+  {
+   "nazov": "Jalapeño",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "bez stopky"
+  },
+  {
+   "nazov": "Cesnak",
+   "mnozstvo": 8,
+   "jednotka": "strúčik"
+  },
+  {
+   "nazov": "Soľ",
+   "mnozstvo": 1,
+   "jednotka": "PL"
+  },
+  {
+   "nazov": "Rímska rasca",
+   "mnozstvo": 1,
+   "jednotka": "PL",
+   "poznamka": "mletá"
+  },
+  {
+   "nazov": "Koriandrové semienka",
+   "mnozstvo": 2,
+   "jednotka": "ČL",
+   "poznamka": "mleté"
+  },
+  {
+   "nazov": "Čierne korenie",
+   "mnozstvo": 1,
+   "jednotka": "ČL"
+  },
+  {
+   "nazov": "Oregano",
+   "mnozstvo": 1,
+   "jednotka": "ČL",
+   "poznamka": "mexické"
+  },
+  {
+   "nazov": "Hovädzie mäso",
+   "mnozstvo": 1360,
+   "jednotka": "g",
+   "poznamka": "bok (flank) alebo bránica (skirt steak)"
+  },
+  {
+   "nazov": "Kukuričná tortilla",
+   "mnozstvo": 16,
+   "jednotka": "ks",
+   "poznamka": "teplé, na podávanie"
+  },
+  {
+   "nazov": "Feta",
+   "mnozstvo": 80,
+   "jednotka": "g",
+   "poznamka": "namiesto syra cotija, rozdrobená"
+  },
+  {
+   "nazov": "Limetky",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "mesiačiky na podávanie"
+  },
+  {
+   "nazov": "Koriandrová vňať",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "nasekaná, na podávanie"
+  },
+  {
+   "nazov": "Chilli omáčka",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "Infernal Sauce na podávanie"
+  }
+ ],
+ "postup": [
+  "Chilli omáčku, olej, ananás, pomarančovú a limetkovú šťavu a kôru, agáve, cibuľu, koriandrovú vňať, jalapeño, cesnak, soľ, rascu, mletý koriander, korenie a oregano rozmixuj dohladka (2–4 minúty).",
+  "Mäso vlož do uzatvárateľného vrecka, zalej marinádou, vytlač vzduch, uzavri a nechaj v chladničke 4–8 hodín.",
+  "Rozpáľ gril na priame vysoké teplo a rošt potri olejom.",
+  "Z mäsa zotri prebytočnú marinádu a griluj 3–5 minút z každej strany, kým sa jemne nepripečie a vnútri nemá okolo 45 °C (krvavé až stredne prepečené).",
+  "Nechaj 5–10 minút odpočívať na doske, potom krájaj na tenké plátky naprieč vláknami. Podávaj s tortillami, pálivou omáčkou, rozdrobeným syrom, limetkou a koriandrom."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "hlavné jedlo",
+  "hovädzie",
+  "mexické",
+  "gril",
+  "herná kuchárka"
+ ]
+}

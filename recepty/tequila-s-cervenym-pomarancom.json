@@ -1,0 +1,80 @@
+{
+ "id": "tequila-s-cervenym-pomarancom",
+ "nazov": "Malenia, Blade of Tequila – tequila s červeným pomarančom a pomarančovým likérom",
+ "kategoria": "Kokteil",
+ "kuchyna": "Mexická",
+ "zdroj": "The Gamer's Bar – Malenia, Blade of Tequila",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 255,
+ "kcal_zdroj": "vypocet",
+ "popis": "Ostrý tequilový drink so šťavou z červených pomarančov a limetkou, podávaný v pohári s pikantno-kyslým okrajom z chamoy.",
+ "hlavna_surovina": "tequila",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Tequila",
+   "mnozstvo": 60,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Pomarančová šťava",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "čerstvá z červených pomarančov"
+  },
+  {
+   "nazov": "Triple sec",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "ideálne likér z červených pomarančov"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 15,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Cukrový sirup",
+   "mnozstvo": 7.5,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Pomarančový bitter",
+   "mnozstvo": 1,
+   "jednotka": "ml",
+   "poznamka": "1–2 kvapky, voliteľné"
+  },
+  {
+   "nazov": "Chamoy",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "na okraj pohára"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  },
+  {
+   "nazov": "Pomaranč",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "koliesko červeného pomaranča (alebo sušeného citróna) na ozdobu"
+  }
+ ],
+ "postup": [
+  "Okraj pohára namoč do chamoy.",
+  "Do šejkra s ľadom nalej tequilu, pomarančovú šťavu, pomarančový likér, limetkovú šťavu, cukrový sirup a bitter.",
+  "Pretrepávaj 10–15 sekúnd, kým sa nápoj nevychladí, a precedz do pripraveného pohára.",
+  "Ozdob kolieskom červeného pomaranča."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "kokteil",
+  "alkohol",
+  "rýchle",
+  "herná kuchárka"
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "modra-limonada-s-limetkou-a-sodou",
+ "nazov": "The Hesitant Maverick Hunter – modrá limonáda s limetkou a sódou",
+ "kategoria": "Nápoj",
+ "kuchyna": "Medzinárodná",
+ "zdroj": "The Gamer's Bar – The Hesitant Maverick Hunter",
+ "porcie": 1,
+ "cas": "5 min",
+ "kcal_na_porciu": 159,
+ "kcal_zdroj": "vypocet",
+ "popis": "Osviežujúca modrá limonáda z domáceho pomarančového sirupu, limetky a citrónovo-limetkovej sódy v duchu Mega Man X.",
+ "hlavna_surovina": "limonáda",
+ "narocnost": "ľahká",
+ "ingrediencie": [
+  {
+   "nazov": "Modrý sirup",
+   "mnozstvo": 30,
+   "jednotka": "ml",
+   "poznamka": "domáci, recept z knihy"
+  },
+  {
+   "nazov": "Limonáda",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "citrónová"
+  },
+  {
+   "nazov": "Limetková šťava",
+   "mnozstvo": 7.5,
+   "jednotka": "ml"
+  },
+  {
+   "nazov": "Pomarančový bitter",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti",
+   "poznamka": "voliteľne, 3–4 kvapky"
+  },
+  {
+   "nazov": "Sprite",
+   "mnozstvo": 60,
+   "jednotka": "ml",
+   "poznamka": "alebo iná citrónovo-limetková limonáda, vychladená"
+  },
+  {
+   "nazov": "Koktailová čerešňa",
+   "mnozstvo": 1,
+   "jednotka": "ks",
+   "poznamka": "červená, na ozdobu"
+  },
+  {
+   "nazov": "Ľad",
+   "mnozstvo": null,
+   "jednotka": "podľa chuti"
+  }
+ ],
+ "postup": [
+  "Do šejkra s ľadom nalej modrý sirup, limonádu, limetkovú šťavu a podľa chuti bitter.",
+  "Pretrepávaj 10–15 sekúnd, kým nie je dobre vychladené.",
+  "Preceď do vysokého pohára a dolej citrónovo-limetkovou limonádou.",
+  "Ozdob čerešňou napichnutou na špajdli."
+ ],
+ "tipy": "",
+ "foto": "",
+ "tagy": [
+  "nápoj",
+  "nealko",
+  "bezmäsité",
+  "herná kuchárka"
+ ]
+}
