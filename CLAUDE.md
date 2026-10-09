@@ -1086,6 +1086,24 @@ diabetik 9, prístupnosť 8,5, ovládanie 9, vizuál 9,5, pocit 9,5)
 - Zostavovanie: týždeň sa zapamätá hneď pri ťuku (`generujTlacidlo`), 🎲 počas zostavovania povie „Počkaj…";
   po zostavení (aj z uvítania) Plán ukáže dnešný blok. Detail: dlaždice „kcal/porcia receptu", keď je porcia iná.
 
+### Kolo 10 (9. 10. 2026) — po audite kola 9 (všetci 9–9,5 okrem dizajnu 8,5 pre regresiu)
+- **Regresia kola 9:** `_ikonyMenu` obalí ikonu v `summary` do `span.mi` a `justify-content:space-between` ju odtrhol
+  od textu — `details > summary:has(> .mi){justify-content:flex-start}` + šípka `margin-left:auto`.
+- **Toast:** šírka podľa obsahu (`left:50 %` ho zúžilo na 197 px), max 360 px, v tmavej s rámom. Nákup: toast bez
+  návodu, 1,4 s (zhasne skôr, ako sa zoznam preusporiada po 1,6 s); miesto pod zoznamom len keď toast svieti.
+- **🩺 dôvod slovom:** `dovodDiabetu(r)` („sladké", „veľa tuku", „vyprážané", „spracované mäso", „veľa sacharidov");
+  `nevhodneDiabetu = !!dovodDiabetu`. Detail aj bunka píšu skutočný dôvod. Jerky je spracované mäso; `_nmkVela`
+  pokutuje mierne aj bez 🩺 (WHO < 10 % E platí pre každého).
+- „vs cieľ" → „oproti cieľu"; Veľké písmo: „⋯ viac" v bunke len „⋯" (`.viac-sl`); ★ a ⓘ písmom appky; 320–360 px
+  bez prekrytia ▶; menu Plánu má na telefóne záhlavie s ✕ (`.menu-hlava`); **Vzhľad je prvý panel Nastavení**.
+- Vizuál (navrh9): suroviny v detaile sa vo Veľkom písme zalomia, hrany v grafe makier, „S prílohou" ako tónovaná plocha,
+  tmavé miniatúry tém svetlejšie, vzorka „Aa" pri veľkosti písma, šípka „podrobnosti" v Nákupe.
+- Domov: prázdny týždeň bez dlaždíc s nulami; pečivo je „Len kúpiť" aj v pláne varenia; „Na tanier (bez prílohy)".
+- Fokus: globálne pravidlo len pre skutočný klik (`isTrusted`), spúšťač skrytý `visibility` = zmizol, cieľ mimo
+  obrazovky sa posunie do pohľadu; „Vrátiť" a 🎲 bloku počas zostavovania povedia „Počkaj…".
+- Pocit: „Uvarené…" nezhasne kvôli „Ako chutilo?", hodnotený riadok zmizne plynulo, ✕ časovača zhasne jeho toast,
+  pás ukáže aj blok A (čaká sa na snímku).
+
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených
 chýb**, E2E **515/516** (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`; xfail „med“

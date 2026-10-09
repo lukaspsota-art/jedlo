@@ -920,7 +920,7 @@ ok("bunka: kcal a B v jednom riadku, ručné porcie viditeľné, 🔒 namiesto �
   await app.generujJedalnicek(true);
   app.S.slotPpl[app.datumPre(2)] = { Obed: 3 };
   let h = app.planBunka(2, "Obed");
-  assert.ok(/<span class="pc-riadok"><span class="kc">[^<]*<\/span><span class="pc-data">\d+&nbsp;g&nbsp;bielk. · 👥 3 porcie<\/span><button class="rm pc-btn pc-viac"[^>]*>⋯ viac<\/button><\/span>/.test(h),
+  assert.ok(/<span class="pc-riadok"><span class="kc">[^<]*<\/span><span class="pc-data">\d+&nbsp;g&nbsp;bielk. · 👥 3 porcie<\/span><button class="rm pc-btn pc-viac"[^>]*>⋯<span class="viac-sl"> viac<\/span><\/button><\/span>/.test(h),
     "kcal, bielkoviny a porcie nie sú v jednom riadku: " + h);
   assert.ok(h.includes("pc-znova") && !h.includes("pc-zamok"), "nezamknuté jedlo nemá 🎲");
   app.prepniZamok(2, "Obed");

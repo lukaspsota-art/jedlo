@@ -1820,6 +1820,63 @@
   :root[data-pismo="zaoblene"] .dnes-varenie-hero b{font-weight:800}
   :root[data-pismo="zaoblene"] .dnes-jedlo+.dnes-jedlo .sur-klik{font-weight:600!important}
   :root[data-rezim="obchod"] #v-vyziva .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
+  /* ── KOLO 10: vizuálny návrh 9. kola (audit9/vizual/navrh9.css) + opravy dizajnu ── */
+  /* 1. Detail · Veľké písmo: množstvo „asi 2 PL do vody na namáčanie" má white-space:nowrap (sablona.html:163),
+        tabuľka preteká (modal scrollWidth 328 > clientWidth 322, Moderné aj Kuchárka), „Fazuľa / čierne / oko" 4 riadky. */
+  table.ing td.mn{white-space:normal;min-width:4.6em;max-width:42%;text-wrap:balance}
+  
+  /* 2. Výživa · graf makier: susedné diely bez hrany (tmavá paprika/horčica 1,32:1, svetlá horčica/pšenica 1,51:1). */
+  .seg+.seg{box-shadow:inset 0 -2px 0 var(--doska)}
+  body.dark{--makro-s:#B49A66}
+  @media(prefers-color-scheme:dark){body:not(.svetla){--makro-s:#B49A66}}
+  :root[data-paleta="kontrast"]{--makro-b:#8E2F12;--makro-t:#9A6B00;--makro-s:#C9A55C}
+  :root[data-paleta="kontrast"] body.dark{--makro-b:#FF9A73;--makro-t:#FFD060;--makro-s:#C8B07C}
+  
+  /* 3. Výživa · Veľké písmo · Kuchárka: „2004" a „/2000" na dvoch riadkoch s ~50 px dierou. */
+  :root[data-rezim="obchod"] #v-vyziva .tile .val{white-space:nowrap}
+  :root[data-rezim="obchod"] #v-vyziva .tile .val small{font-size:.5em}
+  :root[data-rezim="obchod"] #v-vyziva .tile .lbl{hyphens:auto}
+  
+  /* 4. Detail · „S prílohou, tvoja porcia: 750 kcal" (číslo z bunky plánu) je sivý 13px odsek nalepený na riadok soli. */
+  #nutri-spolu:not(:empty){background:var(--tint);border-radius:var(--r-mala);padding:8px 12px;margin:8px 0 8px!important;
+    color:var(--text);font-size:14px;line-height:1.45}
+  #nutri-spolu b{font-family:var(--pismo-ui)}
+  
+  /* 5. Vzhľad · miniatúry tém v tmavej = päť takmer čiernych obdĺžnikov. */
+  body.dark .paleta .vzorka i:not(:nth-child(4)){filter:brightness(1.9) saturate(1.8)}
+  @media(prefers-color-scheme:dark){body:not(.svetla) .paleta .vzorka i:not(:nth-child(4)){filter:brightness(1.9) saturate(1.8)}}
+  
+  /* 6. Vzhľad · veľkosť písma: ukázať veľkosť vzorkou (popis „Veľké písmo" má 5 riadkov, „Normálne" 1). */
+  #velkost-box{align-items:stretch}
+  #velkost-box .viac-rezim b::after{content:"Aa";display:block;font-family:var(--pismo-nadpis);font-weight:600;margin-top:4px;color:var(--text2)}
+  #velkost-box .viac-rezim[data-rezim="plan"] b::after{font-size:18px}
+  #velkost-box .viac-rezim[data-rezim="obchod"] b::after{font-size:26px}
+  
+  /* 7. NOVÉ · Nákup · „▾ podrobnosti": znak ▾ v 11 px vyzerá ako bodka (tema-bloky.css:588). Šípka ako tvar. */
+  .suhrn-viac > summary{gap:6px;align-items:center}
+  .suhrn-viac > summary::before{content:"";font-size:0;width:7px;height:7px;flex:none;border:solid currentColor;
+    border-width:0 2px 2px 0;transform:translateY(-2px) rotate(45deg);transition:transform .15s}
+  .suhrn-viac[open] > summary::before{content:"";transform:translateY(2px) rotate(-135deg)}
+  
+  /* regresia kola 9: ikona v nadpise panela (span.mi) nesmie odskočiť od textu — šípka ide na koniec */
+  details > summary:has(> .mi){justify-content:flex-start}
+  details > summary:has(> .mi)::after{margin-left:auto}
+  details > summary > .mi{flex:none}
+  /* toast: šírka podľa obsahu (left:50 % ho zúžilo na 197 px a veta mala 3 riadky), v tmavej s rámom */
+  #toast{width:max-content;max-width:min(360px,calc(100vw - 32px));border:1px solid color-mix(in srgb,var(--na-tlaci) 22%,transparent);box-shadow:0 10px 28px rgba(0,0,0,.35)}
+  #v-nakup #nakup-list{padding-bottom:24px}
+  body:has(#toast.show) #v-nakup #nakup-list{padding-bottom:96px}
+  /* ★ a ⓘ písmom appky (boli v Ariali) */
+  .fav,.nak-i{font-family:var(--pismo-ui)}
+  /* Plán: ◀ dátum ▶ a „⋯" sa na 320–360 px neprekrývajú — dátum sa zúži */
+  @media (max-width:370px){ .plan-topline #plan-kontext .chip{padding-left:8px;padding-right:8px} .plan-topline #plan-kontext .chips{gap:4px} }
+  @media (max-width:340px){ :root[data-rezim="obchod"] body.plan-plny.plan-bloky-on #v-planovac .plan-topline{padding-right:50px} }
+  /* Veľké písmo: „⋯ viac" v bunke len ako „⋯" (slovo nesie aria-label) — nebolo samo na riadku */
+  :root[data-rezim="obchod"] .plan-cell .pc-viac .viac-sl{display:none}
+  /* menu Plánu na telefóne: záhlavie s ✕ ako globálne „⋯ Viac" */
+  .menu .menu-hlava{display:none}
+  @media screen and (max-width:820px){ .menu .menu-hlava{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:4px 6px 6px 14px;border-bottom:1px solid var(--linka);margin-bottom:4px;font-family:var(--pismo-nadpis);font-weight:700}
+    .menu .menu-hlava button{min-width:44px;min-height:44px;border:0;background:transparent;color:var(--text);font-size:18px;border-radius:var(--r-btn)} }
   /* Bloky theme — end ------------------------------------------------------ */
 </style>
 </head>
@@ -1927,6 +1984,7 @@
         <button class="btn primary" onclick="generujTlacidlo()">✨ Zostaviť jedálniček</button>
         <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-plan')" aria-label="Viac">⋯<span class="viac-tx"> Viac</span></button>
           <div class="menu" id="m-plan">
+            <div class="menu-hlava"><span>Týždeň a varenie</span><button type="button" onclick="zavriMenu()" aria-label="Zavrieť ponuku">✕</button></div>
             <p class="menu-sk" aria-hidden="true">Týždeň</p>
             <a onclick="zavriMenu();vratSpat()">↩ Vrátiť poslednú zmenu</a>
             <a class="len-mobil" onclick="zavriMenu();planZobraz('kalendar')">📆 Mesačný kalendár</a>
@@ -1999,7 +2057,7 @@
       <div class="panel"><h3>Kalórie po dňoch</h3><div class="chart" id="vyziva-chart"></div>
         <p class="info" id="vyziva-ciel" style="margin-top:10px"></p>
         <div id="vyziva-den" style="margin-top:12px"></div></div>
-      <div class="panel"><h3>Makrá — priemer dňa vs cieľ</h3><div id="vyziva-makro"></div></div>
+      <div class="panel"><h3>Makrá — priemer dňa oproti cieľu</h3><div id="vyziva-makro"></div></div>
       <div class="panel" id="vyziva-stravnici-panel"><h3>Ciele stravníkov</h3><div id="vyziva-stravnici"></div></div>
     </div>
 
@@ -2027,6 +2085,21 @@
     <div class="view" id="v-nastavenia">
       <h2 class="h">Nastavenia domácnosti</h2>
       <p class="sub">Predvoľby sa použijú pri plánovaní a filtrovaní.</p>
+      <details class="panel" id="nast-vzhlad"><summary>🎨 Vzhľad a zobrazenie</summary>
+        <p class="info" id="palety-nadpis" style="margin:4px 0 0"><b>Farby appky</b> — farby blokov A/B/C ostávajú, mení sa podklad, karty a text.</p>
+        <div class="palety" id="palety-box" role="radiogroup" aria-labelledby="palety-nadpis"></div>
+        <p class="info" id="pisma-nadpis" style="margin:8px 0 0"><b>Písmo</b></p>
+        <div class="palety pisma" id="pisma-box" role="radiogroup" aria-labelledby="pisma-nadpis"></div>
+        <p class="info" id="tema-nadpis" style="margin:8px 0 0"><b>Svetlá alebo tmavá</b></p>
+        <div class="palety" id="tema-box" role="radiogroup" aria-labelledby="tema-nadpis">
+          <label class="paleta"><input type="radio" name="p-dark-r" id="p-dark-auto" value="auto"><span class="tema-ik" aria-hidden="true">◐</span><span class="pismo-txt"><b>Podľa telefónu</b><small class="info">ako je nastavený telefón</small></span></label>
+          <label class="paleta"><input type="radio" name="p-dark-r" id="p-dark-svetla" value="svetla"><span class="tema-ik" aria-hidden="true">☀</span><span class="pismo-txt"><b>Svetlá</b></span></label>
+          <label class="paleta"><input type="radio" name="p-dark-r" id="p-dark-tmava" value="tmava"><span class="tema-ik" aria-hidden="true">☾</span><span class="pismo-txt"><b>Tmavá</b></span></label>
+        </div>
+        <p class="info" id="velkost-nadpis" style="margin:8px 0 4px"><b>Veľkosť písma a tlačidiel</b></p>
+        <div class="viac-rezimy" id="velkost-box" role="group" aria-labelledby="velkost-nadpis"></div>
+        <label class="switch"><input type="checkbox" id="p-balenia"> Zobrazovať balenia v nákupe (v zátvorke)</label>
+      </details>
       <div class="panel">
         <div class="field"><label>Ktoré jedlá varíte?</label><div id="sloty-box"></div></div>
         <label class="switch"><input type="checkbox" id="p-jedenhrniec"> 🍲 Obed aj večera z jedného hrnca (menej receptov a balení — hodí sa pri varení pre seba)</label>
@@ -2052,21 +2125,6 @@
         <p class="info">Zaškrtnutý zdroj appka <b>používa</b>, odškrtnutý sa <b>neukáže nikde</b> — ani v Receptoch, ani v návrhoch, ani v „✨ Zostaviť jedálniček". Jedlá, ktoré už máš v pláne, ostanú. Kúpené snacky sa zdrojom neriadia. Mení sa hneď, netreba ukladať.</p>
         <div id="zdroje-box"></div>
         <p class="info" id="zdroje-info" style="margin-top:10px"></p>
-      </details>
-      <details class="panel" id="nast-vzhlad"><summary>🎨 Vzhľad a zobrazenie</summary>
-        <p class="info" id="palety-nadpis" style="margin:4px 0 0"><b>Farby appky</b> — farby blokov A/B/C ostávajú, mení sa podklad, karty a text.</p>
-        <div class="palety" id="palety-box" role="radiogroup" aria-labelledby="palety-nadpis"></div>
-        <p class="info" id="pisma-nadpis" style="margin:8px 0 0"><b>Písmo</b></p>
-        <div class="palety pisma" id="pisma-box" role="radiogroup" aria-labelledby="pisma-nadpis"></div>
-        <p class="info" id="tema-nadpis" style="margin:8px 0 0"><b>Svetlá alebo tmavá</b></p>
-        <div class="palety" id="tema-box" role="radiogroup" aria-labelledby="tema-nadpis">
-          <label class="paleta"><input type="radio" name="p-dark-r" id="p-dark-auto" value="auto"><span class="tema-ik" aria-hidden="true">◐</span><span class="pismo-txt"><b>Podľa telefónu</b><small class="info">ako je nastavený telefón</small></span></label>
-          <label class="paleta"><input type="radio" name="p-dark-r" id="p-dark-svetla" value="svetla"><span class="tema-ik" aria-hidden="true">☀</span><span class="pismo-txt"><b>Svetlá</b></span></label>
-          <label class="paleta"><input type="radio" name="p-dark-r" id="p-dark-tmava" value="tmava"><span class="tema-ik" aria-hidden="true">☾</span><span class="pismo-txt"><b>Tmavá</b></span></label>
-        </div>
-        <p class="info" id="velkost-nadpis" style="margin:8px 0 4px"><b>Veľkosť písma a tlačidiel</b></p>
-        <div class="viac-rezimy" id="velkost-box" role="group" aria-labelledby="velkost-nadpis"></div>
-        <label class="switch"><input type="checkbox" id="p-balenia"> Zobrazovať balenia v nákupe (v zátvorke)</label>
       </details>
       <p class="info" id="profil-ok" role="status" aria-live="polite">Zmeny sa ukladajú hneď.</p>
       <details class="panel" id="pokrocile"><summary>🧪 Pokročilé — kalkulačka cieľa, váha, okno jedenia</summary>
