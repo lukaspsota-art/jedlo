@@ -202,7 +202,7 @@ module.exports = {
         hlavicka: ing.includes("+ " + p.nazov),
         surovina: zaHlavickou.includes(p.ing.nazov),
         gramaz: /\d+([,.]\d+)?\s*g/.test(zaHlavickou),
-        postup: document.getElementById("postup-ol").innerText.includes(p.postup[0]),
+        postup: document.getElementById("postup-ol").innerText.replace(/ /g, " ").includes(p.postup[0]), // sadzba() dáva pevné medzery
         spoluVidno: getComputedStyle(spolu).display !== "none",
         detailKcal: m ? Number(m[1]) : null, // kolo 8: „S prílohou" je už tvoja porcia (× veľkosť porcie)
         bunkaKcal: Math.round(mealKcal(slotIds(0, "Obed")) * f),

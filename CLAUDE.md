@@ -1127,6 +1127,38 @@ diabetik 9, prístupnosť 8,5, ovládanie 9, vizuál 9,5, pocit 9,5)
 - **Domov v nedeľu** pri prázdnom týždni: hlavné tlačidlo „✨ Naplánovať budúci týždeň" (tento týždeň dnes končí).
 - Dátum týždňa všade `rozsahTyzdnaKratko`. Nákup: pridaná položka dá toast s oddelením, zabliká a ukáže sa.
 
+### Kolo 13 (9. 10. 2026) — po audite kola 12 (vizuál 9,5; výživa, prístupnosť 8,5; ostatní 9)
+- **Stmavenie pod menu (`#menu-zavoj`) zatvára až na `click`** — na `pointerdown` zmizlo a klik prepadol na prvok
+  pod ním (prepol týždeň, odškrtol položku). Menu na telefóne sa zatvorí aj ťahom nadol (len keď je navrchu).
+- **`slotIds` vráti `[]`, keď prvé jedlo slotu nepoznáme** — slot je voľný pre bunku, nákup, varenie aj kcal.
+  `receptById` je index (`_rbIx`, `var` kvôli volaniu počas štartu), neznáme id ide cez `find` ako predtým.
+- **Domov cez víkend:** keď prázdny týždeň končí (začal posledný blok, najskôr sobota), hlavné tlačidlo patrí
+  budúcemu týždňu — zostaví ho len prázdny, plný iba otvorí („📅 Otvoriť plán budúceho týždňa"). Karta prázdneho
+  budúceho týždňa vtedy tlačidlo nemá (`hbBuduci`). Ikona tlačidla ostáva `.mi` (nie `textContent`).
+  Nákup cez víkend ponúkne „📅 Nákup na budúci týždeň →", nedeľná karta varenia „🛒 Nákup na blok A".
+  Pripomienka zálohy je karta na Domove (`#zaloha-karta`), nie toast.
+- **Nákup:** zrušenie odškrtnutia v 1,6 s okne riadok len vráti (`_nakPocty`), ťuk do 350 ms po preusporiadaní
+  sa zahodí (`_nakTicho`). Ručná položka: Enter neroluje, toast „✓ Pridané: X · oddelenie", riadok zabliká.
+- **Plán:** voľný slot = prerušovaný štvorec + „+ Pridať jedlo". Keď je hlavný stravník mimo domu, bunka píše
+  kcal/bielkoviny prvého prítomného („Jana · 650 kcal"). Po „↩ Späť" fokus a záblesk na bunke akcie
+  (`u.bunka`, `_bunkaAkcie`). Toast so Späť pri ovládaní klávesnicou 20 s (`_klavesnica`).
+- **Generátor:** tá istá strukovina v inom slote TOHO ISTÉHO bloku stojí −0,45 (`_blokStruk` z `ctx.denPlan`,
+  raňajky polovicou); 🎲 jedla ráta aj druhý slot vlastného bloku (`_strukZPlanu(di,slot)`).
+  🩺: hustotný bonus bielkovín len do 25 % E (nad tým bez odmeny — pokuta odháňala rybu). Zamietnuté po meraní:
+  pokuty za „≈ odhad" a hlavné jedlo pod 15 g bielkovín (jedlá nad 75 g sacharidov 47 → 60/378), prísnejšia úľava
+  rybe pri 🩺 (týždne bez ryby 6 → 17–33 %) a soľ `min(2000,…)` (uvoľnila by prah mužovi 2500).
+- **Výživa:** `cerveneG` ráta spracovanú hydinu (kuracia šunka, kuracie jerky) — test `_SPRAC` je pred vylúčením
+  hydiny. Vegetarián vo Výžive: `vyzivaPreVeg(r)` = porcia + rozdiel vegetariánskej (`ingrediencieNaNakup(r,1)`)
+  a pôvodnej verzie zo surovín, riadok „🌱 s tofu". 🩺: sporný recept (q < 0,5) ráta v `dovodDiabetu` sacharidy
+  z deklarácie; bunka „≈ X g sach." pri odhade, detail pri spornom nesľubuje SJ. Návrhy pri 🩺 penalizujú tuk
+  nad 40 % E, NMK, červené mäso > 150 g a bielkoviny > 60 g. Malé dieťa: prah soli ×0,8, semienka ako orechy.
+- **Kuchár:** „napučať" už nie je príprava deň vopred (len sušená strukovina a čas). Opečený toast/chlieb,
+  bruschetta, croque, bánh mì a obaľované vyprážané = v deň jedenia. „Priprav si" zlúči kusy a lyžice do g/ml.
+- **Text:** `sadzba()` (pevná medzera za jednopísmenovou predložkou) v kartách, bunke, detaile a krokoch;
+  `casText` píše „1 h 40 min" nedeliteľne. Zostaviť/Zamiešať menuje týždeň v dialógu. Kalendár na telefóne bez
+  pásu týždňa (`body.kal-on`). „📅" v páse týždňa na telefóne bez slova a zalomí sa namiesto orezania.
+- `test_harness.js`: `APP_JS=cesta` načíta inú verziu `app.js` (meranie pred/po paralelne).
+
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených
 chýb**, E2E **515/516** (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`; xfail „med“

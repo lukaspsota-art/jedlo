@@ -394,7 +394,7 @@ ok("picker v pláne hľadá aj podľa suroviny a ukáže ktorá sedí", () => {
 nadpis("\nV2 — hľadanie: tvar slova, synonymá, vylúčenie, relevancia, výrobky");
 // karty, ktoré pribudli v mriežke po poslednom renderGrid (fake DOM innerHTML="" deti nemaže)
 const novyGrid = app => { const g = app.document.getElementById("grid"), od = g.children.length;
-  return () => { const mapa = new Map(app.RECEPTY.map(r => [app.escHtml(r.nazov), r]));
+  return () => { const mapa = new Map(app.RECEPTY.map(r => [app.sadzba(app.escHtml(r.nazov)), r]));
     return g.children.slice(od).map(c => mapa.get((c.innerHTML.match(/<h3>(.*?)<\/h3>/) || [])[1])); }; };
 const hladaj = (app, q) => app.RECEPTY.filter(r => app.prejdeProfil(r) && app.hladaSedi(r, app.bezDia(q)));
 const textReceptu = r => r.nazov + " " + (r.ingrediencie || []).map(i => i.nazov).join(" ") + " " + (r.tagy || []).join(" ");
@@ -1363,8 +1363,8 @@ ok("množstvo pri kroku len na celé slovo; import: šťava z citróna, špetka,
 });
 ok("čas jedným zápisom: „1 hod 35 min“ → „1 h 35 min“", () => {
   const app = novy();
-  assert.strictEqual(app.casText("1 hod 35 min"), "1 h 35 min");
-  assert.strictEqual(app.casText("45 min"), "45 min");
+  assert.strictEqual(app.casText("1 hod 35 min"), "1 h 35 min");
+  assert.strictEqual(app.casText("45 min"), "45 min");
 });
 
 nadpis("\nKolo 6 (9. 10.) — import v 1. páde, HTML entity, diabetes snacky, čas, pixel art");
@@ -1388,8 +1388,8 @@ ok("🩺 diabetes: sladké podľa názvu len s pridaným cukrom (bábovka z mlet
 });
 ok("čas jedným formátom: „100 min“ → „1 h 40 min“, „60 min“ → „1 h“", () => {
   const app = novy();
-  assert.strictEqual(app.casText("100 min"), "1 h 40 min");
-  assert.strictEqual(app.casText("60 min"), "1 h");
+  assert.strictEqual(app.casText("100 min"), "1 h 40 min");
+  assert.strictEqual(app.casText("60 min"), "1 h");
   assert.strictEqual(app.formatCas(7200), "2:00:00");
   assert.strictEqual(app.formatCas(90), "01:30");
 });
@@ -1490,13 +1490,53 @@ ok("rozvrh zo zálohy s kódom v id alebo bez hraníc sa zahodí; platný ostane
 ok("neznáme hlavné jedlo v slote sa kreslí ako voľný slot s „+ pridať“", () => {
   const app = novy(); const iso = app.datumPre(0);
   app.S.plan[iso] = app.S.plan[iso] || {}; app.S.plan[iso]["Obed"] = ["neexistuje-xyz", "prf:ryza"];
-  assert.match(app.planBunka(0, "Obed"), /\+ pridať/);
+  assert.match(app.planBunka(0, "Obed"), /\+ Pridať jedlo/);
 });
 ok("pixel art má triedu .pix a v predvolenom radení ide za fotky", () => {
   const app = novy(), pix = app.RECEPTY.find(r => app.jePix(r));
   if (pix) assert.ok(/\bpix\b/.test(app.thumbTrieda(pix)));
   const foto = app.RECEPTY.find(r => app.maFoto(r) && !app.jePix(r));
   if (foto) assert.ok(!/\bpix\b/.test(app.thumbTrieda(foto)));
+});
+nadpis("\nKolo 13 (9. 10.) — slot bez jedla všade voľný, výživa vegetariána, Priprav si, sadzba");
+ok("receptById cez index vráti to isté ako find; neznáme id = undefined", () => {
+  const app = novy(), r = app.RECEPTY[123];
+  assert.strictEqual(app.receptById(r.id), r);
+  assert.strictEqual(app.receptById("neexistuje-xyz"), undefined);
+});
+ok("slot, ktorého hlavné jedlo nepoznáme, je voľný aj pre nákup a varenie (slotIds = [])", () => {
+  const app = novy(); const iso = app.datumPre(0);
+  app.S.plan[iso] = app.S.plan[iso] || {}; app.S.plan[iso]["Obed"] = ["neexistuje-xyz", "prf:ryza"];
+  assert.strictEqual(app.slotIds(0, "Obed").length, 0);
+  assert.ok(!app.varenieBloku([0]).some(x => x.cid === "prf:ryza" && x.sloty.includes("Obed") && x.d0 === 0));
+});
+ok("kuracia šunka je spracované mäso (cerveneG.sp), kuracie prsia nie", () => {
+  const app = novy();
+  const s = app.cerveneG({ id: "t-sunka", porcie: 1, ingrediencie: [{ nazov: "Kuracia šunka", mnozstvo: 100, jednotka: "g" }] });
+  const k = app.cerveneG({ id: "t-prsia", porcie: 1, ingrediencie: [{ nazov: "Kuracie prsia", mnozstvo: 100, jednotka: "g" }] });
+  assert.ok(s.sp > 50, JSON.stringify(s)); assert.strictEqual(k.g, 0);
+});
+ok("vegetarián vo Výžive: mäsité jedlo sa ráta z vegetariánskej verzie (iné bielkoviny, príznak veg)", () => {
+  const app = load({ stav: { profil: { stravnici: [{ nazov: "Ja", kcal: 2000 }, { nazov: "Ona", kcal: 1800, veg: true }] } }, seed: 1 });
+  const r = app.RECEPTY.find(x => app.isMain(x) && !app.diety(x).veg && x.ingrediencie.some(i => /kurac/i.test(i.nazov)));
+  const v = app.vyzivaReceptu(r), w = app.vyzivaPreVeg(r);
+  assert.ok(w.veg && w.b !== v.b, r.id + " " + v.b + " → " + w.b);
+});
+ok("Priprav si: kusy sa pripočítajú ku gramom tej istej suroviny", () => {
+  const app = novy();
+  const z = app.pripravZoznam([[{ id: "t-c", porcie: 1, ingrediencie: [{ nazov: "Cibuľa", mnozstvo: 100, jednotka: "g" }, { nazov: "Cibuľa", mnozstvo: 1, jednotka: "ks" }] }, 1, 1]]);
+  const c = z.find(x => /^Cibuľa/.test(x)); assert.ok(c && !/ks|\+/.test(c), c);
+});
+ok("sadzba: jednopísmenová predložka sa nezalomí na koniec riadku", () => {
+  const app = novy();
+  assert.strictEqual(app.sadzba("Wrap s tuniakom a fazuľou"), "Wrap s tuniakom a fazuľou");
+});
+ok("🎲 jedla ráta strukovinu z druhého slotu vlastného bloku, ale nie zo slotu, ktorý mení", () => {
+  const app = novy(); const ci = app.RECEPTY.find(r => app.isMain(r) && app._strukovina(r) === "cicer");
+  const ine = app.RECEPTY.find(r => app.isMain(r) && !app._strukovina(r));
+  app.blokDni(0).forEach(d => { const iso = app.datumPre(d); app.S.plan[iso] = { Obed: [ine.id], "Večera": [ci.id] }; });
+  app._strukZPlanu(0, "Obed"); assert.strictEqual(app.__tyzStruk().cicer, 1);
+  app._strukZPlanu(0, "Večera"); assert.ok(!app.__tyzStruk().cicer);
 });
 
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });
