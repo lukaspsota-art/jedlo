@@ -1066,7 +1066,7 @@
   .akcia-pol .nm .mi{text-align:center;width:auto;margin:0}
   .menu a{font-family:var(--pismo-ui)}
   /* riadok kcal v bunke: jedna základná línia, oddeľovač s medzerou z oboch strán, „⋯ viac" nezaberá výšku riadku navyše */
-  .plan-cell .pc-riadok{align-items:baseline;flex-wrap:nowrap}
+  .plan-cell .pc-riadok{align-items:baseline;flex-wrap:wrap}
   .plan-cell .pc-riadok .kc{white-space:nowrap;margin-right:0}
   .plan-cell .pc-riadok .pc-data{margin-top:0;min-width:0}
   .plan-cell .pc-riadok .pc-data::before{content:"\00a0·\00a0"}
@@ -1126,3 +1126,33 @@
   .bk-varenia .lnk{min-height:44px;display:inline-flex;align-items:center}
   /* karta bez bloku (budúci týždeň): tichý tón a prúžok, nie čierna linka */
   .dnes-varenie-hero:not(.blok-a):not(.blok-b):not(.blok-c){background:var(--tint);box-shadow:inset 0 4px 0 var(--okraj),var(--shadow)}
+  /* odškrtnuté v Nákupe: prečiarknuté a tlmenou farbou, NIE opacitou (tá dala 2,05–3,5:1, kolo 6 prístupnosť) */
+  .odd .nak-row>label.checked,.odd .nak-row.checked,.odd .nak-row.odchadza>label{opacity:1}
+  .odd .nak-row>label.checked .nm2,.odd .nak-row>label.checked .nm2 b,.odd .nak-row.odchadza .nm2,.odd .nak-row.odchadza .nm2 b{color:var(--text2);text-decoration:line-through}
+  .odd .nak-row.odchadza>label,.odd .nak-row>label.checked{background:var(--tint);box-shadow:none}
+  /* kolo 7: Domov — príloha tichšie ako jedlo (ako v Pláne); vo Veľkom písme menovka jedla nad názvom (1 stĺpec) */
+  .dnes-jedla .dnes-jedlo.pril{font-family:var(--pismo-text);font-size:13.5px;font-weight:400;color:var(--text2)}
+  :root[data-rezim="obchod"] .dnes-varenie-hero .dnes-row{flex-wrap:wrap;row-gap:2px}
+  :root[data-rezim="obchod"] .dnes-varenie-hero .dnes-row>.dnes-slot{flex-basis:100%}
+  :root[data-rezim="obchod"] .dnes-varenie-hero .dnes-row.dnes-plus>.dnes-slot{display:none}
+  /* ── KOLO 7 (vizuál, dizajn) ── */
+  .tyzden-pas .dn{margin:0 0 1px;font-size:12.5px;font-weight:700;color:var(--text)}
+  .tyzden-pas .kc{font-size:11.5px;font-weight:600;color:var(--text2)}
+  .tyzden-pas::after{content:"kcal na deň";grid-column:1/-1;font-size:11px;color:var(--text2);text-align:right;margin-top:-1px}
+  .pv-nazov>b{font-family:var(--pismo-nadpis)}
+  #modal .sp-row:has(.pv-akcie) .pv-akcie{flex-basis:100%}
+  #modal .hero p,#modal .hero .subx{padding-right:56px;text-wrap:pretty}
+  .content2:has(> .viac-rezimy)>.plan-cell>.nm{font-family:var(--pismo-ui);font-weight:600}
+  .viac-rezim small{font-size:12.5px}
+  #cook-step{text-wrap:pretty} .hero .subx{text-wrap:pretty}
+  .card .hdot{display:none}
+  .nak-pocet b{font-family:var(--pismo-ui)}
+  :root[data-rezim="obchod"] .bk-znova .tl{display:none}
+  #plan-bloky>*{scroll-margin-top:12px}
+  /* prázdny slot v bloku: „+ pridať" vľavo ako ostatné jedlá, nie na stred */
+  #plan-bloky .plan-cell.prazdne{justify-content:flex-start;text-align:left}
+  /* varenie: skok na jedlo má plný dotykový cieľ */
+  .cook button.cook-jedlo{min-height:44px}
+  .tema-ik{flex:none;width:58px;text-align:center;font-size:24px;line-height:1;color:var(--text)}
+  /* 320 px s Veľkým písmom: dlhé balenie v Nákupe sa smie zalomiť (inak prekrylo ⓘ a stránka sa posúvala do strany) */
+  @media (max-width:360px){ .odd .nak-row .nak-mn b,.odd .nak-row .nm2 .info{white-space:normal} .tyzden-pas .kc{font-size:10px;letter-spacing:-.02em} }

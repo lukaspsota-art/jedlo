@@ -1005,6 +1005,36 @@ Roly od kola 4: dizajn, používateľ, výživa, kuchár, QA, rodič, prístupno
   cukrom ≥ 5 g / pečivo / sladený výrobok; 🩺 v detaile ráta aj prílohu; náhradný doplnok snacku ≤ 25 g spolu.
 - Malé dieťa: `susen\w*( \w+)? mas`, „pikant" je pálivé, `nevhodneMalym` platí aj pre prílohy.
 
+### Kolo 7 (9. 10. 2026) — po audite kola 6 (dizajn 9, používateľ 9, výživa 8,5, kuchár 8,5, QA 8,5, rodič 9,
+diabetik 9, prístupnosť 8,5, ovládanie 8,5, vizuál 9,5, pocit 9)
+- **Nákup:** odškrtnutý riadok OSTANE na mieste (prečiarknutý, `--text2` na `--tint` — nie opacita, tá padla pod AA)
+  a zoznam sa preusporiada až **1,2 s po poslednom ťuku** (`_nakupPrekresli(fokus,val,hot)`); počítadlo a prúžok sa
+  menia hneď, posledná položka = hneď 🎉. Druhý rýchly ťuk predtým trafil susednú položku. E2E čaká 1,5 s.
+- **Plán:** posun na dnešný blok len pri príchode z inej obrazovky a nad naplneným týždňom; ťuk na otvorený Plán = hore.
+  `.pc-riadok` sa smie zalomiť (údaje majú `&nbsp;`, takže sa nelámu „16 g / sach."). Prázdny blok má „✨ Zostaviť",
+  toast hovorí „zostavený"; 🎲 bloku maže ručnú porciu len prehodeným slotom.
+- **Domov:** pri prázdnom TOMTO týždni sú karty budúceho týždňa tiché (obrysové / skryté) — primárnu akciu nesie
+  hlavné tlačidlo; „🥪 V deň jedenia" je oddelené od „🛒 Len kúpiť"; „Zajtra varíš" vymenuje jedlá a má primárny Nákup.
+  Pás týždňa: deň hore, kcal pod ním + „kcal na deň".
+- **Vzhľad:** svetlá/tmavá sú tri karty (`input[name=p-dark-r]`, id `p-dark-*`), nie select. Téma, písmo aj veľkosť
+  sa prelínajú cez `_plynule(fn)` (View Transition s ošetreným preskočením; bez nej / pri zníženom pohybe hneď).
+- **Okná na hodnotu** (`promptModal(msg,def,inputmode,okLabel)`) pomenúvajú akciu: Spustiť, Nastaviť, Uložiť, Rozdeliť.
+- **Varenie:** zámok displeja `_drzDisplej()` aj po „Pokračovať" a po návrate do appky; Ctrl+Z nespúšťa „Pokračovať"
+  (`akcia.nieZ`); skok na jedlo drží fokus; varenie z plánu varenia nechá plán pod sebou.
+- **Skladovanie:** šakšuka/shakshouka, huevos, „v pite", šalát s avokádom/ceviche („ryžový ocot" nie je ryža),
+  postup s vyprážaním = v deň jedenia; vajce navrch = základ dopredu + „🍳 vajce urob čerstvé pri jedení" (`vajceCerstve`).
+  Čakanie (namáčanie, marináda) od 3 h sa do času varného večera neráta („~45 min + vopred").
+- **Vegetarián:** tofu/cícer sa sľubuje len pri ≥ 40 g mäsa na porciu, inak „porciu bez mäsa odober pred pridaním X".
+- **Výživa/diabetes:** `rybaChyba` 0,25 → 0,5 (týždne bez ryby 33 → 11 % pri 2000 kcal, tehotná 33 → 6 %);
+  pokuta za tuk pri 🩺 1,4 od 32 % E, ryba len 0,4; jedlo so ≥ 35 g sacharidov dostane pri 🩺 len `prf:zelenina`
+  (`_prilohaDruh` memo s kľúčom `id|d`) — jedál nad 75 g 78 → 35 z 378 (2000 kcal). Tuk pri 🩺 ostáva ~36 % E.
+- **Malé dieťa:** šunka, saláma, párky, klobása ako snack nie; `zadusenieText` pridá aj „🌶 porciu odober pred korením",
+  je v detaile, v „Priprav si" NAD zoznamom aj v pláne varenia; arašidové maslo a mandľové mlieko ju nespúšťajú.
+- **Import:** `_impTxt` najprv dekóduje entity, potom zahodí značky; 1. pád sa porovnáva len s tvarom = kľúč potraviny
+  („2 citróny" ostane). Kcal receptu-prílohy v detaile = na porciu × porcie.
+- **Prístupnosť:** položka s `.mi` dostane meno z textu (bez emoji), akcia z toastu vráti fokus (`_fokusPoToaste`),
+  stĺpec grafu hlási `aria-pressed` aj v Priemere, „Recept: názov" v pláne varenia, 320 px s Veľkým písmom bez posunu.
+
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených
 chýb**, E2E **515/516** (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`; xfail „med“

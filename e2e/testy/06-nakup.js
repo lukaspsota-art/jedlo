@@ -51,7 +51,7 @@ module.exports = {
     // .click(), nie .check() — checkNakup() prekreslí celý zoznam, takže pôvodný uzol zmizne
     // a overenie stavu v .check() by čakalo na odpojený element.
     await prvy.click();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(1500); // kolo 7: zoznam sa preusporiada až 1,2 s po poslednom ťuku (riadok neodskočí spod prsta)
     const poZaskrtnuti = await page.evaluate(() => ({
       hotove: document.querySelectorAll("#nakup-list .done-sekcia label").length,
       kluce: Object.keys(S.nakupCheck).length,

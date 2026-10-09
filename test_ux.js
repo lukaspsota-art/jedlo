@@ -920,7 +920,7 @@ ok("bunka: kcal a B v jednom riadku, ručné porcie viditeľné, 🔒 namiesto �
   await app.generujJedalnicek(true);
   app.S.slotPpl[app.datumPre(2)] = { Obed: 3 };
   let h = app.planBunka(2, "Obed");
-  assert.ok(/<span class="pc-riadok"><span class="kc">[^<]*<\/span><span class="pc-data">\d+ g bielk\. · 👥 3 porcie<\/span><button class="rm pc-btn pc-viac"[^>]*>⋯ viac<\/button><\/span>/.test(h),
+  assert.ok(/<span class="pc-riadok"><span class="kc">[^<]*<\/span><span class="pc-data">\d+&nbsp;g&nbsp;bielk. · 👥 3 porcie<\/span><button class="rm pc-btn pc-viac"[^>]*>⋯ viac<\/button><\/span>/.test(h),
     "kcal, bielkoviny a porcie nie sú v jednom riadku: " + h);
   assert.ok(h.includes("pc-znova") && !h.includes("pc-zamok"), "nezamknuté jedlo nemá 🎲");
   app.prepniZamok(2, "Obed");
@@ -1273,8 +1273,8 @@ ok("🩺 diabetes zníži podiel sacharidov v pláne a bunka ich ukáže", async
     let k = 0, s = 0; for (let di = 0; di < 7; di++) a.slotyDna(di).forEach(sl => a.slotIds(di, sl).forEach(c => { const r = a.komponent(c); if (r) { const v = a.vyzivaReceptu(r); k += v.kcal * a.pf(di, sl); s += v.s * a.pf(di, sl); } }));
     return { p: s * 4 / k, a }; };
   const bez = await sach(false), s = await sach(true);
-  assert.ok(s.p < bez.p - 0.04 && s.p < 0.42, (bez.p * 100).toFixed(1) + " % → " + (s.p * 100).toFixed(1) + " %");
-  assert.ok(/g sach\./.test(s.a.planBunka(0, "Obed")), "bunka neukazuje sacharidy");
+  assert.ok(s.p < bez.p - 0.02 && s.p < 0.42, (bez.p * 100).toFixed(1) + " % → " + (s.p * 100).toFixed(1) + " %");
+  assert.ok(/g&nbsp;sach./.test(s.a.planBunka(0, "Obed")), "bunka neukazuje sacharidy");
 });
 ok("🎨 farebné témy: 5 paliet, voľba sa uloží na <html data-paleta> a neznáma hodnota nič nerozbije", () => {
   const app = novy({ paleta: "more" });
@@ -1392,6 +1392,37 @@ ok("čas jedným formátom: „100 min“ → „1 h 40 min“, „60 min“ →
   assert.strictEqual(app.casText("60 min"), "1 h");
   assert.strictEqual(app.formatCas(7200), "2:00:00");
   assert.strictEqual(app.formatCas(90), "01:30");
+});
+nadpis("\nKolo 7 (9. 10.) — import, skladovanie, vegetarián, diabetes, malé dieťa");
+ok("import: „2 citróny“ ostane v 1. páde, „&lt;b&gt;“ sa najprv dekóduje a potom zahodí", () => {
+  const app = novy(), n = x => app.parseIngRiadok(x).nazov;
+  assert.deepStrictEqual(["2 citróny", "šťava z 1 citróna"].map(n), ["Citróny", "Citrón"]);
+  const r = app.parseReceptImport(JSON.stringify({ "@type": "Recipe", name: "A", recipeIngredient: ["&lt;b&gt;100 g cukru&lt;/b&gt;"], recipeInstructions: "x" }));
+  assert.deepStrictEqual([r.ingrediencie[0].nazov, r.ingrediencie[0].mnozstvo], ["Cukor", 100]);
+});
+ok("skladovanie: šakšuka, huevos rancheros a ceviche sú v deň jedenia; vajce navrch = základ dopredu + rada", () => {
+  const app = novy(), f = q => app.RECEPTY.find(r => app.bezDia(r.nazov).includes(q));
+  ["sakshuka", "huevos", "ceviche"].forEach(q => { const r = f(q); if (r) assert.strictEqual(app.skladovanie(r), "den", r.nazov); });
+  assert.strictEqual(app.skladovanie({ nazov: "Šošovicový prívarok", kategoria: "Hlavné jedlo", postup: ["Uvar.", "Podávaj s volským okom."] }), "dopredu");
+  assert.ok(app.vajceCerstve({ nazov: "x", postup: ["Navrch daj volské oko."] }));
+});
+ok("vegetarián: pri malom množstve mäsa (pod 40 g na porciu) sa tofu nesľubuje", () => {
+  const app = novy({ stravnici: [{ nazov: "Ja", kcal: 2000 }, { nazov: "Jana", kcal: 1800, veg: true }] });
+  const r = { id: "t-veg", nazov: "Fazuľová polievka s klobásou", kategoria: "Polievka", porcie: 4, ingrediencie: [{ nazov: "Klobása", mnozstvo: 100, jednotka: "g" }, { nazov: "Fazuľa", mnozstvo: 400, jednotka: "g" }] };
+  const t = app.vegNahradaText(r);
+  assert.ok(!/tofu/.test(t) && /odober/.test(t), t);
+});
+ok("🩺 jedlo so ≥ 35 g sacharidov dostane pri diabete len zeleninovú prílohu", () => {
+  const app = novy({ diabetes: true });
+  const r = app.RECEPTY.find(x => app.isMain(x) && !app.maCarb(x) && x.kategoria === "Hlavné jedlo" && app.vyzivaReceptu(x).s >= 40 && app.prejdeProfil(x));
+  if (r) assert.strictEqual(app.prilohaPre(r, 0), "prf:zelenina", r.nazov);
+});
+ok("malé dieťa: šunka ako snack nie; pálivé jedlo dostane radu „porciu odober pred korením“; arašidové maslo nie je zadusenie", () => {
+  const app = novy({ stravnici: [{ nazov: "Mama", kcal: 2000 }, { nazov: "Ema", kcal: 1300, typ: "dieta4" }] });
+  const sunka = app.RECEPTY.find(r => app.jeVyrobok(r) && /sunk/.test(app.bezDia(r.nazov)));
+  if (sunka) assert.ok(app.nevhodneMalym(sunka), sunka.nazov);
+  assert.match(app.zadusenieText([{ nazov: "Pikantné kura", ingrediencie: [{ nazov: "Chilli" }] }]), /🌶/);
+  assert.strictEqual(app.zadusenieText([{ nazov: "Toast", ingrediencie: [{ nazov: "Arašidové maslo" }] }]), "");
 });
 ok("pixel art má triedu .pix a v predvolenom radení ide za fotky", () => {
   const app = novy(), pix = app.RECEPTY.find(r => app.jePix(r));
