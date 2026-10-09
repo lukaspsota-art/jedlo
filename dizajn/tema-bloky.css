@@ -323,7 +323,9 @@
   table.plan td.bunka-a{background:color-mix(in srgb,var(--blok-a) 7%,var(--doska))}
   table.plan td.bunka-b{background:color-mix(in srgb,var(--blok-b) 7%,var(--doska))}
   table.plan td.bunka-c{background:color-mix(in srgb,var(--blok-c) 7%,var(--doska))}
-  .plan-cell:hover{background:color-mix(in srgb,var(--akcent) 10%,transparent)}
+  /* len pod myšou — na dotyku ostávala bunka po ťuknutí sivo podfarbená (kolo 4) */
+  .plan-cell:hover{background:transparent}
+  @media (hover:hover){ .plan-cell:hover{background:color-mix(in srgb,var(--akcent) 10%,transparent)} }
   .plan-cell .rm{color:var(--signal)}
   /* v35: názov jedla BEZ podčiarknutia — 12–16 podčiarknutí na obrazovku čítalo oko ako hypertext,
      nie jedálny lístok. Je to <button> v karte, nie odkaz v texte (1.4.1 sa netýka); čiara ostáva
@@ -1037,3 +1039,9 @@
 
   /* toast nad tmavou plochou varenia: svetlý, inak splynie (kolo 4, pocit) */
   body:has(#cook.open) #toast{background:#F4EFE6;color:#141210}
+  /* Domov: „+ doplnok" na jednom riadku s názvom, nie „+" osamote */
+  .dnes-jedla .dnes-jedlo{display:flex;gap:4px;align-items:baseline;flex-wrap:nowrap}
+  .dnes-jedla .dnes-jedlo > :not(:first-child),.dnes-jedla .dnes-jedlo > :only-child{flex:1 1 auto;min-width:0}
+  .dnes-zajtra{margin-bottom:16px}
+  /* menu: ikona v pevnom stĺpci, text zarovnaný */
+  .menu a .mi,.akcia-pol .mi{display:inline-block;flex:none;width:1.7em;text-align:center;margin-right:2px}
