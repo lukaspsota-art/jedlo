@@ -1440,6 +1440,31 @@ ok("vaječné jedlo (šakšuka, omeleta) dostane pečivo, nie ryžu či cestovin
   const app = novy(), r = app.RECEPTY.find(x => /saksuk|sakshuk/.test(app.bezDia(x.nazov)) && app.isMain(x) && !app.maCarb(x));
   if (r) assert.ok(["prf:pecivo", "prf:zelenina", null].includes(app.prilohaPre(r, 0)), app.prilohaPre(r, 0));
 });
+nadpis("\nKolo 9 (9. 10.) — ryba, quiche, nasýtené tuky, malé dieťa");
+ok("ryba: vyprážaná ani slaná nedostane úľavu ani bonus; neprážaná áno (aj pre rodinu s malým dieťaťom)", () => {
+  const app = novy({ stravnici: [{ nazov: "Mama", kcal: 2000 }, { nazov: "Ema", kcal: 1300, typ: "dieta4" }] });
+  const ryby = app.RECEPTY.filter(r => app.isMain(r) && app.jeRybaJedlo(r));
+  const vypr = ryby.find(r => /vypraz|trojobal|chips/.test(app.bezDia(r.nazov)));
+  if (vypr) assert.ok(!app._rybaVhodna(vypr), vypr.nazov);
+  assert.ok(ryby.some(r => app._rybaVhodna(r)), "aspoň jedna neprážaná ryba je vhodná");
+  assert.ok(!ryby.some(r => app._rybaUlava(r)), "pri malom dieťati ryba úľavu zo soli nedostane");
+});
+ok("quiche, calzone, galette a koláč sú škrob (bez prílohy ryže či cestovín)", () => {
+  const app = novy();
+  ["Quiche Lorraine", "Calzone so šunkou", "Slaná galette", "Zemiakový koláč"].forEach(n => assert.ok(app.maCarb({ nazov: n, ingrediencie: [] }), n));
+});
+ok("🩺 odhad nasýtených tukov: jedlo s 200 g masla na 4 porcie je „veľa“, chudé jedlo nie", () => {
+  const app = novy({ diabetes: true });
+  assert.ok(app._nmkVela({ id: "nmk1", porcie: 4, ingrediencie: [{ nazov: "Maslo", mnozstvo: 200, jednotka: "g" }] }));
+  assert.ok(!app._nmkVela({ id: "nmk2", porcie: 4, ingrediencie: [{ nazov: "Kuracie prsia", mnozstvo: 500, jednotka: "g" }] }));
+});
+ok("malé dieťa: údené kuracie ako snack nie; rada „do 6 rokov“ a kukurica ju nespúšťa", () => {
+  const app = novy({ stravnici: [{ nazov: "Mama", kcal: 2000 }, { nazov: "Ema", kcal: 1300, typ: "dieta4" }] });
+  const ud = app.RECEPTY.find(r => app.jeVyrobok(r) && /uden\w* kurac/.test(app.bezDia(r.nazov)));
+  if (ud) assert.ok(app.nevhodneMalym(ud), ud.nazov);
+  assert.match(app.zadusenieText([{ nazov: "x", ingrediencie: [{ nazov: "Hrozno" }] }]), /do 6 rokov/);
+  assert.strictEqual(app.zadusenieText([{ nazov: "x", ingrediencie: [{ nazov: "Kukurica" }] }]), "");
+});
 ok("pixel art má triedu .pix a v predvolenom radení ide za fotky", () => {
   const app = novy(), pix = app.RECEPTY.find(r => app.jePix(r));
   if (pix) assert.ok(/\bpix\b/.test(app.thumbTrieda(pix)));

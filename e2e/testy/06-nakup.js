@@ -261,7 +261,8 @@ module.exports = {
     const poPoslednej = await stavNakupu();
     await t.ok(poPoslednej.oslava && poPoslednej.now === poPoslednej.max,
       "posledné odškrtnutie: prúžok na 100 % a 🎉 naraz", JSON.stringify(poPoslednej));
-    await t.ok(poPoslednej.spat && /v košíku/.test(poPoslednej.toast), "odškrtnutie ponúkne „↩ Späť“ (položka pod prstom odišla)", JSON.stringify(poPoslednej));
+    // kolo 9 (ovládanie): toast po odškrtnutí je BEZ tlačidla — „↩ Späť" stálo nad ďalším riadkom a chytalo ťuky; späť = ťuk znova
+    await t.ok(!poPoslednej.spat && /v košíku/.test(poPoslednej.toast), "odškrtnutie povie „v košíku“ bez tlačidla nad zoznamom", JSON.stringify(poPoslednej));
     await t.ok(poPoslednej.fokus !== "BODY", `fokus po odškrtnutí nespadne na <body> (${poPoslednej.fokus})`, JSON.stringify(poPoslednej));
     const spPred = await page.evaluate(() => S.spajza.length);
     await page.click("#nakup-list .nak-hotovo .btn.primary");

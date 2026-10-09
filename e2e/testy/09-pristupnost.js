@@ -12,7 +12,8 @@ module.exports = {
     // ── navigácia klávesnicou ───────────────────────────────────────────────
     const nav = await page.evaluate(() => {
       const a = [...document.querySelectorAll(".side nav a")];
-      return a.map((x) => ({ tabindex: x.getAttribute("tabindex"), role: x.getAttribute("role"), aria: x.getAttribute("aria-label") }));
+      // meno = aria-label alebo text bez ikony (.ic je aria-hidden) — kolo 9: aria-label z textContent vracal emoji
+      return a.map((x) => ({ tabindex: x.getAttribute("tabindex"), role: x.getAttribute("role"), aria: x.getAttribute("aria-label") || [...x.childNodes].filter((n) => !(n.classList && n.classList.contains("ic"))).map((n) => n.textContent).join("").trim() }));
     });
     await t.ok(nav.every((x) => x.tabindex === "0" && x.role === "button" && x.aria),
       "položky bočnej navigácie sú dosiahnuteľné klávesnicou a majú menovku", JSON.stringify(nav.slice(0, 3)));
@@ -165,8 +166,8 @@ module.exports = {
     await t.ok(/otvoriť recept/i.test(karty.ariaLabel || ""), "otvárač karty má zrozumiteľný aria-label", karty.ariaLabel);
 
     // reálny test: skip-link → Tab → Enter otvorí recept, bez myši
-    await page.evaluate(() => { window.zavri(); document.body.focus(); });
-    await page.keyboard.press("Tab");                      // „Preskočiť na zoznam receptov“
+    // kolo 9: po Escape ide fokus na prvý prvok obrazovky (nie BODY), takže body.focus() už nie je „začiatok“ — začni na skip-linku
+    await page.evaluate(() => { window.zavri(); document.querySelector("a.skip").focus(); });
     const skip = await page.evaluate(() => ({ cls: document.activeElement.className, href: document.activeElement.getAttribute("href") }));
     await page.keyboard.press("Enter");
     let naKarte = false, krokov = 0;

@@ -1063,6 +1063,29 @@ diabetik 9, prístupnosť 8,5, ovládanie 9, vizuál 9, pocit 9)
 - **Vizuál (návrh 7. kola):** farby makier `--makro-b/t/s` (paprika, olej, pšenica), veľkosť písma vybraná rámom,
   Zaoblené názvy 800, Veľké písmo: menšia fotka v Pláne a Výživa v 2 stĺpcoch.
 
+### Kolo 9 (9. 10. 2026) — po audite kola 8 (dizajn 9, používateľ 9, výživa 8,5, kuchár 9, QA 9, rodič 9,
+diabetik 9, prístupnosť 8,5, ovládanie 9, vizuál 9,5, pocit 9,5)
+- **Fokus z klávesnice:** globálne pravidlo — po kliku z klávesnice (`detail===0`), ktorého spúšťač zmizol, a po
+  Escape ide fokus z BODY na zmenené miesto alebo prvý prvok obrazovky (`_fokusPoToaste`). Dotyk a myš bez zmeny.
+  Preto E2E 09 začína test skip-linku `a.skip.focus()`, nie `body.focus()`.
+- Meno ovládačov bez emoji: `_ikonyMenu` aj na `.btn`, `summary`, `.panel > h3`; lišta bez `aria-label` (meno z textu);
+  časovač kroku „Pridať časovač na …", šípky kalendára pomenované. Nákup: fokus po odškrtnutí na ďalšiu položku (opravené).
+- **Nákup:** toast po odškrtnutí je BEZ „↩ Späť" („ťukni znova, ak nie") — tlačidlo stálo nad ďalším riadkom a chytalo
+  ťuky. Preusporiadanie po 1,2 s je plynulé (FLIP: riadky dobehnú 220 ms).
+- **Ryba:** `_rybaVhodna(r)` (neprážaná, do 2,5 g soli) dostane bonus `rybaChyba` 1,0 v týždni bez ryby — AJ pre
+  rodinu s malým dieťaťom; `_rybaUlava` (vhodná + nie malé dieťa) uľaví zo soli a tuku. Pri 🩺 je vyprážaná ryba von.
+  Namerané (3 seedy × 6 týž.): týždne bez ryby 11–17 % vo všetkých profiloch, 🩺 2000 soľ 4,0 g (nad 5 g 21 % dní),
+  spracované mäso v rodine s dieťaťom 4,7 g/týž.
+- 🩺: polievka so ≥ 20 g sacharidov bez pečiva, `_nmkVela(r)` (≥ 25 g masla/smotany/kokosového mlieka/slaniny/tvrdého
+  syra na porciu) mierna pokuta. Malé dieťa: údené kuracie/šunka ako snack nie; rada „do 6 rokov", kukurica ju nespúšťa.
+- **Kuchár:** `maCarb` pozná quiche, calzone, galette, koláč, arepy; pečené mäso nedostane radu o „základe"; poutine,
+  kyjevské a chilaquiles sú v deň jedenia; rozdelenie hrnca mäsitého jedla vynechá vegetariána („svoju porciu má zvlášť"),
+  hrniec do 50 kg; časovač „✓ Vypnúť" zmaže čip a pípa každých 10 s (najviac 2 min).
+- **Domov:** hlavné „Zostaviť" obrysové aj vtedy, keď karta nesie primárnu akciu (sobota: Nákup na blok A);
+  prázdny tento týždeň = „Tento týždeň ešte nemáš naplánovaný"; „(na N dni)" počíta dni doma.
+- Zostavovanie: týždeň sa zapamätá hneď pri ťuku (`generujTlacidlo`), 🎲 počas zostavovania povie „Počkaj…";
+  po zostavení (aj z uvítania) Plán ukáže dnešný blok. Detail: dlaždice „kcal/porcia receptu", keď je porcia iná.
+
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených
 chýb**, E2E **515/516** (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`; xfail „med“
