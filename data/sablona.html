@@ -1883,6 +1883,10 @@
   @media screen and (max-width:820px){ .menu.open{max-height:calc((100dvh - 96px) / var(--skala,1))} }
   /* dlhý odkaz v popise receptu nerozťahuje panel */
   #overlay .popis,#overlay .tipy{overflow-wrap:anywhere}
+  /* ── KOLO 12 ── menu na telefóne so stmavením pod sebou (ťuk mimo menu len zavrie) */
+  #menu-zavoj{display:none}
+  @media screen and (max-width:820px){ #menu-zavoj.on{display:block;position:fixed;inset:0;background:rgb(0 0 0/.32);z-index:65;animation:prekrytie-von 160ms ease} }
+  @media (prefers-reduced-motion:reduce){ #menu-zavoj.on{animation:none} }
   /* Bloky theme — end ------------------------------------------------------ */
 </style>
 </head>

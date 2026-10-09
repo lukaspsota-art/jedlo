@@ -202,7 +202,7 @@ ok("dialóg ponúka hotové predvoľby vrátane rozvrhu používateľa (Ne/Ut/Pi
   app.otvorRozvrh();
   const h = app.document.getElementById("rozvrh-body").innerHTML;
   ["ja", "2x", "tv", "1x", "4x", "denne"].forEach(id =>
-    assert.ok(h.includes("pouziRozvrh('" + id + "')"), "chýba predvoľba " + id));
+    assert.ok(h.includes('data-id="' + id + '" onclick="pouziRozvrh(this.dataset.id)"'), "chýba predvoľba " + id)); // kolo 12: id cez data-id, nie v kóde
   const ja = app.ROZVRHY_PRED.find(r => r.id === "ja");
   assert.strictEqual(JSON.stringify(app.hraniceNaBloky(ja.hranice)), "[[0,1],[2,3,4],[5,6]]");
 });
@@ -861,7 +861,7 @@ ok("„Do plánu“ predvolí dnešok (resp. najbližší deň s prázdnym sloto
   const vybrany = () => (app.document.getElementById("pick-modal").innerHTML.match(/value="(\d)" selected/) || [])[1];
   app.pridajDoPlanu(id);
   assert.strictEqual(vybrany(), String(dnes), "predvolený deň nie je dnešok (audit: vždy Pondelok)");
-  assert.ok(app.document.getElementById("pick-modal").innerHTML.includes(app.fmtD(S.viewOd) + "–" + app.fmtD(app.pridajDni(S.viewOd, 6))),
+  assert.ok(app.document.getElementById("pick-modal").innerHTML.includes(app.rozsahTyzdnaKratko(S.viewOd)),
     "dialóg nehovorí, o ktorý týždeň ide");
   if (dnes < 6) {
     S.plan[app.datumPre(dnes)] = { Obed: [id] };
@@ -1481,6 +1481,16 @@ ok("dátum týždňa je krátky a bez núl: „5.–11. 10.“", () => {
   const app = novy();
   assert.strictEqual(app.rozsahTyzdnaKratko("2026-10-05"), "5.–11. 10.");
   assert.strictEqual(app.rozsahTyzdnaKratko("2026-09-28"), "28. 9.–4. 10.");
+});
+nadpis("\nKolo 12 (9. 10.) — záloha s rozvrhom, neznáme jedlo v pláne");
+ok("rozvrh zo zálohy s kódom v id alebo bez hraníc sa zahodí; platný ostane", () => {
+  const app = load({ stav: { rozvrhy: [{ id: "x');window.__Y=1;('", nazov: "zlý", hranice: [true, false, true, false, false, true, false] }, { id: "r1", nazov: "bez", hranice: null }, { id: "r2", nazov: "dobrý", hranice: [true, false, false, true, false, false, false] }] } });
+  assert.strictEqual(JSON.stringify(app.S.rozvrhy.map(r => r.id)), '["r2"]');
+});
+ok("neznáme hlavné jedlo v slote sa kreslí ako voľný slot s „+ pridať“", () => {
+  const app = novy(); const iso = app.datumPre(0);
+  app.S.plan[iso] = app.S.plan[iso] || {}; app.S.plan[iso]["Obed"] = ["neexistuje-xyz", "prf:ryza"];
+  assert.match(app.planBunka(0, "Obed"), /\+ pridať/);
 });
 ok("pixel art má triedu .pix a v predvolenom radení ide za fotky", () => {
   const app = novy(), pix = app.RECEPTY.find(r => app.jePix(r));

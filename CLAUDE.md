@@ -1118,6 +1118,15 @@ diabetik 9, prístupnosť 8,5, ovládanie 9, vizuál 9,5, pocit 9,5)
   (`[open]` v šablóne prebíjalo margin). Menu vo Veľkom písme celé na obrazovke. Emoji mimo mien aj pri prepínačoch
   Nastavení, kolekciách a návrhoch. Dlhý odkaz v popise receptu sa zalomí.
 
+### Kolo 12 (9. 10. 2026) — po audite kola 11 (ovládanie, vizuál 9,5; QA 8,5; ostatní 9)
+- **Bezpečnosť:** žiadne id rozvrhu v onclick — predvoľby aj vlastné rozvrhy cez `data-id` + `this.dataset.id`
+  (záloha s `id:"x');…('"` spúšťala kód); pri štarte ostanú len rozvrhy s id `[\w-]{1,40}` a 7 hranicami.
+- **Plán:** slot bez známeho hlavného jedla je voľný („+ pridať"), zmazanie receptu zmaže aj slot, kde ostali len
+  prílohy. 🎲 jedla aj bloku pozná strukoviny ostatných blokov (`_strukZPlanu`). Toast so Späť na Pláne 6 s,
+  okno akcií jedla ho zhasne. Menu na telefóne má stmavenie (`#menu-zavoj`) — ťuk mimo menu ho len zavrie.
+- **Domov v nedeľu** pri prázdnom týždni: hlavné tlačidlo „✨ Naplánovať budúci týždeň" (tento týždeň dnes končí).
+- Dátum týždňa všade `rozsahTyzdnaKratko`. Nákup: pridaná položka dá toast s oddelením, zabliká a ukáže sa.
+
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených
 chýb**, E2E **515/516** (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`; xfail „med“
