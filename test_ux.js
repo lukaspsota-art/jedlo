@@ -1465,6 +1465,23 @@ ok("malé dieťa: údené kuracie ako snack nie; rada „do 6 rokov“ a kukuric
   assert.match(app.zadusenieText([{ nazov: "x", ingrediencie: [{ nazov: "Hrozno" }] }]), /do 6 rokov/);
   assert.strictEqual(app.zadusenieText([{ nazov: "x", ingrediencie: [{ nazov: "Kukurica" }] }]), "");
 });
+nadpis("\nKolo 11 (9. 10.) — odolnosť plánu a zálohy, strukoviny, dátum týždňa");
+ok("neznáme id v pláne nezhodí výpočty; „obchod: toString“ zo zálohy nezhodí Nákup", () => {
+  const app = novy({ obchod: "toString" });
+  assert.strictEqual(app.kcalPorcia(undefined), 0);
+  assert.strictEqual(app.mealKcal(["neexistuje-xyz"]), 0);
+  assert.ok(Array.isArray(app.poradieOddeleni()) && app.poradieOddeleni().length > 3);
+});
+ok("strukovina sa rozpozná (cícer, šošovica, fazuľa — nie zelená fazuľka)", () => {
+  const app = novy();
+  assert.strictEqual(app._strukovina({ id: "s1", nazov: "Cícerové kari", ingrediencie: [] }), "cicer");
+  assert.strictEqual(app._strukovina({ id: "s2", nazov: "Kuracie s fazuľkou", ingrediencie: [{ nazov: "Zelená fazuľka" }] }), "");
+});
+ok("dátum týždňa je krátky a bez núl: „5.–11. 10.“", () => {
+  const app = novy();
+  assert.strictEqual(app.rozsahTyzdnaKratko("2026-10-05"), "5.–11. 10.");
+  assert.strictEqual(app.rozsahTyzdnaKratko("2026-09-28"), "28. 9.–4. 10.");
+});
 ok("pixel art má triedu .pix a v predvolenom radení ide za fotky", () => {
   const app = novy(), pix = app.RECEPTY.find(r => app.jePix(r));
   if (pix) assert.ok(/\bpix\b/.test(app.thumbTrieda(pix)));

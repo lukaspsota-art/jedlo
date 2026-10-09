@@ -1104,6 +1104,20 @@ diabetik 9, prístupnosť 8,5, ovládanie 9, vizuál 9,5, pocit 9,5)
 - Pocit: „Uvarené…" nezhasne kvôli „Ako chutilo?", hodnotený riadok zmizne plynulo, ✕ časovača zhasne jeho toast,
   pás ukáže aj blok A (čaká sa na snímku).
 
+### Kolo 11 (9. 10. 2026) — po audite kola 10 (ovládanie, vizuál, pocit 9,5; QA a prístupnosť 8,5; ostatní 9)
+- **Odolnosť:** `kcalPorcia(undefined)=0`, `mealKcal` preskočí neznáme id, zmazaný vlastný recept zmizne aj z plánu;
+  `STAV_TYPY` má `obchod`, `obchodPor`, `rozvrhy`; `poradieOddeleni` cez `hasOwnProperty` („toString" zo zálohy
+  Nákup nezhodí); zmazanie rozvrhu cez `data-id` (id už nie je kód v onclick).
+- **Fokus:** Enter/Space na `role=button` volá `t.click()` s `isTrusted=false` — príznak `_klavesKlik` ho počíta ako
+  klávesnicu (regresia kola 10); ◀ ▶ týždňa držia fokus; menu vráti fokus na „⋯ Viac" a zavrie sa, keď z neho Tab
+  odíde; po zostavení fokus na dnešný blok; po „Ako chutilo?" späť do obrazovky. Ručná položka Nákupu bez „Späť".
+- **Strukoviny:** `_strukovina(r)` (cícer/šošovica/fazuľa, nie fazuľka) a `_tyzStruk` — tá istá strukovina v ďalšom
+  bloku −0,45 za každé predošlé jedlo. Domácnosť s vegetariánom (6 seedov × 3 týž.): cícer 47 → 23 zo 108 hlavných,
+  strukoviny 72 → 50.
+- Dátum týždňa „5.–11. 10." (`rozsahTyzdnaKratko`) — ▶ sa zmestí na 320 px. Šípka otvoreného panela späť vpravo
+  (`[open]` v šablóne prebíjalo margin). Menu vo Veľkom písme celé na obrazovke. Emoji mimo mien aj pri prepínačoch
+  Nastavení, kolekciách a návrhoch. Dlhý odkaz v popise receptu sa zalomí.
+
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených
 chýb**, E2E **515/516** (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`; xfail „med“
