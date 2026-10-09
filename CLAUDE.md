@@ -1035,6 +1035,34 @@ diabetik 9, prístupnosť 8,5, ovládanie 8,5, vizuál 9,5, pocit 9)
 - **Prístupnosť:** položka s `.mi` dostane meno z textu (bez emoji), akcia z toastu vráti fokus (`_fokusPoToaste`),
   stĺpec grafu hlási `aria-pressed` aj v Priemere, „Recept: názov" v pláne varenia, 320 px s Veľkým písmom bez posunu.
 
+### Kolo 8 (9. 10. 2026) — po audite kola 7 (dizajn 9, používateľ 9, výživa 8,5, kuchár 9, QA 8,5, rodič 9,
+diabetik 9, prístupnosť 8,5, ovládanie 9, vizuál 9, pocit 9)
+- **`prepni` číta `_curView` PRED zmenou hashu** — Chromium pri `location.hash` synchrónne spustí `popstate` →
+  `zobrazView`, takže Plán si myslel, že už bol otvorený, a nešiel na dnešný blok. Kryje E2E 08-mobil (ťuk v lište).
+- **Strata dát (QA):** počas zostavovania `posunTyzden` a 🎲 nič nerobia a generátor po každej prestávke vráti
+  `S.viewOd` na týždeň, v ktorom začal (`_od0`). Uvítanie generuje cez `generujTlacidlo` (pás, prestávky, prelínanie).
+- **Nákup:** tón odškrtnutého riadku na celom `.nak-row`, sekcia „v košíku" bez opacity; ďalší dotyk v zozname počas
+  čakania čakanie predĺži (`_nakHotovo`); klávesnica ostane na ďalšej položke; odznačenie zhasne toast; zoznam má dole
+  miesto pre toast.
+- **Domov:** hlavné „✨ Zostaviť" je primárne len nad prázdnym týždňom (`renderDnesPlan` prepína triedu); budúci týždeň
+  obrysovo, keď je na Domove iná karta; príloha ide s jedlom (šakšuka v deň jedenia → aj jej príloha); pečivo = len kúpiť.
+- **Generátor:** úľava rybe (soľ ×1,5 prahu, tuk 0,4) len pre neprážanú rybu do 2,5 g soli a nie pri malom dieťati;
+  `rybaChyba` 0,75; 🩺 syrový snack −0,4; 🩺 hlavné jedlo nad 55 % E z tuku von; `_SPRAC` „údené" len pri mäse (nie
+  tofu, losos, syr). Vaječné jedlá dostanú pečivo/zeleninu. Namerané (3 seedy × 6 týž.): 🩺 2000 soľ 4,5 g, dni nad
+  5 g 30 %, týždne bez ryby 0 %; 2000 kcal bez ryby 11 %, tehotná 6 %.
+- **Detail:** „S prílohou" je tvoja porcia (× `aktVelkost`) — to isté číslo ako bunka a 🩺; zoznam na výber pri 🩺 píše
+  sacharidy. **Import:** `_impNominativ(n,mnoz)` — pri kusoch ≥ 2 ostane množné číslo, pri gramoch sa 2. pád zmení
+  („300 g klobásy" → Klobása); viacslovný kľúč kontroluje aj prvé slovo („smotany na varenie").
+- **Vegetarián:** jedna veta celými slovami („odober pred pridaním: klobása, slanina"), náhrada raz; vo varení bloku
+  s menom jedla; ingrediencia s odobratou porciou má poznámku „bez porcie pre Jana".
+- **Ovládanie:** mesačný kalendár má záznam v histórii (`_kalHist`) — systémové Späť vráti týždeň; menu na telefóne
+  skroluje; bodky krokov varenia majú medzeru medzi jedlami; časovač len 1–600 min, po dobehnutí „✓ Vypnúť".
+- **Pocit:** „Ako chutilo?" vyplní hviezdy a zavrie po 300 ms; zmena veľkosti písma drží ťuknuté tlačidlo na mieste.
+- **Prístupnosť:** lišta bez emoji v menách (`.ic`), „Koniec varenia", `aria-pressed` grafu aj v Priemere,
+  písmeno bloku v nadpisoch okien `aria-hidden`, dlhé slová v kartách sa lámu.
+- **Vizuál (návrh 7. kola):** farby makier `--makro-b/t/s` (paprika, olej, pšenica), veľkosť písma vybraná rámom,
+  Zaoblené názvy 800, Veľké písmo: menšia fotka v Pláne a Výživa v 2 stĺpcoch.
+
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených
 chýb**, E2E **515/516** (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`; xfail „med“

@@ -204,7 +204,7 @@ module.exports = {
         gramaz: /\d+([,.]\d+)?\s*g/.test(zaHlavickou),
         postup: document.getElementById("postup-ol").innerText.includes(p.postup[0]),
         spoluVidno: getComputedStyle(spolu).display !== "none",
-        detailKcal: m ? Math.round(Number(m[1]) * f) : null,
+        detailKcal: m ? Number(m[1]) : null, // kolo 8: „S prílohou" je už tvoja porcia (× veľkosť porcie)
         bunkaKcal: Math.round(mealKcal(slotIds(0, "Obed")) * f),
         vareniePrvyKrok: (window.spustiCook(), cookKroky.some((k) => k.includes(p.postup[0]))),
       };

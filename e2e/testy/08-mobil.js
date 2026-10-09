@@ -174,6 +174,15 @@ module.exports = {
     await prepni(m, "planovac");
     await naplnPlan(m);
     await m.waitForTimeout(200);
+    // kolo 8: ťuk na „Plán" v spodnej lište (z inej obrazovky) otvorí DNEŠNÝ blok — v kole 7 to rozbil popstate,
+    // ktorý Chromium spúšťa pri location.hash synchrónne (prepni čítalo _curView až po ňom)
+    await m.click('.botnav a[data-v="domov"]'); await m.waitForTimeout(250);
+    await m.click('.botnav a[data-v="planovac"]'); await m.waitForTimeout(450);
+    const dnesBlok = await m.evaluate(() => { const k = document.querySelector("#plan-bloky .blok-karta.je-dnes"); if (!k) return { ziadny: true };
+      return { prvy: !k.previousElementSibling, top: Math.round(k.getBoundingClientRect().top), y: Math.round(scrollY) }; });
+    await t.ok(dnesBlok.ziadny || (dnesBlok.prvy ? dnesBlok.y === 0 : dnesBlok.top >= -2 && dnesBlok.top < 160),
+      "Plán zo spodnej lišty otvorí dnešný blok", JSON.stringify(dnesBlok));
+    await m.evaluate(() => scrollTo(0, 0));
     // v29: na telefóne už Plán nie je tabuľka s preklikávaním dní, ale BLOKOVÝ zoznam.
     // Týždeň má 28 naplnených buniek, ale len 16 rôznych jedál — v bloku je každý slot
     // jeden variant (to je zmysel batch cookingu) a od v29 aj snack. Staré kontroly

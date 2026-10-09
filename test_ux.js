@@ -1382,7 +1382,7 @@ ok("import JSON-LD: HTML entity a značky sa dekódujú, kroky z <p> sú zvláš
 ok("🩺 diabetes: sladké podľa názvu len s pridaným cukrom (bábovka z mletého mäsa ostáva), zelenina ako snack ostáva", () => {
   const app = novy({ diabetes: true });
   const bab = app.RECEPTY.find(r => r.id === "babovka-z-mleteho-masa");
-  if (bab) assert.ok(!app.nevhodneDiabetu(bab), "bábovka z mletého mäsa nie je sladkosť");
+  if (bab) { const v = app.vyzivaReceptu(bab); assert.ok(!app.nevhodneDiabetu(bab) || v.t * 9 / v.kcal > 0.55, "bábovka z mletého mäsa nie je sladkosť (vypadnúť smie len pre tuk nad 55 % E, kolo 8)"); }
   const zel = app.RECEPTY.filter(r => app.jeVyrobok(r) && app.snackDruh(r) === "zelenina");
   assert.ok(zel.length && zel.every(r => app.vyzivaReceptu(r).s > 20 || !app.nevhodneDiabetu(r)), zel.filter(r => app.nevhodneDiabetu(r)).map(r => r.id).join(","));
 });
@@ -1423,6 +1423,22 @@ ok("malé dieťa: šunka ako snack nie; pálivé jedlo dostane radu „porciu od
   if (sunka) assert.ok(app.nevhodneMalym(sunka), sunka.nazov);
   assert.match(app.zadusenieText([{ nazov: "Pikantné kura", ingrediencie: [{ nazov: "Chilli" }] }]), /🌶/);
   assert.strictEqual(app.zadusenieText([{ nazov: "Toast", ingrediencie: [{ nazov: "Arašidové maslo" }] }]), "");
+});
+nadpis("\nKolo 8 (9. 10.) — import 2. pád, vegetarián celými slovami, vaječné jedlá, časovač");
+ok("import: „300 g klobásy“ → Klobása, „200 ml smotany na varenie“ → Smotana na varenie, „2 citróny“ ostane", () => {
+  const app = novy(), n = x => app.parseIngRiadok(x).nazov;
+  assert.deepStrictEqual(["300 g klobásy", "200 ml smotany na varenie", "2 citróny", "Údená klobása - 150 g"].map(n), ["Klobása", "Smotana na varenie", "Citróny", "Údená klobása"]);
+});
+ok("vegetarián: drobné mäso jednou vetou celými slovami, náhrada povedaná raz", () => {
+  const app = novy({ stravnici: [{ nazov: "Ja", kcal: 2000 }, { nazov: "Jana", kcal: 1800, veg: true }] });
+  const t1 = app.vegNahradaText({ id: "v1", nazov: "Fazuľová polievka", kategoria: "Polievka", porcie: 4, ingrediencie: [{ nazov: "Klobása", mnozstvo: 100, jednotka: "g" }, { nazov: "Slanina", mnozstvo: 50, jednotka: "g" }] });
+  assert.match(t1, /odober pred pridaním: klobása, slanina/);
+  const t2 = app.vegNahradaText({ id: "v2", nazov: "Kurací toast", kategoria: "Raňajky", porcie: 2, ingrediencie: [{ nazov: "Kuracie prsia", mnozstvo: 300, jednotka: "g" }] });
+  assert.ok((t2.match(/tofu/g) || []).length === 1, t2);
+});
+ok("vaječné jedlo (šakšuka, omeleta) dostane pečivo, nie ryžu či cestoviny", () => {
+  const app = novy(), r = app.RECEPTY.find(x => /saksuk|sakshuk/.test(app.bezDia(x.nazov)) && app.isMain(x) && !app.maCarb(x));
+  if (r) assert.ok(["prf:pecivo", "prf:zelenina", null].includes(app.prilohaPre(r, 0)), app.prilohaPre(r, 0));
 });
 ok("pixel art má triedu .pix a v predvolenom radení ide za fotky", () => {
   const app = novy(), pix = app.RECEPTY.find(r => app.jePix(r));

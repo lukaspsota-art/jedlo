@@ -1771,6 +1771,55 @@
   .tema-ik{flex:none;width:58px;text-align:center;font-size:24px;line-height:1;color:var(--text)}
   /* 320 px s Veľkým písmom: dlhé balenie v Nákupe sa smie zalomiť (inak prekrylo ⓘ a stránka sa posúvala do strany) */
   @media (max-width:360px){ .odd .nak-row .nak-mn b,.odd .nak-row .nm2 .info{white-space:normal} .tyzden-pas .kc{font-size:10px;letter-spacing:-.02em} }
+  /* ── KOLO 8 ── Nákup: tón odškrtnutého riadku na CELOM riadku (aj pod ⓘ), sekcia „v košíku" bez opacity (kontrast) */
+  .odd.done-sekcia{opacity:1}
+  .odd .nak-row:has(>label.checked),.odd .nak-row.odchadza{background:var(--tint);border-radius:var(--r-mala)}
+  .odd .nak-row:has(>label.checked)>label,.odd .nak-row.odchadza>label{background:transparent}
+  #v-nakup #nakup-list{padding-bottom:76px}
+  /* Domov: menovky v karte varného dňa jedným stĺpcom (aj „🥪 V deň jedenia"), tučné slovo vo vete ostane vo vete */
+  .dnes-varenie-hero .dnes-row>.dnes-slot{flex:0 0 8.5em;min-width:0}
+  .dnes-varenie-hero .info b,.dnes-varenie-hero p b{display:inline;margin:0}
+  :root[data-rezim="obchod"] .dnes-varenie-hero .dnes-row>.dnes-slot{flex-basis:100%}
+  .card h3{overflow-wrap:anywhere;hyphens:auto}
+  .cook #cook-kroky i.nove-jedlo{margin-left:8px}
+  @media screen and (max-width:820px){ .menu.open{max-height:calc(100dvh - 96px);overflow-y:auto;overscroll-behavior:contain} }
+  /* ── KOLO 8: vizuálny návrh 7. kola (audit7/vizual/navrh7.css), bez nákupu (už je vyššie) ── */
+  /* 2. Výživa · makrá: bielkoviny čierne, tuky okrové, sacharidy khaki = „vojenská“ paleta, v tmavej krém/žltá/khaki.
+        Tri chuťové tóny (paprika · olivový olej · pšenica), každý vo svetlej aj tmavej. Len CSS: .segB/.segT/.segS
+        kreslí stĺpcový graf, legendu aj pruhy makier (app.js:5373). Pred zavedením pustiť kontrast_bloky.py (1.4.11). */
+  :root{--makro-b:#A4472B;--makro-t:#C8962A;--makro-s:#D9C08A}
+  body.dark{--makro-b:#E48C69;--makro-t:#E0B550;--makro-s:#8E7A52}
+  @media(prefers-color-scheme:dark){body:not(.svetla){--makro-b:#E48C69;--makro-t:#E0B550;--makro-s:#8E7A52}}
+  .segB{background:var(--makro-b)!important} .segT{background:var(--makro-t)!important} .segS{background:var(--makro-s)!important}
+  
+  /* 3. Vzhľad · veľkosť písma: jediná skupina, kde je vybraná dlaždica VYPLNENÁ (--text), ostatné tri skupiny majú
+        rám. V tmavej svieti vybraná „Normálne“ ako krémový blok. Rovnaký jazyk ako farby/písmo/svetlá-tmavá. */
+  .viac-rezim.on{background:var(--doska);color:var(--text);border-color:var(--text);outline:3px solid var(--akcent);outline-offset:1px}
+  .viac-rezim.on small{color:var(--text2);opacity:1}
+  
+  /* 4. Domov · jedna primárna akcia: keď dnes varíš, karta budúceho týždňa a „Zostaviť jedálniček“ nad plným
+        týždňom sú obrysové (piatok: tri plné tlačidlá, dve hneď pod sebou v prvom viewporte). */
+  #v-domov:has(.dnes-varenie-hero:not(.dnes-zajtra) .btn.primary) .dnes-zajtra .btn.primary,
+  #v-domov:has(.dnes-varenie-hero:not(.dnes-zajtra) .btn.primary) .akcie .btn.primary{background:transparent;color:var(--text);border:1px solid var(--text2);box-shadow:none}
+  
+  /* 5. Domov · „Čo dnes ješ“: príloha/doplnok hlasom textu ako v Pláne (bod K zo 6. kola, nezavedený). */
+  .dnes-jedlo+.dnes-jedlo,.dnes-jedlo+.dnes-jedlo .sur-klik{font-family:var(--pismo-text)!important;font-weight:500!important;font-size:13.5px!important;color:var(--text2)!important}
+  
+  /* 6. Plán vo Veľkom písme: názov jedla mal 174 z 235 px (fotka 68 px + 🎲 56 px) → 5 riadkov „Hot Moi Moi…“.
+        Menšia miniatúra a 🎲 so zápornými okrajmi (dotyk ostáva 56 px). */
+  :root[data-rezim="obchod"] #plan-bloky .plan-cell.s-fotkou{grid-template-columns:42px 1fr}
+  :root[data-rezim="obchod"] #plan-bloky .th-mini{width:42px;height:42px}
+  :root[data-rezim="obchod"] #plan-bloky .pc-znova{margin-left:-14px;margin-right:-10px}
+  
+  /* 7. Zaoblené: Nunito 600 sa od 400 takmer nelíši — názvy jedál a titulky kariet splývajú s textom. */
+  :root[data-pismo="zaoblene"] .plan-cell .nm.pc-odkaz:not(.pc-pril),
+  :root[data-pismo="zaoblene"] .dnes-varenie-hero .dnes-row>span:not(.dnes-slot):not(.info):not(.dnes-jedla),
+  :root[data-pismo="zaoblene"] .dnes-jedlo .sur-klik,
+  :root[data-pismo="zaoblene"] .card h3,
+  :root[data-pismo="zaoblene"] .dnes-varenie-hero>b,
+  :root[data-pismo="zaoblene"] .dnes-varenie-hero b{font-weight:800}
+  :root[data-pismo="zaoblene"] .dnes-jedlo+.dnes-jedlo .sur-klik{font-weight:600!important}
+  :root[data-rezim="obchod"] #v-vyziva .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
   /* Bloky theme — end ------------------------------------------------------ */
 </style>
 </head>
@@ -2011,7 +2060,7 @@
         <div class="palety pisma" id="pisma-box" role="radiogroup" aria-labelledby="pisma-nadpis"></div>
         <p class="info" id="tema-nadpis" style="margin:8px 0 0"><b>Svetlá alebo tmavá</b></p>
         <div class="palety" id="tema-box" role="radiogroup" aria-labelledby="tema-nadpis">
-          <label class="paleta"><input type="radio" name="p-dark-r" id="p-dark-auto" value="auto"><span class="tema-ik" aria-hidden="true">◐</span><span class="pismo-txt"><b>Podľa telefónu</b><small class="info">cez deň svetlá, večer tmavá</small></span></label>
+          <label class="paleta"><input type="radio" name="p-dark-r" id="p-dark-auto" value="auto"><span class="tema-ik" aria-hidden="true">◐</span><span class="pismo-txt"><b>Podľa telefónu</b><small class="info">ako je nastavený telefón</small></span></label>
           <label class="paleta"><input type="radio" name="p-dark-r" id="p-dark-svetla" value="svetla"><span class="tema-ik" aria-hidden="true">☀</span><span class="pismo-txt"><b>Svetlá</b></span></label>
           <label class="paleta"><input type="radio" name="p-dark-r" id="p-dark-tmava" value="tmava"><span class="tema-ik" aria-hidden="true">☾</span><span class="pismo-txt"><b>Tmavá</b></span></label>
         </div>
@@ -2087,7 +2136,7 @@
     <span style="display:flex;gap:10px;align-items:center">
       <label class="cook-hlas"><input type="checkbox" id="cook-auto" onchange="cookAuto=this.checked"> čítať všetky<span class="sr-only"> kroky nahlas automaticky</span></label>
       <button class="btn" style="background:#333;color:#fff;border:none" onclick="citajKrok()">🔊 Prečítať</button>
-      <button class="btn close" style="background:#333;color:#fff;border:none" onclick="zavriCook()">✕ Koniec</button>
+      <button class="btn close" style="background:#333;color:#fff;border:none" onclick="zavriCook()" aria-label="Koniec varenia">✕ Koniec</button>
     </span>
   </div>
   <!-- pás krokov: koľko zostáva, viditeľné aj cez izbu (koncepcia B) -->
