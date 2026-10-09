@@ -29,6 +29,11 @@ FACES = [
     ("Archivo",        "400 800", "Archivo-latin-600.woff2",              LATIN),
     ("Instrument Sans", "400 700", "Instrument_Sans-latin-ext-400.woff2", LATIN_EXT),
     ("Instrument Sans", "400 700", "Instrument_Sans-latin-400.woff2",     LATIN),
+    # kolo 4: voľba písma — Lora (nadpisy „Kuchárka") a Nunito („Zaoblené"), obe premenlivé, OFL
+    ("Lora",            "500 700", "Lora-latin-ext.woff2",               LATIN_EXT),
+    ("Lora",            "500 700", "Lora-latin.woff2",                   LATIN),
+    ("Nunito",          "400 800", "Nunito-latin-ext.woff2",             LATIN_EXT),
+    ("Nunito",          "400 800", "Nunito-latin.woff2",                 LATIN),
 ]
 
 ZAC = "  /* Bloky theme — start"

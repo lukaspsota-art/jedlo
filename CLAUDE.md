@@ -945,6 +945,38 @@ Roly od kola 4: dizajn, používateľ, výživa, kuchár, QA, rodič, prístupno
   (`_cudziStav`); `sw.js` VERZIA = v34; 40 názvov výrobkov bez zátvorky v zátvorke; 5 falošných „vegetariánske".
 - Tehotná: pri voľbe typu toast o trimestroch a o tom, čo appka nesleduje. Malé dieťa: exotické kuchyne ×0,5.
 
+### Kolo 5 (9. 10. 2026) — opravy po audite kola 4 (známky 7–8,5), priorita VIZUÁL na telefóne
+- **Písmo je voľba** (Nastavenia → Zobrazenie → Písmo, `S.profil.pismo`, `PISMA`, `data-pismo` na `<html>`): Moderné
+  (Archivo + Instrument Sans), **Kuchárka** (nadpisy a názvy jedál Lora, zvyšok bezpätkový), Zaoblené (Nunito).
+  Téma používa TRI tokeny: `--pismo-nadpis` (nadpisy, názvy jedál), `--pismo-text` (text), `--pismo-ui`
+  (tlačidlá, čipy, lišta, čísla, varenie). **Nový font-family píš cez token, nie literálom.** Lora a Nunito sú
+  OFL, `dizajn/fonty/`, vkladá ich `vloz_temu.py` (fonty 106 → 235 KB).
+- **Témy výraznejšie:** svetlé palety majú farebný podklad, tón aj kartu (`--doska` s nádychom) a vlastný tieň;
+  Vysoký kontrast bez tieňa, s rámom a nevyblednutými ikonami lišty. Výber tém ukazuje miniatúru obrazovky
+  vo svetlej/tmavej podľa práve zobrazenej (`PALETY[i][2|3]`, `jeTmava()`).
+- **Karta varného dňa** = tón bloku + prúžok (ako karta bloku), hlavné tlačidlo vo farbe bloku, vedľajšie obrysové.
+  Znak A/B/C sa v nej už NEobracia. Karta sa vyberá podľa toho, koľko dní zostáva do začiatku bloku, aj
+  z BUDÚCEHO týždňa (nedeľa = blok A budúceho týždňa); prázdny blok ponúkne „✨ Zostaviť", nie „0 jedál".
+- **Bunka plánu** ~112 px: kcal, bielkoviny a „⋯ viac" na jednej osi, bez medzier prázdnych riadkov mriežky;
+  štítok porcie len pri RUČNEJ veľkosti (`rucnyMult`); ⚠ povie dôvod (`dovodNevhodne`); po 🎲 zmenená bunka
+  zabliká (`data-bunka`, `.vymenene`), posledných 6 hodov sa nevracia (`_hody`), ručná porcia sa zmaže.
+  🎲 bloku z tlačidla ide cez `regenerujBlokTlacidlo` (odozva + výpočet po snímke); `regenerujBlok` ostáva synchrónny.
+- **Diabetes:** ciele makier 40 % E sacharidy / tuk ≤ 35 % E (`cieloveMakra`), `pridanyCukor` > 10 g a sacharidy
+  > 90 g na porciu von, širší `_SLADKE` (s medom, palacinky, granola…), výrobok nad 60 % E zo sacharidov von
+  (okrem ovocia), dvojica snackov ≤ 25 g, pokuta za tuk nad 35 % E a za sacharidy nad 45 % cieľa slotu,
+  v detaile „🩺 Sacharidy ≈ X g (≈ Y SJ)". Namerané 1800 kcal: sacharidy 40 % E, tuk 34 % E, jedál > 75 g 17/252.
+- **Mimo domu v delení:** `jeDomaVSlote(p,di,slot)` — „Na tanier" a „Rozdeliť hrniec" delia len medzi prítomných.
+- **Výber jedla zo zoznamu** (picker) ide cez `vhodnyPrePlan`, nie len `prejdeProfil` (dieťa, diabetes, soľ).
+- Jedlo nad 5 g soli na porciu generátor neponúkne nikomu; pri 🧂 smie ryba do 2 g.
+- **Nákup:** `nakupPolozky` si pamätá výsledok podľa podpisu vstupov (`_npPodpis`: plán týždňa, porcie, domácnosť,
+  rozvrh, vlastné recepty) — nový vstup, od ktorého nákup závisí, PATRÍ do podpisu. Voda z vodovodu v nákupe nie je.
+- Systémové Späť na prázdny hash = Domov; Plán sa po > 6 h vráti na tento týždeň (`kucharka_view_t`);
+  toast pri prepnutí obrazovky zmizne, so Späť trvá 10 s; vo varení je svetlý.
+- Kuchár: `krokHint` páruje krátke názvy len ako celé slovo, časovač nad 3 h sa neponúka, súčet času bez čakania
+  cez noc, mrazenie od 3. dňa, gramy v „Priprav si" na päťky, ⚖️ s textom a nie pri pečive. Vegetarián: detail,
+  „Priprav si" aj kroky idú cez `ingrediencieNaNakup`; pod 40 g mäsa na porciu sa mäso len vynechá.
+- Import: „šťava z 1 citróna", „špetka soli", „2 ks vajec", „Názov - 400 g", výzvy webu („Páčil sa ti…") preč.
+
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených
 chýb**, E2E **515/516** (jediné zlyhanie je známa vlastnosť Edge s `navigator.onLine`; xfail „med“

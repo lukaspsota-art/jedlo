@@ -174,7 +174,7 @@ module.exports = {
     const pred = await page.evaluate(() => document.querySelector("#plan-table tr.suma td:nth-child(2)").textContent.trim());
     await page.evaluate(() => {
       const iso = datumPre(0); const sl = slotyDna(0)[0];
-      S.planF[iso] = S.planF[iso] || {}; S.planF[iso][sl] = 1.5; save(); renderPlan();
+      S.planF[iso] = S.planF[iso] || {}; S.planF[iso][sl] = 1.5; S.planM[iso] = S.planM[iso] || {}; S.planM[iso][sl] = 1.5; save(); renderPlan(); // kolo 4: štítok len pri ručnej veľkosti
     });
     const po = await page.evaluate(() => document.querySelector("#plan-table tr.suma td:nth-child(2)").textContent.trim());
     await t.ok(pred !== po, "zmena veľkosti porcie sa prejaví v dennom súčte", `${pred} → ${po}`);

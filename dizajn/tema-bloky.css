@@ -37,8 +37,17 @@
     --t-panel:240ms;      /* panel zdola, stlmenie pozadia */
     --ease-von:cubic-bezier(.2,.8,.2,1);   /* príchod: rýchly štart, mäkké dosadnutie */
     --ease-dnu:cubic-bezier(.4,0,1,1);     /* odchod: zrýchľuje preč */
+    /* písmo (kolo 4): Moderné = Archivo + Instrument Sans; voľba v Nastaveniach mení len tieto dva tokeny */
+    --pismo-nadpis:'Archivo','Instrument Sans',Arial,sans-serif;
+    --pismo-text:'Instrument Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --pismo-ui:'Archivo','Instrument Sans',Arial,sans-serif; /* tlačidlá, čipy, lišta, čísla, varenie */
     color-scheme:light;
   }
+  /* „Kuchárka": nadpisy a názvy jedál v teplom písme s pätkami (Lora), text ostáva bezpätkový */
+  :root[data-pismo="kucharka"]{--pismo-nadpis:'Lora',Georgia,'Times New Roman',serif;--pismo-ui:'Instrument Sans',-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  :root[data-pismo="kucharka"] :is(h1,h2,h3,.val,.nm,.bk-nazov){font-variant-numeric:lining-nums;letter-spacing:0}
+  /* „Zaoblené": jedno priateľské zaoblené písmo na všetko (Nunito) */
+  :root[data-pismo="zaoblene"]{--pismo-nadpis:'Nunito',Arial,sans-serif;--pismo-ui:'Nunito',Arial,sans-serif;--pismo-text:'Nunito',-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
   /* Odvodené tokeny MUSIA byť deklarované aj na <body>: var() sa dosadí na prvku, kde je
      vlastnosť deklarovaná, a potomkovia dedia už HOTOVÚ farbu. Tmavá téma prepisuje
      --zem/--text/--blok-* až na body — alias len na :root by sa vyhodnotil zo svetlej sady
@@ -105,40 +114,55 @@
      A/B/C nesú význam (ktorá várka) a musia ostať rovnaké na každej obrazovke aj vo varení.
      Každá paleta má svetlú aj tmavú sadu; systémová tmavá (@media) musí byť zhodná s body.dark.
      Kontrast všetkých párov stráži scripts/kontrast_bloky.py pre každú paletu. Predvolená = „Teplý stôl" (:root). */
-  :root[data-paleta="salvia"]{ --zem:#EDF1EA; --doska:#FFFFFF; --text:#18201A; --text2:#4C5749; --linka:#D7DED2; --okraj:#6C7668; --tint:#E0E7DB; --tlac:#18201A; --na-tlaci:#F2F6EF; --org-soft:#F4F7F2; }
-  :root[data-paleta="more"]{ --zem:#EBF0F4; --doska:#FFFFFF; --text:#15202A; --text2:#4A5663; --linka:#D3DCE4; --okraj:#687582; --tint:#DCE4EC; --tlac:#15202A; --na-tlaci:#F0F5F9; --org-soft:#F3F6F9; }
-  :root[data-paleta="levandula"]{ --zem:#F1EDF4; --doska:#FFFFFF; --text:#1F1A25; --text2:#564E60; --linka:#DED6E5; --okraj:#746C7E; --tint:#E6DFED; --tlac:#1F1A25; --na-tlaci:#F6F2F9; --org-soft:#F7F4F9; }
-  :root[data-paleta="kontrast"]{ --zem:#FFFFFF; --doska:#FFFFFF; --text:#000000; --text2:#262626; --linka:#8C8C8C; --okraj:#3A3A3A; --tint:#EBEBEB; --tlac:#000000; --na-tlaci:#FFFFFF; --org-soft:#F5F5F5; }
-  :root[data-paleta="salvia"] body.dark{ --zem:#141A15; --doska:#1D241E; --text:#E7EFE5; --text2:#A0AB9C; --linka:#323C33; --okraj:#7F8A7C; --tint:#273028; --tlac:#202921; --na-tlaci:#F2F6EF; --org-soft:#212A22; }
+  :root[data-paleta="salvia"]{ --zem:#E3EBE0; --doska:#FBFDFA; --text:#18201A; --text2:#46523F; --linka:#C9D5C5; --okraj:#66725F; --tint:#D3DFD0; --tlac:#18201A; --na-tlaci:#F2F6EF; --org-soft:#F1F6EF;
+    --shadow:0 1px 2px rgba(30,50,35,.06),0 6px 18px -8px rgba(30,50,35,.16); --shadow-hover:0 2px 4px rgba(30,50,35,.07),0 12px 28px -10px rgba(30,50,35,.22); }
+  :root[data-paleta="more"]{ --zem:#E1E9F1; --doska:#FBFDFF; --text:#15202A; --text2:#44505D; --linka:#C6D2DE; --okraj:#62707D; --tint:#CFDBE7; --tlac:#15202A; --na-tlaci:#F0F5F9; --org-soft:#F0F5FA;
+    --shadow:0 1px 2px rgba(20,40,60,.06),0 6px 18px -8px rgba(20,40,60,.16); --shadow-hover:0 2px 4px rgba(20,40,60,.07),0 12px 28px -10px rgba(20,40,60,.22); }
+  :root[data-paleta="levandula"]{ --zem:#EAE3F1; --doska:#FDFBFF; --text:#1F1A25; --text2:#51495B; --linka:#D3C8DF; --okraj:#6E6679; --tint:#DCD1E8; --tlac:#1F1A25; --na-tlaci:#F6F2F9; --org-soft:#F6F1FA;
+    --shadow:0 1px 2px rgba(45,30,60,.06),0 6px 18px -8px rgba(45,30,60,.16); --shadow-hover:0 2px 4px rgba(45,30,60,.07),0 12px 28px -10px rgba(45,30,60,.22); }
+  :root[data-paleta="kontrast"]{ --zem:#FFFFFF; --doska:#FFFFFF; --text:#000000; --text2:#262626; --linka:#8C8C8C; --okraj:#3A3A3A; --tint:#EBEBEB; --tlac:#000000; --na-tlaci:#FFFFFF; --org-soft:#F5F5F5;
+    --shadow:none; --shadow-hover:none; }
+  :root[data-paleta="salvia"] body.dark{ --zem:#0F1912; --doska:#18241B; --text:#E7EFE5; --text2:#A0AB9C; --linka:#323C33; --okraj:#7F8A7C; --tint:#273028; --tlac:#202921; --na-tlaci:#F2F6EF; --org-soft:#212A22; }
   :root[data-paleta="more"] body.dark{ --zem:#11171C; --doska:#1A2128; --text:#E5ECF2; --text2:#9CA8B4; --linka:#303A44; --okraj:#7D8995; --tint:#232C35; --tlac:#1D252D; --na-tlaci:#F0F5F9; --org-soft:#1E262E; }
   :root[data-paleta="levandula"] body.dark{ --zem:#17141B; --doska:#201C25; --text:#EEE9F3; --text2:#A8A0B1; --linka:#38323E; --okraj:#898291; --tint:#2A2531; --tlac:#25202B; --na-tlaci:#F6F2F9; --org-soft:#26212C; }
   :root[data-paleta="kontrast"] body.dark{ --zem:#000000; --doska:#0D0D0D; --text:#FFFFFF; --text2:#E0E0E0; --linka:#7A7A7A; --okraj:#D0D0D0; --tint:#1F1F1F; --tlac:#1A1A1A; --na-tlaci:#FFFFFF; --org-soft:#141414; }
   @media (prefers-color-scheme:dark){
-    :root[data-paleta="salvia"] body:not(.svetla){ --zem:#141A15; --doska:#1D241E; --text:#E7EFE5; --text2:#A0AB9C; --linka:#323C33; --okraj:#7F8A7C; --tint:#273028; --tlac:#202921; --na-tlaci:#F2F6EF; --org-soft:#212A22; }
+    :root[data-paleta="salvia"] body:not(.svetla){ --zem:#0F1912; --doska:#18241B; --text:#E7EFE5; --text2:#A0AB9C; --linka:#323C33; --okraj:#7F8A7C; --tint:#273028; --tlac:#202921; --na-tlaci:#F2F6EF; --org-soft:#212A22; }
     :root[data-paleta="more"] body:not(.svetla){ --zem:#11171C; --doska:#1A2128; --text:#E5ECF2; --text2:#9CA8B4; --linka:#303A44; --okraj:#7D8995; --tint:#232C35; --tlac:#1D252D; --na-tlaci:#F0F5F9; --org-soft:#1E262E; }
     :root[data-paleta="levandula"] body:not(.svetla){ --zem:#17141B; --doska:#201C25; --text:#EEE9F3; --text2:#A8A0B1; --linka:#38323E; --okraj:#898291; --tint:#2A2531; --tlac:#25202B; --na-tlaci:#F6F2F9; --org-soft:#26212C; }
     :root[data-paleta="kontrast"] body:not(.svetla){ --zem:#000000; --doska:#0D0D0D; --text:#FFFFFF; --text2:#E0E0E0; --linka:#7A7A7A; --okraj:#D0D0D0; --tint:#1F1F1F; --tlac:#1A1A1A; --na-tlaci:#FFFFFF; --org-soft:#141414; }
   }
   /* vysoký kontrast: karty majú rám, nie tieň (tieň na bielom podklade nie je vidieť) */
-  :root[data-paleta="kontrast"] .card,:root[data-paleta="kontrast"] .plan-cell,:root[data-paleta="kontrast"] .panel,
-  :root[data-paleta="kontrast"] .tile,:root[data-paleta="kontrast"] .blok-karta{border:1px solid var(--okraj)}
+  :root[data-paleta="kontrast"] .card,:root[data-paleta="kontrast"] .panel,:root[data-paleta="kontrast"] .tile,
+  :root[data-paleta="kontrast"] .blok-karta,:root[data-paleta="kontrast"] table.plan .plan-cell,
+  :root[data-paleta="kontrast"] .odd .nak-row{border:1px solid var(--okraj)}
+  :root[data-paleta="kontrast"] .botnav a .ic{filter:none;opacity:1}
   /* výber témy v Nastaveniach: vzorka + meno, natívne rádio (klávesnica, čítačka) */
   .palety{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:6px 0 10px}
   .paleta{display:flex;align-items:center;gap:8px;min-height:var(--cil);padding:6px 8px;font-size:14px;line-height:1.2;min-width:0;border:1px solid var(--okraj);border-radius:var(--r-btn);cursor:pointer;background:var(--doska)}
   .paleta:has(input:checked){outline:3px solid var(--akcent);outline-offset:1px}
-  .paleta .vzorka{display:inline-flex;flex:none;border-radius:8px;overflow:hidden;border:1px solid var(--okraj)}
-  .paleta .vzorka i{width:9px;height:24px;display:block}
-  .paleta input{accent-color:var(--akcent-tlac)}
+  .paleta .vzorka{position:relative;display:block;flex:none;width:46px;height:34px;border-radius:8px;overflow:hidden;border:1px solid var(--okraj)}
+  .paleta .vzorka i{position:absolute;display:block}
+  .paleta .vzorka i:nth-child(1){inset:0}
+  .paleta .vzorka i:nth-child(2){left:7px;right:7px;top:6px;bottom:6px;border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,.18)}
+  .paleta .vzorka i:nth-child(3){left:11px;top:19px;width:20px;height:6px;border-radius:3px}
+  .paleta .vzorka i:nth-child(4){left:11px;top:11px;width:22px;height:3px;border-radius:2px}
+  .paleta input{flex:none;margin:0;accent-color:var(--akcent-tlac)}
+  .palety .paleta:last-child:nth-child(odd){grid-column:1/-1}
+  .pisma{grid-template-columns:1fr}
+  .paleta.pismo{gap:12px}
+  .pismo-vzor{flex:none;width:46px;text-align:center;font-size:26px;font-weight:700;line-height:1}
+  .paleta.pismo small{display:block;margin:1px 0 0;font-size:13px}
 
   /* ── ZÁKLAD ─────────────────────────────────────────────────────────── */
   body{background:var(--zem);color:var(--text);
-       font-family:'Instrument Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       font-family:var(--pismo-text);
        -webkit-tap-highlight-color:rgba(14,90,112,.16)}
   /* Archivo je premenlivý font (400–800) — nadpisy nesú váhu 800, čísla 600 */
   .side .brand,h2.h,.panel h3,h3.sekcia,.odd h3,.card h3,.modal .hero h2,.tile .val,
   details.panel > summary,.dnes .nm,.rozvrh-nadpis,.odd.zaklady>summary,.nakup-suhrn b,
   table.plan th,table.plan td.slotname,.plan-cell .nm,.polozka .nm,.znak,.rezimy button{
-    font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:800;letter-spacing:-.015em}
+    font-family:var(--pismo-nadpis);font-weight:800;letter-spacing:-.015em}
   .tile .val,.plan-cell .kc,tr.suma td,.chart .v,table.ing td.mn,.card .kcal{font-variant-numeric:tabular-nums}
   .plan-cell .nm,table.plan td.slotname,.rezimy button,.nakup-suhrn b{font-weight:600}
   :focus-visible{outline:3px solid var(--akcent);outline-offset:2px;border-radius:4px}
@@ -222,13 +246,14 @@
   /* v35: vlasová linka namiesto 2 px čiernej čiary — rytmus, nie formulár */
   h3.sekcia,.odd h3{border-bottom:1px solid var(--linka);padding-bottom:8px}
   .odd.zaklady>summary{color:var(--text);border-bottom:1px solid var(--linka)}
-  .tile .val{color:var(--text);font-size:26px;letter-spacing:-.02em}
+  .tile .val{color:var(--text);font-size:26px;letter-spacing:-.02em;font-family:var(--pismo-ui)} /* čísla v písme ovládania — pätkové číslice v dlaždici pôsobili nepokojne */
+  .chart .v,.chart .d{font-family:var(--pismo-ui)}
   .tile .lbl{color:var(--text2)}
 
   /* ── TLAČIDLÁ, CHIPY, POLIA ────────────────────────────────────────── */
   /* v35: 1 px --okraj (4,33:1 na doske, 3,74:1 na zemi — 1.4.11 drží) namiesto 2 px čiernej */
   .btn{background:var(--doska);border:1px solid var(--okraj);border-radius:var(--r-btn);box-shadow:0 1px 1px rgba(64,44,24,.05);
-       color:var(--text);font-weight:600;font-family:'Archivo','Instrument Sans',Arial,sans-serif;
+       color:var(--text);font-weight:600;font-family:var(--pismo-ui);
        min-height:max(44px,var(--cil-in));padding:10px 16px}
   .btn:hover{background:var(--tint)}
   .btn.primary{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku);font-weight:800;
@@ -243,11 +268,11 @@
   .mini{background:var(--doska);border:1px solid var(--okraj);border-radius:var(--r-mala);color:var(--text)}
   .mini.on{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku)}
   .chip,.kol-tile{background:var(--doska);border:1px solid var(--okraj);border-radius:999px;
-    color:var(--text);font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:600}
+    color:var(--text);font-family:var(--pismo-ui);font-weight:600}
   .chip.active,.kol-tile.active{background:var(--text);border-color:var(--text);color:var(--zem)}
   .strav-chip{background:var(--tint);border:1px solid var(--linka);border-radius:var(--r-mala);color:var(--text)}
   .card .kat{background:var(--tint);color:var(--text2);border-radius:999px;padding:3px 9px;font-size:12px;
-    font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:600;letter-spacing:.01em;text-transform:none}
+    font-family:var(--pismo-ui);font-weight:600;letter-spacing:.01em;text-transform:none}
   .f-toggle .cnt{background:var(--akcent-tlac);color:var(--na-bloku)}
   #hladaj,select.f,input.f,textarea.pozn,.doma-in,
   .field input[type=number],.field input[type=text],.field input[type=email],
@@ -267,7 +292,7 @@
   /* ── ŠTÍTOK BLOKU — farba + písmeno, nikdy nie farba sama ──────────── */
   .znak{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;
     width:22px;height:22px;border-radius:6px;font-size:12px;font-weight:800;line-height:1;
-    font-family:'Archivo','Instrument Sans',Arial,sans-serif;color:var(--na-bloku);vertical-align:middle}
+    font-family:var(--pismo-ui);color:var(--na-bloku);vertical-align:middle}
   .znak.blok-a{background:var(--blok-a)} .znak.blok-b{background:var(--blok-b)} .znak.blok-c{background:var(--blok-c)}
   .znak.blok-ziadny{background:var(--linka);color:var(--text2)}
   .znaky{display:inline-flex;gap:3px;flex:0 0 auto;vertical-align:middle}
@@ -315,7 +340,7 @@
   .rozvrh-pas{background:var(--doska);border:1px solid var(--linka)}
   .rozvrh-blok{background:var(--doska);border:1px solid var(--okraj);border-radius:var(--r-mala)}
   .rozvrh-blok:hover{border-color:var(--akcent)}
-  .rozvrh-blok .rb-pis{border-radius:6px;background:var(--akcent-tlac);color:var(--na-bloku);font-family:'Archivo',Arial,sans-serif}
+  .rozvrh-blok .rb-pis{border-radius:6px;background:var(--akcent-tlac);color:var(--na-bloku);font-family:var(--pismo-ui)}
   .rozvrh-blok.blok-a .rb-pis{background:var(--blok-a)}
   .rozvrh-blok.blok-b .rb-pis{background:var(--blok-b)}
   .rozvrh-blok.blok-c .rb-pis{background:var(--blok-c)}
@@ -331,11 +356,18 @@
   .ctrl-row .pplnum.cust{color:var(--akcent)}
 
   /* ── DOMOV ─────────────────────────────────────────────────────────── */
-  .dnes-varenie-hero{background:var(--akcent-tlac);color:var(--na-bloku);border-left:0;padding:16px 18px}
+  /* kolo 4 (vizuál, dizajn, ovládanie): hero varného dňa = TÓN bloku + prúžok, ako karta bloku v Pláne. Plná plocha
+     bloku zhasla hlavné tlačidlo „Variť" (rovnaká farba ako karta) a v tmavej téme oslňovala (limetková doska 470 px). */
+  .dnes-varenie-hero{background:color-mix(in srgb,var(--akcent-tlac) 11%,var(--doska));color:var(--text);border-left:0;padding:18px 18px 16px;
+    box-shadow:inset 0 4px 0 var(--akcent-tlac),var(--shadow)}
   .dnes-varenie-hero b{color:inherit}
-  /* --na-bloku je biela vo svetlej a tmavá v tmavej téme — oddeľovač sedí v oboch bez body.dark */
-  .dnes-varenie-hero .dnes-row{border-bottom-color:color-mix(in srgb,var(--na-bloku) 28%,transparent);color:inherit}
+  .dnes-varenie-hero .dnes-row{border-bottom-color:var(--linka);color:inherit}
+  /* príloha pod hlavným jedlom: bez deliacej čiary medzi nimi, odsadená ako pokračovanie */
+  .dnes-row:has(+ .dnes-plus){border-bottom-color:transparent!important;padding-bottom:0}
+  .dnes-row.dnes-plus{padding-top:2px}
   .dnes-varenie-hero .lnk,.dnes-varenie-hero .sur-klik{color:inherit}
+  .dnes-varenie-hero .btn.primary{background:var(--akcent-tlac);border-color:var(--akcent-tlac);color:var(--na-bloku)}
+  .dnes-varenie-hero .btn:not(.primary){background:transparent;border-color:var(--okraj);color:var(--text)}
   .dnes-varenie-hero.blok-a{--akcent-tlac:var(--blok-a)}
   .dnes-varenie-hero.blok-b{--akcent-tlac:var(--blok-b)}
   .dnes-varenie-hero.blok-c{--akcent-tlac:var(--blok-c)}
@@ -356,7 +388,7 @@
      (:56) a chytal sa aj na túto bunku — prázdny prúžok bloku sa ako flex-položka zmrštil
      na 0 px a dnešný deň, jediný, na ktorý sa pozeráš, stratil farbu svojho bloku. */
   .tyzden-pas .d.je-dnes{border-color:var(--text);outline:2px solid var(--text);outline-offset:-2px}
-  .tyzden-pas .kc{display:block;font-family:'Archivo',Arial,sans-serif;font-weight:800;
+  .tyzden-pas .kc{display:block;font-family:var(--pismo-ui);font-weight:800;
     font-variant-numeric:tabular-nums;font-size:15px;line-height:1.1;color:var(--text)}
   .tyzden-pas .dn{display:block;font-size:11.5px;color:var(--text2);margin-top:1px}
   .tyzden-pas .pr{display:block;height:5px;border-radius:3px;margin-top:6px;background:var(--linka)}
@@ -370,7 +402,7 @@
     margin-bottom:6px;padding:10px 12px;min-height:max(48px,var(--cil-in))}
   .odd .nak-row>label:hover{border-color:var(--okraj)}
   .odd .nak-row>label.checked{opacity:.62}
-  .odd .nak-row>label .nm2{font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:600}
+  .odd .nak-row>label .nm2{font-family:var(--pismo-ui);font-weight:600}
   /* „1× 150 g" sa lámalo na „1× 150 / g" — množstvo je jedno slovo */
   .odd .nak-row .nm2 b,.odd .nak-row .nm2 .info{white-space:nowrap}
   .odd .nak-row>label input[type=checkbox]{width:24px;height:24px}
@@ -416,14 +448,13 @@
   .badge.hs-amber{background:var(--doska);color:var(--zlato);border-color:var(--zlato)}
   .badge.hs-red{background:var(--doska);color:var(--signal);border-color:var(--signal)}
 
-  /* znak bloku NA farebnej ploche bloku sa musí obrátiť, inak splynie */
-  .dnes-varenie-hero .znak{background:var(--na-bloku);color:var(--text)}
-  .dnes-varenie-hero .dnes-slot,.dnes-varenie-hero .info,.dnes-varenie-hero small{color:inherit;opacity:.9}
-  .dnes-varenie-hero .lnk{color:var(--na-bloku);text-decoration:underline;
+  /* hero je od kola 4 len tón bloku — znak A/B/C ostáva vo farbe bloku (neobracia sa) */
+  .dnes-varenie-hero .dnes-slot,.dnes-varenie-hero .info,.dnes-varenie-hero small{color:var(--text2)}
+  .dnes-varenie-hero .lnk{color:var(--text);text-decoration:underline;
     display:inline-flex;align-items:center;min-height:24px}
   /* pruh dní v dialógu rozvrhu nesie písmeno bloku, nielen farbu */
   .rozvrh-den .rd-p{display:inline-block;margin-left:4px;font-size:11px;font-weight:800;
-    font-family:'Archivo',Arial,sans-serif;opacity:.75}
+    font-family:var(--pismo-ui);opacity:.75}
   /* graf výživy: prúžok bloku pod stĺpcom (farba) + písmeno v menovke dňa (text) */
   .chart .col .pruh-bloku{display:block;width:70%;height:5px;border-radius:3px;background:var(--linka);flex:0 0 auto}
   .chart .col .pruh-bloku.blok-a{background:var(--blok-a)}
@@ -436,7 +467,7 @@
   .cook{--blok-a:#E39CC4;--blok-b:#6FCBE4;--blok-c:#BCD05E;--na-bloku:#141210;--cook-alarm:#C7452E;--cook-na-alarme:#FFFFFF;
         --cook-text:#F4EFE6;--cook-okraj:#8B8478;
         background:#141210;color:#F4EFE6;padding:20px 22px}
-  .cook .ch{opacity:1;color:#B8AFA1;font-family:'Archivo',Arial,sans-serif;font-weight:600;
+  .cook .ch{opacity:1;color:#B8AFA1;font-family:var(--pismo-ui);font-weight:600;
     flex-wrap:wrap;gap:10px;align-items:center}
   .cook #cook-title{flex:1 1 100%;color:#F4EFE6;font-size:17px;font-weight:800;letter-spacing:-.01em;
     display:flex;align-items:center;gap:8px;order:-1}
@@ -452,13 +483,13 @@
   .cook #cook-timers{justify-content:flex-start!important}
   .cook .nav2{align-items:stretch;gap:12px}
   .cook .nav2 button{background:var(--akcent);color:#141210;border-radius:14px;min-height:70px;
-    padding:0 28px;font-family:'Archivo',Arial,sans-serif;font-weight:800;font-size:21px}
+    padding:0 28px;font-family:var(--pismo-ui);font-weight:800;font-size:21px}
   .cook .nav2 button.ghost{background:none;border:2px solid #4A443C;color:#F4EFE6;font-weight:600;font-size:16px;flex:0 0 auto}
   .cook .nav2 button:not(.ghost){flex:1;max-width:520px}
-  .cook .timer{background:#262119;color:#F4EFE6;border-radius:14px;font-family:'Archivo',Arial,sans-serif;
+  .cook .timer{background:#262119;color:#F4EFE6;border-radius:14px;font-family:var(--pismo-ui);
     font-weight:600;font-variant-numeric:tabular-nums;min-height:56px;border:0}
   .cook .timer.run{background:#C7452E;color:#fff}
-  .cook #cook-progress{font-family:'Archivo',Arial,sans-serif;font-weight:600;color:#B8AFA1}
+  .cook #cook-progress{font-family:var(--pismo-ui);font-weight:600;color:#B8AFA1}
 
   /* ── FOTKY RECEPTOV (v23) ─────────────────────────────────────────── */
   .dnes .thumb,.card .thumb{position:relative;overflow:hidden}
@@ -575,7 +606,7 @@
     .side{display:none}
     .botnav{background:var(--doska);border-top:1px solid var(--linka);box-shadow:0 -6px 20px -10px rgba(64,44,24,.18);
       padding:4px 2px calc(4px + env(safe-area-inset-bottom))}
-    .botnav a{color:var(--text2);font-family:'Archivo','Instrument Sans',Arial,sans-serif;font-weight:600;
+    .botnav a{color:var(--text2);font-family:var(--pismo-ui);font-weight:600;
       border-radius:10px;min-height:max(52px,var(--cil))}
     .botnav a.active{color:var(--text);background:var(--tint);border-radius:16px}
     /* v35: emoji neaktívnych kariet tlmené, aktívna farebná a o 6 % väčšia — pokoj + malá radosť.
@@ -690,7 +721,7 @@
     .blok-karta > .bk-hlava{display:flex;align-items:center;justify-content:space-between;
       gap:8px;padding:9px 11px;color:var(--text);border-top:4px solid var(--bk,var(--linka));
       background:color-mix(in srgb,var(--bk,var(--tint)) 10%,var(--doska))}
-    .bk-nazov{font-weight:800;font-size:15px;color:var(--text);font-family:'Archivo','Instrument Sans',Arial,sans-serif}
+    .bk-nazov{font-weight:800;font-size:15px;color:var(--text);font-family:var(--pismo-nadpis)}
     .bk-hlava .znak{background:var(--bk);color:var(--na-bloku)}
     /* zámerne BEZ triedy `pc-btn` — tá má v Kompakte vlastnú podlahu 30 px (= 25 fyzických
        po zoome) a stiahla by 🎲 hlboko pod 44 px. Toto je plnohodnotné tlačidlo. */
@@ -797,7 +828,7 @@
   /* Varenie: ciele sú tu najdôležitejšie (mastné ruky). „hlas" mal 20×20 v 26 px riadku. */
   .cook .cook-hlas{display:flex;gap:8px;align-items:center;min-height:52px;padding:0 6px;font-size:15px;cursor:pointer}
   .cook .cook-hlas input{width:24px;height:24px;margin:0}
-  .cook #cook-timers .timer{font:inherit;font-family:'Archivo',Arial,sans-serif;min-height:52px;border:0}
+  .cook #cook-timers .timer{font:inherit;font-family:var(--pismo-ui);min-height:52px;border:0}
   /* krok + množstvá surovín držia spolu v strede plochy. NIE justify-content:center: krok dlhší
      než plocha mal začiatok NAD hornou hranou a nedal sa doň doskrolovať (audit 8. 10.,
      „anglicke-velkonocne-judasky" kroky 2–4). Auto okraje centrujú, len keď je miesto. */
@@ -818,12 +849,23 @@
   .menu .menu-sk:first-child{margin-top:4px}
   /* kolo 3: „⋯ viac“ v riadku kcal (celý cieľ), príloha a doplnok ako „+ názov“, mimo domu ako informácia */
   .plan-cell .pc-riadok .pc-viac{margin-left:auto;min-height:max(44px,var(--cil-in));min-width:max(44px,var(--cil-in));
-    padding:0 10px;font-size:14px;font-weight:600;color:var(--text);border-radius:var(--r-btn);justify-content:center;align-self:center}
+    padding:0 10px;font-size:14px;font-weight:600;color:var(--text);border-radius:var(--r-btn);justify-content:center;margin-right:-6px}
+  /* kcal, bielkoviny a „⋯ viac" na jednej osi (kolo 4: „viac" sedelo ~10 px pod riadkom kcal) */
+  .plan-cell .pc-riadok{align-items:center;column-gap:0}
+  .plan-cell .pc-riadok .kc{margin-right:6px}
   .plan-cell .pc-pril{font-weight:400}
   .plan-cell.mimo-domu{color:var(--text2);font-size:13px;background:var(--tint);border-style:dashed;justify-content:center;min-height:44px}
   .mimo-riadok{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;margin:2px 0}
   .pole-pozor{outline:3px solid var(--zlato);outline-offset:1px}
   .pv-akcie{display:flex;gap:6px;flex:none;align-items:center}
+  /* Výživa (kolo 4): mená stravníkov sa nelámu po písmenách, údaje jedla idú pod jeho názov, osamelá dlaždica na celý riadok */
+  #vyziva-stravnici .sp-row > span:first-child{white-space:nowrap;flex:none}
+  #vyziva-den .sp-row{flex-wrap:wrap;row-gap:2px}
+  #vyziva-den .sp-row > .meta2:last-child{flex-basis:100%;text-align:left}
+  .tiles > .tile:last-child:nth-child(odd){grid-column:1/-1}
+  /* plán varenia: údaje pri jedle pod názvom, tlačidlá vpravo nezalomené */
+  #modal .sp-row:has(.pv-akcie){flex-wrap:wrap;row-gap:4px}
+  #modal .sp-row:has(.pv-akcie) > span:first-child{flex:1 1 60%}
   .pv-akcie .mini{white-space:nowrap}
 
   /* ── v35 „TEPLÝ STÔL" (audit 8. 10. 2026, vizuál + dizajn 2. kolo) ──────────
@@ -852,6 +894,10 @@
   .plan-cell.s-fotkou{display:grid;grid-template-columns:56px minmax(0,1fr);column-gap:12px;align-items:start}
   .plan-cell.s-fotkou > *{grid-column:2}
   .plan-cell.s-fotkou > .th-mini{grid-column:1;grid-row:1 / span 6;margin-top:2px}
+  /* bez medzier medzi prázdnymi riadkami mriežky (5 × 3 px) — bunka 130 → ~112 px (kolo 4, vizuál) */
+  .plan-cell.s-fotkou{row-gap:0}
+  .plan-cell.s-fotkou > .pc-slot{margin-bottom:2px}
+  .plan-cell.s-fotkou > .pc-riadok{margin-top:0}
   /* Domov: fotka vľavo, menovka jedla NAD názvom (rovnako ako bunka plánu) */
   .dnes-row.s-fotkou{display:grid;grid-template-columns:48px minmax(0,1fr);column-gap:12px;align-items:center}
   .dnes-row.s-fotkou > .th-mini{grid-row:1 / span 2;width:48px;height:48px;border-radius:12px;font-size:20px}
@@ -869,7 +915,7 @@
   /* Nákup: „Dochucovadlá a základné veci — 12" sa lámalo do dvoch stĺpcov s „(kupuj, len ak…)"
      vpravo. Poznámka ide na vlastný riadok pod nadpis, nadpis má celú šírku. */
   .odd.zaklady>summary{flex-wrap:wrap;row-gap:0;align-content:center}
-  .odd.zaklady>summary>.info{flex-basis:100%;font-family:'Instrument Sans',Arial,sans-serif;font-weight:400;letter-spacing:0}
+  .odd.zaklady>summary>.info{flex-basis:100%;font-family:var(--pismo-text);font-weight:400;letter-spacing:0}
   /* „Nakupujem na:" — stlačená várka = tónovaná plocha + 1 px rám textu (nie 2 px čierny),
      nestlačená prerušovaný --okraj (--line mal 1,57:1). Stav nesie aj váha písma.
      Menovka sa smie zlomiť na dva riadky, aby sa A · B · C zmestili do jedného (bolo „C" samo
@@ -913,7 +959,7 @@
      1 snímok pred výpočtom); plán sa stlmí a ukáže sa pás <div class="gen-pas" role="status">. */
   .gen-pas{display:none}
   body.generujem .gen-pas{display:block;position:fixed;left:50%;top:40%;translate:-50% 0;z-index:95;
-    padding:12px 22px;border-radius:999px;font:600 15px/1.3 'Instrument Sans',system-ui,sans-serif;white-space:nowrap;
+    padding:12px 22px;border-radius:999px;font:600 15px/1.3 var(--pismo-text);white-space:nowrap;
     background:var(--tlac);color:var(--na-tlaci);box-shadow:0 8px 24px rgba(0,0,0,.25);pointer-events:none}
   body.generujem #plan-bloky,body.generujem .plan-grid{opacity:.45}
 
@@ -953,6 +999,7 @@
     /* toast vymenil text počas zobrazenia (JS: .znova) — krátke nadskočenie */
     #toast{transition:opacity var(--t-stav) var(--ease-von),transform var(--t-stav) var(--ease-von)}
     #toast.show.znova{animation:toast-znova .24s var(--ease-von)}
+    .plan-cell.vymenene{animation:vymenene .7s var(--ease-von)}
     /* vstup do varenia nábehom, nie skokom (kolo 3, pocit) */
     .cook.open{animation:cook-von var(--t-panel) var(--ease-von)}
   }
@@ -972,12 +1019,14 @@
     #v-planovac{position:relative}
     body.plan-plny.plan-bloky-on #v-planovac #plan-tyzden > .plan-head > .btn.primary{display:none}
     body.plan-plny.plan-bloky-on #v-planovac #plan-tyzden > .plan-head{position:absolute;top:0;right:0;margin:0;padding:0}
+    body.plan-plny.plan-bloky-on #v-planovac .plan-topline{padding-right:96px}
   }
   .modal-duch{animation:duch-von 180ms var(--ease-dnu) forwards}
   @keyframes duch-von{to{opacity:0;translate:0 48px}}
   @media print{ .modal-duch{display:none!important} }
   @keyframes dialog-von{from{opacity:0;scale:.96}}
   @keyframes cook-von{from{opacity:0}}
+  @keyframes vymenene{0%{background-color:color-mix(in srgb,var(--zlato) 22%,var(--doska))}100%{background-color:transparent}}
   @keyframes krok-vstup{from{opacity:0;translate:18px 0}}
   @keyframes krok-spat{from{opacity:0;translate:-18px 0}}
   @keyframes zvoni{from{scale:1}to{scale:1.08}}
@@ -985,3 +1034,6 @@
   @keyframes toast-znova{from{transform:translate(-50%,6px)}}
   @media (prefers-reduced-motion:reduce){ *{transition:none!important;animation:none!important} }
   @media print{ body{background:#fff;color:#000} .content{zoom:1} }
+
+  /* toast nad tmavou plochou varenia: svetlý, inak splynie (kolo 4, pocit) */
+  body:has(#cook.open) #toast{background:#F4EFE6;color:#141210}

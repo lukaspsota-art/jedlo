@@ -164,9 +164,11 @@ ok("cena100: 0 (voda) je ZNÁMA cena, nie chýbajúca", () => {
   assert.ok(v && v.cena100 === 0, "voda má mať cena100: 0, má " + (v && v.cena100));
   const r = fakeRecept("Vodový test", [{ nazov: "Voda", mnozstvo: 500, jednotka: "ml" }]);
   planujLen([r]);
-  const it = riadok("Voda");
-  assert.ok(it, "voda nie je v nákupe");
-  assert.strictEqual(it.bezCeny, false, "voda sa hlási ako bez ceny: " + it.dovodCeny);
+  // kolo 4: voda z vodovodu sa v nákupe neukazuje — cena sa overí na skupine suroviny
+  assert.ok(!riadok("Voda"), "voda z vodovodu nemá byť v nákupe");
+  const G = Object.values(app.nakupPolozky().grp).find(g => /^voda$/i.test(g.nazov));
+  assert.ok(G, "voda chýba v podklade nákupu");
+  assert.strictEqual(app.dovodBezCeny(G), "", "voda sa hlási ako bez ceny");
 });
 ok("nenapárovaná surovina sa priznáva ako bez ceny (nie tichých 0,00 €)", () => {
   const r = fakeRecept("Neznámy test", [{ nazov: "Kryptonitová pasta", mnozstvo: 100, jednotka: "g" }]);

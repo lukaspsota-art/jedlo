@@ -963,6 +963,7 @@ ok("karta bloku: „varíš v nedeľu večer“; prvý deň „preč“ nie je p
   assert.ok(!/varíš (Pondelok|Utorok|Streda|Štvrtok|Piatok|Sobota|Nedeľa)/.test(h), "hlavička bloku má „varíš Nedeľa večer“");
   // iná veľkosť porcie v jeden deň bloku = iný variant, nie čísla prvého dňa za celý blok
   app.S.planF[app.datumPre(3)] = { Raňajky: 1.15, Obed: 1.15, Večera: 1.15, Snack: 1.15 };
+  app.S.planM[app.datumPre(3)] = { Raňajky: 1.15, Obed: 1.15, Večera: 1.15, Snack: 1.15 }; // kolo 4: štítok len pri ručnej veľkosti
   app.renderPlanBloky(SL, 1450);
   h = app.document.getElementById("plan-bloky").innerHTML;
   assert.ok((h.match(/bk-vynimka/g) || []).length >= 2 && /väčšia porcia/.test(h), "variant s inou porciou sa neukázal");
@@ -1309,6 +1310,59 @@ ok("nákup: predvolene celý týždeň; „Len od dneška“ zapne várky, ktor�
     assert.ok(/Len od dneška/.test(app.varkyHTML(null)), "chýba tlačidlo „Len od dneška“");
     app.nakupOdDnes(); assert.deepStrictEqual([...app.nakupVyber()], [...cakaju]);
   } else assert.strictEqual(od, null);
+});
+
+nadpis("\nKolo 5 (9. 10.) — diabetes, mimo domu v delení, Späť, záložky, import, téma");
+ok("🩺 diabetes: ciele makier 40 % E sacharidov a tuk ≤ 35 % E; med a palacinky neprejdú; ⚠ povie dôvod", () => {
+  const app = novy({ diabetes: true });
+  const m = app.cieloveMakra(2000);
+  assert.ok(Math.abs(m.s * 4 / 2000 - 0.40) < 0.01 && m.t * 9 / 2000 <= 0.351, JSON.stringify(m));
+  const toast = { id: "x-ft", nazov: "Francúzsky toast s medom", kategoria: "Raňajky", porcie: 1, ingrediencie: [{ nazov: "Toastový chlieb", mnozstvo: 60, jednotka: "g" }] };
+  assert.ok(app.nevhodneDiabetu(toast), "francúzsky toast s medom prešiel");
+  const med = { id: "x-med", nazov: "Ovsená kaša", kategoria: "Raňajky", porcie: 1, ingrediencie: [{ nazov: "Med", mnozstvo: 30, jednotka: "g" }, { nazov: "Ovsené vločky", mnozstvo: 50, jednotka: "g" }] };
+  assert.ok(app.pridanyCukor(med) >= 25 && app.nevhodneDiabetu(med), "30 g medu nie je pridaný cukor");
+  assert.ok(/diabete/.test(app.dovodNevhodne(toast)));
+});
+ok("„mimo domu“: kto je v práci, v ten deň obed nedostane (jeDomaVSlote)", () => {
+  const app = novy({ osoby: 2, kcal: 2000, stravnici: [{ nazov: "Ja", kcal: 2000 }, { nazov: "Peter", kcal: 2000, mimo: "Obed" }] });
+  const [ja, peter] = app.stravniciList();
+  assert.ok(app.jeDomaVSlote(ja, 0, "Obed") && !app.jeDomaVSlote(peter, 0, "Obed") && app.jeDomaVSlote(peter, 5, "Obed") && app.jeDomaVSlote(peter, 0, "Večera"));
+});
+ok("🎲 ručná veľkosť porcie patrila starému jedlu — po výmene zmizne; posledné hody sa nevracajú", async () => {
+  const app = novy();
+  await app.generujJedalnicek(true);
+  app.S.planM[app.datumPre(2)] = { Obed: 1.4 };
+  const pred = app.slotIds(2, "Obed")[0];
+  app.regenerujSlot(2, "Obed");
+  assert.ok(!(app.S.planM[app.datumPre(2)] || {}).Obed, "ručná porcia ostala pri novom jedle");
+  const videne = new Set([pred]);
+  for (let i = 0; i < 4; i++) { const id = app.slotIds(2, "Obed")[0]; assert.ok(!videne.has(id) || i === 0, "hod sa vrátil: " + id); videne.add(id); app.regenerujSlot(2, "Obed"); }
+});
+ok("druhá záložka: keď stav zmenila iná záložka, táto už nezapisuje", () => {
+  const app = novy(); const vm = require("vm");
+  app.S.profil.kcal = 1500; app.save(); const pred = app.localStorage.getItem("kucharka_v2");
+  vm.runInContext("_cudziStav=true", app);
+  app.S.profil.kcal = 1999; app.save();
+  assert.strictEqual(app.localStorage.getItem("kucharka_v2"), pred, "stará záložka prepísala novší stav");
+});
+ok("stav: neplatná téma a písmo zo zálohy sa zahodia", () => {
+  const app = novy({ paleta: "<img onerror=1>", pismo: "comic" });
+  assert.ok(app.S.profil.paleta === undefined && app.S.profil.pismo === undefined, JSON.stringify([app.S.profil.paleta, app.S.profil.pismo]));
+});
+ok("množstvo pri kroku len na celé slovo; import: šťava z citróna, špetka, vajec, „Názov - 400 g“", () => {
+  const app = novy(), p = x => JSON.parse(JSON.stringify(app.parseIngRiadok(x)));
+  const r = { id: "x", ingrediencie: [{ nazov: "Med", mnozstvo: 2, jednotka: "PL" }] };
+  assert.strictEqual(app.krokHint("Medzitým si daj vyhriať rúru.", 1, 1, r), "");
+  assert.ok(/Med/.test(app.krokHint("Pridaj med.", 1, 1, r)));
+  assert.deepStrictEqual([p("šťava z 1 citróna").nazov, p("šťava z 1 citróna").mnozstvo, p("šťava z 1 citróna").poznamka], ["Citrón", 1, "šťava"]);
+  assert.deepStrictEqual([p("špetka soli").nazov, p("špetka soli").jednotka], ["Soľ", "štipka"]);
+  assert.strictEqual(p("2 ks vajec").nazov, "Vajcia");
+  assert.deepStrictEqual([p("Fazuľa červená - 400 g").nazov, p("Fazuľa červená - 400 g").mnozstvo], ["Fazuľa červená", 400]);
+});
+ok("čas jedným zápisom: „1 hod 35 min“ → „1 h 35 min“", () => {
+  const app = novy();
+  assert.strictEqual(app.casText("1 hod 35 min"), "1 h 35 min");
+  assert.strictEqual(app.casText("45 min"), "45 min");
 });
 
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });
