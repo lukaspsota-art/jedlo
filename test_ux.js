@@ -1261,7 +1261,9 @@ ok("🩺 diabetes: bez dezertov a sladkostí, sacharidy do 60 % energie, kúpen�
   const app = novy({ diabetes: true });
   const U = app.genUniverzum();
   assert.ok(!U.some(r => r.kategoria === "Dezert"), "dezert v pláne diabetika");
-  const zle = U.filter(r => { const v = app.vyzivaReceptu(r); return v.kcal > 0 && (app.jeVyrobok(r) ? v.s > 20 : v.s * 4 / v.kcal > 0.6); });
+  // kolo 6: kúpené ovocie smie do 25 g (grep, hrozno), zelenina sa podľa % energie nevyhadzuje
+  const zle = U.filter(r => { const v = app.vyzivaReceptu(r); return v.kcal > 0 && (app.jeVyrobok(r) ? v.s > (app.snackDruh(r) === "ovocie" ? 25 : 20) : v.s * 4 / v.kcal > 0.6); });
+  assert.ok(U.some(r => app.jeVyrobok(r) && app.snackDruh(r) === "zelenina"), "zelenina ako snack pri diabete ostáva");
   assert.strictEqual(zle.length, 0, zle.slice(0, 3).map(r => r.id).join(","));
   assert.ok(app.vhodnyPrePlan(app.komponent("prf:ryza")), "ryža ako príloha musí ostať");
   assert.ok(novy().genUniverzum().length > U.length);
@@ -1363,6 +1365,39 @@ ok("čas jedným zápisom: „1 hod 35 min“ → „1 h 35 min“", () => {
   const app = novy();
   assert.strictEqual(app.casText("1 hod 35 min"), "1 h 35 min");
   assert.strictEqual(app.casText("45 min"), "45 min");
+});
+
+nadpis("\nKolo 6 (9. 10.) — import v 1. páde, HTML entity, diabetes snacky, čas, pixel art");
+ok("import: tvar v 1. páde ostane (Zemiaky, vajcia, Údená klobása), 2. pád sa zmení (citróna, masla, hladkej múky)", () => {
+  const app = novy(), n = x => app.parseIngRiadok("1 " + x).nazov;
+  assert.deepStrictEqual(["Zemiaky", "vajcia", "Údená klobása", "Paradajky"].map(n), ["Zemiaky", "Vajcia", "Údená klobása", "Paradajky"]);
+  assert.deepStrictEqual(["citróna", "masla", "cibule", "hladkej múky", "kuracích pŕs"].map(n), ["Citrón", "Maslo", "Cibuľa", "Hladká múka", "Kuracie prsia"]);
+});
+ok("import JSON-LD: HTML entity a značky sa dekódujú, kroky z <p> sú zvlášť", () => {
+  const r = novy().parseReceptImport(JSON.stringify({ "@type": "Recipe", name: "Guláš &quot;A&quot;", recipeIngredient: ["1&amp;nbsp;kg zemiakov", "2 PL &quot;olivového&quot; oleja"], recipeInstructions: "<p>Ošúp.</p><p>Uvar.</p>" }));
+  assert.strictEqual(r.nazov, 'Guláš "A"');
+  assert.deepStrictEqual([r.ingrediencie[0].mnozstvo, r.ingrediencie[1].nazov], [1000, "Olivový olej"]);
+  assert.deepStrictEqual([...r.postup], ["Ošúp.", "Uvar."]);
+});
+ok("🩺 diabetes: sladké podľa názvu len s pridaným cukrom (bábovka z mletého mäsa ostáva), zelenina ako snack ostáva", () => {
+  const app = novy({ diabetes: true });
+  const bab = app.RECEPTY.find(r => r.id === "babovka-z-mleteho-masa");
+  if (bab) assert.ok(!app.nevhodneDiabetu(bab), "bábovka z mletého mäsa nie je sladkosť");
+  const zel = app.RECEPTY.filter(r => app.jeVyrobok(r) && app.snackDruh(r) === "zelenina");
+  assert.ok(zel.length && zel.every(r => app.vyzivaReceptu(r).s > 20 || !app.nevhodneDiabetu(r)), zel.filter(r => app.nevhodneDiabetu(r)).map(r => r.id).join(","));
+});
+ok("čas jedným formátom: „100 min“ → „1 h 40 min“, „60 min“ → „1 h“", () => {
+  const app = novy();
+  assert.strictEqual(app.casText("100 min"), "1 h 40 min");
+  assert.strictEqual(app.casText("60 min"), "1 h");
+  assert.strictEqual(app.formatCas(7200), "2:00:00");
+  assert.strictEqual(app.formatCas(90), "01:30");
+});
+ok("pixel art má triedu .pix a v predvolenom radení ide za fotky", () => {
+  const app = novy(), pix = app.RECEPTY.find(r => app.jePix(r));
+  if (pix) assert.ok(/\bpix\b/.test(app.thumbTrieda(pix)));
+  const foto = app.RECEPTY.find(r => app.maFoto(r) && !app.jePix(r));
+  if (foto) assert.ok(!/\bpix\b/.test(app.thumbTrieda(foto)));
 });
 
 spusti().catch(e => { console.error(String(e.message || e)); process.exit(1); });

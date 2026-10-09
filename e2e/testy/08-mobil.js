@@ -99,8 +99,8 @@ module.exports = {
       polozky: [...document.querySelectorAll("#pick-modal .plan-cell .nm")].map((x) => x.textContent.trim()),
     }));
     await t.ok(viac.otvorene, "„⋯ Viac“ na spodnej lište otvorí panel");
-    // v33: pribudol „🍸 Môj bar“
-    await t.ok(["Výživa","Špajza","Nastavenia"].every(x=>viac.polozky.some(p=>p.includes(x))) && viac.polozky.length === 4, `panel „Viac“ obsahuje Výživa/Špajza/Nastavenia/Môj bar (${viac.polozky.join(", ")})`, JSON.stringify(viac));
+    // v33: pribudol „🍸 Môj bar“, kolo 6 „🎨 Vzhľad“
+    await t.ok(["Výživa","Špajza","Nastavenia"].every(x=>viac.polozky.some(p=>p.includes(x))) && viac.polozky.length === 5 && viac.polozky.some(p=>/Vzhľad/.test(p)), `panel „Viac“ obsahuje Výživa/Špajza/Nastavenia/Môj bar/Vzhľad (${viac.polozky.join(", ")})`, JSON.stringify(viac));
     await m.locator("#pick-modal .plan-cell", { hasText: "Špajza" }).click();
     await m.waitForTimeout(250);
     await t.ok(await m.evaluate(() => document.getElementById("v-spajza").classList.contains("active")),

@@ -976,6 +976,34 @@ Roly od kola 4: dizajn, používateľ, výživa, kuchár, QA, rodič, prístupno
   cez noc, mrazenie od 3. dňa, gramy v „Priprav si" na päťky, ⚖️ s textom a nie pri pečive. Vegetarián: detail,
   „Priprav si" aj kroky idú cez `ingrediencieNaNakup`; pod 40 g mäsa na porciu sa mäso len vynechá.
 - Import: „šťava z 1 citróna", „špetka soli", „2 ks vajec", „Názov - 400 g", výzvy webu („Páčil sa ti…") preč.
+- **Gestá sledujú prst** (okno nadol, krok vo varení do strán); prah je dráha (120 / 80 px), rýchly švih stačí kratší.
+  Spodný panel má úchyt (`.hero::before`, len mobil).
+- **Generátor tlačí na kratší varný večer:** `GEN_SK.cas` (0,4) pokutuje jedlo nad 60 min (čakanie cez noc sa ráta
+  najviac 2 h). Namerané: bloky nad 3 h 16 → 4 z 36, priemer 176 → 125 min.
+
+### Kolo 6 (9. 10. 2026) — vizuál na telefóne po audite kola 5 (známky 8–9)
+- Veľké písmo: „⋯ Viac" Plánu je len ikona (`.viac-tx`), ▶ týždňa sa zmestí. Riadok kcal v bunke je na jednej
+  základnej línii, nezalamuje sa a „⋯ viac" (`margin-block` záporný) nepridáva výšku.
+- Kuchárka dôsledne: karta varného dňa, názvy jedál na Domove a vo Výžive idú cez `--pismo-nadpis`; príloha/doplnok
+  v bunke 13,5 px písmom textu; polia formulárov `font-family:var(--pismo-text)`; popis receptu bez umelej kurzívy.
+- **Domov:** karta prázdneho bloku a „Zajtra varíš" sú tá istá karta ako varný deň (`dnes-varenie-hero` + blok);
+  povie „budúceho týždňa", akcia je primárna a robí to, čo sľubuje (prázdny blok = `regenerujBlokTlacidlo`, celý
+  prázdny týždeň = bez tlačidla, nesie ho hlavné tlačidlo Domova).
+- **Nastavenia → 🎨 Vzhľad a zobrazenie** (`#nast-vzhlad`) má farby, písmo, svetlú/tmavú aj veľkosť (`#velkost-box`);
+  „⋯ Viac → 🎨 Vzhľad" ho otvorí (`otvorVzhlad`). `renderPalety` pri zmene len prepína `checked` — prekreslenie
+  vyhadzovalo fokus zo skupiny rádií. Písmo sa ukazuje vlastným rezom so vzorkou s diakritikou. Tmavé Šalvia/More/
+  Levanduľa majú výraznejší nádych (aj vzorky v `PALETY`).
+- **Pixel art** (`jePix` = autor fotky „Jedlo — pixel art" v `FOTO_ZDROJE`): trieda `.pix`, v tmavej stlmený,
+  v predvolenom radení Receptov za skutočnými fotkami.
+- **Nákup:** riadok = názov + znaky A/B/C ZA ním, množstvo na vlastnom riadku (`.nak-nazov` / `.nak-mn`, pre
+  čítačku „ — " v `.sr-only`). Výživa: soľ červená až nad limitom, „blízko limitu" slovom. Čas „100 min" = „1 h 40 min".
+- Potvrdenia pomenúvajú akciu (žiadne „OK"); okno akcií jedla má znak bloku; Plán na telefóne otvorí dnešný blok
+  (`prepni` → `scrollIntoView`); Späť vo varení dá toast „↩ Pokračovať" (`_cookSpat`).
+- Import: tvar, ktorý sám sedí na potravinu, sa nemení — 1. pád od 2. odlíši frekvencia tvaru v surovinách receptov
+  (`_impTvarFq`: „klobása" ostane, „citróna" → Citrón). JSON-LD ide cez `_impTxt` (entity, značky, `<p>` = krok).
+- Diabetes: kúpená zelenina sa podľa % energie nevyhadzuje, ovocie do 25 g; „sladké podľa názvu" len s pridaným
+  cukrom ≥ 5 g / pečivo / sladený výrobok; 🩺 v detaile ráta aj prílohu; náhradný doplnok snacku ≤ 25 g spolu.
+- Malé dieťa: `susen\w*( \w+)? mas`, „pikant" je pálivé, `nevhodneMalym` platí aj pre prílohy.
 
 ## Stav a otvorené veci (4. 10. 2026)
 Všetkých 10 testovacích sád je zelených (**377 kontrol**), `test_regresie.js` hlási **0 otvorených

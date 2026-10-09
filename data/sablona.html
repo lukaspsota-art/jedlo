@@ -737,14 +737,14 @@
     --shadow:0 1px 2px rgba(45,30,60,.06),0 6px 18px -8px rgba(45,30,60,.16); --shadow-hover:0 2px 4px rgba(45,30,60,.07),0 12px 28px -10px rgba(45,30,60,.22); }
   :root[data-paleta="kontrast"]{ --zem:#FFFFFF; --doska:#FFFFFF; --text:#000000; --text2:#262626; --linka:#8C8C8C; --okraj:#3A3A3A; --tint:#EBEBEB; --tlac:#000000; --na-tlaci:#FFFFFF; --org-soft:#F5F5F5;
     --shadow:none; --shadow-hover:none; }
-  :root[data-paleta="salvia"] body.dark{ --zem:#0F1912; --doska:#18241B; --text:#E7EFE5; --text2:#A0AB9C; --linka:#323C33; --okraj:#7F8A7C; --tint:#273028; --tlac:#202921; --na-tlaci:#F2F6EF; --org-soft:#212A22; }
-  :root[data-paleta="more"] body.dark{ --zem:#11171C; --doska:#1A2128; --text:#E5ECF2; --text2:#9CA8B4; --linka:#303A44; --okraj:#7D8995; --tint:#232C35; --tlac:#1D252D; --na-tlaci:#F0F5F9; --org-soft:#1E262E; }
-  :root[data-paleta="levandula"] body.dark{ --zem:#17141B; --doska:#201C25; --text:#EEE9F3; --text2:#A8A0B1; --linka:#38323E; --okraj:#898291; --tint:#2A2531; --tlac:#25202B; --na-tlaci:#F6F2F9; --org-soft:#26212C; }
+  :root[data-paleta="salvia"] body.dark{ --zem:#0D1C12; --doska:#172A1D; --text:#E7EFE5; --text2:#A0AB9C; --linka:#2E4434; --okraj:#7F8A7C; --tint:#22382A; --tlac:#1D3023; --na-tlaci:#F2F6EF; --org-soft:#1D3123; }
+  :root[data-paleta="more"] body.dark{ --zem:#0C1722; --doska:#152435; --text:#E5ECF2; --text2:#9CA8B4; --linka:#2A3E54; --okraj:#7D8995; --tint:#1F3248; --tlac:#1A293B; --na-tlaci:#F0F5F9; --org-soft:#1A2A3C; }
+  :root[data-paleta="levandula"] body.dark{ --zem:#17111F; --doska:#231A30; --text:#EEE9F3; --text2:#A8A0B1; --linka:#3A2F49; --okraj:#898291; --tint:#30253F; --tlac:#291F36; --na-tlaci:#F6F2F9; --org-soft:#281E35; }
   :root[data-paleta="kontrast"] body.dark{ --zem:#000000; --doska:#0D0D0D; --text:#FFFFFF; --text2:#E0E0E0; --linka:#7A7A7A; --okraj:#D0D0D0; --tint:#1F1F1F; --tlac:#1A1A1A; --na-tlaci:#FFFFFF; --org-soft:#141414; }
   @media (prefers-color-scheme:dark){
-    :root[data-paleta="salvia"] body:not(.svetla){ --zem:#0F1912; --doska:#18241B; --text:#E7EFE5; --text2:#A0AB9C; --linka:#323C33; --okraj:#7F8A7C; --tint:#273028; --tlac:#202921; --na-tlaci:#F2F6EF; --org-soft:#212A22; }
-    :root[data-paleta="more"] body:not(.svetla){ --zem:#11171C; --doska:#1A2128; --text:#E5ECF2; --text2:#9CA8B4; --linka:#303A44; --okraj:#7D8995; --tint:#232C35; --tlac:#1D252D; --na-tlaci:#F0F5F9; --org-soft:#1E262E; }
-    :root[data-paleta="levandula"] body:not(.svetla){ --zem:#17141B; --doska:#201C25; --text:#EEE9F3; --text2:#A8A0B1; --linka:#38323E; --okraj:#898291; --tint:#2A2531; --tlac:#25202B; --na-tlaci:#F6F2F9; --org-soft:#26212C; }
+    :root[data-paleta="salvia"] body:not(.svetla){ --zem:#0D1C12; --doska:#172A1D; --text:#E7EFE5; --text2:#A0AB9C; --linka:#2E4434; --okraj:#7F8A7C; --tint:#22382A; --tlac:#1D3023; --na-tlaci:#F2F6EF; --org-soft:#1D3123; }
+    :root[data-paleta="more"] body:not(.svetla){ --zem:#0C1722; --doska:#152435; --text:#E5ECF2; --text2:#9CA8B4; --linka:#2A3E54; --okraj:#7D8995; --tint:#1F3248; --tlac:#1A293B; --na-tlaci:#F0F5F9; --org-soft:#1A2A3C; }
+    :root[data-paleta="levandula"] body:not(.svetla){ --zem:#17111F; --doska:#231A30; --text:#EEE9F3; --text2:#A8A0B1; --linka:#3A2F49; --okraj:#898291; --tint:#30253F; --tlac:#291F36; --na-tlaci:#F6F2F9; --org-soft:#281E35; }
     :root[data-paleta="kontrast"] body:not(.svetla){ --zem:#000000; --doska:#0D0D0D; --text:#FFFFFF; --text2:#E0E0E0; --linka:#7A7A7A; --okraj:#D0D0D0; --tint:#1F1F1F; --tlac:#1A1A1A; --na-tlaci:#FFFFFF; --org-soft:#141414; }
   }
   /* vysoký kontrast: karty majú rám, nie tieň (tieň na bielom podklade nie je vidieť) */
@@ -1660,6 +1660,87 @@
   .dnes-zajtra{margin-bottom:16px}
   /* menu: ikona v pevnom stĺpci, text zarovnaný */
   .menu a .mi,.akcia-pol .mi{display:inline-block;flex:none;width:1.7em;text-align:center;margin-right:2px}
+  /* úchyt spodného panela (kolo 5): vidno, že sa dá potiahnuť nadol */
+  @media screen and (max-width:820px){
+    #overlay .modal > .hero::before,#pick-overlay .modal > .hero::before{content:"";position:absolute;left:50%;top:7px;width:36px;height:4px;margin-left:-18px;border-radius:2px;background:var(--okraj);opacity:.55}
+    #overlay .modal > .hero,#pick-overlay .modal > .hero{position:relative}
+  }
+
+  /* ── KOLO 6 (9. 10. 2026): vizuál na telefóne po audite kola 5 ─────────────────────────── */
+  /* polia formulárov preberajú písmo appky (boli v Arial vo všetkých troch písmach) */
+  select,input,textarea{font-family:var(--pismo-text)}
+  /* Kuchárka dôsledne: hlavná správa karty varného dňa a názvy jedál na Domove a vo Výžive písmom nadpisov */
+  .dnes-varenie-hero>b:first-child{font-family:var(--pismo-nadpis);font-size:17px;line-height:1.3;display:block}
+  .dnes-varenie-hero .dnes-row>span:not(.dnes-slot):not(.info):not(.dnes-jedla){font-family:var(--pismo-nadpis);font-weight:600}
+  .dnes-varenie-hero .dnes-row small{font-family:var(--pismo-text);font-weight:400;white-space:nowrap}
+  .dnes-row .sur-klik,#vyziva-den .sp-row b{font-family:var(--pismo-nadpis);font-weight:600}
+  /* príloha a doplnok v bunke: jedna veľkosť, písmo textu, tlmené — vedľajšia informácia */
+  .plan-cell .pc-pril,.plan-cell .nm.pc-pril{font-family:var(--pismo-text);font-size:13.5px;font-weight:400;letter-spacing:0;color:var(--text2)}
+  /* ponuka akcií slotu: ikona v stĺpci aj pri zalomenom riadku, písmo ovládania */
+  .akcia-pol .nm{display:grid;grid-template-columns:22px 1fr;column-gap:8px;align-items:start;font-family:var(--pismo-ui)}
+  .akcia-pol .nm .mi{text-align:center;width:auto;margin:0}
+  .menu a{font-family:var(--pismo-ui)}
+  /* riadok kcal v bunke: jedna základná línia, oddeľovač s medzerou z oboch strán, „⋯ viac" nezaberá výšku riadku navyše */
+  .plan-cell .pc-riadok{align-items:baseline;flex-wrap:nowrap}
+  .plan-cell .pc-riadok .kc{white-space:nowrap;margin-right:0}
+  .plan-cell .pc-riadok .pc-data{margin-top:0;min-width:0}
+  .plan-cell .pc-riadok .pc-data::before{content:"\00a0·\00a0"}
+  .plan-cell .pc-riadok .pc-viac{align-self:center;margin-block:-12px;flex:none}
+  /* výber farieb aj písma v jednom stĺpci, väčšia miniatúra; písmo ukáže samo seba */
+  .palety{grid-template-columns:1fr}
+  .palety .paleta{min-height:52px}
+  .paleta .vzorka{width:58px;height:38px}
+  .pismo-txt{display:flex;flex-direction:column;gap:1px;min-width:0}
+  .pismo-txt b{font-size:16px}
+  .pismo-txt .info{margin:0}
+  .pismo-ukazka{font-size:15px;color:var(--text)}
+  .pismo-vzor{width:58px}
+  /* Nákup: „Nakupujem na:" ako menovka nad prepínačmi, nie zalomená vedľa nich */
+  .nak-varky>.info:first-child{flex:0 0 100%;white-space:nowrap;margin-bottom:-2px}
+  /* pixel art z herných kuchárok v tmavej téme nesvieti (kockovaný obrus bol najsvetlejšia plocha) */
+  body.dark .pix img{filter:brightness(.8) saturate(.85)}
+  @media (prefers-color-scheme:dark){ body:not(.svetla) .pix img{filter:brightness(.8) saturate(.85)} }
+  @media screen and (max-width:820px){
+    /* detail: dlhý názov nezaberie 4 riadky nad fotkou */
+    #overlay .modal .hero h2{font-size:21px;line-height:1.22;text-wrap:balance}
+    /* Veľké písmo: „⋯ Viac" Plánu je len ikona, aby sa ▶ týždňa zmestila */
+    :root[data-rezim="obchod"] #plan-tyzden .plan-head .viac-tx{display:none}
+    :root[data-rezim="obchod"] body.plan-plny.plan-bloky-on #v-planovac .plan-topline{padding-right:58px}
+  }
+  /* Nákup: názov + znaky blokov v jednom riadku, množstvo pod ním (kolo 6) */
+  .odd .nak-row .nak-nazov,.odd .nak-row .nak-mn{display:block}
+  .odd .nak-row .nak-nazov .znaky{margin-left:6px;vertical-align:1px}
+  .odd .nak-row .nak-mn{font-weight:400;color:var(--text2);font-size:.94em}
+  .odd .nak-row .nak-mn b{color:var(--text);font-weight:700}
+  /* varenie: „1 / 13" zvislo v strede medzi tlačidlami */
+  .cook .nav2 #cook-progress{align-self:center}
+  /* detail: porcie a jednotky v jednom riadku (výber „g / ml" nebol osamote v druhom riadku) */
+  .porcie-box{flex-wrap:nowrap}
+  .porcie-box #unit-mode{margin-left:auto;min-width:0}
+  /* popis receptu: vložené písma nemajú kurzívu a dopočítaná šikmá Lora/Archivo pôsobila rozmazane */
+  .popis{font-style:normal;color:var(--text2)}
+  :root[data-rezim="obchod"] .porcie-box{flex-wrap:wrap}
+  /* plán varenia: údaje jedla vždy na vlastnom riadku pod názvom; „Variť" vo farbe bloku ako na Domove */
+  .pv-nazov > .meta2{display:block;margin-top:2px}
+  .btn.primary.blok-tlac.blok-a{background:var(--blok-a);border-color:var(--blok-a);color:var(--na-bloku)}
+  .btn.primary.blok-tlac.blok-b{background:var(--blok-b);border-color:var(--blok-b);color:var(--na-bloku)}
+  .btn.primary.blok-tlac.blok-c{background:var(--blok-c);border-color:var(--blok-c);color:var(--na-bloku)}
+  #plan-bloky .blok-karta{scroll-margin-top:10px}
+  @keyframes prekrytie-zmizni{to{opacity:0}}
+  @media print{ .modal-duch{display:none!important} }
+  .odd .nak-row.odchadza>label{opacity:.5;transition:opacity 200ms ease}
+  .odd .nak-row.odchadza .nak-nazov{text-decoration:line-through}
+  /* varenie bloku: názov jedla = skok na ďalšie jedlo */
+  .cook button.cook-jedlo{background:none;border:0;padding:4px 0;margin:2px 0 6px;font:inherit;font-size:.62em;font-weight:600;color:var(--akcent);text-align:left;cursor:pointer;min-height:32px;display:block}
+  .cook button.cook-jedlo small{font-size:.85em;opacity:.85;white-space:nowrap}
+  .porcie-box{gap:8px}
+  .porcie-box > label,.porcie-box .stepper{flex:none}
+  .porcie-box #unit-mode{flex:0 1 auto;max-width:110px}
+  /* ciele 44 px aj pre menšie ovládanie (kolo 6, ovládanie): výber jednotiek, počet porcií, „plán varenia →" */
+  .porcie-box #unit-mode,.porcie-box #pnum{min-height:44px}
+  .bk-varenia .lnk{min-height:44px;display:inline-flex;align-items:center}
+  /* karta bez bloku (budúci týždeň): tichý tón a prúžok, nie čierna linka */
+  .dnes-varenie-hero:not(.blok-a):not(.blok-b):not(.blok-c){background:var(--tint);box-shadow:inset 0 4px 0 var(--okraj),var(--shadow)}
   /* Bloky theme — end ------------------------------------------------------ */
 </style>
 </head>
@@ -1765,7 +1846,7 @@
         <!-- 8. 10.: primárne tlačidlo generuje rovno (nad naplneným týždňom sa opýta). Dotazník s ~35 voľbami
              (kotvy, pravidlá dní, rozpočet…) je pre pokročilých v „⋯ Viac → ⚙️ Nastavenie generovania". -->
         <button class="btn primary" onclick="generujTlacidlo()">✨ Zostaviť jedálniček</button>
-        <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-plan')">⋯ Viac</button>
+        <div class="menu-wrap"><button class="btn" onclick="toggleMenu('m-plan')" aria-label="Viac">⋯<span class="viac-tx"> Viac</span></button>
           <div class="menu" id="m-plan">
             <p class="menu-sk" aria-hidden="true">Týždeň</p>
             <a onclick="zavriMenu();vratSpat()">↩ Vrátiť poslednú zmenu</a>
@@ -1777,7 +1858,7 @@
             <a onclick="vymazPlan();zavriMenu()">🗑 Vyprázdniť týždeň</a>
             <p class="menu-sk" aria-hidden="true">Varenie</p>
             <a onclick="zavriMenu();planVarenia(planDen)">👨‍🍳 Plán varenia</a>
-            <a onclick="zavriMenu();otvorRozvrh()">🗓️ Rozvrh varenia (bloky)</a>
+            <a onclick="zavriMenu();otvorRozvrh()">🧩 Rozvrh varenia (bloky)</a>
             <a id="m-plan-ctrl" onclick="prepniPlanCtrl();zavriMenu()">👥 Stravníci a jedlá dňa</a>
             <a onclick="otvorGen();zavriMenu()">⚙️ Nastavenie generovania</a>
             <p class="menu-sk" aria-hidden="true">Tlač</p>
@@ -1893,7 +1974,7 @@
         <div id="zdroje-box"></div>
         <p class="info" id="zdroje-info" style="margin-top:10px"></p>
       </details>
-      <details class="panel"><summary>🎨 Zobrazenie</summary>
+      <details class="panel" id="nast-vzhlad"><summary>🎨 Vzhľad a zobrazenie</summary>
         <p class="info" id="palety-nadpis" style="margin:4px 0 0"><b>Farby appky</b> — farby blokov A/B/C ostávajú, mení sa podklad, karty a text.</p>
         <div class="palety" id="palety-box" role="radiogroup" aria-labelledby="palety-nadpis"></div>
         <p class="info" id="pisma-nadpis" style="margin:8px 0 0"><b>Písmo</b></p>
@@ -1904,7 +1985,8 @@
             <option value="svetla">Svetlá</option>
             <option value="tmava">Tmavá</option>
           </select></label>
-        <p class="info">Veľkosť písma: ⋯ Viac → Veľkosť písma a tlačidiel.</p>
+        <p class="info" id="velkost-nadpis" style="margin:8px 0 4px"><b>Veľkosť písma a tlačidiel</b></p>
+        <div class="viac-rezimy" id="velkost-box" role="group" aria-labelledby="velkost-nadpis"></div>
         <label class="switch"><input type="checkbox" id="p-balenia"> Zobrazovať balenia v nákupe (v zátvorke)</label>
       </details>
       <p class="info" id="profil-ok" role="status" aria-live="polite">Zmeny sa ukladajú hneď.</p>
